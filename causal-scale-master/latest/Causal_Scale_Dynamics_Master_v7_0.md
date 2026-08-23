@@ -1,40 +1,4 @@
----
-title: "Causal Scale Dynamics"
-subtitle: "Modular Information Geometry, Horizon Capacity, and the Ruble Equations"
-author: "Thomas Ruble"
-date: "21 August 2026"
-lang: en-US
-papersize: letter
-fontsize: 11pt
-geometry: margin=0.76in
-toc: true
-toc-depth: 3
-numbersections: true
-colorlinks: true
-linkcolor: blue
-urlcolor: blue
-header-includes:
-  - |
-    \usepackage{amsmath,amssymb,mathtools,booktabs,longtable,array,graphicx,microtype,float,xcolor,tcolorbox}
-    \definecolor{ink}{HTML}{172033}
-    \definecolor{accent}{HTML}{345B83}
-    \definecolor{soft}{HTML}{EEF4F8}
-    \definecolor{warn}{HTML}{FAF3E8}
-    \definecolor{open}{HTML}{F3EFF8}
-    \newcommand{\BKM}{\mathrm{BKM}}
-    \newcommand{\E}{\mathcal E}
-    \newcommand{\dd}{\mathrm d}
-    \newcommand{\sech}{\operatorname{sech}}
-    \newcommand{\avg}[1]{\left\langle #1\right\rangle}
-    \newcommand{\vperp}{\varrho_\perp}
-    \newcommand{\Ruble}{\mathfrak R_c}
-    \newcommand{\Xscale}{\mathcal X_\sigma}
-    \newcommand{\Sbar}{\mathcal S}
-    \newcommand{\rc}{r_c}
-    \newtcolorbox{thesisbox}{colback=soft,colframe=accent,boxrule=0.8pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
-    \newtcolorbox{warningbox}{colback=warn,colframe=orange!55!black,boxrule=0.7pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
-    \newtcolorbox{openbox}{colback=open,colframe=purple!45!black,boxrule=0.7pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
----
+
 
 > **Working master research note v7.0. Not peer reviewed.** This note distinguishes **[STANDARD]**, **[THEOREM]**, **[DEDUCTION]**, **[PRINCIPLE]**, **[CONDITIONAL]**, **[NEGATIVE]**, and **[OPEN]** statements. The homogeneous theory is closed by one explicitly stated physical equivalence principle, not advertised as a theorem of mathematics alone. The covariant perturbation theory and the global vacuum sector remain separate research problems. The declared cosmological baseline is four-dimensional spatially flat FLRW with radiation, pressureless matter, one collective scale-capacity response, and an exactly zero residual late-time floor. Current observational comparisons are background-level or response-level analyses, not an official joint Boltzmann likelihood.
 
