@@ -1,0 +1,4 @@
+[module]
+name = "deriving-value-of-g"
+entry = "entry.md"
+include = ["**/*.md"]

@@ -1,4 +1,8 @@
 [module]
 name = "causal-scale-master"
 entry = "entry.md"
-include = ["**/*.md"]
+include = [
+  "**/*.md",
+  "**/*.pdf",
+  "**/*.txt"
+]

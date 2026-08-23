@@ -1,0 +1,78 @@
+{
+  "S1_dictionary_consistency": {
+    "pass": true,
+    "detail": "Delta^2_S=4/(pi^4 c0) <=> ImB=(pi^2/64)c0 q^3; K=8ImB=(pi^2/8)c0 q^3; I=pi^4 c0/4; Delta^2_T=32/(pi^4 c2) <=> ImA=(pi^2/16)c2 q^3 [REGISTERED c2 normalization]; r=8c0/c2 [all exact symbolic]"
+  },
+  "S2_calibration": {
+    "pass": true,
+    "detail": "c0(k*)=4/(pi^4 A_s)=1.9564e+07 (memo 1.9564e7); I_zeta=4.7644e+08; per-e-fold growth 3.57% (Planck), 2.63% (ACT rounded)"
+  },
+  "S3_tensor_slot": {
+    "pass": true,
+    "detail": "c2/c0 > 222.2 (2.35 orders in spectral density); c2(k*) > 4.348e+09 (memo 4.35e9); per-mode precision ratio K_g/K_z = 2/r > 55.6 (1.74 orders) \u2014 register WHICH ratio is quoted"
+  },
+  "S4_geometric_member_weld": {
+    "pass": true,
+    "detail": "c0=4 eps S_w/pi^4, c2=2 S_w/pi^4 => r=16 eps, Delta^2_t=16/S_w, pi^4 c0/4=eps*S_w [symbolic]; S_w bound routes agree to 0.0e+00: 2.118e+11 (memo 2.12e11); eps<2.25e-03; H_mint<4.70e+13 GeV \u2014 all of v2.0 Sec. 8.4-8.6 recovered"
+  },
+  "S5_exponential_family_lemma": {
+    "pass": true,
+    "detail": "d^2/dz^2 [z psi' - psi]|_0 = psi''(0): Hess S_rel = Hess W at coincidence even though first variations differ (<T> = psi'(0) != 0) [symbolic]"
+  },
+  "S6_gauge_limit": {
+    "pass": true,
+    "detail": "eps * Delta^2_zeta = 1/S_w: the coupling-weighted covariance stays capacity-bounded as eps -> 0 while Delta^2 itself diverges (zero-information-cost gauge direction)"
+  },
+  "S7_trace_algebra": {
+    "pass": true,
+    "detail": "delta^ij Pi_ijkl = 0 (max 1.1e-16); delta.delta pi pi = 4 => <TT> = 4B  [(3.5) exact]"
+  },
+  "S8_P3_spectrum": {
+    "pass": true,
+    "detail": "Gamma(l+3)/Gamma(l)=l(l+1)(l+2), max rel err 1.92e-31"
+  },
+  "S9_running_class": {
+    "pass": true,
+    "detail": "Planck vs P-ACT-LB tilt: Delta delta = 0.0094 => 1.74 sigma [WATCH]; minimal-class bound |alpha_s| <~ delta^2 = 1.2e-03 (P) / 6.6e-04 (ACT); implied alpha if physical: 3.1e-03..6.3e-03 for Dlnk 1.5-3 \u2014 EXCEEDS class bound; Planck 2018: alpha_s = -0.0045+-0.0067 (consistent w/ 0)"
+  },
+  "S10_non_gaussianity": {
+    "pass": true,
+    "detail": "Ward f_NL^sq = 0.0146 (P) / 0.0108 (ACT); capacity floor 1/sqrt(c0) = 2.26e-04; geometric-member intrinsic floor 1/sqrt(S_w) <= 2.17e-06; Planck 2018 IX: all shapes consistent with 0 within 1.6 sigma \u2014 kill |f_NL|>~1 has >= 0.20... headroom local sigma=5.1, eq=47, ort=24"
+  },
+  "S11_tilt_identities": {
+    "pass": true,
+    "detail": "n_s - 1 = -d ln I/d ln k = -delta; alpha_s = 0 for constant delta [symbolic]"
+  },
+  "S12_dual_N_reading": {
+    "pass": true,
+    "detail": "c0 ~ N^2 reading: N ~ 4423 (order-of-magnitude, normalization-dependent; matches the 'perturbative large-N QFT' regime of the holographic fits)"
+  },
+  "_summary": {
+    "total": 12,
+    "failed": 0,
+    "constants": {
+      "A_s": 2.0989031673191437e-09,
+      "c0_star": 19564470.461582504,
+      "I_zeta": 476439321.05608535,
+      "delta_Planck": 0.0351,
+      "delta_PACTLB": 0.0257,
+      "tilt_tension_sigma": 1.7395480439643722,
+      "c2_over_c0_min": 222.22222222222223,
+      "c2_min": 4347660102.57389,
+      "K_ratio_per_pol_min": 55.55555555555556,
+      "eps_mint_max": 0.00225,
+      "Sw_mint_min": 211750809358.26016,
+      "H_mint_max_GeV": 47019855729840.99,
+      "alpha_class_bound_P": 0.00123201,
+      "alpha_implied_band": [
+        0.003133333333333333,
+        0.006266666666666666
+      ],
+      "fNL_ward_P": 0.014624999999999999,
+      "fNL_ward_ACT": 0.010833333333333334,
+      "NG_floor_capacity": 0.0002260819816443509,
+      "NG_floor_geometric": 2.1731387729429688e-06,
+      "N_dual_reading": 4423.174251776942
+    }
+  }
+}

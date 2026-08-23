@@ -1,0 +1,11 @@
+[module]
+name = "arxiv-2002-03318"
+entry = "entry.md"
+include = ["**"]
+
+[labels]
+"arxiv.authors" = ["Xingdong Feng", "Jian Huang", "Yuling Jiao", "Shuang Zhang"]
+"arxiv.categories" = ["stat.ME", "stat.CO"]
+"arxiv.first_submitted" = ["2020-02-09"]
+"arxiv.primary_category" = ["stat.ME"]
+"arxiv.version_submitted" = ["2020-02-09"]

@@ -1,0 +1,622 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.78in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,mathtools,bm,mathrsfs}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,shapes.geometric}
+
+\definecolor{ink}{HTML}{172033}
+\definecolor{accent}{HTML}{345B83}
+\definecolor{soft}{HTML}{EEF4F8}
+\definecolor{result}{HTML}{ECF6EF}
+\definecolor{warn}{HTML}{FAF3E8}
+\definecolor{open}{HTML}{F3EFF8}
+\hypersetup{colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent,
+  pdftitle={Causal-Wall Spectral Theory: A Non-Stochastic Completion of the Scalar Cosmological Sector},
+  pdfauthor={Thomas Ruble}}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Causal-Wall Spectral Theory}
+\rhead{Technical memorandum v2.0}
+\cfoot{\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.56em}
+\setlist[itemize]{topsep=0.25em,itemsep=0.17em,leftmargin=1.6em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.20em,leftmargin=1.7em}
+\titleformat{\section}{\Large\bfseries\color{ink}}{\thesection}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries\color{ink}}{\thesubsection}{0.6em}{}
+\numberwithin{equation}{section}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\BKM}{\mathrm{BKM}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Sc}{\mathfrak{Sc}}
+\newcommand{\Wall}{\mathfrak W}
+\newcommand{\Iz}{\mathcal I_\zeta}
+\newcommand{\Kz}{\mathcal K_\zeta}
+\newcommand{\cz}{c^{(0)}}
+\newcommand{\ct}{c^{(2)}}
+\newcommand{\E}{\mathcal E}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newtcolorbox{thesisbox}{colback=soft,colframe=accent,boxrule=0.8pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newtcolorbox{resultbox}{colback=result,colframe=green!45!black,boxrule=0.8pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newtcolorbox{warningbox}{colback=warn,colframe=orange!55!black,boxrule=0.7pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newtcolorbox{openbox}{colback=open,colframe=purple!45!black,boxrule=0.7pt,arc=1.2mm,left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{0.55in}
+{\Huge\bfseries\color{ink} Causal-Wall Spectral Theory\par}
+\vspace{0.18in}
+{\LARGE A Non-Stochastic Completion of the\par}
+\vspace{0.06in}
+{\LARGE Scalar Cosmological Sector\par}
+\vspace{0.42in}
+{\Large Technical memorandum v2.0\par}
+\vspace{0.58in}
+{\large Thomas Ruble research programme\par}
+\vspace{0.10in}
+{\normalsize 21 August 2026\par}
+\vfill
+\begin{minipage}{0.92\textwidth}
+\small
+\textbf{Status.} Working research memorandum; not peer reviewed. The note identifies the mathematically correct target behind the conventional demand for a primordial ``perturbation mechanism'': the spectral density of the wall stress-trace response, equivalently the relative-entropy precision operator for local logarithmic scale descent. The conformal $P_3$ form, the holographic spectral dictionary, and the numerical conversions are exact or literature-backed in the stated regimes. The microscopic causal-wall algebra, its numerical scalar spectral density, and its tensor sector remain to be constructed. No ontological random field or temporally localized stochastic seeding event is assumed.
+\end{minipage}
+\end{titlepage}
+
+\begin{abstract}
+The observable cosmic microwave background constrains a hierarchy of correlations; it does not determine whether those correlations arose from an ontological random process. This memorandum reformulates the scalar sector of cosmological ``perturbation theory'' as a spectral problem on an observer-dressed causal wall. The local scalar variable is the logarithmic scale residue $\zeta=-\delta\ln\sigma$. A scale-to-state functor maps local Weyl deformations into restricted wall states. The Hessian of relative entropy defines a positive precision operator $\Kz=\Phi^*G^{\BKM}$ on $C^\infty(\Sigma)/\mathbb R$.
+
+Homogeneity, isotropy, weight zero, positivity, and dilation covariance on a three-dimensional wall force the flat quadratic symbol $\Kz(k)\propto k^3$. Its curved conformal completion is the critical fractional GJMS operator $P_3$. The inverse kernel therefore gives a scale-invariant $k^{-3}$ covariance. This construction is shown to coincide exactly with the scalar spectral-density formulation of holographic cosmology. If the three-dimensional stress-tensor two-point function is decomposed as $\langle T_{ij}T_{kl}\rangle=A\Pi_{ijkl}+B\pi_{ij}\pi_{kl}$, then
+\[
+\Delta_\zeta^2(k)=\frac{1}{16\pi^2}\frac{k^3}{\operatorname{Im}B(-k^2-i0)}=\frac{4}{\pi^4\cz(k)}.
+\]
+Consequently,
+\[
+\boxed{\Kz(k)=8\operatorname{Im}B(-k^2-i0)=\frac{\pi^2}{8}\cz(k)k^3=\frac{\Iz(k)}{2\pi^2}k^3,}
+\qquad
+\boxed{\Iz(k)=\frac{\pi^4}{4}\cz(k)=\frac1{\Delta_\zeta^2(k)}.}
+\]
+The ``lumpiness'' is therefore the inverse spectral discernibility of local scale. At a conformal fixed point scale is gauge and the stress trace vanishes; a controlled deformation makes it observable through $T=\beta^I\mathcal O_I$, so the scalar precision is a beta-function-weighted operator capacity. The red tilt is the RG running of that capacity,
+\[
+n_s-1=-\frac{\dd\ln\Iz}{\dd\ln k}=-\frac{\dd\ln\cz}{\dd\ln k}.
+\]
+The scale $k$ is an RG/resolution coordinate of the wall theory. A near-de Sitter inflationary history is one possible bulk metric reconstruction of this near-conformal flow, not a required ontological era.
+
+Using Planck's scalar amplitude gives $\Iz(k_*)=4.764\times10^8$ and $\cz(k_*)=1.956\times10^7$. Planck and ACT DR6 imply a slow capacity running $\delta=1-n_s$ of approximately $0.035$ and $0.026$, respectively. The BICEP/Keck bound $r<0.036$, combined with the holographic tensor dictionary $r=8\cz/\ct$, requires $\ct/\cz>222$. The minimal rank-one scale descent predicts one adiabatic scalar source, no independent isocurvature source, passive coherent acoustic transfer, zero running at leading power-law order, and very small connected higher cumulants. The tensor spectral density is a separate spin-two wall observable rather than a free sound-speed parameter.
+
+The construction closes the conceptual scalar target: no random kick, inflaton potential, or arbitrary primordial feature function is needed. The remaining microscopic task is to identify the wall QFT or algebraic state whose stress-trace spectral density has the measured normalization and slow running, and then compute its tensor and higher-point spectral functions.
+\end{abstract}
+
+\tableofcontents
+\clearpage
+
+\section{The question after removing the fictitious mechanism}
+
+The conventional sentence ``quantum fluctuations perturb an initially homogeneous universe'' combines three logically separate statements:
+\begin{enumerate}
+\item a homogeneous background is used as the zeroth-order metric presentation;
+\item the observable state has nonzero connected correlations around that presentation;
+\item those correlations may be represented by a classical random field for calculation.
+\end{enumerate}
+Only the first two are empirical and mathematical necessities. The third is a representation. It does not establish primitive ontological chance.
+
+The CMB requires a theory to provide:
+\begin{equation}
+\boxed{
+\text{two-point spectrum, higher cumulants, mode content, phase coherence, and transfer laws}.}
+\end{equation}
+It does not require a temporally localized random seeding event.
+
+\begin{thesisbox}
+\textbf{Retyped target.} The scalar sector is the correlation hierarchy of the wall-relative logarithmic scale residue. The leading object is a positive precision operator, not a random force.
+\end{thesisbox}
+
+A further philosophical correction is required. If the pre-observable structure is not a Lorentzian metric state, then it is not literally ``infinitely many years old.'' Years are readings of the reconstructed metric clock. The rigorous statement is that the underlying state need not be parameterized by FLRW proper time at all. The apparent age of the FLRW chart does not determine the ontological type or duration of what is reconstructed.
+
+\section{The scale stack and the wall-state functional}
+
+Let $\Sigma$ be a spatial causal wall and let $\Sc(\Sigma)$ denote the groupoid of positive scale sections
+\begin{equation}
+\sigma\in\Gamma(\mathcal E[1]),\qquad \sigma>0,
+\end{equation}
+with changes of conformal trivialization as morphisms. Choose a homogeneous reference section $\bar\sigma$ and write
+\begin{equation}
+\boxed{\sigma(x)=\bar\sigma e^{-\zeta(x)}.}
+\end{equation}
+The tangent $\zeta$ is dimensionless. A constant $\zeta$ shifts the homogeneous clock reading and is not inhomogeneity. Hence
+\begin{equation}
+T_{\bar\sigma}\Sc(\Sigma)\simeq C^\infty(\Sigma)/\mathbb R.
+\end{equation}
+
+Let $\Wall$ denote the stack of observer-dressed walls carrying a local algebra $\mathcal A_\Sigma$, a state $\omega_\Sigma$, modular comparison data, and the scale geometry. A scale-to-state functor
+\begin{equation}
+\Phi:\Sc(\Sigma)\longrightarrow\Wall
+\end{equation}
+assigns
+\begin{equation}
+\omega_{\Sigma,\zeta}:=\Phi(\bar\sigma e^{-\zeta}).
+\end{equation}
+Define the relative-entropy functional
+\begin{equation}
+\boxed{\mathscr S_\Sigma[\zeta]=S(\omega_{\Sigma,\zeta}\|\omega_{\Sigma,0}).}
+\end{equation}
+At coincidence the first variation vanishes. The Hessian is
+\begin{equation}
+\boxed{
+\mathcal K_2(x,y)=\left.\frac{\delta^2\mathscr S_\Sigma}{\delta\zeta(x)\delta\zeta(y)}\right|_{0}=\Phi^*G^{\BKM}(x,y).}
+\end{equation}
+This is the descent precision operator.
+
+In a quasi-free or leading quadratic sector, its inverse is the covariance:
+\begin{equation}
+\mathcal C_2=\mathcal K_2^{-1}.
+\end{equation}
+A Gaussian random field is one commutative representation of $\mathcal C_2$; it is not required as ontology.
+
+\section{Weyl variation identifies the precision with stress-trace response}
+
+Let $W_\Sigma[g]$ be the Euclidean connected generating functional of the wall state. A local Weyl deformation
+\begin{equation}
+g_{ij}\mapsto e^{2\zeta}g_{ij}
+\end{equation}
+inserts the trace of the stress tensor:
+\begin{equation}
+\frac{\delta W_\Sigma}{\delta\zeta(x)}=\sqrt g\,\langle T^i{}_i(x)\rangle
+\end{equation}
+up to the standard sign convention. A second variation yields the connected trace-trace response plus local contact terms:
+\begin{equation}
+\frac{\delta^2W_\Sigma}{\delta\zeta(x)\delta\zeta(y)}\sim\langle T(x)T(y)\rangle_c+\text{contacts}.
+\end{equation}
+The positive nonlocal spectral part is precisely the datum needed for the scalar covariance.
+
+For a three-dimensional QFT, write the stress-tensor two-point function as
+\begin{equation}
+\langle\!\langle T_{ij}(q)T_{kl}(-q)\rangle\!\rangle=A(q^2)\Pi_{ijkl}+B(q^2)\pi_{ij}\pi_{kl}.
+\end{equation}
+Then
+\begin{equation}
+\langle\!\langle T(q)T(-q)\rangle\!\rangle=4B(q^2).
+\end{equation}
+McFadden and Skenderis derived the holographic scalar and tensor spectra
+\begin{equation}
+\Delta_S^2(q)=\frac{1}{16\pi^2}\frac{q^3}{\operatorname{Im}B(-q^2-i0)},
+\qquad
+\Delta_T^2(q)=\frac{2}{\pi^2}\frac{q^3}{\operatorname{Im}A(-q^2-i0)}.
+\end{equation}
+Using the positive spin-zero and spin-two spectral functions $\cz,\ct$,
+\begin{equation}
+\boxed{
+\Delta_S^2(q)=\frac{4}{\pi^4\cz(q)},
+\qquad
+\Delta_T^2(q)=\frac{32}{\pi^4\ct(q)}.}
+\label{eq:holo-powers}
+\end{equation}
+
+The scalar precision kernel is therefore
+\begin{equation}
+\boxed{
+\Kz(q)=8\operatorname{Im}B(-q^2-i0)=\frac{\pi^2}{8}\cz(q)q^3.}
+\label{eq:K-B}
+\end{equation}
+Define
+\begin{equation}
+\boxed{\Iz(q):=\frac{\pi^4}{4}\cz(q).}
+\end{equation}
+Then
+\begin{equation}
+\boxed{
+\Kz(q)=\frac{\Iz(q)}{2\pi^2}q^3,
+\qquad
+\Delta_\zeta^2(q)=\frac1{\Iz(q)}.}
+\label{eq:main-dictionary}
+\end{equation}
+
+\begin{resultbox}
+The descent precision postulated in the first memo is exactly the stress-trace spectral precision already used in holographic cosmology. The target is not a fictitious perturbing substance. It is a QFT spectral function.
+\end{resultbox}
+
+\section{Why the critical operator is $P_3$}
+
+Assume a homogeneous and isotropic three-dimensional wall, a dimensionless weight-zero residue $\zeta$, positivity, and no intrinsic wall length. In flat space,
+\begin{equation}
+\mathscr S^{(2)}=\frac12\int\frac{\dd^3k}{(2\pi)^3}\Kz(k)|\zeta_{\bm k}|^2.
+\end{equation}
+Dilation covariance requires
+\begin{equation}
+\Kz(\lambda k)=\lambda^3\Kz(k).
+\end{equation}
+Therefore
+\begin{equation}
+\boxed{\Kz(k)=C|k|^3.}
+\end{equation}
+On a curved conformal three-manifold, the natural completion is the critical fractional GJMS operator
+\begin{equation}
+\boxed{P_3,\qquad P_3=(-\Delta)^{3/2}\text{ in flat space}.}
+\end{equation}
+Fractional GJMS operators arise from the scattering or Dirichlet-to-Neumann structure of a conformal filling. The wall nonlocality is therefore the boundary trace of a local filling problem, not a new action-at-a-distance force.
+
+On the round unit $S^3$,
+\begin{equation}
+\boxed{P_3Y_{\ell mn}=\ell(\ell+1)(\ell+2)Y_{\ell mn},\qquad \ell\ge1.}
+\end{equation}
+The constant mode is annihilated, exactly matching the quotient by a homogeneous clock shift.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/sphere3_precision_comparison.pdf}
+\caption{The critical $P_3$ precision and weak power-law deformations corresponding to the Planck and ACT scalar tilts.}
+\end{figure}
+
+\section{The tilt is an RG property, not a random-production history}
+
+At an exact conformal fixed point the stress trace vanishes, so local scale is gauge and there is no independent scalar trace response. A controlled deformation gives
+\begin{equation}
+\boxed{T=\beta^I(g)\mathcal O_I}
+\end{equation}
+up to anomalies and improvement terms. Consequently,
+\begin{equation}
+\langle TT\rangle\sim\beta^I\beta^J\langle\mathcal O_I\mathcal O_J\rangle,
+\end{equation}
+and the scalar precision is a beta-function-weighted operator capacity.
+
+For the observed near-power-law spectrum, write
+\begin{equation}
+\cz(k)=\cz_*\left(\frac{k}{k_*}\right)^\delta.
+\end{equation}
+Then
+\begin{equation}
+\boxed{
+\Delta_\zeta^2(k)=A_s\left(\frac{k}{k_*}\right)^{-\delta},
+\qquad
+\delta=1-n_s=\frac{\dd\ln\cz}{\dd\ln k}.}
+\end{equation}
+Thus
+\begin{equation}
+\boxed{n_s-1=-\frac{\dd\ln\Iz}{\dd\ln k}.}
+\end{equation}
+The running is
+\begin{equation}
+\boxed{\alpha_s=-\frac{\dd^2\ln\Iz}{\dd(\ln k)^2}.}
+\end{equation}
+The minimal universality class has constant $\delta$ and therefore $\alpha_s=0$ at leading order. Current Planck and ACT analyses are consistent with no compelling running.
+
+The scale $k$ in these equations is the RG or resolution coordinate of the wall theory. A bulk cosmological time can be reconstructed from the RG flow through the domain-wall/cosmology correspondence, but that bulk clock is not required as the ontology of the spectral state.
+
+\section{Inflation as one geometric dual, not a required ontological era}
+
+Holographic cosmology provides an existing framework in which primordial spectra are computed from a three-dimensional QFT rather than from stochastic fields evolving in an early metric spacetime. Standard slow-roll inflation is recovered when the QFT is strongly coupled and near a fixed point; other QFT regimes correspond to non-geometric early phases. Published fits have shown that such non-geometric holographic models can fit the CMB comparably to the standard power-law spectrum over much of the measured range.
+
+The conceptual dictionary is
+\begin{equation}
+\boxed{
+\begin{array}{ccl}
+\text{wall RG scale }\ln k&\leftrightarrow&\text{bulk radial/time coordinate},\\
+\text{near fixed point}&\leftrightarrow&\text{apparent near-de Sitter inflation},\\
+\text{stress spectral density}&\leftrightarrow&\text{cosmological covariance},\\
+\text{QFT higher correlators}&\leftrightarrow&\text{cosmological non-Gaussianity}.
+\end{array}}
+\end{equation}
+
+Accordingly, the theory need not say that a universe literally began at a point and then received random kicks during an ontological inflationary epoch. It says that an observer-accessible metric reconstruction of a near-conformal state has the correlation structure conventionally represented as inflationary perturbations.
+
+\section{Numerical spectral calibration}
+
+Using Planck's
+\begin{equation}
+\ln(10^{10}A_s)=3.044
+\end{equation}
+gives
+\begin{equation}
+\boxed{A_s=2.0989\times10^{-9},}
+\end{equation}
+\begin{equation}
+\boxed{\Iz(k_*)=A_s^{-1}=4.7644\times10^8,}
+\end{equation}
+and, from \cref{eq:holo-powers},
+\begin{equation}
+\boxed{\cz(k_*)=\frac{4}{\pi^4A_s}=1.9564\times10^7.}
+\end{equation}
+This is the measured scalar wall capacity in the holographic spectral normalization.
+
+Planck gives
+\begin{equation}
+\delta_{\rm Planck}=1-n_s=0.0351\pm0.0042,
+\end{equation}
+while the ACT DR6 joint baseline gives approximately
+\begin{equation}
+\delta_{\rm ACT}=0.026\pm0.003.
+\end{equation}
+These are not inconsistent descriptions of an exact number; they are current determinations under different data combinations. Both place the wall close to the critical $P_3$ universality class.
+
+The corresponding growth of scalar discernibility per e-fold of wavenumber is approximately
+\begin{equation}
+3.57\%\quad\text{(Planck)},
+\qquad
+2.63\%\quad\text{(ACT)}.
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/wall_discernibility.pdf}
+\caption{The inverse scalar spectrum interpreted as wall scale discernibility. The difference between the curves is current data-level variation in the inferred slow RG running, not a different stochastic mechanism.}
+\end{figure}
+
+\section{Tensor and scalar spectral slots}
+
+The spin-two spectral function appears independently in \cref{eq:holo-powers}. The tensor-to-scalar ratio is
+\begin{equation}
+\boxed{r=8\frac{\cz}{\ct}.}
+\end{equation}
+The BICEP/Keck bound $r<0.036$ therefore implies
+\begin{equation}
+\boxed{\frac{\ct}{\cz}>222.2,}
+\end{equation}
+and, using the scalar calibration,
+\begin{equation}
+\boxed{\ct(k_*)>4.35\times10^9.}
+\end{equation}
+The wall is at least two orders of magnitude more precise against spin-two deformation than against scalar scale deformation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{figures/scalar_tensor_capacity.pdf}
+\caption{Measured scalar wall spectral density and the current lower bound on spin-two precision.}
+\end{figure}
+
+The minimal rank-one scale-descent hypothesis supplies one scalar source and no independent isocurvature source. It does not by itself calculate $\ct$; spin-two conformal-class response is a separate representation of the wall algebra. Thus the tensor sector remains a computation, not a freely adjustable sound speed.
+
+Conditionally, if the Einstein single-clock dictionary $r=16\epsilon$ and $\Iz=\epsilon\mathfrak S$ is used as a bulk reconstruction, the tensor bound gives
+\begin{equation}
+\epsilon<2.25\times10^{-3},
+\end{equation}
+\begin{equation}
+\mathfrak S>2.12\times10^{11},
+\end{equation}
+and
+\begin{equation}
+H<4.7\times10^{13}\ \mathrm{GeV}.
+\end{equation}
+These are properties of that bulk metric reconstruction. They do not date an ontological beginning.
+
+\section{Adiabaticity, coherence, and higher cumulants}
+
+If all material sectors descend through one local scale residue,
+\begin{equation}
+\rho_i(x)=\bar\rho_i(N+\zeta(x)),
+\end{equation}
+then
+\begin{equation}
+\delta\rho_i=\bar\rho_i'\zeta
+\end{equation}
+and all relative entropy modes vanish:
+\begin{equation}
+\boxed{S_{ij}=3(\zeta_i-\zeta_j)=0.}
+\end{equation}
+Adiabaticity is therefore the rank-one statement that all observed matter clocks share one local scale residue.
+
+After the wall covariance is specified, photon-baryon, neutrino, and gravitational transfer are deterministic:
+\begin{equation}
+C_\ell^{XY}=4\pi\int\dd\ln k\,\Delta_\zeta^2(k)\Theta_\ell^X(k)\Theta_\ell^Y(k).
+\end{equation}
+No continuously active incoherent seed is present, so acoustic phases remain coherent.
+
+Expand the wall functional:
+\begin{equation}
+\mathscr S[\zeta]=\frac12\mathcal K_2[\zeta^2]+\frac1{3!}\mathcal K_3[\zeta^3]+\frac1{4!}\mathcal K_4[\zeta^4]+\cdots.
+\end{equation}
+Then
+\begin{equation}
+\mathcal K_2\leftrightarrow\text{power spectrum},\qquad
+\mathcal K_3\leftrightarrow\text{bispectrum},\qquad
+\mathcal K_4\leftrightarrow\text{connected trispectrum}.
+\end{equation}
+A quasi-free leading wall state gives very small connected higher cumulants without invoking Gaussian ontic dice. If the standard single-clock dilation Ward identity applies, the squeezed local target is
+\begin{equation}
+\boxed{f_{\rm NL}^{\rm squeezed}=\frac5{12}(1-n_s),}
+\end{equation}
+which is approximately $0.0146$ using Planck and $0.0108$ using ACT, far below current sensitivity.
+
+\section{Economy and the legitimate stopping condition}
+
+The scalar theory does not require an arbitrary primordial function. Its minimal universality class is specified by two state invariants at a pivot:
+\begin{equation}
+\boxed{\cz(k_*),\qquad \delta_*:=\left.\frac{\dd\ln\cz}{\dd\ln k}\right|_{k_*}.}
+\end{equation}
+These are analogous to a central capacity and a critical exponent. They are not forces, potentials, or stochastic-source functions. Once the microscopic wall algebra is specified, they are calculable QFT data.
+
+The leading predictions are:
+\begin{enumerate}
+\item critical $P_3$ scalar precision with slow RG breaking;
+\item one adiabatic scalar mode and no independent isocurvature source;
+\item passive coherent acoustic transfer;
+\item zero running at leading constant-exponent order;
+\item near-quasi-free higher cumulants;
+\item a separate tensor precision satisfying the current bound $\ct/\cz>222$.
+\end{enumerate}
+
+The stopping condition for the scalar sector is therefore not a stochastic mechanism. It is the specification of a wall universality class:
+\begin{equation}
+\boxed{
+\text{local algebra and state}\quad\Longrightarrow\quad\cz(k),\ \ct(k),\ \langle TTT\rangle,\ldots}
+\end{equation}
+Once these spectral data are calculated, all scalar and tensor cosmological correlators follow through established transfer maps.
+
+\begin{warningbox}
+The numerical values $\cz(k_*)$ and $\delta_*$ are presently inferred from the CMB. The theory has derived their mathematical type and the full spectral dictionary, not yet their microscopic values. Claiming otherwise would turn a successful retyping into an overclaim.
+\end{warningbox}
+
+\section{Consistency with Causal Scale Dynamics}
+
+The main late-time theory and the descent spectrum are different components of one pullback information geometry:
+\begin{equation}
+\Phi^*G^{\BKM}
+=
+G_{NN}\,\dd N^2
++
+\int\dd^3x\dd^3y\,G_{\zeta\zeta}(x,y)\dd\zeta(x)\dd\zeta(y)
++\cdots.
+\end{equation}
+
+The homogeneous component produces the late-time scale-susceptibility pulse. The spatial component produces the local scale-residue precision. There is no vertical/horizontal conflation:
+\begin{equation}
+\boxed{
+\begin{aligned}
+G_{NN}&\longrightarrow\text{cosmic background response},\\
+G_{\zeta\zeta}&\longrightarrow\text{observable inhomogeneous covariance}.
+\end{aligned}}
+\end{equation}
+
+The same conceptual rules are preserved:
+\begin{itemize}
+\item scale is a section, not an absolute substance;
+\item observable structure is wall-relative;
+\item central energy shifts have zero BKM length;
+\item correlations need not represent ontological randomness;
+\item metric time is a coordinate of the reconstructed presentation, not necessarily a parameter of the pre-observable state.
+\end{itemize}
+
+\section{Falsification conditions}
+
+The minimal descent-spectrum sector fails if any of the following is established:
+\begin{enumerate}
+\item a substantial primordial isocurvature mode requiring more than one scale tangent;
+\item significant incoherent active seeding of acoustic modes;
+\item a primordial scalar spectrum requiring arbitrary features rather than a controlled spectral density;
+\item large connected non-Gaussianity incompatible with the wall higher correlators;
+\item a tensor/scalar spectral ratio incompatible with the calculated wall algebra;
+\item failure of the actual causal-wall relative-entropy Hessian to produce the $P_3$ critical form;
+\item the need to insert an independent phenomenological sound-speed or slip function not derivable from the wall spectral data.
+\end{enumerate}
+
+\section{Conclusion}
+
+The correct object behind the conventional perturbation demand is
+\begin{equation}
+\boxed{\Kz=\delta^2S_{\rm rel}/\delta\zeta^2,}
+\end{equation}
+not a random force.
+
+The exact wall/QFT dictionary is
+\begin{equation}
+\boxed{
+\Kz(k)=8\operatorname{Im}B(-k^2-i0)=\frac{\pi^2}{8}\cz(k)k^3,}
+\end{equation}
+\begin{equation}
+\boxed{
+\Delta_\zeta^2(k)=\frac4{\pi^4\cz(k)}=\frac1{\Iz(k)}.}
+\end{equation}
+
+This identifies the scalar CMB spectrum as inverse wall discernibility. Conformal geometry fixes the critical $P_3$ operator; weak RG flow supplies the tilt; higher wall correlators supply non-Gaussianities; ordinary transfer physics supplies the observed CMB and matter spectra. A near-de Sitter inflationary spacetime is one geometric dual of a near-conformal wall flow, not a required ontological era or stochastic creation mechanism.
+
+The outstanding problem is now precise and finite:
+\begin{equation}
+\boxed{
+\text{identify the causal-wall QFT/state and compute }\cz(k),\ \ct(k),\text{ and higher stress correlators}.}
+\end{equation}
+That is a spectral calculation, not an ether-wind search.
+
+\appendix
+\section{Numerical receipts}
+
+The accompanying script \texttt{wall\_spectral\_dictionary.py} verifies:
+\begin{itemize}
+\item $\Kz=8\operatorname{Im}B=(\pi^2/8)\cz k^3=\Iz k^3/(2\pi^2)$;
+\item $P_3Y_{\ell mn}=\ell(\ell+1)(\ell+2)Y_{\ell mn}$ to machine precision;
+\item the Planck and ACT spectral-running dictionaries;
+\item the scalar capacity and tensor-precision bound;
+\item the conditional Einstein reconstruction bounds.
+\end{itemize}
+
+\section{References}
+\begin{thebibliography}{99}
+
+\bibitem{BFV2003}
+R. Brunetti, K. Fredenhagen, and R. Verch,
+``The generally covariant locality principle: A new paradigm for local quantum physics,''
+\emph{Communications in Mathematical Physics} \textbf{237}, 31 (2003),
+\href{https://arxiv.org/abs/math-ph/0112041}{arXiv:math-ph/0112041}.
+
+\bibitem{GrahamZworski2003}
+C. R. Graham and M. Zworski,
+``Scattering matrix in conformal geometry,''
+\emph{Inventiones Mathematicae} \textbf{152}, 89 (2003),
+\href{https://arxiv.org/abs/math/0109089}{arXiv:math/0109089}.
+
+\bibitem{McFaddenSkenderis2010}
+P. McFadden and K. Skenderis,
+``Holography for cosmology,''
+\emph{Physical Review D} \textbf{81}, 021301 (2010),
+\href{https://arxiv.org/abs/0907.5542}{arXiv:0907.5542}.
+
+\bibitem{McFadden2013}
+P. McFadden,
+``On the power spectrum of inflationary cosmologies dual to a deformed CFT,''
+\emph{Journal of High Energy Physics} \textbf{10}, 071 (2013),
+\href{https://arxiv.org/abs/1308.0331}{arXiv:1308.0331}.
+
+\bibitem{BzowskiMcFaddenSkenderis2013}
+A. Bzowski, P. McFadden, and K. Skenderis,
+``Holography for inflation using conformal perturbation theory,''
+\emph{Journal of High Energy Physics} \textbf{04}, 047 (2013),
+\href{https://arxiv.org/abs/1211.4550}{arXiv:1211.4550}.
+
+\bibitem{McFaddenSkenderis2011}
+P. McFadden and K. Skenderis,
+``Cosmological 3-point correlators from holography,''
+\emph{Journal of Cosmology and Astroparticle Physics} \textbf{06}, 030 (2011),
+\href{https://arxiv.org/abs/1104.3894}{arXiv:1104.3894}.
+
+\bibitem{AfshordiGouldSkenderis2017}
+N. Afshordi, E. Gould, and K. Skenderis,
+``Constraining holographic cosmology using Planck data,''
+\emph{Physical Review D} \textbf{95}, 123505 (2017),
+\href{https://arxiv.org/abs/1703.05385}{arXiv:1703.05385}.
+
+\bibitem{PlanckInflation2018}
+Planck Collaboration,
+``Planck 2018 results. X. Constraints on inflation,''
+\emph{Astronomy \& Astrophysics} \textbf{641}, A10 (2020),
+\href{https://arxiv.org/abs/1807.06211}{arXiv:1807.06211}.
+
+\bibitem{PlanckNG2019}
+Planck Collaboration,
+``Planck 2018 results. IX. Constraints on primordial non-Gaussianity,''
+\emph{Astronomy \& Astrophysics} \textbf{641}, A9 (2020),
+\href{https://arxiv.org/abs/1905.05697}{arXiv:1905.05697}.
+
+\bibitem{ACTDR6Params2025}
+T. Louis et al.,
+``The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and $\Lambda$CDM parameters,''
+\emph{Journal of Cosmology and Astroparticle Physics} \textbf{11}, 062 (2025),
+\href{https://arxiv.org/abs/2503.14452}{arXiv:2503.14452}.
+
+\bibitem{BICEPKeck2021}
+BICEP/Keck Collaboration,
+``Improved constraints on primordial gravitational waves using Planck, WMAP, and BICEP/Keck observations through the 2018 observing season,''
+\emph{Physical Review Letters} \textbf{127}, 151301 (2021),
+\href{https://arxiv.org/abs/2110.00483}{arXiv:2110.00483}.
+
+\bibitem{Maldacena2003}
+J. Maldacena,
+``Non-Gaussian features of primordial fluctuations in single field inflationary models,''
+\emph{Journal of High Energy Physics} \textbf{05}, 013 (2003),
+\href{https://arxiv.org/abs/astro-ph/0210603}{arXiv:astro-ph/0210603}.
+
+\end{thebibliography}
+\end{document}

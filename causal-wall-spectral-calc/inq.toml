@@ -1,0 +1,4 @@
+[module]
+name = "causal-wall-spectral-calc"
+entry = "entry.md"
+include = ["**/*.md"]

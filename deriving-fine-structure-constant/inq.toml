@@ -1,0 +1,4 @@
+[module]
+name = "deriving-fine-structure-constant"
+entry = "entry.md"
+include = ["**/*.md"]

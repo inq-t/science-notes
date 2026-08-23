@@ -1,0 +1,4 @@
+[module]
+name = "scale-as-modular-observable"
+entry = "entry.md"
+include = ["**/*.md"]

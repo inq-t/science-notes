@@ -1,0 +1,144 @@
+\begin{thebibliography}{29}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Breheny and Huang(2011)}]{breheny2011coordinate}
+Breheny, P. and Huang, J. (2011), \enquote{Coordinate descent algorithms for
+  nonconvex penalized regression, with applications to biological feature
+  selection,} \textit{The Annals of Applied Statistics}, 5, 232.
+
+\bibitem[{Buckley and James(1979)}]{buckley1979linear}
+Buckley, J. and James, I. (1979), \enquote{Linear regression with censored
+  data,} \textit{Biometrika}, 66, 429--436.
+
+\bibitem[{Cai et~al.(2009)Cai, Huang, and Tian}]{cai2009regularized}
+Cai, T., Huang, J., and Tian, L. (2009), \enquote{Regularized estimation for
+  the accelerated failure time model,} \textit{Biometrics}, 65, 394--404.
+
+\bibitem[{Cox(1972)}]{cox1972regression}
+Cox, D.~R. (1972), \enquote{Regression models and life-tables,} \textit{Journal
+  of the Royal Statistical Society: Series B}, 34, 187--202.
+
+\bibitem[{Fan and Li(2001)}]{fan2001variable}
+Fan, J. and Li, R. (2001), \enquote{Variable selection via nonconcave penalized
+  likelihood and its oracle properties,} \textit{Journal of the American
+  statistical Association}, 96, 1348--1360.
+
+\bibitem[{Fan and Lv(2008)}]{fan2008sure}
+Fan, J. and Lv, J. (2008), \enquote{Sure independence screening for ultrahigh
+  dimensional feature space,} \textit{Journal of the Royal Statistical Society:
+  Series B}, 70, 849--911.
+
+\bibitem[{Hong and Zhang(2010)}]{hong2010weighted}
+Hong, D. and Zhang, F. (2010), \enquote{Weighted elastic net model for mass
+  spectrometry imaging processing,} \textit{Mathematical Modelling of Natural
+  Phenomena}, 5, 115--133.
+
+\bibitem[{Hu and Chai(2013)}]{hu2013adjusted}
+Hu, J. and Chai, H. (2013), \enquote{Adjusted regularized estimation in the
+  accelerated failure time model with high dimensional covariates,}
+  \textit{Journal of Multivariate Analysis}, 122, 96--114.
+
+\bibitem[{Huang et~al.(2018)Huang, Jiao, Liu, and Lu}]{huang2018constructive}
+Huang, J., Jiao, Y., Liu, Y., and Lu, X. (2018), \enquote{A constructive
+  approach to $\ell_0$ penalized regression,} \textit{The Journal of Machine
+  Learning Research}, 19, 403--439.
+
+\bibitem[{Huang and Ma(2010)}]{huang2010variable}
+Huang, J. and Ma, S. (2010), \enquote{Variable selection in the accelerated
+  failure time model via the bridge method,} \textit{Lifetime data analysis},
+  16, 176--195.
+
+\bibitem[{Huang et~al.(2006)Huang, Ma, and Xie}]{huang2006regularized}
+Huang, J., Ma, S., and Xie, H. (2006), \enquote{Regularized estimation in the
+  accelerated failure time model with high-dimensional covariates,}
+  \textit{Biometrics}, 62, 813--820.
+
+\bibitem[{Johnson(2008)}]{johnson2008variable}
+Johnson, B.~A. (2008), \enquote{Variable selection in semiparametric linear
+  regression with censored data,} \textit{Journal of the Royal Statistical
+  Society: Series B}, 70, 351--370.
+
+\bibitem[{Johnson et~al.(2008)Johnson, Lin, and Zeng}]{johnson2008penalized}
+Johnson, B.~A., Lin, D., and Zeng, D. (2008), \enquote{Penalized estimating
+  functions and variable selection in semiparametric regression models,}
+  \textit{Journal of the American Statistical Association}, 103, 672--680.
+
+\bibitem[{Kalbfleisch and Prentice(2011)}]{kalbfleisch2011statistical}
+Kalbfleisch, J.~D. and Prentice, R.~L. (2011), \textit{The statistical analysis
+  of failure time data}, vol. 360, John Wiley \& Sons.
+
+\bibitem[{Khan and Shaw(2016)}]{khan2016variable}
+Khan, M. H.~R. and Shaw, J. E.~H. (2016), \enquote{Variable selection for
+  survival data with a class of adaptive elastic net techniques,}
+  \textit{Statistics and Computing}, 26, 725--741.
+
+\bibitem[{Koul et~al.(1981)Koul, Susarla, Van~Ryzin,
+  et~al.}]{koul1981regression}
+Koul, H., Susarla, V.~v., Van~Ryzin, J., et~al. (1981), \enquote{Regression
+  analysis with randomly right-censored data,} \textit{The Annals of
+  Statistics}, 9, 1276--1288.
+
+\bibitem[{Stute(1996)}]{stute1996distributional}
+Stute, W. (1996), \enquote{Distributional convergence under random censorship
+  when covariables are present,} \textit{Scandinavian Journal of Statistics},
+  461--471.
+
+\bibitem[{Stute et~al.(1993)Stute, Wang, et~al.}]{stute1993strong}
+Stute, W., Wang, J.-L., et~al. (1993), \enquote{The strong law under random
+  censorship,} \textit{The Annals of Statistics}, 21, 1591--1607.
+
+\bibitem[{Tibshirani(1996)}]{tibshirani1996regression}
+Tibshirani, R. (1996), \enquote{Regression shrinkage and selection via the
+  lasso,} \textit{Journal of the Royal Statistical Society: Series B}, 58,
+  267--288.
+
+\bibitem[{Van De~Vijver et~al.(2002)Van De~Vijver, He, Van't~Veer, Dai, Hart,
+  Voskuil, Schreiber, Peterse, Roberts, Marton, et~al.}]{van2002gene}
+Van De~Vijver, M.~J., He, Y.~D., Van't~Veer, L.~J., Dai, H., Hart, A.~A.,
+  Voskuil, D.~W., Schreiber, G.~J., Peterse, J.~L., Roberts, C., Marton, M.~J.,
+  et~al. (2002), \enquote{A gene-expression signature as a predictor of
+  survival in breast cancer,} \textit{New England Journal of Medicine}, 347,
+  1999--2009.
+
+\bibitem[{Wainwright(2019)}]{mw2019}
+Wainwright, M.~J. (2019), \textit{High-dimensional statistics: A non-asymptotic
+  viewpoint}, vol.~48, Cambridge University Press.
+
+\bibitem[{Wang et~al.(2013)Wang, Kim, and Li}]{wang2013calibrating}
+Wang, L., Kim, Y., and Li, R. (2013), \enquote{Calibrating non-convex penalized
+  regression in ultra-high dimension,} \textit{The Annals of Statistics}, 41,
+  2505.
+
+\bibitem[{Wei(1992)}]{wei1992accelerated}
+Wei, L.-J. (1992), \enquote{The accelerated failure time model: a useful
+  alternative to the Cox regression model in survival analysis,}
+  \textit{Statistics in Medicine}, 11, 1871--1879.
+
+\bibitem[{Ying(1993)}]{ying1993large}
+Ying, Z. (1993), \enquote{A large sample study of rank estimation for censored
+  regression data,} \textit{The Annals of Statistics}, 76--99.
+
+\bibitem[{Zhang and Huang(2008)}]{ZhangCun-Hui2008Tsab}
+Zhang, C.-H. and Huang, J. (2008), \enquote{The sparsity and bias of the Lasso
+  selection in high-dimensional linear regression,} \textit{The Annals of
+  Statistics}, 36, 1567--1594.
+
+\bibitem[{Zhang and Zhang(2012)}]{Zhangzhang}
+Zhang, C.-H. and Zhang, T. (2012), \enquote{A general theory of concave
+  regularization for high-dimensional sparse estimation problems,}
+  \textit{Statistical Science}, 27, 576--593.
+
+\bibitem[{Zhang et~al.(2010)}]{zhang2010nearly}
+Zhang, C.-H. et~al. (2010), \enquote{Nearly unbiased variable selection under
+  minimax concave penalty,} \textit{The Annals of Statistics}, 38, 894--942.
+
+\bibitem[{Zou(2006)}]{zou2006adaptive}
+Zou, H. (2006), \enquote{The adaptive lasso and its oracle properties,}
+  \textit{Journal of the American Statistical Association}, 101, 1418--1429.
+
+\bibitem[{Zou and Zhang(2009)}]{zou2009adaptive}
+Zou, H. and Zhang, H.~H. (2009), \enquote{On the adaptive elastic-net with a
+  diverging number of parameters,} \textit{The Annals of Statistics}, 37, 1733.
+
+\end{thebibliography}
