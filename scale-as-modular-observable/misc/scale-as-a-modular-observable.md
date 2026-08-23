@@ -1,3 +1,7 @@
+# Scale as a Modular Observable — Revision 2
+
+> [!warning] Audited working document
+> This long synthesis is retained as a source, but its claim labels are not reliable. Sections 14 and 16 contain invalid closure arguments, and section 15 promotes a local relative-entropy Hessian to an all-history source without a derivation. Read [[scale-as-modular-observable/entry|the folder entry]] for the modular map and [[claim-audit]] for the corrected status of each step. The historical files under `chats/` remain untouched.
 
 ## A parameter-free derivation of the late-time expansion history from the information geometry of causal cuts
 

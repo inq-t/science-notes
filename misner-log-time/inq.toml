@@ -1,0 +1,4 @@
+[module]
+name = "misner-log-time"
+entry = "entry.md"
+include = ["**/*.md"]

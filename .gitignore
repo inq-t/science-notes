@@ -1,1 +1,6 @@
-.obsidian
+.obsidian/
+
+# Large, reproducible observational downloads and extracted datasets.
+# Keep the hand-written index so the local library remains documented.
+/causal-wall-spectral-theory/sources/data/*
+!/causal-wall-spectral-theory/sources/data/entry.md

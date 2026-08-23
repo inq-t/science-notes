@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<HEAD>
+<TITLE>Planck Public Data Release 2 Software and Analysis Products</TITLE>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link rel="stylesheet" type="text/css" href="../all-sky-maps/style_maps.css">
+
+<!--tooltip box-->
+<div id="dhtmltooltip"></div>
+<script type="text/javascript" src="../all-sky-maps/tooltips.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/style.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/print_style.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/ui.css" />
+<script type="text/javascript" src="/ui_verbose.js"></script>
+
+<!--[if lt IE 7]>
+<style type="text/css" media="screen, projection">
+#irsa-menu li
+{
+float: left;
+height: 1%;
+}
+#irsa-menu a
+{
+height: 1%;
+}
+</style>
+<![endif]-->
+</head>
+<body >
+
+<div id="irsa-banner"   style= "min-width:768px; min-height:95px"></div>
+<script type="text/javascript" language='javascript' src='/frontpage/frontpage.nocache.js'> </script>
+
+<div id="content">
+<!--   #include virtual="/include/sysnotice.html"  -->
+
+
+
+<H1>Software for Analysis of Planck Public Data Release 2 Data</H1>
+
+<p>
+Here are a set of software tools that will facilitate use of the 
+Planck Public Data Release 2 products. These tools work with the Time Ordered Information
+(TOI) data sets and with the Planck instrument beams. 
+<p>
+More information and software tools for analysis and display of HEALPix maps can be found
+at
+<a href="http://healpix.sourceforge.net/">http://healpix.sourceforge.net/</a>.
+<p>
+Click on the link in the first column to download a gzipped tarball (including documentation) of the program. 
+<p>
+For questions or assistance with a particular product, please contact the
+<a href="https://irsasupport.ipac.caltech.edu">IRSA Help Desk</a>.
+<p>
+ 
+<table class="data">
+<tbody>
+<tr class="top"><th>Product</th><th>Acknowledgements</th><th>Notes</th></tr>
+
+<tr><th class="npol" align="Left">
+Map generation [Minimap]<a href="./planck_minimap_v20141201.tgz"><img class="icon" src="../all-sky-maps/icons/download.jpg" alt=""></a>
+</th>
+<td>C version, T. Pearson at the U.S. Planck Data Center Dec 2014</td>
+<td>Software that creates images of a region from FITS binary table downloaded TOIs</td></tr>
+
+<tr><th class="npol" align="Left">
+TOI handling for Solar System Objects
+<a href="./sso_handling_software_v20150815.tgz"><img class="icon" src="../all-sky-maps/icons/download.jpg" alt=""></a>
+
+</th>
+<td>Python version, E. Murphy at the U.S. Planck Data Center Aug 2015</td>
+<td>Software that takes as input the ephemeris of an SSO from JPL/Horizons and interpolates its position at the time stamps corresponding to the Planck TOI. </td></tr>
+
+<tr><th class="npol" align="Left">
+Extract Effective Beams from Unformatted Beam Files
+<a href="./read_effective_beams_v20141201.tgz"><img class="icon" src="../all-sky-maps/icons/download.jpg" alt=""></a>
+</th>
+<td>IDL version, B. Rusholme at the U.S. Planck Data Center Dec 2014</td>
+<td>Software that extracts the temperature and polarized effective beams for user-defined coordinates from the
+<a href="../beams/unf_beams"> unformatted
+effective beam files</a>.</td></tr>
+
+<!--
+<tr><th class="npol" align="Left">
+Likelihoods  <br/> 
+<table>
+<tr><td>Software</td>
+<td>
+Code <a href="COM_Likelihood_Code-v2.0.R2.00.tar.bz2" onMouseover="ddrivetip('Click icon to download file. file size: 1.6MB ')"; onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a><br/>
+</td></tr>
+<tr><td>Datafile</td>
+<td>
+Baseline <a href="COM_Likelihood_Data-baseline_R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 300MB ')"; onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a> <br/>With Lensing<a href=
+"COM_Likelihood_Data-extra-lensing-ext.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 1.3MB ')";
+onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a> <br/> PLIK <a href="COM_Likelihood_Data-extra-plik-DS.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 56MB ')";
+onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a> <br/> Half Mission <a href="COM_Likelihood_Data-extra-plik-HM-ext.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 47MB ')"; onMouseout="hideddrivetip()";
+><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a> <br/> PLIK-Unbinned <a href="COM_Likelihood_Data-extra-plik-unbinned.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 4.3GB ')"; onMouseout="hideddrivetip()";><img class="icon"
+ src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+</td></tr>
+</table>
+<td>C library with Python and F90 wrappers, Planck Collaboration 2015</td>
+<td>Software for estimating likelihoods. 
+</td></tr>
+-->
+
+<tr><th class="npol" align="Left">
+Likelihoods 
+<a href="COM_Likelihood_Code-v2.0.R2.00.tar.bz2" onMouseover="ddrivetip('Click icon to download file. file size: 1.6MB ')"; onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+<td>C library with Python and F90 wrappers, Planck Collaboration 2015</td>
+<td>Software for estimating likelihoods. 
+The accompanying data files are:
+<br>
+Baseline <a href="COM_Likelihood_Data-baseline_R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 300MB ')"; onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+With Lensing<a href=
+"COM_Likelihood_Data-extra-lensing-ext.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 1.3MB ')";
+onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a> 
+PLIK <a href="COM_Likelihood_Data-extra-plik-DS.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 56MB ')";
+onMouseout="hideddrivetip()";><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+<br>
+Half Mission <a href="COM_Likelihood_Data-extra-plik-HM-ext.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 47MB ')"; onMouseout="hideddrivetip()";
+><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+PLIK-Unbinned <a href="COM_Likelihood_Data-extra-plik-unbinned.R2.00.tar.gz" onMouseover="ddrivetip('Click icon to download file. file size: 4.3GB ')"; onMouseout="hideddrivetip()";><img class="icon"
+ src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+</td></tr>
+
+<tr><th class="npol" align="Left">
+HIRES
+<a href="hires_20151109_1.tgz"><img class="icon" src="../all-sky-maps/icons/download.jpg" alt="" /></a>
+<td>W. Landry and E. Murphy, December 2015</td>
+<td>Software to improve the resolution of Planck HFI images by factors of ~2.
+Download separately: <a href="planck_toi_hires.pdf">Documentation</A>, <a href="planck_toi_hires_source_20151109_1.tgz">source
+code</A>, or <a href="planck_toi_hires_binary_20151109_1.tgz">binaries</A>.
+
+</td></tr>
+
+</tbody>
+</table>
+<br/>
+
+</div> <!-- end #content -->
+<div id="irsa-footer" style="position:absolute;left:0;right:0;margin-top:20px">
+<iframe src="/frontpage/footer.html" width="100%" frameborder=0 scrolling=0 seamless=1/>
+</div>  <!-- end #irsa-footer -->
+
+</body>
+</html>
+
+
+

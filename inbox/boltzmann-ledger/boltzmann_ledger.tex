@@ -1,0 +1,384 @@
+\documentclass[11pt,reqno]{amsart}
+
+\newcommand{\AuthorName}{Thomas Ruble}
+\newcommand{\AuthorAffiliation}{Independent researcher}
+\newcommand{\AuthorEmail}{thomaspaulruble@gmail.com}
+\newcommand{\PreprintVersion}{0.1-draft}
+\newcommand{\PreprintDate}{18 August 2026}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=29mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\definecolor{linkblue}{RGB}{20,70,130}
+\hypersetup{colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue,
+ pdftitle={Boltzmann's Ledger},pdfauthor={\AuthorName}}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{observation}[theorem]{Observation}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+\newcommand{\slab}[1]{\textup{[\textsc{#1}]}}
+\newcommand{\D}{\mathrm D}
+\newcommand{\lP}{\ell_{\mathrm P}}
+\newcommand{\tP}{t_{\mathrm P}}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\kB}{k_{\mathrm B}}
+\newcommand{\Var}{\operatorname{Var}}
+
+\title[Boltzmann's ledger]{Boltzmann's Ledger:\\ The Thermodynamic Dictionary of the Wall}
+
+\author{\AuthorName}
+\address{\AuthorAffiliation}
+\email{\AuthorEmail}
+\date{\PreprintDate}
+\thanks{Version \PreprintVersion. Companion to \cite{Ruble2026a,Ruble2026d,Ruble2026e}. Every displayed identity is verified symbolically or numerically in \texttt{thermo\_dictionary\_checks.py}. Drafted in an AI-assisted research exchange. Not peer reviewed.}
+
+\begin{document}
+
+\begin{abstract}
+Boltzmann's constant, like $c$ and $\hbar$, is an exact convention; what it
+marks is not. It marks that entropy is a dimensionless count and that
+temperature is a derived rate --- in the algebraic setting of the program,
+the \emph{modular} rate: $\kB T=\hbar/2\pi$ per unit of modular flow in
+proper time. Taking that seriously turns out to reorganize the framework.
+The master equation $Z=\pi/C$ is exactly the fused
+Bekenstein--Hawking--Gibbons--Hawking law $4\pi S\hat T^2=1$, with
+$E=TS$ as the wall's Euler identity; Branch~A becomes one sentence
+(``the squared temperature of the world is completely monotone in
+e-folds''), and the branch fork becomes the third-law question
+(temperature floor $\hat T_\infty=\sqrt{\mu_0}/2\pi$ with finite entropy,
+or $T\to0$ with $S\to\infty$). The Branch-B valuation $p(N)$ is
+\emph{exactly} a Fermi--Dirac occupation --- forced, not chosen, because
+facts are projections ($P^2=P$) --- so dark energy is the thermal
+broadening of a fermionic level crossing: the Schottky heat capacity of
+the $\{0,g\}$ pair, two e-folds wide because the KMS temperature is one.
+Under peak--equality the magnitude problem contracts to a theorem:
+$\hat\kappa\,C_c=\tfrac34$ exactly, $\hat\rho_*C_c=\tfrac{3}{16}$,
+$\hat E_X(\mathrm{peak})=\sqrt{C_c}/4\sqrt\pi$ --- the entire dark sector
+is pure numbers times one dimensionless count, the capacity at the
+crossing, $C_c\simeq1.49\times10^{122}$. ``Why so small'' and ``why now''
+fuse into a single question about a single count, whose scale matches the
+modular-fluctuation law $\langle\Delta K^2\rangle=\langle K\rangle$
+(established for CFT vacua on balls, conjectured gravitationally) and the
+Poisson scaling of Everpresent $\Lambda$. Two numerological temptations
+are declined on the record; one ($3/4$) turned out to be a theorem.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{What the constant marks}\label{sec:marks}
+
+Since 2019, $\kB$ is exactly $1.380649\times10^{-23}$ J/K by definition:
+like $c$ and $h$, it is a translation coefficient, not a fact about
+nature. Its content is what it translates. $S/\kB$ is a pure count
+(nats); $\kB T$ is an energy, and hence a rate: temperature is not a new
+dimension of the world but the price of energy in entropy,
+$1/T=\partial S/\partial E$. In the algebraic setting the program already
+inhabits, this becomes precise in a stronger way: a state's modular flow
+$\sigma_t=\mathrm{Ad}\,\Delta^{it}$ satisfies KMS at $\beta=1$ in modular
+time, so \emph{temperature is the exchange rate between modular time and
+proper time},
+\begin{equation}\label{eq:modularT}
+\kB T \;=\; \frac{\hbar}{2\pi}\times
+\bigl(\text{modular flow rate per unit proper time}\bigr),
+\end{equation}
+the Connes--Rovelli thermal-time reading \cite{ConnesRovelli}. Every
+famous temperature is an instance: Unruh's $\hbar a/2\pi c\kB$
+(Bisognano--Wichmann: boosts are modular flow \cite{BW1976,Unruh1976}),
+Hawking's $\hbar\kappa/2\pi c\kB$ \cite{Hawking1975}, Gibbons--Hawking's
+$\hbar H/2\pi\kB$ \cite{GH1977}.
+
+Hawking's formula is the Rosetta stone of the constants question:
+\[
+T=\frac{\hbar\,\kappa}{2\pi\,c\,\kB},\qquad
+S=\frac{\kB c^3 A}{4G\hbar}.
+\]
+Four dimensionful constants each perform one translation ($\hbar$:
+modular rate $\to$ energy; $c$, $G$: geometry $\to$ rate and count;
+$\kB$: energy $\to$ temperature, count $\to$ entropy) --- and the physics
+resides entirely in two pure numbers: the $2\pi$ (KMS periodicity of
+modular flow) and the $\tfrac14$ (the capacity normalization). The
+program already \emph{owns} the $2\pi$: it is the Borchers commutation
+relation $\Delta^{it}U(s)\Delta^{-it}=U(e^{-2\pi t}s)$ of the arrow
+postulate \cite{Borchers1992,Ruble2026a}, the same $2\pi$ as in R2's
+$N=2\pi t_{\rm mod}$. The $\tfrac14$ is imported with
+$C=A/4\lP^2$ \slab{established import}; Question~O7 below records the one
+place the framework generates its own quarter.
+
+\section{The dictionary}\label{sec:dictionary}
+
+All identities in this section are exact and verified in the companion
+script. Hats denote Planck units; $S$ is in nats ($\kB=1$).
+
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Entropy of the wall & $S=C=A/4\lP^2$\\[2pt]
+Temperature of the wall & $\kB\hat T=\dfrac{\tP H}{2\pi}=\dfrac{1}{2\sqrt{\pi C}}$\\[6pt]
+Energy inside (Misner--Sharp) & $\hat E=\dfrac{\hat r_A}{2}=\dfrac12\sqrt{\dfrac{C}{\pi}}$\\[6pt]
+Euler identity & $E=TS$ \quad(exact)\\[2pt]
+Master equation & $Z=\dfrac{\pi}{C}\;\Longleftrightarrow\;(2\pi\hat T)^2=Z
+\;\Longleftrightarrow\;\boxed{4\pi S\hat T^2=1}$\\[6pt]
+Poisson reading & $Z=1/\sqrt{\hat V_4}$,\quad $\hat V_4=(c/H)^4/\lP^4$\\[2pt]
+Physical row & $\kB T_{\rm wall,0}=\hbar H_0/2\pi
+\;\Rightarrow\;T_{\rm wall,0}=2.7\times10^{-30}\,$K\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\smallskip
+The master equation of \cite{Ruble2026a} is therefore not merely
+\emph{analogous} to horizon thermodynamics: it \emph{is} the
+Bekenstein--Hawking entropy and the Gibbons--Hawking temperature fused
+into one pure-number law, $4\pi S\hat T^2=1$, holding at every epoch on
+the FRW wall and at the de Sitter fixed point
+($\mu_0C_\infty=\pi\Leftrightarrow4\pi S_\infty\hat T_\infty^2=1$). The
+first-law route from $\delta Q=T\,dS$ on the apparent horizon to the
+Friedmann equation is Cai--Kim \cite{CaiKim2005}, in Jacobson's lineage
+\cite{Jacobson1995}; the dictionary above is its integrated,
+dimensionless form.
+
+\begin{remark}[Black holes as the other wall type]
+For Schwarzschild: $S=4\pi\hat M^2$, $\hat T=1/8\pi\hat M$, Smarr
+$M=2TS$, and $4\pi S\hat T^2=\tfrac14$. The pure-number invariant
+$4\pi S\hat T^2$ takes the value $1$ on the cosmological wall and
+$\tfrac14$ on the black-hole wall --- a clean, dimensionless label
+distinguishing the two ways causality terminates. What the fact algebra
+assigns to this invariant is open. \slab{derivation; open reading}
+\end{remark}
+
+\section{The descent is a cooling curve}\label{sec:cooling}
+
+The flowed weights $z_i(N)=\mu_ie^{-\lambda_iN}$ are a Gibbs structure
+with the e-fold number as inverse temperature: $\beta=N$, energies
+$\lambda_i$, partition function $Z(N)=\sum_iz_i$. Then, exactly:
+\begin{equation}\label{eq:calorimetry}
+\langle\lambda\rangle=-\D\ln Z\;\;(\text{internal energy}),\qquad
+\Var(\lambda)=\D^2\ln Z\;\;(\text{heat capacity}),\qquad
+\D q=\tfrac12\bigl(\langle\dot\lambda\rangle-\Var(\lambda)\bigr).
+\end{equation}
+The checkpoint's no-rebound identity is calorimetry: \emph{the universe's
+deceleration changes at half the rate its grade spectrum stores heat}.
+Two conjugate readings of the same kernel coexist and should not be
+conflated: the \emph{cooling} reading ($\beta=N$ grows, fixed levels; the
+descent cools the wall toward the $L$-ground state, so $\Lambda$CDM's
+$\Lambda$ is ground-state occupation and matter is a still-populated
+excited grade) and the \emph{KMS} reading ($\beta=1$ fixed at the modular
+value, levels swept linearly in modular time by the Borchers rescaling).
+The KMS reading is the modular-covariant one; the cooling reading is the
+bookkeeping that makes \eqref{eq:calorimetry} literal.
+
+In this language Branch~A is one sentence:
+\begin{center}
+\emph{The squared temperature of the world, $(2\pi\hat T)^2=Z(N)$, is a
+completely monotone function of e-folds.}
+\end{center}
+Complete monotonicity --- the Bernstein condition of \cite{Ruble2026c}
+--- is the statement that the cooling curve is monotone with all
+derivatives alternating: cooling without rebound, reheating, or ripple.
+And the branch fork is the \textbf{third-law question}: Branch~A halts at
+the Gibbons--Hawking floor $\hat T_\infty=\sqrt{\mu_0}/2\pi>0$ with
+finite entropy $S_\infty=\pi/\mu_0$ (type $\mathrm{II}_1$); Branch~B
+cools to absolute zero, $\hat T\propto1/a\to0$, with entropy unbounded,
+$S\propto a^2\to\infty$ (type $\mathrm{II}_\infty$). DESI, read
+calorimetrically, is asking whether the universe has a temperature floor.
+
+\section{The defect is fermionic}\label{sec:fermionic}
+
+\begin{theorem}[Fermi--Dirac occupation]\label{thm:FD}
+\slab{derivation} Let $P$ be the Branch-B projection with two-block
+flowed weights of grades $\{\lambda_1,\lambda_2\}$, gap
+$g=\lambda_2-\lambda_1$. Then the valuation is exactly a Fermi--Dirac
+function of e-folds,
+\begin{equation}
+p(N)=\frac{1}{1+e^{-g(N-N_c)}},
+\end{equation}
+with $N_c$ the equipoise. The two-valuedness is forced: $P^2=P$ means the
+fact has spectrum $\{0,1\}$ --- occupation at most one --- so the
+logistic law of B2 is not an ansatz among sigmoids but the unique
+statistics of a projection-valued fact. A Bose--Einstein form
+$1/(e^{x}-1)$ is excluded by idempotency (and would diverge at the
+crossing).
+\end{theorem}
+
+\begin{corollary}[Dark energy as thermal broadening / Schottky
+anomaly]\label{cor:schottky}
+\slab{derivation} $\rho_X\propto p(1-p)=\tfrac1g\D p$ is the thermal
+broadening function $-\partial n/\partial\varepsilon$ of the level
+crossing, equivalently the Schottky heat capacity of the two-level pair:
+$\Var_{\rm pair}(\lambda)=g^2p(1-p)$, maximal at equipoise. The observed
+dark energy is the Schottky bump of the wall's two-level system as the
+descent sweeps the level through zero; the present epoch sits at the
+peak (companion fits: $\D q|_0=0.00\pm0.03$). Widths are fixed by KMS
+normalization ($\beta=1$): the density bump has full width at half
+maximum $\tfrac4g\operatorname{arccosh}\sqrt2=1.76$ e-folds and the
+occupation swings 10\%--90\% in $2\ln9/g=2.20$ e-folds ($g=2$).
+\emph{Dark energy lasts about two e-folds because the modular temperature
+is one.}
+\end{corollary}
+
+This answers, at derivation level, a ``why'' the fits alone could not:
+why $w_0\approx-0.8$ rather than $-0.99$ --- because the transition
+width is a KMS unit, not a tunable.
+
+\section{The crossing-capacity theorem}\label{sec:crossing}
+
+\begin{theorem}[Magnitude, made exact]\label{thm:crossing}
+\slab{derivation, given B4$'$} Under peak--equality
+($\rho_X(N_c)=\rho_m(N_c)=\rho_*$), let $C_c\equiv C(N_c)$ be the wall
+capacity at the crossing. Then, exactly (radiation neglected),
+\begin{equation}\label{eq:crossing}
+\hat\kappa\,C_c=\frac34,\qquad
+\hat\rho_*\,C_c=\frac{3}{16},\qquad
+\hat E_X(\mathrm{peak})=\frac{\sqrt{C_c}}{4\sqrt{\pi}},\qquad
+\hat T(N_c)=\frac{1}{2\sqrt{\pi C_c}} .
+\end{equation}
+\emph{Proof.} At the peak $\rho_{\rm tot}=2\rho_*$, so
+$Z(N_c)=\tfrac{8\pi}{3}\cdot2\hat\rho_*$ and
+$C_c=\pi/Z(N_c)=3/16\hat\rho_*$; the rest is substitution
+($\hat\kappa=4\hat\rho_*$;
+$\hat E_X=\hat\rho_*\cdot\tfrac{4\pi}{3}Z^{-3/2}$). $\square$
+\end{theorem}
+
+The entire dark sector is now \emph{pure numbers times one dimensionless
+count}: $C_c\simeq1.49\times10^{122}$, the capacity of the wall at the
+epoch the fermionic level crosses. The coupling is exactly
+three-quarters of one inverse capacity; the peak density is exactly
+$3/16$ of an inverse capacity; the defect's total energy inside the
+horizon at peak is exactly $1/4\sqrt\pi\approx0.14$ of $\sqrt{C_c}$.
+Consequences for the honest ledger:
+
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.2em]
+\item \emph{``Why so small'' and ``why now'' fuse.} Previously two
+mysteries ($\hat\kappa\sim10^{-123}$ and the epoch $N_c$), they are now
+one: the value of a single count, $C_c$. Under B4$'$ that count is fixed
+by $(\Omega_m,h)$; nothing else about the dark sector is free.
+\item \emph{The scale is the fluctuation scale.} $\sqrt{C_c}$ is one
+modular standard deviation: for CFT vacua on causal balls the modular
+Hamiltonian satisfies $\langle\Delta K^2\rangle=\langle K\rangle=S$
+\slab{established, leading order}
+\cite{Perlmutter2014,deBoer2018}, conjectured to persist gravitationally
+(Verlinde--Zurek \cite{VZ2019}). A source worth an $O(10^{-1})$ fraction
+of one modular $\sigma$ is exactly critical-density scale --- the same
+Poisson scaling, $Z=1/\sqrt{\hat V_4}$, by which Everpresent $\Lambda$
+predicted the magnitude before 1998 \cite{Zwane2018}. O2 is hereby
+upgraded: from ``smallness relocated'' to ``smallness $=$ one modular
+fluctuation; open residue $=$ the mechanism selecting the crossing count
+and the fermionic pair.''
+\item \emph{One temptation declined, one promoted.} The fitted
+$\hat\kappa C_0=1.120$ is \emph{not} $9/8$: it equals
+$\tfrac32\Omega_m(1+z_c)^3$, an $\Omega_m$-dependent quantity
+\slab{declined}. The fitted $\hat\kappa C_c=0.750$, first flagged as a
+suspicious rational, is Theorem~\ref{thm:crossing}
+\slab{promoted to theorem}.
+\end{enumerate}
+
+\section{New formal objects}\label{sec:formal}
+
+\begin{conjecture}[C8: KMS strip]\label{conj:C8}
+With $N=2\pi t_{\rm mod}$ (R2), the KMS analyticity of the descent state
+should appear as analytic continuation of $Z(N)$ to the strip
+$|\operatorname{Im}N|<\pi$, complete monotonicity being the
+boundary shadow of strip analyticity, and
+$\operatorname{Im}N$ playing the role of modular phase (the Fourier dual
+recovering the grade spectrum). \slab{conjecture}
+\end{conjecture}
+
+\begin{observation}[Defect poles at half depth]
+The defect $\sech^2(N-N_c)$ continues to complex $N$ with poles at
+$\operatorname{Im}(N-N_c)=\pi/2+\pi\mathbb Z$ --- inside the conjectured
+KMS strip, at exactly half its depth. Whether this is the analytic
+signature of the crossing or an accident of the sech-squared form is
+open. \slab{observation}
+\end{observation}
+
+\begin{question}[O7: the two quarters]\label{q:O7}
+The framework contains two quarters: the imported capacity normalization
+$C=(A/\lP^2)\cdot\tfrac14$, and the derived variance bound
+$\max_p p(1-p)=\tfrac14$ of a binary fact. If each Planck cell of the
+wall carries one $\mathbb Z/2$ fact --- the sign character the $A_2$
+register already supplies \cite{Ruble2026b} --- and capacity counts
+\emph{maximal binary variance per cell} (equivalently, linear entropy /
+purity deficit, the quantity the two-block proposition already met),
+then the Bekenstein--Hawking quarter and the Bernoulli quarter are the
+same quarter. Flagged hard: the standard it-from-bit counting gives
+$\ln2$ per cell, not $\tfrac14$, so this reading reinterprets what
+capacity counts; it is a conjecture with numerology risk, recorded
+because it is the framework's only self-generated $\tfrac14$.
+\slab{conjecture; numerology risk}
+\end{question}
+
+\begin{remark}[The three-temperature program: R2 sharpened]
+Hawking's derivation succeeded by forcing three separately established
+structures --- field theory, geometry, thermodynamics --- to agree, and
+the agreement fixed the pure numbers. The program's analog: demand that
+the wall's \emph{modular} temperature (from the HSMI/Borchers structure),
+its \emph{geometric} temperature ($\hbar H/2\pi\kB$), and its
+\emph{calorimetric} temperature (the KMS $\beta=1$ of the descent Gibbs
+kernel) coincide. The triple match is the sharpened form of the
+identification conjecture R2, and it is the kind of consistency that
+would fix the framework's remaining normalizations the way Hawking's
+fixed the quarter. \slab{program}
+\end{remark}
+
+\section{Morgue additions}\label{sec:morgue}
+
+\begin{enumerate}[label=\textbf{M\arabic*.},leftmargin=3em,start=5]
+\item $\hat\kappa C_0=9/8$: declined; the quantity is
+$\Omega_m$-dependent (Section~\ref{sec:crossing}).
+\item Komar-energy factor games ($E=2TS$ vs $E=TS$ bookkeeping): the
+note commits only to the Misner--Sharp identity $E=TS$, verified
+exactly; other energy definitions shift Smarr coefficients and are not
+imported.
+\item Varying-$\kB$ (or varying-$c$, $\hbar$) readings of any of the
+above: nothing here varies a convention; all content is carried by
+dimensionless counts and pure numbers.
+\end{enumerate}
+
+\begin{thebibliography}{20}\footnotesize
+\bibitem{Ruble2026a} T.~Ruble, \emph{Causal Descent and Relational
+Gravity: A Research Checkpoint}, Aug.\ 2026.
+\bibitem{Ruble2026b} T.~Ruble, \emph{The $A_2$ Spectral Geometry of the
+2026 Jacobian Counterexample}, Zenodo, July 2026.
+\bibitem{Ruble2026c} T.~Ruble, \emph{Reducing C5}, Aug.\ 2026.
+\bibitem{Ruble2026d} T.~Ruble, \emph{Branch B: Dark Energy as
+Wall-Bipartition Variance}, Aug.\ 2026.
+\bibitem{Ruble2026e} T.~Ruble, \emph{Branch B versus Data}, Aug.\ 2026.
+\bibitem{Hawking1975} S.~W.~Hawking, Commun.\ Math.\ Phys.\ \textbf{43},
+199 (1975).
+\bibitem{GH1977} G.~W.~Gibbons, S.~W.~Hawking, Phys.\ Rev.\ D
+\textbf{15}, 2738 (1977).
+\bibitem{Unruh1976} W.~G.~Unruh, Phys.\ Rev.\ D \textbf{14}, 870 (1976).
+\bibitem{BW1976} J.~J.~Bisognano, E.~H.~Wichmann, J.\ Math.\ Phys.\
+\textbf{17}, 303 (1976).
+\bibitem{ConnesRovelli} A.~Connes, C.~Rovelli, Class.\ Quantum Grav.\
+\textbf{11}, 2899 (1994), arXiv:gr-qc/9406019.
+\bibitem{Borchers1992} H.-J.~Borchers, Commun.\ Math.\ Phys.\
+\textbf{143}, 315 (1992).
+\bibitem{Jacobson1995} T.~Jacobson, Phys.\ Rev.\ Lett.\ \textbf{75},
+1260 (1995).
+\bibitem{CaiKim2005} R.-G.~Cai, S.~P.~Kim, JHEP \textbf{02} (2005) 050,
+arXiv:hep-th/0501055.
+\bibitem{Perlmutter2014} E.~Perlmutter, JHEP \textbf{03} (2014) 117,
+arXiv:1308.1083.
+\bibitem{deBoer2018} J.~de~Boer, J.~J\"arvel\"a, E.~Keski-Vakkuri,
+Phys.\ Rev.\ D \textbf{99}, 066012 (2019), arXiv:1807.07357.
+\bibitem{VZ2019} E.~Verlinde, K.~M.~Zurek, Phys.\ Lett.\ B \textbf{822},
+136663 (2021), arXiv:1902.08207.
+\bibitem{Zwane2018} N.~Zwane, N.~Afshordi, R.~D.~Sorkin, Class.\
+Quantum Grav.\ \textbf{35}, 194002 (2018), arXiv:1703.06265.
+\end{thebibliography}
+
+\end{document}

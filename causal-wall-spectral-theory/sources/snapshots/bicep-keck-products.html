@@ -1,0 +1,658 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>LAMBDA - BICEP/Keck Data Products</title>
+<meta name="description" content="LAMBDA - Products">
+
+
+
+<meta http-equiv='content-type' content='text/html'>
+<meta charset='utf-8'>
+<meta name='orgcode'       content='665'>
+<meta name='rno'           content='Thomas M. Essinger-Hileman'>
+<meta name='content-owner' content='Thomas M. Essinger-Hileman'>
+<meta name='webmaster'     content='Michael.R.Greason'>
+<meta name='keywords'      content='CMB,Cosmology,NASA'>
+
+<link href='/common/lambda.css' rel='stylesheet' type='text/css' media='all'>
+<!--[if IE]><link href='/common/lambda_ie.css' rel='stylesheet' type='text/css' media='all'><![endif]-->
+<link href='/common/lambda_print.css' rel='stylesheet' type='text/css' media='print'>
+<link href='/common/google_cse.css' rel='stylesheet' type='text/css' media='all'>
+
+<script type='text/javascript' src='/common/accord.js'></script>
+<script type='text/javascript' src='/common/CSScriptLib.js'></script>
+<script type='text/javascript' src='/common/cookies.js'></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = 'https://platform.twitter.com/widgets.js';
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, 'script', 'twitter-wjs'));</script>
+<script id='_fed_an_ua_tag' type='text/javascript' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true'>
+</script>
+</head>
+<body id='toptwo'>
+
+<div id='astroImage'>
+<div id='pageContainer'>
+<!--
+		NASA header.
+-->
+<div id='nasaHeader' class='nasaBanner'>
+  <!-- Logo -->
+  <a href='https://www.nasa.gov' target='_blank' class='nasaLogo'>
+    <img src='/common/images/nasa-logo.svg'
+         alt='NASA Logo, National Aeronautics and Space Administration'>
+  </a>
+
+  <!-- Text links in the center -->
+  <div id='nasaHeaderLinks'>
+    <h1><a href='https://www.nasa.gov' target='_blank'>National Aeronautics and Space Administration</a></h1>
+    <h2><a href='https://www.nasa.gov/centers/goddard/home/index.html' target='_blank'>Goddard Space Flight Center</a></h2>
+    <h3><a href='https://science.gsfc.nasa.gov/sci/' target='_blank'>Sciences and Exploration</a></h3>
+  </div>
+
+
+  <!-- Search and LAMBDA links on the right -->
+  <div id='nasaHeaderSearch'>
+    <div id='nasaSearchBox'>
+        
+  <script async src='https://cse.google.com/cse.js?cx=b47e1d6cf1cbf49fc'>
+		</script>
+		<link href='/common/searchform-fix.css' rel='stylesheet' type='text/css' media='all'>
+			<div class='gcse-search'></div>
+    </div>
+   <div>
+    <div id='LambdaAcronyms'>
+      <a href='/lambda_acronyms.html'>LAMBDA ACRONYMS</a>
+    </div>
+
+    <div id='LambdaAboutLink'>
+      <a href='/contact/'>ABOUT LAMBDA</a>
+    </div>
+   </div>
+  </div>
+</div>
+<!-- end of nasaHeader -->
+<!--
+		The primary menu.
+-->
+<ul id='topmenu' class='primarymenu'>
+  <li id='topone'><a href='/'><span>Home</span></a></li>
+  <li id='toptwo'><a href='/product/'><span>Data</span></a></li>
+  <li id='topfour'><a href='/simulation/'><span>Simulations</span></a></li>
+  <li id='topthree'><a href='/toolbox/'><span>Tools</span></a></li>
+  <li id='topsix'><a href='/papers/'><span>Papers</span></a></li>
+  <li id='topseven'><a href='/resources/'><span>Resources/Graphics</span></a></li>
+  <li id='topfive'><a href='/news/'><span>News</span></a></li>
+</ul>		<!-- end of primarymenu -->
+
+<!--
+			The LAMBDA banner/graphic.
+-->
+<div id='lambdasubhead'>
+  <img id='lambdasubheadbga' src='/common/images/LAMBDA_Banner_sub_prod.png' alt=''>
+  <img id='lambdasubheadbgb' src='/common/images/LAMBDA_Banner_subb.png' alt=''>
+</div>
+
+<!--
+			The secondary menu.
+-->
+
+<ul id='subfour' class='secondarymenu'>
+
+<li id='subone'><a href='/product/'><span>Data&nbsp;Hosted</span></a></li>
+
+<li id='subtwo'><a name='space'><span>Experiment&nbsp;Tables</span></a><ul >
+  <li id='subsubone'><a href='/product/expt/'><span>CMB</span></a></li>
+  <li id='subsubtwo'><a href='/product/expt/lim_experiments.html'><span>Intensity Mapping</span></a></li>
+</ul></li>
+
+<li id='subthree'><a name='space'><span><nobr>Space-Based</nobr></span></a><ul >
+  <li id='subsubtwo'><a href='/product/planck/'><span>Planck</span></a></li>
+  <li id='subsubone'><a href='/product/wmap/current/'><span>WMAP</span></a></li>
+  <li id='subsubthree'><a href='/product/cobe/'><span>COBE</span></a></li>
+</ul></li>
+
+<li id='subfour'><a name='space'><span>Suborbital</span></a><ul id='subsubthree'>
+  <li id='subsubone'><a href='/product/abs/'><span>ABS</span></a></li>
+  <li id='subsubtwo'><a href='/product/act/'><span>ACT</span></a></li>
+  <li id='subsubthree'><a href='/product/bicepkeck/'><span>BICEP/Keck</span></a></li>
+  <li id='subsubfour'><a href='/product/class/'><span>CLASS</span></a></li>
+  <li id='subsubfive'><a href='/product/polarbear/'><span>POLARBEAR</span></a></li>
+  <li id='subsubsix'><a href='/product/quiet/'><span>QUIET</span></a></li>
+  <li id='subsubnine'><a href='/product/quijote/'><span>QUIJOTE</span></a></li>
+  <li id='subsubseven'><a href='/product/spider/index.html'><span>SPIDER</span></a></li>
+  <li id='subsubeight'><a href='/product/spt/'><span>SPT</span></a></li>
+</ul></li>
+
+<li id='subfive'><a name='space'><span>Astrophysical</span></a><ul >
+  <li id='subsubone'><a href='/product/foreground/fg_diffuse.html'><span>Diffuse Foreground</span></a></li>
+  <li id='subsubtwo'><a href='/product/foreground/fg_comp_source.html'><span>Compact Sources</span></a></li>
+  <li id='subsubthree'><a href='/product/foreground/fg_sz_cluster.html'><span>SZ Clusters</span></a></li>
+  <li id='subsubfour'><a href='/product/iras/'><span>IRAS</span></a></li>
+  <li id='subsubfive'><a href='/product/swas/'><span>SWAS</span></a></li>
+  <li id='subsubsix'><a href='/product/lss/'><span>LSS Links</span></a></li>
+</ul></li>
+
+<li id='subsix'><a name='space'><span>About&nbsp;Products</span></a> <ul >
+  <li id='subsubone'><a href='/product/about/'><span>Overview</span></a></li>
+  <li id='subsubtwo'><a href='/product/about/pol_convention.html'><span>Pol Convention</span></a></li>
+</ul></li>
+
+</ul>		<!-- end of secondary menu -->
+
+<!--
+		Border separating menus from the page content and a left menu.
+-->
+<div class='navbar'></div>
+
+<table class='tertiarymenutab'><tr><td class='tertiarymenucell'>
+
+<ul id='termenc' class='tertiarymenu'>
+<li id='termena'><a href='/product/bicepkeck/index.html'>Overview</a></li>
+<li id='termenb'><a href='/product/bicepkeck/bicep_prod_table.html'>BICEP1</a>
+<li id='termenc'><a href='/product/bicepkeck/bicep2_prod_table.html'>BICEP/Keck</a>
+<li id='termend'><a href='/product/bicepkeck/bicep_papers.html'>Publications</a>
+</ul>		<!-- end of tertiarymenu -->
+
+</td><td class='tertiarymenucontent'>
+
+<!--
+		Start of page content.
+-->
+<div id='pageContentBG'>
+<div id='pageContent'>
+<!--
+	Announcements.
+-->
+
+<!--
+			Content begins...
+-->
+<h1>BICEP/Keck Data Products</h1><br>
+
+<p>All data taken from <a href="http://bicepkeck.org/" target="_blank">http://bicepkeck.org/</a></p>
+	
+<style>
+   #TopBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     z-index.: 99;
+     font-size: 18px;
+     border: none;
+     background-color: #a9a9a9;
+     color: white;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 4px;
+   }
+
+   #TopBtn: hover {
+     background: #555;
+   }
+</style>
+
+<button onclick="topFunction()" id="TopBtn" title="Go to the Top of the page.">Top</button>
+<script>
+let mybutton = document.getElementById("TopBtn");
+
+// When the user scrolls down 20px from the top of the web page, show the button.
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction () {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  }
+  else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the web page.
+function topFunction () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<button id='accord-toggle-all'>Open All Tables</button><br />
+<a name='subp1_bcpk2021'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP/Keck, October 2021 Release Data Products (BK18)<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/5etq-eh39 <a onclick="var result_style = document.getElementById('subp1_bcpk2021_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bcpk2021_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicepkeck_bk18_2021_doi.html' _parent='blank'>10.71662/5etq-eh39</a>]<br>Local URL: <a href='/product/bicepkeck/bicepkeck_bk18_2021_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicepkeck_bk18_2021_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bandpowers21_get.html' target='_parent'>BK18_Bandpowers</a><br>
+<a href='/product/bicepkeck/bicep2k_bandpowers21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bandpowers21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing bandpowers and error bars for all BB spectra used in the BK18 likelihood analysis. Bandpowers are specified as &lscr; (&lscr;+1) C<sub>&lscr;</sub> / 2&pi; in units of &mu;K<sup>2</sup>. These are the same data as shown in Figure 15 of BK-XIII, except that figure uses 100 &lscr; C<sub>&lscr;</sub> / 2&pi;. The error bars include sample variance corresponding to the maximum likelihood lensed-&Lambda;CDM+r +dust+synchrotron model, as in Figure 15.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 17 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_r_likelihood21_get.html' target='_parent'>BK18_r_likelihood</a><br>
+<a href='/product/bicepkeck/bicep2k_r_likelihood21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_r_likelihood21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the tabulated likelihood for the tensor-to-scalar ratio, r, marginalized over dust and synchrotron foreground components, as shown with the black curve in the upper left panel of Figure 4 of BK-XIII. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 4 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_components21_get.html' target='_parent'>BK18_Components</a><br>
+<a href='/product/bicepkeck/bicep2k_components21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_components21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the per-ell bin spectral decomposition found in Figure 16 of BK-XIII. Includes the most probable value and 68%/95% credible intervals for CMB, 95/150 GHz dust, and 95/150 GHz synchrotron components. See file header or BK-XIII for more details. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 4 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bandpass21_get.html' target='_parent'>BK18_Bandpass</a><br>
+<a href='/product/bicepkeck/bicep2k_bandpass21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bandpass21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text files containing average bandpass of BK18 BICEP3 95, Keck 95, BICEP2/Keck 150, and Keck 220 GHz maps. <br></td>
+    <td axes='nfil' class='datacellcenter'>4 files, <10 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_cosmomc21_get.html' target='_parent'>BK18_Cosmomc</a><br>
+<a href='/product/bicepkeck/bicep2k_cosmomc21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_cosmomc21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data and code necessary for reproducing analysis results from BK-XIII. Examples of how to run this code and reproduce the figures are included. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 10.4 MB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_chains21_get.html' target='_parent'>Chains</a><br>
+<a href='/product/bicepkeck/bicep2k_chains21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_chains21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>CosmoMC chains of the BK18 baseline results and the joint fitting Planck 2018+BK18+BAO. They are the chains for figure 4 and figure 5 of BK-XIII respectively. For large file downloads: consider a program like wget with the continue (-c) option.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 66.72 GB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_no_data_files_get.html' target='_parent'>Chains_No_Data_Files</a><br>
+<a href='/product/bicepkeck/bicep2k_no_data_files_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_no_data_files_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Modified version of the full chains file, with the CosmoMC *.data files excluded to reduce file size.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 2.71 GB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_fsky21_get.html' target='_parent'>BK18_NI_fsky</a><br>
+<a href='/product/bicepkeck/bicep2k_fsky21_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_fsky21_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing noise bandpowers, standard deviation of the noise bandpowers, and effective sky fraction for the BK18 BICEP3 95, BICEP2/Keck 150, and Keck 220 GHz auto-spectra. These values are shown in Figure 3 of BK-XIII. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 2 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_rns_code_get.html' target='_parent'>rns_Code</a><br>
+<a href='/product/bicepkeck/bicep2k_rns_code_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_rns_code_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Python code and associated files that can be used to reproduce Figure 5, constraints in the r-n<sub>s</sub> plane from BK18, Planck 2018, and BAO data.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 1.4 MB<br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+<a name='subp1_bcpk2018'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP/Keck, October 2018 Release Data Products<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/xhd1-dx44 <a onclick="var result_style = document.getElementById('subp1_bcpk2018_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bcpk2018_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicepkeck_bk15_2018_doi.html' _parent='blank'>10.71662/xhd1-dx44</a>]<br>Local URL: <a href='/product/bicepkeck/bicepkeck_bk15_2018_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicepkeck_bk15_2018_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bp2018_get.html' target='_parent'>Bandpowers</a><br>
+<a href='/product/bicepkeck/bicep2k_bp2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bp2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing bandpowers and error bars for all BB spectra used in the BK15 likelihood analysis. Bandpowers are specified as &ell; (&ell;+1) C<sub>&ell;</sub> / 2&pi; in units of &mu;K<sup>2</sup>. These are the same data as shown in Figure 13 of BK-X, except that figure uses 100 &ell; C<sub>&ell;</sub> / 2&pi;. The error bars include sample variance corresponding to the maximum likelihood lensed-&Lambda;CDM+r +dust+synchrotron model, as in Figure 13.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 20 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_lh2018_get.html' target='_parent'>r Likelihood</a><br>
+<a href='/product/bicepkeck/bicep2k_lh2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_lh2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the tabulated likelihood for the tensor-to-scalar ratio, r, marginalized over dust and synchrotron foreground components, as shown with the black curve in the upper left panel of Figure 4 of BK-X.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 4 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_comp2018_get.html' target='_parent'>Components</a><br>
+<a href='/product/bicepkeck/bicep2k_comp2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_comp2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the per-ell bin spectral decomposition found in Figure 14 of BK-X. Includes the most probable value and 68%/95% credible intervals for CMB, dust, and synchrotron components. See file header or BK-X for more details.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 4 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bandp2018_get.html' target='_parent'>Bandpass</a><br>
+<a href='/product/bicepkeck/bicep2k_bandp2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bandp2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text files containing average bandpass of BK15 95, 150, and 220 GHz maps.<br></td>
+    <td axes='nfil' class='datacellcenter'>3 files, <12 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_cosmc2018_get.html' target='_parent'>CosmoMC Tarball</a><br>
+<a href='/product/bicepkeck/bicep2k_cosmc2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_cosmc2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data and code necessary for reproducing analysis results from BK-X. Examples of how to run this code and reproduce the figures are included. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 11.5 MB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_fsky2018_get.html' target='_parent'>Noise Power and f_sky</a><br>
+<a href='/product/bicepkeck/bicep2k_fsky2018_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_fsky2018_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing noise bandpowers, standard deviation of the noise bandpowers, and effective sky fraction for the BK15 95, 150, and 220 GHz auto-spectra. These values are shown in Figure 3 of BK-X. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 4 KB<br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+<a name='subp1_bcpk2015'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP/Keck, October 2015 Release Data Products<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/dpp9-ve77 <a onclick="var result_style = document.getElementById('subp1_bcpk2015_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bcpk2015_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicepkeck_oct2015_doi.html' _parent='blank'>10.71662/dpp9-ve77</a>]<br>Local URL: <a href='/product/bicepkeck/bicepkeck_oct2015_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicepkeck_oct2015_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_oct15_all_get.html' target='_parent'>Bandpowers</a><br>
+<a href='/product/bicepkeck/bicep2k_oct15_all_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_oct15_all_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing bandpowers and error bars for all BB spectra shown in Figure 14 of BK-VI. Error bars are the standard deviation of lensed-&Lambda;CDM+noise simulations and hence contain no sample variance on any additional signal component.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 17 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_oct15_all_get.html' target='_parent'>CosmoMC tarball</a><br>
+<a href='/product/bicepkeck/bicep2k_oct15_all_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_oct15_all_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data and code necessary for reproducing analysis results from BK-VI. Examples of how to run this code and reproduce the figures are included.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 7.3 MB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_oct15_all_get.html' target='_parent'>r Likelihood</a><br>
+<a href='/product/bicepkeck/bicep2k_oct15_all_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_oct15_all_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the tabulated likelihood for the tensor-to-scalar ratio, r, marginalized over dust and synchrotron foreground components, as shown with the black curve in the upper left panel of Figure 4 of BK-VI. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 12 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_oct15_all_get.html' target='_parent'>Component Spectra</a><br>
+<a href='/product/bicepkeck/bicep2k_oct15_all_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_oct15_all_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the per-ell bin spectral decomposition found in Figure 6 of BICEP2/Keck Array VI. Includes the most probable value and 68%/95% credible intervals for CMB, dust, and synchrotron components. See file header or BK-VI for more details.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 3 KB<br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+<a name='subp1_bicep2k'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP/Keck, January 2015 Release Data Products<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/9s7v-hk31 <a onclick="var result_style = document.getElementById('subp1_bicep2k_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bicep2k_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicepkeck_jan2015_doi.html' _parent='blank'>10.71662/9s7v-hk31</a>]<br>Local URL: <a href='/product/bicepkeck/bicepkeck_jan2015_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicepkeck_jan2015_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bu_get.html' target='_parent'>Bandpowers and Uncertainties</a><br>
+<a href='/product/bicepkeck/bicep2k_bu_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bu_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>This text file contains the bandpowers and statistical uncertainties of combined BICEP2 and Keck Array maps, corresponding to Figure 9 of Keck Array/BICEP2 2015 V. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 3 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bsu_get.html' target='_parent'>Bandpowers and uncertainties with sample variance</a><br>
+<a href='/product/bicepkeck/bicep2k_bsu_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bsu_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>This text containing bandpowers and statistical uncertainties of combined BICEP2 and Keck Array maps including sample variance consistent with the signal we observe. <br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 3 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bwf_get.html' target='_parent'>Bandpower Window Functions</a><br>
+<a href='/product/bicepkeck/bicep2k_bwf_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bwf_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Bandpower window functions for each l bin.<br></td>
+    <td axes='nfil' class='datacellcenter'>10 files, < 68 KB <br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_bla_get.html' target='_parent'>Data for Bandpower Likelihood Approximation</a><br>
+<a href='/product/bicepkeck/bicep2k_bla_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_bla_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data necessary for constructing approximate bandpower likelihoods following the method of Hamimeche & Lewis (2008). See Section 9.1 of Barkats et al.<br></td>
+    <td axes='nfil' class='datacellcenter'>2 files, < 33 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2k_tps_get.html' target='_parent'>Theoretical Power Spectra</a><br>
+<a href='/product/bicepkeck/bicep2k_tps_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2k_tps_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Theoretical power spectra for the lensed -&Lambda;CDM model, described in Section 5.1 of BICEP2 I. <a href='/product/bicepkeck/bicep2k_tps_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>3 files, < 185 KB <br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+<a name='subp1_bicep2kp'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP/Keck and Planck Joint Analysis, January 2015 Release Data Products<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/0z08-an34 <a onclick="var result_style = document.getElementById('subp1_bicep2kp_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bicep2kp_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicepkeck_planck_jan2015_doi.html' _parent='blank'>10.71662/0z08-an34</a>]<br>Local URL: <a href='/product/bicepkeck/bicepkeck_planck_jan2015_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicepkeck_planck_jan2015_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2kp_bu_get.html' target='_parent'>Bandpowers and Uncertainties</a><br>
+<a href='/product/bicepkeck/bicep2kp_bu_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2kp_bu_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text files that collectively contain the bandpowers and statistical uncertainties for spectra from BICEP2/Keck Array maps at 150 GHz and Planck maps at 353 GHz, corresponding to Figure 2 of A Joint Analysis of BICEP2/Keck Array and Planck Data. <a href='/product/bicepkeck/bicep2kp_bu_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>3 files < 3 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2kp_bucs_get.html' target='_parent'>Bandpowers and Uncertainties for Cross-Spectra</a><br>
+<a href='/product/bicepkeck/bicep2kp_bucs_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2kp_bucs_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing bandpowers and statistical uncertainties for cross-spectra between BICEP2/Keck Array maps and all of the polarized frequencies of Planck, corresponding to Figure 3 of A Joint Analysis of BICEP2/Keck Array and Planck Data.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file 5 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2kp_lc_get.html' target='_parent'>Data and Code for Likelihood Construction</a><br>
+<a href='/product/bicepkeck/bicep2kp_lc_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2kp_lc_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data and code necessary for constructing the multi-component likelihood described in Section III of A Joint Analysis of BICEP2/Keck Array and Planck Data. <a href='/product/bicepkeck/bicep2kp_lc_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>1 file 319 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2kp_rl_get.html' target='_parent'>Likelihood for the Tensor-to-Scalar Ratio</a><br>
+<a href='/product/bicepkeck/bicep2kp_rl_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2kp_rl_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Text file containing the tabulated likelihood for the tensor-to-scalar ratio, r, computed using the multi-component likelihood described in Section III B and corresponding to Figure 6 of A Joint Analysis of BICEP2/Keck Array and Planck Data.<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file 6 KB<br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+<a name='subp1_bicep2'></a>
+<div class='accord-collapsible-tables'>
+  <table width='100%' border='1' align='center' class='accord-datatable'>
+    <thead>
+       <tr><th class='accord-dataheader' colspan='3'>BICEP2, March 2014 Release Data Products<div class='accord-float-arrow'><span class='accord-caret'>&#9660;</span></div></th></tr>
+    </thead>
+  </table>
+</div>
+<div class='accord-table-content'>
+  <table class='accord-inner-table'>
+    <thead>
+    <tr><td class='citationrow1' colspan='3'>DOI: 10.71662/g24r-4e37 <a onclick="var result_style = document.getElementById('subp1_bicep2_js').style; result_style.display = 'table-row';"><small>DOI Info Link</small></a></td></tr>
+    <tr id='subp1_bicep2_js' style='display: none;'><td class='citationrow2' colspan='3'> [DOI: <a href='/product/bicepkeck/bicep2_2014_doi.html' _parent='blank'>10.71662/g24r-4e37</a>]<br>Local URL: <a href='/product/bicepkeck/bicep2_2014_doi.html'>https://lambda.gsfc.nasa.gov/product/bicepkeck/bicep2_2014_doi.html</a></td></tr>
+    </thead>
+    <thead>
+      <tr>
+        <td axis='prod' width='15%' class='datasubheader' align='center'>Product<br>Download Page</td>
+        <td axis='desc'             class='datasubheader' align='center'>Description</td>
+        <td axis='nfil' width='6%'  class='datasubheader' align='center'>No. of<br>Files/Size</td>
+      </tr>
+    </thead>
+    <tbody class='accord-collapsible-rows expanded'>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_rl_get.html' target='_parent'>r Likelihood</a><br>
+<a href='/product/bicepkeck/bicep2_rl_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_rl_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>This text file contains the tabulated likelihood for the tensor-to-scalar ratio, r, derived from the BICEP2 BB spectrum. <a href='/product/bicepkeck/bicep2_rl_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>1 file 15 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_aps_get.html' target='_parent'>Angular Power Spectrum</a><br>
+<a href='/product/bicepkeck/bicep2_aps_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_aps_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>TT, TE, EE, BB, TB, and EB bandpowers and uncertainties. <a href='/product/bicepkeck/bicep2_aps_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 2 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_bwf_get.html' target='_parent'>Bandpower Window Functions</a><br>
+<a href='/product/bicepkeck/bicep2_bwf_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_bwf_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Bandpower window functions for each l bin. See Section 6.3 of BICEP2 2014 I.<br></td>
+    <td axes='nfil' class='datacellcenter'>10 files, < 68 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_dhl_get.html' target='_parent'>Data for HL Likelihood</a><br>
+<a href='/product/bicepkeck/bicep2_dhl_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_dhl_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Data necessary for constructing approximate bandpower likelihoods following the method of Hamimeche & Lewis (2008). <a href='/product/bicepkeck/bicep2_dhl_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>2 files, < 33 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_tps_get.html' target='_parent'>Theoretical Power Spectra</a><br>
+<a href='/product/bicepkeck/bicep2_tps_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_tps_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Theoretical power spectra for the unlensed-&Lambda;CDM, lensed-&Lambda;CDM, and r=0.1 tensor-only B-mode models, described in Section 5.1 of BICEP2 2014 I. <a href='/product/bicepkeck/bicep2_tps_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>5 files, < 185 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_su_get.html' target='_parent'>Systematic Uncertainties</a><br>
+<a href='/product/bicepkeck/bicep2_su_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_su_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>BICEP2 systematic uncertainties from absolute calibration and beam width. Systematic uncertainties are expressed as fractional errors on bandpowers [ell*(ell+1)C_{ell}/(2*pi)].<br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 2 KB<br></td>
+  </tr>
+  <tr>
+    <td axes='prod' class='datacellcenter'><a href='/product/bicepkeck/bicep2_hlc_get.html' target='_parent'>HL Likelihood Code</a><br>
+<a href='/product/bicepkeck/bicep2_hlc_wget.sh' target='_parent'><img src='/common/images/wget_dl_icon.png' height='16' width='64' alt='wget download script'></a>&nbsp;&nbsp;&nbsp;<a href='/product/bicepkeck/bicep2_hlc_curl.sh' target='_parent'><img src='/common/images/curl_dl_icon.png' height='16' width='64' alt='curl download script'></a><br></td>
+    <td axes='desc' class='datacellleft'>Gzipped tar archive containing python code and the relevant above data products to calculate the Hamimeche & Lewis likelihood for BICEP2. <a href='/product/bicepkeck/bicep2_hlc_info.html' target='_parent'>More...</a><br></td>
+    <td axes='nfil' class='datacellcenter'>1 file, 152 KB<br></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!--
+			...Content ends.
+-->
+<p></p>
+</div>				<!-- End of pageContent   -->
+</div>				<!-- End of pageContentBG -->
+
+</td></tr></table>	<!-- End of tertiary menu environment -->
+
+<!--
+		Border for the bottom of the page.
+-->
+<div class='navbar'></div>
+<!--
+		Insert the page footers.
+-->
+<div class='footers'>
+
+  <!-- Service Footer -->
+  <div id='serviceFooter' class='nasaBanner'>
+    A service of the
+    <a href='https://heasarc.gsfc.nasa.gov/' target='_blank'>HEASARC</a>
+    and of the
+    <a href='https://science.gsfc.nasa.gov/astrophysics/' target='_blank'>Astrophysics Science Division</a>
+    at NASA/GSFC
+  </div>
+
+  <!-- Multi-component bottom banner -->
+  <div id='nasaFooter' class='nasaBanner'>
+    
+    <!-- Logos -->
+    <div class='footerLogos'>
+      <a href='https://www.nasa.gov' target='_blank' class='nasaLogo'>
+        <img src='/common/images/nasa-logo.svg'
+             alt='NASA Logo, National Aeronautics and Space Administration'>
+      </a>
+      <a href='https://www.nasa.gov/centers/goddard/home/index.html' target='_blank'>
+        <img class='signature' src='/common/images/goddardsignature2.png'
+             alt='Logo - Goddard Space Flight Center, National Aeronautics and Space Administration'>
+      </a>
+    </div>
+    
+    <!-- People -->
+    <div id='nasaFooterPeople'>
+      <p>HEASARC Director: Dr. Andrew F. Ptak</p>
+      <p>LAMBDA Director: Dr. Thomas M. Essinger-Hileman</p>
+      <p>NASA Official: Dr. Thomas M. Essinger-Hileman</p>
+      <p>Web Curator: Mr. Michael R. Greason</p>
+    </div>
+
+    <!-- Footer links -->
+    <div id='nasaFooterLinks'>
+      <a href='/contact/contact.html'>Comments/Feedback</a>
+      <a href='https://science.gsfc.nasa.gov/astrophysics/' target='_blank'>NASA Astrophysics</a>
+      <a href='https://www.nasa.gov/about/highlights/HP_Privacy.html' target='_blank'>Privacy Policy & Important&nbsp;Notices</a>
+      <a href='https://www.nasa.gov/accessibility/'>Accessibility</a>
+    </div>
+
+  </div><!-- End nasaFooter -->
+</div><!-- End footers -->
+<!--
+		Close out the page.
+-->
+</div>						<!-- End of 'pageContainer'  -->
+</div>						<!-- End of 'astroImage'     -->
+</body></html>

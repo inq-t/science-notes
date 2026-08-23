@@ -1,0 +1,4 @@
+[module]
+name = "conformal-time"
+entry = "entry.md"
+include = ["**/*.md"]

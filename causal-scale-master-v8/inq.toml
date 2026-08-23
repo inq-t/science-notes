@@ -1,0 +1,4 @@
+[module]
+name = "causal-scale-master-v8"
+entry = "entry.md"
+include = ["**/*.md"]

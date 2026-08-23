@@ -4,5 +4,6 @@ entry = "entry.md"
 include = [
   "**/*.md",
   "**/*.pdf",
-  "**/*.txt"
+  "**/*.tex",
+  "**/*.py"
 ]

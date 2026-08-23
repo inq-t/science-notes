@@ -123,7 +123,7 @@ The reported background-only comparison, approximately $\chi^2=1398.29$ for the 
 
 ## Raw source snapshot
 
-The untouched latest/ directory contains the [[Causal_Scale_Dynamics_Master_v7_0|editable master note]], [[Causal_Scale_Dynamics_Master_v7_0.pdf|52-page rendered master]], generated TeX, [[Ruble_Equations_Reference.pdf|compact equation reference]], [[CHANGELOG_v7|v7 change log]], [[receipts_v7.py|symbolic and numerical receipt script]], package README, and the [[causal_scale_dynamics_master_v7_0.zip|complete v7 source bundle]]. The archive also contains sectional sources, figures, data, referee notes, a generated receipt JSON, environment information, and checksums that are not unpacked beside the loose files. Some observational and audit materials are packaged outputs without all of the scripts needed to regenerate them.
+The untouched latest/ directory contains the [[Causal_Scale_Dynamics_Master_v7_0|editable master note]], [[Causal_Scale_Dynamics_Master_v7_0.pdf|52-page rendered master]], generated TeX, [[Ruble_Equations_Reference.pdf|compact equation reference]], [[CHANGELOG_v7|v7 change log]], [[receipts_v7.py|symbolic and numerical receipt script]]. The archive also contains sectional sources, figures, data, referee notes, a generated receipt JSON, environment information, and checksums that are not unpacked beside the loose files. Some observational and audit materials are packaged outputs without all of the scripts needed to regenerate them.
 
 Source-management cautions:
 

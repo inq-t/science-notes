@@ -8,8 +8,8 @@ prompt: |-
 attachments:
   - "[[Causal_Wall_Spectral_Theory_v2.tex]]"
   - "[[Causal_Wall_Spectral_Theory_v2.pdf]]"
-  - "[[causal-wall-spectral-completion-v2_1]]"
-  - "[[causal-wall-spectral-referee-report-v2]]"
+  - "[[causal-wall-spectral-theory/old-versions/causal-wall-spectral-completion-v2_1]]"
+  - "[[causal-wall-spectral-theory/old-versions/causal-wall-spectral-referee-report-v2]]"
 ---
 
 ## Revised document

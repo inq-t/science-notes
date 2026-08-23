@@ -1,6 +1,6 @@
 [workspace]
 name = "physics"
-members = ["causal-scale-master", "symmetry-groups-select", "compatible-with-existing-physics", "causal-wall-spectral-theory", "deriving-value-of-g", "deriving-fine-structure-constant", "scale-as-modular-observable", "causal-wall-spectral-calc"]
+members = ["causal-scale-master", "symmetry-groups-select", "compatible-with-existing-physics", "causal-wall-spectral-theory", "deriving-value-of-g", "deriving-fine-structure-constant", "scale-as-modular-observable", "causal-wall-spectral-calc", "least-action", "misner-log-time", "conformal-time", "causal-scale-master-v8"]
 
 [workspace.dependencies]
 arxiv-2002-03318 = "arxiv:2002.03318"

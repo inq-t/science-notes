@@ -1,0 +1,12 @@
+debug: false
+force: false
+
+output: chains/dr6-camb-lcdm
+
+sampler:
+  mcmc:
+
+theory: !defaults [../theories/camb, ../theories/BandpowerForeground]
+likelihood: !defaults [../likelihoods/act_dr6]
+params: !defaults [../params/cosmology, ../params/foregrounds, ../params/systematics]
+prior: !defaults [../priors/foregrounds, ../priors/cosmology, ../priors/systematics]

@@ -1,0 +1,473 @@
+\documentclass[11pt,reqno]{amsart}
+
+\input{metadata.tex}
+
+\usepackage[margin=1.15in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\definecolor{linknavy}{RGB}{20,50,110}
+\usepackage[colorlinks=true,linkcolor=linknavy,citecolor=linknavy,urlcolor=linknavy]{hyperref}
+\hypersetup{
+  pdftitle={Necessary Ambiguity: The Galois Floor and the Orientation Dyad of Jacobian Counterexamples},
+  pdfauthor={\AuthorName},
+  pdfkeywords={Jacobian Conjecture, Keller map, Galois closure, monodromy, sign character, double cover, orientation}
+}
+
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\R}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\DeclareMathOperator{\Mon}{Mon}
+\newcommand{\SF}{S_F}
+
+\title[Necessary ambiguity: the Galois floor and the orientation dyad]
+{Necessary Ambiguity:\\ The Galois Floor and the Orientation Dyad\\ of Jacobian Counterexamples}
+
+\author{\AuthorName}
+\address{\AuthorAffiliation}
+\email{\AuthorEmail}
+\date{\PreprintDate}
+\thanks{Version \PreprintVersion. Research note; not peer reviewed. Zenodo DOI: \texttt{\PreprintDOI}.}
+
+\subjclass[2020]{Primary 14R15; Secondary 14D05, 12F10}
+\keywords{Jacobian Conjecture, Keller map, Galois closure, monodromy,
+nonproperness set, sign character, orientation double cover}
+
+\begin{document}
+
+\begin{abstract}
+Using the classical Galois case of the Jacobian problem (Campbell 1973;
+Razar; Wright), we record what every counterexample to the Jacobian
+Conjecture must carry on its inverse side. (A)~Every Keller counterexample,
+in every dimension, has generic fiber degree at least three. (B)~At the
+minimum degree the Galois closure is the full symmetric group $S_3$: the
+minimal inverse ambiguity is necessarily a complete symmetric triad.
+(C)~Consequently every minimal counterexample carries a nontrivial sign
+character and its orientation double cover --- a necessary $\Z/2$ of
+structure we call the dyad. (D)~A short group-theoretic analysis shows the
+dyad is the unique normal intermediate stage of any resolution of the
+ambiguity, that no orientation of the ambiguity exists over the base, and
+that the two cyclic orientation classes become invariantly distinguishable
+exactly on the double cover, where they are exchanged by the deck
+involution and (for real-coefficient maps) by complex conjugation: in a
+slogan, orientation data is born exactly where the dyad dies. (E)~All of
+this is verified in exact arithmetic on the July 2026 counterexample and on
+$400$ members of its deformation family; the scripts accompany this
+deposit. The results are unconditional theorems of the complex affine
+category; no claim outside mathematics is made.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+Keller's Jacobian Conjecture (1939) asserted that every polynomial map
+$F\colon\C^n\to\C^n$ with nonzero constant Jacobian determinant (a
+\emph{Keller map}) is a polynomial automorphism \cite{Keller,vdE}. It was
+refuted on July 20, 2026 by an explicit map $\C^3\to\C^3$
+\cite{Alpoge,Counterexample2026}. This note reverses the direction of
+interrogation: rather than asking how a counterexample was constructed, we
+ask what \emph{every} counterexample must carry.
+
+The answers assemble from classical results, principally the Galois case of
+the problem, proved by Campbell \cite{Campbell} over $\C$ and in general by
+Razar \cite{Razar} and, independently, Wright \cite{Wright}:
+
+\begin{quote}
+\emph{A polynomial map from $\C^n$ to $\C^n$ has a polynomial inverse if
+(and only if) its Jacobian determinant never vanishes and it induces a
+normal extension of function fields} \cite[p.~244]{Campbell}.
+\end{quote}
+
+\noindent In characteristic zero, normal means Galois
+(\cite[Lemma~1]{Campbell}). Our main results:
+
+\begin{enumerate}[label=\textup{(\Alph*)}]
+\item every Keller counterexample has generic fiber degree $d\ge3$
+(Theorem~\ref{thm:floor});
+\item if $d=3$, the monodromy of the inverse cover is the full symmetric
+group $S_3$ (Theorem~\ref{thm:floor});
+\item hence every minimal counterexample carries a nontrivial sign
+character and a canonical orientation double cover
+(Section~\ref{sec:dyad});
+\item the coupling theorems of Section~\ref{sec:coupling}: the dyad is the
+unique normal intermediate of any resolution; no orientation exists over
+the base; the two cyclic orientation classes separate exactly on the double
+cover and are exchanged there by two parity operations;
+\item exact-arithmetic verification on the known counterexample and on
+$400$ members of its deformation family (Section~\ref{sec:verification}).
+\end{enumerate}
+
+Everything is a theorem of the complex affine category. We note the scope
+honestly: over $\R$ the landscape is entirely different --- Pinchuk
+\cite{Pinchuk} constructed a real polynomial map $\R^2\to\R^2$ with
+nowhere-vanishing Jacobian that is not injective, and the restriction of
+the 2026 map to $\R^3$ (its coefficients are rational) is a real Keller
+counterexample whose target chambers into regions of three and of one real
+preimage, with no monodromy connecting them. The braided structure studied
+here is a complex phenomenon; a companion note takes up that contrast.
+
+\section{The covering over the complement of the Jelonek
+set}\label{sec:setting}
+
+Let $F\colon\C^n\to\C^n$ be a Keller map; then $F$ is \'etale and dominant,
+the function-field extension $\C(x)/\C(F)$ is finite separable, and its
+degree $d$ equals the number of preimages of a general point
+(\cite[Introduction]{Campbell}). Let $\SF$ denote the set of points at
+which $F$ is not proper (the Jelonek set \cite{Jelonek}), a closed
+algebraic subset, of pure codimension one and uniruled when nonempty
+\cite{Jelonek}. Since $F$ is \'etale, every finite fiber point has local
+multiplicity one; by the properness criterion (finite fiber whose
+multiplicities sum to the generic degree; see \cite{Jelonek}), $F$ is
+proper exactly over
+\[
+U:=\C^n\smallsetminus \SF ,
+\]
+and the restriction $\pi\colon F^{-1}(U)\to U$ is a covering map of degree
+$d$. Its total space $F^{-1}(U)=\C^n\smallsetminus F^{-1}(\SF)$ is the
+complement of a proper analytic subset of $\C^n$, hence connected;
+therefore the monodromy $\Mon(\pi)\le S_d$ is \emph{transitive}, and it is
+isomorphic to the Galois group of the Galois closure of $\C(x)/\C(F)$.
+
+\begin{lemma}\label{lem:horizon}
+If $F$ is a Keller counterexample, then $\SF\neq\emptyset$.
+\end{lemma}
+
+\begin{proof}
+If $\SF=\emptyset$ then $F$ is proper, and properness is one of Campbell's
+sufficient conditions for a polynomial inverse
+(\cite[Introduction, condition 2]{Campbell}); directly: a proper \'etale
+map onto the simply connected $\C^n$ is a finite covering, hence trivial,
+hence $d=1$ and $F$ is birational, and Keller's theorem \cite{Keller}
+applies.
+\end{proof}
+
+\section{The floor}\label{sec:floor}
+
+\begin{theorem}[The Galois floor]\label{thm:floor}
+Let $F$ be a Keller counterexample of generic degree $d$. Then:
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item $d\neq1$ \textup{(}Keller \cite{Keller}: the birational case\textup{)};
+\item $d\neq2$ \textup{(}Campbell's Corollary \cite[p.~248]{Campbell}: the
+degree of a nowhere degenerate polynomial map cannot be two, since
+quadratic extensions are normal\textup{)};
+\item hence $d\ge3$; and
+\item if $d=3$, then $\Mon(\pi)=S_3$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(i) and (ii) are the cited classical results. For (iv): the transitive
+subgroups of $S_3$ are $A_3$ and $S_3$. If $\Mon(\pi)=A_3$, its order
+equals the degree, so the Galois closure of $\C(x)/\C(F)$ has degree
+$3=[\C(x):\C(F)]$; the extension is its own closure, hence normal, and
+Campbell's Theorem makes $F$ invertible --- a contradiction.
+\end{proof}
+
+\begin{remark}[Provenance]\label{rem:provenance-floor}
+The floor stands on three named results --- Keller (degree one), Campbell's
+Corollary (degree two), Campbell's Theorem (cyclic degree three) --- and
+the assembly is one line. Its interest is entirely occasioned by
+\cite{Alpoge}: for eighty-seven years the class it quantifies over was not
+known to be nonempty. To our knowledge the consequence
+(iv) and the structural analysis below have not appeared in print; we make
+no priority claim pending specialist review.
+\end{remark}
+
+\begin{proposition}[Descent]\label{prop:descent}
+For any counterexample, $\Mon(\pi)$ is transitive and nontrivial. A
+fiberwise-linear observable (an assignment of one value per sheet) descends
+to a single-valued function on $U$ if and only if it is
+monodromy-invariant; the flat sections of the permutation local system
+$\pi_*\C$ are the constants, and the flat endomorphisms form the
+two-dimensional commutative algebra spanned by the identity and the
+all-ones matrix.
+\end{proposition}
+
+\begin{proof}
+Transitivity was noted above; if the monodromy were trivial the connected
+total space would force $d=1$, excluded by Theorem~\ref{thm:floor}. Flat
+sections are invariant vectors; a transitive permutation representation has
+invariant vectors only along $\mathbf 1$, and its commutant is spanned by
+$I$ and the all-ones matrix $J$.
+\end{proof}
+
+\begin{remark}\label{rem:preobservable}
+Thus every counterexample possesses fiber data --- e.g.\ the nomination of
+one branch --- that is locally meaningful and fully determining, yet
+provably admits no globally single-valued description. Only the invariant
+(symmetric) functions of the fiber descend to the base.
+\end{remark}
+
+\section{The necessary dyad}\label{sec:dyad}
+
+From here on $F$ is a \emph{minimal} counterexample: $d=3$, so
+$\Mon(\pi)=S_3$ by Theorem~\ref{thm:floor}.
+
+The sign character $\eps\colon S_3\to\{\pm1\}$ is nontrivial on the
+monodromy; its kernel defines a connected double cover
+\[
+U_2\longrightarrow U,
+\]
+the \emph{orientation cover}, on which the residual monodromy is
+$A_3\cong\Z/3$. Invariantly, $U_2$ is cut out by a square root of the
+discriminant class of the rank-three \'etale algebra $\pi_*\mathcal O$;
+its nontriviality is exactly statement (iv) of Theorem~\ref{thm:floor}. We
+call this necessary $\Z/2$ of structure \emph{the dyad}.
+
+Let $P\to U$ be the $S_3$-Galois closure of the cover (the torsor of
+ordered labelings of the three sheets). The subgroup lattice of $S_3$
+provides exactly two complementary reductions:
+\begin{itemize}
+\item \textbf{Nomination} of a branch: the stabilizer $S_2$ of one letter
+--- a \emph{non-normal} subgroup; $X_3:=P/S_2$ recovers the original
+three-sheet cover.
+\item \textbf{Orientation}: the kernel $A_3$ of $\eps$ --- the unique
+proper \emph{normal} subgroup; $X_2:=P/A_3$ recovers the double cover
+$U_2$.
+\end{itemize}
+
+\begin{proposition}[Frame factorization]\label{prop:frame}
+$S_2\cap A_3=1$ and $S_2A_3=S_3$; consequently the natural map
+\[
+P\;\longrightarrow\;X_3\times_U X_2
+\]
+is an isomorphism: an ordered labeling of the three inverse branches is
+exactly one nomination together with one orientation. Moreover the
+determinants of the two permutation representations both equal $\eps$, so
+the rank-five local system $H_2\oplus H_3$ associated to the two quotients
+has trivial determinant.
+\end{proposition}
+
+\begin{proof}
+Fiberwise the map is $g\mapsto(gS_2,\,gA_3)$, injective since
+$S_2\cap A_3=1$ and surjective since $|S_2|\,|A_3|=|S_3|$. The permutation
+action of $S_3$ on the two cosets of $A_3$ is by $\eps$, and the
+determinant of the standard permutation action on three letters is $\eps$
+as well; hence $\det(H_2\oplus H_3)=\eps\otimes\eps$ is trivial.
+\end{proof}
+
+\section{The coupling theorems}\label{sec:coupling}
+
+\begin{theorem}[Uniqueness of the intermediate]\label{thm:T1}
+The normal subgroups of $S_3$ are $1$, $A_3$, and $S_3$. Consequently any
+resolution of the ambiguity by descent steps (connected intermediate covers
+of $U$ that are Galois over $U$) has exactly one nontrivial intermediate
+stage: the orientation double cover. Every Galois resolution factors
+through the death of the dyad.
+\end{theorem}
+
+\begin{proof}
+Connected Galois intermediates of the closure correspond to normal
+subgroups; the lattice is as stated.
+\end{proof}
+
+\begin{theorem}[No orientation over the base]\label{thm:T2}
+The two cyclic orderings of the three sheets --- equivalently the two
+$3$-cycles $c$ and $c^{-1}=c^2$ in $S_3$ --- are conjugate in $S_3$ (by any
+transposition). Hence no monodromy-invariant distinction between the two
+senses of cycling exists over $U$: the unresolved ambiguity admits no
+orientation.
+\end{theorem}
+
+\begin{theorem}[Orientation is born on the double cover]\label{thm:T3}
+On $U_2$ the residual monodromy is the abelian group $A_3$, in which $c$
+and $c^{2}$ are distinct conjugacy classes, separated by the two nontrivial
+characters $\chi(c)=\omega$, $\bar\chi(c)=\omega^{2}$
+\textup{(}$\omega=e^{2\pi i/3}$\textup{)}. The two cyclic orientation
+classes are therefore invariantly distinguishable exactly after the dyad is
+trivialized.
+\end{theorem}
+
+\begin{theorem}[The two parities]\label{thm:T3prime}
+The two orientation classes of Theorem~\ref{thm:T3} are exchanged by:
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item the deck involution of $U_2\to U$, which acts on the residual
+$A_3$-data by conjugation by \textup{(}a lift of\textup{)} a transposition,
+sending $c\mapsto c^{-1}$; and
+\item when $F$ has real coefficients \textup{(}as the known examples
+do\textup{)}, complex conjugation $\sigma$ of the base: $\sigma$ preserves
+$U$ and carries each meridian of the wall to the inverse of a meridian,
+transporting the monodromy representation to its inverse-composed twin and
+hence exchanging $\chi$ with $\bar\chi$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(i) is the computation $tct^{-1}=c^{-1}$ for any transposition $t$, which
+is the outer action of $S_3/A_3$ on $A_3$. For (ii): with real
+coefficients the defining equations of $\SF$ are real, so $\sigma(U)=U$;
+$\sigma$ is anti-holomorphic, hence orientation-reversing on each complex
+transverse disk to the wall, so it carries a small positively oriented
+meridian to a negatively oriented one; the induced action on local
+monodromies is $g\mapsto g^{-1}$ up to conjugation, which on the abelian
+residual $A_3$ exchanges the two nontrivial characters.
+\end{proof}
+
+\begin{theorem}[Real-to-complex jump]\label{thm:T4}
+Every irreducible representation of $S_3$ is of real type
+\textup{(}Frobenius--Schur indicator $+1$\textup{)}; in particular the
+two-dimensional standard representation $V$ carried by the sheets is real.
+Its restriction to $A_3$ splits as $\chi\oplus\bar\chi$, a conjugate pair
+of complex-type characters \textup{(}indicator $0$\textup{)}. The
+representation type of the ambiguity jumps from real to complex exactly at
+the death of the dyad.
+\end{theorem}
+
+\begin{proof}
+Character theory of $S_3$ and $A_3$; the indicators are classical.
+\end{proof}
+
+\begin{corollary}\label{cor:slogan}
+In a minimal Jacobian counterexample, invariant orientation data
+\textup{(}informally: handedness\textup{)} exists exactly and only after
+the unique normal intermediate --- the sign dyad --- is resolved; and the
+two available orientations are exchanged by both parity operations of
+Theorem~\ref{thm:T3prime}.
+\end{corollary}
+
+\begin{remark}[What is not selected]\label{rem:grace}
+Nothing in the structure selects \emph{which} orientation class is
+distinguished: any labeling of $\chi$ versus $\bar\chi$ is a convention,
+precisely because both parities of Theorem~\ref{thm:T3prime} exchange them.
+The existence of orientation is forced; its value is not. This is
+consistent with the elementary fact that no algebraic datum over $\R$
+distinguishes $i$ from $-i$.
+\end{remark}
+
+\begin{remark}[A no-go, honestly recorded]\label{rem:nogo}
+The orientation datum is a flat structure with finite holonomy; the
+associated line systems have trivial rational Chern character, so no
+ordinary characteristic-class or twisted-index invariant distinguishes the
+datum from its conjugate. Whether some defect, boundary, or spectral
+invariant of the wall geometry can do so is posed as
+Question~\ref{q:index}.
+\end{remark}
+
+\section{Verification on the known family}\label{sec:verification}
+
+For the explicit counterexample of \cite{Alpoge,Counterexample2026}, the
+inverse cover is governed by the cubic $2ps^3-qs^2+2s-r$ over the target
+$(p,q,r)$; the manuscript proves that $\SF$ is exactly the discriminant
+hypersurface. Full $S_3$ monodromy is certified by two exact facts:
+irreducibility, since $\C(x,y,z)=\C(p,q,r)(s)$ has degree three
+\cite[Rmk.~4.4]{Counterexample2026}; and nonsquareness of the discriminant
+$\Delta$, since $\operatorname{disc}_r(\Delta)=-(12p-q^2)^3\neq0$. Both
+identities, and every identity below, are verified in exact rational
+arithmetic by the scripts accompanying this deposit.
+
+Across the deformation family of \cite[Thm.~5.1]{Counterexample2026}
+(parameters $\lambda,a,c$ and perturbations $H$), an exact-arithmetic sweep
+of $400$ specimens found full $S_3$ in every case --- as
+Theorem~\ref{thm:floor} now requires; the sweep stands as verification of
+the theorem rather than as evidence.
+
+\begin{remark}[The dyad lives at infinity]\label{rem:infinity}
+A Keller map is \'etale, hence unramified: no two inverse branches ever
+collide at finite distance. Root collisions of the spectral polynomial over
+the wall are therefore escape events --- branches leaving every compact set
+--- so the transpositions constituting the sign character are monodromy
+around loss-at-infinity, supported on the Jelonek set. (Compare
+\cite{Anumula}, where the same phenomenon is proved for an independent
+family: ``no affine ramification occurs; fiber loss is entirely a
+phenomenon at infinity.'') Since Theorem~\ref{thm:floor} forces the sign
+character, the discriminant class of a minimal counterexample is never a
+square; equivalently, the Jelonek set always carries exchange monodromy.
+\end{remark}
+
+\section{Questions}\label{sec:questions}
+
+\begin{question}\label{q:index}
+Does any canonical defect, boundary, or spectral invariant attached to the
+wall geometry distinguish the two orientation classes --- i.e., is there a
+nonzero index pairing --- or does the exchange symmetry of
+Theorem~\ref{thm:T3prime} force all such invariants to vanish?
+\end{question}
+
+\begin{question}\label{q:higher}
+For counterexamples of degree $d\ge4$, which transitive monodromy groups
+occur, and for which of them does a unique minimal normal ``orientation''
+stage exist (equivalently: which have cyclic abelianization of order two)?
+Is the coupling of orientation to a unique dyadic intermediate a feature of
+minimality alone?
+\end{question}
+
+\begin{question}\label{q:wall}
+Can the orientation cover and the local systems of
+Section~\ref{sec:dyad} be extended canonically across $\SF$ (nearby cycles,
+a natural singular model), and what replaces
+Theorems~\ref{thm:T3}--\ref{thm:T4} on the wall itself?
+\end{question}
+
+\section*{Provenance and responsibility}
+
+The classical inputs are exactly as cited: Keller's birational case,
+Campbell's Theorem and Corollary (primary source verified against the
+statements used here), the Razar and Wright generalizations, and Jelonek's
+theory of the nonproperness set. The assembly of
+Theorem~\ref{thm:floor}(iv), the coupling analysis of
+Section~\ref{sec:coupling}, and the verification suite were developed in an
+interactive research program conducted with AI systems (Anthropic's Claude
+and OpenAI's ChatGPT); the author has verified every displayed argument and
+computation and bears sole responsibility for all claims. Corrections,
+prior references, and attributions are welcome.
+
+\begin{thebibliography}{99}
+
+\bibitem{Alpoge}
+L.~Alp\"oge, announcement of an explicit counterexample to the Jacobian
+Conjecture, July 20, 2026.
+
+\bibitem{Counterexample2026}
+\emph{A Counterexample to the Jacobian Conjecture}, verification
+manuscript, July 20, 2026. \url{https://www.ulam.ai/research/jacobian.pdf}
+
+\bibitem{Anumula}
+H.~R. Anumula, \emph{Exact fibers, image, and nonproperness of the
+marked-root Keller family}, Zenodo, July 21, 2026.
+\href{https://doi.org/10.5281/zenodo.21506477}{doi:10.5281/zenodo.21506477}
+
+\bibitem{Campbell}
+L.~A. Campbell, \emph{A condition for a polynomial map to be invertible},
+Math. Ann. \textbf{205} (1973), 243--248.
+\href{https://doi.org/10.1007/BF01349234}{doi:10.1007/BF01349234}
+
+\bibitem{Jelonek}
+Z.~Jelonek, \emph{The set of points at which a polynomial map is not
+proper}, Ann. Polon. Math. \textbf{58} (1993), 259--266.
+
+\bibitem{Keller}
+O.-H. Keller, \emph{Ganze Cremona-Transformationen}, Monatsh. Math. Phys.
+\textbf{47} (1939), 299--306.
+
+\bibitem{Pinchuk}
+S.~Pinchuk, \emph{A counterexample to the strong real Jacobian conjecture},
+Math. Z. \textbf{217} (1994), 1--4.
+
+\bibitem{Razar}
+M.~Razar, \emph{Polynomial maps with constant Jacobian}, Israel J. Math.
+\textbf{32} (1979), 97--106.
+
+\bibitem{vdE}
+A.~van den Essen, \emph{Polynomial Automorphisms and the Jacobian
+Conjecture}, Progress in Mathematics \textbf{190}, Birkh\"auser, Basel,
+2000.
+
+\bibitem{Wright}
+D.~Wright, \emph{On the Jacobian conjecture}, Illinois J. Math.
+\textbf{25} (1981), 423--440.
+
+\end{thebibliography}
+
+\end{document}
