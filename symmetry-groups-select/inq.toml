@@ -1,0 +1,4 @@
+[module]
+name = "symmetry-groups-select"
+entry = "entry.md"
+include = ["**/*.md"]

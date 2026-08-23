@@ -1,0 +1,3 @@
+[workspace]
+name = "physics"
+members = ["causal-scale-master", "symmetry-groups-select"]
