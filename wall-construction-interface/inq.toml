@@ -1,0 +1,4 @@
+[module]
+name = "wall-construction-interface"
+entry = "entry.md"
+include = ["**/*.md"]
