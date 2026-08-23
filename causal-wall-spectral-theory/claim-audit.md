@@ -12,7 +12,7 @@ $$
 SU(3)_c\times SU(2)_L\times U(1)_Y
 $$
 
-with the Standard Model's chiral representations, Yukawa sector, gauge and BRST Ward identities, anomaly cancellation, renormalization, scattering amplitudes, and curved-spacetime stress tensor. If the intended theory is only an interface around QFT, it need not derive those structures, but it must define the interface and prove their local recovery and decoupling. That weaker burden also remains open.
+with the Standard Model's chiral representations, Yukawa sector, gauge and BRST Ward identities, anomaly cancellation, renormalization, scattering amplitudes, and curved-spacetime stress tensor. That absence would be decisive against an emergence claim. If the intended theory instead imports QFT as a local fiber, it need not derive those structures; it must define the interface and prove conservative local restriction, coherent overlap maps, and suppression or control of any wall-induced local corrections. That different burden remains open.
 
 ## Exact or standard pieces
 
@@ -111,7 +111,7 @@ A positive $\mathcal K_\zeta$ does not prove reflection positivity of a Euclidea
 | The general formulation is falsifiable | Only a specified member, microscopic weld, or calculated response is falsifiable; arbitrary positive response functions can fit arbitrary positive spectra. |
 | The scalar target is “exactly” a stress spectral response | It is exactly an inverse covariance; stress-spectral typing is conditional on the holographic representation. |
 | “Non-stochastic” is a physical completion | It is an ontological reinterpretation unless it supplies a distinct state construction and measurement theory. |
-| QFT is left alone | This is a scope choice, not a local-QFT recovery or decoupling theorem. |
+| QFT is left alone | This is a legitimate scope choice, not yet a conservative local-restriction or decoupling theorem. |
 
 ## Corrections retained from v3
 
@@ -147,4 +147,4 @@ The v3 referee disposition accurately records most of these improvements and exp
 
 The strongest defensible summary is:
 
-> Causal-Wall Spectral Theory identifies inverse scalar covariance as the exact observable target, exhibits a conditional holographic stress-response representation with consistent normalizations, and derives a flat critical $|k|^3$ universality class. A physical causal-wall model exists only after one constructs the common algebra and state family, proves the BKM/continuation/probability weld, identifies the gauge-invariant spacetime mode, computes the scalar, tensor, and higher responses, and recovers local GR plus QFT in their tested regime.
+> Causal-Wall Spectral Theory identifies inverse scalar covariance as the exact observable target, exhibits a conditional holographic stress-response representation with consistent normalizations, and derives a flat critical $|k|^3$ universality class. A physical causal-wall model exists only after one constructs the common algebra and state family, proves the BKM/continuation/probability weld, identifies the gauge-invariant spacetime mode, computes the scalar, tensor, and higher responses, and preserves imported local GR plus QFT in their tested regime.

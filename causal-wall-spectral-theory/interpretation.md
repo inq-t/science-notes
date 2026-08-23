@@ -57,7 +57,7 @@ This philosophical scope is coherent but exceeds the current mathematics. The th
 
 ## Dependence on GR and QFT
 
-[[causal-scale-interface|The interface note]] owns the technical division of labor and the local-recovery test. The interpretive point is only that a horizontal state-selection law could surround established QFT without replacing its local observables or amplitudes. That scope choice does not itself prove preservation of covariance, conservation, causal propagation, anomalies, or the tested QFT/GR limit.
+[[causal-scale-interface|The interface note]] owns the technical division of labor and the conservative local-restriction test. The interpretive point is only that a horizontal state-selection law could surround established QFT without replacing its local observables or amplitudes. That scope choice does not itself prove preservation of covariance, conservation, causal propagation, anomalies, or tested QFT/GR phenomenology.
 
 Similarly, GR already represents cosmic acceleration when a source is supplied. The broader Causal Scale Dynamics programme seeks a constitutive law selecting the source and history; it should not claim that GR is unable to describe acceleration. The spectral module addresses primordial correlations, not the independent validity of the late-time source law.
 

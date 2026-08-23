@@ -1,5 +1,24 @@
 This is a running encyclopedia of research into fundamental physics.
 
+I am philosopher first, a computer scientist second, a mathematician third, and a physicist fourth.
+
+I prefer precision of distinctions, like Duns Scotus and Thomas Aquinas.  I prefer thinking deeply about essential structures and grounding reasons like Heidegger and Leibniz.  And I prefer clarity of presentation like Kant and Spinoza.
+
+But I want rigorous mathematical notation.  If we go far enough, we will have to invent our own mathematics.
+
+## motto
+
+Physics is math.
+There is a reason for everything.
+"Why is there something rather than nothing" must have an answer.  And if the answer is true, it necessitates something.
+
+The structure, not the measure, of nature is its essence.  And that essence is necessary - not an empty possibility.  At some deep level, the conditions for the possibility of nature are identical to its necessity.
+
+The only way to get at this is to interrogate the fundamentals of what makes algebra possible.
+
+Cosmology is not the measurement of the cosmos, but the study of what makes a cosmos a cosmos.  A cosmos is the arena of facts.
+## thinking in graphs
+
 It should be linked together like a wiki.
 
 The point of doing research this way is to build up "modular thought" -- where modules are encapsulated, and dependencies are clean.

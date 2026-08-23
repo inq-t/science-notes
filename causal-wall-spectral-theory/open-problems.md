@@ -1,6 +1,6 @@
 # Open Problems
 
-The programme becomes a physical causal-wall theory only when the scale residue, state geometry, spectral representation, and spacetime evolution are constructed as one compatible system. The original CW--T1--T4 list is useful but too compressed; the dependencies below expose the additional kinematic, analytic, stability, and local-recovery obligations.
+The programme becomes a physical causal-wall theory only when the scale residue, state geometry, spectral representation, and spacetime evolution are constructed as one compatible system. The original CW--T1--T4 list is useful but too compressed; the dependencies below expose the additional kinematic, analytic, stability, and local-preservation obligations.
 
 ## CW--T0: identify the physical scalar
 
@@ -139,9 +139,9 @@ Complete [[cosmological-descent|the spacetime descent]] by supplying a conserved
 
 Only after this step can the theory claim CMB, lensing, growth, or neutrino-cosmology predictions rather than a primordial spectral ansatz.
 
-## CW--T6: recover local GR plus QFT
+## CW--T6: preserve imported local GR plus QFT
 
-Apply [[causal-scale-interface|the interface recovery test]]: if local QFT is an imported fiber, prove that the new horizontal structure does not spoil its tested regime. Required checks include:
+Apply [[causal-scale-interface|the conservative-restriction test]]: if local QFT is an imported fiber, prove that the new horizontal structure does not spoil its tested regime. Required checks include:
 
 - microcausality and local covariance;
 - conservation of the renormalized stress tensor;
@@ -149,9 +149,9 @@ Apply [[causal-scale-interface|the interface recovery test]]: if local QFT is an
 - Standard Model anomaly cancellation and curved-spacetime trace terms;
 - constancy of physical masses and dimensionless couplings in local units;
 - absence or suppression of Lorentz violation, fifth forces, and equivalence-principle violations; and
-- a decoupling limit for all wall-induced corrections to accessible local correlators.
+- quantitative bounds or a decoupling limit for wall-induced corrections to accessible local correlators.
 
-This is not a demand that the interface derive the Standard Model. It is the minimum proof that “QFT supplies the fibers” is a consistent recovery statement rather than a slogan.
+This is not a demand that the interface derive the Standard Model. It is the minimum proof that “QFT supplies the fibers” defines a consistent conservative extension rather than a slogan. A genuine recovery theorem becomes necessary only if the fiber itself is later claimed to emerge from causal-wall primitives.
 
 ## CW--T7: perform reproducible empirical tests
 

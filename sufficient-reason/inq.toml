@@ -1,0 +1,4 @@
+[module]
+name = "sufficient-reason"
+entry = "entry.md"
+include = ["**/*.md"]

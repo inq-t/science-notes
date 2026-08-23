@@ -1,0 +1,4 @@
+[module]
+name = "gluing"
+entry = "entry.md"
+include = ["**/*.md"]

@@ -1,0 +1,4 @@
+[module]
+name = "descent"
+entry = "entry.md"
+include = ["**/*.md"]

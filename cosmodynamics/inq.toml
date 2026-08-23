@@ -1,0 +1,4 @@
+[module]
+name = "cosmodynamics"
+entry = "entry.md"
+include = ["**/*.md"]

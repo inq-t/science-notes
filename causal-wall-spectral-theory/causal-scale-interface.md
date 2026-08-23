@@ -113,11 +113,11 @@ and proves the continuation to cosmological observables. This is stronger, but i
 
 The v3 master sometimes treats the holographic branch as load-bearing while later chats make $\mathcal K_\zeta$ primary. The clean resolution is to keep both branches explicit: the spectral QFT is a controlled representation only in members for which its duality and continuation are supplied.
 
-## Independence and recovery tests
+## Independence and local-preservation tests
 
 The interface is explanatory only if $\Phi$ and its response can be obtained without solving backward from $H(z)$, $\Delta_\zeta^2(k)$, or a fitted $w(z)$. Otherwise the construction is an effective fluid or covariance rewritten in new notation.
 
-Leaving QFT “alone” also requires more than announcing it as an input. A successful local recovery statement must show that, in the relevant limit,
+Leaving QFT “alone” also requires more than announcing it as an input. A successful conservative-restriction statement can show, for example, that in the relevant local regime,
 
 $$
 \Gamma_{\mathrm{eff}}[g,\Psi;\mu]
@@ -127,7 +127,7 @@ $$
 \Delta\Gamma_{\mathrm{wall}}\longrightarrow0,
 $$
 
-where $\Gamma_{\mathrm{GR+SM}}^{\mathrm{ren}}$ is the ordinary renormalized low-energy effective action, including the cosmological, curvature, and matter counterterms allowed by its regime. Accessible Standard Model correlators, Ward identities, causal propagation, stress conservation, and anomaly cancellation must approach their established forms. No such action-level or algebraic decoupling theorem is presently given.
+where $\Gamma_{\mathrm{GR+SM}}^{\mathrm{ren}}$ is the ordinary renormalized low-energy effective action, including the cosmological, curvature, and matter counterterms allowed by its regime. Accessible Standard Model correlators, Ward identities, causal propagation, stress conservation, and anomaly cancellation must retain their established forms to measured accuracy. An algebraic restriction equivalence could discharge the same obligation without a single ordinary action. No such action-level or algebraic preservation theorem is presently given.
 
 ## Claim status
 
