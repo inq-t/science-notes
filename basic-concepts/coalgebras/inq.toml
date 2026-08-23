@@ -1,0 +1,4 @@
+[module]
+name = "coalgebras"
+entry = "entry.md"
+include = ["**/*.md"]

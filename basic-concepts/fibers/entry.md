@@ -226,7 +226,7 @@ $$
 O\longmapsto(g_O,\mathcal A_O,\omega_O),
 $$
 
-with $O$ a causal region. At present, “fiber” here names an architectural role, not a constructed morphism of schemes. In algebraic QFT, $O\mapsto\mathcal A(O)$ is ordinarily a net of algebras with inclusion maps; depending on variance and context, sheaves, cosheaves, bundles, stacks, or fibrations may be better formal models than scheme fibers. A precise theory must specify the base category, the category in which the fibers live, their restriction or transport maps, and the compatibility law on overlaps. [[compatible-with-existing-physics/entry|Compatibility with existing physics]] states the preservation burden, and [[cosmodynamics/construction-programme|the cosmodynamic construction programme]] states the unresolved local-to-global burden.
+with $O$ a causal region. At present, “fiber” here names an architectural role, not a constructed morphism of schemes. In algebraic QFT, $O\mapsto\mathcal A(O)$ is ordinarily a net of algebras with inclusion maps; depending on variance and context, [[basic-concepts/sheafs/entry|sheaves]], cosheaves, bundles, [[basic-concepts/stacks/entry|stacks]], or fibrations may be better formal models than scheme fibers. A precise theory must specify the base category, the category in which the fibers live, their restriction or transport maps, and the compatibility law on overlaps. [[compatible-with-existing-physics/entry|Compatibility with existing physics]] states the preservation burden, and [[cosmodynamics/construction-programme|the cosmodynamic construction programme]] states the unresolved local-to-global burden.
 
 The scale-indexed proposal similarly considers a family
 

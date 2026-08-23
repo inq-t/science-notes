@@ -50,7 +50,7 @@ The phrase **principal homogeneous space** is often synonymous with torsor, espe
 
 ## Torsors over a scheme
 
-Let $X$ be a scheme, let $G\to X$ be a group scheme, and choose a Grothendieck topology $\tau$, such as the Zariski, étale, fppf, or fpqc topology. A right $G$-torsor $P\to X$ is a sheaf with a right $G$-action such that
+Let $X$ be a scheme, let $G\to X$ be a group scheme, and choose a Grothendieck topology $\tau$, such as the Zariski, étale, fppf, or fpqc topology. A right $G$-torsor $P\to X$ is a [[basic-concepts/sheafs/entry|sheaf]] with a right $G$-action such that
 
 1. $P$ has sections locally for $\tau$; and
 2. the canonical map

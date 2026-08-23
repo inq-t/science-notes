@@ -1,0 +1,4 @@
+[module]
+name = "hessians"
+entry = "entry.md"
+include = ["**/*.md"]

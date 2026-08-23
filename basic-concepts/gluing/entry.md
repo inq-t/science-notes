@@ -1,6 +1,6 @@
 # Gluing
 
-Gluing is the passage from compatible local presentations to one global object. Its essential datum is not merely a collection of pieces, but an identification of the pieces wherever they overlap, coherent on every triple overlap. For sections of a sheaf those identifications reduce to equality; for schemes, bundles, and [[basic-concepts/torsors/entry|torsors]] they are isomorphisms. A gluing theorem says exactly when such local data determine a whole, and in what sense that whole is unique.
+Gluing is the passage from compatible local presentations to one global object. Its essential datum is not merely a collection of pieces, but an identification of the pieces wherever they overlap, coherent on every triple overlap. For sections of a [[basic-concepts/sheafs/entry|sheaf]] those identifications reduce to equality; for schemes, bundles, and [[basic-concepts/torsors/entry|torsors]] they are isomorphisms. A gluing theorem says exactly when such local data determine a whole, and in what sense that whole is unique.
 
 ## The local-to-global pattern
 
@@ -68,7 +68,7 @@ This has two logically separate parts:
 
 This is *separatedness of a presheaf*, not separatedness of a scheme. The former is uniqueness of glued sections; the latter is a condition on the diagonal morphism of a scheme.
 
-Continuous functions, smooth functions, and regular functions are standard examples. Functions can be compared by equality on overlaps. Bundles and other objects cannot: two locally trivial bundles may be isomorphic without being literally equal. Their local-to-global theory therefore belongs naturally to [[basic-concepts/descent/entry|descent]] and stacks rather than only to set-valued sheaves.
+Continuous functions, smooth functions, and regular functions are standard examples. Functions can be compared by equality on overlaps. Bundles and other objects cannot: two locally trivial bundles may be isomorphic without being literally equal. Their local-to-global theory therefore belongs naturally to [[basic-concepts/descent/entry|descent]] and [[basic-concepts/stacks/entry|stacks]] rather than only to set-valued sheaves.
 
 ## Gluing affine schemes
 

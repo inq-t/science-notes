@@ -1,0 +1,4 @@
+[module]
+name = "stacks"
+entry = "entry.md"
+include = ["**/*.md"]

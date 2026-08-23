@@ -1,0 +1,4 @@
+[module]
+name = "groupoids"
+entry = "entry.md"
+include = ["**/*.md"]

@@ -51,13 +51,13 @@ whose induced overlap comparison is $\theta$. Thus descent separates three quest
 2. can one write coherent comparison data upstairs; and
 3. does that datum actually arise from an object downstairs?
 
-When $\mathcal F$ is organized as a category fibered in groupoids, the pullback construction gives a functor
+When $\mathcal F$ is organized as a category fibered in [[basic-concepts/groupoids/entry|groupoids]], the pullback construction gives a functor
 
 $$
 \mathcal F(S)\longrightarrow\operatorname{Desc}_{\mathcal F}(U/S).
 $$
 
-Its full faithfulness is descent for morphisms; its essential surjectivity is effective descent for objects. The assignment is a **stack** for a topology when this functor is an equivalence for every cover in that topology. For a set-valued assignment, the statement reduces to the ordinary sheaf condition.
+Its full faithfulness is descent for morphisms; its essential surjectivity is effective descent for objects. The assignment is a **[[basic-concepts/stacks/entry|stack]]** for a topology when this functor is an equivalence for every cover in that topology. For a set-valued assignment, the statement reduces to the ordinary [[basic-concepts/sheafs/entry|sheaf]] condition.
 
 ## How descent differs from gluing
 
