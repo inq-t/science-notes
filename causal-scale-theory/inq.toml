@@ -1,0 +1,4 @@
+[module]
+name = "causal-scale-theory"
+entry = "entry.md"
+include = ["**/*.md"]

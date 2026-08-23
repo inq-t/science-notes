@@ -1,0 +1,4 @@
+[module]
+name = "entropic-gravity"
+entry = "entry.md"
+include = ["**/*.md"]

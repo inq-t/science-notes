@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3moiaNzij4IdE34G+kNMsNkpw6I</id>
+  <title>arXiv Query: search_query=&amp;id_list=gr-qc/9504004,gr-qc/0602001,1001.0785,1009.5414,1108.5240,1109.2794,1204.6349,1505.04753,1601.00528,1602.01380,1606.09251,1609.05917,1611.02269,1612.03034,1612.04374,1612.06282,1702.04355,1702.04358,1702.08865,1703.01415,1706.00785,1706.07854,1710.00946,1806.03807,1807.01689,1810.12236,1812.01596,1901.05505,2003.03198,2003.10410,2106.11677,2401.00707,2601.01715&amp;start=0&amp;max_results=50</title>
+  <updated>2026-08-23T20:42:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=50&amp;id_list=gr-qc/9504004,gr-qc/0602001,1001.0785,1009.5414,1108.5240,1109.2794,1204.6349,1505.04753,1601.00528,1602.01380,1606.09251,1609.05917,1611.02269,1612.03034,1612.04374,1612.06282,1702.04355,1702.04358,1702.08865,1703.01415,1706.00785,1706.07854,1710.00946,1806.03807,1807.01689,1810.12236,1812.01596,1901.05505,2003.03198,2003.10410,2106.11677,2401.00707,2601.01715" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>33</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.6349v1</id>
+    <title>Gravitation and vacuum entanglement entropy</title>
+    <updated>2012-04-28T00:10:14Z</updated>
+    <link href="https://arxiv.org/abs/1204.6349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.6349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vacuum of quantum fields contains correlated fluctuations. When restricted to one side of a surface these have a huge entropy of entanglement that scales with the surface area. If UV physics renders this entropy finite, then a thermodynamic argument implies the existence of gravity. That is, the causal structure of spacetime must be dynamical and governed by the Einstein equation with Newton's constant inversely proportional to the entropy density. Conversely, the existence of gravity makes the entanglement entropy finite. This thermodynamic reasoning is powerful despite the lack of a detailed description of the dynamics at the cutoff scale, but it has its limitations. In particular, we should not expect to understand corrections to Einstein gravity in this way.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-28T00:10:14Z</published>
+    <arxiv:comment>9 pages; Essay written for the Gravity Research Foundation 2012 Awards for Essays on Gravitation</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271812420060</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271812420060" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.00528v2</id>
+    <title>Comments on Jacobson's "Entanglement equilibrium and the Einstein equation"</title>
+    <updated>2016-11-11T16:01:40Z</updated>
+    <link href="https://arxiv.org/abs/1601.00528v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.00528v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using holographic calculations, we examine a key assumption made in Jacobson's recent argument for deriving Einstein's equations from vacuum entanglement entropy. Our results involving relevant operators with low conformal dimensions seem to conflict with Jacobson's assumption. However, we discuss ways to circumvent this problem.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-04T15:06:17Z</published>
+    <arxiv:comment>39 pages, v2: minor corrections in Appendix C</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Horacio Casini</name>
+    </author>
+    <author>
+      <name>Damian A. Galante</name>
+    </author>
+    <author>
+      <name>Robert C. Myers</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2016)194</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2016)194" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00707v2</id>
+    <title>A test of MOND and Emergent Gravity with SMACS J0723.3-7327 using eROSITA observations</title>
+    <updated>2024-09-23T09:49:53Z</updated>
+    <link href="https://arxiv.org/abs/2401.00707v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.00707v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We implement a test of MOND and Verlinde's Emergent Gravity using the galaxy cluster SMACS J0723-7327, which has been recently imaged using the eROSITA X-ray telescope as well as with JWST. We test MOND using two independent methods. The first method involves comparing the dynamical MOND mass and baryonic mass, while the second method entails a comparison of the MOND-estimated temperature with the observed temperature. We then compare the unseen mass predicted by Emergent Gravity with the estimated dark matter mass. We find that MOND shows a mass discrepancy in the central regions at high significance levels. The observed temperature profile is in marginal disagreement with that in the MOND paradigm. However, the Emergent Gravity Theory agrees in accurately accounting for the dynamical mass in the inner regions within $1σ$. Our results are qualitatively consistent with the earlier tests on other clusters.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-01T09:17:12Z</published>
+    <arxiv:comment>17 pages, 3 figures. Accepted for publication in JCAP</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>JCAP 10 (2024) 030</arxiv:journal_ref>
+    <author>
+      <name>Ambica Govind</name>
+    </author>
+    <author>
+      <name>Shantanu Desai</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2024/10/030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2024/10/030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.07854v2</id>
+    <title>A note on a covariant version of Verlinde's emergent gravity</title>
+    <updated>2017-10-26T19:44:34Z</updated>
+    <link href="https://arxiv.org/abs/1706.07854v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.07854v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following recent Verlinde's heuristic construction or emergent gravity, Hossenfelder wrote down the Lagrangian capturing some aspects of this theory. We point out that there is an error in calculations whose consequence is that a cosmological de Sitter space solution is not recovered from this Lagrangian. We correct this error in order to obtain the desired solution. We also show that small perturbations around de Sitter space grow, which implies that this state is not stable. However, the presence of matter and radiation might in principle provide stability.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-23T20:37:27Z</published>
+    <arxiv:comment>accepted for publication in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 108501 (2017)</arxiv:journal_ref>
+    <author>
+      <name>De-Chang Dai</name>
+    </author>
+    <author>
+      <name>Dejan Stojkovic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.108501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.108501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01715v1</id>
+    <title>Comparison of MOND and Verlinde's emergent gravity in dwarf spheroidals</title>
+    <updated>2026-01-05T01:38:31Z</updated>
+    <link href="https://arxiv.org/abs/2601.01715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply Modified Newtonian Dynamics (MOND) and Verlinde's emergent gravity separately to calculate the radial accelerations in 23 dwarf spheroidals. Then, we compare them with the observed radial accelerations. In our earlier work, we determined that, when the data set is considered in its entirety without isolating individual dwarf spheroidal, Verlinde's emergent gravity is in close agreement with the observed values. In the present work, we additionally confirm that, for 21 of the 23 samples examined, Verlinde's emergent gravity follows the trend of the observed values within each dwarf spheroidal more closely than MOND. Combining the statistical significance of all the 23 samples, ranging from $-0.25σ$ to 3.41$σ$, we conclude that Verlinde's emergent gravity is favored over MOND at 5.2$σ$.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T01:38:31Z</published>
+    <arxiv:comment>13 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Youngsub Yoon</name>
+    </author>
+    <author>
+      <name>Sanghyeon Han</name>
+    </author>
+    <author>
+      <name>Ho Seong Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.03807v2</id>
+    <title>Field equations and particle motion in covariant emergent gravity</title>
+    <updated>2018-12-01T12:24:27Z</updated>
+    <link href="https://arxiv.org/abs/1806.03807v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.03807v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive the full set of field equations based on Hossenfelder's recent covariant formulation of the emergent gravity model, along with perturbative and exact solutions. The exact solution describes a static, spherically-symmetric spacetime with a non-trivial vector field which plays the role of dark matter under the emergent gravity paradigm. Equations of motion of relativistic test masses are derived and are shown to reduce to Modified Newtonian Dynamics with additional relativistic corrections. It is also shown that the presence of the vector field gives an additional positive contribution to the bending angle in the deflection of light.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T04:55:55Z</published>
+    <arxiv:comment>New section added. Accepted for publication in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 98, 124029 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Yen-Kheng Lim</name>
+    </author>
+    <author>
+      <name>Qing-hai Wang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.98.124029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.98.124029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0785v1</id>
+    <title>On the Origin of Gravity and the Laws of Newton</title>
+    <updated>2010-01-06T20:45:59Z</updated>
+    <link href="https://arxiv.org/abs/1001.0785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.0785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Starting from first principles and general assumptions Newton's law of gravitation is shown to arise naturally and unavoidably in a theory in which space is emergent through a holographic scenario. Gravity is explained as an entropic force caused by changes in the information associated with the positions of material bodies. A relativistic generalization of the presented arguments directly leads to the Einstein equations. When space is emergent even Newton's law of inertia needs to be explained. The equivalence principle leads us to conclude that it is actually this law of inertia whose origin is entropic.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-06T20:45:59Z</published>
+    <arxiv:comment>29 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1104:029,2011</arxiv:journal_ref>
+    <author>
+      <name>Erik P. Verlinde</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP04(2011)029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP04(2011)029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.2794v2</id>
+    <title>On entropic gravity: the entropy postulate, entropy content of screens and relation to quantum mechanics</title>
+    <updated>2012-05-06T08:31:20Z</updated>
+    <link href="https://arxiv.org/abs/1109.2794v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.2794v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the controversial hypothesis that gravity is an entropic force that has its origin in the thermodynamics of holographic screens. Several key aspects of entropic gravity are discussed. In particular, we revisit and elaborate on our criticism of the recent claim that entropic gravity fails to explain observations involving gravitationally-bound quantum states of neutrons in the GRANIT experiment and gravitationally induced quantum interference. We argue that the analysis leading to this claim is troubled by a misinterpretation concerning the relation between the microstates of a holographic screen and the state of a particle in the emergent space, engendering inconsistencies. A point of view that could resolve the inconsistencies is presented. We expound the general idea of the aforementioned critical analysis of entropic gravity in such a consistent setting. This enables us to clarify the problem and to identify a premise whose validity will decide the faith of the criticism against entropic gravity. It is argued that in order to reach a sensible conclusion we need more detailed knowledge on entropic gravity. These arguments are relevant to any theory of emergent space, where the entropy of the microscopic system depends on the distribution of matter in the emergent space.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-13T14:14:50Z</published>
+    <arxiv:comment>15 pages; v2: presentation and arguments improved, particularly in section 5; accepted to Phys. Lett. B</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B712:272-278,2012</arxiv:journal_ref>
+    <author>
+      <name>Masud Chaichian</name>
+    </author>
+    <author>
+      <name>Markku Oksanen</name>
+    </author>
+    <author>
+      <name>Anca Tureanu</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2012.04.065</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2012.04.065" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.11677v1</id>
+    <title>The Weak Lensing Radial Acceleration Relation: Constraining Modified Gravity and Cold Dark Matter theories with KiDS-1000</title>
+    <updated>2021-06-22T11:21:53Z</updated>
+    <link href="https://arxiv.org/abs/2106.11677v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.11677v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present measurements of the radial gravitational acceleration around isolated galaxies, comparing the expected gravitational acceleration given the baryonic matter with the observed gravitational acceleration, using weak lensing measurements from the fourth data release of the Kilo-Degree Survey. These measurements extend the radial acceleration relation (RAR) by 2 decades into the low-acceleration regime beyond the outskirts of the observable galaxy. We compare our RAR measurements to the predictions of two modified gravity (MG) theories: MOND and Verlinde's emergent gravity. We find that the measured RAR agrees well with the MG predictions. In addition, we find a difference of at least $6σ$ between the RARs of early- and late-type galaxies (split by Sérsic index and $u-r$ colour) with the same stellar mass. Current MG theories involve a gravity modification that is independent of other galaxy properties, which would be unable to explain this behaviour. The difference might be explained if only the early-type galaxies have significant ($M_{gas} \approx M_*$) circumgalactic gaseous haloes. The observed behaviour is also expected in $Λ$CDM models where the galaxy-to-halo mass relation depends on the galaxy formation history. We find that MICE, a $Λ$CDM simulation with hybrid halo occupation distribution modelling and abundance matching, reproduces the observed RAR but significantly differs from BAHAMAS, a hydrodynamical cosmological galaxy formation simulation. Our results are sensitive to the amount of circumgalactic gas; current observational constraints indicate that the resulting corrections are likely moderate. Measurements of the lensing RAR with future cosmological surveys will be able to further distinguish between MG and $Λ$CDM models if systematic uncertainties in the baryonic mass distribution around galaxies are reduced.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-22T11:21:53Z</published>
+    <arxiv:comment>31 pages, 15 figures, published in A&amp;A</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Astronomy &amp; Astrophysics Volume 650 (2021) ArticleID A113</arxiv:journal_ref>
+    <author>
+      <name>Margot M. Brouwer</name>
+    </author>
+    <author>
+      <name>Kyle A. Oman</name>
+    </author>
+    <author>
+      <name>Edwin A. Valentijn</name>
+    </author>
+    <author>
+      <name>Maciej Bilicki</name>
+    </author>
+    <author>
+      <name>Catherine Heymans</name>
+    </author>
+    <author>
+      <name>Henk Hoekstra</name>
+    </author>
+    <author>
+      <name>Nicola R. Napolitano</name>
+    </author>
+    <author>
+      <name>Nivya Roy</name>
+    </author>
+    <author>
+      <name>Crescenzo Tortora</name>
+    </author>
+    <author>
+      <name>Angus H. Wright</name>
+    </author>
+    <author>
+      <name>Marika Asgari</name>
+    </author>
+    <author>
+      <name>Jan Luca van den Busch</name>
+    </author>
+    <author>
+      <name>Andrej Dvornik</name>
+    </author>
+    <author>
+      <name>Thomas Erben</name>
+    </author>
+    <author>
+      <name>Benjamin Giblin</name>
+    </author>
+    <author>
+      <name>Alister W. Graham</name>
+    </author>
+    <author>
+      <name>Hendrik Hildebrandt</name>
+    </author>
+    <author>
+      <name>Andrew M. Hopkins</name>
+    </author>
+    <author>
+      <name>Arun Kannawadi</name>
+    </author>
+    <author>
+      <name>Konrad Kuijken</name>
+    </author>
+    <author>
+      <name>Jochen Liske</name>
+    </author>
+    <author>
+      <name>HuanYuan Shan</name>
+    </author>
+    <author>
+      <name>Tilman Tröster</name>
+    </author>
+    <author>
+      <name>Erik Verlinde</name>
+    </author>
+    <author>
+      <name>Manus Visser</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202040108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202040108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.04753v4</id>
+    <title>Entanglement Equilibrium and the Einstein Equation</title>
+    <updated>2016-06-25T06:05:34Z</updated>
+    <link href="https://arxiv.org/abs/1505.04753v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.04753v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A link between the semiclassical Einstein equation and a maximal vacuum entanglement hypothesis is established. The hypothesis asserts that entanglement entropy in small geodesic balls is maximized at fixed volume in a locally maximally symmetric vacuum state of geometry and quantum fields. A qualitative argument suggests that the Einstein equation implies validity of the hypothesis. A more precise argument shows that, for first-order variations of the local vacuum state of conformal quantum fields, the vacuum entanglement is stationary if and only if the Einstein equation holds. For nonconformal fields, the same conclusion follows modulo a conjecture about the variation of entanglement entropy.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-18T18:36:42Z</published>
+    <arxiv:comment>8 pages; v2: reorganized and rewritten; figure added; v3: reorganized; assumed conjecture weakened; noted that the derivation holds only for first order variations of the quantum field vacuum; v4: published version; introduction rewritten; results of arXiv:1601.00528 and arXiv:1602.01380 required that curvature of maximally symmetric local reference spacetime depend on the ball radius</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 116, 201101 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.116.201101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.116.201101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06282v2</id>
+    <title>Verlinde's emergent gravity versus MOND and the case of dwarf spheroidals</title>
+    <updated>2018-04-16T14:25:27Z</updated>
+    <link href="https://arxiv.org/abs/1612.06282v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06282v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper, Erik Verlinde has developed the interesting possibility that spacetime and gravity may emerge from the entangled structure of an underlying microscopic theory. In this picture, dark matter arises as a response to the standard model of particle physics from the delocalized degrees of freedom that build up the dark energy component of the Universe. Dark matter physics is then regulated by a characteristic acceleration scale $a_0$, identified with the radius of the (quasi)-de Sitter universe we inhabit. For a point particle matter source, or outside an extended spherically symmetric object, MOND's empirical fitting formula is recovered. However, Verlinde's theory critically departs from MOND when considering the inner structure of galaxies, differing by a factor of 2 at the centre of a regular massive body. For illustration, we use the eight classical dwarf spheroidal satellites of the Milky Way. These objects are perfect testbeds for the model given their approximate spherical symmetry, measured kinematics, and identified missing mass. We show that, without the assumption of a maximal deformation, Verlinde's theory can fit the velocity dispersion profile in dwarf spheroidals with no further need of an extra dark particle component. If a maximal deformation is considered, the theory leads to mass-to-light ratios that are marginally larger than expected from stellar population and formation history studies. We also compare our results with the recent phenomenological interpolating MOND function of McGaugh {\it et al}, and find a departure that, for these galaxies, is consistent with the scatter in current observations.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T17:34:35Z</published>
+    <arxiv:comment>12 pages, 5 figures, 1 table. To appear in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Mon.Not.Roy.Astron.Soc. 477 (2018) no.1, 1285-1295</arxiv:journal_ref>
+    <author>
+      <name>Alberto Diez-Tejedor</name>
+    </author>
+    <author>
+      <name>Alma X. Gonzalez-Morales</name>
+    </author>
+    <author>
+      <name>Gustavo Niz</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/sty649</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/sty649" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.04374v1</id>
+    <title>Entanglement equilibrium for higher order gravity</title>
+    <updated>2016-12-13T21:00:01Z</updated>
+    <link href="https://arxiv.org/abs/1612.04374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.04374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the linearized higher derivative gravitational field equations are equivalent to an equilibrium condition on the entanglement entropy of small spherical regions in vacuum. This extends Jacobson's recent derivation of the Einstein equation using entanglement to include general higher derivative corrections. The corrections are naturally associated with the subleading divergences in the entanglement entropy, which take the form of a Wald entropy evaluated on the entangling surface. Variations of this Wald entropy are related to the field equations through an identity for causal diamonds in maximally symmetric spacetimes, which we derive for arbitrary higher derivative theories. If the variations are taken holding fixed a geometric functional that we call the generalized volume, the identity becomes an equivalence between the linearized constraints and the entanglement equilibrium condition. We note that the fully nonlinear higher curvature equations cannot be derived from the linearized equations applied to small balls, in contrast to the situation encountered in Einstein gravity. The generalized volume is a novel result of this work, and we speculate on its thermodynamic role in the first law of causal diamond mechanics, as well as its possible application to holographic complexity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-13T21:00:01Z</published>
+    <arxiv:comment>14+4 pages, two columns, one figure</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 95, 046003 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Pablo Bueno</name>
+    </author>
+    <author>
+      <name>Vincent S. Min</name>
+    </author>
+    <author>
+      <name>Antony J. Speranza</name>
+    </author>
+    <author>
+      <name>Manus R. Visser</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.95.046003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.95.046003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.05505v3</id>
+    <title>Testing Emergent Gravity on Galaxy Cluster Scales</title>
+    <updated>2019-05-09T10:57:46Z</updated>
+    <link href="https://arxiv.org/abs/1901.05505v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.05505v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verlinde's theory of Emergent Gravity (EG) describes gravity as an emergent phenomenon rather than a fundamental force. Applying this reasoning in de Sitter space leads to gravity behaving differently on galaxy and galaxy cluster scales; this excess gravity might offer an alternative to dark matter. Here we test these ideas using the data from the Coma cluster and from 58 stacked galaxy clusters. The X-ray surface brightness measurements of the clusters at $0.1 &lt; z &lt; 1.2$ along with the weak lensing data are used to test the theory. We find that the simultaneous EG fits of the X-ray and weak lensing datasets are significantly worse than those provided by General Relativity (with cold dark matter). For the Coma cluster, the predictions from Emergent Gravity and General Relativity agree in the range of 250 - 700 kpc, while at around 1 Mpc scales, EG total mass predictions are larger by a factor of 2. For the cluster stack the predictions are only in good agreement at around the 1 - 2 Mpc scales, while for $r \gtrsim 10$ Mpc EG is in strong tension with the data. According to the Bayesian information criterion analysis, GR is preferred in all tested datasets; however, we also discuss possible modifications of EG that greatly relax the tension with the data.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-16T19:30:15Z</published>
+    <arxiv:comment>19 pages, 5 figures, 5 tables, accepted for publication on JCAP</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Andrius Tamosiunas</name>
+    </author>
+    <author>
+      <name>David Bacon</name>
+    </author>
+    <author>
+      <name>Kazuya Koyama</name>
+    </author>
+    <author>
+      <name>Robert C. Nichol</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2019/05/053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2019/05/053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.03198v1</id>
+    <title>Comment on "Inconsistencies in Verlinde's emergent gravity"</title>
+    <updated>2020-03-05T15:47:58Z</updated>
+    <link href="https://arxiv.org/abs/2003.03198v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.03198v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2016, Erik Verlinde proposed a new theory of gravity called "emergent gravity" by using mathematical formulas used in the theory of elasticity. In 2017, De-Chang Dai and Dejan Stojkovic claimed to point out inconsistencies in Verlinde's emergent gravity. We point out that their claim was based on misunderstanding of the dictionary between emergent gravity and theory of elasticity. In addition, we propose a slightly different formula for Verlinde's emergent gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-05T15:47:58Z</published>
+    <arxiv:comment>6+1 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Youngsub Yoon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.09251v1</id>
+    <title>SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves</title>
+    <updated>2016-06-29T20:00:02Z</updated>
+    <link href="https://arxiv.org/abs/1606.09251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.09251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce SPARC (Spitzer Photometry &amp; Accurate Rotation Curves): a sample of 175 nearby galaxies with new surface photometry at 3.6 um and high-quality rotation curves from previous HI/Halpha studies. SPARC spans a broad range of morphologies (S0 to Irr), luminosities (~5 dex), and surface brightnesses (~4 dex). We derive [3.6] surface photometry and study structural relations of stellar and gas disks. We find that both the stellar mass-HI mass relation and the stellar radius-HI radius relation have significant intrinsic scatter, while the HI mass-radius relation is extremely tight. We build detailed mass models and quantify the ratio of baryonic-to-observed velocity (Vbar/Vobs) for different characteristic radii and values of the stellar mass-to-light ratio (M/L) at [3.6]. Assuming M/L=0.5 Msun/Lsun (as suggested by stellar population models) we find that (i) the gas fraction linearly correlates with total luminosity, (ii) the transition from star-dominated to gas-dominated galaxies roughly corresponds to the transition from spiral galaxies to dwarf irregulars in line with density wave theory; and (iii) Vbar/Vobs varies with luminosity and surface brightness: high-mass, high-surface-brightness galaxies are nearly maximal, while low-mass, low-surface-brightness galaxies are submaximal. These basic properties are lost for low values of M/L=0.2 Msun/Lsun as suggested by the DiskMass survey. The mean maximum-disk limit in bright galaxies is M/L=0.7 Msun/Lsun at [3.6]. The SPARC data are publicly available and represent an ideal test-bed for models of galaxy formation.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-29T20:00:02Z</published>
+    <arxiv:comment>Accepted for publication in AJ (14 pages, 8 figures). All data are available at http://astroweb.cwru.edu/SPARC/</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Federico Lelli</name>
+      <arxiv:affiliation>Case Western Reserve University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stacy S. McGaugh</name>
+      <arxiv:affiliation>Case Western Reserve University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James M. Schombert</name>
+      <arxiv:affiliation>University of Oregon</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/0004-6256/152/6/157</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/0004-6256/152/6/157" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.04355v1</id>
+    <title>Testing Verlinde's Emergent Gravity with the Radial Acceleration Relation</title>
+    <updated>2017-02-14T19:00:01Z</updated>
+    <link href="https://arxiv.org/abs/1702.04355v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.04355v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verlinde (2016) has recently proposed that spacetime and gravity may emerge from an underlying microscopic theory. In a de Sitter spacetime, such emergent gravity (EG) contains an additional gravitational force due to dark energy, which may explain the mass discrepancies observed in galactic systems without the need of dark matter. For a point mass, EG is equivalent to Modified Newtonian Dynamics (MOND). We show that this equivalence does not hold for finite-size galaxies: there are significant differences between EG and MOND in the inner regions of galaxies. We confront theoretical predictions with the empirical Radial Acceleration Relation (RAR). We find that (i) EG is consistent with the observed RAR only if we substantially decrease the fiducial stellar mass-to-light ratios; the resulting values are in tension with other astronomical estimates; (ii) EG predicts that the residuals around the RAR should correlate with radius; such residual correlation is not observed.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-14T19:00:01Z</published>
+    <arxiv:comment>5 pages, 2 figures, accepted for publication in MNRAS Letters</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Federico Lelli</name>
+      <arxiv:affiliation>European Southern Observatory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stacy S. McGaugh</name>
+      <arxiv:affiliation>Case Western Reserve University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James M. Schombert</name>
+      <arxiv:affiliation>University of Oregon</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1093/mnrasl/slx031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnrasl/slx031" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.01380v1</id>
+    <title>Entanglement entropy of excited states in conformal perturbation theory and the Einstein equation</title>
+    <updated>2016-02-03T17:31:16Z</updated>
+    <link href="https://arxiv.org/abs/1602.01380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.01380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a conformal field theory (CFT) deformed by a relevant operator, the entanglement entropy of a ball-shaped region may be computed as a perturbative expansion in the coupling. A similar perturbative expansion exists for excited states near the vacuum. Using these expansions, this work investigates the behavior of excited state entanglement entropies of small, ball-shaped regions. The motivation for these calculations is Jacobson's recent work on the equivalence of the Einstein equation and the hypothesis of maximal vacuum entropy [arXiv:1505.04753], which relies on a conjecture stating that the behavior of these entropies is sufficiently similar to a CFT. In addition to the expected type of terms which scale with the ball radius as $R^d$, the entanglement entropy calculation gives rise to terms scaling as $R^{2Δ}$, where $Δ$ is the dimension of the deforming operator. When $Δ\leq\frac{d}{2}$, the latter terms dominate the former, and suggest that a modification to the conjecture is needed.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-03T17:31:16Z</published>
+    <arxiv:comment>31 pages + appendices and references, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Antony J. Speranza</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP04(2016)105</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP04(2016)105" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.02269v2</id>
+    <title>Emergent Gravity and the Dark Universe</title>
+    <updated>2016-11-08T20:58:41Z</updated>
+    <link href="https://arxiv.org/abs/1611.02269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.02269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent theoretical progress indicates that spacetime and gravity emerge together from the entanglement structure of an underlying microscopic theory. These ideas are best understood in Anti-de Sitter space, where they rely on the area law for entanglement entropy. The extension to de Sitter space requires taking into account the entropy and temperature associated with the cosmological horizon. Using insights from string theory, black hole physics and quantum information theory we argue that the positive dark energy leads to a thermal volume law contribution to the entropy that overtakes the area law precisely at the cosmological horizon. Due to the competition between area and volume law entanglement the microscopic de Sitter states do not thermalise at sub-Hubble scales: they exhibit memory effects in the form of an entropy displacement caused by matter. The emergent laws of gravity contain an additional `dark' gravitational force describing the `elastic' response due to the entropy displacement. We derive an estimate of the strength of this extra force in terms of the baryonic mass, Newton's constant and the Hubble acceleration scale a_0 =cH_0, and provide evidence for the fact that this additional `dark gravity~force' explains the observed phenomena in galaxies and clusters currently attributed to dark matter.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-07T20:59:16Z</published>
+    <arxiv:comment>5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>SciPost Phys. 2, 016 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Erik P. Verlinde</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhys.2.3.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhys.2.3.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5414v2</id>
+    <title>Gravity is not an entropic force</title>
+    <updated>2010-12-30T22:04:57Z</updated>
+    <link href="https://arxiv.org/abs/1009.5414v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5414v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that experiments with ultra-cold neutrons in the gravitational field of Earth disprove recent speculations on the entropic origin of gravitation.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-27T23:53:35Z</published>
+    <arxiv:comment>5 pages, v2: minor corrections; to be published in Physical Review D</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D83:021502,2011</arxiv:journal_ref>
+    <author>
+      <name>Archil Kobakhidze</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.83.021502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.83.021502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00785v2</id>
+    <title>Testing Emergent Gravity with Isolated Dwarf Galaxies</title>
+    <updated>2020-11-29T20:15:27Z</updated>
+    <link href="https://arxiv.org/abs/1706.00785v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00785v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verlinde (2016) has proposed a new modified theory of gravity, Emergent Gravity (EG), as an alternative to dark matter. EG reproduces the Tully-Fisher relationship with no free parameters and agrees with the velocity curves of most massive, spiral galaxies well. In its current form, the theory only applies to isolated, spherically symmetric systems in a dark energy-dominated Universe, and thus can only be tested fairly with such systems. This paper presents a framework for rotation curve tests of EG using isolated dwarf galaxies. Here I extend the EG equations to axisymmetric distributions for the first time. I also perform a preliminary test of the predictions from EG versus the maximum velocity measurements of 452 isolated dwarf galaxies. I find that EG predicts the maximum velocities of these systems somewhat well for galaxies with measured velocities around $100~\rm{km/s}$. EG severely underpredicts the maximum velocities for dwarf galaxies with measured velocities greater than this value and overpredicts for those with measured velocities less than this value. Rotation curves of these isolated dwarf galaxies would provide the definitive test of EG.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-02T18:00:00Z</published>
+    <arxiv:comment>v2: derived the axisymmetric case. conclusions remain unchanged. matches accepted version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Kris Pardo</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2020/12/012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2020/12/012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00946v2</id>
+    <title>Inconsistencies in Verlinde's emergent gravity</title>
+    <updated>2017-11-08T20:22:37Z</updated>
+    <link href="https://arxiv.org/abs/1710.00946v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.00946v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We point out that recent Verlinde's proposal of emergent gravity suffers from some internal inconsistencies. The main idea in this proposal is to preserve general relativity at short scales where numerous tests verified its validity, but modify it on large scales where we meet puzzles raised by observations (in particular dark matter), by using some entropic concepts. We first point out that gravity as a conservative force is very difficult (if possible at all) to portray as an entropic force. We then show that the derivation of the MOND relation using the elastic strain idea is not self-consistent. When properly done, Verlinde's elaborate procedure recovers the standard Newtonian gravity instead of MOND.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-03T00:45:53Z</published>
+    <arxiv:comment>accepted for publication in JHEP</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>De-Chang Dai</name>
+    </author>
+    <author>
+      <name>Dejan Stojkovic</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2017)007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2017)007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.01689v2</id>
+    <title>Testing emergent gravity with mass densities of galaxy clusters</title>
+    <updated>2020-10-07T20:54:35Z</updated>
+    <link href="https://arxiv.org/abs/1807.01689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.01689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use a sample of 23 galaxy clusters to test the predictions of emergent gravity (EG) as alternative to dark matter. Our sample has both weak-lensing inferred total mass profiles as well as x-ray inferred baryonic gas mass profiles. Using nominal assumptions about the weak-lensing and x-ray mass profiles, we find that the EG predictions (based on no dark matter) are acceptable fits only near the virial radius. In the cores and in the outskirts, the mass profile shape differences allow us to confirm previous results that the EG model can be ruled out at $&gt;5σ$. However, when we account for systematic uncertainties in the observed weak-lensing and x-ray profiles, we find good agreement for the EG predictions. For instance, if the weak-lensing total mass profiles are shallow in the core and the x-ray gas density profiles are steep in the outskirts, EG can predict the observed dark matter profile in $0.3 \le r \le 1$R$_{200}$, where R$_{200}$ is the radius which encloses 200$\times$ the critical density of the Universe. The required x-ray and lensing shapes are within the current observational systematics-limited errors on cluster profiles. We also show that EG itself allows flexibility in its predictions, which can allow for good agreement between the observations and the predictions. We conclude that we cannot formally rule our EG as an alternative to dark matter on the cluster scale and that we require better constraints on the weak-lensing and gas mass profile shapes in the region $0.3 \le r \le 1$R$_{200}$.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-04T17:12:54Z</published>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Phys. Rev. D 102, 084007 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Vitali Halenka</name>
+    </author>
+    <author>
+      <name>Christopher J. Miller</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.102.084007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.102.084007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.04358v2</id>
+    <title>Emergent gravity in galaxies and in the Solar System</title>
+    <updated>2017-02-24T15:42:34Z</updated>
+    <link href="https://arxiv.org/abs/1702.04358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.04358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It was recently proposed that the effects usually attributed to particle dark matter on galaxy scales are due to the displacement of dark energy by baryonic matter, a paradigm known as emergent gravity. This formalism leads to predictions similar to Modified Newtonian Dynamics (MOND) in spherical symmetry, but not quite identical. In particular, it leads to a well defined transition between the Newtonian and the modified gravitational regimes, a transition depending on both the Newtonian acceleration and its first derivative with respect to radius. Under the hypothesis of the applicability of this transition to aspherical systems, we investigate whether it can reproduce observed galaxy rotation curves. We conclude that the formula leads to marginally acceptable fits with strikingly low best-fit distances, low stellar mass-to-light ratios, and a low Hubble constant. In particular, some unobserved wiggles are produced in rotation curves because of the dependence of the transition on the derivative of the Newtonian acceleration, leading, even in the most favorable case, to systematically less good fits than MOND. Then, applying the predicted transition from emergent gravity in a regime where it should a priori be applicable, i.e. in spherical symmetry and outside of the bulk of matter, we show that the predictions for the secular advances of Solar System planets' perihelia are discrepant with the data by seven orders of magnitude, ruling out the present emergent gravity weak-field formula with high confidence.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-14T19:00:07Z</published>
+    <arxiv:comment>10 pages, 2 figures, accepted for publication in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Phys. Rev. D 95, 064019 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Aurelien Hees</name>
+    </author>
+    <author>
+      <name>Benoit Famaey</name>
+    </author>
+    <author>
+      <name>Gianfranco Bertone</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.95.064019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.95.064019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.01415v3</id>
+    <title>A Covariant Version of Verlinde's Emergent Gravity</title>
+    <updated>2017-06-27T06:43:15Z</updated>
+    <link href="https://arxiv.org/abs/1703.01415v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.01415v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generally covariant version of Erik Verlinde's emergent gravity model is proposed. The Lagrangian constructed here allows an improved interpretation of the underlying mechanism. It suggests that de-Sitter space is filled with a vector-field that couples to baryonic matter and, by dragging on it, creates an effect similar to dark matter. We solve the covariant equation of motion in the background of a Schwarzschild space-time and obtain correction terms to the non-covariant expression. Furthermore, we demonstrate that the vector field can also mimic dark energy.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-04T08:40:27Z</published>
+    <arxiv:comment>correction and reference added. 15 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 95, 124018 (2017)</arxiv:journal_ref>
+    <author>
+      <name>S. Hossenfelder</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.95.124018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.95.124018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03034v2</id>
+    <title>First test of Verlinde's theory of Emergent Gravity using Weak Gravitational Lensing measurements</title>
+    <updated>2016-12-19T18:46:34Z</updated>
+    <link href="https://arxiv.org/abs/1612.03034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verlinde (2016) proposed that the observed excess gravity in galaxies and clusters is the consequence of Emergent Gravity (EG). In this theory the standard gravitational laws are modified on galactic and larger scales due to the displacement of dark energy by baryonic matter. EG gives an estimate of the excess gravity (described as an apparent dark matter density) in terms of the baryonic mass distribution and the Hubble parameter. In this work we present the first test of EG using weak gravitational lensing, within the regime of validity of the current model. Although there is no direct description of lensing and cosmology in EG yet, we can make a reasonable estimate of the expected lensing signal of low redshift galaxies by assuming a background LambdaCDM cosmology. We measure the (apparent) average surface mass density profiles of 33,613 isolated central galaxies, and compare them to those predicted by EG based on the galaxies' baryonic masses. To this end we employ the ~180 square degrees overlap of the Kilo-Degree Survey (KiDS) with the spectroscopic Galaxy And Mass Assembly (GAMA) survey. We find that the prediction from EG, despite requiring no free parameters, is in good agreement with the observed galaxy-galaxy lensing profiles in four different stellar mass bins. Although this performance is remarkable, this study is only a first step. Further advancements on both the theoretical framework and observational tests of EG are needed before it can be considered a fully developed and solidly tested theory.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T14:25:29Z</published>
+    <arxiv:comment>14 pages, 3 figures. Accepted for publication in MNRAS. Added references for section 1 and 6</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>MNRAS, Volume 466, Issue 3, 21 April 2017, Pages 2547-2559</arxiv:journal_ref>
+    <author>
+      <name>Margot M. Brouwer</name>
+    </author>
+    <author>
+      <name>Manus R. Visser</name>
+    </author>
+    <author>
+      <name>Andrej Dvornik</name>
+    </author>
+    <author>
+      <name>Henk Hoekstra</name>
+    </author>
+    <author>
+      <name>Konrad Kuijken</name>
+    </author>
+    <author>
+      <name>Edwin A. Valentijn</name>
+    </author>
+    <author>
+      <name>Maciej Bilicki</name>
+    </author>
+    <author>
+      <name>Chris Blake</name>
+    </author>
+    <author>
+      <name>Sarah Brough</name>
+    </author>
+    <author>
+      <name>Hugo Buddelmeijer</name>
+    </author>
+    <author>
+      <name>Thomas Erben</name>
+    </author>
+    <author>
+      <name>Catherine Heymans</name>
+    </author>
+    <author>
+      <name>Hendrik Hildebrandt</name>
+    </author>
+    <author>
+      <name>Benne W. Holwerda</name>
+    </author>
+    <author>
+      <name>Andrew M. Hopkins</name>
+    </author>
+    <author>
+      <name>Dominik Klaes</name>
+    </author>
+    <author>
+      <name>Jochen Liske</name>
+    </author>
+    <author>
+      <name>Jon Loveday</name>
+    </author>
+    <author>
+      <name>John McFarland</name>
+    </author>
+    <author>
+      <name>Reiko Nakajima</name>
+    </author>
+    <author>
+      <name>Cristóbal Sifón</name>
+    </author>
+    <author>
+      <name>Edward N. Taylor</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stw3192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stw3192" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.5240v4</id>
+    <title>Conservative entropic forces</title>
+    <updated>2011-10-20T22:30:27Z</updated>
+    <link href="https://arxiv.org/abs/1108.5240v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.5240v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entropic forces have recently attracted considerable attention as ways to reformulate, retrodict, and perhaps even "explain'" classical Newtonian gravity from a rather specific thermodynamic perspective. In this article I point out that if one wishes to reformulate classical Newtonian gravity in terms of an entropic force, then the fact that Newtonian gravity is described by a conservative force places significant constraints on the form of the entropy and temperature functions. (These constraints also apply to entropic reinterpretations of electromagnetism, and indeed to any conservative force derivable from a potential.)
+  The constraints I will establish are sufficient to present real and significant problems for any reasonable variant of Verlinde's entropic gravity proposal, though for technical reasons the constraints established herein do not directly impact on either Jacobson's or Padmanabhan's versions of entropic gravity. In an attempt to resolve these issues, I will extend the usual notion of entropic force to multiple heat baths with multiple "temperatures'" and multiple "entropies".</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-26T05:12:35Z</published>
+    <arxiv:comment>V1: 21 pages; no figures. V2: now 24 pages. Two new sections (reduced mass formulation, decoherence). Many small clarifying comments added throughout the text. Several references added. V3: Three more references added. V4: now 25 pages. Some extra discussion on the relation between Verlinde's scenario and the Jacobson and Padmanabhan scenarios. This version accepted for publication in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1110 (2011) 140</arxiv:journal_ref>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/JHEP10(2011)140</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP10(2011)140" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.01596v3</id>
+    <title>Gravitational Thermodynamics of Causal Diamonds in (A)dS</title>
+    <updated>2019-12-13T15:19:22Z</updated>
+    <link href="https://arxiv.org/abs/1812.01596v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.01596v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The static patch of de Sitter spacetime and the Rindler wedge of Minkowski spacetime are causal diamonds admitting a true Killing field, and they behave as thermodynamic equilibrium states under gravitational perturbations. We explore the extension of this gravitational thermodynamics to all causal diamonds in maximally symmetric spacetimes. Although such diamonds generally admit only a conformal Killing vector, that seems in all respects to be sufficient. We establish a Smarr formula for such diamonds and a "first law" for variations to nearby solutions. The latter relates the variations of the bounding area, spatial volume of the maximal slice, cosmological constant, and matter Hamiltonian. The total Hamiltonian is the generator of evolution along the conformal Killing vector that preserves the diamond. To interpret the first law as a thermodynamic relation, it appears necessary to attribute a negative temperature to the diamond, as has been previously suggested for the special case of the static patch of de Sitter spacetime. With quantum corrections included, for small diamonds we recover the "entanglement equilibrium" result that the generalized entropy is stationary at the maximally symmetric vacuum at fixed volume, and we reformulate this as the stationarity of free conformal energy with the volume not fixed.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-04T18:52:59Z</published>
+    <arxiv:comment>v3: 64 pages, 6 appendices, 8 figures; matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>SciPost Phys. 7, 079 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <author>
+      <name>Manus R. Visser</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhys.7.6.079</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhys.7.6.079" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.12236v2</id>
+    <title>Equilibrium to Einstein: Entanglement, Thermodynamics, and Gravity</title>
+    <updated>2019-01-25T03:57:04Z</updated>
+    <link href="https://arxiv.org/abs/1810.12236v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.12236v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here we develop the connection between thermodynamics, entanglement, and gravity. By attributing thermodynamics to timeslices of a causal diamond, we show that the Clausius relation $TΔS_{\text{rev}}=Q$, where $ΔS_{\text{rev}}$ is the reversible entropy change, gives rise to the non-linear gravitational equations of motion for a wide class of diffeomorphism invariant theories. We then compare the Clausius relation to the first law of causal diamond mechanics (FLCD), a geometric identity and necessary ingredient in deriving Jacobson's entanglement equilibrium proposal -- the entanglement entropy of a spherical region with a fixed volume is maximal in vacuum. Specifically we show that the condition of fixed volume can be understood as subtracting the irreversible contribution to the thermodynamic entropy. This provides a "reversible thermodynamic process" interpretation of the FLCD, and that the condition of entanglement equilibrium may be regarded as equilibrium thermodynamics for which the Clausius relation holds. Finally, we extend the entanglement equilibrium proposal to the timelike stretched horizons of future lightcones, providing an entanglement interpretation of stretched lightcone thermodynamics.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-29T16:24:53Z</published>
+    <arxiv:comment>23 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 99, 086006 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Andrew Svesko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.99.086006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.99.086006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10410v1</id>
+    <title>A Critique of Covariant Emergent Gravity</title>
+    <updated>2020-03-23T17:34:06Z</updated>
+    <link href="https://arxiv.org/abs/2003.10410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.10410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I address some problems encountered in the formulation of relativistic models encompassing the MOND phenomenology of radial acceleration. I explore scalar and vector theories with fractional kinetic terms and $f(R)$-type gravity, demanding that the energy density be bounded from below and that superluminal modes be absent, but also that some consistency constraints with observational results hold. I identify configurations whose energy is unbounded from below and formulate some no-go statements for vector field models and modified gravity theories. Finally, I discuss superfluid dark matter as a hybrid theory lying between CDM and modified gravity, highlighting some difficulties present also in this case, which appears preferable to the others.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-23T17:34:06Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>K. Zatrimaylov</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2020/08/024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2020/08/024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.08865v2</id>
+    <title>Testing Verlinde's emergent gravity in early-type galaxies</title>
+    <updated>2017-07-26T14:10:12Z</updated>
+    <link href="https://arxiv.org/abs/1702.08865v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.08865v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verlinde derived gravity as an emergent force from the information flow, through two-dimensional surfaces and recently, by a priori postulating the entanglement of information in 3D space, he derived the effect of the gravitational potential from dark matter (DM) as the entropy displacement of dark energy by baryonic matter. In Emergent Gravity (EG) this apparent DM depends only on the baryonic mass distribution and the present-day value of the Hubble parameter. In this paper we test the EG proposition, formalized by Verlinde for a spherical and isolated mass distribution, using the central velocity dispersion, $σ$ and the light distribution in a sample of 4260 massive and local early-type galaxies (ETGs) from the SPIDER sample. Our results remain unaltered if we consider the sample of 807 roundest field galaxies. We derive the predictions by EG for the stellar mass-to-light ratio (M/L) and the Initial Mass Function (IMF), and compare them with the same inferences derived from a) DM-based models, b) MOND and c) stellar population models. We demonstrate that, consistently with a classical Newtonian framework with a DM halo component, or alternative theories of gravity as MOND, the central dynamics can be fitted if the IMF is assumed non-universal. The results can be interpreted with a IMF lighter than a standard Chabrier at low-$σ$, and bottom-heavier IMFs at larger $σ$. We find lower, but still acceptable, stellar M/L in EG theory, if compared with the DM-based NFW model and with MOND. The results from EG are comparable to what is found if the DM haloes are adiabatically contracted and with expectations from spectral gravity-sensitive features. If the strain caused by the entropy displacement would be not maximal, as adopted in the current formulation, then the dynamics of ETGs could be reproduced with larger M/L. (abridged)</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-28T17:03:42Z</published>
+    <arxiv:comment>12 pages, 2 figures, submitted to MNRAS. The updated manuscript presents significantly altered conclusions, after discovering an internal bug in an older version of the Mathematica package, leading to incorrect numerical results when calculating the derivatives of Gamma functions</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>C. Tortora</name>
+    </author>
+    <author>
+      <name>L. V. E. Koopmans</name>
+    </author>
+    <author>
+      <name>N. R. Napolitano</name>
+    </author>
+    <author>
+      <name>E. A. Valentijn</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stx2432</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stx2432" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05917v1</id>
+    <title>The Radial Acceleration Relation in Rotationally Supported Galaxies</title>
+    <updated>2016-09-19T20:02:10Z</updated>
+    <link href="https://arxiv.org/abs/1609.05917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report a correlation between the radial acceleration traced by rotation curves and that predicted by the observed distribution of baryons. The same relation is followed by 2693 points in 153 galaxies with very different morphologies, masses, sizes, and gas fractions. The correlation persists even when dark matter dominates. Consequently, the dark matter contribution is fully specified by that of the baryons. The observed scatter is small and largely dominated by observational uncertainties. This radial acceleration relation is tantamount to a natural law for rotating galaxies.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-19T20:02:10Z</published>
+    <arxiv:comment>6 pages, 3 figures. Accepted for publication in Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 117, 201101 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Stacy McGaugh</name>
+    </author>
+    <author>
+      <name>Federico Lelli</name>
+    </author>
+    <author>
+      <name>Jim Schombert</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.117.201101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.117.201101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0602001v1</id>
+    <title>Non-equilibrium Thermodynamics of Spacetime</title>
+    <updated>2006-02-01T06:30:50Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0602001v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0602001v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It has previously been shown that the Einstein equation can be derived from the requirement that the Clausius relation dS = dQ/T hold for all local acceleration horizons through each spacetime point, where dS is one quarter the horizon area change in Planck units, and dQ and T are the energy flux across the horizon and Unruh temperature seen by an accelerating observer just inside the horizon. Here we show that a curvature correction to the entropy that is polynomial in the Ricci scalar requires a non-equilibrium treatment. The corresponding field equation is derived from the entropy balance relation dS =dQ/T+dS_i, where dS_i is a bulk viscosity entropy production term that we determine by imposing energy-momentum conservation. Entropy production can also be included in pure Einstein theory by allowing for shear viscosity of the horizon.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-01T06:30:50Z</published>
+    <arxiv:comment>4 pages. Dedicated to Rafael Sorkin on the occasion of his 60th birthday</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.96:121301,2006</arxiv:journal_ref>
+    <author>
+      <name>Christopher Eling</name>
+    </author>
+    <author>
+      <name>Raf Guedens</name>
+    </author>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.96.121301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.96.121301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9504004v2</id>
+    <title>Thermodynamics of Spacetime: The Einstein Equation of State</title>
+    <updated>1995-06-06T17:47:58Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9504004v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9504004v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Einstein equation is derived from the proportionality of entropy and horizon area together with the fundamental relation $δQ=TdS$ connecting heat, entropy, and temperature. The key idea is to demand that this relation hold for all the local Rindler causal horizons through each spacetime point, with $δQ$ and $T$ interpreted as the energy flux and Unruh temperature seen by an accelerated observer just inside the horizon. This requires that gravitational lensing by matter energy distorts the causal structure of spacetime in just such a way that the Einstein equation holds. Viewed in this way, the Einstein equation is an equation of state. This perspective suggests that it may be no more appropriate to canonically quantize the Einstein equation than it would be to quantize the wave equation for sound in air.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-04-04T18:54:14Z</published>
+    <arxiv:comment>8 pages, 1 figure. Revised version has core unchanged but paper rewritten and expanded to clarify the reasoning and to emphasize some points. One figure added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.75:1260-1263,1995</arxiv:journal_ref>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.75.1260</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.75.1260" title="doi"/>
+  </entry>
+</feed>
