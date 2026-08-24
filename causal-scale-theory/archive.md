@@ -44,9 +44,13 @@ F8EC2C73A899FF0F46049542F65F3C3D7CB8BDD0E45E556E25FD5DDFAD7871E2
 
 [[conservation-of-causal-charge/entry|Conservation of causal charge]] owns the wider philosophical and group-theoretic interpretation of the binary Casimir balance.
 
+[[program-core/entry|The programme core]] now owns canonical definitions, premise classes, Ruble-equation signatures, and failure rules. [[conformal-scale-geometry/entry|Conformal scale geometry]] and [[binary-information-geometry/entry|binary information geometry]] own reusable exact results; the generic Hessian and affine-character results live under [[basic-concepts/hessians/entry|Hessians]] and [[basic-concepts/soldering/entry|soldering]]. The active CST module keeps only the homogeneous realization, its theorem leaves, its specific conjectures, and its empirical interface.
+
 ## Refactor history
 
 The AI-authored pre-synthesis inventory, salvage ledger, receipt plan, quarantine, and migration plan are preserved under `junk-drawer/refactor-plan/`. [[junk-drawer/refactor-plan/refactor-audit|The synthesis audit]] records how that planning packet was corrected; [[junk-drawer/refactor-plan/retirement-audit|the retirement audit]] records the final salvage, rejection, delegation, receipt, and preservation decisions.
+
+A later dependency refactor removed duplicate CST copies of conformal, binary, Hessian, soldering, wall-interface, claim-ledger, and conjecture-registry material. Their content was either lifted to the shared owners named above, reduced to theorem-shaped CST leaves, or retired because it was only a navigation registry. Git retains the deleted active files, while `sources/legacy/` retains the older master documents unchanged.
 
 The exact v7 legacy tree retains its loose `latest/` snapshot and the original `causal_scale_dynamics_master_v7_0.zip`. For easier review, `sources/legacy/unpacked-v7-package/` is a convenience mirror of the ZIP's 65 entries, including section notes, referee notes, figures, and JSON outputs; no chats were observed in that package. The ZIP and the exact moved source tree remain the provenance objects, while the unpacked tree is only an access copy. The v8 tree likewise retains its notes and receipts. These local files, not the fingerprints alone, are the reviewable archive.
 

@@ -12,7 +12,7 @@ $$
 \qquad t\in\mathbb R.
 $$
 
-It is reversible. Noncommutativity supplies incompatibility of observables, not a temporal orientation. This agrees with [[causal-scale-theory/modular-flow|the distinction between modular flow and deformation through a family of states]].
+It is reversible. Noncommutativity supplies incompatibility of observables, not a temporal orientation. This agrees with [[wall-construction-interface/vertical-and-horizontal-motion|the distinction between modular flow and deformation through a family of states]].
 
 For an inclusion $i:\mathcal D\hookrightarrow\mathcal M$, the canonical observational operation is restriction of states,
 

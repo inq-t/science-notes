@@ -34,7 +34,7 @@ $$
 
 A rigid prediction for $H(N)$ therefore determines distances, lookback times, the age assigned to cosmic events, and the chronology of acceleration. These may be compared jointly with clocks, standard rulers and candles, recombination and nucleosynthesis epochs, and the ages of long-lived objects. Agreement of one distance curve is weaker than agreement of the whole chronology.
 
-The horizon allocation developed in [[causal-scale-theory/horizon-clock|the horizon clock]] relates scale change to surface-gravity rapidity and horizon-entropy change under stated geometric assumptions. It is not independent evidence if every term is reconstructed from the same $H(N)$.
+The horizon allocation developed in [[conformal-scale-geometry/horizon-allocation|the horizon-allocation identity]] relates scale change to surface-gravity rapidity and horizon-entropy change under stated geometric assumptions. It is not independent evidence if every term is reconstructed from the same $H(N)$.
 
 ## Causal size, entropy, temperature, and gravity
 

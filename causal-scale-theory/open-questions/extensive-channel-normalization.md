@@ -1,33 +1,25 @@
-# Scale Dependence of the Extensive Channel
+# Open Question: Is the Extensive Channel Factor Constant?
 
-The balanced binary model fixes a normalized susceptibility $\operatorname{sech}^2\theta$, but a physical wall may have a scale-dependent number or density of active channels. The rigid CST pulse assumes this extensive prefactor is constant along the homogeneous path.
+The normalized binary model fixes a one-channel shape, not the cut-integrated response. The rigid CST pulse additionally assumes that the physical tangent normalization, renormalized multiplicity, and active channel content combine into a scale-independent extensive factor \(C_\perp(N)=C_{\perp,c}\).
 
-The general factorization is
-
-$$
-G^\perp_{NN}(N)
-=C_\perp(N)\nu^2\operatorname{sech}^2(\nu x).
-$$
-
-The canonical background uses
+The typed factorization is
 
 $$
-C_\perp(N)=C_{\perp,c}.
+G^{\perp}_{NN}(N)
+=C_\perp(N)
+\left(\frac{\mathrm d\theta}{\mathrm dN}\right)^2
+g^{\mathrm{bin}}_{\theta\theta}.
 $$
 
-If instead
+Under affine soldering and the balanced binary reduction this becomes the formula recorded in [[program-core/ruble-equations|RE5 of the Ruble equations]]. The factor \(C_\perp\) need not be an integer: it may include channel multiplicity, trace or regulator normalization, the size of the selected cut, and norm contributed by degrees of freedom discarded by the binary reduction.
+
+The open construction must separate those effects and determine whether \(C_\perp(N)\) is constant in the physical comparison scheme. [[program-core/descent-response-geometry|Descent-response geometry]] states the stronger local requirement: construct a measure-valued BKM form and compare it with independently normalized area. [[deriving-value-of-g/obstructions-to-an-unconditional-proof|The replication and dimensional obstructions]] show why the normalized binary algebra cannot settle this question.
+
+If
 
 $$
-\gamma(N):=\frac{C_\perp(N)}{C_{\perp,c}}
+\gamma(N)
+:=\frac{C_\perp(N)}{C_{\perp,c}}
 $$
 
-is nontrivial, then
-
-$$
-\rho_X(N)
-\propto\gamma(N)\operatorname{sech}^2(\nu x),
-$$
-
-and both the equation-of-state invariant and the flatness atlas change.
-
-This is not a correction to [[causal-scale-theory/binary-geometry|the normalized Casimir balance]]. It is a missing microscopic statement about extensivity, renormalization, and how the wall area or channel content changes with scale. An independently constructed interface must either prove constancy, calculate $\gamma(N)$, or show that its variation is absorbed by a different physical normalization without circular reference to the desired background.
+is nonconstant, the constitutive source acquires that factor and [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid density identities]] no longer apply in their stated form. That outcome would modify the homogeneous CST model without changing the exact balanced-binary geometry.

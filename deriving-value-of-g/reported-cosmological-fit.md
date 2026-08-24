@@ -46,7 +46,7 @@ $$
 \text{horizon capacity}.
 $$
 
-The fit can therefore test the effective source family and the unit-amplitude closure jointly. It cannot independently prove the microscopic arrows in that dictionary.
+The fit can therefore test the effective source family and weak unit matching jointly. It cannot independently prove the microscopic arrows in that dictionary.
 
 In particular, the exact binary calculation does not supply the identification: at the balanced binary state the horizontal \(Q\)-tangent has unit BKM norm while the modular variance of the same state is zero. The full horizon capacity must be a distinct extensive object whose coupling to the binary profile is separately proved.
 
@@ -64,4 +64,3 @@ $$
 $$
 
 If the likelihood package is recovered, the fit should be rerun with \(\mathfrak R_c\), width, matter abundance, supernova calibration, and relevant nuisance parameters jointly profiled. Even a successful reproduction would remain phenomenological evidence for the closure, not a proof of [[noether-capacity-theorem|the microscopic capacity theorem]].
-

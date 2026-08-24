@@ -4,13 +4,13 @@ Causal Scale Dynamics does not currently derive $SU(3)_c\times SU(2)_L\times U(1
 
 ## The programme is optional, not load-bearing
 
-The native causal-wall architecture permits ordinary QFT, including its internal gauge content, to supply local fibers while causal-scale structure supplies horizontal comparison among cosmic states. This division of labor is developed in the [[causal-wall-spectral-theory/causal-scale-interface#Logical role|causal-scale interface]] and guarded by the [[causal-wall-spectral-theory/open-problems#CW--T6: recover local GR plus QFT|local GR+QFT recovery test]]. On that formulation, the project need not derive the Standard Model; it must show that the new horizontal structure preserves its tested local regime.
+The native causal-wall architecture permits ordinary QFT, including its internal gauge content, to supply local fibers while causal-scale structure supplies horizontal comparison among cosmic states. This division of labor is developed in the [[causal-wall-spectral-theory/causal-scale-interface#Logical role|causal-scale interface]] and guarded by the [[causal-wall-spectral-theory/open-problems#CW--T6: preserve imported local GR plus QFT|local GR+QFT preservation test]]. On that formulation, the project need not derive the Standard Model; it must show that the new horizontal structure preserves its tested local regime.
 
 Symmetry selection is a stronger alternative. It asks whether causal and modular axioms can determine the local charged-sector data instead of importing them. Success at that level would require more than coexistence with QFT: it would have to recover a renormalized, local, unitary Standard Model sector with its gauge fields, chiral representations, Higgs/Yukawa data, anomaly cancellation, and a decoupling limit for wall-induced corrections.
 
 ## The exact seed is a horizontal index, not a Weyl fermion
 
-The [[causal-scale-theory/witten-pair|binary Witten–Darboux factorization]] has one normalizable zero mode after the proposed [[causal-scale-theory/balanced-channel-premise|balanced-channel reduction]]. That is a genuine index-shaped result in the one-dimensional horizontal coordinate $\theta$. It does not yet make $\theta$ a spacetime or internal fermionic direction, identify its block grading with four-dimensional Lorentz chirality, couple the mode to gauge fields, or establish anomaly inflow. [[chirality-lift]] isolates the missing map.
+The [[binary-information-geometry/witten-darboux|binary Witten–Darboux factorization]] has one normalizable zero mode after the proposed [[wall-construction-interface/binary-channel|balanced-channel reduction]]. That is a genuine index-shaped result in the one-dimensional horizontal coordinate $\theta$. It does not yet make $\theta$ a spacetime or internal fermionic direction, identify its block grading with four-dimensional Lorentz chirality, couple the mode to gauge fields, or establish anomaly inflow. [[chirality-lift]] isolates the missing map.
 
 The restraint matters because four structures that look similar in formulas are not interchangeable:
 

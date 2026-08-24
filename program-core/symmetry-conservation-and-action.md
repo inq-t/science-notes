@@ -23,75 +23,28 @@ None is made a charge merely by entering an equation with one.
 
 ## The exact involutive Casimir allocation
 
-Let \(\omega\) be any state and let \(Q\) be a self-adjoint involution:
+The proof and its hypotheses live in the shared [[binary-information-geometry/entry|binary-information geometry]] module. Its reusable signature is
 
 $$
 Q^*=Q,
 \qquad
-Q^2=\mathbf1.
+Q^2=\mathbf1
+\quad\Longrightarrow\quad
+1=m_\omega^2+\operatorname{Var}_\omega(Q),
 $$
 
-Writing \(m_\omega:=\omega(Q)\), one has
+where \(m_\omega:=\omega(Q)\). This is **[EXACT]** for every state and self-adjoint involution. Under the additional [[binary-information-geometry/balanced-exponential-family|balanced exponential-family]] hypotheses,
 
 $$
-\operatorname{Var}_\omega(Q)
-=\omega(Q^2)-\omega(Q)^2
-=1-m_\omega^2,
-$$
-
-and hence
-
-$$
-\boxed{
-1=m_\omega^2+\operatorname{Var}_\omega(Q).}
-$$
-
-This identity is **[EXACT]** for every such state and involution. It is the second-moment Casimir allocation; it requires neither a balanced state nor an exponential family.
-
-The familiar profile is more specialized. Let
-
-$$
-P_\pm=\frac{\mathbf1\pm Q}{2},
-$$
-
-and choose a reference state satisfying
-
-$$
-[\rho_0,Q]=0,
+m(\theta)=\tanh\theta,
 \qquad
-\operatorname{Tr}(\rho_0P_+)
-=\operatorname{Tr}(\rho_0P_-)
-=\frac12.
-$$
-
-Define the normalized exponential family
-
-$$
-\rho_\theta
-:=
-\frac{e^{\theta Q/2}\rho_0e^{\theta Q/2}}
-{\operatorname{Tr}(\rho_0e^{\theta Q})}.
-$$
-
-Then \(\operatorname{Tr}(\rho_0e^{\theta Q})=\cosh\theta\), and one has
-
-$$
-m(\theta):=\langle Q\rangle_{\rho_\theta}
-=\tanh\theta,
-\qquad
-g^{\mathrm{BKM}}_{\theta\theta}
-=\operatorname{Var}_{\rho_\theta}(Q)
+g^{\mathrm{bin}}_{\theta\theta}
 =\operatorname{sech}^2\theta,
+\qquad
+1=m(\theta)^2+g^{\mathrm{bin}}_{\theta\theta}.
 $$
 
-so the general Casimir identity becomes
-
-$$
-\boxed{
-1=m(\theta)^2+g^{\mathrm{BKM}}_{\theta\theta}.}
-$$
-
-The \(\tanh/\operatorname{sech}^2\) profile is **[EXACT — AFTER THE BALANCED EXPONENTIAL-FAMILY REDUCTION]**. The unit on the left remains the representation normalization \(\langle Q^2\rangle=1\); balance fixes the particular coordinate profile, not the underlying Casimir theorem.
+The unit is the representation normalization \(Q^2=\mathbf1\). Balance selects the centered coordinate profile; it does not establish a gravitational interpretation.
 
 It does not say that:
 
@@ -228,7 +181,7 @@ g^{\mathrm{BKM}}_{\theta\theta}(0)=1,
 C_E(\rho_0)=0.
 $$
 
-Thus translation in the binary exponential coordinate is not temperature rescaling of the modular Hamiltonian of that same reduced state. A larger wall sector may still possess an escort tangent whose sufficient binary reduction preserves the physical norm, but that requires a reduction theorem. It cannot be supplied by terminology or multiplicity alone. [[causal-scale-theory/no-gos/modular-rescaling-is-not-the-binary-tangent|The binary-tangent no-go]] is constitutional for the programme.
+Thus translation in the binary exponential coordinate is not temperature rescaling of the modular Hamiltonian of that same reduced state. A larger wall sector may still possess an escort tangent whose sufficient binary reduction preserves the physical norm, but that requires a reduction theorem. It cannot be supplied by terminology or multiplicity alone. [[binary-information-geometry/escort-tangent-no-go|The escort-tangent no-go]] is constitutional for the programme.
 
 ## Facthood is a further layer
 

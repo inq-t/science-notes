@@ -47,6 +47,8 @@ $$
 
 The first definition is generic scale data; the second is its FLRW realization. Neither makes \(N\) proper time or modular time.
 
+The reusable conformal distinction and its invariance proof live in [[conformal-scale-geometry/causal-order-and-metric-scale|causal order and metric scale]].
+
 ## RE1 — Physical horizontal state deformation
 
 **[PRINCIPLE + OPEN CONSTRUCTION]**
@@ -125,6 +127,8 @@ $$
 $$
 
 Here \(p\in\Sigma_N\), \([\chi_N]=[\overline\chi_{\Sigma,N}]=L^{-2}\), and \([\mathfrak a_N]=L^2\) for the dimensionless normalized scale tangent. The first object is a local bilinear modulus; the scalar and its inverse are contractions on a pointwise nondegenerate physical direction. The average need not equal the local density. Cross-term densities require absolute continuity of the signed measures themselves, obtained directly or by a justified polarization and measure Cauchy--Schwarz argument.
+
+The coincidence-Hessian theorem is owned by [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|the Hessian module]]; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the Gibbs--relative-entropy identity]] records the fixed-Hamiltonian thermodynamic specialization. Neither theorem supplies the open localization map.
 
 ## RE3 — State–geometry equivalence
 
@@ -246,7 +250,7 @@ Suppose the relevant reflection-odd horizontal response factors through a normal
 $$
 Q^*=Q,
 \qquad
-Q^2=\mathbf1,
+Q^2=\mathbf1.
 $$
 
 Let
@@ -300,6 +304,8 @@ $$
 
 These equations fix a normalized shape and Casimir allocation. They do not construct the full wall, its channel multiplicity, a fact, a charge, or gravity.
 
+The exact reduction is proved once in [[binary-information-geometry/balanced-exponential-family|the balanced exponential-family theorem]]. The claim that a physical wall admits this reduction belongs instead to [[wall-construction-interface/binary-channel|the binary-channel interface]].
+
 ## RE5 — Scale soldering, width, and extensive norm
 
 **[CONDITIONAL THEOREM + SEPARATE PRINCIPLE + ASSUMPTION]**
@@ -335,6 +341,8 @@ C_\perp(N)=C_{\perp,c}.
 $$
 
 Neither the binary Casimir nor affine soldering determines \(C_{\perp,c}\).
+
+The affine conclusion and its hypotheses are isolated in [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]]. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] explains why the slope is not fixed by the additive and multiplicative group structures alone.
 
 ## RE6 — Integrated crossing capacity
 
@@ -455,6 +463,8 @@ $$
 
 This identity contains \(G\). It closes the homogeneous source after the horizon assumptions; it does not derive \(G\).
 
+The geometric conversion is proved independently in [[conformal-scale-geometry/hawking-friedmann-identity|the Hawking--Friedmann identity]].
+
 ## RE8 — Generalized homogeneous Ruble response
 
 **[CONDITIONAL OUTPUT]**
@@ -521,6 +531,8 @@ $$
 $$
 
 These are rigid consequences of the generalized pulse and separate conservation. They are not independent evidence for the microscopic wall or the equivalence principles.
+
+The calculation is isolated in [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid-response theorem]].
 
 ## RE10 — Prospective causal charge extension
 
@@ -599,6 +611,6 @@ g^{\mathrm{BKM}}_{\theta\theta}(0)=1,
 \operatorname{Var}_{\rho_0}(-\ln\rho_0)=0.
 $$
 
-The binary translation tangent is therefore not the escort-temperature tangent of the same reduced state. [[deriving-value-of-g/noether-capacity-theorem|The Noether--capacity theorem]] gives the conditional result \(C_E/(S/k_B)=n\) for a conformal thermal sector. It can explain a unit ratio here only if a larger physical wall sector is shown to be effectively \(1+1\)-dimensional and its sufficient reduction preserves the relevant tangent norm in one common scheme. Calling unity a *saturation* is licensed only inside a class with a proved inequality and an identified attaining sector; outside that class, \(\mathfrak R_c=1\) remains a matching principle.
+The binary translation tangent is therefore not the escort-temperature tangent of the same reduced state; [[binary-information-geometry/escort-tangent-no-go|the exact no-go]] owns this calculation. [[deriving-value-of-g/noether-capacity-theorem|The Noether--capacity theorem]] gives the conditional result \(C_E/(S/k_B)=n\) for a conformal thermal sector. It can explain a unit ratio here only if a larger physical wall sector is shown to be effectively \(1+1\)-dimensional and its sufficient reduction preserves the relevant tangent norm in one common scheme. Calling unity a *saturation* is licensed only inside a class with a proved inequality and an identified attaining sector; outside that class, \(\mathfrak R_c=1\) remains a matching principle.
 
 This is why **Ruble's Equations** is the appropriate name for the system, while **Ruble's Constant** is not currently a canonical object.

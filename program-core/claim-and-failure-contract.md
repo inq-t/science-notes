@@ -152,7 +152,7 @@ The following are settled boundaries unless their premises are changed:
 - central blindness of a local response supplies no global vacuum solution; and
 - a background receipt verifies arithmetic, not the physical closure stack.
 
-The supporting proofs live in [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the capacity obstruction audit]], [[causal-scale-theory/no-go-register|the CST no-go register]], and [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|the Noether-gap note]].
+The proofs are owned by the narrowest relevant notes: [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the dimensional-capacity obstruction]], [[binary-information-geometry/escort-tangent-no-go|the escort-tangent no-go]], [[wall-construction-interface/binary-channel|the binary-channel construction boundary]], [[causal-scale-theory/no-gos/fixed-reference-free-energy-does-not-give-the-pulse|the fixed-reference source no-go]], [[causal-scale-theory/vacuum-residual-sector|the vacuum residual boundary]], and [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|the Noether gap]].
 
 ## Cheapest discriminators first
 

@@ -115,4 +115,4 @@ The reliable statement is narrower and stronger: with specified matter, boundary
 - **Tetrad and spin-connection actions:** these are natural when coupling fermions and clarifying local Lorentz symmetry.
 - **ADM action:** spacetime is decomposed into spatial geometry plus lapse and shift, exposing Hamiltonian and momentum constraints.
 - **Semiclassical effective action:** the [[quantum-action|quantum effective action]] includes corrections from quantum fields or metric fluctuations; its stationarity yields quantum-corrected equations rather than the bare Einstein equation.
-- **Scale-tractor rewriting:** [[causal-scale-theory/scale-tractor|the scale-tractor equation]] rewrites the trace-free Einstein equation in conformal-scale language. Rewriting field equations is distinct from supplying a complete action with matter, trace, and boundary sectors.
+- **Scale-tractor rewriting:** [[conformal-scale-geometry/scale-tractor-transport|the scale-tractor equation]] rewrites the trace-free Einstein equation in conformal-scale language. Rewriting field equations is distinct from supplying a complete action with matter, trace, and boundary sectors.

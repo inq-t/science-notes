@@ -4,13 +4,13 @@ After the proposed binary reduction, the one-dimensional causal-scale factorizat
 
 ## Exact horizontal result
 
-The [[causal-scale-theory/witten-pair|upstream Witten-pair note]] constructs $\mathcal A=\partial_\theta+\tanh\theta$ and its adjoint from the [[causal-scale-theory/binary-geometry#Exponential family|binary potential]]. Its normalizable solution $\psi_0\propto\operatorname{sech}\theta$ lies in $\ker\mathcal A$, while $\ker\mathcal A^\dagger$ has no normalizable member. With the stated $L^2$ domains this gives
+The [[binary-information-geometry/witten-darboux|upstream Witten-pair note]] constructs $\mathcal A=\partial_\theta+\tanh\theta$ and its adjoint from the [[binary-information-geometry/balanced-exponential-family|binary potential]]. Its normalizable solution $\psi_0\propto\operatorname{sech}\theta$ lies in $\ker\mathcal A$, while $\ker\mathcal A^\dagger$ has no normalizable member. With the stated $L^2$ domains this gives
 
 $$
 \operatorname{ind}\mathcal A=1.
 $$
 
-The factorization, bound state, and reflectionless continuum are exact in the reduced $\theta$-model. The upstream note explicitly limits them to [[causal-scale-theory/witten-pair#Why no spacetime conclusion follows|horizontal state-space geometry]].
+The factorization, bound state, and reflectionless continuum are exact in the reduced $\theta$-model. The upstream note explicitly limits them to [[binary-information-geometry/witten-darboux#Boundary of the theorem|horizontal state-space geometry]].
 
 ## Four different gradings
 
@@ -37,7 +37,7 @@ A physical lift would have to supply at least:
 - gauge coupling, Yukawa or mass data, and local plus global anomaly consistency; and
 - a derivation showing why the proposed binary normal sector is present in the full wall net.
 
-The [[causal-wall-spectral-theory/open-problems#CW--T1d: derive any reduced scalar sector|binary-sector construction]] and [[causal-wall-spectral-theory/open-problems#CW--T6: recover local GR plus QFT|local recovery]] problems are prerequisites for the relevant wall and QFT claims. A fermionic Dirac lift is a separate theorem target not yet present in the causal-wall list; the cosmological scalar/tensor transfer task CW--T5 does not supply it.
+The [[causal-wall-spectral-theory/open-problems#CW--T1d: derive any reduced scalar sector|binary-sector construction]] and [[causal-wall-spectral-theory/open-problems#CW--T6: preserve imported local GR plus QFT|local-preservation]] problems are prerequisites for the relevant wall and QFT claims. A fermionic Dirac lift is a separate theorem target not yet present in the causal-wall list; the cosmological scalar/tensor transfer task CW--T5 does not supply it.
 
 Reflectionlessness alone does not eliminate a physical mirror fermion: it is a scattering property of $\mathcal H_-$ in the $\theta$ coordinate. Anomaly inflow also cannot be invoked until a bulk–defect fermion system and its gauge variation have been defined.
 

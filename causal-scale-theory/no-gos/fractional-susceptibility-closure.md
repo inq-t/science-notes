@@ -1,38 +1,25 @@
 # A Fractional-Susceptibility Ansatz Does Not Preserve the CST Crossing
 
-Replacing the anchored density pulse by an instantaneous fractional law $\Omega_X=\lambda\operatorname{sech}^2(\nu x)$ can define an effective cosmology on a restricted parameter interval, but its susceptibility maximum is generically not a density maximum and has $w_X\ne-1$. It therefore does not preserve the CST crossing identities or shape invariant.
+Under a flat, zero-residual matter-plus-radiation background, replacing the anchored density source by \(\Omega_X=\lambda\operatorname{sech}^2(\nu x)\) makes the susceptibility peak generically neither a density maximum nor a \(w_X=-1\) crossing. This is an exact no-go for that shortcut under the stated premises, not for fractional dark-energy models in general.
 
-Consider the alternative ansatz
+Let
 
 $$
 \Omega_X(N)
 :=\frac{\rho_X}{\rho_{\mathrm{crit}}}
-=\lambda\operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr)
-$$
-
-in a spatially flat, zero-residual matter-plus-radiation background. Writing
-
-$$
-B(N):=\rho_m(N)+\rho_r(N),
-$$
-
-flatness gives
-
-$$
-\rho_{\mathrm{crit}}(N)
-=\frac{B(N)}{1-\Omega_X(N)},
+=\lambda\operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr),
 \qquad
-\rho_X(N)
-=\frac{\Omega_X(N)}{1-\Omega_X(N)}B(N).
+B:=\rho_m+\rho_r.
 $$
 
-Matching the present response fraction $D$ requires $\lambda\ge D$, because the profile never exceeds $\lambda$. Regularity at its peak requires $\lambda<1$; $\lambda=1$ makes the denominator vanish there. Thus even background existence restricts the ansatz to
+Flatness gives
 
 $$
-D\le\lambda<1.
+\rho_X
+=\frac{\Omega_X}{1-\Omega_X}B.
 $$
 
-At the susceptibility peak $N=N_c$, one has $\Omega_X'=0$. Nevertheless,
+At \(N=N_c\), \(\Omega_X'=0\), and therefore
 
 $$
 \left.\frac{\mathrm d\ln\rho_X}{\mathrm dN}\right|_{N_c}
@@ -40,27 +27,16 @@ $$
 {\rho_{m,c}+\rho_{r,c}}.
 $$
 
-If the effective response is separately conserved, then
+If \(X\) is separately conserved, then
 
 $$
 \boxed{
 w_{X,c}
-=-1-\frac13
-\left.\frac{\mathrm d\ln\rho_X}{\mathrm dN}\right|_{N_c}
 =\frac{\rho_{r,c}}
-{3(\rho_{m,c}+\rho_{r,c})}.}
+{3(\rho_{m,c}+\rho_{r,c})}
+\geq0.}
 $$
 
-It is approximately dustlike, not vacuumlike, and is exactly nonnegative for nonnegative matter and radiation. The peak of the fractional susceptibility is therefore not the peak of $\rho_X$. The binary density conic and the CST differential invariant also fail because the instantaneous critical density contributes an additional scale dependence.
+Thus the peak of the fractional response is not the peak of \(\rho_X\), and it is not vacuumlike. Regularity at the fractional peak also requires \(\lambda<1\); matching a present fraction \(D\) requires \(\lambda\geq D\).
 
-The scoped conclusion is
-
-$$
-\boxed{
-\Omega_X\propto\operatorname{sech}^2(\nu x)
-\not\Longrightarrow
-\text{the anchored CST density response}.}
-$$
-
-This does not rule out fractional dark-energy models. It rules out using this particular dimensionless shortcut while retaining CST's self-dual density maximum, $w=-1$ crossing, and rigid shape law. A dimensionful conversion datum such as $T_cS_c/V_c$ is load-bearing in [[causal-scale-theory/free-energy-source|the anchored source law]].
-
+[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] owns the identities that the shortcut fails to preserve. The load-bearing distinction is that the constitutive law in [[program-core/ruble-equations|the Ruble equations]] anchors a dimensionful density conversion at the crossing; it does not identify the instantaneous fractional abundance with the normalized binary susceptibility.

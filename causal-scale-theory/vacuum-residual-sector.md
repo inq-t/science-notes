@@ -14,7 +14,7 @@ $$
 (T_{ab}-\lambda g_{ab})^\circ=T^\circ_{ab}.
 $$
 
-Accordingly, the transport equation in [[causal-scale-theory/scale-tractor]] cannot determine the common scalar part by itself. The scalar norm equation, boundary data, global constraint, or another completion must carry that information.
+Accordingly, the transport equation in [[conformal-scale-geometry/scale-tractor-transport]] cannot determine the common scalar part by itself. The scalar norm equation, boundary data, global constraint, or another completion must carry that information.
 
 A related phenomenon occurs in normalized state families: adding a scalar multiple of the identity to a modular Hamiltonian changes its unnormalized exponential but cancels from the normalized density operator. Again, cancellation from a normalized comparison does not imply cancellation from gravity.
 

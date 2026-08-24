@@ -10,10 +10,10 @@ $$
 Q^2=\mathbf1
 $$
 
-is such an invariant. For the balanced commuting exponential family of [[binary-casimir-balance]],
+is such an invariant. For [[binary-information-geometry/balanced-exponential-family|the balanced commuting exponential family]], interpreted in [[binary-casimir-balance|the causal-charge facade]],
 
 $$
-1=\eta^2+G^{\mathrm{BKM}}_{\theta\theta}
+1=m^2+g^{\mathrm{bin}}_{\theta\theta}
 $$
 
 shows how its statewise representation is divided between resolved polarization and residual susceptibility. For a general state of the involution, the exact second term is \(\operatorname{Var}(Q)\); identifying it with this BKM component requires the stated family and tangent.

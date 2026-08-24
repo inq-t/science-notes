@@ -171,7 +171,7 @@ $$
 \Longrightarrow \gamma_{\perp,c}=1
 $$
 
-is invalid. Equality of capacity and entropy may motivate [[causal-scale-theory/unit-amplitude-principle|the unit-amplitude principle]], but it is not derived here.
+is invalid. Equality of capacity and entropy may motivate [[program-core/ruble-equations#RE6 — Integrated crossing capacity|weak Ruble matching]], but it is not derived here.
 
 ### Modular generators and capacities must be distinguished
 

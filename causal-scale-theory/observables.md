@@ -1,22 +1,23 @@
 # Observables and Discriminating Tests
 
-CST should be tested through observables that distinguish its rigid response from flexible background reconstructions and through completion tests that can falsify its microscopic interpretation. Algebraic elegance does not determine test priority: each proposed test must state its assumptions, present executability, and discriminating power.
+CST should be tested through observables that distinguish its rigid conditional background from flexible reconstructions and through completion tests that can falsify its microscopic interpretation. Every test must preserve the core types: \(\nu\) is width, \(\mathfrak R_c\) is an integrated crossing ratio, \(m\) is binary polarization, and the signed \(\widehat\zeta_A\) is horizon rapidity rather than another state coordinate.
 
 ## Test hierarchy
 
 | Test | Required inputs | Failure condition | Present power |
 |---|---|---|---|
-| Direct background forward fit | $(\nu,\mathfrak R_c)$, root branch, ordinary abundances, residual sector; SNe, BAO, clock and distance data | No allowed branch fits the joint expansion data competitively | Executable now; moderate theory discrimination because flexible dark-energy histories can imitate the transition |
-| Closure and branch atlas | Present flatness and declared abundances | No positive root, or only roots incompatible with the intended late branch | Strong as an internal admissibility test; not independent evidence because flatness is used in the closure |
-| Linked $w_0$--$w_a$ tangent | A separately identified response component and direct forward model | Posterior excludes $w_a=\tfrac32(1+w_0)^2-\tfrac{2\nu^2}{3}$ | Potentially useful, but generic CPL posteriors need not equal the local CST tangent |
-| Shape invariant | Reconstruction of $w_X$ and $w_X'$ with covariance | $9(1+w_X)^2+6w_X'\ne4\nu^2$ | Structurally weak with present background coverage: differentiation is noisy and the tails carry most width leverage |
-| Finite acceleration and future class | Amplitude, branch, contents, separate conservation, residual choice | Reconstructed history has an incompatible sign pattern or asymptotic class | Sharp model statement but the remote future is not directly observable; current acceleration history still constrains entry |
-| Growth, lensing, and primary CMB | Covariant $T^X_{ab}$, sound/constraint structure, initial conditions, Boltzmann implementation | Instability or unacceptable joint spectra and growth | Potentially decisive, but not executable honestly until [[conjectures/covariant-response-sector|the response sector]] is constructed |
-| Microscopic return values | Independent wall algebra, states, transport, and renormalized BKM form | Calculated $\nu$ or $\mathfrak R_c$ disagrees with the proposed unit laws, or the binary channel fails | Highest explanatory discrimination; no dynamical FLRW construction exists yet |
+| Direct background forward fit | \((\nu,\mathfrak R_c)\), root branch, ordinary abundances, residual sector; SNe, BAO, clocks, and distance data | No allowed branch fits the joint expansion data competitively | Executable now; moderate theory discrimination because flexible dark-energy histories can imitate the transition |
+| Closure and branch atlas | Present flatness and declared abundances | No root, or only roots incompatible with the declared branch prior | Strong internal admissibility test; not independent evidence because flatness supplies the closure |
+| Linked \(w_0\)--\(w_a\) tangent | A separately identified response component and direct forward model | Posterior excludes the theorem relation for all allowed widths | Potentially useful, but a generic CPL posterior need not estimate the local CST tangent |
+| Rigid shape invariant | Reconstruction of \(w_X\) and \(w_X'\) with covariance | No constant \(\nu\) satisfies the response identity | Exact conditional signature, but differentiation is noisy and finite redshift coverage gives weak tail leverage |
+| Finite acceleration and future class | Amplitude, branch, contents, separate conservation, and residual choice | Reconstructed history has an incompatible sign pattern or asymptotic class | Sharp model statement; current data constrain acceleration entry more directly than the remote future |
+| Horizon reconstruction diagnostic | Reconstructed \(H(N)\) and \(q(N)\) | No independent failure condition when every term is reconstructed from the same history; an independent area or rapidity determination would be required | Exact implementation diagnostic with no present independent CST discrimination |
+| Growth, lensing, and primary CMB | Covariant \(T^X_{ab}\), characteristic and constraint structure, initial conditions, Boltzmann implementation | Instability or unacceptable joint spectra and growth | Potentially decisive, but not honestly executable until [[causal-scale-theory/conjectures/covariant-response-sector|the response sector]] is constructed |
+| Microscopic return values | Independent wall algebra, state family, transport, renormalized BKM measure, and area comparison | The construction fails to yield the binary channel, or calculated \(\nu\) and \(\mathfrak R_c\) disagree with the unit principles | Highest explanatory discrimination; no dynamical FLRW wall construction exists yet |
 
-## Background observables
+## Background interface
 
-For a selected closure root $x_c$, [[future-asymptotics|the expansion function]] determines the background observables
+For a selected root \(x_c\), [[causal-scale-theory/future-asymptotics|the expansion function]] determines
 
 $$
 H(z),
@@ -30,47 +31,54 @@ t(z),
 q(z),
 $$
 
-once the usual nuisance and calibration parameters are supplied. A credible analysis should fit this forward model rather than first reconstructing $w(z)$ and then interpreting the reconstruction as a wall measurement.
+after the usual nuisance and calibration parameters are supplied. A credible analysis should fit this forward model directly rather than reconstruct a generic \(w(z)\) and then reinterpret that reconstruction as a wall measurement.
 
-## Characteristic background relations
-
-The response-sector relations
+In flat FLRW with an area-law apparent horizon, the same history also reconstructs \(R_A=c/H\) and the signed horizon rapidity, up to an additive constant, through
 
 $$
-9(1+w_X)^2+6w_X'=4\nu^2
+\mathrm d\widehat\zeta_A
+=\frac{1-q}{2}\,\mathrm dN.
 $$
 
-and
+[[conformal-scale-geometry/horizon-allocation|The conformal-scale theorem]] owns this kinematic identity and its limitations. When \(H\), \(q\), \(S_A\), and \(\widehat\zeta_A\) are all reconstructed from one history, the relation is an internal diagnostic rather than an independent empirical test. Independent discriminating power would require an operational area or rapidity determination not defined through that same reconstruction. The identity does not identify \(\widehat\zeta_A\) with modular time or with the binary polarization \(m\).
+
+## Rigid response signatures
+
+[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] proves, under a positive constant-width pulse and separate conservation,
 
 $$
-w_a=\frac32(1+w_0)^2-\frac{2\nu^2}{3}
+9(1+w_X)^2+6w_X'=4\nu^2,
 $$
 
-are exact conditional shape constraints. Their weakness is not algebraic but inferential: $w_X$ must be separated from matter, radiation, curvature, residual vacuum, and any interactions, and $w_X'$ amplifies reconstruction error.
+and the local CPL tangent relation
 
-When usable background data cover less than a full effective transition width, they can constrain the crossing combination and amplitude while retaining little leverage on the tails that distinguish nearby $\nu$. The inherited work reports this weak-leverage regime but does not preserve a complete power pipeline. The invariant should therefore be a consistency check after direct fitting, not the first advertised observable.
+$$
+w_a
+=\frac32(1+w_0)^2
+-\frac{2\nu^2}{3}.
+$$
 
-The inherited analysis also used a matched null ensemble of smooth positive transient histories. Many members reproduced the same broad CMB-lensing response direction, so that apparent agreement was rejected as class membership rather than distinctive confirmation. The numerical pipeline is not part of the canonical evidence, but the methodological lesson is: every favorable-looking statistic needs a comparator ensemble capable of revealing whether it is generic to the model class.
+Their limitation is inferential rather than algebraic. The \(X\) sector must be separated from matter, radiation, curvature, residual vacuum, and interactions, while derivatives amplify reconstruction error. With data spanning less than a full effective transition width, the crossing placement and amplitude can be constrained while nearby widths remain difficult to distinguish. These relations should therefore be posterior consistency checks after direct fitting, not the first advertised observables.
 
-## Perturbative observables
+The inherited analysis also compared favorable-looking statistics with a matched ensemble of smooth positive transients. Many null histories reproduced the same broad CMB-lensing response direction, so the apparent agreement was correctly treated as model-class membership rather than distinctive confirmation. The pipeline is not preserved in the canonical evidence, but the methodological rule remains: every attractive statistic needs a comparator ensemble capable of showing whether it is generic to the wider class.
 
-Growth rate $f\sigma_8$, weak lensing, ISW correlations, and primary CMB spectra are not determined by $H(z)$ alone. They require pressure perturbations, anisotropic stress, characteristic speeds, and initial conditions. Borrowing a smooth-fluid prescription would test that borrowed completion, not CST as such.
+## Perturbative boundary
 
-This is also where compatibility with existing physics becomes more demanding. The model need not derive the Standard Model or all of QFT to count as a cosmology of the arena, but its new response must preserve the empirically successful local sector and must not introduce forbidden degrees of freedom.
+Growth rate \(f\sigma_8\), weak lensing, ISW correlations, and primary CMB spectra are not determined by \(H(z)\). They require pressure perturbations, anisotropic stress, characteristic speeds, constraints, and initial conditions. Borrowing a smooth-fluid prescription would test that borrowed completion, not CST as such.
+
+The programme need not derive the Standard Model or all of QFT to study the global arena of facthood. Under [[program-core/claim-and-failure-contract|the conservative local-interface rule]], however, its added response must preserve the successful local sector and avoid forbidden degrees of freedom or uncontrolled corrections.
 
 ## Reporting discipline
 
 Every empirical result should state:
 
-- dataset release identifiers, local source locations, and file hashes;
-- sample selections, redshift cuts, covariance treatment, and calibrations;
-- the exact likelihood, nuisance model, and compressed-data assumptions;
-- parameter definitions and priors, including root-branch priors and the residual-sector choice;
-- treatment of radiation, neutrino masses, curvature, and external anchors;
+- dataset releases, local source locations, and file hashes;
+- selections, redshift cuts, covariance treatment, and calibrations;
+- likelihood, nuisance model, and compressed-data assumptions;
+- parameter definitions and priors, including branch and residual-sector priors;
+- treatment of radiation, neutrino masses, curvature, interactions, and external anchors;
 - whether perturbations were derived, imported, or omitted, with explicit observable inclusions and exclusions;
-- the comparison model, likelihood parity, nuisance accounting, and equalized parameter count;
-- code revision, environment, computational seeds, tolerances, and machine-readable outputs.
+- comparison model, likelihood parity, nuisance accounting, and equalized parameter count; and
+- code revision, environment, seeds, tolerances, and machine-readable outputs.
 
-A background-only result must say so in its title or opening claim. AIC or likelihood improvements are interpretable only when the compared data vectors, likelihoods, nuisance counts, and parameter accounting genuinely match.
-
-[[causal-scale-theory/empirical-status]] records what the inherited masters actually establish today.
+A background-only result must say so in its title or opening claim. Likelihood or information-criterion improvements are interpretable only when data vectors, likelihoods, nuisances, and parameter accounting genuinely match. [[causal-scale-theory/empirical-status|The empirical-status note]] records what the inherited material presently supports.

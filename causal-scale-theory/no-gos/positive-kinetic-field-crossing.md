@@ -1,50 +1,36 @@
 # No Regular Positive-Kinetic Scalar Realizes the Full Crossing
 
-The CST response has $w_X<-1$ before its self-dual crossing and $w_X>-1$ afterward. A minimally coupled scalar, or a positive-definite sigma model, cannot realize that full history while remaining regular and positive-kinetic. This excludes the most direct canonical-field lift, not all covariant completions.
+The positive CST pulse has \(w_X<-1\) before its center and \(w_X>-1\) afterward. A minimally coupled canonical scalar, or a sigma model with positive-definite target metric, cannot realize that full history while retaining positive density and positive kinetic energy. This excludes the direct field lifts only.
 
-For the generalized response,
+Under the hypotheses of [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid-response theorem]],
 
 $$
 1+w_X
-=\frac{2\nu}{3}\tanh(\nu x).
+=\frac{2\nu}{3}\tanh\!\bigl(\nu(N-N_c)\bigr).
 $$
 
-Therefore
+Hence \(\rho_X+p_X<0\) on the pre-crossing branch. For a canonical scalar,
 
 $$
-1+w_X<0\quad(x<0),
-\qquad
-1+w_X=0\quad(x=0),
-\qquad
-1+w_X>0\quad(x>0).
+\rho_\phi+p_\phi
+=\dot\phi^2
+\geq0,
 $$
 
-For a canonical scalar with Lagrangian $X-V(\phi)$,
+and for a sigma model with positive-definite \(G_{IJ}\),
 
 $$
-\rho_\phi+p_\phi=\dot\phi^2\ge0,
+\rho+p
+=G_{IJ}\dot\phi^I\dot\phi^J
+\geq0.
 $$
 
-so a positive density obeys $w_\phi\ge-1$. More generally, a sigma model with positive-definite target metric $G_{IJ}$ has
-
-$$
-\rho+p=G_{IJ}\dot\phi^I\dot\phi^J\ge0.
-$$
-
-Neither can cover the $x<0$ part of the CST profile.
-
-In the usual single-field Mukhanov construction, the kinetic normalization is proportional to $1+w_X$ and changes sign at the crossing. For the attempted direct lift its pump field also develops a singular crossing behavior of the form
-
-$$
-\frac{z''}{z}\sim-\frac{1}{4\theta^2}.
-$$
-
-The scoped conclusion is
+The signs are incompatible on that branch, so
 
 $$
 \boxed{
 \text{the full CST crossing is not a regular, minimally coupled,
-positive-kinetic scalar history}.}
+positive-kinetic scalar or positive-definite sigma-model history}.}
 $$
 
-Possible alternatives include constrained systems, non-minimal couplings, effective nonlocal response, or a genuinely geometric stress tensor. Each requires its own stability analysis; the internal positivity of [[causal-scale-theory/witten-pair|the Witten pair]] does not supply it.
+The conclusion does not cover constrained systems, nonminimal derivative couplings, indefinite or degenerate kinetic structures, effective nonlocal response, or a genuinely geometric stress tensor; each requires its own degree-of-freedom and stability analysis. [[wall-construction-interface/state-coordinate-types|The state-coordinate typing note]] explains why a collective state label need not be a local scalar field, while [[causal-scale-theory/conjectures/covariant-response-sector|the covariant-response conjecture]] carries the broader completion burden. Positivity of [[binary-information-geometry/witten-darboux|the internal Witten--Darboux operator]] is a state-space statement and does not evade this spacetime sign obstruction.

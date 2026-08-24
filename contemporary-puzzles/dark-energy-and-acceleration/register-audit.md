@@ -29,7 +29,7 @@ The third and fourth rows are where the work happens. Everything above the line 
 
 ## The one exact step
 
-**[EXACT]** [[causal-scale-theory/flrw-kinematics|The scale-section identities]] give, with $\sigma=1/a$ and conformal time $\eta$,
+**[EXACT]** [[conformal-scale-geometry/flrw-scale-section-kinematics|The scale-section identities]] give, with $\sigma=1/a$ and conformal time $\eta$,
 
 $$
 \mathcal R=\frac{c}{aH}=-\frac{c\,\sigma}{\mathrm d\sigma/\mathrm d\eta},
@@ -49,13 +49,13 @@ $$
 
 This is exact kinematics and holds without Einstein's equation or any matter model. The 1998 discovery, stated in the register in which it was actually made, is: *the logarithm of the scale section is concave in conformal time.*
 
-Note what has and has not been established. **[STANDARD]** [[causal-scale-theory/causal-order|Causal order fixes a conformal class, not a unique metric]], so $\sigma$ is genuine independent data and not a coordinate artifact — [[conformal-time/entry|conformal time]] is explicit that factoring out $a^2$ removes neither expansion nor redshift nor curvature. But log-concavity of a section is not by itself evidence that scale is *dynamically sourced*; that is the substantive claim, and it is not yet in evidence at this line.
+Note what has and has not been established. **[STANDARD]** [[conformal-scale-geometry/causal-order-and-metric-scale|Causal order fixes a conformal class, not a unique metric]], so $\sigma$ is genuine independent data and not a coordinate artifact — [[conformal-time/entry|conformal time]] is explicit that factoring out $a^2$ removes neither expansion nor redshift nor curvature. But log-concavity of a section is not by itself evidence that scale is *dynamically sourced*; that is the substantive claim, and it is not yet in evidence at this line.
 
 ## Where the register changes
 
 The step from $q_0<0$ to "there is a component with $p<-\rho/3$" runs through the Friedmann acceleration equation, which is the Einstein equation specialized to FLRW. [[cosmodynamics/soldering-constants|Constants as soldering structures]] is the right frame: $G$ is a conversion between the curvature register and the stress register, and the equation carrying it is a compatibility law, not an observation within either register.
 
-What makes the conversion interesting rather than routine is that it is not injective. **[EXACT — REFORMULATION]** [[causal-scale-theory/scale-tractor|Scale-tractor geometry]] splits the Einstein equations into a trace-free transport equation and a scalar norm equation, and [[causal-scale-theory/vacuum-residual-sector|the residual-sector note]] carries the identity showing the transport channel is blind to metric-proportional shifts:
+What makes the conversion interesting rather than routine is that it is not injective. **[EXACT — REFORMULATION]** [[conformal-scale-geometry/scale-tractor-transport|Scale-tractor geometry]] splits the Einstein equations into a trace-free transport equation and a scalar norm equation, and [[causal-scale-theory/vacuum-residual-sector|the residual-sector note]] carries the identity showing the transport channel is blind to metric-proportional shifts:
 
 $$
 T_{ab}\longmapsto T_{ab}-\lambda g_{ab}
@@ -83,7 +83,7 @@ If the acceleration is a scale-register fact, the thing to construct is a law fo
 
 The typing then carries a consequence that a fluid picture obscures. A response to *changing* scale is intrinsically transient: it is large where the change is extremal and decays as the state settles. A substance with $w=-1$ has no such structure. Permanence is a property of constants; a pulse is what a response looks like. Everything rigid in the profile — one maximum, a mandatory phantom crossing, a finite acceleration episode — descends from that single type distinction rather than from a fitted shape.
 
-The register change also has to be made honestly in the other direction, and [[causal-scale-theory/modular-flow|the vertical/horizontal distinction]] is where that is enforced: scale indexes a *family* of states, and comparing members of a family requires an actual cross-fiber transport rather than a derivative symbol. Retyping the puzzle buys nothing if the new register's own maps are left implicit.
+The register change also has to be made honestly in the other direction, and [[wall-construction-interface/vertical-and-horizontal-motion|the vertical/horizontal distinction]] is where that is enforced: scale indexes a *family* of states, and comparing members of a family requires an actual cross-fiber transport rather than a derivative symbol. Retyping the puzzle buys nothing if the new register's own maps are left implicit.
 
 ## The condition under which this charge reverses
 

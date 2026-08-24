@@ -1,14 +1,14 @@
 # Empirical Status
 
-The inherited material establishes arithmetic consistency of the homogeneous formulas and reports a limited background comparison, but it does not yet provide a reproducible full cosmological likelihood. No observational result currently promotes the wall construction, unit principles, or perturbative completion from conjecture to theorem.
+The inherited CST material establishes reproducible arithmetic for the homogeneous formulas and reports one limited background comparison, but it does not contain a reproducible full cosmological likelihood. No current observation promotes the wall construction, the unit-width principle, the unit integrated crossing ratio, or a covariant perturbation completion from proposal to established physics.
 
-## What is reproducible locally
+## Reproducible local evidence
 
-The [[receipts/README|canonical receipt suite]] merges the useful v7 and v8 checks: unit cosmography, independently solved matter-plus-radiation folds, strict-dust and historical hybrid folds, exact representative root values, amplitude-dependent past and future branches, and the counterexamples above the benchmark $\nu=2$ threshold. Its latest background output is [[receipts/background.json|machine-readable]].
+[[causal-scale-theory/receipts/README|The canonical receipt suite]] recomputes the theorem consequences used by the phenomenology notes: exact reduced identities, unit-branch cosmography, matter-plus-radiation folds, strict-dust and historical hybrid folds, representative roots, amplitude-dependent past and future branches, and counterexamples to treating \(\nu=2\) as a universal existence bound. The current machine-readable outputs are [[causal-scale-theory/receipts/algebra.json|the algebra receipt]] and [[causal-scale-theory/receipts/background.json|the background receipt]].
 
-These receipts establish that the quoted numbers follow from the declared formulas. They do not establish that the formulas describe nature.
+The schema name `crossing_ratio` denotes \(\mathfrak R_c\), the integrated crossing ratio. A passing receipt establishes that quoted values follow from the declared equations and inputs. It does not establish the constitutive source, the weak unit principle \(\mathfrak R_c=1\), the width principle \(\nu=1\), or their truth in nature.
 
-## Historical reported comparison
+## Historical background comparison
 
 The older master reports approximately
 
@@ -18,26 +18,27 @@ $$
 \chi^2_{\Lambda\mathrm{CDM}}\simeq1401.63
 $$
 
-for a background-only comparison described as having equal background shape-parameter count. The loose local snapshot does not include a complete pipeline sufficient to regenerate every packaged observational claim, and the comparison omits primary CMB, a derived response perturbation likelihood, full lensing, and growth.
+for a background-only comparison described as having equal background shape-parameter count. The local archive does not include a complete pipeline sufficient to regenerate every packaged observational claim, and the comparison omits primary CMB, a derived response-perturbation likelihood, full lensing, and growth.
 
-The result therefore has the status **[REPORTED FIT — LIMITED, NOT FULLY REPRODUCED]**. It is evidence of possible background viability, not discovery and not validation of the microscopic interpretation.
+Its status is therefore **[REPORTED FIT — LIMITED, NOT FULLY REPRODUCED]**. It supports possible background viability, not discovery, not the unit principles, and not the microscopic interpretation.
 
-## Withheld v8 claims
+## Withheld claims
 
-The v8 audit correctly withholds proposed best-fit values and improvement claims whose referenced likelihood directories and scripts are absent. They are not part of this canon.
+The v8 audit correctly withholds proposed best-fit values and improvement claims whose referenced likelihood directories and scripts are absent. They are not part of the canonical evidence. The historical neutrino exercise is likewise a model-class and negative-control comparison, not distinctive support for CST.
 
-The historical neutrino discussion is a class-membership and negative-control exercise. It does not constitute distinctive support for CST.
+## Promotion path
 
-## What would change the status
-
-A meaningful empirical assessment needs a versioned direct forward fit of the generalized branch, followed by a covariant perturbation completion and joint CMB--lensing--growth analysis. The evidence layers should remain separate:
+A meaningful empirical assessment requires a versioned direct forward fit of the generalized \((\nu,\mathfrak R_c)\) branches, followed by a covariant perturbation completion and a joint CMB--lensing--growth analysis. The evidence layers must remain separate:
 
 $$
-\text{identity}
+\boxed{
+\text{theorem}
 \ne
 \text{receipt}
 \ne
 \text{background fit}
 \ne
-\text{microscopic evidence}.
+\text{microscopic evidence}.}
 $$
+
+[[causal-scale-theory/observables|The observable hierarchy]] specifies the failure conditions and reporting requirements for each promotion step.

@@ -79,18 +79,18 @@ $$
 Then
 
 $$
-m_1=\omega(Q)=\eta,
+m_1=\omega(Q)=m,
 \qquad
 \Sigma_{11}=\operatorname{Var}_\omega(Q),
 $$
 
-and the proposition reduces to [[binary-casimir-balance|the binary Casimir balance]]
+and the proposition reduces to [[binary-information-geometry/involutive-casimir|the involutive Casimir identity]]
 
 $$
-1=\eta^2+\operatorname{Var}_\omega(Q).
+1=m^2+\operatorname{Var}_\omega(Q).
 $$
 
-This supplies one precise sense in which an apparently symmetry-broken state can retain an invariant whole: the order parameter changes, but the representation norm continues to be divided between the mean and susceptibility sectors.
+[[binary-casimir-balance]] supplies the conservation-specific reading: an apparently symmetry-broken state can retain an invariant whole because the order parameter changes while the representation norm continues to be divided between the mean and susceptibility sectors.
 
 ## BKM qualification
 

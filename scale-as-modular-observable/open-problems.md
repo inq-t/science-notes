@@ -16,7 +16,7 @@ A successful calculation would turn the architecture in [[observable-map]] into 
 
 - Show why the homogeneous reflection-odd tangent factors through the two null-normal chiralities while transverse and other algebraic sectors decouple.
 - Decide whether unit slope is a fundamental representation postulate, an emergent result, or a parameter to be measured. Conformal-weight integrality cannot do this work.
-- Derive or falsify the entropy-normalized peak law
+- Derive or falsify the weak integrated crossing law
 
   $$
   \mathfrak R_c
@@ -40,7 +40,7 @@ This is the main gap between the homogeneous ansatz and cosmological dynamics.
 
 ## Lift the internal operator
 
-The [[causal-scale-theory/witten-pair|binary Witten pair]] must be connected to physical spacetime variables. One must identify its Hilbert space, inner product, gauge constraints, causal evolution parameter, and map to the response tensor. Reflectionlessness in $\theta$-space is not yet a statement about transmission of cosmological perturbations.
+The [[binary-information-geometry/witten-darboux|binary Witten pair]] must be connected to physical spacetime variables. One must identify its Hilbert space, inner product, gauge constraints, causal evolution parameter, and map to the response tensor. Reflectionlessness in $\theta$-space is not yet a statement about transmission of cosmological perturbations.
 
 ## Close the trace sector
 

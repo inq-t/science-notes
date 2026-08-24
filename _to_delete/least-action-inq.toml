@@ -1,4 +1,0 @@
-[module]
-name = "least-action"
-entry = "entry.md"
-include = ["**/*.md"]

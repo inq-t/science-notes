@@ -265,7 +265,7 @@
     },
     {
       "expected": 1,
-      "id": "ruble_0.8_root_count",
+      "id": "crossing_ratio_0.8_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -273,7 +273,7 @@
     },
     {
       "expected": 0.0,
-      "id": "ruble_0.8_closure_residual",
+      "id": "crossing_ratio_0.8_closure_residual",
       "kind": "independent",
       "pass": true,
       "tolerance": 2e-12,
@@ -281,7 +281,7 @@
     },
     {
       "expected": 1,
-      "id": "ruble_0.8_crossing_sign",
+      "id": "crossing_ratio_0.8_crossing_sign",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -289,7 +289,7 @@
     },
     {
       "expected": 1,
-      "id": "ruble_1.2_root_count",
+      "id": "crossing_ratio_1.2_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -297,7 +297,7 @@
     },
     {
       "expected": 0.0,
-      "id": "ruble_1.2_closure_residual",
+      "id": "crossing_ratio_1.2_closure_residual",
       "kind": "independent",
       "pass": true,
       "tolerance": 2e-12,
@@ -305,7 +305,7 @@
     },
     {
       "expected": 1,
-      "id": "ruble_1.2_crossing_sign",
+      "id": "crossing_ratio_1.2_crossing_sign",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -313,7 +313,7 @@
     },
     {
       "expected": 1,
-      "id": "ruble_1.5_root_count",
+      "id": "crossing_ratio_1.5_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -321,7 +321,7 @@
     },
     {
       "expected": 0.0,
-      "id": "ruble_1.5_closure_residual",
+      "id": "crossing_ratio_1.5_closure_residual",
       "kind": "independent",
       "pass": true,
       "tolerance": 2e-12,
@@ -329,7 +329,7 @@
     },
     {
       "expected": -1,
-      "id": "ruble_1.5_crossing_sign",
+      "id": "crossing_ratio_1.5_crossing_sign",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
@@ -379,7 +379,7 @@
     "1.2": 0.13667014362430202,
     "1.5": -0.09740480724745423
   },
-  "generated_utc": "2026-08-24T01:19:16.729694+00:00",
+  "generated_utc": "2026-08-24T04:55:01.183275+00:00",
   "parameters": {
     "dark0": 0.6893105,
     "omega_m0": 0.310598,
@@ -390,7 +390,7 @@
       "step": 0.002
     }
   },
-  "past_future_threshold_ruble": 1.378621,
+  "past_future_threshold_crossing_ratio": 1.378621,
   "receipt": "causal-scale-theory homogeneous background",
   "runtime": {
     "platform": "Windows-11-10.0.26200-SP0",

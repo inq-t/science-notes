@@ -1,23 +1,24 @@
 # Conjecture: A Covariant Response Sector Descends from the Wall
 
-The homogeneous CST density can represent physical cosmology only if it is the FLRW restriction of a covariant, constrained, and stable response sector. The required stress tensor or effective action has not been derived.
+The homogeneous CST pulse becomes a physical cosmological component only if it is the FLRW restriction of a covariant, constrained, and stable response system. No such stress tensor, constitutive system, or effective action has yet been derived, so growth, lensing, sound propagation, and primary-CMB predictions remain open.
 
-The target is a tensor $T^X_{ab}$ such that on the homogeneous solution
+The target may be an effective tensor \(T^X_{ab}\) satisfying
 
 $$
 T^X{}^a{}_b
+\big|_{\mathrm{FLRW}}
 =\operatorname{diag}(-\rho_X,p_X,p_X,p_X),
 \qquad
-p_X=w_X\rho_X.
+p_X=w_X\rho_X,
 $$
 
-If the response is separately conserved, it must satisfy
+where the homogeneous functions are the conditional outputs of [[program-core/ruble-equations|the Ruble equations]]. If \(X\) is separately conserved, then
 
 $$
 \nabla_aT_X^{ab}=0.
 $$
 
-If CST instead describes conversion among sectors, the consistent form is
+If the completion instead converts response among sectors, it must use tracked exchange currents,
 
 $$
 \nabla_aT_I^{ab}=J_I^b,
@@ -25,30 +26,16 @@ $$
 \sum_IJ_I^b=0,
 $$
 
-not simultaneous separate conservation and untracked exchange.
+rather than combine separate conservation with unaccounted transfer.
+
+The upstream state family, transport, and physical tangent belong to [[wall-construction-interface/entry|the wall-construction interface]]. A covariant descendant must additionally determine its gauge-invariant scalar, vector, and tensor variables; constraint algebra and physical modes; kinetic and gradient operators; characteristic cones; anisotropic stress; coupling to imported matter and radiation; initial or boundary data; and transfer functions. It must be regular through the response crossing and preserve the tested local sector required by [[compatible-with-existing-physics/local-physics-interface|the local-physics interface]].
+
+An optional stronger route asks whether [[binary-information-geometry/witten-darboux|the exact binary Witten--Darboux operator]] is a symmetry-reduced normal block of the covariant constraint complex. The internal factorization supplies no spacetime kinetic term or stability theorem; the parent complex, physical inner product, constraints, and reduction would all have to be derived.
 
 ## Upgrade criterion
 
-A completion must supply an action, constitutive system, or Ward identity that determines:
-
-- the covariant stress tensor and its constraints;
-- gauge-invariant scalar, vector, and tensor variables;
-- the constraint algebra and the number of propagating or constrained modes;
-- gradient terms, characteristic cones, anisotropic stress, and well-posed hyperbolic evolution;
-- kinetic signs, absence of ghost and gradient instabilities, and regularity through $w_X=-1$;
-- coupling to imported matter and radiation, including whether exchange currents vanish;
-- an initial state, an arrow or boundary prescription, and transfer functions;
-- an Einstein--Boltzmann implementation capable of predicting CMB, lensing, and growth observables;
-- the homogeneous limit equal to [[causal-scale-theory/generalized-background|the CST pulse]].
-
-It must pass the local-preservation obligations in [[compatible-with-existing-physics/local-physics-interface|the local-physics interface]]. It need not reconstruct all of GR or QFT merely to coexist with them.
-
-## The Witten-descendant route
-
-A stronger optional route proposes that [[causal-scale-theory/witten-pair|the internal Witten operator]] is the symmetry-reduced normal part of a covariant causal-response complex. Its constraints would remove the partner or gauge sector and leave one protected collective response whose reduced density is the BKM susceptibility.
-
-That route is more informative than merely reproducing the homogeneous pulse. It would be upgraded only by deriving the Lorentzian complex, physical inner product, constraints, and reduction. It fails if the putative zero mode is gauge, if no natural covariant parent exists, or if every parent is unstable or acausal.
+Supply a covariant action, constitutive law, or Ward-identity system; prove its constraints, well-posedness, and absence of ghost and gradient instabilities in its declared regime; derive the homogeneous Ruble response as a solution rather than an input; and calculate perturbation observables in a reproducible Einstein--Boltzmann implementation.
 
 ## Failure criterion
 
-The conjecture fails if every covariant continuation of the declared background has a ghost, gradient instability, acausal characteristic, inconsistent constraint algebra, or unacceptable growth and lensing behavior. [[causal-scale-theory/no-gos/positive-kinetic-field-crossing|The positive-kinetic scalar no-go]] already eliminates the most direct realization.
+The conjecture fails for a proposed completion if it has an inconsistent constraint algebra, an unavoidable ghost or gradient instability, acausal characteristics, a singular crossing, or unacceptable growth and lensing while preserving its background. [[causal-scale-theory/no-gos/positive-kinetic-field-crossing|The positive-kinetic scalar no-go]] excludes only the simplest canonical-field and positive-definite sigma-model realizations, not every collective, constrained, nonlocal, multicomponent, or geometric completion.

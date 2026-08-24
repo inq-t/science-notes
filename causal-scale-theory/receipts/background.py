@@ -42,15 +42,15 @@ def matter_function(x: float) -> float:
     return OMEGA_M0 * math.exp(3.0 * x) + OMEGA_R0 * math.exp(4.0 * x)
 
 
-def closure_residual(x: float, nu: float, ruble: float) -> float:
-    if not 0.0 < ruble < 2.0:
-        raise ValueError("ruble must lie in (0, 2)")
-    ratio = ruble / (2.0 - ruble)
+def closure_residual(x: float, nu: float, crossing_ratio: float) -> float:
+    if not 0.0 < crossing_ratio < 2.0:
+        raise ValueError("crossing_ratio must lie in (0, 2)")
+    ratio = crossing_ratio / (2.0 - crossing_ratio)
     return ratio * matter_function(x) * sech2(nu * x) - DARK0
 
 
-def closure_dx(x: float, nu: float, ruble: float) -> float:
-    ratio = ruble / (2.0 - ruble)
+def closure_dx(x: float, nu: float, crossing_ratio: float) -> float:
+    ratio = crossing_ratio / (2.0 - crossing_ratio)
     exp3 = OMEGA_M0 * math.exp(3.0 * x)
     exp4 = OMEGA_R0 * math.exp(4.0 * x)
     profile = sech2(nu * x)
@@ -67,29 +67,35 @@ def fold_equations(
     omega_m: float = OMEGA_M0,
     omega_r_in_shape: float = OMEGA_R0,
     target_dark: float = DARK0,
-    ruble: float = 1.0,
+    crossing_ratio: float = 1.0,
 ) -> tuple[float, float, float, float, float, float]:
     """Closure and stationarity equations with their Newton derivatives."""
 
-    if not 0.0 < ruble < 2.0:
-        raise ValueError("ruble must lie in (0, 2)")
+    if not 0.0 < crossing_ratio < 2.0:
+        raise ValueError("crossing_ratio must lie in (0, 2)")
     matter = omega_m * math.exp(3.0 * x)
     radiation = omega_r_in_shape * math.exp(4.0 * x)
     total = matter + radiation
     radiation_fraction = radiation / total
     mean_power = 3.0 + radiation_fraction
     z_value = nu * x
-    tangent = math.tanh(z_value)
-    metric = sech2(z_value)
-    amplitude = ruble / (2.0 - ruble)
+    polarization = math.tanh(z_value)
+    binary_metric = sech2(z_value)
+    amplitude = crossing_ratio / (2.0 - crossing_ratio)
 
     value = math.log(amplitude) + math.log(total) - 2.0 * log_cosh(z_value) - math.log(target_dark)
-    stationary = mean_power - 2.0 * nu * tangent
+    stationary = mean_power - 2.0 * nu * polarization
 
     value_x = stationary
-    value_nu = -2.0 * x * tangent
-    stationary_x = radiation_fraction * (1.0 - radiation_fraction) - 2.0 * nu * nu * metric
-    stationary_nu = -2.0 * tangent - 2.0 * nu * x * metric
+    value_nu = -2.0 * x * polarization
+    stationary_x = (
+        radiation_fraction * (1.0 - radiation_fraction)
+        - 2.0 * nu * nu * binary_metric
+    )
+    stationary_nu = (
+        -2.0 * polarization
+        - 2.0 * nu * x * binary_metric
+    )
     return value, stationary, value_x, value_nu, stationary_x, stationary_nu
 
 
@@ -100,7 +106,7 @@ def solve_fold(
     omega_m: float = OMEGA_M0,
     omega_r_in_shape: float = OMEGA_R0,
     target_dark: float = DARK0,
-    ruble: float = 1.0,
+    crossing_ratio: float = 1.0,
 ) -> tuple[float, float]:
     """Solve closure plus stationarity; return (nu, x)."""
 
@@ -113,7 +119,7 @@ def solve_fold(
             omega_m=omega_m,
             omega_r_in_shape=omega_r_in_shape,
             target_dark=target_dark,
-            ruble=ruble,
+            crossing_ratio=crossing_ratio,
         )
         determinant = value_x * stationary_nu - value_nu * stationary_x
         if abs(determinant) < 1e-16:
@@ -185,9 +191,12 @@ def sign_change_roots(
 def e2_unit_derivatives(n_value: float, x_crossing: float) -> tuple[float, float, float]:
     centered = n_value + x_crossing
     profile = sech2(centered)
-    tangent = math.tanh(centered)
-    profile_prime = -2.0 * tangent * profile
-    profile_second = 4.0 * tangent * tangent * profile - 2.0 * profile * profile
+    polarization = math.tanh(centered)
+    profile_prime = -2.0 * polarization * profile
+    profile_second = (
+        4.0 * polarization * polarization * profile
+        - 2.0 * profile * profile
+    )
     normalizer = sech2(x_crossing)
 
     matter = OMEGA_M0 * math.exp(-3.0 * n_value)
@@ -365,8 +374,12 @@ def main() -> int:
                 )
             )
 
-    threshold_ruble = 2.0 * DARK0
-    threshold_residual = closure_residual(0.0, 1.0, threshold_ruble)
+    past_future_threshold_crossing_ratio = 2.0 * DARK0
+    threshold_residual = closure_residual(
+        0.0,
+        1.0,
+        past_future_threshold_crossing_ratio,
+    )
     checks.append(
         check(
             "past_future_crossing_threshold",
@@ -379,21 +392,21 @@ def main() -> int:
     )
 
     generalized_amplitude_roots: dict[str, float] = {}
-    for ruble in (0.8, 1.2, 1.5):
+    for crossing_ratio in (0.8, 1.2, 1.5):
         roots = sign_change_roots(
-            lambda x, amplitude=ruble: closure_residual(x, 1.0, amplitude),
+            lambda x, amplitude=crossing_ratio: closure_residual(x, 1.0, amplitude),
             -5.0,
             5.0,
             step=0.002,
         )
-        identifier = f"ruble_{ruble:.1f}"
+        identifier = f"crossing_ratio_{crossing_ratio:.1f}"
         checks.append(
             check(f"{identifier}_root_count", "independent", len(roots) == 1, len(roots), 1, 0)
         )
         if len(roots) == 1:
             root = roots[0]
-            generalized_amplitude_roots[f"{ruble:.1f}"] = root
-            residual = closure_residual(root, 1.0, ruble)
+            generalized_amplitude_roots[f"{crossing_ratio:.1f}"] = root
+            residual = closure_residual(root, 1.0, crossing_ratio)
             checks.append(
                 check(
                     f"{identifier}_closure_residual",
@@ -404,7 +417,11 @@ def main() -> int:
                     2e-12,
                 )
             )
-            expected_sign = 1 if ruble < threshold_ruble else -1
+            expected_sign = (
+                1
+                if crossing_ratio < past_future_threshold_crossing_ratio
+                else -1
+            )
             actual_sign = 1 if root > 0.0 else -1
             checks.append(
                 check(
@@ -467,7 +484,7 @@ def main() -> int:
             "strict_dust": {"nu": strict_dust_fold[0], "x": strict_dust_fold[1]},
             "hybrid": {"nu": hybrid_fold[0], "x": hybrid_fold[1]},
         },
-        "past_future_threshold_ruble": threshold_ruble,
+        "past_future_threshold_crossing_ratio": past_future_threshold_crossing_ratio,
         "generalized_amplitude_roots": generalized_amplitude_roots,
         "amplitude_counterexamples": amplitude_counterexamples,
         "checks": checks,

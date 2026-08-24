@@ -1,6 +1,6 @@
 # The Meaning of Causal Charge
 
-Causal charge names the proposed symmetry invariant of a fact-bearing causal arena: the value of a common generator whose state, material, record, and geometric representations may be exchanged without loss from the flux-inclusive whole. It is not a new fluid or an absolute number of bits. The broader capacity for distinctions to become causally situated facts is **causal individuation**; causal capacity is its positive response, while causal charge is its linear conservation candidate.
+Causal charge names the proposed symmetry invariant of a fact-bearing causal arena: the value of a common generator whose state-plus-matter, record, and geometric representations may be exchanged without loss from the flux-inclusive whole. It is not a new fluid or an absolute number of bits. The broader capacity for distinctions to become causally situated facts is **causal individuation**; causal capacity is its positive response, while causal charge is its linear conservation candidate.
 
 ## Causal individuation
 
@@ -17,7 +17,7 @@ The word *capacity* refers to the positive response available for making or reso
 | Fact | character or realized outcome in a context | determinate pointing |
 | Record | stable physical encoding of a fact | persistence and common history |
 
-[[binary-casimir-balance]] supplies an exact Casimir allocation. [[diagonal-charge-balance]] supplies the theorem template for a genuine conserved charge. The central programme is to show that these belong to one structure without erasing their types.
+[[binary-information-geometry/involutive-casimir|The involutive Casimir theorem]] supplies the exact algebraic allocation; [[binary-casimir-balance]] supplies its conservation-specific interpretation. [[diagonal-charge-balance]] supplies the theorem template for a genuine conserved charge. The central programme is to show that these belong to one structure without erasing their types.
 
 ## Retyping the loose equation
 
@@ -35,15 +35,15 @@ A well-typed prospective equation instead chooses a partition and places every c
 
 $$
 \boxed{
-\mu_{\mathrm{causal}}
-=\mu_{\mathrm{state}}
-+\mu_{\mathrm{grav}}
-+\mu_{\mathrm{record}}
+\boldsymbol\mu_\Sigma^{\mathrm{causal}}
+=\boldsymbol\mu_\Sigma^{\mathrm{state+matter}}
++\boldsymbol\mu_\Sigma^{\mathrm{grav}}
++\boldsymbol\mu_\Sigma^{\mathrm{record}}
 \in\mathfrak g_{\mathrm c}^*.
 }
 $$
 
-In this minimal ledger, \(\mu_{\mathrm{state}}\) is the complete nongravitational state contribution, including bulk matter, while \(\mu_{\mathrm{grav}}\) may contain area, corner, or edge contributions according to the chosen gravitational phase space. A separate wall-state/bulk-matter split would require an independently constructed, gauge-compatible factorization. Regrouping sectors is harmless only when the embeddings into the common charge fiber are given and no contribution is counted twice.
+In this minimal ledger, \(\boldsymbol\mu_\Sigma^{\mathrm{state+matter}}\) is the complete nongravitational contribution, while \(\boldsymbol\mu_\Sigma^{\mathrm{grav}}\) may contain area, corner, or edge contributions according to the chosen gravitational phase space. A separate wall-state/bulk-matter split would require an independently constructed, gauge-compatible factorization. Regrouping sectors is harmless only when the embeddings into the common charge fiber are given and no contribution is counted twice.
 
 Alternatively, at the quadratic level,
 
@@ -65,14 +65,22 @@ The conserved object need not be a scalar stock of distinguishability. Geometry 
 
 ## Constants as soldering coefficients
 
-On this interpretation, \(c\), \(\hbar\), \(k_B\), and \(G\) do not denote pieces of the conserved total. They convert between causal, action, thermodynamic, and geometric registers. In particular,
+On this interpretation, \(c\), \(\hbar\), \(k_B\), and \(G\) do not denote pieces of the conserved total. They convert between causal, action, thermodynamic, and geometric registers. In an Einstein universality class, the gravitational entropy--area modulus is
 
 $$
-\chi_{\downarrow}
-=\frac{c^3}{4G\hbar}
+\eta_{\mathrm E}
+:=\frac{\mathrm d\mu^{S,\mathrm E}}{\mathrm d\mu_A}
+=\frac{c^3}{4\hbar G}.
 $$
 
-has the meaning of a dimensionless causal or information-geometric capacity per area when the proposed weld exists. [[cosmodynamics/soldering-constants|Soldering constants]] explains why numerical values and invariant conversion content must be separated.
+The independently constructed state-side scale contraction is \(\chi_N(p)\). When both measures exist, [[program-core/causal-capacity-equivalence|the canonical matching field]] is
+
+$$
+\mathfrak r_{\Sigma,N}(p)
+:=\frac{\chi_N(p)}{\eta_{\mathrm E}}.
+$$
+
+The proposed unit law \(\mathfrak r_{\Sigma,N}=1\) equates two areal moduli; it does not define the state-side modulus by importing \(G\). [[cosmodynamics/soldering-constants|Soldering constants]] explains why numerical values and invariant conversion content must be separated.
 
 ## Working vocabulary
 

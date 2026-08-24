@@ -101,7 +101,7 @@ $$
 
 Stress measured in quantum action--length units becomes curvature after division by the areal modulus. Large \(\eta_{\mathrm E}\) means that the same stress produces little curvature.
 
-In the [[causal-scale-theory/scale-tractor|scale-tractor rewriting]], the trace-free equation becomes
+In the [[conformal-scale-geometry/scale-tractor-transport|scale-tractor rewriting]], the trace-free equation becomes
 
 $$
 \mathcal E_{ab}(\sigma)

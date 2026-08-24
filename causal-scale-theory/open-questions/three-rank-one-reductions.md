@@ -1,34 +1,13 @@
 # Three Distinct Rank-One Reductions
 
-“Rank one” names three reductions in the surrounding research archive that do not imply one another: a single horizontal wall generator, a single shared cosmological clock, and a single scalar stress response. Keeping them separate prevents evidence for one reduction from being used to close another.
+“Rank one” names three reductions in the programme that live on different carriers: one horizontal operator channel, one shared comparison clock, and one scalar covariant response. Evidence for any one does not establish either of the others.
 
-## Horizontal generator rank
+| Reduction | Precise claim | Canonical obligation |
+|---|---|---|
+| Horizontal channel rank | The relevant reflection-odd wall response factors through one noncentral generator or one-dimensional sufficient statistic | [[wall-construction-interface/binary-channel|Binary-channel construction]] |
+| Clock rank | Transported sectors admit one common relational parameter \(N\), with controlled comparison and holonomy | [[wall-construction-interface/cross-fiber-transport|Cross-fiber transport]] and [[basic-concepts/soldering/affine-scale-state|affine scale--state comparison]] |
+| Stress-response rank | The covariant spacetime response closes through one scalar form factor, kernel, or physical mode after gauge constraints | [[causal-scale-theory/conjectures/covariant-response-sector|Covariant-response construction]] |
 
-The wall comparison may reduce to
+The three ranks concern, respectively, an operator image, a base or comparison parameter, and a constrained spacetime representation. A one-generator cocycle can coexist with several clocks or several physical perturbation modes; synchronized clocks can coexist with a high-rank wall algebra; and a single scalar stress response can arise after integrating out many channels.
 
-$$
-u_{N_2:N_1}(s)
-\sim e^{is\Theta(N_2:N_1)Q}
-$$
-
-for one noncentral generator $Q$. This is the rank-one premise used by [[causal-scale-theory/scale-soldering]].
-
-## Clock rank
-
-Several sectors may be assumed to share one material or cosmological scale parameter $N$. That synchronization is a statement about relational clocks and descent, not about the dimension of the wall algebra.
-
-## Stress-form-factor rank
-
-A perturbative response may be assumed to be controlled by one spin-zero form factor or one scalar kernel. This is a statement about the covariant stress sector and gauge constraints.
-
-The three statements live in different categories:
-
-$$
-\text{operator channel}
-\quad\ne\quad
-\text{clock synchronization}
-\quad\ne\quad
-\text{stress representation}.
-$$
-
-A completed theory may relate them, but no such theorem is currently available.
+Promoting the three reductions to one theorem would require explicit maps between their carriers, proofs of rank preservation after quotient and constraint reduction, and control of kernels and discarded modes. No such theorem is presently available.

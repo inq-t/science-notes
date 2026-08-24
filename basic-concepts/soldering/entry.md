@@ -218,13 +218,13 @@ The project uses *soldering* more broadly for explicit maps between ontologicall
 
 ### Scale and state
 
-In [[causal-scale-theory/scale-soldering|affine scale--state soldering]], a multiplicative scale ratio $r$ is related to an additive modular parameter by
+In [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]], a multiplicative scale ratio $r$ is related to an additive state coordinate by
 
 $$
 \theta(r)=-\varrho_\perp\ln r.
 $$
 
-Under the stated ratio, rank-one, cocycle, and measurability assumptions, the logarithmic form follows from a homomorphism equation. The slope $\varrho_\perp$ does not: setting it to one is a physical representation choice. This is soldering in the extended sense of an equivariant or compositional bridge between scale and state registers. It is not the differential-geometric tautological form, and it does not by itself identify either register with $TM$.
+Under the stated ratio, rank-one, cocycle, and measurability assumptions, the logarithmic form follows from a homomorphism equation. The slope $\varrho_\perp$ does not: [[basic-concepts/soldering/continuous-character-no-go|continuous character theory]] leaves it free. Setting it to one is a physical representation choice. This is soldering in the extended sense of an equivariant or compositional bridge between scale and state registers. It is not the differential-geometric tautological form, and it does not by itself identify either register with $TM$.
 
 ### Dimensionful constants
 

@@ -39,7 +39,7 @@ Two operations are often displayed in the same equation:
 1. Replacing $t$ with $\eta$ is a coordinate change on the same physical spacetime.
 2. Replacing $g$ with $\widetilde g=a^{-2}g$ is a conformal rescaling to a different metric representative.
 
-The first operation does not change the metric geometry; it only relabels events. The second changes lengths and clock rates but preserves null cones and unparametrized null geodesics. This preservation of causal directions is the standard geometric content of [[causal-scale-theory/causal-order|conformal structure and metric scale]].
+The first operation does not change the metric geometry; it only relabels events. The second changes lengths and clock rates but preserves null cones and unparametrized null geodesics. This preservation of causal directions is the standard geometric content of [[conformal-scale-geometry/causal-order-and-metric-scale|conformal structure and metric scale]].
 
 For spatially flat FLRW,
 
@@ -92,7 +92,7 @@ $$
 \frac{a''}{a}=(1-q)\mathcal H^2.
 $$
 
-These identities are kinematic. They do not require Einstein's field equation or a particular matter model. Further identities using the inverse scale $\sigma=1/a$ are collected in [[causal-scale-theory/flrw-kinematics|FLRW scale-section kinematics]].
+These identities are kinematic. They do not require Einstein's field equation or a particular matter model. Further identities using the inverse scale $\sigma=1/a$ are collected in [[conformal-scale-geometry/flrw-scale-section-kinematics|FLRW scale-section kinematics]].
 
 Conformal time and [[misner-log-time|Misner logarithmic time]] emphasize different aspects of expansion. If $\Omega=-\ln(a/a_*)$, then
 

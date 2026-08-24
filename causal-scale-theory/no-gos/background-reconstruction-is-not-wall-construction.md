@@ -1,33 +1,36 @@
 # Background Reconstruction Is Not Wall Construction
 
-A state coordinate reconstructed from the solved expansion history merely reparameterizes an effective fluid. For CST to explain the background rather than rename it, the horizontal state family and its BKM return values must be specified independently of $H(z)$.
+A state coordinate, wall region, or response functional read backward from a solved expansion history is an effective reparameterization, not an independent explanation of that history. This no-go fixes the direction of dependence required for any microscopic CST claim.
 
-Given any sufficiently regular positive density history, one can define
+For any positive separately conserved effective density one can define
 
 $$
-w(N):=-1-\frac13\frac{\mathrm d\ln\rho}{\mathrm dN}
+w(N)
+:=-1-\frac13\frac{\mathrm d\ln\rho}{\mathrm dN}.
 $$
 
-and often choose a coordinate that makes the result resemble a preferred response curve. This reverse construction does not establish a microscopic state space.
+A further coordinate choice can often make the reconstructed curve resemble a preferred susceptibility. Neither operation constructs an algebra, state-selection law, cross-fiber transport, or physical tangent.
 
-The explanatory direction required by CST is
+The explanatory direction is
 
 $$
 \text{independent wall data}
 \longrightarrow
-(\nu,\mathfrak R_c,\text{source law})
+(\nu,\mathfrak R_c,\text{source functional})
 \longrightarrow
-H(N).
+H(N),
 $$
 
-The circular direction is
+whereas
 
 $$
 H(N)
 \longrightarrow
-\theta(N),G_{NN}(N)
+\theta(N),G^{\perp}_{NN}(N)
 \longrightarrow
-\text{claimed explanation of }H(N).
+\text{claimed explanation of }H(N)
 $$
 
-The second chain may provide a useful representation, but it cannot support a derivation claim. [[wall-construction-interface/elimination-test|The elimination tests]] state the construction-level version of this “musical-chairs” criterion.
+is circular. [[wall-construction-interface/elimination-test|The elimination tests]] own the stronger construction-level statement, including the trap in which the apparent-horizon region itself is defined only after the target background is solved. [[program-core/grounding-reasons|The programme's independent-return rule]] supplies the same requirement at foundational level.
+
+This no-go does not forbid phenomenological reconstruction or a response functional solved simultaneously with the gravitational equations. It forbids treating agreement with an input history as independent evidence for the wall law that was reconstructed from it.

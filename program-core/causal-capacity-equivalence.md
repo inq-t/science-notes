@@ -197,7 +197,7 @@ $$
 {\mu^{S,\mathrm{grav}}(\Sigma_c)}.
 $$
 
-Thus it is a gravitational-measure-weighted average of the local matching field. It becomes an area-weighted average only in an Einstein or other constant-\(\eta_{\mathrm{grav}}\) regime. It selects the unit-amplitude homogeneous branch at one cut after the common-carrier, localization, entropy-extensivity, and compatible-scheme hypotheses are supplied.
+Thus it is a gravitational-measure-weighted average of the local matching field. It becomes an area-weighted average only in an Einstein or other constant-\(\eta_{\mathrm{grav}}\) regime. It selects the weak-unit homogeneous branch at one cut after the common-carrier, localization, entropy-extensivity, and compatible-scheme hypotheses are supplied.
 
 The **strong causal-capacity equivalence principle** is the local measure equality throughout a declared Einstein universality class. It is the stronger statement needed if one coefficient is to govern local focusing, weak-field gravity, lensing, waves, cosmology, and horizon entropy.
 

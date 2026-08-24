@@ -35,13 +35,13 @@ $$
 \operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr),
 $$
 
-but its mathematical rigidity must not hide the premise stack. [[causal-scale-theory/entry|The CST synthesis]] and [[causal-scale-theory/closure-stack|closure stack]] own the detailed status ledger.
+but its mathematical rigidity must not hide the premise stack. [[causal-scale-theory/entry|The CST synthesis]] and [[causal-scale-theory/realization-map|the realization map]] own the detailed status ledger.
 
 ## What it proposes to explain
 
 GR supplies the relation between an effective source and accelerated metric evolution. Causal Scale Dynamics proposes a law selecting a transient source from the information geometry of scale-state change. This is a candidate for constitutive closure, not a deduction from GR or operator algebra alone.
 
-The horizon allocation in [[scale-age]] gives a controlled relation among e-folds, surface-gravity rapidity, and horizon entropy. The proposed identification of horizontal state response with physical source energy requires the additional [[causal-scale-theory/horizontal-temperature|horizontal-temperature identification]] and [[causal-scale-theory/unit-amplitude-principle|unit-amplitude principle]]; the [[causal-scale-theory/closure-stack|closure stack]] keeps those slots separate.
+The horizon allocation in [[scale-age]] gives a controlled relation among e-folds, surface-gravity rapidity, and horizon entropy. The proposed identification of horizontal state response with physical source energy requires the additional [[causal-scale-theory/horizontal-temperature|horizontal-temperature identification]] and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|weak Ruble matching]]; the [[causal-scale-theory/realization-map|realization map]] keeps those slots separate.
 
 ## Whole-state perturbations
 

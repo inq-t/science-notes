@@ -1,9 +1,10 @@
 """Dependency-free algebra receipts for Causal Scale Theory.
 
 Exact checks are evaluated with rational arithmetic after writing the binary
-identities in terms of t = tanh(theta) and g = 1 - t**2. Numerical checks are
-limited to integrals or transcendental representations. The script verifies
-formula implementation, not the physical wall, source, or unit principles.
+identities in terms of polarization m = tanh(theta) and binary metric
+g_bin = 1 - m**2. Numerical checks are limited to integrals or transcendental
+representations. The script verifies formula implementation, not the physical
+wall, source, or unit principles.
 """
 
 from __future__ import annotations
@@ -60,51 +61,58 @@ def main() -> int:
     ]
 
     balance_residuals: list[Fraction] = []
-    exchange_residuals: list[Fraction] = []
+    casimir_derivative_residuals: list[Fraction] = []
     conic_residuals: list[Fraction] = []
     curvature_residuals: list[Fraction] = []
     shape_residuals: list[Fraction] = []
     riccati_residuals: list[Fraction] = []
     witten_residuals: list[Fraction] = []
 
-    for tangent, nu in samples:
-        metric = 1 - tangent * tangent
-        tangent_prime = nu * metric
-        metric_prime = -2 * nu * tangent * metric
+    for polarization, nu in samples:
+        binary_metric = 1 - polarization * polarization
+        polarization_prime = nu * binary_metric
+        binary_metric_prime = -2 * nu * polarization * binary_metric
 
-        balance_residuals.append(tangent * tangent + metric - 1)
-        exchange_residuals.append(2 * tangent * tangent_prime + metric_prime)
+        balance_residuals.append(polarization * polarization + binary_metric - 1)
+        casimir_derivative_residuals.append(
+            2 * polarization * polarization_prime + binary_metric_prime
+        )
 
-        log_density_prime = -2 * nu * tangent
-        log_density_second = -2 * nu * nu * metric
-        conic_residuals.append(metric + log_density_prime * log_density_prime / (4 * nu * nu) - 1)
-        curvature_residuals.append(log_density_second + 2 * nu * nu * metric)
+        log_density_prime = -2 * nu * polarization
+        log_density_second = -2 * nu * nu * binary_metric
+        conic_residuals.append(
+            binary_metric + log_density_prime * log_density_prime / (4 * nu * nu) - 1
+        )
+        curvature_residuals.append(log_density_second + 2 * nu * nu * binary_metric)
 
-        one_plus_w = 2 * nu * tangent / 3
-        w_prime = 2 * nu * nu * metric / 3
+        one_plus_w = 2 * nu * polarization / 3
+        w_prime = 2 * nu * nu * binary_metric / 3
         shape_residuals.append(9 * one_plus_w * one_plus_w + 6 * w_prime - 4 * nu * nu)
 
-        delta = 2 * nu * tangent
-        delta_prime = 2 * nu * nu * metric
+        delta = 2 * nu * polarization
+        delta_prime = 2 * nu * nu * binary_metric
         riccati_residuals.append(delta_prime - (2 * nu * nu - delta * delta / 2))
 
-        potential_minus = tangent * tangent - metric
-        potential_plus = tangent * tangent + metric
-        zero_mode_density = metric / 2
-        zero_mode_derivative_coefficient = -tangent
+        potential_minus = polarization * polarization - binary_metric
+        potential_plus = polarization * polarization + binary_metric
+        zero_mode_density = binary_metric / 2
+        zero_mode_derivative_coefficient = -polarization
         witten_residuals.extend(
             [
-                potential_minus - (1 - 2 * metric),
+                potential_minus - (1 - 2 * binary_metric),
                 potential_plus - 1,
-                2 * zero_mode_density - metric,
-                zero_mode_derivative_coefficient + tangent,
+                2 * zero_mode_density - binary_metric,
+                zero_mode_derivative_coefficient + polarization,
             ]
         )
 
     checks.extend(
         [
             rational_zero_check("binary_casimir_balance", balance_residuals),
-            rational_zero_check("binary_exchange_conservation", exchange_residuals),
+            rational_zero_check(
+                "binary_casimir_derivative_identity",
+                casimir_derivative_residuals,
+            ),
             rational_zero_check("density_conic", conic_residuals),
             rational_zero_check("density_log_curvature", curvature_residuals),
             rational_zero_check("equation_of_state_invariant", shape_residuals),
@@ -116,19 +124,24 @@ def main() -> int:
     dimension_residuals: list[Fraction] = []
     equal_partition_residuals: list[Fraction] = []
     for dimension in range(2, 8):
-        for ruble in (Fraction(1, 2), Fraction(1), Fraction(4, 3)):
-            if ruble >= dimension - 1:
+        for crossing_ratio in (Fraction(1, 2), Fraction(1), Fraction(4, 3)):
+            if crossing_ratio >= dimension - 1:
                 continue
-            fraction = ruble / (dimension - 1)
+            fraction = crossing_ratio / (dimension - 1)
             complement_ratio = fraction / (1 - fraction)
-            dimension_residuals.append(complement_ratio - ruble / (dimension - 1 - ruble))
-            equal_partition_residuals.append(
-                (complement_ratio - 1) * (dimension - 1 - ruble)
-                - (2 * ruble - (dimension - 1))
+            dimension_residuals.append(
+                complement_ratio
+                - crossing_ratio / (dimension - 1 - crossing_ratio)
             )
-        equal_partition_ruble = Fraction(dimension - 1, 2)
-        equal_partition_fraction = equal_partition_ruble / (dimension - 1)
-        equal_partition_ratio = equal_partition_ruble / (dimension - 1 - equal_partition_ruble)
+            equal_partition_residuals.append(
+                (complement_ratio - 1) * (dimension - 1 - crossing_ratio)
+                - (2 * crossing_ratio - (dimension - 1))
+            )
+        equal_partition_crossing_ratio = Fraction(dimension - 1, 2)
+        equal_partition_fraction = equal_partition_crossing_ratio / (dimension - 1)
+        equal_partition_ratio = equal_partition_crossing_ratio / (
+            dimension - 1 - equal_partition_crossing_ratio
+        )
         equal_partition_residuals.extend(
             [
                 equal_partition_fraction - Fraction(1, 2),
@@ -244,15 +257,15 @@ def main() -> int:
     )
 
     reflected_residuals: list[float] = []
-    for tangent in (-0.8, -0.3, 0.2, 0.7):
-        theta = math.atanh(tangent)
-        probability_plus = 0.5 * (1.0 + tangent)
-        probability_minus = 0.5 * (1.0 - tangent)
+    for polarization in (-0.8, -0.3, 0.2, 0.7):
+        theta = math.atanh(polarization)
+        probability_plus = 0.5 * (1.0 + polarization)
+        probability_minus = 0.5 * (1.0 - polarization)
         one_sided = (
             probability_plus * math.log(probability_plus / probability_minus)
             + probability_minus * math.log(probability_minus / probability_plus)
         )
-        reflected_residuals.append(one_sided - 2.0 * theta * tangent)
+        reflected_residuals.append(one_sided - 2.0 * theta * polarization)
     checks.append(
         record(
             "reflected_relative_entropy",
@@ -266,21 +279,21 @@ def main() -> int:
 
     schrodinger_residuals: list[float] = []
     transmission_residuals: list[float] = []
-    for tangent in (-0.6, 0.0, 0.75):
-        metric = 1.0 - tangent * tangent
+    for polarization in (-0.6, 0.0, 0.75):
+        binary_metric = 1.0 - polarization * polarization
         for momentum in (0.3, 1.0, 2.5):
             # psi_k(theta) = f(theta) exp(i k theta), with
             # f(theta) = tanh(theta) - i k. Reduce the eigenvalue equation
             # [H_- - (1 + k^2)] psi_k = 0 to the coefficient of exp(i k theta).
-            factor = complex(tangent, -momentum)
-            factor_prime = metric
-            factor_second = -2.0 * tangent * metric
+            factor = complex(polarization, -momentum)
+            factor_prime = binary_metric
+            factor_second = -2.0 * polarization * binary_metric
             psi_second_coefficient = (
                 factor_second
                 + 2.0j * momentum * factor_prime
                 - momentum * momentum * factor
             )
-            potential_minus = 1.0 - 2.0 * metric
+            potential_minus = 1.0 - 2.0 * binary_metric
             eigen_residual = (
                 -psi_second_coefficient
                 + potential_minus * factor

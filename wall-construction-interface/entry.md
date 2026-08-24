@@ -2,7 +2,7 @@
 
 Every programme that treats physical scale as displacement through quantum state space presupposes the same unconstructed object: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. This module states that object once, enumerates what must be supplied before relative entropy, a Connes cocycle, or a BKM norm may be written at all, and fixes the tests a candidate construction must pass. It derives no cosmology and predicts no spectrum. Its purpose is to be the shared dependency of the homogeneous response programme and the primordial spectral programme rather than a third private copy of their common preamble.
 
-Claim labels follow the vocabulary registered in [[causal-scale-theory/claim-status|CST's claim-status discipline]].
+Claim labels follow [[program-core/axioms-and-principles#Status vocabulary|the programme-wide claim-status vocabulary]].
 
 ## The interface is a dependency, not a theory
 
@@ -70,6 +70,8 @@ $$
 
 presupposes that $\mathcal A_{N_1}$ and $\mathcal A_{N_2}$ have already been placed on common ground. Until $\iota_{N_2:N_1}$ is supplied, a horizontal BKM norm is not a small quantity awaiting calculation; it is an undefined symbol. The available transport strategies, the decomposition that isolates the physically load-bearing part of the comparison, and the failure modes of each are developed in [[cross-fiber-transport|cross-fiber transport and state selection]].
 
+[[vertical-and-horizontal-motion|Vertical and horizontal motion]] fixes the recurring type distinction, while [[state-coordinate-types|the state-coordinate ledger]] separates a family label, a transported comparison coordinate, and a spacetime field. If Euclidean periodicity is proposed as a width selector, [[euclidean-monodromy-and-width|the monodromy conjecture]] states the additional transport theorem it would need.
+
 ## One tangent space, two consumers
 
 Write the scale variation of a positive scale section against a homogeneous reference as
@@ -99,7 +101,9 @@ $$
 \text{homogeneous:}\quad
 \nu=\left|\frac{\mathrm d\theta}{\mathrm dN}\right|,
 \qquad
-\mathfrak R(N)=\frac{k_B}{S(N)}G^\perp_{NN}(N);
+\mathfrak R_\Sigma(N)
+=\frac{k_B}{S_{\mathrm{grav}}(\Sigma_N)}
+G^\perp_{NN}(\Sigma_N,N);
 $$
 
 $$
@@ -109,13 +113,13 @@ $$
 \text{and the identification of }\zeta_{\rm wall}\text{ with a gauge-invariant curvature mode.}
 $$
 
-Both return values are functions of the same eight slots. Neither is computable from a subset that omits transport.
+Here \(\mathfrak R_\Sigma(N)\) is the cut-integrated return defined in [[program-core/ruble-equations#RE6 — Integrated crossing capacity|RE6]], not a local field or a pathwise constant. Both response outputs depend on the same eight interface slots. Neither is computable from a subset that omits transport.
 
 ## Two completion levels
 
 A programme built on this interface may honestly stop at either level, provided it names the level it has reached.
 
-**Interface completion.** Take established local quantum field theory as the fiber theory and construct a universal horizontal geometry over its admissible states. The primitive datum may then be a positive functional — an entropy-normalized peak, or a precision kernel — postulated by an independent law rather than computed from a realized algebra. This level still owes an independent statement of that law and a demonstration that it couples consistently to gravity.
+**Interface completion.** Take established local quantum field theory as the fiber theory and construct a universal horizontal geometry over its admissible states. The primitive datum may then be a positive functional — a cut-integrated capacity ratio, or a precision kernel — postulated by an independent law rather than computed from a realized algebra. This level still owes an independent statement of that law and a demonstration that it couples consistently to gravity.
 
 **Microscopic completion.** Construct a particular wall algebra and state family that *calculates* the return values above, and prove whatever continuation carries them to observables. This is strictly stronger, and it is not required merely to formulate an autonomous interface theory.
 
@@ -123,7 +127,7 @@ The distinction matters because the two levels have different burdens of proof a
 
 ## The reduction that is assumed, not derived
 
-Both consumers currently route their response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[causal-scale-theory/binary-geometry|balanced binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]].
+Both consumers currently route their response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[binary-information-geometry/entry|binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]].
 
 The word "rank one" is used across the archive for reductions that do not imply one another: one noncentral horizontal generator, one common material clock, and one spin-zero stress form factor. Only the first is an obligation of this interface. The other two are consumer-side assumptions and should be argued where they are used.
 
@@ -132,5 +136,3 @@ The word "rank one" is used across the archive for reductions that do not imply 
 Two independent tests separate a construction that explains from one that redescribes. The first forbids obtaining the horizontal law by solving backward from the history or spectrum it is meant to predict. The second requires that adding the interface not disturb the local physics it claims to import. A candidate can pass either while failing the other, so they must be checked separately; both are stated in [[elimination-test|the elimination tests]].
 
 Because the dynamical case makes every slot nontrivial at once, the credible route is incremental. [[construction-ladder|The construction ladder]] orders five settings by which slot first becomes hard, so that a failure localizes to an ingredient instead of to the programme.
-
-The present duplication of these statements across the existing modules, and what a later reviewed consolidation would change, is recorded in [[duplication-audit|the duplication audit]]. Nothing in the existing modules has been altered by the creation of this one.

@@ -114,6 +114,8 @@ $$
 
 Thus the binary scale tangent cannot simply be renamed the entanglement-capacity tangent of the same state. [[obstructions-to-an-unconditional-proof]] gives the tangent, replication, trace-normalization, and dimensional no-go lemmas.
 
+Two construction programmes remain live beyond that theorem. [[boost-capacity-bridge|The boost--capacity bridge]] asks whether geometric boost normalization and canonical energy determine the same-tangent quadratic response without confusing it with linear boost charge. [[horizon-algebra-capacity|The horizon-algebra route]] asks whether a genuine wall algebra and one common partition function calculate entropy and horizontal capacity together. Both require independently normalized physical area; neither is licensed merely by the two-dimensional normal plane.
+
 ## The Ruble ratio exposes the logical joint
 
 Whenever both coefficients are defined on the same cut, introduce
@@ -130,7 +132,7 @@ $$
 =\frac{k_B}{S_\Sigma}G^{\perp}_{NN}.
 $$
 
-The [[causal-scale-theory/unit-amplitude-principle|unit-amplitude principle]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
+[[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak Ruble matching]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
 
 $$
 \boxed{

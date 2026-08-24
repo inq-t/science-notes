@@ -52,12 +52,12 @@ $$
 \Delta Q_{\mathrm{accessible}}
 +\Delta Q_{\mathrm{record}}
 +\Delta Q_{\mathrm{residual}}
-+\Phi_{\mathrm{wall}}
++\mathcal F_{\mathrm{wall}}
 =0.
 }
 $$
 
-This is not conservation of relative entropy. Relative entropy supplies one response measure; the conserved quantity is the common symmetry charge postulated in [[causal-individuation-balance]].
+Here \(\mathcal F_{\mathrm{wall}}\) is charge flux through the remaining boundary of the chosen subsystem. This is not conservation of relative entropy. Relative entropy supplies one response measure; the conserved quantity is the common symmetry charge postulated in [[causal-individuation-balance]].
 
 ## Group outside, semigroup inside
 

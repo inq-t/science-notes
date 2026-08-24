@@ -25,7 +25,7 @@ $$
 
 Once the matter model, $\Lambda$, initial data, and boundary conditions are specified, GR determines the compatible metric evolution. It does not by itself select the matter sector, explain the numerical value of $\Lambda$, or solve the radiative vacuum-energy problem.
 
-Thus GR represents accelerated FLRW histories perfectly well after an accelerating source or cosmological constant is supplied. The further question is why that source law and scale are physically selected. Causal Scale Theory proposes one answer, whose assumptions are exposed in [[causal-scale-theory/closure-stack|the closure stack]].
+Thus GR represents accelerated FLRW histories perfectly well after an accelerating source or cosmological constant is supplied. The further question is why that source law and scale are physically selected. Causal Scale Theory proposes one answer, whose assumptions are exposed in [[causal-scale-theory/realization-map|the realization map]].
 
 ## “Leaving QFT alone”
 

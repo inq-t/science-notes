@@ -80,11 +80,11 @@ For a subsystem bounded by two cuts and an intervening wall, the appropriate sta
 $$
 \boxed{
 Q_\xi[\Sigma_2]-Q_\xi[\Sigma_1]
-+\Phi_\xi[W]=0,
++\mathcal F_\xi[W]=0,
 }
 $$
 
-where \(\Phi_\xi[W]\) is the charge flux through the remaining boundary. Declaring a subsystem charge conserved while omitting its boundary flux is an incomplete application of the theorem.
+where \(\mathcal F_\xi[W]\) is the charge flux through the remaining boundary. Declaring a subsystem charge conserved while omitting its boundary flux is an incomplete application of the theorem.
 
 In gauge theories and gravity, the presymplectic form is degenerate before quotienting constraints, and boundary or corner terms can carry the physical charge. The finite-dimensional theorem is therefore a template, not a direct proof for a causal horizon.
 
@@ -93,7 +93,7 @@ In gauge theories and gravity, the presymplectic form is degenerate before quoti
 The proposed causal application would require Hamiltonian or covariant-presymplectic sectors
 
 $$
-P_{\mathrm{state}},
+P_{\mathrm{state+matter}},
 \qquad
 P_{\mathrm{grav}},
 \qquad
@@ -103,10 +103,10 @@ $$
 with one causal boost or dilation group acting diagonally, so that
 
 $$
-\mu_{\mathrm{causal}}
-=\mu_{\mathrm{state}}
-+\mu_{\mathrm{grav}}
-+\mu_{\mathrm{record}}.
+\boldsymbol\mu_\Sigma^{\mathrm{causal}}
+=\boldsymbol\mu_\Sigma^{\mathrm{state+matter}}
++\boldsymbol\mu_\Sigma^{\mathrm{grav}}
++\boldsymbol\mu_\Sigma^{\mathrm{record}}.
 $$
 
 Only then would the phrase

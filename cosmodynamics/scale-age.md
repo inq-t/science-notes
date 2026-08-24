@@ -47,7 +47,7 @@ The same FLRW solution can be parameterized by $N$ or $-N$. A monotonic coordina
 For the flat expanding FLRW apparent horizon, define a signed horizon index $\widehat\mu_A$ and signed rapidity by
 
 $$
-\frac{\mathrm d\widehat\eta_A}{\mathrm dN}=\widehat\mu_A.
+\frac{\mathrm d\widehat\zeta_A}{\mathrm dN}=\widehat\mu_A.
 $$
 
 With $\mathcal S_A=S_A/k_B\propto H^{-2}$, the geometric identities give
@@ -55,9 +55,9 @@ With $\mathcal S_A=S_A/k_B\propto H^{-2}$, the geometric identities give
 $$
 \boxed{
 \mathrm dN
-=\mathrm d\widehat\eta_A
+=\mathrm d\widehat\zeta_A
 +\frac14\,\mathrm d\ln\mathcal S_A
 }.
 $$
 
-This allocates one e-fold between a signed surface-gravity rapidity and horizon-entropy growth under the stated FLRW definitions. It does not identify $\widehat\eta_A$ with proper time, horizontal state displacement, or fact formation. The sign conditions are kept in [[causal-scale-theory/horizon-clock|the horizon clock]], while [[causal-scale-theory/horizontal-temperature|the horizontal-temperature note]] keeps the distinct temperature notions separate.
+This allocates one e-fold between a signed surface-gravity rapidity and horizon-entropy growth under the stated FLRW definitions. It does not identify $\widehat\zeta_A$ with proper time, horizontal state displacement, or fact formation. The sign conditions are kept in [[conformal-scale-geometry/horizon-allocation|the horizon-allocation note]], while [[causal-scale-theory/horizontal-temperature|the horizontal-temperature note]] keeps the distinct temperature notions separate.

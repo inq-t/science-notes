@@ -149,7 +149,7 @@ $$
 \boxed{\mathfrak R_c=1.}
 $$
 
-It selects the unit-amplitude homogeneous branch. It is weaker than local gravitational universality.
+It selects the weak-unit homogeneous branch. It is weaker than local gravitational universality.
 
 **P4a — Response-geometry equivalence.**
 

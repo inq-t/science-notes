@@ -1,6 +1,6 @@
 # Conservation of Causal Charge
 
-Causal charge is the proposed invariant of a fact-bearing causal arena: a common symmetry charge whose state, geometric, material, and record contributions can change while their flux-inclusive total remains fixed. The exact mathematics presently establishes a binary Casimir allocation and a non-stochastic two-channel conversion law; the identification of their residual capacity with gravitational boundary charge and factual descent remains conjectural. The programme is therefore theorem-shaped at its algebraic core, conjecture-shaped at its physical welds, and philosophical in its account of what facthood means.
+Causal charge is the proposed invariant of a fact-bearing causal arena: a common symmetry charge whose state-plus-matter, geometric, and record contributions can change while their flux-inclusive total remains fixed. The exact mathematics presently establishes a binary Casimir allocation and a non-stochastic two-channel conversion law; the relation of their residual capacity to gravitational response, boundary charge, and factual descent remains conjectural. The programme is therefore theorem-shaped at its algebraic core, conjecture-shaped at its physical welds, and philosophical in its account of what facthood means.
 
 ## Indiscernibility comes before conservation
 
@@ -26,26 +26,28 @@ Nor does restriction explain actuality or history. [[factive-descent-and-records
 
 ## The exact seed is a Casimir allocation
 
-For a self-adjoint involution \(Q^2=\mathbf1\), [[binary-casimir-balance]] proves
+For a self-adjoint involution \(Q^2=\mathbf1\), [[binary-information-geometry/involutive-casimir|the involutive Casimir theorem]] proves
 
 $$
+m:=\langle Q\rangle,
+\qquad
 \boxed{
-1=\langle Q\rangle^2+\operatorname{Var}(Q).
+1=m^2+\operatorname{Var}(Q).
 }
 $$
 
-In the balanced exponential family this becomes
+After the balanced reference-state hypothesis is granted, [[binary-information-geometry/balanced-exponential-family|the balanced exponential-family theorem]] gives
 
 $$
-\eta=\tanh\theta,
+m=\tanh\theta,
 \qquad
-G^{\mathrm{BKM}}_{\theta\theta}
+g^{\mathrm{bin}}_{\theta\theta}
 =\operatorname{sech}^2\theta,
 \qquad
-\boxed{1=\eta^2+G^{\mathrm{BKM}}_{\theta\theta}}.
+\boxed{1=m^2+g^{\mathrm{bin}}_{\theta\theta}}.
 $$
 
-The invariant second moment is divided between resolved polarization and residual susceptibility. A state may select a polarization while the representation norm remains fixed. This is the first exact meaning of “conservation through symmetry breaking.” It is not yet a spacetime current, and \(\eta\) is an expectation rather than an actual fact.
+[[binary-casimir-balance]] gives the conservation-specific interpretation: the invariant second moment is divided between resolved polarization and residual susceptibility. A state may select a polarization while the representation norm remains fixed. This is the first exact meaning of “conservation through symmetry breaking.” It is not yet a spacetime current, and \(m\) is an expectation rather than an actual fact.
 
 The same hyperbolic pair has a second exact reading. [[two-channel-conversion-law]] starts with one fixed positive total \(C_{\mathrm{tot}}=C_++C_-\), uses the logarithm of the channel ratio as coordinate, and obtains
 
@@ -56,7 +58,7 @@ $$
 \operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr).
 $$
 
-The pulse is then a conversion current, not primitive noise. Its normalized integral over a complete transition is an endpoint charge equal to one. What remains open is the physical meaning of the two allocations: the existing \(+\) and \(-\) labels are normal orientations, not yet “fact” and “geometry.”
+The pulse is then a conversion current, not primitive noise. Its normalized integral over a complete transition is an oriented endpoint index equal to one, not a Noether charge. What remains open is the physical meaning of the two allocations: the existing \(+\) and \(-\) labels are normal orientations, not yet “fact” and “geometry.”
 
 [[casimir-susceptibility-decomposition]] shows that the binary identity is the rank-one case of a broader group-theoretic proposition:
 
@@ -74,10 +76,10 @@ This identifies the natural research direction. Symmetry breaking can redistribu
 
 $$
 \boxed{
-\mu_{\mathrm{causal}}
-=\mu_{\mathrm{state}}
-+\mu_{\mathrm{grav}}
-+\mu_{\mathrm{record}}
+\boldsymbol\mu_\Sigma^{\mathrm{causal}}
+=\boldsymbol\mu_\Sigma^{\mathrm{state+matter}}
++\boldsymbol\mu_\Sigma^{\mathrm{grav}}
++\boldsymbol\mu_\Sigma^{\mathrm{record}}
 \in\mathfrak g_{\mathrm c}^*,
 }
 $$
@@ -87,7 +89,7 @@ with the causal-slab balance
 $$
 \boxed{
 Q_\xi[\Sigma_2]-Q_\xi[\Sigma_1]
-+\Phi_\xi[W]=0.
++\mathcal F_\xi[W]=0.
 }
 $$
 
@@ -95,29 +97,35 @@ Here the state sector includes bulk matter; splitting wall-state and bulk contri
 
 ## Geometry is a representation, not an extra stock
 
-[[state-geometry-charge-weld]] isolates the decisive bridge. BKM capacity is quadratic, whereas causal charge is linear. The conjecture first maps the same physical state tangent to gravitational canonical energy and then asks whether the renormalized BKM norm defines a local measure with constant density per independently normalized area:
+[[state-geometry-charge-weld]] isolates the decisive bridge. BKM capacity is quadratic, whereas causal charge is linear. Following [[program-core/descent-response-geometry|the canonical response geometry]], the primary state-side object is a localized bilinear measure whose scale contraction is
 
 $$
-\frac{\mathrm d\mu_{\mathrm{BKM}}^\perp}
-{\mathrm d\mu_A}
-=\chi_*.
+\chi_N(p)
+:=\frac{\mathrm d\mu^{\mathrm{desc}}_{v_N,v_N}}
+{\mathrm d\mu_A}(p).
 $$
 
-If the same coefficient governs horizon entropy variation, then
+In an Einstein universality class, the independently defined gravitational modulus is
+
+$$
+\eta_{\mathrm E}:=\frac{c^3}{4\hbar G}.
+$$
+
+The strong scale-channel proposal is the local equality \(\chi_N(p)=\eta_{\mathrm E}\), equivalently the unit matching field \(\mathfrak r_{\Sigma,N}(p)=1\). If a wall construction independently returns a universal scalar \(\chi_*\) and this matching is established, then
 
 $$
 G_{\mathrm{pred}}
 =\frac{c^3}{4\hbar\chi_*}.
 $$
 
-On this reading, \(G\) is geometric compliance: a soldering coefficient between causal capacity and area. It is not a portion of ontological information added beside matter and space.
+On this reading, \(4\hbar G/c^3=\eta_{\mathrm E}^{-1}\) is geometric compliance: the inverse areal stiffness expressed in mechanical units. It is not a portion of ontological information added beside matter and space. [[program-core/causal-capacity-equivalence|Causal-capacity equivalence]] owns the local, integrated, and universality distinctions.
 
-The model already contains two possible cosmological projections. [[cosmological-shadows-of-causal-charge]] compares the binary conversion pulse with the exact flat-FLRW horizon allocation
+The model already contains two possible cosmological projections. [[cosmological-shadows-of-causal-charge]] compares the binary conversion pulse with [[conformal-scale-geometry/horizon-allocation|the exact flat-FLRW horizon allocation]]
 
 $$
 \mathrm dN
-=\mathrm d\widehat\eta_A
-+\frac14\mathrm d\ln\mathcal S_A.
+=\mathrm d\widehat\zeta_A
++\frac14\,\mathrm d\ln S_A.
 $$
 
 The first is a normal Casimir allocation; the second is a geometric scale-cocycle allocation. Their resemblance is a serious clue, not an identification. The theory “snaps into place” only if both descend from the same causal connection and charge balance without reconstructing that structure from the expansion history it is meant to predict.
@@ -137,7 +145,7 @@ The central provisional principle is therefore:
 | Status | Content |
 |---|---|
 | Exact under stated hypotheses | observational quotient; binary mean--variance Casimir; two-channel conversion current and endpoint normalization; compact Casimir decomposition; relative-entropy data processing; product moment-map theorem |
-| Exact in its owning geometric regime | flat-FLRW horizon allocation |
+| Exact in its owning geometric regime | [[conformal-scale-geometry/horizon-allocation|flat-FLRW horizon allocation]] |
 | Conditional established routes | dilation-current capacity ratio; horizon thermodynamic route to Einstein focusing; controlled information-metric/canonical-energy correspondences |
 | Central conjectures | one diagonal causal charge; factive descent with records; BKM--area soldering; common origin of the binary and horizon shadows |
 | Philosophical interpretation | facthood as symmetry reduction; causal individuation; the Being/Nothing/Becoming translation |

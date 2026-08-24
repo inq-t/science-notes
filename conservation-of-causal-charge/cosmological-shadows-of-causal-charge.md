@@ -1,25 +1,25 @@
 # Cosmological Shadows of Causal Charge
 
-The binary wall pulse and the horizon-clock allocation may be two reductions of one causal-charge law. The first describes conversion within a fixed normal Casimir; the second allocates scale displacement between signed horizon rapidity and areal growth. Their formal resemblance is real, but no map presently identifies their variables or derives both from one symmetry object.
+The binary wall pulse and the horizon allocation may be two reductions of one causal-charge law. The first describes conversion within a fixed normal Casimir; the second allocates scale displacement between signed horizon rapidity and areal growth. Their formal resemblance is real, but no map presently identifies their variables or derives both from one symmetry object.
 
 ## Binary conversion shadow
 
-The exact binary identities are
+The exact reduced identities are owned by [[binary-information-geometry/balanced-exponential-family|the balanced binary exponential family]]:
 
 $$
-\eta=\tanh\theta,
+m=\tanh\theta,
 \qquad
-G^{\mathrm{BKM}}_{\theta\theta}
+g^{\mathrm{bin}}_{\theta\theta}
 =\operatorname{sech}^2\theta,
 \qquad
-1=\eta^2+G^{\mathrm{BKM}}_{\theta\theta}.
+1=m^2+g^{\mathrm{bin}}_{\theta\theta}.
 $$
 
 If a fixed extensive capacity \(C_{\mathrm{tot}}\) is allocated by
 
 $$
 C_\pm
-=\frac{C_{\mathrm{tot}}}{2}(1\pm\eta)
+=\frac{C_{\mathrm{tot}}}{2}(1\pm m)
 $$
 
 and \(\theta=\nu(N-N_c)\), [[two-channel-conversion-law]] gives
@@ -57,13 +57,13 @@ This gives a precise conjectural reading of the cosmological pulse: the effectiv
 
 ## Horizon allocation shadow
 
-For the flat expanding FLRW apparent horizon, [[causal-scale-theory/horizon-clock|the horizon-clock identity]] is
+For the flat expanding FLRW apparent horizon, [[conformal-scale-geometry/horizon-allocation|the horizon-allocation identity]] is
 
 $$
 \boxed{
 \mathrm dN
-=\mathrm d\widehat\eta_A
-+\frac14\,\mathrm d\ln\mathcal S_A.
+=\mathrm d\widehat\zeta_A
++\frac14\,\mathrm d\ln S_A.
 }
 $$
 
@@ -77,7 +77,7 @@ $$
 
 As written, this follows from FLRW definitions. The conjecture is that scale, boost, and capacity are line bundles or charge fibers with compatible connections whose homogeneous pullback gives the displayed equation. Such a construction would explain why growing horizon area participates in the history of the causal arena rather than merely redescribing \(H(N)\).
 
-The vertical rapidity \(\widehat\eta_A\), horizontal state coordinate \(\theta\), scale coordinate \(N\), and any record arrow remain distinct. Unit slope does not identify them.
+The signed horizon rapidity \(\widehat\zeta_A\), horizontal state coordinate \(\theta\), scale coordinate \(N\), and any record arrow remain distinct. Unit slope does not identify them.
 
 ## Proposed common origin
 
@@ -85,11 +85,11 @@ The strongest programme is that
 
 $$
 \begin{aligned}
-1&=\eta^2+G^{\mathrm{BKM}}_{\theta\theta},\\
-\mathrm dN&=\mathrm d\widehat\eta_A
-+\frac14\mathrm d\ln\mathcal S_A,\\
+1&=m^2+g^{\mathrm{bin}}_{\theta\theta},\\
+\mathrm dN&=\mathrm d\widehat\zeta_A
++\frac14\,\mathrm d\ln S_A,\\
 Q_\xi[\Sigma_2]-Q_\xi[\Sigma_1]
-+\Phi_\xi[W]&=0
++\mathcal F_\xi[W]&=0
 \end{aligned}
 $$
 

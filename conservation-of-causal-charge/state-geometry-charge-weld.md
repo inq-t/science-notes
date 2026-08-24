@@ -1,114 +1,156 @@
 # The State--Geometry Charge Weld
 
-Causal charge and causal capacity have different mathematical types. The state--geometry conjecture proposes a canonical same-tangent map from horizontal BKM response to gravitational canonical energy, together with a locally additive areal capacity measure. This would make geometry a representation of residual causal susceptibility and would give \(G\) the meaning of geometric compliance rather than an information addend.
+Causal capacity is a positive quadratic response, whereas causal charge is a signed linear moment-map or boundary quantity. This note interprets the canonical state--geometry response weld as a possible second-variation layer of one causal symmetry; it imports the response objects and matching notation from the programme core and does not turn their equality into a conservation law by itself.
 
-## The horizontal state tangent
+## The canonical capacity side
 
-For a scale-indexed family, first construct
-
-$$
-N\longmapsto
-(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}),
-$$
-
-where \(\mathcal T_{N_2N_1}\) supplies a valid comparison between fibers. After removing vertical modular-frame and central-normalization directions, let \(v_N\) be the physical horizontal tangent and define
+[[program-core/descent-response-geometry|Descent-response geometry]] owns the state-side construction. A scale-indexed family first requires a common carrier, cross-fiber transport, a physical horizontal quotient, and a canonically normalized scale tangent
 
 $$
-G^{\perp}_{NN}
+v_N:=D^{\mathrm{hor}}\Phi(\partial_N).
+$$
+
+Its cut-integrated BKM capacity is
+
+$$
+G^\perp_{NN}
 :=g^{\mathrm{BKM}}_{\omega_N}(v_N,v_N).
 $$
 
-This is a squared speed or susceptibility. It is not the modular charge itself, and it is not automatically the entanglement capacity of the same state. [[deriving-value-of-g/causal-scale-derivation-target|The causal-scale derivation target]] records the tangent and normalization obstructions.
+Localization is an additional theorem target: for physical tangents \(v,w\), construct a symmetric bilinear measure \(\mu^{\mathrm{desc}}_{v,w}\) on cut patches such that
 
-## Same-tangent conjecture
+$$
+\mu^{\mathrm{desc}}_{v,w}(\Sigma)
+=g^{\mathrm{BKM}}_\omega(v,w).
+$$
 
-Suppose a soldering map sends the state tangent to a gravitational perturbation,
+If this measure is absolutely continuous with respect to an independently normalized area measure \(\mu_A\), its Radon--Nikodym derivative is the local bilinear areal modulus
+
+$$
+\boldsymbol\chi(v,w;p)
+:=\frac{\mathrm d\mu^{\mathrm{desc}}_{v,w}}
+{\mathrm d\mu_A}(p).
+$$
+
+The physical scale contraction is
+
+$$
+\chi_N(p):=\boldsymbol\chi(v_N,v_N;p).
+$$
+
+These objects are quadratic capacities. They are not modular charges, entropy measures, or outcome counts. A normalized binary metric can supply a profile for one reduced tangent, but it cannot construct the local measure or its extensive normalization.
+
+## The same-tangent response weld
+
+Let
 
 $$
 \mathfrak S_\Sigma:
-T_\omega\mathcal P_\Sigma^{\mathrm{state}}
+H^{\mathrm{state}}_\Sigma
 \longrightarrow
-T_g\mathcal P_\Sigma^{\mathrm{grav}}.
+H^{\mathrm{grav}}_\Sigma
 $$
 
-The first conjectural requirement is a same-tangent isometry
+be a covariant map between the physical state and gravitational tangent sectors. [[program-core/causal-capacity-equivalence|Causal-capacity equivalence]] owns the strongest response-level target:
 
 $$
 \boxed{
-g^{\mathrm{BKM}}_\omega(v,v)
+\mathrm d\mu^{\mathrm{desc}}_{v,w}
 =Z_g\,
-\mathcal E_{\mathrm{can}}^{(1)}
-\bigl(\mathfrak S_\Sigma v,
-\mathfrak S_\Sigma v\bigr),
-}
-$$
-
-where \(\mathcal E_{\mathrm{can}}^{(1)}\) is computed from a unit-normalized gravitational kinetic term and \(Z_g\) remains symbolic. Existing controlled BKM--canonical-energy identities motivate the form. Inserting the measured gravitational normalization before computing the wall side would make the argument circular.
-
-## Areal capacity measure
-
-For measurable patches \(U\subseteq\Sigma\), require the renormalized horizontal norm to define a positive, countably additive measure
-
-$$
-\mu_{\mathrm{BKM}}^\perp(U)
-:=G^{\perp}_{NN,\mathrm{ren}}[U].
-$$
-
-Let \(\mu_A\) be an independently normalized area measure. The strong Einstein-regime conjecture is
-
-$$
-\mu_{\mathrm{BKM}}^\perp\ll\mu_A,
+\mathrm d\mu^{\mathrm{grav,resp}}_{\mathfrak S_\Sigma v,
+\mathfrak S_\Sigma w}}
 \qquad
+\text{for all physical }v,w.
+$$
+
+After integration over a cut, this entails
+
+$$
+g^{\mathrm{BKM}}(v,w)
+=Z_g\,
+\mathcal E^{(1)}_{\mathrm{can}}
+(\mathfrak S_\Sigma v,\mathfrak S_\Sigma w).
+$$
+
+The gravitational form is computed with a unit-normalized kinetic term and \(Z_g\) remains symbolic until a common normalization is derived. Before that normalization is fixed, the proposed map is a homothety, not an isometry. Equal numbers obtained from different tangents, carriers, or prescriptions do not establish the weld.
+
+## Local matching and the Einstein branch
+
+Suppose the gravitational theory independently supplies a positive entropy measure \(\mu^{S,\mathrm{grav}}\) with
+
+$$
+\eta_{\mathrm{grav}}(p)
+:=\frac{\mathrm d\mu^{S,\mathrm{grav}}}
+{\mathrm d\mu_A}(p)>0
+$$
+
+almost everywhere. The core then defines the local Ruble matching field
+
+$$
 \boxed{
-\frac{\mathrm d\mu_{\mathrm{BKM}}^\perp}
-{\mathrm d\mu_A}
-=\chi_*>0
-}
+\mathfrak r_{\Sigma,N}(p)
+:=\frac{\mathrm d\mu^{\mathrm{desc}}_{v_N,v_N}}
+{\mathrm d\mu^{S,\mathrm{grav}}}(p)
+=\frac{\chi_N(p)}{\eta_{\mathrm{grav}}(p)}.}
 $$
 
-with \(\chi_*\) constant throughout a declared universality class of causal cuts. This is stronger than extensive scaling on one cosmological horizon.
-
-The second weld is the independently derived entropy variation
+In a two-derivative Einstein universality class,
 
 $$
-\delta\!\left(\frac{S_{\mathrm{hor}}}{k_B}\right)
-=\chi_*\,\delta A.
+\eta_{\mathrm E}
+=\frac{c^3}{4\hbar G}.
 $$
 
-Together these give
+The strong scale-channel principle is
 
 $$
-\chi_*
-=\frac{c^3}{4G\hbar},
+\boxed{
+\mathfrak r_{\Sigma,N}(p)=1
+\quad\Longleftrightarrow\quad
+\mathrm d\mu^{\mathrm{desc}}_{v_N,v_N}
+=\mathrm d\mu^{S,\mathrm E}}
+$$
+
+almost everywhere throughout a declared class. If the state-side construction independently returns one universal scalar \(\chi_*\), this equality gives
+
+$$
+\chi_*=\eta_{\mathrm E},
 \qquad
 G_{\mathrm{pred}}
 =\frac{c^3}{4\hbar\chi_*}.
 $$
 
-Thus \(G\) is the inverse areal stiffness of causal capacity. The binary channel can fix a dimensionless profile but cannot determine the number of channels per square metre; this is the dimensional obstruction in [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the obstruction audit]].
+The calculation is circular if measured \(G\), Einstein area entropy containing \(G\), or the target cosmological history fixes \(\chi_*\) on the state side.
 
-## Relation to the unit Ruble law
+## Integrated crossing equality is weaker
 
-At a self-dual cut, the same weld would imply
+On a cut with nonzero gravitational entropy, define
 
 $$
-G^{\perp}_{NN}(N_c)
-=\chi_*A_c
-=\frac{S_c}{k_B},
+\mathfrak R_\Sigma(N)
+:=\frac{
+\mu^{\mathrm{desc}}_{v_N,v_N}(\Sigma_N)}
+{\mu^{S,\mathrm{grav}}(\Sigma_N)}.
 $$
 
-and hence
+At the distinguished crossing,
 
 $$
 \mathfrak R_c
-:=\frac{k_B}{S_c}G^{\perp}_{NN}(N_c)
-=1.
+:=\mathfrak R_{\Sigma_c}(N_c)
+=\frac{k_B}{S_c}G^\perp_{NN}(N_c).
 $$
 
-[[deriving-value-of-g/noether-capacity-theorem|The Noether--capacity theorem]] gives one sufficient route under strong conformal-thermal and tangent-alignment hypotheses. The wall theory has not yet derived those hypotheses.
+The weak principle \(\mathfrak R_c=1\) fixes one gravitational-measure-weighted average. It does not imply \(\mathfrak r_{\Sigma,N}(p)=1\) locally, along the full history, or in other gravitational regimes.
 
-## What would refute the weld
+## How a quadratic weld could participate in charge
 
-The conjecture fails or changes universality class if the BKM measure is not local, finite, positive, or regulator independent; if its areal density depends uncontrollably on species or state; if the state and gravitational quadratic forms concern different tangents; if the normalization imports \(G\); or if local, cosmological, wave, lensing, and entropy measurements return inequivalent effective moduli.
+The causal moment map proposed in [[causal-individuation-balance]] is linear in its normalized generator. The BKM form and gravitational canonical energy are quadratic in perturbations. They can belong to one structure only if a common variational construction shows that the quadratic response is a Hessian, second variation, or polarization of the same Hamiltonian or boundary-charge system.
 
-The required source, target, equivariance, nondegeneracy, and preservation tests are instances of [[basic-concepts/soldering/entry|strict soldering discipline]].
+Thus the response weld would not add “capacity” as another term in the charge sum. It would explain how the susceptibility of the state sector and the canonical response of geometry arise from one generator after differentiation. The combined action, first-variation charge, second-variation form, gauge reduction, edge terms, and flux law must all be compatible.
+
+## Failure conditions
+
+The proposal fails or changes universality class if the descent measure is not finite, local, positive on physical diagonals, additive, or regulator controlled; if the compared forms use different tangents or carriers; if the same-tangent map is noncovariant or rank deficient beyond declared gauge directions; if \(\boldsymbol\chi\) is species-, state-, direction-, or curvature-dependent without a controlled law; or if the normalization imports the gravitational coefficient it claims to return.
+
+Such a result can leave a useful response geometry while defeating universal Einstein matching or its causal-charge interpretation. [[program-core/claim-and-failure-contract|The claim-and-failure contract]] governs those return values, and [[basic-concepts/soldering/entry|soldering discipline]] governs the proposed cross-register map.

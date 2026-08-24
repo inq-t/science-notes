@@ -42,7 +42,7 @@ $$
 
 after the declared vertical, central, gauge, and null directions have been removed. This is a local squared speed or susceptibility along one state path. It is dimensionless when \(N\) is dimensionless.
 
-The equality with a BKM form is **[EXACT — UNDER THE ANALYTIC AND COMPARABILITY HYPOTHESES]**. The existence of a finite continuum wall norm and its physical interpretation are open. [[causal-scale-theory/relative-entropy-hessian|The relative-entropy Hessian]] owns the analytic result and its scope.
+The equality with a BKM form is **[EXACT — UNDER THE ANALYTIC AND COMPARABILITY HYPOTHESES]**. The existence of a finite continuum wall norm and its physical interpretation are open. [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|The Hessian module]] owns the analytic result and its scope; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the fixed-Gibbs corollary]] keeps its thermodynamic use separate from an all-history source.
 
 ## Localization is an additional theorem target
 

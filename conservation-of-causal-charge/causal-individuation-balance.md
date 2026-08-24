@@ -8,15 +8,15 @@ Let \(\Sigma\) be an admissible causal cut. Suppose the theory constructs a comb
 
 $$
 \mathcal P_\Sigma
-=\mathcal P_\Sigma^{\mathrm{state}}
+=\mathcal P_\Sigma^{\mathrm{state+matter}}
 \times\mathcal P_\Sigma^{\mathrm{grav}}
-\times\mathcal P_\Sigma^{\mathrm{rec}},
+\times\mathcal P_\Sigma^{\mathrm{record}},
 $$
 
 or the corresponding covariant presymplectic object. Suppose further that one causal boost or dilation symmetry \(G_{\mathrm c}\), with Lie algebra \(\mathfrak g_{\mathrm c}\), acts diagonally and admits a moment map
 
 $$
-\mu_\Sigma:
+\boldsymbol\mu_\Sigma^{\mathrm{causal}}:
 \mathcal P_\Sigma\longrightarrow\mathfrak g_{\mathrm c}^*.
 $$
 
@@ -24,14 +24,14 @@ After canonical embeddings into this common charge space, require
 
 $$
 \boxed{
-\mu_\Sigma
-=\mu_\Sigma^{\mathrm{state}}
-+\mu_\Sigma^{\mathrm{grav}}
-+\mu_\Sigma^{\mathrm{rec}}.
+\boldsymbol\mu_\Sigma^{\mathrm{causal}}
+=\boldsymbol\mu_\Sigma^{\mathrm{state+matter}}
++\boldsymbol\mu_\Sigma^{\mathrm{grav}}
++\boldsymbol\mu_\Sigma^{\mathrm{record}}.
 }
 $$
 
-The plus signs are meaningful only because all three terms represent the same normalized generator. In this minimal partition, the state sector includes bulk matter together with the relevant wall or observer-state degrees of freedom. The note does not assume that these admit independent phase-space factors. A finer split must be constructed compatibly with gravitational constraints and gauge reduction. Equality obtained by independently rescaling the sectors would not establish one charge.
+The plus signs are meaningful only because all three terms represent the same normalized generator. In this minimal partition, the state-plus-matter sector includes bulk matter together with the relevant wall or observer-state degrees of freedom. The note does not assume that these admit independent phase-space factors. A finer split must be constructed compatibly with gravitational constraints and gauge reduction. Equality obtained by independently rescaling the sectors would not establish one charge.
 
 ## Balance law
 
@@ -39,7 +39,9 @@ For a causal slab \(W:\Sigma_1\to\Sigma_2\) and \(\xi\in\mathfrak g_{\mathrm c}\
 
 $$
 Q_\xi[\Sigma]
-:=\langle\mu_\Sigma,\xi\rangle.
+:=\left\langle
+\boldsymbol\mu_\Sigma^{\mathrm{causal}},\xi
+\right\rangle.
 $$
 
 The conjectured law is
@@ -47,11 +49,11 @@ The conjectured law is
 $$
 \boxed{
 Q_\xi[\Sigma_2]-Q_\xi[\Sigma_1]
-+\Phi_\xi[W]=0,
++\mathcal F_\xi[W]=0,
 }
 $$
 
-where \(\Phi_\xi[W]\) includes physical flux through the remaining boundary. Each \(\mu^i\) counts the charge assigned to sector \(i\) on a cut. Charge deposited in a stable record is therefore counted by the change of \(\mu^{\mathrm{rec}}\); it belongs in \(\Phi_\xi\) only when that record lies outside the chosen subsystem. Matter contained on a cut belongs to \(\mu^{\mathrm{state}}\); matter crossing out of the chosen subsystem belongs to the flux. For a closed enlarged system,
+where \(\mathcal F_\xi[W]\) includes physical flux through the remaining boundary. Each sectoral moment map counts the charge assigned to that sector on a cut. Charge deposited in a stable record is therefore counted by the change of \(\boldsymbol\mu^{\mathrm{record}}\); it belongs in \(\mathcal F_\xi\) only when that record lies outside the chosen subsystem. Matter contained on a cut belongs to \(\boldsymbol\mu^{\mathrm{state+matter}}\); matter crossing out of the chosen subsystem belongs to the flux. For a closed enlarged system,
 
 $$
 \frac{\mathrm d}{\mathrm dN}Q_\xi^{\mathrm{total}}=0

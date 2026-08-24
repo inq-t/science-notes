@@ -1,138 +1,74 @@
-# Present Flatness and the Crossing Branches
+# Present Flatness and Crossing Branches
 
-Present flatness converts the generalized response into an implicit equation for its crossing date. The equation may have several roots and may place the crossing in the past or future, so the crossing is branch data. The value $\nu=2$ classifies the radiation-tail asymptotics but is not a universal root-existence bound.
+Present flatness turns the generalized CST response into a branch-valued equation for the crossing date. Here \(\mathfrak R_c\) is the integrated crossing ratio defined by [[program-core/ruble-equations|the programme core]], \(\nu>0\) is the constant width in logarithmic scale, and every root labels a distinct conditional background rather than another crossing within one history.
 
-Assume the zero-residual flat background with present matter and radiation abundances $\Omega_{m0},\Omega_{r0}$. Define
+Use
 
 $$
 N:=\ln\frac a{a_0},
 \qquad
-x:=N-N_c,
-\qquad
 x_c:=-N_c=\ln(1+z_c),
 $$
 
-where $x_c>0$ is a past crossing, $x_c=0$ a present crossing, and $x_c<0$ a future crossing.
-
-Also define
+so \(x_c>0\), \(x_c=0\), and \(x_c<0\) denote past, present, and future crossings. For declared present abundances, set
 
 $$
-D:=1-\Omega_{m0}-\Omega_{r0},
+D:=1-\Omega_{m0}-\Omega_{r0}>0,
+$$
+
+$$
+F_\nu(x)
+:=\left(\Omega_{m0}e^{3x}+\Omega_{r0}e^{4x}\right)
+\operatorname{sech}^2(\nu x),
 \qquad
-M(x):=\Omega_{m0}e^{3x}+\Omega_{r0}e^{4x}.
+T_{\mathfrak R}
+:=D\frac{2-\mathfrak R_c}{\mathfrak R_c}.
 $$
 
-At the crossing, flatness and [[response-law|the peak fraction]] give
+Under spatially flat \(3+1\)-dimensional GR--FLRW, matter, radiation, the rigid response, and no residual sector, [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]] proves the **[CONDITIONAL THEOREM]**
 
 $$
-\left(1-\frac{\mathfrak R_c}{2}\right)
-\frac{\rho_{\mathrm{crit},c}}{\rho_{\mathrm{crit},0}}
-=M(x_c).
+\boxed{F_\nu(x_c)=T_{\mathfrak R}},
+\qquad
+0<\mathfrak R_c<2.
 $$
 
-At the present epoch,
+The theorem owns the elimination and its failure boundary. Curvature, interactions, a residual vacuum, an additional crossing component, or a different source-to-horizon conversion changes the equation.
 
-$$
-D
-=\frac{\mathfrak R_c}{2}
-\frac{\rho_{\mathrm{crit},c}}{\rho_{\mathrm{crit},0}}
-\operatorname{sech}^2(\nu x_c).
-$$
+Root choice is therefore model data. If a past late-time crossing is imposed, the conventional branch is the smallest positive root unless a different prior or selection principle is declared. A likelihood must say whether it selects that branch, profiles over all roots, or assigns branch weights.
 
-Eliminating the crossing critical density yields
+## Unit-width sign rule
+
+For \(\nu=1\), [[causal-scale-theory/theorems/unit-width-crossing-sign|the unit-width theorem]] proves global uniqueness and
 
 $$
 \boxed{
-\frac{\mathfrak R_c}{2-\mathfrak R_c}
-M(x_c)\operatorname{sech}^2(\nu x_c)=D.}
+\begin{aligned}
+\mathfrak R_c<2D&\Longleftrightarrow x_c>0,\\
+\mathfrak R_c=2D&\Longleftrightarrow x_c=0,\\
+\mathfrak R_c>2D&\Longleftrightarrow x_c<0.
+\end{aligned}}
 $$
 
-Equivalently, set
-
-$$
-F_\nu(x):=M(x)\operatorname{sech}^2(\nu x),
-\qquad
-T_{\mathfrak R}:=D\frac{2-\mathfrak R_c}{\mathfrak R_c}.
-$$
-
-The allowed dates are real roots of
-
-$$
-F_\nu(x_c)=T_{\mathfrak R}.
-$$
-
-Each root defines a parameter-compatible background history. It is not another crossing inside one selected history. If a past crossing is imposed, the canonical late branch is the smallest positive root unless a deeper selection rule is supplied. Requiring $x_c>0$ is a branch prior, not part of the flatness equation.
-
-## Past and future crossings
-
-At $x_c=0$,
-
-$$
-M(0)=\Omega_{m0}+\Omega_{r0}=1-D.
-$$
-
-The closure equation is then solved exactly by
-
-$$
-\boxed{
-\mathfrak R_c=2D.}
-$$
-
-On the unit-width root branch continuous through the unit point,
-
-$$
-x_c>0
-\quad\Longleftrightarrow\quad
-\mathfrak R_c<2D,
-$$
-
-while $\mathfrak R_c>2D$ places that branch's crossing in the future. For the inherited abundances,
+For the inherited abundances,
 
 $$
 2D=1.378621.
 $$
 
-This sign rule belongs to that continuous branch; in multiroot regimes every root and its sign must be reported. [[receipts/background.json|The local receipt]] checks representative past- and future-crossing amplitudes.
+This is a theorem about the unit-width branch, not a general sign rule and not evidence that \(\mathfrak R_c\) is a universal constant. [[causal-scale-theory/receipts/background.json|The background receipt]] checks representative amplitudes on both sides of the threshold.
 
-## The tail threshold
+## Non-unit widths and folds
 
-If $\Omega_{r0}>0$, then
-
-$$
-F_\nu(x)
-\sim4\Omega_{r0}e^{(4-2\nu)x}
-\qquad(x\to+\infty).
-$$
-
-Hence
-
-$$
-\begin{array}{c|c}
-0<\nu<2 & F_\nu(x)\to+\infty,\\
-\nu=2 & F_\nu(x)\to4\Omega_{r0},\\
-\nu>2 & F_\nu(x)\to0.
-\end{array}
-$$
-
-This does not decide whether the finite graph crosses $T_{\mathfrak R}$. Root number depends on
+For \(\nu\ne1\), root number and sign depend jointly on
 
 $$
 (\nu,\mathfrak R_c,\Omega_{m0},\Omega_{r0})
 $$
 
-and on the admitted domain for $x_c$. In the absence of radiation, the analogous tail threshold is $\nu=3/2$.
+and on the admitted domain for \(x_c\). [[causal-scale-theory/theorems/flatness-tail-and-fold|The tail-and-fold theorem]] proves the relevant asymptotic and double-root criteria. With radiation present, the far-tail classes change at \(\nu=2\); without radiation, the analogous dust threshold is \(\nu=3/2\). Neither threshold is an amplitude-independent root-existence bound.
 
-## Fold condition
-
-A double root satisfies the closure equation and
-
-$$
-\frac{3\Omega_{m0}e^{3x}+4\Omega_{r0}e^{4x}}
-{\Omega_{m0}e^{3x}+\Omega_{r0}e^{4x}}
--2\nu\tanh(\nu x)=0.
-$$
-
-For the inherited benchmark
+For
 
 $$
 \Omega_{m0}=0.310598,
@@ -142,13 +78,15 @@ $$
 \mathfrak R_c=1,
 $$
 
-the reviewed atlas is:
+the inherited numerical continuation reports:
 
-- $0<\nu<1.558402308$: one positive late root;
-- $\nu\simeq1.558402308$: one simple late root and a high-$x$ double root at $x\simeq6.10687$;
-- $1.558402308<\nu<1.814657$: three positive roots;
-- $\nu\simeq1.814657$: a late double root near $x\simeq0.64905$ plus one high-$x$ root;
-- $1.814657<\nu<2$: one high-radiation root;
-- $\nu\ge2$: no positive root for these benchmark inputs.
+| Width | Positive-root structure |
+|---|---|
+| \(0<\nu<1.558402308\) | one late root |
+| \(\nu\simeq1.558402308\) | one simple late root and a high-\(x\) double root at \(x\simeq6.10687\) |
+| \(1.558402308<\nu<1.814657\) | three roots |
+| \(\nu\simeq1.814657\) | a late double root near \(x\simeq0.64905\) and one high-\(x\) root |
+| \(1.814657<\nu<2\) | one high-radiation root |
+| \(\nu\geq2\) | no positive root for these benchmark inputs |
 
-The final statement is benchmark-specific. [[receipts/background.json|The local receipt]] finds positive roots at $\nu=2$ and $\nu=2.2$ when the same abundances are paired with $\mathfrak R_c=1.9$.
+The fold anchors and selected sample widths are independently recomputed by [[causal-scale-theory/receipts/background.json|the local receipt]], but the preserved continuation does not certify that no additional folds occur anywhere inside every displayed interval. The table is therefore a reviewed numerical atlas, not an exhaustive theorem. Its last row is also benchmark-specific: the same abundances with \(\mathfrak R_c=1.9\) have positive roots at \(\nu=2\) and \(\nu=2.2\).

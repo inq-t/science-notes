@@ -25,7 +25,7 @@ Every declared observable factors through \(X/{\sim_{\mathcal O}}\). This is the
 
 A groupoid or stack may be prior to the orbit set because stabilizers, comparison arrows, and gluing data can be physical. [[program-core/physical-quotient|The physical quotient]] states what must be retained and defines the horizontal tangent construction after observationally null, vertical, central-normalization, and gauge directions have been removed.
 
-The quotient does not yet supply dynamics, probability, an outcome, or a conservation law. It says which presented differences do not count as physical differences in the declared register.
+The quotient does not yet supply dynamics, probability, an outcome, or a conservation law. It says which presented differences do not count as physical differences in the declared register. On the geometric side, [[conformal-scale-geometry/entry|conformal scale geometry]] owns the standard distinction between causal order, conformal structure, and metric calibration.
 
 ## The quotient acquires a response geometry
 
@@ -97,13 +97,13 @@ is a genuine cross-register prediction. Dimensionless binary geometry cannot by 
 
 ## Symmetry has several mathematical outputs
 
-For any state and normalized self-adjoint involution \(Q^2=\mathbf1\), the exact Casimir identity
+For any state and normalized self-adjoint involution \(Q^2=\mathbf1\), [[binary-information-geometry/involutive-casimir|the exact Casimir identity]]
 
 $$
 1=\langle Q\rangle^2+\operatorname{Var}(Q)
 $$
 
-is a Casimir allocation between resolved polarization and residual susceptibility. It is not a Noether charge, an entropy balance, or a statement that discarded information becomes spacetime. A genuine conserved charge must be linear in a continuous generator and live in a common charge fiber with a moment map and boundary-flux law. [[program-core/symmetry-conservation-and-action|Symmetry, conservation, and action]] keeps Casimir, capacity, charge, and action separate while stating the variational structure that could eventually connect them.
+is a Casimir allocation between resolved polarization and residual susceptibility. [[binary-information-geometry/entry|The shared binary-information module]] owns the balanced exponential family, Fisher line, reflected divergences, and Witten--Darboux factorization. None is a Noether charge, entropy balance, or statement that discarded information becomes spacetime. A genuine conserved charge must be linear in a continuous generator and live in a common charge fiber with a moment map and boundary-flux law. [[program-core/symmetry-conservation-and-action|Symmetry, conservation, and action]] keeps Casimir, capacity, charge, and action separate while stating the variational structure that could eventually connect them.
 
 ## The programme has declared premises, not one undifferentiated theory
 
@@ -111,4 +111,4 @@ is a Casimir allocation between resolved polarization and residual susceptibilit
 
 [[program-core/ruble-equations|The Ruble equations]] then assemble the corrected keystone system. They begin with causal scale and horizontal state response, define the descent modulus and matching law, specialize to a balanced binary channel, and only afterward derive the generalized homogeneous response. The unit branch \((\nu,\mathfrak R_c)=(1,1)\) is a selected specialization, not a normalization convention and not the whole programme.
 
-Finally, [[program-core/claim-and-failure-contract|the claim and failure contract]] fixes the anti-circularity tests, the several meanings of the numeral one, and the interpretations of nonunit, nonlocal, nonuniversal, or non-Einstein return values. Failure of a late bridge does not erase the earlier mathematics; successful background arithmetic does not prove the bridge.
+[[program-core/explanatory-economy|Explanatory economy]] distinguishes a rigid parametrization from a grounding explanation and prevents freedom from moving invisibly into representation choices or branch conditions. Finally, [[program-core/claim-and-failure-contract|the claim and failure contract]] fixes the anti-circularity tests, the several meanings of the numeral one, and the interpretations of nonunit, nonlocal, nonuniversal, or non-Einstein return values. Failure of a late bridge does not erase the earlier mathematics; successful background arithmetic does not prove the bridge.

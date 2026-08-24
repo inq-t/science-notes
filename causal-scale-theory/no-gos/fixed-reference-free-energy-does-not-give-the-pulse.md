@@ -1,42 +1,33 @@
-# Fixed-Reference Free Energy Does Not Derive the Pulse
+# Fixed-Reference Relative Entropy Cannot Be the Full Source
 
-The local BKM Hessian cannot be substituted for a finite fixed-reference free-energy difference along the whole binary path. The exclusion is exact for the declared balanced family and blocks one derivation of the CST source; it does not block the source from being proposed constitutively.
+A finite relative entropy from one fixed reference and the coincidence BKM Hessian along a state path are different functions. For the balanced binary family this distinction is exact, so a fixed-reference free-energy identity cannot derive the all-history CST pulse by replacing its finite difference with the instantaneous quadratic capacity.
 
-For the balanced binary state $\rho_\theta$ and reference $\rho_0$,
-
-$$
-S(\rho_\theta\Vert\rho_0)
-=\theta\tanh\theta-\ln\cosh\theta.
-$$
-
-Its derivative is
+[[basic-concepts/hessians/gibbs-free-energy-relative-entropy|The Gibbs free-energy theorem]] owns the general fixed-data identity and its coincidence boundary. For the present reduced family, [[binary-information-geometry/reflected-divergence|the exact binary divergence]] gives
 
 $$
+D(\rho_\theta\Vert\rho_0)
+=\theta\tanh\theta-\ln\cosh\theta,
+\qquad
 \frac{\mathrm d}{\mathrm d\theta}
-S(\rho_\theta\Vert\rho_0)
-=\theta\operatorname{sech}^2\theta,
+D(\rho_\theta\Vert\rho_0)
+=\theta\operatorname{sech}^2\theta.
 $$
 
-which is nonzero for $\theta\ne0$.
-
-By contrast, neighboring-state relative entropy has the coincidence expansion
+The derivative is nonzero away from \(\theta=0\). By contrast, neighboring-state relative entropy begins quadratically with local coefficient
 
 $$
-S(\rho_{\theta+\delta\theta}\Vert\rho_\theta)
-=\frac12\operatorname{sech}^2\theta
-(\delta\theta)^2+O((\delta\theta)^3).
+g^{\mathrm{bin}}_{\theta\theta}
+=\operatorname{sech}^2\theta.
 $$
 
-These expressions answer different questions. The first compares every state with one fixed reference; the second compares infinitesimally neighboring states. Replacing the first by the second discards its linear variation.
-
-The no-go conclusion is
+Consequently,
 
 $$
 \boxed{
 \text{fixed-reference free-energy identity}
 \not\vdash
-\rho_X\propto G^{\mathrm{BKM}}_{NN}
-\text{ for all }N.}
+\rho_X(N)\propto G^{\perp}_{NN}(N)
+\text{ for an entire history}.}
 $$
 
-[[causal-scale-theory/free-energy-source|The anchored source law]] therefore remains explicitly constitutive.
+The anchored source in [[program-core/ruble-equations|the Ruble equations]] therefore remains **[CONSTITUTIVE]**. The no-go does not refute that law; it excludes one attempted derivation of it.

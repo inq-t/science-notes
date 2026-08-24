@@ -1,24 +1,21 @@
 # Conjecture: Local Quotient and Global Vacuum Dynamics Form One Completion
 
-The local trace-free quotient and a global scalar or flux equation may be complementary parts of one gravitational theory: the first removes common metric-proportional shifts from local transport, while the second selects and stabilizes the residual sector. Neither operation can substitute for the other.
+Local blindness to metric-proportional or central shifts and global selection of a residual vacuum sector are different operations. CST conjectures that they are complementary equations of one covariant completion: a local noncentral response governs transport, while an independent scalar, flux, or boundary equation fixes and stabilizes the residual sector.
 
-The proposed typing is
+The typed proposal is
 
 $$
 \text{local noncentral response}
-\oplus
-\text{global scalar calibration}.
+\;\oplus\;
+\text{global scalar selection}.
 $$
 
-Possible global realizations include top-form fluxes, unimodular integration data, sequestering-like constraints, or another boundary law. CST does not select among them merely by observing that normalized states and trace-free tensors are centrally blind.
+[[causal-scale-theory/vacuum-residual-sector|The residual-sector analysis]] owns the exact local kernels and the conclusion that they do not determine \(\rho_{\mathrm{res}}\). This conjecture begins only at the missing global law. Top-form fluxes, unimodular integration data, sequestering-like constraints, and boundary conditions are candidate realizations; neither normalized-state central blindness nor trace-free transport selects among them.
 
 ## Upgrade criterion
 
-Write a combined covariant dynamics, show how the scalar datum is fixed, include matter and graviton-loop corrections, establish radiative stability in its stated effective regime, and preserve the localized CST response and imported local QFT sector.
+Write one covariant system containing both sectors; derive how the global datum is fixed; include matter and graviton-loop counterterms; establish radiative stability in the stated effective regime; and show that the global equation preserves local conservation, the localized wall response, and the imported low-energy GR--QFT fibers.
 
 ## Failure criterion
 
-The conjecture fails if the residual remains arbitrary or radiatively unstable, if the global constraint removes physical noncentral response, or if it violates local conservation, causality, or the established low-energy sector.
-
-[[causal-scale-theory/vacuum-residual-sector|The residual-sector note]] owns what is presently exact and what is merely selected. This conjecture begins where that note stops.
-
+The conjecture fails for a proposed completion if the residual remains arbitrary or radiatively unstable, if the global constraint removes physical noncentral response, or if it violates locality, causality, conservation, or the established low-energy sector. Failure leaves the local quotient intact but returns the zero-residual branch to the status of an unsupported sector choice.

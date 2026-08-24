@@ -1,77 +1,77 @@
-# Entropy-Normalized Scale Capacity
+# Homogeneous Scale Capacity
 
-The scale-capacity ratio is the dimensionless, coordinate-invariant peak norm of the horizontal scale tangent. It separates a normalized binary susceptibility from the extensive number and renormalization of physical wall channels. Its unit value is a distinct proposed law.
+The CST capacity parameter is the crossing value of a cut-integrated state-to-gravitational response ratio. It is coordinate invariant once the physical horizontal tangent is fixed, but it is neither the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone.
 
-Let $G^\perp_{NN}(N)$ be the renormalized squared BKM norm of the reflection-odd horizontal tangent, and let $S_c$ be the declared horizon or wall entropy at the crossing. Define
+[[program-core/descent-response-geometry|The programme core]] distinguishes the local areal descent modulus \(\chi_N(p)\), the local matching field \(\mathfrak r_{\Sigma,N}(p)\), and the integrated cut ratio
+
+$$
+\mathfrak R_\Sigma(N)
+=\frac{\mu^{\mathrm{desc}}_{v_N,v_N}(\Sigma_N)}
+{\mu^{S,\mathrm{grav}}(\Sigma_N)}.
+$$
+
+CST specializes this hierarchy at its distinguished homogeneous crossing:
 
 $$
 \boxed{
-\mathfrak R_c
-:=\frac{k_B}{S_c}G^\perp_{NN}(N_c).}
+\mathfrak R_c:=\mathfrak R_{\Sigma_c}(N_c)
+=\frac{k_B}{S_c}G^\perp_{NN}(N_c),}
+\qquad
+\frac{S_c}{k_B}
+:=\mu^{S,\mathrm{grav}}(\Sigma_c).
 $$
 
-Both numerator and $S_c/k_B$ are dimensionless, so $\mathfrak R_c$ is dimensionless.
+The entropy measure in the denominator must be normalized independently of the state response. Otherwise unity would be installed by definition rather than returned as a physical comparison.
 
-Under a reparameterization $\widetilde\theta=f(\theta)$,
+## Binary shape and extensive norm
 
-$$
-G^\perp_{NN}
-=G^\perp_{\theta\theta}\left(\frac{\mathrm d\theta}{\mathrm dN}\right)^2
-=G^\perp_{\widetilde\theta\widetilde\theta}
-\left(\frac{\mathrm d\widetilde\theta}{\mathrm dN}\right)^2,
-$$
-
-so $\mathfrak R_c$ is invariant even though the coordinate components and slope separately change.
-
-## Normalized shape versus extensive norm
-
-The binary algebra fixes
+After [[wall-construction-interface/binary-channel|a balanced binary reduction]] and [[basic-concepts/soldering/affine-scale-state|affine soldering]] are granted,
 
 $$
-g_{\theta\theta}^{\mathrm{bin}}
-=\operatorname{sech}^2\theta.
+g^{\mathrm{bin}}_{\theta\theta}
+=\operatorname{sech}^2\theta,
+\qquad
+\theta=\varrho_\perp x,
+\qquad
+\nu=|\varrho_\perp|.
 $$
 
-A physical wall can carry an extensive prefactor $C_\perp(N)$:
+The physical full-cut norm may carry an extensive factor:
 
 $$
 G^\perp_{NN}(N)
-=C_\perp(N)\nu^2\operatorname{sech}^2(\nu x).
-$$
-
-The rigid CST profile assumes
-
-$$
-C_\perp(N)=C_{\perp,c}
-$$
-
-over the homogeneous path. With that explicit assumption,
-
-$$
-G^\perp_{NN}(N)
-=\frac{S_c}{k_B}\mathfrak R_c
+=C_\perp(N)\nu^2
 \operatorname{sech}^2(\nu x).
 $$
 
-A microscopic wall may instead return a scale-dependent channel density. That would be a physical correction to the pulse, not a violation of the normalized binary identity.
-
-## Cosmological meaning is downstream
-
-Information geometry alone imposes no interval $0<\mathfrak R_c<2$. After [[causal-scale-theory/free-energy-source|the source law]] and [[causal-scale-theory/hawking-friedmann|the horizon conversion]] are adopted in $3+1$ dimensions,
+The rigid CST branch adds the assumption \(C_\perp(N)=C_{\perp,c}\). The crossing definition then gives
 
 $$
-\Omega_{X,c}=\frac{\mathfrak R_c}{2}.
-$$
-
-If the background is spatially flat and the total complementary density is positive, then
-
-$$
-\frac{\rho_{X,c}}{\rho_{\mathrm{non-}X,c}}
-=\frac{\mathfrak R_c}{2-\mathfrak R_c},
+C_{\perp,c}
+=\frac{S_c}{k_B}\frac{\mathfrak R_c}{\nu^2},
 \qquad
-0<\mathfrak R_c<2.
+\boxed{
+G^\perp_{NN}(N)
+=\frac{S_c}{k_B}\mathfrak R_c
+\operatorname{sech}^2(\nu x).}
 $$
 
-Identifying the non-$X$ complement specifically with ordinary matter plus radiation additionally requires the zero-residual sector and no other crossing component. At $\mathfrak R_c=1$, response equals the total non-$X$ complement in the flat background, and equals ordinary matter plus radiation under those further premises. That equality is not the same statement as binary self-duality; it coincides with self-duality only on the unit-amplitude cosmological branch.
+Thus the normalized curve fixes shape, while \(\mathfrak R_c\) carries the integrated normalization. A microscopic calculation that returns a scale-dependent \(C_\perp\) would change the physical pulse without contradicting the binary Casimir identity.
 
-The proposed unit value and its falsification conditions are isolated in [[unit-amplitude-principle]].
+## Coordinate invariance and physical content
+
+For any regular reparameterization \(\widetilde\theta=f(\theta)\),
+
+$$
+G^\perp_{NN}
+=G^\perp_{\theta\theta}
+\left(\frac{\mathrm d\theta}{\mathrm dN}\right)^2
+=G^\perp_{\widetilde\theta\widetilde\theta}
+\left(\frac{\mathrm d\widetilde\theta}{\mathrm dN}\right)^2.
+$$
+
+Accordingly, \(\mathfrak R_c\) does not depend on the chosen state coordinate. The separate numerical meaning of \(\nu\) requires the canonical generator normalization \(Q^2=\mathbf1\); an arbitrary rescaling of \(Q\) would otherwise move width between the coordinate and the metric.
+
+The weak unit principle proposes \(\mathfrak R_c=1\). It says that two independently normalized *integrated* quantities match at one cut. It does not assert the strong local law \(\mathfrak r_{\Sigma,N}(p)=1\), prove a universal area modulus, or derive Newton's constant. Those stronger possibilities belong to [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] and [[deriving-value-of-g/entry|the gravitational-value programme]].
+
+Only after the constitutive source, horizontal temperature, and Einstein-horizon conversion are added does \(\mathfrak R_c\) determine a cosmological density fraction. [[theorems/dimensional-crossing-partition|The dimensional crossing theorem]] owns that downstream result.

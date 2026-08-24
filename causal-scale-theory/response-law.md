@@ -1,6 +1,6 @@
-# The Generalized Response Law
+# The Homogeneous CST Response
 
-Given the CST constitutive closure and separate homogeneous conservation, the response density is a two-parameter $\operatorname{sech}^2$ pulse whose equation of state follows a Riccati flow and obeys an amplitude-independent differential invariant. These are conditional background deductions, not properties of binary information geometry alone.
+After the wall reduction, affine soldering, fixed extensivity, integrated crossing normalization, constitutive source, horizontal-temperature identification, and Einstein-horizon conversion are all granted, CST returns one two-parameter homogeneous density. This note owns that interface formula and delegates its mathematical consequences to theorem notes.
 
 Set
 
@@ -12,121 +12,27 @@ x:=N-N_c,
 \mathfrak R_c>0.
 $$
 
-The closed response density is
+The conditional response is
 
 $$
 \boxed{
-\rho_X(x)
-=\frac{\mathfrak R_c}{2}\rho_{\mathrm{crit},c}
+\rho_X(N)
+=\frac{\mathfrak R_c}{2}
+\rho_{\mathrm{crit},c}
 \operatorname{sech}^2(\nu x).}
 $$
 
-The profile uses [[causal-scale-theory/scale-soldering|affine soldering]], [[causal-scale-theory/scale-capacity|the peak ratio]], the fixed extensive normalization, [[causal-scale-theory/free-energy-source|the constitutive source]], and [[causal-scale-theory/hawking-friedmann|the horizon conversion]].
+Its provenance is explicit in [[realization-map|the realization map]]. In particular:
 
-## Separate conservation
+- \(\nu\) is the magnitude of the affine scale--state slope in the canonically normalized binary coordinate;
+- \(\mathfrak R_c\) is the cut-integrated crossing ratio from [[scale-capacity|homogeneous capacity]];
+- the factor \(1/2\) comes from [[free-energy-source|the constitutive source]];
+- the conversion to \(\rho_{\mathrm{crit},c}\) uses [[horizontal-temperature|an open temperature identification]] followed by [[conformal-scale-geometry/hawking-friedmann-identity|an exact horizon identity]].
 
-Assume
+No part of this formula constructs the wall, proves either weak unit principle, or supplies a covariant stress tensor.
 
-$$
-\frac{\mathrm d\rho_X}{\mathrm dN}
-+3(1+w_X)\rho_X=0.
-$$
+If the response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-response theorem]] gives its equation of state, Riccati flow, and differential invariants. [[theorems/trace-free-silence|The trace-free theorem]] gives the crossing identity. [[theorems/dimensional-crossing-partition|The dimensional theorem]] gives the crossing fraction after the relevant background assumptions are added.
 
-Since $\mathrm d/\mathrm dN=\mathrm d/\mathrm dx$,
+The positive pulse has its unique maximum at \(N_c\). Present flatness need not select a unique value of \(N_c\) for general width; that is a separate root problem handled by [[flatness-branches|the branch analysis]].
 
-$$
-\boxed{
-w_X(x)
-=-1+\frac{2\nu}{3}\tanh(\nu x).}
-$$
-
-Writing $X:=1+w_X$ gives
-
-$$
-X'
-=\frac{2\nu^2}{3}-\frac32X^2.
-$$
-
-The solution is a translated heteroclinic orbit between $X=\pm2\nu/3$. It is not a saddle-node flow.
-
-## Differential invariant
-
-Differentiation eliminates the crossing date and amplitude:
-
-$$
-\boxed{
-9(1+w_X)^2+6w_X'=4\nu^2.}
-$$
-
-For a local CPL tangent $w(a)=w_0+w_a(1-a)$,
-
-$$
-w_a=-w'_0
-=\frac32(1+w_0)^2-\frac{2\nu^2}{3}.
-$$
-
-Both relations apply to the separately identified $X$ sector. A posterior for a total effective equation of state, or for a differently normalized CPL model, is not automatically a measurement of them.
-
-## Equivalent density identities
-
-Let
-
-$$
-y:=\frac{\rho_X}{\rho_{X,c}}
-=\operatorname{sech}^2(\nu x).
-$$
-
-The same binary normalization can be written without $w_X$ as
-
-$$
-\boxed{
-y+\frac1{4\nu^2}
-\left(\frac{\mathrm d\ln y}{\mathrm dN}\right)^2
-=1,}
-$$
-
-or as the logarithmic-curvature equation
-
-$$
-\boxed{
-\frac{\mathrm d^2\ln y}{\mathrm dN^2}
-+2\nu^2y=0.}
-$$
-
-With $\Delta:=-\mathrm d\ln y/\mathrm dN=3(1+w_X)$, one obtains the Riccati form
-
-$$
-\Delta'
-=2\nu^2-\frac12\Delta^2.
-$$
-
-These equations are equivalent only for the rigid constant-extensivity pulse. A scale-dependent channel factor would preserve the normalized binary identity while changing all three physical density relations.
-
-## The crossing
-
-At $x=0$,
-
-$$
-\Omega_{X,c}=\frac{\mathfrak R_c}{2}.
-$$
-
-If the crossing background is spatially flat, the total non-$X$ complement has fraction $1-\mathfrak R_c/2$. Positivity gives
-
-$$
-0<\mathfrak R_c<2,
-$$
-
-and
-
-$$
-\frac{\rho_{X,c}}{\rho_{\mathrm{non-}X,c}}
-=\frac{\mathfrak R_c}{2-\mathfrak R_c}.
-$$
-
-Identifying that complement with matter plus radiation also requires zero residual and no additional crossing component. Equality occurs at $\mathfrak R_c=1$ under those premises.
-
-The positive pulse has a maximum at $x=0$, and conservation gives $w_X(0)=-1$. For an arbitrary positive separately conserved component, $\rho'_X=0$ implies only a stationary point and $w_X=-1$; maximality here comes from the explicit pulse.
-
-## Scope
-
-This law fixes no covariant stress tensor, sound speed, anisotropic stress, or initial perturbation. It is the response node consumed by [[flatness-branches]], [[future-asymptotics]], and [[observables]].
+The formula fixes no sound speed, anisotropic stress, exchange current, initial perturbation, or stability criterion. Until [[conjectures/covariant-response-sector|a covariant response sector]] is constructed, it is a background density law and nothing stronger.

@@ -9,13 +9,13 @@ This is a promising research programme, not a closed derivation of dark energy. 
 
 ## Construction
 
-1. [[causal-scale-theory/causal-order|Causal order]] determines conformal geometry but leaves a positive scale section unspecified.
-2. [[causal-scale-theory/modular-flow|Vertical modular flow]] is separated from horizontal motion through a scale-indexed family of states.
-3. [[causal-scale-theory/binary-geometry|Normal chirality]] is proposed as the reduced homogeneous horizontal degree of freedom.
-4. [[causal-scale-theory/scale-soldering|Cocycle soldering]] gives a logarithmic state coordinate, conditional on ratio dependence, rank-one generation, and regularity.
-5. [[causal-scale-theory/unit-amplitude-principle|The unit-amplitude principle]] and [[causal-scale-theory/free-energy-source|the modular source law]] are additional physical inputs; [[causal-scale-theory/hawking-friedmann|the horizon conversion]] supplies units.
+1. [[conformal-scale-geometry/causal-order-and-metric-scale|Causal order]] determines conformal geometry but leaves a positive scale section unspecified.
+2. [[wall-construction-interface/vertical-and-horizontal-motion|Vertical modular flow]] is separated from horizontal motion through a scale-indexed family of states.
+3. [[binary-information-geometry/entry|Normal chirality]] is proposed as the reduced homogeneous horizontal degree of freedom.
+4. [[basic-concepts/soldering/affine-scale-state|Cocycle soldering]] gives a logarithmic state coordinate, conditional on ratio dependence, rank-one generation, and regularity.
+5. [[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak unit matching]] and [[causal-scale-theory/free-energy-source|the modular source law]] are additional physical inputs; [[conformal-scale-geometry/hawking-friedmann-identity|the horizon conversion]] supplies units.
 6. The [[causal-scale-theory/unit-branch|conditional homogeneous response]] then follows on the unit branch.
-7. [[causal-scale-theory/witten-pair|The binary Witten pair]] is exact internal geometry, while its physical perturbation lift is still missing.
+7. [[binary-information-geometry/witten-darboux|The binary Witten pair]] is exact internal geometry, while its physical perturbation lift is still missing.
 
 ## Central conditional result
 
@@ -29,7 +29,7 @@ N_c:=\ln\frac{a_c}{a_0},
 x:=N-N_c.
 $$
 
-If the active horizontal quotient is a balanced binary, the scale--state map has unit slope, the entropy-normalized peak BKM speed is one, and the proposed source and horizon-conversion laws hold, then
+If the active horizontal quotient is a balanced binary, the scale--state map has unit slope, the cut-integrated crossing ratio is one, and the proposed source and horizon-conversion laws hold, then
 
 $$
 \rho_X(N)

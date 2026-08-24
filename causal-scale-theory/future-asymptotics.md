@@ -1,14 +1,14 @@
 # Expansion History and Future Classes
 
-Once a positive flatness root is selected, the generalized response fixes the homogeneous expansion history. Its zero-residual future is classified by the response dilution exponent $2\nu$; a positive residual overrides that classification with de Sitter behavior.
+After a present-flatness root is selected, the generalized response fixes a conditional homogeneous expansion history. The zero-residual future is classified by the width \(\nu\), while the integrated crossing ratio \(\mathfrak R_c\), root branch, ordinary contents, and residual sector still control the finite history and whether acceleration occurs at all.
 
-Let $x_c$ be a chosen root from [[flatness-branches]], let $x=N+x_c$, and set
+Let \(x_c\) be a selected root from [[causal-scale-theory/flatness-branches|the crossing-branch analysis]], set \(x=N+x_c\), and define
 
 $$
 D:=1-\Omega_{m0}-\Omega_{r0}.
 $$
 
-The zero-residual expansion function is
+For the flat matter-plus-radiation background with separate response conservation and zero residual, the **[CONDITIONAL OUTPUT]** is
 
 $$
 \boxed{
@@ -21,62 +21,35 @@ E^2(x):=\frac{H^2(x)}{H_0^2}
 \end{aligned}}
 $$
 
-Distance, age, and deceleration observables follow from this function. Structure growth additionally requires the covariant response and perturbation data that [[conjectures/covariant-response-sector|remain open]].
+This is the background interface consumed by distances, ages, and cosmography. It is not a covariant response sector and does not determine structure growth.
 
-## Response asymptotics
+## Zero-residual future
 
-From [[response-law]],
+[[causal-scale-theory/theorems/future-response-classes|The future-class theorem]] owns the proof of the following classification:
+
+| Width | Leading ever-expanding future |
+|---|---|
+| \(0<\nu<1\) | response-dominated power-law acceleration with a future event horizon |
+| \(\nu=1\) | response-dominated coasting with divergent future conformal time |
+| \(1<\nu<3/2\) | response-dominated deceleration |
+| \(\nu=3/2\) | response and matter have the same leading dilution |
+| \(\nu>3/2\) | matter eventually dominates |
+
+In the response-dominated range \(0<\nu<3/2\), the theorem gives
 
 $$
 \rho_X\sim a^{-2\nu},
 \qquad
-w_X\to-1+\frac{2\nu}{3}
-\qquad(x\to+\infty).
-$$
-
-Compare the response dilution with matter, $\rho_m\sim a^{-3}$:
-
-- $0<\nu<1$: the response dominates and gives asymptotic power-law acceleration;
-- $\nu=1$: the response dominates, $w_X\to-1/3$, and expansion tends to coasting;
-- $1<\nu<3/2$: the response dominates but the future decelerates;
-- $\nu=3/2$: response and matter have the same leading dilution;
-- $\nu>3/2$: matter eventually dominates.
-
-These are zero-residual classes. A positive constant residual eventually dominates and yields de Sitter expansion; a negative one can force a turnaround if the total density reaches zero.
-
-For a response-dominated zero-residual future with $0<\nu<3/2$,
-
-$$
+w_X\longrightarrow-1+\frac{2\nu}{3},
+\qquad
 a(t)\sim t^{1/\nu}.
 $$
 
-Hence $0<\nu<1$ has a power-law future event horizon, while $\nu\ge1$ has divergent future conformal time whenever the zero-residual solution expands forever. In particular, the unit branch obeys
+A positive constant residual eventually replaces every row by de Sitter behavior. A negative residual can instead force a turnaround if the total density reaches zero. These are sector changes, not corrections to the rigid-response theorem.
 
-$$
-\int^\infty\frac{\mathrm dt}{a(t)}
-\sim
-\int^\infty\frac{\mathrm dt}{t}
-=\infty,
-$$
+## Finite acceleration
 
-so its coasting limit has no permanent future event horizon. A positive residual instead produces an asymptotic de Sitter horizon.
-
-## Acceleration is not fixed by width alone
-
-The existence and duration of an accelerating interval also depend on $\mathfrak R_c$, the chosen closure root, the ordinary abundances, and the residual sector. In particular, a unit-width model with sufficiently small amplitude need not accelerate.
-
-For the zero-residual matter-plus-radiation background, the exact total deceleration is
-
-$$
-q=-1+\frac32
-\frac{
-\rho_m+\tfrac43\rho_r+(1+w_X)\rho_X
-}{
-\rho_m+\rho_r+\rho_X
-}.
-$$
-
-Therefore acceleration occurs exactly when
+Width alone does not determine an accelerating interval. Under the same flat, noninteracting, zero-residual assumptions, [[causal-scale-theory/theorems/acceleration-condition|the acceleration theorem]] gives the necessary and sufficient condition
 
 $$
 \boxed{
@@ -84,6 +57,19 @@ $$
 >\rho_m+2\rho_r.}
 $$
 
-This radiation-inclusive inequality, rather than the sign of $w_X$ alone, determines acceleration entry and exit.
+Within this zero-residual theorem, the amplitude, selected closure root, and abundances all enter through the densities. A different residual sector adds its own active-mass contribution and requires the correspondingly modified condition. In particular, the unit response can dominate the late energy density while its negative active mass becomes too small to sustain acceleration; [[causal-scale-theory/unit-branch|the unit-branch application]] records the resulting finite exit.
 
-[[unit-branch]] explains the more delicate unit result: its response density dominates at late scale, but its negative active mass decays faster than matter active mass, so acceleration ends at finite $a/a_0$ before the background approaches coasting.
+## Horizon reconstruction
+
+With the same flat FLRW geometry and an area-law apparent horizon, every selected \(H(N)\) also determines the deceleration \(q\), the radius \(R_A=c/H\), and the signed horizon rapidity \(\widehat\zeta_A\) up to an additive constant. [[conformal-scale-geometry/horizon-allocation|The exact conformal-scale identity]] defines
+
+$$
+\mathrm d\widehat\zeta_A
+:=\frac{1-q}{2}\,\mathrm dN,
+\qquad
+\mathrm dN
+=\mathrm d\widehat\zeta_A
++\frac14\,\mathrm d\ln S_A.
+$$
+
+Here \(\widehat\zeta_A\) is a signed horizon-rapidity potential reconstructed from the same FLRW history. It is neither conformal time nor the binary polarization, and the identity is not by itself a thermodynamic exchange law or conserved charge.

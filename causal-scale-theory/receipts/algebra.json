@@ -16,7 +16,7 @@
     },
     {
       "expected": "all zero",
-      "id": "binary_exchange_conservation",
+      "id": "binary_casimir_derivative_identity",
       "kind": "exact_rational",
       "pass": true,
       "tolerance": null,
@@ -275,7 +275,7 @@
       ]
     }
   ],
-  "generated_utc": "2026-08-24T01:19:16.912145+00:00",
+  "generated_utc": "2026-08-24T04:54:59.923349+00:00",
   "receipt": "causal-scale-theory reduced algebra",
   "runtime": {
     "platform": "Windows-11-10.0.26200-SP0",

@@ -27,7 +27,7 @@ $$
 (\mathcal A_{N_2},\omega_{N_2}).
 $$
 
-This extends [[causal-scale-theory/modular-flow|the distinction between modular flow and state deformation]]. It permits the Standard Model to remain the local quantum theory while placing a nontrivial burden on the scale interface.
+This extends [[wall-construction-interface/vertical-and-horizontal-motion|the distinction between modular flow and state deformation]]. It permits the Standard Model to remain the local quantum theory while placing a nontrivial burden on the scale interface.
 
 ## Three different objects called a wall
 

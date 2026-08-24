@@ -17,7 +17,7 @@ The denominator assumes a balanced two-outcome quotient: the $+1$ and $-1$ secto
 The log-partition function $\Psi(\theta)=\ln(2\cosh\theta)$ gives
 
 $$
-\eta(\theta):=\langle Q\rangle_\theta=\tanh\theta,
+m(\theta):=\langle Q\rangle_\theta=\tanh\theta,
 $$
 
 $$
@@ -29,7 +29,7 @@ $$
 Consequently,
 
 $$
-\eta^2+g_{\theta\theta}^{\mathrm{BKM}}=1.
+m^2+g_{\theta\theta}^{\mathrm{BKM}}=1.
 $$
 
 Reflection interchanges $\theta$ and $-\theta$. Their symmetrized relative entropy is
@@ -41,7 +41,7 @@ $$
 =4\theta\tanh\theta,
 $$
 
-which has its unique minimum at $\theta=0$. These identities are exact within the reduced binary family. See [[causal-scale-theory/binary-geometry]].
+which has its unique minimum at $\theta=0$. These identities are exact within the reduced binary family. See [[binary-information-geometry/balanced-exponential-family|the balanced binary family]].
 
 ## Pullback along scale
 
@@ -80,20 +80,20 @@ $$
 \qquad A>0.
 $$
 
-This is the [[causal-scale-theory/free-energy-source|all-history modular source law]], not a consequence of the binary algebra. Define the entropy-normalized peak squared BKM speed of the extensive horizontal state by
+This is the [[causal-scale-theory/free-energy-source|all-history modular source law]], not a consequence of the binary algebra. Define the cut-integrated crossing ratio of the extensive horizontal state by
 
 $$
 \mathfrak R_c
 :=\frac{k_B}{S_c}G_{NN}^{\perp}(N_c).
 $$
 
-Combining the source law with the [[causal-scale-theory/hawking-friedmann|flat-FLRW horizon conversion]] gives
+Combining the source law with the [[conformal-scale-geometry/hawking-friedmann-identity|flat-FLRW horizon conversion]] gives
 
 $$
 A=\frac12\rho_{\mathrm{crit},c}\mathfrak R_c.
 $$
 
-The [[causal-scale-theory/unit-amplitude-principle|unit-amplitude principle]] is the additional statement $\mathfrak R_c=1$. On that branch,
+[[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak unit matching]] is the additional statement $\mathfrak R_c=1$. On that branch,
 
 $$
 \rho_X(N)

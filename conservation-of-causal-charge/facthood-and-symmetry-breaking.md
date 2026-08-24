@@ -31,7 +31,7 @@ $$
 }
 $$
 
-This is the precise distinction in [[sufficient-reason/facticity-and-pointing|Facticity and Pointing]]. An expectation value such as the binary polarization \(\eta=\omega(Q)\) is likewise not itself a character or outcome.
+This is the precise distinction in [[sufficient-reason/facticity-and-pointing|Facticity and Pointing]]. An expectation value such as the binary polarization \(m=\omega(Q)\) is likewise not itself a character or outcome.
 
 The absence of an accessible selection rule does not imply that the fact is ontologically ungrounded. It leaves open a sufficing reason that is inaccessible in principle. Operational probabilities type an observer's access to facts; they do not, by themselves, decide whether facthood is undetermined. Conversely, asserting an inaccessible reason does not construct the reason or the law by which it suffices.
 

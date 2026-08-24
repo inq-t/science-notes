@@ -137,7 +137,7 @@ $$
 =1.
 $$
 
-[[causal-scale-theory/unit-amplitude-principle#Upgrade and failure|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
+[[program-core/ruble-equations#RE6 — Integrated crossing capacity|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
 
 The [[noether-capacity-theorem|Noether--capacity theorem]] gives a sufficient route to the entropy equation: prove that the physical horizontal state is a unit escort deformation of a genuine \(1+1\) conformal thermal sector whose entropy is the horizon entropy. Conservation of its dilation current then forces \(C_E=S/k_B\). The burden shifts to constructing that sector and tangent rather than merely observing that the cut has a two-dimensional normal plane.
 
@@ -162,7 +162,7 @@ $$
 The calculation is circular if any of the following supplies the normalization:
 
 - the Bekenstein--Hawking formula with an already measured \(G\);
-- the [[causal-scale-theory/hawking-friedmann|Hawking--Friedmann bridge]], which contains \(G\) in both horizon entropy and critical density;
+- the [[conformal-scale-geometry/hawking-friedmann-identity|Hawking--Friedmann bridge]], which contains \(G\) in both horizon entropy and critical density;
 - a fitted expansion history used both to define the wall and to infer its supposed source;
 - the declaration \(G^{\perp}_{NN}=S_c/k_B\) used as a normalization rather than derived from the wall state; or
 - Planck units introduced before the independent area coefficient is calculated.

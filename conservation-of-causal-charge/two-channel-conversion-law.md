@@ -1,6 +1,6 @@
 # The Two-Channel Conversion Law
 
-A fixed positive total split into two channels acquires the hyperbolic \(\tanh/\operatorname{sech}^2\) form when the logarithm of their ratio is used as coordinate. The \(\operatorname{sech}^2\) pulse is then exactly the conversion current between the channels, and its integrated weight is fixed by the endpoint change. This theorem is non-stochastic and purely algebraic; identifying the two channels physically remains open.
+A fixed positive total split into two channels acquires the hyperbolic \(\tanh/\operatorname{sech}^2\) form when the logarithm of their ratio is used as coordinate. The \(\operatorname{sech}^2\) pulse is then exactly the conversion current between the channels, and its integrated weight is an oriented endpoint index. This theorem is non-stochastic and purely algebraic; identifying the two channels physically remains open.
 
 ## Allocation theorem
 
@@ -57,7 +57,7 @@ and a unique ratio coordinate \(\theta=\operatorname{artanh}m\).
 
 ## Affine scale transport
 
-Suppose the ratio coordinate is affine in logarithmic scale,
+Suppose the independent hypotheses of [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]] hold, so the ratio coordinate is affine in logarithmic scale,
 
 $$
 \theta(N)=\nu(N-N_c),
@@ -99,7 +99,7 @@ $$
 
 The pulse is therefore not inserted as a force profile. It is the conversion rate forced by four ingredients: positivity, a fixed two-channel total, a logarithmic ratio, and affine transport in that ratio.
 
-## Endpoint charge
+## Endpoint index
 
 If the history reaches the two saturated asymptotic allocations,
 
@@ -112,7 +112,7 @@ $$
 then
 
 $$
-\mathcal Q_{\mathrm{top}}
+\mathcal I_C
 :=\frac12\int_{-\infty}^{+\infty}
 \frac{\mathrm dm}{\mathrm dN}\,\mathrm dN
 =\frac12[m]_{-\infty}^{+\infty}

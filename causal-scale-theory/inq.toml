@@ -6,6 +6,7 @@ include = [
   "conjectures/*.md",
   "no-gos/*.md",
   "open-questions/*.md",
+  "theorems/*.md",
   "receipts/*.md",
   "receipts/*.py",
   "receipts/*.json",
