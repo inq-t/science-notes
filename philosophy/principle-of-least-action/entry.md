@@ -38,7 +38,7 @@ That note also disposes of the standard illustration. The damped oscillator *is*
 
 ## The axiom has a partial ground
 
-[[why-an-action-at-all]] reconstructs the form of the principle from a composition law: weights that multiply under concatenation have an additive logarithm, which under a regularity condition is an integral along the history, and stationarity then follows by stationary phase rather than by postulate. This inverts the order of grounding and leaves the composition law, locality, and the Lagrangian itself underived.
+[[why-an-action-at-all]] reconstructs the form of the principle from a composition law: weights that multiply under concatenation in an *abelian* group have an additive logarithm, which under absolute continuity is an integral along the history, and stationarity then follows by stationary phase rather than by postulate. What the reconstruction delivers is circle-valued, so the real-valued $S$ the axiom posits needs a further lift. This inverts the order of grounding and leaves the composition law, locality, and the Lagrangian itself underived.
 
 ## Flavors
 
@@ -76,4 +76,4 @@ Shared variational form is not a derived physical equivalence. Writing an entrop
 | **[CONDITIONAL THEOREM]** | the action as the logarithm of a multiplicative composition law, given an abelian weight group, absolute continuity in the endpoints, and unimodularity — yielding a circle-valued action, with the lift to $\mathbb R$ a further hypothesis |
 | **[PROGRAMME COMMITMENT]** | reading $\delta S=0$ as characterizing the solution set rather than producing it |
 | **[OPEN CONSTRUCTION]** | whether physics is variational as a classification rather than a commitment; the multiplier problem for three or more degrees of freedom; grounds for the composition law, for locality, and for the specific Lagrangian |
-| Outside this module | which symmetries an action has, and any conservation law — see [[philosophy/symmetry-principle/entry|the invariance axiom]] and [[philosophy/noether-conservation/entry|the Noether synthesis]] |
+| Outside this module | which symmetries an action has, and any conservation law — see [[philosophy/symmetry-principle/entry\|the invariance axiom]] and [[philosophy/noether-conservation/entry\|the Noether synthesis]] |

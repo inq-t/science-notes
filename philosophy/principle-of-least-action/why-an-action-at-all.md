@@ -52,7 +52,7 @@ The consequence is an inversion in the order of grounding. Read from the classic
 | that the functional is an integral of a local density | absolute continuity, and locality |
 | that the density is imaginary, given $\vert W\vert=1$ | unimodularity |
 | that stationary histories dominate a semiclassical limit | the specific Lagrangian, its field content, and its couplings |
-| | the lift from a circle-valued to a real-valued action |
+| | the lift from a circle-valued to a real-valued action, and the existence and value of $\hbar$ |
 
 The composition law is the assumption that a history's weight factorizes through its segments, a strong locality-in-time condition that could fail. The Lagrangian is left entirely open: what selects it is symmetry together with field content, which is the business of [[philosophy/symmetry-principle/entry|the invariance axiom]] and, in the local sector, of [[symmetry-groups-select/entry|symmetry selection]].
 

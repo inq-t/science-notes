@@ -24,13 +24,13 @@ $$
 S[\Phi_g\phi]=S[\phi]
 $$
 
-for all $\phi$, then critical points map to critical points, so every variational symmetry is a dynamical symmetry. The same holds when invariance is only up to a boundary term, which at the level of the Lagrangian density reads
+for all $\phi$, then critical points map to critical points, so every variational symmetry is a dynamical symmetry. The same holds when invariance is only up to a boundary term. At the infinitesimal level the condition is on the Lagrangian *top form*,
 
 $$
-\delta_k\mathcal L=\partial_\mu K^\mu_k ,
+\operatorname{pr}v_k(\mathcal L)+\mathcal L\,\partial_\mu\xi^\mu_k=\partial_\mu K^\mu_k ,
 $$
 
-since a total divergence is annihilated by the Euler operator and the Euler--Lagrange expressions are unchanged. Hence
+which reduces to $\delta_k\mathcal L=\partial_\mu K^\mu_k$ exactly when the generator is divergence-free in the coordinates. Either way a total divergence is annihilated by the Euler operator, so the Euler--Lagrange expressions are unchanged. Hence
 
 $$
 \boxed{

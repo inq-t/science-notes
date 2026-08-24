@@ -1,0 +1,4 @@
+[module]
+name = "postquantum-gravity"
+entry = "entry.md"
+include = ["**/*.md"]
