@@ -467,6 +467,10 @@ def check_response_determinant() -> None:
     hessian_exact = 0.5 * np.trace(
         hidden_inverse @ direction_a @ hidden_inverse @ direction_b
     )
+    same_direction_exact = 0.5 * np.trace(
+        hidden_inverse @ direction_a @ hidden_inverse @ direction_a
+    )
+    assert same_direction_exact > 0.0
 
     def gaussian_potential(x_value: float, y_value: float) -> float:
         varied = hidden + x_value * direction_a + y_value * direction_b
@@ -485,6 +489,12 @@ def check_response_determinant() -> None:
         + gaussian_potential(-step, -step)
     ) / (4.0 * step**2)
     assert abs(hessian_fd - hessian_exact) < 2.0e-8
+    same_direction_fd = (
+        gaussian_potential(step, 0.0)
+        - 2.0 * gaussian_potential(0.0, 0.0)
+        + gaussian_potential(-step, 0.0)
+    ) / step**2
+    assert abs(same_direction_fd - same_direction_exact) < 2.0e-8
 
     action_hessian_fd = (
         bosonic_effective_action(step, step)
@@ -495,7 +505,8 @@ def check_response_determinant() -> None:
     assert abs(action_hessian_fd + hessian_exact) < 2.0e-8
 
     print("finite real response determinant: PASS")
-    print(f"  positive Fisher Hessian = {hessian_exact:+.12f}")
+    print(f"  same-direction Fisher   = {same_direction_exact:+.12f}")
+    print(f"  mixed Fisher component  = {hessian_exact:+.12f}")
     print(f"  bosonic action Hessian  = {action_hessian_fd:+.12f}")
 
 

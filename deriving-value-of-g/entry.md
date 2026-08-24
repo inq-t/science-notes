@@ -192,7 +192,7 @@ The finite-index route sharpens the missing object. In an explicit type-I cell,
 
 $$
 S(\chi)+D(\chi\Vert\tau)
-=\frac12\log\operatorname{Ind}(E_\tau),
+=\frac12\log\operatorname{Ind}_{W}(E_\tau),
 $$
 
 for \(E_\tau\) and a product state on the same multiplicity factor. This partitions the factor's log-dimension between the chosen input edge entropy and its tracial defect; it is not the full subalgebra-relative-entropy capacity and does not make \(E_\tau\) select \(\chi\). If a cell has independently derived spectral area \(a_*\) and algebraically selected edge entropy \(s_*\), then

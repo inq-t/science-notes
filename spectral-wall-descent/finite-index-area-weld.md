@@ -39,7 +39,7 @@ $$
 =B(\mathcal H_a)\otimes\mathbf1_b
 \subset
 \mathcal M
-=B(\mathcal H_a\otimes\mathbb C^d),
+=B(\mathcal H_a\otimes\mathbb C^d).
 $$
 
 Write separately the normalized trace functional and its density,
@@ -221,7 +221,7 @@ $$
 
 is additive under fusion. If the distinguished edge factors and states form a no-sector-mixing tensor product compatible with that fusion, their entropies and relative defects add separately, so the one-cell identity extends to a product cocycle balance.
 
-This is the strongest present answer to “what remains symmetric during symmetry breaking”:
+This is the strongest present candidate for what remains symmetric during symmetry breaking:
 
 $$
 \boxed{
@@ -252,12 +252,12 @@ $$
 In exact algebraic code models, a candidate gravitational coefficient belongs instead to the independent central weld
 
 $$
-\mathcal L_{\mathrm{code}}
+\mathcal L_{\chi}(U)
 \stackrel{?}{=}
-\eta_*\mathcal A_D,
+\eta_*\mathcal A_D^Z(U),
 $$
 
-where \(\mathcal A_D\) is an independently normalized central spectral area assignment. [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states this theorem target and its anti-circularity test.
+where \(\mathcal A_D^Z\) is an independently normalized central spectral-area assignment after compatible maps among patch centers have been supplied. [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states this theorem target and its anti-circularity test.
 
 The result refines the phrase “gravity balances what observation loses.” In the type-I product cell, edge entropy and distinction from the tracial edge state are complementary summands. In an exact code, the fixed edge entropy can separately define a central area datum. Proving that one physical wall selects both structures is precisely the missing weld. Gravity is not simply renamed BKM loss.
 
@@ -265,9 +265,11 @@ The result refines the phrase “gravity balances what observation loses.” In 
 
 This construction is **[EXACT TYPE-I PRODUCT CELL]** for the displayed identity and **[CONJECTURAL WELD]** when extended to physical gravitational cuts.
 
-- Correlated states do not obey the constant product-edge budget; algebraic conditional entropy can be negative and the full index capacity belongs to a different theorem.
+- Correlated states do not obey the constant product-edge budget. In the same finite model, \(D(\rho_{ab}\Vert\rho_a\otimes\tau_d)=\log d-S(b|a)_\rho\); negative conditional entropy can raise this to \(2\log d\) for a maximally entangled \(d\times d\) state. The full index capacity belongs to that different theorem.
 - Exact holographic codes are controlled models, not a derivation of the causal wall.
 - Finite index is dimensionless and locally rigid; a physical area density requires a scale-indexed tower and a separately normalized Dirac operator.
 - The final character and persistent record are still supplied only by [[conservation-of-causal-charge/factive-descent-and-records|factive descent and records]].
 
-Primary sources: [operator-algebra quantum error correction and the central area operator](https://arxiv.org/abs/1607.03901), [the holographic map as a conditional expectation](https://arxiv.org/abs/2008.04810), [relative entropy and subalgebra index](https://arxiv.org/abs/1909.01906), and [matrix dimension for finite-center correspondences](https://arxiv.org/abs/1805.09234).
+Primary sources: [operator-algebra quantum error correction and the central area operator](https://arxiv.org/abs/1607.03901), [the holographic map as a conditional expectation](https://arxiv.org/abs/2008.04810), [finite-index expectations as Q-systems](https://arxiv.org/abs/2111.04488), [relative entropy and subalgebra index](https://arxiv.org/abs/1909.01906), and [matrix dimension for finite-center correspondences](https://arxiv.org/abs/1805.09234).
+
+[[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks the tracial quasi-basis, the product-edge identity, and the fact that the nontracial state-selected expectation has a different index. It does not test a holographic code or the spectral-area weld.

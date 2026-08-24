@@ -14,7 +14,7 @@ c=\operatorname{Tr}R,
 d=\operatorname{Tr}R^2,
 $$
 
-on an \(n\)-generation space. The observable cosmological coefficient is
+on an \(n\)-generation space. In the Euclidean spectral action, the constant-density coefficient is
 
 $$
 \gamma_0(R)
@@ -71,13 +71,15 @@ A:=k_R^*k_R,
 R(x)=x^2A.
 $$
 
-For \(f_0,f_2>0\) and \(A\ne0\), write
+Its stationary equation is derived in flat space with the Higgs vacuum expectation value neglected relative to the unification scale. Under those hypotheses, \(x=0\) is the unstable solution; for \(f_0,f_2>0\) and \(A\ne0\), write
 
 $$
 n_{\mathrm{eff}}
 :=\frac{(\operatorname{Tr}A)^2}{\operatorname{Tr}A^2},
 \qquad
-1\leq n_{\mathrm{eff}}\leq n,
+1\leq n_{\mathrm{eff}}
+\leq\operatorname{rank}(A)
+\leq n,
 $$
 
 the stationary point on that ray is
@@ -91,7 +93,7 @@ R_*
 =rA\frac{\operatorname{Tr}A}{\operatorname{Tr}A^2}.}
 $$
 
-It reaches \(r\mathbf1\) only when \(A\) is proportional to the identity. The source-aligned residual is
+It reaches \(r\mathbf1\) only when \(A\) is full rank and proportional to the identity. More generally, the upper equality \(n_{\mathrm{eff}}=\operatorname{rank}(A)\) holds exactly when the nonzero eigenvalues of \(A\) are equal. The source-aligned residual is
 
 $$
 \boxed{
@@ -120,7 +122,7 @@ $$
 =\frac{(48-n_{\mathrm{eff}})f_2\Lambda^2}{6\pi^2}.}
 $$
 
-In the source's natural-unit normalization \(\kappa^2=8\pi G\), this implies
+Using natural units and the standard GR convention \(\kappa^2=8\pi G\), this implies
 
 $$
 \eta_{\mathrm{spec}}
@@ -135,14 +137,14 @@ G_{\mathrm{spec}}^{\mathrm{ray}}
 {4(48-n_{\mathrm{eff}})f_2\Lambda^2}.}
 $$
 
-On the isotropic three-generation branch, \(A\propto\mathbf1\) and \(n_{\mathrm{eff}}=n=3\), so
+For the special isotropic three-generation choice \(A\propto\mathbf1\), one has \(n_{\mathrm{eff}}=n=3\), so
 
 $$
 G_{\mathrm{spec}}
 =\frac{\pi}{60f_2\Lambda^2}.
 $$
 
-These are exact consequences of the observable spectral-action coefficients and the source's fixed-ray minimization. They are not a first-principles prediction of \(G\), because \(f_2\), \(\Lambda\), the cutoff normalization, the matrix shape \(A\), and the stationary-point selection remain inputs. A completed wall theory would have to derive the independent equality
+These are exact consequences of the displayed observable spectral-action coefficients and the source's fixed-ray stationary equation in its flat-space, negligible-Higgs regime. They are not a first-principles prediction of \(G\), because \(f_2\), \(\Lambda\), the cutoff normalization, the matrix shape \(A\), and the stationary-point selection remain inputs. Curvature and Higgs-dependent terms alter the stationarity equation outside that approximation. A completed wall theory would have to derive the independent equality
 
 $$
 \eta_*=\eta_{\mathrm{spec}},
@@ -206,7 +208,7 @@ $$
 \operatorname{sech}^2\!\left(\nu(N-N_c)\right).}
 $$
 
-This is an exact identity for the displayed project orbit and realizes the shape used by [[causal-scale-theory/response-law|the causal-scale response law]]. It is not yet that physical source. A consumer map must fix the Lorentzian sign, units, stress tensor, conservation law, and relation between the algebraic coordinate \(N\) and cosmological scale.
+This is an exact identity for the displayed project orbit and realizes the shape used by [[causal-scale-theory/response-law|the causal-scale response law]]. The coefficient \(\gamma_0\) here is a Euclidean constant-density term, not yet an observed Lorentzian cosmological constant or dark-energy density. A consumer map must fix the continuation, sign, units, stress tensor, conservation law, and relation between the algebraic coordinate \(N\) and cosmological scale.
 
 ## The hierarchy audit
 
@@ -246,10 +248,12 @@ The transient response and the residual cosmological constant therefore belong t
 
 ## Claim boundary
 
-- The square completion and source-ray stationary coefficient are exact calculations from the displayed spectral coefficients.
+- The square completion is an exact algebraic calculation from the displayed spectral coefficients; the source-ray stationary coefficient additionally assumes flat space and a Higgs vacuum expectation negligible against the unification scale.
 - The hyperbolic profile is an exact identity on a project-chosen orbit in the positive Majorana cone; the source theory derives neither that orbit nor its cosmological parametrization.
 - The construction leaves \(G\) constant by tracelessness; it does not show that the observed \(G\) has the calculated value.
 - Matching the pulse amplitude directly does not solve the hierarchy.
 - The spectral action is downstream observable dynamics and is not used as the ontological law that creates the wall.
 
 [[spectral-wall-descent/receipts/verify-spectral-wall.py|The spectral-wall receipt]] separately verifies the square completion, source-ray stationary coefficient, and the project orbit's constant trace and \(\operatorname{sech}^2\) deficit numerically.
+
+Primary source: [gravity and the Standard Model with neutrino mixing](https://arxiv.org/abs/hep-th/0610241).

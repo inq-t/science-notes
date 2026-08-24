@@ -52,6 +52,31 @@ satisfying the bicategorical associativity coherence.
 
 A bare correspondence does not canonically determine a conditional expectation or a fixed edge state. Each proposed wall cell must additionally carry an explicit inclusion and expectation, a Q-system or Frobenius-algebra object with chosen standard solution, or equivalent data that derive both the completely positive map and its compatible edge state. Fusion coherence of \(X_{21}\) alone does not prove composition of those wall maps.
 
+For properly infinite von Neumann algebras, the finite-index reconstruction theorem makes the missing datum exact. A normal faithful finite-index expectation is equivalent to a Q-system attached to the inclusion:
+
+$$
+\boxed{
+\left(
+\iota:\mathcal N\hookrightarrow\mathcal M,
+E:\mathcal M\to\iota(\mathcal N)
+\right)
+\longleftrightarrow
+Q_E=(\theta,x,w),
+\qquad
+\theta=\bar\iota\circ\iota.}
+$$
+
+For the conjugate solution encoded by \(w\), the expectation is recovered algebraically by
+
+$$
+\boxed{
+\iota^{-1}E(m)
+=
+(w^*w)^{-1}w^*\bar\iota(m)w.}
+$$
+
+This is an equivalence between **inclusion plus chosen expectation** and Q-system, not between a bare correspondence and an expectation. Standard solutions recover the minimal expectation; calling that choice canonical additionally requires hypotheses such as a connected inclusion with finite-dimensional centers. With infinite centers, even minimal expectations need not be unique. Once \(E\) is fixed, its restriction to the relative commutant selects the sector edge states used by the central entropy operator. Finite index alone does not select them.
+
 For a cover \(\{U_i\to U\}\), local algebras, states, spectral data, and overlap correspondences must satisfy effective descent. Until that theorem is proved, \(\mathfrak W\) is a correspondence prestack rather than a completed operator-algebraic stack.
 
 ## Four layers that must not be collapsed
@@ -128,7 +153,16 @@ $$
 
 This is a monoidal valuation or additive scale cocycle. It is not a Noether charge transported through Newtonian time. It expresses coherent composition even when local presentations, stabilizers, states, and entropy partitions change.
 
-With nontrivial centers, the scalar dimension is not the functorial invariant. The matrix dimension or full correspondence must be retained. A central entropy operator
+With nontrivial centers, the scalar dimension is not the functorial invariant. The matrix dimension or full correspondence must be retained. For adjacent connected finite-center inclusions, composition of minimal expectations and multiplication of their scalar minimal indices require the intermediate spherical states to match,
+
+$$
+\boxed{
+\omega_r^{\,\mathcal L\subset\mathcal N}
+=
+\omega_l^{\,\mathcal N\subset\mathcal M}.}
+$$
+
+Without this Markov condition, matrix dimensions still compose while scalar minimal index is generally only submultiplicative. Likewise, a central entropy operator
 
 $$
 \mathcal L_{21}
@@ -167,3 +201,5 @@ A physical instance is complete only if it supplies:
 10. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-matrix|the common response matrix]].
 
 At present this is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces of the proposed object; they do not yet supply a dynamical FLRW instance or effective descent on a physical context site.
+
+Primary sources: [finite-index expectations as Q-systems](https://arxiv.org/abs/2111.04488), [minimal index and matrix dimension with finite centers](https://arxiv.org/abs/1805.09234), and [conditional expectations selecting holographic edge states](https://arxiv.org/abs/2008.04810).

@@ -35,7 +35,7 @@ $$
 G_-=G_R^{\mathrm{ret}}+G_R^{\mathrm{lost}}.}
 $$
 
-For perturbations of a vacuum CFT ball and the corresponding AdS Rindler wedge in the leading classical or semiclassical regime, let \(\mathfrak S_R\) be the linearized bulk reconstruction map. With the convention that the relative-entropy Hessian has no extra factor of \(1/2\), the retained metric is the pullback of AdS canonical energy:
+For a family of physical perturbations with classical asymptotically AdS duals, to second order about the vacuum density matrix of a CFT ball and in the corresponding AdS Rindler wedge, let \(\mathfrak S_R\) be the linearized bulk reconstruction map. With the convention that the relative-entropy Hessian has no extra factor of \(1/2\), the retained metric is the pullback of AdS canonical energy:
 
 $$
 \boxed{
@@ -49,7 +49,7 @@ $$
 
 This is the key correction to a direct wall-loss weld. Canonical energy calibrates what the region can reconstruct, not automatically what the expectation erases.
 
-The central area term appears in the modular Hamiltonian, but it cancels from relative entropy at fixed code subspace. In exact complementary-recovery codes it is carried by a separate central edge-entropy operator. Identifying that operator with gravitational area is the additional weld studied in [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]], not a consequence of cancellation alone.
+In JLMS, for nearby states with a bulk effective description and to leading order in the bulk gravitational coupling, the surface-area term in the modular Hamiltonian cancels from relative entropy. In the separate exact complementary-recovery code model, its analogue is carried by a central edge-entropy operator. Identifying that operator with gravitational area is the additional weld studied in [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]], not a consequence of cancellation alone.
 
 ## AdS as a geometric atlas of scale
 
@@ -155,9 +155,9 @@ The [[vendor/holographic-cosmology/domain-wall-cosmology-correspondence|domain-w
 
 The observable carrier need not be secretly AdS. Existing gravitational algebra constructions provide:
 
-- an observer-dressed type-\(\mathrm{II}_1\) algebra for a de Sitter static patch, whose entropy agrees up to a state-independent constant with generalized entropy for the semiclassical states under study;
-- type-II algebras for more general compact or asymptotic gravitational subregions in the \(G_N\to0\) regime, with the compact-region construction relying on conjectural instantaneously geometric modular states; and
-- a recent perturbative construction of type-\(\mathrm{II}_\infty\) algebras for horizon cuts around black-hole or Killing-horizon backgrounds, built as crossed products with edge modes and supporting generalized-second-law and focusing statements in that regime.
+- an observer-dressed type-\(\mathrm{II}_1\) algebra for a de Sitter static patch in the \(G_N\to0\) observer-clock construction, whose entropy agrees up to a state-independent constant with generalized entropy for the semiclassical states under study;
+- type-II algebras for bounded regions or regions containing a complete asymptotic boundary in Einstein gravity coupled to matter in the \(G_N\to0\) regime, with the bounded-region construction relying on a supplied observer and conjectural instantaneously geometric modular states; this result explicitly excludes regions that divide an asymptotic boundary, including ordinary AdS entanglement wedges, whose boundary algebras remain type \(\mathrm{III}_1\); and
+- a recent perturbative construction of type-\(\mathrm{II}_\infty\) crossed-product algebras for cuts of a stationary black hole with bifurcate Killing horizon. Their entropy agrees with generalized entropy only up to a state-independent constant and a small averaging over fluctuations of the cut location. The generalized-second-law and focusing results are perturbative null-horizon comparisons, not a direct de Sitter carrier.
 
 This motivates the architecture
 

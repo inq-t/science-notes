@@ -80,7 +80,7 @@ It is not a conserved energy, entropy, bit count, or Hilbert norm. [[spectral-wa
 
 ## Central edge entropy is not the lost block
 
-For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, regional Fisher information retained by the reconstructable algebra pulls back to gravitational canonical energy,
+For physical perturbations with classical asymptotically AdS duals, to second order about a vacuum CFT ball and in its AdS Rindler wedge, regional Fisher information retained by the reconstructable algebra pulls back to gravitational canonical energy,
 
 $$
 G^{\mathrm{ret}}

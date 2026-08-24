@@ -6,7 +6,7 @@ The finite-index route derives \(G\) only if algebraically selected, corresponde
 
 For every admissible patch \(U\) of a codimension-two causal cut, construct independently:
 
-1. a horizontal response measure
+1. a candidate horizontal response assignment
 
    $$
    \mu_{\mathrm{BKM}}^\perp(U)
@@ -20,7 +20,7 @@ For every admissible patch \(U\) of a codimension-two causal cut, construct inde
    :=\mathcal L_{\chi,U};
    $$
 
-3. a physical spectral area measure
+3. a candidate physical spectral-area assignment
 
    $$
    \mu_{A,D}(U)
@@ -74,7 +74,7 @@ That tangent alignment is additional. The type-I product-edge identity by itself
 For a closed two-dimensional spin cut with ordinary Dirac spectral triple
 
 $$
-(C^\infty(\Sigma),L^2(\Sigma,S),D_\Sigma),
+(C^\infty(\Sigma),L^2(\Sigma,S),D_\Sigma).
 $$
 
 Declare \([D_\Sigma]=L^{-1}\), let \(P_0\) project onto its zero modes, and write
@@ -196,7 +196,7 @@ $$
 \int R\,\mathrm dV.
 $$
 
-Therefore the central density theorem predicts the dimensionless curvature stiffness
+Therefore, if the central density target is proved, it predicts the curvature stiffness
 
 $$
 Z_g=\frac{\eta_*}{4\pi}.
@@ -245,4 +245,4 @@ A successful proof must establish, in this order:
 
 Failure is informative. A central density varying by sector predicts non-Einstein coupling; a scale-dependent density predicts a running or scalar--tensor response; a nonlocal measure predicts nonlocal gravity; and absence of a canonical Dirac normalization blocks any numerical value of \(G\).
 
-Primary sources: [the holographic central area operator](https://arxiv.org/abs/2008.04810), [relative entropy and index](https://arxiv.org/abs/1909.01906), [functorial matrix dimension](https://arxiv.org/abs/1805.09234), and [spectral volume quantization](https://arxiv.org/abs/1409.2471).
+Primary sources: [the holographic central area operator](https://arxiv.org/abs/2008.04810), [finite-index expectations as Q-systems](https://arxiv.org/abs/2111.04488), [relative entropy and index](https://arxiv.org/abs/1909.01906), [functorial matrix dimension](https://arxiv.org/abs/1805.09234), and [spectral volume quantization](https://arxiv.org/abs/1409.2471).

@@ -1,6 +1,6 @@
 # The Common Response Matrix
 
-The common response matrix is proposed as one positive Hessian geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models.
+The common response matrix is proposed as one positive, generally center-valued Hessian geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models. A numerical matrix appears only after averaging the descended center or selecting a factive sector.
 
 ## The matrix belongs to the descent, not necessarily the substrate
 
@@ -119,6 +119,116 @@ $$
 The Fisher term measures differentiation of possible characters or records. The conditional BKM term measures the quantum response retained inside each fiber. A homogeneous law can therefore carry a nontrivial record-response geometry without making the underlying algebra a lumpy classical space.
 
 The formula selects no actual \(x\). Pure conditional states may also lie on the boundary where ordinary BKM geometry is singular. A continuum realization must use faithful unconditioned states, fixed-support tangents, or a controlled limiting metric.
+
+## The unreduced response is center-valued
+
+A scalar response matrix already assumes either sector averaging or fact selection. Suppose a descended context has finite center
+
+$$
+Z(\mathcal M_N(U))
+=
+\bigoplus_\alpha\mathbb CP_\alpha,
+$$
+
+and each sector carries a faithful differentiable state family \(\varphi_{\lambda,\alpha}\). Before choosing a central state or character, define
+
+$$
+\boxed{
+\mathbf G^Z_{IJ}(N,U)
+:=
+\sum_\alpha
+g^{\mathrm{BKM}}_{\varphi_\alpha}
+(\dot\varphi_{I,\alpha},\dot\varphi_{J,\alpha})P_\alpha
+\in
+Z(\mathcal M_N(U))\otimes
+\operatorname{Sym}^2(T^*\mathfrak D_{\mathrm{phys}}).}
+$$
+
+This is positive in the order of the center: for every real tangent vector \(v=v^I\partial_I\),
+
+$$
+v^Iv^J\mathbf G^Z_{IJ}
+=
+\sum_\alpha
+g^{\mathrm{BKM}}_{\varphi_\alpha}(\dot\varphi_{v,\alpha},\dot\varphi_{v,\alpha})P_\alpha
+\geq0.
+$$
+
+A normal central state \(\nu(P_\alpha)=q_\alpha\) returns the averaged matrix
+
+$$
+G^\nu_{IJ}=\nu(\mathbf G^Z_{IJ})
+=\sum_\alpha q_\alpha G^{(\alpha)}_{IJ},
+$$
+
+whereas a character evaluating \(P_\beta\mapsto1\) returns \(G^{(\beta)}_{IJ}\). The first operation describes an unconditioned sector law; the second belongs to the later factive layer. Sector-dependent observable response therefore does not imply that the upstream algebra or law was microscopically inhomogeneous. For a diffuse center, point characters need not be normal, so this last step cannot be smuggled into the von Neumann-state construction.
+
+If a sector-preserving conditional expectation is state-preserving and modularly admissible, the BKM Pythagorean split holds in every sector and hence in central order:
+
+$$
+\boxed{
+\mathbf G^{\mathrm{pre},Z}_{IJ}
+=
+\mathbf G^{\mathrm{ret},Z}_{IJ}
++
+\mathbf G^{\mathrm{lost},Z}_{IJ}.}
+$$
+
+For nested algebras \(\mathcal M_0\supseteq\mathcal M_1\supseteq\mathcal M_2\), let \(E_1:\mathcal M_0\to\mathcal M_1\) and \(E_2:\mathcal M_1\to\mathcal M_2\) be expectations whose extensions are orthogonal projections for the same BKM form at a reference fixed by both. Writing \(E_{20}=E_2E_1\), one then has the exact scale-tower balance
+
+$$
+\boxed{
+\|X-E_{20}X\|_{\mathrm{BKM}}^2
+=
+\|X-E_1X\|_{\mathrm{BKM}}^2
++
+\|E_1X-E_2E_1X\|_{\mathrm{BKM}}^2.}
+$$
+
+Thus erased quadratic response can compose additively without representing a conserved substance or a unitary environment.
+
+The Q-system or chosen-expectation data in [[spectral-wall-descent/scale-correspondence-stack|the scale-correspondence stack]] also determine sector edge states and hence the degree-zero central operator
+
+$$
+\mathbf L_\chi
+=
+\sum_\alpha S(\chi_\alpha)P_\alpha.
+$$
+
+It is a type error to insert \(\mathbf L_\chi\) directly as an entry of the Hessian: \(\mathbf G^Z\) is a tangent bilinear form, while \(\mathbf L_\chi\) is a central assignment. The common algebraic object is instead the graded response package
+
+$$
+\boxed{
+\boldsymbol{\mathfrak R}_{N,U}
+=
+\left(
+\mathbf G^Z_{IJ},
+\mathbf L_\chi,
+\mathbf A_D^Z
+\right),}
+$$
+
+whose degree-two component is the common response matrix. Fusion of the underlying correspondences does not by itself make \(\mathbf L_\chi\) additive. That requires compatible center transport and the spherical or Markov matching of the selected edge states; only then can one demand a cocycle law such as
+
+$$
+\mathbf L_{31}
+=
+\mathbf L_{32}
++T^Z_{32}(\mathbf L_{21}).
+$$
+
+After evaluating the same independently normalized horizontal tangent, the gravitational closure target is
+
+$$
+\boxed{
+\boldsymbol\mu^\perp_{\mathbf G}(U)
+=
+\mathbf L_\chi(U)
+=
+\eta_*\mathbf A_D^Z(U),}
+$$
+
+not a bare equality between an entropy number and a matrix coefficient. This is the point at which the common response construction, the finite-index edge data, and spectral area become one theorem target.
 
 ## Symmetry removes the quadratic mixed block
 
@@ -326,7 +436,7 @@ $$
 
 where the final term is exactly \(S(E\rho)-S(\rho)\). Observation loses relative distinction and gains entropy in the unconditioned observable law.
 
-For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, controlled holographic calibration refines the gravitational typing. The retained regional block, not automatically the lost block, pulls back to canonical energy:
+For physical perturbations with classical asymptotically AdS duals, to second order about a vacuum CFT ball and in its AdS Rindler wedge, controlled holographic calibration refines the gravitational typing. The retained regional block, not automatically the lost block, pulls back to canonical energy:
 
 $$
 \boxed{

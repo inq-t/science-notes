@@ -79,7 +79,7 @@ $$
 Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}}
 $$
 
-is now too strong. For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, controlled results identify **retained** regional quantum Fisher information with gravitational canonical energy. In exact complementary-recovery codes, the fixed central edge term cancels from relative entropy. The revised weld has two independent parts:
+is now too strong. For physical perturbations with classical asymptotically AdS duals, to second order about a vacuum CFT ball and in its AdS Rindler wedge, controlled results identify **retained** regional quantum Fisher information with gravitational canonical energy. In exact complementary-recovery codes, the fixed central edge term cancels from relative entropy. The revised weld has two independent parts:
 
 $$
 \boxed{

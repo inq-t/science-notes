@@ -182,4 +182,4 @@ This would weld the common response to the bare observable spectral Einstein coe
 
 The criterion concerns a quadratic response at one reference. Higher derivatives, covariance, locality, renormalization-group transport, and persistent records remain separate obligations.
 
-[[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] verifies the rank-one construction and the repeated generalized eigenvalue condition in a non-diagonal example.
+[[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] constructs \(b\) from a chosen rank-one mismatch and checks the sufficiency direction plus the repeated generalized eigenvalue condition in a non-diagonal example. It does not extract or test the Connes singlet.

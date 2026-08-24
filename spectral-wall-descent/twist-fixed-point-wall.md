@@ -100,7 +100,15 @@ D_{\boldsymbol\sigma}
 \boldsymbol\sigma=\mathbf1+\gamma^5\phi.
 $$
 
-The real field \(\phi\) is the difference of the exchanged left/right algebra components. On the represented fluctuation this gives
+Before imposing self-adjointness, the source constructs the coefficient-weighted fluctuation
+
+$$
+\phi
+=
+\sum_i d^{ir}\left(c_i^r-c_i^l\right),
+$$
+
+and self-adjointness requires \(\phi=\bar\phi\). Thus \(\phi\) is built from differences of exchanged left/right algebra components, rather than being one bare component difference. On the represented fluctuation this gives
 
 $$
 \rho(\boldsymbol\sigma)
@@ -125,9 +133,9 @@ $$
 =2\gamma^5\phi D_R.
 $$
 
-Here the published \(\rho\) exchanges the represented left/right algebra components; it is not literally an automorphism acting on the fixed spin matrix \(\gamma^5\). The displayed sign reversal is the resulting transformation of the represented field \(\boldsymbol\sigma\). The singlet is therefore not merely an extra scalar appended to the low-energy field list. In this realization its defect is normal to the twist-fixed algebra. This makes it germane to the descent, while leaving its observable spectral action downstream.
+The original \(\rho\) is an automorphism of the represented algebra. The source then extends it to \(\mathcal B(\mathcal H)\) by conjugation with the unitary that exchanges the spinorial left/right indices; this extension satisfies \(\rho(\gamma^5)=-\gamma^5\). The sign reversal is therefore an exact property of the represented extension, not an intrinsic automorphism of an abstract Clifford generator taken in isolation. The singlet is not merely an extra scalar appended to the low-energy field list. In this realization its defect is normal to the twist-fixed algebra. This makes it germane to the descent, while leaving its observable spectral action downstream.
 
-The scalar potential calculated from that action is
+In the source's flat Euclidean calculation, for a real self-adjoint fluctuation and the simplified Majorana block with \(D_R^2=|k_R|^2p\), the scalar potential calculated from that action is
 
 $$
 V(\phi)=C_4\phi^4+C_2\phi^2+C_0,
@@ -149,6 +157,16 @@ V''(0)
 $$
 
 This is not yet a canonically normalized physical stiffness. A mass or stiffness requires division by the kinetic normalization and inclusion of the appropriate representation multiplicities. Those data must also be included before comparison with the two-level BKM metric or a Newton coefficient.
+
+The minimum at \(\phi=0\) additionally uses \(f_0>0\) and
+
+$$
+3\Lambda^2f_2
+\geq
+f_0|k_R|^2.
+$$
+
+The 2012 neutral singlet that repairs the Higgs renormalization-group analysis is not already proved to be this chirality-valued twisted field. The twisted source explicitly calls \(\boldsymbol\sigma=\mathbf1+\gamma^5\phi\) slightly different from the earlier \(\sigma=(1+\phi)\mathbf1\), and leaves the full Dirac-operator calculation needed to establish its Higgs coupling open. Their kinship motivates a bridge; it is not an identity supplied by either paper.
 
 ## Exact binary state bridge
 
@@ -240,6 +258,7 @@ A groupoid or ordinary stack retains automorphisms and uses invertible arrows. I
 - **Exact project derivation:** the trace-dependent fixed-point expectation, entropy Pythagoras identity, and BKM even/odd split in the finite invariant-state setting.
 - **Conditional bridge:** normalization of the represented Dirac fluctuation as a two-outcome density.
 - **Speculative extension:** the moduli stack, normal complex, and locally varying \(\mathbb Z_2\)-torsor.
+- The 2012 Higgs-stabilizing singlet and the later twisted scalar are distinct source constructions until an explicit full-Dirac bridge relates them.
 - The scalar minimum alone does not complete the reduction to \(\mathcal A_{\mathrm{SM}}\).
 - The spectral-action minimum is an observable stability receipt; it is not used here as the pre-observable law of becoming.
 - The finite algebra does not generate the four-dimensional spin manifold assumed by the almost-commutative product.

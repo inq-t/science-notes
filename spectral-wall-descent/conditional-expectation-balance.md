@@ -161,7 +161,7 @@ G^{\mathrm{pre}}
 =G^{\mathrm{ret}}+G^{\mathrm{lost}}.
 $$
 
-For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, holographic relative-entropy results show that the controlled canonical-energy map uses the retained term:
+For physical perturbations with classical asymptotically AdS duals, to second order about a vacuum CFT ball and in its AdS Rindler wedge, holographic relative-entropy results show that the controlled canonical-energy map uses the retained term:
 
 $$
 G^{\mathrm{ret}}
