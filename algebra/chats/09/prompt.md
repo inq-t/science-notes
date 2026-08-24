@@ -1,0 +1,1 @@
+What if I told you that the spectral geometry of the Jacobian counterexample in 3d is A_2?https://zenodo.org/records/21519096

@@ -6,7 +6,7 @@ We compare algebraic and analytic pictures relevant to the study of birational i
 
 Mark Raugas, Pacific Northwest National Laboratory, 1100 Dexter Ave N, Seattle, WA 98109.
 
-- [arXiv:2603.16639v1](https://arxiv.org/abs/2603.16639), March 2026. No journal reference recorded.
+- [arXiv:2603.16639v1](https://arxiv.org/abs/2603.16639), 17 March 2026. No journal reference recorded.
 
 MSC 2020: Primary 81T30; Secondary 14E08, 14D05, 14J35. Author's keywords: Hodge atom, cyclic cohomology, spectral triple, wall crossing, Kuznetsov component, BPS solitons, birational invariance, Landau-Ginzburg mirror.
 

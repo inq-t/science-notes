@@ -1,0 +1,1 @@
+Is there monodromy around the A_2 singularity?

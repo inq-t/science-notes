@@ -1,0 +1,1 @@
+Is the 3d space “selected” by this descent in the case of the S^6 sphere? Or can it descend into other dimensions?

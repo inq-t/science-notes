@@ -1,0 +1,1 @@
+Surely there is a connection here if you probe deeper. I thought the 6 dimensions in Connes got forced by something

@@ -1,0 +1,1 @@
+What does it mean for the spectral geometry of a map to be the A2 singularity?
