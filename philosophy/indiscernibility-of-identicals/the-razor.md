@@ -8,7 +8,7 @@ The razor of indiscernibles reads: a distinction that makes no difference to any
 
 **Constitutive.** The object *is* the equivalence class; the quotient is the state space. This is what gauge theory does, and it is a stipulation about the formalism, not a discovery. Its licence comes entirely from the universal property in [[separation-and-quotient]].
 
-**Diagnostic.** A mismatch between the formalism's distinctions and the observables' discriminations is a defect in the presentation. The remedy is to declare the redundancy group or to supply the missing observable, and the choice between those two remedies is exactly the interesting question.
+**Diagnostic.** A mismatch between the formalism's distinctions and the observables' discriminations is a defect in the presentation. The remedy is either to declare the redundancy group or to supply the missing observable, and which of the two applies is decided by whether the surplus distinctions are doing work elsewhere in the theory.
 
 Only the diagnostic reading is safe to apply before the theory is finished, because it reports a mismatch without asserting which side is wrong.
 
@@ -30,7 +30,9 @@ be an isomorphism in the appropriate category. Failure on the left is surplus st
 
 **Enlarging the family mid-argument.** A distinction declared immaterial in one step and used to separate cases in the next. This is the most common concrete form of the previous entry and the easiest to catch on re-reading.
 
-**Quotienting past the isotropy.** Taking the orbit set where the action is not free destroys stabilizer and transition data. Correct form: retain the arrows — groupoid, descent datum, stack — as in [[rigidity-and-surplus-structure]]. The invariants can also over-cut unaided: in an algebraic setting they separate only closed orbits.
+**Changing grade mid-argument.** Concluding from the absence of a distinguishing property that there is no distinguishing relation. The grades come apart in both directions — a symmetry that swaps two points defeats the relative grade as well, while one that merely moves them does not — so each grade is a separate question. See [[grades-of-discernment]].
+
+**Quotienting past the isotropy.** Taking the orbit set where the action is not free discards stabilizer and transition data. Correct form: retain the arrows — groupoid, descent datum, stack — as in [[rigidity-and-surplus-structure]]. Invariants can also over-cut unaided: in the algebraic setting they identify every pair of orbits whose closures meet, for any group at all, and for a reductive group they separate the closed orbits and nothing finer.
 
 **Applying it region by region.** Local indiscernibility does not glue to global indiscernibility, and a razor applied on each patch can delete a holonomy. Correct form: prove descent for the discernment presheaf first. See [[symmetry-as-dual-of-discernment]].
 
@@ -38,10 +40,8 @@ be an isomorphism in the appropriate category. Failure on the left is surplus st
 
 **Reading the quotient as a derivation.** The quotient yields no dynamics, no current, and no conservation law; the additional hypotheses required are stated in [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|Indiscernibility and the Noether Gap]].
 
-**Reading discernment as actuality.** A separating family gives a spectrum, not a point of it. That distinctions are available does not make one of them realized, and the separation is stated in [[sufficient-reason/facticity-and-pointing|Facticity and Pointing]]. This is the razor's boundary: it governs what could be a fact, never which fact obtains.
+**Reading discernment as actuality.** A separating family gives a spectrum, not a point of it. That distinctions are available does not make one of them realized, and the separation is stated in [[sufficient-reason/facticity-and-pointing|Facticity and Pointing]].
 
 **Declaring something gauge before the family exists.** Calling a structure redundant presupposes the observable family whose kernel it is supposed to lie in. Where that family is still under construction — as it is throughout the causal-wall programme — the razor has nothing to act on and its use is premature.
 
-## What survives the register
-
-Applied with its index, in the right category, at the right scope, the razor still does the work this project needs. It converts metaphysical questions about individuation into checkable questions about separation. It identifies where a formalism is carrying structure it has not justified. And it names, precisely, the condition under which there is anything to have facts about at all, which is the subject of [[why-there-is-difference]].
+The governing limit is that the razor decides what could be a fact and never which fact obtains; run in reverse it fixes the condition under which there is anything to have facts about at all, which is [[why-there-is-difference]].

@@ -1,56 +1,65 @@
 # Symmetry as the Dual Presentation of Discernment
 
-A symmetry group is the kernel of a discernment relation: the transformations that no declared observable registers. Invariance and automorphism form a Galois connection, so a family of observables and a group of symmetries are two presentations of one datum — but the group presents only the *closed* part of the family, and the correspondence is exact for permutation groups and relations on a set, not automatically in continuous or algebraic settings. Whether a given group counts as gauge or as physical is a fact about which family it is the automorphism group of, not about the group. Discernment is moreover local data, and local indiscernibility need not glue.
+A symmetry group is the kernel of a discernment relation: the transformations that no declared observable registers. Invariance and automorphism form a Galois connection, so declaring which differences make a difference and declaring a group are one act in two coordinates — but the duality is faithful only when the declared family includes relations of every finite arity. At arity one the group records nothing beyond a partition, which is the same fact about grades that governs [[grades-of-discernment]], seen from the side of the group. Whether a group counts as gauge or as physical is a fact about which family it is the automorphism group of. Discernment is moreover local data, and local indiscernibility need not glue.
 
 ## The Galois connection
 
-For a set $X$ write
+For a set $X$ let the declared data be relations rather than maps, so that the poset is a set. Write $\operatorname{Inv}_n(G)$ for the $G$-invariant subsets of $X^n$ under the diagonal action, $\operatorname{Inv}(G)=\bigcup_{n\geq1}\operatorname{Inv}_n(G)$, and
 
 $$
-\operatorname{Aut}(\mathcal F)
-=\{g\in\operatorname{Sym}(X):F\circ g=F\ \text{for all}\ F\in\mathcal F\},
-\qquad
-\operatorname{Inv}(G)
-=\{F:F\circ g=F\ \text{for all}\ g\in G\}.
+\operatorname{Aut}(\mathcal R)
+=\{g\in\operatorname{Sym}(X): g\ \text{preserves every}\ R\in\mathcal R\}.
 $$
 
 Both maps are order-reversing, and
 
 $$
-\mathcal F\subseteq\operatorname{Inv}\operatorname{Aut}(\mathcal F),
+\mathcal R\subseteq\operatorname{Inv}\operatorname{Aut}(\mathcal R),
 \qquad
 G\subseteq\operatorname{Aut}\operatorname{Inv}(G),
 $$
 
-so the composites are closure operators and the connection restricts to a bijection between closed families and closed groups. This is the precise content of the practice it explains. To declare which differences make a difference is to declare $\mathcal F$; the group $\operatorname{Aut}(\mathcal F)$ is the same declaration written as its kernel, and it is usually the more tractable of the two — finitely presented, classifiable, representable — which is why the study of symmetry groups is the study of discernment carried out in the efficient coordinate.
+so the composites are closure operators and the connection restricts to a bijection between closed families and closed groups. This is the precise content of the practice it explains. To declare which differences make a difference is to declare $\mathcal R$; the group $\operatorname{Aut}(\mathcal R)$ is the same declaration written as its kernel, and it is usually the more tractable of the two, which is why the study of symmetry groups is the study of discernment carried out in the efficient coordinate.
 
-## What the group forgets
+## Arity is the grade of discernment
 
-The connection is a bijection only between *closed* objects. For permutation groups on a set, the closure is the topological one:
+The duality is worthless at arity one. Since each orbit is itself an invariant subset, a permutation preserving every member of $\operatorname{Inv}_1(G)$ is exactly one preserving every orbit setwise, so
 
 $$
-\operatorname{Aut}\operatorname{Inv}(G)=\overline G,
+\operatorname{Aut}\operatorname{Inv}_1(G)=\prod_{\mathcal O}\operatorname{Sym}(\mathcal O),
 $$
 
-the closure of $G$ in the topology of pointwise convergence, which for finite $X$ is $G$ itself. Two observable families with the same automorphism group therefore have the same closure and need not be the same family. The group records what is indiscernible; it does not record which observables were primitive.
+the product over $G$-orbits. The closed groups at that arity are precisely the products of full symmetric groups on the blocks of a partition; the group records the partition $X/\!\equiv$ and nothing else. For $G=\langle(123)\rangle$ on three points the recovered group is $S_3$, not $\mathbb Z/3$.
 
-The correspondence also weakens outside the plain set-theoretic setting, and the weakening is not a technicality. For an algebraic group acting on an affine variety, invariant regular functions separate *closed* orbits only: orbits whose closures meet are identified by every invariant, so the invariant-theoretic quotient is coarser than the orbit set. There the razor over-cuts on its own, without anyone applying it. Any transfer of the connection to smooth, measurable, operator-algebraic, or scheme-theoretic settings must state its hypotheses rather than inherit them.
+Admitting all finite arities repairs this. The orbit of a tuple is then itself an invariant relation, which forces any recovered permutation to agree with some element of $G$ on each tuple, and Krasner's theorem gives
+
+$$
+\boxed{
+\operatorname{Aut}\operatorname{Inv}(G)=\overline G ,
+}
+$$
+
+the closure of $G$ in the topology of pointwise convergence, which for finite $X$ is $G$ itself. The moral is not technical. A group carries more information than a partition exactly because discernment is *relational*. The step from arity one to arity two is the same step as the one from absolute to relational discernment in [[grades-of-discernment]]; the two relational grades are then separated by a condition on the formula rather than by a further rise in arity. Absolute discernment sees only blocks, and the structure of a symmetry lives at arity two and above.
+
+Even so, the connection is a bijection only between closed objects, so two families with the same automorphism group have the same closure and need not be the same family. The group records what is indiscernible, never which relations were primitive.
+
+The correspondence also weakens outside the plain set-theoretic setting, and the weakening is not a technicality. For a *reductive* group acting on an affine variety over an algebraically closed field, the invariant ring is finitely generated and the affine quotient separates disjoint closed invariant subsets — so invariants separate closed orbits, and orbits whose closures meet are identified by every invariant. That last identification holds for any group whatever, and without reductivity even distinct closed orbits can fail to be separated, as they do for the additive group acting on the plane by $t\cdot(x,y)=(x,y+tx)$. Any transfer of the connection to smooth, measurable, operator-algebraic, or scheme-theoretic settings must state its hypotheses rather than inherit them.
 
 ## Gauge and physical symmetry differ by index, not by kind
 
-A transformation is gauge when it lies in $\operatorname{Aut}(\mathcal F)$ for the declared $\mathcal F$, and physical when it does not. The same abstract group can occupy either role in different theories, and no inspection of the group settles the question. This is [[two-directions|the suppressed index]] appearing in its physical form: an assertion that some symmetry is "merely a redescription" is an assertion about $\mathcal F$.
+A transformation is gauge when it lies in $\operatorname{Aut}(\mathcal R)$ for the declared family, and physical when it does not. The same abstract group can occupy either role in different theories, and no inspection of the group settles the question. This is [[two-directions|the suppressed index]] in its physical form: an assertion that some symmetry is merely a redescription is an assertion about the family.
 
-The two roles have different mathematical consequences, and the four-way classification — continuous global, gauge, discrete, and one-sided — is set out in [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|Indiscernibility and the Noether Gap]] together with the reason that none of them follows from indiscernibility alone. The gap is worth restating in the present vocabulary: the Galois connection is a statement about *which* transformations are undetectable, and contains no dynamics, no phase space, no action functional, and therefore no current. A theory of what makes no difference is not yet a theory of what is conserved.
+The four-way classification of what a symmetry yields — continuous global, gauge, discrete, one-sided — and the reason that none of it follows from indiscernibility alone are given in [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|Indiscernibility and the Noether Gap]].
 
-The role assignment is also unstable under change of scope. In the causal-scale programme the horizontal transport $\Phi$ and the internal gauge fibers occupy different registers, and [[symmetry-groups-select/reconstruction-versus-selection|gauge reconstruction is not gauge selection]] records what would be required to derive the internal group rather than import it. Reconstruction theorems traverse the Galois connection; they do not choose the family it starts from.
+The role assignment is also unstable under change of scope. In the causal-scale programme the horizontal transport and the internal gauge fibers occupy different registers, and [[symmetry-groups-select/reconstruction-versus-selection|gauge reconstruction is not gauge selection]] records what would be required to derive the internal group rather than import it. Reconstruction theorems traverse the Galois connection; they do not choose the family it starts from.
 
 ## Discernment is local data
 
-For a theory with regions, the declared family is not one family but an assignment $U\mapsto\mathcal F(U)$ with restriction maps, and therefore a presheaf of discernment relations rather than a single relation. Two configurations may then be indiscernible on every member of a cover and discernible globally.
+For a theory with regions, the declared family is not one family but an assignment $U\mapsto\mathcal R(U)$ with restriction maps, and therefore a presheaf of discernment relations rather than a single relation. Two configurations may then be indiscernible on every member of a cover and discernible globally.
 
-This is not a pathology; it is where some of the most secure physics lives. A connection that is locally pure gauge can have nontrivial holonomy around a cycle that no local observable sees, and the difference is registered by a cohomology class rather than by any element of $\mathcal F(U)$. The obstruction is exactly the gluing datum of [[basic-concepts/gluing/entry|gluing]] and [[basic-concepts/sheafs/entry|sheaves]], and its coherent form over a cover is [[basic-concepts/descent/entry|descent]].
+This is not a pathology; it is where some of the most secure physics lives. A connection that is locally pure gauge can have nontrivial holonomy around a cycle that no local observable sees, and the difference is registered by a cohomology class rather than by any element of $\mathcal R(U)$. The obstruction is exactly the datum of [[basic-concepts/gluing/entry|gluing]] and [[basic-concepts/sheafs/entry|sheaves]], and its coherent form over a cover is [[basic-concepts/descent/entry|descent]].
 
-The consequence for the razor is sharp and easy to state:
+The consequence for the razor is sharp:
 
 $$
 \boxed{

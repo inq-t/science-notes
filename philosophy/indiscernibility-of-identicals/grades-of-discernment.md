@@ -1,6 +1,6 @@
 # Grades of Discernment
 
-Discernment by a monadic property, by an asymmetric relation, and by an irreflexive relation form a strictly increasing hierarchy, and the identity of indiscernibles has a different truth value at each grade. Automorphism orbits are contained in the indiscernibility classes of the invariant *monadic* family, which is why symmetric structures are the standard counterexamples at the strongest grade and not at the weakest. The weakest grade grounds identity only in a language from which identity has been excluded; otherwise it is circular.
+Discernment by a monadic property, by an asymmetric relation, and by an irreflexive relation form a strictly increasing hierarchy, and the identity of indiscernibles has a different truth value at each grade. Automorphism orbits are exactly the classes of the invariant monadic family and are contained in those of the definable one, which is why symmetric structures are the standard counterexamples at the strongest grade; the weaker grades survive some symmetries and not others, and must be checked one at a time. The weakest grade grounds identity only in a language from which identity has been excluded; otherwise it is circular.
 
 ## Three grades
 
@@ -28,17 +28,20 @@ If the language contains identity, then $x\neq y$ is itself irreflexive, and any
 
 ## Orbits and invariants
 
-Let $G=\operatorname{Aut}(X)$ and let $\mathcal F$ be the family of $G$-invariant monadic maps — the maps definable by one-place formulas of the language, so that $F\circ g=F$ for all $g\in G$. Then for every $x$ we have $x\equiv_{\mathcal F}g\,x$, hence
+Two monadic families are in play at the absolute grade and they must not be run together. Let $G=\operatorname{Aut}(X)$, let $\mathcal F_{\mathrm{inv}}$ be *all* $G$-invariant maps $X\to\mathbb C$, and let $\mathcal F_{\mathrm{def}}$ be the indicators $1_{\varphi(X)}$ of the subsets defined by a one-place formula over $\varnothing$, so that $x\equiv_{\mathcal F_{\mathrm{def}}}y$ says exactly that $x$ and $y$ have the same complete $1$-type. Every definable map is invariant, so $\mathcal F_{\mathrm{def}}\subseteq\mathcal F_{\mathrm{inv}}$ and the induced relations run the other way. Since each orbit indicator $1_{Gx}$ is itself invariant,
 
 $$
 \boxed{
-G\text{-orbits}\ \subseteq\ \text{classes of absolute indiscernibility}.
+\{(x,gx):x\in X,\ g\in G\}
+\;=\;\bigl(\equiv_{\mathcal F_{\mathrm{inv}}}\bigr)
+\;\subseteq\;\bigl(\equiv_{\mathcal F_{\mathrm{def}}}\bigr)
+\;\subseteq\;X\times X .
 }
 $$
 
-This inclusion is the source of every standard counterexample at the absolute grade: a structure with a nontrivial automorphism has distinct elements that no invariant monadic property separates. Two points exchanged by a symmetry are absolutely indiscernible, by a one-line argument and with no metaphysics involved. The inclusion says nothing about the relational grades, and the strictness examples above show that it must not be read as if it did.
+The inclusion is the source of every standard counterexample at the absolute grade: two points exchanged by a symmetry lie in one orbit, hence in one class of $\equiv_{\mathcal F_{\mathrm{def}}}$, so no one-place formula separates them — a one-line argument with no metaphysics in it. The equality says something else, that against the full invariant family the principle is exactly rigidity. The inclusion is strict in general, and the gap between the two families is the gap between a symmetry and what a language can say about it.
 
-The converse inclusion is not general. Elements may share every definable property and still lie in different orbits — in $(\alpha,<)$ for an ordinal $\alpha>2^{\aleph_0}$ every element is fixed by every automorphism, yet a countable language admits at most $2^{\aleph_0}$ complete types, so some two ordinals satisfy exactly the same formulas. Equality of orbits with indiscernibility classes holds under additional hypotheses: for a structure that is $\omega$-categorical in a countable first-order language, the Ryll-Nardzewski characterization makes the orbits of $\operatorname{Aut}(X)$ on $X^n$ coincide with the sets defined by complete $n$-types over $\varnothing$. Both hypotheses are load-bearing and must be checked rather than assumed.
+The difference is not idle, because the principle has different truth conditions on the two sides. Against $\mathcal F_{\mathrm{inv}}$ it holds precisely when the orbits are singletons. Against $\mathcal F_{\mathrm{def}}$ that is necessary and not sufficient: elements may share every definable property and lie in different orbits. In $(\alpha,<)$ for an ordinal with $|\alpha|>2^{\aleph_0}$ — say $\alpha=(2^{\aleph_0})^{+}$ — every element is fixed by every automorphism, since a well-order is rigid, yet a countable language admits at most $2^{\aleph_0}$ complete $1$-types, so some two ordinals satisfy exactly the same formulas. Equality of the two sides holds under additional hypotheses: for a *countable* structure that is $\omega$-categorical in a countable first-order language, the Ryll-Nardzewski characterization makes the orbits of $\operatorname{Aut}(X)$ on $X^n$ coincide with the sets defined by complete $n$-types over $\varnothing$. Countability of the structure is load-bearing — an uncountable model of the same theory can have automorphisms constrained by class cardinalities — and must be checked rather than assumed.
 
 A limiting case deserves its own name. If $G$ acts transitively on a nonempty $X$ then every $G$-invariant function is constant:
 
@@ -58,4 +61,4 @@ Permutation invariance of a many-body theory declares that particle labels are n
 
 The narrower observation — that fermions in an antisymmetric state stand in irreflexive relations to one another and are therefore weakly discernible, while no invariant monadic property separates them — is a proposed reading and is contested, not a safe result. It depends on reading a relation off the expectation value of a symmetric projector in the given state, and both the irreflexivity of the resulting relation and the identification of its relata have been disputed. What is safe is only the structural point it illustrates: the grades come apart, and a configuration can be discernible at one grade and not at another.
 
-The governing caution is that a symmetry defeats the principle at the grade of properties while leaving the grade of relations untouched, and an argument that moves between the two without saying so has changed its subject.
+The governing caution is that the grades must be checked one at a time. A symmetry defeats the principle at the grade of properties for any two points sharing an orbit, and at the relative grade whenever some automorphism *swaps* them, as the two-element example above shows; what a swapping symmetry can leave standing is at most weak discernibility, and even that only if the structure supplies an irreflexive relation. An argument that moves between grades without saying so has changed its subject.

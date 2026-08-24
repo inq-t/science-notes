@@ -1,6 +1,6 @@
 # Rigidity and Surplus Structure
 
-Rigidity — the triviality of the automorphism group — is what the orbit inclusion identifies as the obstruction to the identity of indiscernibles at the grade of properties. It is necessary for the invariant language to separate points and is not sufficient. Where a group acts freely and properly the quotient loses nothing an invariant could have registered; where stabilizers are present the quotient may fail to be a space at all, and the honest repair is to keep the arrows. Surplus structure in a physical formalism is the same phenomenon seen from the other side, and it is a defect only when the extra distinctions are also idle for locality and well-posedness.
+Rigidity — the triviality of the automorphism group — is what the orbit inclusion identifies as the obstruction to the identity of indiscernibles at the grade of properties. Against the full family of invariants it *is* the principle; against the family a language can define it is necessary and not sufficient. Where a group acts freely and properly the quotient loses nothing an invariant could have registered; where the action is not proper the quotient can fail to be a space at all, and where stabilizers are present it can fail to be smooth. The honest repair in either case is to keep the arrows. Surplus structure in a physical formalism is the same phenomenon seen from the other side, and it is a defect only when the extra distinctions are also idle for locality and well-posedness.
 
 ## Rigidity is necessary, not sufficient
 
@@ -12,11 +12,11 @@ $$
 \text{every }\operatorname{Aut}(X)\text{-orbit is a singleton}.
 $$
 
-Combined with the orbit inclusion of [[grades-of-discernment]], a nontrivial automorphism is a *witness* against the invariant-language principle, so rigidity is required for that principle to hold. It does not secure it: as the ordinal example in that note shows, a rigid structure can still contain elements no formula separates. The vocabulary transfers only in the direction the inclusion runs.
+By the boxed statement of [[grades-of-discernment]], the orbits are exactly the indiscernibility classes of the full invariant family, so against that family rigidity and the principle coincide. Against the definable family only one direction survives: a nontrivial automorphism is a witness against the principle, so rigidity is required, but it does not secure it — the ordinal example in that note is rigid and still contains elements no formula separates.
 
 | Discernment | Structural name | What must be retained |
 |---|---|---|
-| invariants separate points | rigid, and enough types | the set of points |
+| definable properties separate points | rigid, and enough types | the set of points |
 | action free and proper, some orbit nontrivial | no isotropy | the space together with its difference structure; no preferred origin |
 | some point has nontrivial stabilizer | non-rigid, isotropy present | the arrows: a groupoid or stack, not a set |
 
