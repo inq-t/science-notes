@@ -152,23 +152,33 @@ In a finite atomic commutative context, continuous modular invariance forces the
 
 Jones index applies to subfactors, while Pimsner--Popa index treats more general expectations. If a normal expectation from a type-III factor onto a commutative algebra exists, it cannot have finite Pimsner--Popa index: finite-index expectations preserve the relevant type decomposition. The final observational step is consequently infinite-index or belongs to a different categorical construction.
 
-## The gravitational weld
+## The revised gravitational typing
 
-The exact theorem stops at \(G^{\mathrm{wall}}\). If \(\mathfrak S\) maps wall tangents into geometric tangents, the proposed metric statement is
+The exact theorem stops at
 
 $$
-G^{\mathrm{wall}}_{IJ}
-\stackrel{?}{=}Z_g\,
-G^{\mathrm{grav}}
-(\mathrm d\mathfrak S X_I,\mathrm d\mathfrak S X_J),
+G^{\mathrm{pre}}
+=G^{\mathrm{ret}}+G^{\mathrm{lost}}.
 $$
 
-equivalently \(G^{\mathrm{wall}}\stackrel{?}{=}Z_g\mathfrak S^*G^{\mathrm{grav}}\). A noninjective \(\mathfrak S\) would require a separately defined quotient metric. This requires, independently:
+Holographic relative-entropy results show that the controlled canonical-energy map uses the retained term:
 
-- a map from off-context algebraic tangents to metric or connection tangents;
-- localization on a causal wall;
-- a curvature, canonical-energy, or entropy-area response with the same tangent normalization;
-- Ward, Bianchi, gauge, and boundary consistency; and
-- a noncircular coefficient \(Z_g\).
+$$
+G^{\mathrm{ret}}
+\stackrel{\mathrm{AdS\ calibration}}{=}
+\mathfrak S^*\mathcal E_{\mathrm{can}}^{\mathrm{grav}},
+$$
 
-Without those constructions, \(\Sigma_E\) is lost relative distinction and gained observable entropy, not gravity. With them, gravity would be the geometric representation of the wall defect rather than an additional store of conserved information.
+while the gravitational area term is a separate central operator that cancels from fixed-code relative entropy. The coefficient weld is therefore
+
+$$
+\mathcal L_E(U)
+\stackrel{?}{=}
+\eta_*\mathcal A_D(U)
+$$
+
+for every admissible patch, with \(\mathcal A_D\) independently normalized. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives the exact cell identity relating central edge entropy, index capacity, and lost distinction. [[spectral-wall-descent/ads-calibration-and-ds-carrier|The AdS/dS note]] states the retained-response calibration.
+
+This refinement does not make \(G^{\mathrm{lost}}\) irrelevant. It remains the exact BKM cost of the expectation and the entropy gained by coarse graining. In the finite factor cell it complements central geometric entropy inside one index budget. But it is not automatically the gravitational canonical-energy metric.
+
+A completed construction still requires localization, tangent transport, spectral area, covariance, Ward and Bianchi consistency, soldering, and a noncircular \(\eta_*\). Until those are supplied, \(\Sigma_E\) is lost relative distinction and gained observable entropy, while \(\mathcal L_E\) is only a candidate central geometry.

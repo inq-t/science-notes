@@ -1,12 +1,13 @@
 # Symmetry, Conservation, and Action
 
-The programme distinguishes five mathematical orders that recurring language tends to merge: a homotopy or index class records structural persistence, a Casimir is an invariant polynomial, capacity is a positive quadratic response, charge is linear in a symmetry generator, and an action is a functional on observable histories. A future unification must connect these types through explicit maps rather than call all of them “conservation.”
+The programme distinguishes six mathematical orders that recurring language tends to merge: a homotopy or index class records structural persistence, categorical dimension values a composable correspondence, a Casimir is an invariant polynomial, capacity is a positive quadratic response, charge is linear in a symmetry generator, and an action is a functional on observable histories. A future unification must connect these types through explicit maps rather than call all of them “conservation.”
 
-## Five orders
+## Six orders
 
 | Order | Typical object | Variance and sign | What it can establish |
 |---|---|---|---|
 | Structural class | \([D]\in K^*(\mathcal A)\), a \(KK\)-class, or cyclic class | locally constant under admissible homotopy | persistence of index pairings through changing representatives |
+| Categorical valuation | dimension of a dualizable correspondence; matrix dimension with centers | multiplicative under fusion in the appropriate categorical form | compositional capacity across algebra-changing scale transport |
 | Casimir | \(C_R\in Z(U\mathfrak g)\) or an invariant norm | fixed within a representation | algebraic sector and norm allocation |
 | Capacity | \(g(v,v)\geq0\) | quadratic in the tangent | susceptibility, squared speed, canonical-energy candidate |
 | Charge | \(\langle\boldsymbol\mu,\xi\rangle\) | linear in a normalized generator | Noether, Hamiltonian, or boundary balance |
@@ -105,7 +106,16 @@ These equations are **[CONJECTURE — CHARGE LEVEL]**. They presuppose compatibl
 
 The intended conservation statement is about the flux-inclusive whole, not a substance that migrates from “information” into “space.”
 
-## How capacity could meet charge
+## How compositional capacity could meet response and charge
+
+For dualizable factor correspondences,
+
+$$
+d(X_{32}\boxtimes X_{21})
+=d(X_{32})d(X_{21}),
+$$
+
+so \(\log d\) is additive under fusion. This is the strongest current candidate for a quantity that remains exact through the wall: it is a monoidal valuation, not a time-conserved Noether charge. With centers, the functorial object is a matrix dimension or the full correspondence. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows how a chosen edge entropy and its distinction from the tracial state partition the tracial capacity in a matched factor cell.
 
 The plausible bridge is a common variational structure:
 
@@ -117,16 +127,22 @@ $$
 \text{second variation of a charge or action}.
 $$
 
-More precisely, the same-tangent conjecture seeks
+More precisely, controlled AdS calibration seeks the retained-response equality
 
 $$
-g^{\mathrm{BKM}}(v,v)
-=Z_g\,
+g^{\mathrm{BKM}}_{\mathrm{ret}}(v,v)
+=
 \mathcal E^{(1)}_{\mathrm{can}}
 (\mathfrak S v,\mathfrak S v).
 $$
 
-This can place a quadratic state capacity and gravitational Noether structure in one theory without identifying capacity with the linear charge. The coefficient \(Z_g\) must remain symbolic until the state side is independently calculated.
+The coefficient is supplied separately by the central density equation
+
+$$
+\mathcal L_E(U)=\eta_*\mathcal A_D(U).
+$$
+
+Together these can place categorical capacity, quadratic state response, and gravitational Noether structure in one theory without identifying any of them with the linear charge. The density \(\eta_*\) must remain symbolic until the correspondence and spectral area sides are independently calculated.
 
 ## Why this is not yet least action
 

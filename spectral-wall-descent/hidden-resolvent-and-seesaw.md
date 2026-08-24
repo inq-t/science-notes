@@ -135,6 +135,33 @@ $$
 
 For constant \(v\), its magnitude is largest at long wavelength. More generally, bounded \(v(k)\) proves only ultraviolet decay of order \(k^{-2}\); a long-wavelength maximum requires additional nonvanishing and monotonicity hypotheses on the vertex. This differentiation of an existing scale spectrum is produced by algebraic elimination, not assigned as primordial lumpiness.
 
+## The determinant companion
+
+The Schur complement is only the noncentral output of eliminating \(h\). For an invertible hidden block,
+
+$$
+\det
+\begin{pmatrix}
+G&B\\
+B^*&L
+\end{pmatrix}
+=\det L\,\det(G-BL^{-1}B^*).
+$$
+
+Gaussian integration consequently contributes both the retained response correction and a central term \(\tfrac12\log\det L\). After spectral regularization the latter may generate cosmological, Einstein, and higher-curvature coefficients. For an affine positive Gaussian family its Hessian is
+
+$$
+\partial_I\partial_J
+\left[-\frac12\log\det L\right]
+=\frac12\operatorname{Tr}
+\left(
+L^{-1}\partial_IL
+L^{-1}\partial_JL
+\right),
+$$
+
+the Gaussian Fisher--BKM metric. [[spectral-wall-descent/response-determinant|The response--determinant note]] develops this exact same-operator bridge and the unresolved regulator normalization.
+
 ## The same grammar is the seesaw
 
 For one light and one heavy internal mode, take the symmetric mass block

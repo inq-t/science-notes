@@ -218,7 +218,7 @@ A connection is a splitting as vector bundles. Its curvature is the failure of t
 
 ## The proposed wall diagram
 
-The candidate construction separates a standard relative pairing from two open geometric arrows:
+The candidate construction now separates four typed statements:
 
 $$
 \begin{aligned}
@@ -231,19 +231,26 @@ K_*(\mathcal A,\mathcal B)
 &\dashrightarrow
 \text{boundary curvature density},
 &&\text{open transgression and soldering},\\
-G^{\mathrm{wall}}
+G^{\mathrm{ret}}
+&\xrightarrow{\ \mathfrak S\ }
+\mathcal E_{\mathrm{can}}^{\mathrm{grav}},
+&&\text{calibrated in controlled AdS code sectors},\\
+\mathcal L_E(U)
 &\stackrel{?}{=}
-Z_g\,\mathfrak S^*G^{\mathrm{grav}},
-&&\text{open metric weld}.
+\eta_*\mathcal A_D(U),
+&&\text{open central spectral-area weld}.
 \end{aligned}
 $$
 
-The first line is topological and cohomological. The dashed arrow is not supplied by the Chern character alone, and the final line is continuous and metric. A completed theory must show that all three arise from one wall correspondence without identifying an integer index with an entropy or a BKM norm.
+The first line is topological and cohomological. The dashed arrow is not supplied by the Chern character alone. The retained-response line is continuous and metric, while the final line compares a central entropy operator with a dimensionful spectral measure. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows that central edge entropy equals half a log index only in an index-saturated factor sector; in general a relative-entropy defect separates them.
+
+A completed theory must show that these statements arise compatibly from one scale-indexed correspondence without identifying an integer index, its logarithm, edge entropy, BKM norm, and physical area. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] is the typed container for that compatibility.
 
 ## Failure conditions
 
 - A \(KK\)-equivalent inclusion has trivial relative \(K\)-groups and therefore no nonzero relative class of the proposed kind; this does not by itself make every metric or entropy defect vanish.
 - Index invariance alone cannot determine a continuous mass, entropy, or Newton coefficient.
+- With nontrivial centers, scalar minimal index is not functorially multiplicative; the matrix dimension or full correspondence must be retained.
 - A conditional expectation is not a quotient homomorphism and has no automatic six-term sequence.
 - A \(G\to H\) reduction is not gravity unless its coset component is genuinely soldered to \(TX\).
 - Curvature of a context bundle is not automatically Lorentzian spacetime curvature.

@@ -76,6 +76,28 @@ presupposes that $\mathcal A_{N_1}$ and $\mathcal A_{N_2}$ have already been pla
 
 [[vertical-and-horizontal-motion|Vertical and horizontal motion]] fixes the recurring type distinction, while [[state-coordinate-types|the state-coordinate ledger]] separates a family label, a transported comparison coordinate, and a spacetime field. If Euclidean periodicity is proposed as a width selector, [[euclidean-monodromy-and-width|the monodromy conjecture]] states the additional transport theorem it would need.
 
+### Correspondence upgrade
+
+An embedding \(\iota_{N_2:N_1}\) is too restrictive when the algebra itself changes across scale. A microscopic member may instead supply a von Neumann correspondence
+
+$$
+{}_{\mathcal A_{N_2}(O)}X_{N_2:N_1}{}_{\mathcal A_{N_1}(O)}
+$$
+
+with coherent Connes fusion
+
+$$
+X_{N_3:N_2}
+\boxtimes_{\mathcal A_{N_2}}
+X_{N_2:N_1}
+\simeq
+X_{N_3:N_1}.
+$$
+
+The embedding slot should then be read as the representable special case of this correspondence transport. A finite-index gravitational expectation can live at an intermediate noncommutative stage, while the final type-III-to-commutative factual descent remains generally infinite index. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] gives the full typing, and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] gives its exact local model.
+
+This upgrade does not add a tenth independent return value to \(\mathfrak W\); it strengthens the transport slot. A candidate must still specify how states, source tangents, and spectral data are induced across the correspondence.
+
 ## One tangent space, two consumers
 
 Write the scale variation of a positive scale section against a homogeneous reference as

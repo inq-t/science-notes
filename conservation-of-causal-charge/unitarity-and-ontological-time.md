@@ -1,6 +1,6 @@
 # Why Unitarity Is Not the Wall Symmetry
 
-The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas the wall is meant to discard distinctions, produce an observable law, and orient irreversible factual history. The strongest present replacement has three different parts: an algebraic class can persist through changing representatives, a conditional expectation can split response exactly into retained and lost blocks, and observable physics can later possess ordinary Noether charges and actions. None is a conservation of information across the wall.
+The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas the wall is meant to discard distinctions, produce an observable law, and orient irreversible factual history. The strongest present replacement is compositional rather than dynamical: a correspondence class fuses coherently across scale, a conditional expectation divides retained from erased distinction, and in a matched type-I cell the tracial index capacity partitions into a chosen central edge entropy and its tracial defect. Observable Noether charges and least action arise only later. None is conservation of an information substance across the wall.
 
 ## The wall is deliberately noninvertible
 
@@ -78,18 +78,34 @@ $$
 
 It is not a conserved energy, entropy, bit count, or Hilbert norm. [[spectral-wall-descent/index-and-curvature-transgression|Index and curvature transgression]] develops this claim and its failure conditions.
 
-## Gravity is the proposed image of the wall defect
+## Gravity is central entropy, not simply the lost block
 
-The exact algebra stops at \(\mathbb G^{\mathrm{wall}}\). Let \(\mathfrak S\) be a proposed map from wall tangents to geometric tangents. The well-typed metric conjecture is a pullback equality
+Controlled holographic relative-entropy results refine the earlier direct conjecture. Regional Fisher information retained by the reconstructable algebra maps to gravitational canonical energy,
+
+$$
+G^{\mathrm{ret}}
+\stackrel{\mathrm{AdS\ calibration}}{=}
+\mathfrak S^*\mathcal E_{\mathrm{can}}^{\mathrm{grav}},
+$$
+
+while the area term is central and cancels from fixed-code relative entropy. The gravitational coefficient is therefore sought in the independent operator identity
+
+$$
+\mathcal L_E(U)
+\stackrel{?}{=}
+\eta_*\mathcal A_D(U).
+$$
+
+In the matched type-I factor cell of [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]], compare the code edge state \(\chi\) with the tracial reference expectation \(E_\tau\). Then
 
 $$
 \boxed{
-\mathbb G^{\mathrm{wall}}
-\stackrel{?}{=}
-Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}},}
+S(\chi)
++D(\chi\Vert\tau)
+=\frac12\log\operatorname{Ind}(E_\tau).}
 $$
 
-meaning \(G^{\mathrm{wall}}(X,Y)=Z_gG^{\mathrm{grav}}(\mathrm d\mathfrak S X,\mathrm d\mathfrak S Y)\) if the conjecture holds. The map must produce a connection or metric tangent, localization on a causal wall, curvature, area normalization, and the relevant gauge and boundary identities; \(Z_g\) remains independent until a unit matching is proved. A quotient-metric formulation would require an independently declared minimization over lifts. In this sense gravity would balance lost observable distinction by representing the same response geometrically.
+Central edge entropy \(S(\chi)\) and distinction from the tracial capacity state \(D(\chi\Vert\tau)\) are complementary portions of one algebraic capacity. The code expectation determined by \(\chi\) need not equal \(E_\tau\); keeping them distinct is the precise sense in which gravity and loss may balance without being identified.
 
 Entropy is close to anti-information only after a reference and algebra are declared. In a finite \(n\)-level tracial register,
 
@@ -98,6 +114,15 @@ D(\rho\Vert\mathbf1/n)=\ln n-S(\rho).
 $$
 
 This does not make entropy identical to curvature. [[spectral-wall-descent/heat-entropy-no-go|The heat-entropy calculation]] shows that normalized spectral entropy cancels the term linear in the \(a_2\) coefficient containing the Einstein--Hilbert action. A genuine gravity map must therefore use relative wall data, a curvature transgression, canonical energy, or another independently justified construction.
+
+The compositional candidate for persistence is a dualizable correspondence. In a factor sector,
+
+$$
+d(X_{32}\boxtimes X_{21})
+=d(X_{32})d(X_{21}),
+$$
+
+so \(\log d\) is additive under fusion. This is a categorical valuation, not a Noether charge. With centers, the full matrix dimension or bimodule must be retained. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] states the required coherence and its facthood boundary.
 
 ## Least action belongs to the observable register
 
@@ -134,8 +159,9 @@ This one-sided inclusion order is a candidate for ontological time. It is neithe
 
 | Layer | Mathematical object | What may persist | What does not follow |
 |---|---|---|---|
-| Pre-observable structure | spectral datum, category, or correspondence | \(K\)-homology, \(KK\), cyclic, or index class | action, energy, or unitary time evolution |
-| Wall crossing | expectation, instrument, or noninvertible correspondence | equivariance of the family and exact response splitting when hypotheses hold | conservation of information |
+| Pre-observable structure | spectral datum and scale-indexed correspondence | \(K\)-homology or cyclic class; fusion coherence; matrix dimension | action, energy, or unitary time evolution |
+| Gravitational wall | finite-index expectation when available | retained/lost response split and central index--entropy budget | a commutative fact or numerical \(G\) without spectral area |
+| Factual wall | generally infinite-index expectation or instrument | compatibility of readout contexts | finite-index geometry or unitary information conservation |
 | Observable physics | spectral action, covariant phase space, fields | Noether charge or boundary flux when derived | pre-observable necessity |
 | Factive history | contextual characters and record inclusions | compatibility of the realized record | reversible dynamics |
 
@@ -143,9 +169,9 @@ This one-sided inclusion order is a candidate for ontological time. It is neithe
 
 - If the wall map is unitary or invertible, it cannot account for genuine loss. A \(KK\)-equivalent inclusion may still have metric defects, but its relative \(K\)-groups cannot carry the proposed topological wall class.
 - If no state-preserving expectation or substitute instrument exists, the exact entropy and BKM split is unavailable.
-- If an index class is the only invariant, it is too coarse to fix a continuous gravitational coupling or local curvature.
-- If \(\mathbb G^{\mathrm{wall}}\) is simply renamed gravity, the carrier-changing weld has not been constructed.
+- If an index class is the only invariant, it is too coarse to fix a continuous gravitational coupling or local curvature; a central state and spectral area density are also required.
+- If \(\mathbb G^{\mathrm{wall}}\) is simply renamed gravity, the retained canonical-energy map and central area operator have been conflated.
 - If the spectral action is applied upstream merely because it works downstream, observable variational structure has been projected into the wrong register.
 - If there is no actual character and persistent record, increased observable entropy describes possibilities rather than one cosmic history.
 
-The strongest present principle is therefore not unitarity but **structural exactness under noninvertible descent**: an algebraic pairing class may persist, the wall may exactly divide response into retained and lost distinction, gravity may be the geometric representation of the lost block, and ontological time may be the directed stabilization of one resulting factual history.
+The strongest present principle is therefore not unitarity but **compositional exactness under noninvertible descent**: correspondences fuse coherently, the wall divides retained from erased distinction, finite-index capacity partitions into central geometry and defect, and ontological time is the directed stabilization of one resulting factual history.

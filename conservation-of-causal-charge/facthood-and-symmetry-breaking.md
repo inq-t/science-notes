@@ -41,7 +41,7 @@ Suppose a group \(G\) acts on an unpointed object \(P\). A selected point or sec
 
 A torsor gives the cleanest elementary analogy. It has canonical relative differences but no preferred origin. Choosing one point supplies an origin and trivializes the torsor, while the transition relations among alternative choices remain meaningful. [[basic-concepts/torsors/entry|Torsors]] also warns that this analogy cannot be applied until the acting group, freeness, transitivity, and local topology have been specified.
 
-For contextual facts, a groupoid or stack may be more appropriate than a single torsor. Local pointings can differ while their overlap arrows and cocycle class retain the relational whole.
+For contextual facts, a groupoid or stack may be more appropriate than a single torsor. Local pointings can differ while their overlap arrows and cocycle class retain the relational whole. In the finite-index model, observable sectors arise as characters of the center \(Z(\mathcal M_R)\), while each sector retains a noncommutative fibre; [[spectral-wall-descent/scale-correspondence-stack|the scale-correspondence stack]] keeps this sectoral lumpiness distinct from primitive lumps in the upstream algebra.
 
 ## Two meanings of homogeneity
 

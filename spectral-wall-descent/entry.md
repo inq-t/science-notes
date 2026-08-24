@@ -1,6 +1,6 @@
 # Spectral Wall Descent
 
-Spectral wall descent is the proposed algebraic passage from a homogeneous noncommutative spectral datum to a symmetry-broken observable geometry. The passage is not unitary and need not preserve an amount called information. Within a fixed algebraic carrier, a \(K\)-homology or cyclic fundamental class can persist under inner fluctuation; carrying it across an algebra-changing wall requires an additional correspondence. What can be lost at a conditional-expectation wall is relative distinguishability, while what is gained in the finite tracial model is exactly observable entropy. The spectral action and least-action equations are placed only on the resulting observable geometry. Gravity is conjectured to represent the wall-loss response through curvature and soldering, not to be a renamed entropy or a hidden unitary environment.
+Spectral wall descent is the proposed algebraic passage from a homogeneous noncommutative spectral datum to a symmetry-broken observable geometry. The construction now has three distinct ledgers: conditional expectation splits retained from erased distinguishability; a finite-index correspondence places gravitational edge entropy in the center of the descended algebra; and a later, generally infinite-index readout produces commutative facts and records. AdS holography calibrates the retained Fisher response against canonical energy, while direct de Sitter type-II algebras can carry observable cosmic geometry. The spectral action and least-action equations remain downstream. The open theorem is an all-patch equality between central edge entropy, horizontal BKM capacity, and independently normalized spectral area—not a conservation of unitary information or a renaming of loss as gravity.
 
 ## The revised order of construction
 
@@ -9,11 +9,13 @@ The proposed order is
 $$
 \boxed{
 \begin{aligned}
-&\text{pre-observable spectral datum and invariant class}\\
+&\text{homogeneous pre-observable spectral datum}\\
 &\longrightarrow
-\text{noninvertible contextual wall}\\
+\text{finite-index noncommutative gravitational descent}\\
 &\longrightarrow
-\text{observable state, geometry, action, and record}.
+\text{observable geometry and spectral action}\\
+&\longrightarrow
+\text{generally infinite-index factual descent and record}.
 \end{aligned}}
 $$
 
@@ -69,16 +71,40 @@ $$
 +\mathbb G^{\mathrm{wall}}.}
 $$
 
-The proposed gravitational step is not another exact identity. If \(\mathfrak S\) maps wall tangents to geometric tangents, the independent metric weld is
+The original direct proposal
+
+$$
+\mathbb G^{\mathrm{wall}}
+\stackrel{?}{=}
+Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}}
+$$
+
+is now too strong. Controlled AdS/CFT results identify **retained** regional quantum Fisher information with gravitational canonical energy; the central area term cancels from fixed-code relative entropy. The revised weld has two independent parts:
 
 $$
 \boxed{
-\mathbb G^{\mathrm{wall}}
-\stackrel{?}{=}
-Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}},}
+\mathbb G^{\mathrm{ret}}
+\stackrel{\mathrm{AdS\ calibration}}{=}
+\mathfrak S^*\mathcal E_{\mathrm{can}}^{\mathrm{grav}},}
 $$
 
-where \(\mathfrak S\) must construct localization, covariance, area normalization, and a spacetime carrier, while \(Z_g\) remains independent until a unit matching is proved. A noninjective map would instead require a declared quotient metric or minimum over lifts. This is the sharpened meaning of “gravity balances what observation loses.”
+$$
+\boxed{
+\mathcal L_E(U)
+\stackrel{?}{=}
+\eta_*\mathcal A_D(U)
+\qquad\text{for every admissible patch }U.}
+$$
+
+Here \(\mathcal L_E\) is a central edge-entropy operator and \(\mathcal A_D\) is spectral area with a normalization independent of measured gravity. In a type-I factor cell, the exact capacity balance is
+
+$$
+\boxed{
+S(\chi)+D(\chi\Vert\tau)
+=\frac12\log\operatorname{Ind}(E_\tau).}
+$$
+
+Thus central geometric entropy and its distinction from the tracial capacity state are complementary terms in one matched finite model; the code expectation and tracial expectation need not be the same. Gravity is not simply the lost BKM block. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] proves the finite identity, and [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] fixes the holographic typing.
 
 ## What persists through symmetry breaking
 
@@ -108,7 +134,7 @@ Nor is the actual fact itself entropic in the same way. A character of a finite 
 
 ## Calculated consequences
 
-The finite calculations establish four useful facts.
+The finite and spectral calculations establish the following useful facts.
 
 1. For the diagonal context \(\mathbb C^n\subset M_n(\mathbb C)\), relative \(K\)-theory contains the exact zero-sum lattice
 
@@ -135,6 +161,14 @@ The finite calculations establish four useful facts.
 
 5. Eliminating one positive hidden block produces the exact correction \(-BL^{-1}B^*\). [[spectral-wall-descent/hidden-resolvent-and-seesaw|One hidden resolvent]] shows how its zero mode can shift homogeneous response, its nonzero modes can generate a scale-dependent observational kernel, and its finite internal block can produce a seesaw mass. These are algebraically unified openings for dark-energy, dark-matter, and neutrino questions, not physical identifications.
 
+6. The twisted grand-symmetry involution gives the exact expectation \(E_\rho=(1+\rho)/2\) onto its fixed algebra. The Majorana singlet is twist odd, and its positive two-level normalization reproduces the binary BKM profile. [[spectral-wall-descent/twist-fixed-point-wall|The twisted fixed-point wall]] states the additional state-selection postulate.
+
+7. One positive singlet repairs a target response matrix if and only if the mismatch is positive semidefinite of rank at most one. [[program-core/singlet-response-completion|The singlet response-completion test]] replaces the claim that an extra scalar “fixes the coupling” by a generalized-eigenvalue and rank test.
+
+8. One positive Gaussian hidden operator produces both the Schur correction and a central log determinant, whose Hessian is the Gaussian Fisher--BKM metric. [[spectral-wall-descent/response-determinant|The response--determinant bridge]] is an exact same-operator relation between upstream response and downstream action.
+
+9. The Majorana cosmological coefficient completes into a positive square plus a central residual. A traceless hyperbolic orbit keeps the spectral Newton coefficient constant while producing an exact \(\operatorname{sech}^2\) deficit. [[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] proves the shape and exposes the remaining amplitude hierarchy.
+
 The finite Majorana block in Connes' Standard Model geometry supplies an additional downstream calculation. [[spectral-wall-descent/majorana-response-jacobian|The Majorana response Jacobian]] shows that one matrix \(M_R\) simultaneously changes the Einstein coefficient, cosmological coefficient, Higgs mass parameter, and seesaw spectrum. This is a genuine shared observable source, not yet the pre-observable common response.
 
 ## Relation to postquantum gravity
@@ -151,7 +185,9 @@ The current result does not derive spacetime from a spectral triple, identify en
 - a final type-III-to-commutative wall cannot be a finite-index subfactor step;
 - a unitary or invertible wall map cannot realize genuine loss, while Morita equivalence alone supplies no loss mechanism;
 - the bulk spectral action cannot recover context-dependent wall entropy;
-- an invariant index class is too coarse to determine continuous gravitational response; and
+- a scalar index is too coarse in the presence of centers, where the matrix dimension or full correspondence must be retained;
+- AdS canonical energy calibrates retained rather than erased response;
+- a central edge entropy has no physical inverse-area value until the cut Dirac operator is independently normalized; and
 - a curvature interpretation requires a constructed connection, transgression, and soldering to tangent geometry.
 
-The research target is therefore a noninvertible spectral correspondence whose relative class controls the wall defect, whose BKM Hessian yields \(\mathbb G^{\mathrm{wall}}\), and whose observable realization produces a covariant gravitational curvature and record algebra without importing either from the desired cosmology.
+The research target is therefore [[spectral-wall-descent/scale-correspondence-stack|a scale-indexed correspondence stack]] with a finite-index gravitational expectation, a central edge-state cocycle, and an independently normalized spectral area. It must prove the equality of edge, BKM, and area densities, realize de Sitter causal geometry, and only later supply a commutative character and one-sided record algebra without importing any of them from the desired cosmology.

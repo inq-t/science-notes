@@ -335,6 +335,220 @@ def check_majorana_jacobian() -> None:
     print("Majorana response Jacobian: PASS")
 
 
+def check_twisted_fixed_point_wall() -> None:
+    q = np.diag([1.0, -1.0]).astype(complex)
+    swap = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+
+    def twist(matrix: np.ndarray) -> np.ndarray:
+        return swap @ matrix @ swap
+
+    theta = 0.73
+    phi = math.tanh(theta)
+    state = 0.5 * (np.eye(2) + phi * q)
+    projected = 0.5 * (state + twist(state))
+    tracial = 0.5 * np.eye(2)
+    assert np.allclose(projected, tracial, atol=TOL)
+    assert np.allclose(twist(q), -q, atol=TOL)
+
+    defect = relative_entropy(state, tracial)
+    defect_exact = theta * math.tanh(theta) - math.log(math.cosh(theta))
+    assert abs(defect - defect_exact) < TOL
+    assert abs(
+        von_neumann_entropy(projected) - von_neumann_entropy(state) - defect
+    ) < TOL
+
+    step = 2.0e-5
+
+    def log_partition(value: float) -> float:
+        return math.log(2.0 * math.cosh(value))
+
+    hessian_fd = (
+        log_partition(theta + step)
+        - 2.0 * log_partition(theta)
+        + log_partition(theta - step)
+    ) / step**2
+    hessian_exact = 1.0 / math.cosh(theta) ** 2
+    assert abs(hessian_fd - hessian_exact) < 2.0e-6
+
+    print("twisted fixed-point wall: PASS")
+    print(f"  twist entropy defect    = {defect:.12f}")
+    print(f"  binary BKM response     = {hessian_exact:.12f}")
+
+
+def check_index_edge_balance() -> None:
+    dimension = 3
+    index_operator = np.zeros((dimension, dimension), dtype=complex)
+    for i in range(dimension):
+        for j in range(dimension):
+            matrix_unit = np.zeros((dimension, dimension), dtype=complex)
+            matrix_unit[i, j] = 1.0
+            quasi_basis = math.sqrt(dimension) * matrix_unit
+            index_operator += quasi_basis @ quasi_basis.conj().T
+    expected_index = dimension**2 * np.eye(dimension)
+    assert np.allclose(index_operator, expected_index, atol=TOL)
+
+    probabilities = np.array([0.60, 0.30, 0.10])
+    edge_entropy = float(-np.sum(probabilities * np.log(probabilities)))
+    tracial_probabilities = np.full(dimension, 1.0 / dimension)
+    edge_defect = float(
+        np.sum(probabilities * np.log(probabilities / tracial_probabilities))
+    )
+    capacity = 0.5 * math.log(dimension**2)
+    assert abs(edge_entropy + edge_defect - capacity) < TOL
+
+    print("finite-index edge balance: PASS")
+    print(f"  edge entropy            = {edge_entropy:.12f}")
+    print(f"  erased distinction      = {edge_defect:.12f}")
+    print(f"  half log index          = {capacity:.12f}")
+
+
+def positive_inverse_square_root(matrix: np.ndarray) -> np.ndarray:
+    values, vectors = np.linalg.eigh(matrix)
+    return (vectors * (values ** -0.5)) @ vectors.T
+
+
+def check_singlet_response_completion() -> None:
+    gravitational = np.array([[2.0, 0.35], [0.35, 1.25]])
+    coupling_value = 1.7
+    unit_vector = np.array([0.8, -0.6])
+    mismatch_value = 0.55
+    stiffness = 2.4
+    mismatch = mismatch_value * np.outer(unit_vector, unit_vector)
+    response_zero = coupling_value * gravitational + mismatch
+    singlet_coupling = math.sqrt(stiffness * mismatch_value) * unit_vector
+    response_effective = response_zero - np.outer(
+        singlet_coupling, singlet_coupling
+    ) / stiffness
+    assert np.allclose(
+        response_effective, coupling_value * gravitational, atol=TOL
+    )
+    assert np.linalg.matrix_rank(mismatch, tol=1.0e-10) == 1
+    assert np.min(np.linalg.eigvalsh(mismatch)) > -TOL
+
+    inverse_root = positive_inverse_square_root(gravitational)
+    ratio = inverse_root @ response_effective @ inverse_root
+    assert np.allclose(ratio, coupling_value * np.eye(2), atol=TOL)
+    determinant_ratio = math.sqrt(
+        np.linalg.det(response_effective) / np.linalg.det(gravitational)
+    )
+    assert abs(determinant_ratio - coupling_value) < TOL
+
+    print("singlet response completion: PASS")
+    print(f"  generalized eigenvalues = {np.linalg.eigvalsh(ratio)}")
+
+
+def check_response_determinant() -> None:
+    retained = np.array([[1.9, 0.2], [0.2, 1.5]])
+    hidden = np.array([[2.4, 0.15], [0.15, 1.8]])
+    coupling = np.array([[0.3, -0.1], [0.2, 0.25]])
+    full = np.block([[retained, coupling], [coupling.T, hidden]])
+    schur = retained - coupling @ np.linalg.inv(hidden) @ coupling.T
+    assert abs(
+        np.linalg.det(full) - np.linalg.det(hidden) * np.linalg.det(schur)
+    ) < TOL
+
+    direction_a = np.array([[0.35, 0.08], [0.08, -0.15]])
+    direction_b = np.array([[-0.20, 0.05], [0.05, 0.30]])
+    hidden_inverse = np.linalg.inv(hidden)
+    hessian_exact = 0.5 * np.trace(
+        hidden_inverse @ direction_a @ hidden_inverse @ direction_b
+    )
+
+    def gaussian_potential(x_value: float, y_value: float) -> float:
+        varied = hidden + x_value * direction_a + y_value * direction_b
+        sign, log_determinant = np.linalg.slogdet(varied)
+        assert sign > 0.0
+        return -0.5 * log_determinant
+
+    step = 2.0e-4
+    hessian_fd = (
+        gaussian_potential(step, step)
+        - gaussian_potential(step, -step)
+        - gaussian_potential(-step, step)
+        + gaussian_potential(-step, -step)
+    ) / (4.0 * step**2)
+    assert abs(hessian_fd - hessian_exact) < 2.0e-8
+
+    print("response determinant: PASS")
+    print(f"  mixed Gaussian Hessian  = {hessian_exact:+.12f}")
+
+
+def check_majorana_square_and_pulse() -> None:
+    f0, f2, f4, cutoff = 1.7, 0.8, 0.31, 2.1
+    generation_count = 3
+    radius = 2.0 * f2 * cutoff**2 / f0
+    r_matrix = np.diag([0.8 * radius, 1.1 * radius, 1.35 * radius])
+
+    def gamma_direct(matrix: np.ndarray) -> float:
+        return (
+            48.0 * f4 * cutoff**4
+            - f2 * cutoff**2 * np.trace(matrix).real
+            + 0.25 * f0 * np.trace(matrix @ matrix).real
+        ) / math.pi**2
+
+    gamma_residual = cutoff**4 * (
+        48.0 * f4 - generation_count * f2**2 / f0
+    ) / math.pi**2
+    gamma_square = (
+        f0
+        * np.trace(
+            (r_matrix - radius * np.eye(generation_count))
+            @ (r_matrix - radius * np.eye(generation_count))
+        ).real
+        / (4.0 * math.pi**2)
+        + gamma_residual
+    )
+    assert abs(gamma_direct(r_matrix) - gamma_square) < TOL
+
+    stationary = radius * np.eye(generation_count)
+    kappa_inverse = (
+        96.0 * f2 * cutoff**2 - f0 * np.trace(stationary).real
+    ) / (12.0 * math.pi**2)
+    kappa_exact = (
+        (48.0 - generation_count) * f2 * cutoff**2
+        / (6.0 * math.pi**2)
+    )
+    assert abs(kappa_inverse - kappa_exact) < TOL
+
+    q_matrix = np.diag([1.0, -1.0, 0.0])
+    q_squared_trace = np.trace(q_matrix @ q_matrix).real
+    orbit_amplitude, width, center = 0.12 * radius, 1.3, -0.2
+    gamma_infinity = gamma_residual + (
+        f0 * orbit_amplitude**2 * q_squared_trace / (4.0 * math.pi**2)
+    )
+    traces = []
+    for n_value in (-1.1, 0.4, 1.7):
+        hyperbolic = math.tanh(width * (n_value - center))
+        orbit = stationary + orbit_amplitude * hyperbolic * q_matrix
+        traces.append(np.trace(orbit).real)
+        deficit = gamma_infinity - gamma_direct(orbit)
+        expected_deficit = (
+            f0
+            * orbit_amplitude**2
+            * q_squared_trace
+            / (4.0 * math.pi**2)
+            / math.cosh(width * (n_value - center)) ** 2
+        )
+        assert abs(deficit - expected_deficit) < TOL
+        assert np.min(np.linalg.eigvalsh(orbit)) > 0.0
+    assert np.allclose(traces, generation_count * radius, atol=TOL)
+
+    print("Majorana square and pulse: PASS")
+    print(f"  central residual        = {gamma_residual:.12f}")
+    print(f"  stationary kappa^-2     = {kappa_inverse:.12f}")
+
+
+def check_affine_ads_atlas() -> None:
+    for n_value in (-1.2, 0.0, 0.9):
+        warp = math.exp(-n_value)
+        warp_second = math.exp(-n_value)
+        gaussian_curvature = -warp_second / warp
+        assert abs(gaussian_curvature + 1.0) < TOL
+
+    print("affine AdS scale atlas: PASS")
+    print("  unit-radius scalar R    = -2")
+
+
 if __name__ == "__main__":
     check_finite_spectral_wall()
     check_conditional_expectation_balance()
@@ -342,3 +556,9 @@ if __name__ == "__main__":
     check_hidden_resolvent()
     check_mixed_response_jet()
     check_majorana_jacobian()
+    check_twisted_fixed_point_wall()
+    check_index_edge_balance()
+    check_singlet_response_completion()
+    check_response_determinant()
+    check_majorana_square_and_pulse()
+    check_affine_ads_atlas()

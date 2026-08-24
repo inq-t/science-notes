@@ -138,11 +138,14 @@ The most useful lessons are structural:
 
 - zero metric dimension does not prevent rich internal metric data;
 - gauge and Higgs fields can be inner metric fluctuations;
+- a twisted fixed algebra can be reached by a canonical expectation while its singlet is normal to that fixed locus;
 - one finite Dirac block can control several apparently different observable couplings;
 - a \(K\)-homology class can persist while represented metric data changes; and
 - the spectral action can package gravity and matter after an observable geometry exists.
 
-The strongest local common-source example is the Majorana block \(M_R\). [[spectral-wall-descent/majorana-response-jacobian|Its response Jacobian]] makes the simultaneous dependence of gravitational, cosmological, Higgs, and neutrino sectors exact. This remains a downstream relationship: the source itself fixes a parameter by minimizing the observable cosmological term.
+[[spectral-wall-descent/twist-fixed-point-wall|The twisted fixed-point wall]] extracts the noninvertible expectation from the published twist without using action minimization as the wall law. The strongest local common-source example is the Majorana block \(M_R\). [[spectral-wall-descent/majorana-response-jacobian|Its response Jacobian]] makes the simultaneous dependence of gravitational, cosmological, Higgs, and neutrino sectors exact, while [[spectral-wall-descent/majorana-square-and-cosmic-pulse|its square completion]] separates a positive response orbit from a central residual. These remain downstream relationships.
+
+[[spectral-wall-descent/response-determinant|The response--determinant bridge]] gives one controlled way for the same hidden operator to generate a positive Gaussian BKM Hessian and, after regularization, an observable action. The regulator and absolute determinant normalization remain independent data, so this bridge does not reverse the register order.
 
 ## Failure conditions
 

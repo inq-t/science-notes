@@ -1,6 +1,6 @@
 # Deriving the Value of G
 
-Newton's constant can be read as geometric compliance, proportional to the inverse of a universal information modulus per causal area. The central capacity weld now has a precise conditional proof: dilation-current conservation forces \(C_E=S/k_B\) for a genuine \(1+1\) conformal thermal channel, and a unit escort realization of physical scale then gives \(\chi_{\downarrow}=\eta_{\mathrm E}\). The present causal-wall algebra has not yet derived the required channel, tangent alignment, or channel density per area, so the symmetry explains the unit ratio without yet producing the measured magnitude of \(G\).
+Newton's constant can be read as geometric compliance, proportional to the inverse of a universal entropy modulus per causal area. The construction now has a concrete algebraic route: a finite-index gravitational correspondence supplies a central edge-entropy operator, a cut spectral triple supplies area, and a same-tangent theorem must identify that edge density with the horizontal BKM density. In a matched factor cell, a chosen edge entropy plus its distinction from the tracial edge state equals half the log tracial index; the physical normalization of the Dirac operator and the all-patch density equality remain open. The programme therefore explains the type of object that can determine \(G\) without yet producing its measured magnitude.
 
 The cited papers, data table, and arXiv source bundles are mirrored in [[deriving-value-of-g/sources/entry|the local source library]]; remote origins and immutable checksums are recorded there.
 
@@ -114,7 +114,7 @@ $$
 
 Thus the binary scale tangent cannot simply be renamed the entanglement-capacity tangent of the same state. [[obstructions-to-an-unconditional-proof]] gives the tangent, replication, trace-normalization, and dimensional no-go lemmas.
 
-Two construction programmes remain live beyond that theorem. [[boost-capacity-bridge|The boost--capacity bridge]] asks whether geometric boost normalization and canonical energy determine the same-tangent quadratic response without confusing it with linear boost charge. [[horizon-algebra-capacity|The horizon-algebra route]] asks whether a genuine wall algebra and one common partition function calculate entropy and horizontal capacity together. Both require independently normalized physical area; neither is licensed merely by the two-dimensional normal plane.
+Three construction programmes remain live beyond that theorem. [[boost-capacity-bridge|The boost--capacity bridge]] asks whether geometric boost normalization and canonical energy determine the same-tangent quadratic response without confusing it with linear boost charge. [[horizon-algebra-capacity|The horizon-algebra route]] asks whether a genuine wall algebra and one common partition function calculate entropy and horizontal capacity together. [[spectral-index-area-route|The spectral index--area route]] asks whether a finite-index correspondence's central edge entropy has a universal density with respect to area calculated from the cut Dirac operator. All three require independently normalized physical area; none is licensed merely by the two-dimensional normal plane.
 
 ## The Ruble ratio exposes the logical joint
 
@@ -164,13 +164,16 @@ within the assumed \(\operatorname{sech}^2\) family. This is a model-restricted 
 The clean dependency order is
 
 $$
-(\mathcal A_\Sigma,\omega_{\Sigma,N},\text{horizontal transport})
+(\mathcal A_\Sigma,\omega_{\Sigma,N},\text{horizontal correspondence})
 \longrightarrow
-G^{\perp}_{NN}
+\left(
+G^{\perp}_{NN},\mathcal L_E,A_D
+\right)
 \longrightarrow
-\chi_{\downarrow}
+\frac{\mathrm d\mu_{\mathrm{BKM}}^\perp}{\mathrm d\mu_{A,D}}
 \mathrel{\mathop{=}^{?}}
-\eta_{\mathrm E}
+\frac{\mathrm d\mu_{\mathrm{edge}}}{\mathrm d\mu_{A,D}}
+=\eta_*
 \longrightarrow
 G.
 $$
@@ -184,6 +187,23 @@ G_{ab}+\Lambda g_{ab}
 $$
 
 What remains open is upstream. The Noether--capacity theorem fixes the ratio once the physical wall is proved to be a unit thermal-dilation channel, but the wall algebra and state family have not supplied that tangent identification or a finite, regulator-independent channel density per area. The [[causal-scale-derivation-target|causal-scale derivation target]] states the missing construction, anti-circularity test, universality conditions, and failure modes.
+
+The finite-index route sharpens the missing object. In an explicit type-I cell,
+
+$$
+S(\chi)+D(\chi\Vert\tau)
+=\frac12\log\operatorname{Ind}(E_\tau),
+$$
+
+so central geometric entropy and its tracial defect partition one reference algebraic capacity. If a cell has independently derived spectral area \(a_*\) and edge entropy \(s_*\), then
+
+$$
+\boxed{
+G_{\mathrm{pred}}
+=\frac{c^3a_*}{4\hbar s_*}.}
+$$
+
+This is a conditional determination, not yet a value: rescaling the cut Dirac operator rescales \(a_*\), and a nonmaximal edge state need not saturate the index ceiling.
 
 ## Exact rearrangements that survive independently
 
@@ -220,6 +240,8 @@ $$
 | Conditional established route | Universal local horizon entropy density plus equilibrium, Unruh, focusing, and conservation implies the Einstein equation with \(G=c^3/(4\hbar\eta_{\mathrm E})\) |
 | Exact after a valid state family is supplied | The coincidence Hessian of relative entropy defines a BKM quadratic form; dividing an extensive norm by a declared area defines \(\chi_{\downarrow}\) |
 | Noether-grounded conditional theorem | A unit escort tangent in a homogeneous \(1+1\) conformal thermal wall gives \(G^{\perp}_{NN}=C_E=S/k_B\), hence \(\mathfrak R_c=1\) |
+| Exact matched-cell theorem | A chosen type-I edge entropy plus its distinction from the tracial edge state equals half the log index of the tracial expectation |
+| Central spectral-area theorem target | The edge operator and horizontal BKM measure have one universal density with respect to independently normalized spectral area on every admissible patch |
 | Causal-scale physical principle | \(\mathfrak R_c=1\) at a self-dual causal wall |
 | Central conjectural weld | The causal-scale BKM modulus is the finite universal entropy--area modulus relevant to local gravitational focusing |
 | Reported phenomenological check | A model-restricted background fit reports \(\mathfrak R_c=1.025\) with interval \([0.941,1.088]\); the likelihood package is not present for reproduction |
@@ -227,7 +249,7 @@ $$
 
 ## Present verdict
 
-The conceptual reversal is fruitful:
+The conceptual reversal is now algebraically sharper:
 
 $$
 \text{small }G
@@ -237,12 +259,15 @@ $$
 \text{small geometric compliance}.
 $$
 
-This retypes the relative weakness of gravity without explaining its magnitude. The programme's next decisive object is not another rearrangement of a Planck or horizon equation. It is an independently calculated, universal quantity
+This retypes the relative weakness of gravity without explaining its magnitude. The programme's next decisive result is not another rearrangement of a Planck or horizon equation. It is the independently calculated equality
 
 $$
-\chi_{\downarrow}
-=\frac{1}{A_\Sigma}
-\Phi^*G^{\perp}_{\mathrm{BKM}}(\partial_N,\partial_N)
+\frac{\mathrm d\mu_{\mathrm{BKM}}^\perp}
+{\mathrm d\mu_{A,D}}
+=
+\frac{\mathrm d\mu_{\mathrm{edge}}}
+{\mathrm d\mu_{A,D}}
+=\eta_*
 $$
 
-with an absolute area normalization. If that calculation yields the observed \(\eta_{\mathrm E}\) and the horizon weld is proved, \(G\) follows. Until then, \(\chi_{\downarrow}\) is the right unknown, not the answer in disguise.
+with an absolute Dirac-area normalization. If that calculation yields the horizon coefficient \(\eta_{\mathrm E}\) and the focusing weld is proved, \(G\) follows. Until then, the correspondence, edge state, and spectral area are the right unknowns; \(G\) is not hidden in a renamed entropy.

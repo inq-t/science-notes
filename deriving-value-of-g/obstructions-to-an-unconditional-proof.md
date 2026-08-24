@@ -149,6 +149,22 @@ Local QFT algebras are generally type III and do not possess density matrices or
 
 Rescaling the trace changes the additive entropy convention while a modular variance is insensitive to central shifts of \(K\). A comparison of entropy and capacity therefore requires a common, physically fixed trace and renormalization prescription. Matter entanglement alone also carries cutoff and species dependence; the finite gravitational object is renormalized generalized or Wald entropy.
 
+Finite index does not remove this obstruction. In a type-I factor cell it fixes only the capacity ceiling
+
+$$
+\frac12\log\operatorname{Ind}(E_\tau),
+$$
+
+while the physical central edge entropy is
+
+$$
+S(\chi)
+=\frac12\log\operatorname{Ind}(E_\tau)
+-D(\chi\Vert\tau).
+$$
+
+Equating entropy with half a log index therefore requires a saturation theorem. With nontrivial centers, scalar minimal index is not the functorial compositional datum; the matrix dimension or full correspondence must be retained.
+
 ## The dimensional obstruction
 
 The binary family, cocycle character, BKM profile, reflection, and Ruble ratio are dimensionless. The desired modulus has dimensions
@@ -167,8 +183,8 @@ The obstructions leave a sharply defined theorem target:
 2. prove that the physical scale tangent is canonically normalized and identify its escort and transverse components;
 3. prove a regulator-independent, locally additive BKM measure on the cut;
 4. derive its Radon--Nikodym density with respect to an independently normalized area measure;
-5. prove that the same tangent maps to gravitational canonical energy with the gravitational kinetic coefficient kept symbolic; and
-6. show that the resulting entropy is the one entering the horizon focusing law.
+5. construct the central edge-entropy operator of the gravitational correspondence and prove its all-patch density with respect to spectral area;
+6. prove that the retained regional tangent maps to gravitational canonical energy with the gravitational kinetic coefficient kept symbolic; and
+7. show that the resulting edge entropy is the one entering the horizon focusing law.
 
 The [[noether-capacity-theorem|Noether--capacity theorem]] shows one controlled way the unit ratio can emerge. The [[causal-scale-derivation-target|causal-scale derivation target]] states the additional work needed to turn that ratio into a value of \(G\).
-

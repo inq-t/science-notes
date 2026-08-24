@@ -114,7 +114,43 @@ $$
 =\chi_*\,\delta A.
 $$
 
-The measure and constant-density conditions construct a local extensive state-space modulus. The entropy-variation equation is the state--geometry weld. Together they give
+The finite-index construction adds a separately typed central measure and replaces the assumed classical area by an independently normalized spectral one,
+
+$$
+\mu_{A,D}(U):=\mathcal A_{D,U}.
+$$
+
+For a gravitational expectation \(E_g\), let
+
+$$
+\mu_{\mathrm{edge}}(U)
+:=\mathcal L_{E_g,U},
+$$
+
+where \(\mathcal L_{E_g,U}\) is the central entropy operator evaluated sectorwise or before character selection. The stronger theorem target is
+
+$$
+\boxed{
+\frac{\mathrm d\mu^{\perp}_{\mathrm{BKM}}}
+{\mathrm d\mu_{A,D}}
+=
+\frac{\mathrm d\mu_{\mathrm{edge}}}
+{\mathrm d\mu_{A,D}}
+=\chi_*,}
+$$
+
+equivalently
+
+$$
+\mathcal L_{E_g,U}
+=\chi_*\mathcal A_{D,U}
+$$
+
+for every admissible patch. [[spectral-index-area-route|The spectral index--area route]] states the finite cell model, the Dirac normalization problem, and the noncircular closure equation with the observable spectral action.
+
+Before a sector or central state is chosen, this is an equality of central positive operator-valued measures rather than an ordinary scalar Radon--Nikodym equation.
+
+The measures and constant-density conditions construct a local extensive state-space modulus and a central geometric entropy. The entropy-variation equation is the state--geometry weld. Together they give
 
 $$
 \chi_*=\eta_{\mathrm E}
@@ -181,14 +217,14 @@ $$
 G_{\mathrm{pred}}.
 $$
 
-A more ambitious same-tangent route keeps the gravitational kinetic coefficient \(Z_g\) symbolic:
+A complementary same-tangent route keeps the gravitational kinetic coefficient \(Z_g\) symbolic:
 
 $$
-G^{\perp}_{\mathrm{BKM}}(v_N,v_N)
+G^{\mathrm{ret}}_{\mathrm{BKM}}(v_N,v_N)
 =Z_g\,\mathcal E_{\mathrm{can}}^{(1)}(h[v_N],h[v_N]).
 $$
 
-Here \(\mathcal E_{\mathrm{can}}^{(1)}\) is canonical energy computed with a unit-normalized gravitational Lagrangian. If the microscopic wall side, the tangent map \(v_N\mapsto h[v_N]\), and the physical area are all constructed without \(G\), this equality could solve for \(Z_g\); the same covariant Noether structure would then determine the Wald entropy coefficient. Existing holographic BKM--canonical-energy identities demonstrate this architecture only after the gravitational normalization and AdS/CFT dictionary are supplied.
+Here \(\mathcal E_{\mathrm{can}}^{(1)}\) is canonical energy computed with a unit-normalized gravitational Lagrangian. Controlled AdS/CFT identities calibrate the **retained regional** Fisher response, not automatically the wall-loss block; the central area term cancels from fixed-code relative entropy. If the microscopic wall side, the tangent map \(v_N\mapsto h[v_N]\), and the physical area are all constructed without \(G\), the retained-response and central-area equations together could solve for and cross-check \(Z_g\). Existing holographic identities demonstrate only the calibrated architecture after the gravitational normalization and AdS/CFT dictionary are supplied. [[spectral-wall-descent/ads-calibration-and-ds-carrier|The AdS/dS realization note]] records this claim boundary.
 
 ## The dimensional obstruction
 

@@ -124,6 +124,8 @@ This is the strongest calculated opening for a common hidden algebraic source am
 
 The response belongs to the observable spectral action. The source itself discusses fixing the scale of \(M_R\) by minimizing the observable cosmological term. Under the present register order, that minimization cannot be used as a pre-observable necessity.
 
+[[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] completes \(\gamma_0(R)\) into a positive traceless square plus a central residual. It also gives a traceless hyperbolic orbit that leaves \(\kappa_0^{-2}\) fixed while producing an exact \(\operatorname{sech}^2\) spectral deficit. Those are downstream spectral-action identities, not yet the horizontal wall state.
+
 The desired upstream extension would construct a state family \(\rho_R\), calculate its BKM response
 
 $$

@@ -1,6 +1,6 @@
 # Program Core
 
-The programme studies a cosmos as a fact-bearing causal arena and asks how distinguishable scale, state, geometry, and record can be representations of one coherent structure without being collapsed into one type. Its proposed mathematical core is a physical quotient of redundant presentations equipped with a localized distinguishability geometry; its principal physical conjecture is that the resulting areal state modulus and the gravitational area modulus are equivalent. The Ruble equations assemble this core and then project it into a conjectural homogeneous causal-scale cosmology; they are not an independent replacement for the architecture.
+The programme studies a cosmos as a fact-bearing causal arena and asks how distinguishable scale, state, geometry, and record can be representations of one coherent structure without being collapsed into one type. Its proposed mathematical core is a physical quotient of redundant presentations carried by a scale-indexed correspondence stack: conditional expectation splits retained from erased distinguishability, finite-index edge data supply central geometric entropy, and a later record map supplies actual facts. Its principal physical conjecture is that the horizontal BKM measure and central edge-entropy measure have one universal density with respect to independently normalized spectral area. The Ruble equations assemble a contraction of this core and then project it into a conjectural homogeneous causal-scale cosmology; they are not an independent replacement for the architecture.
 
 This module is the programme's semantic and logical source of truth. It fixes meanings, types, adopted axioms, proposed principles, and the dependency order of the keystone equations. Detailed proofs, constructions, calculations, historical discussions, and phenomenology remain in their specialist modules. If a downstream note uses a core term differently, the discrepancy is an audit item rather than a second definition.
 
@@ -55,11 +55,11 @@ $$
 
 Its scale contraction \(\chi_N(p)=\boldsymbol\chi_{\Sigma,\omega}(v_N,v_N;p)\) has units \(L^{-2}\). Its inverse \(\mathfrak a_N(p)=\chi_N(p)^{-1}\) is **causal compliance**, with units \(L^2\). [[program-core/descent-response-geometry|The descent-response geometry]] owns these definitions and distinguishes local density, cut average, and universal coefficient.
 
-The nonconstant sector need not be a lumpy microscopic space. [[program-core/contextual-descent-from-homogeneity|Contextual descent from homogeneity]] allows a homogeneous algebra, state, law, or invariant class to become differentially observable through its representation, Dirac or modular data, commutative readouts, and factual pointing. [[program-core/common-response-matrix|The common response matrix]] then constructs the global scale and mean-zero observational responses as blocks and mixed derivatives of one descent Hessian, with hidden modes and record formation kept explicit. [[spectral-wall-descent/entry|Spectral wall descent]] supplies a calculated finite realization: a nonunitary conditional expectation divides the BKM response into retained and wall-loss blocks while a relative \(K\)-class records the mean-zero contextual sector.
+The nonconstant sector need not be a lumpy microscopic space. [[program-core/contextual-descent-from-homogeneity|Contextual descent from homogeneity]] allows a homogeneous algebra, state, law, or invariant class to become differentially observable through its representation, Dirac or modular data, commutative readouts, and factual pointing. [[program-core/common-response-matrix|The common response matrix]] then constructs the global scale and mean-zero observational responses as blocks and mixed derivatives of one descent Hessian, with hidden modes and record formation kept explicit. [[spectral-wall-descent/entry|Spectral wall descent]] supplies calculated finite realizations: a twisted fixed-point expectation divides the BKM response, a matched finite-index cell partitions tracial capacity into a chosen edge entropy and its tracial defect, and a relative \(K\)-class records the mean-zero contextual sector. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] states how these local pieces must compose.
 
 The response geometry compares states. It does not by itself actualize a fact. A completed factive theory still needs a contextual outcome and record construction.
 
-## Gravity is proposed as a representation of the same modulus
+## Gravity is proposed as a central density of the same descent
 
 The gravitational side first requires an independently constructed dimensionless entropy measure \(\mu^{S,\mathrm{grav}}\). When it is absolutely continuous with respect to the causal-area measure, its area modulus is
 
@@ -77,6 +77,18 @@ $$
 =\frac{1}{4\ell_P^2}.
 $$
 
+The finite-index construction refines the gravitational measure to the central edge entropy \(\mu_{\mathrm{edge}}\) of a noncommutative gravitational descent. The strong theorem target is
+
+$$
+\frac{\mathrm d\mu_{\mathrm{desc}}_{v_N,v_N}}
+{\mathrm d\mu_{A,D}}
+=
+\frac{\mathrm d\mu_{\mathrm{edge}}}
+{\mathrm d\mu_{A,D}},
+$$
+
+where \(\mu_{A,D}\) is spectral area with a normalization independent of measured gravity. [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states this all-patch operator identity and its anti-circularity test.
+
 The state and gravitational coefficients must be constructed independently. Their dimensionless comparison is the local matching field
 
 $$
@@ -86,7 +98,7 @@ $$
 {\eta_{\mathrm{grav}}(p)}.
 $$
 
-The proposed scale-channel equivalence law is \(\mathfrak r_{\Sigma,N}(p)=1\) almost everywhere, while the more fundamental target is an equivariant same-tangent homothety between the full state and gravitational response geometries. The scalar law additionally needs a horizon or canonical-energy bridge to the entropy-area measure, and it does not prove the full bilinear statement. Unity cannot be produced by changing units; it is physical only when neither side was normalized by the other. [[program-core/causal-capacity-equivalence|Causal-capacity equivalence]] separates a weak integrated equality at one cosmological crossing from a strong local law throughout an Einstein universality class.
+The proposed scale-channel equivalence law is \(\mathfrak r_{\Sigma,N}(p)=1\) almost everywhere. A stronger completion requires two compatible results: retained regional BKM response must map to unit-normalized gravitational canonical energy, and the central edge entropy must have the same universal spectral-area density. The scalar law proves neither result by itself. Unity cannot be produced by changing units; it is physical only when neither side was normalized by the other. [[program-core/causal-capacity-equivalence|Causal-capacity equivalence]] separates a weak integrated equality at one cosmological crossing from a strong local law throughout an Einstein universality class.
 
 If a universal \(\chi_*\) is admitted as primitive, it retypes the independent datum \(G\) only after an additional unit Einstein matching principle identifies \(\chi_*=\eta_{\mathrm E}\). Without that principle it is a second independent dimensionful datum. If \(\chi_*\) is calculated without gravitational input and the matching law is then tested, however,
 
