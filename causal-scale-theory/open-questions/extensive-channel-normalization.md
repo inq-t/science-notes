@@ -15,6 +15,14 @@ Under affine soldering and the balanced binary reduction this becomes the formul
 
 The open construction must separate those effects and determine whether \(C_\perp(N)\) is constant in the physical comparison scheme. [[program-core/descent-response-geometry|Descent-response geometry]] states the stronger local requirement: construct a measure-valued BKM form and compare it with independently normalized area. [[deriving-value-of-g/obstructions-to-an-unconditional-proof|The replication and dimensional obstructions]] show why the normalized binary algebra cannot settle this question.
 
+Algebraic geometry and correspondence theory close only a typed subproblem. If the active channels form a locally free sheaf or local system over the scale base and transport preserves its trace pairing, its rank is locally constant. For dualizable factor correspondences, categorical dimension is multiplicative under fusion and its logarithm is additive; with centers, the dimension matrix or full correspondence must be retained, and scalar composition needs the relevant Markov matching. These results can control channel multiplicity. They do not control regulator normalization, horizontal tangent norm, selected cut size, edge-state data, or discarded modes. Thus locally constant rank does not prove
+
+$$
+C_\perp(N)=C_{\perp,c}.
+$$
+
+The conditional rank-three cover in [[algebra/a2-inverse-cover|the \(A_2\) model]] supplies no identification with this wall carrier.
+
 If
 
 $$

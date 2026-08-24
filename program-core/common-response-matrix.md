@@ -456,16 +456,7 @@ $$
 
 [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives a scoped type-I product-edge identity and keeps the auxiliary tracial expectation distinct from the code expectation selecting \(\chi\). [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states the all-patch density target. Until edge-state selection, localization, area normalization, covariance, soldering, and universality are supplied, the retained and lost blocks remain information geometry and \(\mathcal L_\chi\) remains only candidate central geometry.
 
-Nor is ontological time another addend. Its candidate mathematical form remains the orientation of persistent record inclusions,
-
-$$
-\mathcal R_{\Sigma_1}
-\hookrightarrow
-\mathcal R_{\Sigma_2}
-\hookrightarrow\cdots,
-$$
-
-with compatible characters along the realized history. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns this later, one-sided layer.
+Nor is ontological time another addend. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns the later one-sided record inclusions and compatible characters; [[program-core/record-scale-soldering|record--scale soldering]] owns the additional criterion for identifying their order with cosmic scale. Neither construction is an entry of the response Hessian.
 
 ## A Connes-style realization ansatz
 

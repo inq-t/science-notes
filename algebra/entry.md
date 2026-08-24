@@ -1,6 +1,6 @@
 # Algebraic Pre-Core
 
-The strongest first-principles result suggested by the algebra chats is not an identity among several appearances of the number six. It is the local--global principle that local determinacy does not entail global individuation. This module places that principle upstream of [[program-core/entry|the causal-response programme]]: algebra supplies composable distinctions, geometry records how they are presented and glued, monodromy can obstruct a global labeling, and only an additional noninvertible factual operation with persistent record extension can orient a history. Conditional on the 2026 Jacobian-counterexample preprint and the local unreviewed $A_2$ note, the cubic inverse cover is an exact model; the proposed bridges to $S^6$, KO-degree six, time, gravity, collapse, and the Standard Model remain separately typed construction problems.
+The strongest first-principles result suggested by the algebra chats is not an identity among several appearances of the number six. It is the local--global principle that local determinacy does not entail global individuation. This module places that principle upstream of [[program-core/entry|the causal-response programme]]: algebra supplies composable distinctions, geometry records how they are presented and glued, monodromy can obstruct a global labeling, and only an additional noninvertible factual operation with persistent record extension can orient a history. Internal algebra and realized spacetime are treated as equally real mathematical regimes; their identity must be established by a typed realization, not by crossing from “mere mathematics” into something ontologically superior. Conditional on the 2026 Jacobian-counterexample preprint and the local unreviewed $A_2$ note, the cubic inverse cover is an exact model; the proposed bridges to $S^6$, KO-degree six, time, gravity, collapse, and the Standard Model remain separately typed construction problems.
 
 ## The condition for the possibility of a cosmos
 
@@ -26,6 +26,8 @@ $$
 $$
 
 The first pair already has exact models. A global obstruction is not logically required for every possible factual history; it is the particular source of nontriviality highlighted by these chats. Selection and record extension are separate open constructions on which the physical interpretation depends.
+
+The programme's mathematical realism changes the form of the bridge. A realization functor relates one mathematical ontology to another; “presentation” does not mean fiction. If that functor genuinely forgets distinctions, [[algebra/nonfaithful-realization|the nonfaithfulness theorem]] proves that it cannot be an equivalence across the wall, even though reversible or unitary structure may persist inside either register.
 
 ## Algebra comes before geometry only as a doctrine
 
@@ -81,6 +83,8 @@ are differently typed statements. Connes' finite internal geometry has metric di
 
 The local $S^6$ manuscript is also a conditional source, not an established bridge. It claims a compact complex threefold fibred over $\mathbb P^1$ by complex two-tori with special data of type $(3,4,\infty)$ and then identifies the underlying smooth manifold with $S^6$. Its $A_2$ occurrence is a toric triangulation, not the Keller cusp or $S_3$ inverse-cover monodromy. [[algebra/s6-manuscript-branch|The $S^6$ manuscript branch]] records exactly what would and would not follow if the claim survives verification.
 
+There is nevertheless a rigorous route by which six real dimensions can return three. For a complex threefold \(X\) with an antiholomorphic involution \(\tau\), every nonempty fixed component \(X^\tau\) is a real three-manifold. [[algebra/real-forms-and-factive-spacetime|Real forms and factive spacetime]] proves this exact statement and separates it from the open functor that would make those three-manifolds spatial objects and four-dimensional Lorentzian histories their process arrows.
+
 ## The new dependency order
 
 The proposed order of construction is
@@ -91,13 +95,13 @@ $$
 &\longrightarrow \text{presentation category, site, and reversible descent}\\
 &\longrightarrow \text{global nontriviality, with obstruction as one candidate}\\
 &\longrightarrow \text{noninvertible factual process and persistent records}\\
-&\longrightarrow \text{analytic and spectral realization}\\
+&\longrightarrow \text{analytic and spectral realization, including any selected real form}\\
 &\longrightarrow \text{causal, Lorentzian, gauge, and gravitational realization}.
 \end{aligned}
 $$
 
-No lower arrow may be inferred from a shared numeral or analogy. [[algebra/theorem-programme|The theorem programme]] turns each arrow into a construction gate, with a conditional uniqueness theorem as the proper meaning of “physics from pure mathematics.” [[algebra/program-core-interface|The program-core interface]] then shows how the existing quotient, BKM, area, fact, and charge branches become downstream consumers rather than the mathematical bottom.
+No lower arrow may be inferred from a shared numeral or analogy. [[algebra/theorem-programme|The theorem programme]] turns each arrow into a construction gate, with a conditional uniqueness theorem as the proper meaning of “physics from pure mathematics.” [[algebra/program-core-interface|The program-core interface]] then shows how the existing quotient, BKM, area, fact, and charge branches become downstream consumers rather than the mathematical bottom. [[algebra/cst-cwst-closure-audit|The CST/CWST closure audit]] records which current open problems these tools close, merely retype, or leave untouched.
 
 ## Present verdict
 
-The chats were close to a genuine foundation, but the foundation is more abstract than the proposed $S^6$ identification. The exact content sought is a geometry of **presentation, obstruction, pointing, and record**. $A_2$ is the first case here with a rank-two root system and full nonabelian sheet monodromy $S_3$, not yet a uniquely selected universal singularity. Time is most plausibly the orientation of proper record extension, not the parameter of monodromy or ordinary modular flow. Gravity could be a response cost of a noninvertible realization only after a same-carrier map to gravitational response and an independent area normalization are constructed. Quantum gravity becomes a category error only if a prior theorem first proves that metric geometry is a derived presentation and identifies the correct degrees of freedom to quantize.
+The chats were close to a genuine foundation, but the foundation is more abstract than the proposed $S^6$ identification. The exact content sought is a geometry of **presentation, obstruction, pointing, and record**. $A_2$ is the first case here with a rank-two root system and full nonabelian sheet monodromy $S_3$, not yet a uniquely selected universal singularity. A complex-threefold real form now gives one exact route to a spatial three-carrier. Time is most plausibly the orientation of proper record extension and Lorentzian history composition, not the parameter of monodromy or ordinary modular flow. Gravity could be a response cost of a noninvertible realization only after a same-carrier map to gravitational response and an independent area normalization are constructed. Quantum gravity becomes a category error only if a prior theorem first proves that metric geometry is a derived presentation and identifies the correct degrees of freedom to quantize.

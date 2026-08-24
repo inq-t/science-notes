@@ -64,7 +64,9 @@ The action requires choices that already have observable meaning:
 - a Euclidean-to-Lorentzian prescription; and
 - a domain of fields or histories to vary.
 
-The principle of stationary action may govern the observable geometry produced after descent. Nothing in the definition requires the pre-observable algebraic ground itself to be a history selected by extremizing \(S_\Lambda\). In this programme the spectral action is therefore a consumer of wall descent, not its ontological cause.
+The principle of stationary action may govern the observable geometry produced after descent. Nothing in the definition requires the pre-observable algebraic ground itself to be a history selected by extremizing \(S_\Lambda\). In this programme this observable spectral action is therefore a consumer of wall realization, not its ontological cause.
+
+This boundary does not exclude a separately defined **atemporal internal spectral selector** on a moduli category of internal Dirac data. Such a functional could select or weight mathematical objects without presupposing temporal evolution. [[algebra/real-forms-and-factive-spacetime|The real-form realization note]] states that possibility. It would not be this observable action unless a functor transported the internal datum, trace, cutoff, and variational problem to the realized geometry, and it would not orient time without the independent fact-and-record process.
 
 This also retypes spectral-action symmetry breaking. A \(G\)-invariant potential can have a minimum with stabilizer \(H\subset G\). The functional remains \(G\)-invariant while a selected minimizing representative is only \(H\)-invariant. That is conventional observable symmetry breaking. Within one fixed triple, the corresponding persistence question is answered by the \(K\)-homology or cyclic class in [[spectral-wall-descent/index-and-curvature-transgression|index and curvature transgression]]. Persistence across a wall that changes the algebra additionally requires an explicit \(KK\)-correspondence or pushforward.
 

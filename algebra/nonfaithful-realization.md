@@ -14,7 +14,7 @@ $$
 
 be a proposed realization or presentation functor from an internal mathematical regime to an observable one. Neither category is ontologically downgraded by this notation. The functor states how the second structure is borne by the first.
 
-For each pair of objects (x,y), (Pi) induces
+For each pair of objects \(x,y\), \(\Pi\) induces
 
 $$
 \Pi_{x,y}:
@@ -23,7 +23,7 @@ $$
 \operatorname{Hom}_{\mathcal C_{\mathrm{obs}}}(\Pi x,\Pi y).
 $$
 
-The realization is **faithful** when every (Pi_{x,y}) is injective. It is genuinely forgetful at the arrow level when there are (f\ne g) with
+The realization is **faithful** when every \(\Pi_{x,y}\) is injective. It is genuinely forgetful at the arrow level when there are \(f\ne g\) with
 
 $$
 \Pi(f)=\Pi(g).
@@ -33,9 +33,9 @@ This defines a congruence on source arrows. If objects rather than arrows are id
 
 ## Exact nonfaithfulness obstruction
 
-**Proposition.** If (Pi) is an equivalence of categories, then (Pi) is full and faithful. Consequently, a nonfaithful realization cannot possess a quasi-inverse and cannot be a unitary equivalence of represented categories.
+**Proposition.** If \(\Pi\) is an equivalence of categories, then \(\Pi\) is full and faithful. Consequently, a nonfaithful realization cannot possess a quasi-inverse and cannot be a unitary equivalence of represented categories.
 
-**Proof.** Let (G) be a quasi-inverse with a natural isomorphism
+**Proof.** Let \(G\) be a quasi-inverse with a natural isomorphism
 
 $$
 \eta:\operatorname{id}_{\mathcal C_{\mathrm{int}}}
@@ -43,7 +43,7 @@ $$
 G\Pi.
 $$
 
-If (Pi(f)=Pi(g)) for (f,g:x\to y), then naturality gives
+If \(\Pi(f)=\Pi(g)\) for \(f,g:x\to y\), then naturality gives
 
 $$
 \eta_y\circ f
@@ -52,7 +52,7 @@ $$
 =\eta_y\circ g.
 $$
 
-Since (eta_y) is invertible, (f=g). Thus (Pi) is faithful. Fullness follows by transporting a target arrow through the unit and counit of the equivalence. (square)
+Since \(\eta_y\) is invertible, \(f=g\). Thus \(\Pi\) is faithful. Fullness follows by transporting a target arrow through the unit and counit of the equivalence. \(\square\)
 
 The contrapositive is the relevant theorem:
 
@@ -63,7 +63,19 @@ $$
 \text{no equivalence across that realization}.}
 $$
 
-If the categories are concretely represented on Hilbert spaces and the proposed cross-register map is conjugation by a unitary, it is invertible and hence faithful. It therefore cannot perform a nontrivial quotient. This does not disprove unitary dynamics of a closed observable subsystem inside (mathcal C_{\mathrm{obs}}); it localizes the domain on which a unitarity claim can be true.
+An equivalence is also conservative and injective on isomorphism classes: if \(\Pi(f)\) is an isomorphism, fullness supplies a candidate inverse and faithfulness proves the inverse identities; if \(\Pi x\simeq\Pi y\), fullness lifts that isomorphism and conservativity shows \(x\simeq y\). Hence either of the following also obstructs equivalence:
+
+$$
+f\text{ noninvertible but }\Pi(f)\text{ invertible},
+$$
+
+$$
+x\not\simeq y
+\quad\text{but}\quad
+\Pi x\simeq\Pi y.
+$$
+
+If the categories are concretely represented on Hilbert spaces and the proposed cross-register map is conjugation by a unitary, it is invertible and hence faithful. It therefore cannot perform a nontrivial quotient. This does not disprove unitary dynamics of a closed observable subsystem inside \(\mathcal C_{\mathrm{obs}}\); it localizes the domain on which a unitarity claim can be true.
 
 ## A dilation is a factorization, not an inverse
 
@@ -73,7 +85,7 @@ $$
 \Phi(a)=V^*\pi(a)V.
 $$
 
-The representation embeds the formula into a larger carrier. It does not supply an inverse to (Phi), prove that (Phi) is faithful on physical distinctions, or establish that the dilation space is the ontology from which the apparent loss can be recovered. Treating every mathematical dilation as a physically instantiated environment would add an ontological postulate that is absent from the representation theorem.
+The representation embeds the formula into a larger carrier. It does not supply an inverse to \(\Phi\), prove that \(\Phi\) is faithful on physical distinctions, or establish that the dilation space is the ontology from which the apparent loss can be recovered. Treating every mathematical dilation as a physically instantiated environment would add an ontological postulate that is absent from the representation theorem.
 
 For a state-preserving conditional expectation
 
@@ -83,7 +95,7 @@ E:\mathcal M\to\mathcal N,
 E^2=E,
 $$
 
-with (mathcal N\subsetneq\mathcal M), noninvertibility is part of the construction. Under the finite tracial hypotheses, [[spectral-wall-descent/conditional-expectation-balance|the conditional-expectation theorem]] gives the exact identities
+with \(\mathcal N\subsetneq\mathcal M\), noninvertibility is part of the construction. Under the finite tracial hypotheses, [[spectral-wall-descent/conditional-expectation-balance|the conditional-expectation theorem]] gives the exact identities
 
 $$
 D(\rho\Vert\tau)
@@ -121,21 +133,20 @@ Each operation forgets a different type of structure. [[algebra/local-global-ind
 
 Nonfaithfulness does not imply that “information” moves into another reservoir. A balance among erased distinction, entropy, geometry, and records becomes meaningful only after all terms map to a common additive carrier.
 
-One precise target is a commutative monoid (A), together with additive process valuations
+One precise target is a commutative monoid \(A\), together with additive process valuations
 
 $$
 \lambda_i:\mathsf P\longrightarrow BA,
-
 $$
 
-where (BA) is the one-object category whose composition is addition in (A). For composable processes (p,q), each valuation must satisfy
+where \(BA\) is the one-object category whose composition is addition in \(A\). For composable processes \(p,q\), each valuation must satisfy
 
 $$
 \lambda_i(q\circ p)
 =\lambda_i(q)+\lambda_i(p).
 $$
 
-Only after natural comparison maps place loss, record growth, scale growth, and geometric response in (A) can one propose an identity such as
+Only after natural comparison maps place loss, record growth, scale growth, and geometric response in \(A\) can one propose an identity such as
 
 $$
 \lambda_{\mathrm{total}}
@@ -153,7 +164,7 @@ The proposition closes one conceptual question and leaves the constructive physi
 - global cross-register unitarity is incompatible with genuine nonfaithful realization;
 - local unitarity inside a reversible observable sector may remain exact;
 - loss of accessible distinction is genuine without being annihilation of the source mathematics;
-- persistent algebraic or (K)-theoretic classes may survive even when the realization is nonfaithful;
+- persistent algebraic or \(K\)-theoretic classes may survive even when the realization is nonfaithful;
 - an actual fact still requires a pointing or instrument outcome; and
 - time still requires an oriented, persistent record order.
 

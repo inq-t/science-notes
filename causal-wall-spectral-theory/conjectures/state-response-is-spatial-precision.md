@@ -45,6 +45,8 @@ A holographic implementation may insert a simultaneous analytic continuation of 
 
 Another realization may factor the map differently. What is not allowed is to omit a carrier-changing or state-dependent arrow and replace it by equality of notation. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
 
+Every stage must additionally be natural under the declared region restrictions and cross-fiber transport. A patchwise construction must satisfy overlap compatibility and effective gluing. If a stage is noninjective, its kernel and effective image must be included in the physical quotient before the returned precision is called nondegenerate. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real locus]] can supply a candidate three-dimensional target carrier, but not the maps \(L\), \(M_\omega\), or \(P\).
+
 ## Why the Hessian theorem does not prove it
 
 For a regular exponential family on a common algebra,
@@ -78,6 +80,6 @@ The difference is not a contradiction; it announces that \(L\) must carry a leng
 
 ## Upgrade and failure conditions
 
-The conjecture is upgraded by an explicit wall realization in which every map above is defined, covariant in its declared category, renormalized, positive on the physical sector, and independent of the observed spectrum used to test it.
+The conjecture is upgraded by an explicit wall realization in which every map above is defined, natural and covariant in its declared category, compatible on overlaps, renormalized, positive on the physical effective image, and independent of the observed spectrum used to test it.
 
 It fails for that realization if no common response block exists, if the BKM and source kernels are related by an incompatible transform, or if the returned spatial kernel has the wrong carrier, sign, or normalization. Whether the wall scalar is physical curvature and whether its realized precision agrees with observation are downstream W3 and W5 tests. Failure here does not refute the generic BKM Hessian theorem or the vendored holographic dictionary in its own domain.

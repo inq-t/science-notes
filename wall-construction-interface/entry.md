@@ -96,7 +96,7 @@ $$
 
 The embedding slot should then be read as the representable special case of this correspondence transport. A finite-index candidate gravitational expectation can live at an intermediate noncommutative stage, while the final type-III-to-commutative factual descent remains generally infinite index. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence prestack]] gives the present typing, and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] gives a scoped exact type-I product-cell model plus an open area weld.
 
-This upgrade does not add a tenth independent return value to \(\mathfrak W\); it strengthens the transport slot. A candidate must still specify how states, source tangents, and spectral data are induced across the correspondence.
+This upgrade does not add a tenth independent return value to \(\mathfrak W\); it strengthens the transport slot. [[spectral-wall-descent/scale-correspondence-stack|The candidate correspondence prestack]] is denoted \(\mathfrak X_{\mathrm{corr}}\) and fills only the presentation and transport portion of this package. A candidate must still specify how regions, cuts, states, readouts, source tangents, and spectral data are induced across the correspondence before it realizes the full interface.
 
 ## One tangent space, two consumers
 

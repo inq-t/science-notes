@@ -10,6 +10,7 @@ The recurring integers two, three, six, and ten in the algebra chats belong to d
 | degree $\pi=3$ | cover degree | conditional on the local unreviewed analysis, a generic inverse fiber contains three sheets |
 | $\operatorname{rank}E=3$ | module rank | $E=\pi_*\mathcal O_X$ for the conditional degree-three finite étale cover |
 | $\dim_{\mathbb C}X=3$ | complex dimension | a complex structure on the smooth real manifold $S^6$ would make it a complex threefold |
+| $\dim_{\mathbb R}X^\tau=3$ | real fixed-locus dimension | exact when a complex threefold carries an antiholomorphic involution with nonempty fixed locus; the involution and physical interpretation are additional data |
 | physical $3+1$ | real Lorentzian dimension | three real spatial directions plus one real temporal direction |
 | $\mu(A_2)=2$ | Milnor number | rank of the vanishing-cycle lattice for the simple $A_2$ singularity |
 | $|\Phi(A_2)|=6$ | root count | six roots: three positive and three negative |
@@ -47,6 +48,20 @@ This is graded sign bookkeeping. It is not a statement that a four-dimensional m
 ## The constant $c$ is not an identification
 
 Writing \(x^0=ct\) expresses a temporal coordinate in units of length. It does not turn a timelike direction into a spacelike one, erase Lorentzian signature, or derive why physical spacetime has one temporal and three spatial directions. A realization map must separately recover the causal cones, signature, and relation between record order and metric time.
+
+## A real form is a genuine bridge, not automatic halving
+
+For a complex threefold \(X\), an antiholomorphic involution \(\tau:X\to X\) has a real three-dimensional fixed locus whenever that locus is nonempty. This gives the typed implication
+
+$$
+(X,\tau)
+\longmapsto
+X^\tau,
+\qquad
+6_{\mathbb R}\longmapsto3_{\mathbb R}.
+$$
+
+[[algebra/real-forms-and-factive-spacetime|The real-form note]] owns the proof and the proposed history functor. The involution \(\tau\) is not Connes' antiunitary real-structure operator \(J\), and \(X^\tau\) is not automatically a spatial slice of a Lorentzian cosmos. The first additional bridge would relate the two real structures through a represented function algebra; the second would realize factive processes as \(3+1\)-dimensional histories.
 
 ## The overloaded symbol $A_2$
 

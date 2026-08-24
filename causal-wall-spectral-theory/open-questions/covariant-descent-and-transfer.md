@@ -1,6 +1,6 @@
 # Construct Covariant Descent and Transfer
 
-A spatial wall precision becomes cosmological physics only after it is embedded in a covariant constrained system, assigned a Lorentzian state, and matched into the passive growing modes whose transfer produces local records. CWST presently specifies the slots but has not constructed this descent.
+A spatial wall precision becomes cosmological physics only after it is embedded in a covariant constrained system, assigned a Lorentzian state, and matched into the passive growing modes whose transfer produces observable statistics and data products. CWST presently specifies the slots but has not constructed this realization. Actual outcomes and persistent records belong to the later [[conservation-of-causal-charge/factive-descent-and-records|factive-record construction]].
 
 ## Construction target
 
@@ -12,9 +12,8 @@ The construction should return a complete linear evolution first. Only then can 
 
 ## Independence and preservation
 
-The wall-to-spacetime map must be derived independently of the CMB spectra it is meant to explain. If GR plus local QFT is imported after matching, [[compatible-with-existing-physics/local-physics-interface|the local-physics interface]] requires conservative restriction: the new horizontal or global structure may select initial or boundary data without contradicting tested local covariance, conservation, gauge identities, or causal propagation.
+The wall-to-spacetime map must be derived independently of the CMB spectra it is meant to explain. If GR plus local QFT is imported after matching, [[compatible-with-existing-physics/local-physics-interface|the local-physics interface]] requires conservative restriction: the new horizontal or global structure may select initial or boundary data without contradicting tested local covariance, conservation, gauge identities, positivity or unitary evolution in the recovered Lorentzian physical sector, or causal propagation. A Euclidean member must establish reflection positivity or an explicitly controlled alternative continuation. None of these requirements makes the nonfaithful wall map itself unitary.
 
 ## Completion and failure
 
 Completion is an end-to-end calculation from a wall member to released observable likelihoods. The route fails if the scalar cannot be made gauge invariant, if constraints or matching are inconsistent, if the Lorentzian equations are unstable or ill posed, if a continuing incoherent source destroys acoustic coherence, or if the local restrictions disagree with established physics in the declared overlap regime.
-

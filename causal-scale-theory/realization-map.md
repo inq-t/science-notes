@@ -1,14 +1,16 @@
 # CST Realization Map
 
-Causal Scale Theory is the homogeneous cosmological realization of the programme core, not a second source of definitions. This note identifies which Ruble equations are imported, which CST-specific bridges specialize them, and which conclusions follow only after a GR--FLRW background is supplied.
+Causal Scale Theory is the homogeneous cosmological realization of the programme core, not a second source of definitions. The programme core is itself downstream of [[algebra/entry|the algebraic pre-core]]. This note identifies which Ruble equations are imported, which CST-specific bridges specialize them, and which conclusions follow only after a GR--FLRW background is supplied.
 
 The canonical signatures and claim labels live in [[program-core/entry|the programme core]]. A link below is therefore a dependency, not a restatement whose wording may drift independently.
+
+In [[algebra/theorem-programme|the algebra-to-cosmos gate order]], RE0 is presently a T7 import. RE1--RE6 are partial T5 analytic-response constructions without a completed T2 wall descent or T6 spectral realization. RE7 crosses into T8/T9 physical realization and calibration; RE8--RE9 are conditional consequences after those inputs. RE10 does not supply the T4 fact-and-record structure.
 
 ## From the core to the homogeneous response
 
 | Core node | Reusable owner | CST realization | Standing |
 |---|---|---|---|
-| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | [[conformal-scale-geometry/causal-order-and-metric-scale|causal order and metric scale]] | On flat FLRW, \(N=\ln(a/a_c)\) and \(x=N-N_c\). | standard specialization |
+| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | [[conformal-scale-geometry/causal-order-and-metric-scale|causal order and metric scale]] | On flat FLRW, \(N=\ln(a/a_c)\) and \(x=N-N_c\). | standard specialization on an imported Lorentzian \(3+1\) GR--FLRW carrier; not algebra-derived |
 | [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[program-core/physical-quotient|physical quotient]] | A scale-indexed wall family must return a nonzero physical horizontal tangent. | principle plus open construction |
 | [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|relative-entropy Hessian]] | CST uses the cut-integrated reflection-odd norm \(G^\perp_{NN}\); its local measure-valued construction remains open. | exact Hessian, open localization |
 | [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] | The strong local weld would explain gravity; the present background calculation needs only a weaker integrated crossing input. | conjecture, not yet a premise proved by the background |

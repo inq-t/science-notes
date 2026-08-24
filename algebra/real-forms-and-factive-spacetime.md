@@ -1,6 +1,6 @@
 # Real Forms and Factive Spacetime
 
-An atemporal complex threefold is already a six-real-dimensional mathematical reality. If it carries a suitable antiholomorphic involution, its smooth fixed locus is exactly three-real-dimensional; a separate realization functor can then send fact-producing processes to time-oriented Lorentzian histories whose objects are those spatial three-manifolds and whose arrows are four-dimensional spacetimes. This gives a rigorous candidate meaning to “six gives rise to (3+1)”: the three is obtained by real-form descent, while the one is the orientation of composable factual history, not a seventh coordinate or a subtraction of dimensions.
+An atemporal complex threefold is already a six-real-dimensional mathematical reality. If it carries a suitable antiholomorphic involution, its smooth fixed locus is exactly three-real-dimensional; a separate realization functor can then send fact-producing processes to time-oriented Lorentzian histories whose objects are those spatial three-manifolds and whose arrows are four-dimensional spacetimes. This gives a rigorous candidate meaning to “six gives rise to \(3+1\)”: the three is obtained by real-form descent, while the one is the orientation of composable factual history, not a seventh coordinate or a subtraction of dimensions.
 
 ## Reality does not begin after realization
 
@@ -24,7 +24,7 @@ A presentation need not be an illusion or approximation. It can be the way one s
 
 ## Exact fixed-locus theorem
 
-Let (X) be a complex manifold of complex dimension (n), and let
+Let \(X\) be a complex manifold of complex dimension \(n\), and let
 
 $$
 \tau:X\longrightarrow X
@@ -36,9 +36,9 @@ $$
 X^\tau:=\{x\in X:\tau(x)=x\}
 $$
 
-is nonempty. Then every connected component of (X^\tau) is a smooth real (n)-dimensional submanifold of (X), and it is totally real.
+is nonempty. Then every connected component of \(X^\tau\) is a smooth real \(n\)-dimensional submanifold of \(X\), and it is totally real.
 
-At a fixed point (x), the derivative (D\tau_x) is a conjugate-linear involution of the complex vector space (T_xX). Its fixed subspace is a real vector space (V_x) satisfying
+At a fixed point \(x\), the derivative \(D\tau_x\) is a conjugate-linear involution of the complex vector space \(T_xX\). Its fixed subspace is a real vector space \(V_x\) satisfying
 
 $$
 T_xX
@@ -57,15 +57,15 @@ $$
 \dim_{\mathbb R}X^\tau=3.}
 $$
 
-This is the first exact algebraic-geometric mechanism in the present programme that can turn a six-real-dimensional carrier into a three-real-dimensional candidate spatial carrier without compactifying three ordinary spatial coordinates or calling half the dimensions unphysical. It is still conditional on the additional datum (	au). A complex threefold by itself does not select a real form, and its fixed locus may be empty, disconnected, nonorientable, or topologically unsuitable for physical space.
+This is the first exact algebraic-geometric mechanism in the present programme that can turn a six-real-dimensional carrier into a three-real-dimensional candidate spatial carrier without compactifying three ordinary spatial coordinates or calling half the dimensions unphysical. It is still conditional on the additional datum \(\tau\). A complex threefold by itself does not select a real form, and its fixed locus may be empty, disconnected, nonorientable, or topologically unsuitable for physical space.
 
-This construction is ordinary Galois descent from (mathbb C) to (mathbb R) in geometric form. [[basic-concepts/descent/entry|The descent module]] owns the general rule that the complex object alone does not determine its real form: the semilinear comparison datum is essential.
+This construction is ordinary Galois descent from \(\mathbb C\) to \(\mathbb R\) in geometric form. [[basic-concepts/descent/entry|The descent module]] owns the general rule that the complex object alone does not determine its real form: the semilinear comparison datum is essential.
 
 ## Three-space as object, spacetime as process
 
 The fixed-locus theorem supplies three real dimensions, not time. The proposed fourth dimension has a different categorical origin.
 
-Let (mathsf P_{\mathrm{fact}}) be a category of physically admissible fact-producing processes after presentation equivalences have been identified, and let
+Let \(\mathsf P_{\mathrm{fact}}\) be a category of physically admissible fact-producing processes after presentation equivalences have been identified, and let
 
 $$
 \mathcal R:
@@ -74,7 +74,7 @@ $$
 \mathsf{Rec}
 $$
 
-be a persistent record functor as in [[algebra/local-global-individuation|local--global individuation]]. Define a target category (mathsf{LorHist}_3) whose objects are suitably decorated real three-manifolds carrying spatial or Cauchy data and whose forward arrows are time-oriented four-dimensional Lorentzian histories or cobordisms between them. The decisive realization would be a functor
+be a persistent record functor as in [[algebra/local-global-individuation|local--global individuation]]. Define a target category \(\mathsf{LorHist}_3\) whose objects are suitably decorated real three-manifolds carrying spatial or Cauchy data and whose forward arrows are time-oriented four-dimensional Lorentzian histories or cobordisms between them. The decisive realization would be a functor
 
 $$
 \boxed{
@@ -114,11 +114,11 @@ $$
 
 may select or weight objects in an internal configuration groupoid. Extremization is then a relation on a moduli problem, not motion through an already existing time coordinate. In that precise sense a spectral principle can be atemporal.
 
-This possibility must be separated from two different claims. If (D) already contains a Dirac operator on a four-dimensional manifold, the Lorentzian or Euclidean spacetime carrier has been imported. If the functional is the downstream observable spectral action studied in [[spectral-wall-descent/observable-spectral-action|the observable spectral-action note]], it governs an already realized geometry and cannot also be cited as the operation that created that realization. An upstream internal selector requires its own domain, equivalences, existence theorem, and relation to (mathfrak L).
+This possibility must be separated from two different claims. If \(D\) already contains a Dirac operator on a four-dimensional manifold, the Lorentzian or Euclidean spacetime carrier has been imported. If the functional is the downstream observable spectral action studied in [[spectral-wall-descent/observable-spectral-action|the observable spectral-action note]], it governs an already realized geometry and cannot also be cited as the operation that created that realization. An upstream internal selector requires its own domain, equivalences, existence theorem, and relation to \(\mathfrak L\).
 
 ## The two real structures must not be conflated
 
-An antiholomorphic involution (	au) on a complex threefold and the antiunitary real-structure operator (J) of a real spectral triple are not the same type of object:
+An antiholomorphic involution \(\tau\) on a complex threefold and the antiunitary real-structure operator \(J\) of a real spectral triple are not the same type of object:
 
 $$
 \tau:X\to X,
@@ -126,17 +126,17 @@ $$
 J:\mathcal H\to\mathcal H.
 $$
 
-The first can define a real fixed locus in a complex manifold. The second supplies KO-sign relations with (D) and (gamma). A bridge between them would require a represented function algebra, compatibility of (J) with complex conjugation on that algebra, and a reconstruction theorem. [[ko-dimension-as-morita-class/entry|KO-dimension six]] is mod-eight operator data, not six metric coordinates.
+The first can define a real fixed locus in a complex manifold. The second supplies KO-sign relations with \(D\) and \(\gamma\). A bridge between them would require a represented function algebra, compatibility of \(J\) with complex conjugation on that algebra, and a reconstruction theorem. [[ko-dimension-as-morita-class/entry|KO-dimension six]] is mod-eight operator data, not six metric coordinates.
 
-Likewise, the conditional complex-threefold claim in [[algebra/s6-manuscript-branch|the (S^6) manuscript branch]] does not provide an antiholomorphic involution with a physical three-dimensional fixed locus. Even if that complex structure exists, the datum (	au), the topology of (X^\tau), and the functor (mathfrak L) remain separate construction gates.
+Likewise, the conditional complex-threefold claim in [[algebra/s6-manuscript-branch|the \(S^6\) manuscript branch]] does not provide an antiholomorphic involution with a physical three-dimensional fixed locus. Even if that complex structure exists, the datum \(\tau\), the topology of \(X^\tau\), and the functor \(\mathfrak L\) remain separate construction gates.
 
 ## Consequences for CST and CWST
 
 The theorem changes the audit of the causal programmes without completing them.
 
-- For CWST W2, (X^\tau) is a mathematically exact candidate for a three-dimensional carrier. It does not provide the BKM-to-spatial response transform, measure conversion, positivity, or probability-1PI kernel.
-- For CWST W3, (mathsf{LorHist}_3) gives the correct return type for the wall-to-curvature map. It does not construct the gauge-reduced scalar phase space, symplectic normalization, or Lorentzian state.
-- For CST, the functor (mathfrak L) could make a scale-indexed internal process appear as a homogeneous Lorentzian history. It does not derive the CST source, temperature, stress tensor, or acceleration law.
+- For CWST W2, \(X^\tau\) is a mathematically exact candidate for a three-dimensional carrier. It does not provide the BKM-to-spatial response transform, measure conversion, positivity, or probability-1PI kernel.
+- For CWST W3, \(\mathsf{LorHist}_3\) gives the correct return type for the wall-to-curvature map. It does not construct the gauge-reduced scalar phase space, symplectic normalization, or Lorentzian state.
+- For CST, the functor \(\mathfrak L\) could make a scale-indexed internal process appear as a homogeneous Lorentzian history. It does not derive the CST source, temperature, stress tensor, or acceleration law.
 - For both, a three-dimensional real fixed locus does not select three large approximately homogeneous spatial dimensions unless its metric, topology, scale, and observable net have the required properties.
 
 The exact result is therefore substantial but sharply bounded:

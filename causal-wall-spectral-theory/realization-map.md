@@ -1,6 +1,6 @@
 # CWST Realization Map
 
-Causal-Wall Spectral Theory consumes the programme core's physical quotient and mean-zero observational response block, then adds a conjectural chain from causal-wall descent response to primordial observables. It does not consume the homogeneous CST pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld.
+Causal-Wall Spectral Theory consumes a stage-relative observational quotient and mean-zero response block from the programme core, subject to refinement by downstream geometric, charge, and record consequence functors. It then adds a conjectural chain from causal-wall response to primordial observables. It does not consume the homogeneous CST pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld.
 
 ## Relation to the Ruble equations
 
@@ -60,7 +60,7 @@ G^{\mathrm{BKM}}_{\mathrm{TT}}
 &&\text{higher scalar, tensor, and mixed vertices},\\
 \text{W5: }&
 \{C_\ell^{XY},P_m,B_\zeta,\ldots\}
-&&\text{late observable records}.
+&&\text{late observable statistics and data products}.
 \end{aligned}
 $$
 
@@ -74,6 +74,8 @@ $$
 $$
 
 The notation makes the domain change visible; equality of the two \(\zeta\) symbols is only the special case \(R_{\mathrm s}=\mathbf1\) after their carriers have already been identified. The tensor map \(R_{\mathrm t}\) has a different domain and must be constructed independently.
+
+If \(R_{\mathrm s}\) has a kernel, the inverse-conjugation formula applies only after quotienting by the declared gauge or null sector and proving that the induced map is an isomorphism onto its physical image. Otherwise W3 requires a projected covariance, constrained reduction, or Schur-complement construction rather than a formal inverse.
 
 ## Provider and owner ledger
 
@@ -90,7 +92,7 @@ The notation makes the domain change visible; equality of the two \(\zeta\) symb
 | W3\(_{\mathrm s}\) | [[conjectures/wall-residue-is-curvature|CWST curvature conjecture]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | construct the gauge-reduced scalar representation and its normalization |
 | W3\(_{\mathrm t}\) | [[open-questions/calculate-tensor-response|CWST tensor problem]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | construct the independent TT phase space, state, and normalization |
 | W4 | [[open-questions/calculate-higher-response|CWST higher-response problem]] | calculate cubic and higher scalar, tensor, and mixed vertices rather than infer them from two-point data |
-| W5 | [[compatible-with-existing-physics/primordial-observable-interface|primordial observable interface]] plus [[open-questions/empirical-completion|empirical completion]] | supply dynamics, matching, transfer, released likelihoods, and records |
+| W5 | [[compatible-with-existing-physics/primordial-observable-interface|primordial observable interface]] plus [[open-questions/empirical-completion|empirical completion]] | supply dynamics, matching, transfer, released likelihoods, and observable data products; actual facts and persistent records are a separate branch |
 | philosophical interpretation | [[program-core/grounding-reasons|grounding reasons]] and [[sufficient-reason/quantum-interpretations|quantum interpretations]] | state the CWST application without treating it as a calculation |
 
 ## The dimensional joint
@@ -104,6 +106,8 @@ $$
 $$
 
 in the registered three-dimensional Fourier convention. A common-geometry proposal must therefore supply an integration over a normal or history direction, a boundary-to-bulk map, a measure conversion, or another explicit soldering operation. [[program-core/common-response-matrix|The core matrix]] owns the common Hessian, while [[conjectures/homogeneous-inhomogeneous-common-geometry|the CWST consumer note]] owns this stronger application. Dimensional agreement after an unstated unit choice would not be enough; the carriers and measures must also agree.
+
+[[algebra/real-forms-and-factive-spacetime|A complex-threefold real form]] supplies one exact candidate construction of a three-dimensional carrier when a suitable antiholomorphic involution exists. It does not identify that carrier with the wall cut, determine its measure, or construct either W2 or W3. W3 remains a realization into an imported or independently recovered \(3+1\) Lorentzian phase space.
 
 ## Failure localization
 

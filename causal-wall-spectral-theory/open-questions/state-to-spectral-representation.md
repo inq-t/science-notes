@@ -21,9 +21,14 @@ with:
 4. the state-dependent relation between BKM and Euclidean source response;
 5. renormalized source operators and contact-term bookkeeping;
 6. a complete analytic continuation and state prescription if holography is used;
-7. a probability or Legendre-1PI construction for the spatial wall field.
+7. a probability or Legendre-1PI construction for the spatial wall field;
+8. source and target categories, with naturality under region restriction and cross-fiber transport;
+9. overlap compatibility and effective gluing whenever localization is performed patchwise; and
+10. the kernel, physical quotient, and effective image of every noninjective stage.
 
 [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The conjecture note]] types these stages. [[causal-wall-spectral-theory/no-gos/a-cut-is-not-a-three-dimensional-boundary|The carrier no-go]] rules out the simplest direct identification. Only after this return exists does [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the curvature-realization problem]] ask for the map into the reduced Lorentzian scalar phase space.
+
+[[algebra/real-forms-and-factive-spacetime|The real-locus theorem]] supplies a new conditional candidate for item 3: a complex threefold with a selected antiholomorphic involution has a real three-dimensional fixed locus. The construction must still show that the wall data localize on that locus and derive its measure and response transform. It is not a direct identification of the codimension-two cut with a three-boundary.
 
 ## First discriminating calculation
 
@@ -33,4 +38,4 @@ An algebraic exponential perturbation using faithful normal states and Araki rel
 
 ## Completion and failure
 
-Completion means that the operator, domains, measures, signs, and normalizations are constructed independently of the desired primordial spectrum. The route fails if no common source direction exists, if the transform is nonpositive or noninvertible where a spatial response is required, if the carrier change violates covariance or locality, or if the optional continued response cannot define the claimed spatial probability kernel. A failure of the later curvature realization is not retroactively a failure of W2.
+Completion means that the operator, domains, measures, signs, naturality squares, effective images, and normalizations are constructed independently of the desired primordial spectrum. Noninvertibility is not by itself failure: the wall is expected to forget distinctions. The route fails if no common source direction exists, if its kernel removes a claimed physical mode without a declared quotient or effective-image construction, if the induced response is nonpositive on the physical sector, if the carrier change violates covariance or locality, or if the optional continued response cannot define the claimed spatial probability kernel. A failure of the later curvature realization is not retroactively a failure of W2.

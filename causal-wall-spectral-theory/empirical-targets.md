@@ -111,5 +111,4 @@ An unrestricted positive function \(c^{(0)}(k)\) can encode any positive scalar 
 - The constant-exponent member is rejected by established nonzero running, while the unrestricted response class survives.
 - The exact flat critical member is rejected if its physical field genuinely satisfies the declared flat symmetries but its leading precision is not homogeneous of degree three.
 - The holographic member is rejected if the required continuation, state, or stress representation fails; CWST could still seek a different representation.
-- The causal-wall realization is rejected if its constructed state response does not produce the required positive cosmological precision or cannot descend to observable records.
-
+- The causal-wall realization is rejected if its constructed state response does not produce the required positive cosmological precision or cannot transfer to the measured observable statistics and data products. Actual record formation is a separate factive obligation.

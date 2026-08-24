@@ -1,6 +1,6 @@
 # Why Unitarity Is Not the Wall Symmetry
 
-The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas the wall is meant to discard distinctions, produce an observable law, and orient irreversible factual history. The strongest present replacement is compositional rather than dynamical: a correspondence class fuses coherently across scale, a conditional expectation divides retained from erased distinction, and in a type-I product cell the erased edge factor's log-dimension partitions into a chosen input edge entropy and its tracial defect. Observable Noether charges and least action arise only later. None is conservation of an information substance across the wall.
+The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas a nonfaithful observational wall discards distinctions and produces an observable law; a separate fact-and-record arrow orients irreversible factual history. [[algebra/nonfaithful-realization|The categorical obstruction]] proves that genuine forgetting cannot be an equivalence. The strongest present replacement is compositional rather than dynamical: a correspondence class fuses coherently across scale, a conditional expectation divides retained from erased distinction, and in a type-I product cell the erased edge factor's log-dimension partitions into a chosen input edge entropy and its tracial defect. Observable Noether charges and least action arise only later. None is conservation of an information substance across the wall.
 
 ## The wall is deliberately noninvertible
 
@@ -142,18 +142,7 @@ The proposed diagonal causal charge in [[conservation-of-causal-charge/causal-in
 
 ## Ontological time is the orientation of records
 
-The wall expectation yields an unconditioned observable state, not a realized fact. A fact-bearing history additionally requires compatible characters on a directed family of commutative unital \(C^*\)-record algebras, or atomic von Neumann record algebras if normal operational states are required,
-
-$$
-\mathcal R_{\Sigma_1}
-\xhookrightarrow{}\mathcal R_{\Sigma_2}
-\xhookrightarrow{}\cdots,
-\qquad
-\chi_{\Sigma_2}|_{\mathcal R_{\Sigma_1}}
-=\chi_{\Sigma_1}.
-$$
-
-This one-sided inclusion order is a candidate for ontological time. It is neither a fourth information reservoir nor the parameter of a reversible equation. The irreversibility lies in persistent factual extension, not in a fundamental lossless evolution seen from a larger Hilbert space. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns the still-open selection and stability construction.
+The wall expectation yields an unconditioned observable state, not a realized fact. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent and records]] is the sole owner of the directed record-algebra chain, compatible realized characters, actuality problem, and stability conditions. That one-sided inclusion order is a candidate for ontological time; it is neither a fourth information reservoir nor the parameter of a reversible equation. [[program-core/record-scale-soldering|Record--scale soldering]] states the additional condition needed before its orientation can be identified with increasing cosmic scale.
 
 ## The revised type ledger
 

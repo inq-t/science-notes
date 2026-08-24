@@ -1,6 +1,6 @@
 # The Scale-Correspondence Stack
 
-The wall should be modeled by a scale-indexed tower of von Neumann algebras and correspondences whose overlaps are intended to glue by Connes fusion. Groupoid-valued presentation stacks preserve presentations and automorphisms; extra Q-system or expectation data add the noninvertible descent; a pointed character and a one-sided record semigroup add facthood and ontological time. Keeping these layers separate lets a homogeneous upstream law yield sectoral observable distinctions without treating the final classical spectrum as the substrate.
+One candidate realization of the canonical wall package's presentation and transport slots is a scale-indexed tower of von Neumann algebras and correspondences whose overlaps glue by Connes fusion. Groupoid-valued presentation stacks preserve presentations and automorphisms; extra Q-system or expectation data add noninvertible observational loss; a pointed character and one-sided record extensions add facthood and ontological time. Keeping these layers separate lets a homogeneous upstream law yield sectoral observable distinctions without treating the final classical spectrum as the substrate.
 
 ## The object to construct
 

@@ -83,7 +83,7 @@ $$
 \mathcal R(p):\mathcal R(x)\hookrightarrow\mathcal R(y)
 $$
 
-to be a proper extension and to preserve earlier factual values. This does not yet construct such a functor. It states what the phrase “time is the orientation of facts” must return mathematically. [[sufficient-reason/algebraic-arrow-of-time|The algebraic arrow of time]] supplies rigorous operator-algebraic candidates such as one-sided endomorphism semigroups and half-sided modular inclusions, while [[conservation-of-causal-charge/unitarity-and-ontological-time|ontological time]] owns the record-inclusion interpretation.
+to be a proper extension and to preserve earlier factual values. This does not yet construct such a functor. It states what the phrase “time is the orientation of facts” must return mathematically. [[sufficient-reason/algebraic-arrow-of-time|The algebraic arrow of time]] supplies rigorous operator-algebraic candidates such as one-sided endomorphism semigroups and half-sided modular inclusions; [[conservation-of-causal-charge/factive-descent-and-records|factive descent]] owns their still-open physical realization as compatible records, and [[program-core/record-scale-soldering|record--scale soldering]] owns the proposed comparison with cosmic expansion.
 
 ## Modular flow and monodromy do not supply the arrow
 

@@ -2,6 +2,8 @@
 
 CWST conjectures that a physical mean-zero residue of observational scale descent can be represented as the gauge-invariant curvature perturbation whose correlations are observed. The residue need not be an inhomogeneity of the sub-observable algebra. The equality is not a definition: it requires a spacetime realization, gauge reduction, constraint solution, canonical normalization, and matching theorem.
 
+This W3 map realizes a field on an imported or independently recovered \(3+1\) Lorentzian carrier. It does not derive ordinary dimension, Lorentzian signature, causal cones, or spacetime itself. [[algebra/real-forms-and-factive-spacetime|The real-form theorem]] supplies a candidate three-dimensional carrier under separate hypotheses and states the further history-functor obligation.
+
 ## Candidate residue
 
 Near a homogeneous scale section, write
@@ -61,6 +63,8 @@ $$
 $$
 
 Thus even a successful scalar identification need not preserve the numerical kernel unchanged. A nontrivial field normalization, projection, or carrier map belongs in \(R\).
+
+If \(R\) has a kernel, first quotient by the declared null or gauge sector and prove that the induced map is an isomorphism onto its physical image. If the map remains genuinely projective, precision must be transported by the appropriate projected-covariance, constrained, or Schur-complement construction; the displayed inverse formula is then not available on the unreduced carrier.
 
 ## Upgrade and failure conditions
 

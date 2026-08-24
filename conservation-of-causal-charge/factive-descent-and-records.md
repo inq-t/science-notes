@@ -65,7 +65,7 @@ This is an **[OPEN CONDITIONAL SPECIALIZATION]**. Here \(\mathcal F_{\mathrm{wal
 
 The accessible algebra may carry a genuinely one-sided semigroup or record-extension category without being declared the restriction of an ontic reversible group. Half-sided modular inclusion gives one rigorous example in which an ambient automorphism group induces one-sided inclusions, but it is a candidate construction, not a universal explanation of factual outcomes. [[sufficient-reason/algebraic-arrow-of-time|The algebraic arrow of time]] explains why many-to-one restriction alone is not a temporal arrow.
 
-For records, require a directed family of commutative unital (C^*)-record algebras, or atomic von Neumann algebras when normal operational states are essential,
+For records, require a directed family of commutative unital \(C^*\)-record algebras, or atomic von Neumann algebras when normal operational states are essential,
 
 $$
 \mathcal R_{N_1}

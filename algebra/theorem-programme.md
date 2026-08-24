@@ -39,8 +39,8 @@ No one of these universal properties is adopted yet. The programme must choose t
 | T3 | a nontrivial global form, obstruction, or degeneration selected inside the actual moduli problem | local equivalence without global triviality | the proposed $A_2$ or other singularity is decorative |
 | T4 | noninvertible factive process and compatible proper record extensions | objective directed factuality | only reversible structure or a probability law was built |
 | T5 | analytic enrichment with selected algebras, states, channels, divergences, and transports | a well-typed response theory | operator analysis was assumed, not derived |
-| T6 | spectral realization with independently computed metric, KO, and signature data | candidate geometry and field content | dimensions or gauge structure were retyped numerals |
-| T7 | causal and Lorentzian recovery, including a $3+1$ carrier | spacetime rather than Euclidean or internal geometry | no physical causal arena |
+| T6 | spectral realization with independently computed metric, KO, real-form, and signature data | candidate internal geometry and a possible spatial carrier | dimensions or gauge structure were retyped numerals |
+| T7 | causal and Lorentzian recovery, including a functor to $3+1$ histories | spacetime as the process realization of spatial objects | no physical causal arena or time soldering |
 | T8 | QFT/SM and GR recovery or conservative local-fiber interface | contact with tested physics | coexistence was mistaken for derivation |
 | T9 | independent dimensionful calibration and empirical tests | a physical theory rather than structural classification | constants were normalized from their targets |
 
@@ -73,7 +73,7 @@ $$
 
 ### Physical-realization weld
 
-Recover a Lorentzian $3+1$ carrier, compact gauge data, matter representations, a covariant action, and a same-tangent map from algebraic response to gravitational response. Imported GR or QFT may remain local fibers until this weld is proved. Background agreement, a spectral-action resemblance, or an $\mathfrak{sl}_3(\mathbb C)$ bundle is not a recovery theorem.
+Recover a Lorentzian $3+1$ carrier, compact gauge data, matter representations, a covariant action, and a same-tangent map from algebraic response to gravitational response. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real form]] can supply a real three-dimensional object under exact hypotheses; the remaining target is a functor from factive processes to time-oriented four-dimensional Lorentzian histories. Imported GR or QFT may remain local fibers until this weld is proved. Background agreement, a spectral-action resemblance, a three-dimensional fixed locus without dynamics, or an $\mathfrak{sl}_3(\mathbb C)$ bundle is not a recovery theorem.
 
 ## Small theorem targets
 
@@ -86,7 +86,9 @@ The programme can advance without pretending the universal theorem is already ne
 5. locate an $A_2$ degeneration inside the actual presentation moduli space and compute the induced monodromy;
 6. select a compact real form, connection, and action from the cubic-cover Lie bundle without inserting $SU(3)$ by hand;
 7. derive an algebraic scale parameter before identifying it with Weyl scale or e-fold number; and
-8. localize the selected information response without presupposing area, dimension, or a metric carrier.
+8. localize the selected information response without presupposing area, dimension, or a metric carrier;
+9. construct an antiholomorphic real structure on the selected complex threefold and calculate the topology and geometry of its fixed locus; and
+10. construct a Lorentzian-history functor whose orientation agrees with proper record extension and whose scale cocycle satisfies [[program-core/record-scale-soldering|the record--scale criterion]].
 
 Each target has a clean negative result. For example, if all admissible readouts differ by state-preserving automorphisms, the response vanishes. If every process is invertible modulo presentation equivalence, there is no oriented record history. If localization requires an already-normalized area form, it is constitutive response on geometry rather than a derivation of geometry.
 

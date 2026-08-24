@@ -1,6 +1,6 @@
 # Causal-Capacity Equivalence
 
-The keystone physical conjecture is that horizontal state distinguishability and gravitational area response are two representations of one local modulus. Its unit scalar form is an equivalence law only when the state and gravitational measures, tangents, areas, and renormalization prescriptions have been fixed independently.
+The keystone physical conjecture is that horizontal state distinguishability, gravitational canonical response, and central edge area are compatible representations of one local modulus. Its unit scalar form is an equivalence law only after three independent edges have been composed: retained BKM response to canonical energy, selected edge entropy to independently normalized spectral area, and the canonical scale-tangent energy to the gravitational entropy measure. No lost-response block is renamed gravity.
 
 ## The gravitational modulus
 
@@ -44,7 +44,7 @@ $$
 
 Strictly, \(\mathfrak a_{\mathrm E}\), not \(G\) alone, has the units and literal interpretation of area per unit dimensionless entropy or distinguishability curvature. \(G\) is that compliance expressed in mechanical units through \(c\) and \(\hbar\). [[deriving-value-of-g/areal-information-modulus|The areal information modulus]] gives the established Einstein identities.
 
-## The structural weld precedes the scalar ratio
+## Three structural welds precede the scalar ratio
 
 Let
 
@@ -84,9 +84,20 @@ g^{\mathrm{BKM}}(v,w)
 \text{for all physical }v,w.
 $$
 
-Here \(\mathcal E^{(1)}_{\mathrm{can}}\) is computed with a unit-normalized gravitational kinetic term and \(Z_g\) is kept symbolic, with \([Z_g\mathcal E^{(1)}_{\mathrm{can}}]=1\) in the displayed normalization. This is a prospective equivariant homothety; it becomes an isometry only after the target normalization is fixed. It must preserve the same physical tangents, not merely return equal scalar norms for unrelated vectors.
+Here \(\mathcal E^{(1)}_{\mathrm{can}}\) is computed with a unit-normalized gravitational kinetic term and \(Z_g\) is kept symbolic, with \([Z_g\mathcal E^{(1)}_{\mathrm{can}}]=1\) in the displayed normalization. This is the **retained-response edge**. It is controlled only in the declared AdS calibration regime of [[spectral-wall-descent/ads-calibration-and-ds-carrier|the canonical-energy correspondence]]; a universal causal-wall extension remains open. It must preserve the same physical tangents, not merely return equal scalar norms for unrelated vectors.
 
-The weaker **Einstein scale-direction matching** concerns only the canonically normalized tangent \(v_N\). It additionally requires a horizon or canonical-energy bridge identifying the selected gravitational response measure with the Einstein entropy-area measure:
+The independent **central area edge** requires algebraically selected fixed edge-state data and an independently normalized central spectral-area assignment:
+
+$$
+\boxed{
+\mathcal L_\chi(U)
+\stackrel{?}{=}
+\eta_*\mathcal A_D^Z(U)}
+$$
+
+for every admissible patch. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] supplies exact type-I and code-theoretic precursors under its hypotheses; [[deriving-value-of-g/spectral-index-area-route|the spectral index--area route]] owns the physical all-patch theorem target. The edge operator is not an entry of the BKM Hessian, and its coefficient cannot be normalized from measured \(G\).
+
+The **Einstein scale-direction edge** concerns only the canonically normalized tangent \(v_N\). It requires a horizon, focusing, first-law, or canonical-energy theorem identifying the gravitational response produced by the first edge with the Einstein entropy-area measure whose normalization agrees with the second edge:
 
 $$
 \mathrm d\mu^{\mathrm{desc}}_{v_N,v_N}
@@ -95,13 +106,27 @@ $$
 =\eta_{\mathrm E}\,\mathrm dA.
 $$
 
-Universality of this rank-one contraction across cuts does not by itself prove the full bilinear homothety. Conversely, the abstract homothety does not fix the Einstein entropy normalization until the bridge is supplied.
+Only after these three edges compose may the direct state--entropy measure equality be written without bypassing a carrier or normalization problem. Universality of this rank-one contraction across cuts does not by itself prove the full bilinear homothety. Conversely, the abstract homothety does not fix the Einstein entropy normalization or select the central edge state.
+
+The retained/lost split is exact under the conditional-expectation hypotheses, but the lost block has no established gravity map:
+
+$$
+G^{\mathrm{pre}}
+=G^{\mathrm{ret}}
++G^{\mathrm{lost}},
+\qquad
+G^{\mathrm{lost}}
+\not\equiv
+G^{\mathrm{grav}}.
+$$
+
+Any future relation involving the lost block must be a fourth explicit construction, not a reinterpretation of the three edges above.
 
 A strict extended use of *soldering* requires a declared source, target, base, symmetry action, covariance law, rank, and preservation property. [[basic-concepts/soldering/entry|Soldering]] owns those conditions.
 
 ## The local matching field
 
-When both localized measures exist on one physical cut with one compatible trace and renormalization prescription, require
+When all three structural welds have placed the localized measures on one physical cut with one compatible trace and renormalization prescription, require
 
 $$
 \mu^{\mathrm{desc}}_{v_N,v_N}\ll\mu^{S,\mathrm{grav}},

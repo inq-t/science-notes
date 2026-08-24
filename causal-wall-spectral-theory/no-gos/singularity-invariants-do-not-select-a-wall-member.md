@@ -6,6 +6,8 @@ Classical \(A_2\) singularity invariants, monodromy orders, and a finite list of
 
 The frozen attempt under `sources/legacy/calc-chats/chat-02-a2-wall-attempt/` correctly recomputed parts of the classical algebra once conventions were granted: the Jacobi algebra of a cubic germ has Milnor number two, the depressed cubic has its standard discriminant, and particular monodromy matrices have finite order. Those are mathematical facts about the selected singularity model.
 
+[[algebra/a2-inverse-cover|The later inverse-cover analysis]] supplies a stronger conditional exact seed: a degree-three finite étale cover off the discriminant, full \(S_3\) sheet monodromy, and a rank-three pushforward algebra with a trace-zero \(\mathfrak{sl}_3(\mathbb C)\) bundle. This materially improves the local--global mathematics. It still supplies no causal regions, faithful wall state, scale transport, BKM response, source operator, Lorentzian realization, or record process, so the no-go below is unchanged.
+
 They do not imply
 
 $$
@@ -52,4 +54,3 @@ This establishes a methodological **[NO-GO]**:
 > A discrete invariant or verified coincidence cannot select a physical CWST member without a typed map from the candidate mathematics to the wall carrier, state, transport, source operator, and response.
 
 An \(A_2\) route could be reopened only by constructing such a map independently of the observed tilt or running and deriving the relevant flow coefficient from it. The original attempt and its receipts remain locally reviewable through [[causal-wall-spectral-theory/sources/legacy/calc-chats/a2-wall-rejection|the detailed rejection note]].
-

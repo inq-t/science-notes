@@ -2,7 +2,7 @@
 
 Causal charge is a proposed downstream invariant of a fact-bearing observable arena: a common symmetry charge whose state-plus-matter, geometric, and record contributions could change while their flux-inclusive total remains fixed. It is not the invariant of the pre-observable-to-observable wall. The exact mathematics presently establishes a binary Casimir allocation, a non-stochastic two-channel conversion law, and a nonunitary response split; the relation of these structures to gravitational response, boundary charge, and factual descent remains conjectural.
 
-[[unitarity-and-ontological-time|Why unitarity is not the wall symmetry]] separates four registers: structural class persistence upstream, noninvertible loss at the wall, ordinary action and charge in observable physics, and the one-sided filtration of records. Unitarity is not imposed on either side as a conservation of information.
+[[unitarity-and-ontological-time|Why unitarity is not the wall symmetry]] separates four registers: structural class persistence upstream, noninvertible loss at the wall, ordinary action and charge in observable physics, and the one-sided filtration of records. [[algebra/nonfaithful-realization|The nonfaithfulness theorem]] proves the exact categorical obstruction to treating genuine forgetting as an equivalence. Unitarity is not imposed across registers as a conservation of information; it may remain a law inside a recovered local physical sector.
 
 ## Indiscernibility comes before conservation
 

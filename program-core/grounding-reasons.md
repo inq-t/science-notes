@@ -8,7 +8,7 @@ A **cosmos** is a fact-bearing coherent arena in which distinctions can be situa
 
 This is the programme-level meaning developed by [[cosmodynamics/cosmos-as-structure-of-facts|the cosmos as a structure of facts]]. It does not imply that the local mechanics of GR or QFT must emerge from more primitive equations. They may be imported as local fibers while the programme studies their common arena and global compatibility.
 
-“Prior,” “ground,” and “pre-observable” name explanatory dependence, not an earlier moment in time. Temporal order is among the structures the programme is trying to ground.
+“Prior,” “ground,” and “pre-observable” name explanatory dependence, not an earlier moment in time. Temporal order is among the structures the programme is trying to ground. Nor does “realization” cross from mere mathematics into a nonmathematical reality. Internal algebra, observable space, Lorentzian history, and records are all mathematical structures and, under the programme's realism, equally real; the work is to prove the functors by which they are representations of one cosmos.
 
 ## GR1 — Reason is stronger than accessibility
 
@@ -100,7 +100,7 @@ A state-space path, a modular automorphism, and a cosmological scale history des
 2. a metric or susceptibility measuring physical distinguishability; and
 3. a factive map producing contextual outcomes and persistent records.
 
-Only the first two have partial mathematical candidates. The third remains open. Growth of entropy or spatial area may be evidence about the arena's changing capacity, but it is not yet a theorem that facthood is converted into spacetime.
+Only the first two have partial mathematical candidates. The third remains open. Growth of entropy or spatial area may be evidence about the arena's changing capacity, but it is not yet a theorem that facthood is converted into spacetime. [[program-core/record-scale-soldering|Record--scale soldering]] now gives an exact conditional criterion for identifying proper record extension with increasing logarithmic scale and explains why clock rate and acceleration remain further mathematical structures.
 
 One cosmos should therefore mean coherent translations and compatible records when contexts become jointly comparable. It must not be defined as one simultaneous noncontextual value assignment over every incompatible context.
 

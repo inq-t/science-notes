@@ -117,7 +117,7 @@ The programme's phrase *descent into facthood* is therefore a project-specific e
 3. a map to contextual facts; and
 4. a persistence law for records.
 
-The first has an exact abstract template. The second has the construction target in [[program-core/descent-response-geometry|the descent-response geometry]]. The factive and record layers remain open in [[cosmodynamics/fact-record-history|Fact, Record, and History]].
+The first has an exact abstract template. The second has the construction target in [[program-core/descent-response-geometry|the descent-response geometry]]. [[cosmodynamics/fact-record-history|Fact, Record, and History]] owns the meaning and requirements of the later layers; [[conservation-of-causal-charge/factive-descent-and-records|factive descent]] owns their open physical construction target.
 
 One cosmos need not and, in the relevant quantum setting, cannot mean one global noncontextual valuation. It can instead mean coherent translations and records among contexts when they become jointly comparable.
 
