@@ -35,7 +35,7 @@ $$
 \{\iota_{N_2:N_1}\},\
 \Phi,\
 \{u_{N_2:N_1}(s)\},\
-T
+\mathscr T=\{T_\alpha\}
 \bigr),
 $$
 
@@ -50,7 +50,7 @@ whose slots carry separate obligations:
 | $\iota_{N_2:N_1}$ | identification, embedding, or transport of observables between fibers | a composition law, and control of gauge and holonomy |
 | $\Phi$ | the scale-to-state law $N\mapsto\omega_N$ | specified independently of the response it is meant to explain |
 | $u_{N_2:N_1}(s)$ | relative modular data on a common algebra | defined only after transport; ratio dependence and regularity proved, not assumed |
-| $T$ | renormalized operator proposed to generate a local Weyl-source direction | locality, covariance, scaling, and metric-variation ambiguities declared |
+| $\mathscr T=\{T_\alpha\}$ | renormalized source family, including the local Weyl-source direction and any TT source claimed by a tensor member | locality, covariance, scaling, source domains, and metric-variation ambiguities declared; a scalar-only realization need not supply a TT member |
 
 **[OPEN CONSTRUCTION — WALL STRUCTURE]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. This single gap is the common ancestor of the open problems recorded downstream in both programmes; it is not two independent gaps that happen to resemble each other.
 

@@ -8,7 +8,7 @@ Run the dependency-free receipt from the repository root:
 python causal-wall-spectral-theory/receipts/verify_v3_normalizations.py
 ```
 
-The script uses only the Python standard library, writes [[verify_v3_normalizations.json|its machine-readable result]] beside itself, and exits nonzero exactly when a declared check fails or the receipt cannot be completed.
+The script uses only the Python standard library, writes [[verify_v3_normalizations.json|its machine-readable result]] beside itself, and exits nonzero exactly when a declared check fails or the receipt cannot be completed. The output omits a wall-clock timestamp so an unchanged verification does not dirty the repository merely because it was rerun.
 
 The checks are separated by mathematical scope:
 

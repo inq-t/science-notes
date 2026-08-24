@@ -177,7 +177,7 @@ G_{\zeta\zeta}
 \xrightarrow{\;\mathfrak B\;}
 \mathcal K_\zeta,
 \qquad
-\mathcal K_\zeta(f,f)
+\langle f,\mathcal K_\zeta f\rangle
 :=
 \int\frac{\mathrm d^3k}{(2\pi)^3}
 \mathcal K_\zeta(k)|f_{\mathbf k}|^2.

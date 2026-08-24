@@ -13,7 +13,6 @@ import json
 import platform
 import sys
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from fractions import Fraction
 from pathlib import Path
 
@@ -420,7 +419,6 @@ def main() -> int:
     failed = sum(not check["pass"] for check in checks)
     payload = {
         "schema_version": 1,
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "python": platform.python_version(),
         "scope": (
             "Algebraic normalization checks only. No wall construction, "

@@ -82,7 +82,7 @@ The notation makes the domain change visible; equality of the two \(\zeta\) symb
 | optional stress representation | [[vendor/holographic-cosmology/entry|holographic cosmology]] | establish that the selected wall realization lies in the vendor's domain |
 | W3\(_{\mathrm s}\) | [[conjectures/wall-residue-is-curvature|CWST curvature conjecture]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | construct the gauge-reduced scalar representation and its normalization |
 | W3\(_{\mathrm t}\) | [[open-questions/calculate-tensor-response|CWST tensor problem]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | construct the independent TT phase space, state, and normalization |
-| W4 | CWST's scalar, tensor, and [[open-questions/calculate-higher-response|higher-response problems]] | calculate cubic and higher joint vertices rather than infer them from two-point data |
+| W4 | [[open-questions/calculate-higher-response|CWST higher-response problem]] | calculate cubic and higher scalar, tensor, and mixed vertices rather than infer them from two-point data |
 | W5 | [[compatible-with-existing-physics/primordial-observable-interface|primordial observable interface]] plus [[open-questions/empirical-completion|empirical completion]] | supply dynamics, matching, transfer, released likelihoods, and records |
 | philosophical interpretation | [[program-core/grounding-reasons|grounding reasons]] and [[sufficient-reason/quantum-interpretations|quantum interpretations]] | state the CWST application without treating it as a calculation |
 

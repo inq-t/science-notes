@@ -1,0 +1,4 @@
+[module]
+name = "ko-dimension-as-morita-class"
+entry = "entry.md"
+include = ["**/*.md"]

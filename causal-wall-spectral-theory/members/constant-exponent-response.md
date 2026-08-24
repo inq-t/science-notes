@@ -1,6 +1,6 @@
 # The Constant-Exponent Response Member
 
-The minimal CWST shape member assumes that the calculated spin-zero response is a pure power of scale. It gives a power-law scalar spectrum and exactly zero running by definition; it is a replaceable baseline, not a derivation of the observed tilt or a theorem of causal-wall state geometry.
+The minimal CWST shape member assumes that the calculated spin-zero response is a pure power of scale. Under the optional holographic dictionary it gives a power-law scalar spectrum and zero running; it is a replaceable baseline, not a derivation of the observed tilt or a theorem of causal-wall state geometry.
 
 ## Definition
 

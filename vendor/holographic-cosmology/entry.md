@@ -2,7 +2,7 @@
 
 Holographic cosmology represents primordial cosmological observables through correlation functions of a lower-dimensional Euclidean quantum field theory. In the McFadden--Skenderis construction, a four-dimensional single-scalar cosmology is paired with a Euclidean domain wall, gauge/gravity duality is applied to the wall, and the resulting QFT response functions are analytically continued back to cosmology. The scalar, tensor, and higher-point dictionaries are controlled within that class; they are not identities for every cosmology, every three-dimensional QFT, or every object called a wall.
 
-Claim labels use [[program-core/axioms-and-principles#Status vocabulary|the programme-wide status vocabulary]]. Notes outside the commentary directory present the vendored theory in its own terms. Project-specific translations and objections are confined to [[vendor/holographic-cosmology/commentary/cwst-translation|the CWST translation]] and [[vendor/holographic-cosmology/commentary/representation-is-not-ontology|the representation commentary]].
+Claim labels use [[program-core/axioms-and-principles#Status vocabulary|the programme-wide status vocabulary]]. Notes outside the commentary directory present the vendored theory in its own terms. [[vendor/holographic-cosmology/commentary/cwst-translation|The CWST boundary commentary]] and [[vendor/holographic-cosmology/commentary/representation-is-not-ontology|the representation commentary]] state project-specific judgments, while [[causal-wall-spectral-theory/spectral-realization|CWST's spectral realization]] owns the canonical consumer-side adapter.
 
 ## The construction
 

@@ -57,13 +57,13 @@ by [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the symmetrize
 
 ## Types and dimensions
 
-The core's areal modulus and the target precision live on different carriers:
+The core's areal modulus and the returned spatial precision live on different carriers:
 
 $$
 \boldsymbol\chi(v,w;p)\,\mathrm dA(p),
 \qquad
 \frac{\mathrm d^3k}{(2\pi)^3}
-\mathcal K_\zeta(k)|\zeta_{\mathbf k}|^2.
+\mathcal K^{\zeta}_{\mathrm{wall}}(k)|\zeta_{\mathrm{wall},\mathbf k}|^2.
 $$
 
 With dimensionless tangents and the registered Fourier convention,
@@ -71,7 +71,7 @@ With dimensionless tangents and the registered Fourier convention,
 $$
 [\boldsymbol\chi]=L^{-2},
 \qquad
-[\mathcal K_\zeta]=L^{-3}.
+[\mathcal K^{\zeta}_{\mathrm{wall}}]=L^{-3}.
 $$
 
 The difference is not a contradiction; it announces that \(L\) must carry a length or measure conversion. It is a contradiction only if the two are directly equated without such a map.

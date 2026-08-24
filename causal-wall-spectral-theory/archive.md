@@ -16,14 +16,4 @@ The retired calculation module's unique chat material is preserved under `source
 
 ## Canonical ownership after refactor
 
-The active source of truth is now distributed by mathematical ownership:
-
-- [[program-core/entry|the programme core]] owns definitions, principles, statuses, and response types;
-- [[wall-construction-interface/entry|the wall interface]] owns the scale-indexed causal-state package;
-- [[basic-concepts/hessians/entry|Hessian theory]] owns relative-entropy and precision theorems;
-- [[critical-scale-kernels/entry|critical scale kernels]] owns the reusable spectral mathematics;
-- [[vendor/holographic-cosmology/entry|holographic cosmology]] owns the optional external representation in its own terms;
-- [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] owns standard perturbative adequacy; and
-- [[causal-wall-spectral-theory/entry|CWST]] owns only its realization conjectures, members, calculations, and interpretation.
-
-Git preserves the deleted active notes and the retired `causal-wall-spectral-calc` tree. The local archive preserves the irreplaceable source artifacts needed for human review.
+[[causal-wall-spectral-theory/realization-map|The realization map]] is the single active owner ledger; this archive does not repeat it. Git preserves the deleted active notes and the retired `causal-wall-spectral-calc` tree. The local archive preserves the irreplaceable source artifacts needed for human review.
