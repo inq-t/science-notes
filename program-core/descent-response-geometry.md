@@ -170,16 +170,20 @@ $$
 
 and the localized object has the corresponding matrix of measures or densities. The off-diagonal blocks test mixing; they are not presumed to vanish.
 
-The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the homogeneous contraction and the inhomogeneous block. In a homogeneous and isotropic Fourier chart one may then obtain a quadratic representation
+The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the homogeneous contraction and the abstract inhomogeneous block. A three-dimensional Fourier precision is a further representation, not part of that block merely by notation. Only after a three-dimensional carrier has been constructed may a consumer seek a map
 
 $$
-G_{\zeta\zeta}(f,f)
-=
+G_{\zeta\zeta}
+\xrightarrow{\;\mathfrak B\;}
+\mathcal K_\zeta,
+\qquad
+\mathcal K_\zeta(f,f)
+:=
 \int\frac{\mathrm d^3k}{(2\pi)^3}
 \mathcal K_\zeta(k)|f_{\mathbf k}|^2.
 $$
 
-If the pulse coefficient and \(\mathcal K_\zeta\) are instead supplied by independent ansätze or separately fitted normalizations, they have not been shown to be blocks of one geometry. This is the homogeneous/inhomogeneous weld target; [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the common-geometry conjecture]] owns its stronger realization and failure conditions.
+The core supplies no \(\mathfrak B\). [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|CWST's state-to-spatial-precision conjecture]] owns a candidate carrier-changing transfer, while [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the common-geometry conjecture]] owns the stronger claim that the homogeneous and spectral returns descend from one geometry. If the pulse coefficient and \(\mathcal K_\zeta\) are supplied by independent ansätze or separately fitted normalizations, they have not been shown to be representations of one response.
 
 The homogeneous areal modulus must also remain distinct from any spectral response density carried by a three-dimensional measure. For example, a kernel \(\mathcal K_\zeta\) normalized per volume has units \(L^{-3}\), not \(L^{-2}\). Relating such a spectral object to \(\boldsymbol\chi\) requires an explicit integration, boundary map, or soldering theorem; similarity of interpretation does not repair the dimensional mismatch.
 

@@ -30,9 +30,9 @@ $$
 
 The vertical term is modular-frame gauge. The central term shifts a normalization or a scalar lift and has **zero** information length, since relative entropy and every monotone metric are insensitive to a common central offset. Only the middle term can carry the response.
 
-The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. **[OPEN]** If the horizontal tangent turns out to be pure vertical gauge or pure central shift, the programme has no response at all — and this is a live possibility, not a formality, because the central direction is exactly where a vacuum-energy-like offset would sit. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
+The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. **[OPEN CONSTRUCTION]** If the horizontal tangent turns out to be pure vertical gauge or pure central shift, the programme has no response at all — and this is a live possibility, not a formality, because the central direction is exactly where a vacuum-energy-like offset would sit. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
 
-## What the cocycle must show
+## What a binary member additionally must show
 
 After transport to a common algebra, let
 
@@ -40,7 +40,7 @@ $$
 u_{21}(s):=(D\omega_{N_2}:D\omega_{N_1})_s
 $$
 
-be the relative modular cocycle. The desired result is that its noncentral binary component takes the form
+be the relative modular cocycle. For a member that selects [[binary-channel|the optional binary channel]], the additional desired result is that its noncentral component takes the form
 
 $$
 u_{21}^{\perp}(s)
@@ -62,7 +62,7 @@ $$
 x:=N-N_c .
 $$
 
-**[CONDITIONAL THEOREM]** This derives logarithmic affinity. It does not derive the value $|\varrho_\perp|=1$, and no functional equation can, since every real slope solves it. Reversing the names of the two null orientations sends $Q\mapsto-Q$ and $\varrho_\perp\mapsto-\varrho_\perp$, so the orientation-independent quantity is the width $\nu:=|\varrho_\perp|>0$.
+**[CONDITIONAL THEOREM — BINARY MEMBER]** This derives logarithmic affinity. It does not derive the value $|\varrho_\perp|=1$, and no functional equation can, since every real slope solves it. Reversing the names of the two null orientations sends $Q\mapsto-Q$ and $\varrho_\perp\mapsto-\varrho_\perp$, so the orientation-independent quantity is the width $\nu:=|\varrho_\perp|>0$. The generic interface requires transport and a nonzero physical tangent, not this rank-one form; CWST does not consume it unless a particular spectral member says so.
 
 ### Two registrations that must accompany the statement
 
@@ -70,7 +70,7 @@ $$
 
 *Measurability is not continuity in $s$.* The regularity hypothesis needed is measurability of $f$ as a function of the external scale ratio $r$. Sigma-weak continuity of $u_t$ in the cocycle parameter $t$ is a different statement and does not supply it. This must be derived or assumed explicitly; without some regularity, pathological additive solutions are available.
 
-## Failure modes, and what each would localize
+## Failure modes of the binary-affine specialization
 
 | Failure | Consequence |
 |---|---|
@@ -94,4 +94,4 @@ There is a controlled precedent for the shape such a rule can take rather than f
 
 ## Interface position
 
-This note owns the horizontal problem: selecting states across fibers and comparing them. The exactness of the reduced algebra reached *after* a channel is granted belongs to [[binary-information-geometry/entry|binary information geometry]]; the justification of that channel belongs to [[binary-channel|the binary channel obligation]]; the affine theorem is kept in [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]]. Whether a completed transport explains anything is decided by [[elimination-test|the elimination tests]].
+This note owns the generic horizontal problem: selecting states across fibers and comparing them. Its binary-affine subsection is one replaceable specialization. The exactness of the reduced algebra reached *after* that channel is granted belongs to [[binary-information-geometry/entry|binary information geometry]]; the justification of the channel belongs to [[binary-channel|the binary channel obligation]]; the affine theorem is kept in [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]]. Whether a completed transport explains anything is decided by [[elimination-test|the elimination tests]].

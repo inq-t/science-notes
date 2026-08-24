@@ -14,7 +14,23 @@ c_{\mathrm{calc}}^{(0)}(k)
 \delta=\text{constant}.
 $$
 
-Then the exact dictionary gives
+The response ansatz itself gives the exact logarithmic identities
+
+$$
+\frac{\mathrm d\ln c_{\mathrm{calc}}^{(0)}}{\mathrm d\ln k}
+=\delta,
+\qquad
+\frac{\mathrm d^2\ln c_{\mathrm{calc}}^{(0)}}{\mathrm d(\ln k)^2}
+=0.
+$$
+
+If the optional holographic spectrum dictionary is selected, define
+
+$$
+A_s:=\frac{4}{\pi^4c_*^{(0)}}.
+$$
+
+The conditional dictionary then gives
 
 $$
 \Delta_\zeta^2(k)
@@ -30,7 +46,7 @@ n_s-1=-\delta,
 \boxed{\alpha_s=0}.
 $$
 
-This is **[EXACT — AFTER THE MEMBER DEFINITION]**. The theory has not yet calculated \(c_*^{(0)}\) or \(\delta\) from a wall state. Setting them from \(A_s\) and \(n_s\) calibrates the member.
+The response derivatives are **[EXACT — AFTER THE POWER-LAW ANSATZ]**. Their interpretation as \(A_s\), \(n_s\), and \(\alpha_s\) is a **[CONDITIONAL THEOREM — AFTER THE HOLOGRAPHIC DICTIONARY]**. The theory has not yet calculated \(c_*^{(0)}\) or \(\delta\) from a wall state. Setting them from \(A_s\) and \(n_s\) calibrates the member.
 
 ## Scope
 
@@ -39,4 +55,3 @@ The member says nothing universal about tensors or higher points. Those require 
 ## Falsifier
 
 Established nonzero running rejects the constant-exponent member. It does not reject the unrestricted positive response class, which can accommodate running but is nonpredictive until a microscopic flow law restricts it. A derived non-power response should replace this member rather than be described as a correction to an exact CWST prediction.
-

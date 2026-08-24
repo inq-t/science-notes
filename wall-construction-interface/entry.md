@@ -52,7 +52,7 @@ whose slots carry separate obligations:
 | $u_{N_2:N_1}(s)$ | relative modular data on a common algebra | defined only after transport; ratio dependence and regularity proved, not assumed |
 | $T$ | renormalized operator proposed to generate a local Weyl-source direction | locality, covariance, scaling, and metric-variation ambiguities declared |
 
-**[OPEN — WALL STRUCTURE]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. This single gap is the common ancestor of the open problems recorded downstream in both programmes; it is not two independent gaps that happen to resemble each other.
+**[OPEN CONSTRUCTION — WALL STRUCTURE]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. This single gap is the common ancestor of the open problems recorded downstream in both programmes; it is not two independent gaps that happen to resemble each other.
 
 ## Why a derivative of the state family is not yet defined
 
@@ -93,27 +93,26 @@ The homogeneous response programme consumes the first summand; the primordial sp
 
 The design consequence is sharp. An interface built only for the homogeneous consumer may retain $\Sigma_N$ merely as an area — enough for an entropy normalization — and would then be unable to serve the spectral consumer at all. The shared package must therefore retain the field content on $\Sigma_N$, together with the quotient by constants that removes the homogeneous redundancy, even when the immediate caller integrates it away.
 
-At a homogeneous and isotropic reference, harmonic symmetry makes the two summands orthogonal at quadratic order. That orthogonality is a property of the reference, not of the decomposition: mixed terms may return beyond quadratic order or on an inhomogeneous background, and a construction that needs them absent must say so.
+At a homogeneous and isotropic reference, invariance of the response form under the reference symmetry can force orthogonality when the homogeneous and inhomogeneous sectors carry inequivalent representations. This is a **[CONDITIONAL THEOREM — UNDER THE REPRESENTATION HYPOTHESES]**, not a property of the direct-sum notation itself. Mixed terms may survive if those hypotheses fail, and they may return beyond quadratic order or on an inhomogeneous background.
 
-What each consumer requires the constructed interface to return is correspondingly different:
+What the shared construction must expose is correspondingly different in the two sectors:
 
 $$
 \text{homogeneous:}\quad
-\nu=\left|\frac{\mathrm d\theta}{\mathrm dN}\right|,
+v_N\in H^{\mathrm{phys}}_{\Sigma,\mathrm{hom}},
 \qquad
-\mathfrak R_\Sigma(N)
-=\frac{k_B}{S_{\mathrm{grav}}(\Sigma_N)}
-G^\perp_{NN}(\Sigma_N,N);
+G^{\mathrm{BKM}}_{NN};
 $$
 
 $$
-\text{spectral:}\quad
-\operatorname{Hess}\mathscr J_{\rm wall,spec},
+\text{inhomogeneous:}\quad
+H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}},
 \qquad
-\text{and the identification of }\zeta_{\rm wall}\text{ with a gauge-invariant curvature mode.}
+G^{\mathrm{BKM}}_{\zeta\zeta}
+\quad\text{when the regular response exists.}
 $$
 
-Here \(\mathfrak R_\Sigma(N)\) is the cut-integrated return defined in [[program-core/ruble-equations#RE6 — Integrated crossing capacity|RE6]], not a local field or a pathwise constant. Both response outputs depend on the same eight interface slots. Neither is computable from a subset that omits transport.
+Both response blocks depend on the same eight interface slots and are undefined before cross-fiber transport and the physical quotient exist. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
 
 ## Two completion levels
 
@@ -125,11 +124,11 @@ A programme built on this interface may honestly stop at either level, provided 
 
 The distinction matters because the two levels have different burdens of proof and different falsifiers, and because a document that argues at the first level while phrasing its results in the vocabulary of the second will read as more complete than it is.
 
-## The reduction that is assumed, not derived
+## An optional reduction that is assumed, not derived
 
-Both consumers currently route their response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[binary-information-geometry/entry|binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]].
+The homogeneous CST member currently routes its response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[binary-information-geometry/entry|binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]]. CWST requires a physical inhomogeneous response sector but does not require this binary reduction unless a particular CWST member explicitly adds it.
 
-The word "rank one" is used across the archive for reductions that do not imply one another: one noncentral horizontal generator, one common material clock, and one spin-zero stress form factor. Only the first is an obligation of this interface. The other two are consumer-side assumptions and should be argued where they are used.
+The word "rank one" is used across the archive for reductions that do not imply one another: one noncentral horizontal generator, one common material clock, and one spin-zero stress form factor. The first is an obligation only for a binary wall member. The other two are consumer-side assumptions and should be argued where they are used.
 
 ## What makes a construction explanatory
 

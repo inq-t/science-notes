@@ -11,23 +11,35 @@ revision = "v1"
 integrity = "sha256:0a0f271945b7380e295f4f4163316fa6de7d47aeaa5d5ffc6ff192ee3ce8c62a"
 
 [[module]]
+name = "binary-information-geometry"
+
+[[module]]
 name = "causal-scale-theory"
 links = [
+  "binary-information-geometry",
   "compatible-with-existing-physics",
+  "conformal-scale-geometry",
   "conservation-of-causal-charge",
-  "cosmodynamics",
   "deriving-value-of-g",
+  "hessians",
+  "program-core",
   "scale-as-modular-observable",
+  "soldering",
   "wall-construction-interface",
 ]
 
 [[module]]
-name = "causal-wall-spectral-calc"
-
-[[module]]
 name = "causal-wall-spectral-theory"
 links = [
-  "causal-scale-theory",
+  "compatible-with-existing-physics",
+  "conservation-of-causal-charge",
+  "critical-scale-kernels",
+  "hessians",
+  "holographic-cosmology",
+  "program-core",
+  "soldering",
+  "sufficient-reason",
+  "wall-construction-interface",
 ]
 
 [[module]]
@@ -45,25 +57,36 @@ name = "compatible-with-existing-physics"
 links = [
   "causal-scale-theory",
   "causal-wall-spectral-theory",
+  "conformal-scale-geometry",
+  "hessians",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "conformal-scale-geometry"
+links = [
+  "program-core",
 ]
 
 [[module]]
 name = "conformal-time"
 links = [
-  "causal-scale-theory",
+  "conformal-scale-geometry",
 ]
 
 [[module]]
 name = "conservation-of-causal-charge"
 links = [
-  "causal-scale-theory",
+  "binary-information-geometry",
   "causal-wall-spectral-theory",
   "compatible-with-existing-physics",
+  "conformal-scale-geometry",
   "cosmodynamics",
   "deriving-value-of-g",
   "descent",
   "groupoids",
-  "scale-as-modular-observable",
+  "hessians",
+  "program-core",
   "soldering",
   "stacks",
   "sufficient-reason",
@@ -76,23 +99,37 @@ links = [
   "causal-scale-theory",
   "causal-wall-spectral-theory",
   "compatible-with-existing-physics",
+  "conformal-scale-geometry",
   "conformal-time",
   "deriving-fine-structure-constant",
   "deriving-value-of-g",
   "misner-log-time",
+  "program-core",
   "sufficient-reason",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "critical-scale-kernels"
+links = [
+  "causal-wall-spectral-theory",
+  "hessians",
+  "program-core",
   "wall-construction-interface",
 ]
 
 [[module]]
 name = "dark-energy-and-acceleration"
 links = [
+  "binary-information-geometry",
   "causal-scale-theory",
   "causal-wall-spectral-theory",
   "compatible-with-existing-physics",
+  "conformal-scale-geometry",
   "conformal-time",
   "cosmodynamics",
   "deriving-value-of-g",
+  "program-core",
   "scale-as-modular-observable",
   "wall-construction-interface",
 ]
@@ -106,12 +143,13 @@ links = [
 [[module]]
 name = "deriving-value-of-g"
 links = [
-  "causal-scale-theory",
-  "causal-wall-spectral-theory",
+  "binary-information-geometry",
   "compatible-with-existing-physics",
+  "conformal-scale-geometry",
   "cosmodynamics",
   "hessians",
-  "least-action",
+  "principle-of-least-action",
+  "program-core",
   "scale-as-modular-observable",
   "wall-construction-interface",
 ]
@@ -179,6 +217,7 @@ links = [
 [[module]]
 name = "hessians"
 links = [
+  "binary-information-geometry",
   "causal-scale-theory",
   "causal-wall-spectral-theory",
   "compatible-with-existing-physics",
@@ -186,31 +225,120 @@ links = [
   "fibers",
   "gluing",
   "groupoids",
+  "holographic-cosmology",
+  "program-core",
   "sheafs",
   "soldering",
   "stacks",
+  "wall-construction-interface",
 ]
 
 [[module]]
-name = "least-action"
+name = "holographic-cosmology"
 links = [
-  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "program-core",
+  "wall-construction-interface",
 ]
+
+[[module]]
+name = "indiscernibility-of-identicals"
+links = [
+  "conservation-of-causal-charge",
+  "cosmodynamics",
+  "descent",
+  "gluing",
+  "groupoids",
+  "leibniz",
+  "sheafs",
+  "stacks",
+  "sufficient-reason",
+  "symmetry-groups-select",
+  "torsors",
+]
+
+[[module]]
+name = "leibniz"
 
 [[module]]
 name = "misner-log-time"
 links = [
-  "causal-scale-theory",
+  "conformal-scale-geometry",
+]
+
+[[module]]
+name = "noether-conservation"
+links = [
+  "conservation-of-causal-charge",
+  "indiscernibility-of-identicals",
+  "principle-of-least-action",
+  "program-core",
+  "sufficient-reason",
+  "symmetry-principle",
 ]
 
 [[module]]
 name = "perturbation-and-symmetry-breaking"
 
 [[module]]
+name = "postquantum-gravity"
+links = [
+  "causal-wall-spectral-theory",
+  "conservation-of-causal-charge",
+  "descent",
+  "entropic-gravity",
+  "indiscernibility-of-identicals",
+  "noether-conservation",
+  "program-core",
+  "sufficient-reason",
+]
+
+[[module]]
+name = "principle-of-least-action"
+links = [
+  "conformal-scale-geometry",
+  "cosmodynamics",
+  "noether-conservation",
+  "program-core",
+  "sufficient-reason",
+  "symmetry-groups-select",
+  "symmetry-principle",
+]
+
+[[module]]
+name = "program-core"
+links = [
+  "binary-information-geometry",
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "conformal-scale-geometry",
+  "conservation-of-causal-charge",
+  "cosmodynamics",
+  "deriving-value-of-g",
+  "descent",
+  "groupoids",
+  "hessians",
+  "indiscernibility-of-identicals",
+  "principle-of-least-action",
+  "soldering",
+  "stacks",
+  "sufficient-reason",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "quanta-of-geometry"
+
+[[module]]
 name = "scale-as-modular-observable"
 links = [
+  "binary-information-geometry",
   "causal-scale-theory",
+  "conformal-scale-geometry",
   "deriving-value-of-g",
+  "program-core",
+  "soldering",
+  "wall-construction-interface",
 ]
 
 [[module]]
@@ -229,13 +357,13 @@ links = [
 [[module]]
 name = "soldering"
 links = [
-  "causal-scale-theory",
   "causal-wall-spectral-theory",
   "cosmodynamics",
   "descent",
   "fibers",
   "gluing",
   "hessians",
+  "program-core",
   "torsors",
 ]
 
@@ -255,21 +383,40 @@ links = [
 [[module]]
 name = "sufficient-reason"
 links = [
-  "causal-scale-theory",
   "causal-wall-spectral-theory",
+  "hessians",
+  "wall-construction-interface",
 ]
 
 [[module]]
 name = "symmetry-groups-select"
 links = [
+  "binary-information-geometry",
   "causal-scale-theory",
   "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "critical-scale-kernels",
+  "holographic-cosmology",
+  "soldering",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "symmetry-principle"
+links = [
+  "conservation-of-causal-charge",
+  "indiscernibility-of-identicals",
+  "noether-conservation",
+  "principle-of-least-action",
+  "program-core",
+  "sufficient-reason",
+  "symmetry-groups-select",
 ]
 
 [[module]]
 name = "torsors"
 links = [
-  "causal-scale-theory",
+  "conformal-scale-geometry",
   "descent",
   "gluing",
   "sheafs",
@@ -280,8 +427,10 @@ links = [
 [[module]]
 name = "wall-construction-interface"
 links = [
+  "binary-information-geometry",
   "causal-scale-theory",
   "causal-wall-spectral-theory",
-  "compatible-with-existing-physics",
-  "scale-as-modular-observable",
+  "conformal-scale-geometry",
+  "program-core",
+  "soldering",
 ]

@@ -37,7 +37,7 @@ A physical lift would have to supply at least:
 - gauge coupling, Yukawa or mass data, and local plus global anomaly consistency; and
 - a derivation showing why the proposed binary normal sector is present in the full wall net.
 
-The [[causal-wall-spectral-theory/open-problems#CW--T1d: derive any reduced scalar sector|binary-sector construction]] and [[causal-wall-spectral-theory/open-problems#CW--T6: preserve imported local GR plus QFT|local-preservation]] problems are prerequisites for the relevant wall and QFT claims. A fermionic Dirac lift is a separate theorem target not yet present in the causal-wall list; the cosmological scalar/tensor transfer task CW--T5 does not supply it.
+The [[wall-construction-interface/binary-channel|binary-sector construction]] and [[wall-construction-interface/elimination-test#Test II — conservative restriction|conservative local-physics restriction]] are prerequisites for the relevant wall and QFT claims. A fermionic Dirac lift is a separate theorem target: the [[compatible-with-existing-physics/primordial-observable-interface|cosmological scalar-and-tensor transfer obligation]] does not supply it.
 
 Reflectionlessness alone does not eliminate a physical mirror fermion: it is a scattering property of $\mathcal H_-$ in the $\theta$ coordinate. Anomaly inflow also cannot be invoked until a bulk–defect fermion system and its gauge variation have been defined.
 

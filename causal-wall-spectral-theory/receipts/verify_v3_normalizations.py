@@ -441,7 +441,11 @@ def main() -> int:
     }
 
     output_path = Path(__file__).with_suffix(".json")
-    output_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    output_path.write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
 
     for check in checks:
         label = "PASS" if check["pass"] else "FAIL"

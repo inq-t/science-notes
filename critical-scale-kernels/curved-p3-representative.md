@@ -71,4 +71,4 @@ uses global momentum. A generic curved cut has no such coordinate. A covariant d
 
 ## Physical status
 
-Using \(P_3\) as a cosmological or wall precision is **[IDENTIFICATION — OPEN]**. The standard geometry supplies a candidate operator after its hypotheses are met. It does not identify the field, construct its state, prove the required physical quotient, or provide Lorentzian evolution.
+Using \(P_3\) as a cosmological or wall precision is **[IDENTIFICATION — OPEN CONSTRUCTION]**. The standard geometry supplies a candidate operator after its hypotheses are met. It does not identify the field, construct its state, prove the required physical quotient, or provide Lorentzian evolution.

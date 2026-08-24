@@ -443,9 +443,9 @@ $$
 
 The relative-entropy Hessian and its Taylor factor are exact once a common algebra, faithful states, and a differentiable horizontal family exist. Converting that quadratic cost to a homogeneous density using $k_BT_c/V_c$, extending it away from coincidence, and fixing its normalization are additional constitutive steps. A positive information Hessian by itself is neither a covariantly conserved stress tensor nor a scalar-field action.
 
-### The proposed spectral weld
+### The two proposed spectral welds
 
-[[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|The state-to-precision conjecture]] distinguishes four kernels:
+[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The state-to-spatial-precision conjecture]] and [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the curvature conjecture]] distinguish the response conversion from the later physical-field realization:
 
 $$
 \operatorname{Hess}(D)
@@ -454,11 +454,13 @@ G^{\mathrm{BKM}}
 \stackrel{?}{\longrightarrow}
 \text{Euclidean stress response}
 \stackrel{?}{\longrightarrow}
-\Gamma^{(2)}_\zeta
-=\mathcal C_\zeta^{-1}.
+\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}
+\stackrel{R_{\mathrm s}}{\longrightarrow}
+\Gamma^{(2)}_{\zeta_{\mathrm{cos}}}
+=\mathcal C_{\zeta_{\mathrm{cos}}}^{-1}.
 $$
 
-The first identification is controlled for regular exponential families. The arrows to a renormalized continuum stress kernel, through the domain-wall/cosmology continuation, and finally to the cosmological 1PI precision are not consequences of the word *Hessian*. They require a physical wall algebra and state, a source map, treatment of KMS ordering and contact terms, a declared continuation and vacuum, gauge reduction, and invertibility on the physical perturbation space.
+The first identification is controlled for regular exponential families. The arrows to a renormalized continuum source kernel, through any selected continuation, and then into the cosmological 1PI precision are not consequences of the word *Hessian*. They require a physical wall algebra and state, a source map, treatment of KMS ordering and contact terms, any declared continuation and vacuum, and then an independent gauge reduction with invertibility on the physical perturbation space.
 
 Accordingly, the algebraic relations in [[vendor/holographic-cosmology/scalar-and-tensor-spectra|the holographic spectrum dictionary]] are exact after a holographic member and normalization have been selected, but they do not derive the proposed equality between a wall relative-entropy Hessian and cosmological inverse covariance. Nor does background phenomenology close that gap; [[cosmodynamics/empirical-boundaries|the empirical boundaries]] separate an effective fit from a microscopic response calculation.
 

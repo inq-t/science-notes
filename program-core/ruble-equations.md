@@ -432,7 +432,7 @@ $$
 G^{\perp}_{NN}(N).}
 $$
 
-**[IDENTIFICATION — OPEN]** The temperature anchoring the horizontal source is identified with the canonical apparent-horizon temperature at the crossing:
+**[IDENTIFICATION — OPEN CONSTRUCTION]** The temperature anchoring the horizontal source is identified with the canonical apparent-horizon temperature at the crossing:
 
 $$
 T_c:=T_{\mathrm{hor},c}.

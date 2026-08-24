@@ -32,9 +32,8 @@ $$
 \text{evaluate likelihood}.
 $$
 
-Choosing a discrete exponent because it lies close to a published central value and then calling the proximity a prediction reverses that order. [[no-gos/singularity-invariants-do-not-select-a-wall-member|The rejected \(A_2\) attempt]] is retained as a concrete warning.
+Choosing a discrete exponent because it lies close to a published central value and then calling the proximity a prediction reverses that order. [[causal-wall-spectral-theory/no-gos/singularity-invariants-do-not-select-a-wall-member|The rejected \(A_2\) attempt]] is retained as a concrete warning.
 
 ## Completion and failure
 
 Empirical completion requires at least one nontrivial calculated quantity not used as input and an end-to-end likelihood. A member fails when that frozen return is excluded or when its observable implementation cannot be made consistent. The broad interface remains unfalsifiably flexible until microscopic structure restricts its response functions; that flexibility is a programme gap, not empirical success.
-

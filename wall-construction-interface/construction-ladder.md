@@ -1,10 +1,10 @@
-# The Construction Ladder
+# The Binary Wall Construction Ladder
 
-The dynamical cosmological case makes every slot of the interface hard at once, so a direct attempt cannot distinguish a wrong identification from a merely difficult calculation. The ladder orders five settings by which slot first becomes nontrivial. Its purpose is diagnostic: agreement across successive rungs would establish a universality pattern, while disagreement localizes the failure to one ingredient instead of to the programme.
+For a wall member that selects the optional balanced binary channel, the dynamical cosmological case makes every slot hard at once, so a direct attempt cannot distinguish a wrong channel from a merely difficult calculation. This diagnostic ladder orders five settings by which slot first becomes nontrivial; it is not a universal dependency of every wall consumer, and CWST need not climb it unless a particular spectral member imports the binary reduction.
 
 ## The invariant at every rung
 
-Before computing anything at a given rung, six data must be fixed in order:
+Before computing a binary member at a given rung, six data must be fixed in order:
 
 1. the region and its selected cut;
 2. the algebra;
@@ -68,4 +68,4 @@ The second signature is the more valuable outcome, and it is only available if t
 
 ## Interface position
 
-The ladder is a strategy, not an obligation of the interface: a construction that jumps straight to rung 5 and succeeds owes nothing to this note. Its use is that partial results become interpretable. The data that must be fixed at each rung are the slots enumerated in [[wall-construction-interface/entry|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].
+The ladder is a strategy for the binary member, not an obligation of the interface: a construction that uses a different response sector, or that jumps straight to rung 5 and succeeds, owes nothing to this note. Its use is that partial binary-channel results become interpretable. The shared data at each rung are slots enumerated in [[wall-construction-interface/entry|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].

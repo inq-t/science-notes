@@ -54,5 +54,4 @@ The theory is not rescued by saying that conventional perturbations ask the wron
 
 The interpretation does not assert a literal wavefunction of the universe, a many-worlds ontology, hidden classical variables, objective collapse, or a probability-free replacement of quantum theory. Holographic cosmology can be used as a representation without treating the three-dimensional QFT as literal microscopic furniture. Conversely, failure of that representation would not by itself refute the whole-state reading.
 
-The interpretive claim becomes physically substantial only when [[conjectures/wall-residue-is-curvature|the wall residue]], [[conjectures/state-response-is-cosmological-precision|the state response]], and [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] are constructed on one compatible chain.
-
+The interpretive claim becomes physically substantial only when [[conjectures/state-response-is-spatial-precision|the state response]], [[conjectures/wall-residue-is-curvature|the wall residue]], and [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] are constructed on one compatible chain.

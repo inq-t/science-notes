@@ -1,16 +1,16 @@
 # Construct the State-to-Spectral Representation
 
-The central CWST problem is to construct the operator that carries an inhomogeneous causal-wall BKM response to a positive three-dimensional spatial precision and, when desired, to the continued stress response of holographic cosmology. No existing normalization identity supplies the carrier change, modular transform, continuation, or physical-scalar map.
+The central W2 problem is to construct the operator that carries an inhomogeneous causal-wall BKM response to a positive three-dimensional spatial precision and, when desired, relates it to the continued stress response of holographic cosmology. No existing normalization identity supplies the carrier change, state-dependent response transform, continuation, or probability-1PI construction; the physical-curvature map is the separate W3 problem.
 
 ## Required return
 
 The construction must provide
 
 $$
-\mathcal W_{\mathrm{wall}\to\mathrm{cos}}:
+\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
 G^{\mathrm{BKM}}_{\zeta\zeta}
 \longmapsto
-\mathcal K_{\zeta_{\mathrm{cos}}}
+\mathcal K^{\zeta}_{\mathrm{wall}}
 $$
 
 with:
@@ -21,10 +21,9 @@ with:
 4. the state-dependent relation between BKM and Euclidean source response;
 5. renormalized source operators and contact-term bookkeeping;
 6. a complete analytic continuation and state prescription if holography is used;
-7. a probability or Legendre-1PI construction; and
-8. the gauge-invariant curvature realization and its normalization.
+7. a probability or Legendre-1PI construction for the spatial wall field.
 
-[[conjectures/state-response-is-cosmological-precision|The conjecture note]] types these stages. [[no-gos/a-cut-is-not-a-three-dimensional-boundary|The carrier no-go]] rules out the simplest direct identification.
+[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The conjecture note]] types these stages. [[causal-wall-spectral-theory/no-gos/a-cut-is-not-a-three-dimensional-boundary|The carrier no-go]] rules out the simplest direct identification. Only after this return exists does [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the curvature-realization problem]] ask for the map into the reduced Lorentzian scalar phase space.
 
 ## First discriminating calculation
 
@@ -34,5 +33,4 @@ An algebraic exponential perturbation using faithful normal states and Araki rel
 
 ## Completion and failure
 
-Completion means that the operator, domains, measures, signs, and normalizations are constructed independently of the desired primordial spectrum. The route fails if no common source direction exists, if the transform is nonpositive or noninvertible where a physical mode is required, if the carrier change violates covariance or locality, or if the continued response cannot define the claimed cosmological state.
-
+Completion means that the operator, domains, measures, signs, and normalizations are constructed independently of the desired primordial spectrum. The route fails if no common source direction exists, if the transform is nonpositive or noninvertible where a spatial response is required, if the carrier change violates covariance or locality, or if the optional continued response cannot define the claimed spatial probability kernel. A failure of the later curvature realization is not retroactively a failure of W2.

@@ -1,31 +1,10 @@
 # Translation into Causal-Wall Spectral Theory
 
-Holographic cosmology can serve CWST as an optional representation of a cosmological precision kernel, but it does not construct the causal wall or prove the information-geometric weld. The translation is useful only while the types remain visible: a wall-state BKM form, a three-dimensional Euclidean stress response, a cosmological wavefunctional, and a probability-1PI precision kernel are four different objects joined by open maps.
+Holographic cosmology can serve CWST as an optional representation provider, but it does not construct the causal wall or prove either the state-to-spatial or wall-to-curvature weld. This commentary marks the boundary between the theories; [[causal-wall-spectral-theory/spectral-realization|the CWST spectral realization]] is the canonical consumer-side adapter.
 
-## The proposed chain
+## Where the vendor enters
 
-CWST seeks a scale-indexed observer or cut structure with a physical inhomogeneous tangent \(\zeta_{\mathrm{wall}}\). Holographic cosmology begins later, with a cosmological member whose \(\zeta_{\mathrm{cos}}\) is already a gauge-invariant curvature mode. The combined proposal is therefore
-
-$$
-\begin{aligned}
-G^{\mathrm{BKM}}_{\zeta\zeta}
-&\stackrel{?}{\longrightarrow}
-\text{renormalized Euclidean stress response}\\
-&\xrightarrow[\text{specified holographic member}]{}
-\Gamma_\zeta^{(2)}
-=\mathcal K_\zeta,
-\end{aligned}
-$$
-
-together with the independent spacetime identification
-
-$$
-\zeta_{\mathrm{wall}}
-\stackrel{?}{=}
-\zeta_{\mathrm{cos}}.
-$$
-
-Only the second arrow inside a specified holographic member is supplied by the vendored theory. The first arrow and the equality of scalar variables are CWST obligations.
+CWST begins with a scale-indexed observer structure, an inhomogeneous physical tangent, and a BKM response. Holographic cosmology begins later, with a three-dimensional Euclidean QFT response and a cosmological curvature variable already supplied by its own member. The vendor therefore controls only the passage from its declared QFT data to its cosmological correlators. [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The W2 conjecture]] must reach the required spatial response, and [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the W3 conjecture]] must construct the physical scalar. Similar notation does not compose those arrows.
 
 ## What the vendor contributes
 
@@ -51,32 +30,8 @@ The vendor does not supply:
 - the gauge-invariant identification of \(\zeta_{\mathrm{wall}}\); or
 - conservative preservation of imported local GR and QFT by added horizontal structure.
 
-In particular, the vendored identity
-
-$$
-\mathcal K_\zeta
-=8\rho_B^{\mathrm{cos}}
-$$
-
-does not imply
-
-$$
-\operatorname{Hess}\mathscr J_{\mathrm{wall}}
-=\mathcal K_\zeta.
-$$
-
-That equation requires a separately proved BKM-to-spectral transfer, potentially with a nontrivial modular or KMS kernel. Choosing symmetrized relative entropy because it supplies a desired factor of two is a normalization proposal, not the missing theorem.
+In particular, the vendored scalar normalization does not identify a wall relative-entropy Hessian with cosmological precision. That claim requires a separately proved BKM-to-spatial transfer, potentially with a nontrivial modular or KMS kernel, followed by the physical-curvature realization. Choosing symmetrized relative entropy because it supplies a desired factor of two is a normalization proposal, not either missing theorem.
 
 ## Independent return values
 
-The proper empirical comparison is
-
-$$
-\rho_{B,\mathrm{wall/QFT\ calc}}^{\mathrm{cos}}(k)
-\stackrel{\mathrm{test}}{=}
-\rho_{B,\mathrm{data\ target}}^{\mathrm{cos}}(k).
-$$
-
-If \(c^{(0)}(k)\) is instead defined from the measured \(\Delta_\zeta^2(k)\), the spectral vocabulary has retyped the data but has not explained them. This is the independent-return rule imposed by [[program-core/claim-and-failure-contract#The principal anti-circularity rule|the programme core]].
-
-The canonical CWST obligations remain in [[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|the state-to-precision conjecture]] and [[causal-wall-spectral-theory/open-questions/covariant-descent-and-transfer|covariant descent]]. Shared wall construction belongs to [[wall-construction-interface/entry|the wall-construction interface]], not to holographic cosmology.
+[[causal-wall-spectral-theory/empirical-targets|The CWST empirical-target ledger]] owns the calculated-versus-data-inferred distinction and its formulas. If a response coefficient is defined from the measured power, the spectral vocabulary has retyped the data but has not explained it. This is the independent-return rule imposed by [[program-core/claim-and-failure-contract#The principal anti-circularity rule|the programme core]]. Shared wall construction belongs to [[wall-construction-interface/entry|the wall-construction interface]], and covariant matching belongs to [[causal-wall-spectral-theory/open-questions/covariant-descent-and-transfer|the descent problem]], not to the vendor.

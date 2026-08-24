@@ -13,14 +13,13 @@ $$
 
 where \(\delta N\) is the homogeneous scale direction and \(\zeta_{\mathrm{wall}}\) is an inhomogeneous residue after the constant mode has been removed. This vector-space decomposition is not yet the physical quotient. Gauge, constraint, boundary, central-normalization, and genuinely null directions must be treated by [[program-core/physical-quotient|the physical quotient]], and a zero mode of an information metric is not automatically gauge.
 
-The required state family is shared with the homogeneous programme:
+The required state family is the canonical wall package shared with the homogeneous programme:
 
 $$
-N\longmapsto
-(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}).
+\mathfrak W.
 $$
 
-[[wall-construction-interface/entry|The wall-construction interface]] owns the regions, algebras, states, cross-fiber transport, and state-selection law. CWST does not keep a private copy of that construction. It asks the interface to return a physical inhomogeneous tangent sector and its response block
+[[wall-construction-interface/entry|The wall-construction interface]] owns the full definition of \(\mathfrak W\): causal regions, horizons or boundaries, cuts, local algebras, states, modular data, cross-fiber transport, the scale-to-state law, and the renormalized source. CWST does not keep a private cut-centered copy of that construction. It asks the interface to expose a physical inhomogeneous tangent sector and, once regular comparison is possible, its response block
 
 $$
 G^{\mathrm{BKM}}_{\zeta\zeta}.
@@ -34,18 +33,21 @@ $$
 =2G^{\mathrm{BKM}}
 $$
 
-for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. In a continuum wall theory, the BKM, Euclidean source, spectral, wavefunctional, and probability-1PI kernels are related by state-, prescription-, and continuation-dependent maps.
+for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. In a completed continuum member, the BKM, Euclidean-source, spectral, wavefunctional, and probability-1PI kernels would have to be connected by explicitly constructed, state- and prescription-dependent maps.
 
-The central CWST conjecture is therefore an operator-valued transfer, not a numerical relabeling:
+The central CWST proposal is therefore two typed arrows, not one numerical relabeling:
 
 $$
 \boxed{
+\mathcal K^{\zeta}_{\mathrm{wall}}
+=\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}
+\bigl[G^{\mathrm{BKM}}_{\zeta\zeta}\bigr],
+\qquad
 \mathcal K_{\zeta_{\mathrm{cos}}}
-=\mathcal W_{\mathrm{wall}\to\mathrm{cos}}
-\bigl[G^{\mathrm{BKM}}_{\zeta\zeta}\bigr].}
+=R_{\mathrm s}^{-*}\mathcal K^{\zeta}_{\mathrm{wall}}R_{\mathrm s}^{-1}.}
 $$
 
-[[conjectures/state-response-is-cosmological-precision|The state-to-precision conjecture]] states the domains, intermediate maps, and failure conditions of \(\mathcal W_{\mathrm{wall}\to\mathrm{cos}}\). It must include any restriction from a cut to a three-dimensional carrier, conversion from an areal density to a volume-normalized kernel, modular or KMS transform, analytic continuation, physical-scalar map, and normalization. This is how CWST now conforms to [[program-core/descent-response-geometry|the core response geometry]]: the areal modulus \(\boldsymbol\chi\) has units \(L^{-2}\), while the present Fourier convention gives \(\mathcal K_\zeta\) units \(L^{-3}\). They may be blocks or representations of one deeper geometry only after an explicit soldering theorem.
+[[conjectures/state-response-is-spatial-precision|The state-to-spatial-precision conjecture]] owns the domains, intermediate maps, and failure conditions of \(\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}\). It must include every carrier restriction or extension, areal-to-volume conversion, state-response transform, and normalization used by the selected member; a holographic member additionally requires its continuation and state prescription. [[conjectures/wall-residue-is-curvature|The curvature conjecture]] separately owns \(R_{\mathrm s}\), the gauge-reduced Lorentzian scalar map. This is how CWST now conforms to [[program-core/descent-response-geometry|the core response geometry]]: the areal modulus \(\boldsymbol\chi\) has units \(L^{-2}\), while the present Fourier convention gives \(\mathcal K_\zeta\) units \(L^{-3}\). They may be blocks or representations of one deeper geometry only after an explicit soldering theorem.
 
 Once a positive three-dimensional precision for a dimensionless scalar has genuinely been obtained, reusable mathematics becomes available. [[critical-scale-kernels/entry|Critical scale kernels]] proves that flat translation, rotation, and exact dilation covariance force
 
@@ -80,4 +82,3 @@ It imports wall construction, Hessian theory, critical-kernel mathematics, holog
 CWST currently has exact normalization identities, exact critical-kernel theorems under declared symmetries, a well-developed optional holographic representation, local source material, and reproducible arithmetic receipts. It does not yet construct the dynamical wall family, prove that the homogeneous and inhomogeneous responses are blocks of one carrier, determine the state-to-spectrum transfer, identify the physical curvature variable, calculate a microscopic scalar or tensor response, or supply covariant descent. An arbitrary positive response can fit any positive scalar spectrum, so the unrestricted formulation is a typed research programme rather than a predictive theory member.
 
 The former v3 master, earlier versions, conversations, and rejected calculation attempt are preserved as [[archive|source history]]. They are no longer competing owners of the active claims.
-

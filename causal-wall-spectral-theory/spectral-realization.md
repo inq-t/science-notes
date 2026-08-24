@@ -19,7 +19,7 @@ $$
 \mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
 G^{\mathrm{BKM}}_{\zeta\zeta}
 \longmapsto
-\mathcal K_{\mathrm{wall}}.
+\mathcal K^{\zeta}_{\mathrm{wall}}.
 $$
 
 This is **[CONJECTURE — OPEN CONSTRUCTION]**. Depending on the realization, \(\mathcal W\) may have to include localization, restriction or extension between carriers, a normal-direction integration, a modular/KMS transform, renormalization, quotienting of local contacts, and conversion to a probability or Legendre-1PI kernel. It need not be multiplication by one universal number.
@@ -32,61 +32,17 @@ $$
 
 does not settle this normalization. It says how a symmetrized divergence curves at coincidence; it does not say that reverse relative entropy is the conjugate cosmological wavefunctional or that a BKM kernel equals a Euclidean, spectral, or 1PI response.
 
-## Target precision and calculated precision
+## The independent-return boundary
 
-Once a physical cosmological scalar has been identified, an observed two-point function defines a target
+W2 ends with a spatial wall precision. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The W3 curvature conjecture]] must independently construct the field map into the reduced Lorentzian scalar phase space before the result can be called a primordial curvature precision. [[causal-wall-spectral-theory/realization-map|The realization map]] owns that composition and its separate tensor branch.
 
-$$
-\mathcal K^{\mathrm{target}}_\zeta(k)
-:=\frac{k^3}{2\pi^2\Delta_{\zeta,\mathrm{obs}}^2(k)}.
-$$
-
-A microscopic member must independently return
-
-$$
-\mathcal K^{\mathrm{calc}}_\zeta(k)
-=\mathcal W_{\mathrm{wall}\to\mathrm{cos}}
-[G^{\mathrm{BKM}}_{\zeta\zeta}](k).
-$$
-
-The empirical claim is
-
-$$
-\mathcal K^{\mathrm{calc}}_\zeta
-\stackrel{\mathrm{test}}{\simeq}
-\mathcal K^{\mathrm{target}}_\zeta
-$$
-
-over a declared domain and with a likelihood. Defining an intermediate response backward from \(\Delta_{\zeta,\mathrm{obs}}^2\) checks normalization but does not calculate the return.
+Only after W3 may a calculated return be compared with a data-inferred target. [[causal-wall-spectral-theory/empirical-targets|The empirical-target ledger]] owns the Fourier normalization, target definitions, archived calibration, and scope-indexed falsifiers. Defining an intermediate response backward from the measured power checks normalization but does not calculate the return.
 
 ## Optional holographic member
 
-In [[vendor/holographic-cosmology/entry|the domain-wall/cosmology representation]], continued three-dimensional stress form factors can return scalar and tensor spectra. In the conventions registered there, a calculated scalar trace response may be parameterized as
+In [[vendor/holographic-cosmology/entry|the domain-wall/cosmology representation]], continued three-dimensional stress form factors can return scalar and tensor spectra. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|The vendored spectrum dictionary]] is the sole owner of the response decomposition and its numerical conversion factors; CWST imports those results rather than restating them.
 
-$$
-\rho_{B,\mathrm{calc}}^{\mathrm{cos}}(k)
-=\frac{\pi^2}{64}c_{\mathrm{calc}}^{(0)}(k)k^3,
-$$
-
-and the corresponding CWST member proposes
-
-$$
-\boxed{
-\mathcal K_{\zeta,\mathrm{calc}}(k)
-=8\rho_{B,\mathrm{calc}}^{\mathrm{cos}}(k)
-=\frac{\pi^2}{8}c_{\mathrm{calc}}^{(0)}(k)k^3.}
-$$
-
-The box is **[CONDITIONAL THEOREM]** after the vendor's QFT, state, renormalization, simultaneous analytic continuation, branch orientation, and scalar identification have been supplied. The causal-wall claim that its state response realizes this vendor is a separate conjectural edge.
-
-For data calibration one may define
-
-$$
-c_{\mathrm{target}}^{(0)}(k)
-:=\frac{4}{\pi^4\Delta_{\zeta,\mathrm{obs}}^2(k)}.
-$$
-
-The subscripts are essential. A member predicts the scalar spectrum only when it computes \(c_{\mathrm{calc}}^{(0)}\) without using that spectrum as input.
+The additional CWST claim is only that a constructed wall response lies in the vendor's domain and maps independently to its calculated spin-zero or spin-two form factor. That edge remains conjectural. The vendor's dictionary becomes a conditional theorem only after its QFT, state, renormalization, simultaneous analytic continuation, branch orientation, and physical-field identification have been supplied. A member predicts a spectrum only when it computes the response without using that spectrum as input.
 
 ## Operators that must remain distinct
 
@@ -123,4 +79,3 @@ Local polynomial counterterms have zero discontinuity across a registered spectr
 The spectral realization is upgraded when one wall construction independently calculates the carrier, state, tangent, response, transforms, and \(c_{\mathrm{calc}}^{(0)}(k)\), and when the induced cosmological mode passes [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]].
 
 It fails for that member if the BKM-to-spatial transform is undefined, if the continued kernel is not positive on the physical sector, if the carrier has the wrong dimension without a boundary map, if a modular/KMS factor changes the claimed normalization, if the wall residue does not become curvature, or if the calculated response disagrees with the measured correlation hierarchy.
-

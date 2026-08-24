@@ -1,6 +1,6 @@
-# State Response Is Cosmological Precision
+# State Response Is Spatial Precision
 
-CWST conjectures that the inhomogeneous BKM response of a physically constructed causal-wall state family can be transported into the probability-1PI precision of a gauge-invariant cosmological curvature mode. The conjecture is a chain of typed maps; the exact coincidence Hessian fixes neither the chain nor one universal factor between its endpoints.
+CWST conjectures that the inhomogeneous BKM response of a physically constructed causal-wall state family can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
 
 ## Statement
 
@@ -14,12 +14,12 @@ be the nondegenerate inhomogeneous block of its response geometry. The proposed 
 
 $$
 \boxed{
-\mathcal K_{\zeta_{\mathrm{cos}}}
-=\mathcal W_{\mathrm{wall}\to\mathrm{cos}}
+\mathcal K^{\zeta}_{\mathrm{wall}}
+=\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}
 [G^{\mathrm{BKM}}_{\zeta\zeta}]}
 $$
 
-on a declared physical subspace. Here \(\mathcal K_{\zeta_{\mathrm{cos}}}=\Gamma^{(2)}_{\zeta_{\mathrm{cos}}}\) is the Legendre-1PI inverse connected covariance. This is **[CONJECTURE — OPEN CONSTRUCTION]**.
+on a declared physical subspace. Here \(\mathcal K^{\zeta}_{\mathrm{wall}}=\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}\) is the Legendre-1PI inverse connected covariance of the spatial wall field after the carrier has been constructed. This is **[CONJECTURE — OPEN CONSTRUCTION]**.
 
 ## Required factorization
 
@@ -30,21 +30,20 @@ G^{\mathrm{BKM}}_{\zeta\zeta}
 \xrightarrow{\;L\;}
 G_{\mathrm{spatial}}
 \xrightarrow{\;M_{\omega}\;}
-G_{\mathrm E}
-\xrightarrow{\;A\;}
-G_{\mathrm{cos}}
+G_{\mathrm{source}}
 \xrightarrow{\;P\;}
-\Gamma^{(2)}_{\zeta_{\mathrm{cos}}}.
+\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}.
 $$
 
 The symbols stand for obligations, not assumed formulas:
 
 - \(L\): localization, restriction, extension, or integration that changes the wall carrier and its measure;
-- \(M_\omega\): the state-dependent modular or KMS transform relating a BKM form to the relevant Euclidean response;
-- \(A\): analytic continuation with the state, regulator, branch, and continued theory parameters specified; and
-- \(P\): construction of the probability or Legendre-1PI kernel and the physical-curvature map.
+- \(M_\omega\): the state-dependent transform relating a BKM form to the source response used by the member; and
+- \(P\): construction of the spatial probability or Legendre-1PI kernel on the wall field.
 
-Another realization may factor the map differently. What is not allowed is to omit a carrier-changing or state-dependent arrow and replace it by equality of notation.
+A holographic implementation may insert a simultaneous analytic continuation of response coefficients, with the state, regulator, branch, and continued theory parameters specified. That optional insertion still does not construct the spacetime realization map \(R_{\mathrm s}\).
+
+Another realization may factor the map differently. What is not allowed is to omit a carrier-changing or state-dependent arrow and replace it by equality of notation. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
 
 ## Why the Hessian theorem does not prove it
 
@@ -81,5 +80,4 @@ The difference is not a contradiction; it announces that \(L\) must carry a leng
 
 The conjecture is upgraded by an explicit wall realization in which every map above is defined, covariant in its declared category, renormalized, positive on the physical sector, and independent of the observed spectrum used to test it.
 
-It fails for that realization if no common response block exists, if the BKM and spectral kernels are related by an incompatible transform, if the returned kernel has the wrong carrier or sign, if the physical mode cannot be identified, or if the calculated precision disagrees with observations. Failure does not refute the generic BKM Hessian theorem or the vendored holographic dictionary in its own domain.
-
+It fails for that realization if no common response block exists, if the BKM and source kernels are related by an incompatible transform, or if the returned spatial kernel has the wrong carrier, sign, or normalization. Whether the wall scalar is physical curvature and whether its realized precision agrees with observation are downstream W3 and W5 tests. Failure here does not refute the generic BKM Hessian theorem or the vendored holographic dictionary in its own domain.

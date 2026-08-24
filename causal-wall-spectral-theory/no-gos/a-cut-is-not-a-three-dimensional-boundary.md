@@ -46,5 +46,4 @@ Each option changes more than a label. It must transport the algebra, state, tan
 
 ## Consequence
 
-The phrase “the wall stress tensor” is under-typed until the carrier has been chosen. A two-dimensional cut stress, a three-dimensional Euclidean stress tensor, a four-dimensional matter trace, and a modular generator on a horizon algebra are different objects. [[open-questions/state-to-spectral-representation|The state-to-spectral problem]] owns the bridge; [[spectral-realization|the spectral realization]] must display it before importing the holographic coefficients.
-
+The phrase “the wall stress tensor” is under-typed until the carrier has been chosen. A two-dimensional cut stress, a three-dimensional Euclidean stress tensor, a four-dimensional matter trace, and a modular generator on a horizon algebra are different objects. [[causal-wall-spectral-theory/open-questions/state-to-spectral-representation|The state-to-spectral problem]] owns the bridge; [[causal-wall-spectral-theory/spectral-realization|the spectral realization]] must display it before importing the holographic coefficients.

@@ -11,7 +11,7 @@ The load-bearing errors are:
 - the complex two-dimensional miniversal base was described as two real parameters without selecting a real slice, while the once-punctured-torus and $j$-invariant statements silently introduced different suspensions;
 - the Einstein-member relation between $c^{(0)}$ and $epsilon$ was promoted to an identity of general CWST;
 - the distance $1/6$ from a shifted spectral number to its center was treated as a derived anomalous dimension;
-- a cubic singularity normal form was treated as proof of a single cosmological 1PI vertex and Suyama--Yamaguchi saturation, contrary to the distinct derivative hierarchies in [[causal-wall-spectral-theory/cosmological-descent|cosmological descent]].
+- a cubic singularity normal form was treated as proof of a single cosmological 1PI vertex and Suyama--Yamaguchi saturation, contrary to [[basic-concepts/hessians/higher-relative-entropy-is-not-cumulants|the distinct derivative hierarchies]] and [[causal-wall-spectral-theory/open-questions/calculate-higher-response|the higher-response obligation]].
 
 The arithmetic observation
 
