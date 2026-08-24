@@ -1,0 +1,14 @@
+[module]
+name = "ncg-standard-model-neutrino-mixing"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.sty",
+  "**/*.bst",
+  "**/*.pdf",
+  "**/*.json",
+  "**/*.py"
+]

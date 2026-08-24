@@ -1,6 +1,6 @@
 # Causal-Wall Calculation Chats
 
-This directory preserves the unique provenance from the calculation side-module slated for retirement without promoting its conclusions. Original artifacts are copied byte-for-byte; the three chat-01 outputs already present in `causal-wall-spectral-theory/old-versions/` are intentionally not duplicated here.
+This directory preserves the unique provenance from the calculation side-module slated for retirement without promoting its conclusions. Original artifacts are copied byte-for-byte; the three chat-01 outputs already present in `causal-wall-spectral-theory/sources/legacy/v2-and-v2_1/` are intentionally not duplicated here.
 
 The first frozen chat contains its [[causal-wall-spectral-theory/sources/legacy/calc-chats/chat-01-v2-referee/prompt|prompt]], [[causal-wall-spectral-theory/sources/legacy/calc-chats/chat-01-v2-referee/response|response]], and [[causal-wall-spectral-theory/sources/legacy/calc-chats/chat-01-v2-referee/outputs/verify_causal_wall_spectral_v2_1.py|original receipt script]]. The referee report, completion memo, and JSON output are already preserved as the v2.1 old version. The script is historical rather than a current receipt: it depends on third-party packages, writes to a session-specific path, and includes claims later revoked by version 3.
 

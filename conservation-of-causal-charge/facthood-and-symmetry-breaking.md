@@ -61,7 +61,7 @@ Standard cosmological perturbation theory asks how a specified state, background
 
 > What equivariant global structure has inhomogeneous fact-bearing histories as its local or contextual sections?
 
-On this reading, the observable side of the wall has metric differences because facts must be relationally placed. The pre-observable side can remain homogeneous in its own category if its group or groupoid action is transitive there. The passage between the categories is not yet supplied by [[causal-wall-spectral-theory/interpretation|the non-stochastic interpretation]]; it is the open construction in [[factive-descent-and-records]].
+On this reading, the observable side of the wall has metric differences because facts must be relationally placed. The pre-observable side can remain homogeneous in its own category if its group or groupoid action is transitive there. The passage between the categories is not yet supplied by [[causal-wall-spectral-theory/whole-state-correlation-reading|the whole-state correlation reading]]; it is the open construction in [[factive-descent-and-records]].
 
 ## What can remain conserved
 

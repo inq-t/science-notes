@@ -445,7 +445,7 @@ The relative-entropy Hessian and its Taylor factor are exact once a common algeb
 
 ### The proposed spectral weld
 
-[[causal-wall-spectral-theory/information-geometric-weld|The information-geometric weld]] correctly distinguishes four kernels:
+[[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|The state-to-precision conjecture]] distinguishes four kernels:
 
 $$
 \operatorname{Hess}(D)
@@ -460,7 +460,7 @@ $$
 
 The first identification is controlled for regular exponential families. The arrows to a renormalized continuum stress kernel, through the domain-wall/cosmology continuation, and finally to the cosmological 1PI precision are not consequences of the word *Hessian*. They require a physical wall algebra and state, a source map, treatment of KMS ordering and contact terms, a declared continuation and vacuum, gauge reduction, and invertibility on the physical perturbation space.
 
-Accordingly, the algebraic relations in [[causal-wall-spectral-theory/spectral-dictionary|the spectral dictionary]] are exact after a holographic member and normalization have been selected, but they do not derive the proposed equality between a wall relative-entropy Hessian and cosmological inverse covariance. Nor does background phenomenology close that gap; [[cosmodynamics/empirical-boundaries|the empirical boundaries]] separate an effective fit from a microscopic response calculation.
+Accordingly, the algebraic relations in [[vendor/holographic-cosmology/scalar-and-tensor-spectra|the holographic spectrum dictionary]] are exact after a holographic member and normalization have been selected, but they do not derive the proposed equality between a wall relative-entropy Hessian and cosmological inverse covariance. Nor does background phenomenology close that gap; [[cosmodynamics/empirical-boundaries|the empirical boundaries]] separate an effective fit from a microscopic response calculation.
 
 ### The recovery burden
 

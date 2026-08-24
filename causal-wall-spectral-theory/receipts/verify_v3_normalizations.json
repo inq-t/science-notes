@@ -145,7 +145,7 @@
     "S12": "No rank or central-charge inference N approximately sqrt(c^(0)).",
     "S9": "No tilt-difference running estimator and no universal delta-squared running bound."
   },
-  "generated_at_utc": "2026-08-24T05:26:55.479876+00:00",
+  "generated_at_utc": "2026-08-24T05:44:14.775845+00:00",
   "python": "3.12.13",
   "schema_version": 1,
   "scope": "Algebraic normalization checks only. No wall construction, BKM-to-spectral weld, microscopic response, likelihood, or recovery claim.",

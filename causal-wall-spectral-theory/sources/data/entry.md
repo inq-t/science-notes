@@ -4,7 +4,7 @@ This directory contains local copies of the observational products that bear dir
 
 ## Planck 2018
 
-The scalar calibration in [[spectral-dictionary]] uses the Planck 2018 inflation analysis, mirrored as [[causal-wall-spectral-theory/sources/papers/1807.06211-planck-2018-inflation.pdf|Planck 2018 results X]]. The local [[causal-wall-spectral-theory/sources/snapshots/planck-pr3-cosmoparams-index.html|cosmological-parameter release index]] and [[causal-wall-spectral-theory/sources/snapshots/planck-pr3-software-index.html|likelihood-software index]] record the official release context.
+The archived scalar calibration summarized in [[causal-wall-spectral-theory/empirical-targets|the empirical-target ledger]] uses the Planck 2018 inflation analysis, mirrored as [[causal-wall-spectral-theory/sources/papers/1807.06211-planck-2018-inflation.pdf|Planck 2018 results X]]. The local [[causal-wall-spectral-theory/sources/snapshots/planck-pr3-cosmoparams-index.html|cosmological-parameter release index]] and [[causal-wall-spectral-theory/sources/snapshots/planck-pr3-software-index.html|likelihood-software index]] record the official release context.
 
 - [[causal-wall-spectral-theory/sources/data/planck-2018/COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip|Baseline TTTEEE + low-l/lowE posterior archive]] and its extracted `base-plikHM-TTTEEE-lowl-lowE/` tree contain the baseline and lensing-chain products used to audit quoted $A_s$ and $n_s$ values.
 - [[causal-wall-spectral-theory/sources/data/planck-2018/result_table_2018_68pcp120.pdf|Published 68% parameter table]] is the compact human-readable parameter summary.
@@ -29,7 +29,7 @@ The commit-pinned likelihood implementations and run definitions are indexed in 
 
 ## BICEP/Keck BK18
 
-The tensor bound in [[spectral-dictionary]] comes from [[causal-wall-spectral-theory/sources/papers/2110.00483-bicep-keck-2018-primordial-gravitational-waves.pdf|the BK18 analysis]]. The official release has DOI `10.71662/5etq-eh39`; the [[causal-wall-spectral-theory/sources/snapshots/bicep-keck-products.html|local product page]] records file descriptions and release sizes.
+The archived tensor calibration in [[causal-wall-spectral-theory/empirical-targets|the empirical-target ledger]] comes from [[causal-wall-spectral-theory/sources/papers/2110.00483-bicep-keck-2018-primordial-gravitational-waves.pdf|the BK18 analysis]]. The official release has DOI `10.71662/5etq-eh39`; the [[causal-wall-spectral-theory/sources/snapshots/bicep-keck-products.html|local product page]] records file descriptions and release sizes.
 
 - [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_bandpowers_20210607.txt|BB bandpowers]], [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_r_likelihood_20210607.txt|marginalized $r$ likelihood]], [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_components_20210607.txt|component decomposition]], and [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_Nl_fsky_20210607.txt|noise and effective sky fraction]] are directly inspectable text products.
 - The [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_B95_bandpass_20210607.txt|BICEP3 95]], [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_K95_bandpass_20210607.txt|Keck 95]], [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_150_bandpass_20210607.txt|150]], and [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_220_bandpass_20210607.txt|220 GHz]] tables record the released frequency responses.

@@ -93,7 +93,7 @@ r(k):=\frac{\Delta_T^2}{\Delta_\zeta^2}
 =8\frac{c^{(0)}(k)}{c^{(2)}(k)}.}
 $$
 
-These coefficients agree with the convention registered in [[causal-wall-spectral-theory/spectral-dictionary|the current CWST spectral dictionary]] and with the spectral representation in [[causal-wall-spectral-theory/sources/papers/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden's deformed-CFT calculation]]. The quantity \(c^{(0)}\) is a spin-zero trace response. It is not automatically a fixed-point central charge or a microscopic degree-of-freedom count.
+These coefficients are translated into the current programme by [[causal-wall-spectral-theory/spectral-realization|the CWST spectral realization]] and agree with the spectral representation in [[causal-wall-spectral-theory/sources/papers/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden's deformed-CFT calculation]]. The quantity \(c^{(0)}\) is a spin-zero trace response. It is not automatically a fixed-point central charge or a microscopic degree-of-freedom count.
 
 ## Target is not return value
 

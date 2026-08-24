@@ -79,4 +79,4 @@ $$
 
 If \(c^{(0)}(k)\) is instead defined from the measured \(\Delta_\zeta^2(k)\), the spectral vocabulary has retyped the data but has not explained them. This is the independent-return rule imposed by [[program-core/claim-and-failure-contract#The principal anti-circularity rule|the programme core]].
 
-The canonical CWST obligations remain in [[causal-wall-spectral-theory/information-geometric-weld|the information-geometric weld]] and [[causal-wall-spectral-theory/cosmological-descent|cosmological descent]]. Shared wall construction belongs to [[wall-construction-interface/entry|the wall-construction interface]], not to holographic cosmology.
+The canonical CWST obligations remain in [[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|the state-to-precision conjecture]] and [[causal-wall-spectral-theory/open-questions/covariant-descent-and-transfer|covariant descent]]. Shared wall construction belongs to [[wall-construction-interface/entry|the wall-construction interface]], not to holographic cosmology.

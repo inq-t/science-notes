@@ -1,4 +1,4 @@
 [module]
 name = "causal-wall-spectral-theory"
 entry = "entry.md"
-include = ["**/*.md"]
+include = ["**"]

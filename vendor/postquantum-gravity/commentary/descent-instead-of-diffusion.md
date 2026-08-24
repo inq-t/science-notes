@@ -43,7 +43,7 @@ The correspondence with [[sufficient-reason/entry|Sufficing and Necessitating Re
 
 The signature is visible in the coefficient itself. An amplitude carries $e^{iS/\hbar}$ and determines a history; a probability weight carries $e^{-\mathcal I/2D_2}$ and determines only a law over histories. The switch from imaginary to real is, in this project's vocabulary, the switch from a necessitating to a sufficing ground — and it is the same switch that removes the ghost in [[no-ghosts-and-real-couplings]]. One change of coefficient does both jobs, which is the strongest structural hint the vendor offers.
 
-The programme already holds this position for its own sector, in [[causal-wall-spectral-theory/interpretation|the non-stochastic and cosmokinetic interpretation]]. The vendor is the first place it meets a fully worked covariant theory.
+The programme already holds this position for its own sector, in [[causal-wall-spectral-theory/whole-state-correlation-reading|the whole-state correlation reading]]. The vendor is the first place it meets a fully worked covariant theory.
 
 ## Information destroyed, or never accessible: the precise question
 

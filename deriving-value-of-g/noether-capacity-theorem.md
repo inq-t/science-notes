@@ -202,7 +202,7 @@ This is the operator-algebraic form of “modular flow acts as dilation on a nul
 
 The implication is not automatic. Half-sided inclusions can be singular and have trivial relative commutant; [[deriving-value-of-g/sources/papers/2111.03172-lechner-scotford-half-sided-modular-inclusions.pdf|Lechner and Scotford]] construct explicit examples. A half-sided inclusion by itself therefore does not provide a local chiral CFT, a stress tensor, a Cardy regime, or a capacity normalization.
 
-The recent gravitational construction summarized in [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] realizes horizon-cut crossed products, edge-mode area charges, and the same affine modular algebra in perturbative gravity. It gives a serious candidate for the wall's symmetry skeleton. It does not yet turn vertical localization flow into the required horizontal state deformation, and its gravitational action already contains the coefficient whose value is at issue.
+The recent gravitational construction summarized in [[wall-construction-interface/construction-ladder#Rung 3 — controlled gravitational or crossed-product degrees of freedom|the wall construction ladder]] realizes horizon-cut crossed products, edge-mode area charges, and the same affine modular algebra in perturbative gravity. It gives a serious candidate for the wall's symmetry skeleton. It does not yet turn vertical localization flow into the required horizontal state deformation, and its gravitational action already contains the coefficient whose value is at issue.
 
 ## The Noether-charge route and its exact limit
 

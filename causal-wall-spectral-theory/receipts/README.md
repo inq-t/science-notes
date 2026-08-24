@@ -12,8 +12,8 @@ The script uses only the Python standard library, writes [[verify_v3_normalizati
 
 The checks are separated by mathematical scope:
 
-- the scalar and tensor normalization identities in [[causal-wall-spectral-theory/spectral-dictionary|the spectral dictionary]], after the conditional holographic representation has been selected;
-- the leading [[causal-wall-spectral-theory/cosmological-descent#Einstein single-clock member|Einstein single-clock member]] relations, not a derivation of that member from a wall;
+- the scalar and tensor normalization identities in [[vendor/holographic-cosmology/scalar-and-tensor-spectra|the holographic spectrum dictionary]], after the conditional representation has been selected;
+- the leading [[vendor/holographic-cosmology/einstein-single-clock-member|Einstein single-clock member]] relations, not a derivation of that member from a wall;
 - the factor of two in the symmetrized relative-entropy Hessian for a regular finite exponential family;
 - the three-dimensional stress-projector trace contraction;
 - the round-sphere eigenvalue formula for the conditional $P_3$ representative;
@@ -21,4 +21,4 @@ The checks are separated by mathematical scope:
 
 The historical receipts S9, S10, and S12 are excluded on purpose. Version 3 rejects the use of differences between Planck and ACT best-fit tilts as a running estimator, rejects a universal non-Gaussianity floor or $|f_{\mathrm{NL}}|\gtrsim1$ kill inferred from $c^{(0)}$, and rejects the unproved reading $N\sim\sqrt{c^{(0)}}$. The direct extended-model running constraint remains an observational input, not an algebra receipt.
 
-The finite exponential-family check does not establish the open BKM-to-Euclidean-to-spectral map in [[causal-wall-spectral-theory/information-geometric-weld|the weld]]. Likewise, reproducing a measured scalar amplitude after inserting it is calibration arithmetic rather than a prediction.
+The finite exponential-family check does not establish the open BKM-to-Euclidean-to-spectral map in [[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|the state-to-precision conjecture]]. Likewise, reproducing a measured scalar amplitude after inserting it is calibration arithmetic rather than a prediction.

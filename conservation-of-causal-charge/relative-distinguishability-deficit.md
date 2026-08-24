@@ -37,7 +37,7 @@ $$
 }
 $$
 
-In finite dimensions this is the usual data-processing theorem. For local quantum field theory the corresponding statement belongs to Araki relative entropy on von Neumann algebras, with the necessary support and normality qualifications. [[causal-wall-spectral-theory/information-geometric-weld|The information-geometric weld]] records the continuum obligations.
+In finite dimensions this is the usual data-processing theorem. For local quantum field theory the corresponding statement belongs to Araki relative entropy on von Neumann algebras, with the necessary support and normality qualifications. [[basic-concepts/hessians/symmetrized-relative-entropy-hessian#Continuum boundary|The Hessian theorem's continuum boundary]] records the required qualifications.
 
 ## Equality and recovery
 

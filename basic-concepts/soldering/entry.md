@@ -240,7 +240,7 @@ This use captures a genuine relational function: quantities from different regis
 
 ### Proposed kernel identifications
 
-The [[causal-wall-spectral-theory/information-geometric-weld|information-geometric weld]] proposes a chain from a state-space [[basic-concepts/hessians/entry|Hessian]] to a cosmological precision kernel. Here the relevant question is even stronger than whether two expressions have matching dimensions: the construction must supply a common domain, the intervening maps, their covariance and analytic continuation, and the claimed positivity and invertibility. Until those arrows are built, *weld* or *soldering* names a research obligation rather than an achieved identification.
+[[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|The state-to-precision conjecture]] proposes a chain from a state-space [[basic-concepts/hessians/entry|Hessian]] to a cosmological precision kernel. Here the relevant question is even stronger than whether two expressions have matching dimensions: the construction must supply a common domain, the intervening maps, their covariance and analytic continuation, and the claimed positivity and invertibility. Until those arrows are built, *weld* or *soldering* names a research obligation rather than an achieved identification.
 
 ## A test for future uses
 
