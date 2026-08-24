@@ -1,0 +1,4 @@
+[module]
+name = "spectral-wall-descent"
+entry = "entry.md"
+include = ["**/*.md"]

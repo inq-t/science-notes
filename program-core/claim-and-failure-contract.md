@@ -150,12 +150,15 @@ The following are settled boundaries unless their premises are changed:
 - indiscernibility supplies no Noether current;
 - a state-preserving automorphism orbit of readouts supplies no nonzero response;
 - a nonconstant realized character does not imply a non-homogeneous sub-observable algebra or law;
-- unitarity does not conserve a chosen charge without the corresponding symmetry or Ward identity;
+- unitarity is not the wall symmetry, and a unitary or invertible wall cannot by itself realize genuine loss;
+- a bulk spectral action is constant on a unitary conjugacy orbit while a fixed-context wall entropy can vary on that orbit;
+- normalized four-dimensional heat-kernel entropy cancels the term linear in \(a_2\) containing the Einstein--Hilbert action;
+- a finite-index conditional expectation cannot model a final type-III-to-commutative observational step;
 - a local BKM Hessian supplies no all-history source;
 - central blindness of a local response supplies no global vacuum solution; and
 - a background receipt verifies arithmetic, not the physical closure stack.
 
-The proofs are owned by the narrowest relevant notes: [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the dimensional-capacity obstruction]], [[binary-information-geometry/escort-tangent-no-go|the escort-tangent no-go]], [[wall-construction-interface/binary-channel|the binary-channel construction boundary]], [[causal-scale-theory/no-gos/fixed-reference-free-energy-does-not-give-the-pulse|the fixed-reference source no-go]], [[causal-scale-theory/vacuum-residual-sector|the vacuum residual boundary]], and [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|the Noether gap]].
+The proofs are owned by the narrowest relevant notes: [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the dimensional-capacity obstruction]], [[binary-information-geometry/escort-tangent-no-go|the escort-tangent no-go]], [[wall-construction-interface/binary-channel|the binary-channel construction boundary]], [[causal-scale-theory/no-gos/fixed-reference-free-energy-does-not-give-the-pulse|the fixed-reference source no-go]], [[causal-scale-theory/vacuum-residual-sector|the vacuum residual boundary]], [[conservation-of-causal-charge/indiscernibility-and-the-noether-gap|the Noether gap]], and [[spectral-wall-descent/entry|the spectral-wall calculations]].
 
 ## Cheapest discriminators first
 

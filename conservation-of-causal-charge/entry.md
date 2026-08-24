@@ -1,8 +1,8 @@
 # Conservation of Causal Charge
 
-Causal charge is the proposed invariant of a fact-bearing causal arena: a common symmetry charge whose state-plus-matter, geometric, and record contributions can change while their flux-inclusive total remains fixed. The exact mathematics presently establishes a binary Casimir allocation and a non-stochastic two-channel conversion law; the relation of their residual capacity to gravitational response, boundary charge, and factual descent remains conjectural. The programme is therefore theorem-shaped at its algebraic core, conjecture-shaped at its physical welds, and philosophical in its account of what facthood means.
+Causal charge is a proposed downstream invariant of a fact-bearing observable arena: a common symmetry charge whose state-plus-matter, geometric, and record contributions could change while their flux-inclusive total remains fixed. It is not the invariant of the pre-observable-to-observable wall. The exact mathematics presently establishes a binary Casimir allocation, a non-stochastic two-channel conversion law, and a nonunitary response split; the relation of these structures to gravitational response, boundary charge, and factual descent remains conjectural.
 
-[[unitarity-and-ontological-time|The Unitarity Principle note]] separates reversible enlarged transport, diagonal charge conservation, quadratic response, and the one-sided filtration of records. In particular, time is not another stock of information, and unitarity conserves a proposed charge only when the corresponding symmetry or Ward identity is present.
+[[unitarity-and-ontological-time|Why unitarity is not the wall symmetry]] separates four registers: structural class persistence upstream, noninvertible loss at the wall, ordinary action and charge in observable physics, and the one-sided filtration of records. Unitarity is not imposed on either side as a conservation of information.
 
 ## Indiscernibility comes before conservation
 
@@ -22,9 +22,9 @@ Arrows between presentations can enrich this quotient to a groupoid; local gluin
 
 The pre-observable-to-observable passage already contains two different operations. Restricting a state to a commutative context gives a probability measure; a realized fact is a character, hence a point of that context's spectrum. [[facthood-and-symmetry-breaking]] consequently retypes apparent symmetry breaking as contextual pointing: an unpointed law or relational object may remain equivariant while a selected local section is not.
 
-Restriction cannot increase relative distinguishability. [[relative-distinguishability-deficit]] defines the exact nonnegative difference between full and accessible relative entropy, but refuses to call the remainder a gravitational substance. The deficit depends on a state pair, context, and channel. A physical conservation claim requires a complementary sector and a complete balance rather than a remainder defined to make an equation true.
+Restriction cannot increase relative distinguishability. [[relative-distinguishability-deficit]] defines the exact nonnegative difference between full and accessible relative entropy, but refuses to call the remainder a gravitational substance. Under the stronger finite conditional-expectation hypotheses, [[spectral-wall-descent/conditional-expectation-balance|spectral wall descent]] upgrades the inequality to an exact Pythagorean split: the entropy gained in the observable law equals the relative distinction removed by the wall.
 
-Nor does restriction explain actuality or history. [[factive-descent-and-records]] conjectures the missing instrument, outcome, record algebra, and one-sided preservation law. On that picture, the enlarged system can remain charge preserving while accessible distinguishability contracts and charge is carried into records, correlations, edge modes, or geometry.
+Nor does restriction explain actuality or history. [[factive-descent-and-records]] conjectures the missing instrument, outcome, record algebra, and one-sided preservation law. A separately derived observable or boundary charge may constrain records, correlations, edge modes, or geometry, but no hidden unitary enlargement is needed to make the wall loss real.
 
 ## The exact seed is a Casimir allocation
 
@@ -49,7 +49,7 @@ g^{\mathrm{bin}}_{\theta\theta}
 \boxed{1=m^2+g^{\mathrm{bin}}_{\theta\theta}}.
 $$
 
-[[binary-casimir-balance]] gives the conservation-specific interpretation: the invariant second moment is divided between resolved polarization and residual susceptibility. A state may select a polarization while the representation norm remains fixed. This is the first exact meaning of “conservation through symmetry breaking.” It is not yet a spacetime current, and \(m\) is an expectation rather than an actual fact.
+[[binary-casimir-balance]] gives the conservation-specific interpretation: the invariant second moment is divided between resolved polarization and residual susceptibility. A state may select a polarization while the representation norm remains fixed. This is one exact finite-representation meaning of persistence through symmetry breaking. It is not the wall-crossing invariant, a spacetime current, or an information budget, and \(m\) is an expectation rather than an actual fact.
 
 The same hyperbolic pair has a second exact reading. [[two-channel-conversion-law]] starts with one fixed positive total \(C_{\mathrm{tot}}=C_++C_-\), uses the logarithm of the channel ratio as coordinate, and obtains
 

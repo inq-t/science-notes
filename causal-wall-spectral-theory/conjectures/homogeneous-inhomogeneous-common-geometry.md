@@ -26,7 +26,7 @@ G_{hN}&G_{h\zeta}&G_{hh}
 \end{pmatrix}.
 $$
 
-The core owns the BKM pullback, the classical--quantum readout model, the symmetry selection rule, the descent-cost realization, hidden-mode reduction, and the distinction between quadratic response, unitary transport, causal charge, and record time. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
+The core owns the BKM pullback, the classical--quantum readout model, the symmetry selection rule, the descent-cost realization, hidden-mode reduction, and the distinction among structural class persistence, nonunitary wall loss, observable causal charge, and record time. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
 
 CWST adds no second definition of this matrix. Its obligation begins with the returned physical block \(G_{\zeta\zeta}\).
 
@@ -89,6 +89,16 @@ $$
 This tensor measures how global scale displacement changes the correlation geometry of mean-zero observational modes. After the W2 and W3 maps are constructed, it is the natural place to seek a relation among homogeneous history, spectral tilt or running, and later structure response.
 
 Independently choosing a CST pulse and a CWST spectral function does not calculate this tensor. A true common realization must obtain both from one state/readout family and satisfy its mixed-derivative integrability relations.
+
+[[spectral-wall-descent/mixed-response-jet|The finite \(M_3(\mathbb C)\) model]] now supplies an exact algebraic feasibility result,
+
+$$
+G_{N\zeta}=0,
+\qquad
+\mathcal C_{N\zeta\zeta}=\frac1{2\sqrt2},
+$$
+
+from one log-partition potential. It does not yet supply the CWST carrier or either cosmological consumer map.
 
 ## What apparent lumpiness means here
 

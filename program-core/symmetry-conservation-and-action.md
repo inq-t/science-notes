@@ -1,17 +1,18 @@
 # Symmetry, Conservation, and Action
 
-The programme distinguishes four mathematical orders that recurring language tends to merge: a Casimir is an invariant polynomial, capacity is a positive quadratic response, charge is linear in a symmetry generator, and an action is a functional on histories. A future unification must connect these types through explicit maps rather than call all of them “conservation.”
+The programme distinguishes five mathematical orders that recurring language tends to merge: a homotopy or index class records structural persistence, a Casimir is an invariant polynomial, capacity is a positive quadratic response, charge is linear in a symmetry generator, and an action is a functional on observable histories. A future unification must connect these types through explicit maps rather than call all of them “conservation.”
 
-## Four orders
+## Five orders
 
 | Order | Typical object | Variance and sign | What it can establish |
 |---|---|---|---|
+| Structural class | \([D]\in K^*(\mathcal A)\), a \(KK\)-class, or cyclic class | locally constant under admissible homotopy | persistence of index pairings through changing representatives |
 | Casimir | \(C_R\in Z(U\mathfrak g)\) or an invariant norm | fixed within a representation | algebraic sector and norm allocation |
 | Capacity | \(g(v,v)\geq0\) | quadratic in the tangent | susceptibility, squared speed, canonical-energy candidate |
 | Charge | \(\langle\boldsymbol\mu,\xi\rangle\) | linear in a normalized generator | Noether, Hamiltonian, or boundary balance |
 | Action | \(I[\phi]\) | functional of a history or field | equations of motion and variational symmetry |
 
-A signed charge can reverse under orientation. A squared norm cannot. A Casimir can remain fixed when a state ceases to be invariant. An action may be invariant without every field configuration being invariant.
+A structural class can persist while all local metric representatives change, but it is too coarse to determine a response coefficient. A signed charge can reverse under orientation. A squared norm cannot. A Casimir can remain fixed when a state ceases to be invariant. An action may be invariant without every field configuration being invariant.
 
 Entropy, fact, and record are further types:
 
@@ -129,14 +130,14 @@ This can place a quadratic state capacity and gravitational Noether structure in
 
 ## Why this is not yet least action
 
-A relative-entropy Hessian is a local second-order response at coincidence. It does not imply that physical histories minimize relative entropy, BKM length, or capacity. A least-action claim would require a history functional such as
+A relative-entropy Hessian is a local second-order response at coincidence. It does not imply that physical histories minimize relative entropy, BKM length, or capacity. More fundamentally, the pre-observable wall need not be variational at all. A least-action claim on the descended observable carrier would require a history functional such as
 
 $$
 \mathcal S_{\mathrm{CI}}
 [\text{state},\text{geometry},\text{records}]
 $$
 
-with a declared domain, boundary terms, admissible variations, and stationary equations yielding the wall-state law, gravitational response, constraints, and factive or record dynamics. No such common functional is currently defined.
+with a declared domain, boundary terms, admissible variations, and stationary equations yielding the descended gravitational response, observable constraints, matter dynamics, and any proposed record dynamics. No such common observable functional is currently defined, and its existence would not make the upstream wall variational.
 
 Einstein--Hilbert gravity can be written in the areal-modulus basis as
 
@@ -146,7 +147,7 @@ $$
 \int R\,\mathrm dV_g.
 $$
 
-This is an exact reparameterization after Einstein gravity and its normalization have been assumed. It neither makes the wall BKM metric an action nor derives \(\eta_{\mathrm E}\). [[philosophy/principle-of-least-action/entry|The least-action module]] owns the general variational distinctions.
+This is an exact reparameterization after Einstein gravity and its normalization have been assumed. It neither makes the wall BKM metric an action nor derives \(\eta_{\mathrm E}\). [[spectral-wall-descent/observable-spectral-action|The observable spectral-action analysis]] places Connes' variational functional on the downstream side of the wall and proves that its bulk value cannot determine a context-dependent entropy defect. [[philosophy/principle-of-least-action/entry|The least-action module]] owns the general variational distinctions.
 
 ## The escort tangent is not the binary translation
 
@@ -190,7 +191,11 @@ Selection of a section, state, or polarization can reduce the manifest symmetry 
 A completed causal-conservation theory must therefore coordinate, without conflation:
 
 $$
-\text{equivariant law},
+\text{persistent algebraic class},
+\quad
+\text{noninvertible wall},
+\quad
+\text{equivariant observable law},
 \quad
 \text{state response},
 \quad

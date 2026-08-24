@@ -164,6 +164,17 @@ This tensor is a derivative of a specified log-partition potential. It is not ob
 
 The equality of mixed third derivatives supplies an integrability test. A CST homogeneous response and a CWST spectral response chosen independently will generically fail to be derivatives of one \(\Psi\).
 
+[[spectral-wall-descent/mixed-response-jet|The finite mixed-response jet]] realizes this pattern in \(M_3(\mathbb C)\) without fitting the blocks separately:
+
+$$
+G_{N\zeta}=0,
+\qquad
+\mathcal C_{N\zeta\zeta}
+=\frac{1}{2\sqrt2}.
+$$
+
+The value is fixed by one matrix multiplication table and arithmetically cross-checked by finite differences.
+
 ## A positive descent-cost realization
 
 The pullback metric can arise from one more primitive positive functional. Let
@@ -232,6 +243,8 @@ The pseudoinverse is taken only on the declared non-null eliminated sector. This
 
 These are openings, not identifications with dark energy, dark matter, or neutrino mass. A BKM Hessian is not a stress tensor or a mass matrix. The relevant source, covariance-to-precision map, and covariant dynamics must still be built.
 
+[[spectral-wall-descent/hidden-resolvent-and-seesaw|The hidden-resolvent calculation]] makes the shared algebra explicit: zero, propagating, and finite internal modes all contribute through \(-BL^{-1}B^*\), and a scale-dependent \(L(k;N)\) generates a calculable \(\partial_NG^{\mathrm{eff}}_{\zeta\zeta}\).
+
 The order of operations is a theorem obligation:
 
 $$
@@ -242,40 +255,52 @@ $$
 
 The equality holds for genuine radical directions under suitable regularity. It need not hold for constraints, auxiliary modes, or stochastic/CP deformations.
 
-## What the Unitarity Principle could mean
+## The wall split is not unitarity
 
-[[conservation-of-causal-charge/unitarity-and-ontological-time|The dedicated Unitarity note]] owns the full distinction among reversible transport, charge, quadratic response, and record time. The consequences needed here are the following.
+[[conservation-of-causal-charge/unitarity-and-ontological-time|Why unitarity is not the wall symmetry]] replaces the earlier reversible-enlargement picture. The wall is meant to be genuinely noninvertible, so a unitary dilation is at most a representation of its completely positive map, not the hidden ontology.
 
-For a fixed completely positive readout, data processing gives contraction of distinguishability,
-
-$$
-\mathbb G_{\mathrm{obs}}
-\preceq
-\mathbb G_{\mathrm{pre}},
-$$
-
-on correctly transported tangents. Equality requires a sufficiency or recovery theorem. The deficit is not automatically gravity, time, or a conserved substance.
-
-An exact matrix allocation requires an enlarged reversible realization. Suppose a BKM or GNS response Hilbert space carries isometric transport \(U_{21}\), and suppose orthogonal physical projections satisfy
+For a finite tracial inclusion \(\mathcal B\subseteq\mathcal A\), let \(E:\mathcal A\to\mathcal B\) be the trace-preserving conditional expectation. At a faithful reference \(\sigma\in\mathcal B\), the Pythagorean theorem in [[spectral-wall-descent/conditional-expectation-balance|the conditional-expectation balance]] gives
 
 $$
-P_{\mathrm{obs}}+P_{\mathrm{grav}}
-+P_{\mathrm{record}}+P_{\mathrm{hid}}=\mathbf1.
+\boxed{
+\mathbb G^{\mathrm{pre}}_{IJ}
+=\mathbb G^{\mathrm{obs}}_{IJ}
++\mathbb G^{\mathrm{wall}}_{IJ},}
 $$
 
-For transported tangents \(v_I\),
+with
 
 $$
-\mathbb G^{\mathrm{tot}}_{IJ}
-=\sum_s
-\langle P_sv_I,P_sv_J\rangle.
+\begin{aligned}
+G^{\mathrm{obs}}_{IJ}
+&=g^{\mathrm{BKM}}_\sigma(EX_I,EX_J),\\
+G^{\mathrm{wall}}_{IJ}
+&=g^{\mathrm{BKM}}_\sigma((1-E)X_I,(1-E)X_J).
+\end{aligned}
 $$
 
-If \(U_{21}\) is isometric, the total Gram matrix is preserved while its sector allocation can change. Without orthogonal projections, cross-correlations are additional terms and cannot be discarded. This is a quadratic norm balance, not a Noether charge.
+This is an exact orthogonal split under its hypotheses. It neither conserves an amount of information nor constructs a complementary environment. For the tracial reference \(\tau=\mathbf1/n\), the finite entropy identity has the same grammar:
 
-The actual charge proposal remains the linear moment-map law in [[conservation-of-causal-charge/causal-individuation-balance|causal-individuation balance]]. Its first variation may generate charge, while the present matrix appears as a compatible second variation only after [[conservation-of-causal-charge/state-geometry-charge-weld|the state--geometry charge weld]].
+$$
+D(\rho\Vert\tau)
+=D(E\rho\Vert\tau)
++D(\rho\Vert E\rho),
+$$
 
-Nor is ontological time another sectoral addend. Its candidate mathematical form is the orientation of persistent record inclusions,
+where the final term is exactly \(S(E\rho)-S(\rho)\). Observation loses relative distinction and gains entropy in the unconditioned observable law.
+
+If \(\mathfrak S\) maps wall tangents to geometric tangents, the proposed carrier-changing metric weld is
+
+$$
+\boxed{
+\mathbb G^{\mathrm{wall}}
+\stackrel{?}{=}
+Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}}.}
+$$
+
+Thus the conjecture reads \(G^{\mathrm{wall}}(X,Y)=Z_gG^{\mathrm{grav}}(\mathrm d\mathfrak S X,\mathrm d\mathfrak S Y)\). The map \(\mathfrak S\) must construct localization, area normalization, spacetime connection or metric tangents, curvature, and gauge and boundary consistency; \(Z_g\) remains independent until a unit matching is proved. A noninjective realization would require a declared quotient metric or minimization over lifts. Until then, the wall block is information geometry rather than gravity.
+
+Nor is ontological time another addend. Its candidate mathematical form remains the orientation of persistent record inclusions,
 
 $$
 \mathcal R_{\Sigma_1}
@@ -284,7 +309,7 @@ $$
 \hookrightarrow\cdots,
 $$
 
-with compatible characters along the realized history. Ambient transport may be reversible while accessible record formation is a semigroup. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns that one-sided layer.
+with compatible characters along the realized history. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns this later, one-sided layer.
 
 ## A Connes-style realization ansatz
 
@@ -298,7 +323,9 @@ in one fixed Morita or \(K\)-homology sector. Let
 
 $$
 K(N,\zeta,m)
-=K_0+NQ_N+Q_\zeta+Q_F(m)
+=K_0+NQ_N
++\sum_a\zeta^aQ_a^{\mathrm{obs}}
++Q_F(m)
 $$
 
 be an affine modular or Dirac-derived generator family and
@@ -308,21 +335,28 @@ $$
 =\frac{e^{-K(N,\zeta,m)}}{Z(N,\zeta,m)}.
 $$
 
-Then
+Put \(Q_A:=\partial_AK\) and \(\widetilde Q_A:=Q_A-\operatorname{Tr}(\rho Q_A)\mathbf1\). Then
 
 $$
 \mathbb G_{AB}
 =\partial_A\partial_B\log Z
-=g^{\mathrm{BKM}}_\rho
-(\delta_AK,\delta_BK)
+=\int_0^1
+\operatorname{Tr}
+\left(
+\rho^s\widetilde Q_A
+\rho^{1-s}\widetilde Q_B
+\right)\mathrm ds
+-\operatorname{Tr}
+\left(\rho\,\partial_A\partial_BK\right).
 $$
 
-in the regular finite exponential-family regime. Here \(Q_N\) is a singlet scale generator, \(Q_\zeta\) a non-singlet observational operator sector, and \(Q_F(m)\) a finite internal-geometry sector.
+In an affine chart the final term vanishes, and the integral is the Kubo--Mori covariance, equivalently the pullback BKM metric on the density family. For a nonlinear \(Q_F(m)\), the correction must be retained and the Hessian need not be positive in the raw \(m\)-coordinates. Here \(Q_N\) is a singlet scale generator, the \(Q_a^{\mathrm{obs}}\) span a non-singlet observational sector, and \(Q_F(m)\) is a finite internal-geometry sector.
 
 Connes' inner fluctuations
 
 $$
-D_A=D+A+JAJ^{-1}
+D_A=D+A+\varepsilon'JAJ^{-1},
+\qquad A=A^*,
 $$
 
 give a concrete family of algebraic metric deformations while the algebra and index class remain fixed. A spectral projection, heat-kernel compression, or another completely positive resolution map built from \(D_A\) could provide the readout \(j_{N,\zeta,m}\). Constructing such a channel with composition, covariance, and continuum control is an open problem; the spectral action Hessian must not simply be identified with the positive BKM Hessian.
@@ -357,7 +391,7 @@ It is a finite common response generated by one fixed matrix algebra and one fam
 5. **CRM--4 — Symmetry jet.** Prove the representation content, the status of \(G_{N\zeta}\), and the first allowed mixed tensor such as \(\nabla_NG_{\zeta\zeta}\).
 6. **CRM--5 — Reduction theorem.** Derive the quotient and Schur-complement operations and control gauge, constraint, and heavy sectors.
 7. **CRM--6 — Consumer maps.** Localize the homogeneous contraction for CST and construct the carrier-changing spatial precision map for CWST.
-8. **CRM--7 — Reversible enlargement and records.** State whether CP contraction admits an equivariant dilation and construct the one-sided record filtration.
+8. **CRM--7 — Noninvertible wall and records.** Construct a modularly admissible expectation or substitute instrument, calculate its loss block, and separately construct the one-sided record filtration.
 9. **CRM--8 — Dynamics and tests.** Derive a covariant response/action and independently calculate background, scalar, tensor, higher-point, mass, and record observables.
 
 ## Failure localization
@@ -366,7 +400,7 @@ It is a finite common response generated by one fixed matrix algebra and one fam
 - If \(G_{NN}\) and \(G_{\zeta\zeta}\) require different carriers or prescriptions, there is no common matrix.
 - If the mixed derivative integrability conditions fail, CST and CWST are not reductions of one Hessian family in that realization.
 - If the physical matrix depends on whether constraints were removed before or after response was introduced, the reduction prescription is part of the theory and must be tested.
-- If a CP deficit has no constructed complementary sector or recovery map, it cannot be called conserved information or geometry.
+- If the noninvertible wall has no admissible expectation or controlled instrument, only data-processing inequality remains; if its loss block has no carrier-changing weld, it cannot be called geometry.
 - If no character and persistent record are supplied, the construction explains correlated appearances but not an actual cosmic history.
 - If the state--geometry weld or covariant dynamics fails, the matrix remains an information geometry and does not explain dark energy, dark matter, gravity, or particle mass.
 

@@ -31,6 +31,7 @@ $$
 \{D_N,\mathcal H_N,\Sigma_N\},\
 \{\mathcal A_N(O)\},\
 \{\omega_N\},\
+\{(\mathcal B_{N,x},E_{N,x})\},\
 \{J^{\rm TT}_N,\Delta_N\},\
 \{\iota_{N_2:N_1}\},\
 \Phi,\
@@ -46,6 +47,7 @@ whose slots carry separate obligations:
 | $D_N,\mathcal H_N,\Sigma_N$ | observer-accessible causal region, its horizon or boundary, and a selected codimension-two cut | construct the family; state what selects the cut; declare whether the region depends on a solved background |
 | $\mathcal A_N(O)$ | local von Neumann algebra of a subregion | isotony, locality, covariance, an appropriate time-slice property |
 | $\omega_N$ | faithful normal state | microlocal or Hadamard regularity sufficient for modular theory; a physical selection rule |
+| $(\mathcal B_{N,x},E_{N,x})$ | observable context and conditional expectation, or a declared substitute instrument | construct the context family and prove state preservation and modular admissibility; do not infer an expectation from commutativity alone |
 | $J^{\rm TT}_N,\Delta_N$ | Tomita conjugation and modular operator in a specified standard form | fix the standard form; do not conflate $J^{\rm TT}_N$ with a geometric reflection |
 | $\iota_{N_2:N_1}$ | identification, embedding, or transport of observables between fibers | a composition law, and control of gauge and holonomy |
 | $\Phi$ | the scale-to-state law $N\mapsto\omega_N$ | specified independently of the response it is meant to explain |
@@ -53,6 +55,8 @@ whose slots carry separate obligations:
 | $\mathscr T=\{T_\alpha\}$ | renormalized source family, including the local Weyl-source direction and any TT source claimed by a tensor member | locality, covariance, scaling, source domains, and metric-variation ambiguities declared; a scalar-only realization need not supply a TT member |
 
 **[OPEN CONSTRUCTION — WALL STRUCTURE]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. This single gap is the common ancestor of the open problems recorded downstream in both programmes; it is not two independent gaps that happen to resemble each other.
+
+The new expectation slot is restrictive. A faithful state-preserving normal expectation onto a von Neumann subalgebra requires invariance under the state's modular automorphism group. A generic commutative context therefore need not admit the exact wall map. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] gives the finite theorem, its BKM split, and the alternatives when this modular gate fails.
 
 ## Why a derivative of the state family is not yet defined
 
@@ -115,7 +119,7 @@ $$
 
 The right-hand symbol is retained as CWST's historical consumer notation; it must not be read as an assertion of microscopic spatial inhomogeneity.
 
-Both response blocks depend on the same eight interface slots and are undefined before cross-fiber transport, observational descent, and the physical quotient exist. [[program-core/common-response-matrix|The common-response construction]] states the full Hessian and its hidden-mode reduction. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
+Both response blocks depend on the same nine interface slots and are undefined before cross-fiber transport, observational descent, and the physical quotient exist. [[program-core/common-response-matrix|The common-response construction]] states the full Hessian and its hidden-mode reduction. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
 
 ## Two completion levels
 

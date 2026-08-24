@@ -52,6 +52,26 @@ This makes the deficit more precise than an absolute phrase such as “hidden in
 
 It is therefore not a context-free inventory of ontological bits.
 
+## A conditional expectation gives an intrinsic remainder
+
+The general data-processing deficit is only a difference. A stronger theorem is available in the finite tracial representation, where a trace-preserving conditional expectation \(E:\mathcal M\to\mathcal N\) is identified with its trace adjoint on density matrices and the faithful comparison density \(\varphi\) lies in \(\mathcal N\). Then
+
+$$
+\boxed{
+D_{\mathcal M}(\rho\Vert\varphi)
+=D_{\mathcal M}(\rho\Vert E\rho)
++D_{\mathcal N}(E\rho\Vert\varphi).}
+$$
+
+The remainder now has its own intrinsic expression,
+
+$$
+D(\rho\Vert E\rho)
+=S(E\rho)-S(\rho),
+$$
+
+and its coincidence Hessian is the BKM norm of \((1-E)X\). [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] proves the split and states why a continuum version requires modular admissibility. This is more than a deficit introduced by subtraction, but it is still not a conserved substance.
+
 ## Why the displayed sum is not yet conservation
 
 The equation
@@ -61,7 +81,7 @@ D_{\mathcal M}
 =D_{\mathcal D}+\Delta
 $$
 
-is exact because \(\Delta\) was defined as the difference. It does not exhibit a complementary physical subsystem that stores the missing distinguishability. A non-tautological conservation claim would require an enlarged realization—such as a reversible dilation with an observable output and a complementary residual output—and a chain rule that keeps correlations explicit.
+is exact in general because \(\Delta\) was defined as the difference. Outside the conditional-expectation case it does not exhibit an intrinsic wall object. Even inside that case, the term \(D(\rho\Vert E\rho)\) measures noninvertible loss relative to a context; it need not be stored in a complementary physical subsystem. A Stinespring dilation is a representation theorem, not evidence that the missing distinction survives ontologically in an environment.
 
 Schematically, one might seek
 
@@ -78,7 +98,7 @@ $$
 \Delta=\text{gravity}
 $$
 
-by renaming. It is an equivariant construction in which a residual channel, connection, curvature, edge charge, or area measure represents the otherwise inaccessible distinction. [[state-geometry-charge-weld]] states that conjecture.
+by renaming. It is an equivariant construction in which a connection, curvature, edge response, or area measure represents the otherwise inaccessible distinction on a spacetime carrier. [[state-geometry-charge-weld]] states that conjecture.
 
 ## Restriction is not fact formation
 
