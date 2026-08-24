@@ -64,7 +64,7 @@ Z_E
 e^{-S_E[\phi]/\hbar}.
 $$
 
-The exponential resembles a Boltzmann weight, so minima of a positive Euclidean action can dominate a semiclassical approximation. This is one bridge from quantum field theory to the ensembles and potentials underlying [[thermodynamic-entropy|thermodynamic variational principles]].
+The exponential resembles a Boltzmann weight, so minima of a positive Euclidean action can dominate a semiclassical approximation. This is one bridge from quantum field theory to the ensembles and potentials underlying [[thermodynamic-equilibrium|thermodynamic variational principles]].
 
 It is not a universal least-action theorem. Wick rotation may be obstructed, the Euclidean action may be unbounded or complex, the measure and contour matter, and relevant saddles can have negative modes. Euclidean gravity's conformal-factor problem is a prominent warning.
 

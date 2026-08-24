@@ -68,4 +68,4 @@ The second signature is the more valuable outcome, and it is only available if t
 
 ## Interface position
 
-The ladder is a strategy, not an obligation of the interface: a construction that jumps straight to rung 5 and succeeds owes nothing to this note. Its use is that partial results become interpretable. The data that must be fixed at each rung are the slots enumerated in [[entry|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].
+The ladder is a strategy, not an obligation of the interface: a construction that jumps straight to rung 5 and succeeds owes nothing to this note. Its use is that partial results become interpretable. The data that must be fixed at each rung are the slots enumerated in [[wall-construction-interface/entry|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].

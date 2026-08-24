@@ -113,7 +113,7 @@ This is an exact change of coefficient once Einstein gravity is assumed. It does
 
 ## Action stiffness
 
-With coordinates and volume conventions in which \(\int R\,\mathrm dV_g\) has dimensions of area, the [[least-action/einstein-hilbert-action|Einstein--Hilbert action]] satisfies
+With coordinates and volume conventions in which \(\int R\,\mathrm dV_g\) has dimensions of area, the [[philosophy/principle-of-least-action/einstein-hilbert-action|Einstein--Hilbert action]] satisfies
 
 $$
 S_{\mathrm{EH}}

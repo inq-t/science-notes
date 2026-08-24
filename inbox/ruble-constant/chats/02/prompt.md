@@ -1,2 +1,0 @@
-could this "Ruble's Constant" instead be something like a "running constant" (like alpha, the "fine structure constant").  Which is to say that "constancy" is the constancy of a "function" that operates on state.
-To use the "alpha" analogy, alpha has changed in numeric value over the history of the cosmos, but the "function" that outputs alpha is steady.

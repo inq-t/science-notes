@@ -1,0 +1,4 @@
+[module]
+name = "symmetry-principle"
+entry = "entry.md"
+include = ["**/*.md"]

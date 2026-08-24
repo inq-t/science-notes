@@ -1,0 +1,4 @@
+[module]
+name = "principle-of-least-action"
+entry = "entry.md"
+include = ["**/*.md"]

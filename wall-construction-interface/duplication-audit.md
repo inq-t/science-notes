@@ -6,7 +6,7 @@ This ledger records the ownership boundary between the shared wall-construction 
 
 | Statement | Canonical owner | Related consumers |
 |---|---|---|
-| The scale-indexed package of regions, algebras, states, modular data, transport, scale law, cocycle, and generator | [[entry]] | [[causal-wall-spectral-theory/causal-scale-interface]], [[scale-as-modular-observable/observable-map]] |
+| The scale-indexed package of regions, algebras, states, modular data, transport, scale law, cocycle, and generator | [[wall-construction-interface/entry]] | [[causal-wall-spectral-theory/causal-scale-interface]], [[scale-as-modular-observable/observable-map]] |
 | A derivative of the state family is undefined before transport | [[cross-fiber-transport]] | [[causal-wall-spectral-theory/causal-scale-interface]] |
 | The four transport strategies | [[cross-fiber-transport]] | — |
 | Vertical modular flow and horizontal state deformation are different types of motion | [[causal-scale-theory/modular-flow]] | [[cross-fiber-transport]], [[causal-wall-spectral-theory/causal-scale-interface]], [[scale-as-modular-observable/observable-map]] |
@@ -19,7 +19,7 @@ This ledger records the ownership boundary between the shared wall-construction 
 | State selection is substantive; no covariantly preferred state is supplied for free | [[cross-fiber-transport]] | [[causal-wall-spectral-theory/causal-scale-interface]], [[causal-wall-spectral-theory/open-problems]] |
 | Independence and anti-circularity tests | [[elimination-test]] | both consumer programmes |
 | Conservative-restriction test | [[elimination-test]] | [[compatible-with-existing-physics/local-physics-interface]], [[causal-wall-spectral-theory/causal-scale-interface]] |
-| Two completion levels | [[entry]] | [[causal-wall-spectral-theory/causal-scale-interface]] |
+| Two completion levels | [[wall-construction-interface/entry]] | [[causal-wall-spectral-theory/causal-scale-interface]] |
 | The five-rung construction ladder and its literature precedents | [[construction-ladder]] | [[cross-fiber-transport]] |
 
 ## Remaining architectural cautions
