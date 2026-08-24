@@ -1,6 +1,6 @@
 # Why Unitarity Is Not the Wall Symmetry
 
-The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas the wall is meant to discard distinctions, produce an observable law, and orient irreversible factual history. The strongest present replacement is compositional rather than dynamical: a correspondence class fuses coherently across scale, a conditional expectation divides retained from erased distinction, and in a matched type-I cell the tracial index capacity partitions into a chosen central edge entropy and its tracial defect. Observable Noether charges and least action arise only later. None is conservation of an information substance across the wall.
+The pre-observable-to-observable wall should not be governed by a Unitarity Principle. Unitarity preserves an inner product under reversible transport, whereas the wall is meant to discard distinctions, produce an observable law, and orient irreversible factual history. The strongest present replacement is compositional rather than dynamical: a correspondence class fuses coherently across scale, a conditional expectation divides retained from erased distinction, and in a type-I product cell the erased edge factor's log-dimension partitions into a chosen input edge entropy and its tracial defect. Observable Noether charges and least action arise only later. None is conservation of an information substance across the wall.
 
 ## The wall is deliberately noninvertible
 
@@ -78,9 +78,9 @@ $$
 
 It is not a conserved energy, entropy, bit count, or Hilbert norm. [[spectral-wall-descent/index-and-curvature-transgression|Index and curvature transgression]] develops this claim and its failure conditions.
 
-## Gravity is central entropy, not simply the lost block
+## Central edge entropy is not the lost block
 
-Controlled holographic relative-entropy results refine the earlier direct conjecture. Regional Fisher information retained by the reconstructable algebra maps to gravitational canonical energy,
+For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, regional Fisher information retained by the reconstructable algebra pulls back to gravitational canonical energy,
 
 $$
 G^{\mathrm{ret}}
@@ -88,24 +88,24 @@ G^{\mathrm{ret}}
 \mathfrak S^*\mathcal E_{\mathrm{can}}^{\mathrm{grav}},
 $$
 
-while the area term is central and cancels from fixed-code relative entropy. The gravitational coefficient is therefore sought in the independent operator identity
+while in exact complementary-recovery code models the fixed edge-area term is central and cancels from relative entropy. Identifying that edge operator with gravitational area is the independent conjectural weld
 
 $$
-\mathcal L_E(U)
+\mathcal L_\chi(U)
 \stackrel{?}{=}
-\eta_*\mathcal A_D(U).
+\eta_*\mathcal A_D^Z(U).
 $$
 
-In the matched type-I factor cell of [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]], compare the code edge state \(\chi\) with the tracial reference expectation \(E_\tau\). Then
+In the type-I factor cell of [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]], take \(E_\tau\) to be the auxiliary tracial expectation and \(\rho=\rho_a\otimes\chi\) a product state on the same multiplicity space. Then
 
 $$
 \boxed{
 S(\chi)
 +D(\chi\Vert\tau)
-=\frac12\log\operatorname{Ind}(E_\tau).}
+=\frac12\log\operatorname{Ind}_{W}(E_\tau).}
 $$
 
-Central edge entropy \(S(\chi)\) and distinction from the tracial capacity state \(D(\chi\Vert\tau)\) are complementary portions of one algebraic capacity. The code expectation determined by \(\chi\) need not equal \(E_\tau\); keeping them distinct is the precise sense in which gravity and loss may balance without being identified.
+The chosen input edge entropy \(S(\chi)\) and distinction from the tracial state \(D(\chi\Vert\tau)\) are complementary portions of the erased factor's log-dimension, not the full subalgebra-relative-entropy capacity. The code expectation determined by \(\chi\) need not equal \(E_\tau\); proving that its fixed edge entropy is gravitational area is the separate conjectural weld.
 
 Entropy is close to anti-information only after a reference and algebra are declared. In a finite \(n\)-level tracial register,
 
@@ -122,7 +122,7 @@ d(X_{32}\boxtimes X_{21})
 =d(X_{32})d(X_{21}),
 $$
 
-so \(\log d\) is additive under fusion. This is a categorical valuation, not a Noether charge. With centers, the full matrix dimension or bimodule must be retained. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] states the required coherence and its facthood boundary.
+so \(\log d\) is additive under fusion. This is a categorical valuation, not a Noether charge. With centers, the full matrix dimension or bimodule must be retained. [[spectral-wall-descent/scale-correspondence-stack|The candidate scale-correspondence prestack]] states the required coherence and its facthood boundary.
 
 ## Least action belongs to the observable register
 
@@ -160,7 +160,7 @@ This one-sided inclusion order is a candidate for ontological time. It is neithe
 | Layer | Mathematical object | What may persist | What does not follow |
 |---|---|---|---|
 | Pre-observable structure | spectral datum and scale-indexed correspondence | \(K\)-homology or cyclic class; fusion coherence; matrix dimension | action, energy, or unitary time evolution |
-| Gravitational wall | finite-index expectation when available | retained/lost response split and central index--entropy budget | a commutative fact or numerical \(G\) without spectral area |
+| Candidate gravitational wall | finite-index expectation with separately derived edge-state data when available | retained/lost response split; a scoped product-edge log-dimension identity | a central area operator, commutative fact, or numerical \(G\) without the independent weld |
 | Factual wall | generally infinite-index expectation or instrument | compatibility of readout contexts | finite-index geometry or unitary information conservation |
 | Observable physics | spectral action, covariant phase space, fields | Noether charge or boundary flux when derived | pre-observable necessity |
 | Factive history | contextual characters and record inclusions | compatibility of the realized record | reversible dynamics |
@@ -174,4 +174,4 @@ This one-sided inclusion order is a candidate for ontological time. It is neithe
 - If the spectral action is applied upstream merely because it works downstream, observable variational structure has been projected into the wrong register.
 - If there is no actual character and persistent record, increased observable entropy describes possibilities rather than one cosmic history.
 
-The strongest present principle is therefore not unitarity but **compositional exactness under noninvertible descent**: correspondences fuse coherently, the wall divides retained from erased distinction, finite-index capacity partitions into central geometry and defect, and ontological time is the directed stabilization of one resulting factual history.
+The strongest present principle is therefore not unitarity but **compositional exactness under noninvertible descent**: correspondences fuse coherently, the wall divides retained from erased distinction, the type-I product cell obeys a scoped edge-entropy identity, and ontological time is the directed stabilization of one resulting factual history. Turning the fixed edge operator into gravity remains the independent spectral-area weld.

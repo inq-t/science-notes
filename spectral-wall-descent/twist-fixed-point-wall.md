@@ -1,6 +1,6 @@
 # The Twisted Fixed-Point Wall
 
-The twisted grand-symmetry model contains a concrete finite wall: an involutive automorphism \(\rho\) exchanges two chiral copies, its fixed algebra is the Standard Model algebra, and averaging \(E_\rho=(1+\rho)/2\) is a trace-preserving conditional expectation. The twist itself is reversible; the averaging is not. The Majorana singlet lies in the twist-odd normal direction, so the published construction supplies both an observable fixed locus and a candidate wall tangent without making the spectral-action minimum the ontologically prior cause of descent.
+The twisted grand-symmetry model supplies a concrete fixed-algebra datum: an involutive automorphism \(\rho\) exchanges represented components and its invariant algebra is the Standard Model algebra. The project adds the exact conditional expectation \(E_\rho=(1+\rho)/2\) in a chosen invariant finite trace representation; this averaging is a candidate wall, not a construction claimed by the source. The Majorana singlet supplies a twist-odd defect and a possible wall-normal coordinate without making the spectral-action minimum the ontologically prior cause of descent.
 
 ## Fixed algebra and noninvertible descent
 
@@ -17,7 +17,7 @@ $$
 :=\{b\in\mathcal B:\rho(b)=b\}.
 $$
 
-The canonical average
+Fix a faithful finite-dimensional complex representation and a chosen \(\rho\)-invariant trace \(\operatorname{Tr}_w\), including its summand weights and representation multiplicities. The canonical average
 
 $$
 \boxed{
@@ -25,12 +25,12 @@ E_\rho:=\frac{1+\rho}{2}:
 \mathcal B\longrightarrow\mathcal B^\rho}
 $$
 
-is unital, completely positive, idempotent, and a bimodule map over \(\mathcal B^\rho\). For a \(\rho\)-invariant trace it is trace preserving. This is therefore an exact finite instance of the wall map in [[spectral-wall-descent/conditional-expectation-balance|the conditional-expectation balance]].
+is unital, completely positive, idempotent, and a bimodule map over \(\mathcal B^\rho\). It preserves \(\operatorname{Tr}_w\). This is an exact project derivation and a finite instance of the wall map in [[spectral-wall-descent/conditional-expectation-balance|the conditional-expectation balance]]. The source paper establishes the automorphism, fixed algebra, twisted fluctuations, defects, and spectral potential; it does not introduce this conditional expectation or interpret it as a wall.
 
 The type distinction is decisive:
 
 $$
-\rho:mathcal B\overset{\sim}{\longrightarrow}\mathcal B
+\rho:\mathcal B\overset{\sim}{\longrightarrow}\mathcal B
 \quad\text{is invertible},
 \qquad
 E_\rho:\mathcal B\longrightarrow\mathcal B^\rho
@@ -41,7 +41,7 @@ Thus neither twisting nor symmetry breaking by itself produces loss. Loss enters
 
 ## Exact normal-response split
 
-Let \(q\) be a faithful \(\rho\)-invariant state and write a self-adjoint tangent as
+Let \(q\) be a faithful \(\rho\)-invariant density with respect to \(\operatorname{Tr}_w\), and write a self-adjoint tangent as
 
 $$
 X=X_++X_-,
@@ -72,7 +72,7 @@ $$
 \Delta_\rho X:=(1-\rho)X
 $$
 
-therefore measures the normal response erased by the fixed-point descent. For a density \(p\), under the finite tracial hypotheses,
+therefore measures the normal response erased by the fixed-point descent. For a density \(p\), use the trace identification so that the same self-adjoint average acts on densities. Under the finite tracial hypotheses,
 
 $$
 S(E_\rho p)-S(p)
@@ -87,7 +87,7 @@ D(p\Vert q)
 +D(p\Vert E_\rho p).
 $$
 
-These are loss--gain identities, not unitarity or conservation of an information substance.
+These are exact project loss--gain identities for the declared trace, not source theorems, unitarity, or conservation of an information substance. Their numerical BKM normalization depends on the chosen summand weights and Hilbert-space multiplicities; the abstract algebra alone does not choose that trace.
 
 ## The singlet is a twist-odd normal coordinate
 
@@ -107,10 +107,17 @@ $$
 =\mathbf1-\gamma^5\phi,
 $$
 
-and consequently
+The algebraic anti-invariant part is therefore
 
 $$
-\Delta_\rho\boldsymbol\sigma
+(1-\rho)\boldsymbol\sigma
+=2\gamma^5\phi.
+$$
+
+The published spectral defect includes the Majorana operator:
+
+$$
+\Delta(\boldsymbol\sigma)
 :=
 \left(
 \boldsymbol\sigma-\rho(\boldsymbol\sigma)
@@ -132,7 +139,7 @@ C_2
 \left(3\Lambda^2f_2-|k_R|^2f_0\right),
 $$
 
-so the fixed-point Hessian is
+so the coordinate Hessian in the source's unnormalized \(\phi\)-coordinate is
 
 $$
 \boxed{
@@ -141,7 +148,7 @@ V''(0)
 \left(3\Lambda^2f_2-|k_R|^2f_0\right).}
 $$
 
-This is an observable stiffness of the normal mode. It is not automatically its BKM norm or a Newton coefficient.
+This is not yet a canonically normalized physical stiffness. A mass or stiffness requires division by the kinetic normalization and inclusion of the appropriate representation multiplicities. Those data must also be included before comparison with the two-level BKM metric or a Newton coefficient.
 
 ## Exact binary state bridge
 
@@ -194,13 +201,19 @@ This exactly realizes the binary profile used by [[binary-information-geometry/e
 
 The bridge is **[CONDITIONAL]**. In the source theory \(\boldsymbol\sigma\) is a Dirac fluctuation, not a density operator; \(\phi\) is not restricted to \((-1,1)\). A physical theory must explain why the positive normalization above is the selected state family rather than infer that selection from the matching formula.
 
-## Stack interpretation and its limit
+## A candidate stack interpretation
 
-The fixed locus and its normal complex have a genuine moduli interpretation. Schematically, if \(\mathfrak M_{\mathrm{tw}}\) is a moduli groupoid of twisted spectral presentations, then
+At the algebra level, the exact equalizer is only
+
+$$
+\boxed{
+\mathcal B^\rho=\operatorname{Eq}(1,\rho).}
+$$
+
+This suggests, but does not yet construct, a moduli typing. If a moduli functor \(\mathfrak M_{\mathrm{tw}}\) of twisted spectral presentations is defined, the automorphism is promoted to an action on it, and its fixed subfunctor is proved to represent Standard Model triples, one could seek an immersion
 
 $$
 \mathfrak M_{\mathrm{SM}}
-=\operatorname{Eq}(1,\rho)
 \hookrightarrow
 \mathfrak M_{\mathrm{tw}},
 $$
@@ -217,14 +230,17 @@ T\mathfrak M_{\mathrm{tw}}
 \right).
 $$
 
-The singlet is then a particular twist-odd section of \(N_\rho\), not “the stack.” If the twist were allowed to vary locally, it could be encoded by a \(\mathbb Z_2\)-torsor with \(\phi\) in its associated sign line.
+Only after constructing that moduli map and its derived tangent complex could the singlet be typed as a particular twist-odd section of \(N_\rho\), rather than “the stack.” Allowing the twist to vary locally might then be encoded by a \(\mathbb Z_2\)-torsor with \(\phi\) in its associated sign line. The moduli stack, normal complex, and torsor are therefore project conjectures, not consequences of the fixed-algebra theorem.
 
 A groupoid or ordinary stack retains automorphisms and uses invertible arrows. It therefore cannot by itself perform the noninvertible average \(E_\rho\), select an actual character, or create a record. Those operations require the correspondence and completely-positive structure developed in [[spectral-wall-descent/scale-correspondence-stack|the scale-correspondence stack]].
 
 ## Claim boundary
 
-- The fixed-point expectation and its BKM split are exact in the finite invariant-state setting.
-- The twisted source constructs the singlet and vector defects, but the scalar minimum alone does not complete the reduction to \(\mathcal A_{\mathrm{SM}}\).
+- **Source:** the fixed algebra, twisted singlet and vector defects, and spectral potential.
+- **Exact project derivation:** the trace-dependent fixed-point expectation, entropy Pythagoras identity, and BKM even/odd split in the finite invariant-state setting.
+- **Conditional bridge:** normalization of the represented Dirac fluctuation as a two-outcome density.
+- **Speculative extension:** the moduli stack, normal complex, and locally varying \(\mathbb Z_2\)-torsor.
+- The scalar minimum alone does not complete the reduction to \(\mathcal A_{\mathrm{SM}}\).
 - The spectral-action minimum is an observable stability receipt; it is not used here as the pre-observable law of becoming.
 - The finite algebra does not generate the four-dimensional spin manifold assumed by the almost-commutative product.
 - Noncommutativity does not establish homogeneity; the relevant transitive action on states or presentations must still be exhibited.

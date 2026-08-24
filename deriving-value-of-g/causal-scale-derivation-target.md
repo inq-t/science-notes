@@ -114,20 +114,27 @@ $$
 =\chi_*\,\delta A.
 $$
 
-The finite-index construction adds a separately typed central measure and replaces the assumed classical area by an independently normalized spectral one,
+The finite-index construction adds a separately typed candidate central assignment and replaces the assumed classical area by an independently normalized spectral one,
 
 $$
 \mu_{A,D}(U):=\mathcal A_{D,U}.
 $$
 
-For a gravitational expectation \(E_g\), let
+For a gravitational expectation \(E_g\) equipped with algebraically selected fixed edge states \(\chi_{U,\alpha}\), let
 
 $$
 \mu_{\mathrm{edge}}(U)
-:=\mathcal L_{E_g,U},
+:=\mathcal L_{\chi,U},
 $$
 
-where \(\mathcal L_{E_g,U}\) is the central entropy operator evaluated sectorwise or before character selection. The stronger theorem target is
+where \(\mathcal L_{\chi,U}\) is the candidate central entropy assignment evaluated sectorwise or before character selection. The correspondence or expectation alone does not select these states. After putting the patch centers in one compatible central algebra, define
+
+$$
+\mathcal A_D^Z(U)
+:=\sum_\alpha A_{D,\alpha}(U)P_\alpha.
+$$
+
+The stronger theorem target is
 
 $$
 \boxed{
@@ -142,15 +149,15 @@ $$
 equivalently
 
 $$
-\mathcal L_{E_g,U}
-=\chi_*\mathcal A_{D,U}
+\mathcal L_{\chi,U}
+=\chi_*\mathcal A_D^Z(U)
 $$
 
 for every admissible patch. [[spectral-index-area-route|The spectral index--area route]] states the finite cell model, the Dirac normalization problem, and the noncircular closure equation with the observable spectral action.
 
-Before a sector or central state is chosen, this is an equality of central positive operator-valued measures rather than an ordinary scalar Radon--Nikodym equation.
+Before a sector or central state is chosen, this is only a candidate equality of central positive assignments. It becomes an equality of operator-valued measures only after countable additivity and compatible center maps are proved.
 
-The measures and constant-density conditions construct a local extensive state-space modulus and a central geometric entropy. The entropy-variation equation is the state--geometry weld. Together they give
+If those measure and constant-density conditions are proved, they construct a local extensive state-space modulus and a central geometric entropy. The entropy-variation equation is the state--geometry weld. Together they give
 
 $$
 \chi_*=\eta_{\mathrm E}

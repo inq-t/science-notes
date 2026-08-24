@@ -235,16 +235,16 @@ G^{\mathrm{ret}}
 &\xrightarrow{\ \mathfrak S\ }
 \mathcal E_{\mathrm{can}}^{\mathrm{grav}},
 &&\text{calibrated in controlled AdS code sectors},\\
-\mathcal L_E(U)
+\mathcal L_\chi(U)
 &\stackrel{?}{=}
-\eta_*\mathcal A_D(U),
+\eta_*\mathcal A_D^Z(U),
 &&\text{open central spectral-area weld}.
 \end{aligned}
 $$
 
-The first line is topological and cohomological. The dashed arrow is not supplied by the Chern character alone. The retained-response line is continuous and metric, while the final line compares a central entropy operator with a dimensionful spectral measure. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows that central edge entropy equals half a log index only in an index-saturated factor sector; in general a relative-entropy defect separates them.
+The first line is topological and cohomological. The dashed arrow is not supplied by the Chern character alone. The retained-response line is continuous and metric, while the final line compares a central entropy operator with a dimensionful spectral assignment. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows only that, for a type-I product state compared with an auxiliary tracial expectation, edge entropy plus tracial defect equals half the Watatani log index. The code expectation selecting the fixed edge state is generally different, so no general index--area theorem follows.
 
-A completed theory must show that these statements arise compatibly from one scale-indexed correspondence without identifying an integer index, its logarithm, edge entropy, BKM norm, and physical area. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence stack]] is the typed container for that compatibility.
+A completed theory must show that these statements arise compatibly from one scale-indexed correspondence without identifying an integer index, its logarithm, edge entropy, BKM norm, and physical area. [[spectral-wall-descent/scale-correspondence-stack|The scale-correspondence prestack]] is the present typed container and effective descent remains open.
 
 ## Failure conditions
 

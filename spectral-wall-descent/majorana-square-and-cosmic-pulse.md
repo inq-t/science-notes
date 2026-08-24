@@ -71,7 +71,7 @@ A:=k_R^*k_R,
 R(x)=x^2A.
 $$
 
-Writing
+For \(f_0,f_2>0\) and \(A\ne0\), write
 
 $$
 n_{\mathrm{eff}}

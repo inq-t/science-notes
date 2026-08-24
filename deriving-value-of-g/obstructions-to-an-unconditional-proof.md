@@ -149,21 +149,21 @@ Local QFT algebras are generally type III and do not possess density matrices or
 
 Rescaling the trace changes the additive entropy convention while a modular variance is insensitive to central shifts of \(K\). A comparison of entropy and capacity therefore requires a common, physically fixed trace and renormalization prescription. Matter entanglement alone also carries cutoff and species dependence; the finite gravitational object is renormalized generalized or Wald entropy.
 
-Finite index does not remove this obstruction. In a type-I factor cell it fixes only the capacity ceiling
+Finite index does not remove this obstruction. For a type-I product state and an auxiliary tracial expectation on the same multiplicity factor, it fixes the edge-entropy ceiling
 
 $$
-\frac12\log\operatorname{Ind}(E_\tau),
+\frac12\log\operatorname{Ind}_{W}(E_\tau),
 $$
 
-while the physical central edge entropy is
+while a chosen input edge entropy obeys
 
 $$
 S(\chi)
-=\frac12\log\operatorname{Ind}(E_\tau)
+=\frac12\log\operatorname{Ind}_{W}(E_\tau)
 -D(\chi\Vert\tau).
 $$
 
-Equating entropy with half a log index therefore requires a saturation theorem. With nontrivial centers, scalar minimal index is not the functorial compositional datum; the matrix dimension or full correspondence must be retained.
+This identity neither gives the full subalgebra relative-entropy capacity nor makes \(E_\tau\) select \(\chi\); the code expectation selecting a fixed edge state is generally different. Equating its entropy with half a log index therefore requires independent state selection and edge-entropy saturation. With nontrivial centers, scalar minimal index is not the functorial compositional datum; the matrix dimension or full correspondence must be retained.
 
 ## The dimensional obstruction
 

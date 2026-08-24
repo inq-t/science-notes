@@ -1,6 +1,6 @@
 # The Finite-Index Area Weld
 
-A matched type-I factor model has an exact algebraic budget: the log dimension of the tracial inclusion splits into a chosen edge state's entropy and its distinguishability from the tracial edge state. Holographic error-correcting codes independently identify fixed relative-commutant edge entropy with a central area operator. Welding these structures, while keeping their expectations distinct, yields a precise finite-index candidate for gravitational descent; the final passage to a commutative fact remains a separate, generally infinite-index step.
+A matched type-I product-cell model has an exact algebraic budget: the log dimension of an erased edge factor splits into a chosen input edge state's entropy and its distinguishability from the tracial edge state. Exact complementary-recovery codes independently identify fixed relative-commutant edge entropy with a central area operator. Welding these two data, while keeping their expectations distinct, yields a finite-index candidate for gravitational descent rather than a general index--area theorem; the final passage to a commutative fact remains a separate, generally infinite-index step.
 
 ## Why the wall has two stages
 
@@ -11,22 +11,24 @@ $$
 \mathcal A_-
 \xrightarrow{\ E_g\ }
 \mathcal A_{\mathrm{geo}}
-\xrightarrow{\ E_f\ }
-\mathcal B_{\mathrm{fact}}.}
+\xrightarrow{\ F\ }
+\mathcal B_{\mathrm{fact}},
+\qquad
+E_{\mathrm{tot}}:=F\circ E_g.}
 $$
 
-Here \(E_g\) is allowed to be a finite-index expectation between noncommutative algebras. The map \(E_f\) is the later observational or record-producing descent and need not have finite index.
+Here \(E_g\) is allowed to be a finite-index expectation between noncommutative algebras. The map \(F\) is the later observational or record-producing descent and need not have finite index.
 
-When both expectations exist in a finite tracial debugging model and \(E_fE_g=E_f\), the nested Pythagorean identity gives
+In a finite tracial debugging model, let \(P_g\) and \(P_{\mathrm{tot}}\) be the trace-adjoint density projections induced by these nested expectations. Under faithfulness and support compatibility, the nested Pythagorean identity gives
 
 $$
 \boxed{
-D(\rho\Vert E_f\rho)
-=D(\rho\Vert E_g\rho)
-+D(E_g\rho\Vert E_f\rho).}
+D(\rho\Vert P_{\mathrm{tot}}\rho)
+=D(\rho\Vert P_g\rho)
++D(P_g\rho\Vert P_{\mathrm{tot}}\rho).}
 $$
 
-At coincidence, the pre-observable BKM norm decomposes into geometric-wall loss, factual-wall loss, and retained factual response. No unitary environment or conserved bit count is required.
+At a faithful reference fixed by both stages, the coincidence Hessian decomposes the pre-observable BKM norm into geometric-wall loss, factual-wall loss, and retained factual response. No unitary environment or conserved bit count is required.
 
 ## Exact one-sector calculation
 
@@ -40,12 +42,19 @@ $$
 =B(\mathcal H_a\otimes\mathbb C^d),
 $$
 
-and let the reference tracial expectation be
+Write separately the normalized trace functional and its density,
 
 $$
-E_\tau=\operatorname{id}\otimes\tau_d,
+\operatorname{tr}_d(b):=\frac{\operatorname{Tr}(b)}d,
 \qquad
 \tau_d:=\frac{\mathbf1_d}{d}.
+$$
+
+The reference tracial expectation is
+
+$$
+E_\tau(a\otimes b)
+:=a\operatorname{tr}_d(b)\otimes\mathbf1_d.
 $$
 
 For matrix units \(e_{ij}\) on \(\mathbb C^d\), a quasi-basis is
@@ -58,7 +67,7 @@ Hence the Watatani index is
 
 $$
 \boxed{
-\operatorname{Ind}(E_\tau)
+\operatorname{Ind}_{W}(E_\tau)
 =\sum_{i,j}u_{ij}u_{ij}^*
 =d^2\mathbf1.}
 $$
@@ -69,16 +78,16 @@ $$
 \rho=\rho_a\otimes\chi,
 $$
 
-where \(\chi\) is a faithful edge state. The predual coarse graining sends
+where \(\chi\) is a faithful edge state. Using trace self-adjointness to identify functionals with density matrices, let \(P_\tau\) denote restriction to \(\mathcal N\) followed by the tracial extension back to \(\mathcal M\). On the displayed product density it sends
 
 $$
-E_{\tau *}(\rho)=\rho_a\otimes\tau_d.
+P_\tau(\rho)=\rho_a\otimes\tau_d.
 $$
 
 Therefore
 
 $$
-S(E_{\tau *}\rho)-S(\rho)
+S(P_\tau\rho)-S(\rho)
 =\log d-S(\chi)
 =D(\chi\Vert\tau_d).
 $$
@@ -90,68 +99,110 @@ $$
 S(\chi)
 +D(\chi\Vert\tau_d)
 =\log d
-=\frac12\log\operatorname{Ind}(E_\tau).}
+=\frac12\log\operatorname{Ind}_{W}(E_\tau).}
 $$
 
-This is the finite **index--entropy--defect theorem** used by the construction. If an exact code on the same relative-commutant factor uses \(\chi\) as its fixed edge state, its central area contribution is \(\mathcal L_\chi=S(\chi)\). The expectation determined by that code state need not be the tracial expectation \(E_\tau\), and its Pimsner--Popa index need not equal \(d^2\). The equation compares the code's edge state with the tracial capacity reference on the same factor; it must not conflate the two expectations.
+This is the finite **[EXACT TYPE-I PRODUCT-EDGE IDENTITY]**. It uses two data: the tracial coarse-grainer \(E_\tau\) and an arbitrary product input edge state \(\chi\). It is not an invariant of \(E_\tau\) alone and does not say that \(E_\tau\) selects an area eigenvalue \(S(\chi)\).
+
+If an exact complementary-recovery code on the same relative-commutant factor instead selects \(\chi\) as a fixed edge state, its commutant expectation is
+
+$$
+E_\chi(a\otimes b)
+=a\operatorname{Tr}(\chi b)\otimes\mathbf1_d.
+$$
+
+For faithful \(\chi\),
+
+$$
+\operatorname{Ind}_{W}(E_\chi)
+=\operatorname{Tr}(\chi^{-1})\mathbf1,
+$$
+
+and \(E_\chi\) is trace preserving only when \(\chi=\tau_d\). Thus no single expectation presently supplies both the arbitrary-edge entropy formula and the tracial index formula.
 
 Its three terms have different types:
 
-- \(\tfrac12\log\operatorname{Ind}(E_\tau)\) is the maximum dimensionless capacity of the tracial factor inclusion;
+- \(\tfrac12\log\operatorname{Ind}_{W}(E_\tau)=\log d\) is the log-dimension of the distinguished erased edge factor, equivalently the logarithm of its categorical dimension in this minimal factor model;
 - \(S(\chi)\) is entropy carried by its distinguished edge state; and
 - \(D(\chi\Vert\tau_d)\) is the distinction erased when that state is replaced by the tracial edge state.
 
-The equation is a balance internal to one algebraic cell. It is not conservation of energy, and it does not say that entropy and information are substances that change into each other.
+The equation is a product-state balance internal to one algebraic cell. It is not conservation of energy, and it does not say that entropy and information are substances that change into each other.
+
+The index conventions must not be collapsed. Here
+
+$$
+\operatorname{Ind}_{W}(E_\tau)=d^2,
+\qquad
+d_{\mathrm{cat}}=d,
+\qquad
+C_{\mathrm{edge}}=\log d,
+$$
+
+while the matrix-amplified subalgebra relative-entropy capacity is \(\log\operatorname{Ind}_{W}(E_\tau)=2\log d\). If \(n=\dim\mathcal H_a\), the ordinary unamplified supremum in this concrete model is \(\log\!\left(d\min\{n,d\}\right)\). The half-index term is therefore not the unrestricted information capacity of the inclusion.
 
 ## Central geometry in several sectors
 
-For a finite observable algebra with center,
+For the sector-preserving type-I toy inclusion,
 
 $$
-\mathcal M_R
+\bigoplus_\alpha
+\left(
+B(\mathcal H_{a_\alpha})\otimes\mathbf1_{b_\alpha}
+\right)
+\subset
+\bigoplus_\alpha
+\left(
+B(\mathcal H_{a_\alpha})\otimes B(\mathcal H_{b_\alpha})
+\right),
+$$
+
+write the retained algebra and its center as
+
+$$
+\mathcal N_R
 =\bigoplus_\alpha
 \left(
-B(\mathcal H_{a_\alpha})\otimes\mathbf1
+B(\mathcal H_{a_\alpha})\otimes\mathbf1_{b_\alpha}
 \right),
 \qquad
-Z(\mathcal M_R)
+Z(\mathcal N_R)
 =\bigoplus_\alpha\mathbb CP_\alpha,
 $$
 
-the algebraic Ryu--Takayanagi theorem and the conditional-expectation formulation of exact holographic codes place the area term in the center:
+the algebraic Ryu--Takayanagi theorem and the conditional-expectation formulation of exact complementary-recovery codes place the area term in the center, provided each \(\chi_\alpha\) is fixed for all logical states in its sector:
 
 $$
 \boxed{
 \mathcal L_{\mathrm{code}}
 =\sum_\alpha S(\chi_\alpha)P_\alpha
-\in Z(\mathcal M_R).}
+\in Z(\mathcal N_R).}
 $$
 
-The center records which sector is presented; the matrix factor inside a sector remains noncommutative. Apparent points or lumps are therefore characters of
+The center records which sector is presented; the matrix factor inside a sector remains noncommutative. Points of
 
 $$
-\operatorname{Spec}Z(\mathcal M_R),
+\operatorname{Spec}Z(\mathcal N_R)
 $$
 
-not primitive atoms in the upstream algebra. This is a controlled model of [[program-core/contextual-descent-from-homogeneity|contextual descent from homogeneity]].
+are characters of that center and hence superselection labels, not primitive atoms in the upstream algebra. Calling such labels spatial “lumps” additionally requires a localized net, support map, and gluing construction. This is a controlled precursor to [[program-core/contextual-descent-from-homogeneity|contextual descent from homogeneity]].
 
-In an index-saturated type-I sector, \(\chi_\alpha=\tau_{d_\alpha}\), and
+In an edge-entropy-saturated type-I sector, \(\chi_\alpha=\tau_{d_\alpha}\), and the auxiliary tracial reference gives
 
 $$
-\mathcal L_{\mathrm{code}}|_\alpha
-=\frac12\log\operatorname{Ind}(E_{\tau,\alpha}).
+\mathcal L_{\chi}|_\alpha
+=\frac12\log\operatorname{Ind}_{W}(E_{\tau,\alpha}).
 $$
 
 In general,
 
 $$
 \boxed{
-\mathcal L_{\mathrm{code}}|_\alpha
-=\frac12\log\operatorname{Ind}(E_{\tau,\alpha})
+\mathcal L_{\chi}|_\alpha
+=\frac12\log\operatorname{Ind}_{W}(E_{\tau,\alpha})
 -D(\chi_\alpha\Vert\tau_{d_\alpha}).}
 $$
 
-Thus index is a ceiling, not automatically the physical area entropy. Translating a unit entropy cell into a numerical Jones index requires a saturation theorem. In particular, no universal conclusion such as \(d=e\) follows from the unit Ruble law.
+This last formula is a two-datum comparison: \(E_{\tau,\alpha}\) is an auxiliary trace expectation, not generally the code expectation \(E_{\chi_\alpha}\) that selects the area state. Translating a unit entropy cell into a numerical Jones index therefore requires both an algebraic state-selection theorem and an entropy-saturation theorem. In particular, no universal conclusion such as \(d=e\) follows from the unit Ruble law.
 
 ## The candidate non-Noether symmetry
 
@@ -168,21 +219,21 @@ $$
 \Lambda(X):=\log d(X)
 $$
 
-is additive under fusion. If the distinguished edge states also factor under that fusion, their entropies and relative defects add separately, so the one-cell identity extends to a cocycle balance.
+is additive under fusion. If the distinguished edge factors and states form a no-sector-mixing tensor product compatible with that fusion, their entropies and relative defects add separately, so the one-cell identity extends to a product cocycle balance.
 
 This is the strongest present answer to “what remains symmetric during symmetry breaking”:
 
 $$
 \boxed{
 \text{the correspondence composes coherently;
-matched edge and tracial data obey an exact capacity partition}.}
+matched product-edge and tracial data obey an exact local identity}.}
 $$
 
-The assertion about categorical dimension is standard in the factor or simple-sector setting. With nontrivial centers, scalar minimal index is generally only submultiplicative. The functorial datum is a matrix dimension or the full bimodule, so the theory must retain sectorwise information rather than collapse it prematurely to one number.
+The assertion about categorical dimension is standard in the factor or simple-sector setting. With nontrivial centers, fusion uses matrix dimensions and sums over intermediate sectors, and entropy can acquire classical mixing terms; scalar minimal index is generally only submultiplicative. The theory must therefore retain the dimension matrix or full bimodule rather than collapse it prematurely to one number.
 
 ## Relation to gravity and to lost response
 
-Holographic relative entropy gives an important no-go. At fixed code subspace, the central area term cancels from relative entropy, while the retained regional quantum Fisher metric maps to bulk canonical energy. Therefore
+Holographic relative entropy gives an important no-go. In exact complementary-recovery code models the central area term cancels from relative entropy. For perturbations of the vacuum CFT ball with a leading semiclassical AdS Rindler-wedge dual, the retained regional quantum Fisher metric pulls back to bulk canonical energy. Therefore
 
 $$
 G^{\mathrm{ret}}
@@ -190,7 +241,7 @@ G^{\mathrm{ret}}
 \mathcal E_{\mathrm{can}}
 $$
 
-is the calibrated AdS relation; it is not generally
+is the calibrated AdS relation in that regime; it is not generally
 
 $$
 G^{\mathrm{lost}}
@@ -198,7 +249,7 @@ G^{\mathrm{lost}}
 \mathcal E_{\mathrm{can}}.
 $$
 
-The gravitational coefficient belongs instead to the independent central weld
+In exact algebraic code models, a candidate gravitational coefficient belongs instead to the independent central weld
 
 $$
 \mathcal L_{\mathrm{code}}
@@ -206,15 +257,15 @@ $$
 \eta_*\mathcal A_D,
 $$
 
-where \(\mathcal A_D\) is an independently normalized spectral area operator. [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states this density theorem and its anti-circularity test.
+where \(\mathcal A_D\) is an independently normalized central spectral area assignment. [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states this theorem target and its anti-circularity test.
 
-The result refines the phrase “gravity balances what observation loses.” In the matched factor cell, geometric edge entropy and distinction from the tracial capacity state are complementary summands. If the physical wall is tracial, that defect is its exact BKM loss; for a nontracial code expectation this further identification must be proved. Gravity is not simply renamed BKM loss.
+The result refines the phrase “gravity balances what observation loses.” In the type-I product cell, edge entropy and distinction from the tracial edge state are complementary summands. In an exact code, the fixed edge entropy can separately define a central area datum. Proving that one physical wall selects both structures is precisely the missing weld. Gravity is not simply renamed BKM loss.
 
 ## Scope
 
-This construction is **[EXACT FINITE ALGEBRA]** for the displayed type-I inclusion and **[CONJECTURAL WELD]** when extended to physical gravitational cuts.
+This construction is **[EXACT TYPE-I PRODUCT CELL]** for the displayed identity and **[CONJECTURAL WELD]** when extended to physical gravitational cuts.
 
-- Correlated states need not have the product edge form; algebraic conditional entropy can be negative.
+- Correlated states do not obey the constant product-edge budget; algebraic conditional entropy can be negative and the full index capacity belongs to a different theorem.
 - Exact holographic codes are controlled models, not a derivation of the causal wall.
 - Finite index is dimensionless and locally rigid; a physical area density requires a scale-indexed tower and a separately normalized Dirac operator.
 - The final character and persistent record are still supplied only by [[conservation-of-causal-charge/factive-descent-and-records|factive descent and records]].

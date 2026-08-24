@@ -1,6 +1,6 @@
 # Spectral Wall Descent
 
-Spectral wall descent is the proposed algebraic passage from a homogeneous noncommutative spectral datum to a symmetry-broken observable geometry. The construction now has three distinct ledgers: conditional expectation splits retained from erased distinguishability; a finite-index correspondence places gravitational edge entropy in the center of the descended algebra; and a later, generally infinite-index readout produces commutative facts and records. AdS holography calibrates the retained Fisher response against canonical energy, while direct de Sitter type-II algebras can carry observable cosmic geometry. The spectral action and least-action equations remain downstream. The open theorem is an all-patch equality between central edge entropy, horizontal BKM capacity, and independently normalized spectral area—not a conservation of unitary information or a renaming of loss as gravity.
+Spectral wall descent is the proposed algebraic passage from a homogeneous noncommutative spectral datum to a symmetry-broken observable geometry. The construction now has three distinct ledgers: conditional expectation splits retained from erased distinguishability; a finite-index correspondence plus extra expectation and fixed-edge-state data can define a candidate central entropy operator; and a later, generally infinite-index readout produces commutative facts and records. AdS holography calibrates retained Fisher response against canonical energy in a controlled vacuum-ball regime, while direct semiclassical de Sitter type-II constructions supply candidate observable carriers. The spectral action and least-action equations remain downstream. The open theorem is an all-patch equality between central edge entropy, horizontal BKM capacity, and independently normalized spectral area—not a conservation of unitary information or a renaming of loss as gravity.
 
 ## The revised order of construction
 
@@ -79,7 +79,7 @@ $$
 Z_g\,\mathfrak S^*\mathbb G^{\mathrm{grav}}
 $$
 
-is now too strong. Controlled AdS/CFT results identify **retained** regional quantum Fisher information with gravitational canonical energy; the central area term cancels from fixed-code relative entropy. The revised weld has two independent parts:
+is now too strong. For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, controlled results identify **retained** regional quantum Fisher information with gravitational canonical energy. In exact complementary-recovery codes, the fixed central edge term cancels from relative entropy. The revised weld has two independent parts:
 
 $$
 \boxed{
@@ -90,21 +90,21 @@ $$
 
 $$
 \boxed{
-\mathcal L_E(U)
+\mathcal L_\chi(U)
 \stackrel{?}{=}
-\eta_*\mathcal A_D(U)
+\eta_*\mathcal A_D^Z(U)
 \qquad\text{for every admissible patch }U.}
 $$
 
-Here \(\mathcal L_E\) is a central edge-entropy operator and \(\mathcal A_D\) is spectral area with a normalization independent of measured gravity. In a type-I factor cell, the exact capacity balance is
+Here \(\mathcal L_\chi\) is a candidate central operator built from algebraically selected fixed edge states, and \(\mathcal A_D^Z\) is a compatible central spectral-area assignment with normalization independent of measured gravity. In a type-I product cell, the exact debugging identity for the auxiliary tracial expectation is
 
 $$
 \boxed{
 S(\chi)+D(\chi\Vert\tau)
-=\frac12\log\operatorname{Ind}(E_\tau).}
+=\frac12\log\operatorname{Ind}_{W}(E_\tau).}
 $$
 
-Thus central geometric entropy and its distinction from the tracial capacity state are complementary terms in one matched finite model; the code expectation and tracial expectation need not be the same. Gravity is not simply the lost BKM block. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] proves the finite identity, and [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] fixes the holographic typing.
+Thus a chosen product input edge entropy and its distinction from the tracial state partition the erased factor's log-dimension in one matched finite model; this is not the full index capacity, and the code expectation selecting \(\chi\) need not be the tracial expectation. Identifying the fixed code edge operator with gravity remains the independent spectral-area weld. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] proves the scoped identity, and [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] fixes the holographic typing.
 
 ## What persists through symmetry breaking
 
@@ -165,9 +165,9 @@ The finite and spectral calculations establish the following useful facts.
 
 7. One positive singlet repairs a target response matrix if and only if the mismatch is positive semidefinite of rank at most one. [[program-core/singlet-response-completion|The singlet response-completion test]] replaces the claim that an extra scalar “fixes the coupling” by a generalized-eigenvalue and rank test.
 
-8. One positive Gaussian hidden operator produces both the Schur correction and a central log determinant, whose Hessian is the Gaussian Fisher--BKM metric. [[spectral-wall-descent/response-determinant|The response--determinant bridge]] is an exact same-operator relation between upstream response and downstream action.
+8. One background-dependent positive Gaussian hidden operator can produce both the Schur correction and a central log determinant. The negative log determinant has the positive classical Fisher or commutative-BKM Hessian, while the real bosonic effective action uses the opposite sign. [[spectral-wall-descent/response-determinant|The response--determinant bridge]] is a finite same-operator relation between response and downstream action, not a general quantum-BKM theorem.
 
-9. The Majorana cosmological coefficient completes into a positive square plus a central residual. A traceless hyperbolic orbit keeps the spectral Newton coefficient constant while producing an exact \(\operatorname{sech}^2\) deficit. [[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] proves the shape and exposes the remaining amplitude hierarchy.
+9. The Majorana cosmological coefficient completes into a positive square plus an \(R\)-independent residual. The source's fixed-ray minimum is generally anisotropic; a broader project-chosen traceless hyperbolic orbit keeps the spectral Newton coefficient constant while producing an exact \(\operatorname{sech}^2\) deficit. [[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] proves the scoped identities and exposes the remaining amplitude hierarchy.
 
 The finite Majorana block in Connes' Standard Model geometry supplies an additional downstream calculation. [[spectral-wall-descent/majorana-response-jacobian|The Majorana response Jacobian]] shows that one matrix \(M_R\) simultaneously changes the Einstein coefficient, cosmological coefficient, Higgs mass parameter, and seesaw spectrum. This is a genuine shared observable source, not yet the pre-observable common response.
 
@@ -190,4 +190,4 @@ The current result does not derive spacetime from a spectral triple, identify en
 - a central edge entropy has no physical inverse-area value until the cut Dirac operator is independently normalized; and
 - a curvature interpretation requires a constructed connection, transgression, and soldering to tangent geometry.
 
-The research target is therefore [[spectral-wall-descent/scale-correspondence-stack|a scale-indexed correspondence stack]] with a finite-index gravitational expectation, a central edge-state cocycle, and an independently normalized spectral area. It must prove the equality of edge, BKM, and area densities, realize de Sitter causal geometry, and only later supply a commutative character and one-sided record algebra without importing any of them from the desired cosmology.
+The research target is therefore [[spectral-wall-descent/scale-correspondence-stack|a scale-indexed correspondence prestack]] with effective descent still to prove, Q-system or equivalent data for a finite-index candidate gravitational expectation, an algebraically selected central edge-state cocycle, and independently normalized spectral area. It must prove the equality of edge, BKM, and area densities, realize de Sitter causal geometry, and only later supply a commutative character and one-sided record algebra without importing any of them from the desired cosmology.

@@ -1,6 +1,6 @@
 # The Scale-Correspondence Stack
 
-The wall should be modeled as a scale-indexed tower of von Neumann algebras and correspondences whose overlaps glue by Connes fusion. Ordinary stack structure preserves presentations and automorphisms; conditional expectations add the noninvertible descent; a pointed character and a one-sided record semigroup add facthood and ontological time. Keeping these layers separate lets a homogeneous upstream law yield sectoral observable distinctions without treating the final classical spectrum as the substrate.
+The wall should be modeled by a scale-indexed tower of von Neumann algebras and correspondences whose overlaps are intended to glue by Connes fusion. Groupoid-valued presentation stacks preserve presentations and automorphisms; extra Q-system or expectation data add the noninvertible descent; a pointed character and a one-sided record semigroup add facthood and ontological time. Keeping these layers separate lets a homogeneous upstream law yield sectoral observable distinctions without treating the final classical spectrum as the substrate.
 
 ## The object to construct
 
@@ -50,6 +50,8 @@ $$
 
 satisfying the bicategorical associativity coherence.
 
+A bare correspondence does not canonically determine a conditional expectation or a fixed edge state. Each proposed wall cell must additionally carry an explicit inclusion and expectation, a Q-system or Frobenius-algebra object with chosen standard solution, or equivalent data that derive both the completely positive map and its compatible edge state. Fusion coherence of \(X_{21}\) alone does not prove composition of those wall maps.
+
 For a cover \(\{U_i\to U\}\), local algebras, states, spectral data, and overlap correspondences must satisfy effective descent. Until that theorem is proved, \(\mathfrak W\) is a correspondence prestack rather than a completed operator-algebraic stack.
 
 ## Four layers that must not be collapsed
@@ -63,7 +65,7 @@ The construction has four typed layers:
 | observational descent | conditional expectations or declared CP instruments | remove inaccessible distinctions and generate the exact loss block when admissible |
 | facthood and history | a pointed character plus nested record morphisms | select an actual outcome and orient persistent cosmic history |
 
-Stack arrows are invertible. A conditional expectation is generally neither invertible nor a \(*\)-homomorphism. A character may fail to be normal on a diffuse commutative von Neumann algebra. A record inclusion is one-sided. These are not defects in one construction; they are reasons that one categorical layer cannot perform all four jobs.
+Arrows in a groupoid-valued presentation stack are invertible; \(W^*\)-correspondences are generally noninvertible one-morphisms. A conditional expectation is generally neither invertible nor a \(*\)-homomorphism. A character may fail to be normal on a diffuse commutative von Neumann algebra. A record inclusion is one-sided. These are not defects in one construction; they are reasons that one categorical layer cannot perform all four jobs.
 
 ## Homogeneity and observable lumpiness
 
@@ -88,7 +90,7 @@ $$
 \operatorname{Spec}Z(\mathcal M_N(U))
 $$
 
-can therefore be lumpy even when neither the upstream algebra nor its law contains primitive spatial lumps. The distinction arises from central idempotents of a descended context.
+can therefore be sectorally discrete even when neither the upstream algebra nor its law contains primitive atoms. Turning those sector labels into spatial lumpiness additionally requires a localized net, support map, and effective gluing. The algebraic distinction itself arises from central idempotents of a descended context.
 
 This is an algebraic model of the user's proposed appearance:
 
@@ -137,7 +139,7 @@ becomes an additive cocycle only if the edge states satisfy a declared fusion or
 
 ## Realization data are later choices
 
-The correspondence stack is not itself a spacetime. A geometric realization requires at least
+The candidate correspondence prestack is not itself a spacetime. A geometric realization requires at least
 
 $$
 (\mathcal M_N,\omega_N,D_N)
@@ -157,10 +159,11 @@ A physical instance is complete only if it supplies:
 2. the algebras, faithful states, and spectral data on each context;
 3. horizontal correspondences and their fusion coherence;
 4. effective gluing on overlaps;
-5. a modularly admissible finite-index gravitational expectation or a controlled substitute;
-6. the central edge state and its composition law;
-7. spectral area and real-structure data independent of measured gravity;
-8. the later commutative readout, character, and persistent record maps; and
-9. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-matrix|the common response matrix]].
+5. Q-system, inclusion, or standard-solution data deriving each wall expectation;
+6. a modularly admissible finite-index gravitational expectation or a controlled substitute;
+7. the algebraically selected central edge state and its composition law;
+8. spectral area and real-structure data independent of measured gravity;
+9. the later commutative readout, character, and persistent record maps; and
+10. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-matrix|the common response matrix]].
 
 At present this is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces of the proposed object; they do not yet supply a dynamical FLRW instance or effective descent on a physical context site.

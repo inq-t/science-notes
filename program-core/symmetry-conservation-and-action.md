@@ -115,7 +115,7 @@ d(X_{32}\boxtimes X_{21})
 =d(X_{32})d(X_{21}),
 $$
 
-so \(\log d\) is additive under fusion. This is the strongest current candidate for a quantity that remains exact through the wall: it is a monoidal valuation, not a time-conserved Noether charge. With centers, the functorial object is a matrix dimension or the full correspondence. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows how a chosen edge entropy and its distinction from the tracial state partition the tracial capacity in a matched factor cell.
+so \(\log d\) is additive under fusion. This is the strongest current candidate for a quantity that remains exact through the wall: it is a monoidal valuation, not a time-conserved Noether charge. With centers, the functorial object is a matrix dimension or the full correspondence. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] shows, only for a type-I product state and an auxiliary tracial expectation on the same multiplicity factor, how a chosen input edge entropy and its tracial defect partition that factor's log-dimension.
 
 The plausible bridge is a common variational structure:
 
@@ -139,7 +139,7 @@ $$
 The coefficient is supplied separately by the central density equation
 
 $$
-\mathcal L_E(U)=\eta_*\mathcal A_D(U).
+\mathcal L_\chi(U)=\eta_*\mathcal A_D^Z(U).
 $$
 
 Together these can place categorical capacity, quadratic state response, and gravitational Noether structure in one theory without identifying any of them with the linear charge. The density \(\eta_*\) must remain symbolic until the correspondence and spectral area sides are independently calculated.

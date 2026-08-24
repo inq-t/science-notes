@@ -161,7 +161,7 @@ G^{\mathrm{pre}}
 =G^{\mathrm{ret}}+G^{\mathrm{lost}}.
 $$
 
-Holographic relative-entropy results show that the controlled canonical-energy map uses the retained term:
+For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, holographic relative-entropy results show that the controlled canonical-energy map uses the retained term:
 
 $$
 G^{\mathrm{ret}}
@@ -169,16 +169,16 @@ G^{\mathrm{ret}}
 \mathfrak S^*\mathcal E_{\mathrm{can}}^{\mathrm{grav}},
 $$
 
-while the gravitational area term is a separate central operator that cancels from fixed-code relative entropy. The coefficient weld is therefore
+while in exact complementary-recovery code models the edge-area term is a separate central operator that cancels from fixed-code relative entropy. After fixed edge states and compatible central spectral area have been constructed, the coefficient weld is therefore
 
 $$
-\mathcal L_E(U)
+\mathcal L_\chi(U)
 \stackrel{?}{=}
-\eta_*\mathcal A_D(U)
+\eta_*\mathcal A_D^Z(U)
 $$
 
-for every admissible patch, with \(\mathcal A_D\) independently normalized. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives the exact cell identity relating central edge entropy, index capacity, and lost distinction. [[spectral-wall-descent/ads-calibration-and-ds-carrier|The AdS/dS note]] states the retained-response calibration.
+for every admissible patch, with \(\mathcal A_D^Z\) independently normalized. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives an exact product-edge debugging identity for the auxiliary tracial expectation, not a general single-expectation index--area theorem. [[spectral-wall-descent/ads-calibration-and-ds-carrier|The AdS/dS note]] states the retained-response calibration.
 
-This refinement does not make \(G^{\mathrm{lost}}\) irrelevant. It remains the exact BKM cost of the expectation and the entropy gained by coarse graining. In the finite factor cell it complements central geometric entropy inside one index budget. But it is not automatically the gravitational canonical-energy metric.
+This refinement does not make \(G^{\mathrm{lost}}\) irrelevant. It remains the exact BKM cost of the expectation and the entropy gained by coarse graining. In the type-I product cell, the tracial defect complements a separately chosen input edge entropy inside one log-dimension identity. But that edge state need not be selected by the tracial expectation, and the lost block is not automatically the gravitational canonical-energy metric.
 
-A completed construction still requires localization, tangent transport, spectral area, covariance, Ward and Bianchi consistency, soldering, and a noncircular \(\eta_*\). Until those are supplied, \(\Sigma_E\) is lost relative distinction and gained observable entropy, while \(\mathcal L_E\) is only a candidate central geometry.
+A completed construction still requires localization, tangent transport, fixed-edge-state selection, spectral area, covariance, Ward and Bianchi consistency, soldering, and a noncircular \(\eta_*\). Until those are supplied, \(\Sigma_E\) is lost relative distinction and gained observable entropy, while \(\mathcal L_\chi\) is only a candidate central geometry.

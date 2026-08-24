@@ -148,7 +148,7 @@ B^*&L
 =\det L\,\det(G-BL^{-1}B^*).
 $$
 
-Gaussian integration consequently contributes both the retained response correction and a central term \(\tfrac12\log\det L\). After spectral regularization the latter may generate cosmological, Einstein, and higher-curvature coefficients. For an affine positive Gaussian family its Hessian is
+For a constant finite real bosonic block, Gaussian integration contributes the retained response correction while \(\tfrac12\log\det L\) is only an additive normalization. If \(L=L[\bar x,g,\ldots]\) depends on retained backgrounds, its regulated determinant can instead generate cosmological, Einstein, and higher-curvature coefficients. For an affine classical positive Gaussian family, the negative log partition term has Hessian
 
 $$
 \partial_I\partial_J
@@ -160,7 +160,7 @@ L^{-1}\partial_JL
 \right),
 $$
 
-the Gaussian Fisher--BKM metric. [[spectral-wall-descent/response-determinant|The response--determinant note]] develops this exact same-operator bridge and the unresolved regulator normalization.
+the classical Fisher metric, equivalently commutative BKM. The real bosonic effective action contains \(+\tfrac12\log\det L\), whose affine Hessian has the opposite sign. [[spectral-wall-descent/response-determinant|The response--determinant note]] develops this finite same-operator bridge and the unresolved regulator normalization.
 
 ## The same grammar is the seesaw
 

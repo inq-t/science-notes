@@ -43,7 +43,7 @@ $$
 
 where \(a\) is the declared Yukawa trace invariant.
 
-Holding \(a\), \(f_k\), \(\Lambda\), and \(K\) fixed, differentiation gives the **[EXACT RESPONSE JACOBIAN]**
+Holding \(a\), \(f_k\), \(\Lambda\), and \(K\) fixed, formal differentiation in the ambient invariant coordinates gives the **[EXACT AMBIENT RESPONSE JACOBIAN]**
 
 $$
 \boxed{
@@ -58,7 +58,7 @@ $$
 \end{pmatrix}.}
 $$
 
-For a Hermitian variation \(X=\delta R\),
+The coordinates \(c,d,e\) are not independent on the physical locus \(R=M_R^*M_R\). The coordinate Jacobian is therefore an invariant-coordinate calculus, not a free physical variation. For an actual ambient Hermitian variation \(X=\delta R\),
 
 $$
 \delta\kappa_0^{-2}
@@ -89,17 +89,19 @@ $$
 =\frac{f_0}{2\pi^2}\operatorname{Tr}(XY)}
 $$
 
-when \(f_0>0\). This is a Hilbert--Schmidt form on Hermitian matrix variations. It is not the BKM metric unless an additional state-dependent identification is proved.
+when \(f_0>0\). This is a Hilbert--Schmidt form in \(R\)-coordinates. Its pullback through \(M_R\mapsto M_R^*M_R\) is not the same Hessian in \(M_R\)-coordinates, and neither is the BKM metric unless an additional state-dependent identification is proved.
 
 ## Neutrino seesaw from the same block
 
-For one simplified Dirac mass \(m\) and Majorana scale \(M\), the neutrino mass block has eigenvalues of the form
+For one simplified Dirac mass \(m\) and Majorana scale \(M\), the ordinary symmetric \(2\times2\) neutrino mass block has eigenvalues
 
 $$
-\lambda
+\lambda_\pm
 =\frac12
-\left(\pm M\pm\sqrt{M^2+4m^2}\right).
+\left(M\pm\sqrt{M^2+4m^2}\right).
 $$
+
+A doubled spectral Dirac representation may carry the associated opposite-sign partners; those are not four independent sign choices in the \(2\times2\) mass block.
 
 For \(M\gg m\),
 
@@ -124,7 +126,7 @@ This is the strongest calculated opening for a common hidden algebraic source am
 
 The response belongs to the observable spectral action. The source itself discusses fixing the scale of \(M_R\) by minimizing the observable cosmological term. Under the present register order, that minimization cannot be used as a pre-observable necessity.
 
-[[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] completes \(\gamma_0(R)\) into a positive traceless square plus a central residual. It also gives a traceless hyperbolic orbit that leaves \(\kappa_0^{-2}\) fixed while producing an exact \(\operatorname{sech}^2\) spectral deficit. Those are downstream spectral-action identities, not yet the horizontal wall state.
+[[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] completes \(\gamma_0(R)\) into a positive square about \(r\mathbf1\) plus an \(R\)-independent residual. It distinguishes the source's fixed-ray minimization from a project-chosen traceless hyperbolic orbit that leaves \(\kappa_0^{-2}\) fixed while producing an exact \(\operatorname{sech}^2\) spectral deficit. Those are downstream spectral-action identities, not yet the horizontal wall state.
 
 The desired upstream extension would construct a state family \(\rho_R\), calculate its BKM response
 

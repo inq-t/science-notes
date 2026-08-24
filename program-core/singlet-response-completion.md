@@ -4,7 +4,7 @@ A single positive hidden scalar can repair exactly one positive rank-one mismatc
 
 ## Universal response is an eigenvalue condition
 
-Let \(W\) be the physical common-response matrix on a finite-dimensional tangent sector, and let \(K>0\) be a unit-normalized gravitational canonical-energy matrix pulled back to the same tangent space. A universal coupling means
+Let \(W=W^T\) be the real symmetric physical common-response matrix on a finite-dimensional, nondegenerate gauge-quotiented tangent sector, and let \(K=K^T>0\) be a unit-normalized gravitational canonical-energy matrix pulled back to that same sector. A universal coupling means
 
 $$
 \boxed{W=Z_gK}
@@ -45,7 +45,7 @@ On a one-dimensional tangent, some ratio \(Z_g\) always exists. A one-channel ma
 
 ## One positive singlet
 
-Let \(x\) denote the retained response coordinates and \(s\) one hidden scalar. Consider
+Let \(W_0=W_0^T\) and let \(x\) denote the retained real response coordinates and \(s\) one hidden real scalar. Consider
 
 $$
 \mathscr I(x,s)
@@ -97,6 +97,8 @@ $$
 \Delta=\lambda uu^T,
 \qquad
 \lambda\geq0,
+\qquad
+\lVert u\rVert=1,
 $$
 
 then any \(L>0\) and
@@ -113,7 +115,7 @@ This is the **[EXACT RANK-ONE COMPLETION THEOREM]**.
 
 [[spectral-wall-descent/twist-fixed-point-wall|The twisted fixed-point wall]] supplies a twist-odd Majorana singlet and an observable spectral stiffness. [[spectral-wall-descent/response-determinant|The response--determinant bridge]] explains how its hidden operator could affect both response and the observable action.
 
-For that singlet to complete the gravitational coupling, one must calculate on the same physical tangent space:
+No such common-tangent response block has yet been extracted from the Connes model. For that singlet to complete the gravitational coupling, one must calculate on the same physical tangent space:
 
 $$
 W_0,
@@ -132,7 +134,7 @@ W_0-Z_gK
 =\frac{b_\sigma b_\sigma^T}{L_\sigma}.
 $$
 
-The published fact that a singlet improves the Higgs mass and vacuum stability does not establish this identity. The theorem says why one singlet is structurally germane: it can impose one missing response relation. It also says exactly when it cannot.
+The published Higgs--singlet mixing matrix is not automatically the displayed response block, and the fact that a singlet improves the Higgs mass and vacuum stability does not establish this identity. The theorem says only what one real hidden scalar could cancel: a positive mismatch of rank at most one. It also says exactly when it cannot.
 
 If the defect is
 
@@ -157,7 +159,7 @@ Z_{\mathrm{spec}}
 =\frac{96f_2\Lambda^2-f_0c}{24\pi^2}.
 $$
 
-The candidate closure equation is therefore
+Here \(Z_{\mathrm{spec}}\) is a bare cutoff-scale coefficient. It can be identified with a common-response target only if \(K\) is the gauge-quotiented second variation or canonical energy of the unit-coefficient Einstein--Hilbert functional in the same signature, background, boundary convention, and field normalization. Subject to that convention weld, the candidate closure equation is
 
 $$
 \boxed{
@@ -165,7 +167,7 @@ $$
 =Z_{\mathrm{spec}}\mathbf1.}
 $$
 
-This would weld the common response to the observable spectral Einstein coefficient. It would still not numerically derive \(G\), because \(f_2\), \(\Lambda\), and \(c\) remain inputs unless the upstream algebra fixes them independently.
+This would weld the common response to the bare observable spectral Einstein coefficient. It would still not numerically derive the infrared \(G\), because \(f_2\), \(\Lambda\), and \(c\) remain inputs unless the upstream algebra fixes them independently, and renormalization-group transport remains to be controlled.
 
 ## Test protocol
 

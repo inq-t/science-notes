@@ -350,6 +350,14 @@ def check_twisted_fixed_point_wall() -> None:
     assert np.allclose(projected, tracial, atol=TOL)
     assert np.allclose(twist(q), -q, atol=TOL)
 
+    # This is a binary swap toy for the reduced involution, not the full
+    # represented grand-algebra twist. It also checks the published D_R-weighted
+    # form of the scalar defect after reduction to this toy sector.
+    sigma = np.eye(2) + phi * q
+    d_r = np.diag([2.3, 1.4]).astype(complex)
+    spectral_defect = (sigma - twist(sigma)) @ d_r
+    assert np.allclose(spectral_defect, 2.0 * phi * q @ d_r, atol=TOL)
+
     defect = relative_entropy(state, tracial)
     defect_exact = theta * math.tanh(theta) - math.log(math.cosh(theta))
     assert abs(defect - defect_exact) < TOL
@@ -370,7 +378,7 @@ def check_twisted_fixed_point_wall() -> None:
     hessian_exact = 1.0 / math.cosh(theta) ** 2
     assert abs(hessian_fd - hessian_exact) < 2.0e-6
 
-    print("twisted fixed-point wall: PASS")
+    print("binary reduced-twist toy: PASS")
     print(f"  twist entropy defect    = {defect:.12f}")
     print(f"  binary BKM response     = {hessian_exact:.12f}")
 
@@ -393,13 +401,19 @@ def check_index_edge_balance() -> None:
     edge_defect = float(
         np.sum(probabilities * np.log(probabilities / tracial_probabilities))
     )
-    capacity = 0.5 * math.log(dimension**2)
-    assert abs(edge_entropy + edge_defect - capacity) < TOL
+    edge_log_dimension = 0.5 * math.log(dimension**2)
+    assert abs(edge_entropy + edge_defect - edge_log_dimension) < TOL
 
-    print("finite-index edge balance: PASS")
+    # The expectation selected by this nontracial edge state has a different
+    # Watatani index; it must not be conflated with the tracial expectation.
+    selected_state_index = float(np.sum(1.0 / probabilities))
+    assert abs(0.5 * math.log(selected_state_index) - edge_log_dimension) > 1.0e-3
+
+    print("type-I product-edge identity: PASS")
     print(f"  edge entropy            = {edge_entropy:.12f}")
     print(f"  erased distinction      = {edge_defect:.12f}")
-    print(f"  half log index          = {capacity:.12f}")
+    print(f"  tracial half log index  = {edge_log_dimension:.12f}")
+    print(f"  selected-state index    = {selected_state_index:.12f}")
 
 
 def positive_inverse_square_root(matrix: np.ndarray) -> np.ndarray:
@@ -433,7 +447,7 @@ def check_singlet_response_completion() -> None:
     )
     assert abs(determinant_ratio - coupling_value) < TOL
 
-    print("singlet response completion: PASS")
+    print("rank-one completion lemma (constructed sufficiency): PASS")
     print(f"  generalized eigenvalues = {np.linalg.eigvalsh(ratio)}")
 
 
@@ -460,6 +474,9 @@ def check_response_determinant() -> None:
         assert sign > 0.0
         return -0.5 * log_determinant
 
+    def bosonic_effective_action(x_value: float, y_value: float) -> float:
+        return -gaussian_potential(x_value, y_value)
+
     step = 2.0e-4
     hessian_fd = (
         gaussian_potential(step, step)
@@ -469,8 +486,17 @@ def check_response_determinant() -> None:
     ) / (4.0 * step**2)
     assert abs(hessian_fd - hessian_exact) < 2.0e-8
 
-    print("response determinant: PASS")
-    print(f"  mixed Gaussian Hessian  = {hessian_exact:+.12f}")
+    action_hessian_fd = (
+        bosonic_effective_action(step, step)
+        - bosonic_effective_action(step, -step)
+        - bosonic_effective_action(-step, step)
+        + bosonic_effective_action(-step, -step)
+    ) / (4.0 * step**2)
+    assert abs(action_hessian_fd + hessian_exact) < 2.0e-8
+
+    print("finite real response determinant: PASS")
+    print(f"  positive Fisher Hessian = {hessian_exact:+.12f}")
+    print(f"  bosonic action Hessian  = {action_hessian_fd:+.12f}")
 
 
 def check_majorana_square_and_pulse() -> None:
@@ -510,6 +536,28 @@ def check_majorana_square_and_pulse() -> None:
     )
     assert abs(kappa_inverse - kappa_exact) < TOL
 
+    # The source varies a fixed ray M_R=x k_R, hence R=x^2 A. This generally
+    # does not reach the unrestricted matrix minimizer r I.
+    ray_shape = np.diag([1.0, 2.0, 4.0])
+    trace_a = np.trace(ray_shape).real
+    trace_a_squared = np.trace(ray_shape @ ray_shape).real
+    n_effective = trace_a**2 / trace_a_squared
+    x_squared_stationary = radius * trace_a / trace_a_squared
+    ray_stationary = x_squared_stationary * ray_shape
+    assert not np.allclose(ray_stationary, stationary, atol=TOL)
+    gamma_ray_residual = cutoff**4 * (
+        48.0 * f4 - n_effective * f2**2 / f0
+    ) / math.pi**2
+    assert abs(gamma_direct(ray_stationary) - gamma_ray_residual) < TOL
+    kappa_ray = (
+        96.0 * f2 * cutoff**2 - f0 * np.trace(ray_stationary).real
+    ) / (12.0 * math.pi**2)
+    kappa_ray_exact = (
+        (48.0 - n_effective) * f2 * cutoff**2
+        / (6.0 * math.pi**2)
+    )
+    assert abs(kappa_ray - kappa_ray_exact) < TOL
+
     q_matrix = np.diag([1.0, -1.0, 0.0])
     q_squared_trace = np.trace(q_matrix @ q_matrix).real
     orbit_amplitude, width, center = 0.12 * radius, 1.3, -0.2
@@ -533,15 +581,16 @@ def check_majorana_square_and_pulse() -> None:
         assert np.min(np.linalg.eigvalsh(orbit)) > 0.0
     assert np.allclose(traces, generation_count * radius, atol=TOL)
 
-    print("Majorana square and pulse: PASS")
-    print(f"  central residual        = {gamma_residual:.12f}")
-    print(f"  stationary kappa^-2     = {kappa_inverse:.12f}")
+    print("Majorana source ray and project pulse: PASS")
+    print(f"  unrestricted residual   = {gamma_residual:.12f}")
+    print(f"  source-ray n_eff        = {n_effective:.12f}")
+    print(f"  source-ray kappa^-2     = {kappa_ray:.12f}")
 
 
 def check_affine_ads_atlas() -> None:
     for n_value in (-1.2, 0.0, 0.9):
-        warp = math.exp(-n_value)
-        warp_second = math.exp(-n_value)
+        warp = math.exp(n_value)
+        warp_second = math.exp(n_value)
         gaussian_curvature = -warp_second / warp
         assert abs(gaussian_curvature + 1.0) < TOL
 

@@ -118,11 +118,11 @@ Thus the same determinant datum supports a positive state geometry and a downstr
 
 $$
 \boxed{
-\text{upstream positive state geometry}
-\xleftarrow{\ \operatorname{Hess}\ }
--\frac12\log\det L
-\xrightarrow{\ \text{regularized local expansion}\ }
-\text{observable action}.}
+g^{\mathrm F}
+=-\operatorname{Hess}\Gamma_{\det}^{\mathrm{bos}},
+\qquad
+\Gamma_{\det}^{\mathrm{bos}}
+=+\frac12\log\det L[\bar x].}
 $$
 
 The arrow to an observable action is a consumer map. Least action may govern the resulting fields without being the principle that first selected \(L\), the wall, or the state family.
@@ -151,7 +151,7 @@ The determinant bridge is consequently stronger than a verbal analogy but weaker
 
 ## Relation to the singlet
 
-If \(L=L_\sigma\) is the positive fluctuation operator of a central or gauge-singlet normal mode, then one hidden ingredient can simultaneously
+If an actual background-dependent \(L=L_\sigma\) is derived as the positive fluctuation operator of a central or gauge-singlet normal mode, then one hidden ingredient could simultaneously
 
 1. repair a rank-one mismatch in the retained common response through its Schur complement;
 2. contribute an Einstein and cosmological coefficient through its determinant; and
@@ -161,7 +161,7 @@ If \(L=L_\sigma\) is the positive fluctuation operator of a central or gauge-sin
 
 ## Failure conditions
 
-- If \(L\) is not positive on the physical Euclidean sector, the Gaussian BKM metric and stable elimination do not exist as written.
+- If \(L\) is not positive on the physical Euclidean sector, the classical Gaussian Fisher metric and stable elimination do not exist as written.
 - If the hidden state is non-Gaussian, the determinant does not contain the full effective action or response.
 - If the response and determinant use independently chosen operators or regulators, the claimed common source has disappeared.
 - Equality of finite classical Gaussian Hessians does not prove a quantum BKM identity, covariance, locality, or universality in the continuum wall theory.

@@ -266,10 +266,11 @@ B^*&L
 =\det L\,\det(G-BL^{-1}B^*).
 $$
 
-The Schur term changes retained precision, while \(\tfrac12\log\det L\) contributes a central effective action. In a positive Gaussian family,
+The Schur term changes retained precision. For a constant finite real bosonic \(L\), \(\tfrac12\log\det L\) is only a normalization; if \(L=L[\bar x,g,\ldots]\) depends on retained backgrounds, its regulated determinant contributes a central effective action. In the corresponding classical positive Gaussian family,
 
 $$
-g_{IJ}^{\mathrm{BKM}}
+g_{IJ}^{\mathrm{F}}
+=g_{IJ}^{\mathrm{BKM,comm}}
 =\frac12\operatorname{Tr}
 \left(
 L^{-1}\partial_IL
@@ -279,7 +280,7 @@ L^{-1}\partial_JL
 \left[-\frac12\log\det L\right].
 $$
 
-[[spectral-wall-descent/response-determinant|The response--determinant bridge]] develops this exact same-operator relation and its regulator dependence.
+The real bosonic action contains the opposite sign \(+\tfrac12\log\det L\), so its affine Hessian is \(-g^{\mathrm F}\). [[spectral-wall-descent/response-determinant|The response--determinant bridge]] develops this finite same-operator relation, convention ledger, and regulator dependence.
 
 One positive hidden scalar has a sharp completion power. For a fixed target \(Z_gK\), it can change \(W_0\) into \(Z_gK\) if and only if
 
@@ -325,7 +326,7 @@ $$
 
 where the final term is exactly \(S(E\rho)-S(\rho)\). Observation loses relative distinction and gains entropy in the unconditioned observable law.
 
-Controlled holographic calibration refines the gravitational typing. The retained regional block, not automatically the lost block, maps to canonical energy:
+For perturbations of a vacuum CFT ball and its leading classical or semiclassical AdS Rindler-wedge dual, controlled holographic calibration refines the gravitational typing. The retained regional block, not automatically the lost block, pulls back to canonical energy:
 
 $$
 \boxed{
@@ -338,12 +339,12 @@ The gravitational coefficient is instead sought in the central operator identity
 
 $$
 \boxed{
-\mathcal L_E(U)
+\mathcal L_\chi(U)
 \stackrel{?}{=}
-\eta_*\mathcal A_D(U).}
+\eta_*\mathcal A_D^Z(U).}
 $$
 
-[[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] relates \(\mathcal L_E\) to edge entropy and index capacity, while [[deriving-value-of-g/spectral-index-area-route|the spectral index--area route]] states the all-patch density theorem. Until localization, area normalization, covariance, soldering, and universality are supplied, the retained and lost blocks remain information geometry and \(\mathcal L_E\) remains only candidate central geometry.
+[[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives a scoped type-I product-edge identity and keeps the auxiliary tracial expectation distinct from the code expectation selecting \(\chi\). [[deriving-value-of-g/spectral-index-area-route|The spectral index--area route]] states the all-patch density target. Until edge-state selection, localization, area normalization, covariance, soldering, and universality are supplied, the retained and lost blocks remain information geometry and \(\mathcal L_\chi\) remains only candidate central geometry.
 
 Nor is ontological time another addend. Its candidate mathematical form remains the orientation of persistent record inclusions,
 

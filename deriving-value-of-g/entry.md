@@ -1,6 +1,6 @@
 # Deriving the Value of G
 
-Newton's constant can be read as geometric compliance, proportional to the inverse of a universal entropy modulus per causal area. The construction now has a concrete algebraic route: a finite-index gravitational correspondence supplies a central edge-entropy operator, a cut spectral triple supplies area, and a same-tangent theorem must identify that edge density with the horizontal BKM density. In a matched factor cell, a chosen edge entropy plus its distinction from the tracial edge state equals half the log tracial index; the physical normalization of the Dirac operator and the all-patch density equality remain open. The programme therefore explains the type of object that can determine \(G\) without yet producing its measured magnitude.
+Newton's constant can be read as geometric compliance, proportional to the inverse of a universal entropy modulus per causal area. The construction now has a concrete algebraic route: a finite-index gravitational correspondence together with extra expectation and fixed-edge-state data can supply a candidate central entropy operator, while a cut spectral triple supplies area and a same-tangent theorem must identify that edge density with the horizontal BKM density. In a type-I product cell, a chosen input edge entropy plus its distinction from the tracial edge state equals half the Watatani log index of an auxiliary tracial expectation; the state selection, physical normalization of the Dirac operator, and all-patch density equality remain open. The programme therefore explains the type of object that can determine \(G\) without yet producing its measured magnitude.
 
 The cited papers, data table, and arXiv source bundles are mirrored in [[deriving-value-of-g/sources/entry|the local source library]]; remote origins and immutable checksums are recorded there.
 
@@ -167,7 +167,7 @@ $$
 (\mathcal A_\Sigma,\omega_{\Sigma,N},\text{horizontal correspondence})
 \longrightarrow
 \left(
-G^{\perp}_{NN},\mathcal L_E,A_D
+G^{\perp}_{NN},\mathcal L_\chi,A_D
 \right)
 \longrightarrow
 \frac{\mathrm d\mu_{\mathrm{BKM}}^\perp}{\mathrm d\mu_{A,D}}
@@ -195,7 +195,7 @@ S(\chi)+D(\chi\Vert\tau)
 =\frac12\log\operatorname{Ind}(E_\tau),
 $$
 
-so central geometric entropy and its tracial defect partition one reference algebraic capacity. If a cell has independently derived spectral area \(a_*\) and edge entropy \(s_*\), then
+for \(E_\tau\) and a product state on the same multiplicity factor. This partitions the factor's log-dimension between the chosen input edge entropy and its tracial defect; it is not the full subalgebra-relative-entropy capacity and does not make \(E_\tau\) select \(\chi\). If a cell has independently derived spectral area \(a_*\) and algebraically selected edge entropy \(s_*\), then
 
 $$
 \boxed{
@@ -240,7 +240,7 @@ $$
 | Conditional established route | Universal local horizon entropy density plus equilibrium, Unruh, focusing, and conservation implies the Einstein equation with \(G=c^3/(4\hbar\eta_{\mathrm E})\) |
 | Exact after a valid state family is supplied | The coincidence Hessian of relative entropy defines a BKM quadratic form; dividing an extensive norm by a declared area defines \(\chi_{\downarrow}\) |
 | Noether-grounded conditional theorem | A unit escort tangent in a homogeneous \(1+1\) conformal thermal wall gives \(G^{\perp}_{NN}=C_E=S/k_B\), hence \(\mathfrak R_c=1\) |
-| Exact matched-cell theorem | A chosen type-I edge entropy plus its distinction from the tracial edge state equals half the log index of the tracial expectation |
+| Exact type-I product-cell theorem | A chosen product input edge entropy plus its distinction from the tracial state equals half the Watatani log index of the auxiliary tracial expectation on the same multiplicity factor |
 | Central spectral-area theorem target | The edge operator and horizontal BKM measure have one universal density with respect to independently normalized spectral area on every admissible patch |
 | Causal-scale physical principle | \(\mathfrak R_c=1\) at a self-dual causal wall |
 | Central conjectural weld | The causal-scale BKM modulus is the finite universal entropy--area modulus relevant to local gravitational focusing |
