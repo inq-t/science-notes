@@ -1,6 +1,6 @@
 # Factive Descent and Records
 
-The factive-descent conjecture adds the structure missing between a contextual probability law and an actual, persistent fact. The full reversible state may admit a charge-preserving dilation, while the accessible description follows a one-sided instrument or endomorphism semigroup and deposits charge in records or an inaccessible complement. This is the prospective meaning of conservation “through collapse.”
+The factive-descent conjecture adds the structure missing between a contextual probability law and an actual, persistent fact: a context, instrument, obtained value, stable record, and one-sided extension law. No reversible dilation or hidden complementary reservoir is assumed. A dilation may represent the instrument mathematically, but only a separately constructed common action and moment map could place state, geometry, records, and wall flux in one charge balance.
 
 ## The missing map
 
@@ -35,9 +35,9 @@ A minimal fact-forming model should specify
 
 The instrument calculates outcome weights and conditional states. Declaring that one outcome occurs is still an ontological input unless the theory supplies an actuality rule. The role of the conjecture is to make that remaining input explicit and constrain its physical consequences, not hide it inside probability notation.
 
-## Enlarged conservation and accessible contraction
+## Contraction does not imply a hidden reservoir
 
-Suppose the accessible instrument is the restriction of a reversible or charge-preserving dynamics on an enlarged state--record--residual system. Then accessible relative distinguishability may contract,
+Accessible relative distinguishability may contract,
 
 $$
 D(\omega\Vert\varphi)
@@ -45,30 +45,49 @@ D(\omega\Vert\varphi)
 D(\mathcal E\omega\Vert\mathcal E\varphi),
 $$
 
-while [[relative-distinguishability-deficit|the deficit]] is represented in complementary correlations, edge modes, geometry, or records. The causal-charge balance would take the form
+but [[relative-distinguishability-deficit|the deficit]] is a relational measure of distinctions not retained by the chosen channel. Data processing does not prove that the deficit is stored in complementary correlations, edge modes, geometry, or records. Under the stronger conditional-expectation hypotheses, the retained and lost BKM blocks have intrinsic formulas; neither is thereby a Noether charge.
+
+Only if [[causal-individuation-balance|one common causal action and moment map]] are independently constructed may the factual process admit a flux balance of the form
 
 $$
 \boxed{
-\Delta Q_{\mathrm{accessible}}
+\Delta Q_{\mathrm{state+matter}}
 +\Delta Q_{\mathrm{record}}
-+\Delta Q_{\mathrm{residual}}
++\Delta Q_{\mathrm{grav}}
 +\mathcal F_{\mathrm{wall}}
 =0.
 }
 $$
 
-Here \(\mathcal F_{\mathrm{wall}}\) is charge flux through the remaining boundary of the chosen subsystem. This is not conservation of relative entropy. Relative entropy supplies one response measure; the conserved quantity is the common symmetry charge postulated in [[causal-individuation-balance]].
+This is an **[OPEN CONDITIONAL SPECIALIZATION]**. Here \(\mathcal F_{\mathrm{wall}}\) is charge flux through the remaining boundary of the chosen subsystem. The construction must place every term in one dual Lie algebra, prevent matter or edge data from being counted twice, and derive the balance from the common symmetry. It is not conservation of relative entropy and is not required in order for noninvertible loss to be real.
 
-## Group outside, semigroup inside
+## A one-sided process need not hide a group
 
-The enlarged reversible system may carry a group action while the accessible algebra sees only a one-sided semigroup. Half-sided modular inclusion gives a rigorous example of an ambient automorphism group inducing one-sided inclusions, although it does not yet model factual outcomes. [[sufficient-reason/algebraic-arrow-of-time|The algebraic arrow of time]] explains why many-to-one restriction alone is not a temporal arrow.
+The accessible algebra may carry a genuinely one-sided semigroup or record-extension category without being declared the restriction of an ontic reversible group. Half-sided modular inclusion gives one rigorous example in which an ambient automorphism group induces one-sided inclusions, but it is a candidate construction, not a universal explanation of factual outcomes. [[sufficient-reason/algebraic-arrow-of-time|The algebraic arrow of time]] explains why many-to-one restriction alone is not a temporal arrow.
 
-For records, require a family of accessible algebras or subalgebras \(\mathcal R_N\) such that later evolution preserves earlier record content in the declared direction. A common cosmic history further requires compatibility across observers, not merely monotonicity in one observer's algebra.
+For records, require a directed family of commutative unital (C^*)-record algebras, or atomic von Neumann algebras when normal operational states are essential,
+
+$$
+\mathcal R_{N_1}
+\xhookrightarrow{}
+\mathcal R_{N_2}
+\xhookrightarrow{}
+\cdots,
+$$
+
+together with compatible realized characters
+
+$$
+\chi_{N_2}|_{\mathcal R_{N_1}}
+=\chi_{N_1}.
+$$
+
+Proper inclusion expresses new record capacity; character compatibility expresses persistence of the actual earlier values. A common cosmic history further requires these inclusions and characters to glue across observers, not merely to be monotone in one observer's algebra. [[program-core/record-scale-soldering|Record--scale soldering]] states the additional theorem needed before this order may be identified with increasing cosmic scale.
 
 ## Factual symmetry reduction
 
-A fact can select a local section and thereby reduce manifest symmetry while the enlarged charge and presentation groupoid remain equivariant. The conjecture is therefore not that factual outcomes preserve every symmetry of their state. It is that the symmetry-breaking selection has a complete charge-and-record accounting in the enlarged causal structure.
+A fact can select a local section and thereby reduce manifest symmetry while the presentation groupoid and any independently constructed common charge law remain equivariant. The conjecture is therefore not that factual outcomes preserve every symmetry of their state. It is that the symmetry-breaking selection has a complete record accounting and, where the optional charge structure exists, a well-typed flux accounting in the common causal structure.
 
 ## Failure conditions
 
-The conjecture fails if no physically distinguished context or instrument exists; if the “record” is not dynamically stable; if different observers cannot glue their record orientations; if no complementary sector closes the balance; if the proposed charge changes under a mere presentation change; or if actual pointing remains an unexplained label with no observable consequences beyond the original probability measure.
+The conjecture fails if no physically distinguished context or instrument exists; if no rule or primitive datum supplies an obtained value; if the “record” is not dynamically stable; if different observers cannot glue their record orientations; or if actual pointing remains an unexplained label with no observable consequences beyond the original probability measure. A proposed charge specialization additionally fails if it changes under a mere presentation change, lacks one common moment map, or double-counts sectors; failure of that optional charge law does not by itself erase the factive-record construction.

@@ -1,6 +1,6 @@
 # Contextual Descent from a Homogeneous Algebra
 
-A pre-observable algebra need not contain a lumpy space whose irregularities are later copied into observation. A more precise possibility is that the algebra, its law, or its invariant class is homogeneous, while observational differentiation enters through its representation, state, Dirac or modular data, commutative readout contexts, and eventual factual pointing. On this reading, nonconstant observable fields are residues of descent into distinguishable contexts, not proof of an intrinsically inhomogeneous substrate.
+A pre-observable algebra need not contain a lumpy space whose irregularities are later copied into observation. A more precise possibility is that the algebra, its law, or its invariant class is homogeneous, while observational differentiation enters through its representation, state, Dirac or modular data, commutative readout contexts, and eventual factual pointing. On this reading, nonconstant observable fields arise through contextual realization rather than proving an intrinsically inhomogeneous substrate. Calling that realization strict descent additionally requires a declared site, cocycle data, and an effectivity theorem.
 
 ## What the claim means
 
@@ -173,7 +173,7 @@ $$
 \end{aligned}}
 $$
 
-The first arrow is the mathematical descent pursued here. The second produces observational covariance and response. The dashed arrow is factive descent and remains open in [[conservation-of-causal-charge/factive-descent-and-records|the record construction]]. Calling the first two arrows “observation” must not hide the third.
+The first arrow is a contextual or spectral realization map. It becomes mathematical descent only after its readout family is organized over a declared site with overlap comparisons, cocycle coherence, and effectivity. The second produces a law of observational covariance and response. The dashed arrow is factual selection with persistent record extension and remains open in [[conservation-of-causal-charge/factive-descent-and-records|the record construction]]. Calling the first two arrows “observation” must not hide the third.
 
 ## Upgrade and failure conditions
 

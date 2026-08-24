@@ -95,11 +95,21 @@ Cosmic age, Weyl scale, modular parameter, and RG scale are not interchangeable.
 
 ## Construction trunk and promotion branches
 
+The causal-response trunk has three algebraic preconditions owned by [[algebra/theorem-programme|the algebra-to-cosmos programme]]:
+
+| Algebraic gate | Required result | What it promotes | What failure means |
+|---|---|---|---|
+| T0 | declared scalar, operation, tensor, equivalence, and positivity doctrine | “pure algebra” to a typed foundational category | the proposed foundation is underspecified |
+| T1 | generalized discernment, a staged consequence family, a declared site, and induced probes separating the effective quotient | identity-of-indiscernibles reasoning to a noncircular kernel pair | point-counting, locality, or the quotient presupposes downstream consumers |
+| T2 | ambient process category, reversible presentation core, and effective descent wherever claimed | local-presentation language to a descent problem | category, groupoid, stack, and process were conflated |
+
+These gates need not be solved for the response branch to function constitutively on imported inputs. They must be solved before that branch is called a derivation of geometry or physics from pure algebra.
+
 The common constitutive trunk is sequential:
 
 | Gate | Required result | What it promotes | What failure means |
 |---|---|---|---|
-| C0 | declared presentations and observable family | metaphysical vocabulary to a typed kinematic question | the proposed quotient is undefined |
+| C0 | declared causal-scale presentations and current observable stage \(\mathcal O_i\) | metaphysical vocabulary to a typed kinematic question | the proposed quotient is undefined |
 | C1 | groupoid or comparable physical quotient | redundancy claim to a mathematical object | declared indiscernibility was incomplete or incoherent |
 | C2 | cross-fiber transport and canonical \(v_N\) | scale/state analogy to a physical tangent | no invariant horizontal comparison |
 | C3 | finite positive BKM form | tangent to response geometry | selected state family or renormalization fails |

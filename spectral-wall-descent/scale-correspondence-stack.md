@@ -4,11 +4,11 @@ The wall should be modeled by a scale-indexed tower of von Neumann algebras and 
 
 ## The object to construct
 
-Let \(\mathsf{Ctx}\) be a site of admissible causal contexts and \(\mathsf{Scale}\) an ordered category of scale comparisons. The proposed carrier is a pseudofunctor
+Let \(\mathsf{Ctx}\) be a site of admissible causal contexts and \(\mathsf{Scale}\) an ordered category of scale comparisons. The proposed correspondence provider is a pseudofunctor
 
 $$
 \boxed{
-\mathfrak W:
+\mathfrak X_{\mathrm{corr}}:
 \mathsf{Scale}
 \longrightarrow
 \operatorname{PSt}
@@ -18,6 +18,15 @@ $$
 $$
 
 where \(\mathbf{W^*Corr}\) is the bicategory whose objects are von Neumann algebras, whose one-morphisms are correspondences, and whose composition is Connes fusion.
+
+The symbol \(\mathfrak W\) is reserved for the full canonical package in [[wall-construction-interface/entry|the wall-construction interface]]. A completed wall package has a correspondence projection
+
+$$
+U_{\mathrm{corr}}(\mathfrak W)
+=\mathfrak X_{\mathrm{corr}},
+$$
+
+but there is no automatic inverse: regions, cuts, observable contexts, source families, state-selection data, and physical quotients must be added and shown compatible before a correspondence prestack realizes the full interface.
 
 Concretely, it must supply
 
@@ -77,7 +86,7 @@ $$
 
 This is an equivalence between **inclusion plus chosen expectation** and Q-system, not between a bare correspondence and an expectation. Standard solutions recover the minimal expectation; calling that choice canonical additionally requires hypotheses such as a connected inclusion with finite-dimensional centers. With infinite centers, even minimal expectations need not be unique. Once \(E\) is fixed, its restriction to the relative commutant selects the sector edge states used by the central entropy operator. Finite index alone does not select them.
 
-For a cover \(\{U_i\to U\}\), local algebras, states, spectral data, and overlap correspondences must satisfy effective descent. Until that theorem is proved, \(\mathfrak W\) is a correspondence prestack rather than a completed operator-algebraic stack.
+For a cover \(\{U_i\to U\}\), local algebras, states, spectral data, and overlap correspondences must satisfy effective descent. Until that theorem is proved, \(\mathfrak X_{\mathrm{corr}}\) is a correspondence prestack rather than a completed operator-algebraic stack.
 
 ## Four layers that must not be collapsed
 

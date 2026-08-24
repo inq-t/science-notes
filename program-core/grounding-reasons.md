@@ -4,7 +4,7 @@ The programme is governed by a demand for sufficient reason, but that demand is 
 
 ## GR0 — The object of inquiry
 
-A **cosmos** is a fact-bearing causal arena: a coherent whole in which distinctions can be situated, related, recorded, and ordered into a history. This definition makes the object of cosmology stronger than a solution of local field equations. A collection of locally valid physical fibers is not yet one cosmos until their comparisons, compatibility, facts, and records belong to one coherent structure.
+A **cosmos** is a fact-bearing coherent arena in which distinctions can be situated, related, recorded, and ordered into a history. A completed physical cosmos has causal order, but the algebraic pre-core treats that order and its orientation as constructions rather than smuggling them into the word *arena*. This defines the target type of a realized cosmos; it does not derive the directed relation or its factual interpretation. This definition makes the object of cosmology stronger than a solution of local field equations. A collection of locally valid physical fibers is not yet one cosmos until their comparisons, compatibility, facts, and records belong to one coherent structure.
 
 This is the programme-level meaning developed by [[cosmodynamics/cosmos-as-structure-of-facts|the cosmos as a structure of facts]]. It does not imply that the local mechanics of GR or QFT must emerge from more primitive equations. They may be imported as local fibers while the programme studies their common arena and global compatibility.
 
@@ -40,12 +40,12 @@ A measure can represent accessible statistical structure without actualizing one
 
 ## GR2 — Existence is cheaper than difference
 
-A one-point set is nonempty and has a unique point. That establishes neither a physically realized fact nor a fact-bearing cosmos. The sharper foundational question is why the observational quotient has more than one point, why its distinctions cannot all be jointly resolved, and why their resolution has an orientation. These are three questions:
+A one-point set is nonempty and has a unique point. That establishes neither a physically realized fact nor a fact-bearing cosmos. Ordinary point-counting is also too coarse: \(\operatorname{Spec}k[\epsilon]/(\epsilon^2)\) has one underlying point with nontrivial infinitesimal structure, while a stack \(BG\) can have one coarse point and nontrivial stabilizers. The sharper foundational question is why the object is nonterminal or noncontractible under a declared separating family of generalized probes, why its distinctions cannot all be jointly resolved, and why their factual resolution has an orientation. These are three questions:
 
 $$
-\text{plurality}
+\text{generalized discernment}
 \longrightarrow
-\text{non-simultaneity}
+\text{incompatibility or non-simultaneity}
 \longrightarrow
 \text{orientation}.
 $$

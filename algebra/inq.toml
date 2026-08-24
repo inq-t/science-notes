@@ -1,0 +1,4 @@
+[module]
+name = "algebra"
+entry = "entry.md"
+include = ["**/*.md"]

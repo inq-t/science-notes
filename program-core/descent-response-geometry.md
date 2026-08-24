@@ -1,6 +1,6 @@
 # Descent-Response Geometry
 
-The proposed mathematical bottom of the programme is a positive, localized response geometry on the physical horizontal quotient. Its primary object is a measure-valued bilinear form; the scalar areal modulus used in homogeneous cosmology is a contraction and average of that richer object.
+The proposed mathematical bottom of the causal-response branch is a positive, localized response geometry on the physical horizontal quotient. It begins after algebra, state, causal cut, scale, transport, differentiability, and a prospective area carrier have been supplied. Its primary object is a measure-valued bilinear form; the scalar areal modulus used in homogeneous cosmology is a contraction and average of that richer object.
 
 ## The state bundle is an open construction
 

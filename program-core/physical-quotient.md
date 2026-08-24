@@ -1,6 +1,6 @@
 # The Physical Quotient
 
-The first exact construction in the programme is an observational quotient indexed by a declared family of discernment maps. The physically adequate object may be a quotient space, groupoid, or stack; retaining arrows and stabilizers is essential whenever comparison and gluing data carry information that invariant functions do not.
+The first exact construction in the causal-response branch, after presentations and probes have been granted, is an observational quotient indexed by a declared family of discernment maps. The physically adequate object may be an effective quotient, groupoid, stack, or derived analogue; retaining arrows, stabilizers, nilpotents, and higher tangent data is essential whenever they carry information that invariant functions or a coarse point set do not.
 
 ## Observational equivalence
 
@@ -26,6 +26,16 @@ $$
 $$
 
 This universal factorization is **[EXACT]**. The assertion that \(\mathcal O\) is physically complete is not. Enlarging the declared family can refine the quotient.
+
+If the family is meant to include later geometric, charge, interference, or record consequences, it cannot be declared complete before those consequence functors exist. Bundle the current family into \(F_i:X\to\prod_{f\in\mathcal O_i}Y_f\) and use its kernel pair. For \(i\leq j\), enlargement gives a refinement map
+
+$$
+X/{\sim_{\mathcal O_j}}
+\longrightarrow
+X/{\sim_{\mathcal O_i}}.
+$$
+
+No physically complete final quotient has been justified until the stages stabilize or an appropriate limit and effectivity theorem is supplied. Alternatively, first construct the complete bundled consequence functor, take its kernel pair and effective image, and prove that the induced probes separate the resulting quotient. Requiring the probes to separate the raw presentations would erase the intended observational equivalence. This note owns the quotient theorem and its noncircularity condition; [[algebra/program-core-interface|the algebra interface]] records only where its inputs enter the more primitive construction order.
 
 The index is physical. If a hidden presentation difference changes later geometry, charge, interference, or records, then it is discernible by the full consequence family even when no observer can read it directly across a wall. Direct accessibility and physical discernibility are not synonyms.
 
@@ -55,7 +65,7 @@ Changes of frame, gauge, central normalization, modular presentation, coordinate
 
 ## The physical horizontal tangent
 
-At a regular presentation \(p\), first define the observationally reduced tangent
+At a regular presentation \(p\), one first-order candidate for the observationally reduced tangent is
 
 $$
 \widetilde H_p
@@ -72,6 +82,8 @@ where:
 - \(Z_p^{\mathrm{norm}}\) contains additive or scalar normalization directions declared invisible to the chosen state comparison, not the full algebraic center;
 - \(G_p\) contains declared gauge directions; and
 - \(O_p\) contains first-order observationally null directions.
+
+This candidate equals the tangent to the observational kernel only under appropriate regularity or constant-rank hypotheses. The function \(f(x)=x^2\) at \(x=0\) has \(Df_0=0\) although the direction is discernible at second order. A singular or higher-order construction must therefore use the tangent of the kernel pair or a derived tangent complex rather than quotienting by \(O_p\) alone.
 
 If the response form descends to a positive semidefinite form on \(\widetilde H_p\), only then remove its radical:
 

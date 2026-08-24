@@ -51,6 +51,8 @@ Initially different registers remain distinct until an explicit map relates them
 
 Physical equivalence is defined relative to a declared family of possible factual consequences. Indirect geometric, charge, or record consequences count as discernment even when they are not directly observable across a wall.
 
+When those consequence functors are themselves constructed downstream, the family and its quotient are staged rather than presupposed as complete.
+
 **PC3 — Relational presentation.**
 
 No preferred representative, frame, origin, or global section is assumed when a torsor, groupoid, stack, or contextual family carries the invariant content.
@@ -73,11 +75,11 @@ Unless emergence is explicitly claimed, tested GR and QFT may be imported as loc
 
 ## Construction axioms
 
-These are requirements on a completed causal-scale realization, not claims that the current workspace has supplied them.
+These are requirements on a completed causal-scale realization, not claims that the current workspace has supplied them. They begin downstream of [[algebra/entry|the algebraic pre-core]], which separately owes the scalar and algebra selection, generalized probes, presentation site, strict descent data, and distinction between reversible presentation arrows and noninvertible physical processes.
 
 **CA1 — Presentation object.**
 
-There exists a category, groupoid, stack, or comparably precise object of admissible causal-scale presentations with declared observable functors and local restriction maps.
+There exists an ambient category \(\mathcal C\) of admissible causal-scale presentations and processes, with a declared wide subgroupoid \(W\subseteq\mathcal C^{\simeq}\) of reversible presentation changes, observable functors, and local restriction maps. Whenever descent is claimed, the base site and topology are declared, descent for arrows is proved, and effectivity for objects is separately tested. Genuinely causal, lossy, or record-extending arrows live in \(\mathcal C\), not solely in its groupoid core.
 
 **CA2 — Horizontal comparison.**
 
