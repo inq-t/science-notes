@@ -1,0 +1,14 @@
+[module]
+name = "hodge-atoms-spectral-triples-bps"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.sty",
+  "**/*.bst",
+  "**/*.pdf",
+  "**/*.json",
+  "**/*.py"
+]

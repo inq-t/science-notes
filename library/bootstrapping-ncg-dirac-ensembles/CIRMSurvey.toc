@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Origins of the Bootstrap Program}{4}{section.2}%
+\contentsline {section}{\numberline {3}Dirac Ensembles}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Path Integral Quantization and the Role of Noncommutative Geometry}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Metric from Dirac Operators and the Spectral Formulation of Geometry}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Fuzzy Spectral Triples}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Dirac Ensembles}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Multitrace and Multimatrix Dirac Ensembles}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Large-$N$ Limits and Eigenvalue Distributions}{11}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Bootstrapping Dirac Ensembles via Positivity}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The Hamburger Moment Problem and Hankel Positivity}{13}{subsection.4.1}%
+\contentsline {paragraph}{Example: the Gaussian distribution.}{14}{section*.2}%
+\contentsline {subsection}{\numberline {4.2}Schwinger--Dyson Equations}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Search Space and Positivity Constraints}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Example: The Cubic Type $(1,0)$ Dirac Ensemble}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Example: the Quartic Type $(1,0)$ and $(0,1)$ Dirac Ensembles}{17}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Asymmetric Solutions}{18}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Type (2,0) Dirac Ensembles}{20}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Random Metric Spaces and Quantum Gravity}{22}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Bootstrapping Multi-matrix Quantum Mechanics}{23}{section.5}%
+\contentsline {section}{\numberline {6}A Tale of Two Cities}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Reconstruction of the Standard Model}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Towards a Noncommutative Connes--Lott Model}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Building a Bridge}{29}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Fermionic Dirac Ensembles}{31}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Fuzzy Geometries and $(0,1)$ Spectral Triples}{31}{subsubsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.5}The Quartic Model}{33}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Yang--Mills--Higgs Dirac Ensembles}{35}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Bootstrap Methods in Spectral Geometry}{38}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The Bootstrap Philosophy in the Geometric Setting}{38}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Bootstrap Bounds for Laplace Eigenvalues on Hyperbolic 3-Manifolds}{39}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}The Eigenvalues of Random Hyperbolic Surfaces}{39}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Future Directions}{41}{section.8}%

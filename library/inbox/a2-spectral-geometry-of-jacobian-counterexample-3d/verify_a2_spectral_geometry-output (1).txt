@@ -1,0 +1,17 @@
+All exact checks passed.
+
+Depressed cubic:
+  Phi(u + q/(6p))/(2p) = (108*p**3*u**3 - 54*p**2*r + 108*p**2*u - 9*p*q**2*u + 18*p*q - q**3)/(108*p**3)
+
+Discriminant identity:
+  Delta = 4*p^4*(-4*a^3 - 27*b^2)
+
+Coordinate Jacobian:
+  det d(q,a,b)/d(p,q,r) = -(6*p - q**2)/(12*p**4)
+  on Gamma = 864/q**6
+
+Cusp certificate:
+  U^2 + 64*q^4*h^3 = -192*q^2*(h+4)^2*Delta
+
+Discriminant of Delta as a quadratic in r:
+  -(12*p - q**2)**3

@@ -1,0 +1,53 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "CIRMSurvey.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Bootstraps1.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Bootstraps2.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Bootstraps_0,1_8.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Bootstraps_0,1_8_zoomed.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Bootstraps_1,0_10.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "CIRMSurvey.out"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "CIRMSurvey.toc"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Cubic_Dirac.jpg"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Curve10.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Line100.pdf"
+      }
+   ],
+   "spec_version" : 1,
+   "texlive_version" : "2025",
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

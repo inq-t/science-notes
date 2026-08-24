@@ -1,0 +1,14 @@
+[module]
+name = "owr-singularity-theory-integrable-systems"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.sty",
+  "**/*.bst",
+  "**/*.pdf",
+  "**/*.json",
+  "**/*.py"
+]

@@ -1,0 +1,521 @@
+\documentclass[11pt,reqno]{amsart}
+
+% Metadata: edit these values before final upload.
+% Edit only this file before the final Zenodo upload.
+\newcommand{\AuthorName}{Thomas Ruble}
+\newcommand{\AuthorAffiliation}{Independent researcher}
+\newcommand{\AuthorEmail}{thomaspaulruble@gmail.com}
+\newcommand{\AuthorORCID}{0009-0004-8091-8694}
+\newcommand{\PreprintVersion}{0.1}
+\newcommand{\PreprintDate}{23 July 2026}
+\newcommand{\PreprintDOI}{10.5281/zenodo.21519096}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+
+\definecolor{linkblue}{RGB}{20,70,130}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  citecolor=linkblue,
+  urlcolor=linkblue,
+  pdftitle={The A2 Spectral Geometry of the 2026 Jacobian Counterexample},
+  pdfauthor={\AuthorName},
+  pdfsubject={Jacobian Conjecture; A2 singularity; nonproperness; finite étale inverse cover; Weyl monodromy},
+  pdfkeywords={Jacobian Conjecture, Keller map, nonproperness, A2 singularity, discriminant, monodromy, sl3}
+}
+
+\numberwithin{equation}{section}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\OO}{\mathcal O}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Mon}{\operatorname{Mon}}
+\newcommand{\SF}{S_F}
+\newcommand{\eps}{\varepsilon}
+
+\title[The $A_2$ spectral geometry of the Jacobian counterexample]
+{The $A_2$ Spectral Geometry of the 2026 Jacobian Counterexample}
+
+\author{\AuthorName}
+\address{\AuthorAffiliation}
+\email{\AuthorEmail}
+\date{\PreprintDate}
+\thanks{Version \PreprintVersion. Research note; not peer reviewed. Reserved Zenodo DOI: \texttt{\PreprintDOI}.}
+
+\subjclass[2020]{Primary 14R15; Secondary 32S25, 14D05, 17B20}
+\keywords{Jacobian Conjecture, Keller map, nonproperness locus, $A_2$ singularity, miniversal deformation, cubic discriminant, finite étale cover, Weyl group, monodromy}
+
+\begin{document}
+
+\begin{abstract}
+The explicit polynomial counterexample to the Jacobian Conjecture announced in July 2026 has inverse problem governed by the binary cubic
+\[
+\Phi_{p,q,r}(S,T)=2pS^3-qS^2T+2ST^2-rT^3.
+\]
+The public verification manuscript identifies the source with the simple-root incidence variety of this family and proves that the map's nonproperness set is the cubic discriminant hypersurface. We record three consequences. First, near the triple-root curve, an explicit change of parameters identifies the family with the miniversal deformation $u^3+au+b$ of the $A_2$ singularity, times one smooth parameter; consequently the germ of the nonproperness locus is the standard cuspidal discriminant $4a^3+27b^2=0$ times a line. Second, the generic inverse cover has full $S_3=W(A_2)$ monodromy. Third, the pushforward algebra of the three-sheeted cover determines a canonical bundle of Lie algebras with fibers $\mathfrak{sl}_3(\C)$, together with a Cartan subbundle, the six $A_2$ root spaces, and Weyl monodromy. These constructions are intrinsic to the finite étale inverse cover. Every displayed normal-form identity is checked in exact rational arithmetic in the accompanying script. No physical gauge-theoretic interpretation is asserted.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Keller's Jacobian Conjecture asserted that every polynomial map $F:\C^n\to\C^n$ with nonzero constant Jacobian determinant is a polynomial automorphism; see \cite{vanDenEssen2000}. In July 2026 Levent Alpöge announced an explicit counterexample in dimension three. A public manuscript verifies the example and determines its global geometry \cite{Counterexample2026}; Tao gives an expository geometric account \cite{Tao2026}.
+
+The map is
+\begin{equation}\label{eq:F}
+\begin{aligned}
+P&=(1+xy)^3z+y^2(1+xy)(4+3xy),\\
+Q&=y+3x(1+xy)^2z+3xy^2(4+3xy),\\
+R&=2x-3x^2y-x^3z.
+\end{aligned}
+\end{equation}
+It satisfies $\det JF=-2$ and
+\[
+F\left(0,0,-\frac14\right)
+=F\left(1,-\frac32,\frac{13}{2}\right)
+=F\left(-1,\frac32,\frac{13}{2}\right)
+=\left(-\frac14,0,0\right).
+\]
+The two-variable case remains open.
+
+The verification manuscript proves that the inverse problem is governed by the projective roots of a binary cubic and that the locus on which inverse branches escape to infinity is exactly the cubic discriminant hypersurface. The purpose of this note is to identify the singularity-theoretic and Lie-theoretic structure canonically attached to that inverse cubic.
+
+\begin{theorem}[Main theorem]\label{thm:main}
+Let $\Gamma$ be the triple-root curve of the inverse cubic and let $\Sigma$ be its discriminant hypersurface, which is also the nonproperness locus of $F$.
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item Along $\Gamma$, the germ of the pair $(\Sigma,\Gamma)$ is analytically isomorphic to
+\[
+\bigl(\{4a^3+27b^2=0\},0\bigr)\times(\C,0).
+\]
+Equivalently, the nonproperness hypersurface is transversely the discriminant of the miniversal $A_2$ deformation.
+\item Over $U=\C^3\setminus\Sigma$, the inverse map is a connected finite étale cover of degree three with full monodromy group
+\[
+S_3=W(A_2).
+\]
+\item If $E=\pi_*\OO_{X^\circ}$ is the rank-three pushforward algebra of the inverse cover $\pi:X^\circ\to U$, then $\End_0(E)$ is a canonical Lie-algebra bundle with fibers $\mathfrak{sl}_3(\C)$. The trace-zero multiplication operators form a Cartan subbundle, and étale-locally the remaining six line bundles are the root spaces of type $A_2$.
+\end{enumerate}
+\end{theorem}
+
+The relation among simple singularities, Weyl groups, and simply laced root systems is classical \cite{Arnold1972,Arnold1974,Brieskorn1970,Slodowy1980}. The new conjunction is specific to this counterexample: the same discriminant that organizes the three-sheet inverse problem is exactly the nonproperness locus of an everywhere-local biholomorphism.
+
+\section{The inverse cubic and the nonproperness locus}
+
+Write $(p,q,r)$ for the target coordinates and introduce
+\begin{equation}\label{eq:binary-cubic}
+\Phi_{p,q,r}(S,T)=2pS^3-qS^2T+2ST^2-rT^3.
+\end{equation}
+Let $I\subset\C^3\times\PP^1$ be the incidence hypersurface $\Phi=0$, and let $I_{\mathrm{simp}}$ be its open simple-root locus. The map
+\[
+(x,y,z)\longmapsto\bigl(F(x,y,z),[x:1+xy]\bigr)
+\]
+is an isomorphism $\C^3\simeq I_{\mathrm{simp}}$ \cite[Proposition~4.1]{Counterexample2026}. Hence a fiber of $F$ is identified with the simple projective roots of \eqref{eq:binary-cubic}.
+
+The normalized discriminant is
+\begin{equation}\label{eq:Delta}
+\Delta(p,q,r)=q^2-16p-q^3r+18pqr-27p^2r^2.
+\end{equation}
+Set
+\begin{equation}\label{eq:Sigma-Gamma}
+\Sigma=V(\Delta),
+\qquad
+\Gamma=V(12p-q^2,\,3qr-4).
+\end{equation}
+The verification manuscript proves that the generic fiber has three points, that
+\[
+F(\C^3)=\C^3\setminus\Gamma,
+\]
+and that the nonproperness set in the sense of Jelonek \cite{Jelonek1993} is
+\begin{equation}\label{eq:nonproperness}
+\SF=\Sigma.
+\end{equation}
+See \cite[Theorems~4.2--4.3]{Counterexample2026}. Over
+\[
+U=\C^3\setminus\Sigma,
+\qquad
+X^\circ=F^{-1}(U),
+\]
+the restriction
+\begin{equation}\label{eq:cover}
+\pi:X^\circ\longrightarrow U
+\end{equation}
+is a connected finite étale cover of degree three.
+
+The same manuscript computes the Jacobian ideal of $\Delta$:
+\[
+J_\Delta=(16p-q^3r,\,(3qr-4)^2),
+\qquad
+\sqrt{J_\Delta}=(12p-q^2,\,3qr-4).
+\]
+Thus the reduced singular locus of $\Sigma$ is $\Gamma$, while the singular scheme is nonreduced along it. The next section identifies its exact transverse normal form.
+
+\section{The exact \texorpdfstring{$A_2$}{A2} normal form}
+
+The function germ $u\mapsto u^3$ is the simple singularity of type $A_2$. A miniversal deformation is
+\begin{equation}\label{eq:miniversal}
+u^3+au+b,
+\end{equation}
+whose discriminant is $-4a^3-27b^2$ \cite{Arnold1972,Arnold1974}.
+
+\begin{theorem}[Exact normal form]\label{thm:normal-form}
+Near every point of $\Gamma$, define
+\begin{equation}\label{eq:a-b}
+a=\frac{12p-q^2}{12p^2},
+\qquad
+b=\frac{-q^3+18pq-54p^2r}{108p^3}.
+\end{equation}
+Then:
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item after the translation
+\[
+s=u+\frac{q}{6p},
+\]
+one has
+\begin{equation}\label{eq:depressed}
+\frac{\Phi_{p,q,r}(s,1)}{2p}=u^3+au+b;
+\end{equation}
+\item the discriminant satisfies
+\begin{equation}\label{eq:disc-identity}
+\Delta=4p^4(-4a^3-27b^2);
+\end{equation}
+\item the triple-root curve is $\Gamma=\{a=b=0\}$;
+\item $(q,a,b)$ is a local coordinate system along $\Gamma$.
+\end{enumerate}
+Consequently, as germs along $\Gamma$,
+\begin{equation}\label{eq:germ-product}
+(\Sigma,\Gamma)
+\cong
+\bigl(\{4a^3+27b^2=0\},0\bigr)\times(\C_q,0).
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Direct expansion gives \eqref{eq:depressed}. The usual discriminant of $u^3+au+b$ is $-4a^3-27b^2$, and direct substitution gives \eqref{eq:disc-identity}.
+
+The equations $a=b=0$ are equivalent to
+\[
+12p-q^2=0,
+\qquad
+3qr-4=0,
+\]
+so they cut out $\Gamma$. Finally,
+\begin{equation}\label{eq:coord-jac}
+\det\frac{\partial(q,a,b)}{\partial(p,q,r)}
+=
+\frac{q^2-6p}{12p^4}.
+\end{equation}
+Along $\Gamma$, where $p=q^2/12$, this becomes
+\[
+\frac{864}{q^6}\neq0.
+\]
+Thus $(q,a,b)$ are local coordinates along $\Gamma$, and \eqref{eq:germ-product} follows.
+\end{proof}
+
+\begin{corollary}\label{cor:A2-nonproperness}
+The germ of the nonproperness locus of the 2026 counterexample, along its triple-root curve, is the discriminant of the miniversal $A_2$ deformation times one smooth parameter.
+\end{corollary}
+
+\begin{remark}[An exact cusp certificate]\label{rem:certificate}
+Put
+\[
+g=12p-q^2,
+\qquad
+h=3qr-4,
+\qquad
+\mathcal U=2(h+4)^2g+2hq^2(h-4).
+\]
+Then the identity
+\begin{equation}\label{eq:cusp-certificate}
+\mathcal U^2+64q^4h^3
+=-192q^2(h+4)^2\Delta
+\end{equation}
+holds exactly. Near $\Gamma$, where $q\neq0$ and $h+4\neq0$, the equation $\Delta=0$ is therefore equivalent to
+\[
+\left(\frac{\mathcal U}{8q^2}\right)^2+h^3=0.
+\]
+This is the cusp equation directly in coordinates adapted to the radical of the Jacobian ideal.
+\end{remark}
+
+\begin{remark}
+The statement is local along $\Gamma$. The rational functions $(q,a,b)$ are not asserted to be a single global coordinate system on the entire target.
+\end{remark}
+
+\section{Full \texorpdfstring{$S_3$}{S3} monodromy}
+
+On the affine chart $T\neq0$, write
+\begin{equation}\label{eq:affine-cubic}
+f(s)=2ps^3-qs^2+2s-r.
+\end{equation}
+The verification manuscript proves
+\[
+\C(x,y,z)=\C(p,q,r)(s)
+\]
+and that the extension has degree three \cite[Remark~4.4]{Counterexample2026}. Hence $f$ is irreducible over
+\[
+K=\C(p,q,r).
+\]
+Its usual discriminant is $4\Delta$.
+
+\begin{proposition}\label{prop:S3}
+The Galois group of the splitting field of $f$ over $K$ is $S_3$. Equivalently, the monodromy of the degree-three cover \eqref{eq:cover} is the full symmetric group.
+\end{proposition}
+
+\begin{proof}
+Consider $\Delta$ as a quadratic polynomial in $r$ over $\C(p,q)$. Its discriminant is
+\begin{equation}\label{eq:disc-r}
+\operatorname{disc}_r(\Delta)=-(12p-q^2)^3,
+\end{equation}
+which is nonzero. Therefore $\Delta$ is squarefree and nonconstant in $\C(p,q)[r]$. An irreducible factor of $\Delta$ has odd valuation in the rational function field, so $\Delta$ is not a square in $K$. An irreducible cubic over a field of characteristic zero has Galois group $A_3$ exactly when its discriminant is a square; otherwise its Galois group is $S_3$. Thus the Galois group is $S_3$.
+
+Over a connected complex base, the geometric monodromy group of the finite étale cover agrees with the permutation group of the Galois closure, so $\Mon(\pi)=S_3$.
+\end{proof}
+
+Because
+\[
+S_3=W(A_2),
+\]
+the inverse-sheet monodromy is precisely the Weyl group of the root system appearing in Section~3.
+
+\section{The canonical type-\texorpdfstring{$A_2$}{A2} Lie bundle}
+
+Let
+\begin{equation}\label{eq:E}
+E=\pi_*\OO_{X^\circ}.
+\end{equation}
+Since $\pi$ is finite étale of degree three, $E$ is a finite locally free $\OO_U$-algebra of rank three. Multiplication defines an injective regular representation
+\begin{equation}\label{eq:regular-rep}
+m:E\hookrightarrow\End_{\OO_U}(E),
+\qquad
+f\longmapsto m_f,
+\end{equation}
+where injectivity follows from $m_f(1)=f$.
+
+Let
+\[
+\Tr_{E/U}:E\to\OO_U
+\]
+be the trace of multiplication, and define
+\[
+E_0=\ker(\Tr_{E/U}),
+\qquad
+\End_0(E)=\ker\bigl(\operatorname{tr}:\End(E)\to\OO_U\bigr).
+\]
+
+\begin{theorem}[Canonical $A_2$ package]\label{thm:Lie-bundle}
+The inverse cover canonically determines:
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item a Lie-algebra bundle $\End_0(E)$ with fibers $\mathfrak{sl}_3(\C)$;
+\item a rank-two bundle of Cartan subalgebras $m(E_0)\subset\End_0(E)$;
+\item an étale-local root decomposition of type $A_2$;
+\item Weyl monodromy equal to $S_3=W(A_2)$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Etale-locally, the cover splits into three disjoint sheets. Hence
+\[
+E\cong L_1\oplus L_2\oplus L_3
+\]
+with each $L_i$ a line bundle. In this splitting, multiplication operators are diagonal and $m(E_0)$ is the subbundle of diagonal trace-zero endomorphisms, hence a Cartan subalgebra in every fiber of $\End_0(E)$.
+
+The traceless endomorphisms decompose as
+\begin{equation}\label{eq:root-decomp}
+\End_0(E)
+=
+m(E_0)
+\oplus
+\bigoplus_{i\neq j}\operatorname{Hom}(L_j,L_i).
+\end{equation}
+For $f\in E$ and $T_{ij}\in\operatorname{Hom}(L_j,L_i)$,
+\begin{equation}\label{eq:root-action}
+[m_f,T_{ij}]
+=
+\bigl(f(x_i)-f(x_j)\bigr)T_{ij}.
+\end{equation}
+Thus the six off-diagonal line bundles are root spaces with roots $\eps_i-\eps_j$, the root system of type $A_2$. Monodromy permutes the sheet lines and acts on the Cartan and root spaces through the full group $S_3=W(A_2)$ by Proposition~\ref{prop:S3}.
+\end{proof}
+
+\begin{proposition}[Functoriality]\label{prop:functoriality}
+The pair
+\[
+m(E_0)\subset\End_0(E)
+\]
+is intrinsic to the finite étale inverse cover. It is preserved, up to pullback and canonical isomorphism, under polynomial automorphisms of the source and target. Under stabilization $F\mapsto F\oplus\operatorname{id}_{\C^m}$, the corresponding pair is the pullback of the original pair along $U\times\C^m\to U$.
+\end{proposition}
+
+\begin{proof}
+An isomorphism of finite covers induces an isomorphism of their pushforward algebras and therefore of the multiplication, trace, and endomorphism constructions. Stabilization replaces the inverse cover by its product with $\C^m$.
+\end{proof}
+
+\begin{remark}[What is and is not special here]
+Every connected three-sheeted finite étale cover carries an analogous endomorphism package. The Keller-specific conjunction is that this cover arises from an everywhere-local biholomorphism of affine spaces and that its spectral discriminant is exactly its nonproperness locus. In this example, the wall system on which inverse sheets collide or escape is precisely where global polynomial invertibility fails.
+\end{remark}
+
+\section{Descent and the orientation local system}
+
+Let
+\[
+\mathbb L=\pi_*\C
+\]
+be the rank-three permutation local system underlying the cover. It decomposes as
+\begin{equation}\label{eq:perm-decomp}
+\mathbb L
+=
+\C\mathbf1\oplus\mathbb V,
+\end{equation}
+where $\mathbf1=(1,1,1)$ spans the trivial representation and $\mathbb V$ is the two-dimensional standard representation of $S_3$.
+
+\begin{proposition}[Flat invariants]\label{prop:flat-invariants}
+One has
+\[
+H^0_{\mathrm{flat}}(U,\mathbb L)\cong\C
+\]
+and
+\[
+H^0_{\mathrm{flat}}\bigl(U,\End(\mathbb L)\bigr)
+\cong
+\End_{S_3}(\C^3).
+\]
+The latter is the two-dimensional commutative algebra spanned by the identity matrix and the all-ones matrix.
+\end{proposition}
+
+\begin{proof}
+Flat global sections are precisely monodromy-invariant vectors and endomorphisms. The standard representation $\mathbb V$ has no invariant vector. The commutant of the transitive permutation representation of $S_3$ on $\C^3$ is spanned by the projectors onto the trivial line and the standard plane, equivalently by the identity and all-ones matrices.
+\end{proof}
+
+Let $\widetilde U\to U$ be the $S_3$-Galois closure of the inverse cover. Finite étale Galois descent gives
+\begin{equation}\label{eq:descent}
+(\widetilde\pi_*\OO_{\widetilde U})^{S_3}=\OO_U,
+\end{equation}
+and at the generic point
+\[
+\widetilde K^{S_3}=K.
+\]
+On the chart $p\neq0$, if $s_1,s_2,s_3$ are the affine roots of \eqref{eq:affine-cubic}, Vieta's formulas give
+\begin{equation}\label{eq:vieta}
+\begin{aligned}
+s_1+s_2+s_3&=\frac{q}{2p},\\
+s_1s_2+s_1s_3+s_2s_3&=\frac1p,\\
+s_1s_2s_3&=\frac{r}{2p}.
+\end{aligned}
+\end{equation}
+Thus symmetric rational expressions in the inverse roots descend to rational functions of the target coordinates.
+
+Finally, the determinant local system
+\[
+\det\mathbb L
+\]
+is the sign character of $S_3$. The associated double cover is the discriminant cover obtained generically by adjoining $\sqrt\Delta$; on that cover the monodromy reduces to $A_3\cong\mathbb Z/3$. This is a canonical orientation refinement of the inverse-sheet system. No physical chirality is inferred from it here.
+
+\section{Scope and further questions}
+
+The mathematical conclusions are:
+\begin{enumerate}[label=\textup{(\roman*)}]
+\item the nonproperness locus of the first explicit counterexample has transverse miniversal $A_2$ discriminant geometry;
+\item its generic inverse cover carries the Cartan, roots, and Weyl monodromy of type $A_2$;
+\item these data are intrinsic to the finite étale inverse cover.
+\end{enumerate}
+
+The $A_2$ singularity in Theorem~\ref{thm:normal-form} is a plane-curve cusp. It is not literally the du Val surface singularity $\C^2/(\mathbb Z/3)$ appearing in the McKay correspondence \cite{McKay1980}, although the two belong to the same ADE classification and are related by stabilization or suspension. The canonical Lie structure used here comes directly from the finite inverse cover, not from a McKay identification.
+
+The note does not assert that $\End(E)$ is an algebra of physical observables, that $\mathfrak{su}(3)$ is physically gauged, or that the construction applies to every Keller counterexample. Passing from the discrete inverse cover to a continuous gauge-theoretic interpretation would require additional completion and physical-identification principles not supplied here.
+
+Three natural mathematical questions remain.
+
+\begin{question}[$A_2$ atomicity]
+Does every minimal Keller obstruction contain, map to, or degenerate through a distinguished local $A_2$ inverse datum?
+\end{question}
+
+\begin{question}[Braid and vanishing cycles]
+What is the explicit Picard--Lefschetz and braid-monodromy package of the $A_2$ nonproperness germ, and how does it interact with the global inverse cover?
+\end{question}
+
+\begin{question}[Extension across the wall]
+Can the inverse-cover local systems and their endomorphism bundles be extended canonically across $\Sigma$ using nearby cycles, vanishing cycles, or a natural singular model?
+\end{question}
+
+\section{Reproducibility and provenance}
+
+The identities \eqref{eq:depressed}, \eqref{eq:disc-identity}, \eqref{eq:coord-jac}, \eqref{eq:cusp-certificate}, and \eqref{eq:disc-r} have been checked in exact symbolic arithmetic. The Zenodo deposit accompanying this note includes a short SymPy script and its output.
+
+The exceptional input from \cite{Counterexample2026} is the identification of the inverse problem with the displayed cubic and the equality of the nonproperness locus with its discriminant hypersurface. The normal-form calculation and the organization of the inverse cover into the type-$A_2$ package were developed in an AI-assisted research exchange. The author has checked the displayed arguments and assumes responsibility for all claims. We have not located this precise formulation in the literature; corrections, prior references, and attributions are welcome.
+
+\section*{Acknowledgments}
+The author thanks readers who provide corrections, priority information, or suggestions for a more standard formulation of the finite-cover and singularity-theoretic constructions.
+
+\begin{thebibliography}{99}
+
+
+\bibitem{Arnold1972}
+V.~I. Arnol'd,
+\emph{Normal forms for functions near degenerate critical points, the Weyl groups of $A_k$, $D_k$, $E_k$ and Lagrangian singularities},
+Functional Analysis and Its Applications \textbf{6} (1972), no.~4, 254--272.
+\href{https://doi.org/10.1007/BF01077644}{doi:10.1007/BF01077644}.
+
+\bibitem{Arnold1974}
+V.~I. Arnol'd,
+\emph{Normal forms of functions in neighbourhoods of degenerate critical points},
+Russian Mathematical Surveys \textbf{29} (1974), no.~2, 10--50.
+\href{https://doi.org/10.1070/RM1974v029n02ABEH003846}{doi:10.1070/RM1974v029n02ABEH003846}.
+
+\bibitem{Brieskorn1970}
+E.~Brieskorn,
+\emph{Singular elements of semi-simple algebraic groups},
+in Proceedings of the International Congress of Mathematicians, Nice, 1970, vol.~2,
+Gauthier--Villars, 1971, pp.~279--284.
+
+\bibitem{Counterexample2026}
+\emph{A Counterexample to the Jacobian Conjecture},
+verification manuscript, 20 July 2026.
+\url{https://www.ulam.ai/research/jacobian.pdf}.
+
+\bibitem{Jelonek1993}
+Z.~Jelonek,
+\emph{The set of points at which a polynomial map is not proper},
+Annales Polonici Mathematici \textbf{58} (1993), no.~3, 259--266.
+\href{https://doi.org/10.4064/ap-58-3-259-266}{doi:10.4064/ap-58-3-259-266}.
+
+\bibitem{McKay1980}
+J.~McKay,
+\emph{Graphs, singularities, and finite groups},
+Proceedings of Symposia in Pure Mathematics \textbf{37} (1980), 183--186.
+
+\bibitem{Slodowy1980}
+P.~Slodowy,
+\emph{Simple Singularities and Simple Algebraic Groups},
+Lecture Notes in Mathematics, vol.~815, Springer, Berlin, 1980.
+\href{https://doi.org/10.1007/BFb0090294}{doi:10.1007/BFb0090294}.
+
+\bibitem{Tao2026}
+T.~Tao,
+\emph{A digestion of the Jacobian conjecture counterexample},
+What's New, 21 July 2026.
+\url{https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/}.
+
+\bibitem{vanDenEssen2000}
+A.~van den Essen,
+\emph{Polynomial Automorphisms and the Jacobian Conjecture},
+Progress in Mathematics, vol.~190, Birkhauser, Basel, 2000.
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,14 @@
+[module]
+name = "quantum-gravity-coupled-to-matter"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.sty",
+  "**/*.bst",
+  "**/*.pdf",
+  "**/*.json",
+  "**/*.py"
+]
