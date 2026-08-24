@@ -1,0 +1,4 @@
+[module]
+name = "indiscernibility-of-identicals"
+entry = "entry.md"
+include = ["**/*.md"]

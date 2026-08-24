@@ -1,0 +1,4 @@
+[module]
+name = "leibniz"
+entry = "entry.md"
+include = ["**/*.md"]

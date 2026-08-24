@@ -1,0 +1,4 @@
+[module]
+name = "program-core"
+entry = "entry.md"
+include = ["**/*.md"]
