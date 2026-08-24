@@ -4,7 +4,7 @@ AQFT can reconstruct a compact global internal group from a theory functor or fr
 
 ## Choose the algebraic object first
 
-The [[causal-wall-spectral-theory/causal-scale-interface#Three different objects called a wall|causal-wall audit]] distinguishes objects that the source dialogue initially grouped together:
+The [[wall-construction-interface/state-coordinate-types|wall state-coordinate audit]] distinguishes objects that the source dialogue initially grouped together:
 
 | Object | Algebraic role | Relevance to internal symmetry |
 |---|---|---|
@@ -14,7 +14,7 @@ The [[causal-wall-spectral-theory/causal-scale-interface#Three different objects
 | Horizontal causal-scale structure $\Phi_{N_2:N_1}$ | comparison of algebras or states across scale | new proposed structure; not itself a Yang–Mills gauge group |
 | Finite internal algebra $A_F$ and bimodule | internal representation data in spectral geometry | a separate microscopic candidate, absent from the current wall package |
 
-The [[causal-wall-spectral-theory/causal-scale-interface#Minimal mathematical package|minimal interface]] still lacks a charged-sector category. It also requires an inclusion, isomorphism, common standard form, or other transport before Connes cocycles can compare states at different scales. Writing a wall assignment directly on a cut does not supply these missing structures. Fewster's natural-automorphism construction needs a functor over a spacetime category, not a single observer-region net. Ordinary DHR sectors also require bounded-region localization; Gauss-law charges such as electric charge need a broader sector framework.
+The [[wall-construction-interface/entry#The minimal package|minimal wall interface]] still lacks a charged-sector category. It also requires an inclusion, isomorphism, common standard form, or other transport before Connes cocycles can compare states at different scales. Writing a wall assignment directly on a cut does not supply these missing structures. Fewster's natural-automorphism construction needs a functor over a spacetime category, not a single observer-region net. Ordinary DHR sectors also require bounded-region localization; Gauss-law charges such as electric charge need a broader sector framework.
 
 ## Two established reconstruction routes
 
@@ -36,7 +36,7 @@ The reconstructed object is a compact global internal group acting on fields or 
 
 ## The circularity test
 
-The [[causal-wall-spectral-theory/causal-scale-interface#Logical role|interface formulation]] permits
+The [[wall-construction-interface/entry#The interface is a dependency, not a theory|interface formulation]] permits
 
 $$
 \mathcal A_N=\mathcal A_{\mathrm{QFT}}(M,g_N)
@@ -62,7 +62,7 @@ Geometric modular action can implement Lorentz transformations or PCT under stro
 
 ## “Spectral” names two unrelated constructions
 
-The [[causal-wall-spectral-theory/spectral-dictionary#Three-dimensional stress response|causal-wall spectral dictionary]] uses spectral data for the continued two-point response of a three-dimensional stress tensor. A finite spectral triple uses data such as
+The [[vendor/holographic-cosmology/stress-tensor-response|holographic stress-response dictionary]] uses spectral data for the continued two-point response of a three-dimensional stress tensor. A finite spectral triple uses data such as
 
 $$
 (A_F,H_F,D_F,J_F,\gamma_F).

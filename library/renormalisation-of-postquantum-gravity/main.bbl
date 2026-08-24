@@ -1,0 +1,411 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (0) dotless jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{119}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Oppenheim}(2023)}]{oppenheim2018post}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A postquantum theory of classical gravity?}}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {041040} (\bibinfo {year} {2023})},\ \bibinfo {note} {arXiv:1811.03116}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ and\ \citenamefont {Weller-Davies}(2023{\natexlab{a}})}]{oppenheim2023covariant}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}\ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Covariant path integrals for quantum fields back-reacting on classical space-time},}\ }\href {https://arxiv.org/abs/2302.07283} {\bibfield  {journal} {\bibinfo  {journal} {arXiv:2302.07283}\ } (\bibinfo {year} {2023}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sen}(1982)}]{sen1982gravity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Amitabha}\ \bibnamefont {Sen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Gravity as a spin system},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett., B}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages} {89--91} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ashtekar}(1986)}]{ashtekar1986new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Abhay}\ \bibnamefont {Ashtekar}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {New variables for classical and quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo {pages} {2244} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rovelli}\ and\ \citenamefont {Smolin}(1988)}]{rovelli1988knot}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carlo}\ \bibnamefont {Rovelli}}\ and\ \bibinfo {author} {\bibfnamefont {Lee}\ \bibnamefont {Smolin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Knot theory and quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {1155} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rovelli}(2004)}]{rovelli2004quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carlo}\ \bibnamefont {Rovelli}},\ }\href@noop {} {\emph {\bibinfo {title} {Quantum gravity}}}\ (\bibinfo  {publisher} {Cambridge university press},\ \bibinfo {year} {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veneziano}(1968)}]{veneziano1968construction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Gabriele}\ \bibnamefont {Veneziano}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Construction of a crossing-simmetric, regge-behaved amplitude for linearly rising trajectories},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Il Nuovo Cimento A (1965-1970)}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo {pages} {190--197} (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Polchinski}(2005)}]{polchinski2005string}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Joseph}\ \bibnamefont {Polchinski}},\ }\href@noop {} {\emph {\bibinfo {title} {String theory}}}\ (\bibinfo {year} {2005})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Green}\ \emph {et~al.}(1988)\citenamefont {Green}, \citenamefont {Schwarz},\ and\ \citenamefont {Witten}}]{Green:1987sp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael~B.}\ \bibnamefont {Green}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Schwarz}}, \ and\ \bibinfo {author} {\bibfnamefont {Edward}\ \bibnamefont {Witten}},\ }\href@noop {} {\emph {\bibinfo {title} {{SUPERSTRING THEORY. VOL. 1: INTRODUCTION}}}},\ Cambridge Monographs on Mathematical Physics\ (\bibinfo {year} {1988})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Green}\ \emph {et~al.}(2012)\citenamefont {Green}, \citenamefont {Schwarz},\ and\ \citenamefont {Witten}}]{green2012superstring}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael~B}\ \bibnamefont {Green}}, \bibinfo {author} {\bibfnamefont {John~H}\ \bibnamefont {Schwarz}}, \ and\ \bibinfo {author} {\bibfnamefont {Edward}\ \bibnamefont {Witten}},\ }\href@noop {} {\emph {\bibinfo {title} {Superstring theory: volume 2, loop amplitudes, anomalies and phenomenology}}}\ (\bibinfo  {publisher} {Cambridge university press},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Weinberg}(1979)}]{weinberg1979ultraviolet}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Steven}\ \bibnamefont {Weinberg}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Ultraviolet divergences in quantum theories of gravitation},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {General relativity}}}\ (\bibinfo {year} {1979})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sato}(1950)}]{sato1950attempt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Iwao}\ \bibnamefont {Sato}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {An attempt to unite the quantum theory of wave field with the theory of general relativity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Science reports of the Tohoku University 1st ser. Physics, chemistry, astronomy}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages} {30--37} (\bibinfo {year} {1950})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M{\o}ller}\ \emph {et~al.}(1962)\citenamefont {M{\o}ller} \emph {et~al.}}]{moller1962theories}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christian}\ \bibnamefont {M{\o}ller}} \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Les th{\'e}ories relativistes de la gravitation},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Colloques Internationaux CNRS}\ }\textbf {\bibinfo {volume} {91}} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rosenfeld}(1963)}]{rosenfeld1963quantization}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Leon}\ \bibnamefont {Rosenfeld}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On quantization of fields},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Physics}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages} {353--356} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gisin}(1989)}]{gisin1989stochastic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nicolas}\ \bibnamefont {Gisin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Stochastic quantum dynamics and relativity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Helv. Phys. Acta}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {363--371} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gisin}(1990)}]{gisin1990weinberg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nicolas}\ \bibnamefont {Gisin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Weinberg's non-linear quantum mechanics and supraluminal communications},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters A}\ }\textbf {\bibinfo {volume} {143}},\ \bibinfo {pages} {1--2} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Polchinski}(1991)}]{polchinski1991weinberg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Joseph}\ \bibnamefont {Polchinski}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Weinberg’s nonlinear quantum mechanics and the einstein-podolsky-rosen paradox},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {66}},\ \bibinfo {pages} {397} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Page}\ and\ \citenamefont {Geilker}(1981)}]{page1981indirect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Don~N}\ \bibnamefont {Page}}\ and\ \bibinfo {author} {\bibfnamefont {C.D.}\ \bibnamefont {Geilker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Indirect evidence for quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo {pages} {979} (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {DeWitt}(1953)}]{dewitt1953new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bryce}\ \bibnamefont {DeWitt}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {New directions for research in the theory of gravitation},}\ }\href {https://www.gravityresearchfoundation.org/s/dewitt-a4fe.pdf} {\bibfield  {journal} {\bibinfo  {journal} {Winning paper submitted to Gravity Research Foundation’s essay contest in}\ } (\bibinfo {year} {1953})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Duff}(1980)}]{duff1980inconsistency}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael~J}\ \bibnamefont {Duff}},\ }\href@noop {} {\emph {\bibinfo {title} {Inconsistency of quantum field theory in curved spacetime}}},\ \bibinfo {type} {Tech. Rep.}\ (\bibinfo {year} {1980})\ \bibinfo {note} {proceedings of Quantum Gravity 2, 81-105}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Unruh}(1984)}]{unruh1984steps}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {WG}~\bibnamefont {Unruh}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Steps towards a quantum theory of gravity},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Quantum theory of gravity. Essays in honor of the 60th birthday of Bryce S. DeWitt}}}\ (\bibinfo {year} {1984})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carlip}(2008)}]{carlip2008quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Steve}\ \bibnamefont {Carlip}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Is quantum gravity necessary?}}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {154010} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blanchard}\ and\ \citenamefont {Jadczyk}(1993)}]{blanchard1993interaction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Philippe}\ \bibnamefont {Blanchard}}\ and\ \bibinfo {author} {\bibfnamefont {Arkadiusz}\ \bibnamefont {Jadczyk}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On the interaction between classical and quantum systems},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters A}\ }\textbf {\bibinfo {volume} {175}},\ \bibinfo {pages} {157--164} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blanchard}\ and\ \citenamefont {Jadczyk}(1995)}]{blanchard1995event}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ph}~\bibnamefont {Blanchard}}\ and\ \bibinfo {author} {\bibfnamefont {Arkadiusz}\ \bibnamefont {Jadczyk}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Event-enhanced quantum theory and piecewise deterministic dynamics},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Annalen der Physik}\ }\textbf {\bibinfo {volume} {507}},\ \bibinfo {pages} {583--599} (\bibinfo {year} {1995})},\ \bibinfo {note} {https://arxiv.org/abs/hep-th/9409189}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Diosi}(1995)}]{diosi1995quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lajos}\ \bibnamefont {Diosi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum dynamics with two planck constants and the semiclassical limit},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint quant-ph/9503023}\ } (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Poulin}\ and\ \citenamefont {Preskill}(2017)}]{poulinKITP}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {David}\ \bibnamefont {Poulin}}\ and\ \bibinfo {author} {\bibfnamefont {John}\ \bibnamefont {Preskill}},\ }\href {http://online.kitp.ucsb.edu/online/qinfo-c17/poulin/} {\enquote {\bibinfo {title} {Information loss in quantum field theories},}\ } (\bibinfo {year} {2017}),\ \bibinfo {note} {\uppercase{F}rontiers of Quantum Information Physics, KITP}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ \emph {et~al.}(2022)\citenamefont {Oppenheim}, \citenamefont {Sparaciari}, \citenamefont {\v{S}oda},\ and\ \citenamefont {Weller-Davies}}]{UCLPawula}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \bibinfo {author} {\bibfnamefont {Carlo}\ \bibnamefont {Sparaciari}}, \bibinfo {author} {\bibfnamefont {Barbara}\ \bibnamefont {\v{S}oda}}, \ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The two classes of hybrid classical-quantum dynamics}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint}\ } (\bibinfo {year} {2022})},\ \Eprint {http://arxiv.org/abs/2203.01332} {arXiv:2203.01332 [quant-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kafri}\ \emph {et~al.}(2014)\citenamefont {Kafri}, \citenamefont {Taylor},\ and\ \citenamefont {Milburn}}]{kafri2014classical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D}~\bibnamefont {Kafri}}, \bibinfo {author} {\bibfnamefont {JM}~\bibnamefont {Taylor}}, \ and\ \bibinfo {author} {\bibfnamefont {GJ}~\bibnamefont {Milburn}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A classical channel model for gravitational decoherence},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages} {065020} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tilloy}\ and\ \citenamefont {Di{\'o}si}(2016)}]{tilloy2016sourcing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Antoine}\ \bibnamefont {Tilloy}}\ and\ \bibinfo {author} {\bibfnamefont {Lajos}\ \bibnamefont {Di{\'o}si}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Sourcing semiclassical gravity from spontaneously localized quantum matter},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo {pages} {024026} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tilloy}\ and\ \citenamefont {Di{\'o}si}(2017)}]{tilloy2017principle}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Antoine}\ \bibnamefont {Tilloy}}\ and\ \bibinfo {author} {\bibfnamefont {Lajos}\ \bibnamefont {Di{\'o}si}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Principle of least decoherence for newtonian semiclassical gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {96}},\ \bibinfo {pages} {104045} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}()}]{oppenheim2021constraints}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}},\ }\href@noop {} {\enquote {\bibinfo {title} {The constraints of a continuous realisation of hybrid classical-quantum gravity},}\ }\bibinfo {note} {Manuscript in preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ and\ \citenamefont {Weller-Davies}(2023{\natexlab{b}})}]{oppenheim2023path}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}\ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Path integrals for classical-quantum dynamics},}\ }\href {https://arxiv.org/abs/2301.04677} {\bibfield  {journal} {\bibinfo  {journal} {arXiv:2301.04677}\ } (\bibinfo {year} {2023}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stelle}(1977)}]{stelle1977renormalization}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kellogg~S}\ \bibnamefont {Stelle}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Renormalization of higher-derivative quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages} {953} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stelle}(1978)}]{stelle1978classical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {KS}~\bibnamefont {Stelle}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Classical gravity with higher derivatives},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {General Relativity and Gravitation}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {353--371} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salvio}(2018)}]{SalvioQuadratic18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alberto}\ \bibnamefont {Salvio}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quadratic gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Frontiers in Physics}\ } (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Donoghue}\ and\ \citenamefont {Menezes}(2021)}]{donoghue2021quadratic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {John~F}\ \bibnamefont {Donoghue}}\ and\ \bibinfo {author} {\bibfnamefont {Gabriel}\ \bibnamefont {Menezes}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On quadratic gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2112.01974}\ } (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Woodard}(2023)}]{woodard2023don}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {RP}~\bibnamefont {Woodard}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Don't throw the baby out with the bath water},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2306.09596}\ } (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mannheim}(2020)}]{mannheim2020ghost}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Philip~D}\ \bibnamefont {Mannheim}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Ghost problems from pauli--villars to fourth-order quantum gravity and their resolution},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {International Journal of Modern Physics D}\ }\textbf {\bibinfo {volume} {29}},\ \bibinfo {pages} {2043009} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holdom}\ and\ \citenamefont {Ren}(2016)}]{holdom2016quadratic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bob}\ \bibnamefont {Holdom}}\ and\ \bibinfo {author} {\bibfnamefont {Jing}\ \bibnamefont {Ren}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quadratic gravity: from weak to strong},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {International Journal of Modern Physics D}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {1643004} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Anselmi}(2017)}]{anselmi2017quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Damiano}\ \bibnamefont {Anselmi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On the quantum field theory of the gravitational interactions},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of High Energy Physics}\ }\textbf {\bibinfo {volume} {2017}},\ \bibinfo {pages} {1--20} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salvio}\ \emph {et~al.}(2018)\citenamefont {Salvio}, \citenamefont {Strumia},\ and\ \citenamefont {Veerm{\"a}e}}]{salvio2018new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alberto}\ \bibnamefont {Salvio}}, \bibinfo {author} {\bibfnamefont {Alessandro}\ \bibnamefont {Strumia}}, \ and\ \bibinfo {author} {\bibfnamefont {Hardi}\ \bibnamefont {Veerm{\"a}e}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {New infra-red enhancements in 4-derivative gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The European Physical Journal C}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {1--12} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salvio}(2022)}]{salvio2022bicep}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alberto}\ \bibnamefont {Salvio}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Bicep/keck data and quadratic gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Cosmology and Astroparticle Physics}\ }\textbf {\bibinfo {volume} {2022}},\ \bibinfo {pages} {027} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salvio}(2019)}]{Salvio_2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alberto}\ \bibnamefont {Salvio}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Metastability in quadratic gravity},}\ }\href {\doibase 10.1103/physrevd.99.103507} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {99}} (\bibinfo {year} {2019}),\ 10.1103/physrevd.99.103507}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Layton}\ \emph {et~al.}(2022)\citenamefont {Layton}, \citenamefont {Oppenheim},\ and\ \citenamefont {Weller-Davies}}]{layton2022semi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Isaac}\ \bibnamefont {Layton}}, \bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A healthier semi-classical dynamics},}\ }\href {https://arxiv.org/abs/2208.11722} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2208.11722}\ } (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feynman}\ and\ \citenamefont {Vernon}(1963)}]{FeynmanVernon1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.P}\ \bibnamefont {Feynman}}\ and\ \bibinfo {author} {\bibfnamefont {F.L}\ \bibnamefont {Vernon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The theory of a general quantum system interacting with a linear dissipative system},}\ }\href {\doibase https://doi.org/10.1016/0003-4916(63)90068-X} {\bibfield  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo {pages} {118--173} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Onsager}\ and\ \citenamefont {Machlup}(1953)}]{Onsager1953Fluctuations}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Onsager}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Machlup}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Fluctuations and irreversible processes},}\ }\href {\doibase 10.1103/PhysRev.91.1505} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages} {1505--1512} (\bibinfo {year} {1953})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Layton}\ \emph {et~al.}(2023{\natexlab{a}})\citenamefont {Layton}, \citenamefont {Oppenheim},\ and\ \citenamefont {Panella}}]{UCLnorm2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Isaac}\ \bibnamefont {Layton}}, \bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \ and\ \bibinfo {author} {\bibfnamefont {Emanuele}\ \bibnamefont {Panella}},\ }\href@noop {} {\enquote {\bibinfo {title} {Normalisation and interpretations of generalised stochastic path integrals},}\ } (\bibinfo {year} {2023}{\natexlab{a}}),\ \bibinfo {note} {manuscript in preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Martin}\ \emph {et~al.}(1973)\citenamefont {Martin}, \citenamefont {Siggia},\ and\ \citenamefont {Rose}}]{martin1973statistical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Paul~Cecil}\ \bibnamefont {Martin}}, \bibinfo {author} {\bibfnamefont {ED}~\bibnamefont {Siggia}}, \ and\ \bibinfo {author} {\bibfnamefont {HA}~\bibnamefont {Rose}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Statistical dynamics of classical systems},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {423} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ \emph {et~al.}(2023)\citenamefont {Oppenheim}, \citenamefont {Sparaciari}, \citenamefont {{\v{S}}oda},\ and\ \citenamefont {Weller-Davies}}]{oppenheim2022gravitationally}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \bibinfo {author} {\bibfnamefont {Carlo}\ \bibnamefont {Sparaciari}}, \bibinfo {author} {\bibfnamefont {Barbara}\ \bibnamefont {{\v{S}}oda}}, \ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {7910} (\bibinfo {year} {2023})},\ \bibinfo {note} {arXiv:2203.01982}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ \emph {et~al.}(2024{\natexlab{a}})\citenamefont {Oppenheim}, \citenamefont {Russo},\ and\ \citenamefont {Weller-Davies}}]{UCLNordstrom}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \bibinfo {author} {\bibfnamefont {Andrea}\ \bibnamefont {Russo}}, \ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Diffeomorphism invariant classical-quantum path integrals for Nordstr\"om gravity}},}\ }\href {\doibase 10.1103/PhysRevD.110.024007} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo {pages} {024007} (\bibinfo {year} {2024}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/2401.05514} {arXiv:2401.05514 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Layton}\ \emph {et~al.}(2023{\natexlab{b}})\citenamefont {Layton}, \citenamefont {Oppenheim}, \citenamefont {Russo},\ and\ \citenamefont {Weller-Davies}}]{layton2023weak}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Isaac}\ \bibnamefont {Layton}}, \bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \bibinfo {author} {\bibfnamefont {Andrea}\ \bibnamefont {Russo}}, \ and\ \bibinfo {author} {\bibfnamefont {Zachary}\ \bibnamefont {Weller-Davies}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The weak field limit of quantum matter back-reacting on classical spacetime},}\ }\href {https://arxiv.org/abs/2307.02557} {\bibfield  {journal} {\bibinfo  {journal} {Journal of High Energy Physics}\ }\textbf {\bibinfo {volume} {2023}},\ \bibinfo {pages} {1--43} (\bibinfo {year} {2023}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Risken}\ and\ \citenamefont {Risken}(1996)}]{risken1996fokker}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hannes}\ \bibnamefont {Risken}}\ and\ \bibinfo {author} {\bibfnamefont {Hannes}\ \bibnamefont {Risken}},\ }\href@noop {} {\emph {\bibinfo {title} {Fokker-planck equation}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {1996})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gardiner}(2004)}]{gardiner2004handbook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont {Gardiner}},\ }\href@noop {} {\emph {\bibinfo {title} {Handbook of stochastic methods for physics, chemistry and the natural sciences}}},\ \bibinfo {edition} {3rd}\ ed.,\ \bibinfo {series} {Springer Series in Synergetics}, Vol.~\bibinfo {volume} {13}\ (\bibinfo  {publisher} {Springer-Verlag},\ \bibinfo {address} {Berlin},\ \bibinfo {year} {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Julve}\ and\ \citenamefont {Tonin}(1978{\natexlab{a}})}]{julve19781978quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Julve}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Tonin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Quantum Gravity with Higher Derivative Terms}},}\ }\href {\doibase 10.1007/BF02748637} {\bibfield  {journal} {\bibinfo  {journal} {Nuovo Cim. B}\ }\textbf {\bibinfo {volume} {46}},\ \bibinfo {pages} {137--152} (\bibinfo {year} {1978}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fradkin}\ and\ \citenamefont {Tseytlin}(1981)}]{fradkin1981renormalizable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont {Fradkin}}\ and\ \bibinfo {author} {\bibfnamefont {Arkady~A.}\ \bibnamefont {Tseytlin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Renormalizable Asymptotically Free Quantum Theory of Gravity}},}\ }\href {\doibase 10.1016/0370-2693(81)90702-4} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages} {377--381} (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Benedetti}\ \emph {et~al.}(2009)\citenamefont {Benedetti}, \citenamefont {Machado},\ and\ \citenamefont {Saueressig}}]{benedetti2009asymtotic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Dario}\ \bibnamefont {Benedetti}}, \bibinfo {author} {\bibfnamefont {Pedro~F.}\ \bibnamefont {Machado}}, \ and\ \bibinfo {author} {\bibfnamefont {Frank}\ \bibnamefont {Saueressig}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Asymptotic safety in higher-derivative gravity}},}\ }\href {\doibase 10.1142/S0217732309031521} {\bibfield  {journal} {\bibinfo  {journal} {Mod. Phys. Lett. A}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo {pages} {2233--2241} (\bibinfo {year} {2009})},\ \Eprint {http://arxiv.org/abs/0901.2984} {arXiv:0901.2984 [hep-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buccio}\ \emph {et~al.}(2024)\citenamefont {Buccio}, \citenamefont {Donoghue}, \citenamefont {Menezes},\ and\ \citenamefont {Percacci}}]{buccio2024physical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Diego}\ \bibnamefont {Buccio}}, \bibinfo {author} {\bibfnamefont {John~F.}\ \bibnamefont {Donoghue}}, \bibinfo {author} {\bibfnamefont {Gabriel}\ \bibnamefont {Menezes}}, \ and\ \bibinfo {author} {\bibfnamefont {Roberto}\ \bibnamefont {Percacci}},\ }\href@noop {} {\enquote {\bibinfo {title} {Physical running of couplings in quadratic gravity},}\ } (\bibinfo {year} {2024}),\ \Eprint {http://arxiv.org/abs/2403.02397} {arXiv:2403.02397 [hep-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Penrose}(1977)}]{penrose1977proc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R}~\bibnamefont {Penrose}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Proc. 1st marcel grossmann meeting on general relativity},}\ }\href@noop {} {\  (\bibinfo {year} {1977})},\ \bibinfo {note} {p173}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ostrogradsky}(1850)}]{ostrogradsky1850memoire}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont {Ostrogradsky}},\ }\href@noop {} {\emph {\bibinfo {title} {M{\'e}moire sur les {\'e}quations diff{\'e}rentielles relatives an probl{\'e}me des isop{\'e}rim{\'e}tres}}}\ (\bibinfo  {publisher} {Mem.Acad.St.Petersbourg 6},\ \bibinfo {year} {1850})\ pp.\ \bibinfo {pages} {385--517}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Woodard}(2015)}]{woodard2015theorem}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Richard~P}\ \bibnamefont {Woodard}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The theorem of ostrogradsky},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:1506.02210}\ } (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ganz}\ and\ \citenamefont {Noui}(2021)}]{ganz2021reconsidering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alexander}\ \bibnamefont {Ganz}}\ and\ \bibinfo {author} {\bibfnamefont {Karim}\ \bibnamefont {Noui}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Reconsidering the ostrogradsky theorem: higher-derivatives lagrangians, ghosts and degeneracy},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo {volume} {38}},\ \bibinfo {pages} {075005} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {D{\"u}rr}\ and\ \citenamefont {Bach}(1978)}]{durr1978onsager}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Detlef}\ \bibnamefont {D{\"u}rr}}\ and\ \bibinfo {author} {\bibfnamefont {Alexander}\ \bibnamefont {Bach}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The onsager-machlup function as lagrangian for the most probable path of a diffusion process},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Communications in Mathematical Physics}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {153--170} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chao}\ and\ \citenamefont {Duan}(2019)}]{chao2019onsager}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ying}\ \bibnamefont {Chao}}\ and\ \bibinfo {author} {\bibfnamefont {Jinqiao}\ \bibnamefont {Duan}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The onsager--machlup function as lagrangian for the most probable path of a jump-diffusion process},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nonlinearity}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {3715} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feynman}\ and\ \citenamefont {Hibbs}(1965)}]{feynman1965quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Richard~P}\ \bibnamefont {Feynman}}\ and\ \bibinfo {author} {\bibfnamefont {Albert~R}\ \bibnamefont {Hibbs}},\ }\href@noop {} {\emph {\bibinfo {title} {Quantum mechanics and path integrals}}}\ (\bibinfo  {publisher} {McGraw-Hill, New York.},\ \bibinfo {year} {1965})\ \bibinfo {note} {section 12.6 on Brownian motion}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yasue}(1978)}]{yasue1978simple}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kunio}\ \bibnamefont {Yasue}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A simple derivation of the onsager--machlup formula for one-dimensional nonlinear diffusion process},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Mathematical Physics}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {1671--1673} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buchbinder}\ and\ \citenamefont {Shapiro}(2021)}]{buchbinder2021introduction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Iosif~L}\ \bibnamefont {Buchbinder}}\ and\ \bibinfo {author} {\bibfnamefont {Ilya}\ \bibnamefont {Shapiro}},\ }\href@noop {} {\emph {\bibinfo {title} {Introduction to quantum field theory with applications to quantum gravity}}}\ (\bibinfo  {publisher} {Oxford University Press, USA},\ \bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arnowitt}\ \emph {et~al.}(2008)\citenamefont {Arnowitt}, \citenamefont {Deser},\ and\ \citenamefont {Misner}}]{arnowitt2008republication}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Richard}\ \bibnamefont {Arnowitt}}, \bibinfo {author} {\bibfnamefont {Stanley}\ \bibnamefont {Deser}}, \ and\ \bibinfo {author} {\bibfnamefont {Charles~W}\ \bibnamefont {Misner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Republication of: The dynamics of general relativity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {General Relativity and Gravitation}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages} {1997--2027} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{bar()}]{barnes1963thesis}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {note} {K. J. Barnes, Ph.D. thesis (1963), unpublished.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Rivers}(1964)}]{rivers1964lagrangian}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {RJ}~\bibnamefont {Rivers}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Lagrangian theory for neutral massive spin-2 fields},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Il Nuovo Cimento (1955-1965)}\ }\textbf {\bibinfo {volume} {34}},\ \bibinfo {pages} {386--403} (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Van~Nieuwenhuizen}(1973)}]{van1973ghost}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Peter}\ \bibnamefont {Van~Nieuwenhuizen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On ghost-free tensor lagrangians and linearized gravitation},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {478--492} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bochner}(1933)}]{bochner1933monotone}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Salomon}\ \bibnamefont {Bochner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Monotone funktionen, stieltjessche integrale und harmonische analyse},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Mathematische Annalen}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo {pages} {378--410} (\bibinfo {year} {1933})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alvarez-Gaume}\ \emph {et~al.}(2016)\citenamefont {Alvarez-Gaume}, \citenamefont {Kehagias}, \citenamefont {Kounnas}, \citenamefont {L{\"u}st},\ and\ \citenamefont {Riotto}}]{alvarez2016aspects}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Luis}\ \bibnamefont {Alvarez-Gaume}}, \bibinfo {author} {\bibfnamefont {Alex}\ \bibnamefont {Kehagias}}, \bibinfo {author} {\bibfnamefont {Costas}\ \bibnamefont {Kounnas}}, \bibinfo {author} {\bibfnamefont {Dieter}\ \bibnamefont {L{\"u}st}}, \ and\ \bibinfo {author} {\bibfnamefont {Antonio}\ \bibnamefont {Riotto}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Aspects of quadratic gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Fortschritte der Physik}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo {pages} {176--189} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maldacena}(2011)}]{maldacena2011einstein}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Juan}\ \bibnamefont {Maldacena}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Einstein gravity from conformal gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:1105.5632}\ } (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salvio}\ and\ \citenamefont {Strumia}(2014)}]{salvio2014agravity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alberto}\ \bibnamefont {Salvio}}\ and\ \bibinfo {author} {\bibfnamefont {Alessandro}\ \bibnamefont {Strumia}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Agravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of High Energy Physics}\ }\textbf {\bibinfo {volume} {2014}},\ \bibinfo {pages} {1--26} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Julve}\ and\ \citenamefont {Tonin}(1978{\natexlab{b}})}]{julve1978quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J}~\bibnamefont {Julve}}\ and\ \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Tonin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum gravity with higher derivative terms},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nuovo Cim., B}\ }\textbf {\bibinfo {volume} {46}},\ \bibinfo {pages} {137--152} (\bibinfo {year} {1978}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fradkin}\ and\ \citenamefont {Tseytlin}(1982)}]{fradkin1982renormalizable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {ES}~\bibnamefont {Fradkin}}\ and\ \bibinfo {author} {\bibfnamefont {Arkady~A}\ \bibnamefont {Tseytlin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Renormalizable asymptotically free quantum theory of gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo {volume} {201}},\ \bibinfo {pages} {469--491} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boulware}\ \emph {et~al.}(1983)\citenamefont {Boulware}, \citenamefont {Horowitz},\ and\ \citenamefont {Strominger}}]{boulware1983zero}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {David~G}\ \bibnamefont {Boulware}}, \bibinfo {author} {\bibfnamefont {Gary~T}\ \bibnamefont {Horowitz}}, \ and\ \bibinfo {author} {\bibfnamefont {Andrew}\ \bibnamefont {Strominger}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Zero-energy theorem for scale-invariant gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo {pages} {1726} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {David}\ and\ \citenamefont {Strominger}(1984)}]{david1984calculability}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Francois}\ \bibnamefont {David}}\ and\ \bibinfo {author} {\bibfnamefont {Andrew}\ \bibnamefont {Strominger}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On the calculability of newton's constant and the renormalizability of scale invariant quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume} {143}},\ \bibinfo {pages} {125--129} (\bibinfo {year} {1984})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bose}\ \emph {et~al.}(2017)\citenamefont {Bose}, \citenamefont {Mazumdar}, \citenamefont {Morley}, \citenamefont {Ulbricht}, \citenamefont {Toro{\v{s}}}, \citenamefont {Paternostro}, \citenamefont {Geraci}, \citenamefont {Barker}, \citenamefont {Kim},\ and\ \citenamefont {Milburn}}]{bose2017spin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sougato}\ \bibnamefont {Bose}}, \bibinfo {author} {\bibfnamefont {Anupam}\ \bibnamefont {Mazumdar}}, \bibinfo {author} {\bibfnamefont {Gavin~W}\ \bibnamefont {Morley}}, \bibinfo {author} {\bibfnamefont {Hendrik}\ \bibnamefont {Ulbricht}}, \bibinfo {author} {\bibfnamefont {Marko}\ \bibnamefont {Toro{\v{s}}}}, \bibinfo {author} {\bibfnamefont {Mauro}\ \bibnamefont {Paternostro}}, \bibinfo {author} {\bibfnamefont {Andrew~A}\ \bibnamefont {Geraci}}, \bibinfo {author} {\bibfnamefont {Peter~F}\ \bibnamefont {Barker}}, \bibinfo {author} {\bibfnamefont {MS}~\bibnamefont {Kim}}, \ and\ \bibinfo {author} {\bibfnamefont {Gerard}\ \bibnamefont {Milburn}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Spin entanglement witness for quantum gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages} {240401} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Marletto}\ and\ \citenamefont {Vedral}(2017)}]{marletto2017gravitationally}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chiara}\ \bibnamefont {Marletto}}\ and\ \bibinfo {author} {\bibfnamefont {Vlatko}\ \bibnamefont {Vedral}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Gravitationally induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages} {240402} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoyle}\ \emph {et~al.}(2004)\citenamefont {Hoyle}, \citenamefont {Kapner}, \citenamefont {Heckel}, \citenamefont {Adelberger}, \citenamefont {Gundlach}, \citenamefont {Schmidt},\ and\ \citenamefont {Swanson}}]{hoyle2004submillimeter}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Charles~D}\ \bibnamefont {Hoyle}}, \bibinfo {author} {\bibfnamefont {DJ}~\bibnamefont {Kapner}}, \bibinfo {author} {\bibfnamefont {Blayne~R}\ \bibnamefont {Heckel}}, \bibinfo {author} {\bibfnamefont {EG}~\bibnamefont {Adelberger}}, \bibinfo {author} {\bibfnamefont {JH}~\bibnamefont {Gundlach}}, \bibinfo {author} {\bibfnamefont {U}~\bibnamefont {Schmidt}}, \ and\ \bibinfo {author} {\bibfnamefont {HE}~\bibnamefont {Swanson}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Submillimeter tests of the gravitational inverse-square law},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {042004} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carney}\ \emph {et~al.}(2019)\citenamefont {Carney}, \citenamefont {Stamp},\ and\ \citenamefont {Taylor}}]{carney2019tabletop}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont {Carney}}, \bibinfo {author} {\bibfnamefont {Philip~CE}\ \bibnamefont {Stamp}}, \ and\ \bibinfo {author} {\bibfnamefont {Jacob~M}\ \bibnamefont {Taylor}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Tabletop experiments for quantum gravity: a user’s manual},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo {volume} {36}},\ \bibinfo {pages} {034001} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Westphal}\ \emph {et~al.}(2021)\citenamefont {Westphal}, \citenamefont {Hepach}, \citenamefont {Pfaff},\ and\ \citenamefont {Aspelmeyer}}]{westphal2021measurement}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Tobias}\ \bibnamefont {Westphal}}, \bibinfo {author} {\bibfnamefont {Hans}\ \bibnamefont {Hepach}}, \bibinfo {author} {\bibfnamefont {Jeremias}\ \bibnamefont {Pfaff}}, \ and\ \bibinfo {author} {\bibfnamefont {Markus}\ \bibnamefont {Aspelmeyer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Measurement of gravitational coupling between millimetre-sized masses},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {591}},\ \bibinfo {pages} {225--228} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fuchs}\ \emph {et~al.}(2024)\citenamefont {Fuchs}, \citenamefont {Uitenbroek}, \citenamefont {Plugge}, \citenamefont {van Halteren}, \citenamefont {van Soest}, \citenamefont {Vinante}, \citenamefont {Ulbricht},\ and\ \citenamefont {Oosterkamp}}]{fuchs2024measuring}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Tim~M}\ \bibnamefont {Fuchs}}, \bibinfo {author} {\bibfnamefont {Dennis~G}\ \bibnamefont {Uitenbroek}}, \bibinfo {author} {\bibfnamefont {Jaimy}\ \bibnamefont {Plugge}}, \bibinfo {author} {\bibfnamefont {Noud}\ \bibnamefont {van Halteren}}, \bibinfo {author} {\bibfnamefont {Jean-Paul}\ \bibnamefont {van Soest}}, \bibinfo {author} {\bibfnamefont {Andrea}\ \bibnamefont {Vinante}}, \bibinfo {author} {\bibfnamefont {Hendrik}\ \bibnamefont {Ulbricht}}, \ and\ \bibinfo {author} {\bibfnamefont {Tjerk~H}\ \bibnamefont {Oosterkamp}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Measuring gravity with milligram levitated masses},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Science Advances}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {eadk2949} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Janse}\ \emph {et~al.}(2024)\citenamefont {Janse}, \citenamefont {Uitenbroek}, \citenamefont {van Everdingen}, \citenamefont {Plugge}, \citenamefont {Hensen},\ and\ \citenamefont {Oosterkamp}}]{janse2024current}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Martijn}\ \bibnamefont {Janse}}, \bibinfo {author} {\bibfnamefont {Dennis~G}\ \bibnamefont {Uitenbroek}}, \bibinfo {author} {\bibfnamefont {Loek}\ \bibnamefont {van Everdingen}}, \bibinfo {author} {\bibfnamefont {Jaimy}\ \bibnamefont {Plugge}}, \bibinfo {author} {\bibfnamefont {Bas}\ \bibnamefont {Hensen}}, \ and\ \bibinfo {author} {\bibfnamefont {Tjerk~H}\ \bibnamefont {Oosterkamp}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Current experimental upper bounds on spacetime diffusion},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2403.08912}\ } (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Armano}\ \emph {et~al.}(2018)\citenamefont {Armano}, \citenamefont {Audley}, \citenamefont {Baird}, \citenamefont {Binetruy}, \citenamefont {Born}, \citenamefont {Bortoluzzi}, \citenamefont {Castelli}, \citenamefont {Cavalleri}, \citenamefont {Cesarini}, \citenamefont {Cruise} \emph {et~al.}}]{armano2018beyond}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michele}\ \bibnamefont {Armano}}, \bibinfo {author} {\bibfnamefont {H}~\bibnamefont {Audley}}, \bibinfo {author} {\bibfnamefont {J}~\bibnamefont {Baird}}, \bibinfo {author} {\bibfnamefont {P}~\bibnamefont {Binetruy}}, \bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont {Born}}, \bibinfo {author} {\bibfnamefont {D}~\bibnamefont {Bortoluzzi}}, \bibinfo {author} {\bibfnamefont {Eleonora}\ \bibnamefont {Castelli}}, \bibinfo {author} {\bibfnamefont {A}~\bibnamefont {Cavalleri}}, \bibinfo {author} {\bibfnamefont {A}~\bibnamefont {Cesarini}}, \bibinfo {author} {\bibfnamefont {AM}~\bibnamefont {Cruise}},  \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Beyond the required lisa free-fall performance: new lisa pathfinder results down to 20 $\mu$ hz},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {120}},\ \bibinfo {pages} {061101} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mach}(1919)}]{mach1919science}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ernst}\ \bibnamefont {Mach}},\ }\href@noop {} {\emph {\bibinfo {title} {The Science of Mechanics: A Critical and Historical Account of Its Development}}},\ \bibinfo {edition} {4th}\ ed.\ (\bibinfo  {publisher} {Open Court Publishing Company},\ \bibinfo {address} {Chicago},\ \bibinfo {year} {1919})\ \bibinfo {note} {translated by Thomas J. McCormack}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Armano}\ \emph {et~al.}(2024)\citenamefont {Armano}, \citenamefont {Audley}, \citenamefont {Baird}, \citenamefont {Binetruy}, \citenamefont {Born}, \citenamefont {Bortoluzzi}, \citenamefont {Castelli}, \citenamefont {Cavalleri}, \citenamefont {Cesarini}, \citenamefont {Chiavegato} \emph {et~al.}}]{armano2024depth}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Armano}}, \bibinfo {author} {\bibfnamefont {H}~\bibnamefont {Audley}}, \bibinfo {author} {\bibfnamefont {J}~\bibnamefont {Baird}}, \bibinfo {author} {\bibfnamefont {P}~\bibnamefont {Binetruy}}, \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Born}}, \bibinfo {author} {\bibfnamefont {D}~\bibnamefont {Bortoluzzi}}, \bibinfo {author} {\bibfnamefont {E}~\bibnamefont {Castelli}}, \bibinfo {author} {\bibfnamefont {A}~\bibnamefont {Cavalleri}}, \bibinfo {author} {\bibfnamefont {A}~\bibnamefont {Cesarini}}, \bibinfo {author} {\bibfnamefont {V}~\bibnamefont {Chiavegato}},  \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title} {In-depth analysis of lisa pathfinder performance results: Time evolution, noise projection, physical models, and implications for lisa},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo {pages} {042004} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hall}\ and\ \citenamefont {Reginatto}(2005)}]{hall2005interacting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael~JW}\ \bibnamefont {Hall}}\ and\ \bibinfo {author} {\bibfnamefont {Marcel}\ \bibnamefont {Reginatto}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Interacting classical and quantum ensembles},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo {pages} {062109} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Diosi}(1987)}]{diosi1987universal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lajos}\ \bibnamefont {Diosi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A universal master equation for the gravitational violation of quantum mechanics},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics letters A}\ }\textbf {\bibinfo {volume} {120}},\ \bibinfo {pages} {377--381} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Penrose}(1998)}]{penrose1998quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Roger}\ \bibnamefont {Penrose}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum computation, entanglement and state reduction},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Philosophical transactions-royal society of London series a mathematical physical and engineering sciences}\ ,\ \bibinfo {pages} {1927--1937}} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gerlich}\ \emph {et~al.}(2011)\citenamefont {Gerlich}, \citenamefont {Eibenberger}, \citenamefont {Tomandl}, \citenamefont {Nimmrichter}, \citenamefont {Hornberger}, \citenamefont {Fagan}, \citenamefont {Tüxen}, \citenamefont {Mayor},\ and\ \citenamefont {Arndt}}]{Gerlich2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont {Gerlich}}, \bibinfo {author} {\bibfnamefont {Sandra}\ \bibnamefont {Eibenberger}}, \bibinfo {author} {\bibfnamefont {Mathias}\ \bibnamefont {Tomandl}}, \bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont {Nimmrichter}}, \bibinfo {author} {\bibfnamefont {Klaus}\ \bibnamefont {Hornberger}}, \bibinfo {author} {\bibfnamefont {Paul}\ \bibnamefont {Fagan}}, \bibinfo {author} {\bibfnamefont {Jens}\ \bibnamefont {Tüxen}}, \bibinfo {author} {\bibfnamefont {Marcel}\ \bibnamefont {Mayor}}, \ and\ \bibinfo {author} {\bibfnamefont {Markus}\ \bibnamefont {Arndt}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum interference of large organic molecules},}\ }\href {\doibase 10.1038/ncomms1263} {\bibfield  {journal} {\bibinfo  {journal} {Nature communications}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {263} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fein}\ \emph {et~al.}(2019)\citenamefont {Fein}, \citenamefont {Geyer}, \citenamefont {Zwick}, \citenamefont {Kia{\l}ka}, \citenamefont {Pedalino}, \citenamefont {Mayor}, \citenamefont {Gerlich},\ and\ \citenamefont {Arndt}}]{fein2019quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yaakov~Y}\ \bibnamefont {Fein}}, \bibinfo {author} {\bibfnamefont {Philipp}\ \bibnamefont {Geyer}}, \bibinfo {author} {\bibfnamefont {Patrick}\ \bibnamefont {Zwick}}, \bibinfo {author} {\bibfnamefont {Filip}\ \bibnamefont {Kia{\l}ka}}, \bibinfo {author} {\bibfnamefont {Sebastian}\ \bibnamefont {Pedalino}}, \bibinfo {author} {\bibfnamefont {Marcel}\ \bibnamefont {Mayor}}, \bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont {Gerlich}}, \ and\ \bibinfo {author} {\bibfnamefont {Markus}\ \bibnamefont {Arndt}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum superposition of molecules beyond 25 kda},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {1242--1245} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2019)\citenamefont {Xu}, \citenamefont {Jaffe}, \citenamefont {Panda}, \citenamefont {Kristensen}, \citenamefont {Clark},\ and\ \citenamefont {M{\"u}ller}}]{xu2019probing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Victoria}\ \bibnamefont {Xu}}, \bibinfo {author} {\bibfnamefont {Matt}\ \bibnamefont {Jaffe}}, \bibinfo {author} {\bibfnamefont {Cristian~D}\ \bibnamefont {Panda}}, \bibinfo {author} {\bibfnamefont {Sofus~L}\ \bibnamefont {Kristensen}}, \bibinfo {author} {\bibfnamefont {Logan~W}\ \bibnamefont {Clark}}, \ and\ \bibinfo {author} {\bibfnamefont {Holger}\ \bibnamefont {M{\"u}ller}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Probing gravity by holding atoms for 20 seconds},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume} {366}},\ \bibinfo {pages} {745--749} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Panda}\ \emph {et~al.}(2024)\citenamefont {Panda}, \citenamefont {Tao}, \citenamefont {Egelhoff}, \citenamefont {Ceja}, \citenamefont {Xu},\ and\ \citenamefont {M{\"u}ller}}]{panda2024coherence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Cristian~D}\ \bibnamefont {Panda}}, \bibinfo {author} {\bibfnamefont {Matthew}\ \bibnamefont {Tao}}, \bibinfo {author} {\bibfnamefont {James}\ \bibnamefont {Egelhoff}}, \bibinfo {author} {\bibfnamefont {Miguel}\ \bibnamefont {Ceja}}, \bibinfo {author} {\bibfnamefont {Victoria}\ \bibnamefont {Xu}}, \ and\ \bibinfo {author} {\bibfnamefont {Holger}\ \bibnamefont {M{\"u}ller}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Coherence limits in lattice atom interferometry at the one-minute scale},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ ,\ \bibinfo {pages} {1--6}} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ \emph {et~al.}(2024{\natexlab{b}})\citenamefont {Oppenheim}, \citenamefont {Panella},\ and\ \citenamefont {Pontzen}}]{oppenheim2024emergence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}, \bibinfo {author} {\bibfnamefont {Emanuele}\ \bibnamefont {Panella}}, \ and\ \bibinfo {author} {\bibfnamefont {Andrew}\ \bibnamefont {Pontzen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Emergence of phantom cold dark matter from spacetime diffusion},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2407.13820}\ } (\bibinfo {year} {2024}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grunau}\ and\ \citenamefont {Robert}(2010)}]{grunau2010positivity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hans-Christoph}\ \bibnamefont {Grunau}}\ and\ \bibinfo {author} {\bibfnamefont {Fr{\'e}d{\'e}ric}\ \bibnamefont {Robert}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Positivity and almost positivity of biharmonic green’s functions under dirichlet boundary conditions},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Archive for rational mechanics and analysis}\ }\textbf {\bibinfo {volume} {195}},\ \bibinfo {pages} {865--898} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oppenheim}\ and\ \citenamefont {Russo}(2024)}]{UCLDMDNE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}}\ and\ \bibinfo {author} {\bibfnamefont {Andrea}\ \bibnamefont {Russo}},\ }\href {https://arxiv.org/abs/2402.19459} {\enquote {\bibinfo {title} {Anomalous contribution to galactic rotation curves due to stochastic spacetime},}\ } (\bibinfo {year} {2024}),\ \Eprint {http://arxiv.org/abs/2402.19459} {arXiv:2402.19459 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Platania}(2023)}]{platania2023black}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alessia}\ \bibnamefont {Platania}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Black holes in asymptotically safe gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2302.04272}\ } (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lami}\ \emph {et~al.}(2023)\citenamefont {Lami}, \citenamefont {Pedernales},\ and\ \citenamefont {Plenio}}]{lami2023testing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ludovico}\ \bibnamefont {Lami}}, \bibinfo {author} {\bibfnamefont {Julen~S}\ \bibnamefont {Pedernales}}, \ and\ \bibinfo {author} {\bibfnamefont {Martin~B}\ \bibnamefont {Plenio}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Testing the quantumness of gravity without entanglement},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2302.03075}\ } (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kryhin}\ and\ \citenamefont {Sudhir}(2023)}]{kryhin2023distinguishable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Serhii}\ \bibnamefont {Kryhin}}\ and\ \bibinfo {author} {\bibfnamefont {Vivishek}\ \bibnamefont {Sudhir}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Distinguishable consequence of classical gravity on quantum matter},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2309.09105}\ } (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Banks}}\ \emph {et~al.}(1984)\citenamefont {{Banks}}, \citenamefont {{Peskin}},\ and\ \citenamefont {{Susskind}}}]{bps}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Banks}}}, \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont {{Peskin}}}, \ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {{Susskind}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Difficulties for the evolution of pure states into mixed states}},}\ }\href {\doibase 10.1016/0550-3213(84)90184-6} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo {volume} {244}},\ \bibinfo {pages} {125--134} (\bibinfo {year} {1984})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ballentine}(1991)}]{ballentine1991failure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {LE}~\bibnamefont {Ballentine}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Failure of some theories of state reduction},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {9} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gallis}\ and\ \citenamefont {Fleming}(1991)}]{gallis1991comparison}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael~R}\ \bibnamefont {Gallis}}\ and\ \bibinfo {author} {\bibfnamefont {Gordon~N}\ \bibnamefont {Fleming}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Comparison of quantum open-system models with localization},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {5778} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shimony}(1990)}]{shimony1990desiderata}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Abner}\ \bibnamefont {Shimony}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Desiderata for a modified quantum dynamics},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association}}},\ \bibinfo {series and number} {\bibinfo {number} {2}}\ (\bibinfo {organization} {Philosophy of Science Association},\ \bibinfo {year} {1990})\ pp.\ \bibinfo {pages} {49--59}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helou}\ \emph {et~al.}(2017)\citenamefont {Helou}, \citenamefont {Slagmolen}, \citenamefont {McClelland},\ and\ \citenamefont {Chen}}]{helou2017lisa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bassam}\ \bibnamefont {Helou}}, \bibinfo {author} {\bibfnamefont {BJJ}\ \bibnamefont {Slagmolen}}, \bibinfo {author} {\bibfnamefont {David~E}\ \bibnamefont {McClelland}}, \ and\ \bibinfo {author} {\bibfnamefont {Yanbei}\ \bibnamefont {Chen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Lisa pathfinder appreciably constrains collapse models},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages} {084054} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Donadi}\ \emph {et~al.}(2021)\citenamefont {Donadi}, \citenamefont {Piscicchia}, \citenamefont {Curceanu}, \citenamefont {Di{\'o}si}, \citenamefont {Laubenstein},\ and\ \citenamefont {Bassi}}]{donadi2021underground}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sandro}\ \bibnamefont {Donadi}}, \bibinfo {author} {\bibfnamefont {Kristian}\ \bibnamefont {Piscicchia}}, \bibinfo {author} {\bibfnamefont {Catalina}\ \bibnamefont {Curceanu}}, \bibinfo {author} {\bibfnamefont {Lajos}\ \bibnamefont {Di{\'o}si}}, \bibinfo {author} {\bibfnamefont {Matthias}\ \bibnamefont {Laubenstein}}, \ and\ \bibinfo {author} {\bibfnamefont {Angelo}\ \bibnamefont {Bassi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Underground test of gravity-related wave function collapse},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {74--78} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Starobinsky}(1980)}]{starobinsky1980new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alexei~A}\ \bibnamefont {Starobinsky}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A new type of isotropic cosmological models without singularity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages} {99--102} (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vilenkin}(1985)}]{vilenkin1985classical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alexander}\ \bibnamefont {Vilenkin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Classical and quantum cosmology of the starobinsky inflationary model},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {2511} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2018)\citenamefont {Liu}, \citenamefont {Prokopec},\ and\ \citenamefont {Starobinsky}}]{liu2018inflation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lei-Hua}\ \bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {Tomislav}\ \bibnamefont {Prokopec}}, \ and\ \bibinfo {author} {\bibfnamefont {Alexei~A}\ \bibnamefont {Starobinsky}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Inflation in an effective gravitational model and asymptotic safety},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo {pages} {043505} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Akrami}\ \emph {et~al.}(2020)\citenamefont {Akrami}, \citenamefont {Arroja}, \citenamefont {Ashdown}, \citenamefont {Aumont}, \citenamefont {Baccigalupi}, \citenamefont {Ballardini}, \citenamefont {Banday}, \citenamefont {Barreiro}, \citenamefont {Bartolo}, \citenamefont {Basak} \emph {et~al.}}]{akrami2020planck}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yashar}\ \bibnamefont {Akrami}}, \bibinfo {author} {\bibfnamefont {Frederico}\ \bibnamefont {Arroja}}, \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Ashdown}}, \bibinfo {author} {\bibfnamefont {J}~\bibnamefont {Aumont}}, \bibinfo {author} {\bibfnamefont {Carlo}\ \bibnamefont {Baccigalupi}}, \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Ballardini}}, \bibinfo {author} {\bibfnamefont {Anthony~J}\ \bibnamefont {Banday}}, \bibinfo {author} {\bibfnamefont {RB}~\bibnamefont {Barreiro}}, \bibinfo {author} {\bibfnamefont {Nicola}\ \bibnamefont {Bartolo}}, \bibinfo {author} {\bibfnamefont {S}~\bibnamefont {Basak}},  \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Planck 2018 results-x. constraints on inflation},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Astronomy \& Astrophysics}\ }\textbf {\bibinfo {volume} {641}},\ \bibinfo {pages} {A10} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adler}(1982)}]{adler1982einstein}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stephen~L}\ \bibnamefont {Adler}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Einstein gravity as a symmetry-breaking effect in quantum field theory},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {54}},\ \bibinfo {pages} {729} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baidya}\ \emph {et~al.}(2017)\citenamefont {Baidya}, \citenamefont {Jana}, \citenamefont {Loganayagam},\ and\ \citenamefont {Rudra}}]{baidya2017renormalization}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Avinash}\ \bibnamefont {Baidya}}, \bibinfo {author} {\bibfnamefont {Chandan}\ \bibnamefont {Jana}}, \bibinfo {author} {\bibfnamefont {R}~\bibnamefont {Loganayagam}}, \ and\ \bibinfo {author} {\bibfnamefont {Arnab}\ \bibnamefont {Rudra}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Renormalization in open quantum field theory. part i. scalar field theory},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of High Energy Physics}\ }\textbf {\bibinfo {volume} {2017}},\ \bibinfo {pages} {204} (\bibinfo {year} {2017})},\ \bibinfo {note} {also, initial work by Poulin and Preskill (unpublished note)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Layton}\ and\ \citenamefont {Oppenheim}(2022)}]{UCLQQtoCQ}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Isaac}\ \bibnamefont {Layton}}\ and\ \bibinfo {author} {\bibfnamefont {Jonathan}\ \bibnamefont {Oppenheim}},\ }\href@noop {} {\enquote {\bibinfo {title} {An effective semi-classical limit},}\ } (\bibinfo {year} {2022}),\ \bibinfo {note} {manuscript in preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Freidlin}\ and\ \citenamefont {Wentzell}(1998)}]{freidlin1998random}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Mark~Iosifovich}\ \bibnamefont {Freidlin}}\ and\ \bibinfo {author} {\bibfnamefont {Alexander~D}\ \bibnamefont {Wentzell}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Random perturbations},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Random perturbations of dynamical systems}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {1998})\ pp.\ \bibinfo {pages} {15--43}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Weber}\ and\ \citenamefont {Frey}(2017)}]{Weber_2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Markus~F}\ \bibnamefont {Weber}}\ and\ \bibinfo {author} {\bibfnamefont {Erwin}\ \bibnamefont {Frey}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Master equations and the theory of stochastic path integrals},}\ }\href {\doibase 10.1088/1361-6633/aa5ae2} {\bibfield  {journal} {\bibinfo  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {046601} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kleinert}(2009)}]{Kleinert}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hagen}\ \bibnamefont {Kleinert}},\ }\href {\doibase 10.1142/7305} {\emph {\bibinfo {title} {Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets}}},\ \bibinfo {edition} {5th}\ ed.\ (\bibinfo  {publisher} {WORLD SCIENTIFIC},\ \bibinfo {year} {2009})\ \Eprint {http://arxiv.org/abs/https://www.worldscientific.com/doi/pdf/10.1142/7305} {https://www.worldscientific.com/doi/pdf/10.1142/7305} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lindblad}(1976)}]{Lindblad:1975ef}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Goran}\ \bibnamefont {Lindblad}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{On the Generators of Quantum Dynamical Semigroups}},}\ }\href {\doibase 10.1007/BF01608499} {\bibfield  {journal} {\bibinfo  {journal} {Commun. Math. Phys.}\ }\textbf {\bibinfo {volume} {48}},\ \bibinfo {pages} {119} (\bibinfo {year} {1976})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gorini}\ \emph {et~al.}(1976)\citenamefont {Gorini}, \citenamefont {Kossakowski},\ and\ \citenamefont {Sudarshan}}]{GKS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Vittorio}\ \bibnamefont {Gorini}}, \bibinfo {author} {\bibfnamefont {Andrzej}\ \bibnamefont {Kossakowski}}, \ and\ \bibinfo {author} {\bibfnamefont {E.~C.~G.}\ \bibnamefont {Sudarshan}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Completely positive dynamical semigroups of n‐level systems},}\ }\href {\doibase 10.1063/1.522979} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Mathematical Physics}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {821--825} (\bibinfo {year} {1976})},\ \Eprint {http://arxiv.org/abs/https://aip.scitation.org/doi/pdf/10.1063/1.522979} {https://aip.scitation.org/doi/pdf/10.1063/1.522979} \BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -46,7 +46,7 @@ $$
 
 Under the standard hypotheses, the inclusion generates a positive-energy translation group $U(a)$ on the Hilbert space. The full $U(a)$ is reversible, but its action preserves a chosen algebra by inclusion only on one half-line. Relative to that algebra, one obtains a semigroup of endomorphic inclusions. This is the precise sense in which a group at the ambient level can induce one-sided action on an observable region.
 
-The observer/wall structures needed to instantiate such an inclusion are part of [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]], not consequences of modular theory alone.
+The observer/wall structures needed to instantiate such an inclusion are part of [[wall-construction-interface/entry|the wall-construction interface]], not consequences of modular theory alone.
 
 ## Programme claim
 

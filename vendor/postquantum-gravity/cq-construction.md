@@ -18,7 +18,7 @@ Intuitively $p$ is the probability of the classical configuration and $\hat\sigm
 
 ## The path integral
 
-The configuration-space CQ path integral of [[sources/2rcd-dzcf.pdf|Oppenheim and Weller-Davies]] evolves the components of the density matrix with weight $e^{\mathcal I_{CQ}}$, where
+The configuration-space CQ path integral of [[library/covariant-cq-path-integrals/entry|Oppenheim and Weller-Davies]] evolves the components of the density matrix with weight $e^{\mathcal I_{CQ}}$, where
 
 $$
 \mathcal I_{CQ}

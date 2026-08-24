@@ -38,7 +38,7 @@ Whether the path-integral theory is equivalent to the master-equation theory is 
 
 The renormalisation-group map from laboratory to cosmological scales cannot currently be performed, so the cosmological applications import laboratory bounds by assumption.
 
-The quoted bounds on the dimensionless coupling do not agree across the sources: the renormalisation paper's window and the newest sector-resolved one are disjoint, as recorded in [[empirical-status]]. Until that is reconciled, no single number should be cited as *the* bound.
+The quoted bounds on the dimensionless coupling do not agree across the sources: the renormalisation paper's window and the newest sector-resolved one are disjoint, as recorded in [[vendor/postquantum-gravity/empirical-status|empirical status]]. Until that is reconciled, no single number should be cited as *the* bound.
 
 ## Weaknesses the audit adds
 

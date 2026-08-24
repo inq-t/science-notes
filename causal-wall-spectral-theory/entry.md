@@ -1,81 +1,83 @@
 # Causal-Wall Spectral Theory
 
-Causal-Wall Spectral Theory is a non-peer-reviewed research programme that treats primordial scalar structure as the correlation geometry of the dimensionless inhomogeneous scale residue in $-\delta\ln\sigma=\delta N+\zeta_{\mathrm{wall}}$. Its Fourier identities are exact definitions, and a standard domain-wall/cosmology dictionary supplies a conditional spectral representation; the causal-wall state family, its information-geometric weld to that representation, and the covariant spacetime descent remain unconstructed. The present result is therefore a disciplined formulation of a target, not a microscopic completion; on its imported-fiber reading it does not claim to derive QFT or the Standard Model.
+Causal-Wall Spectral Theory is the programme's conditional inhomogeneous-response branch: it asks whether a physical residue of local scale presentation can be realized as one block of causal state-space geometry and represented as the precision of primordial curvature correlations. Its exact Fourier and critical-kernel mathematics is reusable, its holographic dictionary is optional and vendored, and its decisive wall-to-state, state-to-spectrum, and spectrum-to-spacetime arrows remain open.
 
-> [!warning] Status of the long source
-> The [editable v3 source](latest-version/Causal_Wall_Spectral_Theory_v3.tex) and [rendered PDF](latest-version/Causal_Wall_Spectral_Theory_v3.pdf) are the latest master document. Version 3 corrects several genuine errors in v2, but its phrases “exact holographic dictionary” and “exact weld” still need the domain and hypotheses recorded in [[causal-wall-spectral-theory/claim-audit|the claim audit]]. The v3 [[causal-wall-spectral-theory/latest-version/Causal_Wall_Spectral_Theory_v3_referee_disposition|referee disposition]] is a revision record, not an independent validation. Files under `old-versions/` and `convo/` remain source history rather than canonical statements of the theory.
+## The ordered line of thought
 
-The primary literature, official likelihoods, released chains, and reproducibility code used in this review are mirrored in [[causal-wall-spectral-theory/sources/entry|the local source library]]. Canonical citations below resolve to those local copies; upstream locations are kept only in the library's provenance ledger.
-
-## Construction
-
-1. [[causal-scale-interface|The causal-scale interface]] must distinguish the observer-region algebra, the horizon or cut reduction, and a possible three-dimensional spectral representation. Local QFT may supply the fibers; the proposed new structure is the horizontal scale-to-state relation.
-2. [[information-geometric-weld|The information-geometric weld]] starts with a scale-indexed state family and an exact exponential-family Hessian lemma. It still needs a continuum algebraic realization and a proof that its BKM kernel becomes the cosmological probability or 1PI precision.
-3. [[spectral-dictionary|The spectral dictionary]] fixes the scalar and tensor normalizations in a domain-wall/cosmology member. It is not a universal identity for every QFT or every causal wall.
-4. [[critical-kernel|The critical kernel]] follows from homogeneity, isotropy, positivity, dilation covariance, and a dimensionless scalar. The flat kernel has $|k|^3$ shape; a curved $P_3$ representative additionally depends on filling and domain data.
-5. [[cosmological-descent|Cosmological descent]] must identify the wall residue with a gauge-invariant curvature perturbation, supply a conserved passive mode, and connect the scalar, tensor, and higher-point responses to ordinary Einstein--Boltzmann transfer.
-
-The [[interpretation|non-stochastic interpretation]] is a separate reading of this construction: it denies that the data require ontological random kicks, but does not eliminate operational probability or solve quantum measurement. [[causal-wall-spectral-theory/open-problems|The theorem programme]] records the construction, local-preservation, and falsification conditions.
-
-## Central conditional chain
-
-Let $\zeta_{\mathrm{cos}}$ denote the gauge-invariant cosmological curvature perturbation used in the observable power spectrum; in this section $\zeta$ abbreviates $\zeta_{\mathrm{cos}}$. On its physical nonzero-mode subspace, define scalar precision as inverse covariance:
+The canonical ontology comes from [[program-core/entry|the programme core]]. Around a homogeneous scale section, write schematically
 
 $$
-\mathcal K_\zeta(k)
-:=P_\zeta(k)^{-1}
-=\frac{k^3}{2\pi^2\Delta_\zeta^2(k)}.
+-\delta\ln\sigma(x)
+=\delta N+\zeta_{\mathrm{wall}}(x),
 $$
 
-For a cosmology possessing the required holographic representation, let $\rho_B^{\mathrm{cos}}(k)>0$ denote the appropriately continued spin-zero response. With the registered normalization
+where \(\delta N\) is the homogeneous scale direction and \(\zeta_{\mathrm{wall}}\) is an inhomogeneous residue after the constant mode has been removed. This vector-space decomposition is not yet the physical quotient. Gauge, constraint, boundary, central-normalization, and genuinely null directions must be treated by [[program-core/physical-quotient|the physical quotient]], and a zero mode of an information metric is not automatically gauge.
+
+The required state family is shared with the homogeneous programme:
 
 $$
-\rho_B^{\mathrm{cos}}(k)
-:=\frac{\pi^2}{64}c^{(0)}(k)k^3,
-\qquad
-\mathcal I_\zeta(k):=\frac{\pi^4}{4}c^{(0)}(k),
+N\longmapsto
+(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}).
 $$
 
-the dictionary is
+[[wall-construction-interface/entry|The wall-construction interface]] owns the regions, algebras, states, cross-fiber transport, and state-selection law. CWST does not keep a private copy of that construction. It asks the interface to return a physical inhomogeneous tangent sector and its response block
 
 $$
-\boxed{
-\mathcal K_\zeta(k)
-=8\rho_B^{\mathrm{cos}}(k)
-=\frac{\pi^2}{8}c^{(0)}(k)k^3
-=\frac{\mathcal I_\zeta(k)}{2\pi^2}k^3,
-\qquad
-\Delta_\zeta^2(k)=\mathcal I_\zeta(k)^{-1}.}
+G^{\mathrm{BKM}}_{\zeta\zeta}.
 $$
 
-The first equality, $\mathcal K_\zeta=8\rho_B^{\mathrm{cos}}$, is conditional on the stated domain-wall/cosmology representation. The remaining equalities follow algebraically from the registered definitions. The specifically causal-wall claims are the two still-open identifications
+[[basic-concepts/hessians/symmetrized-relative-entropy-hessian|The symmetrized-relative-entropy theorem]] gives
+
+$$
+\operatorname{Hess}_0
+\bigl[D(\rho_\zeta\Vert\rho_0)+D(\rho_0\Vert\rho_\zeta)\bigr]
+=2G^{\mathrm{BKM}}
+$$
+
+for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. In a continuum wall theory, the BKM, Euclidean source, spectral, wavefunctional, and probability-1PI kernels are related by state-, prescription-, and continuation-dependent maps.
+
+The central CWST conjecture is therefore an operator-valued transfer, not a numerical relabeling:
 
 $$
 \boxed{
--\delta\ln\sigma=\delta N+\zeta_{\mathrm{wall}},
-\qquad
-\zeta_{\mathrm{wall}}
-\stackrel{?}{=}
-\zeta_{\mathrm{cos}},
-\qquad
-\operatorname{Hess}\mathscr J_{\mathrm{wall,spec}}
-\stackrel{?}{=}
-\mathcal K_{\zeta_{\mathrm{cos}}}.}
+\mathcal K_{\zeta_{\mathrm{cos}}}
+=\mathcal W_{\mathrm{wall}\to\mathrm{cos}}
+\bigl[G^{\mathrm{BKM}}_{\zeta\zeta}\bigr].}
 $$
 
-Matching a factor of two does not prove the Hessian-to-precision equality: one must relate a relative-entropy Hessian, a Euclidean stress response, the continued wavefunctional, and the inverse connected covariance without conflating them.
+[[conjectures/state-response-is-cosmological-precision|The state-to-precision conjecture]] states the domains, intermediate maps, and failure conditions of \(\mathcal W_{\mathrm{wall}\to\mathrm{cos}}\). It must include any restriction from a cut to a three-dimensional carrier, conversion from an areal density to a volume-normalized kernel, modular or KMS transform, analytic continuation, physical-scalar map, and normalization. This is how CWST now conforms to [[program-core/descent-response-geometry|the core response geometry]]: the areal modulus \(\boldsymbol\chi\) has units \(L^{-2}\), while the present Fourier convention gives \(\mathcal K_\zeta\) units \(L^{-3}\). They may be blocks or representations of one deeper geometry only after an explicit soldering theorem.
 
-## Claim ledger
+Once a positive three-dimensional precision for a dimensionless scalar has genuinely been obtained, reusable mathematics becomes available. [[critical-scale-kernels/entry|Critical scale kernels]] proves that flat translation, rotation, and exact dilation covariance force
 
-| Status | Content |
-|---|---|
-| Exact or standard in its stated domain | Fourier covariance/precision conversion; the regular exponential-family BKM Hessian; the three-dimensional stress-tensor tensor decomposition; algebraic scalar/tensor normalization conversions; the flat $|k|^3$ scaling result; tilt and running identities; numerical arithmetic |
-| Conditional established framework | McFadden--Skenderis domain-wall/cosmology spectra after the required analytic continuations, vacuum/state choice, and holographic assumptions; fractional $P_3$ from suitable conformal filling data; standard conserved-curvature transfer after the usual spacetime assumptions |
-| Programme hypotheses | an observer-relative causal-scale interface; a common algebra or controlled transport between algebras, together with faithful scale-indexed states; stress-trace generation of the horizontal tangent; BKM-to-spectral-to-probability weld; one physical scalar clock; passive rank-one descent |
-| Open functions or sectors | $c^{(0)}(k)$, $c^{(2)}(k)$, cubic and higher vertices, the state-selection law, the tensor prediction, and the covariant perturbation dynamics |
-| Interpretive | primordial correlations need not be caused by temporally localized ontological random events; the three-dimensional QFT may be a representation rather than the wall's ontology |
-| Not demonstrated | locality, unitarity, hyperbolicity, stability, a complete action or constraint system, a conservative local restriction to imported GR/QFT, and an end-to-end likelihood derived from the wall construction |
+$$
+\mathcal K_\zeta(k)=C|k|^3,
+\qquad C\geq0,
+$$
 
-## Present verdict
+and records the filling-dependent \(P_3\) curved representative, the trace-fixed-point obstruction, and the exact tilt identities. These theorems select a kernel shape inside their hypotheses; they do not supply the physical scalar, coefficient, wall state, or Lorentzian dynamics.
 
-The work is not flagrantly at odds with prevailing physics when read as an interface proposal that imports ordinary local QFT, GR constraints, and standard transfer. It neither claims nor demonstrates that QFT or the Standard Model emerges from causal-wall primitives, so recovery in the strong Newton-within-GR sense is not its present burden. Its burden is instead to restrict conservatively to the imported local theories, construct the spacetime descent to measured records, and make independently predictive global claims. Its most secure achievement is a careful retyping of the observable correlation target plus a useful list of mathematical joints that a genuine wall realization would have to close.
+One optional representation uses [[vendor/holographic-cosmology/entry|holographic cosmology]]. In that vendored framework a continued three-dimensional stress response can encode scalar and tensor spectra. [[spectral-realization|The CWST translation]] keeps a response calculated from a microscopic member separate from a response inferred backward from observed powers. Holography is therefore a replaceable implementation of the spectral middle layer, not the definition or ontology of a causal wall.
+
+The endpoint must be a local observable. [[conjectures/wall-residue-is-curvature|The curvature conjecture]] asks for a map from \(\zeta_{\mathrm{wall}}\) to a gauge-invariant curvature mode. [[compatible-with-existing-physics/primordial-observable-interface|The primordial observable interface]] then requires a Lorentzian state, constraints, stable evolution, tensors, higher correlations, and matching into measured records. [[compatible-with-existing-physics/passive-adiabatic-transfer|Passive adiabatic transfer]] may be imported only after its common-clock, intrinsic-entropy, growing-mode, and matching hypotheses have been met. This is conservative use of local GR and QFT, not a claim to derive them.
+
+[[whole-state-correlation-reading|The whole-state reading]] interprets the resulting correlations without turning inaccessible determining reason into ontic indeterminacy. The empirical content does not depend on that interpretation: the theory must calculate the same gauge-invariant correlation hierarchy either way. State, covariance, fact, outcome, and durable record remain different registers.
+
+## What CWST owns
+
+The module now owns only:
+
+- the conjecture that the inhomogeneous physical scale tangent is realized in one causal-wall state geometry;
+- the transfer from that response to a spatial and then cosmological precision;
+- the proposed identification of the wall residue with a gauge-invariant curvature mode;
+- restricted response members and their falsifiers;
+- the calculation programme for scalar, tensor, and higher response; and
+- the whole-state interpretation of the resulting correlations.
+
+It imports wall construction, Hessian theory, critical-kernel mathematics, holographic cosmology, and standard perturbation transfer from replaceable providers. [[realization-map|The realization map]] makes those ownership boundaries and their statuses explicit.
+
+## Present standing
+
+CWST currently has exact normalization identities, exact critical-kernel theorems under declared symmetries, a well-developed optional holographic representation, local source material, and reproducible arithmetic receipts. It does not yet construct the dynamical wall family, prove that the homogeneous and inhomogeneous responses are blocks of one carrier, determine the state-to-spectrum transfer, identify the physical curvature variable, calculate a microscopic scalar or tensor response, or supply covariant descent. An arbitrary positive response can fit any positive scalar spectrum, so the unrestricted formulation is a typed research programme rather than a predictive theory member.
+
+The former v3 master, earlier versions, conversations, and rejected calculation attempt are preserved as [[archive|source history]]. They are no longer competing owners of the active claims.
+

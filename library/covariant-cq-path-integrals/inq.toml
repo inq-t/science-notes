@@ -1,0 +1,14 @@
+[module]
+name = "covariant-cq-path-integrals"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.sty",
+  "**/*.bst",
+  "**/*.pdf",
+  "**/*.json",
+  "**/*.py"
+]

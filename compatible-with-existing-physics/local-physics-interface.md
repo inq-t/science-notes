@@ -66,11 +66,11 @@ $$
 
 for the relevant local contexts, together with coherent overlap maps. The second formulation is often closer to the proposed observer-relative wall architecture and does not presuppose that the entire theory has one ordinary action.
 
-Neither implementation is yet supplied by the mere statement that QFT is a fiber. [[causal-wall-spectral-theory/causal-scale-interface|The causal-scale interface]] records the missing region family, state family, transports, and Lorentzian-to-spectral map.
+Neither implementation is yet supplied by the mere statement that QFT is a fiber. [[wall-construction-interface/entry|The wall-construction interface]] records the missing region family, state family, and transports; [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] states the separate Lorentzian representation burden.
 
 ## Perturbations and measurable interfaces
 
-A global theory need not reproduce the conceptual story by which conventional cosmology motivates primordial perturbations. It does have to calculate the local records through which the cosmos is measured. For CMB, lensing, growth, clocks, or gravitational waves, it must either
+A global theory need not reproduce the conceptual story by which conventional cosmology motivates primordial perturbations. It does have to calculate the local records through which the cosmos is measured. [[primordial-observable-interface|The primordial observable interface]] gives the full return type. For CMB, lensing, growth, clocks, or gravitational waves, it must either
 
 1. map its whole-state data into the gauge-invariant variables and transfer machinery of established cosmology, or
 2. supply an alternative end-to-end calculation of the same measured observables.

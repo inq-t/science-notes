@@ -1,0 +1,4 @@
+[module]
+name = "critical-scale-kernels"
+entry = "entry.md"
+include = ["**/*.md"]

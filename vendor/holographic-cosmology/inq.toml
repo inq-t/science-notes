@@ -1,0 +1,4 @@
+[module]
+name = "holographic-cosmology"
+entry = "entry.md"
+include = ["**/*.md"]

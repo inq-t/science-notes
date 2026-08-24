@@ -41,7 +41,7 @@ The register discipline of [[program-core/ontological-registers|the register dec
 
 ## What must not be imported
 
-The theory's renormalisability is not evidence for the programme's picture. It is a property of a specific action with specific couplings, conditional on unresolved questions about pole prescriptions and positivity, as [[commentary/standard-physics-audit|the audit]] records. Borrowing the conclusion without the action would be borrowing a slogan.
+The theory's renormalisability is not evidence for the programme's picture. It is a property of a specific action with specific couplings, conditional on unresolved questions about pole prescriptions and positivity, as [[vendor/postquantum-gravity/commentary/standard-physics-audit|the audit]] records. Borrowing the conclusion without the action would be borrowing a slogan.
 
 The cosmological results must not be cited as successes. Neither the rotation-curve nor the phantom-dark-matter calculation delivers what its title suggests, and the second is an honest null result by thirty-one orders of magnitude.
 

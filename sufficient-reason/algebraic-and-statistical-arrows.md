@@ -22,7 +22,7 @@ These absences do not eliminate every statistical or entropic construction. Rela
 
 For faithful normal states $\omega$ and $\varphi$, Connes' cocycle relation makes their modular automorphism groups equivalent modulo inner automorphisms. The induced outer modular flow is therefore attached to the algebra more canonically than either state-specific implementation. But outer modular flow is still a group. Direction enters only through additional one-sided structure such as a half-sided inclusion.
 
-The continuum state mathematics relevant to the surrounding physics programme is kept distinct in [[causal-wall-spectral-theory/information-geometric-weld|the information-geometric weld]].
+The continuum state mathematics relevant to the surrounding physics programme is kept distinct in [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the relative-entropy Hessian theorem]] and [[causal-wall-spectral-theory/conjectures/state-response-is-cosmological-precision|the open state-to-precision conjecture]].
 
 ## Records and the past
 

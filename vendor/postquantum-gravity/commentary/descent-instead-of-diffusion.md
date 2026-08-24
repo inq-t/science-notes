@@ -86,6 +86,6 @@ Until these exist, the correct description is that the vendor supplies a physica
 
 ## Two things the reframing must not do
 
-**It must not remove empirical content.** The diffusion is predicted, and it is bounded from both sides by the experiments in [[empirical-status]]. A descent reading that predicted no noise would not be a reinterpretation but a different and already-constrained theory. The reframing changes the ground of the measure, not the measure.
+**It must not remove empirical content.** The diffusion is predicted, and it is bounded from both sides by the experiments in [[vendor/postquantum-gravity/empirical-status|empirical status]]. A descent reading that predicted no noise would not be a reinterpretation but a different and already-constrained theory. The reframing changes the ground of the measure, not the measure.
 
 **It must not smuggle determinism back in.** Conditional purity says that *given* the trajectory nothing further is lost. It does not supply a reason for the trajectory. Supplying that reason is the actuality problem, and it remains exactly as open here as in [[sufficient-reason/necessity-and-nonemptiness|Necessity, Nonemptiness, and Realizability]]: the availability of a pointing is not the realisation of one.

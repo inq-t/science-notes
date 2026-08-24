@@ -179,7 +179,7 @@ G_{\zeta\zeta}(f,f)
 \mathcal K_\zeta(k)|f_{\mathbf k}|^2.
 $$
 
-If the pulse coefficient and \(\mathcal K_\zeta\) are instead supplied by independent ansätze or separately fitted normalizations, they have not been shown to be blocks of one geometry. This is the homogeneous/inhomogeneous weld target; [[causal-wall-spectral-theory/information-geometric-weld|the information-geometric weld]] owns its spectral realization and failure conditions.
+If the pulse coefficient and \(\mathcal K_\zeta\) are instead supplied by independent ansätze or separately fitted normalizations, they have not been shown to be blocks of one geometry. This is the homogeneous/inhomogeneous weld target; [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the common-geometry conjecture]] owns its stronger realization and failure conditions.
 
 The homogeneous areal modulus must also remain distinct from any spectral response density carried by a three-dimensional measure. For example, a kernel \(\mathcal K_\zeta\) normalized per volume has units \(L^{-3}\), not \(L^{-2}\). Relating such a spectral object to \(\boldsymbol\chi\) requires an explicit integration, boundary map, or soldering theorem; similarity of interpretation does not repair the dimensional mismatch.
 

@@ -339,7 +339,7 @@ d\theta^i d\theta^j
 +O(\lVert d\theta\rVert^3).
 $$
 
-The linear term vanishes because relative entropy is minimized on the diagonal. Faithfulness and regularity matter: at the boundary of state space, supports can change and the quadratic expansion can diverge or cease to exist. In continuum QFT, local algebras are generally not described by trace-class density matrices, so one needs an operator-algebraic relative entropy and a controlled class of perturbations rather than this finite-dimensional formula by assertion. [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|The Gibbs specialization]] records the exact fixed-Hamiltonian free-energy identity and its strict coincidence boundary.
+The linear term vanishes because relative entropy is minimized on the diagonal. Faithfulness and regularity matter: at the boundary of state space, supports can change and the quadratic expansion can diverge or cease to exist. In continuum QFT, local algebras are generally not described by trace-class density matrices, so one needs an operator-algebraic relative entropy and a controlled class of perturbations rather than this finite-dimensional formula by assertion. [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|The symmetrized-Hessian theorem]] isolates the exact factor of two and its continuum boundary, while [[basic-concepts/hessians/higher-relative-entropy-is-not-cumulants|the higher-derivative no-go]] shows why this quadratic coincidence cannot be extrapolated into a cumulant hierarchy. [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|The Gibbs specialization]] records the exact fixed-Hamiltonian free-energy identity and its strict coincidence boundary.
 
 ## Actions, effective actions, and inverse covariance
 
@@ -379,7 +379,7 @@ $$
 }
 $$
 
-This is the exact relation between the two-point 1PI kernel and the connected covariance, subject to convexity, differentiability, gauge reduction, boundary conditions, and invertibility on the chosen physical subspace. In translationally invariant settings it becomes an operator or momentum-by-momentum inverse, not necessarily the reciprocal of a pointwise position-space function.
+This is the exact relation between the two-point 1PI kernel and the connected covariance, subject to convexity, differentiability, gauge reduction, boundary conditions, and invertibility on the chosen physical subspace. In translationally invariant settings it becomes an operator or momentum-by-momentum inverse, not necessarily the reciprocal of a pointwise position-space function. [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier covariance and precision]] records the convention, units, physical-subspace restriction, and Gaussian boundary explicitly.
 
 The classical action Hessian $S^{(2)}$ is different. In a Gaussian theory it is the exact precision operator after zero modes and boundary data are handled. In an interacting theory it is the tree-level fluctuation operator; loop corrections replace it by $\Gamma^{(2)}$. Lorentzian conventions add factors of $i$ and require a choice among time-ordered, retarded, advanced, and in-in kernels. A dynamical response kernel is often a retarded commutator, while a Euclidean covariance is an equilibrium fluctuation kernel; fluctuation--dissipation or analytic-continuation hypotheses are required to relate them.
 

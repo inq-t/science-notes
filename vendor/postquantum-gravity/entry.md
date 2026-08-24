@@ -37,7 +37,7 @@ The trade is exact and should be stated as one: an indefiniteness problem in the
 
 [[cosmological-claims]] handles the two applications and downgrades both. The rotation-curve result is an anti-correlation between two marginalised metric coefficients, with the MOND-like scale largely supplied by choosing the cut-off radius to be the Hubble radius, and with tabletop consistency purchased through an undetermined time scale. The phantom-dark-matter paper has one clean mechanism — a constraint convex in a noisy variable acquires a positive Itô drift — and a final density thirty-one orders of magnitude below the observed one, which the authors report honestly.
 
-[[empirical-status]] collects the bounds. The theory is squeezed from both sides at once; the newest source puts the surviving window at roughly five orders of magnitude in the dimensionless diffusion coefficient, and a confirmed observation of gravitationally induced entanglement would falsify it outright.
+[[vendor/postquantum-gravity/empirical-status|empirical status]] collects the bounds. The theory is squeezed from both sides at once; the newest source puts the surviving window at roughly five orders of magnitude in the dimensionless diffusion coefficient, and a confirmed observation of gravitationally induced entanglement would falsify it outright.
 
 ## Where this meets the programme
 
@@ -45,7 +45,7 @@ The trade is exact and should be stated as one: an indefiniteness problem in the
 
 The residue reading has a concrete candidate as well. An Onsager--Machlup action is a cost functional, and in gravity that cost is the curvature-squared sector. That converts a slogan into a theorem target: derive an equation-of-motion-squared weight from a descent rather than postulate it.
 
-What the vendor does not supply is the descent itself. A measure over global histories is not a site with transport and effectivity, and [[vendor/postquantum-gravity/commentary/translation-into-the-programme|the translation]] states the four construction tests that would decide whether the rhyme becomes a relation. [[vendor/postquantum-gravity/commentary/standard-physics-audit|The audit]] fixes the confidence at which each item may be cited, and [[sources/entry|the local source library]] maps the archive.
+What the vendor does not supply is the descent itself. A measure over global histories is not a site with transport and effectivity, and [[vendor/postquantum-gravity/commentary/translation-into-the-programme|the translation]] states the four construction tests that would decide whether the rhyme becomes a relation. [[vendor/postquantum-gravity/commentary/standard-physics-audit|The audit]] fixes the confidence at which each item may be cited, and [[source-map|the source map]] maps the archive.
 
 ## Claim levels
 

@@ -37,7 +37,7 @@ $$
 
 can be the local fiber, while new structure compares fibers across regions, horizons, or physical scale.
 
-This division of labor is legitimate only if the new theory constructs the comparison maps and preserves locality, unitarity, conservation, renormalized observables, and the observed Standard Model sector in its appropriate limit. Coexistence is not recovery. [[compatible-with-existing-physics/local-physics-interface|The local-physics interface]] and [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] state those burdens.
+This division of labor is legitimate only if the new theory constructs the comparison maps and preserves locality, unitarity, conservation, renormalized observables, and the observed Standard Model sector in its appropriate limit. Coexistence is not recovery. [[compatible-with-existing-physics/local-physics-interface|The local-physics interface]] and [[wall-construction-interface/entry|the wall-construction interface]] state those burdens.
 
 ## Retyping quantum gravity
 

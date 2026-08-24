@@ -4,7 +4,7 @@ Causal Scale Dynamics does not currently derive $SU(3)_c\times SU(2)_L\times U(1
 
 ## The programme is optional, not load-bearing
 
-The native causal-wall architecture permits ordinary QFT, including its internal gauge content, to supply local fibers while causal-scale structure supplies horizontal comparison among cosmic states. This division of labor is developed in the [[causal-wall-spectral-theory/causal-scale-interface#Logical role|causal-scale interface]] and guarded by the [[causal-wall-spectral-theory/open-problems#CW--T6: preserve imported local GR plus QFT|local GR+QFT preservation test]]. On that formulation, the project need not derive the Standard Model; it must show that the new horizontal structure preserves its tested local regime.
+The native causal-wall architecture permits ordinary QFT, including its internal gauge content, to supply local fibers while causal-scale structure supplies horizontal comparison among cosmic states. This division of labor is developed in the [[wall-construction-interface/entry#The interface is a dependency, not a theory|wall interface]] and guarded by [[wall-construction-interface/elimination-test#Test II — conservative restriction|the local GR+QFT preservation test]]. On that formulation, the project need not derive the Standard Model; it must show that the new horizontal structure preserves its tested local regime.
 
 Symmetry selection is a stronger alternative. It asks whether causal and modular axioms can determine the local charged-sector data instead of importing them. Success at that level would require more than coexistence with QFT: it would have to recover a renormalized, local, unitary Standard Model sector with its gauge fields, chiral representations, Higgs/Yukawa data, anomaly cancellation, and a decoupling limit for wall-induced corrections.
 
@@ -48,7 +48,7 @@ The most promising observations in the source dialogue are best treated as tests
 
 ## What a selection theorem would have to prove
 
-The [[causal-wall-spectral-theory/critical-kernel#Flat scaling theorem|flat critical-kernel theorem]] is a useful model of genuine selection: declared symmetry, positivity, and scaling assumptions determine the $|k|^3$ kernel shape. That exponent belongs to a three-dimensional spacetime response problem. It has no algebraic relation to the color rank in $M_3(\mathbb C)$ and supplies no “three” numerology for the Standard Model.
+The [[critical-scale-kernels/flat-weight-zero-precision|flat critical-kernel theorem]] is a useful model of genuine selection: declared symmetry, positivity, and scaling assumptions determine the $|k|^3$ kernel shape. That exponent belongs to a three-dimensional spacetime response problem. It has no algebraic relation to the color rank in $M_3(\mathbb C)$ and supplies no “three” numerology for the Standard Model.
 
 The proposed implication
 
@@ -62,8 +62,8 @@ $$
 
 is a research target, not a result. A credible proof must pass the following dependency order:
 
-1. Construct a scale-indexed, locally covariant four-dimensional observer theory—not only one net—and the faithful states required by the [[causal-wall-spectral-theory/causal-scale-interface#Minimal mathematical package|minimal wall interface]].
-2. Derive the reduced binary sector from that net rather than assuming it, as required by [[causal-wall-spectral-theory/open-problems#CW--T1d: derive any reduced scalar sector|CW--T1d]].
+1. Construct a scale-indexed, locally covariant four-dimensional observer theory—not only one net—and the faithful states required by the [[wall-construction-interface/entry#The minimal package|minimal wall interface]].
+2. Derive the reduced binary sector from that net rather than assuming it, as required by [[wall-construction-interface/binary-channel|the binary-channel obligation]].
 3. Lift the horizontal index to a local Lorentz-covariant fermionic operator with a controlled physical Hilbert space.
 4. Derive either the charged-sector category or the full represented finite algebra without inserting Standard Model representations.
 5. Derive the surviving abelian generator, hypercharges, anomaly cancellation, and global group form.

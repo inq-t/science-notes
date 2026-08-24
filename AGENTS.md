@@ -60,6 +60,12 @@ When authoring long-form content, always prefer Markdown.  LaTeX is not as good.
 
 It is ok to have junk drawers of immutable material.  Logs of conversations, false starts, morgue, rough material that got refined later.  Don't be shy about creating a "./junk-drawer" directory, and put things in there for cold storage.
 
+## Library Directory
+
+Articles from other authors are kept in the "library/".  Each article deserves its own "module".  The entry note should be little more than the abstract of the article.  Prefer to keep the LaTeX and machine-readable resources for the article.  PDFs are useless garbage compared to LaTeX.
+
+DO NOT add commentary in the library.  Commentary and analysis should go in other modules that consume the "raw" library articles.
+
 ## Inbox directory
 
 The "./inbox" is unprocessed raw content.  It should not be polished in place, but woven into other modules.

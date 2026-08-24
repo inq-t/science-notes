@@ -1,0 +1,158 @@
+{
+  "checks": [
+    {
+      "expected": "all zero",
+      "id": "scalar_spectral_normalizations",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "Exact normalization algebra inside the declared holographic spectral member.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "tensor_spectral_normalizations",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "Exact tensor and per-polarization algebra inside the same declared member.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "einstein_single_clock_member",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "Leading Einstein single-clock consistency relations; not a general CWST identity.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "symmetrized_relative_entropy_hessian",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "Regular finite exponential families at coincidence; the continuum spectral weld remains open.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "three_dimensional_stress_trace_contraction",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "For the registered three-dimensional transverse decomposition: delta.Pi=0 and <TT>=4B.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "Gamma(ell+3)/Gamma(ell) = ell(ell+1)(ell+2)",
+      "id": "round_sphere_p3_spectrum",
+      "kind": "exact_integer",
+      "pass": true,
+      "scope": "Round-sphere eigenvalue formula for the conditional P3 representative.",
+      "value": {
+        "ell_max": 200,
+        "ell_min": 1,
+        "max_absolute_residual": 0
+      }
+    },
+    {
+      "expected": "all zero",
+      "id": "constant_exponent_log_derivatives",
+      "kind": "exact_rational_substitution",
+      "pass": true,
+      "scope": "Inside the member ln(I)=constant+delta ln(k): n_s-1=-delta and alpha_s=0.",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "excluded_legacy_claims": {
+    "S10": "No universal non-Gaussianity floor or order-one kill from c^(0).",
+    "S12": "No rank or central-charge inference N approximately sqrt(c^(0)).",
+    "S9": "No tilt-difference running estimator and no universal delta-squared running bound."
+  },
+  "generated_at_utc": "2026-08-24T05:26:55.479876+00:00",
+  "python": "3.12.13",
+  "schema_version": 1,
+  "scope": "Algebraic normalization checks only. No wall construction, BKM-to-spectral weld, microscopic response, likelihood, or recovery claim.",
+  "summary": {
+    "all_pass": true,
+    "failed": 0,
+    "passed": 7,
+    "total": 7
+  }
+}

@@ -2,7 +2,7 @@
 
 The pure-gravity postquantum path integral has the same functional form as quadratic gravity, whose renormalisability has been known since Stelle and whose ghost has been its standing objection. Because the classical-quantum couplings are real where quadratic gravity's are imaginary, the ghost does not arise, and the beta functions acquire the opposite sign — so that the dimensionless couplings grow in the ultraviolet and diffusion becomes larger at short distances. The result is *formal* renormalisability: power counting plus a mapping, with the positivity of the measure and the behaviour of pole prescriptions in loops still open.
 
-Source: [[sources/arXiv-2402.17844v3.tar.gz|Grudka, Morris, Oppenheim, Russo and Sajjad]].
+Source: [[library/renormalisation-of-postquantum-gravity/entry|Grudka, Morris, Oppenheim, Russo and Sajjad]].
 
 ## The mapping
 

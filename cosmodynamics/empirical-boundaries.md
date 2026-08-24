@@ -37,7 +37,7 @@ Until these exist, background success cannot be promoted to CMB, lensing, growth
 
 A changed cosmological background can alter the inferred sum of neutrino masses. That is a statement about parameter inference conditional on a cosmological model. It is not a derivation of the particle masses, mixing matrix, mass ordering, or the mechanism generating neutrino mass.
 
-The [[causal-wall-spectral-theory/claim-audit|claim audit]] therefore treats neutrino claims as possible cosmological inference effects pending a derived perturbation likelihood, not as a prediction or explanation of neutrino mass.
+[[causal-wall-spectral-theory/empirical-targets|The CWST empirical ledger]] therefore treats neutrino claims as possible cosmological inference effects pending a derived perturbation likelihood, not as a prediction or explanation of neutrino mass.
 
 ## Vacuum energy
 

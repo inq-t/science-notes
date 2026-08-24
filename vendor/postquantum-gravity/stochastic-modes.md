@@ -2,7 +2,7 @@
 
 Linearising about Minkowski and decomposing into scalar, vector and tensor sectors answers the question the construction leaves open: which parts of the metric are stochastic degrees of freedom, and where the indefiniteness of the deWitt kernel lives. The answer is favourable. The dynamical modes are a transverse-traceless spin-2 pair and one spin-0 scalar, each diffusing around its own wave equation, and their sectors are positive semidefinite. The indefinite sector is the vector, which carries the momentum constraint and does not propagate.
 
-Source: [[sources/arXiv-2605.05375v1.tar.gz|Oppenheim and Sajjad]].
+Source: [[library/stochastic-modes-in-postquantum-gravity/entry|Oppenheim and Sajjad]].
 
 ## Counting degrees of freedom in a stochastic theory
 
@@ -47,6 +47,6 @@ The authors note the parallel with the long-standing quantum-gravity dispute bet
 
 ## Experimental handles
 
-The decomposition sharpens the bounds by separating sectors. Fluctuations of the Newtonian potential give a power spectral density comparable with the excess noise reported by LISA Pathfinder, bounding one combination of the theory's two dimensionless couplings; bounds on the stochastic gravitational-wave energy density in an FLRW background constrain another. The effective action for matter distributions makes decoherence bounds depend on fluctuations in both $\Phi$ and the curvature perturbation $\psi$. The verdict is that the theory remains viable, with care needed over nonlinearities, non-Markovianity and scale invariance. One near-exclusion belongs with it: if the computed spectrum is assumed to hold throughout, the bound requires an ultraviolet cutoff $\ell\gtrsim10^2\,$m, far above the millimetre scale to which gravity has been probed, and with scale-independent couplings **this would rule the theory out**. The escape is the running of the coupling. [[empirical-status]] collects the numbers.
+The decomposition sharpens the bounds by separating sectors. Fluctuations of the Newtonian potential give a power spectral density comparable with the excess noise reported by LISA Pathfinder, bounding one combination of the theory's two dimensionless couplings; bounds on the stochastic gravitational-wave energy density in an FLRW background constrain another. The effective action for matter distributions makes decoherence bounds depend on fluctuations in both $\Phi$ and the curvature perturbation $\psi$. The verdict is that the theory remains viable, with care needed over nonlinearities, non-Markovianity and scale invariance. One near-exclusion belongs with it: if the computed spectrum is assumed to hold throughout, the bound requires an ultraviolet cutoff $\ell\gtrsim10^2\,$m, far above the millimetre scale to which gravity has been probed, and with scale-independent couplings **this would rule the theory out**. The escape is the running of the coupling. [[vendor/postquantum-gravity/empirical-status|empirical status]] collects the numbers.
 
 The paper also checks internal consistency of the formalism: the Onsager--Machlup action, the Martin-Siggia-Rose (Janssen--De Dominicis) form, and the stochastic differential equations agree.

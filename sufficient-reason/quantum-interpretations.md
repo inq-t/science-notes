@@ -57,4 +57,4 @@ Extended Wigner's-friend and Local Friendliness results are especially relevant 
 
 ## Relation to causal-scale interpretation
 
-The neighboring [[causal-wall-spectral-theory/interpretation|non-stochastic and cosmokinetic interpretation]] explicitly leaves probability, measurement, irreversible fact formation, and the Born rule open. A horizontal family of causal states can therefore provide a setting for this programme, but it cannot be cited as its solution.
+The neighboring [[causal-wall-spectral-theory/whole-state-correlation-reading|whole-state correlation reading]] explicitly leaves probability, measurement, irreversible fact formation, and the Born rule open. A horizontal family of causal states can therefore provide a setting for this programme, but it cannot be cited as its solution.
