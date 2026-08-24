@@ -2,6 +2,8 @@
 
 Causal charge is the proposed invariant of a fact-bearing causal arena: a common symmetry charge whose state-plus-matter, geometric, and record contributions can change while their flux-inclusive total remains fixed. The exact mathematics presently establishes a binary Casimir allocation and a non-stochastic two-channel conversion law; the relation of their residual capacity to gravitational response, boundary charge, and factual descent remains conjectural. The programme is therefore theorem-shaped at its algebraic core, conjecture-shaped at its physical welds, and philosophical in its account of what facthood means.
 
+[[unitarity-and-ontological-time|The Unitarity Principle note]] separates reversible enlarged transport, diagonal charge conservation, quadratic response, and the one-sided filtration of records. In particular, time is not another stock of information, and unitarity conserves a proposed charge only when the corresponding symmetry or Ward identity is present.
+
 ## Indiscernibility comes before conservation
 
 The first principle is not that information must be conserved. It is that a difference with no possible bearing on the declared observables belongs to one accessible equivalence class. [[indiscernibility-and-the-noether-gap]] makes the inference precise:

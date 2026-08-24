@@ -8,6 +8,8 @@ Cosmological observations give correlation functions of local records: temperatu
 
 This fits the programme's object of inquiry. A cosmos is not merely a collection of local mechanisms; it is an arena in which local facts belong to one causally and historically coherent whole. CWST asks whether the inhomogeneous part of scale response helps constitute that whole-state correlation geometry.
 
+[[program-core/contextual-descent-from-homogeneity|Contextual descent]] sharpens this reading. The sub-observable algebra and correlation law may remain homogeneous while an actual character of the commutative record algebra is nonconstant. The lumpy sky is then a property of the pointed factual history, not direct evidence for a lumpy pre-observable substrate. [[program-core/common-response-matrix|The common response matrix]] describes the susceptibility of the law of distinctions before that pointing is selected.
+
 ## Determination and access
 
 [[program-core/grounding-reasons|The grounding-reason discipline]] distinguishes

@@ -4,12 +4,12 @@ The spectral realization is the proposed middle layer between a causal-wall stat
 
 ## The response that must be constructed
 
-Suppose a wall realization returns an inhomogeneous BKM block
+Suppose a wall realization returns the mean-zero observational BKM block of [[program-core/common-response-matrix|the common response matrix]]
 
 $$
 G^{\mathrm{BKM}}_{\zeta\zeta}
-:H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}}
-\times H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}}
+:H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
+\times H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
 \longrightarrow\mathbb R.
 $$
 

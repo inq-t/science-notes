@@ -1,6 +1,6 @@
 # The Wall Residue Is Curvature
 
-CWST conjectures that a physical inhomogeneous residue of scale presentation can be represented as the gauge-invariant curvature perturbation whose correlations are observed. The equality is not a definition: it requires a spacetime realization, gauge reduction, constraint solution, canonical normalization, and matching theorem.
+CWST conjectures that a physical mean-zero residue of observational scale descent can be represented as the gauge-invariant curvature perturbation whose correlations are observed. The residue need not be an inhomogeneity of the sub-observable algebra. The equality is not a definition: it requires a spacetime realization, gauge reduction, constraint solution, canonical normalization, and matching theorem.
 
 ## Candidate residue
 
@@ -67,4 +67,3 @@ Thus even a successful scalar identification need not preserve the numerical ker
 The conjecture is upgraded by a covariant reduced action or equivalent constrained Hamiltonian construction that derives \(R\), its normalization, and its long-wavelength conserved mode.
 
 It fails if the wall residue is pure gauge, constrained away, nonpropagating when a physical mode is required, maps to an entropy rather than curvature mode, has unstable or acausal Lorentzian evolution, or cannot be matched into the observed growing mode. Failure leaves open the possibility that the wall response represents a different observable.
-

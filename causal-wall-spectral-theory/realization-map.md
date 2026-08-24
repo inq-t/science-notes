@@ -1,23 +1,30 @@
 # CWST Realization Map
 
-Causal-Wall Spectral Theory consumes the programme core's physical quotient and inhomogeneous response block, then adds a conjectural chain from causal-wall state response to primordial observables. It does not consume the homogeneous CST pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld.
+Causal-Wall Spectral Theory consumes the programme core's physical quotient and mean-zero observational response block, then adds a conjectural chain from causal-wall descent response to primordial observables. It does not consume the homogeneous CST pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld.
 
 ## Relation to the Ruble equations
 
 | Core node | CWST use | Standing |
 |---|---|---|
-| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | A positive scale section supplies the homogeneous direction and inhomogeneous scale residues. | definition and standard conformal geometry |
-| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | The wall construction must return a nonzero physical inhomogeneous tangent after the full quotient. | principle plus open construction |
-| [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | CWST seeks the inhomogeneous block \(G^{\mathrm{BKM}}_{\zeta\zeta}\) of the localized response geometry. | exact coincidence theorem; open carrier and localization |
-| [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | On an already identified physical tangent, a state--geometry theorem could equate the state response with a gravitational response. RE3 does not change a cut carrier into a three-dimensional spectral carrier; [[conjectures/homogeneous-inhomogeneous-common-geometry|the common-geometry conjecture]] owns that stronger bridge. | optional conjectural strengthening |
+| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | A positive scale section supplies the global direction and nonconstant scale-presentation residues. | definition and standard conformal geometry |
+| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | The descent construction must return a nonzero physical mean-zero observational tangent after the full quotient. | principle plus open construction |
+| [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | CWST seeks the mean-zero block \(G^{\mathrm{BKM}}_{\zeta\zeta}\) of [[program-core/common-response-matrix|the common response geometry]]. | exact coincidence theorem; open carrier and localization |
+| [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | On an already identified physical tangent, a state--geometry theorem could equate the state response with a gravitational response. RE3 does not construct the common descent matrix or change a cut carrier into a three-dimensional spectral carrier; [[conjectures/homogeneous-inhomogeneous-common-geometry|the CWST consumer note]] owns that stronger application. | optional conjectural strengthening |
 | [[program-core/ruble-equations#RE4 — Balanced binary specialization|RE4]] through [[program-core/ruble-equations#RE9 — Equation of state and shape invariant|RE9]] | These specify the homogeneous CST realization. No binary \(\operatorname{sech}^2\) pulse, Ruble crossing value, free-energy source, or FLRW background equation is a premise of CWST. | separate consumer branch |
 | [[program-core/ruble-equations#RE10 — Prospective causal charge extension|RE10]] | A future charge law could constrain both response blocks, facts, and records; CWST presently derives no such charge. | conjectural extension, unused here |
 
-This separation matters. A future wall construction may return both the homogeneous and inhomogeneous blocks, but failure of a homogeneous pulse member does not refute the flat critical-kernel theorem, and success of that pulse does not calculate a primordial spectrum.
+This separation matters. A future descent construction may return both the global and mean-zero blocks, but failure of a homogeneous pulse member does not refute the flat critical-kernel theorem, and success of that pulse does not calculate a primordial spectrum.
 
 ## The CWST-specific chain
 
-Let \(H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}}\) denote the inhomogeneous part of the physical horizontal tangent object. The desired sequence is
+Let
+
+$$
+H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
+\equiv H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}}
+$$
+
+denote the mean-zero observational part of the physical descent tangent. The historical right-hand notation does not assert microscopic spatial inhomogeneity. The desired sequence is
 
 $$
 \begin{aligned}
@@ -26,7 +33,7 @@ $$
 &&\text{constructed canonical wall package},\\
 \text{W1}_{\mathrm s}\text{: }&
 G^{\mathrm{BKM}}_{\zeta\zeta}
-&&\text{scalar response on }H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}},\\
+&&\text{scalar response on }H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0},\\
 \text{W2}_{\mathrm s}\text{: }&
 \mathcal K^{\zeta}_{\mathrm{wall}}
 =\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}
@@ -96,11 +103,11 @@ $$
 [\mathcal K_\zeta(k)]=L^{-3}
 $$
 
-in the registered three-dimensional Fourier convention. A common-geometry proposal must therefore supply an integration over a normal or history direction, a boundary-to-bulk map, a measure conversion, or another explicit soldering operation. [[conjectures/homogeneous-inhomogeneous-common-geometry|The common-geometry conjecture]] owns that stronger claim. Dimensional agreement after an unstated unit choice would not be enough; the carriers and measures must also agree.
+in the registered three-dimensional Fourier convention. A common-geometry proposal must therefore supply an integration over a normal or history direction, a boundary-to-bulk map, a measure conversion, or another explicit soldering operation. [[program-core/common-response-matrix|The core matrix]] owns the common Hessian, while [[conjectures/homogeneous-inhomogeneous-common-geometry|the CWST consumer note]] owns this stronger application. Dimensional agreement after an unstated unit choice would not be enough; the carriers and measures must also agree.
 
 ## Failure localization
 
-- Failure of W0 leaves both homogeneous and inhomogeneous wall programmes without a microscopic carrier.
+- Failure of W0 leaves both global and mean-zero observational wall programmes without a microscopic carrier.
 - Failure of either W1 branch can leave a wall family but no nondegenerate response in that sector; failure of the TT branch does not erase a scalar member.
 - Failure of either W2 branch rejects that causal-wall spectral weld without rejecting Fourier precision or holographic cosmology in their own domains.
 - Failure of either W3 branch rejects that primordial interpretation while leaving a spatial state response possible.

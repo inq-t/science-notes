@@ -1,6 +1,6 @@
 # Causal-Wall Spectral Theory
 
-Causal-Wall Spectral Theory is the programme's conditional inhomogeneous-response branch: it asks whether a physical residue of local scale presentation can be realized as one block of causal state-space geometry and represented as the precision of primordial curvature correlations. Its exact Fourier and critical-kernel mathematics is reusable, its holographic dictionary is optional and vendored, and its decisive wall-to-state, state-to-spectrum, and spectrum-to-spacetime arrows remain open.
+Causal-Wall Spectral Theory is the programme's conditional nonconstant-observational-response branch: it asks whether differentiation arising in the descent from a homogeneous sub-observable algebra can be realized as one block of causal state-space geometry and represented as the precision of primordial curvature correlations. Its exact Fourier and critical-kernel mathematics is reusable, its holographic dictionary is optional and vendored, and its decisive descent-to-state, state-to-spectrum, and spectrum-to-spacetime arrows remain open.
 
 ## The ordered line of thought
 
@@ -11,7 +11,7 @@ $$
 =\delta N+\zeta_{\mathrm{wall}}(x),
 $$
 
-where \(\delta N\) is the homogeneous scale direction and \(\zeta_{\mathrm{wall}}\) is an inhomogeneous residue after the constant mode has been removed. This vector-space decomposition is not yet the physical quotient. Gauge, constraint, boundary, central-normalization, and genuinely null directions must be treated by [[program-core/physical-quotient|the physical quotient]], and a zero mode of an information metric is not automatically gauge.
+where \(\delta N\) is the global scale direction and \(\zeta_{\mathrm{wall}}\) is a nonconstant residue after the constant mode has been removed. This notation does not assert a lumpy microscopic algebra. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] allows \(\zeta_{\mathrm{wall}}\) to arise from the representation, readout, or pointing by which a homogeneous algebra becomes observationally differentiated. The displayed vector-space decomposition is not yet the physical quotient. Gauge, constraint, boundary, central-normalization, and genuinely null directions must be treated by [[program-core/physical-quotient|the physical quotient]], and a zero mode of an information metric is not automatically gauge.
 
 The required state family is the canonical wall package shared with the homogeneous programme:
 
@@ -19,13 +19,13 @@ $$
 \mathfrak W.
 $$
 
-[[wall-construction-interface/entry|The wall-construction interface]] owns the full definition of \(\mathfrak W\): causal regions, horizons or boundaries, cuts, local algebras, states, modular data, cross-fiber transport, the scale-to-state law, and the renormalized source. CWST does not keep a private cut-centered copy of that construction. It asks the interface to expose a physical inhomogeneous tangent sector and, once regular comparison is possible, its response block
+[[wall-construction-interface/entry|The wall-construction interface]] owns the full definition of \(\mathfrak W\): causal regions, horizons or boundaries, cuts, local algebras, states, modular data, cross-fiber transport, the scale-to-state or scale-to-readout law, and the renormalized source. CWST does not keep a private cut-centered copy of that construction. It asks the interface to expose a physical mean-zero observational tangent sector and, once regular comparison is possible, its response block
 
 $$
 G^{\mathrm{BKM}}_{\zeta\zeta}.
 $$
 
-[[basic-concepts/hessians/symmetrized-relative-entropy-hessian|The symmetrized-relative-entropy theorem]] gives
+Together with the global scale direction, this block belongs to [[program-core/common-response-matrix|the common response matrix]]. Homogeneity may force the quadratic mixed block \(G_{N\zeta}\) to vanish; the first common-origin witness can instead be \(\nabla_NG_{\zeta\zeta}\), the scale variation of the nonconstant response. [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|The symmetrized-relative-entropy theorem]] gives
 
 $$
 \operatorname{Hess}_0
@@ -70,7 +70,7 @@ The endpoint must be a local observable. [[conjectures/wall-residue-is-curvature
 
 The module now owns only:
 
-- the conjecture that the inhomogeneous physical scale tangent is realized in one causal-wall state geometry;
+- the conjecture that the mean-zero observational descent tangent is realized in one causal-wall state geometry;
 - the transfer from that response to a spatial and then cosmological precision;
 - the proposed identification of the wall residue with a gauge-invariant curvature mode;
 - restricted response members and their falsifiers;
@@ -81,6 +81,6 @@ It imports wall construction, Hessian theory, critical-kernel mathematics, holog
 
 ## Present standing
 
-CWST currently has exact normalization identities, exact critical-kernel theorems under declared symmetries, a well-developed optional holographic representation, local source material, and reproducible arithmetic receipts. It does not yet construct the dynamical wall family, prove that the homogeneous and inhomogeneous responses are blocks of one carrier, determine the state-to-spectrum transfer, identify the physical curvature variable, calculate a microscopic scalar or tensor response, or supply covariant descent. An arbitrary positive response can fit any positive scalar spectrum, so the unrestricted formulation is a typed research programme rather than a predictive theory member.
+CWST currently has exact normalization identities, exact critical-kernel theorems under declared symmetries, a well-developed optional holographic representation, local source material, and reproducible arithmetic receipts. It does not yet construct the dynamical descent/readout family, calculate the common matrix or its mixed jet, determine the state-to-spectrum transfer, identify the physical curvature variable, calculate a microscopic scalar or tensor response, or supply covariant descent. An arbitrary positive response can fit any positive scalar spectrum, so the unrestricted formulation is a typed research programme rather than a predictive theory member.
 
 The former v3 master, earlier versions, conversations, and rejected calculation attempt are preserved as [[archive|source history]]. They are no longer competing owners of the active claims.

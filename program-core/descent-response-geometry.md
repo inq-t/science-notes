@@ -145,9 +145,9 @@ Scalarizing at the outset assumes that every admissible physical direction has t
 
 Einstein universality would be the special case in which the relevant state-to-geometry identification makes this form proportional to one gravitational form with one constant coefficient. A modified return value is therefore informative rather than a definitional failure.
 
-## Homogeneous and inhomogeneous response blocks
+## Global and nonconstant observational response blocks
 
-A useful construction chart separates the canonically normalized homogeneous scale direction from physical inhomogeneous scale residues:
+A useful construction chart separates the canonically normalized global scale direction from physical nonconstant differentiations in the observational descent:
 
 $$
 H_\Sigma^{\mathrm{candidate}}
@@ -157,7 +157,7 @@ H_\Sigma^{\mathrm{candidate}}
 \left(C^\infty(\Sigma)/\mathbb R\right)_{\mathrm{phys}}.
 $$
 
-The subscript is essential: gauge, constraint, boundary, and null directions must be removed, so the displayed decomposition is a schematic chart rather than a canonical splitting. In such a chart the global response has the operator-block form
+The second summand does not assert that the sub-observable algebra is a fundamentally lumpy spatial object. Under [[program-core/contextual-descent-from-homogeneity|contextual descent]], it may instead parameterize how one homogeneous algebraic datum becomes distinguishable through nonconstant readout modes. The subscript is essential: gauge, constraint, boundary, and null directions must be removed, so the displayed decomposition is a schematic chart rather than a canonical splitting. In such a chart the global response has the operator-block form
 
 $$
 g^{\mathrm{BKM}}
@@ -170,7 +170,7 @@ $$
 
 and the localized object has the corresponding matrix of measures or densities. The off-diagonal blocks test mixing; they are not presumed to vanish.
 
-The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the homogeneous contraction and the abstract inhomogeneous block. A three-dimensional Fourier precision is a further representation, not part of that block merely by notation. Only after a three-dimensional carrier has been constructed may a consumer seek a map
+[[program-core/common-response-matrix|The common-response construction]] refines this display as a pullback BKM or descent-cost Hessian and includes hidden or constrained modes before physical reduction. The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the global contraction and the abstract nonconstant block. A three-dimensional Fourier precision is a further representation, not part of that block merely by notation. Only after a three-dimensional carrier has been constructed may a consumer seek a map
 
 $$
 G_{\zeta\zeta}
@@ -183,7 +183,7 @@ G_{\zeta\zeta}
 \mathcal K_\zeta(k)|f_{\mathbf k}|^2.
 $$
 
-The core supplies no \(\mathfrak B\). [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|CWST's state-to-spatial-precision conjecture]] owns a candidate carrier-changing transfer, while [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the common-geometry conjecture]] owns the stronger claim that the homogeneous and spectral returns descend from one geometry. If the pulse coefficient and \(\mathcal K_\zeta\) are supplied by independent ansätze or separately fitted normalizations, they have not been shown to be representations of one response.
+The core supplies no \(\mathfrak B\). [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|CWST's state-to-spatial-precision conjecture]] owns the carrier-changing transfer, while [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the CWST common-matrix note]] states the consumer-specific claim that the homogeneous and spectral returns descend from this one core geometry. If the pulse coefficient and \(\mathcal K_\zeta\) are supplied by independent ansätze or separately fitted normalizations, they have not been shown to be representations of one response.
 
 The homogeneous areal modulus must also remain distinct from any spectral response density carried by a three-dimensional measure. For example, a kernel \(\mathcal K_\zeta\) normalized per volume has units \(L^{-3}\), not \(L^{-2}\). Relating such a spectral object to \(\boldsymbol\chi\) requires an explicit integration, boundary map, or soldering theorem; similarity of interpretation does not repair the dimensional mismatch.
 

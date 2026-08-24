@@ -148,6 +148,9 @@ The following are settled boundaries unless their premises are changed:
 - binary translation is not modular-temperature rescaling of the same balanced binary state;
 - a Lorentzian normal plane is not automatically a \(1+1\)-dimensional conformal thermal theory;
 - indiscernibility supplies no Noether current;
+- a state-preserving automorphism orbit of readouts supplies no nonzero response;
+- a nonconstant realized character does not imply a non-homogeneous sub-observable algebra or law;
+- unitarity does not conserve a chosen charge without the corresponding symmetry or Ward identity;
 - a local BKM Hessian supplies no all-history source;
 - central blindness of a local response supplies no global vacuum solution; and
 - a background receipt verifies arithmetic, not the physical closure stack.

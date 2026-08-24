@@ -1,6 +1,6 @@
 # State Response Is Spatial Precision
 
-CWST conjectures that the inhomogeneous BKM response of a physically constructed causal-wall state family can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
+CWST conjectures that the mean-zero observational BKM block of a physically constructed [[program-core/common-response-matrix|common descent family]] can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
 
 ## Statement
 
@@ -10,7 +10,7 @@ $$
 G^{\mathrm{BKM}}_{\zeta\zeta}
 $$
 
-be the nondegenerate inhomogeneous block of its response geometry. The proposed law is
+be the nondegenerate mean-zero observational block of its response geometry. The proposed law is
 
 $$
 \boxed{

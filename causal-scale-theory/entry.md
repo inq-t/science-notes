@@ -26,6 +26,8 @@ $$
 
 with non-circular cross-fiber transport. [[wall-construction-interface/entry|The wall-construction interface]] owns this decisive open problem. It also keeps vertical modular flow, horizontal state change, binary reduction, geometric reflection, and Tomita conjugation from being treated as one object.
 
+The scale tangent is one singlet direction in [[program-core/common-response-matrix|the common response matrix]]. The same construction may also return mean-zero observational modes without making the underlying algebra spatially inhomogeneous. At a symmetric reference their quadratic cross block may vanish; the stronger unification test is whether the scale variation \(\nabla_NG_{\zeta\zeta}\) and the homogeneous response are calculated from the same descent family.
+
 If the physical reflection-odd tangent admits a balanced normalized binary reduction, [[binary-information-geometry/entry|binary information geometry]] supplies an exact reusable sector:
 
 $$

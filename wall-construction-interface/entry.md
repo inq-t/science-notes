@@ -82,18 +82,18 @@ $$
 \int_\Sigma\zeta_{\rm wall}=0 .
 $$
 
-The two summands are different directions in one tangent space at $\bar\sigma$,
+The two summands are different directions in one presented scale tangent at $\bar\sigma$,
 
 $$
 T_{\bar\sigma}\mathfrak{Sc}(\Sigma)
 \simeq\mathbb R\oplus C^\infty(\Sigma)/\mathbb R .
 $$
 
-The homogeneous response programme consumes the first summand; the primordial spectral programme consumes the second. This is the structural reason the two programmes keep rewriting the same preamble: they are the two halves of a single decomposition, and each has been carrying its own copy of the shared part.
+The homogeneous response programme consumes the first summand; the primordial spectral programme consumes the second after the physical quotient and observational readout have been constructed. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] sharpens the meaning of the second: it can be a nonconstant direction of observational differentiation rather than a lumpy direction in a fundamental spatial substrate. This is the structural reason the two programmes keep rewriting the same preamble: they are two consumers of one descent datum.
 
 The design consequence is sharp. An interface built only for the homogeneous consumer may retain $\Sigma_N$ merely as an area — enough for an entropy normalization — and would then be unable to serve the spectral consumer at all. The shared package must therefore retain the field content on $\Sigma_N$, together with the quotient by constants that removes the homogeneous redundancy, even when the immediate caller integrates it away.
 
-At a homogeneous and isotropic reference, invariance of the response form under the reference symmetry can force orthogonality when the homogeneous and inhomogeneous sectors carry inequivalent representations. This is a **[CONDITIONAL THEOREM — UNDER THE REPRESENTATION HYPOTHESES]**, not a property of the direct-sum notation itself. Mixed terms may survive if those hypotheses fail, and they may return beyond quadratic order or on an inhomogeneous background.
+At a homogeneous and isotropic reference, invariance of the response form forces orthogonality when the global singlet and mean-zero observational sectors carry inequivalent representations. This is a **[CONDITIONAL THEOREM — UNDER THE REPRESENTATION HYPOTHESES]**, not a property of the direct-sum notation itself. A vanishing quadratic mixed block does not separate their origins: the first allowed common response may be the cubic tensor \(\nabla_NG_{\zeta\zeta}\). Mixed quadratic terms may also survive at boundaries, after pointing, away from the symmetric reference, or when the representation hypotheses fail.
 
 What the shared construction must expose is correspondingly different in the two sectors:
 
@@ -105,14 +105,17 @@ G^{\mathrm{BKM}}_{NN};
 $$
 
 $$
-\text{inhomogeneous:}\quad
-H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}},
+\text{nonconstant observational:}\quad
+H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
+\equiv H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}},
 \qquad
 G^{\mathrm{BKM}}_{\zeta\zeta}
 \quad\text{when the regular response exists.}
 $$
 
-Both response blocks depend on the same eight interface slots and are undefined before cross-fiber transport and the physical quotient exist. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
+The right-hand symbol is retained as CWST's historical consumer notation; it must not be read as an assertion of microscopic spatial inhomogeneity.
+
+Both response blocks depend on the same eight interface slots and are undefined before cross-fiber transport, observational descent, and the physical quotient exist. [[program-core/common-response-matrix|The common-response construction]] states the full Hessian and its hidden-mode reduction. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
 
 ## Two completion levels
 
@@ -126,7 +129,7 @@ The distinction matters because the two levels have different burdens of proof a
 
 ## An optional reduction that is assumed, not derived
 
-The homogeneous CST member currently routes its response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[binary-information-geometry/entry|binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]]. CWST requires a physical inhomogeneous response sector but does not require this binary reduction unless a particular CWST member explicitly adds it.
+The homogeneous CST member currently routes its response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[binary-information-geometry/entry|binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]]. CWST requires a physical nonconstant observational response sector but does not require this binary reduction unless a particular CWST member explicitly adds it.
 
 The word "rank one" is used across the archive for reductions that do not imply one another: one noncentral horizontal generator, one common material clock, and one spin-zero stress form factor. The first is an obligation only for a binary wall member. The other two are consumer-side assumptions and should be argued where they are used.
 
