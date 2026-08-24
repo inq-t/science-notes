@@ -1,4 +1,12 @@
 [module]
 name = "causal-scale-theory"
 entry = "entry.md"
-include = ["**/*.md"]
+include = [
+  "*.md",
+  "conjectures/*.md",
+  "no-gos/*.md",
+  "open-questions/*.md",
+  "receipts/*.md",
+  "receipts/*.py",
+  "receipts/*.json",
+]

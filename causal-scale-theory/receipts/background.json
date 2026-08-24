@@ -1,0 +1,210 @@
+{
+  "all_pass": true,
+  "amplitude_counterexamples": {
+    "amplitude_root_nu_2.0": [
+      3.5436791525961997
+    ],
+    "amplitude_root_nu_2.2": [
+      2.526564276471193
+    ]
+  },
+  "atlas_roots": {
+    "atlas_high_root_only": [
+      37.70406884100606
+    ],
+    "atlas_no_root_at_two": [],
+    "atlas_one_root": [
+      0.3373257512195671
+    ],
+    "atlas_three_roots": [
+      0.42926607023032215,
+      1.4384127673249858,
+      12.548048579906505
+    ]
+  },
+  "checks": [
+    {
+      "expected": 0.2940066,
+      "id": "unit_x_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.2940065550582176
+    },
+    {
+      "expected": 0.3417927,
+      "id": "unit_z_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.34179269916740274
+    },
+    {
+      "expected": -0.8094545,
+      "id": "unit_w0",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": -0.8094544918029205
+    },
+    {
+      "expected": -0.6122053,
+      "id": "unit_wa",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": -0.6122052806255416
+    },
+    {
+      "expected": -0.3369025,
+      "id": "unit_q0",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": -0.3369024707078755
+    },
+    {
+      "expected": -0.1112465,
+      "id": "unit_j0",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 3e-07,
+      "value": -0.11124646428421958
+    },
+    {
+      "expected": 0.7856935,
+      "id": "unit_acceleration_entry_z",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 3e-07,
+      "value": 0.7856935256176354
+    },
+    {
+      "expected": 11.7865,
+      "id": "unit_acceleration_exit_a",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0.0003,
+      "value": 11.78652452215664
+    },
+    {
+      "expected": 1,
+      "id": "atlas_one_root",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 3,
+      "id": "atlas_three_roots",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 3
+    },
+    {
+      "expected": 1,
+      "id": "atlas_high_root_only",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 0,
+      "id": "atlas_no_root_at_two",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 0
+    },
+    {
+      "expected": {
+        "closure_residual": 0.0,
+        "dx_residual": 0.0
+      },
+      "id": "radiation_fold",
+      "kind": "regression",
+      "pass": true,
+      "tolerance": 2e-05,
+      "value": {
+        "closure_residual": -2.5269442094355554e-10,
+        "dx_residual": -1.1321321088935082e-07
+      }
+    },
+    {
+      "expected": {
+        "closure_residual": 0.0,
+        "dx_residual": 0.0
+      },
+      "id": "late_fold",
+      "kind": "regression",
+      "pass": true,
+      "tolerance": 2e-05,
+      "value": {
+        "closure_residual": 1.5005876730089796e-07,
+        "dx_residual": 2.982839181050796e-07
+      }
+    },
+    {
+      "expected": "at least one root",
+      "id": "amplitude_root_nu_2.0",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        3.5436791525961997
+      ]
+    },
+    {
+      "expected": "at least one root",
+      "id": "amplitude_root_nu_2.2",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        2.526564276471193
+      ]
+    }
+  ],
+  "fold_anchors": {
+    "late_fold": {
+      "closure_residual": 1.5005876730089796e-07,
+      "dx_residual": 2.982839181050796e-07
+    },
+    "radiation_fold": {
+      "closure_residual": -2.5269442094355554e-10,
+      "dx_residual": -1.1321321088935082e-07
+    }
+  },
+  "generated_utc": "2026-08-23T22:34:02.813663+00:00",
+  "parameters": {
+    "dark0": 0.6893105,
+    "omega_m0": 0.310598,
+    "omega_r0": 9.15e-05,
+    "scan": {
+      "left": 1e-08,
+      "right": 60.0,
+      "step": 0.002
+    }
+  },
+  "receipt": "causal-scale-theory homogeneous background",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": "arithmetic and formula implementation only",
+  "unit_branch": {
+    "acceleration_entry_n": -0.5798068695312395,
+    "acceleration_entry_z": 0.7856935256176354,
+    "acceleration_exit_a": 11.78652452215664,
+    "acceleration_exit_n": 2.466956889256835,
+    "j0": -0.11124646428421958,
+    "q0": -0.3369024707078755,
+    "w0": -0.8094544918029205,
+    "wa": -0.6122052806255416,
+    "x_crossing": 0.2940065550582176,
+    "z_crossing": 0.34179269916740274
+  }
+}

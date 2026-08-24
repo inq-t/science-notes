@@ -1,4 +1,4 @@
-`# Salvage Ledger
+# Salvage Ledger
 
 These results exist in exactly one place. Several live inside receipt scripts rather than prose, which means a consolidation working from the two newest documents would silently drop them. Each entry gives the claim, where it is, and where it should land.
 
