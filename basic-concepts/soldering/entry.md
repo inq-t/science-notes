@@ -218,7 +218,7 @@ The project uses *soldering* more broadly for explicit maps between ontologicall
 
 ### Scale and state
 
-In [[causal-scale-master/scale-soldering|Connes-cocycle scale soldering]], a multiplicative scale ratio $r$ is related to an additive modular parameter by
+In [[causal-scale-theory/scale-soldering|affine scale--state soldering]], a multiplicative scale ratio $r$ is related to an additive modular parameter by
 
 $$
 \theta(r)=-\varrho_\perp\ln r.

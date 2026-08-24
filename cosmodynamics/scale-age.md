@@ -60,4 +60,4 @@ $$
 }.
 $$
 
-This allocates one e-fold between a signed surface-gravity rapidity and horizon-entropy growth under the stated FLRW definitions. It does not identify $\widehat\eta_A$ with proper time, horizontal state displacement, or fact formation. The sign conditions and the distinction between vertical and horizontal temperatures are kept in [[causal-scale-master-v8/horizon-and-vacuum|horizon clock and vacuum split]].
+This allocates one e-fold between a signed surface-gravity rapidity and horizon-entropy growth under the stated FLRW definitions. It does not identify $\widehat\eta_A$ with proper time, horizontal state displacement, or fact formation. The sign conditions are kept in [[causal-scale-theory/horizon-clock|the horizon clock]], while [[causal-scale-theory/horizontal-temperature|the horizontal-temperature note]] keeps the distinct temperature notions separate.

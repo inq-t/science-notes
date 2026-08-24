@@ -234,7 +234,7 @@ $$
 N\longmapsto(\mathcal A_N,\omega_N).
 $$
 
-An individual $N$ gives only one vertical algebra-state pair. If the algebras vary, expressions comparing $\omega_N$ with $\omega_{N'}$ require explicit identifications, inclusions, a connection, a cocycle, or relative data. Even if all $\mathcal A_N$ are one fixed algebra, the path of states and its physical interpretation remain additional structure. In particular, modular flow within one algebra-state fiber is not automatically horizontal motion through the family. This distinction is maintained in [[cosmodynamics/registers-and-type-discipline|register and type discipline]] and [[scale-as-modular-observable/entry|Scale as a Modular Observable]]; [[causal-scale-master-v8/wall-state-construction|constructing the causal-wall state]] states the missing comparison data explicitly.
+An individual $N$ gives only one vertical algebra-state pair. If the algebras vary, expressions comparing $\omega_N$ with $\omega_{N'}$ require explicit identifications, inclusions, a connection, a cocycle, or relative data. Even if all $\mathcal A_N$ are one fixed algebra, the path of states and its physical interpretation remain additional structure. In particular, modular flow within one algebra-state fiber is not automatically horizontal motion through the family. This distinction is maintained in [[cosmodynamics/registers-and-type-discipline|register and type discipline]] and [[scale-as-modular-observable/entry|Scale as a Modular Observable]]; [[wall-construction-interface/cross-fiber-transport|cross-fiber transport and state selection]] states the missing comparison data explicitly.
 
 The vocabulary becomes fruitful only when it exposes these obligations:
 

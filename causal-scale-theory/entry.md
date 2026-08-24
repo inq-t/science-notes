@@ -67,6 +67,8 @@ $$
 
 These are conditional deductions. [[causal-scale-theory/generalized-background|The generalized background]] distinguishes the full $(\nu,\mathfrak R_c)$ family, its closure roots, and its future classes. [[unit-branch|The unit branch]] evaluates $\nu=\mathfrak R_c=1$ and records the old benchmark as a reproducible arithmetic example rather than as evidence for the principles.
 
+[[causal-scale-theory/explanatory-economy|Explanatory economy]] distinguishes having few fitted numbers, no free functions, few structural choices, and an independently grounded explanation. The fixed pulse is functionally economical, but it becomes a novel explanation only if the wall construction and response law select it without using the target cosmological history as input.
+
 The theory's other exact structures do not silently become cosmological dynamics. [[causal-scale-theory/witten-pair|The Witten--Darboux pair]] is an internal factorization of the binary profile, not a derived spacetime perturbation operator. [[no-go-register|The no-go register]] preserves calculations that exclude tempting but invalid derivations. Local GR and QFT enter through [[compatible-with-existing-physics/entry|the local-physics interface]]: CST may surround an imported local sector without reconstructing it, but it must preserve that sector wherever both descriptions apply.
 
 The empirical programme is ordered by discriminating power in [[observables|observables and tests]], not by algebraic elegance. The most characteristic background predictions are the finite transition shape, its linked density and expansion histories, and the future asymptotic class. Growth becomes a prediction only after a covariant response sector is supplied. Several deeper proposals remain deliberately separable in [[causal-scale-theory/conjecture-ledger|the conjecture ledger]], while [[causal-scale-theory/quarantine|the quarantine]] holds live typing tensions that should not be resolved by rhetoric.
@@ -75,4 +77,4 @@ The empirical programme is ordered by discriminating power in [[observables|obse
 
 CST currently supplies a mathematically controlled **conditional homogeneous model** and a sharper research architecture. It does not yet supply the wall construction, a covariant response stress tensor with perturbations, a likelihood against full cosmological data, or a derivation of the unit laws. Failure of one of those bridges would localize the failure: it would not undo the conformal, tractor, binary, or FLRW identities that precede it.
 
-The prior master documents remain immutable inputs. [[archive|The source archive]] records their local fingerprints and links to the preserved refactor audit.
+The prior master modules are retired from the active theory graph. Their exact trees remain available as local immutable legacy sources; [[archive|the source archive]] records their fingerprints, pre-retirement Git state, and the audit of what was salvaged, rejected, or delegated.

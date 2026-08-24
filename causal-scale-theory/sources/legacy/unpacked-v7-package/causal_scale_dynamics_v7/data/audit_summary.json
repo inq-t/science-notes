@@ -1,0 +1,180 @@
+{
+  "n_samples": 75289,
+  "source": {
+    "mean": 0.045814474183370146,
+    "q16": 0.010760519211997477,
+    "median": 0.03773751899993048,
+    "q84": 0.08196131435998945,
+    "p_above_floor": 0.3030953151986186,
+    "ess": 44355.162995025945
+  },
+  "combined_pushforward": {
+    "mean": 0.07747240925402868,
+    "q16": 0.03331130461435977,
+    "median": 0.0728567506317543,
+    "q84": 0.11997513089408825,
+    "p_above_floor": 0.6598585343116601,
+    "ess": 331.7404574876526
+  },
+  "bao_only": {
+    "mean": 0.07499392012856476,
+    "q16": 0.03122565006250742,
+    "median": 0.07069545803549422,
+    "q84": 0.12069935,
+    "p_above_floor": 0.6211818279998559,
+    "ess": 1133.0301977071895
+  },
+  "sn_only": {
+    "mean": 0.055259036252338696,
+    "q16": 0.014648873990312948,
+    "median": 0.04666766107903361,
+    "q84": 0.09458718385771335,
+    "p_above_floor": 0.40751118951145615,
+    "ess": 448.06322285778396
+  },
+  "pareto_tail": {
+    "sqrt": {
+      "tail_size": 274,
+      "tail_fraction": 0.0036393098593420024,
+      "threshold": 33.65122100611484,
+      "k_hat": 0.7895190601532105,
+      "scale": 36.22799692554253
+    },
+    "three_sqrt": {
+      "tail_size": 823,
+      "tail_fraction": 0.010931211730797327,
+      "threshold": 12.360015031269313,
+      "k_hat": 0.9115837857812541,
+      "scale": 11.483093681756301
+    },
+    "half_percent": {
+      "tail_size": 376,
+      "tail_fraction": 0.004994089442016762,
+      "threshold": 24.961901897473975,
+      "k_hat": 0.8244130002285182,
+      "scale": 26.41130578536054
+    },
+    "one_percent": {
+      "tail_size": 752,
+      "tail_fraction": 0.009988178884033524,
+      "threshold": 13.40368455844092,
+      "k_hat": 0.9088168634612432,
+      "scale": 12.52951442169231
+    },
+    "two_percent": {
+      "tail_size": 1505,
+      "tail_fraction": 0.01998963992083837,
+      "threshold": 6.809463314498105,
+      "k_hat": 0.9276276554134291,
+      "scale": 6.55092964562491
+    },
+    "five_percent": {
+      "tail_size": 3764,
+      "tail_fraction": 0.04999402303125291,
+      "threshold": 2.657142096191272,
+      "k_hat": 0.9196421870354412,
+      "scale": 2.8584688013899315
+    }
+  },
+  "weight_concentration": {
+    "1": 0.0249549889829069,
+    "5": 0.0903778203588833,
+    "10": 0.1337142373368642,
+    "20": 0.19241066935704648,
+    "50": 0.2851184329582373,
+    "100": 0.3579126820607912,
+    "200": 0.4360532593436651,
+    "500": 0.5425001643435248,
+    "1000": 0.6235682218862,
+    "2000": 0.7055408507631219,
+    "5000": 0.8157037253781477
+  },
+  "robust_trimming_range_drop_0_to_1pct": {
+    "mean_min": 0.07393914069823074,
+    "mean_max": 0.07789719322826247,
+    "median_min": 0.06961696869185519,
+    "median_max": 0.07504587607645527,
+    "p_floor_min": 0.5934093339040356,
+    "p_floor_max": 0.6598585343116601
+  },
+  "matter_bookkeeping": {
+    "omega_m_source_mean": 0.14177958529215168,
+    "omega_m_target_mean": 0.14280368523449863,
+    "delta_omega_m": 0.001024099942346951,
+    "delta_omega_m_equiv_eV": 0.09538466863019501,
+    "delta_mnu_mean_eV": 0.03165793507065853,
+    "delta_omega_cb_equiv_eV": 0.06372673355953358
+  },
+  "geometry_mass_association": {
+    "weighted_corr_mnu_dchi": -0.4388875447473311,
+    "unweighted_spearman": -0.4583186749347338,
+    "partial_weighted_corr_controlling_omega_cb_w0_wa_H0": -0.174625203605791
+  },
+  "rigid_history_lambda_audit": {
+    "Nc": -0.29532065882643127,
+    "zc": 0.34355711306710823,
+    "mu_cross": 0.6248760976767541,
+    "mu_today": 0.6683981580283045,
+    "points": [
+      {
+        "N": -3.0,
+        "theta_horizontal": -2.7046793411735686,
+        "eta_vertical": -0.848027134564916,
+        "mu_A": 0.24853319853296096,
+        "sech2_theta": 0.017738934298558447,
+        "sech2_eta": 0.523848395161056
+      },
+      {
+        "N": -1.0,
+        "theta_horizontal": -0.7046793411735688,
+        "eta_vertical": -0.33095823393534185,
+        "mu_A": 0.32437265395052817,
+        "sech2_theta": 0.6311508266880443,
+        "sech2_eta": 0.8979954384424547
+      },
+      {
+        "N": -0.29532065882643127,
+        "theta_horizontal": 0.0,
+        "eta_vertical": 0.0,
+        "mu_A": 0.6248760976767541,
+        "sech2_theta": 1.0,
+        "sech2_eta": 1.0
+      },
+      {
+        "N": 0.0,
+        "theta_horizontal": 0.29532065882643127,
+        "eta_vertical": 0.1932895490997935,
+        "mu_A": 0.6683981580283045,
+        "sech2_theta": 0.9176169017150385,
+        "sech2_eta": 0.9635503811933088
+      },
+      {
+        "N": 1.0,
+        "theta_horizontal": 1.2953206588264312,
+        "eta_vertical": 0.8037844099788455,
+        "mu_A": 0.5463006988541959,
+        "sech2_theta": 0.25951621792924245,
+        "sech2_eta": 0.5562479734957683
+      },
+      {
+        "N": 3.0,
+        "theta_horizontal": 3.2953206588264314,
+        "eta_vertical": 1.8225231383647955,
+        "mu_A": 0.4990575875683003,
+        "sech2_theta": 0.005477582687337469,
+        "sech2_eta": 0.09922932380923082
+      }
+    ],
+    "strong_identification_fixed_point": {
+      "mu": 0.6666666666666666,
+      "w": -0.5555555555555556,
+      "q": -0.3333333333333333,
+      "a_power": 1.5,
+      "interpretation": "If theta prime equals mu_A and the dark tail dominates, self-consistency gives permanent power-law acceleration rather than coasting."
+    }
+  },
+  "interpretive_corrections": {
+    "lensing_baseline_problem": "The +2.08% proxy compares pulse with matched LambdaCDM; the +0.0317 eV mass shift compares source CPL with pulse. Pulse versus source CPL was only +0.157%, so the former is not an independent numerical explanation of the latter.",
+    "negative_mass_limitation": "The proposal samples enforce physical nonnegative mnu and retain the source CMB likelihood. They cannot show that the negative-effective-mass maximum disappears."
+  }
+}

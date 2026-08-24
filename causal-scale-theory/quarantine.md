@@ -22,6 +22,8 @@ These questions are unresolved and load-bearing enough that they must remain vis
 
 Binary self-duality, maximum normalized susceptibility, $w_X=-1$, and ordinary-sector equality do not all have the same origin. [[unit-branch]] decomposes them; a deeper synchronization theorem remains conjectural.
 
+At the crossing, [[trace-free-crossing|the response is trace-free silent]] while ordinary matter and radiation remain in the transport source. The resulting unit-branch energy-budget split is exact under its background premises, but interpreting it as the geometric origin of unit amplitude remains part of [[conjectures/self-dual-synchronization|the synchronization conjecture]].
+
 [[vacuum-residual-sector|The zero residual]] is a global sector choice. Local trace-free blindness neither selects it nor proves its radiative stability.
 
 ## Covariant descent

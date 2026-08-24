@@ -9,18 +9,18 @@
     ]
   },
   "atlas_roots": {
-    "atlas_high_root_only": [
+    "nu_1_0": [
+      0.2940065550582187
+    ],
+    "nu_1_8": [
+      0.5466053050480952,
+      0.8024096274705775,
+      18.85197928869949
+    ],
+    "nu_1_9": [
       37.70406884100606
     ],
-    "atlas_no_root_at_two": [],
-    "atlas_one_root": [
-      0.3373257512195671
-    ],
-    "atlas_three_roots": [
-      0.42926607023032215,
-      1.4384127673249858,
-      12.548048579906505
-    ]
+    "nu_2_0": []
   },
   "checks": [
     {
@@ -88,64 +88,252 @@
       "value": 11.78652452215664
     },
     {
+      "expected": 0.7506311,
+      "id": "unit_response_density_over_critical0",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.7506311165166403
+    },
+    {
+      "expected": 1.0003953,
+      "id": "unit_response_to_matter_at_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 1.0003952827512677
+    },
+    {
+      "expected": 1.0,
+      "id": "unit_response_to_matter_plus_radiation_at_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-13,
+      "value": 1.0000000000000142
+    },
+    {
+      "expected": 0.0001975633,
+      "id": "unit_radiation_fraction_at_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-10,
+      "value": 0.0001975632822689589
+    },
+    {
+      "expected": -0.2499012,
+      "id": "unit_q_at_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": -0.2499012183588708
+    },
+    {
+      "expected": 0.6249506,
+      "id": "unit_horizon_index_at_crossing",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.6249506091794355
+    },
+    {
+      "expected": 1.558402308,
+      "id": "radiation_fold_nu",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-09,
+      "value": 1.558402307969975
+    },
+    {
+      "expected": 6.106871592,
+      "id": "radiation_fold_x",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-09,
+      "value": 6.106871591502841
+    },
+    {
+      "expected": 1.814657203,
+      "id": "late_fold_nu",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-09,
+      "value": 1.8146572028430188
+    },
+    {
+      "expected": 0.649049974,
+      "id": "late_fold_x",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-09,
+      "value": 0.6490499741363935
+    },
+    {
+      "expected": 1.81400853,
+      "id": "strict_dust_fold_nu",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-08,
+      "value": 1.8140085322967936
+    },
+    {
+      "expected": 1.81413212,
+      "id": "hybrid_fold_nu",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-08,
+      "value": 1.8141321159173553
+    },
+    {
       "expected": 1,
-      "id": "atlas_one_root",
+      "id": "nu_1_0_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
       "value": 1
     },
     {
+      "expected": 0.2940066,
+      "id": "nu_1_0_root_1",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.2940065550582187
+    },
+    {
       "expected": 3,
-      "id": "atlas_three_roots",
+      "id": "nu_1_8_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
       "value": 3
     },
     {
+      "expected": 0.5466053,
+      "id": "nu_1_8_root_1",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.5466053050480952
+    },
+    {
+      "expected": 0.8024096,
+      "id": "nu_1_8_root_2",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 0.8024096274705775
+    },
+    {
+      "expected": 18.8519793,
+      "id": "nu_1_8_root_3",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 18.85197928869949
+    },
+    {
       "expected": 1,
-      "id": "atlas_high_root_only",
+      "id": "nu_1_9_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
       "value": 1
     },
     {
+      "expected": 37.7040688,
+      "id": "nu_1_9_root_1",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-07,
+      "value": 37.70406884100606
+    },
+    {
       "expected": 0,
-      "id": "atlas_no_root_at_two",
+      "id": "nu_2_0_root_count",
       "kind": "independent",
       "pass": true,
       "tolerance": 0,
       "value": 0
     },
     {
-      "expected": {
-        "closure_residual": 0.0,
-        "dx_residual": 0.0
-      },
-      "id": "radiation_fold",
-      "kind": "regression",
+      "expected": 0.0,
+      "id": "past_future_crossing_threshold",
+      "kind": "independent",
       "pass": true,
-      "tolerance": 2e-05,
-      "value": {
-        "closure_residual": -2.5269442094355554e-10,
-        "dx_residual": -1.1321321088935082e-07
-      }
+      "tolerance": 2e-14,
+      "value": 2.220446049250313e-16
     },
     {
-      "expected": {
-        "closure_residual": 0.0,
-        "dx_residual": 0.0
-      },
-      "id": "late_fold",
-      "kind": "regression",
+      "expected": 1,
+      "id": "ruble_0.8_root_count",
+      "kind": "independent",
       "pass": true,
-      "tolerance": 2e-05,
-      "value": {
-        "closure_residual": 1.5005876730089796e-07,
-        "dx_residual": 2.982839181050796e-07
-      }
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 0.0,
+      "id": "ruble_0.8_closure_residual",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-12,
+      "value": 7.838174553853605e-14
+    },
+    {
+      "expected": 1,
+      "id": "ruble_0.8_crossing_sign",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 1,
+      "id": "ruble_1.2_root_count",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 0.0,
+      "id": "ruble_1.2_closure_residual",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-12,
+      "value": 4.829470157119431e-14
+    },
+    {
+      "expected": 1,
+      "id": "ruble_1.2_crossing_sign",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 1,
+      "id": "ruble_1.5_root_count",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": 1
+    },
+    {
+      "expected": 0.0,
+      "id": "ruble_1.5_closure_residual",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 2e-12,
+      "value": 4.141131881851834e-14
+    },
+    {
+      "expected": -1,
+      "id": "ruble_1.5_crossing_sign",
+      "kind": "independent",
+      "pass": true,
+      "tolerance": 0,
+      "value": -1
     },
     {
       "expected": "at least one root",
@@ -168,27 +356,41 @@
       ]
     }
   ],
-  "fold_anchors": {
-    "late_fold": {
-      "closure_residual": 1.5005876730089796e-07,
-      "dx_residual": 2.982839181050796e-07
+  "folds": {
+    "hybrid": {
+      "nu": 1.8141321159173553,
+      "x": 0.6493841859064526
     },
-    "radiation_fold": {
-      "closure_residual": -2.5269442094355554e-10,
-      "dx_residual": -1.1321321088935082e-07
+    "late": {
+      "nu": 1.8146572028430188,
+      "x": 0.6490499741363935
+    },
+    "radiation": {
+      "nu": 1.558402307969975,
+      "x": 6.106871591502841
+    },
+    "strict_dust": {
+      "nu": 1.8140085322967936,
+      "x": 0.6495266070117598
     }
   },
-  "generated_utc": "2026-08-23T22:34:02.813663+00:00",
+  "generalized_amplitude_roots": {
+    "0.8": 0.4725459320731465,
+    "1.2": 0.13667014362430202,
+    "1.5": -0.09740480724745423
+  },
+  "generated_utc": "2026-08-24T01:19:16.729694+00:00",
   "parameters": {
     "dark0": 0.6893105,
     "omega_m0": 0.310598,
     "omega_r0": 9.15e-05,
     "scan": {
       "left": 1e-08,
-      "right": 60.0,
+      "right": 80.0,
       "step": 0.002
     }
   },
+  "past_future_threshold_ruble": 1.378621,
   "receipt": "causal-scale-theory homogeneous background",
   "runtime": {
     "platform": "Windows-11-10.0.26200-SP0",
@@ -200,8 +402,14 @@
     "acceleration_entry_z": 0.7856935256176354,
     "acceleration_exit_a": 11.78652452215664,
     "acceleration_exit_n": 2.466956889256835,
+    "horizon_index_at_crossing": 0.6249506091794355,
     "j0": -0.11124646428421958,
     "q0": -0.3369024707078755,
+    "q_at_crossing": -0.2499012183588708,
+    "radiation_fraction_at_crossing": 0.0001975632822689589,
+    "response_density_over_critical0_at_crossing": 0.7506311165166403,
+    "response_to_matter_at_crossing": 1.0003952827512677,
+    "response_to_matter_plus_radiation_at_crossing": 1.0000000000000142,
     "w0": -0.8094544918029205,
     "wa": -0.6122052806255416,
     "x_crossing": 0.2940065550582176,

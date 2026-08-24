@@ -77,7 +77,7 @@ $$
 \text{Einstein curvature per stress}.
 $$
 
-It also explains why the cosmological term is not fixed by the local null calculation: metric-proportional terms vanish on contraction with \(k^ak^b\). This is compatible with the local/scalar split in [[causal-scale-master/scale-tractor|the scale-tractor equation]], but it does not solve the global cosmological-constant problem.
+It also explains why the cosmological term is not fixed by the local null calculation: metric-proportional terms vanish on contraction with \(k^ak^b\). This is compatible with the local/scalar split in [[causal-scale-theory/scale-tractor|the scale-tractor equation]], but it does not solve the global cosmological-constant problem.
 
 ## What the route assumes
 

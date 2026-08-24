@@ -57,7 +57,7 @@ This gives a precise conjectural reading of the cosmological pulse: the effectiv
 
 ## Horizon allocation shadow
 
-For the flat expanding FLRW apparent horizon, [[causal-scale-master-v8/horizon-and-vacuum|the horizon-clock identity]] is
+For the flat expanding FLRW apparent horizon, [[causal-scale-theory/horizon-clock|the horizon-clock identity]] is
 
 $$
 \boxed{

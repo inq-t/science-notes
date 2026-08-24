@@ -44,7 +44,7 @@ Every symbol requires a category, variance, domain, and compatibility law. Merel
 
 **C3 — Geometry.** Recover causal order, conformal structure, metric scale, and proper time with the correct local covariance and gravitational dynamics.
 
-**C4 — State and scale transport.** Construct the scale-indexed algebra/state family and its horizontal comparison independently of the cosmological response it is intended to explain. [[causal-scale-master-v8/wall-state-construction|Wall-state construction]] is the current focused obligation.
+**C4 — State and scale transport.** Construct the scale-indexed algebra/state family and its horizontal comparison independently of the cosmological response it is intended to explain. [[wall-construction-interface/cross-fiber-transport|Cross-fiber transport and state selection]] is the current focused obligation.
 
 **C5 — Records and orientation.** Define stable records, produce a one-sided physical evolution or inclusion, and prove that local arrows combine into a shared orientation.
 

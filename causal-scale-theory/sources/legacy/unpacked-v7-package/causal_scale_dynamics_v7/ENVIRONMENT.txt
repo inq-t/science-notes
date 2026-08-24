@@ -1,0 +1,6 @@
+Python 3.13
+Pandoc with XeLaTeX
+PDF verification: pdfium via /home/oai/skills/pdfs/scripts/render_pdf.py
+Symbolic receipts: SymPy
+Numerical root finding: SciPy
+Figures: Matplotlib

@@ -88,7 +88,7 @@ $$
 }
 $$
 
-The balance assumption matters. The relation \(Q^2=1\) alone gives the mean--variance identity, but unequal reference weights shift the canonical center and change the displayed \(2\cosh\theta\) family. The physical existence of a balanced normal quotient is an identification in [[causal-scale-master-v8/entry|Causal Scale Dynamics v8]], not a consequence of there being two null-normal rays.
+The balance assumption matters. The relation \(Q^2=1\) alone gives the mean--variance identity, but unequal reference weights shift the canonical center and change the displayed \(2\cosh\theta\) family. The physical existence of a balanced normal quotient is the [[causal-scale-theory/balanced-channel-premise|balanced-channel premise]], not a consequence of there being two null-normal rays.
 
 ## Pullback to scale
 
@@ -134,7 +134,7 @@ $$
 }
 $$
 
-This last equation is a conditional physical corollary. The first equality is exact reduced algebra; the identification of its second term with a cosmological source belongs to [[causal-scale-master-v8/closure-stack|the closure stack]].
+This last equation is a conditional physical corollary. The first equality is exact reduced algebra; the identification of its second term with a cosmological source belongs to [[causal-scale-theory/closure-stack|the closure stack]].
 
 ## Claim boundary
 

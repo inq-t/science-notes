@@ -17,7 +17,7 @@ $$
 \Phi:N\longmapsto\omega_N.
 $$
 
-The ordinary modular automorphism group $\sigma_s^{\omega_N}$ moves observables at fixed $(\mathcal A,\omega_N)$. By contrast, $\mathrm d\omega_N/\mathrm dN$ compares different states. The former is a vertical modular-flow direction; the latter is the horizontal direction relevant here. See [[modular-flow]].
+The ordinary modular automorphism group $\sigma_s^{\omega_N}$ moves observables at fixed $(\mathcal A,\omega_N)$. By contrast, $\mathrm d\omega_N/\mathrm dN$ compares different states. The former is a vertical modular-flow direction; the latter is the horizontal direction relevant here. See [[causal-scale-theory/modular-flow]].
 
 This distinction also prevents three parameters from being conflated:
 
@@ -69,7 +69,7 @@ Q=P_+-P_-,
 Q^2=1.
 $$
 
-This gives the exact reduced binary geometry in [[binary-geometry]]. It does not mean that the full local quantum field theory is a two-level system, nor does the two-dimensional normal vector space automatically carry a $1+1$-dimensional CFT.
+This gives the exact reduced binary geometry in [[causal-scale-theory/binary-geometry]]. It does not mean that the full local quantum field theory is a two-level system, nor does the two-dimensional normal vector space automatically carry a $1+1$-dimensional CFT.
 
 Choosing
 

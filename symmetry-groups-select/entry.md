@@ -10,7 +10,7 @@ Symmetry selection is a stronger alternative. It asks whether causal and modular
 
 ## The exact seed is a horizontal index, not a Weyl fermion
 
-The [[causal-scale-master/witten-pair#Factorization|binary Witten–Darboux factorization]] has one normalizable zero mode after the proposed [[causal-scale-master/binary-geometry#Fundamental normal reduction|normal-chirality reduction]]. That is a genuine index-shaped result in the one-dimensional horizontal coordinate $\theta$. It does not yet make $\theta$ a spacetime or internal fermionic direction, identify its block grading with four-dimensional Lorentz chirality, couple the mode to gauge fields, or establish anomaly inflow. [[chirality-lift]] isolates the missing map.
+The [[causal-scale-theory/witten-pair|binary Witten–Darboux factorization]] has one normalizable zero mode after the proposed [[causal-scale-theory/balanced-channel-premise|balanced-channel reduction]]. That is a genuine index-shaped result in the one-dimensional horizontal coordinate $\theta$. It does not yet make $\theta$ a spacetime or internal fermionic direction, identify its block grading with four-dimensional Lorentz chirality, couple the mode to gauge fields, or establish anomaly inflow. [[chirality-lift]] isolates the missing map.
 
 The restraint matters because four structures that look similar in formulas are not interchangeable:
 

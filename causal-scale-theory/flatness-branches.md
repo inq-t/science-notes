@@ -1,6 +1,6 @@
 # Present Flatness and the Crossing Branches
 
-Present flatness converts the generalized response into an implicit equation for its crossing date. The equation may have several positive roots, so the crossing is branch data. The value $\nu=2$ classifies the radiation-tail asymptotics but is not a universal root-existence bound.
+Present flatness converts the generalized response into an implicit equation for its crossing date. The equation may have several roots and may place the crossing in the past or future, so the crossing is branch data. The value $\nu=2$ classifies the radiation-tail asymptotics but is not a universal root-existence bound.
 
 Assume the zero-residual flat background with present matter and radiation abundances $\Omega_{m0},\Omega_{r0}$. Define
 
@@ -9,10 +9,12 @@ N:=\ln\frac a{a_0},
 \qquad
 x:=N-N_c,
 \qquad
-x_c:=-N_c=\ln(1+z_c)>0,
+x_c:=-N_c=\ln(1+z_c),
 $$
 
-and
+where $x_c>0$ is a past crossing, $x_c=0$ a present crossing, and $x_c<0$ a future crossing.
+
+Also define
 
 $$
 D:=1-\Omega_{m0}-\Omega_{r0},
@@ -53,13 +55,44 @@ F_\nu(x):=M(x)\operatorname{sech}^2(\nu x),
 T_{\mathfrak R}:=D\frac{2-\mathfrak R_c}{\mathfrak R_c}.
 $$
 
-The allowed dates are positive roots of
+The allowed dates are real roots of
 
 $$
 F_\nu(x_c)=T_{\mathfrak R}.
 $$
 
-Each root defines a parameter-compatible background history. It is not another crossing inside one selected history. The canonical late branch is the smallest positive root unless a deeper selection rule is supplied.
+Each root defines a parameter-compatible background history. It is not another crossing inside one selected history. If a past crossing is imposed, the canonical late branch is the smallest positive root unless a deeper selection rule is supplied. Requiring $x_c>0$ is a branch prior, not part of the flatness equation.
+
+## Past and future crossings
+
+At $x_c=0$,
+
+$$
+M(0)=\Omega_{m0}+\Omega_{r0}=1-D.
+$$
+
+The closure equation is then solved exactly by
+
+$$
+\boxed{
+\mathfrak R_c=2D.}
+$$
+
+On the unit-width root branch continuous through the unit point,
+
+$$
+x_c>0
+\quad\Longleftrightarrow\quad
+\mathfrak R_c<2D,
+$$
+
+while $\mathfrak R_c>2D$ places that branch's crossing in the future. For the inherited abundances,
+
+$$
+2D=1.378621.
+$$
+
+This sign rule belongs to that continuous branch; in multiroot regimes every root and its sign must be reported. [[receipts/background.json|The local receipt]] checks representative past- and future-crossing amplitudes.
 
 ## The tail threshold
 

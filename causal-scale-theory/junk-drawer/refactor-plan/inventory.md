@@ -46,7 +46,7 @@ Ordering below is by logical generation, which for the chat material is not the 
 
 ## G5a — v7, and its distilled library
 
-[[causal-scale-master/latest/Causal_Scale_Dynamics_Master_v7_0|the v7 master]], distilled into the thirteen leaf notes of [[causal-scale-master/entry|causal-scale-master]].
+[[causal-scale-theory/sources/legacy/causal-scale-master/latest/Causal_Scale_Dynamics_Master_v7_0|the v7 master]], distilled into the thirteen leaf notes of [[causal-scale-theory/sources/legacy/causal-scale-master/entry|causal-scale-master]].
 
 **Uniquely authoritative for:** the repair. v7 discards both invalid closures, states unit slope as a representation choice, and introduces the entropy-normalized peak
 
@@ -56,17 +56,17 @@ $$
 
 as an explicit principle rather than a derived quantity. Its leaf notes are the best-factored prose in the archive: one concept each, with a claim-status section and a provenance line.
 
-**Defects:** it hardwires $\varrho_\perp=1$ and $\mathfrak R_c=1$ through the leaves, so the generalized family is invisible; [[causal-scale-master/binary-geometry|binary-geometry]] writes the reflection relation as $J_{\mathrm{mod}}QJ_{\mathrm{mod}}=-Q$, carrying G4's conflation forward into an exact-algebra note; and its reported background comparison is not reproducible from the loose snapshot, whose figure links and reproduction paths refer to the archive layout rather than the flattened files.
+**Defects:** it hardwires $\varrho_\perp=1$ and $\mathfrak R_c=1$ through the leaves, so the generalized family is invisible; [[causal-scale-theory/sources/legacy/causal-scale-master/binary-geometry|binary-geometry]] writes the reflection relation as $J_{\mathrm{mod}}QJ_{\mathrm{mod}}=-Q$, carrying G4's conflation forward into an exact-algebra note; and its reported background comparison is not reproducible from the loose snapshot, whose figure links and reproduction paths refer to the archive layout rather than the flattened files.
 
 **Verdict:** correct structure, over-specialized content.
 
 ## G5b — proposed v8, and its review
 
-The raw proposal at [[inbox/causal-scale-dynamics-proposed-v8/causal-scale-dynamics-proposed-v8|inbox/causal-scale-dynamics-proposed-v8]], reviewed into the nine notes of [[causal-scale-master-v8/entry|causal-scale-master-v8]].
+The raw proposal at [[inbox/causal-scale-dynamics-proposed-v8/causal-scale-dynamics-proposed-v8|inbox/causal-scale-dynamics-proposed-v8]], reviewed into the nine notes of [[causal-scale-theory/sources/legacy/causal-scale-master-v8/entry|causal-scale-master-v8]].
 
-**Uniquely authoritative for:** the generalization. It makes $(\nu,\mathfrak R_c)$ central, gives the generalized invariant $9(1+w_X)^2+6w_X'=4\nu^2$ and the CPL locus, separates the signed horizon index from the surface-gravity magnitude, distinguishes the horizontal normalization from the Kodama–Hayward temperature, corrects the flow classification, and supplies the exact matter-plus-radiation root atlas in [[causal-scale-master-v8/generalized-background|generalized-background]] that exposes G4's ceiling artifact. [[causal-scale-master-v8/closure-stack|The closure stack]] is the archive's clearest statement of what the premises actually are.
+**Uniquely authoritative for:** the generalization. It makes $(\nu,\mathfrak R_c)$ central, gives the generalized invariant $9(1+w_X)^2+6w_X'=4\nu^2$ and the CPL locus, separates the signed horizon index from the surface-gravity magnitude, distinguishes the horizontal normalization from the Kodama–Hayward temperature, corrects the flow classification, and supplies the exact matter-plus-radiation root atlas in [[causal-scale-theory/sources/legacy/causal-scale-master-v8/generalized-background|generalized-background]] that exposes G4's ceiling artifact. [[causal-scale-theory/sources/legacy/causal-scale-master-v8/closure-stack|The closure stack]] is the archive's clearest statement of what the premises actually are.
 
-**Defects:** it is a *review of a proposal*, not a master document, so the canonical argument is split across two modules by construction. Several of the proposal's quantitative claims are withheld as unreproducible, correctly, in [[causal-scale-master-v8/revision-audit|the revision audit]]. And its [[causal-scale-master-v8/observational-programme|observational programme]] promotes reconstruction of the shape invariant to the highest-value test without recording that G4 had already shown that test to be underpowered on structural grounds.
+**Defects:** it is a *review of a proposal*, not a master document, so the canonical argument is split across two modules by construction. Several of the proposal's quantitative claims are withheld as unreproducible, correctly, in [[causal-scale-theory/sources/legacy/causal-scale-master-v8/revision-audit|the revision audit]]. And its [[causal-scale-theory/sources/legacy/causal-scale-master-v8/observational-programme|observational programme]] promotes reconstruction of the shape invariant to the highest-value test without recording that G4 had already shown that test to be underpowered on structural grounds.
 
 **Verdict:** correct parameterization, incomplete as a home.
 

@@ -105,7 +105,7 @@ Those failures do not refute every possible emergent theory. They demonstrate th
 
 ## Empirical reading
 
-[[empirical-status]] supports a balanced conclusion.
+[[vendor/entropic-gravity/empirical-status]] supports a balanced conclusion.
 
 - The baryonic Tully–Fisher and radial-acceleration regularities are real targets which any galaxy theory should explain.
 - Verlinde’s point-mass asymptote lands on the correct kind of low-acceleration scaling.

@@ -14,4 +14,6 @@ The no-go results are durable constraints on specific derivation routes. Each li
 
 [[no-gos/background-reconstruction-is-not-wall-construction|Background reconstruction is not wall construction]] rules out circular explanatory derivations from the history they are meant to predict.
 
+[[no-gos/fractional-susceptibility-closure|A fractional-susceptibility ansatz does not preserve the CST crossing]] shows why $\Omega_X\propto\operatorname{sech}^2$ cannot replace the anchored density law while retaining the density maximum, $w=-1$, and shape invariant.
+
 Two further exclusions are carried directly by their exact owners: [[causal-scale-theory/binary-geometry|the reflected divergence is even]] and cannot orient cosmic evolution, while [[causal-scale-theory/witten-pair|internal Darboux positivity]] does not imply spacetime perturbative stability.

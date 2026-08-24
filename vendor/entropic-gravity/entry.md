@@ -76,7 +76,7 @@ $$
 
 For a point mass this gives \(g_D^2=(a_0/6)g_B\), the baryonic Tully–Fisher scaling. The paper presents it as an estimate, not a MOND field equation. It supplies no general covariant dynamics, native lensing equation, cosmological perturbations, or structure-formation history.
 
-[[empirical-status]] therefore evaluates what has actually been tested: the restricted effective mass relation and later phenomenological implementations, often embedded in GR and \(\Lambda\)CDM interfaces which the theory itself does not provide. Galaxy scaling is genuinely suggestive, and some implementation-specific dwarf and lensing comparisons are favorable; finite-disc residuals, the direct Solar-System test, galaxy-type dependence, and cluster profiles leave a mixed record. [[covariant-completions]] separates Verlinde’s original proposal from later vector-field theories, whose added couplings and stability problems are not consequences of one unique completion.
+[[vendor/entropic-gravity/empirical-status]] therefore evaluates what has actually been tested: the restricted effective mass relation and later phenomenological implementations, often embedded in GR and \(\Lambda\)CDM interfaces which the theory itself does not provide. Galaxy scaling is genuinely suggestive, and some implementation-specific dwarf and lensing comparisons are favorable; finite-disc residuals, the direct Solar-System test, galaxy-type dependence, and cluster profiles leave a mixed record. [[covariant-completions]] separates Verlinde’s original proposal from later vector-field theories, whose added couplings and stability problems are not consequences of one unique completion.
 
 ## What is worth taking from the vendor
 

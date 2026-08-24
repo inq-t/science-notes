@@ -31,7 +31,7 @@ $$
 g_{\mathrm{phys}}=\sigma^{-2}\boldsymbol g.
 $$
 
-This exact kinematic equivalence motivates, but does not prove, the claim that scale is an independently dynamical register. The relevant distinction is maintained in [[causal-scale-master/causal-order|causal order and metric scale]].
+This exact kinematic equivalence motivates, but does not prove, the claim that scale is an independently dynamical register. The relevant distinction is maintained in [[causal-scale-theory/causal-order|causal order and metric scale]].
 
 Likewise, modular evolution
 
@@ -45,7 +45,7 @@ $$
 N\longmapsto(\mathcal A_N,\omega_N).
 $$
 
-Comparing the latter requires inclusions, transports, relative modular data, or another connection. [[causal-scale-master/modular-flow|Modular flow and state deformation]] owns this distinction.
+Comparing the latter requires inclusions, transports, relative modular data, or another connection. [[causal-scale-theory/modular-flow|Modular flow and state deformation]] owns this distinction.
 
 For a commutative readout context $\mathcal D\subseteq\mathcal M$, state restriction gives a measure on $\operatorname{Spec}(\mathcal D)$; it does not give a selected point. [[sufficient-reason/quantum-interpretations|Quantum interpretation and the type change]] states the missing outcome map precisely.
 

@@ -130,7 +130,7 @@ $$
 =\frac{k_B}{S_\Sigma}G^{\perp}_{NN}.
 $$
 
-The [[causal-scale-master/scale-capacity|Scale--Capacity Equivalence Principle]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
+The [[causal-scale-theory/unit-amplitude-principle|unit-amplitude principle]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
 
 $$
 \boxed{

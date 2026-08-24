@@ -40,7 +40,7 @@ This is the main gap between the homogeneous ansatz and cosmological dynamics.
 
 ## Lift the internal operator
 
-The [[witten-pair|binary Witten pair]] must be connected to physical spacetime variables. One must identify its Hilbert space, inner product, gauge constraints, causal evolution parameter, and map to the response tensor. Reflectionlessness in $\theta$-space is not yet a statement about transmission of cosmological perturbations.
+The [[causal-scale-theory/witten-pair|binary Witten pair]] must be connected to physical spacetime variables. One must identify its Hilbert space, inner product, gauge constraints, causal evolution parameter, and map to the response tensor. Reflectionlessness in $\theta$-space is not yet a statement about transmission of cosmological perturbations.
 
 ## Close the trace sector
 

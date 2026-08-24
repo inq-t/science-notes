@@ -12,7 +12,7 @@ Cosmodynamics contains philosophical definitions, mathematical typing principles
 | Phenomenological likelihood | viability or exclusion of an effective history | modular, causal-wall, or information-geometric ontology |
 | Microscopic construction | calculated width, amplitude, and response from a wall state | observational success without perturbative descent and data analysis |
 
-This separation follows [[causal-scale-master-v8/observational-programme|the observational programme and receipts]].
+This separation follows [[causal-scale-theory/empirical-status|the empirical-status ledger]] and [[causal-scale-theory/observables|the discriminating-test programme]].
 
 ## Late acceleration
 
@@ -41,7 +41,7 @@ The [[causal-wall-spectral-theory/claim-audit|claim audit]] therefore treats neu
 
 ## Vacuum energy
 
-Trace-free gravitational equations and normalized-state information geometry can be insensitive to additive central shifts locally. This is not yet a radiatively stable solution of the global cosmological-constant problem. A complete account must control matter loops, phase transitions, curvature counterterms, gravitational corrections, and the global scalar sector. [[causal-scale-master-v8/horizon-and-vacuum|Horizon and vacuum split]] owns this distinction.
+Trace-free gravitational equations and normalized-state information geometry can be insensitive to additive central shifts locally. This is not yet a radiatively stable solution of the global cosmological-constant problem. A complete account must control matter loops, phase transitions, curvature counterterms, gravitational corrections, and the global scalar sector. [[causal-scale-theory/vacuum-residual-sector|The residual vacuum sector]] owns this distinction.
 
 ## Proper evidential direction
 

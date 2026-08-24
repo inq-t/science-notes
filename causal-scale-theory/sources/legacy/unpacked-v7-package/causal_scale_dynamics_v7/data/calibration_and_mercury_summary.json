@@ -1,0 +1,268 @@
+{
+  "definition": {
+    "formal_name": "horizontal relative modular spectral-Weyl coefficient",
+    "informal_name": "Ruble coefficient",
+    "symbol": "varrho_perp",
+    "equation": "varrho_perp=d theta/dN",
+    "canonical_score": "Q^2=1, Spec(Q)={-1,+1}, theta=(1/2) ln(p_plus/p_minus)",
+    "intrinsic_equivalent": "peak Fisher/BKM arc speed per Weyl e-fold",
+    "natural_unit": "one Fisher radian (equivalently one half-log-odds score unit) per e-fold at the self-dual crossing",
+    "critical_value": 1.0,
+    "note": "Because the quotient is dimensionless after canonical normalization, its numerical value cannot be changed by choosing metres or seconds. Setting it to one is a physical equality, not merely SI convention."
+  },
+  "calibrations": {
+    "source_chain_CPL_compressed": {
+      "label": "public physical-mnu w0wa source chain (CPL-compressed)",
+      "mean": 0.9363254312394141,
+      "q025": 0.5297796413230359,
+      "q16": 0.7497350058659156,
+      "median": 0.9464297784618159,
+      "q84": 1.128021865393825,
+      "q975": 1.2965091581474124,
+      "valid_weight": 0.9984482944732297,
+      "formula": "varrho^2=(9/4)(1+w0)^2-(3/2)wa",
+      "warning": "Induced posterior under the source chain prior; CPL parameters are global fit coordinates, not exact local derivatives of the pulse."
+    },
+    "DESI_2026_Gaussian_compressed": {
+      "label": "DESI 2026 published w0-wa-pivot Gaussian compression",
+      "mean": 1.011904460061989,
+      "q025": 0.6375183528730395,
+      "q16": 0.8457890693684296,
+      "median": 1.0236496354152174,
+      "q84": 1.1794898801405276,
+      "q975": 1.3175740002349885,
+      "varrho_at_reported_means": 1.023275256223857,
+      "cov_w0_wa": -0.009864484848484848,
+      "corr_w0_wa": -0.91337822671156,
+      "invalid_fraction": 0.0005384999999999973,
+      "warning": "Gaussian compression reconstructed from reported marginal and pivot errors; not the full pulse likelihood."
+    },
+    "direct_DESI_BAO_unit_response": [
+      {
+        "name": "bao_only",
+        "chi2": 8.982679715368235,
+        "dof": 10,
+        "p": 0.5337481244142352,
+        "Omega_m": 0.32279695065372044,
+        "varrho": 0.9934876063445439,
+        "N_c": -0.27077436648312697,
+        "z_c": 0.3109792361551831,
+        "A": 30.187710827003237,
+        "profile_grid_best": 0.9900000000000001,
+        "dchi1": [
+          null,
+          1.3988744821101686
+        ],
+        "dchi4": [
+          null,
+          1.7776869321925528
+        ],
+        "delta_chi_varrho_1": 0.0001466415000130894
+      },
+      {
+        "name": "bao_plus_lya_fs",
+        "chi2": 10.541937287459561,
+        "dof": 10,
+        "p": 0.3942994234853481,
+        "Omega_m": 0.33151512239125946,
+        "varrho": 1.1428356653969207,
+        "N_c": -0.26352090504784376,
+        "z_c": 0.3015045026711507,
+        "A": 30.401626317357966,
+        "profile_grid_best": 1.1400000000000001,
+        "dchi1": [
+          0.659030195880634,
+          1.504445264139596
+        ],
+        "dchi4": [
+          null,
+          null
+        ],
+        "delta_chi_varrho_1": 0.12229436151879192
+      }
+    ],
+    "conservative_current_summary": {
+      "statement": "varrho_perp approximately 1.0 +/- 0.2 (not a formal combined posterior)",
+      "reason": "Direct BAO maxima and two overlapping multi-probe compressions all place the natural value inside the central region."
+    }
+  },
+  "natural_value_predictions": {
+    "varrho": 1.0,
+    "FWHM_e_folds": 1.7627471740390863,
+    "p10_to_p90_e_folds": 2.1972245773362196,
+    "odds_multiplier_per_e_fold": 7.38905609893065,
+    "shape_invariant_Gamma": 4.0,
+    "legacy_g": 2.0,
+    "w_infinity": -0.33333333333333337,
+    "q_infinity": 0.0,
+    "power_law_exponent_if_dominant": 1.0,
+    "mercury_mnu_proxy": 0.07410348864047035,
+    "neutrino_spectrum_normal_ordering": {
+      "sum_mnu": 0.07410348864047035,
+      "m1": 0.009877349312253371,
+      "m2": 0.013132479942351793,
+      "m3": 0.05109365938584036,
+      "m_beta": 0.013244232972742218,
+      "m_bb_min": 0.001604874313506123,
+      "m_bb_max": 0.011764631602793051,
+      "normal_ordering_floor": 0.05878431004734465
+    },
+    "crossing_stiffness_dimensionless_if_rc_1": 0.5,
+    "response_force_ratio_to_c4_over_G": 0.05968310365946075
+  },
+  "latest_compressed_predictions": {
+    "varrho_median": 1.0236496354152174,
+    "FWHM_e_folds": 1.7220219819880782,
+    "p10_to_p90_e_folds": 2.146461544378875,
+    "odds_multiplier_per_e_fold": 7.746950413011343,
+    "shape_invariant_Gamma": 4.19143430434283,
+    "legacy_g": 2.0472992708304347,
+    "w_infinity": -0.31756690972318846,
+    "q_infinity": 0.023649635415217363,
+    "power_law_exponent_if_dominant": 0.976896748069837,
+    "mercury_proxy_at_median_varrho": 0.07628354589499178,
+    "neutrino_spectrum_at_median_proxy": {
+      "sum_mnu": 0.07628354589499178,
+      "m1": 0.010982302626392411,
+      "m2": 0.013982523769966051,
+      "m3": 0.05131871949861635,
+      "m_beta": 0.014087535220103822,
+      "m_bb_min": 0.002091675273225537,
+      "m_bb_max": 0.012773442411333163,
+      "normal_ordering_floor": 0.05878431004734465
+    },
+    "propagated_over_varrho_compression": {
+      "weight_inside_grid": 0.9774573607887848,
+      "mnu_mean": {
+        "mean": 0.07754058203412316,
+        "q025": 0.049311768176888156,
+        "q16": 0.06200636826850312,
+        "median": 0.07652711047733685,
+        "q84": 0.09313580171508923,
+        "q975": 0.11139426782934987
+      },
+      "mnu_median": {
+        "mean": 0.0734152735990582,
+        "q025": 0.04429514745674164,
+        "q16": 0.05988798548650651,
+        "median": 0.0703991796196585,
+        "q84": 0.09108144372297805,
+        "q975": 0.10953984677716722
+      },
+      "p_above_floor": {
+        "mean": 0.6513069674882079,
+        "q025": 0.3769291605775236,
+        "q16": 0.5293965918009583,
+        "median": 0.6635098218092068,
+        "q84": 0.7721180102484652,
+        "q975": 0.8533548373310549
+      },
+      "H0_mean": {
+        "mean": 67.58052921532315,
+        "q025": 66.83531360885448,
+        "q16": 67.24035848326147,
+        "median": 67.61384833003476,
+        "q84": 67.91655362387161,
+        "q975": 68.14490214528384
+      },
+      "Om_mean": {
+        "mean": 0.3127090920250763,
+        "q025": 0.30565360032229916,
+        "q16": 0.30873768849931965,
+        "median": 0.3124358268288008,
+        "q84": 0.3167130358712376,
+        "q975": 0.32122652705256227
+      },
+      "Nc_mean": {
+        "mean": -0.29253282847846906,
+        "q025": -0.2991289752761064,
+        "q16": -0.29608839316601154,
+        "median": -0.29249495362061884,
+        "q84": -0.288857132829209,
+        "q975": -0.286506239078866
+      }
+    }
+  },
+  "source_chain_predictions": {
+    "varrho_median": 0.9464297784618159,
+    "mercury_proxy_at_median_varrho": 0.06940468550774731
+  },
+  "mercury_response_relation": {
+    "valid_range": [
+      0.8,
+      1.2
+    ],
+    "mean_eV": "0.07485975+0.09072532(varrho-1)",
+    "median_eV": "0.07051623+0.08273950(varrho-1)",
+    "warning": "BAO-geometry proxy from a physical-mnu w0wa proposal; not a direct CMB/pulse posterior and not independent of the data used to calibrate varrho."
+  },
+  "free_amplitude_stress_test": {
+    "BAO_only_best": {
+      "Omega_m": 0.3755,
+      "varrho": 1.67627,
+      "r_c": 0.78563,
+      "chi2": 5.58396
+    },
+    "BAO_plus_Lya_FS_best": {
+      "Omega_m": 0.38935,
+      "varrho": 1.84563,
+      "r_c": 0.80609,
+      "chi2": 7.03605
+    },
+    "interpretation": "Background data alone do not separately identify response amplitude and conversion speed. The near-unity direct estimate assumes the programme's unit-response condition r_c=1. AIC/BIC nevertheless do not reward the two extra free shape parameters over the rigid natural model."
+  },
+  "background_model_comparison": {
+    "BAO_only": {
+      "LambdaCDM": {
+        "chi2": 10.284,
+        "k": 2,
+        "AIC": 14.284,
+        "BIC": 15.413898714923075
+      },
+      "rigid_varrho1_rc1": {
+        "chi2": 8.9828846975,
+        "k": 2,
+        "AIC": 12.9828846975,
+        "BIC": 14.112783412423074
+      },
+      "varrho_free_rc1": {
+        "chi2": 8.9826797154,
+        "k": 3,
+        "AIC": 14.9826797154,
+        "BIC": 16.677527787784612
+      },
+      "varrho_rc_free": {
+        "chi2": 5.5839563476,
+        "k": 4,
+        "AIC": 13.583956347600001,
+        "BIC": 15.843753777446146
+      }
+    },
+    "BAO_plus_Lya_FS": {
+      "LambdaCDM": {
+        "chi2": 12.685,
+        "k": 2,
+        "AIC": 16.685000000000002,
+        "BIC": 17.814898714923075
+      },
+      "rigid_varrho1_rc1": {
+        "chi2": 10.6642849283,
+        "k": 2,
+        "AIC": 14.6642849283,
+        "BIC": 15.794183643223075
+      },
+      "varrho_free_rc1": {
+        "chi2": 10.5419372875,
+        "k": 3,
+        "AIC": 16.541937287499998,
+        "BIC": 18.23678535988461
+      },
+      "varrho_rc_free": {
+        "chi2": 7.0360513557,
+        "k": 4,
+        "AIC": 15.0360513557,
+        "BIC": 17.29584878554615
+      }
+    }
+  }
+}

@@ -46,6 +46,23 @@ $$
 
 These are identities, not equations of motion.
 
+When the Einstein--FLRW equations are additionally imposed,
+
+$$
+\dot H=-\frac{4\pi G}{c^2}(\rho+p),
+$$
+
+and $\sigma''=-a\dot H$. Therefore
+
+$$
+\boxed{
+\rho+p\ge0
+\quad\Longleftrightarrow\quad
+\sigma''\ge0.}
+$$
+
+This null-energy/scale-convexity equivalence is dynamical, not pure scale-section kinematics. It also depends on the flat Einstein--FLRW setting and the energy-density convention used here.
+
 ## Tractor norm and the signed horizon index
 
 For the flat FLRW scale tractor in the conventions of [[causal-scale-theory/scale-tractor]],

@@ -25,4 +25,4 @@ The archived files are verified in [[compatible-with-existing-physics/sources/ch
 
 ## Observational material
 
-The released CMB papers, data, likelihood code, and provenance already mirrored under [[causal-wall-spectral-theory/sources/entry|the CWST local source library]] are shared rather than duplicated here. Background-model receipts and their evidential limits are recorded in [[causal-scale-master-v8/observational-programme|the observational programme]].
+The released CMB papers, data, likelihood code, and provenance already mirrored under [[causal-wall-spectral-theory/sources/entry|the CWST local source library]] are shared rather than duplicated here. Background-model receipts and their evidential limits are recorded in [[causal-scale-theory/empirical-status|the empirical-status ledger]] and [[causal-scale-theory/receipts/README|the CST receipts]].

@@ -2,7 +2,7 @@
 
 The archive contains five receipt scripts of widely differing quality, one of which verifies its headline result with a hard-coded literal. The plan is one suite under a written contract, every check labelled by what it actually establishes, and a standing ledger of the quantitative claims that cannot presently be reproduced at all.
 
-The contract already exists in prose: the requirements listed in [[causal-scale-master-v8/observational-programme|the observational programme]] are the right nine, and [[causal-scale-master-v8/receipts/README|the v8 receipt README]] is the right shape for a per-suite statement of scope. Both should be lifted rather than rewritten.
+The contract already exists in prose: the requirements listed in [[causal-scale-theory/sources/legacy/causal-scale-master-v8/observational-programme|the observational programme]] are the right nine, and [[causal-scale-theory/sources/legacy/causal-scale-master-v8/receipts/README|the v8 receipt README]] is the right shape for a per-suite statement of scope. Both should be lifted rather than rewritten.
 
 ## The contract
 
@@ -24,8 +24,8 @@ The independent-versus-regression distinction is the one I would enforce hardest
 
 | Script | Establishes | Defects |
 |---|---|---|
-| [[causal-scale-master-v8/receipts/background.py]] | the exact matter-plus-radiation folds, the strict-dust and hybrid distinction, the root atlas, generalized-amplitude cases, the unit benchmark | none material — this is the model to build on. Stdlib, JSON, nonzero exit. |
-| [[causal-scale-master/latest/receipts_v7.py]] | selected symbolic residuals of the v7 unit branch | its aggregate flag checks residual *strings*; validates no physical principle; writes output beside itself |
+| [[causal-scale-theory/sources/legacy/causal-scale-master-v8/receipts/background.py]] | the exact matter-plus-radiation folds, the strict-dust and hybrid distinction, the root atlas, generalized-amplitude cases, the unit benchmark | none material — this is the model to build on. Stdlib, JSON, nonzero exit. |
+| [[causal-scale-theory/sources/legacy/causal-scale-master/latest/receipts_v7.py]] | selected symbolic residuals of the v7 unit branch | its aggregate flag checks residual *strings*; validates no physical principle; writes output beside itself |
 | `inbox/causal-scale-dynamics-proposed-v8/receipts_revision2.py` | unit-branch benchmark, two routes to the jerk, chronology, CPL tangent | ceiling check uses the hybrid dust form; the invariant check substitutes one formula into both sides; prints failures but **exits zero** |
 | [[scale-as-modular-observable/chats/02/outputs/receipts_closure.py]] | a classical exponential-family cumulant identity, to ~$10^{-6}$ | the capacity check prints $C/S$ as the literal `1.0` and never computes $C=T\,\mathrm dS/\mathrm dT$; one check evaluates no numbers at all; three benchmark "exact" values are tautologies that return identically for arbitrary fake roots; requires numpy and scipy; exits zero always |
 | [[scale-as-modular-observable/chats/03/outputs/receipts_transparency_fold.py]] | twenty-one identities including the tractor identity, the Levinson phase density, and the two live no-gos | ceiling computed in the hybrid dust form; single root bracket, so it cannot see three roots where three exist; requires numpy and scipy; exits zero always |
@@ -52,7 +52,7 @@ so a positive root exists for every $\nu<2$ and none at $\nu\ge2$, and that boun
 
 ## The withheld-claims ledger
 
-These quantitative claims appear in the master documents and cannot be reproduced from anything in the vault. [[causal-scale-master-v8/revision-audit|The revision audit]] already withholds the v8 set correctly; this consolidates them and says what would be needed.
+These quantitative claims appear in the master documents and cannot be reproduced from anything in the vault. [[causal-scale-theory/sources/legacy/causal-scale-master-v8/revision-audit|The revision audit]] already withholds the v8 set correctly; this consolidates them and says what would be needed.
 
 | Claim | Source | What is missing |
 |---|---|---|
@@ -72,4 +72,4 @@ Do not copy data into this module. [[causal-wall-spectral-theory/sources/entry|T
 
 There is an unresolved architectural question here, already flagged in [[wall-construction-interface/duplication-audit|the duplication audit]]: a vault-wide source library living inside one consumer module is backwards. Two modules now reach into it from outside. My recommendation is to promote it to a top-level `sources` module when convenient, and until then to reference it by path and accept the oddity — moving several hundred megabytes is a decision on its own, and it should not be made as a side effect of either refactor.
 
-For anything this module does eventually fit against, the empirical-hygiene requirements in [[causal-scale-master-v8/observational-programme|the observational programme]] — release identifiers, hashes, cuts, covariance treatment, priors, branch priors, residual sector, seeds, machine-readable outputs, explicit inclusions and exclusions — should be adopted verbatim rather than paraphrased. They are already correct, and [[cosmodynamics/empirical-boundaries|the empirical boundaries note]] states the surrounding scope discipline.
+For anything this module does eventually fit against, the empirical-hygiene requirements in [[causal-scale-theory/sources/legacy/causal-scale-master-v8/observational-programme|the observational programme]] — release identifiers, hashes, cuts, covariance treatment, priors, branch priors, residual sector, seeds, machine-readable outputs, explicit inclusions and exclusions — should be adopted verbatim rather than paraphrased. They are already correct, and [[cosmodynamics/empirical-boundaries|the empirical boundaries note]] states the surrounding scope discipline.

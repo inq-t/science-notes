@@ -6,7 +6,7 @@ A stack is a local-to-global object that remembers symmetry. Over every test spa
 
 This entry concerns **Grothendieck stacks**, especially stacks in groupoids on schemes, and then **algebraic stacks**. It does not concern a software call stack, a technology stack, or an informal pile of assumptions.
 
-In particular, [[causal-scale-master-v8/closure-stack|the Closure Stack]] in the causal-scale module is an ordinary dependency stack: a layered ledger of premises and closure laws. That phrase is useful, but it does not assert the existence of a site, a groupoid-valued functor, descent data, a representable diagonal, or an atlas. Nothing in the algebraic-geometric theory of stacks follows merely from arranging dependencies in layers.
+In particular, [[causal-scale-theory/closure-stack|the Closure Stack]] in the causal-scale module is an ordinary dependency stack: a layered ledger of premises and closure laws. That phrase is useful, but it does not assert the existence of a site, a groupoid-valued functor, descent data, a representable diagonal, or an atlas. Nothing in the algebraic-geometric theory of stacks follows merely from arranging dependencies in layers.
 
 The term **geometric stack** is also convention-dependent. It can mean an algebraic stack, or it can belong to an inductive theory of \(n\)-geometric or derived stacks. Any use of that phrase should state its convention. Here the precise standard term will be *algebraic stack*.
 

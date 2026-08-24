@@ -14,6 +14,8 @@ where $T_c$, $V_c$, and the extensive normalization of $G^\perp_{NN}$ are anchor
 
 Its intended meaning is that the energetic response associated with a scale displacement is proportional to the local distinguishability curvature of the horizontal state path. The factor $1/2$ is the declared quadratic-response normalization. It is not obtained by evaluating a fixed-reference free energy at finite separation.
 
+The coordinate $\theta$ in this construction is typed as a collective state variable or comparison datum, not automatically as a canonical scalar field. [[causal-scale-theory/state-variable-typing|The typing note]] separates that interpretation from the still-open covariant dynamics.
+
 ## Exact motivation and constitutive extension
 
 [[relative-entropy-hessian]] establishes, under its analytic hypotheses,

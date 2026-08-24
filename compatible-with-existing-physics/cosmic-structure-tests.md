@@ -34,7 +34,7 @@ $$
 
 A rigid prediction for $H(N)$ therefore determines distances, lookback times, the age assigned to cosmic events, and the chronology of acceleration. These may be compared jointly with clocks, standard rulers and candles, recombination and nucleosynthesis epochs, and the ages of long-lived objects. Agreement of one distance curve is weaker than agreement of the whole chronology.
 
-The horizon allocation developed in [[causal-scale-master/horizon-clock|the horizon clock]] relates scale change to surface-gravity rapidity and horizon-entropy change under stated geometric assumptions. It is not independent evidence if every term is reconstructed from the same $H(N)$.
+The horizon allocation developed in [[causal-scale-theory/horizon-clock|the horizon clock]] relates scale change to surface-gravity rapidity and horizon-entropy change under stated geometric assumptions. It is not independent evidence if every term is reconstructed from the same $H(N)$.
 
 ## Causal size, entropy, temperature, and gravity
 
@@ -56,7 +56,7 @@ k_BT_{\mathrm{hor}}\frac{S_A}{k_B}
 =E_{\mathrm{MS}}.
 $$
 
-This is a powerful soldering identity among causal, thermodynamic, quantum, and gravitational units. It is nevertheless algebra, not a new prediction, once the radius, area law, temperature normalization, and Misner--Sharp marginality are stipulated. [[causal-scale-master-v8/horizon-and-vacuum|The horizon and vacuum audit]] keeps the horizontal modular temperature distinct from the dynamical Kodama--Hayward temperature.
+This is a powerful soldering identity among causal, thermodynamic, quantum, and gravitational units. It is nevertheless algebra, not a new prediction, once the radius, area law, temperature normalization, and Misner--Sharp marginality are stipulated. [[causal-scale-theory/horizontal-temperature|The horizontal-temperature note]] keeps the modular temperature distinct from the dynamical Kodama--Hayward temperature.
 
 The specifically causal-scale claim begins when an independently constructed state geometry is related to the same horizon data. At a distinguished epoch $c$, define
 
@@ -119,7 +119,7 @@ The current horizon bridge uses $G$ in both the entropy and critical-density for
 
 ## Evidence must be layered
 
-[[causal-scale-master-v8/observational-programme|The observational programme]] distinguishes four evidential levels:
+[[causal-scale-theory/empirical-status|The empirical-status ledger]] distinguishes four evidential levels:
 
 1. symbolic identities;
 2. numerical consequences of stated premises;

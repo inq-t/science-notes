@@ -18,6 +18,44 @@ Accordingly, the transport equation in [[causal-scale-theory/scale-tractor]] can
 
 A related phenomenon occurs in normalized state families: adding a scalar multiple of the identity to a modular Hamiltonian changes its unnormalized exponential but cancels from the normalized density operator. Again, cancellation from a normalized comparison does not imply cancellation from gravity.
 
+In the finite Gibbs illustration,
+
+$$
+\frac{e^{-\beta(H+C\mathbf1)}}
+{\operatorname{Tr}e^{-\beta(H+C\mathbf1)}}
+=
+\frac{e^{-\beta H}}
+{\operatorname{Tr}e^{-\beta H}},
+$$
+
+and
+
+$$
+\operatorname{Var}(K+\alpha\mathbf1)
+=\operatorname{Var}(K).
+$$
+
+For local type-III algebras, these density-matrix formulas are analogies; the exact formulation must use an appropriate relative-entropy or crossed-product comparison.
+
+A fixed-background Hamiltonian shift is also not the same operation as varying a gravitational effective action. The term
+
+$$
+\Gamma_\Lambda[g]
+=-\int\mathrm d^4x\sqrt{-g}\,\Lambda
+$$
+
+has nonzero metric variation. Quantum loops can additionally generate curvature terms such as
+
+$$
+\int\sqrt{-g}\,R,
+\qquad
+\int\sqrt{-g}\,R^2,
+\qquad
+\int\sqrt{-g}\,R_{ab}R^{ab}.
+$$
+
+Central blindness of one normalized state channel therefore does not erase the gravitational effective action.
+
 ## Sector parameter
 
 At homogeneous level one may write
@@ -45,3 +83,5 @@ This is **[SECTOR]**. A positive residual produces an asymptotic de Sitter regim
 - It does not permit vacuum energy to be dropped from local QFT calculations without a matching gravitational prescription.
 
 The open task is to construct a global law that selects and stabilizes a residual sector while preserving the imported local physics. Until then, late coasting in [[unit-branch]] is conditional on the declared zero-residual choice.
+
+[[conjectures/local-global-vacuum-completion|The local--global completion conjecture]] records the stronger possibility that the quotient and scalar equation are two parts of one theory.

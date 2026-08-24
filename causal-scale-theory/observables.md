@@ -50,6 +50,8 @@ are exact conditional shape constraints. Their weakness is not algebraic but inf
 
 When usable background data cover less than a full effective transition width, they can constrain the crossing combination and amplitude while retaining little leverage on the tails that distinguish nearby $\nu$. The inherited work reports this weak-leverage regime but does not preserve a complete power pipeline. The invariant should therefore be a consistency check after direct fitting, not the first advertised observable.
 
+The inherited analysis also used a matched null ensemble of smooth positive transient histories. Many members reproduced the same broad CMB-lensing response direction, so that apparent agreement was rejected as class membership rather than distinctive confirmation. The numerical pipeline is not part of the canonical evidence, but the methodological lesson is: every favorable-looking statistic needs a comparator ensemble capable of revealing whether it is generic to the model class.
+
 ## Perturbative observables
 
 Growth rate $f\sigma_8$, weak lensing, ISW correlations, and primary CMB spectra are not determined by $H(z)$ alone. They require pressure perturbations, anisotropic stress, characteristic speeds, and initial conditions. Borrowing a smooth-fluid prescription would test that borrowed completion, not CST as such.
@@ -60,11 +62,15 @@ This is also where compatibility with existing physics becomes more demanding. T
 
 Every empirical result should state:
 
-- the exact branch and residual choice;
-- which parameters were fixed, fitted, or externally calibrated;
-- the data releases and likelihoods;
-- whether perturbations were derived or imported;
-- the comparison model and equalized parameter count;
-- code, environment, and machine-readable receipts.
+- dataset release identifiers, local source locations, and file hashes;
+- sample selections, redshift cuts, covariance treatment, and calibrations;
+- the exact likelihood, nuisance model, and compressed-data assumptions;
+- parameter definitions and priors, including root-branch priors and the residual-sector choice;
+- treatment of radiation, neutrino masses, curvature, and external anchors;
+- whether perturbations were derived, imported, or omitted, with explicit observable inclusions and exclusions;
+- the comparison model, likelihood parity, nuisance accounting, and equalized parameter count;
+- code revision, environment, computational seeds, tolerances, and machine-readable outputs.
+
+A background-only result must say so in its title or opening claim. AIC or likelihood improvements are interpretable only when the compared data vectors, likelihoods, nuisance counts, and parameter accounting genuinely match.
 
 [[causal-scale-theory/empirical-status]] records what the inherited masters actually establish today.

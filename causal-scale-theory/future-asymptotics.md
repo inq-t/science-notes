@@ -44,8 +44,46 @@ Compare the response dilution with matter, $\rho_m\sim a^{-3}$:
 
 These are zero-residual classes. A positive constant residual eventually dominates and yields de Sitter expansion; a negative one can force a turnaround if the total density reaches zero.
 
+For a response-dominated zero-residual future with $0<\nu<3/2$,
+
+$$
+a(t)\sim t^{1/\nu}.
+$$
+
+Hence $0<\nu<1$ has a power-law future event horizon, while $\nu\ge1$ has divergent future conformal time whenever the zero-residual solution expands forever. In particular, the unit branch obeys
+
+$$
+\int^\infty\frac{\mathrm dt}{a(t)}
+\sim
+\int^\infty\frac{\mathrm dt}{t}
+=\infty,
+$$
+
+so its coasting limit has no permanent future event horizon. A positive residual instead produces an asymptotic de Sitter horizon.
+
 ## Acceleration is not fixed by width alone
 
 The existence and duration of an accelerating interval also depend on $\mathfrak R_c$, the chosen closure root, the ordinary abundances, and the residual sector. In particular, a unit-width model with sufficiently small amplitude need not accelerate.
+
+For the zero-residual matter-plus-radiation background, the exact total deceleration is
+
+$$
+q=-1+\frac32
+\frac{
+\rho_m+\tfrac43\rho_r+(1+w_X)\rho_X
+}{
+\rho_m+\rho_r+\rho_X
+}.
+$$
+
+Therefore acceleration occurs exactly when
+
+$$
+\boxed{
+\bigl(2-3[1+w_X]\bigr)\rho_X
+>\rho_m+2\rho_r.}
+$$
+
+This radiation-inclusive inequality, rather than the sign of $w_X$ alone, determines acceleration entry and exit.
 
 [[unit-branch]] explains the more delicate unit result: its response density dominates at late scale, but its negative active mass decays faster than matter active mass, so acceleration ends at finite $a/a_0$ before the background approaches coasting.

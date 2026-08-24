@@ -9,7 +9,7 @@ The following calculations survive the audit in their stated regimes:
 - For a balanced two-outcome quotient, $\langle Q\rangle=\tanh\theta$, $g^{\mathrm{BKM}}=\operatorname{sech}^2\theta$, and $\langle Q\rangle^2+g^{\mathrm{BKM}}=1$. The balance assumption matters: $Q^2=1$ alone does not fix equal degeneracies or the partition function $2\cosh\theta$.
 - The reflected symmetrized relative entropy is $4\theta\tanh\theta$, with a unique minimum at $\theta=0$.
 - A measurable, rank-one, ratio-dependent additive cocycle coefficient is logarithmic: $\theta=\varrho_\perp(N-N_c)$.
-- Given $\rho_X=A\operatorname{sech}^2[\varrho_\perp(N-N_c)]$ and separate conservation, the equation of state, Riccati flow, CPL locus, and invariant follow algebraically; [[self-dual-response]] records the unit-slope branch.
+- Given $\rho_X=A\operatorname{sech}^2[\varrho_\perp(N-N_c)]$ and separate conservation, the equation of state, Riccati flow, CPL locus, and invariant follow algebraically; [[causal-scale-theory/unit-branch|the unit branch]] records the unit-slope specialization.
 - Given the stated area entropy, canonical $2\pi$ temperature, flat apparent horizon, and Misner--Sharp marginality, $(k_BT_c/V_c)(S_c/k_B)=\rho_{\mathrm{crit},c}$.
 - The internal Darboux factorization
 
@@ -156,7 +156,7 @@ Three consequences:
 
 The near-coincidence of two numbers is why the artifact is hard to see. The reduced-form ceiling $1.814132$ sits very close to $1.814657$, which in the exact closure is the terminal fold of the smallest positive root continuously connected to the late-time branch. The quoted figure is thus approximately right about a different fact. Above it the late branch is gone while radiation-driven roots persist; below it, from $\nu\simeq1.558402$ upward, the exact closure already has three positive roots rather than one.
 
-The corrected root atlas, the distinction between strict-dust and hybrid fold values, and the explicit late-branch declaration are developed in [[causal-scale-master-v8/generalized-background|the generalized background]].
+The corrected root atlas, the distinction between strict-dust and hybrid fold values, and the explicit late-branch declaration are developed in [[causal-scale-theory/flatness-branches|present flatness and the crossing branches]].
 
 ### A normal plane is not automatically a 2D CFT
 
@@ -171,7 +171,7 @@ $$
 \Longrightarrow \gamma_{\perp,c}=1
 $$
 
-is invalid. Equality of capacity and entropy may motivate [[scale-capacity|the scale--capacity principle]], but it is not derived here.
+is invalid. Equality of capacity and entropy may motivate [[causal-scale-theory/unit-amplitude-principle|the unit-amplitude principle]], but it is not derived here.
 
 ### Modular generators and capacities must be distinguished
 
@@ -230,7 +230,7 @@ Two bibliography entries need rechecking before scholarly reuse: the description
 
 ## Repaired closure
 
-The clean repair is the one adopted by [[Causal_Scale_Dynamics_Master_v7_0|Causal Scale Dynamics v7.0]]:
+The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/causal-scale-master/latest/Causal_Scale_Dynamics_Master_v7_0|Causal Scale Dynamics v7.0]]:
 
 - keep the binary and cocycle calculations with explicit hypotheses;
 - state $\varrho_\perp=1$ as the fundamental-character choice;
@@ -246,4 +246,4 @@ The clean repair is the one adopted by [[Causal_Scale_Dynamics_Master_v7_0|Causa
 
 This produces a coherent conditional background theory without pretending that its amplitude law has already been proved.
 
-The ceiling is repaired separately, and later. Version 7 inherits the unit branch, where the artifact is invisible because a single positive root exists there for every admissible width. Keeping $\nu$ and $\mathfrak R_c$ explicit is what exposes it, so the corrected root atlas and the late-branch declaration belong to [[causal-scale-master-v8/generalized-background|the v8 generalized background]] rather than to the v7 repair. A width or amplitude that is allowed to vary must carry an explicit branch choice with it.
+The ceiling is repaired separately, and later. Version 7 inherits the unit branch, where the artifact is invisible because a single positive root exists there for every admissible width. Keeping $\nu$ and $\mathfrak R_c$ explicit is what exposes it, so the corrected root atlas and the late-branch declaration are now canonical in [[causal-scale-theory/flatness-branches|present flatness and the crossing branches]]. A width or amplitude that is allowed to vary must carry an explicit branch choice with it.

@@ -25,6 +25,24 @@ H_+:=AA^\dagger
 =-\frac{\mathrm d^2}{\mathrm d\theta^2}+1.
 $$
 
+Equivalently, the two-component Witten operator is
+
+$$
+\mathcal D_\psi
+:=
+\begin{pmatrix}
+0&A^\dagger\\
+A&0
+\end{pmatrix},
+\qquad
+\mathcal D_\psi^2
+=
+\begin{pmatrix}
+H_-&0\\
+0&H_+
+\end{pmatrix}.
+$$
+
 These are **[EXACT — AFTER BINARY REDUCTION]**.
 
 ## Zero mode and susceptibility
@@ -60,6 +78,37 @@ $$
 $$
 
 is reflectionless for continuum scattering. The function $\tanh\theta$ is a non-normalizable threshold solution at eigenvalue one, so threshold counting requires care.
+
+For continuum eigenvalue $1+k^2$, applying $A^\dagger$ to a free wave gives
+
+$$
+\psi_k(\theta)
+=(-ik+\tanh\theta)e^{ik\theta}.
+$$
+
+There is no $e^{-ik\theta}$ component at either end, so
+
+$$
+R(k)=0.
+$$
+
+After unit incoming normalization, the transmission amplitude may be written
+
+$$
+T(k)=\frac{k+i}{k-i},
+\qquad
+|T(k)|=1,
+$$
+
+up to an overall phase convention. Its phase changes by $\pi$ between threshold and high momentum. With $u:=\ln k$ and the same convention,
+
+$$
+\delta(u)
+=2\arctan(e^{-u})
+=\frac\pi2-\operatorname{gd}(u).
+$$
+
+Thus the momentum-space phase sweep and [[causal-scale-theory/binary-geometry|the position-space Fisher half-turn]] use the same Gudermannian geometry. This is one factorization seen in two representations, not two independent pieces of evidence. No Witten-index or Levinson-theorem claim is needed here; continuum and threshold contributions make those statements convention- and domain-sensitive on the noncompact line.
 
 The absence of a negative eigenvalue is exact for this internal operator. It says only that $A^\dagger A\ge0$ on its declared domain.
 

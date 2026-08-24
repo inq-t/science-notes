@@ -74,6 +74,8 @@ The factor one half here is inherited from the constitutive source normalization
 ## Boundary of the identity
 
 - The displayed equality uses the flat-FLRW apparent horizon and $3+1$ dimensions.
+- [[causal-scale-theory/dimensional-horizon-closure|The $d$-dimensional extension]] gives the corresponding crossing fraction and its precise dimensional assumptions.
 - Choosing $T_c=T_{\mathrm{hor},c}$ is the open physical step isolated in [[horizontal-temperature]].
 - The identity contains $G$ and does not derive its numerical value.
 - Converting one homogeneous scalar does not construct a covariant response stress tensor.
+- The stationary black-hole Smarr formula is a distinct homogeneity identity, reviewed in [[conservation-of-causal-charge/black-hole-saturation-boundary|the black-hole saturation note]].

@@ -11,7 +11,7 @@ Schematically,
 $$
 \frac{\sigma_2}{\sigma_1}
 \longmapsto
-\bigl[omega_{N_2}:\omega_{N_1}\bigr]_{\mathrm{transported}}
+\bigl[\omega_{N_2}:\omega_{N_1}\bigr]_{\mathrm{transported}}
 \longmapsto
 \text{state-space displacement}.
 $$
@@ -31,6 +31,8 @@ $$
 $$
 
 [[causal-scale-theory/modular-flow]] explains why the right-hand side is horizontal rather than the fixed-state modular automorphism group.
+
+[[causal-scale-theory/state-variable-typing|The type of the horizontal variable]] then distinguishes a family label, a transported comparison datum, and a local spacetime field. The theory presently requires one of the first two; it has not derived the third.
 
 ## Explanatory criterion
 

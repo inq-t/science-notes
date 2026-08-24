@@ -11,7 +11,7 @@ N\longmapsto
 (\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}),
 $$
 
-where \(\mathcal A_N\) is a wall or causal-region algebra, \(\omega_N\) is a suitable state, and \(\mathcal T_{N_2N_1}\) transports states or observables to a common algebra before two scales are compared. Without this transport, \(\partial_N\omega_N\) and cross-scale relative entropy are not well typed. [[causal-scale-master-v8/wall-state-construction|The wall-state construction]] and [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] state the broader operator-algebraic obligations.
+where \(\mathcal A_N\) is a wall or causal-region algebra, \(\omega_N\) is a suitable state, and \(\mathcal T_{N_2N_1}\) transports states or observables to a common algebra before two scales are compared. Without this transport, \(\partial_N\omega_N\) and cross-scale relative entropy are not well typed. [[wall-construction-interface/cross-fiber-transport|Cross-fiber transport and state selection]] and [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] state the broader operator-algebraic obligations.
 
 After removing central normalization and vertical modular-frame directions, require a twice-differentiable horizontal family with a finite coincidence Hessian, or the corresponding regular operator-algebraic notion, so that
 
@@ -137,7 +137,7 @@ $$
 =1.
 $$
 
-The [[causal-scale-master-v8/conjecture-ledger#Einstein-capacity universality at a dynamical wall|Einstein-capacity conjecture]] correctly records this as an upgrade target rather than a result.
+[[causal-scale-theory/unit-amplitude-principle#Upgrade and failure|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
 
 The [[noether-capacity-theorem|Noether--capacity theorem]] gives a sufficient route to the entropy equation: prove that the physical horizontal state is a unit escort deformation of a genuine \(1+1\) conformal thermal sector whose entropy is the horizon entropy. Conservation of its dilation current then forces \(C_E=S/k_B\). The burden shifts to constructing that sector and tangent rather than merely observing that the cut has a two-dimensional normal plane.
 
@@ -162,7 +162,7 @@ $$
 The calculation is circular if any of the following supplies the normalization:
 
 - the Bekenstein--Hawking formula with an already measured \(G\);
-- the [[causal-scale-master/hawking-friedmann|Hawking--Friedmann bridge]], which contains \(G\) in both horizon entropy and critical density;
+- the [[causal-scale-theory/hawking-friedmann|Hawking--Friedmann bridge]], which contains \(G\) in both horizon entropy and critical density;
 - a fitted expansion history used both to define the wall and to infer its supposed source;
 - the declaration \(G^{\perp}_{NN}=S_c/k_B\) used as a normalization rather than derived from the wall state; or
 - Planck units introduced before the independent area coefficient is calculated.

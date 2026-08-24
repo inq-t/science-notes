@@ -56,7 +56,7 @@ If many categories survive, the framework provides an interpretation of internal
 
 ## Modular and internal automorphisms are different
 
-The [[causal-scale-master/modular-flow#Vertical motion|modular automorphism group]] acts at fixed algebra and state, while [[causal-scale-master/modular-flow#Horizontal motion|horizontal deformation]] moves through states. Neither is automatically the compact internal group acting on charged fields. The conditional character in [[causal-scale-master/scale-soldering#What fixes the slope?|scale soldering]] belongs to the positive scale-ratio group $\mathbb R_+$; its weight is continuous, and choosing $\varrho_\perp=1$ is a physical representation choice. It does not produce the compact hypercharge group $U(1)$.
+The [[causal-scale-theory/modular-flow|modular automorphism group]] acts at fixed algebra and state, while [[causal-scale-theory/modular-flow|horizontal deformation]] moves through states. Neither is automatically the compact internal group acting on charged fields. The conditional character in [[causal-scale-theory/scale-soldering#What the theorem does not fix|scale soldering]] belongs to the positive scale-ratio group $\mathbb R_+$; its weight is continuous, and choosing $\varrho_\perp=1$ is a physical representation choice. It does not produce the compact hypercharge group $U(1)$.
 
 Geometric modular action can implement Lorentz transformations or PCT under strong hypotheses, as in [[sources/papers/funct-an-9302008-brunetti-guido-longo-modular-structure.pdf|Brunetti, Guido, and Longo]], but that does not identify normal reflection with weak isospin or charge conjugation. Such an identification would also endanger the required local separation between spacetime symmetry and internal gauge symmetry.
 

@@ -41,7 +41,7 @@ $$
 =4\theta\tanh\theta,
 $$
 
-which has its unique minimum at $\theta=0$. These identities are exact within the reduced binary family. See [[binary-geometry]].
+which has its unique minimum at $\theta=0$. These identities are exact within the reduced binary family. See [[causal-scale-theory/binary-geometry]].
 
 ## Pullback along scale
 
@@ -80,20 +80,20 @@ $$
 \qquad A>0.
 $$
 
-This is the [[free-energy-source|all-history modular source law]], not a consequence of the binary algebra. Define the entropy-normalized peak squared BKM speed of the extensive horizontal state by
+This is the [[causal-scale-theory/free-energy-source|all-history modular source law]], not a consequence of the binary algebra. Define the entropy-normalized peak squared BKM speed of the extensive horizontal state by
 
 $$
 \mathfrak R_c
 :=\frac{k_B}{S_c}G_{NN}^{\perp}(N_c).
 $$
 
-Combining the source law with the [[hawking-friedmann|flat-FLRW horizon conversion]] gives
+Combining the source law with the [[causal-scale-theory/hawking-friedmann|flat-FLRW horizon conversion]] gives
 
 $$
 A=\frac12\rho_{\mathrm{crit},c}\mathfrak R_c.
 $$
 
-The [[scale-capacity|Scale--Capacity Equivalence Principle]] is the additional statement $\mathfrak R_c=1$. On that branch,
+The [[causal-scale-theory/unit-amplitude-principle|unit-amplitude principle]] is the additional statement $\mathfrak R_c=1$. On that branch,
 
 $$
 \rho_X(N)

@@ -2,7 +2,7 @@
 
 Every programme that treats physical scale as displacement through quantum state space presupposes the same unconstructed object: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. This module states that object once, enumerates what must be supplied before relative entropy, a Connes cocycle, or a BKM norm may be written at all, and fixes the tests a candidate construction must pass. It derives no cosmology and predicts no spectrum. Its purpose is to be the shared dependency of the homogeneous response programme and the primordial spectral programme rather than a third private copy of their common preamble.
 
-Claim labels follow the vocabulary registered in [[causal-scale-master-v8/entry|the v8 synthesis]].
+Claim labels follow the vocabulary registered in [[causal-scale-theory/claim-status|CST's claim-status discipline]].
 
 ## The interface is a dependency, not a theory
 
@@ -123,7 +123,7 @@ The distinction matters because the two levels have different burdens of proof a
 
 ## The reduction that is assumed, not derived
 
-Both consumers currently route their response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[causal-scale-master/binary-geometry|normal chirality and binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]].
+Both consumers currently route their response through a single binary generator obtained from the two null-normal orientations of a codimension-two cut. The algebra that follows once that reduction is granted is exact and is kept in [[causal-scale-theory/binary-geometry|balanced binary information geometry]]. What is *not* granted — that a large type-III local algebra reduces to this channel at all, that geometric reflection may be identified with Tomita conjugation, and that the reference weights are balanced — is collected in [[binary-channel|the binary channel obligation]].
 
 The word "rank one" is used across the archive for reductions that do not imply one another: one noncentral horizontal generator, one common material clock, and one spin-zero stress form factor. Only the first is an obligation of this interface. The other two are consumer-side assumptions and should be argued where they are used.
 

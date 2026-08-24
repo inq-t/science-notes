@@ -86,7 +86,7 @@ $$
 N_e:=\ln\frac{a}{a_*}=-\Omega.
 $$
 
-The $N_e$ convention in [[flrw-kinematics|FLRW scale-section kinematics]] therefore runs in the opposite direction to the conventional Misner $\Omega$: expansion increases $N_e$ and decreases $\Omega$.
+The $N_e$ convention in [[causal-scale-theory/flrw-kinematics|FLRW scale-section kinematics]] therefore runs in the opposite direction to the conventional Misner $\Omega$: expansion increases $N_e$ and decreases $\Omega$.
 
 If $a_*$ is today's scale factor, then
 

@@ -67,6 +67,41 @@ $$
 
 Both relations apply to the separately identified $X$ sector. A posterior for a total effective equation of state, or for a differently normalized CPL model, is not automatically a measurement of them.
 
+## Equivalent density identities
+
+Let
+
+$$
+y:=\frac{\rho_X}{\rho_{X,c}}
+=\operatorname{sech}^2(\nu x).
+$$
+
+The same binary normalization can be written without $w_X$ as
+
+$$
+\boxed{
+y+\frac1{4\nu^2}
+\left(\frac{\mathrm d\ln y}{\mathrm dN}\right)^2
+=1,}
+$$
+
+or as the logarithmic-curvature equation
+
+$$
+\boxed{
+\frac{\mathrm d^2\ln y}{\mathrm dN^2}
++2\nu^2y=0.}
+$$
+
+With $\Delta:=-\mathrm d\ln y/\mathrm dN=3(1+w_X)$, one obtains the Riccati form
+
+$$
+\Delta'
+=2\nu^2-\frac12\Delta^2.
+$$
+
+These equations are equivalent only for the rigid constant-extensivity pulse. A scale-dependent channel factor would preserve the normalized binary identity while changing all three physical density relations.
+
 ## The crossing
 
 At $x=0$,

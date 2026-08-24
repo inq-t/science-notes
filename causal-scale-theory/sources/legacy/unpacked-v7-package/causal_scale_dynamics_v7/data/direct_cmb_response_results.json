@@ -1,0 +1,176 @@
+{
+  "pulse": {
+    "h": 0.6775234493342943,
+    "H0": 67.75234493342943,
+    "Omega_m": 0.31059826352867076,
+    "omega_m": 0.14257641327160073,
+    "N_c": -0.2941688034455525,
+    "z_c": 0.34201042053097286
+  },
+  "matched_lcdm": {
+    "h": 0.6728194192213941,
+    "H0": 67.28194192213941,
+    "Omega_m": 0.31495655364356356,
+    "omega_m": 0.14257641327160073
+  },
+  "distance_to_z20_Mpc": 10965.815945347287,
+  "chi_star_pulse_Mpc": 13891.18167407635,
+  "chi_star_lcdm_Mpc": 13891.124872471995,
+  "growth_today_ratio": 1.0067373949570533,
+  "rows": [
+    {
+      "L": 20,
+      "camb_PP_m0": 1.16686e-07,
+      "camb_PP_mref": 1.14953e-07,
+      "camb_fractional_response": -0.014851824554788062,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.02314518596559445,
+      "equivalent_signed_mnu_eh_eV": -0.1451500193045628,
+      "pulse_fractional_response_bbks": 0.023063180302481223,
+      "equivalent_signed_mnu_bbks_eV": -0.14463573855513773,
+      "pulse_fractional_response_power": 0.016726926057789138,
+      "equivalent_signed_mnu_power_eV": -0.10489929282932553
+    },
+    {
+      "L": 50,
+      "camb_PP_m0": 1.1322e-07,
+      "camb_PP_mref": 1.10977e-07,
+      "camb_fractional_response": -0.019810987458046325,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.021562922494820613,
+      "equivalent_signed_mnu_eh_eV": -0.1013766025252761,
+      "pulse_fractional_response_bbks": 0.020949537342233926,
+      "equivalent_signed_mnu_bbks_eV": -0.09849281426217665,
+      "pulse_fractional_response_power": 0.016726926057788916,
+      "equivalent_signed_mnu_power_eV": -0.0786404966598317
+    },
+    {
+      "L": 100,
+      "camb_PP_m0": 8.07008e-08,
+      "camb_PP_mref": 7.88775e-08,
+      "camb_fractional_response": -0.022593332408105016,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.019267386172674428,
+      "equivalent_signed_mnu_eh_eV": -0.07942893574562393,
+      "pulse_fractional_response_bbks": 0.018450381543057004,
+      "equivalent_signed_mnu_bbks_eV": -0.07606087078610213,
+      "pulse_fractional_response_power": 0.016726926057789138,
+      "equivalent_signed_mnu_power_eV": -0.06895600281008528
+    },
+    {
+      "L": 200,
+      "camb_PP_m0": 4.16202e-08,
+      "camb_PP_mref": 4.06392e-08,
+      "camb_fractional_response": -0.023570285582481643,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.01652758416571154,
+      "equivalent_signed_mnu_eh_eV": -0.0653101628237589,
+      "pulse_fractional_response_bbks": 0.015653817445044016,
+      "equivalent_signed_mnu_bbks_eV": -0.06185739887322535,
+      "pulse_fractional_response_power": 0.016726926057789138,
+      "equivalent_signed_mnu_power_eV": -0.06609787936470343
+    },
+    {
+      "L": 400,
+      "camb_PP_m0": 1.72232e-08,
+      "camb_PP_mref": 1.68107e-08,
+      "camb_fractional_response": -0.02395025314691801,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.01394537406763563,
+      "equivalent_signed_mnu_eh_eV": -0.05423208400729264,
+      "pulse_fractional_response_bbks": 0.013120269048437772,
+      "equivalent_signed_mnu_bbks_eV": -0.051023337902745616,
+      "pulse_fractional_response_power": 0.016726926057789138,
+      "equivalent_signed_mnu_power_eV": -0.06504924534473913
+    },
+    {
+      "L": 800,
+      "camb_PP_m0": 5.40191e-09,
+      "camb_PP_mref": 5.26622e-09,
+      "camb_fractional_response": -0.025118893132243914,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.011928192406355898,
+      "equivalent_signed_mnu_eh_eV": -0.04422933108074979,
+      "pulse_fractional_response_bbks": 0.011317570040742853,
+      "equivalent_signed_mnu_bbks_eV": -0.04196516415134822,
+      "pulse_fractional_response_power": 0.016726926057788694,
+      "equivalent_signed_mnu_power_eV": -0.06202287198007857
+    },
+    {
+      "L": 1000,
+      "camb_PP_m0": 3.54337e-09,
+      "camb_PP_mref": 3.45498e-09,
+      "camb_fractional_response": -0.024945179306705145,
+      "mref_eV": 0.09314,
+      "pulse_fractional_response_eh": 0.011423240985153571,
+      "equivalent_signed_mnu_eh_eV": -0.042651955004036235,
+      "pulse_fractional_response_bbks": 0.01089087150347412,
+      "equivalent_signed_mnu_bbks_eV": -0.04066420045980267,
+      "pulse_fractional_response_power": 0.016726926057788916,
+      "equivalent_signed_mnu_power_eV": -0.0624547883126938
+    }
+  ],
+  "fits": {
+    "eh_equal": {
+      "equivalent_signed_mnu_eV": -0.0667985149865581,
+      "weighted_cosine": -0.9239596318491922,
+      "fractional_rms_orthogonal": 0.006644291397013889
+    },
+    "eh_mode_count": {
+      "equivalent_signed_mnu_eV": -0.048799907104224265,
+      "weighted_cosine": -0.9718539863839559,
+      "fractional_rms_orthogonal": 0.0031113457626629065
+    },
+    "eh_log_equal": {
+      "equivalent_signed_mnu_eV": -0.10547479446802185,
+      "weighted_cosine": -0.9512592832577481,
+      "fractional_rms_orthogonal": 0.006667876366628625
+    },
+    "eh_Planck_like": {
+      "equivalent_signed_mnu_eV": -0.055588487915724204,
+      "weighted_cosine": -0.959388021312375,
+      "fractional_rms_orthogonal": 0.004192464685309328
+    },
+    "bbks_equal": {
+      "equivalent_signed_mnu_eV": -0.06412051623944888,
+      "weighted_cosine": -0.9172065595180205,
+      "fractional_rms_orthogonal": 0.006692325464444251
+    },
+    "bbks_mode_count": {
+      "equivalent_signed_mnu_eV": -0.046381436139132634,
+      "weighted_cosine": -0.9705764388873553,
+      "fractional_rms_orthogonal": 0.003026517476774105
+    },
+    "bbks_log_equal": {
+      "equivalent_signed_mnu_eV": -0.10335642055491491,
+      "weighted_cosine": -0.9463020377023069,
+      "fractional_rms_orthogonal": 0.006885349957972286
+    },
+    "bbks_Planck_like": {
+      "equivalent_signed_mnu_eV": -0.05285424341194155,
+      "weighted_cosine": -0.956671059937527,
+      "fractional_rms_orthogonal": 0.004126261163193958
+    },
+    "power_equal": {
+      "equivalent_signed_mnu_eV": -0.06880778710752676,
+      "weighted_cosine": -0.9884079527365638,
+      "fractional_rms_orthogonal": 0.0025395043109716227
+    },
+    "power_mode_count": {
+      "equivalent_signed_mnu_eV": -0.06351015279508627,
+      "weighted_cosine": -0.9986458447489914,
+      "fractional_rms_orthogonal": 0.0008701984164680983
+    },
+    "power_log_equal": {
+      "equivalent_signed_mnu_eV": -0.08413468610394402,
+      "weighted_cosine": -0.9808289001770093,
+      "fractional_rms_orthogonal": 0.003259591174202269
+    },
+    "power_Planck_like": {
+      "equivalent_signed_mnu_eV": -0.06502772568146156,
+      "weighted_cosine": -0.9971809488840863,
+      "fractional_rms_orthogonal": 0.0012550941917390576
+    }
+  },
+  "interpretation": "Equivalent signed mnu is the CAMB mnu perturbation that best matches the pulse lensing response. Negative means the pulse boosts lensing like a formally negative neutrino mass."
+}

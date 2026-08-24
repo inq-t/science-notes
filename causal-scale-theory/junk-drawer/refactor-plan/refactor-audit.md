@@ -26,20 +26,20 @@ The following plan steps were rejected or revised:
 
 | Claim | Older master | v8 audit | Canonical resolution |
 |---|---|---|---|
-| Reflection of $Q$ | Same noncentral $Q$ flipped by $J_{\mathrm{mod}}$ | Separates geometric reflection from Tomita conjugation | [[binary-geometry]] uses abstract $J_{\mathrm{refl}}$; full realization remains [[open-questions/binary-reflection-realization|open]] |
+| Reflection of $Q$ | Same noncentral $Q$ flipped by $J_{\mathrm{mod}}$ | Separates geometric reflection from Tomita conjugation | [[causal-scale-theory/binary-geometry]] uses abstract $J_{\mathrm{refl}}$; full realization remains [[causal-scale-theory/open-questions/binary-reflection-realization|open]] |
 | Binary weights | Implicitly balanced | Identifies balance as an extra premise | Balance is stated before $2\cosh\theta$, $\tanh\theta$, or $\operatorname{sech}^2\theta$ |
-| Soldering slope | Unit value hardwired | Carries $\nu=|\varrho_\perp|$ | [[scale-soldering]] proves affinity; [[width-principle]] separately proposes $\nu=1$ |
-| Peak amplitude | Unit value hardwired | Carries $0<\mathfrak R_c<2$ | [[scale-capacity]] defines the invariant; [[unit-amplitude-principle]] separately proposes one |
-| Extensive norm | Constant prefactor implicit | Listed only as a failure mode | [[open-questions/extensive-channel-normalization]] makes constancy a load-bearing assumption |
-| Free-energy source | Motivated as curvature response | Labels the full-path step physical | [[relative-entropy-hessian]] owns the exact local result; [[free-energy-source]] owns the constitutive extension and its counterexample |
-| Horizon normalization | Canonical temperature with a warning | Distinguishes $T_{\mathrm{hor}}$ and $T_{\mathrm{KH}}$ | [[horizontal-temperature]] isolates the open choice; [[hawking-friedmann]] contains only the resulting algebra |
-| Response family | Unit pulse | General $(\nu,\mathfrak R_c)$ family and root atlas | [[generalized-background]] is canon; [[unit-branch]] contains the old evaluation |
+| Soldering slope | Unit value hardwired | Carries $\nu=|\varrho_\perp|$ | [[causal-scale-theory/scale-soldering]] proves affinity; [[causal-scale-theory/width-principle]] separately proposes $\nu=1$ |
+| Peak amplitude | Unit value hardwired | Carries $0<\mathfrak R_c<2$ | [[causal-scale-theory/scale-capacity]] defines the invariant; [[causal-scale-theory/unit-amplitude-principle]] separately proposes one |
+| Extensive norm | Constant prefactor implicit | Listed only as a failure mode | [[causal-scale-theory/open-questions/extensive-channel-normalization]] makes constancy a load-bearing assumption |
+| Free-energy source | Motivated as curvature response | Labels the full-path step physical | [[causal-scale-theory/relative-entropy-hessian]] owns the exact local result; [[causal-scale-theory/free-energy-source]] owns the constitutive extension and its counterexample |
+| Horizon normalization | Canonical temperature with a warning | Distinguishes $T_{\mathrm{hor}}$ and $T_{\mathrm{KH}}$ | [[causal-scale-theory/horizontal-temperature]] isolates the open choice; [[causal-scale-theory/hawking-friedmann]] contains only the resulting algebra |
+| Response family | Unit pulse | General $(\nu,\mathfrak R_c)$ family and root atlas | [[causal-scale-theory/generalized-background]] is canon; [[causal-scale-theory/unit-branch]] contains the old evaluation |
 | Width ceiling | Absent | Benchmark atlas properly qualified, but synthesis plan overgeneralized it | $\nu=2$ is an asymptotic threshold; no-root claim is benchmark-only |
-| Witten pair | Exact internal factorization | Adds completion gates | [[witten-pair]] preserves the exact spectrum and refuses a spacetime lift without a covariant second variation |
+| Witten pair | Exact internal factorization | Adds completion gates | [[causal-scale-theory/witten-pair]] preserves the exact spectrum and refuses a spacetime lift without a covariant second variation |
 
 ## Two layers of dependency
 
-The audit distinguishes **context and embedding** from **algebraic closure**. Causal reconstruction, tractor transport, and FLRW scale kinematics explain what scale means and how the result must interface with gravity. The pulse formula itself algebraically depends on the balanced channel, affine soldering, fixed extensive normalization, the capacity definition, constitutive source, and horizon conversion. [[closure-stack]] records both layers without pretending the first is a derivation of the second.
+The audit distinguishes **context and embedding** from **algebraic closure**. Causal reconstruction, tractor transport, and FLRW scale kinematics explain what scale means and how the result must interface with gravity. The pulse formula itself algebraically depends on the balanced channel, affine soldering, fixed extensive normalization, the capacity definition, constitutive source, and horizon conversion. [[causal-scale-theory/closure-stack]] records both layers without pretending the first is a derivation of the second.
 
 ## Scope of the resulting canon
 
@@ -50,7 +50,7 @@ The new module owns the homogeneous causal-scale response and its conceptual fou
 - local GR/QFT preservation and recovery criteria, which belong to [[compatible-with-existing-physics/entry]];
 - the broader conservation interpretation, which belongs to [[conservation-of-causal-charge/entry]].
 
-The original planning packet is retained under [[junk-drawer/refactor-plan/synthesis-plan|the refactor-plan junk drawer]]. Its proposed migration stages and universal-bound language are historical inputs, not current instructions.
+The original planning packet is retained under [[causal-scale-theory/junk-drawer/refactor-plan/synthesis-plan|the refactor-plan junk drawer]]. Its proposed migration stages and universal-bound language are historical inputs, not current instructions.
 
 ## Preservation result
 

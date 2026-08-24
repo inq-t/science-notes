@@ -68,6 +68,8 @@ $$
 
 These are **[EXACT — AFTER REDUCTION]**. They do not establish that the full wall theory possesses only this channel or that its extensive norm is finite.
 
+Čencov's theorem fixes the classical Fisher metric up to scale under its statistical-morphism hypotheses. Quantum monotonicity is less selective: Petz's classification contains a family of monotone metrics. CST uses the BKM member because it is the coincidence Hessian of Umegaki relative entropy and the covariance metric of this commuting exponential family, not because monotonicity alone uniquely selects it. None of these classification theorems converts a dimensionless state metric into energy density.
+
 ## Casimir balance
 
 Because $Q^2=\mathbf1$,

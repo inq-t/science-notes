@@ -9,13 +9,13 @@ This is a promising research programme, not a closed derivation of dark energy. 
 
 ## Construction
 
-1. [[causal-order|Causal order]] determines conformal geometry but leaves a positive scale section unspecified.
-2. [[modular-flow|Vertical modular flow]] is separated from horizontal motion through a scale-indexed family of states.
-3. [[binary-geometry|Normal chirality]] is proposed as the reduced homogeneous horizontal degree of freedom.
-4. [[scale-soldering|Cocycle soldering]] gives a logarithmic state coordinate, conditional on ratio dependence, rank-one generation, and regularity.
-5. [[scale-capacity|Scale--capacity equivalence]] and [[free-energy-source|the modular source law]] are additional physical inputs; [[hawking-friedmann|the horizon conversion]] supplies units.
-6. The [[self-dual-response|conditional homogeneous response]] then follows.
-7. [[witten-pair|The binary Witten pair]] is exact internal geometry, while its physical perturbation lift is still missing.
+1. [[causal-scale-theory/causal-order|Causal order]] determines conformal geometry but leaves a positive scale section unspecified.
+2. [[causal-scale-theory/modular-flow|Vertical modular flow]] is separated from horizontal motion through a scale-indexed family of states.
+3. [[causal-scale-theory/binary-geometry|Normal chirality]] is proposed as the reduced homogeneous horizontal degree of freedom.
+4. [[causal-scale-theory/scale-soldering|Cocycle soldering]] gives a logarithmic state coordinate, conditional on ratio dependence, rank-one generation, and regularity.
+5. [[causal-scale-theory/unit-amplitude-principle|The unit-amplitude principle]] and [[causal-scale-theory/free-energy-source|the modular source law]] are additional physical inputs; [[causal-scale-theory/hawking-friedmann|the horizon conversion]] supplies units.
+6. The [[causal-scale-theory/unit-branch|conditional homogeneous response]] then follows on the unit branch.
+7. [[causal-scale-theory/witten-pair|The binary Witten pair]] is exact internal geometry, while its physical perturbation lift is still missing.
 
 ## Central conditional result
 

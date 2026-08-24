@@ -8,6 +8,31 @@ $$
 I_A:=\frac14D_A\sigma.
 $$
 
+In a metric splitting its slots are
+
+$$
+I_A
+\simeq
+\left(
+\sigma,
+\nabla_a\sigma,
+-\frac14(\Delta\sigma+J_{\mathrm{Sch}}\sigma)
+\right),
+\qquad
+J_{\mathrm{Sch}}:=\frac R6.
+$$
+
+The notation $J_{\mathrm{Sch}}$ prevents confusion with either geometric reflection or Tomita conjugation.
+
+In these four-dimensional conventions the Schouten tensor is
+
+$$
+P_{ab}
+=\frac12\left(R_{ab}-\frac16R g_{ab}\right),
+\qquad
+J_{\mathrm{Sch}}=P^a{}_a=\frac R6.
+$$
+
 In a choice of metric $g\in[g]$, the trace-free tensor
 
 $$
@@ -16,6 +41,19 @@ $$
 $$
 
 is the component that measures failure of $I_A$ to be parallel. Here $P_{ab}$ is the Schouten tensor and the subscript $0$ denotes trace-free part.
+
+On the open set where $\sigma\ne0$,
+
+$$
+\boxed{
+\nabla_a^T I_B=0
+\quad\Longleftrightarrow\quad
+\mathcal E_{ab}=0
+\quad\Longleftrightarrow\quad
+g_\sigma\ \text{is Einstein}.}
+$$
+
+This is the standard almost-Einstein equivalence in the declared conventions. With sources, trace-free stress is precisely the local obstruction to that parallel transport.
 
 With the conventional normalization used in the source masters, the trace-free Einstein equation is equivalently
 
@@ -35,7 +73,13 @@ This is an **[EXACT — REFORMULATION]** of the trace-free field equation once t
 
 ## The scalar channel
 
-The tractor norm carries the trace information. In the same conventions,
+The tractor norm carries the trace information. In the physical metric $g_\sigma=\sigma^{-2}g$, the standard norm--curvature identity is
+
+$$
+\boxed{I^2=-\frac{R[g_\sigma]}{12}.}
+$$
+
+Combining it with the trace of the Einstein equation gives, in the same conventions,
 
 $$
 I^2
@@ -67,6 +111,8 @@ $$
 $$
 
 Only the second arrow is presently controlled. The first is represented at homogeneous level by [[causal-scale-theory/free-energy-source|the constitutive source law]], [[horizontal-temperature|the horizontal-temperature identification]], and [[causal-scale-theory/hawking-friedmann|the horizon conversion]], not by a general covariant theorem.
+
+At the response maximum, an additional exact conditional statement is available: [[causal-scale-theory/trace-free-crossing|the response becomes trace-free silent]] because $w_X=-1$. This does not make the total scale tractor parallel in the presence of ordinary matter or radiation.
 
 ## What is not established
 

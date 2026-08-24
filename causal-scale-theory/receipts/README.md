@@ -1,26 +1,34 @@
-# Background Receipt Contract
+# Receipt Contract
 
-The background receipt independently recomputes the unit crossing and cosmography, samples the generalized branch topology, verifies the two historical fold anchors as regression checks, and demonstrates amplitude-dependent roots at and above $\nu=2$. It tests formulas and arithmetic only; no receipt validates the wall construction, constitutive source, unit principles, or observational fit.
+The receipt suite separates reduced algebra from homogeneous-background arithmetic. It tests formula implementation only; no receipt validates the wall construction, constitutive source, unit principles, dimensional applicability, or observational fit.
 
 Run locally with
 
 ```powershell
+python causal-scale-theory/receipts/algebra.py
 python causal-scale-theory/receipts/background.py
 ```
 
-The script uses only the Python standard library and writes [[background.json|the machine-readable receipt]] beside itself. It exits nonzero if any declared check fails.
+Any current Python 3 interpreter can run the scripts. Both use only the standard library, write [[algebra.json|algebra]] and [[background.json|background]] outputs beside themselves, and exit nonzero if any declared check fails.
 
-Every check carries one of two kinds:
+The `kind` field records how a check was performed. Exact rational substitutions, numerical quadrature, direct differentiation, root solving, and historical regression values remain distinguishable in the machine-readable output.
 
-- `independent`: the value is found from the equations by root solving or direct differentiation rather than inserted as the expected output;
-- `regression`: the script evaluates a historical quoted anchor and checks that its residual is small.
+The algebra receipt covers:
 
-The receipt covers:
+- binary Casimir balance and its exchange law;
+- the density conic, logarithmic curvature, Riccati equation, and equation-of-state invariant;
+- Witten factorization, zero-mode normalization, the explicit scattering-state Schrödinger residual, and unit transmission modulus;
+- the dimensional crossing and equal-partition laws, the conditional unit selection of $d=3$, and the $3+1$ Hawking--Friedmann coefficients;
+- normalized Gibbs invariance and explicit first/second-moment invariance of variance under an additive central shift;
+- Fisher length and reflected relative entropy.
+
+The background receipt covers:
 
 - the unit-amplitude, unit-width present-flatness root;
 - $z_c,w_0,w_a,q_0,j_0$, acceleration entry, and future exit;
+- crossing density, response-to-matter ratio, exact response-to-matter-plus-radiation equality, radiation fraction, crossing deceleration, and horizon index;
 - representative one-root, three-root, high-root-only, and no-root regimes for the inherited benchmark;
 - the two historical double-root anchors;
 - positive-root counterexamples for $\mathfrak R_c=1.9$ at $\nu=2$ and $\nu=2.2$.
 
-Sign-change scans do not discover exact double roots, so folds are checked separately through the closure residual and its $x$ derivative. The scan interval and resolution are recorded in the JSON output.
+Sign-change scans do not discover exact double roots, so folds are solved separately from the closure and stationarity equations. The scan interval and resolution are recorded in the JSON output. These checks establish algebra and arithmetic consequences of declared premises, not the truth of those premises.

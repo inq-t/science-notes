@@ -1,0 +1,61 @@
+{
+  "all_exact_residuals_zero": true,
+  "benchmark": {
+    "N_c": -0.29400655505822315,
+    "Omega_X_at_crossing": 0.5,
+    "Omega_m0": 0.310598,
+    "Omega_r0": 9.15e-05,
+    "Omega_r_at_crossing": 0.00019756328226896148,
+    "Ruble_number": 1.0,
+    "a_exit_over_a0": 11.786524522010682,
+    "j0": -0.11124646420824905,
+    "mu_A_crossing": 0.6249506091794328,
+    "q0": -0.33690247070787194,
+    "q_crossing": -0.24990121835886547,
+    "rho_star_over_all_ordinary_at_crossing": 1.0,
+    "rho_star_over_matter_at_crossing": 1.0003952827512534,
+    "rho_star_over_rhocrit0": 0.750631116516642,
+    "shape_invariant": 4.0,
+    "w0": -0.8094544918029171,
+    "wa_tangent": -0.6122052806255398,
+    "z_acceleration_entry": 0.7856935256175881,
+    "z_c": 0.3417926991674103
+  },
+  "binary_geometry": {
+    "eta": "sinh(theta)/cosh(theta)",
+    "fisher_length": "pi",
+    "metric": "cosh(theta)**(-2)",
+    "normalization_residual": "0",
+    "self_dual_first_derivative": "0",
+    "self_dual_second_derivative": "8",
+    "self_dual_value": "0",
+    "symmetrized_relative_entropy": "4*theta*tanh(theta)"
+  },
+  "central_shift": {
+    "gibbs_probability_residual": "0"
+  },
+  "dimension_generalization": {
+    "Omega_X_crossing": "Ruble/(d - 1)",
+    "d3_unit_Ruble_ratio": "1",
+    "r_ordinary_crossing": "Ruble/(-Ruble + d - 1)",
+    "unit_Ruble_ratio": "1/(d - 2)"
+  },
+  "hawking_friedmann": {
+    "energy_density": "3*c**4/(8*pi*G*R**2)",
+    "kBT_times_dimensionless_entropy_minus_Ems": "0",
+    "source_amplitude_for_unit_Ruble": "3*c**4/(16*pi*G*R**2)"
+  },
+  "shape_law": {
+    "Delta": "2*varrho*tanh(varrho*(N - N_c))",
+    "conic_residual": "0",
+    "invariant_residual": "0",
+    "riccati_residual": "0",
+    "w": "2*varrho*tanh(varrho*(N - N_c))/3 - 1"
+  },
+  "witten_pair": {
+    "V_minus": "1 - 2/cosh(theta)**2",
+    "V_plus": "1",
+    "zero_mode_norm_density_relation": "0",
+    "zero_mode_residual": "0"
+  }
+}

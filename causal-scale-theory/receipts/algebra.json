@@ -1,0 +1,285 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "expected": "all zero",
+      "id": "binary_casimir_balance",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "binary_exchange_conservation",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "density_conic",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "density_log_curvature",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "equation_of_state_invariant",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "density_riccati",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "witten_factorization_and_zero_mode",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "dimensional_crossing_law",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "dimensional_equal_partition_law",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "3",
+      "id": "unit_equal_partition_selects_d3",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": "3"
+    },
+    {
+      "expected": "all zero",
+      "id": "hawking_friedmann_coefficients",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "central_normalization_and_shifted_moments",
+      "kind": "exact_rational",
+      "pass": true,
+      "tolerance": null,
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "expected": 3.141592653589793,
+      "id": "fisher_length",
+      "kind": "independent_quadrature",
+      "pass": true,
+      "tolerance": 2e-08,
+      "value": 3.1415926453451184
+    },
+    {
+      "expected": 1.0,
+      "id": "witten_zero_mode_norm",
+      "kind": "independent_quadrature",
+      "pass": true,
+      "tolerance": 2e-12,
+      "value": 0.999999999999885
+    },
+    {
+      "expected": "all zero",
+      "id": "reflected_relative_entropy",
+      "kind": "independent_numeric",
+      "pass": true,
+      "tolerance": 2e-15,
+      "value": [
+        0.0,
+        1.1102230246251565e-16,
+        -6.938893903907228e-17,
+        0.0
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "witten_scattering_schrodinger_residual",
+      "kind": "analytic_numeric",
+      "pass": true,
+      "tolerance": 3e-15,
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "expected": "all zero",
+      "id": "witten_scattering_transmission_modulus",
+      "kind": "analytic_numeric",
+      "pass": true,
+      "tolerance": 2e-15,
+      "value": [
+        1.1102230246251565e-16,
+        0.0,
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "generated_utc": "2026-08-24T01:19:16.912145+00:00",
+  "receipt": "causal-scale-theory reduced algebra",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": "reduced algebra and formula implementation only"
+}

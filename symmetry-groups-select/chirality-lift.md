@@ -4,13 +4,13 @@ After the proposed binary reduction, the one-dimensional causal-scale factorizat
 
 ## Exact horizontal result
 
-The [[causal-scale-master/witten-pair#Factorization|upstream Witten-pair note]] constructs $\mathcal A=\partial_\theta+\tanh\theta$ and its adjoint from the [[causal-scale-master/binary-geometry#Binary family and BKM metric|binary potential]]. Its normalizable solution $\psi_0\propto\operatorname{sech}\theta$ lies in $\ker\mathcal A$, while $\ker\mathcal A^\dagger$ has no normalizable member. With the stated $L^2$ domains this gives
+The [[causal-scale-theory/witten-pair|upstream Witten-pair note]] constructs $\mathcal A=\partial_\theta+\tanh\theta$ and its adjoint from the [[causal-scale-theory/binary-geometry#Exponential family|binary potential]]. Its normalizable solution $\psi_0\propto\operatorname{sech}\theta$ lies in $\ker\mathcal A$, while $\ker\mathcal A^\dagger$ has no normalizable member. With the stated $L^2$ domains this gives
 
 $$
 \operatorname{ind}\mathcal A=1.
 $$
 
-The factorization, bound state, and reflectionless continuum are exact in the reduced $\theta$-model. The upstream note explicitly limits them to [[causal-scale-master/witten-pair#Claim status|horizontal state-space geometry]].
+The factorization, bound state, and reflectionless continuum are exact in the reduced $\theta$-model. The upstream note explicitly limits them to [[causal-scale-theory/witten-pair#Why no spacetime conclusion follows|horizontal state-space geometry]].
 
 ## Four different gradings
 

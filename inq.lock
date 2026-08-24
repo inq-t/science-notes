@@ -11,16 +11,91 @@ revision = "v1"
 integrity = "sha256:0a0f271945b7380e295f4f4163316fa6de7d47aeaa5d5ffc6ff192ee3ce8c62a"
 
 [[module]]
-name = "causal-scale-master"
+name = "causal-scale-theory"
+links = [
+  "compatible-with-existing-physics",
+  "conservation-of-causal-charge",
+  "cosmodynamics",
+  "deriving-value-of-g",
+  "scale-as-modular-observable",
+  "wall-construction-interface",
+]
 
 [[module]]
 name = "causal-wall-spectral-calc"
 
 [[module]]
 name = "causal-wall-spectral-theory"
+links = [
+  "causal-scale-theory",
+]
+
+[[module]]
+name = "coalgebras"
+links = [
+  "groupoids",
+  "sheafs",
+  "stacks",
+  "sufficient-reason",
+  "torsors",
+]
 
 [[module]]
 name = "compatible-with-existing-physics"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+]
+
+[[module]]
+name = "conformal-time"
+links = [
+  "causal-scale-theory",
+]
+
+[[module]]
+name = "conservation-of-causal-charge"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "deriving-value-of-g",
+  "descent",
+  "groupoids",
+  "scale-as-modular-observable",
+  "soldering",
+  "stacks",
+  "sufficient-reason",
+  "torsors",
+]
+
+[[module]]
+name = "cosmodynamics"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "conformal-time",
+  "deriving-fine-structure-constant",
+  "deriving-value-of-g",
+  "misner-log-time",
+  "sufficient-reason",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "dark-energy-and-acceleration"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "conformal-time",
+  "cosmodynamics",
+  "deriving-value-of-g",
+  "scale-as-modular-observable",
+  "wall-construction-interface",
+]
 
 [[module]]
 name = "deriving-fine-structure-constant"
@@ -30,12 +105,183 @@ links = [
 
 [[module]]
 name = "deriving-value-of-g"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "hessians",
+  "least-action",
+  "scale-as-modular-observable",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "descent"
+links = [
+  "causal-wall-spectral-theory",
+  "cosmodynamics",
+  "fibers",
+  "gluing",
+  "groupoids",
+  "sheafs",
+  "soldering",
+  "stacks",
+  "torsors",
+]
+
+[[module]]
+name = "entropic-gravity"
+links = [
+  "compatible-with-existing-physics",
+  "conservation-of-causal-charge",
+  "scale-as-modular-observable",
+]
+
+[[module]]
+name = "fibers"
+links = [
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "descent",
+  "gluing",
+  "scale-as-modular-observable",
+  "sheafs",
+  "soldering",
+  "stacks",
+  "torsors",
+  "wall-construction-interface",
+]
+
+[[module]]
+name = "gluing"
+links = [
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "descent",
+  "fibers",
+  "sheafs",
+  "stacks",
+  "torsors",
+]
+
+[[module]]
+name = "groupoids"
+links = [
+  "cosmodynamics",
+  "descent",
+  "gluing",
+  "stacks",
+  "sufficient-reason",
+  "torsors",
+]
+
+[[module]]
+name = "hessians"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "fibers",
+  "gluing",
+  "groupoids",
+  "sheafs",
+  "soldering",
+  "stacks",
+]
+
+[[module]]
+name = "least-action"
+links = [
+  "causal-scale-theory",
+]
+
+[[module]]
+name = "misner-log-time"
+links = [
+  "causal-scale-theory",
+]
+
+[[module]]
+name = "perturbation-and-symmetry-breaking"
 
 [[module]]
 name = "scale-as-modular-observable"
 links = [
-  "causal-scale-master",
+  "causal-scale-theory",
+  "deriving-value-of-g",
+]
+
+[[module]]
+name = "sheafs"
+links = [
+  "compatible-with-existing-physics",
+  "cosmodynamics",
+  "descent",
+  "fibers",
+  "gluing",
+  "stacks",
+  "sufficient-reason",
+  "torsors",
+]
+
+[[module]]
+name = "soldering"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "cosmodynamics",
+  "descent",
+  "fibers",
+  "gluing",
+  "hessians",
+  "torsors",
+]
+
+[[module]]
+name = "stacks"
+links = [
+  "causal-scale-theory",
+  "cosmodynamics",
+  "descent",
+  "fibers",
+  "groupoids",
+  "sheafs",
+  "soldering",
+  "torsors",
+]
+
+[[module]]
+name = "sufficient-reason"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
 ]
 
 [[module]]
 name = "symmetry-groups-select"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+]
+
+[[module]]
+name = "torsors"
+links = [
+  "causal-scale-theory",
+  "descent",
+  "gluing",
+  "sheafs",
+  "soldering",
+  "sufficient-reason",
+]
+
+[[module]]
+name = "wall-construction-interface"
+links = [
+  "causal-scale-theory",
+  "causal-wall-spectral-theory",
+  "compatible-with-existing-physics",
+  "scale-as-modular-observable",
+]

@@ -44,3 +44,5 @@ That separation is why the generalized canon carries both parameters and [[unit-
 The principle would be upgraded by a microscopic derivation of a renormalized wall BKM measure whose Radon--Nikodym density with respect to causal area gives precisely the entropy density at the crossing. It fails if an independently constructed wall returns a finite, scheme-stable value $\mathfrak R_c\ne1$.
 
 Fitting a background amplitude near one would support the effective branch but would not by itself establish the microscopic identity, because the source and horizon identifications remain separate premises.
+
+In dimensions other than $3+1$, the horizon conversion changes the crossing fraction. [[causal-scale-theory/dimensional-horizon-closure|The dimensional closure]] shows that unit amplitude and equal response/complement partition coincide only for three spatial dimensions, conditional on the $D$-dimensional Einstein-horizon assumptions.

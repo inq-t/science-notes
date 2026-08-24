@@ -25,7 +25,7 @@ $$
 
 Once the matter model, $\Lambda$, initial data, and boundary conditions are specified, GR determines the compatible metric evolution. It does not by itself select the matter sector, explain the numerical value of $\Lambda$, or solve the radiative vacuum-energy problem.
 
-Thus GR represents accelerated FLRW histories perfectly well after an accelerating source or cosmological constant is supplied. The further question is why that source law and scale are physically selected. Causal Scale Dynamics proposes one answer, whose assumptions are exposed in [[causal-scale-master-v8/closure-stack|the closure stack]].
+Thus GR represents accelerated FLRW histories perfectly well after an accelerating source or cosmological constant is supplied. The further question is why that source law and scale are physically selected. Causal Scale Theory proposes one answer, whose assumptions are exposed in [[causal-scale-theory/closure-stack|the closure stack]].
 
 ## “Leaving QFT alone”
 
@@ -37,7 +37,7 @@ $$
 
 can be the local fiber, while new structure compares fibers across regions, horizons, or physical scale.
 
-This division of labor is legitimate only if the new theory constructs the comparison maps and preserves locality, unitarity, conservation, renormalized observables, and the observed Standard Model sector in its appropriate limit. Coexistence is not recovery. [[causal-scale-master-v8/perturbation-and-qft-interface|The perturbation and QFT interface]] and [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] state those burdens.
+This division of labor is legitimate only if the new theory constructs the comparison maps and preserves locality, unitarity, conservation, renormalized observables, and the observed Standard Model sector in its appropriate limit. Coexistence is not recovery. [[compatible-with-existing-physics/local-physics-interface|The local-physics interface]] and [[causal-wall-spectral-theory/causal-scale-interface|the causal-scale interface]] state those burdens.
 
 ## Retyping quantum gravity
 

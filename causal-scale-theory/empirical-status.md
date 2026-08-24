@@ -4,7 +4,7 @@ The inherited material establishes arithmetic consistency of the homogeneous for
 
 ## What is reproducible locally
 
-The reviewed v8 background receipt checks the unit crossing root, selected points in the generalized root atlas, fold anchors, and amplitude-dependent root signs. The new [[receipts/README|receipt contract]] expands the unit arithmetic and labels checks by whether they are independently recomputed or merely regression comparisons. Its latest local output is [[receipts/background.json|machine-readable]].
+The [[receipts/README|canonical receipt suite]] merges the useful v7 and v8 checks: unit cosmography, independently solved matter-plus-radiation folds, strict-dust and historical hybrid folds, exact representative root values, amplitude-dependent past and future branches, and the counterexamples above the benchmark $\nu=2$ threshold. Its latest background output is [[receipts/background.json|machine-readable]].
 
 These receipts establish that the quoted numbers follow from the declared formulas. They do not establish that the formulas describe nature.
 
