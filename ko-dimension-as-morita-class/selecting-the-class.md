@@ -18,7 +18,7 @@ $$
 
 so $J$ carries $\mathcal H^+$ into $\mathcal H^{\varepsilon''}$. If $\varepsilon''=+1$ then $J\xi'\in\mathcal H^+$ while $D\xi\in\mathcal H^-$, the two subspaces are orthogonal, and $A_D$ vanishes identically. Only $\varepsilon''=-1$ leaves a form at all.
 
-**Antisymmetry requires $\varepsilon\varepsilon'=-1$.** For an antilinear isometry $\langle J\alpha,J\beta\rangle=\langle\beta,\alpha\rangle$, and $J^{-1}=\varepsilon J$. Then
+**Antisymmetry requires $\varepsilon\varepsilon'=-1$.** Antilinearity and isometry give, by polarization, $\langle J\alpha,J\beta\rangle=\langle\beta,\alpha\rangle$, and $J^{-1}=\varepsilon J$. Then
 
 $$
 A_D(\xi',\xi)=\langle J\xi',J(J^{-1}D\xi)\rangle
@@ -28,7 +28,7 @@ A_D(\xi',\xi)=\langle J\xi',J(J^{-1}D\xi)\rangle
 =\varepsilon\varepsilon'\,A_D(\xi,\xi'),
 $$
 
-using self-adjointness of $D$ in the last step. So the form is antisymmetric exactly when $\varepsilon\varepsilon'=-1$ and symmetric exactly when $\varepsilon\varepsilon'=+1$.
+on a $J$-invariant domain and using self-adjointness of $D$ in the last step. So the form is antisymmetric exactly when $\varepsilon\varepsilon'=-1$ and symmetric exactly when $\varepsilon\varepsilon'=+1$.
 
 ## The two conditions pick one class
 

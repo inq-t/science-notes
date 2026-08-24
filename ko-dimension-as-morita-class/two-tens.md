@@ -21,22 +21,24 @@ $$
 2=\left|\,\mathrm{BW}(\mathbb C)\,\right|=\left|\mathbb Z/2\right| ,
 $$
 
-the Morita classes of real and of complex Clifford algebras respectively. This is a cardinality of a disjoint union of two cyclic groups of different orders. It is not an element of either.
+the **graded** Morita classes of real and of complex Clifford algebras respectively. This is a cardinality of a disjoint union of two cyclic groups of different orders. It is not an element of either.
 
 ## Why the identification fails
 
-An element of $\mathbb Z/8$ and the size of $\mathbb Z/8\sqcup\mathbb Z/2$ are not comparable quantities, and the arithmetic that produces them is unrelated: $4+6$ is addition in the group, $8+2$ is addition of the sizes of two sets. A structural link would have to make Connes' KO-dimension of the *product geometry* into a *count* of something, and no such count is available. The literature contains no such claim; the tenfold way is connected to real spectral triples through the sign table, as in [[the-eightfold-in-the-sign-table]], and that connection has nothing to say about $4+6$.
+An element of $\mathbb Z/8$ and the size of $\mathbb Z/8\sqcup\mathbb Z/2$ are not comparable quantities, and the arithmetic that produces them is unrelated: $4+6$ is addition in the group, $8+2$ is addition of the sizes of two sets. A structural link would have to make Connes' KO-dimension of the *product geometry* into a *count* of something, and no such count is available.
 
-The resemblance is of the same species as the one Connes himself flags. It should be filed with it.
+Nor does anyone claim otherwise. A search of the arXiv for papers pairing "tenfold way" with "spectral triple", "noncommutative geometry", "KO-dimension" or "Connes" returns nothing; the nLab entries for *ten-fold way* and for *KO-dimension* do not cross-reference each other; and Baez's article, its Notices version, and the accompanying blog posts contain no occurrence of "Connes", "KO-dimension" or "spectral triple". The nearest thing to a collision is Kaufmann, Li and Wehefritz-Kaufmann's "generalized $\mathrm{KR}_{10}$-cycle with KO-dimension $2\ (=10\bmod 8)$", which is a third $10$ — two coupled $\mathrm{KR}_5$-cycles — with no super-division-algebra content whatever.
+
+The resemblance is therefore of the same species as the one Connes himself flags, and it should be filed with it. The real connection runs through the sign table, as in [[the-eightfold-in-the-sign-table]], and that connection has nothing to say about $4+6$.
 
 ## The eight is shared, and is one fact
 
-Real Clifford algebras are Morita-periodic with period $8$:
+Real Clifford algebras are graded-Morita-periodic with period $8$:
 
 $$
-\mathrm{Cl}_{p+8,q}\ \simeq_{\mathrm{Morita}}\ \mathrm{Cl}_{p,q},
+\mathrm{Cl}_{p+8,q}\ \simeq\ \mathrm{Cl}_{p,q},
 $$
 
-which is real Bott periodicity. Connes' sign table repeats with period $8$ for exactly that reason, and Wall's eight real classes are the eight residues of exactly that periodicity. The complex algebras are Morita-periodic with period $2$, which supplies Wall's remaining two and, on Connes' side, the two kinds of spectral triple that carry no real structure at all.
+which is real Bott periodicity. Connes' sign table repeats with period $8$ for exactly that reason, and Wall's eight real classes are the eight residues of exactly that periodicity. The complex algebras are periodic with period $2$, which supplies Wall's remaining two and, on Connes' side, the two kinds of spectral triple that carry no real structure at all.
 
 So the honest statement of the link is: Connes' $\mathbb Z/8$ **is** the eightfold part of the tenfold way. His $10$ is not the tenfold way's $10$.

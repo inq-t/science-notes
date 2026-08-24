@@ -19,12 +19,14 @@ Primary material for this module is held in [[library/the-tenfold-way/entry|the 
 
 ## Fermion doubling
 
-- F. Lizzi, G. Mangano, G. Miele and G. Sparano, *Fermion Hilbert space and fermion doubling in the noncommutative geometry approach to gauge theories*, arXiv:hep-th/9610035. The problem the Pfaffian solves.
+- F. Lizzi, G. Mangano, G. Miele and G. Sparano, *Fermion Hilbert space and fermion doubling in the noncommutative geometry approach to gauge theories*, arXiv:hep-th/9610035; Phys. Rev. D **55** (1997) 6357. The problem the Pfaffian solves.
 - J. M. Gracia-Bondía, B. Iochum and T. Schücker, *The standard model in noncommutative geometry and fermion doubling*, Phys. Lett. B **416** (1998) 123–128. Cited by Connes as not unrelated to his solution.
-- J. W. Barrett, *A Lorentzian version of the non-commutative geometry of the standard model of particle physics*, arXiv:hep-th/0608221. An independent and simultaneous resolution, acknowledged in the Connes paper as having accelerated its publication.
+- J. W. Barrett, *A Lorentzian version of the non-commutative geometry of the standard model of particle physics*, arXiv:hep-th/0608221. An independent and simultaneous resolution, by a Lorentzian route rather than the Euclidean Pfaffian one, acknowledged in the Connes paper as having accelerated its publication.
 
 ## The bridge
 
 - T. Krajewski, *Finite spectral triples and the tenfold way*, CIRM lecture. The explicit dictionary between $(J,\gamma,D)$ and the Altland–Zirnbauer operators $T$ and $C$, and the statement that the eight KO-dimensions are the eight real classes, with $\mathrm A$ and $\mathrm{AIII}$ completing the ten.
 - L. Dąbrowski and G. Dossena, *Product of real spectral triples*, arXiv:1011.4456. Why the even–even product is not canonical: multiple real structures in the even case and two candidate Dirac operators.
 - L. Dąbrowski and A. Sitarz, *Dirac operator on the standard Podleś quantum sphere*. Connes' cited precedent for metric dimension $0$ with KO-dimension $2$.
+- R. M. Kaufmann, S. Li and B. Wehefritz-Kaufmann, work on topological insulators and $\mathrm{KR}$-cycles, arXiv:1510.08001. Reproduces Connes' sign table as the KO-dimension of a $\mathrm{KR}$-cycle in an explicitly Altland–Zirnbauer setting, and is also the source of a third "ten" — a generalized $\mathrm{KR}_{10}$-cycle — unrelated to both of the others.
+- C. Bourne, A. L. Carey and A. Rennie, arXiv:1509.07210, and G. De Nittis, J. Grossmann and H. Schulz-Baldes. Real spectral triples built by symmetry class, and the passage from a symmetric condensed-matter system to a Real spectral triple.
