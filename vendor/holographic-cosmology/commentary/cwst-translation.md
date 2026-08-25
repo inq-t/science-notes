@@ -1,6 +1,6 @@
 # Translation into Causal-Wall Spectral Theory
 
-Holographic cosmology can serve CWST as an optional representation provider, but it does not construct the causal wall or prove either the state-to-spatial or wall-to-curvature weld. This commentary marks the boundary between the theories; [[causal-wall-spectral-theory/spectral-realization|the CWST spectral realization]] is the canonical consumer-side adapter.
+Holographic cosmology can serve CWST as an optional representation provider, but it does not construct the causal wall or prove either the state-to-spatial or wall-to-curvature weld. This commentary marks the boundary between the theories; [[causal-wall-spectral-theory/spectral-realization|the optional CWST holographic adapter]] is the canonical consumer-side qualification.
 
 ## Where the vendor enters
 

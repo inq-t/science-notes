@@ -31,7 +31,8 @@ Changing one of these fields changes the response question even when the display
 | center-valued response package | the central response density together with the inherited normal central law, before a consumer policy | [[program-core/center-valued-response|center-valued response and scalarization]] |
 | common response form | the homogeneous, declared non-singlet observational, mixed, and hidden blocks on one physical tangent construction | [[program-core/common-response-matrix|the common response form]] |
 | localized areal response | a measure-valued BKM form and its Radon--Nikodym density against independently normalized area | [[program-core/descent-response-geometry|descent-response geometry]] |
-| spatial precision | a three-dimensional inverse-covariance target on a constructed spatial carrier | [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|the scalar W2 conjecture]] |
+| scalar spatial precision | a three-dimensional inverse-covariance target for the wall scalar on a constructed physical carrier | [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|the scalar W2 conjecture]] |
+| tensor spatial precision | a three-dimensional inverse-covariance target on a physical transverse-traceless two-polarization carrier | [[causal-wall-spectral-theory/conjectures/tensor-state-response-is-spatial-precision|the tensor W2 conjecture]] |
 | gravitational canonical energy | a quadratic form on physical gravitational perturbations in a declared covariant phase space | [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] |
 | capacity | a scalar contraction \(g(v,v)\) of a positive response form; not a linear charge or an action | [[program-core/symmetry-conservation-and-action|symmetry, conservation, and action]] |
 
@@ -91,17 +92,24 @@ G^{\mathsf p}_{NN}
 \rho_X,
 $$
 
-and
+and the independent CWST branches
 
 $$
+\begin{aligned}
 G^{\mathsf p}_{\zeta\zeta}
-\overset{\mathrm{W2}}{\dashrightarrow}
+&\overset{\mathrm{W2}_{\mathrm s}}{\dashrightarrow}
 \mathcal K^{\zeta}_{\mathrm{wall}}
-\overset{\mathrm{W3}}{\dashrightarrow}
-\mathcal K_{\zeta_{\mathrm{cos}}}.
+\overset{\mathrm{W3}_{\mathrm s}}{\dashrightarrow}
+\mathcal K_{\zeta_{\mathrm{cos}}},\\
+G^{\mathsf p}_{\mathrm{TT}}
+&\overset{\mathrm{W2}_{\mathrm t}}{\dashrightarrow}
+\mathcal K^{\gamma}_{\mathrm{wall}}
+\overset{\mathrm{W3}_{\mathrm t}}{\dashrightarrow}
+\mathcal K_{\gamma_{\mathrm{cos}}}.
+\end{aligned}
 $$
 
-Localization and comparison with area are open in [[program-core/descent-response-geometry|the localized response construction]]. The CST response-to-density arrow is constitutive in [[causal-scale-theory/free-energy-source|the homogeneous source note]]. W2 and W3 own the distinct CWST carrier and field realizations. A scoped equality between retained Fisher response and gravitational canonical energy does not make every BKM form gravitational.
+Localization and comparison with area are open in [[program-core/descent-response-geometry|the localized areal response construction]]. The CST response-to-density arrow is constitutive in [[causal-scale-theory/free-energy-source|the homogeneous source note]]. Scalar and tensor W2 maps own distinct spatial carriers; scalar and tensor W3 maps own distinct Lorentzian field realizations. [[causal-wall-spectral-theory/spectral-realization|The holographic adapter]] is a conditional factorization of selected source/response arrows, not a same-carrier identity and not a replacement for W3. A scoped equality between retained Fisher response and gravitational canonical energy does not make every BKM form gravitational.
 
 Accordingly,
 

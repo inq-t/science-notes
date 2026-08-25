@@ -1,10 +1,10 @@
 # Calculate the Tensor Response
 
-The scalar wall response does not determine primordial tensors. A predictive CWST member must independently construct the spin-two sector, its Lorentzian graviton realization, and its relation to the scalar response before it can claim a tensor-to-scalar ratio or consistency relation.
+The scalar wall response does not determine the spin-two response. A predictive CWST member must independently calculate the tensor sector and its relation, if any, to the scalar response before it can claim a tensor-to-scalar ratio or consistency relation. [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|The tensor W3 conjecture]] separately owns the Lorentzian graviton realization.
 
 ## Required calculation
 
-In the optional holographic conventions, the member should calculate
+Through [[causal-wall-spectral-theory/spectral-realization|the optional holographic adapter]], and only after [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|the tensor W3 identification]] has supplied the physical graviton normalization, the member may translate its calculated spin-two response as
 
 $$
 \rho_{A,\mathrm{calc}}^{\mathrm{cos}}(k)
@@ -27,5 +27,4 @@ These equations are conditional dictionary identities after the vendor is realiz
 
 ## Completion and failure
 
-Completion requires the transverse-traceless physical phase space, state, response normalization, analytic continuation or alternative representation, and transfer into observable gravitational waves or CMB polarization. The member fails if no positive spin-two state exists, if scalar and tensor constraints conflict, or if its calculated tensor correlation is empirically excluded. That failure need not refute the scalar interface.
-
+Completion of this calculation requires a transverse-traceless wall source, state, physical quotient, response normalization, and analytic continuation or alternative response representation. The member fails at this layer if no positive spin-two response exists, if the scalar and tensor source constructions are incompatible with a claimed relation, or if the tensor amplitude or flow was inferred from tensor data rather than calculated. Lorentzian field identification and transfer into gravitational-wave or CMB observables are downstream W3 and W5 tests; their failure does not retroactively erase a valid wall response calculation.

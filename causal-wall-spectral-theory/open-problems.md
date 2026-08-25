@@ -1,25 +1,30 @@
 # The CWST Construction Programme
 
-CWST has one ordered construction problem: obtain the physical mean-zero observational block of [[program-core/common-response-matrix|one common contextual response]], represent it as a cosmological precision, calculate a restricted correlation hierarchy, and transfer it into observable statistics and empirical data products. Shared wall and local-physics obligations are linked to their canonical owners; the leaves here contain only the consumer-specific work whose failure can be localized and replaced. Actual outcomes, characters, and persistent record extensions belong to [[conservation-of-causal-charge/factive-descent-and-records|the separate factive branch]].
-
-The programme begins upstream with [[wall-construction-interface/entry|the wall-construction interface]]. It must produce the scale-indexed regions, algebras, faithful states, cross-fiber transport, state-selection law, and physical tangent quotient needed by both CST and CWST. Its binary-channel problem is not a CWST scalar theorem, and its conservative-restriction test is the shared local-physics obligation rather than a duplicated “CW–T” item.
-
-Given that carrier, [[open-questions/state-to-spectral-representation|the scalar state-to-spectral problem]] must construct the map from the mean-zero BKM block to a positive spatial wall precision. This includes the unresolved carrier dimension, areal-to-volume measure conversion, state-dependent response transform, renormalized source, and probability-1PI normalization; analytic continuation is an additional obligation only for a member that selects the optional holographic route. [[conjectures/tensor-state-response-is-spatial-precision|The tensor W2 problem]] is independent.
-
-The returned field must then pass [[conjectures/wall-residue-is-curvature|the curvature-realization test]]. A dimensionless scale residue is not yet the gauge-invariant scalar of constrained cosmological perturbation theory. [[open-questions/covariant-descent-and-transfer|Covariant descent]] asks for the Lorentzian state, constraints, stability, common-clock or entropy treatment, matching, and coherent transfer required by [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]].
-
-Microscopic predictivity divides into three independently replaceable calculations:
+CWST has one typed sequence: construct a causal-wall BKM response, transport it to scalar or tensor spatial wall precision, realize that field in a gauge-reduced Lorentzian phase space, calculate higher response, and transfer the result to observables. [[causal-wall-spectral-theory/realization-map|The realization map]] is the sole W0--W5 ledger; this note is a direct launchpad to the unresolved owners. Actual outcomes and persistent records belong to [[conservation-of-causal-charge/factive-descent-and-records|the separate factive branch]].
 
 $$
-\text{scalar response}
-\quad\oplus\quad
-\text{tensor response}
-\quad\oplus\quad
-\text{higher response}.
+\boxed{
+\text{W0 wall}
+\longrightarrow
+\text{W1 BKM response}
+\longrightarrow
+\text{W2 spatial wall precision}
+\longrightarrow
+\text{W3 Lorentzian physical precision}
+\longrightarrow
+\text{W4 higher response}
+\longrightarrow
+\text{W5 observables}.}
 $$
 
-[[open-questions/calculate-scalar-response|The scalar problem]] must determine amplitude and flow rather than infer them from \(A_s\) and \(n_s\). [[open-questions/calculate-tensor-response|The tensor problem]] must independently return the spin-two sector rather than import \(r\) or an Einstein single-clock relation. [[open-questions/calculate-higher-response|The higher-response problem]] must calculate probability-1PI vertices and their continued correlators rather than identify them with higher relative-entropy derivatives or a singularity polynomial.
+[[wall-construction-interface/entry|W0 and the shared wall interface]] must supply regions, algebras, faithful states, transport, state law, and the physical quotient. [[program-core/center-valued-response|W1 central response]] must retain the sector law before any scalar policy.
 
-Finally, [[open-questions/empirical-completion|empirical completion]] freezes a derived member and evaluates a reproducible likelihood. The scoped receipts verify normalization identities only. The retired \(A_2\) attempt failed before this stage because discrete singularity data did not construct a wall response and its highlighted running coefficient was selected post hoc.
+At W2, [[conjectures/state-response-is-spatial-precision|the scalar map]] and [[conjectures/tensor-state-response-is-spatial-precision|the TT map]] are independent. [[open-questions/state-to-spectral-representation|The same-source kernel comparison]] is their first discriminating calculation. [[spectral-realization|The holographic adapter]] is optional and cannot define either W2 branch.
+
+At W3, [[conjectures/wall-residue-is-curvature|the scalar curvature map]] and [[conjectures/wall-tensor-is-physical-graviton|the tensor graviton map]] independently construct the Lorentzian physical fields. [[open-questions/covariant-descent-and-transfer|Lorentzian completion and transfer]] then asks for state, constraints, stability, matching, and coherent evolution. A dimensionless residue or TT source label is not yet a physical metric perturbation.
+
+Microscopic predictivity remains three independent calculations: [[open-questions/calculate-scalar-response|scalar response]], [[open-questions/calculate-tensor-response|tensor response]], and [[open-questions/calculate-higher-response|higher response]]. A member may therefore be scalar-only, may fail at higher points while retaining a two-point sector, or may replace one calculation without changing the whole architecture.
+
+W5 belongs to [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] and [[open-questions/empirical-completion|empirical completion]]. They freeze a derived member, perform transfer, and evaluate a reproducible likelihood. Scoped receipts verify registered normalization identities, not the missing arrows.
 
 The theory is complete only when these leaves compose on one compatible chain. A failure at one edge rejects that realization or member without erasing the exact mathematics supplied by upstream modules.

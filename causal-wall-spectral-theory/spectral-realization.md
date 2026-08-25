@@ -1,66 +1,31 @@
-# The CWST Spectral Realization
+# The Optional Holographic Spectral Adapter
 
-The spectral realization is the proposed middle layer between a causal-wall state response and cosmological correlations. Its universal content is a positive spatial precision on a physical quotient; representing that precision by a continued three-dimensional stress tensor is an optional holographic member, and matching a calculated response to a data-inferred target is an empirical test rather than an identity.
+The holographic spectral adapter is an optional representation of selected CWST response arrows by a continued three-dimensional stress-tensor theory. It is available only after a wall member constructs the source, state, carrier pairing, and response that enter the adapter. It neither defines the general W2 map nor constructs the W3 Lorentzian scalar or tensor field.
 
-## The response that must be constructed
+## Eligibility datum
 
-Suppose a wall realization returns the center-resolved mean-zero observational package of [[program-core/common-response-matrix|the common response form]] and that the W2 member has declared a central-resolution policy \(\mathsf p\):
-
-$$
-\mathfrak G^Z_{\zeta\zeta}
-=(Z,\mathbf G^Z_{\zeta\zeta},\omega^Z),
-\qquad
-G^{\mathsf p}_{\zeta\zeta}
-:=S_{\mathsf p}(\mathfrak G^Z_{\zeta\zeta}),
-\qquad
-G^{\mathsf p}_{\zeta\zeta}:
-H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
-\times H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
-\longrightarrow\mathbb R.
-$$
-
-[[program-core/center-valued-response|Center-valued response and scalarization]] owns the distinction between normal unconditioned evaluation and a normalized internal sector metric. A center-linear member may retain a center-valued precision instead; a bare character is neither normalized conditioning nor a fact.
-
-CWST proposes a transfer
+A candidate member must provide an explicit pairing from its wall source data to a renormalized three-dimensional Euclidean QFT datum,
 
 $$
-\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
-G^{\mathsf p}_{\zeta\zeta}
-\longmapsto
-\mathcal K^{\zeta}_{\mathrm{wall}}.
+(\mathcal A_{\mathrm{wall}},\omega_{\mathrm{wall}},J_{\mathrm{wall}},
+\Pi_{\mathrm{wall}})
+\xrightarrow{\ \mathfrak H\ }
+(\mathrm{QFT}_3,\omega_3,T^{(3)},c^{(0)},c^{(2)}),
 $$
 
-This is **[CONJECTURE — OPEN CONSTRUCTION]**. Depending on the realization, \(\mathcal W\) may have to include localization, restriction or extension between carriers, a normal-direction integration, a modular/KMS transform, renormalization, quotienting of local contacts, and conversion to a probability or Legendre-1PI kernel. It need not be multiplication by one universal number.
+on the physical effective image. This is **[CONJECTURE — OPEN CONSTRUCTION]**. The arrow must state which scalar and transverse-traceless source directions are paired, how their measures and normalizations change, and whether it factors a W2 source transform or begins from an already constructed spatial precision.
 
-The exact regular-family identity
-
-$$
-\operatorname{Hess}\mathscr J=2G^{\mathrm{BKM}}
-$$
-
-does not settle this normalization. It says how a symmetrized divergence curves at coincidence; it does not say that reverse relative entropy is the conjugate cosmological wavefunctional or that a BKM kernel equals a Euclidean, spectral, or 1PI response.
-
-## The independent-return boundary
-
-W2 ends with a spatial wall precision. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The W3 curvature conjecture]] must independently construct the field map into the reduced Lorentzian scalar phase space before the result can be called a primordial curvature precision. [[causal-wall-spectral-theory/realization-map|The realization map]] owns that composition and its separate tensor branch.
-
-Only after W3 may a calculated return be compared with a data-inferred target. [[causal-wall-spectral-theory/empirical-targets|The empirical-target ledger]] owns the Fourier normalization, target definitions, archived calibration, and scope-indexed falsifiers. Defining an intermediate response backward from the measured power checks normalization but does not calculate the return.
-
-## Optional holographic member
-
-In [[vendor/holographic-cosmology/entry|the domain-wall/cosmology representation]], continued three-dimensional stress form factors can return scalar and tensor spectra. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|The vendored spectrum dictionary]] is the sole owner of the response decomposition and its numerical conversion factors; CWST imports those results rather than restating them.
-
-The additional CWST claim is only that a constructed wall response lies in the vendor's domain and maps independently to its calculated spin-zero or spin-two form factor. That edge remains conjectural. The vendor's dictionary becomes a conditional theorem only after its QFT, state, renormalization, simultaneous analytic continuation, branch orientation, and physical-field identification have been supplied. A member predicts a spectrum only when it computes the response without using that spectrum as input.
+[[vendor/holographic-cosmology/entry|The vendored holographic framework]] owns the domain-wall/cosmology representation. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|Its spectrum dictionary]] is the sole owner of the response decomposition and numerical conversion factors. CWST's additional burden is to prove that its wall datum lies in that domain; the shared vocabulary of scale or stress does not establish eligibility.
 
 ## Operators that must remain distinct
 
 At least three source operators occur in candidate constructions:
 
 - a four-dimensional renormalized Weyl-source trace \(T^{(4)}\);
-- a horizon or cut generator \(K_\Sigma\), often related to modular flow in restricted settings; and
-- a three-dimensional Euclidean stress trace \(T^{(3)}\) in the holographic representation.
+- a horizon or cut generator \(K_\Sigma\), related to modular flow only in declared settings; and
+- a three-dimensional Euclidean stress trace \(T^{(3)}\).
 
-They are not one bare \(T\). A successful member must construct the maps
+They are not one bare \(T\). A member must construct
 
 $$
 T^{(4)}
@@ -68,22 +33,24 @@ T^{(4)}
 \dashrightarrow T^{(3)}
 $$
 
-or replace this route with another one. A common word such as “scale generator” does not define those arrows.
+or provide a different typed route. The adapter fails if the paired operators do not act on the declared sources or if their Ward identities and normalizations are incompatible.
 
-Likewise, the dimensionless quantity
+## Continuation, state, and branch data
 
-$$
-\mathcal I_\zeta(k):=\Delta_\zeta^{-2}(k)
-$$
+The QFT, state, regulator, subtraction prescription, momentum variables, theory parameters, and response coefficients must be analytically continued together. The member must state the branch orientation and reality/positivity condition of the continued kernel. Continuing only a final coefficient while leaving its state or regulator implicit does not define an adapter.
 
-is spectral precision per logarithmic mode in this convention. [[program-core/response-registers|The response register]] owns why this is not automatically BKM distinguishability, a channel capacity, gravitational canonical energy, or another quadratic response; [[program-core/ontological-registers|the ontological register]] separately keeps it distinct from entropy, charge, and an untyped scalar stock of information.
+A modular or KMS kernel can make the wall-to-Euclidean relation frequency dependent. [[causal-wall-spectral-theory/open-questions/state-to-spectral-representation|The same-source comparison]] owns the experiment that distinguishes a scalar normalization from such a transform.
 
 ## Contact and analytic qualifications
 
-Local polynomial counterterms have zero discontinuity across a registered spectral cut. This removes one class of scheme ambiguity in the analytic setting used by the vendor. The converse needs dispersion, growth, and analyticity hypotheses: every zero-discontinuity term is not thereby proved to be a removable local contact. Boundaries, defects, anomalies, parity-odd structures, and semilocal terms require separate treatment.
+Local polynomial counterterms have zero discontinuity across a registered spectral cut in the vendor's analytic setting. This removes one class of scheme ambiguity. The converse requires dispersion, growth, and analyticity hypotheses: zero discontinuity alone does not prove that a contribution is a removable local contact. Boundaries, defects, anomalies, parity-odd structures, and semilocal terms require separate treatment.
 
-## Upgrade and failure tests
+## Calculated and inferred responses
 
-The spectral realization is upgraded when one wall construction independently calculates the carrier, state, tangent, response, transforms, and \(c_{\mathrm{calc}}^{(0)}(k)\), and when the induced cosmological mode passes [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]].
+A member predicts only when it computes \(c_{\mathrm{calc}}^{(0)}(k)\) or \(c_{\mathrm{calc}}^{(2)}(k)\) from the wall construction without using the target spectrum as input. Inverting measured correlations to define \(c_{\mathrm{inf}}^{(s)}\) is a useful normalization audit, not a microscopic return. [[causal-wall-spectral-theory/empirical-targets|The empirical-target ledger]] owns the inferred targets and conventions.
 
-It fails for that member if the BKM-to-spatial transform is undefined, if the continued kernel is not positive on the physical sector, if the carrier has the wrong dimension without a boundary map, if a modular/KMS factor changes the claimed normalization, if the wall residue does not become curvature, or if the calculated response disagrees with the measured correlation hierarchy.
+## Boundary and failure
+
+The adapter is upgraded when \(\mathfrak H\), the paired operators, simultaneous continuation, state, branch, regulator, contacts, and physical effective image are all constructed. It fails for a member if the wall datum is outside the vendor's domain, the source pairing is absent, continuation is inconsistent, or the continued response cannot define the claimed positive spatial probability kernel.
+
+Failure of [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|scalar W3]], [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|tensor W3]], or an observational fit is downstream and is not failure of this adapter. Conversely, a successful adapter cannot discharge either W3 field-identification problem.

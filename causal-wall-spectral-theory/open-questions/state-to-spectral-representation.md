@@ -1,41 +1,43 @@
-# Construct the State-to-Spectral Representation
+# Compare BKM and Spatial Source Kernels
 
-The central W2 problem is to construct the operator that carries a center-resolved mean-zero causal-wall BKM response to a positive three-dimensional spatial precision and, when desired, relates it to the continued stress response of holographic cosmology. No existing normalization identity supplies the central-resolution policy, carrier change, state-dependent response transform, continuation, or probability-1PI construction; the physical-curvature map is the separate W3 problem.
+The first discriminating W2 calculation is to compute the BKM response and the Euclidean or spatial source kernel for the same wall carrier, state, source direction, quotient, and renormalization prescription. Its purpose is to determine the state-dependent transform between those two responses. [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The scalar W2 conjecture]] owns the full carrier-changing construction; this note owns only the comparison experiment that can constrain or falsify one of its arrows.
 
-## Required return
+## Controlled comparison datum
 
-The construction must provide
+Fix a wall algebra and faithful state \((\mathcal A,\omega)\), a physical source tangent \(X\), its central-resolution policy, and one regulator and subtraction scheme. Compute independently:
 
 $$
-\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
-S_{\mathsf p}(\mathfrak G^Z_{\zeta\zeta})
-\longmapsto
-\mathcal K^{\zeta}_{\mathrm{wall}}
+G^{\mathrm{BKM}}_\omega(X,X)
 $$
 
-with:
+from the faithful-state family, and a Euclidean, spectral, or probability-source quadratic kernel
 
-1. one wall algebra, state family, transport, and physical tangent quotient;
-2. a localized center-resolved response block and a declared normal unconditioned or normalized internal-sector policy \(\mathsf p\), as typed by [[program-core/center-valued-response|center-valued response and scalarization]];
-3. a map from the cut or observer-region data to a three-dimensional spatial carrier;
-4. the state-dependent relation between BKM and Euclidean source response;
-5. renormalized source operators and contact-term bookkeeping;
-6. a complete analytic continuation and state prescription if holography is used;
-7. a probability or Legendre-1PI construction for the spatial wall field;
-8. source and target categories, with naturality under region restriction and cross-fiber transport;
-9. overlap compatibility and effective gluing whenever localization is performed patchwise; and
-10. the kernel, physical quotient, and effective image of every noninjective stage.
+$$
+\Pi_\omega(J_X,J_X)
+$$
 
-[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The conjecture note]] types these stages. [[causal-wall-spectral-theory/no-gos/a-cut-is-not-a-three-dimensional-boundary|The carrier no-go]] rules out the simplest direct identification. Only after this return exists does [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the curvature-realization problem]] ask for the map into the reduced Lorentzian scalar phase space.
+for the explicitly paired source \(J_X\). If \(X\) and \(J_X\) live on different carriers, the source-pairing map and its measure conversion are part of the datum. Comparing kernels that use different states, source normalizations, physical quotients, or counterterm schemes would not test a W2 transform.
 
-[[algebra/real-forms-and-factive-spacetime|The real-locus theorem]] supplies a new conditional candidate for item 3: a complex threefold with a selected antiholomorphic involution has a real three-dimensional fixed locus. The construction must still show that the wall data localize on that locus and derive its measure and response transform. It is not a direct identification of the codimension-two cut with a three-boundary.
+An algebraic exponential perturbation using faithful normal states and Araki relative Hamiltonians is one candidate starting point. A finite or lattice model can debug the transform but cannot by itself establish a type-III continuum return.
 
-## First discriminating calculation
+## Possible returns
 
-The most useful first calculation is not a cosmological fit. It is a controlled wall model in which both the BKM kernel and the relevant Euclidean or spectral kernel can be computed for the same source direction. The result should determine whether their relation is a scalar factor, a modular-frequency transform, or no positive map at all.
+The calculation should distinguish at least three outcomes:
 
-An algebraic exponential perturbation using faithful normal states and Araki relative Hamiltonians is one candidate starting point; a finite or lattice model can debug the transform but cannot by itself establish the type-III continuum result. The selected background and state must be declared before the comparison.
+1. a positive scalar multiplier on the tested sector;
+2. a nontrivial modular-frequency or source kernel \(\mathcal M_\omega\) such that
+   $$
+   \Pi_\omega
+   =\mathcal M_\omega[G^{\mathrm{BKM}}_\omega];
+   $$
+3. no positive, covariant transform on the proposed physical image.
+
+Local contact terms must be reported separately rather than absorbed into the multiplier. A noninjective transform is not automatically a failure, but its kernel and effective image must be included in the physical quotient before a nondegenerate spatial precision is claimed.
+
+## Optional holographic specialization
+
+If the Euclidean kernel is a three-dimensional stress response, [[causal-wall-spectral-theory/spectral-realization|the optional holographic adapter]] owns the operator identification, state, regulator, branch, simultaneous continuation, and contact qualifications. The vendored spectrum dictionary begins only after that eligibility has been established. Neither the comparison nor the adapter constructs the W3 Lorentzian field map.
 
 ## Completion and failure
 
-Completion means that the operator, domains, measures, signs, naturality squares, effective images, and normalizations are constructed independently of the desired primordial spectrum. Noninvertibility is not by itself failure: the wall is expected to forget distinctions. The route fails if no common source direction exists, if its kernel removes a claimed physical mode without a declared quotient or effective-image construction, if the induced response is nonpositive on the physical sector, if the carrier change violates covariance or locality, or if the optional continued response cannot define the claimed spatial probability kernel. A failure of the later curvature realization is not retroactively a failure of W2.
+This calculation is complete when both kernels and their pairing are obtained independently of the desired primordial spectrum, with domains, measures, signs, contacts, and normalization recorded. It falsifies the tested transform if the paired source does not exist, the relation is state- or frequency-dependent contrary to a claimed scalar law, or no positive map survives on the declared physical image. Failure of this experiment rejects that proposed W2 factorization, not the generic BKM theorem, another W2 construction, or either W3 realization.
