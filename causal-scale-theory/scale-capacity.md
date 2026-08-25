@@ -25,7 +25,7 @@ The entropy measure in the denominator must be normalized independently of the s
 
 ## Binary shape and extensive norm
 
-After [[wall-construction-interface/binary-channel|a balanced binary reduction]] and [[basic-concepts/soldering/affine-scale-state|affine soldering]] are granted,
+After [[wall-construction-interface/binary-channel|an exhaustive or explicitly conditioned balanced binary channel]] and [[basic-concepts/soldering/affine-scale-state|affine soldering]] are granted,
 
 $$
 g^{\mathrm{bin}}_{\theta\theta}
@@ -70,7 +70,7 @@ G^\perp_{NN}
 \left(\frac{\mathrm d\widetilde\theta}{\mathrm dN}\right)^2.
 $$
 
-Accordingly, \(\mathfrak R_c\) does not depend on the chosen state coordinate. The separate numerical meaning of \(\nu\) requires the canonical generator normalization \(Q^2=\mathbf1\); an arbitrary rescaling of \(Q\) would otherwise move width between the coordinate and the metric.
+Accordingly, \(\mathfrak R_c\) does not depend on the chosen state coordinate. The separate numerical meaning of \(\nu\) requires the canonical generator normalization \(Q^2=\mathbf1_{\mathcal B_N}\) in the selected binary image; an arbitrary rescaling of \(Q\) would otherwise move the scale-state rate between the coordinate and the metric.
 
 The weak unit principle proposes \(\mathfrak R_c=1\). It says that two independently normalized *integrated* quantities match at one cut. It does not assert the strong local law \(\mathfrak r_{\Sigma,N}(p)=1\), prove a universal area modulus, or derive Newton's constant. Those stronger possibilities belong to [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] and [[deriving-value-of-g/entry|the gravitational-value programme]].
 

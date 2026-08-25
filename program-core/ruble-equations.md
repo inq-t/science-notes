@@ -249,18 +249,18 @@ This is noncircular only if \(\chi_*\) and area were constructed without measure
 
 **[IDENTIFICATION, BALANCE ASSUMPTION, THEN EXACT]**
 
-Suppose the relevant reflection-odd horizontal response factors through a normalized binary generator
+Suppose the relevant reflection-odd horizontal response factors through a selected binary algebra \(\mathcal B_N\) in which the two retained outcome projections are exhaustive, and let its normalized generator satisfy
 
 $$
 Q^*=Q,
 \qquad
-Q^2=\mathbf1.
+Q^2=\mathbf1_{\mathcal B_N}.
 $$
 
 Let
 
 $$
-P_\pm:=\frac{\mathbf1\pm Q}{2},
+P_\pm:=\frac{\mathbf1_{\mathcal B_N}\pm Q}{2},
 $$
 
 and suppose a faithful reference state \(\rho_0\) commutes with \(Q\) and has balanced total weights
@@ -277,7 +277,7 @@ $$
 J_{\mathrm{refl}}QJ_{\mathrm{refl}}^{-1}=-Q,
 $$
 
-but \(J_{\mathrm{refl}}\) is not automatically Tomita conjugation. Balance is not a consequence of \(Q^2=\mathbf1\).
+but \(J_{\mathrm{refl}}\) is not automatically Tomita conjugation. Balance is not a consequence of \(Q^2=\mathbf1_{\mathcal B_N}\). Nor does the ambient wall geometry prove that this binary image is exhaustive: [[wall-construction-interface/binary-channel|the binary-channel obligation]] and [[a2-ternary-response/entry|the \(A_2\) ternary test]] isolate that earlier construction gate.
 
 Define the balanced exponential family by
 
@@ -580,7 +580,7 @@ This is the prospective conservation law. It does not follow from \(\mathfrak r_
 | Equation | Meaning of \(1\) |
 |---|---|
 | \(c=1\) | unit convention for a dimensionful conversion |
-| \(Q^2=\mathbf1\) | representation normalization |
+| \(Q^2=\mathbf1_{\mathcal B_N}\) | representation normalization after a selected exhaustive binary image has been constructed |
 | \(\operatorname{sech}^2(0)=1\) | normalized binary peak identity |
 | \(m^2+g_{\theta\theta}^{\mathrm{bin}}=1\) | binary second-moment Casimir |
 | \(\nu=1\) | proposed width law after canonical normalization |
