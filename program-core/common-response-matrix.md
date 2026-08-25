@@ -1,6 +1,6 @@
 # The Common Response Matrix
 
-The common response matrix is proposed as one positive, generally center-valued Hessian geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models. A numerical matrix appears only after averaging the descended center or selecting a factive sector.
+The common response matrix is proposed as one positive, generally center-valued response geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models. The retained W1 datum is the center, the sector-resolved response, and the normal central law inherited from the whole state; a scalar metric is obtained only by a declared evaluation policy.
 
 ## The matrix belongs to the descent, not necessarily the substrate
 
@@ -46,7 +46,7 @@ $$
 \varphi_\lambda:=\omega_\lambda\circ j_\lambda.
 $$
 
-After transport to one carrier and removal of null directions, define
+After transport to one carrier and removal of null directions, the BKM pullback of one fully specified faithful state family is the scalar form
 
 $$
 \dot\varphi_I:=D\varphi(\partial_I),
@@ -69,7 +69,7 @@ G_{\zeta N}&G_{\zeta\zeta}
 \end{pmatrix}.}
 $$
 
-The entries share a carrier, state, transport, tangent normalization, and renormalization prescription by construction. Positivity gives
+The entries share a carrier, state, transport, tangent normalization, and renormalization prescription by construction. If the carrier has a nontrivial center, this scalar form already uses the central probability law contained in the whole state. The W1 construction nevertheless retains the sector-resolved package below so that averaging, sectorwise analysis, and later fact formation are not conflated. Positivity gives
 
 $$
 G_{NN}\geq0,
@@ -120,9 +120,9 @@ The Fisher term measures differentiation of possible characters or records. The 
 
 The formula selects no actual \(x\). Pure conditional states may also lie on the boundary where ordinary BKM geometry is singular. A continuum realization must use faithful unconditioned states, fixed-support tangents, or a controlled limiting metric.
 
-## The unreduced response is center-valued
+## Center-valued response and its evaluation policy
 
-A scalar response matrix already assumes either sector averaging or fact selection. Suppose a descended context has finite center
+Suppose a descended context has finite center
 
 $$
 Z(\mathcal M_N(U))
@@ -130,38 +130,101 @@ Z(\mathcal M_N(U))
 \bigoplus_\alpha\mathbb CP_\alpha,
 $$
 
-and each sector carries a faithful differentiable state family \(\varphi_{\lambda,\alpha}\). Before choosing a central state or character, define
+and that cross-fiber transport has identified the central projections over the parameter neighborhood. A faithful whole state \(\varphi_\lambda\) determines both the central weights and the normalized conditional sector states:
+
+$$
+q_\alpha(\lambda)
+:=\varphi_\lambda(P_\alpha)>0,
+\qquad
+\sum_\alpha q_\alpha=1,
+\qquad
+\varphi_{\lambda,\alpha}(a)
+:=\frac{\varphi_\lambda(P_\alpha aP_\alpha)}{q_\alpha}.
+$$
+
+The within-sector response alone is
 
 $$
 \boxed{
-\mathbf G^Z_{IJ}(N,U)
+\mathbf G^{Z,\mathrm{cond}}_{IJ}(N,U)
 :=
 \sum_\alpha
 g^{\mathrm{BKM}}_{\varphi_\alpha}
 (\dot\varphi_{I,\alpha},\dot\varphi_{J,\alpha})P_\alpha
-\in
-Z(\mathcal M_N(U))\otimes
-\operatorname{Sym}^2(T^*\mathfrak D_{\mathrm{phys}}).}
+}
 $$
 
-This is positive in the order of the center: for every real tangent vector \(v=v^I\partial_I\),
+but this is not the whole response when the central weights vary. The center-valued Fisher contribution and the full sector-resolved response are
+
+$$
+\mathbf F^Z_{IJ}
+:=
+\sum_\alpha
+(\partial_I\log q_\alpha)
+(\partial_J\log q_\alpha)P_\alpha,
+\qquad
+\boxed{
+\mathbf G^Z_{IJ}
+:=
+\mathbf F^Z_{IJ}
++\mathbf G^{Z,\mathrm{cond}}_{IJ}}
+\in
+Z(\mathcal M_N(U))\otimes
+\operatorname{Sym}^2(T^*\mathfrak D_{\mathrm{phys}}).
+$$
+
+This is positive in the order of the center. For every real tangent vector \(v=v^I\partial_I\),
 
 $$
 v^Iv^J\mathbf G^Z_{IJ}
 =
 \sum_\alpha
-g^{\mathrm{BKM}}_{\varphi_\alpha}(\dot\varphi_{v,\alpha},\dot\varphi_{v,\alpha})P_\alpha
+\left[
+(\partial_v\log q_\alpha)^2
++g^{\mathrm{BKM}}_{\varphi_\alpha}(\dot\varphi_{v,\alpha},\dot\varphi_{v,\alpha})
+\right]P_\alpha
 \geq0.
 $$
 
-A normal central state \(\nu(P_\alpha)=q_\alpha\) returns the averaged matrix
+The W1 datum retained before any consumer-specific realization is therefore the package
 
 $$
-G^\nu_{IJ}=\nu(\mathbf G^Z_{IJ})
-=\sum_\alpha q_\alpha G^{(\alpha)}_{IJ},
+\boxed{
+\mathfrak G^Z_{N,U}
+:=
+\left(
+Z(\mathcal M_N(U)),
+\mathbf G^Z,
+\nu_\lambda
+\right),
+\qquad
+\nu_\lambda
+:=\varphi_\lambda\!\restriction_{Z(\mathcal M_N(U))},
+\qquad
+\nu_\lambda(P_\alpha)=q_\alpha.}
 $$
 
-whereas a character evaluating \(P_\beta\mapsto1\) returns \(G^{(\beta)}_{IJ}\). The first operation describes an unconditioned sector law; the second belongs to the later factive layer. Sector-dependent observable response therefore does not imply that the upstream algebra or law was microscopically inhomogeneous. For a diffuse center, point characters need not be normal, so this last step cannot be smuggled into the von Neumann-state construction.
+Normal unconditioned evaluation by the central law inherited from the whole state returns
+
+$$
+\boxed{
+G^\nu_{IJ}
+:=\nu_\lambda(\mathbf G^Z_{IJ})
+=I^{\mathrm F}_{IJ}[q]
++\sum_\alpha q_\alpha
+G^{(\alpha)}_{IJ}.}
+$$
+
+This is the finite-center form of the exact classical--quantum chain rule above. If the \(q_\alpha\) are fixed, the Fisher term vanishes. An alternative normal central state is additional member data rather than an innocent normalization.
+
+There are four distinct evaluation policies:
+
+1. If the center is trivial, scalarization is unique.
+2. Evaluation by \(\nu_\lambda=\varphi_\lambda|_Z\) is the unconditioned sector average already carried by the whole wall state; it is not fact selection.
+3. A theorem may be proved sectorwise by retaining the family of coefficients indexed by \(\alpha\). This conditions the mathematical statement on a sector but does not assert that one sector has become actual.
+4. A character \(P_\beta\mapsto1\) becomes a factive selection only when a declared instrument returns \(\beta\) as an outcome and the record structure supports that interpretation. A bare algebraic evaluation is not yet a fact.
+
+Sector-dependent observable response therefore does not imply that the upstream algebra or law was microscopically inhomogeneous. For a diffuse center the sums become direct integrals, and point characters need not be normal; such a character cannot be smuggled into the von Neumann-state construction as an ordinary normal state.
 
 If a sector-preserving conditional expectation is state-preserving and modularly admissible, the BKM Pythagorean split holds in every sector and hence in central order:
 

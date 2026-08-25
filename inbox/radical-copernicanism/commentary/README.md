@@ -13,7 +13,8 @@ Audit notes, elucidations, and insights on the radical-copernicanism inbox, writ
 - `energy-time-and-the-cosmic-clock.md` — energy reconnected to time at the cosmos register: KMS self-conservation, the unimodular conjugate pair (Λ, four-volume time), and the "more past = bigger space = inaccessibility = dark energy" chain mapped link by link.
 - `retyped-conservation.md` — the proposed retyping: conservation as a three-clause law (chain rule, Casimir allocation, module), with the CST readings that fall out (the balanced point is the channel's trace; the source law is fluctuation–dissipation).
 - `next-targets.md` — theorem-shaped next steps, the single gating question (half-sided modular inclusions for the wall family), and the guardrails.
+- `the-mercury-moment.md` — which anomaly could be this programme's perihelion of Mercury: the anomaly typology (Michelson–Morley / Mercury / eclipse), the phantom-crossing residual as the near-term candidate, and the execution order.
 
 ## Reading order
 
-For the sober spine: `audit-findings.md` → `groupoid-over-monoid.md` → `next-targets.md`. For the brave spine: `the-structure-of-nothing.md` → `emitting-nothing.md` → `energy-time-and-the-cosmic-clock.md` → `retyped-conservation.md`. The two spines are meant to be the same argument at two registers.
+For the sober spine: `audit-findings.md` → `groupoid-over-monoid.md` → `next-targets.md`. For the brave spine: `the-structure-of-nothing.md` → `emitting-nothing.md` → `energy-time-and-the-cosmic-clock.md` → `retyped-conservation.md`. The two spines are meant to be the same argument at two registers. `the-mercury-moment.md` is the empirical orientation note that both spines feed.
