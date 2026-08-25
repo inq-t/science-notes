@@ -1,0 +1,13 @@
+[module]
+name = "a2-spectral-geometry-of-jacobian-counterexample-3d"
+entry = "entry.md"
+include = [
+  "**/*.md",
+  "**/*.tex",
+  "**/*.bib",
+  "**/*.bbl",
+  "**/*.py",
+  "**/*.txt",
+  "**/*.pdf",
+  "**/*.json"
+]
