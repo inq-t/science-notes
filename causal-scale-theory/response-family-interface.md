@@ -1,6 +1,6 @@
 # The CST Homogeneous Response-Family Interface
 
-Causal Scale Theory is an architecture for homogeneous response members, not an assertion that every admissible wall has a balanced binary profile. After a wall construction, physical quotient, central scalarization, scale--state comparison, extensive normalization, and crossing anchor have been supplied, this interface separates a member's normalized response shape from the constitutive map that realizes it as a cosmological density. The currently developed member is the balanced-binary branch CST-B2; the finite $A_2$ calculation is an audit seed, not a second physical member.
+Causal Scale Theory is an architecture for homogeneous response members, not an assertion that every admissible wall has a balanced binary profile. After a wall construction, physical quotient, central scalarization, scale--state comparison, extensive normalization, and distinguished reference cut have been supplied, this interface separates a member's normalized response shape from the constitutive map that realizes it as a cosmological density. The currently developed member is the balanced-binary branch CST-B2; the finite $A_2$ calculation is an audit seed, not a second physical member.
 
 ## The member datum
 

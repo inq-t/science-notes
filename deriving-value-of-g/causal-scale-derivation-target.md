@@ -180,7 +180,7 @@ $$
 =1.
 $$
 
-[[program-core/ruble-equations#RE6 — Integrated crossing capacity|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
+[[program-core/ruble-equations#RE6 — Integrated reference matching|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
 
 The [[noether-capacity-theorem|Noether--capacity theorem]] gives a sufficient route to the entropy equation: prove that the physical horizontal state is a unit escort deformation of a genuine \(1+1\) conformal thermal sector whose entropy is the horizon entropy. Conservation of its dilation current then forces \(C_E=S/k_B\). The burden shifts to constructing that sector and tangent rather than merely observing that the cut has a two-dimensional normal plane.
 

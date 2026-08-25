@@ -167,7 +167,7 @@ $$
 
 Unity here is invariant under changes of physical units. Its content is that an independently constructed state measure and gravitational measure agree on the selected physical scale direction after the declared soldering.
 
-## Cut ratio, weak crossing law, and strong universality
+## Cut ratio, weak reference law, and strong universality
 
 For any cut on which the denominator is positive and finite, define the integrated cut ratio
 
@@ -192,12 +192,14 @@ $$
 
 It is therefore a gravitational-entropy-measure-weighted average of the local matching field. It is an ordinary area average only when \(\eta_{\mathrm{grav}}\) is constant on the cut.
 
-At a self-dual cosmological cut, define the integrated crossing ratio
+At a distinguished cosmological reference cut, define the integrated reference ratio
 
 $$
 \mathfrak R_c
 :=\mathfrak R_{\Sigma_c}(N_c).
 $$
+
+The historical name *crossing ratio* is literal only after an independently constructed member identifies the reference cut with a physical crossing or self-dual event.
 
 When \(\mu^{S,\mathrm{grav}}(\Sigma_c)=S_c/k_B\), it can be written
 
@@ -222,7 +224,7 @@ $$
 {\mu^{S,\mathrm{grav}}(\Sigma_c)}.
 $$
 
-Thus it is a gravitational-measure-weighted average of the local matching field. It becomes an area-weighted average only in an Einstein or other constant-\(\eta_{\mathrm{grav}}\) regime. It selects the weak-unit homogeneous branch at one cut after the common-carrier, localization, entropy-extensivity, and compatible-scheme hypotheses are supplied.
+Thus it is a gravitational-measure-weighted average of the local matching field. It becomes an area-weighted average only in an Einstein or other constant-\(\eta_{\mathrm{grav}}\) regime. It selects the weak-unit homogeneous branch at one reference cut after the common-carrier, localization, entropy-extensivity, and compatible-scheme hypotheses are supplied.
 
 The **strong causal-capacity equivalence principle** is the local measure equality throughout a declared Einstein universality class. It is the stronger statement needed if one coefficient is to govern local focusing, weak-field gravity, lensing, waves, cosmology, and horizon entropy.
 

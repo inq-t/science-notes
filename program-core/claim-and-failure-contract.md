@@ -177,7 +177,7 @@ Before attempting a full FLRW wall construction:
 1. compute the full-sector capacity/entropy ratio in controlled Rindler, causal-diamond, and bifurcate-horizon examples with one common scheme;
 2. test whether the physical tangent is escort-directed, transverse, or a mixture;
 3. determine whether a sufficient reduction can preserve its norm;
-4. compare the integrated extensive norm with the benchmark requirement in [[program-core/ruble-equations#RE6 — Integrated crossing capacity|RE6]];
+4. compare the integrated extensive norm with the benchmark requirement in [[program-core/ruble-equations#RE6 — Integrated reference matching|RE6]];
 5. test locality and additivity patch by patch; and
 6. keep the gravitational kinetic coefficient symbolic in every state–canonical-energy comparison.
 

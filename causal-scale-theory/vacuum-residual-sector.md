@@ -65,7 +65,7 @@ $$
 =\rho_m+\rho_r+\rho_X+\rho_{\mathrm{res}},
 $$
 
-with constant $\rho_{\mathrm{res}}$ as the simplest residual realization. The localized CST pulse determines $\rho_X$, not $\rho_{\mathrm{res}}$.
+with constant $\rho_{\mathrm{res}}$ as the simplest residual realization. A selected CST member determines $\rho_X$, not $\rho_{\mathrm{res}}$; the currently developed localized pulse is CST-B2.
 
 The canonical transient branch selects
 
@@ -73,7 +73,7 @@ $$
 \boxed{\rho_{\mathrm{res}}=0.}
 $$
 
-This is **[SECTOR]**. A positive residual produces an asymptotic de Sitter regime; a negative residual may eventually force a turnaround, depending on the other sectors. Neither alternative changes the exact binary profile before background closure.
+This is **[SECTOR]**. A positive residual produces an asymptotic de Sitter regime; a negative residual may eventually force a turnaround, depending on the other sectors. Neither alternative changes CST-B2's exact balanced-binary profile before background closure, although another [[causal-scale-theory/response-family-interface|response member]] may have a different profile.
 
 ## What local blindness does not prove
 

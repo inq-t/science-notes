@@ -42,7 +42,7 @@ for every finite $x$; [[causal-scale-theory/unit-branch|the unit branch note]] g
 |---|---:|---|
 | crossing $x_c$ | $0.2940066$ | reproduces [[causal-scale-theory/unit-branch|unit branch]] |
 | crossing redshift $z_c$ | $0.3417927$ | reproduces unit branch |
-| $\Omega_{X,c}$ | $0.5$ | [[program-core/ruble-equations#RE8 — Generalized homogeneous Ruble response|weak unit matching plus the response law]] |
+| $\Omega_{X,c}$ | $0.5$ | [[program-core/ruble-equations#RE8 — Homogeneous member return and CST-B2 specialization|weak unit matching plus the response law]] |
 | $w_0$ | $-0.8094545$ | reproduces unit branch |
 | $w_a$ | $-0.6122053$ | reproduces unit branch |
 | $q_0$ | $-0.3369025$ | reproduces unit branch |

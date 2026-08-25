@@ -56,7 +56,7 @@ So the accounting is: a dimensionful constant with a prior spanning scores of de
 
 ## What the trade costs
 
-It costs the principle. **[PRINCIPLE — WEAK MATCHING]** $\mathfrak R_c=1$ is postulated, not derived. [[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak Ruble matching]] is kept separate from the capacity definition precisely so the postulate cannot hide inside the definition, and it has a direct failure condition: an independently constructed wall returning a finite, scheme-stable $\mathfrak R_c\ne1$.
+It costs the principle. **[PRINCIPLE — WEAK MATCHING]** $\mathfrak R_c=1$ is postulated, not derived. [[program-core/ruble-equations#RE6 — Integrated reference matching|Weak Ruble matching]] is kept separate from the capacity definition precisely so the postulate cannot hide inside the definition, and it has a direct failure condition: an independently constructed wall returning a finite, scheme-stable $\mathfrak R_c\ne1$.
 
 This is a real cost and should not be described as a discount. But the two postulates are not of the same kind, and the difference is the point of the exercise:
 

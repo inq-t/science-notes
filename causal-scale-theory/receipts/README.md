@@ -33,4 +33,4 @@ The background receipt covers the CST-B2 background:
 
 Sign-change scans do not discover exact double roots, so folds are solved separately from the closure and stationarity equations. The scan interval and resolution are recorded in the JSON output. These checks establish algebra and arithmetic consequences of declared premises, not the truth of those premises.
 
-The receipt schema uses **crossing_ratio** for the integrated crossing parameter \(\mathfrak R_c\). “Ruble” is reserved for the named equation system rather than used as a code-level constant or scalar type.
+The legacy receipt schema uses **crossing_ratio** for the integrated reference parameter \(\mathfrak R_c\). The code label does not prove that the reference cut is a physical crossing. “Ruble” is reserved for the named equation system rather than used as a code-level constant or scalar type.

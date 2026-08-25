@@ -33,7 +33,7 @@ $$
 0<\mathfrak R_c<2.
 $$
 
-The theorem owns the elimination and its failure boundary. Curvature, interactions, a residual vacuum, an additional crossing component, or a different source-to-horizon conversion changes the equation.
+The theorem owns the elimination and its failure boundary. Curvature, interactions, a residual vacuum, an additional component at the reference cut, or a different source-to-horizon conversion changes the equation.
 
 Root choice is therefore member data. If a past late-time candidate crossing is imposed, the conventional branch is the smallest positive root unless a different prior or selection principle is declared. A likelihood must say whether it selects that branch, profiles over all roots, or assigns branch weights.
 

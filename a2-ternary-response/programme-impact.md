@@ -33,7 +33,7 @@ If no such construction exists, the ternary response is not an error term. It is
 | $A_2$ algebraic geometry | a local three-sheet carrier and a Weyl orbit of root directions | a positive $*$-realization, state bundle, extension across the discriminant, and physical functor |
 | wall construction | a concrete spectator whose removal can be tested | a CP instrument, expectation, quotient, or gap that actually returns a balanced binary family |
 | [[program-core/common-response-matrix|CRM]] | a finite Hessian potential $\Psi_{A_2}$ with exact quadratic and cubic response | the common carrier, physical tangent quotient, cross-scale transport, and continuum renormalization |
-| CST binary member | a competing normalized response profile and allocation law | derivation of $\theta(N)$, scale-state rate, extensive normalization, source map, and covariant dynamics |
+| [[causal-scale-theory/response-family-interface|CST response-family audit]] | an exact competing finite response and allocation law | construction of an $A_2$ member's state carrier, scalarization, $\theta(N)$, extensive normalization, source map, and covariant dynamics |
 | CWST | a finite positive BKM seed | localization, areal-to-volume conversion, spatial carrier, source transform, and probability-1PI construction in W2 |
 | $S^6/A_2$ branch | evidence that monodromy and singular gluing can organize globally nontrivial presentation | an actual comparison functor between the manuscript's toric $A_2$ combinatorics and this analytic inverse-cover $A_2$ |
 
@@ -55,7 +55,7 @@ The local generator $Q=\operatorname{diag}(1,-1,0)$ lies in one root direction. 
 
 Near a smooth discriminant component, two sheets form the local colliding pair and the third is spectrally separate. This makes a controlled two-level approximation plausible. The approximation becomes a theorem only after a gap estimate, adiabatic bound, conditional instrument, or sufficient-statistic result shows that the spectator contribution is absent below a declared error.
 
-If the third branch remains active, retain $\Psi_{A_2}$ as the finite member and propagate its quadratic and higher response rather than forcing a $\operatorname{sech}^2$ fit.
+If the third branch remains active, retain $\Psi_{A_2}$ as the finite audit object and propagate its quadratic and higher response rather than forcing a $\operatorname{sech}^2$ fit. Calling it a physical member still requires the missing construction data listed above.
 
 ### Test the two shapes only after soldering
 
@@ -73,7 +73,7 @@ g_{\mathrm{bin}}\sim4e^{-2\nu|N-N_c|},
 g_{A_2}\sim e^{-\nu|N-N_c|}.
 $$
 
-This is a possible signature, not yet a prediction. The soldering law, $\nu$, physical normalization, background source, and observable map must be constructed without fitting the same history used to choose between the profiles.
+This is a possible signature, not yet a prediction. The raw ternary response satisfies $g_{A_2}(0)=2/3$; dividing by $2/3$ permits a shape comparison but does not produce a unit-response wall or a cosmology. [[causal-scale-theory/response-family-interface#The $A_2$ audit seed|The family interface]] owns that normalization warning. The soldering law, $\nu$, physical normalization, background source, and observable map must be constructed without fitting the same history used to choose between the profiles.
 
 ### Preserve the W2 firewall
 
@@ -103,4 +103,4 @@ Once those constructions are fixed independently, peak location, normalized shap
 
 The binary member fails in this route if no canonical or controlled removal of the third mode exists, or if the pushed-forward family does not have balanced $\operatorname{sech}^2$ response. The $A_2$ route itself fails physically if its cover cannot be equipped with the required positive state geometry and realization maps.
 
-The payoff is substantial even before either outcome. The programme now has two exact finite hypotheses with different profiles and a clean gate between them. Algebraic geometry is doing more than decorating a chosen response: it is exposing a hidden assumption and specifying the theorem required to justify it.
+The payoff is substantial even before either outcome. The programme now has two exact finite response calculations with different profiles and a clean construction gate between finite algebra and physical membership. Algebraic geometry is doing more than decorating a chosen response: it is exposing a hidden assumption and specifying the theorem required to justify it.

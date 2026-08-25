@@ -53,7 +53,7 @@ $$
 \nu:=|\varrho_\perp|.
 $$
 
-The normalized CST-B2 curve still does not determine how many physical degrees of freedom participate. [[scale-capacity|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the crossing ratio
+The normalized CST-B2 curve still does not determine how many physical degrees of freedom participate. [[scale-capacity|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the integrated reference matching ratio
 
 $$
 \mathfrak R_c

@@ -93,7 +93,7 @@ $$
 A=\frac12\rho_{\mathrm{crit},c}\mathfrak R_c.
 $$
 
-[[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak unit matching]] is the additional statement $\mathfrak R_c=1$. On that branch,
+[[program-core/ruble-equations#RE6 — Integrated reference matching|Weak unit matching]] is the additional statement $\mathfrak R_c=1$. On that branch,
 
 $$
 \rho_X(N)

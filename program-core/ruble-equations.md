@@ -1,8 +1,8 @@
 # The Ruble Equations
 
-The Ruble equations are a typed dependency stack from causal scale through horizontal state response to a conjectural state–geometry equivalence and its homogeneous cosmological projection. Only the balanced-binary identities and the stated geometric or thermodynamic identities are exact; the wall construction, modulus localization, unit principles, source law, and covariant response remain open or constitutive.
+The Ruble equations are a typed dependency stack from causal scale through horizontal state response to a conjectural state–geometry equivalence and its homogeneous cosmological projection. Only the balanced-binary identities and the stated geometric or thermodynamic identities are exact; the wall construction, modulus localization, unit principles, source law, and covariant response remain open or constitutive. RE4--RE9 develop the current balanced-binary member CST-B2, while [[causal-scale-theory/response-family-interface|the CST response-family interface]] owns the wider homogeneous return type.
 
-Fix a reference scale section independently of the distinguished crossing and use
+Fix a reference scale section independently of the distinguished reference cut and use
 
 $$
 N:=-\ln\frac{\sigma}{\sigma_*},
@@ -12,7 +12,7 @@ N_c:=-\ln\frac{\sigma_c}{\sigma_*},
 x:=N-N_c
 $$
 
-for the scale coordinate, crossing coordinate, and logarithmic displacement from the crossing. A prime on a homogeneous quantity denotes \(\mathrm d/\mathrm dN\). [[conformal-scale-geometry/scale-coordinate-reference|The scale-coordinate ledger]] owns the equivalent FLRW ratios and the present-centered convention.
+for the scale coordinate, reference-cut coordinate, and logarithmic displacement from that cut. A prime on a homogeneous quantity denotes \(\mathrm d/\mathrm dN\). The cut becomes a physical crossing only after a member constructs the relevant event. [[conformal-scale-geometry/scale-coordinate-reference|The scale-coordinate ledger]] owns the equivalent FLRW ratios and the present-centered convention.
 
 ## Canonical symbol policy
 
@@ -26,8 +26,8 @@ Several legacy notes use one symbol for different types. The core fixes:
 | \(\overline\chi_{\Sigma,N}\) | integrated cut norm divided by area | should not be silently identified with \(\chi_N(p)\) |
 | \(\mathfrak r_{\Sigma,N}(p)\) | local state–gravity matching field | some notes use \(\mathfrak R_\Sigma\) without distinguishing local and integrated scope |
 | \(\mathfrak R_\Sigma(N)\) | integrated matching ratio on a general cut | not a pointwise field or automatically a constant along the path |
-| \(\mathfrak R_c=\mathfrak R_{\Sigma_c}(N_c)\) | integrated crossing capacity number | retained for the historical homogeneous amplitude |
-| \(R_c^{\mathrm{hor}}\) | horizon radius at the crossing | never abbreviated to \(\mathfrak R_c\) |
+| \(\mathfrak R_c=\mathfrak R_{\Sigma_c}(N_c)\) | integrated reference matching ratio | historically called the crossing capacity number; the label becomes literal only after event construction |
+| \(R_c^{\mathrm{hor}}\) | horizon radius at the reference cut | never abbreviated to \(\mathfrak R_c\) |
 
 This policy is intentionally more explicit than the historical notation. Later module audits should translate symbols by type, not perform blind textual replacement.
 
@@ -249,6 +249,8 @@ This is noncircular only if \(\chi_*\) and area were constructed without measure
 
 **[IDENTIFICATION, BALANCE ASSUMPTION, THEN EXACT]**
 
+RE4 and RE5 select CST-B2. They do not define every homogeneous response member admitted by [[causal-scale-theory/response-family-interface|the response-family interface]].
+
 Suppose the relevant reflection-odd horizontal response factors through a selected binary algebra \(\mathcal B_N\) in which the two retained outcome projections are exhaustive, and let its normalized generator satisfy
 
 $$
@@ -310,7 +312,7 @@ These equations fix a normalized shape and Casimir allocation. They do not const
 
 The exact reduction is proved once in [[binary-information-geometry/balanced-exponential-family|the balanced exponential-family theorem]]. The claim that a physical wall admits this reduction belongs instead to [[wall-construction-interface/binary-channel|the binary-channel interface]].
 
-## RE5 — Scale soldering, rate, and extensive norm
+## RE5 — CST-B2 scale soldering, rate, and extensive norm
 
 **[CONDITIONAL THEOREM + SEPARATE PRINCIPLE + ASSUMPTION]**
 
@@ -329,7 +331,7 @@ $$
 \boxed{\nu=1.}
 $$
 
-With a physical extensive factor \(C_\perp(N)\),
+For the selected balanced-binary channel, with a physical extensive factor \(C_\perp(N)\),
 
 $$
 \boxed{
@@ -338,7 +340,7 @@ G^{\perp}_{NN}(N)
 \operatorname{sech}^2(\nu x).}
 $$
 
-The rigid homogeneous pulse assumes
+The rigid CST-B2 member assumes
 
 $$
 C_\perp(N)=C_{\perp,c}.
@@ -348,7 +350,7 @@ Neither the binary Casimir nor affine soldering determines \(C_{\perp,c}\).
 
 The affine conclusion and its hypotheses are isolated in [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]]. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] explains why the slope is not fixed by the additive and multiplicative group structures alone.
 
-## RE6 — Integrated crossing capacity
+## RE6 — Integrated reference matching
 
 **[DEFINITION + WEAK PRINCIPLE]**
 
@@ -375,25 +377,40 @@ $$
 
 It is therefore an entropy-measure-weighted average of the local field. It becomes an area average only in a constant-\(\eta_{\mathrm{grav}}\) regime.
 
-At the distinguished crossing, set
+At the distinguished reference cut, set
 
 $$
 \frac{S_c}{k_B}
 :=\mu^{S,\mathrm{grav}}(\Sigma_c),
 \qquad
-G^{\perp}_{NN}(N_c)
+G^{\mathcal M}_{NN}(N_c)
 :=\mu^{\mathrm{desc}}_{v_{N_c},v_{N_c}}(\Sigma_c),
 $$
 
-and define the cosmological crossing number
+and define the integrated reference ratio
 
 $$
 \boxed{
 \mathfrak R_c
 :=\mathfrak R_{\Sigma_c}(N_c)
 =\frac{k_B}{S_c}
-G^{\perp}_{NN}(N_c)
-=\frac{k_BC_{\perp,c}\nu^2}{S_c}.}
+G^{\mathcal M}_{NN}(N_c).}
+$$
+
+The historical name *crossing ratio* is licensed only when the selected member's wall, source, and background maps identify this reference cut with a physical crossing. For any normalized family profile
+
+$$
+f_{\mathcal M}(N)
+:=\frac{G^{\mathcal M}_{NN}(N)}
+{G^{\mathcal M}_{NN}(N_c)},
+$$
+
+the definition gives
+
+$$
+\boxed{
+G^{\mathcal M}_{NN}(N)
+=\frac{S_c}{k_B}\mathfrak R_c f_{\mathcal M}(N).}
 $$
 
 The weak Ruble principle is
@@ -402,7 +419,7 @@ $$
 \boxed{\mathfrak R_c=1.}
 $$
 
-Under constant \(C_\perp\),
+For CST-B2, constant \(C_\perp\) and affine soldering specialize this to
 
 $$
 \boxed{
@@ -411,9 +428,9 @@ G^{\perp}_{NN}(N)
 \operatorname{sech}^2(\nu x).}
 $$
 
-\(\mathfrak R_c\) is an integrated amplitude at one cut. It is not the local field \(\mathfrak r_{\Sigma,N}(p)\), a pathwise constant, or an RG fixed point. Unit integrated matching does not imply pointwise unit matching; it fixes only the weighted average above unless a local constancy theorem is supplied.
+\(\mathfrak R_c\) is an integrated amplitude at one reference cut. It is not the local field \(\mathfrak r_{\Sigma,N}(p)\), a pathwise constant, or an RG fixed point. Unit integrated matching does not imply pointwise unit matching; it fixes only the weighted average above unless a local constancy theorem is supplied.
 
-The extensive normalization required at the crossing is
+The CST-B2 extensive normalization required at the reference cut is
 
 $$
 \boxed{
@@ -423,20 +440,20 @@ $$
 
 For the current unit-branch benchmark this is approximately \(1.50\times10^{122}\). That number is a full-cut target in the benchmark scheme, not a per-channel coefficient or a fundamental pure constant.
 
-## RE7 — Anchored source and horizon conversion
+## RE7 — Anchored member source and horizon conversion
 
 **[CONSTITUTIVE]**
 
-The homogeneous source law is
+For a selected homogeneous member \(\mathcal M\), the source law is
 
 $$
 \boxed{
-\rho_X(N)
+\rho_X^{\mathcal M}(N)
 :=\frac{k_BT_c}{2V_c}
-G^{\perp}_{NN}(N).}
+G^{\mathcal M}_{NN}(N).}
 $$
 
-**[IDENTIFICATION — OPEN CONSTRUCTION]** The temperature anchoring the horizontal source is identified with the canonical apparent-horizon temperature at the crossing:
+**[IDENTIFICATION — OPEN CONSTRUCTION]** The temperature anchoring the horizontal source is identified with the canonical apparent-horizon temperature at the reference cut:
 
 $$
 T_c:=T_{\mathrm{hor},c}.
@@ -469,11 +486,23 @@ This identity contains \(G\). It closes the homogeneous source after the horizon
 
 The geometric conversion is proved independently in [[conformal-scale-geometry/hawking-friedmann-identity|the Hawking--Friedmann identity]].
 
-## RE8 — Generalized homogeneous Ruble response
+## RE8 — Homogeneous member return and CST-B2 specialization
 
 **[CONDITIONAL OUTPUT]**
 
-Combining RE5–RE7 gives
+In spacetime dimension \(D=d+1\) with \(d>1\), the family interface, anchored source, horizontal-temperature identification, and Einstein--horizon conversion give
+
+$$
+\boxed{
+\rho_X^{\mathcal M}(N)
+=\frac{\mathfrak R_c}{d-1}
+\rho_{\mathrm{crit},c}
+f_{\mathcal M}(N),
+\qquad
+\Omega_{X,c}=\frac{\mathfrak R_c}{d-1}.}
+$$
+
+This family-level expression is owned and qualified by [[causal-scale-theory/response-family-interface|the CST response-family interface]]. In the present \(3+1\)-dimensional CST-B2 specialization, combining RE5--RE7 gives
 
 $$
 \boxed{
@@ -483,7 +512,7 @@ $$
 \operatorname{sech}^2(\nu x).}
 $$
 
-At the crossing,
+At the reference cut,
 
 $$
 \boxed{
@@ -491,9 +520,9 @@ $$
 =\frac{\mathfrak R_c}{2}.}
 $$
 
-Any interval such as \(0<\mathfrak R_c<2\) is downstream of this source law together with flatness and positivity of the complementary density. It is not a kinematic or information-geometric bound. Likewise, equal partition at \(\mathfrak R_c=1\) follows from the linear relation above plus the weak unit principle; the midpoint of a linear interval is not an independent explanation of unity.
+Any interval such as \(0<\mathfrak R_c<2\) is downstream of the \(3+1\)-dimensional source law together with flatness and positivity of the complementary density. It is not a kinematic or information-geometric bound. Likewise, equal partition at \(\mathfrak R_c=1\) follows from the linear relation above plus the weak unit principle; the midpoint of a linear interval is not an independent explanation of unity.
 
-On a spatially flat crossing, \(\mathfrak R_c=1\) makes the response equal the total non-\(X\) complement. If the declared complement contains only ordinary matter and radiation, with zero residual vacuum and no additional sector, then
+On a spatially flat reference cut, \(\mathfrak R_c=1\) makes the response equal the total non-\(X\) complement. If the declared complement contains only ordinary matter and radiation, with zero residual vacuum and no additional sector, then
 
 $$
 \rho_{X,c}=\rho_{m,c}+\rho_{r,c}.
@@ -509,7 +538,7 @@ $$
 
 It is selected by two independent principles.
 
-## RE9 — Equation of state and shape invariant
+## RE9 — CST-B2 equation of state and shape invariant
 
 **[CONDITIONAL OUTPUT GIVEN SEPARATE CONSERVATION]**
 
@@ -534,7 +563,7 @@ $$
 9(1+w_X)^2+6w_X'=4\nu^2.}
 $$
 
-These are rigid consequences of the generalized pulse and separate conservation. They are not independent evidence for the microscopic wall or the equivalence principles.
+These are rigid consequences of the CST-B2 pulse and separate conservation. They are not consequences of the general response-family interface and are not independent evidence for the microscopic wall or the equivalence principles.
 
 The calculation is isolated in [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid-response theorem]].
 
@@ -581,16 +610,16 @@ This is the prospective conservation law. It does not follow from \(\mathfrak r_
 |---|---|
 | \(c=1\) | unit convention for a dimensionful conversion |
 | \(Q^2=\mathbf1_{\mathcal B_N}\) | representation normalization after a selected exhaustive binary image has been constructed |
-| \(\operatorname{sech}^2(0)=1\) | normalized binary peak identity |
+| \(\operatorname{sech}^2(0)=1\) | normalized CST-B2 peak identity |
 | \(m^2+g_{\theta\theta}^{\mathrm{bin}}=1\) | binary second-moment Casimir |
 | \(\nu=1\) | proposed scale-state rate law after canonical generator normalization |
-| \(\mathfrak R_c=1\) | proposed integrated crossing equivalence |
+| \(\mathfrak R_c=1\) | proposed integrated reference matching equivalence |
 | \(\mathfrak r_{\Sigma,N}(p)=1\) | proposed local equality in the normalized scale channel |
 | \(C_E/(S/k_B)=1\) | conditional \(n=1\) conformal thermal result |
 
 No row proves another.
 
-## Constitutional no-go at the crossing
+## Constitutional no-go at the balanced reference point
 
 For the literal two-state specialization
 

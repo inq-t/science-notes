@@ -132,7 +132,7 @@ $$
 =\frac{k_B}{S_\Sigma}G^{\perp}_{NN}.
 $$
 
-[[program-core/ruble-equations#RE6 — Integrated crossing capacity|Weak Ruble matching]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
+[[program-core/ruble-equations#RE6 — Integrated reference matching|Weak Ruble matching]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
 
 $$
 \boxed{

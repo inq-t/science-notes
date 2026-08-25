@@ -6,7 +6,7 @@ The inherited CST material establishes reproducible arithmetic for the CST-B2 ho
 
 [[causal-scale-theory/receipts/README|The canonical receipt suite]] recomputes the CST-B2 theorem consequences used by the phenomenology notes: exact reduced identities, unit-branch cosmography, matter-plus-radiation folds, strict-dust and historical hybrid folds, representative roots, amplitude-dependent past and future branches, and counterexamples to treating \(\nu=2\) as a universal existence bound. The current machine-readable outputs are [[causal-scale-theory/receipts/algebra.json|the algebra receipt]] and [[causal-scale-theory/receipts/background.json|the background receipt]].
 
-The schema name `crossing_ratio` denotes \(\mathfrak R_c\), the integrated crossing ratio. A passing receipt establishes that quoted values follow from the declared equations and inputs. It does not establish the constitutive source, the weak unit principle \(\mathfrak R_c=1\), the rate principle \(\nu=1\), or their truth in nature.
+The legacy schema name `crossing_ratio` denotes \(\mathfrak R_c\), the integrated reference matching ratio. The name becomes literal only when the selected member constructs a physical crossing at the reference cut. A passing receipt establishes that quoted values follow from the declared equations and inputs. It does not establish the constitutive source, the weak unit principle \(\mathfrak R_c=1\), the rate principle \(\nu=1\), or their truth in nature.
 
 ## Historical background comparison
 

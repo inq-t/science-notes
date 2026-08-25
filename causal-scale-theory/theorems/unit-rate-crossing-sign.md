@@ -1,6 +1,6 @@
 # CST-B2 Unit-Rate Candidate-Crossing Sign
 
-On the flat zero-residual CST-B2 unit-rate background, the present-flatness function is strictly increasing, so the candidate-crossing root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\). This is a member theorem about the \(\operatorname{sech}^2\) closure function.
+On the flat zero-residual CST-B2 unit-rate background, the present-flatness function is strictly increasing, so its distinguished-reference root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\). This is a member theorem about the \(\operatorname{sech}^2\) closure function; the root becomes a physical crossing date only after the member's event interpretation is constructed.
 
 Assume the hypotheses of [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]], set \(\nu=1\), and suppose
 
@@ -42,7 +42,7 @@ $$
 \lim_{x\to+\infty}F_1(x)=+\infty.
 $$
 
-Therefore every positive threshold admits exactly one real crossing root.
+Therefore every positive threshold admits exactly one real closure root.
 
 At \(x=0\),
 
@@ -66,11 +66,11 @@ $$
 \boxed{
 \begin{aligned}
 \mathfrak R_c<2D&\Longleftrightarrow x_c>0
-&&\text{past crossing},\\
+&&\text{past candidate-crossing reference},\\
 \mathfrak R_c=2D&\Longleftrightarrow x_c=0
-&&\text{present crossing},\\
+&&\text{present candidate-crossing reference},\\
 \mathfrak R_c>2D&\Longleftrightarrow x_c<0
-&&\text{future crossing}.
+&&\text{future candidate-crossing reference}.
 \end{aligned}}
 $$
 

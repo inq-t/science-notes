@@ -42,7 +42,7 @@ with \(0<\mathfrak R_c<2\) and \(\nu>0\). Their physical provenance remains the 
 
 ## Elimination
 
-Flatness at the crossing gives
+Flatness at the distinguished reference cut gives
 
 $$
 \left(1-\frac{\mathfrak R_c}{2}\right)
@@ -76,15 +76,15 @@ F_\nu(x):=M(x)\operatorname{sech}^2(\nu x),
 T_{\mathfrak R}:=D\frac{2-\mathfrak R_c}{\mathfrak R_c},
 $$
 
-the allowed crossing dates are the real roots of
+the allowed reference dates are the real roots of
 
 $$
 F_\nu(x_c)=T_{\mathfrak R}.
 $$
 
-The equation may have more than one root. Each root labels a distinct background solution with the same parameter values; it is not another crossing inside one already-selected history.
+The equation may have more than one root. Each root labels a distinct background solution with the same parameter values; it is not another physical crossing inside one already-selected history.
 
-## Present crossing
+## Present-reference coincidence
 
 At \(x_c=0\),
 
@@ -98,8 +98,8 @@ $$
 \boxed{\mathfrak R_c=2D.}
 $$
 
-Consequently, the present-crossing amplitude is fixed by the declared present complement. This does not promote \(\mathfrak R_c\) from an integrated crossing ratio to a universal constant.
+Consequently, the amplitude of a reference cut coincident with the present is fixed by the declared present complement. This does not promote \(\mathfrak R_c\) from an integrated reference ratio to a universal constant or prove that the cut is a physical crossing.
 
 ## Scope
 
-Curvature, a residual vacuum, interactions, an additional crossing component, or a different horizon/source conversion changes the closure. Numerical root counts and benchmark folds are receipts for this equation rather than premises of the theorem.
+Curvature, a residual vacuum, interactions, an additional component at the reference cut, or a different horizon/source conversion changes the closure. Numerical root counts and benchmark folds are receipts for this equation rather than premises of the theorem.

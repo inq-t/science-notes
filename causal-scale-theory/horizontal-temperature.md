@@ -1,6 +1,6 @@
 # The Horizontal Temperature Identification
 
-CST identifies the conversion temperature of its horizontal state response with the unsigned canonical apparent-horizon temperature at the crossing. This is an open physical identification; the exact horizon algebra begins only after it has been made.
+CST identifies the conversion temperature of its horizontal state response with the unsigned canonical apparent-horizon temperature at the distinguished reference cut. This is an open physical identification; the exact horizon algebra begins only after it has been made, and the temperature choice does not prove that the cut is a physical crossing.
 
 For a flat-FLRW apparent horizon \(R_A=c/H\), define
 
