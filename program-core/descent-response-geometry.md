@@ -1,63 +1,64 @@
-# Descent-Response Geometry
+# Localized Areal Response Geometry
 
-The proposed mathematical bottom of the causal-response branch is a positive, localized response geometry on the physical horizontal quotient. It begins after algebra, state, causal cut, scale, transport, differentiability, and a prospective area carrier have been supplied. Its primary object is a measure-valued bilinear form; the scalar areal modulus used in homogeneous cosmology is a contraction and average of that richer object.
+Localized areal response geometry asks whether a transported positive state-space response can be represented by a countably additive bilinear measure on a causal cut and compared with an independently normalized area measure. Its primary object is the measure-valued form; the local modulus, cut average, and proposed universal scalar are different contractions. Existence, covariance, continuum finiteness, absolute continuity, and compatibility with central evaluation are open constructions.
 
-## The state bundle is an open construction
+## Inputs and ordering policy
 
-For each admissible causal cut, the programme seeks
+This note begins with a causal cut \(\Sigma\), a transported physical tangent \(H^{\mathrm p}_\Sigma\), and a positive response supplied by [[program-core/common-response-matrix|the common response form]]. The algebra, state, transport, physical quotient, and tangent normalization must already be declared; a rescaling \(v\mapsto av\) rescales every quadratic response by \(a^2\).
 
-$$
-N\longmapsto
-(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}),
-$$
-
-where \(\mathcal T_{N_2N_1}\) transports states or observables to a common carrier. Without this comparison structure, \(\partial_N\omega_N\) and relative entropy between scales are not well typed. The wall algebra, preferred state family, and transport must be constructed independently of the target cosmological history and of the gravitational coefficient to be explained.
-
-Write \(\widetilde\omega_{N+\delta N}^{(N)}\) for \(\omega_{N+\delta N}\) transported into the \(N\)-fiber by the declared dual transport. The tilde is part of the typing, not optional notation.
-
-Let \(\Phi\) denote the resulting scale-to-state map and \(H_p\) the physical horizontal tangent object from [[program-core/physical-quotient|the quotient construction]]. The physical scale tangent is
+For a nontrivial center, [[program-core/center-valued-response|the center-valued owner]] supplies
 
 $$
-v_N:=D^{\mathrm{hor}}\Phi(\partial_N).
+\mathfrak G^Z
+=
+(Z,\mathbf G^Z,\omega^Z).
 $$
 
-The declaration that \(v_N\) is canonical includes its normalization. A rescaling \(v_N\mapsto av_N\) rescales every quadratic capacity by \(a^2\).
-
-## Coincidence distinguishability
-
-When the compared family is sufficiently regular,
+A declared scalar policy \(\mathsf p\) gives a numerical form \(G^{\mathsf p}\). The normal whole-state policy gives, on the homogeneous scale tangent,
 
 $$
-D(\widetilde\omega_{N+\delta N}^{(N)}\Vert\omega_N)
-=\frac12g^{\mathrm{BKM}}_{\omega_N}(v_N,v_N)
-\delta N^2+o(\delta N^2).
+G^\perp_{NN}
+:=\omega^Z(\mathbf G^{Z,\perp}_{NN})\geq0,
 $$
 
-Define
+whereas a normalized sector metric or character evaluation is a different input.
+
+There are then two possible construction orders:
 
 $$
-G^{\perp}_{NN}
-:=g^{\mathrm{BKM}}_{\omega_N}(v_N,v_N)\geq0
+\mathbf G^Z
+\xrightarrow{\ \mathsf p\ }
+G^{\mathsf p}
+\xrightarrow{\ \mathrm{Loc}^{\mathsf p}\ }
+\mu^{\mathrm{desc},\mathsf p},
 $$
 
-after the declared vertical, gauge, and null directions have been removed. If the descended carrier has nontrivial center, this whole-state scalar is the normal unconditioned evaluation \(G^\perp_{NN}=\omega^Z_N(\mathbf G^{Z,\perp}_{NN})\); a normalized conditional-sector metric is a different object. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the decomposition and evaluation policy. This is a local squared speed or susceptibility along one state path. It is dimensionless when \(N\) is dimensionless.
+or a stronger center-linear localization
 
-The equality with a BKM form is **[EXACT — UNDER THE ANALYTIC AND COMPARABILITY HYPOTHESES]**. The existence of a finite continuum wall norm and its physical interpretation are open. [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|The Hessian module]] owns the analytic result and its scope; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the fixed-Gibbs corollary]] keeps its thermodynamic use separate from an all-history source.
+$$
+\mathbf G^Z
+\xrightarrow{\ \mathrm{Loc}^Z\ }
+\boldsymbol\mu^{\mathrm{desc},Z}
+\xrightarrow{\ \mathsf p\ }
+\mu^{\mathrm{desc},\mathsf p}.
+$$
+
+The two orders agree only if the localization is center-linear and compatible with the chosen evaluation. This note does not assume that commutation by notation.
 
 ## Localization is an additional theorem target
 
-For physical horizontal tangents \(v,w\), require a symmetric bilinear map into finite signed measures on measurable patches \(U\subseteq\Sigma\),
+Fix a scalar policy \(\mathsf p\) and suppress it on the measure symbol. For physical horizontal tangents \(v,w\), the **[OPEN CONSTRUCTION]** is a symmetric bilinear map into finite signed measures on measurable patches \(U\subseteq\Sigma\),
 
 $$
 \mu^{\mathrm{desc}}_{v,w}(U),
 $$
 
-whose diagonal \(\mu^{\mathrm{desc}}_{v,v}\) is positive and countably additive. Localization must recover the global BKM form:
+whose diagonal \(\mu^{\mathrm{desc}}_{v,v}\) is positive and countably additive. Localization must recover the supplied global response:
 
 $$
 \boxed{
 \mu^{\mathrm{desc}}_{v,w}(\Sigma)
-=g^{\mathrm{BKM}}_{\omega}(v,w).}
+=G^{\mathsf p}(v,w).}
 $$
 
 Cross measures may equivalently be obtained by polarization,
@@ -72,7 +73,13 @@ $$
 
 provided a measure-level Cauchy--Schwarz bound makes them finite. The form should be local or controlledly quasilocal, covariant under presentation arrows, finite after a declared renormalization, and compatible with restriction to subregions.
 
-Let \(\mu_A\) be an independently normalized causal-area measure. Require every diagonal measure to satisfy
+Let \(\mu_A\) be an independently normalized causal-area measure and set
+
+$$
+A_\Sigma:=\mu_A(\Sigma).
+$$
+
+Require every diagonal measure to satisfy
 
 $$
 \mu^{\mathrm{desc}}_{v,v}\ll\mu_A.
@@ -135,9 +142,9 @@ It is area per unit natural-log distinguishability curvature. It is not automati
 
 ## Why the primary object is tensorial
 
-Scalarizing at the outset assumes that every admissible physical direction has the same response. The local bilinear form allows:
+Contracting the tangent bilinear form to one number or one preferred direction at the outset would erase its directional structure. The local bilinear form allows:
 
-- different homogeneous and inhomogeneous response blocks;
+- different homogeneous and observational response blocks;
 - anisotropic eigenvalues;
 - null or constrained directions;
 - state-, species-, curvature-, or scale-dependent response; and
@@ -145,68 +152,23 @@ Scalarizing at the outset assumes that every admissible physical direction has t
 
 Einstein universality would be the special case in which the relevant state-to-geometry identification makes this form proportional to one gravitational form with one constant coefficient. A modified return value is therefore informative rather than a definitional failure.
 
-## Global and nonconstant observational response blocks
+## Relation to the common response form
 
-A useful construction chart separates the canonically normalized global scale direction from physical nonconstant differentiations in the observational descent:
+If [[program-core/common-response-matrix|the common response form]] contains homogeneous, observational, mixed, and hidden blocks, a successful localization may return the corresponding matrix of measures or Radon--Nikodym densities. Every scalar block must use one declared evaluation policy, or else the localized blocks are not contractions of one form. The construction must also prove that evaluation and localization commute or retain the center-valued measure until evaluation.
 
-$$
-H_\Sigma^{\mathrm{candidate}}
-\simeq
-\mathbb R v_N
-\oplus
-\left(C^\infty(\Sigma)/\mathbb R\right)_{\mathrm{phys}}.
-$$
+Localization does not perform a Fourier covariance-to-precision map. A three-dimensional spectral precision changes carrier and measure and belongs to CWST's W2 consumer; it is not the localized observational block merely because both are quadratic. A spatial kernel normalized per volume can have units \(L^{-3}\), whereas \(\boldsymbol\chi\) has units \(L^{-2}\). An integration, boundary map, or soldering theorem must account for the mismatch.
 
-The second summand does not assert that the sub-observable algebra is a fundamentally lumpy spatial object. Under [[program-core/contextual-descent-from-homogeneity|contextual descent]], it may instead parameterize how one homogeneous algebraic datum becomes distinguishable through nonconstant readout modes. The subscript is essential: gauge, constraint, boundary, and null directions must be removed, so the displayed decomposition is a schematic chart rather than a canonical splitting. In such a chart the global response has the operator-block form
-
-$$
-g^{\mathrm{BKM}}
-\simeq
-\begin{pmatrix}
-G^\perp_{NN} & G_{N\zeta}\\
-G_{\zeta N} & G_{\zeta\zeta}
-\end{pmatrix},
-$$
-
-and the localized object has the corresponding matrix of measures or densities. The off-diagonal blocks test mixing; they are not presumed to vanish. Every scalar block in this display must use one common declared central-evaluation policy; keeping different sector laws in different blocks would destroy the claim that they are contractions of one response form.
-
-[[program-core/common-response-matrix|The common-response construction]] refines this display as a pullback BKM or descent-cost Hessian and includes hidden or constrained modes before physical reduction. The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the global contraction and the abstract nonconstant block. A three-dimensional Fourier precision is a further representation, not part of that block merely by notation. Only after a three-dimensional carrier has been constructed may a consumer seek a map
-
-$$
-G_{\zeta\zeta}
-\xrightarrow{\;\mathfrak B\;}
-\mathcal K_\zeta,
-\qquad
-\langle f,\mathcal K_\zeta f\rangle
-:=
-\int\frac{\mathrm d^3k}{(2\pi)^3}
-\mathcal K_\zeta(k)|f_{\mathbf k}|^2.
-$$
-
-The core supplies no \(\mathfrak B\). [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|CWST's state-to-spatial-precision conjecture]] owns the carrier-changing transfer, while [[causal-wall-spectral-theory/conjectures/homogeneous-inhomogeneous-common-geometry|the CWST common-matrix note]] states the consumer-specific claim that the homogeneous and spectral returns descend from this one core geometry. If the pulse coefficient and \(\mathcal K_\zeta\) are supplied by independent ansätze or separately fitted normalizations, they have not been shown to be representations of one response.
-
-The homogeneous areal modulus must also remain distinct from any spectral response density carried by a three-dimensional measure. For example, a kernel \(\mathcal K_\zeta\) normalized per volume has units \(L^{-3}\), not \(L^{-2}\). Relating such a spectral object to \(\boldsymbol\chi\) requires an explicit integration, boundary map, or soldering theorem; similarity of interpretation does not repair the dimensional mismatch.
-
-## Binary geometry is a reduced shape, not the modulus
-
-For a granted balanced binary family,
-
-$$
-g^{\mathrm{bin}}_{\theta\theta}
-=\operatorname{sech}^2\theta
-$$
-
-is an exact normalized shape. A physical wall norm has an extensive factor and a physical tangent normalization:
-
-$$
-G^{\perp}_{NN}(N)
-=C_\perp(N)
-\left(\frac{\mathrm d\theta}{\mathrm dN}\right)^2
-\operatorname{sech}^2\theta.
-$$
-
-The binary algebra determines neither \(C_\perp\) nor the number of channels per square metre. Replicating a channel changes the extensive norm while preserving its normalized Casimir. This is the missing dimensional content identified by [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the capacity no-go results]].
+A normalized one-channel response shape likewise cannot fix the areal measure, its extensive normalization, or the number of channels per area. [[causal-scale-theory/response-family-interface|The CST response-family interface]] owns member shapes, [[causal-scale-theory/open-questions/extensive-channel-normalization|the extensive-factor problem]] owns the missing multiplicity, and [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the capacity no-go results]] explain why replication defeats a derivation from normalized algebra alone.
 
 ## Response does not form facts
 
 The BKM form compares neighboring states; it does not select an outcome or prove that a lost distinction has become geometry. [[program-core/response-registers|The response register]] owns the distinction among state response, areal modulus, spatial precision, and gravitational response. [[program-core/operation-registers|The operation register]] separately types quotient, readout, factual selection, and record extension, while [[program-core/ontological-registers|the ontological register]] keeps state, fact, and record distinct. Localization and continuum completion remain open here; fact formation remains open in the factive branch.
+
+## Failure conditions
+
+- If the input blocks do not live on one transported physical tangent, there is no common form to localize.
+- If no positive countably additive diagonal measure recovers the global response, localization fails.
+- If the response measure is not absolutely continuous with respect to the independently normalized area measure, the displayed areal modulus does not exist; a singular decomposition may be required instead.
+- If area normalization imports the gravitational coefficient being explained, the modulus comparison is circular.
+- If central evaluation and localization are silently interchanged without center-linearity, the scalar density is ambiguous.
+- If a localized response is called spatial precision, gravitational response, or a fact without the corresponding consumer map, the failure is one of typing rather than calculation.

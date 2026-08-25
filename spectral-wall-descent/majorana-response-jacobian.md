@@ -134,7 +134,7 @@ $$
 G^{\mathrm{BKM}}_R(X,Y),
 $$
 
-pass it through the noninvertible wall, and then prove that the observable Jacobian above is the consumer map of the retained and geometric response blocks. Until that is done, the Majorana calculation is a downstream common-source theorem rather than the common response matrix itself.
+pass it through the noninvertible wall, and then prove that the observable Jacobian above is the consumer map of the retained and geometric response blocks. Until that is done, the Majorana calculation is a downstream common-source theorem rather than the common response form itself.
 
 ## Failure conditions
 

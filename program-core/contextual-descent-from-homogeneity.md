@@ -124,6 +124,27 @@ $$
 
 Consequently, observable differentiation requires a nontrivial relational datum: a non-invariant state, a Dirac or modular generator not removed by the quotient, inequivalent contexts, boundary or holonomy data, a nonrecoverable readout, or factual pointing. The algebra may remain homogeneous, but the full tuple cannot be structureless.
 
+### A finite moving-context witness
+
+Let \(\mathcal M=M_n(\mathbb C)\), let \(\rho\) be faithful, and let a commutative readout be a moving projective measurement
+
+$$
+P_i(\lambda)=U_\lambda P_iU_\lambda^*,
+\qquad
+p_i(\lambda)=\operatorname{Tr}(\rho P_i(\lambda)).
+$$
+
+The descended probability family has the classical Fisher response
+
+$$
+\boxed{
+G_{IJ}
+=\sum_i
+\frac{\partial_Ip_i\,\partial_Jp_i}{p_i}.}
+$$
+
+If \(\rho=\mathbf1/n\), then \(p_i=1/n\) for every unitarily related projective context, so \(G_{IJ}=0\). This finite calculation is an exact witness of the lemma: one fixed homogeneous algebra plus symmetry-equivalent presentations does not suffice. A non-invariant state, nontrivial generator, inequivalent context, boundary, holonomy, nonrecoverable readout, or factual pointing must enter somewhere in the tuple.
+
 ## What Connes supplies as precedent
 
 [[library/ncg-standard-model-neutrino-mixing/entry|Connes' finite geometry]] has metric dimension zero and KO-dimension six. Its algebra is represented on a finite Hilbert space, while its finite Dirac operator carries Yukawa, mixing, and Majorana data. Inner fluctuations

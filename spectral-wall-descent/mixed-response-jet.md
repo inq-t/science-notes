@@ -1,6 +1,6 @@
 # A Finite Mixed-Response Jet
 
-A three-level exponential family exactly realizes the symmetry pattern proposed for the common response matrix: the homogeneous and observational directions are orthogonal at the symmetric reference, so \(G_{N\zeta}=0\), while the first scale derivative of observational response is nonzero. The resulting value \(\mathcal C_{N\zeta\zeta}=1/(2\sqrt2)\) is a nonseparable coupling witness within this declared one-potential model, calculated rather than fitted sector by sector.
+A three-level exponential family exactly realizes the symmetry pattern proposed for the common response form: the homogeneous and observational directions are orthogonal at the symmetric reference, so \(G_{N\zeta}=0\), while the first scale derivative of observational response is nonzero. The resulting value \(\mathcal C_{N\zeta\zeta}=1/(2\sqrt2)\) is a nonseparable coupling witness within this declared one-potential model, calculated rather than fitted sector by sector.
 
 ## The family
 

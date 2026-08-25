@@ -4,7 +4,7 @@ The spectral realization is the proposed middle layer between a causal-wall stat
 
 ## The response that must be constructed
 
-Suppose a wall realization returns the center-resolved mean-zero observational package of [[program-core/common-response-matrix|the common response matrix]] and that the W2 member has declared a central-resolution policy \(\mathsf p\):
+Suppose a wall realization returns the center-resolved mean-zero observational package of [[program-core/common-response-matrix|the common response form]] and that the W2 member has declared a central-resolution policy \(\mathsf p\):
 
 $$
 \mathfrak G^Z_{\zeta\zeta}

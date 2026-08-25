@@ -261,7 +261,7 @@ For the positive operator \(A=\sqrt{-\Delta}\), one has \(|A|^{-3}=A^{-3}\), wit
 - the choice of \(A\) or proof of spatial dimension three;
 - the covariance interpretation of \(T_{\alpha,m}\);
 - the Legendre-1PI construction; or
-- the normalization that relates the result to the common response matrix.
+- the normalization that relates the result to the common response form.
 
 Thus the valid prospective factorization is not \(G^{\mathrm{BKM}}=T_{\alpha,m}^{-1}\), but a longer construction in which the heat multiplier acts on an already constructed spatial carrier. The exact theorem constrains a candidate W2 member; it does not close W2.
 

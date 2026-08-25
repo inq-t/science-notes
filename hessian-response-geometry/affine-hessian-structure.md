@@ -38,7 +38,7 @@ $$
 
 The result is **[EXACT LOCAL DIFFERENTIAL GEOMETRY]**. A single numerical equality of selected mixed derivatives does not prove it for all indices or throughout a neighborhood.
 
-## Application to the common response matrix
+## Application to the common response form
 
 Let \(\lambda^I=(N,\zeta^a,h^r)\) be affine response coordinates. If
 

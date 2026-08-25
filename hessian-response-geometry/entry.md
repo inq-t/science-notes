@@ -1,27 +1,10 @@
-# The Common Response Matrix as Hessian Geometry
+# Hessian Structure on a Common Response Form
 
-After central evaluation, or sector by sector before it, the common response matrix becomes a Hessian geometry when one flat affine response manifold and one potential generate all of its homogeneous, observational, hidden, and mixed blocks. In a finite quantum exponential family that Hessian is the pullback of the Bogoliubov--Kubo--Mori metric, but neither Hessianity nor BKM uniqueness follows from the word *response*: the affine connection, state family, monotonicity class, and dual connections must be constructed. The tangent bundle of a real Hessian manifold then has a natural complexification with a canonical conjugation, providing a rigorous response-space model of \(6\to3\) without deriving physical three-space.
+After a declared scalar evaluation, or within one normalized sector, a common response form becomes a Hessian geometry when one flat affine response manifold and one potential generate all of its homogeneous, observational, hidden, and mixed blocks. Calling the center-valued density itself Hessian would require a separately defined center-valued affine structure. In a finite quantum exponential family the scalar Hessian is the pullback of the Bogoliubov--Kubo--Mori metric, but neither Hessianity nor BKM uniqueness follows from the word *response*. The tangent bundle of a real Hessian manifold then has a natural complexification with a canonical conjugation, providing a rigorous response-space model of \(6\to3\) without deriving physical three-space.
 
-## The sectorwise identification
+## The scalar or sectorwise input
 
-The canonical W1 datum is generally the package
-
-$$
-\mathfrak G^Z
-=
-(Z,\mathbf G^Z,\omega^Z),
-$$
-
-where [[program-core/center-valued-response|center-valued response and scalarization]] owns the split
-
-$$
-\mathbf G^Z
-=
-\mathbf F^Z
-+\mathbf G^{Z,\mathrm{int}}
-$$
-
-between central-score Fisher density and internal sector BKM density. Normal evaluation by the central law \(\omega^Z=\varphi|_Z\) inherited from the whole state gives the unconditioned numerical metric; it does not select a fact. A conditional sector theorem instead uses the normalized internal metric \(G^{(\alpha),\mathrm{int}}\). Evaluating the joint density by a character also retains the sector's central-score term, so it is not the same operation, and neither operation makes \(\alpha\) actual without an instrument and outcome.
+[[program-core/center-valued-response|Center-valued response and scalarization]] owns the W1 package, its central-score Fisher term, its internal sector metrics, and the distinction among normal evaluation, sectorwise reasoning, and character evaluation. An ordinary real Hessian manifold begins only after one scalar policy \(G^{\mathsf p}\) has been declared or one normalized sector metric \(G^{(\alpha),\mathrm{int}}\) has been selected for a conditional theorem. Calling \(\mathbf G^Z\) itself a Hessian metric requires a separately defined center-valued affine connection and potential.
 
 Fix one sector \(\alpha\), let \(U\subset\mathfrak D_{\mathrm{phys}}^{(\alpha)}\) be a finite-dimensional smooth affine neighborhood with flat torsion-free connection \(\nabla\), and suppose a strictly convex potential
 
@@ -47,9 +30,17 @@ G^{(\alpha),\mathrm{int}}_{IJ}
 =\partial_I\partial_J\partial_K\Psi_\alpha.
 $$
 
-Averaging the sectors with fixed central weights gives another scalar metric, but it is Hessian with potential \(\sum_\alpha q_\alpha\Psi_\alpha\) only when those weights and the affine identification do not vary. A single potential and common normalization across all sectors are therefore additional cross-sector laws.
+With fixed central weights and one affine identification, averaging the sector potentials gives the scalar Hessian \(\nabla\mathrm d(\sum_\alpha q_\alpha\Psi_\alpha)\). When the weights vary, the normal whole-state response is instead
 
-Thus the mixed response relation already used by [[program-core/common-response-matrix|the common response matrix]],
+$$
+G^{\mathrm{whole}}
+=I^{\mathrm F}[q]
++\sum_\alpha q_\alpha G^{(\alpha),\mathrm{int}},
+$$
+
+and it cannot be replaced by the weighted internal sum. Showing that this full joint metric is Hessian requires a common affine model for the central law and the conditional states, not merely sectorwise potentials.
+
+Thus the mixed response relation already used by [[program-core/common-response-matrix|the common response form]],
 
 $$
 \mathcal C^{(\alpha),\mathrm{int}}_{N\zeta\zeta}
@@ -110,6 +101,15 @@ $$
 $$
 
 Thus a nonlinear modular Hamiltonian contributes an acceleration term, and the raw log-partition Hessian need not be the positive BKM pullback in those coordinates.
+
+A programme-specific **[OPEN ANSATZ]** is one represented modular or Dirac-derived family
+
+$$
+K(N,\zeta,h)
+=K_0+NQ_N+\sum_a\zeta^aQ_a^{\mathrm{obs}}+Q_F(h)
+$$
+
+whose faithful Gibbs states and readout maps supply all CRM blocks at once. Inner fluctuations can provide algebraic metric deformations while preserving an underlying representation class, but a completely positive readout, transport, quotient, and continuum normalization still have to be built. The spectral-action Hessian must not be identified with the positive BKM pullback merely because both depend on the same Dirac family.
 
 There is a genuine BKM selection theorem, but it has stronger hypotheses than “dually flat plus monotone.” [[bkm-selection-theorem|The qualified Grasselli--Streater theorem]] explains that on the full finite-dimensional faithful-state manifold, a monotone metric for which the particular exponential and mixture connections are mutually dual is a constant multiple of BKM. A selected CRM submanifold or quotient does not inherit this uniqueness automatically.
 

@@ -159,7 +159,7 @@ $$
 \left\{\zeta:\sum_i\zeta_i=0\right\}.
 $$
 
-This is an algebraic skeleton for the homogeneous and mean-zero observational sectors of the common response matrix. It does not provide their BKM metric, continuum carrier, or gravity map.
+This is an algebraic skeleton for the homogeneous and mean-zero observational sectors of the common response form. It does not provide their BKM metric, continuum carrier, or gravity map.
 
 The expectation \(E:\mathcal A\to\mathcal B\) and the inclusion \(i:\mathcal B\hookrightarrow\mathcal A\) perform different jobs. The expectation supplies entropy and BKM loss. The inclusion supplies relative \(K\)-theory. A completely positive kernel is generally not an ideal, so it must not be inserted into a six-term exact sequence as though it came from a \(C^*\)-quotient.
 

@@ -29,7 +29,7 @@ Changing one of these fields changes the response question even when the display
 | probability or 1PI precision | inverse covariance or effective-action Hessian on a declared nondegenerate physical domain | [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier covariance and precision]] |
 | spectral multiplier or filter | functional-calculus operator with no automatic covariance or response interpretation | [[lorentzian-spectral-envelope/entry|heat mixtures and Cauchy envelopes]] |
 | center-valued response package | the central response density together with the inherited normal central law, before a consumer policy | [[program-core/center-valued-response|center-valued response and scalarization]] |
-| common response form | the homogeneous, mean-zero observational, mixed, and hidden blocks on one physical tangent construction | [[program-core/common-response-matrix|the common response matrix]] |
+| common response form | the homogeneous, declared non-singlet observational, mixed, and hidden blocks on one physical tangent construction | [[program-core/common-response-matrix|the common response form]] |
 | localized areal response | a measure-valued BKM form and its Radon--Nikodym density against independently normalized area | [[program-core/descent-response-geometry|descent-response geometry]] |
 | spatial precision | a three-dimensional inverse-covariance target on a constructed spatial carrier | [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|the scalar W2 conjecture]] |
 | gravitational canonical energy | a quadratic form on physical gravitational perturbations in a declared covariant phase space | [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] |

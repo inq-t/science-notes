@@ -1,6 +1,6 @@
 # Conditional Expectation, Lost Distinction, and Gained Entropy
 
-A trace- or state-preserving conditional expectation supplies the first exact wall-crossing law matching the proposed ontology. It is nonunitary, idempotent, and genuinely forgetful. In the finite tracial model, the entropy gained after the wall is exactly the relative distinguishability lost to the chosen observable subalgebra, and its coincidence Hessian is the missing positive block of the common response matrix.
+A trace- or state-preserving conditional expectation supplies the first exact wall-crossing law matching the proposed ontology. It is nonunitary, idempotent, and genuinely forgetful. In the finite tracial model, the entropy gained after the wall is exactly the relative distinguishability lost to the chosen observable subalgebra, and its coincidence Hessian is the missing positive block of the common response form.
 
 ## The finite tracial theorem
 
@@ -118,6 +118,29 @@ G^{\mathrm{pre}}_{IJ}
 $$
 
 This is the exact quadratic balance sought by [[program-core/common-response-matrix|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state.
+
+## Nested expectations and scale towers
+
+Let
+
+$$
+\mathcal M_0\supseteq\mathcal M_1\supseteq\mathcal M_2
+$$
+
+and let \(E_1:\mathcal M_0\to\mathcal M_1\) and \(E_2:\mathcal M_1\to\mathcal M_2\) extend to orthogonal projections for the same BKM inner product at one faithful reference fixed by both expectations. Writing \(E_{20}:=E_2E_1\), the two projection defects are orthogonal and give the **[EXACT NESTED PYTHAGOREAN IDENTITY]**
+
+$$
+\boxed{
+\|X-E_{20}X\|_{\mathrm{BKM}}^2
+=
+\|X-E_1X\|_{\mathrm{BKM}}^2
++
+\|E_1X-E_2E_1X\|_{\mathrm{BKM}}^2.}
+$$
+
+Thus lost quadratic distinction can add across a scale tower without being a conserved substance or a unitary environment. The common reference and common BKM projection structure are load bearing; two unrelated state-preserving expectations do not supply the identity by notation alone.
+
+For a nontrivial center, a center-valued version requires coherently identified centers and sector-preserving expectations whose extensions satisfy these hypotheses in every sector. A scalar equality does not automatically lift to central order, and changing sector weights contributes the separate central Fisher term owned by [[program-core/center-valued-response|center-valued response and scalarization]].
 
 ## Equivariance through a family of broken contexts
 

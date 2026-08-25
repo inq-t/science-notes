@@ -1,6 +1,6 @@
-# CWST and the Common Response Matrix
+# CWST as a Consumer of the Common Response Form
 
-CWST conjectures that its nonconstant observational response is the mean-zero block of [[program-core/common-response-matrix|the common response matrix]], not evidence that the sub-observable algebra is itself a lumpy space. CST consumes the global scale contraction of that matrix; CWST consumes a carrier-changing representation of its observational block. Their strongest common-origin test is likely the scale variation of the spectral block rather than a nonzero quadratic mixed entry at an exactly homogeneous reference.
+CWST conjectures that its nonconstant observational response is the mean-zero block of [[program-core/common-response-matrix|the common response form]], not evidence that the sub-observable algebra is itself a lumpy space. CST consumes the global scale contraction of that form; CWST consumes a carrier-changing representation of its observational block. Their strongest common-origin test is likely the scale variation of the spectral block rather than a nonzero quadratic mixed entry at an exactly homogeneous reference.
 
 ## Imported common construction
 
@@ -67,7 +67,7 @@ CWST must say whether \(\mathfrak B\) acts before or after that reduction and pr
 
 ## Homogeneity predicts a vanishing cross block
 
-All scalar blocks in this section use one common declared policy \(\mathsf p\); applying different sector laws to different blocks would destroy the common-matrix claim.
+All scalar blocks in this section use one common declared policy \(\mathsf p\); applying different sector laws to different blocks would destroy the common-form claim.
 
 At an exactly homogeneous and isotropic reference, \(v_N\) is a singlet while \(H_{\mathrm{obs},0}\) has no constant mode. If the response form is invariant, then
 

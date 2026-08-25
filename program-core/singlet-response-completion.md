@@ -1,10 +1,10 @@
 # The Singlet Response-Completion Test
 
-A single positive hidden scalar can repair exactly one positive rank-one mismatch between the common response matrix and a universal gravitational response. This is the precise algebraic content behind the suggestion that the extra singlet in twisted spectral geometry may complete a missing coupling relation. The criterion is necessary and sufficient for a fixed target; it also gives a clean falsifier when the mismatch has higher rank or the wrong sign.
+A single positive hidden scalar can repair exactly one positive rank-one mismatch between a scalarized coordinate matrix of the common response form and a universal gravitational response. This is the precise algebraic content behind the suggestion that the extra singlet in twisted spectral geometry may complete a missing coupling relation. The criterion is necessary and sufficient for a fixed target; it also gives a clean falsifier when the mismatch has higher rank or the wrong sign.
 
 ## Universal response is an eigenvalue condition
 
-Let \(W=W^T\) be the real symmetric physical common-response matrix on a finite-dimensional, nondegenerate gauge-quotiented tangent sector, and let \(K=K^T>0\) be a unit-normalized gravitational canonical-energy matrix pulled back to that same sector. A universal coupling means
+Let \(W=W^T\) be a declared scalarized coordinate matrix of the physical common response form on a finite-dimensional, nondegenerate gauge-quotiented tangent sector, and let \(K=K^T>0\) be a unit-normalized gravitational canonical-energy matrix pulled back to that same sector. A universal coupling means
 
 $$
 \boxed{W=Z_gK}

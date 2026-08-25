@@ -14,6 +14,8 @@ $$
 
 with the central projections coherently identified over the parameter neighborhood. A faithful whole state \(\varphi_\lambda\) supplies, rather than merely permits, a normal probability law on this center:
 
+Here \(\mathcal M_\lambda\) denotes the carrier algebra on which \(\varphi_\lambda\) is defined. If \(\varphi_\lambda=\omega_\lambda\circ j_\lambda\) for a readout \(j_\lambda:\mathcal B_\lambda\to\mathcal A_\lambda\), then \(\mathcal M_\lambda=\mathcal B_\lambda\); replacing its center by \(Z(\mathcal A_\lambda)\) requires a separately constructed center-preserving identification.
+
 $$
 q_\alpha(\lambda)
 :=\varphi_\lambda(P_\alpha)>0,
@@ -158,10 +160,10 @@ An alternative normal central state is additional member data, not a normalizati
 
    which is not the normalized conditional metric in item 3 when the central law varies. A character represents an actual sector only when a declared instrument returns \(\beta\) as an outcome and compatible records support that interpretation; the post-outcome response must then be calculated from the instrument's conditional state. A bare character is neither conditionalization nor a fact. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent and records]] owns the stronger construction.
 
-For a diffuse center, the sums become direct integrals. Point characters may then be nonnormal and cannot be inserted into the von Neumann-state construction as normal states. Any consumer must also state whether its carrier-changing map acts center-linearly before evaluation or acts on a declared scalar or sectorwise input afterward; these orders are not equal by notation alone.
+For a diffuse center, the sums become direct integrals. Point characters may then be nonnormal and cannot be inserted into the von Neumann-state construction as normal states. Any consumer must also state whether localization or another carrier-changing map acts center-linearly before evaluation or acts on a declared scalar or sectorwise input afterward; these orders are not equal by notation alone.
 
 ## Ownership boundary
 
-[[program-core/common-response-matrix|The common response matrix]] owns how the homogeneous, mean-zero observational, mixed, and hidden blocks belong to one response geometry. This note owns only their central resolution and evaluation. CST and CWST may choose an evaluation policy, but they must link here rather than reconstructing the Fisher decomposition or treating an unannounced character as a physical outcome.
+[[program-core/common-response-matrix|The common response form]] owns how the homogeneous, mean-zero observational, mixed, and hidden blocks belong to one response geometry. This note owns only their central resolution and evaluation. CST and CWST may choose an evaluation policy, but they must link here rather than reconstructing the Fisher decomposition or treating an unannounced character as a physical outcome.
 
 The primary operator-algebraic sources for relative-entropy Hessians and BKM geometry are maintained in [[hessian-response-geometry/sources|the Hessian-response source ledger]]. The finite direct-sum formula above follows directly by applying the functional calculus block by block; its use for a continuum center still requires a declared direct-integral measure and regularity hypotheses.

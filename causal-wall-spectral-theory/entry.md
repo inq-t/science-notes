@@ -29,7 +29,7 @@ $$
 (Z,\mathbf G^Z_{\zeta\zeta},\omega^Z).
 $$
 
-Together with the global scale direction, this block belongs to [[program-core/common-response-matrix|the common response matrix]]. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term and the distinction among normal unconditioned evaluation, normalized internal sector geometry, algebraic character evaluation, and an actual instrument outcome. Homogeneity may force the quadratic mixed block \(G_{N\zeta}\) to vanish after a common evaluation policy has been declared; the first common-origin witness can instead be \(\nabla_NG_{\zeta\zeta}\), the scale variation of the nonconstant response. For each regular scalar family on one carrier, [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the symmetrized-relative-entropy theorem]] gives
+Together with the global scale direction, this block belongs to [[program-core/common-response-matrix|the common response form]]. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term and the distinction among normal unconditioned evaluation, normalized internal sector geometry, algebraic character evaluation, and an actual instrument outcome. Homogeneity may force the quadratic mixed block \(G_{N\zeta}\) to vanish after a common evaluation policy has been declared; the first common-origin witness can instead be \(\nabla_NG_{\zeta\zeta}\), the scale variation of the nonconstant response. For each regular scalar family on one carrier, [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the symmetrized-relative-entropy theorem]] gives
 
 $$
 \operatorname{Hess}_0

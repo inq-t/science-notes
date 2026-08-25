@@ -137,7 +137,7 @@ $$
 \operatorname{Tr}(L/\mu^2)^{-s}.
 $$
 
-Its regulated heat-kernel expansion produces local terms organized by Seeley--DeWitt coefficients. An Einstein coefficient can therefore descend from the same hidden operator that supplies the common response matrix, conditional on the field content, regulator, gauge quotient, and background dependence actually agreeing.
+Its regulated heat-kernel expansion produces local terms organized by Seeley--DeWitt coefficients. An Einstein coefficient can therefore descend from the same hidden operator that supplies the common response form, conditional on the field content, regulator, gauge quotient, and background dependence actually agreeing.
 
 This does not yet derive \(G\):
 

@@ -137,30 +137,7 @@ For constant \(v\), its magnitude is largest at long wavelength. More generally,
 
 ## The determinant companion
 
-The Schur complement is only the noncentral output of eliminating \(h\). For an invertible hidden block,
-
-$$
-\det
-\begin{pmatrix}
-G&B\\
-B^*&L
-\end{pmatrix}
-=\det L\,\det(G-BL^{-1}B^*).
-$$
-
-For a constant finite real bosonic block, Gaussian integration contributes the retained response correction while \(\tfrac12\log\det L\) is only an additive normalization. If \(L=L[\bar x,g,\ldots]\) depends on retained backgrounds, its regulated determinant can instead generate cosmological, Einstein, and higher-curvature coefficients. For an affine classical positive Gaussian family, the negative log partition term has Hessian
-
-$$
-\partial_I\partial_J
-\left[-\frac12\log\det L\right]
-=\frac12\operatorname{Tr}
-\left(
-L^{-1}\partial_IL
-L^{-1}\partial_JL
-\right),
-$$
-
-the classical Fisher metric, equivalently commutative BKM. The real bosonic effective action contains \(+\tfrac12\log\det L\), whose affine Hessian has the opposite sign. [[spectral-wall-descent/response-determinant|The response--determinant note]] develops this finite same-operator bridge and the unresolved regulator normalization.
+Eliminating an invertible hidden block also produces a determinant. [[spectral-wall-descent/response-determinant|The response--determinant note]] owns its block factorization, the finite Gaussian Fisher identity, the effective-action sign difference, and the unresolved regulator normalization. This module retains only the resolvent correction and its three possible observable interpretations.
 
 ## The same grammar is the seesaw
 

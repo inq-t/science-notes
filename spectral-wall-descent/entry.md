@@ -143,7 +143,7 @@ The finite and spectral calculations establish the following useful facts.
    \cong A_{n-1}.
    $$
 
-   Its real span is the decomposition into the homogeneous direction and mean-zero observational distinctions used by [[program-core/common-response-matrix|the common response matrix]].
+   Its real span is the decomposition into the homogeneous direction and mean-zero observational distinctions used by [[program-core/common-response-matrix|the common response form]].
 
 2. A two-level finite spectral triple makes the wall BKM cost a positive norm of a Dirac commutator. Its bulk spectral action remains constant along conjugacy orbits while its fixed-context entropy defect changes. [[spectral-wall-descent/finite-spectral-wall|The finite spectral wall]] gives the formulas and reproducible receipt.
 
