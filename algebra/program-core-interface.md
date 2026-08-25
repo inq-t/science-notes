@@ -43,17 +43,11 @@ $$
 
 This is a coherent constitutive law on an imported geometry. It becomes a derivation of geometry only after an independent algebraic scale object and a theorem identify its realized parameter with Weyl scale. Likewise, dividing a BKM measure by area produces an inverse-area modulus because area was supplied; it does not derive area or dimension from BKM geometry.
 
-## Five operations currently called descent
+## Name the operation
 
-| Operation | Correct mathematical role |
-|---|---|
-| compatible local objects and cocycles | strict descent or gluing |
-| removal of distinctions by a state-preserving conditional expectation, when its range and modular hypotheses hold; otherwise by a CP map | conditional expectation or coarse-graining |
-| presentation to a commutative observable algebra | contextual readout |
-| selection of an obtained value | factual instrument or pointing |
-| persistence of obtained values | record extension |
+[[program-core/operation-registers|The operation register]] is the canonical ledger for arrows formerly compressed into the word *descent*: gluing, strict descent, physical or categorical quotient, conditional expectation, contextual readout, factual pointing, and record extension have different data and return values. Historical module names may retain the older word, but canonical claims should name the actual arrow. In particular, strict descent supplies coherent comparison and effectivity; it does not produce entropy, time, or facthood.
 
-The word *descent* may remain in historical module names, but canonical claims should name the actual operation. Strict descent is reversible comparison plus effectivity; it does not produce entropy, time, or facthood. [[program-core/contextual-descent-from-homogeneity|Contextual realization from homogeneity]] is a promising branch once its readout family is typed, but differentiation resides in the state, representation, Dirac data, context, boundary, or pointing—not in a structureless homogeneous algebra.
+[[program-core/contextual-descent-from-homogeneity|Contextual realization from homogeneity]] is a promising branch once its readout family is typed, but differentiation resides in the state, representation, Dirac data, context, boundary, or pointing—not in a structureless homogeneous algebra.
 
 ## What remains load-bearing
 

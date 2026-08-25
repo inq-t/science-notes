@@ -207,16 +207,6 @@ $$
 
 The binary algebra determines neither \(C_\perp\) nor the number of channels per square metre. Replicating a channel changes the extensive norm while preserving its normalized Casimir. This is the missing dimensional content identified by [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the capacity no-go results]].
 
-## Susceptibility is not fact formation
+## Response does not form facts
 
-The BKM form compares neighboring states. It does not select an outcome, prove that a fact occurs, or show that a lost distinction has become geometry. The proposed causal-individuation architecture therefore has three separately typed layers:
-
-$$
-\text{physical quotient}
-\longrightarrow
-\text{response geometry}
-\dashrightarrow
-\text{facts and records}.
-$$
-
-The quotient and response nodes both have partial construction targets with standard mathematical ingredients; the localization and continuum completion are not yet supplied. The solid arrow names that response construction. The dashed response-to-fact arrow is the separate, philosophically motivated factive step and remains mathematically open.
+The BKM form compares neighboring states; it does not select an outcome or prove that a lost distinction has become geometry. [[program-core/response-registers|The response register]] owns the distinction among state response, areal modulus, spatial precision, and gravitational response. [[program-core/operation-registers|The operation register]] separately types quotient, readout, factual selection, and record extension, while [[program-core/ontological-registers|the ontological register]] keeps state, fact, and record distinct. Localization and continuum completion remain open here; fact formation remains open in the factive branch.

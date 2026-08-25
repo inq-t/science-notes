@@ -76,7 +76,7 @@ $$
 \mathcal I_\zeta(k):=\Delta_\zeta^{-2}(k)
 $$
 
-is spectral precision per logarithmic mode in this convention. It is not automatically BKM distinguishability, entropy, a channel capacity, a Noether charge, or a scalar stock of information.
+is spectral precision per logarithmic mode in this convention. [[program-core/response-registers|The response register]] owns why this is not automatically BKM distinguishability, a channel capacity, gravitational canonical energy, or another quadratic response; [[program-core/ontological-registers|the ontological register]] separately keeps it distinct from entropy, charge, and an untyped scalar stock of information.
 
 ## Contact and analytic qualifications
 

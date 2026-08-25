@@ -36,7 +36,7 @@ The core vocabulary assigns different mathematical types to ground, presentation
 | Entropy | state-, algebra-, and prescription-dependent functional | thermodynamic or informational accounting, with units through \(k_B\) |
 | Energy | generator or charge relative to a chosen flow | not a substance independent of the flow that types it |
 
-The specialist account of time, state, and fact is [[cosmodynamics/registers-and-type-discipline|the cosmodynamic register discipline]]. The present table is the programme-wide declaration to which other modules should conform.
+The specialist account of time, state, and fact is [[cosmodynamics/registers-and-type-discipline|the cosmodynamic register discipline]]. The present table owns the programme's nouns and types; [[program-core/operation-registers|operations between registers]] own its arrows, while [[program-core/response-registers|response registers]] own the distinctions among quadratic response, covariance, precision, and their carrier changes.
 
 **Causal individuation** names the whole ordered construction
 

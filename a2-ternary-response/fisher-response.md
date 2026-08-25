@@ -118,14 +118,11 @@ $$
 
 The equality is not a declaration that every quantum Fisher metric is BKM. Noncommuting quantum state space admits a family of monotone metrics; additional hypotheses select BKM. [[basic-concepts/hessians/entry|The Hessian account]] owns that wider distinction.
 
-## Four nearby notions that must remain distinct
+## Nearby response registers
 
-- **Fisher response:** local distinguishability within a parameterized statistical family.
-- **Static susceptibility:** the derivative of an expectation with respect to a conjugate source; it equals Fisher response for the exponential family above.
-- **Kubo real-time response:** a causal or frequency-dependent response involving dynamical correlation functions and a time prescription. The static finite calculation supplies no such prescription.
-- **Spatial precision:** an inverse covariance or probability-1PI kernel on a spatial carrier. Producing it from BKM response is the open [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|W2 map]].
+For the exponential family above, Fisher response equals static susceptibility and, because the family commutes, BKM response. It is neither a Kubo real-time response, which needs dynamics and a causal prescription, nor a spatial precision, whose construction is the open CWST W2 map. [[program-core/response-registers|The response register]] owns the wider comparison so that it need not be repeated in each finite model.
 
-Nor is Fisher information a quantity of hidden facts stored in a state. It is a bilinear response of a specified family under specified variations. Changing the family or tangent changes the question being measured.
+Fisher information is also not a quantity of hidden facts stored in a state. It is a bilinear response of a specified family under specified variations. Changing the family or tangent changes the question being measured.
 
 ## Primary literature
 

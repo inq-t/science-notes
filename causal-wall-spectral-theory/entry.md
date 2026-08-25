@@ -37,7 +37,7 @@ $$
 =2G^{\mathrm{BKM}}
 $$
 
-for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. In a completed continuum member, the BKM, Euclidean-source, spectral, wavefunctional, and probability-1PI kernels would have to be connected by explicitly constructed, state- and prescription-dependent maps.
+for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. [[program-core/response-registers|The response register]] types the BKM, Euclidean-source, spectral, wavefunctional, and probability-1PI kernels; a completed continuum member must connect them by explicitly constructed, state- and prescription-dependent maps.
 
 Let \(G^{\mathsf p}_{\zeta\zeta}\) denote the response returned by a declared normal or normalized-sector policy \(\mathsf p\); a center-linear member may instead keep every later object center-valued. The central scalar CWST proposal is therefore two typed arrows, not one numerical relabeling:
 

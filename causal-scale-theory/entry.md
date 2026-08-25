@@ -43,7 +43,7 @@ g^{\mathrm{bin}}_{\theta\theta}
 m^2+g^{\mathrm{bin}}_{\theta\theta}=1.
 $$
 
-Here \(m\) is polarization and \(g^{\mathrm{bin}}\) is susceptibility. Their Casimir allocation is neither a Noether charge nor a claim that information literally turns into spacetime. The physical assertion is upstream: that the wall construction really returns this sufficient channel and its balanced reference.
+Here \(m\) is polarization and \(g^{\mathrm{bin}}\) is the static Fisher--BKM susceptibility of the granted commuting exponential family. [[program-core/response-registers|The response register]] distinguishes this state-family response from Kubo response, spatial precision, and gravitational response. The Casimir allocation is neither a Noether charge nor a claim that information literally turns into spacetime. The physical assertion is upstream: that the wall construction really returns this sufficient channel and its balanced reference.
 
 Under ratio dependence, rank-one composition, controlled holonomy, and regularity, [[basic-concepts/soldering/affine-scale-state|scale--state soldering]] is affine:
 
