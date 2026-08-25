@@ -1,6 +1,6 @@
 # Construct the State-to-Spectral Representation
 
-The central W2 problem is to construct the operator that carries an inhomogeneous causal-wall BKM response to a positive three-dimensional spatial precision and, when desired, relates it to the continued stress response of holographic cosmology. No existing normalization identity supplies the carrier change, state-dependent response transform, continuation, or probability-1PI construction; the physical-curvature map is the separate W3 problem.
+The central W2 problem is to construct the operator that carries a center-resolved mean-zero causal-wall BKM response to a positive three-dimensional spatial precision and, when desired, relates it to the continued stress response of holographic cosmology. No existing normalization identity supplies the central-resolution policy, carrier change, state-dependent response transform, continuation, or probability-1PI construction; the physical-curvature map is the separate W3 problem.
 
 ## Required return
 
@@ -8,7 +8,7 @@ The construction must provide
 
 $$
 \mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
-G^{\mathrm{BKM}}_{\zeta\zeta}
+S_{\mathsf p}(\mathfrak G^Z_{\zeta\zeta})
 \longmapsto
 \mathcal K^{\zeta}_{\mathrm{wall}}
 $$
@@ -16,7 +16,7 @@ $$
 with:
 
 1. one wall algebra, state family, transport, and physical tangent quotient;
-2. a localized inhomogeneous response block on that carrier;
+2. a localized center-resolved response block and a declared normal unconditioned or normalized internal-sector policy \(\mathsf p\), as typed by [[program-core/center-valued-response|center-valued response and scalarization]];
 3. a map from the cut or observer-region data to a three-dimensional spatial carrier;
 4. the state-dependent relation between BKM and Euclidean source response;
 5. renormalized source operators and contact-term bookkeeping;

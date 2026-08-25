@@ -4,14 +4,26 @@ After central evaluation, or sector by sector before it, the common response mat
 
 ## The sectorwise identification
 
-The canonical CRM is generally center-valued:
+The canonical W1 datum is generally the package
+
+$$
+\mathfrak G^Z
+=
+(Z,\mathbf G^Z,\omega^Z),
+$$
+
+where [[program-core/center-valued-response|center-valued response and scalarization]] owns the split
 
 $$
 \mathbf G^Z
-=\sum_\alpha G^{(\alpha)}P_\alpha.
+=
+\mathbf F^Z
++\mathbf G^{Z,\mathrm{int}}
 $$
 
-A numerical Riemannian metric exists only after applying a normal central state or a factive character, or else by working sectorwise. Fix one sector \(\alpha\), let \(U\subset\mathfrak D_{\mathrm{phys}}^{(\alpha)}\) be a finite-dimensional smooth affine neighborhood with flat torsion-free connection \(\nabla\), and suppose a strictly convex potential
+between central-score Fisher density and internal sector BKM density. Normal evaluation by the central law \(\omega^Z=\varphi|_Z\) inherited from the whole state gives the unconditioned numerical metric; it does not select a fact. A conditional sector theorem instead uses the normalized internal metric \(G^{(\alpha),\mathrm{int}}\). Evaluating the joint density by a character also retains the sector's central-score term, so it is not the same operation, and neither operation makes \(\alpha\) actual without an instrument and outcome.
+
+Fix one sector \(\alpha\), let \(U\subset\mathfrak D_{\mathrm{phys}}^{(\alpha)}\) be a finite-dimensional smooth affine neighborhood with flat torsion-free connection \(\nabla\), and suppose a strictly convex potential
 
 $$
 \Psi_\alpha:U\longrightarrow\mathbb R
@@ -21,17 +33,17 @@ obeys
 
 $$
 \boxed{
-G^{(\alpha)}=\nabla\mathrm d\Psi_\alpha.}
+G^{(\alpha),\mathrm{int}}=\nabla\mathrm d\Psi_\alpha.}
 $$
 
-Then \((U,\nabla,G^{(\alpha)})\) is a Hessian manifold. In affine coordinates \(\lambda^I=(N,\zeta,h)\),
+Then \((U,\nabla,G^{(\alpha),\mathrm{int}})\) is a Hessian manifold. In affine coordinates \(\lambda^I=(N,\zeta,h)\),
 
 $$
-G^{(\alpha)}_{IJ}
+G^{(\alpha),\mathrm{int}}_{IJ}
 =\partial_I\partial_J\Psi_\alpha,
 \qquad
-\mathcal C^{(\alpha)}_{IJK}
-:=(\nabla_I G^{(\alpha)})_{JK}
+\mathcal C^{(\alpha),\mathrm{int}}_{IJK}
+:=(\nabla_I G^{(\alpha),\mathrm{int}})_{JK}
 =\partial_I\partial_J\partial_K\Psi_\alpha.
 $$
 
@@ -40,8 +52,8 @@ Averaging the sectors with fixed central weights gives another scalar metric, bu
 Thus the mixed response relation already used by [[program-core/common-response-matrix|the common response matrix]],
 
 $$
-\mathcal C^{(\alpha)}_{N\zeta\zeta}
-=\partial_NG^{(\alpha)}_{\zeta\zeta},
+\mathcal C^{(\alpha),\mathrm{int}}_{N\zeta\zeta}
+=\partial_NG^{(\alpha),\mathrm{int}}_{\zeta\zeta},
 $$
 
 is one component of the Hessian cubic form. Equality of its permutations is an integrability test: response blocks independently chosen for CST and CWST need not arise from one \(\Psi_\alpha\).
@@ -182,7 +194,7 @@ Those are typed consumer maps. The BKM-to-spatial map remains W2, while the stat
 ## Construction gates
 
 1. Specify the response manifold or stack and its physical tangent quotient.
-2. State whether the construction is sectorwise, centrally averaged, or factively evaluated; prove any common cross-sector normalization.
+2. State whether the Hessian claim concerns the internal conditional metric, the whole-state normal evaluation, or the full center-valued density. Keep algebraic character evaluation distinct from both conditionalization and an instrumentally realized fact, and prove any common cross-sector normalization.
 3. Construct a flat torsion-free connection rather than assuming preferred coordinates.
 4. Exhibit potentials \(\Psi_\alpha\) whose Hessians give every claimed block.
 5. Prove positivity and control the radical after gauge reduction.

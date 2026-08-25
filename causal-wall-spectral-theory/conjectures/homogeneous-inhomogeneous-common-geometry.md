@@ -14,28 +14,28 @@ T\mathfrak D_{\mathrm{phys}}
 \oplus H_{\mathrm{hid}}
 $$
 
-and one positive response
+and one positive center-resolved response package
 
 $$
-\mathbb G
+\mathfrak G^Z
 =
-\begin{pmatrix}
-G_{NN}&G_{N\zeta}&G_{Nh}\\
-G_{\zeta N}&G_{\zeta\zeta}&G_{\zeta h}\\
-G_{hN}&G_{h\zeta}&G_{hh}
-\end{pmatrix}.
+\left(
+Z,
+\mathbf G^Z,
+\omega^Z
+\right).
 $$
 
-The core owns the BKM pullback, the classical--quantum readout model, the symmetry selection rule, the descent-cost realization, hidden-mode reduction, and the distinction among structural class persistence, nonunitary wall loss, observable causal charge, and record time. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
+The core owns the BKM pullback, the symmetry selection rule, the descent-cost realization, hidden-mode reduction, and the distinction among structural class persistence, nonunitary wall loss, observable causal charge, and record time. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term, the internal sector metrics, and their evaluation policies. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
 
-CWST adds no second definition of this matrix. Its obligation begins with the returned physical block \(G_{\zeta\zeta}\).
+CWST adds no second definition of this package. Its obligation begins with the returned physical block \(\mathbf G^Z_{\zeta\zeta}\) and a declared W2 policy \(\mathsf p\), giving either the normal unconditioned metric or a normalized internal sector metric \(G^{\mathsf p}_{\zeta\zeta}\). A center-linear member may instead retain the center through W2.
 
 ## The CWST consumer map
 
 The homogeneous branch uses a cut-integrated norm and, after localization, an areal response density with units \(L^{-2}\). CWST instead seeks a three-dimensional spatial precision with units \(L^{-3}\) in its registered Fourier convention. Consequently,
 
 $$
-G_{\zeta\zeta}
+G^{\mathsf p}_{\zeta\zeta}
 \ne
 \mathcal K_\zeta
 $$
@@ -44,7 +44,7 @@ by notation alone. The consumer-specific claim is
 
 $$
 \boxed{
-G_{\zeta\zeta}
+G^{\mathsf p}_{\zeta\zeta}
 \xrightarrow{\;\mathfrak B\;}
 \mathcal K^\zeta_{\mathrm{wall}}
 \xrightarrow{\;R_{\mathrm s}\;}
@@ -56,14 +56,18 @@ $$
 The hidden sector matters before this map. Eliminating a constructed auxiliary or heavy block can give
 
 $$
-G_{\zeta\zeta}^{\mathrm{eff}}
-=G_{\zeta\zeta}
--G_{\zeta h}G_{hh}^{+}G_{h\zeta}.
+G_{\zeta\zeta}^{\mathsf p,\mathrm{eff}}
+=G_{\zeta\zeta}^{\mathsf p}
+-G_{\zeta h}^{\mathsf p}
+(G_{hh}^{\mathsf p})^{+}
+G_{h\zeta}^{\mathsf p}.
 $$
 
 CWST must say whether \(\mathfrak B\) acts before or after that reduction and prove that the selected order respects constraints, positivity, and covariance.
 
 ## Homogeneity predicts a vanishing cross block
+
+All scalar blocks in this section use one common declared policy \(\mathsf p\); applying different sector laws to different blocks would destroy the common-matrix claim.
 
 At an exactly homogeneous and isotropic reference, \(v_N\) is a singlet while \(H_{\mathrm{obs},0}\) has no constant mode. If the response form is invariant, then
 

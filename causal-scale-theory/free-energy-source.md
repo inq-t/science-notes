@@ -10,7 +10,7 @@ $$
 :=\frac{k_BT_c}{2V_c}G^\perp_{NN}(N),}
 $$
 
-where \(T_c\) and \(V_c\) are crossing data and \(G^\perp_{NN}\) is the full-cut norm of the physical reflection-odd horizontal tangent. The state coordinate is a comparison coordinate unless a covariant field construction proves more; [[wall-construction-interface/state-coordinate-types|the state-coordinate ledger]] owns that distinction.
+where \(T_c\) and \(V_c\) are crossing data and \(G^\perp_{NN}\) is [[causal-scale-theory/scale-capacity|the declared normal unconditioned evaluation]] of the center-valued full-cut response. The source law does not choose a central state or a factive sector for itself. The state coordinate is a comparison coordinate unless a covariant field construction proves more; [[wall-construction-interface/state-coordinate-types|the state-coordinate ledger]] owns that distinction.
 
 ## What the Hessian does and does not supply
 

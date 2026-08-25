@@ -21,13 +21,15 @@ $$
 \mathfrak W.
 $$
 
-[[wall-construction-interface/entry|The wall-construction interface]] owns the full definition of \(\mathfrak W\): causal regions, horizons or boundaries, cuts, local algebras, states, modular data, cross-fiber transport, the scale-to-state or scale-to-readout law, and the renormalized source. CWST does not keep a private cut-centered copy of that construction. It asks the interface to expose a physical mean-zero observational tangent sector and, once regular comparison is possible, its response block
+[[wall-construction-interface/entry|The wall-construction interface]] owns the full definition of \(\mathfrak W\): causal regions, horizons or boundaries, cuts, local algebras, states, modular data, cross-fiber transport, the scale-to-state or scale-to-readout law, and the renormalized source. CWST does not keep a private cut-centered copy of that construction. It asks the interface to expose a physical mean-zero observational tangent sector and, once regular comparison is possible, its center-resolved response package
 
 $$
-G^{\mathrm{BKM}}_{\zeta\zeta}.
+\mathfrak G^Z_{\zeta\zeta}
+=
+(Z,\mathbf G^Z_{\zeta\zeta},\omega^Z).
 $$
 
-Together with the global scale direction, this block belongs to [[program-core/common-response-matrix|the common response matrix]]. Homogeneity may force the quadratic mixed block \(G_{N\zeta}\) to vanish; the first common-origin witness can instead be \(\nabla_NG_{\zeta\zeta}\), the scale variation of the nonconstant response. [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|The symmetrized-relative-entropy theorem]] gives
+Together with the global scale direction, this block belongs to [[program-core/common-response-matrix|the common response matrix]]. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term and the distinction among normal unconditioned evaluation, normalized internal sector geometry, algebraic character evaluation, and an actual instrument outcome. Homogeneity may force the quadratic mixed block \(G_{N\zeta}\) to vanish after a common evaluation policy has been declared; the first common-origin witness can instead be \(\nabla_NG_{\zeta\zeta}\), the scale variation of the nonconstant response. For each regular scalar family on one carrier, [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the symmetrized-relative-entropy theorem]] gives
 
 $$
 \operatorname{Hess}_0
@@ -37,19 +39,19 @@ $$
 
 for a regular exponential family on one carrier. That exact factor does not identify the BKM kernel with a cosmological inverse covariance. In a completed continuum member, the BKM, Euclidean-source, spectral, wavefunctional, and probability-1PI kernels would have to be connected by explicitly constructed, state- and prescription-dependent maps.
 
-The central CWST proposal is therefore two typed arrows, not one numerical relabeling:
+Let \(G^{\mathsf p}_{\zeta\zeta}\) denote the response returned by a declared normal or normalized-sector policy \(\mathsf p\); a center-linear member may instead keep every later object center-valued. The central scalar CWST proposal is therefore two typed arrows, not one numerical relabeling:
 
 $$
 \boxed{
 \mathcal K^{\zeta}_{\mathrm{wall}}
-=\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}
-\bigl[G^{\mathrm{BKM}}_{\zeta\zeta}\bigr],
+=\mathcal W^{\mathsf p}_{\mathrm{BKM}\to\mathrm{spatial}}
+\bigl[G^{\mathsf p}_{\zeta\zeta}\bigr],
 \qquad
 \mathcal K_{\zeta_{\mathrm{cos}}}
 =R_{\mathrm s}^{-*}\mathcal K^{\zeta}_{\mathrm{wall}}R_{\mathrm s}^{-1}.}
 $$
 
-[[conjectures/state-response-is-spatial-precision|The state-to-spatial-precision conjecture]] owns the domains, intermediate maps, and failure conditions of \(\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}\). It must include every carrier restriction or extension, areal-to-volume conversion, state-response transform, and normalization used by the selected member; a holographic member additionally requires its continuation and state prescription. [[conjectures/wall-residue-is-curvature|The curvature conjecture]] separately owns \(R_{\mathrm s}\), the gauge-reduced Lorentzian scalar map. This is how CWST now conforms to [[program-core/descent-response-geometry|the core response geometry]]: the areal modulus \(\boldsymbol\chi\) has units \(L^{-2}\), while the present Fourier convention gives \(\mathcal K_\zeta\) units \(L^{-3}\). They may be blocks or representations of one deeper geometry only after an explicit soldering theorem.
+[[conjectures/state-response-is-spatial-precision|The state-to-spatial-precision conjecture]] owns the central-resolution policy, domains, intermediate maps, and failure conditions of \(\mathcal W^{\mathsf p}_{\mathrm{BKM}\to\mathrm{spatial}}\). It must include every carrier restriction or extension, areal-to-volume conversion, state-response transform, and normalization used by the selected member; a holographic member additionally requires its continuation and state prescription. [[conjectures/wall-residue-is-curvature|The curvature conjecture]] separately owns \(R_{\mathrm s}\), the gauge-reduced Lorentzian scalar map. This is how CWST now conforms to [[program-core/descent-response-geometry|the core response geometry]]: the areal modulus \(\boldsymbol\chi\) has units \(L^{-2}\), while the present Fourier convention gives \(\mathcal K_\zeta\) units \(L^{-3}\). They may be blocks or representations of one deeper geometry only after an explicit soldering theorem.
 
 [[conjectures/tensor-state-response-is-spatial-precision|The tensor state-to-spatial conjecture]] is a parallel W2 branch with its own TT response and transfer; [[open-questions/calculate-tensor-response|the tensor-response problem]] separately owns its spacetime realization. No scalar kernel or one-generator reduction determines either arrow.
 
@@ -87,4 +89,4 @@ It imports wall construction, Hessian theory, critical-kernel mathematics, holog
 
 CWST currently has exact normalization identities, exact critical-kernel theorems under declared symmetries, a well-developed optional holographic representation, local source material, and reproducible arithmetic receipts. [[spectral-wall-descent/mixed-response-jet|The finite \(M_3(\mathbb C)\) model]] calculates an exact common matrix with \(G_{N\zeta}=0\) and a nonzero mixed cubic jet, establishing algebraic feasibility only. CWST does not yet construct the physical continuum wall/readout family, calculate its common matrix or mixed jet, determine the state-to-spectrum transfer, recover the \(3+1\) Lorentzian carrier, identify the physical curvature variable, calculate a microscopic scalar or tensor response, or supply covariant realization and transfer. [[algebra/cst-cwst-closure-audit|The algebraic closure audit]] gives the gate-by-gate verdict. An arbitrary positive response can fit any positive scalar spectrum, so the unrestricted formulation is a typed research programme rather than a predictive theory member.
 
-The former v3 master, earlier versions, conversations, and rejected calculation attempt are preserved as [[archive|source history]]. They are no longer competing owners of the active claims.
+The former v3 master, earlier versions, conversations, and rejected calculation attempt are preserved in [[sources/entry|the source history]]. They are no longer competing owners of the active claims.

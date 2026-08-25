@@ -4,20 +4,28 @@ The spectral realization is the proposed middle layer between a causal-wall stat
 
 ## The response that must be constructed
 
-Suppose a wall realization returns the mean-zero observational BKM block of [[program-core/common-response-matrix|the common response matrix]]
+Suppose a wall realization returns the center-resolved mean-zero observational package of [[program-core/common-response-matrix|the common response matrix]] and that the W2 member has declared a central-resolution policy \(\mathsf p\):
 
 $$
-G^{\mathrm{BKM}}_{\zeta\zeta}
-:H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
+\mathfrak G^Z_{\zeta\zeta}
+=(Z,\mathbf G^Z_{\zeta\zeta},\omega^Z),
+\qquad
+G^{\mathsf p}_{\zeta\zeta}
+:=S_{\mathsf p}(\mathfrak G^Z_{\zeta\zeta}),
+\qquad
+G^{\mathsf p}_{\zeta\zeta}:
+H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
 \times H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
 \longrightarrow\mathbb R.
 $$
+
+[[program-core/center-valued-response|Center-valued response and scalarization]] owns the distinction between normal unconditioned evaluation and a normalized internal sector metric. A center-linear member may retain a center-valued precision instead; a bare character is neither normalized conditioning nor a fact.
 
 CWST proposes a transfer
 
 $$
 \mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}:
-G^{\mathrm{BKM}}_{\zeta\zeta}
+G^{\mathsf p}_{\zeta\zeta}
 \longmapsto
 \mathcal K^{\zeta}_{\mathrm{wall}}.
 $$

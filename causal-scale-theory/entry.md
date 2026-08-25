@@ -61,7 +61,7 @@ $$
 {\mu^{S,\mathrm{grav}}(\Sigma_c)}.
 $$
 
-The denominator is an independently declared dimensionless gravitational entropy measure. Thus \(\mathfrak R_c\) is an integrated matching number at one cut, not a local material constant, not a coordinate convention, and not the proposed dimensionful areal modulus that could retype \(G\). The weak principles \(\nu=1\) and \(\mathfrak R_c=1\) are independent, conjectural return-value claims.
+Here \(G^\perp_{NN}\) denotes the normal unconditioned evaluation of the center-valued upstream response block, as defined in the capacity note; it is neither a normalized conditional-sector metric nor a factively selected character. The denominator is an independently declared dimensionless gravitational entropy measure. Thus \(\mathfrak R_c\) is an integrated matching number at one cut, not a local material constant, not a coordinate convention, and not the proposed dimensionful areal modulus that could retype \(G\). The weak principles \(\nu=1\) and \(\mathfrak R_c=1\) are independent, conjectural return-value claims.
 
 [[free-energy-source|The anchored source law]] is the next irreducible bridge:
 
@@ -94,4 +94,4 @@ Nor does a state-space response actualize a fact. The Casimir identity can prese
 
 CST presently supplies a mathematically rigid two-parameter homogeneous response family, exact conditional theorems about its background behavior, reproducible arithmetic receipts, and a sharply typed construction programme. It does not yet derive its foundational algebraic doctrine, complete probe family, presentation site, algebraic scale object, analytic enrichment, either unit principle, wall reduction, state--geometry weld, constitutive source, horizontal temperature, covariant perturbation sector, or factive completion. [[algebra/cst-cwst-closure-audit|The algebraic closure audit]] separates the newly exact type theorems from these still-open physical functors. Each missing bridge is independently falsifiable; failure of one does not erase the exact mathematics imported before it.
 
-The retired master documents remain locally preserved as immutable material under [[archive|the source archive]]. They are historical evidence, not alternative owners in the active argument graph.
+The retired master documents remain locally preserved as immutable material under [[sources/legacy/README|the source archive]]. They are historical evidence, not alternative owners in the active argument graph.

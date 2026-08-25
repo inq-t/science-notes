@@ -1,6 +1,6 @@
 # The Common Response Matrix
 
-The common response matrix is proposed as one positive, generally center-valued response geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models. The retained W1 datum is the center, the sector-resolved response, and the normal central law inherited from the whole state; a scalar metric is obtained only by a declared evaluation policy.
+The common response matrix is proposed as one positive, generally center-valued response geometry of observational descent from a homogeneous sub-observable datum. Its homogeneous entry measures response to global scale displacement; its mean-zero block measures differentiation among observational modes; its mixed block and, more importantly at a symmetric reference, its first mixed derivative test whether CST and CWST are genuinely reductions of one construction rather than separately fitted models. The retained pre-consumer datum is the center, the sector-resolved response, and the normal central law inherited from the whole state; this becomes W1 in CWST, and a scalar metric is obtained only by a declared evaluation policy.
 
 ## The matrix belongs to the descent, not necessarily the substrate
 
@@ -69,7 +69,7 @@ G_{\zeta N}&G_{\zeta\zeta}
 \end{pmatrix}.}
 $$
 
-The entries share a carrier, state, transport, tangent normalization, and renormalization prescription by construction. If the carrier has a nontrivial center, this scalar form already uses the central probability law contained in the whole state. The W1 construction nevertheless retains the sector-resolved package below so that averaging, sectorwise analysis, and later fact formation are not conflated. Positivity gives
+The entries share a carrier, state, transport, tangent normalization, and renormalization prescription by construction. If the carrier has a nontrivial center, this scalar form already uses the central probability law contained in the whole state. The pre-consumer construction nevertheless retains the sector-resolved package below so that averaging, sectorwise analysis, and later fact formation are not conflated. Positivity gives
 
 $$
 G_{NN}\geq0,
@@ -83,148 +83,21 @@ $$
 
 This does not yet give the CST source or the CWST spatial precision. Those are separate consumer maps from one common response. [[hessian-response-geometry/entry|The Hessian-response module]] isolates the additional flat-connection, common-potential, center-evaluation, BKM-selection, and tangent-bundle conditions required for this pullback to be a genuine Hessian geometry rather than a collection of positive blocks.
 
-## An exact classical--quantum realization
+## The center-resolved datum is retained
 
-A controlled factive precursor is a classical--quantum readout state
-
-$$
-\widehat\rho_\lambda
-=
-\int_X^{\oplus}
-p_\lambda(x)\,
-\sigma_{\lambda,x}\,
-\mathrm d\mu(x),
-$$
-
-where \(X\) is the spectrum of a commutative record context, \(p_\lambda\) is its accessible law, and \(\sigma_{\lambda,x}\) is the conditional sub-observable state. Under fixed-carrier, faithfulness, and regularity hypotheses, relative entropy has the classical--quantum chain rule
+[[program-core/center-valued-response|Center-valued response and scalarization]] owns the classical--quantum chain rule, the central-weight Fisher term, positivity in central order, and the exact evaluation taxonomy. The common construction retains
 
 $$
-D(\widehat\rho\Vert\widehat\tau)
-=D_{\mathrm{KL}}(p\Vert q)
-+\int_Xp(x)
-D(\sigma_x\Vert\tau_x)\,\mathrm d\mu(x).
-$$
-
-Its coincidence Hessian therefore gives the **[EXACT MODEL — UNDER THOSE HYPOTHESES]**
-
-$$
-\boxed{
-\mathbb G_{IJ}^{\mathrm{CQ}}
-=I^{\mathrm F}_{IJ}[p]
-+\int_Xp(x)
-g^{\mathrm{BKM}}_{IJ}[\sigma_x]
-\,\mathrm d\mu(x).}
-$$
-
-The Fisher term measures differentiation of possible characters or records. The conditional BKM term measures the quantum response retained inside each fiber. A homogeneous law can therefore carry a nontrivial record-response geometry without making the underlying algebra a lumpy classical space.
-
-The formula selects no actual \(x\). Pure conditional states may also lie on the boundary where ordinary BKM geometry is singular. A continuum realization must use faithful unconditioned states, fixed-support tangents, or a controlled limiting metric.
-
-## Center-valued response and its evaluation policy
-
-Suppose a descended context has finite center
-
-$$
-Z(\mathcal M_N(U))
-=
-\bigoplus_\alpha\mathbb CP_\alpha,
-$$
-
-and that cross-fiber transport has identified the central projections over the parameter neighborhood. A faithful whole state \(\varphi_\lambda\) determines both the central weights and the normalized conditional sector states:
-
-$$
-q_\alpha(\lambda)
-:=\varphi_\lambda(P_\alpha)>0,
-\qquad
-\sum_\alpha q_\alpha=1,
-\qquad
-\varphi_{\lambda,\alpha}(a)
-:=\frac{\varphi_\lambda(P_\alpha aP_\alpha)}{q_\alpha}.
-$$
-
-The within-sector response alone is
-
-$$
-\boxed{
-\mathbf G^{Z,\mathrm{cond}}_{IJ}(N,U)
-:=
-\sum_\alpha
-g^{\mathrm{BKM}}_{\varphi_\alpha}
-(\dot\varphi_{I,\alpha},\dot\varphi_{J,\alpha})P_\alpha
-}
-$$
-
-but this is not the whole response when the central weights vary. The center-valued Fisher contribution and the full sector-resolved response are
-
-$$
-\mathbf F^Z_{IJ}
-:=
-\sum_\alpha
-(\partial_I\log q_\alpha)
-(\partial_J\log q_\alpha)P_\alpha,
-\qquad
-\boxed{
-\mathbf G^Z_{IJ}
-:=
-\mathbf F^Z_{IJ}
-+\mathbf G^{Z,\mathrm{cond}}_{IJ}}
-\in
-Z(\mathcal M_N(U))\otimes
-\operatorname{Sym}^2(T^*\mathfrak D_{\mathrm{phys}}).
-$$
-
-This is positive in the order of the center. For every real tangent vector \(v=v^I\partial_I\),
-
-$$
-v^Iv^J\mathbf G^Z_{IJ}
-=
-\sum_\alpha
-\left[
-(\partial_v\log q_\alpha)^2
-+g^{\mathrm{BKM}}_{\varphi_\alpha}(\dot\varphi_{v,\alpha},\dot\varphi_{v,\alpha})
-\right]P_\alpha
-\geq0.
-$$
-
-The W1 datum retained before any consumer-specific realization is therefore the package
-
-$$
-\boxed{
 \mathfrak G^Z_{N,U}
-:=
+=
 \left(
 Z(\mathcal M_N(U)),
 \mathbf G^Z,
-\nu_\lambda
+\omega^Z_\lambda
 \right),
-\qquad
-\nu_\lambda
-:=\varphi_\lambda\!\restriction_{Z(\mathcal M_N(U))},
-\qquad
-\nu_\lambda(P_\alpha)=q_\alpha.}
 $$
 
-Normal unconditioned evaluation by the central law inherited from the whole state returns
-
-$$
-\boxed{
-G^\nu_{IJ}
-:=\nu_\lambda(\mathbf G^Z_{IJ})
-=I^{\mathrm F}_{IJ}[q]
-+\sum_\alpha q_\alpha
-G^{(\alpha)}_{IJ}.}
-$$
-
-This is the finite-center form of the exact classical--quantum chain rule above. If the \(q_\alpha\) are fixed, the Fisher term vanishes. An alternative normal central state is additional member data rather than an innocent normalization.
-
-There are four distinct evaluation policies:
-
-1. If the center is trivial, scalarization is unique.
-2. Evaluation by \(\nu_\lambda=\varphi_\lambda|_Z\) is the unconditioned sector average already carried by the whole wall state; it is not fact selection.
-3. A theorem may be proved sectorwise by retaining the family of coefficients indexed by \(\alpha\). This conditions the mathematical statement on a sector but does not assert that one sector has become actual.
-4. A character \(P_\beta\mapsto1\) becomes a factive selection only when a declared instrument returns \(\beta\) as an outcome and the record structure supports that interpretation. A bare algebraic evaluation is not yet a fact.
-
-Sector-dependent observable response therefore does not imply that the upstream algebra or law was microscopically inhomogeneous. For a diffuse center the sums become direct integrals, and point characters need not be normal; such a character cannot be smuggled into the von Neumann-state construction as an ordinary normal state.
+where \(\mathbf G^Z\) is the full sector-resolved response, including central-weight variation, and \(\omega^Z_\lambda\) is the normal central law inherited from the whole state. Throughout this note a scalar \(G_{IJ}\) means either the unique trivial-center form, the normal unconditioned evaluation, or a normalized internal sector metric. Algebraic character evaluation is a fourth and different operation; it becomes factive only with an instrument, an outcome, and the requisite record structure.
 
 If a sector-preserving conditional expectation is state-preserving and modularly admissible, the BKM Pythagorean split holds in every sector and hence in central order:
 

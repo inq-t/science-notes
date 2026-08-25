@@ -121,13 +121,25 @@ The design consequence is sharp. An interface built only for the homogeneous con
 
 At a homogeneous and isotropic reference, invariance of the response form forces orthogonality when the global singlet and mean-zero observational sectors carry inequivalent representations. This is a **[CONDITIONAL THEOREM — UNDER THE REPRESENTATION HYPOTHESES]**, not a property of the direct-sum notation itself. A vanishing quadratic mixed block does not separate their origins: the first allowed common response may be the cubic tensor \(\nabla_NG_{\zeta\zeta}\). Mixed quadratic terms may also survive at boundaries, after pointing, away from the symmetric reference, or when the representation hypotheses fail.
 
-What the shared construction must expose is correspondingly different in the two sectors:
+What the shared construction must expose is one center-resolved response package
+
+$$
+\mathfrak G^Z_{\Sigma,N}
+=
+\left(
+Z(\mathcal M_{\Sigma,N}),
+\mathbf G^Z,
+\omega^Z_N
+\right),
+$$
+
+with correspondingly different blocks in the two tangent sectors:
 
 $$
 \text{homogeneous:}\quad
 v_N\in H^{\mathrm{phys}}_{\Sigma,\mathrm{hom}},
 \qquad
-G^{\mathrm{BKM}}_{NN};
+\mathbf G^Z_{NN};
 $$
 
 $$
@@ -135,11 +147,11 @@ $$
 H^{\mathrm{phys}}_{\Sigma,\mathrm{obs},0}
 \equiv H^{\mathrm{phys}}_{\Sigma,\mathrm{inh}},
 \qquad
-G^{\mathrm{BKM}}_{\zeta\zeta}
+\mathbf G^Z_{\zeta\zeta}
 \quad\text{when the regular response exists.}
 $$
 
-The right-hand symbol is retained as CWST's historical consumer notation; it must not be read as an assertion of microscopic spatial inhomogeneity.
+The right-hand tangent symbol is retained as CWST's historical consumer notation; it must not be read as an assertion of microscopic spatial inhomogeneity. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term and the available evaluation policies. A scalar \(G_{NN}\) or \(G_{\zeta\zeta}\) is returned only when the center is trivial or the member declares normal unconditioned evaluation, a conditional sector theorem, or a later factive instrument. The normal law \(\omega^Z_N:=\omega_N|_Z\) inherited from the faithful wall state gives an unconditioned average, not an outcome.
 
 Both response blocks depend on the same nine interface slots and are undefined before cross-fiber transport, observational descent, and the physical quotient exist. [[program-core/common-response-matrix|The common-response construction]] states the full Hessian and its hidden-mode reduction. The homogeneous consumer owns the further contraction into \(\nu\) and [[program-core/ruble-equations#RE6 — Integrated crossing capacity|the RE6 crossing capacity]]. CWST owns the conjectural BKM-to-spectral transfer and curvature realization. The interface returns neither a primordial precision nor a gauge-invariant cosmological mode.
 

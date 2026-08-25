@@ -4,22 +4,31 @@ Any CWST member that predicts primordial tensors must construct an independent t
 
 ## Statement
 
-Let a realization of [[wall-construction-interface/entry|the wall interface]] supply physical transverse-traceless source directions and a regular response block
+Let a realization of [[wall-construction-interface/entry|the wall interface]] supply physical transverse-traceless source directions and a regular center-resolved response package
 
 $$
-G^{\mathrm{BKM}}_{\mathrm{TT}}.
+\mathfrak G^Z_{\mathrm{TT}}
+=
+(Z,\mathbf G^Z_{\mathrm{TT}},\omega^Z).
 $$
 
-The proposed tensor transfer is
+As in [[state-response-is-spatial-precision|the scalar W2 interface]], a scalar tensor member must declare a central-resolution policy \(S_{\mathsf p}\) and use
+
+$$
+G^{\mathsf p}_{\mathrm{TT}}
+:=S_{\mathsf p}(\mathfrak G^Z_{\mathrm{TT}}),
+$$
+
+where \(G^{\mathsf p}_{\mathrm{TT}}\) is either the normal unconditioned metric or a normalized internal sector metric. A center-linear implementation may instead retain a center-valued tensor precision. The scalar proposed tensor transfer is
 
 $$
 \boxed{
 \mathcal K^{\gamma}_{\mathrm{wall}}
-=\mathcal W^{\mathrm{TT}}_{\mathrm{BKM}\to\mathrm{spatial}}
-[G^{\mathrm{BKM}}_{\mathrm{TT}}]}
+=\mathcal W^{\mathrm{TT},\mathsf p}_{\mathrm{BKM}\to\mathrm{spatial}}
+[G^{\mathsf p}_{\mathrm{TT}}]}
 $$
 
-on a declared physical TT subspace. This is **[CONJECTURE — OPEN CONSTRUCTION]**. The construction must specify the tensor source, quotient, carrier change, state-dependent response transform, two-polarization convention, contact terms, and probability-1PI normalization.
+on a declared physical TT subspace. This is **[CONJECTURE — OPEN CONSTRUCTION]**. The construction must specify the tensor source, quotient, central-resolution policy, carrier change, state-dependent response transform, two-polarization convention, contact terms, and probability-1PI normalization. A bare character is neither a normalized conditional sector nor an actual outcome.
 
 ## Independence from the scalar branch
 

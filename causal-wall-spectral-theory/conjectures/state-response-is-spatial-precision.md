@@ -4,19 +4,32 @@ CWST conjectures that the mean-zero observational BKM block of a physically cons
 
 ## Statement
 
-Let a realization of [[wall-construction-interface/entry|the wall interface]] supply one common carrier, cross-fiber transport, state family, physical tangent quotient, and renormalization prescription. Let
+Let a realization of [[wall-construction-interface/entry|the wall interface]] supply one common carrier, cross-fiber transport, state family, physical tangent quotient, renormalization prescription, and the retained W1 package
 
 $$
-G^{\mathrm{BKM}}_{\zeta\zeta}
+\mathfrak G^Z_{\zeta\zeta}
+=
+\left(
+Z,
+\mathbf G^Z_{\zeta\zeta},
+\omega^Z
+\right).
 $$
 
-be the nondegenerate mean-zero observational block of its response geometry. The proposed law is
+Before a scalar W2 map is written, the member must declare a central-resolution policy \(\mathsf p\). Let
+
+$$
+G^{\mathsf p}_{\zeta\zeta}
+:=S_{\mathsf p}(\mathfrak G^Z_{\zeta\zeta})
+$$
+
+denote either the normal unconditioned metric \(G^{\omega^Z}_{\zeta\zeta}\) or a normalized internal sector metric \(G^{(\alpha),\mathrm{int}}_{\zeta\zeta}\). [[program-core/center-valued-response|Center-valued response and scalarization]] owns this distinction. A member may instead construct W2 center-linearly and retain a center-valued precision; then the center must remain explicit through every later arrow. The scalar proposed law is
 
 $$
 \boxed{
 \mathcal K^{\zeta}_{\mathrm{wall}}
-=\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}
-[G^{\mathrm{BKM}}_{\zeta\zeta}]}
+=\mathcal W^{\mathsf p}_{\mathrm{BKM}\to\mathrm{spatial}}
+[G^{\mathsf p}_{\zeta\zeta}]}
 $$
 
 on a declared physical subspace. Here \(\mathcal K^{\zeta}_{\mathrm{wall}}=\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}\) is the Legendre-1PI inverse connected covariance of the spatial wall field after the carrier has been constructed. This is **[CONJECTURE — OPEN CONSTRUCTION]**.
@@ -26,7 +39,9 @@ on a declared physical subspace. Here \(\mathcal K^{\zeta}_{\mathrm{wall}}=\Gamm
 A valid realization must refine the single arrow into something of the form
 
 $$
-G^{\mathrm{BKM}}_{\zeta\zeta}
+ \mathfrak G^Z_{\zeta\zeta}
+\xrightarrow{\;S_{\mathsf p}\;}
+G^{\mathsf p}_{\zeta\zeta}
 \xrightarrow{\;L\;}
 G_{\mathrm{spatial}}
 \xrightarrow{\;M_{\omega}\;}
@@ -37,13 +52,14 @@ $$
 
 The symbols stand for obligations, not assumed formulas:
 
+- \(S_{\mathsf p}\): normal unconditioned evaluation or normalized internal-sector restriction, with the choice and its state law declared;
 - \(L\): localization, restriction, extension, or integration that changes the wall carrier and its measure;
 - \(M_\omega\): the state-dependent transform relating a BKM form to the source response used by the member; and
 - \(P\): construction of the spatial probability or Legendre-1PI kernel on the wall field.
 
 A holographic implementation may insert a simultaneous analytic continuation of response coefficients, with the state, regulator, branch, and continued theory parameters specified. That optional insertion still does not construct the spacetime realization map \(R_{\mathrm s}\).
 
-Another realization may factor the map differently. What is not allowed is to omit a carrier-changing or state-dependent arrow and replace it by equality of notation. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
+Another realization may factor the map differently. What is not allowed is to omit a central-resolution, carrier-changing, or state-dependent arrow and replace it by equality of notation. Algebraic character evaluation is not normalized sector conditioning, and it is not factive without an instrument and outcome. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
 
 Every stage must additionally be natural under the declared region restrictions and cross-fiber transport. A patchwise construction must satisfy overlap compatibility and effective gluing. If a stage is noninjective, its kernel and effective image must be included in the physical quotient before the returned precision is called nondegenerate. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real locus]] can supply a candidate three-dimensional target carrier, but not the maps \(L\), \(M_\omega\), or \(P\).
 

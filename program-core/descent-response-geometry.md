@@ -40,7 +40,7 @@ G^{\perp}_{NN}
 :=g^{\mathrm{BKM}}_{\omega_N}(v_N,v_N)\geq0
 $$
 
-after the declared vertical, central, gauge, and null directions have been removed. This is a local squared speed or susceptibility along one state path. It is dimensionless when \(N\) is dimensionless.
+after the declared vertical, gauge, and null directions have been removed. If the descended carrier has nontrivial center, this whole-state scalar is the normal unconditioned evaluation \(G^\perp_{NN}=\omega^Z_N(\mathbf G^{Z,\perp}_{NN})\); a normalized conditional-sector metric is a different object. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the decomposition and evaluation policy. This is a local squared speed or susceptibility along one state path. It is dimensionless when \(N\) is dimensionless.
 
 The equality with a BKM form is **[EXACT — UNDER THE ANALYTIC AND COMPARABILITY HYPOTHESES]**. The existence of a finite continuum wall norm and its physical interpretation are open. [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|The Hessian module]] owns the analytic result and its scope; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the fixed-Gibbs corollary]] keeps its thermodynamic use separate from an all-history source.
 
@@ -168,7 +168,7 @@ G_{\zeta N} & G_{\zeta\zeta}
 \end{pmatrix},
 $$
 
-and the localized object has the corresponding matrix of measures or densities. The off-diagonal blocks test mixing; they are not presumed to vanish.
+and the localized object has the corresponding matrix of measures or densities. The off-diagonal blocks test mixing; they are not presumed to vanish. Every scalar block in this display must use one common declared central-evaluation policy; keeping different sector laws in different blocks would destroy the claim that they are contractions of one response form.
 
 [[program-core/common-response-matrix|The common-response construction]] refines this display as a pullback BKM or descent-cost Hessian and includes hidden or constrained modes before physical reduction. The construction succeeds only if one common carrier, transport, tangent quotient, and renormalization prescription produce both the global contraction and the abstract nonconstant block. A three-dimensional Fourier precision is a further representation, not part of that block merely by notation. Only after a three-dimensional carrier has been constructed may a consumer seek a map
 

@@ -1,6 +1,19 @@
 # Homogeneous Scale Capacity
 
-The CST capacity parameter is the crossing value of a cut-integrated state-to-gravitational response ratio. It is coordinate invariant once the physical horizontal tangent is fixed, but it is neither the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone.
+The CST capacity parameter is the crossing value of a cut-integrated state-to-gravitational response ratio after a central evaluation policy has been declared. It is coordinate invariant once the physical horizontal tangent is fixed, but it is neither the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone.
+
+The wall construction is required to return a center-resolved homogeneous block \(\mathbf G^{Z,\perp}_{NN}\). **[MEMBER CHOICE — CONDITIONAL ON THAT WALL RETURN]** The present CST member uses the normal unconditioned evaluation inherited from the faithful wall state:
+
+$$
+\boxed{
+\omega^Z_N
+:=\omega_N\!\restriction_Z,
+\qquad
+G^\perp_{NN}(N)
+:=\omega^Z_N\!\left(\mathbf G^{Z,\perp}_{NN}(N)\right).}
+$$
+
+This scalar includes both central-weight Fisher response and the weighted internal sector responses when the central law varies. [[program-core/center-valued-response|Center-valued response and scalarization]] owns that decomposition and the alternatives. Replacing \(\omega^Z_N\) by a conditional sector metric or by an instrumentally realized outcome defines a different CST member; it is not a silent re-reading of the equations below.
 
 [[program-core/descent-response-geometry|The programme core]] distinguishes the local areal descent modulus \(\chi_N(p)\), the local matching field \(\mathfrak r_{\Sigma,N}(p)\), and the integrated cut ratio
 
