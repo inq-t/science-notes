@@ -133,7 +133,7 @@ $$
 -\frac{|v(k)|^2}{k^2+M(N)^2}.
 $$
 
-For constant \(v\), its magnitude is largest at long wavelength. More generally, bounded \(v(k)\) proves only ultraviolet decay of order \(k^{-2}\); a long-wavelength maximum requires additional nonvanishing and monotonicity hypotheses on the vertex. This differentiation of an existing scale spectrum is produced by algebraic elimination, not assigned as primordial lumpiness.
+For constant \(v\), its magnitude is largest at long wavelength. More generally, bounded \(v(k)\) proves only ultraviolet decay of order \(k^{-2}\); a long-wavelength maximum requires additional nonvanishing and monotonicity hypotheses on the vertex. This differentiation of an existing scale spectrum is produced by algebraic elimination, not assigned as primordial lumpiness. [[lorentzian-spectral-envelope/entry|The Cauchy spectral-envelope module]] derives a similar positive resolvent from heat-scale mixing and states exactly why averaging, Schur elimination, and covariance inversion remain different operations.
 
 ## The determinant companion
 

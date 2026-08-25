@@ -1,0 +1,4 @@
+[module]
+name = "semiorthogonal-decompositions"
+entry = "entry.md"
+include = ["**/*.md"]

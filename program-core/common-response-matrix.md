@@ -81,7 +81,7 @@ G_{\zeta\zeta}\succeq0,
 G_{NN}G_{\zeta\zeta}(f,f).
 $$
 
-This does not yet give the CST source or the CWST spatial precision. Those are separate consumer maps from one common response.
+This does not yet give the CST source or the CWST spatial precision. Those are separate consumer maps from one common response. [[hessian-response-geometry/entry|The Hessian-response module]] isolates the additional flat-connection, common-potential, center-evaluation, BKM-selection, and tangent-bundle conditions required for this pullback to be a genuine Hessian geometry rather than a collection of positive blocks.
 
 ## An exact classical--quantum realization
 

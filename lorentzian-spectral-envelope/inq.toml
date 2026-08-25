@@ -1,0 +1,4 @@
+[module]
+name = "lorentzian-spectral-envelope"
+entry = "entry.md"
+include = ["**/*.md"]

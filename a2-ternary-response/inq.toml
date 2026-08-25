@@ -1,0 +1,4 @@
+[module]
+name = "a2-ternary-response"
+entry = "entry.md"
+include = ["**/*.md"]

@@ -2,6 +2,11 @@
 name = "physics"
 members = [
   "algebra",
+  "a2-ternary-response",
+  "lorentzian-spectral-envelope",
+  "semiorthogonal-decompositions",
+  "complex-presentation-without-polarization",
+  "hessian-response-geometry",
   "ko-dimension-as-morita-class",
   "symmetry-groups-select", "compatible-with-existing-physics", "causal-wall-spectral-theory", "deriving-value-of-g", "deriving-fine-structure-constant", "scale-as-modular-observable", "misner-log-time", "conformal-time", "sufficient-reason", "cosmodynamics", "basic-concepts/fibers", "basic-concepts/soldering", "basic-concepts/torsors", "basic-concepts/descent", "basic-concepts/gluing", "basic-concepts/hessians", "basic-concepts/coalgebras", "basic-concepts/sheafs", "basic-concepts/groupoids", "basic-concepts/stacks", "conservation-of-causal-charge", "vendor/entropic-gravity", "vendor/holographic-cosmology", "causal-scale-theory", "wall-construction-interface", "binary-information-geometry", "conformal-scale-geometry", "critical-scale-kernels", "contemporary-puzzles/dark-energy-and-acceleration", "contemporary-puzzles/perturbation-and-symmetry-breaking", "philosophy/indiscernibility-of-identicals", "philosophy/leibniz", "philosophy/principle-of-least-action", "philosophy/symmetry-principle", "philosophy/noether-conservation", "program-core", "spectral-wall-descent", "vendor/postquantum-gravity", "library/quanta-of-geometry"]
 

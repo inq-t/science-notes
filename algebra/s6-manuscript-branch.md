@@ -87,4 +87,4 @@ To use this branch in the algebraic pre-core, one would need:
 5. a reduction or realization theorem yielding a Lorentzian $3+1$ carrier; and
 6. a recovery theorem for gauge, matter, action, and factual-record data.
 
-Until those maps exist, $S^6$ is an intriguing conditional geometry and not the hidden ontology of the Standard Model.
+Until those maps exist, $S^6$ is an intriguing conditional geometry and not the hidden ontology of the Standard Model. [[complex-presentation-without-polarization/entry|Complex presentation without polarization]] develops the stronger conditional philosophical lesson while keeping holomorphic machinery, positive state geometry, real-form selection, factive descent, and Lorentzian realization as separate types.
