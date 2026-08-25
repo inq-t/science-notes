@@ -1,6 +1,6 @@
 # BKM Response to Scalar Spatial Precision
 
-CWST conjectures that the mean-zero observational BKM block of a physically constructed [[program-core/common-response-matrix|common descent family]] can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
+CWST conjectures that the mean-zero observational BKM block of a physically constructed [[program-core/common-response-form|common descent family]] can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
 
 ## Statement
 
@@ -57,9 +57,9 @@ The symbols stand for obligations, not assumed formulas:
 - \(M_\omega\): the state-dependent transform relating a BKM form to the source response used by the member; and
 - \(P\): construction of the spatial probability or Legendre-1PI kernel on the wall field.
 
-A holographic implementation may factor selected stages through [[causal-wall-spectral-theory/spectral-realization|the optional holographic adapter]]. Its simultaneous continuation must specify the state, regulator, branch, and continued theory parameters. That optional factorization still does not construct the spacetime realization map \(R_{\mathrm s}\).
+A holographic implementation may factor selected stages through [[causal-wall-spectral-theory/holographic-spectral-adapter|the optional holographic adapter]]. Its simultaneous continuation must specify the state, regulator, branch, and continued theory parameters. That optional factorization still does not construct the spacetime realization map \(R_{\mathrm s}\).
 
-Another realization may factor the map differently. What is not allowed is to omit a central-resolution, carrier-changing, or state-dependent arrow and replace it by equality of notation. Algebraic character evaluation is not normalized sector conditioning, and it is not factive without an instrument and outcome. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
+Another realization may factor the map differently. What is not allowed is to omit a central-resolution, carrier-changing, or state-dependent arrow and replace it by equality of notation. Algebraic character evaluation is not normalized sector conditioning, and it is not factive without an instrument and outcome. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
 
 Every stage must additionally be natural under the declared region restrictions and cross-fiber transport. A patchwise construction must satisfy overlap compatibility and effective gluing. If a stage is noninjective, its kernel and effective image must be included in the physical quotient before the returned precision is called nondegenerate. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real locus]] can supply a candidate three-dimensional target carrier, but not the maps \(L\), \(M_\omega\), or \(P\).
 

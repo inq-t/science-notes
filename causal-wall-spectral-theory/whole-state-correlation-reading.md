@@ -8,7 +8,7 @@ Cosmological observations give correlation functions of local records: temperatu
 
 This fits the programme's object of inquiry. A cosmos is not merely a collection of local mechanisms; it is an arena in which local facts belong to one causally and historically coherent whole. CWST asks whether the inhomogeneous part of scale response helps constitute that whole-state correlation geometry.
 
-[[program-core/contextual-descent-from-homogeneity|Contextual descent]] sharpens this reading. The sub-observable algebra and correlation law may remain homogeneous while an actual character of the commutative record algebra is nonconstant. The lumpy sky is then a property of the pointed factual history, not direct evidence for a lumpy pre-observable substrate. [[program-core/common-response-matrix|The common response form]] describes the susceptibility of the law of distinctions before that pointing is selected.
+[[program-core/contextual-descent-from-homogeneity|Contextual descent]] sharpens this reading. The sub-observable algebra and correlation law may remain homogeneous while an actual character of the commutative record algebra is nonconstant. The lumpy sky is then a property of the pointed factual history, not direct evidence for a lumpy pre-observable substrate. [[program-core/common-response-form|The common response form]] describes the susceptibility of the law of distinctions before that pointing is selected.
 
 ## Determination and access
 
@@ -38,7 +38,7 @@ $$
 \text{record}.
 $$
 
-Nor does a BKM susceptibility prove that inaccessible distinctions have literally become geometry. [[program-core/descent-response-geometry|Response geometry]] ends before fact formation; [[conservation-of-causal-charge/entry|causal charge]] asks whether a future symmetry law can relate state, geometry, matter, and records on one carrier.
+Nor does a BKM susceptibility prove that inaccessible distinctions have literally become geometry. [[program-core/localized-areal-response-geometry|Response geometry]] ends before fact formation; [[conservation-of-causal-charge/entry|causal charge]] asks whether a future symmetry law can relate state, geometry, matter, and records on one carrier.
 
 ## Why the reading does not weaken empirical obligations
 
@@ -56,4 +56,4 @@ The theory is not rescued by saying that conventional perturbations ask the wron
 
 The interpretation does not assert a literal wavefunction of the universe, a many-worlds ontology, hidden classical variables, objective collapse, or a probability-free replacement of quantum theory. Holographic cosmology can be used as a representation without treating the three-dimensional QFT as literal microscopic furniture. Conversely, failure of that representation would not by itself refute the whole-state reading.
 
-The interpretive claim becomes physically substantial only when [[conjectures/state-response-is-spatial-precision|the state response]], [[conjectures/wall-residue-is-curvature|the wall residue]], and [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] are constructed on one compatible chain.
+The interpretive claim becomes physically substantial only when [[conjectures/bkm-to-spatial-precision|the state response]], [[conjectures/wall-scalar-to-cosmological-curvature|the wall residue]], and [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] are constructed on one compatible chain.

@@ -3,7 +3,7 @@ name = "physics"
 members = [
   "algebra",
   "a2-ternary-response",
-  "lorentzian-spectral-envelope",
+  "cauchy-spectral-envelope",
   "semiorthogonal-decompositions",
   "complex-presentation-without-polarization",
   "hessian-response-geometry",

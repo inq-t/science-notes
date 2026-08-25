@@ -25,8 +25,8 @@ $$
 Its provenance is explicit in [[realization-map|the realization map]]. In particular:
 
 - \(\nu\) is the magnitude of the affine scale--state slope in the canonically normalized binary coordinate;
-- \(\mathfrak R_c\) is the integrated reference matching ratio from [[scale-capacity|homogeneous capacity]], historically called the crossing ratio when the reference event is physically realized;
-- the factor \(1/2\) comes from [[free-energy-source|the constitutive source]];
+- \(\mathfrak R_c\) is the integrated reference matching ratio from [[reference-cut-matching-ratio|homogeneous capacity]], historically called the crossing ratio when the reference event is physically realized;
+- the factor \(1/2\) comes from [[anchored-response-density-postulate|the constitutive source]];
 - the conversion to \(\rho_{\mathrm{crit},c}\) uses [[horizontal-temperature|an open temperature identification]] followed by [[conformal-scale-geometry/hawking-friedmann-identity|an exact horizon identity]].
 
 Thus \(\nu\) is the scale-state rate and the profile's inverse-scale parameter, not a width. For this binary profile the full width at half maximum is

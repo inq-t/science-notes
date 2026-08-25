@@ -45,7 +45,7 @@ $$
 [\mathcal K_\zeta]=L^{-3}.
 $$
 
-The precision is therefore a three-dimensional spectral density. It is not the \(L^{-2}\) areal descent modulus of [[program-core/descent-response-geometry|the programme core]]. Relating the two requires an explicit boundary, integration, or soldering map.
+The precision is therefore a three-dimensional spectral density. It is not the \(L^{-2}\) areal descent modulus of [[program-core/localized-areal-response-geometry|the programme core]]. Relating the two requires an explicit boundary, integration, or soldering map.
 
 ## Gaussian weight and general effective action
 

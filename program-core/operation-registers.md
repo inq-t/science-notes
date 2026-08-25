@@ -32,7 +32,7 @@ The same formula can represent different operations when any of these fields cha
 | conditional expectation | a normal unital completely positive idempotent onto a subalgebra, with its state and modular hypotheses declared | [[spectral-wall-descent/conditional-expectation-balance|conditional-expectation balance]] |
 | conditioning or postselection | an outcome branch followed by normalization; not an everywhere deterministic trace-preserving channel | [[a2-ternary-response/entry|the ternary response test]] and [[wall-construction-interface/binary-channel|binary-channel obligation]] |
 | Schur elimination | elimination of a quadratic auxiliary block, returning an effective form and generally a determinant contribution | [[spectral-wall-descent/hidden-resolvent-and-seesaw|hidden resolvents and the seesaw]] |
-| spectral attenuation | functional-calculus filtering whose kernel and inverse stability must be checked | [[lorentzian-spectral-envelope/entry|heat mixtures and Cauchy envelopes]] |
+| spectral attenuation | functional-calculus filtering whose kernel and inverse stability must be checked | [[cauchy-spectral-envelope/entry|heat mixtures and Cauchy envelopes]] |
 | real-form fixed locus | the equalizer of an antiholomorphic involution; not a fact-forming process | [[algebra/real-forms-and-factive-spacetime|real forms and factive spacetime]] |
 | factual instrument or pointing | an outcome-labelled operation together with an obtained value; a law or bare character is insufficient | [[conservation-of-causal-charge/factive-descent-and-records|factive descent and records]] |
 | record extension | a proper one-sided extension preserving earlier factual values | [[algebra/local-global-individuation|local--global individuation]] |

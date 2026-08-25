@@ -30,7 +30,7 @@ $$
 
 with non-circular cross-fiber transport. [[wall-construction-interface/entry|The wall-construction interface]] owns this decisive open problem. It also keeps vertical modular flow, horizontal state change, binary reduction, geometric reflection, and Tomita conjugation from being treated as one object. [[algebra/a2-inverse-cover|The conditional \(A_2\) inverse cover]] is an exact model of global nontriviality, not a wall construction: its cover degree, root count, and \(S_3\) monodromy select neither this binary channel nor its normalization without an explicit functor from the wall moduli problem. [[a2-ternary-response/entry|The \(A_2\) ternary-response test]] makes the binary debt sharper by exhibiting an exact finite response with a neutral outcome; the two orientation projections must be proved exhaustive in the selected wall image rather than inferred from the normal plane.
 
-The scale tangent is one singlet direction in [[program-core/common-response-matrix|the common response form]]. The same construction may also return mean-zero observational modes without making the underlying algebra spatially inhomogeneous. At a symmetric reference their quadratic cross block may vanish; the stronger unification test is whether the scale variation \(\nabla_NG_{\zeta\zeta}\) and the homogeneous response are calculated from the same transported scale-indexed wall family. Calling that family strict descent would additionally require a site, cocycle data, and effectivity. The response-family interface begins only after this center-valued response has received an explicit sectorwise or normal-central scalarization; it does not silently use a factive character.
+The scale tangent is one singlet direction in [[program-core/common-response-form|the common response form]]. The same construction may also return mean-zero observational modes without making the underlying algebra spatially inhomogeneous. At a symmetric reference their quadratic cross block may vanish; the stronger unification test is whether the scale variation \(\nabla_NG_{\zeta\zeta}\) and the homogeneous response are calculated from the same transported scale-indexed wall family. Calling that family strict descent would additionally require a site, cocycle data, and effectivity. The response-family interface begins only after this center-valued response has received an explicit sectorwise or normal-central scalarization; it does not silently use a factive character.
 
 If the physical reflection-odd tangent admits an exhaustive or explicitly conditioned balanced binary channel, [[binary-information-geometry/entry|binary information geometry]] supplies the exact reduced sector used by CST-B2:
 
@@ -53,7 +53,7 @@ $$
 \nu:=|\varrho_\perp|.
 $$
 
-The normalized CST-B2 curve still does not determine how many physical degrees of freedom participate. [[scale-capacity|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the integrated reference matching ratio
+The normalized CST-B2 curve still does not determine how many physical degrees of freedom participate. [[reference-cut-matching-ratio|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the integrated reference matching ratio
 
 $$
 \mathfrak R_c
@@ -63,7 +63,7 @@ $$
 
 Here \(G^\perp_{NN}\) denotes the normal unconditioned evaluation of the center-valued upstream response block, as defined in the capacity note; it is neither a normalized conditional-sector metric nor a factively selected character. The denominator is an independently declared dimensionless gravitational entropy measure. Thus \(\mathfrak R_c\) is an integrated matching number at one cut, not a local material constant, not a coordinate convention, and not the proposed dimensionful areal modulus that could retype \(G\). The weak principles \(\nu=1\) and \(\mathfrak R_c=1\) are independent, conjectural return-value claims.
 
-[[free-energy-source|The anchored source law]] is the next irreducible bridge:
+[[anchored-response-density-postulate|The anchored source law]] is the next irreducible bridge:
 
 $$
 \rho_X(N)

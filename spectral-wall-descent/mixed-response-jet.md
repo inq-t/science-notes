@@ -109,7 +109,7 @@ $$
 \simeq0.353553390593.}
 $$
 
-The quadratic mixed block vanishes, but the homogeneous coordinate changes the response geometry of the observational coordinate. This is precisely the higher-jet effect predicted in [[program-core/common-response-matrix|the common response construction]].
+The quadratic mixed block vanishes, but the homogeneous coordinate changes the response geometry of the observational coordinate. This is precisely the higher-jet effect predicted in [[program-core/common-response-form|the common response construction]].
 
 ## What the model proves
 

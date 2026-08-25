@@ -26,7 +26,7 @@ Read ontologically: the conserved unit allocates between **actuality** (resolved
 
 Two CST readings fall out of taking this clause seriously:
 
-- **The balanced point is the channel's own nothing.** The balanced reference is ρ₀ = 𝟙/2 — the normalized trace on the binary channel. So the crossing Σ_c, where θ = 0, m = 0, g = sech² = 1, is the cut where the channel coincides with its own trace: maximal susceptibility because maximal indifference. w_X(N_c) = −1 is then the equation of state of pure potentiality. This suggests recasting [[causal-scale-theory/conjectures/self-dual-synchronization|the synchronization conjecture]] as a single fixed-point statement — see `next-targets.md`.
+- **The balanced point is the channel's own nothing.** The balanced reference is ρ₀ = 𝟙/2 — the normalized trace on the binary channel. So the crossing Σ_c, where θ = 0, m = 0, g = sech² = 1, is the cut where the channel coincides with its own trace: maximal susceptibility because maximal indifference. w_X(N_c) = −1 is then the equation of state of pure potentiality. This suggests recasting [[causal-scale-theory/conjectures/event-locus-coincidence|the synchronization conjecture]] as a single fixed-point statement — see `next-targets.md`.
 - **The anchored source law is a fluctuation–dissipation theorem.** ρ_X = (k_B T_c / 2V_c) G^⊥_NN is horizon temperature times susceptibility, and the BKM metric *is* the Kubo–Mori kernel. Dark energy enters CST as the FDT response of the vacuum dragged along the scale flow. The vault's own audit already recorded that BKM is forced, not chosen; the FDT reading says why it had to be.
 
 ## Clause 3 — the arrow clause (monoid)

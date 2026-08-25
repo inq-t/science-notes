@@ -60,7 +60,7 @@ Thus a reduced response curve alone does not fix the physical profile. A varying
 
 ## The cosmological return type
 
-[[scale-capacity|The matching-ratio note]] defines $\mathfrak R_c$ by comparing the scalarized full-cut response at the distinguished reference cut with an independently normalized gravitational entropy measure. The historical subscript $c$ denotes the candidate crossing reference and becomes a physical crossing label only in a member that constructs that event. In spacetime dimension $D=d+1$ with $d>1$, [[free-energy-source|the anchored source postulate]] and [[horizontal-temperature|the horizontal-temperature identification]], followed by [[conformal-scale-geometry/dimensional-horizon-conversion|the dimensional Einstein--horizon conversion]], give the family-level **[CONDITIONAL OUTPUT]**
+[[reference-cut-matching-ratio|The matching-ratio note]] defines $\mathfrak R_c$ by comparing the scalarized full-cut response at the distinguished reference cut with an independently normalized gravitational entropy measure. The historical subscript $c$ denotes the candidate crossing reference and becomes a physical crossing label only in a member that constructs that event. In spacetime dimension $D=d+1$ with $d>1$, [[anchored-response-density-postulate|the anchored source postulate]] and [[horizontal-temperature|the horizontal-temperature identification]], followed by [[conformal-scale-geometry/dimensional-horizon-conversion|the dimensional Einstein--horizon conversion]], give the family-level **[CONDITIONAL OUTPUT]**
 
 $$
 \boxed{

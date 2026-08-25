@@ -1,10 +1,10 @@
 # Calculate the Tensor Response
 
-The scalar wall response does not determine the spin-two response. A predictive CWST member must independently calculate the tensor sector and its relation, if any, to the scalar response before it can claim a tensor-to-scalar ratio or consistency relation. [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|The tensor W3 conjecture]] separately owns the Lorentzian graviton realization.
+The scalar wall response does not determine the spin-two response. A predictive CWST member must independently calculate the tensor sector and its relation, if any, to the scalar response before it can claim a tensor-to-scalar ratio or consistency relation. [[causal-wall-spectral-theory/conjectures/wall-tensor-to-cosmological-graviton|The tensor W3 conjecture]] separately owns the Lorentzian graviton realization.
 
 ## Required calculation
 
-Through [[causal-wall-spectral-theory/spectral-realization|the optional holographic adapter]], and only after [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|the tensor W3 identification]] has supplied the physical graviton normalization, the member may translate its calculated spin-two response as
+Through [[causal-wall-spectral-theory/holographic-spectral-adapter|the optional holographic adapter]], and only after [[causal-wall-spectral-theory/conjectures/wall-tensor-to-cosmological-graviton|the tensor W3 identification]] has supplied the physical graviton normalization, the member may translate its calculated spin-two response as
 
 $$
 \rho_{A,\mathrm{calc}}^{\mathrm{cos}}(k)

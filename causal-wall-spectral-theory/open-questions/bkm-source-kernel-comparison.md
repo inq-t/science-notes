@@ -1,6 +1,6 @@
 # Compare BKM and Spatial Source Kernels
 
-The first discriminating W2 calculation is to compute the BKM response and the Euclidean or spatial source kernel for the same wall carrier, state, source direction, quotient, and renormalization prescription. Its purpose is to determine the state-dependent transform between those two responses. [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The scalar W2 conjecture]] owns the full carrier-changing construction; this note owns only the comparison experiment that can constrain or falsify one of its arrows.
+The first discriminating W2 calculation is to compute the BKM response and the Euclidean or spatial source kernel for the same wall carrier, state, source direction, quotient, and renormalization prescription. Its purpose is to determine the state-dependent transform between those two responses. [[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The scalar W2 conjecture]] owns the full carrier-changing construction; this note owns only the comparison experiment that can constrain or falsify one of its arrows.
 
 ## Controlled comparison datum
 
@@ -36,7 +36,7 @@ Local contact terms must be reported separately rather than absorbed into the mu
 
 ## Optional holographic specialization
 
-If the Euclidean kernel is a three-dimensional stress response, [[causal-wall-spectral-theory/spectral-realization|the optional holographic adapter]] owns the operator identification, state, regulator, branch, simultaneous continuation, and contact qualifications. The vendored spectrum dictionary begins only after that eligibility has been established. Neither the comparison nor the adapter constructs the W3 Lorentzian field map.
+If the Euclidean kernel is a three-dimensional stress response, [[causal-wall-spectral-theory/holographic-spectral-adapter|the optional holographic adapter]] owns the operator identification, state, regulator, branch, simultaneous continuation, and contact qualifications. The vendored spectrum dictionary begins only after that eligibility has been established. Neither the comparison nor the adapter constructs the W3 Lorentzian field map.
 
 ## Completion and failure
 

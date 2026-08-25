@@ -1,4 +1,4 @@
-# Construct Covariant Descent and Transfer
+# Construct Lorentzian Observable Completion
 
 A spatial wall precision becomes cosmological physics only after it is embedded in a covariant constrained system, assigned a Lorentzian state, and matched into the passive growing modes whose transfer produces observable statistics and data products. CWST presently specifies the slots but has not constructed this realization. Actual outcomes and persistent records belong to the later [[conservation-of-causal-charge/factive-descent-and-records|factive-record construction]].
 

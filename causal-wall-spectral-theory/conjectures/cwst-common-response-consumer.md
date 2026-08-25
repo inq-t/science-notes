@@ -1,6 +1,6 @@
 # CWST as a Consumer of the Common Response Form
 
-CWST conjectures that its nonconstant observational response is the mean-zero block of [[program-core/common-response-matrix|the common response form]], not evidence that the sub-observable algebra is itself a lumpy space. CST consumes the global scale contraction of that form; CWST consumes a carrier-changing representation of its observational block. Their strongest common-origin test is likely the scale variation of the spectral block rather than a nonzero quadratic mixed entry at an exactly homogeneous reference.
+CWST conjectures that its nonconstant observational response is the mean-zero block of [[program-core/common-response-form|the common response form]], not evidence that the sub-observable algebra is itself a lumpy space. CST consumes the global scale contraction of that form; CWST consumes a carrier-changing representation of its observational block. Their strongest common-origin test is likely the scale variation of the spectral block rather than a nonzero quadratic mixed entry at an exactly homogeneous reference.
 
 ## Imported common construction
 
@@ -51,7 +51,7 @@ G^{\mathsf p}_{\zeta\zeta}
 \mathcal K_{\zeta_{\mathrm{cos}}}.}
 $$
 
-[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including localization, measure conversion, any modular-frequency transform, and probability-1PI construction. [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|The W3 conjecture]] owns the gauge-reduced Lorentzian realization \(R_{\mathrm s}\).
+[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including localization, measure conversion, any modular-frequency transform, and probability-1PI construction. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The W3 conjecture]] owns the gauge-reduced Lorentzian realization \(R_{\mathrm s}\).
 
 The hidden sector matters before this map. Eliminating a constructed auxiliary or heavy block can give
 

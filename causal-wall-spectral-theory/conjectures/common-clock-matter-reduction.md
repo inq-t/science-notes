@@ -1,4 +1,4 @@
-# Common-Clock Descent
+# Common-Clock Matter Reduction
 
 One CWST member conjectures that the physical wall scalar selects a single local clock displacement for all material sectors. If granted, relative density isocurvature vanishes algebraically at linear order; the wall quotient does not derive this rank-one material reduction, and further hypotheses are needed for conserved curvature and coherent transfer.
 

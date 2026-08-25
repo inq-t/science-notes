@@ -40,7 +40,7 @@ $$
 
 and it cannot be replaced by the weighted internal sum. Showing that this full joint metric is Hessian requires a common affine model for the central law and the conditional states, not merely sectorwise potentials.
 
-Thus the mixed response relation already used by [[program-core/common-response-matrix|the common response form]],
+Thus the mixed response relation already used by [[program-core/common-response-form|the common response form]],
 
 $$
 \mathcal C^{(\alpha),\mathrm{int}}_{N\zeta\zeta}

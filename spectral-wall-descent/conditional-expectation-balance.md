@@ -117,7 +117,7 @@ G^{\mathrm{pre}}_{IJ}
 +G^{\mathrm{wall}}_{IJ}.}
 $$
 
-This is the exact quadratic balance sought by [[program-core/common-response-matrix|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state.
+This is the exact quadratic balance sought by [[program-core/common-response-form|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state.
 
 ## Nested expectations and scale towers
 

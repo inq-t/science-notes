@@ -1,4 +1,4 @@
-# The Wall-Tensor-to-Graviton Map
+# The Wall-Tensor-to-Cosmological-Graviton Map
 
 CWST conjectures that a transverse-traceless wall field whose W2 response has become a positive spatial tensor precision can be represented as the gauge-reduced Lorentzian graviton whose correlations are observed. This W3\(_{\mathrm t}\) map is independent of the scalar curvature map and of the microscopic calculation of a spin-two response.
 

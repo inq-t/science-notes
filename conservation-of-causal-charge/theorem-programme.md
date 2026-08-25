@@ -41,7 +41,7 @@ Supply the context rule, instrument, actual outcome slot, conditional state, rec
 
 ## CC--T5: prove the state--geometry weld
 
-Construct the measure-valued bilinear form \(\mu^{\mathrm{desc}}_{v,w}\) required by [[program-core/descent-response-geometry|descent-response geometry]]; prove a same-tangent relation to gravitational canonical energy; and derive its Radon--Nikodym density \(\boldsymbol\chi(v,w;p)\) with respect to independently normalized area.
+Construct the measure-valued bilinear form \(\mu^{\mathrm{desc}}_{v,w}\) required by [[program-core/localized-areal-response-geometry|descent-response geometry]]; prove a same-tangent relation to gravitational canonical energy; and derive its Radon--Nikodym density \(\boldsymbol\chi(v,w;p)\) with respect to independently normalized area.
 
 **Success:** the localized response and the gravitational form satisfy the covariant homothety
 

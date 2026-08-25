@@ -1,4 +1,4 @@
 [module]
-name = "lorentzian-spectral-envelope"
+name = "cauchy-spectral-envelope"
 entry = "entry.md"
 include = ["**/*.md"]

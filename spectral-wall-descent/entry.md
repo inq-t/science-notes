@@ -143,7 +143,7 @@ The finite and spectral calculations establish the following useful facts.
    \cong A_{n-1}.
    $$
 
-   Its real span is the decomposition into the homogeneous direction and mean-zero observational distinctions used by [[program-core/common-response-matrix|the common response form]].
+   Its real span is the decomposition into the homogeneous direction and mean-zero observational distinctions used by [[program-core/common-response-form|the common response form]].
 
 2. A two-level finite spectral triple makes the wall BKM cost a positive norm of a Dirac commutator. Its bulk spectral action remains constant along conjugacy orbits while its fixed-context entropy defect changes. [[spectral-wall-descent/finite-spectral-wall|The finite spectral wall]] gives the formulas and reproducible receipt.
 
@@ -175,7 +175,7 @@ The finite Majorana block in Connes' Standard Model geometry supplies an additio
 
 [[vendor/postquantum-gravity/entry|Postquantum gravity]] begins from a fundamental classical--quantum split and asks which completely positive stochastic dynamics can preserve it. Its decoherence--diffusion trade-off and Onsager--Machlup history weight are therefore downstream of the question posed here. At trade-off saturation, purity conditioned on a classical trajectory is an exact result in that theory; it does not imply unitarity of this wall, because the classical trajectory and the action over histories have already been assumed.
 
-The transferable idea is narrower. An equation-of-motion-squared functional can be a positive cost or probability weight rather than a deterministic higher-derivative action. That supplies a useful observable model for a descent residue and motivates the positive cost realization in [[program-core/common-response-matrix#A positive descent-cost realization|the common response construction]]. It does not derive the noninvertible context map, identify diffusion with \(\Sigma_E\), or explain why a classical spacetime carrier exists. Importing that carrier would assume the descent that this module is meant to construct.
+The transferable idea is narrower. An equation-of-motion-squared functional can be a positive cost or probability weight rather than a deterministic higher-derivative action. That supplies a useful observable model for a descent residue and motivates the positive cost realization in [[program-core/common-response-form#A positive descent-cost realization|the common response construction]]. It does not derive the noninvertible context map, identify diffusion with \(\Sigma_E\), or explain why a classical spacetime carrier exists. Importing that carrier would assume the descent that this module is meant to construct.
 
 ## Present construction boundary
 

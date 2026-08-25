@@ -1,6 +1,6 @@
 # The Center-Valued Common Response Form
 
-The common response form is proposed as one positive, generally center-valued geometry on a transported physical tangent. Its homogeneous, observational, mixed, and hidden blocks become a matrix only after a chart and scalarization policy are chosen. This note owns their common carrier and the mixed-jet test of common origin; central evaluation, Hessianity, localization, expectation balance, hidden-mode elimination, spatial realization, and fact formation are separate modules.
+The common response form is proposed as one positive, generally center-valued geometry on a transported physical tangent. Its homogeneous, observational, mixed, and hidden blocks become a matrix only after a chart and scalarization policy are chosen. This note owns their common carrier and the mixed-jet test of common origin; central resolution, Hessianity, localization, expectation balance, hidden-mode elimination, spatial realization, and fact formation are separate modules.
 
 ## The form belongs to the descent, not necessarily the substrate
 
@@ -213,7 +213,7 @@ It may hold for genuine radical directions under suitable regularity and fail fo
 
 A noninvertible wall may split a pre-wall response into retained and lost blocks, but that is a theorem about a chosen expectation or instrument, not another definition of the common form. [[spectral-wall-descent/conditional-expectation-balance|Conditional-expectation balance]] owns the exact finite Pythagorean split and explains why it is neither unitarity nor conservation of an information substance. [[conservation-of-causal-charge/unitarity-and-ontological-time|The unitarity audit]] owns the larger ontological boundary.
 
-Localization is a separate operation on a declared scalarized or center-linear response. [[program-core/descent-response-geometry|Localized areal response geometry]] owns its measure and Radon--Nikodym density. A spatial Fourier precision is a carrier-changing W2 consumer, while gravitational canonical energy and central area are further typed consumers. Agreement among these objects is a weld to be constructed, not a reason to call them entries of one matrix.
+Localization is a separate operation on a declared scalarized or center-linear response. [[program-core/localized-areal-response-geometry|Localized areal response geometry]] owns its measure and Radon--Nikodym density. A spatial Fourier precision is a carrier-changing W2 consumer, while gravitational canonical energy and central area are further typed consumers. Agreement among these objects is a weld to be constructed, not a reason to call them entries of one matrix.
 
 Factive selection and record extension occur later still. [[conservation-of-causal-charge/factive-descent-and-records|Factive descent]] owns compatible characters and one-sided records; [[program-core/record-scale-soldering|record--scale soldering]] owns any identification of their order with cosmic scale. Neither a fact nor time is an addend of the response form.
 

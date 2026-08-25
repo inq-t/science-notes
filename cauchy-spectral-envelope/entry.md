@@ -1,6 +1,6 @@
 # Heat Mixtures and Cauchy Spectral Envelopes
 
-A normalized mixture of Gaussian heat suppressions over an exponential distribution of heat scales is exactly a Cauchy-shaped spectral multiplier, hence a positive resolvent of a self-adjoint generator. This identity is a useful analytic component for spectral transfer, but it neither produces Lorentzian spacetime nor implements factual descent: its multiplier has no kernel, and its inverse is ordinarily unbounded rather than nonexistent. A Gamma family extends the construction and can yield a conditional three-dimensional \(|k|^{-3}\) covariance asymptotic only after the spatial carrier, generator, covariance interpretation, physical quotient, and normalization have been constructed independently.
+A normalized mixture of Gaussian heat suppressions over an exponential distribution of heat scales is exactly a Cauchy-shaped spectral multiplier, hence a positive resolvent of a self-adjoint generator. *Lorentzian* here names only the Cauchy line shape, not spacetime signature; the canonical module name therefore uses *Cauchy*. This identity is a useful analytic component for spectral transfer, but it neither produces Lorentzian spacetime nor implements factual descent: its multiplier has no kernel, and its inverse is ordinarily unbounded rather than nonexistent. A Gamma family extends the construction and can yield a conditional three-dimensional \(|k|^{-3}\) covariance asymptotic only after the spatial carrier, generator, covariance interpretation, physical quotient, and normalization have been constructed independently.
 
 ## The meaning
 
@@ -254,7 +254,7 @@ For the positive operator \(A=\sqrt{-\Delta}\), one has \(|A|^{-3}=A^{-3}\), wit
 
 ### W2: an analytic factor after the carrier change
 
-[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|W2]] seeks a map from a mean-zero observational BKM block to a three-dimensional probability-1PI precision. The heat-mixture theorem can provide a positive spectral-multiplier factor only **after** W2 has supplied a spatial Hilbert space and a self-adjoint generator \(A\). It does not itself provide:
+[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|W2]] seeks a map from a mean-zero observational BKM block to a three-dimensional probability-1PI precision. The heat-mixture theorem can provide a positive spectral-multiplier factor only **after** W2 has supplied a spatial Hilbert space and a self-adjoint generator \(A\). It does not itself provide:
 
 - localization or areal-to-volume measure conversion;
 - the state-dependent BKM-to-source transform;

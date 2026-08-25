@@ -1,4 +1,4 @@
-# The Wall Residue Is Curvature
+# The Wall-Scalar-to-Curvature Map
 
 CWST conjectures that a physical mean-zero residue of observational scale descent can be represented as the gauge-invariant curvature perturbation whose correlations are observed. The residue need not be an inhomogeneity of the sub-observable algebra. The equality is not a definition: it requires a spacetime realization, gauge reduction, constraint solution, canonical normalization, and matching theorem.
 

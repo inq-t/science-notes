@@ -14,7 +14,7 @@ This ledger separates the established geometry and information theory from the p
 ## Existing canonical project owners
 
 - [[basic-concepts/hessians/entry|Hessians]] owns the general second-variation, relative-entropy, covariance/precision, and characteristic-dependent distinctions.
-- [[program-core/common-response-matrix|The common response form]] owns the transported physical datum, shared response blocks, mixed jet, and common-form construction gates.
+- [[program-core/common-response-form|The common response form]] owns the transported physical datum, shared response blocks, mixed jet, and common-form construction gates.
 - [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher density, internal sector density, retained central law, and evaluation taxonomy.
 - [[spectral-wall-descent/hidden-resolvent-and-seesaw|The hidden-resolvent note]] owns Schur elimination and its typed physical possibilities.
 - [[algebra/real-forms-and-factive-spacetime|Real forms and factive spacetime]] owns the fixed-locus theorem and the later Lorentzian-history target.

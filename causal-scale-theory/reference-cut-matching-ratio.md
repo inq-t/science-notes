@@ -1,4 +1,4 @@
-# Homogeneous Scale Capacity
+# The Reference-Cut Matching Ratio
 
 The CST capacity parameter is the value of a cut-integrated state-to-gravitational response ratio at a distinguished reference cut after a central evaluation policy has been declared. It normalizes any admitted homogeneous response member there, but it is neither the member's shape, the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone. The historical subscript \(c\) marks a candidate crossing and becomes an event label only in a member that constructs the crossing.
 
@@ -15,7 +15,7 @@ $$
 
 This scalar includes both central-weight Fisher response and the weighted internal sector responses when the central law varies. [[program-core/center-valued-response|Center-valued response and scalarization]] owns that decomposition and the alternatives. Replacing \(\omega^Z_N\) by a conditional sector metric or by an instrumentally realized outcome defines a different CST member; it is not a silent re-reading of the equations below.
 
-[[program-core/descent-response-geometry|The programme core]] distinguishes the local areal descent modulus \(\chi_N(p)\), the local matching field \(\mathfrak r_{\Sigma,N}(p)\), and the integrated cut ratio
+[[program-core/localized-areal-response-geometry|The programme core]] distinguishes the local areal descent modulus \(\chi_N(p)\), the local matching field \(\mathfrak r_{\Sigma,N}(p)\), and the integrated cut ratio
 
 $$
 \mathfrak R_\Sigma(N)

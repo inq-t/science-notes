@@ -1,4 +1,4 @@
-# Conjecture: Wall Dynamics Grounds the Coincident Crossing
+# Conjecture: Wall Dynamics Grounds the Event-Locus Coincidence
 
 The balanced binary fixed point, maximum normalized susceptibility, maximum extensive capacity, stationary homogeneous density, \(w_X=-1\), weak unit matching, and equal cosmological partition are not presently one theorem. CST conjectures that an independently constructed wall dynamics derives the premises that place these events on one cut, rather than coordinating them by definition and separate unit assumptions.
 

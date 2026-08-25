@@ -240,7 +240,7 @@ This use captures a genuine relational function: quantities from different regis
 
 ### Proposed kernel identifications
 
-[[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|The state-to-spatial-precision conjecture]] proposes a carrier-changing chain from a state-space [[basic-concepts/hessians/entry|Hessian]] to a spatial wall precision; [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|the curvature conjecture]] proposes the separate Lorentzian physical-field realization. Here the relevant question is even stronger than whether two expressions have matching dimensions: each construction must supply its domains, intervening maps, covariance, any analytic continuation, and the claimed positivity and invertibility. Until those arrows are built, *weld* or *soldering* names a research obligation rather than an achieved identification.
+[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The state-to-spatial-precision conjecture]] proposes a carrier-changing chain from a state-space [[basic-concepts/hessians/entry|Hessian]] to a spatial wall precision; [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|the curvature conjecture]] proposes the separate Lorentzian physical-field realization. Here the relevant question is even stronger than whether two expressions have matching dimensions: each construction must supply its domains, intervening maps, covariance, any analytic continuation, and the claimed positivity and invertibility. Until those arrows are built, *weld* or *soldering* names a research obligation rather than an achieved identification.
 
 ## A test for future uses
 

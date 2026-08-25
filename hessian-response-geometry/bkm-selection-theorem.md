@@ -107,7 +107,7 @@ A pullback \(\Phi^*g_{\mathrm{BKM}}\) along a CRM state map is certainly BKM-der
 
 ## Consequence for CRM
 
-[[program-core/common-response-matrix|CRM]] currently chooses a BKM pullback because relative-entropy response and data processing are desired. Grasselli--Streater can strengthen that choice only by applying the theorem on its actual carrier:
+[[program-core/common-response-form|The common response construction]] currently chooses a BKM pullback because relative-entropy response and data processing are desired. Grasselli--Streater can strengthen that choice only by applying the theorem on its actual carrier:
 
 1. construct the metric on the full finite faithful-state manifold \(\mathcal M_n\);
 2. prove monotonicity for the source theorem's stochastic-map class;

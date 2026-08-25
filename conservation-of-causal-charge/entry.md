@@ -99,7 +99,7 @@ Here the state sector includes bulk matter; splitting wall-state and bulk contri
 
 ## Geometry is a representation, not an extra stock
 
-[[state-geometry-charge-weld]] isolates the decisive bridge. BKM capacity is quadratic, whereas causal charge is linear. Following [[program-core/descent-response-geometry|the canonical response geometry]], the primary state-side object is a localized bilinear measure whose scale contraction is
+[[state-geometry-charge-weld]] isolates the decisive bridge. BKM capacity is quadratic, whereas causal charge is linear. Following [[program-core/localized-areal-response-geometry|the canonical response geometry]], the primary state-side object is a localized bilinear measure whose scale contraction is
 
 $$
 \chi_N(p)

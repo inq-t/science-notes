@@ -1,4 +1,4 @@
-# The Anchored Free-Energy Source
+# The Anchored Response-Density Postulate
 
 CST constitutively maps the cut-integrated horizontal distinguishability norm to a homogeneous energy density using conversion data fixed at a distinguished reference cut. Relative entropy explains why a positive quadratic response is natural; it does not derive this all-history source, its anchoring prescription, its factor of one half, or the claim that the reference cut is a physical crossing.
 
@@ -10,7 +10,7 @@ $$
 :=\frac{k_BT_c}{2V_c}G^\perp_{NN}(N),}
 $$
 
-where \(T_c\) and \(V_c\) are data anchored at that reference cut and \(G^\perp_{NN}\) is [[causal-scale-theory/scale-capacity|the declared normal unconditioned evaluation]] of the center-valued full-cut response. The source law does not choose a central state, a response member, or a factive sector for itself. The state coordinate is a comparison coordinate unless a covariant field construction proves more; [[wall-construction-interface/state-coordinate-types|the state-coordinate ledger]] owns that distinction.
+where \(T_c\) and \(V_c\) are data anchored at that reference cut and \(G^\perp_{NN}\) is [[causal-scale-theory/reference-cut-matching-ratio|the declared normal unconditioned evaluation]] of the center-valued full-cut response. The source law does not choose a central state, a response member, or a factive sector for itself. The state coordinate is a comparison coordinate unless a covariant field construction proves more; [[wall-construction-interface/state-coordinate-types|the state-coordinate ledger]] owns that distinction.
 
 ## What the Hessian does and does not supply
 

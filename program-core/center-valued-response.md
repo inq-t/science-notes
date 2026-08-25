@@ -164,6 +164,6 @@ For a diffuse center, the sums become direct integrals. Point characters may the
 
 ## Ownership boundary
 
-[[program-core/common-response-matrix|The common response form]] owns how the homogeneous, mean-zero observational, mixed, and hidden blocks belong to one response geometry. This note owns only their central resolution and evaluation. CST and CWST may choose an evaluation policy, but they must link here rather than reconstructing the Fisher decomposition or treating an unannounced character as a physical outcome.
+[[program-core/common-response-form|The common response form]] owns how the homogeneous, mean-zero observational, mixed, and hidden blocks belong to one response geometry. This note owns only their central resolution and evaluation. CST and CWST may choose an evaluation policy, but they must link here rather than reconstructing the Fisher decomposition or treating an unannounced character as a physical outcome.
 
 The primary operator-algebraic sources for relative-entropy Hessians and BKM geometry are maintained in [[hessian-response-geometry/sources|the Hessian-response source ledger]]. The finite direct-sum formula above follows directly by applying the functional calculus block by block; its use for a continuum center still requires a declared direct-integral measure and regularity hypotheses.

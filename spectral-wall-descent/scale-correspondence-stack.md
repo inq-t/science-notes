@@ -207,7 +207,7 @@ A physical instance is complete only if it supplies:
 7. the algebraically selected central edge state and its composition law;
 8. spectral area and real-structure data independent of measured gravity;
 9. the later commutative readout, character, and persistent record maps; and
-10. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-matrix|the common response form]].
+10. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-form|the common response form]].
 
 At present this is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces of the proposed object; they do not yet supply a dynamical FLRW instance or effective descent on a physical context site.
 

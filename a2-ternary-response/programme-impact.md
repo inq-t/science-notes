@@ -32,7 +32,7 @@ If no such construction exists, the ternary response is not an error term. It is
 |---|---|---|
 | $A_2$ algebraic geometry | a local three-sheet carrier and a Weyl orbit of root directions | a positive $*$-realization, state bundle, extension across the discriminant, and physical functor |
 | wall construction | a concrete spectator whose removal can be tested | a CP instrument, expectation, quotient, or gap that actually returns a balanced binary family |
-| [[program-core/common-response-matrix|CRM]] | a finite Hessian potential $\Psi_{A_2}$ with exact quadratic and cubic response | the common carrier, physical tangent quotient, cross-scale transport, and continuum renormalization |
+| [[program-core/common-response-form|CRM]] | a finite Hessian potential $\Psi_{A_2}$ with exact quadratic and cubic response | the common carrier, physical tangent quotient, cross-scale transport, and continuum renormalization |
 | [[causal-scale-theory/response-family-interface|CST response-family audit]] | an exact competing finite response and allocation law | construction of an $A_2$ member's state carrier, scalarization, $\theta(N)$, extensive normalization, source map, and covariant dynamics |
 | CWST | a finite positive BKM seed | localization, areal-to-volume conversion, spatial carrier, source transform, and probability-1PI construction in W2 |
 | $S^6/A_2$ branch | evidence that monodromy and singular gluing can organize globally nontrivial presentation | an actual comparison functor between the manuscript's toric $A_2$ combinatorics and this analytic inverse-cover $A_2$ |

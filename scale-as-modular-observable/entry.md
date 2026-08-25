@@ -13,7 +13,7 @@ This is a promising research programme, not a closed derivation of dark energy. 
 2. [[wall-construction-interface/vertical-and-horizontal-motion|Vertical modular flow]] is separated from horizontal motion through a scale-indexed family of states.
 3. [[binary-information-geometry/entry|Normal chirality]] is proposed as the reduced homogeneous horizontal degree of freedom.
 4. [[basic-concepts/soldering/affine-scale-state|Cocycle soldering]] gives a logarithmic state coordinate, conditional on ratio dependence, rank-one generation, and regularity.
-5. [[program-core/ruble-equations#RE6 — Integrated reference matching|Weak unit matching]] and [[causal-scale-theory/free-energy-source|the modular source law]] are additional physical inputs; [[conformal-scale-geometry/hawking-friedmann-identity|the horizon conversion]] supplies units.
+5. [[program-core/ruble-equations#RE6 — Integrated reference matching|Weak unit matching]] and [[causal-scale-theory/anchored-response-density-postulate|the modular source law]] are additional physical inputs; [[conformal-scale-geometry/hawking-friedmann-identity|the horizon conversion]] supplies units.
 6. The [[causal-scale-theory/unit-branch|conditional homogeneous response]] then follows on the unit branch.
 7. [[binary-information-geometry/witten-darboux|The binary Witten pair]] is exact internal geometry, while its physical perturbation lift is still missing.
 

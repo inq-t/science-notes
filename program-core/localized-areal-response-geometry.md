@@ -1,10 +1,10 @@
 # Localized Areal Response Geometry
 
-Localized areal response geometry asks whether a transported positive state-space response can be represented by a countably additive bilinear measure on a causal cut and compared with an independently normalized area measure. Its primary object is the measure-valued form; the local modulus, cut average, and proposed universal scalar are different contractions. Existence, covariance, continuum finiteness, absolute continuity, and compatibility with central evaluation are open constructions.
+Localized areal response geometry asks whether a transported positive state-response form can be represented by a countably additive bilinear measure on a causal cut and compared with an independently normalized area measure. Its primary object is the measure-valued form; the local modulus, cut average, and proposed universal scalar are different contractions. Existence, covariance, continuum finiteness, absolute continuity, and compatibility with central evaluation are open constructions.
 
 ## Inputs and ordering policy
 
-This note begins with a causal cut \(\Sigma\), a transported physical tangent \(H^{\mathrm p}_\Sigma\), and a positive response supplied by [[program-core/common-response-matrix|the common response form]]. The algebra, state, transport, physical quotient, and tangent normalization must already be declared; a rescaling \(v\mapsto av\) rescales every quadratic response by \(a^2\).
+This note begins with a causal cut \(\Sigma\), a transported physical tangent \(H^{\mathrm p}_\Sigma\), and a positive response supplied by [[program-core/common-response-form|the common response form]]. The algebra, state, transport, physical quotient, and tangent normalization must already be declared; a rescaling \(v\mapsto av\) rescales every quadratic response by \(a^2\).
 
 For a nontrivial center, [[program-core/center-valued-response|the center-valued owner]] supplies
 
@@ -154,7 +154,7 @@ Einstein universality would be the special case in which the relevant state-to-g
 
 ## Relation to the common response form
 
-If [[program-core/common-response-matrix|the common response form]] contains homogeneous, observational, mixed, and hidden blocks, a successful localization may return the corresponding matrix of measures or Radon--Nikodym densities. Every scalar block must use one declared evaluation policy, or else the localized blocks are not contractions of one form. The construction must also prove that evaluation and localization commute or retain the center-valued measure until evaluation.
+If [[program-core/common-response-form|the common response form]] contains homogeneous, observational, mixed, and hidden blocks, a successful localization may return the corresponding matrix of measures or Radon--Nikodym densities. Every scalar block must use one declared evaluation policy, or else the localized blocks are not contractions of one form. The construction must also prove that evaluation and localization commute or retain the center-valued measure until evaluation.
 
 Localization does not perform a Fourier covariance-to-precision map. A three-dimensional spectral precision changes carrier and measure and belongs to CWST's W2 consumer; it is not the localized observational block merely because both are quadratic. A spatial kernel normalized per volume can have units \(L^{-3}\), whereas \(\boldsymbol\chi\) has units \(L^{-2}\). An integration, boundary map, or soldering theorem must account for the mismatch.
 

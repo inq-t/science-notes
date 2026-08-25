@@ -1,12 +1,12 @@
 # Four Tools in the Library, and the One the Programme Already Owns
 
-An audit of `library/complex-structure-on-s6`, `library/hodge-atoms-spectral-triples-bps`, and the postquantum-gravity cluster, against the open obligations of [[program-core/common-response-matrix|the common response matrix]] and [[causal-wall-spectral-theory/conjectures/state-response-is-spatial-precision|the W2 conjecture]]. The result is one positive finding, one negative finding, one identification, and one genuine import. The positive finding is that the response matrix has independently rediscovered Hessian geometry, and that the missing real-form datum $\tau$ follows from it. The negative finding is that the $S^6$ manuscript's own Remark 3.23 forbids the use the programme would want from it.
+An audit of `library/complex-structure-on-s6`, `library/hodge-atoms-spectral-triples-bps`, and the postquantum-gravity cluster, against the open obligations of [[program-core/common-response-form|the common response matrix]] and [[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|the W2 conjecture]]. The result is one positive finding, one negative finding, one identification, and one genuine import. The positive finding is that the response matrix has independently rediscovered Hessian geometry, and that the missing real-form datum $\tau$ follows from it. The negative finding is that the $S^6$ manuscript's own Remark 3.23 forbids the use the programme would want from it.
 
 Receipts: `hessian-library-audit-receipts.py` (requires `numpy`; prints PASS/FAIL per claim, nonzero exit on failure). Every numerical claim below carries a receipt line.
 
 ## 1. The response matrix is a Hessian manifold, and BKM is forced by that
 
-[[program-core/common-response-matrix|The common response matrix]] asks for, in its own notation,
+[[program-core/common-response-form|The common response matrix]] asks for, in its own notation,
 
 $$
 G_{IJ}=\partial_I\partial_J\Psi,
@@ -64,7 +64,7 @@ $$
 \end{aligned}}
 $$
 
-This is the boxed implication of the real-forms note, run backwards, with the conditional datum supplied. Two honest limits travel with it. The three is the dimension of **the physical tangent quotient**, not of physical space; it does not by itself deliver a carrier for [[causal-wall-spectral-theory/open-questions/state-to-spectral-representation|W2]], whose target is a $k$-indexed mode space. And $TM$ is noncompact and Kähler, so this route and the $S^6$ route are mutually exclusive rather than complementary — see §3.
+This is the boxed implication of the real-forms note, run backwards, with the conditional datum supplied. Two honest limits travel with it. The three is the dimension of **the physical tangent quotient**, not of physical space; it does not by itself deliver a carrier for [[causal-wall-spectral-theory/open-questions/bkm-source-kernel-comparison|W2]], whose target is a $k$-indexed mode space. And $TM$ is noncompact and Kähler, so this route and the $S^6$ route are mutually exclusive rather than complementary — see §3.
 
 ## 3. The $S^6$ manuscript is a negative result for the response programme
 
@@ -86,13 +86,13 @@ The manuscript draws the consequences: "the fibres of $J$ carry no monodromy-com
 
 So this threefold supplies **no positive Hodge metric, no polarisation, no Kähler potential, and no limit mixed Hodge structure**. It cannot carry a positive response block, and it cannot be a $TM$ of §2. Whatever the branch is eventually good for, it is not a carrier for $G^{\mathrm{BKM}}$.
 
-The signature is informative rather than merely negative. The one positive direction is $\operatorname{Im}\tau$ — the modular, i.e. scale, direction — and the extra directions of the rank-four lattice are the negative one. Transcribed into [[program-core/common-response-matrix|CRM]] variables that reads $G_{NN}>0$ with the nonconstant sector **negative**, contradicting $G_{\zeta\zeta}\succeq0$. Positivity of the mean-zero block is therefore a load-bearing hypothesis with a concrete counter-model in the library, not a formality.
+The signature is informative rather than merely negative. The one positive direction is $\operatorname{Im}\tau$ — the modular, i.e. scale, direction — and the extra directions of the rank-four lattice are the negative one. Transcribed into [[program-core/common-response-form|CRM]] variables that reads $G_{NN}>0$ with the nonconstant sector **negative**, contradicting $G_{\zeta\zeta}\succeq0$. Positivity of the mean-zero block is therefore a load-bearing hypothesis with a concrete counter-model in the library, not a formality.
 
 One correction to the branch note's obligation list. Proposition 2.11(ii) records that $\Delta(3,4,\infty)$ is the orientation-preserving index-two subgroup of the reflection group of the hyperbolic triangle with angles $\pi/3,\pi/4,0$. The base therefore *does* carry a canonical antiholomorphic involution. Whether any $\sigma_a,\sigma_b,\sigma_c$ lifts to $X$ compatibly with $\Pi(z)$ and the lattice $\Lambda$ is a sharp, checkable question and is obligation zero for any real-form use of the branch. By §2 it is not the cheapest route to a $\tau$.
 
 ## 4. The decoherence--diffusion trade-off is the vault's own Schur complement
 
-[[vendor/postquantum-gravity/cq-construction|The CQ construction]] records the trade-off $4D_0\succeq D_2^{-1}$ and its saturation $4D_2=D_1D_0^{-1}D_1$; [[library/stochastic-modes-in-postquantum-gravity/entry|Oppenheim and Sajjad]] write it as $\mathcal D_0\geq64\pi^2G_N^2\mathcal D_2^{-1}$ with $\mathcal D_1=8\pi G_N$. [[program-core/common-response-matrix|The response matrix]] independently records hidden-mode elimination as $G^{\mathrm{eff}}_{xx}=G_{xx}-G_{xh}G_{hh}^{+}G_{hx}$.
+[[vendor/postquantum-gravity/cq-construction|The CQ construction]] records the trade-off $4D_0\succeq D_2^{-1}$ and its saturation $4D_2=D_1D_0^{-1}D_1$; [[library/stochastic-modes-in-postquantum-gravity/entry|Oppenheim and Sajjad]] write it as $\mathcal D_0\geq64\pi^2G_N^2\mathcal D_2^{-1}$ with $\mathcal D_1=8\pi G_N$. [[program-core/common-response-form|The response matrix]] independently records hidden-mode elimination as $G^{\mathrm{eff}}_{xx}=G_{xx}-G_{xh}G_{hh}^{+}G_{hx}$.
 
 These are one piece of algebra. For a symmetric block matrix,
 
@@ -116,7 +116,7 @@ Three consequences.
 
 ## 5. The one genuinely new import: semiorthogonal decompositions
 
-[[program-core/common-response-matrix|CRM]] wants a wall that is "genuinely noninvertible," and currently realises it by a state-preserving conditional expectation with the Pythagorean split $\mathbb G^{\mathrm{pre}}=\mathbb G^{\mathrm{obs}}+\mathbb G^{\mathrm{wall}}$. [[spectral-wall-descent/conditional-expectation-balance|The modular existence gate]] then records that by Takesaki's theorem such an expectation exists only when $\sigma_t^\varphi(\mathcal N)=\mathcal N$, so "a generic measurement context therefore does not admit the expectation required by the exact theorem."
+[[program-core/common-response-form|CRM]] wants a wall that is "genuinely noninvertible," and currently realises it by a state-preserving conditional expectation with the Pythagorean split $\mathbb G^{\mathrm{pre}}=\mathbb G^{\mathrm{obs}}+\mathbb G^{\mathrm{wall}}$. [[spectral-wall-descent/conditional-expectation-balance|The modular existence gate]] then records that by Takesaki's theorem such an expectation exists only when $\sigma_t^\varphi(\mathcal N)=\mathcal N$, so "a generic measurement context therefore does not admit the expectation required by the exact theorem."
 
 A **semiorthogonal decomposition** is the standard mathematics of an exact decomposition that is orthogonal in one direction only:
 

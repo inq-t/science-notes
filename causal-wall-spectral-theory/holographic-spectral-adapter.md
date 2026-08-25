@@ -1,6 +1,6 @@
 # The Optional Holographic Spectral Adapter
 
-The holographic spectral adapter is an optional representation of selected CWST response arrows by a continued three-dimensional stress-tensor theory. It is available only after a wall member constructs the source, state, carrier pairing, and response that enter the adapter. It neither defines the general W2 map nor constructs the W3 Lorentzian scalar or tensor field.
+The holographic spectral adapter is an optional factorization of selected CWST response arrows through a continued three-dimensional stress-tensor theory. It is available only after a wall member constructs the source, state, carrier pairing, and response that enter the adapter. It neither defines the general W2 map nor constructs the W3 Lorentzian scalar or tensor field.
 
 ## Eligibility datum
 
@@ -39,7 +39,7 @@ or provide a different typed route. The adapter fails if the paired operators do
 
 The QFT, state, regulator, subtraction prescription, momentum variables, theory parameters, and response coefficients must be analytically continued together. The member must state the branch orientation and reality/positivity condition of the continued kernel. Continuing only a final coefficient while leaving its state or regulator implicit does not define an adapter.
 
-A modular or KMS kernel can make the wall-to-Euclidean relation frequency dependent. [[causal-wall-spectral-theory/open-questions/state-to-spectral-representation|The same-source comparison]] owns the experiment that distinguishes a scalar normalization from such a transform.
+A modular or KMS kernel can make the wall-to-Euclidean relation frequency dependent. [[causal-wall-spectral-theory/open-questions/bkm-source-kernel-comparison|The same-source comparison]] owns the experiment that distinguishes a scalar normalization from such a transform.
 
 ## Contact and analytic qualifications
 
@@ -53,4 +53,4 @@ A member predicts only when it computes \(c_{\mathrm{calc}}^{(0)}(k)\) or \(c_{\
 
 The adapter is upgraded when \(\mathfrak H\), the paired operators, simultaneous continuation, state, branch, regulator, contacts, and physical effective image are all constructed. It fails for a member if the wall datum is outside the vendor's domain, the source pairing is absent, continuation is inconsistent, or the continued response cannot define the claimed positive spatial probability kernel.
 
-Failure of [[causal-wall-spectral-theory/conjectures/wall-residue-is-curvature|scalar W3]], [[causal-wall-spectral-theory/conjectures/wall-tensor-is-physical-graviton|tensor W3]], or an observational fit is downstream and is not failure of this adapter. Conversely, a successful adapter cannot discharge either W3 field-identification problem.
+Failure of [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|scalar W3]], [[causal-wall-spectral-theory/conjectures/wall-tensor-to-cosmological-graviton|tensor W3]], or an observational fit is downstream and is not failure of this adapter. Conversely, a successful adapter cannot discharge either W3 field-identification problem.

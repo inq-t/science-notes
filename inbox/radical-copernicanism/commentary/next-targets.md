@@ -19,7 +19,7 @@ Formulate and prove the cosmological Clausius identity: the relative-entropy dec
 
 ## T3 — Recast synchronization as a fixed point
 
-The balanced reference ρ₀ = 𝟙/2 is the normalized trace of the binary channel, so the crossing is the cut where the channel coincides with its own trace (see `retyped-conservation.md`). Restate [[causal-scale-theory/conjectures/self-dual-synchronization|the synchronization conjecture]]'s first gate as: *the wall moduli object has a unique cut at which the physical channel sits at its own tracial state, and the capacity, density, and w = −1 loci are consequences of that coincidence.* This turns a coordination of seven events into one fixed-point statement plus derivations — a cleaner theorem target and a cleaner failure mode.
+The balanced reference ρ₀ = 𝟙/2 is the normalized trace of the binary channel, so the crossing is the cut where the channel coincides with its own trace (see `retyped-conservation.md`). Restate [[causal-scale-theory/conjectures/event-locus-coincidence|the synchronization conjecture]]'s first gate as: *the wall moduli object has a unique cut at which the physical channel sits at its own tracial state, and the capacity, density, and w = −1 loci are consequences of that coincidence.* This turns a coordination of seven events into one fixed-point statement plus derivations — a cleaner theorem target and a cleaner failure mode.
 
 ## T4 — The ε ≠ 0 dominant-weight GAP as an external contribution
 
