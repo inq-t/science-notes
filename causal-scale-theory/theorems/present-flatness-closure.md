@@ -1,8 +1,8 @@
-# Present-Flatness Closure
+# CST-B2 Present-Flatness Closure
 
-For the flat, zero-residual CST background, present flatness eliminates the crossing critical density and gives one implicit equation for the crossing date. The result is an exact conditional reduction of the homogeneous assumptions, not a microscopic selection of a root.
+For the flat, zero-residual CST-B2 background, present flatness eliminates the reference critical density and gives one implicit equation for the candidate-crossing date. The result is an exact conditional reduction of this member's homogeneous assumptions, not a microscopic selection of a root and not a theorem about every CST response member.
 
-Assume a spatially flat \(3+1\)-dimensional GR--FLRW background containing matter, radiation, and the CST response, with no residual or additional sector. Let
+Assume a spatially flat \(3+1\)-dimensional GR--FLRW background containing matter, radiation, and the CST-B2 response, with no residual or additional sector. Let
 
 $$
 \Omega_{m0}\geq0,

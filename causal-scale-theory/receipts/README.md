@@ -1,6 +1,6 @@
 # Receipt Contract
 
-The receipt suite separates reduced algebra from homogeneous-background arithmetic. It tests formula implementation only; no receipt validates the wall construction, constitutive source, unit principles, dimensional applicability, or observational fit.
+The receipt suite separates reduced binary algebra from CST-B2 homogeneous-background arithmetic. It tests formula implementation for that member only; no receipt validates the wall construction, selects CST-B2 from [[causal-scale-theory/response-family-interface|the wider response family]], promotes the $A_2$ audit to a cosmology, or establishes the constitutive source, unit principles, dimensional applicability, or observational fit.
 
 Run locally with
 
@@ -13,7 +13,7 @@ Any current Python 3 interpreter can run the scripts. Both use only the standard
 
 The `kind` field records how a check was performed. Exact rational substitutions, numerical quadrature, direct differentiation, root solving, and historical regression values remain distinguishable in the machine-readable output.
 
-The algebra receipt covers:
+The algebra receipt covers the exact binary and CST-B2 reductions:
 
 - binary Casimir balance and its derivative identity;
 - the density conic, logarithmic curvature, Riccati equation, and equation-of-state invariant;
@@ -22,7 +22,7 @@ The algebra receipt covers:
 - normalized Gibbs invariance and explicit first/second-moment invariance of variance under an additive central shift;
 - Fisher length and reflected relative entropy.
 
-The background receipt covers:
+The background receipt covers the CST-B2 background:
 
 - the weak-unit-matching, unit-rate present-flatness root;
 - $z_c,w_0,w_a,q_0,j_0$, acceleration entry, and future exit;

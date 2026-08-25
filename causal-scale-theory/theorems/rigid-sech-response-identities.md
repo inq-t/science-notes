@@ -1,6 +1,6 @@
-# Rigid Sech Response Identities
+# CST-B2 Rigid Sech Response Identities
 
-A positive \(\operatorname{sech}^2\) density with constant scale-state rate and separate homogeneous conservation has a uniquely determined equation of state, Riccati flow, and differential invariants. These are exact consequences of the stipulated pulse; they do not derive the pulse, its amplitude, or a covariant stress tensor.
+A positive \(\operatorname{sech}^2\) density with constant scale-state rate and separate homogeneous conservation has a uniquely determined equation of state, Riccati flow, and differential invariants. These are exact consequences of the stipulated profile used by CST-B2; they do not derive that member, its amplitude, or a covariant stress tensor, and they are not identities of [[causal-scale-theory/response-family-interface|the response-family interface]] in general.
 
 Let \(I\subseteq\mathbb R\) be an interval in logarithmic scale age \(N\), and suppose
 
@@ -22,7 +22,7 @@ $$
 '=\frac{\mathrm d}{\mathrm dN}.
 $$
 
-These are the complete load-bearing hypotheses. In CST the value of \(A\) comes from the constitutive and horizon bridges in [[causal-scale-theory/response-law|the homogeneous response interface]], but that provenance is not needed for the following theorem.
+These are the complete load-bearing hypotheses. In CST-B2 the value of \(A\) comes from the constitutive and horizon bridges in [[causal-scale-theory/response-law|the balanced-binary response note]], but that provenance is not needed for the following theorem.
 
 ## Equation of state and Riccati flow
 

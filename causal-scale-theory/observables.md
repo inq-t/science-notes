@@ -1,15 +1,15 @@
 # Observables and Discriminating Tests
 
-CST should be tested through observables that distinguish its rigid conditional background from flexible reconstructions and through completion tests that can falsify its microscopic interpretation. Every test must preserve the core types: \(\nu\) is the scale-state rate and inverse profile width, \(\mathfrak R_c\) is an integrated crossing ratio, \(m\) is binary polarization, and the signed \(\widehat\zeta_A\) is horizon rapidity rather than another state coordinate.
+CST should be tested through member-specific signatures and through completion tests that can falsify its microscopic interpretation. The executable background tests below belong to CST-B2, the present rigid balanced-binary member; another member of [[causal-scale-theory/response-family-interface|the response family]] must publish its own profile and failure conditions. Every CST-B2 test must preserve the core types: \(\nu\) is the scale-state rate and inverse profile width, \(\mathfrak R_c\) is an integrated reference ratio, \(m\) is binary polarization, and the signed \(\widehat\zeta_A\) is horizon rapidity rather than another state coordinate.
 
 ## Test hierarchy
 
 | Test | Required inputs | Failure condition | Present power |
 |---|---|---|---|
-| Direct background forward fit | \((\nu,\mathfrak R_c)\), root branch, ordinary abundances, residual sector; SNe, BAO, clocks, and distance data | No allowed branch fits the joint expansion data competitively | Executable now; moderate theory discrimination because flexible dark-energy histories can imitate the transition |
+| Direct CST-B2 background forward fit | \((\nu,\mathfrak R_c)\), root branch, ordinary abundances, residual sector; SNe, BAO, clocks, and distance data | No allowed branch fits the joint expansion data competitively | Executable now; moderate member discrimination because flexible dark-energy histories can imitate the transition |
 | Closure and branch atlas | Present flatness and declared abundances | No root, or only roots incompatible with the declared branch prior | Strong internal admissibility test; not independent evidence because flatness supplies the closure |
 | Linked \(w_0\)--\(w_a\) tangent | A separately identified response component and direct forward model | Posterior excludes the theorem relation for all allowed rates | Potentially useful, but a generic CPL posterior need not estimate the local CST tangent |
-| Rigid shape invariant | Reconstruction of \(w_X\) and \(w_X'\) with covariance | No constant \(\nu\) satisfies the response identity | Exact conditional signature, but differentiation is noisy and finite redshift coverage gives weak tail leverage |
+| CST-B2 rigid shape invariant | Reconstruction of \(w_X\) and \(w_X'\) with covariance | No constant \(\nu\) satisfies the response identity | Exact conditional member signature, but differentiation is noisy and finite redshift coverage gives weak tail leverage |
 | Finite acceleration and future class | Amplitude, branch, contents, separate conservation, and residual choice | Reconstructed history has an incompatible sign pattern or asymptotic class | Sharp model statement; current data constrain acceleration entry more directly than the remote future |
 | Horizon reconstruction diagnostic | Reconstructed \(H(N)\) and \(q(N)\) | No independent failure condition when every term is reconstructed from the same history; an independent area or rapidity determination would be required | Exact implementation diagnostic with no present independent CST discrimination |
 | Growth, lensing, and primary CMB | Covariant \(T^X_{ab}\), characteristic and constraint structure, initial conditions, Boltzmann implementation | Instability or unacceptable joint spectra and growth | Potentially decisive, but not honestly executable until [[causal-scale-theory/conjectures/covariant-response-sector|the response sector]] is constructed |
@@ -17,7 +17,7 @@ CST should be tested through observables that distinguish its rigid conditional 
 
 ## Background interface
 
-For a selected root \(x_c\), [[causal-scale-theory/future-asymptotics|the expansion function]] determines
+For a selected CST-B2 root \(x_c\), [[causal-scale-theory/future-asymptotics|the expansion function]] determines
 
 $$
 H(z),
@@ -42,9 +42,9 @@ $$
 
 [[conformal-scale-geometry/horizon-allocation|The conformal-scale theorem]] owns this kinematic identity and its limitations. When \(H\), \(q\), \(S_A\), and \(\widehat\zeta_A\) are all reconstructed from one history, the relation is an internal diagnostic rather than an independent empirical test. Independent discriminating power would require an operational area or rapidity determination not defined through that same reconstruction. The identity does not identify \(\widehat\zeta_A\) with modular time or with the binary polarization \(m\).
 
-## Rigid response signatures
+## CST-B2 rigid response signatures
 
-[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] proves, under a positive constant-rate pulse and separate conservation,
+[[causal-scale-theory/theorems/rigid-sech-response-identities|The CST-B2 rigid-sech theorem]] proves, under its positive constant-rate pulse and separate conservation,
 
 $$
 9(1+w_X)^2+6w_X'=4\nu^2,

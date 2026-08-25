@@ -1,6 +1,6 @@
-# Unit-Rate Crossing Sign
+# CST-B2 Unit-Rate Candidate-Crossing Sign
 
-On the flat zero-residual unit-rate background, the present-flatness function is strictly increasing, so the crossing root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\).
+On the flat zero-residual CST-B2 unit-rate background, the present-flatness function is strictly increasing, so the candidate-crossing root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\). This is a member theorem about the \(\operatorname{sech}^2\) closure function.
 
 Assume the hypotheses of [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]], set \(\nu=1\), and suppose
 

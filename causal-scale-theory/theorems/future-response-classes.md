@@ -1,8 +1,8 @@
-# Zero-Residual Future Classes
+# CST-B2 Zero-Residual Future Classes
 
-For an ever-expanding zero-residual background, the rigid response has asymptotic dilution \(a^{-2\nu}\). Comparing that exponent with matter gives the exact conditional future classes, including acceleration, coasting, matter domination, and the presence or absence of a power-law event horizon.
+For an ever-expanding zero-residual background, the rigid CST-B2 response has asymptotic dilution \(a^{-2\nu}\). Comparing that exponent with matter gives this member's exact conditional future classes, including acceleration, coasting, matter domination, and the presence or absence of a power-law event horizon. The classification depends on the binary \(\operatorname{sech}^2\) tail.
 
-Let the separately conserved response satisfy the hypotheses of [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid response theorem]], and suppose the background also contains noninteracting matter and radiation but no constant residual. As \(x=N-N_c\to+\infty\),
+Let the separately conserved response satisfy the hypotheses of [[causal-scale-theory/theorems/rigid-sech-response-identities|the CST-B2 rigid-sech theorem]], and suppose the background also contains noninteracting matter and radiation but no constant residual. As \(x=N-N_c\to+\infty\),
 
 $$
 \operatorname{sech}^2(\nu x)

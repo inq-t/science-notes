@@ -1,6 +1,6 @@
-# Present Flatness and Crossing Branches
+# CST-B2 Present Flatness and Candidate-Crossing Branches
 
-Present flatness turns the generalized CST response into a branch-valued equation for the crossing date. Here \(\mathfrak R_c\) is the integrated crossing ratio defined by [[program-core/ruble-equations|the programme core]], \(\nu>0\) is the constant scale-state rate and inverse profile width in logarithmic scale, and every root labels a distinct conditional background rather than another crossing within one history.
+Present flatness turns the CST-B2 response into a branch-valued equation for the distinguished reference date. Here \(\mathfrak R_c\) is the integrated reference ratio defined by [[program-core/ruble-equations|the programme core]], \(\nu>0\) is CST-B2's constant scale-state rate and inverse profile width in logarithmic scale, and every root labels a distinct conditional background rather than another crossing within one history. Calling a selected root a physical crossing additionally requires the member's wall and source realization.
 
 Use
 
@@ -10,7 +10,7 @@ N:=\ln\frac a{a_0},
 x_c:=-N_c=\ln(1+z_c),
 $$
 
-so \(x_c>0\), \(x_c=0\), and \(x_c<0\) denote past, present, and future crossings. For declared present abundances, set
+so \(x_c>0\), \(x_c=0\), and \(x_c<0\) denote past, present, and future candidate-crossing references. For declared present abundances, set
 
 $$
 D:=1-\Omega_{m0}-\Omega_{r0}>0,
@@ -25,7 +25,7 @@ T_{\mathfrak R}
 :=D\frac{2-\mathfrak R_c}{\mathfrak R_c}.
 $$
 
-Under spatially flat \(3+1\)-dimensional GR--FLRW, matter, radiation, the rigid response, and no residual sector, [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]] proves the **[CONDITIONAL THEOREM]**
+Under spatially flat \(3+1\)-dimensional GR--FLRW, matter, radiation, the rigid CST-B2 response, and no residual sector, [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]] proves the **[CONDITIONAL MEMBER THEOREM]**
 
 $$
 \boxed{F_\nu(x_c)=T_{\mathfrak R}},
@@ -35,7 +35,7 @@ $$
 
 The theorem owns the elimination and its failure boundary. Curvature, interactions, a residual vacuum, an additional crossing component, or a different source-to-horizon conversion changes the equation.
 
-Root choice is therefore model data. If a past late-time crossing is imposed, the conventional branch is the smallest positive root unless a different prior or selection principle is declared. A likelihood must say whether it selects that branch, profiles over all roots, or assigns branch weights.
+Root choice is therefore member data. If a past late-time candidate crossing is imposed, the conventional branch is the smallest positive root unless a different prior or selection principle is declared. A likelihood must say whether it selects that branch, profiles over all roots, or assigns branch weights.
 
 ## Unit-rate sign rule
 
@@ -56,7 +56,7 @@ $$
 2D=1.378621.
 $$
 
-This is a theorem about the unit-rate branch, not a general sign rule and not evidence that \(\mathfrak R_c\) is a universal constant. [[causal-scale-theory/receipts/background.json|The background receipt]] checks representative amplitudes on both sides of the threshold.
+This is a theorem about the CST-B2 unit-rate branch, not a general family sign rule and not evidence that \(\mathfrak R_c\) is a universal constant. [[causal-scale-theory/receipts/background.json|The background receipt]] checks representative amplitudes on both sides of the threshold.
 
 ## Nonunit rates and folds
 

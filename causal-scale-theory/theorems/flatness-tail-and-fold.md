@@ -1,6 +1,6 @@
-# Flatness Tails and Fold Conditions
+# CST-B2 Flatness Tails and Fold Conditions
 
-The asymptotic behavior and double-root condition of the generalized CST flatness function follow analytically from its exponential matter, radiation, and \(\operatorname{sech}^2\) factors. They classify possible root geometry but do not determine the number of roots for arbitrary amplitudes and abundances.
+The asymptotic behavior and double-root condition of the CST-B2 flatness function follow analytically from its exponential matter, radiation, and \(\operatorname{sech}^2\) factors. They classify this member's possible root geometry but do not determine the number of roots for arbitrary amplitudes and abundances or apply to response members with different tails.
 
 For
 

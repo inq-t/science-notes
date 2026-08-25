@@ -1,6 +1,6 @@
-# Dimensional Crossing Partition
+# Dimensional Reference-Cut Partition
 
-Combining the CST constitutive source with the exact \(d\)-dimensional Einstein-horizon conversion fixes the response fraction at the crossing. Equal partition then constrains the integrated crossing ratio; adding weak unit matching makes three spatial dimensions a compatibility result, not a derivation of dimensionality.
+Combining the CST constitutive source with the exact \(d\)-dimensional Einstein-horizon conversion fixes the response fraction at the distinguished reference cut for any admitted normalized response member. Equal partition then constrains the integrated matching ratio; adding weak unit matching makes three spatial dimensions a compatibility result, not a derivation of dimensionality. Calling the reference a physical crossing remains a member-specific construction.
 
 Let spacetime dimension be \(D=d+1\) with \(d>1\). Assume:
 
@@ -9,7 +9,7 @@ Let spacetime dimension be \(D=d+1\) with \(d>1\). Assume:
    \rho_{X,c}
    =\frac{k_BT_c}{2V_c}G^\perp_{NN}(N_c);
    $$
-2. the integrated crossing definition
+2. the integrated reference-cut definition
    $$
    \mathfrak R_c
    =\frac{k_B}{S_c}G^\perp_{NN}(N_c);
@@ -30,7 +30,7 @@ $$
 =\frac{\mathfrak R_c}{d-1}.}
 $$
 
-If the crossing is spatially flat and the total non-\(X\) complement is positive, then
+If the reference cut is spatially flat and the total non-\(X\) complement is positive, then
 
 $$
 \boxed{
@@ -58,4 +58,4 @@ $$
 d=3.}
 $$
 
-This does not select dimensionality: a \(d\)-dimensional Einstein horizon was assumed before the compatibility was evaluated. Identifying the non-\(X\) complement specifically with ordinary matter and radiation additionally requires zero residual and no extra crossing sector.
+This does not select dimensionality: a \(d\)-dimensional Einstein horizon was assumed before the compatibility was evaluated. Identifying the non-\(X\) complement specifically with ordinary matter and radiation additionally requires zero residual and no extra component at the reference cut.

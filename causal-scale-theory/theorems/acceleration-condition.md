@@ -1,6 +1,6 @@
-# Acceleration Condition for the Response Background
+# Acceleration Condition and the CST-B2 Specialization
 
-In a flat GR--FLRW background containing matter, radiation, and the CST response, acceleration is controlled by one exact active-mass inequality. The scale-state rate alone cannot decide when acceleration begins or ends because the competing densities and the selected crossing branch also enter.
+In a flat GR--FLRW background containing matter, radiation, and any perfect-fluid response, acceleration is controlled by one exact active-mass inequality. Inserting the CST-B2 equation of state gives a member-specific interval; the scale-state rate alone cannot decide when acceleration begins or ends because the competing densities and the selected candidate-crossing branch also enter.
 
 Assume noninteracting matter, radiation, and a perfect-fluid response, with no additional residual sector. The total acceleration equation is equivalent to
 
@@ -22,7 +22,7 @@ $$
 w_X=-1+\frac{2\nu}{3}\tanh(\nu x)
 $$
 
-from [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid response theorem]] gives the CST acceleration interval after the amplitude and flatness root are chosen.
+from [[causal-scale-theory/theorems/rigid-sech-response-identities|the CST-B2 rigid-sech theorem]] gives the CST-B2 acceleration interval after the amplitude and flatness root are chosen. Another response member retains the active-mass inequality but must supply its own \(w_X(N)\).
 
 The sign of \(w_X+1/3\) by itself is insufficient: acceleration concerns the total active mass. In particular, on the unit branch the response density eventually dominates matter, but its negative active-mass factor tends to zero quickly enough that matter can end acceleration before the asymptotic coasting regime is reached.
 

@@ -1,6 +1,6 @@
 # Causal Scale Theory
 
-Causal Scale Theory is the programme's conditional homogeneous analytic realization downstream of [[algebra/entry|the algebraic pre-core]] and [[program-core/entry|the programme core]]. It asks how distinguishable scale displacement could acquire an extensive state-space response and be realized in cosmic geometry. At present it imports causal and Lorentzian \(3+1\) structure, GR/QFT, and FLRW as conservative mathematical fibers; the stronger math-is-reality target is a recovery functor that derives those carriers as presentations of the foundational object. What CST itself adds is a particular chain from an open wall construction to a rigid cosmological response.
+Causal Scale Theory is the programme's conditional homogeneous analytic realization downstream of [[algebra/entry|the algebraic pre-core]] and [[program-core/entry|the programme core]]. It asks how distinguishable scale displacement could acquire an extensive state-space response and be realized in cosmic geometry. At present it imports causal and Lorentzian \(3+1\) structure, GR/QFT, and FLRW as conservative mathematical fibers; the stronger math-is-reality target is a recovery functor that derives those carriers as presentations of the foundational object. What CST itself adds is [[response-family-interface|a homogeneous response-family interface]]; the presently developed cosmological member is the rigid balanced-binary branch CST-B2.
 
 The object of inquiry is not a replacement mechanics for every local field. It is the structure of a cosmos as a fact-bearing causal arena: why causal relations admit metric scale, why scale-bearing differences are physically distinguishable, and how a global history may coordinate geometry, states, facts, and records. A successful CST could therefore *surround* familiar local physics without deriving it, much as a wider theory can constrain the arena in which a narrower theory remains valid. [[compatible-with-existing-physics/entry|The local-physics interface]] states the corresponding restriction obligation.
 
@@ -30,9 +30,9 @@ $$
 
 with non-circular cross-fiber transport. [[wall-construction-interface/entry|The wall-construction interface]] owns this decisive open problem. It also keeps vertical modular flow, horizontal state change, binary reduction, geometric reflection, and Tomita conjugation from being treated as one object. [[algebra/a2-inverse-cover|The conditional \(A_2\) inverse cover]] is an exact model of global nontriviality, not a wall construction: its cover degree, root count, and \(S_3\) monodromy select neither this binary channel nor its normalization without an explicit functor from the wall moduli problem. [[a2-ternary-response/entry|The \(A_2\) ternary-response test]] makes the binary debt sharper by exhibiting an exact finite response with a neutral outcome; the two orientation projections must be proved exhaustive in the selected wall image rather than inferred from the normal plane.
 
-The scale tangent is one singlet direction in [[program-core/common-response-matrix|the common response matrix]]. The same construction may also return mean-zero observational modes without making the underlying algebra spatially inhomogeneous. At a symmetric reference their quadratic cross block may vanish; the stronger unification test is whether the scale variation \(\nabla_NG_{\zeta\zeta}\) and the homogeneous response are calculated from the same transported scale-indexed wall family. Calling that family strict descent would additionally require a site, cocycle data, and effectivity.
+The scale tangent is one singlet direction in [[program-core/common-response-matrix|the common response matrix]]. The same construction may also return mean-zero observational modes without making the underlying algebra spatially inhomogeneous. At a symmetric reference their quadratic cross block may vanish; the stronger unification test is whether the scale variation \(\nabla_NG_{\zeta\zeta}\) and the homogeneous response are calculated from the same transported scale-indexed wall family. Calling that family strict descent would additionally require a site, cocycle data, and effectivity. The response-family interface begins only after this center-valued response has received an explicit sectorwise or normal-central scalarization; it does not silently use a factive character.
 
-If the physical reflection-odd tangent admits an exhaustive or explicitly conditioned balanced binary channel, [[binary-information-geometry/entry|binary information geometry]] supplies an exact reusable sector:
+If the physical reflection-odd tangent admits an exhaustive or explicitly conditioned balanced binary channel, [[binary-information-geometry/entry|binary information geometry]] supplies the exact reduced sector used by CST-B2:
 
 $$
 m(\theta)=\tanh\theta,
@@ -53,7 +53,7 @@ $$
 \nu:=|\varrho_\perp|.
 $$
 
-The normalized binary curve still does not determine how many physical degrees of freedom participate. [[scale-capacity|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the crossing ratio
+The normalized CST-B2 curve still does not determine how many physical degrees of freedom participate. [[scale-capacity|The homogeneous capacity note]] therefore separates the curve from the cut-integrated norm \(G^\perp_{NN}\) and from the crossing ratio
 
 $$
 \mathfrak R_c
@@ -72,7 +72,7 @@ $$
 
 The coincidence Hessian of relative entropy motivates a quadratic response, but it does not derive this all-history energy density. [[horizontal-temperature|The horizontal-temperature identification]] then sets \(T_c\) equal to the canonical apparent-horizon temperature. Given that open identification, [[conformal-scale-geometry/hawking-friedmann-identity|the Hawking--Friedmann identity]] performs an exact conversion to critical energy.
 
-With constant extensive normalization along the homogeneous path, these premises yield [[response-law|the CST response]]
+With constant extensive normalization along the homogeneous path, these premises yield [[response-law|the CST-B2 response]]
 
 $$
 \boxed{
@@ -82,9 +82,9 @@ $$
 \operatorname{sech}^2\!\bigl(\nu x\bigr).}
 $$
 
-This formula is a conditional output, not a theorem of conformal or information geometry by itself. [[realization-map|The realization map]] records every load-bearing edge without reproducing its provider's proof.
+This formula is a conditional output for one member, not a theorem of conformal or information geometry by itself. The family interface treats \(N_c\) as a normalization point; the balanced binary profile proves that it is also the unique response maximum only after affine soldering and fixed extensivity are granted. [[realization-map|The realization map]] records every load-bearing edge without reproducing its provider's proof.
 
-If the response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-response theorem]] fixes its equation of state and shape invariant. Spatially flat GR--FLRW, matter and radiation abundances, [[vacuum-residual-sector|a residual-vacuum sector]], and a root branch are further background inputs. [[flatness-branches|Flatness branches]] and [[future-asymptotics|future asymptotics]] compose the isolated theorems that govern those inputs. [[unit-branch|The unit branch]] is the specialization \((\nu,\mathfrak R_c)=(1,1)\), not the definition of CST.
+If the CST-B2 response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-sech theorem]] fixes its equation of state and shape invariant. Spatially flat GR--FLRW, matter and radiation abundances, [[vacuum-residual-sector|a residual-vacuum sector]], and a root branch are further background inputs. [[flatness-branches|The CST-B2 flatness branches]] and [[future-asymptotics|future classes]] compose the isolated member theorems that govern those inputs. [[unit-branch|The unit branch]] is the CST-B2 specialization \((\nu,\mathfrak R_c)=(1,1)\), not the definition of CST.
 
 The homogeneous pulse does not by itself provide a covariant stress tensor, perturbations, sound speed, stability, or a wall state. [[conjectures/covariant-response-sector|The covariant response conjecture]] states that completion problem, while [[observables|the observables programme]] separates present background tests from predictions that become meaningful only after it is solved. [[program-core/explanatory-economy|Explanatory economy]] requires the wall path and response law to be constructed independently of the cosmic history they are meant to return.
 
@@ -92,6 +92,6 @@ Nor does a state-space response actualize a fact. The Casimir identity can prese
 
 ## Present standing
 
-CST presently supplies a mathematically rigid two-parameter homogeneous response family, exact conditional theorems about its background behavior, reproducible arithmetic receipts, and a sharply typed construction programme. It does not yet derive its foundational algebraic doctrine, complete probe family, presentation site, algebraic scale object, analytic enrichment, either unit principle, wall reduction, state--geometry weld, constitutive source, horizontal temperature, covariant perturbation sector, or factive completion. [[algebra/cst-cwst-closure-audit|The algebraic closure audit]] separates the newly exact type theorems from these still-open physical functors. Each missing bridge is independently falsifiable; failure of one does not erase the exact mathematics imported before it.
+CST presently supplies a typed response-family interface, one mathematically rigid two-parameter member CST-B2, exact conditional theorems about that member's background behavior, reproducible arithmetic receipts, and a sharply typed construction programme. [[a2-ternary-response/entry|The $A_2$ finite response]] is an audit seed with raw symmetric-point response $2/3$; normalizing its shape does not promote it to a wall or cosmology. CST does not yet derive its foundational algebraic doctrine, complete probe family, presentation site, algebraic scale object, analytic enrichment, member selection, either unit principle, wall reduction, state--geometry weld, constitutive source, horizontal temperature, covariant perturbation sector, or factive completion. [[algebra/cst-cwst-closure-audit|The algebraic closure audit]] separates the newly exact type theorems from these still-open physical functors. Each missing bridge is independently falsifiable; failure of one does not erase the exact mathematics imported before it.
 
 The retired master documents remain locally preserved as immutable material under [[sources/legacy/README|the source archive]]. They are historical evidence, not alternative owners in the active argument graph.

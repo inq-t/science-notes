@@ -1,8 +1,8 @@
-# The Unit Branch
+# The CST-B2 Unit Branch
 
-The unit branch evaluates the conditional CST background at \((\nu,\mathfrak R_c)=(1,1)\), selects the unique unit-rate crossing root, and sets the residual floor to zero. Here \(\nu=1\) is the proposed unit-rate principle and \(\mathfrak R_c=1\) is the independent weak matching principle for the integrated crossing ratio; neither unity follows from normalization convention or binary algebra.
+The CST-B2 unit branch evaluates the balanced-binary conditional background at \((\nu,\mathfrak R_c)=(1,1)\), selects its unique unit-rate candidate-crossing root, and sets the residual floor to zero. Here \(\nu=1\) is the proposed unit-rate principle and \(\mathfrak R_c=1\) is the independent weak matching principle for the integrated reference ratio; neither unity follows from normalization convention or binary algebra, and neither defines the wider [[causal-scale-theory/response-family-interface|CST response family]].
 
-Under the hypotheses of [[causal-scale-theory/generalized-background|the generalized background]], the branch has
+Under the hypotheses of [[causal-scale-theory/generalized-background|the CST-B2 background]], the branch has
 
 $$
 \rho_X(x)
@@ -12,7 +12,7 @@ w_X(x)
 =-1+\frac23\tanh x.
 $$
 
-[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] owns the conservation calculation and shape invariant. At the crossing \(x=0\), several statements coincide but have different grounds:
+[[causal-scale-theory/theorems/rigid-sech-response-identities|The CST-B2 rigid-sech theorem]] owns the conservation calculation and shape invariant. At the selected reference \(x=0\), several statements coincide but have different grounds:
 
 - the reduced binary polarization is \(m=0\), and [[binary-information-geometry/balanced-exponential-family|the balanced binary metric]] is maximal;
 - the explicit response density is maximal, and separate conservation gives \(w_X=-1\);
@@ -65,7 +65,7 @@ These numbers are arithmetic consequences of the abundances, two unit principles
 
 ## Why acceleration ends
 
-[[causal-scale-theory/theorems/future-response-classes|The future-class theorem]] shows that the unit response approaches coasting while diluting as \(a^{-2}\). [[causal-scale-theory/theorems/acceleration-condition|The active-mass theorem]] then explains the finite exit: the response remains energetically dominant, but its negative active-mass contribution scales as \(a^{-4}\), while positive matter active mass scales as \(a^{-3}\). Matter therefore retakes control of the acceleration sign before the background reaches its coasting limit.
+[[causal-scale-theory/theorems/future-response-classes|The CST-B2 future-class theorem]] shows that the unit response approaches coasting while diluting as \(a^{-2}\). [[causal-scale-theory/theorems/acceleration-condition|The active-mass theorem]] then explains the finite exit: the response remains energetically dominant, but its negative active-mass contribution scales as \(a^{-4}\), while positive matter active mass scales as \(a^{-3}\). Matter therefore retakes control of the acceleration sign before the background reaches its coasting limit.
 
 This is an application of the two theorems, not a second proof of them.
 

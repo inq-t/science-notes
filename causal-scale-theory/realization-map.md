@@ -1,6 +1,6 @@
 # CST Realization Map
 
-Causal Scale Theory is the homogeneous cosmological realization of the programme core, not a second source of definitions. The programme core is itself downstream of [[algebra/entry|the algebraic pre-core]]. This note identifies which Ruble equations are imported, which CST-specific bridges specialize them, and which conclusions follow only after a GR--FLRW background is supplied.
+Causal Scale Theory is the homogeneous cosmological realization of the programme core, not a second source of definitions. The programme core is itself downstream of [[algebra/entry|the algebraic pre-core]]. [[response-family-interface|The CST response-family interface]] owns the common homogeneous return type; this note identifies which Ruble equations are imported, which bridges select the balanced-binary member CST-B2, and which conclusions follow only after a GR--FLRW background is supplied.
 
 The canonical signatures and claim labels live in [[program-core/entry|the programme core]]. A link below is therefore a dependency, not a restatement whose wording may drift independently.
 
@@ -14,18 +14,18 @@ In [[algebra/theorem-programme|the algebra-to-cosmos gate order]], RE0 is presen
 | [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[program-core/physical-quotient|physical quotient]] | A scale-indexed wall family must return a nonzero physical horizontal tangent. | principle plus open construction |
 | [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|relative-entropy Hessian]] and [[program-core/center-valued-response|central evaluation]] | The interface retains \((Z,\mathbf G^Z,\omega^Z)\); CST uses the normal unconditioned full-cut norm \(G^\perp_{NN}=\omega^Z(\mathbf G^{Z,\perp}_{NN})\). Its local measure-valued construction remains open. | exact finite-center evaluation law; open localization and wall return |
 | [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] | The strong local weld would explain gravity; the present background calculation needs only a weaker integrated crossing input. | conjecture, not yet a premise proved by the background |
-| [[program-core/ruble-equations#RE4 — Balanced binary specialization|RE4]] | [[binary-information-geometry/balanced-exponential-family|balanced binary family]] | [[wall-construction-interface/binary-channel|A specified binary channel]] must construct an exhaustive image or explicitly dispose of the neutral sector, then justify the generator and balanced reference before the exact profile can be used physically. | conditional identification followed by exact algebra |
-| [[program-core/ruble-equations#RE5 — Scale soldering, rate, and extensive norm|RE5]] | [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]] | The homogeneous branch takes \(\theta=\varrho_\perp x\), \(\nu=|\varrho_\perp|\), and constant extensive factor \(C_\perp(N)=C_{\perp,c}\). | theorem after hypotheses, then a rigidity assumption |
+| [[program-core/ruble-equations#RE4 — Balanced binary specialization|RE4]] | [[binary-information-geometry/balanced-exponential-family|balanced binary family]] | [[wall-construction-interface/binary-channel|A specified binary channel]] must construct an exhaustive image or explicitly dispose of the neutral sector, then justify the generator and balanced reference before the exact CST-B2 profile can be used physically. | conditional member selection followed by exact algebra |
+| [[program-core/ruble-equations#RE5 — Scale soldering, rate, and extensive norm|RE5]] | [[basic-concepts/soldering/affine-scale-state|affine scale--state soldering]] and [[response-family-interface|the family interface]] | CST-B2 takes \(\theta=\varrho_\perp x\), \(\nu=|\varrho_\perp|\), and constant extensive factor \(C_\perp(N)=C_{\perp,c}\). A varying factor or nonlinear soldering returns another profile. | theorem after hypotheses, then a member rigidity assumption |
 | [[program-core/ruble-equations#RE6 — Integrated crossing capacity|RE6]] | [[program-core/causal-capacity-equivalence|capacity hierarchy]] | [[scale-capacity|The crossing ratio]] \(\mathfrak R_c\) normalizes the full-cut tangent norm by an independently declared gravitational entropy measure. | definition plus weak unit principle |
 | [[program-core/ruble-equations#RE7 — Anchored source and horizon conversion|RE7]] | [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|Gibbs response]] and [[conformal-scale-geometry/hawking-friedmann-identity|horizon conversion]] | [[free-energy-source|The all-history source]] is constitutive, and [[horizontal-temperature|its temperature identification]] is open. | constitutive plus identification; conversion exact afterward |
-| [[program-core/ruble-equations#RE8 — Generalized homogeneous Ruble response|RE8]] | the preceding chain | [[response-law|The CST response]] is the resulting two-parameter homogeneous density. | conditional output |
-| [[program-core/ruble-equations#RE9 — Equation of state and shape invariant|RE9]] | [[theorems/rigid-sech-response-identities|rigid-response theorem]] | Separate conservation turns the density into a definite \(w_X(N)\) and differential invariant. | exact after the pulse and conservation are assumed |
+| [[program-core/ruble-equations#RE8 — Generalized homogeneous Ruble response|RE8]] | the preceding chain | [[response-law|The CST-B2 response]] is the resulting two-parameter homogeneous density. | conditional member output |
+| [[program-core/ruble-equations#RE9 — Equation of state and shape invariant|RE9]] | [[theorems/rigid-sech-response-identities|CST-B2 rigid-sech theorem]] | Separate conservation turns this member density into a definite \(w_X(N)\) and differential invariant. | exact after the CST-B2 pulse and conservation are assumed |
 | [[program-core/ruble-equations#RE10 — Prospective causal charge extension|RE10]] | [[program-core/symmetry-conservation-and-action|charge architecture]] | No causal charge is used in the present background derivation. | conjectural extension |
 
 The load-bearing CST-specific chain is therefore
 
 $$
-\text{specified binary channel with neutral-sector disposition}
+\text{CST-B2: specified binary channel with neutral-sector disposition}
 \longrightarrow
 \text{affine binary path with fixed extensivity}
 \longrightarrow
@@ -40,7 +40,7 @@ The conformal and binary theorems constrain this chain, but they do not manufact
 
 ## Background completion is another layer
 
-The homogeneous source becomes a cosmology only after spatially flat \(3+1\)-dimensional GR--FLRW, declared matter and radiation, separate conservation, a residual-vacuum sector, and a root branch are added. [[theorems/present-flatness-closure|Present-flatness closure]] eliminates the crossing critical density but can leave several candidate roots; [[flatness-branches|the branch analysis]] owns their interpretation. [[vacuum-residual-sector|The residual sector]] is a global choice rather than a consequence of local trace-free blindness.
+The CST-B2 homogeneous source becomes a cosmology only after spatially flat \(3+1\)-dimensional GR--FLRW, declared matter and radiation, separate conservation, a residual-vacuum sector, and a root branch are added. [[theorems/present-flatness-closure|CST-B2 present-flatness closure]] eliminates the crossing critical density but can leave several candidate roots; [[flatness-branches|the branch analysis]] owns their interpretation. [[vacuum-residual-sector|The residual sector]] is a global choice rather than a consequence of local trace-free blindness.
 
 The two weak principles
 
@@ -50,13 +50,13 @@ $$
 \mathfrak R_c=1
 $$
 
-select [[unit-branch|the unit branch]] only after the generalized family has been constructed. The first fixes rate in the canonically normalized binary coordinate. The second compares two independently normalized cut-integrated quantities. Neither numeral is a unit convention, and neither is yet derived.
+select [[unit-branch|the unit branch]] only after CST-B2 has been constructed. The first fixes rate in the canonically normalized binary coordinate. The second compares two independently normalized cut-integrated quantities. Neither numeral is a unit convention, and neither is yet derived.
 
 ## What failure would mean
 
 - If the wall family or transport fails, the response survives only as a phenomenological ansatz.
-- If binary dominance fails, the normalized shape changes.
-- If affine rank-one transport or constant extensivity fails, the physical pulse changes even when some binary sector remains exact.
+- If binary dominance fails, CST-B2 is not selected; another response member or a higher-rank interface is required.
+- If affine rank-one transport or constant extensivity fails, the physical profile changes even when some binary sector remains exact.
 - If the source functional or horizontal temperature changes, the conversion from state response to energy density changes without refuting the Hessian theorem.
 - If the strong state--geometry weld fails, the homogeneous fit cannot be promoted into a derivation of gravity.
 - If covariant completion fails, the result remains a background model and supplies no perturbation prediction.

@@ -1,6 +1,6 @@
-# The Homogeneous CST Response
+# The Balanced-Binary CST-B2 Response
 
-After the wall reduction, affine soldering, fixed extensivity, integrated crossing normalization, constitutive source, horizontal-temperature identification, and Einstein-horizon conversion are all granted, CST returns one two-parameter homogeneous density. This note owns that interface formula and delegates its mathematical consequences to theorem notes.
+After an exhaustive or explicitly conditioned balanced binary channel, affine soldering, fixed extensivity, integrated crossing normalization, constitutive source, horizontal-temperature identification, and Einstein-horizon conversion are all granted, CST-B2 returns one two-parameter homogeneous density. [[response-family-interface|The response-family interface]] owns the member-independent return type; this note owns only the present balanced-binary specialization and delegates its consequences to theorem notes.
 
 Set
 
@@ -12,7 +12,7 @@ x:=N-N_c,
 \mathfrak R_c>0.
 $$
 
-The conditional response is
+The CST-B2 conditional response is
 
 $$
 \boxed{
@@ -37,10 +37,10 @@ $$
 =\frac{2\operatorname{arcosh}\sqrt2}{\nu}.}
 $$
 
-In particular, the proposed value \(\nu=1\) gives \(\Delta N_{\mathrm{FWHM}}=2\operatorname{arcosh}\sqrt2\), not one e-fold. No part of this formula constructs the wall, proves either weak unit principle, or supplies a covariant stress tensor.
+In particular, the proposed value \(\nu=1\) gives \(\Delta N_{\mathrm{FWHM}}=2\operatorname{arcosh}\sqrt2\), not one e-fold. No part of this formula constructs the wall, proves either weak unit principle, or supplies a covariant stress tensor. A different normalized response member changes the function multiplying the crossing amplitude without changing the family-level return type.
 
-If the response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-response theorem]] gives its equation of state, Riccati flow, and differential invariants. [[theorems/trace-free-silence|The trace-free theorem]] gives the crossing identity. [[theorems/dimensional-crossing-partition|The dimensional theorem]] gives the crossing fraction after the relevant background assumptions are added.
+If the CST-B2 response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-sech theorem]] gives its equation of state, Riccati flow, and differential invariants. [[theorems/trace-free-silence|The stationary-density theorem]] gives the more general crossing identity. [[theorems/dimensional-crossing-partition|The dimensional theorem]] gives the member-independent crossing fraction after the relevant background assumptions are added.
 
-The positive pulse has its unique maximum at \(N_c\). Present flatness need not select a unique value of \(N_c\) for general rate; that is a separate root problem handled by [[flatness-branches|the branch analysis]].
+For this fixed-extensivity binary profile, the positive pulse has its unique maximum at \(N_c\). The family interface treats \(N_c\) only as a normalization point until a member proves more. Present flatness need not select a unique value of \(N_c\) for general CST-B2 rate; that is a separate root problem handled by [[flatness-branches|the branch analysis]].
 
 The formula fixes no sound speed, anisotropic stress, exchange current, initial perturbation, or stability criterion. Until [[conjectures/covariant-response-sector|a covariant response sector]] is constructed, it is a background density law and nothing stronger.

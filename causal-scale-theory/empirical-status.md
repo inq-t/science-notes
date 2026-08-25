@@ -1,10 +1,10 @@
 # Empirical Status
 
-The inherited CST material establishes reproducible arithmetic for the homogeneous formulas and reports one limited background comparison, but it does not contain a reproducible full cosmological likelihood. No current observation promotes the wall construction, the unit-rate principle, the unit integrated crossing ratio, or a covariant perturbation completion from proposal to established physics.
+The inherited CST material establishes reproducible arithmetic for the CST-B2 homogeneous formulas and reports one limited background comparison, but it does not contain a reproducible full cosmological likelihood. It supplies no empirical result for the wider [[causal-scale-theory/response-family-interface|response-family interface]] or for an $A_2$ member. No current observation promotes the wall construction, the balanced-binary member selection, the unit-rate principle, the unit integrated reference ratio, or a covariant perturbation completion from proposal to established physics.
 
 ## Reproducible local evidence
 
-[[causal-scale-theory/receipts/README|The canonical receipt suite]] recomputes the theorem consequences used by the phenomenology notes: exact reduced identities, unit-branch cosmography, matter-plus-radiation folds, strict-dust and historical hybrid folds, representative roots, amplitude-dependent past and future branches, and counterexamples to treating \(\nu=2\) as a universal existence bound. The current machine-readable outputs are [[causal-scale-theory/receipts/algebra.json|the algebra receipt]] and [[causal-scale-theory/receipts/background.json|the background receipt]].
+[[causal-scale-theory/receipts/README|The canonical receipt suite]] recomputes the CST-B2 theorem consequences used by the phenomenology notes: exact reduced identities, unit-branch cosmography, matter-plus-radiation folds, strict-dust and historical hybrid folds, representative roots, amplitude-dependent past and future branches, and counterexamples to treating \(\nu=2\) as a universal existence bound. The current machine-readable outputs are [[causal-scale-theory/receipts/algebra.json|the algebra receipt]] and [[causal-scale-theory/receipts/background.json|the background receipt]].
 
 The schema name `crossing_ratio` denotes \(\mathfrak R_c\), the integrated crossing ratio. A passing receipt establishes that quoted values follow from the declared equations and inputs. It does not establish the constitutive source, the weak unit principle \(\mathfrak R_c=1\), the rate principle \(\nu=1\), or their truth in nature.
 
@@ -28,7 +28,7 @@ The v8 audit correctly withholds proposed best-fit values and improvement claims
 
 ## Promotion path
 
-A meaningful empirical assessment requires a versioned direct forward fit of the generalized \((\nu,\mathfrak R_c)\) branches, followed by a covariant perturbation completion and a joint CMB--lensing--growth analysis. The evidence layers must remain separate:
+A meaningful empirical assessment of CST-B2 requires a versioned direct forward fit of its generalized \((\nu,\mathfrak R_c)\) branches, followed by a covariant perturbation completion and a joint CMB--lensing--growth analysis. A different response member requires its own frozen profile and calculation. The evidence layers must remain separate:
 
 $$
 \boxed{

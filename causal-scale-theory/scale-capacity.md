@@ -1,6 +1,6 @@
 # Homogeneous Scale Capacity
 
-The CST capacity parameter is the crossing value of a cut-integrated state-to-gravitational response ratio after a central evaluation policy has been declared. It is coordinate invariant once the physical horizontal tangent is fixed, but it is neither the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone.
+The CST capacity parameter is the value of a cut-integrated state-to-gravitational response ratio at a distinguished reference cut after a central evaluation policy has been declared. It normalizes any admitted homogeneous response member there, but it is neither the member's shape, the local areal modulus, a universal constant, nor a number supplied by normalized binary geometry alone. The historical subscript \(c\) marks a candidate crossing and becomes an event label only in a member that constructs the crossing.
 
 The wall construction is required to return a center-resolved homogeneous block \(\mathbf G^{Z,\perp}_{NN}\). **[MEMBER CHOICE — CONDITIONAL ON THAT WALL RETURN]** The present CST member uses the normal unconditioned evaluation inherited from the faithful wall state:
 
@@ -23,7 +23,7 @@ $$
 {\mu^{S,\mathrm{grav}}(\Sigma_N)}.
 $$
 
-CST specializes this hierarchy at its distinguished homogeneous crossing:
+CST specializes this hierarchy at its distinguished homogeneous reference cut:
 
 $$
 \boxed{
@@ -34,42 +34,27 @@ $$
 :=\mu^{S,\mathrm{grav}}(\Sigma_c).
 $$
 
-The entropy measure in the denominator must be normalized independently of the state response. Otherwise unity would be installed by definition rather than returned as a physical comparison.
+The entropy measure in the denominator must be normalized independently of the state response. Otherwise unity would be installed by definition rather than returned as a physical comparison. Calling \(\mathfrak R_c\) a *crossing ratio* is therefore shorthand internal to a member whose symmetry, source, and background maps place the relevant event at \(N_c\).
 
-## Binary shape and extensive norm
+## CST-B2 specialization
 
-After [[wall-construction-interface/binary-channel|an exhaustive or explicitly conditioned balanced binary channel]] and [[basic-concepts/soldering/affine-scale-state|affine soldering]] are granted,
-
-$$
-g^{\mathrm{bin}}_{\theta\theta}
-=\operatorname{sech}^2\theta,
-\qquad
-\theta=\varrho_\perp x,
-\qquad
-\nu=|\varrho_\perp|.
-$$
-
-The physical full-cut norm may carry an extensive factor:
+[[response-family-interface|The response-family interface]] separates the crossing normalization from a member's normalized profile. For CST-B2, an exhaustive or explicitly conditioned balanced binary channel, affine soldering, and constant extensivity give
 
 $$
-G^\perp_{NN}(N)
-=C_\perp(N)\nu^2
-\operatorname{sech}^2(\nu x).
+f_{\mathrm{B2}}(N)
+=\operatorname{sech}^2\!\bigl(\nu[N-N_c]\bigr).
 $$
 
-The rigid CST branch adds the assumption \(C_\perp(N)=C_{\perp,c}\). The crossing definition then gives
+The crossing definition therefore fixes the member's scalarized full-cut norm as
 
 $$
-C_{\perp,c}
-=\frac{S_c}{k_B}\frac{\mathfrak R_c}{\nu^2},
-\qquad
 \boxed{
 G^\perp_{NN}(N)
 =\frac{S_c}{k_B}\mathfrak R_c
-\operatorname{sech}^2(\nu x).}
+f_{\mathrm{B2}}(N).}
 $$
 
-Thus the normalized curve fixes shape, while \(\mathfrak R_c\) carries the integrated normalization. A microscopic calculation that returns a scale-dependent \(C_\perp\) would change the physical pulse without contradicting the binary Casimir identity.
+Thus CST-B2 fixes a shape only after the rigidity assumptions, while \(\mathfrak R_c\) carries the integrated normalization. A microscopic calculation that returns a scale-dependent extensive factor, nonlinear soldering, or a different central evaluation changes the physical profile without contradicting the binary Casimir identity. [[open-questions/extensive-channel-normalization|The extensive-normalization problem]] owns that construction debt.
 
 ## Coordinate invariance and physical content
 
@@ -87,4 +72,4 @@ Accordingly, \(\mathfrak R_c\) does not depend on the chosen state coordinate. T
 
 The weak unit principle proposes \(\mathfrak R_c=1\). It says that two independently normalized *integrated* quantities match at one cut. It does not assert the strong local law \(\mathfrak r_{\Sigma,N}(p)=1\), prove a universal area modulus, or derive Newton's constant. Those stronger possibilities belong to [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] and [[deriving-value-of-g/entry|the gravitational-value programme]].
 
-Only after the constitutive source, horizontal temperature, and Einstein-horizon conversion are added does \(\mathfrak R_c\) determine a cosmological density fraction. [[theorems/dimensional-crossing-partition|The dimensional crossing theorem]] owns that downstream result.
+Only after the constitutive source, horizontal temperature, and Einstein-horizon conversion are added does \(\mathfrak R_c\) determine a cosmological density fraction. [[theorems/dimensional-crossing-partition|The dimensional reference-partition theorem]] owns that downstream result; identifying the reference with a physical crossing remains member-dependent.

@@ -1,6 +1,6 @@
-# Expansion History and Future Classes
+# CST-B2 Expansion History and Future Classes
 
-After a present-flatness root is selected, the generalized response fixes a conditional homogeneous expansion history. The zero-residual future is classified by the scale-state rate \(\nu\), while the integrated crossing ratio \(\mathfrak R_c\), root branch, ordinary contents, and residual sector still control the finite history and whether acceleration occurs at all.
+After a present-flatness root is selected, the CST-B2 response fixes a conditional homogeneous expansion history. Its zero-residual future is classified by the scale-state rate \(\nu\), while the integrated reference ratio \(\mathfrak R_c\), root branch, ordinary contents, and residual sector still control the finite history and whether acceleration occurs at all. The classification uses the binary \(\operatorname{sech}^2\) tail and is not a theorem about every member of [[causal-scale-theory/response-family-interface|the CST response family]].
 
 Let \(x_c\) be a selected root from [[causal-scale-theory/flatness-branches|the crossing-branch analysis]], set \(x=N+x_c\), and define
 
@@ -21,11 +21,11 @@ E^2(x):=\frac{H^2(x)}{H_0^2}
 \end{aligned}}
 $$
 
-This is the background interface consumed by distances, ages, and cosmography. It is not a covariant response sector and does not determine structure growth.
+This is the CST-B2 background interface consumed by distances, ages, and cosmography. It is not a covariant response sector and does not determine structure growth.
 
 ## Zero-residual future
 
-[[causal-scale-theory/theorems/future-response-classes|The future-class theorem]] owns the proof of the following classification:
+[[causal-scale-theory/theorems/future-response-classes|The CST-B2 future-class theorem]] owns the proof of the following classification:
 
 | Rate \(\nu\) | Leading ever-expanding future |
 |---|---|
