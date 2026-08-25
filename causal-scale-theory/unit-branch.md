@@ -1,6 +1,6 @@
 # The Unit Branch
 
-The unit branch evaluates the conditional CST background at \((\nu,\mathfrak R_c)=(1,1)\), selects the unique unit-width crossing root, and sets the residual floor to zero. Here \(\nu=1\) is the proposed unit-width principle and \(\mathfrak R_c=1\) is the independent weak matching principle for the integrated crossing ratio; neither unity follows from normalization convention or binary algebra.
+The unit branch evaluates the conditional CST background at \((\nu,\mathfrak R_c)=(1,1)\), selects the unique unit-rate crossing root, and sets the residual floor to zero. Here \(\nu=1\) is the proposed unit-rate principle and \(\mathfrak R_c=1\) is the independent weak matching principle for the integrated crossing ratio; neither unity follows from normalization convention or binary algebra.
 
 Under the hypotheses of [[causal-scale-theory/generalized-background|the generalized background]], the branch has
 
@@ -30,7 +30,7 @@ $$
 \Omega_{r0}=9.15\times10^{-5},
 $$
 
-[[causal-scale-theory/theorems/unit-width-crossing-sign|the unit-width theorem]] guarantees one root. The positive benchmark root is
+[[causal-scale-theory/theorems/unit-rate-crossing-sign|the unit-rate theorem]] guarantees one root. The positive benchmark root is
 
 $$
 x_c\simeq0.2940066,

@@ -23,7 +23,7 @@ The arrows have different statuses:
 1. the conformal/scale decomposition is established kinematics under stated hypotheses;
 2. the scale-indexed wall algebra and state family are open constructions;
 3. the reduced binary BKM profile is exact inside the proposed finite model;
-4. the width and scale--capacity normalizations are new principles;
+4. the scale-state rate and scale--capacity normalizations are new principles;
 5. the map from information metric to energy density is a constitutive law; and
 6. the FLRW evolution uses standard GR after the source is supplied.
 

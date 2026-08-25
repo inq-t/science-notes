@@ -1,6 +1,6 @@
 # Acceleration Condition for the Response Background
 
-In a flat GR--FLRW background containing matter, radiation, and the CST response, acceleration is controlled by one exact active-mass inequality. Width alone cannot decide when acceleration begins or ends because the competing densities and the selected crossing branch also enter.
+In a flat GR--FLRW background containing matter, radiation, and the CST response, acceleration is controlled by one exact active-mass inequality. The scale-state rate alone cannot decide when acceleration begins or ends because the competing densities and the selected crossing branch also enter.
 
 Assume noninteracting matter, radiation, and a perfect-fluid response, with no additional residual sector. The total acceleration equation is equivalent to
 

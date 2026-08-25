@@ -121,7 +121,7 @@ is a Casimir allocation between resolved polarization and residual susceptibilit
 
 ## The programme has declared premises, not one undifferentiated theory
 
-[[program-core/axioms-and-principles|The axiom and principle ledger]] distinguishes programme commitments, open construction axioms, physical principles, constitutive laws, background assumptions, and conditional outputs. In particular, observable scale, unit width, unit matching, the free-energy source, and flat-FLRW completion are different premises. No exact identity upstream promotes a conjectural bridge downstream.
+[[program-core/axioms-and-principles|The axiom and principle ledger]] distinguishes programme commitments, open construction axioms, physical principles, constitutive laws, background assumptions, and conditional outputs. In particular, observable scale, unit scale-state rate, unit matching, the free-energy source, and flat-FLRW completion are different premises. No exact identity upstream promotes a conjectural bridge downstream.
 
 [[program-core/ruble-equations|The Ruble equations]] then assemble the corrected keystone system. They begin with causal scale and horizontal state response, define the descent modulus and matching law, specialize to a balanced binary channel, and only afterward derive the generalized homogeneous response. The unit branch \((\nu,\mathfrak R_c)=(1,1)\) is a selected specialization, not a normalization convention and not the whole programme.
 

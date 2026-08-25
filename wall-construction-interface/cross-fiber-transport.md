@@ -62,7 +62,7 @@ $$
 x:=N-N_c .
 $$
 
-**[CONDITIONAL THEOREM — BINARY MEMBER]** This derives logarithmic affinity. It does not derive the value $|\varrho_\perp|=1$, and no functional equation can, since every real slope solves it. Reversing the names of the two null orientations sends $Q\mapsto-Q$ and $\varrho_\perp\mapsto-\varrho_\perp$, so the orientation-independent quantity is the width $\nu:=|\varrho_\perp|>0$. The generic interface requires transport and a nonzero physical tangent, not this rank-one form; CWST does not consume it unless a particular spectral member says so.
+**[CONDITIONAL THEOREM — BINARY MEMBER]** This derives logarithmic affinity. It does not derive the value $|\varrho_\perp|=1$, and no functional equation can, since every real slope solves it. Reversing the names of the two null orientations sends $Q\mapsto-Q$ and $\varrho_\perp\mapsto-\varrho_\perp$, so the orientation-independent quantity is the scale-state rate $\nu:=|\varrho_\perp|>0$. It is an inverse-width parameter only after a profile has been selected. The generic interface requires transport and a nonzero physical tangent, not this rank-one form; CWST does not consume it unless a particular spectral member says so.
 
 ### Two registrations that must accompany the statement
 

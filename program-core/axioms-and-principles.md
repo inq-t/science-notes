@@ -115,7 +115,7 @@ CA1–CA5 define the constitutive response programme. CA6 is the missing facthoo
 
 This is the scale-to-state principle. It does not identify Weyl scale with modular time or an RG scale.
 
-**P2 — Unit width.**
+**P2 — Unit scale-state rate.**
 
 After a balanced binary channel, its normalized generator, and the logarithmic scale coordinate have been independently selected, an affine soldering law would have the form
 
@@ -134,7 +134,7 @@ $$
 \boxed{\nu=1.}
 $$
 
-This fixes the rate of the reduced binary polarization per e-fold. It is a separate principle, not a coordinate convention and not a consequence of the matching law.
+This fixes the rate of the reduced binary polarization per e-fold. It is a separate principle, not a coordinate convention and not a consequence of the matching law. Since \(\nu\) multiplies \(x\) in the profile, it is an inverse-width parameter; an actual profile width is proportional to \(1/\nu\).
 
 **P3 — Weak Ruble matching.**
 

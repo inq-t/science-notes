@@ -97,7 +97,7 @@ $$
 
 Unit slope is a physical fundamental-character choice. The ceiling used in the historical closure is also evaluated on an already response-normalized branch, so it cannot independently derive the slope while the normalization is advertised as a later output. That circularity is not the ceiling's only defect: the ceiling is numerically an artifact, for the separate reason recorded next.
 
-### The width ceiling is a radiation artifact
+### The rate ceiling is a radiation artifact
 
 Revision 2 derives a maximum admissible slope and uses it twice: as the second leg of the $\varrho_\perp=1$ uniqueness argument, and as the standalone prediction that no flat solution exists above it. Both uses fail, because the ceiling is computed from a flatness condition different from the one the monograph's own benchmark uses.
 
@@ -230,7 +230,7 @@ Two bibliography entries need rechecking before scholarly reuse: the description
 
 ## Repaired closure
 
-The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/causal-scale-master/latest/Causal_Scale_Dynamics_Master_v7_0|Causal Scale Dynamics v7.0]]:
+The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0|Causal Scale Dynamics v7.0]]:
 
 - keep the binary and cocycle calculations with explicit hypotheses;
 - state $\varrho_\perp=1$ as the fundamental-character choice;
@@ -246,4 +246,4 @@ The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/caus
 
 This produces a coherent conditional background theory without pretending that its amplitude law has already been proved.
 
-The ceiling is repaired separately, and later. Version 7 inherits the unit branch, where the artifact is invisible because a single positive root exists there for every admissible width. Keeping $\nu$ and $\mathfrak R_c$ explicit is what exposes it, so the corrected root atlas and the late-branch declaration are now canonical in [[causal-scale-theory/flatness-branches|present flatness and the crossing branches]]. A width or amplitude that is allowed to vary must carry an explicit branch choice with it.
+The ceiling is repaired separately, and later. Version 7 inherits the unit branch, where the artifact is invisible because a single positive root exists there for every admissible rate. Keeping $\nu$ and $\mathfrak R_c$ explicit is what exposes it, so the corrected root atlas and the late-branch declaration are now canonical in [[causal-scale-theory/flatness-branches|present flatness and the crossing branches]]. A rate or amplitude that is allowed to vary must carry an explicit branch choice with it.

@@ -1,6 +1,6 @@
-# Unit-Width Crossing Sign
+# Unit-Rate Crossing Sign
 
-On the flat zero-residual unit-width background, the present-flatness function is strictly increasing, so the crossing root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\).
+On the flat zero-residual unit-rate background, the present-flatness function is strictly increasing, so the crossing root is unique and its past, present, or future sign is fixed exactly by comparing \(\mathfrak R_c\) with \(2D\).
 
 Assume the hypotheses of [[causal-scale-theory/theorems/present-flatness-closure|present-flatness closure]], set \(\nu=1\), and suppose
 
@@ -74,4 +74,4 @@ $$
 \end{aligned}}
 $$
 
-This global uniqueness and sign theorem is special to \(\nu=1\). For other widths the root function can fold and the sign must be stated root by root.
+This global uniqueness and sign theorem is special to \(\nu=1\). For other rates the root function can fold and the sign must be stated root by root.

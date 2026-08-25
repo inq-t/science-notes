@@ -29,10 +29,18 @@ Its provenance is explicit in [[realization-map|the realization map]]. In partic
 - the factor \(1/2\) comes from [[free-energy-source|the constitutive source]];
 - the conversion to \(\rho_{\mathrm{crit},c}\) uses [[horizontal-temperature|an open temperature identification]] followed by [[conformal-scale-geometry/hawking-friedmann-identity|an exact horizon identity]].
 
-No part of this formula constructs the wall, proves either weak unit principle, or supplies a covariant stress tensor.
+Thus \(\nu\) is the scale-state rate and the profile's inverse-scale parameter, not a width. For this binary profile the full width at half maximum is
+
+$$
+\boxed{
+\Delta N_{\mathrm{FWHM}}
+=\frac{2\operatorname{arcosh}\sqrt2}{\nu}.}
+$$
+
+In particular, the proposed value \(\nu=1\) gives \(\Delta N_{\mathrm{FWHM}}=2\operatorname{arcosh}\sqrt2\), not one e-fold. No part of this formula constructs the wall, proves either weak unit principle, or supplies a covariant stress tensor.
 
 If the response is separately conserved, [[theorems/rigid-sech-response-identities|the rigid-response theorem]] gives its equation of state, Riccati flow, and differential invariants. [[theorems/trace-free-silence|The trace-free theorem]] gives the crossing identity. [[theorems/dimensional-crossing-partition|The dimensional theorem]] gives the crossing fraction after the relevant background assumptions are added.
 
-The positive pulse has its unique maximum at \(N_c\). Present flatness need not select a unique value of \(N_c\) for general width; that is a separate root problem handled by [[flatness-branches|the branch analysis]].
+The positive pulse has its unique maximum at \(N_c\). Present flatness need not select a unique value of \(N_c\) for general rate; that is a separate root problem handled by [[flatness-branches|the branch analysis]].
 
 The formula fixes no sound speed, anisotropic stress, exchange current, initial perturbation, or stability criterion. Until [[conjectures/covariant-response-sector|a covariant response sector]] is constructed, it is a background density law and nothing stronger.

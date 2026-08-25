@@ -1,6 +1,6 @@
-# Euclidean Monodromy and the Width Conjecture
+# Euclidean Monodromy and the Rate Conjecture
 
-A Euclidean angular action could discretize a vertical wall charge, but it fixes the horizontal scale-to-state width only if a further transport theorem identifies the two generators. This is the viable quantization route left open after ordinary real character theory fails to select unit width.
+A Euclidean angular action could discretize a vertical wall charge, but it fixes the horizontal scale-state rate only if a further transport theorem identifies the two generators. This is the viable quantization route left open after ordinary real character theory fails to select unit rate.
 
 The proposed route begins with a Euclidean continuation of normal boost geometry carrying a genuine \(2\pi\)-periodic action. Single-valued representations may then quantize the corresponding angular generator. CST would need that result to constrain
 
@@ -24,4 +24,4 @@ A successful construction must:
 
 ## Failure criterion
 
-The route fails to fix CST width if quantization applies only to vertical modular rotation, if the horizontal connection has unrelated holonomy, or if admissible wall states realize a continuous family of slopes. Without the additional Euclidean construction, [[basic-concepts/soldering/continuous-character-no-go|the continuous-character no-go]] leaves \(\nu\) unrestricted.
+The route fails to fix the CST scale-state rate if quantization applies only to vertical modular rotation, if the horizontal connection has unrelated holonomy, or if admissible wall states realize a continuous family of slopes. Without the additional Euclidean construction, [[basic-concepts/soldering/continuous-character-no-go|the continuous-character no-go]] leaves \(\nu\) unrestricted.

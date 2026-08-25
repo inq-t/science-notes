@@ -24,7 +24,7 @@ $$
 
 developed in [[causal-scale-theory/free-energy-source|the source law]]. What the state coordinate is *not* is settled: neither a propagating local field, which the no-go excludes for the direct lifts, nor a function read back from $H(z)$, which [[causal-scale-theory/no-gos/background-reconstruction-is-not-wall-construction|the reconstruction no-go]] excludes. The positive label often attached to what survives — a collective constitutive quantity of the type of an inverse temperature or an order parameter — is archival rather than canonical, and [[field-completion-no-gos]] says so.
 
-**7. Under the two unit principles the profile is rigid.** **[CONDITIONAL OUTPUT]** With the balanced binary reduction, affine soldering, **[PRINCIPLE — WIDTH]** $\nu=1$, **[PRINCIPLE — AMPLITUDE]** $\mathfrak R_c=1$, the horizon bridge, and the background assumptions of [[causal-scale-theory/realization-map|the realization map]], [[causal-scale-theory/response-law|the response law]] gives
+**7. Under the two unit principles the profile is rigid.** **[CONDITIONAL OUTPUT]** With the balanced binary reduction, affine soldering, **[PRINCIPLE — RATE]** $\nu=1$, **[PRINCIPLE — AMPLITUDE]** $\mathfrak R_c=1$, the horizon bridge, and the background assumptions of [[causal-scale-theory/realization-map|the realization map]], [[causal-scale-theory/response-law|the response law]] gives
 
 $$
 \rho_X(N)=\frac{\mathfrak R_c}{2}\rho_{\mathrm{crit},c}\operatorname{sech}^2(\nu x),

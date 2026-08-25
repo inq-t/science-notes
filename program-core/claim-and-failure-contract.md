@@ -141,8 +141,8 @@ C5 and C6 are sequential within the gravitational branch. F1 and Q1 do not presu
 | universal \(\mathfrak r_*\ne1\) | new dimensionless mismatch requiring explanation |
 | nonuniversal \(\mathfrak r\) | constitutive functional or modified-gravity sector, not a constant |
 | \(\mathfrak R_c=1\) only at one cut | weak cosmological matching, not universal \(G\) |
-| \(\nu\ne1\) with \(\mathfrak R_c=1\) | amplitude principle survives; width principle fails |
-| \(\nu=1\) with \(\mathfrak R_c\ne1\) | width principle survives; amplitude principle fails |
+| \(\nu\ne1\) with \(\mathfrak R_c=1\) | amplitude principle survives; rate principle fails |
+| \(\nu=1\) with \(\mathfrak R_c\ne1\) | rate principle survives; amplitude principle fails |
 | correct background but no covariant response | phenomenological homogeneous model only |
 | capacity exists but no moment map | response theory without a conserved causal charge |
 

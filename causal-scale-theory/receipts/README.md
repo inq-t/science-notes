@@ -24,7 +24,7 @@ The algebra receipt covers:
 
 The background receipt covers:
 
-- the weak-unit-matching, unit-width present-flatness root;
+- the weak-unit-matching, unit-rate present-flatness root;
 - $z_c,w_0,w_a,q_0,j_0$, acceleration entry, and future exit;
 - crossing density, response-to-matter ratio, exact response-to-matter-plus-radiation equality, radiation fraction, crossing deceleration, and horizon index;
 - representative one-root, three-root, high-root-only, and no-root regimes for the inherited benchmark;

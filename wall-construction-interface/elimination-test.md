@@ -42,7 +42,7 @@ Using the target background to define both the wall path and its supposed source
 | the reduced generator and its normalization come from the algebra | the normalization is fixed by matching an amplitude downstream |
 | a returned number disagrees with a postulated law, and the law is treated as falsified | a returned number is adjusted until it matches the postulated law |
 
-The last row is the operative discipline. If a construction returns a width or a peak ratio different from its postulated value, that is a falsification of the postulate, not a technical discrepancy to be renormalized away.
+The last row is the operative discipline. If a construction returns a scale-state rate or a peak ratio different from its postulated value, that is a falsification of the postulate, not a technical discrepancy to be renormalized away.
 
 ## Test II — conservative restriction
 

@@ -346,7 +346,7 @@ def main() -> int:
     atlas_roots: dict[str, list[float]] = {}
     for identifier, (nu, expected_roots) in atlas_cases.items():
         roots = sign_change_roots(
-            lambda x, width=nu: closure_residual(x, width, 1.0),
+            lambda x, rate=nu: closure_residual(x, rate, 1.0),
             scan_left,
             scan_right,
             step=scan_step,
@@ -438,7 +438,7 @@ def main() -> int:
     for nu in (2.0, 2.2):
         identifier = f"amplitude_root_nu_{nu:.1f}"
         roots = sign_change_roots(
-            lambda x, width=nu: closure_residual(x, width, 1.9),
+            lambda x, rate=nu: closure_residual(x, rate, 1.9),
             scan_left,
             20.0,
             step=0.001,

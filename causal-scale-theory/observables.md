@@ -1,6 +1,6 @@
 # Observables and Discriminating Tests
 
-CST should be tested through observables that distinguish its rigid conditional background from flexible reconstructions and through completion tests that can falsify its microscopic interpretation. Every test must preserve the core types: \(\nu\) is width, \(\mathfrak R_c\) is an integrated crossing ratio, \(m\) is binary polarization, and the signed \(\widehat\zeta_A\) is horizon rapidity rather than another state coordinate.
+CST should be tested through observables that distinguish its rigid conditional background from flexible reconstructions and through completion tests that can falsify its microscopic interpretation. Every test must preserve the core types: \(\nu\) is the scale-state rate and inverse profile width, \(\mathfrak R_c\) is an integrated crossing ratio, \(m\) is binary polarization, and the signed \(\widehat\zeta_A\) is horizon rapidity rather than another state coordinate.
 
 ## Test hierarchy
 
@@ -8,7 +8,7 @@ CST should be tested through observables that distinguish its rigid conditional 
 |---|---|---|---|
 | Direct background forward fit | \((\nu,\mathfrak R_c)\), root branch, ordinary abundances, residual sector; SNe, BAO, clocks, and distance data | No allowed branch fits the joint expansion data competitively | Executable now; moderate theory discrimination because flexible dark-energy histories can imitate the transition |
 | Closure and branch atlas | Present flatness and declared abundances | No root, or only roots incompatible with the declared branch prior | Strong internal admissibility test; not independent evidence because flatness supplies the closure |
-| Linked \(w_0\)--\(w_a\) tangent | A separately identified response component and direct forward model | Posterior excludes the theorem relation for all allowed widths | Potentially useful, but a generic CPL posterior need not estimate the local CST tangent |
+| Linked \(w_0\)--\(w_a\) tangent | A separately identified response component and direct forward model | Posterior excludes the theorem relation for all allowed rates | Potentially useful, but a generic CPL posterior need not estimate the local CST tangent |
 | Rigid shape invariant | Reconstruction of \(w_X\) and \(w_X'\) with covariance | No constant \(\nu\) satisfies the response identity | Exact conditional signature, but differentiation is noisy and finite redshift coverage gives weak tail leverage |
 | Finite acceleration and future class | Amplitude, branch, contents, separate conservation, and residual choice | Reconstructed history has an incompatible sign pattern or asymptotic class | Sharp model statement; current data constrain acceleration entry more directly than the remote future |
 | Horizon reconstruction diagnostic | Reconstructed \(H(N)\) and \(q(N)\) | No independent failure condition when every term is reconstructed from the same history; an independent area or rapidity determination would be required | Exact implementation diagnostic with no present independent CST discrimination |
@@ -44,7 +44,7 @@ $$
 
 ## Rigid response signatures
 
-[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] proves, under a positive constant-width pulse and separate conservation,
+[[causal-scale-theory/theorems/rigid-sech-response-identities|The rigid-response theorem]] proves, under a positive constant-rate pulse and separate conservation,
 
 $$
 9(1+w_X)^2+6w_X'=4\nu^2,
@@ -58,7 +58,7 @@ w_a
 -\frac{2\nu^2}{3}.
 $$
 
-Their limitation is inferential rather than algebraic. The \(X\) sector must be separated from matter, radiation, curvature, residual vacuum, and interactions, while derivatives amplify reconstruction error. With data spanning less than a full effective transition width, the crossing placement and amplitude can be constrained while nearby widths remain difficult to distinguish. These relations should therefore be posterior consistency checks after direct fitting, not the first advertised observables.
+Their limitation is inferential rather than algebraic. The \(X\) sector must be separated from matter, radiation, curvature, residual vacuum, and interactions, while derivatives amplify reconstruction error. With data spanning less than a full effective transition width, the crossing placement and amplitude can be constrained while nearby rates remain difficult to distinguish. These relations should therefore be posterior consistency checks after direct fitting, not the first advertised observables.
 
 The inherited analysis also compared favorable-looking statistics with a matched ensemble of smooth positive transients. Many null histories reproduced the same broad CMB-lensing response direction, so the apparent agreement was correctly treated as model-class membership rather than distinctive confirmation. The pipeline is not preserved in the canonical evidence, but the methodological rule remains: every attractive statistic needs a comparator ensemble capable of showing whether it is generic to the wider class.
 

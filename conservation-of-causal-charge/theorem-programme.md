@@ -76,7 +76,7 @@ Obtain the scale cocycle, unit or nonunit slope, binary transfer current, [[conf
 
 ## CC--T7: test universality and the cosmos as a whole
 
-Compare the same areal modulus and balance law across local focusing, laboratory gravity, FLRW background expansion, growth and lensing, gravitational waves, horizon entropy, and record-bearing perturbations. Test the pulse's width, oriented endpoint index, mixed homogeneous--inhomogeneous blocks, and higher correlations.
+Compare the same areal modulus and balance law across local focusing, laboratory gravity, FLRW background expansion, growth and lensing, gravitational waves, horizon entropy, and record-bearing perturbations. Test the pulse's scale-state rate or directly defined e-fold width, oriented endpoint index, mixed homogeneous--inhomogeneous blocks, and higher correlations.
 
 **Success:** several dimensionless relations are fixed independently and agree across registers with bounded corrections.
 

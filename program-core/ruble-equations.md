@@ -310,7 +310,7 @@ These equations fix a normalized shape and Casimir allocation. They do not const
 
 The exact reduction is proved once in [[binary-information-geometry/balanced-exponential-family|the balanced exponential-family theorem]]. The claim that a physical wall admits this reduction belongs instead to [[wall-construction-interface/binary-channel|the binary-channel interface]].
 
-## RE5 — Scale soldering, width, and extensive norm
+## RE5 — Scale soldering, rate, and extensive norm
 
 **[CONDITIONAL THEOREM + SEPARATE PRINCIPLE + ASSUMPTION]**
 
@@ -323,7 +323,7 @@ $$
 \nu:=|\varrho_\perp|.}
 $$
 
-The unit-width principle separately proposes
+The unit-rate principle separately proposes
 
 $$
 \boxed{\nu=1.}
@@ -583,7 +583,7 @@ This is the prospective conservation law. It does not follow from \(\mathfrak r_
 | \(Q^2=\mathbf1_{\mathcal B_N}\) | representation normalization after a selected exhaustive binary image has been constructed |
 | \(\operatorname{sech}^2(0)=1\) | normalized binary peak identity |
 | \(m^2+g_{\theta\theta}^{\mathrm{bin}}=1\) | binary second-moment Casimir |
-| \(\nu=1\) | proposed width law after canonical normalization |
+| \(\nu=1\) | proposed scale-state rate law after canonical generator normalization |
 | \(\mathfrak R_c=1\) | proposed integrated crossing equivalence |
 | \(\mathfrak r_{\Sigma,N}(p)=1\) | proposed local equality in the normalized scale channel |
 | \(C_E/(S/k_B)=1\) | conditional \(n=1\) conformal thermal result |

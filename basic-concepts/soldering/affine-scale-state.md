@@ -108,7 +108,7 @@ Thus the FLRW formula is a specialization of the scale-section theorem, not its 
 
 ## Scope of the result
 
-The theorem determines logarithmic form, not physical normalization. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] proves that \(\varrho_\perp\) remains an arbitrary real slope; a unit-width law is additional input.
+The theorem determines logarithmic form, not physical normalization. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] proves that \(\varrho_\perp\) remains an arbitrary real slope; a unit-rate law is additional input. The orientation-independent quantity \(\nu:=|\varrho_\perp|\) is a scale-state rate. It becomes an inverse profile width only after a particular response shape has been selected.
 
 If only a proper subgroup of positive rescalings is admissible, the classification applies only to that subgroup. If a different character \(F_p\) is allowed at each point, one obtains a field \(\kappa(p)\), not a universal coefficient. If comparison has holonomy or additional generators, no single endpoint scalar \(\Theta\) captures it. If regularity is dropped, discontinuous additive solutions survive.
 

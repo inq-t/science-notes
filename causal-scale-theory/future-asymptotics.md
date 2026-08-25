@@ -1,6 +1,6 @@
 # Expansion History and Future Classes
 
-After a present-flatness root is selected, the generalized response fixes a conditional homogeneous expansion history. The zero-residual future is classified by the width \(\nu\), while the integrated crossing ratio \(\mathfrak R_c\), root branch, ordinary contents, and residual sector still control the finite history and whether acceleration occurs at all.
+After a present-flatness root is selected, the generalized response fixes a conditional homogeneous expansion history. The zero-residual future is classified by the scale-state rate \(\nu\), while the integrated crossing ratio \(\mathfrak R_c\), root branch, ordinary contents, and residual sector still control the finite history and whether acceleration occurs at all.
 
 Let \(x_c\) be a selected root from [[causal-scale-theory/flatness-branches|the crossing-branch analysis]], set \(x=N+x_c\), and define
 
@@ -27,7 +27,7 @@ This is the background interface consumed by distances, ages, and cosmography. I
 
 [[causal-scale-theory/theorems/future-response-classes|The future-class theorem]] owns the proof of the following classification:
 
-| Width | Leading ever-expanding future |
+| Rate \(\nu\) | Leading ever-expanding future |
 |---|---|
 | \(0<\nu<1\) | response-dominated power-law acceleration with a future event horizon |
 | \(\nu=1\) | response-dominated coasting with divergent future conformal time |
@@ -49,7 +49,7 @@ A positive constant residual eventually replaces every row by de Sitter behavior
 
 ## Finite acceleration
 
-Width alone does not determine an accelerating interval. Under the same flat, noninteracting, zero-residual assumptions, [[causal-scale-theory/theorems/acceleration-condition|the acceleration theorem]] gives the necessary and sufficient condition
+The rate alone does not determine an accelerating interval. Under the same flat, noninteracting, zero-residual assumptions, [[causal-scale-theory/theorems/acceleration-condition|the acceleration theorem]] gives the necessary and sufficient condition
 
 $$
 \boxed{

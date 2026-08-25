@@ -84,7 +84,7 @@ Four observations, in the order that matters.
 
 **The crossing epoch is adjacent but systematically early, not matching.** The reclassification *requires* a phantom crossing — $w_X<-1$ before, $>-1$ after, with the density maximum exactly at $w_X=-1$ — because that is what a pulse looks like, so the sign structure is a genuine structural prediction and it is the one the data confirm. The epoch is another matter. Predicted $z_c$ spans $0.24$ to $0.34$; solving each CPL pair for its own crossing gives $0.35$ to $0.50$. Those ranges do not overlap. Every combination crosses later than predicted, by $+0.014$ for Pantheon+ up to $+0.25$ for BAO+CMB — the same direction as the $w_0$ offsets, which is at least coherent, and not a match.
 
-**The implied width restates the $w_a$ offset rather than adding to it.** Inverting the locus on each published pair gives the width that pair would imply if it were the exact tangent, with an envelope taken over the $1\sigma$ box on $(w_0,w_a)$:
+**The implied rate restates the $w_a$ offset rather than adding to it.** Inverting the locus on each published pair gives the scale-state rate that pair would imply if it were the exact tangent, with an envelope taken over the $1\sigma$ box on $(w_0,w_a)$:
 
 | Combination | $\nu$ implied |
 |---|---:|
@@ -93,14 +93,14 @@ Four observations, in the order that matters.
 | +Union3 | $1.37\ [1.14,1.56]$ |
 | +DESY5 | $1.20\ [1.01,1.34]$ |
 
-The Pantheon+ row gives $\nu\simeq1.0\pm0.2$ against a principle that sets it to one. That is worth noting and it is *the same fact* as the $0.03\sigma$ in $w_a$ above, re-expressed — quoting it to four decimals would present one agreement as two. It must also not be described as a measurement of modular width: a phenomenological fit estimates the effective width and crossing amplitude, while the modular interpretation predicts that the corresponding microscopic quantities equal one. Reading it the other way is what [[causal-scale-theory/no-gos/background-reconstruction-is-not-wall-construction|the reconstruction no-go]] forbids. At the other end, the BAO+CMB envelope reaches past the benchmark late-branch fold, so that pair is not accommodated on the intended branch at those abundances.
+The Pantheon+ row gives $\nu\simeq1.0\pm0.2$ against a principle that sets it to one. That is worth noting and it is *the same fact* as the $0.03\sigma$ in $w_a$ above, re-expressed — quoting it to four decimals would present one agreement as two. It must also not be described as a measurement of a microscopic scale-state rate: a phenomenological fit estimates the effective inverse width and crossing amplitude, while the modular interpretation predicts that the corresponding microscopic quantities equal one. Reading it the other way is what [[causal-scale-theory/no-gos/background-reconstruction-is-not-wall-construction|the reconstruction no-go]] forbids. At the other end, the BAO+CMB envelope reaches past the benchmark late-branch fold, so that pair is not accommodated on the intended branch at those abundances.
 
 ### Everything wrong with the comparison above
 
 Stated plainly, because a comparison whose weaknesses live only in the reader's head is a fit dressed as a test. The first two items are not this module's caveats but the canon's.
 
 - **Tangent against range.** [[causal-scale-theory/observables|Observables]] rates the linked $w_0$–$w_a$ tangent as "potentially useful, but generic CPL posteriors need not equal the local CST tangent," and says a credible analysis fits the forward model rather than interpreting a reconstruction as a wall measurement. The predicted pair is a local tangent at $z=0$ of a $\operatorname{sech}^2$ history; the observed pair is a CPL fit over a redshift range. The offsets are indicative and are not significances.
-- **The invariant is weak here, not strong.** The same table rates the shape invariant structurally weak with present background coverage, because differentiation is noisy and the tails carry most of the width leverage. It belongs as a consistency check after direct fitting, not as a headline.
+- **The invariant is weak here, not strong.** The same table rates the shape invariant structurally weak with present background coverage, because differentiation is noisy and the tails carry most of the rate leverage. It belongs as a consistency check after direct fitting, not as a headline.
 - **No likelihood, no covariance.** A real test refits the $\operatorname{sech}^2$ history directly. The $(w_0,w_a)$ covariance is not in the workspace, so the implied-$\nu$ envelope is a box over a strongly anticorrelated pair and is not a confidence interval, and the sigma columns ignore that correlation entirely.
 - **Non-Gaussian posteriors.** The $w_a$ intervals are asymmetric and at least one analysis notes they are not Gaussian, so one-sided sigma distances are a convenience.
 - **No priority claim.** [[scale-as-modular-observable/misc/research-history|The research history]] records that an earlier master described its observational comparison as partly retrodictive, and that a later claim of the shape having been fixed before contact with data should not be used as historical evidence.
@@ -118,7 +118,7 @@ A background-only $\chi^2$ comparison against $\Lambda$CDM exists in the inherit
 
 ## Not claimed here
 
-Recorded so that no reader has to check: this module quotes no AIC or DIC ranking; no withheld v8 best-fit amplitude or width value, both of which are outside the canon because their likelihood directories are absent; no neutrino inference, which the canon treats as a class-membership and negative-control exercise rather than distinctive support; no $f\sigma_8$, $\sigma_8$, $S_8$, lensing, or growth number of any kind, since the covariant response sector is unconstructed; and no claim that DESI has measured modular width or horizon capacity.
+Recorded so that no reader has to check: this module quotes no AIC or DIC ranking; no withheld v8 best-fit amplitude or rate value, both of which are outside the canon because their likelihood directories are absent; no neutrino inference, which the canon treats as a class-membership and negative-control exercise rather than distinctive support; no $f\sigma_8$, $\sigma_8$, $S_8$, lensing, or growth number of any kind, since the covariant response sector is unconstructed; and no claim that DESI has measured a microscopic scale-state rate or horizon capacity.
 
 ## What would kill the reclassification
 
@@ -126,7 +126,7 @@ Distinguished from what would merely revise the framework, since a failure that 
 
 **Kills the reclassification.** A regular, minimally coupled, positive-kinetic scalar history — or a positive-definite sigma-model history — that reproduces the full crossing, since that is a direct counterexample to the no-go's stated premises and [[field-completion-no-gos|the no-go]] is the reclassification's positive content. Note the narrowness: exhibiting *some* covariant completion is not a falsifier but the thing the programme is trying to build. Also fatal: a reconstructed response history that cannot satisfy $9(1+w_X)^2+6w_X'=$ any constant, subject to the power caveat above; more than one genuine density maximum or $w=-1$ crossing in the response sector; or a response with no phantom crossing at all, since a pulse must have one.
 
-**Kills the unit branch but not the reclassification.** A crossing fraction differing from one half after assumptions are controlled, which falsifies $\mathfrak R_c=1$. A wall construction returning a finite, scheme-stable $\nu\ne1$. Data tightening at DESI's present central values, which would push the implied width off the intended branch — the $2\sigma$ tension in the BAO+CMB row and the systematically late crossing epochs are where this bites first.
+**Kills the unit branch but not the reclassification.** A crossing fraction differing from one half after assumptions are controlled, which falsifies $\mathfrak R_c=1$. A wall construction returning a finite, scheme-stable $\nu\ne1$. Data tightening at DESI's present central values, which would push the implied rate off the intended branch — the $2\sigma$ tension in the BAO+CMB row and the systematically late crossing epochs are where this bites first.
 
 **Kills the sector but not the pulse.** A positive residual, which removes transient acceleration and the coasting future while leaving the exact binary profile untouched.
 

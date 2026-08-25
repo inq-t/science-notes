@@ -186,16 +186,16 @@ def chronology(nu: float = 1.0, ruble: float = 1.0, om: float = OM_BENCH,
         "a_over_a0_acceleration_exit": a_exit,
         "acceleration_window_efolds": window,
         "present_fraction_through_window": (-n_in / window) if window else None,
-        "x_c_in_widths": xc * nu,
+        "x_c_times_rate": xc * nu,
     }
 
 
 # --- comparison helpers -------------------------------------------------------
 def implied_nu(w0: float, wa: float) -> float | None:
-    """Width implied by treating a published CPL pair as the exact tangent.
+    """Rate implied by treating a published CPL pair as the exact tangent.
 
     Inverts w_a = (3/2)(1+w_0)^2 - (2/3) nu^2. This is an effective-shape
-    statement about a fitted pair, not a measurement of modular width.
+    statement about a fitted pair, not a measurement of the scale-state rate.
     """
     arg = 1.5 * (1.5 * (1.0 + w0) ** 2 - wa)
     return math.sqrt(arg) if arg >= 0.0 else None
@@ -309,7 +309,7 @@ def run_checks(c: dict) -> None:
                 not _no_positive_root(1.30), "R_c=1.30 < 2D: closure root is x_c > 0")
 
     print("\n# benchmark fold anchors (causal-scale-theory/flatness-branches)")
-    print("# these are benchmark-specific, not universal width bounds")
+    print("# these are benchmark-specific, not universal rate bounds")
     for nu_t, want_n in ((1.5, 1), (1.7, 3), (1.9, 1), (2.0, 0)):
         n = _count_positive_roots(nu_t)
         assert_true(f"root count at nu={nu_t}", n == want_n, f"got {n}, want {want_n}")
@@ -455,7 +455,7 @@ def print_comparison(rows: list[dict]) -> None:
     print("  overlap: predicted 0.24-0.34, CPL-implied 0.35-0.50. Adjacent and")
     print("  systematically offset, in the same direction as the w0 offsets.")
 
-    print("\n# width implied by inverting the CPL locus on each published pair")
+    print("\n# rate implied by inverting the CPL locus on each published pair")
     print("# Envelope is the 1-sigma BOX on (w0,wa), not a confidence interval:")
     print("# the published covariance is unavailable and the pair is strongly")
     print("# anticorrelated. This restates the wa offset; it does not add to it.")
@@ -491,9 +491,9 @@ def main() -> int:
     print(f"  exit   a/a0 = {bench['a_over_a0_acceleration_exit']:.5f}")
     print(f"  window = {bench['acceleration_window_efolds']:.6f} e-folds")
     print(f"  present epoch sits {100.0 * bench['present_fraction_through_window']:.2f}% in")
-    print(f"  present displacement from crossing = {bench['x_c_in_widths']:.6f} widths")
+    print(f"  dimensionless present displacement nu*x_c = {bench['x_c_times_rate']:.6f}")
 
-    print("\n# width sensitivity of the tangent, benchmark abundances")
+    print("\n# rate sensitivity of the tangent, benchmark abundances")
     for nu_t in (0.8, 0.9, 1.0, 1.1, 1.2):
         cc = chronology(nu=nu_t)
         print(f"  nu={nu_t:.2f}  z_c={cc['z_c']:.4f}  w_0={cc['w_0']:+.4f}  "

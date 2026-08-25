@@ -53,7 +53,7 @@ $$
 =\frac{k_BT_c}{V_c}J_N.
 $$
 
-This gives a precise conjectural reading of the cosmological pulse: the effective density is the fixed wall energy scale per crossing volume multiplied by a causal-capacity conversion current. It remains conditional on the physical channel, its conserved multiplicity, affine soldering, unit width, and constitutive source law.
+This gives a precise conjectural reading of the cosmological pulse: the effective density is the fixed wall energy scale per crossing volume multiplied by a causal-capacity conversion current. It remains conditional on the physical channel, its conserved multiplicity, affine soldering, unit scale-state rate, and constitutive source law.
 
 ## Horizon allocation shadow
 

@@ -10,7 +10,7 @@ Cosmodynamics contains philosophical definitions, mathematical typing principles
 | Exact internal algebra | formulas follow from stated finite definitions | that the finite model is a physical wall or spacetime sector |
 | Conditional background dynamics | consequences of the proposed profile and GR closure | the microscopic origin of the source |
 | Phenomenological likelihood | viability or exclusion of an effective history | modular, causal-wall, or information-geometric ontology |
-| Microscopic construction | calculated width, amplitude, and response from a wall state | observational success without perturbative descent and data analysis |
+| Microscopic construction | calculated scale-state rate, amplitude, and response from a wall state | observational success without perturbative descent and data analysis |
 
 This separation follows [[causal-scale-theory/empirical-status|the empirical-status ledger]] and [[causal-scale-theory/observables|the discriminating-test programme]].
 

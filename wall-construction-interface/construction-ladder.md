@@ -53,7 +53,7 @@ Gravitationally dressed observables for a comoving observer in a past-asymptotic
 
 This is the intended physical setting and the only rung at which the region trap of [[elimination-test|Test I]] bites. A construction here must either supply an off-shell functional for arbitrary admissible backgrounds and solve the coupled system, or fix the state family from independent initial and matter data.
 
-**What it tests.** The programme's actual claim. A returned width or peak ratio differing from a postulated value falsifies that postulate.
+**What it tests.** The programme's actual claim. A returned scale-state rate or peak ratio differing from a postulated value falsifies that postulate.
 
 ## Reading the ladder
 

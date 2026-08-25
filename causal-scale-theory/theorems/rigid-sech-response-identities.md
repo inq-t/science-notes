@@ -1,6 +1,6 @@
 # Rigid Sech Response Identities
 
-A positive \(\operatorname{sech}^2\) density with constant width and separate homogeneous conservation has a uniquely determined equation of state, Riccati flow, and differential invariants. These are exact consequences of the stipulated pulse; they do not derive the pulse, its amplitude, or a covariant stress tensor.
+A positive \(\operatorname{sech}^2\) density with constant scale-state rate and separate homogeneous conservation has a uniquely determined equation of state, Riccati flow, and differential invariants. These are exact consequences of the stipulated pulse; they do not derive the pulse, its amplitude, or a covariant stress tensor.
 
 Let \(I\subseteq\mathbb R\) be an interval in logarithmic scale age \(N\), and suppose
 

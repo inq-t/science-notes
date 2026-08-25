@@ -88,7 +88,7 @@ $$
 \not\vdash |\varrho_\perp|=1.}
 $$
 
-If the zero character is excluded by requiring a nontrivial bridge, the remaining slopes still fill \(\mathbb R\setminus\{0\}\). If orientation reversal is declared physically equivalent, the invariant width \(\nu:=|\varrho_\perp|\) still ranges continuously over \(\mathbb R_{>0}\).
+If the zero character is excluded by requiring a nontrivial bridge, the remaining slopes still fill \(\mathbb R\setminus\{0\}\). If orientation reversal is declared physically equivalent, the invariant rate \(\nu:=|\varrho_\perp|\) still ranges continuously over \(\mathbb R_{>0}\).
 
 ## Why familiar quantization arguments do not apply
 
@@ -108,4 +108,4 @@ is a continuous character for every \(\lambda\in\mathbb R\). The domain \(\mathb
 
 Quantization could arise only after adding structure not present in the affine theorem—for example, a compactified logarithmic-scale direction, a target lattice, an extension to a group with a discrete weight lattice, a boundary condition, or a microscopic selection rule. Such an addition would need its own physical justification and must show why the selected character is primitive.
 
-The proposal \(\nu=1\) in [[program-core/axioms-and-principles|the unit-width principle]] is therefore logically independent of the affine character theorem. It may be adopted as a physical principle or eventually derived from a stronger construction, but it is not a consequence of continuity or character theory alone.
+The proposal \(\nu=1\) in [[program-core/axioms-and-principles|the unit-rate principle]] is therefore logically independent of the affine character theorem. It may be adopted as a physical principle or eventually derived from a stronger construction, but it is not a consequence of continuity or character theory alone.

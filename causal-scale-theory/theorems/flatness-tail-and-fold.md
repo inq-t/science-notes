@@ -68,4 +68,4 @@ $$
 
 Solving the closure and fold equations together locates saddle-node points of the root equation. The root equation may have saddle-node bifurcations even though the separately conserved equation-of-state flow in [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid response theorem]] does not.
 
-Benchmark fold locations belong to [[causal-scale-theory/receipts/README|the arithmetic receipts]]. They are not universal width bounds.
+Benchmark fold locations belong to [[causal-scale-theory/receipts/README|the arithmetic receipts]]. They are not universal rate bounds.

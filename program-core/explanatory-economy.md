@@ -17,7 +17,7 @@ The four are not interchangeable. A theory can have no fitted constants and no f
 When a proposed derivation removes one apparent freedom, compare the complete choice ledger before and after:
 
 - replacing a free response history with a state family selected because its metric reproduces that history moves freedom into state-space design;
-- fixing a width while leaving generator normalization or scale soldering free moves freedom into a representation choice;
+- fixing a scale-state rate while leaving generator normalization or scale soldering free moves freedom into a representation choice;
 - obtaining a future class only after selecting a residual sector moves freedom into a global condition;
 - eliminating an epoch through an equation with several roots moves freedom into a branch prior; and
 - deriving a coupling after using that measured coupling to normalize area moves freedom into the input measure.

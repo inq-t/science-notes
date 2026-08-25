@@ -104,7 +104,7 @@ $$
 
 This invariant is a structural test of the response shape. The unit branch predicts $\nu=1$ and $\mathfrak R_c=1$, hence dark--ordinary equality at the response maximum under the stated flatness and residual-sector assumptions. The topology of one response pulse, one $w=-1$ crossing, a finite acceleration episode, and the selected future branch supplies further linked consequences.
 
-These relations are more characteristic of the theory than the numerical value of any one dimensionful constant. Their force comes from using the same few structural inputs to constrain amplitude, width, chronology, and asymptotics together.
+These relations are more characteristic of the theory than the numerical value of any one dimensionful constant. Their force comes from using the same few structural inputs to constrain amplitude, scale-state rate, chronology, and asymptotics together.
 
 ## Dimensionful constants are soldering data
 

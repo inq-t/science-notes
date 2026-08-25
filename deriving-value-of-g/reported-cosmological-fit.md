@@ -4,7 +4,7 @@ The archive reports a background-cosmology consistency fit \(\mathfrak R_c\simeq
 
 ## What was reported
 
-In the historical notation \(\gamma=\mathfrak R_c\), with unit width fixed, the source law gives
+In the historical notation \(\gamma=\mathfrak R_c\), with unit scale-state rate fixed, the source law gives
 
 $$
 \Omega_{X,c}=\frac{\gamma}{2}.
@@ -63,4 +63,4 @@ $$
 \text{reproduced direct measurement of modular capacity}.}
 $$
 
-If the likelihood package is recovered, the fit should be rerun with \(\mathfrak R_c\), width, matter abundance, supernova calibration, and relevant nuisance parameters jointly profiled. Even a successful reproduction would remain phenomenological evidence for the closure, not a proof of [[noether-capacity-theorem|the microscopic capacity theorem]].
+If the likelihood package is recovered, the fit should be rerun with \(\mathfrak R_c\), scale-state rate, matter abundance, supernova calibration, and relevant nuisance parameters jointly profiled. Even a successful reproduction would remain phenomenological evidence for the closure, not a proof of [[noether-capacity-theorem|the microscopic capacity theorem]].
