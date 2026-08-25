@@ -49,7 +49,7 @@ C_E(\rho_0)=0,
 \mathcal S(\rho_0)=\ln2.
 $$
 
-Thus the binary scale tangent is not the replica-temperature tangent of the same state. The former is maximal at the crossing; the latter vanishes because \(K_0\) is central. The binary profile can consistently modulate an independently supplied extensive wall capacity, but it cannot itself prove that the extensive capacity equals horizon entropy.
+Thus the binary scale tangent is not the replica-temperature tangent of the same state. The former is maximal at its balanced reference point; the latter vanishes because \(K_0\) is central. The binary profile can consistently modulate an independently supplied extensive wall capacity, but it cannot itself prove that the extensive capacity equals horizon entropy or that the balanced point is a constructed cosmological event.
 
 ## The replication obstruction
 

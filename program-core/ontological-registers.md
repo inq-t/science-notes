@@ -6,7 +6,7 @@ The core vocabulary assigns different mathematical types to ground, presentation
 
 | Term | Canonical type | Meaning in this programme |
 |---|---|---|
-| Pre-observable ground | placeholder role, not yet one object | explanatory ground of observable structure; “pre” is not an earlier time |
+| Pre-observable ground | provisional ontological role, not yet one constructed object | explanatory ground of observable structure; “pre” is not an earlier time |
 | Causal individuation | philosophical umbrella and construction programme | the coordinated problem of how distinctions acquire causal position, metric scale, contextual facthood, and persistence as records; not one constructed mathematical object |
 | Presentation | object of a category or groupoid | a cut, frame, algebra, state, scale section, or other description carrying declared comparison maps |
 | Observable family \(\mathcal O\) | family of maps or relations | the declared tests that determine accessible discernment in one register |
@@ -185,7 +185,7 @@ The word *constant* suppresses several logically independent claims.
 
 These classifications are not mutually exclusive. A fundamental constant is normally also a universal coefficient and a model parameter, but a solution-specific integration constant is only path-constant. Coordinate invariance lies on a different axis: a scalar field can be presentation-invariant while varying over every cut.
 
-In the present programme, \(\mathfrak R_c\) is defined as a crossing evaluation, not as a path-constant. A hypothetical \(\chi_*\) is a universal coefficient only after universality has been proved or postulated. It becomes a fundamental constant only if it remains primitive and irreducible; on the unit Einstein branch it can instead be a retyping of the datum conventionally carried by \(G\).
+In the present programme, \(\mathfrak R_c\) is defined as an integrated reference-cut evaluation, not as a path-constant. It becomes a crossing evaluation only in a member that constructs the event at that cut. A hypothetical \(\chi_*\) is a universal coefficient only after universality has been proved or postulated. It becomes a fundamental constant only if it remains primitive and irreducible; on the unit Einstein branch it can instead be a retyping of the datum conventionally carried by \(G\).
 
 ## Functionals, horizontal flow, and RG running
 

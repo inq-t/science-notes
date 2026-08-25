@@ -158,7 +158,7 @@ $$
 
 ## Quotient stacks \([X/G]\)
 
-Let \(G\) act on a scheme or algebraic space \(X\). The quotient stack \([X/G]\) is not merely the orbit set \(X/G\). Over a test scheme \(T\), an object of \([X/G](T)\) is a pair
+Let \(G\) act on a scheme or algebraic space \(X\), and write \(\mathcal X=[X/G]\) for the quotient stack rather than the orbit set \(X/G\). Over a test scheme \(T\), an object of the groupoid \(\mathcal X(T)\) is a pair
 
 $$
 (P\to T,\;P\to X),

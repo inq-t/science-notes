@@ -21,16 +21,16 @@ Changing one of these fields changes the response question even when the display
 | Term | Canonical type | Canonical owner |
 |---|---|---|
 | Hessian | second derivative or second variation of a named scalar or functional | [[basic-concepts/hessians/entry|Hessians]] |
-| Fisher response | score covariance and local distinguishability of a classical parametric family | [[a2-ternary-response/fisher-response|Fisher response]] |
+| Fisher response | score covariance and local distinguishability of a classical parametric family | [[basic-concepts/hessians/fisher-response|Fisher response]] |
 | BKM response | positive tangent form on faithful quantum states; one monotone quantum metric, not every quantum Fisher metric | [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|Fisher and BKM geometry]] and [[hessian-response-geometry/bkm-selection-theorem|the BKM selection theorem]] |
-| static susceptibility | derivative of an expectation with respect to a declared conjugate source | [[a2-ternary-response/fisher-response|Fisher response]] |
+| static susceptibility | derivative of an expectation with respect to a declared conjugate source | [[basic-concepts/hessians/fisher-response|Fisher response]] |
 | Kubo real-time response | causal or frequency-dependent dynamical response with a time prescription | [[basic-concepts/hessians/entry#Actions, effective actions, and inverse covariance|functional Hessians and response]] |
 | covariance | centered two-point fluctuation on a declared state or probability carrier | [[basic-concepts/hessians/entry|Hessians]] |
 | probability or 1PI precision | inverse covariance or effective-action Hessian on a declared nondegenerate physical domain | [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier covariance and precision]] |
 | spectral multiplier or filter | functional-calculus operator with no automatic covariance or response interpretation | [[cauchy-spectral-envelope/entry|heat mixtures and Cauchy envelopes]] |
 | center-valued response package | the central response density together with the inherited normal central law, before a consumer policy | [[program-core/center-valued-response|center-valued response and scalarization]] |
 | common response form | the homogeneous, declared non-singlet observational, mixed, and hidden blocks on one physical tangent construction | [[program-core/common-response-form|the common response form]] |
-| localized areal response | a measure-valued BKM form and its Radon--Nikodym density against independently normalized area | [[program-core/localized-areal-response-geometry|descent-response geometry]] |
+| localized areal response | a measure-valued BKM form and its Radon--Nikodym density against independently normalized area | [[program-core/localized-areal-response-geometry|localized areal response geometry]] |
 | scalar spatial precision | a three-dimensional inverse-covariance target for the wall scalar on a constructed physical carrier | [[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|the scalar W2 conjecture]] |
 | tensor spatial precision | a three-dimensional inverse-covariance target on a physical transverse-traceless two-polarization carrier | [[causal-wall-spectral-theory/conjectures/tt-bkm-to-spatial-precision|the tensor W2 conjecture]] |
 | gravitational canonical energy | a quadratic form on physical gravitational perturbations in a declared covariant phase space | [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] |
@@ -55,7 +55,7 @@ $$
 
 The linked Hessian and Fisher notes own the hypotheses and proofs. None of these identities changes carrier, supplies a causal prescription, or turns a state-space metric into a spacetime field equation.
 
-## Central policy precedes scalar response
+## Central policy precedes scalar-valued or sector response
 
 The canonical pre-consumer datum is
 

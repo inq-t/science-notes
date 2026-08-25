@@ -1,4 +1,4 @@
-# Affine Hessian Structure and the CRM Integrability Test
+# Affine Hessian Structure and the CRF Integrability Test
 
 A positive response matrix is a Hessian metric only relative to a declared flat torsion-free connection. Locally, total symmetry of \(\nabla g\) is the integrability condition for one potential to generate the metric; globally, affine holonomy and the patching of local potentials remain additional obstructions.
 
@@ -114,7 +114,7 @@ without changing the Hessian. A global scalar potential therefore requires the c
 - singular quotient strata; and
 - scale-dependent carriers for which there is no one connection.
 
-The CRM may therefore be locally Hessian while lacking one global log-partition function. Conversely, an arbitrary scalar functional written in coordinates does not define the intended intrinsic Hessian unless the connection and transformation law are declared.
+The CRF may therefore be locally Hessian while lacking one global log-partition function. Conversely, an arbitrary scalar functional written in coordinates does not define the intended intrinsic Hessian unless the connection and transformation law are declared.
 
 ## Statistical terminology boundary
 

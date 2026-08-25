@@ -91,7 +91,7 @@ I_\theta
 =\frac{2(\cosh\theta+2)}{(1+2\cosh\theta)^2},
 $$
 
-which is the response in [[entry|the $A_2$ ternary test]].
+which is the response in [[a2-ternary-response/entry|the $A_2$ ternary test]].
 
 ## Why Fisher equals BKM here
 

@@ -1,22 +1,22 @@
-# Compare BKM and Spatial Source Kernels
+# Compare BKM and Spatial Source Kernels by Sector
 
-The first discriminating W2 calculation is to compute the BKM response and the Euclidean or spatial source kernel for the same wall carrier, state, source direction, quotient, and renormalization prescription. Its purpose is to determine the state-dependent transform between those two responses. [[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The scalar W2 conjecture]] owns the full carrier-changing construction; this note owns only the comparison experiment that can constrain or falsify one of its arrows.
+The first discriminating W2 calculation in each admitted sector is to compute the BKM response and the Euclidean or spatial source kernel for the same wall carrier, state, source direction, quotient, and renormalization prescription. Its purpose is to determine the state-dependent transform between those two responses. [[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The scalar]] and [[causal-wall-spectral-theory/conjectures/tt-bkm-to-spatial-precision|TT]] W2 conjectures own their independent carrier-changing constructions; this note owns only the sectorwise comparison experiment that can constrain or falsify one arrow at a time.
 
 ## Controlled comparison datum
 
-Fix a wall algebra and faithful state \((\mathcal A,\omega)\), a physical source tangent \(X\), its central-resolution policy, and one regulator and subtraction scheme. Compute independently:
+Fix a sector \(s\in\{0,2\}\), with \(s=0\) scalar and \(s=2\) transverse-traceless, and then fix that sector's wall algebra and faithful state \((\mathcal A_s,\omega_s)\), physical source tangent \(X_s\), central-resolution policy, regulator, and subtraction scheme. Scalar and TT comparisons are separate calculations. Compute independently:
 
 $$
-G^{\mathrm{BKM}}_\omega(X,X)
+G^{\mathrm{BKM},s}_{\omega_s}(X_s,X_s)
 $$
 
 from the faithful-state family, and a Euclidean, spectral, or probability-source quadratic kernel
 
 $$
-\Pi_\omega(J_X,J_X)
+\Pi^s_{\omega_s}(J_{X_s},J_{X_s})
 $$
 
-for the explicitly paired source \(J_X\). If \(X\) and \(J_X\) live on different carriers, the source-pairing map and its measure conversion are part of the datum. Comparing kernels that use different states, source normalizations, physical quotients, or counterterm schemes would not test a W2 transform.
+for the explicitly paired source \(J_{X_s}\). If \(X_s\) and \(J_{X_s}\) live on different carriers, the source-pairing map and its measure conversion are part of the datum. Comparing kernels that use different states, source normalizations, physical quotients, counterterm schemes, or spin sectors would not test one W2 transform.
 
 An algebraic exponential perturbation using faithful normal states and Araki relative Hamiltonians is one candidate starting point. A finite or lattice model can debug the transform but cannot by itself establish a type-III continuum return.
 
@@ -27,8 +27,8 @@ The calculation should distinguish at least three outcomes:
 1. a positive scalar multiplier on the tested sector;
 2. a nontrivial modular-frequency or source kernel \(\mathcal M_\omega\) such that
    $$
-   \Pi_\omega
-   =\mathcal M_\omega[G^{\mathrm{BKM}}_\omega];
+   \Pi^s_{\omega_s}
+   =\mathcal M^s_{\omega_s}[G^{\mathrm{BKM},s}_{\omega_s}];
    $$
 3. no positive, covariant transform on the proposed physical image.
 
@@ -40,4 +40,4 @@ If the Euclidean kernel is a three-dimensional stress response, [[causal-wall-sp
 
 ## Completion and failure
 
-This calculation is complete when both kernels and their pairing are obtained independently of the desired primordial spectrum, with domains, measures, signs, contacts, and normalization recorded. It falsifies the tested transform if the paired source does not exist, the relation is state- or frequency-dependent contrary to a claimed scalar law, or no positive map survives on the declared physical image. Failure of this experiment rejects that proposed W2 factorization, not the generic BKM theorem, another W2 construction, or either W3 realization.
+One sector's calculation is complete when both kernels and their pairing are obtained independently of the desired primordial spectrum, with spin domain, carriers, measures, signs, contacts, and normalization recorded. It falsifies that sector's tested transform if the paired source does not exist, the relation is state- or frequency-dependent contrary to a claimed scalar-multiplier law, or no positive map survives on the declared physical image. Failure rejects that proposed sectoral W2 factorization, not the generic BKM theorem, the other spin sector, another W2 construction, or either W3 realization.

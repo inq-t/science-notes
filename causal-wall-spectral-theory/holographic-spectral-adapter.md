@@ -4,16 +4,16 @@ The holographic spectral adapter is an optional factorization of selected CWST r
 
 ## Eligibility datum
 
-A candidate member must provide an explicit pairing from its wall source data to a renormalized three-dimensional Euclidean QFT datum,
+A candidate member declares an admitted sector set \(\mathcal S_{\mathfrak H}\subseteq\{0,2\}\), which may be scalar-only, tensor-only, or both. For every \(s\in\mathcal S_{\mathfrak H}\), it must provide an explicit pairing from that sector's wall source data to a renormalized three-dimensional Euclidean QFT datum,
 
 $$
-(\mathcal A_{\mathrm{wall}},\omega_{\mathrm{wall}},J_{\mathrm{wall}},
-\Pi_{\mathrm{wall}})
-\xrightarrow{\ \mathfrak H\ }
-(\mathrm{QFT}_3,\omega_3,T^{(3)},c^{(0)},c^{(2)}),
+(\mathcal A_{\mathrm{wall}}^s,\omega_{\mathrm{wall}}^s,J_{\mathrm{wall}}^s,
+\Pi_{\mathrm{wall}}^s)
+\xrightarrow{\ \mathfrak H_s\ }
+(\mathrm{QFT}_3,\omega_3,T_s^{(3)},c^{(s)}),
 $$
 
-on the physical effective image. This is **[CONJECTURE — OPEN CONSTRUCTION]**. The arrow must state which scalar and transverse-traceless source directions are paired, how their measures and normalizations change, and whether it factors a W2 source transform or begins from an already constructed spatial precision.
+on the sector's physical effective image. This is **[CONJECTURE — OPEN CONSTRUCTION]**. Each arrow must state which source directions are paired, how their measures and normalizations change, and whether it factors that sector's W2 source transform or begins from an already constructed spatial precision. Possessing \(\mathfrak H_0\) does not imply \(\mathfrak H_2\), or conversely.
 
 [[vendor/holographic-cosmology/entry|The vendored holographic framework]] owns the domain-wall/cosmology representation. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|Its spectrum dictionary]] is the sole owner of the response decomposition and numerical conversion factors. CWST's additional burden is to prove that its wall datum lies in that domain; the shared vocabulary of scale or stress does not establish eligibility.
 

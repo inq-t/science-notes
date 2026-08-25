@@ -44,13 +44,15 @@ That note also disposes of the standard illustration. The damped oscillator *is*
 
 These share variational mathematics and do not all assert the same physical principle.
 
+Their detailed owners are [[classical-action|classical action]], [[einstein-hilbert-action|Einstein--Hilbert action]], [[quantum-action|quantum action]], [[thermodynamic-equilibrium|thermodynamic equilibrium]], and [[kinetic-and-stochastic|kinetic and stochastic principles]].
+
 | Flavor | Object varied | Functional or weight | Meaning of the condition |
 |---|---|---|---|
-| [[classical-action\|Classical]] | particle or classical-field histories | $S=\int L\,\mathrm dt$ or $\int\mathcal L\,\mathrm d^dx$ | the realized history satisfies $\delta S=0$ |
-| [[einstein-hilbert-action\|Einstein--Hilbert]] | spacetime metric, plus matter | $S_{\mathrm{EH}}+S_{\mathrm m}$ with boundary terms | metric stationarity yields Einstein's field equation |
-| [[quantum-action\|Quantum]] | all histories, states, or mean fields | phase $e^{iS/\hbar}$, state action, or effective action $\Gamma$ | histories interfere; classical saddles and quantum-corrected stationarity arise in different limits |
-| [[thermodynamic-equilibrium\|Thermodynamic]] | macrostates | $S_{\mathrm{th}}$ or a thermodynamic potential | equilibrium extrema, exact under stated constraints |
-| [[kinetic-and-stochastic\|Kinetic and stochastic]] | instantaneous rates, or whole stochastic histories | dissipation functionals, Onsager--Machlup path weight, path entropy | least dissipation near equilibrium; most-probable path relative to a noise model |
+| Classical | particle or classical-field histories | $S=\int L\,\mathrm dt$ or $\int\mathcal L\,\mathrm d^dx$ | the realized history satisfies $\delta S=0$ |
+| Einstein--Hilbert | spacetime metric, plus matter | $S_{\mathrm{EH}}+S_{\mathrm m}$ with boundary terms | metric stationarity yields Einstein's field equation |
+| Quantum | all histories, states, or mean fields | phase $e^{iS/\hbar}$, state action, or effective action $\Gamma$ | histories interfere; classical saddles and quantum-corrected stationarity arise in different limits |
+| Thermodynamic | macrostates | $S_{\mathrm{th}}$ or a thermodynamic potential | equilibrium extrema, exact under stated constraints |
+| Kinetic and stochastic | instantaneous rates, or whole stochastic histories | dissipation functionals, Onsager--Machlup path weight, path entropy | least dissipation near equilibrium; most-probable path relative to a noise model |
 
 The first three vary histories or fields; the fourth varies macrostates and is not a history principle at all; the fifth varies rates or histories but weights them probabilistically. Only the first two assert $\delta S=0$ for a mechanical action in the sense of this axiom.
 
@@ -76,4 +78,6 @@ Shared variational form is not a derived physical equivalence. Writing an entrop
 | **[CONDITIONAL THEOREM]** | the action as the logarithm of a multiplicative composition law, given an abelian weight group, absolute continuity in the endpoints, and unimodularity — yielding a circle-valued action, with the lift to $\mathbb R$ a further hypothesis |
 | **[PROGRAMME COMMITMENT]** | reading $\delta S=0$ as characterizing the solution set rather than producing it |
 | **[OPEN CONSTRUCTION]** | whether physics is variational as a classification rather than a commitment; the multiplier problem for three or more degrees of freedom; grounds for the composition law, for locality, and for the specific Lagrangian |
-| Outside this module | which symmetries an action has, and any conservation law — see [[philosophy/symmetry-principle/entry\|the invariance axiom]] and [[philosophy/noether-conservation/entry\|the Noether synthesis]] |
+| Outside this module | which symmetries an action has, and any conservation law |
+
+Those neighboring claims belong to [[philosophy/symmetry-principle/entry|the invariance axiom]] and [[philosophy/noether-conservation/entry|the Noether synthesis]].

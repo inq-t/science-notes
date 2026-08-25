@@ -1,16 +1,16 @@
 # The Coincidence Problem, Converted
 
-The reclassification does not solve the coincidence problem and does not make the crossing epoch predictable. What it does is remove the object the problem is about. In $\Lambda$CDM the puzzle is the prior range of a dimensionful constant that could a priori take almost any value; on the unit branch there is no dimensionful dark constant, because the response amplitude is stated as a fraction of the ambient critical density at the crossing, and the remaining amplitude is a dimensionless ratio bounded by positivity. The tuning is therefore traded rather than eliminated — scores of decades of a dimensionful coefficient for one dimensionless $O(1)$ postulate about information capacity — and what is left over is registered as open.
+The reclassification does not solve the coincidence problem and does not make a microscopic crossing epoch predictable. What it does is remove the object the problem is about. In $\Lambda$CDM the puzzle is the prior range of a dimensionful constant that could a priori take almost any value; in the selected CST-B2 background there is no dimensionful dark constant, because the response amplitude is stated as a fraction of the ambient critical density at its reference and conditional $w_X=-1$ point. The remaining amplitude is a dimensionless ratio bounded by positivity. The tuning is therefore traded rather than eliminated — scores of decades of a dimensionful coefficient for one dimensionless $O(1)$ postulate about information capacity — and what is left over is registered as open.
 
 ## First, a negative control
 
-There is a tempting argument that must be discarded before anything else. On the unit branch the crossing date solves the closure equation of [[causal-scale-theory/flatness-branches|present flatness]],
+There is a tempting argument that must be discarded before anything else. On the unit branch the date assigned to the CST-B2 reference and phantom-divide point solves the closure equation of [[causal-scale-theory/flatness-branches|present flatness]],
 
 $$
 \frac{\mathfrak R_c}{2-\mathfrak R_c}M(x_c)\operatorname{sech}^2(\nu x_c)=D,
 $$
 
-and for small $x_c$ this behaves like $x_c\simeq\tfrac13\ln\!\big[(1-\Omega_{m0})/\Omega_{m0}\big]$. The crossing is therefore forced to be recent: $|x_c|<1$ e-fold for matter fractions spanning most of the unit interval. It is tempting to present that logarithmic compression as an explanation of why the crossing is near now.
+and for small $x_c$ this behaves like $x_c\simeq\tfrac13\ln\!\big[(1-\Omega_{m0})/\Omega_{m0}\big]$. That conditional background point is therefore forced to be recent: $|x_c|<1$ e-fold for matter fractions spanning most of the unit interval. It is tempting to present that logarithmic compression as an explanation of why the CST-B2 $w_X=-1$ point is near now.
 
 It is not, because $\Lambda$CDM has essentially the same compression. Matter–$\Lambda$ equality sits at
 
@@ -33,7 +33,7 @@ $$
 \rho_{X,c}=\frac{\mathfrak R_c}{2}\rho_{\mathrm{crit},c},
 $$
 
-so the amplitude is a dimensionless fraction of the ambient critical density *at the crossing itself*. There is no dark scale that could have been $10^{60}$ times larger, because the amplitude is not a scale — it is a ratio, and the thing it is a ratio to is whatever the background happens to be at that moment.
+so the amplitude is a dimensionless fraction of the ambient critical density *at the CST-B2 reference point*. There is no dark scale that could have been $10^{60}$ times larger, because the amplitude is not a scale — it is a ratio, and the thing it is a ratio to is whatever the background happens to be at that moment.
 
 The premises for that sentence should be named in the right order, because [[causal-scale-theory/reference-cut-matching-ratio|the capacity note]] is careful about it and the ordering is easy to get backwards. Information geometry alone imposes no interval at all. It is [[causal-scale-theory/anchored-response-density-postulate|the source law]] and [[conformal-scale-geometry/hawking-friedmann-identity|the horizon conversion]], adopted in $3+1$ dimensions, that give
 
@@ -50,7 +50,7 @@ $$
 0<\mathfrak R_c<2 .
 $$
 
-Note that the complement here is the *whole* non-$X$ sector. Identifying it with ordinary matter plus radiation additionally requires the zero-residual sector and no other crossing component; the unit branch declares both, but they are premises and not consequences.
+Note that the complement here is the *whole* non-$X$ sector. Identifying it with ordinary matter plus radiation additionally requires the zero-residual sector and no other component at the reference cut; the unit branch declares both, but they are premises and not consequences.
 
 So the accounting is: a dimensionful constant with a prior spanning scores of decades has been replaced by a dimensionless amplitude that positivity confines to an interval of length two, and which the amplitude principle sets to one. The gain is the change of kind — bounded and dimensionless instead of unbounded and dimensionful — and nothing more should be read into where in the interval the value sits. Since $\Omega_{X,c}$ is *linear* in $\mathfrak R_c$, equal partition falls at the interval's midpoint automatically; that is a property of linearity, not a discovered centrality, and it would hold for any coefficient.
 
@@ -74,11 +74,11 @@ A postulate with a bounded dimensionless range and a stated relation to another 
 
 Three things, and none should be glossed.
 
-**The displacement.** We observe at $x_c=0.294$ e-folds past the crossing; on the unit-rate branch this is also the dimensionless displacement $\nu x_c=0.294$. We are inside a finite acceleration episode of $3.047$ e-folds, some $19\%$ of the way through it. That is a mild condition rather than a fine-tuning, but the framework does not derive it. And the derivation is partly circular by construction: the crossing date is branch data fixed by present flatness, not a new universal constant, and present flatness is measured today. So "why is the crossing near now" is, in this framework, substantially a restatement of "why are the present abundances what they are," and that question is untouched.
+**The displacement.** The selected CST-B2 background places the present $x_c=0.294$ e-folds past its $w_X=-1$ reference point; on the unit-rate branch this is also the dimensionless displacement $\nu x_c=0.294$. We are inside its conditional finite acceleration episode of $3.047$ e-folds, some $19\%$ of the way through it. That is a mild condition rather than a fine-tuning, but the framework does not derive it. The dating is partly circular by construction: the reference-point date is branch data fixed by present flatness, not a new universal constant, and present flatness is measured today. So "why is this CST-B2 point near now" is substantially a restatement of "why are the present abundances what they are," and that question is untouched.
 
-**The synchronization.** **[OPEN CONSTRUCTION]** [[causal-scale-theory/conjectures/event-locus-coincidence|The self-dual synchronization conjecture]] states it plainly: binary self-duality, maximum normalized susceptibility, $w_X=-1$, and ordinary-sector equality do not all have the same origin. [[causal-scale-theory/unit-branch|The unit branch]] decomposes them, and a deeper synchronization theorem remains conjectural. That theorem is the conceptual core of the coincidence this framework advertises, and a reader of the background notes alone would not see that it is open.
+**The event-locus coincidence.** **[OPEN CONSTRUCTION]** [[causal-scale-theory/conjectures/event-locus-coincidence|The event-locus conjecture]] states it plainly: binary self-duality, maximum normalized susceptibility, $w_X=-1$, and ordinary-sector equality do not all have the same origin. [[causal-scale-theory/unit-branch|The unit branch]] decomposes them, and a theorem placing those events on one physical cut remains conjectural. That theorem is the conceptual core of the coincidence this framework advertises, and a reader of the background notes alone would not see that it is open.
 
-**The intrinsic event is not the dated event.** The entropy minimum identifies $\theta=0$, hence the midpoint already encoded in $N_c$. Its *cosmic date* follows only after the amplitude law, flatness, present abundances, and a branch choice. [[scale-as-modular-observable/claim-audit|The claim audit]] is the disposition of record. Four further inputs separate the state-space event from the calendar, and collapsing them is the fastest way to overstate what has been explained.
+**The state-space center is not yet the physical dated event.** The entropy minimum identifies $\theta=0$, hence the midpoint already encoded in $N_c$. Its *cosmic date* follows only after the amplitude law, flatness, present abundances, and a branch choice; its identity with a physical self-dual wall requires the event-locus construction as well. [[scale-as-modular-observable/claim-audit|The claim audit]] is the disposition of record. These further inputs separate the state-space center from the calendar and the wall event, and collapsing them is the fastest way to overstate what has been explained.
 
 ## The honest summary
 

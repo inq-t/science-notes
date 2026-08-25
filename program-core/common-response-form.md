@@ -229,12 +229,12 @@ This route remains an **[OPEN ANSATZ]** until a completely positive readout fami
 
 ## Construction gates
 
-1. **CRM--0 — Common carrier.** Construct one readout family, transport, state family, and renormalization prescription before comparing blocks.
-2. **CRM--1 — Physical tangent.** Remove presentation, gauge, normalization, and null directions; keep genuine auxiliary directions distinct from the radical.
-3. **CRM--2 — Center-resolved form.** Calculate one positive \(\mathbf G^Z\) on the carrier of the descended state and retain its normal central law.
-4. **CRM--3 — Block decomposition.** Construct the homogeneous, observational, mixed, and hidden subspaces, including the averaging projector or representation split that defines \(H_{\mathrm{obs},0}\).
-5. **CRM--4 — Mixed-jet test.** Prove the symmetry status of \(G_{N\zeta}\) and the first allowed mixed tensor; if Hessianity is claimed, verify the full integrability conditions with the Hessian owner.
-6. **CRM--5 — Derived reduction.** Show that any hidden-mode reduction is defined on this form and control its order relative to the physical quotient.
+1. **CRF--0 — Common carrier.** Construct one readout family, transport, state family, and renormalization prescription before comparing blocks.
+2. **CRF--1 — Physical tangent.** Remove presentation, gauge, normalization, and null directions; keep genuine auxiliary directions distinct from the radical.
+3. **CRF--2 — Center-resolved form.** Calculate one positive \(\mathbf G^Z\) on the carrier of the descended state and retain its normal central law.
+4. **CRF--3 — Block decomposition.** Construct the homogeneous, observational, mixed, and hidden subspaces, including the averaging projector or representation split that defines \(H_{\mathrm{obs},0}\).
+5. **CRF--4 — Mixed-jet test.** Prove the symmetry status of \(G_{N\zeta}\) and the first allowed mixed tensor; if Hessianity is claimed, verify the full integrability conditions with the Hessian owner.
+6. **CRF--5 — Derived reduction.** Show that any hidden-mode reduction is defined on this form and control its order relative to the physical quotient.
 
 Localization, wall loss, spatial precision, gravity, facts, records, and empirical dynamics begin at linked consumer modules rather than extending this gate list.
 

@@ -220,7 +220,7 @@ $$
 (k_+,k_-)\longmapsto k_++k_-.
 $$
 
-With the shifted mapping-cone convention \(K_j(\mathcal A,\mathcal B):=K_{j+1}(C_i)\) fixed in [[spectral-wall-descent/index-and-curvature-transgression#Relative K-theory of an observable context|the relative \(K\)-theory note]], the relative groups are therefore
+With the shifted mapping-cone convention \(K_j(\mathcal A,\mathcal B):=K_{j+1}(C_i)\) fixed in [[spectral-wall-descent/index-and-curvature-transgression#Relative \(K\)-theory of an observable context|the relative \(K\)-theory note]], the relative groups are therefore
 
 $$
 \boxed{

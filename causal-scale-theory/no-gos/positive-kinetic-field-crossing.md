@@ -1,6 +1,6 @@
-# No Regular Positive-Kinetic Scalar Realizes the Full Crossing
+# No Regular Positive-Kinetic Scalar Realizes the CST-B2 Crossing
 
-The positive CST pulse has \(w_X<-1\) before its center and \(w_X>-1\) afterward. A minimally coupled canonical scalar, or a sigma model with positive-definite target metric, cannot realize that full history while retaining positive density and positive kinetic energy. This excludes the direct field lifts only.
+The positive CST-B2 pulse has \(w_X<-1\) before its center and \(w_X>-1\) afterward. A minimally coupled canonical scalar, or a sigma model with positive-definite target metric, cannot realize that full history while retaining positive density and positive kinetic energy. This excludes the direct field lifts of this member only.
 
 Under the hypotheses of [[causal-scale-theory/theorems/rigid-sech-response-identities|the rigid-response theorem]],
 
@@ -29,7 +29,7 @@ The signs are incompatible on that branch, so
 
 $$
 \boxed{
-\text{the full CST crossing is not a regular, minimally coupled,
+\text{the full CST-B2 crossing is not a regular, minimally coupled,
 positive-kinetic scalar or positive-definite sigma-model history}.}
 $$
 

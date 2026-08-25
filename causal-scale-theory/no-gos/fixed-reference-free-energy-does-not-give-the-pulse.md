@@ -1,6 +1,6 @@
 # Fixed-Reference Relative Entropy Cannot Be the Full Source
 
-A finite relative entropy from one fixed reference and the coincidence BKM Hessian along a state path are different functions. For the balanced binary family this distinction is exact, so a fixed-reference free-energy identity cannot derive the all-history CST pulse by replacing its finite difference with the instantaneous quadratic capacity.
+A finite relative entropy from one fixed reference and the coincidence BKM Hessian along a state path are different functions. For the balanced binary family this distinction is exact, so a fixed-reference free-energy identity cannot derive the all-history CST-B2 pulse by replacing its finite difference with the instantaneous quadratic capacity.
 
 [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|The Gibbs free-energy theorem]] owns the general fixed-data identity and its coincidence boundary. For the present reduced family, [[binary-information-geometry/reflected-divergence|the exact binary divergence]] gives
 

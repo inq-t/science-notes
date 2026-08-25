@@ -1,6 +1,6 @@
 # The Majorana Square and the Cosmic Pulse
 
-The Majorana contribution to the observable spectral action separates exactly into a positive square about the central point \(r\mathbf1\) and an \(R\)-independent residual. The source varies only the scale of a fixed Majorana matrix, whereas a broader project extension admits a traceless hyperbolic orbit that leaves the spectral Newton coefficient constant while producing an exact \(\operatorname{sech}^2\) deficit in the cosmological coefficient. This is a genuine common-shape construction for the CST pulse, but it neither fixes the residual cosmological constant nor solves the amplitude hierarchy.
+The Majorana contribution to the observable spectral action separates exactly into a positive square about the central point \(r\mathbf1\) and an \(R\)-independent residual. The source varies only the scale of a fixed Majorana matrix, whereas a broader project extension admits a traceless hyperbolic orbit that leaves the spectral Newton coefficient constant while producing an exact \(\operatorname{sech}^2\) deficit in the cosmological coefficient. This is a genuine common-shape construction for a candidate CST-B2-shaped spectral member, but it neither selects that member, fixes the residual cosmological constant, nor solves the amplitude hierarchy.
 
 ## Exact square completion
 

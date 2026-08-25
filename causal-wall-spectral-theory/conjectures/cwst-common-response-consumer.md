@@ -26,7 +26,7 @@ Z,
 \right).
 $$
 
-The core owns the BKM pullback, the symmetry selection rule, the descent-cost realization, hidden-mode reduction, and the distinction among structural class persistence, nonunitary wall loss, observable causal charge, and record time. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term, the internal sector metrics, and their evaluation policies. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
+The core owns the BKM pullback, the symmetry selection rule, the descent-cost realization, and the distinction among structural class persistence, nonunitary wall loss, observable causal charge, and record time. [[spectral-wall-descent/hidden-resolvent-and-seesaw|The hidden-resolvent construction]] separately owns any derived elimination of auxiliary or heavy directions. [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher term, the internal sector metrics, and their evaluation policies. [[program-core/contextual-descent-from-homogeneity|Contextual descent]] owns the claim that homogeneous law and lumpy fact are compatible types.
 
 CWST adds no second definition of this package. Its obligation begins with the returned physical block \(\mathbf G^Z_{\zeta\zeta}\) and a declared W2 policy \(\mathsf p\), giving either the normal unconditioned metric or a normalized internal sector metric \(G^{\mathsf p}_{\zeta\zeta}\). A center-linear member may instead retain the center through W2.
 
@@ -51,7 +51,7 @@ G^{\mathsf p}_{\zeta\zeta}
 \mathcal K_{\zeta_{\mathrm{cos}}}.}
 $$
 
-[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including localization, measure conversion, any modular-frequency transform, and probability-1PI construction. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The W3 conjecture]] owns the gauge-reduced Lorentzian realization \(R_{\mathrm s}\).
+[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including spatial-carrier construction, measure conversion, any modular-frequency transform, and probability-1PI construction. [[program-core/localized-areal-response-geometry|Localized areal response geometry]] retains the distinct meaning of localization on the cut. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The W3 conjecture]] owns the gauge-reduced Lorentzian realization \(R_{\mathrm s}\).
 
 The hidden sector matters before this map. Eliminating a constructed auxiliary or heavy block can give
 
@@ -92,7 +92,7 @@ $$
 
 This tensor measures how global scale displacement changes the correlation geometry of mean-zero observational modes. After the W2 and W3 maps are constructed, it is the natural place to seek a relation among homogeneous history, spectral tilt or running, and later structure response.
 
-Independently choosing a CST pulse and a CWST spectral function does not calculate this tensor. A true common realization must obtain both from one state/readout family and satisfy its mixed-derivative integrability relations.
+Independently choosing a selected CST member profile and a CWST spectral function does not calculate this tensor. A true common realization must obtain both from one state/readout family and satisfy its mixed-derivative integrability relations.
 
 [[spectral-wall-descent/mixed-response-jet|The finite \(M_3(\mathbb C)\) model]] now supplies an exact algebraic feasibility result,
 
@@ -118,7 +118,7 @@ The CWST scalar first labels a mean-zero direction in the observational descent.
 
 ## Independence test
 
-The common-origin claim is explanatory only if the algebra, state, readout family, transport, physical quotient, and hidden-mode reduction are constructed independently of both the CST expansion history and the observed primordial spectrum. Supplying \(G_{NN}\) from a fitted pulse and \(G_{\zeta\zeta}\) from a fitted power spectrum does not show that they are blocks or derivatives of one geometry.
+The common-origin claim is explanatory only if the algebra, state, readout family, transport, physical quotient, and hidden-mode reduction are constructed independently of both the selected CST member history and the observed primordial spectrum. Supplying \(G_{NN}\) from a fitted member profile and \(G_{\zeta\zeta}\) from a fitted power spectrum does not show that they are blocks or derivatives of one geometry.
 
 The most discriminating intermediate result would be one controlled model that calculates
 

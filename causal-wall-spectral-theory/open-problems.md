@@ -10,7 +10,7 @@ $$
 \longrightarrow
 \text{W2 spatial wall precision}
 \longrightarrow
-\text{W3 Lorentzian physical precision}
+\text{W3 Lorentzian field realization}
 \longrightarrow
 \text{W4 higher response}
 \longrightarrow
@@ -21,7 +21,7 @@ $$
 
 At W2, [[conjectures/bkm-to-spatial-precision|the scalar map]] and [[conjectures/tt-bkm-to-spatial-precision|the TT map]] are independent. [[open-questions/bkm-source-kernel-comparison|The same-source kernel comparison]] is their first discriminating calculation. [[holographic-spectral-adapter|The holographic adapter]] is optional and cannot define either W2 branch.
 
-At W3, [[conjectures/wall-scalar-to-cosmological-curvature|the scalar curvature map]] and [[conjectures/wall-tensor-to-cosmological-graviton|the tensor graviton map]] independently construct the Lorentzian physical fields. [[open-questions/lorentzian-observable-completion|Lorentzian completion and transfer]] then asks for state, constraints, stability, matching, and coherent evolution. A dimensionless residue or TT source label is not yet a physical metric perturbation.
+At W3, [[conjectures/wall-scalar-to-cosmological-curvature|the scalar curvature map]] and [[conjectures/wall-tensor-to-cosmological-graviton|the tensor graviton map]] independently construct the Lorentzian physical fields. [[open-questions/lorentzian-evolution-and-matching|Lorentzian evolution and matching]] then asks for state, constraints, stability, matching, and coherent evolution. A dimensionless residue or TT source label is not yet a physical metric perturbation.
 
 Microscopic predictivity remains three independent calculations: [[open-questions/calculate-scalar-response|scalar response]], [[open-questions/calculate-tensor-response|tensor response]], and [[open-questions/calculate-higher-response|higher response]]. A member may therefore be scalar-only, may fail at higher points while retaining a two-point sector, or may replace one calculation without changing the whole architecture.
 

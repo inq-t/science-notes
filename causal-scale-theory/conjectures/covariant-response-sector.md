@@ -1,6 +1,6 @@
-# Conjecture: The Wall Response Admits a Covariant Realization
+# Conjecture: The CST-B2 Response Admits a Covariant Realization
 
-The homogeneous CST pulse becomes a physical cosmological component only if it is the FLRW restriction of a covariant, constrained, and stable response system. “Realization” here means a map between equally real mathematical regimes, not promotion of a formal model into reality. No such stress tensor, constitutive system, effective action, or natural transformation from wall response to covariant response has yet been derived, so growth, lensing, sound propagation, and primary-CMB predictions remain open.
+The homogeneous CST-B2 pulse becomes a physical cosmological component only if it is the FLRW restriction of a covariant, constrained, and stable response system. “Realization” here means a map between equally real mathematical regimes, not promotion of a formal model into reality. No such stress tensor, constitutive system, effective action, or natural transformation from wall response to covariant response has yet been derived, so growth, lensing, sound propagation, and primary-CMB predictions remain open.
 
 The target may be an effective tensor \(T^X_{ab}\) satisfying
 

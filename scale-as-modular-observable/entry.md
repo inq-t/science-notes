@@ -29,7 +29,7 @@ N_c:=\ln\frac{a_c}{a_0},
 x:=N-N_c.
 $$
 
-If the active horizontal quotient is a balanced binary, the scale--state map has unit slope, the cut-integrated crossing ratio is one, and the proposed source and horizon-conversion laws hold, then
+If the active horizontal quotient is a balanced binary, the scale--state map has unit slope, the integrated reference matching ratio is one, and the proposed source and horizon-conversion laws hold, then
 
 $$
 \rho_X(N)

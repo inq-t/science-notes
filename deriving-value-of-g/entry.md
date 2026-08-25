@@ -132,7 +132,7 @@ $$
 =\frac{k_B}{S_\Sigma}G^{\perp}_{NN}.
 $$
 
-[[program-core/ruble-equations#RE6 — Integrated reference matching|Weak Ruble matching]] postulates \(\mathfrak R_c=1\) at the self-dual cosmological cut. Before imposing that value, the gravitational coefficient reads
+[[program-core/ruble-equations#RE6 — Integrated reference matching|Weak Ruble matching]] postulates \(\mathfrak R_c=1\) at the distinguished reference cut. [[causal-scale-theory/conjectures/event-locus-coincidence|The event-locus conjecture]] separately asks whether wall dynamics identifies that cut with a self-dual physical wall and the other candidate events. Before imposing the matching value, the gravitational coefficient reads
 
 $$
 \boxed{
@@ -242,7 +242,8 @@ $$
 | Noether-grounded conditional theorem | A unit escort tangent in a homogeneous \(1+1\) conformal thermal wall gives \(G^{\perp}_{NN}=C_E=S/k_B\), hence \(\mathfrak R_c=1\) |
 | Exact type-I product-cell theorem | A chosen product input edge entropy plus its distinction from the tracial state equals half the Watatani log index of the auxiliary tracial expectation on the same multiplicity factor |
 | Central spectral-area theorem target | The edge operator and horizontal BKM measure have one universal density with respect to independently normalized spectral area on every admissible patch |
-| Causal-scale physical principle | \(\mathfrak R_c=1\) at a self-dual causal wall |
+| Causal-scale physical principle | \(\mathfrak R_c=1\) at the distinguished reference cut |
+| Event-locus conjecture | wall dynamics identifies the reference cut with a self-dual causal wall and the other candidate events |
 | Central conjectural weld | The causal-scale BKM modulus is the finite universal entropy--area modulus relevant to local gravitational focusing |
 | Reported phenomenological check | A model-restricted background fit reports \(\mathfrak R_c=1.025\) with interval \([0.941,1.088]\); the likelihood package is not present for reproduction |
 | Open numerical derivation | Construct and renormalize the wall state, compute \(\chi_{\downarrow}\) without gravitational input, derive the Ruble ratio, and recover the same constant in every tested gravitational sector |

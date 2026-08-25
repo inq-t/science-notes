@@ -171,7 +171,7 @@ Deleting the symbol $0$ from the display is not a construction. At least three m
 
    For fixed $\theta$, the limit $\Delta\to+\infty$ gives the balanced binary family.
 
-2. **Conditioning or postselection.** Compress to the $\{+,-\}$ sector and renormalize. This yields the binary law, but the renormalization is a selective instrument rather than an everywhere deterministic trace-preserving loss map.
+2. **Conditioning or postselection.** Compress to the $\{+,-\}$ sector and renormalize. This yields the binary law, but [[basic-concepts/conditioning/entry|the generic conditioning type]] shows that the renormalization is a selective instrument rather than an everywhere deterministic trace-preserving loss map.
 
 3. **A derived sufficient channel.** Construct a physical channel onto two outcomes and prove that its pushed-forward family is balanced and has no residual third-mode response. A generic coarse graining that merely merges the neutral outcome with one of the others does not return $\operatorname{sech}^2\theta$.
 

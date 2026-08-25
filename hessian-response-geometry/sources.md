@@ -1,6 +1,6 @@
 # Sources for Hessian Response Geometry
 
-This ledger separates the established geometry and information theory from the programme's application to CRM.
+This ledger separates the established geometry and information theory from the programme's application to the CRF.
 
 ## Primary sources
 
@@ -19,4 +19,4 @@ This ledger separates the established geometry and information theory from the p
 - [[spectral-wall-descent/hidden-resolvent-and-seesaw|The hidden-resolvent note]] owns Schur elimination and its typed physical possibilities.
 - [[algebra/real-forms-and-factive-spacetime|Real forms and factive spacetime]] owns the fixed-locus theorem and the later Lorentzian-history target.
 
-This module owns only the synthesis: the conditions under which CRM is a Hessian manifold, the qualified BKM selection theorem, and the consequences of its tangent-bundle complexification.
+This module owns only the synthesis: the conditions under which the CRF is a Hessian manifold, the qualified BKM selection theorem, and the consequences of its tangent-bundle complexification.

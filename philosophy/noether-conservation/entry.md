@@ -50,4 +50,6 @@ The programme's application of the theorem is owned elsewhere. [[program-core/sy
 | **[CONDITIONAL THEOREM]** | the converse correspondence between conservation laws and variational symmetries, for normal and totally nondegenerate systems with generalized symmetries admitted and trivial classes quotiented; conservation of a charge given flux control; a conserved volume energy given a timelike Killing vector |
 | **[NO-GO]** | a symmetry of the equations alone yields no current, witnessed by Kepler rescaling; a gauge symmetry yields on-shell-trivial currents rather than physical charges |
 | Not delivered | which group; which action; the value of any charge; actuality of an outcome; any conservation law in a theory whose action has not been constructed |
-| **[OPEN CONSTRUCTION]** | whether the causal-wall sector admits an action at all; whether its candidate symmetries are continuous, discrete, or one-sided; the boundary accounting for a causal horizon — see [[conservation-of-causal-charge/theorem-programme\|the causal-charge theorem programme]] |
+| **[OPEN CONSTRUCTION]** | whether the causal-wall sector admits an action at all; whether its candidate symmetries are continuous, discrete, or one-sided; the boundary accounting for a causal horizon |
+
+The project-specific construction target belongs to [[conservation-of-causal-charge/theorem-programme|the causal-charge theorem programme]].

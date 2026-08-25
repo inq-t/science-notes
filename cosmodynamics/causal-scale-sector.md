@@ -53,7 +53,7 @@ $$
 
 permits $\zeta$ to be read as the inhomogeneous residue of a scale presentation. A positive precision kernel can encode its correlations without positing a primitive classical noise source. This is [[causal-wall-spectral-theory/whole-state-correlation-reading|the whole-state correlation reading]], not yet a derivation of the observed perturbations.
 
-A physical theory must still identify $\zeta$ with a gauge-invariant cosmological mode, provide conserved evolution and constraints, recover scalar and tensor transfer, and implement a likelihood. Those obligations belong to [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] and [[causal-wall-spectral-theory/open-questions/lorentzian-observable-completion|CWST Lorentzian observable completion]].
+A physical theory must still identify $\zeta$ with a gauge-invariant cosmological mode, provide conserved evolution and constraints, recover scalar and tensor transfer, and implement a likelihood. Lorentzian realization and matching belong to [[causal-wall-spectral-theory/open-questions/lorentzian-evolution-and-matching|CWST evolution and matching]]; transfer and likelihood belong to [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]].
 
 ## Boundary of the sector
 

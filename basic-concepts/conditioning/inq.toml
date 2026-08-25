@@ -1,0 +1,4 @@
+[module]
+name = "conditioning"
+entry = "entry.md"
+include = ["**/*.md"]

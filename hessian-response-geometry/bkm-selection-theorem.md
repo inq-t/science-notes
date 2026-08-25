@@ -1,6 +1,6 @@
 # The Qualified BKM Selection Theorem
 
-Bogoliubov--Kubo--Mori geometry is selected, up to an overall constant, by a precise conjunction on the full finite-dimensional faithful-state manifold: quantum monotonicity and mutual duality of the specific mixture and exponential connections. The weaker slogan “dually flat plus monotone implies BKM” suppresses the carrier and the connections that do the selecting and is not a valid theorem for an arbitrary CRM submanifold.
+Bogoliubov--Kubo--Mori geometry is selected, up to an overall constant, by a precise conjunction on the full finite-dimensional faithful-state manifold: quantum monotonicity and mutual duality of the specific mixture and exponential connections. The weaker slogan “dually flat plus monotone implies BKM” suppresses the carrier and the connections that do the selecting and is not a valid theorem for an arbitrary CRF submanifold.
 
 ## The finite faithful-state manifold
 
@@ -103,9 +103,9 @@ because any strictly convex potential has a Hessian metric. It also does not sta
 - nonfaithful boundary states; or
 - a type-III local QFT algebra without a proved finite second variation.
 
-A pullback \(\Phi^*g_{\mathrm{BKM}}\) along a CRM state map is certainly BKM-derived. But its uniqueness as the only admissible metric on the parameter space does not follow unless the relevant monotonicity and duality structures themselves descend and are sufficiently rich.
+A pullback \(\Phi^*g_{\mathrm{BKM}}\) along a CRF state map is certainly BKM-derived. But its uniqueness as the only admissible metric on the parameter space does not follow unless the relevant monotonicity and duality structures themselves descend and are sufficiently rich.
 
-## Consequence for CRM
+## Consequence for the CRF
 
 [[program-core/common-response-form|The common response construction]] currently chooses a BKM pullback because relative-entropy response and data processing are desired. Grasselli--Streater can strengthen that choice only by applying the theorem on its actual carrier:
 
@@ -113,9 +113,9 @@ A pullback \(\Phi^*g_{\mathrm{BKM}}\) along a CRM state map is certainly BKM-der
 2. prove monotonicity for the source theorem's stochastic-map class;
 3. construct the standard mixture and exponential connections and prove their mutual duality;
 4. conclude \(g=c\,g_{\mathrm{BKM}}\) on \(\mathcal M_n\); and
-5. only then pull the selected metric back along the CRM state/readout map.
+5. only then pull the selected metric back along the CRF state/readout map.
 
-Constructing dual connections only on the CRM physical tangent and proving contraction only for the programme's chosen channels does not satisfy the cited theorem. That narrower route would require a new restricted uniqueness theorem.
+Constructing dual connections only on the CRF physical tangent and proving contraction only for the programme's chosen channels does not satisfy the cited theorem. That narrower route would require a new restricted uniqueness theorem.
 
 The theorem selects the shape of the metric only up to \(c\). Applied independently to central sectors, it can also leave sector-dependent constants \(c_\alpha\). Neither it nor the pullback determines a common cross-sector normalization, areal normalization, Newton constant, spatial Fourier dimension, or extensive multiplicity. Those remain independent welds.
 

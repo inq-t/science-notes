@@ -138,7 +138,7 @@ This fixes the rate of the reduced binary polarization per e-fold. It is a separ
 
 **P3 — Weak Ruble matching.**
 
-At the distinguished self-dual cosmological cut, first define
+At the distinguished reference cut, first define
 
 $$
 \mathfrak R_c
@@ -177,7 +177,7 @@ $$
 \quad\text{almost everywhere.}
 $$
 
-P4b implies P3 only after the crossing entropy, area, tangent, and integration hypotheses are supplied. P3 does not imply P4b, and the rank-one P4b does not prove the full bilinear P4a.
+P4b implies P3 only after the reference-cut entropy, area, tangent, and integration hypotheses are supplied. P3 does not imply P4b, and the rank-one P4b does not prove the full bilinear P4a. Identifying this reference cut with a self-dual physical wall is the separate open event-locus conjecture.
 
 ## Constitutive law
 
@@ -204,7 +204,7 @@ The familiar homogeneous Ruble cosmology additionally assumes:
 4. a flat-FLRW apparent horizon with a declared horizontal temperature;
 5. a residual-vacuum sector;
 6. a selected root of the present-flatness equation; and
-7. for the rigid pulse, a constant extensive channel factor \(C_\perp(N)=C_{\perp,c}\).
+7. for CST-B2, a constant extensive channel factor \(C_\perp(N)=C_{\perp,c}\).
 
 These premises belong downstream of the constitutive core. A different residual sector, channel-density evolution, or covariant response can change the cosmic history without refuting the quotient, BKM geometry, or binary Casimir.
 
@@ -223,7 +223,7 @@ $$
 
 and none of these unit laws implies CL1. The converse implications are likewise absent.
 
-A crossing evaluation is also distinct from three different kinds of constancy:
+A reference-cut evaluation is also distinct from three different kinds of constancy:
 
 $$
 \mathfrak R_c=1
@@ -239,7 +239,7 @@ $$
 \mathfrak R_\Sigma(N)\equiv1.
 $$
 
-The first is a crossing evaluation, the second pathwise constancy, the third an RG fixed-point statement after an RG construction, and the fourth a global identity.
+The first datum is a reference-cut evaluation, followed by pathwise constancy, an RG fixed-point statement after an RG construction, and a global identity. None follows from the others without an additional theorem.
 
 ## Authority rule
 

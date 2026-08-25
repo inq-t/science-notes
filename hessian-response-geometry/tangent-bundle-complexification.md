@@ -126,7 +126,7 @@ $$
 \text{complexification }TM.}
 $$
 
-The real \(M\) and its dimension are inputs. If \(M\) is the CRM response manifold, its points label faithful states, readouts, or response parameters. They are not automatically spatial locations. A spatial interpretation still requires a carrier-realization map such as
+The real \(M\) and its dimension are inputs. If \(M\) is the CRF response manifold, its points label faithful states, readouts, or response parameters. They are not automatically spatial locations. A spatial interpretation still requires a carrier-realization map such as
 
 $$
 \mathfrak C:

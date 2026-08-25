@@ -80,7 +80,7 @@ $$
 \qquad A>0.
 $$
 
-This is the [[causal-scale-theory/anchored-response-density-postulate|all-history modular source law]], not a consequence of the binary algebra. Define the cut-integrated crossing ratio of the extensive horizontal state by
+This is the [[causal-scale-theory/anchored-response-density-postulate|all-history modular source law]], not a consequence of the binary algebra. Define the integrated reference matching ratio of the extensive horizontal state by
 
 $$
 \mathfrak R_c

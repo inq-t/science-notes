@@ -94,7 +94,7 @@ $$
 
 These identities are kinematic. They do not require Einstein's field equation or a particular matter model. Further identities using the inverse scale $\sigma=1/a$ are collected in [[conformal-scale-geometry/flrw-scale-section-kinematics|FLRW scale-section kinematics]].
 
-Conformal time and [[misner-log-time|Misner logarithmic time]] emphasize different aspects of expansion. If $\Omega=-\ln(a/a_*)$, then
+Conformal time and [[misner-log-time/entry|Misner logarithmic time]] emphasize different aspects of expansion. If $\Omega=-\ln(a/a_*)$, then
 
 $$
 \frac{\mathrm d\Omega}{\mathrm d\eta}=-\mathcal H,
@@ -237,7 +237,7 @@ For a massless conformally coupled scalar, $m=0$ and $\xi=1/6$, the explicit exp
 
 ## Sources
 
-- W. Rindler, [“Visual Horizons in World Models”](sources/1956-rindler-visual-horizons-in-world-models.pdf) (1956; [publisher record](https://doi.org/10.1093/mnras/116.6.662)): the foundational distinction between particle and event horizons in Robertson--Walker cosmology.
-- Roger Penrose, [“Asymptotic Properties of Fields and Space-Times”](sources/1963-penrose-asymptotic-properties-fields-spacetimes.pdf) (1963; [publisher record](https://doi.org/10.1103/PhysRevLett.10.66)): the conformal treatment of causal infinity underlying conformal diagrams.
-- Leonard Parker, [“Quantized Fields and Particle Creation in Expanding Universes. I”](sources/1969-parker-quantized-fields-particle-creation-i.pdf) (1969; [publisher record](https://doi.org/10.1103/PhysRev.183.1057)): quantum fields and particle creation in a spatially flat expanding universe.
-- Chung-Pei Ma and Edmund Bertschinger, [“Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges”](sources/1995-ma-bertschinger-cosmological-perturbation-theory.pdf) (1995; [repository record](https://arxiv.org/abs/astro-ph/9506072)): conformal-time Einstein--Boltzmann perturbation equations used in CMB and structure calculations.
+- W. Rindler, [[conformal-time/sources/1956-rindler-visual-horizons-in-world-models.pdf|“Visual Horizons in World Models”]] (1956; [publisher record](https://doi.org/10.1093/mnras/116.6.662)): the foundational distinction between particle and event horizons in Robertson--Walker cosmology.
+- Roger Penrose, [[conformal-time/sources/1963-penrose-asymptotic-properties-fields-spacetimes.pdf|“Asymptotic Properties of Fields and Space-Times”]] (1963; [publisher record](https://doi.org/10.1103/PhysRevLett.10.66)): the conformal treatment of causal infinity underlying conformal diagrams.
+- Leonard Parker, [[conformal-time/sources/1969-parker-quantized-fields-particle-creation-i.pdf|“Quantized Fields and Particle Creation in Expanding Universes. I”]] (1969; [publisher record](https://doi.org/10.1103/PhysRev.183.1057)): quantum fields and particle creation in a spatially flat expanding universe.
+- Chung-Pei Ma and Edmund Bertschinger, [[conformal-time/sources/1995-ma-bertschinger-cosmological-perturbation-theory.pdf|“Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges”]] (1995; [repository record](https://arxiv.org/abs/astro-ph/9506072)): conformal-time Einstein--Boltzmann perturbation equations used in CMB and structure calculations.

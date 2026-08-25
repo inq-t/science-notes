@@ -74,9 +74,9 @@ $$
 (\dot\rho_I,\dot\rho_J)
 $$
 
-in the declared affine chart. Pulling this state geometry back along the CRM readout map gives that sector's response matrix. Central averaging or factive evaluation is a later operation.
+in the declared affine chart. Pulling this state geometry back along the CRF readout map gives that sector's response matrix. Central averaging or factive evaluation is a later operation.
 
-This is an **[EXACT FINITE-DIMENSIONAL MODEL]**. It does not prove that every CRM realization is Hessian or that its continuum response is finite. More generally, set
+This is an **[EXACT FINITE-DIMENSIONAL MODEL]**. It does not prove that every CRF realization is Hessian or that its continuum response is finite. More generally, set
 
 $$
 \rho_\lambda
@@ -109,9 +109,9 @@ K(N,\zeta,h)
 =K_0+NQ_N+\sum_a\zeta^aQ_a^{\mathrm{obs}}+Q_F(h)
 $$
 
-whose faithful Gibbs states and readout maps supply all CRM blocks at once. Inner fluctuations can provide algebraic metric deformations while preserving an underlying representation class, but a completely positive readout, transport, quotient, and continuum normalization still have to be built. The spectral-action Hessian must not be identified with the positive BKM pullback merely because both depend on the same Dirac family.
+whose faithful Gibbs states and readout maps supply all CRF blocks at once. Inner fluctuations can provide algebraic metric deformations while preserving an underlying representation class, but a completely positive readout, transport, quotient, and continuum normalization still have to be built. The spectral-action Hessian must not be identified with the positive BKM pullback merely because both depend on the same Dirac family.
 
-There is a genuine BKM selection theorem, but it has stronger hypotheses than “dually flat plus monotone.” [[bkm-selection-theorem|The qualified Grasselli--Streater theorem]] explains that on the full finite-dimensional faithful-state manifold, a monotone metric for which the particular exponential and mixture connections are mutually dual is a constant multiple of BKM. A selected CRM submanifold or quotient does not inherit this uniqueness automatically.
+There is a genuine BKM selection theorem, but it has stronger hypotheses than “dually flat plus monotone.” [[bkm-selection-theorem|The qualified Grasselli--Streater theorem]] explains that on the full finite-dimensional faithful-state manifold, a monotone metric for which the particular exponential and mixture connections are mutually dual is a constant multiple of BKM. A selected CRF submanifold or quotient does not inherit this uniqueness automatically.
 
 ## What Hessian geometry buys
 
@@ -155,7 +155,7 @@ $$
 \dim_{\mathbb R}TM=2n.
 $$
 
-For \(n=3\), this is an exact six-real-dimensional complexification with a three-real-dimensional fixed locus. [[tangent-bundle-complexification|The tangent-bundle note]] explains why this is an important debugging model but not a derivation of space: the real three-manifold \(M\) is input, and in CRM it initially parametrizes responses rather than spatial points.
+For \(n=3\), this is an exact six-real-dimensional complexification with a three-real-dimensional fixed locus. [[tangent-bundle-complexification|The tangent-bundle note]] explains why this is an important debugging model but not a derivation of space: the real three-manifold \(M\) is input, and in the CRF it initially parametrizes responses rather than spatial points.
 
 ## Impact on the larger programme
 
@@ -198,7 +198,7 @@ Those are typed consumer maps. The BKM-to-spatial map remains W2, while the stat
 3. Construct a flat torsion-free connection rather than assuming preferred coordinates.
 4. Exhibit potentials \(\Psi_\alpha\) whose Hessians give every claimed block.
 5. Prove positivity and control the radical after gauge reduction.
-6. If Grasselli--Streater uniqueness is invoked, construct the metric on the full finite faithful-state manifold, verify the source theorem's full monotonicity class and specified e/m duality, and only then pull back to CRM; otherwise prove a new restricted uniqueness theorem.
+6. If Grasselli--Streater uniqueness is invoked, construct the metric on the full finite faithful-state manifold, verify the source theorem's full monotonicity class and specified e/m duality, and only then pull back to the CRF; otherwise prove a new restricted uniqueness theorem.
 7. Test whether the Hessian structure globalizes across charts and scale fibers.
 8. Keep tangent-bundle complexification distinct from the spatial carrier and prove any realization map between them.
 9. Construct the independent spatial, gravitational, mass, and factual consumers.

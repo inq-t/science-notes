@@ -40,7 +40,7 @@ The conformal and binary theorems constrain this chain, but they do not manufact
 
 ## Background completion is another layer
 
-The CST-B2 homogeneous source becomes a cosmology only after spatially flat \(3+1\)-dimensional GR--FLRW, declared matter and radiation, separate conservation, a residual-vacuum sector, and a root branch are added. [[theorems/present-flatness-closure|CST-B2 present-flatness closure]] eliminates the crossing critical density but can leave several candidate roots; [[flatness-branches|the branch analysis]] owns their interpretation. [[vacuum-residual-sector|The residual sector]] is a global choice rather than a consequence of local trace-free blindness.
+The CST-B2 homogeneous source becomes a cosmology only after spatially flat \(3+1\)-dimensional GR--FLRW, declared matter and radiation, separate conservation, a residual-vacuum sector, and a root branch are added. [[theorems/present-flatness-closure|CST-B2 present-flatness closure]] eliminates the reference critical density but can leave several candidate roots; [[flatness-branches|the branch analysis]] owns their interpretation. [[vacuum-residual-sector|The residual sector]] is a global choice rather than a consequence of local trace-free blindness.
 
 The two weak principles
 

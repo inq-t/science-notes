@@ -16,7 +16,7 @@ $$
 
 - the reduced binary polarization is \(m=0\), and [[binary-information-geometry/balanced-exponential-family|the balanced binary metric]] is maximal;
 - the explicit response density is maximal, and separate conservation gives \(w_X=-1\);
-- in flat \(3+1\) dimensions with no residual or additional crossing component, \(\mathfrak R_c=1\) makes the response equal the total non-\(X\) complement.
+- in flat \(3+1\) dimensions with no residual or additional component at the reference cut, \(\mathfrak R_c=1\) makes the response equal the total non-\(X\) complement.
 
 The first statement is exact after balanced binary reduction, the second is conditional on the rigid pulse and conservation, and the third follows from the constitutive amplitude plus the declared background contents. They are not independent predictions.
 

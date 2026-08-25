@@ -35,4 +35,4 @@ A strong explanatory claim therefore requires:
 3. explicit treatment of nonunit or branch-dependent return values as possible falsifications; and
 4. comparison with observations not used to select the construction.
 
-For CST, the rigid pulse has genuine functional economy. Grounding economy begins only if the wall construction and state--geometry bridge return its shape and normalization independently. That audit is summarized by [[causal-scale-theory/realization-map|the CST realization map]].
+For CST-B2, the rigid pulse has genuine functional economy. Grounding economy begins only if the wall construction and state--geometry bridge return its shape and normalization independently. That audit is summarized by [[causal-scale-theory/realization-map|the CST realization map]].

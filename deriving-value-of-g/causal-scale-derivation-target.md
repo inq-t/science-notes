@@ -172,7 +172,7 @@ $$
 
 Positivity of a nondegenerate BKM metric would give \(\chi_*>0\) and hence, on the positive unit-capacity branch, \(G_{\mathrm{pred}}>0\). It fixes the sign but not the magnitude.
 
-At a self-dual cosmological cut obeying the linear Einstein area law, the same equality is expressed by
+At a distinguished reference cut obeying the linear Einstein area law, the same equality is expressed by
 
 $$
 \mathfrak R_c
@@ -180,7 +180,7 @@ $$
 =1.
 $$
 
-[[program-core/ruble-equations#RE6 — Integrated reference matching|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result.
+[[program-core/ruble-equations#RE6 — Integrated reference matching|The Einstein-capacity upgrade target]] correctly records this as a conjecture rather than a result. Identifying the reference cut with a self-dual cosmological wall is an additional event-locus conjecture.
 
 The [[noether-capacity-theorem|Noether--capacity theorem]] gives a sufficient route to the entropy equation: prove that the physical horizontal state is a unit escort deformation of a genuine \(1+1\) conformal thermal sector whose entropy is the horizon entropy. Conservation of its dilation current then forces \(C_E=S/k_B\). The burden shifts to constructing that sector and tangent rather than merely observing that the cut has a two-dimensional normal plane.
 

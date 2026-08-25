@@ -28,12 +28,14 @@ If no such construction exists, the ternary response is not an error term. It is
 
 ## Interfaces with the existing programme
 
+The programme-level owners used below are [[program-core/common-response-form|the common response form]] and [[causal-scale-theory/response-family-interface|the CST response-family interface]].
+
 | programme layer | what the ternary test contributes | what remains open |
 |---|---|---|
 | $A_2$ algebraic geometry | a local three-sheet carrier and a Weyl orbit of root directions | a positive $*$-realization, state bundle, extension across the discriminant, and physical functor |
 | wall construction | a concrete spectator whose removal can be tested | a CP instrument, expectation, quotient, or gap that actually returns a balanced binary family |
-| [[program-core/common-response-form|CRM]] | a finite Hessian potential $\Psi_{A_2}$ with exact quadratic and cubic response | the common carrier, physical tangent quotient, cross-scale transport, and continuum renormalization |
-| [[causal-scale-theory/response-family-interface|CST response-family audit]] | an exact competing finite response and allocation law | construction of an $A_2$ member's state carrier, scalarization, $\theta(N)$, extensive normalization, source map, and covariant dynamics |
+| common response form | a finite Hessian potential $\Psi_{A_2}$ with exact quadratic and cubic response | the common carrier, physical tangent quotient, cross-scale transport, and continuum renormalization |
+| CST response-family interface | an exact competing finite response and allocation law | construction of an $A_2$ member's state carrier, scalarization, $\theta(N)$, extensive normalization, source map, and covariant dynamics |
 | CWST | a finite positive BKM seed | localization, areal-to-volume conversion, spatial carrier, source transform, and probability-1PI construction in W2 |
 | $S^6/A_2$ branch | evidence that monodromy and singular gluing can organize globally nontrivial presentation | an actual comparison functor between the manuscript's toric $A_2$ combinatorics and this analytic inverse-cover $A_2$ |
 
@@ -95,7 +97,7 @@ The following choices cannot be called measured constants because they determine
 - whether the neutral sheet is absent, gapped, conditioned away, merged, or observable;
 - which state and transport turn reversible monodromy into a nonzero state tangent;
 - whether a proposed reduction is deterministic, postselected, state preserving, or only approximate; and
-- whether the resulting BKM form lives on the same carrier as the CRM blocks consumed downstream.
+- whether the resulting BKM form lives on the same carrier as the CRF blocks consumed downstream.
 
 Once those constructions are fixed independently, peak location, normalized shape, tail, higher response, and correlations become quantities that can be calculated and compared with measurement. This is the proper distinction between constructing the theory and measuring its signature.
 

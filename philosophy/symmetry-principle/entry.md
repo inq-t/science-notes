@@ -42,4 +42,6 @@ Left unqualified the schema nearly trivializes, since general covariance can be 
 | **[CONDITIONAL THEOREM]** | near-unique selection of an action from invariance, given locality, field content, and a derivative bound |
 | **[STANDARD — CONTESTED]** | the absolute-object criterion as the repair for Kretschmann's objection; an imported proposal with known difficulties in its formulation, not a proposition awaiting proof |
 | **[OPEN CONSTRUCTION]** | whether a symmetric dynamics exists that admits no action under any multiplier; what grounds the invariance axiom itself, no reconstruction being offered here; which group, in any given case |
-| Outside this module | the existence of an action, [[philosophy/principle-of-least-action/entry\|the variational axiom]]; the conservation law, [[philosophy/noether-conservation/entry\|the Noether synthesis]]; the internal gauge group, [[symmetry-groups-select/entry\|symmetry selection]] |
+| Outside this module | the existence of an action; the conservation law; the internal gauge group |
+
+Those neighboring claims belong respectively to [[philosophy/principle-of-least-action/entry|the variational axiom]], [[philosophy/noether-conservation/entry|the Noether synthesis]], and [[symmetry-groups-select/entry|symmetry selection]].

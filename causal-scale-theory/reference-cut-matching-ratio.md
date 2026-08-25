@@ -38,14 +38,14 @@ The entropy measure in the denominator must be normalized independently of the s
 
 ## CST-B2 specialization
 
-[[response-family-interface|The response-family interface]] separates the crossing normalization from a member's normalized profile. For CST-B2, an exhaustive or explicitly conditioned balanced binary channel, affine soldering, and constant extensivity give
+[[response-family-interface|The response-family interface]] separates the reference normalization from a member's normalized profile. For CST-B2, an exhaustive or explicitly conditioned balanced binary channel, affine soldering, and constant extensivity give
 
 $$
 f_{\mathrm{B2}}(N)
 =\operatorname{sech}^2\!\bigl(\nu[N-N_c]\bigr).
 $$
 
-The crossing definition therefore fixes the member's scalarized full-cut norm as
+The reference-cut definition therefore fixes the member's scalarized full-cut norm as
 
 $$
 \boxed{
