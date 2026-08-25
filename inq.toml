@@ -47,7 +47,7 @@ members = [
   "program-core",
   "spectral-wall-descent",
   "vendor/postquantum-gravity",
-  "library/quanta-of-geometry",
+  "library/quanta-of-geometry", "introduction",
 ]
 
 [workspace.dependencies]

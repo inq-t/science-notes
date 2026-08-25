@@ -1,0 +1,4 @@
+[module]
+name = "introduction"
+entry = "entry.md"
+include = ["**/*.md"]
