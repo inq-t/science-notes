@@ -12,7 +12,7 @@ This distinguishes causal comparability from the calibration of lengths, duratio
 
 [[conformal-scale-geometry/scale-tractor-transport|Scale-tractor transport]] packages \(\sigma\), its first derivative, and its trace-adjusted second derivative into a conformally covariant object. In four dimensions, parallel scale-tractor transport is equivalent to the selected metric being Einstein. With Einstein gravity already granted, the trace-free field equation can be written as a transport obstruction, while the trace and cosmological channels remain in a separate scalar norm equation.
 
-On a spatially flat FLRW representative, [[conformal-scale-geometry/flrw-scale-section-kinematics|scale-section kinematics]] gives
+On a spatially flat FLRW representative, [[conformal-scale-geometry/scale-coordinate-reference|the scale-coordinate ledger]] separates a fixed reference section from displacement relative to a distinguished crossing. With that reference declared, [[conformal-scale-geometry/flrw-scale-section-kinematics|scale-section kinematics]] gives
 
 $$
 \sigma=a^{-1},

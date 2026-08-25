@@ -1,6 +1,6 @@
 # Scale-Age and Cosmic History
 
-The e-fold $N=\ln(a/a_*)$ is the natural additive coordinate on multiplicative changes of a positive scale factor. It measures scale-age rather than elapsed proper time: it orders a monotonic cosmological branch by accumulated ratios, but it neither supplies a physical clock on every worldline nor derives the branch's temporal orientation.
+The e-fold $N=\ln(a/a_*)$ is the natural additive coordinate on multiplicative changes of a positive scale factor. It measures scale-age rather than elapsed proper time: it orders a monotonic cosmological branch by accumulated ratios, but it neither supplies a physical clock on every worldline nor derives the branch's temporal orientation. [[conformal-scale-geometry/scale-coordinate-reference|The scale-coordinate ledger]] separately fixes how a reference epoch and a distinguished crossing enter this notation.
 
 ## Logarithmic composition
 

@@ -2,13 +2,17 @@
 
 The Ruble equations are a typed dependency stack from causal scale through horizontal state response to a conjectural state–geometry equivalence and its homogeneous cosmological projection. Only the balanced-binary identities and the stated geometric or thermodynamic identities are exact; the wall construction, modulus localization, unit principles, source law, and covariant response remain open or constitutive.
 
-Use
+Fix a reference scale section independently of the distinguished crossing and use
 
 $$
+N:=-\ln\frac{\sigma}{\sigma_*},
+\qquad
+N_c:=-\ln\frac{\sigma_c}{\sigma_*},
+\qquad
 x:=N-N_c
 $$
 
-for logarithmic scale displacement from the distinguished crossing. A prime on a homogeneous quantity denotes \(\mathrm d/\mathrm dN\).
+for the scale coordinate, crossing coordinate, and logarithmic displacement from the crossing. A prime on a homogeneous quantity denotes \(\mathrm d/\mathrm dN\). [[conformal-scale-geometry/scale-coordinate-reference|The scale-coordinate ledger]] owns the equivalent FLRW ratios and the present-centered convention.
 
 ## Canonical symbol policy
 
@@ -36,16 +40,16 @@ $$
 g_{\mathrm{phys}}
 =\sigma^{-2}\boldsymbol g,
 \qquad
-N=-\ln\frac{\sigma}{\sigma_c}.}
+N=-\ln\frac{\sigma}{\sigma_*}.}
 $$
 
 The conformal metric \(\boldsymbol g\) fixes causal cones; the positive scale section \(\sigma\) fixes physical calibration. On a homogeneous FLRW specialization with \(\sigma\propto a^{-1}\),
 
 $$
-N=\ln\frac{a}{a_c}.
+N=\ln\frac{a}{a_*}.
 $$
 
-The first definition is generic scale data; the second is its FLRW realization. Neither makes \(N\) proper time or modular time.
+The first definition is generic scale data; the second is its FLRW realization. The crossing-centered coordinate is \(x=N-N_c=\ln(a/a_c)\), not a second centering of a coordinate already defined relative to \(a_c\). Neither \(N\) nor \(x\) is proper time or modular time.
 
 The reusable conformal distinction and its invariance proof live in [[conformal-scale-geometry/causal-order-and-metric-scale|causal order and metric scale]].
 

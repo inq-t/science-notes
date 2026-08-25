@@ -2,7 +2,7 @@
 
 On a spatially flat FLRW spacetime, the inverse scale factor is a conformal scale section whose derivatives encode the Hubble and deceleration parameters. Apparent-horizon motion and the horizon-area rate then follow as exact kinematics; Einstein dynamics enters only when stress-energy is related to scale convexity.
 
-Let
+With the fixed reference convention of [[conformal-scale-geometry/scale-coordinate-reference|the scale-coordinate ledger]], let
 
 $$
 \mathrm ds^2

@@ -9,11 +9,15 @@ The object of inquiry is not a replacement mechanics for every local field. It i
 [[conformal-scale-geometry/entry|Conformal scale geometry]] first separates causal order from metric calibration. Causal cones determine a conformal class; a positive scale section selects a physical representative. On a flat FLRW specialization,
 
 $$
-N=-\ln\frac{\sigma}{\sigma_c}
-=\ln\frac{a}{a_c},
+N=-\ln\frac{\sigma}{\sigma_*}
+=\ln\frac{a}{a_*},
 \qquad
-x:=N-N_c.
+x:=N-N_c
+=-\ln\frac{\sigma}{\sigma_c}
+=\ln\frac{a}{a_c}.
 $$
+
+Here the reference section \(\sigma_*\) is fixed independently of the crossing; [[conformal-scale-geometry/scale-coordinate-reference|the scale-coordinate ledger]] owns the reference policy and its present-centered specialization.
 
 This is standard geometric structure on an imported carrier. It grants causal locality, Lorentzian \(3+1\) signature, FLRW symmetry, and metric scale; it does not derive the presentation site, causal cones, ordinary dimension, or the identification of an algebraic scale cocycle with \(N\). It identifies the scale question but supplies no state path, energy density, or arrow of facthood.
 

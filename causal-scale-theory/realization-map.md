@@ -10,7 +10,7 @@ In [[algebra/theorem-programme|the algebra-to-cosmos gate order]], RE0 is presen
 
 | Core node | Reusable owner | CST realization | Standing |
 |---|---|---|---|
-| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | [[conformal-scale-geometry/causal-order-and-metric-scale|causal order and metric scale]] | On flat FLRW, \(N=\ln(a/a_c)\) and \(x=N-N_c\). | standard specialization on an imported Lorentzian \(3+1\) GR--FLRW carrier; not algebra-derived |
+| [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | [[conformal-scale-geometry/scale-coordinate-reference|scale-coordinate reference]] | On flat FLRW, \(N=\ln(a/a_*)\), \(N_c=\ln(a_c/a_*)\), and \(x=N-N_c=\ln(a/a_c)\). | standard specialization on an imported Lorentzian \(3+1\) GR--FLRW carrier; not algebra-derived |
 | [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[program-core/physical-quotient|physical quotient]] | A scale-indexed wall family must return a nonzero physical horizontal tangent. | principle plus open construction |
 | [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|relative-entropy Hessian]] | CST uses the cut-integrated reflection-odd norm \(G^\perp_{NN}\); its local measure-valued construction remains open. | exact Hessian, open localization |
 | [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] | The strong local weld would explain gravity; the present background calculation needs only a weaker integrated crossing input. | conjecture, not yet a premise proved by the background |
