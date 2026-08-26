@@ -1,0 +1,2 @@
+(following [[black-holes-as-jordan-spectra]])
+Keep going. I have a sneaky suspicion that “de Sitter space” is like a Wheeler Box that traps octonion phase space, creating particle-like black holes from harmonics. And then “AdS” and its compatibility with “quantum gravity” will dovetail with an octonion ontology.
