@@ -1,0 +1,20 @@
+{
+ "firewall_gap": 4.0110758400491164e-05,
+ "N_P_today": 140.29421050149747,
+ "ledger_today": 2.265441230171071e+122,
+ "N_P_crossing": 140.13680513157746,
+ "ledger_crossing": 1.6536067373511574e+122,
+ "2(1+q)_today": 0.9449999999999998,
+ "index_window": [
+  6.285,
+  8.376
+ ],
+ "n_algebraic_survivors": 22,
+ "nearest_survivor_ds": 0.0016,
+ "improvement_x_golden^2": 4.0,
+ "improvement_x_integer7": 5.0,
+ "improvement_x_2x4cos2pi10": 14.0,
+ "improvement_x_4+2sqrt3": 29.0,
+ "gauss_map_entropy_nats_per_era": 2.373138220831251
+}
+ALL RECEIPTS PASS

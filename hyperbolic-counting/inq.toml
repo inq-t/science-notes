@@ -1,0 +1,4 @@
+[module]
+name = "hyperbolic-counting"
+entry = "entry.md"
+include = ["**/*.md", "**/*.py", "**/*.txt"]
