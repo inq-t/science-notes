@@ -1,0 +1,5 @@
+[module]
+name = "minimal-cosmodynamic-closure"
+entry = "entry.md"
+include = ["**/*.md", "**/*.py"]
+

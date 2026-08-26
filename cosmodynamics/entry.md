@@ -28,7 +28,7 @@ together with causal order, metric scale, quantum state, accessibility, and entr
 
 [[fact-record-history]] isolates the undeveloped heart of the programme: a physical fact, a stable record, intersubjective compatibility, a present frontier, and irreversible history still need definitions and constructions. [[causal-scale-sector]] then states precisely what Causal Scale Dynamics contributes and what remains outside it. [[empirical-boundaries]] separates philosophical motivation, conditional background dynamics, perturbation theory, neutrino inference, and observational validation.
 
-The minimal mathematical package and its failure conditions are proposed in [[construction-programme]].
+The minimal mathematical package and its failure conditions are proposed in [[construction-programme]]. [[minimal-cosmodynamic-closure/entry|Minimal cosmodynamic closure]] freezes a testable unit-response subtheory and isolates its stronger carrier-changing wall and chiral-grain claims as a factorized conjecture package; it does not close the factive or covariant sectors described here.
 
 ## Claim levels
 
