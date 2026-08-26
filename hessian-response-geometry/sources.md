@@ -5,11 +5,11 @@ This ledger separates the established geometry and information theory from the p
 ## Primary sources
 
 - H. Shima, [*Geometry of Hessian Manifolds*](https://doi.org/10.1016/S0926-2245(96)00057-5), *Differential Geometry and its Applications* 7 (1997), 277--290: Hessian metrics, dual affine connections, and the intrinsic differential-geometric framework.
-- P. Dombrowski, [*On the Geometry of the Tangent Bundle*](https://doi.org/10.1515/crll.1962.210.73), *Journal fur die reine und angewandte Mathematik* 210 (1962), 73--88: natural almost-complex geometry of \(TM\) and the flatness/integrability criterion.
-- H. Satoh, [*Almost Hermitian Structures on Tangent Bundles*](https://arxiv.org/abs/1908.10824), arXiv:1908.10824: conditions for the induced almost Hermitian structure to be almost Kähler or Kähler.
-- D. Petz, [*Monotone Metrics on Matrix Spaces*](https://doi.org/10.1016/0024-3795(94)00211-8), *Linear Algebra and its Applications* 244 (1996), 81--96: classification of finite-dimensional monotone quantum metrics.
-- M. R. Grasselli and R. F. Streater, [*On the Uniqueness of the Chentsov Metric in Quantum Information Geometry*](https://arxiv.org/abs/math-ph/0006030), *Infinite Dimensional Analysis, Quantum Probability and Related Topics* 4 (2001), 173--182: BKM selection from monotonicity and duality of the specified exponential/mixture connections.
-- H. Mori, [*Transport, Collective Motion, and Brownian Motion*](https://doi.org/10.1143/PTP.33.423), *Progress of Theoretical Physics* 33 (1965), 423--455: canonical correlation in statistical-mechanical response.
+- P. Dombrowski, [[library/geometry-of-the-tangent-bundle/entry|*On the Geometry of the Tangent Bundle*]], *Journal fur die reine und angewandte Mathematik* 210 (1962), 73--88: natural almost-complex geometry of \(TM\) and the flatness/integrability criterion.
+- H. Satoh, [[library/almost-hermitian-structures-on-tangent-bundles/entry|*Almost Hermitian Structures on Tangent Bundles*]], arXiv:1908.10824: conditions for the induced almost Hermitian structure to be almost Kähler or Kähler.
+- D. Petz, [[library/monotone-metrics-on-matrix-spaces/entry|*Monotone Metrics on Matrix Spaces*]], *Linear Algebra and its Applications* 244 (1996), 81--96: classification of finite-dimensional monotone quantum metrics.
+- M. R. Grasselli and R. F. Streater, [[library/uniqueness-of-chentsov-metric-quantum-information-geometry/entry|*On the Uniqueness of the Chentsov Metric in Quantum Information Geometry*]], *Infinite Dimensional Analysis, Quantum Probability and Related Topics* 4 (2001), 173--182: BKM selection from monotonicity and duality of the specified exponential/mixture connections.
+- H. Mori, [[library/transport-collective-motion-and-brownian-motion/entry|*Transport, Collective Motion, and Brownian Motion*]], *Progress of Theoretical Physics* 33 (1965), 423--455: canonical correlation in statistical-mechanical response.
 
 ## Existing canonical project owners
 

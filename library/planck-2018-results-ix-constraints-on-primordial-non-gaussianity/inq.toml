@@ -1,0 +1,4 @@
+[module]
+name = "planck-2018-results-ix-constraints-on-primordial-non-gaussianity"
+entry = "entry.md"
+include = ["**"]

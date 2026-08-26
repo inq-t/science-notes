@@ -1,0 +1,4 @@
+[module]
+name = "quantum-cosmology-i"
+entry = "entry.md"
+include = ["**"]

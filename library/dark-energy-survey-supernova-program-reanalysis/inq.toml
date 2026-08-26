@@ -1,0 +1,4 @@
+[module]
+name = "dark-energy-survey-supernova-program-reanalysis"
+entry = "entry.md"
+include = ["**"]

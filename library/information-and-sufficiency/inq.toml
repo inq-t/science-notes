@@ -1,0 +1,4 @@
+[module]
+name = "information-and-sufficiency"
+entry = "entry.md"
+include = ["**"]

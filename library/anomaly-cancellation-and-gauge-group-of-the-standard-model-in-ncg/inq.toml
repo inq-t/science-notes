@@ -1,0 +1,4 @@
+[module]
+name = "anomaly-cancellation-and-gauge-group-of-the-standard-model-in-ncg"
+entry = "entry.md"
+include = ["**"]

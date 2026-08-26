@@ -1,0 +1,4 @@
+[module]
+name = "statistical-mechanical-theory-of-irreversible-processes-i"
+entry = "entry.md"
+include = ["**"]

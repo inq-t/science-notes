@@ -1,0 +1,4 @@
+[module]
+name = "relative-entropy-and-the-bekenstein-bound"
+entry = "entry.md"
+include = ["**"]

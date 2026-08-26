@@ -1,0 +1,4 @@
+[module]
+name = "the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics"
+entry = "entry.md"
+include = ["**"]

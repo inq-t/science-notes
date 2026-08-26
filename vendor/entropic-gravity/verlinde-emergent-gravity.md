@@ -2,7 +2,7 @@
 
 Verlinde’s 2016 proposal treats positive-dark-energy de Sitter space as a medium with long-range, volume-law entanglement. Matter displaces part of that entropy, and the residual medium is modeled elastically. Saturation first turns an elastic inequality into an approximate bulk equality; a gravitational dictionary and boundary identification then translate it; and only in a later static, isolated, approximately spherical specialization does it yield the familiar apparent-dark-mass relation.
 
-The primary source is [[vendor/entropic-gravity/sources/papers/1611.02269-verlinde-emergent-gravity-dark-universe.pdf|Verlinde 2016/2017]]. This is a distinct construction from [[verlinde-entropic-force]].
+The primary source is [[library/emergent-gravity-and-the-dark-universe/entry|Verlinde 2016/2017]]. This is a distinct construction from [[verlinde-entropic-force]].
 
 ## Microscopic hypotheses
 

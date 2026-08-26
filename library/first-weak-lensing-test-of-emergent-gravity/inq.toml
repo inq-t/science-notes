@@ -1,0 +1,4 @@
+[module]
+name = "first-weak-lensing-test-of-emergent-gravity"
+entry = "entry.md"
+include = ["**"]

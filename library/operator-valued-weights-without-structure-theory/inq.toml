@@ -1,14 +1,4 @@
 [module]
 name = "operator-valued-weights-without-structure-theory"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

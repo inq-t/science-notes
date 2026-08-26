@@ -1,0 +1,4 @@
+[module]
+name = "gauss-law-and-string-localized-quantum-field-theory"
+entry = "entry.md"
+include = ["**"]

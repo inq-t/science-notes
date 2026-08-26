@@ -1,0 +1,4 @@
+[module]
+name = "operator-algebra-quantum-error-correction"
+entry = "entry.md"
+include = ["**"]

@@ -1,0 +1,4 @@
+[module]
+name = "quantum-fields-in-curved-spacetime"
+entry = "entry.md"
+include = ["**"]

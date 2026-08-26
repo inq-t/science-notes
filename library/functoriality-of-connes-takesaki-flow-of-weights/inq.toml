@@ -1,14 +1,4 @@
 [module]
 name = "functoriality-of-connes-takesaki-flow-of-weights"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

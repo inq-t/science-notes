@@ -78,7 +78,7 @@ Accordingly, a semiorthogonal decomposition does **not** bypass the Takesaki gat
 
 ## Relation to the present source corpus
 
-[Raugas](https://arxiv.org/abs/2603.16639) places a Kuznetsov semiorthogonal component, a proposed dynamical selection rule, and JLO/index language in one discussion. The categorical decomposition is standard; the promotion of its one-sided \(\operatorname{RHom}\)-vanishing to a physical tunnelling prohibition is explicitly conjectural. Moreover, a semiorthogonal decomposition of a dg category does not by itself produce a spectral triple or JLO cocycle.
+[[library/hodge-atoms-spectral-triples-bps/entry|Raugas]] places a Kuznetsov semiorthogonal component, a proposed dynamical selection rule, and JLO/index language in one discussion. The categorical decomposition is standard; the promotion of its one-sided \(\operatorname{RHom}\)-vanishing to a physical tunnelling prohibition is explicitly conjectural. Moreover, a semiorthogonal decomposition of a dg category does not by itself produce a spectral triple or JLO cocycle.
 
 The safe synthesis with [[spectral-wall-descent/index-and-curvature-transgression|index and curvature transgression]] is therefore conditional: first realize the categorical components in analytic \(K\)-homology or spectral data, then ask whether the JLO character and index pairings split or transgress compatibly. Additivity of an abstract invariant is not yet a physical conservation law.
 

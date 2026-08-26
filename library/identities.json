@@ -1,0 +1,2920 @@
+{
+  "generated": "2026-08-26",
+  "identity_priority": [
+    "doi",
+    "arxiv_base_id",
+    "official_repository_id",
+    "title_authors_year_and_sha256"
+  ],
+  "modules": [
+    {
+      "module": "a-covariant-version-of-verlinde-s-emergent-gravity",
+      "title": "A Covariant Version of Verlinde's Emergent Gravity",
+      "identity": "1703.01415",
+      "arxiv": "1703.01415",
+      "doi": "10.1103/PhysRevD.95.124018",
+      "artifacts": [
+        {
+          "path": "1703.01415-hossenfelder-covariant-verlinde-emergent-gravity.pdf",
+          "bytes": 146944,
+          "sha256": "1111ce8b28bd5a9c5ebca976ef6666787d02ca017a97b0abd2f8672acc602f74"
+        },
+        {
+          "path": "1703.01415-source.tar.gz",
+          "bytes": 16901,
+          "sha256": "9d3e43ecf705ba08153cb9caa6bb71e8f388faeed25745fa284162576beb7bd1"
+        }
+      ]
+    },
+    {
+      "module": "a-critique-of-covariant-emergent-gravity",
+      "title": "A Critique of Covariant Emergent Gravity",
+      "identity": "2003.10410",
+      "arxiv": "2003.10410",
+      "doi": "10.1088/1475-7516/2020/08/024",
+      "artifacts": [
+        {
+          "path": "2003.10410-source.tar.gz",
+          "bytes": 70792,
+          "sha256": "9b5377ef8d633a9825efea45ea46340dcfe773f0e1769f1d7b402787badbefe4"
+        },
+        {
+          "path": "2003.10410-zatrimaylov-critique-covariant-emergent-gravity.pdf",
+          "bytes": 421806,
+          "sha256": "46bec6e07ec9ff821f11debf4e9ef2ed8e9139381e4cb7a6d12740945c18f51d"
+        }
+      ]
+    },
+    {
+      "module": "a-manifestly-local-theory-of-vacuum-energy-sequestering",
+      "title": "A Manifestly Local Theory of Vacuum Energy Sequestering",
+      "identity": "1505.01492",
+      "arxiv": "1505.01492",
+      "doi": "10.1103/PhysRevLett.116.051302",
+      "artifacts": [
+        {
+          "path": "1505.01492-kaloper-padilla-stefanyszyn-zahariade-local-vacuum-energy-sequestering.pdf",
+          "bytes": 128906,
+          "sha256": "4a4f9dfab05e8fa89df3b441b273e1199e53aff55ec2f042e6364ec1df396540"
+        },
+        {
+          "path": "1505.01492-source.tar.gz",
+          "bytes": 13220,
+          "sha256": "76f7f8cf4d45b865c2b11df90fa2b4702c5fde337670b6d17109c202668bad61"
+        }
+      ]
+    },
+    {
+      "module": "a-method-for-simulating-chiral-fermions-on-the-lattice",
+      "title": "A Method for Simulating Chiral Fermions on the Lattice",
+      "identity": "hep-lat/9206013",
+      "arxiv": "hep-lat/9206013",
+      "doi": "10.1016/0370-2693(92)91112-M",
+      "artifacts": [
+        {
+          "path": "hep-lat-9206013-kaplan-chiral-fermions.pdf",
+          "bytes": 126585,
+          "sha256": "22f0aea4e649c97b62546fd93f09dcd64eeca1d58be4dbf94f1003d39dd1b983"
+        }
+      ]
+    },
+    {
+      "module": "a-new-approach-to-the-evolution-of-cosmological-perturbations-on-large-scales",
+      "title": "A new approach to the evolution of cosmological perturbations on large scales",
+      "identity": "astro-ph/0003278",
+      "arxiv": "astro-ph/0003278",
+      "doi": "10.1103/PhysRevD.62.043527",
+      "artifacts": [
+        {
+          "path": "0003278-wands-malik-lyth-liddle-cosmological-perturbations-large-scales.pdf",
+          "bytes": 179960,
+          "sha256": "1ad68345ae294d9d9ba9e4438b0889adce556a5a53f25b1d4d1462f6d1024704"
+        }
+      ]
+    },
+    {
+      "module": "a-new-su-2-anomaly",
+      "title": "A New SU(2) Anomaly",
+      "identity": "1810.00844",
+      "arxiv": "1810.00844",
+      "doi": "10.1063/1.5082852",
+      "artifacts": [
+        {
+          "path": "1810.00844-wang-wen-witten-su2-anomaly.pdf",
+          "bytes": 637759,
+          "sha256": "399dafe63ae1fc06412e0961940a1eec95e26e5cb53fdd9dd19fdc2fd1b4d465"
+        }
+      ]
+    },
+    {
+      "module": "a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity",
+      "title": "A note on a covariant version of Verlinde's emergent gravity",
+      "identity": "1706.07854",
+      "arxiv": "1706.07854",
+      "doi": "10.1103/PhysRevD.96.108501",
+      "artifacts": [
+        {
+          "path": "1706.07854-dai-stojkovic-note-covariant-emergent-gravity.pdf",
+          "bytes": 79824,
+          "sha256": "de01b273a5d5d53e91717f46658f87489b152c9b3b6151f0877c5348d1bb94ee"
+        },
+        {
+          "path": "1706.07854-source.tar.gz",
+          "bytes": 4451,
+          "sha256": "ac403760c14ba522339f64085106c04fd4cfd167ac0fe10fb3df03fcc2d0d40b"
+        }
+      ]
+    },
+    {
+      "module": "act-dr6-power-spectra-likelihoods-lambda-cdm",
+      "title": "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $Λ$CDM Parameters",
+      "identity": "2503.14452",
+      "arxiv": "2503.14452",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2503.14452-act-dr6-power-spectra-likelihoods-lcdm.pdf",
+          "bytes": 9352354,
+          "sha256": "4cbf9ccdb2ada7a07bd4bad878dc7f548bca1e963eeeb1b8694f77603a31b93e"
+        }
+      ]
+    },
+    {
+      "module": "adiabatic-modes-in-cosmology",
+      "title": "Adiabatic Modes in Cosmology",
+      "identity": "astro-ph/0302326",
+      "arxiv": "astro-ph/0302326",
+      "doi": "10.1103/PhysRevD.67.123504",
+      "artifacts": [
+        {
+          "path": "0302326-weinberg-adiabatic-modes-cosmology.pdf",
+          "bytes": 188090,
+          "sha256": "2eae1161dcf3010b70d1bd55cdbd6e720f4387fd8a81cc5caa489fb6711a67d4"
+        }
+      ]
+    },
+    {
+      "module": "algebraic-backgrounds",
+      "title": "Algebraic Backgrounds: A Framework for Noncommutative Kaluza-Klein Theory",
+      "identity": "arxiv:1902.09387",
+      "arxiv": "1902.09387",
+      "doi": "10.1063/1.5116922",
+      "artifacts": [
+        {
+          "path": "AB4MAJ.bbl",
+          "bytes": 10772,
+          "sha256": "b9fbfe56eccac9c075127a8ca235838980d7f699dad03b939bb6e9d26868418c"
+        },
+        {
+          "path": "AB4MAJ.tex",
+          "bytes": 266069,
+          "sha256": "ee12cd6b00582a0853327a6df9beccb6363f6a025085cea0ca63b27806ad4f19"
+        }
+      ]
+    },
+    {
+      "module": "algebraic-observational-cosmology",
+      "title": "Algebraic Observational Cosmology",
+      "identity": "2406.01669",
+      "arxiv": "2406.01669",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2406.01669-kudler-flam-leutheusser-satishchandran-algebraic-observational-cosmology.pdf",
+          "bytes": 762880,
+          "sha256": "f105d4ee58d87e2471644f4855f44d6996d8cedfe921f4ccc2d316702e97850e"
+        }
+      ]
+    },
+    {
+      "module": "algebraic-quantum-field-theory",
+      "title": "Algebraic Quantum Field Theory",
+      "identity": "math-ph/0602036",
+      "arxiv": "math-ph/0602036",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "math-ph-0602036-halvorson-mueger-aqft.pdf",
+          "bytes": 1673232,
+          "sha256": "d1df85ccb5b5ab16472d6ce8fbec550bb2be1b65b4e3e30815b573722a646207"
+        }
+      ]
+    },
+    {
+      "module": "almost-hermitian-structures-on-tangent-bundles",
+      "title": "Almost Hermitian structures on tangent bundles",
+      "identity": "1908.10824",
+      "arxiv": "1908.10824",
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "an-infinite-set-of-ward-identities-for-adiabatic-modes-in-cosmology",
+      "title": "An Infinite Set of Ward Identities for Adiabatic Modes in Cosmology",
+      "identity": "1304.5527",
+      "arxiv": "1304.5527",
+      "doi": "10.1088/1475-7516/2014/01/039",
+      "artifacts": [
+        {
+          "path": "1304.5527-hinterbichler-hui-khoury-ward-identities-adiabatic-modes.pdf",
+          "bytes": 644664,
+          "sha256": "ec4c5da4a502824815132a4974a0358b92ec6ab1dab5c76d3e075e1fb8a85e67"
+        }
+      ]
+    },
+    {
+      "module": "analyticity-and-unitarity-for-cosmological-correlators",
+      "title": "Analyticity and Unitarity for Cosmological Correlators",
+      "identity": "2108.01695",
+      "arxiv": "2108.01695",
+      "doi": "10.1007/JHEP03(2022)023",
+      "artifacts": [
+        {
+          "path": "2108.01695-di-pietro-gorbenko-komatsu-cosmological-correlators.pdf",
+          "bytes": 1569420,
+          "sha256": "bab55d8c28add6761db4a10dfb097718751897a5de6c540c31fe377047b05392"
+        }
+      ]
+    },
+    {
+      "module": "anomalous-galactic-rotation-curves",
+      "title": "Anomalous Contribution to Galactic Rotation Curves due to Stochastic Spacetime",
+      "identity": "arxiv:2402.19459",
+      "arxiv": "2402.19459",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "average_final_position_vs_q0.pdf",
+          "bytes": 26811,
+          "sha256": "b9af0b28ebd94e800caf1a41737136507b237a7a00c8cf60a7574e330556ea56"
+        },
+        {
+          "path": "definitions.tex",
+          "bytes": 1630,
+          "sha256": "400917913212f308dd3a5db5c796158077032216b8c43f344374f46c6857c02d"
+        },
+        {
+          "path": "main.bbl",
+          "bytes": 77679,
+          "sha256": "5d80b49d5fd2118db9c77ae9648dc37e7572332c897866ddae13b06fad8c6cd2"
+        },
+        {
+          "path": "main.tex",
+          "bytes": 117408,
+          "sha256": "2998f4c1a54952aa46c11f5e12ef9beae88dc1ea6f4e3c654478cb7cc948c2e2"
+        },
+        {
+          "path": "plot_beta_function.pdf",
+          "bytes": 12268,
+          "sha256": "8dd6740af42b14c2f1596fe7a86799a1e877e8da172148cd58e55f0852fedd53"
+        },
+        {
+          "path": "plot_brownian_wall.pdf",
+          "bytes": 20813,
+          "sha256": "2af3b7d4835c1cc4e246f3f748185cbcf01b9a988d0efe7591fa460046294fee"
+        },
+        {
+          "path": "plot_brownian_wall_corrected.pdf",
+          "bytes": 20730,
+          "sha256": "cab98e428a40f774762f3d1f53290a60e199c7f5cba54b2328f9162e909d9996"
+        },
+        {
+          "path": "plot_brownian_wall_distrib.pdf",
+          "bytes": 18885,
+          "sha256": "438bdac22dfc89c12680f6b9d4d9f12261232e2ce33172e22f9c5656d517f6ea"
+        },
+        {
+          "path": "plot_contour.pdf",
+          "bytes": 125229,
+          "sha256": "0a0d4e90b61032f93d4e802a0ebc2bdf492969ae1b00786bac536999139250ca"
+        }
+      ]
+    },
+    {
+      "module": "anomaly-cancellation-and-gauge-group-of-the-standard-model-in-ncg",
+      "title": "Anomaly Cancellation and gauge group of the standard model in NCG",
+      "identity": "hep-th/9506115",
+      "arxiv": "hep-th/9506115",
+      "doi": "10.1016/0370-2693(95)01051-3",
+      "artifacts": [
+        {
+          "path": "hep-th-9506115-alvarez-gracia-bondia-martin-anomaly-cancellation.pdf",
+          "bytes": 102778,
+          "sha256": "3bc66f36ccab083587fd77cf5a218f10b3c0fcf93318b7df8c5125e952830ab4"
+        }
+      ]
+    },
+    {
+      "module": "aspects-of-capacity-of-entanglement",
+      "title": "Aspects of capacity of entanglement",
+      "identity": "1807.07357",
+      "arxiv": "1807.07357",
+      "doi": "10.1103/PhysRevD.99.066012",
+      "artifacts": [
+        {
+          "path": "1807.07357-de-boer-jarvela-keski-vakkuri-aspects-capacity-entanglement.pdf",
+          "bytes": 900050,
+          "sha256": "aea8e0930d37f1354c922035f1b5b250824e000b957d4d0987bafae7838f0409"
+        },
+        {
+          "path": "1807.07357-source.tar.gz",
+          "bytes": 256570,
+          "sha256": "764cd63bcc67ca87f636973856071eeec4a610c020b939f38601a8a384b441c1"
+        }
+      ]
+    },
+    {
+      "module": "asymptotic-properties-of-fields-and-spacetimes",
+      "title": "Asymptotic Properties of Fields and Space-Times",
+      "identity": "doi:10.1103/PhysRevLett.10.66",
+      "arxiv": null,
+      "doi": "10.1103/PhysRevLett.10.66",
+      "artifacts": [
+        {
+          "path": "1963-penrose-asymptotic-properties-fields-spacetimes.pdf",
+          "bytes": 314142,
+          "sha256": "d1d5ebe5e471d4866af25767957a3bb90823a9e47f17c1a8cdbd008f62956e5b"
+        }
+      ]
+    },
+    {
+      "module": "axiomatic-quantum-field-theory-in-curved-spacetime",
+      "title": "Axiomatic quantum field theory in curved spacetime",
+      "identity": "0803.2003",
+      "arxiv": "0803.2003",
+      "doi": "10.1007/s00220-009-0880-7",
+      "artifacts": [
+        {
+          "path": "0803.2003-hollands-wald-axiomatic-qft-curved-spacetime.pdf",
+          "bytes": 366680,
+          "sha256": "b8b696d0fc5f42a4e3dfba093b97dcf65291016f9d113c8275b15d3216883589"
+        }
+      ]
+    },
+    {
+      "module": "bells-theorem-from-entropy-geometry",
+      "title": "Bell's Theorem Revisited: Structural Collapse from Entropy Geometry",
+      "identity": null,
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "sigtermans-bells-theorem-revisited.pdf",
+          "bytes": 525017,
+          "sha256": "a40131129152eb2b2f1428d4992b4b649598edb18a9d88dca35751d6e9e99164"
+        }
+      ]
+    },
+    {
+      "module": "bicep-keck-2018-primordial-gravitational-waves",
+      "title": "BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season",
+      "identity": "2110.00483",
+      "arxiv": "2110.00483",
+      "doi": "10.1103/PhysRevLett.127.151301",
+      "artifacts": [
+        {
+          "path": "2110.00483-bicep-keck-2018-primordial-gravitational-waves.pdf",
+          "bytes": 4648941,
+          "sha256": "c2a74323259f2b284b640bf82745f7a09006a58adc45ce8022b06fa8a688c769"
+        }
+      ]
+    },
+    {
+      "module": "bootstrapping-ncg-dirac-ensembles",
+      "title": "Bootstrapping Noncommutative Geometry with Dirac Ensembles",
+      "identity": "arxiv:2512.08694",
+      "arxiv": "2512.08694",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "00README.json",
+          "bytes": 1092,
+          "sha256": "622862115f72ec1c3cceba4fa8185dda8ce167a4f3bf15832eb682950fd2a7bc"
+        },
+        {
+          "path": "anomalous_force_example.png",
+          "bytes": 197412,
+          "sha256": "038b2f679d3c26d025b05e1b8011ca006b272bf7f8bb702c2b59049b47db0d8d"
+        },
+        {
+          "path": "Bootstraps1.pdf",
+          "bytes": 189164,
+          "sha256": "e919ea861b02a8d4f4f30ccb9d6512edcbcd141c1d74d3a34c7cc2fada606e31"
+        },
+        {
+          "path": "Bootstraps2.pdf",
+          "bytes": 961516,
+          "sha256": "988327571a3b40dbdf4f201a3437a898ef85b702ec6444479e40facf1a6c2d5d"
+        },
+        {
+          "path": "Bootstraps_0,1_8.pdf",
+          "bytes": 127616,
+          "sha256": "d3ea4ef0cb72aa16d57015084483a248b3e8cad12a6b344d73d2b7ca170655b9"
+        },
+        {
+          "path": "Bootstraps_0,1_8_zoomed.pdf",
+          "bytes": 147595,
+          "sha256": "f8c0a734d960314c0450c4cfcaaa0fca29097e3cad22081d0627ef9c8f2e2424"
+        },
+        {
+          "path": "Bootstraps_1,0_10.pdf",
+          "bytes": 449014,
+          "sha256": "bbfbfad15e178a8a237f57cfb972f1fa72db377e7e3384d05f55a1ec6763dff4"
+        },
+        {
+          "path": "CIRMSurvey.out",
+          "bytes": 7908,
+          "sha256": "2bf3dc053c3fcf49fe1c010a6fe949c5211f08d95ea9861543b6cafbbb032ee5"
+        },
+        {
+          "path": "CIRMSurvey.tex",
+          "bytes": 138970,
+          "sha256": "ea58a8b511cdefada340476dc31bb893f13f6613de96b206e8d2ad5eb19fe4ae"
+        },
+        {
+          "path": "CIRMSurvey.toc",
+          "bytes": 3312,
+          "sha256": "f1ca22b121ebb7b58f4fd0c8591c5129c69eb1b119d518fdbe00b30662b19cc8"
+        },
+        {
+          "path": "Cubic_Dirac.jpg",
+          "bytes": 138331,
+          "sha256": "aedf4498d906768467dbdce745c927d077f647b79e32ce45e24eae0660e7307e"
+        },
+        {
+          "path": "Curve10.pdf",
+          "bytes": 1048207,
+          "sha256": "d72ed744c3ff30b4a6a43a8ac073778d7070c83fdb3b98e162e012cf0b9bbd8e"
+        },
+        {
+          "path": "influence_of_g2_various_masses.png",
+          "bytes": 667387,
+          "sha256": "cc8e15c6df1fe0828d650dd22cd9e6137b9fa9aa0f6c747c2e2e815bd0a1d8cc"
+        },
+        {
+          "path": "Line100.pdf",
+          "bytes": 3203785,
+          "sha256": "c12a5153e6758f80724ea512f66927f6038b1bf9593e34c2b8f5594df623db9f"
+        }
+      ]
+    },
+    {
+      "module": "canonical-energy-is-quantum-fisher-information",
+      "title": "Canonical Energy is Quantum Fisher Information",
+      "identity": "1508.00897",
+      "arxiv": "1508.00897",
+      "doi": "10.1007/JHEP04(2016)153",
+      "artifacts": [
+        {
+          "path": "1508.00897-lashkari-van-raamsdonk-canonical-energy-quantum-fisher-information.pdf",
+          "bytes": 296443,
+          "sha256": "40070bf1516f8cfc087e1d4716b2718aadb69f93f356b38d0f77cb1d44f2158a"
+        },
+        {
+          "path": "1508.00897-source.tar.gz",
+          "bytes": 36761,
+          "sha256": "38543c617c4d2335a84fc402ff820b218f21c383b1f54147e02c5d9caae344c8"
+        }
+      ]
+    },
+    {
+      "module": "comment-on-inconsistencies-in-verlinde-s-emergent-gravity",
+      "title": "Comment on \"Inconsistencies in Verlinde's emergent gravity\"",
+      "identity": "2003.03198",
+      "arxiv": "2003.03198",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2003.03198-source.tar.gz",
+          "bytes": 5475,
+          "sha256": "d42b375f7202f0a0c2baf0b8d7b138a3ae9e9195fd0a993c8c1772459e13ed8f"
+        },
+        {
+          "path": "2003.03198-yoon-comment-inconsistencies-emergent-gravity.pdf",
+          "bytes": 101016,
+          "sha256": "094468c09bc951c7876f08c282ac136ef8a8777f281395fbc3afb573c1d2abc9"
+        }
+      ]
+    },
+    {
+      "module": "comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation",
+      "title": "Comments on Jacobson's \"Entanglement equilibrium and the Einstein equation\"",
+      "identity": "1601.00528",
+      "arxiv": "1601.00528",
+      "doi": "10.1007/JHEP03(2016)194",
+      "artifacts": [
+        {
+          "path": "1601.00528-casini-galante-myers-comments-entanglement-equilibrium.pdf",
+          "bytes": 430904,
+          "sha256": "c1552e95ddbbc631bb8ad93c514923ceb351b002d0b4acac0c177c9097fa6908"
+        },
+        {
+          "path": "1601.00528-source.tar.gz",
+          "bytes": 45790,
+          "sha256": "930289fa6adf525b03b3f1f199f202bde43a798f208367bc694630cabb131d36"
+        }
+      ]
+    },
+    {
+      "module": "comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals",
+      "title": "Comparison of MOND and Verlinde's emergent gravity in dwarf spheroidals",
+      "identity": "2601.01715",
+      "arxiv": "2601.01715",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2601.01715-source.tar.gz",
+          "bytes": 3606713,
+          "sha256": "5f677c0f22550f239a3101da7a6e1851d151dc3451d4b0454d14b5149d7c1f98"
+        },
+        {
+          "path": "2601.01715-yoon-han-hwang-dwarf-spheroidals.pdf",
+          "bytes": 3243472,
+          "sha256": "2f91aab9a6a846823f0e997055424470be6bdca57a3a99d69b4677fcb6bba0b7"
+        }
+      ]
+    },
+    {
+      "module": "complex-structure-on-s6",
+      "title": "The (3, 4, ∞) Modular Family of 2-Tori as a Complex Structure on $S^6$",
+      "identity": null,
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "s6.pdf",
+          "bytes": 1113315,
+          "sha256": "283bba102dd1d5dc346af81b28145bdaaea6654398d5032e76e97bafb9a858f2"
+        }
+      ]
+    },
+    {
+      "module": "comprehensive-local-hubble-constant-measurement",
+      "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s−1 Mpc−1 Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+      "identity": "doi:10.3847/2041-8213/ac5c5b",
+      "arxiv": null,
+      "doi": "10.3847/2041-8213/ac5c5b",
+      "artifacts": []
+    },
+    {
+      "module": "conformally-invariant-powers-of-the-laplacian-q-curvature-and-tractor-calculus",
+      "title": "Conformally invariant powers of the Laplacian, Q-curvature, and tractor calculus",
+      "identity": "math-ph/0201030",
+      "arxiv": "math-ph/0201030",
+      "doi": "10.1007/s00220-002-0790-4",
+      "artifacts": [
+        {
+          "path": "0201030-gover-peterson-gjms-q-curvature-tractor-calculus-substitute.pdf",
+          "bytes": 543365,
+          "sha256": "ac788ae8ac1b6b76d5260a10380bc095de134ff934cada1817cf6925c757fd38"
+        }
+      ]
+    },
+    {
+      "module": "conservative-entropic-forces",
+      "title": "Conservative entropic forces",
+      "identity": "1108.5240",
+      "arxiv": "1108.5240",
+      "doi": "10.1007/JHEP10(2011)140",
+      "artifacts": [
+        {
+          "path": "1108.5240-source.tar.gz",
+          "bytes": 22472,
+          "sha256": "7addaab97c7d3964dc0a1c433701a5e99ba3dd6a90510bed6d2fb41cb5ebcfa3"
+        },
+        {
+          "path": "1108.5240-visser-conservative-entropic-forces.pdf",
+          "bytes": 234163,
+          "sha256": "95cd7faf075b7905b96e52beb66065699311f58bb460ee4389004d8aebf4f9aa"
+        }
+      ]
+    },
+    {
+      "module": "constraining-holographic-cosmology-using-planck-data",
+      "title": "Constraining holographic cosmology using Planck data",
+      "identity": "1703.05385",
+      "arxiv": "1703.05385",
+      "doi": "10.1103/PhysRevD.95.123505",
+      "artifacts": [
+        {
+          "path": "1703.05385-afshordi-gould-skenderis-holographic-cosmology-planck.pdf",
+          "bytes": 4542442,
+          "sha256": "11d2ad05525a74916c6e6fa1feedde13e8c82b7fe87d10bdb0e881f20cd2d22d"
+        }
+      ]
+    },
+    {
+      "module": "constraining-holographic-inflation-with-wmap",
+      "title": "Constraining holographic inflation with WMAP",
+      "identity": "1104.2040",
+      "arxiv": "1104.2040",
+      "doi": "10.1088/1475-7516/2011/09/030",
+      "artifacts": [
+        {
+          "path": "1104.2040-easther-flauger-mcfadden-skenderis-holographic-inflation-wmap.pdf",
+          "bytes": 341296,
+          "sha256": "91e0da5bb9d2f778a79a64255074bf29f6db58d4af2bf7d331a69f0fc9885f61"
+        }
+      ]
+    },
+    {
+      "module": "correlation-functions-in-holographic-rg-flows",
+      "title": "Correlation Functions in Holographic RG Flows",
+      "identity": "hep-th/0407071",
+      "arxiv": "hep-th/0407071",
+      "doi": "10.1088/1126-6708/2004/10/075",
+      "artifacts": [
+        {
+          "path": "0407071-papadimitriou-skenderis-holographic-rg-flow-correlators.pdf",
+          "bytes": 360311,
+          "sha256": "1c30d44ea2b06a47cb1d6d268e4d6dc1c28318f42964eaa8b5c6357d30cf640f"
+        }
+      ]
+    },
+    {
+      "module": "cosmological-3-point-correlators-from-holography",
+      "title": "Cosmological 3-point correlators from holography",
+      "identity": "1104.3894",
+      "arxiv": "1104.3894",
+      "doi": "10.1088/1475-7516/2011/06/030",
+      "artifacts": [
+        {
+          "path": "1104.3894-mcfadden-skenderis-cosmological-three-point-correlators.pdf",
+          "bytes": 423825,
+          "sha256": "ae83dc2653b1959844ee0126005e491e0b69bcf259e0e8e570466e9d2d75bcb5"
+        }
+      ]
+    },
+    {
+      "module": "cosmological-constant-and-general-covariance",
+      "title": "The Cosmological Constant and General Covariance",
+      "identity": "doi:10.1016/0370-2693(89",
+      "arxiv": null,
+      "doi": "10.1016/0370-2693(89",
+      "artifacts": []
+    },
+    {
+      "module": "cosmological-horizons-and-reconstruction-of-quantum-field-theories",
+      "title": "Cosmological horizons and reconstruction of quantum field theories",
+      "identity": "0712.1770",
+      "arxiv": "0712.1770",
+      "doi": "10.1007/s00220-008-0653-8",
+      "artifacts": [
+        {
+          "path": "0712.1770-dappiaggi-moretti-pinamonti-cosmological-horizons-qft.pdf",
+          "bytes": 481160,
+          "sha256": "d3fd64682a3cdec79c87256142c9a8a3b335f44d82f97566bd7c3e5385eb551e"
+        }
+      ]
+    },
+    {
+      "module": "cosmological-perturbation-theory-in-the-synchronous-and-conformal-newtonian-gauges",
+      "title": "Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges",
+      "identity": "astro-ph/9506072",
+      "arxiv": "astro-ph/9506072",
+      "doi": "10.1086/176550",
+      "artifacts": [
+        {
+          "path": "1995-ma-bertschinger-cosmological-perturbation-theory.pdf",
+          "bytes": 710665,
+          "sha256": "8893f63227cbf374853265e43d62af19a1ba726e7e0b0b575fdeed5fb0c0575a"
+        }
+      ]
+    },
+    {
+      "module": "counterexample-to-the-jacobian-conjecture",
+      "title": "A Counterexample to the Jacobian Conjecture",
+      "identity": "url:https://www.ulam.ai/research/jacobian.pdf",
+      "arxiv": null,
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "counterexamples-to-the-jacobian-conjecture",
+      "title": "Counterexamples to the Jacobian conjecture in dimensions greater than two",
+      "identity": "2608.00222",
+      "arxiv": "2608.00222",
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "covariant-cq-path-integrals",
+      "title": "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time",
+      "identity": "doi:10.1103/2rcd-dzcf",
+      "arxiv": null,
+      "doi": "10.1103/2rcd-dzcf",
+      "artifacts": [
+        {
+          "path": "oppenheim-weller-davies-covariant-cq-path-integrals.pdf",
+          "bytes": 516091,
+          "sha256": "06e22a592c77a85db997b0a78c6ec5e6ca1bb0e76a2a4cf0d8e64aec0c3463e7"
+        }
+      ]
+    },
+    {
+      "module": "dark-energy-survey-supernova-program-reanalysis",
+      "title": "The Dark Energy Survey Supernova Program: A Reanalysis of Cosmology Results and Evidence for Evolving Dark Energy with an Updated Type Ia Supernova Calibration",
+      "identity": "doi:10.1093/mnras/stag632",
+      "arxiv": null,
+      "doi": "10.1093/mnras/stag632",
+      "artifacts": []
+    },
+    {
+      "module": "de-sitter-observables-algebra",
+      "title": "An Algebra of Observables for de Sitter Space",
+      "identity": "arxiv:2206.10780",
+      "arxiv": "2206.10780",
+      "doi": "10.1007/JHEP02(2023",
+      "artifacts": [
+        {
+          "path": "DeSitter.tex",
+          "bytes": 189302,
+          "sha256": "ddb5c2c1a22926d1e75702c1f0ed242cd3cc23367d1d99714313309120478729"
+        },
+        {
+          "path": "Fig1.pdf",
+          "bytes": 16672,
+          "sha256": "1a8e29aeb8df792387fcc2542b3d41aa88843798e52724933d0002d1012dda8c"
+        },
+        {
+          "path": "Fig1b.png",
+          "bytes": 23458,
+          "sha256": "f69d488abcc6166afac15d7bdb3d1ec62cb691ee26ca374e7e0126fb068bf7aa"
+        },
+        {
+          "path": "Fig2.pdf",
+          "bytes": 1205806,
+          "sha256": "40d7af8ff852922974816d053fa939bd7583d6e9cf9ed7b662403285be8ecc6e"
+        },
+        {
+          "path": "Fig3.pdf",
+          "bytes": 1225021,
+          "sha256": "f382b0c3c201a9e93ca1e73f552712b2ecfd0f3e27cfe8632ec3e34318c91a65"
+        },
+        {
+          "path": "jheppub.sty",
+          "bytes": 10880,
+          "sha256": "73bace1204f13fec57a784774c8b7d39bf404b79b3f0dcdc77180d2d0f12bfe2"
+        }
+      ]
+    },
+    {
+      "module": "deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories",
+      "title": "Deformations of half-sided modular inclusions and non-local chiral field theories",
+      "identity": "2111.03172",
+      "arxiv": "2111.03172",
+      "doi": "10.1007/s00220-022-04324-x",
+      "artifacts": [
+        {
+          "path": "2111.03172-lechner-scotford-half-sided-modular-inclusions.pdf",
+          "bytes": 680594,
+          "sha256": "7a1945480814bd1da3fdc98b8366e33a9bc00e445424f48019797243bf069143"
+        },
+        {
+          "path": "2111.03172-source.tar.gz",
+          "bytes": 38017,
+          "sha256": "a0c9eb2926ebb2bba0b7938cd86798616f429aca386a43a2b9ed38bfc438fffa"
+        }
+      ]
+    },
+    {
+      "module": "desi-dr2-results-ii",
+      "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+      "identity": "2503.14738",
+      "arxiv": "2503.14738",
+      "doi": "10.1103/tr6y-kpc6",
+      "artifacts": []
+    },
+    {
+      "module": "desi-dr2-results-iv",
+      "title": "DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints",
+      "identity": "2607.27410",
+      "arxiv": "2607.27410",
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "determinant-line-bundles-revisited",
+      "title": "Determinant Line Bundles Revisited",
+      "identity": "dg-ga/9505002",
+      "arxiv": "dg-ga/9505002",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "dg-ga-9505002-freed-determinant-line-bundles.pdf",
+          "bytes": 133417,
+          "sha256": "9d98d81eeb6be05d94328a87600cdb2d7477f260fd0527bf5461fd90485c884c"
+        }
+      ]
+    },
+    {
+      "module": "dynamical-locality-and-covariance",
+      "title": "Dynamical locality and covariance: What makes a physical theory the same in all spacetimes?",
+      "identity": "1106.4785",
+      "arxiv": "1106.4785",
+      "doi": "10.1007/s00023-012-0165-0",
+      "artifacts": [
+        {
+          "path": "1106.4785-fewster-verch-dynamical-locality-covariance.pdf",
+          "bytes": 694481,
+          "sha256": "07e4479992b1525d177a2ce8693d6a8e140facffc6180fd8d64810527d16b8e7"
+        }
+      ]
+    },
+    {
+      "module": "ehlers-newtonian-limit",
+      "title": "Editorial Note to: On the Newtonian Limit of Einstein's Theory of Gravitation (by Jürgen Ehlers)",
+      "identity": "1910.12106",
+      "arxiv": "1910.12106",
+      "doi": "10.1007/s10714-019-2623-1",
+      "artifacts": [
+        {
+          "path": "1910.12106-buchert-maedler-ehlers-newtonian-limit.pdf",
+          "bytes": 375690,
+          "sha256": "753062f9dd9817d3df5d352ad2d458aa4befe55173b4129bb65b9b97826c6d1f"
+        }
+      ]
+    },
+    {
+      "module": "emergent-gravity-and-the-dark-universe",
+      "title": "Emergent Gravity and the Dark Universe",
+      "identity": "1611.02269",
+      "arxiv": "1611.02269",
+      "doi": "10.21468/SciPostPhys.2.3.016",
+      "artifacts": [
+        {
+          "path": "1611.02269-source.tar.gz",
+          "bytes": 4407891,
+          "sha256": "e8ae7c5289a42cc8ac3ea2a5bd20e30914866aba502b06f68805f793571762e8"
+        },
+        {
+          "path": "1611.02269-verlinde-emergent-gravity-dark-universe.pdf",
+          "bytes": 3907879,
+          "sha256": "c0e8adcd936f8ba8656fee4415d670027f5bbeb6860ea3ab7527d6f0c2cdd57c"
+        }
+      ]
+    },
+    {
+      "module": "emergent-gravity-in-galaxies-and-in-the-solar-system",
+      "title": "Emergent gravity in galaxies and in the Solar System",
+      "identity": "1702.04358",
+      "arxiv": "1702.04358",
+      "doi": "10.1103/PhysRevD.95.064019",
+      "artifacts": [
+        {
+          "path": "1702.04358-hees-famaey-bertone-galaxies-solar-system.pdf",
+          "bytes": 721267,
+          "sha256": "b579a2091b4a1c812f948372417b1a7a761a29bce2fe65e7db8c3b3f0eacdb6c"
+        },
+        {
+          "path": "1702.04358-source.tar.gz",
+          "bytes": 315135,
+          "sha256": "84c7b404c50635dfddd3b1b3256e9a37bf5f8c8287dee0608409c7ee4436854d"
+        }
+      ]
+    },
+    {
+      "module": "endomorphisms-and-automorphisms-of-locally-covariant-quantum-field-theories",
+      "title": "Endomorphisms and automorphisms of locally covariant quantum field theories",
+      "identity": "1201.3295",
+      "arxiv": "1201.3295",
+      "doi": "10.1142/S0129055X13500086",
+      "artifacts": [
+        {
+          "path": "1201.3295-fewster-locally-covariant-automorphisms.pdf",
+          "bytes": 625041,
+          "sha256": "7ebb550020c214a6a3e6ba91fe3686a6a4afaf3208d7a6c09b80a7a72f61444d"
+        }
+      ]
+    },
+    {
+      "module": "entanglement-entropy-excited-states-einstein-equation",
+      "title": "Entanglement entropy of excited states in conformal perturbation theory and the Einstein equation",
+      "identity": "1602.01380",
+      "arxiv": "1602.01380",
+      "doi": "10.1007/JHEP04(2016)105",
+      "artifacts": [
+        {
+          "path": "1602.01380-source.tar.gz",
+          "bytes": 274120,
+          "sha256": "bc73c6c1be34112a4b8a7d9cf79594dd0c11a1b56ae1fce0f183986cc84fb1c4"
+        },
+        {
+          "path": "1602.01380-speranza-entanglement-excited-states.pdf",
+          "bytes": 954230,
+          "sha256": "24f9bbe7fb1b631517a7ad29199e3804cf82ed6571abc96b5db75652786db8b7"
+        }
+      ]
+    },
+    {
+      "module": "entanglement-equilibrium-and-the-einstein-equation",
+      "title": "Entanglement Equilibrium and the Einstein Equation",
+      "identity": "1505.04753",
+      "arxiv": "1505.04753",
+      "doi": "10.1103/PhysRevLett.116.201101",
+      "artifacts": [
+        {
+          "path": "1505.04753-jacobson-entanglement-equilibrium-einstein-equation.pdf",
+          "bytes": 394757,
+          "sha256": "5269c0e7ff5e2e14bed7f753757e9927a4dd42f5a4b87b06d4481ed15c71c194"
+        },
+        {
+          "path": "1505.04753-source.tar.gz",
+          "bytes": 50994,
+          "sha256": "b21d87e7aa4fd4533b988c74b7e4a0dbc0a33cc970ab7f72468ae69c0a3428ce"
+        },
+        {
+          "path": "1505.04753v1-jacobson-entanglement-equilibrium-historical.pdf",
+          "bytes": 144703,
+          "sha256": "1b3fa62df275fecb1a13364126b9fb93ef1a322c2d47ef918483844d1e579178"
+        },
+        {
+          "path": "1505.04753v1-source.tar.gz",
+          "bytes": 23913,
+          "sha256": "cc56e2da31e26263b8d3466942ee40b62e1045c179df9d3cd9b15523686bebd5"
+        }
+      ]
+    },
+    {
+      "module": "entanglement-equilibrium-for-higher-order-gravity",
+      "title": "Entanglement equilibrium for higher order gravity",
+      "identity": "1612.04374",
+      "arxiv": "1612.04374",
+      "doi": "10.1103/PhysRevD.95.046003",
+      "artifacts": [
+        {
+          "path": "1612.04374-bueno-min-speranza-visser-higher-order-gravity.pdf",
+          "bytes": 809276,
+          "sha256": "fe0962d28a23c4d744ca0918f037ae433139e53b84aa7e17f17bd7ac42ec0b27"
+        },
+        {
+          "path": "1612.04374-source.tar.gz",
+          "bytes": 204935,
+          "sha256": "2f6c6d1b0e7faa64f9e341edced04559dc57b9655d6d69cbe3925599661cf65a"
+        }
+      ]
+    },
+    {
+      "module": "entropic-gravity-entropy-postulate-screens-quantum-mechanics",
+      "title": "On entropic gravity: the entropy postulate, entropy content of screens and relation to quantum mechanics",
+      "identity": "1109.2794",
+      "arxiv": "1109.2794",
+      "doi": "10.1016/j.physletb.2012.04.065",
+      "artifacts": [
+        {
+          "path": "1109.2794-chaichian-oksanen-tureanu-entropic-gravity-entropy-postulate.pdf",
+          "bytes": 224827,
+          "sha256": "b4f6fed216d63e6522611f58e147722d469613b02561d19477f946d48fe3fc8a"
+        },
+        {
+          "path": "1109.2794-source.tar.gz",
+          "bytes": 16605,
+          "sha256": "e58732d5be9ea65ce84ec1d3ea79ee2a01af7926779768285b3dccd42e232396"
+        }
+      ]
+    },
+    {
+      "module": "equilibrium-to-einstein-entanglement-thermodynamics-and-gravity",
+      "title": "Equilibrium to Einstein: Entanglement, Thermodynamics, and Gravity",
+      "identity": "1810.12236",
+      "arxiv": "1810.12236",
+      "doi": "10.1103/PhysRevD.99.086006",
+      "artifacts": [
+        {
+          "path": "1810.12236-source.tar.gz",
+          "bytes": 197572,
+          "sha256": "39f1cb309552135f3fb65f2e516dc9569ebd2ab2f4db3d857629c8b2cf8ba8d3"
+        },
+        {
+          "path": "1810.12236-svesko-equilibrium-to-einstein.pdf",
+          "bytes": 732010,
+          "sha256": "8e4c0e0751228c2f19d1810fbca4b31b136ddb2381de6bf3d666c6c578c732f3"
+        }
+      ]
+    },
+    {
+      "module": "existence-of-local-covariant-time-ordered-products",
+      "title": "Existence of Local Covariant Time Ordered Products of Quantum Fields in Curved Spacetime",
+      "identity": "gr-qc/0111108",
+      "arxiv": "gr-qc/0111108",
+      "doi": "10.1007/s00220-002-0719-y",
+      "artifacts": [
+        {
+          "path": "0111108-hollands-wald-existence-local-covariant-time-ordered-products.pdf",
+          "bytes": 420732,
+          "sha256": "a09fbe7200f9f9b2ea7772ec23e09165a2d5f224da3c3ebf760d6f453ba0ce39"
+        }
+      ]
+    },
+    {
+      "module": "explicit-quantum-calculations-teq",
+      "title": "Explicit Quantum Calculations from Entropy Geometry: Worked Examples in the TEQ Framework",
+      "identity": "doi:10.20944/preprints202506.1187.v1",
+      "arxiv": null,
+      "doi": "10.20944/preprints202506.1187.v1",
+      "artifacts": [
+        {
+          "path": "preprints202506.1187.v1.pdf",
+          "bytes": 890521,
+          "sha256": "1da03c1b9e6e850b5639f8f3da3fe9ce52eb4efff8f33986db1781337a765e21"
+        }
+      ]
+    },
+    {
+      "module": "extension-of-borchers-structure-theorem",
+      "title": "Extension of the structure theorem of Borchers and its application to half-sided modular inclusions",
+      "identity": "math/0412061",
+      "arxiv": "math/0412061",
+      "doi": "10.1142/S0129055X05002388",
+      "artifacts": [
+        {
+          "path": "math-0412061-araki-zsido-borchers-half-sided-modular-inclusions.pdf",
+          "bytes": 549422,
+          "sha256": "14e3c8961c3fd6323c3e6d8635c4c420ee09493d94e228574e44261456068a14"
+        },
+        {
+          "path": "math-0412061-source.tar.gz",
+          "bytes": 47117,
+          "sha256": "caf269938cbda924e16999129c0f3660bc2408517d89a0104bcfbb3d94e1efaa"
+        }
+      ]
+    },
+    {
+      "module": "field-equations-and-particle-motion-in-covariant-emergent-gravity",
+      "title": "Field equations and particle motion in covariant emergent gravity",
+      "identity": "1806.03807",
+      "arxiv": "1806.03807",
+      "doi": "10.1103/PhysRevD.98.124029",
+      "artifacts": [
+        {
+          "path": "1806.03807-lim-wang-field-equations-covariant-emergent-gravity.pdf",
+          "bytes": 451795,
+          "sha256": "4c07b1cd3a83d126ec28d47e50d04fb0772ac1b11c90db4f72280b9a36417907"
+        },
+        {
+          "path": "1806.03807-source.tar.gz",
+          "bytes": 335133,
+          "sha256": "e818215f88da39d820263dd3a2f51286d98d186b9bd10ed354a87bda9111ad35"
+        }
+      ]
+    },
+    {
+      "module": "fine-structure-constant-from-first-principles",
+      "title": "The Fine-Structure Constant from First Principles: A Geometric Derivation",
+      "identity": "doi:10.2139/ssrn.6093146",
+      "arxiv": null,
+      "doi": "10.2139/ssrn.6093146",
+      "artifacts": [
+        {
+          "path": "ssrn-6093146-paquet-fine-structure-constant-first-principles.pdf",
+          "bytes": 852345,
+          "sha256": "3b4de005180ca75066ba5ea12e4cd81caaa671fa986b3594770647bda735e4ec"
+        }
+      ]
+    },
+    {
+      "module": "first-weak-lensing-test-of-emergent-gravity",
+      "title": "First test of Verlinde's theory of Emergent Gravity using Weak Gravitational Lensing measurements",
+      "identity": "1612.03034",
+      "arxiv": "1612.03034",
+      "doi": "10.1093/mnras/stw3192",
+      "artifacts": [
+        {
+          "path": "1612.03034-brouwer-et-al-first-weak-lensing-test.pdf",
+          "bytes": 923013,
+          "sha256": "63246e522f56949830372d00fd556ec62e3f2dc883f2bf11f12e0fe29d3d139c"
+        },
+        {
+          "path": "1612.03034-source.tar.gz",
+          "bytes": 745889,
+          "sha256": "43a161cc8ed5b2ed2a83874a5ae643bf86929a09c86341506e84a6ada5bef1e5"
+        }
+      ]
+    },
+    {
+      "module": "fractional-conformal-laplacians-and-fractional-yamabe-problems",
+      "title": "Fractional conformal Laplacians and fractional Yamabe problems",
+      "identity": "1012.0579",
+      "arxiv": "1012.0579",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1012.0579-gonzalez-qing-fractional-conformal-laplacians-yamabe.pdf",
+          "bytes": 443664,
+          "sha256": "f8556895d1a83c16445277b4dfa815c9aff2e7de1428df8414a8d9d3d5104a28"
+        }
+      ]
+    },
+    {
+      "module": "fractional-laplacian-in-conformal-geometry",
+      "title": "Fractional Laplacian in Conformal Geometry",
+      "identity": "1003.0398",
+      "arxiv": "1003.0398",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1003.0398-chang-gonzalez-fractional-laplacian-conformal-geometry.pdf",
+          "bytes": 201927,
+          "sha256": "f23a0d2a559ab3c929e48c59090317fa58cdb69961bef81a4e646c5ce7e78869"
+        }
+      ]
+    },
+    {
+      "module": "from-ncg-to-random-matrix-theory",
+      "title": "From Noncommutative Geometry to Random Matrix Theory",
+      "identity": "arxiv:2204.14216",
+      "arxiv": "2204.14216",
+      "doi": "10.1088/1751-8121/ac8fc5",
+      "artifacts": [
+        {
+          "path": "convolution.eps",
+          "bytes": 61573,
+          "sha256": "fb2a183a8a95d3b96ca06c03e19b35e6a5272beb835a173984975d933b9e5237"
+        },
+        {
+          "path": "convolution.pdf",
+          "bytes": 8720,
+          "sha256": "1cd1f6cd6b7b11e0969971892acff3be20674914622a7d032ca855d1ded846e7"
+        },
+        {
+          "path": "Cubic_Dirac.jpg",
+          "bytes": 60297,
+          "sha256": "be1c24b048a6dc4214954e29a47779ff5ee7729dc52fe9dbbfad4fc10a50a59a"
+        },
+        {
+          "path": "Curve20.pdf",
+          "bytes": 3270580,
+          "sha256": "eca984cb2dacd29adc646bdc8a85f2a085db8bc47a4083ab93af2f90ee974b0f"
+        },
+        {
+          "path": "DOS1cut.eps",
+          "bytes": 108313,
+          "sha256": "08ad25e3dabca9f3ff823dc56602cd106e9bea1c97faa169899e09c900fdf75c"
+        },
+        {
+          "path": "DOS1cut.pdf",
+          "bytes": 20220,
+          "sha256": "76227912ee4c8250ba235324e0377f7a223074d49146ccb21a935bb7ac07c38d"
+        },
+        {
+          "path": "DOS2cut.eps",
+          "bytes": 111821,
+          "sha256": "b9ee82b260f70cb18a14a92dd5e957a92938eb1df9ff8d767d9cfaf1c9fbd861"
+        },
+        {
+          "path": "DOS2cut.pdf",
+          "bytes": 20990,
+          "sha256": "93d39568a4648dbd007648e63d83769a845a037757060f8d07da894103358c30"
+        },
+        {
+          "path": "DOSDirac1.pdf",
+          "bytes": 16530,
+          "sha256": "aa1b5fb77d1e6e8854e34ca0813381a5eb790b5fb8412c2a2936b835eb7bb16a"
+        },
+        {
+          "path": "DOSDirac1cut.eps",
+          "bytes": 88944,
+          "sha256": "d1edd1df578f73ac033f69d5b137b308b1cc974c8dbc4baee37dffccf357c7b6"
+        },
+        {
+          "path": "DOSDirac1cut.pdf",
+          "bytes": 16530,
+          "sha256": "22984e02ebb13fa14ea94e92e9cdcddc26dadc7b7e233169500c5c7aab9af16f"
+        },
+        {
+          "path": "DOSDirac2cut.eps",
+          "bytes": 89956,
+          "sha256": "48f482e799b57d41267b6b3e06be56f2b7f4b07e24e73b0e436b77a854432e12"
+        },
+        {
+          "path": "DOSDirac2cut.pdf",
+          "bytes": 15445,
+          "sha256": "30c01174bc45ec22eafb1be739bac7dcbd3eed3ccf2ea21dffcc60bb0e5b838e"
+        },
+        {
+          "path": "HexicDiracplot.eps",
+          "bytes": 95963,
+          "sha256": "07855be55ecb3e049bae205f3df768e26ccdab7e363fc3737b8be158a19428f1"
+        },
+        {
+          "path": "HexicDiracplot.pdf",
+          "bytes": 18301,
+          "sha256": "b0e8570dda8058972a284ae757f7d2f85eb69262157e546a65cf448475a22fd4"
+        },
+        {
+          "path": "Hexicplot.eps",
+          "bytes": 112407,
+          "sha256": "05b7776ddc8b0746e956a588fd8ce405c850516e09ad1f1b383980b4e433f78d"
+        },
+        {
+          "path": "Hexicplot.pdf",
+          "bytes": 20947,
+          "sha256": "67575f2d7137d9c8c4db2c1d6bfcd673fc678749756ae5b1aa992530a120f221"
+        },
+        {
+          "path": "Line20.pdf",
+          "bytes": 1019900,
+          "sha256": "dd67d1626247fdf58365ff10eaa12370a513838c412e877cf0e493beab59029d"
+        },
+        {
+          "path": "quad.png",
+          "bytes": 50376,
+          "sha256": "ec21ce384df497b935515b2741f61058e86e4539a834704e5ee955aa7c237e22"
+        },
+        {
+          "path": "Quartic_phase_diagram.eps",
+          "bytes": 155805,
+          "sha256": "78bf6a2eea7422cef48185d20ac07dd272a0a7efa59fd48b159477523a42e81c"
+        },
+        {
+          "path": "Quartic_phase_diagram.pdf",
+          "bytes": 39638,
+          "sha256": "adc7d3680c83461d01d336d3f725f8d4623671f2fe59c95a1f6a8a9cdab7b977"
+        },
+        {
+          "path": "Spectral_est.PNG",
+          "bytes": 102602,
+          "sha256": "43fb8d07c1d6d9d924bdd52f2ddbcf8c63c635923626331dbe5a6cd5dad873d7"
+        },
+        {
+          "path": "stuffed.png",
+          "bytes": 72871,
+          "sha256": "37e3f3173112f9d6fe100141dbd7aa9b5f925f5b7cc02fb832c6ec0a5ace84de"
+        },
+        {
+          "path": "survey_v3.tex",
+          "bytes": 124214,
+          "sha256": "1f97d706c1101eece3c2c548f053a67ca356c80d34fdebdd0b4a509765e4dfa6"
+        }
+      ]
+    },
+    {
+      "module": "functoriality-of-connes-takesaki-flow-of-weights",
+      "title": "A Remark on the Functoriality of the Connes--Takesaki Flow of Weights",
+      "identity": null,
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "elliott-2021-functoriality-connes-takesaki-flow.pdf",
+          "bytes": 352933,
+          "sha256": "d07539e04c556b2b8c44db27526329921686244e17eca7ac208113703e796dec"
+        }
+      ]
+    },
+    {
+      "module": "fundamental-constants",
+      "title": "Fundamental Constants",
+      "identity": "0708.4361",
+      "arxiv": "0708.4361",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "0708.4361-source.tar.gz",
+          "bytes": 33931,
+          "sha256": "9b37de54a34ef87d7231be58e25ee74925704eaa35307ed848e6f7033155e177"
+        },
+        {
+          "path": "0708.4361-wilczek-fundamental-constants.pdf",
+          "bytes": 296968,
+          "sha256": "18d1eaeebae16dc88917cc644638a46e871067a88352f9b1471bd828f2e8a4a8"
+        }
+      ]
+    },
+    {
+      "module": "gauss-law-and-string-localized-quantum-field-theory",
+      "title": "Gauss' Law and String-Localized Quantum Field Theory",
+      "identity": "1906.09596",
+      "arxiv": "1906.09596",
+      "doi": "10.1007/JHEP01(2020)001",
+      "artifacts": [
+        {
+          "path": "1906.09596-mund-rehren-schroer-gauss-law.pdf",
+          "bytes": 587753,
+          "sha256": "e4bfb4716079426def7ec949ed2dc91f2f78d90a1b917b87d293a226ffd54d26"
+        }
+      ]
+    },
+    {
+      "module": "generalized-entropy-for-general-subregions-in-quantum-gravity",
+      "title": "Generalized entropy for general subregions in quantum gravity",
+      "identity": "2306.01837",
+      "arxiv": "2306.01837",
+      "doi": "10.1007/JHEP12(2023)020",
+      "artifacts": [
+        {
+          "path": "2306.01837-jensen-sorce-speranza-generalized-entropy-subregions.pdf",
+          "bytes": 1499557,
+          "sha256": "8dc4c54dc59ce0d11b03ef5cb08b7986d8df98f6ee9e7c1a52adb7fc2f4840b8"
+        }
+      ]
+    },
+    {
+      "module": "geometries-of-quantum-states",
+      "title": "Geometries of Quantum States",
+      "identity": "preprint:esi-204",
+      "arxiv": null,
+      "doi": "10.1063/1.531535",
+      "artifacts": [
+        {
+          "path": "1995-petz-sudar-geometries-quantum-states-substitute.pdf",
+          "bytes": 218653,
+          "sha256": "2fbdaf46b0e644a9274d5111fc2b8b1b8ef97e06e33d2fe33c61d7039c65f671"
+        }
+      ]
+    },
+    {
+      "module": "geometry-of-the-tangent-bundle",
+      "title": "On the Geometry of the Tangent Bundle",
+      "identity": "doi:10.1515/crll.1962.210.73",
+      "arxiv": null,
+      "doi": "10.1515/crll.1962.210.73",
+      "artifacts": []
+    },
+    {
+      "module": "global-anomalies-in-the-standard-model-s-and-beyond",
+      "title": "Global anomalies in the Standard Model(s) and Beyond",
+      "identity": "1910.11277",
+      "arxiv": "1910.11277",
+      "doi": "10.1007/JHEP07(2020)232",
+      "artifacts": [
+        {
+          "path": "1910.11277-davighi-gripaios-lohitsiri-global-anomalies.pdf",
+          "bytes": 847744,
+          "sha256": "d99463aba52d8a7f6e193f9c3cfecbf8cfbebd437590f081c710bd45699ec0ab"
+        }
+      ]
+    },
+    {
+      "module": "globular-cluster-age",
+      "title": "The Age of the Universe with Globular Clusters: Reducing Systematic Uncertainties",
+      "identity": "2102.04486",
+      "arxiv": "2102.04486",
+      "doi": "10.1088/1475-7516/2021/08/017",
+      "artifacts": []
+    },
+    {
+      "module": "gravitation-and-vacuum-entanglement-entropy",
+      "title": "Gravitation and vacuum entanglement entropy",
+      "identity": "1204.6349",
+      "arxiv": "1204.6349",
+      "doi": "10.1142/S0218271812420060",
+      "artifacts": [
+        {
+          "path": "1204.6349-jacobson-gravitation-vacuum-entanglement-entropy.pdf",
+          "bytes": 120864,
+          "sha256": "dc1e847822097e253e26a09ebb66a2733901681c06e90cb1185268050d37ff86"
+        },
+        {
+          "path": "1204.6349-source.tar.gz",
+          "bytes": 10034,
+          "sha256": "4f038cf938c7a286854aac790f17a613930d3ffbca0c67a6a04390fbcbcad8e1"
+        }
+      ]
+    },
+    {
+      "module": "gravitational-thermodynamics-of-causal-diamonds-in-a-ds",
+      "title": "Gravitational Thermodynamics of Causal Diamonds in (A)dS",
+      "identity": "1812.01596",
+      "arxiv": "1812.01596",
+      "doi": "10.21468/SciPostPhys.7.6.079",
+      "artifacts": [
+        {
+          "path": "1812.01596-jacobson-visser-causal-diamond-thermodynamics.pdf",
+          "bytes": 3132988,
+          "sha256": "7c5f1534b5b50f925ce39977d469749037705b8012175ebef33f90a2055f4edf"
+        },
+        {
+          "path": "1812.01596-source.tar.gz",
+          "bytes": 2341031,
+          "sha256": "f13c0282f66a3ad9222097444b920c95a72add27d14f7d683217b6ddfc292edf"
+        }
+      ]
+    },
+    {
+      "module": "gravity-and-the-crossed-product",
+      "title": "Gravity and the Crossed Product",
+      "identity": "arxiv:2112.12828",
+      "arxiv": "2112.12828",
+      "doi": "10.1007/JHEP10(2022",
+      "artifacts": [
+        {
+          "path": "Algebras.tex",
+          "bytes": 98839,
+          "sha256": "9e0f6ce8ea8ca313bb89cade62cb2d741f5a2c58aa26e94c0f778fc9b79c8e0f"
+        },
+        {
+          "path": "BH2.png",
+          "bytes": 85872,
+          "sha256": "123d2486b450ee9c08b568ba1f5693f767c4bb90323eb47fdf7e2036e2867423"
+        },
+        {
+          "path": "jheppub.sty",
+          "bytes": 10880,
+          "sha256": "73bace1204f13fec57a784774c8b7d39bf404b79b3f0dcdc77180d2d0f12bfe2"
+        }
+      ]
+    },
+    {
+      "module": "gravity-is-not-an-entropic-force",
+      "title": "Gravity is not an entropic force",
+      "identity": "1009.5414",
+      "arxiv": "1009.5414",
+      "doi": "10.1103/PhysRevD.83.021502",
+      "artifacts": [
+        {
+          "path": "1009.5414-kobakhidze-gravity-not-entropic-force.pdf",
+          "bytes": 90015,
+          "sha256": "461fe07ae5a95363034a4ed4167648d9deef87a1ec69705513ce4a74a601af79"
+        },
+        {
+          "path": "1009.5414-source.tar.gz",
+          "bytes": 5934,
+          "sha256": "54c76f1f1deeadc3ec1919fd2055a14de1994be15110c0df26b944ec860abab2"
+        }
+      ]
+    },
+    {
+      "module": "hodge-atoms-spectral-triples-bps",
+      "title": "Relating Hodge Atoms, Spectral Triples, and BPS Flows",
+      "identity": "arxiv:2603.16639",
+      "arxiv": "2603.16639",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "00README.json",
+          "bytes": 227,
+          "sha256": "e4b24a0d090e647da14f3bff6b2f25d854e4cd09993bf89490f24ed12c1d19f6"
+        },
+        {
+          "path": "ext-quiver.pdf",
+          "bytes": 36856,
+          "sha256": "18d9ef6683e258c3020456b806d166c2cf01787ffff55e4b5d2b9ada6ae88b1a"
+        },
+        {
+          "path": "hodge-mvr-20260317.tex",
+          "bytes": 47074,
+          "sha256": "f3d64dbb871dcc61afe0656a08db3cf81bbf8fd648d8fd126d7c81a77f716048"
+        }
+      ]
+    },
+    {
+      "module": "holographic-map-as-conditional-expectation",
+      "title": "The holographic map as a conditional expectation",
+      "identity": "2008.04810",
+      "arxiv": "2008.04810",
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "holographic-renormalization",
+      "title": "Holographic Reconstruction of Spacetime and Renormalization in the AdS/CFT Correspondence",
+      "identity": "hep-th/0002230",
+      "arxiv": "hep-th/0002230",
+      "doi": "10.1007/s002200100381",
+      "artifacts": [
+        {
+          "path": "0002230-de-haro-solodukhin-skenderis-holographic-renormalization.pdf",
+          "bytes": 267538,
+          "sha256": "d00bcb7e2805291925cb30d0e052d6e9ff380d573960373dfb52c32bd975cf96"
+        }
+      ]
+    },
+    {
+      "module": "holography-for-cosmology",
+      "title": "Holography for Cosmology",
+      "identity": "0907.5542",
+      "arxiv": "0907.5542",
+      "doi": "10.1103/PhysRevD.81.021301",
+      "artifacts": [
+        {
+          "path": "0907.5542-mcfadden-skenderis-holography-for-cosmology.pdf",
+          "bytes": 187736,
+          "sha256": "e998d2ca71c4c748402b7c7f89ec6c6251e582afc2e44b328a33a527a707db35"
+        }
+      ]
+    },
+    {
+      "module": "holography-for-inflation-using-conformal-perturbation-theory",
+      "title": "Holography for inflation using conformal perturbation theory",
+      "identity": "1211.4550",
+      "arxiv": "1211.4550",
+      "doi": "10.1007/JHEP04(2013)047",
+      "artifacts": [
+        {
+          "path": "1211.4550-bzowski-mcfadden-skenderis-holography-inflation-cpt.pdf",
+          "bytes": 621335,
+          "sha256": "8963e42d2a67b205b3e18ba03da1c6bd5d60dbc29cd3f3b77c65d08fbb7cb49f"
+        }
+      ]
+    },
+    {
+      "module": "inconsistencies-in-verlinde-s-emergent-gravity",
+      "title": "Inconsistencies in Verlinde's emergent gravity",
+      "identity": "1710.00946",
+      "arxiv": "1710.00946",
+      "doi": "10.1007/JHEP11(2017)007",
+      "artifacts": [
+        {
+          "path": "1710.00946-dai-stojkovic-inconsistencies-verlinde-emergent-gravity.pdf",
+          "bytes": 458641,
+          "sha256": "34a75ab04f06a96c7edf1fe05c1f607c4cd80850841d01bf9154a52d327ff3a4"
+        },
+        {
+          "path": "1710.00946-source.tar.gz",
+          "bytes": 54504,
+          "sha256": "7fd71ce9f4f356ee6b52d8247e6cf7f512b622e42dc8e54faa8ffbb1da2ff8ae"
+        }
+      ]
+    },
+    {
+      "module": "information-and-sufficiency",
+      "title": "On Information and Sufficiency",
+      "identity": "doi:10.1214/aoms/1177729694",
+      "arxiv": null,
+      "doi": "10.1214/aoms/1177729694",
+      "artifacts": []
+    },
+    {
+      "module": "introduction-to-effective-field-theories",
+      "title": "Introduction to Effective Field Theories",
+      "identity": "1804.05863",
+      "arxiv": "1804.05863",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1804.05863-manohar-introduction-effective-field-theories.pdf",
+          "bytes": 2303533,
+          "sha256": "54cc9891912fec15907f7d1ddff5d2b9d6b7d1e97edac229e66c8df2a5f5c437"
+        },
+        {
+          "path": "1804.05863-source.tar.gz",
+          "bytes": 1308727,
+          "sha256": "cb4b77d2f1969dd292e8bbb77e727addbc613f0cf3a2be669e6df319cbf4b918"
+        }
+      ]
+    },
+    {
+      "module": "kids-1000-weak-lensing-radial-acceleration-relation",
+      "title": "The Weak Lensing Radial Acceleration Relation: Constraining Modified Gravity and Cold Dark Matter theories with KiDS-1000",
+      "identity": "2106.11677",
+      "arxiv": "2106.11677",
+      "doi": "10.1051/0004-6361/202040108",
+      "artifacts": [
+        {
+          "path": "2106.11677-brouwer-et-al-kids1000-weak-lensing-rar.pdf",
+          "bytes": 1929988,
+          "sha256": "8345544ac56da355a7ac5afcbfdba9a6c9eb32f4e795e4143979ea727cc86555"
+        },
+        {
+          "path": "2106.11677-source.tar.gz",
+          "bytes": 4691988,
+          "sha256": "43bab5e0b439d459bcd95b8cb48e31e82f50b4b7c5b99bc4e0715843821874be"
+        }
+      ]
+    },
+    {
+      "module": "l0-regularized-high-dimensional-aft-model",
+      "title": "$\\ell_0$-Regularized High-dimensional Accelerated Failure Time Model",
+      "identity": "2002.03318",
+      "arxiv": "2002.03318",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "AFT_SDAR2.9.bbl",
+          "bytes": 7098,
+          "sha256": "9a39e5eff56db23b9534b8aa49fbe46987351eb9152aa45067d0e53100279c23"
+        },
+        {
+          "path": "AFT_SDAR2.9.tex",
+          "bytes": 75029,
+          "sha256": "3bff182ace96de97d2002590921b0e21d5c48f34541ab8c8b9253d9c328ab064"
+        },
+        {
+          "path": "asa.bst",
+          "bytes": 28058,
+          "sha256": "ecec124c52b50391426f7cbf72aa4943a822f9cf13316aaca6b0b780c8bc995c"
+        },
+        {
+          "path": "ECA_jasa.bst",
+          "bytes": 28316,
+          "sha256": "3c7ebfe4636f3fa2eb0c51ceaf128b363a025db6f579879818c8b1d122b2ab7d"
+        },
+        {
+          "path": "example.eps",
+          "bytes": 286,
+          "sha256": "ad73af883a6b796b79ad546597340c033ddf939faf00e74fcf7db3023751efcc"
+        },
+        {
+          "path": "example1.png",
+          "bytes": 46390,
+          "sha256": "f7313b20015c16f66db0ca2ad620abce15a1fbfadf5a556a97486d0e31f4de32"
+        },
+        {
+          "path": "example2.png",
+          "bytes": 35976,
+          "sha256": "bcd686c79a2094ca6f4aa25609fdad2dd503d66dafb93af56d867efc65475614"
+        },
+        {
+          "path": "jasa_harvard.sty",
+          "bytes": 9419,
+          "sha256": "4d07964db39f13860b6ae58c017be19a471b0f4ff7ae05d5a5ef54fa5d16ad7e"
+        },
+        {
+          "path": "JASA_manu.sty",
+          "bytes": 3320,
+          "sha256": "b207d9b0ade68653b7c242a130286b927ed899800d18d860f2703491a87b0a88"
+        },
+        {
+          "path": "spbasic.bst",
+          "bytes": 33238,
+          "sha256": "791ce029f3bf51f57a59f5b74ee4a6d45e05f4d69ac67a70b84fce8a0f2ed297"
+        },
+        {
+          "path": "spmpsci.bst",
+          "bytes": 30130,
+          "sha256": "ad80c3ef28c671efbab5a3c624fe77414733898cff590b1f61ac177ce3334950"
+        },
+        {
+          "path": "spphys.bst",
+          "bytes": 28600,
+          "sha256": "763ca46a4846468618846bcc8a8a431762b714709b635d7306a86788ce2b03bc"
+        },
+        {
+          "path": "svglov3.clo",
+          "bytes": 3809,
+          "sha256": "a0b9f3522e6ef83f3dd8d5901c74745d515355ccd61f0a148668283aabdb5467"
+        },
+        {
+          "path": "svjour3.cls",
+          "bytes": 47679,
+          "sha256": "4b178b506b61a80be013832e00ea277d5eb711af5991ac6ca055887e7b64c37f"
+        }
+      ]
+    },
+    {
+      "module": "linearization-instabilities-and-crossed-products",
+      "title": "Linearization (in)stabilities and crossed products",
+      "identity": "arxiv:2411.19931",
+      "arxiv": "2411.19931",
+      "doi": "10.1007/JHEP05(2025",
+      "artifacts": [
+        {
+          "path": "aas_macros.sty",
+          "bytes": 5890,
+          "sha256": "5f67d3f37c666685a19c4e4f3722fdac9adb95b97c12b4470ad73e64805f54ce"
+        },
+        {
+          "path": "crossed_linearizations.bbl",
+          "bytes": 162183,
+          "sha256": "47a82963db77bb6d9f902ac50b99184425e302efdf492cd2a29e217ab7d5971f"
+        },
+        {
+          "path": "crossed_linearizations.tex",
+          "bytes": 239758,
+          "sha256": "bbe9c4d35eee60ce9b212e146e83f7d6dc978ccba52179e281633de3ce5f6786"
+        },
+        {
+          "path": "jkpaper.cls",
+          "bytes": 15606,
+          "sha256": "d91e0f812c674632a57898b2cbf5f9eaf834130fb1942ccfd1adb0a949a7bbb8"
+        },
+        {
+          "path": "OIST.pdf",
+          "bytes": 6520,
+          "sha256": "c0ebc7698c011383e515d280750bc8ce505e22056fad6c0c4d0ca8db66b8d0ef"
+        },
+        {
+          "path": "refs.bib",
+          "bytes": 92574,
+          "sha256": "381c1168ffa2231f311192a55dce7e650aa877927f06cf18ced2979052f14ea4"
+        }
+      ]
+    },
+    {
+      "module": "local-wick-polynomials-and-time-ordered-products",
+      "title": "Local Wick Polynomials and Time Ordered Products of Quantum Fields in Curved Spacetime",
+      "identity": "gr-qc/0103074",
+      "arxiv": "gr-qc/0103074",
+      "doi": "10.1007/s002200100540",
+      "artifacts": [
+        {
+          "path": "0103074-hollands-wald-local-wick-polynomials-time-ordered-products.pdf",
+          "bytes": 434974,
+          "sha256": "2bf7d2e4c0d70798706da909b2b889cd6c64f2a8b6fc63976b4a22ec9be09eaa"
+        }
+      ]
+    },
+    {
+      "module": "lorentzian-kernel-epistemic-envelope",
+      "title": "The Lorentzian Kernel as an Emergent Epistemic Envelope: Averaging, Resolution, and the Geometry of Distinguishability",
+      "identity": "doi:10.20944/preprints202506.0446.v2",
+      "arxiv": null,
+      "doi": "10.20944/preprints202506.0446.v2",
+      "artifacts": [
+        {
+          "path": "preprints202506.0446.v2.pdf",
+          "bytes": 1057188,
+          "sha256": "c488c04a7cc7e50b488ef78e035f632dd9f2c7513cb66a4aa29f0abc95789bfa"
+        }
+      ]
+    },
+    {
+      "module": "mass-and-gravity-as-dual-readout-sectors",
+      "title": "Mass and Gravity as Dual Readout Sectors of Hamiltonian Structural Dynamics",
+      "identity": null,
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "paper-fbt10a-v2.6.pdf",
+          "bytes": 588878,
+          "sha256": "72064e81a0b67ba4102b3e6d49caa024091ba7dae94527179fa7f9a86539c621"
+        }
+      ]
+    },
+    {
+      "module": "mathematical-foundations-of-theoretical-statistics",
+      "title": "On the Mathematical Foundations of Theoretical Statistics",
+      "identity": "doi:10.1098/rsta.1922.0009",
+      "arxiv": null,
+      "doi": "10.1098/rsta.1922.0009",
+      "artifacts": []
+    },
+    {
+      "module": "microlocal-analysis-and-interacting-qft",
+      "title": "Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds",
+      "identity": "math-ph/9903028",
+      "arxiv": "math-ph/9903028",
+      "doi": "10.1007/s002200050004",
+      "artifacts": [
+        {
+          "path": "9903028-brunetti-fredenhagen-microlocal-renormalization-physical-backgrounds.pdf",
+          "bytes": 443923,
+          "sha256": "13a89d767b72c667c5009b77d276cea342a0939db85e944cd0bd819b3df07da0"
+        }
+      ]
+    },
+    {
+      "module": "minimal-index-and-matrix-dimension-finite-centers",
+      "title": "Minimal index and dimension for 2-$C^*$-categories with finite-dimensional centers",
+      "identity": "1805.09234",
+      "arxiv": "1805.09234",
+      "doi": "10.1007/s00220-018-3266-x",
+      "artifacts": []
+    },
+    {
+      "module": "mixmaster-universe",
+      "title": "Mixmaster Universe",
+      "identity": "doi:10.1103/PhysRevLett.22.1071",
+      "arxiv": null,
+      "doi": "10.1103/PhysRevLett.22.1071",
+      "artifacts": [
+        {
+          "path": "1969-misner-mixmaster-universe.pdf",
+          "bytes": 274534,
+          "sha256": "fff88dc11c82d3d7b4a0f1a9f96966e011e7845d9a12560ba7e03d0eb8dafd4a"
+        }
+      ]
+    },
+    {
+      "module": "modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state",
+      "title": "Modular Hamiltonians on the null plane and the Markov property of the vacuum state",
+      "identity": "1703.10656",
+      "arxiv": "1703.10656",
+      "doi": "10.1088/1751-8121/aa7eaa",
+      "artifacts": [
+        {
+          "path": "1703.10656-casini-teste-torroba-null-plane-modular-hamiltonians.pdf",
+          "bytes": 1169852,
+          "sha256": "f4e0bd693807e97606439b119ce95006c7d9bd017f424e1607b51c3c3e1b1ec0"
+        }
+      ]
+    },
+    {
+      "module": "modular-structure-and-duality-in-conformal-quantum-field-theory",
+      "title": "Modular Structure and Duality in Conformal Quantum Field Theory",
+      "identity": "funct-an/9302008",
+      "arxiv": "funct-an/9302008",
+      "doi": "10.1007/BF02096738",
+      "artifacts": [
+        {
+          "path": "funct-an-9302008-brunetti-guido-longo-modular-structure.pdf",
+          "bytes": 186884,
+          "sha256": "c65fe30ee8493a7a238c7dbc733740e7663701e39cb2988241e8827c17986cb7"
+        }
+      ]
+    },
+    {
+      "module": "monotone-metrics-on-matrix-spaces",
+      "title": "Monotone Metrics on Matrix Spaces",
+      "identity": "doi:10.1016/0024-3795(94)00211-8",
+      "arxiv": null,
+      "doi": "10.1016/0024-3795(94)00211-8",
+      "artifacts": []
+    },
+    {
+      "module": "monotone-riemannian-metrics-and-relative-entropy",
+      "title": "Monotone Riemannian Metrics and Relative Entropy on Non-Commutative Probability Spaces",
+      "identity": "math-ph/9808016",
+      "arxiv": "math-ph/9808016",
+      "doi": "10.1063/1.533053",
+      "artifacts": [
+        {
+          "path": "9808016-lesniewski-ruskai-monotone-riemannian-metrics-relative-entropy.pdf",
+          "bytes": 295449,
+          "sha256": "9f1a14f323d5c560af582dfc5c55bb5c33fc7a7475d1e973d520aaeaf1c9fc43"
+        }
+      ]
+    },
+    {
+      "module": "multi-trace-matrix-models-from-ncg",
+      "title": "Multi-Trace Matrix Models from Noncommutative Geometry",
+      "identity": null,
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "hessam-multi-trace-matrix-models-thesis.pdf",
+          "bytes": 9862403,
+          "sha256": "05363a21839ca0b8409c22eeb46f34cf70a9ce19bdcca2bf102781e48f05f5b6"
+        }
+      ]
+    },
+    {
+      "module": "ncg-standard-model-neutrino-mixing",
+      "title": "Noncommutative Geometry and the standard model with neutrino mixing",
+      "identity": "hep-th/0608226",
+      "arxiv": "hep-th/0608226",
+      "doi": "10.1088/1126-6708/2006/11/081",
+      "artifacts": [
+        {
+          "path": "hep-th-0608226-connes-standard-model-neutrino-mixing.pdf",
+          "bytes": 232387,
+          "sha256": "fe1d2c6f5820cd491096264cc44c3238b8c95d348ea0a19b08b8f6c168d97d08"
+        },
+        {
+          "path": "standard.tex",
+          "bytes": 57955,
+          "sha256": "97d8a2e2b122bef2c2a79c7192e9e079efaa2c0e9c78bf034fdc9fc18a65059b"
+        }
+      ]
+    },
+    {
+      "module": "non-equilibrium-thermodynamics-of-spacetime",
+      "title": "Non-equilibrium Thermodynamics of Spacetime",
+      "identity": "gr-qc/0602001",
+      "arxiv": "gr-qc/0602001",
+      "doi": "10.1103/PhysRevLett.96.121301",
+      "artifacts": [
+        {
+          "path": "gr-qc-0602001-eling-guedens-jacobson-non-equilibrium-thermodynamics-spacetime.pdf",
+          "bytes": 120175,
+          "sha256": "9e893684c773c484d14f221e99f04e4392d8334d9dbe6f9f29d0503c81be0e60"
+        },
+        {
+          "path": "gr-qc-0602001-source.tar.gz",
+          "bytes": 11935,
+          "sha256": "e5e9527acce788792f9998bebb04cc8b6c1c76f2bab0fd3279471ffa8d6f1d64"
+        }
+      ]
+    },
+    {
+      "module": "non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models",
+      "title": "Non-Gaussian features of primordial fluctuations in single field inflationary models",
+      "identity": "astro-ph/0210603",
+      "arxiv": "astro-ph/0210603",
+      "doi": "10.1088/1126-6708/2003/05/013",
+      "artifacts": [
+        {
+          "path": "0210603-maldacena-non-gaussian-features-single-field-inflation.pdf",
+          "bytes": 381315,
+          "sha256": "9e53ded047d679298f21da1cf39bdf30ce1f7d882b20f63230da5fa233d96ce7"
+        }
+      ]
+    },
+    {
+      "module": "noncommutative-flow-of-weights",
+      "title": "The Non-commutative Flow of Weights on a Von Neumann Algebra",
+      "identity": "doi:10.1006/jfan.2000.3718",
+      "arxiv": null,
+      "doi": "10.1006/jfan.2000.3718",
+      "artifacts": [
+        {
+          "path": "falcone-takesaki-noncommutative-flow-of-weights.pdf",
+          "bytes": 342667,
+          "sha256": "6295acda6bc97b08e15ea70bdf7c511e8863b367dcbf5451143ea950e11c9e73"
+        }
+      ]
+    },
+    {
+      "module": "notes-on-some-entanglement-properties-of-quantum-field-theory",
+      "title": "Notes on Some Entanglement Properties of Quantum Field Theory",
+      "identity": "1803.04993",
+      "arxiv": "1803.04993",
+      "doi": "10.1103/RevModPhys.90.045003",
+      "artifacts": [
+        {
+          "path": "1803.04993-witten-entanglement-qft.pdf",
+          "bytes": 935216,
+          "sha256": "65cff9fdf0a7694dea1e1f310511492ef5040fcf9f2c4687379e5083f1a44254"
+        }
+      ]
+    },
+    {
+      "module": "on-desi-dr2-exclusion-of-lambda-cdm",
+      "title": "On DESI's DR2 exclusion of $Λ$CDM",
+      "identity": "2504.15336",
+      "arxiv": "2504.15336",
+      "doi": "10.1093/mnrasl/slaf108",
+      "artifacts": []
+    },
+    {
+      "module": "on-fractional-gjms-operators",
+      "title": "On fractional GJMS operators",
+      "identity": "1406.1846",
+      "arxiv": "1406.1846",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1406.1846-case-chang-fractional-gjms-operators.pdf",
+          "bytes": 507789,
+          "sha256": "2bd044fd13defff0da950ff351921938350a1753088f462bd7052c11bf890dba"
+        }
+      ]
+    },
+    {
+      "module": "on-the-origin-of-gravity-and-the-laws-of-newton",
+      "title": "On the Origin of Gravity and the Laws of Newton",
+      "identity": "1001.0785",
+      "arxiv": "1001.0785",
+      "doi": "10.1007/JHEP04(2011)029",
+      "artifacts": [
+        {
+          "path": "1001.0785-source.tar.gz",
+          "bytes": 515975,
+          "sha256": "5d8b906660fd8e10b5c5020e68661189c00ab2a15c3b7392f8f28df843f65180"
+        },
+        {
+          "path": "1001.0785-verlinde-origin-gravity-laws-newton.pdf",
+          "bytes": 981053,
+          "sha256": "427de7805bac04b97c39a1cbf62766f3739822965ca69e14ace6816b84efcf6c"
+        }
+      ]
+    },
+    {
+      "module": "on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft",
+      "title": "On the power spectrum of inflationary cosmologies dual to a deformed CFT",
+      "identity": "1308.0331",
+      "arxiv": "1308.0331",
+      "doi": "10.1007/JHEP10(2013)071",
+      "artifacts": [
+        {
+          "path": "1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf",
+          "bytes": 502459,
+          "sha256": "953a504ec8556d6dccf06c99129f131ca82acab4337258078386c886c05768fd"
+        }
+      ]
+    },
+    {
+      "module": "operator-algebra-quantum-error-correction",
+      "title": "The Ryu-Takayanagi Formula from Quantum Error Correction",
+      "identity": "1607.03901",
+      "arxiv": "1607.03901",
+      "doi": "10.1007/s00220-017-2904-z",
+      "artifacts": []
+    },
+    {
+      "module": "operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft",
+      "title": "Operator Dictionaries and Wave Functions in AdS/CFT and dS/CFT",
+      "identity": "1104.2621",
+      "arxiv": "1104.2621",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1104.2621-harlow-stanford-operator-dictionaries-wave-functions.pdf",
+          "bytes": 572136,
+          "sha256": "72bd7b645584cd921dd2714cb1e88cafba7a8e205cf1fa9368903317a5d1b37f"
+        }
+      ]
+    },
+    {
+      "module": "operator-valued-weights-without-structure-theory",
+      "title": "Operator Valued Weights Without Structure Theory",
+      "identity": "doi:10.1090/S0002-9947-99-02028-0",
+      "arxiv": null,
+      "doi": "10.1090/S0002-9947-99-02028-0",
+      "artifacts": [
+        {
+          "path": "falcone-takesaki-operator-valued-weights.pdf",
+          "bytes": 344864,
+          "sha256": "b8564a5128cf94c672e763bad1b36f15590d96ae3b592637d43d2a6b82f60e9b"
+        }
+      ]
+    },
+    {
+      "module": "owr-singularity-theory-integrable-systems",
+      "title": "Singularity Theory and Integrable Systems",
+      "identity": "doi:10.4171/OWR/2012/23",
+      "arxiv": null,
+      "doi": "10.4171/OWR/2012/23",
+      "artifacts": [
+        {
+          "path": "10.4171-owr-2012-23.pdf",
+          "bytes": 460884,
+          "sha256": "6aa8efadec5d4bb0dd4200bc1c9223e271cfbc8d912c7dd239b69bef0fd5afb7"
+        }
+      ]
+    },
+    {
+      "module": "pantheon-plus-analysis-cosmological-constraints",
+      "title": "The Pantheon+ Analysis: Cosmological Constraints",
+      "identity": "doi:10.3847/1538-4357/ac8e04",
+      "arxiv": null,
+      "doi": "10.3847/1538-4357/ac8e04",
+      "artifacts": []
+    },
+    {
+      "module": "phantom-cold-dark-matter",
+      "title": "Emergence of Phantom Cold Dark Matter from Spacetime Diffusion",
+      "identity": "arxiv:2407.13820",
+      "arxiv": "2407.13820",
+      "doi": "10.1103/7whh-9j22",
+      "artifacts": [
+        {
+          "path": "00README.json",
+          "bytes": 213,
+          "sha256": "ae59f1b502c492c72407fec1a825c7f2bb4302255088e8566667917e11309217"
+        },
+        {
+          "path": "JHEP.bst",
+          "bytes": 19416,
+          "sha256": "0ff9b99a3d5569708d99aac326bc382dbe0c4ddf051fb833613a8faadeb8c122"
+        },
+        {
+          "path": "jheppub2.sty",
+          "bytes": 11784,
+          "sha256": "e0379c12ff7f1384a20ed6c7385f0a53128bd07ac5374e03c742aa4fa79cd630"
+        },
+        {
+          "path": "PCDM.bib",
+          "bytes": 201202,
+          "sha256": "488beac1c9d9205a80c5a32f2ca2bfd45e494bded1f31278bc576074c610fce0"
+        },
+        {
+          "path": "PCDM.tex",
+          "bytes": 93493,
+          "sha256": "e78e18e2d68458140c8dc6475ded34dc01667c25c0cd8c04d069b9f8578ab0a7"
+        }
+      ]
+    },
+    {
+      "module": "planar-algebraic-conditional-expectations",
+      "title": "A Planar Algebraic Description of Conditional Expectations",
+      "identity": "arxiv:2111.04488",
+      "arxiv": "2111.04488",
+      "doi": "10.1142/S0129167X22500379",
+      "artifacts": [
+        {
+          "path": "condexp-IJM.tex",
+          "bytes": 98156,
+          "sha256": "f2ad99b98bb456e93201d8820ed0252241eb889d17510e685a8121fd19c00d2c"
+        }
+      ]
+    },
+    {
+      "module": "planck-2018-cosmological-parameters",
+      "title": "Planck 2018 results. VI. Cosmological parameters",
+      "identity": "1807.06209",
+      "arxiv": "1807.06209",
+      "doi": "10.1051/0004-6361/201833910",
+      "artifacts": []
+    },
+    {
+      "module": "planck-2018-results-ix-constraints-on-primordial-non-gaussianity",
+      "title": "Planck 2018 results. IX. Constraints on primordial non-Gaussianity",
+      "identity": "1905.05697",
+      "arxiv": "1905.05697",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1905.05697-planck-2018-primordial-non-gaussianity.pdf",
+          "bytes": 7470463,
+          "sha256": "f64ebce0b7470633ecd17425ce848295478a3dfcfe6516225451436be6ebdf99"
+        }
+      ]
+    },
+    {
+      "module": "planck-2018-results-x-constraints-on-inflation",
+      "title": "Planck 2018 results. X. Constraints on inflation",
+      "identity": "1807.06211",
+      "arxiv": "1807.06211",
+      "doi": "10.1051/0004-6361/201833887",
+      "artifacts": [
+        {
+          "path": "1807.06211-planck-2018-inflation.pdf",
+          "bytes": 12726432,
+          "sha256": "fa728dc0198ccfddd7132c0e0a29cca586a1431a045568a33d7a197a0427427d"
+        }
+      ]
+    },
+    {
+      "module": "probabilistic-interpretation-of-the-wave-function-for-the-bianchi-i-model",
+      "title": "Probabilistic interpretation of the wave function for the Bianchi I model",
+      "identity": "1704.08502",
+      "arxiv": "1704.08502",
+      "doi": "10.1103/PhysRevD.95.126010",
+      "artifacts": [
+        {
+          "path": "2017-agostini-cianfrani-montani-bianchi-i-internal-time.pdf",
+          "bytes": 182439,
+          "sha256": "33ff52dfb82329f79d4faeea3924e15469b755dcd74ce9a5ab10578ecdc70497"
+        }
+      ]
+    },
+    {
+      "module": "pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence",
+      "title": "Pseudo-Supersymmetry and the Domain-Wall/Cosmology Correspondence",
+      "identity": "hep-th/0610253",
+      "arxiv": "hep-th/0610253",
+      "doi": "10.1088/1751-8113/40/25/S18",
+      "artifacts": [
+        {
+          "path": "0610253-skenderis-townsend-domain-wall-cosmology-correspondence.pdf",
+          "bytes": 122287,
+          "sha256": "ace4ae2ab6857aad11ca9c86e734c472bba19f0ba4d8b5d57b7e37b2ec95510b"
+        }
+      ]
+    },
+    {
+      "module": "quanta-of-geometry",
+      "title": "Quanta of Geometry: Noncommutative Aspects",
+      "identity": "doi:10.1103/PhysRevLett.114.091302",
+      "arxiv": null,
+      "doi": "10.1103/PhysRevLett.114.091302",
+      "artifacts": [
+        {
+          "path": "quanta_of_geometry_prl.tex",
+          "bytes": 28917,
+          "sha256": "e6feeda466b47aa730cc33043bcecfcf72705d74bafb7073ad564db54c28f612"
+        }
+      ]
+    },
+    {
+      "module": "quantized-fields-and-particle-creation-i",
+      "title": "Quantized Fields and Particle Creation in Expanding Universes. I",
+      "identity": "doi:10.1103/PhysRev.183.1057",
+      "arxiv": null,
+      "doi": "10.1103/PhysRev.183.1057",
+      "artifacts": [
+        {
+          "path": "1969-parker-quantized-fields-particle-creation-i.pdf",
+          "bytes": 1380342,
+          "sha256": "7bf14b3f6fee2572178fe0f4dcfa2fc5355af0a563dc65e6fccbb01fa55addea"
+        }
+      ]
+    },
+    {
+      "module": "quantum-anomalies-as-algebraic-curvature",
+      "title": "Quantum Anomalies as Intrinsic Algebraic Curvature: A Unified AQFT Interpretation of Renormalization Ambiguities",
+      "identity": "doi:10.3390/quantum8010003",
+      "arxiv": null,
+      "doi": "10.3390/quantum8010003",
+      "artifacts": [
+        {
+          "path": "quantumrep-08-00003-v2.pdf",
+          "bytes": 733179,
+          "sha256": "f46578c62ab86bd76fa1cd4cab80d7468d621d0cefa0cee54e07c04465f52a54"
+        }
+      ]
+    },
+    {
+      "module": "quantum-contributions-to-cosmological-correlations",
+      "title": "Quantum Contributions to Cosmological Correlations",
+      "identity": "hep-th/0506236",
+      "arxiv": "hep-th/0506236",
+      "doi": "10.1103/PhysRevD.72.043514",
+      "artifacts": [
+        {
+          "path": "0506236-weinberg-quantum-contributions-cosmological-correlations.pdf",
+          "bytes": 300881,
+          "sha256": "d2f84984cd51723e9fa60b673dd8b5b02edb2d9bcad1513f00e3b2ff192b4523"
+        }
+      ]
+    },
+    {
+      "module": "quantum-cosmology-i",
+      "title": "Quantum Cosmology. I",
+      "identity": "doi:10.1103/PhysRev.186.1319",
+      "arxiv": null,
+      "doi": "10.1103/PhysRev.186.1319",
+      "artifacts": [
+        {
+          "path": "1969-misner-quantum-cosmology-i.pdf",
+          "bytes": 916532,
+          "sha256": "4ad7b2a12b5108faa846a013951d15d5f2108c91e5d2e9b57245a07ec48af607"
+        }
+      ]
+    },
+    {
+      "module": "quantum-fields-and-motives",
+      "title": "Quantum Fields and Motives",
+      "identity": "arxiv:hep-th/0504085",
+      "arxiv": "hep-th/0504085",
+      "doi": "10.1016/j.geomphys.2005.04.004",
+      "artifacts": [
+        {
+          "path": "JGPren3.tex",
+          "bytes": 109818,
+          "sha256": "baad54270ea4af09860465c774483cabc1ff09c16c0fa6b2d45f88579d9a14a9"
+        }
+      ]
+    },
+    {
+      "module": "quantum-fields-in-curved-spacetime",
+      "title": "Quantum fields in curved spacetime",
+      "identity": "1401.2026",
+      "arxiv": "1401.2026",
+      "doi": "10.1016/j.physrep.2015.02.001",
+      "artifacts": [
+        {
+          "path": "1401.2026-hollands-wald-qft-curved-spacetime-review.pdf",
+          "bytes": 561777,
+          "sha256": "175e5e2741add92db0f87d5da402d9afa89619074a45dbc85a833540ef082abb"
+        }
+      ]
+    },
+    {
+      "module": "quantum-gravity-coupled-to-matter",
+      "title": "Quantum Gravity Coupled to Matter via Noncommutative Geometry",
+      "identity": "arxiv:1012.0713",
+      "arxiv": "1012.0713",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "AAAcubes.pdf",
+          "bytes": 2533,
+          "sha256": "4ab9de69aadd72b58f1462200234e4cc8e418d977e55bb9d17f315efbd1f4e20"
+        },
+        {
+          "path": "AAAcubes.pdf_t",
+          "bytes": 350,
+          "sha256": "11deb7106277d2176041c7f2110efd0c2c43f6bea539ce4389c3bc391cd2461d"
+        },
+        {
+          "path": "Paper_10.06.28.tex",
+          "bytes": 41059,
+          "sha256": "4b38e4d4a86a1d1c82a61360f04d1ce43b437ade26356c87f98e7cdad2bd8aa6"
+        }
+      ]
+    },
+    {
+      "module": "quantum-reference-frames-local-algebra-types",
+      "title": "Quantum reference frames, measurement schemes and the type of local algebras in quantum field theory",
+      "identity": "arxiv:2403.11973",
+      "arxiv": "2403.11973",
+      "doi": "10.1007/s00220-024-05180-7",
+      "artifacts": [
+        {
+          "path": "paper_springer_v3.bbl",
+          "bytes": 41186,
+          "sha256": "8eb84e64ae059557af4e04e8c36897a356a029d61368096985544577a0283cc4"
+        },
+        {
+          "path": "paper_springer_v3.tex",
+          "bytes": 295763,
+          "sha256": "d39ec7ef0059ebda886da7c2733a4e6313f21a3508ac8033d152a48b9d2b26b9"
+        },
+        {
+          "path": "sn-jnl.cls",
+          "bytes": 55391,
+          "sha256": "847da62001c1240a347f71e833eb1011a23f737ee9cfcf8b3a51835526ae85c1"
+        },
+        {
+          "path": "sn-mathphys-num.bst",
+          "bytes": 64141,
+          "sha256": "9f54bd1e93035022a5a6cfe0d5e0a2b0aedcb762079d3e487befa2bf2ecd1db8"
+        }
+      ]
+    },
+    {
+      "module": "quantum-theory-of-gauge-invariant-cosmological-perturbations",
+      "title": "Quantum Theory of Gauge-Invariant Cosmological Perturbations",
+      "identity": "journal:mukhanov-1988-gauge-invariant-perturbations",
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1988-mukhanov-gauge-invariant-cosmological-perturbations.pdf",
+          "bytes": 270600,
+          "sha256": "909f71295db880f13c86652e1aa0fd0ad136384d292bbf814b144210c515cebf"
+        }
+      ]
+    },
+    {
+      "module": "relative-entropy-and-subalgebra-index",
+      "title": "Relative entropy for von Neumann subalgebras",
+      "identity": "1909.01906",
+      "arxiv": "1909.01906",
+      "doi": "10.1142/S0129167X20500469",
+      "artifacts": []
+    },
+    {
+      "module": "relative-entropy-and-the-bekenstein-bound",
+      "title": "Relative entropy and the Bekenstein bound",
+      "identity": "0804.2182",
+      "arxiv": "0804.2182",
+      "doi": "10.1088/0264-9381/25/20/205021",
+      "artifacts": [
+        {
+          "path": "0804.2182-casini-relative-entropy-bekenstein-bound.pdf",
+          "bytes": 238501,
+          "sha256": "6a393a999383344836ad17276be3475215d99be8652096c6a27d7f506b0d9869"
+        },
+        {
+          "path": "0804.2182-source.tar.gz",
+          "bytes": 65261,
+          "sha256": "5ae09d5a4d6612f7f19ec517a085426262278387b24dc1a12ab665fe4470a096"
+        }
+      ]
+    },
+    {
+      "module": "relative-entropy-equals-bulk-relative-entropy",
+      "title": "Relative entropy equals bulk relative entropy",
+      "identity": "1512.06431",
+      "arxiv": "1512.06431",
+      "doi": "10.1007/JHEP06(2016)004",
+      "artifacts": []
+    },
+    {
+      "module": "relative-entropy-for-states-of-von-neumann-algebras-ii",
+      "title": "Relative Entropy for States of von Neumann Algebras II",
+      "identity": "doi:10.2977/prims/1195190105",
+      "arxiv": null,
+      "doi": "10.2977/PRIMS/1195190105",
+      "artifacts": [
+        {
+          "path": "1977-araki-relative-entropy-von-neumann-algebras-ii.pdf",
+          "bytes": 1301635,
+          "sha256": "664d9f026cde83ad616be6ed72609c940d9642929152e71e3c74dff0cf9b74ee"
+        }
+      ]
+    },
+    {
+      "module": "relative-entropy-of-states-of-von-neumann-algebras",
+      "title": "Relative Entropy of States of von Neumann Algebras",
+      "identity": "doi:10.2977/prims/1195191148",
+      "arxiv": null,
+      "doi": "10.2977/PRIMS/1195191148",
+      "artifacts": [
+        {
+          "path": "1976-araki-relative-entropy-von-neumann-algebras-i.pdf",
+          "bytes": 1705893,
+          "sha256": "5972d76486757d4a5a267a955d9adf0efe763c72769f906c1c2b153702d41763"
+        }
+      ]
+    },
+    {
+      "module": "relative-hamiltonian-for-faithful-normal-states",
+      "title": "Relative Hamiltonian for Faithful Normal States of a von Neumann Algebra",
+      "identity": "doi:10.2977/prims/1195192744",
+      "arxiv": null,
+      "doi": "10.2977/PRIMS/1195192744",
+      "artifacts": [
+        {
+          "path": "1973-araki-relative-hamiltonian-faithful-normal-states.pdf",
+          "bytes": 2839492,
+          "sha256": "08049dcff4e39992d2cc27ad8b9bc8319d259c47dd97f315b095298e8517a7a1"
+        }
+      ]
+    },
+    {
+      "module": "renormalisation-of-postquantum-gravity",
+      "title": "Renormalisation of Postquantum-Classical Gravity",
+      "identity": "arxiv:2402.17844",
+      "arxiv": "2402.17844",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "decoherence-numbers-2024-11-15-Note-08-47.pdf",
+          "bytes": 522792,
+          "sha256": "b75588540f1d5552c6f33f9f182d9c86be907f33b8d94de370b71420bd8bdf35"
+        },
+        {
+          "path": "definitions.tex",
+          "bytes": 9541,
+          "sha256": "f85430ce7e16276121b9d2b54b462b2c72c325fed88b267cc07ddebdf43ca8f0"
+        },
+        {
+          "path": "main.bbl",
+          "bytes": 76473,
+          "sha256": "f69504d6a61a3bdf178b90b643aadbc9c97f4e9fa97ff9bfa6431de463089256"
+        },
+        {
+          "path": "main.tex",
+          "bytes": 164876,
+          "sha256": "0f049536abf08de51d89e39a24324a66622d5efb21251c4c586f91cf7a1f8047"
+        },
+        {
+          "path": "ninecolors.sty",
+          "bytes": 24993,
+          "sha256": "cafaa5689f01a9126ee2b1481358fc1603ba1a865b114c54cea0cb17b8074434"
+        },
+        {
+          "path": "refcq.bib",
+          "bytes": 74168,
+          "sha256": "c053e7b1ae3f9b8b09f4ce1c8902c8fe40dca42d8be4824ce9e4ba7a962bb33e"
+        },
+        {
+          "path": "refRenorm.bib",
+          "bytes": 29216,
+          "sha256": "5e667d732e6e93704c54a0688fdf0f2a8066e084ded5eba58f69dd335cfa0b24"
+        },
+        {
+          "path": "tabularray.sty",
+          "bytes": 248165,
+          "sha256": "856596661aef2376dedb592d091edadb90dcd0691ee3c30e49a2ac90a21d134a"
+        }
+      ]
+    },
+    {
+      "module": "scattering-matrix-in-conformal-geometry",
+      "title": "Scattering Matrix in Conformal Geometry",
+      "identity": "math/0109089",
+      "arxiv": "math/0109089",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "0109089-graham-zworski-scattering-matrix-conformal-geometry.pdf",
+          "bytes": 320671,
+          "sha256": "61886c0766fd614a852a1b60dc9db4ab2e76b054472ab863312bce9e6ed3aa2e"
+        }
+      ]
+    },
+    {
+      "module": "smacs-j0723-test-of-emergent-gravity",
+      "title": "A test of MOND and Emergent Gravity with SMACS J0723.3-7327 using eROSITA observations",
+      "identity": "2401.00707",
+      "arxiv": "2401.00707",
+      "doi": "10.1088/1475-7516/2024/10/030",
+      "artifacts": [
+        {
+          "path": "2401.00707-govind-desai-smacs-j0723-test.pdf",
+          "bytes": 390143,
+          "sha256": "7b6260a06a5f3fefcc47413de8eada268d9caa12cca5d4fcbd24d0e9328a1720"
+        },
+        {
+          "path": "2401.00707-source.tar.gz",
+          "bytes": 98371,
+          "sha256": "cafc1f676c0f563b1b9c6df361286a42b6d0cf4edd26effbfe332bf44604ea94"
+        }
+      ]
+    },
+    {
+      "module": "some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy",
+      "title": "Some Properties of Noether Charge and a Proposal for Dynamical Black Hole Entropy",
+      "identity": "gr-qc/9403028",
+      "arxiv": "gr-qc/9403028",
+      "doi": "10.1103/PhysRevD.50.846",
+      "artifacts": [
+        {
+          "path": "gr-qc-9403028-iyer-wald-noether-charge-dynamical-black-hole-entropy.pdf",
+          "bytes": 314892,
+          "sha256": "eecd25f574d73e7db0e89961db003feccf8de4e413d715a0670f426d4b5b7e7c"
+        },
+        {
+          "path": "gr-qc-9403028-source.tar.gz",
+          "bytes": 30036,
+          "sha256": "ef94dbdce661f771d5a9549550fe45742bf4650c9ca8a7a2a97bd0b89cfb4a99"
+        }
+      ]
+    },
+    {
+      "module": "sparc-mass-models-for-175-disk-galaxies",
+      "title": "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves",
+      "identity": "1606.09251",
+      "arxiv": "1606.09251",
+      "doi": "10.3847/0004-6256/152/6/157",
+      "artifacts": [
+        {
+          "path": "1606.09251-lelli-mcgaugh-schombert-sparc.pdf",
+          "bytes": 2476532,
+          "sha256": "d089215877213661e40965543ee7e05736619082ad16d95e65ec059029588c63"
+        },
+        {
+          "path": "1606.09251-source.tar.gz",
+          "bytes": 801775,
+          "sha256": "792903260765acbb0d2ed5df47bc8f99f97e24da0911527393db7243888bc7fc"
+        }
+      ]
+    },
+    {
+      "module": "standard-model-algebra",
+      "title": "Conceptual Explanation for the Algebra in the Noncommutative Approach to the Standard Model",
+      "identity": "0706.3690",
+      "arxiv": "0706.3690",
+      "doi": "10.1103/PhysRevLett.99.191601",
+      "artifacts": [
+        {
+          "path": "0706.3690-chamseddine-connes-standard-model-algebra.pdf",
+          "bytes": 123846,
+          "sha256": "36e93e47df9c05a95ae767b02ea9e68e3f8694e9eb3622b5b2dea45e730b15b2"
+        }
+      ]
+    },
+    {
+      "module": "standard-model-from-exceptional-jordan-algebra",
+      "title": "The Standard Model Gauge Group from the Exceptional Jordan Algebra",
+      "identity": "arxiv:2606.15235",
+      "arxiv": "2606.15235",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "00README.json",
+          "bytes": 225,
+          "sha256": "d1bfbea7c36b01cdb369a28b7aebfa1f8e2ce99585d6dab2ef4f4997aa2bee3f"
+        },
+        {
+          "path": "standard_arxiv_1.tex",
+          "bytes": 47375,
+          "sha256": "e032340c3b7f9348d94aca0c03b2c66b7e96e197dcf2e23fa76636cddae8746b"
+        }
+      ]
+    },
+    {
+      "module": "statistical-mechanical-theory-of-irreversible-processes-i",
+      "title": "Statistical-Mechanical Theory of Irreversible Processes. I. General Theory and Simple Applications to Magnetic and Conduction Problems",
+      "identity": "doi:10.1143/JPSJ.12.570",
+      "arxiv": null,
+      "doi": "10.1143/JPSJ.12.570",
+      "artifacts": []
+    },
+    {
+      "module": "stochastic-modes-in-postquantum-gravity",
+      "title": "Stochastic Modes in Postquantum Classical Gravity",
+      "identity": "arxiv:2605.05375",
+      "arxiv": "2605.05375",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "00README.json",
+          "bytes": 213,
+          "sha256": "d1f6b1a71c9accb812ec5121d1fff7910c025ca7bb201948bacdb40941bc14e5"
+        },
+        {
+          "path": "cq_unified.bib",
+          "bytes": 278088,
+          "sha256": "73e4bff03d5a9920be66c2799af52254871f7c129bdeab3f1d973f2e47727191"
+        },
+        {
+          "path": "definitions.tex",
+          "bytes": 9707,
+          "sha256": "c78b49006f61cecc394dc3a767ce6aa1cdb7a6fd9ac8be135512c52a814069e8"
+        },
+        {
+          "path": "main.tex",
+          "bytes": 135796,
+          "sha256": "2707dec053f49bfdc8282a241b839e318f776bafb8036940c3ab6c61c078ee41"
+        },
+        {
+          "path": "ninecolors.sty",
+          "bytes": 24993,
+          "sha256": "cafaa5689f01a9126ee2b1481358fc1603ba1a865b114c54cea0cb17b8074434"
+        },
+        {
+          "path": "tabularray.sty",
+          "bytes": 248165,
+          "sha256": "856596661aef2376dedb592d091edadb90dcd0691ee3c30e49a2ac90a21d134a"
+        }
+      ]
+    },
+    {
+      "module": "subregion-algebras-in-classical-and-quantum-gravity",
+      "title": "Subregion algebras in classical and quantum gravity",
+      "identity": "2601.07915",
+      "arxiv": "2601.07915",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2601.07915-chandrasekaran-flanagan-subregion-algebras-gravity.pdf",
+          "bytes": 1524605,
+          "sha256": "b705ab93df9d46a97fa7f9f2714ec8ae2980df85c1b844883ac8f3b8b45a7904"
+        },
+        {
+          "path": "2601.07915-source.tar.gz",
+          "bytes": 169423,
+          "sha256": "1f6228b10e30293a84d51091d8171af26d5e956faa409017081e4480a5398737"
+        }
+      ]
+    },
+    {
+      "module": "testing-emergent-gravity-on-galaxy-cluster-scales",
+      "title": "Testing Emergent Gravity on Galaxy Cluster Scales",
+      "identity": "1901.05505",
+      "arxiv": "1901.05505",
+      "doi": "10.1088/1475-7516/2019/05/053",
+      "artifacts": [
+        {
+          "path": "1901.05505-source.tar.gz",
+          "bytes": 554060,
+          "sha256": "4c21c4b19da0cba6fe251adb3277b86b9887419826f4836f2daf9fd3e43be54f"
+        },
+        {
+          "path": "1901.05505-tamosiunas-et-al-testing-cluster-scales.pdf",
+          "bytes": 1163042,
+          "sha256": "9fe9389ac59c76003b585dcaf697ee04a77cd4a792de64cf9f7fc0ca4cc2e4dc"
+        }
+      ]
+    },
+    {
+      "module": "testing-emergent-gravity-with-isolated-dwarf-galaxies",
+      "title": "Testing Emergent Gravity with Isolated Dwarf Galaxies",
+      "identity": "1706.00785",
+      "arxiv": "1706.00785",
+      "doi": "10.1088/1475-7516/2020/12/012",
+      "artifacts": [
+        {
+          "path": "1706.00785-pardo-testing-emergent-gravity-dwarfs.pdf",
+          "bytes": 429581,
+          "sha256": "9059839ef78ced953e5bdb1d2bba7a6bd07195f2ac8725b7952259d4cdd1c4ec"
+        },
+        {
+          "path": "1706.00785-source.tar.gz",
+          "bytes": 106224,
+          "sha256": "8d853f47a69e1384b39344ddb32f3fca978d8501462dab15e86cbd9938a9a15b"
+        }
+      ]
+    },
+    {
+      "module": "testing-emergent-gravity-with-mass-densities-of-galaxy-clusters",
+      "title": "Testing emergent gravity with mass densities of galaxy clusters",
+      "identity": "1807.01689",
+      "arxiv": "1807.01689",
+      "doi": "10.1103/PhysRevD.102.084007",
+      "artifacts": [
+        {
+          "path": "1807.01689-halenka-miller-testing-cluster-mass-densities.pdf",
+          "bytes": 1567896,
+          "sha256": "1f27141855b450a87cd351ad1673eea7c6ef411abbd6d5177b89790057e87656"
+        },
+        {
+          "path": "1807.01689-source.tar.gz",
+          "bytes": 1336385,
+          "sha256": "762d8ea3a43b2ac276c3d6f3794c57a4c964c9d564f2f590c01e259ff42997c6"
+        }
+      ]
+    },
+    {
+      "module": "testing-verlinde-s-emergent-gravity-in-early-type-galaxies",
+      "title": "Testing Verlinde's emergent gravity in early-type galaxies",
+      "identity": "1702.08865",
+      "arxiv": "1702.08865",
+      "doi": "10.1093/mnras/stx2432",
+      "artifacts": [
+        {
+          "path": "1702.08865-source.tar.gz",
+          "bytes": 258508,
+          "sha256": "21bbf1ca6d4f2013f32f5decdfbb26737808e87b8ebc87152fd9fa1156c421f1"
+        },
+        {
+          "path": "1702.08865-tortora-et-al-early-type-galaxies.pdf",
+          "bytes": 905662,
+          "sha256": "21a2f7b31d34a718291a633523bdbf928204107b07d9faa6e099f9b8714b63f5"
+        }
+      ]
+    },
+    {
+      "module": "testing-verlinde-s-emergent-gravity-with-the-radial-acceleration-relation",
+      "title": "Testing Verlinde's Emergent Gravity with the Radial Acceleration Relation",
+      "identity": "1702.04355",
+      "arxiv": "1702.04355",
+      "doi": "10.1093/mnrasl/slx031",
+      "artifacts": [
+        {
+          "path": "1702.04355-lelli-mcgaugh-schombert-testing-verlinde-rar.pdf",
+          "bytes": 631366,
+          "sha256": "c21fee09df7a456b49a97cc61f1e63965d9e50148eca67365b21907f3b844559"
+        },
+        {
+          "path": "1702.04355-source.tar.gz",
+          "bytes": 256568,
+          "sha256": "16024adad660a614a0f681d6d771e8795be96f9387422de5881403f0badd8c85"
+        }
+      ]
+    },
+    {
+      "module": "the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime",
+      "title": "The 1-loop effective potential for the Standard Model in curved spacetime",
+      "identity": "1804.02020",
+      "arxiv": "1804.02020",
+      "doi": "10.1007/JHEP06(2018)040",
+      "artifacts": [
+        {
+          "path": "1804.02020-markkanen-sm-curved-spacetime.pdf",
+          "bytes": 1077459,
+          "sha256": "20945e84500565823f08cfe01f1e1cc14144514c937686cf273d92a4368b644c"
+        }
+      ]
+    },
+    {
+      "module": "the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological-models",
+      "title": "The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models",
+      "identity": "2503.14454",
+      "arxiv": "2503.14454",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2503.14454-act-dr6-extended-cosmological-models.pdf",
+          "bytes": 12777641,
+          "sha256": "cabf9bef8c2489581e412b33fb0ccdbed6f96eb9c886a81563e749b449df0cf7"
+        }
+      ]
+    },
+    {
+      "module": "the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics",
+      "title": "The generally covariant locality principle -- A new paradigm for local quantum physics",
+      "identity": "math-ph/0112041",
+      "arxiv": "math-ph/0112041",
+      "doi": "10.1007/s00220-003-0815-7",
+      "artifacts": [
+        {
+          "path": "0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf",
+          "bytes": 442528,
+          "sha256": "7b3b2852a16ef2a1a6a128ba2a51b3358853ee03b7a03481490f648b353a42d4"
+        }
+      ]
+    },
+    {
+      "module": "the-mixmaster-cosmological-metrics",
+      "title": "The Mixmaster cosmological metrics",
+      "identity": "gr-qc/9405068",
+      "arxiv": "gr-qc/9405068",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "1994-misner-mixmaster-cosmological-metrics-arxiv-source.tar.gz",
+          "bytes": 24715,
+          "sha256": "0c325385b252406b947b2f09090cf7c2b1719f65e6df75c39b7d54ce3c42c1e8"
+        },
+        {
+          "path": "9405068.tex",
+          "bytes": 56259,
+          "sha256": "52e21fde5c04b04e4c0b5bf2a0995b72030816962707d1aea86d35bbb9d7f33b"
+        },
+        {
+          "path": "fig1-1.png",
+          "bytes": 1649,
+          "sha256": "bf91b01e7a84b1fcebc3a9d58ddcc94d0e300940d0f2c0991df24c200121c804"
+        },
+        {
+          "path": "mix.ps",
+          "bytes": 6520,
+          "sha256": "a1def7da973940bb7940e895b9e237ed30630dc2048251dd1f1e2e898d5bcb00"
+        }
+      ]
+    },
+    {
+      "module": "the-radial-acceleration-relation-in-rotationally-supported-galaxies",
+      "title": "The Radial Acceleration Relation in Rotationally Supported Galaxies",
+      "identity": "1609.05917",
+      "arxiv": "1609.05917",
+      "doi": "10.1103/PhysRevLett.117.201101",
+      "artifacts": [
+        {
+          "path": "1609.05917-mcgaugh-lelli-schombert-radial-acceleration-relation.pdf",
+          "bytes": 563393,
+          "sha256": "80357e5b689f1ae7c087359ff936a4543ad09bd4619498026d9e0bcf828fe8a8"
+        },
+        {
+          "path": "1609.05917-source.tar.gz",
+          "bytes": 164725,
+          "sha256": "e2388620c02cacbcb3935e4c5db3b348a11f56702ffc630b08f8ccf430c4cba7"
+        }
+      ]
+    },
+    {
+      "module": "the-tenfold-way",
+      "title": "The Tenfold Way",
+      "identity": "arxiv:2011.14234",
+      "arxiv": "2011.14234",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "tenfold_arxiv_1.tex",
+          "bytes": 19578,
+          "sha256": "49a5748f2b0a499198b3dbc8769e7d7dca686794de3f261bc6845f9eaf793157"
+        }
+      ]
+    },
+    {
+      "module": "thermodynamics-of-spacetime-the-einstein-equation-of-state",
+      "title": "Thermodynamics of Spacetime: The Einstein Equation of State",
+      "identity": "gr-qc/9504004",
+      "arxiv": "gr-qc/9504004",
+      "doi": "10.1103/PhysRevLett.75.1260",
+      "artifacts": [
+        {
+          "path": "gr-qc-9504004-jacobson-thermodynamics-of-spacetime.pdf",
+          "bytes": 90623,
+          "sha256": "85ed65e912baf62c27923dbf0e4b420ed444c4a253cb33f0a7763285b1271c4c"
+        },
+        {
+          "path": "gr-qc-9504004-source.tar.gz",
+          "bytes": 19816,
+          "sha256": "040e8dd50e7add920f6e1b2b98a4e5f67dac6856f0e2175382daccfd0729ce2d"
+        }
+      ]
+    },
+    {
+      "module": "transport-collective-motion-and-brownian-motion",
+      "title": "Transport, Collective Motion, and Brownian Motion",
+      "identity": "doi:10.1143/PTP.33.423",
+      "arxiv": null,
+      "doi": "10.1143/PTP.33.423",
+      "artifacts": []
+    },
+    {
+      "module": "twisted-spectral-triple-standard-model",
+      "title": "Twisted Spectral Triple for the Standard Model and Spontaneous Breaking of the Grand Symmetry",
+      "identity": "arxiv:1411.1320",
+      "arxiv": "1411.1320",
+      "doi": "10.1007/s11040-016-9228-7",
+      "artifacts": [
+        {
+          "path": "Twisted-SM-MPAG2.tex",
+          "bytes": 152823,
+          "sha256": "3b7f9a8881adc0f2e3d858c3cd3b5edcb7b24e356c3ee751b10f430739ee7077"
+        }
+      ]
+    },
+    {
+      "module": "uniqueness-of-chentsov-metric-quantum-information-geometry",
+      "title": "On the Uniqueness of the Chentsov Metric in Quantum Information Geometry",
+      "identity": "math-ph/0006030",
+      "arxiv": "math-ph/0006030",
+      "doi": null,
+      "artifacts": []
+    },
+    {
+      "module": "verlinde-s-emergent-gravity-versus-mond-and-the-case-of-dwarf-spheroidals",
+      "title": "Verlinde's emergent gravity versus MOND and the case of dwarf spheroidals",
+      "identity": "1612.06282",
+      "arxiv": "1612.06282",
+      "doi": "10.1093/mnras/sty649",
+      "artifacts": [
+        {
+          "path": "1612.06282-diez-tejedor-gonzalez-morales-niz-dwarf-spheroidals.pdf",
+          "bytes": 1167854,
+          "sha256": "8aa4d60b49542a2cd874548c391dd662d19907612cb732f36c17824e799d02ce"
+        },
+        {
+          "path": "1612.06282-source.tar.gz",
+          "bytes": 631863,
+          "sha256": "b6a15de6b1faa3ca2d6d08c327aa0f849a76bfd80576472fd8eac89800693fa7"
+        }
+      ]
+    },
+    {
+      "module": "visual-horizons-in-world-models",
+      "title": "Visual Horizons in World-Models",
+      "identity": "doi:10.1093/mnras/116.6.662",
+      "arxiv": null,
+      "doi": "10.1093/mnras/116.6.662",
+      "artifacts": [
+        {
+          "path": "1956-rindler-visual-horizons-in-world-models.pdf",
+          "bytes": 1289947,
+          "sha256": "53eebdb02f623a2bbcf2d42e40db018763b98d9cdb9e1abae639e91446d0805c"
+        }
+      ]
+    },
+    {
+      "module": "wald-zoupas-conserved-quantities",
+      "title": "A General Definition of “Conserved Quantities” in General Relativity and Other Theories of Gravity",
+      "identity": "arxiv:gr-qc/9911095",
+      "arxiv": "gr-qc/9911095",
+      "doi": "10.1103/PhysRevD.61.084027",
+      "artifacts": [
+        {
+          "path": "bondi.tex",
+          "bytes": 105733,
+          "sha256": "2734ba0e37d8f6f62e51c6b0c2401533b0e9095225e0f07f6eb4dade9c7580e3"
+        }
+      ]
+    },
+    {
+      "module": "why-the-standard-model",
+      "title": "Why the Standard Model",
+      "identity": "arxiv:0706.3688",
+      "arxiv": "0706.3688",
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "spectralmodellong1.tex",
+          "bytes": 44150,
+          "sha256": "74372dd6a43407235b45f36bf21684f485349a27f5036e3e075f3d63d1add8ee"
+        }
+      ]
+    }
+  ]
+}

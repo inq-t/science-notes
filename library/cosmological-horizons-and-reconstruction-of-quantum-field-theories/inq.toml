@@ -1,0 +1,4 @@
+[module]
+name = "cosmological-horizons-and-reconstruction-of-quantum-field-theories"
+entry = "entry.md"
+include = ["**"]

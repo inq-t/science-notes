@@ -1,0 +1,4 @@
+[module]
+name = "comprehensive-local-hubble-constant-measurement"
+entry = "entry.md"
+include = ["**"]

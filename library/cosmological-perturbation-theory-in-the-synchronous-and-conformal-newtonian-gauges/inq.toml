@@ -1,0 +1,4 @@
+[module]
+name = "cosmological-perturbation-theory-in-the-synchronous-and-conformal-newtonian-gauges"
+entry = "entry.md"
+include = ["**"]

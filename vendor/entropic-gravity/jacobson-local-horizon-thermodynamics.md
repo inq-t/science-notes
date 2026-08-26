@@ -2,7 +2,7 @@
 
 Jacobson’s 1995 result is a conditional local theorem: if every local causal horizon carries one universal entropy per area and satisfies the equilibrium Clausius relation with matter boost energy at the Unruh temperature, then the metric obeys the Einstein equation up to a cosmological constant. The argument derives an equation of state from thermodynamic premises; it does not derive those premises or describe gravity as a force caused by an entropy gradient.
 
-The primary source is [[vendor/entropic-gravity/sources/papers/gr-qc-9504004-jacobson-thermodynamics-spacetime.pdf|Jacobson 1995]]. This note uses \(c=k_B=1\) until constants are restored.
+The primary source is [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|Jacobson 1995]]. This note uses \(c=k_B=1\) until constants are restored.
 
 ## Local equilibrium horizon
 

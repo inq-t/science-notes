@@ -1,0 +1,338 @@
+{
+  "doi:10.1093/mnras/116.6.662": {
+    "module": "visual-horizons-in-world-models",
+    "metadata": {
+      "identity": "doi:10.1093/mnras/116.6.662",
+      "title": "Visual Horizons in World-Models",
+      "abstract": "This paper unifies and generalizes results on visual horizons by defining a horizon as a frontier between observable and unobservable things. It distinguishes event horizons from particle horizons, illustrates models possessing either, both, or neither type, and formulates the analysis using proper distance, cosmic time, and the Robertson-Walker line element.",
+      "authors": ["W. Rindler"],
+      "year": 1956,
+      "published": "1956-12-01",
+      "updated": null,
+      "doi": "10.1093/mnras/116.6.662",
+      "journal_reference": "Monthly Notices of the Royal Astronomical Society 116 (6), 662-677 (1956); received 23 November 1956",
+      "record_url": "https://doi.org/10.1093/mnras/116.6.662",
+      "abstract_note": "The paragraph above is a faithful condensation of the paper's formal Summary."
+    }
+  },
+  "doi:10.1103/PhysRevLett.10.66": {
+    "module": "asymptotic-properties-of-fields-and-spacetimes",
+    "metadata": {
+      "identity": "doi:10.1103/PhysRevLett.10.66",
+      "title": "Asymptotic Properties of Fields and Space-Times",
+      "abstract": "Penrose outlines a conformal technique for treating infinity as a regular boundary of an auxiliary spacetime. The construction gives geometric definitions of asymptotic flatness and radiation, yields peeling behavior for curvature, supports energy-momentum and radiation-loss laws, relates finite and asymptotic characteristic initial-value problems, and recovers the Bondi-Metzner-Sachs group.",
+      "authors": ["Roger Penrose"],
+      "year": 1963,
+      "published": "1963-01-15",
+      "updated": null,
+      "doi": "10.1103/PhysRevLett.10.66",
+      "journal_reference": "Physical Review Letters 10 (2), 66-68 (1963); received 14 December 1962",
+      "record_url": "https://doi.org/10.1103/PhysRevLett.10.66",
+      "abstract_note": "The paper has no abstract heading. This is a faithful synopsis of its opening summary."
+    }
+  },
+  "doi:10.1103/PhysRev.183.1057": {
+    "module": "quantized-fields-and-particle-creation-i",
+    "metadata": {
+      "identity": "doi:10.1103/PhysRev.183.1057",
+      "title": "Quantized Fields and Particle Creation in Expanding Universes. I",
+      "abstract": "Parker canonically quantizes massive scalar fields and massless fields of arbitrary spin on a spacetime with expanding or contracting Euclidean spatial sections. Particle number is adiabatically invariant but not exactly conserved, creation occurs in pairs, and the physical creation and annihilation operators are identified without an S-matrix construction. The paper also relates suppressed creation in radiation- and dust-dominated limits to the corresponding Friedmann expansions.",
+      "authors": ["Leonard Parker"],
+      "year": 1969,
+      "published": "1969-07-25",
+      "updated": null,
+      "doi": "10.1103/PhysRev.183.1057",
+      "journal_reference": "Physical Review 183 (5), 1057-1068 (1969); received 11 March 1969",
+      "record_url": "https://doi.org/10.1103/PhysRev.183.1057",
+      "abstract_note": "This is a notation-light condensation of the formal abstract in the published PDF."
+    }
+  },
+  "doi:10.1103/PhysRev.186.1319": {
+    "module": "quantum-cosmology-i",
+    "metadata": {
+      "identity": "doi:10.1103/PhysRev.186.1319",
+      "title": "Quantum Cosmology. I",
+      "abstract": "Misner applies Hamiltonian general relativity to homogeneous cosmological models, explicitly solves their constraints, and recasts their evolution as a time-dependent mechanical system. A natural factor ordering supports canonical quantization while preserving the metric signature. For the closed Bianchi IX model, the analysis finds that a high-quantum-number classical state remains classical when evolved toward the initial singularity.",
+      "authors": ["Charles W. Misner"],
+      "year": 1969,
+      "published": "1969-10-25",
+      "updated": null,
+      "doi": "10.1103/PhysRev.186.1319",
+      "journal_reference": "Physical Review 186 (5), 1319-1327 (1969); received 8 July 1969",
+      "record_url": "https://doi.org/10.1103/PhysRev.186.1319",
+      "abstract_note": "This is a faithful condensation of the unheaded abstract paragraph in the published PDF."
+    }
+  },
+  "doi:10.1103/PhysRevLett.22.1071": {
+    "module": "mixmaster-universe",
+    "metadata": {
+      "identity": "doi:10.1103/PhysRevLett.22.1071",
+      "title": "Mixmaster Universe",
+      "abstract": "The generic nonrotating homogeneous model for a closed Bianchi IX space has a highly complex but describable singularity. Misner argues that particle horizons occur only in exceptional cases, suggesting a possible mechanism by which large-scale homogeneity could have arisen in the early universe.",
+      "authors": ["Charles W. Misner"],
+      "year": 1969,
+      "published": "1969-05-19",
+      "updated": null,
+      "doi": "10.1103/PhysRevLett.22.1071",
+      "journal_reference": "Physical Review Letters 22 (20), 1071-1074 (1969); received 14 April 1969",
+      "record_url": "https://doi.org/10.1103/PhysRevLett.22.1071",
+      "abstract_note": "The paragraph above is a faithful condensation of the formal abstract."
+    }
+  },
+  "doi:10.2139/ssrn.6093146": {
+    "module": "fine-structure-constant-from-first-principles",
+    "metadata": {
+      "identity": "doi:10.2139/ssrn.6093146",
+      "title": "The Fine-Structure Constant from First Principles: A Geometric Derivation",
+      "abstract": "Paquet proposes a derivation of the fine-structure constant within Relational Physics from a final coalgebra for a ternary branching functor and its realization by the chiral trivalent srs graph. A count of 128 spinorial and 9 gauge degrees of freedom gives the proposed bare inverse coupling 137, while a loop-space variational correction gives the reported value 137.035999187 without fitted parameters.",
+      "authors": ["Maxime Paquet"],
+      "year": 2026,
+      "published": "2026-02-19",
+      "updated": null,
+      "doi": "10.2139/ssrn.6093146",
+      "journal_reference": "SSRN 6093146; manuscript dated 19 January 2026; posted 19 February 2026",
+      "record_url": "https://doi.org/10.2139/ssrn.6093146",
+      "abstract_note": "This is a concise editorial synopsis of the manuscript's formal abstract."
+    }
+  },
+  "doi:10.2977/prims/1195192744": {
+    "module": "relative-hamiltonian-for-faithful-normal-states",
+    "metadata": {
+      "identity": "doi:10.2977/prims/1195192744",
+      "title": "Relative Hamiltonian for Faithful Normal States of a von Neumann Algebra",
+      "abstract": "Araki constructs the relative Hamiltonian between faithful normal states of a von Neumann algebra and proves its uniqueness under the stated order bounds. The associated cocycle intertwines the two modular automorphism groups; the paper also relates their modular operators and establishes a chain rule for relative Hamiltonians.",
+      "authors": ["Huzihiro Araki"],
+      "year": 1973,
+      "published": "1973-04-30",
+      "updated": null,
+      "doi": "10.2977/PRIMS/1195192744",
+      "journal_reference": "Publications of the Research Institute for Mathematical Sciences 9 (1), 165-209 (1973); submitted 7 December 1972",
+      "record_url": "https://doi.org/10.2977/PRIMS/1195192744",
+      "abstract_note": "The original article has a formal, notation-heavy abstract. This wrapper gives a notation-light editorial synopsis."
+    }
+  },
+  "doi:10.2977/prims/1195191148": {
+    "module": "relative-entropy-of-states-of-von-neumann-algebras",
+    "metadata": {
+      "identity": "doi:10.2977/prims/1195191148",
+      "title": "Relative Entropy of States of von Neumann Algebras",
+      "abstract": "Relative entropy of two states of a von Neumann algebra is defined in terms of the relative modular operator. Strict positivity, lower semicontinuity, convexity, and monotonicity are proved, together with the Wigner-Yanase-Dyson-Lieb concavity theorem for general von Neumann algebras.",
+      "authors": ["Huzihiro Araki"],
+      "year": 1976,
+      "published": "1975-12-31",
+      "updated": null,
+      "doi": "10.2977/PRIMS/1195191148",
+      "journal_reference": "Article imprint: Publications of the Research Institute for Mathematical Sciences 11 (1976), 809-833; current publisher catalog: volume 11 (3), 1975; submitted 1 September 1975",
+      "record_url": "https://doi.org/10.2977/PRIMS/1195191148",
+      "abstract_note": "The abstract is transcribed in substance from the published PDF. The publication field preserves the discrepancy between its 1976 imprint and the publisher catalog's 1975 issue date."
+    }
+  },
+  "doi:10.2977/prims/1195190105": {
+    "module": "relative-entropy-for-states-of-von-neumann-algebras-ii",
+    "metadata": {
+      "identity": "doi:10.2977/prims/1195190105",
+      "title": "Relative Entropy for States of von Neumann Algebras II",
+      "abstract": "The earlier definition of relative entropy for faithful normal positive linear functionals on a von Neumann algebra is extended to nonfaithful functionals. The basic properties of relative entropy are proved for the generalized definition.",
+      "authors": ["Huzihiro Araki"],
+      "year": 1977,
+      "published": "1977-04-30",
+      "updated": null,
+      "doi": "10.2977/PRIMS/1195190105",
+      "journal_reference": "Publications of the Research Institute for Mathematical Sciences 13 (1), 173-192 (1977); submitted 10 September 1976",
+      "record_url": "https://doi.org/10.2977/PRIMS/1195190105",
+      "abstract_note": "The paragraph above is a faithful condensation of the formal abstract."
+    }
+  },
+  "journal:mukhanov-1988-gauge-invariant-perturbations": {
+    "module": "quantum-theory-of-gauge-invariant-cosmological-perturbations",
+    "metadata": {
+      "identity": "journal:mukhanov-1988-gauge-invariant-perturbations",
+      "title": "Quantum Theory of Gauge-Invariant Cosmological Perturbations",
+      "abstract": "Metric perturbations of longitudinal type in an isotropic universe filled with a scalar field are considered. Their action is expressed through a gauge-invariant variable that completely characterizes the perturbations, a consistent quantum theory is constructed, and the spectrum of inhomogeneities in inflationary models is calculated.",
+      "authors": ["V. F. Mukhanov"],
+      "year": 1988,
+      "published": "1988-07",
+      "updated": null,
+      "doi": null,
+      "journal_reference": "Soviet Physics JETP 67 (7), 1297-1302 (July 1988); Russian original, Zhurnal Eksperimental'noi i Teoreticheskoi Fiziki 94, no. 1(7), 1-11; submitted 13 January 1988",
+      "record_url": "https://jetp.ras.ru/cgi-bin/e/index/e/67/7/p1297?a=list",
+      "abstract_note": "The paragraph above is a faithful condensation of the English translation's opening summary. The official journal catalog resolves an inconsistent volume notation in the scan footer."
+    }
+  },
+  "preprint:esi-204": {
+    "module": "geometries-of-quantum-states",
+    "metadata": {
+      "identity": "preprint:esi-204",
+      "title": "Geometries of Quantum States",
+      "abstract": "Petz and Sudár seek the quantum analogue of the Fisher metric and study Riemannian metrics on positive definite density matrices. They show several examples to be stochastically monotone, characterize every stochastically monotone metric using operator-monotone functions, prove the existence of maximal and minimal members, and identify the Fubini-Study geometry on an extension to pure states.",
+      "authors": ["Dénes Petz", "Csaba Sudár"],
+      "year": 1996,
+      "published": "1995-03-13",
+      "updated": "1996-06-01",
+      "doi": "10.1063/1.531535",
+      "journal_reference": "ESI preprint 204 (13 March 1995); published in Journal of Mathematical Physics 37 (6), 2662-2673 (1996)",
+      "record_url": "https://doi.org/10.1063/1.531535",
+      "abstract_note": "This is a faithful editorial synopsis of the preprint abstract. This source is distinct from Petz's solo article Monotone Metrics on Matrix Spaces."
+    }
+  },
+  "url:https://www.ulam.ai/research/jacobian.pdf": {
+    "module": "counterexample-to-the-jacobian-conjecture",
+    "metadata": {
+      "identity": "url:https://www.ulam.ai/research/jacobian.pdf",
+      "title": "A Counterexample to the Jacobian Conjecture",
+      "abstract": "This unattributed manuscript verifies an explicit polynomial map from complex three-space to itself with constant Jacobian determinant minus two and a three-point fiber, yielding a counterexample in dimension three and, by stabilization, every dimension at least three. A projective coordinate reduces inversion to roots of a binary cubic and supports a description of the fibers, image, and nonproperness set.",
+      "authors": [],
+      "year": 2026,
+      "published": "2026-07-20",
+      "updated": null,
+      "doi": null,
+      "journal_reference": "Unattributed manuscript hosted by Ulam.ai, 7 pages (20 July 2026)",
+      "record_url": "https://www.ulam.ai/research/jacobian.pdf",
+      "abstract_note": "The host is not named as the author. The introduction attributes announcement of the formula to Levent Alpöge. This singular-titled manuscript is distinct from Shuhong Gao's plural-titled arXiv:2608.00222."
+    }
+  },
+  "doi:10.1016/0024-3795(94)00211-8": {
+    "module": "monotone-metrics-on-matrix-spaces",
+    "metadata": {
+      "identity": "doi:10.1016/0024-3795(94)00211-8",
+      "title": "Monotone Metrics on Matrix Spaces",
+      "abstract": "Petz classifies monotone inner products on matrix spaces under stochastic mappings using operator-monotone functions. The result supplies the finite-dimensional family of monotone quantum information metrics and clarifies the relation between statistical geometry, relative entropy, and generalized covariance.",
+      "authors": ["Dénes Petz"],
+      "year": 1996,
+      "published": "1996-09-01",
+      "updated": null,
+      "doi": "10.1016/0024-3795(94)00211-8",
+      "journal_reference": "Linear Algebra and its Applications 244, 81-96 (1996)",
+      "record_url": "https://doi.org/10.1016/0024-3795(94)00211-8",
+      "abstract_note": "This is an editorial synopsis based on the publisher abstract. This article is distinct from Petz and Sudár's Geometries of Quantum States."
+    }
+  },
+  "doi:10.1098/rsta.1922.0009": {
+    "module": "mathematical-foundations-of-theoretical-statistics",
+    "metadata": {
+      "identity": "doi:10.1098/rsta.1922.0009",
+      "title": "On the Mathematical Foundations of Theoretical Statistics",
+      "abstract": "Fisher organizes theoretical statistics around data reduction through parametric models and the distinct problems of specification, estimation, and distribution. He develops consistency, efficiency, and sufficiency as criteria for estimators, advances likelihood-based estimation, compares it with the method of moments, and studies continuous and discrete sampling problems.",
+      "authors": ["R. A. Fisher"],
+      "year": 1922,
+      "published": "1922-04-19",
+      "updated": null,
+      "doi": "10.1098/rsta.1922.0009",
+      "journal_reference": "Philosophical Transactions of the Royal Society of London, Series A 222 (594-604), 309-368 (1922)",
+      "record_url": "https://doi.org/10.1098/rsta.1922.0009",
+      "abstract_note": "The original article has no abstract. The paragraph above is an editorial synopsis; some modern metadata incorrectly presents the opening of section 1 as an abstract."
+    }
+  },
+  "doi:10.1214/aoms/1177729694": {
+    "module": "information-and-sufficiency",
+    "metadata": {
+      "identity": "doi:10.1214/aoms/1177729694",
+      "title": "On Information and Sufficiency",
+      "abstract": "Kullback and Leibler introduce directed mean information for discriminating between statistical hypotheses and its symmetrized divergence. They establish nonnegativity and behavior under statistical reduction, and relate preservation of information under a reduction to sufficiency, giving the quantity later called Kullback-Leibler divergence its foundational role.",
+      "authors": ["S. Kullback", "R. A. Leibler"],
+      "year": 1951,
+      "published": "1951-03",
+      "updated": null,
+      "doi": "10.1214/aoms/1177729694",
+      "journal_reference": "The Annals of Mathematical Statistics 22 (1), 79-86 (1951)",
+      "record_url": "https://doi.org/10.1214/aoms/1177729694",
+      "abstract_note": "The original article has no published abstract. The paragraph above is an editorial synopsis."
+    }
+  },
+  "doi:10.1143/JPSJ.12.570": {
+    "module": "statistical-mechanical-theory-of-irreversible-processes-i",
+    "metadata": {
+      "identity": "doi:10.1143/JPSJ.12.570",
+      "title": "Statistical-Mechanical Theory of Irreversible Processes. I. General Theory and Simple Applications to Magnetic and Conduction Problems",
+      "abstract": "Kubo develops a general fluctuation-dissipation theorem relating linear response coefficients and complex susceptibilities to equilibrium time-correlation functions. The formulation treats magnetic and electric polarization and transport phenomena, and gives simple applications to magnetic resonance and electrical conduction.",
+      "authors": ["Ryogo Kubo"],
+      "year": 1957,
+      "published": "1957-06-05",
+      "updated": null,
+      "doi": "10.1143/JPSJ.12.570",
+      "journal_reference": "Journal of the Physical Society of Japan 12 (6), 570-586 (1957)",
+      "record_url": "https://doi.org/10.1143/JPSJ.12.570",
+      "abstract_note": "This is an editorial synopsis based on the publisher abstract."
+    }
+  },
+  "doi:10.1143/PTP.33.423": {
+    "module": "transport-collective-motion-and-brownian-motion",
+    "metadata": {
+      "identity": "doi:10.1143/PTP.33.423",
+      "title": "Transport, Collective Motion, and Brownian Motion",
+      "abstract": "Mori develops a statistical-mechanical theory that treats transport, collective motion, and Brownian motion in a unified way. By projecting dynamics onto a chosen set of macroscopic variables, the formalism derives a generalized Langevin equation with memory and fluctuating forces and relates relaxation functions to frequency-dependent transport coefficients.",
+      "authors": ["Hazime Mori"],
+      "year": 1965,
+      "published": "1965-03-01",
+      "updated": null,
+      "doi": "10.1143/PTP.33.423",
+      "journal_reference": "Progress of Theoretical Physics 33 (3), 423-455 (1965)",
+      "record_url": "https://doi.org/10.1143/PTP.33.423",
+      "abstract_note": "This is an editorial synopsis of the unheaded summary preceding section 1 in the version-of-record PDF."
+    }
+  },
+  "doi:10.1093/mnras/stag632": {
+    "module": "dark-energy-survey-supernova-program-reanalysis",
+    "metadata": {
+      "identity": "doi:10.1093/mnras/stag632",
+      "title": "The Dark Energy Survey Supernova Program: A Reanalysis of Cosmology Results and Evidence for Evolving Dark Energy with an Updated Type Ia Supernova Calibration",
+      "abstract": "The DES Collaboration reanalyzes the five-year Type Ia supernova sample with an updated photometric calibration and revised treatment of systematic uncertainties. In combination with complementary cosmological probes, the recalibration changes the inferred dark-energy constraints and the reported preference for an evolving equation of state.",
+      "authors": ["B. Popovic et al.", "The DES Collaboration"],
+      "year": 2026,
+      "published": "2026-04-14",
+      "updated": null,
+      "doi": "10.1093/mnras/stag632",
+      "journal_reference": "Monthly Notices of the Royal Astronomical Society 548 (4), stag632, 27 pages (2026)",
+      "record_url": "https://doi.org/10.1093/mnras/stag632",
+      "abstract_note": "This is an editorial synopsis based on the version-of-record abstract. The publisher record supplies the full author list."
+    }
+  },
+  "doi:10.3847/1538-4357/ac8e04": {
+    "module": "pantheon-plus-analysis-cosmological-constraints",
+    "metadata": {
+      "identity": "doi:10.3847/1538-4357/ac8e04",
+      "title": "The Pantheon+ Analysis: Cosmological Constraints",
+      "abstract": "The Pantheon+ analysis derives cosmological constraints from 1701 light curves of 1550 distinct Type Ia supernovae, with improved calibration and systematic-error modeling. It evaluates standard and extended cosmologies, combines the supernova sample with other probes, and quantifies the implications of including the local distance-ladder calibration.",
+      "authors": ["Dillon Brout et al."],
+      "year": 2022,
+      "published": "2022-10-19",
+      "updated": null,
+      "doi": "10.3847/1538-4357/ac8e04",
+      "journal_reference": "The Astrophysical Journal 938 (2), 110 (2022)",
+      "record_url": "https://doi.org/10.3847/1538-4357/ac8e04",
+      "abstract_note": "This is an editorial synopsis based on the version-of-record abstract. The publisher record supplies the full 48-author list."
+    }
+  },
+  "doi:10.3847/2041-8213/ac5c5b": {
+    "module": "comprehensive-local-hubble-constant-measurement",
+    "metadata": {
+      "identity": "doi:10.3847/2041-8213/ac5c5b",
+      "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s−1 Mpc−1 Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+      "abstract": "The SH0ES Team reports Hubble Space Telescope observations of Cepheid variables in 42 Type Ia supernova host galaxies and a comprehensive calibration of the local distance ladder. The analysis reaches approximately one kilometer per second per megaparsec precision on the local Hubble constant and compares that result with the value inferred from the early universe under standard cosmology.",
+      "authors": ["Adam G. Riess et al."],
+      "year": 2022,
+      "published": "2022-07-22",
+      "updated": null,
+      "doi": "10.3847/2041-8213/ac5c5b",
+      "journal_reference": "The Astrophysical Journal Letters 934 (1), L7 (2022)",
+      "record_url": "https://doi.org/10.3847/2041-8213/ac5c5b",
+      "abstract_note": "This is an editorial synopsis based on the version-of-record abstract. The publisher record supplies the full 18-author list."
+    }
+  },
+  "doi:10.1515/crll.1962.210.73": {
+    "module": "geometry-of-the-tangent-bundle",
+    "metadata": {
+      "identity": "doi:10.1515/crll.1962.210.73",
+      "title": "On the Geometry of the Tangent Bundle",
+      "abstract": "For a differentiable manifold with a linear connection, Dombrowski uses the induced horizontal-vertical splitting of the tangent bundle of its tangent bundle to define a natural almost-complex structure. He computes its torsion and proves integrability exactly when the connection has vanishing torsion and curvature. The appendix studies the almost-Hermitian structure induced by a Riemannian metric and its Levi-Civita connection and characterizes connections through invariant horizontal distributions.",
+      "authors": ["Peter Dombrowski"],
+      "year": 1962,
+      "published": "1962",
+      "updated": "2009-12-10",
+      "doi": "10.1515/crll.1962.210.73",
+      "journal_reference": "Journal für die reine und angewandte Mathematik 210, 73-88 (1962), print issue 1/2",
+      "record_url": "https://doi.org/10.1515/crll.1962.210.73",
+      "abstract_note": "The original article has no formal abstract. The paragraph above is an editorial synopsis of the primary scan; no local copy is held because the archive terms restrict redistribution."
+    }
+  }
+}

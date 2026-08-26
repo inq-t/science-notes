@@ -1,0 +1,4 @@
+[module]
+name = "on-desi-dr2-exclusion-of-lambda-cdm"
+entry = "entry.md"
+include = ["**"]

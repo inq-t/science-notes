@@ -1,0 +1,4 @@
+[module]
+name = "geometry-of-the-tangent-bundle"
+entry = "entry.md"
+include = ["**"]

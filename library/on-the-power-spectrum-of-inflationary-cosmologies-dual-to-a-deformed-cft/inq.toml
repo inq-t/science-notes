@@ -1,0 +1,4 @@
+[module]
+name = "on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft"
+entry = "entry.md"
+include = ["**"]

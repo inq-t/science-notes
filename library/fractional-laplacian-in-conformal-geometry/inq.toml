@@ -1,0 +1,4 @@
+[module]
+name = "fractional-laplacian-in-conformal-geometry"
+entry = "entry.md"
+include = ["**"]

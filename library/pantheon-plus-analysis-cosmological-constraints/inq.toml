@@ -1,0 +1,4 @@
+[module]
+name = "pantheon-plus-analysis-cosmological-constraints"
+entry = "entry.md"
+include = ["**"]

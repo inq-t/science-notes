@@ -1,0 +1,4 @@
+[module]
+name = "the-radial-acceleration-relation-in-rotationally-supported-galaxies"
+entry = "entry.md"
+include = ["**"]

@@ -1,0 +1,4 @@
+[module]
+name = "the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological-models"
+entry = "entry.md"
+include = ["**"]

@@ -16,7 +16,7 @@ No theorem in Verlinde’s paper selects a unique completion satisfying these re
 
 ## Hossenfelder’s vector-field model
 
-[[vendor/entropic-gravity/sources/papers/1703.01415-hossenfelder-covariant-verlinde-emergent-gravity.pdf|Hossenfelder 2017]] promotes the elastic displacement to a timelike vector \(u^\mu\). In the paper’s convention,
+[[library/a-covariant-version-of-verlinde-s-emergent-gravity/entry|Hossenfelder 2017]] promotes the elastic displacement to a timelike vector \(u^\mu\). In the paper’s convention,
 
 $$
 \varepsilon_{\mu\nu}
@@ -69,7 +69,7 @@ The static spherical weak-field solution has a logarithmic extra potential and t
 
 ## Full variation and particle motion
 
-[[vendor/entropic-gravity/sources/papers/1806.03807-lim-wang-field-equations-covariant-emergent-gravity.pdf|Lim and Wang 2018]] formulate a fuller action treatment,
+[[library/field-equations-and-particle-motion-in-covariant-emergent-gravity/entry|Lim and Wang 2018]] formulate a fuller action treatment,
 
 $$
 I=\int d^4x\sqrt{-g}
@@ -97,11 +97,11 @@ rather than \(g_{\mu\nu}\) itself. Light is treated through the backreaction of 
 
 ## Stability and consistency results
 
-[[vendor/entropic-gravity/sources/papers/1706.07854-dai-stojkovic-note-covariant-emergent-gravity.pdf|Dai and Stojkovic 2017]] correct the de Sitter solution of the Hossenfelder model and find growing perturbations around that vacuum in the sector they analyze. Matter or radiation can alter that conclusion, so the result is a stability problem for the proposed vacuum rather than a universal no-go theorem.
+[[library/a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity/entry|Dai and Stojkovic 2017]] correct the de Sitter solution of the Hossenfelder model and find growing perturbations around that vacuum in the sector they analyze. Matter or radiation can alter that conclusion, so the result is a stability problem for the proposed vacuum rather than a universal no-go theorem.
 
-[[vendor/entropic-gravity/sources/papers/2003.10410-zatrimaylov-critique-covariant-emergent-gravity.pdf|Zatrimaylov 2020]] exhibits field configurations for which the Hossenfelder-type Hamiltonian is unbounded below. A Maxwell-like kinetic combination avoids that particular vector-energy problem, but its gauge identity conflicts with the desired sourced MOND-like behavior. This is a serious obstruction for that class of vector actions.
+[[library/a-critique-of-covariant-emergent-gravity/entry|Zatrimaylov 2020]] exhibits field configurations for which the Hossenfelder-type Hamiltonian is unbounded below. A Maxwell-like kinetic combination avoids that particular vector-energy problem, but its gauge identity conflicts with the desired sourced MOND-like behavior. This is a serious obstruction for that class of vector actions.
 
-[[vendor/entropic-gravity/sources/papers/1710.00946-dai-stojkovic-inconsistencies-verlinde-emergent-gravity.pdf|Dai and Stojkovic 2017]] separately argue that Verlinde’s elasticity dictionary is internally inconsistent and can return Newtonian rather than MOND scaling when applied differently. [[vendor/entropic-gravity/sources/papers/2003.03198-yoon-comment-inconsistencies-emergent-gravity.pdf|Yoon 2020]] disputes their dictionary and proposes a repaired relation. This remains a contested critique; the uncontested internal limitation is already recorded in [[verlinde-emergent-gravity]]: the original elastic derivation gives an inequality and requires extra assumptions to use equality.
+[[library/inconsistencies-in-verlinde-s-emergent-gravity/entry|Dai and Stojkovic 2017]] separately argue that Verlinde’s elasticity dictionary is internally inconsistent and can return Newtonian rather than MOND scaling when applied differently. [[library/comment-on-inconsistencies-in-verlinde-s-emergent-gravity/entry|Yoon 2020]] disputes their dictionary and proposes a repaired relation. This remains a contested critique; the uncontested internal limitation is already recorded in [[verlinde-emergent-gravity]]: the original elastic derivation gives an inequality and requires extra assumptions to use equality.
 
 ## Classification
 

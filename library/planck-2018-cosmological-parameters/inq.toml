@@ -1,0 +1,4 @@
+[module]
+name = "planck-2018-cosmological-parameters"
+entry = "entry.md"
+include = ["**"]

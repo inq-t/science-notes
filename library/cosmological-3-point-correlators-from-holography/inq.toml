@@ -1,0 +1,4 @@
+[module]
+name = "cosmological-3-point-correlators-from-holography"
+entry = "entry.md"
+include = ["**"]

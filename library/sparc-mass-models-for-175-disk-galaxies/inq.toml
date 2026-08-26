@@ -1,0 +1,4 @@
+[module]
+name = "sparc-mass-models-for-175-disk-galaxies"
+entry = "entry.md"
+include = ["**"]

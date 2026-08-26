@@ -1,0 +1,4 @@
+[module]
+name = "verlinde-s-emergent-gravity-versus-mond-and-the-case-of-dwarf-spheroidals"
+entry = "entry.md"
+include = ["**"]

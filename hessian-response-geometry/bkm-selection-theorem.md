@@ -121,6 +121,6 @@ The theorem selects the shape of the metric only up to \(c\). Applied independen
 
 ## Primary sources
 
-- M. R. Grasselli and R. F. Streater, [*On the Uniqueness of the Chentsov Metric in Quantum Information Geometry*](https://arxiv.org/abs/math-ph/0006030), *Infinite Dimensional Analysis, Quantum Probability and Related Topics* 4 (2001), 173--182. The relevant statement is Theorem 18 in the current arXiv version.
-- D. Petz, [*Monotone Metrics on Matrix Spaces*](https://doi.org/10.1016/0024-3795(94)00211-8), *Linear Algebra and its Applications* 244 (1996), 81--96. This classifies finite quantum monotone metrics by operator-monotone functions.
-- H. Mori, [*Transport, Collective Motion, and Brownian Motion*](https://doi.org/10.1143/PTP.33.423), *Progress of Theoretical Physics* 33 (1965), 423--455. This is a primary source for the canonical-correlation/linear-response structure from which the modern BKM name descends; it is not the uniqueness theorem.
+- M. R. Grasselli and R. F. Streater, [[library/uniqueness-of-chentsov-metric-quantum-information-geometry/entry|*On the Uniqueness of the Chentsov Metric in Quantum Information Geometry*]], *Infinite Dimensional Analysis, Quantum Probability and Related Topics* 4 (2001), 173--182. The relevant statement is Theorem 18 in the current arXiv version.
+- D. Petz, [[library/monotone-metrics-on-matrix-spaces/entry|*Monotone Metrics on Matrix Spaces*]], *Linear Algebra and its Applications* 244 (1996), 81--96. This classifies finite quantum monotone metrics by operator-monotone functions.
+- H. Mori, [[library/transport-collective-motion-and-brownian-motion/entry|*Transport, Collective Motion, and Brownian Motion*]], *Progress of Theoretical Physics* 33 (1965), 423--455. This is a primary source for the canonical-correlation/linear-response structure from which the modern BKM name descends; it is not the uniqueness theorem.

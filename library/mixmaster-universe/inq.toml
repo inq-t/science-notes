@@ -1,0 +1,4 @@
+[module]
+name = "mixmaster-universe"
+entry = "entry.md"
+include = ["**"]

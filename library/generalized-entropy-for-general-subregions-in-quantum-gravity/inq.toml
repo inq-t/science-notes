@@ -1,0 +1,4 @@
+[module]
+name = "generalized-entropy-for-general-subregions-in-quantum-gravity"
+entry = "entry.md"
+include = ["**"]

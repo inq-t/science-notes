@@ -1,15 +1,4 @@
 [module]
 name = "linearization-instabilities-and-crossed-products"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.cls",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

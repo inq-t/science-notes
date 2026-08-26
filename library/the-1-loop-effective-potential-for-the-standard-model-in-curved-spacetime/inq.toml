@@ -1,0 +1,4 @@
+[module]
+name = "the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime"
+entry = "entry.md"
+include = ["**"]

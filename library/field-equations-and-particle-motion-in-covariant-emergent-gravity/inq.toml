@@ -1,0 +1,4 @@
+[module]
+name = "field-equations-and-particle-motion-in-covariant-emergent-gravity"
+entry = "entry.md"
+include = ["**"]

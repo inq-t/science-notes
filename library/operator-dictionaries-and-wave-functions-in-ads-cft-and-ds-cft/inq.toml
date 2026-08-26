@@ -1,0 +1,4 @@
+[module]
+name = "operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft"
+entry = "entry.md"
+include = ["**"]

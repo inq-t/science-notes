@@ -1,0 +1,4 @@
+[module]
+name = "mathematical-foundations-of-theoretical-statistics"
+entry = "entry.md"
+include = ["**"]

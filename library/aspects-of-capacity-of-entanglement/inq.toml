@@ -1,0 +1,4 @@
+[module]
+name = "aspects-of-capacity-of-entanglement"
+entry = "entry.md"
+include = ["**"]

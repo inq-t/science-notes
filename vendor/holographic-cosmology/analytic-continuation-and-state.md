@@ -21,7 +21,7 @@ $$
 
 or \(\bar N=-iN\) after a branch has been chosen. The barred theory is the ordinary Euclidean domain-wall QFT; the unbarred object after continuation is often called the pseudo-QFT. Continuing \(N\), or equivalently the gravitational coupling, is not optional bookkeeping: it controls the overall sign needed for positive cosmological power.
 
-[[causal-wall-spectral-theory/sources/papers/0907.5542-mcfadden-skenderis-holography-for-cosmology.pdf|McFadden and Skenderis]] give the operational construction, while [[causal-wall-spectral-theory/sources/papers/1104.3894-mcfadden-skenderis-cosmological-three-point-correlators.pdf|their three-point analysis]] carries the continuation through nonlinear response.
+[[library/holography-for-cosmology/entry|McFadden and Skenderis]] give the operational construction, while [[library/cosmological-3-point-correlators-from-holography/entry|their three-point analysis]] carries the continuation through nonlinear response.
 
 ## Vacuum and regularity
 
@@ -47,7 +47,7 @@ $$
 |\Psi_{\mathrm{cos}}[\phi]|^2F[\phi],
 $$
 
-whereas an AdS or domain-wall construction uses different gluing data. [[causal-wall-spectral-theory/sources/papers/1104.2621-harlow-stanford-operator-dictionaries-wave-functions.pdf|Harlow and Stanford]] emphasize that continuation of wavefunctions does not make all operator dictionaries or expectation values identical.
+whereas an AdS or domain-wall construction uses different gluing data. [[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/entry|Harlow and Stanford]] emphasize that continuation of wavefunctions does not make all operator dictionaries or expectation values identical.
 
 This blocks three shortcuts:
 

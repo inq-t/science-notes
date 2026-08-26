@@ -1,0 +1,4 @@
+[module]
+name = "adiabatic-modes-in-cosmology"
+entry = "entry.md"
+include = ["**"]

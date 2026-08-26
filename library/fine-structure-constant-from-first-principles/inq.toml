@@ -1,0 +1,4 @@
+[module]
+name = "fine-structure-constant-from-first-principles"
+entry = "entry.md"
+include = ["**"]

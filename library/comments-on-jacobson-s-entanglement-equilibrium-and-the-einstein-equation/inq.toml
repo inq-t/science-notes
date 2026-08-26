@@ -1,0 +1,4 @@
+[module]
+name = "comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation"
+entry = "entry.md"
+include = ["**"]

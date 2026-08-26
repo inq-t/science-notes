@@ -1,56 +1,56 @@
 # Source Origins
 
-This ledger records where each immutable local artifact was obtained on 2026-08-22. Reading links elsewhere in the module point to local files; the network links here exist only for provenance, license-aware replacement, and future refreshes.
+This ledger records where each immutable local artifact was obtained on 2026-08-22. Reading links elsewhere in the module point to the article wrappers under `library/`; the artifact and network links here exist only for provenance, license-aware replacement, and future refreshes.
 
 ## Papers
 
 | Local file | Upstream used |
 |---|---|
-| [[causal-wall-spectral-theory/sources/papers/0002230-de-haro-solodukhin-skenderis-holographic-renormalization.pdf|de Haro–Solodukhin–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0002230) |
-| [[causal-wall-spectral-theory/sources/papers/0003278-wands-malik-lyth-liddle-cosmological-perturbations-large-scales.pdf|Wands–Malik–Lyth–Liddle]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0003278) |
-| [[causal-wall-spectral-theory/sources/papers/0103074-hollands-wald-local-wick-polynomials-time-ordered-products.pdf|Hollands–Wald I]] | [arXiv PDF](https://arxiv.org/pdf/gr-qc/0103074) |
-| [[causal-wall-spectral-theory/sources/papers/0109089-graham-zworski-scattering-matrix-conformal-geometry.pdf|Graham–Zworski]] | [arXiv PDF](https://arxiv.org/pdf/math/0109089) |
-| [[causal-wall-spectral-theory/sources/papers/0111108-hollands-wald-existence-local-covariant-time-ordered-products.pdf|Hollands–Wald II]] | [arXiv PDF](https://arxiv.org/pdf/gr-qc/0111108) |
-| [[causal-wall-spectral-theory/sources/papers/0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf|Brunetti–Fredenhagen–Verch]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/0112041) |
-| [[causal-wall-spectral-theory/sources/papers/0201030-gover-peterson-gjms-q-curvature-tractor-calculus-substitute.pdf|Gover–Peterson substitute]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/0201030) |
-| [[causal-wall-spectral-theory/sources/papers/0210603-maldacena-non-gaussian-features-single-field-inflation.pdf|Maldacena]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0210603) |
-| [[causal-wall-spectral-theory/sources/papers/0302326-weinberg-adiabatic-modes-cosmology.pdf|Weinberg adiabatic modes]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0302326) |
-| [[causal-wall-spectral-theory/sources/papers/0407071-papadimitriou-skenderis-holographic-rg-flow-correlators.pdf|Papadimitriou–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0407071) |
-| [[causal-wall-spectral-theory/sources/papers/0506236-weinberg-quantum-contributions-cosmological-correlations.pdf|Weinberg in-in]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0506236) |
-| [[causal-wall-spectral-theory/sources/papers/0610253-skenderis-townsend-domain-wall-cosmology-correspondence.pdf|Skenderis–Townsend]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0610253) |
-| [[causal-wall-spectral-theory/sources/papers/0712.1770-dappiaggi-moretti-pinamonti-cosmological-horizons-qft.pdf|Dappiaggi–Moretti–Pinamonti]] | [arXiv PDF](https://arxiv.org/pdf/0712.1770) |
-| [[causal-wall-spectral-theory/sources/papers/0804.2182-casini-relative-entropy-bekenstein-bound.pdf|Casini]] | [arXiv PDF](https://arxiv.org/pdf/0804.2182) |
-| [[causal-wall-spectral-theory/sources/papers/0907.5542-mcfadden-skenderis-holography-for-cosmology.pdf|McFadden–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/0907.5542) |
-| [[causal-wall-spectral-theory/sources/papers/1003.0398-chang-gonzalez-fractional-laplacian-conformal-geometry.pdf|Chang–González]] | [arXiv PDF](https://arxiv.org/pdf/1003.0398) |
-| [[causal-wall-spectral-theory/sources/papers/1012.0579-gonzalez-qing-fractional-conformal-laplacians-yamabe.pdf|González–Qing]] | [arXiv PDF](https://arxiv.org/pdf/1012.0579) |
-| [[causal-wall-spectral-theory/sources/papers/1104.2040-easther-flauger-mcfadden-skenderis-holographic-inflation-wmap.pdf|Easther et al.]] | [arXiv PDF](https://arxiv.org/pdf/1104.2040) |
-| [[causal-wall-spectral-theory/sources/papers/1104.2621-harlow-stanford-operator-dictionaries-wave-functions.pdf|Harlow–Stanford]] | [arXiv PDF](https://arxiv.org/pdf/1104.2621) |
-| [[causal-wall-spectral-theory/sources/papers/1104.3894-mcfadden-skenderis-cosmological-three-point-correlators.pdf|McFadden–Skenderis three-point]] | [arXiv PDF](https://arxiv.org/pdf/1104.3894) |
-| [[causal-wall-spectral-theory/sources/papers/1106.4785-fewster-verch-dynamical-locality-covariance.pdf|Fewster–Verch]] | [arXiv PDF](https://arxiv.org/pdf/1106.4785) |
-| [[causal-wall-spectral-theory/sources/papers/1211.4550-bzowski-mcfadden-skenderis-holography-inflation-cpt.pdf|Bzowski–McFadden–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/1211.4550) |
-| [[causal-wall-spectral-theory/sources/papers/1304.5527-hinterbichler-hui-khoury-ward-identities-adiabatic-modes.pdf|Hinterbichler–Hui–Khoury]] | [arXiv PDF](https://arxiv.org/pdf/1304.5527) |
-| [[causal-wall-spectral-theory/sources/papers/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden deformed-CFT spectrum]] | [arXiv PDF](https://arxiv.org/pdf/1308.0331) |
-| [[causal-wall-spectral-theory/sources/papers/1406.1846-case-chang-fractional-gjms-operators.pdf|Case–Chang]] | [arXiv PDF](https://arxiv.org/pdf/1406.1846) |
-| [[causal-wall-spectral-theory/sources/papers/1505.01492-kaloper-padilla-vacuum-energy-sequestering.pdf|Kaloper–Padilla]] | [arXiv PDF](https://arxiv.org/pdf/1505.01492) |
-| [[causal-wall-spectral-theory/sources/papers/1505.04753-jacobson-entanglement-equilibrium-einstein-equation.pdf|Jacobson]] | [arXiv PDF](https://arxiv.org/pdf/1505.04753) |
-| [[causal-wall-spectral-theory/sources/papers/1508.00897-lashkari-van-raamsdonk-canonical-energy-quantum-fisher-information.pdf|Lashkari–Van Raamsdonk]] | [arXiv PDF](https://arxiv.org/pdf/1508.00897) |
-| [[causal-wall-spectral-theory/sources/papers/1703.05385-afshordi-gould-skenderis-holographic-cosmology-planck.pdf|Afshordi–Gould–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/1703.05385) |
-| [[causal-wall-spectral-theory/sources/papers/1703.10656-casini-teste-torroba-null-plane-modular-hamiltonians.pdf|Casini–Teste–Torroba]] | [arXiv PDF](https://arxiv.org/pdf/1703.10656) |
-| [[causal-wall-spectral-theory/sources/papers/1807.06211-planck-2018-inflation.pdf|Planck inflation]] | [arXiv PDF](https://arxiv.org/pdf/1807.06211) |
-| [[causal-wall-spectral-theory/sources/papers/1905.05697-planck-2018-primordial-non-gaussianity.pdf|Planck non-Gaussianity]] | [arXiv PDF](https://arxiv.org/pdf/1905.05697) |
-| [[causal-wall-spectral-theory/sources/papers/1973-araki-relative-hamiltonian-faithful-normal-states.pdf|Araki relative Hamiltonian]] | [EMS Press article file](https://ems.press/content/serial-article-files/41744?nt=1); DOI `10.2977/prims/1195192744` |
-| [[causal-wall-spectral-theory/sources/papers/1976-araki-relative-entropy-von-neumann-algebras-i.pdf|Araki relative entropy I]] | [EMS Press article file](https://ems.press/content/serial-article-files/41836?nt=1); DOI `10.2977/prims/1195191148` |
-| [[causal-wall-spectral-theory/sources/papers/1977-araki-relative-entropy-von-neumann-algebras-ii.pdf|Araki relative entropy II]] | [EMS Press article file](https://ems.press/content/serial-article-files/41913?nt=1); DOI `10.2977/prims/1195190105` |
-| [[causal-wall-spectral-theory/sources/papers/1988-mukhanov-gauge-invariant-cosmological-perturbations.pdf|Mukhanov]] | [Official JETP scan](https://jetp.ras.ru/cgi-bin/dn/e_067_07_1297.pdf) |
-| [[causal-wall-spectral-theory/sources/papers/1995-petz-sudar-geometries-quantum-states-substitute.pdf|Petz–Sudár substitute]] | [ESI preprint 204](https://www.esi.ac.at/preprints/esi204.pdf) |
-| [[causal-wall-spectral-theory/sources/papers/2110.00483-bicep-keck-2018-primordial-gravitational-waves.pdf|BICEP/Keck BK18]] | [arXiv PDF](https://arxiv.org/pdf/2110.00483) |
-| [[causal-wall-spectral-theory/sources/papers/2306.01837-jensen-sorce-speranza-generalized-entropy-subregions.pdf|Jensen–Sorce–Speranza]] | [arXiv PDF](https://arxiv.org/pdf/2306.01837) |
-| [[causal-wall-spectral-theory/sources/papers/2406.01669-kudler-flam-leutheusser-satishchandran-algebraic-observational-cosmology.pdf|Kudler-Flam–Leutheusser–Satishchandran]] | [arXiv PDF](https://arxiv.org/pdf/2406.01669) |
-| [[causal-wall-spectral-theory/sources/papers/2503.14452-act-dr6-power-spectra-likelihoods-lcdm.pdf|ACT DR6 baseline]] | [arXiv PDF](https://arxiv.org/pdf/2503.14452) |
-| [[causal-wall-spectral-theory/sources/papers/2503.14454-act-dr6-extended-cosmological-models.pdf|ACT DR6 extended]] | [arXiv PDF](https://arxiv.org/pdf/2503.14454) |
-| [[causal-wall-spectral-theory/sources/papers/2601.07915-chandrasekaran-flanagan-subregion-algebras-gravity.pdf|Chandrasekaran–Flanagan]] | [arXiv PDF](https://arxiv.org/pdf/2601.07915) |
-| [[causal-wall-spectral-theory/sources/papers/9808016-lesniewski-ruskai-monotone-riemannian-metrics-relative-entropy.pdf|Lesniewski–Ruskai]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/9808016) |
-| [[causal-wall-spectral-theory/sources/papers/9903028-brunetti-fredenhagen-microlocal-renormalization-physical-backgrounds.pdf|Brunetti–Fredenhagen]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/9903028) |
+| [[library/holographic-renormalization/0002230-de-haro-solodukhin-skenderis-holographic-renormalization.pdf|de Haro–Solodukhin–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0002230) |
+| [[library/a-new-approach-to-the-evolution-of-cosmological-perturbations-on-large-scales/0003278-wands-malik-lyth-liddle-cosmological-perturbations-large-scales.pdf|Wands–Malik–Lyth–Liddle]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0003278) |
+| [[library/local-wick-polynomials-and-time-ordered-products/0103074-hollands-wald-local-wick-polynomials-time-ordered-products.pdf|Hollands–Wald I]] | [arXiv PDF](https://arxiv.org/pdf/gr-qc/0103074) |
+| [[library/scattering-matrix-in-conformal-geometry/0109089-graham-zworski-scattering-matrix-conformal-geometry.pdf|Graham–Zworski]] | [arXiv PDF](https://arxiv.org/pdf/math/0109089) |
+| [[library/existence-of-local-covariant-time-ordered-products/0111108-hollands-wald-existence-local-covariant-time-ordered-products.pdf|Hollands–Wald II]] | [arXiv PDF](https://arxiv.org/pdf/gr-qc/0111108) |
+| [[library/the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics/0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf|Brunetti–Fredenhagen–Verch]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/0112041) |
+| [[library/conformally-invariant-powers-of-the-laplacian-q-curvature-and-tractor-calculus/0201030-gover-peterson-gjms-q-curvature-tractor-calculus-substitute.pdf|Gover–Peterson substitute]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/0201030) |
+| [[library/non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models/0210603-maldacena-non-gaussian-features-single-field-inflation.pdf|Maldacena]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0210603) |
+| [[library/adiabatic-modes-in-cosmology/0302326-weinberg-adiabatic-modes-cosmology.pdf|Weinberg adiabatic modes]] | [arXiv PDF](https://arxiv.org/pdf/astro-ph/0302326) |
+| [[library/correlation-functions-in-holographic-rg-flows/0407071-papadimitriou-skenderis-holographic-rg-flow-correlators.pdf|Papadimitriou–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0407071) |
+| [[library/quantum-contributions-to-cosmological-correlations/0506236-weinberg-quantum-contributions-cosmological-correlations.pdf|Weinberg in-in]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0506236) |
+| [[library/pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence/0610253-skenderis-townsend-domain-wall-cosmology-correspondence.pdf|Skenderis–Townsend]] | [arXiv PDF](https://arxiv.org/pdf/hep-th/0610253) |
+| [[library/cosmological-horizons-and-reconstruction-of-quantum-field-theories/0712.1770-dappiaggi-moretti-pinamonti-cosmological-horizons-qft.pdf|Dappiaggi–Moretti–Pinamonti]] | [arXiv PDF](https://arxiv.org/pdf/0712.1770) |
+| [[library/relative-entropy-and-the-bekenstein-bound/0804.2182-casini-relative-entropy-bekenstein-bound.pdf|Casini]] | [arXiv PDF](https://arxiv.org/pdf/0804.2182) |
+| [[library/holography-for-cosmology/0907.5542-mcfadden-skenderis-holography-for-cosmology.pdf|McFadden–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/0907.5542) |
+| [[library/fractional-laplacian-in-conformal-geometry/1003.0398-chang-gonzalez-fractional-laplacian-conformal-geometry.pdf|Chang–González]] | [arXiv PDF](https://arxiv.org/pdf/1003.0398) |
+| [[library/fractional-conformal-laplacians-and-fractional-yamabe-problems/1012.0579-gonzalez-qing-fractional-conformal-laplacians-yamabe.pdf|González–Qing]] | [arXiv PDF](https://arxiv.org/pdf/1012.0579) |
+| [[library/constraining-holographic-inflation-with-wmap/1104.2040-easther-flauger-mcfadden-skenderis-holographic-inflation-wmap.pdf|Easther et al.]] | [arXiv PDF](https://arxiv.org/pdf/1104.2040) |
+| [[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/1104.2621-harlow-stanford-operator-dictionaries-wave-functions.pdf|Harlow–Stanford]] | [arXiv PDF](https://arxiv.org/pdf/1104.2621) |
+| [[library/cosmological-3-point-correlators-from-holography/1104.3894-mcfadden-skenderis-cosmological-three-point-correlators.pdf|McFadden–Skenderis three-point]] | [arXiv PDF](https://arxiv.org/pdf/1104.3894) |
+| [[library/dynamical-locality-and-covariance/1106.4785-fewster-verch-dynamical-locality-covariance.pdf|Fewster–Verch]] | [arXiv PDF](https://arxiv.org/pdf/1106.4785) |
+| [[library/holography-for-inflation-using-conformal-perturbation-theory/1211.4550-bzowski-mcfadden-skenderis-holography-inflation-cpt.pdf|Bzowski–McFadden–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/1211.4550) |
+| [[library/an-infinite-set-of-ward-identities-for-adiabatic-modes-in-cosmology/1304.5527-hinterbichler-hui-khoury-ward-identities-adiabatic-modes.pdf|Hinterbichler–Hui–Khoury]] | [arXiv PDF](https://arxiv.org/pdf/1304.5527) |
+| [[library/on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden deformed-CFT spectrum]] | [arXiv PDF](https://arxiv.org/pdf/1308.0331) |
+| [[library/on-fractional-gjms-operators/1406.1846-case-chang-fractional-gjms-operators.pdf|Case–Chang]] | [arXiv PDF](https://arxiv.org/pdf/1406.1846) |
+| [[library/a-manifestly-local-theory-of-vacuum-energy-sequestering/1505.01492-kaloper-padilla-stefanyszyn-zahariade-local-vacuum-energy-sequestering.pdf|Kaloper–Padilla]] | [arXiv PDF](https://arxiv.org/pdf/1505.01492) |
+| [[library/entanglement-equilibrium-and-the-einstein-equation/1505.04753-jacobson-entanglement-equilibrium-einstein-equation.pdf|Jacobson]] | [arXiv PDF](https://arxiv.org/pdf/1505.04753) |
+| [[library/canonical-energy-is-quantum-fisher-information/1508.00897-lashkari-van-raamsdonk-canonical-energy-quantum-fisher-information.pdf|Lashkari–Van Raamsdonk]] | [arXiv PDF](https://arxiv.org/pdf/1508.00897) |
+| [[library/constraining-holographic-cosmology-using-planck-data/1703.05385-afshordi-gould-skenderis-holographic-cosmology-planck.pdf|Afshordi–Gould–Skenderis]] | [arXiv PDF](https://arxiv.org/pdf/1703.05385) |
+| [[library/modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state/1703.10656-casini-teste-torroba-null-plane-modular-hamiltonians.pdf|Casini–Teste–Torroba]] | [arXiv PDF](https://arxiv.org/pdf/1703.10656) |
+| [[library/planck-2018-results-x-constraints-on-inflation/1807.06211-planck-2018-inflation.pdf|Planck inflation]] | [arXiv PDF](https://arxiv.org/pdf/1807.06211) |
+| [[library/planck-2018-results-ix-constraints-on-primordial-non-gaussianity/1905.05697-planck-2018-primordial-non-gaussianity.pdf|Planck non-Gaussianity]] | [arXiv PDF](https://arxiv.org/pdf/1905.05697) |
+| [[library/relative-hamiltonian-for-faithful-normal-states/1973-araki-relative-hamiltonian-faithful-normal-states.pdf|Araki relative Hamiltonian]] | [EMS Press article file](https://ems.press/content/serial-article-files/41744?nt=1); DOI `10.2977/prims/1195192744` |
+| [[library/relative-entropy-of-states-of-von-neumann-algebras/1976-araki-relative-entropy-von-neumann-algebras-i.pdf|Araki relative entropy I]] | [EMS Press article file](https://ems.press/content/serial-article-files/41836?nt=1); DOI `10.2977/prims/1195191148` |
+| [[library/relative-entropy-for-states-of-von-neumann-algebras-ii/1977-araki-relative-entropy-von-neumann-algebras-ii.pdf|Araki relative entropy II]] | [EMS Press article file](https://ems.press/content/serial-article-files/41913?nt=1); DOI `10.2977/prims/1195190105` |
+| [[library/quantum-theory-of-gauge-invariant-cosmological-perturbations/1988-mukhanov-gauge-invariant-cosmological-perturbations.pdf|Mukhanov]] | [Official JETP scan](https://jetp.ras.ru/cgi-bin/dn/e_067_07_1297.pdf) |
+| [[library/geometries-of-quantum-states/1995-petz-sudar-geometries-quantum-states-substitute.pdf|Petz–Sudár substitute]] | [ESI preprint 204](https://www.esi.ac.at/preprints/esi204.pdf) |
+| [[library/bicep-keck-2018-primordial-gravitational-waves/2110.00483-bicep-keck-2018-primordial-gravitational-waves.pdf|BICEP/Keck BK18]] | [arXiv PDF](https://arxiv.org/pdf/2110.00483) |
+| [[library/generalized-entropy-for-general-subregions-in-quantum-gravity/2306.01837-jensen-sorce-speranza-generalized-entropy-subregions.pdf|Jensen–Sorce–Speranza]] | [arXiv PDF](https://arxiv.org/pdf/2306.01837) |
+| [[library/algebraic-observational-cosmology/2406.01669-kudler-flam-leutheusser-satishchandran-algebraic-observational-cosmology.pdf|Kudler-Flam–Leutheusser–Satishchandran]] | [arXiv PDF](https://arxiv.org/pdf/2406.01669) |
+| [[library/act-dr6-power-spectra-likelihoods-lambda-cdm/2503.14452-act-dr6-power-spectra-likelihoods-lcdm.pdf|ACT DR6 baseline]] | [arXiv PDF](https://arxiv.org/pdf/2503.14452) |
+| [[library/the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological-models/2503.14454-act-dr6-extended-cosmological-models.pdf|ACT DR6 extended]] | [arXiv PDF](https://arxiv.org/pdf/2503.14454) |
+| [[library/subregion-algebras-in-classical-and-quantum-gravity/2601.07915-chandrasekaran-flanagan-subregion-algebras-gravity.pdf|Chandrasekaran–Flanagan]] | [arXiv PDF](https://arxiv.org/pdf/2601.07915) |
+| [[library/monotone-riemannian-metrics-and-relative-entropy/9808016-lesniewski-ruskai-monotone-riemannian-metrics-relative-entropy.pdf|Lesniewski–Ruskai]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/9808016) |
+| [[library/microlocal-analysis-and-interacting-qft/9903028-brunetti-fredenhagen-microlocal-renormalization-physical-backgrounds.pdf|Brunetti–Fredenhagen]] | [arXiv PDF](https://arxiv.org/pdf/math-ph/9903028) |
 
 The original 1992 GJMS paper is closed at its publisher; DOI `10.1112/jlms/s2-46.3.557`. The requested Petz 1996 article is closed at Elsevier and its former author-hosted URL is dead; DOI `10.1016/0024-3795(94)00211-8`. The local files explicitly named `substitute` are related primary papers, not copies of those two originals.
 

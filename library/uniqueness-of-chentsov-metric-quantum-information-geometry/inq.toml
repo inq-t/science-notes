@@ -1,0 +1,4 @@
+[module]
+name = "uniqueness-of-chentsov-metric-quantum-information-geometry"
+entry = "entry.md"
+include = ["**"]

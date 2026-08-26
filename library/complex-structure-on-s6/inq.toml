@@ -1,14 +1,4 @@
 [module]
 name = "complex-structure-on-s6"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

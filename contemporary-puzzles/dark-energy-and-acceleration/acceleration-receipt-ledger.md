@@ -132,4 +132,4 @@ Distinguished from what would merely revise the framework, since a failure that 
 
 **Kills the response as physics without touching the type argument.** No conserved covariant $T^X_{ab}$ realizing the background, in which case the homogeneous response is not a physical sector and the cosmology reduces to an ansatz with suggestive notation.
 
-Sources for the observational values in layer three: DESI Collaboration, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints*, [arXiv:2503.14738](https://arxiv.org/abs/2503.14738), Table 5 and Eqs. (25)–(28); significances cross-checked against M. Cortês and A. R. Liddle, [arXiv:2504.15336](https://arxiv.org/abs/2504.15336).
+Sources for the observational values in layer three: DESI Collaboration, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints*, [[library/desi-dr2-results-ii/entry|arXiv:2503.14738]], Table 5 and Eqs. (25)–(28); significances cross-checked against M. Cortês and A. R. Liddle, [[library/on-desi-dr2-exclusion-of-lambda-cdm/entry|arXiv:2504.15336]].

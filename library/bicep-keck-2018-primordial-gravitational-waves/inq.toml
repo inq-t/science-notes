@@ -1,0 +1,4 @@
+[module]
+name = "bicep-keck-2018-primordial-gravitational-waves"
+entry = "entry.md"
+include = ["**"]

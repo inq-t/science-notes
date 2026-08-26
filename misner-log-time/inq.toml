@@ -3,9 +3,4 @@ name = "misner-log-time"
 entry = "entry.md"
 include = [
   "**/*.md",
-  "sources/*.pdf",
-  "sources/*.tar.gz",
-  "sources/**/*.tex",
-  "sources/**/*.png",
-  "sources/**/*.ps",
 ]

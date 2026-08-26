@@ -27,7 +27,7 @@ Geometric modular flow is known exactly: the modular Hamiltonian generates boost
 
 **Newly nontrivial:** the region has finite extent, so the cut is a genuine choice and the modular Hamiltonian is no longer a global boost.
 
-Local stress-tensor modular Hamiltonians and a Markov property for vacuum regions on a null plane, or a null cone in a conformal theory, are available from [[causal-wall-spectral-theory/sources/papers/1703.10656-casini-teste-torroba-null-plane-modular-hamiltonians.pdf|Casini, Teste, and Torroba]]. The setting is still static and vacuum, so transport between nearby regions is a controlled deformation rather than an evolution.
+Local stress-tensor modular Hamiltonians and a Markov property for vacuum regions on a null plane, or a null cone in a conformal theory, are available from [[library/modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state/entry|Casini, Teste, and Torroba]]. The setting is still static and vacuum, so transport between nearby regions is a controlled deformation rather than an evolution.
 
 **What it tests.** Whether the channel and normalization survive localization, and whether a one-parameter family of nested regions produces an affine state coordinate.
 
@@ -35,7 +35,7 @@ Local stress-tensor modular Hamiltonians and a Markov property for vacuum region
 
 **Newly nontrivial:** the algebra type changes, and observables must be dressed.
 
-Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constructed by [[causal-wall-spectral-theory/sources/papers/2306.01837-jensen-sorce-speranza-generalized-entropy-subregions.pdf|Jensen, Sorce, and Speranza]], using states whose instantaneously geometric modular flow is itself conjectural. Horizon-cut algebras with edge modes and half-sided modular structure in perturbative gravity about black-hole backgrounds are constructed by [[causal-wall-spectral-theory/sources/papers/2601.07915-chandrasekaran-flanagan-subregion-algebras-gravity.pdf|Chandrasekaran and Flanagan]].
+Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constructed by [[library/generalized-entropy-for-general-subregions-in-quantum-gravity/entry|Jensen, Sorce, and Speranza]], using states whose instantaneously geometric modular flow is itself conjectural. Horizon-cut algebras with edge modes and half-sided modular structure in perturbative gravity about black-hole backgrounds are constructed by [[library/subregion-algebras-in-classical-and-quantum-gravity/entry|Chandrasekaran and Flanagan]].
 
 **What it tests.** Whether the entropy normalization retains its meaning once a density matrix and a trace become available in the crossed product — and whether the edge or corner degrees of freedom introduce additional reflection-odd modes that the channel obligation must then suppress. This is the first rung where the discarded-mode bound in [[binary-channel|the binary channel obligation]] has real content.
 
@@ -43,7 +43,7 @@ Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constru
 
 **Newly nontrivial:** transport becomes a genuine evolution, and the region moves.
 
-Gravitationally dressed observables for a comoving observer in a past-asymptotically-de Sitter cosmology are constructed by [[causal-wall-spectral-theory/sources/papers/2406.01669-kudler-flam-leutheusser-satishchandran-algebraic-observational-cosmology.pdf|Kudler-Flam, Leutheusser, and Satishchandran]].
+Gravitationally dressed observables for a comoving observer in a past-asymptotically-de Sitter cosmology are constructed by [[library/algebraic-observational-cosmology/entry|Kudler-Flam, Leutheusser, and Satishchandran]].
 
 **What it tests.** Whether the horizontal noncentral term of the comparison is nonzero and frame-independent once the fibers genuinely differ, and whether holonomy is negligible over a finite stretch of the family. This is the first rung at which the affine soldering hypothesis can be checked rather than assumed.
 

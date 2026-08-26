@@ -25,7 +25,7 @@ The first two structures exist in the causal-scale reduction. No map to the last
 
 ## Why the domain-wall analogy is legitimate but incomplete
 
-Kaplan's [[sources/papers/hep-lat-9206013-kaplan-chiral-fermions.pdf|domain-wall construction]] obtains chiral zero modes from a fermionic Dirac operator with a defect mass. The causal-scale operator contains the same one-dimensional kink profile, but presently $\theta$ labels horizontal state deformation, not a physical extra coordinate, defect, or internal finite space. Formal agreement of the one-dimensional factor therefore does not establish a Weyl fermion.
+Kaplan's [[library/a-method-for-simulating-chiral-fermions-on-the-lattice/entry|domain-wall construction]] obtains chiral zero modes from a fermionic Dirac operator with a defect mass. The causal-scale operator contains the same one-dimensional kink profile, but presently $\theta$ labels horizontal state deformation, not a physical extra coordinate, defect, or internal finite space. Formal agreement of the one-dimensional factor therefore does not establish a Weyl fermion.
 
 A physical lift would have to supply at least:
 

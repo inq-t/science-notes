@@ -1,14 +1,4 @@
 [module]
 name = "renormalisation-of-postquantum-gravity"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

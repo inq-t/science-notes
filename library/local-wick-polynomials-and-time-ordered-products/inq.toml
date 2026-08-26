@@ -1,0 +1,4 @@
+[module]
+name = "local-wick-polynomials-and-time-ordered-products"
+entry = "entry.md"
+include = ["**"]

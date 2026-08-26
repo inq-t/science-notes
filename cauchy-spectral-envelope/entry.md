@@ -21,7 +21,7 @@ $$
 
 This gives a rigorous sense in which unresolved scale can make reconstruction ill-conditioned. High spectral modes remain present but are strongly attenuated, so arbitrarily small observational error can become arbitrarily large when one attempts to invert the envelope. That is an operational resolution limit. It is not yet a proof that the attenuated distinctions cease to exist, because the map is injective and has dense range.
 
-The starting source is [Sigtermans' non-peer-reviewed TEQ preprint](https://doi.org/10.20944/preprints202506.0446.v2). Its Gaussian-mixture calculation is correct after normalization. The present note extracts that calculation, places it in functional calculus, and audits the larger claims made around it.
+The starting source is [[library/lorentzian-kernel-epistemic-envelope/entry|Sigtermans' non-peer-reviewed TEQ preprint]]. Its Gaussian-mixture calculation is correct after normalization. The present note extracts that calculation, places it in functional calculus, and audits the larger claims made around it.
 
 ## The exact scalar identity
 
@@ -306,7 +306,7 @@ The heat-mixture and fractional-resolvent steps of that theorem are already exac
 
 ## Primary sources
 
-- David Sigtermans, “The Lorentzian Kernel as an Emergent Epistemic Envelope: Averaging, Resolution, and the Geometry of Distinguishability,” Preprints.org (2025), version 2, [doi:10.20944/preprints202506.0446.v2](https://doi.org/10.20944/preprints202506.0446.v2). A local source copy and abstract are archived in the library under the same title.
+- David Sigtermans, “The Lorentzian Kernel as an Emergent Epistemic Envelope: Averaging, Resolution, and the Geometry of Distinguishability,” Preprints.org (2025), version 2, [[library/lorentzian-kernel-epistemic-envelope/entry|doi:10.20944/preprints202506.0446.v2]]. A local source copy and abstract are archived in the library under the same title.
 - Serge Bernstein, “Sur les fonctions absolument monotones,” *Acta Mathematica* **52** (1929), 1–66, [doi:10.1007/BF02592679](https://doi.org/10.1007/BF02592679). This is the original source behind the positive-measure representation of completely monotone functions.
 - Salomon Bochner, “Diffusion Equation and Stochastic Processes,” *Proceedings of the National Academy of Sciences* **35** (1949), 368–370, [doi:10.1073/pnas.35.7.368](https://doi.org/10.1073/pnas.35.7.368). This is an original source for probabilistic subordination of diffusion.
 - Einar Hille and Ralph S. Phillips, *Functional Analysis and Semi-Groups*, American Mathematical Society Colloquium Publications 31, revised edition (1957), [AMS record](https://bookstore.ams.org/COLL/31). This is a primary monograph for Laplace integrals, generators, resolvents, and operational calculus.

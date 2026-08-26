@@ -1,0 +1,4 @@
+[module]
+name = "a-covariant-version-of-verlinde-s-emergent-gravity"
+entry = "entry.md"
+include = ["**"]

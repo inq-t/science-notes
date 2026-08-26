@@ -1,27 +1,27 @@
-# Local Sources
+# Source Index
 
-This source set supports the distinction between controlled recovery, imported local physics, and global constitutive closure. Canonical notes link to local copies; upstream addresses and download provenance are isolated in [[compatible-with-existing-physics/sources/origins|the origins ledger]].
+This index supports the distinction between controlled recovery, imported local physics, and global constitutive closure. Canonical notes link to the one-source wrappers under `library/`; upstream addresses and download provenance remain isolated in [[compatible-with-existing-physics/sources/origins|the origins ledger]].
 
-The archived files are verified in [[compatible-with-existing-physics/sources/checksums|the checksum ledger]].
+The relocated article payloads remain verified by [[compatible-with-existing-physics/sources/checksums|the checksum ledger]].
 
 ## Recovery and the Newtonian limit
 
-- [[compatible-with-existing-physics/sources/papers/1910.12106-buchert-maedler-ehlers-newtonian-limit.pdf|Buchert and Mädler, editorial note on Ehlers' Newtonian limit]] — frame theory and the controlled relation between relativistic and Newtonian gravitation.
+- [[library/ehlers-newtonian-limit/entry|Buchert and Mädler, editorial note on Ehlers' Newtonian limit]] — frame theory and the controlled relation between relativistic and Newtonian gravitation.
 
 ## Local and curved-spacetime QFT
 
-- [[compatible-with-existing-physics/sources/papers/1803.04993-witten-entanglement-qft.pdf|Witten, Notes on Some Entanglement Properties of Quantum Field Theory]] — local algebras, entanglement, and the type-III setting.
-- [[compatible-with-existing-physics/sources/papers/0803.2003-hollands-wald-axiomatic-qft-curved-spacetime.pdf|Hollands and Wald, Axiomatic Quantum Field Theory in Curved Spacetime]] — local covariance and the operator-product formulation.
-- [[compatible-with-existing-physics/sources/papers/1401.2026-hollands-wald-qft-curved-spacetime-review.pdf|Hollands and Wald, Quantum Fields in Curved Spacetime]] — review of local covariance, microlocal states, renormalization, and stress response.
-- [[compatible-with-existing-physics/sources/papers/1804.02020-markkanen-sm-curved-spacetime.pdf|Markkanen et al., The One-Loop Effective Potential for the Standard Model in Curved Spacetime]] — a concrete calculation of curvature-dependent Standard Model effective terms.
-- [[causal-wall-spectral-theory/sources/papers/0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf|Brunetti, Fredenhagen, and Verch, generally covariant locality]] — functorial local QFT on curved spacetime.
-- [[causal-wall-spectral-theory/sources/papers/1106.4785-fewster-verch-dynamical-locality-covariance.pdf|Fewster and Verch, dynamical locality]] — constraints on local covariance and preferred-state constructions.
+- [[library/notes-on-some-entanglement-properties-of-quantum-field-theory/entry|Witten, Notes on Some Entanglement Properties of Quantum Field Theory]] — local algebras, entanglement, and the type-III setting.
+- [[library/axiomatic-quantum-field-theory-in-curved-spacetime/entry|Hollands and Wald, Axiomatic Quantum Field Theory in Curved Spacetime]] — local covariance and the operator-product formulation.
+- [[library/quantum-fields-in-curved-spacetime/entry|Hollands and Wald, Quantum Fields in Curved Spacetime]] — review of local covariance, microlocal states, renormalization, and stress response.
+- [[library/the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime/entry|Markkanen et al., The One-Loop Effective Potential for the Standard Model in Curved Spacetime]] — a concrete calculation of curvature-dependent Standard Model effective terms.
+- [[library/the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics/entry|Brunetti, Fredenhagen, and Verch, generally covariant locality]] — functorial local QFT on curved spacetime.
+- [[library/dynamical-locality-and-covariance/entry|Fewster and Verch, dynamical locality]] — constraints on local covariance and preferred-state constructions.
 
 ## Cosmological correlators and spectral representations
 
-- [[compatible-with-existing-physics/sources/papers/2108.01695-di-pietro-gorbenko-komatsu-cosmological-correlators.pdf|Di Pietro, Gorbenko, and Komatsu, Analyticity and Unitarity for Cosmological Correlators]] — higher-point analytic and positivity structure.
-- [[causal-wall-spectral-theory/sources/papers/0907.5542-mcfadden-skenderis-holography-for-cosmology.pdf|McFadden and Skenderis, Holography for Cosmology]] — the conditional domain-wall/cosmology representation used by CWST.
-- [[causal-wall-spectral-theory/sources/papers/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden, the power spectrum of inflationary cosmologies dual to a deformed CFT]] — a worked near-CFT spectral member.
+- [[library/analyticity-and-unitarity-for-cosmological-correlators/entry|Di Pietro, Gorbenko, and Komatsu, Analyticity and Unitarity for Cosmological Correlators]] — higher-point analytic and positivity structure.
+- [[library/holography-for-cosmology/entry|McFadden and Skenderis, Holography for Cosmology]] — the conditional domain-wall/cosmology representation used by CWST.
+- [[library/on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft/entry|McFadden, the power spectrum of inflationary cosmologies dual to a deformed CFT]] — a worked near-CFT spectral member.
 
 ## Observational material
 

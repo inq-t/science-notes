@@ -1,0 +1,4 @@
+[module]
+name = "determinant-line-bundles-revisited"
+entry = "entry.md"
+include = ["**"]

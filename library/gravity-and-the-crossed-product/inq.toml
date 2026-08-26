@@ -1,15 +1,4 @@
 [module]
 name = "gravity-and-the-crossed-product"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.png",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

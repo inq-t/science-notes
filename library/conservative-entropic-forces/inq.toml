@@ -1,0 +1,4 @@
+[module]
+name = "conservative-entropic-forces"
+entry = "entry.md"
+include = ["**"]

@@ -1,0 +1,4 @@
+[module]
+name = "axiomatic-quantum-field-theory-in-curved-spacetime"
+entry = "entry.md"
+include = ["**"]

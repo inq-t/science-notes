@@ -1,0 +1,4 @@
+[module]
+name = "equilibrium-to-einstein-entanglement-thermodynamics-and-gravity"
+entry = "entry.md"
+include = ["**"]

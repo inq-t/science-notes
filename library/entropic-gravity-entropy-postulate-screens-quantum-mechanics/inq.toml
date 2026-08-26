@@ -1,0 +1,4 @@
+[module]
+name = "entropic-gravity-entropy-postulate-screens-quantum-mechanics"
+entry = "entry.md"
+include = ["**"]

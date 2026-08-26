@@ -36,11 +36,11 @@ It must nevertheless avoid making those inputs mutually inconsistent. A local re
 - positivity or unitarity in the relevant Lorentzian description; and
 - the measured constancy of local masses, charges, and dimensionless couplings unless variation is explicitly predicted and tested.
 
-[[compatible-with-existing-physics/sources/papers/0803.2003-hollands-wald-axiomatic-qft-curved-spacetime.pdf|Hollands and Wald]] give one rigorous formulation of local and covariant QFT on curved backgrounds. [[compatible-with-existing-physics/sources/papers/1803.04993-witten-entanglement-qft.pdf|Witten's algebraic review]] explains why local QFT is naturally expressed through observable algebras rather than local density matrices. These are ingredients for stating the fiber, not evidence that the causal-scale gluing has already been built.
+[[library/axiomatic-quantum-field-theory-in-curved-spacetime/entry|Hollands and Wald]] give one rigorous formulation of local and covariant QFT on curved backgrounds. [[library/notes-on-some-entanglement-properties-of-quantum-field-theory/entry|Witten's algebraic review]] explains why local QFT is naturally expressed through observable algebras rather than local density matrices. These are ingredients for stating the fiber, not evidence that the causal-scale gluing has already been built.
 
 ## GR need not remain exact at every scale
 
-Importing GR locally does not require the classical Einstein equation to be the exact quantum effective equation at every curvature and energy. Renormalized QFT in curved spacetime permits curvature terms, trace anomalies, state-dependent stress contributions, and nonlocal effective response. [[compatible-with-existing-physics/sources/papers/1401.2026-hollands-wald-qft-curved-spacetime-review.pdf|The curved-spacetime QFT review]] and [[compatible-with-existing-physics/sources/papers/1804.02020-markkanen-sm-curved-spacetime.pdf|the one-loop Standard Model calculation]] make that qualification concrete.
+Importing GR locally does not require the classical Einstein equation to be the exact quantum effective equation at every curvature and energy. Renormalized QFT in curved spacetime permits curvature terms, trace anomalies, state-dependent stress contributions, and nonlocal effective response. [[library/quantum-fields-in-curved-spacetime/entry|The curved-spacetime QFT review]] and [[library/the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime/entry|the one-loop Standard Model calculation]] make that qualification concrete.
 
 The appropriate local claim is that the surrounding framework preserves the empirically successful gravitational effective description to the measured accuracy of its regime. If it predicts additional curvature, scale, or wall effects, it must state their domain and confront the corresponding bounds.
 
@@ -75,7 +75,7 @@ A global theory need not reproduce the conceptual story by which conventional co
 1. map its whole-state data into the gauge-invariant variables and transfer machinery of established cosmology, or
 2. supply an alternative end-to-end calculation of the same measured observables.
 
-This is **observable representation adequacy**, not necessarily recovery of QFT. A positive spatial kernel alone does not establish causal propagation, stable metric response, or consistency of higher correlations. [[compatible-with-existing-physics/sources/papers/2108.01695-di-pietro-gorbenko-komatsu-cosmological-correlators.pdf|Analyticity and unitarity constraints on cosmological correlators]] illustrate why the observable hierarchy carries structure beyond positivity of one covariance.
+This is **observable representation adequacy**, not necessarily recovery of QFT. A positive spatial kernel alone does not establish causal propagation, stable metric response, or consistency of higher correlations. [[library/analyticity-and-unitarity-for-cosmological-correlators/entry|Analyticity and unitarity constraints on cosmological correlators]] illustrate why the observable hierarchy carries structure beyond positivity of one covariance.
 
 ## Failure conditions
 

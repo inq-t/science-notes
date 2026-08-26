@@ -26,7 +26,7 @@ Terms containing \(\langle T\Upsilon\rangle\) are semilocal: two insertions coin
 
 ## Scalar bispectrum
 
-In the conventions of [[causal-wall-spectral-theory/sources/papers/1104.3894-mcfadden-skenderis-cosmological-three-point-correlators.pdf|McFadden and Skenderis]], with momentum delta functions stripped and all QFT quantities continued before taking the imaginary part,
+In the conventions of [[library/cosmological-3-point-correlators-from-holography/entry|McFadden and Skenderis]], with momentum delta functions stripped and all QFT quantities continued before taking the imaginary part,
 
 $$
 \begin{aligned}

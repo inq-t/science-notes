@@ -1,0 +1,4 @@
+[module]
+name = "minimal-index-and-matrix-dimension-finite-centers"
+entry = "entry.md"
+include = ["**"]

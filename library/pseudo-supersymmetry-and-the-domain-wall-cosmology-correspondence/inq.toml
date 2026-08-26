@@ -1,0 +1,4 @@
+[module]
+name = "pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence"
+entry = "entry.md"
+include = ["**"]

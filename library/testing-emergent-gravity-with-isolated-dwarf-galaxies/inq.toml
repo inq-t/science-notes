@@ -1,0 +1,4 @@
+[module]
+name = "testing-emergent-gravity-with-isolated-dwarf-galaxies"
+entry = "entry.md"
+include = ["**"]

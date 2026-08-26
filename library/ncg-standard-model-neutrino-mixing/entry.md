@@ -1,11 +1,15 @@
-# Noncommutative Geometry and the Standard Model with Neutrino Mixing
+# Noncommutative Geometry and the standard model with neutrino mixing
 
-We show that allowing the metric dimension of a space to be independent of its KO-dimension and turning the finite noncommutative geometry F — whose product with classical 4-dimensional space-time gives the standard model coupled with gravity — into a space of KO-dimension 6 by changing the grading on the antiparticle sector into its opposite, allows to solve three problems of the previous noncommutative geometry interpretation of the standard model of particle physics: The finite geometry F is no longer put in "by hand" but a conceptual understanding of its structure and a classification of its metrics is given. The fermion doubling problem in the fermionic part of the action is resolved. The spectral action of our joint work with Chamseddine now automatically generates the full standard model coupled with gravity with neutrino mixing and see-saw mechanism for neutrino masses. The predictions of the Weinberg angle and the Higgs scattering parameter at unification scale are the same as in our joint work but we also find a mass relation (to be imposed at unification scale).
+We show that allowing the metric dimension of a space to be independent of its KO-dimension and turning the finite noncommutative geometry F-- whose product with classical 4-dimensional space-time gives the standard model coupled with gravity--into a space of KO-dimension 6 by changing the grading on the antiparticle sector into its opposite, allows to solve three problems of the previous noncommutative geometry interpretation of the standard model of particle physics: The finite geometry F is no longer put in "by hand" but a conceptual understanding of its structure and a classification of its metrics is given. The fermion doubling problem in the fermionic part of the action is resolved. The spectral action of our joint work with Chamseddine now automatically generates the full standard model coupled with gravity with neutrino mixing and see-saw mechanism for neutrino masses. The predictions of the Weinberg angle and the Higgs scattering parameter at unification scale are the same as in our joint work but we also find a mass relation (to be imposed at unification scale).
 
-## Source
+## Metadata
 
-Alain Connes.
-
-- [arXiv:hep-th/0608226v2](https://arxiv.org/abs/hep-th/0608226), v2 dated 27 November 2006. No journal reference recorded.
-
-Files: `standard.tex`. The file is Latin-1 encoded, not UTF-8.
+- **Authors:** Alain Connes.
+- **Year:** 2006.
+- **First submitted:** 2006-08-31.
+- **Last revised:** 2006-11-27.
+- **Primary category:** `hep-th`.
+- **arXiv:** [hep-th/0608226v2](https://arxiv.org/abs/hep-th/0608226).
+- **Publication:** JHEP0611:081,2006.
+- **DOI:** [10.1088/1126-6708/2006/11/081](https://doi.org/10.1088/1126-6708/2006/11/081).
+- **Local artifacts:** `hep-th-0608226-connes-standard-model-neutrino-mixing.pdf`.

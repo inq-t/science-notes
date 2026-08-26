@@ -1,0 +1,4 @@
+[module]
+name = "conformally-invariant-powers-of-the-laplacian-q-curvature-and-tractor-calculus"
+entry = "entry.md"
+include = ["**"]

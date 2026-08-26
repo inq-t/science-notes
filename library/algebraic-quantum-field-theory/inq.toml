@@ -1,0 +1,4 @@
+[module]
+name = "algebraic-quantum-field-theory"
+entry = "entry.md"
+include = ["**"]

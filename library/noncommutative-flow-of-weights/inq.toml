@@ -1,14 +1,4 @@
 [module]
 name = "noncommutative-flow-of-weights"
 entry = "entry.md"
-include = [
-  "**/*.md",
-  "**/*.tex",
-  "**/*.bib",
-  "**/*.bbl",
-  "**/*.sty",
-  "**/*.bst",
-  "**/*.pdf",
-  "**/*.json",
-  "**/*.py"
-]
+include = ["**"]

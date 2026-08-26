@@ -1,0 +1,4 @@
+[module]
+name = "ehlers-newtonian-limit"
+entry = "entry.md"
+include = ["**"]

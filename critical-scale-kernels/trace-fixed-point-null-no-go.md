@@ -71,7 +71,7 @@ $$
 \langle\mathcal O_I\mathcal O_J\rangle.
 $$
 
-A finite near-critical response can arise if the beta functions are nonzero, or in a controlled double scaling in which operator normalizations grow while beta functions shrink. Such a limit must be derived; it is not implied by the words *near conformal*. The deformed-CFT cosmology of [[causal-wall-spectral-theory/sources/papers/1308.0331-mcfadden-power-spectrum-inflationary-cosmologies-deformed-cft.pdf|McFadden]] is a concrete literature setting in which the trace channel is tied to a deformation rather than a literal nonzero fixed-point trace.
+A finite near-critical response can arise if the beta functions are nonzero, or in a controlled double scaling in which operator normalizations grow while beta functions shrink. Such a limit must be derived; it is not implied by the words *near conformal*. The deformed-CFT cosmology of [[library/on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft/entry|McFadden]] is a concrete literature setting in which the trace channel is tied to a deformation rather than a literal nonzero fixed-point trace.
 
 ## Failure signature
 

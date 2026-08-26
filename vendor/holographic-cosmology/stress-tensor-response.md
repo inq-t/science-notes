@@ -40,7 +40,7 @@ This contraction is **[EXACT]** in the displayed convention. It does not say tha
 
 In a bulk domain-wall solution, scalar and tensor radial canonical momenta admit response expansions. Holographic renormalization extracts the finite dilatation-weight component of these momenta and relates it to the renormalized QFT one-point function. At linear order this gives \(A\) and \(B\) in terms of the asymptotic tensor and scalar bulk responses. The exact coefficient attached to intermediate response symbols depends on their canonical normalization; the \(A,B\) convention above and the final spectrum convention in [[vendor/holographic-cosmology/scalar-and-tensor-spectra|the spectrum dictionary]] are held fixed here.
 
-The radial Hamiltonian construction is developed in [[causal-wall-spectral-theory/sources/papers/0407071-papadimitriou-skenderis-holographic-rg-flow-correlators.pdf|Papadimitriou--Skenderis]]. The counterterm and source-response framework is developed in [[causal-wall-spectral-theory/sources/papers/0002230-de-haro-solodukhin-skenderis-holographic-renormalization.pdf|de Haro--Solodukhin--Skenderis]].
+The radial Hamiltonian construction is developed in [[library/correlation-functions-in-holographic-rg-flows/entry|Papadimitriou--Skenderis]]. The counterterm and source-response framework is developed in [[library/holographic-renormalization/entry|de Haro--Solodukhin--Skenderis]].
 
 ## Contact terms and spectral data
 

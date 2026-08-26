@@ -1,0 +1,4 @@
+[module]
+name = "a-new-su-2-anomaly"
+entry = "entry.md"
+include = ["**"]

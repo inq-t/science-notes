@@ -21,7 +21,7 @@ $$
 :=\frac{2\pi ER}{\hbar c}.
 $$
 
-This is the right-hand side of the Bekenstein entropy bound in natural-log units, not the actual entropy of every system. In quantum field theory, [[deriving-value-of-g/sources/papers/0804.2182-casini-relative-entropy-bekenstein-bound.pdf|Casini's relative-entropy formulation]] supplies a controlled interpretation for suitable regions and states.
+This is the right-hand side of the Bekenstein entropy bound in natural-log units, not the actual entropy of every system. In quantum field theory, [[library/relative-entropy-and-the-bekenstein-bound/entry|Casini's relative-entropy formulation]] supplies a controlled interpretation for suitable regions and states.
 
 The Bekenstein--Hawking capacity assigned to a spherical horizon of the same areal radius is
 
@@ -144,7 +144,7 @@ The objects are nevertheless different:
 | \(\mathcal I_B/\mathcal C_A\) | energy--radius entropy bound | first-order modular-energy or entropy budget | exact algebra after definitions |
 | \(\mathfrak R_\Sigma\) | horizontal BKM squared speed | second-order relative-entropy Hessian | causal-scale physical principle at the self-dual cut |
 
-First-order modular energy and second-order BKM geometry should not be identified merely because both are information-theoretic. Controlled holographic results such as [[deriving-value-of-g/sources/papers/1508.00897-lashkari-van-raamsdonk-canonical-energy-quantum-fisher-information.pdf|canonical energy as quantum Fisher information]] show that a second-order equality can exist in a specified regime; they do not establish it for a dynamical FLRW wall.
+First-order modular energy and second-order BKM geometry should not be identified merely because both are information-theoretic. Controlled holographic results such as [[library/canonical-energy-is-quantum-fisher-information/entry|canonical energy as quantum Fisher information]] show that a second-order equality can exist in a specified regime; they do not establish it for a dynamical FLRW wall.
 
 ## Why none of these equations fixes \(G\)
 

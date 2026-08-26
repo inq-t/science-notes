@@ -324,7 +324,7 @@ $$
 \frac{R_c}{\lambda_*^3}.
 $$
 
-[[causal-scale-theory/conjectures/local-global-vacuum-completion|Local--global vacuum completion]] correctly lists top-form fluxes, unimodular integration data, sequestering-like constraints, and boundary data as competing realizations. [Henneaux and Teitelboim](https://doi.org/10.1016/0370-2693(89)91251-3) provide the unimodular precedent. Kaloper, Padilla, Stefanyszyn, and Zahariade, archived in [[deriving-value-of-g/sources/entry|the G source ledger]], give a primary four-form construction in which gravitational parameters become spacetime constants while the selected values remain global data.
+[[causal-scale-theory/conjectures/local-global-vacuum-completion|Local--global vacuum completion]] correctly lists top-form fluxes, unimodular integration data, sequestering-like constraints, and boundary data as competing realizations. [[library/cosmological-constant-and-general-covariance/entry|Henneaux and Teitelboim]] provide the unimodular precedent. Kaloper, Padilla, Stefanyszyn, and Zahariade, archived in [[deriving-value-of-g/sources/entry|the G source ledger]], give a primary four-form construction in which gravitational parameters become spacetime constants while the selected values remain global data.
 
 Top-form flux, record persistence, and Bianchi protection can coexist. Their conjunction still does not calculate the crossing calibration unless the wall action and its global constraint determine the same value noncircularly.
 

@@ -76,7 +76,7 @@ The supernova-only fits therefore have three parameters \((\Omega_m,H_0,M)\); th
 
 ## Official flat-\(\Lambda\)CDM validation
 
-[Brout et al.](https://doi.org/10.3847/1538-4357/ac8e04) report the marginalized Pantheon+SH0ES flat-\(\Lambda\)CDM constraints
+[[library/pantheon-plus-analysis-cosmological-constraints/entry|Brout et al.]] report the marginalized Pantheon+SH0ES flat-\(\Lambda\)CDM constraints
 
 $$
 \Omega_m=0.334\pm0.018,
@@ -150,7 +150,7 @@ The machine ledger also records the whitened mean, standard deviation, absolute 
 
 The local calibration exposes information that the shape-only receipt deliberately profiles away.
 
-[Planck 2018](https://doi.org/10.1051/0004-6361/201833910), Table 1, gives the marginalized summary \(r_d=147.09\pm0.26\ \mathrm{Mpc}\) for its default Plik TT,TE,EE+lowE+lensing base-\(\Lambda\)CDM analysis. This receipt does not recompute that statistic from the local chains. Relative to that explicitly model-conditioned reference, the released joint fit gives
+[[library/planck-2018-cosmological-parameters/entry|Planck 2018]], Table 1, gives the marginalized summary \(r_d=147.09\pm0.26\ \mathrm{Mpc}\) for its default Plik TT,TE,EE+lowE+lensing base-\(\Lambda\)CDM analysis. This receipt does not recompute that statistic from the local chains. Relative to that explicitly model-conditioned reference, the released joint fit gives
 
 | Model | fitted \(r_d\) | difference from \(147.09\ \mathrm{Mpc}\) | conditional combined discrepancy |
 |---|---:|---:|---:|
@@ -159,7 +159,7 @@ The local calibration exposes information that the shape-only receipt deliberate
 
 The combined values assume independent Gaussian errors. They restate the inverse-distance-ladder form of the Hubble tension; they are not a model-neutral exclusion of either late-time curve. In particular, this receipt does not calculate recombination or construct an endogenous sound horizon. A CST account that keeps the local Cepheid calibration must supply early-ruler physics capable of producing roughly \(136\ \mathrm{Mpc}\), rather than silently importing the base-\(\Lambda\)CDM value.
 
-[Valcin et al.](https://arxiv.org/abs/2102.04486) infer \(t_U=13.5\pm0.27\ \mathrm{Gyr}\) from globular-cluster chronometry using the smaller of their two quoted total-error choices. This inference is comparatively insensitive to late-time cosmological parameters, but it still depends on stellar evolution, distances, abundances, and a cluster-formation delay; it is not assumption-free.
+[[library/globular-cluster-age/entry|Valcin et al.]] infer \(t_U=13.5\pm0.27\ \mathrm{Gyr}\) from globular-cluster chronometry using the smaller of their two quoted total-error choices. This inference is comparatively insensitive to late-time cosmological parameters, but it still depends on stellar evolution, distances, abundances, and a cluster-formation delay; it is not assumption-free.
 
 To calculate a cosmic age, the receipt extends each fitted homogeneous \(E(z)\) from the observed \(z\leq2.33\) domain to \(y=\ln(1+z)=35\), keeping \(\Omega_r=9.15\times10^{-5}\) fixed. For CST-B2 this is an explicit high-redshift extrapolation of the late-time ansatz, not an early-universe construction. Combining the resulting local-Hessian age error in quadrature with the quoted stellar-age error gives
 
