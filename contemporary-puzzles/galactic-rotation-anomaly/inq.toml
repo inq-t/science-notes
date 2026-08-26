@@ -1,0 +1,4 @@
+[module]
+name = "galactic-rotation-anomaly"
+entry = "entry.md"
+include = ["**/*.md", "**/*.py", "**/*.txt"]

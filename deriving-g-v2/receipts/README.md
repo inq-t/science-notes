@@ -1,0 +1,5 @@
+# Receipts
+
+`g_closures.py` (stdlib only, exit nonzero on failure) asserts every number quoted in this module: the ledger density and crossing kinematics, the holographic acceptance number, the fossil-Weinberg carrier masses, the three running kills against the LLR bound, the channel-entropy interval and the exclusion of the rigid Jones ladder, the NCG closure requirement, the a=2 cell against the measured dark-energy length, the ledger-per-Compton-cell identities, the leak rates, and the type-I cell identity on random diagonal states. `receipt-output.txt` is the run on this machine (2026-08-26).
+
+A pass establishes that the quoted values follow from the declared constants, cosmology, and formulas. It does not establish the wall construction, the channel reading, the fossil law, the reported fit's own reliability (REPORTED — LIMITED, per CST empirical status), or any closure's truth in nature. The equal-partition crossing is asserted only as bookkeeping: it is linear in the matching ratio and therefore a construction, not a discovered centrality.

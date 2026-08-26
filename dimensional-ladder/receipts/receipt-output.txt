@@ -1,0 +1,12 @@
+{
+ "c2_G_kg_per_m": 1.346590921500109e+27,
+ "c3_G_kg_per_s": 4.036978022770027e+35,
+ "c4_G_N": 1.2102555643382063e+44,
+ "c5_G_W": 3.6282549044112803e+52,
+ "surface_orbit_min_earth_density": 84.34281088455936,
+ "surface_orbit_min_water": 198.0530119689365,
+ "a_from_c2_over_d_1m": 8.987551787368176e+16,
+ "crossover_GeV": 8.632996887409084e+18,
+ "dx_min_over_lP": 2.0
+}
+ALL RECEIPTS PASS

@@ -1,0 +1,30 @@
+{
+ "etaE_nat_per_m2": 9.57018279289467e+68,
+ "z_c": 0.2955673834609527,
+ "Hc_over_H0": 1.1704699910719625,
+ "T_c_K": 3.1080116974609688e-30,
+ "M_c_kg_CIRCULAR": 7.895083991122457e+52,
+ "ledger_at_crossing_nats": 1.6536067373511123e+122,
+ "weinberg_mass_MeV_zeta1": 39.72917300761128,
+ "weinberg_mass_MeV_zeta14": 63.06613102610873,
+ "running_a1_per_yr": 3.256980296412772e-11,
+ "running_a2_per_yr": 6.513960592825545e-11,
+ "running_log_per_yr": 3.503544382301906e-13,
+ "surviving_exponent": 0.004605493013427484,
+ "s_star_nat": [
+  0.9191,
+  1.0627
+ ],
+ "index_at_s1": 7.38905609893065,
+ "sqrt_f2_Lambda_GeV": 2.704964261597629e+18,
+ "f2_at_unification": 604.6968311173889,
+ "a2_cell_um": 61.56664328298535,
+ "DE_length_um": 88.07803723720875,
+ "a2_C": 4.188790204786392,
+ "ledger_per_proton_cell": 4.23287631807058e+37,
+ "ledger_per_electron_cell": 1.4270958969623384e+44,
+ "c5_over_G_W": 3.6282549044112803e+52,
+ "leak_today_W": 1.71435044233433e+52,
+ "leak_crossing_W": 2.72119117830846e+52
+}
+ALL RECEIPTS PASS
