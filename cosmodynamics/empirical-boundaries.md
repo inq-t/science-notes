@@ -20,6 +20,10 @@ The homogeneous sector is the most developed calculational component. Its profil
 
 Its viability would show that the effective history fits the selected data. It would not show that the source is a BKM response until $G^{\perp}_{NN}$ is calculated independently from a physical state family.
 
+## Absolute scale
+
+Uncalibrated supernovae and BAO constrain the expansion shape and the product \(H_0r_d\), not \(H_0\) and the sound horizon separately. [[causal-scale-theory/receipts/fit-calibrated-background|The Cepheid-calibrated receipt]] makes that distinction empirical: the frozen response remains viable on the released late-time likelihood, but the high-\(H_0\) branch requires a smaller early ruler and carries conditional age pressure when the late-time ansatz is extrapolated to the radiation era. Thus the background response does not by itself solve the Hubble tension; a completion must construct its early ruler and pass stellar-age, BBN, and primary-CMB tests.
+
 ## Perturbations
 
 The whole-state reading of primordial correlations is an ontology compatible with correlation data, not a completed perturbation theory. The theory still owes:

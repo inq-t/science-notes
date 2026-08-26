@@ -6,8 +6,8 @@
  "ledger_crossing": 1.6536067373511574e+122,
  "2(1+q)_today": 0.9449999999999998,
  "index_window": [
-  6.285,
-  8.376
+  6.265,
+  8.365
  ],
  "n_algebraic_survivors": 22,
  "nearest_survivor_ds": 0.0016,

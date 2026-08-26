@@ -33,6 +33,47 @@ $$
 
 after the usual nuisance and calibration parameters are supplied. A credible analysis should fit this forward model directly rather than reconstruct a generic \(w(z)\) and then reinterpret that reconstruction as a wall measurement.
 
+For flat background distances, define
+
+$$
+E(z):=\frac{H(z)}{H_0},
+\qquad
+\chi(z):=\int_0^z\frac{\mathrm dz'}{E(z')}.
+$$
+
+Then
+
+$$
+D_M=\frac{c}{H_0}\chi,
+\qquad
+D_H=\frac{c}{H_0E},
+\qquad
+D_L=(1+z)D_M.
+$$
+
+Every DESI BAO prediction used here is linear in the common nuisance amplitude \(A=c/(H_0r_d)\):
+
+$$
+\frac{D_M}{r_d}=A\chi,
+\qquad
+\frac{D_H}{r_d}=\frac{A}{E},
+\qquad
+\frac{D_V}{r_d}=A\left(\frac{z\chi^2}{E}\right)^{1/3}.
+$$
+
+If \(d\) is the observed BAO vector, \(g\) the member's dimensionless shape vector, and \(C\) the covariance, the calibration is profiled exactly:
+
+$$
+A_{\mathrm{prof}}
+=\frac{g^TC^{-1}d}{g^TC^{-1}g}.
+$$
+
+The supernova absolute-magnitude--\(H_0\) offset is removed by the analogous projection along the all-ones vector. This operationalizes the distinction between height and shape: uncalibrated BAO plus supernovae can compare expansion curves without declaring \(H_0\), \(r_d\), or an absolute supernova magnitude. [[causal-scale-theory/receipts/fit-late-time-background|The direct likelihood receipt]] implements this interface; [[causal-scale-theory/empirical-status|the empirical-status note]] owns its present verdict and limits.
+
+Retaining Cepheid-host supernovae changes the type of the test. Their independently supplied host distance moduli calibrate the common supernova magnitude, which makes \(H_0\) identifiable; the BAO amplitude then returns \(r_d\). [[causal-scale-theory/receipts/fit-calibrated-background|The calibrated receipt]] implements that absolute-scale interface and exposes a sound-horizon obligation plus a conditional age check that extrapolates the late-time ansatz beyond its fitted domain.
+
+A last-scattering distance may be appended to the same amplitude profile through \(D_M(z_*)/r_d=A\chi(z_*)\), but its type must be declared. A value derived from base-\(\Lambda\)CDM posterior chains is a **carrier-conditional compression**, not a model-neutral CMB likelihood. It can expose gross background incompatibility, but it cannot replace a new model's recombination calculation, perturbation transfer functions, or primary anisotropy likelihood.
+
 In flat FLRW with an area-law apparent horizon, the same history also reconstructs \(R_A=c/H\) and the signed horizon rapidity, up to an additive constant, through
 
 $$

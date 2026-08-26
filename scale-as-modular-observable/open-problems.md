@@ -48,7 +48,9 @@ Central shifts have zero length in normalized state geometry, and pure-trace sou
 
 ## Test the background and perturbations
 
-- Reproduce the reported background likelihood with declared datasets, nuisance parameters, covariances, and scripts.
+- **Completed at the background-profile level:** [[causal-scale-theory/receipts/fit-generalized-background|the generalized CST-B2 receipt]] now releases \((\nu,\mathfrak R_c)\), profiles the admitted branch coordinate, and replaces the missing historical `P1/` parameter tables as the current calculation. Its canonical row uses the fully released 2025 likelihood. The unit point is compatible but not selected, and information criteria favor retaining the frozen unit member; the separate 2026 Ly\(\alpha\) row remains a provisional published-Gaussian reconstruction.
+- [[causal-scale-theory/receipts/fit-calibrated-background|The calibrated receipt]] shows that retaining the local Cepheid scale requires an early ruler near \(136\ \mathrm{Mpc}\) and incurs conditional age pressure when the late-time ansatz is extrapolated beyond its fitted domain. Construct that ruler without importing the target \(H_0\), then test it jointly against BBN, stellar ages, and primary CMB data.
+- Repeat the frozen and generalized comparisons when DESI releases the full 2026 Ly\(\alpha\) likelihood and cross-covariances, using current released supernova reductions rather than treating a transcribed two-distance block as final.
 - Test the invariant
 
   $$
@@ -57,7 +59,7 @@ Central shifts have zero length in normalized state geometry, and pure-trace sou
 
   as a correlated functional constraint, not by differentiating noisy point estimates naively.
 - Implement the derived perturbation system in a Boltzmann solver before drawing conclusions from primary CMB, lensing, growth, or neutrino-mass fits.
-- Compare the fixed unit-slope point with the wider $\varrho_\perp$ family; this distinguishes evidence for the binary shape from evidence for its soldering normalization.
+- Freeze and test a genuinely different member of [[causal-scale-theory/response-family-interface|the response-family interface]]. Profiling \(\nu\) and \(\mathfrak R_c\) inside CST-B2 tests that member's shape and soldering parameters, not the selection of CST-B2 from the wider family.
 
 ## Completion criterion
 

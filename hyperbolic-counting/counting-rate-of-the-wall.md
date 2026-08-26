@@ -1,6 +1,6 @@
 # The Counting Rate of the Wall
 
-The entropy-per-channel of [[deriving-g-v2/index-not-entropy|the index note]] retypes, via graph norms, into a growth rate: $s_*=\tfrac12\log\operatorname{Ind}=\log\lVert\Gamma\rVert$ is the nats-per-step of path counting on the wall's principal graph. Smith's classification then sorts the possibilities exactly, a one-line transcendence argument shows what "$s_*=1$ exactly" would mean, and the fit window's algebraic alternatives can be enumerated outright. Everything is conditional on the channel reading and the reported-limited fit, as before.
+The entropy-per-channel of [[deriving-g-v2/index-not-entropy|the index note]] retypes, via graph norms, into a growth rate: $s_*=\tfrac12\log\operatorname{Ind}=\log\lVert\Gamma\rVert$ is the nats-per-step of path counting on the wall's principal graph. Smith's classification then sorts the possibilities exactly, a one-line transcendence argument shows what "$s_*=1$ exactly" would mean, and the fit window's algebraic alternatives can be enumerated outright. The background profile is now reproduced; every graph-theoretic inference remains conditional on the unproved channel reading that turns its fitted amplitude into $s_*$.
 
 ## Smith's trichotomy
 
@@ -12,7 +12,17 @@ The entropy-per-channel of [[deriving-g-v2/index-not-entropy|the index note]] re
 | norm = 2 | affine ADE exactly | s = ln 2, the qubit ceiling | Euclidean: the qubit's graph is A3 |
 | norm > 2 | indefinite type | s > ln 2 | hyperbolic growth |
 
-The path-graph identity $\lVert A_{n-1}\rVert=2\cos(\pi/n)$ makes the Jones ladder *literally* the ADE column (receipts verify $A_3\mapsto\sqrt2\mapsto$ index 2, the qubit). The fitted $s_*\in[0.919,1.063]$ therefore says: **the wall's principal graph is beyond ADE — indefinite type, exponential path growth. The wall counts hyperbolically.** This is the graph-theoretic face of the "above the Jones wall" conclusion, and it types the wall's symmetry shadow as a hyperbolic-growth object.
+The path-graph identity $\lVert A_{n-1}\rVert=2\cos(\pi/n)$ makes the Jones ladder *literally* the ADE column (receipts verify $A_3\mapsto\sqrt2\mapsto$ index 2, the qubit). On the unit-rate channel map $s_*=1/\mathfrak R_c$, the reproduced profile on fully released 2025 data gives
+
+$$
+s_*=0.9861,
+\qquad
+\Delta\chi^2\le1:\ [0.9175,1.0621],
+\qquad
+\Delta\chi^2\le3.84:\ [0.8580,1.1425].
+$$
+
+Even the wider displayed contour lies above $\ln2$. Conditional on the channel map, it therefore says: **the wall's principal graph is beyond ADE — indefinite type, exponential path growth. The wall counts hyperbolically.** The data measure only the effective background amplitude; the graph type enters through the extra state--geometry identification. These are profile-likelihood contours, not posterior credible intervals.
 
 ## The transcendence theorem
 
@@ -30,9 +40,9 @@ One nat per channel — the self-normalizing wall of [[deriving-g-v2/index-not-e
 
 ## The algebraic survivors in the window
 
-Enumerating finite-depth-admissible indices in the fit window $[6.285,\,8.376]$ (products of Jones-ladder values and integers; receipts):
+Representative finite-depth-admissible indices in the current $\Delta\chi^2\le1$ fit window $[6.265,\,8.365]$ (products of Jones-ladder values and integers; receipts) include:
 
-| Index | Structure | s* | needed sigma(r_c) to separate from 1 |
+| Index | Structure | (s_*) | target precision in (mathfrak R_c) to separate from 1 |
 |---|---|---|---|
 | 6.854 | golden squared (two golden channels) | 0.9624 | 0.019 (x4 tighter than current) |
 | 7 | integer (e.g. Z/7 fixed points) | 0.9730 | 0.014 (x5) |
@@ -45,4 +55,4 @@ Enumerating finite-depth-admissible indices in the fit window $[6.285,\,8.376]$ 
 
 ## Consequences and failure
 
-If the wall is ever proved finite-depth, $s_*$ is forced onto the countable ladder and the unit matching law $\mathfrak R_c=1$ of [[causal-scale-theory/reference-cut-matching-ratio|homogeneous capacity]] is *false by arithmetic* — the nearest ladder points are 0.9984 and 1.0051, not 1. Conversely a proof of infinite depth (e.g. from the wall construction itself) makes $s_*=1$ admissible and the self-normalizing reading live. Either resolution converts a normalization postulate into a theorem about a graph — which is what counting is for. Kill conditions inherit from the index note: channel additivity, the unit-rate branch, and the fit's reproduction remain the load-bearing assumptions.
+If the wall is ever proved finite-depth, $s_*$ is forced onto a countable algebraic set and the exact unit matching law $\mathfrak R_c=1$ cannot simultaneously identify $s_*=1$ in this channel model: the nearby finite candidates are close to, but not equal to, one. Conversely a proof of infinite depth makes $s_*=1$ admissible and the self-normalizing reading live. Either resolution converts a normalization postulate into a theorem about a graph — which is what counting is for. Kill conditions inherit from the index note: channel additivity and the unit-rate branch remain load-bearing, and the reproduced background amplitude must still be proved to be the channel ratio.

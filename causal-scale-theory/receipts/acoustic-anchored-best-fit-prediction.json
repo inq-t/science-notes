@@ -1,0 +1,113 @@
+{
+  "absolute_calibration": {
+    "crossing_horizon": {
+      "energy_j": 6.804511232614182e+69,
+      "entropy_over_kb_nats": 1.520651808865949e+122,
+      "horizon_identity_ratio": 1.0000000000000002,
+      "hubble_s_inverse": 2.6660657763492028e-18,
+      "mass_kg": 7.571039804385646e+52,
+      "max_relative_hubble_reconstruction_error": 2.220446049250313e-16,
+      "radius_gly": 11.885711183548244,
+      "radius_m": 1.1244750998248927e+26,
+      "resolution_depth": 140.09489526199349,
+      "temperature_k": 3.241036110077164e-30
+    },
+    "h0_km_s_mpc_from_declared_age": 67.29142836364085,
+    "present_horizon": {
+      "energy_j": 8.305359657624622e+69,
+      "entropy_over_kb_nats": 2.2654412301710243e+122,
+      "horizon_identity_ratio": 0.9999999999999998,
+      "hubble_s_inverse": 2.1842852410855023e-18,
+      "mass_kg": 9.240958888601497e+52,
+      "max_relative_hubble_reconstruction_error": 0.0,
+      "radius_gly": 14.507302992296575,
+      "radius_m": 1.3724968349418282e+26,
+      "resolution_depth": 140.29421050149747,
+      "temperature_k": 2.6553535939990477e-30
+    },
+    "proper_age_gyr_from_h0": 13.777770199083735
+  },
+  "all_pass": true,
+  "checks": {
+    "age_quadrature_convergence": true,
+    "closure_residual": true,
+    "crossing_horizon_identity": true,
+    "crossing_rank_one_reconstruction": true,
+    "present_horizon_identity": true,
+    "present_normalization": true,
+    "present_rank_one_reconstruction": true
+  },
+  "claim_scope": "arithmetic, numerical integration, and horizon-identity verification only; not physical validation or a first-principles wall return",
+  "generated_utc": "2026-08-26T09:12:34.735002+00:00",
+  "inputs": {
+    "age_calibration_gyr": 13.8,
+    "h0_km_s_mpc": 67.4,
+    "matching_ratio": 1.0,
+    "nu": 1.0,
+    "omega_m0": 0.313623112465628,
+    "omega_m0_provenance": "released 2025 DESI DR2 BAO plus Pantheon+ plus historical project acoustic anchor",
+    "omega_m0_status": "CONDITIONAL HISTORICAL-ANCHOR FIT INPUT",
+    "omega_r0": 9.15e-05,
+    "omega_x0": 0.686285387534372,
+    "response_to_non_x_today": 2.187610523273169,
+    "root_policy": "smallest positive root"
+  },
+  "receipt": "provisional cosmodynamic expansion closure",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "shape_outputs": {
+    "acceleration_boundary_roots_n": [
+      -0.574023019149652,
+      2.472738860622049
+    ],
+    "acceleration_entry_n": -0.574023019149652,
+    "acceleration_entry_z": 0.7753951522726044,
+    "acceleration_exit_a_over_a0": 11.854871268494923,
+    "acceleration_exit_n": 2.472738860622049,
+    "dimensionless_age_h0_t0": 0.9497127209929906,
+    "h_crossing_over_h0": 1.2205666760923015,
+    "j0": -0.10161561216010062,
+    "positive_closure_roots": [
+      0.28821915200148873
+    ],
+    "q0": -0.33688278149771056,
+    "samples": [
+      {
+        "h_over_h0": 1.0,
+        "q": -0.33688278149771056,
+        "z": 0.0
+      },
+      {
+        "h_over_h0": 1.1638360831231207,
+        "q": -0.2857469757241914,
+        "z": 0.25
+      },
+      {
+        "h_over_h0": 1.3392856707545793,
+        "q": -0.16212198402740308,
+        "z": 0.5
+      },
+      {
+        "h_over_h0": 1.5408742861633111,
+        "q": -0.014669959448655456,
+        "z": 0.75
+      },
+      {
+        "h_over_h0": 1.7735307922511625,
+        "q": 0.11987879686854575,
+        "z": 1.0
+      },
+      {
+        "h_over_h0": 2.980929013833553,
+        "q": 0.400129967452,
+        "z": 2.0
+      }
+    ],
+    "w0": -0.8130034013056449,
+    "wa_local_cpl": -0.61421507478178,
+    "x_crossing": 0.28821915200148873,
+    "z_crossing": 0.3340496317370041
+  }
+}

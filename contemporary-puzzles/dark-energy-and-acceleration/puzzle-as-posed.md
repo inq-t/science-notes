@@ -41,7 +41,7 @@ $$
 w(a)=w_0+w_a(1-a)
 $$
 
-is preferred over $\Lambda$CDM at $3.1\sigma$ using BAO plus CMB, and between $2.8\sigma$ and $4.2\sigma$ depending on which supernova compilation is added. The favoured histories share a shape: $w>-1$ today, and — in DESI's own summary — a phantom crossing to $w<-1$ above $z\simeq0.4$. Solving each published CPL pair for its own crossing puts that epoch at $z=0.35$, $0.41$, $0.44$, and $0.50$ across the four data combinations, so the blanket figure is a rounding of a spread.
+was preferred over $\Lambda$CDM in the 2025 BAO release at $3.1\sigma$ using BAO plus CMB, and between $2.8\sigma$ and $4.2\sigma$ depending on which supernova compilation was added. The August 2026 [DESI Ly$\alpha$ full-shape update](https://doi.org/10.48550/arXiv.2607.27410) shifts this to $2.7\sigma$ for DESI plus CMB and $3.0$--$3.5\sigma$ with the updated supernova samples. The favoured histories retain the same shape: $w>-1$ today and a phantom branch at higher redshift. The current DESI+CMB+DES-Dovekie summary, $(w_0,w_a)=(-0.821\pm0.054,-0.65\pm0.20)$, implies a CPL crossing near $z=0.38$; the precise epoch remains compilation- and parameterization-dependent.
 
 Whatever its eventual fate, this is a problem of a different type from the first three. It is not about the value of a constant. It asks for a *function*, and it asks that function to cross the phantom divide — the one thing a canonical single scalar field cannot do without a ghost. That obstruction is not incidental to the present module; it is the subject of [[field-completion-no-gos]].
 

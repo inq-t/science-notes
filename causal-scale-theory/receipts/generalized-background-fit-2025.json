@@ -1,0 +1,243 @@
+{
+  "generated_utc": "2026-08-26T08:46:19.069103+00:00",
+  "runtime": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "protocol": {
+    "dataset_key": "desi-dr2-bao-2025",
+    "dataset": "2025 DESI DR2 BAO and Pantheon+",
+    "input_status": "fully released DESI DR2 mean vector and covariance; released Pantheon+ data and covariance",
+    "pantheon_count": 1580,
+    "desi_count": 13,
+    "omega_r": 9.15e-05,
+    "profiled_nuisance": [
+      "supernova offset",
+      "c/(H0 r_d)"
+    ],
+    "positive_branch_coordinates": [
+      "Omega_m",
+      "nu",
+      "a_c=nu x_c > 0"
+    ],
+    "domains": {
+      "Omega_m": [
+        0.15,
+        0.5
+      ],
+      "nu": [
+        0.001,
+        4.0
+      ],
+      "a_c_positive": [
+        1e-08,
+        10.0
+      ],
+      "canonical_R_c": "derived without an artificial cutoff; 0 < R_c < 2",
+      "negative_reference_audit_nu": [
+        0.02,
+        4.0
+      ],
+      "negative_reference_audit_a_c": [
+        -10.0,
+        -1e-08
+      ]
+    },
+    "closure": "[R_c/(2-R_c)] [Omega_m exp(3x_c)+Omega_r exp(4x_c)] sech^2(nu x_c) = 1-Omega_m-Omega_r",
+    "root_parameterization": "x_c labels root-background pairs exhaustively; R_c=2D/(D+F_nu(x_c))",
+    "legacy_conversion": "historical r_c=R_c/(2-R_c); R_c=2r_c/(1+r_c)",
+    "interval_meaning": "one-dimensional Delta-chi-square profile-likelihood contours; not posterior credible intervals and not coverage-calibrated confidence intervals"
+  },
+  "source_sha256": {
+    "desi_dr2_bao_mean.txt": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+    "desi_dr2_bao_cov.txt": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+    "Pantheon+SH0ES.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "Pantheon+SH0ES_STAT+SYS.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+  },
+  "fits": {
+    "frozen_unit": {
+      "chi_square": 1396.5263090478948,
+      "chi_square_pantheon_plus": 1387.5331397344219,
+      "chi_square_desi_dr2_bao": 8.993169313472789,
+      "omega_m": 0.3223941434781306,
+      "nu": 1.0,
+      "a_crossing_equals_nu_x_crossing": 0.271746022786863,
+      "x_crossing": 0.271746022786863,
+      "z_crossing": 0.31225367645276647,
+      "canonical_R_c": 1.0000000000000002,
+      "historical_r_c_equals_R_c_over_2_minus_R_c": 1.0000000000000002,
+      "profiled_sn_offset": 23.82223621005154,
+      "bao_profile_amplitude_c_over_H0rd": 30.18337244705305,
+      "profiled_rd_h_mpc": 99.32371159845997
+    },
+    "R_c_fixed_1_nu_free": {
+      "chi_square": 1395.361037180239,
+      "chi_square_pantheon_plus": 1386.2219651246442,
+      "chi_square_desi_dr2_bao": 9.139072055594811,
+      "omega_m": 0.31552716741653414,
+      "nu": 0.799484787105644,
+      "a_crossing_equals_nu_x_crossing": 0.21890740008719078,
+      "x_crossing": 0.2738105885412731,
+      "z_crossing": 0.31496570907578764,
+      "canonical_R_c": 1.0,
+      "historical_r_c_equals_R_c_over_2_minus_R_c": 1.0,
+      "profiled_sn_offset": 23.813737644621852,
+      "bao_profile_amplitude_c_over_H0rd": 29.994733051578432,
+      "profiled_rd_h_mpc": 99.94836676308536
+    },
+    "nu_fixed_1_R_c_free": {
+      "chi_square": 1396.489889940601,
+      "chi_square_pantheon_plus": 1387.2410055009182,
+      "chi_square_desi_dr2_bao": 9.248884439682838,
+      "omega_m": 0.32210578214638846,
+      "nu": 1.0,
+      "a_crossing_equals_nu_x_crossing": 0.2609035468876131,
+      "x_crossing": 0.2609035468876131,
+      "z_crossing": 0.2981024533734156,
+      "canonical_R_c": 1.0141035976132167,
+      "historical_r_c_equals_R_c_over_2_minus_R_c": 1.0286107091557957,
+      "profiled_sn_offset": 23.82104136050024,
+      "bao_profile_amplitude_c_over_H0rd": 30.141519140969482,
+      "profiled_rd_h_mpc": 99.46162852572047
+    },
+    "nu_and_R_c_free": {
+      "chi_square": 1394.6288141246837,
+      "chi_square_pantheon_plus": 1386.0961117843203,
+      "chi_square_desi_dr2_bao": 8.532702340363407,
+      "omega_m": 0.3083980461042264,
+      "nu": 0.5781259057432665,
+      "a_crossing_equals_nu_x_crossing": 0.2915302344316582,
+      "x_crossing": 0.5042677235797848,
+      "z_crossing": 0.6557725931888001,
+      "canonical_R_c": 0.6986558260156692,
+      "historical_r_c_equals_R_c_over_2_minus_R_c": 0.5368724431113345,
+      "profiled_sn_offset": 23.813911341359628,
+      "bao_profile_amplitude_c_over_H0rd": 30.083022201394662,
+      "profiled_rd_h_mpc": 99.6550333251097
+    }
+  },
+  "nested_profile_intervals": {
+    "R_c_fixed_1_nu_profile": {
+      "delta_chi2_1": [
+        0.569983426793144,
+        0.9862513337931443
+      ],
+      "delta_chi2_3_84": [
+        0.20925094246564363,
+        1.1448284296056441
+      ]
+    },
+    "nu_fixed_1_R_c_profile": {
+      "delta_chi2_1": [
+        0.9415724264635283,
+        1.0899539874797126
+      ],
+      "delta_chi2_3_84": [
+        0.8752705990015467,
+        1.1655629960986225
+      ]
+    }
+  },
+  "general_profile_intervals": {
+    "nu_profile": {
+      "delta_chi2_1": [
+        0.08613047403233112,
+        0.9057043906432667
+      ],
+      "delta_chi2_3_84": [
+        0.02078162971567695,
+        1.1408031212632666
+      ]
+    },
+    "R_c_profile": {
+      "delta_chi2_1": {
+        "lower": null,
+        "lower_status": "open to R_c -> 0; the attainable constant-w tail remains below the Delta-chi2=1 target",
+        "upper": 1.0241441427607858
+      },
+      "delta_chi2_3_84": {
+        "lower": null,
+        "lower_status": "open to R_c -> 0; the attainable constant-w tail remains below the Delta-chi2=3.84 target",
+        "upper": 1.1681715973205113
+      }
+    }
+  },
+  "R_c_to_zero_attainable_limit": {
+    "chi_square": 1395.0094209642273,
+    "omega_m": 0.2972457641418023,
+    "nu": 0.13352812443323697,
+    "w_constant": -0.9109812503778421,
+    "meaning": "attainable limit as R_c tends to zero and a_crossing tends to positive infinity"
+  },
+  "negative_reference_audit": {
+    "chi_square": 1399.8419793009855,
+    "chi_square_pantheon_plus": 1388.9176275214966,
+    "chi_square_desi_dr2_bao": 10.924351779488994,
+    "omega_m": 0.3041311848246939,
+    "nu": 0.02000000000474306,
+    "a_crossing_equals_nu_x_crossing": -1.1049074544189352e-08,
+    "x_crossing": -5.524537270784515e-07,
+    "z_crossing": -5.524535744759193e-07,
+    "canonical_R_c": 1.3915553320521292,
+    "historical_r_c_equals_R_c_over_2_minus_R_c": 2.287069647180066,
+    "profiled_sn_offset": 23.79801532237814,
+    "bao_profile_amplitude_c_over_H0rd": 29.68100013039798,
+    "profiled_rd_h_mpc": 101.00483699434565
+  },
+  "information_criteria_relative_to_frozen_unit": {
+    "R_c_fixed_1_nu_free": {
+      "delta_chi2_from_unit": -1.165271867655747,
+      "delta_AIC_from_unit": 0.834728132344253,
+      "delta_BIC_from_unit": 6.208102442254302
+    },
+    "nu_fixed_1_R_c_free": {
+      "delta_chi2_from_unit": -0.036419107293795605,
+      "delta_AIC_from_unit": 1.9635808927062044,
+      "delta_BIC_from_unit": 7.336955202616253
+    },
+    "nu_and_R_c_free": {
+      "delta_chi2_from_unit": -1.8974949232110703,
+      "delta_AIC_from_unit": 2.1025050767889297,
+      "delta_BIC_from_unit": 12.849253696609027
+    },
+    "number_of_data_for_BIC": 1593
+  },
+  "unity_profile_membership": {
+    "R_c_fixed_1_nu_profile": {
+      "inside_delta_chi2_1": false,
+      "inside_delta_chi2_3_84": true
+    },
+    "nu_fixed_1_R_c_profile": {
+      "inside_delta_chi2_1": true,
+      "inside_delta_chi2_3_84": true
+    },
+    "joint_profile_nu_coordinate": {
+      "inside_delta_chi2_1": false,
+      "inside_delta_chi2_3_84": true
+    },
+    "joint_profile_R_c_coordinate": {
+      "inside_delta_chi2_1": true,
+      "inside_delta_chi2_3_84": true
+    },
+    "joint_two_parameter_point": {
+      "delta_chi2_at_frozen_unit": 1.8974949232110703,
+      "inside_nominal_delta_chi2_2_30": true,
+      "inside_nominal_delta_chi2_5_99": true
+    }
+  },
+  "branch_audit": {
+    "exact_monotone_regime": "for 0 < nu <= 3/2, F_nu is strictly increasing on x_c>0, so the positive closure root is unique when it exists",
+    "confidence_region_branch_switch": false,
+    "reason": "all finite Delta-chi-square profile endpoints with material support have nu < 3/2",
+    "negative_root_theorem": "F_nu is strictly increasing on x_c<0; exactly one negative root exists iff R_c>2D"
+  },
+  "checks": {
+    "unit_matches_base_receipt": true,
+    "nested_order": true,
+    "all_profile_intervals_ordered_around_their_minima": true,
+    "R_c_lower_profile_statuses_are_consistent": true,
+    "negative_branch_not_competitive": true,
+    "all_finite_except_declared_open_or_tail_values": true
+  }
+}

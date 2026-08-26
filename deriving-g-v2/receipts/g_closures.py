@@ -51,11 +51,35 @@ rlog = out["running_log_per_yr"] = check("run log", opq*H0yr/math.log(Rc/lam1), 
 assert r1/LLR > 200 and r2/LLR > 400 and rlog/LLR > 2   # the kills
 out["surviving_exponent"] = check("a_max", LLR/(opq*H0yr), 4.6e-3, 2e-2)
 
-# Kill 2: channel-entropy extraction from the reported fit (REPORTED-LIMITED input)
-fit, lo, hi = 1.025, 0.941, 1.088
-out["s_star_nat"] = [round(1/hi, 4), round(1/lo, 4)]
-assert not (lo <= 1/math.log(2) <= hi)   # qubit excluded (1.4427)
-assert not (lo <= 1/math.log(3) <= hi)   # maximal qutrit excluded (0.9102)
+# Kill 2: conditional channel pushforward of the released-2025 direct nu=1 profile
+fit = 1.014104
+lo68, hi68 = 0.941572, 1.089954
+lo95, hi95 = 0.875271, 1.165563
+out["matching_ratio_profile_nu1"] = {
+    "best": fit,
+    "delta_chi2_1": [lo68, hi68],
+    "delta_chi2_3_84": [lo95, hi95],
+    "source": "causal-scale-theory/receipts/generalized-background-fit-2025.json",
+}
+out["s_star_nat_conditional_on_s_equals_inverse_R"] = {
+    "best": check("s* best", 1/fit, 0.9861, 1e-4),
+    "delta_chi2_1": [
+        check("s* 68 lower", 1/hi68, 0.9175, 1e-4),
+        check("s* 68 upper", 1/lo68, 1.0621, 1e-4),
+    ],
+    "delta_chi2_3_84": [
+        check("s* 95 lower", 1/hi95, 0.8580, 1e-4),
+        check("s* 95 upper", 1/lo95, 1.1425, 1e-4),
+    ],
+}
+jones_sub4_floor = out["jones_sub4_matching_ratio_floor"] = 1/math.log(2)
+qutrit_ratio = out["maximally_mixed_qutrit_matching_ratio"] = 1/math.log(3)
+assert jones_sub4_floor > hi95              # rigid sub-4 ladder outside wider contour
+assert qutrit_ratio < lo68                  # qutrit outside Delta-chi2 <= 1
+assert lo95 <= qutrit_ratio <= hi95         # but inside Delta-chi2 <= 3.84
+out["maximally_mixed_qutrit_profile_status"] = (
+    "outside Delta-chi2 <= 1; inside Delta-chi2 <= 3.84; mildly disfavored"
+)
 # Jones ladder: every rigid value sits at or below ln 2
 for n in range(3, 61):
     s_n = math.log(2*math.cos(math.pi/n))

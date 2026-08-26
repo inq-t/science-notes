@@ -126,10 +126,19 @@ def main() -> int:
     parser.add_argument("--matching", type=float, default=DEFAULT_MATCHING)
     parser.add_argument("--h0", type=float, default=DEFAULT_H0_KM_S_MPC)
     parser.add_argument(
+        "--omega-m-provenance",
+        default="repository benchmark; empirical input, not a prediction",
+    )
+    parser.add_argument(
+        "--omega-m-status",
+        default="BENCHMARK INPUT",
+    )
+    parser.add_argument(
         "--age-calibration-gyr",
         type=float,
         default=DEFAULT_AGE_CALIBRATION_GYR,
     )
+    parser.add_argument("--output", type=Path)
     parser.add_argument("--no-write", action="store_true")
     args = parser.parse_args()
 
@@ -311,6 +320,8 @@ def main() -> int:
         "runtime": {"python": sys.version, "platform": platform.platform()},
         "inputs": {
             "omega_m0": omega_m0,
+            "omega_m0_provenance": args.omega_m_provenance,
+            "omega_m0_status": args.omega_m_status,
             "omega_r0": omega_r0,
             "omega_x0": dark0,
             "response_to_non_x_today": dark0 / (omega_m0 + omega_r0),
@@ -360,7 +371,7 @@ def main() -> int:
     }
 
     if not args.no_write:
-        output_path = Path(__file__).with_name("prediction.json")
+        output_path = args.output or Path(__file__).with_name("prediction.json")
         output_path.write_text(
             json.dumps(output, indent=2, sort_keys=True) + "\n",
             encoding="utf-8",

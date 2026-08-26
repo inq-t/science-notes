@@ -1,0 +1,232 @@
+{
+  "generated_utc": "2026-08-26T09:02:36.059366+00:00",
+  "runtime": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "protocol": {
+    "role": "alternate corrected-supernova robustness test",
+    "models": [
+      "flat LambdaCDM",
+      "frozen unit CST-B2"
+    ],
+    "fitted_shape_parameter_each": "Omega_m",
+    "omega_r_for_joint_comparison": 9.15e-05,
+    "profiled_nuisance": [
+      "supernova offset",
+      "c/(H0 r_d)"
+    ],
+    "supernova_theory_distance": "(1 + zHEL) chi(zHD)",
+    "desi_update": "the separate provisional row reconstructs the DESI DR2 Results IV Eq. (26) Ly-alpha Gaussian while its full release is pending",
+    "dovekie": {
+      "row_count": 1820,
+      "released_row_count": 1820,
+      "redshift_cut_in_likelihood": "zHD > 0.0; every released row passes",
+      "minimum_zHD": 0.02509,
+      "maximum_zHD": 1.14418,
+      "inverse_covariance_packing": "upper triangle, reflected to lower triangle",
+      "ones_precision_ones": 43938.33706138445,
+      "marginalization_constant_ln_C_over_2pi": 8.852665433145917,
+      "maximum_covariance_diagonal_difference_from_release_diagnostics": 8.134836377848842e-06
+    }
+  },
+  "source_sha256": {
+    "desi_dr2_bao_mean.txt": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+    "desi_dr2_bao_cov.txt": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+    "DES-Dovekie_HD.csv": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+    "DES-Dovekie_STAT+SYS.npz": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b"
+  },
+  "official_lcdm_validation": {
+    "assumption": "radiation neglected, following Popovic et al. SN fit",
+    "omega_m_best": 0.330316804804656,
+    "profile_chi_square_A_minus_B2_over_C": 1631.4205358051777,
+    "marginalization_constant_ln_C_over_2pi": 8.852665433145917,
+    "reported_chi_square": 1640.2732012383235,
+    "paper_table_10": {
+      "omega_m": "0.330 +/- 0.015",
+      "chi_square": 1640.3
+    }
+  },
+  "comparisons": {
+    "released_2025_bao_plus_dovekie": {
+      "qualification": "fully released DESI DR2 BAO likelihood plus released DES-Dovekie",
+      "models": {
+        "lcdm": {
+          "des_dovekie": {
+            "omega_m_best": 0.33015882075110026,
+            "omega_m_delta_chi2_1": [
+              0.31507106927649997,
+              0.3455986594225
+            ],
+            "profile_chi_square": 1631.4219770907719,
+            "des_reported_convention_chi_square": 1640.2746425239177,
+            "profiled_sn_offset": 43.16605509122689
+          },
+          "joint": {
+            "omega_m_best": 0.3057687476769908,
+            "omega_m_delta_chi2_1": [
+              0.29819574416350003,
+              0.3135253625065
+            ],
+            "profile_chi_square": 1645.3287403944112,
+            "des_reported_convention_chi_square": 1654.181405827557,
+            "profiled_sn_offset": 43.15087917366549,
+            "profile_chi_square_des_dovekie": 1634.0732439613043,
+            "profile_chi_square_desi_dr2": 11.255496433106883,
+            "bao_profile_amplitude_c_over_H0rd": 29.71842698447996,
+            "profiled_rd_h_mpc": 100.87763331368866,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1833,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1830,
+              "chi_square_from_whitened_residuals": 1645.328741721363,
+              "nominal_reduced_chi_square": 0.8990867441100344,
+              "whitened_residual_rms_per_nominal_dof": 0.9482018477676757,
+              "maximum_absolute_cholesky_whitened_residual": 3.826657127332891,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "des_dovekie": {
+            "omega_m_best": 0.31337272485320794,
+            "omega_m_delta_chi2_1": [
+              0.2844978561125,
+              0.33917372192850004
+            ],
+            "profile_chi_square": 1629.5153190361602,
+            "des_reported_convention_chi_square": 1638.367984469306,
+            "profiled_sn_offset": 43.18432508083155
+          },
+          "joint": {
+            "omega_m_best": 0.32225325600012644,
+            "omega_m_delta_chi2_1": [
+              0.31479003991849996,
+              0.32989291220850003
+            ],
+            "profile_chi_square": 1638.6235217984365,
+            "des_reported_convention_chi_square": 1647.4761872315823,
+            "profiled_sn_offset": 43.1863523160818,
+            "profile_chi_square_des_dovekie": 1629.6270663846578,
+            "profile_chi_square_desi_dr2": 8.996455413778659,
+            "bao_profile_amplitude_c_over_H0rd": 30.181083301421133,
+            "profiled_rd_h_mpc": 99.33124500732673,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1833,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1830,
+              "chi_square_from_whitened_residuals": 1638.6235216611794,
+              "nominal_reduced_chi_square": 0.8954226894323385,
+              "whitened_residual_rms_per_nominal_dof": 0.9462677683575291,
+              "maximum_absolute_cholesky_whitened_residual": 3.7044310125506685,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.27200713962265133,
+            "z_crossing": 0.3125963727204488
+          }
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -6.705218595974657,
+      "equal_parameter_count": true,
+      "normalization_note": "ln(C/2pi) is constant for the shared Dovekie mask and covariance, so it cancels exactly in every model delta"
+    },
+    "provisional_2026_bao_plus_dovekie": {
+      "qualification": "published bivariate Gaussian reconstruction for the 2026 Ly-alpha pair; lower-redshift cross-covariances assumed zero",
+      "models": {
+        "lcdm": {
+          "des_dovekie": {
+            "omega_m_best": 0.33015882075110026,
+            "omega_m_delta_chi2_1": [
+              0.31507106927649997,
+              0.3455986594225
+            ],
+            "profile_chi_square": 1631.4219770907719,
+            "des_reported_convention_chi_square": 1640.2746425239177,
+            "profiled_sn_offset": 43.16605509122689
+          },
+          "joint": {
+            "omega_m_best": 0.30761608994767486,
+            "omega_m_delta_chi2_1": [
+              0.3007052249905,
+              0.3146903063865
+            ],
+            "profile_chi_square": 1647.0112210274006,
+            "des_reported_convention_chi_square": 1655.8638864605464,
+            "profiled_sn_offset": 43.15204281650045,
+            "profile_chi_square_des_dovekie": 1633.6803065818171,
+            "profile_chi_square_desi_dr2": 13.330914445583433,
+            "bao_profile_amplitude_c_over_H0rd": 29.77388807647166,
+            "profiled_rd_h_mpc": 100.68972424092175,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1833,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1830,
+              "chi_square_from_whitened_residuals": 1647.011222306968,
+              "nominal_reduced_chi_square": 0.9000061324081792,
+              "whitened_residual_rms_per_nominal_dof": 0.9486865301079062,
+              "maximum_absolute_cholesky_whitened_residual": 3.8219255898539184,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "des_dovekie": {
+            "omega_m_best": 0.31337272485320794,
+            "omega_m_delta_chi2_1": [
+              0.2844978561125,
+              0.33917372192850004
+            ],
+            "profile_chi_square": 1629.5153190361602,
+            "des_reported_convention_chi_square": 1638.367984469306,
+            "profiled_sn_offset": 43.18432508083155
+          },
+          "joint": {
+            "omega_m_best": 0.3253346123554819,
+            "omega_m_delta_chi2_1": [
+              0.31877669923249996,
+              0.33205120966449997
+            ],
+            "profile_chi_square": 1640.4015949226607,
+            "des_reported_convention_chi_square": 1649.2542603558065,
+            "profiled_sn_offset": 43.18709209560063,
+            "profile_chi_square_des_dovekie": 1629.7203703885584,
+            "profile_chi_square_desi_dr2": 10.681224534102359,
+            "bao_profile_amplitude_c_over_H0rd": 30.24300720866431,
+            "profiled_rd_h_mpc": 99.12785984923899,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1833,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1830,
+              "chi_square_from_whitened_residuals": 1640.4015947393202,
+              "nominal_reduced_chi_square": 0.8963943140652023,
+              "whitened_residual_rms_per_nominal_dof": 0.9467810275165015,
+              "maximum_absolute_cholesky_whitened_residual": 3.7011303205148445,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.2663213796204764,
+            "z_crossing": 0.305154441331819
+          }
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -6.609626104739846,
+      "equal_parameter_count": true,
+      "normalization_note": "ln(C/2pi) is constant for the shared Dovekie mask and covariance, so it cancels exactly in every model delta"
+    }
+  },
+  "checks": {
+    "dovekie_count_is_1820": true,
+    "all_released_rows_pass_mask": true,
+    "release_already_obeys_zmin_0p025": true,
+    "full_covariance_matches_diagonal_diagnostics": true,
+    "dovekie_covariance_positive_definite": true,
+    "joint_whitened_residual_norms_reproduce_chi_square": true,
+    "published_lcdm_omega_m_reproduced": true,
+    "published_lcdm_chi_square_reproduced": true,
+    "all_finite": true
+  }
+}

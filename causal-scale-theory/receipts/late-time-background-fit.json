@@ -1,0 +1,592 @@
+{
+  "generated_utc": "2026-08-26T09:11:21.107981+00:00",
+  "runtime": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "protocol": {
+    "models": [
+      "flat LambdaCDM",
+      "frozen unit CST-B2"
+    ],
+    "fitted_shape_parameter_each": "Omega_m",
+    "omega_r": 9.15e-05,
+    "pantheon_filter": "zHD > 0.01 and IS_CALIBRATOR == 0",
+    "pantheon_count": 1580,
+    "desi_bao_count": 13,
+    "profiled_nuisance": [
+      "supernova offset",
+      "c/(H0 r_d)"
+    ],
+    "latest_update": "DESI DR2 Results IV Eq. (26) replaces the z=2.33 Ly-alpha BAO pair by a reconstructed Gaussian for the joint BAO plus full-shape AP pair; the full released likelihood is pending",
+    "latest_update_values": {
+      "z": 2.33,
+      "DM_over_rd": 39.32,
+      "DM_over_rd_sigma": 0.33,
+      "DH_over_rd": 8.6,
+      "DH_over_rd_sigma": 0.066,
+      "correlation": 0.225,
+      "cross_covariance_assumption": "zero with lower-redshift DESI blocks pending a full release",
+      "primary_source": "https://arxiv.org/abs/2607.27410v3"
+    },
+    "acoustic_distance_stress_tests": {
+      "included": true,
+      "redshift": 1089.92,
+      "historical_project_compression": {
+        "value": 94.32,
+        "sigma": 0.28,
+        "provenance": "scale-as-modular-observable/chats/03/outputs/P1_shape_invariant_result.md",
+        "qualification": "historical project sensitivity anchor with undocumented uncertainty construction; not directly published by Planck"
+      },
+      "official_chain_derived_compression": {
+        "quantity": "DM(z_star)/r_d = 1000 DAstar[Gpc]/rdrag[Mpc]",
+        "mean": 94.3140362329974,
+        "sigma": 0.034580794338077404,
+        "z_star_weighted_mean": 1089.951501025576,
+        "z_star_weighted_sigma": 0.2744762775323739,
+        "chain_rows": 24497,
+        "sum_of_chain_weights": 55091.0,
+        "carrier": "Planck PR3 base LambdaCDM",
+        "qualification": "model-conditional posterior compression; not a model-neutral alternate-cosmology likelihood",
+        "source_archive": {
+          "path": "causal-wall-spectral-theory\\sources\\data\\planck-2018\\COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip",
+          "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip",
+          "sha256": "52cf6793f14e250ffc1436ce7f6fe6d92f6a066c433ec9efc66e4178f3d45a1f"
+        },
+        "chain_file_sha256": {
+          "base_plikHM_TTTEEE_lowl_lowE.paramnames": "e3dbf066f4f026f11bdf11dde4e4d9246c0b5f9f6add914977d8371bee9e395e",
+          "base_plikHM_TTTEEE_lowl_lowE_1.txt": "f17a149cbb9bdd4095e279419d6bd0146f96dc5755d92e6ca2d9527e6920bc9d",
+          "base_plikHM_TTTEEE_lowl_lowE_2.txt": "09b2ed8d7ae529febcb4f0c97406ce7f043c624c332cafbc8ce1db7e39150ff7",
+          "base_plikHM_TTTEEE_lowl_lowE_3.txt": "0306d99bee018976f726e07cb0a6ced02fda939de367e482ab917f3781df965b",
+          "base_plikHM_TTTEEE_lowl_lowE_4.txt": "fd3ede90215a5e11ce066bd9d0551325101bf7fa5a1d0d0a935d7822f5d5f165"
+        }
+      },
+      "integration_convergence": {
+        "test_model": "unit CST-B2 at Omega_m=0.32",
+        "coarse_to_double_grid_relative_change": 8.22319439795836e-12
+      }
+    }
+  },
+  "source_sha256": {
+    "desi_dr2_bao_mean.txt": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+    "desi_dr2_bao_cov.txt": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+    "Pantheon+SH0ES.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "Pantheon+SH0ES_STAT+SYS.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+  },
+  "comparisons": {
+    "desi-dr2-bao-2025": {
+      "qualification": "direct released BAO and supernova likelihood",
+      "models": {
+        "lcdm": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3324461740003044,
+            "omega_m_delta_chi2_1": [
+              0.31443377827350005,
+              0.35091546721550004
+            ],
+            "chi_square": 1386.4070035191535,
+            "profiled_sn_offset": 23.80720179785195
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.29713834016032925,
+            "omega_m_delta_chi2_1": [
+              0.28866135507449997,
+              0.3058962282955
+            ],
+            "chi_square": 10.283938448915915,
+            "bao_profile_amplitude_c_over_H0rd": 29.52194006267124,
+            "profiled_rd_h_mpc": 101.54903687345058
+          },
+          "joint": {
+            "omega_m_best": 0.3041172133455002,
+            "omega_m_delta_chi2_1": [
+              0.2962729321805,
+              0.31216701023149995
+            ],
+            "chi_square": 1399.840219835457,
+            "bao_profile_amplitude_c_over_H0rd": 29.681062326965844,
+            "profiled_rd_h_mpc": 101.00462533904404,
+            "profiled_sn_offset": 23.79801491481723,
+            "chi_square_pantheon_plus": 1388.9170805703116,
+            "chi_square_desi_dr2_bao": 10.923139265145451,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1593,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1590,
+              "chi_square_from_whitened_residuals": 1399.8402200056794,
+              "nominal_reduced_chi_square": 0.8804026540916222,
+              "whitened_residual_rms_per_nominal_dof": 0.9382977427723155,
+              "maximum_absolute_cholesky_whitened_residual": 4.026294978142642,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3115974730048961,
+            "omega_m_delta_chi2_1": [
+              0.27632141078149997,
+              0.3429036053805
+            ],
+            "chi_square": 1387.4213671141492,
+            "profiled_sn_offset": 23.821241450570845
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.32305471459204677,
+            "omega_m_delta_chi2_1": [
+              0.3152360630655,
+              0.33110632149350006
+            ],
+            "chi_square": 8.986219395850213,
+            "bao_profile_amplitude_c_over_H0rd": 30.194108123637292,
+            "profiled_rd_h_mpc": 99.28839652174031
+          },
+          "joint": {
+            "omega_m_best": 0.3223941434781306,
+            "omega_m_delta_chi2_1": [
+              0.3148273907315,
+              0.33015474070149997
+            ],
+            "chi_square": 1396.526308858578,
+            "bao_profile_amplitude_c_over_H0rd": 30.183372447053046,
+            "profiled_rd_h_mpc": 99.32371159845998,
+            "profiled_sn_offset": 23.8222362101096,
+            "chi_square_pantheon_plus": 1387.533139545105,
+            "chi_square_desi_dr2_bao": 8.993169313472793,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1593,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1590,
+              "chi_square_from_whitened_residuals": 1396.5263090478943,
+              "nominal_reduced_chi_square": 0.8783184333634555,
+              "whitened_residual_rms_per_nominal_dof": 0.9371864453583691,
+              "maximum_absolute_cholesky_whitened_residual": 3.8870455448273264,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.271746022786863,
+            "z_crossing": 0.31225367645276636
+          }
+        }
+      },
+      "frozen_benchmark": {
+        "lcdm": {
+          "omega_m": 0.310598,
+          "chi_square": 1400.4916394028157,
+          "delta_chi_square_from_own_best_fit": 0.6514195673587437
+        },
+        "cst-b2-unit": {
+          "omega_m": 0.310598,
+          "chi_square": 1398.9915167861873,
+          "delta_chi_square_from_own_best_fit": 2.465207927609299
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -3.313910976879015,
+      "equal_parameter_count": true
+    },
+    "desi-dr2-galaxy-bao-plus-lya-full-shape-2026": {
+      "qualification": "provisional Gaussian reconstruction of the published 2026 Ly-alpha pair; lower-redshift cross-covariances assumed zero",
+      "models": {
+        "lcdm": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3324461740003044,
+            "omega_m_delta_chi2_1": [
+              0.31443377827350005,
+              0.35091546721550004
+            ],
+            "chi_square": 1386.4070035191535,
+            "profiled_sn_offset": 23.80720179785195
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.3013550860677001,
+            "omega_m_delta_chi2_1": [
+              0.29377405761849995,
+              0.3091679178405
+            ],
+            "chi_square": 12.684871276790778,
+            "bao_profile_amplitude_c_over_H0rd": 29.62966018117972,
+            "profiled_rd_h_mpc": 101.17985024695737
+          },
+          "joint": {
+            "omega_m_best": 0.30639942994145897,
+            "omega_m_delta_chi2_1": [
+              0.29928502675049995,
+              0.3136934343815
+            ],
+            "chi_square": 1401.628226605481,
+            "bao_profile_amplitude_c_over_H0rd": 29.745992746299926,
+            "profiled_rd_h_mpc": 100.78414950104191,
+            "profiled_sn_offset": 23.79876311385462,
+            "chi_square_pantheon_plus": 1388.5220263536503,
+            "chi_square_desi_dr2_bao": 13.106200251830604,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1593,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1590,
+              "chi_square_from_whitened_residuals": 1401.6282267771628,
+              "nominal_reduced_chi_square": 0.8815271866523037,
+              "whitened_residual_rms_per_nominal_dof": 0.9388967923325245,
+              "maximum_absolute_cholesky_whitened_residual": 4.021435042246604,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3115974730048961,
+            "omega_m_delta_chi2_1": [
+              0.27632141078149997,
+              0.3429036053805
+            ],
+            "chi_square": 1387.4213671141492,
+            "profiled_sn_offset": 23.821241450570845
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.3261668794379018,
+            "omega_m_delta_chi2_1": [
+              0.31935195049450005,
+              0.33317758418950005
+            ],
+            "chi_square": 10.666674025450854,
+            "bao_profile_amplitude_c_over_H0rd": 30.256949710155908,
+            "profiled_rd_h_mpc": 99.08218140686304
+          },
+          "joint": {
+            "omega_m_best": 0.32551157172648176,
+            "omega_m_delta_chi2_1": [
+              0.3188776799895,
+              0.33231564005150005
+            ],
+            "chi_square": 1398.284563568042,
+            "bao_profile_amplitude_c_over_H0rd": 30.245971394544178,
+            "profiled_rd_h_mpc": 99.11814505454339,
+            "profiled_sn_offset": 23.822547259167806,
+            "chi_square_pantheon_plus": 1387.6088752961248,
+            "chi_square_desi_dr2_bao": 10.675688271917224,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1593,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1590,
+              "chi_square_from_whitened_residuals": 1398.2845637586154,
+              "nominal_reduced_chi_square": 0.8794242539362361,
+              "whitened_residual_rms_per_nominal_dof": 0.9377762280716205,
+              "maximum_absolute_cholesky_whitened_residual": 3.888191437961354,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.2659964374857522,
+            "z_crossing": 0.3047304105579711
+          }
+        }
+      },
+      "frozen_benchmark": {
+        "lcdm": {
+          "omega_m": 0.310598,
+          "chi_square": 1401.9630784873898,
+          "delta_chi_square_from_own_best_fit": 0.3348518819088895
+        },
+        "cst-b2-unit": {
+          "omega_m": 0.310598,
+          "chi_square": 1403.503094784714,
+          "delta_chi_square_from_own_best_fit": 5.2185312166720905
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -3.3436630374390006,
+      "equal_parameter_count": true
+    },
+    "desi-dr2-2025-plus-historical-project-acoustic-anchor": {
+      "qualification": "released 2025 DESI BAO plus a historical project acoustic compression with undocumented uncertainty construction; conditional sensitivity test, not a Planck-published datum",
+      "models": {
+        "lcdm": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3324461740003044,
+            "omega_m_delta_chi2_1": [
+              0.31443377827350005,
+              0.35091546721550004
+            ],
+            "chi_square": 1386.4070035191535,
+            "profiled_sn_offset": 23.80720179785195
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.295649828762517,
+            "omega_m_delta_chi2_1": [
+              0.2901913911485,
+              0.30122718446450003
+            ],
+            "chi_square": 10.335227120053034,
+            "bao_profile_amplitude_c_over_H0rd": 29.495863322231568,
+            "profiled_rd_h_mpc": 101.6388144753983,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.32,
+              "sigma": 0.28,
+              "predicted": 94.29013434672844,
+              "chi_square_contribution": 0.011377005680317041
+            }
+          },
+          "joint": {
+            "omega_m_best": 0.29900009193949606,
+            "omega_m_delta_chi2_1": [
+              0.29371042206349995,
+              0.30439388021049996
+            ],
+            "chi_square": 1400.6308028744847,
+            "bao_profile_amplitude_c_over_H0rd": 29.59847280679364,
+            "profiled_rd_h_mpc": 101.28646162148932,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.32,
+              "sigma": 0.28,
+              "predicted": 94.1955213184944,
+              "chi_square_contribution": 0.19763956823177165
+            },
+            "profiled_sn_offset": 23.796332028044752,
+            "chi_square_pantheon_plus": 1389.9316300692203,
+            "chi_square_desi_dr2_bao": 10.699172805264435,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1594,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1591,
+              "chi_square_from_whitened_residuals": 1400.6307984767852,
+              "nominal_reduced_chi_square": 0.8803461964027562,
+              "whitened_residual_rms_per_nominal_dof": 0.9382676571228256,
+              "maximum_absolute_cholesky_whitened_residual": 4.037229327512237,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3115974730048961,
+            "omega_m_delta_chi2_1": [
+              0.27632141078149997,
+              0.3429036053805
+            ],
+            "chi_square": 1387.4213671141492,
+            "profiled_sn_offset": 23.821241450570845
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.3136667092256216,
+            "omega_m_delta_chi2_1": [
+              0.30891580372250005,
+              0.31851885323350004
+            ],
+            "chi_square": 11.368747441745692,
+            "bao_profile_amplitude_c_over_H0rd": 30.096676235971145,
+            "profiled_rd_h_mpc": 99.60982257625247,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.32,
+              "sigma": 0.28,
+              "predicted": 94.1219717188675,
+              "chi_square_contribution": 0.5001938791873736
+            }
+          },
+          "joint": {
+            "omega_m_best": 0.31362311246562796,
+            "omega_m_delta_chi2_1": [
+              0.30892204192749995,
+              0.3184194455475
+            ],
+            "chi_square": 1398.7940175066242,
+            "bao_profile_amplitude_c_over_H0rd": 30.095569523732458,
+            "profiled_rd_h_mpc": 99.61348555427493,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.32,
+              "sigma": 0.28,
+              "predicted": 94.12343030152404,
+              "chi_square_contribution": 0.49285263212918007
+            },
+            "profiled_sn_offset": 23.82141806528756,
+            "chi_square_pantheon_plus": 1387.4251875843472,
+            "chi_square_desi_dr2_bao": 11.368829922277055,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1594,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1591,
+              "chi_square_from_whitened_residuals": 1398.7940170250497,
+              "nominal_reduced_chi_square": 0.8791917140320865,
+              "whitened_residual_rms_per_nominal_dof": 0.9376522351234953,
+              "maximum_absolute_cholesky_whitened_residual": 3.887146213414246,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.28821915200148374,
+            "z_crossing": 0.3340496317369974
+          }
+        }
+      },
+      "frozen_benchmark": {
+        "lcdm": {
+          "omega_m": 0.310598,
+          "chi_square": 1405.153147195969,
+          "delta_chi_square_from_own_best_fit": 4.522344321484297
+        },
+        "cst-b2-unit": {
+          "omega_m": 0.310598,
+          "chi_square": 1399.2051495676387,
+          "delta_chi_square_from_own_best_fit": 0.41113206101454125
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -1.836785367860557,
+      "equal_parameter_count": true
+    },
+    "desi-dr2-2025-plus-base-lcdm-chain-acoustic-compression": {
+      "qualification": "released 2025 DESI BAO plus a Planck base-LambdaCDM posterior compression; deliberately inadmissible as a model-neutral likelihood and used only as a stringent stress test",
+      "models": {
+        "lcdm": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3324461740003044,
+            "omega_m_delta_chi2_1": [
+              0.31443377827350005,
+              0.35091546721550004
+            ],
+            "chi_square": 1386.4070035191535,
+            "profiled_sn_offset": 23.80720179785195
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.295319292946687,
+            "omega_m_delta_chi2_1": [
+              0.29106418221249997,
+              0.29963880206750004
+            ],
+            "chi_square": 10.343873930501058,
+            "bao_profile_amplitude_c_over_H0rd": 29.490062421014713,
+            "profiled_rd_h_mpc": 101.65880753998232,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.3140362329974,
+              "sigma": 0.034580794338077404,
+              "predicted": 94.31347936561187,
+              "chi_square_contribution": 0.0002593185806850515
+            }
+          },
+          "joint": {
+            "omega_m_best": 0.2974265751005669,
+            "omega_m_delta_chi2_1": [
+              0.29325670642549995,
+              0.3016558083805
+            ],
+            "chi_square": 1400.8635849641655,
+            "bao_profile_amplitude_c_over_H0rd": 29.572863373850232,
+            "profiled_rd_h_mpc": 101.37417341368814,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.3140362329974,
+              "sigma": 0.034580794338077404,
+              "predicted": 94.31155262236723,
+              "chi_square_contribution": 0.005158187088048955
+            },
+            "profiled_sn_offset": 23.79581305612894,
+            "chi_square_pantheon_plus": 1390.279875396038,
+            "chi_square_desi_dr2_bao": 10.583709568127487,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1594,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1591,
+              "chi_square_from_whitened_residuals": 1400.8635804840135,
+              "nominal_reduced_chi_square": 0.8804925081609135,
+              "whitened_residual_rms_per_nominal_dof": 0.9383456229774365,
+              "maximum_absolute_cholesky_whitened_residual": 4.040602200261671,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            }
+          }
+        },
+        "cst-b2-unit": {
+          "pantheon_plus": {
+            "omega_m_best": 0.3115974730048961,
+            "omega_m_delta_chi2_1": [
+              0.27632141078149997,
+              0.3429036053805
+            ],
+            "chi_square": 1387.4213671141492,
+            "profiled_sn_offset": 23.821241450570845
+          },
+          "desi_dr2_bao": {
+            "omega_m_best": 0.31134285542176376,
+            "omega_m_delta_chi2_1": [
+              0.3077130633435,
+              0.3150268293295
+            ],
+            "chi_square": 11.949622439732874,
+            "bao_profile_amplitude_c_over_H0rd": 30.072740346341362,
+            "profiled_rd_h_mpc": 99.68910533172367,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.3140362329974,
+              "sigma": 0.034580794338077404,
+              "predicted": 94.31026792024376,
+              "chi_square_contribution": 0.01187473564977258
+            }
+          },
+          "joint": {
+            "omega_m_best": 0.31134596066682885,
+            "omega_m_delta_chi2_1": [
+              0.3077375175725,
+              0.3150067071985
+            ],
+            "chi_square": 1399.3710486867303,
+            "bao_profile_amplitude_c_over_H0rd": 30.072851877354992,
+            "profiled_rd_h_mpc": 99.6887356153093,
+            "acoustic_anchor": {
+              "redshift": 1089.92,
+              "observed": 94.3140362329974,
+              "sigma": 0.034580794338077404,
+              "predicted": 94.3102645253992,
+              "chi_square_contribution": 0.011896141007067873
+            },
+            "profiled_sn_offset": 23.82121985232679,
+            "chi_square_pantheon_plus": 1387.4214255257837,
+            "chi_square_desi_dr2_bao": 11.949623160946548,
+            "goodness_of_fit": {
+              "data_vector_length_and_covariance_rank": 1594,
+              "fitted_parameter_count": 3,
+              "nominal_degrees_of_freedom": 1591,
+              "chi_square_from_whitened_residuals": 1399.3710481663372,
+              "nominal_reduced_chi_square": 0.8795543985960637,
+              "whitened_residual_rms_per_nominal_dof": 0.9378456155445115,
+              "maximum_absolute_cholesky_whitened_residual": 3.8885508883783597,
+              "covariance_positive_definite": true,
+              "qualification": "nominal Gaussian diagnostic for the released compressed data; not a systematics coverage calibration"
+            },
+            "x_crossing": 0.29257040226268605,
+            "z_crossing": 0.3398670629163867
+          }
+        }
+      },
+      "frozen_benchmark": {
+        "lcdm": {
+          "omega_m": 0.310598,
+          "chi_square": 1410.2814574174843,
+          "delta_chi_square_from_own_best_fit": 9.41787245331875
+        },
+        "cst-b2-unit": {
+          "omega_m": 0.310598,
+          "chi_square": 1399.413527582673,
+          "delta_chi_square_from_own_best_fit": 0.04247889594262233
+        }
+      },
+      "joint_delta_chi_square_cst_minus_lcdm": -1.4925362774351925,
+      "equal_parameter_count": true
+    }
+  },
+  "checks": {
+    "pantheon_count_is_1580": true,
+    "bao_count_is_13": true,
+    "all_covariances_positive_definite": true,
+    "all_joint_whitened_residual_norms_reproduce_chi_square": true,
+    "planck_chain_not_requested_or_row_count_is_24497": true,
+    "planck_acoustic_not_requested_or_compression_reproduced": true,
+    "acoustic_integration_not_requested_or_converged": true,
+    "published_lcdm_pantheon_omega_m_reproduced": true,
+    "published_lcdm_bao_omega_m_reproduced": true,
+    "published_2026_lcdm_joint_desi_omega_m_reproduced": true,
+    "all_finite": true
+  }
+}

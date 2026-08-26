@@ -1,0 +1,113 @@
+{
+  "absolute_calibration": {
+    "crossing_horizon": {
+      "energy_j": 6.879269420346507e+69,
+      "entropy_over_kb_nats": 1.5542488306509766e+122,
+      "horizon_identity_ratio": 1.0,
+      "hubble_s_inverse": 2.637093187308636e-18,
+      "mass_kg": 7.654219506156484e+52,
+      "max_relative_hubble_reconstruction_error": 2.220446049250313e-16,
+      "radius_gly": 12.016294291962117,
+      "radius_m": 1.1368292157546473e+26,
+      "resolution_depth": 140.1058219106177,
+      "temperature_k": 3.205815220886843e-30
+    },
+    "h0_km_s_mpc_from_declared_age": 66.85796484642012,
+    "present_horizon": {
+      "energy_j": 8.305359657624622e+69,
+      "entropy_over_kb_nats": 2.2654412301710243e+122,
+      "horizon_identity_ratio": 0.9999999999999998,
+      "hubble_s_inverse": 2.1842852410855023e-18,
+      "mass_kg": 9.240958888601497e+52,
+      "max_relative_hubble_reconstruction_error": 0.0,
+      "radius_gly": 14.507302992296575,
+      "radius_m": 1.3724968349418282e+26,
+      "resolution_depth": 140.29421050149747,
+      "temperature_k": 2.6553535939990477e-30
+    },
+    "proper_age_gyr_from_h0": 13.689019508614207
+  },
+  "all_pass": true,
+  "checks": {
+    "age_quadrature_convergence": true,
+    "closure_residual": true,
+    "crossing_horizon_identity": true,
+    "crossing_rank_one_reconstruction": true,
+    "present_horizon_identity": true,
+    "present_normalization": true,
+    "present_rank_one_reconstruction": true
+  },
+  "claim_scope": "arithmetic, numerical integration, and horizon-identity verification only; not physical validation or a first-principles wall return",
+  "generated_utc": "2026-08-26T09:12:34.630017+00:00",
+  "inputs": {
+    "age_calibration_gyr": 13.8,
+    "h0_km_s_mpc": 67.4,
+    "matching_ratio": 1.0,
+    "nu": 1.0,
+    "omega_m0": 0.322394143478131,
+    "omega_m0_provenance": "released 2025 DESI DR2 BAO plus Pantheon+ frozen unit CST-B2 joint fit",
+    "omega_m0_status": "REPRODUCED BACKGROUND FIT INPUT",
+    "omega_r0": 9.15e-05,
+    "omega_x0": 0.677514356521869,
+    "response_to_non_x_today": 2.100913235127671,
+    "root_policy": "smallest positive root"
+  },
+  "receipt": "provisional cosmodynamic expansion closure",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "shape_outputs": {
+    "acceleration_boundary_roots_n": [
+      -0.5575597055866672,
+      2.489196983393283
+    ],
+    "acceleration_entry_n": -0.5575597055866672,
+    "acceleration_entry_z": 0.7464055523961002,
+    "acceleration_exit_a_over_a0": 12.051594603151633,
+    "acceleration_exit_n": 2.489196983393283,
+    "dimensionless_age_h0_t0": 0.9435950649051117,
+    "h_crossing_over_h0": 1.2073025709765388,
+    "j0": -0.07345745012121896,
+    "positive_closure_roots": [
+      0.271746022786857
+    ],
+    "q0": -0.3365159391657988,
+    "samples": [
+      {
+        "h_over_h0": 1.0,
+        "q": -0.3365159391657988,
+        "z": 0.0
+      },
+      {
+        "h_over_h0": 1.164890706997599,
+        "q": -0.27760359129325585,
+        "z": 0.25
+      },
+      {
+        "h_over_h0": 1.3433002805542815,
+        "q": -0.14773067321597522,
+        "z": 0.5
+      },
+      {
+        "h_over_h0": 1.5492808980792498,
+        "q": 0.002096671331435651,
+        "z": 0.75
+      },
+      {
+        "h_over_h0": 1.787148500284339,
+        "q": 0.1357600247260229,
+        "z": 1.0
+      },
+      {
+        "h_over_h0": 3.0174574097973057,
+        "q": 0.40636518810309763,
+        "z": 2.0
+      }
+    ],
+    "w0": -0.8231674907086598,
+    "wa_local_cpl": -0.6197620621532588,
+    "x_crossing": 0.271746022786857,
+    "z_crossing": 0.3122536764527586
+  }
+}

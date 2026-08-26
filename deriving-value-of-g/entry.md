@@ -149,15 +149,17 @@ G_{\mathrm{eff}}
 =\frac{c^3\mathfrak a_{\downarrow}}{4\hbar}.
 $$
 
-The historical background analysis reports
+The current direct background profile on the unit-rate branch, using the fully released 2025 DESI DR2 BAO likelihood, gives
 
 $$
-\mathfrak R_c=1.025,
+\mathfrak R_c=1.014104,
 \qquad
-68\%\text{ interval }[0.941,1.088],
+\Delta\chi^2\le1:[0.941572,1.089954],
+\qquad
+\Delta\chi^2\le3.84:[0.875271,1.165563],
 $$
 
-within the assumed \(\operatorname{sech}^2\) family. This is a model-restricted amplitude fit, not a direct observation of \(G^{\perp}_{NN}\), and the cited likelihood package is absent from the workspace. [[reported-cosmological-fit]] records exactly what the number does and does not establish.
+within the assumed \(\operatorname{sech}^2\) family. These are profile-likelihood contours, not posterior credible intervals. This is a reproduced model-restricted amplitude fit, not a direct observation of \(G^{\perp}_{NN}\). The historical \(1.025\,[0.941,1.088]\) result remains archived but is superseded for current numerical use; [[reported-cosmological-fit]] records exactly what either calculation does and does not establish.
 
 ## The conditional derivation
 
@@ -245,7 +247,7 @@ $$
 | Causal-scale physical principle | \(\mathfrak R_c=1\) at the distinguished reference cut |
 | Event-locus conjecture | wall dynamics identifies the reference cut with a self-dual causal wall and the other candidate events |
 | Central conjectural weld | The causal-scale BKM modulus is the finite universal entropy--area modulus relevant to local gravitational focusing |
-| Reported phenomenological check | A model-restricted background fit reports \(\mathfrak R_c=1.025\) with interval \([0.941,1.088]\); the likelihood package is not present for reproduction |
+| Reproduced phenomenological check | The fully released 2025 direct unit-rate background profile gives \(\mathfrak R_c=1.014104\), with \(\Delta\chi^2\le1\) contour \([0.941572,1.089954]\) and \(\Delta\chi^2\le3.84\) contour \([0.875271,1.165563]\); this tests the effective source family, not microscopic capacity |
 | Open numerical derivation | Construct and renormalize the wall state, compute \(\chi_{\downarrow}\) without gravitational input, derive the Ruble ratio, and recover the same constant in every tested gravitational sector |
 
 ## Present verdict

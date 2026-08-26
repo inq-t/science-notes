@@ -59,8 +59,8 @@ for n in range(3,13):
 check("qubit: A3 norm^2 = 2",path_norm(3)**2,2.0,1e-12)
 assert math.e>2.0  # fitted rate beyond the affine wall
 
-# 4) algebraic survivors in the fit window, from the fit interval itself
-fit_lo,fit_hi=0.941,1.088
+# 4) algebraic survivors in the released-2025 direct Delta-chi2 <= 1 profile window
+fit_lo,fit_hi=0.941572,1.089954
 s_lo,s_hi=1/fit_hi,1/fit_lo
 ind_lo,ind_hi=math.exp(2*s_lo),math.exp(2*s_hi)
 out["index_window"]=[round(ind_lo,3),round(ind_hi,3)]
@@ -83,10 +83,10 @@ check("s*(4+2sqrt3)",s_of(4+2*3**.5),1.005053,1e-5)
 dmin=min(abs(s_of(i)-1.0) for i in survivors)
 out["nearest_survivor_ds"]=round(dmin,4)
 assert dmin<0.002   # 2 x 4cos^2(pi/11) sits at ~0.0016: transcendence not decidable by digits
-# separation costs (sigma(s*) ~ sigma(r_c) near 1): factor over current half-width 0.074
+# separation costs (sigma(s*) ~ sigma(R_c) near 1): factor over the current half-width
 for i,lab in [(6.8541,"golden^2"),(7.0,"integer7"),(7.2361,"2x4cos2pi10"),(7.4641,"4+2sqrt3")]:
     need=abs(s_of(i)-1.0)/2
-    out[f"improvement_x_{lab}"]=round(0.0735/need,0)
+    out[f"improvement_x_{lab}"]=round(((fit_hi-fit_lo)/2)/need,0)
 
 # 5) Gauss-map / mixmaster entropy
 out["gauss_map_entropy_nats_per_era"]=check("h_Gauss",pi*pi/(6*math.log(2)),2.3731,1e-4)

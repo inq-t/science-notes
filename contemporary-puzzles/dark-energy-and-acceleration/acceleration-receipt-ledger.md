@@ -108,9 +108,9 @@ Stated plainly, because a comparison whose weaknesses live only in the reader's 
 - **The evidence itself is provisional.** The preference for evolving dark energy is carried substantially by the lowest-redshift supernova anchor, and the significances depend on the compilation.
 - **The negative control.** The logarithmic compression that makes the crossing come out recent is shared with $\Lambda$CDM and is not evidence; [[coincidence-reframed]] owns the argument and the script asserts the gap sizes.
 
-### The prior background comparison
+### The direct background comparison
 
-A background-only $\chi^2$ comparison against $\Lambda$CDM exists in the inherited material and is recorded in [[causal-scale-theory/empirical-status|the empirical status note]] with the status **[REPORTED FIT — LIMITED, NOT FULLY REPRODUCED]**. It is not restated here: a number whose pipeline cannot be regenerated gains nothing from appearing in a second note, and the comparison above is deliberately independent of it.
+The fixed-member background comparison has now been directly regenerated from archived Pantheon+ and DESI release products. A second branch-aware receipt releases \((\nu,\mathfrak R_c)\), finds the unit point compatible, and finds no AIC reward for the extra response freedom. [[causal-scale-theory/data-consistency|The data-consistency audit]] owns the interpretation, while [[causal-scale-theory/empirical-status|the empirical-status note]] owns the claim level. The numbers are not duplicated here because this ledger's purpose is the distinct, weaker comparison between a local CST tangent and published CPL summaries.
 
 ## Layer 4 — microscopic evidence
 
@@ -118,7 +118,7 @@ A background-only $\chi^2$ comparison against $\Lambda$CDM exists in the inherit
 
 ## Not claimed here
 
-Recorded so that no reader has to check: this module quotes no AIC or DIC ranking; no withheld v8 best-fit amplitude or rate value, both of which are outside the canon because their likelihood directories are absent; no neutrino inference, which the canon treats as a class-membership and negative-control exercise rather than distinctive support; no $f\sigma_8$, $\sigma_8$, $S_8$, lensing, or growth number of any kind, since the covariant response sector is unconstructed; and no claim that DESI has measured a microscopic scale-state rate or horizon capacity.
+Recorded so that no reader has to check: this module itself quotes no AIC or DIC ranking, because the current generalized likelihood receipt owns the AIC comparison and supersedes the unverified v8 profile tables; no neutrino inference, which the canon treats as a class-membership and negative-control exercise rather than distinctive support; no $f\sigma_8$, $\sigma_8$, $S_8$, lensing, or growth number of any kind, since the covariant response sector is unconstructed; and no claim that DESI has measured a microscopic scale-state rate or horizon capacity.
 
 ## What would kill the reclassification
 

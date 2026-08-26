@@ -1,6 +1,6 @@
 # Receipt Contract
 
-The receipt suite separates reduced binary algebra from CST-B2 homogeneous-background arithmetic. It tests formula implementation for that member only; no receipt validates the wall construction, selects CST-B2 from [[causal-scale-theory/response-family-interface|the wider response family]], promotes the $A_2$ audit to a cosmology, or establishes the constitutive source, unit principles, dimensional applicability, or observational fit.
+This receipt suite separates reduced binary algebra from CST-B2 homogeneous-background arithmetic. It tests formula implementation for that member only; it does not validate the wall construction, select CST-B2 from [[causal-scale-theory/response-family-interface|the wider response family]], promote the $A_2$ audit to a cosmology, or establish the constitutive source, unit principles, or dimensional applicability. The separately scoped [[causal-scale-theory/receipts/fit-late-time-background|late-time likelihood receipt]] owns the frozen-member comparison, whose canonical primary row uses fully released 2025 DESI DR2 and Pantheon+ products. [[causal-scale-theory/receipts/fit-des-dovekie-background|The DES-Dovekie robustness receipt]] substitutes the released alternate supernova reduction without treating the overlapping compilation as independent evidence. [[causal-scale-theory/receipts/fit-generalized-background|The generalized profile receipt]] releases \((\nu,\mathfrak R_c)\) and audits branches, parameter compatibility, and information-criterion cost. [[causal-scale-theory/receipts/fit-calibrated-background|The Cepheid-calibrated receipt]] retains the absolute-distance anchors and tests the implied \(H_0\), sound horizon, and extrapolated age; it reuses the shape-only Hubble-flow and DESI rows, so only the added Cepheid calibration is new information. None lends empirical credit back to the microscopic premises.
 
 Run locally with
 
@@ -10,6 +10,10 @@ python causal-scale-theory/receipts/background.py
 ```
 
 Any current Python 3 interpreter can run the scripts. Both use only the standard library, write [[algebra.json|algebra]] and [[background.json|background]] outputs beside themselves, and exit nonzero if any declared check fails.
+
+The data receipts additionally require NumPy and the archived products in [[causal-scale-theory/sources/late-time-background/README|the source manifest]]. They write [[causal-scale-theory/receipts/late-time-background-fit|the frozen Pantheon+ ledger]], [[causal-scale-theory/receipts/des-dovekie-background-fit|the DES-Dovekie ledger]], [[causal-scale-theory/receipts/generalized-background-fit-2025|the released-data generalized ledger]], [[causal-scale-theory/receipts/generalized-background-fit|the provisional-update generalized ledger]], and [[causal-scale-theory/receipts/calibrated-background-fit|the calibrated absolute-scale ledger]]. The specialized receipts import the base expansion and distance implementation rather than duplicating it.
+
+Each data ledger preserves the type of its input. The 2025 DESI rows use released likelihood products and own the canonical generalized profile. The 2026 Ly\(\alpha\) rows reconstruct the published bivariate Gaussian block and assume zero cross-covariance with the retained lower-redshift distances; they are **[PROVISIONAL PUBLISHED-GAUSSIAN UPDATES]** until a full collaboration likelihood is released. Reproducible optimization does not promote that supplemental input into a released 2026 likelihood result.
 
 The `kind` field records how a check was performed. Exact rational substitutions, numerical quadrature, direct differentiation, root solving, and historical regression values remain distinguishable in the machine-readable output.
 

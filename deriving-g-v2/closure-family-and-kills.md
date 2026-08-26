@@ -1,6 +1,6 @@
 # The Closure Family and Its Kills
 
-At a homogeneous reference cut, restricting the dimensionful inputs to one macroscopic radius $R_c$ and one microscopic length $\lambda$ gives the general dimensional form $\chi_*=\lambda^{-2}F(R_c/\lambda;\mathbf g)$, with arbitrary dimensionless data $\mathbf g$. The power-law closures studied here are a one-parameter monomial subfamily, not every possible closure. Within that declared family the note tests unscreened live running against lunar laser ranging, conditionally tests the rigid Jones ladder using the reported fit, rejects a crossed-product normalization that imports gravity, and computes four illustrative closures. All quoted numbers are asserted in `receipts/g_closures.py`; the cosmological diagnostics use the Planck 2018 flat-$\Lambda$CDM baseline and are not construction inputs.
+At a homogeneous reference cut, restricting the dimensionful inputs to one macroscopic radius $R_c$ and one microscopic length $\lambda$ gives the general dimensional form $\chi_*=\lambda^{-2}F(R_c/\lambda;\mathbf g)$, with arbitrary dimensionless data $\mathbf g$. The power-law closures studied here are a one-parameter monomial subfamily, not every possible closure. Within that declared family the note tests unscreened live running against lunar laser ranging, conditionally tests the rigid Jones ladder using the reproduced direct matching-ratio profile, rejects a crossed-product normalization that imports gravity, and computes four illustrative closures. All quoted numbers are asserted in `receipts/g_closures.py`; the cosmological diagnostics use the Planck 2018 flat-$\Lambda$CDM baseline and are not construction inputs.
 
 ## The macroscopic collapse lemma
 
@@ -42,7 +42,7 @@ The displayed logarithmic ansatz also exceeds the quoted bound. Within the unscr
 
 ## Kill 2 — the rigid channel ladder
 
-Executed in [[index-not-entropy]]: the reported fit excludes every maximally mixed cell on the Jones ladder (all predict $\mathfrak R_c\ge1.443$) and the maximal qutrit from below. Inherits the fit's reported-limited status.
+Executed in [[index-not-entropy]] using the reproduced unit-rate profile on fully released 2025 data. Every maximally mixed cell on the rigid sub-4 Jones ladder predicts $\mathfrak R_c\ge1/\ln2=1.4427$, above the $\Delta\chi^2\le3.84$ upper endpoint $1.165563$, so that ladder is conditionally excluded. The maximally mixed qutrit predicts $\mathfrak R_c=1/\ln3=0.91024$: it lies outside the $\Delta\chi^2\le1$ contour but inside the wider contour and is therefore only mildly disfavored. Both conclusions remain conditional on channel additivity, the unit-rate branch, and the model-to-wall identification.
 
 ## Kill 3 — the crossed-product route is circular by construction
 

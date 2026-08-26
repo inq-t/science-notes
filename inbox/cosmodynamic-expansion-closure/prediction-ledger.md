@@ -114,7 +114,7 @@ The unit member predicts all of the following together:
 - divergent future conformal time, hence no permanent power-law event horizon;
 - the dimensionless proper age above.
 
-The strongest near-term empirical action is therefore a direct likelihood for the exact \(H(z)\), with the unit packet frozen in advance, rather than a comparison of its local \((w_0,w_a)\) tangent to a generic CPL fit. The [DESI DR2 primary analysis](https://doi.org/10.48550/arXiv.2503.14738) reports a preference for the same sign pattern \(w_0>-1,w_a<0\), but that qualitative adjacency is not a direct test of this curve.
+That direct likelihood for the exact \(H(z)\) has now been performed in [[causal-scale-theory/data-consistency|the data-consistency audit]], with the unit packet frozen and the ordinary matter fraction fitted equally against flat \(\Lambda\)CDM. The branch-aware generalized receipt has also released \((\nu,\mathfrak R_c)\): the unit point remains compatible, and AIC does not reward the added response freedom. The [DESI DR2 primary analysis](https://doi.org/10.48550/arXiv.2503.14738) reports a preference for the same sign pattern \(w_0>-1,w_a<0\), but that qualitative adjacency remains distinct from the direct curve test. The next data refinement is the collaboration's complete 2026 likelihood and updated supernova products; the next genuinely physical test requires perturbations.
 
 ## Failure ledger
 
@@ -124,4 +124,4 @@ The strongest near-term empirical action is therefore a direct likelihood for th
 - Background success would not prove the wall, BKM-to-source map, \(G\) weld, or covariant perturbation sector.
 - Using a horizon reconstructed from the fitted \(H(N)\) as evidence that the horizon generated \(H(N)\) fails the repository's elimination test.
 
-The executable [[inbox/cosmodynamic-expansion-closure/receipts/predict-expansion|receipt]] writes [[inbox/cosmodynamic-expansion-closure/receipts/prediction.json|a machine-readable prediction ledger]]. It imports no observational likelihood and certifies only formula implementation, numerical integration, and the rank-one horizon identities.
+The executable [[inbox/cosmodynamic-expansion-closure/receipts/predict-expansion|receipt]] writes [[inbox/cosmodynamic-expansion-closure/receipts/prediction.json|a machine-readable prediction ledger]]. It imports no observational likelihood and certifies only formula implementation, numerical integration, and the rank-one horizon identities. [[causal-scale-theory/data-consistency|The separate data-consistency audit]] owns the direct fit and explains why its updated ordinary-sector calibration does not retroactively alter this pre-comparison benchmark.

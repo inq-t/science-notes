@@ -10,4 +10,5 @@ include = [
   "receipts/*.md",
   "receipts/*.py",
   "receipts/*.json",
+  "sources/late-time-background/*.md",
 ]

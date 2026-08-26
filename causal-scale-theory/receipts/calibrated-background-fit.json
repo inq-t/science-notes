@@ -1,0 +1,823 @@
+{
+  "generated_utc": "2026-08-26T09:02:40.556547+00:00",
+  "runtime": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "protocol": {
+    "role": "separately executable calibrated-supernova robustness test of the homogeneous background law; not statistically independent of the Pantheon+ shape receipt",
+    "models": [
+      "flat LambdaCDM",
+      "frozen unit CST-B2"
+    ],
+    "omega_r": 9.15e-05,
+    "datasets": [
+      "official Pantheon+SH0ES calibrated likelihood",
+      "fully released 2025 DESI DR2 Gaussian BAO likelihood"
+    ],
+    "selection_and_theory": {
+      "released_row_count": 1701,
+      "selected_row_count": 1657,
+      "selected_calibrator_row_count": 77,
+      "selected_hubble_flow_row_count": 1580,
+      "excluded_low_redshift_noncalibrator_row_count": 44,
+      "selection": "(zHD > 0.01) OR bool(IS_CALIBRATOR)",
+      "calibrator_theory": "CEPH_DIST distance modulus",
+      "hubble_flow_theory": "5 log10[(c/H0) (1+zHEL) chi(zHD)] + 25",
+      "common_nuisance": "one absolute magnitude M added to every selected row",
+      "covariance": "full selected statistical-plus-systematic covariance; symmetrized before Cholesky factorization"
+    },
+    "fitted_parameters": {
+      "calibrated_supernova_only": [
+        "Omega_m",
+        "H0",
+        "one common absolute magnitude M"
+      ],
+      "joint": [
+        "Omega_m",
+        "H0",
+        "one common absolute magnitude M",
+        "r_d (equivalently the BAO amplitude c/(H0 r_d))"
+      ]
+    },
+    "likelihood_normalization": "reported chi-square is the parameter-dependent quadratic only; the Gaussian log-determinant and 2pi constant are common to both models and cancel exactly in every delta chi-square",
+    "Omega_m_search": {
+      "optimizer_bounds": [
+        0.15,
+        0.5
+      ],
+      "broader_scan_bounds": [
+        0.05,
+        0.8
+      ],
+      "broader_scan_point_count": 151
+    },
+    "age_extension": {
+      "integration_variable": "y = ln(1+z)",
+      "integration_bounds": [
+        0.0,
+        35.0
+      ],
+      "omega_r": 9.15e-05,
+      "qualification": "conditional extension of each homogeneous E(z) far beyond the z <= 2.33 fit domain; for CST-B2 this is not an early-universe construction"
+    },
+    "primary_sources": {
+      "official_likelihood_implementation": "https://github.com/PantheonPlusSH0ES/DataRelease/blob/c447f0fea703fcd0fff57de5000947b5ca81286b/Pantheon%2B_Data/5_COSMOLOGY/cosmosis_likelihoods/Pantheon%2BSH0ES_cosmosis_likelihood.py",
+      "official_likelihood_commit": "c447f0fea703fcd0fff57de5000947b5ca81286b",
+      "official_likelihood_sha256": "345fac3781a5cb930b95e91c1c07eb17dcf99b441703bb5e449477519240a59d",
+      "pantheon_plus_cosmology": "https://doi.org/10.3847/1538-4357/ac8e04",
+      "shoes_distance_ladder": "https://doi.org/10.3847/2041-8213/ac5c5b",
+      "desi_dr2_results_ii": "https://doi.org/10.48550/arXiv.2503.14738",
+      "planck_2018_parameters": "https://doi.org/10.1051/0004-6361/201833910",
+      "valcin_globular_cluster_age": "https://arxiv.org/abs/2102.04486"
+    }
+  },
+  "source_sha256": {
+    "desi_dr2_bao_mean.txt": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+    "desi_dr2_bao_cov.txt": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+    "Pantheon+SH0ES.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "Pantheon+SH0ES_STAT+SYS.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+  },
+  "official_flat_lcdm_validation": {
+    "flat_LambdaCDM_Pantheon_plus_SH0ES": {
+      "Omega_m": 0.334,
+      "Omega_m_sigma": 0.018,
+      "H0_km_s_Mpc": 73.6,
+      "H0_sigma_km_s_Mpc": 1.1,
+      "source": "https://doi.org/10.3847/1538-4357/ac8e04",
+      "statistic_type": "published marginalized 68 percent constraints"
+    },
+    "receipt_maximum_likelihood": {
+      "Omega_m": 0.3318121095500896,
+      "H0_km_s_Mpc": 73.53278354029156,
+      "absolute_magnitude_M": -19.24405748701349,
+      "chi_square": 1452.0159520581026,
+      "omega_r": 0.0,
+      "statistic_type": "maximum-likelihood quadratic using the official compact selection and covariance"
+    },
+    "difference_in_published_sigma": {
+      "Omega_m": -0.12154946943946736,
+      "H0": -0.06110587246221205
+    },
+    "qualification": "the paper quotes marginalized constraints, whereas the receipt reports a maximum-likelihood point; agreement is therefore tested against the quoted uncertainty rather than decimal identity; the paper does not tabulate an absolute chi-square for this row"
+  },
+  "models": {
+    "lcdm": {
+      "calibrated_supernova_only": {
+        "Omega_m_best": 0.331656440324655,
+        "Omega_m_profile_delta_chi2_1": [
+          0.3138367313075,
+          0.3499227777945
+        ],
+        "H0_km_s_Mpc": 73.53291534042525,
+        "absolute_magnitude_M": -19.244058486533135,
+        "chi_square": 1452.0173193293372,
+        "search_audit": {
+          "optimizer_bounds_Omega_m": [
+            0.15,
+            0.5
+          ],
+          "best_fit_is_strictly_interior": true,
+          "broader_scan_bounds_Omega_m": [
+            0.05,
+            0.8
+          ],
+          "broader_scan_point_count": 151,
+          "broader_scan_minimum_Omega_m": 0.33,
+          "broader_scan_minimum_chi_square": 1452.0257677056,
+          "optimized_chi_square_not_above_any_broader_scan_point": true,
+          "qualification": "the scan is a nonconvexity/boundary check, not a proof over the full physical parameter domain"
+        },
+        "maximum_absolute_profiled_sn_nuisance_score": 1.767571258896896e-09,
+        "local_hessian": {
+          "method": "inverse numerical Hessian of -ln L = chi_square/2 in the full parameter space, including the common magnitude nuisance",
+          "parameter_order": [
+            "Omega_m",
+            "ln_H0",
+            "absolute_magnitude_M"
+          ],
+          "finite_difference_steps": [
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "hessian": [
+            [
+              10358.19407343297,
+              49254.019322233944,
+              -22793.057602825684
+            ],
+            [
+              49254.019322233944,
+              333399.15810483944,
+              -153573.93122349094
+            ],
+            [
+              -22793.057602825684,
+              -153573.93122349094,
+              71889.93197223681
+            ]
+          ],
+          "covariance": [
+            [
+              0.0003255064649929121,
+              -3.4368628317240176e-05,
+              2.9783895832102458e-05
+            ],
+            [
+              -3.4368628317240434e-05,
+              0.0001912866720012452,
+              0.0003977369194891877
+            ],
+            [
+              2.978389583210201e-05,
+              0.0003977369194891878,
+              0.000873013600795324
+            ]
+          ],
+          "parameter_sigma_in_native_coordinates": [
+            0.01804179772065168,
+            0.01383064250138963,
+            0.029546803563081474
+          ],
+          "maximum_relative_sigma_change_when_steps_halved": 2.1365909197434974e-07,
+          "positive_definite": true,
+          "derived_central_values": {
+            "Omega_m": 0.331656440324655,
+            "H0_km_s_Mpc": 73.53291534042523,
+            "absolute_magnitude_M": -19.244058486533135,
+            "H0_t0": 0.936868668109513,
+            "age_Gyr": 12.457861791184968
+          },
+          "propagated": {
+            "H0_km_s_Mpc": {
+              "quantity": "H0 [km s^-1 Mpc^-1]",
+              "value": 73.53291534042523,
+              "local_hessian_sigma": 1.017007506533093,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "age_Gyr": {
+              "quantity": "t0 [Gyr]",
+              "value": 12.457861791184968,
+              "local_hessian_sigma": 0.2398174832509703,
+              "propagation": "gradient transpose times covariance times gradient"
+            }
+          },
+          "qualification": "local Gaussian/observed-Hessian approximation; not a posterior credible interval or coverage-calibrated confidence interval"
+        },
+        "goodness_of_fit": {
+          "data_vector_length_and_covariance_rank": 1657,
+          "fitted_parameter_count": 3,
+          "nominal_degrees_of_freedom": 1654,
+          "chi_square_from_cholesky_whitened_residuals": 1452.0173193293358,
+          "component_chi_square": {
+            "calibrated_supernova": 1452.0173193293358
+          },
+          "nominal_reduced_chi_square": 0.8778822970552211,
+          "whitened_residual_rms_per_nominal_dof": 0.9369537326118196,
+          "whitened_residual_mean": 0.014933074266222004,
+          "whitened_residual_standard_deviation": 0.9359860541988106,
+          "maximum_absolute_cholesky_whitened_residual": 4.00160115744464,
+          "absolute_whitened_residual_quantiles": {
+            "p50": 0.569609105457667,
+            "p90": 1.5048360207710023,
+            "p95": 1.8694203671344984,
+            "p99": 2.740633884937302
+          },
+          "absolute_whitened_residual_counts": {
+            "greater_than_2": 73,
+            "greater_than_3": 9,
+            "greater_than_4": 1
+          },
+          "covariance_positive_definite": true,
+          "qualification": "nominal Gaussian diagnostic; individual Cholesky-whitened coordinates depend on the released row ordering, and the diagnostic is not a systematics coverage calibration"
+        }
+      },
+      "released_2025_desi_plus_calibrated_supernova": {
+        "Omega_m_best": 0.30407066153187234,
+        "Omega_m_profile_delta_chi2_1": [
+          0.2962431535625,
+          0.31210229626249997
+        ],
+        "H0_km_s_Mpc": 73.74956479318536,
+        "absolute_magnitude_M": -19.24662038447944,
+        "chi_square": 1465.3619750489577,
+        "search_audit": {
+          "optimizer_bounds_Omega_m": [
+            0.15,
+            0.5
+          ],
+          "best_fit_is_strictly_interior": true,
+          "broader_scan_bounds_Omega_m": [
+            0.05,
+            0.8
+          ],
+          "broader_scan_point_count": 151,
+          "broader_scan_minimum_Omega_m": 0.305,
+          "broader_scan_minimum_chi_square": 1465.3756726098804,
+          "optimized_chi_square_not_above_any_broader_scan_point": true,
+          "qualification": "the scan is a nonconvexity/boundary check, not a proof over the full physical parameter domain"
+        },
+        "maximum_absolute_profiled_sn_nuisance_score": 4.85721208084986e-10,
+        "local_hessian": {
+          "method": "inverse numerical Hessian of -ln L = chi_square/2 in the full parameter space, including the common magnitude nuisance",
+          "parameter_order": [
+            "Omega_m",
+            "ln_H0",
+            "absolute_magnitude_M",
+            "ln_r_d"
+          ],
+          "finite_difference_steps": [
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "hessian": [
+            [
+              99501.94587645456,
+              149899.32572143516,
+              -23322.272642076314,
+              99503.32158177844
+            ],
+            [
+              149899.32572143516,
+              463731.42004586046,
+              -153573.93122314988,
+              130332.31896395137
+            ],
+            [
+              -23322.272642076314,
+              -153573.93122314988,
+              71889.93197269156,
+              0.0
+            ],
+            [
+              99503.32158177844,
+              130332.31896395137,
+              0.0,
+              130332.26194374947
+            ]
+          ],
+          "covariance": [
+            [
+              6.286429148661023e-05,
+              -6.772310171636671e-06,
+              5.926947449926417e-06,
+              -4.122198788132018e-05
+            ],
+            [
+              -6.77231017163654e-06,
+              0.00018839144796321643,
+              0.00040025172953596973,
+              -0.0001832211501053281
+            ],
+            [
+              5.926947449926481e-06,
+              0.00040025172953596973,
+              0.000870865498827405,
+              -0.00040477688525525975
+            ],
+            [
+              -4.122198788132018e-05,
+              -0.00018322115010532808,
+              -0.00040477688525525964,
+              0.00022236521994356984
+            ]
+          ],
+          "parameter_sigma_in_native_coordinates": [
+            0.007928700491670134,
+            0.013725576416428435,
+            0.02951043033958341,
+            0.014911915368039408
+          ],
+          "maximum_relative_sigma_change_when_steps_halved": 8.11061860739315e-06,
+          "positive_definite": true,
+          "derived_central_values": {
+            "Omega_m": 0.30407066153187234,
+            "H0_km_s_Mpc": 73.74956479318533,
+            "absolute_magnitude_M": -19.24662038447944,
+            "H0_t0": 0.9600706030145623,
+            "age_Gyr": 12.728882814760242,
+            "r_d_Mpc": 136.9610996504401,
+            "r_d_h_Mpc": 101.00821492816046
+          },
+          "propagated": {
+            "H0_km_s_Mpc": {
+              "quantity": "H0 [km s^-1 Mpc^-1]",
+              "value": 73.74956479318533,
+              "local_hessian_sigma": 1.0122553294239776,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "age_Gyr": {
+              "quantity": "t0 [Gyr]",
+              "value": 12.728882814760242,
+              "local_hessian_sigma": 0.19268770404865834,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "r_d_Mpc": {
+              "quantity": "r_d [Mpc]",
+              "value": 136.9610996504401,
+              "local_hessian_sigma": 2.0423524117978107,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "r_d_h_Mpc": {
+              "quantity": "r_d h [Mpc]",
+              "value": 101.00821492816046,
+              "local_hessian_sigma": 0.6724019939627964,
+              "propagation": "gradient transpose times covariance times gradient"
+            }
+          },
+          "qualification": "local Gaussian/observed-Hessian approximation; not a posterior credible interval or coverage-calibrated confidence interval"
+        },
+        "goodness_of_fit": {
+          "data_vector_length_and_covariance_rank": 1670,
+          "fitted_parameter_count": 4,
+          "nominal_degrees_of_freedom": 1666,
+          "chi_square_from_cholesky_whitened_residuals": 1465.3619752256982,
+          "component_chi_square": {
+            "calibrated_supernova": 1454.4472258045166,
+            "desi_dr2_bao": 10.914749421181778
+          },
+          "nominal_reduced_chi_square": 0.8795690127405151,
+          "whitened_residual_rms_per_nominal_dof": 0.9378534068501938,
+          "whitened_residual_mean": 0.01765736542397943,
+          "whitened_residual_standard_deviation": 0.9365631201688837,
+          "maximum_absolute_cholesky_whitened_residual": 4.058814379023294,
+          "absolute_whitened_residual_quantiles": {
+            "p50": 0.5705837400195224,
+            "p90": 1.5092071617353824,
+            "p95": 1.8552773473249295,
+            "p99": 2.7426627535790367
+          },
+          "absolute_whitened_residual_counts": {
+            "greater_than_2": 72,
+            "greater_than_3": 9,
+            "greater_than_4": 1
+          },
+          "covariance_positive_definite": true,
+          "qualification": "nominal Gaussian diagnostic; individual Cholesky-whitened coordinates depend on the released row ordering, and the diagnostic is not a systematics coverage calibration"
+        },
+        "chi_square_calibrated_supernova": 1454.4472256277759,
+        "chi_square_desi_dr2_bao": 10.91474942118189,
+        "bao_profile_amplitude_c_over_H0rd": 29.68000753336942,
+        "profiled_bao_amplitude_normal_equation_score": 1.603162047558726e-13,
+        "r_d_h_Mpc": 101.00821492816046,
+        "r_d_Mpc": 136.96109965044005
+      }
+    },
+    "cst-b2-unit": {
+      "calibrated_supernova_only": {
+        "Omega_m_best": 0.31159830783134335,
+        "Omega_m_profile_delta_chi2_1": [
+          0.27708634804050003,
+          0.34241387614950003
+        ],
+        "H0_km_s_Mpc": 73.12512026136213,
+        "absolute_magnitude_M": -19.241819456792893,
+        "chi_square": 1453.2846076987785,
+        "search_audit": {
+          "optimizer_bounds_Omega_m": [
+            0.15,
+            0.5
+          ],
+          "best_fit_is_strictly_interior": true,
+          "broader_scan_bounds_Omega_m": [
+            0.05,
+            0.8
+          ],
+          "broader_scan_point_count": 151,
+          "broader_scan_minimum_Omega_m": 0.31,
+          "broader_scan_minimum_chi_square": 1453.2870420982747,
+          "optimized_chi_square_not_above_any_broader_scan_point": true,
+          "qualification": "the scan is a nonconvexity/boundary check, not a proof over the full physical parameter domain"
+        },
+        "maximum_absolute_profiled_sn_nuisance_score": 9.797731526757e-10,
+        "local_hessian": {
+          "method": "inverse numerical Hessian of -ln L = chi_square/2 in the full parameter space, including the common magnitude nuisance",
+          "parameter_order": [
+            "Omega_m",
+            "ln_H0",
+            "absolute_magnitude_M"
+          ],
+          "finite_difference_steps": [
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "hessian": [
+            [
+              1481.0890493208717,
+              13188.86366186689,
+              -6111.584052405306
+            ],
+            [
+              13188.86366186689,
+              333399.15809983725,
+              -153573.93122371833
+            ],
+            [
+              -6111.584052405306,
+              -153573.93122371833,
+              71889.93197087257
+            ]
+          ],
+          "covariance": [
+            [
+              0.0010436218902461127,
+              -2.606129298689831e-05,
+              3.304840635209902e-05
+            ],
+            [
+              -2.6061292986897828e-05,
+              0.00018830865961930337,
+              0.0004000563718749144
+            ],
+            [
+              3.304840635209974e-05,
+              0.0004000563718749144,
+              0.000871334916251236
+            ]
+          ],
+          "parameter_sigma_in_native_coordinates": [
+            0.03230513721138037,
+            0.0137225602428739,
+            0.029518382683528514
+          ],
+          "maximum_relative_sigma_change_when_steps_halved": 1.8066538234329244e-06,
+          "positive_definite": true,
+          "derived_central_values": {
+            "Omega_m": 0.31159830783134335,
+            "H0_km_s_Mpc": 73.12512026136213,
+            "absolute_magnitude_M": -19.241819456792893,
+            "H0_t0": 0.9511398516491679,
+            "age_Gyr": 12.718162313431145
+          },
+          "propagated": {
+            "H0_km_s_Mpc": {
+              "quantity": "H0 [km s^-1 Mpc^-1]",
+              "value": 73.12512026136213,
+              "local_hessian_sigma": 1.0034639098643838,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "age_Gyr": {
+              "quantity": "t0 [Gyr]",
+              "value": 12.718162313431145,
+              "local_hessian_sigma": 0.3424319662411093,
+              "propagation": "gradient transpose times covariance times gradient"
+            }
+          },
+          "qualification": "local Gaussian/observed-Hessian approximation; not a posterior credible interval or coverage-calibrated confidence interval"
+        },
+        "goodness_of_fit": {
+          "data_vector_length_and_covariance_rank": 1657,
+          "fitted_parameter_count": 3,
+          "nominal_degrees_of_freedom": 1654,
+          "chi_square_from_cholesky_whitened_residuals": 1453.2846076987792,
+          "component_chi_square": {
+            "calibrated_supernova": 1453.2846076987792
+          },
+          "nominal_reduced_chi_square": 0.8786484931673393,
+          "whitened_residual_rms_per_nominal_dof": 0.93736251960879,
+          "whitened_residual_mean": 0.010375917627644221,
+          "whitened_residual_standard_deviation": 0.9364561066106876,
+          "maximum_absolute_cholesky_whitened_residual": 3.9481046500797086,
+          "absolute_whitened_residual_quantiles": {
+            "p50": 0.5679374432657534,
+            "p90": 1.5111408321260904,
+            "p95": 1.8686448591205032,
+            "p99": 2.742750904060421
+          },
+          "absolute_whitened_residual_counts": {
+            "greater_than_2": 68,
+            "greater_than_3": 9,
+            "greater_than_4": 0
+          },
+          "covariance_positive_definite": true,
+          "qualification": "nominal Gaussian diagnostic; individual Cholesky-whitened coordinates depend on the released row ordering, and the diagnostic is not a systematics coverage calibration"
+        },
+        "x_crossing": 0.2920866499714878,
+        "z_crossing": 0.3392190559048751
+      },
+      "released_2025_desi_plus_calibrated_supernova": {
+        "Omega_m_best": 0.3223727330625737,
+        "Omega_m_profile_delta_chi2_1": [
+          0.3148140443845,
+          0.33012439659549997
+        ],
+        "H0_km_s_Mpc": 73.1038586130848,
+        "absolute_magnitude_M": -19.2414596495326,
+        "chi_square": 1462.3934688286768,
+        "search_audit": {
+          "optimizer_bounds_Omega_m": [
+            0.15,
+            0.5
+          ],
+          "best_fit_is_strictly_interior": true,
+          "broader_scan_bounds_Omega_m": [
+            0.05,
+            0.8
+          ],
+          "broader_scan_point_count": 151,
+          "broader_scan_minimum_Omega_m": 0.32,
+          "broader_scan_minimum_chi_square": 1462.4903195048846,
+          "optimized_chi_square_not_above_any_broader_scan_point": true,
+          "qualification": "the scan is a nonconvexity/boundary check, not a proof over the full physical parameter domain"
+        },
+        "maximum_absolute_profiled_sn_nuisance_score": 1.26519874208945e-09,
+        "local_hessian": {
+          "method": "inverse numerical Hessian of -ln L = chi_square/2 in the full parameter space, including the common magnitude nuisance",
+          "parameter_order": [
+            "Omega_m",
+            "ln_H0",
+            "absolute_magnitude_M",
+            "ln_r_d"
+          ],
+          "finite_difference_steps": [
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "hessian": [
+            [
+              55520.29284172022,
+              85205.83653989888,
+              -6969.372584080702,
+              70163.26861469225
+            ],
+            [
+              85205.83653989888,
+              463733.34116742626,
+              -153573.93122337727,
+              130334.24008665407
+            ],
+            [
+              -6969.372584080702,
+              -153573.93122337727,
+              71889.93197132731,
+              0.0
+            ],
+            [
+              70163.26861469225,
+              130334.24008665407,
+              0.0,
+              130334.1830653153
+            ]
+          ],
+          "covariance": [
+            [
+              5.858596613665987e-05,
+              -1.6964921079241202e-06,
+              2.0555098586030587e-06,
+              -2.98423005992931e-05
+            ],
+            [
+              -1.696492107924572e-06,
+              0.00018771099963184505,
+              0.00040083071261270883,
+              -0.0001867978030694446
+            ],
+            [
+              2.0555098586022333e-06,
+              0.00040083071261270894,
+              0.0008703788164664337,
+              -0.0004019374379771578
+            ],
+            [
+              -2.984230059929264e-05,
+              -0.00018679780306944484,
+              -0.00040193743797715823,
+              0.0002105355818449402
+            ]
+          ],
+          "parameter_sigma_in_native_coordinates": [
+            0.007654146989486148,
+            0.013700766388485172,
+            0.029502183249150115,
+            0.014509844308087534
+          ],
+          "maximum_relative_sigma_change_when_steps_halved": 7.981200161766289e-06,
+          "positive_definite": true,
+          "derived_central_values": {
+            "Omega_m": 0.3223727330625737,
+            "H0_km_s_Mpc": 73.10385861308478,
+            "absolute_magnitude_M": -19.2414596495326,
+            "H0_t0": 0.9436098723061557,
+            "age_Gyr": 12.621144915557394,
+            "r_d_Mpc": 135.86814470633723,
+            "r_d_h_Mpc": 99.3248564063422
+          },
+          "propagated": {
+            "H0_km_s_Mpc": {
+              "quantity": "H0 [km s^-1 Mpc^-1]",
+              "value": 73.10385861308478,
+              "local_hessian_sigma": 1.0015789306865817,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "age_Gyr": {
+              "quantity": "t0 [Gyr]",
+              "value": 12.621144915557394,
+              "local_hessian_sigma": 0.18578966169670955,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "r_d_Mpc": {
+              "quantity": "r_d [Mpc]",
+              "value": 135.86814470633723,
+              "local_hessian_sigma": 1.9714257082592215,
+              "propagation": "gradient transpose times covariance times gradient"
+            },
+            "r_d_h_Mpc": {
+              "quantity": "r_d h [Mpc]",
+              "value": 99.32485640634229,
+              "local_hessian_sigma": 0.4931454353525757,
+              "propagation": "gradient transpose times covariance times gradient"
+            }
+          },
+          "qualification": "local Gaussian/observed-Hessian approximation; not a posterior credible interval or coverage-calibrated confidence interval"
+        },
+        "goodness_of_fit": {
+          "data_vector_length_and_covariance_rank": 1670,
+          "fitted_parameter_count": 4,
+          "nominal_degrees_of_freedom": 1666,
+          "chi_square_from_cholesky_whitened_residuals": 1462.3934690258277,
+          "component_chi_square": {
+            "calibrated_supernova": 1453.3998412974356,
+            "desi_dr2_bao": 8.993627728392319
+          },
+          "nominal_reduced_chi_square": 0.8777871962940142,
+          "whitened_residual_rms_per_nominal_dof": 0.9369029812600739,
+          "whitened_residual_mean": 0.010640196867079621,
+          "whitened_residual_standard_deviation": 0.9357197754681384,
+          "maximum_absolute_cholesky_whitened_residual": 3.9518390124456495,
+          "absolute_whitened_residual_quantiles": {
+            "p50": 0.5665767262288024,
+            "p90": 1.521751253675031,
+            "p95": 1.8685859205005264,
+            "p99": 2.7403847410298483
+          },
+          "absolute_whitened_residual_counts": {
+            "greater_than_2": 71,
+            "greater_than_3": 9,
+            "greater_than_4": 0
+          },
+          "covariance_positive_definite": true,
+          "qualification": "nominal Gaussian diagnostic; individual Cholesky-whitened coordinates depend on the released row ordering, and the diagnostic is not a systematics coverage calibration"
+        },
+        "chi_square_calibrated_supernova": 1453.3998411002844,
+        "chi_square_desi_dr2_bao": 8.993627728392283,
+        "bao_profile_amplitude_c_over_H0rd": 30.18302455666648,
+        "profiled_bao_amplitude_normal_equation_score": 3.2518432391270835e-13,
+        "r_d_h_Mpc": 99.32485640634224,
+        "r_d_Mpc": 135.86814470633726,
+        "x_crossing": 0.2717856970839887,
+        "z_crossing": 0.3123057402278204
+      }
+    }
+  },
+  "comparisons": {
+    "calibrated_supernova_only_delta_chi_square_cst_minus_lcdm": 1.267288369441303,
+    "released_2025_joint_delta_chi_square_cst_minus_lcdm": -2.968506220280915,
+    "equal_parameter_count_within_each_dataset": true
+  },
+  "external_reference_comparisons": {
+    "references": {
+      "planck_base_lcdm": {
+        "r_d_Mpc": 147.09,
+        "sigma_Mpc": 0.26,
+        "source": "https://doi.org/10.1051/0004-6361/201833910",
+        "published_location": "Table 1",
+        "likelihood_combination": "default Plik TT,TE,EE+lowE+lensing base-LambdaCDM",
+        "statistic": "marginalized mean and 68 percent interval",
+        "qualification": "Planck base-LambdaCDM posterior parameter, not a model-neutral sound-horizon measurement"
+      },
+      "valcin_globular_cluster_chronometry": {
+        "age_Gyr": 13.5,
+        "sigma_Gyr": 0.27,
+        "source": "https://arxiv.org/abs/2102.04486",
+        "qualification": "stellar-evolution, distance, abundance, and cluster-formation inference; comparatively cosmology-insensitive, not assumption-free or strictly model-neutral"
+      }
+    },
+    "models": {
+      "lcdm": {
+        "calibrated_supernova_only": {
+          "globular_cluster_age_comparison": {
+            "fit_age_Gyr": 12.457861791184968,
+            "fit_local_hessian_sigma_Gyr": 0.2398174832509703,
+            "difference_fit_minus_reference_Gyr": -1.0421382088150324,
+            "combined_independent_Gaussian_sigma_Gyr": 0.361126605600902,
+            "absolute_difference_in_combined_sigma": 2.8857973703736146,
+            "qualification": "conditional local-Gaussian comparison treating the fit and quoted stellar-age error as independent; the fitted age also extrapolates the declared background E(z) to y=35 at fixed Omega_r"
+          }
+        },
+        "released_2025_desi_plus_calibrated_supernova": {
+          "globular_cluster_age_comparison": {
+            "fit_age_Gyr": 12.728882814760242,
+            "fit_local_hessian_sigma_Gyr": 0.19268770404865834,
+            "difference_fit_minus_reference_Gyr": -0.771117185239758,
+            "combined_independent_Gaussian_sigma_Gyr": 0.33170551893440564,
+            "absolute_difference_in_combined_sigma": 2.324704116220163,
+            "qualification": "conditional local-Gaussian comparison treating the fit and quoted stellar-age error as independent; the fitted age also extrapolates the declared background E(z) to y=35 at fixed Omega_r"
+          },
+          "planck_sound_horizon_comparison": {
+            "fit_r_d_Mpc": 136.9610996504401,
+            "fit_local_hessian_sigma_Mpc": 2.0423524117978107,
+            "difference_fit_minus_reference_Mpc": -10.128900349559899,
+            "absolute_difference_in_fit_sigma": 4.959428299959156,
+            "combined_independent_Gaussian_sigma_Mpc": 2.058835441208533,
+            "absolute_difference_in_combined_sigma": 4.91972313416863,
+            "qualification": "conditional comparison to an early-universe sound horizon inferred inside Planck base-LambdaCDM; it is not a model-neutral CST likelihood"
+          }
+        }
+      },
+      "cst-b2-unit": {
+        "calibrated_supernova_only": {
+          "globular_cluster_age_comparison": {
+            "fit_age_Gyr": 12.718162313431145,
+            "fit_local_hessian_sigma_Gyr": 0.3424319662411093,
+            "difference_fit_minus_reference_Gyr": -0.7818376865688546,
+            "combined_independent_Gaussian_sigma_Gyr": 0.4360729887344001,
+            "absolute_difference_in_combined_sigma": 1.7929055611491913,
+            "qualification": "conditional local-Gaussian comparison treating the fit and quoted stellar-age error as independent; the fitted age also extrapolates the declared background E(z) to y=35 at fixed Omega_r"
+          }
+        },
+        "released_2025_desi_plus_calibrated_supernova": {
+          "globular_cluster_age_comparison": {
+            "fit_age_Gyr": 12.621144915557394,
+            "fit_local_hessian_sigma_Gyr": 0.18578966169670955,
+            "difference_fit_minus_reference_Gyr": -0.8788550844426055,
+            "combined_independent_Gaussian_sigma_Gyr": 0.32774654596712044,
+            "absolute_difference_in_combined_sigma": 2.681508303464386,
+            "qualification": "conditional local-Gaussian comparison treating the fit and quoted stellar-age error as independent; the fitted age also extrapolates the declared background E(z) to y=35 at fixed Omega_r"
+          },
+          "planck_sound_horizon_comparison": {
+            "fit_r_d_Mpc": 135.86814470633723,
+            "fit_local_hessian_sigma_Mpc": 1.9714257082592215,
+            "difference_fit_minus_reference_Mpc": -11.22185529366277,
+            "absolute_difference_in_fit_sigma": 5.692253705858246,
+            "combined_independent_Gaussian_sigma_Mpc": 1.9884967496039245,
+            "absolute_difference_in_combined_sigma": 5.643386289617007,
+            "qualification": "conditional comparison to an early-universe sound horizon inferred inside Planck base-LambdaCDM; it is not a model-neutral CST likelihood"
+          }
+        }
+      }
+    }
+  },
+  "checks": {
+    "selected_count_is_1657": true,
+    "calibrator_count_is_77": true,
+    "hubble_flow_count_is_1580": true,
+    "desi_bao_count_is_13": true,
+    "all_covariances_positive_definite": true,
+    "all_whitened_norms_reproduce_chi_square": true,
+    "all_local_hessians_positive_definite": true,
+    "all_local_hessian_sigmas_stable_to_step_halving": true,
+    "all_profiled_nuisance_scores_vanish": true,
+    "all_profiled_minima_are_interior_and_pass_broader_scan": true,
+    "published_lcdm_Omega_m_reproduced": true,
+    "published_lcdm_H0_reproduced": true,
+    "displayed_chi_squares_are_finite": true,
+    "all_numeric_ledger_values_are_finite": true
+  }
+}

@@ -6,6 +6,7 @@ This is a promising research programme, not a closed derivation of dark energy. 
 
 > [!warning] Status of the long document
 > [[scale-as-modular-observable/misc/scale-as-a-modular-observable|Scale as a Modular Observable — Revision 2]] is the latest long synthesis in this folder, but it is not free of errors. In particular, conformal weights do not force an integer soldering slope, and a two-dimensional normal plane is not automatically a two-dimensional CFT to which Cardy's formula applies. [[claim-audit]] gives the corrected status of its arguments; the chronological record remains under `chats/`.
+> Its observational tables and matching-ratio intervals are also historical. Use [[causal-scale-theory/receipts/fit-late-time-background|the canonical frozen-background receipt]] and [[causal-scale-theory/receipts/fit-generalized-background|the current branch-aware generalized profile]], whose canonical row uses fully released 2025 inputs, for present numerical claims; the long document is not their source of record.
 
 ## Construction
 
