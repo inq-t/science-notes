@@ -38,6 +38,25 @@ def mpow(A,n):
     for _ in range(n): R = mm(R,A)
     return R
 def eq(A,B): return all(A[i][j]==B[i][j] for i in range(4) for j in range(4))
+def rank(A):
+    M = [[F(value) for value in row] for row in A]
+    rows, columns = len(M), len(M[0])
+    pivot_row = 0
+    for column in range(columns):
+        pivot = next((row for row in range(pivot_row, rows) if M[row][column]), None)
+        if pivot is None:
+            continue
+        M[pivot_row], M[pivot] = M[pivot], M[pivot_row]
+        scale = M[pivot_row][column]
+        M[pivot_row] = [value / scale for value in M[pivot_row]]
+        for row in range(rows):
+            if row != pivot_row and M[row][column]:
+                factor = M[row][column]
+                M[row] = [left - factor * right for left, right in zip(M[row], M[pivot_row])]
+        pivot_row += 1
+        if pivot_row == rows:
+            break
+    return pivot_row
 ok("T1^3 = I", eq(mpow(T1,3), I4))
 ok("T2^4 = I", eq(mpow(T2,4), I4))
 def inv(A):
@@ -57,8 +76,8 @@ ok("N gamma = 0",  col(N,0) == [0,0,0,0])
 ok("N u = 0",      col(N,1) == [0,0,0,0])
 ok("N w = -u",     col(N,2) == [0,-1,0,0])
 ok("N delta = gamma", col(N,3) == [1,0,0,0])
-# rank of N is 2 (the rank-two transverse datum)
-ok("rank N = 2", sum(1 for j in range(4) if col(N,j) != [0,0,0,0]) == 2)
+# Rank two is a property of this printed lattice matrix, not a cross-register invariant.
+ok("rank N = 2", rank(N) == 2)
 
 # (3) A2 discriminant 4a^3+27b^2: two fold branches for a<0, b->-b symmetric
 disc = lambda a,b: 4*a**3 + 27*b**2

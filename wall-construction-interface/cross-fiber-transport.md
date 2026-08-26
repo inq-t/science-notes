@@ -1,6 +1,6 @@
 # Cross-Fiber Transport and State Selection
 
-Comparing states attached to different scales requires two things that are usually assumed: a transport placing them on a common algebra, and a rule selecting the state at each scale in the first place. Both are substantive and neither implies the other. Exact half-sided-modular, tempered-core, and finite cellular constructions show that transport itself is attainable; they also show why a physical nonzero state path does not follow for free.
+Comparing states attached to different scales requires two things that are usually assumed: a transport placing them on a common algebra, and a rule selecting the state at each scale in the first place. Both are substantive and neither implies the other. Half-sided-modular transport, functorial core maps, and one exact core-spectral pre-wall show that continuous transport and nonzero state response are mathematically attainable together. Their realization as a local Lorentzian wall and their physical state-selection rule remain additional constructions.
 
 ## The transport problem
 
@@ -13,7 +13,7 @@ Let $N\mapsto(\mathcal A_N,\omega_N)$ be the intended family. Relative entropy a
 
 These are not equivalent. An inclusion of regions gives isotony for free but changes which observables exist; a common ambient algebra buys comparability at the cost of specifying that ambient object; a crossed product changes the algebra type and introduces its own dressed observables; a connection defines transport only up to holonomy, which must then be shown negligible or accounted for.
 
-## Two exact operator-algebraic transport constructors
+## Exact transport constructors
 
 The first exact constructor is a reconstructed half-sided-modular tunnel. Given one half-sided modular inclusion, [[half-sided-modular-tunnel|the tunnel theorem]] defines
 
@@ -36,7 +36,17 @@ is **tempered** when there exists a normal faithful semifinite operator-valued w
 
 Thus functorial core transport along a chain is **[STANDARD ON THE TEMPERED SUBCATEGORY]**. A wall candidate still has to construct its physical arrows and prove that they are tempered. The theorem does not choose states, establish a BKM tangent, prove effective descent over covers, or extend center-valued flow functoriality to arbitrary arrows; the center is functorial only on further proper subcategories. A bare phrase such as “pass to the core” therefore does not discharge W0c.
 
-[[finite-cellular-markov-wall|The finite cellular Markov wall]] gives a third exact benchmark using labelled carrier isomorphisms and a separate completely positive state-selection semigroup. Its point is typological: the reversible comparison arrow and the irreversible state-production arrow should not be denoted or interpreted as one map.
+The third constructor keeps every scale inside one canonical core but has two distinct carriers. [[core-spectral-wall|The core spectral wall]] takes spectral cuts $e_N$ of the logarithmic core density and finite capacity corners $\mathcal K_N=e_N\mathcal C e_N$, with
+
+$$
+\kappa_{N_2:N_1}
+=
+\left.\beta_{N_2-N_1}\right|_{\mathcal K_{N_1}}.
+$$
+
+For response, it instead uses labelled whole-core fibers $\mathcal A_N=\mathcal C^{(N)}$, transport $\iota_{N_2:N_1}=\beta_{N_2-N_1}$, one global normal state, and binary contexts $\mathcal B_N=W^*(e_N)\subset\mathcal A_N$. The corner unit is $e_N$, so $\mathcal B_N\not\subset\mathcal K_N$; the Bernoulli readout is not a corner readout. Both transport laws compose exactly, and the ambient-core expectation returns nonzero Fisher--BKM response. This closes the abstract algebra--state--transport--readout problem on the whole-core carrier while separately constructing finite capacity. It does not show that the spectral cuts are causal cuts, that either carrier is a local spacetime net, that the ambient readout is the physical one, or that the chosen global density is physically selected.
+
+[[finite-cellular-markov-wall|The finite cellular Markov wall]] gives a complementary exact benchmark using labelled carrier isomorphisms and a separate completely positive state-selection semigroup. Its point is typological: the reversible comparison arrow and the irreversible state-production arrow should not be denoted or interpreted as one map.
 
 Locally covariant relative Cauchy evolution is a plausible way to define metric response on controlled backgrounds; the standard functorial framework is [[causal-wall-spectral-theory/sources/papers/0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf|Brunetti, Fredenhagen, and Verch]]. A renormalized stress response additionally inherits the locality, covariance, scaling, and metric-variation ambiguities treated by [[causal-wall-spectral-theory/sources/papers/9903028-brunetti-fredenhagen-microlocal-renormalization-physical-backgrounds.pdf|Brunetti and Fredenhagen]] and [[causal-wall-spectral-theory/sources/papers/0103074-hollands-wald-local-wick-polynomials-time-ordered-products.pdf|Hollands and Wald]]. None of these implements a global homogeneous Weyl change or identifies changing cosmological regions, so they are candidate components rather than a finished transport.
 
@@ -55,7 +65,7 @@ $$
 
 The vertical term is modular-frame gauge. The central term shifts a normalization or a scalar lift and has **zero** information length, since relative entropy and every monotone metric are insensitive to a common central offset. Only the middle term can carry the response.
 
-The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. This remains an **[OPEN PHYSICAL CONSTRUCTION]**, not an absence of mathematical examples. The half-sided-modular invariant family realizes the zero case exactly; the cellular Markov family realizes a nonzero finite case exactly. The missing physical theorem must retain the latter feature on the former kind of causal carrier. If the resulting tangent is pure vertical gauge or pure central shift, the programme has no response at all — and this is a live possibility, because the central direction is exactly where a vacuum-energy-like offset would sit. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
+The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. This remains an **[OPEN PHYSICAL CONSTRUCTION]**, not an absence of mathematical examples. The half-sided-modular invariant family realizes the zero case exactly; the cellular Markov family realizes a nonzero finite case; and the core spectral wall realizes a nonzero continuous binary readout from one normal state on an infinite core. The missing theorem must preserve a nonzero horizontal sector while realizing a causal local carrier and physical quotient. If that tangent becomes pure vertical gauge or pure central shift under realization, the physical programme still has no response. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
 
 ## What a binary member additionally must show
 
@@ -113,7 +123,7 @@ The family $\{\omega_N\}$ cannot be treated as functorially automatic. [[causal-
 
 There is a controlled precedent for the shape such a rule can take rather than for the rule itself: [[causal-wall-spectral-theory/sources/papers/0712.1770-dappiaggi-moretti-pinamonti-cosmological-horizons-qft.pdf|Dappiaggi, Moretti, and Pinamonti]] map the algebra of a linear Klein–Gordon field into a cosmological-horizon algebra and induce a preferred bulk state on a selected class of expanding spacetimes. That is an existence result in a restricted class, with a linear field and a specific asymptotic structure; it is not the scale-indexed selection law required here.
 
-The exact benchmarks give opposite boundary conditions on this problem. The invariant reference state supplied as part of a half-sided modular inclusion is BKM-null after transport. The finite Markov semigroup independently selects a nonconstant faithful family and therefore has positive response, but its parameter is Markov depth and its carrier is not a causal spacetime wall. A proposed physical law has to explain why a cosmological construction lands on the nonzero side without selecting its path from the history it is meant to predict.
+The exact benchmarks give precise boundary conditions on this problem. The invariant reference state supplied as part of a half-sided modular inclusion is BKM-null after transport. The core spectral construction proves that no normal state on the whole trace-scaling core can be invariant under the full dual flow; one chosen global density therefore produces a nonconstant orbit, and its logistic member gives the exact balanced pulse after binary readout. This is a non-circular state **construction**, but not a unique physical **selection** of that density or its width. The finite Markov semigroup supplies the analogous separation in a finite carrier. A proposed cosmological law still has to explain why its causal realization selects one admissible state without reading the desired history backward.
 
 **Success.** The family is defined without reference to the observable it is meant to explain, is regular enough for relative modular theory, and admits controlled renormalized stress responses.
 

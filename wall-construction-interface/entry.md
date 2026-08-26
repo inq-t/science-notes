@@ -1,6 +1,6 @@
 # The Wall-Construction Interface
 
-Every programme that treats physical scale as displacement through quantum state space presupposes the same construction obligation: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. Exact half-sided-modular and finite cellular benchmarks now instantiate different portions of that obligation, but no physical cosmological wall yet combines their load-bearing features. This module states the object once, enumerates what must be supplied before relative entropy, a Connes cocycle, or a BKM norm may be written, and fixes the tests a candidate construction must pass.
+Every programme that treats physical scale as displacement through quantum state space presupposes the same construction obligation: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. An exact core-spectral construction now supplies a continuous algebraic pre-wall with cuts, states, transport, readout, and nonzero Fisher--BKM response without measured gravity or a fitted history. It does not yet supply Lorentzian regions, a local causal net, renormalized sources, or area. This module states the full physical object once, records what the pre-wall closes, and fixes the tests its realization must pass.
 
 Claim labels follow [[program-core/axioms-and-principles#Status vocabulary|the programme-wide claim-status vocabulary]].
 
@@ -66,7 +66,31 @@ The symbol W0 names one shared package, not one atomic theorem. Its slots fall i
 
 The physical quotient is downstream programme-core data, not a hidden sixth W0 slot. A full response member must use it, but the wall package does not get to define physical nullity by itself.
 
-**[OPEN CONSTRUCTION — PHYSICAL W0 WELD]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. The mathematical problem is nevertheless no longer wholly uninstantiated. [[half-sided-modular-tunnel|The half-sided modular tunnel]] constructs exact W0c transport and positive orientation, but the invariant HSMI reference state supplied as input has zero horizontal BKM response. [[finite-cellular-markov-wall|The finite cellular Markov wall]] constructs a non-circular faithful state semigroup, exact transport, readout, and nonzero finite response blocks, but has no Lorentzian region, geometric cut, type-III continuum cocycle, or cosmic-scale solder. The keystone remainder is the weld between causal geometry and a nonzero independently selected state response, followed by W0e renormalized source readiness. Calling this one “gap” is acceptable architectural shorthand only if these independent failure gates remain visible.
+**[OPEN CONSTRUCTION — PHYSICAL W0 WELD]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. [[core-spectral-wall|The core spectral wall]] now constructs one continuous algebraic pre-wall from the canonical core of a type-$\mathrm{III}_1$ factor. Its capacity subpackage has exact nested spectral cuts and finite corners; its response subpackage has labelled whole-core fibers, one global faithful state, coherent dual-flow transport, state-preserving binary expectations, and a nonzero Fisher--BKM member. The binary context is not inside the finite corner, and the note keeps those carriers separate. The construction uses neither measured $G$ nor a fitted expansion history. Its projector $e_N$ is not a Lorentzian codimension-two cut $\Sigma_N$, neither core carrier is a local causal net, and its logistic density is a selected exact member rather than a uniqueness theorem. [[half-sided-modular-tunnel|The half-sided modular tunnel]] independently supplies positive orientation, while [[finite-cellular-markov-wall|the finite cellular Markov wall]] remains a useful finite source benchmark. The keystone remainder is now the realization of the algebraic pre-wall as causal geometry and local field theory, followed by W0e renormalized source readiness and the independent area weld.
+
+## The algebraic pre-wall now exists
+
+The exact constructed return is
+
+$$
+N
+\longmapsto
+\bigl(e_N,\mathcal A_N,\omega_N,
+\mathcal K_N,\iota_{N_2:N_1},\mathcal B_N,E_N\bigr),
+$$
+
+where $\mathcal A_N=\mathcal C^{(N)}$ is the whole-core response fiber and $\mathcal K_N=e_N\mathcal C e_N$ is the finite capacity corner. The context $\mathcal B_N=W^*(e_N)$ lies in $\mathcal A_N$, not $\mathcal K_N$. With $\tau(e_N)=e^N$, an optional logistic readout has binary response $\nu^2\operatorname{sech}^2(\nu(N-N_c))$. This closes the former claim that no genuine cross-scale algebra--state--transport family had been constructed. It does **not** fill the geometric entries $D_N,\mathcal H_N,\Sigma_N$, the local-net dependence $O\mapsto\mathcal A_N(O)$, the physical state-selection rule, or the source family $\mathscr T$. The correct dependency is now
+
+$$
+\boxed{
+\text{algebraic pre-wall}
+\longrightarrow
+\text{causal and local realization}
+\longrightarrow
+\text{source, area, gravity, and record welds}.}
+$$
+
+[[scale-character-solder|The scale-character solder]] gives an exact optional matching of core trace capacity, HSMI affine scale, and $A_2$ discriminant depth. Its physical naturality is part of the middle arrow, not a consequence of matching three formulas.
 
 The new expectation slot is restrictive. A faithful state-preserving normal expectation onto a von Neumann subalgebra requires invariance under the state's modular automorphism group. A generic commutative context therefore need not admit the exact wall map. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] gives the finite theorem, its BKM split, and the alternatives when this modular gate fails.
 

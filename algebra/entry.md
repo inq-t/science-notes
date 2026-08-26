@@ -51,6 +51,14 @@ Within the conditional model, the construction proves something philosophically 
 
 That is a failure of global individuation, not a failure of local law. Its monodromy is invertible and therefore supplies no arrow of time by itself.
 
+There is now an unconditional positive-realization result for the ordinary real cubic family. [[algebra/a2-positive-completion|Positive completion of an $A_2$ degeneration]] proves the fiberwise type profile
+
+$$
+\bigl(\mathbb C^3,\mathbb C^2,\mathbb C\bigr)
+$$
+
+on the generic, double-root, and triple-root strata in the closure of the three-real-root chamber. These types are not canonical specialization arrows. A separately declared stabilizer action does give exact group-averaging expectations $\mathbb C^3\to\mathbb C^2\to\mathbb C$. The nonreduced singular algebras retain nilpotent thickness while every $*$-representation by bounded operators kills a self-adjoint nilpotent; this supplies exact fiberwise nonfaithful quotients and a logarithmic discriminant depth. The same-representation lemma proves only that one nonidentity bounded operator cannot be both unitary and unipotent; a representation-changing group map is not forbidden.
+
 ## Reversible identity and irreversible history
 
 The minimum architecture has two kinds of arrow:

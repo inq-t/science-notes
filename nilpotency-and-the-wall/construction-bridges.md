@@ -1,54 +1,106 @@
-# Construction Bridges
+# Construction Bridges After the Representation Audit
 
-The point of the trichotomy reading is not commentary; it is that several of the programme's named construction gaps acquire sharper targets when the wall is typed as *the parabolic datum*. This note states five bridges. Each names its gap and owner, its claim, its gate or theorem target, and its failure condition. None is a result. The operator-algebraic backbone is the equivalence between half-sided modular inclusions and positive-energy representations of the affine group (Wiesbrock, Comm. Math. Phys. **157**, 83 (1993); Borchers, Comm. Math. Phys. **143**, 315 (1992)); the single gating question inherited from the radical-copernicanism audit — *is the wall family a chain of half-sided modular inclusions?* — is load-bearing for Bridges 1 and 2 and is hereafter "the gate."
+Nilpotent degeneration, half-sided modular transport, Connes trace scaling, and positive observational loss can be composed only after their carriers are separated. The earlier proposal that one nilpotent operator should literally define unitary wall transport is false: in a positive-definite Hilbert representation one nonidentity operator cannot be both unitary and unipotent. This does not forbid a unipotent group element from having a unitary image in another representation. The corrected programme uses nilpotency to define an algebraic boundary, an enveloping $C^*$-quotient to forget its infinitesimal thickness, modular theory to transport fibers, and an explicit character solder to compare their logarithmic scales.
 
-## Bridge 1 — Nilpotent holonomy is the wall's defining datum
+## Bridge 1 — Degeneration precedes positive realization
 
-**Gap:** [[wall-construction-interface/cross-fiber-transport|cross-fiber transport]] — the decisive missing construction: $N\mapsto(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T)$ with noncircular transport. The interface currently says what transport must avoid; it does not say what positive structure marks a *wall* as opposed to a mere family.
+**Owned gap:** an algebraic source for a nonfaithful wall operation.
 
-**Claim.** By [[the-trichotomy-identification]], a wall's algebraic signature is parabolic: the transport's holonomy at the wall should be unipotent, $\mathbf1+N$ with $N^2=0$ and $\operatorname{rank}N=2$ — the rank-two block mirroring the two null normals of the cut and the manuscript's vanishing lattice ([[s6-deep-read]], receipt-verified). **The failure of semisimplicity is not a defect of the construction; it is the construction's target datum.** Semisimple transport describes bulk presentation change ([[algebra/local-global-individuation|the presentation/process split]]); the wall begins where diagonalizability ends.
-
-**Gate and diagnostic.** The gate itself, plus the σ-invariance check already recorded by the modular-theory survey: operator-valued weights exist along an inclusion iff modular flow preserves the subalgebra — generically false *except* in the half-sided modular situation. Finite test now available: examine the transport data of [[spectral-wall-descent/entry|the spectral-wall-descent cells]] for a nilpotent part; if every finite model is semisimple, those models do not yet contain a wall, which is an informative negative.
-
-**Failure.** A wall family with fully semisimple transport that nevertheless reproduces the response architecture kills the typing outright.
-
-## Bridge 2 — The affine group answers the tangent-normalization obstruction
-
-**Gap:** the tangent-normalization obstruction of [[deriving-value-of-g/obstructions-to-an-unconditional-proof|the first pass]]: ratio dependence proves the scale coordinate logarithmic but leaves its slope $\varrho_\perp$ free; "a group action, Ward identity, or explicit wall construction must fix which normalized tangent physical scale realizes."
-
-**Claim.** If the gate holds, the requested group action exists and is canonical. The half-sided relation
+For the real $A_2$ cubic, [[algebra/a2-positive-completion|the positive-completion theorem]] gives the fiber types
 
 $$
-\Delta^{it}\,U(a)\,\Delta^{-it}=U(e^{-2\pi t}a)
-\quad\Longrightarrow\quad
-\varsigma:=\ln a,\qquad
-\frac{\mathrm d\varsigma}{\mathrm dt}=-2\pi:
+\bigl(\mathbb C^3,\mathbb C^2,\mathbb C\bigr)
 $$
 
-the log-affine null coordinate advances *linearly in modular time at exactly $2\pi$* — the same $2\pi$ that is the KMS period. This fixes a group-normalized unit for any scale coordinate identified with the chain's log-affine parameter, converting the soldering slope from a free normalization into a computable dimensionless number. The unit-rate principle $\nu=1$ of [[causal-scale-theory/entry|CST]] then stops being a postulate and becomes a checkable statement — true, false, or true up to the declared $2\pi$ convention — against the clock table of [[dimensional-ladder/one-clock-many-dressings]].
+on the generic, double-root, and triple-root strata in the closure of the three-real-root chamber. These are not specialization arrows between fibers. The exact nonfaithful arrows are instead the fiberwise enveloping-$C^*$ quotient maps: the nonreduced source algebras retain $\epsilon^2=0$ or $\epsilon^3=0$, while every $*$-representation by bounded operators kills $\epsilon$. On one labelled generic sheet algebra, a separately chosen stabilizer chain supplies actual group-averaging expectations $\mathbb C^3\to\mathbb C^2\to\mathbb C$. This is the exact use of nilpotency presently available.
 
-**Theorem target, in order:** (i) prove the gate for the wall chain; (ii) prove the identification of the CST scale coordinate with the chain's log-affine parameter — this is [[program-core/record-scale-soldering|record–scale soldering]] shaped exactly; (iii) read off the slope.
+It does not select a physical state, a causal cut, or a rate. A completely positive dynamical law built from a non-self-adjoint nilpotent additionally needs a Hilbert structure and adjoint; those are positive-realization data, not consequences of the scheme.
 
-**Discipline and failure.** The escort no-go stands: this bridge normalizes the *coordinate* through the vertical pair; it does not identify the horizontal physical tangent with modular flow. If the physical tangent is not the null-affine direction, Bridge 2 normalizes an irrelevant coordinate and $\varrho_\perp$ stays free — that outcome would itself be informative, typing CST's scale as non-null.
+**Failure condition.** If the proposed physical realization is faithful on every distinction in the nonreduced algebra, this bridge is not its model. If it is implemented by unitary conjugation, it cannot perform the positive-completion quotient.
 
-## Bridge 3 — Binary from ternary by genericity: folds on the path, cusp at the crossing
+## Bridge 2 — HSMI owns transport, not nilpotent holonomy
 
-**Gap:** the binary debt of [[a2-ternary-response/entry|the ternary-response audit]] — CST-B2's balanced binary channel is a selection whose exhaustiveness must be proved, not inferred — together with the event-locus conjecture that the reference cut is a physical wall event.
+**Owned gap:** [[wall-construction-interface/cross-fiber-transport|cross-fiber transport and orientation]].
 
-**Claim.** The $A_2$ base is two-dimensional; a scale history is a one-parameter path. Generic paths never meet the codimension-two cusp point and cross only codimension-one **folds** — and a fold is a two-sheet event: $A_1$, normal form $x^2$, the algebra of an involution, i.e. exactly the $Q^2=\mathbf1$ channel of [[binary-information-geometry/involutive-casimir|the involutive Casimir]]. Proposal, in the firewall-compliant language of [[a2-the-fourth-register]]: **the binary channel is the generic fold sector of the ternary $A_2$ geometry along histories; the full ternary structure is touched only at the non-generic cusp passage — and the crossing cut $N_c$ is that passage.** The two fold branches $b=\pm2(-a/3)^{3/2}$ are the past and future branches; the discriminant's $b\mapsto-b$ symmetry is the balanced channel's reflection $\theta\mapsto-\theta$ (receipts verify the branch geometry).
+The exact HSMI constructor in [[wall-construction-interface/half-sided-modular-tunnel|the half-sided modular tunnel]] supplies nested von Neumann algebras, positive orientation, and transport with an exact composition law. Its affine relation is
 
-**Theorem target, computable now:** in the finite model the ternary audit already owns, compute the coincidence Hessian response along one-parameter paths passing at parameter-distance $\varepsilon$ from the cusp, and determine (a) whether the fold sector's normalized response reduces to a binary member, and (b) how the profile deforms as $\varepsilon\to0$ against $\operatorname{sech}^2(\nu x)$. Every outcome is informative: reduction plus match promotes the binary member from selection to genericity theorem; reduction plus mismatch types CST-B2 as a *different* binary member than $A_2$ provides; no reduction kills the bridge and sharpens the ternary debt.
+$$
+\Delta^{-it}U(r)\Delta^{it}=U(e^{2\pi t}r).
+$$
 
-**Falsifiable rider.** If the crossing is the cusp passage, the response near its peak carries a specific *ternary contamination* — a non-binary deformation of the profile near $N_c$ — absent everywhere else. A future covariant sector should inherit it; pure $\operatorname{sech}^2$ to all orders at the peak would falsify the identification while leaving the fold reading intact.
+The adjective *parabolic* belongs to the translation subgroup in its affine or Möbius representation. The Hilbert-space unitary $U(r)$ is not thereby algebraically unipotent, and $P$ in $U(r)=e^{irP}$ is not thereby nilpotent; if a particular $U(r)$ is both unitary and algebraically unipotent, it is the identity. HSMI therefore does not discharge Bridge 1, and Bridge 1 does not prove the HSMI gate.
 
-## Bridge 4 — The ladder is the universality test set
+The relation does fix an internal logarithmic coordinate:
 
-**Gap:** the universality requirements of [[deriving-value-of-g/causal-scale-derivation-target|the derivation target]] (one coefficient across Newtonian, Friedmann, wave, horizon sectors). **Claim:** [[dimensional-ladder/the-saturation-ladder|the saturation ladder]] arranges those checks as rungs — any wall-derived ledger density implies all rungs at once, and a rung-selective failure types the resulting non-Einstein sector per the failure table there. Nothing further is claimed.
+$$
+N:=\log(r/r_*)=2\pi t
+$$
 
-## Bridge 5 — Records localize where semisimplicity fails
+for the displayed orientation. It does not prove that this $N$ is FLRW scale age, proper time, entropy, or record depth.
 
-**Gap:** the record map of [[program-core/record-scale-soldering|record–scale soldering]] and [[conservation-of-causal-charge/factive-descent-and-records|factive descent]] — what physical support do records have? **Claim:** by [[ledger-localization]], the ledger of every checkable register is supported on the parabolic locus and vanishes on semisimple fibres; the design expectation is that the record map inherit exactly this support — records are wall events. **Finite check now available:** verify in the spectral-wall-descent cells that the central edge-entropy assignment is supported where transport is non-semisimple (Bridge 1's datum) and vanishes where it is semisimple. A ledger indifferent to the nilpotent structure would break both bridges at once.
+## Bridge 3 — The Connes core supplies scale and a nonzero state response
 
-## What the bridges would jointly buy — and what kills them
+**Owned gap:** an internally defined scale-indexed algebra, state, transport, and readout law without measured $G$ or a fitted history.
 
-If Bridges 1–3 close, three named gaps of [[causal-scale-theory/realization-map|the realization map]] stop being independent postulates and become consequences of one typing: the wall's defining datum (the rank-two nilpotent), its canonical clock normalization (the affine $2\pi$), and its member selection (binary as fold genericity, with the crossing as the cusp). That is the most leverage this module can honestly claim, and it is conditional throughout on the gate. Failure of the gate kills Bridges 1–2 and orphans 5; failure of the ternary computation kills 3 alone; the ladder and localization stand or fall with their owners. Per [[program-core/claim-and-failure-contract|the claim contract]], no bridge may be cited above CONDITIONAL until its gate is discharged.
+[[wall-construction-interface/core-spectral-wall|The core spectral wall]] constructs nested finite corners $e_N\widetilde M e_N$ inside the type-$\mathrm{II}_\infty$ core, with
+
+$$
+\widetilde\tau(e_N)=e^N,
+\qquad
+\frac{\mathrm d}{\mathrm dN}\log\widetilde\tau(e_N)=1,
+$$
+
+and exact dual-flow transport. Separately, labelled copies of the whole core carry one fixed faithful normal state, exact dual-flow comparison, and binary contexts $W^*(e_N)$. No normal $L^1$ state can be invariant under trace scaling. A particular fixed logistic density makes this ambient-context readout exactly the balanced binary family and returns Fisher--BKM response $\nu^2\operatorname{sech}^2(\nu(N-N_c))$. The binary context is not a subalgebra of the finite corner; the common projection relates the two subpackages without identifying their carriers.
+
+This construction replaces an arbitrary per-$N$ state path by one global state plus moving spectral cuts. It does not select that global state uniquely. The width $\nu$ is a state modulus; the core normalizes $N$, not $\nu$.
+
+## Bridge 4 — A common exponential character is a solder
+
+**Owned gap:** comparison of affine position, core trace capacity, and $A_2$ discriminant depth.
+
+The three registers carry multiplicative characters of one additive parameter:
+
+$$
+\frac{r(N)}{r_*}=e^N,
+\qquad
+\frac{\widetilde\tau(e_N)}{\widetilde\tau(e_0)}=e^N,
+\qquad
+\left(\frac{|\Delta_*|}{|\Delta_N|}\right)^{1/6}=e^N.
+$$
+
+[[wall-construction-interface/scale-character-solder|The scale-character solder]] is their fiber-product matching. Once the matching is declared, composition and the sixth-power balance are exact. The equality is not forced by any one of the three source theorems. Its physical content depends on a realization showing that all three parameters label the same process.
+
+This is the corrected scope of the earlier tangent-normalization claim. The affine $2\pi$ fixes modular time against log translation; core trace scaling fixes the unit of trace capacity; neither theorem forces the logistic width $\nu$ or identifies the result with measured cosmic scale.
+
+## Bridge 5 — Fold, cusp, and the binary debt
+
+**Owned gap:** [[wall-construction-interface/binary-channel|the binary-channel obligation]].
+
+A path constrained to cross the smooth discriminant transversely encounters a fold. Its enveloping $C^*$-fiber has two real characters: the double root and the spectator. That is a binary **fiber type**, not yet an open binary state family. After a sheet labelling, restriction to the $\mathbb Z_2$-invariant observable algebra gives the coarse-graining $(p_1,p_2,p_3)\mapsto(p_1+p_2,p_3)$. A generic unconstrained path may avoid the discriminant, while passage through the cusp is codimension two and requires tuning.
+
+Therefore fold genericity does not make the reference crossing a cusp, and neither fold nor cusp selects CST's two null orientations, balanced weights, or $\operatorname{sech}^2$ rate law. The core spectral wall supplies one exact balanced-binary realization by thresholding a fixed logistic spectral state. An $A_2$ derivation of that same member would require a functor identifying its fold statistic with the core spectral projection and deriving the logistic density or its width.
+
+## What is now constructed
+
+The revised chain is
+
+$$
+\{\text{nonreduced fibers}\}
+\xrightarrow{\text{fiberwise positive quotients}}
+\{\text{positive fiber types}\}
+\quad\text{and}\quad
+\text{type-III algebra}
+\xrightarrow{\text{core and spectral cuts}}
+\text{scale-indexed positive response},
+$$
+
+with an optional exact character solder between their logarithmic parameters. This closes the abstract algebra--state--transport--readout construction. It leaves the physical realization deliberately visible:
+
+- a real Lorentzian carrier and codimension-two causal cuts;
+- a local net and physical quotient;
+- renormalized Weyl and TT source directions;
+- the state--edge--spectral-area equality;
+- a record functor and factive orientation; and
+- recovery of GR, QFT, and cosmological observables.
+
+The saturation ladder in [[dimensional-ladder/the-saturation-ladder|the dimensional audit]] remains a downstream universality test, not a construction input. The Euler localization in [[ledger-localization|the conditional manuscript branch]] remains a support-pattern rhyme, not a theorem that records must live at every parabolic locus.
