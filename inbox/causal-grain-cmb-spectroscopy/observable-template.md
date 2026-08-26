@@ -1,6 +1,6 @@
 # A Falsifiable Causal-Scale Template for the CMB
 
-The clean first observable is a small modulation of the primordial curvature state, periodic in logarithmic scale and propagated through otherwise standard photon--baryon transfer. This realizes the grain as a scale unit rather than confusing it with the acoustic ruler. An optional (A_2) branch order parameter predicts when the fundamental modulation cancels and when a third-harmonic higher-point signal may survive. A stronger material route could derive the photon--baryon sound cone from causal dwell and transport, but it must return baryon loading, opacity, and hot-history scaling rather than merely redescribe them.
+The clean first observable is a small modulation of the primordial curvature state, periodic in logarithmic scale and propagated through otherwise standard photon--baryon transfer. This realizes the grain as a scale unit rather than confusing it with the acoustic ruler. An optional \(A_2\) branch order parameter predicts when the fundamental modulation cancels and when a third-harmonic higher-point signal may survive. A stronger material route could derive the photon--baryon sound cone from causal dwell and transport, but it must return baryon loading, opacity, and hot-history scaling rather than merely redescribe them.
 
 ## Choose the causal location of the new physics
 
@@ -55,7 +55,7 @@ $$
 Then it must derive or perturb
 
 $$
-c_s^2=\frac{1}{3(1+R)}
+\frac{c_s^2}{c^2}=\frac{1}{3(1+R)}
 $$
 
 and predict correlated changes to acoustic phase, baryon loading, gravitational driving, diffusion damping, recombination, neutrino phase shifts, and lensing. One illustrative deformation is
@@ -78,7 +78,7 @@ $$
 \right]\mathrm d\eta.
 $$
 
-This equation is only a parameterization. An actual explanation of the relational geometry must derive (F), (R), and the opacity from the causal response, not fit them independently.
+This equation is only a parameterization. An actual explanation of the relational geometry must derive \(F\), \(R\), and the opacity from the causal response, not fit them independently.
 
 The two routes should not be mixed in a first search. A primordial feature and a modified sound speed can mimic one another over a limited range but predict different polarization, damping, lensing, and matter-transfer signatures.
 
@@ -96,14 +96,14 @@ $$
 D_M(z_*)=13.86955\,\mathrm{Gpc}.
 $$
 
-If (lambda_*) were naively treated as a present comoving wavelength, its angular projection would be of order
+If \(\lambda_*\) were naively treated as a present comoving wavelength, its angular projection would be of order
 
 $$
 \ell_g\sim\frac{D_M}{\lambda_*}
 \simeq10^{41}
 $$
 
-before the optional (2\pi) wavenumber convention. If it were a physical length at recombination, converting it to a comoving length would still give (ell_g\sim10^{38}). Primary CMB measurements end around a few thousand. The (4.3\,\mathrm{fm}) ruler therefore cannot directly be an acoustic wavelength.
+before the optional \(2\pi\) wavenumber convention. If it were a physical length at recombination, converting it to a comoving length would still give \(\ell_g\sim10^{38}\). Primary CMB measurements end around a few thousand. The \(4.3\,\mathrm{fm}\) ruler therefore cannot directly be an acoustic wavelength.
 
 Likewise,
 
@@ -114,7 +114,7 @@ $$
 
 This is a bare comparison of the sound horizon with the microscopic ruler, not an inflation prediction; the epoch and comoving convention are absent. It exposes the missing object: an approximately ninety-e-fold UV/IR history or some nonlocal correspondence must relate the grain ruler to CMB scales.
 
-If the grain is created as a physical correlation length at scale factor (a_g), a minimal comoving anchor would be
+If the grain is created as a physical correlation length at scale factor \(a_g\), a minimal comoving anchor would be
 
 $$
 k_g
@@ -124,7 +124,7 @@ k_g
 \chi_g\in\{1,2\pi\},
 $$
 
-followed by whatever transfer or freeze-out law the theory derives. The values of (a_g), (chi_g), reheating history, and any anomalous scaling must be frozen before the CMB is inspected.
+followed by whatever transfer or freeze-out law the theory derives. The values of \(a_g\), \(\chi_g\), reheating history, and any anomalous scaling must be frozen before the CMB is inspected.
 
 ## A scale unit predicts a logarithmic phase
 
@@ -134,7 +134,7 @@ $$
 \sigma(k):=\ln\frac{k}{k_g}.
 $$
 
-If one realized scale grain has width (delta\sigma_g), its phase is
+If one realized scale grain has width \(\delta\sigma_g\), its phase is
 
 $$
 \theta_g(k)
@@ -155,25 +155,25 @@ A_gW(k)\cos\theta_g(k)
 }
 $$
 
-The exponential prevents a negative power spectrum. (W(k)) is a fixed envelope determined by the proposed transition or resonance width. A free spline envelope would erase the content of the grain hypothesis.
+The exponential prevents a negative power spectrum. \(W(k)\) is a fixed envelope determined by the proposed transition or resonance width. A free spline envelope would erase the content of the grain hypothesis.
 
-The literal unit choice (delta\sigma_g=1) gives one cycle per unit (ln k), or a wavelength ratio (e). Across the approximate Planck feature-sensitive interval (0.005\lesssim k\lesssim0.2\,\mathrm{Mpc}^{-1}), it would produce about
+The literal unit choice \(\delta\sigma_g=1\) gives one cycle per unit \(\ln k\), or a wavelength ratio \(e\). Across the approximate Planck feature-sensitive interval \(0.005\lesssim k\lesssim0.2\,\mathrm{Mpc}^{-1}\), it would produce about
 
 $$
 \ln(0.2/0.005)\simeq3.69
 $$
 
-cycles. This makes the unit claim directly falsifiable once (k_g), (A_g), (W), and (phi_g) are independently fixed.
+cycles. This makes the unit claim directly falsifiable once \(k_g\), \(A_g\), \(W\), and \(\phi_g\) are independently fixed.
 
-A single sharp event at conformal time (eta_g) would instead suggest
+A single sharp event at conformal time \(\eta_g\) would instead suggest
 
 $$
 \theta_g(k)\propto k\eta_g,
 $$
 
-which is linear in (k). The theory must choose the dilation/unit mechanism or the sharp-event mechanism; searching both and reporting the better one incurs a larger trials penalty.
+which is linear in \(k\). The theory must choose the dilation/unit mechanism or the sharp-event mechanism; searching both and reporting the better one incurs a larger trials penalty.
 
-## The (A_2) branch selection rule
+## The \(A_2\) branch selection rule
 
 Let
 
@@ -181,7 +181,7 @@ $$
 \omega_3:=e^{2\pi i/3}
 $$
 
-and let (w_a\ge0), (sum_aw_a=1), be the realized weights of three branches. Define the first branch moment
+and let \(w_a\ge0\), \(\sum_a w_a=1\), be the realized weights of three branches. Define the first branch moment
 
 $$
 \Xi_1
@@ -202,7 +202,7 @@ $$
 \right].
 $$
 
-For the completely symmetric state (w_0=w_1=w_2=1/3),
+For the completely symmetric state \(w_0=w_1=w_2=1/3\),
 
 $$
 \Xi_1
@@ -254,7 +254,7 @@ $$
 \Omega_{13}=\Omega_{12}+\Omega_{23}.
 $$
 
-This is more restrictive than one arbitrary oscillation, but it is licensed only after the same operator derives the centers, widths, residues, and clock-to-(ln k) solder. A Jordan cubic by itself does not do so.
+This is more restrictive than one arbitrary oscillation, but it is licensed only after the same operator derives the centers, widths, residues, and clock-to-\(\ln k\) solder. A Jordan cubic by itself does not do so.
 
 ## Propagation into TT, TE, and EE
 
@@ -268,7 +268,7 @@ $$
 \Delta_\ell^X(k)\Delta_\ell^Y(k).
 $$
 
-The same ((k_g,\delta\sigma_g,\phi_g,W)) must be used in every spectrum. The residuals will not look identical because the transfer kernels differ and TE can change sign. “Same phase” means one common primordial source after forward projection, not peak-by-peak alignment in (ell).
+The same \((k_g,\delta\sigma_g,\phi_g,W)\) must be used in every spectrum. The residuals will not look identical because the transfer kernels differ and TE can change sign. “Same phase” means one common primordial source after forward projection, not peak-by-peak alignment in \(\ell\).
 
 If the descent also predicts tensors, isocurvature, parity violation, or a preferred direction, the data vector must be enlarged rather than silently absorbing those effects into the scalar template. For example, a selected spatial direction would produce off-diagonal or bipolar-spherical-harmonic covariance, while a parity-odd photon coupling could produce TB/EB. Octonionic nonassociativity alone predicts neither.
 
@@ -284,7 +284,7 @@ D_\ell^{XY}(\Theta)
 +F_b^{XY}(\eta_{\mathrm{fg}}),
 $$
 
-where (W_{b\ell}) is the experiment’s window matrix and (F_b) is its foreground model. A high-(ell) Gaussian approximation has
+where \(W_{b\ell}\) is the experiment’s window matrix and \(F_b\) is its foreground model. A high-\(\ell\) Gaussian approximation has
 
 $$
 -2\ln\mathcal L
@@ -296,15 +296,15 @@ $$
 +\text{const},
 $$
 
-but low-(ell) Planck data require the collaboration likelihood or an explicitly validated replacement.
+but low-\(\ell\) Planck data require the collaboration likelihood or an explicitly validated replacement.
 
 Before a search, freeze:
 
-- whether the phase is logarithmic or linear in (k);
-- the relation between (lambda_*), (k_g), and the generation epoch;
-- (delta\sigma_g), or a prior fixed by the wall theory;
+- whether the phase is logarithmic or linear in \(k\);
+- the relation between \(\lambda_*\), \(k_g\), and the generation epoch;
+- \(\delta\sigma_g\), or a prior fixed by the wall theory;
 - the envelope and linewidth;
-- the (A_2) branch weights or gap ratios;
+- the \(A_2\) branch weights or gap ratios;
 - which scalar, tensor, isocurvature, anisotropic, or parity channels are present;
 - the foreground and lensing treatment; and
 - the holdout observable.
@@ -315,20 +315,20 @@ A credible detection requires
 2. agreement between Planck and ACT with overlap covariance handled;
 3. observing-frequency independence after foreground marginalization;
 4. global significance from simulations over the entire searched parameter volume;
-5. Bayesian evidence with declared priors, not only a local (Delta\chi^2);
+5. Bayesian evidence with declared priors, not only a local \(\Delta\chi^2\);
 6. correct propagation through diffusion damping and lensing; and
 7. a predicted bispectrum, trispectrum, lensing, matter-spectrum, or held-out multipole signature.
 
 ## Null result and kill conditions
 
-The current null is the six-parameter adiabatic (Lambda)CDM spectrum. Planck found no significant primordial feature after accounting for search freedom, and ACT DR6 independently finds TT, TE, and EE well described by (Lambda)CDM plus foregrounds. The grain model is therefore viable only as a constrained residual hypothesis unless it first derives the standard acoustic geometry itself.
+The current null is the six-parameter adiabatic \(\Lambda\)CDM spectrum. Planck found no significant primordial feature after accounting for search freedom, and ACT DR6 independently finds TT, TE, and EE well described by \(\Lambda\)CDM plus foregrounds. The grain model is therefore viable only as a constrained residual hypothesis unless it first derives the standard acoustic geometry itself.
 
 The CMB version of the proposal fails if
 
-- the (4.3\,\mathrm{fm})-to-cosmological-scale map is chosen after seeing the residual;
+- the \(4.3\,\mathrm{fm}\)-to-cosmological-scale map is chosen after seeing the residual;
 - TT prefers a pattern that its fixed primordial model fails to reproduce in TE and EE;
 - the feature follows observing frequency or foreground masks;
 - a dynamical model shifts peaks without the required damping, polarization, or lensing consequences;
-- equal (A_2) weights are claimed while a fundamental two-point ripple is retained;
+- equal \(A_2\) weights are claimed while a fundamental two-point ripple is retained;
 - the local improvement disappears under a global trials calculation; or
 - the CMB-conditioned grain value is reused as supposedly independent CMB evidence.

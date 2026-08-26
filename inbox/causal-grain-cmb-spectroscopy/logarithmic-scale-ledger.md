@@ -1,6 +1,6 @@
 # Logarithmic Time, Grain Ticks, E-Folds, and Nats
 
-The repository’s repeated use of Misner time, e-folds, trace scaling, resolution depth, and nats has one exact common skeleton: the logarithm is the continuous character that turns multiplication of positive scales or weights into addition. Under the strong causal-wall correspondence, these are not identical quantities but affine presentations of one additive scale architecture. The Hubble rate \(H=\mathrm dN/\mathrm dt\) converts a grain’s light-crossing dwell \(\tau_g=\lambda_g/c\) into its epoch-relative scale increment \(\delta N_g=H\tau_g\); the inverse is the number of grain ticks per e-fold. The common-count law then ties this logarithmic grain depth to horizon information with fixed coefficients.
+The repository’s repeated use of Misner time, e-folds, trace scaling, resolution depth, and nats has one exact common skeleton: the logarithm turns multiplication of positive scales or weights into addition. The causal grain lies one level earlier, as a primitive positive index carrying a presentation-invariant scale valuation in the global-to-local order. Under the strong causal-wall correspondence, dual trace scale, cosmic scale-age, horizon resolution, and information depth become distinct affine presentations of that additive architecture. Only after Lorentzian and metric realization does the Hubble rate convert the grain’s local dwell \(\tau_g=\lambda_g/c\) into the clock reading \(H\tau_g\); this is not the grain’s native definition.
 
 ## One mathematical operation in several registers
 
@@ -25,16 +25,32 @@ The relevant repository variables are all instances of this operation:
 | scale age | \(N=\ln(a/a_*)\) | ratio of scale factors |
 | Misner time | \(\Omega=-N=-\tfrac13\ln(V/V_*)\) | inverse mean scale or volume ratio |
 | redshift | \(\ln(1+z)=-N\) relative to today | inverse scale factor |
-| modular/trace scale | \(\tau\circ\beta_s=e^s\tau\) | trace or weight rescaling |
+| core dual trace scale | \(\tau_{\mathrm{core}}\circ\beta_s=e^s\tau_{\mathrm{core}}\) | trace rescaling on the canonical core |
 | resolution depth | \(N_P=\ln(R_A/\ell_P)\) | horizon-to-Planck ratio |
 | grain depth | \(\Sigma_A=\ln(R_A/\lambda_g)\) | horizon-to-grain ratio |
 | information | \(I=\ln W\) nats | multiplicity or likelihood ratio |
 
 [[cosmodynamics/scale-age|Scale age]] proves the additive composition law for \(N\). [[misner-log-time/entry|Misner logarithmic time]] makes the scale direction an internal clock on a monotonic branch. [[scale-as-modular-observable/entry|Scale as a modular observable]] and [[minimal-cosmodynamic-closure/unit-wall-correspondence|the unit-wall correspondence]] propose that the core trace character and cosmic scale character have the same unit slope.
 
-The recurrence is therefore structural. The distinction is equally structural: proper time, conformal time, modular flow, scale age, resolution depth, and information are different domains until a map relates them.
+The recurrence is therefore structural. The distinction is equally structural: causal order, proper time, conformal time, modular flow, core dual scaling, scale age, resolution depth, and information are different domains until a map relates them.
 
-## Hubble rate is the time-to-scale converter
+## The logarithm first grades causal processes
+
+Let \(S_W\) be the local compression semigroup induced by an ambient reversible whole, with reversible stabilizer \(K_W=S_W\cap S_W^{-1}\). The native scale datum is
+
+$$
+v:S_W\longrightarrow\Gamma_+,
+\qquad
+v(st)=v(s)+v(t),
+\qquad
+v(K_W)=0.
+$$
+
+Its multiplicative form is \(\chi_{\mathrm{sc}}=e^v\). A wall index \(\nu(q)=+1\) may select one primitive process \(q\); the proposed scale grain is the welded value \(v(q)=s_g\). A continuous character alone has no smallest positive unit, so the discrete index is not optional if *grain* is meant literally.
+
+Everything below this section is a realization of \(v\) on more familiar carriers. [[inbox/causal-grain-cmb-spectroscopy/causal-order-before-clock-time|Causal order before clock time]] owns the prior global/local construction.
+
+## Hubble rate is the local time-to-scale converter
 
 By definition,
 
@@ -67,7 +83,7 @@ $$
 }
 $$
 
-This is the precise sense in which a grain of causality becomes a unit of scale. It is not generally one whole e-fold. It is the epoch-relative fraction of an e-fold traversed during one grain dwell. Its inverse,
+This is the precise local-clock representation of a grain already defined algebraically. It is not generally one whole e-fold. It is the instantaneous epoch-relative fraction of an e-fold traversed during one grain dwell. Its inverse,
 
 $$
 \boxed{

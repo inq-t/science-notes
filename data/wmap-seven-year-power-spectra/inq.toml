@@ -1,0 +1,5 @@
+[module]
+name = "wmap-seven-year-power-spectra"
+entry = "entry.md"
+include = ["**"]
+

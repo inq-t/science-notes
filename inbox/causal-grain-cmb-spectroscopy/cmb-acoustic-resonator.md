@@ -18,12 +18,12 @@ For one scalar Fourier mode, define
 $$
 R(\eta):=\frac{3\rho_b}{4\rho_\gamma},
 \qquad
-c_s^2=\frac{1}{3(1+R)},
+\frac{c_s^2}{c^2}=\frac{1}{3(1+R)},
 \qquad
 D:=\Theta_0+\Psi,
 $$
 
-where (Theta_0=delta_\gamma/4) is the photon-temperature monopole. In tight coupling, after photon shear is neglected, the photon continuity and Euler equations combine schematically as
+where \(\Theta_0=\delta_\gamma/4\) is the photon-temperature monopole. The evolution equations below use \(c=1\), so their \(c_s\) denotes the dimensionless ratio \(c_s/c\). In tight coupling, after photon shear is neglected, the photon continuity and Euler equations combine schematically as
 
 $$
 D''
@@ -32,7 +32,7 @@ D''
 =S_{\Phi,\Psi}(k,\eta).
 $$
 
-The source contains the gravitational potentials and their time evolution. In the ideal limit of constant (R,Phi,Psi) and negligible initial velocity,
+The source contains the gravitational potentials and their time evolution. In the ideal limit of constant \(R,\Phi,\Psi\) and negligible initial velocity,
 
 $$
 D(\eta)
@@ -98,7 +98,7 @@ It follows that
 
 $$
 \boxed{
-c_s^2
+\frac{c_s^2}{c^2}
 =\frac{\delta p}{\delta\rho}
 =\frac{1}{3(1+R)}.
 }
@@ -112,9 +112,9 @@ $$
 +\mathrm d\mathbf x^2,
 $$
 
-whose null curves obey (|\mathrm d\mathbf x/\mathrm d\eta|=c_s). This acoustic metric is an effective characteristic geometry on the already supplied FLRW spacetime; it is not a replacement for the gravitational metric.
+whose null curves obey \(|\mathrm d\mathbf x/\mathrm d\eta|=c_s\). This acoustic metric is an effective characteristic geometry on the already supplied FLRW spacetime; it is not a replacement for the gravitational metric.
 
-The scale-grain hypothesis can now be stated without metaphor. If the hot-history realization supplies a comoving scale ruler (lambda_{g,\mathrm{com}}(\eta)), define the accumulated acoustic-grain count by
+The scale-grain hypothesis can now be stated without metaphor. If the hot-history realization supplies a comoving scale ruler \(\lambda_{g,\mathrm{com}}(\eta)\), define the accumulated acoustic-grain count by
 
 $$
 \mathrm dn_{\mathrm{ac}}
@@ -152,7 +152,7 @@ $$
 \lambda_{g,\mathrm{com}})
 $$
 
-and thereby returns (R(eta)), (c_s(eta)), and Thomson locking. At present the repository imports those quantities from standard particle, plasma, and gravitational physics. The grain therefore supplies a promising **common-unit interpretation** of the acoustic geometry, but not yet its derivation.
+and thereby returns \(R(\eta)\), \(c_s(\eta)\), and Thomson locking. At present the repository imports those quantities from standard particle, plasma, and gravitational physics. The grain therefore supplies a promising **common-unit interpretation** of the acoustic geometry, but not yet its derivation.
 
 ## Sound horizon and angular projection
 
@@ -194,7 +194,7 @@ $$
 \ell_A=301.76.
 $$
 
-The first TT peak is nevertheless near (ell=220.6), not (301.8). Potential evolution, baryon loading, neutrino free streaming, Doppler projection, the thickness of last scattering, and lensing shift or reshape actual extrema. Reading the plotted peak numbers as a literal integer spectrum is therefore already falsified by the first peak. Planck reports the first three TT maxima at
+The first TT peak is nevertheless near \(\ell=220.6\), not \(301.8\). Potential evolution, baryon loading, neutrino free streaming, Doppler projection, the thickness of last scattering, and lensing shift or reshape actual extrema. Reading the plotted peak numbers as a literal integer spectrum is therefore already falsified by the first peak. Planck reports the first three TT maxima at
 
 $$
 \ell=220.6\pm0.6,
@@ -274,7 +274,7 @@ C_\ell^{XY}
 \Delta_\ell^Y(k).
 $$
 
-This is the actual spectrometer response: a feature at one (k) is broadened and projected into a range of multipoles, differently for each (XY). The line-of-sight method was introduced by [Seljak and Zaldarriaga](https://doi.org/10.1086/177793).
+This is the actual spectrometer response: a feature at one \(k\) is broadened and projected into a range of multipoles, differently for each \(XY\). The line-of-sight method was introduced by [Seljak and Zaldarriaga](https://doi.org/10.1086/177793).
 
 Photon diffusion further suppresses small scales approximately as
 
@@ -292,11 +292,11 @@ $$
 X\!\left(\hat{\mathbf n}+\nabla\phi\right),
 $$
 
-smoothing peaks, correlating modes, and converting some E into B. Any primordial grain template has to pass through these filters; fitting a sinusoid directly to the already-lensed (D_\ell) curve is not a forward model.
+smoothing peaks, correlating modes, and converting some E into B. Any primordial grain template has to pass through these filters; fitting a sinusoid directly to the already-lensed \(D_\ell\) curve is not a forward model.
 
 ## What “dwell” contributes
 
-A classical oscillator with coordinate (Q=A\cos\theta) and uniform phase spends a fraction
+A classical oscillator with coordinate \(Q=A\cos\theta\) and uniform phase spends a fraction
 
 $$
 p(Q)\,\mathrm dQ
@@ -304,19 +304,19 @@ p(Q)\,\mathrm dQ
 \frac{\mathrm dQ}{\pi\sqrt{A^2-Q^2}}
 $$
 
-near (Q). The density is largest at the turning points (Q=\pm A), where the velocity vanishes. This gives a legitimate local meaning to the phrase **acoustic dwell**:
+near \(Q\). The density is largest at the turning points \(Q=\pm A\), where the velocity vanishes. This gives a legitimate local meaning to the phrase **acoustic dwell**:
 
 - TT preferentially sees modes at displacement/compression extrema;
 - EE preferentially sees the velocity quadrature; and
 - TE says which quadrant of phase space is being sampled.
 
-But the observed (C_\ell) is not (p(Q)). It is a spatial ensemble covariance at one last-scattering epoch, integrated over a continuum of (k), then projected and lensed. Acoustic dwell is an interpretation of the phase geometry. Born dwell for a cosmic wavefunction is a different measure that still needs a map into (mathcal P_\zeta).
+But the observed \(C_\ell\) is not \(p(Q)\). It is a spatial ensemble covariance at one last-scattering epoch, integrated over a continuum of \(k\), then projected and lensed. Acoustic dwell is an interpretation of the phase geometry. Born dwell for a cosmic wavefunction is a different measure that still needs a map into \(\mathcal P_\zeta\).
 
 ## The observed baseline
 
-Planck determines the angular acoustic scale to about (0.03\%) in base (Lambda)CDM and finds its temperature, polarization, and lensing spectra mutually consistent with that model; see [Planck 2018 VI](https://doi.org/10.1051/0004-6361/201833910). Its dedicated searches find no significant primordial feature after accounting for the search freedom; see [Planck 2018 X](https://doi.org/10.1051/0004-6361/201833887).
+Planck determines the angular acoustic scale to about \(0.03\%\) in base \(\Lambda\)CDM and finds its temperature, polarization, and lensing spectra mutually consistent with that model; see [Planck 2018 VI](https://doi.org/10.1051/0004-6361/201833910). Its dedicated searches find no significant primordial feature after accounting for the search freedom; see [Planck 2018 X](https://doi.org/10.1051/0004-6361/201833887).
 
-ACT DR6 independently measures TT, TE, and EE to arcminute scales and reports that its spectra are well fit by CMB plus foregrounds with a (Lambda)CDM CMB component. The joint Planck--ACT acoustic scale reaches roughly (0.02\%) precision; see the [ACT DR6 power-spectrum analysis](https://arxiv.org/abs/2503.14452).
+ACT DR6 independently measures TT, TE, and EE to arcminute scales and reports that its spectra are well fit by CMB plus foregrounds with a \(\Lambda\)CDM CMB component. The joint Planck--ACT acoustic scale reaches roughly \(0.02\%\) precision; see the [ACT DR6 power-spectrum analysis](https://arxiv.org/abs/2503.14452).
 
 The repository’s P-ACT best-fit theory file contains the expected harmonic comb. A simple local-extremum receipt finds, for example,
 
@@ -340,16 +340,16 @@ Those numbers come from a best-fit theoretical product, not from a new data redu
 
 Matching a mean peak spacing does not explain this resonator. A causal-scale model must choose one of two routes:
 
-1. **Initial-state route:** derive (mathcal P_{IJ}(k)), the growing-mode phase, and any higher-point functions, then use the established transfer kernels.
+1. **Initial-state route:** derive \(\mathcal P_{IJ}(k)\), the growing-mode phase, and any higher-point functions, then use the established transfer kernels.
 2. **Dynamical route:** alter the metric/plasma equations and jointly predict the scale-dependent phase shift, baryon response, driving, damping, recombination, lensing, and polarization.
 
 A credible signal must be common across TT, TE, and EE after their different kernels are applied, survive foreground-frequency tests, agree between Planck and ACT without double-counting overlapping sky, pay the global look-elsewhere penalty, and predict at least one held-out statistic. A TT-only numerical rhyme is not cosmic spectroscopy.
 
 ## Why the Planck comparison is methodological
 
-Max Planck’s quantum entered through the blackbody energy law. Atomic line spectroscopy was a related later arena, but it was not the evidence from which he originally inferred (E=h\nu). The CMB also has two different spectra that must not be conflated:
+Max Planck’s quantum entered through the blackbody energy law. Atomic line spectroscopy was a related later arena, but it was not the evidence from which he originally inferred \(E=h\nu\). The CMB also has two different spectra that must not be conflated:
 
-- its photon-frequency spectrum is an extraordinarily accurate (2.725\,mathrm K) blackbody; and
-- its anisotropy spectrum is angular covariance versus multipole (ell).
+- its photon-frequency spectrum is an extraordinarily accurate \(2.725\,\mathrm K\) blackbody; and
+- its anisotropy spectrum is angular covariance versus multipole \(\ell\).
 
-The useful analogy is inverse response: infer hidden structure from a calibrated spectrum. The causal grain, if real, would be the source of an additional correlated residual, not the explanation for why a classical fluid in a finite sound horizon has harmonics.
+The useful analogy is inverse response: infer hidden structure from a calibrated spectrum. The causal grain's primary possible role is upstream: to ground the global phase coherence and shared hot-history inputs that the local classical photon--baryon transfer then converts into harmonics. A correlated residual beyond that standard local transfer is a sharper but secondary possibility.

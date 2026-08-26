@@ -1,0 +1,4 @@
+[module]
+name = "causal-grain-cmb-spectroscopy"
+entry = "entry.md"
+include = ["**/*.md", "**/*.py"]

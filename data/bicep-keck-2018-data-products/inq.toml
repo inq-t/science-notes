@@ -1,0 +1,5 @@
+[module]
+name = "bicep-keck-2018-data-products"
+entry = "entry.md"
+include = ["**"]
+

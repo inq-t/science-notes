@@ -1,22 +1,24 @@
 # Cosmodynamic Acoustic Geometry
 
-Granting the minimal cosmodynamic correspondence as a constitutive principle, the causal grain can explain the photon--baryon acoustic geometry without treating \(4.3\,\mathrm{fm}\) as a microscopic ruler projected across the sky. The fundamental object is the logarithmic ratio of one realized scale unit to the causally observable region at the same epoch. FLRW expansion and the decreasing comoving coordinate speed of light form the exact reciprocal pair \(e^u\) and \(e^{-u}\); interpreting their normalized weights as the two wall alternatives reproduces the balanced binary law. In the hot plasma, photon pressure carries propagation while baryonic enthalpy supplies dwell; their ratio fixes the sound cone. The CMB acoustic scale is then a ratio of accumulated grain counts, and TT, TE, and EE are complementary phase-space readouts of one coherent state. This is a strong conditional explanatory programme: a small axiom set is asked to return many linked observables.
+Granting the minimal cosmodynamic correspondence as a constitutive principle, the causal grain can explain the photon--baryon acoustic geometry without treating \(4.3\,\mathrm{fm}\) as a microscopic ruler projected across the sky. Its native object is a primitive positive index and scale valuation in the global-to-local causal order. A Lorentzian realization then presents the light cone as a local Jordan positive cone; photon propagation occupies its null boundary, massive baryonic dwell its timelike interior, and tight coupling produces a narrower acoustic characteristic cone. Only at this downstream level do FLRW expansion, \(c\), conformal time, \(H\), lengths, and resonance phase enter. The CMB acoustic scale is a ratio of local metric counts, while TT, TE, and EE are complementary records of one globally coherent state. This is a strong conditional explanatory programme: a small algebraic axiom set is asked to return many linked observables.
 
 ## Grant the package and calculate
 
 For this note, the following are constitutive axioms rather than unfinished premises:
 
-1. **Causal unit.** There is a primitive positive unit \(\varepsilon_c\) of realized causal scale with extensive weight \(s_*=1\).
-2. **Common count.** One carrier-changing correspondence presents the same units as bulk correlation cells and as an areal information ledger, with \(\gamma=2\).
-3. **Unit scale flow.** The core scale character descends to logarithmic scale age \(N=\ln(a/a_0)\) with unit rate and positive orientation. The repository's Misner convention is the oppositely oriented variable \(\Omega=-N\).
-4. **Born dwell.** The positive state measure is a residence or dwell measure on scale; ordinary Born probabilities are its associative presentation.
-5. **Mass as dwell.** A material mass is an inertial/correlation presentation of causal residence, not an independent substance added to the count.
-6. **Associative realization.** The exceptional carrier selects a complex \(3+1\)-Lorentzian context in which ordinary quantum amplitudes, local matter, and records are represented.
-7. **Fossil transport.** A realized scale ratio can be compared across the selected cosmic history without silently changing its normalization.
+1. **Causal order.** An ambient reversible group or presentation groupoid induces a pointed one-sided compression semigroup on each locally accessible algebra.
+2. **Causal unit.** Positive completion supplies a primitive support/index event \(q\) with \(\nu(q)=+1\).
+3. **Scale character.** A presentation-invariant additive valuation assigns \(v(q)=s_g\), with \(e^v\) its multiplicative scale character.
+4. **Common count.** One carrier-changing correspondence presents the same unit as a rank-two bulk correlation cell and an areal information ledger, with \(\gamma=2\).
+5. **Associative causal realization.** The exceptional carrier selects a positive complex \(3+1\)-Lorentzian context; its null boundary and timelike interior become the photon and massive-dwell registers.
+6. **Factive realization.** A local context, obtained value, and stable record turn the causal order into a here-and-now observational structure.
+7. **Scale-age solder.** The scale character descends to logarithmic scale age \(N=\ln(a/a_0)\) with unit rate and chosen orientation. The repository's Misner convention is \(\Omega=-N\).
+8. **Born dwell.** The positive state measure is a residence or dwell measure on scale; ordinary Born probabilities are its associative presentation.
+9. **Fossil transport.** A realized scale ratio can be compared across the selected cosmic history without silently changing its normalization.
 
 The point is not to demand that these axioms be proved from something deeper before using them. The Born rule itself is a constitutive law in ordinary quantum theory. The test is explanatory leverage: do these few clauses jointly force several otherwise independent cosmic regularities?
 
-## Scale is a ratio, not a length
+## Metric scale is a ratio after causal realization
 
 Let \(L_\mathcal O(N)\) be the radius of the causal region relevant to a statement made at epoch \(N\). For a local horizon law this is naturally the apparent-horizon radius
 
@@ -75,7 +77,7 @@ $$
 }
 $$
 
-This is the grain in its native form. The cube of the relative scale is the inverse areal-information depth, up to the fixed rank-two/three-ball coefficient. Entropy, information, and distance meet as a logarithmic ratio rather than as an equality of dimensionful objects.
+This is the grain's metric common-count presentation. The cube of the relative scale is the inverse areal-information depth, up to the fixed rank-two/three-ball coefficient. Entropy, information, and distance meet as a logarithmic ratio rather than as an equality of dimensionful objects.
 
 Using the diagnostic crossing presentation gives
 
@@ -95,9 +97,9 @@ $$
 
 The famous tiny-looking magnitude is therefore the cube of a relative scale. It should not be read as an inexplicably small absolute length placed beside a cosmological one.
 
-## Misner time and the expansion--light duality
+## Scale-age and the expansion--light duality
 
-On a spatially flat FLRW fiber,
+On a spatially flat FLRW fiber, \(N\) is logarithmic scale-age rather than causal order or proper clock time; the repository's Misner convention is \(\Omega=-N\).
 
 $$
 \mathrm ds^2
@@ -115,7 +117,7 @@ c_\chi(t)
 \frac{c}{a(t)}.
 $$
 
-Local measurements still return the invariant speed (c). What decreases is the amount of comoving coordinate distance traversed per unit cosmic time. With
+Local measurements still return the invariant speed \(c\). What decreases is the amount of comoving coordinate distance traversed per unit cosmic time. With
 
 $$
 u=N-N_c
@@ -206,7 +208,7 @@ $$
 Thus the relative grain depth evolves without a new function once the cosmodynamic background fixes \(q(N)\). In the familiar limiting eras,
 
 $$
-\Sigma_A'
+\frac{\mathrm d\Sigma_A}{\mathrm dN}
 =
 \begin{cases}
 4/3,&q=1\quad\text{radiation},\\
@@ -233,6 +235,34 @@ $$
 The local \(46\,\mathrm{MeV}\) mass ruler should therefore be understood as a **frozen material presentation** at the selected wall, not as a rest mass that must vary throughout cosmic history. The more primitive evolving object is \(\Sigma_A\).
 
 ## Photon pressure and baryonic dwell
+
+The local complex Jordan cone is
+
+$$
+\mathfrak h_2(\mathbb C)_+
+\cong
+\overline{C^+_{1,3}}.
+$$
+
+Rank-one elements satisfy \(\det X=0\) and generate null extreme rays; rank-two positive elements satisfy \(\det X>0\) and occupy the timelike interior. The strong algebraic interpretation is therefore
+
+$$
+\text{photon transport}
+\leftrightarrow
+\partial\mathfrak h_2(\mathbb C)_+,
+\qquad
+\text{massive dwell}
+\leftrightarrow
+\operatorname{int}\mathfrak h_2(\mathbb C)_+.
+$$
+
+The local fluid is not another fundamental causal order. It selects an effective characteristic cone
+
+$$
+C_s(R)\subset C_c
+$$
+
+inside the realized light cone. A causal scale valuation on lightlike reach pulls back to the sound cone with a loading factor fixed by the matter/radiation allocation.
 
 The associative \(3+1\) presentation explains the factor \(1/3\) in radiation pressure. An isotropic traceless photon stress in three spatial dimensions has
 
@@ -322,6 +352,21 @@ $$
 
 Cosmic expansion and material dwell therefore add as logarithmic delays. This is the photon--baryon relational geometry in its most economical form.
 
+Equivalently, at the level of causal reachability counts,
+
+$$
+\boxed{
+\mathrm dn_s
+=
+\frac{c_s}{c}\,\mathrm dn_\gamma
+=
+\frac{\mathrm dn_\gamma}
+{\sqrt{3(1+R)}}.
+}
+$$
+
+This relation precedes the choice of conformal-time coordinate in the explanatory order: it compares the aperture of two local characteristic cones. The conformal-time sound-horizon integral is its metric representation.
+
 ## Acoustic phase is accumulated causal count
 
 Let
@@ -332,7 +377,7 @@ $$
 \ln\frac{R_A(N)}{\lambda_g(N)}
 $$
 
-be the horizon-relative scale depth. In one e-fold, light traverses the physical distance \(c/H=R_A\), so the number of causal scale units crossed is
+be the horizon-relative scale depth. Per differential e-fold, light traverses the instantaneous physical distance \(c\,\mathrm dt=(c/H)\,\mathrm dN=R_A\,\mathrm dN\); \(c/H\) is a finite one-e-fold distance only when the variation of \(H\) over that interval is treated appropriately. The corresponding instantaneous causal-scale count rate is
 
 $$
 \boxed{
@@ -551,7 +596,7 @@ In grain language, \(k_D\) is the scale at which the random-walk uncertainty in 
 
 ## Primordial amplitude and tilt as count statistics
 
-The common-count ontology offers a second economical CMB target. Suppose a horizon-exit or wall patch contains an effective number (mathcal N_{\mathrm{eff}}(k)) of independent causal units and that Born dwell gives ordinary counting variance. Then the minimal shot-noise law has the form
+The common-count ontology offers a second economical CMB target. Suppose a horizon-exit or wall patch contains an effective number \(\mathcal N_{\mathrm{eff}}(k)\) of independent causal units and that Born dwell gives ordinary counting variance. Then the minimal shot-noise law has the form
 
 $$
 \boxed{
@@ -562,7 +607,7 @@ $$
 }
 $$
 
-with (C_\zeta) fixed by the common-clock curvature solder. The spectral tilt and running are no longer independent functions:
+with \(C_\zeta\) fixed by the common-clock curvature solder. The spectral tilt and running are no longer independent functions:
 
 $$
 n_s-1
@@ -578,7 +623,7 @@ $$
 {\mathrm d(\ln k)^2}.
 $$
 
-Near-Gaussianity would follow when (mathcal N_{\mathrm{eff}}gg1), while higher cumulants would be tied to the same count and any (A_2) branch moments. This is a promising “more with less” target: one scale-count function could jointly determine amplitude, tilt, running, and non-Gaussian suppression.
+Near-Gaussianity would follow when \(\mathcal N_{\mathrm{eff}}\gg1\), while higher cumulants would be tied to the same count and any \(A_2\) branch moments. This is a promising “more with less” target: one scale-count function could jointly determine amplitude, tilt, running, and non-Gaussian suppression.
 
 The exact coefficient and curvature map are part of the granted strong package in this exploratory mode. The empirical task is to see whether one frozen count law can fit all four observables, rather than assigning each an unrelated parameter.
 
@@ -588,16 +633,16 @@ The maximally charitable completion would organize the usual CMB inputs as follo
 
 | Observable family | Economical cosmodynamic origin | Independent freedom sought |
 |---|---|---:|
-| late expansion (H(z)), (w_0), (w_a), (q_0), future class | unit (operatorname{sech}^2u) wall response | one ordinary-matter member datum after radiation |
-| absolute crossing scale | chiral grain oracle using local (G) and (F_\pi^\chi) | no cosmological scale fit |
-| relative grain depth (Sigma_A(N)) | common count plus horizon mint law | one frozen anchor |
-| sound speed and baryon peak asymmetry | one dwell ratio (R=h_b/h_\gamma) | baryon allocation, unless the wall derives it |
-| acoustic angle and peak spacing | ratio (mathcal N_s/mathcal N_D) | none beyond the background and composition |
+| late expansion \(H(z)\), \(w_0\), \(w_a\), \(q_0\), future class | unit \(\operatorname{sech}^2u\) wall response | one ordinary-matter member datum after radiation |
+| absolute crossing scale | chiral grain oracle using local \(G\) and \(F_\pi^\chi\) | no cosmological scale fit |
+| relative grain depth \(\Sigma_A(N)\) | common count plus horizon mint law | one frozen anchor |
+| sound speed and baryon peak asymmetry | one dwell ratio \(R=h_b/h_\gamma\) | baryon allocation, unless the wall derives it |
+| acoustic angle and peak spacing | ratio \(\mathcal N_s/\mathcal N_D\) | none beyond the background and composition |
 | TT/EE interleaving and TE sign | one complex coherent phase | no separate phase per spectrum |
 | damping tail | opacity-weighted loss of the same phase | standard atomic inputs or their material solder |
-| scalar amplitude, tilt, running | one causal count law (mathcal N_{\mathrm{eff}}(k)) | ideally one normalization fixed by the state |
-| bispectrum/higher moments | finite-count and (A_2) branch statistics | no unrelated shape catalogue |
-| CMB lensing and late ISW | the same cosmodynamic background and covariant response | no phenomenological (A_L) |
+| scalar amplitude, tilt, running | one causal count law \(\mathcal N_{\mathrm{eff}}(k)\) | ideally one normalization fixed by the state |
+| bispectrum/higher moments | finite-count and \(A_2\) branch statistics | no unrelated shape catalogue |
+| CMB lensing and late ISW | the same cosmodynamic background and covariant response | no phenomenological \(A_L\) |
 
 The programme becomes impressive if the same frozen construction returns several rows at once. It becomes merely flexible if every row receives a new map with a new free coefficient.
 
@@ -606,12 +651,12 @@ The programme becomes impressive if the same frozen construction returns several
 The first-principles completion should aim at the following linked predictions:
 
 1. **Acoustic-count ratio:** predict \(\theta_*\) and hence \(\ell_A\) from the late-time cosmodynamic distance and the internally generated sound count.
-2. **Absolute ruler:** predict (r_s) or (r_d), discriminating the approximately (147\,mathrm{Mpc}) low-(H_0) branch from the approximately (136\,mathrm{Mpc}) high-(H_0) branch already exposed by the calibrated background fit.
-3. **One baryon-dwell parameter, many effects:** use the same (R_*) to predict sound speed, odd/even TT loading, velocity amplitude, and diffusion scale.
+2. **Absolute ruler:** predict \(r_s\) or \(r_d\), discriminating the approximately \(147\,\mathrm{Mpc}\) low-\(H_0\) branch from the approximately \(136\,\mathrm{Mpc}\) high-\(H_0\) branch already exposed by the calibrated background fit.
+3. **One baryon-dwell parameter, many effects:** use the same \(R_*\) to predict sound speed, odd/even TT loading, velocity amplitude, and diffusion scale.
 4. **Quadrature closure:** reproduce the relative TT, TE, and EE phases with one primordial phase and no spectrum-specific shifts.
-5. **Count spectrum:** derive (A_s), (n_s), running, and higher-point suppression from one (mathcal N_{\mathrm{eff}}(k)).
-6. **Late transfer:** use the already fixed (H(N)) to predict lensing smoothing, the lensing reconstruction, late ISW correlations, and growth without an (A_L) patch.
-7. **Scale-unit residual:** if discrete scale survives coarse graining, predict one log-periodic residual with its (A_2) selection rule across TT, TE, EE, lensing, and the matter spectrum.
+5. **Count spectrum:** derive \(A_s\), \(n_s\), running, and higher-point suppression from one \(\mathcal N_{\mathrm{eff}}(k)\).
+6. **Late transfer:** use the already fixed \(H(N)\) to predict lensing smoothing, the lensing reconstruction, late ISW correlations, and growth without an \(A_L\) patch.
+7. **Scale-unit residual:** if discrete scale survives coarse graining, predict one log-periodic residual with its \(A_2\) selection rule across TT, TE, EE, lensing, and the matter spectrum.
 
 This is the appropriate comparison with Planck’s quantum hypothesis: not whether one equation has already been derived from a deeper one, but whether a small indivisible principle compresses many independent regularities and survives new measurements.
 

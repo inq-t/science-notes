@@ -1,24 +1,26 @@
 # Causal-Grain CMB Spectroscopy
 
-The cosmic microwave background can serve as a phase-sensitive spectrograph for a causal **scale unit**, while its familiar acoustic peaks remain collective relations among many such units rather than individual spacetime quanta. Granting the minimal cosmodynamic correspondence, one economical structure can underwrite both the background and the photon--baryon sound cone: FLRW expansion is reciprocal to decreasing comoving light reach, photon enthalpy carries propagation, baryonic mass carries dwell, and the acoustic angle is a ratio of grain counts in which every absolute ruler cancels. A selected associative \(3+1\)-dimensional complex context then presents temperature and polarization as complementary quadratures of one coherent state. A log-periodic primordial residual is a sharper secondary prediction if discrete scale survives coarse graining.
+The cosmic microwave background can serve as a phase-sensitive record of a **grain of causal scale**, provided the grain is placed at the right ontological level. It is not first a femtometre, clock tick, mass, or acoustic wavelength. It is a primitive positive global-to-local realization carrying one unit of an algebraic scale valuation: ambient reversible symmetry becomes one-sided relative to an accessible local algebra, a contextual fact acquires causal position, and only then do conformal geometry, metric scale, local clocks, particles, and records appear. The CMB is valuable because one here-and-now sky contains local records of globally coherent primordial order. Its acoustic peaks are the local photon--baryon response; their common TT/TE/EE phase and any discrete-scale residual are candidate fossils of the upstream causal descent.
 
-## The meaning: the CMB is an analyser, not the source of the grain
+## The meaning: a local sky records a global causal descent
 
-[[the-grain-of-causal-scale/entry|The causal-scale grain]] is already typed as a positive common-count correlation scale, not a tiny material bead. The new thought sharpens that typing:
+[[the-grain-of-causal-scale/entry|The causal-scale grain]] is already typed as a positive common-count correlation scale, not a tiny material bead, while [[the-grain-of-causal-scale/causal-spectrum|its causal spectrum]] identifies the stronger candidate as one oriented positive-support event. [[inbox/causal-grain-cmb-spectroscopy/causal-order-before-clock-time|Causal order before clock time]] now sharpens the ontology:
 
-> A grain of causality is one realized unit in the measure of scale. Its correlation length, reduced-Compton mass, areal count, effective density, and dwell weight are presentations of that unit through different maps; they are not five names for one object.
+> A grain of causal scale is a primitive positive passage from the whole register to a local fact register, together with one additive unit of scale valuation. Correlation length, reduced-Compton mass, dwell, entropy response, and metric duration are later presentations of that passage.
 
-This makes the CMB relevant in a precise way. The primordial plasma is a calibrated resonant system. Different Fourier modes have accumulated different acoustic phases by recombination, so scanning angular multipole \(\ell\) reveals a harmonic pattern. Temperature, E-polarization, and their cross-correlation read complementary quadratures of that oscillator. If a causal-scale unit underwrites the primordial state and the acoustic geometry, its common phase is filtered differently but coherently through all three spectra.
+The whole/local words are not spatial at the pregeometric level. The **whole register** carries cosmos-wide compatibility, symmetry, state, and correlations; the **local fact register** carries a context, an obtained value, a causal address, and a persistent record. Time is one product of composing those records into a Lorentzian history. A local clock does not generate the prior order.
 
-More strongly, the photon--baryon fluid already realizes a relational geometry of propagation and dwell. With photon enthalpy \(h_\gamma=4\rho_\gamma/3\) and baryonic inertia \(h_b\simeq\rho_b\),
+This makes the CMB relevant in a precise way. The primordial state is represented locally by a calibrated resonant plasma and finally by detector records on one observer's celestial sphere. Different Fourier modes accumulate different acoustic phases by recombination, so scanning angular multipole \(\ell\) reveals a harmonic pattern. Temperature, E-polarization, and their cross-correlation read complementary quadratures. If one causal descent underwrites the primordial boundary condition, its phase must be filtered differently but coherently through all three spectra.
+
+The photon--baryon fluid then supplies a **local characteristic geometry** inside the already realized light-cone order. With photon enthalpy \(h_\gamma=4\rho_\gamma/3\) and baryonic inertia \(h_b\simeq\rho_b\),
 
 $$
 R=\frac{h_b}{h_\gamma},
 \qquad
-c_s^2=\frac{1}{3(1+R)}.
+\frac{c_s^2}{c^2}=\frac{1}{3(1+R)}.
 $$
 
-Photons provide pressure and transport; baryons load the mode with mass-like residence or inertia. The scale grain is the common unit in which their acoustic distance is counted. Under the strong package, one hot-history solder returns \(R\), the opacity, and the evolving scale ratio; [[inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry|cosmodynamic acoustic geometry]] develops the resulting conditional deductions.
+Photons provide pressure and transport; baryons load the mode with mass-like residence or inertia. Their sound cone \(C_s(R)\) is narrower than the light cone \(C_c\) by \(c_s/c=[3(1+R)]^{-1/2}\). A causal scale valuation can be pulled back along this inclusion, but it is not produced by the plasma. Under the strong package, one hot-history realization returns \(R\), the opacity, and the evolving metric image of scale; [[inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry|cosmodynamic acoustic geometry]] develops the resulting conditional deductions.
 
 The proposal is therefore not
 
@@ -29,16 +31,18 @@ $$
 At its strongest it is
 
 $$
-\text{causal scale/dwell law}
+\text{global causal order and scale valuation}
 \longrightarrow
-\text{photon transport--baryon dwell geometry}
+\text{local Lorentzian and factive realization}
 \longrightarrow
-\text{coherent primordial and acoustic phase}
+\text{photon transport--baryon dwell cone}
 \longrightarrow
-(TT,TE,EE).
+\text{coherent primordial/acoustic phase}
+\longrightarrow
+(TT,TE,EE,\text{records}).
 $$
 
-That arrow sequence is the cosmological version of a spectrometer. The strong programme asks the grain to explain the ordinary relational resonator itself. The residual route remains valuable because it can test whether a discrete logarithmic unit survives after that collective geometry has emerged.
+That arrow sequence is the cosmological version of a spectrometer. The strong programme asks the grain to explain the common global boundary condition and the maps by which it becomes a local resonator. The residual route tests whether the primitive logarithmic valuation survives after collective geometry has emerged.
 
 ## Two resonators, two kinds of harmonic spacing
 
@@ -74,17 +78,36 @@ Their spacing is **geometric** in \(k\), or periodic in \(\ln k\). This does not
 
 ## The causal unit
 
-Let \(\varepsilon_c\) denote one positive causal-realization event. The minimal proposed correspondence is
+Let \(G\) denote an ambient reversible presentation symmetry and \(W\) a locally accessible context. Its causal compression semigroup is
 
 $$
-\varepsilon_c
-\xmapsto{\mathfrak W_{\mathrm{sc}}}
-1_{\mathrm{sc}},
+S_W
+:=
+\{g\in G:
+\operatorname{Ad}_g\mathcal A(W)
+\subseteq
+\mathcal A(W)\},
+$$
+
+with reversible stabilizer \(K_W=S_W\cap S_W^{-1}\). A presentation-invariant additive scale valuation satisfies
+
+$$
+v(st)=v(s)+v(t),
 \qquad
-\mu_{\mathrm{sc}}(1_{\mathrm{sc}})=s_*=1,
+v(k)=0\quad(k\in K_W).
 $$
 
-where \(\mu_{\mathrm{sc}}\) is an extensive scale-response measure. Its native geometric presentation is the ratio
+The proposed causal quantum is a primitive positive boundary or support class \(q\) with
+
+$$
+\nu(q)=+1,
+\qquad
+v(q)=s_g.
+$$
+
+The integer \(\nu\) is the oriented causal-order unit; \(s_g\) is its additive scale value; \(e^{s_g}\) is the multiplicative scale character. Continuous positive rescaling has no smallest unit, so this grain exists only after a wall, corner, record, or positive completion makes the index discrete.
+
+Metric geometry is downstream. Once a local Lorentzian scale realization exists, one may represent the same unit by
 
 $$
 g_\mathcal O(N)
@@ -96,7 +119,7 @@ g_\mathcal O(N)
 \ln\frac{L_\mathcal O(N)}{\lambda_g(N)}.
 $$
 
-Under the conditional common-count closure,
+At the selected crossing, the conditional common-count closure gives
 
 $$
 \lambda_*^3=\frac{8}{3}\ell_P^2R_c.
@@ -110,7 +133,7 @@ $$
 \frac{8\pi}{3\iota_c}.
 $$
 
-This pairs the unit response \(s_*=1\) with a logarithmic information depth. The \(4.3\,\mathrm{fm}\) and \(46\)--\(47\,\mathrm{MeV}\) values are local ruler presentations after the crossing scale is soldered to present units; they are not the ontology. [[inbox/causal-grain-cmb-spectroscopy/scale-unit-and-dwell|Scale unit and dwell]] separates this relational unit from a spacetime voxel or one-particle-per-cell reading. [[inbox/causal-grain-cmb-spectroscopy/logarithmic-scale-ledger|The logarithmic scale ledger]] shows that one grain dwell corresponds to the epoch-relative e-fold fraction \(H\tau_g=\lambda_g/R_A\).
+This pairs the causal unit with an areal-information and bulk-correlation presentation. The \(4.3\,\mathrm{fm}\) and \(46\)--\(47\,\mathrm{MeV}\) values appear only after the crossing scale is soldered to local rods, clocks, \(c\), and \(\hbar\); they are not the ontology. [[inbox/causal-grain-cmb-spectroscopy/scale-unit-and-dwell|Scale unit and dwell]] separates these local costumes from a spacetime voxel or one-particle-per-cell reading. [[inbox/causal-grain-cmb-spectroscopy/logarithmic-scale-ledger|The logarithmic scale ledger]] records \(H\tau_g=\lambda_g/R_A\) as a downstream clock representation, not the definition of the grain.
 
 The relation to [[minimal-cosmodynamic-closure/entry|minimal cosmodynamic closure]] is exact at the level of programme architecture. Its continuous coordinate
 
@@ -120,7 +143,7 @@ s=N-N_c,
 \frac{\mathrm ds}{\mathrm dN}=1,
 $$
 
-calibrates scale, while its balanced response
+is a proposed physical solder from the algebraic scale character to homogeneous scale-age, while its balanced response
 
 $$
 g_{ss}^{\mathrm{BKM}}=\operatorname{sech}^2s

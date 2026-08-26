@@ -1,6 +1,6 @@
 # Octonionic Phase Space and Associative (3+1) Descent
 
-The precise replacement for “the octonionic wavefunction of the cosmos collapses to (3+1)” is a staged associative descent. The exceptional Jordan algebra and its Freudenthal system provide exact octonion-organized state and symplectic carriers. A chosen rank-two corner followed by a chosen complex slice contains an exact Lorentz-vector space (mathfrak h_2(mathbb C)congmathbb R^{1,3}). That construction selects a local causal presentation, not yet a spacetime, a quantum collapse, or a cosmological perturbation; dynamics, positivity, tangent soldering, and gluing remain separate obligations.
+The precise replacement for “the octonionic wavefunction of the cosmos collapses to \(3+1\)” is a staged whole-to-local associative descent. The exceptional Jordan algebra and its Freudenthal system provide exact octonion-organized state and symplectic carriers. A chosen rank-two corner followed by a chosen complex slice contains the exact Lorentz-vector space \(\mathfrak h_2(\mathbb C)\cong\mathbb R^{1,3}\). The positive cone then distinguishes normalized null primitive rays from timelike rank-two interiors. This selects a local causal presentation, not yet a spacetime, factual outcome, or cosmological perturbation; causal orientation, dynamics, metric scale, factual selection, and gluing remain distinct operations.
 
 ## The exceptional carrier
 
@@ -10,13 +10,13 @@ $$
 J:=\mathfrak h_3(\mathbb O)
 $$
 
-be the (27)-dimensional exceptional Euclidean Jordan algebra. Its product
+be the \(27\)-dimensional exceptional Euclidean Jordan algebra. Its product
 
 $$
 X\circ Y:=\frac12(XY+YX)
 $$
 
-is well defined despite octonionic nonassociativity, but (J) is exceptional: it is not the self-adjoint part of an associative complex operator algebra preserving this product. Its spectral decomposition and cubic norm are exact; a conventional complex Hilbert-space dynamics does not follow from them.
+is well defined despite octonionic nonassociativity, but \(J\) is exceptional: it is not the self-adjoint part of an associative complex operator algebra preserving this product. Its spectral decomposition and cubic norm are exact; a conventional complex Hilbert-space dynamics does not follow from them.
 
 The associated Freudenthal vector space is
 
@@ -32,7 +32,7 @@ $$
 2+2\dim J=56.
 $$
 
-For (x=(\alpha,\beta,X,Y)) and (x'=(\alpha',\beta',X',Y')), it carries an invariant alternating form of the schematic normalization
+For \(x=(\alpha,\beta,X,Y)\) and \(x'=(\alpha',\beta',X',Y')\), it carries an invariant alternating form of the schematic normalization
 
 $$
 \Omega(x,x')
@@ -56,7 +56,7 @@ $$
 +\text{positive Hilbert completion},
 $$
 
-where (H_{\mathcal F}) is a Hamiltonian, (P) a polarization, and (mu) a measure. On a Lagrangian polarization (L), the state could then take the ordinary form
+where \(H_{\mathcal F}\) is a Hamiltonian, \(P\) a polarization, and \(\mu\) a measure. On a Lagrangian polarization \(L\), the state could then take the ordinary form
 
 $$
 \Psi\in L^2(L,\mathrm d\mu;\mathbb C),
@@ -77,11 +77,11 @@ $$
 \omega_\rho(X)=\operatorname{tr}(\rho\circ X).
 $$
 
-Primitive idempotents form the pure-state space (mathbb OP^2), not the entire mixed-state space. Neither route supplies a Born rule for cosmological records until composition, dynamics, measurement contexts, and an observable descent are fixed. [[complex-presentation-without-polarization/holomorphic-wavefunctions|Holomorphic wave functions and complex integrals]] owns the analogous warning for complex geometry.
+Primitive idempotents form the pure-state space \(\mathbb O P^2\), not the entire mixed-state space. Neither route supplies a Born rule for cosmological records until composition, dynamics, measurement contexts, and an observable descent are fixed. [[complex-presentation-without-polarization/holomorphic-wavefunctions|Holomorphic wave functions and complex integrals]] owns the analogous warning for complex geometry.
 
 ## First restriction: a rank-two octonionic corner
 
-Choose a rank-two idempotent (q\in J). Its quadratic Peirce compression is
+Choose a rank-two idempotent \(q\in J\). Its quadratic Peirce compression is
 
 $$
 U_q(X)
@@ -131,7 +131,7 @@ $$
 
 as a quadratic space. This is the octonionic rung of the division-algebra Lorentz construction; see [Baez and Huerta](https://arxiv.org/abs/0909.0551).
 
-The choice of (q) is already a reduction of the exceptional carrier. A cosmological theory must explain whether it is fixed by a state, a wall, a factive event, a boundary condition, or spontaneous sector selection.
+The choice of \(q\) is already a reduction of the exceptional carrier. A cosmological theory must explain whether it is fixed by a state, a wall, a factive event, a boundary condition, or spontaneous sector selection.
 
 ## Second restriction: an associative complex slice
 
@@ -152,7 +152,7 @@ $$
 \subset\mathbb O.
 $$
 
-The choices of (u) form
+The choices of \(u\) form
 
 $$
 S^6\cong G_2/SU(3).
@@ -204,13 +204,65 @@ $$
 }
 $$
 
-as a Lorentz quadratic space. This is the strongest exact mathematical content presently available for “octonionic possibility reduces to (3+1).”
+as a Lorentz quadratic space. This is the strongest exact mathematical content presently available for “octonionic possibility reduces to \(3+1\).”
 
-The entrywise projection (pi_u) is not automatically a Jordan homomorphism, a positive conditional expectation, a dynamically consistent truncation, or a state update. The exact claim is the existence of the selected associative subalgebra and its Lorentz determinant. A physical descent must show why discarded directions do not source the retained sector.
+The entrywise projection \(\pi_u\) is not automatically a Jordan homomorphism, a positive conditional expectation, a dynamically consistent truncation, or a state update. The exact claim is the existence of the selected associative subalgebra and its Lorentz determinant. A physical descent must show why discarded directions do not source the retained sector.
+
+## The positive cone makes the grain algebraic
+
+Restrict to the positive cone
+
+$$
+\mathfrak h_2(\mathbb C_u)_+
+\cong
+\overline{C^+_{1,3}}.
+$$
+
+A primitive idempotent \(e\) satisfies
+
+$$
+e^2=e,
+\qquad
+\operatorname{tr}e=1,
+\qquad
+\det e=0.
+$$
+
+It therefore supplies a canonically normalized point on a future null extreme ray. The normalization is genuinely discrete:
+
+$$
+(\lambda e)^2=\lambda e
+\quad\Longrightarrow\quad
+\lambda=0\ \text{or}\ 1.
+$$
+
+By contrast, the sum of two non-collinear primitive positive rays generically has
+
+$$
+\operatorname{rank}(e+f)=2,
+\qquad
+\det(e+f)>0,
+$$
+
+and lies in the timelike interior. This supports the proposed local dictionary
+
+$$
+\text{primitive null ray}
+\longleftrightarrow
+\text{photon-like propagation},
+\qquad
+\text{rank-two interior}
+\longleftrightarrow
+\text{massive dwell}.
+$$
+
+The cone is an exact algebraic model of local causal direction and mass-shell type. The physical identification with photons and baryons still requires the hot-history matter realization. The causal orientation also does not come from reversible \(S_3\) frame permutations; it must descend from the pointed causal cone or compression semigroup.
+
+The primitive idempotent is a strong candidate for the **algebraic support unit** of a causal grain. The \(+1\) spectral-flow event supplies its process unit, and a separate scale character supplies its ratio. Only after all three are welded does a local frame attach a wavelength, dwell time, or mass.
 
 ## Why the quaternionic shortcut is not enough
 
-Associative quaternionic subalgebras are also selected inside (mathbb O); their space is (G_2/SO(4)). But
+Associative quaternionic subalgebras are also selected inside \(\mathbb O\); their space is \(G_2/SO(4)\). But
 
 $$
 \mathbb H\cong\mathbb R^4
@@ -224,7 +276,7 @@ $$
 \mathbb R^{1,5}.
 $$
 
-Thus “one real plus three imaginary quaternionic directions” is only a dimension count. It does not derive the Lorentz cone of (3+1) spacetime. The complex Hermitian (2\times2) corner is the correct division-algebra construction for that signature.
+Thus “one real plus three imaginary quaternionic directions” is only a dimension count. It does not derive the Lorentz cone of \(3+1\) spacetime. The complex Hermitian \(2\times2\) corner is the correct division-algebra construction for that signature.
 
 ## From a Lorentz vector space to spacetime
 
@@ -241,7 +293,7 @@ that preserves the determinant cone, fixes units, and varies consistently. The c
 
 - a four-manifold or equivalent local site;
 - a time orientation and Lorentzian metric;
-- transition maps relating (u(x)) and (q(x)) on overlaps;
+- transition maps relating \(u(x)\) and \(q(x)\) on overlaps;
 - a connection and curvature;
 - causal dynamics and constraints;
 - a state on the descended observable algebra; and
@@ -255,22 +307,22 @@ The word *collapse* hides four different arrows:
 
 | Reading | Mathematical content | Present status |
 |---|---|---|
-| contextual restriction | select (q), (u), and (mathfrak h_2(\mathbb C_u)) | exact after the choices |
+| contextual restriction | select \(q\), \(u\), and \(\mathfrak h_2(\mathbb C_u)\) | exact after the choices |
 | dynamical reduction | show unselected directions decouple or become inaccessible | open |
 | quantum state update | define an instrument and conditional post-measurement state | open |
 | factive realization | produce one Lorentzian history and records from a whole-state carrier | open |
 
 The present model uses **associative descent** for the first arrow and reserves *collapse* for a future theory that actually constructs one of the latter two noninvertible processes.
 
-## Where (A_2) enters and where resonance does not
+## Where \(A_2\) enters and where resonance does not
 
-Every element of (J) obeys a cubic characteristic equation. On the trace-zero slice, three eigenvalue branches and their differences organize an (A_2) root geometry with Weyl group
+Every element of \(J\) obeys a cubic characteristic equation. On the trace-zero slice, three eigenvalue branches and their differences organize an \(A_2\) root geometry with Weyl group
 
 $$
 W(A_2)\cong S_3.
 $$
 
-This can supply a three-branch phase organization, multiplicities, or selection rules. It does not by itself supply oscillation frequencies. If a descended associative Hamiltonian has ordered levels (E_1<E_2<E_3), the transition gaps obey the exact identity
+This can supply a three-branch phase organization, multiplicities, or selection rules. It does not by itself supply oscillation frequencies. If a descended associative Hamiltonian has ordered levels \(E_1<E_2<E_3\), the transition gaps obey the exact identity
 
 $$
 \omega_{13}
@@ -296,13 +348,13 @@ $$
 \Delta_\ell^{T,E,B}.
 $$
 
-Here (mathcal H_{q,u}) denotes an associative Hilbert carrier only after quantization; it is not shorthand for (mathfrak h_2(\mathbb C_u)) alone. The second arrow must return gauge-invariant scalar and tensor variables with a Lorentzian state and dynamics. The third must match them into the hot universe. Without these arrows, the octonionic structure is compelling kinematics but has no CMB prediction.
+Here \(\mathcal H_{q,u}\) denotes an associative Hilbert carrier only after quantization; it is not shorthand for \(\mathfrak h_2(\mathbb C_u)\) alone. The second arrow must return gauge-invariant scalar and tensor variables with a Lorentzian state and dynamics. The third must match them into the hot universe. Without these arrows, the octonionic structure is compelling kinematics but has no CMB prediction.
 
 ## Kill conditions
 
 The proposed descent fails as a physical explanation if
 
-- no dynamics selects (q) and (u) without inserting the desired (3+1) answer;
+- no dynamics selects \(q\) and \(u\) without inserting the desired \(3+1\) answer;
 - the projection is not positive or does not preserve the selected state;
 - discarded octonionic directions source large unobserved modes;
 - local complex slices cannot be glued into a Lorentzian causal net;
