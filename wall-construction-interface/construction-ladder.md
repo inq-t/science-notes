@@ -57,7 +57,7 @@ This is the intended physical setting and the only rung at which the region trap
 
 ## Reading the ladder
 
-No cited construction supplies the scale-indexed physical state law, the binary reduction, and the cosmological weld together. The lower benchmarks now do more than gesture at components: the modular tunnel proves exact transport and the nullity of its invariant reference-state family, while the cellular Markov wall proves an exact nonzero finite response. Their value is that the remaining failure is localized to the state--causal-geometry weld rather than hidden inside an undefined comparison.
+No cited construction supplies a scale-indexed physical Lorentzian state law, renormalized source family, area normalization, and cosmological weld together. [[core-spectral-wall|The core spectral wall]] now supplies the formerly missing continuous algebraic conjunction: finite trace-capacity corners, labelled whole-core state fibers, exact transport, a binary readout, and nonzero response. The remaining gap begins with causal and local realization and continues through the physical quotient, source, area, and cosmic-scale solders. The modular tunnel and cellular Markov wall remain independent orientation and finite-response benchmarks.
 
 Two failure signatures are worth distinguishing in advance:
 

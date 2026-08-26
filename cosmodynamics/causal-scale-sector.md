@@ -1,6 +1,6 @@
 # Causal Scale Dynamics as a Cosmodynamic Sector
 
-Causal Scale Dynamics is a concrete proposal for relating causal-conformal geometry, metric scale, state distinguishability, horizon capacity, and homogeneous cosmic response. It exemplifies the cosmodynamic method of separating registers and then soldering them, but it does not yet construct facts, records, a shared arrow, a microscopic wall state, or a complete perturbative spacetime theory.
+Causal Scale Dynamics is a concrete proposal for relating causal-conformal geometry, metric scale, state distinguishability, horizon capacity, and homogeneous cosmic response. It exemplifies the cosmodynamic method of separating registers and then soldering them, but it does not yet construct facts, records, a shared physical arrow, a Lorentzian local realization of the algebraic wall state, or a complete perturbative spacetime theory.
 
 ## The proposed chain
 
@@ -21,9 +21,9 @@ $$
 The arrows have different statuses:
 
 1. the conformal/scale decomposition is established kinematics under stated hypotheses;
-2. the scale-indexed wall algebra and state family are open constructions;
-3. the reduced binary BKM profile is exact inside the proposed finite model;
-4. the scale-state rate and scale--capacity normalizations are new principles;
+2. [[wall-construction-interface/core-spectral-wall|the canonical core]] supplies an exact spectral-cut capacity filtration and a separate whole-core state--transport--readout family, while their causal and local realization and identification with cosmic scale remain open;
+3. the reduced binary BKM profile is exact as a selected whole-core spectral readout and in the finite benchmark models, while its physical selection remains open;
+4. the physical scale--state rate and scale--capacity-to-area normalization remain new principles;
 5. the map from information metric to energy density is a constitutive law; and
 6. the FLRW evolution uses standard GR after the source is supplied.
 

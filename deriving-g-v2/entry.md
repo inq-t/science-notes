@@ -47,4 +47,4 @@ The correctly typed question splits. The **law** question is to construct a wall
 | Empirical or conditional exclusion | The declared unscreened live-running laws (LLR, factors 217 to 434; the displayed log ansatz, factor 2.3); the sub-4 rigid ladder only under the channel and reported-fit hypotheses |
 | Proposed interpretation | G as ledger-to-ruler exchange rate; the leak as weight rescaling; the ruler reading of the hierarchy |
 | Adopted commitment | No ontic randomness: inaccessible necessitating reason, typed per the two-species distinction |
-| Open | The wall inclusion itself; the same-tangent alignment; the fossil-vs-microscopic fork; the selection of index e² |
+| Open | Lorentzian realization of [[wall-construction-interface/core-spectral-wall|the core pre-wall]]; the same-tangent weld between finite-corner trace-capacity, whole-core response, edge data, and area; the fossil-vs-microscopic fork; selection of \(\varphi,d,\nu\) and, under separate finite-index hypotheses, the value \(e^2\) |

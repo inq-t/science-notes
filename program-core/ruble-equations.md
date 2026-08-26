@@ -1,6 +1,6 @@
 # The Ruble Equations
 
-The Ruble equations are a typed dependency stack from causal scale through horizontal state response to a conjectural state–geometry equivalence and its homogeneous cosmological projection. Only the balanced-binary identities and the stated geometric or thermodynamic identities are exact; the wall construction, modulus localization, unit principles, source law, and covariant response remain open or constitutive. RE4--RE9 develop the current balanced-binary member CST-B2, while [[causal-scale-theory/response-family-interface|the CST response-family interface]] owns the wider homogeneous return type.
+The Ruble equations are a typed dependency stack from causal scale through horizontal state response to a conjectural state–geometry equivalence and its homogeneous cosmological projection. [[wall-construction-interface/core-spectral-wall|The core spectral wall]] now supplies an exact algebraic pre-wall and one exact balanced-binary Fisher--BKM readout; it does not supply physical RE1 or localized RE2. The causal and Lorentzian realization, modulus localization, area--gravity weld, unit principles, source law, and covariant response remain open or constitutive. RE4--RE9 develop the current balanced-binary member CST-B2, while [[causal-scale-theory/response-family-interface|the CST response-family interface]] owns the wider homogeneous return type.
 
 Fix a reference scale section independently of the distinguished reference cut and use
 
@@ -55,7 +55,7 @@ The reusable conformal distinction and its invariance proof live in [[conformal-
 
 ## RE1 — Physical horizontal state deformation
 
-**[PRINCIPLE + EXACT BENCHMARKS + OPEN PHYSICAL WELD]**
+**[EXACT ALGEBRAIC PRE-WALL + OPEN PHYSICAL WELD]**
 
 $$
 \boxed{
@@ -65,7 +65,7 @@ N\longmapsto
 v_N=D^{\mathrm{hor}}\Phi(\partial_N).}
 $$
 
-The transport data \(X_{N_2:N_1}\), physical quotient, and tangent normalization must be specified before \(v_N\) exists. A representable transport is written \(\iota_{N_2:N_1}:\mathcal A_{N_1}\to\mathcal A_{N_2}\); general correspondences require their own state-comparison return. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided-modular tunnel]] constructs exact transport but its invariant reference-state family has a null tangent. [[wall-construction-interface/finite-cellular-markov-wall|The finite cellular Markov wall]] constructs an exact nonzero finite BKM state tangent without a physical causal carrier or quotient. The scale-to-state principle asserts that a completed realized scale displacement combines these load-bearing properties in one invariant horizontal image.
+The physical quotient and tangent normalization must be specified before \(v_N\) exists as a physical tangent. [[wall-construction-interface/core-spectral-wall|The core spectral wall]] already constructs the algebraic comparison without measured \(G\) or a fitted history: labelled whole-core fibers \(\mathcal A_N=\mathcal C^{(N)}\) carry one state orbit, exact transport, and the binary context and readout, while the separate corners \(\mathcal K_N=e_N\mathcal C e_N\) carry finite trace-capacity. It therefore supplies a nonzero algebraic horizontal response but not \(\Sigma_N\), a local Lorentzian net, a physical quotient, source or area data, or the identification of core scale with \(N=\ln(a/a_*)\). General correspondences still require their own state-comparison return.
 
 ## RE2 — Distinguishability response and localization
 

@@ -7,7 +7,7 @@ Causal-Wall Spectral Theory consumes a stage-relative observational quotient and
 | Core node | CWST use | Standing |
 |---|---|---|
 | [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | A positive scale section supplies the global direction and nonconstant scale-presentation residues. | definition and standard conformal geometry |
-| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | The descent construction must return a nonzero physical mean-zero observational tangent after the full quotient. | principle; exact finite benchmark, open physical construction |
+| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[wall-construction-interface/core-spectral-wall|The core spectral wall]] supplies a nonzero homogeneous algebraic state/readout orbit on whole-core fibers and a separate finite-capacity filtration. It does not return a physical mean-zero observational tangent after the full quotient. | exact algebraic pre-wall; open physical CWST tangent |
 | [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | CWST seeks the center-resolved mean-zero package \(\mathfrak G^Z_{\zeta\zeta}=(Z,\mathbf G^Z_{\zeta\zeta},\omega^Z)\) of [[program-core/common-response-form|the common response form]]. | exact finite-center response law; open carrier, localization, and wall return |
 | [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | On an already identified physical tangent, a state--geometry theorem could equate the state response with a gravitational response. RE3 does not construct the common response form or change a cut carrier into a three-dimensional spectral carrier; [[conjectures/cwst-common-response-consumer|the CWST consumer note]] owns that stronger application. | optional conjectural strengthening |
 | [[program-core/ruble-equations#RE4 — Balanced binary specialization|RE4]] through [[program-core/ruble-equations#RE9 — CST-B2 equation of state and shape invariant|RE9]] | These specify the homogeneous CST realization. No binary \(\operatorname{sech}^2\) pulse, Ruble reference value, free-energy source, or FLRW background equation is a premise of CWST. | separate consumer branch |
@@ -70,7 +70,7 @@ Here \(S_{\mathsf p}\) is a declared normal unconditioned or normalized internal
 
 The scalar path does not generate the tensor path. A member that makes no W1\(_{\mathrm t}\)--W3\(_{\mathrm t}\) construction predicts no primordial tensor response. Likewise, the quadratic precisions end at W3; W4 begins at cubic order.
 
-W0 is internally factorized as W0a carrier, W0b state law, W0c transport, W0d readout, and W0e source readiness by [[wall-construction-interface/entry|the canonical interface]]. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided-modular tunnel]] closes W0c for one exact oriented operator-algebraic family but gives zero invariant-state response. [[wall-construction-interface/finite-cellular-markov-wall|The finite cellular Markov wall]] closes a nonzero finite response benchmark with exact transport and readout but not a Lorentzian cut or renormalized source. Neither benchmark advances a physical member to W1\(_{\mathrm s}\) or W1\(_{\mathrm t}\) until the missing gates and physical quotient are supplied on one carrier.
+W0 is internally factorized as W0a carrier, W0b state law, W0c transport, W0d readout, and W0e source readiness by [[wall-construction-interface/entry|the canonical interface]]. [[wall-construction-interface/core-spectral-wall|The core spectral wall]] now combines the algebraic state, transport, and binary-readout portions on labelled whole-core fibers, with finite trace-capacity kept on separate corners. This homogeneous binary member is not W1\(_{\mathrm s}\) or W1\(_{\mathrm t}\): no causal local carrier, physical quotient, mean-zero Weyl or TT tangent, renormalized localization, or source has been constructed. The half-sided-modular and cellular walls remain independent orientation and finite-response benchmarks.
 
 Here \(R_{\mathrm s}\) is the linearized spacetime realization map in \(\zeta_{\mathrm{cos}}=R_{\mathrm s}\zeta_{\mathrm{wall}}\); it is unrelated to the Ruble crossing number \(\mathfrak R_c\). On an invertible sector the scalar precision transforms as
 
@@ -87,7 +87,7 @@ If \(R_{\mathrm s}\) has a kernel, the inverse-conjugation formula applies only 
 
 | Edge or object | Canonical owner | CWST obligation |
 |---|---|---|
-| W0a--W0e, full canonical package | [[wall-construction-interface/entry|wall-construction interface]] | combine carrier, independently selected state law, coherent transport, compatible readout, and renormalized sources on one physical wall without solving backward from the desired spectrum; exact partial benchmarks do not compose themselves |
+| W0a--W0e, full canonical package | [[wall-construction-interface/entry|wall-construction interface]] | starting from the exact core pre-wall if that member is chosen, construct its causal local carrier, physical state selection, compatible source family, and relation between its distinct capacity and response carriers without solving backward from the desired spectrum |
 | physical quotient | [[program-core/physical-quotient|programme core]] | show which inhomogeneous directions survive and why |
 | W1\(_{\mathrm s}\), W1\(_{\mathrm t}\) | [[wall-construction-interface/entry|wall interface]], [[program-core/center-valued-response|center-valued response]], and [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the Hessian theorem]] | retain \((Z,\mathbf G^Z,\omega^Z)\), including the central Fisher density; continuum finiteness, localization, and the TT source remain open |
 | covariance and 1PI precision | [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier precision]] | specify the nondegenerate physical domain and interacting/Gaussian regime |
@@ -117,7 +117,7 @@ in the registered three-dimensional Fourier convention. A common-geometry propos
 
 ## Failure localization
 
-- Failure of the physical W0 weld leaves both global and mean-zero observational wall programmes without one microscopic carrier, while preserving the exact transport and finite-response benchmarks as diagnostics.
+- Failure of the physical W0 weld leaves both global and mean-zero observational programmes without a Lorentzian microscopic carrier, while preserving the exact core capacity and whole-core state--transport--readout constructions in their algebraic registers.
 - Failure of either W1 branch can leave a wall family but no nondegenerate response in that sector; failure of the TT branch does not erase a scalar member.
 - Failure of either W2 branch rejects that causal-wall spectral weld without rejecting Fourier precision or holographic cosmology in their own domains.
 - Failure of either W3 branch rejects that primordial interpretation while leaving a spatial state response possible.

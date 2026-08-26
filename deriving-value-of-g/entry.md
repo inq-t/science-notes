@@ -186,7 +186,7 @@ G_{ab}+\Lambda g_{ab}
 =\frac{8\pi G}{c^4}T_{ab}.
 $$
 
-What remains open is upstream. The Noether--capacity theorem fixes the ratio once the physical wall is proved to be a unit thermal-dilation channel, but the wall algebra and state family have not supplied that tangent identification or a finite, regulator-independent channel density per area. The [[causal-scale-derivation-target|causal-scale derivation target]] states the missing construction, anti-circularity test, universality conditions, and failure modes.
+What remains open is specifically the physical area weld. [[wall-construction-interface/core-spectral-wall|The core spectral wall]] now supplies finite-corner trace-capacity and, on separate whole-core fibers, an exact state--transport--binary-response family. It does not identify those carriers on one physical tangent, map the spectral projector to a codimension-two causal cut, or produce a finite universal response density per independently normalized area. The Noether--capacity theorem fixes the ratio only after those steps establish the physical unit thermal-dilation channel. The [[causal-scale-derivation-target|causal-scale derivation target]] states the anti-circularity test, universality conditions, and failure modes.
 
 The finite-index route sharpens the missing object. In an explicit type-I cell,
 
