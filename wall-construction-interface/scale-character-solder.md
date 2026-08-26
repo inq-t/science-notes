@@ -1,15 +1,23 @@
-# Soldering Three Scale Characters
+# Soldering Three Scale Coordinates by One Character
 
-The half-sided-modular affine coordinate, the trace capacity of a Connes-core cut, and the discriminant depth of the symmetric real $A_2$ degeneration each carry an exact exponential character. Their equality is not a theorem of any one construction; it is a clean fiber-product solder that can be adopted and then tested by a physical realization. On that solder, increasing affine scale and increasing core capacity are exactly balanced by decreasing discriminant, so $N\to+\infty$ can mean both infinite semifinite capacity and collapse of positive sheet-distinction to $\mathbb C\mathbf1$. This is a precise algebraic relation, not yet an identification with proper time, FLRW expansion, entropy, area, or energy flux.
+The half-sided-modular affine parameter, the trace capacity of a Connes-core cut, and the discriminant depth of the symmetric real $A_2$ degeneration each admit an equivariant positive scale coordinate governed by the same character $\chi(s)=e^s$ of the additive scale group. The coordinates are not themselves characters of their displayed objects. Their equality is a clean fiber-product solder that can be adopted and then tested by a physical realization. On that solder, increasing affine scale and increasing core capacity are exactly balanced by decreasing discriminant. At an asymptotic boundary, $N\to+\infty$ can therefore mean both infinite semifinite capacity and collapse of positive sheet-distinction to $\mathbb C\mathbf1$. This is a precise algebraic relation, not yet an identification with proper time, FLRW expansion, entropy, area, or energy flux.
 
-## The three characters
+## One character and three equivariant coordinates
 
-The constructions begin independently.
+The common character is
+
+$$
+\chi:(\mathbb R,+)\longrightarrow(\mathbb R_{>0},\times),
+\qquad
+\chi(s):=e^s.
+$$
+
+The three pointed constructions begin independently and carry actions of this additive parameter.
 
 For the positive translation parameter $r$ of [[half-sided-modular-tunnel|a half-sided-modular tunnel]], choose $r_*>0$ and define
 
 $$
-\chi_{\mathrm{aff}}(r):=\frac r{r_*}.
+\xi_{\mathrm{aff}}(r):=\frac r{r_*}.
 $$
 
 The affine modular relation
@@ -18,17 +26,26 @@ $$
 \Delta^{-it}U(r)\Delta^{it}=U(e^{2\pi t}r)
 $$
 
-gives $\chi_{\mathrm{aff}}=e^N$ when $N=2\pi t=\log(r/r_*)$. This fixes a logarithmic coordinate inside the represented affine group; it does not make modular parameter $t$ into proper time.
+gives $\xi_{\mathrm{aff}}(e^s r)=\chi(s)\xi_{\mathrm{aff}}(r)$. Hence $\xi_{\mathrm{aff}}=e^N$ when $N=2\pi t=\log(r/r_*)$. The translation parameter itself obeys the additive law $U(r_1)U(r_2)=U(r_1+r_2)$, so $r/r_*$ is not being called a character of that translation group. The modular dilation action makes it an equivariant scale coordinate. This does not make modular parameter $t$ into proper time.
 
 For the spectral projections $e_N$ of [[core-spectral-wall|the core spectral wall]], choose $e_0$ with $\tau(e_0)=1$ and define
 
 $$
-\chi_{\mathrm{core}}(e_N)
+\xi_{\mathrm{core}}(e_N)
 :=
 \frac{\tau(e_N)}{\tau(e_0)}.
 $$
 
-Trace scaling gives $\chi_{\mathrm{core}}(e_N)=e^N$. Here $N$ is logarithmic semifinite trace-capacity.
+Trace scaling gives
+
+$$
+\xi_{\mathrm{core}}(e_{N+s})
+=\chi(s)\xi_{\mathrm{core}}(e_N),
+\qquad
+\xi_{\mathrm{core}}(e_N)=e^N.
+$$
+
+Here $N$ is logarithmic semifinite trace-capacity for the selected pointed filtration.
 
 For the symmetric real cubic
 
@@ -38,16 +55,22 @@ p_t(u)=u^3-t^2u,
 \Delta_{A_2}(t)=-4t^6,
 $$
 
-choose $t_*>0$ and define the inverse discriminant character
+choose $t_*>0$ and define the inverse-discriminant scale coordinate
 
 $$
-\chi_{A_2}(t)
+\xi_{A_2}(t)
 :=
 \left(\frac{|\Delta_{A_2}(t_*)|}{|\Delta_{A_2}(t)|}\right)^{1/6}
 =\frac{t_*}{t}.
 $$
 
-Along $t=t_*e^{-N}$, the cubic discriminant formula gives $\chi_{A_2}=e^N$. [[algebra/a2-positive-completion|The $A_2$ positive-completion theorem]] separately interprets the finite fibers and cusp endpoint. The exponent $1/6$ is fixed by the quasihomogeneous discriminant on this ray; it is not a fitted cosmological exponent.
+Under $t\mapsto e^{-s}t$,
+
+$$
+\xi_{A_2}(e^{-s}t)=\chi(s)\xi_{A_2}(t).
+$$
+
+Along $t=t_*e^{-N}$, the cubic discriminant formula therefore gives $\xi_{A_2}=e^N$. [[algebra/a2-positive-completion|The $A_2$ positive-completion theorem]] separately interprets the finite fibers and cusp endpoint. The exponent $1/6$ is fixed by the quasihomogeneous discriminant on this ray; it is not a fitted cosmological exponent.
 
 ## The fiber-product solder
 
@@ -97,11 +120,11 @@ $$
 \frac{|\Delta_N|}{|\Delta_*|}=1.}
 $$
 
-The last equation is a character balance, not a conservation law for energy, entropy, information, or causal charge. It compares three dimensionless multiplicative characters and nothing else.
+The last equation is a scale-ratio balance, not a conservation law for energy, entropy, information, or causal charge. It compares three dimensionless equivariant coordinates governed by one character and nothing else.
 
 ## What the solder constructs
 
-Once adopted, the solder removes relative reparameterization freedom among three already exact pointed one-parameter families. It gives:
+Once adopted, the solder removes relative reparameterization freedom among three already exact pointed equivariant families. It gives:
 
 - one compositional logarithmic coordinate;
 - a fixed relative orientation among affine dilation, core capacity, and $A_2$ degeneration;
@@ -114,7 +137,7 @@ The solder also does not select the logistic density or its width $\nu$ in the c
 
 ## Infinity and nothing in particular
 
-On $\mathscr S$,
+The finite matched locus $\mathscr S$ does not contain $r=+\infty$, $t=0$, or an object denoted $e_\infty$. In the asymptotic boundary of a chosen partial compactification $\overline{\mathscr S}$, the parameterized curve has
 
 $$
 N\to+\infty
@@ -132,7 +155,7 @@ The three limits say different things. The affine register has unbounded dilatio
 
 “Nothing” here is neither the zero algebra nor the absence of structure. It is **nothing in particular** under the chosen positive observable functor: only the unit survives, while the nonreduced $A_2$ source retains the algebraic reason that distinctions disappeared. Conversely, the infinity is infinity of semifinite tracial capacity, not automatically an infinity of particles, spatial volume, duration, or energy.
 
-This conjunction is stronger than a metaphor and weaker than a cosmology. It is an exact theorem on the declared fiber product $\mathscr S$ and an open claim that nature realizes that fiber product.
+This conjunction is stronger than a metaphor and weaker than a cosmology. The finite scale-ratio identities are exact on the declared fiber product $\mathscr S$; the endpoint statement is their asymptotic boundary correspondence in $\overline{\mathscr S}$. It remains an open claim that nature realizes either structure.
 
 ## The physical commutative square still owed
 
@@ -148,4 +171,4 @@ $$
 
 together with compatible maps to the HSMI and $A_2$ registers. The lower-left object must be a Lorentzian causal realization, not merely a relabelled spectral projection. The horizontal physical map must supply locality, source tangents, records, and independently normalized area if those are claimed.
 
-Failure of that square would leave the three characters mathematically exact but physically unrelated. Success would still leave the [[program-core/causal-capacity-equivalence|state--area--gravity weld]] and the [[program-core/record-scale-soldering|record--scale orientation]] as separate theorems.
+Failure of that square would leave the three equivariant coordinates mathematically exact but physically unrelated. Success would still leave the [[program-core/causal-capacity-equivalence|state--area--gravity weld]] and the [[program-core/record-scale-soldering|record--scale orientation]] as separate theorems.

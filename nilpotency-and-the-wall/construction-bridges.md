@@ -1,6 +1,6 @@
 # Construction Bridges After the Representation Audit
 
-Nilpotent degeneration, half-sided modular transport, Connes trace scaling, and positive observational loss can be composed only after their carriers are separated. The earlier proposal that one nilpotent operator should literally define unitary wall transport is false: in a positive-definite Hilbert representation one nonidentity operator cannot be both unitary and unipotent. This does not forbid a unipotent group element from having a unitary image in another representation. The corrected programme uses nilpotency to define an algebraic boundary, an enveloping $C^*$-quotient to forget its infinitesimal thickness, modular theory to transport fibers, and an explicit character solder to compare their logarithmic scales.
+Nilpotent degeneration, half-sided modular transport, Connes trace scaling, and positive observational loss can be composed only after their carriers are separated. The earlier proposal that one nilpotent operator should literally define unitary wall transport is false: in a positive-definite Hilbert representation one nonidentity operator cannot be both unitary and unipotent. This does not forbid a unipotent group element from having a unitary image in another representation. The corrected programme uses nilpotency to define an algebraic boundary, an enveloping $C^*$-quotient to forget its infinitesimal thickness, modular theory to transport fibers, and a common-character solder to compare their logarithmic scale coordinates.
 
 ## Bridge 1 — Degeneration precedes positive realization
 
@@ -54,11 +54,11 @@ and exact dual-flow transport. Separately, labelled copies of the whole core car
 
 This construction replaces an arbitrary per-$N$ state path by one global state plus moving spectral cuts. It does not select that global state uniquely. The width $\nu$ is a state modulus; the core normalizes $N$, not $\nu$.
 
-## Bridge 4 — A common exponential character is a solder
+## Bridge 4 — One exponential character solders three coordinates
 
 **Owned gap:** comparison of affine position, core trace capacity, and $A_2$ discriminant depth.
 
-The three registers carry multiplicative characters of one additive parameter:
+The additive scale group has the character $\chi(s)=e^s$. Each register has a pointed scale coordinate equivariant for that character:
 
 $$
 \frac{r(N)}{r_*}=e^N,
@@ -68,7 +68,7 @@ $$
 \left(\frac{|\Delta_*|}{|\Delta_N|}\right)^{1/6}=e^N.
 $$
 
-[[wall-construction-interface/scale-character-solder|The scale-character solder]] is their fiber-product matching. Once the matching is declared, composition and the sixth-power balance are exact. The equality is not forced by any one of the three source theorems. Its physical content depends on a realization showing that all three parameters label the same process.
+[[wall-construction-interface/scale-character-solder|The scale-coordinate solder]] is their fiber-product matching over $\mathbb R_{>0}$. The ratios are not themselves characters of the displayed objects; each transforms by the one common character under its declared scale action. Once the matching is declared, composition and the sixth-power balance are exact. The equality is not forced by any one of the three source theorems. Its physical content depends on a realization showing that all three parameters label the same process.
 
 This is the corrected scope of the earlier tangent-normalization claim. The affine $2\pi$ fixes modular time against log translation; core trace scaling fixes the unit of trace capacity; neither theorem forces the logistic width $\nu$ or identifies the result with measured cosmic scale.
 
@@ -94,7 +94,7 @@ $$
 \text{scale-indexed positive response},
 $$
 
-with an optional exact character solder between their logarithmic parameters. This closes the abstract algebra--state--transport--readout construction. It leaves the physical realization deliberately visible:
+with an optional exact common-character solder between their logarithmic coordinates. This closes the abstract algebra--state--transport--readout construction. It leaves the physical realization deliberately visible:
 
 - a real Lorentzian carrier and codimension-two causal cuts;
 - a local net and physical quotient;

@@ -24,7 +24,15 @@ $$
 X:=-\log h_\varphi.
 $$
 
-With the same orientation,
+The standard density covariance and its sign-oriented form are
+
+$$
+\theta_s(h_\varphi)=e^{-s}h_\varphi,
+\qquad
+\beta_s(h_\varphi)=e^s h_\varphi.
+$$
+
+Therefore
 
 $$
 \beta_s(X)=X-s.
@@ -116,7 +124,7 @@ $$
 
 The infinity is the semifinite trace-capacity of the whole core. The $N\to-\infty$ boundary is the zero projection; the $N\to+\infty$ boundary is the full identity, which has no normalized tracial state. Every finite corner admits its canonical normalized trace. Neither end is, merely from these equations, infinite spatial volume, energy, proper time, entropy, or cosmological expansion.
 
-The two ends must not be collapsed into one meaning of nothing. As $N\to-\infty$, the spectral cut tends to the zero projection. As $N\to+\infty$, the cuts exhaust an infinite-trace carrier that has no normalized tracial state. [[scale-character-solder|The scale-character solder]] pairs the latter limit, conditionally, with the $A_2$ cusp where positive sheet distinctions collapse to $\mathbb C\mathbf1$. The unbounded whole is not a larger normalized state; it is a weight-valued carrier exhausted by finite corners.
+The two ends must not be collapsed into one meaning of nothing. As $N\to-\infty$, the spectral cut tends to the zero projection. As $N\to+\infty$, the cuts exhaust an infinite-trace carrier that has no normalized tracial state. [[scale-character-solder|The scale-character solder]] pairs the latter asymptotic boundary, conditionally, with the $A_2$ cusp where positive sheet distinctions collapse to $\mathbb C\mathbf1$. The unbounded whole is not a larger normalized state; it is a weight-valued carrier exhausted by finite corners.
 
 ## Whole-core fibers and why a normal state must produce response
 
