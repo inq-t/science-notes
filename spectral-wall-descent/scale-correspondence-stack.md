@@ -194,21 +194,29 @@ together with area normalization, a solder form, real structure, causal signatur
 
 The observable spectral action is placed only after such a realization. Its Euler--Lagrange equations may select stable observable representatives, but least action does not create the correspondence tower assumed in writing the action.
 
-## Completion test
+## Provider completion
 
-A physical instance is complete only if it supplies:
+The correspondence provider is complete only if it supplies:
 
 1. the context site and its coverage notion;
-2. the algebras, faithful states, and spectral data on each context;
+2. the algebras, faithful states, and declared spectral data on each context;
 3. horizontal correspondences and their fusion coherence;
 4. effective gluing on overlaps;
-5. Q-system, inclusion, or standard-solution data deriving each wall expectation;
-6. a modularly admissible finite-index gravitational expectation or a controlled substitute;
-7. the algebraically selected central edge state and its composition law;
-8. spectral area and real-structure data independent of measured gravity;
-9. the later commutative readout, character, and persistent record maps; and
-10. a demonstration that the same construction returns the homogeneous and mean-zero blocks of [[program-core/common-response-form|the common response form]].
+5. Q-system, inclusion-plus-expectation, or declared channel data for every noninvertible wall map; and
+6. the compatible central edge state and composition law whenever an edge-entropy claim is made.
 
-At present this is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces of the proposed object; they do not yet supply a dynamical FLRW instance or effective descent on a physical context site.
+For the important special case in which each scale arrow is a tempered normal unital $*$-homomorphism, [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's theorem]] already makes the Falcone--Takesaki core functorial along chains. The open work is to prove that the physical arrows are tempered and to establish effective descent on genuine covers; core functoriality itself should not be advertised as the missing theorem. Arbitrary correspondences and center-valued flows require additional hypotheses.
+
+## Downstream continuation is not provider completion
+
+Even a completed correspondence provider does not by itself supply:
+
+1. observer-accessible regions, selected geometric cuts, and the source readiness required by W0a and W0e;
+2. [[program-core/physical-quotient|the physical quotient]];
+3. finite or renormalized homogeneous and mean-zero blocks of [[program-core/common-response-form|the common response form]];
+4. spectral area, a real structure, and any state--geometry weld; independence from measured gravity is additionally mandatory when the member claims to derive $G$; or
+5. the later commutative character, actual outcome, and persistent record maps.
+
+At present provider descent on a physical context site is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces; [[wall-construction-interface/finite-cellular-markov-wall|the finite cellular Markov wall]] adds an exact nonzero response benchmark. None supplies a dynamical FLRW instance or makes these downstream continuation gates consequences of correspondence coherence.
 
 Primary sources: [finite-index expectations as Q-systems](https://arxiv.org/abs/2111.04488), [minimal index and matrix dimension with finite centers](https://arxiv.org/abs/1805.09234), and [conditional expectations selecting holographic edge states](https://arxiv.org/abs/2008.04810).

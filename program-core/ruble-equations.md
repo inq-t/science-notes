@@ -55,31 +55,31 @@ The reusable conformal distinction and its invariance proof live in [[conformal-
 
 ## RE1 — Physical horizontal state deformation
 
-**[PRINCIPLE + OPEN CONSTRUCTION]**
+**[PRINCIPLE + EXACT BENCHMARKS + OPEN PHYSICAL WELD]**
 
 $$
 \boxed{
 N\longmapsto
-(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}),
+(\Sigma_N,\mathcal A_N,\omega_N,X_{N_2:N_1}),
 \qquad
 v_N=D^{\mathrm{hor}}\Phi(\partial_N).}
 $$
 
-The comparison maps \(\mathcal T\), physical quotient, and tangent normalization must be specified before \(v_N\) exists. The scale-to-state principle asserts that realized scale displacement has such an invariant horizontal image.
+The transport data \(X_{N_2:N_1}\), physical quotient, and tangent normalization must be specified before \(v_N\) exists. A representable transport is written \(\iota_{N_2:N_1}:\mathcal A_{N_1}\to\mathcal A_{N_2}\); general correspondences require their own state-comparison return. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided-modular tunnel]] constructs exact transport but its invariant reference-state family has a null tangent. [[wall-construction-interface/finite-cellular-markov-wall|The finite cellular Markov wall]] constructs an exact nonzero finite BKM state tangent without a physical causal carrier or quotient. The scale-to-state principle asserts that a completed realized scale displacement combines these load-bearing properties in one invariant horizontal image.
 
 ## RE2 — Distinguishability response and localization
 
 **[EXACT UNDER REGULARITY, THEN OPEN LOCALIZATION]**
 
-Let
+For representable forward transport, let
 
 $$
 \widetilde\omega_{N+\delta N}^{(N)}
-:=\mathcal T_{N\leftarrow N+\delta N}
-(\omega_{N+\delta N})
+:=\omega_{N+\delta N}
+\circ\iota_{N+\delta N:N}
 $$
 
-denote the neighboring state after transport to the carrier at \(N\). If \(\mathcal T\) is specified on observables, this notation means the induced dual transport on states. Under the regularity and comparability hypotheses,
+denote the neighboring state after pullback to the carrier at \(N\). A correspondence or channel member must explicitly define the analogous returned state rather than reuse this formula. Under the regularity and comparability hypotheses,
 
 $$
 \boxed{

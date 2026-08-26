@@ -22,6 +22,18 @@ $$
 
 The target observable is whichever quantity the calling programme means to derive — an expansion history, a fitted equation of state, a primordial power spectrum. Failing this test does not make a construction *wrong*; it makes it a change of variables. That is a real cost, because a change of variables cannot be confirmed by the agreement it was built to reproduce.
 
+### Independence has a claim-relative strength
+
+Every W0 member must be independent of the particular history, spectrum, or response curve it is invoked to explain. Independence from measured Newton coupling is a stronger requirement incurred only by a member that claims to derive $G$. Three scopes must not be conflated:
+
+| Scope | Permitted import | Forbidden evidential claim |
+|---|---|---|
+| kinematic or QFT wall benchmark | a fixed background and its established local QFT, provided the target response is not fitted | agreement on that same background does not derive its dynamics |
+| conservative GR-fiber wall | measured low-energy $G$ as part of the imported fiber theory | the wall has not thereby derived $G$ |
+| first-principles $G$ member | no measured $G$, Planck units, Bekenstein--Hawking coefficient, or Friedmann normalization containing $G$ in the derivation chain | none of those inputs may reappear under a renamed area or entropy coefficient |
+
+Thus “construct W0 without touching measured $G$” is mandatory for a claimed derivation of $G$, but too strong as a definition of every legitimate wall benchmark. The benchmark must publish which scope it occupies.
+
 ### The region trap
 
 There is a stronger requirement peculiar to cosmological applications: the region family $\{D_N,\Sigma_N\}$ may itself be defined by the solution. An apparent-horizon cut is located by the expansion history, so evaluating modular data only on an already-fitted background silently imports the answer into the domain of integration. Passing the test at the level of the *state* while failing it at the level of the *region* is a real and easy mistake.

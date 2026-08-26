@@ -22,16 +22,20 @@ $$
 
 Even if every fiber has its own modular automorphism group, the modular parameter \(s\) is not thereby the scale coordinate \(N\). If the algebras differ, the formal expression \(\partial_N\omega_N\) attempts to subtract states with different domains. Relative entropy and relative modular data likewise require one common carrier or a declared transport.
 
-The missing datum is supplied schematically by maps such as
+The missing datum is supplied schematically by transport data
 
 $$
-\mathcal T_{N_2N_1}:
-(\mathcal A_{N_1},\omega_{N_1})
-\longrightarrow
-(\mathcal A_{N_2},\omega_{N_2}),
+X_{N_2:N_1},
 $$
 
-with a composition law, covariance properties, and controlled holonomy. [[cross-fiber-transport|Cross-fiber transport and state selection]] owns the possible constructions and their failure modes.
+with a composition law, covariance properties, and controlled holonomy. In the representable case one writes
+
+$$
+\iota_{N_2:N_1}:
+\mathcal A_{N_1}\longrightarrow\mathcal A_{N_2}
+$$
+
+and pulls a later state back by precomposition; a general correspondence needs an explicit state-comparison rule. [[cross-fiber-transport|Cross-fiber transport and state selection]] owns the possible constructions and their failure modes.
 
 Only after transport can one define a physical horizontal tangent
 

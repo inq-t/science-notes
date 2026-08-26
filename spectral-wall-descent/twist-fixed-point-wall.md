@@ -258,6 +258,7 @@ A groupoid or ordinary stack retains automorphisms and uses invertible arrows. I
 - **Exact project derivation:** the trace-dependent fixed-point expectation, entropy Pythagoras identity, and BKM even/odd split in the finite invariant-state setting.
 - **Conditional bridge:** normalization of the represented Dirac fluctuation as a two-outcome density.
 - **Speculative extension:** the moduli stack, normal complex, and locally varying \(\mathbb Z_2\)-torsor.
+- The exact finite binary profile is not a scale-indexed state-selection law or cross-fiber transport. [[wall-construction-interface/finite-cellular-markov-wall|The cellular Markov benchmark]] shows explicitly that a homogeneous CP semigroup selects a different response curve; obtaining the hyperbolic family requires an additional rate law or instrument.
 - The 2012 Higgs-stabilizing singlet and the later twisted scalar are distinct source constructions until an explicit full-Dirac bridge relates them.
 - The scalar minimum alone does not complete the reduction to \(\mathcal A_{\mathrm{SM}}\).
 - The spectral-action minimum is an observable stability receipt; it is not used here as the pre-observable law of becoming.

@@ -33,8 +33,10 @@ For a scale-indexed family of cuts, algebras, and states, cross-fiber transport 
 
 $$
 N\longmapsto
-(\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}).
+(\Sigma_N,\mathcal A_N,\omega_N,X_{N_2:N_1}).
 $$
+
+Here \(X_{N_2:N_1}\) is the generic transport datum. In the representable case it is written \(\iota_{N_2:N_1}:\mathcal A_{N_1}\to\mathcal A_{N_2}\); a carrier-changing member may instead use a correspondence with coherent fusion. The notation \(\mathscr T\) is reserved by the wall package for physical source operators.
 
 Let \(v_N\) be the canonically normalized physical horizontal scale tangent. When the coincidence Hessian of relative entropy exists, it defines a positive quadratic response
 

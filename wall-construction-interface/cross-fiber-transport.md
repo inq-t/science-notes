@@ -1,6 +1,6 @@
 # Cross-Fiber Transport and State Selection
 
-Comparing states attached to different scales requires two things that are usually assumed: a transport placing them on a common algebra, and a rule selecting the state at each scale in the first place. Both are substantive. Without transport, the horizontal tangent is an undefined symbol rather than an uncomputed number; without a selection rule, a covariance argument shows no preferred family need exist at all.
+Comparing states attached to different scales requires two things that are usually assumed: a transport placing them on a common algebra, and a rule selecting the state at each scale in the first place. Both are substantive and neither implies the other. Exact half-sided-modular, tempered-core, and finite cellular constructions show that transport itself is attainable; they also show why a physical nonzero state path does not follow for free.
 
 ## The transport problem
 
@@ -12,6 +12,31 @@ Let $N\mapsto(\mathcal A_N,\omega_N)$ be the intended family. Relative entropy a
 - a **modular Berry connection** or parallel transport, with its gauge dependence and holonomy controlled.
 
 These are not equivalent. An inclusion of regions gives isotony for free but changes which observables exist; a common ambient algebra buys comparability at the cost of specifying that ambient object; a crossed product changes the algebra type and introduces its own dressed observables; a connection defines transport only up to holonomy, which must then be shown negligible or accounted for.
+
+## Two exact operator-algebraic transport constructors
+
+The first exact constructor is a reconstructed half-sided-modular tunnel. Given one half-sided modular inclusion, [[half-sided-modular-tunnel|the tunnel theorem]] defines
+
+$$
+\mathcal A_r=\operatorname{Ad}U(r)(\mathcal M),
+\qquad
+\iota_{r_2:r_1}
+=\operatorname{Ad}U(r_2-r_1)|_{\mathcal A_{r_1}},
+$$
+
+and proves that the maps are onto their stated fibers and compose exactly. This closes W0c for that reconstructed family. It does not prove that an independently proposed cosmological family is the same tunnel, and the invariant reference state supplied with the inclusion is horizontally constant after transport.
+
+The second constructor applies when the fibers are carried to their canonical cores. A normal unital $*$-homomorphism
+
+$$
+\nu:\mathcal N\longrightarrow\mathcal M
+$$
+
+is **tempered** when there exists a normal faithful semifinite operator-valued weight from \(\mathcal M\) onto \(\nu(\mathcal N)\). Such arrows compose. [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's functoriality theorem]] then gives a canonical compatible morphism of Falcone--Takesaki cores, and the core map for a composite equals the composite of the core maps. Conversely, a compatible extension of an inclusion to the noncommutative flows implies tempering under the theorem's hypotheses.
+
+Thus functorial core transport along a chain is **[STANDARD ON THE TEMPERED SUBCATEGORY]**. A wall candidate still has to construct its physical arrows and prove that they are tempered. The theorem does not choose states, establish a BKM tangent, prove effective descent over covers, or extend center-valued flow functoriality to arbitrary arrows; the center is functorial only on further proper subcategories. A bare phrase such as “pass to the core” therefore does not discharge W0c.
+
+[[finite-cellular-markov-wall|The finite cellular Markov wall]] gives a third exact benchmark using labelled carrier isomorphisms and a separate completely positive state-selection semigroup. Its point is typological: the reversible comparison arrow and the irreversible state-production arrow should not be denoted or interpreted as one map.
 
 Locally covariant relative Cauchy evolution is a plausible way to define metric response on controlled backgrounds; the standard functorial framework is [[causal-wall-spectral-theory/sources/papers/0112041-brunetti-fredenhagen-verch-generally-covariant-locality.pdf|Brunetti, Fredenhagen, and Verch]]. A renormalized stress response additionally inherits the locality, covariance, scaling, and metric-variation ambiguities treated by [[causal-wall-spectral-theory/sources/papers/9903028-brunetti-fredenhagen-microlocal-renormalization-physical-backgrounds.pdf|Brunetti and Fredenhagen]] and [[causal-wall-spectral-theory/sources/papers/0103074-hollands-wald-local-wick-polynomials-time-ordered-products.pdf|Hollands and Wald]]. None of these implements a global homogeneous Weyl change or identifies changing cosmological regions, so they are candidate components rather than a finished transport.
 
@@ -30,7 +55,7 @@ $$
 
 The vertical term is modular-frame gauge. The central term shifts a normalization or a scalar lift and has **zero** information length, since relative entropy and every monotone metric are insensitive to a common central offset. Only the middle term can carry the response.
 
-The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. **[OPEN CONSTRUCTION]** If the horizontal tangent turns out to be pure vertical gauge or pure central shift, the programme has no response at all — and this is a live possibility, not a formality, because the central direction is exactly where a vacuum-energy-like offset would sit. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
+The obligation is therefore not merely to exhibit this decomposition but to show that its middle term is nonzero, is independent of the chosen frame, and does not depend arbitrarily on which transport was selected. This remains an **[OPEN PHYSICAL CONSTRUCTION]**, not an absence of mathematical examples. The half-sided-modular invariant family realizes the zero case exactly; the cellular Markov family realizes a nonzero finite case exactly. The missing physical theorem must retain the latter feature on the former kind of causal carrier. If the resulting tangent is pure vertical gauge or pure central shift, the programme has no response at all — and this is a live possibility, because the central direction is exactly where a vacuum-energy-like offset would sit. [[vertical-and-horizontal-motion|Vertical and horizontal motion]] owns the type distinction.
 
 ## What a binary member additionally must show
 
@@ -87,6 +112,8 @@ The last row is worth separating from the others: abstract relative modular theo
 The family $\{\omega_N\}$ cannot be treated as functorially automatic. [[causal-wall-spectral-theory/sources/papers/1106.4785-fewster-verch-dynamical-locality-covariance.pdf|Fewster and Verch]] show that a covariantly preferred state is unavailable under broad dynamical-locality hypotheses. A candidate family must therefore state a physical selection rule and say which background structures or symmetries make it available — exact KMS behaviour, a horizon-equilibrium approximation, an adiabatic vacuum, or another declared condition.
 
 There is a controlled precedent for the shape such a rule can take rather than for the rule itself: [[causal-wall-spectral-theory/sources/papers/0712.1770-dappiaggi-moretti-pinamonti-cosmological-horizons-qft.pdf|Dappiaggi, Moretti, and Pinamonti]] map the algebra of a linear Klein–Gordon field into a cosmological-horizon algebra and induce a preferred bulk state on a selected class of expanding spacetimes. That is an existence result in a restricted class, with a linear field and a specific asymptotic structure; it is not the scale-indexed selection law required here.
+
+The exact benchmarks give opposite boundary conditions on this problem. The invariant reference state supplied as part of a half-sided modular inclusion is BKM-null after transport. The finite Markov semigroup independently selects a nonconstant faithful family and therefore has positive response, but its parameter is Markov depth and its carrier is not a causal spacetime wall. A proposed physical law has to explain why a cosmological construction lands on the nonzero side without selecting its path from the history it is meant to predict.
 
 **Success.** The family is defined without reference to the observable it is meant to explain, is regular enough for relative modular theory, and admits controlled renormalized stress responses.
 

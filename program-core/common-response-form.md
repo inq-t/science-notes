@@ -221,11 +221,11 @@ Factive selection and record extension occur later still. [[conservation-of-caus
 
 One possible provider is a single affine modular or Dirac-derived generator family \(K(N,\zeta,h)\) whose faithful Gibbs states are transported to the readout carrier. [[hessian-response-geometry/entry#When the Hessian is BKM|The Hessian-response module]] owns the exact BKM/log-partition formula, including the acceleration term for nonlinear generators. [[program-core/contextual-descent-from-homogeneity#What Connes supplies as precedent|Contextual descent]] owns the narrower lesson from inner fluctuations: rich represented differentiation can arise without extra ordinary spatial dimensions.
 
-This route remains an **[OPEN ANSATZ]** until a completely positive readout family, its transport, physical quotient, and continuum normalization are constructed. A spectral-action Hessian is not the positive BKM pullback merely because both depend on one Dirac family.
+The finite version of this route is now constructed in [[wall-construction-interface/finite-cellular-markov-wall|the cellular Markov wall]]: one log-partition potential gives the homogeneous and mean-zero blocks, exact transport, a completely positive state law, and a state-preserving readout. The **physical continuum route remains open** until a causal carrier, physical quotient, renormalized localization, and source family are constructed on one member. A spectral-action Hessian is not the positive BKM pullback merely because both depend on one Dirac family.
 
 ## Finite witness
 
-[[program-core/contextual-descent-from-homogeneity#A finite moving-context witness|The moving-projector witness]] calculates the classical Fisher pullback for one fixed matrix algebra and proves that it vanishes for a maximally mixed state along symmetry-equivalent contexts. It tests the no-response lemma that this note consumes; it is owned by contextual descent rather than duplicated here.
+[[program-core/contextual-descent-from-homogeneity#A finite moving-context witness|The moving-projector witness]] calculates the classical Fisher pullback for one fixed matrix algebra and proves that it vanishes for a maximally mixed state along symmetry-equivalent contexts. It tests the no-response lemma that this note consumes. [[wall-construction-interface/finite-cellular-markov-wall|The cellular Markov wall]] supplies the complementary positive witness and owns its calculation; neither derivation is duplicated here.
 
 ## Construction gates
 

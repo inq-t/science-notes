@@ -11,7 +11,7 @@ In [[algebra/theorem-programme|the algebra-to-cosmos gate order]], RE0 is presen
 | Core node | Reusable owner | CST realization | Standing |
 |---|---|---|---|
 | [[program-core/ruble-equations#RE0 — Causal scale|RE0]] | [[conformal-scale-geometry/scale-coordinate-reference|scale-coordinate reference]] | On flat FLRW, \(N=\ln(a/a_*)\), \(N_c=\ln(a_c/a_*)\), and \(x=N-N_c=\ln(a/a_c)\). | standard specialization on an imported Lorentzian \(3+1\) GR--FLRW carrier; not algebra-derived |
-| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[program-core/physical-quotient|physical quotient]] | A scale-indexed wall family must return a nonzero physical horizontal tangent. | principle plus open construction |
+| [[program-core/ruble-equations#RE1 — Physical horizontal state deformation|RE1]] | [[wall-construction-interface/entry|wall construction]] then [[program-core/physical-quotient|physical quotient]] | A scale-indexed wall family must return a nonzero physical horizontal tangent. Exact transport/null and finite/nonzero benchmarks now delimit the missing causal state--geometry weld. | principle; exact benchmarks, open physical construction |
 | [[program-core/ruble-equations#RE2 — Distinguishability response and localization|RE2]] | [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|relative-entropy Hessian]] and [[program-core/center-valued-response|central evaluation]] | The interface retains \((Z,\mathbf G^Z,\omega^Z)\); CST uses the normal unconditioned full-cut norm \(G^\perp_{NN}=\omega^Z(\mathbf G^{Z,\perp}_{NN})\). Its local measure-valued construction remains open. | exact finite-center evaluation law; open localization and wall return |
 | [[program-core/ruble-equations#RE3 — State–geometry equivalence|RE3]] | [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] | The strong local weld would explain gravity; the present background calculation needs only a weaker integrated reference-matching input. | conjecture, not yet a premise proved by the background |
 | [[program-core/ruble-equations#RE4 — Balanced binary specialization|RE4]] | [[binary-information-geometry/balanced-exponential-family|balanced binary family]] | [[wall-construction-interface/binary-channel|A specified binary channel]] must construct an exhaustive image or explicitly dispose of the neutral sector, then justify the generator and balanced reference before the exact CST-B2 profile can be used physically. | conditional member selection followed by exact algebra |
@@ -54,7 +54,7 @@ select [[unit-branch|the unit branch]] only after CST-B2 has been constructed. T
 
 ## What failure would mean
 
-- If the wall family or transport fails, the response survives only as a phenomenological ansatz.
+- If the physical wall weld fails, the CST response survives only as a phenomenological ansatz even though the exact transport and finite-response benchmarks remain valid.
 - If binary dominance fails, CST-B2 is not selected; another response member or a higher-rank interface is required.
 - If affine rank-one transport or constant extensivity fails, the physical profile changes even when some binary sector remains exact.
 - If the source functional or horizontal temperature changes, the conversion from state response to energy density changes without refuting the Hessian theorem.

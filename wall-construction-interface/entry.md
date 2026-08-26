@@ -1,6 +1,6 @@
 # The Wall-Construction Interface
 
-Every programme that treats physical scale as displacement through quantum state space presupposes the same unconstructed object: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. This module states that object once, enumerates what must be supplied before relative entropy, a Connes cocycle, or a BKM norm may be written at all, and fixes the tests a candidate construction must pass. It derives no cosmology and predicts no spectrum. Its purpose is to be the shared dependency of the homogeneous response programme and the primordial spectral programme rather than a third private copy of their common preamble.
+Every programme that treats physical scale as displacement through quantum state space presupposes the same construction obligation: a family of causal-region algebras and states indexed by scale, carrying enough transport structure to make cross-scale comparison well typed. Exact half-sided-modular and finite cellular benchmarks now instantiate different portions of that obligation, but no physical cosmological wall yet combines their load-bearing features. This module states the object once, enumerates what must be supplied before relative entropy, a Connes cocycle, or a BKM norm may be written, and fixes the tests a candidate construction must pass.
 
 Claim labels follow [[program-core/axioms-and-principles#Status vocabulary|the programme-wide claim-status vocabulary]].
 
@@ -46,7 +46,7 @@ whose slots carry separate obligations:
 |---|---|---|
 | $D_N,\mathcal H_N,\Sigma_N$ | observer-accessible causal region, its horizon or boundary, and a selected codimension-two cut | construct the family; state what selects the cut; declare whether the region depends on a solved background |
 | $\mathcal A_N(O)$ | local von Neumann algebra of a subregion | isotony, locality, covariance, an appropriate time-slice property |
-| $\omega_N$ | faithful normal state | microlocal or Hadamard regularity sufficient for modular theory; a physical selection rule |
+| $\omega_N$ | faithful normal state | faithfulness, normality, and the declared standard form needed for modular theory; Hadamard or microlocal admissibility where renormalized local sources are used; a physical selection rule |
 | $(\mathcal B_{N,x},E_{N,x})$ | observable context and conditional expectation, or a declared substitute instrument | construct the context family and prove state preservation and modular admissibility; do not infer an expectation from commutativity alone |
 | $J^{\rm TT}_N,\Delta_N$ | Tomita conjugation and modular operator in a specified standard form | fix the standard form; do not conflate $J^{\rm TT}_N$ with a geometric reflection |
 | $\iota_{N_2:N_1}$ | identification, embedding, or transport of observables between fibers | a composition law, and control of gauge and holonomy |
@@ -54,7 +54,19 @@ whose slots carry separate obligations:
 | $u_{N_2:N_1}(s)$ | relative modular data on a common algebra | defined only after transport; ratio dependence and regularity proved, not assumed |
 | $\mathscr T=\{T_\alpha\}$ | renormalized source family, including the local Weyl-source direction and any TT source claimed by a tensor member | locality, covariance, scaling, source domains, and metric-variation ambiguities declared; a scalar-only realization need not supply a TT member |
 
-**[OPEN CONSTRUCTION — WALL STRUCTURE]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. This single gap is the common ancestor of the open problems recorded downstream in both programmes; it is not two independent gaps that happen to resemble each other.
+The symbol W0 names one shared package, not one atomic theorem. Its slots fall into independently testable gates:
+
+| Gate | Owned construction |
+|---|---|
+| W0a — carrier | regions, boundaries and cuts, local net, standard form, and modular data |
+| W0b — state law | faithful regular states and a scale-to-state law selected independently of the target observable |
+| W0c — transport | embeddings or correspondences, composition, and controlled holonomy |
+| W0d — readout | contexts plus state-compatible expectations or declared instruments |
+| W0e — source readiness | localized renormalized scalar sources and any independently claimed TT source, with domains and ambiguities |
+
+The physical quotient is downstream programme-core data, not a hidden sixth W0 slot. A full response member must use it, but the wall package does not get to define physical nullity by itself.
+
+**[OPEN CONSTRUCTION — PHYSICAL W0 WELD]** No dynamical FLRW instance of $\mathfrak W$ has been constructed. The mathematical problem is nevertheless no longer wholly uninstantiated. [[half-sided-modular-tunnel|The half-sided modular tunnel]] constructs exact W0c transport and positive orientation, but the invariant HSMI reference state supplied as input has zero horizontal BKM response. [[finite-cellular-markov-wall|The finite cellular Markov wall]] constructs a non-circular faithful state semigroup, exact transport, readout, and nonzero finite response blocks, but has no Lorentzian region, geometric cut, type-III continuum cocycle, or cosmic-scale solder. The keystone remainder is the weld between causal geometry and a nonzero independently selected state response, followed by W0e renormalized source readiness. Calling this one “gap” is acceptable architectural shorthand only if these independent failure gates remain visible.
 
 The new expectation slot is restrictive. A faithful state-preserving normal expectation onto a von Neumann subalgebra requires invariance under the state's modular automorphism group. A generic commutative context therefore need not admit the exact wall map. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] gives the finite theorem, its BKM split, and the alternatives when this modular gate fails.
 
