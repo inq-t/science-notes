@@ -1,0 +1,1335 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{89}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Haag}{1996}]{Haag:book}
+\begin{bbook}
+\bauthor{\bsnm{Haag}, \binits{R.}}:
+\bbtitle{Local Quantum Physics},
+\bedition{2}nd edn.
+\bsertitle{Texts and Monographs in Physics},
+p. \bfpage{390}.
+\bpublisher{Springer},
+\blocation{Berlin}
+(\byear{1996}).
+\doiurl{10.1007/978-3-642-61458-3}
+\end{bbook}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Haag and Kastler}{1964}]{HK}
+\begin{barticle}
+\bauthor{\bsnm{Haag}, \binits{R.}},
+\bauthor{\bsnm{Kastler}, \binits{D.}}:
+\batitle{An algebraic approach to quantum field theory}.
+\bjtitle{Journal of Mathematical Physics}
+\bvolume{5}(\bissue{7}),
+\bfpage{848}--\blpage{861}
+(\byear{1964})
+\doiurl{10.1063/1.1704187}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Araki}{1981}]{Araki81}
+\begin{barticle}
+\bauthor{\bsnm{Araki}, \binits{H.}}:
+\batitle{C*-algebra approach in quantum field theory}.
+\bjtitle{Physica Scripta}
+\bvolume{24},
+\bfpage{881}
+(\byear{1981})
+\doiurl{10.1088/0031-8949/24/5/013}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Fredenhagen}{1985}]{fredenhagen1985modular}
+\begin{barticle}
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}}:
+\batitle{On the modular structure of local algebras of observables}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{97},
+\bfpage{79}--\blpage{89}
+(\byear{1985})
+\doiurl{10.1007/BF01206179}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Haagerup}{1987}]{Haa87}
+\begin{barticle}
+\bauthor{\bsnm{Haagerup}, \binits{U.}}:
+\batitle{Connes' bicentralizer problem and uniqueness of the injective factor
+  of type {{III}}{$_{1}$}}.
+\bjtitle{Acta Math}
+\bvolume{157},
+\bfpage{95}--\blpage{148}
+(\byear{1987})
+\doiurl{10.1007/BF02392257}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Chandrasekaran
+  et~al.}{2023}]{chandrasekaran2023algebra}
+\begin{barticle}
+\bauthor{\bsnm{Chandrasekaran}, \binits{V.}},
+\bauthor{\bsnm{Longo}, \binits{R.}},
+\bauthor{\bsnm{Penington}, \binits{G.}},
+\bauthor{\bsnm{Witten}, \binits{E.}}:
+\batitle{An algebra of observables for de {{Sitter}} space}.
+\bjtitle{Journal of High Energy Physics}
+\bvolume{2023}(\bissue{2}),
+\bfpage{1}--\blpage{56}
+(\byear{2023})
+{\href{https://arxiv.org/abs/2206.10780}{{arXiv:2206.10780}}}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Fewster and Verch}{2020}]{FewVer_QFLM:2018}
+\begin{barticle}
+\bauthor{\bsnm{Fewster}, \binits{C.J.}},
+\bauthor{\bsnm{Verch}, \binits{R.}}:
+\batitle{Quantum fields and local measurements}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{378}(\bissue{2}),
+\bfpage{851}--\blpage{889}
+(\byear{2020})
+{\href{https://arxiv.org/abs/1810.06512}{{arXiv:1810.06512}}}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Bostelmann
+  et~al.}{2021}]{BostelmannFewsterRuep:2020}
+\begin{barticle}
+\bauthor{\bsnm{Bostelmann}, \binits{H.}},
+\bauthor{\bsnm{Fewster}, \binits{C.J.}},
+\bauthor{\bsnm{Ruep}, \binits{M.H.}}:
+\batitle{Impossible measurements require impossible apparatus}.
+\bjtitle{Physical Review D: Particles and Fields}
+\bvolume{103}(\bissue{2}),
+\bfpage{025017}--\blpage{14}
+(\byear{2021})
+{\href{https://arxiv.org/abs/2003.04660}{{arXiv:2003.04660}}}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Fewster et~al.}{2023}]{FewsterJubbRuep:2022}
+\begin{barticle}
+\bauthor{\bsnm{Fewster}, \binits{C.J.}},
+\bauthor{\bsnm{Jubb}, \binits{I.}},
+\bauthor{\bsnm{Ruep}, \binits{M.H.}}:
+\batitle{Asymptotic measurement schemes for every observable of a quantum field
+  theory}.
+\bjtitle{Ann. Henri Poincar{\'e}}
+\bvolume{24}(\bissue{4}),
+\bfpage{1137}--\blpage{1184}
+(\byear{2023})
+{\href{https://arxiv.org/abs/2203.09529}{{arXiv:2203.09529}}}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Fewster and
+  Verch}{2023}]{FewsterVerch_encyc:2023}
+\begin{botherref}
+\oauthor{\bsnm{Fewster}, \binits{C.J.}},
+\oauthor{\bsnm{Verch}, \binits{R.}}:
+Measurement in quantum field theory
+(2023)
+{\href{https://arxiv.org/abs/2304.13356}{{arXiv:2304.13356}}}
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Aharonov and
+  Susskind}{1967}]{Aharonov:1967zza}
+\begin{barticle}
+\bauthor{\bsnm{Aharonov}, \binits{Y.}},
+\bauthor{\bsnm{Susskind}, \binits{L.}}:
+\batitle{Charge superselection rule}.
+\bjtitle{Physical Review}
+\bvolume{155},
+\bfpage{1428}--\blpage{1431}
+(\byear{1967})
+\doiurl{10.1103/PhysRev.155.1428}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Aharonov and Kaufherr}{1984}]{Aharonov:1984zz}
+\begin{barticle}
+\bauthor{\bsnm{Aharonov}, \binits{Y.}},
+\bauthor{\bsnm{Kaufherr}, \binits{T.}}:
+\batitle{Quantum frames of reference}.
+\bjtitle{Physical Review D: Particles and Fields}
+\bvolume{30},
+\bfpage{368}--\blpage{385}
+(\byear{1984})
+\doiurl{10.1103/PhysRevD.30.368}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Bartlett et~al.}{2007}]{Bartlett2007}
+\begin{barticle}
+\bauthor{\bsnm{Bartlett}, \binits{S.}},
+\bauthor{\bsnm{Rudolph}, \binits{T.}},
+\bauthor{\bsnm{Spekkens}, \binits{R.}}:
+\batitle{Reference frames, superselection rules, and quantum information}.
+\bjtitle{Reviews of Modern Physics}
+\bvolume{79}(\bissue{2}),
+\bfpage{555}--\blpage{609}
+(\byear{2007})
+\doiurl{10.1103/RevModPhys.79.555}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Vanrietvelde
+  et~al.}{2020}]{Vanrietvelde:2018pgb}
+\begin{barticle}
+\bauthor{\bsnm{Vanrietvelde}, \binits{A.}},
+\bauthor{\bsnm{H{\"o}hn}, \binits{P.A.}},
+\bauthor{\bsnm{Giacomini}, \binits{F.}},
+\bauthor{\bsnm{{Castro-Ruiz}}, \binits{E.}}:
+\batitle{A change of perspective: Switching quantum reference frames via a
+  perspective-neutral framework}.
+\bjtitle{Quantum}
+\bvolume{4},
+\bfpage{225}
+(\byear{2020})
+\doiurl{10.22331/q-2020-01-27-225}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Giacomini et~al.}{2019}]{giacomini2019quantum}
+\begin{barticle}
+\bauthor{\bsnm{Giacomini}, \binits{F.}},
+\bauthor{\bsnm{{Castro-Ruiz}}, \binits{E.}},
+\bauthor{\bsnm{Brukner}, \binits{{\v C}.}}:
+\batitle{Quantum mechanics and the covariance of physical laws in quantum
+  reference frames}.
+\bjtitle{Nature communications}
+\bvolume{10}(\bissue{1}),
+\bfpage{1}--\blpage{13}
+(\byear{2019})
+{\href{https://arxiv.org/abs/1712.07207}{{arXiv:1712.07207}}}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{{de la Hamette} and
+  Galley}{2020}]{de2020quantum}
+\begin{barticle}
+\bauthor{\bsnm{{de la Hamette}}, \binits{A.-C.}},
+\bauthor{\bsnm{Galley}, \binits{T.D.}}:
+\batitle{Quantum reference frames for general symmetry groups}.
+\bjtitle{Quantum}
+\bvolume{4},
+\bfpage{367}
+(\byear{2020})
+\doiurl{10.22331/q-2020-11-30-367}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Loveridge et~al.}{2018}]{Loveridge2017a}
+\begin{barticle}
+\bauthor{\bsnm{Loveridge}, \binits{L.}},
+\bauthor{\bsnm{Miyadera}, \binits{T.}},
+\bauthor{\bsnm{Busch}, \binits{P.}}:
+\batitle{Symmetry, reference frames, and relational quantities in quantum
+  mechanics}.
+\bjtitle{Foundations of Physics}
+\bvolume{48}(\bissue{2}),
+\bfpage{135}--\blpage{198}
+(\byear{2018})
+\doiurl{10.1007/s10701-018-0138-3}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Carette et~al.}{2023}]{carette2023operational}
+\begin{botherref}
+\oauthor{\bsnm{Carette}, \binits{T.}},
+\oauthor{\bsnm{G{\l}owacki}, \binits{J.}},
+\oauthor{\bsnm{Loveridge}, \binits{L.}}:
+Operational quantum reference frame transformations
+(2023)
+{\href{https://arxiv.org/abs/2303.14002}{{arXiv:2303.14002}}}
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Lake and Miller}{2023}]{lake2023quantum}
+\begin{botherref}
+\oauthor{\bsnm{Lake}, \binits{M.J.}},
+\oauthor{\bsnm{Miller}, \binits{M.}}:
+Quantum reference frames, revisited
+(2023)
+{\href{https://arxiv.org/abs/2312.03811}{{arXiv:2312.03811}}}
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Van~Daele}{1978}]{vanDaele:1978}
+\begin{bbook}
+\bauthor{\bsnm{Van~Daele}, \binits{A.}}:
+\bbtitle{Continuous Crossed Products and Type {{III}} Von {{Neumann}}
+  Algebras}.
+\bsertitle{London Mathematical Society Lecture Note Series},
+vol. \bseriesno{31},
+p. \bfpage{68}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge-New York}
+(\byear{1978}).
+\doiurl{10.1017/CBO9780511662393}
+\end{bbook}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Takesaki}{1973}]{Takesaki1973duality}
+\begin{barticle}
+\bauthor{\bsnm{Takesaki}, \binits{M.}}:
+\batitle{Duality for crossed products and the structure of von {{Neumann}}
+  algebras of type {{III}}}.
+\bjtitle{Acta Mathematica}
+\bvolume{131}(\bissue{none}),
+\bfpage{249}--\blpage{310}
+(\byear{1973})
+\doiurl{10.1007/BF02392041}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Takesaki}{1970}]{takesaki1970tomita}
+\begin{bbook}
+\bauthor{\bsnm{Takesaki}, \binits{M.}}:
+\bbtitle{Tomita's Theory of Modular Hilbert Algebras and Its Applications}.
+\bsertitle{Lecture Notes in Mathematics}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{1970}).
+\doiurl{10.1007/BFb0065832}
+\end{bbook}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Brunetti et~al.}{2009}]{BFH09}
+\begin{barticle}
+\bauthor{\bsnm{Brunetti}, \binits{R.}},
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}},
+\bauthor{\bsnm{Hoge}, \binits{M.}}:
+\batitle{Time in quantum physics: {{From}} an external parameter to an
+  intrinsic observable}.
+\bjtitle{Foundations of Physics}
+\bvolume{40}(\bissue{9-10}),
+\bfpage{1368}--\blpage{1378}
+(\byear{2009})
+\doiurl{10.1007/s10701-009-9400-z}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Miyadera
+  et~al.}{2016}]{miyadera2016approximating}
+\begin{barticle}
+\bauthor{\bsnm{Miyadera}, \binits{T.}},
+\bauthor{\bsnm{Loveridge}, \binits{L.}},
+\bauthor{\bsnm{Busch}, \binits{P.}}:
+\batitle{Approximating relational observables by absolute quantities: A quantum
+  accuracy-size trade-off}.
+\bjtitle{Journal of Physics A: Mathematical and Theoretical}
+\bvolume{49}(\bissue{18}),
+\bfpage{185301}
+(\byear{2016})
+\doiurl{10.1088/1751-8113/49/18/185301}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{G{\l}owacki
+  et~al.}{2024}]{glowacki2023quantum}
+\begin{barticle}
+\bauthor{\bsnm{G{\l}owacki}, \binits{J.}},
+\bauthor{\bsnm{Loveridge}, \binits{L.}},
+\bauthor{\bsnm{Waldron}, \binits{J.}}:
+\batitle{Quantum reference frames on finite homogeneous spaces}.
+\bjtitle{International Journal of Theoretical Physics}
+\bvolume{63}(\bissue{5}),
+\bfpage{137}
+(\byear{2024})
+\doiurl{10.1007/s10773-024-05650-7}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Cattaneo}{1979}]{Cattaneo:1979}
+\begin{barticle}
+\bauthor{\bsnm{Cattaneo}, \binits{U.}}:
+\batitle{On {{Mackey}}'s imprimitivity theorem}.
+\bjtitle{Commentarii Mathematici Helvetici}
+\bvolume{54}(\bissue{4}),
+\bfpage{629}--\blpage{641}
+(\byear{1979})
+\doiurl{10.1007/BF02566297}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Mackey}{1949}]{mackey1949imprimitivity}
+\begin{barticle}
+\bauthor{\bsnm{Mackey}, \binits{G.W.}}:
+\batitle{Imprimitivity for representations of locally compact groups {{I}}}.
+\bjtitle{Proceedings of the National Academy of Sciences of the United States
+  of America}
+\bvolume{35}(\bissue{9}),
+\bfpage{537}--\blpage{545}
+(\byear{1949})
+\doiurl{10.1073/pnas.35.9.537}
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Mackey}{1952}]{mackey1952induced}
+\begin{barticle}
+\bauthor{\bsnm{Mackey}, \binits{G.W.}}:
+\batitle{Induced representations of locally compact groups {{I}}}.
+\bjtitle{Annals of Mathematics}
+\bvolume{55}(\bissue{1}),
+\bfpage{101}--\blpage{139}
+(\byear{1952})
+\doiurl{10.2307/1969423}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Buchholz and Junglas}{1989}]{Buchholz:1988fk}
+\begin{barticle}
+\bauthor{\bsnm{Buchholz}, \binits{D.}},
+\bauthor{\bsnm{Junglas}, \binits{P.}}:
+\batitle{On the existence of equilibrium states in local quantum field theory}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{121}(\bissue{DESY-88-071}),
+\bfpage{255}--\blpage{270}
+(\byear{1989})
+\doiurl{10.1007/BF01217805}
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Loveridge}{2020}]{Loveridge2020a}
+\begin{barticle}
+\bauthor{\bsnm{Loveridge}, \binits{L.}}:
+\batitle{A relational perspective on the {{Wigner-Araki-Yanase}} theorem}.
+\bjtitle{Journal of physics. Conference series}
+\bvolume{1638}(\bissue{1}),
+\bfpage{012009}
+(\byear{2020})
+\doiurl{10.1088/1742-6596/1638/1/012009}
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Wigner}{1952}]{E.Wigner1952}
+\begin{barticle}
+\bauthor{\bsnm{Wigner}, \binits{E.P.}}:
+\batitle{Die messung quantenmechanischer operatoren}.
+\bjtitle{Zeitschrift f{\"u}r Phys. A Hadron. Nucl.}
+\bvolume{133}(\bissue{1-2}),
+\bfpage{101}--\blpage{108}
+(\byear{1952})
+\doiurl{10.1007/BF01948686}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Busch}{2010}]{Busch2010}
+\begin{botherref}
+\oauthor{\bsnm{Busch}, \binits{P.}}:
+Translation of ``{{die Messung quantenmechanischer Operatoren}}" by
+  {{E}}.{{P}}. wigner
+(2010)
+{\href{https://arxiv.org/abs/1012.4372}{{arXiv:1012.4372}}}
+\end{botherref}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Araki and Yanase}{1960}]{Araki1960}
+\begin{barticle}
+\bauthor{\bsnm{Araki}, \binits{H.}},
+\bauthor{\bsnm{Yanase}, \binits{M.M.}}:
+\batitle{Measurement of quantum mechanical operators}.
+\bjtitle{Physical Review}
+\bvolume{120}(\bissue{2}),
+\bfpage{622}--\blpage{626}
+(\byear{1960})
+\doiurl{10.1103/PhysRev.120.622}
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Loveridge and Busch}{2011}]{Loveridge2011}
+\begin{barticle}
+\bauthor{\bsnm{Loveridge}, \binits{L.}},
+\bauthor{\bsnm{Busch}, \binits{P.}}:
+\batitle{`{{Measurement}} of quantum mechanical operators' revisited}.
+\bjtitle{The European Physical Journal D: Atomic, Molecular, Optical and Plasma
+  Physics}
+\bvolume{62}(\bissue{2}),
+\bfpage{297}--\blpage{307}
+(\byear{2011})
+\doiurl{10.1140/epjd/e2011-10714-3}
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Sorkin}{1993}]{sorkin1993impossible}
+\begin{bchapter}
+\bauthor{\bsnm{Sorkin}, \binits{R.D.}}:
+\bctitle{Impossible measurements on quantum fields}.
+In: \beditor{\bsnm{Hu}, \binits{B.L.}},
+\beditor{\bsnm{Jacobson}, \binits{T.A.}} (eds.)
+\bbtitle{Directions in General Relativity: {{Proceedings}} of the 1993
+  International Symposium, Maryland},
+vol. \bseriesno{2},
+pp. \bfpage{293}--\blpage{305}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge}
+(\byear{1993})
+\end{bchapter}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Brunetti et~al.}{2015}]{AdvAQFT}
+\begin{bbook}
+\beditor{\bsnm{Brunetti}, \binits{R.}},
+\beditor{\bsnm{Dappiaggi}, \binits{C.}},
+\beditor{\bsnm{Fredenhagen}, \binits{K.}},
+\beditor{\bsnm{Yngvason}, \binits{J.}} (eds.):
+\bbtitle{Advances in Algebraic Quantum Field Theory}.
+\bsertitle{Mathematical Physics Studies}.
+\bpublisher{Springer},
+\blocation{Cham}
+(\byear{2015}).
+\doiurl{10.1007/978-3-319-21353-8}
+\end{bbook}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Buchholz and
+  Fredenhagen}{2020}]{Buchholz_2020}
+\begin{barticle}
+\bauthor{\bsnm{Buchholz}, \binits{D.}},
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}}:
+\batitle{A {{C}}*-algebraic approach to interacting quantum field theories}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{377}(\bissue{2}),
+\bfpage{947}--\blpage{969}
+(\byear{2020})
+\doiurl{10.1007/s00220-020-03700-9}
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Buchholz et~al.}{1987}]{Buchholz1987Universal}
+\begin{barticle}
+\bauthor{\bsnm{Buchholz}, \binits{D.}},
+\bauthor{\bsnm{D'Antoni}, \binits{C.}},
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}}:
+\batitle{The universal structure of local algebras}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{111}(\bissue{1}),
+\bfpage{123}--\blpage{135}
+(\byear{1987})
+\end{barticle}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Verch}{1997}]{Verch:1996wv}
+\begin{barticle}
+\bauthor{\bsnm{Verch}, \binits{R.}}:
+\batitle{Continuity of symplectically adjoint maps and the algebraic structure
+  of {{Hadamard}} vacuum representations for quantum fields on curved
+  space-time}.
+\bjtitle{Reviews in Mathematical Physics}
+\bvolume{9},
+\bfpage{635}--\blpage{674}
+(\byear{1997})
+\doiurl{10.1142/S0129055X97000233}
+{\href{https://arxiv.org/abs/funct-an/9609004}{{arXiv:funct-an/9609004}}}
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{Yngvason}{2005}]{YNGVASON2005135}
+\begin{barticle}
+\bauthor{\bsnm{Yngvason}, \binits{J.}}:
+\batitle{The role of type {{III}} factors in quantum field theory}.
+\bjtitle{Reports on Mathematical Physics}
+\bvolume{55}(\bissue{1}),
+\bfpage{135}--\blpage{147}
+(\byear{2005})
+\doiurl{10.1016/S0034-4877(05)80009-6}
+\end{barticle}
+\endbibitem
+
+%%% 41
+\bibitem[\protect\citeauthoryear{Brunetti et~al.}{2003}]{BrFrVe03}
+\begin{barticle}
+\bauthor{\bsnm{Brunetti}, \binits{R.}},
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}},
+\bauthor{\bsnm{Verch}, \binits{R.}}:
+\batitle{The generally covariant locality principle: {{A}} new paradigm for
+  local quantum physics}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{237},
+\bfpage{31}--\blpage{68}
+(\byear{2003})
+{\href{https://arxiv.org/abs/math-ph/0112041}{{arXiv:math-ph/0112041}}}
+\end{barticle}
+\endbibitem
+
+%%% 42
+\bibitem[\protect\citeauthoryear{Coleman and Mandula}{1967}]{ColeMand:1967}
+\begin{barticle}
+\bauthor{\bsnm{Coleman}, \binits{S.}},
+\bauthor{\bsnm{Mandula}, \binits{J.}}:
+\batitle{All possible symmetries of the {{S}} matrix}.
+\bjtitle{Physical Review}
+\bvolume{159},
+\bfpage{1251}--\blpage{1256}
+(\byear{1967})
+\doiurl{10.1103/PhysRev.159.1251}
+\end{barticle}
+\endbibitem
+
+%%% 43
+\bibitem[\protect\citeauthoryear{Fewster}{2018}]{Fewster:2018}
+\begin{barticle}
+\bauthor{\bsnm{Fewster}, \binits{C.J.}}:
+\batitle{An analogue of the {{Coleman-Mandula}} theorem for quantum field
+  theory in curved spacetimes}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{357}(\bissue{1}),
+\bfpage{353}--\blpage{378}
+(\byear{2018})
+\doiurl{10.1007/s00220-017-2951-5}
+\end{barticle}
+\endbibitem
+
+%%% 44
+\bibitem[\protect\citeauthoryear{Fewster et~al.}{}]{type_reductionII}
+\begin{botherref}
+\oauthor{\bsnm{Fewster}, \binits{C.J.}},
+\oauthor{\bsnm{Janssen}, \binits{D.W.}},
+\oauthor{\bsnm{Loveridge}, \binits{L.D.}},
+\oauthor{\bsnm{Rejzner}, \binits{K.}},
+\oauthor{\bsnm{Waldron}, \binits{J.}}:
+Type reduction for quantum fields measured relative to a quantum reference
+  frame.
+in preparation
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem[\protect\citeauthoryear{Goeller
+  et~al.}{2022}]{goeller2022diffeomorphism}
+\begin{botherref}
+\oauthor{\bsnm{Goeller}, \binits{C.}},
+\oauthor{\bsnm{Hoehn}, \binits{P.A.}},
+\oauthor{\bsnm{Kirklin}, \binits{J.}}:
+Diffeomorphism-invariant observables and dynamical frames in gravity:
+  Reconciling bulk locality with general covariance
+(2022)
+{\href{https://arxiv.org/abs/2206.01193}{{arXiv:2206.01193}}}
+\end{botherref}
+\endbibitem
+
+%%% 46
+\bibitem[\protect\citeauthoryear{Carrozza and Hoehn}{2022}]{carrozza2022edge}
+\begin{barticle}
+\bauthor{\bsnm{Carrozza}, \binits{S.}},
+\bauthor{\bsnm{Hoehn}, \binits{P.A.}}:
+\batitle{Edge modes as reference frames and boundary actions from
+  post-selection}.
+\bjtitle{Journal of High Energy Physics}
+\bvolume{2022}(\bissue{2}),
+\bfpage{1}--\blpage{94}
+(\byear{2022})
+{\href{https://arxiv.org/abs/2109.06184}{{arXiv:2109.06184}}}
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem[\protect\citeauthoryear{Kabel et~al.}{2024}]{kabel2024identification}
+\begin{botherref}
+\oauthor{\bsnm{Kabel}, \binits{V.}},
+\oauthor{\bsnm{{de la Hamette}}, \binits{A.-C.}},
+\oauthor{\bsnm{Apadula}, \binits{L.}},
+\oauthor{\bsnm{Cepollaro}, \binits{C.}},
+\oauthor{\bsnm{Gomes}, \binits{H.}},
+\oauthor{\bsnm{Butterfield}, \binits{J.}},
+\oauthor{\bsnm{Brukner}, \binits{{\v C}.}}:
+Identification is pointless: {{Quantum}} reference frames, localisation of
+  events, and the quantum hole argument
+(2024)
+{\href{https://arxiv.org/abs/2402.10267}{{arXiv:2402.10267}}}
+\end{botherref}
+\endbibitem
+
+%%% 48
+\bibitem[\protect\citeauthoryear{{de la Hamette} et~al.}{2023}]{de2023quantum1}
+\begin{barticle}
+\bauthor{\bsnm{{de la Hamette}}, \binits{A.-C.}},
+\bauthor{\bsnm{Kabel}, \binits{V.}},
+\bauthor{\bsnm{{Castro-Ruiz}}, \binits{E.}},
+\bauthor{\bsnm{Brukner}, \binits{{\v C}.}}:
+\batitle{Quantum reference frames for an indefinite metric}.
+\bjtitle{Communications Physics}
+\bvolume{6}(\bissue{1}),
+\bfpage{231}
+(\byear{2023})
+{\href{https://arxiv.org/abs/2112.11473}{{arXiv:2112.11473}}}
+\end{barticle}
+\endbibitem
+
+%%% 49
+\bibitem[\protect\citeauthoryear{{de la Hamette} et~al.}{2022}]{de2022quantum}
+\begin{botherref}
+\oauthor{\bsnm{{de la Hamette}}, \binits{A.-C.}},
+\oauthor{\bsnm{Kabel}, \binits{V.}},
+\oauthor{\bsnm{Christodoulou}, \binits{M.}},
+\oauthor{\bsnm{Brukner}, \binits{{\v C}.}}:
+Quantum diffeomorphisms cannot make indefinite causal order definite
+(2022)
+{\href{https://arxiv.org/abs/2211.15685}{{arXiv:2211.15685}}}
+\end{botherref}
+\endbibitem
+
+%%% 50
+\bibitem[\protect\citeauthoryear{{de la Hamette}
+  et~al.}{2021}]{de2021perspective}
+\begin{botherref}
+\oauthor{\bsnm{{de la Hamette}}, \binits{A.-C.}},
+\oauthor{\bsnm{Galley}, \binits{T.D.}},
+\oauthor{\bsnm{Hoehn}, \binits{P.A.}},
+\oauthor{\bsnm{Loveridge}, \binits{L.}},
+\oauthor{\bsnm{Mueller}, \binits{M.P.}}:
+Perspective-neutral approach to quantum frame covariance for general symmetry
+  groups
+(2021)
+{\href{https://arxiv.org/abs/2110.13824}{{arXiv:2110.13824}}}
+\end{botherref}
+\endbibitem
+
+%%% 51
+\bibitem[\protect\citeauthoryear{Vanrietvelde
+  et~al.}{2023}]{vanrietvelde2023switching}
+\begin{barticle}
+\bauthor{\bsnm{Vanrietvelde}, \binits{A.}},
+\bauthor{\bsnm{H{\"o}hn}, \binits{P.A.}},
+\bauthor{\bsnm{Giacomini}, \binits{F.}}:
+\batitle{Switching quantum reference frames in the {{N-body}} problem and the
+  absence of global relational perspectives}.
+\bjtitle{Quantum}
+\bvolume{7},
+\bfpage{1088}
+(\byear{2023})
+{\href{https://arxiv.org/abs/1809.05093}{{arXiv:1809.05093}}}
+\end{barticle}
+\endbibitem
+
+%%% 52
+\bibitem[\protect\citeauthoryear{Ahmad et~al.}{2022}]{ahmad2022quantum}
+\begin{barticle}
+\bauthor{\bsnm{Ahmad}, \binits{S.A.}},
+\bauthor{\bsnm{Galley}, \binits{T.D.}},
+\bauthor{\bsnm{H{\"o}hn}, \binits{P.A.}},
+\bauthor{\bsnm{Lock}, \binits{M.P.}},
+\bauthor{\bsnm{Smith}, \binits{A.R.}}:
+\batitle{Quantum relativity of subsystems}.
+\bjtitle{Physical Review Letters}
+\bvolume{128}(\bissue{17}),
+\bfpage{170401}
+(\byear{2022})
+{\href{https://arxiv.org/abs/2103.01232}{{arXiv:2103.01232}}}
+\end{barticle}
+\endbibitem
+
+%%% 53
+\bibitem[\protect\citeauthoryear{H{\"o}hn et~al.}{2021}]{Hoehn:2019owq}
+\begin{barticle}
+\bauthor{\bsnm{H{\"o}hn}, \binits{P.A.}},
+\bauthor{\bsnm{Smith}, \binits{A.R.H.}},
+\bauthor{\bsnm{Lock}, \binits{M.P.E.}}:
+\batitle{Trinity of relational quantum dynamics}.
+\bjtitle{Physical Review D: Particles and Fields}
+\bvolume{104}(\bissue{6}),
+\bfpage{066001}
+(\byear{2021})
+{\href{https://arxiv.org/abs/1912.00033}{{arXiv:1912.00033}}}
+\end{barticle}
+\endbibitem
+
+%%% 54
+\bibitem[\protect\citeauthoryear{Busch et~al.}{1997}]{busch1997operational}
+\begin{bbook}
+\bauthor{\bsnm{Busch}, \binits{P.}},
+\bauthor{\bsnm{Grabowski}, \binits{M.}},
+\bauthor{\bsnm{Lahti}, \binits{P.J.}}:
+\bbtitle{Operational Quantum Physics}
+vol. \bseriesno{31}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{1997}).
+\doiurl{10.1007/978-3-540-49239-9}
+\end{bbook}
+\endbibitem
+
+%%% 55
+\bibitem[\protect\citeauthoryear{Busch et~al.}{2016}]{Busch2016a}
+\begin{bbook}
+\bauthor{\bsnm{Busch}, \binits{P.}},
+\bauthor{\bsnm{Lahti}, \binits{P.}},
+\bauthor{\bsnm{Pellonp{\"a}{\"a}}, \binits{J.-P.}},
+\bauthor{\bsnm{Ylinen}, \binits{K.}}:
+\bbtitle{Quantum Measurement}.
+\bsertitle{Theoretical and Mathematical Physics}.
+\bpublisher{Springer},
+\blocation{Cham}
+(\byear{2016}).
+\doiurl{10.1007/978-3-319-43389-9}
+\end{bbook}
+\endbibitem
+
+%%% 56
+\bibitem[\protect\citeauthoryear{Holevo}{2003}]{holevo2003statistical}
+\begin{bbook}
+\bauthor{\bsnm{Holevo}, \binits{A.S.}}:
+\bbtitle{Statistical Structure of Quantum Theory}
+vol. \bseriesno{67}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2003}).
+\doiurl{10.1007/3-540-44998-1}
+\end{bbook}
+\endbibitem
+
+%%% 57
+\bibitem[\protect\citeauthoryear{Carmeli et~al.}{2004}]{carmeli2004position}
+\begin{barticle}
+\bauthor{\bsnm{Carmeli}, \binits{C.}},
+\bauthor{\bsnm{Heinonen}, \binits{T.}},
+\bauthor{\bsnm{Toigo}, \binits{A.}}:
+\batitle{Position and momentum observables on $\mathbb{R}$ and on
+  $\mathbb{R}^{3}$}.
+\bjtitle{Journal of Mathematical Physics}
+\bvolume{45}(\bissue{6}),
+\bfpage{2526}--\blpage{2539}
+(\byear{2004})
+\doiurl{10.1063/1.1739296}
+\end{barticle}
+\endbibitem
+
+%%% 58
+\bibitem[\protect\citeauthoryear{Pauli}{2012}]{pauli2012general}
+\begin{bbook}
+\bauthor{\bsnm{Pauli}, \binits{W.}}:
+\bbtitle{General Principles of Quantum Mechanics}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2012}).
+\doiurl{10.1007/978-3-642-61840-6}
+\end{bbook}
+\endbibitem
+
+%%% 59
+\bibitem[\protect\citeauthoryear{Busch et~al.}{1994}]{busch1994time}
+\begin{barticle}
+\bauthor{\bsnm{Busch}, \binits{P.}},
+\bauthor{\bsnm{Grabowski}, \binits{M.}},
+\bauthor{\bsnm{Lahti}, \binits{P.J.}}:
+\batitle{Time observables in quantum theory}.
+\bjtitle{Physics Letters A}
+\bvolume{191}(\bissue{5-6}),
+\bfpage{357}--\blpage{361}
+(\byear{1994})
+\doiurl{10.1016/0375-9601(94)90785-4}
+\end{barticle}
+\endbibitem
+
+%%% 60
+\bibitem[\protect\citeauthoryear{Brunetti and
+  Fredenhagen}{2002}]{PhysRevA.66.044101}
+\begin{barticle}
+\bauthor{\bsnm{Brunetti}, \binits{R.}},
+\bauthor{\bsnm{Fredenhagen}, \binits{K.}}:
+\batitle{Time of occurrence observable in quantum mechanics}.
+\bjtitle{Physical Review A: Atomic, Molecular, and Optical Physics}
+\bvolume{66}(\bissue{4}),
+\bfpage{044101}
+(\byear{2002})
+\doiurl{10.1103/PhysRevA.66.044101}
+\end{barticle}
+\endbibitem
+
+%%% 61
+\bibitem[\protect\citeauthoryear{Riesz and
+  {Sz.-Nagy}}{1990}]{riesz2012functional}
+\begin{bbook}
+\bauthor{\bsnm{Riesz}, \binits{F.}},
+\bauthor{\bsnm{{Sz.-Nagy}}, \binits{B.}}:
+\bbtitle{Functional Analysis}.
+\bsertitle{Dover Books on Advanced Mathematics},
+p. \bfpage{504}.
+\bpublisher{Dover Publications, Inc.},
+\blocation{New York}
+(\byear{1990})
+\end{bbook}
+\endbibitem
+
+%%% 62
+\bibitem[\protect\citeauthoryear{Lahti and
+  Pellonp{\"a}{\"a}}{1999}]{lahti1999covariant}
+\begin{barticle}
+\bauthor{\bsnm{Lahti}, \binits{P.}},
+\bauthor{\bsnm{Pellonp{\"a}{\"a}}, \binits{J.-P.}}:
+\batitle{Covariant phase observables in quantum mechanics}.
+\bjtitle{Journal of Mathematical Physics}
+\bvolume{40}(\bissue{10}),
+\bfpage{4688}--\blpage{4698}
+(\byear{1999})
+\doiurl{10.1063/1.532998}
+\end{barticle}
+\endbibitem
+
+%%% 63
+\bibitem[\protect\citeauthoryear{Lahti and
+  Pellonp{\"a}{\"a}}{2000}]{lahti2000characterizations}
+\begin{barticle}
+\bauthor{\bsnm{Lahti}, \binits{P.}},
+\bauthor{\bsnm{Pellonp{\"a}{\"a}}, \binits{J.-P.}}:
+\batitle{Characterizations of the canonical phase observable}.
+\bjtitle{Journal of Mathematical Physics}
+\bvolume{41}(\bissue{11}),
+\bfpage{7352}--\blpage{7381}
+(\byear{2000})
+\doiurl{10.1063/1.1313769}
+\end{barticle}
+\endbibitem
+
+%%% 64
+\bibitem[\protect\citeauthoryear{G{\l}owacki}{2024}]{glowacki2024relativization}
+\begin{botherref}
+\oauthor{\bsnm{G{\l}owacki}, \binits{J.}}:
+Relativization is naturally functorial
+(2024)
+{\href{https://arxiv.org/abs/2403.03755}{{arXiv:2403.03755}}}
+\end{botherref}
+\endbibitem
+
+%%% 65
+\bibitem[\protect\citeauthoryear{Loveridge
+  et~al.}{2017}]{loveridge2017relativity}
+\begin{barticle}
+\bauthor{\bsnm{Loveridge}, \binits{L.}},
+\bauthor{\bsnm{Busch}, \binits{P.}},
+\bauthor{\bsnm{Miyadera}, \binits{T.}}:
+\batitle{Relativity of quantum states and observables}.
+\bjtitle{EPL (Europhysics Letters)}
+\bvolume{117}(\bissue{4}),
+\bfpage{40004}
+(\byear{2017})
+{\href{https://arxiv.org/abs/1604.02836}{{arXiv:1604.02836}}}
+\end{barticle}
+\endbibitem
+
+%%% 66
+\bibitem[\protect\citeauthoryear{Palais}{1961}]{palaisExistenceSlicesActions1961}
+\begin{barticle}
+\bauthor{\bsnm{Palais}, \binits{R.S.}}:
+\batitle{On the existence of slices for actions of non-compact lie groups}.
+\bjtitle{Annals of Mathematics}
+\bvolume{73}(\bissue{2}),
+\bfpage{295}--\blpage{323}
+(\byear{1961})
+\doiurl{10.2307/1970335}
+{\href{https://arxiv.org/abs/1970335}{{1970335}}}
+\end{barticle}
+\endbibitem
+
+%%% 67
+\bibitem[\protect\citeauthoryear{Hawkins
+  et~al.}{2024}]{hawkinsNovelClassFunctionals2024}
+\begin{botherref}
+\oauthor{\bsnm{Hawkins}, \binits{E.}},
+\oauthor{\bsnm{Rejzner}, \binits{K.}},
+\oauthor{\bsnm{Visser}, \binits{B.}}:
+A novel class of functionals for perturbative algebraic quantum field theory
+(2024)
+{\href{https://arxiv.org/abs/2312.15203}{{arXiv:2312.15203}}}
+\end{botherref}
+\endbibitem
+
+%%% 68
+\bibitem[\protect\citeauthoryear{Kaniuth and Taylor}{2012}]{kaniuth2012induced}
+\begin{bbook}
+\bauthor{\bsnm{Kaniuth}, \binits{E.}},
+\bauthor{\bsnm{Taylor}, \binits{K.F.}}:
+\bbtitle{Induced Representations of Locally Compact Groups}.
+\bsertitle{Cambridge Tracts in Mathematics}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge}
+(\byear{2012}).
+\doiurl{10.1017/CBO9781139045391}
+\end{bbook}
+\endbibitem
+
+%%% 69
+\bibitem[\protect\citeauthoryear{Takesaki}{2001}]{Takesaki2001}
+\begin{bbook}
+\bauthor{\bsnm{Takesaki}, \binits{M.}}:
+\bbtitle{Theory of Operator Algebras {{I}}},
+\bedition{1}st edn.
+\bsertitle{Encyclopaedia of Mathematical Sciences}.
+\bpublisher{Springer},
+\blocation{Berlin, Germany}
+(\byear{2001}).
+\doiurl{10.1007/978-1-4612-6188-9}
+\end{bbook}
+\endbibitem
+
+%%% 70
+\bibitem[\protect\citeauthoryear{Kadison and
+  Ringrose}{1997}]{kadison1997fundamentals}
+\begin{bbook}
+\bauthor{\bsnm{Kadison}, \binits{R.V.}},
+\bauthor{\bsnm{Ringrose}, \binits{J.R.}}:
+\bbtitle{Fundamentals of the Theory of Operator Algebras. {{Volume II}}}.
+\bsertitle{Fundamentals of the Theory of Operator Algebras}.
+\bpublisher{American Mathematical Society},
+\blocation{Providence}
+(\byear{1997})
+\end{bbook}
+\endbibitem
+
+%%% 71
+\bibitem[\protect\citeauthoryear{Conway}{2010}]{Conway}
+\begin{bbook}
+\bauthor{\bsnm{Conway}, \binits{J.B.}}:
+\bbtitle{A Course in Functional Analysis},
+\bedition{2nd ed.} edn.
+\bsertitle{Graduate Texts in Mathematics ; 96}.
+\bpublisher{Springer},
+\blocation{New York}
+(\byear{2010}).
+\doiurl{10.1007/978-1-4757-4383-8}
+\end{bbook}
+\endbibitem
+
+%%% 72
+\bibitem[\protect\citeauthoryear{Haag et~al.}{1967}]{cmp/1103840050}
+\begin{barticle}
+\bauthor{\bsnm{Haag}, \binits{R.}},
+\bauthor{\bsnm{Hugenholtz}, \binits{N.M.}},
+\bauthor{\bsnm{Winnink}, \binits{M.}}:
+\batitle{On the equilibrium states in quantum statistical mechanics}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{5}(\bissue{3}),
+\bfpage{215}--\blpage{236}
+(\byear{1967})
+\doiurl{10.1007/BF01646342}
+\end{barticle}
+\endbibitem
+
+%%% 73
+\bibitem[\protect\citeauthoryear{Bratteli and Robinson}{1997}]{Bratteli2}
+\begin{bbook}
+\bauthor{\bsnm{Bratteli}, \binits{O.}},
+\bauthor{\bsnm{Robinson}, \binits{D.W.}}:
+\bbtitle{Operator Algebras and Quantum Statistical Mechanics {{II}}},
+pp. \bfpage{1}--\blpage{532}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{1997}).
+\doiurl{10.1007/978-3-662-03444-6}
+\end{bbook}
+\endbibitem
+
+%%% 74
+\bibitem[\protect\citeauthoryear{Takesaki}{2002}]{takesaki2002}
+\begin{bbook}
+\bauthor{\bsnm{Takesaki}, \binits{M.}}:
+\bbtitle{Theory of Operator Algebras {{II}}}.
+\bsertitle{Encyclopaedia of Mathematical Sciences}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2002}).
+\doiurl{10.1007/978-3-662-10451-4}
+\end{bbook}
+\endbibitem
+
+%%% 75
+\bibitem[\protect\citeauthoryear{Dixmier}{1981}]{dixmier1981VonNeumann}
+\begin{bbook}
+\bauthor{\bsnm{Dixmier}, \binits{J.}}:
+\bbtitle{Von Neumann Algebras}.
+\bsertitle{North-Holland Mathematical Library 27}.
+\bpublisher{Elsevier},
+\blocation{Amsterdam}
+(\byear{1981})
+\end{bbook}
+\endbibitem
+
+%%% 76
+\bibitem[\protect\citeauthoryear{Buchholz and Wichmann}{1986}]{Buchholz:1986dy}
+\begin{barticle}
+\bauthor{\bsnm{Buchholz}, \binits{D.}},
+\bauthor{\bsnm{Wichmann}, \binits{E.H.}}:
+\batitle{Causal independence and the energy level density of states in local
+  quantum field theory}.
+\bjtitle{Communications in Mathematical Physics}
+\bvolume{106}(\bissue{DESY-86-011}),
+\bfpage{321}
+(\byear{1986})
+\doiurl{10.1007/BF01454978}
+\end{barticle}
+\endbibitem
+
+%%% 77
+\bibitem[\protect\citeauthoryear{Knapp}{1986}]{Knapp_rep_semisimple}
+\begin{bbook}
+\bauthor{\bsnm{Knapp}, \binits{A.W.}}:
+\bbtitle{Representation Theory of Semisimple Groups},
+\bedition{Rev - revised} edn.,
+pp. \bfpage{3}--\blpage{27}.
+\bpublisher{Princeton University Press},
+\blocation{Princeton}
+(\byear{1986}).
+\doiurl{10.1515/9781400883974}
+\end{bbook}
+\endbibitem
+
+%%% 78
+\bibitem[\protect\citeauthoryear{Witten}{2022}]{witten2022gravity}
+\begin{barticle}
+\bauthor{\bsnm{Witten}, \binits{E.}}:
+\batitle{Gravity and the crossed product}.
+\bjtitle{Journal of High Energy Physics}
+\bvolume{2022}(\bissue{10}),
+\bfpage{1}--\blpage{28}
+(\byear{2022})
+{\href{https://arxiv.org/abs/2112.12828}{{arXiv:2112.12828}}}
+\end{barticle}
+\endbibitem
+
+%%% 79
+\bibitem[\protect\citeauthoryear{Jensen
+  et~al.}{2023}]{jensenGeneralizedEntropyGeneral2023}
+\begin{barticle}
+\bauthor{\bsnm{Jensen}, \binits{K.}},
+\bauthor{\bsnm{Sorce}, \binits{J.}},
+\bauthor{\bsnm{Speranza}, \binits{A.J.}}:
+\batitle{Generalized entropy for general subregions in quantum gravity}.
+\bjtitle{Journal of High Energy Physics}
+\bvolume{2023}(\bissue{12}),
+\bfpage{20}
+(\byear{2023})
+{\href{https://arxiv.org/abs/2306.01837}{{arXiv:2306.01837}}}
+\end{barticle}
+\endbibitem
+
+%%% 80
+\bibitem[\protect\citeauthoryear{{Kudler-Flam}
+  et~al.}{2024}]{kudler-flamGeneralizedBlackHole2024}
+\begin{botherref}
+\oauthor{\bsnm{{Kudler-Flam}}, \binits{J.}},
+\oauthor{\bsnm{Leutheusser}, \binits{S.}},
+\oauthor{\bsnm{Satishchandran}, \binits{G.}}:
+Generalized black hole entropy is von neumann entropy
+(2024)
+{\href{https://arxiv.org/abs/2309.15897}{{arXiv:2309.15897}}}
+\end{botherref}
+\endbibitem
+
+%%% 81
+\bibitem[\protect\citeauthoryear{De~Vuyst
+  et~al.}{2024}]{devuystGravitationalEntropyObserverdependent2024}
+\begin{botherref}
+\oauthor{\bsnm{De~Vuyst}, \binits{J.}},
+\oauthor{\bsnm{Eccles}, \binits{S.}},
+\oauthor{\bsnm{Hoehn}, \binits{P.A.}},
+\oauthor{\bsnm{Kirklin}, \binits{J.}}:
+Gravitational entropy is observer-dependent
+(2024)
+{\href{https://arxiv.org/abs/2405.00114}{{arXiv:2405.00114}}}
+\end{botherref}
+\endbibitem
+
+%%% 82
+\bibitem[\protect\citeauthoryear{Ahmad
+  et~al.}{2024}]{aliahmadSemifiniteNeumannAlgebras2024}
+\begin{botherref}
+\oauthor{\bsnm{Ahmad}, \binits{S.A.}},
+\oauthor{\bsnm{Klinger}, \binits{M.S.}},
+\oauthor{\bsnm{Lin}, \binits{S.}}:
+Semifinite von {{Neumann}} algebras in gauge theory and gravity
+(arXiv:2407.01695)
+(2024)
+{\href{https://arxiv.org/abs/2407.01695}{{arXiv:2407.01695}}}
+\end{botherref}
+\endbibitem
+
+%%% 83
+\bibitem[\protect\citeauthoryear{Fewster}{2013}]{Fewster:gauge}
+\begin{barticle}
+\bauthor{\bsnm{Fewster}, \binits{C.J.}}:
+\batitle{Endomorphisms and automorphisms of locally covariant quantum field
+  theories}.
+\bjtitle{Reviews in Mathematical Physics}
+\bvolume{25},
+\bfpage{1350008}--\blpage{47}
+(\byear{2013})
+{\href{https://arxiv.org/abs/1201.3295}{{arXiv:1201.3295}}}
+\end{barticle}
+\endbibitem
+
+%%% 84
+\bibitem[\protect\citeauthoryear{Fewster and
+  Verch}{2015}]{FewVerch_aqftincst:2015}
+\begin{bchapter}
+\bauthor{\bsnm{Fewster}, \binits{C.J.}},
+\bauthor{\bsnm{Verch}, \binits{R.}}:
+\bctitle{Algebraic quantum field theory in curved spacetimes}.
+In: \beditor{\bsnm{Brunetti}, \binits{R.}},
+\beditor{\bsnm{Dappiaggi}, \binits{C.}},
+\beditor{\bsnm{Fredenhagen}, \binits{K.}},
+\beditor{\bsnm{Yngvason}, \binits{J.}} (eds.)
+\bbtitle{Advances in Algebraic Quantum Field Theory}.
+\bsertitle{Mathematical Physics Studies},
+pp. \bfpage{125}--\blpage{189}.
+\bpublisher{Springer},
+\blocation{Cham}
+(\byear{2015}).
+\bcomment{Chap. 4}
+\end{bchapter}
+\endbibitem
+
+%%% 85
+\bibitem[\protect\citeauthoryear{Deitmar and
+  Echterhoff}{2008}]{deitmar2008principles}
+\begin{bbook}
+\bauthor{\bsnm{Deitmar}, \binits{A.}},
+\bauthor{\bsnm{Echterhoff}, \binits{S.}}:
+\bbtitle{Principles of Harmonic Analysis}.
+\bsertitle{Universitext}.
+\bpublisher{Springer},
+\blocation{New York}
+(\byear{2008}).
+\doiurl{10.1007/978-3-319-05792-7}
+\end{bbook}
+\endbibitem
+
+%%% 86
+\bibitem[\protect\citeauthoryear{Barut and Raczka}{1986}]{raczka1986theory}
+\begin{bbook}
+\bauthor{\bsnm{Barut}, \binits{A.O.}},
+\bauthor{\bsnm{Raczka}, \binits{R.}}:
+\bbtitle{Theory of Group Representations and Applications}.
+\bpublisher{World Scientific Publishing Company},
+\blocation{Singapore}
+(\byear{1986}).
+\doiurl{10.1142/0352}
+\end{bbook}
+\endbibitem
+
+%%% 87
+\bibitem[\protect\citeauthoryear{Paulsen}{2003}]{Paulsen_2003}
+\begin{bbook}
+\bauthor{\bsnm{Paulsen}, \binits{V.}}:
+\bbtitle{Completely Bounded Maps and Operator Algebras}.
+\bsertitle{Cambridge Studies in Advanced Mathematics}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge}
+(\byear{2003}).
+\doiurl{10.1017/CBO9780511546631}
+\end{bbook}
+\endbibitem
+
+%%% 88
+\bibitem[\protect\citeauthoryear{Murray and {v. Neumann}}{1936}]{Murray_1936}
+\begin{barticle}
+\bauthor{\bsnm{Murray}, \binits{F.J.}},
+\bauthor{\bsnm{{v. Neumann}}, \binits{J.}}:
+\batitle{On rings of operators}.
+\bjtitle{Annals of Mathematics}
+\bvolume{37}(\bissue{1}),
+\bfpage{116}--\blpage{229}
+(\byear{1936})
+\doiurl{10.2307/1968693}
+\end{barticle}
+\endbibitem
+
+%%% 89
+\bibitem[\protect\citeauthoryear{Connes}{1973}]{Connes1973}
+\begin{barticle}
+\bauthor{\bsnm{Connes}, \binits{A.}}:
+\batitle{Une classification des facteurs de type {{III}}}.
+\bjtitle{Annales scientifiques de l'{\'E}cole Normale Sup{\'e}rieure}
+\bvolume{6}(\bissue{2}),
+\bfpage{133}--\blpage{252}
+(\byear{1973})
+\doiurl{10.24033/asens.1247}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
