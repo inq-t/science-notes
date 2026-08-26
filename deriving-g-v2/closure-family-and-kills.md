@@ -1,28 +1,36 @@
 # The Closure Family and Its Kills
 
-Every candidate calculation of the ledger density is a member of a one-parameter family, because at a homogeneous reference cut the macroscopic input sector collapses to a single rate and the dimensional lemma admits exactly one microscopic length. This note proves the collapse, parametrizes the family, executes three kills — live cosmological running (lunar laser ranging), the entire rigid channel ladder (the reported fit, via [[index-not-entropy]]), and the crossed-product route (circular by construction) — and computes the numbers for the four surviving or instructive closures. All quantities quoted are asserted in `receipts/g_closures.py`, run on this machine; cosmology is flat ΛCDM with the Planck 2018 baseline ($H_0=67.4$ km/s/Mpc, $\Omega_m=0.315$; Aghanim et al., Astron. Astrophys. **641**, A6 (2020)).
+At a homogeneous reference cut, restricting the dimensionful inputs to one macroscopic radius $R_c$ and one microscopic length $\lambda$ gives the general dimensional form $\chi_*=\lambda^{-2}F(R_c/\lambda;\mathbf g)$, with arbitrary dimensionless data $\mathbf g$. The power-law closures studied here are a one-parameter monomial subfamily, not every possible closure. Within that declared family the note tests unscreened live running against lunar laser ranging, conditionally tests the rigid Jones ladder using the reported fit, rejects a crossed-product normalization that imports gravity, and computes four illustrative closures. All quoted numbers are asserted in `receipts/g_closures.py`; the cosmological diagnostics use the Planck 2018 flat-$\Lambda$CDM baseline and are not construction inputs.
 
 ## The macroscopic collapse lemma
 
-**[EXACT]** At the crossing cut ($\rho_X=\tfrac12\rho_{\mathrm{crit}}$, hence $z_c=(\Omega_\Lambda/\Omega_m)^{1/3}-1=0.296$, $H_c=1.170\,H_0$):
+**[EXACT WITHIN THE DECLARED FLAT-$\Lambda$CDM BACKGROUND]** At the bookkeeping crossing cut ($\rho_X=\tfrac12\rho_{\mathrm{crit}}$, hence $z_c=(\Omega_\Lambda/\Omega_m)^{1/3}-1=0.296$, $H_c=1.170\,H_0$):
 
 - the horizon temperature is $T_c=\hbar H_c/2\pi k_B=3.11\times10^{-30}$ K — a pure function of $H_c$, no new datum;
 - the apparent-horizon radius, area, and volume are $c/H_c$ and its powers — functions of $H_c$;
 - the critical density $\rho_{\mathrm{crit},c}=3H_c^2/8\pi G$ and the horizon mass $M_c=c^3/2GH_c=7.9\times10^{52}$ kg *contain G* — circular as inputs.
 
-So "temperature of the cosmos" is admissible but redundant given $H_c$, "total mass" is inadmissible, and the macroscopic sector contributes exactly one free parameter. With the dimensional lemma of [[rulers-are-matter]], every closure has the form
+So "temperature of the cosmos" is redundant given $H_c$, while "total mass" is inadmissible in a derivation of $G$. Under the declared two-scale restriction, dimensional analysis gives
 
 $$
-\chi_*=C\,s_*\,\frac{R_c^{\,a}}{\lambda^{2+a}},
+\boxed{
+\chi_*=\frac{1}{\lambda^2}
+F\!\left(\frac{R_c}{\lambda};\mathbf g\right),}
+$$
+
+where $F$ is an arbitrary dimensionless function and $\mathbf g$ denotes any independently fixed dimensionless algebraic or matter data. The closures computed below use the monomial subfamily
+
+$$
+F(x;\mathbf g)=C\,s_*x^a,
 \qquad
 G=\frac{c^3\,\lambda^{2+a}}{4\hbar\,C\,s_*\,R_c^{\,a}},
 $$
 
-with dimensionless exponent $a$, cell geometry $C=O(1)$, entropy per channel $s_*$, microscopic length $\lambda$, and $R_c=c/H_c$.
+with dimensionless exponent $a$, cell geometry $C=O(1)$, entropy per channel $s_*$, microscopic length $\lambda$, and $R_c=c/H_c$. Logs, thresholds, crossover functions, and dependence on additional dimensionless couplings belong to the general $F$ and are not exhausted by this subfamily.
 
 ## Kill 1 — live running (lunar laser ranging)
 
-**[EMPIRICAL KILL]** If $\lambda$ is fixed matter data and the closure runs with the horizon, $G\propto R_H^{-a}$ gives $\dot G/G=-a(1+q_0)H_0$ today. Against the LLR bound $|\dot G/G|\lesssim1.5\times10^{-13}\,\mathrm{yr^{-1}}$ (Hofmann and Müller, Class. Quantum Grav. **35**, 035015 (2018), $(7.1\pm7.6)\times10^{-14}$; MESSENGER gives the same order):
+**[EMPIRICAL KILL OF THE DECLARED UNSCREENED LIVE-RUNNING LAWS]** If $\lambda$ and the dimensionless data are fixed and a monomial closure tracks the instantaneous horizon, $G\propto R_H^{-a}$ gives $\dot G/G=-a(1+q_0)H_0$ today. Against the LLR bound $|\dot G/G|\lesssim1.5\times10^{-13}\,\mathrm{yr^{-1}}$ (Hofmann and Müller, Class. Quantum Grav. **35**, 035015 (2018), $(7.1\pm7.6)\times10^{-14}$; MESSENGER gives the same order):
 
 | Closure | Predicted running (per yr) | Excess over bound |
 |---|---|---|
@@ -30,7 +38,7 @@ with dimensionless exponent $a$, cell geometry $C=O(1)$, entropy per channel $s_
 | a = 2 | 6.51e-11 | factor 434 |
 | logarithmic in R | 3.50e-13 | factor 2.3 |
 
-Even logarithmic cosmological running dies. Surviving exponent: $|a|\le4.6\times10^{-3}$. The fork is therefore sharp: either $a=0$ (the value of $G$ owes nothing to cosmology), or the modulus is **fossilized** — set at the crossing and thereafter conserved, which requires a conservation law and makes [[conservation-of-causal-charge/entry|conservation of causal charge]] load-bearing, alongside the event-locus conjecture that the reference cut is a physical wall.
+The displayed logarithmic ansatz also exceeds the quoted bound. Within the unscreened monomial tracking branch, the surviving exponent satisfies $|a|\le4.6\times10^{-3}$. Thus the examples studied here must be nearly microscopic ($a\simeq0$) or **fossilized** — set at the crossing and thereafter conserved. Screening, thresholds, environmental dependence, or a more general $F$ require their own calculation and are not killed by this table. Fossilization itself requires a conservation law and makes [[conservation-of-causal-charge/entry|conservation of causal charge]] load-bearing, alongside the event-locus conjecture that the reference cut is a physical wall.
 
 ## Kill 2 — the rigid channel ladder
 

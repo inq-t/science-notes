@@ -1,6 +1,6 @@
 # The Modular Register Is G-Free
 
-Every temperature in gravitational physics is an instance of one algebraic fact — the modular flow of a wedge algebra, KMS at period $2\pi$ — and none of them contains Newton's constant except through the conversion of a source into an acceleration. The audit below goes quantity by quantity. Its consequence is structural: all the dimensionless content of horizon thermodynamics is already fixed by theorems on the modular (vertical) side, so whatever remains to be derived about $G$ lives entirely on the ledger (horizontal) side. This note states established physics and mathematics; the programme-specific use is made in [[the-g-free-first-law]].
+The Unruh, Gibbons–Hawking, and Hawking-as-surface-gravity temperatures share a G-free KMS conversion pattern: temperature is proportional to the appropriate geometric rate with the factor $2\pi$. Bisognano–Wichmann identifies this pattern with modular flow for the Minkowski wedge; the de Sitter and black-hole cases require their own geometric QFT hypotheses and are not all instances of that theorem. The audit isolates the common G-free thermal register from the source-to-geometry and entropy-to-area maps where the gravitational normalization enters.
 
 ## The audit
 
@@ -38,7 +38,7 @@ that is, only in the map from mass to acceleration. The thermal law is G-free; t
 
 ## What is fixed and what is free
 
-Collect the dimensionless constants of horizon thermodynamics: the KMS period $2\pi$; the entropy coefficient $\tfrac14$ in $S=k_BA/4\ell_P^2$, which the Euclidean saddle fixes once the $2\pi$ period and the Einstein–Hilbert normalization are granted; and the $8\pi$ of the Einstein equation, which the Clausius argument of [[the-g-free-first-law]] produces from the same inputs. Every one of them is already determined. The only quantity in the entire structure that is *not* fixed by the modular theorems is one dimensionful conversion — the area of one ledger unit, $4\ell_P^2$ — and that is exactly $G$ in the areal variables of [[deriving-value-of-g/areal-information-modulus|the first pass]].
+The KMS period $2\pi$ is fixed on the modular side. In two-derivative Einstein gravity the familiar entropy coefficient $\tfrac14$ and field-equation coefficient $8\pi$ follow after the Einstein–Hilbert normalization, Euclidean regularity or horizon-thermodynamic premises, and shared conventions are supplied. They are therefore fixed *within that gravitational theory*, not derived from modular theory alone. The remaining value problem is the dimensionful conversion between a dimensionless ledger and ruler area — $4\ell_P^2$ in Einstein gravity — which is exactly where $G$ sits in [[deriving-value-of-g/areal-information-modulus|the areal variables of the first pass]].
 
 The typed summary:
 
@@ -53,4 +53,4 @@ The typed summary:
 
 ## Why this matters for the programme
 
-The programme's registers separate exactly here. Vertical modular structure — the register of [[sufficient-reason/algebraic-arrow-of-time|the algebraic arrow]] and of Connes cocycles — is rigid, G-free, and fully theorem-governed. The horizontal ledger — the register of [[program-core/localized-areal-response-geometry|areal response]] and of the wall's erased distinguishability — carries the single dimensionful unknown. Any proposed derivation of $G$ that manipulates temperatures, accelerations, modular flows, or KMS conditions alone is therefore manipulating quantities from which $G$ has already cancelled; this is the typed reason the first pass's [[deriving-value-of-g/obstructions-to-an-unconditional-proof|obstructions]] could not be beaten from the modular side, and the reason the burden falls on the wall construction and nowhere else.
+The programme's registers separate here. The established vertical modular structures in the named settings are G-free, while the horizontal ledger-to-area conversion carries the dimensionful normalization. Manipulating temperatures, accelerations, modular flows, or KMS conditions alone therefore cannot calculate that normalization. The burden falls on an independently constructed wall response and area weld, as required by the first pass's [[deriving-value-of-g/obstructions-to-an-unconditional-proof|obstructions]].

@@ -1,6 +1,6 @@
 # The G-Free First Law
 
-Written in the wall's own units, the first law of causal horizons is $q=\delta\iota$: heat measured in modular units equals the change of the dimensionless ledger. Newton's constant does not appear. Given the Jacobson premises this one dimensionless law, imposed at every local wedge, is equivalent to the Einstein equation; $G$ enters physics only through the presentation of the ledger as metric area. This note states the law, the theorem, the proposed reading, and the failure conditions. The wall-inclusion realization of $\iota$ is a construction target, not a result.
+Written in the units of an already supplied causal horizon, the Clausius law is $q=\delta\iota$: heat measured in modular units equals the change of a dimensionless ledger, with no explicit Newton constant. Given Jacobson's geometric, equilibrium, locality, and conservation premises, imposing this law at every local wedge yields the Einstein equation; its coupling is fixed by the separately supplied ledger-per-area coefficient. This note states that conditional theorem and the programme's proposed reading. It does not construct the horizon, wall state, ledger, or area normalization.
 
 ## The law
 
@@ -16,7 +16,7 @@ $$
 \boxed{\;q=\delta\iota\;.}
 $$
 
-Both sides are dimensionless. Nothing in the statement mentions $G$, a metric, or an area.
+Both sides are dimensionless and no $G$ or area coefficient appears explicitly. The physical meanings of $q$ and $\delta\iota$ nevertheless presuppose a selected causal horizon, its temperature and boost-energy flux, and a state or entropy ledger. The displayed equality is a G-free constitutive law on that supplied geometry; it does not construct the metric or wall by notation.
 
 ## The theorem it carries
 
@@ -32,7 +32,7 @@ $$
 G=\frac{c^3}{4\hbar\eta}.
 $$
 
-The logic to notice: the *law* is the dimensionless $q=\delta\iota$; the *constant* appears only in the auxiliary hypothesis $\iota=\eta A$ that presents the ledger as ruler area. [[deriving-value-of-g/horizon-thermodynamic-route|The first pass]] owns the derivation's fine print; the reorganization here is only of what is law and what is presentation.
+The logic to notice is scoped to Jacobson's supplied local-horizon setting: the Clausius equality is dimensionless, while the gravitational coupling enters through the additional universal-density hypothesis $\iota=\eta A$. The causal geometry, boost-energy definition, equilibrium condition, and focusing equation are other premises of the theorem; they are not contained in $q=\delta\iota$. [[deriving-value-of-g/horizon-thermodynamic-route|The first pass]] owns the derivation's fine print.
 
 ## The proposed reading
 
@@ -52,7 +52,7 @@ $$
 \iota(\text{cell})=\tfrac12\log\operatorname{Ind}_W(E)
 $$
 
-at saturation, per the exact type-I identity $S(\chi)+D(\chi\Vert\tau)=\tfrac12\log\operatorname{Ind}_W(E_\tau)$ (receipt-verified in `receipts/`). The theorem target of this module is then the first pass's two welds in new variables:
+at saturation in the exact type-I product-edge model with its auxiliary tracial expectation, per $S(\chi)+D(\chi\Vert\tau)=\tfrac12\log\operatorname{Ind}_W(E_\tau)$ (receipt-verified in `receipts/`). This identity is not asserted for an arbitrary finite-index inclusion. The theorem target of this module is then the first pass's two welds in new variables:
 
 1. **(Ledger additivity.)** The edge assignment is a countably additive, regulator-independent measure over wall patches — [[deriving-value-of-g/spectral-index-area-route|the all-patch identity]].
 2. **(Law.)** $q=\delta\iota$ holds at every admissible wedge of the wall family, with $q$ built from the transported horizontal state response — the same-tangent weld of [[deriving-value-of-g/causal-scale-derivation-target|the derivation target]].

@@ -4,13 +4,13 @@ The dimensional obstruction of the first pass — no amount of dimensionless alg
 
 ## The lemma, restated
 
-**[EXACT]** $[G]=[c^3/\hbar]\times L^2$. Dimensionless structure plus $c,\hbar,k_B$ fixes no length. Hence every closure of
+**[EXACT]** $[G]=[c^3/\hbar]\times L^2$. Dimensionless structure plus $c,\hbar,k_B$ fixes no area scale. Hence every closure of
 
 $$
 G=\frac{c^3}{4\hbar}\,\frac{\mathrm dA}{\mathrm d\iota}
 $$
 
-must import exactly one independent length, and [[closure-family-and-kills|the closure family]] shows the only admissible sources at a homogeneous cut are one macroscopic rate ($H_c$) and one microscopic matter scale. This much is the first pass's [[deriving-value-of-g/obstructions-to-an-unconditional-proof|dimensional obstruction]], unchanged.
+must supply an independent area scale or a dimensionally equivalent combination of independently selected quantities. Under the restricted two-scale ansatz examined in [[closure-family-and-kills|the closure-family note]], those quantities are one macroscopic radius and one microscopic matter length; more general constructions may contain several scales but can affect $G$ only through an area-valued combination and dimensionless ratios. This much is the first pass's [[deriving-value-of-g/obstructions-to-an-unconditional-proof|dimensional obstruction]], unchanged.
 
 ## Why the import is principled, not embarrassing
 

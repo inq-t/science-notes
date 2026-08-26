@@ -1,6 +1,6 @@
 # One Clock, Many Dressings
 
-Every thermal-gravitational quantity in the programme's registers is a frequency: $a/c$, $\kappa/c$, $H$, and $k_BT/\hbar$ all carry units $\mathrm s^{-1}$, and the theorems of [[deriving-g-v2/the-modular-register-is-g-free|the modular audit]] say they are the *same* frequency — the rate of the modular clock — read through different soldering constants. Meanwhile $G$ enters time bookkeeping exactly once: it converts density to squared frequency. This note fixes both statements and their programme consequences.
+The causal-horizon quantities $a/c$, $\kappa/c$, $H$, and $k_BT/\hbar$ all carry units $\mathrm s^{-1}$ and, in their respective Unruh, de Sitter, and black-hole settings, obey one KMS conversion pattern. They are the same *type* of quantity, not automatically one numerical clock across unrelated geometries; identifying rows requires a declared horizon relation or further soldering. Meanwhile $G$ converts density to squared frequency. This note fixes the exact dimensional statements and marks the common-clock interpretation at its proper grade.
 
 ## The clock table
 
@@ -12,7 +12,7 @@ Every thermal-gravitational quantity in the programme's registers is a frequency
 | temperature | k_B T = hbar times rate / 2 pi | hbar, k_B |
 | scale age | N = log of accumulated scale | dimensionless |
 
-The $2\pi$ between temperature and the rest is the KMS period — a theorem, not a choice. That one clock underlies all rows is exact for the horizon cases (Unruh, Gibbons–Hawking, Hawking-as-$\kappa$); treating *physical time itself* as modular flow is the Connes–Rovelli thermal-time reading, imported at [[cosmodynamics/soldering-constants|the soldering note's]] grade. The scale coordinate $N=\ln a_{\mathrm{scale}}$ of [[cosmodynamics/scale-age|scale age]] and [[misner-log-time/entry|Misner log time]] is the dimensionless log of this clock's accumulation — which is why the normalization of its rate against modular time is a construction gate and not a convention ([[nilpotency-and-the-wall/construction-bridges|Bridge 2]]).
+The $2\pi$ between temperature and the corresponding geometric rate is the KMS period. In the named horizon examples, each thermal law realizes this same conversion pattern; equating rates from different examples requires an additional geometric identification. Treating *physical time itself* as modular flow is the Connes–Rovelli thermal-time hypothesis, imported at [[cosmodynamics/soldering-constants|the soldering note's]] grade. The scale coordinate $N=\ln a_{\mathrm{scale}}$ of [[cosmodynamics/scale-age|scale age]] and [[misner-log-time/entry|Misner log time]] is a dimensionless logarithmic scale coordinate. Identifying it with an accumulated modular-clock reading is therefore a construction gate, not a convention ([[nilpotency-and-the-wall/construction-bridges|Bridge 2]]).
 
 ## G converts density to frequency squared
 
