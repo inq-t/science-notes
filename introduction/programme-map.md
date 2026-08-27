@@ -28,6 +28,8 @@ The intended construction order is:
 
 [[causal-wall-spectral-theory/entry|Causal-Wall Spectral Theory]] studies nonconstant observational response and its possible presentation as primordial correlations. It shares the upstream response architecture with the homogeneous branch, but its spatial-precision, Lorentzian, curvature, tensor, and likelihood maps are separate constructions. Neither branch currently derives the other.
 
+[[causal-grain-cosmology/entry|Causal-grain cosmology]] reconstructs where these branches later converge: unit response and a proposed rank-two wall give a common-count scale, whose logarithmic cosmic depth supplies a freezeable candidate for the CMB acoustic ruler. It is the canonical synthesis of that discovery path, not a replacement for the specialist grain, transfer, or likelihood modules.
+
 ## Why the programme matters
 
 The programme tests whether several familiar puzzles are symptoms of importing the arena too early. [[contemporary-puzzles/dark-energy-and-acceleration/entry|Cosmic acceleration]] is explored as a possible constitutive scale response rather than automatically as another substance inside spacetime. [[deriving-value-of-g/entry|The value of (G)]] is treated as a possible conversion between independently constructed state-response and gravitational area measures rather than merely an unexplained constant. [[program-core/record-scale-soldering|Record--scale soldering]] asks what would be required for expansion, temporal orientation, entropy, and factual history to be representations of one process without declaring them identical by analogy.

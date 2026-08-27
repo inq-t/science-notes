@@ -16,7 +16,7 @@ It is therefore better called a **common-count scale** than a particle mass. Onc
 
 The stronger thought—that the grain is a quantum of causality, a minimal packet by which spacetime becomes factical—is developed in [[the-grain-of-causal-scale/causal-spectrum|a quantum of causal realization]]. Its disciplined version is not “a smallest spacetime voxel.” It is a one-sided spectral-flow event whose positive realization has a finite correlation scale. [[the-grain-of-causal-scale/material-realizations|Material realizations and Fisher response]] records two suggestive low-energy rhymes without promoting either one to an identification.
 
-This module promotes the reusable mathematical bridge harvested from the raw notes `inbox/the-movable-origin-and-the-one-channel-cut/`, `inbox/the-ledger-level/`, `inbox/the-carrier-and-zeta/`, `inbox/the-unit-nat-channel/`, `inbox/the-rank-two-cell/`, and `inbox/the-grain-in-every-register/`. They remain in the inbox because they retain the conjectural arguments, conversation history, and siren tests rather than becoming canonical dependencies.
+This module promotes the reusable mathematical bridge harvested from the raw notes `inbox/the-movable-origin-and-the-one-channel-cut/`, `inbox/the-ledger-level/`, `inbox/the-carrier-and-zeta/`, `inbox/the-unit-nat-channel/`, `inbox/the-rank-two-cell/`, and `inbox/the-grain-in-every-register/`. They remain in the inbox because they retain the conjectural arguments, conversation history, and siren tests rather than becoming canonical dependencies. [[causal-grain-cosmology/entry|Causal-grain cosmology]] follows the historical line from this construction to the later chiral and CMB acoustic candidates while preserving their post-search status.
 
 ## Typed ingredients
 
