@@ -1,0 +1,570 @@
+{
+  "datasets": [
+    {
+      "ch0_with_laboratory_input_uncertainty": {
+        "combined_residual_z": -0.3185432492019046,
+        "importance_reweighted_kish_ess": 10528.301474383721,
+        "importance_reweighted_theta_star_100_mean": 1.0410085656670363,
+        "importance_reweighted_theta_star_100_sigma": 0.0001664843337439039
+      },
+      "convergence_note": "Official Planck chain; properties.ini declares burn_removed=T.",
+      "gaussian_conditional_parameter_shifts": {
+        "H0*": {
+          "conditional_mean": 67.15857622959507,
+          "correlation_with_theta_star": 0.4987584725061681,
+          "shift_in_marginal_sigma": -0.18993385253062114,
+          "unconstrained_mean": 67.27331189831371,
+          "unconstrained_sigma": 0.6040822485825148
+        },
+        "logA": {
+          "conditional_mean": 3.044372316835297,
+          "correlation_with_theta_star": 0.059886808499986434,
+          "shift_in_marginal_sigma": -0.022805692296340933,
+          "unconstrained_mean": 3.044735218293369,
+          "unconstrained_sigma": 0.015912757804328707
+        },
+        "ns": {
+          "conditional_mean": 0.9642988300281317,
+          "correlation_with_theta_star": 0.33581818348989484,
+          "shift_in_marginal_sigma": -0.12788402574811283,
+          "unconstrained_mean": 0.9648574419923399,
+          "unconstrained_sigma": 0.004368113694735629
+        },
+        "omegabh2": {
+          "conditional_mean": 0.022341446659793686,
+          "correlation_with_theta_star": 0.323022658473765,
+          "shift_in_marginal_sigma": -0.1230113198284408,
+          "unconstrained_mean": 0.022359750239422042,
+          "unconstrained_sigma": 0.00014879589662060205
+        },
+        "omegach2": {
+          "conditional_mean": 0.12037288545896001,
+          "correlation_with_theta_star": -0.33186273529763394,
+          "shift_in_marginal_sigma": 0.12637773852683762,
+          "unconstrained_mean": 0.1202002364270026,
+          "unconstrained_sigma": 0.0013661348428128588
+        },
+        "tau": {
+          "conditional_mean": 0.05413074286714254,
+          "correlation_with_theta_star": 0.10482398552327471,
+          "shift_in_marginal_sigma": -0.03991836631467626,
+          "unconstrained_mean": 0.05444509440053729,
+          "unconstrained_sigma": 0.007874859680296484
+        },
+        "theta": {
+          "conditional_mean": 1.0407858242167123,
+          "correlation_with_theta_star": 0.9989152586924873,
+          "shift_in_marginal_sigma": -0.38040020148808756,
+          "unconstrained_mean": 1.0409035738868417,
+          "unconstrained_sigma": 0.00030954155562701416
+        }
+      },
+      "kish_effective_sample_size": 15482.02250108399,
+      "label": "Planck PR3 TT,TE,EE+lowl+lowE",
+      "method_boundary": "The delta-chi2 is the local multivariate-Gaussian profile penalty inferred from a posterior chain. It is not a fresh constrained likelihood minimization, a Bayes factor, or evidence that accounts for the post-search construction of the CH0-selected acoustic package.",
+      "rows": 24497,
+      "source_files": [
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE.paramnames",
+          "sha256": "e3dbf066f4f026f11bdf11dde4e4d9246c0b5f9f6add914977d8371bee9e395e"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE_1.txt",
+          "sha256": "f17a149cbb9bdd4095e279419d6bd0146f96dc5755d92e6ca2d9527e6920bc9d"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE_2.txt",
+          "sha256": "09b2ed8d7ae529febcb4f0c97406ce7f043c624c332cafbc8ce1db7e39150ff7"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE_3.txt",
+          "sha256": "0306d99bee018976f726e07cb0a6ced02fda939de367e482ab917f3781df965b"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE_4.txt",
+          "sha256": "fd3ede90215a5e11ce066bd9d0551325101bf7fa5a1d0d0a935d7822f5d5f165"
+        }
+      ],
+      "source_model": "six-parameter flat LambdaCDM plus Planck nuisance parameters",
+      "sum_frequency_weights": 55091.0,
+      "theta_definition_guard": {
+        "theta_star_100_minus_theta_mc_100_mean": 0.00018392245557350475,
+        "theta_star_100_minus_theta_mc_100_sigma": 1.5032539736051523e-05
+      },
+      "theta_star_100": {
+        "ch0_minus_mean": -0.00011612422167850411,
+        "ch0_z_fixed": -0.38081328538889225,
+        "delta_aic_if_one_parameter_is_removed": -1.854981241671318,
+        "gaussian_profile_delta_chi2": 0.14501875832868188,
+        "weighted_mean": 1.0410874963424153,
+        "weighted_quantiles_2p5_16_50_84_97p5": [
+          1.040473,
+          1.040786,
+          1.041088375,
+          1.041391,
+          1.041674345
+        ],
+        "weighted_sigma": 0.00030493742244290745
+      }
+    },
+    {
+      "ch0_with_laboratory_input_uncertainty": {
+        "combined_residual_z": -0.34844552909658044,
+        "importance_reweighted_kish_ess": 10841.721423180832,
+        "importance_reweighted_theta_star_100_mean": 1.041011927947773,
+        "importance_reweighted_theta_star_100_sigma": 0.00016797798061977866
+      },
+      "convergence_note": "Official Planck chain; properties.ini declares burn_removed=T.",
+      "gaussian_conditional_parameter_shifts": {
+        "H0*": {
+          "conditional_mean": 67.24284093532556,
+          "correlation_with_theta_star": 0.5257037993865374,
+          "shift_in_marginal_sigma": -0.21859330184809173,
+          "unconstrained_mean": 67.35987729255982,
+          "unconstrained_sigma": 0.5354068777257774
+        },
+        "logA": {
+          "conditional_mean": 3.0434793746124584,
+          "correlation_with_theta_star": 0.1602333429830298,
+          "shift_in_marginal_sigma": -0.06662674979653657,
+          "unconstrained_mean": 3.044421883677914,
+          "unconstrained_sigma": 0.014146106005981124
+        },
+        "ns": {
+          "conditional_mean": 0.9643558382843218,
+          "correlation_with_theta_star": 0.3085239022090621,
+          "shift_in_marginal_sigma": -0.12828756147782985,
+          "unconstrained_mean": 0.9648887143375743,
+          "unconstrained_sigma": 0.004153762431165729
+        },
+        "omegabh2": {
+          "conditional_mean": 0.022352102903789937,
+          "correlation_with_theta_star": 0.3481082911252956,
+          "shift_in_marginal_sigma": -0.14474717673064832,
+          "unconstrained_mean": 0.022373199185278664,
+          "unconstrained_sigma": 0.00014574571998722462
+        },
+        "omegach2": {
+          "conditional_mean": 0.1201547916729929,
+          "correlation_with_theta_star": -0.3286850228465308,
+          "shift_in_marginal_sigma": 0.13667077258311242,
+          "unconstrained_mean": 0.11999376894966118,
+          "unconstrained_sigma": 0.0011781796523743903
+        },
+        "tau": {
+          "conditional_mean": 0.05382117389321098,
+          "correlation_with_theta_star": 0.1803845916128408,
+          "shift_in_marginal_sigma": -0.07500585601470425,
+          "unconstrained_mean": 0.05436897788272715,
+          "unconstrained_sigma": 0.00730348293616938
+        },
+        "theta": {
+          "conditional_mean": 1.0407866783729434,
+          "correlation_with_theta_star": 0.9989988520892117,
+          "shift_in_marginal_sigma": -0.4153944823596914,
+          "unconstrained_mean": 1.0409161492186418,
+          "unconstrained_sigma": 0.0003116816693447721
+        }
+      },
+      "kish_effective_sample_size": 15996.745114535928,
+      "label": "Planck PR3 TT,TE,EE+lowl+lowE+lensing",
+      "method_boundary": "The delta-chi2 is the local multivariate-Gaussian profile penalty inferred from a posterior chain. It is not a fresh constrained likelihood minimization, a Bayes factor, or evidence that accounts for the post-search construction of the CH0-selected acoustic package.",
+      "rows": 25225,
+      "source_files": [
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE_lensing/base_plikHM_TTTEEE_lowl_lowE_lensing.paramnames",
+          "sha256": "aa5ef2da4646b6cac233c8f615aa80048df7cff1f0a7ec6234f2823b5ebc354c"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE_lensing/base_plikHM_TTTEEE_lowl_lowE_lensing_1.txt",
+          "sha256": "8d97e67f242aa263eeeb174adb09b7fc073ff94bdb31cac719fe8717ae4bb504"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE_lensing/base_plikHM_TTTEEE_lowl_lowE_lensing_2.txt",
+          "sha256": "03d8c41e7d885f5f46f3955e77a5e9bbfd9c45787ed8341ed72fb6878b96a365"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE_lensing/base_plikHM_TTTEEE_lowl_lowE_lensing_3.txt",
+          "sha256": "a47977acac533bc3efc3bcfa35f929d430e42a2c8efad35964cfe510de2e3792"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE_lensing/base_plikHM_TTTEEE_lowl_lowE_lensing_4.txt",
+          "sha256": "5e81ff7085a22d0d4234ed33a67185ce8f60f4dade48fb8f85533f77e8c7174d"
+        }
+      ],
+      "source_model": "six-parameter flat LambdaCDM plus Planck nuisance parameters",
+      "sum_frequency_weights": 57848.0,
+      "theta_definition_guard": {
+        "theta_star_100_minus_theta_mc_100_mean": 0.00018278580071912645,
+        "theta_star_100_minus_theta_mc_100_sigma": 1.467892721000486e-05
+      },
+      "theta_star_100": {
+        "ch0_minus_mean": -0.00012756289862414505,
+        "ch0_z_fixed": -0.4158107704436808,
+        "delta_aic_if_one_parameter_is_removed": -1.8271014031830326,
+        "gaussian_profile_delta_chi2": 0.17289859681696743,
+        "weighted_mean": 1.041098935019361,
+        "weighted_quantiles_2p5_16_50_84_97p5": [
+          1.04047804,
+          1.040798,
+          1.041103,
+          1.041403,
+          1.041684
+        ],
+        "weighted_sigma": 0.0003067811314459992
+      }
+    },
+    {
+      "ch0_with_laboratory_input_uncertainty": {
+        "combined_residual_z": 0.19530325031607168,
+        "importance_reweighted_kish_ess": 59262.651794209945,
+        "importance_reweighted_theta_star_100_mean": 1.0409534370209284,
+        "importance_reweighted_theta_star_100_sigma": 0.00016758522650514202
+      },
+      "convergence_note": "Secondary check only: archived ACT checkpoint is marked converged=false; this is also an nrun extension rather than the six-parameter baseline.",
+      "gaussian_conditional_parameter_shifts": {
+        "H0": {
+          "conditional_mean": 66.73653685036876,
+          "correlation_with_theta_star": 0.49973463642752686,
+          "shift_in_marginal_sigma": 0.11248047645761548,
+          "unconstrained_mean": 66.63286099988062,
+          "unconstrained_sigma": 0.9217230736679138
+        },
+        "cosmomc_theta": {
+          "conditional_mean": 0.01040776400176952,
+          "correlation_with_theta_star": 0.9991881436364469,
+          "shift_in_marginal_sigma": 0.2248976762358214,
+          "unconstrained_mean": 0.010406988792436875,
+          "unconstrained_sigma": 3.4469423856200255e-06
+        },
+        "logA": {
+          "conditional_mean": 3.039242409034574,
+          "correlation_with_theta_star": -0.167824799944271,
+          "shift_in_marginal_sigma": -0.037774074645067206,
+          "unconstrained_mean": 3.0398563790248123,
+          "unconstrained_sigma": 0.0162537400586861
+        },
+        "nrun": {
+          "conditional_mean": 0.035031743257613525,
+          "correlation_with_theta_star": 0.2866957849882996,
+          "shift_in_marginal_sigma": 0.06452960460056399,
+          "unconstrained_mean": 0.03355881461223594,
+          "unconstrained_sigma": 0.02282562638489667
+        },
+        "ns": {
+          "conditional_mean": 0.9456430093801271,
+          "correlation_with_theta_star": -0.1570850935720088,
+          "shift_in_marginal_sigma": -0.035356777140127804,
+          "unconstrained_mean": 0.9462028775545694,
+          "unconstrained_sigma": 0.015834819226407837
+        },
+        "ombh2": {
+          "conditional_mean": 0.022564713250163928,
+          "correlation_with_theta_star": -0.027605100989170166,
+          "shift_in_marginal_sigma": -0.006213367426609492,
+          "unconstrained_mean": 0.022565791437153034,
+          "unconstrained_sigma": 0.00017352699672787227
+        },
+        "omch2": {
+          "conditional_mean": 0.12210378077587038,
+          "correlation_with_theta_star": -0.4144298198713114,
+          "shift_in_marginal_sigma": -0.09328003344057002,
+          "unconstrained_mean": 0.12233622298754403,
+          "unconstrained_sigma": 0.0024918753038584863
+        },
+        "tau": {
+          "conditional_mean": 0.04817124447181788,
+          "correlation_with_theta_star": -0.11128874761836395,
+          "shift_in_marginal_sigma": -0.025048916853095838,
+          "unconstrained_mean": 0.04835511421987981,
+          "unconstrained_sigma": 0.007340427098715458
+        }
+      },
+      "kish_effective_sample_size": 87618.06809588234,
+      "label": "ACT DR6 TT,TE,EE+Planck lowE, nrun extension",
+      "method_boundary": "The delta-chi2 is the local multivariate-Gaussian profile penalty inferred from a posterior chain. It is not a fresh constrained likelihood minimization, a Bayes factor, or evidence that accounts for the post-search construction of the CH0-selected acoustic package.",
+      "rows": 93744,
+      "source_files": [
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/actlite_nrun_camb/actlite_nrun_camb/actlite_nrun_camb.1.txt",
+          "sha256": "67e7f4e74487b3527b246a5c1581a06732d74a9071c181506551e02f32282692"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/actlite_nrun_camb/actlite_nrun_camb/actlite_nrun_camb.2.txt",
+          "sha256": "991f497f5ef722a585002c0b0129d4edb0684e502005274ad61e20cf82c373b0"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/actlite_nrun_camb/actlite_nrun_camb/actlite_nrun_camb.3.txt",
+          "sha256": "6fe040a49e6d7f7359fc5d4b831bd24a60bca268f37d9ad5b9adbb6c048f93a1"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/actlite_nrun_camb/actlite_nrun_camb/actlite_nrun_camb.4.txt",
+          "sha256": "5701e7a6967a1c7ea8d00162b4724a7d06b0cc4c78840fd382ea1fbd5971b4a3"
+        }
+      ],
+      "source_model": "flat LambdaCDM plus running nrun and the nuisance parameters named in the archived Cobaya chain",
+      "sum_frequency_weights": 100514.0,
+      "theta_definition_guard": {
+        "theta_star_100_minus_theta_mc_100_mean": 0.00019400296874067208,
+        "theta_star_100_minus_theta_mc_100_sigma": 1.4538736450371244e-05
+      },
+      "theta_star_100": {
+        "ch0_minus_mean": 7.848990830860991e-05,
+        "ch0_z_fixed": 0.2250804091981945,
+        "delta_aic_if_one_parameter_is_removed": -1.9493388093951733,
+        "gaussian_profile_delta_chi2": 0.05066119060482668,
+        "weighted_mean": 1.0408928822124281,
+        "weighted_quantiles_2p5_16_50_84_97p5": [
+          1.0402385,
+          1.0405698,
+          1.0409049,
+          1.041214,
+          1.0415356
+        ],
+        "weighted_sigma": 0.0003487194136007441
+      }
+    },
+    {
+      "ch0_with_laboratory_input_uncertainty": {
+        "combined_residual_z": 0.036840000560884274,
+        "importance_reweighted_kish_ess": 73609.77770533647,
+        "importance_reweighted_theta_star_100_mean": 1.0409648931697573,
+        "importance_reweighted_theta_star_100_sigma": 0.00015776703056241516
+      },
+      "convergence_note": "Secondary check only: archived ACT checkpoint is marked converged=false; this is also an nrun extension rather than the six-parameter baseline.",
+      "gaussian_conditional_parameter_shifts": {
+        "H0": {
+          "conditional_mean": 67.58580732240432,
+          "correlation_with_theta_star": 0.4138736807045254,
+          "shift_in_marginal_sigma": 0.01788145093794343,
+          "unconstrained_mean": 67.57594748626933,
+          "unconstrained_sigma": 0.551400228606217
+        },
+        "cosmomc_theta": {
+          "conditional_mean": 0.010407567611051244,
+          "correlation_with_theta_star": 0.9996009858675136,
+          "shift_in_marginal_sigma": 0.043187853733091405,
+          "unconstrained_mean": 0.010407427158426921,
+          "unconstrained_sigma": 3.252132536861611e-06
+        },
+        "logA": {
+          "conditional_mean": 3.0505162302030056,
+          "correlation_with_theta_star": -0.23765159376773243,
+          "shift_in_marginal_sigma": -0.010267759252164404,
+          "unconstrained_mean": 3.0506708648587617,
+          "unconstrained_sigma": 0.015060214401069255
+        },
+        "nrun": {
+          "conditional_mean": 0.006014981856175971,
+          "correlation_with_theta_star": 0.010446532110287104,
+          "shift_in_marginal_sigma": 0.0004513433931910869,
+          "unconstrained_mean": 0.006012346702018954,
+          "unconstrained_sigma": 0.005838468440594458
+        },
+        "ns": {
+          "conditional_mean": 0.9711911909211326,
+          "correlation_with_theta_star": 0.02570954193979021,
+          "shift_in_marginal_sigma": 0.0011107831550220574,
+          "unconstrained_mean": 0.9711863695868701,
+          "unconstrained_sigma": 0.004340481974989096
+        },
+        "ombh2": {
+          "conditional_mean": 0.022435412090697472,
+          "correlation_with_theta_star": 0.05039858793937366,
+          "shift_in_marginal_sigma": 0.0021774756878655812,
+          "unconstrained_mean": 0.0224351232321713,
+          "unconstrained_sigma": 0.00013265752071588277
+        },
+        "omch2": {
+          "conditional_mean": 0.11930725618960746,
+          "correlation_with_theta_star": -0.24479141239512975,
+          "shift_in_marginal_sigma": -0.010576235781215866,
+          "unconstrained_mean": 0.11932172677238542,
+          "unconstrained_sigma": 0.001368216733941208
+        },
+        "tau": {
+          "conditional_mean": 0.058340287602554365,
+          "correlation_with_theta_star": 0.07574001542336548,
+          "shift_in_marginal_sigma": 0.003272354423518696,
+          "unconstrained_mean": 0.058320183597848664,
+          "unconstrained_sigma": 0.006143590242307444
+        }
+      },
+      "kish_effective_sample_size": 94726.67933610598,
+      "label": "Planck high-l cut+ACT DR6+Planck lowT/lowE, nrun extension",
+      "method_boundary": "The delta-chi2 is the local multivariate-Gaussian profile penalty inferred from a posterior chain. It is not a fresh constrained likelihood minimization, a Bayes factor, or evidence that accounts for the post-search construction of the CH0-selected acoustic package.",
+      "rows": 96913,
+      "source_files": [
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite_nrun_camb/p-actlite_nrun_camb/p-actlite_nrun_camb.1.txt",
+          "sha256": "d9458c4b78ee8a6b669cb15e46017bd9fd5a78c54e29f2d18cc47e79dc144a6d"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite_nrun_camb/p-actlite_nrun_camb/p-actlite_nrun_camb.2.txt",
+          "sha256": "19d0dcab5555c77973d99e175d3a1d2864d02d8c073d024be115f830ae97c612"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite_nrun_camb/p-actlite_nrun_camb/p-actlite_nrun_camb.3.txt",
+          "sha256": "503e3f52ec4ce66d506cb6b8e4b571d723cbf46c0970a7e2e0ec264b5191d038"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite_nrun_camb/p-actlite_nrun_camb/p-actlite_nrun_camb.4.txt",
+          "sha256": "acf4cd171c87a5fe62f82e53d4e85e0ab02a0c8f3cf1b34c06dc1a06da9133ee"
+        }
+      ],
+      "source_model": "flat LambdaCDM plus running nrun and the nuisance parameters named in the archived Cobaya chain",
+      "sum_frequency_weights": 99194.0,
+      "theta_definition_guard": {
+        "theta_star_100_minus_theta_mc_100_mean": 0.00021456935802568672,
+        "theta_star_100_minus_theta_mc_100_sigma": 9.236622707539696e-06
+      },
+      "theta_star_100": {
+        "ch0_minus_mean": 1.4086920018918647e-05,
+        "ch0_z_fixed": 0.0432050931760073,
+        "delta_aic_if_one_parameter_is_removed": -1.9981333199236526,
+        "gaussian_profile_delta_chi2": 0.0018666800763474725,
+        "weighted_mean": 1.0409572852007178,
+        "weighted_quantiles_2p5_16_50_84_97p5": [
+          1.040445,
+          1.0406999,
+          1.0409548,
+          1.0412162,
+          1.04146746
+        ],
+        "weighted_sigma": 0.0003260476713134694
+      }
+    },
+    {
+      "ch0_with_laboratory_input_uncertainty": {
+        "combined_residual_z": -0.27143116406801626,
+        "importance_reweighted_kish_ess": 66644.10053720858,
+        "importance_reweighted_theta_star_100_mean": 1.0410155439388415,
+        "importance_reweighted_theta_star_100_sigma": 0.00015385531029895127
+      },
+      "convergence_note": "Secondary check only: archived ACT checkpoint is marked converged=false; this is also an nrun extension rather than the six-parameter baseline.",
+      "gaussian_conditional_parameter_shifts": {
+        "H0": {
+          "conditional_mean": 68.1060753742981,
+          "correlation_with_theta_star": 0.33257909034434874,
+          "shift_in_marginal_sigma": -0.10431911617647074,
+          "unconstrained_mean": 68.15475318431923,
+          "unconstrained_sigma": 0.4666240647475097
+        },
+        "cosmomc_theta": {
+          "conditional_mean": 0.010407542607834214,
+          "correlation_with_theta_star": 0.9992003771890376,
+          "shift_in_marginal_sigma": -0.313416276782884,
+          "unconstrained_mean": 0.010408625083509824,
+          "unconstrained_sigma": 3.4537953380109827e-06
+        },
+        "logA": {
+          "conditional_mean": 3.053169486140799,
+          "correlation_with_theta_star": 0.1699213226887803,
+          "shift_in_marginal_sigma": -0.053298727181198206,
+          "unconstrained_mean": 3.053997333874688,
+          "unconstrained_sigma": 0.01553222333198665
+        },
+        "nrun": {
+          "conditional_mean": 0.005899783328153068,
+          "correlation_with_theta_star": 0.20191541472260746,
+          "shift_in_marginal_sigma": -0.06333422099525224,
+          "unconstrained_mean": 0.006290384804194518,
+          "unconstrained_sigma": 0.006167305287780062
+        },
+        "ns": {
+          "conditional_mean": 0.9739752860832767,
+          "correlation_with_theta_star": 0.19864045129258545,
+          "shift_in_marginal_sigma": -0.06230697273927716,
+          "unconstrained_mean": 0.9741917850403656,
+          "unconstrained_sigma": 0.0034747147481375886
+        },
+        "ombh2": {
+          "conditional_mean": 0.022478549319584075,
+          "correlation_with_theta_star": 0.04591749488128859,
+          "shift_in_marginal_sigma": -0.014402807097992765,
+          "unconstrained_mean": 0.022481246929249934,
+          "unconstrained_sigma": 0.00018729749329454226
+        },
+        "omch2": {
+          "conditional_mean": 0.11794162516052963,
+          "correlation_with_theta_star": -0.0896474282560964,
+          "shift_in_marginal_sigma": 0.028119448139352538,
+          "unconstrained_mean": 0.11790919615367274,
+          "unconstrained_sigma": 0.0011532590076512516
+        },
+        "tau": {
+          "conditional_mean": 0.060882449452815665,
+          "correlation_with_theta_star": 0.13057923553170123,
+          "shift_in_marginal_sigma": -0.04095840910372021,
+          "unconstrained_mean": 0.061159553210317893,
+          "unconstrained_sigma": 0.006765491227955418
+        }
+      },
+      "kish_effective_sample_size": 88065.23731340394,
+      "label": "Planck+ACT DR6+lensing+DESI BAO, nrun extension",
+      "method_boundary": "The delta-chi2 is the local multivariate-Gaussian profile penalty inferred from a posterior chain. It is not a fresh constrained likelihood minimization, a Bayes factor, or evidence that accounts for the post-search construction of the CH0-selected acoustic package.",
+      "rows": 91595,
+      "source_files": [
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb.1.txt",
+          "sha256": "1b18672802474f77a9bdbbca70b550062ae3298bb1c1e49fedf48b63529ccb1a"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb.2.txt",
+          "sha256": "eb9575bc636dacd3450d1095a66a974d63a867e5d25220aa920226f91038d9a7"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb.3.txt",
+          "sha256": "b5ce6d51c9c9ce02989d0b869f4c8b43c2b62d6488ec9a991a0861c755cbf04e"
+        },
+        {
+          "path": "causal-wall-spectral-theory/sources/data/act-dr6/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb/p-actlite-l-b_nrun_camb.4.txt",
+          "sha256": "0c35c743327bdc823457ee19b40f9d506109b4bb3b771ba88437e285f5c2677c"
+        }
+      ],
+      "source_model": "flat LambdaCDM plus running nrun and the nuisance parameters named in the archived Cobaya chain",
+      "sum_frequency_weights": 95378.0,
+      "theta_definition_guard": {
+        "theta_star_100_minus_theta_mc_100_mean": 0.0002170580846736139,
+        "theta_star_100_minus_theta_mc_100_sigma": 1.3810206367047332e-05
+      },
+      "theta_star_100": {
+        "ch0_minus_mean": -0.00010819431491926323,
+        "ch0_z_fixed": -0.3136670921448027,
+        "delta_aic_if_one_parameter_is_removed": -1.9016129553054237,
+        "gaussian_profile_delta_chi2": 0.09838704469457615,
+        "weighted_mean": 1.041079566435656,
+        "weighted_quantiles_2p5_16_50_84_97p5": [
+          1.0405844,
+          1.0408348,
+          1.0410797,
+          1.0413298,
+          1.0415843
+        ],
+        "weighted_sigma": 0.0003449335860496195
+      }
+    }
+  ],
+  "parameterization": {
+    "act_extension_warning": "the archived ACT diagnostics include nrun and therefore do not instantiate the base six-to-five comparison",
+    "archived_chain_coordinate": "theta_MC/cosmomc_theta was sampled; physical theta_star was derived and is the coordinate conditioned here",
+    "base_planck_reduction_interpreted": "six to five cosmological coordinates, with H0 re-solved in a future exact constrained run",
+    "constrained_coordinate": 0.010409713721207367,
+    "fixed_quantity": "physical CAMB theta_star = r_s(z_tau=1)/D_M(z_tau=1)",
+    "method": "local Gaussian profile surrogate in derived physical theta_star; not an exact-theta rerun of the archived likelihood"
+  },
+  "prediction": {
+    "f_pi_charged_MeV": 130.2,
+    "f_pi_charged_sigma_MeV": 1.2,
+    "q_star": 96.06412114511207,
+    "theta_star": 0.010409713721207367,
+    "theta_star_100": 1.0409713721207368,
+    "theta_star_100_input_interval": [
+      1.0407707194204991,
+      1.0411702602736708
+    ],
+    "theta_star_100_input_sigma": 0.00019977042658581023
+  },
+  "schema_version": 1,
+  "test": "CH0-selected package fixed physical acoustic angle chain test"
+}

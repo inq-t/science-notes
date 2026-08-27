@@ -1,0 +1,139 @@
+{
+  "baseline": {
+    "chi2_calPlanck_prior": 0.040306071268246015,
+    "chi2_plik_lite": 582.8779333076255,
+    "chi2_tau_proxy": 0.3462189931648769,
+    "chi2_total": 583.2644583720586,
+    "derived_H0_km_s_Mpc": 67.08114413568283,
+    "message": "`xtol` termination condition is satisfied.",
+    "optimality": 0.2116308137327032,
+    "optimizer_function_evaluations": 10,
+    "optimizer_jacobian_evaluations": 1,
+    "parameters": {
+      "calPlanck": 1.0005019093,
+      "logA": 3.0548826113,
+      "ns": 0.9631161915,
+      "ombh2": 0.0223445482,
+      "omch2": 0.1206136762,
+      "tau": 0.0586953475,
+      "thetastar": 0.01041048417
+    },
+    "returned_theta_star_100": 1.0410484170000822,
+    "success": true,
+    "theta_solver_residual_100": 8.215650382226158e-14
+  },
+  "ch0_fixed": {
+    "chi2_calPlanck_prior": 0.03811760889512065,
+    "chi2_plik_lite": 582.961505840186,
+    "chi2_tau_proxy": 0.32895388469794534,
+    "chi2_total": 583.3285773337791,
+    "derived_H0_km_s_Mpc": 67.00211732451272,
+    "message": "`xtol` termination condition is satisfied.",
+    "optimality": 0.03459731000257375,
+    "optimizer_function_evaluations": 10,
+    "optimizer_jacobian_evaluations": 2,
+    "parameters": {
+      "calPlanck": 1.0004880932857503,
+      "logA": 3.0548722590505486,
+      "ns": 0.9627363891572202,
+      "ombh2": 0.022331865154467584,
+      "omch2": 0.12073591206793045,
+      "tau": 0.058586878612469376,
+      "thetastar": 0.010409713721207367
+    },
+    "returned_theta_star_100": 1.0409713721207372,
+    "success": true,
+    "theta_solver_residual_100": 4.440892098500626e-16
+  },
+  "comparison": {
+    "camb_spectrum_calls": 54,
+    "camb_theta_background_calls": 345,
+    "delta_aic_for_one_fewer_parameter": -1.93588103827949,
+    "delta_chi2_fixed_minus_baseline": 0.06411896172051001,
+    "implied_local_profile_sigma_theta_star_100": 0.00030426397751566334,
+    "theta_star_100_displacement": -7.704487926321613e-05
+  },
+  "data": {
+    "bins": 613,
+    "input_files": [
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/lkl_0/_external/cl_cmb_plik_v22.dat",
+        "sha256": "dac0d9d493213e77c940a10a968cf0da3c5730bae60e1356c4cd8bcff96377ff"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/lkl_0/_external/c_matrix_plik_v22.dat",
+        "sha256": "ad90378c50bd67841764179c90ae6711fa4317c649966ab2b0712143b31e0a32"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/lkl_0/_external/blmin.dat",
+        "sha256": "325b351cbf8f694556bb13e98f285344e8d66811bb8eef18bcdcf1626518719d"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/lkl_0/_external/blmax.dat",
+        "sha256": "c28ade0fa5270c7e87ba07bdcb68aef8783b132b352bfaa36c04d17694ab4014"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/lkl_0/_external/bweight.dat",
+        "sha256": "8afcbd8bad769e2de96bacd80177e6543f96b2b406e6c2da1fd0d26718c9e415"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/check_param",
+        "sha256": "6f1a480375631e0643b9717e458b1fa3055a65589348d8cb88d2f39fd8af4400"
+      },
+      {
+        "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-data-baseline-r3/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik/clik/_mdb",
+        "sha256": "1809ef0dd82f6c47cf97bad20822fef1453b65d1b0ba8154e0677c8403d11a8a"
+      }
+    ],
+    "port_validation": {
+      "calculated_loglike": -292.28631129613814,
+      "difference": 3.861885033984436e-09,
+      "expected_loglike": -292.2863113
+    },
+    "ported_likelihood_source": {
+      "path": "causal-wall-spectral-theory/sources/data/planck-2018/clik-code-v3/code/plc_3.0/plc-3.01/src/cmbonly/plik_cmbonly.f90",
+      "sha256": "70630d03e5aae7ab24a08424136043e4ce95967eb75e8212db7462dc15665d6d"
+    },
+    "spectra": [
+      "TT",
+      "TE",
+      "EE"
+    ]
+  },
+  "interpretive_boundary": "The paired result tests the acoustic constraint against all 613 marginalized Planck high-l bins. The official full-chain surrogate remains the result that includes low-l, explicit Plik nuisance parameters, and lensing. Neither result corrects the post-search selection of CH0.",
+  "schema_version": 1,
+  "software": {
+    "camb": "1.6.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "status": "fresh paired marginalized-high-l likelihood transfer; not the full Plik nuisance likelihood, low-l likelihoods, or lensing",
+  "test": "paired Planck Plik-lite TTTEEE CH0 profile transfer",
+  "theory_and_likelihood": {
+    "calibration_prior": {
+      "mean": 1.0,
+      "parameter": "calPlanck",
+      "sigma": 0.0025
+    },
+    "camb_lmax": 3000,
+    "foreground_treatment": "already marginalized into Plik-lite covariance",
+    "high_l_likelihood": "Planck PR3 Plik-lite v22 TTTEEE",
+    "kmax": 10.0,
+    "lens_potential_accuracy": 1,
+    "mnu_eV": 0.06,
+    "neutrino_hierarchy": "degenerate",
+    "nnu": 3.044,
+    "nonlinear_lensing": true,
+    "num_massive_neutrinos": 1,
+    "recombination": "stock CAMB 1.6.6 default",
+    "spatial_curvature": 0.0,
+    "tau_block": {
+      "kind": "Gaussian proxy for Planck lowE",
+      "mean": 0.0544,
+      "sigma": 0.0073
+    },
+    "theta_coordinate": "physical CAMB thetastar",
+    "theta_solver": "external Brent root of full CAMB physical thetastar in H0; xtol=1e-10 km/s/Mpc, rtol=1e-12",
+    "theta_star_fixed": 0.010409713721207367
+  }
+}

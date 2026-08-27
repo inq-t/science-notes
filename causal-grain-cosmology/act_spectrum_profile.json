@@ -1,0 +1,116 @@
+{
+  "baseline": {
+    "chi2_A_act_prior": 0.00012451903319490694,
+    "chi2_spectra": 151.164896151737,
+    "chi2_tau_proxy": 0.0009872331011398301,
+    "chi2_total": 151.16600790387133,
+    "derived_H0_km_s_Mpc": 66.08309015979154,
+    "message": "`xtol` termination condition is satisfied.",
+    "optimality": 0.009925678092148296,
+    "optimizer_function_evaluations": 14,
+    "optimizer_jacobian_evaluations": 7,
+    "parameters": {
+      "A_act": 1.0000334764290024,
+      "P_act": 1.000018124599194,
+      "logA": 3.050224595347316,
+      "ns": 0.9670711287079681,
+      "ombh2": 0.022562963083840433,
+      "omch2": 0.12384108640505777,
+      "tau": 0.05462936794013057,
+      "thetastar": 0.01040790351442166
+    },
+    "returned_theta_star_100": 1.0407903514421293,
+    "success": true,
+    "theta_solver_residual_100": -3.6637359812630166e-14
+  },
+  "ch0_fixed": {
+    "chi2_A_act_prior": 0.0020510219203834015,
+    "chi2_spectra": 151.4834203962622,
+    "chi2_tau_proxy": 0.012115701056293619,
+    "chi2_total": 151.4975871192389,
+    "derived_H0_km_s_Mpc": 66.3058940063824,
+    "message": "`xtol` termination condition is satisfied.",
+    "optimality": 0.26387510137066617,
+    "optimizer_function_evaluations": 15,
+    "optimizer_jacobian_evaluations": 5,
+    "parameters": {
+      "A_act": 1.000135864628522,
+      "P_act": 1.0002607454822041,
+      "logA": 3.0504775467164027,
+      "ns": 0.9682438358521844,
+      "ombh2": 0.022559679440107797,
+      "omch2": 0.12334882562917074,
+      "tau": 0.0552035208206947,
+      "thetastar": 0.010409713721207367
+    },
+    "returned_theta_star_100": 1.040971372120734,
+    "success": true,
+    "theta_solver_residual_100": -2.6645352591003757e-15
+  },
+  "comparison": {
+    "camb_spectrum_calls": 165,
+    "camb_theta_background_calls": 1051,
+    "delta_aic_for_one_fewer_parameter": -1.6684207846324455,
+    "delta_chi2_fixed_minus_baseline": 0.3315792153675545,
+    "implied_local_profile_sigma_theta_star_100": 0.000314365254177958,
+    "theta_star_100_displacement": 0.00018102067857080073
+  },
+  "data": {
+    "analysis_config_with_ell_8500_override": {
+      "path": "causal-wall-spectral-theory/sources/data/act-dr6/actlite_nrun_camb/actlite_nrun_camb/actlite_nrun_camb.updated.yaml",
+      "sha256": "334fcc1095285dc2c20e2ddf901ded4d8d2c1a63b333a6839893357f5c384eee"
+    },
+    "ell_range": [
+      600,
+      8500
+    ],
+    "likelihood_source": {
+      "path": "causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb/DR6-ACT-lite-627aeafb88ae5ad1aa66b406bea2d65cfa66a27d/act_dr6_cmbonly/act_dr6_cmbonly.py",
+      "sha256": "b1614ff2f69697376212eec857bcde7a94a91d18bd8ab476d118c66fa6d6c964"
+    },
+    "path": "causal-wall-spectral-theory/sources/data/act-dr6/dr6_data_cmbonly/v1.0/dr6_data_cmbonly.fits",
+    "selected_bandpowers": 135,
+    "sha256": "c887dc9178d81f5e5e0ce76eca0cd3c9f089056630ab78a1cc4bb28ff8751c29",
+    "spectra": [
+      "TT",
+      "TE",
+      "EE"
+    ]
+  },
+  "interpretive_boundary": "This tests whether fixing the physical acoustic angle damages an ACT TT/TE/EE spectrum fit under an economical LambdaCDM transfer. It does not test the unconstructed cosmodynamic perturbation law, supply a look-elsewhere correction, or make CH0 prospective.",
+  "schema_version": 1,
+  "software": {
+    "camb": "1.6.6",
+    "numpy": "2.5.2",
+    "sacc": "2.4",
+    "scipy": "1.18.1"
+  },
+  "status": "fresh paired likelihood transfer; not a Planck-clik or archived ACT+Planck lowE reproduction",
+  "test": "paired ACT DR6 full-spectrum CH0 profile transfer",
+  "theory_and_likelihood": {
+    "background": "flat six-parameter LambdaCDM transfer",
+    "calibration_prior": {
+      "mean": 1.0,
+      "parameter": "A_act",
+      "sigma": 0.003
+    },
+    "camb_lmax": 9000,
+    "kmax": 10.0,
+    "lens_potential_accuracy": 1,
+    "mnu_eV": 0.06,
+    "neutrino_hierarchy": "degenerate",
+    "nnu": 3.044,
+    "nonlinear_lensing": true,
+    "num_massive_neutrinos": 1,
+    "recombination": "stock CAMB 1.6.6 default, not archived CosmoRec",
+    "spatial_curvature": 0.0,
+    "tau_block": {
+      "kind": "Gaussian proxy for Planck lowE",
+      "mean": 0.0544,
+      "sigma": 0.0073
+    },
+    "theta_coordinate": "physical CAMB thetastar",
+    "theta_solver": "external Brent root of full CAMB physical thetastar in H0; xtol=1e-10 km/s/Mpc, rtol=1e-12",
+    "theta_star_fixed": 0.010409713721207367
+  }
+}

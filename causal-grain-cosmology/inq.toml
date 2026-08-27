@@ -1,4 +1,4 @@
 [module]
 name = "causal-grain-cosmology"
 entry = "entry.md"
-include = ["**/*.md", "**/*.py"]
+include = ["**/*.md", "**/*.py", "**/*.json"]

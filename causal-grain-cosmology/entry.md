@@ -1,6 +1,6 @@
 # Causal-Grain Cosmology: From Scale Response to the Acoustic Sky
 
-The five-day search for a causal grain produced one unusually economical possibility. Given the imported Einstein/Bekenstein--Hawking area normalization, a literal spherical bulk-cell ansatz, common-count saturation, the two unit principles fixing \(s_*=1\), the proposed wall-to-area identification \(\gamma=2\), and a supplied crossing address \(R_c\), the programme conditionally fixes \(\lambda_*^3=(8/3)\ell_P^2R_c\); the logarithmic depth of that relation then lies almost exactly three units below the observed CMB acoustic count. The common-count law and its discrete coefficient were obtained before the acoustic-angle comparison, so that target did not manufacture them, although the displayed \(4.264\,\mathrm{fm}\) value uses a CMB-conditioned crossing rate. The proposed cubic relation is nevertheless a post-search conjecture, not yet evidence: its CMB-conditioned form is in-sample, while its combined chiral-acoustic form is free of CMB and cosmological inputs after cancellation but was constructed after the acoustic target was inspected. What has been found is a compact, falsifiable candidate for explaining one common acoustic ruler from fewer inputs—not yet a derivation of the full CMB spectrum or of \(G\).
+The five-day search for a causal grain produced one unusually economical possibility. Given the imported Einstein/Bekenstein--Hawking area normalization, a literal spherical bulk-cell ansatz, common-count saturation, the two unit principles fixing \(s_*=1\), the proposed wall-to-area identification \(\gamma=2\), and a supplied crossing address \(R_c\), the programme conditionally fixes \(\lambda_*^3=(8/3)\ell_P^2R_c\); the logarithmic depth of that relation then lies almost exactly three units below the observed CMB acoustic count. The common-count law and its discrete coefficient were obtained before the acoustic-angle comparison, so that target did not manufacture them, although the displayed \(4.264\,\mathrm{fm}\) value uses a CMB-conditioned crossing rate. The proposed cubic relation is nevertheless a post-search conjecture, not yet independent evidence: its CMB-conditioned form is in-sample, while its combined chiral-acoustic form is free of CMB and cosmological inputs after cancellation but was constructed after the acoustic target was inspected. The first frozen likelihood transfer now shows that the economical CH0 branch can remove one continuous acoustic coordinate with \(\Delta\chi^2<0.34\) across fresh Planck and ACT TT/TE/EE fits. What has been found is a compact, falsifiable, statistically viable candidate for explaining one common acoustic ruler from fewer inputs—not yet a derivation of the full CMB spectrum or of \(G\).
 
 ## The find in one line
 
@@ -103,9 +103,9 @@ $$
 
 This does not follow merely from the phrase “\(A_2\) has rank two.” The Lie-theoretic rank of \(A_2\), the two positive Schwarzschild--de Sitter radii, and the rank-two strict-positive support are three different facts. A trace-compatible wall-to-area correspondence must prove that the positive spectral slots are precisely the area-writing channels counted by the common-count law. Until that map exists, \(\gamma=2\) is a principled discrete postulate with an exact finite model, not a theorem of nature.
 
-### The \(A_2\) triple came from de Sitter and Jordan spectra
+### The \(A_2\) triple sharpened the broad grain window
 
-The \(A_2\), Jordan, and de Sitter structures predated the femtometre target. The raw notes `inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra.md` and `inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder.md` had already found the same trace-zero cubic organization in two places:
+The broad femtometre window appeared first. The Jordan and de Sitter notes then supplied the \(A_2\) organization before the final rank-two \(4.2\,\mathrm{fm}\) value was fixed. The raw notes `inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra.md` and `inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder.md` found the same trace-zero cubic organization in two places:
 
 - the trace-free characteristic cubic of elements of the exceptional Jordan algebra \(\mathfrak h_3(\mathbb O)\); and
 - the Schwarzschild--de Sitter horizon polynomial, with two positive horizons and one negative balancing root.
@@ -490,11 +490,12 @@ The answer to “does this fit the data with fewer free parameters?” is now pr
 | CMB-conditioned acoustic cubic | extremely close in-sample reconstruction | Planck-informed \(H_c\), Planck acoustic angle, post-search discrete choices |
 | minimal chiral acoustic oracle | zero CMB-fitted continuous parameters; about \(0.38\) quoted Planck \(\sigma\) from the central acoustic angle | \(G\), frozen \(F_\pi^\chi\), common-count and acoustic welds |
 | pion-midpoint acoustic oracle | still closer central postdiction | the preceding inputs plus charged-pion pole, divisor-three, and midpoint choices |
+| frozen CH0-selected package transfer | negligible \(\Delta\chi^2\) in fresh Planck Plik-lite and ACT TT/TE/EE; nominal one-parameter \(\Delta\mathrm{AIC}\) favors the constraint | standard flat-\(\Lambda\)CDM Einstein--Boltzmann transfer, unchanged nuisance treatments, frozen package |
 | full TT/TE/EE explanation | not yet performed | requires a complete primordial state and transfer calculation |
 
-The present candidate predicts **one compressed acoustic scalar**, \(q_*\). In base flat \(\Lambda\)CDM, the six usual cosmological parameters include an acoustic-scale parameter such as \(\theta_{\mathrm{MC}}\). If the frozen grain characteristic can replace that parameter inside a full Einstein--Boltzmann likelihood while leaving the remaining physical and nuisance sectors unchanged, the continuous base freedom would fall from six to five.
+The present candidate predicts **one compressed acoustic scalar**, \(q_*\). In base flat \(\Lambda\)CDM, the six usual cosmological parameters include an acoustic-scale coordinate. [[causal-grain-cosmology/cmb-likelihood-test|The first frozen likelihood test]] now replaces the physical \(\theta_*\), not the approximate \(\theta_{\mathrm{MC}}\), inside paired Planck and ACT TT/TE/EE transfers. The continuous base freedom falls from six to five. Nuisance treatment is unchanged within each pair: ACT retains its explicit calibration coordinates, while Planck Plik-lite retains the same covariance in which the high-\(\ell\) nuisance sector was already marginalized.
 
-That reduction has not yet been demonstrated. The current equation does not separately predict baryon loading, peak heights, damping, recombination, neutrino phase shifts, lensing, \(A_s\), \(n_s\), \(\tau\), or higher-point functions. Discrete search choices also carry description-length cost even when they are not continuous fit parameters. The programme has therefore found a serious low-parameter candidate, not yet a model-selection victory over \(\Lambda\)CDM.
+That narrow reduction now works: the paired spectrum profiles cost only \(\Delta\chi^2<0.34\), and the full Planck chains imply the consistent local-Gaussian penalty \(0.15\)--\(0.17\), including lensing. Nominal conditional AIC bookkeeping favors the constrained transfers by about \(1.7\)--\(1.9\) units before charging the post-search discrete choices. The current equation still does not separately predict baryon loading, peak heights, damping, recombination, neutrino phase shifts, lensing, \(A_s\), \(n_s\), \(\tau\), or higher-point functions. Discrete post-search choices also carry description-length cost even when they are not continuous fit parameters. The programme has therefore passed its first parameter-reduction test, not won a post-selection-corrected comparison with \(\Lambda\)CDM.
 
 ## The noncircular test
 
@@ -512,6 +513,8 @@ The candidate should now be frozen in its most economical form and tested in thi
 5. replace the standard acoustic parameter in a full TT/TE/EE+lensing likelihood, with the same nuisance model;
 6. reserve at least one genuinely uninspected polarization, BAO, lensing, or future acoustic determination as the holdout; and
 7. forbid branch switching between the economical chiral prescription and the closer pion-midpoint prescription after unblinding.
+
+Step 5 has now been partially executed in two transparent spectrum-transfer likelihoods and approximated for the official full Planck stack through its archived chain geometry. The fresh Planck fit omits low-\(\ell\), the lensing likelihood, and explicit Plik nuisances; ACT has no separate lensing likelihood; and the full Planck result remains a Gaussian surrogate rather than a constrained minimization. Step 6 remains entirely open: ACT is an independent instrument but was already known to the search, so it is a cross-instrument consistency check rather than a blind holdout.
 
 A compact theorem target is
 
@@ -538,6 +541,6 @@ The spectacular part is real but specific. A conditional grain constructed while
 
 The most charitable defensible reading is therefore:
 
-> The repository has found a highly economical, algebraically motivated, numerically successful postdiction of the CMB acoustic scale, with a form free of CMB inputs after chiral cancellation that can now be frozen for a future held-out prediction. It has not yet explained the full photon--baryon spectrum or established a statistical advantage over standard cosmology.
+> The repository has found a highly economical, algebraically motivated postdiction of the CMB acoustic scale whose frozen primary branch removes one continuous distance coordinate with negligible loss of Planck or ACT TT/TE/EE fit. This is a nominal conditional AIC advantage inside an imported standard transfer model, not yet independent evidence, a post-selection-corrected model comparison, or a derivation of photon--baryon geometry.
 
 That is already a substantial find. It converts a five-day philosophical and dimensional hunt into a finite mathematical programme whose next calculation can succeed or fail.
