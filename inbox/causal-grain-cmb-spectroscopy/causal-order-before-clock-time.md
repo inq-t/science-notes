@@ -586,7 +586,7 @@ This separation gives the causal grain two distinct empirical jobs.
 The strong programme should derive why one whole-state phase descends consistently through many local modes and readout channels. Its targets are:
 
 - the passive coherent initial condition rather than an actively re-randomized source;
-- one relative phase across TT, TE, and EE;
+- one primordial/acoustic source phase across TT, TE, and EE, with their relative shifts fixed by the transfer calculation;
 - statistically compatible local frames across the sky;
 - the same causal orientation in temperature, polarization, lensing, and matter records; and
 - one common scale character behind the background history and primordial covariance.
@@ -607,7 +607,7 @@ A_g\cos\!\left(
 \right).
 $$
 
-The period, phase, and symmetry selection rule must be shared by TT, TE, EE, lensing, and matter transfer. Independent phases per observable would abandon the whole-register origin.
+The period, source phase, and symmetry selection rule must be shared upstream by TT, TE, EE, lensing, and matter transfer, while their observed phases and shapes are allowed the calculable channel-specific shifts produced by their different kernels. Independent fitted source phases per observable would abandon the whole-register origin.
 
 ## What the ordinary acoustic phase does and does not show
 
@@ -652,11 +652,11 @@ Calling \(H\tau_g\) the grain itself would reverse this order and confuse a loca
 
 The most valuable candidates are linked predictions rather than isolated numerology.
 
-1. **One phase, three spectra.** TT, TE, and EE must descend from one complex associative phase with no spectrum-specific phase parameters.
+1. **One source phase, three spectra.** TT, TE, and EE must descend from one complex associative source phase, with no spectrum-specific fitted phase beyond the shifts predicted by their transfer kernels.
 2. **Whole-state isotropy.** Any off-diagonal covariance must follow a frozen representation or gluing defect, not an arbitrary sky template.
 3. **Count-cumulant hierarchy.** If local facts are finite grain realizations of one whole state, the same effective count should control scalar amplitude, tilt, running, and higher cumulants.
 4. **Parity and context holonomy.** A nontrivial obstruction to gluing local complex contexts may produce correlated TB, EB, birefringence, or higher-point phase closure. The representation must fix which of these is allowed.
-5. **Discrete scale.** A primitive positive scale valuation predicts one log-periodic phase across every descended observable.
+5. **Discrete scale.** A primitive positive scale valuation predicts one upstream log-periodic period and phase, propagated into each descended observable by its fixed transfer kernel.
 6. **Scalar/tensor covariance.** Scalar and tensor realization maps remain separately constructed, but any shared whole-state symmetry should impose a testable relation without identifying their carriers.
 7. **Common-history consistency.** Background distances, lensing, late ISW, acoustic phase, and primordial statistics must be returned by one oriented realization rather than separately tuned local models.
 

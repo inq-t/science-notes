@@ -57,14 +57,14 @@ By definition,
 $$
 N=\ln\frac{a}{a_*},
 \qquad
-H=\frac{\dot a}{a}
-=\frac{\mathrm dN}{\mathrm dt}.
+H=\frac{1}{a}\frac{\mathrm da}{\mathrm d\tau}
+=\frac{\mathrm dN}{\mathrm d\tau},
 $$
 
-Thus an interval of proper time has the scale increment
+where \(\tau\) is FLRW cosmic proper time on the declared homogeneous branch. Thus an interval of proper time has the scale increment
 
 $$
-\mathrm dN=H\,\mathrm dt.
+\mathrm dN=H\,\mathrm d\tau.
 $$
 
 Let one causal grain have the light-crossing dwell
@@ -96,7 +96,7 @@ $$
 }
 $$
 
-is the number of grain ticks per e-fold.
+is the instantaneous number of grain ticks per differential e-fold at that epoch. It equals a finite one-e-fold count only when the rate can be treated as constant or explicitly integrated.
 
 At the diagnostic crossing,
 
@@ -114,7 +114,7 @@ $$
 \simeq3.83\times10^{-41},
 $$
 
-and one e-fold contains about \(2.61\times10^{40}\) grain ticks. Metres and seconds disappear from the invariant product.
+and the instantaneous crossing rate is about \(2.61\times10^{40}\) grain ticks per differential e-fold. Metres and seconds disappear from the invariant product.
 
 ## One ratio in four physical costumes
 
@@ -154,6 +154,8 @@ $$
 $$
 
 Length, dwell, frequency, and energy are not four independent facts. They are presentations of one dimensionless scale ratio through \(c\) and \(\hbar\). This is why the Hubble constant’s native type \(T^{-1}\) is so important: it compares directly with a resonance frequency without any imported metre stick.
+
+At the selected crossing these identities belong to the granted common-count package. Writing them as functions of an arbitrary epoch \(N\) invokes the additional **live-cut axiom** that the same closure is re-evaluated on every cosmological slice. All epoch-dependent derivatives below are conditional on that extension.
 
 ## The common-count law is a clock-frequency mean
 
@@ -210,19 +212,19 @@ $$
 
 where \(\omega_P=t_P^{-1}\) and \(E_P=\hbar/t_P\).
 
-The causal grain is therefore a weighted geometric mean of the ultraviolet Planck clock and the infrared Hubble clock. In logarithmic form,
+The causal grain is therefore a weighted geometric mean of the ultraviolet Planck clock and the infrared Hubble clock. For any fixed reference duration \(t_0>0\), the dimensionless logarithmic form is
 
 $$
 \boxed{
-\ln\tau_g
+\ln\frac{\tau_g}{t_0}
 =
-\frac23\ln t_P
-+\frac13\ln H^{-1}
+\frac23\ln\frac{t_P}{t_0}
++\frac13\ln\frac{H^{-1}}{t_0}
 +\frac13\ln\frac83.
 }
 $$
 
-The programme’s \(2/3\) appears here as an exact UV/IR weight: two powers of the Planck time and one power of the cosmic time produce the intermediate dwell. This is a genuine consequence of the rank-two/three-volume common count, not a nearby-number observation.
+The programme’s \(2/3\) appears here as an exact UV/IR weight: two powers of the Planck time and one power of the cosmic time produce the intermediate dwell. The exponent comes from the areal factor \(\ell_P^2\) followed by the cubic root in the three-volume common count; the rank-two wall assumptions contribute to the coefficient \(8/3\), not by themselves to the exponent. This is a derived scaling law, not a nearby-number observation.
 
 ## Resolution depth, grain depth, and the ledger
 
@@ -358,22 +360,30 @@ $$
 is the radial comoving coordinate speed of light. Therefore
 
 $$
-\frac{\mathrm d\ln a}{\mathrm dt}=H,
+\frac{\mathrm d\ln a}{\mathrm d\tau}=H,
 \qquad
-\frac{\mathrm d\ln c_\chi}{\mathrm dt}=-H.
+\frac{\mathrm d\ln c_\chi}{\mathrm d\tau}=-H.
 $$
 
-During one grain dwell,
+Across a finite grain dwell beginning at \(\tau\), the exact increments are
 
 $$
-\delta\ln a=+H\tau_g=+\delta N_g,
+\Delta_g\ln a
+=
+\int_{\tau}^{\tau+\tau_g}H(\tau')\,\mathrm d\tau'
+\simeq
++H(\tau)\tau_g,
 $$
 
 $$
-\delta\ln c_\chi=-H\tau_g=-\delta N_g.
+\Delta_g\ln c_\chi
+=
+-\int_{\tau}^{\tau+\tau_g}H(\tau')\,\mathrm d\tau'
+\simeq
+-H(\tau)\tau_g.
 $$
 
-The grain writes equal and opposite logarithmic increments into the expansion and coordinate-light registers. At \(u=N-N_c\),
+The final approximations are the instantaneous, first-order reading \(\delta N_g=H(\tau)\tau_g\). The grain writes exactly opposite logarithmic increments into the expansion and coordinate-light registers when both are integrated over the same interval. At \(u=N-N_c\),
 
 $$
 \frac{a}{a_c}=e^u,
@@ -396,17 +406,17 @@ which is precisely the balanced family of minimal cosmodynamics. The conjectural
 Any physical oscillator phase satisfies
 
 $$
-\mathrm d\theta_k=\omega_k\,\mathrm dt.
+\mathrm d\theta_k=\omega_{k,\mathrm{phys}}\,\mathrm d\tau.
 $$
 
-Because \(\mathrm dN=H\,\mathrm dt\),
+Because \(\mathrm dN=H\,\mathrm d\tau\),
 
 $$
 \boxed{
 \theta_k(N_*)
 =
 \int^{N_*}
-\frac{\omega_k(N)}{H(N)}
+\frac{\omega_{k,\mathrm{phys}}(N)}{H(N)}
 \,\mathrm dN.
 }
 $$

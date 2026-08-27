@@ -4,7 +4,7 @@ This index keeps `deriving-value-of-g` self-contained without duplicating articl
 
 ## Sources cited by the canonical notes
 
-- [[deriving-value-of-g/sources/data/nist-2022-codata-recommended-values.pdf|NIST, “2022 CODATA Recommended Values of the Fundamental Physical Constants”]] fixes the measured SI comparison values. The same release is mirrored as [[deriving-value-of-g/sources/data/nist-2022-codata-all-constants.txt|plain text]].
+- [[data/codata-2022-fundamental-physical-constants/entry|The 2022 CODATA dataset]] fixes the measured SI comparison values and owns the machine-readable table, human-readable presentation, provenance, and frozen hash.
 - [[library/relative-entropy-and-the-bekenstein-bound/entry|Casini, “Relative Entropy and the Bekenstein Bound”]] gives the QFT-relative-entropy form of the bound. Its [[library/relative-entropy-and-the-bekenstein-bound/0804.2182-source.tar.gz|arXiv source payload]] is retained.
 - [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|Jacobson, “Thermodynamics of Spacetime: The Einstein Equation of State”]] derives the Einstein equation conditionally from local horizon equilibrium and a universal entropy--area density. Its [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/gr-qc-9504004-source.tar.gz|arXiv source payload]] is retained.
 - [[library/entanglement-equilibrium-and-the-einstein-equation/entry|Jacobson, “Entanglement Equilibrium and the Einstein Equation”]] gives the related small-ball entanglement-equilibrium route. Its [[library/entanglement-equilibrium-and-the-einstein-equation/1505.04753-source.tar.gz|arXiv source payload]] is retained.

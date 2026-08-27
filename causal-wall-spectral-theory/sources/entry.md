@@ -66,7 +66,7 @@ These are constructibility precedents. None derives CWST’s scale-indexed state
 - [[library/the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological-models/entry|ACT DR6 Constraints on Extended Cosmological Models]] gives the joint running result discussed in [[causal-wall-spectral-theory/empirical-targets|the empirical-target ledger]].
 - [[library/bicep-keck-2018-primordial-gravitational-waves/entry|BICEP/Keck 2018-Season Primordial-Gravitational-Wave Analysis]] supplies the tensor bound used as a calibration target.
 
-The matching local spectra, likelihoods, chains, and release code are indexed in [[causal-wall-spectral-theory/sources/data/entry]].
+The matching observational products are owned by [[data/wmap-seven-year-power-spectra/entry|WMAP7]], [[data/planck-2015-release-2-cosmology-products/entry|Planck Release-2]], [[data/bicep2-keck-planck-2015-joint-likelihood/entry|the 2015 BKP likelihood]], [[data/planck-2018-release-3-cosmology-products/entry|Planck Release-3]], [[data/bicep-keck-2018-data-products/entry|BK18]], and [[data/act-dr6-cosmology-products/entry|ACT DR6]] dataset modules.
 
 ## Adjacent vacuum and gravitational-information sources
 

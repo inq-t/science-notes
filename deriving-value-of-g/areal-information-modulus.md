@@ -143,7 +143,7 @@ up to geometric and normalization factors. “Spacetime is stiff” is an interp
 
 ## Measured target in SI units
 
-The [[deriving-value-of-g/sources/data/nist-2022-codata-recommended-values.pdf|2022 CODATA recommended value]] is
+The [[data/codata-2022-fundamental-physical-constants/entry|2022 CODATA recommended value]] is
 
 $$
 G=6.67430(15)\times10^{-11}

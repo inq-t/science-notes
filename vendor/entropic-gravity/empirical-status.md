@@ -42,7 +42,7 @@ Consequently, many observations test the spherical formula embedded in an auxili
 
 The SPARC compilation contains high-quality rotation curves and baryonic mass models for 175 disk galaxies. The radial-acceleration-relation compilation contains 2,693 resolved measurements from 153 galaxies and displays a tight relation between observed acceleration \(g_{\mathrm{obs}}\) and the acceleration \(g_{\mathrm{bar}}\) predicted from baryons.
 
-The source papers are archived as [[library/sparc-mass-models-for-175-disk-galaxies/entry|SPARC]] and [[library/the-radial-acceleration-relation-in-rotationally-supported-galaxies/entry|the radial acceleration relation]]. Their machine-readable tables are described in [[vendor/entropic-gravity/sources/data/entry|the local data note]].
+The source papers are archived as [[library/sparc-mass-models-for-175-disk-galaxies/entry|SPARC]] and [[library/the-radial-acceleration-relation-in-rotationally-supported-galaxies/entry|the radial acceleration relation]]. Their machine-readable tables are owned by [[data/sparc-galaxy-sample-and-mass-models/entry|the SPARC dataset module]] and [[data/radial-acceleration-relation-data/entry|the RAR dataset module]].
 
 The existence of these regularities is the principal empirical motivation for a baryon-linked law. It does not by itself identify Verlinde’s microscopic explanation: MOND interpolation laws, dark-matter galaxy formation, and other baryon–halo relations can also be compared with the same data.
 

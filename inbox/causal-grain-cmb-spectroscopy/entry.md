@@ -1,6 +1,6 @@
 # Causal-Grain CMB Spectroscopy
 
-The cosmic microwave background can serve as a phase-sensitive record of a **grain of causal scale**, provided the grain is placed at the right ontological level. It is not first a femtometre, clock tick, mass, or acoustic wavelength. It is a primitive positive global-to-local realization carrying one unit of an algebraic scale valuation: ambient reversible symmetry becomes one-sided relative to an accessible local algebra, a contextual fact acquires causal position, and only then do conformal geometry, metric scale, local clocks, particles, and records appear. The CMB is valuable because one here-and-now sky contains local records of globally coherent primordial order. Its acoustic peaks are the local photon--baryon response; their common TT/TE/EE phase and any discrete-scale residual are candidate fossils of the upstream causal descent.
+The cosmic microwave background can serve as a phase-sensitive record of a **grain of causal scale**, provided the grain is placed at the right ontological level. It is not first a femtometre, clock tick, mass, or acoustic wavelength. It is a primitive positive global-to-local realization carrying one unit of an algebraic scale valuation: ambient reversible symmetry becomes one-sided relative to an accessible local algebra, a contextual fact acquires causal position, and only then do conformal geometry, metric scale, local clocks, particles, and records appear. The \(S^6\) slice geometry and Connes' outer modular flow make this global/local structure precise: complex observable contexts and algebraic clocks have invariant families before any one local realization is selected. The CMB is valuable because one here-and-now sky contains local records of globally coherent primordial order. Its acoustic peaks are the local photon--baryon response; their common TT/TE/EE phase and any discrete-scale residual are candidate fossils of the upstream causal descent.
 
 ## The meaning: a local sky records a global causal descent
 
@@ -151,6 +151,133 @@ $$
 
 measures local distinguishability. The extensive unit \(s_*=1\), the intensive Fisher value \(g_{ss}(0)=1\), and a possible lattice interval \(\delta\sigma_g\) are three distinct statements. Under the strong package they are related by the unit correspondence, not identified by notation.
 
+## Positivity, integrability, and the unlike time dimension
+
+The unit-imaginary octonions form
+
+$$
+S^6
+\cong
+G_2/SU(3).
+$$
+
+Each \(u\in S^6\) selects an associative complex slice \(\mathbb C_u\), but the canonical octonionic almost-complex structure is not integrable. In the declared convention,
+
+$$
+\boxed{
+N_{J,u}(v,w)
+=
+2[u,v,w].
+}
+$$
+
+Thus the associator is the local integrability obstruction for the canonical \(J\), so that canonical family does not define a holomorphic atlas. The precise duality is not positivity versus every possible integrable complex structure. It is an exceptional positive whole with a canonical \(G_2\)-covariant, nonintegrable family on one side, and selected complex-associative local observable fibers with any integrable gluing they can support on the other.
+
+Connes supplies the temporal analogue. A faithful weight \(\varphi_u\) selects a modular automorphism flow
+
+$$
+\sigma_t^{\varphi_u}
+:
+\mathbb R
+\longrightarrow
+\operatorname{Aut}(\mathcal A_u),
+$$
+
+while different weights have one common outer class
+
+$$
+\delta_{\mathcal A_u}(t)
+=
+[\sigma_t^{\varphi_u}]
+\in
+\operatorname{Out}(\mathcal A_u).
+$$
+
+For this outer flow to be nontrivial, \(\mathcal A_u\) must be the appropriate infinite local observable algebra; the finite matrix context alone has only inner automorphisms. This “time” is unlike a spatial coordinate: it acts on the algebra of local observables. It is still reversible and dimensionless. The pointed cone or half-sided inclusion supplies orientation, the wall index supplies a discrete causal event, record composition supplies history, and a separate clock solder supplies seconds or conformal time.
+
+The resulting construction order is
+
+$$
+\boxed{
+\text{exceptional positive whole}
+\longrightarrow
+\text{complex observable fiber}
+\longrightarrow
+\text{state/weight and reversible modular flow}
+\longrightarrow
+\text{positive half-sided causal semigroup}
+\xrightarrow{\ \nu=+1\ }
+\text{local fact and record}
+\longrightarrow
+\text{metric \(3+1\) history}.
+}
+$$
+
+[[inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality|The \(S^6\) positivity--integrability duality]] develops the groupoid and exceptional symmetry, while [[inbox/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension|Connes time as an algebraic dimension]] separates modular flow, flow of weights, trace scaling, causal order, record order, scale-age, conformal time, and proper time.
+
+## The pion-scale resonance candidate
+
+The search produced one unusually economical post-search relation. The earlier oracle froze the charged-pion decay-constant prescription; CH3 newly adds the charged-pion pole mass as a second laboratory input and the division by three as a structural trial:
+
+$$
+\boxed{
+E_g^2
+\stackrel{?}{=}
+\frac{F_\pi^\chi m_{\pi^\pm}}{6},
+\qquad
+E_{\chi\pi}
+:=
+\sqrt{
+\left(\frac{F_\pi^\chi}{2}\right)
+\left(\frac{m_{\pi^\pm}}{3}\right)}
+=
+46.277407\,\mathrm{MeV}
+\simeq
+E_g^{\mathrm{cc}}
+=
+46.274705\,\mathrm{MeV}.
+}
+$$
+
+\(E_g^{\mathrm{cc}}\) is obtained from the common-count law at \(H_c=83.1058\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\), not from treating the rounded display \(4.264\,\mathrm{fm}\) as exact. The chiral midpoint is \(58.4\) parts per million higher, well inside the much larger \(F_\pi\) input uncertainty.
+
+Equivalently,
+
+$$
+\lambda_g^2
+\stackrel{?}{=}
+\left(\frac{2\hbar c}{F_\pi^\chi}\right)
+\left(\frac{3\hbar c}{m_{\pi^\pm}}\right),
+$$
+
+whose logarithmic midpoint is \(4.264003\,\mathrm{fm}\), close to the exact common-count value \(4.264251\,\mathrm{fm}\). This is better typed than a bare mass coincidence: \(F_\pi\) is an axial-current/Goldstone response scale, with kinetic coefficient \(F_\pi^2/4\), while \(m_\pi\) is a local pseudo-Goldstone pole. The candidate grain sits between these global-wave and local-particle presentations in logarithmic scale.
+
+The factors \(2\) and \(3\) have candidate structural owners in the exact flag
+
+$$
+\mathfrak h_2(\mathbb C_u)
+\subset
+\mathfrak h_3(\mathbb C_u)
+\subset
+\mathfrak h_3(\mathbb O),
+$$
+
+but no theorem yet derives the quotients or the geometric mean. Substituting the candidate into the common-count clock law gives
+
+$$
+H_{c,\chi\pi}
+=
+\frac{8G}{3\hbar^2c^5}
+\left(
+\frac{F_\pi^\chi m_{\pi^\pm}}{6}
+\right)^{3/2}
+\simeq
+83.12\,
+\mathrm{km\,s^{-1}\,Mpc^{-1}}.
+$$
+
+Its proximity to the packet's CMB-conditioned branch value is striking but a posteriori. It becomes evidence only if a normalization-rigid chiral wall map derives the factors and predicts a held-out chiral or cosmological quantity. [[inbox/causal-grain-cmb-spectroscopy/pion-grain-chiral-resonance|The pion--grain chiral resonance]] records the arithmetic, interpretation, and kill conditions.
+
 ## The acoustic dwell reading
 
 For an ideal oscillator,
@@ -266,6 +393,9 @@ This is the same discipline already imposed by [[minimal-cosmodynamic-closure/pr
 | The grain is the literal \(4.3\,\mathrm{fm}\) wavelength of a CMB acoustic mode | **Wrong type**; its role is an epoch-relative unit that cancels from dimensionless acoustic phase |
 | One common causal construction returns background expansion, baryon dwell, opacity, and primordial coherence | **Principal strong explanation candidate** under the granted cosmodynamic package |
 | A causal scale unit could also modulate primordial correlations | **Sharper secondary prediction**, provided the wall-to-curvature and hot-history maps freeze its period and phase |
+| \(S^6\) organizes local complex choices while the octonion associator obstructs integrability of the canonical \(J\) | **Established mathematics**; the positivity-to-local-observable descent remains open |
+| Connes time is an algebra automorphism direction unlike a spatial coordinate | **Theorem-level modular structure**; causal, metric, and cosmological identifications require separate solders |
+| \(E_g^2=F_\pi^\chi m_{\pi^\pm}/6\) | **New post-search chiral wall candidate**; central-value agreement is not yet evidence |
 | \(\mathcal F(\mathfrak h_3(\mathbb O))\) supplies an octonion-organized symplectic carrier | **Established mathematics**; physical phase-space identification remains proposed |
 | A selected corner and complex slice return \(\mathbb R^{1,3}\) | **Exact algebraic presentation**; spacetime, dynamics, and collapse remain open |
 | Current CMB data contain a detected causal-grain resonance | **No**; existing feature searches and cross-experiment spectra establish a null baseline |
@@ -276,7 +406,8 @@ The decisive strong object is one common hot-history realization
 
 $$
 \mathfrak W_{\mathrm{hot}}:
-(\text{scale dwell},\text{branch state},\text{composition})
+(\text{positive whole},\text{complex context},\text{modular state},
+\text{scale dwell},\text{composition},\text{chiral response})
 \longrightarrow
 (H,R,\dot\kappa,\zeta,\pi_\zeta,\mathcal P_\zeta,B_\zeta,\ldots),
 $$

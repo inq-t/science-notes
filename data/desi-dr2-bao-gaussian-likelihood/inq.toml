@@ -1,0 +1,5 @@
+[module]
+name = "desi-dr2-bao-gaussian-likelihood"
+entry = "entry.md"
+include = ["**"]
+

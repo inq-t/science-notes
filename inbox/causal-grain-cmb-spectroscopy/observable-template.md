@@ -1,6 +1,56 @@
 # A Falsifiable Causal-Scale Template for the CMB
 
-The clean first observable is a small modulation of the primordial curvature state, periodic in logarithmic scale and propagated through otherwise standard photon--baryon transfer. This realizes the grain as a scale unit rather than confusing it with the acoustic ruler. An optional \(A_2\) branch order parameter predicts when the fundamental modulation cancels and when a third-harmonic higher-point signal may survive. A stronger material route could derive the photon--baryon sound cone from causal dwell and transport, but it must return baryon loading, opacity, and hot-history scaling rather than merely redescribe them.
+The primary empirical target is not an anomaly but a common-source derivation of the ordinary CMB phase architecture: one positive whole-state construction should return the primordial state, background scale history, photon--baryon dwell, opacity, and the shared TT/TE/EE phase with fewer independent inputs. If that strong map is not yet calculable, the clean first residual observable is a small modulation of the primordial curvature state, periodic in logarithmic scale and propagated through otherwise standard photon--baryon transfer. This realizes the grain as a scale unit rather than confusing it with the acoustic ruler. An optional \(A_2\) branch order parameter predicts when the fundamental modulation cancels and when a third-harmonic higher-point signal may survive.
+
+## Explain the common phase before searching for a residual
+
+The strongest object is one natural hot-history descent
+
+$$
+\mathfrak W_{\mathrm{hot}}:
+(\text{positive whole},u,\varphi_u,\text{scale valuation},
+\text{composition},\text{chiral response})
+\longrightarrow
+(H,R,\dot\kappa,\zeta,\pi_\zeta,\mathcal P_\zeta,\ldots).
+$$
+
+Here \(u\in S^6\) selects a local associative complex context and \(\varphi_u\) selects a representative of Connes' algebraic time flow. The model must construct a clock solder
+
+$$
+\mathrm dt_{\mathrm{mod}}
+\longmapsto
+\mathrm d\eta
+$$
+
+that makes one upstream phase
+
+$$
+\Psi_k
+=
+A_ke^{i\theta_k},
+\qquad
+\theta_k
+=
+\int\omega_{k,\varphi_u}^{\mathrm{mod}}\,
+\mathrm dt_{\mathrm{mod}}
+=
+\int kc_s(\eta)\,\mathrm d\eta
+$$
+
+descend into temperature displacement, velocity-sourced polarization, and their cross-correlation. This would explain why TT, TE, and EE are differently filtered quadratures of one phase even if the final spectra contain no new oscillatory feature.
+
+The compression criterion is parameter accounting. A successful strong model must determine several of
+
+$$
+H(N),\quad
+R(N),\quad
+\dot\kappa(N),\quad
+\theta_k,\quad
+\mathcal P_\zeta(k),\quad
+\text{branch weights}
+$$
+
+from fewer primitive choices than it returns. Re-expressing the standard transfer equations in grain units does not count, because the metric grain cancels from the dimensionless acoustic phase. [[inbox/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension|The algebraic-time note]] states the clock-solder obligation; [[inbox/causal-grain-cmb-spectroscopy/pion-grain-chiral-resonance|the pion note]] gives a possible independently frozen material scale.
 
 ## Choose the causal location of the new physics
 
@@ -233,7 +283,7 @@ $$
 =\frac34\cos(3\theta)
 $$
 
-show a potentially valuable selection rule. Symmetric branch averaging can hide the fundamental in the power spectrum while allowing a third harmonic in a cubic statistic. Turning that identity into a bispectrum prediction still requires a nonlinear curvature map; the trigonometry alone does not generate non-Gaussianity.
+show a potentially valuable selection rule. With normalized equal weights \(w_a=1/3\), the cubic average is \(\tfrac14\cos(3\theta)\); the unweighted formula above has coefficient \(3/4\). In this explicitly coherent, linear branch-moment template, symmetric averaging can hide the fundamental source term while allowing a third harmonic after a nonlinear map. A statistical mixture of random branches need not cancel its two-point variance. Turning the identity into a bispectrum prediction therefore still requires a nonlinear curvature map; the trigonometry alone does not generate non-Gaussianity.
 
 If a descended associative operator supplies three genuine energy levels, an independent refinement is an additive gap multiplet,
 
@@ -329,6 +379,6 @@ The CMB version of the proposal fails if
 - TT prefers a pattern that its fixed primordial model fails to reproduce in TE and EE;
 - the feature follows observing frequency or foreground masks;
 - a dynamical model shifts peaks without the required damping, polarization, or lensing consequences;
-- equal \(A_2\) weights are claimed while a fundamental two-point ripple is retained;
+- equal coherent \(A_2\) weights are claimed in the linear branch-moment template while a fundamental ripple is retained without a declared symmetry-breaking term;
 - the local improvement disappears under a global trials calculation; or
 - the CMB-conditioned grain value is reused as supposedly independent CMB evidence.

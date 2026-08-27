@@ -1,0 +1,5 @@
+[module]
+name = "sparc-galaxy-sample-and-mass-models"
+entry = "entry.md"
+include = ["**"]
+

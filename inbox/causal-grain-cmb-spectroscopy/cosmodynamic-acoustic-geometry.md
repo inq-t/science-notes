@@ -345,12 +345,12 @@ $$
 or in logarithmic form,
 
 $$
--\ln\frac{v_{s,\chi}}{c}
+-\ln\frac{v_{s,\chi}}{c/a_0}
 =
 N+\ln\mathfrak n_{\gamma b}.
 $$
 
-Cosmic expansion and material dwell therefore add as logarithmic delays. This is the photon--baryon relational geometry in its most economical form.
+Here \(N=\ln(a/a_0)\); the more familiar denominator \(c\) follows after the conventional normalization \(a_0=1\). Cosmic expansion and material dwell therefore add as logarithmic delays. This is the photon--baryon relational geometry in its most economical form.
 
 Equivalently, at the level of causal reachability counts,
 
@@ -537,42 +537,42 @@ A_k\cos\theta_k
 +iA_k\sin\theta_k.
 $$
 
-The idealized source observables then have the architecture
+Define idealized, unprojected source quadratures
 
 $$
-T_k^{\mathrm{osc}}
+S_{T,k}
 \propto
 \operatorname{Re}\Psi_k,
 \qquad
-v_k
+S_{E,k}
 \propto
 \operatorname{Im}\Psi_k,
 $$
 
-while E-polarization is generated from the velocity-induced quadrupole. Consequently,
+where \(S_{E,k}\) stands for the velocity-induced quadrupole source of E-polarization, not the observed E-mode multipole. Their source-level mode powers have the architecture
 
 $$
-TT\sim|\operatorname{Re}\Psi|^2,
+P_{S_T}\sim|\operatorname{Re}\Psi|^2,
 \qquad
-EE\sim|\operatorname{Im}\Psi|^2,
+P_{S_E}\sim|\operatorname{Im}\Psi|^2,
 \qquad
-TE\sim
+P_{S_TS_E}\sim
 \operatorname{Re}\Psi\,
 \operatorname{Im}\Psi.
 $$
 
-The observed interleaving and sign-changing TE spectrum are thus natural records of one complex phase rather than three unrelated patterns. The octonionic carrier contributes by explaining why a global nonassociative possibility space must choose an associative complex context before local records can exhibit ordinary quadrature physics.
+The observed \(C_\ell^{TT}\), \(C_\ell^{TE}\), and \(C_\ell^{EE}\) arise only after distinct visibility and line-of-sight kernels act on these sources. Their interleaving and sign-changing cross-spectrum can therefore record one upstream complex phase without being three identical projected patterns. The octonionic carrier contributes by explaining why a global nonassociative possibility space must choose an associative complex context before local records can exhibit ordinary quadrature physics.
 
-In the ideal undriven limit,
+For one ideal undriven Fourier mode, before line-of-sight projection,
 
 $$
-\frac{TT_{\mathrm{osc}}}{A_T^2}
+\frac{|S_T|^2}{A_T^2}
 +
-\frac{EE_{\mathrm{osc}}}{A_E^2}
+\frac{|S_E|^2}{A_E^2}
 \simeq1,
 $$
 
-after the appropriate transfer normalizations. A reconstructed quadrature-sum invariant is a candidate empirical target of the Born-dwell conservation law. Baryon loading, gravitational driving, visibility width, and projection give controlled departures that the same forward model must calculate.
+after source-level normalizations. This is not a pointwise identity among the observed angular spectra \(C_\ell^{TT}\) and \(C_\ell^{EE}\): line-of-sight kernels mix wavenumbers and read the two source quadratures differently. It becomes an empirical candidate only if the theory first fixes a non-fitted inverse-transfer reconstruction of the source modes. Baryon loading, gravitational driving, visibility width, and projection give controlled departures that the same forward model must calculate.
 
 ## Odd/even peaks and diffusion become dwell effects
 
@@ -634,15 +634,15 @@ The maximally charitable completion would organize the usual CMB inputs as follo
 | Observable family | Economical cosmodynamic origin | Independent freedom sought |
 |---|---|---:|
 | late expansion \(H(z)\), \(w_0\), \(w_a\), \(q_0\), future class | unit \(\operatorname{sech}^2u\) wall response | one ordinary-matter member datum after radiation |
-| absolute crossing scale | chiral grain oracle using local \(G\) and \(F_\pi^\chi\) | no cosmological scale fit |
+| absolute crossing scale | CH3 chiral grain oracle using local \(G\), \(F_\pi^\chi\), and \(m_{\pi^\pm}\) | no cosmological scale fit, but two independent chiral inputs until their relation is derived |
 | relative grain depth \(\Sigma_A(N)\) | common count plus horizon mint law | one frozen anchor |
 | sound speed and baryon peak asymmetry | one dwell ratio \(R=h_b/h_\gamma\) | baryon allocation, unless the wall derives it |
 | acoustic angle and peak spacing | ratio \(\mathcal N_s/\mathcal N_D\) | none beyond the background and composition |
-| TT/EE interleaving and TE sign | one complex coherent phase | no separate phase per spectrum |
+| TT/EE interleaving and TE sign | one complex source phase passed through the standard transfer kernels | no separately fitted phase beyond the channel shifts predicted by transfer |
 | damping tail | opacity-weighted loss of the same phase | standard atomic inputs or their material solder |
 | scalar amplitude, tilt, running | one causal count law \(\mathcal N_{\mathrm{eff}}(k)\) | ideally one normalization fixed by the state |
 | bispectrum/higher moments | finite-count and \(A_2\) branch statistics | no unrelated shape catalogue |
-| CMB lensing and late ISW | the same cosmodynamic background and covariant response | no phenomenological \(A_L\) |
+| CMB lensing and late ISW | the same cosmodynamic background plus one frozen perturbation/Poisson--slip response, matter and neutrino content, primordial normalization, and nonlinear prescription | no phenomenological \(A_L\), with every response input counted |
 
 The programme becomes impressive if the same frozen construction returns several rows at once. It becomes merely flexible if every row receives a new map with a new free coefficient.
 
@@ -652,10 +652,10 @@ The first-principles completion should aim at the following linked predictions:
 
 1. **Acoustic-count ratio:** predict \(\theta_*\) and hence \(\ell_A\) from the late-time cosmodynamic distance and the internally generated sound count.
 2. **Absolute ruler:** predict \(r_s\) or \(r_d\), discriminating the approximately \(147\,\mathrm{Mpc}\) low-\(H_0\) branch from the approximately \(136\,\mathrm{Mpc}\) high-\(H_0\) branch already exposed by the calibrated background fit.
-3. **One baryon-dwell parameter, many effects:** use the same \(R_*\) to predict sound speed, odd/even TT loading, velocity amplitude, and diffusion scale.
-4. **Quadrature closure:** reproduce the relative TT, TE, and EE phases with one primordial phase and no spectrum-specific shifts.
+3. **One baryon-dwell history, many effects:** require the same derived \(R(N)\), including \(R_*\), to contribute consistently to sound speed, odd/even TT loading, and velocity amplitude and, together with a separately fixed \(H(N)\), opacity, recombination, and helium history, to the diffusion scale.
+4. **Quadrature closure:** reproduce the relative TT, TE, and EE phases with one primordial source phase and no fitted spectrum-specific shifts beyond those calculated by the declared transfer kernels.
 5. **Count spectrum:** derive \(A_s\), \(n_s\), running, and higher-point suppression from one \(\mathcal N_{\mathrm{eff}}(k)\).
-6. **Late transfer:** use the already fixed \(H(N)\) to predict lensing smoothing, the lensing reconstruction, late ISW correlations, and growth without an \(A_L\) patch.
+6. **Late transfer:** use the already fixed \(H(N)\) together with the same frozen covariant perturbation/Poisson--slip law, matter and neutrino content, primordial normalization, and nonlinear transfer to predict lensing smoothing, lensing reconstruction, late ISW correlations, and growth without an \(A_L\) patch.
 7. **Scale-unit residual:** if discrete scale survives coarse graining, predict one log-periodic residual with its \(A_2\) selection rule across TT, TE, EE, lensing, and the matter spectrum.
 
 This is the appropriate comparison with Planck’s quantum hypothesis: not whether one equation has already been derived from a deeper one, but whether a small indivisible principle compresses many independent regularities and survives new measurements.

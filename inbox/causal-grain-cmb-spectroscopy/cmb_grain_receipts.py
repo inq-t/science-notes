@@ -115,24 +115,25 @@ def zero_crossings(
 
 
 def unit_and_closure_receipts() -> None:
-    lambda_g = 4.264e-15
     hubble_km_s_mpc = 83.1058
     hubble = hubble_km_s_mpc * 1_000.0 / MPC
+    radius_a = C / hubble
+    planck_length_sq = HBAR * G / C**3
+    lambda_g = ((8.0 / 3.0) * planck_length_sq * radius_a) ** (1.0 / 3.0)
     tau_g = lambda_g / C
     energy_mev = HBAR * C / lambda_g / EV / 1e6
-    radius_a = C / hubble
     delta_n = hubble * tau_g
     planck_time = math.sqrt(HBAR * G / C**5)
 
     close(delta_n, lambda_g / radius_a)
     lhs = delta_n**3
     rhs = (8.0 / 3.0) * (hubble * planck_time) ** 2
-    close(lhs, rhs, rel=6e-4)
+    close(lhs, rhs, rel=1e-12)
 
     sigma_a = math.log(radius_a / lambda_g)
     iota_direct = math.pi * (radius_a / (C * planck_time)) ** 2
     iota_from_grain = (8.0 * math.pi / 3.0) * math.exp(3.0 * sigma_a)
-    close(iota_direct, iota_from_grain, rel=6e-4)
+    close(iota_direct, iota_from_grain, rel=1e-12)
 
     print("LOCAL UNIT DRESSINGS")
     print(f"  lambda_g                    = {lambda_g:.6e} m")
@@ -172,9 +173,9 @@ def grain_cancellation_receipt() -> None:
 def a2_receipt() -> None:
     theta = 0.371
     phases = [theta + 2.0 * math.pi * index / 3.0 for index in range(3)]
-    fundamental = sum(cmath.exp(1j * phase) for phase in phases)
-    cubic = sum(math.cos(phase) ** 3 for phase in phases)
-    cubic_expected = 0.75 * math.cos(3.0 * theta)
+    fundamental = sum(cmath.exp(1j * phase) for phase in phases) / 3.0
+    cubic = sum(math.cos(phase) ** 3 for phase in phases) / 3.0
+    cubic_expected = 0.25 * math.cos(3.0 * theta)
     close(abs(fundamental), 0.0, abs_=1e-14)
     close(cubic, cubic_expected, rel=1e-13, abs_=1e-14)
 
@@ -186,11 +187,70 @@ def a2_receipt() -> None:
     )
     if e_squared != e:
         raise AssertionError("rank-one Jordan representative is not idempotent")
+    trace_e = e[0][0] + e[1][1]
+    close(trace_e, 1.0)
 
     print("A2 / JORDAN TOY RECEIPTS")
     print(f"  equal-weight fundamental    = {abs(fundamental):.3e}")
-    print(f"  cubic / third harmonic      = {cubic:.12e}")
+    print(f"  equal-weight cubic harmonic = {cubic:.12e}")
     print("  primitive rank-one representative satisfies e^2=e and tr(e)=1")
+
+
+def pion_grain_receipt() -> None:
+    branch_hubble_km_s_mpc = 83.1058
+    branch_hubble = branch_hubble_km_s_mpc * 1_000.0 / MPC
+    branch_radius = C / branch_hubble
+    planck_length_sq = HBAR * G / C**3
+    lambda_g = ((8.0 / 3.0) * planck_length_sq * branch_radius) ** (1.0 / 3.0)
+    grain_mev = HBAR * C / lambda_g / EV / 1e6
+    f_pi_pdg_mev = 130.2
+    f_pi_pdg_uncertainty_mev = 1.2
+    f_pi_chiral_mev = f_pi_pdg_mev / math.sqrt(2.0)
+    charged_pion_mass_mev = 139.57039
+    wave_scale = f_pi_chiral_mev / 2.0
+    particle_scale = charged_pion_mass_mev / 3.0
+    midpoint = math.sqrt(wave_scale * particle_scale)
+    split_nats = math.log(particle_scale / wave_scale)
+    hbar_c_mev_fm = HBAR * C / EV / 1e6 * 1e15
+    length_midpoint = math.sqrt(
+        (2.0 * hbar_c_mev_fm / f_pi_chiral_mev)
+        * (3.0 * hbar_c_mev_fm / charged_pion_mass_mev)
+    )
+
+    # Central-value, post-search receipt. The quoted F_pi prescription has a
+    # much larger uncertainty than this arithmetic residual.
+    close(grain_mev, midpoint, rel=1e-4)
+    close(lambda_g * 1e15, length_midpoint, rel=1e-4)
+
+    energy_joule = midpoint * 1e6 * EV
+    predicted_hubble = (
+        (8.0 / 3.0) * G * energy_joule**3 / (HBAR**2 * C**5)
+    )
+    predicted_hubble_km_s_mpc = predicted_hubble * MPC / 1_000.0
+    energy_relative_residual = midpoint / grain_mev - 1.0
+    hubble_relative_residual = (
+        predicted_hubble_km_s_mpc / branch_hubble_km_s_mpc - 1.0
+    )
+    predicted_hubble_relative_uncertainty = (
+        1.5 * f_pi_pdg_uncertainty_mev / f_pi_pdg_mev
+    )
+
+    print("PION / CHIRAL MIDPOINT (POST-SEARCH)")
+    print(f"  F_pi^chi/2                 = {wave_scale:.9f} MeV")
+    print(f"  m_pi+/- /3                 = {particle_scale:.9f} MeV")
+    print(f"  sqrt[(F_pi/2)(m_pi/3)]     = {midpoint:.9f} MeV")
+    print(f"  grain hbar*c/lambda_g      = {grain_mev:.9f} MeV")
+    print(f"  logarithmic split          = {split_nats:.9f} nats")
+    print(f"  length geometric midpoint  = {length_midpoint:.9f} fm")
+    print(f"  exact common-count lambda  = {lambda_g * 1e15:.9f} fm")
+    print(f"  midpoint energy residual   = {1e6 * energy_relative_residual:+.3f} ppm")
+    print(f"  CH3 crossing-rate oracle   = {predicted_hubble_km_s_mpc:.6f} km/s/Mpc")
+    print(f"  H oracle vs branch         = {100.0 * hubble_relative_residual:+.5f}%")
+    print(
+        "  H oracle uncertainty from F_pi alone"
+        f" = {100.0 * predicted_hubble_relative_uncertainty:.3f}%"
+    )
+    print("  scope: a posteriori central-value identity; factors 2 and 3 are unproved")
 
 
 def cmb_data_receipts() -> None:
@@ -250,6 +310,8 @@ def main() -> None:
     grain_cancellation_receipt()
     print()
     a2_receipt()
+    print()
+    pion_grain_receipt()
     print()
     cmb_data_receipts()
     print()

@@ -10,7 +10,7 @@ This directory holds commit-pinned local snapshots of the public ACT DR6 likelih
 - [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb/DR6-ACT-lite-627aeafb88ae5ad1aa66b406bea2d65cfa66a27d/yamls/p-act-lb-lcdm.yaml|P--ACT--lensing--BAO example]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb.zip|Commit archive]]
 
-The package evaluates the foreground-marginalized CMB-only SACC likelihood mirrored under [[causal-wall-spectral-theory/sources/data/act-dr6/dr6_data_cmbonly/v1.0/dr6_data_cmbonly.fits|data/act-dr6]].
+The package evaluates the foreground-marginalized CMB-only SACC interface documented by [[data/act-dr6-cosmology-products/entry|the ACT DR6 dataset module]].
 
 ## ACT DR6 multifrequency likelihood
 
@@ -19,7 +19,7 @@ The package evaluates the foreground-marginalized CMB-only SACC likelihood mirro
 - [[causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e/act_dr6_mflike-4220e14efb3a995f47c9f54cb687479e558c6138/examples/act_dr6_example.yml|Example likelihood configuration]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e.zip|Commit archive]]
 
-This package consumes the full local [[causal-wall-spectral-theory/sources/data/act-dr6/dr6_data/v1.0/dr6_data.fits|multifrequency SACC file]] and introduces the foreground and nuisance model absent from the CMB-only product.
+This package consumes the full multifrequency SACC interface documented by [[data/act-dr6-cosmology-products/entry|the ACT DR6 dataset module]] and introduces the foreground and nuisance model absent from the CMB-only product.
 
 ## ACT DR6 run definitions
 
@@ -31,8 +31,8 @@ This package consumes the full local [[causal-wall-spectral-theory/sources/data/
 
 ## Other local released code
 
-- [[causal-wall-spectral-theory/sources/data/planck-2018/clik-code-v3/code/plc_3.0/plc-3.01/readme.md|Planck PR3 clik 3.01]] is a legacy C, Fortran, and Python likelihood stack supplied with the matching local data release.
-- [[causal-wall-spectral-theory/sources/data/planck-2015-bkp/clik-code-v2/plc-2.0/readme.md|Planck PR2 clik 2.0]] and [[causal-wall-spectral-theory/sources/data/planck-2015-bkp/bkp-likelihood/BKPlanck_README.txt|the BKP likelihood]] preserve the older analysis inputs.
-- [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/BK18_cosmomc/BK18_cosmomc/BK18_README.txt|BK18 CosmoMC]] and [[causal-wall-spectral-theory/sources/data/bicep-keck-2018/rns_code/rns_code/BK18_rns.py|the released $r$--$n_s$ script]] accompany the BK18 data.
+- [[data/planck-2018-release-3-cosmology-products/entry|Planck Release-3]] includes the legacy `clik` 3.01 C, Fortran, and Python likelihood stack supplied with its data products.
+- [[data/planck-2015-release-2-cosmology-products/entry|Planck Release-2]] includes `clik` 2.0, while [[data/bicep2-keck-planck-2015-joint-likelihood/entry|the 2015 BKP module]] owns the associated joint likelihood package.
+- [[data/bicep-keck-2018-data-products/entry|The BK18 module]] owns the CosmoMC likelihood and released $r$--$n_s$ companion package.
 
 These packages were mirrored and archive-checked, not installed or rerun. A genuine CWST likelihood test additionally requires a theory-to-spectrum implementation; none of the released packages supplies one.

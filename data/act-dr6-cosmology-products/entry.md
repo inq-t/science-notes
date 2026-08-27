@@ -17,7 +17,7 @@ The Atacama Cosmology Telescope Data Release 6 cosmology suite contains multifre
 
 The full multifrequency SACC archive `dr6_data.tar.gz` is 413,203,437 bytes with SHA-256 `5f5a68b76e0bb074bb0333e7c1b5ba9b556ccd29e58eb66f4cb4251805825383`; its extracted FITS file has a $6840\times6840$ covariance and retains tracer, bandpass, and beam information. The much smaller `dr6_data_cmbonly.tar.gz` is 286,990 bytes with SHA-256 `3f057c2569211ada03759530b74848b322edc3d68d66b6b8c2db0679547dbbd8`; its extracted FITS file is a foreground-marginalized $135\times135$ TT/TE/EE interface. The CMB-only product is a scientific reduction, not a duplicate of the multifrequency data.
 
-The released spectra-and-covariance archives provide 20-bin and 50-bin views plus an extra product. Their corresponding sampled covariance arrays are $138\times138$ and $39\times39$. The two main trees have the same 215 relative filenames, but 214 payloads differ; their single identical `dataset_trace.pkl` belongs to the official package layout and should not be removed.
+The released spectra-and-covariance archives provide 20-bin and 50-bin views plus an extra product. Depending on the included spectra, covariance arrays in the 20-bin tree have shapes $138\times138$, $147\times147$, or $157\times157$; arrays in the 50-bin tree have shapes $39\times39$, $43\times43$, or $47\times47$; the extra product also contains $47\times47$ arrays. The two main trees have the same 215 relative filenames, but 214 payloads differ; their single identical `dataset_trace.pkl` belongs to the official package layout and should not be removed.
 
 ACT-only and P--ACT best-fit trees share filenames and schemas but differ numerically throughout. They encode different fitted likelihood combinations, not duplicate measurements.
 
@@ -49,4 +49,3 @@ The [ACT DR6.02 release page](https://lambda.gsfc.nasa.gov/product/act/act_dr6.0
 - [DR6 lensing likelihood 1.2](https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/likelihood/data/ACT_dr6_likelihood_v1.2.tgz)
 
 Download only the product family required by an analysis. When extracting an archive, preserve its directory structure and restore it under the local-cache path above if an existing command expects the historical workspace layout.
-

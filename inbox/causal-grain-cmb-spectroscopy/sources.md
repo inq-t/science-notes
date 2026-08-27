@@ -14,8 +14,10 @@ This ledger separates local canonical owners, archived observational products, a
 
 ### Connes, groupoids, and semigroups
 
+- [[inbox/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension|Connes Time as an Algebraic Dimension]] owns this packet's distinction among modular automorphism flow, outer modular flow, the core dual action, flow of weights, causal order, record history, and metric clocks.
 - [[inbox/radical-copernicanism/algebra-of-causality|Causality as an Algebraic / Group-Theoretic Object]] surveys invariant cones, Euler wedges, compression semigroups, modular localization, causal lattices, and categorical causality with claim grades.
 - [[inbox/radical-copernicanism/commentary/groupoid-over-monoid|A Groupoid Fibered Over a Monoid]] gives the local/global synthesis: Connes-cocycle democracy within a register and one-sided inclusions across registers.
+- [[inbox/radical-copernicanism/commentary-part-2/canonical-core-and-type-firewall|The Canonical Core and the Type Firewall]] prevents identifying the flow of weights on the core center with the dual trace-scaling action on the whole core.
 - [[wall-construction-interface/half-sided-modular-tunnel|The Half-Sided Modular Tunnel]] owns the exact positive-generator and nested-algebra construction.
 - [[sufficient-reason/algebraic-arrow-of-time|The Algebraic Arrow of Time]] separates reversible modular flow, observational restriction, and a genuine one-sided physical arrow.
 - [[conformal-scale-geometry/causal-order-and-metric-scale|Causal Order and Metric Scale]] records the causal-order-to-conformal-geometry theorem and the separate role of a positive metric scale section.
@@ -33,11 +35,18 @@ This ledger separates local canonical owners, archived observational products, a
 
 ### Jordan, octonionic, and \(3+1\) descent
 
+- [[inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality|The \(S^6\) Positivity--Integrability Duality]] owns the packet's distinction among the exceptional positive cone, the \(S^6\) family of associative complex slices, the associator/Nijenhuis obstruction, and hypothetical integrable gluing.
 - [[inbox/causal-grain-cmb-spectroscopy/octonionic-associative-descent|Octonionic Associative Descent]] gathers the exact corner, Lorentz-cone, and exceptional-carrier facts used by this packet and labels the physical descent as open.
 - [[algebra/real-forms-and-factive-spacetime|Real Forms and Factive Spacetime]] supplies the distinct construction in which a three-dimensional real form is an object and the temporal “one” is oriented historical composition.
 - [[algebra/a2-positive-completion|The Positive \(C^*\)-Envelope of a Real \(A_2\) Degeneration]] gives exact finite positive completions while denying that reversible monodromy supplies causality.
 - [[a2-ternary-response/entry|The \(A_2\) Ternary Response]] owns the three-alternative representation and candidate harmonic selection rules.
 - [[library/standard-model-from-exceptional-jordan-algebra/entry|The Standard Model Gauge Group from the Exceptional Jordan Algebra]] archives the primary Baez--Schwahn construction; it establishes a stabilizer theorem, not cosmological collapse.
+
+### Pion and chiral response
+
+- [[inbox/causal-grain-cmb-spectroscopy/pion-grain-chiral-resonance|The Pion--Grain Chiral Resonance]] owns the new logarithmic-midpoint arithmetic, clause CH3, laboratory-to-cosmos oracle, and its post-search status.
+- [[the-grain-of-causal-scale/material-realizations|Material Realizations of the Grain]] owns the earlier \(F_\pi^\chi/2\) chiral-response candidate and the missing dimensionful BKM-to-chiral-stiffness and correlation-ruler maps.
+- [[minimal-cosmodynamic-closure/unit-wall-correspondence|The Unit Wall Correspondence Ansatz]] owns the current optional chiral matching clauses and their conditional status.
 
 ### CMB interpretation and empirical scope
 
@@ -84,21 +93,35 @@ The empirical null baseline is the ordinary transfer model: the Planck spectra a
 
 ## Primary algebraic and exceptional sources
 
+- Connes and Rovelli, [“Von Neumann Algebra Automorphisms and Time--Thermodynamics Relation in General Covariant Quantum Theories”](https://arxiv.org/abs/gr-qc/9406019), proposes thermal time from a state's modular automorphism group and identifies the state-independent outer automorphism flow. The physical interpretation is a hypothesis built on theorem-level modular structure.
+- Connes, [“Caractérisation des espaces vectoriels ordonnés sous-jacents aux algèbres de von Neumann”](https://doi.org/10.5802/aif.534), proves the equivalence with self-dual facially homogeneous complex cones under its stated hypotheses. “Complex cone” here is not a complex atlas on \(S^6\).
 - Araki and Zsidó, [“Extension of the Structure Theorem of Borchers and Its Application to Half-Sided Modular Inclusions”](https://arxiv.org/abs/math/0412061), is the theorem-level source for the general half-sided modular construction used by the tunnel note. The repository payload is [[library/extension-of-borchers-structure-theorem/math-0412061-araki-zsido-borchers-half-sided-modular-inclusions.pdf|archived here]].
 - Morinelli and Neeb, [“Covariant Homogeneous Nets of Standard Subspaces”](https://arxiv.org/abs/2010.07128), supplies abstract wedges and spacetime-free wedge-net structure from graded Lie groups.
 - Morinelli and Neeb, [“From Local Nets to Euler Elements”](https://arxiv.org/abs/2312.12182), supplies the Euler-element theorem and type-\(\mathrm{III}_1\) wedge-algebra result under its regularity and Bisognano--Wichmann hypotheses.
 - Baez, [“The Octonions”](https://arxiv.org/abs/math/0105155), is the broad primary review for octonions, exceptional Jordan algebras, Lorentzian geometry, and exceptional groups.
+- Gyenge, [“The Transition Function of \(G_2\) over \(S^6\)”](https://doi.org/10.3842/SIGMA.2019.078), gives the explicit \(SU(3)\)-principal bundle \(G_2\to S^6\) and its transition function.
+- Butruille, [“Homogeneous Nearly Kähler Manifolds”](https://arxiv.org/abs/math/0612655), places the canonical octonionic six-sphere in the classification of homogeneous nearly Kähler six-manifolds.
+- Loubeau, Rodríguez Díaz, and Sá Earp, [“Parallelisms on the 7-Sphere”](https://doi.org/10.21711/231766362024/rmc607), derives the Nijenhuis/associator relation for the octonionic almost-complex structure. The displayed coefficient depends on left/right multiplication and Nijenhuis conventions.
+- Huckleberry, Kebekus, and Peternell, [“Group Actions on \(S^6\) and Complex Structures on \(P_3\)”](https://arxiv.org/abs/math/9812076), proves that any complex \(S^6\) is not almost homogeneous and records consequences of a hypothetical integrable structure; it does not prove existence.
 - Baez and Huerta, [“Division Algebras and Supersymmetry I”](https://arxiv.org/abs/0909.0551), supplies the division-algebra construction of Minkowski vectors and spinors in dimensions \(3,4,6,10\); it does not select a physical local context.
 - Ferrara and Günaydin, [“Orbits of Exceptional Groups, Duality and BPS States in String Theory”](https://arxiv.org/abs/hep-th/9708025), supplies an established use of exceptional Jordan and Freudenthal invariants in charge-orbit classification.
 - Baez and Schwahn, [“The Standard Model Gauge Group from the Exceptional Jordan Algebra”](https://arxiv.org/abs/2606.15235), supplies the recent stabilizer result archived by the local library module. It is a gauge-group theorem after choosing nested Jordan subalgebras, not a derivation of spacetime, matter dynamics, or the CMB.
+
+## Primary pion and chiral sources
+
+- The Particle Data Group review [“Leptonic Decays of Charged Pseudoscalar Mesons”](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-pseudoscalar-meson-decay-cons.pdf) defines the \(f_\pi\simeq130\,\mathrm{MeV}\) convention and gives the preferred theoretical value \(f_{\pi^+}=130.2(1.2)\,\mathrm{MeV}\) used in the arithmetic receipt.
+- The Particle Data Group [2025 light-meson summary](https://pdg.lbl.gov/2025/web/viewer.html?file=..%2Ftables%2Frpp2025-sum-mesons.pdf), updating the [2024 Review of Particle Physics](https://doi.org/10.1103/PhysRevD.110.030001), supplies the independent charged-pion pole mass \(m_{\pi^\pm}=139.57039(18)\,\mathrm{MeV}\). Its selection and the divisor \(3\) are new CH3 trials, not data already frozen by the decay-constant oracle.
+- Gasser and Leutwyler, [“Chiral Perturbation Theory to One Loop”](https://doi.org/10.1016/0003-4916(84)90242-2), supplies the low-energy chiral action and the interpretation of \(F_\pi\) as a vacuum-current response scale.
+
+None of these sources licenses division by the rank or branch counts; that normalization is the new CH3 conjecture.
 
 ## Use boundaries
 
 This source set licenses four different grades of statement:
 
-1. **Established mathematics:** half-sided modular inclusion, invariant-cone and wedge constructions under their hypotheses, Jordan corner identities, Lorentz-cone identifications, logarithmic composition, and standard CMB transfer equations.
+1. **Established mathematics and physics:** modular automorphism and outer-flow structure, half-sided modular inclusion, invariant-cone and wedge constructions under their hypotheses, the \(G_2/SU(3)\) slice family, the associator/Nijenhuis obstruction, Jordan corner identities, Lorentz-cone identifications, chiral EFT definitions, logarithmic composition, and standard CMB transfer equations.
 2. **Empirical fit:** Planck and ACT spectra and parameters conditional on their likelihoods, foreground models, and cosmological model class.
 3. **Programme interpretation:** whole-state covariance as the relational source of compatible local records and gravity’s wave/particle duality as global-to-local descent.
-4. **Open construction:** the weld among causal cone ray, wall index, scale character, octonionic associative selection, photon--baryon enthalpy, and a calculable CMB residual.
+4. **Open construction:** the weld among causal cone ray, wall index, scale character, octonionic associative selection, modular-to-conformal clock, chiral response, photon--baryon enthalpy, and a calculable CMB prediction.
 
 No citation in one grade silently promotes a claim in another.

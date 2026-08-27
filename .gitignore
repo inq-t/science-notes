@@ -4,3 +4,7 @@
 # Keep the hand-written index so the local library remains documented.
 /causal-wall-spectral-theory/sources/data/*
 !/causal-wall-spectral-theory/sources/data/entry.md
+
+# Optional per-module caches for large fetched datasets.
+# Small versioned tables may remain beside each module's entry.md.
+/data/*/local/

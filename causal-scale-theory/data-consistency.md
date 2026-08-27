@@ -40,7 +40,7 @@ while Pantheon+ constrains the shape of \((1+z_{\mathrm{hel}})\chi(z_{\mathrm{HD
 
 That scale freedom is also a limitation. Profiling \(A=c/(H_0r_d)\) makes this a test of the *shape* of expansion and of the BAO ruler product, not of the absolute Hubble scale. The receipt therefore neither resolves nor aggravates the Hubble tension by itself. An absolute prediction for \(H_0\) requires an independently constructed or measured sound horizon, standard-siren calibration, or another absolute ruler; importing a base-\(\Lambda\)CDM value of \(r_d\) is only a conditional conversion.
 
-The archived inputs are 1,580 Pantheon+ rows after \(z_{\mathrm{HD}}>0.01\) and calibrator removal, with the full selected statistical-plus-systematic covariance, and 13 DESI distances with their covariance. [[causal-scale-theory/sources/late-time-background/README|The source manifest]] records provenance and hashes. [[causal-scale-theory/receipts/fit-late-time-background|The receipt]] owns the likelihood equations and validation checks.
+The archived inputs are 1,580 rows selected from [[data/pantheon-plus-shoes-distance-likelihood/entry|Pantheon+SH0ES]], with the full selected statistical-plus-systematic covariance, and all 13 distances from [[data/desi-dr2-bao-gaussian-likelihood/entry|the DESI DR2 Gaussian BAO likelihood]]. [[causal-scale-theory/receipts/fit-late-time-background|The receipt]] owns the likelihood equations and validation checks.
 
 ## Result
 
@@ -141,7 +141,7 @@ Q_*:=1000\frac{D_{M,*}[\mathrm{Gpc}]}{r_d[\mathrm{Mpc}]}
 =94.31404\pm0.03458
 $$
 
-over 24,497 weighted chain rows. This reproduces the compressed quantity from primary products, but the tight posterior is conditional on the base-\(\Lambda\)CDM carrier. It is not a model-neutral CMB likelihood and must not be presented as one. [[causal-wall-spectral-theory/sources/data/entry|The Planck source ledger]] owns the archived official chain; [[library/planck-2018-cosmological-parameters/entry|Planck 2018 VI]] owns the primary cosmological-parameter analysis.
+over 24,497 weighted chain rows. This reproduces the compressed quantity from primary products, but the tight posterior is conditional on the base-\(\Lambda\)CDM carrier. It is not a model-neutral CMB likelihood and must not be presented as one. [[data/planck-2018-release-3-cosmology-products/entry|The Planck dataset module]] owns the archived-chain identity and fetch instructions; [[library/planck-2018-cosmological-parameters/entry|Planck 2018 VI]] owns the primary cosmological-parameter analysis.
 
 Two sensitivity runs make the dependence explicit:
 

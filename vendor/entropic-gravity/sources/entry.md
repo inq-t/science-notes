@@ -50,7 +50,7 @@ This index describes a frozen, locally reviewable corpus for the Jacobson and Ve
 - [[library/smacs-j0723-test-of-emergent-gravity/entry|A Test with SMACS J0723.3-7327]]
 - [[library/comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals/entry|Comparison of MOND and Verlinde’s Emergent Gravity in Dwarf Spheroidals]]
 
-The bounded local dataset used by the galaxy papers is under [[vendor/entropic-gravity/sources/data/entry|data]]. Large KiDS, GAMA, X-ray, and cluster survey products were not mirrored: reproducing the published selections would require much larger survey archives and analysis pipelines, not one stable source table.
+The bounded local galaxy products are documented by [[data/sparc-galaxy-sample-and-mass-models/entry|the SPARC dataset module]] and [[data/radial-acceleration-relation-data/entry|the radial-acceleration dataset module]]. Large KiDS, GAMA, X-ray, and cluster survey products were not mirrored: reproducing the published selections would require much larger survey archives and analysis pipelines, not one stable source table.
 
 ## Source payloads and metadata
 
