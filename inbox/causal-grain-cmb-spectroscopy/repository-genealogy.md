@@ -57,6 +57,7 @@ These are related readings of the grain after a metric and a local frame exist. 
 | Where does the pion rhyme enter? | [[inbox/causal-grain-cmb-spectroscopy/pion-grain-chiral-resonance|The Pion--Grain Chiral Resonance]] and [[the-grain-of-causal-scale/material-realizations|Material Realizations of the Grain]] | Vacuum-current response, local pion pole, logarithmic-midpoint relation, CH3, and the laboratory-to-cosmos oracle | QCD meanings and arithmetic exact; normalization and physical weld conjectural |
 | Who owns the CMB observational baseline? | [[causal-wall-spectral-theory/sources/data/entry|Observational Data and Likelihoods]] | Planck and ACT products, likelihood boundaries, and the requirement of a forward spectrum | empirical provenance |
 | Who owns the whole-state reading? | [[causal-wall-spectral-theory/whole-state-correlation-reading|The Whole-State Correlation Reading]] | Primordial covariance as relational structure of one state whose restrictions govern compatible local records | programme interpretation, compatible with measured probability rules |
+| Who owns the new acoustic-count, harmonic, and primordial-precision candidates? | [[inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic|The Grain--Acoustic Characteristic]], [[inbox/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent|Scale--Phase Harmonic Descent]], and [[inbox/causal-grain-cmb-spectroscopy/grain-primordial-precision|Grain Ratio as Primordial Precision]] | The post-search acoustic cubic, full cancellation ledger, noncompact-scale-to-compact-phase mechanism, and conditional amplitude/tilt rewrite | arithmetic, polar/triple-angle algebra, and imported single-clock rewrite exact in their domains; spectral and physical welds open |
 | Who owns this packet’s CMB construction? | [[inbox/causal-grain-cmb-spectroscopy/cmb-acoustic-resonator|The CMB Acoustic Resonator]], [[inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry|Cosmodynamic Acoustic Geometry]], and [[inbox/causal-grain-cmb-spectroscopy/observable-template|Observable Templates]] | Standard photon--baryon transfer, grain-unit factorization, causal-cone interpretation, and falsifiable residual templates | established transfer physics separated from conjectural descent |
 
 ## The genealogy of the present synthesis
@@ -197,6 +198,28 @@ $$
 
 but \(\lambda_g\) cancels. That exact cancellation moves the explanatory target upstream: the causal-grain theory must derive the coherent whole-state boundary condition, the photon--baryon dwell allocation, the common TT/TE/EE phase, the background history, or a non-cancelling residual. It cannot count a change of units as a peak prediction.
 
+### Positive scale cubic before compact harmonic character
+
+The latest search adds a sharper possibility. The total grain depth
+
+$$
+\Sigma_c
+=
+\ln\frac{R_c}{\lambda_*}
+=
+\frac13\ln\frac{3\iota_c}{8\pi}
+$$
+
+may enter a global order-three characteristic before the local plasma exists:
+
+$$
+q_*(q_*^2+4\zeta)
+\stackrel{?}{=}
+(\Sigma_c+3\delta\sigma_g)^3.
+$$
+
+On the unit, rank-two branch this has no new continuous coefficient if the unit-wall correspondence identifies the independently typed response weight \(s_*=1\) with one primitive log-scale interval \(\delta\sigma_g=1\). Its positive cubic is parameterized by the hyperbolic triple-angle, while a selected associative slice supplies the compact \(U(1)\) phase whose characters generate acoustic harmonics. The exact ancestry is real; the descent is not. The \(+3\delta\sigma_g\) shift still needs a three-dimensional Mellin/Fourier-density theorem and the unit-wall correspondence, \(4\zeta\) still needs a common-carrier theorem, and \(q_*=D_M/r_s\) still needs an acoustic projection theorem.
+
 ## Conjectural welds owned by this packet
 
 The present packet proposes, but does not inherit as established results, the following identifications:
@@ -209,8 +232,11 @@ The present packet proposes, but does not inherit as established results, the fo
 6. one global primordial state/covariance underwrites all descendants, while one photon--baryon growing-mode phase organizes TT/TE/EE and lensing and matter are separately calculated through declared kernels;
 7. one outer modular temporal structure has natural local lifts across the \(S^6\) context groupoid;
 8. a modular-to-conformal clock solder maps the algebraic phase to the local acoustic phase;
-9. \(E_g^2=F_\pi^\chi m_{\pi^\pm}/6\) is the chiral material realization of the rank-two/rank-three scale grain; and
-10. a discrete causal-scale valuation may leave a shared log-periodic or representation-theoretic residual after ordinary transfer.
+9. \(E_g^2=F_\pi^\chi m_{\pi^\pm}/6\) is the chiral material realization of the rank-two/rank-three scale grain;
+10. the unit-wall correspondence maps \(s_*=1\) to \(\delta\sigma_g=1\), and the acoustic ratio obeys the positive characteristic \(q_*(q_*^2+4\zeta)=(\Sigma_c+3\delta\sigma_g)^3\);
+11. the noncompact positive characteristic descends naturally to the compact \(U(1)\) acoustic phase in each selected complex slice;
+12. the live-cut grain ratio and one derived clock susceptibility jointly produce scalar precision through \(\mathcal I_\zeta=\epsilon_H\iota_H\); and
+13. a discrete causal-scale valuation may leave a shared log-periodic or representation-theoretic residual after ordinary transfer.
 
 Each weld needs a typed map and an invariance or naturality theorem. Dimensional agreement, matching positivity, or a shared numerical coefficient is not enough.
 

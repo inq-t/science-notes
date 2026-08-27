@@ -151,6 +151,144 @@ $$
 
 measures local distinguishability. The extensive unit \(s_*=1\), the intensive Fisher value \(g_{ss}(0)=1\), and a possible lattice interval \(\delta\sigma_g\) are three distinct statements. Under the strong package they are related by the unit correspondence, not identified by notation.
 
+## A candidate grain characteristic for the acoustic ruler
+
+The search through [[inbox/the-unit-nat-channel/the-unit-nat-channel|the unit-nat channel]], [[inbox/the-constants-of-nature/entry|the all-conditionals-granted constants synthesis]], [[critical-scale-kernels/entry|the critical order-three kernel]], and [[inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder|the de Sitter cubic]] produced one unusually compact target. Define
+
+$$
+q_*:=\theta_*^{-1}=\frac{D_M(z_*)}{r_s(z_*)},
+\qquad
+Q_c:=\frac{R_c}{\lambda_*},
+\qquad
+\Sigma_c:=\ln Q_c.
+$$
+
+Here
+
+$$
+E_*:=\frac{\hbar c}{\lambda_*},
+\qquad
+\beta_c:=\frac{2\pi}{\hbar H_c},
+\qquad
+\iota_c:=\frac{\pi R_c^2}{\ell_P^2}.
+$$
+
+The common-count identities put every proposed dimensional dressing into the same unit-free number:
+
+$$
+Q_c
+=
+\frac{E_*}{\hbar H_c}
+=
+\frac{\beta_cE_*}{2\pi}
+=
+\left(\frac{3\iota_c}{8\pi}\right)^{1/3}
+=
+\left(\frac{3c^5}{8G\hbar H_c^2}\right)^{1/3}.
+$$
+
+On the unit, rank-two branch, \(s_*=1\), \(\zeta=2/3\), and \(4\zeta=8/3\). If the additional unit-wall correspondence maps that response unit to one primitive logarithmic interval \(\delta\sigma_g=1\), the proposed positive-branch characteristic is
+
+$$
+\boxed{
+q_*\left(q_*^2+\frac83\right)
+\stackrel{?}{=}
+\left(3+\Sigma_c\right)^3.
+}
+$$
+
+At the packet's CMB-conditioned central crossing,
+
+$$
+\Sigma_c=93.0628842654,
+\qquad
+q_*^{\mathrm{obs}}=96.0536363505,
+$$
+
+so the raw difference is \(q_*-\Sigma_c=2.9907520852\simeq3\). The cubic predicts
+
+$$
+q_*^{\mathrm{cubic}}=96.0536310674,
+\qquad
+100\theta_*^{\mathrm{cubic}}=1.0410850573,
+$$
+
+against the bundled best-fit \(100\theta_*=1.041085\). The striking central agreement is **not evidence**: the branch is CMB-conditioned, the shift and coefficient were selected after inspection, and the measured acoustic-angle uncertainty is thousands of times larger than the displayed residual.
+
+The form is not arbitrary algebra. The leading cube is the critical order in three dimensions; the odd polynomial is compatible with a future signed causal generator but does not itself construct orientation; \(q^2+4\zeta\) is positive on the selected branch; and the coefficient is reused rather than fitted. Its exact solution is governed by \(\sinh3s=4\sinh^3s+3\sinh s\). The de Sitter \(A_2\) horizon cubic is instead governed by \(\cos3\theta=4\cos^3\theta-3\cos\theta\), with three roots separated by \(2\pi/3\). This suggests a noncompact-scale/compact-phase duality, not yet a physical continuation theorem.
+
+If the independent chiral clause
+
+$$
+E_*^2\stackrel{?}{=}\frac{F_\pi^\chi E_{\pi^\pm}}{6}
+$$
+
+is also granted, the cosmic rate, radius, grain length, and grain energy cancel:
+
+$$
+\boxed{
+q_*\left(q_*^2+\frac83\right)
+\stackrel{?}{=}
+\left[
+3+\ln\!\left(
+\frac{9\hbar c^5}{4G F_\pi^\chi E_{\pi^\pm}}
+\right)
+\right]^3.
+}
+$$
+
+This laboratory-to-CMB form predicts \(100\theta_*=1.041086323\) at the current central chiral inputs. Both CH3 and the cubic are post-search, so the formula is a **freezeable cross-sector oracle**, not a retrospective detection.
+
+[[inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic|The grain--acoustic characteristic]] owns the exact cancellations, hyperbolic solution, numerical receipts, trials ledger, and three missing welds. [[inbox/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent|Scale--phase harmonic descent]] shows how \(\mathbb C_u^\times\cong\mathbb R_{>0}\times U(1)_u\), one acoustic \(SO(2)\) evolution, and its higher characters could connect a global positive scale law to coherent TT/TE/EE phases. It keeps successive extrema of the fundamental oscillator distinct from genuine Chebyshev higher-character residuals.
+
+## A second target: primordial precision
+
+If the common-count law is promoted from one fossil crossing to a **live-cut law** at primordial horizon exit, the same dimensionless grain ratio can organize the CMB amplitude. In the imported Einstein single-clock member,
+
+$$
+\boxed{
+\Delta_\zeta^2(k)
+=
+\frac{1}{\epsilon_H(k)\iota_H(k)}
+=
+\frac{3}{8\pi\epsilon_H(k)}
+\left(\frac{\lambda_g}{R_H}\right)^3
+=
+\frac{3}{8\pi\epsilon_H(k)}
+\left(\frac{2\pi k_BT_H}{E_g}\right)^3.
+}
+$$
+
+Here \(R_H=c/H\) is the instantaneous Hubble radius, equal to the apparent-horizon radius in flat FLRW, and \(k_BT_H=\hbar H/(2\pi)\) is the instantaneous de Sitter temperature scale of the imported quasi-de Sitter member, not a general exact KMS temperature.
+
+The horizon ledger \(\iota_H\propto(R_H/\lambda_g)^3\) supplies the geometric precision; the departure from exact de Sitter stasis
+
+$$
+\epsilon_H=-\frac{\mathrm d\ln H}{\mathrm dN}
+$$
+
+supplies the scalar clock stiffness. Equivalently, \(\mathcal D_H:=\epsilon_H^{-1}\) is the programme's clock-dwell variable and \(\Delta_\zeta^2=\mathcal D_H/\iota_H\). A bare identification of scalar inverse power with horizon entropy misses this factor. In logarithmic form,
+
+$$
+-\ln\Delta_\zeta^2
+=
+3\Sigma_k
++\ln\frac{8\pi}{3}
++\ln\epsilon_H.
+$$
+
+At \(ck=aH\), the same scale history gives
+
+$$
+n_s-1
+=
+\frac{-2\epsilon_H-\epsilon_2}{1-\epsilon_H},
+\qquad
+\epsilon_2:=\frac{\mathrm d\ln\epsilon_H}{\mathrm dN}.
+$$
+
+This turns amplitude, tilt, and running into targets for one independently calculated grain/clock history rather than unrelated random inputs. It is presently a **conditional retyping of established single-clock physics**, not a new prediction; the live-cut law, scalar response solder, and independent tensor branch must still be derived. [[inbox/causal-grain-cmb-spectroscopy/grain-primordial-precision|Grain ratio as primordial precision]] owns the full equation, its calibration against the bundled \(A_s,n_s\), and its failure tests.
+
 ## Positivity, integrability, and the unlike time dimension
 
 The unit-imaginary octonions form
@@ -392,6 +530,10 @@ This is the same discipline already imposed by [[minimal-cosmodynamic-closure/pr
 | One scale unit has the metric presentation \(\lambda_*^3=(8/3)\ell_P^2R_c\) | **Conditional deduction** under the unit-response, rank-two, spherical, and Einstein-solder clauses |
 | The grain is the literal \(4.3\,\mathrm{fm}\) wavelength of a CMB acoustic mode | **Wrong type**; its role is an epoch-relative unit that cancels from dimensionless acoustic phase |
 | One common causal construction returns background expansion, baryon dwell, opacity, and primordial coherence | **Principal strong explanation candidate** under the granted cosmodynamic package |
+| \(q_*(q_*^2+8/3)=(3+\Sigma_c)^3\) | **Post-search characteristic conjecture** with an exceptional central match; a dimension-shift, coefficient, and carrier weld are unconstructed |
+| The CH3-substituted characteristic predicts \(\theta_*\) from \(G,F_\pi^\chi,E_{\pi^\pm}\) | **Freezeable cross-sector oracle**, not present evidence; both constituent clauses were selected post-search |
+| \(\Delta_\zeta^2=3g_k^3/(8\pi\epsilon_H)\) | **Exact conditional rewrite** of the leading Einstein single-clock member plus a live-cut common-count axiom; microscopic scalar and tensor responses remain open |
+| \(\mathbb C_u^\times\cong\mathbb R_{>0}\times U(1)_u\) organizes scale and local phase | **Exact within one associative slice**; the scale-to-acoustic character is open |
 | A causal scale unit could also modulate primordial correlations | **Sharper secondary prediction**, provided the wall-to-curvature and hot-history maps freeze its period and phase |
 | \(S^6\) organizes local complex choices while the octonion associator obstructs integrability of the canonical \(J\) | **Established mathematics**; the positivity-to-local-observable descent remains open |
 | Connes time is an algebra automorphism direction unlike a spatial coordinate | **Theorem-level modular structure**; causal, metric, and cosmological identifications require separate solders |
@@ -413,5 +555,32 @@ $$
 $$
 
 followed by the matching map already demanded by [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]]. Merely inserting \(\lambda_g\) into the standard acoustic phase cannot count as a derivation: it cancels algebraically. The first strong calculation should instead freeze a parameter ledger and ask whether the same construction predicts the acoustic count ratio, odd/even loading, damping, TT/TE/EE phase, lensing, and primordial statistics. A log-periodic \(A_2\) template is then a secondary held-out test, propagated through a Boltzmann solver and tested jointly against Planck and ACT. This is now a compact conditional explanation programme with explicit empirical targets.
+
+The new sharp theorem target is an acoustic descent
+
+$$
+\mathfrak W_{\mathrm{ac}}:
+(\Sigma_c,d,\delta\sigma_g,\zeta)
+\longmapsto
+\left(q_*,\mathscr P_{3,+}\right),
+\qquad
+\mathscr P_{3,+}(q_*)
+=
+\mathscr P_{3,0}(\Sigma_c+d\delta\sigma_g),
+$$
+
+with
+
+$$
+\mathscr P_{3,+}(x)=x(x^2+4\zeta),
+\qquad
+\mathscr P_{3,0}(x)=x^3.
+$$
+
+The unit-wall correspondence would then have to prove, rather than assume by notation, that the unit-nat response weight \(s_*=1\) realizes one primitive log-scale interval \(\delta\sigma_g=1\).
+
+It must derive the sign, coefficient reuse, three-dimensional affine shift, and map from a global logarithmic label to the projected photon--baryon ratio \(D_M/r_s\). Constructing that one map would turn the numerical oracle into a principled prediction.
+
+The amplitude branch is a separate W2 target: derive the scalar precision \(\mathcal I_\zeta=\epsilon_H\iota_H\), or a calculable replacement, from the same wall state rather than importing the Einstein single-clock identity. Only then would the grain cube, clock dwell, acoustic ruler, and polarization phase be outputs of one cosmodynamic construction.
 
 [[inbox/causal-grain-cmb-spectroscopy/repository-genealogy|The repository genealogy]] records where the component ideas came from and which earlier formulations require correction. [[inbox/causal-grain-cmb-spectroscopy/sources|The source ledger]] separates local data products from the primary literature.
