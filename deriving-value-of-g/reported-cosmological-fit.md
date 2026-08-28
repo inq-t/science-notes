@@ -67,7 +67,7 @@ In particular, the exact binary calculation does not supply the identification: 
 
 ## Reproducibility status
 
-The fixed \(\mathfrak R_c=1\), \(\nu=1\) comparison and the current released-\(\mathfrak R_c\) profile are separately executable and reproducible on the same archived likelihood. [[causal-scale-theory/receipts/fit-late-time-background|The direct unit receipt]] archives the data manifest and covariances; the generalized receipt reuses its likelihood construction and parameterizes root-background pairs by \(x_c\), so it does not silently discard secondary flatness roots. Its canonical machine ledger is [[causal-scale-theory/receipts/generalized-background-fit-2025]].
+The fixed \(\mathfrak R_c=1\), \(\nu=1\) comparison and the current released-\(\mathfrak R_c\) profile are separately executable and reproducible on the same archived likelihood. [[causal-scale-theory/receipts/fit-late-time-background|The direct unit receipt]] archives the data manifest and covariances; the generalized receipt reuses its likelihood construction and parameterizes root-background pairs by \(x_c\), so it does not silently discard secondary flatness roots. Its canonical machine ledger is [[causal-scale-theory/receipts/generalized-background-fit-2025.json]].
 
 The cited historical `P1/` package remains absent. Consequently the new result replaces the old \(1.025\,[0.941,1.088]\) profile as the canonical current calculation but does not claim to reproduce that older likelihood, data combination, nuisance treatment, or notation exactly.
 

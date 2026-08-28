@@ -61,4 +61,4 @@ The durable modules are:
 - the separately conserved $\operatorname{sech}^2$ background and its invariant; and
 - the internal Witten--Darboux factorization.
 
-The later [[causal-scale-theory/sources/legacy/causal-scale-master/latest/Causal_Scale_Dynamics_Master_v7_0|v7 master]] adopts the correct repair: unit soldering is a representation choice and peak scale--capacity equivalence is an explicit physical principle.
+The later [[causal-scale-theory/sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0.md|v7 master]] adopts the correct repair: unit soldering is a representation choice and peak scale--capacity equivalence is an explicit physical principle.

@@ -125,7 +125,7 @@ python causal-scale-theory/receipts/fit-des-dovekie-background.py `
   --output causal-scale-theory/receipts/des-dovekie-background-fit.json
 ```
 
-The script verifies the four source hashes, unpacks the precision matrix, checks its diagonal against the released uncertainty diagnostics, reproduces the published flat-\(\Lambda\)CDM fit, and writes [[causal-scale-theory/receipts/des-dovekie-background-fit|the machine-readable ledger]]. Its shared expansion and distance functions are imported from [[causal-scale-theory/receipts/fit-late-time-background|the primary late-time receipt]], so the alternate-supernova test does not fork a second implementation of CST-B2.
+The script verifies the four source hashes, unpacks the precision matrix, checks its diagonal against the released uncertainty diagnostics, reproduces the published flat-\(\Lambda\)CDM fit, and writes [[causal-scale-theory/receipts/des-dovekie-background-fit.json|the machine-readable ledger]]. Its shared expansion and distance functions are imported from [[causal-scale-theory/receipts/fit-late-time-background|the primary late-time receipt]], so the alternate-supernova test does not fork a second implementation of CST-B2.
 
 ## Primary sources
 

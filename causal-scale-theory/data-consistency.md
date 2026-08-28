@@ -195,7 +195,7 @@ Updating that empirical input to the released-2025 best fit \(\Omega_{m0}=0.3223
 | acceleration exit | \(a/a_0=12.0516\) |
 | \(H_0t_0\) | \(0.94360\) |
 
-These linked values are generated, rather than copied, in [[causal-scale-theory/receipts/late-time-best-fit-prediction|the best-fit prediction ledger]].
+These linked values are generated, rather than copied, in [[causal-scale-theory/receipts/late-time-best-fit-prediction.json|the best-fit prediction ledger]].
 
 The near invariance of \(q_0\) and the larger movement of \(j_0\) show where the shape is rigid and where the present placement matters. If one separately supplies the [[library/planck-2018-cosmological-parameters/inq|Planck 2018]] base-model value \(r_d=147.09\ \mathrm{Mpc}\), the fitted \(r_dh=99.324\ \mathrm{Mpc}\) corresponds to \(H_0=67.53\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\); that calibration then gives \(t_0\simeq13.66\ \mathrm{Gyr}\). This is a conditional consistency chain, not an absolute prediction, because the sound horizon was imported from a model-dependent early-universe inference.
 
@@ -239,7 +239,7 @@ Two differently constructed clocks are compatible with those numbers:
 - the August 2026 DESI-DR1 cosmic-chronometer analysis reports \(H(0.57)=95.1^{+10.9}_{-6.0}\ \text{(stat.)}\pm11.3\ \text{(syst.)}\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\) from a pivotal-redshift cosmographic fit ([Álvarez et al.](https://doi.org/10.48550/arXiv.2608.13178));
 - globular-cluster dating gives \(t_U=13.5^{+0.16}_{-0.14}\ \text{(stat.)}\pm0.23\ \text{(sys.)}\ \mathrm{Gyr}\), or \(0.27\ \mathrm{Gyr}\) combined in quadrature ([[library/globular-cluster-age/inq|Valcin et al.]]).
 
-Neither is a new confirmation. The chronometer uncertainty is broad and its promised 45-point covariance product is not yet available with the current preprint; the low-\(H_0\) CST scale above still imports \(r_d\). The useful conclusion is conditional and discriminating: current non-supernova clocks are compatible with the Planck-ruler-calibrated CST branch, while globular-cluster dating puts moderate pressure on the Cepheid-calibrated high-\(H_0\) branch. [[causal-scale-theory/receipts/acoustic-anchored-best-fit-prediction|The anchored prediction ledger]] records the linked dimensionless outputs.
+Neither is a new confirmation. The chronometer uncertainty is broad and its promised 45-point covariance product is not yet available with the current preprint; the low-\(H_0\) CST scale above still imports \(r_d\). The useful conclusion is conditional and discriminating: current non-supernova clocks are compatible with the Planck-ruler-calibrated CST branch, while globular-cluster dating puts moderate pressure on the Cepheid-calibrated high-\(H_0\) branch. [[causal-scale-theory/receipts/acoustic-anchored-best-fit-prediction.json|The anchored prediction ledger]] records the linked dimensionless outputs.
 
 ## Signature and construction are different achievements
 

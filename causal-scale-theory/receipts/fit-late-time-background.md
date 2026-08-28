@@ -1,6 +1,6 @@
 # Direct Late-Time Background Receipt
 
-This receipt performs an equal-footing background-only comparison between the frozen unit CST-B2 member and flat \(\Lambda\)CDM. It reads the archived DESI DR2, Pantheon+, and Planck PR3 products; verifies their hashes; profiles the shared distance calibrations analytically; fits one ordinary-sector shape parameter \(\Omega_{m0}\) in each model; and writes the complete result to [[causal-scale-theory/receipts/late-time-background-fit|the machine-readable fit ledger]]. The Planck product is used only for explicitly qualified acoustic-distance stress tests, not as a substitute for a primary-CMB likelihood.
+This receipt performs an equal-footing background-only comparison between the frozen unit CST-B2 member and flat \(\Lambda\)CDM. It reads the archived DESI DR2, Pantheon+, and Planck PR3 products; verifies their hashes; profiles the shared distance calibrations analytically; fits one ordinary-sector shape parameter \(\Omega_{m0}\) in each model; and writes the complete result to [[causal-scale-theory/receipts/late-time-background-fit.json|the machine-readable fit ledger]]. The Planck product is used only for explicitly qualified acoustic-distance stress tests, not as a substitute for a primary-CMB likelihood.
 
 Run from the repository root with the bundled or any Python 3 interpreter carrying NumPy:
 
