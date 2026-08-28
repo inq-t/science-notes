@@ -1,5 +1,0 @@
-[module]
-name = "act-dr6-cosmology-products"
-entry = "entry.md"
-include = ["**"]
-

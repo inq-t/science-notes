@@ -1,4 +1,0 @@
-[module]
-name = "testing-emergent-gravity-with-mass-densities-of-galaxy-clusters"
-entry = "entry.md"
-include = ["**"]

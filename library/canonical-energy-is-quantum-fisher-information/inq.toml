@@ -1,4 +1,0 @@
-[module]
-name = "canonical-energy-is-quantum-fisher-information"
-entry = "entry.md"
-include = ["**"]

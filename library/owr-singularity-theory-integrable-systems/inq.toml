@@ -1,4 +1,0 @@
-[module]
-name = "owr-singularity-theory-integrable-systems"
-entry = "entry.md"
-include = ["**"]

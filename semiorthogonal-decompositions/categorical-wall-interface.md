@@ -152,7 +152,7 @@ $$
 
 is an open analytic realization, not a consequence of semiorthogonality.
 
-This makes [[library/hodge-atoms-spectral-triples-bps/entry|the Hodge-atoms source]] relevant but non-load-bearing. It proposes that a Kuznetsov component is a dynamically protected phase and brings JLO language into the same picture. The one-sided Ext vanishing is categorical mathematics; the tunnelling selection rule and the claimed JLO localization are conjectural. [[spectral-wall-descent/index-and-curvature-transgression|Index and curvature transgression]] supplies the canonical analytic target once a suitable spectral triple has actually been constructed.
+This makes [[library/hodge-atoms-spectral-triples-bps/inq|the Hodge-atoms source]] relevant but non-load-bearing. It proposes that a Kuznetsov component is a dynamically protected phase and brings JLO language into the same picture. The one-sided Ext vanishing is categorical mathematics; the tunnelling selection rule and the claimed JLO localization are conjectural. [[spectral-wall-descent/index-and-curvature-transgression|Index and curvature transgression]] supplies the canonical analytic target once a suitable spectral triple has actually been constructed.
 
 ## The \(A_2\) bridge programme
 

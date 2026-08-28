@@ -1,4 +1,0 @@
-[module]
-name = "operator-valued-weights-without-structure-theory"
-entry = "entry.md"
-include = ["**"]

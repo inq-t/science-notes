@@ -1,4 +1,0 @@
-[module]
-name = "a-method-for-simulating-chiral-fermions-on-the-lattice"
-entry = "entry.md"
-include = ["**"]

@@ -1,4 +1,0 @@
-[module]
-name = "monotone-riemannian-metrics-and-relative-entropy"
-entry = "entry.md"
-include = ["**"]

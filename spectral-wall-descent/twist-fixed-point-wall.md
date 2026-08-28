@@ -215,7 +215,7 @@ g^{\mathrm{BKM}}_{\theta\theta}
 =\operatorname{sech}^2\theta.}
 $$
 
-This exactly realizes the binary profile used by [[binary-information-geometry/entry|binary information geometry]] inside the twist-odd Majorana direction.
+This exactly realizes the binary profile used by [[binary-information-geometry/inq|binary information geometry]] inside the twist-odd Majorana direction.
 
 The bridge is **[CONDITIONAL]**. In the source theory \(\boldsymbol\sigma\) is a Dirac fluctuation, not a density operator; \(\phi\) is not restricted to \((-1,1)\). A physical theory must explain why the positive normalization above is the selected state family rather than infer that selection from the matching formula.
 
@@ -265,4 +265,4 @@ A groupoid or ordinary stack retains automorphisms and uses invertible arrows. I
 - The finite algebra does not generate the four-dimensional spin manifold assumed by the almost-commutative product.
 - Noncommutativity does not establish homogeneity; the relevant transitive action on states or presentations must still be exhibited.
 
-Primary sources: [[library/twisted-spectral-triple-standard-model/entry|the twisted grand-symmetry construction]], [the singlet and Higgs-mass analysis](https://arxiv.org/abs/1208.1030), and [a critical survey of the Lorentzian and physical status of twists](https://arxiv.org/abs/2301.08346).
+Primary sources: [[library/twisted-spectral-triple-standard-model/inq|the twisted grand-symmetry construction]], [the singlet and Higgs-mass analysis](https://arxiv.org/abs/1208.1030), and [a critical survey of the Lorentzian and physical status of twists](https://arxiv.org/abs/2301.08346).

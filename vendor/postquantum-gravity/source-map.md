@@ -4,11 +4,11 @@ The five primary articles this module comments on are held as raw library module
 
 | Library module | Reference |
 |---|---|
-| [[library/covariant-cq-path-integrals/entry\|Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time]] | Oppenheim & Weller-Davies, Phys. Rev. X **16**, 031007 (2026) |
-| [[library/renormalisation-of-postquantum-gravity/entry\|Renormalisation of Postquantum-Classical Gravity]] | Grudka, Morris, Oppenheim, Russo & Sajjad, arXiv:2402.17844v3 |
-| [[library/stochastic-modes-in-postquantum-gravity/entry\|Stochastic Modes in Postquantum Classical Gravity]] | Oppenheim & Sajjad, arXiv:2605.05375v1 |
-| [[library/anomalous-galactic-rotation-curves/entry\|Anomalous Contribution to Galactic Rotation Curves due to Stochastic Spacetime]] | Oppenheim & Russo, arXiv:2402.19459v3 |
-| [[library/phantom-cold-dark-matter/entry\|Emergence of Phantom Cold Dark Matter from Spacetime Diffusion]] | Oppenheim, Panella & Pontzen, Phys. Rev. D, DOI 10.1103/7whh-9j22 |
+| Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time ([[library/covariant-cq-path-integrals/inq]]) | Oppenheim & Weller-Davies, Phys. Rev. X **16**, 031007 (2026) |
+| Renormalisation of Postquantum-Classical Gravity ([[library/renormalisation-of-postquantum-gravity/inq]]) | Grudka, Morris, Oppenheim, Russo & Sajjad, arXiv:2402.17844v3 |
+| Stochastic Modes in Postquantum Classical Gravity ([[library/stochastic-modes-in-postquantum-gravity/inq]]) | Oppenheim & Sajjad, arXiv:2605.05375v1 |
+| Anomalous Contribution to Galactic Rotation Curves due to Stochastic Spacetime ([[library/anomalous-galactic-rotation-curves/inq]]) | Oppenheim & Russo, arXiv:2402.19459v3 |
+| Emergence of Phantom Cold Dark Matter from Spacetime Diffusion ([[library/phantom-cold-dark-matter/inq]]) | Oppenheim, Panella & Pontzen, Phys. Rev. D, DOI 10.1103/7whh-9j22 |
 
 ## Notation clash to watch
 

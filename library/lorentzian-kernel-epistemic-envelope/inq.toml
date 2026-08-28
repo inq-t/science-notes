@@ -1,4 +1,0 @@
-[module]
-name = "lorentzian-kernel-epistemic-envelope"
-entry = "entry.md"
-include = ["**"]

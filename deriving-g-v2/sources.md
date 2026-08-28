@@ -16,7 +16,7 @@ Principal sources by dependency. Entries marked **(library)** are mirrored local
 
 - J. D. Bekenstein, "Black holes and entropy," Phys. Rev. D **7**, 2333 (1973).
 - J. M. Bardeen, B. Carter, and S. W. Hawking, "The four laws of black hole mechanics," Comm. Math. Phys. **31**, 161 (1973).
-- T. Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," Phys. Rev. Lett. **75**, 1260 (1995). [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|arXiv:gr-qc/9504004]]
+- T. Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," Phys. Rev. Lett. **75**, 1260 (1995). [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/inq|arXiv:gr-qc/9504004]]
 - R.-G. Cai and S. P. Kim, "First law of thermodynamics and Friedmann equations of Friedmann–Robertson–Walker universe," JHEP **0502**, 050 (2005). [arXiv:hep-th/0501055](https://arxiv.org/abs/hep-th/0501055)
 - G. W. Gibbons, "The maximum tension principle in general relativity," Found. Phys. **32**, 1891 (2002). [arXiv:hep-th/0210109](https://arxiv.org/abs/hep-th/0210109)
 
@@ -40,12 +40,12 @@ Principal sources by dependency. Entries marked **(library)** are mirrored local
 - A. H. Chamseddine and A. Connes, "The spectral action principle," Comm. Math. Phys. **186**, 731 (1997). [arXiv:hep-th/9606001](https://arxiv.org/abs/hep-th/9606001)
 - A. H. Chamseddine and A. Connes, "Why the Standard Model," (2007). **(library: why-the-standard-model)** A. Connes, "Noncommutative geometry and the standard model with neutrino mixing," (2006). **(library: ncg-standard-model-neutrino-mixing)**
 - A. H. Chamseddine, A. Connes, and V. Mukhanov, "Quanta of geometry," Phys. Rev. Lett. **114**, 091302 (2015). **(library: quanta-of-geometry)**
-- N. Aghanim et al. (Planck Collaboration), "Planck 2018 results. VI. Cosmological parameters," Astron. Astrophys. **641**, A6 (2020). [[library/planck-2018-cosmological-parameters/entry|arXiv:1807.06209]]
+- N. Aghanim et al. (Planck Collaboration), "Planck 2018 results. VI. Cosmological parameters," Astron. Astrophys. **641**, A6 (2020). [[library/planck-2018-cosmological-parameters/inq|arXiv:1807.06209]]
 - F. Hofmann and J. Müller, "Relativistic tests with lunar laser ranging," Class. Quantum Grav. **35**, 035015 (2018).
 - A. Einstein, "Autobiographical Notes," in *Albert Einstein: Philosopher-Scientist*, ed. P. A. Schilpp (1949) — rods and clocks as theoretically non-primitive.
 
 ## Neighbouring programmes
 
-- Entropic gravity sources (Jacobson 1995 above; Verlinde JHEP **04** (2011) 029, [[library/on-the-origin-of-gravity-and-the-laws-of-newton/entry|arXiv:1001.0785]]; Verlinde SciPost Phys. **2**, 016 (2017), [[library/emergent-gravity-and-the-dark-universe/entry|arXiv:1611.02269]]) are owned with audit by [[vendor/entropic-gravity/entry|the entropic-gravity vendor]].
+- Entropic gravity sources (Jacobson 1995 above; Verlinde JHEP **04** (2011) 029, [[library/on-the-origin-of-gravity-and-the-laws-of-newton/inq|arXiv:1001.0785]]; Verlinde SciPost Phys. **2**, 016 (2017), [[library/emergent-gravity-and-the-dark-universe/inq|arXiv:1611.02269]]) are owned with audit by [[vendor/entropic-gravity/inq|the entropic-gravity vendor]].
 - T. Padmanabhan, "Thermodynamical aspects of gravity: new insights," Rep. Prog. Phys. **73**, 046901 (2010). [arXiv:0911.5004](https://arxiv.org/abs/0911.5004)
-- Postquantum gravity sources are owned with audit by [[vendor/postquantum-gravity/entry|the postquantum-gravity vendor]] and its library cluster (covariant-cq-path-integrals, renormalisation-of-postquantum-gravity, stochastic-modes-in-postquantum-gravity, anomalous-galactic-rotation-curves, phantom-cold-dark-matter).
+- Postquantum gravity sources are owned with audit by [[vendor/postquantum-gravity/inq|the postquantum-gravity vendor]] and its library cluster (covariant-cq-path-integrals, renormalisation-of-postquantum-gravity, stochastic-modes-in-postquantum-gravity, anomalous-galactic-rotation-curves, phantom-cold-dark-matter).

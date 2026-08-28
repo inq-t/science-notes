@@ -54,7 +54,7 @@ Local horizon boosts and modular evolution both exhibit a canonical \(2\pi\) nor
 
 The resemblance does not yet identify the physical deformation. Modular automorphism of a fixed state is vertical motion, whereas \(N\mapsto\omega_N\) is horizontal comparison between transported fibers. [[wall-construction-interface/vertical-and-horizontal-motion|Vertical modular flow and horizontal state change]] states the missing construction precisely. A valid bridge must first produce \(v_N\), then prove that its gravitational image is the perturbation used in \(\mathcal E_{\xi_N}\).
 
-Nor does the normalized two-channel wall profile fill this gap. [[binary-information-geometry/entry|Binary information geometry]] gives an exact reduced susceptibility, but it fixes neither the extensive number of channels nor their density per independently measured area. Its translation tangent is also not automatically an escort-temperature tangent.
+Nor does the normalized two-channel wall profile fill this gap. [[binary-information-geometry/inq|Binary information geometry]] gives an exact reduced susceptibility, but it fixes neither the extensive number of channels nor their density per independently measured area. Its translation tangent is also not automatically an escort-temperature tangent.
 
 The controlled results gathered in [[deriving-value-of-g/noether-capacity-theorem|the Noether--capacity theorem]] show that BKM response, canonical energy, and Noether structure can be linked under explicit hypotheses. [[deriving-value-of-g/obstructions-to-an-unconditional-proof|The obstruction register]] shows why boost symmetry, self-duality, and a first law alone cannot fix the quadratic normalization.
 

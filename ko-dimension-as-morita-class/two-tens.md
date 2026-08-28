@@ -4,15 +4,15 @@ Two numbers written $10$ occur in the neighbourhood of the spectral standard mod
 
 ## Connes' ten is a sum before reduction
 
-The finite geometry $F$ has KO-dimension $6$, the spin manifold $M$ has KO-dimension $4$, and the product has $4+6=10\equiv 2$. There are eight KO-dimensions, not ten; $10$ is an unreduced representative of $2$, and the choice to display it unreduced is rhetorical. [[library/ncg-standard-model-neutrino-mixing/entry|Connes]] says so in the same breath in which he writes it:
+The finite geometry $F$ has KO-dimension $6$, the spin manifold $M$ has KO-dimension $4$, and the product has $4+6=10\equiv 2$. There are eight KO-dimensions, not ten; $10$ is an unreduced representative of $2$, and the choice to display it unreduced is rhetorical. [[library/ncg-standard-model-neutrino-mixing/inq|Connes]] says so in the same breath in which he writes it:
 
 > Of course the above $10$ is very reminiscent of string theory, in which the finite space $F$ might be a good candidate for an "effective" compactification at least for low energies.
 
-with a footnote conceding that the model at hand is not supersymmetric. [[library/why-the-standard-model/entry|Chamseddine and Connes]] later make the same presentational choice — "the raison d'être for $F$ is to correct the K-theoretic dimension from four to ten (modulo eight)" — where the parenthesis does all the mathematical work and *ten* does none.
+with a footnote conceding that the model at hand is not supersymmetric. [[library/why-the-standard-model/inq|Chamseddine and Connes]] later make the same presentational choice — "the raison d'être for $F$ is to correct the K-theoretic dimension from four to ten (modulo eight)" — where the parenthesis does all the mathematical work and *ten* does none.
 
 ## Wall's ten is a count of classes
 
-[[library/the-tenfold-way/entry|Wall's classification]] of real super division algebras yields ten, decomposing as
+[[library/the-tenfold-way/inq|Wall's classification]] of real super division algebras yields ten, decomposing as
 
 $$
 8+2,\qquad

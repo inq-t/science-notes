@@ -1,4 +1,0 @@
-[module]
-name = "subregion-algebras-in-classical-and-quantum-gravity"
-entry = "entry.md"
-include = ["**"]

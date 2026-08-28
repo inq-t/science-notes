@@ -4,7 +4,7 @@ Two papers apply the theory to problems normally assigned to dark matter and dar
 
 ## Anomalous rotation curves
 
-Source: [[library/anomalous-galactic-rotation-curves/entry|Oppenheim and Russo]].
+Source: [[library/anomalous-galactic-rotation-curves/inq|Oppenheim and Russo]].
 
 Restricting to static, spherically symmetric metrics of the Mannheim--Kazanas form, the classical-limit action makes the metric coefficients jointly Gaussian with **zero mean** and **negative correlation**. The authors state that all terms of the power series are kept and the unwanted ones marginalised by Gaussian integration, so the two-parameter presentation is a marginal rather than a truncation. Conditioning on the observed $\gamma_2=\Lambda/3$ at $r_{\max}=R_H$ gives
 
@@ -25,7 +25,7 @@ There is no modified field equation, no covariant formulation of the result, no 
 
 ## Phantom cold dark matter
 
-Source: [[library/phantom-cold-dark-matter/entry|Oppenheim, Panella and Pontzen]].
+Source: [[library/phantom-cold-dark-matter/inq|Oppenheim, Panella and Pontzen]].
 
 The clean result is a consequence of Itô's lemma. The Hamiltonian constraint $C_H$ is convex in the momentum $\pi_a$, and the noise enters $\pi_a$, so the second-order Itô term is positive definite:
 

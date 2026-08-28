@@ -1,5 +1,0 @@
-[module]
-name = "the-grain-of-causal-scale"
-entry = "entry.md"
-include = ["**/*.md", "**/*.py"]
-

@@ -112,4 +112,4 @@ The theorem determines logarithmic form, not physical normalization. [[basic-con
 
 If only a proper subgroup of positive rescalings is admissible, the classification applies only to that subgroup. If a different character \(F_p\) is allowed at each point, one obtains a field \(\kappa(p)\), not a universal coefficient. If comparison has holonomy or additional generators, no single endpoint scalar \(\Theta\) captures it. If regularity is dropped, discontinuous additive solutions survive.
 
-Finally, this is *soldering* in the project's extended sense: it is a controlled bridge between a scale register and a state coordinate. It is not the tautological solder form on a frame bundle. [[basic-concepts/soldering/entry|The general soldering note]] owns that strict distinction.
+Finally, this is *soldering* in the project's extended sense: it is a controlled bridge between a scale register and a state coordinate. It is not the tautological solder form on a frame bundle. [[basic-concepts/soldering/inq|The general soldering note]] owns that strict distinction.

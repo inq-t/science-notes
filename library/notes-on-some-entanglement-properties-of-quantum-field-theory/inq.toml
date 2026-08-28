@@ -1,4 +1,0 @@
-[module]
-name = "notes-on-some-entanglement-properties-of-quantum-field-theory"
-entry = "entry.md"
-include = ["**"]

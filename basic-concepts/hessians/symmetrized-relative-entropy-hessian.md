@@ -78,9 +78,9 @@ at finite separation. Their cubic and higher derivatives generally differ. [[bas
 
 ## Continuum boundary
 
-Local relativistic QFT algebras are generally type III and need not admit density operators or an ordinary trace. A continuum upgrade requires faithful normal states on a common von Neumann algebra, Araki relative entropy, a controlled perturbation class, and a proof that the relevant second variation is finite or renormalized. The foundational sources are [[library/relative-entropy-of-states-of-von-neumann-algebras/entry|Araki I]], [[library/relative-entropy-for-states-of-von-neumann-algebras-ii/entry|Araki II]], and [[library/relative-hamiltonian-for-faithful-normal-states/entry|the relative-Hamiltonian construction]]. The relation between relative entropy and monotone quantum metrics is treated by [[library/monotone-riemannian-metrics-and-relative-entropy/entry|Lesniewski--Ruskai]] and [[library/geometries-of-quantum-states/entry|Petz--Sudar]].
+Local relativistic QFT algebras are generally type III and need not admit density operators or an ordinary trace. A continuum upgrade requires faithful normal states on a common von Neumann algebra, Araki relative entropy, a controlled perturbation class, and a proof that the relevant second variation is finite or renormalized. The foundational sources are [[library/relative-entropy-of-states-of-von-neumann-algebras/inq|Araki I]], [[library/relative-entropy-for-states-of-von-neumann-algebras-ii/inq|Araki II]], and [[library/relative-hamiltonian-for-faithful-normal-states/inq|the relative-Hamiltonian construction]]. The relation between relative entropy and monotone quantum metrics is treated by [[library/monotone-riemannian-metrics-and-relative-entropy/inq|Lesniewski--Ruskai]] and [[library/geometries-of-quantum-states/inq|Petz--Sudar]].
 
-No finite-dimensional calculation constructs the scale-indexed wall state, the cross-fiber transport, or the continuum response measure required by [[wall-construction-interface/entry|the wall interface]].
+No finite-dimensional calculation constructs the scale-indexed wall state, the cross-fiber transport, or the continuum response measure required by [[wall-construction-interface/inq|the wall interface]].
 
 ## What the theorem does not identify
 

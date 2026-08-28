@@ -1,4 +1,0 @@
-[module]
-name = "ncg-standard-model-neutrino-mixing"
-entry = "entry.md"
-include = ["**"]

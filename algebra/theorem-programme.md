@@ -50,7 +50,7 @@ The status of the final claim cannot exceed its weakest gate.
 
 ### Presentation weld
 
-Construct a category or stack-like object of algebraic backgrounds, representations, states, differential calculi, and compatible Dirac operators. [[library/algebraic-backgrounds/entry|Algebraic backgrounds]] give an exact analytic template, but their canonical examples already assume manifold, metric-class, spin, and differential data. The pre-core must say which fields are fixed, which vary, and which descend.
+Construct a category or stack-like object of algebraic backgrounds, representations, states, differential calculi, and compatible Dirac operators. [[library/algebraic-backgrounds/inq|Algebraic backgrounds]] give an exact analytic template, but their canonical examples already assume manifold, metric-class, spin, and differential data. The pre-core must say which fields are fixed, which vary, and which descend.
 
 ### Degeneration weld
 
@@ -58,7 +58,7 @@ Show that an $A_2$ discriminant or another singularity occurs naturally in the m
 
 ### Noninvertible weld
 
-Construct scale- or context-indexed inclusions, correspondences, and selected conditional expectations or Q-systems. [[library/planar-algebraic-conditional-expectations/entry|Finite-index conditional expectations]] give exact equivalences with conjugate equations and Q-systems under their hypotheses. A bare inclusion does not canonically select an expectation, and an expectation does not select a fact.
+Construct scale- or context-indexed inclusions, correspondences, and selected conditional expectations or Q-systems. [[library/planar-algebraic-conditional-expectations/inq|Finite-index conditional expectations]] give exact equivalences with conjugate equations and Q-systems under their hypotheses. A bare inclusion does not canonically select an expectation, and an expectation does not select a fact.
 
 ### Factive-temporal weld
 

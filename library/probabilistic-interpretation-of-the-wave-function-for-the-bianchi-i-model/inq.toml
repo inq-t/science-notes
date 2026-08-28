@@ -1,4 +1,0 @@
-[module]
-name = "probabilistic-interpretation-of-the-wave-function-for-the-bianchi-i-model"
-entry = "entry.md"
-include = ["**"]

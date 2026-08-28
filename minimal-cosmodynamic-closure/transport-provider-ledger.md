@@ -76,7 +76,7 @@ They are continuum test objects, not Lorentzian cosmological realizations.
 
 The raw `inbox/the-box-spectrum-functor` note constructs a canonical horizontal spectral map from Schwarzschild--de Sitter root data into the \(F_4\)-quotient of \(\mathfrak h_3(\mathbb O)\). Its quotient and fiber calculations are relevant to the \(A_2\) carrier, but the note explicitly does not act on weights, modular flow, or the half-sided-modular family. It cannot serve as the core-to-causal realization.
 
-Likewise, [[flux-record-and-top-form-realizations/entry|Baum--Connes and Connes--Thom naturality]] can transport or compare an already constructed equivariant class. Assembly does not create the wall class, select the event, construct a causal net, or normalize area.
+Likewise, [[flux-record-and-top-form-realizations/inq|Baum--Connes and Connes--Thom naturality]] can transport or compare an already constructed equivariant class. Assembly does not create the wall class, select the event, construct a causal net, or normalize area.
 
 ## The remaining naturality theorem
 

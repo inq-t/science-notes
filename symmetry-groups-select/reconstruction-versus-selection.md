@@ -14,13 +14,13 @@ The [[wall-construction-interface/state-coordinate-types|wall state-coordinate a
 | Horizontal causal-scale structure $\Phi_{N_2:N_1}$ | comparison of algebras or states across scale | new proposed structure; not itself a Yang–Mills gauge group |
 | Finite internal algebra $A_F$ and bimodule | internal representation data in spectral geometry | a separate microscopic candidate, absent from the current wall package |
 
-The [[wall-construction-interface/entry#The minimal package|minimal wall interface]] still lacks a charged-sector category. It also requires an inclusion, isomorphism, common standard form, or other transport before Connes cocycles can compare states at different scales. Writing a wall assignment directly on a cut does not supply these missing structures. Fewster's natural-automorphism construction needs a functor over a spacetime category, not a single observer-region net. Ordinary DHR sectors also require bounded-region localization; Gauss-law charges such as electric charge need a broader sector framework.
+The [[wall-construction-interface/inq#The minimal package|minimal wall interface]] still lacks a charged-sector category. It also requires an inclusion, isomorphism, common standard form, or other transport before Connes cocycles can compare states at different scales. Writing a wall assignment directly on a cut does not supply these missing structures. Fewster's natural-automorphism construction needs a functor over a spacetime category, not a single observer-region net. Ordinary DHR sectors also require bounded-region localization; Gauss-law charges such as electric charge need a broader sector framework.
 
 ## Two established reconstruction routes
 
-In locally covariant QFT, a theory is a functor from a category of spacetimes to a category of algebras. Fewster proposes the natural automorphism group of that functor as its global gauge group and proves compactness under additional assumptions, including an energy-compactness condition in Minkowski space; see [[library/endomorphisms-and-automorphisms-of-locally-covariant-quantum-field-theories/entry|Endomorphisms and automorphisms of locally covariant quantum field theories]].
+In locally covariant QFT, a theory is a functor from a category of spacetimes to a category of algebras. Fewster proposes the natural automorphism group of that functor as its global gauge group and proves compactness under additional assumptions, including an energy-compactness condition in Minkowski space; see [[library/endomorphisms-and-automorphisms-of-locally-covariant-quantum-field-theories/inq|Endomorphisms and automorphisms of locally covariant quantum field theories]].
 
-In the DHR framework, a suitable symmetric tensor category of localized, transportable sectors with conjugates and finite statistics reconstructs a compact group and a charged field algebra. The construction and its hypotheses are reviewed in [[library/algebraic-quantum-field-theory/entry|Algebraic Quantum Field Theory]]. Long-range gauge charges are not straightforward DHR sectors; the [[library/gauss-law-and-string-localized-quantum-field-theory/entry|Gauss-law obstruction]] is therefore relevant to any claimed reconstruction of the complete Standard Model.
+In the DHR framework, a suitable symmetric tensor category of localized, transportable sectors with conjugates and finite statistics reconstructs a compact group and a charged field algebra. The construction and its hypotheses are reviewed in [[library/algebraic-quantum-field-theory/inq|Algebraic Quantum Field Theory]]. Long-range gauge charges are not straightforward DHR sectors; the [[library/gauss-law-and-string-localized-quantum-field-theory/inq|Gauss-law obstruction]] is therefore relevant to any claimed reconstruction of the complete Standard Model.
 
 Both routes are reconstruction theorems:
 
@@ -36,7 +36,7 @@ The reconstructed object is a compact global internal group acting on fields or 
 
 ## The circularity test
 
-The [[wall-construction-interface/entry#The interface is a dependency, not a theory|interface formulation]] permits
+The [[wall-construction-interface/inq#The interface is a dependency, not a theory|interface formulation]] permits
 
 $$
 \mathcal A_N=\mathcal A_{\mathrm{QFT}}(M,g_N)
@@ -58,7 +58,7 @@ If many categories survive, the framework provides an interpretation of internal
 
 The [[wall-construction-interface/vertical-and-horizontal-motion|modular automorphism group]] acts at fixed algebra and state, while [[wall-construction-interface/vertical-and-horizontal-motion|horizontal deformation]] moves through states. Neither is automatically the compact internal group acting on charged fields. The conditional character in [[basic-concepts/soldering/affine-scale-state|scale soldering]] belongs to the positive scale-ratio group $\mathbb R_+$; its weight is continuous, and choosing $\varrho_\perp=1$ is a physical representation choice. It does not produce the compact hypercharge group $U(1)$.
 
-Geometric modular action can implement Lorentz transformations or PCT under strong hypotheses, as in [[library/modular-structure-and-duality-in-conformal-quantum-field-theory/entry|Brunetti, Guido, and Longo]], but that does not identify normal reflection with weak isospin or charge conjugation. Such an identification would also endanger the required local separation between spacetime symmetry and internal gauge symmetry.
+Geometric modular action can implement Lorentz transformations or PCT under strong hypotheses, as in [[library/modular-structure-and-duality-in-conformal-quantum-field-theory/inq|Brunetti, Guido, and Longo]], but that does not identify normal reflection with weak isospin or charge conjugation. Such an identification would also endanger the required local separation between spacetime symmetry and internal gauge symmetry.
 
 ## “Spectral” names two unrelated constructions
 

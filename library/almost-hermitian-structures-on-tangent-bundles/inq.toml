@@ -1,4 +1,0 @@
-[module]
-name = "almost-hermitian-structures-on-tangent-bundles"
-entry = "entry.md"
-include = ["**"]

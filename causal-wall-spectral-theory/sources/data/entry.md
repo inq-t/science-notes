@@ -4,12 +4,12 @@ This ignored directory is a local working cache for large, reproducible observat
 
 ## Canonical dataset modules
 
-- [[data/act-dr6-cosmology-products/entry|ACT DR6 cosmology products]]
-- [[data/bicep-keck-2018-data-products/entry|BICEP/Keck 2018 data products]]
-- [[data/planck-2018-release-3-cosmology-products/entry|Planck 2018 Release-3 cosmology products]]
-- [[data/planck-2015-release-2-cosmology-products/entry|Planck 2015 Release-2 cosmology products]]
-- [[data/bicep2-keck-planck-2015-joint-likelihood/entry|BICEP2/Keck–Planck 2015 joint likelihood]]
-- [[data/wmap-seven-year-power-spectra/entry|WMAP seven-year power spectra]]
+- [[data/act-dr6-cosmology-products/inq|ACT DR6 cosmology products]]
+- [[data/bicep-keck-2018-data-products/inq|BICEP/Keck 2018 data products]]
+- [[data/planck-2018-release-3-cosmology-products/inq|Planck 2018 Release-3 cosmology products]]
+- [[data/planck-2015-release-2-cosmology-products/inq|Planck 2015 Release-2 cosmology products]]
+- [[data/bicep2-keck-planck-2015-joint-likelihood/inq|BICEP2/Keck–Planck 2015 joint likelihood]]
+- [[data/wmap-seven-year-power-spectra/inq|WMAP seven-year power spectra]]
 
 ## Storage policy
 

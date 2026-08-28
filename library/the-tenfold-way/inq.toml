@@ -1,4 +1,0 @@
-[module]
-name = "the-tenfold-way"
-entry = "entry.md"
-include = ["**"]

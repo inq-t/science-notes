@@ -122,7 +122,7 @@ $$
 
 Any future relation involving the lost block must be a fourth explicit construction, not a reinterpretation of the three edges above.
 
-A strict extended use of *soldering* requires a declared source, target, base, symmetry action, covariance law, rank, and preservation property. [[basic-concepts/soldering/entry|Soldering]] owns those conditions.
+A strict extended use of *soldering* requires a declared source, target, base, symmetry action, covariance law, rank, and preservation property. [[basic-concepts/soldering/inq|Soldering]] owns those conditions.
 
 ## The local matching field
 

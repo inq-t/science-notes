@@ -57,7 +57,7 @@ The role assignment is also unstable under change of scope. In the causal-scale 
 
 For a theory with regions, the declared family is not one family but an assignment $U\mapsto\mathcal R(U)$ with restriction maps, and therefore a presheaf of discernment relations rather than a single relation. Two configurations may then be indiscernible on every member of a cover and discernible globally.
 
-This is not a pathology; it is where some of the most secure physics lives. A connection that is locally pure gauge can have nontrivial holonomy around a cycle that no local observable sees, and the difference is registered by a cohomology class rather than by any element of $\mathcal R(U)$. The obstruction is exactly the datum of [[basic-concepts/gluing/entry|gluing]] and [[basic-concepts/sheafs/entry|sheaves]], and its coherent form over a cover is [[basic-concepts/descent/entry|descent]].
+This is not a pathology; it is where some of the most secure physics lives. A connection that is locally pure gauge can have nontrivial holonomy around a cycle that no local observable sees, and the difference is registered by a cohomology class rather than by any element of $\mathcal R(U)$. The obstruction is exactly the datum of [[basic-concepts/gluing/inq|gluing]] and [[basic-concepts/sheafs/inq|sheaves]], and its coherent form over a cover is [[basic-concepts/descent/inq|descent]].
 
 The consequence for the razor is sharp:
 

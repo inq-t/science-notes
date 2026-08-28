@@ -20,7 +20,7 @@ $$
 
 with trivial conservation laws and trivial symmetries quotiented out on each side. The two hypotheses are distinct and are both required: normality concerns the existence of a well-posed evolution direction, total nondegeneracy an algebraic rank condition plus local solvability. This is the converse of Noether's first theorem, and it makes the synthesis tight rather than merely productive.
 
-In a normal, totally nondegenerate variational theory there are then no unexplained conservation laws: every conserved quantity has a symmetry as its reason, exactly rather than heuristically. That is a local instance of the demand in [[sufficient-reason/entry|Sufficing and Necessitating Reason]] that structure have grounds, met by a theorem.
+In a normal, totally nondegenerate variational theory there are then no unexplained conservation laws: every conserved quantity has a symmetry as its reason, exactly rather than heuristically. That is a local instance of the demand in [[sufficient-reason/inq|Sufficing and Necessitating Reason]] that structure have grounds, met by a theorem.
 
 Gauge systems are under-determined and therefore fail normality, which is why they need the separate treatment in [[second-theorem-and-gauge]].
 

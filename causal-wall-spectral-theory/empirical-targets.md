@@ -63,7 +63,7 @@ $$
 {\mathcal K_{\zeta,\mathrm{target}}}>55.6
 $$
 
-for one tensor polarization in the second ratio. These are **[RECEIPT]** consequences of reported inputs. The local [[library/planck-2018-results-x-constraints-on-inflation/entry|Planck inflation analysis]], [[library/bicep-keck-2018-primordial-gravitational-waves/entry|BK18 analysis]], [[data/planck-2018-release-3-cosmology-products/entry|Planck data products]], and [[data/bicep-keck-2018-data-products/entry|BK18 data products]] document that calibration. They should not be described as current universal constants or as independent CWST successes.
+for one tensor polarization in the second ratio. These are **[RECEIPT]** consequences of reported inputs. The local [[library/planck-2018-results-x-constraints-on-inflation/inq|Planck inflation analysis]], [[library/bicep-keck-2018-primordial-gravitational-waves/inq|BK18 analysis]], [[data/planck-2018-release-3-cosmology-products/inq|Planck data products]], and [[data/bicep-keck-2018-data-products/inq|BK18 data products]] document that calibration. They should not be described as current universal constants or as independent CWST successes.
 
 ## Shape targets
 

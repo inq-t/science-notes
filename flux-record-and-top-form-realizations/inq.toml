@@ -1,4 +1,0 @@
-[module]
-name = "flux-record-and-top-form-realizations"
-entry = "entry.md"
-include = ["**/*.md"]

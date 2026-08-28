@@ -1,4 +1,0 @@
-[module]
-name = "entanglement-equilibrium-for-higher-order-gravity"
-entry = "entry.md"
-include = ["**"]

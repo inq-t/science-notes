@@ -116,4 +116,4 @@ $$
 \chi\in\operatorname{Spec}(\mathcal D).
 $$
 
-This is the distinction established in [[sufficient-reason/entry|Sufficing and Necessitating Reason]]. The relative-entropy deficit belongs to observational restriction; a conservation law governing actual pointing requires the additional structure proposed in [[factive-descent-and-records]].
+This is the distinction established in [[sufficient-reason/inq|Sufficing and Necessitating Reason]]. The relative-entropy deficit belongs to observational restriction; a conservation law governing actual pointing requires the additional structure proposed in [[factive-descent-and-records]].

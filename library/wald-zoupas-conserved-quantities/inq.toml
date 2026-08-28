@@ -1,4 +1,0 @@
-[module]
-name = "wald-zoupas-conserved-quantities"
-entry = "entry.md"
-include = ["**"]

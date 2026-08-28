@@ -35,7 +35,7 @@ $$
 \operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr),
 $$
 
-but its mathematical rigidity must not hide the premise stack. [[causal-scale-theory/entry|The CST synthesis]] and [[causal-scale-theory/realization-map|the realization map]] own the detailed status ledger.
+but its mathematical rigidity must not hide the premise stack. [[causal-scale-theory/inq|The CST synthesis]] and [[causal-scale-theory/realization-map|the realization map]] own the detailed status ledger.
 
 ## What it proposes to explain
 

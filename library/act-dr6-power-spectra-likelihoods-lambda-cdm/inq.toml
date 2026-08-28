@@ -1,4 +1,0 @@
-[module]
-name = "act-dr6-power-spectra-likelihoods-lambda-cdm"
-entry = "entry.md"
-include = ["**"]

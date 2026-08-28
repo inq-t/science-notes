@@ -1,4 +1,0 @@
-[module]
-name = "non-equilibrium-thermodynamics-of-spacetime"
-entry = "entry.md"
-include = ["**"]

@@ -1,4 +1,0 @@
-[module]
-name = "testing-verlinde-s-emergent-gravity-with-the-radial-acceleration-relation"
-entry = "entry.md"
-include = ["**"]

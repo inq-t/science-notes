@@ -1,4 +1,0 @@
-[module]
-name = "complex-presentation-without-polarization"
-entry = "entry.md"
-include = ["**/*.md"]

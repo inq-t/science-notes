@@ -4,7 +4,7 @@ Connes' finite Majorana block supplies a concrete observable common-source calcu
 
 ## Shared spectral invariants
 
-In [[library/ncg-standard-model-neutrino-mixing/entry|the local Standard Model spectral geometry]], define
+In [[library/ncg-standard-model-neutrino-mixing/inq|the local Standard Model spectral geometry]], define
 
 $$
 R:=M_R^*M_R,

@@ -1,4 +1,0 @@
-[module]
-name = "microlocal-analysis-and-interacting-qft"
-entry = "entry.md"
-include = ["**"]

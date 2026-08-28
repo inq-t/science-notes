@@ -55,7 +55,7 @@ $$
 
 On a separable Hilbert space, \(P\) has no nonzero point eigenvalue: one such eigenvalue and the dilation covariance would produce uncountably many distinct, mutually orthogonal eigenvectors. Thus an isolated \(46\,\mathrm{MeV}\) “causal eigenvalue” cannot live in the unbroken translation generator.
 
-This is a conceptual gain. Timeless causal source is scale-free. A finite grain can appear only when a wall condition breaks or compresses the dilation orbit—through a box, corner, threshold, boundary condition, irreversible record, or matter correlation. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided modular tunnel]] owns the exact transport theorem and the warning that invariant transport is horizontally response-null; [[library/extension-of-borchers-structure-theorem/entry|Araki--Zsidó]] is the local primary-source owner.
+This is a conceptual gain. Timeless causal source is scale-free. A finite grain can appear only when a wall condition breaks or compresses the dilation orbit—through a box, corner, threshold, boundary condition, irreversible record, or matter correlation. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided modular tunnel]] owns the exact transport theorem and the warning that invariant transport is horizontally response-null; [[library/extension-of-borchers-structure-theorem/inq|Araki--Zsidó]] is the local primary-source owner.
 
 ## The exact finite prototype: one branch becomes positive
 
@@ -121,7 +121,7 @@ $$
 }
 $$
 
-Two boundaries are essential. Physical Schwarzschild--de Sitter has \(m\ge0\), so without the declared negative-parameter extension this is a one-sided rank jump, not a spectral flow. And the \(A_2\) Nariai fold is an eigenvalue collision away from zero; it becomes a zero-crossing only after a spectral cut is independently chosen. [[inbox/the-rank-two-cell/the-rank-two-cell|The rank-two cell]], [[algebra/a2-positive-completion|positive completion]], and [[flux-record-and-top-form-realizations/entry|the boundary-flux audit]] own these distinctions.
+Two boundaries are essential. Physical Schwarzschild--de Sitter has \(m\ge0\), so without the declared negative-parameter extension this is a one-sided rank jump, not a spectral flow. And the \(A_2\) Nariai fold is an eigenvalue collision away from zero; it becomes a zero-crossing only after a spectral cut is independently chosen. [[inbox/the-rank-two-cell/the-rank-two-cell|The rank-two cell]], [[algebra/a2-positive-completion|positive completion]], and [[flux-record-and-top-form-realizations/inq|the boundary-flux audit]] own these distinctions.
 
 ## A proposed definition
 
@@ -284,7 +284,7 @@ $$
 \boxed{\kappa_*=H_c}.
 $$
 
-The stored carrier and the flux must belong to one balance law. BKM capacity cannot be renamed causal charge without a pairing theorem. [[conservation-of-causal-charge/entry|Conservation of causal charge]] and [[flux-record-and-top-form-realizations/entry|the flux module]] state the relevant firewalls.
+The stored carrier and the flux must belong to one balance law. BKM capacity cannot be renamed causal charge without a pairing theorem. [[conservation-of-causal-charge/inq|Conservation of causal charge]] and [[flux-record-and-top-form-realizations/inq|the flux module]] state the relevant firewalls.
 
 ## The \(\operatorname{sech}^2\) resonance test
 
@@ -372,7 +372,7 @@ $$
 
 with presentation-invariant poles. A successful theory should recover the same dimensionless line ratios in at least two observational registers without retuning the center.
 
-[[library/quanta-of-geometry/entry|Chamseddine--Connes--Mukhanov]] provide an important primary-source precedent: a higher Heisenberg relation and index formula quantize volume, area, and black-hole emission lines in their noncommutative-geometric construction. That result makes geometry spectroscopy mathematically respectable. It does not establish this programme's causal grain, rank-two projection, or crossing linewidth.
+[[library/quanta-of-geometry/inq|Chamseddine--Connes--Mukhanov]] provide an important primary-source precedent: a higher Heisenberg relation and index formula quantize volume, area, and black-hole emission lines in their noncommutative-geometric construction. That result makes geometry spectroscopy mathematically respectable. It does not establish this programme's causal grain, rank-two projection, or crossing linewidth.
 
 ## The construction order
 

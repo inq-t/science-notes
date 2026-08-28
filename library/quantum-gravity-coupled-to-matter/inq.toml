@@ -1,4 +1,0 @@
-[module]
-name = "quantum-gravity-coupled-to-matter"
-entry = "entry.md"
-include = ["**"]

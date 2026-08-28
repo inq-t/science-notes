@@ -1,10 +1,10 @@
 # Source Provenance for Misner Logarithmic Time
 
-The four primary works cited by [[../entry|Misner Logarithmic Time]] are owned by one-source modules under `library/`. This note records their 2026-08-22 retrieval from APS or arXiv, together with the identifiers and hashes needed to check provenance.
+The four primary works cited by [[../inq|Misner Logarithmic Time]] are owned by one-source modules under `library/`. This note records their 2026-08-22 retrieval from APS or arXiv, together with the identifiers and hashes needed to check provenance.
 
 ## Misner, “Quantum Cosmology. I” (1969)
 
-- Library wrapper: [[library/quantum-cosmology-i/entry|Misner, “Quantum Cosmology. I”]]
+- Library wrapper: [[library/quantum-cosmology-i/inq|Misner, “Quantum Cosmology. I”]]
 - Publisher record: [DOI 10.1103/PhysRev.186.1319](https://doi.org/10.1103/PhysRev.186.1319)
 - Retrieved from: APS Harvest full-text service
 - Validation: 9 pages; title and author metadata match; all pages readable
@@ -12,7 +12,7 @@ The four primary works cited by [[../entry|Misner Logarithmic Time]] are owned b
 
 ## Misner, “Mixmaster Universe” (1969)
 
-- Library wrapper: [[library/mixmaster-universe/entry|Misner, “Mixmaster Universe”]]
+- Library wrapper: [[library/mixmaster-universe/inq|Misner, “Mixmaster Universe”]]
 - Publisher record: [DOI 10.1103/PhysRevLett.22.1071](https://doi.org/10.1103/PhysRevLett.22.1071)
 - Retrieved from: APS Harvest full-text service
 - Validation: 4 pages; title and author metadata match; all pages readable
@@ -20,7 +20,7 @@ The four primary works cited by [[../entry|Misner Logarithmic Time]] are owned b
 
 ## Misner, “The Mixmaster Cosmological Metrics” (1994)
 
-- Library wrapper: [[library/the-mixmaster-cosmological-metrics/entry|Misner, “The Mixmaster Cosmological Metrics”]]
+- Library wrapper: [[library/the-mixmaster-cosmological-metrics/inq|Misner, “The Mixmaster Cosmological Metrics”]]
 - Local manuscript: [[library/the-mixmaster-cosmological-metrics/9405068.tex|library/the-mixmaster-cosmological-metrics/9405068.tex]]
 - Included figures: [[library/the-mixmaster-cosmological-metrics/fig1-1.png|library/the-mixmaster-cosmological-metrics/fig1-1.png]] and [[library/the-mixmaster-cosmological-metrics/mix.ps|library/the-mixmaster-cosmological-metrics/mix.ps]]
 - Original source package: [[library/the-mixmaster-cosmological-metrics/1994-misner-mixmaster-cosmological-metrics-arxiv-source.tar.gz|library/the-mixmaster-cosmological-metrics/1994-misner-mixmaster-cosmological-metrics-arxiv-source.tar.gz]]
@@ -32,7 +32,7 @@ The four primary works cited by [[../entry|Misner Logarithmic Time]] are owned b
 
 ## Agostini, Cianfrani, and Montani, “Probabilistic interpretation of the wave function for the Bianchi I model”
 
-- Library wrapper: [[library/probabilistic-interpretation-of-the-wave-function-for-the-bianchi-i-model/entry|Agostini, Cianfrani, and Montani, “Probabilistic Interpretation of the Wave Function for the Bianchi I Model”]]
+- Library wrapper: [[library/probabilistic-interpretation-of-the-wave-function-for-the-bianchi-i-model/inq|Agostini, Cianfrani, and Montani, “Probabilistic Interpretation of the Wave Function for the Bianchi I Model”]]
 - Repository record: [arXiv:1704.08502](https://arxiv.org/abs/1704.08502)
 - Retrieved from: official arXiv PDF endpoint
 - Validation: 7 pages; rendered title and authors match; all pages readable

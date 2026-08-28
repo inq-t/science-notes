@@ -20,7 +20,7 @@ Causal dynamical triangulations find the spectral dimension of quantum spacetime
 
 ## The invariant, and the categorical form
 
-Codimension two is not "minus one twice": it is the type of a *cut* — the locus whose two null normals span the modular plane. The categorical version of dropping-by-group-change is already in the vault: [[semiorthogonal-decompositions/entry|semiorthogonal decompositions as categorical walls]], where a category loses a "dimension" by acquiring a filtration, not by deleting objects. The design consequence for construction is stated as [[construction-bridges|Bridge 1]]: build the wall's transport so that its non-semisimple part is concentrated on a rank-two block — the group-change, not the subtraction, is the datum.
+Codimension two is not "minus one twice": it is the type of a *cut* — the locus whose two null normals span the modular plane. The categorical version of dropping-by-group-change is already in the vault: [[semiorthogonal-decompositions/inq|semiorthogonal decompositions as categorical walls]], where a category loses a "dimension" by acquiring a filtration, not by deleting objects. The design consequence for construction is stated as [[construction-bridges|Bridge 1]]: build the wall's transport so that its non-semisimple part is concentrated on a rank-two block — the group-change, not the subtraction, is the datum.
 
 ## Boundary
 

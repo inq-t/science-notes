@@ -1,4 +1,0 @@
-[module]
-name = "introduction-to-effective-field-theories"
-entry = "entry.md"
-include = ["**"]

@@ -1,4 +1,0 @@
-[module]
-name = "crossing-evaluated-flat-modulus"
-entry = "entry.md"
-include = ["**/*.md"]

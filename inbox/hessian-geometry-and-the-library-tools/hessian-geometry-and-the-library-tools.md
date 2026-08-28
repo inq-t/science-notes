@@ -33,7 +33,7 @@ $$
 \boxed{\text{dually flat}+\text{monotone}\;\Longrightarrow\;\text{BKM, up to scale.}}
 $$
 
-[[causal-scale-theory/entry|CST]] and [[basic-concepts/hessians/entry|the Hessian module]] motivate BKM as the coincidence Hessian of relative entropy and stop there. The uniqueness statement is stronger and is the one the programme actually needs, because it converts "we use BKM" from a choice into a consequence of wanting $G$ and $\mathcal C$ to come from one potential. It belongs in a canonical note, not in `scale-as-modular-observable/misc/`.
+[[causal-scale-theory/inq|CST]] and [[basic-concepts/hessians/inq|the Hessian module]] motivate BKM as the coincidence Hessian of relative entropy and stop there. The uniqueness statement is stronger and is the one the programme actually needs, because it converts "we use BKM" from a choice into a consequence of wanting $G$ and $\mathcal C$ to come from one potential. It belongs in a canonical note, not in `scale-as-modular-observable/misc/`.
 
 What the identification buys, beyond a name: the dual potential and Legendre (e/m) coordinates, so that the covariance-versus-precision step of [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier precision]] is the canonical coordinate duality of the manifold rather than an imported operation; the Koszul forms and Hessian curvature as invariants of the response; and a developed literature on when a Hessian structure exists globally on a given affine manifold.
 
@@ -92,7 +92,7 @@ One correction to the branch note's obligation list. Proposition 2.11(ii) record
 
 ## 4. The decoherence--diffusion trade-off is the vault's own Schur complement
 
-[[vendor/postquantum-gravity/cq-construction|The CQ construction]] records the trade-off $4D_0\succeq D_2^{-1}$ and its saturation $4D_2=D_1D_0^{-1}D_1$; [[library/stochastic-modes-in-postquantum-gravity/entry|Oppenheim and Sajjad]] write it as $\mathcal D_0\geq64\pi^2G_N^2\mathcal D_2^{-1}$ with $\mathcal D_1=8\pi G_N$. [[program-core/common-response-form|The response matrix]] independently records hidden-mode elimination as $G^{\mathrm{eff}}_{xx}=G_{xx}-G_{xh}G_{hh}^{+}G_{hx}$.
+[[vendor/postquantum-gravity/cq-construction|The CQ construction]] records the trade-off $4D_0\succeq D_2^{-1}$ and its saturation $4D_2=D_1D_0^{-1}D_1$; [[library/stochastic-modes-in-postquantum-gravity/inq|Oppenheim and Sajjad]] write it as $\mathcal D_0\geq64\pi^2G_N^2\mathcal D_2^{-1}$ with $\mathcal D_1=8\pi G_N$. [[program-core/common-response-form|The response matrix]] independently records hidden-mode elimination as $G^{\mathrm{eff}}_{xx}=G_{xx}-G_{xh}G_{hh}^{+}G_{hx}$.
 
 These are one piece of algebra. For a symmetric block matrix,
 
@@ -112,7 +112,7 @@ Three consequences.
 
 **The trade-off is a worked instance of the W2 arrow's type.** In the linearised theory $\langle\Phi\Phi\rangle=\frac{3}{2\alpha k^4}+\cdots$ with $\alpha:=D_2^{-1}$, so at saturation the spatial precision is $\propto D_2^{-1}=D_1^{-1}D_0D_1^{-1}$: a state-space positive kernel, conjugated by the coupling, returned as a spatial kernel. That is $\mathcal W_{\mathrm{BKM}\to\mathrm{spatial}}$'s type — an $L$ and an $M_\omega$ with no free function — obtained as a consequence of complete positivity rather than postulated. The decoherence kernel $D_0$ is not itself a BKM form, and closing that gap is the actual work; but the arrow's existence in a covariant theory is no longer hypothetical.
 
-**It answers the unrestricted-response no-go.** [[critical-scale-kernels/unrestricted-response-no-go|That no-go]] says predictive content begins only once independent structure restricts the response function, and lists "a flow equation with independently fixed boundary data" among the admissible restrictions. A trade-off inequality is precisely such a restriction: it **bounds the spatial kernel by the state-space kernel**, so $C(k)$ cannot be chosen pointwise from the target spectrum. This is the most direct answer in the vault to the objection that broke [[causal-wall-spectral-theory/entry|CWST]]'s predictive claim.
+**It answers the unrestricted-response no-go.** [[critical-scale-kernels/unrestricted-response-no-go|That no-go]] says predictive content begins only once independent structure restricts the response function, and lists "a flow equation with independently fixed boundary data" among the admissible restrictions. A trade-off inequality is precisely such a restriction: it **bounds the spatial kernel by the state-space kernel**, so $C(k)$ cannot be chosen pointwise from the target spectrum. This is the most direct answer in the vault to the objection that broke [[causal-wall-spectral-theory/inq|CWST]]'s predictive claim.
 
 ## 5. The one genuinely new import: semiorthogonal decompositions
 
@@ -128,7 +128,7 @@ $$
 
 with mutation functors supplying the transport between decompositions. That is the asymmetry the wall is supposed to have, and it does not require a two-sided projection. The audit finds **zero canonical uses** of semiorthogonal decompositions, Kuznetsov components, derived categories, or mutations anywhere in the vault.
 
-[[library/hodge-atoms-spectral-triples-bps/entry|Raugas]] is the natural bridge, because it puts a JLO cyclic cocycle on the same object as a semiorthogonal decomposition — and the JLO Chern character, transgression, and index pairings are already canonical in [[spectral-wall-descent/index-and-curvature-transgression|index and curvature transgression]]. Its Conjecture (selection rule) is also the right shape for a programme that wants a categorical vanishing to *be* a physical selection rule rather than to model one. Two cautions: the vault's "wall-crossing" is explicitly disclaimed as not the Bridgeland invariant in [[conservation-of-causal-charge/entry|the charge module]], and its "Stokes" is Stokes' theorem, so both terms collide with the imported vocabulary.
+[[library/hodge-atoms-spectral-triples-bps/inq|Raugas]] is the natural bridge, because it puts a JLO cyclic cocycle on the same object as a semiorthogonal decomposition — and the JLO Chern character, transgression, and index pairings are already canonical in [[spectral-wall-descent/index-and-curvature-transgression|index and curvature transgression]]. Its Conjecture (selection rule) is also the right shape for a programme that wants a categorical vanishing to *be* a physical selection rule rather than to model one. Two cautions: the vault's "wall-crossing" is explicitly disclaimed as not the Bridgeland invariant in [[conservation-of-causal-charge/inq|the charge module]], and its "Stokes" is Stokes' theorem, so both terms collide with the imported vocabulary.
 
 ## 6. What not to import
 

@@ -1,4 +1,0 @@
-[module]
-name = "constraining-holographic-cosmology-using-planck-data"
-entry = "entry.md"
-include = ["**"]

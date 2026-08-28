@@ -1,4 +1,0 @@
-[module]
-name = "on-fractional-gjms-operators"
-entry = "entry.md"
-include = ["**"]

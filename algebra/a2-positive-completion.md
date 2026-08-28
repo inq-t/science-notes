@@ -28,7 +28,7 @@ $$
 E_{a,b}\cong\mathbb C^3
 $$
 
-as a finite-dimensional commutative $*$-algebra. This is the positive version of the three-sheet sector used in [[a2-ternary-response/entry|the ternary-response test]]. In the one-real-root chamber the declared real $*$-structure has enveloping $C^*$-algebra $\mathbb C$; retaining the conjugate nonreal sheets as positive characters would require a different real-form problem.
+as a finite-dimensional commutative $*$-algebra. This is the positive version of the three-sheet sector used in [[a2-ternary-response/inq|the ternary-response test]]. In the one-real-root chamber the declared real $*$-structure has enveloping $C^*$-algebra $\mathbb C$; retaining the conjugate nonreal sheets as positive characters would require a different real-form problem.
 
 At a smooth real point of the discriminant, write
 

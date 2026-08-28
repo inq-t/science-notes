@@ -32,7 +32,7 @@ Two consequences follow that are not available to a generic collapse model. Loca
 
 ## Why this is the project's sufficing reason
 
-The correspondence with [[sufficient-reason/entry|Sufficing and Necessitating Reason]] is not an analogy. That module distinguishes a necessitating reason, which terminates in a character — a point of a spectrum — from a sufficing reason, which terminates in a measure on that spectrum. Here:
+The correspondence with [[sufficient-reason/inq|Sufficing and Necessitating Reason]] is not an analogy. That module distinguishes a necessitating reason, which terminates in a character — a point of a spectrum — from a sufficing reason, which terminates in a measure on that spectrum. Here:
 
 | Vendor object | Project type |
 |---|---|
@@ -75,7 +75,7 @@ That is a concrete candidate for the functional form of what this project calls 
 
 ## What "descent" would still have to add
 
-A conditional probability is not a descent. The programme's own machinery in [[program-core/physical-quotient|the physical quotient]] and [[basic-concepts/descent/entry|descent]] requires more than a measure over global histories:
+A conditional probability is not a descent. The programme's own machinery in [[program-core/physical-quotient|the physical quotient]] and [[basic-concepts/descent/inq|descent]] requires more than a measure over global histories:
 
 1. **Contexts.** A cover — causal cuts, commutative readout contexts, or scale-indexed algebras — over which local data live. The vendor has one global path integral, not a site.
 2. **Transport.** Comparison maps between contexts. The vendor's classical trajectory is a global object; nothing yet plays the role of a cocycle.

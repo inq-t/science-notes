@@ -40,7 +40,7 @@ while Pantheon+ constrains the shape of \((1+z_{\mathrm{hel}})\chi(z_{\mathrm{HD
 
 That scale freedom is also a limitation. Profiling \(A=c/(H_0r_d)\) makes this a test of the *shape* of expansion and of the BAO ruler product, not of the absolute Hubble scale. The receipt therefore neither resolves nor aggravates the Hubble tension by itself. An absolute prediction for \(H_0\) requires an independently constructed or measured sound horizon, standard-siren calibration, or another absolute ruler; importing a base-\(\Lambda\)CDM value of \(r_d\) is only a conditional conversion.
 
-The archived inputs are 1,580 rows selected from [[data/pantheon-plus-shoes-distance-likelihood/entry|Pantheon+SH0ES]], with the full selected statistical-plus-systematic covariance, and all 13 distances from [[data/desi-dr2-bao-gaussian-likelihood/entry|the DESI DR2 Gaussian BAO likelihood]]. [[causal-scale-theory/receipts/fit-late-time-background|The receipt]] owns the likelihood equations and validation checks.
+The archived inputs are 1,580 rows selected from [[data/pantheon-plus-shoes-distance-likelihood/inq|Pantheon+SH0ES]], with the full selected statistical-plus-systematic covariance, and all 13 distances from [[data/desi-dr2-bao-gaussian-likelihood/inq|the DESI DR2 Gaussian BAO likelihood]]. [[causal-scale-theory/receipts/fit-late-time-background|The receipt]] owns the likelihood equations and validation checks.
 
 ## Result
 
@@ -141,7 +141,7 @@ Q_*:=1000\frac{D_{M,*}[\mathrm{Gpc}]}{r_d[\mathrm{Mpc}]}
 =94.31404\pm0.03458
 $$
 
-over 24,497 weighted chain rows. This reproduces the compressed quantity from primary products, but the tight posterior is conditional on the base-\(\Lambda\)CDM carrier. It is not a model-neutral CMB likelihood and must not be presented as one. [[data/planck-2018-release-3-cosmology-products/entry|The Planck dataset module]] owns the archived-chain identity and fetch instructions; [[library/planck-2018-cosmological-parameters/entry|Planck 2018 VI]] owns the primary cosmological-parameter analysis.
+over 24,497 weighted chain rows. This reproduces the compressed quantity from primary products, but the tight posterior is conditional on the base-\(\Lambda\)CDM carrier. It is not a model-neutral CMB likelihood and must not be presented as one. [[data/planck-2018-release-3-cosmology-products/inq|The Planck dataset module]] owns the archived-chain identity and fetch instructions; [[library/planck-2018-cosmological-parameters/inq|Planck 2018 VI]] owns the primary cosmological-parameter analysis.
 
 Two sensitivity runs make the dependence explicit:
 
@@ -152,7 +152,7 @@ Both lines attach the extra distance to the fully released 2025 DESI vector. The
 
 ## Cross-check against the latest DESI summary
 
-The direct fit above uses the public Pantheon+ release and no CMB. The August 2026 [[library/desi-dr2-results-iv/entry|DESI DR2 Results IV]] analysis supplies a useful but differently conditioned cross-check. With DESI, CMB, and DES-Dovekie supernovae it reports
+The direct fit above uses the public Pantheon+ release and no CMB. The August 2026 [[library/desi-dr2-results-iv/inq|DESI DR2 Results IV]] analysis supplies a useful but differently conditioned cross-check. With DESI, CMB, and DES-Dovekie supernovae it reports
 
 $$
 (w_0,w_a)=(-0.821\pm0.054,-0.65\pm0.20).
@@ -197,7 +197,7 @@ Updating that empirical input to the released-2025 best fit \(\Omega_{m0}=0.3223
 
 These linked values are generated, rather than copied, in [[causal-scale-theory/receipts/late-time-best-fit-prediction|the best-fit prediction ledger]].
 
-The near invariance of \(q_0\) and the larger movement of \(j_0\) show where the shape is rigid and where the present placement matters. If one separately supplies the [[library/planck-2018-cosmological-parameters/entry|Planck 2018]] base-model value \(r_d=147.09\ \mathrm{Mpc}\), the fitted \(r_dh=99.324\ \mathrm{Mpc}\) corresponds to \(H_0=67.53\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\); that calibration then gives \(t_0\simeq13.66\ \mathrm{Gyr}\). This is a conditional consistency chain, not an absolute prediction, because the sound horizon was imported from a model-dependent early-universe inference.
+The near invariance of \(q_0\) and the larger movement of \(j_0\) show where the shape is rigid and where the present placement matters. If one separately supplies the [[library/planck-2018-cosmological-parameters/inq|Planck 2018]] base-model value \(r_d=147.09\ \mathrm{Mpc}\), the fitted \(r_dh=99.324\ \mathrm{Mpc}\) corresponds to \(H_0=67.53\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\); that calibration then gives \(t_0\simeq13.66\ \mathrm{Gyr}\). This is a conditional consistency chain, not an absolute prediction, because the sound horizon was imported from a model-dependent early-universe inference.
 
 ## Cepheid calibration exposes the absolute-scale obligation
 
@@ -237,7 +237,7 @@ $$
 Two differently constructed clocks are compatible with those numbers:
 
 - the August 2026 DESI-DR1 cosmic-chronometer analysis reports \(H(0.57)=95.1^{+10.9}_{-6.0}\ \text{(stat.)}\pm11.3\ \text{(syst.)}\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\) from a pivotal-redshift cosmographic fit ([Álvarez et al.](https://doi.org/10.48550/arXiv.2608.13178));
-- globular-cluster dating gives \(t_U=13.5^{+0.16}_{-0.14}\ \text{(stat.)}\pm0.23\ \text{(sys.)}\ \mathrm{Gyr}\), or \(0.27\ \mathrm{Gyr}\) combined in quadrature ([[library/globular-cluster-age/entry|Valcin et al.]]).
+- globular-cluster dating gives \(t_U=13.5^{+0.16}_{-0.14}\ \text{(stat.)}\pm0.23\ \text{(sys.)}\ \mathrm{Gyr}\), or \(0.27\ \mathrm{Gyr}\) combined in quadrature ([[library/globular-cluster-age/inq|Valcin et al.]]).
 
 Neither is a new confirmation. The chronometer uncertainty is broad and its promised 45-point covariance product is not yet available with the current preprint; the low-\(H_0\) CST scale above still imports \(r_d\). The useful conclusion is conditional and discriminating: current non-supernova clocks are compatible with the Planck-ruler-calibrated CST branch, while globular-cluster dating puts moderate pressure on the Cepheid-calibrated high-\(H_0\) branch. [[causal-scale-theory/receipts/acoustic-anchored-best-fit-prediction|The anchored prediction ledger]] records the linked dimensionless outputs.
 

@@ -1,4 +1,0 @@
-[module]
-name = "linearization-instabilities-and-crossed-products"
-entry = "entry.md"
-include = ["**"]

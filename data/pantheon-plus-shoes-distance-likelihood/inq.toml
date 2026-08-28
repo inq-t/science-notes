@@ -1,5 +1,0 @@
-[module]
-name = "pantheon-plus-shoes-distance-likelihood"
-entry = "entry.md"
-include = ["**"]
-

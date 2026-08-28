@@ -60,7 +60,7 @@ $$
 \Delta\chi^2=-3.3139.
 $$
 
-This shows that the frozen curve is not flagrantly inconsistent with the released low-redshift data and is mildly preferred inside that particular likelihood. It is not a discovery significance, a primary-CMB test, or evidence for the wall ontology. The official [[library/desi-dr2-results-ii/entry|DESI DR2 cosmology analysis]] independently reports that combinations with supernovae prefer the qualitative region \(w_0>-1,\ w_a<0\), while the combination-dependent significance makes the full curve, not that sign pattern, the proper test. The later [[library/desi-dr2-results-iv/entry|DESI Lyman-\(\alpha\) AP analysis]] publishes the joint Ly\(\alpha\) AP--BAO distance pair. The repository's 2026 row remains provisional because it reconstructs a Gaussian likelihood and assumes zero cross-covariance with the lower-redshift DESI blocks; it is not the official full cross-block likelihood.
+This shows that the frozen curve is not flagrantly inconsistent with the released low-redshift data and is mildly preferred inside that particular likelihood. It is not a discovery significance, a primary-CMB test, or evidence for the wall ontology. The official [[library/desi-dr2-results-ii/inq|DESI DR2 cosmology analysis]] independently reports that combinations with supernovae prefer the qualitative region \(w_0>-1,\ w_a<0\), while the combination-dependent significance makes the full curve, not that sign pattern, the proper test. The later [[library/desi-dr2-results-iv/inq|DESI Lyman-\(\alpha\) AP analysis]] publishes the joint Ly\(\alpha\) AP--BAO distance pair. The repository's 2026 row remains provisional because it reconstructs a Gaussian likelihood and assumes zero cross-covariance with the lower-redshift DESI blocks; it is not the official full cross-block likelihood.
 
 Releasing \((\nu,\mathfrak R_c)\) improves the current joint \(\chi^2\) by only \(1.8975\) for two additional parameters; the unit point remains inside the nominal joint \(68\%\) contour and \(\Delta\mathrm{AIC}=+2.1025\) disfavors the additional continuous fit freedom. AIC counts likelihood parameters. It does not count discrete member selection, normalization choices, fixed extensivity, the source map, the chamber, the cell measure, fossil universality, or post-search carrier selection, so it is not evidence for the total structural economy of the wall package.
 
@@ -113,7 +113,7 @@ H_c=\frac{G_{\mathrm N}(F_\pi^\chi)^3}{3\hbar^2c^5}.
 }
 $$
 
-Here \(c\) and \(\hbar\) are typed conversion coefficients, not adjustable cosmic parameters: \(c\) converts causal duration to metric length, and \(\hbar\) converts phase frequency to energy and inverse length to momentum. Their numerical values depend on the chosen units; \(\Xi_\chi=3\) exposes the convention-auditable invariant content. The dimensional ledger is developed in [[the-grain-of-causal-scale/entry|the grain of causal scale]].
+Here \(c\) and \(\hbar\) are typed conversion coefficients, not adjustable cosmic parameters: \(c\) converts causal duration to metric length, and \(\hbar\) converts phase frequency to energy and inverse length to momentum. Their numerical values depend on the chosen units; \(\Xi_\chi=3\) exposes the convention-auditable invariant content. The dimensional ledger is developed in [[the-grain-of-causal-scale/inq|the grain of causal scale]].
 
 The crossing itself must be selected before observational normalization. Algebraically, the core member selects the balanced cut by vanishing binary order parameter; the still-open realization must map that cut to the cosmological equal-partition event naturally. It may not infer \(N_c\) from a fitted expansion history and then reuse the fitted event to normalize the area weld. Present flatness may locate the address **after** the law and cosmic member are fixed; it cannot construct the wall selector retroactively.
 
@@ -134,7 +134,7 @@ $$
 
 The arithmetic checksum at the CH0 central value is \(81.8085\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\). The experimental validation central value would give \(82.49\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\). The distinction is a real operator-normalization question, not a nuisance to average away.
 
-For comparison, [[the-grain-of-causal-scale/entry|the prior acoustic-carrier diagnostic]] inferred \(H_c=83.1058\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\) before the chiral clause was proposed. The baseline central oracle is \(1.56\%\) lower; the PDG theoretical uncertainty propagates cubically to about \(2.76\%\) in \(H_c\). This is a nontrivial consistency target, but not discovery evidence: the chiral candidate itself was found by searching around the inverted grain scale.
+For comparison, [[the-grain-of-causal-scale/inq|the prior acoustic-carrier diagnostic]] inferred \(H_c=83.1058\ \mathrm{km\,s^{-1}\,Mpc^{-1}}\) before the chiral clause was proposed. The baseline central oracle is \(1.56\%\) lower; the PDG theoretical uncertainty propagates cubically to about \(2.76\%\) in \(H_c\). This is a nontrivial consistency target, but not discovery evidence: the chiral candidate itself was found by searching around the inverted grain scale.
 
 ## Protocol A: released-2025 late-time shape
 
@@ -218,7 +218,7 @@ h^2
 }
 $$
 
-Thus, conditional on the full fossil-inclusive package, \((G,F_\pi^\chi,\omega_m,\omega_r)\) returns \(x_c,H_0,\Omega_{m0},\Omega_{r0}\), and the whole background without inserting \(H_0\) or \(\Omega_{X0}\). The current provisional inputs are rounded reference-carrier values inherited from the [[library/planck-2018-cosmological-parameters/entry|Planck 2018 base-\(\Lambda\)CDM analysis]]: \(\omega_m\) includes baryons, cold dark matter, and the present nonrelativistic minimal-mass neutrino contribution. The rounded \(\omega_r\) uses photons plus an effectively massless-neutrino factor for all \(N_{\mathrm{eff}}\), so it slightly double-counts the minimal massive species already placed in \(\omega_m\). This is a flagged carrier approximation, not a primary-CMB determination inside cosmodynamics. The numerical evaluation uses
+Thus, conditional on the full fossil-inclusive package, \((G,F_\pi^\chi,\omega_m,\omega_r)\) returns \(x_c,H_0,\Omega_{m0},\Omega_{r0}\), and the whole background without inserting \(H_0\) or \(\Omega_{X0}\). The current provisional inputs are rounded reference-carrier values inherited from the [[library/planck-2018-cosmological-parameters/inq|Planck 2018 base-\(\Lambda\)CDM analysis]]: \(\omega_m\) includes baryons, cold dark matter, and the present nonrelativistic minimal-mass neutrino contribution. The rounded \(\omega_r\) uses photons plus an effectively massless-neutrino factor for all \(N_{\mathrm{eff}}\), so it slightly double-counts the minimal massive species already placed in \(\omega_m\). This is a flagged carrier approximation, not a primary-CMB determination inside cosmodynamics. The numerical evaluation uses
 
 $$
 \omega_m=0.1430,

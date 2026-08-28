@@ -1,5 +1,0 @@
-[module]
-name = "codata-2022-fundamental-physical-constants"
-entry = "entry.md"
-include = ["**"]
-

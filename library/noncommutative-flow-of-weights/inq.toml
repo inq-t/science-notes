@@ -1,4 +1,0 @@
-[module]
-name = "noncommutative-flow-of-weights"
-entry = "entry.md"
-include = ["**"]

@@ -299,7 +299,7 @@ that preserves the determinant cone, fixes units, and varies consistently. The c
 - a state on the descended observable algebra; and
 - a gluing theorem or controlled defect where contexts fail to agree.
 
-This is where [[basic-concepts/soldering/entry|soldering]] and [[basic-concepts/gluing/entry|gluing]] become literal mathematical obligations. The determinant cone is a local model of causality; it is not yet an arena of facts.
+This is where [[basic-concepts/soldering/inq|soldering]] and [[basic-concepts/gluing/inq|gluing]] become literal mathematical obligations. The determinant cone is a local model of causality; it is not yet an arena of facts.
 
 ## Four meanings of collapse
 

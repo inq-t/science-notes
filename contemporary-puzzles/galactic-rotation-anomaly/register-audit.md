@@ -20,7 +20,7 @@ a\sim cH ,
 \frac{cH_0}{2\pi}=1.04\times10^{-10}\ \mathrm{m\,s^{-2}} .
 $$
 
-**[COINCIDENCE — RECEIPT]** The measured $g_\dagger=1.20\times10^{-10}$ sits within fifteen percent of this crossover. The typed reading: below $g_\dagger$ a wedge's local modular structure no longer dominates the cosmological bath — the deep-MOND regime is *the regime where the global register owns the local frame*. Milgrom's own 1999 vacuum reading and Verlinde's 2016 de Sitter-entropy displacement ([[vendor/entropic-gravity/verlinde-emergent-gravity|audited]]) are prior art for this placement; the stochastic-gravity anti-correlation of [[library/anomalous-galactic-rotation-curves/entry|Oppenheim–Russo]] reaches the same scale by cutting its diffusion at the Hubble radius — a convergence of *scale*, not yet of mechanism.
+**[COINCIDENCE — RECEIPT]** The measured $g_\dagger=1.20\times10^{-10}$ sits within fifteen percent of this crossover. The typed reading: below $g_\dagger$ a wedge's local modular structure no longer dominates the cosmological bath — the deep-MOND regime is *the regime where the global register owns the local frame*. Milgrom's own 1999 vacuum reading and Verlinde's 2016 de Sitter-entropy displacement ([[vendor/entropic-gravity/verlinde-emergent-gravity|audited]]) are prior art for this placement; the stochastic-gravity anti-correlation of [[library/anomalous-galactic-rotation-curves/inq|Oppenheim–Russo]] reaches the same scale by cutting its diffusion at the Hubble radius — a convergence of *scale*, not yet of mechanism.
 
 ## What the reading does and does not assert
 

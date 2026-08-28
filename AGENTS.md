@@ -25,7 +25,7 @@ The point of doing research this way is to build up "modular thought" -- where m
 
 ## modules
 
-Each module has an "entry.md" which is the "entry point" summary of that module's main idea.
+Each module has an `inq.md` whose body is the entry-point summary of that module's main idea.
 
 It must start with an h1 title, and be immediately followed by a compact paragraph that summarizes it.  The rest of the structure is free-form.
 
@@ -38,7 +38,7 @@ The purpose of a module is that it contains "1 main idea" (which is sometimes ra
 BEWARE AI SLOP!
 
 **Do not** write things like:
-- table of contents (especially in the "entry.md" file)
+- table of contents (especially in the `inq.md` file)
 - manual backlinks (eg, "this note is used by that other one")
 - boilerplate commentary or meta-analysis
 - summaries of summaries
@@ -50,7 +50,7 @@ Things like backlinks & table-of-contents can be derived automatically with a pr
 - explore for duplicate content, and abstract out shared modules
 
 
-If the content has a clear dependency order of small, modular notes, feel free to write a master markdown note that "synthesizes" the encapsulated dependencies in order.  This is writing in the style of Spinoza or Euclid, where an ordered flow of modular statements build on each other.  That is a fine way to write.  It can even go in the "entry.md" file, which acts as the master synthesis.   Of course, not every module is making a structured argument - but do consider this when appropriate.
+If the content has a clear dependency order of small, modular notes, feel free to write a master markdown note that "synthesizes" the encapsulated dependencies in order.  This is writing in the style of Spinoza or Euclid, where an ordered flow of modular statements build on each other.  That is a fine way to write.  It can even go in the `inq.md` body, which acts as the master synthesis.   Of course, not every module is making a structured argument - but do consider this when appropriate.
 
 ### Markdown is the best, PDFs are bad
 

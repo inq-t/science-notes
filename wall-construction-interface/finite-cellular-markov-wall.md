@@ -194,7 +194,7 @@ $$
 G^{(1)}_{NN}=\frac{r_*^2e^{-2N}}{1-r_*^2e^{-2N}},
 $$
 
-not the \(\operatorname{sech}^2N\) curve of [[binary-information-geometry/entry|the balanced binary exponential family]]. This difference is informative. A time-homogeneous two-state Markov generator forces the polarization to obey an affine equation
+not the \(\operatorname{sech}^2N\) curve of [[binary-information-geometry/inq|the balanced binary exponential family]]. This difference is informative. A time-homogeneous two-state Markov generator forces the polarization to obey an affine equation
 
 $$
 m'=c-\lambda m,

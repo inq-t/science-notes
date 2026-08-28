@@ -20,7 +20,7 @@ so $E(0.5)=1.32$, $E(1)=1.79$, $E(2)=3.03$ (receipts). A radial-acceleration rel
 
 ## No-gos
 
-**NG1 — No cluster or CMB rescue.** The crossover reading owns P2 and P3 of [[contemporary-puzzles/galactic-rotation-anomaly/puzzle-as-posed|the puzzle as posed]] and *concedes* P1's cosmological component and P4's cluster residual: a bath crossover with no covariant sector cannot source the third acoustic peak or the Bullet Cluster offset. Whoever imports this module must not present it as a dark-matter solution; it is a reclassification of the disk-scale regularity only. (The stochastic-gravity literature attempts the missing pieces — [[library/phantom-cold-dark-matter/entry|phantom CDM]] is the candid null so far, thirty-one orders short.)
+**NG1 — No cluster or CMB rescue.** The crossover reading owns P2 and P3 of [[contemporary-puzzles/galactic-rotation-anomaly/puzzle-as-posed|the puzzle as posed]] and *concedes* P1's cosmological component and P4's cluster residual: a bath crossover with no covariant sector cannot source the third acoustic peak or the Bullet Cluster offset. Whoever imports this module must not present it as a dark-matter solution; it is a reclassification of the disk-scale regularity only. (The stochastic-gravity literature attempts the missing pieces — [[library/phantom-cold-dark-matter/inq|phantom CDM]] is the candid null so far, thirty-one orders short.)
 
 **NG2 — No mechanism without a sector.** The reading supplies register, scale, and value — not dynamics. Deriving the *shape* of the interpolation (the RAR exponential) requires the covariant response sector this programme has not constructed; until then any shape agreement is numerology and must not be claimed.
 

@@ -1,5 +1,0 @@
-[module]
-name = "planck-2018-release-3-cosmology-products"
-entry = "entry.md"
-include = ["**"]
-

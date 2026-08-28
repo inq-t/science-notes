@@ -1,6 +1,6 @@
 # The Mixmaster Import
 
-The vault already contains, one wikilink from [[misner-log-time/entry|Misner log time]], a fully solved hyperbolic counting system: near-singularity mixmaster dynamics *is* — in a precise approximation — the boundary dynamics of the modular orbifold, and its chaos carries exact counts. This note states what can be imported without any new construction, at literature grade.
+The vault already contains, one wikilink from [[misner-log-time/inq|Misner log time]], a fully solved hyperbolic counting system: near-singularity mixmaster dynamics *is* — in a precise approximation — the boundary dynamics of the modular orbifold, and its chaos carries exact counts. This note states what can be imported without any new construction, at literature grade.
 
 ## The identification
 
@@ -18,4 +18,4 @@ $$
 
 ## What the import is for
 
-Two uses, typed. First, it is an existence proof: a cosmological dynamics whose "brutal counting" is *finished* — entropy per era, growth of periodic histories, all exact — because the underlying geometry is hyperbolic and rigid. It calibrates what a completed counting theory of the programme's wall chain should look like. Second, it is adjacent, not identical: mixmaster chaos lives in the anisotropy degrees of freedom near a singularity, not in the homogeneous scale response of [[causal-scale-theory/entry|CST]]; no identification of the era map with the wall chain is proposed. The honest bridge candidate is structural: both systems place their irreversible bookkeeping at the parabolic end of a modular-type base, and if the wall family's base is triangle-type ([[geometry-is-counting]]), the mixmaster case is the worked example of how counting theorems attach to such a base. Any stronger claim needs a map and is not made here.
+Two uses, typed. First, it is an existence proof: a cosmological dynamics whose "brutal counting" is *finished* — entropy per era, growth of periodic histories, all exact — because the underlying geometry is hyperbolic and rigid. It calibrates what a completed counting theory of the programme's wall chain should look like. Second, it is adjacent, not identical: mixmaster chaos lives in the anisotropy degrees of freedom near a singularity, not in the homogeneous scale response of [[causal-scale-theory/inq|CST]]; no identification of the era map with the wall chain is proposed. The honest bridge candidate is structural: both systems place their irreversible bookkeeping at the parabolic end of a modular-type base, and if the wall family's base is triangle-type ([[geometry-is-counting]]), the mixmaster case is the worked example of how counting theorems attach to such a base. Any stronger claim needs a map and is not made here.

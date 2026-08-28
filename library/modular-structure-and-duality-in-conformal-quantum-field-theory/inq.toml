@@ -1,4 +1,0 @@
-[module]
-name = "modular-structure-and-duality-in-conformal-quantum-field-theory"
-entry = "entry.md"
-include = ["**"]

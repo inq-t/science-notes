@@ -4,7 +4,7 @@ Causal charge names the proposed symmetry invariant of a fact-bearing causal are
 
 ## Causal individuation
 
-An object is individuated only within a structure of possible differences. A *causal* individuation is stronger: the distinction must have a place in causal order, a scale at which it is accessible, and a history in which it can become a stable record. This places the concept between [[sufficient-reason/entry|sufficient reason]] and [[cosmodynamics/cosmos-as-structure-of-facts|the cosmos as an arena of facts]].
+An object is individuated only within a structure of possible differences. A *causal* individuation is stronger: the distinction must have a place in causal order, a scale at which it is accessible, and a history in which it can become a stable record. This places the concept between [[sufficient-reason/inq|sufficient reason]] and [[cosmodynamics/cosmos-as-structure-of-facts|the cosmos as an arena of facts]].
 
 The word *capacity* refers to the positive response available for making or resolving such distinctions. The word *charge* refers more narrowly to an invariant associated with a symmetry generator. They should not be used interchangeably:
 

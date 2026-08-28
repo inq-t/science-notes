@@ -1,4 +1,0 @@
-[module]
-name = "bells-theorem-from-entropy-geometry"
-entry = "entry.md"
-include = ["**"]

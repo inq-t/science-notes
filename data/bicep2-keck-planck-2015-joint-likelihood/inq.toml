@@ -1,5 +1,0 @@
-[module]
-name = "bicep2-keck-planck-2015-joint-likelihood"
-entry = "entry.md"
-include = ["**"]
-

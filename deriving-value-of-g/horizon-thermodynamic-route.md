@@ -63,7 +63,7 @@ $$
 \boxed{G=\frac{c^3}{4\hbar\eta_{\mathrm E}}.}
 $$
 
-The original source is Ted Jacobson's [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|“Thermodynamics of Spacetime: The Einstein Equation of State”]]. His later [[library/entanglement-equilibrium-and-the-einstein-equation/entry|entanglement-equilibrium argument]] supplies a related route under a finite universal vacuum-entanglement density hypothesis.
+The original source is Ted Jacobson's [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/inq|“Thermodynamics of Spacetime: The Einstein Equation of State”]]. His later [[library/entanglement-equilibrium-and-the-einstein-equation/inq|entanglement-equilibrium argument]] supplies a related route under a finite universal vacuum-entanglement density hypothesis.
 
 ## What the route derives
 

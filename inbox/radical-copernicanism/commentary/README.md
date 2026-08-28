@@ -1,6 +1,6 @@
 # Commentary
 
-Audit notes, elucidations, and insights on the radical-copernicanism inbox, written 2026-08-25 after reading the README, the five research notes, and the comparison modules [[program-core/entry|program core]], [[sufficient-reason/entry|sufficient reason]], and [[causal-scale-theory/entry|causal scale theory]].
+Audit notes, elucidations, and insights on the radical-copernicanism inbox, written 2026-08-25 after reading the README, the five research notes, and the comparison modules [[program-core/inq|program core]], [[sufficient-reason/inq|sufficient reason]], and [[causal-scale-theory/inq|causal scale theory]].
 
 **Status.** This is a commentary layer, not a canonical owner. Nothing here redefines a core term; where a reading below differs from a module's, the module wins and the difference is an audit item. Claims are graded in the house vocabulary — THEOREM, DEDUCTION, GLOSS, GAP — and the Hegel/Heidegger register is used deliberately as a search heuristic, never as a citation.
 

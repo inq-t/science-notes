@@ -1,4 +1,0 @@
-[module]
-name = "gravity-and-the-crossed-product"
-entry = "entry.md"
-include = ["**"]

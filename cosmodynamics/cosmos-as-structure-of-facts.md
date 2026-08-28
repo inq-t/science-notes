@@ -41,4 +41,4 @@ This suggests a sheaf-like or categorical form, but no such construction is yet 
 
 ## Fact is not yet primitive enough
 
-The [[sufficient-reason/entry|sufficing and necessitating reason]] module proposes a contextual fact as a character of a commutative readout algebra and separates a probability measure from a selected point. Cosmodynamics needs at least that distinction, but it also needs a physical account of realizability, persistence, causal availability, and agreement among observers. Those further obligations are developed in [[fact-record-history]].
+The [[sufficient-reason/inq|sufficing and necessitating reason]] module proposes a contextual fact as a character of a commutative readout algebra and separates a probability measure from a selected point. Cosmodynamics needs at least that distinction, but it also needs a physical account of realizability, persistence, causal availability, and agreement among observers. Those further obligations are developed in [[fact-record-history]].

@@ -1,4 +1,0 @@
-[module]
-name = "globular-cluster-age"
-entry = "entry.md"
-include = ["**"]

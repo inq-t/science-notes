@@ -13,7 +13,7 @@ $$
 [D,a]\text{ is bounded for }a\in\mathcal A.
 $$
 
-An even triple has a grading \(\gamma\) commuting with \(\mathcal A\) and anticommuting with \(D\). A real triple adds \(J\), the opposite-algebra action, and the appropriate \(KO\)-dimensional sign rules. [[library/ncg-standard-model-neutrino-mixing/entry|The local Connes source]] explicitly treats \(D\) as the representative of the \(KO\)-homology fundamental class.
+An even triple has a grading \(\gamma\) commuting with \(\mathcal A\) and anticommuting with \(D\). A real triple adds \(J\), the opposite-algebra action, and the appropriate \(KO\)-dimensional sign rules. [[library/ncg-standard-model-neutrino-mixing/inq|The local Connes source]] explicitly treats \(D\) as the representative of the \(KO\)-homology fundamental class.
 
 For a real triple, an inner fluctuation has the form
 
@@ -43,7 +43,7 @@ In four-dimensional almost-commutative geometry, its heat-kernel expansion conta
 - an \(a_2\Lambda^2\) Einstein--Hilbert and mass sector; and
 - an \(a_4\) sector containing curvature squared, Yang--Mills, Higgs kinetic, nonminimal curvature, and Higgs-potential terms.
 
-The explicit formula in [[library/ncg-standard-model-neutrino-mixing/entry|the local source]] returns the Euclidean Standard Model coupled to gravity after the four-manifold \(M\), finite geometry \(F\), inner fluctuation, cutoff scale, and test-function moments have been supplied.
+The explicit formula in [[library/ncg-standard-model-neutrino-mixing/inq|the local source]] returns the Euclidean Standard Model coupled to gravity after the four-manifold \(M\), finite geometry \(F\), inner fluctuation, cutoff scale, and test-function moments have been supplied.
 
 This is a major structural achievement. It is not a derivation of spacetime from the finite algebra. The construction begins with
 

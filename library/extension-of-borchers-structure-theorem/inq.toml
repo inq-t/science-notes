@@ -1,4 +1,0 @@
-[module]
-name = "extension-of-borchers-structure-theorem"
-entry = "entry.md"
-include = ["**"]

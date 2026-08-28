@@ -156,7 +156,7 @@ G_{rr}(r)
 =g^{\mathrm{BKM}}_{\psi_r}(\dot\psi_r,\dot\psi_r).
 $$
 
-[[library/relative-hamiltonian-for-faithful-normal-states/entry|Bounded Araki perturbations]] provide standard faithful examples of such paths. This is an exact, type-III-capable **[ABSTRACT INTERFACE CONSTRUCTION]** and it uses neither \(G\) nor a fitted FLRW curve. It does not make the response a consequence of the half-sided inclusion: the choice of \(\psi_r\), its generator, its rate, and its physical interpretation are new input. To recover half-sided modularity for the perturbed states, one would additionally have to prove the appropriate modular containment at every \(r\) and compatibility with the already reconstructed \(U\); that is open and may force the response back to zero.
+[[library/relative-hamiltonian-for-faithful-normal-states/inq|Bounded Araki perturbations]] provide standard faithful examples of such paths. This is an exact, type-III-capable **[ABSTRACT INTERFACE CONSTRUCTION]** and it uses neither \(G\) nor a fitted FLRW curve. It does not make the response a consequence of the half-sided inclusion: the choice of \(\psi_r\), its generator, its rate, and its physical interpretation are new input. To recover half-sided modularity for the perturbed states, one would additionally have to prove the appropriate modular containment at every \(r\) and compatibility with the already reconstructed \(U\); that is open and may force the response back to zero.
 
 ## What is closed, and what is not
 

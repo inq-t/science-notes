@@ -15,7 +15,7 @@ $$
 
 on the sector's physical effective image. This is **[CONJECTURE — OPEN CONSTRUCTION]**. Each arrow must state which source directions are paired, how their measures and normalizations change, and whether it factors that sector's W2 source transform or begins from an already constructed spatial precision. Possessing \(\mathfrak H_0\) does not imply \(\mathfrak H_2\), or conversely.
 
-[[vendor/holographic-cosmology/entry|The vendored holographic framework]] owns the domain-wall/cosmology representation. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|Its spectrum dictionary]] is the sole owner of the response decomposition and numerical conversion factors. CWST's additional burden is to prove that its wall datum lies in that domain; the shared vocabulary of scale or stress does not establish eligibility.
+[[vendor/holographic-cosmology/inq|The vendored holographic framework]] owns the domain-wall/cosmology representation. [[vendor/holographic-cosmology/scalar-and-tensor-spectra|Its spectrum dictionary]] is the sole owner of the response decomposition and numerical conversion factors. CWST's additional burden is to prove that its wall datum lies in that domain; the shared vocabulary of scale or stress does not establish eligibility.
 
 ## Operators that must remain distinct
 

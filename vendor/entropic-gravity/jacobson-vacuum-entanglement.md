@@ -2,7 +2,7 @@
 
 Jacobson’s vacuum-entanglement account develops the proposal that local horizon entropy is regulated entanglement across the horizon, an interpretation already suggested in his 1995 equation-of-state paper. The finite area density still enters as an assumption; the 2012 proposal that gravitational fluctuations themselves regulate the ultraviolet divergence is a physical heuristic rather than a demonstrated microscopic theory.
 
-The primary source for the self-regulation argument is [[library/gravitation-and-vacuum-entanglement-entropy/entry|Jacobson 2012]]; its 1995 antecedent is [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|archived here]].
+The primary source for the self-regulation argument is [[library/gravitation-and-vacuum-entanglement-entropy/inq|Jacobson 2012]]; its 1995 antecedent is [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/inq|archived here]].
 
 ## Conditional thermodynamic statement
 

@@ -1,0 +1,64 @@
+---
+inq.module: "dark-energy-and-acceleration"
+inq.include:
+  - "**/*.md"
+inq.ambient:
+  - "**/*.py"
+---
+# Dark Energy and Cosmic Acceleration
+
+Cosmic acceleration is measured as a property of the scale section and then reported as the discovery of a substance. That reporting step is a soldering across registers, and treating its image as if it had a preimage in the matter inventory is a category error of the kind [[cosmodynamics/registers-and-type-discipline|type discipline]] exists to catch. Under causal scale theory the acceleration is reclassified as the horizontal free-energy response of causal states to changing scale: not a content of spacetime but a side effect of the scale register being dynamical at all. The reclassification earns its cost by splitting the four problems that "dark energy" names — giving one of them a rigid profile with no fitted dark-sector parameters, converting a second into a bounded dimensionless question, and reassigning the remaining two to a register where they are still unsolved but no longer competing.
+
+Claim labels follow [[program-core/axioms-and-principles#Status vocabulary|the programme-wide status vocabulary]], including its composition rule: the status of a conclusion cannot exceed the weakest load-bearing edge in its proof. That rule is why nothing below is described as answered. The generalized parameters $(\nu,\mathfrak R_c)$ are carried explicitly; $\nu=\mathfrak R_c=1$ is named as [[causal-scale-theory/unit-branch|a branch evaluation]] wherever it is used.
+
+## The argument in order
+
+**1. The puzzle is four puzzles.** The name "dark energy" is applied to a magnitude problem, a radiative-stability problem, a coincidence problem, and — since the DESI era — a dynamics problem. They have different logical forms: a number, a renormalization, a timing, and a function. [[puzzle-as-posed]] states each in its own terms. No single stress-tensor entry can answer all four, and the habit of demanding one is the first symptom of the confusion.
+
+**2. The measured fact lives in the scale register.** **[STANDARD]** Causal order fixes a Lorentzian metric only up to conformal scale; a positive section chooses the representative. **[EXACT]** [[conformal-scale-geometry/flrw-scale-section-kinematics|The scale-section identities]] then make $\ddot a>0$, $q<0$, and concavity of $\ln\sigma$ in conformal time three names for one condition, without Einstein's equation or any matter model. Stated in the register where it was made, the 1998 discovery is a statement about the curvature of a calibration, and it mentions no energy, no field, and no matter content.
+
+**3. The substance reading is the image of a soldering map, not an observation.** Passing from that curvature to "there exists a component with $p<-\rho/3$" applies the Einstein equation, which [[cosmodynamics/soldering-constants|converts between registers]] rather than reporting within one. [[register-audit]] performs the audit step by step and states the error precisely: dark energy names the *image* of a scale-register fact under that map, and the inventory question "which field is it?" demands a *preimage* that nothing guarantees exists.
+
+**4. The trace-free channel is blind to the substance being sought.** **[EXACT — REFORMULATION]** In tractor variables the Einstein equations split, and the trace-free part is unchanged by a metric-proportional shift, so, as [[causal-scale-theory/vacuum-residual-sector|the residual-sector note]] records, the transport equation cannot determine the common scalar part *by itself* — the scalar norm equation, boundary data, or a global constraint must carry it. Within GR the acceleration question is therefore already two questions in two equations, and the contemporary framing fuses them by insisting on one answer.
+
+**5. The category error makes a falsifiable prediction, and it is discharged for the direct lifts.** If the response is state geometry rather than a field, attempts to write it as a field should fail structurally rather than by bad luck. **[NO-GO — POSITIVE-KINETIC SCALAR]** [[causal-scale-theory/no-gos/positive-kinetic-field-crossing|No regular positive-kinetic scalar realizes the full crossing]]: since $1+w_X<0$ before the crossing while $\rho+p=G_{IJ}\dot\phi^I\dot\phi^J\ge0$ for any positive-definite target, neither a minimally coupled scalar nor a positive-definite sigma model can cover the pre-crossing branch. [[field-completion-no-gos]] gives the result at the scope the canon allows, which is narrower than the archive's earlier reading of it. The observational feature least hospitable to quintessence is the theory's central structural point.
+
+**6. The reclassified object is a response, and its type is stated.** **[CONSTITUTIVE]** The proposed source is the anchored free-energy curvature of a scale-indexed state family,
+
+$$
+\rho_X(N)=\frac{k_BT_c}{2V_c}G^{\perp}_{NN}(N),
+$$
+
+developed in [[causal-scale-theory/anchored-response-density-postulate|the source law]]. What the state coordinate is *not* is settled: neither a propagating local field, which the no-go excludes for the direct lifts, nor a function read back from $H(z)$, which [[causal-scale-theory/no-gos/background-reconstruction-is-not-wall-construction|the reconstruction no-go]] excludes. The positive label often attached to what survives — a collective constitutive quantity of the type of an inverse temperature or an order parameter — is archival rather than canonical, and [[field-completion-no-gos]] says so.
+
+**7. Under the two unit principles the profile is rigid.** **[CONDITIONAL OUTPUT]** With the balanced binary reduction, affine soldering, **[PRINCIPLE — RATE]** $\nu=1$, **[PRINCIPLE — AMPLITUDE]** $\mathfrak R_c=1$, the horizon bridge, and the background assumptions of [[causal-scale-theory/realization-map|the realization map]], [[causal-scale-theory/response-law|the response law]] gives
+
+$$
+\rho_X(N)=\frac{\mathfrak R_c}{2}\rho_{\mathrm{crit},c}\operatorname{sech}^2(\nu x),
+\qquad
+w_X(N)=-1+\frac{2\nu}{3}\tanh(\nu x),
+$$
+
+$$
+9(1+w_X)^2+6w_X'=4\nu^2 .
+$$
+
+There are no free functions and no fitted dark-sector constants — though the ordinary abundances are measured inputs, and the root branch and residual are declared sector choices. What the economy costs is counted in premises rather than parameters, and the count is kept in the closure stack, not here.
+
+**8. CST-B2 is transient and has a mandatory crossing.** **[CONDITIONAL OUTPUT]** Under the balanced-binary profile, affine soldering, fixed extensivity, and separate conservation, CST-B2 has one pulse, one density maximum, $w_X=-1$ exactly there, and phantom and quintessence-like branches on opposite sides. With the further **[SECTOR]** choice $\rho_{\rm res}=0$, it has the finite acceleration episode classified in [[causal-scale-theory/future-asymptotics|the future asymptotics]]. A generic member of the CST response-family interface need not have any of these features. [[causal-scale-theory/unit-branch|The unit branch]] is explicit that the features coinciding at $x=0$ are not four independent predictions: two are binary geometry, the third follows from conservation at a stationary point, and only the fourth carries the amplitude principle's content.
+
+**9. The coincidence problem is converted, not solved.** **[CONDITIONAL OUTPUT]** The source law and horizon conversion give $\Omega_{X,c}=\mathfrak R_c/2$; flatness and positivity of the complement then confine $0<\mathfrak R_c<2$. So a dimensionful constant with a prior spanning scores of decades is replaced by a bounded dimensionless ratio. [[coincidence-reframed]] gives the conversion, refuses the tempting argument that does not survive a negative control, and states what is left over. **[OPEN CONSTRUCTION]** A synchronization theorem placing self-duality, peak capacity, and gravitational equality at one cut does not exist and is carried by [[causal-scale-theory/conjectures/event-locus-coincidence|the self-dual synchronization conjecture]].
+
+**10. The magnitude and stability problems are reassigned, not answered.** **[EXACT]** The trace-free channel and normalized state comparisons are both insensitive to common scalar shifts, so the response cannot be an account of $\Lambda$ — and that insensitivity is precisely why the two problems can be separated instead of competing. **[OPEN CONSTRUCTION]** But cancellation from a normalized comparison does not imply cancellation from gravity, and the residual is not shown to be selected or radiatively stable. The residual-sector note lists what local blindness does not prove, and the defensible limit is that the cosmological-constant problem may have been assigned to the wrong register while nothing here shows that the correct register determines the answer.
+
+There is now an exact downstream spectral-action opening for this separation. [[spectral-wall-descent/majorana-square-and-cosmic-pulse|The Majorana square and cosmic pulse]] shows that a project-chosen traceless hyperbolic orbit of the finite Majorana invariant leaves the spectral Newton coefficient constant while its positive square produces an exact $\operatorname{sech}^2$ deficit; an $R$-independent residual remains. This derives the shape on one observable spectral ansatz, not the source's fixed-ray minimization, its cosmological consumer map, or its amplitude, and a direct amplitude match merely relocates the hierarchy into the orbit scale.
+
+**11. The receipts are layered, and the layers do not lend each other credit.** [[acceleration-receipt-ledger|The acceleration receipt ledger]] recomputes the unit-branch chronology and preserves the indicative comparison with published CPL summaries. The primary empirical object is now [[causal-scale-theory/data-consistency|the direct Pantheon+ and DESI forward fit]], which finds the unit CST-B2 background viable and competitive with flat \(\Lambda\)CDM on the late-time likelihood; a conditional early-distance stress test narrows rather than reverses that advantage. Its branch-aware extension finds unity compatible but not empirically selected over nearby profiles. **[REPRODUCED BACKGROUND EVIDENCE]** applies only to those distance laws. [[causal-scale-theory/observables|The test hierarchy]] and [[causal-scale-theory/empirical-status|the empirical-status ledger]] keep them separate from physical member selection and the still-open wall and perturbation claims.
+
+## What this module is for, and what it declines
+
+The one idea here is the reclassification: that late acceleration is a side effect of a dynamical scale register rather than an occupant of the matter inventory, and that this retyping is what lets the four bundled problems come apart.
+
+The module therefore declines the homogeneous response theory itself, which belongs to [[causal-scale-theory/inq|causal scale theory]]; the perturbation and growth obligations, which belong to [[causal-scale-theory/conjectures/covariant-response-sector|the covariant response sector]] and [[causal-wall-spectral-theory/open-questions/lorentzian-evolution-and-matching|CWST Lorentzian evolution and matching]] and are open, so no $f\sigma_8$, $\sigma_8$, $S_8$, lensing, or neutrino statement appears here at all; the local-preservation obligations, which belong to [[compatible-with-existing-physics/local-physics-interface|the local physics interface]]; and the derivation of $G$, which belongs to [[deriving-value-of-g/inq|its own module]] and is not assumed by anything above.
+
+**[OPEN CONSTRUCTION]** The decisive calculation is not a better background fit. It is a construction of the FLRW wall state that returns $\nu$ and $\mathfrak R_c$ without using the target expansion history. Until it exists, everything from step 7 onward is a rigid effective ansatz wearing modular notation, and the honest description of the present state is that the reclassification has earned its keep architecturally and at the background layer, and nowhere else.

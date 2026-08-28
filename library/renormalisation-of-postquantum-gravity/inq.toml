@@ -1,4 +1,0 @@
-[module]
-name = "renormalisation-of-postquantum-gravity"
-entry = "entry.md"
-include = ["**"]

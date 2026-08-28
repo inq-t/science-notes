@@ -1,4 +1,0 @@
-[module]
-name = "bulk-area-cell-normalization"
-entry = "entry.md"
-include = ["**/*.md", "**/*.py"]

@@ -33,7 +33,7 @@ The numerical value of a dimensionful constant changes with the unit system. A f
 
 Setting $c=\hbar=k_B=1$ removes conversion factors from notation but does not erase the distinct types they connect. Conversely, interpreting a unit-dependent decimal as a pure number confuses convention with physics.
 
-The [[deriving-value-of-g/entry|attempt to classify or derive $G$]] asks whether gravitational coupling can be re-expressed through causal information capacity. The [[deriving-fine-structure-constant/entry|fine-structure programme]] concerns a dimensionless running coupling and must additionally specify gauge algebra, representations, normalization, thresholds, and renormalization scale. Neither problem is solved by calling a constant a soldering map.
+The [[deriving-value-of-g/inq|attempt to classify or derive $G$]] asks whether gravitational coupling can be re-expressed through causal information capacity. The [[deriving-fine-structure-constant/inq|fine-structure programme]] concerns a dimensionless running coupling and must additionally specify gauge algebra, representations, normalization, thresholds, and renormalization scale. Neither problem is solved by calling a constant a soldering map.
 
 ## The cosmodynamic question
 

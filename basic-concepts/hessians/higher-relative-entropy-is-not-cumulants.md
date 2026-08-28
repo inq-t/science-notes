@@ -92,4 +92,4 @@ Connected correlators beyond second order are obtained from 1PI vertices by prop
 
 A model may relate these hierarchies through additional structure: a declared source family, a wavefunctional or probability construction, a Legendre transform, analytic continuation, and the relevant Ward identities and semilocal terms. Such a map is a new theorem. It is not an extension of the Hessian identity by pattern recognition.
 
-For cosmological applications, the controlled holographic three-point machinery in [[library/cosmological-3-point-correlators-from-holography/entry|McFadden--Skenderis]] and [[library/holography-for-inflation-using-conformal-perturbation-theory/entry|Bzowski--McFadden--Skenderis]] illustrates how much additional data the cubic step actually requires.
+For cosmological applications, the controlled holographic three-point machinery in [[library/cosmological-3-point-correlators-from-holography/inq|McFadden--Skenderis]] and [[library/holography-for-inflation-using-conformal-perturbation-theory/inq|Bzowski--McFadden--Skenderis]] illustrates how much additional data the cubic step actually requires.

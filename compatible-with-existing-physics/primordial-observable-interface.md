@@ -26,7 +26,7 @@ $$
 
 with signs depending on the metric convention. Agreement of a proposed symbol with the letter \(\zeta\) does not provide this relation.
 
-The standard benchmark is the gauge-invariant constrained construction represented by [[library/quantum-theory-of-gauge-invariant-cosmological-perturbations/entry|Mukhanov, Feldman, and Brandenberger]]. In a single-clock realization it can reduce to an action of the schematic form
+The standard benchmark is the gauge-invariant constrained construction represented by [[library/quantum-theory-of-gauge-invariant-cosmological-perturbations/inq|Mukhanov, Feldman, and Brandenberger]]. In a single-clock realization it can reduce to an action of the schematic form
 
 $$
 S^{(2)}
@@ -84,13 +84,13 @@ on a declared nondegenerate physical subspace. This is useful data about the sta
 - tensors and their coupling to the scalar sector; or
 - higher-point Ward identities and a consistent in-in contour.
 
-The distinction is especially important for boundary and whole-state formulations. A boundary functional may encode a late-time wavefunctional, but the map from that object to expectation values depends on the state, analytic continuation, contour, and contact or semilocal terms. [[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/entry|Harlow and Stanford]] exhibit this distinction in a controlled holographic setting, while [[library/quantum-contributions-to-cosmological-correlations/entry|Weinberg's in-in construction]] gives the standard Lorentzian benchmark.
+The distinction is especially important for boundary and whole-state formulations. A boundary functional may encode a late-time wavefunctional, but the map from that object to expectation values depends on the state, analytic continuation, contour, and contact or semilocal terms. [[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/inq|Harlow and Stanford]] exhibit this distinction in a controlled holographic setting, while [[library/quantum-contributions-to-cosmological-correlations/inq|Weinberg's in-in construction]] gives the standard Lorentzian benchmark.
 
 ## Scalar, tensor, and higher-point obligations
 
 The scalar interface must prove which wall, boundary, or state-space direction becomes \(\zeta_{\mathrm{ud}}\) or \(\mathcal R\), and with what normalization. The tensor interface must independently return the transverse-traceless modes, their state, and their power; a scalar response coefficient does not determine them.
 
-Beyond quadratic order, connected source derivatives, higher derivatives of relative entropy, wavefunctional coefficients, probability 1PI vertices, and Lorentzian correlators are differently typed objects. Their maps must be supplied. The standard single-clock squeezed relation is conditional on an adiabatic mode, locality, an appropriate state, and the relevant Ward identity; [[library/non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models/entry|Maldacena]] and [[library/an-infinite-set-of-ward-identities-for-adiabatic-modes-in-cosmology/entry|Hinterbichler, Hui, and Khoury]] state controlled versions of these assumptions.
+Beyond quadratic order, connected source derivatives, higher derivatives of relative entropy, wavefunctional coefficients, probability 1PI vertices, and Lorentzian correlators are differently typed objects. Their maps must be supplied. The standard single-clock squeezed relation is conditional on an adiabatic mode, locality, an appropriate state, and the relevant Ward identity; [[library/non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models/inq|Maldacena]] and [[library/an-infinite-set-of-ward-identities-for-adiabatic-modes-in-cosmology/inq|Hinterbichler, Hui, and Khoury]] state controlled versions of these assumptions.
 
 ## Two legitimate completion routes
 

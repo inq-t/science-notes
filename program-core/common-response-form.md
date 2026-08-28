@@ -81,7 +81,7 @@ G_{\zeta\zeta}\succeq0,
 G_{NN}G_{\zeta\zeta}(f,f).
 $$
 
-This does not yet give the CST source or the CWST spatial precision. Those are separate consumer maps from one common response. [[hessian-response-geometry/entry|The Hessian-response module]] isolates the additional flat-connection, common-potential, center-evaluation, BKM-selection, and tangent-bundle conditions required for this pullback to be a genuine Hessian geometry rather than a collection of positive blocks.
+This does not yet give the CST source or the CWST spatial precision. Those are separate consumer maps from one common response. [[hessian-response-geometry/inq|The Hessian-response module]] isolates the additional flat-connection, common-potential, center-evaluation, BKM-selection, and tangent-bundle conditions required for this pullback to be a genuine Hessian geometry rather than a collection of positive blocks.
 
 ## The center-resolved datum is retained
 
@@ -191,7 +191,7 @@ $$
 
 This imports the useful algebraic shape of an Onsager--Machlup equation-residual squared without importing stochastic spacetime ontology. The residue may measure physical horizontal failure of homogeneity, connection curvature, or deviation from a constitutive descent equation.
 
-It must not be an ordinary sheaf mismatch whose vanishing merely defines admissible gluing, unless physical deviations from that condition are genuinely intended. A lumpy but globally compatible section is not a descent failure. [[basic-concepts/descent/entry|Descent]] and physical differentiation remain distinct.
+It must not be an ordinary sheaf mismatch whose vanishing merely defines admissible gluing, unless physical deviations from that condition are genuinely intended. A lumpy but globally compatible section is not a descent failure. [[basic-concepts/descent/inq|Descent]] and physical differentiation remain distinct.
 
 ## Reduction and hidden algebraic modes
 
@@ -219,7 +219,7 @@ Factive selection and record extension occur later still. [[conservation-of-caus
 
 ## A generator-family route
 
-One possible provider is a single affine modular or Dirac-derived generator family \(K(N,\zeta,h)\) whose faithful Gibbs states are transported to the readout carrier. [[hessian-response-geometry/entry#When the Hessian is BKM|The Hessian-response module]] owns the exact BKM/log-partition formula, including the acceleration term for nonlinear generators. [[program-core/contextual-descent-from-homogeneity#What Connes supplies as precedent|Contextual descent]] owns the narrower lesson from inner fluctuations: rich represented differentiation can arise without extra ordinary spatial dimensions.
+One possible provider is a single affine modular or Dirac-derived generator family \(K(N,\zeta,h)\) whose faithful Gibbs states are transported to the readout carrier. [[hessian-response-geometry/inq#When the Hessian is BKM|The Hessian-response module]] owns the exact BKM/log-partition formula, including the acceleration term for nonlinear generators. [[program-core/contextual-descent-from-homogeneity#What Connes supplies as precedent|Contextual descent]] owns the narrower lesson from inner fluctuations: rich represented differentiation can arise without extra ordinary spatial dimensions.
 
 The finite version of this route is now constructed in [[wall-construction-interface/finite-cellular-markov-wall|the cellular Markov wall]]: one log-partition potential gives the homogeneous and mean-zero blocks, exact transport, a completely positive state law, and a state-preserving readout. The **physical continuum route remains open** until a causal carrier, physical quotient, renormalized localization, and source family are constructed on one member. A spectral-action Hessian is not the positive BKM pullback merely because both depend on one Dirac family.
 

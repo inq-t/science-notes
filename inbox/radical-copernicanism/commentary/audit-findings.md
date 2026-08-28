@@ -1,6 +1,6 @@
 # Audit Findings: The Five Notes Against the Three Modules
 
-Audit of 2026-08-25, comparing the five commissioned research notes in this folder against [[program-core/entry|program core]], [[sufficient-reason/entry|sufficient reason]], and [[causal-scale-theory/entry|causal scale theory]].
+Audit of 2026-08-25, comparing the five commissioned research notes in this folder against [[program-core/inq|program core]], [[sufficient-reason/inq|sufficient reason]], and [[causal-scale-theory/inq|causal scale theory]].
 
 ## Overall verdict
 

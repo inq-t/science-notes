@@ -16,7 +16,7 @@ In holographic cosmology, the operational pseudo-QFT is obtained by calculating 
 
 ## Wavefunctions sharpen the distinction
 
-[[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/entry|Harlow and Stanford]] show why analytic continuation at wavefunction level does not collapse the different operator and expectation-value dictionaries. In cosmology one uses \(|\Psi|^2\) and integrates over boundary data; in an AdS or domain-wall calculation the gluing and observable prescription differ. Equality of one continued coefficient is therefore weaker than identity of the complete theories.
+[[library/operator-dictionaries-and-wave-functions-in-ads-cft-and-ds-cft/inq|Harlow and Stanford]] show why analytic continuation at wavefunction level does not collapse the different operator and expectation-value dictionaries. In cosmology one uses \(|\Psi|^2\) and integrates over boundary data; in an AdS or domain-wall calculation the gluing and observable prescription differ. Equality of one continued coefficient is therefore weaker than identity of the complete theories.
 
 ## Use inside the broader programme
 

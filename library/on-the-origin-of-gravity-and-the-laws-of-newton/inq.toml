@@ -1,4 +1,0 @@
-[module]
-name = "on-the-origin-of-gravity-and-the-laws-of-newton"
-entry = "entry.md"
-include = ["**"]

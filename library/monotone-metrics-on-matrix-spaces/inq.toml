@@ -1,4 +1,0 @@
-[module]
-name = "monotone-metrics-on-matrix-spaces"
-entry = "entry.md"
-include = ["**"]

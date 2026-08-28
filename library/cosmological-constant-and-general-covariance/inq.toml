@@ -1,4 +1,0 @@
-[module]
-name = "cosmological-constant-and-general-covariance"
-entry = "entry.md"
-include = ["**"]

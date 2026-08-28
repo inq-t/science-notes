@@ -69,7 +69,7 @@ $$
 
 The local representative changes, but its cyclic-cohomology class and its pairing with closed cycles remain fixed. On a region with boundary, a specified relative cocycle or local-index realization can pair the transgression with the boundary through an appropriate Stokes theorem. The \((b+B)\)-coboundary does not become a physical wall term automatically. When the relative pairing is constructed, it gives a cohomological balance of local density and boundary contribution, not a scalar conservation of information.
 
-[[library/quanta-of-geometry/entry|Quanta of Geometry]] supplies a close local precedent. Its two-sided relation gives
+[[library/quanta-of-geometry/inq|Quanta of Geometry]] supplies a close local precedent. Its two-sided relation gives
 
 $$
 \det(e)=\Omega_++\Omega_-,
@@ -214,7 +214,7 @@ T_X
 \longrightarrow0.
 $$
 
-A connection is a splitting as vector bundles. Its curvature is the failure of that splitting to preserve Lie brackets. [[basic-concepts/soldering/entry|Strict soldering]] is still required before an internal curvature can be called spacetime gravity.
+A connection is a splitting as vector bundles. Its curvature is the failure of that splitting to preserve Lie brackets. [[basic-concepts/soldering/inq|Strict soldering]] is still required before an internal curvature can be called spacetime gravity.
 
 ## The proposed wall diagram
 

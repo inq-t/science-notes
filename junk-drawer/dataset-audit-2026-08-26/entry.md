@@ -47,18 +47,18 @@ Scientifically related products were not collapsed:
 
 Twelve canonical modules were created under `data/`, each with a searchable `entry.md`, a module manifest, provenance, direct fetch URLs, structure information, and local Git/storage status:
 
-- [[data/act-dr6-cosmology-products/entry|ACT DR6 cosmology products]]
-- [[data/bicep-keck-2018-data-products/entry|BICEP/Keck 2018 data products]]
-- [[data/bicep2-keck-planck-2015-joint-likelihood/entry|BICEP2/Keck–Planck 2015 joint likelihood]]
-- [[data/codata-2022-fundamental-physical-constants/entry|CODATA 2022 constants]]
-- [[data/des-dovekie-distance-likelihood/entry|DES-Dovekie distance likelihood]]
-- [[data/desi-dr2-bao-gaussian-likelihood/entry|DESI DR2 BAO Gaussian likelihood]]
-- [[data/pantheon-plus-shoes-distance-likelihood/entry|Pantheon+SH0ES distance likelihood]]
-- [[data/planck-2015-release-2-cosmology-products/entry|Planck 2015 Release-2 products]]
-- [[data/planck-2018-release-3-cosmology-products/entry|Planck 2018 Release-3 products]]
-- [[data/radial-acceleration-relation-data/entry|radial-acceleration-relation data]]
-- [[data/sparc-galaxy-sample-and-mass-models/entry|SPARC sample and mass models]]
-- [[data/wmap-seven-year-power-spectra/entry|WMAP seven-year power spectra]]
+- [[data/act-dr6-cosmology-products/inq|ACT DR6 cosmology products]]
+- [[data/bicep-keck-2018-data-products/inq|BICEP/Keck 2018 data products]]
+- [[data/bicep2-keck-planck-2015-joint-likelihood/inq|BICEP2/Keck–Planck 2015 joint likelihood]]
+- [[data/codata-2022-fundamental-physical-constants/inq|CODATA 2022 constants]]
+- [[data/des-dovekie-distance-likelihood/inq|DES-Dovekie distance likelihood]]
+- [[data/desi-dr2-bao-gaussian-likelihood/inq|DESI DR2 BAO Gaussian likelihood]]
+- [[data/pantheon-plus-shoes-distance-likelihood/inq|Pantheon+SH0ES distance likelihood]]
+- [[data/planck-2015-release-2-cosmology-products/inq|Planck 2015 Release-2 products]]
+- [[data/planck-2018-release-3-cosmology-products/inq|Planck 2018 Release-3 products]]
+- [[data/radial-acceleration-relation-data/inq|radial-acceleration-relation data]]
+- [[data/sparc-galaxy-sample-and-mass-models/inq|SPARC sample and mass models]]
+- [[data/wmap-seven-year-power-spectra/inq|WMAP seven-year power spectra]]
 
 Conceptual notes now link to these wrappers. Direct payload URLs remain in provenance and checksum ledgers where they belong. The old CWST and entropic-gravity data notes remain as short local-cache bridges so historical links do not break.
 

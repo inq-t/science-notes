@@ -1,4 +1,0 @@
-[module]
-name = "geometries-of-quantum-states"
-entry = "entry.md"
-include = ["**"]

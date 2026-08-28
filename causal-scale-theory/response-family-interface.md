@@ -22,7 +22,7 @@ $$
 g_{\mathcal M}=\Psi_{\mathcal M}'',
 $$
 
-but Hessianity is not part of the interface definition. [[hessian-response-geometry/entry|Hessian response geometry]] owns the additional flat-connection, common-potential, and BKM-selection obligations.
+but Hessianity is not part of the interface definition. [[hessian-response-geometry/inq|Hessian response geometry]] owns the additional flat-connection, common-potential, and BKM-selection obligations.
 
 Choose a distinguished reference cut $N_c$, which is only a candidate crossing cut until the member constructs the relevant event, such that
 
@@ -101,7 +101,7 @@ $$
 
 ## The $A_2$ audit seed
 
-On the equal-weight commuting three-state model, [[a2-ternary-response/entry|the $A_2$ audit]] gives the exact finite response
+On the equal-weight commuting three-state model, [[a2-ternary-response/inq|the $A_2$ audit]] gives the exact finite response
 
 $$
 g_{A_2}(\theta)

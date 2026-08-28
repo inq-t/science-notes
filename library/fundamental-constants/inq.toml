@@ -1,4 +1,0 @@
-[module]
-name = "fundamental-constants"
-entry = "entry.md"
-include = ["**"]

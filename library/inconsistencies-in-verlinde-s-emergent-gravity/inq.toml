@@ -1,4 +1,0 @@
-[module]
-name = "inconsistencies-in-verlinde-s-emergent-gravity"
-entry = "entry.md"
-include = ["**"]

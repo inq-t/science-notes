@@ -11,7 +11,7 @@ N\longmapsto
 (\Sigma_N,\mathcal A_N,\omega_N,\mathcal T_{N_2N_1}),
 $$
 
-where \(\mathcal A_N\) is a wall or causal-region algebra, \(\omega_N\) is a suitable state, and \(\mathcal T_{N_2N_1}\) transports states or observables to a common algebra before two scales are compared. Without this transport, \(\partial_N\omega_N\) and cross-scale relative entropy are not well typed. [[wall-construction-interface/cross-fiber-transport|Cross-fiber transport and state selection]] and [[wall-construction-interface/entry|the wall-construction interface]] state the broader operator-algebraic obligations.
+where \(\mathcal A_N\) is a wall or causal-region algebra, \(\omega_N\) is a suitable state, and \(\mathcal T_{N_2N_1}\) transports states or observables to a common algebra before two scales are compared. Without this transport, \(\partial_N\omega_N\) and cross-scale relative entropy are not well typed. [[wall-construction-interface/cross-fiber-transport|Cross-fiber transport and state selection]] and [[wall-construction-interface/inq|the wall-construction interface]] state the broader operator-algebraic obligations.
 
 After removing central normalization and vertical modular-frame directions, require a twice-differentiable horizontal family with a finite coincidence Hessian, or the corresponding regular operator-algebraic notion, so that
 
@@ -21,7 +21,7 @@ D(\omega_{N+\delta N}\Vert\omega_N)
 +o(\delta N^2).
 $$
 
-The exact relation between a regular relative-entropy Hessian and the BKM metric is explained in [[basic-concepts/hessians/entry|Hessians]]. It does not guarantee that the full continuum wall theory has a finite extensive coefficient.
+The exact relation between a regular relative-entropy Hessian and the BKM metric is explained in [[basic-concepts/hessians/inq|Hessians]]. It does not guarantee that the full continuum wall theory has a finite extensive coefficient.
 
 Define
 

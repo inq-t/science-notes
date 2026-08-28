@@ -1,4 +1,0 @@
-[module]
-name = "deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories"
-entry = "entry.md"
-include = ["**"]

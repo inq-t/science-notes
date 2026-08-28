@@ -1,4 +1,0 @@
-[module]
-name = "compatible-with-existing-physics"
-entry = "entry.md"
-include = ["**/*.md"]

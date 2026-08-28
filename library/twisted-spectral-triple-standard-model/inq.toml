@@ -1,4 +1,0 @@
-[module]
-name = "twisted-spectral-triple-standard-model"
-entry = "entry.md"
-include = ["**"]

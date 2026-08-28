@@ -152,7 +152,7 @@ Fixed-locus formation is not a conditional expectation, quotient, or wall-descen
 
 ## Primary sources
 
-- P. Dombrowski, [[library/geometry-of-the-tangent-bundle/entry|*On the Geometry of the Tangent Bundle*]], *Journal fur die reine und angewandte Mathematik* 210 (1962), 73--88. This supplies the natural almost-complex structure and its integrability criterion.
-- H. Satoh, [[library/almost-hermitian-structures-on-tangent-bundles/entry|*Almost Hermitian Structures on Tangent Bundles*]], arXiv:1908.10824, revised 2025; originally *Proceedings of the Eleventh International Workshop on Differential Geometry*, 105--118. This supplies the almost-Kähler/Kähler criteria in terms of the connection and its dual.
+- P. Dombrowski, [[library/geometry-of-the-tangent-bundle/inq|*On the Geometry of the Tangent Bundle*]], *Journal fur die reine und angewandte Mathematik* 210 (1962), 73--88. This supplies the natural almost-complex structure and its integrability criterion.
+- H. Satoh, [[library/almost-hermitian-structures-on-tangent-bundles/inq|*Almost Hermitian Structures on Tangent Bundles*]], arXiv:1908.10824, revised 2025; originally *Proceedings of the Eleventh International Workshop on Differential Geometry*, 105--118. This supplies the almost-Kähler/Kähler criteria in terms of the connection and its dual.
 
 These sources construct geometry on \(TM\). They do not identify a response manifold with physical space or apply the construction to the anonymous \(S^6\) manuscript.

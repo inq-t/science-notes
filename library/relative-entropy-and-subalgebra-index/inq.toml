@@ -1,4 +1,0 @@
-[module]
-name = "relative-entropy-and-subalgebra-index"
-entry = "entry.md"
-include = ["**"]

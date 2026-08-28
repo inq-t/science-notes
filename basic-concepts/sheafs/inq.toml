@@ -1,4 +1,0 @@
-[module]
-name = "sheafs"
-entry = "entry.md"
-include = ["**/*.md"]

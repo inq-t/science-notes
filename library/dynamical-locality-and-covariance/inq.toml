@@ -1,4 +1,0 @@
-[module]
-name = "dynamical-locality-and-covariance"
-entry = "entry.md"
-include = ["**"]

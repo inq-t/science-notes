@@ -4,7 +4,7 @@ The local manuscript claims that a completed $(3,4,\infty)$ family of complex tw
 
 ## What the manuscript claims
 
-The source archived at [[library/complex-structure-on-s6/entry|the $(3,4,\infty)$ modular-family library module]] constructs a compact connected complex threefold $X$ with a surjective holomorphic map
+The source archived at [[library/complex-structure-on-s6/inq|the $(3,4,\infty)$ modular-family library module]] constructs a compact connected complex threefold $X$ with a surjective holomorphic map
 
 $$
 f:X\longrightarrow\mathbb P^1.
@@ -63,7 +63,7 @@ does not imply that the claimed integrable structure is octonionic, $G_2$-invari
 
 ## What would not follow
 
-Connes' finite Standard-Model geometry has metric dimension zero and KO-degree six modulo eight. Replacing it by $C^\infty(S^6)$ would replace a finite noncommutative algebra by an infinite-dimensional commutative algebra and would change its Hilbert module, Dirac data, gauge group, and fermion representation. [[ko-dimension-as-morita-class/entry|The KO-dimension firewall]] therefore remains intact.
+Connes' finite Standard-Model geometry has metric dimension zero and KO-degree six modulo eight. Replacing it by $C^\infty(S^6)$ would replace a finite noncommutative algebra by an infinite-dimensional commutative algebra and would change its Hilbert module, Dirac data, gauge group, and fermion representation. [[ko-dimension-as-morita-class/inq|The KO-dimension firewall]] therefore remains intact.
 
 The manuscript also would not derive:
 
@@ -87,4 +87,4 @@ To use this branch in the algebraic pre-core, one would need:
 5. a reduction or realization theorem yielding a Lorentzian $3+1$ carrier; and
 6. a recovery theorem for gauge, matter, action, and factual-record data.
 
-Until those maps exist, $S^6$ is an intriguing conditional geometry and not the hidden ontology of the Standard Model. [[complex-presentation-without-polarization/entry|Complex presentation without polarization]] develops the stronger conditional philosophical lesson while keeping holomorphic machinery, positive state geometry, real-form selection, factive descent, and Lorentzian realization as separate types.
+Until those maps exist, $S^6$ is an intriguing conditional geometry and not the hidden ontology of the Standard Model. [[complex-presentation-without-polarization/inq|Complex presentation without polarization]] develops the stronger conditional philosophical lesson while keeping holomorphic machinery, positive state geometry, real-form selection, factive descent, and Lorentzian realization as separate types.

@@ -1,4 +1,0 @@
-[module]
-name = "relative-entropy-equals-bulk-relative-entropy"
-entry = "entry.md"
-include = ["**"]

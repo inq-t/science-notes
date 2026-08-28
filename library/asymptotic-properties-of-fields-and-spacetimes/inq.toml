@@ -1,4 +1,0 @@
-[module]
-name = "asymptotic-properties-of-fields-and-spacetimes"
-entry = "entry.md"
-include = ["**"]

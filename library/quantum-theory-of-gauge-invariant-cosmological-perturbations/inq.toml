@@ -1,4 +1,0 @@
-[module]
-name = "quantum-theory-of-gauge-invariant-cosmological-perturbations"
-entry = "entry.md"
-include = ["**"]

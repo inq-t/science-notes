@@ -27,7 +27,7 @@ $$
 \text{global triviality or canonical pointing}.}
 $$
 
-Conversely, trivial monodromy is not required for descent. [[basic-concepts/descent/entry|The descent module]] owns the exact cocycle and effectivity conditions; [[basic-concepts/stacks/entry|stacks]] own the symmetry-sensitive global object.
+Conversely, trivial monodromy is not required for descent. [[basic-concepts/descent/inq|The descent module]] owns the exact cocycle and effectivity conditions; [[basic-concepts/stacks/inq|stacks]] own the symmetry-sensitive global object.
 
 ## A fact is additional structure
 

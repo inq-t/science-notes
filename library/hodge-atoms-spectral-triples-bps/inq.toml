@@ -1,4 +1,0 @@
-[module]
-name = "hodge-atoms-spectral-triples-bps"
-entry = "entry.md"
-include = ["**"]

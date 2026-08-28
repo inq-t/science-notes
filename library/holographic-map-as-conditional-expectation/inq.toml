@@ -1,4 +1,0 @@
-[module]
-name = "holographic-map-as-conditional-expectation"
-entry = "entry.md"
-include = ["**"]

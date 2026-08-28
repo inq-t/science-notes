@@ -59,7 +59,7 @@ $$
 
 This is the first exact algebraic-geometric mechanism in the present programme that can turn a six-real-dimensional carrier into a three-real-dimensional candidate spatial carrier without compactifying three ordinary spatial coordinates or calling half the dimensions unphysical. It is still conditional on the additional datum \(\tau\). A complex threefold by itself does not select a real form, and its fixed locus may be empty, disconnected, nonorientable, or topologically unsuitable for physical space.
 
-This construction is ordinary Galois descent from \(\mathbb C\) to \(\mathbb R\) in geometric form. [[basic-concepts/descent/entry|The descent module]] owns the general rule that the complex object alone does not determine its real form: the semilinear comparison datum is essential.
+This construction is ordinary Galois descent from \(\mathbb C\) to \(\mathbb R\) in geometric form. [[basic-concepts/descent/inq|The descent module]] owns the general rule that the complex object alone does not determine its real form: the semilinear comparison datum is essential.
 
 ## Three-space as object, spacetime as process
 
@@ -126,7 +126,7 @@ $$
 J:\mathcal H\to\mathcal H.
 $$
 
-The first can define a real fixed locus in a complex manifold. The second supplies KO-sign relations with \(D\) and \(\gamma\). A bridge between them would require a represented function algebra, compatibility of \(J\) with complex conjugation on that algebra, and a reconstruction theorem. [[ko-dimension-as-morita-class/entry|KO-dimension six]] is mod-eight operator data, not six metric coordinates.
+The first can define a real fixed locus in a complex manifold. The second supplies KO-sign relations with \(D\) and \(\gamma\). A bridge between them would require a represented function algebra, compatibility of \(J\) with complex conjugation on that algebra, and a reconstruction theorem. [[ko-dimension-as-morita-class/inq|KO-dimension six]] is mod-eight operator data, not six metric coordinates.
 
 Likewise, the conditional complex-threefold claim in [[algebra/s6-manuscript-branch|the \(S^6\) manuscript branch]] does not provide an antiholomorphic involution with a physical three-dimensional fixed locus. Even if that complex structure exists, the datum \(\tau\), the topology of \(X^\tau\), and the functor \(\mathfrak L\) remain separate construction gates.
 

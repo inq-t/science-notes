@@ -1,4 +1,0 @@
-[module]
-name = "scattering-matrix-in-conformal-geometry"
-entry = "entry.md"
-include = ["**"]

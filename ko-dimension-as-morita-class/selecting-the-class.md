@@ -49,7 +49,7 @@ $$
 n_F=2-4=-2\equiv 6 \pmod 8 .
 $$
 
-[[library/why-the-standard-model/entry|Chamseddine and Connes]] state the same derivation backwards — "the raison d'être for $F$ is to correct the K-theoretic dimension from four to ten (modulo eight)" — which makes the dependency explicit: $2$ is the target, $4$ is given, $6$ is solved for.
+[[library/why-the-standard-model/inq|Chamseddine and Connes]] state the same derivation backwards — "the raison d'être for $F$ is to correct the K-theoretic dimension from four to ten (modulo eight)" — which makes the dependency explicit: $2$ is the target, $4$ is given, $6$ is solved for.
 
 ## Why a Pfaffian
 
@@ -73,7 +73,7 @@ over anticommuting classical fermions restricted to $\mathcal H^+$ restores the 
 | the algebra $\mathcal A_{LR}$ and its representation | constrained afterwards, not before — see below |
 | three generations | put in by hand, and said to be so in the source |
 
-Two later results narrow the sixth line without closing it. [[library/why-the-standard-model/entry|Why the Standard Model]] classifies the irreducible finite geometries *of KO-dimension six*, finds the dimension per generation to be a square $k^2$, and singles out the standard model under an added hypothesis of quaternion linearity, giving $k=4$ and so $2k^2=32$ per generation — matching the count assembled by Schur in [[what-commutes-with-everything]]. [[library/quanta-of-geometry/entry|Quanta of Geometry]] obtains $M_2(\mathbb H)$ and $M_4(\mathbb C)$ from a higher-degree Heisenberg relation. Both take the class as given and work inside it.
+Two later results narrow the sixth line without closing it. [[library/why-the-standard-model/inq|Why the Standard Model]] classifies the irreducible finite geometries *of KO-dimension six*, finds the dimension per generation to be a square $k^2$, and singles out the standard model under an added hypothesis of quaternion linearity, giving $k=4$ and so $2k^2=32$ per generation — matching the count assembled by Schur in [[what-commutes-with-everything]]. [[library/quanta-of-geometry/inq|Quanta of Geometry]] obtains $M_2(\mathbb H)$ and $M_4(\mathbb C)$ from a higher-degree Heisenberg relation. Both take the class as given and work inside it.
 
 ## What this does and does not settle
 

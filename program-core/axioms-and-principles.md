@@ -75,7 +75,7 @@ Unless emergence is explicitly claimed, tested GR and QFT may be imported as loc
 
 ## Construction axioms
 
-These are requirements on a completed causal-scale realization, not claims that the current workspace has supplied them. They begin downstream of [[algebra/entry|the algebraic pre-core]], which separately owes the scalar and algebra selection, generalized probes, presentation site, strict descent data, and distinction between reversible presentation arrows and noninvertible physical processes.
+These are requirements on a completed causal-scale realization, not claims that the current workspace has supplied them. They begin downstream of [[algebra/inq|the algebraic pre-core]], which separately owes the scalar and algebra selection, generalized probes, presentation site, strict descent data, and distinction between reversible presentation arrows and noninvertible physical processes.
 
 **CA1 — Presentation object.**
 

@@ -1,4 +1,0 @@
-[module]
-name = "visual-horizons-in-world-models"
-entry = "entry.md"
-include = ["**"]
