@@ -25,7 +25,7 @@ None is made a charge merely by entering an equation with one.
 
 ## The exact involutive Casimir allocation
 
-The proof and its hypotheses live in the shared [[binary-information-geometry/entry|binary-information geometry]] module. Its reusable signature is
+The proof and its hypotheses live in the shared [[binary-information-geometry/inq|binary-information geometry]] module. Its reusable signature is
 
 $$
 Q^*=Q,
@@ -163,7 +163,7 @@ $$
 \int R\,\mathrm dV_g.
 $$
 
-This is an exact reparameterization after Einstein gravity and its normalization have been assumed. It neither makes the wall BKM metric an action nor derives \(\eta_{\mathrm E}\). [[spectral-wall-descent/observable-spectral-action|The observable spectral-action analysis]] places Connes' variational functional on the downstream side of the wall and proves that its bulk value cannot determine a context-dependent entropy defect. [[philosophy/principle-of-least-action/entry|The least-action module]] owns the general variational distinctions.
+This is an exact reparameterization after Einstein gravity and its normalization have been assumed. It neither makes the wall BKM metric an action nor derives \(\eta_{\mathrm E}\). [[spectral-wall-descent/observable-spectral-action|The observable spectral-action analysis]] places Connes' variational functional on the downstream side of the wall and proves that its bulk value cannot determine a context-dependent entropy defect. [[philosophy/principle-of-least-action/inq|The least-action module]] owns the general variational distinctions.
 
 ## The escort tangent is not the binary translation
 

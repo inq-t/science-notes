@@ -16,7 +16,7 @@ $$
 U(1),\qquad Sp(1)\simeq SU(2),\qquad U(3).
 $$
 
-Obtaining the Standard Model requires their action on a finite Hilbert bimodule, a grading, a real structure, a finite Dirac operator carrying Yukawa data, and a representation-dependent quotient or unimodularity condition. Chamseddine and Connes obtain the Standard Model within a restrictive finite noncommutative-geometric classification; see [[library/standard-model-algebra/entry|Conceptual Explanation for the Algebra in the Noncommutative Approach to the Standard Model]] and [[library/ncg-standard-model-neutrino-mixing/entry|Noncommutative Geometry and the Standard Model with Neutrino Mixing]]. Those assumptions and data are not consequences of the current causal wall.
+Obtaining the Standard Model requires their action on a finite Hilbert bimodule, a grading, a real structure, a finite Dirac operator carrying Yukawa data, and a representation-dependent quotient or unimodularity condition. Chamseddine and Connes obtain the Standard Model within a restrictive finite noncommutative-geometric classification; see [[library/standard-model-algebra/inq|Conceptual Explanation for the Algebra in the Noncommutative Approach to the Standard Model]] and [[library/ncg-standard-model-neutrino-mixing/inq|Noncommutative Geometry and the Standard Model with Neutrino Mixing]]. Those assumptions and data are not consequences of the current causal wall.
 
 The appropriate target is therefore not merely $A_F$, but
 
@@ -36,7 +36,7 @@ together with its physical gauge action and a low-energy effective theory.
 
 The first operation is the finite Gibbs-state analogy used in [[causal-scale-theory/vacuum-residual-sector|the residual-vacuum discussion]]. It does not make the Tomita modular operator of a fixed faithful state freely shiftable; that modular datum is canonical. The second operation occurs in [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature#Candidate residue|the homogeneous-mode quotient]]. The third is the kind of unimodularity condition used in finite spectral geometry. Its precise determinant or trace depends on the represented particle subspace, the real lift, and the treatment of conjugate states. Their superficial “remove one common direction” resemblance is not a derivation.
 
-For the first two operations to imply the third, one would need an explicit map from the wall state tangent to the represented internal Lie algebra and a proof that BKM horizontality becomes the relevant trace condition on $H_F$. No internal representation, such map, or theorem presently exists. In one version of the noncommutative-geometric Standard Model, unimodularity is closely related to anomaly cancellation; the result is representation- and matter-content-dependent, and the cited analysis assumes no right-handed neutrinos, as [[library/anomaly-cancellation-and-gauge-group-of-the-standard-model-in-ncg/entry|Alvarez, Gracia-Bondía, and Martín]] make explicit.
+For the first two operations to imply the third, one would need an explicit map from the wall state tangent to the represented internal Lie algebra and a proof that BKM horizontality becomes the relevant trace condition on $H_F$. No internal representation, such map, or theorem presently exists. In one version of the noncommutative-geometric Standard Model, unimodularity is closely related to anomaly cancellation; the result is representation- and matter-content-dependent, and the cited analysis assumes no right-handed neutrinos, as [[library/anomaly-cancellation-and-gauge-group-of-the-standard-model-in-ncg/inq|Alvarez, Gracia-Bondía, and Martín]] make explicit.
 
 ## A conditional color-three lemma
 
@@ -52,7 +52,7 @@ $$
 N+1.
 $$
 
-Freedom from the familiar global $SU(2)$ anomaly requires an even number of doublets; [[library/a-new-su-2-anomaly/entry|Wang, Wen, and Witten]] review this familiar anomaly while developing a further one. For one family—or, more generally, an odd number of identical families—$N$ must be odd. Requiring a genuinely nonabelian color block gives $N>1$; imposing minimality then selects
+Freedom from the familiar global $SU(2)$ anomaly requires an even number of doublets; [[library/a-new-su-2-anomaly/inq|Wang, Wen, and Witten]] review this familiar anomaly while developing a further one. For one family—or, more generally, an odd number of identical families—$N$ must be odd. Requiring a genuinely nonabelian color block gives $N>1$; imposing minimality then selects
 
 $$
 N=3.
@@ -79,7 +79,7 @@ Again, the equations constrain an assumed chiral module; they do not construct i
 
 ## Anomalies as transport consistency
 
-For a family of chiral Dirac operators, local and global anomalies can be encoded in the curvature and holonomy of a determinant—or, for appropriate real or pseudoreal fermions, Pfaffian—line bundle. Freed's [[library/determinant-line-bundles-revisited/entry|determinant-line analysis]] supplies the relevant geometric language. Consistency requires a gauge-equivariant trivialization: the local curvature or anomaly polynomial must vanish modulo allowed counterterms, and global holonomy must be trivial on every gauge-redundancy loop, including noncontractible ones.
+For a family of chiral Dirac operators, local and global anomalies can be encoded in the curvature and holonomy of a determinant—or, for appropriate real or pseudoreal fermions, Pfaffian—line bundle. Freed's [[library/determinant-line-bundles-revisited/inq|determinant-line analysis]] supplies the relevant geometric language. Consistency requires a gauge-equivariant trivialization: the local curvature or anomaly polynomial must vanish modulo allowed counterterms, and global holonomy must be trivial on every gauge-redundancy loop, including noncontractible ones.
 
 This condition begins only after the theory supplies the fermion Hilbert space, chiral Dirac family, gauge action, parameter space, and anomaly line. A Connes relative-state cocycle is not a gauge-anomaly cocycle, and a modular Berry connection is not automatically the anomaly-line connection. Causal-scale transport cannot hide a pure gauge anomaly. A declared bulk–wall sector may cancel a boundary anomaly by genuine gauge inflow, in which case triviality applies to the combined system; only after that gauge consistency is secured does it make sense to ask how anomaly-line transport and scale transport fit into one larger bundle.
 
@@ -95,6 +95,6 @@ $$
 n\in\{1,2,3,6\},
 $$
 
-where $\Gamma_n$ is the corresponding subgroup of the usual diagonally embedded $\mathbb Z_6$ center that acts trivially on the Standard Model representations. The allowed representations, bundles, and line operators distinguish these global forms; see [[library/global-anomalies-in-the-standard-model-s-and-beyond/entry|Global Anomalies in the Standard Model(s) and Beyond]]. A wall or cut theory might eventually constrain them, but the present [[wall-construction-interface/entry#The minimal package|wall package]] contains no constructed charged sectors or line-operator category from which such a choice could follow.
+where $\Gamma_n$ is the corresponding subgroup of the usual diagonally embedded $\mathbb Z_6$ center that acts trivially on the Standard Model representations. The allowed representations, bundles, and line operators distinguish these global forms; see [[library/global-anomalies-in-the-standard-model-s-and-beyond/inq|Global Anomalies in the Standard Model(s) and Beyond]]. A wall or cut theory might eventually constrain them, but the present [[wall-construction-interface/inq#The minimal package|wall package]] contains no constructed charged sectors or line-operator category from which such a choice could follow.
 
 The filters in this note become a selection mechanism only if the causal-wall axioms independently generate a small candidate set and one candidate alone survives. Applied after the Standard Model module has been assumed, they are consistency checks rather than an explanation of why nature chose it.

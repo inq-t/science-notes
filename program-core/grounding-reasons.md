@@ -58,7 +58,7 @@ Identicals are indiscernible because properties are well-defined. The converse i
 
 > When a declared observable family is adequate for a physical register, presentations that every member of that family identifies have one accessible physical image in that register.
 
-The adequacy clause matters. Local observables may miss global holonomy; invariants may miss stabilizers; a later extension of the physical family may refine the quotient. The exact content is the universal factorization through \(X/{\sim_{\mathcal O}}\), not the metaphysical assertion that every presently undetected distinction is nonexistent. [[philosophy/indiscernibility-of-identicals/entry|Identity and indiscernibility]] owns this qualification.
+The adequacy clause matters. Local observables may miss global holonomy; invariants may miss stabilizers; a later extension of the physical family may refine the quotient. The exact content is the universal factorization through \(X/{\sim_{\mathcal O}}\), not the metaphysical assertion that every presently undetected distinction is nonexistent. [[philosophy/indiscernibility-of-identicals/inq|Identity and indiscernibility]] owns this qualification.
 
 A difference that cannot be read directly but leaves a geometric, charge, or record consequence is not indiscernible to the full physical family. “Beyond the wall” and “in the observational kernel” are therefore different claims.
 
@@ -74,7 +74,7 @@ Nor does *pre-observable* imply *homogeneous*. Homogeneity requires a specified 
 
 State, fact, scale, area, entropy, energy, and curvature are not addends merely because an equation can be rearranged to contain them. A physical equation is explanatory when it supplies a lawful map between independently typed structures.
 
-Dimensionful constants are therefore read first as soldering coefficients in the programme's extended relational sense. Their decimals depend on units, while their invariant content lies in which registers they make commensurable and what compatibility law fixes that conversion. Multiplication by a scalar is not by itself a classical differential-geometric solder form; [[cosmodynamics/soldering-constants|constants as soldering structures]] and [[basic-concepts/soldering/entry|strict soldering]] keep the two usages distinct.
+Dimensionful constants are therefore read first as soldering coefficients in the programme's extended relational sense. Their decimals depend on units, while their invariant content lies in which registers they make commensurable and what compatibility law fixes that conversion. Multiplication by a scalar is not by itself a classical differential-geometric solder form; [[cosmodynamics/soldering-constants|constants as soldering structures]] and [[basic-concepts/soldering/inq|strict soldering]] keep the two usages distinct.
 
 ## GR6 — Structure precedes measure, but does not eliminate it
 

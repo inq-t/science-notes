@@ -1,4 +1,0 @@
-[module]
-name = "holographic-renormalization"
-entry = "entry.md"
-include = ["**"]

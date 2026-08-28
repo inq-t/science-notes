@@ -1,4 +1,0 @@
-[module]
-name = "anomalous-galactic-rotation-curves"
-entry = "entry.md"
-include = ["**"]

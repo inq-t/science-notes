@@ -11,7 +11,7 @@ Every module this folder touches converges on this single structural question.
 - [[sufficient-reason/theorem-programme|Target C4]]: the half-sided modular inclusion is the named rigorous candidate for the arrow bridge.
 - `../stack-of-weight-groupoids.md` (benchmark ii): proving the inclusions half-sided restores core-functoriality and hence the descent lemma on the chain.
 
-One yes/no question gates cross-fiber transport for [[wall-construction-interface/entry|the wall interface]], the arrow bridge, the causal semigroup, and the costack lemma restricted to the chain. The diagnostic is already written: check whether $\Delta^{it}_{M_{N'}} M_N \Delta^{-it}_{M_{N'}} \subseteq M_N$ for one sign of $t$. Attack this before the grand descent theorem.
+One yes/no question gates cross-fiber transport for [[wall-construction-interface/inq|the wall interface]], the arrow bridge, the causal semigroup, and the costack lemma restricted to the chain. The diagnostic is already written: check whether $\Delta^{it}_{M_{N'}} M_N \Delta^{-it}_{M_{N'}} \subseteq M_N$ for one sign of $t$. Attack this before the grand descent theorem.
 
 ## T2 — The telescoping flux-balance along the chain
 

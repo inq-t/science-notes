@@ -1,4 +1,0 @@
-[module]
-name = "counterexamples-to-the-jacobian-conjecture"
-entry = "entry.md"
-include = ["**"]

@@ -68,7 +68,7 @@ $$
 
 An invariant measure on field configurations may have nontrivial correlations, and an individual configuration in its support need not be invariant. This is the exact mathematical space in which a homogeneous whole can appear lumpy without placing primitive lumps in the underlying algebra. It does not decide whether the measure is ontically stochastic; [[program-core/grounding-reasons|grounding reasons]] and [[causal-wall-spectral-theory/whole-state-correlation-reading|the whole-state reading]] keep a law of accessible correlations distinct from the sufficing reason for the actual character.
 
-The contextual family itself is organized by [[basic-concepts/sheafs/entry#Quantum contexts and the spectral presheaf|the spectral presheaf]]. Each commutative context has characters, while the Kochen--Specker obstruction prevents their automatic assembly into one noncontextual global valuation. This does not prevent contextual facts. It shows that their compatibility and history require more structure than a single global assignment.
+The contextual family itself is organized by [[basic-concepts/sheafs/inq#Quantum contexts and the spectral presheaf|the spectral presheaf]]. Each commutative context has characters, while the Kochen--Specker obstruction prevents their automatic assembly into one noncontextual global valuation. This does not prevent contextual facts. It shows that their compatibility and history require more structure than a single global assignment.
 
 ## Readout channels make the descent explicit
 
@@ -96,7 +96,7 @@ $$
 
 The first changes the sub-observable state. The second changes how a fixed state is presented to observation. The current wall programme has concentrated on the first. The present conjecture allows the nonconstant sector to reside partly or entirely in the second.
 
-When observational carriers vary, cross-context transport must first place them on common ground. Equality of notation does not compare states on different algebras. [[wall-construction-interface/entry|The wall-construction interface]] owns that transport obligation.
+When observational carriers vary, cross-context transport must first place them on common ground. Equality of notation does not compare states on different algebras. [[wall-construction-interface/inq|The wall-construction interface]] owns that transport obligation.
 
 ## A no-response lemma
 
@@ -147,7 +147,7 @@ If \(\rho=\mathbf1/n\), then \(p_i=1/n\) for every unitarily related projective 
 
 ## What Connes supplies as precedent
 
-[[library/ncg-standard-model-neutrino-mixing/entry|Connes' finite geometry]] has metric dimension zero and KO-dimension six. Its algebra is represented on a finite Hilbert space, while its finite Dirac operator carries Yukawa, mixing, and Majorana data. Inner fluctuations
+[[library/ncg-standard-model-neutrino-mixing/inq|Connes' finite geometry]] has metric dimension zero and KO-dimension six. Its algebra is represented on a finite Hilbert space, while its finite Dirac operator carries Yukawa, mixing, and Majorana data. Inner fluctuations
 
 $$
 D_A=D+A+JAJ^{-1},
@@ -167,7 +167,7 @@ $$
 
 The lesson is therefore narrower and stronger: algebraic metric data can generate internal observed differentiation while the finite algebra has no positive metric dimension. A pregeometric theory still owes the spacetime carrier and its descent.
 
-[[library/quanta-of-geometry/entry|Quanta of Geometry]] supplies a second clue. Under its two-sided operator relation,
+[[library/quanta-of-geometry/inq|Quanta of Geometry]] supplies a second clue. Under its two-sided operator relation,
 
 $$
 \det(e)=\Omega_++\Omega_-,
@@ -175,7 +175,7 @@ $$
 
 where the local Jacobian densities may vary while the integrated volume is fixed by degrees or an index pairing. This is an exact model of a global invariant coexisting with locally redistributed geometric density. The paper begins with a manifold and Dirac operator, so it does not prove the present descent, but its algebraic grammar is close to the desired one.
 
-The natural stable objects in this setting are index, \(K\)-homology, and [[ko-dimension-as-morita-class/entry|graded Morita classes]], not an absolute count of information. Bounded inner fluctuations can change a representative without changing its underlying \(K\)-homology class under the usual analytic hypotheses. This suggests that what survives ontological history may be an invariant algebraic class while response, geometry, and records redistribute inside it.
+The natural stable objects in this setting are index, \(K\)-homology, and [[ko-dimension-as-morita-class/inq|graded Morita classes]], not an absolute count of information. Bounded inner fluctuations can change a representative without changing its underlying \(K\)-homology class under the usual analytic hypotheses. This suggests that what survives ontological history may be an invariant algebraic class while response, geometry, and records redistribute inside it.
 
 ## The proposed register order
 

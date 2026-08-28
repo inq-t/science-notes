@@ -10,7 +10,7 @@ $$
 \dim\Sigma_N=2.
 $$
 
-The stress-tensor decomposition and Fourier precision used by [[vendor/holographic-cosmology/entry|holographic cosmology]] are three-dimensional:
+The stress-tensor decomposition and Fourier precision used by [[vendor/holographic-cosmology/inq|holographic cosmology]] are three-dimensional:
 
 $$
 \langle\!\langle T_{ij}(q)T_{kl}(-q)\rangle\!\rangle,

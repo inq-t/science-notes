@@ -6,7 +6,7 @@ The proposal becomes a theory only if it constructs a natural coalgebra of conte
 
 **Target C1 — behavior functor.** Define a category of wall or observer systems and an endofunctor $F$ for which a coalgebra $\gamma:X\to F(X)$ encodes the selection of a commutative context and the induced probability law on its spectrum. Variance under context inclusion, the contravariance of spectrum, and state update must all type-check.
 
-Abramsky's coalgebraic and Chu-space representations of physical systems and probabilistic coalgebra are natural starting points. The physical object should be compatible with the algebra-and-state package demanded by [[wall-construction-interface/entry|the wall-construction interface]].
+Abramsky's coalgebraic and Chu-space representations of physical systems and probabilistic coalgebra are natural starting points. The physical object should be compatible with the algebra-and-state package demanded by [[wall-construction-interface/inq|the wall-construction interface]].
 
 **Failure K1.** No such $F$ is natural under the admissible maps of observer systems while reproducing quantum probabilities. Then the coalgebraic language is at the wrong level.
 

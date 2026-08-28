@@ -49,4 +49,4 @@ Instead of asking “what substance compensates the lost local information or re
 4. What boundary, corner, state, and integrability data are required?
 5. Which map transports this balance to geometry, facts, or records?
 
-The taxonomy's canonical destination is [[program-core/symmetry-conservation-and-action|Symmetry, Conservation, and Action]]. [[philosophy/noether-conservation/entry|Noether Symmetry and Conservation]] remains the theorem source, and [[library/wald-zoupas-conserved-quantities|Wald--Zoupas]] supplies the primary charge-and-flux framework for radiative boundaries. A future theorem may unify several rows. Until then, their juxtaposition is a typology and research question.
+The taxonomy's canonical destination is [[program-core/symmetry-conservation-and-action|Symmetry, Conservation, and Action]]. [[philosophy/noether-conservation/inq|Noether Symmetry and Conservation]] remains the theorem source, and [[library/wald-zoupas-conserved-quantities|Wald--Zoupas]] supplies the primary charge-and-flux framework for radiative boundaries. A future theorem may unify several rows. Until then, their juxtaposition is a typology and research question.

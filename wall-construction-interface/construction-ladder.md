@@ -27,7 +27,7 @@ Geometric modular flow is known exactly: the modular Hamiltonian generates boost
 
 **Newly nontrivial:** the region has finite extent, so the cut is a genuine choice and the modular Hamiltonian is no longer a global boost.
 
-Local stress-tensor modular Hamiltonians and a Markov property for vacuum regions on a null plane, or a null cone in a conformal theory, are available from [[library/modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state/entry|Casini, Teste, and Torroba]]. The setting is still static and vacuum, so transport between nearby regions is a controlled deformation rather than an evolution.
+Local stress-tensor modular Hamiltonians and a Markov property for vacuum regions on a null plane, or a null cone in a conformal theory, are available from [[library/modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state/inq|Casini, Teste, and Torroba]]. The setting is still static and vacuum, so transport between nearby regions is a controlled deformation rather than an evolution.
 
 **What it tests.** Whether the channel and normalization survive localization, and whether a one-parameter family of nested regions produces an affine state coordinate.
 
@@ -35,7 +35,7 @@ Local stress-tensor modular Hamiltonians and a Markov property for vacuum region
 
 **Newly nontrivial:** the algebra type changes, and observables must be dressed.
 
-Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constructed by [[library/generalized-entropy-for-general-subregions-in-quantum-gravity/entry|Jensen, Sorce, and Speranza]], using states whose instantaneously geometric modular flow is itself conjectural. Horizon-cut algebras with edge modes and half-sided modular structure in perturbative gravity about black-hole backgrounds are constructed by [[library/subregion-algebras-in-classical-and-quantum-gravity/entry|Chandrasekaran and Flanagan]].
+Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constructed by [[library/generalized-entropy-for-general-subregions-in-quantum-gravity/inq|Jensen, Sorce, and Speranza]], using states whose instantaneously geometric modular flow is itself conjectural. Horizon-cut algebras with edge modes and half-sided modular structure in perturbative gravity about black-hole backgrounds are constructed by [[library/subregion-algebras-in-classical-and-quantum-gravity/inq|Chandrasekaran and Flanagan]].
 
 **What it tests.** Whether the entropy normalization retains its meaning once a density matrix and a trace become available in the crossed product — and whether the edge or corner degrees of freedom introduce additional reflection-odd modes that the channel obligation must then suppress. This is the first rung where the discarded-mode bound in [[binary-channel|the binary channel obligation]] has real content.
 
@@ -43,7 +43,7 @@ Observer-dependent type-II subregion algebras in the $G_N\to0$ limit are constru
 
 **Newly nontrivial:** transport becomes a genuine evolution, and the region moves.
 
-Gravitationally dressed observables for a comoving observer in a past-asymptotically-de Sitter cosmology are constructed by [[library/algebraic-observational-cosmology/entry|Kudler-Flam, Leutheusser, and Satishchandran]].
+Gravitationally dressed observables for a comoving observer in a past-asymptotically-de Sitter cosmology are constructed by [[library/algebraic-observational-cosmology/inq|Kudler-Flam, Leutheusser, and Satishchandran]].
 
 **What it tests.** Whether the horizontal noncentral term of the comparison is nonzero and frame-independent once the fibers genuinely differ, and whether holonomy is negligible over a finite stretch of the family. This is the first rung at which the affine soldering hypothesis can be checked rather than assumed.
 
@@ -68,4 +68,4 @@ The second signature is the more valuable outcome, and it is only available if t
 
 ## Interface position
 
-The ladder is a strategy for the binary member, not an obligation of the interface: a construction that uses a different response sector, or that jumps straight to rung 5 and succeeds, owes nothing to this note. Its use is that partial binary-channel results become interpretable. The shared data at each rung are slots enumerated in [[wall-construction-interface/entry|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].
+The ladder is a strategy for the binary member, not an obligation of the interface: a construction that uses a different response sector, or that jumps straight to rung 5 and succeeds, owes nothing to this note. Its use is that partial binary-channel results become interpretable. The shared data at each rung are slots enumerated in [[wall-construction-interface/inq|the interface package]]; whether a completed rung explains anything is decided by [[elimination-test|the elimination tests]].

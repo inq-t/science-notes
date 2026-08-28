@@ -49,7 +49,7 @@ $$
 
 This is exact kinematics and holds without Einstein's equation or any matter model. The 1998 discovery, stated in the register in which it was actually made, is: *the logarithm of the scale section is concave in conformal time.*
 
-Note what has and has not been established. **[STANDARD]** [[conformal-scale-geometry/causal-order-and-metric-scale|Causal order fixes a conformal class, not a unique metric]], so $\sigma$ is genuine independent data and not a coordinate artifact — [[conformal-time/entry|conformal time]] is explicit that factoring out $a^2$ removes neither expansion nor redshift nor curvature. But log-concavity of a section is not by itself evidence that scale is *dynamically sourced*; that is the substantive claim, and it is not yet in evidence at this line.
+Note what has and has not been established. **[STANDARD]** [[conformal-scale-geometry/causal-order-and-metric-scale|Causal order fixes a conformal class, not a unique metric]], so $\sigma$ is genuine independent data and not a coordinate artifact — [[conformal-time/inq|conformal time]] is explicit that factoring out $a^2$ removes neither expansion nor redshift nor curvature. But log-concavity of a section is not by itself evidence that scale is *dynamically sourced*; that is the substantive claim, and it is not yet in evidence at this line.
 
 ## Where the register changes
 

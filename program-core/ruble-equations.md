@@ -132,7 +132,7 @@ $$
 
 Here \(p\in\Sigma_N\), \([\chi_N]=[\overline\chi_{\Sigma,N}]=L^{-2}\), and \([\mathfrak a_N]=L^2\) for the dimensionless normalized scale tangent. The first object is a local bilinear modulus; the scalar and its inverse are contractions on a pointwise nondegenerate physical direction. The average need not equal the local density. Cross-term densities require absolute continuity of the signed measures themselves, obtained directly or by a justified polarization and measure Cauchy--Schwarz argument.
 
-The coincidence-Hessian theorem is owned by [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|the Hessian module]]; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the Gibbs--relative-entropy identity]] records the fixed-Hamiltonian thermodynamic specialization. Neither theorem supplies the open localization map.
+The coincidence-Hessian theorem is owned by [[basic-concepts/hessians/inq#Log-partition Hessians and Fisher geometry|the Hessian module]]; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the Gibbs--relative-entropy identity]] records the fixed-Hamiltonian thermodynamic specialization. Neither theorem supplies the open localization map.
 
 ## RE3 — State–geometry equivalence
 
@@ -279,7 +279,7 @@ $$
 J_{\mathrm{refl}}QJ_{\mathrm{refl}}^{-1}=-Q,
 $$
 
-but \(J_{\mathrm{refl}}\) is not automatically Tomita conjugation. Balance is not a consequence of \(Q^2=\mathbf1_{\mathcal B_N}\). Nor does the ambient wall geometry prove that this binary image is exhaustive: [[wall-construction-interface/binary-channel|the binary-channel obligation]] and [[a2-ternary-response/entry|the \(A_2\) ternary test]] isolate that earlier construction gate.
+but \(J_{\mathrm{refl}}\) is not automatically Tomita conjugation. Balance is not a consequence of \(Q^2=\mathbf1_{\mathcal B_N}\). Nor does the ambient wall geometry prove that this binary image is exhaustive: [[wall-construction-interface/binary-channel|the binary-channel obligation]] and [[a2-ternary-response/inq|the \(A_2\) ternary test]] isolate that earlier construction gate.
 
 Define the balanced exponential family by
 

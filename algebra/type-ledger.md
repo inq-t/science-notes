@@ -43,7 +43,7 @@ $$
 4+6\equiv2\pmod8.
 $$
 
-This is graded sign bookkeeping. It is not a statement that a four-dimensional manifold has been multiplied by a smooth six-dimensional internal manifold. The finite internal algebra remains metric-dimensional zero. [[ko-dimension-as-morita-class/entry|KO-dimension as a Morita class]] owns the full distinction and develops the project's adopted graded-Clifford/Morita interpretation; that interpretation should not be silently promoted beyond the status assigned there.
+This is graded sign bookkeeping. It is not a statement that a four-dimensional manifold has been multiplied by a smooth six-dimensional internal manifold. The finite internal algebra remains metric-dimensional zero. [[ko-dimension-as-morita-class/inq|KO-dimension as a Morita class]] owns the full distinction and develops the project's adopted graded-Clifford/Morita interpretation; that interpretation should not be silently promoted beyond the status assigned there.
 
 ## The constant $c$ is not an identification
 

@@ -48,7 +48,7 @@ g^{\mathrm{BKM}}_\rho
 =:C_E(\rho).}
 $$
 
-This is an exact exponential-family identity. It is a statement about one particular tangent, not about every path through \(\rho\). The relation between modular variance, replica derivatives, and heat capacity is reviewed by [[library/aspects-of-capacity-of-entanglement/entry|de Boer, Järvelä, and Keski-Vakkuri]].
+This is an exact exponential-family identity. It is a statement about one particular tangent, not about every path through \(\rho\). The relation between modular variance, replica derivatives, and heat capacity is reviewed by [[library/aspects-of-capacity-of-entanglement/inq|de Boer, Järvelä, and Keski-Vakkuri]].
 
 For a physical scale coordinate \(N\), decompose its tangent at the wall as
 
@@ -191,7 +191,7 @@ This is a proof of the central conjecture from explicit hypotheses. It is not ye
 
 ## The algebraic symmetry behind the candidate
 
-For a half-sided modular inclusion \(\mathcal N\subset\mathcal M\), the Borchers--Wiesbrock structure theorem, in the corrected and extended form of [[library/extension-of-borchers-structure-theorem/entry|Araki and Zsidó]], gives a positive translation generator and the affine-group relation
+For a half-sided modular inclusion \(\mathcal N\subset\mathcal M\), the Borchers--Wiesbrock structure theorem, in the corrected and extended form of [[library/extension-of-borchers-structure-theorem/inq|Araki and Zsidó]], gives a positive translation generator and the affine-group relation
 
 $$
 \Delta_{\mathcal M}^{it}U(a)\Delta_{\mathcal M}^{-it}
@@ -200,13 +200,13 @@ $$
 
 This is the operator-algebraic form of “modular flow acts as dilation on a null translation.” It supplies a natural logarithmic scale, a universal \(2\pi\), and a positivity law. Under additional standardness and locality hypotheses, suitable modular inclusions can reconstruct chiral conformal nets.
 
-The implication is not automatic. Half-sided inclusions can be singular and have trivial relative commutant; [[library/deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories/entry|Lechner and Scotford]] construct explicit examples. A half-sided inclusion by itself therefore does not provide a local chiral CFT, a stress tensor, a Cardy regime, or a capacity normalization.
+The implication is not automatic. Half-sided inclusions can be singular and have trivial relative commutant; [[library/deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories/inq|Lechner and Scotford]] construct explicit examples. A half-sided inclusion by itself therefore does not provide a local chiral CFT, a stress tensor, a Cardy regime, or a capacity normalization.
 
 The recent gravitational construction summarized in [[wall-construction-interface/construction-ladder#Rung 3 — controlled gravitational or crossed-product degrees of freedom|the wall construction ladder]] realizes horizon-cut crossed products, edge-mode area charges, and the same affine modular algebra in perturbative gravity. It gives a serious candidate for the wall's symmetry skeleton. It does not yet turn vertical localization flow into the required horizontal state deformation, and its gravitational action already contains the coefficient whose value is at issue.
 
 ## The Noether-charge route and its exact limit
 
-The covariant phase-space identity of [[library/some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy/entry|Iyer and Wald]] identifies horizon entropy with a diffeomorphism Noether charge and relates its first variation to the Hamiltonian charge. Controlled holographic results identify a relative-entropy Hessian with gravitational canonical energy; [[library/canonical-energy-is-quantum-fisher-information/entry|Lashkari and Van Raamsdonk]] prove this for perturbations of a CFT vacuum ball with an AdS Rindler wedge dual.
+The covariant phase-space identity of [[library/some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy/inq|Iyer and Wald]] identifies horizon entropy with a diffeomorphism Noether charge and relates its first variation to the Hamiltonian charge. Controlled holographic results identify a relative-entropy Hessian with gravitational canonical energy; [[library/canonical-energy-is-quantum-fisher-information/inq|Lashkari and Van Raamsdonk]] prove this for perturbations of a CFT vacuum ball with an AdS Rindler wedge dual.
 
 These results align the correct kinds of objects:
 

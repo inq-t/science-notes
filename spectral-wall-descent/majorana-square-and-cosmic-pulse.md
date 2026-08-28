@@ -4,7 +4,7 @@ The Majorana contribution to the observable spectral action separates exactly in
 
 ## Exact square completion
 
-In [[library/ncg-standard-model-neutrino-mixing/entry|the local noncommutative Standard Model source]], let
+In [[library/ncg-standard-model-neutrino-mixing/inq|the local noncommutative Standard Model source]], let
 
 $$
 R:=M_R^*M_R,
@@ -244,7 +244,7 @@ Three structures are blind to a common scalar shift:
 2. null focusing through \(R_{ab}k^ak^b\), since \(g_{ab}k^ak^b=0\); and
 3. the traceless orbit above, which leaves \(\operatorname{Tr}R\) fixed.
 
-The transient response and the residual cosmological constant therefore belong to different theorem targets. The pulse may live in a noncentral response sector, while \(\gamma_{\mathrm{res}}\) requires a global central class, cutoff-moment relation, boundary condition, stack cocycle, or volume constraint. [[contemporary-puzzles/dark-energy-and-acceleration/entry|The dark-energy reclassification]] already requires this separation.
+The transient response and the residual cosmological constant therefore belong to different theorem targets. The pulse may live in a noncentral response sector, while \(\gamma_{\mathrm{res}}\) requires a global central class, cutoff-moment relation, boundary condition, stack cocycle, or volume constraint. [[contemporary-puzzles/dark-energy-and-acceleration/inq|The dark-energy reclassification]] already requires this separation.
 
 ## Claim boundary
 

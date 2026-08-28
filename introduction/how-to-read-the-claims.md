@@ -14,7 +14,7 @@ When two quantities resemble one another, look for a map with a declared domain,
 
 ## Is the connecting map constructed or proposed?
 
-The programme is strongest where it turns evocative identifications into named interfaces with failure conditions. [[algebra/program-core-interface|The algebra-to-core interface]], [[wall-construction-interface/entry|the wall-construction interface]], and the CST and CWST realization maps separate providers from consumers. An arrow labeled *open*, *postulated*, or *conditional* must not be mentally upgraded because the mathematics on either side is exact.
+The programme is strongest where it turns evocative identifications into named interfaces with failure conditions. [[algebra/program-core-interface|The algebra-to-core interface]], [[wall-construction-interface/inq|the wall-construction interface]], and the CST and CWST realization maps separate providers from consumers. An arrow labeled *open*, *postulated*, or *conditional* must not be mentally upgraded because the mathematics on either side is exact.
 
 ## Is familiar physics imported, preserved, recovered, or derived?
 

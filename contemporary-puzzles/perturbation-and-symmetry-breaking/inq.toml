@@ -1,4 +1,0 @@
-[module]
-name = "perturbation-and-symmetry-breaking"
-entry = "entry.md"
-include = ["**/*.md"]

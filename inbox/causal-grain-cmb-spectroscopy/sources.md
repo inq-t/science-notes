@@ -28,11 +28,11 @@ This ledger separates local canonical owners, archived observational products, a
 - [[wall-construction-interface/scale-character-solder|The Scale-Character Solder]] owns the proposed identification of core trace scaling with cosmic scale.
 - [[basic-concepts/soldering/continuous-character-no-go|Continuous Character No-Go]] proves why a continuous scale character alone has no primitive positive interval.
 - [[the-grain-of-causal-scale/causal-spectrum|A Quantum of Causal Realization]] supplies the no-gap result for the pre-wall generator and the finite \(+1\) support-jump prototype.
-- [[the-grain-of-causal-scale/entry|The Grain of Causal Scale]] owns the conditional common-count identities and their metric, clock, frequency, energy, and information presentations.
+- [[the-grain-of-causal-scale/inq|The Grain of Causal Scale]] owns the conditional common-count identities and their metric, clock, frequency, energy, and information presentations.
 - [[inbox/the-unit-nat-channel/the-unit-nat-channel|The Unit-Nat Channel and the \(\gamma\) Ladder]] supplies the conditional chain \(s_*=1\), \(\gamma=2\), \(\zeta=2/3\). Its KMS/Wiener--Hopf realization remains an open operator construction.
 - [[inbox/the-constants-of-nature/entry|The Constants of Nature, Assembled]] is an explicitly all-conditionals-granted synthesis used here only as a pattern index. Its declarative mood does not upgrade the status of any imported clause.
 - [[minimal-cosmodynamic-closure/unit-wall-correspondence|The Unit Wall Correspondence Ansatz]] states the conjectural carrier-changing weld rather than presenting it as a theorem.
-- [[cosmodynamics/scale-age|Scale-Age and Cosmic History]], [[misner-log-time/entry|Misner Logarithmic Time]], and [[conformal-scale-geometry/scale-coordinate-reference|The Scale-Coordinate Reference]] fix \(N=\ln(a/a_*)\), \(\Omega=-N\), and their reference conventions.
+- [[cosmodynamics/scale-age|Scale-Age and Cosmic History]], [[misner-log-time/inq|Misner Logarithmic Time]], and [[conformal-scale-geometry/scale-coordinate-reference|The Scale-Coordinate Reference]] fix \(N=\ln(a/a_*)\), \(\Omega=-N\), and their reference conventions.
 - [[hyperbolic-counting/two-nats-per-e-fold|Two Nats per E-Fold]] distinguishes logarithmic ledger growth from the additive number of entropy nats.
 
 ### Jordan, octonionic, and \(3+1\) descent
@@ -41,9 +41,9 @@ This ledger separates local canonical owners, archived observational products, a
 - [[inbox/causal-grain-cmb-spectroscopy/octonionic-associative-descent|Octonionic Associative Descent]] gathers the exact corner, Lorentz-cone, and exceptional-carrier facts used by this packet and labels the physical descent as open.
 - [[algebra/real-forms-and-factive-spacetime|Real Forms and Factive Spacetime]] supplies the distinct construction in which a three-dimensional real form is an object and the temporal “one” is oriented historical composition.
 - [[algebra/a2-positive-completion|The Positive \(C^*\)-Envelope of a Real \(A_2\) Degeneration]] gives exact finite positive completions while denying that reversible monodromy supplies causality.
-- [[a2-ternary-response/entry|The \(A_2\) Ternary Response]] owns the three-alternative representation and candidate harmonic selection rules.
+- [[a2-ternary-response/inq|The \(A_2\) Ternary Response]] owns the three-alternative representation and candidate harmonic selection rules.
 - [[inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder|The de Sitter Box and the Octonionic Ladder]] supplies the exact trace-free horizon cubic and its three \(2\pi/3\)-separated cosine branches; its box-spectrum functor remains open.
-- [[library/standard-model-from-exceptional-jordan-algebra/entry|The Standard Model Gauge Group from the Exceptional Jordan Algebra]] archives the primary Baez--Schwahn construction; it establishes a stabilizer theorem, not cosmological collapse.
+- [[library/standard-model-from-exceptional-jordan-algebra/inq|The Standard Model Gauge Group from the Exceptional Jordan Algebra]] archives the primary Baez--Schwahn construction; it establishes a stabilizer theorem, not cosmological collapse.
 
 ### Pion and chiral response
 
@@ -62,7 +62,7 @@ This ledger separates local canonical owners, archived observational products, a
 - [[inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic|The Grain--Acoustic Characteristic]] owns the post-search cubic oracle, its exact unit cancellations, numerical trials ledger, and falsifiers.
 - [[inbox/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent|Scale--Phase Harmonic Descent]] owns the \(\mathbb R_{>0}\times U(1)\), hyperbolic/circular cubic, Chebyshev, reflectionless-phase, and \(A_2\) harmonic mechanisms.
 - [[inbox/causal-grain-cmb-spectroscopy/grain-primordial-precision|Grain Ratio as Primordial Precision]] owns the live-cut rewrite \(\Delta_\zeta^2=3g_k^3/(8\pi\epsilon_H)\), its nat ledger, horizon-flow derivatives, and the distinction between geometric count and scalar clock susceptibility.
-- [[critical-scale-kernels/entry|Critical Scale Kernels]] supplies the exact degree-three flat classification and conditional curved \(P_3\) precedent; it does not identify an acoustic carrier.
+- [[critical-scale-kernels/inq|Critical Scale Kernels]] supplies the exact degree-three flat classification and conditional curved \(P_3\) precedent; it does not identify an acoustic carrier.
 - [[binary-information-geometry/witten-darboux|The Witten--Darboux Operator]] supplies the exact unit-modulus, reflectionless phase precedent on its internal Fisher coordinate.
 - [[vendor/holographic-cosmology/einstein-single-clock-member|The Einstein Single-Clock Member]] owns the imported leading identities \(\Delta_\zeta^2=(\epsilon_H\iota_H)^{-1}\), \(\Delta_T^2=16/\iota_H\), and \(r=16\epsilon_H\). Their grain form is a conditional rewrite, not a CWST recovery.
 
@@ -82,11 +82,11 @@ The Planck and ACT best-fit curves are model-conditioned products. Peak location
 
 [[inbox/causal-grain-cmb-spectroscopy/grain_acoustic_characteristic_receipts.py|The grain--acoustic characteristic receipt]] independently checks the unit-free \(Q_c\) dictionary, the hyperbolic cubic root, the CMB-conditioned central comparison, branch sensitivity, and the fully cancelled CH3 oracle. It certifies arithmetic and Planck-file provenance only; its \(H_c\), chiral, pion, and alternate-branch inputs are hard-coded from the linked notes rather than loaded from a frozen external ledger. It does not certify the post-search equation or a likelihood improvement.
 
-[[inbox/causal-grain-cmb-spectroscopy/grain_primordial_precision_receipts.py|The grain--primordial-precision receipt]] checks the equivalent horizon and grain presentations, the bundled \(A_s,n_s\) calibration, and conditional implications of the \(r_{0.05}<0.036\) bound at \(95\%\) confidence reported by [[library/bicep-keck-2018-primordial-gravitational-waves/entry|the archived BK18 analysis]]. It does not derive the live-cut axiom, an inflationary wall state, or the Einstein member.
+[[inbox/causal-grain-cmb-spectroscopy/grain_primordial_precision_receipts.py|The grain--primordial-precision receipt]] checks the equivalent horizon and grain presentations, the bundled \(A_s,n_s\) calibration, and conditional implications of the \(r_{0.05}<0.036\) bound at \(95\%\) confidence reported by [[library/bicep-keck-2018-primordial-gravitational-waves/inq|the archived BK18 analysis]]. It does not derive the live-cut axiom, an inflationary wall state, or the Einstein member.
 
 ## Primary CMB theory
 
-- Ma and Bertschinger, [“Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges”](https://doi.org/10.1086/176550), supplies the coupled Einstein--Boltzmann evolution used as the standard perturbative baseline. The repository copy is [[library/cosmological-perturbation-theory-in-the-synchronous-and-conformal-newtonian-gauges/entry|archived here]].
+- Ma and Bertschinger, [“Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges”](https://doi.org/10.1086/176550), supplies the coupled Einstein--Boltzmann evolution used as the standard perturbative baseline. The repository copy is [[library/cosmological-perturbation-theory-in-the-synchronous-and-conformal-newtonian-gauges/inq|archived here]].
 - Hu and Sugiyama, [“Small-Scale Cosmological Perturbations: An Analytic Approach”](https://doi.org/10.1086/177989), supplies analytic acoustic-scale, baryon-loading, diffusion, and recombination structure.
 - Zaldarriaga and Seljak, [“All-Sky Analysis of Polarization in the Microwave Background”](https://doi.org/10.1103/PhysRevD.55.1830), supplies the spin-weighted full-sky \(E/B\) polarization formalism and temperature--polarization spectra.
 - Hu and White, [“A CMB Polarization Primer”](https://arxiv.org/abs/astro-ph/9706147), supplies the physical phase and parity interpretation of CMB polarization.
@@ -101,8 +101,8 @@ These works support the local transfer map: photons and baryons form a tightly c
 - Planck Collaboration, [“Planck 2018 Results V: CMB Power Spectra and Likelihoods”](https://doi.org/10.1051/0004-6361/201936386), documents the TT, TE, EE, low-\(\ell\), and likelihood construction used by the local products.
 - Planck Collaboration, [“Planck 2018 Results VI: Cosmological Parameters”](https://doi.org/10.1051/0004-6361/201833910), supplies the baseline parameter constraints and angular acoustic scale.
 - Planck Collaboration, [“Planck 2018 Results VII: Isotropy and Statistics of the CMB”](https://arxiv.org/abs/1906.02552), supplies the large-scale isotropy, covariance, and anomaly tests relevant to a whole-state descent.
-- Planck Collaboration, [“Planck 2018 Results X: Constraints on Inflation”](https://doi.org/10.1051/0004-6361/201833887), supplies the feature and primordial-spectrum constraints relevant to any log-periodic grain residual. Its local owner is [[library/planck-2018-results-x-constraints-on-inflation/entry|archived here]].
-- ACT Collaboration, [“The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and \(\Lambda\)CDM Parameters”](https://arxiv.org/abs/2503.14452), with journal DOI [10.1088/1475-7516/2025/11/062](https://doi.org/10.1088/1475-7516/2025/11/062), supplies the independent high-resolution TT, TE, and EE baseline. Its local owner is [[library/act-dr6-power-spectra-likelihoods-lambda-cdm/entry|archived here]].
+- Planck Collaboration, [“Planck 2018 Results X: Constraints on Inflation”](https://doi.org/10.1051/0004-6361/201833887), supplies the feature and primordial-spectrum constraints relevant to any log-periodic grain residual. Its local owner is [[library/planck-2018-results-x-constraints-on-inflation/inq|archived here]].
+- ACT Collaboration, [“The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and \(\Lambda\)CDM Parameters”](https://arxiv.org/abs/2503.14452), with journal DOI [10.1088/1475-7516/2025/11/062](https://doi.org/10.1088/1475-7516/2025/11/062), supplies the independent high-resolution TT, TE, and EE baseline. Its local owner is [[library/act-dr6-power-spectra-likelihoods-lambda-cdm/inq|archived here]].
 
 The empirical null baseline is the ordinary transfer model: the Planck spectra are broadly consistent with six-parameter flat \(\Lambda\)CDM, Planck reports no compelling primordial feature, and ACT DR6 finds its TT/TE/EE spectra well fit by CMB plus foregrounds with a \(\Lambda\)CDM CMB component. A causal-grain model must therefore improve explanatory compression or predict a tightly constrained shared residual; reproducing the existing fit is a necessary first gate.
 

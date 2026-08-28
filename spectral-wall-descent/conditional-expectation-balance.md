@@ -173,7 +173,7 @@ $$
 
 In a finite atomic commutative context, continuous modular invariance forces the context into the centralizer of \(\varphi\). A generic measurement context therefore does not admit the expectation required by the exact theorem. The continuum wall must either select a modularly admissible context, use an instrument rather than an expectation, or replace the exact equality by a controlled inequality.
 
-Jones index applies to subfactors, while Pimsner--Popa index treats more general expectations. If a normal expectation from a type-III factor onto a commutative algebra exists, it cannot have finite Pimsner--Popa index: finite-index expectations preserve the relevant type decomposition. The final observational step is consequently infinite-index or belongs to a different categorical construction. [[semiorthogonal-decompositions/entry|Semiorthogonal decompositions]] propose an exact categorical selection stage before this analytic gate; their projectors do not carry positivity or states and therefore do not bypass Takesaki's condition.
+Jones index applies to subfactors, while Pimsner--Popa index treats more general expectations. If a normal expectation from a type-III factor onto a commutative algebra exists, it cannot have finite Pimsner--Popa index: finite-index expectations preserve the relevant type decomposition. The final observational step is consequently infinite-index or belongs to a different categorical construction. [[semiorthogonal-decompositions/inq|Semiorthogonal decompositions]] propose an exact categorical selection stage before this analytic gate; their projectors do not carry positivity or states and therefore do not bypass Takesaki's condition.
 
 ## The revised gravitational typing
 

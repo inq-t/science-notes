@@ -1,5 +1,0 @@
-[module]
-name = "radial-acceleration-relation-data"
-entry = "entry.md"
-include = ["**"]
-

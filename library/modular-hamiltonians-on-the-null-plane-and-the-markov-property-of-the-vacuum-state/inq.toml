@@ -1,4 +1,0 @@
-[module]
-name = "modular-hamiltonians-on-the-null-plane-and-the-markov-property-of-the-vacuum-state"
-entry = "entry.md"
-include = ["**"]

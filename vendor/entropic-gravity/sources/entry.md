@@ -6,51 +6,51 @@ This index describes a frozen, locally reviewable corpus for the Jacobson and Ve
 
 ### Jacobson lineage
 
-- [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/entry|Thermodynamics of Spacetime: The Einstein Equation of State]]
-- [[library/non-equilibrium-thermodynamics-of-spacetime/entry|Non-equilibrium Thermodynamics of Spacetime]]
-- [[library/gravitation-and-vacuum-entanglement-entropy/entry|Gravitation and Vacuum Entanglement Entropy]]
-- [[library/entanglement-equilibrium-and-the-einstein-equation/entry|Entanglement Equilibrium and the Einstein Equation — current v4]]
-- [[library/entanglement-equilibrium-and-the-einstein-equation/entry|Entanglement Equilibrium and the Einstein Equation — historical v1]]
-- [[library/equilibrium-to-einstein-entanglement-thermodynamics-and-gravity/entry|Equilibrium to Einstein: Entanglement, Thermodynamics, and Gravity]]
-- [[library/gravitational-thermodynamics-of-causal-diamonds-in-a-ds/entry|Gravitational Thermodynamics of Causal Diamonds in (A)dS]]
+- [[library/thermodynamics-of-spacetime-the-einstein-equation-of-state/inq|Thermodynamics of Spacetime: The Einstein Equation of State]]
+- [[library/non-equilibrium-thermodynamics-of-spacetime/inq|Non-equilibrium Thermodynamics of Spacetime]]
+- [[library/gravitation-and-vacuum-entanglement-entropy/inq|Gravitation and Vacuum Entanglement Entropy]]
+- [[library/entanglement-equilibrium-and-the-einstein-equation/inq|Entanglement Equilibrium and the Einstein Equation — current v4]]
+- [[library/entanglement-equilibrium-and-the-einstein-equation/inq|Entanglement Equilibrium and the Einstein Equation — historical v1]]
+- [[library/equilibrium-to-einstein-entanglement-thermodynamics-and-gravity/inq|Equilibrium to Einstein: Entanglement, Thermodynamics, and Gravity]]
+- [[library/gravitational-thermodynamics-of-causal-diamonds-in-a-ds/inq|Gravitational Thermodynamics of Causal Diamonds in (A)dS]]
 
 ### Verlinde lineage
 
-- [[library/on-the-origin-of-gravity-and-the-laws-of-newton/entry|On the Origin of Gravity and the Laws of Newton]]
-- [[library/emergent-gravity-and-the-dark-universe/entry|Emergent Gravity and the Dark Universe]]
+- [[library/on-the-origin-of-gravity-and-the-laws-of-newton/inq|On the Origin of Gravity and the Laws of Newton]]
+- [[library/emergent-gravity-and-the-dark-universe/inq|Emergent Gravity and the Dark Universe]]
 
 ## Mathematical qualifications and theory development
 
-- [[library/conservative-entropic-forces/entry|Conservative Entropic Forces]]
-- [[library/gravity-is-not-an-entropic-force/entry|Gravity Is Not an Entropic Force]]
-- [[library/entropic-gravity-entropy-postulate-screens-quantum-mechanics/entry|On Entropic Gravity: The Entropy Postulate, Screens, and Quantum Mechanics]]
-- [[library/comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation/entry|Comments on Jacobson’s Entanglement Equilibrium]]
-- [[library/entanglement-entropy-excited-states-einstein-equation/entry|Entanglement Entropy of Excited States and the Einstein Equation]]
-- [[library/entanglement-equilibrium-for-higher-order-gravity/entry|Entanglement Equilibrium for Higher-Order Gravity]]
-- [[library/a-covariant-version-of-verlinde-s-emergent-gravity/entry|A Covariant Version of Verlinde’s Emergent Gravity]]
-- [[library/a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity/entry|A Note on a Covariant Version of Verlinde’s Emergent Gravity]]
-- [[library/field-equations-and-particle-motion-in-covariant-emergent-gravity/entry|Field Equations and Particle Motion in Covariant Emergent Gravity]]
-- [[library/inconsistencies-in-verlinde-s-emergent-gravity/entry|Inconsistencies in Verlinde’s Emergent Gravity]]
-- [[library/comment-on-inconsistencies-in-verlinde-s-emergent-gravity/entry|Comment on “Inconsistencies in Verlinde’s Emergent Gravity”]]
-- [[library/a-critique-of-covariant-emergent-gravity/entry|A Critique of Covariant Emergent Gravity]]
+- [[library/conservative-entropic-forces/inq|Conservative Entropic Forces]]
+- [[library/gravity-is-not-an-entropic-force/inq|Gravity Is Not an Entropic Force]]
+- [[library/entropic-gravity-entropy-postulate-screens-quantum-mechanics/inq|On Entropic Gravity: The Entropy Postulate, Screens, and Quantum Mechanics]]
+- [[library/comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation/inq|Comments on Jacobson’s Entanglement Equilibrium]]
+- [[library/entanglement-entropy-excited-states-einstein-equation/inq|Entanglement Entropy of Excited States and the Einstein Equation]]
+- [[library/entanglement-equilibrium-for-higher-order-gravity/inq|Entanglement Equilibrium for Higher-Order Gravity]]
+- [[library/a-covariant-version-of-verlinde-s-emergent-gravity/inq|A Covariant Version of Verlinde’s Emergent Gravity]]
+- [[library/a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity/inq|A Note on a Covariant Version of Verlinde’s Emergent Gravity]]
+- [[library/field-equations-and-particle-motion-in-covariant-emergent-gravity/inq|Field Equations and Particle Motion in Covariant Emergent Gravity]]
+- [[library/inconsistencies-in-verlinde-s-emergent-gravity/inq|Inconsistencies in Verlinde’s Emergent Gravity]]
+- [[library/comment-on-inconsistencies-in-verlinde-s-emergent-gravity/inq|Comment on “Inconsistencies in Verlinde’s Emergent Gravity”]]
+- [[library/a-critique-of-covariant-emergent-gravity/inq|A Critique of Covariant Emergent Gravity]]
 
 ## Empirical papers
 
-- [[library/sparc-mass-models-for-175-disk-galaxies/entry|SPARC: Mass Models for 175 Disk Galaxies]]
-- [[library/the-radial-acceleration-relation-in-rotationally-supported-galaxies/entry|The Radial Acceleration Relation in Rotationally Supported Galaxies]]
-- [[library/first-weak-lensing-test-of-emergent-gravity/entry|First Weak-Lensing Test of Verlinde’s Emergent Gravity]]
-- [[library/verlinde-s-emergent-gravity-versus-mond-and-the-case-of-dwarf-spheroidals/entry|Verlinde’s Emergent Gravity versus MOND and Dwarf Spheroidals]]
-- [[library/testing-verlinde-s-emergent-gravity-with-the-radial-acceleration-relation/entry|Testing Verlinde’s Emergent Gravity with the Radial Acceleration Relation]]
-- [[library/emergent-gravity-in-galaxies-and-in-the-solar-system/entry|Emergent Gravity in Galaxies and in the Solar System]]
-- [[library/testing-verlinde-s-emergent-gravity-in-early-type-galaxies/entry|Testing Verlinde’s Emergent Gravity in Early-Type Galaxies]]
-- [[library/testing-emergent-gravity-with-isolated-dwarf-galaxies/entry|Testing Emergent Gravity with Isolated Dwarf Galaxies]]
-- [[library/testing-emergent-gravity-with-mass-densities-of-galaxy-clusters/entry|Testing Emergent Gravity with Galaxy-Cluster Mass Densities]]
-- [[library/testing-emergent-gravity-on-galaxy-cluster-scales/entry|Testing Emergent Gravity on Galaxy-Cluster Scales]]
-- [[library/kids-1000-weak-lensing-radial-acceleration-relation/entry|The KiDS-1000 Weak-Lensing Radial Acceleration Relation]]
-- [[library/smacs-j0723-test-of-emergent-gravity/entry|A Test with SMACS J0723.3-7327]]
-- [[library/comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals/entry|Comparison of MOND and Verlinde’s Emergent Gravity in Dwarf Spheroidals]]
+- [[library/sparc-mass-models-for-175-disk-galaxies/inq|SPARC: Mass Models for 175 Disk Galaxies]]
+- [[library/the-radial-acceleration-relation-in-rotationally-supported-galaxies/inq|The Radial Acceleration Relation in Rotationally Supported Galaxies]]
+- [[library/first-weak-lensing-test-of-emergent-gravity/inq|First Weak-Lensing Test of Verlinde’s Emergent Gravity]]
+- [[library/verlinde-s-emergent-gravity-versus-mond-and-the-case-of-dwarf-spheroidals/inq|Verlinde’s Emergent Gravity versus MOND and Dwarf Spheroidals]]
+- [[library/testing-verlinde-s-emergent-gravity-with-the-radial-acceleration-relation/inq|Testing Verlinde’s Emergent Gravity with the Radial Acceleration Relation]]
+- [[library/emergent-gravity-in-galaxies-and-in-the-solar-system/inq|Emergent Gravity in Galaxies and in the Solar System]]
+- [[library/testing-verlinde-s-emergent-gravity-in-early-type-galaxies/inq|Testing Verlinde’s Emergent Gravity in Early-Type Galaxies]]
+- [[library/testing-emergent-gravity-with-isolated-dwarf-galaxies/inq|Testing Emergent Gravity with Isolated Dwarf Galaxies]]
+- [[library/testing-emergent-gravity-with-mass-densities-of-galaxy-clusters/inq|Testing Emergent Gravity with Galaxy-Cluster Mass Densities]]
+- [[library/testing-emergent-gravity-on-galaxy-cluster-scales/inq|Testing Emergent Gravity on Galaxy-Cluster Scales]]
+- [[library/kids-1000-weak-lensing-radial-acceleration-relation/inq|The KiDS-1000 Weak-Lensing Radial Acceleration Relation]]
+- [[library/smacs-j0723-test-of-emergent-gravity/inq|A Test with SMACS J0723.3-7327]]
+- [[library/comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals/inq|Comparison of MOND and Verlinde’s Emergent Gravity in Dwarf Spheroidals]]
 
-The bounded local galaxy products are documented by [[data/sparc-galaxy-sample-and-mass-models/entry|the SPARC dataset module]] and [[data/radial-acceleration-relation-data/entry|the radial-acceleration dataset module]]. Large KiDS, GAMA, X-ray, and cluster survey products were not mirrored: reproducing the published selections would require much larger survey archives and analysis pipelines, not one stable source table.
+The bounded local galaxy products are documented by [[data/sparc-galaxy-sample-and-mass-models/inq|the SPARC dataset module]] and [[data/radial-acceleration-relation-data/inq|the radial-acceleration dataset module]]. Large KiDS, GAMA, X-ray, and cluster survey products were not mirrored: reproducing the published selections would require much larger survey archives and analysis pipelines, not one stable source table.
 
 ## Source payloads and metadata
 

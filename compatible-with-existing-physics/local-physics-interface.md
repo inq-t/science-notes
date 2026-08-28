@@ -36,11 +36,11 @@ It must nevertheless avoid making those inputs mutually inconsistent. A local re
 - positivity or unitarity in the relevant Lorentzian description; and
 - the measured constancy of local masses, charges, and dimensionless couplings unless variation is explicitly predicted and tested.
 
-[[library/axiomatic-quantum-field-theory-in-curved-spacetime/entry|Hollands and Wald]] give one rigorous formulation of local and covariant QFT on curved backgrounds. [[library/notes-on-some-entanglement-properties-of-quantum-field-theory/entry|Witten's algebraic review]] explains why local QFT is naturally expressed through observable algebras rather than local density matrices. These are ingredients for stating the fiber, not evidence that the causal-scale gluing has already been built.
+[[library/axiomatic-quantum-field-theory-in-curved-spacetime/inq|Hollands and Wald]] give one rigorous formulation of local and covariant QFT on curved backgrounds. [[library/notes-on-some-entanglement-properties-of-quantum-field-theory/inq|Witten's algebraic review]] explains why local QFT is naturally expressed through observable algebras rather than local density matrices. These are ingredients for stating the fiber, not evidence that the causal-scale gluing has already been built.
 
 ## GR need not remain exact at every scale
 
-Importing GR locally does not require the classical Einstein equation to be the exact quantum effective equation at every curvature and energy. Renormalized QFT in curved spacetime permits curvature terms, trace anomalies, state-dependent stress contributions, and nonlocal effective response. [[library/quantum-fields-in-curved-spacetime/entry|The curved-spacetime QFT review]] and [[library/the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime/entry|the one-loop Standard Model calculation]] make that qualification concrete.
+Importing GR locally does not require the classical Einstein equation to be the exact quantum effective equation at every curvature and energy. Renormalized QFT in curved spacetime permits curvature terms, trace anomalies, state-dependent stress contributions, and nonlocal effective response. [[library/quantum-fields-in-curved-spacetime/inq|The curved-spacetime QFT review]] and [[library/the-1-loop-effective-potential-for-the-standard-model-in-curved-spacetime/inq|the one-loop Standard Model calculation]] make that qualification concrete.
 
 The appropriate local claim is that the surrounding framework preserves the empirically successful gravitational effective description to the measured accuracy of its regime. If it predicts additional curvature, scale, or wall effects, it must state their domain and confront the corresponding bounds.
 
@@ -66,7 +66,7 @@ $$
 
 for the relevant local contexts, together with coherent overlap maps. The second formulation is often closer to the proposed observer-relative wall architecture and does not presuppose that the entire theory has one ordinary action.
 
-Neither implementation is yet supplied by the mere statement that QFT is a fiber. [[wall-construction-interface/entry|The wall-construction interface]] records the missing region family, state family, and transports; [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] states the separate Lorentzian representation burden.
+Neither implementation is yet supplied by the mere statement that QFT is a fiber. [[wall-construction-interface/inq|The wall-construction interface]] records the missing region family, state family, and transports; [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] states the separate Lorentzian representation burden.
 
 ## Perturbations and measurable interfaces
 
@@ -75,7 +75,7 @@ A global theory need not reproduce the conceptual story by which conventional co
 1. map its whole-state data into the gauge-invariant variables and transfer machinery of established cosmology, or
 2. supply an alternative end-to-end calculation of the same measured observables.
 
-This is **observable representation adequacy**, not necessarily recovery of QFT. A positive spatial kernel alone does not establish causal propagation, stable metric response, or consistency of higher correlations. [[library/analyticity-and-unitarity-for-cosmological-correlators/entry|Analyticity and unitarity constraints on cosmological correlators]] illustrate why the observable hierarchy carries structure beyond positivity of one covariance.
+This is **observable representation adequacy**, not necessarily recovery of QFT. A positive spatial kernel alone does not establish causal propagation, stable metric response, or consistency of higher correlations. [[library/analyticity-and-unitarity-for-cosmological-correlators/inq|Analyticity and unitarity constraints on cosmological correlators]] illustrate why the observable hierarchy carries structure beyond positivity of one covariance.
 
 ## Failure conditions
 

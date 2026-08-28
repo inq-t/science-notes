@@ -1,4 +1,0 @@
-[module]
-name = "existence-of-local-covariant-time-ordered-products"
-entry = "entry.md"
-include = ["**"]

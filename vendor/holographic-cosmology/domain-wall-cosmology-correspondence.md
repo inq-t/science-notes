@@ -6,7 +6,7 @@ The domain-wall/cosmology correspondence pairs homogeneous cosmological solution
 
 Consider gravity coupled to scalar fields. A domain wall has a transverse spatial coordinate, whereas an FLRW cosmology has a time coordinate. After symmetry reduction, both systems can be written in one one-dimensional formalism with a sign parameter distinguishing the two signatures. The reduced equations pair a domain-wall solution with potential \(V\) with a cosmological solution with potential \(-V\); for nonflat slicings the curvature sign is reversed as well.
 
-In the notation of [[library/pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence/entry|Skenderis and Townsend]], the continuation exchanges the transverse coordinate and cosmological time and maps the scalar profile accordingly. This is a correspondence between solutions of related theories. It does not assert that the wall worldvolume literally is the cosmological spatial slice.
+In the notation of [[library/pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence/inq|Skenderis and Townsend]], the continuation exchanges the transverse coordinate and cosmological time and maps the scalar profile accordingly. This is a correspondence between solutions of related theories. It does not assert that the wall worldvolume literally is the cosmological spatial slice.
 
 For a four-dimensional spatially flat single-scalar member, write
 
@@ -41,7 +41,7 @@ $$
 
 where barred quantities belong to the Euclidean domain-wall description. The momentum branch is selected so that positive-frequency Bunch--Davies behavior maps to a solution regular in the domain-wall interior.
 
-This extension to perturbations is **[CONDITIONAL THEOREM]** within the single-clock class analyzed in [[library/holography-for-cosmology/entry|Holography for Cosmology]]. A background correspondence alone would not imply it.
+This extension to perturbations is **[CONDITIONAL THEOREM]** within the single-clock class analyzed in [[library/holography-for-cosmology/inq|Holography for Cosmology]]. A background correspondence alone would not imply it.
 
 ## Response functions
 

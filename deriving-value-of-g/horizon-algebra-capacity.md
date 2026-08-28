@@ -80,7 +80,7 @@ $$
 
 In a homogeneous \(1+1\)-dimensional conformal thermal sector, the dilation Ward identity gives \(C_E/(S/k_B)=1\). [[deriving-value-of-g/noether-capacity-theorem|The Noether--capacity theorem]] makes the hypotheses explicit: the physical tangent must be the unit escort tangent, the entropy must belong to that same regulated state and equal the horizon entropy, and any reduction must preserve its norm. The central charge cancels from the ratio, but it still controls the extensive entropy and capacity. The theorem therefore does not determine how many channels occupy one square metre.
 
-[[binary-information-geometry/entry|Binary information geometry]] can be a sufficient reduced image of this larger sector only if a sufficiency theorem proves preservation of the physical BKM norm. Its balanced two-level profile is neither a Virasoro algebra nor an extensive area normalization. In particular, its centered translation tangent is not the escort tangent of the same state.
+[[binary-information-geometry/inq|Binary information geometry]] can be a sufficient reduced image of this larger sector only if a sufficiency theorem proves preservation of the physical BKM norm. Its balanced two-level profile is neither a Virasoro algebra nor an extensive area normalization. In particular, its centered translation tangent is not the escort tangent of the same state.
 
 ## Why the normal plane is insufficient
 

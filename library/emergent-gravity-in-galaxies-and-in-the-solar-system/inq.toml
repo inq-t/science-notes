@@ -1,4 +1,0 @@
-[module]
-name = "emergent-gravity-in-galaxies-and-in-the-solar-system"
-entry = "entry.md"
-include = ["**"]

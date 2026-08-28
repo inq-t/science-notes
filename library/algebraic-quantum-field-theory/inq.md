@@ -1,0 +1,19 @@
+---
+inq.module: "algebraic-quantum-field-theory"
+inq.include:
+  - "./"
+inq.ambient:
+  - "**"
+---
+# Algebraic Quantum Field Theory
+
+Algebraic quantum field theory provides a general, mathematically precise description of the structure of quantum field theories, and then draws out consequences of this structure by means of various mathematical tools -- the theory of operator algebras, category theory, etc.. Given the rigor and generality of AQFT, it is a particularly apt tool for studying the foundations of QFT. This paper is a survey of AQFT, with an orientation towards foundational topics. In addition to covering the basics of the theory, we discuss issues related to nonlocality, the particle concept, the field concept, and inequivalent representations. We also provide a detailed account of the analysis of superselection rules by S. Doplicher, R. Haag, and J. E. Roberts (DHR); and we give an alternative proof of Doplicher and Roberts' reconstruction of fields and gauge group from the category of physical representations of the observable algebra. The latter is based on unpublished ideas due to Roberts and the abstract duality theorem for symmetric tensor *-categories, a self-contained proof of which is given in the appendix.
+
+## Metadata
+
+- **Authors:** Hans Halvorson and Michael Mueger.
+- **Year:** 2006.
+- **First submitted:** 2006-02-14.
+- **Primary category:** `math-ph`.
+- **arXiv:** [math-ph/0602036v1](https://arxiv.org/abs/math-ph/0602036).
+- **Local artifacts:** `math-ph-0602036-halvorson-mueger-aqft.pdf`.

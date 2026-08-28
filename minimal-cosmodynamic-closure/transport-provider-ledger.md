@@ -40,7 +40,7 @@ $$
 
 Its invariant reference state is horizontally BKM-null. A nonzero response requires a separately declared faithful state path, so half-sided modularity supplies orientation and transport rather than the physical response law.
 
-[[wall-construction-interface/cross-fiber-transport|Cross-fiber transport]] records a second standard theorem: tempered normal unital \(*\)-homomorphisms induce canonical compatible morphisms of Falcone--Takesaki cores, and composite arrows induce composite core maps. [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's theorem]] owns the primary functoriality result. A proposed physical arrow must still be constructed and proved tempered. Half-sided invariance alone does not supply the operator-valued weight required for that conclusion, so the half-sided and Elliott routes cannot be chained without another theorem.
+[[wall-construction-interface/cross-fiber-transport|Cross-fiber transport]] records a second standard theorem: tempered normal unital \(*\)-homomorphisms induce canonical compatible morphisms of Falcone--Takesaki cores, and composite arrows induce composite core maps. [[library/functoriality-of-connes-takesaki-flow-of-weights/inq|Elliott's theorem]] owns the primary functoriality result. A proposed physical arrow must still be constructed and proved tempered. Half-sided invariance alone does not supply the operator-valued weight required for that conclusion, so the half-sided and Elliott routes cannot be chained without another theorem.
 
 ## The typed contextual provider
 
@@ -76,7 +76,7 @@ They are continuum test objects, not Lorentzian cosmological realizations.
 
 The raw `inbox/the-box-spectrum-functor` note constructs a canonical horizontal spectral map from Schwarzschild--de Sitter root data into the \(F_4\)-quotient of \(\mathfrak h_3(\mathbb O)\). Its quotient and fiber calculations are relevant to the \(A_2\) carrier, but the note explicitly does not act on weights, modular flow, or the half-sided-modular family. It cannot serve as the core-to-causal realization.
 
-Likewise, [[flux-record-and-top-form-realizations/entry|Baum--Connes and Connes--Thom naturality]] can transport or compare an already constructed equivariant class. Assembly does not create the wall class, select the event, construct a causal net, or normalize area.
+Likewise, [[flux-record-and-top-form-realizations/inq|Baum--Connes and Connes--Thom naturality]] can transport or compare an already constructed equivariant class. Assembly does not create the wall class, select the event, construct a causal net, or normalize area.
 
 ## The remaining naturality theorem
 

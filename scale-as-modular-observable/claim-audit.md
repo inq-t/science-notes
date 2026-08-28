@@ -230,7 +230,7 @@ Two bibliography entries need rechecking before scholarly reuse: the description
 
 ## Repaired closure
 
-The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0|Causal Scale Dynamics v7.0]]:
+The clean repair is the one adopted by [[causal-scale-theory/sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0.md|Causal Scale Dynamics v7.0]]:
 
 - keep the binary and cocycle calculations with explicit hypotheses;
 - state $\varrho_\perp=1$ as the fundamental-character choice;

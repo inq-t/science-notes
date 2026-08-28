@@ -39,10 +39,10 @@ These SHA-256 digests freeze the non-Markdown artifacts retrieved for this corpu
 | library/comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals/2601.01715-source.tar.gz | 5f677c0f22550f239a3101da7a6e1851d151dc3451d4b0454d14b5149d7c1f98 |
 | library/non-equilibrium-thermodynamics-of-spacetime/gr-qc-0602001-source.tar.gz | e5e9527acce788792f9998bebb04cc8b6c1c76f2bab0fd3279471ffa8d6f1d64 |
 | library/thermodynamics-of-spacetime-the-einstein-equation-of-state/gr-qc-9504004-source.tar.gz | 040e8dd50e7add920f6e1b2b98a4e5f67dac6856f0e2175382daccfd0729ce2d |
-| data/MassModels_Lelli2016c.mrt | 9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c |
-| data/RAR.mrt | 24aa7059dab7fa44787f7c11191052489899819370f6508621674769f3b72833 |
-| data/RARbins.mrt | d543cab7b720a4f14152ccc8158f7823072ce65a9c5b403d7c401b3f039a79d7 |
-| data/SPARC_Lelli2016c.mrt | 5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243 |
+| [[data/sparc-galaxy-sample-and-mass-models/MassModels_Lelli2016c.mrt|MassModels_Lelli2016c.mrt]] | 9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c |
+| [[data/radial-acceleration-relation-data/RAR.mrt|RAR.mrt]] | 24aa7059dab7fa44787f7c11191052489899819370f6508621674769f3b72833 |
+| [[data/radial-acceleration-relation-data/RARbins.mrt|RARbins.mrt]] | d543cab7b720a4f14152ccc8158f7823072ce65a9c5b403d7c401b3f039a79d7 |
+| [[data/sparc-galaxy-sample-and-mass-models/SPARC_Lelli2016c.mrt|SPARC_Lelli2016c.mrt]] | 5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243 |
 | library/on-the-origin-of-gravity-and-the-laws-of-newton/1001.0785-verlinde-origin-gravity-laws-newton.pdf | 427de7805bac04b97c39a1cbf62766f3739822965ca69e14ace6816b84efcf6c |
 | library/gravity-is-not-an-entropic-force/1009.5414-kobakhidze-gravity-not-entropic-force.pdf | 461fe07ae5a95363034a4ed4167648d9deef87a1ec69705513ce4a74a601af79 |
 | library/conservative-entropic-forces/1108.5240-visser-conservative-entropic-forces.pdf | 95cd7faf075b7905b96e52beb66065699311f58bb460ee4389004d8aebf4f9aa |

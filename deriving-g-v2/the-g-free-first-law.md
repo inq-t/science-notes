@@ -46,7 +46,7 @@ the price of measuring $\iota$ with rulers instead of counting it. Three of the 
 
 ## The wall-inclusion target
 
-In the finite-index realization of [[spectral-wall-descent/entry|spectral wall descent]], the ledger has an algebraic candidate: the central edge-entropy assignment, with
+In the finite-index realization of [[spectral-wall-descent/inq|spectral wall descent]], the ledger has an algebraic candidate: the central edge-entropy assignment, with
 
 $$
 \iota(\text{cell})=\tfrac12\log\operatorname{Ind}_W(E)

@@ -1,4 +1,0 @@
-[module]
-name = "comparison-of-mond-and-verlinde-s-emergent-gravity-in-dwarf-spheroidals"
-entry = "entry.md"
-include = ["**"]

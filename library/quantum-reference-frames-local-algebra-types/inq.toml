@@ -1,4 +1,0 @@
-[module]
-name = "quantum-reference-frames-local-algebra-types"
-entry = "entry.md"
-include = ["**"]

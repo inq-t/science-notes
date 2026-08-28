@@ -28,7 +28,7 @@ $$
 E_{a,b}\cong\mathbb C^3
 $$
 
-as a finite-dimensional commutative $*$-algebra. This is the positive version of the three-sheet sector used in [[a2-ternary-response/entry|the ternary-response test]]. In the one-real-root chamber the declared real $*$-structure has enveloping $C^*$-algebra $\mathbb C$; retaining the conjugate nonreal sheets as positive characters would require a different real-form problem.
+as a finite-dimensional commutative $*$-algebra. This is the positive version of the three-sheet sector used in [[a2-ternary-response/inq|the ternary-response test]]. In the one-real-root chamber the declared real $*$-structure has enveloping $C^*$-algebra $\mathbb C$; retaining the conjugate nonreal sheets as positive characters would require a different real-form problem.
 
 At a smooth real point of the discriminant, write
 
@@ -181,7 +181,7 @@ $$
 
 Thus $N\to+\infty$ literally means infinite logarithmic depth toward the triple-root cusp. It does not mean infinite proper time, distance, energy, or entropy. Those identifications require separate realization maps.
 
-For every finite $N$ on this ray the enveloping $C^*$-algebra has type $\mathbb C^3$; the cusp fiber at the ideal boundary has type $\mathbb C$. This is a jump in fiberwise completion type, not a continuous deletion map between the fibers. The nonreduced cusp still remembers infinitesimal thickness while its $*$-representations by bounded operators distinguish only the scalar unit. In the language of [[inbox/radical-copernicanism/commentary-part-2/varieties-of-nothing|the null-structure audit]], the cusp is not the zero algebra. It is **nothing in particular** under this functor.
+For every finite $N$ on this ray the enveloping $C^*$-algebra has type $\mathbb C^3$; the cusp fiber at the ideal boundary has type $\mathbb C$. This is a jump in fiberwise completion type, not a continuous deletion map between the fibers. The nonreduced cusp still remembers infinitesimal thickness while its $*$-representations by bounded operators distinguish only the scalar unit. In the language of [[algebra/inbox/radical-copernicanism/commentary-part-2/varieties-of-nothing|the null-structure audit]], the cusp is not the zero algebra. It is **nothing in particular** under this functor.
 
 ## Programme consequence
 

@@ -1,4 +1,0 @@
-[module]
-name = "noether-conservation"
-entry = "entry.md"
-include = ["**/*.md"]

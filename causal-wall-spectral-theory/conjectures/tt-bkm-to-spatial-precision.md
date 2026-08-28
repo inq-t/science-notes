@@ -4,7 +4,7 @@ Any CWST member that predicts primordial tensors must construct an independent t
 
 ## Statement
 
-Let a realization of [[wall-construction-interface/entry|the wall interface]] supply physical transverse-traceless source directions and a regular center-resolved response package
+Let a realization of [[wall-construction-interface/inq|the wall interface]] supply physical transverse-traceless source directions and a regular center-resolved response package
 
 $$
 \mathfrak G^Z_{\mathrm{TT}}

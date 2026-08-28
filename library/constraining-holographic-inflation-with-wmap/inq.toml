@@ -1,4 +1,0 @@
-[module]
-name = "constraining-holographic-inflation-with-wmap"
-entry = "entry.md"
-include = ["**"]

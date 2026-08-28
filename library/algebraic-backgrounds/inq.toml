@@ -1,4 +1,0 @@
-[module]
-name = "algebraic-backgrounds"
-entry = "entry.md"
-include = ["**"]

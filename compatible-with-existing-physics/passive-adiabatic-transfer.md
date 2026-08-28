@@ -51,7 +51,7 @@ $$
 +\mathcal O\!\left(\frac{k^2}{a^2H^2}\right).
 $$
 
-Hence \(\delta p_{\mathrm{nad}}=0\) gives a conserved physical curvature mode outside the horizon. This is **[STANDARD — UNDER THE DECLARED HYPOTHESES]**, as developed by [[library/a-new-approach-to-the-evolution-of-cosmological-perturbations-on-large-scales/entry|Wands, Malik, Lyth, and Liddle]]. [[library/adiabatic-modes-in-cosmology/entry|Weinberg's adiabatic-mode theorem]] separately requires the long-wavelength solution and gauge transformation to be regular; it does not say that every formal zero-momentum gauge mode is the physical growing mode.
+Hence \(\delta p_{\mathrm{nad}}=0\) gives a conserved physical curvature mode outside the horizon. This is **[STANDARD — UNDER THE DECLARED HYPOTHESES]**, as developed by [[library/a-new-approach-to-the-evolution-of-cosmological-perturbations-on-large-scales/inq|Wands, Malik, Lyth, and Liddle]]. [[library/adiabatic-modes-in-cosmology/inq|Weinberg's adiabatic-mode theorem]] separately requires the long-wavelength solution and gauge transformation to be regular; it does not say that every formal zero-momentum gauge mode is the physical growing mode.
 
 ## Passive and coherent initial data
 

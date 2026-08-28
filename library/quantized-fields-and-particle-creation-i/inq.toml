@@ -1,4 +1,0 @@
-[module]
-name = "quantized-fields-and-particle-creation-i"
-entry = "entry.md"
-include = ["**"]

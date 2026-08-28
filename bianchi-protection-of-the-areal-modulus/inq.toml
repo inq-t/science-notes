@@ -1,4 +1,0 @@
-[module]
-name = "bianchi-protection-of-the-areal-modulus"
-entry = "entry.md"
-include = ["**/*.md"]

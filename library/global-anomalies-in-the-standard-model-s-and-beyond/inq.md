@@ -1,0 +1,21 @@
+---
+inq.module: "global-anomalies-in-the-standard-model-s-and-beyond"
+inq.include:
+  - "./"
+inq.ambient:
+  - "**"
+---
+# Global anomalies in the Standard Model(s) and Beyond
+
+We analyse global anomalies and related constraints in the Standard Model (SM) and various Beyond the Standard Model (BSM) theories. We begin by considering four distinct, but equally valid, versions of the SM, in which the gauge group is taken to be $G=G_{\text{SM}}/Γ_n$, with $G_{\text{SM}}=SU(3)\times SU(2) \times U(1)$ and $Γ_n$ isomorphic to $\mathbb{Z}/n$ where $n\in\left\{1,2,3,6\right\}$. In addition to deriving constraints on the hypercharges of fields transforming in arbitrary representations of the $SU(3)\times SU(2)$ factor, we study the possibility of global anomalies in theories with these gauge groups by computing the bordism groups $Ω^{\text{Spin}}_5(BG)$ using the Atiyah-Hirzebruch spectral sequence. In two cases we show that there are no global anomalies beyond the Witten anomaly, while in the other cases we show that there are no global anomalies at all, illustrating the subtle interplay between local and global anomalies. While freedom from global anomalies has been previously shown for the specific fermion content of the SM by embedding the SM in an anomaly-free $SU(5)$ GUT, our results here remain true when the SM fermion content is extended arbitrarily. Going beyond the SM gauge groups, we show that there are no new global anomalies in extensions of the (usual) SM gauge group by $U(1)^m$ for any integer $m$, which correspond to phenomenologically well-motivated BSM theories featuring multiple $Z^\prime$ bosons. Nor do we find any new global anomalies in various grand unified theories, including Pati-Salam and trinification models. We also consider global anomalies in a family of theories with gauge group $SU(N)\times Sp(M)\times U(1)$, which share the phase structure of the SM for certain $(N, M)$.
+
+## Metadata
+
+- **Authors:** Joe Davighi, Ben Gripaios, and Nakarin Lohitsiri.
+- **Year:** 2019.
+- **First submitted:** 2019-10-24.
+- **Last revised:** 2020-05-26.
+- **Primary category:** `hep-th`.
+- **arXiv:** [1910.11277v3](https://arxiv.org/abs/1910.11277).
+- **DOI:** [10.1007/JHEP07(2020)232](https://doi.org/10.1007/JHEP07(2020)232).
+- **Local artifacts:** `1910.11277-davighi-gripaios-lohitsiri-global-anomalies.pdf`.

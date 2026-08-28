@@ -1,4 +1,0 @@
-[module]
-name = "from-ncg-to-random-matrix-theory"
-entry = "entry.md"
-include = ["**"]

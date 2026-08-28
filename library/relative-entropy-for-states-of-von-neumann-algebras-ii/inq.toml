@@ -1,4 +1,0 @@
-[module]
-name = "relative-entropy-for-states-of-von-neumann-algebras-ii"
-entry = "entry.md"
-include = ["**"]

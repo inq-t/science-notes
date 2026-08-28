@@ -101,4 +101,4 @@ It does not establish that:
 - the three-dimensional QFT is the ontology of the cosmological state; or
 - a causal-wall BKM Hessian equals the holographic stress response.
 
-The original recovery of standard inflationary results is given in [[library/holography-for-cosmology/entry|Holography for Cosmology]]. The controlled deformed-CFT reproduction of the scalar slow-roll spectrum to second order in its stated regime is given in [[library/on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft/entry|McFadden's deformed-CFT analysis]].
+The original recovery of standard inflationary results is given in [[library/holography-for-cosmology/inq|Holography for Cosmology]]. The controlled deformed-CFT reproduction of the scalar slow-roll spectrum to second order in its stated regime is given in [[library/on-the-power-spectrum-of-inflationary-cosmologies-dual-to-a-deformed-cft/inq|McFadden's deformed-CFT analysis]].

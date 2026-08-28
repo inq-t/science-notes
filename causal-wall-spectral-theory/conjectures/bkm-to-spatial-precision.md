@@ -4,7 +4,7 @@ CWST conjectures that the mean-zero observational BKM block of a physically cons
 
 ## Statement
 
-Let a realization of [[wall-construction-interface/entry|the wall interface]] supply one common carrier, cross-fiber transport, state family, physical tangent quotient, renormalization prescription, and the retained W1 package
+Let a realization of [[wall-construction-interface/inq|the wall interface]] supply one common carrier, cross-fiber transport, state family, physical tangent quotient, renormalization prescription, and the retained W1 package
 
 $$
 \mathfrak G^Z_{\zeta\zeta}

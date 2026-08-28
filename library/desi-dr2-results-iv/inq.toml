@@ -1,4 +1,0 @@
-[module]
-name = "desi-dr2-results-iv"
-entry = "entry.md"
-include = ["**"]

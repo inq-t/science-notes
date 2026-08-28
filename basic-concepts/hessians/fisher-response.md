@@ -91,7 +91,7 @@ I_\theta
 =\frac{2(\cosh\theta+2)}{(1+2\cosh\theta)^2},
 $$
 
-which is the response in [[a2-ternary-response/entry|the $A_2$ ternary test]].
+which is the response in [[a2-ternary-response/inq|the $A_2$ ternary test]].
 
 ## Why Fisher equals BKM here
 
@@ -116,7 +116,7 @@ g^{\mathrm{BKM}}_{\theta\theta}
 =\operatorname{Var}_{\rho_\theta}(Q).
 $$
 
-The equality is not a declaration that every quantum Fisher metric is BKM. Noncommuting quantum state space admits a family of monotone metrics; additional hypotheses select BKM. [[basic-concepts/hessians/entry|The Hessian account]] owns that wider distinction.
+The equality is not a declaration that every quantum Fisher metric is BKM. Noncommuting quantum state space admits a family of monotone metrics; additional hypotheses select BKM. [[basic-concepts/hessians/inq|The Hessian account]] owns that wider distinction.
 
 ## Nearby response registers
 
@@ -126,4 +126,4 @@ Fisher information is also not a quantity of hidden facts stored in a state. It 
 
 ## Primary literature
 
-Fisher introduced the statistical information associated with estimation in [[library/mathematical-foundations-of-theoretical-statistics/entry|*On the Mathematical Foundations of Theoretical Statistics*]]. Kullback and Leibler introduced the divergence used in the coincidence expansion in [[library/information-and-sufficiency/entry|*On Information and Sufficiency*]]. Kubo's [[library/statistical-mechanical-theory-of-irreversible-processes-i/entry|statistical-mechanical response paper]] is part of the quantum-response lineage, but its causal dynamical response must not be inferred from the static Fisher calculation. Petz's [[library/monotone-metrics-on-matrix-spaces/entry|classification of monotone matrix metrics]] and [[library/uniqueness-of-chentsov-metric-quantum-information-geometry/entry|Grasselli--Streater's finite-dimensional uniqueness theorem]] delimit the stronger hypotheses under which BKM is selected in noncommutative information geometry.
+Fisher introduced the statistical information associated with estimation in [[library/mathematical-foundations-of-theoretical-statistics/inq|*On the Mathematical Foundations of Theoretical Statistics*]]. Kullback and Leibler introduced the divergence used in the coincidence expansion in [[library/information-and-sufficiency/inq|*On Information and Sufficiency*]]. Kubo's [[library/statistical-mechanical-theory-of-irreversible-processes-i/inq|statistical-mechanical response paper]] is part of the quantum-response lineage, but its causal dynamical response must not be inferred from the static Fisher calculation. Petz's [[library/monotone-metrics-on-matrix-spaces/inq|classification of monotone matrix metrics]] and [[library/uniqueness-of-chentsov-metric-quantum-information-geometry/inq|Grasselli--Streater's finite-dimensional uniqueness theorem]] delimit the stronger hypotheses under which BKM is selected in noncommutative information geometry.

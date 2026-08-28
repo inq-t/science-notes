@@ -30,7 +30,7 @@ It possesses one localized zero mode of only one \(\Gamma_\theta\)-chirality. Th
 
 This is not merely a similarity of notation. The project really has an index-one kink operator.
 
-But there is a decisive qualification: presently \(\theta\) is a horizontal state/scale coordinate, and \(D_\theta\) is an internal response operator—not a fermionic spacetime Dirac operator. The project itself emphasizes this limitation in [Master v7.0 (line 1339)](/C:/Users/sketc/.codex/.chatgpt-projects/g-p-6a690a099cec8191918cd84000de98bd/tmp/pdfs/text/Causal_Scale_Dynamics_Master_v7_0.txt:1339).
+But there is a decisive qualification: presently \(\theta\) is a horizontal state/scale coordinate, and \(D_\theta\) is an internal response operator—not a fermionic spacetime Dirac operator. The project itself emphasizes this limitation.
 
 The research question is therefore precise:
 

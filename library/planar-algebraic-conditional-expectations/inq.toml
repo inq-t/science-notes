@@ -1,4 +1,0 @@
-[module]
-name = "planar-algebraic-conditional-expectations"
-entry = "entry.md"
-include = ["**"]

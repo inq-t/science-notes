@@ -1,4 +1,0 @@
-[module]
-name = "gravitational-thermodynamics-of-causal-diamonds-in-a-ds"
-entry = "entry.md"
-include = ["**"]

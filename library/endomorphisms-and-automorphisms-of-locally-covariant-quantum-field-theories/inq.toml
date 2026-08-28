@@ -1,4 +1,0 @@
-[module]
-name = "endomorphisms-and-automorphisms-of-locally-covariant-quantum-field-theories"
-entry = "entry.md"
-include = ["**"]

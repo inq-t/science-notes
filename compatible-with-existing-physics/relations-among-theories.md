@@ -82,7 +82,7 @@ $$
 
 must carry the relevant states, observables, equations, and dynamics to their old-theory counterparts with controlled errors. Recovery adds physical interpretation and empirical completeness in the validated old domain.
 
-General Relativity has a genuine Newtonian limit: suitable families of relativistic solutions converge, under weak-field and slow-motion conditions, to Newtonian gravitational dynamics. [[library/ehlers-newtonian-limit/entry|The Ehlers frame-theory literature]] makes this a precise relation. Thus “Newton inside GR” is technically stronger than “GR built on Newton.”
+General Relativity has a genuine Newtonian limit: suitable families of relativistic solutions converge, under weak-field and slow-motion conditions, to Newtonian gravitational dynamics. [[library/ehlers-newtonian-limit/inq|The Ehlers frame-theory literature]] makes this a precise relation. Thus “Newton inside GR” is technically stronger than “GR built on Newton.”
 
 The closer analogy for Causal Scale Dynamics may be GR's relation to matter theories. GR does not derive the electromagnetic field, the Standard Model gauge group, or the particle spectrum. It supplies a metric--causal arena and a universal gravitational compatibility law in which those matter theories can be formulated. Causal Scale Dynamics proposes a still broader constitutive arena for metric, state, scale, entropy, and history.
 

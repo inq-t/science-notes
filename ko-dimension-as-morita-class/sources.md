@@ -1,6 +1,6 @@
 # Sources
 
-Primary material for this module is held in [[library/the-tenfold-way/entry|the tenfold way]], [[library/ncg-standard-model-neutrino-mixing/entry|NCG and the standard model with neutrino mixing]], [[library/why-the-standard-model/entry|why the standard model]], and [[library/quanta-of-geometry/entry|quanta of geometry]]; the LaTeX sources are kept there and not duplicated.
+Primary material for this module is held in [[library/the-tenfold-way/inq|the tenfold way]], [[library/ncg-standard-model-neutrino-mixing/inq|NCG and the standard model with neutrino mixing]], [[library/why-the-standard-model/inq|why the standard model]], and [[library/quanta-of-geometry/inq|quanta of geometry]]; the LaTeX sources are kept there and not duplicated.
 
 ## The classification
 

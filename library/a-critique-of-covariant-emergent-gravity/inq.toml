@@ -1,4 +1,0 @@
-[module]
-name = "a-critique-of-covariant-emergent-gravity"
-entry = "entry.md"
-include = ["**"]

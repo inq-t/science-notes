@@ -1,4 +1,0 @@
-[module]
-name = "a-new-approach-to-the-evolution-of-cosmological-perturbations-on-large-scales"
-entry = "entry.md"
-include = ["**"]

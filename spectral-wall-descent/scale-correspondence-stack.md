@@ -19,7 +19,7 @@ $$
 
 where \(\mathbf{W^*Corr}\) is the bicategory whose objects are von Neumann algebras, whose one-morphisms are correspondences, and whose composition is Connes fusion.
 
-The symbol \(\mathfrak W\) is reserved for the full canonical package in [[wall-construction-interface/entry|the wall-construction interface]]. A completed wall package has a correspondence projection
+The symbol \(\mathfrak W\) is reserved for the full canonical package in [[wall-construction-interface/inq|the wall-construction interface]]. A completed wall package has a correspondence projection
 
 $$
 U_{\mathrm{corr}}(\mathfrak W)
@@ -205,7 +205,7 @@ The correspondence provider is complete only if it supplies:
 5. Q-system, inclusion-plus-expectation, or declared channel data for every noninvertible wall map; and
 6. the compatible central edge state and composition law whenever an edge-entropy claim is made.
 
-For the important special case in which each scale arrow is a tempered normal unital $*$-homomorphism, [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's theorem]] already makes the Falcone--Takesaki core functorial along chains. The open work is to prove that the physical arrows are tempered and to establish effective descent on genuine covers; core functoriality itself should not be advertised as the missing theorem. Arbitrary correspondences and center-valued flows require additional hypotheses.
+For the important special case in which each scale arrow is a tempered normal unital $*$-homomorphism, [[library/functoriality-of-connes-takesaki-flow-of-weights/inq|Elliott's theorem]] already makes the Falcone--Takesaki core functorial along chains. The open work is to prove that the physical arrows are tempered and to establish effective descent on genuine covers; core functoriality itself should not be advertised as the missing theorem. Arbitrary correspondences and center-valued flows require additional hypotheses.
 
 ## Downstream continuation is not provider completion
 
@@ -219,4 +219,4 @@ Even a completed correspondence provider does not by itself supply:
 
 At present provider descent on a physical context site is an **[OPEN CONSTRUCTION]**. The finite models in [[spectral-wall-descent/twist-fixed-point-wall|the twisted fixed-point wall]] and [[spectral-wall-descent/finite-index-area-weld|the finite-index area weld]] supply local pieces; [[wall-construction-interface/finite-cellular-markov-wall|the finite cellular Markov wall]] adds an exact nonzero response benchmark. None supplies a dynamical FLRW instance or makes these downstream continuation gates consequences of correspondence coherence.
 
-Primary sources: [[library/planar-algebraic-conditional-expectations/entry|finite-index expectations as Q-systems]], [[library/minimal-index-and-matrix-dimension-finite-centers/entry|minimal index and matrix dimension with finite centers]], and [[library/holographic-map-as-conditional-expectation/entry|conditional expectations selecting holographic edge states]].
+Primary sources: [[library/planar-algebraic-conditional-expectations/inq|finite-index expectations as Q-systems]], [[library/minimal-index-and-matrix-dimension-finite-centers/inq|minimal index and matrix dimension with finite centers]], and [[library/holographic-map-as-conditional-expectation/inq|conditional expectations selecting holographic edge states]].

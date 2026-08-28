@@ -20,7 +20,7 @@ $$
 \frac{\mathrm dN}{\mathrm d\tau}=H
 $$
 
-is dynamical calibration. [[cosmodynamics/scale-age|Scale-age]], [[misner-log-time/entry|Misner logarithmic time]], and [[hyperbolic-counting/two-nats-per-e-fold|resolution depth]] must not be merged merely because all use logarithms.
+is dynamical calibration. [[cosmodynamics/scale-age|Scale-age]], [[misner-log-time/inq|Misner logarithmic time]], and [[hyperbolic-counting/two-nats-per-e-fold|resolution depth]] must not be merged merely because all use logarithms.
 
 ## Rank-one proposition
 

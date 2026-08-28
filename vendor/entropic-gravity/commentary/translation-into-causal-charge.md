@@ -2,7 +2,7 @@
 
 Entropic gravity rhymes with the causal-charge programme wherever state distinguishability, horizon area, matter flux, and geometric response meet. The rhyme is strongest in Jacobson’s universal area coefficient and Verlinde’s elastic interpretation of a displaced capacity; it becomes misleading whenever entropy, information, susceptibility, charge, and geometry are treated as one untyped substance.
 
-This note translates the vendored constructions into project language without claiming that they instantiate [[conservation-of-causal-charge/entry|conservation of causal charge]].
+This note translates the vendored constructions into project language without claiming that they instantiate [[conservation-of-causal-charge/inq|conservation of causal charge]].
 
 ## Jacobson as a local-interface precedent
 

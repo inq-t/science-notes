@@ -39,7 +39,7 @@ A proposed identification $f:s\mapsto N$ or $f:t_{\mathrm{mod}}\mapsto\tau$ must
 6. the geometric or operational clock recovered; and
 7. the failure condition.
 
-The same applies to the proposed relation among produced past, increasing horizon capacity, expansion, and entropy. Those may ultimately be faces of one structure, but at present the vertical modular flow, horizontal scale transport, and factive record order remain separately typed by [[wall-construction-interface/vertical-and-horizontal-motion|Vertical and Horizontal Motion]], [[misner-log-time/entry|Misner Log-Time]], [[conformal-time/entry|Conformal Time]], and [[program-core/record-scale-soldering|Record--Scale Soldering]].
+The same applies to the proposed relation among produced past, increasing horizon capacity, expansion, and entropy. Those may ultimately be faces of one structure, but at present the vertical modular flow, horizontal scale transport, and factive record order remain separately typed by [[wall-construction-interface/vertical-and-horizontal-motion|Vertical and Horizontal Motion]], [[misner-log-time/inq|Misner Log-Time]], [[conformal-time/inq|Conformal Time]], and [[program-core/record-scale-soldering|Record--Scale Soldering]].
 
 ## Energy at the cosmic register
 

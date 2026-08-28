@@ -10,7 +10,7 @@ $$
 \mathcal C:=M\rtimes_{\sigma^\varphi}\mathbb R
 $$
 
-with a faithful normal semifinite trace $\tau$ and a dual action. [[library/noncommutative-flow-of-weights/entry|Falcone and Takesaki]] own the weight-independent core and trace-scaling theorem. [[library/de-sitter-observables-algebra/entry|Chandrasekaran, Longo, Penington, and Witten]] give the crossed-product trace formula and the finite spectral-corner construction used below.
+with a faithful normal semifinite trace $\tau$ and a dual action. [[library/noncommutative-flow-of-weights/inq|Falcone and Takesaki]] own the weight-independent core and trace-scaling theorem. [[library/de-sitter-observables-algebra/inq|Chandrasekaran, Longo, Penington, and Witten]] give the crossed-product trace formula and the finite spectral-corner construction used below.
 
 If $\theta_s$ denotes the standard dual action with $\tau\circ\theta_s=e^{-s}\tau$, define the sign-oriented flow $\beta_s:=\theta_{-s}$. Then
 

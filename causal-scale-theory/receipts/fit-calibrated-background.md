@@ -76,7 +76,7 @@ The supernova-only fits therefore have three parameters \((\Omega_m,H_0,M)\); th
 
 ## Official flat-\(\Lambda\)CDM validation
 
-[[library/pantheon-plus-analysis-cosmological-constraints/entry|Brout et al.]] report the marginalized Pantheon+SH0ES flat-\(\Lambda\)CDM constraints
+[[library/pantheon-plus-analysis-cosmological-constraints/inq|Brout et al.]] report the marginalized Pantheon+SH0ES flat-\(\Lambda\)CDM constraints
 
 $$
 \Omega_m=0.334\pm0.018,
@@ -150,7 +150,7 @@ The machine ledger also records the whitened mean, standard deviation, absolute 
 
 The local calibration exposes information that the shape-only receipt deliberately profiles away.
 
-[[library/planck-2018-cosmological-parameters/entry|Planck 2018]], Table 1, gives the marginalized summary \(r_d=147.09\pm0.26\ \mathrm{Mpc}\) for its default Plik TT,TE,EE+lowE+lensing base-\(\Lambda\)CDM analysis. This receipt does not recompute that statistic from the local chains. Relative to that explicitly model-conditioned reference, the released joint fit gives
+[[library/planck-2018-cosmological-parameters/inq|Planck 2018]], Table 1, gives the marginalized summary \(r_d=147.09\pm0.26\ \mathrm{Mpc}\) for its default Plik TT,TE,EE+lowE+lensing base-\(\Lambda\)CDM analysis. This receipt does not recompute that statistic from the local chains. Relative to that explicitly model-conditioned reference, the released joint fit gives
 
 | Model | fitted \(r_d\) | difference from \(147.09\ \mathrm{Mpc}\) | conditional combined discrepancy |
 |---|---:|---:|---:|
@@ -159,7 +159,7 @@ The local calibration exposes information that the shape-only receipt deliberate
 
 The combined values assume independent Gaussian errors. They restate the inverse-distance-ladder form of the Hubble tension; they are not a model-neutral exclusion of either late-time curve. In particular, this receipt does not calculate recombination or construct an endogenous sound horizon. A CST account that keeps the local Cepheid calibration must supply early-ruler physics capable of producing roughly \(136\ \mathrm{Mpc}\), rather than silently importing the base-\(\Lambda\)CDM value.
 
-[[library/globular-cluster-age/entry|Valcin et al.]] infer \(t_U=13.5\pm0.27\ \mathrm{Gyr}\) from globular-cluster chronometry using the smaller of their two quoted total-error choices. This inference is comparatively insensitive to late-time cosmological parameters, but it still depends on stellar evolution, distances, abundances, and a cluster-formation delay; it is not assumption-free.
+[[library/globular-cluster-age/inq|Valcin et al.]] infer \(t_U=13.5\pm0.27\ \mathrm{Gyr}\) from globular-cluster chronometry using the smaller of their two quoted total-error choices. This inference is comparatively insensitive to late-time cosmological parameters, but it still depends on stellar evolution, distances, abundances, and a cluster-formation delay; it is not assumption-free.
 
 To calculate a cosmic age, the receipt extends each fitted homogeneous \(E(z)\) from the observed \(z\leq2.33\) domain to \(y=\ln(1+z)=35\), keeping \(\Omega_r=9.15\times10^{-5}\) fixed. For CST-B2 this is an explicit high-redshift extrapolation of the late-time ansatz, not an early-universe construction. Combining the resulting local-Hessian age error in quadrature with the quoted stellar-age error gives
 
@@ -196,7 +196,8 @@ Run
 
 ```powershell
 python causal-scale-theory/receipts/fit-calibrated-background.py `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --pantheon-data-dir data/pantheon-plus-shoes-distance-likelihood/local `
   --output causal-scale-theory/receipts/calibrated-background-fit.json
 ```
 
@@ -213,4 +214,4 @@ The archived public products and SHA-256 values are:
 | `desi_dr2_bao_mean.txt` | `9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585` |
 | `desi_dr2_bao_cov.txt` | `252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509` |
 
-[[data/pantheon-plus-shoes-distance-likelihood/entry|The Pantheon+SH0ES module]] and [[data/desi-dr2-bao-gaussian-likelihood/entry|the DESI DR2 module]] own the dataset identities, upstream URLs, and archive provenance. The receipt verifies every archived numeric-product hash before fitting; the official-code hash above is a pinned provenance record because that implementation is not duplicated locally. The executable exits nonzero if a numeric source, row-count, covariance, likelihood-parity, Hessian, search, nuisance-score, or whitening check fails.
+[[data/pantheon-plus-shoes-distance-likelihood/inq|The Pantheon+SH0ES module]] and [[data/desi-dr2-bao-gaussian-likelihood/inq|the DESI DR2 module]] own the dataset identities, upstream URLs, and archive provenance. The receipt verifies every archived numeric-product hash before fitting; the official-code hash above is a pinned provenance record because that implementation is not duplicated locally. The executable exits nonzero if a numeric source, row-count, covariance, likelihood-parity, Hessian, search, nuisance-score, or whitening check fails.

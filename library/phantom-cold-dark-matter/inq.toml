@@ -1,4 +1,0 @@
-[module]
-name = "phantom-cold-dark-matter"
-entry = "entry.md"
-include = ["**"]

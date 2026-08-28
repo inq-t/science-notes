@@ -1,4 +1,0 @@
-[module]
-name = "algebraic-observational-cosmology"
-entry = "entry.md"
-include = ["**"]

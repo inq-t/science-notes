@@ -45,7 +45,7 @@ Thus neither \(G\) nor the de Sitter acceleration scale is predicted by the elas
 
 ## Conservative entropic forces are underdetermined
 
-[[library/conservative-entropic-forces/entry|Visser]] studies a conservative one-body force written as
+[[library/conservative-entropic-forces/inq|Visser]] studies a conservative one-body force written as
 
 $$
 -\nabla\Phi=T\nabla S.
@@ -67,7 +67,7 @@ The lesson is not that emergent forces are impossible. It is that a known conser
 
 ## The screen–particle quantum objection is not decisive
 
-[[library/gravity-is-not-an-entropic-force/entry|Kobakhidze]] argues that a literal screen-state implementation of the entropy postulate conflicts with coherent neutron bound states. [[library/entropic-gravity-entropy-postulate-screens-quantum-mechanics/entry|Chaichian, Oksanen, and Tureanu]] reply that the argument identifies the screen density matrix with the particle state too strongly and that the entropy postulate need not imply the claimed decoherence.
+[[library/gravity-is-not-an-entropic-force/inq|Kobakhidze]] argues that a literal screen-state implementation of the entropy postulate conflicts with coherent neutron bound states. [[library/entropic-gravity-entropy-postulate-screens-quantum-mechanics/inq|Chaichian, Oksanen, and Tureanu]] reply that the argument identifies the screen density matrix with the particle state too strongly and that the entropy postulate need not imply the claimed decoherence.
 
 The dispute reveals a missing map:
 

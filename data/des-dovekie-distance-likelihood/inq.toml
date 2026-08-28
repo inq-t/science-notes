@@ -1,5 +1,0 @@
-[module]
-name = "des-dovekie-distance-likelihood"
-entry = "entry.md"
-include = ["**"]
-

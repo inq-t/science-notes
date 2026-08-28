@@ -224,7 +224,7 @@ This is a testable weld between the correspondence/area construction and the obs
 
 ## What Connes' volume quantization contributes
 
-[[library/quanta-of-geometry/entry|Quanta of Geometry]] relates a higher Heisenberg relation, an index pairing, and quantized volume. It demonstrates that a Dirac-algebra relation can normalize geometric measure through topology rather than by a classical coordinate lattice.
+[[library/quanta-of-geometry/inq|Quanta of Geometry]] relates a higher Heisenberg relation, an index pairing, and quantized volume. It demonstrates that a Dirac-algebra relation can normalize geometric measure through topology rather than by a classical coordinate lattice.
 
 It does not yet close the present problem. The paper's displayed area and volume quanta are expressed in gravitational or Planck-normalized units, and the construction begins with a manifold and Dirac operator. It can supply a spectral cycle and discreteness grammar; it cannot be imported as a numerical derivation of \(G\) without independently fixing the Dirac scale.
 
@@ -245,4 +245,4 @@ A successful proof must establish, in this order:
 
 Failure is informative. A central density varying by sector predicts non-Einstein coupling; a scale-dependent density predicts a running or scalar--tensor response; a nonlocal measure predicts nonlocal gravity; and absence of a canonical Dirac normalization blocks any numerical value of \(G\).
 
-Primary sources: [[library/holographic-map-as-conditional-expectation/entry|the holographic central area operator]], [[library/planar-algebraic-conditional-expectations/entry|finite-index expectations as Q-systems]], [[library/relative-entropy-and-subalgebra-index/entry|relative entropy and index]], [[library/minimal-index-and-matrix-dimension-finite-centers/entry|functorial matrix dimension]], and [[library/quanta-of-geometry/entry|spectral volume quantization]].
+Primary sources: [[library/holographic-map-as-conditional-expectation/inq|the holographic central area operator]], [[library/planar-algebraic-conditional-expectations/inq|finite-index expectations as Q-systems]], [[library/relative-entropy-and-subalgebra-index/inq|relative entropy and index]], [[library/minimal-index-and-matrix-dimension-finite-centers/inq|functorial matrix dimension]], and [[library/quanta-of-geometry/inq|spectral volume quantization]].

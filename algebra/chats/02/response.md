@@ -46,6 +46,7 @@ Would you like to see how adding more variables (like turning $x^3 + y^2$ into a
 
   
 
+```python
 import numpy as np  
   
 # Let's verify the characteristic polynomial, eigenvalues and order of the A2 monodromy matrix.  
@@ -85,6 +86,7 @@ for i in range(1, 7):
 # Find eigenvalues  
 eigenvalues = np.linalg.eigvals(T)  
 print("Eigenvalues:", eigenvalues)  
+```
   
 
 

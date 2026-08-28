@@ -1,4 +1,6 @@
 .obsidian/
+__pycache__/
+*.py[cod]
 
 # Large, reproducible observational downloads and extracted datasets.
 # Keep the hand-written index so the local library remains documented.
@@ -6,5 +8,5 @@
 !/causal-wall-spectral-theory/sources/data/entry.md
 
 # Optional per-module caches for large fetched datasets.
-# Small versioned tables may remain beside each module's entry.md.
+# Small versioned tables may remain beside each module's inq.md.
 /data/*/local/

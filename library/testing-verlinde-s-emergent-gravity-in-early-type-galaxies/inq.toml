@@ -1,4 +1,0 @@
-[module]
-name = "testing-verlinde-s-emergent-gravity-in-early-type-galaxies"
-entry = "entry.md"
-include = ["**"]

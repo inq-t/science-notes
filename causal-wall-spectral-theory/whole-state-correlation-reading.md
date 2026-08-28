@@ -38,7 +38,7 @@ $$
 \text{record}.
 $$
 
-Nor does a BKM susceptibility prove that inaccessible distinctions have literally become geometry. [[program-core/localized-areal-response-geometry|Response geometry]] ends before fact formation; [[conservation-of-causal-charge/entry|causal charge]] asks whether a future symmetry law can relate state, geometry, matter, and records on one carrier.
+Nor does a BKM susceptibility prove that inaccessible distinctions have literally become geometry. [[program-core/localized-areal-response-geometry|Response geometry]] ends before fact formation; [[conservation-of-causal-charge/inq|causal charge]] asks whether a future symmetry law can relate state, geometry, matter, and records on one carrier.
 
 ## Why the reading does not weaken empirical obligations
 

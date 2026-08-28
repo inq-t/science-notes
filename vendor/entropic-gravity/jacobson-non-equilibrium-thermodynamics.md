@@ -2,7 +2,7 @@
 
 Eling, Guedens, and Jacobson showed that replacing the constant area entropy density by a curvature-dependent density generally destroys the 1995 equilibrium construction. Consistency with stress-energy conservation requires an internal entropy-production term, and the resulting balance law yields metric \(f(R)\) gravity under specific hypotheses.
 
-The primary source is [[library/non-equilibrium-thermodynamics-of-spacetime/entry|Eling, Guedens, and Jacobson 2006]]. This note uses \(c=k_B=1\).
+The primary source is [[library/non-equilibrium-thermodynamics-of-spacetime/inq|Eling, Guedens, and Jacobson 2006]]. This note uses \(c=k_B=1\).
 
 ## Curvature-dependent entropy density
 

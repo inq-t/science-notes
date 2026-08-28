@@ -30,7 +30,7 @@ The relevant repository variables are all instances of this operation:
 | grain depth | \(\Sigma_A=\ln(R_A/\lambda_g)\) | horizon-to-grain ratio |
 | information | \(I=\ln W\) nats | multiplicity or likelihood ratio |
 
-[[cosmodynamics/scale-age|Scale age]] proves the additive composition law for \(N\). [[misner-log-time/entry|Misner logarithmic time]] makes the scale direction an internal clock on a monotonic branch. [[scale-as-modular-observable/entry|Scale as a modular observable]] and [[minimal-cosmodynamic-closure/unit-wall-correspondence|the unit-wall correspondence]] propose that the core trace character and cosmic scale character have the same unit slope.
+[[cosmodynamics/scale-age|Scale age]] proves the additive composition law for \(N\). [[misner-log-time/inq|Misner logarithmic time]] makes the scale direction an internal clock on a monotonic branch. [[scale-as-modular-observable/inq|Scale as a modular observable]] and [[minimal-cosmodynamic-closure/unit-wall-correspondence|the unit-wall correspondence]] propose that the core trace character and cosmic scale character have the same unit slope.
 
 The recurrence is therefore structural. The distinction is equally structural: causal order, proper time, conformal time, modular flow, core dual scaling, scale age, resolution depth, and information are different domains until a map relates them.
 

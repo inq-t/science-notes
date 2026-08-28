@@ -12,7 +12,7 @@ Specify the objects—causal cuts, observer contexts, algebra--state fibers, sca
 
 ## CC--T2: derive the causal representation and binary reduction
 
-Construct the physical symmetry representation, its invariant form, and any reduced normal generator \(Q\). Derive rather than name the balanced quotient, its channel multiplicity, and the reflection action. [[binary-information-geometry/entry|Binary information geometry]] supplies the exact reduced results once these inputs exist; it does not supply the reduction itself.
+Construct the physical symmetry representation, its invariant form, and any reduced normal generator \(Q\). Derive rather than name the balanced quotient, its channel multiplicity, and the reflection action. [[binary-information-geometry/inq|Binary information geometry]] supplies the exact reduced results once these inputs exist; it does not supply the reduction itself.
 
 **Success:** the full wall theory has a controlled infrared sector with \(Q^2=1\), balanced weights, a finite BKM tangent, and quantified errors from discarded modes.
 

@@ -1,4 +1,0 @@
-[module]
-name = "fractional-conformal-laplacians-and-fractional-yamabe-problems"
-entry = "entry.md"
-include = ["**"]

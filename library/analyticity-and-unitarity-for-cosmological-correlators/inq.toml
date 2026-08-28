@@ -1,4 +1,0 @@
-[module]
-name = "analyticity-and-unitarity-for-cosmological-correlators"
-entry = "entry.md"
-include = ["**"]

@@ -1,4 +1,0 @@
-[module]
-name = "the-mixmaster-cosmological-metrics"
-entry = "entry.md"
-include = ["**"]

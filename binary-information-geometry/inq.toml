@@ -1,5 +1,0 @@
-[module]
-name = "binary-information-geometry"
-entry = "entry.md"
-include = ["**/*.md"]
-

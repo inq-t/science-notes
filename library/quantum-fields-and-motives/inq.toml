@@ -1,4 +1,0 @@
-[module]
-name = "quantum-fields-and-motives"
-entry = "entry.md"
-include = ["**"]

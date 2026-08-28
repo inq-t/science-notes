@@ -1,4 +1,0 @@
-[module]
-name = "a-manifestly-local-theory-of-vacuum-energy-sequestering"
-entry = "entry.md"
-include = ["**"]

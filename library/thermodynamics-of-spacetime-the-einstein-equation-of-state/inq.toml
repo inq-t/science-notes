@@ -1,4 +1,0 @@
-[module]
-name = "thermodynamics-of-spacetime-the-einstein-equation-of-state"
-entry = "entry.md"
-include = ["**"]

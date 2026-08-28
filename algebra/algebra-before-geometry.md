@@ -41,7 +41,7 @@ Before an algebra can be called fundamental, the following choices must be expos
 
 Different answers define different geometries. They cannot be mixed merely because the same group or integer appears in each.
 
-The current [[program-core/entry|program core]] begins well inside one branch of this ledger: complex associative operator algebras, states, completely positive maps, relative entropy, differentiability, and causal area are already available. The octonions belong to an alternative nonassociative branch. Connes' ordinary spectral triples use associative involutive algebras. A map between those branches is an additional construction, not a harmless change of notation.
+The current [[program-core/inq|program core]] begins well inside one branch of this ledger: complex associative operator algebras, states, completely positive maps, relative entropy, differentiability, and causal area are already available. The octonions belong to an alternative nonassociative branch. Connes' ordinary spectral triples use associative involutive algebras. A map between those branches is an additional construction, not a harmless change of notation.
 
 ## No most general algebra
 
@@ -70,7 +70,7 @@ $$
 \{U_i\to U\}
 $$
 
-are jointly sufficient presentations of $U$. A stack then asks for descent relative to $J$. Changing $J$ changes which objects become locally trivial and which obstructions remain global. [[basic-concepts/descent/entry|Strict descent]] therefore cannot be inferred from a diagram that merely looks layered or from a map that discards information.
+are jointly sufficient presentations of $U$. A stack then asks for descent relative to $J$. Changing $J$ changes which objects become locally trivial and which obstructions remain global. [[basic-concepts/descent/inq|Strict descent]] therefore cannot be inferred from a diagram that merely looks layered or from a map that discards information.
 
 For a physical doctrine, the site itself is part of the derivation burden. If its objects are causal regions, the theory has already imported causal localization. If they are metric balls, it has imported metric geometry. If they are commutative readout contexts, it has imported an observational type. Such choices may be legitimate constitutive starting points, but they are not derivations of those structures from pure algebra.
 

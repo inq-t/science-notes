@@ -1,4 +1,0 @@
-[module]
-name = "planck-2018-results-x-constraints-on-inflation"
-entry = "entry.md"
-include = ["**"]

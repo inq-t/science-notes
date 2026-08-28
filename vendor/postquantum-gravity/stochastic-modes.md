@@ -2,7 +2,7 @@
 
 Linearising about Minkowski and decomposing into scalar, vector and tensor sectors answers the question the construction leaves open: which parts of the metric are stochastic degrees of freedom, and where the indefiniteness of the deWitt kernel lives. The answer is favourable. The dynamical modes are a transverse-traceless spin-2 pair and one spin-0 scalar, each diffusing around its own wave equation, and their sectors are positive semidefinite. The indefinite sector is the vector, which carries the momentum constraint and does not propagate.
 
-Source: [[library/stochastic-modes-in-postquantum-gravity/entry|Oppenheim and Sajjad]].
+Source: [[library/stochastic-modes-in-postquantum-gravity/inq|Oppenheim and Sajjad]].
 
 ## Counting degrees of freedom in a stochastic theory
 

@@ -1,4 +1,0 @@
-[module]
-name = "some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy"
-entry = "entry.md"
-include = ["**"]

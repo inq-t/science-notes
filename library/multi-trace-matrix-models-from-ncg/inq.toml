@@ -1,4 +1,0 @@
-[module]
-name = "multi-trace-matrix-models-from-ncg"
-entry = "entry.md"
-include = ["**"]

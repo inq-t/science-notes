@@ -1,4 +1,0 @@
-[module]
-name = "functoriality-of-connes-takesaki-flow-of-weights"
-entry = "entry.md"
-include = ["**"]

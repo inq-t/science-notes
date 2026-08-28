@@ -93,7 +93,7 @@ X\,\Omega_\gamma^{-1}(Y)
 \right].
 $$
 
-Faithfulness makes \(\Omega_\gamma\) invertible in finite dimensions. The generic coincidence theorem is developed in [[basic-concepts/hessians/entry#Log-partition Hessians and Fisher geometry|the Hessian account of BKM geometry]]. Applying it to the exact fixed-data identity gives
+Faithfulness makes \(\Omega_\gamma\) invertible in finite dimensions. The generic coincidence theorem is developed in [[basic-concepts/hessians/inq#Log-partition Hessians and Fisher geometry|the Hessian account of BKM geometry]]. Applying it to the exact fixed-data identity gives
 
 $$
 \boxed{

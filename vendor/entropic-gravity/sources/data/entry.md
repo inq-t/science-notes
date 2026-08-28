@@ -1,5 +1,5 @@
-# SPARC and Radial-Acceleration Data Cache
+# SPARC and Radial-Acceleration Data Index
 
-This directory retains four small, tracked tables from the official SPARC site. Their canonical descriptions and fetch instructions are split by dataset identity between [[data/sparc-galaxy-sample-and-mass-models/entry|SPARC galaxy and mass-model data]] and [[data/radial-acceleration-relation-data/entry|the derived radial-acceleration relation]].
+The four small, tracked tables from the official SPARC site now live with their dataset owners: [[data/sparc-galaxy-sample-and-mass-models/inq|SPARC galaxy and mass-model data]] and [[data/radial-acceleration-relation-data/inq|the derived radial-acceleration relation]].
 
-The local files remain at their historical paths so existing references continue to resolve. [[vendor/entropic-gravity/sources/origins|Source origins]] records the direct upstream locations, while [[vendor/entropic-gravity/sources/checksums|the checksum ledger]] freezes the copies retrieved on 2026-08-23.
+[[vendor/entropic-gravity/sources/origins|Source origins]] records the direct upstream locations, while [[vendor/entropic-gravity/sources/checksums|the checksum ledger]] freezes the copies retrieved on 2026-08-23. This note remains as the vendor module's conceptual index; it does not claim ownership of the data files.

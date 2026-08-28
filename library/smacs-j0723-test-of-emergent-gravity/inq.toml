@@ -1,4 +1,0 @@
-[module]
-name = "smacs-j0723-test-of-emergent-gravity"
-entry = "entry.md"
-include = ["**"]

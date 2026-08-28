@@ -1,4 +1,0 @@
-[module]
-name = "an-infinite-set-of-ward-identities-for-adiabatic-modes-in-cosmology"
-entry = "entry.md"
-include = ["**"]

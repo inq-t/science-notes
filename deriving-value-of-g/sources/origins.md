@@ -33,7 +33,7 @@ Some older e-print downloads are gzip-compressed TeX streams or legacy arXiv con
 
 | Local artifact | Upstream used |
 |---|---|
-| [[deriving-value-of-g/sources/data/nist-2022-codata-recommended-values.pdf|2022 CODATA extensive listing]] | [NIST PDF](https://physics.nist.gov/cuu/pdf/all.pdf) |
-| [[deriving-value-of-g/sources/data/nist-2022-codata-all-constants.txt|2022 CODATA ASCII table]] | [NIST text table](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) |
+| [[data/codata-2022-fundamental-physical-constants/nist-2022-codata-recommended-values.pdf|2022 CODATA extensive listing]] | [NIST PDF](https://physics.nist.gov/cuu/pdf/all.pdf) |
+| [[data/codata-2022-fundamental-physical-constants/nist-2022-codata-all-constants.txt|2022 CODATA ASCII table]] | [NIST text table](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) |
 
 The NIST URLs are mutable aliases. The filenames, retrieval date, and checksum ledger freeze the exact 2022 release used here.

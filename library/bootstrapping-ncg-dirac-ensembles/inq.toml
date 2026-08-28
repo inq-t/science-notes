@@ -1,4 +1,0 @@
-[module]
-name = "bootstrapping-ncg-dirac-ensembles"
-entry = "entry.md"
-include = ["**"]

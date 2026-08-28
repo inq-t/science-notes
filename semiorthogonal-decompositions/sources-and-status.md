@@ -36,7 +36,7 @@ The project's exact finite conditional-expectation and BKM comparison is develop
 
 ## Local source under commentary
 
-[[library/hodge-atoms-spectral-triples-bps/entry|Relating Hodge Atoms, Spectral Triples, and BPS Flows]] is a March 2026 primary preprint in the local library. It is useful because it places a Kuznetsov semiorthogonal component, Ext-quiver, birational modification, and JLO language in one proposed physical picture.
+[[library/hodge-atoms-spectral-triples-bps/inq|Relating Hodge Atoms, Spectral Triples, and BPS Flows]] is a March 2026 primary preprint in the local library. It is useful because it places a Kuznetsov semiorthogonal component, Ext-quiver, birational modification, and JLO language in one proposed physical picture.
 
 Its status must be divided:
 

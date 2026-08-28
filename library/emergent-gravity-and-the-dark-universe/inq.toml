@@ -1,4 +1,0 @@
-[module]
-name = "emergent-gravity-and-the-dark-universe"
-entry = "entry.md"
-include = ["**"]

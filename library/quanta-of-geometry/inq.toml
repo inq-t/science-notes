@@ -1,4 +1,0 @@
-[module]
-name = "quanta-of-geometry"
-entry = "entry.md"
-include = ["**"]

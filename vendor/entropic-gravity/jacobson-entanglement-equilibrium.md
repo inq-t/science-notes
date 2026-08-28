@@ -2,7 +2,7 @@
 
 Jacobson’s small-ball argument relates the first-order semiclassical Einstein equation to stationary total entropy in a small geodesic ball at fixed volume. The total combines an ultraviolet area term with infrared matter entanglement and takes the Bekenstein generalized-entropy form after its area coefficient is identified with \(1/(4\hbar G)\). The conformal-field version is a precise leading-order equivalence once a finite universal area density is assumed; the generic nonconformal extension requires additional conjectures and the argument does not establish a finite-variation entropy maximum.
 
-The authoritative source is the published-version text [[library/entanglement-equilibrium-and-the-einstein-equation/entry|Jacobson 2016]]. The materially stronger original proposal is preserved separately as [[library/entanglement-equilibrium-and-the-einstein-equation/entry|the historical 2015 version]].
+The authoritative source is the published-version text [[library/entanglement-equilibrium-and-the-einstein-equation/inq|Jacobson 2016]]. The materially stronger original proposal is preserved separately as [[library/entanglement-equilibrium-and-the-einstein-equation/inq|the historical 2015 version]].
 
 ## Small-ball geometry
 
@@ -156,17 +156,17 @@ $$
 
 where \(\delta X\) is a scalar contribution which may depend on \(\ell\). The reference curvature is allowed to vary with the ball in a way that absorbs this term while leaving a spacetime-constant cosmological constant.
 
-[[library/comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation/entry|Casini, Galante, and Myers]] and [[library/entanglement-entropy-excited-states-einstein-equation/entry|Speranza]] show why this extension is delicate. Relevant operators can produce terms of order \(\ell^{2\Delta}\); for \(\Delta\leq d/2\), these need not be subordinate to the desired \(\ell^d\) stress-tensor term. This does not invalidate the strict conformal first-order result, but it blocks a simple universal extrapolation to arbitrary QFT states.
+[[library/comments-on-jacobson-s-entanglement-equilibrium-and-the-einstein-equation/inq|Casini, Galante, and Myers]] and [[library/entanglement-entropy-excited-states-einstein-equation/inq|Speranza]] show why this extension is delicate. Relevant operators can produce terms of order \(\ell^{2\Delta}\); for \(\Delta\leq d/2\), these need not be subordinate to the desired \(\ell^d\) stress-tensor term. This does not invalidate the strict conformal first-order result, but it blocks a simple universal extrapolation to arbitrary QFT states.
 
 ## Version history and extensions
 
 The first arXiv version conjectured a stronger nonconformal modular-energy relation. Later versions weakened it, restricted the claim explicitly to first-order vacuum variations, and allowed the reference curvature to depend on ball size. The published version is therefore the proper source for the theorem-shaped claim.
 
-[[library/entanglement-equilibrium-for-higher-order-gravity/entry|Bueno, Min, Speranza, and Visser]] replace area by an appropriate higher-curvature entropy and ordinary volume by a generalized volume. They recover the **linearized** higher-curvature equations under their hypotheses, not the full nonlinear equations of a generic higher-derivative theory.
+[[library/entanglement-equilibrium-for-higher-order-gravity/inq|Bueno, Min, Speranza, and Visser]] replace area by an appropriate higher-curvature entropy and ordinary volume by a generalized volume. They recover the **linearized** higher-curvature equations under their hypotheses, not the full nonlinear equations of a generic higher-derivative theory.
 
-[[library/gravitational-thermodynamics-of-causal-diamonds-in-a-ds/entry|Jacobson and Visser’s causal-diamond thermodynamics]] develops the geometric first law for maximally symmetric causal diamonds and clarifies the thermodynamic role of the conformal Killing flow. It strengthens the framework around the small-ball construction without deriving its ultraviolet entropy density.
+[[library/gravitational-thermodynamics-of-causal-diamonds-in-a-ds/inq|Jacobson and Visser’s causal-diamond thermodynamics]] develops the geometric first law for maximally symmetric causal diamonds and clarifies the thermodynamic role of the conformal Killing flow. It strengthens the framework around the small-ball construction without deriving its ultraviolet entropy density.
 
-[[library/equilibrium-to-einstein-entanglement-thermodynamics-and-gravity/entry|Svesko’s causal-diamond analysis]] relates this first-law structure to a Clausius law for the reversible part of causal-diamond entropy. In that construction, fixing volume subtracts the irreversible background contribution, while a reversible entropy balance yields nonlinear equations for a broad class of diffeomorphism-invariant theories. This is a later extension with its own thermodynamic hypotheses, not a proof of Jacobson’s microscopic area-density premise.
+[[library/equilibrium-to-einstein-entanglement-thermodynamics-and-gravity/inq|Svesko’s causal-diamond analysis]] relates this first-law structure to a Clausius law for the reversible part of causal-diamond entropy. In that construction, fixing volume subtracts the irreversible background contribution, while a reversible entropy balance yields nonlinear equations for a broad class of diffeomorphism-invariant theories. This is a later extension with its own thermodynamic hypotheses, not a proof of Jacobson’s microscopic area-density premise.
 
 ## Exact boundary
 

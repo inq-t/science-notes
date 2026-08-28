@@ -2,7 +2,7 @@
 
 Verlinde’s 2011 proposal treats space as emergent from holographic information and gravity as the macroscopic entropic response to relocating matter relative to information-bearing screens. Its equations exactly reproduce inertia, Newtonian gravity, Poisson’s equation, and static relativistic mass formulas once the entropy gradient, Unruh normalization, area bit density, and equipartition rules are supplied; the paper does not construct the microscopic screen theory that would necessitate those rules.
 
-The primary source is [[library/on-the-origin-of-gravity-and-the-laws-of-newton/entry|Verlinde 2011]].
+The primary source is [[library/on-the-origin-of-gravity-and-the-laws-of-newton/inq|Verlinde 2011]].
 
 ## Intended ontology
 

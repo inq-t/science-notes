@@ -1,4 +1,0 @@
-[module]
-name = "gravitation-and-vacuum-entanglement-entropy"
-entry = "entry.md"
-include = ["**"]

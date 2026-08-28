@@ -1,4 +1,0 @@
-[module]
-name = "global-anomalies-in-the-standard-model-s-and-beyond"
-entry = "entry.md"
-include = ["**"]

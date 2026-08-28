@@ -1,4 +1,0 @@
-[module]
-name = "entanglement-entropy-excited-states-einstein-equation"
-entry = "entry.md"
-include = ["**"]

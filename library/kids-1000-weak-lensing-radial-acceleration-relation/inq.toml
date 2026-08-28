@@ -1,4 +1,0 @@
-[module]
-name = "kids-1000-weak-lensing-radial-acceleration-relation"
-entry = "entry.md"
-include = ["**"]

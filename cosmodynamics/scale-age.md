@@ -32,8 +32,8 @@ so it can parameterize the background history.
 Scale-age must remain distinct from:
 
 - proper time $\tau$, measured along a timelike worldline;
-- [[conformal-time/entry|conformal time]] $\eta$, defined by $\mathrm d\eta=\mathrm dt/a(t)$;
-- [[misner-log-time/entry|Misner logarithmic time]] $\Omega=-\ln(a/a_*)$, often used as an internal clock on a monotonic Hamiltonian-cosmology branch; and
+- [[conformal-time/inq|conformal time]] $\eta$, defined by $\mathrm d\eta=\mathrm dt/a(t)$;
+- [[misner-log-time/inq|Misner logarithmic time]] $\Omega=-\ln(a/a_*)$, often used as an internal clock on a monotonic Hamiltonian-cosmology branch; and
 - modular parameters, which label automorphisms associated with an algebra and state.
 
 Relations among these variables depend on the metric solution, lapse, branch, and chosen state. Equality of notation or dimensionlessness would not identify them.

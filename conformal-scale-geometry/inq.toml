@@ -1,4 +1,0 @@
-[module]
-name = "conformal-scale-geometry"
-entry = "entry.md"
-include = ["**/*.md"]

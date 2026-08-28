@@ -1,4 +1,0 @@
-[module]
-name = "complex-structure-on-s6"
-entry = "entry.md"
-include = ["**"]

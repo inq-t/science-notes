@@ -43,7 +43,7 @@ s=N-N_c,
 \frac{\mathrm ds}{\mathrm dN}=1.
 $$
 
-This is the proposed origin of the unit-rate principle \(\nu=1\). [[scale-as-modular-observable/entry|Scale as a modular observable]] and [[dimensional-ladder/one-clock-many-dressings|one clock in many dressings]] motivate the map; they do not prove it.
+This is the proposed origin of the unit-rate principle \(\nu=1\). [[scale-as-modular-observable/inq|Scale as a modular observable]] and [[dimensional-ladder/one-clock-many-dressings|one clock in many dressings]] motivate the map; they do not prove it.
 
 The sign is additional data: the core character fixes an oriented image only after the member's post-crossing arrow has been chosen. The wider unit-rate principle fixes \(|\mathrm ds/\mathrm dN|=1\), not the positive orientation by itself.
 
@@ -107,7 +107,7 @@ $$
 \operatorname{Ran}\mathbf 1_{(0,\infty)}(D_\varepsilon),
 $$
 
-not as the strict-positive spectral rank of the degenerate operator exactly at \(\varepsilon=0\). Neither algebraic fact by itself identifies a wall channel with an areal contribution, and boundary degenerations require this declared multiplicity convention. The clause also does not say that \(A_2\) is a two-outcome sample space: the completion has three slots, whereas the observed response quotient is binary. [[algebra/a2-positive-completion|The \(A_2\) positive completion]], [[a2-ternary-response/entry|the ternary audit]], and [[inbox/the-rank-two-cell/the-rank-two-cell|the rank-two cell]] supply the separate algebraic faces. The physical identification remains conjectural until a trace or cyclic pairing sends \(\mathcal K_A\) to the areal ledger.
+not as the strict-positive spectral rank of the degenerate operator exactly at \(\varepsilon=0\). Neither algebraic fact by itself identifies a wall channel with an areal contribution, and boundary degenerations require this declared multiplicity convention. The clause also does not say that \(A_2\) is a two-outcome sample space: the completion has three slots, whereas the observed response quotient is binary. [[algebra/a2-positive-completion|The \(A_2\) positive completion]], [[a2-ternary-response/inq|the ternary audit]], and [[inbox/the-rank-two-cell/the-rank-two-cell|the rank-two cell]] supply the separate algebraic faces. The physical identification remains conjectural until a trace or cyclic pairing sends \(\mathcal K_A\) to the areal ledger.
 
 [[algebra/s6-manuscript-branch|The conditional \(S^6/A_2\) branch]] motivates seeking a nontrivial global-to-local carrier, but no numerical step in the closure is inferred merely from the existence of a complex structure on \(S^6\). The integer \(\gamma\) stands or falls with the area-writing channel map above.
 
@@ -130,7 +130,7 @@ The pointwise law \(\mathrm d\mu^{\mathrm{desc}}=\eta_*\,\mathrm dA\) on every l
 
 ### Fossil-transport square
 
-Part of the fossil transport is already typed in [[crossing-evaluated-flat-modulus/entry|the crossing-evaluated flat modulus]]. Let
+Part of the fossil transport is already typed in [[crossing-evaluated-flat-modulus/inq|the crossing-evaluated flat modulus]]. Let
 
 $$
 \pi:\mathsf{Cut}\longrightarrow\mathsf{Sol},
@@ -155,7 +155,7 @@ V\!\left(\pi^*\chi_{\mathrm{foss}}\right)=0
 \text{for every }V\in\ker(\mathrm d\pi).
 $$
 
-This is a proved fiber-flatness lemma after the selector and invariant ingredients are supplied; it is stronger and cleaner than inventing an unspecified connection on a number defined only at the crossing. [[bianchi-protection-of-the-areal-modulus/entry|Bianchi protection]] then proves that the Einstein coefficient \(\eta_{\mathrm E}=c^3/(4\hbar G)\) is constant on a connected nonvacuum Einstein realization. Consequently, the one-cut matching condition
+This is a proved fiber-flatness lemma after the selector and invariant ingredients are supplied; it is stronger and cleaner than inventing an unspecified connection on a number defined only at the crossing. [[bianchi-protection-of-the-areal-modulus/inq|Bianchi protection]] then proves that the Einstein coefficient \(\eta_{\mathrm E}=c^3/(4\hbar G)\) is constant on a connected nonvacuum Einstein realization. Consequently, the one-cut matching condition
 
 $$
 c^*\eta_{\mathrm E}=\chi_{\mathrm{foss}}
@@ -211,7 +211,7 @@ $$
 
 After that definition one may equivalently write \(\lambda_*^3=(8/3)\ell_{P,c}^2R_c\), with \(\ell_{P,c}^2:=\hbar G_{c,\mathrm{pred}}/c^3\). In this order the Planck area is a presentation of the solved coefficient rather than an input to it.
 
-The factor \(1/3\) is \(V/(AR)\) for a three-ball, proved in [[bulk-area-cell-normalization/entry|bulk--area cell normalization]]. The factor \(2\) is the selected area-writing multiplicity. The unit weight is the separate channel-additivity clause above, not a consequence of unit Fisher curvature. These origins rhyme, but they must not be collapsed into one unexplained “two-thirds.”
+The factor \(1/3\) is \(V/(AR)\) for a three-ball, proved in [[bulk-area-cell-normalization/inq|bulk--area cell normalization]]. The factor \(2\) is the selected area-writing multiplicity. The unit weight is the separate channel-additivity clause above, not a consequence of unit Fisher curvature. These origins rhyme, but they must not be collapsed into one unexplained “two-thirds.”
 
 The imported spatially flat Einstein--FLRW fiber supplies the apparent-horizon identity
 
@@ -227,7 +227,7 @@ G_{c,\mathrm{pred}}=\frac{3\hbar^2H_c}{8cm_*^3}.
 }
 $$
 
-[[crossing-evaluated-flat-modulus/entry|The crossing-evaluated flat modulus]] explains why this is evaluated once on the solution and does not imply \(G(N)\propto H(N)\). [[bianchi-protection-of-the-areal-modulus/entry|Bianchi protection]] shows why a live varying coupling would be inconsistent with the declared Einstein fiber; it does not select the fossil value.
+[[crossing-evaluated-flat-modulus/inq|The crossing-evaluated flat modulus]] explains why this is evaluated once on the solution and does not imply \(G(N)\propto H(N)\). [[bianchi-protection-of-the-areal-modulus/inq|Bianchi protection]] shows why a live varying coupling would be inconsistent with the declared Einstein fiber; it does not select the fossil value.
 
 ## Optional chiral-carrier clauses
 
@@ -329,7 +329,7 @@ Naturality is the hoped-for unifying mathematical claim: one carrier-changing co
 - failure to construct a normalization-rigid kinetic-coefficient solder kills CH1;
 - failure of the response scale to define a correlation ruler kills CH2 even if CH1 survives.
 
-[[flux-record-and-top-form-realizations/entry|Flux, records, and top-form realizations]] explains how Connes--Thom, groupoid assembly, and Baum--Connes-type transport could organize the naturality square. Assembly can preserve an already constructed class; it cannot manufacture the metric gap, select the event, or normalize the areal trace.
+[[flux-record-and-top-form-realizations/inq|Flux, records, and top-form realizations]] explains how Connes--Thom, groupoid assembly, and Baum--Connes-type transport could organize the naturality square. Assembly can preserve an already constructed class; it cannot manufacture the metric gap, select the event, or normalize the areal trace.
 
 ## The construction target
 

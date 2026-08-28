@@ -1,4 +1,0 @@
-[module]
-name = "standard-model-from-exceptional-jordan-algebra"
-entry = "entry.md"
-include = ["**"]

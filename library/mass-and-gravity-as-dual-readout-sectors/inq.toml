@@ -1,4 +1,0 @@
-[module]
-name = "mass-and-gravity-as-dual-readout-sectors"
-entry = "entry.md"
-include = ["**"]

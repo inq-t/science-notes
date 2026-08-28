@@ -1,4 +1,0 @@
-[module]
-name = "dark-energy-and-acceleration"
-entry = "entry.md"
-include = ["**/*.md", "**/*.py"]

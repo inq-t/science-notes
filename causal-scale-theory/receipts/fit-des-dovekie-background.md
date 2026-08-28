@@ -121,15 +121,16 @@ Run
 
 ```powershell
 python causal-scale-theory/receipts/fit-des-dovekie-background.py `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --dovekie-data-dir data/des-dovekie-distance-likelihood/local `
   --output causal-scale-theory/receipts/des-dovekie-background-fit.json
 ```
 
-The script verifies the four source hashes, unpacks the precision matrix, checks its diagonal against the released uncertainty diagnostics, reproduces the published flat-\(\Lambda\)CDM fit, and writes [[causal-scale-theory/receipts/des-dovekie-background-fit|the machine-readable ledger]]. Its shared expansion and distance functions are imported from [[causal-scale-theory/receipts/fit-late-time-background|the primary late-time receipt]], so the alternate-supernova test does not fork a second implementation of CST-B2.
+The script verifies the four source hashes, unpacks the precision matrix, checks its diagonal against the released uncertainty diagnostics, reproduces the published flat-\(\Lambda\)CDM fit, and writes [[causal-scale-theory/receipts/des-dovekie-background-fit.json|the machine-readable ledger]]. Its shared expansion and distance functions are imported from [[causal-scale-theory/receipts/fit-late-time-background|the primary late-time receipt]], so the alternate-supernova test does not fork a second implementation of CST-B2.
 
 ## Primary sources
 
-- [[library/dark-energy-survey-supernova-program-reanalysis/entry|Popovic et al., DES supernova reanalysis]]: sample construction, corrections, systematics, cosmological results, and Table 10.
+- [[library/dark-energy-survey-supernova-program-reanalysis/inq|Popovic et al., DES supernova reanalysis]]: sample construction, corrections, systematics, cosmological results, and Table 10.
 - [DES-SN5YR distance and covariance release](https://github.com/des-science/DES-SN5YR/tree/main/4_DISTANCES_COVMAT): ordered Hubble diagram, packed inverse covariance, column definitions, and production products.
 - [DES-Dovekie CosmoSIS likelihood](https://github.com/des-science/DES-SN5YR/blob/main/5_COSMOLOGY/Dovekie_cosmosis_likelihood.py): exact row mask, two-redshift luminosity distance, matrix unpacking, and analytic offset marginalization.
 - [Cobaya supernova-data mirror](https://github.com/CobayaSampler/sn_data/tree/master/DES-Dovekie): the compact `covtot_inv_000.npz` and numerically identical normalized distance table used in the exploratory run.

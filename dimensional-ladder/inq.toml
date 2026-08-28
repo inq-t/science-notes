@@ -1,4 +1,0 @@
-[module]
-name = "dimensional-ladder"
-entry = "entry.md"
-include = ["**/*.md", "**/*.py", "**/*.txt"]

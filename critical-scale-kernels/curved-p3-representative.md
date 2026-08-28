@@ -24,7 +24,7 @@ P_3^{\widehat g}(f)
 =e^{-3\omega}P_3^g(f).}
 $$
 
-This is **[STANDARD — CONDITIONAL ON THE FRACTIONAL-CONFORMAL CONSTRUCTION]**. The scattering origin and conformal covariance are developed by [[library/scattering-matrix-in-conformal-geometry/entry|Graham--Zworski]] and [[library/fractional-laplacian-in-conformal-geometry/entry|Chang--Gonzalez]]. Positivity and extension results require additional hypotheses of the kind studied by [[library/fractional-conformal-laplacians-and-fractional-yamabe-problems/entry|Gonzalez--Qing]] and [[library/on-fractional-gjms-operators/entry|Case--Chang]].
+This is **[STANDARD — CONDITIONAL ON THE FRACTIONAL-CONFORMAL CONSTRUCTION]**. The scattering origin and conformal covariance are developed by [[library/scattering-matrix-in-conformal-geometry/inq|Graham--Zworski]] and [[library/fractional-laplacian-in-conformal-geometry/inq|Chang--Gonzalez]]. Positivity and extension results require additional hypotheses of the kind studied by [[library/fractional-conformal-laplacians-and-fractional-yamabe-problems/inq|Gonzalez--Qing]] and [[library/on-fractional-gjms-operators/inq|Case--Chang]].
 
 ## Flat and round representatives
 
