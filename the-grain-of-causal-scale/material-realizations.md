@@ -119,7 +119,7 @@ This candidate is intriguing because \(F_\pi\) is a vacuum-current response scal
 
 ## Why nearby numbers are cheap
 
-The interval contains many manufactured combinations of Standard Model masses, decay constants, binding momenta, and simple numerical factors. [[inbox/the-grain-in-every-register/entry|The exploratory siren census]] shows that sub-percent coincidences are statistically cheap once this search freedom is admitted. In particular, combinations such as \(2\pi\sqrt{m_em_\mu}\) can match even more closely while carrying no known mechanism.
+The interval contains many manufactured combinations of Standard Model masses, decay constants, binding momenta, and simple numerical factors. [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry.md|The exploratory siren census]] shows that sub-percent coincidences are statistically cheap once this search freedom is admitted. In particular, combinations such as \(2\pi\sqrt{m_em_\mu}\) can match even more closely while carrying no known mechanism.
 
 A candidate earns promotion only if it supplies a map, not a resemblance. At minimum it must explain:
 

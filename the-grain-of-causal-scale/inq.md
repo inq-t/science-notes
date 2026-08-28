@@ -2,8 +2,11 @@
 inq.module: "the-grain-of-causal-scale"
 inq.include:
   - "**/*.md"
+inq.exclude:
+  - "inbox/"
 inq.ambient:
   - "**/*.py"
+  - "inbox/**/*.md"
 ---
 # The Grain of Causal Scale
 

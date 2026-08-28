@@ -121,7 +121,7 @@ $$
 }
 $$
 
-Two boundaries are essential. Physical Schwarzschild--de Sitter has \(m\ge0\), so without the declared negative-parameter extension this is a one-sided rank jump, not a spectral flow. And the \(A_2\) Nariai fold is an eigenvalue collision away from zero; it becomes a zero-crossing only after a spectral cut is independently chosen. [[inbox/the-rank-two-cell/the-rank-two-cell|The rank-two cell]], [[algebra/a2-positive-completion|positive completion]], and [[flux-record-and-top-form-realizations/inq|the boundary-flux audit]] own these distinctions.
+Two boundaries are essential. Physical Schwarzschild--de Sitter has \(m\ge0\), so without the declared negative-parameter extension this is a one-sided rank jump, not a spectral flow. And the \(A_2\) Nariai fold is an eigenvalue collision away from zero; it becomes a zero-crossing only after a spectral cut is independently chosen. [[the-grain-of-causal-scale/inbox/the-rank-two-cell/the-rank-two-cell.md|The rank-two cell]], [[algebra/a2-positive-completion|positive completion]], and [[flux-record-and-top-form-realizations/inq|the boundary-flux audit]] own these distinctions.
 
 ## A proposed definition
 
@@ -174,7 +174,7 @@ The present corpus contains three promising but inequivalent notions of spectrum
 
    the six oriented differences \(\lambda_i-\lambda_j\) form the \(A_2\) root pattern. They are exact spectral-branch differences, not yet measured transition frequencies.
 
-2. **Box resonances.** [[inbox/the-box-spectrum-functor/the-box-spectrum-functor|The box-spectrum functor]] and [[inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder|the de Sitter box]] introduce an associative wave operator with outgoing boundary conditions. Genuine lines would be poles
+2. **Box resonances.** [[the-grain-of-causal-scale/inbox/the-box-spectrum-functor/the-box-spectrum-functor.md|The box-spectrum functor]] and [[the-grain-of-causal-scale/inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder.md|the de Sitter box]] introduce an associative wave operator with outgoing boundary conditions. Genuine lines would be poles
 
    $$
    z_n=E_n-\frac i2\Gamma_n
@@ -213,7 +213,7 @@ z_*=E_*-\frac i2\Gamma_*.
 }
 $$
 
-This gives “resonance harmonic of the octonionic wavefunction” a category-safe meaning: the internal multiplicities or selection rules descend from Jordan/\(A_2\) spectral data, while the actual resonance belongs to an associative operator obtained after the wall. [[inbox/operator-signature-verdict/schrodinger-discipline|Schrödinger discipline]] states the obligation: name the operator, domain, boundary conditions, inner product, and one solved spectral benchmark.
+This gives “resonance harmonic of the octonionic wavefunction” a category-safe meaning: the internal multiplicities or selection rules descend from Jordan/\(A_2\) spectral data, while the actual resonance belongs to an associative operator obtained after the wall. [[the-grain-of-causal-scale/inbox/operator-signature-verdict/schrodinger-discipline.md|Schrödinger discipline]] states the obligation: name the operator, domain, boundary conditions, inner product, and one solved spectral benchmark.
 
 ## Linewidth, quality factor, and the cosmic leak
 
@@ -317,7 +317,7 @@ $$
 \Gamma_0=\hbar\kappa.
 $$
 
-If the near-Nariai width in [[inbox/h0-width-address-anchor/h0-width-address-anchor|width, address, anchor]] is soldered to \(\kappa=H_c\), the fundamental linewidth is exactly \(\hbar H_c\). Yet obtaining the line center requires
+If the near-Nariai width in [[the-grain-of-causal-scale/inbox/h0-width-address-anchor/h0-width-address-anchor.md|width, address, anchor]] is soldered to \(\kappa=H_c\), the fundamental linewidth is exactly \(\hbar H_c\). Yet obtaining the line center requires
 
 $$
 \frac{V_0}{\kappa^2}-\frac14
@@ -345,7 +345,7 @@ $$
 \text{locally associative complex presentation}.
 $$
 
-Complex amplitudes can therefore belong to the local presentation by which the global structure becomes observable without requiring the global ontology itself to be an ordinary complex Hilbert space. [[inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra|Black holes as Jordan spectra]] owns the octonionic calculation.
+Complex amplitudes can therefore belong to the local presentation by which the global structure becomes observable without requiring the global ontology itself to be an ordinary complex Hilbert space. [[the-grain-of-causal-scale/inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra.md|Black holes as Jordan spectra]] owns the octonionic calculation.
 
 Two firewalls remain. The octonionic nearly Kähler structure on \(S^6\) is non-integrable, whereas an integrable complex structure on \(S^6\), if supplied by the manuscript studied elsewhere in the corpus, is a different structure and cannot also be Kähler because \(b_2(S^6)=0\). And \(\mathfrak h_3(\mathbb O)\) is an exceptional Euclidean Jordan algebra, not the self-adjoint part of an associative complex-Hilbert operator algebra. Its spectral decomposition is exact; its literal “wavefunction” and resonance dynamics are open constructions.
 
