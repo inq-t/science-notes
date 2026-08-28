@@ -4,7 +4,7 @@ The CH0-selected minimal chiral-acoustic package passes its first nested-model t
 
 ## The package was frozen before this fit
 
-In [[minimal-cosmodynamic-closure/prediction-contract|the prediction contract]], CH0 selects the PDG charged-pion-decay prescription. The tested object is larger: that branch plus the common-count construction and [[inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic|the post-search acoustic characteristic]]. This CH0-selected minimal package is
+In [[minimal-cosmodynamic-closure/prediction-contract|the prediction contract]], CH0 selects the PDG charged-pion-decay prescription. The tested object is larger: that branch plus the common-count construction and [[causal-grain-cosmology/inq#The equation that snapped into place|the post-search acoustic characteristic]]. This CH0-selected minimal package is
 
 $$
 Q_\chi

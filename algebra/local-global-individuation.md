@@ -95,7 +95,7 @@ $$
 \sigma_t^\omega{}^{-1}=\sigma_{-t}^\omega.
 $$
 
-Modular flow additionally depends on a faithful state or weight, can be trivial for a trace, and is a two-sided \(\mathbb R\)-action. Although \(\Delta_\omega^{it}\) implements it in the standard Hilbert-space representation, \(\sigma_t^\omega\) need not be inner in \(\mathcal M\); under the appropriate hypotheses, change of faithful weight alters the flow by a Connes cocycle and leaves the corresponding outer class invariant. Interpreting that flow as physical time requires a thermal-time or related bridge. Finite-order $A_2$ monodromy is not KMS flow, RG flow, or cosmic time. [[causal-wall-spectral-theory/sources/legacy/calc-chats/a2-wall-rejection|The earlier $A_2$ wall rejection]] records this no-go.
+Modular flow additionally depends on a faithful state or weight, can be trivial for a trace, and is a two-sided \(\mathbb R\)-action. Although \(\Delta_\omega^{it}\) implements it in the standard Hilbert-space representation, \(\sigma_t^\omega\) need not be inner in \(\mathcal M\); under the appropriate hypotheses, change of faithful weight alters the flow by a Connes cocycle and leaves the corresponding outer class invariant. Interpreting that flow as physical time requires a thermal-time or related bridge. Finite-order $A_2$ monodromy is not KMS flow, RG flow, or cosmic time. The earlier rejection note formerly recorded at `causal-wall-spectral-theory/sources/legacy/calc-chats/a2-wall-rejection` is absent from this checkout; the no-go is retained here.
 
 A conditional expectation
 

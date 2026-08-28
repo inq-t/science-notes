@@ -32,7 +32,7 @@ $$
 \nu:\mathcal N\longrightarrow\mathcal M
 $$
 
-is **tempered** when there exists a normal faithful semifinite operator-valued weight from \(\mathcal M\) onto \(\nu(\mathcal N)\). Such arrows compose. [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's functoriality theorem]] then gives a canonical compatible morphism of Falcone--Takesaki cores, and the core map for a composite equals the composite of the core maps. Conversely, a compatible extension of an inclusion to the noncommutative flows implies tempering under the theorem's hypotheses.
+is **tempered** when there exists a normal faithful semifinite operator-valued weight from \(\mathcal M\) onto \(\nu(\mathcal N)\). Such arrows compose. [[library/functoriality-of-connes-takesaki-flow-of-weights/inq|Elliott's functoriality theorem]] then gives a canonical compatible morphism of Falcone--Takesaki cores, and the core map for a composite equals the composite of the core maps. Conversely, a compatible extension of an inclusion to the noncommutative flows implies tempering under the theorem's hypotheses.
 
 Thus functorial core transport along a chain is **[STANDARD ON THE TEMPERED SUBCATEGORY]**. A wall candidate still has to construct its physical arrows and prove that they are tempered. The theorem does not choose states, establish a BKM tangent, prove effective descent over covers, or extend center-valued flow functoriality to arbitrary arrows; the center is functorial only on further proper subcategories. A bare phrase such as “pass to the core” therefore does not discharge W0c.
 

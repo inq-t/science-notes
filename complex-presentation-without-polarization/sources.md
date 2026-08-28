@@ -4,7 +4,7 @@ The conditional \(S^6\) manuscript supplies the motivating geometry; established
 
 ## Conditional local source
 
-- *A compact complex threefold fibred by tori over the projective line, and the six-sphere*, anonymous 108-page manuscript archived as the [local source PDF](../library/complex-structure-on-s6/s6.pdf) and summarized in [[library/complex-structure-on-s6/inq|the library module]]. It claims the complex-threefold construction and computes the signature-\((1,1)\) Hodge form in Remark 3.23. Its lack of attribution, review status, and conflict with published work are recorded in [[algebra/s6-manuscript-branch|the source audit]].
+- *A compact complex threefold fibred by tori over the projective line, and the six-sphere*, anonymous 108-page manuscript archived as the [[library/complex-structure-on-s6/s6.pdf|local source PDF]] and summarized in [[library/complex-structure-on-s6/inq|the library module]]. It claims the complex-threefold construction and computes the signature-\((1,1)\) Hodge form in Remark 3.23. Its lack of attribution, review status, and conflict with published work are recorded in [[algebra/s6-manuscript-branch|the source audit]].
 
 ## Primary mathematical sources
 

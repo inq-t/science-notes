@@ -327,7 +327,7 @@ z(w_X = −1) = z(ρ_X = ρ_\*) = z(ρ_X = ρ_m). In the DESI CPL best fit these
 separate by Δz = 0.019, so the identification is falsifiable.
 **K4:** dies if they separate beyond errors.
 
-**P5 — modular positivity.** 𝔖_J(z) = 6 ln[(1+z_c)/(1+z)](1+w(z)) ≥ 0 everywhere.
+**P5 — modular positivity.** \(\mathfrak S_J(z)=6\ln\!\bigl((1+z_c)/(1+z)\bigr)\bigl(1+w(z)\bigr)\geq0\) everywhere.
 A relative entropy cannot be negative.
 **K5:** dies if the reconstruction puts quintessence before the crossing.
 

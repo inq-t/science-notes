@@ -2,6 +2,8 @@
 inq.module: "entropic-gravity"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - "sources/*.xml"
 ---
 # Entropic Gravity
 

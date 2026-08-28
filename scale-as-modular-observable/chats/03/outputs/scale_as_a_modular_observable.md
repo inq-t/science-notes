@@ -701,7 +701,7 @@ separate beyond errors.
 **K5:** a clean, non-boundary-dominated determination above the ceiling falsifies
 the branch.
 
-**P6 — modular positivity.** 𝔖_J(z) = 6 ln[(1+z_c)/(1+z)](1+w(z)) ≥ 0 at every z.
+**P6 — modular positivity.** \(\mathfrak S_J(z)=6\ln\!\bigl((1+z_c)/(1+z)\bigr)\bigl(1+w(z)\bigr)\geq0\) at every \(z\).
 **K6:** fails if the reconstruction places quintessence before the crossing.
 
 **P7 — the capacity ratio.** γ_⊥,c = 2Ω_X,c/ϱ⊥² = 1. This is a cross-disciplinary

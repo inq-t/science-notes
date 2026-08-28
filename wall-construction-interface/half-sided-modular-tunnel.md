@@ -33,7 +33,7 @@ $$
 \alpha_{r+s}=\alpha_r\alpha_s.
 $$
 
-This is **[STANDARD]**; [[library/extension-of-borchers-structure-theorem|Araki and Zsido]] is the primary-source owner. Define the algebraic tunnel
+This is **[STANDARD]**; [[library/extension-of-borchers-structure-theorem/inq|Araki and Zsido]] is the primary-source owner. Define the algebraic tunnel
 
 $$
 \mathcal A_r:=\alpha_r(\mathcal M).

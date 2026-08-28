@@ -12,7 +12,7 @@ The rung is clean — the nearest standard scale is $m_\mu/2$ at $11.9\%$ — so
 
 ## 1. $\gamma=2$: three faces, one integer
 
-The bulk cell of [[inbox/the-carrier-and-zeta/the-carrier-and-zeta|the carrier note]] was left with an undetermined multiplicity. The arc's own structures determine it, provided one identification: **the cell is the trace-zero triple** — the object that has appeared at every level (the Jordan spectrum of $\mathfrak h_3(\mathbb O)$, the SdS horizon triple, the depressed $A_2$ cubic). Then:
+The bulk cell of [[the-grain-of-causal-scale/inbox/the-carrier-and-zeta/the-carrier-and-zeta|the carrier note]] was left with an undetermined multiplicity. The arc's own structures determine it, provided one identification: **the cell is the trace-zero triple** — the object that has appeared at every level (the Jordan spectrum of $\mathfrak h_3(\mathbb O)$, the SdS horizon triple, the depressed $A_2$ cubic). Then:
 
 - **Rank.** A triple with $\sum x_i=0$ has two degrees of freedom (receipt): the cell's channel space is the $A_2$ Cartan, dimension two.
 - **Born positivity.** Across the entire admissible mass range, the SdS triple realizes exactly two slots as geometry — $r_c,r_h>0$ — while the balancer $r_3=-(r_c+r_h)$ is negative always (receipt). $\gamma$ counts channels that can *write to the areal ledger*; a slot with no realizable radius writes nothing. The balancer is the bookkeeping that makes the other two a conserved pair — the same exclusion the Born-positivity section of the carrier note typed, now doing quantitative work.

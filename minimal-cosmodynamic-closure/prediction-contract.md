@@ -257,7 +257,7 @@ This is the cleaner algebraic closure, but the input \(\omega_m\) is presently i
 
 The oracle therefore does **not** dissolve the Hubble tension: it selects the low-\(H_0\) side. The [SH0ES Cepheid--supernova result](https://arxiv.org/abs/2112.04510) reports \(73.04\pm1.04\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\). A model-consistent local absolute analysis remaining near that value, with the chiral and ordinary-density inputs unchanged, would falsify the strong common-count/chiral completion even if the background shape survived.
 
-The old \(H_c=82.64\) grain entry mixed a re-solved \(H_0\) with a reference-composition value of \(H_c/H_0\). [[inbox/the-constants-of-nature/entry|The constants audit]] and this contract supersede that mixture by requiring one composition convention per oracle.
+The old \(H_c=82.64\) grain entry mixed a re-solved \(H_0\) with a reference-composition value of \(H_c/H_0\). [[minimal-cosmodynamic-closure/inbox/the-constants-of-nature/entry|The constants audit]] and this contract supersede that mixture by requiring one composition convention per oracle.
 
 ## The reverse protocol for \(G\)
 

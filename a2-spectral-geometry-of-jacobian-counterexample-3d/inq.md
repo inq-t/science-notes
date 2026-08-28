@@ -4,12 +4,8 @@ inq.include:
   - "**/*.md"
 inq.ambient:
   - "**/*.tex"
-  - "**/*.bib"
-  - "**/*.bbl"
   - "**/*.py"
   - "**/*.txt"
-  - "**/*.pdf"
-  - "**/*.json"
 ---
 # The $A_2$ Spectral Geometry of the 2026 Jacobian Counterexample
 

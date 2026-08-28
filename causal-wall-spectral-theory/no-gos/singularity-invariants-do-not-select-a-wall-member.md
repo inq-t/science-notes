@@ -53,4 +53,4 @@ This establishes a methodological **[NO-GO]**:
 
 > A discrete invariant or verified coincidence cannot select a physical CWST member without a typed map from the candidate mathematics to the wall carrier, state, transport, source operator, and response.
 
-An \(A_2\) route could be reopened only by constructing such a map independently of the observed tilt or running and deriving the relevant flow coefficient from it. The original attempt and its receipts remain locally reviewable through [[causal-wall-spectral-theory/sources/legacy/calc-chats/a2-wall-rejection|the detailed rejection note]].
+An \(A_2\) route could be reopened only by constructing such a map independently of the observed tilt or running and deriving the relevant flow coefficient from it. The detailed rejection note formerly recorded at `causal-wall-spectral-theory/sources/legacy/calc-chats/a2-wall-rejection` is absent from this checkout; this note preserves its conclusion.

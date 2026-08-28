@@ -205,7 +205,7 @@ The correspondence provider is complete only if it supplies:
 5. Q-system, inclusion-plus-expectation, or declared channel data for every noninvertible wall map; and
 6. the compatible central edge state and composition law whenever an edge-entropy claim is made.
 
-For the important special case in which each scale arrow is a tempered normal unital $*$-homomorphism, [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's theorem]] already makes the Falcone--Takesaki core functorial along chains. The open work is to prove that the physical arrows are tempered and to establish effective descent on genuine covers; core functoriality itself should not be advertised as the missing theorem. Arbitrary correspondences and center-valued flows require additional hypotheses.
+For the important special case in which each scale arrow is a tempered normal unital $*$-homomorphism, [[library/functoriality-of-connes-takesaki-flow-of-weights/inq|Elliott's theorem]] already makes the Falcone--Takesaki core functorial along chains. The open work is to prove that the physical arrows are tempered and to establish effective descent on genuine covers; core functoriality itself should not be advertised as the missing theorem. Arbitrary correspondences and center-valued flows require additional hypotheses.
 
 ## Downstream continuation is not provider completion
 

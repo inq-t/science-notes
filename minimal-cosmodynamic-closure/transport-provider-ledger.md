@@ -40,7 +40,7 @@ $$
 
 Its invariant reference state is horizontally BKM-null. A nonzero response requires a separately declared faithful state path, so half-sided modularity supplies orientation and transport rather than the physical response law.
 
-[[wall-construction-interface/cross-fiber-transport|Cross-fiber transport]] records a second standard theorem: tempered normal unital \(*\)-homomorphisms induce canonical compatible morphisms of Falcone--Takesaki cores, and composite arrows induce composite core maps. [[library/functoriality-of-connes-takesaki-flow-of-weights|Elliott's theorem]] owns the primary functoriality result. A proposed physical arrow must still be constructed and proved tempered. Half-sided invariance alone does not supply the operator-valued weight required for that conclusion, so the half-sided and Elliott routes cannot be chained without another theorem.
+[[wall-construction-interface/cross-fiber-transport|Cross-fiber transport]] records a second standard theorem: tempered normal unital \(*\)-homomorphisms induce canonical compatible morphisms of Falcone--Takesaki cores, and composite arrows induce composite core maps. [[library/functoriality-of-connes-takesaki-flow-of-weights/inq|Elliott's theorem]] owns the primary functoriality result. A proposed physical arrow must still be constructed and proved tempered. Half-sided invariance alone does not supply the operator-valued weight required for that conclusion, so the half-sided and Elliott routes cannot be chained without another theorem.
 
 ## The typed contextual provider
 

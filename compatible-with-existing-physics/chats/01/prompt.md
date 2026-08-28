@@ -7,5 +7,5 @@ By "compatible", it could mean how Newton is compatible with GR -- as if general
 Check that this model is not flagrantly at odds with prevailing models.
 
 context:
-- [[Causal_Wall_Spectral_Theory_v3.tex]]
-- [[Causal_Scale_Dynamics_Master_v7_0.tex]]
+- [[causal-wall-spectral-theory/inq|Causal Wall Spectral Theory]]
+- [[causal-scale-theory/sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0.tex|Causal_Scale_Dynamics_Master_v7_0.tex]]

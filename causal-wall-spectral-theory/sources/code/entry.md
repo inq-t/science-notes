@@ -8,7 +8,7 @@ This directory holds commit-pinned local snapshots of the public ACT DR6 likelih
 - [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb/DR6-ACT-lite-627aeafb88ae5ad1aa66b406bea2d65cfa66a27d/README.md|Local readme]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb/DR6-ACT-lite-627aeafb88ae5ad1aa66b406bea2d65cfa66a27d/yamls/parameters/nrun.yaml|Running parameter definition]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb/DR6-ACT-lite-627aeafb88ae5ad1aa66b406bea2d65cfa66a27d/yamls/p-act-lb-lcdm.yaml|P--ACT--lensing--BAO example]]
-- [[causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb.zip|Commit archive]]
+- Commit archive: `causal-wall-spectral-theory/sources/code/act-dr6-cmbonly-627aeafb.zip`
 
 The package evaluates the foreground-marginalized CMB-only SACC interface documented by [[data/act-dr6-cosmology-products/inq|the ACT DR6 dataset module]].
 
@@ -17,7 +17,7 @@ The package evaluates the foreground-marginalized CMB-only SACC interface docume
 - Revision: `4220e14efb3a995f47c9f54cb687479e558c6138`
 - [[causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e/act_dr6_mflike-4220e14efb3a995f47c9f54cb687479e558c6138/README.rst|Local readme]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e/act_dr6_mflike-4220e14efb3a995f47c9f54cb687479e558c6138/examples/act_dr6_example.yml|Example likelihood configuration]]
-- [[causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e.zip|Commit archive]]
+- Commit archive: `causal-wall-spectral-theory/sources/code/act-dr6-mflike-4220e14e.zip`
 
 This package consumes the full multifrequency SACC interface documented by [[data/act-dr6-cosmology-products/inq|the ACT DR6 dataset module]] and introduces the foreground and nuisance model absent from the CMB-only product.
 
@@ -27,7 +27,7 @@ This package consumes the full multifrequency SACC interface documented by [[dat
 - [[causal-wall-spectral-theory/sources/code/act-dr6-parameters-fad1d4c9/ACT-DR6-parameters-fad1d4c97cd56a40955be4e7ba16c0307200b9bb/README.md|Local readme]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-parameters-fad1d4c9/ACT-DR6-parameters-fad1d4c97cd56a40955be4e7ba16c0307200b9bb/likelihoods/act_dr6_extended.yaml|Extended-model likelihood definition]]
 - [[causal-wall-spectral-theory/sources/code/act-dr6-parameters-fad1d4c9/ACT-DR6-parameters-fad1d4c97cd56a40955be4e7ba16c0307200b9bb/runs/dr6_camb.yaml|Baseline CAMB run]]
-- [[causal-wall-spectral-theory/sources/code/act-dr6-parameters-fad1d4c9.zip|Commit archive]]
+- Commit archive: `causal-wall-spectral-theory/sources/code/act-dr6-parameters-fad1d4c9.zip`
 
 ## Other local released code
 
