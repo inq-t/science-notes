@@ -3,7 +3,7 @@ inq.module: "des-dovekie-distance-likelihood"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # DES-Dovekie Distance Likelihood
 
@@ -15,8 +15,8 @@ The DES-Dovekie supernova release pairs an ordered 1,820-row Hubble diagram with
 - **Creator:** Dark Energy Survey Supernova Program.
 - **Release:** DES-SN5YR public reduction current at commit `c9a4fcafc4cbd19bd750dee47fc76194a45c181f`.
 - **Associated article:** [[library/dark-energy-survey-supernova-program-reanalysis/inq|Dark Energy Survey Supernova Program: Reanalysis of DES-SN5YR with DES-Dovekie]].
-- **Local storage:** `causal-scale-theory/sources/late-time-background/`.
-- **Git status:** both compact files are tracked.
+- **Local cache:** `data/des-dovekie-distance-likelihood/local/`.
+- **Git status:** the 6.1 MiB likelihood pair is fetched on demand; `local/` is ignored and excluded from the module inventory.
 
 ## Structure
 
@@ -29,7 +29,7 @@ The DES-Dovekie supernova release pairs an ordered 1,820-row Hubble diagram with
 | `DES-Dovekie_HD.csv` | 148,002 | `2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf` |
 | `DES-Dovekie_STAT+SYS.npz` | 6,244,951 | `ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b` |
 
-The CobayaSampler mirror renames the precision file `covtot_inv_000.npz`; that remote file is byte-identical. Its normalized distance table retains the same eight numerical columns and row order while replacing `CID` with a row index. No second local copy is present, so there is nothing to delete or move.
+The CobayaSampler mirror renames the precision file `covtot_inv_000.npz`; that remote file is byte-identical. Its normalized distance table retains the same eight numerical columns and row order while replacing `CID` with a row index. Do not store a second local copy unless a consumer specifically requires the mirror's layout.
 
 ## Fetch
 
@@ -38,5 +38,4 @@ Download the primary collaboration products directly from DES-SN5YR:
 - [Hubble diagram](https://raw.githubusercontent.com/des-science/DES-SN5YR/main/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv)
 - [packed precision matrix](https://raw.githubusercontent.com/des-science/DES-SN5YR/main/4_DISTANCES_COVMAT/STAT%2BSYS.npz)
 
-The collaboration's [CosmoSIS likelihood implementation](https://github.com/des-science/DES-SN5YR/blob/main/5_COSMOLOGY/Dovekie_cosmosis_likelihood.py) defines the row mask, two-redshift luminosity distance, unpacking convention, and analytic nuisance treatment. Place both files under the local-storage path above, together with the DESI pair, to use the existing robustness-receipt defaults.
-
+The collaboration's [CosmoSIS likelihood implementation](https://github.com/des-science/DES-SN5YR/blob/main/5_COSMOLOGY/Dovekie_cosmosis_likelihood.py) defines the row mask, two-redshift luminosity distance, unpacking convention, and analytic nuisance treatment. Place both files in `local/`; the robustness receipt finds them there by default and reads the separately bundled DESI pair from [[data/desi-dr2-bao-gaussian-likelihood/inq|its own module]].

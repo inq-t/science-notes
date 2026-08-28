@@ -63,7 +63,7 @@ The corpus was retrieved on 2026-08-23 from arXiv and the official SPARC data si
 
 | Local file | Upstream URL |
 |---|---|
-| [[vendor/entropic-gravity/sources/data/SPARC_Lelli2016c.mrt|SPARC galaxy sample]] | [official SPARC table](https://astroweb.case.edu/SPARC/SPARC_Lelli2016c.mrt) |
-| [[vendor/entropic-gravity/sources/data/MassModels_Lelli2016c.mrt|SPARC resolved mass models]] | [official SPARC table](https://astroweb.case.edu/SPARC/MassModels_Lelli2016c.mrt) |
-| [[vendor/entropic-gravity/sources/data/RAR.mrt|individual radial-acceleration measurements]] | [official RAR table](https://astroweb.case.edu/SPARC/RAR.mrt) |
-| [[vendor/entropic-gravity/sources/data/RARbins.mrt|binned radial-acceleration relation]] | [official RAR bins](https://astroweb.case.edu/SPARC/RARbins.mrt) |
+| [[data/sparc-galaxy-sample-and-mass-models/SPARC_Lelli2016c.mrt|SPARC galaxy sample]] | [official SPARC table](https://astroweb.case.edu/SPARC/SPARC_Lelli2016c.mrt) |
+| [[data/sparc-galaxy-sample-and-mass-models/MassModels_Lelli2016c.mrt|SPARC resolved mass models]] | [official SPARC table](https://astroweb.case.edu/SPARC/MassModels_Lelli2016c.mrt) |
+| [[data/radial-acceleration-relation-data/RAR.mrt|individual radial-acceleration measurements]] | [official RAR table](https://astroweb.case.edu/SPARC/RAR.mrt) |
+| [[data/radial-acceleration-relation-data/RARbins.mrt|binned radial-acceleration relation]] | [official RAR bins](https://astroweb.case.edu/SPARC/RARbins.mrt) |

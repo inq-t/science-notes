@@ -4,7 +4,6 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
-  - "sources/code/*.zip"
 ---
 # Causal-Wall Spectral Theory
 

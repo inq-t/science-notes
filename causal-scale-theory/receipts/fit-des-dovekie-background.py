@@ -34,6 +34,10 @@ BASE = importlib.util.module_from_spec(BASE_SPEC)
 sys.modules[BASE_SPEC.name] = BASE
 BASE_SPEC.loader.exec_module(BASE)
 
+WORKSPACE_ROOT = HERE.parents[1]
+DEFAULT_DOVEKIE_DATA_DIR = (
+    WORKSPACE_ROOT / "data/des-dovekie-distance-likelihood/local"
+)
 
 SOURCES = {
     "desi_dr2_bao_mean.txt": BASE.SOURCES["desi_dr2_bao_mean.txt"],
@@ -54,6 +58,11 @@ SOURCES = {
     },
 }
 
+BAO_FILENAMES = (
+    "desi_dr2_bao_mean.txt",
+    "desi_dr2_bao_cov.txt",
+)
+
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
@@ -63,9 +72,10 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def verify_sources(data_dir: Path) -> dict[str, str]:
+def verify_sources(bao_data_dir: Path, dovekie_data_dir: Path) -> dict[str, str]:
     hashes: dict[str, str] = {}
     for filename, metadata in SOURCES.items():
+        data_dir = bao_data_dir if filename in BAO_FILENAMES else dovekie_data_dir
         path = data_dir / filename
         if not path.exists():
             raise FileNotFoundError(
@@ -236,14 +246,19 @@ def fit_model(
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", required=True, type=Path)
+    parser.add_argument(
+        "--bao-data-dir", type=Path, default=BASE.DEFAULT_BAO_DATA_DIR
+    )
+    parser.add_argument(
+        "--dovekie-data-dir", type=Path, default=DEFAULT_DOVEKIE_DATA_DIR
+    )
     parser.add_argument("--output", type=Path)
     parser.add_argument("--omega-r", type=float, default=9.15e-5)
     args = parser.parse_args()
 
-    hashes = verify_sources(args.data_dir)
-    dovekie, dovekie_metadata = load_dovekie(args.data_dir)
-    bao_2025 = BASE.load_bao(args.data_dir)
+    hashes = verify_sources(args.bao_data_dir, args.dovekie_data_dir)
+    dovekie, dovekie_metadata = load_dovekie(args.dovekie_data_dir)
+    bao_2025 = BASE.load_bao(args.bao_data_dir)
     bao_2026 = BASE.with_2026_lya_full_shape(bao_2025)
 
     # Popovic et al. neglect radiation for the SN-only fit.  This separate

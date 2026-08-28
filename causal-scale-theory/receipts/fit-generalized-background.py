@@ -639,7 +639,14 @@ def negative_reference_audit(likelihood: Likelihood) -> dict[str, float]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", required=True, type=Path)
+    parser.add_argument(
+        "--bao-data-dir", type=Path, default=BASE.DEFAULT_BAO_DATA_DIR
+    )
+    parser.add_argument(
+        "--pantheon-data-dir",
+        type=Path,
+        default=BASE.DEFAULT_PANTHEON_DATA_DIR,
+    )
     parser.add_argument("--output", type=Path)
     parser.add_argument(
         "--dataset",
@@ -653,9 +660,9 @@ def main() -> None:
     parser.add_argument("--omega-r", type=float, default=9.15e-5)
     args = parser.parse_args()
 
-    hashes = BASE.verify_sources(args.data_dir)
-    pantheon = BASE.load_pantheon(args.data_dir)
-    released_bao = BASE.load_bao(args.data_dir)
+    hashes = BASE.verify_sources(args.bao_data_dir, args.pantheon_data_dir)
+    pantheon = BASE.load_pantheon(args.pantheon_data_dir)
+    released_bao = BASE.load_bao(args.bao_data_dir)
     if args.dataset == "desi-dr2-bao-2025":
         bao = released_bao
         dataset_label = "2025 DESI DR2 BAO and Pantheon+"

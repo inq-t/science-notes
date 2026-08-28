@@ -11,8 +11,7 @@ inq.include:
 inq.ambient:
   - "receipts/*.py"
   - "receipts/*.json"
-  - "sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0.md"
-  - "sources/legacy/unpacked-v7-package/causal_scale_dynamics_v7/Causal_Scale_Dynamics_Master_v7_0.tex"
+  - "sources/legacy/**"
 ---
 # Causal Scale Theory
 

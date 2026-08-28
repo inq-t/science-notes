@@ -17,7 +17,7 @@ The machine-readable radial-acceleration-relation release contains 2,693 resolve
 - **Publisher:** SPARC data site, Case Western Reserve University.
 - **Associated article:** [“One Law to Rule Them All: The Radial Acceleration Relation of Galaxies”](https://arxiv.org/abs/1610.08981), *The Astrophysical Journal* 836 (2017), 152.
 - **Retrieved locally:** 2026-08-23.
-- **Local storage:** `vendor/entropic-gravity/sources/data/`.
+- **Local files:** [[data/radial-acceleration-relation-data/RAR.mrt|the resolved table]] and [[data/radial-acceleration-relation-data/RARbins.mrt|the binned table]] are bundled with this module.
 - **Git status:** both compact tables are tracked.
 
 ## Structure

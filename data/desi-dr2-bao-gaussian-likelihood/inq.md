@@ -16,7 +16,7 @@ The DESI Data Release 2 compact BAO likelihood consists of a 13-element distance
 - **Release:** 2025 Data Release 2 cosmology products.
 - **Associated article:** [[library/desi-dr2-results-ii/inq|DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints]].
 - **Official release context:** [DESI DR2 BAO cosmology results](https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/README.html).
-- **Local storage:** `causal-scale-theory/sources/late-time-background/`.
+- **Local files:** [[data/desi-dr2-bao-gaussian-likelihood/desi_dr2_bao_mean.txt|the mean vector]] and [[data/desi-dr2-bao-gaussian-likelihood/desi_dr2_bao_cov.txt|the covariance]] are bundled with this module.
 - **Git status:** both compact text files are tracked.
 
 ## Structure
@@ -35,4 +35,3 @@ Download the exact compact files from the CobayaSampler likelihood-data reposito
 - [covariance matrix](https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt)
 
 Place both files together under the local-storage path above to use the existing receipt defaults. The fit scripts also accept a replacement directory through `--data-dir`, but that directory must contain the other paired late-time inputs expected by the selected receipt.
-

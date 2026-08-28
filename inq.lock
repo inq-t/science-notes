@@ -593,6 +593,7 @@ name = "des-dovekie-distance-likelihood"
 
 [local.links]
 dark-energy-survey-supernova-program-reanalysis = "local:dark-energy-survey-supernova-program-reanalysis"
+desi-dr2-bao-gaussian-likelihood = "local:desi-dr2-bao-gaussian-likelihood"
 
 [[local]]
 name = "descent"
@@ -1151,6 +1152,7 @@ name = "pantheon-plus-shoes-distance-likelihood"
 
 [local.links]
 comprehensive-local-hubble-constant-measurement = "local:comprehensive-local-hubble-constant-measurement"
+desi-dr2-bao-gaussian-likelihood = "local:desi-dr2-bao-gaussian-likelihood"
 pantheon-plus-analysis-cosmological-constraints = "local:pantheon-plus-analysis-cosmological-constraints"
 
 [[local]]

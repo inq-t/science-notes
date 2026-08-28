@@ -17,7 +17,7 @@ SPARC—the Spitzer Photometry and Accurate Rotation Curves compilation—provid
 - **Publisher:** SPARC data site, Case Western Reserve University.
 - **Associated article:** [[library/sparc-mass-models-for-175-disk-galaxies/inq|SPARC: Mass Models for 175 Disk Galaxies]].
 - **Retrieved locally:** 2026-08-23.
-- **Local storage:** `vendor/entropic-gravity/sources/data/`.
+- **Local files:** [[data/sparc-galaxy-sample-and-mass-models/SPARC_Lelli2016c.mrt|the galaxy sample]] and [[data/sparc-galaxy-sample-and-mass-models/MassModels_Lelli2016c.mrt|the resolved mass models]] are bundled with this module.
 - **Git status:** both compact tables are tracked.
 
 ## Structure
@@ -41,4 +41,3 @@ Download the official tables from the SPARC site:
 - [resolved mass models](https://astroweb.case.edu/SPARC/MassModels_Lelli2016c.mrt)
 
 The files contain no explicit standalone license statement in their headers. Scholarly reuse should cite the associated SPARC article and follow the source site's attribution expectations.
-

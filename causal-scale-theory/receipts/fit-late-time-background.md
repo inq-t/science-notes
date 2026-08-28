@@ -6,10 +6,13 @@ Run from the repository root with the bundled or any Python 3 interpreter carryi
 
 ```powershell
 python causal-scale-theory/receipts/fit-late-time-background.py `
-  --data-dir causal-scale-theory/sources/late-time-background `
-  --planck-chain-dir causal-wall-spectral-theory/sources/data/planck-2018/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --pantheon-data-dir data/pantheon-plus-shoes-distance-likelihood/local `
+  --planck-chain-dir data/planck-2018-release-3-cosmology-products/local/base-plikHM-TTTEEE-lowl-lowE/base/plikHM_TTTEEE_lowl_lowE `
   --output causal-scale-theory/receipts/late-time-background-fit.json
 ```
+
+The BAO and Pantheon paths shown are the defaults. Omit the Planck option when running only the released late-time likelihoods.
 
 The supernova nuisance offset is profiled from
 

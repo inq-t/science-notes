@@ -3,7 +3,7 @@ inq.module: "bicep-keck-2018-data-products"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # BICEP/Keck 2018 Data Products
 
@@ -17,8 +17,8 @@ The BK18 public release supplies compact bandpower, foreground-component, noise,
 - **Release DOI:** [10.71662/5etq-eh39](https://doi.org/10.71662/5etq-eh39).
 - **Associated article:** [[library/bicep-keck-2018-primordial-gravitational-waves/inq|Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season]].
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/bicep-keck-2018/` (100 files; 76,344,761 bytes including extracted working trees).
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/bicep-keck-2018-data-products/local/` (historically 100 files and 76,344,761 bytes including extracted working trees).
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Compact tables
 
@@ -58,5 +58,4 @@ The [BICEP/Keck product page](https://lambda.gsfc.nasa.gov/product/bicepkeck/bic
 - [CosmoMC likelihood archive](https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/BK18_cosmomc.tgz)
 - [$r$--$n_s$ companion archive](https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/rns_code.tgz)
 
-Restore files to the local-cache path above when an old workspace command requires that layout. The much larger full chain release is intentionally not mirrored.
-
+Restore files to the local-cache path above when needed. The much larger full chain release is intentionally not mirrored.

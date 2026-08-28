@@ -90,20 +90,10 @@ class CalibratedPantheonLikelihood:
     covariance_cholesky: np.ndarray
 
 
-def verify_sources(data_dir: Path) -> dict[str, str]:
-    hashes: dict[str, str] = {}
-    for filename, metadata in SOURCES.items():
-        path = data_dir / filename
-        if not path.exists():
-            raise FileNotFoundError(
-                f"missing {path}; obtain the unmodified file from {metadata['url']}"
-            )
-        actual = BASE.sha256(path)
-        expected = metadata["sha256"]
-        if actual != expected:
-            raise ValueError(f"SHA-256 mismatch for {path}: {actual} != {expected}")
-        hashes[filename] = actual
-    return hashes
+def verify_sources(
+    bao_data_dir: Path, pantheon_data_dir: Path
+) -> dict[str, str]:
+    return BASE.verify_sources(bao_data_dir, pantheon_data_dir)
 
 
 def all_numeric_values_are_finite(value: object) -> bool:
@@ -820,14 +810,23 @@ def add_external_reference_comparisons(
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", required=True, type=Path)
+    parser.add_argument(
+        "--bao-data-dir", type=Path, default=BASE.DEFAULT_BAO_DATA_DIR
+    )
+    parser.add_argument(
+        "--pantheon-data-dir",
+        type=Path,
+        default=BASE.DEFAULT_PANTHEON_DATA_DIR,
+    )
     parser.add_argument("--output", type=Path)
     parser.add_argument("--omega-r", type=float, default=9.15e-5)
     args = parser.parse_args()
 
-    source_hashes = verify_sources(args.data_dir)
-    likelihood, likelihood_metadata = load_calibrated_pantheon(args.data_dir)
-    bao = BASE.load_bao(args.data_dir)
+    source_hashes = verify_sources(args.bao_data_dir, args.pantheon_data_dir)
+    likelihood, likelihood_metadata = load_calibrated_pantheon(
+        args.pantheon_data_dir
+    )
+    bao = BASE.load_bao(args.bao_data_dir)
 
     # The collaboration's low-redshift flat-LambdaCDM validation carrier does
     # not need the fixed radiation term used in the project's common late-time

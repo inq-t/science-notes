@@ -3,7 +3,7 @@ inq.module: "planck-2015-release-2-cosmology-products"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # Planck 2015 Release-2 Cosmology Products
 
@@ -15,8 +15,8 @@ This local subset of the Planck 2015 public release preserves the compact CMB po
 - **Publisher:** ESA Planck Legacy Archive, mirrored by NASA/IPAC IRSA.
 - **Release:** 2015; likelihood software/data version R2.00 and power spectra version R2.02.
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/planck-2015-bkp/`.
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/planck-2015-release-2-cosmology-products/local/`.
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Retained products
 
@@ -38,5 +38,4 @@ The retained artifacts can be downloaded directly from IRSA:
 - [Extended lensing likelihood R2.00](https://irsa.ipac.caltech.edu/data/Planck/release_2/software/COM_Likelihood_Data-extra-lensing-ext.R2.00.tar.gz)
 - [`clik` likelihood code R2.00](https://irsa.ipac.caltech.edu/data/Planck/release_2/software/COM_Likelihood_Code-v2.0.R2.00.tar.bz2)
 
-For a complete reconstruction, consult the [Planck Release-2 software index](https://irsa.ipac.caltech.edu/data/Planck/release_2/software/) and fetch the additional likelihood products required by the intended analysis. Preserve the archive filenames and internal directory layouts when restoring the historical local cache.
-
+For a complete reconstruction, consult the [Planck Release-2 software index](https://irsa.ipac.caltech.edu/data/Planck/release_2/software/) and fetch the additional likelihood products required by the intended analysis. Preserve the archive filenames and internal directory layouts under the local cache.

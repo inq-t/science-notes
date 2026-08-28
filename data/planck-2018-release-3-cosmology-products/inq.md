@@ -3,7 +3,7 @@ inq.module: "planck-2018-release-3-cosmology-products"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # Planck 2018 Release-3 Cosmology Products
 
@@ -17,8 +17,8 @@ This Planck 2018 subset preserves the baseline TT, TE, EE, low-$\ell$, lowE post
 - **Release:** 2018 products; posterior and likelihood data R3.00, likelihood code and selected spectra R3.01/R3.02.
 - **Associated article:** [[library/planck-2018-cosmological-parameters/inq|Planck 2018 Results VI: Cosmological Parameters]].
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/planck-2018/` (642 files; 456,370,511 bytes including extracted working trees).
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/planck-2018-release-3-cosmology-products/local/` (historically 642 files and 456,370,511 bytes including extracted working trees).
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Posterior and compact spectra
 
@@ -59,5 +59,4 @@ Direct IRSA downloads are:
 - [EE binned spectrum](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-EE-binned_R3.02.txt)
 - [68% parameter table](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/result_table_2018_68pcp120.pdf)
 
-The [Release-3 cosmological-parameter index](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/) and [likelihood-software index](https://irsa.ipac.caltech.edu/data/Planck/release_3/software/index.html) list additional products. Restore required files under the historical local-cache path if using the existing receipts without modification.
-
+The [Release-3 cosmological-parameter index](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/) and [likelihood-software index](https://irsa.ipac.caltech.edu/data/Planck/release_3/software/index.html) list additional products. Restore required files under the local-cache path and pass their extracted chain directory explicitly to receipts that use it.

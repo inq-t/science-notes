@@ -121,7 +121,8 @@ Run
 
 ```powershell
 python causal-scale-theory/receipts/fit-des-dovekie-background.py `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --dovekie-data-dir data/des-dovekie-distance-likelihood/local `
   --output causal-scale-theory/receipts/des-dovekie-background-fit.json
 ```
 

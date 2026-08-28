@@ -8,9 +8,10 @@ analytically, so neither H0, r_d, nor an absolute supernova calibration is
 imported into the shape comparison.
 
 The four late-time source files and the optional Planck chain archive are
-unmodified public-release products. Pass their directories with --data-dir
-and, for the acoustic stress tests, --planck-chain-dir. The expected late-time
-filenames are listed in SOURCES.
+unmodified public-release products. The compact DESI likelihood is bundled in
+its data module; the larger Pantheon+ products are fetched into that module's
+ignored local cache. Override those locations with --bao-data-dir and
+--pantheon-data-dir. The expected filenames are listed in SOURCES.
 """
 
 from __future__ import annotations
@@ -31,6 +32,13 @@ import numpy as np
 
 C_KM_S = 299_792.458
 
+HERE = Path(__file__).resolve().parent
+WORKSPACE_ROOT = HERE.parents[1]
+DEFAULT_BAO_DATA_DIR = WORKSPACE_ROOT / "data/desi-dr2-bao-gaussian-likelihood"
+DEFAULT_PANTHEON_DATA_DIR = (
+    WORKSPACE_ROOT / "data/pantheon-plus-shoes-distance-likelihood/local"
+)
+
 SOURCES = {
     "desi_dr2_bao_mean.txt": {
         "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
@@ -49,6 +57,15 @@ SOURCES = {
         "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
     },
 }
+
+BAO_FILENAMES = (
+    "desi_dr2_bao_mean.txt",
+    "desi_dr2_bao_cov.txt",
+)
+PANTHEON_FILENAMES = (
+    "Pantheon+SH0ES.dat",
+    "Pantheon+SH0ES_STAT+SYS.cov",
+)
 
 PLANCK_ARCHIVE = {
     "filename": "COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip",
@@ -220,9 +237,14 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def verify_sources(data_dir: Path) -> dict[str, str]:
+def verify_sources(
+    bao_data_dir: Path, pantheon_data_dir: Path
+) -> dict[str, str]:
     hashes: dict[str, str] = {}
     for filename, metadata in SOURCES.items():
+        data_dir = (
+            bao_data_dir if filename in BAO_FILENAMES else pantheon_data_dir
+        )
         path = data_dir / filename
         if not path.exists():
             raise FileNotFoundError(
@@ -633,15 +655,20 @@ def fit_model(
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", required=True, type=Path)
+    parser.add_argument(
+        "--bao-data-dir", type=Path, default=DEFAULT_BAO_DATA_DIR
+    )
+    parser.add_argument(
+        "--pantheon-data-dir", type=Path, default=DEFAULT_PANTHEON_DATA_DIR
+    )
     parser.add_argument("--planck-chain-dir", type=Path)
     parser.add_argument("--output", type=Path)
     parser.add_argument("--omega-r", type=float, default=9.15e-5)
     args = parser.parse_args()
 
-    hashes = verify_sources(args.data_dir)
-    pantheon = load_pantheon(args.data_dir)
-    bao_2025 = load_bao(args.data_dir)
+    hashes = verify_sources(args.bao_data_dir, args.pantheon_data_dir)
+    pantheon = load_pantheon(args.pantheon_data_dir)
+    bao_2025 = load_bao(args.bao_data_dir)
     bao_2026 = with_2026_lya_full_shape(bao_2025)
     planck_acoustic: dict[str, object] | None = None
     acoustic_redshift = 1089.92

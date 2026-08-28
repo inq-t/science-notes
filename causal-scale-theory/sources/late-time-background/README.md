@@ -1,10 +1,10 @@
-# Late-Time Background Data
+# Late-Time Background Data Index
 
-This directory freezes the public inputs used by the direct CST-B2 background receipts: [[data/desi-dr2-bao-gaussian-likelihood/inq|the official 2025 DESI DR2 Gaussian BAO likelihood]], [[data/pantheon-plus-shoes-distance-likelihood/inq|the Pantheon+SH0ES distance likelihood]], and [[data/des-dovekie-distance-likelihood/inq|the DES-Dovekie distance likelihood]]. The 2026 DESI Ly\(\alpha\) full-shape update is not yet a released data product; its two distances and correlation are transcribed in the receipt from equation (26) of the primary paper and replace, rather than supplement, the 2025 Ly\(\alpha\) BAO pair.
+This directory indexes the public inputs used by the direct CST-B2 background receipts. The compact [[data/desi-dr2-bao-gaussian-likelihood/inq|2025 DESI DR2 Gaussian BAO likelihood]] is bundled with its data module. The larger [[data/pantheon-plus-shoes-distance-likelihood/inq|Pantheon+SH0ES]] and [[data/des-dovekie-distance-likelihood/inq|DES-Dovekie]] likelihood pairs are documented by their modules and fetched into ignored module-local caches when a receipt is run. The 2026 DESI Ly\(\alpha\) full-shape update is not yet a released data product; its two distances and correlation are transcribed in the receipt from equation (26) of the primary paper and replace, rather than supplement, the 2025 Ly\(\alpha\) BAO pair.
 
 ## Files and provenance
 
-| Local file | Upstream source | SHA-256 |
+| Module-local file | Upstream source | SHA-256 |
 |---|---|---|
 | `desi_dr2_bao_mean.txt` | [CobayaSampler official DESI DR2 likelihood data](https://github.com/CobayaSampler/bao_data/blob/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt) | `9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585` |
 | `desi_dr2_bao_cov.txt` | [CobayaSampler official DESI DR2 likelihood data](https://github.com/CobayaSampler/bao_data/blob/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt) | `252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509` |
@@ -19,7 +19,7 @@ The Pantheon+ table contains both Hubble-flow and Cepheid-host rows. The shape-o
 
 The DES-Dovekie files are the unmodified products at DES-SN5YR commit `c9a4fcafc4cbd19bd750dee47fc76194a45c181f`. The `.npz` product contains an upper-triangular **inverse** covariance, not a covariance. Its ordering matches `DES-Dovekie_HD.csv`; the release warns that the larger metadata table has a different ordering. [[library/dark-energy-survey-supernova-program-reanalysis/inq|Popovic et al.]] own the recalibration and cosmology analysis, while the collaboration's [likelihood implementation](https://github.com/des-science/DES-SN5YR/blob/main/5_COSMOLOGY/Dovekie_cosmosis_likelihood.py) owns the compact data interface and nuisance convention.
 
-The [CobayaSampler compact mirror](https://github.com/CobayaSampler/sn_data/tree/master/DES-Dovekie) renames the same precision product `covtot_inv_000.npz`; its SHA-256 is identical. Its comma-normalized distance table retains exactly the same eight numerical columns and row order while replacing `CID` with a row index. The collaboration products are archived here because they remain the primary source.
+The [CobayaSampler compact mirror](https://github.com/CobayaSampler/sn_data/tree/master/DES-Dovekie) renames the same precision product `covtot_inv_000.npz`; its SHA-256 is identical. Its comma-normalized distance table retains exactly the same eight numerical columns and row order while replacing `CID` with a row index. The receipts use the collaboration products because they remain the primary source.
 
 ## 2026 Ly\(\alpha\) replacement
 

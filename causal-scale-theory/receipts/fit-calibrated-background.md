@@ -196,7 +196,8 @@ Run
 
 ```powershell
 python causal-scale-theory/receipts/fit-calibrated-background.py `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --pantheon-data-dir data/pantheon-plus-shoes-distance-likelihood/local `
   --output causal-scale-theory/receipts/calibrated-background-fit.json
 ```
 

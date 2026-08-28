@@ -1,6 +1,6 @@
 # Source Index for Deriving the Value of $G$
 
-This index keeps `deriving-value-of-g` self-contained without duplicating article ownership: every external article cited by the canonical notes links to its one-source module under `library/`, while this module retains NIST's machine-readable constants table and its own provenance and checksum records. The index also includes four references used only in immutable chat history and the gravitational subregion-algebra paper used to test the modular argument. Inclusion records relevance to a proof obligation, not endorsement of every claim in a source.
+This index keeps `deriving-value-of-g` self-contained without duplicating article or dataset ownership: every external article cited by the canonical notes links to its one-source module under `library/`, while NIST's compact constants files live with [[data/codata-2022-fundamental-physical-constants/inq|their data module]]. This module retains the provenance and checksum ledgers that support its own calculations. The index also includes four references used only in immutable chat history and the gravitational subregion-algebra paper used to test the modular argument. Inclusion records relevance to a proof obligation, not endorsement of every claim in a source.
 
 ## Sources cited by the canonical notes
 

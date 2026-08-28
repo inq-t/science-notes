@@ -3,7 +3,7 @@ inq.module: "bicep2-keck-planck-2015-joint-likelihood"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # BICEP2/Keck–Planck 2015 Joint Likelihood
 
@@ -16,8 +16,8 @@ The January 2015 BICEP2/Keck Array and Planck joint-analysis release packages th
 - **Release:** January 2015; the packaged README is dated 2015-01-30.
 - **Distribution:** BICEP/Keck public products and NASA LAMBDA.
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/planck-2015-bkp/`.
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/bicep2-keck-planck-2015-joint-likelihood/local/`.
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Contents
 
@@ -33,7 +33,6 @@ The 318 KB archive and approximately 4.1 MB extracted tree are two representatio
 
 ## Fetch
 
-Download the release archive from [NASA LAMBDA](https://lambda.gsfc.nasa.gov/data/suborbital/BICEP2KP/BKP_likelihood_cosmomc_20150131.tgz). Extract it without flattening directories, then place the resulting tree under the local-cache path above if historical workspace paths are required.
+Download the release archive from [NASA LAMBDA](https://lambda.gsfc.nasa.gov/data/suborbital/BICEP2KP/BKP_likelihood_cosmomc_20150131.tgz). Extract it without flattening directories, then place the resulting tree under the local-cache path above.
 
 The likelihood was tested by its authors against the January 2015 CosmoMC release. Reproducing it with current software may require a compatible legacy environment in addition to these data products.
-

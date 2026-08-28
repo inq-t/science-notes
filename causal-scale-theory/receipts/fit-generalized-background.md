@@ -191,7 +191,8 @@ Run the canonical released-data profile with
 ```powershell
 python causal-scale-theory/receipts/fit-generalized-background.py `
   --dataset desi-dr2-bao-2025 `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --pantheon-data-dir data/pantheon-plus-shoes-distance-likelihood/local `
   --output causal-scale-theory/receipts/generalized-background-fit-2025.json
 ```
 
@@ -200,10 +201,11 @@ Run the provisional published-Gaussian update with
 ```powershell
 python causal-scale-theory/receipts/fit-generalized-background.py `
   --dataset desi-dr2-lya-2026 `
-  --data-dir causal-scale-theory/sources/late-time-background `
+  --bao-data-dir data/desi-dr2-bao-gaussian-likelihood `
+  --pantheon-data-dir data/pantheon-plus-shoes-distance-likelihood/local `
   --output causal-scale-theory/receipts/generalized-background-fit.json
 ```
 
-The script verifies the archived hashes, imports the base likelihood implementation, algebraically seeds the physical closure domain before optimization, profiles every stated nuisance and response parameter, and checks the nesting order. It writes [[causal-scale-theory/receipts/generalized-background-fit-2025.json|the released-data ledger]] and [[causal-scale-theory/receipts/generalized-background-fit.json|the provisional-update ledger]]. The released 2025 \(\nu=1\) profile directly replaces the old reported \(1.025\,[0.941,1.088]\) amplitude profile as the canonical late-time calculation; it does not claim to reproduce that historical likelihood or its differently named parameter exactly.
+The script verifies the source hashes, imports the base likelihood implementation, algebraically seeds the physical closure domain before optimization, profiles every stated nuisance and response parameter, and checks the nesting order. It writes [[causal-scale-theory/receipts/generalized-background-fit-2025.json|the released-data ledger]] and [[causal-scale-theory/receipts/generalized-background-fit.json|the provisional-update ledger]]. The released 2025 \(\nu=1\) profile directly replaces the old reported \(1.025\,[0.941,1.088]\) amplitude profile as the canonical late-time calculation; it does not claim to reproduce that historical likelihood or its differently named parameter exactly.
 
 The supplemental 2026 result is **[PROVISIONAL PUBLISHED-GAUSSIAN UPDATE]**. It says that this published compression is compatible with both unity principles but does not identify either one; AIC prefers the frozen unit member to the added flexibility. Reproducibility of the calculation does not promote its input into a released likelihood. Neither ledger tests the microscopic meaning of \(\nu\), the horizon-capacity interpretation of \(\mathfrak R_c\), perturbations, or primary CMB anisotropies.

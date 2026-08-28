@@ -3,7 +3,7 @@ inq.module: "act-dr6-cosmology-products"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # ACT DR6 Cosmology Products
 
@@ -17,8 +17,8 @@ The Atacama Cosmology Telescope Data Release 6 cosmology suite contains multifre
 - **Release families:** DR6.02 power-spectrum products and DR6 lensing likelihood version 1.2.
 - **Associated articles:** [[library/act-dr6-power-spectra-likelihoods-lambda-cdm/inq|The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and ΛCDM Parameters]] and [[library/the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological-models/inq|The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models]].
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/act-dr6/` (597 files; 5,181,144,163 bytes including extracted working trees).
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/act-dr6-cosmology-products/local/` (historically 597 files and 5,181,144,163 bytes including extracted working trees).
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Spectra and covariance products
 
@@ -55,4 +55,4 @@ The [ACT DR6.02 release page](https://lambda.gsfc.nasa.gov/product/act/act_dr6.0
 - [P--ACT-lite, BK, lensing, and BAO tensor chain](https://lambda.gsfc.nasa.gov/data/act/chains/r/p-actlite-bk-l-b_r_camb.tar.gz)
 - [DR6 lensing likelihood 1.2](https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/likelihood/data/ACT_dr6_likelihood_v1.2.tgz)
 
-Download only the product family required by an analysis. When extracting an archive, preserve its directory structure and restore it under the local-cache path above if an existing command expects the historical workspace layout.
+Download only the product family required by an analysis. When extracting an archive, preserve its directory structure under the local-cache path above.

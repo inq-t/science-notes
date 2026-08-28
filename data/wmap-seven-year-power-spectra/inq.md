@@ -3,7 +3,7 @@ inq.module: "wmap-seven-year-power-spectra"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # WMAP Seven-Year Power Spectra
 
@@ -15,8 +15,8 @@ The WMAP seven-year version 4.1 release provides combined temperature and polari
 - **Publisher:** NASA Legacy Archive for Microwave Background Data Analysis (LAMBDA), for the WMAP Science Team.
 - **Release:** version 4.1; TT and TE dated June 2010, EE dated October 2010.
 - **Retrieved locally:** 2026-08-22.
-- **Local cache:** `causal-wall-spectral-theory/sources/data/wmap7/`.
-- **Git status:** the local cache is intentionally ignored; this wrapper remains available in a blob-free clone.
+- **Local cache:** `data/wmap-seven-year-power-spectra/local/`.
+- **Git status:** `local/` is intentionally ignored and excluded from the module inventory; this note and its cache policy remain available in a blob-free clone.
 
 ## Contents
 
@@ -38,5 +38,4 @@ Download the files directly from NASA LAMBDA:
 - [TE spectrum](https://lambda.gsfc.nasa.gov/data/map/dr4/dcp/spectra/wmap_te_spectrum_7yr_v4p1.txt)
 - [EE spectrum](https://lambda.gsfc.nasa.gov/data/map/dr4/dcp/spectra/wmap_ee_spectrum_7yr_v4p1.txt)
 
-Place downloaded files under the local-cache path above if an existing workspace note or experiment expects the historical layout.
-
+Place downloaded files under the local-cache path above when needed.

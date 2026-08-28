@@ -3,7 +3,7 @@ inq.module: "pantheon-plus-shoes-distance-likelihood"
 inq.include:
   - "./"
 inq.ambient:
-  - "**"
+  - ".gitignore"
 ---
 # Pantheon+SH0ES Distance Likelihood
 
@@ -15,8 +15,8 @@ The Pantheon+SH0ES distance release pairs a 1,701-row Type Ia supernova table wi
 - **Creators:** Pantheon+ and SH0ES collaborations.
 - **Release:** 2022 public data release.
 - **Associated articles:** [[library/pantheon-plus-analysis-cosmological-constraints/inq|The Pantheon+ Analysis: Cosmological Constraints]] and [[library/comprehensive-local-hubble-constant-measurement/inq|A Comprehensive Measurement of the Local Value of the Hubble Constant]].
-- **Local storage:** `causal-scale-theory/sources/late-time-background/`.
-- **Git status:** both files are tracked; together they occupy about 32.3 MiB.
+- **Local cache:** `data/pantheon-plus-shoes-distance-likelihood/local/`.
+- **Git status:** the 32.3 MiB likelihood pair is fetched on demand; `local/` is ignored and excluded from the module inventory.
 
 ## Structure
 
@@ -38,5 +38,4 @@ Download both files from the official Pantheon+SH0ES DataRelease repository:
 - [Hubble-diagram table](https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat)
 - [statistical-plus-systematic covariance](https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov)
 
-Place the pair together under the local-storage path above to use the existing receipt defaults. The scripts verify both hashes before fitting.
-
+Place the pair together in `local/` to use the receipt defaults. The scripts verify both hashes before fitting and read the separately bundled DESI pair from [[data/desi-dr2-bao-gaussian-likelihood/inq|its own module]].
