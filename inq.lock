@@ -23,9 +23,13 @@ name = "a-new-su-2-anomaly"
 name = "a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity"
 
 [[local]]
+name = "a2-spectral-geometry-of-jacobian-counterexample-3d"
+
+[[local]]
 name = "a2-ternary-response"
 
 [local.links]
+a2-spectral-geometry-of-jacobian-counterexample-3d = "local:a2-spectral-geometry-of-jacobian-counterexample-3d"
 algebra = "local:algebra"
 binary-information-geometry = "local:binary-information-geometry"
 causal-scale-theory = "local:causal-scale-theory"
@@ -57,6 +61,7 @@ name = "adiabatic-modes-in-cosmology"
 name = "algebra"
 
 [local.links]
+a2-spectral-geometry-of-jacobian-counterexample-3d = "local:a2-spectral-geometry-of-jacobian-counterexample-3d"
 a2-ternary-response = "local:a2-ternary-response"
 algebraic-backgrounds = "local:algebraic-backgrounds"
 complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
@@ -70,6 +75,7 @@ program-core = "local:program-core"
 spectral-wall-descent = "local:spectral-wall-descent"
 stacks = "local:stacks"
 sufficient-reason = "local:sufficient-reason"
+torsors = "local:torsors"
 wall-construction-interface = "local:wall-construction-interface"
 
 [[local]]
@@ -529,6 +535,7 @@ de-sitter-observables-algebra = "local:de-sitter-observables-algebra"
 deriving-value-of-g = "local:deriving-value-of-g"
 emergent-gravity-and-the-dark-universe = "local:emergent-gravity-and-the-dark-universe"
 entropic-gravity = "local:entropic-gravity"
+galactic-rotation-anomaly = "local:galactic-rotation-anomaly"
 gravity-and-the-crossed-product = "local:gravity-and-the-crossed-product"
 linearization-instabilities-and-crossed-products = "local:linearization-instabilities-and-crossed-products"
 ncg-standard-model-neutrino-mixing = "local:ncg-standard-model-neutrino-mixing"
@@ -615,6 +622,19 @@ name = "desi-dr2-results-iv"
 
 [[local]]
 name = "determinant-line-bundles-revisited"
+
+[[local]]
+name = "dimensional-ladder"
+
+[local.links]
+causal-scale-theory = "local:causal-scale-theory"
+conservation-of-causal-charge = "local:conservation-of-causal-charge"
+cosmodynamics = "local:cosmodynamics"
+deriving-g-v2 = "local:deriving-g-v2"
+deriving-value-of-g = "local:deriving-value-of-g"
+misner-log-time = "local:misner-log-time"
+nilpotency-and-the-wall = "local:nilpotency-and-the-wall"
+program-core = "local:program-core"
 
 [[local]]
 name = "dynamical-locality-and-covariance"
@@ -755,6 +775,18 @@ name = "functoriality-of-connes-takesaki-flow-of-weights"
 name = "fundamental-constants"
 
 [[local]]
+name = "galactic-rotation-anomaly"
+
+[local.links]
+anomalous-galactic-rotation-curves = "local:anomalous-galactic-rotation-curves"
+cosmodynamics = "local:cosmodynamics"
+dark-energy-and-acceleration = "local:dark-energy-and-acceleration"
+deriving-g-v2 = "local:deriving-g-v2"
+entropic-gravity = "local:entropic-gravity"
+phantom-cold-dark-matter = "local:phantom-cold-dark-matter"
+program-core = "local:program-core"
+
+[[local]]
 name = "gauss-law-and-string-localized-quantum-field-theory"
 
 [[local]]
@@ -892,6 +924,7 @@ deriving-g-v2 = "local:deriving-g-v2"
 hessian-response-geometry = "local:hessian-response-geometry"
 hessians = "local:hessians"
 misner-log-time = "local:misner-log-time"
+nilpotency-and-the-wall = "local:nilpotency-and-the-wall"
 program-core = "local:program-core"
 
 [[local]]
@@ -1002,7 +1035,9 @@ deriving-g-v2 = "local:deriving-g-v2"
 deriving-value-of-g = "local:deriving-value-of-g"
 desi-dr2-results-ii = "local:desi-dr2-results-ii"
 desi-dr2-results-iv = "local:desi-dr2-results-iv"
+dimensional-ladder = "local:dimensional-ladder"
 flux-record-and-top-form-realizations = "local:flux-record-and-top-form-realizations"
+functoriality-of-connes-takesaki-flow-of-weights = "local:functoriality-of-connes-takesaki-flow-of-weights"
 hyperbolic-counting = "local:hyperbolic-counting"
 planck-2018-cosmological-parameters = "local:planck-2018-cosmological-parameters"
 program-core = "local:program-core"
@@ -1044,6 +1079,22 @@ name = "multi-trace-matrix-models-from-ncg"
 
 [[local]]
 name = "ncg-standard-model-neutrino-mixing"
+
+[[local]]
+name = "nilpotency-and-the-wall"
+
+[local.links]
+algebra = "local:algebra"
+complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
+complex-structure-on-s6 = "local:complex-structure-on-s6"
+deriving-g-v2 = "local:deriving-g-v2"
+dimensional-ladder = "local:dimensional-ladder"
+ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
+noether-conservation = "local:noether-conservation"
+program-core = "local:program-core"
+semiorthogonal-decompositions = "local:semiorthogonal-decompositions"
+spectral-wall-descent = "local:spectral-wall-descent"
+wall-construction-interface = "local:wall-construction-interface"
 
 [[local]]
 name = "noether-conservation"
@@ -1331,6 +1382,7 @@ dark-energy-and-acceleration = "local:dark-energy-and-acceleration"
 de-sitter-observables-algebra = "local:de-sitter-observables-algebra"
 deriving-value-of-g = "local:deriving-value-of-g"
 extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
+functoriality-of-connes-takesaki-flow-of-weights = "local:functoriality-of-connes-takesaki-flow-of-weights"
 generalized-entropy-for-general-subregions-in-quantum-gravity = "local:generalized-entropy-for-general-subregions-in-quantum-gravity"
 holographic-cosmology = "local:holographic-cosmology"
 holographic-map-as-conditional-expectation = "local:holographic-map-as-conditional-expectation"
@@ -1470,6 +1522,7 @@ flux-record-and-top-form-realizations = "local:flux-record-and-top-form-realizat
 hyperbolic-counting = "local:hyperbolic-counting"
 minimal-cosmodynamic-closure = "local:minimal-cosmodynamic-closure"
 misner-log-time = "local:misner-log-time"
+nilpotency-and-the-wall = "local:nilpotency-and-the-wall"
 principle-of-least-action = "local:principle-of-least-action"
 program-core = "local:program-core"
 quanta-of-geometry = "local:quanta-of-geometry"
@@ -1531,6 +1584,8 @@ conformal-scale-geometry = "local:conformal-scale-geometry"
 cosmological-horizons-and-reconstruction-of-quantum-field-theories = "local:cosmological-horizons-and-reconstruction-of-quantum-field-theories"
 de-sitter-observables-algebra = "local:de-sitter-observables-algebra"
 dynamical-locality-and-covariance = "local:dynamical-locality-and-covariance"
+extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
+functoriality-of-connes-takesaki-flow-of-weights = "local:functoriality-of-connes-takesaki-flow-of-weights"
 generalized-entropy-for-general-subregions-in-quantum-gravity = "local:generalized-entropy-for-general-subregions-in-quantum-gravity"
 hessian-response-geometry = "local:hessian-response-geometry"
 hessians = "local:hessians"
