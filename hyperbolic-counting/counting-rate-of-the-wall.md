@@ -4,15 +4,15 @@ The entropy-per-channel of [[deriving-g-v2/index-not-entropy|the index note]] re
 
 ## Smith's trichotomy
 
-**[STANDARD]** Smith (1970): a connected graph has spectral norm $<2$ iff it is an ADE Dynkin diagram, and norm $=2$ iff it is an affine ADE diagram; everything else has norm $>2$. For finite-depth subfactors $\operatorname{Ind}=\lVert\Gamma\rVert^2$ (Jones 1983), so:
+**[STANDARD]** Smith (1970): a finite connected simple graph has spectral norm $<2$ iff it is an ADE Dynkin diagram, and norm $=2$ iff it is an affine ADE diagram; everything else has norm $>2$. For finite-depth subfactors, with the usual principal-graph hypotheses, $\operatorname{Ind}=\lVert\Gamma\rVert^2$ (Jones 1983), so:
 
 | Regime | Graphs | s* = log norm | Wall reading |
 |---|---|---|---|
 | norm < 2 | ADE exactly | the rigid Jones ladder, s < ln 2 | spherical: finite Weyl-type symmetry |
-| norm = 2 | affine ADE exactly | s = ln 2, the one-bit ceiling (index 4) | Euclidean: the affine graphs Ã_n, D̃_n, Ẽ_n; the qubit's graph A3 has norm √2, index 2, one rung below |
+| norm = 2 | affine ADE exactly | s = ln 2, the one-bit ceiling (index 4) | Euclidean: the affine graphs Ã_n, D̃_n, Ẽ_n |
 | norm > 2 | indefinite type | s > ln 2 | hyperbolic growth |
 
-The path-graph identity $\lVert A_{n-1}\rVert=2\cos(\pi/n)$ makes the Jones ladder *literally* the ADE column (receipts verify $A_3\mapsto\sqrt2\mapsto$ index 2, the qubit). On the unit-rate channel map $s_*=1/\mathfrak R_c$, the reproduced profile on fully released 2025 data gives
+The path-graph identity $\lVert A_{n-1}\rVert=2\cos(\pi/n)$ makes the Jones ladder *literally* the ADE column (receipts verify $A_3\mapsto\sqrt2\mapsto$ index 2). That index-2 rung is not the type-I qubit edge factor used elsewhere in the vault, whose dimension $d=2$ gives index $d^2=4$ and ceiling $s=\ln2$. On the unit-rate channel map $s_*=1/\mathfrak R_c$, the reproduced profile on fully released 2025 data gives
 
 $$
 s_*=0.9861,

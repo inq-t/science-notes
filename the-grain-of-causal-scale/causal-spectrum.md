@@ -1,6 +1,6 @@
 # A Quantum of Causal Realization
 
-The rigorous version of a “quantum of causality” is not a tiny piece of substance moving through pre-existing spacetime. It is one oriented unit of positive realization at the wall: a scale-free pre-wall translation acquires, after compression or descent, a finite correlation pole with a center, linewidth, residue, and selection rules. The current programme has an exact rank-jump prototype and an exact conditional scale, but it does not yet have the operator correspondence that makes them one spectrum.
+The proposed rigorous target for a “quantum of causality” is not a tiny piece of substance moving through pre-existing spacetime. It would be one oriented unit of positive realization at the wall: a construction in which a scale-free pre-wall translation passes to a different carrier and acquires a finite correlation pole with a center, linewidth, residue, and selection rules. The current programme has an exact rank-jump prototype and an exact conditional scale, but it does not yet have the operator correspondence that makes them one spectrum; compression or descent alone is not known to produce the pole.
 
 ## Facticity rather than a smallest voxel
 
@@ -55,7 +55,7 @@ $$
 
 On a separable Hilbert space, \(P\) has no nonzero point eigenvalue: one such eigenvalue and the dilation covariance would produce uncountably many distinct, mutually orthogonal eigenvectors. Thus an isolated \(46\,\mathrm{MeV}\) “causal eigenvalue” cannot live in the unbroken translation generator.
 
-This is a conceptual gain. Timeless causal source is scale-free. A finite grain can appear only when a wall condition breaks or compresses the dilation orbit—through a box, corner, threshold, boundary condition, irreversible record, or matter correlation. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided modular tunnel]] owns the exact transport theorem and the warning that invariant transport is horizontally response-null; [[library/extension-of-borchers-structure-theorem/inq|Araki--Zsidó]] is the local primary-source owner.
+This is a scoped conceptual gain. The particular HSMI translation generator above cannot carry a nonzero gap while its exact dilation law remains unbroken. A finite isolated scale in that same generator therefore requires failure of the covariance hypothesis, or passage to a different constructed carrier and generator. The theorem does not establish that every object called “pre-wall” is gapless or that a box, corner, threshold, boundary condition, record, or matter correlation automatically supplies a gap. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided modular tunnel]] owns the exact transport theorem and the warning that invariant transport is horizontally response-null; [[library/extension-of-borchers-structure-theorem/inq|Araki--Zsidó]] is the local primary-source owner.
 
 ## The exact finite prototype: one branch becomes positive
 

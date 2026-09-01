@@ -7,13 +7,13 @@ inq.ambient:
 ---
 # Lorentzian Spectral Envelope
 
-This module owns the causal-register reading of spectral data that [[cauchy-spectral-envelope/inq|the Cauchy envelope]] deliberately declined: the exact dictionary between a Cauchy line in energy, one-sided exponential decay in time, exponential clustering of a Euclidean measure, and a spectral gap of a Hamiltonian; the reflection-positivity wall as the constructor that turns statistical positivity into Hilbert positivity and yields a transfer operator whose contraction residue is, by definition, the gap; the modular route by which Lorentzian causal structure is recovered from state and algebra; and the de Sitter anchor at which the Hubble rate appears as a quantum of damping rather than a frequency. Everything here is an exact dictionary, a definition, or a standard theorem with its hypotheses named. The module does not construct a Lorentzian wall, prove any continuum gap, take the norm of a Dirac commutator, derive a unit conversion, or identify any pole with the causal grain; each of those is listed as open at the end.
+This module owns the causal-register reading of spectral data that [[cauchy-spectral-envelope/inq|the Cauchy envelope]] deliberately declined: the exact Fourier dictionaries relating a Cauchy line to two-sided exponential correlation and Euclidean clustering to spectral support; the Osterwalder--Schrader reflection construction of a Hilbert carrier from Euclidean data; the transfer semigroup that reads a gap once that carrier and its dynamics exist; modular precedents for recovering causal structure from algebras and states; and the de Sitter damping scale. The strict dictionaries, standard reconstruction results, and proposed programme comparisons are kept separate. The module does not prove that a wall causes a gap, identify a transfer operator with a conditional expectation, construct a Lorentzian wall, prove a continuum gap, derive a unit conversion, or identify any pole with the causal grain.
 
 The Cauchy module's terminology firewall stands unchanged: a Lorentzian *line shape* and a Lorentzian *signature* are unrelated meanings of one word, and no implication runs between them. Section 1 relates the line shape to a decay law in time — both in the line-shape register. Lorentzian signature enters only in section 3, through modular theory, and nowhere else.
 
 ## 1. Line shape and decay law
 
-**[STANDARD]** Let an autocorrelation decay one-sidedly in time with rate \(\Gamma/2\) about a center \(E_*\):
+**[STANDARD]** In units \(\hbar=1\), let a stationary autocorrelation decay symmetrically away from \(t=0\), with rate \(\Gamma/2\) about a center \(E_*\):
 
 $$
 C(t)=e^{-\Gamma|t|/2}\,e^{-iE_*t}.
@@ -27,39 +27,85 @@ $$
 =\frac{\Gamma}{(\omega-E_*)^2+\Gamma^2/4},}
 $$
 
-with full width at half maximum exactly \(\Gamma\). **A Lorentzian in energy is one-sided exponential decay in time.** The receipt checks the pair numerically at five frequencies and verifies the half-maximum width.
+with full width at half maximum exactly \(\Gamma\). **A Cauchy line is the Fourier transform of a two-sided exponential correlation in \(\lvert t\rvert\).** With the standard retarded Green-function convention, the causal amplitude is
 
-**[STANDARD]** The Euclidean shadow is the gap dictionary. A Euclidean two-point function clustering as \(e^{-m|\tau|}\) has transform
+$$
+G_R(t)=-i\,\Theta(t)e^{-(\Gamma/2+iE_*)t}
+$$
+
+instead has the complex transform
+
+$$
+\widehat G_R(\omega)=\frac{1}{\omega-E_*+i\Gamma/2},
+$$
+
+so both \(\lvert\widehat G_R\rvert^2\) and the spectral function \(-2\operatorname{Im}\widehat G_R\) have the Lorentzian denominator, with the latter equal to the displayed Cauchy line. The receipt checks the two-sided Fourier pair at five frequencies and verifies the half-maximum width; it does not conflate that pair with the retarded transform.
+
+**[STANDARD]** The exact model correlator \(C(\tau)=e^{-m|\tau|}\) has transform
 
 $$
 \boxed{\int e^{-m|\tau|}e^{i\omega\tau}\,\mathrm d\tau=\frac{2m}{\omega^2+m^2},}
 $$
 
-a pole at \(\omega=\pm im\); the receipt recovers the pole position from the numerical transform by fitting its reciprocal. Under Osterwalder–Schrader reconstruction the clustering rate of a Euclidean correlator is the mass of the lightest state the corresponding operator creates; it equals the spectral gap of the reconstructed Hamiltonian when that operator overlaps the lightest excitation, and otherwise gives the mass in that operator's channel. [[the-grain-of-causal-scale/causal-spectrum|The causal-spectrum note]] states the corresponding resonance form \(z_*=E_*-\tfrac i2\Gamma_*\); a mass gap is the case \(\Gamma_*=0\), a real isolated point strictly below the continuum, which is a different object from a resonance and must not be conflated with one.
+a pole at \(\omega=\pm im\); the receipt recovers the pole position from the numerical transform by fitting its reciprocal. Under Osterwalder--Schrader reconstruction, a general operator channel instead has a positive spectral measure
 
-## 2. The wall constructs the Hilbert space; the gap is the wall's contraction residue by definition
+$$
+C_O(\tau)=\int_{[0,\infty)}e^{-E|\tau|}\,\mathrm d\mu_O(E).
+$$
 
-**[STANDARD]** Reflection positivity is a wall in the programme's sense. Let \(\theta\) reflect Euclidean time across a hyperplane and let \(\mathcal A_+\) be the algebra of functionals supported on one side. Osterwalder–Schrader positivity is
+Its leading exponential rate is the infimum of the non-vacuum support of \(\mu_O\). It equals the global Hamiltonian gap only when that channel reaches the lightest excitation; a continuum threshold can also add a power-law prefactor. The special function \(e^{-m|\tau|}\) corresponds to a spectral atom, so its isolated poles are more information than the bare existence of a gap.
+
+The invariant mass-gap statement is
+
+$$
+\boxed{E_H((0,\Delta))=0\quad\text{for some }\Delta>0,}
+$$
+
+where \(E_H\) is the spectral measure of the reconstructed Hamiltonian and the vacuum lies at zero. The spectrum may begin continuously at \(\Delta\). By contrast, [[the-grain-of-causal-scale/causal-spectrum|the causal-spectrum note]]'s resonance form \(z_*=E_*-\tfrac i2\Gamma_*\) has \(\Gamma_*=0\) for a stable pole. A vacuum gap, a stable one-particle pole, and a resonance are three distinct spectral statements.
+
+## 2. The OS quotient constructs the carrier; the transfer semigroup reads the gap
+
+**[STANDARD]** Let \(\theta\) reflect Euclidean time across a hyperplane and let \(\mathcal A_+\) be the algebra of functionals supported on one side. Osterwalder--Schrader positivity is
 
 $$
 \langle\theta F,F\rangle\ \ge\ 0\qquad(F\in\mathcal A_+),
 $$
 
-and the Hilbert space of the theory is \(\mathcal A_+\) modulo the null vectors of this form. Positivity of energy and the Hamiltonian are *constructed* by this one-sided pairing; they are not present in the Euclidean measure before the wall is chosen. On a lattice the construction is exact: the transfer operator \(T=e^{-aH}\) acts across one slice, it is positive by reflection positivity, and Osterwalder and Seiler proved reflection positivity for Wilson's lattice gauge action at every coupling (*Ann. Phys.* **110**, 440 (1978)), with a mass gap at strong coupling by cluster expansion.
+and the associated pre-Hilbert space is \(\mathcal A_+\) modulo the null vectors of this form; completing that quotient gives the Hilbert carrier. Together with the other Osterwalder--Schrader hypotheses, the one-sided pairing reconstructs a positive-energy Hilbert theory; reflection positivity alone is not the whole reconstruction theorem. Calling the reflection hyperplane a programme “wall” is a proposed comparison, not part of the standard theorem. On a lattice the construction is exact: the transfer operator \(T_a=e^{-aH}\) acts across one slice, it is positive in the Wilson theory, and Osterwalder and Seiler proved reflection positivity for Wilson's lattice gauge action at every coupling (*Ann. Phys.* **110**, 440 (1978)). The rigorous gap supplied by the accompanying strong-coupling analysis is restricted to that regime; reflection positivity by itself does not imply a gap.
 
-**[DEFINITION]** In lattice energy units the gap is
+**[DEFINITION]** Let \(P_0\) be the vacuum projection and normalize the transfer operator by its vacuum eigenvalue,
 
 $$
-\boxed{ma=-\ln\frac{\lambda_1(T)}{\lambda_0(T)},}
+\widetilde T_a:=\lambda_0(T_a)^{-1}T_a,
+\qquad
+r_a:=\left\|\widetilde T_a(1-P_0)\right\|.
 $$
 
-where \(\lambda_0\) is the vacuum eigenvalue and \(\lambda_1\) the next. This is not a finding; it is what the spectral gap of a transfer operator means. Its value for the programme is that it is *already typed* as the contraction residue of a positive non-invertible map across one slice — a descent across a wall — so the programme's conjecture "the residue of the descent is the gap" is, in this register, the definition rather than a discovery. **[RECEIPT]** The one-dimensional Ising transfer matrix is the complete debugging model: \(T=\begin{pmatrix}e^{K}&e^{-K}\\e^{-K}&e^{K}\end{pmatrix}\), \(\lambda_0=2\cosh K\), \(\lambda_1=2\sinh K\), \(\langle s_0s_n\rangle=(\lambda_1/\lambda_0)^n=(\tanh K)^n\), \(\xi^{-1}=-\ln\tanh K\). The receipt reproduces the two-point function by explicit contraction on a ring across a sweep of \(K\), and checks that the gap decreases monotonically in \(K\) and vanishes in the degenerate limit — the regime in which the check can fail.
+The general transfer-semigroup form of the gap is
 
-**[PROPOSED COMPARISON]** The programme's descent grammar and the transfer grammar are the same species. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] proves the entropic shadow, \(\Sigma_E(\rho)=S(\bar\rho)-S(\rho)\ge0\), a nonnegative cost of one non-invertible step. The transfer operator is likewise a positive non-invertible map across one slice, and its strict contraction on the complement of the vacuum is the gap. The comparison is proposed, not identified: the theorem carrying a given wall's expectation to a given theory's transfer operator is not in the vault, and without it "residue of descent" and "mass gap" are two instances of one grammar.
+$$
+\boxed{\Delta_a=-\frac1a\ln r_a.}
+$$
 
-**[EXACT]** Before any wall there is no gap. [[the-grain-of-causal-scale/causal-spectrum|The pre-wall no-gap theorem]] shows that dilation covariance of a half-sided modular inclusion forces \(\sigma(P)=\{0\}\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum. A gap therefore requires that the wall break the dilation orbit — a box, a corner, a reflection hyperplane, a matter correlation. **[STANDARD]** Classical Yang–Mills in four dimensions is exactly dilation covariant, and the quantum theory's *scale* is the failure of that covariance to survive quantization — the trace anomaly. A scale is not yet a gap: QCD with massless quarks transmutes a scale and has massless pions, and a theory flowing to an infrared fixed point has a scale in its flow and no gap. The exact statement is only that without the broken covariance neither is available.
+In finite spatial volume, when a next eigenvalue exists, this reduces to
 
-**[OPEN — NOT OWNED HERE]** What remains, for any interacting four-dimensional theory, is that the residue \(1-\lambda_1/\lambda_0\) stay bounded away from zero in physical units as the lattice spacing is removed. That sentence is the content of the Yang–Mills existence-and-mass-gap problem; [[contemporary-puzzles/yang-mills-mass-gap/inq|the puzzle module]] states it in full.
+$$
+\boxed{a\Delta_a=-\ln\frac{\lambda_1(T_a)}{\lambda_0(T_a)}.}
+$$
+
+Thus \(r_a<1\) is the strict contraction equivalent of a gap after the Hilbert carrier and time-translation semigroup have been constructed. It is not by itself a non-invertible descent. **[RECEIPT]** The one-dimensional Ising transfer matrix is the complete debugging model: \(T=\begin{pmatrix}e^{K}&e^{-K}\\e^{-K}&e^{K}\end{pmatrix}\), \(\lambda_0=2\cosh K\), \(\lambda_1=2\sinh K\), and in the infinite-chain limit \(\langle s_0s_n\rangle=(\lambda_1/\lambda_0)^n=(\tanh K)^n\), with \(\xi^{-1}=-\ln\tanh K\). For every tested \(K>0\), \(\det T=2\sinh(2K)>0\): the matrix is invertible even though its normalized vacuum complement contracts. The receipt checks this distinction, reproduces the finite-ring two-point function with its correction term, and samples the analytic approach of the gap toward zero through \(K=5\).
+
+**[PROPOSED COMPARISON]** Three arrows must remain distinct. The Osterwalder--Schrader quotient \(q:\mathcal A_+\to\mathcal H_{\mathrm{OS}}\) can have a kernel and constructs the carrier. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] uses an idempotent completely positive algebra map and proves the entropic cost \(\Sigma_E(\rho)=S(\bar\rho)-S(\rho)\ge0\). The transfer operator \(e^{-aH}\) is instead an injective Hilbert-space semigroup operator; in finite dimension it is invertible. This is the same injective-smoothing versus quotient-like-forgetting distinction enforced by [[cauchy-spectral-envelope/inq#Descent and factivity: smoothing is not forgetting|the Cauchy envelope]]. A programme wall may eventually induce all three, but identifying its expectation with its transfer dynamics requires an explicit carrier map or intertwiner. Without that construction, "descent cost" and "spectral contraction" are only a proposed comparison.
+
+**[EXACT -- HSMI SCOPE]** [[the-grain-of-causal-scale/causal-spectrum|The HSMI no-gap theorem]] shows that the particular positive translation generator \(P\) of a dilation-covariant half-sided modular inclusion has \(\sigma(P)=\{0\}\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum. This forbids locating an isolated gap in that generator while its exact modular scaling law remains unbroken. It does not show that every object called "pre-wall" is gapless, and an Osterwalder--Schrader reflection plane can occur in both massive and massless theories without itself breaking dilation covariance. **[STANDARD]** Classical Yang--Mills in four dimensions is dilation covariant, while the quantum scale enters through the trace anomaly. A scale is not yet a gap: in the expected chirally broken phase of massless-quark QCD, the pions are Goldstone modes, and a theory flowing to an infrared fixed point can likewise remain gapless.
+
+**[OPEN -- NOT OWNED HERE]** For a regulator family \(T_{a,L}\), the required estimate is a positive lower bound on
+
+$$
+\Delta_{a,L}=-\frac1a\ln\left\|\widetilde T_{a,L}(1-P_{0,a,L})\right\|
+$$
+
+that is uniform through the infinite-volume limit and remains positive in fixed physical units along the tuned continuum trajectory. For a fixed physical gap, the raw per-slice residue satisfies \(1-r_a\sim a\Delta\to0\); it must *not* stay bounded away from zero. Constructing the nontrivial local Poincaré-covariant limit is the other inseparable part of the Yang--Mills problem; [[contemporary-puzzles/yang-mills-mass-gap/inq|the puzzle module]] states it in full.
 
 ## 3. Lorentzian causal structure from modular data
 
@@ -69,47 +115,55 @@ The programme has asked for the algebraic meaning of \(c\). In the Riemannian re
 
 **[STANDARD — with the source's conditions]** The condition of geometric modular action (Buchholz, Dreyer, Florig, Summers, *Rev. Math. Phys.* **12**, 475 (2000)), held and graded THEOREM in [[inbox/radical-copernicanism/algebra-of-causality|the algebra-of-causality survey]], reconstructs the spacetime symmetry group and the causal structure from the modular conjugations of a family of algebras and a state, under additional conditions stated in the source and carried out there for four-dimensional Minkowski and three-dimensional de Sitter space. Together with Bisognano–Wichmann it is the sense in which causal order is encoded in state plus algebra rather than supplied as background.
 
-**[STANDARD — lattice]** On a lattice the analogous object is a Lieb–Robinson bound (*Commun. Math. Phys.* **28**, 251 (1972)): for bounded local Hamiltonians, \(\lVert[A(t),B]\rVert\le C\,\lVert A\rVert\,\lVert B\rVert\,e^{-(d(A,B)-v|t|)/\xi}\), a commutator norm bounding causality with an emergent velocity \(v\). It is the lattice sibling of the Lipschitz bound in Connes' formula and the only register in which Yang–Mills is presently constructed. Its extension to gauge links with unbounded electric terms requires care and is not asserted here.
+**[STANDARD — lattice]** On a lattice the analogous object is a Lieb–Robinson bound (*Commun. Math. Phys.* **28**, 251 (1972)): for bounded local Hamiltonians, \(\lVert[A(t),B]\rVert\le C\,\lVert A\rVert\,\lVert B\rVert\,e^{-(d(A,B)-v|t|)/\xi}\), a commutator norm bounding causality with an emergent velocity \(v\). It is the lattice sibling of the Lipschitz bound in Connes' formula and belongs to the fixed-cutoff setting where gauge theory is mathematically defined nonperturbatively. Its extension to gauge links with unbounded electric terms requires care and is not asserted here.
 
 ## 4. The de Sitter anchor
 
-**[STANDARD — cited]** In the static patch of de Sitter space a scalar field of conformal weight \(\Delta_\pm\) has quasinormal frequencies
+**[STANDARD -- cited, with a weight qualification]** In the static patch of de Sitter space a scalar field of conformal weight \(\Delta_\pm\) has quasinormal frequencies
 
 $$
 \omega_{n,\ell}=-i\,(\Delta_\pm+\ell+2n)\,H,\qquad n,\ell\in\mathbb Z_{\ge0},
 $$
 
-purely imaginary, with the overtone tower stepping by \(2H\), the angular tower by \(H\), and a generically non-integer offset \(\Delta_\pm H\) (López-Ortega, *Gen. Relativ. Gravit.* **38**, 1565 (2006)). There is no real part: **\(H\) is a quantum of damping, not a quantum of energy.** These are resonances of the analytically continued resolvent of an open system leaking through its horizon, not eigenvalues of a self-adjoint operator, and the pre-wall no-gap theorem — a statement about a positive translation generator — is not the reason for them. What the anchor supplies is a home for [[the-grain-of-causal-scale/causal-spectrum|the causal-spectrum note]]'s definition \(\Gamma_c:=\hbar H_c\): the fundamental de Sitter width is \(\hbar H\), exactly as the Pöschl–Teller receipt there returns \(\Gamma_0=\hbar\kappa\) when \(\kappa=H_c\). The firewall recorded in that note stands: \(\Gamma_c\) is a dimensional definition until one constructed operator makes \(H_c\) its decay rate, and the enormous quality factor \(Q_c=E_*/\Gamma_c\sim10^{40}\) is not supplied by any damping spectrum — a damping quantum sets widths, never a line center.
+with the overtone label stepping by \(2H\) and the angular label by \(H\) (López-Ortega, *Gen. Relativ. Gravit.* **38**, 1565 (2006)). They are purely imaginary only when \(\Delta_\pm\) is real. In \(D\)-dimensional de Sitter space, a principal-series weight \(\Delta_\pm=(D-1)/2\pm i\mu\) instead gives a real part \(\pm\mu H\). These are resonances of an analytically continued open-system problem, not eigenvalues of a self-adjoint Hamiltonian, and the HSMI no-gap theorem is not their explanation.
 
-## 5. Nuclearity as a ledger of the gap
-
-**[STANDARD]** Buchholz–Wichmann nuclearity (*Commun. Math. Phys.* **106**, 321 (1986)) asks that the maps \(A\mapsto e^{-\beta H}A\Omega\) from a local algebra's unit ball be nuclear, with a nuclearity index bounding the local phase-space density. A mass gap improves these bounds by factors of order \(e^{-\beta m}\); nuclearity implies the split property (Buchholz, D'Antoni, Longo, *Commun. Math. Phys.* **129**, 115 (1990)); and the split property supplies, for a standard split inclusion \(\mathcal N\subset\mathcal M\), a canonical intermediate type-I factor and a canonical conditional expectation through the Doplicher–Longo standard split isomorphism (*Invent. Math.* **75**, 493 (1984)). The chain runs
+Under this module's convention \(z=E-i\Gamma/2=\hbar\omega\), the full linewidth is
 
 $$
-\text{gap}\ \Longrightarrow\ \text{nuclearity bounds}\ \Longrightarrow\ \text{split}\ \Longrightarrow\ \text{canonical type-I corner and expectation}.
+\boxed{\Gamma=-2\hbar\,\operatorname{Im}\omega.}
 $$
 
-**[PROPOSED COMPARISON]** The last object is the same species as [[spectral-wall-descent/finite-index-area-weld|the type-I product cell]] of the programme, arriving from the field-theory side — but not the same object: the split-property interpolating factor sits in a generically infinite-index inclusion of type-III₁ factors, whereas the weld note's exact identity is a finite-index construction with a recorded type obstruction against finite index out of type III. The nuclearity index is a capacity of an inclusion with a state — a ledger quantity in the programme's vocabulary — controlled by the gap.
+Thus \(\hbar H\) is a natural *damping-energy scale*, not generically the linewidth of the fundamental mode and not by itself a line center. The Pöschl--Teller receipt in [[the-grain-of-causal-scale/causal-spectrum|the causal-spectrum note]] gives \(\Gamma_0=\hbar\kappa\) because its fundamental pole has \(\operatorname{Im}\omega_0=-\kappa/2\); that factor is model-specific. The definition \(\Gamma_c:=\hbar H_c\) remains a dimensional address until a constructed pole satisfies \(-2\operatorname{Im}\omega=H_c\). The enormous \(Q_c=E_*/\Gamma_c\sim10^{40}\) is not supplied by the de Sitter tower.
 
-**[OPEN]** The arrows run from the gap to the structure. The converse — a capacity condition on a wall that implies a gap — is not a theorem, and it is the correctly typed form of the programme's conjecture that the algebra of descent requires a nonzero residue. Modular nuclearity in the sense of Lechner (*Commun. Math. Phys.* **277**, 821 (2008)) is the one operator-algebraic route that has actually produced interacting models with a gap, in two dimensions, with the gap as input; [[library/deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories/inq|the half-sided-inclusion deformations]] held in the library are that school's construction technique.
+## 5. Nuclearity as an independent phase-space ledger
+
+**[STANDARD]** Buchholz--Wichmann nuclearity (*Commun. Math. Phys.* **106**, 321 (1986)) asks that the maps \(A\mapsto e^{-\beta H}A\Omega\) from a local algebra's unit ball be nuclear, with a nuclearity index bounding the density of localized states. This is an additional phase-space condition, not a consequence of a mass gap: a gapped theory can have excessive species growth, and standard massless free fields can satisfy nuclearity. When a suitable nuclearity estimate is already available, a gap can improve its low-temperature behavior by factors of order \(e^{-\beta m}\). Nuclearity implies the split property under the standard hypotheses (Buchholz, D'Antoni, Longo, *Commun. Math. Phys.* **129**, 115 (1990)); a standard split inclusion then has a canonical intermediate type-I factor through the Doplicher--Longo standard split isomorphism (*Invent. Math.* **75**, 493 (1984)). The unconditional implication used here is
+
+$$
+\text{nuclearity}\ \Longrightarrow\ \text{split}\ \Longrightarrow\ \text{canonical type-I corner}.
+$$
+
+**[PROPOSED COMPARISON]** The last object is the same broad type-I interpolation pattern as [[spectral-wall-descent/finite-index-area-weld|the type-I product cell]] of the programme, but not the same object: the split-property interpolating factor sits in a generically infinite-index inclusion of type-III₁ factors, whereas the weld note's exact identity is finite-index and already records the type obstruction against finite index out of type III. The nuclearity index is a capacity of an inclusion with a state, but it controls high-energy phase-space growth rather than serving as a synonym for an infrared gap.
+
+**[OPEN]** A wall-capacity condition that implies an infrared spectral gap would need information stronger than ordinary nuclearity, since nuclearity is compatible with massless theories. No such capacity-to-gap theorem is present in the vault. Modular nuclearity in the sense of Lechner (*Commun. Math. Phys.* **277**, 821 (2008)) has helped construct interacting two-dimensional models when suitable scattering and mass data are supplied; [[library/deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories/inq|the half-sided-inclusion deformations]] held in the library are part of that construction school.
 
 ## Claim ledger
 
 | Status | Content |
 |---|---|
-| Standard | the line-shape–decay Fourier pair and its half-width; the clustering–pole dictionary under OS reconstruction, with the channel-overlap hypothesis; reflection positivity for Wilson lattice gauge theory and the strong-coupling gap; the trace anomaly as the source of the Yang–Mills scale; Bisognano–Wichmann; the condition of geometric modular action under its source's conditions; Lieb–Robinson for bounded local Hamiltonians; the de Sitter quasinormal spectrum; nuclearity, split, and the standard split isomorphism |
-| Definition | the transfer-operator gap \(ma=-\ln(\lambda_1/\lambda_0)\) as the contraction residue across the wall |
-| Receipt | the Ising debugging model across a \(K\)-sweep with its degenerate limit; the pole position recovered from the numerical transform |
-| Exact | the pre-wall no-gap theorem imported from [[the-grain-of-causal-scale/causal-spectrum\|the causal-spectrum note]] |
-| Proposed comparison | transfer operator and wall expectation as one descent grammar; the split-property type-I corner and the programme's type-I product cell as one species |
-| Open construction | a Lorentzian realization of the core pre-wall; the norm \(\lVert[D,a]\rVert\) and the Connes distance in this vault; any operator whose decay rate is \(H_c\); Lieb–Robinson for unbounded gauge links |
-| Open, not owned | uniform continuum persistence of the transfer residue for four-dimensional Yang–Mills |
-| Failure condition | a constructed wall whose transfer operator is not a strict contraction on the vacuum complement has no gap regardless of its index or entropy; a claimed causal line at a real frequency inside a dilation-covariant positive generator contradicts the exact row |
+| Standard | the two-sided correlation--Cauchy Fourier pair; the retarded resolvent with the same denominator; the clustering--spectral-support dictionary under OS reconstruction; reflection positivity for Wilson lattice gauge theory and the strong-coupling gap in its proved regime; the trace anomaly as the source of the Yang--Mills scale; Bisognano--Wichmann; geometric modular action under its source's conditions; Lieb--Robinson for bounded local Hamiltonians; the qualified de Sitter quasinormal spectrum; nuclearity and split under their own hypotheses |
+| Definition | the Hamiltonian gap \(E_H((0,\Delta))=0\); equivalently \(\Delta_a=-a^{-1}\ln\lVert\widetilde T_a(1-P_0)\rVert\), with the eigenvalue ratio only in discrete finite-volume settings |
+| Receipt | the Fourier pair and pole fit; the invertible Ising transfer matrix whose normalized vacuum complement contracts; the sampled closing-gap trend |
+| Exact, scoped | the no-gap theorem for the positive generator of a dilation-covariant half-sided modular inclusion, imported from [[the-grain-of-causal-scale/causal-spectrum\|the causal-spectrum note]] |
+| Proposed comparison | an explicit wall realization may relate the OS quotient, a conditional expectation, and transfer dynamics; the split-property type-I corner and the programme's type-I product cell share an interpolation pattern |
+| Open construction | a Lorentzian realization of the core pre-wall; an intertwiner from wall dynamics to a physical transfer semigroup; the norm \(\lVert[D,a]\rVert\) and the Connes distance in this vault; any operator whose damping convention realizes \(\Gamma_c=\hbar H_c\); Lieb--Robinson for unbounded gauge links |
+| Open, not owned | a nontrivial four-dimensional continuum Yang--Mills theory with a positive infinite-volume gap in fixed physical units |
+| Failure condition | a constructed transfer semigroup with norm one on the vacuum complement has no gap regardless of wall index or entropy; identifying injective attenuation with quotient-like forgetting contradicts [[cauchy-spectral-envelope/inq\|the Cauchy envelope]]; a claimed isolated line in the HSMI generator contradicts the scoped exact row |
 
 ## What this module does not do
 
-It does not build a Lorentzian spectral triple, and the Krein-space template in [[library/algebraic-backgrounds/inq|algebraic backgrounds]] is not imported past its abstract. It does not identify the Ising or any finite transfer matrix with a physical wall. It does not derive \(c\), \(\hbar\), or a mass from modular data; Bisognano–Wichmann and geometric modular action recover a *group*, not a unit conversion. It does not let the de Sitter damping quantum become a line center. It does not turn a scale into a gap. And it does not prove that any interacting four-dimensional theory has a gap: it types where such a gap would have to live and what would have to contract.
+It does not build a Lorentzian spectral triple, and the Krein-space template in [[library/algebraic-backgrounds/inq|algebraic backgrounds]] is not imported past its abstract. It does not identify the Ising model with a physical wall, make the reflection plane cause a gap, or identify an injective transfer semigroup with a conditional expectation. It does not derive \(c\), \(\hbar\), or a mass from modular data; Bisognano--Wichmann and geometric modular action recover a *group*, not a unit conversion. It does not let a de Sitter damping scale become a line center, turn a scale into a gap, or prove that any interacting four-dimensional theory has a gap.
 
 ## Receipt
 
-[[lorentzian-spectral-envelope/receipts/verify_lorentzian_envelope.py|The receipt]] checks the Fourier pair at five frequencies and its half-maximum width; recovers the clustering pole \(\omega=\pm im\) by fitting the reciprocal of the numerical transform; reproduces the Ising ring two-point function against \((\tanh K)^n\) with the finite-ring correction for \(K\in\{0.2,0.8,2.0,5.0\}\), and checks that the gap decreases monotonically and vanishes as \(K\to\infty\); and records the mismatch between the pure-gauge gap length \(\hbar c/m_{0^{++}}\approx0.11\)–\(0.12\,\mathrm{fm}\) and the causal grain \(\lambda_*\approx4.18\)–\(4.26\,\mathrm{fm}\), a factor of \(35\)–\(37\). Standard library only; nonzero exit on any failure; output stored beside it.
+[[lorentzian-spectral-envelope/receipts/verify_lorentzian_envelope.py|The receipt]] checks the two-sided Fourier pair at five frequencies and its half-maximum width; recovers the model-correlator pole \(\omega=\pm im\) by fitting the reciprocal of the numerical transform; verifies that the finite Ising transfer matrix is invertible while its normalized vacuum complement contracts; reproduces the ring two-point function against \((\tanh K)^n\) with the finite-ring correction for \(K\in\{0.2,0.8,2.0,5.0\}\); checks the sampled approach of the gap toward zero; and records the mismatch between the pure-gauge correlation length and the causal grain. Standard library only; nonzero exit on any failure; output stored beside it.

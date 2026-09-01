@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Rhyme sweep of the causal grain against QCD/hadronic scales. Stdlib only; exit nonzero on failure.
 
-What a pass establishes: that the grain mass m* (46.27 MeV on the CMB-conditional
-crossing branch, 47.21 MeV on the Cepheid branch) has NO numerical rhyme with any
-scale of Yang-Mills or QCD beyond the chance rate, and that the seductive
+What a pass establishes: for the grain mass m* (46.27 MeV on the CMB-conditional
+crossing branch, 47.21 MeV on the Cepheid branch), the declared sweep finds hit counts
+compatible with its chosen fake-grain control; it does not detect a statistically distinguishable
+excess of near-equalities. It also shows that the seductive
 "ln(m_P/m*) ~ 47 ~ m*/MeV" coincidence is a unit artifact. It does NOT establish
 anything about the grain itself; it is a negative result and a trap census.
 
@@ -16,11 +17,12 @@ Checks
   2. Null test: a two-sided Poisson tail test of the observed hit count against the analytic
      base rate (log-uniform ratios over ~[0.1, 100] give 2%/ln(1000) ~ 0.29% per trial).
      Fails if min(P(N>=n), P(N<=n)) < 0.025.
-  3. Branch stability: assert ZERO hits survive on both branches (the 2% branch spread exceeds
-     the 1% tolerance, so no branch-independent 1%-level rhyme is statable).
+  3. Branch sensitivity: assert ZERO hits survive on both branches at the declared 1% tolerance,
+     then rerun at 5% and verify that branch-stable hits do appear. The zero is therefore explicitly
+     tolerance-specific rather than a general branch-instability theorem.
   4. Empirical negative control: 4000 seeded fake grains, log-uniform in [20, 200] MeV, swept
-     identically. Reports the hit-count distribution; fails if either real branch's hit count
-     falls outside the fakes' central 95% interval, i.e. if the grain were anomalously rhyming.
+     identically at both 1% and 5%. Reports the hit-count distributions; fails if either real
+     branch's count falls outside the corresponding central 95% interval.
   5. Unit artifact (report only, nothing to assert): ln(m_P/m*) is dimensionless; the count
      m*/unit is not. Both are printed in MeV and GeV.
   6. Correlation length (report only): hbar c / m(0++) vs the grain length, ratio ~36-37.
@@ -90,6 +92,16 @@ stable = [k for k, b in hits.items() if len(b) == 2]
 out["3_branch_stable_hits"] = len(stable)
 check("3_zero_branch_stable", len(stable) == 0, stable)
 
+# Sensitivity: the zero-stable result is specific to the declared 1% tolerance.
+_, hits5 = sweep(MSTAR, tol=0.05)
+stable5 = sorted(k for k, b in hits5.items() if len(b) == 2)
+per_branch5 = {br: sum(1 for b in hits5.values() if br in b) for br in MSTAR}
+out["3_branch_stable_hits_at_5pct"] = len(stable5)
+out["3_branch_stable_list_at_5pct"] = [f"{sn} ~ m* x {fn}" for sn, fn in stable5]
+out["3_hits_per_branch_at_5pct"] = per_branch5
+check("3_five_pct_has_stable_hits", len(stable5) > 0, stable5)
+check("3_fpi_two_is_stable_at_5pct", ("f_pi(92)", "2") in stable5, stable5)
+
 # 4. empirical negative control: many theory-free fake grains, same sweep
 rng = random.Random(20260901)
 fake_counts = []
@@ -107,6 +119,23 @@ out["4_analytic_expected_per_grain"] = round(expected/len(MSTAR), 3)
 for br, n in per_branch.items():
     check(f"4_real_branch_within_fake_95pct_{br}", lo95 <= n <= hi95, (br, n, lo95, hi95))
 
+# Repeat the empirical control at 5%; a wider tolerance changes both signal and base rate.
+rng5 = random.Random(20260901)
+fake_counts5 = []
+for _ in range(4000):
+    mf = math.exp(rng5.uniform(math.log(20.0), math.log(200.0)))
+    _, hf = sweep({"fake": mf}, tol=0.05)
+    fake_counts5.append(sum(len(v) for v in hf.values()))
+fake_counts5.sort()
+lo95_5 = fake_counts5[int(0.025*len(fake_counts5))]
+hi95_5 = fake_counts5[int(0.975*len(fake_counts5))-1]
+mean_fake5 = sum(fake_counts5)/len(fake_counts5)
+out["4_fake_mean_hits_per_grain_at_5pct"] = round(mean_fake5, 3)
+out["4_fake_central_95pct_at_5pct"] = [lo95_5, hi95_5]
+for br, n in per_branch5.items():
+    check(f"4_real_branch_within_fake_95pct_at_5pct_{br}", lo95_5 <= n <= hi95_5,
+          (br, n, lo95_5, hi95_5))
+
 # 5. unit artifact -- report only; the log is dimensionless by construction
 for br, m in MSTAR.items():
     out[f"5_ln_mP_over_mstar_{br}"] = round(math.log(MP_MEV/m), 4)
@@ -115,9 +144,9 @@ out["5_note"] = "ln(m_P/m*) ~ 47.0 on both branches; the count m*/MeV ~ 46-47 ch
 
 # 6. correlation length -- report only
 hbarc = 197.3269804
-out["6_gap_length_fm_range"] = [round(hbarc/1730.0, 4), round(hbarc/1653.0, 4)]
+out["6_gap_candidate_length_fm_range"] = [round(hbarc/1730.0, 4), round(hbarc/1653.0, 4)]
 out["6_grain_length_fm_branches"] = {"CMB": round(hbarc/46.27, 4), "Cepheid": round(hbarc/47.21, 4)}
-out["6_grain_over_gap_range"] = [round((hbarc/47.21)/(hbarc/1653.0), 1), round((hbarc/46.27)/(hbarc/1730.0), 1)]
+out["6_grain_over_gap_candidate_range"] = [round((hbarc/47.21)/(hbarc/1653.0), 1), round((hbarc/46.27)/(hbarc/1730.0), 1)]
 out["6_lattice_consistent_pure_numbers"] = {"m0pp_over_sqrt_sigma_LuciniTeper": 3.55,
                                             "m0pp_over_sqrt_sigma_convention_mixed_1730_over_440": round(1730/440, 2),
                                             "m2pp_over_m0pp": round(2390/1730, 2)}

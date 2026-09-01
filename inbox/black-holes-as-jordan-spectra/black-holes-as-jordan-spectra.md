@@ -101,7 +101,7 @@ The manuscript's integrable structure on $S^6$, if it survives review, is a *dif
 ## 7. Obligations
 
 1. The identification of black-hole observables with $\mathfrak h_3(\mathbb O)$ is a modeling conjecture; the exact content is the algebra and the maps above.
-2. Journal references are unverified in this session; per [[library|library]] discipline, verify before any citation is promoted (Carter 1968; BMPV 1996; Ferrara–Günaydin 1997; Duff 2006; Borsten–Dahanayake–Duff–Rubens 2009; Jordan–von Neumann–Wigner 1934; Albert 1934; Frölicher 1955; LeBrun 1987; Wheeler 1955).
+2. Journal references are unverified in this session; per library discipline, verify before any citation is promoted (Carter 1968; BMPV 1996; Ferrara–Günaydin 1997; Duff 2006; Borsten–Dahanayake–Duff–Rubens 2009; Jordan–von Neumann–Wigner 1934; Albert 1934; Frölicher 1955; LeBrun 1987; Wheeler 1955).
 3. No dynamics is constructed on $\mathfrak M(\mathfrak h_3(\mathbb O))$: the phase space, its symplectic form, quartic, and F-duality are kinematics. A flow whose resonances sit on the $A_2$ cusp is the natural next construction target, and it must come with its own site and state, not by renaming.
 4. The wedge/degrees-of-freedom sentence stays decoration until typed against [[wall-construction-interface/inq|the wall interface]].
 5. The receipts require numpy; a stdlib rewrite is owed on promotion into any module with a stdlib receipt contract.

@@ -17,7 +17,17 @@ The grain mass \(m_*\) on its two crossing branches — \(46.27\,\mathrm{MeV}\) 
 | hits surviving both branches | **0** |
 | empirical control: 4000 theory-free grains, log-uniform in \([20,200]\,\mathrm{MeV}\) | mean 2.79 hits per grain; central 95% interval \([0,7]\) |
 
-The seven hits are \(m_*\times2\approx f_\pi\), \(m_*\times3\approx m_{\pi^+}\), \(m_*\times3\pi\approx\sqrt\sigma\), \(m_*\times2\approx m_s\) on the CMB branch, and \(m_*\times7\approx\Lambda^{(3)}_{\overline{\mathrm{MS}}}\), \(m_*\times2\pi^2\approx m_p\), \(m_*/7\approx m_u+m_d\) on the Cepheid branch. The first of these is the already-quarantined \(f_\pi/2\) siren of the grain-in-every-register census, which that note keeps alive-but-quarantined conditional on the CMB branch; this ledger adds that it does not survive the Cepheid branch. The two lists are disjoint. The branch spread is two percent, wider than the tolerance, so the closure cannot presently state any *branch-independent* one-percent coincidence. The observed hit counts per branch, four and three, sit inside the central interval of theory-free grains, and the empirical mean of 2.79 hits per grain reproduces the analytic base rate of 2.80: the grain rhymes with QCD exactly as often as a random number does.
+The tolerance sensitivity is:
+
+| Quantity at 5% | Value |
+|---|---|
+| hits per branch | 15, 15 |
+| pairs surviving both branches | 10 |
+| empirical control | mean 13.61 hits per grain; central 95% interval \([7,19]\) |
+
+The seven hits are \(m_*\times2\approx f_\pi\), \(m_*\times3\approx m_{\pi^+}\), \(m_*\times3\pi\approx\sqrt\sigma\), \(m_*\times2\approx m_s\) on the CMB branch, and \(m_*\times7\approx\Lambda^{(3)}_{\overline{\mathrm{MS}}}\), \(m_*\times2\pi^2\approx m_p\), \(m_*/7\approx m_u+m_d\) on the Cepheid branch. The first is the already-quarantined \(f_\pi/2\) siren of the grain-in-every-register census; at the declared one-percent tolerance it does not survive the Cepheid branch. The two one-percent lists are disjoint. The branch spread is two percent, wider than that tolerance, so the closure cannot presently state a *branch-independent one-percent* coincidence. The observed counts, four and three, sit inside the central interval of theory-free grains, and the empirical mean of 2.79 hits per grain reproduces the analytic base rate of 2.80.
+
+That zero is tolerance-specific. At five percent, \(2m_*\approx f_\pi(92)\) and nine other entries survive both branches. Each real branch has fifteen hits, still inside the corresponding control interval \([7,19]\). The broader-tolerance counts must therefore be judged against that broader base rate rather than imported into the one-percent result.
 
 ## The unit-artifact trap
 
@@ -25,11 +35,11 @@ The seven hits are \(m_*\times2\approx f_\pi\), \(m_*\times3\approx m_{\pi^+}\),
 
 ## The correlation-length mismatch
 
-The pure-gauge gap is the \(0^{++}\) glueball; its correlation length is \(\hbar c/m_{0^{++}}\approx0.11\)–\(0.12\,\mathrm{fm}\). The grain is \(\lambda_*\approx4.18\)–\(4.26\,\mathrm{fm}\) across the two branches. The ratio is thirty-five to thirty-seven, and the error is in the wrong direction for the grain to be the confinement scale: it is far too coarse. Deep inelastic scattering resolves structure three orders of magnitude below the grain. The receipt reports the ranges and asserts only that they fall where the prose says.
+The lightest state resolved in the pure-\(\mathrm{SU}(3)\) lattice spectrum is the \(0^{++}\) glueball, so the numerical gap candidate has correlation length \(\hbar c/m_{0^{++}}\approx0.11\)–\(0.12\,\mathrm{fm}\). The grain is \(\lambda_*\approx4.18\)–\(4.26\,\mathrm{fm}\) across the two branches. The ratio is thirty-five to thirty-seven, and the error is in the wrong direction for the grain to be the confinement scale: it is far too coarse. Deep inelastic scattering resolves structure three orders of magnitude below the grain. The receipt reports the ranges and asserts only that they fall where the prose says.
 
 ## Everything wrong with this comparison
 
-The sweep compares a cosmological diagnostic inversion — a number obtained by inserting measured \(G\) and \(H_c\) — against laboratory scales, which the grain module's own falsifier ("the line center is selected only by inserting measured \(G\) and then rediscovered") already forbids as evidence in either direction. A null result is therefore the only admissible outcome and does not by itself bear on the grain. The scale entries carry lattice and scheme uncertainties of several percent (glueballs, \(\Lambda\), \(\sqrt\sigma\)), so the one-percent tolerance is stricter than the data; a five-percent tolerance would raise the hit count and the control's mean together and leave the conclusion unchanged. The analytic chance model assumes log-uniform ratios and independent trials, neither exactly true; that is why the empirical control, which makes neither assumption, is the load-bearing comparison. The grain-in-every-register census uses a broader candidate set and a measured density, and reaches the same conclusion by a different route. None of this rescues a coincidence: the branch-instability kill is independent of the tolerance, the chance model, and the candidate set.
+The sweep compares a cosmological diagnostic inversion — a number obtained by inserting measured \(G\) and \(H_c\) — against laboratory scales, which the grain module's own falsifier ("the line center is selected only by inserting measured \(G\) and then rediscovered") already forbids as evidence in either direction. A null result is therefore the only admissible outcome and does not by itself bear on the grain. The scale entries carry lattice and scheme uncertainties of several percent (glueballs, \(\Lambda\), \(\sqrt\sigma\)), so the one-percent tolerance is stricter than some inputs. The analytic chance model assumes log-uniform ratios and independent trials, neither exactly true; that is why the empirical control is the load-bearing comparison. At one percent no pair survives both branches; at five percent several do, and both the real and control counts rise. Branch stability is therefore not a tolerance-independent kill. The grain-in-every-register census uses a broader candidate set and reaches the same quarantine by a different route.
 
 ## Kill list
 

@@ -26,7 +26,7 @@ $$
 \frac{\mathrm d\iota}{\iota}=2(1+q)\,\mathrm dN,}
 $$
 
-with $q$ the deceleration parameter (from $\dot H=-(1+q)H^2$): ledger growth per scale e-fold is $2(1+q)$ nats — $0.95$ today, $1.50$ at the crossing, $\to0$ in the de Sitter limit, where the horizon freezes and the ledger saturates. Bookkeeping, but exact, and it welds three registers in one line: area growth, deceleration, and nats.
+with $q$ the deceleration parameter (from $\dot H=-(1+q)H^2$): ledger growth per scale e-fold is $2(1+q)$ nats — $0.95$ today, $1.50$ at matter--$\Lambda$ equality, and $\to0$ in the de Sitter limit, where the horizon freezes and the ledger saturates. The programme crossing has a separately quoted $H_c$ but no $q_c$ is inferred from that number alone. Bookkeeping, but exact, and it welds three registers in one line: area growth, deceleration, and nats.
 
 ## The conditional dimension selector
 

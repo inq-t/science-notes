@@ -94,7 +94,7 @@ This is the fold, as a theorem rather than a metaphor. It has an immediately sug
 
 **A correction that matters.** Unitary evolution is noncommutative **and reversible**: $\sigma_t(A) = U_t A U_t^*$ is a one-parameter *group*. Noncommutativity supplies multiplicity, not direction.
 
-What breaks reversibility is the **restriction** $\Pi: \mathcal{M} \to \mathcal{D}$ — the passage to a commutative shadow. Information about non-commuting complements is not hidden by it; it has no image under it.
+Observational restriction is canonically a map on states, $i^*:S(\mathcal M)\to S(\mathcal D)$ for an inclusion $i:\mathcal D\hookrightarrow\mathcal M$. It is generally many-to-one, but it is not thereby a temporal evolution. A map $\Pi:\mathcal M\to\mathcal D$ is extra structure, typically a conditional expectation when one exists; the inclusion alone neither supplies it nor makes it state-preserving. The algebraic arrow proposed below must therefore come from a genuinely one-sided endomorphism action, not from calling restriction irreversible.
 
 > **Necessitating reason is a group. Sufficing reason is a monoid that is not a group. The arrow of time is that failure.**
 
@@ -108,7 +108,7 @@ The same statement appears at both levels of the formalism, which is the main st
 
 But a Keller map is **étale**. Every local test says it is invertible. An arrow arising this way would be globally real and *locally undetectable*, which is the opposite of how time is encountered. Coinduction defines identity by what can be observed, so the coalgebraic framing sides with modular inclusion against Keller for a principled reason rather than a preference.
 
-The correct relation is not rivalry, but the identification is not established: half-sided modular inclusion would be the continuous, locally detectable analogue of the discrete, globally hidden Keller structure only after a bridge between the two is constructed — [[sufficient-reason/algebraic-arrow-of-time|the algebraic-arrow note]] records that the two presently share only a formal contrast between ambient reversibility and one-sided global structure. The algebraic side is the one that carries the physics.
+The correct relation is not rivalry, but the identification is not established: half-sided modular inclusion would be the continuous, locally detectable analogue of the discrete, globally hidden Keller structure only after a bridge between the two is constructed — [[sufficient-reason/algebraic-arrow-of-time|the algebraic-arrow note]] records that the two presently share only a formal contrast between ambient reversibility and one-sided global structure. The operator-algebraic side is the one that carries the physics.
 
 ---
 
@@ -119,7 +119,7 @@ The obvious objection: *locally reversible, globally not, because a projection l
 | | Boltzmann | This account |
 |---|---|---|
 | Microdynamics | group (Hamiltonian flow) | group (unitary) |
-| Loss mechanism | coarse-graining to macrostates | restriction to a commutative subalgebra |
+| Loss mechanism | coarse-graining to macrostates | proposed one-sided endomorphism; observational restriction alone is not evolution |
 | Reference measure | Liouville | **none available** |
 | Arrow is a property of | a *state* (the initial one) | the *algebra* |
 | Extra input required | Past Hypothesis | — |
@@ -132,7 +132,7 @@ A type III$_1$ factor **has no trace**. There is no canonical uniform measure, h
 
 Every version that dies this way is **statistical** — asymmetry derived from typicality with respect to a measure. The present account is not. $\Delta^{it}\mathcal{N}\Delta^{-it}\subseteq\mathcal{N}$ holds for one sign of $t$ and fails for the other as a structural fact about the inclusion, and the generator is positive — not usually positive. There is no fluctuation into the reverse case, because the reverse case is not a low-probability configuration; it is not a configuration.
 
-**What this reading claims about the past.** Not that a low-entropy region existed, but that *the past is the direction along which records exist*, and records are the residue of a non-invertible restriction. The Past Hypothesis is then not a fact about a region but a condition on the form of appearance. This is Kant's Second Analogy — objective succession is possible only under a rule of irreversibility — argued from an algebra rather than from the unity of apperception.
+**What this reading claims about the past.** Not that a low-entropy region existed, but that *the past is the direction along which records exist*, and that records should be constructed from the one-sided inclusion dynamics. The Past Hypothesis is then not a fact about a region but a condition on the form of appearance. This is Kant's Second Analogy — objective succession is possible only under a rule of irreversibility — proposed from an algebra rather than from the unity of apperception. The construction of records from that semigroup remains open.
 
 **What it does not yet buy.** It removes the *foothold* for the Past Hypothesis by removing the reference measure the Hypothesis needs. It does not thereby derive records, memory, or the thermodynamic gradient. And it delivers *an* orientation without delivering that the orientation is **shared**: every observer's records point the same way, and that is a compatibility condition across walls, not a property of any one wall. See target C5.
 

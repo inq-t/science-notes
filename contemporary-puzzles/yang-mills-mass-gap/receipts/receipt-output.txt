@@ -14,12 +14,29 @@
 2_poisson_P(N<=n)                    0.798
 2_poisson_P(N>=n)                    0.329
 3_branch_stable_hits                 0
+3_branch_stable_hits_at_5pct         10
+3_branch_stable_list_at_5pct
+    Lambda_MS_nf3 ~ m* x 7
+    f_pi(130) ~ m* x e
+    f_pi(92) ~ m* x 2
+    m_eta ~ m* x 12
+    m_p ~ m* x 2pi^2
+    m_pi+ ~ m* x 3
+    m_pi0 ~ m* x 3
+    m_s(2GeV) ~ m* x 2
+    m_u+m_d ~ m* x 1/7
+    sqrt_sigma ~ m* x 3pi
+3_hits_per_branch_at_5pct            {'CMB': 15, 'Cepheid': 15}
 4_fake_grains                        4000
 4_fake_mean_hits_per_grain           2.788
 4_fake_central_95pct
     0
     7
 4_analytic_expected_per_grain        2.797
+4_fake_mean_hits_per_grain_at_5pct   13.612
+4_fake_central_95pct_at_5pct
+    7
+    19
 5_ln_mP_over_mstar_CMB               47.022
 5_mstar_in_MeV_CMB                   46.27
 5_mstar_in_GeV_CMB                   0.046270000000000006
@@ -27,11 +44,11 @@
 5_mstar_in_MeV_Cepheid               47.21
 5_mstar_in_GeV_Cepheid               0.04721
 5_note                               ln(m_P/m*) ~ 47.0 on both branches; the count m*/MeV ~ 46-47 changes to 0.046-0.047 in GeV
-6_gap_length_fm_range
+6_gap_candidate_length_fm_range
     0.1141
     0.1194
 6_grain_length_fm_branches           {'CMB': 4.2647, 'Cepheid': 4.1798}
-6_grain_over_gap_range
+6_grain_over_gap_candidate_range
     35.0
     37.4
 6_lattice_consistent_pure_numbers    {'m0pp_over_sqrt_sigma_LuciniTeper': 3.55, 'm0pp_over_sqrt_sigma_convention_mixed_1730_over_440': 3.93, 'm2pp_over_m0pp': 1.38}

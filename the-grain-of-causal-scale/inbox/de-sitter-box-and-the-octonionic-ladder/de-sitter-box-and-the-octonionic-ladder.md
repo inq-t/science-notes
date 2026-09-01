@@ -7,7 +7,7 @@ The suspicion has two halves — *de Sitter space is a Wheeler box that traps oc
 | Fragment | Typed form | Status |
 |---|---|---|
 | dS is a Wheeler box | static-patch observables with an observer form the hyperfinite type II$_1$ factor: a *unique trace*, entropy bounded above, maximum at the tracial state | [CITED — CLPW 2022] |
-| limited degrees of freedom | $S_{dS}=\pi L^2/G\sim10^{122}$; the vault's counting ledger already runs at two nats per horizon e-fold | [CITED]; [[hyperbolic-counting/inq|hyperbolic counting]] |
+| limited degrees of freedom | $S_{dS}=\pi L^2/G\sim10^{122}$; the vault's counting ledger already runs at two nats per horizon e-fold | [CITED]; [[hyperbolic-counting/inq\|hyperbolic counting]] |
 | black holes from harmonics | the SdS horizon cubic: an $A_2$ family whose roots are three phases of one cosine | [EXACT — receipts] |
 | particle-like | no-hair $(m,a,q_e)$ = the $A_3$ miniversal coordinates of the KN–dS quartic | [EXACT — receipts] |
 | traps octonion phase space | one shared $A_2$ base with the Jordan spectral map; the trapping functor itself | [OPEN CONSTRUCTION] |

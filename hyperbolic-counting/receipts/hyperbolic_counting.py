@@ -3,8 +3,9 @@
 Passing establishes the arithmetic quoted in the module's notes: orbifold
 areas, the 5pi/6 vs golden-index firewall gap, resolution-depth ledger values,
 the d iota = 2(1+q) iota dN relation, the Smith/ladder identities (path graph
-A_{n-1} has norm 2cos(pi/n); A3 -> index 2), the algebraic-survivor table and
-separation costs, the accumulation honesty bound, and the Gauss-map entropy
+A_{n-1} has norm 2cos(pi/n); A3 -> index 2), the affine-threshold check,
+the algebraic-survivor table and separation costs, the accumulation honesty
+bound, and the Gauss-map entropy
 constant. It does NOT establish the channel reading, the fit's reliability,
 transcendence (a theorem, not a float), or any selection principle."""
 import json, math, sys, itertools
@@ -33,8 +34,10 @@ assert 1e-6 < gap < 5e-5
 c0,hbar,G=299792458.0,1.054571817e-34,6.67430e-11
 Mpc=3.0856775814913673e22; H0=67.4e3/Mpc; Om,OL=0.315,0.685
 lP=math.sqrt(hbar*G/c0**3)
+H_programme_crossing = 83.1058e3/Mpc
 for H,Np_ref,i_ref,label in [(H0,140.29,2.265e122,"today"),
-                             (H0*math.sqrt(2*OL),140.14,1.654e122,"crossing")]:
+                             (H0*math.sqrt(2*OL),140.14,1.654e122,"matter_Lambda_equality"),
+                             (H_programme_crossing,140.08,1.490e122,"programme_crossing")]:
     R=c0/H; Np=math.log(R/lP); iota=pi*math.exp(2*Np)
     out[f"N_P_{label}"]=check(f"N_P {label}",Np,Np_ref,1e-4)
     out[f"ledger_{label}"]=check(f"iota {label}",iota,i_ref,1e-2)
@@ -56,13 +59,14 @@ def path_norm(k):  # largest eigenvalue of path graph on k vertices = 2cos(pi/(k
     return 2*math.cos(pi/(k+1))
 for n in range(3,13):
     check(f"A_{n-1} norm",path_norm(n-1),2*math.cos(pi/n),1e-12)
-check("qubit: A3 norm^2 = 2",path_norm(3)**2,2.0,1e-12)
-assert math.e>2.0  # fitted rate beyond the affine wall
+check("A3 norm^2 = 2",path_norm(3)**2,2.0,1e-12)
 
 # 4) algebraic survivors in the released-2025 direct Delta-chi2 <= 1 profile window
 fit_lo,fit_hi=0.941572,1.089954
 s_lo,s_hi=1/fit_hi,1/fit_lo
 ind_lo,ind_hi=math.exp(2*s_lo),math.exp(2*s_hi)
+out["fit_window_above_affine_wall"] = s_lo > math.log(2)
+assert out["fit_window_above_affine_wall"]
 out["index_window"]=[round(ind_lo,3),round(ind_hi,3)]
 ladder=[4*math.cos(pi/n)**2 for n in range(3,25)]+[4.0]
 cands=set()

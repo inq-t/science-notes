@@ -2,9 +2,12 @@
  "firewall_gap": 4.0110758400491164e-05,
  "N_P_today": 140.29421050149747,
  "ledger_today": 2.265441230171071e+122,
- "N_P_crossing": 140.13680513157746,
- "ledger_crossing": 1.6536067373511574e+122,
+ "N_P_matter_Lambda_equality": 140.13680513157746,
+ "ledger_matter_Lambda_equality": 1.6536067373511574e+122,
+ "N_P_programme_crossing": 140.0847410245627,
+ "ledger_programme_crossing": 1.4900811621287793e+122,
  "2(1+q)_today": 0.9449999999999998,
+ "fit_window_above_affine_wall": true,
  "index_window": [
   6.265,
   8.365

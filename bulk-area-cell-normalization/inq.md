@@ -191,7 +191,7 @@ The focused standard-library check is [[bulk-area-cell-normalization/normalizati
 
 ## The sharpened falsifier
 
-At \(\gamma=1\), neither \(m_\pi/2\) nor \(f_\pi\) lies in the fitted interval. They would require approximately
+At \(\gamma=1\), neither \(m_\pi/2\) nor \(f_\pi\) lies in the fitted interval. On the \(H_c=88.2608\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\) branch they would require approximately
 
 $$
 s_*(m_\pi/2)=0.62,
@@ -199,7 +199,7 @@ s_*(m_\pi/2)=0.62,
 s_*(f_\pi)=0.27,
 $$
 
-and would predict crossing rates near \(142.5\) and \(327.6\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\) at unit baseline normalization. The earlier broad “chiral window” therefore fails under the literal one-species spherical reading.
+On the \(83.1058\) branch the corresponding values are approximately \(0.58\) and \(0.25\). At unit baseline normalization the two candidates would instead predict crossing rates near \(142.5\) and \(327.6\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\). The earlier broad “chiral window” therefore fails under the literal one-species spherical reading.
 
 Three possibilities remain open:
 

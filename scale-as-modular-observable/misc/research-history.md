@@ -4,7 +4,7 @@ The `chats/` directory is an immutable development record. It shows a useful pro
 
 ## Chat 01 — the closure problem is identified
 
-The [[deriving-value-of-g/chats/01/prompt|prompt]] asks for a critical pass over [[scale-as-modular-observable/chats/01/attachments/attempt-at-closure|Attempt at Closure]]. That attachment establishes much of the durable structure:
+The [[scale-as-modular-observable/chats/01/prompt|prompt]] asks for a critical pass over [[scale-as-modular-observable/chats/01/attachments/attempt-at-closure|Attempt at Closure]]. That attachment establishes much of the durable structure:
 
 - it separates the binary score variance from the full entanglement capacity;
 - it proposes a modular free-energy source functional;
@@ -13,13 +13,13 @@ The [[deriving-value-of-g/chats/01/prompt|prompt]] asks for a critical pass over
 - it treats $\gamma_{\perp,c}=1$ as an Einstein-capacity conjecture; and
 - it ends with explicit theorem obligations rather than claiming that all of them are solved.
 
-The [[deriving-value-of-g/chats/01/response|response]] adds an alleged representation-theoretic derivation of unit slope and reports an empirical capacity fit, but later retreats to the more accurate position: the FLRW cocycle has not been computed independently, the covariant response tensor is absent, and capacity saturation remains a gap.
+The [[scale-as-modular-observable/chats/01/response|response]] adds an alleged representation-theoretic derivation of unit slope and reports an empirical capacity fit, but later retreats to the more accurate position: the FLRW cocycle has not been computed independently, the covariant response tensor is absent, and capacity saturation remains a gap.
 
 The main algebraic error already present here is the replacement of a fixed-reference free-energy difference by the relative entropy between neighboring states. [[scale-as-modular-observable/claim-audit#The free-energy step is constitutive|The corrected calculation]] shows why the all-history source remains a constitutive law.
 
 ## Chat 02 — conditional claims are promoted to closure
 
-The [[deriving-value-of-g/chats/02/prompt|prompt]] explicitly asks to force a closure. The resulting [[scale-as-modular-observable/chats/02/outputs/the_closure|closure note]] and [[scale-as-modular-observable/chats/02/outputs/rubles_equations|equation reference]] promote two conjectural steps to theorem status:
+The [[scale-as-modular-observable/chats/02/prompt|prompt]] explicitly asks to force a closure. The resulting [[scale-as-modular-observable/chats/02/outputs/the_closure|closure note]] and [[scale-as-modular-observable/chats/02/outputs/rubles_equations|equation reference]] promote two conjectural steps to theorem status:
 
 1. $\varrho_\perp=1$ from alleged conformal-weight integrality plus a flatness ceiling;
 2. $\gamma_{\perp,c}=1$ from a two-dimensional normal plane, modular rescaling, and Cardy thermodynamics.
