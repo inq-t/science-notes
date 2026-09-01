@@ -1,0 +1,34 @@
+A_S(0.0)                         0.23121400616574708
+A_S(1.0)                         3.076923210256593
+A_S(1.3)                         10.000000133331918
+A_S(1.5)                         5.000000133332842
+A_S(3.0)                         0.13651890466446695
+A_half_max_ratio                 0.5000000066666882
+B_hatC(0.0)                      2.8571433238094137
+B_hatC(0.5)                      1.8918923585585672
+B_hatC(2.0)                      0.31180447557570923
+B_fit_a_vs_1/(2m)                0.7142845026387163
+B_fit_pole_m2_from_b/a           0.4900009067595904
+C_lambda0                        2.67486989260969
+C_lambda1                        1.7762119643752459
+C_ratio(K=0.8)                   0.6640367702678487
+C_two_point_K0.2_n1              0.19737532022490403
+C_two_point_K0.2_n3              0.0076891537120697415
+C_two_point_K0.2_n7              1.1669437796700925e-05
+C_two_point_K0.8_n1              0.664036770285912
+C_two_point_K0.8_n3              0.29280358235237147
+C_two_point_K0.8_n7              0.056930487534133704
+C_two_point_K2.0_n1              0.9713503738125726
+C_two_point_K2.0_n3              0.9179259483341912
+C_two_point_K2.0_n7              0.8256071891020771
+C_two_point_K5.0_n1              0.9999997567844837
+C_two_point_K5.0_n3              0.9999992950872866
+C_two_point_K5.0_n7              0.9999984706281827
+C_gap_ma_by_K                    {'0.2': 1.622648, '0.8': 0.409418, '2.0': 0.036635, '5.0': 9.1e-05}
+C_gap_at_K5_small                9.079985958737685e-05
+C_inverse_xi(K=0.8)              0.40941775412953696
+D_gap_length_fm_range            [0.1141, 0.1194]
+D_grain_length_fm_range          [4.1798, 4.2647]
+D_grain_over_gap_range           [35.0, 37.4]
+D_pure_numbers                   {'m0pp_over_sqrt_sigma_lattice_consistent_LuciniTeper': 3.55, 'm0pp_over_sqrt_sigma_convention_mixed_1730_over_440': 3.93, 'm2pp_over_m0pp': 1.38}
+FAILURES: none

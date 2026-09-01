@@ -1,0 +1,18 @@
+A_m/mN=0.0                                   {'roots': [1.0, 0.0, -1.0], 'sigma1': -0.0, 'sigma2': -1.0, 'sum_r2': 2.0}
+A_m/mN=0.2                                   {'roots': [0.959026, 0.077445, -1.036471], 'sigma1': 0.0, 'sigma2': -1.0, 'sum_r2': 2.0}
+A_m/mN=0.5                                   {'roots': [0.884552, 0.200512, -1.085064], 'sigma1': -0.0, 'sigma2': -1.0, 'sum_r2': 2.0}
+A_m/mN=0.9                                   {'roots': [0.720614, 0.421061, -1.141675], 'sigma1': 0.0, 'sigma2': -1.0, 'sum_r2': 2.0}
+A_m/mN=0.999                                 {'roots': [0.592194, 0.562378, -1.154572], 'sigma1': 0.0, 'sigma2': -1.0, 'sum_r2': 2.0}
+A_verdict                                    sigma2 = -L^2 independent of m: |X|^2 = 2L^2 is a function of Lambda alone, by Vieta
+B_Lambda_m^-2                                1.089138833700683e-52
+B_lambda_Lambda_fm                           4.871572511328305
+B_E_Lambda_MeV                               40.50580791749232
+B_residual                                   1.1102230246251565e-14
+B_negative_control_fake_Lambda_residual      -1.1213252548714081e-14
+B_verdict                                    the residual measures floating point, not physics: the fake Lambda passes identically
+C_Ec_over_EL                                 1.1423053230847529
+C_(Hc/HL)^(1/3)                              1.1424214900929974
+C_(Hc/HL)^(2/3)                              1.3051268610263045
+C_relative_miss_if_two_thirds                0.143
+C_verdict                                    E ~ H^(1/3) from lambda^3 ~ R; the two 'grains' are one function m_cap(N) at two epochs
+FAILURES: none
