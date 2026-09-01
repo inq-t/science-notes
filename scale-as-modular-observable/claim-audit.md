@@ -142,7 +142,7 @@ Recomputed at the monograph's benchmark $\Omega_{m0}=0.310598$, $\Omega_{r0}=9.1
 | $1.5$ | one: $0.356864$ | one: $0.357138$ |
 | $1.558402$ | three: $0.371675$, $6.106787$, $6.106956$ | two: $0.371986$, $5.043480$ |
 | $1.7$ | three: $0.429266$, $1.438413$, $12.548049$ | two: $0.429780$, $1.434858$ |
-| $1.814657$ | one: $20.342870$ | none |
+| $1.814657$ | three: $0.648593$, $0.649507$, $20.342848$ (the late pair sits $1.5\times10^{-7}$ short of its terminal fold at $\nu\simeq1.8146572$, $x\simeq0.64905$) | none |
 | $1.99$ | one: $377.040688$ | none |
 | $2$ | none | none |
 

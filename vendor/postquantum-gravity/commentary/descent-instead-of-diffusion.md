@@ -10,7 +10,7 @@ What is not forced is the reading of the measure. The mathematics fixes a probab
 
 ## The fact the theory supplies
 
-From [[cq-construction]]: when the trade-off is saturated,
+From [[vendor/postquantum-gravity/cq-construction]]: when the trade-off is saturated,
 
 $$
 \text{trade-off saturated}
@@ -41,7 +41,7 @@ The correspondence with [[sufficient-reason/inq|Sufficing and Necessitating Reas
 | conditional purity given $z$ | determinateness *given* the pointing |
 | the mixed unconditioned state | what remains when the pointing is not available |
 
-The signature is visible in the coefficient itself. An amplitude carries $e^{iS/\hbar}$ and determines a history; a probability weight carries $e^{-\mathcal I/2D_2}$ and determines only a law over histories. The switch from imaginary to real is, in this project's vocabulary, the switch from a necessitating to a sufficing ground — and it is the same switch that removes the ghost in [[no-ghosts-and-real-couplings]]. One change of coefficient does both jobs, which is the strongest structural hint the vendor offers.
+The signature is visible in the coefficient itself. An amplitude carries $e^{iS/\hbar}$ and determines a history; a probability weight carries $e^{-\mathcal I/2D_2}$ and determines only a law over histories. The switch from imaginary to real is, in this project's vocabulary, the switch from a necessitating to a sufficing ground — and it is the same switch that removes the ghost in [[vendor/postquantum-gravity/no-ghosts-and-real-couplings]]. One change of coefficient does both jobs, which is the strongest structural hint the vendor offers.
 
 The programme already holds this position for its own sector, in [[causal-wall-spectral-theory/whole-state-correlation-reading|the whole-state correlation reading]]. The vendor is the first place it meets a fully worked covariant theory.
 
@@ -54,7 +54,7 @@ Every completely positive trace-preserving map admits a Stinespring dilation, so
 
 That is why this vendor matters to the project more than a generic open-system model would. It exhibits a dilation whose environment is a *fact* rather than a quantum system, which is the closest current physics comes to the claim that the inaccessible reason is inaccessible in principle rather than merely unmeasured.
 
-The caveat must travel with the claim. Conditional purity is established at saturation for the fundamental dynamics — proved in the published paper and independently in the trajectories literature. Whether it survives integrating out mediating gravitational modes is not settled here, and [[stochastic-modes]] leaves related questions open about constraints at higher order and non-Markovianity. If it fails there, the descent reading fails with it, and that is the single most important thing to check before building on this.
+The caveat must travel with the claim. Conditional purity is established at saturation for the fundamental dynamics — proved in the published paper and independently in the trajectories literature. Whether it survives integrating out mediating gravitational modes is not settled here, and [[vendor/postquantum-gravity/stochastic-modes]] leaves related questions open about constraints at higher order and non-Markovianity. If it fails there, the descent reading fails with it, and that is the single most important thing to check before building on this.
 
 ## Residue and cost
 

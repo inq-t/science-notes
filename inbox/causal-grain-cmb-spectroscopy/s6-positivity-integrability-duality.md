@@ -145,7 +145,7 @@ The qualification is essential. Positivity and integrability are not absolutely 
 
 $$
 \boxed{
-\text{canonical round-compatible \(G_2\) nearly Kähler structure}
+\text{canonical round-compatible }G_2\text{ nearly Kähler structure}
 \quad\text{versus}\quad
 \text{hypothetical integrable, necessarily non-Kähler structure}.
 }

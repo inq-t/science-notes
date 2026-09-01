@@ -354,7 +354,7 @@ $$
 \xrightarrow{\ \nu=+1\ }
 \text{local fact and record}
 \longrightarrow
-\text{metric \(3+1\) history}.
+\text{metric }3+1\text{ history}.
 }
 $$
 

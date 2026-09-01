@@ -8,7 +8,7 @@ The $(3,4,\infty)$ family's three special fibres are constructed as quotients by
 
 ## Leg 2 — Carroll contraction at null surfaces (standard)
 
-On any null hypersurface the induced metric degenerates and the local isometry structure contracts from Lorentz to the Carroll group — the $c\to0$ Inönü–Wigner contraction (Lévy-Leblond 1965; horizons as Carrollian geometry: Donnay and Marteau, Class. Quantum Grav. **36**, 165002 (2019)). Read against [[dimensional-ladder/the-saturation-ladder|the ladder]]: *at* the wall the stiffness register degenerates, and what remains is not "one dimension fewer" but a different group with null time. The wall is where the causal speed stops being a conversion and becomes a constraint.
+On any null hypersurface the induced metric degenerates and the local isometry structure contracts from Poincaré to the Carroll group — the $c\to0$ Inönü–Wigner contraction (Lévy-Leblond 1965; horizons as Carrollian geometry: Donnay and Marteau, Class. Quantum Grav. **36**, 165002 (2019)). Read against [[dimensional-ladder/the-saturation-ladder|the ladder]]: *at* the wall the stiffness register degenerates, and what remains is not "one dimension fewer" but a different group with null time. The wall is where the causal speed stops being a conversion and becomes a constraint.
 
 ## Leg 3 — The ledger produced by residual symmetry (standard result, imported)
 

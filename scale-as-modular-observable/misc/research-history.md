@@ -4,7 +4,7 @@ The `chats/` directory is an immutable development record. It shows a useful pro
 
 ## Chat 01 — the closure problem is identified
 
-The [[deriving-value-of-g/chats/01/prompt|prompt]] asks for a critical pass over [[chats/01/attachments/attempt-at-closure|Attempt at Closure]]. That attachment establishes much of the durable structure:
+The [[deriving-value-of-g/chats/01/prompt|prompt]] asks for a critical pass over [[scale-as-modular-observable/chats/01/attachments/attempt-at-closure|Attempt at Closure]]. That attachment establishes much of the durable structure:
 
 - it separates the binary score variance from the full entanglement capacity;
 - it proposes a modular free-energy source functional;
@@ -15,11 +15,11 @@ The [[deriving-value-of-g/chats/01/prompt|prompt]] asks for a critical pass over
 
 The [[deriving-value-of-g/chats/01/response|response]] adds an alleged representation-theoretic derivation of unit slope and reports an empirical capacity fit, but later retreats to the more accurate position: the FLRW cocycle has not been computed independently, the covariant response tensor is absent, and capacity saturation remains a gap.
 
-The main algebraic error already present here is the replacement of a fixed-reference free-energy difference by the relative entropy between neighboring states. [[claim-audit#The free-energy step is constitutive|The corrected calculation]] shows why the all-history source remains a constitutive law.
+The main algebraic error already present here is the replacement of a fixed-reference free-energy difference by the relative entropy between neighboring states. [[scale-as-modular-observable/claim-audit#The free-energy step is constitutive|The corrected calculation]] shows why the all-history source remains a constitutive law.
 
 ## Chat 02 — conditional claims are promoted to closure
 
-The [[deriving-value-of-g/chats/02/prompt|prompt]] explicitly asks to force a closure. The resulting [[chats/02/outputs/the_closure|closure note]] and [[chats/02/outputs/rubles_equations|equation reference]] promote two conjectural steps to theorem status:
+The [[deriving-value-of-g/chats/02/prompt|prompt]] explicitly asks to force a closure. The resulting [[scale-as-modular-observable/chats/02/outputs/the_closure|closure note]] and [[scale-as-modular-observable/chats/02/outputs/rubles_equations|equation reference]] promote two conjectural steps to theorem status:
 
 1. $\varrho_\perp=1$ from alleged conformal-weight integrality plus a flatness ceiling;
 2. $\gamma_{\perp,c}=1$ from a two-dimensional normal plane, modular rescaling, and Cardy thermodynamics.
@@ -28,16 +28,16 @@ Neither promotion is valid. Conformal weights are real, the ceiling is evaluated
 
 This round contains useful exact work on the Fisher angle, shape invariant, and Witten factorization. It also contains visible internal tension:
 
-- [[chats/02/outputs/P1_shape_invariant_result|the P1 result]] says to demote the purported primary discriminator while the equation reference still calls it primary;
+- [[scale-as-modular-observable/chats/02/outputs/P1_shape_invariant_result|the P1 result]] says to demote the purported primary discriminator while the equation reference still calls it primary;
 - one note retains two constants while another claims none;
 - the Schwarzschild thermodynamic exponent appears with both signs; and
 - a receipt described as data-free hardcodes measured matter and radiation inputs.
 
-The chat contains [[chats/02/outputs/receipts_closure.py|one receipt script]] but no captured run. The second advertised receipt and the claimed P1 code/data package are absent from chat 02, so its likelihood claims cannot be reproduced from that archive.
+The chat contains [[scale-as-modular-observable/chats/02/outputs/receipts_closure.py|one receipt script]] but no captured run. The second advertised receipt and the claimed P1 code/data package are absent from chat 02, so its likelihood claims cannot be reproduced from that archive.
 
 ## Chat 03 — synthesis into a master document
 
-The [[scale-as-modular-observable/chats/03/prompt|prompt]] asks for a chronological survey and a single master. The generated [[chats/03/outputs/scale_as_a_modular_observable|Chat 03 master]] consolidates the programme, while [[chats/03/outputs/receipts_transparency_fold.py|the larger receipt]] checks many identities that follow from its declared inputs.
+The [[scale-as-modular-observable/chats/03/prompt|prompt]] asks for a chronological survey and a single master. The generated [[scale-as-modular-observable/chats/03/outputs/scale_as_a_modular_observable|Chat 03 master]] consolidates the programme, while [[scale-as-modular-observable/chats/03/outputs/receipts_transparency_fold.py|the larger receipt]] checks many identities that follow from its declared inputs.
 
 The archived [[scale-as-modular-observable/misc/scale-as-a-modular-observable|Revision 2 monograph]] is a later, much expanded descendant. It corrects the earlier jerk-sign error by using
 

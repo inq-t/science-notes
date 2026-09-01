@@ -20,7 +20,7 @@ The word *homogeneous* can name several inequivalent properties. They must not b
    \mathcal M^G=\mathbb C\mathbf1.
    $$
 
-   This says that the action leaves no nontrivial algebra element fixed. It is stronger than factoriality and still does not select a state.
+   This says that the action leaves no nontrivial algebra element fixed. It is logically independent of factoriality — a classical ergodic action on \(L^\infty(X,\mu)\) has \(\mathcal M^G=\mathbb C\mathbf 1\) while \(Z(\mathcal M)=\mathcal M\), and the trivial action on a factor has \(\mathcal M^G=\mathcal M\) — and what it does force is that \(G\) act ergodically on the centre. It still does not select a state.
 
 3. **State homogeneity:** a state is invariant,
 

@@ -6,7 +6,7 @@ This note translates the vendored constructions into project language without cl
 
 ## Jacobson as a local-interface precedent
 
-[[jacobson-local-horizon-thermodynamics]] has the schematic form
+[[vendor/entropic-gravity/jacobson-local-horizon-thermodynamics]] has the schematic form
 
 $$
 \text{universal areal entropy response}
@@ -61,7 +61,7 @@ Controlled identities may relate some of these on the same perturbation. They ar
 
 ## Verlinde’s potential as a scale coordinate
 
-[[verlinde-entropic-force]] interprets the Newtonian potential as a coarse-graining coordinate and its equipotential surfaces as holographic screens. This strongly rhymes with [[scale-as-modular-observable/observable-map|scale as a horizontal state coordinate]]:
+[[vendor/entropic-gravity/verlinde-entropic-force]] interprets the Newtonian potential as a coarse-graining coordinate and its equipotential surfaces as holographic screens. This strongly rhymes with [[scale-as-modular-observable/observable-map|scale as a horizontal state coordinate]]:
 
 $$
 \text{physical scale}
@@ -75,7 +75,7 @@ The useful import is the **question**—whether gravitational potential is the o
 
 ## Entropy displacement and residual susceptibility
 
-[[verlinde-emergent-gravity]] proposes
+[[vendor/entropic-gravity/verlinde-emergent-gravity]] proposes
 
 $$
 \text{matter localization}

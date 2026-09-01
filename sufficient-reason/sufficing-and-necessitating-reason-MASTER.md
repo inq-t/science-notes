@@ -108,7 +108,7 @@ The same statement appears at both levels of the formalism, which is the main st
 
 But a Keller map is **étale**. Every local test says it is invertible. An arrow arising this way would be globally real and *locally undetectable*, which is the opposite of how time is encountered. Coinduction defines identity by what can be observed, so the coalgebraic framing sides with modular inclusion against Keller for a principled reason rather than a preference.
 
-The correct relation is not rivalry. **Half-sided modular inclusion is the continuous, locally detectable version of the discrete, globally hidden Keller structure.** The algebraic one carries the physics.
+The correct relation is not rivalry, but the identification is not established: half-sided modular inclusion would be the continuous, locally detectable analogue of the discrete, globally hidden Keller structure only after a bridge between the two is constructed — [[sufficient-reason/algebraic-arrow-of-time|the algebraic-arrow note]] records that the two presently share only a formal contrast between ambient reversibility and one-sided global structure. The algebraic side is the one that carries the physics.
 
 ---
 

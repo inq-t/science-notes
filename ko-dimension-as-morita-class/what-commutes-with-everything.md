@@ -12,7 +12,7 @@ $$
 
 If $S=\rho(G)$ for a representation $\rho$ on $V$, then $T\in\rho(G)'$ is precisely a morphism of representations: applying $T$ before or after any symmetry gives the same result, so $T$ is a transformation of $V$ that is not a transformation of $\rho$. It is a difference in the carrier which no equivariant description registers.
 
-Schur's lemma says that when $\rho$ is irreducible every nonzero such $T$ has kernel and range $\{0\}$ or $V$, hence is invertible, so $\operatorname{End}_G(V)$ is a division algebra. Frobenius says that over $\mathbb R$ the finite-dimensional division algebras are exactly $\mathbb R$, $\mathbb C$, $\mathbb H$. Two boundaries follow, and both matter:
+Schur's lemma says that when $\rho$ is irreducible every nonzero such $T$ has kernel and range $\{0\}$ or $V$, hence is invertible, so $\operatorname{End}_G(V)$ is a division algebra. Frobenius says that over $\mathbb R$ the finite-dimensional associative division algebras are exactly $\mathbb R$, $\mathbb C$, $\mathbb H$ (associativity is essential: the octonions are a non-associative real division algebra, and $\operatorname{End}_G(V)$ is associative by construction). Two boundaries follow, and both matter:
 
 - the residue is **never trivial** — the scalars always commute with everything;
 - the residue is **never large** — at most four real dimensions.

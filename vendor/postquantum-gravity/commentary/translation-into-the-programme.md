@@ -33,9 +33,9 @@ The register discipline of [[program-core/ontological-registers|the register dec
 
 **The cost functional as a theorem target.** Deriving an equation-of-motion-squared weight from a descent, rather than postulating it, is a well-posed obligation with a recognisable success condition. It is the sharpest thing this vendor offers the programme.
 
-**The order-of-operations warning.** Solving constraints and then adding stochasticity is inequivalent to letting stochasticity act on the full object and recovering constraints afterwards, as [[stochastic-modes]] establishes. The programme takes a quotient early — [[program-core/physical-quotient|the physical quotient]] removes redundant presentation directions before the response geometry is built — and therefore owes the same defence. This is the vendor's most transferable methodological lesson and it is a genuine warning, not a compliment.
+**The order-of-operations warning.** Solving constraints and then adding stochasticity is inequivalent to letting stochasticity act on the full object and recovering constraints afterwards, as [[vendor/postquantum-gravity/stochastic-modes]] establishes. The programme takes a quotient early — [[program-core/physical-quotient|the physical quotient]] removes redundant presentation directions before the response geometry is built — and therefore owes the same defence. This is the vendor's most transferable methodological lesson and it is a genuine warning, not a compliment.
 
-**The convex-constraint mechanism.** From [[cosmological-claims]]: a constraint convex in a variable that receives noise acquires a strictly positive one-sided drift. That is general, requires no tuning, and would apply to any programme quantity with the same convexity.
+**The convex-constraint mechanism.** From [[vendor/postquantum-gravity/cosmological-claims]]: a constraint convex in a variable that receives noise acquires a strictly positive one-sided drift. That is general, requires no tuning, and would apply to any programme quantity with the same convexity.
 
 **The two-sided experimental squeeze.** A theory that makes accessibility and disturbance trade against each other is bounded from both directions by unrelated experiments. If the programme's descent has a comparable reciprocity, it inherits a comparable test — and if it does not, it should say why not.
 

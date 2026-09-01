@@ -13,8 +13,8 @@ The recurring integers two, three, six, and ten in the algebra chats belong to d
 | $\dim_{\mathbb R}X^\tau=3$ | real fixed-locus dimension | exact when a complex threefold carries an antiholomorphic involution with nonempty fixed locus; the involution and physical interpretation are additional data |
 | physical $3+1$ | real Lorentzian dimension | three real spatial directions plus one real temporal direction |
 | $\mu(A_2)=2$ | Milnor number | rank of the vanishing-cycle lattice for the simple $A_2$ singularity |
-| $|\Phi(A_2)|=6$ | root count | six roots: three positive and three negative |
-| $|W(A_2)|=|S_3|=6$ | group cardinality | the Weyl group has six elements; the conditional inverse cover has this full sheet group |
+| $\lvert\Phi(A_2)\rvert=6$ | root count | six roots: three positive and three negative |
+| $\lvert W(A_2)\rvert=\lvert S_3\rvert=6$ | group cardinality | the Weyl group has six elements; the conditional inverse cover has this full sheet group |
 | $h(A_2)=3$ | Coxeter number | an $A_2$ Coxeter element has order three in the standard root representation |
 | order $(-T)=6$ | plane-cusp Milnor order | for $x^3+y^2$, the Milnor operator is the negative of the order-three root Coxeter operator |
 | one further quadratic suspension | suspension parity | adding $z^2$ toggles the sign back to the order-three operator $T$ |

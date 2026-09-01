@@ -18,7 +18,7 @@ $$
 \iota=\frac{A}{4\ell_P^2}=\pi e^{2N_P}:
 $$
 
-**two nats per e-fold of resolution depth** — the growth exponent is the codimension of the cut, the same 2 that runs through [[nilpotency-and-the-wall/dimension-drop-as-group-change|the wall module]]. Numerically $N_P=140.29$ today and $140.14$ at the crossing, giving $\iota=2.27\times10^{122}$ and $1.65\times10^{122}$ nats (receipts). Note the type: $N_P$ is *not* the scale e-fold $N=\ln a$ of [[cosmodynamics/scale-age|scale age]]. The exact relation between the two clocks is
+**two nats per e-fold of resolution depth** — the growth exponent is the codimension of the cut, the same 2 that runs through [[nilpotency-and-the-wall/dimension-drop-as-group-change|the wall module]]. Numerically $N_P=140.29$ today and $140.14$ at flat-$\Lambda$CDM matter–$\Lambda$ equality, $H=H_0\sqrt{2\Omega_\Lambda}\simeq78.9\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$, giving $\iota=2.27\times10^{122}$ and $1.65\times10^{122}$ nats (receipts); at the programme's own crossing rate $H_c=83.1058$ of [[the-grain-of-causal-scale/inq|the grain module]] the values are $N_P=140.08$ and $\iota_c=1.49\times10^{122}$. Note the type: $N_P$ is *not* the scale e-fold $N=\ln a$ of [[cosmodynamics/scale-age|scale age]]. The exact relation between the two clocks is
 
 $$
 \boxed{\frac{\mathrm dN_P}{\mathrm dN}=1+q,

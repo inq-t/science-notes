@@ -10,7 +10,7 @@ The functor asked for exists at the $A_2$ level, and it comes with three theorem
 | hair as non-diagonal directions | impossible as a fourth eigenvalue ($\mathfrak h_4(\mathbb O)$ fails Jordan — receipt); hair lives in the Freudenthal double, duality-invariantly as $a^2+q_e^2$ | [EXACT obstruction + model move] |
 | "algebra of nothing in particular" → "scaled relational facts" | homogeneous fibre (groupoid) over discriminant-stratified base (monoid); fibre collapse $24\to16\to0$ receipted | [EXACT structure; reading PROPOSED] |
 | Schrödinger equation of the cosmos | $i\hbar\,\partial_\tau\psi=\hat H\psi$, $\hat H=\frac{p_a^2}{2a}+\frac12\bigl(a-\frac{a^3}{L^2}\bigr)$, dust as relational clock | [CITED framework; identities EXACT] |
-| Born rule as gradient / mass | $|\psi|^2da=C\,d\eta$ (conformal dwell; exact WKB identity $d\eta/da=1/p$, Numerov-receipted to $0.14\%$); mass = the eigenvalue of $\hat H$ | [EXACT under declared ordering] |
+| Born rule as gradient / mass | $\lvert\psi\rvert^2da=C\,d\eta$ (conformal dwell; exact WKB identity $d\eta/da=1/p$, Numerov-receipted to $0.14\%$); mass = the eigenvalue of $\hat H$ | [EXACT under declared ordering] |
 
 ## 2. The functor at the $A_2$ level
 

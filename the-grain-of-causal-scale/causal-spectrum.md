@@ -253,14 +253,14 @@ $$
 one also has
 
 $$
-
-This \(\beta_c\) is KMS-motivated notation. A genuine KMS inverse temperature would additionally require a named automorphism flow and a state satisfying the KMS condition; neither is constructed for the dynamical crossing here.
 \boxed{
 \beta_cE_*=2\pi Q_c,
 \qquad
 \iota_c=\frac{(\beta_cE_*)^3}{3\pi^2}.
 }
 $$
+
+This \(\beta_c\) is KMS-motivated notation. A genuine KMS inverse temperature would additionally require a named automorphism flow and a state satisfying the KMS condition; neither is constructed for the dynamical crossing here.
 
 Numerically, the CMB branch has approximately
 

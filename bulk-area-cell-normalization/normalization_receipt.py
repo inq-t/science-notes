@@ -11,7 +11,7 @@ G_NEWTON = 6.674_30e-11
 MPC = 3.085_677_581_491_367_3e22
 MEV_C2_KG = 1.602_176_634e-13 / C**2
 H_CEPHEID = 88.2608 * 1000.0 / MPC
-H_CMB = 82.64 * 1000.0 / MPC
+H_CMB = 83.1058 * 1000.0 / MPC  # fixed-physical-density protocol (grain module); replaces 82.64
 S_INTERVAL = (0.9175, 1.0621)
 
 
@@ -66,9 +66,9 @@ fit_values = [
 check(
     "carrier diagnostics reproduce the two branch values",
     abs(unit_values[0] - 59.48) < 0.02
-    and abs(unit_values[1] - 58.19) < 0.02
+    and abs(unit_values[1] - 58.30) < 0.02
     and abs(fit_values[0] - 59.76) < 0.02
-    and abs(fit_values[1] - 58.47) < 0.02,
+    and abs(fit_values[1] - 58.58) < 0.02,
     (
         f"unit={unit_values[0]:.2f}/{unit_values[1]:.2f} MeV; "
         f"s_star=0.9861 gives {fit_values[0]:.2f}/{fit_values[1]:.2f} MeV"
@@ -79,7 +79,7 @@ window_low = carrier_mass(H_CMB, 1.0, S_INTERVAL[1]) / MEV_C2_KG
 window_high = carrier_mass(H_CEPHEID, 1.0, S_INTERVAL[0]) / MEV_C2_KG
 check(
     "two branches and fitted s_star interval give the sharpened window",
-    57.03 < window_low < 57.05 and 61.21 < window_high < 61.23,
+    57.13 < window_low < 57.15 and 61.21 < window_high < 61.23,
     f"[{window_low:.2f}, {window_high:.2f}] MeV",
 )
 

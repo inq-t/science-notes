@@ -329,11 +329,11 @@ The central \(100\theta_*\) value is \(1.27\) parts per million above the bundle
 
 Three exact antecedents make the conjecture worth preserving:
 
-| Antecedent                                                                              | Exact content                   | What it does not yet supply                                                                        |                                                                                             |
-| --------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [[critical-scale-kernels/curved-p3-representative                                       | critical \(P_3\)]]              | on round \(S^3\), the eigenvalue is \(R^{-3}\ell(\ell+1)(\ell+2)=R^{-3}(n^3-n)\) for \(n=\ell+1\)  | no theorem identifies \(q_*\), \(\Sigma_c\), or the CMB transfer problem with that spectrum |
-| [[inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder | de Sitter \(A_2\) box]]         | a trace-free cubic organizes three horizon branches as one cosine sampled at \(2\pi/3\)            | no box-spectrum functor maps its roots to acoustic peaks                                    |
-| [[binary-information-geometry/witten-darboux                                            | Witten--Darboux factorization]] | a positive second-order factor has a reflectionless continuum with unit-modulus transmission phase | no covariant weld identifies its internal momentum with a curvature or acoustic mode        |
+| Antecedent | Exact content | What it does not yet supply |
+|---|---|---|
+| [[critical-scale-kernels/curved-p3-representative\|critical \(P_3\)]] | on round \(S^3\), the eigenvalue is \(R^{-3}\ell(\ell+1)(\ell+2)=R^{-3}(n^3-n)\) for \(n=\ell+1\) | no theorem identifies \(q_*\), \(\Sigma_c\), or the CMB transfer problem with that spectrum |
+| [[inbox/de-sitter-box-and-the-octonionic-ladder/de-sitter-box-and-the-octonionic-ladder\|de Sitter \(A_2\) box]] | a trace-free cubic organizes three horizon branches as one cosine sampled at \(2\pi/3\) | no box-spectrum functor maps its roots to acoustic peaks |
+| [[binary-information-geometry/witten-darboux\|Witten--Darboux factorization]] | a positive second-order factor has a reflectionless continuum with unit-modulus transmission phase | no covariant weld identifies its internal momentum with a curvature or acoustic mode |
 
 The antecedents motivate an odd order-three characteristic, a positive quadratic factor, and a cubic-to-phase reading. They do **not** derive the particular affine label
 

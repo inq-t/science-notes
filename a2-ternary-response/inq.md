@@ -85,7 +85,7 @@ m(\theta)
 =\frac{2\sinh\theta}{1+2\cosh\theta}.
 $$
 
-Because the family commutes, its BKM coefficient is its ordinary Fisher information and the variance of $Q$; [[fisher-response|Fisher response]] explains this equality and its meaning. Direct differentiation gives the **[EXACT FINITE CALCULATION]**
+Because the family commutes, its BKM coefficient is its ordinary Fisher information and the variance of $Q$; [[basic-concepts/hessians/fisher-response|Fisher response]] explains this equality and its meaning. Direct differentiation gives the **[EXACT FINITE CALCULATION]**
 
 $$
 \boxed{
@@ -157,7 +157,7 @@ The two models differ before any cosmological interpretation is added:
 | generator spectrum | $\{+1,-1\}$ | $\{+1,-1,0\}$ |
 | raw Boltzmann-weight sum | $2\cosh\theta$ | $1+2\cosh\theta$ |
 | response at $\theta=0$ | $1$ | $2/3$ |
-| large-$|\theta|$ response | $4e^{-2|\theta|}$ | $e^{-|\theta|}$ |
+| large-$\lvert\theta\rvert$ response | $4e^{-2\lvert\theta\rvert}$ | $e^{-\lvert\theta\rvert}$ |
 | normalized allocation | $m^2+g=1$ | $m^2+g+p_0=1$ |
 
 An undetermined extensive multiplicity can rescale either metric, so peak height alone is not a physical discriminator until normalization is fixed. The different shape, tail, and third allocation term remain genuine mathematical differences in the normalized families.

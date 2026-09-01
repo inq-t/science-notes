@@ -9,7 +9,7 @@ The entropy-per-channel of [[deriving-g-v2/index-not-entropy|the index note]] re
 | Regime | Graphs | s* = log norm | Wall reading |
 |---|---|---|---|
 | norm < 2 | ADE exactly | the rigid Jones ladder, s < ln 2 | spherical: finite Weyl-type symmetry |
-| norm = 2 | affine ADE exactly | s = ln 2, the qubit ceiling | Euclidean: the qubit's graph is A3 |
+| norm = 2 | affine ADE exactly | s = ln 2, the one-bit ceiling (index 4) | Euclidean: the affine graphs Ã_n, D̃_n, Ẽ_n; the qubit's graph A3 has norm √2, index 2, one rung below |
 | norm > 2 | indefinite type | s > ln 2 | hyperbolic growth |
 
 The path-graph identity $\lVert A_{n-1}\rVert=2\cos(\pi/n)$ makes the Jones ladder *literally* the ADE column (receipts verify $A_3\mapsto\sqrt2\mapsto$ index 2, the qubit). On the unit-rate channel map $s_*=1/\mathfrak R_c$, the reproduced profile on fully released 2025 data gives

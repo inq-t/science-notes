@@ -19,7 +19,7 @@ None of these classifications is dismissive. It identifies the exact level at wh
 
 ## Coefficients are often matched rather than predicted
 
-In [[jacobson-local-horizon-thermodynamics]], the area density \(\eta\) is assumed and then identified through
+In [[vendor/entropic-gravity/jacobson-local-horizon-thermodynamics]], the area density \(\eta\) is assumed and then identified through
 
 $$
 \eta=\frac{1}{4\hbar G}
@@ -27,7 +27,7 @@ $$
 
 in natural units. This explains why a universal area density entails a universal gravitational coupling, but it does not calculate \(G\) without gravitational input.
 
-In [[verlinde-entropic-force]], \(G\) enters through
+In [[vendor/entropic-gravity/verlinde-entropic-force]], \(G\) enters through
 
 $$
 N=\frac{Ac^3}{G\hbar}.
@@ -35,7 +35,7 @@ $$
 
 The inverse-square law follows after this bit density, equipartition, and the Bekenstein–Unruh normalization are imposed. The construction reverses familiar gravitational thermodynamic relations; it does not obtain their coefficient from an independently specified microstate count.
 
-In [[verlinde-emergent-gravity]], the elastic modulus is
+In [[vendor/entropic-gravity/verlinde-emergent-gravity]], the elastic modulus is
 
 $$
 \mu=\frac{a_0^2}{16\pi G}.
@@ -94,7 +94,7 @@ This matters because the equality is not merely a convenient reformulation. It c
 
 ## Covariance is not a cosmetic omission
 
-A complete gravity theory must say how all matter and light couple, how constraints propagate, what initial data are admissible, and whether the Hamiltonian is stable. [[covariant-completions]] shows that one plausible completion:
+A complete gravity theory must say how all matter and light couple, how constraints propagate, what initial data are admissible, and whether the Hamiltonian is stable. [[vendor/entropic-gravity/covariant-completions]] shows that one plausible completion:
 
 - adds a timelike vector field and direct matter coupling;
 - makes massive bodies follow an effective metric;

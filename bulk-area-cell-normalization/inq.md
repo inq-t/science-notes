@@ -164,12 +164,12 @@ $$
 
 The second form is the falsifiable direction only conditional on an independently measured or independently derived \(G\): a separately selected \((m_*,\gamma,s_*)\), together with that coupling, predicts the crossing rate. Inverting measured \(G\) and \(H_c\) merely diagnoses which carrier the hypothesis would require.
 
-Using the two currently recorded conditional crossing rates,
+Using the two currently recorded conditional crossing rates (the CMB-conditional value follows the fixed-physical-density protocol of [[the-grain-of-causal-scale/inq|the grain module]], which replaced the earlier mixed-composition \(82.64\)),
 
 $$
 H_c=88.2608
 \quad\text{or}\quad
-82.64
+83.1058
 \ \mathrm{km\,s^{-1}\,Mpc^{-1}},
 $$
 
@@ -178,13 +178,13 @@ the minimal \(\gamma=s_*=1\) model gives
 $$
 m_*=59.48
 \quad\text{or}\quad
-58.19\ \mathrm{MeV}/c^2.
+58.30\ \mathrm{MeV}/c^2.
 $$
 
-At the fitted \(s_*=0.9861\), the values are \(59.76\) and \(58.47\,\mathrm{MeV}/c^2\). Across both branches and the recorded interval \(s_*\in[0.9175,1.0621]\), the target is approximately
+At the fitted \(s_*=0.9861\), the values are \(59.76\) and \(58.58\,\mathrm{MeV}/c^2\). Across both branches and the recorded interval \(s_*\in[0.9175,1.0621]\), the target is approximately
 
 $$
-\boxed{57.04\le m_*c^2/\mathrm{MeV}\le61.22.}
+\boxed{57.14\le m_*c^2/\mathrm{MeV}\le61.22.}
 $$
 
 The focused standard-library check is [[bulk-area-cell-normalization/normalization_receipt.py|the normalization receipt]].
@@ -215,6 +215,6 @@ The extremely low baryon and photon occupancy of the effective cells in the sour
 |---|---|
 | exact geometry | \(V/A=R/3\) for a Euclidean three-ball |
 | exact conditional deduction | the bulk-count hypotheses imply \(\zeta=\gamma s_*/3\) |
-| reproduced diagnostic | the two crossing branches and fitted \(s_*\) interval give the stated \(57.04\)--\(61.22\,\mathrm{MeV}\) window when measured \(G\) is inverted |
+| reproduced diagnostic | the two crossing branches and fitted \(s_*\) interval give the stated \(57.14\)--\(61.22\,\mathrm{MeV}\) window when measured \(G\) is inverted |
 | open construction | the carrier, \(\gamma\), wall-channel count, bulk-to-boundary map, and state--geometry weld |
 | failure condition | an independently derived carrier and multiplicity, together with an independently fixed \(G\), predict an incompatible \(H_c\), or no regulator-independent cell projection exists |

@@ -10,7 +10,7 @@ The functor asked for exists at the $A_2$ level, and it comes with three theorem
 | hair as non-diagonal directions | impossible as a fourth eigenvalue ($\mathfrak h_4(\mathbb O)$ fails Jordan — receipt); hair lives in the Freudenthal double, duality-invariantly as $a^2+q_e^2$ | [EXACT obstruction + model move] |
 | "algebra of nothing in particular" → "scaled relational facts" | homogeneous fibre (groupoid) over discriminant-stratified base (monoid); fibre collapse $24\to16\to0$ receipted | [EXACT structure; reading PROPOSED] |
 | Schrödinger equation of the cosmos | $i\hbar\,\partial_\tau\psi=\hat H\psi$, $\hat H=\frac{p_a^2}{2a}+\frac12\bigl(a-\frac{a^3}{L^2}\bigr)$, dust as relational clock | [CITED framework; identities EXACT] |
-| Born rule as gradient / mass | $|\psi|^2da=C\,d\eta$ (conformal dwell; exact WKB identity $d\eta/da=1/p$, Numerov-receipted to $0.14\%$); mass = the eigenvalue of $\hat H$ | [EXACT under declared ordering] |
+| Born rule as gradient / mass | $\lvert\psi\rvert^2da=C\,d\eta$ (conformal dwell; exact WKB identity $d\eta/da=1/p$, Numerov-receipted to $0.14\%$); mass = the eigenvalue of $\hat H$ | [EXACT under declared ordering] |
 
 ## 2. The functor at the $A_2$ level
 
@@ -44,7 +44,7 @@ $$
 24\;\longrightarrow\;16\;\longrightarrow\;0,
 $$
 
-so at the fold one hidden octonion's worth of presentation-freedom is absorbed into fact ($16=\dim F_4/\mathrm{Spin}(9)=\dim\mathbb{OP}^2$), and at the cusp all of it is. This is the derivation-side mirror of [[algebra/a2-positive-completion|the positive-completion fibre types]] $\mathbb C^3\to\mathbb C^2\to\mathbb C$, and it echoes the no-response lemma of [[program-core/common-response-matrix|the common response matrix]]: a fully symmetric datum plus symmetry-equivalent presentations yields no fact; facts appear exactly where the symmetry fails to act freely. Typing hazard honored: everything here is *horizontal* (state/presentation transport); no modular or weight-side claim is made, and the radical-copernicanism gating question — whether the wall family is a chain of half-sided modular inclusions — is untouched by this note.
+so at the fold one hidden octonion's worth of presentation-freedom is absorbed into fact ($16=\dim F_4/\mathrm{Spin}(9)=\dim\mathbb{OP}^2$), and at the cusp all of it is. This is the derivation-side mirror of [[algebra/a2-positive-completion|the positive-completion fibre types]] $\mathbb C^3\to\mathbb C^2\to\mathbb C$, and it echoes the no-response lemma of [[program-core/common-response-form|the common response matrix]]: a fully symmetric datum plus symmetry-equivalent presentations yields no fact; facts appear exactly where the symmetry fails to act freely. Typing hazard honored: everything here is *horizontal* (state/presentation transport); no modular or weight-side claim is made, and the radical-copernicanism gating question — whether the wall family is a chain of half-sided modular inclusions — is untouched by this note.
 
 ## 4. The cap at three, and where the hair goes
 
