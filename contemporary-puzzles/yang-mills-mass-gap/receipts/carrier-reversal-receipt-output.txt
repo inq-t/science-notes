@@ -1,0 +1,7 @@
+two-state reconstructed nonzero generator eigenvalue: 2.0
+two-state Poincare gap: 2
+two-state integrated carre du champ: 2
+three-state shared spectral invariants: trace=11 trace(L^2)=101 product=10
+first three-state presentation is Markov: True
+second three-state presentation is Markov: False
+all carrier-first reversal receipts passed

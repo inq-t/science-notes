@@ -1,0 +1,11 @@
+A2 positive-root lengths squared: [Fraction(2, 1), Fraction(2, 1), Fraction(2, 1)]
+rho in fundamental-weight coordinates: (1, 1)
+rho squared: 2
+Weyl amplitude degree: 3
+Weyl density degree: 6
+root-length-two radial shifts (fundamental, adjoint): 8/3 6
+C2 fundamental: 4/3
+C2 adjoint: 3
+first nonzero class Casimir: 4/3 at [(0, 1), (1, 0)]
+nontrivial one-dimensional SU(3) representations in search: 0
+all exact A2 radial receipts passed

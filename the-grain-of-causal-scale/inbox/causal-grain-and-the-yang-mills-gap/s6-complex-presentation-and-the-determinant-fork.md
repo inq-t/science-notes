@@ -1,6 +1,6 @@
 # Octonionic and Integrable Complex Geometry on $S^6$ and the Determinant Fork
 
-The established existence of an integrable complex structure on the smooth six-sphere makes the octonionic proposal sharper, but it does not identify the canonical octonionic almost-complex structure with the new integrable one. The strongest exact numerical chain is instead $3\to6\to6^2$: complex rank three gives a determinant amplitude of scale weight three, its Hermitian square gives an invariant density of weight six, and a second-order operator on that density would have threshold thirty-six. Ordinary Hilbert-space use of the density takes its square root back to weight three and threshold nine. Deciding whether the primitive physical object is an amplitude, a density, or a squared-line section is therefore the decisive $9$-versus-$36$ question.
+The established existence of an integrable complex structure on the smooth six-sphere makes the octonionic proposal sharper, but it does not identify the canonical octonionic almost-complex structure with the new integrable one. Complex rank three gives an exact local determinant frame of weight three, and its Hermitian square gives a positive norm-square of weight six. The numbers nine and thirty-six are thresholds only for chosen one-sided Witten operators; the actual compact \(SU(3)\) radial Laplacian is governed by Casimir eigenvalues. The decisive question is therefore which carrier and operator geometry, if any, the complex-sphere descent induces on physical Yang--Mills states.
 
 **Status: [EXPLORATORY PHYSICAL BRIDGE].** The existence of an integrable complex structure on $S^6$ is established: it has a self-contained geometric proof and a separate Lean proof artifact in addition to the original long construction. Every proposed relation to octonionic ontology, local QFT, causal scale, or Yang--Mills remains an open carrier-changing construction.
 
@@ -122,7 +122,7 @@ v_1\wedge v_2\wedge v_3
 z^3(v_1\wedge v_2\wedge v_3).
 $$
 
-Thus the determinant *amplitude* has character weight three. A Hermitian square has weight six:
+Thus a local determinant frame has weight three under the external scalar \(GL(3,\mathbb C)\) frame action. Its positive Hermitian norm-square has weight six:
 
 $$
 \left\lVert
@@ -141,17 +141,17 @@ $$
 \boxed{
 \text{complex rank }3
 \longrightarrow
-\text{determinant amplitude of weight }3
+\text{local determinant frame of weight }3
 \longrightarrow
-\text{positive density of weight }6.
+\text{positive norm-square of weight }6.
 }
 $$
 
-It is not a mere equation of integers. Exterior power and Hermitian squaring are named operations. It is also not yet a physical derivation. The scalar action, Hermitian structure, and object on which the action is physical still have to be selected.
+It is not a mere equation of integers. Exterior power and Hermitian squaring are named operations. But a norm-square is not automatically a measure density, and this scalar frame action is not a color character: the determinant of the defining \(SU(3)\) representation is identically one. The Hermitian structure, measure, and physical carrier still have to be selected.
 
-## The same fork in the $A_2$ Weyl measure
+## The local Lie-algebra fork in the $A_2$ Weyl measure
 
-For $SU(3)$, the $A_2$ Weyl denominator is the alternating cubic
+For a traceless Hermitian Lie-algebra element, the $A_2$ Weyl denominator is the alternating cubic
 
 $$
 \Delta_W(r_1,r_2,r_3)
@@ -175,7 +175,15 @@ $$
 J_W(N)=e^{-6N}J_W(0).
 $$
 
-This is exactly the same amplitude--density distinction as for the determinant line. It is stronger than noticing that $A_2$, $SU(3)$, and six recur: it identifies the algebraic operation that produces the six.
+This is the same local amplitude--square operation as for the determinant line, but on a different carrier. For compact \(SU(3)\) group elements the Weyl denominator is trigonometric,
+
+$$
+\delta(\theta)
+=
+\prod_{\alpha>0}2i\sin\frac{\alpha(\theta)}2,
+$$
+
+and its cubic behavior is only the tangent limit near the identity. Neither equal weight nor equal root type identifies the holomorphic \(GL(3,\mathbb C)\) determinant line with the \(S_3\) Weyl sign line after orbit reduction.
 
 The manuscript's use of $A_2$ does not yet establish this bridge. Its $A_2$ is a triangular lattice and fan used to fill the toric cusp; the quotient has a hexagonal $dP_6$ normalization. That construction does not by itself provide eigenvalues $r_i$, the cubic characteristic map, $S_3$ Weyl monodromy, or the analytic discriminant cusp
 
@@ -195,7 +203,7 @@ $$
 
 Neither dashed arrow has been constructed. The stabilizer $SU(3)$ in $S^6=G_2/SU(3)$, the color group $SU(3)$, and the compact real form of an $A_2$ inverse cover are also three typed occurrences until a representation-preserving map identifies them.
 
-## Why the natural Hilbert-space branch gives nine
+## Why the chosen half-line branch gives nine
 
 Suppose a positive quantity has scale profile
 
@@ -233,7 +241,9 @@ $$
 L^2(J_W\,\mathrm dr),
 $$
 
-and flattening the measure multiplies its amplitude by $J_W^{1/2}=|\Delta_W|$. The natural first-order slope is therefore three and the corresponding second-order threshold is nine. Treating $J_W$ itself as a wave amplitude squares twice: once in forming $J_W=|\Delta_W|^2$, and again in the Born norm.
+and flattening the measure multiplies its amplitude by $J_W^{1/2}=|\Delta_W|$. In the chosen half-line exponential model this gives first-order slope three and second-order threshold nine. Treating $J_W$ itself as a wave amplitude squares twice: once in forming $J_W=|\Delta_W|^2$, and again in the Born norm.
+
+This is not the spectrum forced by compact gauge-orbit geometry. [[contemporary-puzzles/yang-mills-mass-gap/a2-weyl-radial-operator|The \(A_2\) radial audit]] shows that conjugating the compact \(SU(3)\) radial Laplacian by the Weyl half-density produces the Casimir spectrum; the first nonconstant class mode has \(C_2=4/3\) in the standard physics normalization. Degree three, density degree six, Witten threshold nine, and compact Casimir \(4/3\) are different invariants.
 
 Thirty-six remains possible only through an additional theorem. Examples of correctly typed possibilities are:
 
@@ -244,19 +254,19 @@ Thirty-six remains possible only through an additional theorem. Examples of corr
 
 Each option changes the carrier. None follows merely from complex dimension three, real dimension six, or the existence of an integrable $J$.
 
-The operator order remains a second independent fork. If
+The operator order remains a second independent fork. Let \(E_0\) denote an otherwise unspecified energy normalization. If
 
 $$
-H_{\mathrm{phys}}/E_*=L_w,
+H_{\mathrm{phys}}/E_0=L_w,
 $$
 
-then the energy threshold is $w^2E_*$. If instead
+then the energy threshold is \(w^2E_0\). If instead
 
 $$
-(H_{\mathrm{phys}}/E_*)^2=L_w,
+(H_{\mathrm{phys}}/E_0)^2=L_w,
 $$
 
-then it is $wE_*$. Thus even a justified weight-six amplitude yields either $36E_*$ or $6E_*$, depending on the physical generator theorem.
+then it is \(wE_0\). Thus even a justified weight-six amplitude yields either \(36E_0\) or \(6E_0\), depending on the physical generator theorem. The dimensional normalization \(E_0\) still needs an independent owner.
 
 ## The round-sphere spectrum is a separate occurrence
 
@@ -320,16 +330,9 @@ $$
 g_{ij}\in\mathcal O_X^\times.
 $$
 
-Topological triviality says the underlying continuous line can be globally trivialized. Holomorphic nontriviality says the local complex presentations cannot be made into one global holomorphic amplitude. This is close to the proposed meaning of scale as an obstruction in descent: local frames exist, but their comparisons carry irreducible transition data.
+Topological triviality says the underlying continuous line can be globally trivialized. Holomorphic nontriviality says the local complex presentations cannot be made into one global holomorphic amplitude. This is close to the proposed meaning of scale as an obstruction in descent: local holomorphic frames exist, but their comparison is encoded by the \(\bar\partial\)-operator and Chern connection rather than by an invariant positive transition modulus.
 
-The caution is decisive. The cocycle is not yet physical scale, causal charge, or mass. To make that interpretation one must construct a positive real character
-
-$$
-|g_{ij}|:
-U_i\cap U_j\longrightarrow\mathbb R_{>0}
-$$
-
-with a named relation to the causal-scale valuation, and then show how its determinant density enters the physical state or transfer carrier. Without this lift, the canonical bundle is an illuminating geometric analogue rather than the origin of $E_*$ or the Yang--Mills gap.
+The caution is decisive. The cocycle is not yet physical scale, causal charge, or mass. A Hermitian metric permits unitary local frames with \(|g_{ij}|=1\), and smooth triviality permits a global smooth frame. Any intrinsic scale obstruction must therefore be extracted from connection curvature, holonomy, a singular or meromorphic divisor, or another gauge-invariant functional of the holomorphic descent data. It must then be related by a named map to the causal-scale valuation and the physical transfer carrier. Without this lift, the canonical bundle is an illuminating geometric analogue rather than the origin of \(E_*\) or the Yang--Mills gap.
 
 ## The construction chain to test
 
@@ -346,41 +349,42 @@ $$
 K_X^{\pm1}\quad\text{of weight }3,\\
 K_X^{\pm1}
 &\xrightarrow{\ \lVert\cdot\rVert^2\ }
-\text{positive density of weight }6,\\
-\text{density}
+\text{positive norm-square of weight }6,\\
+\text{norm-square plus a chosen measure}
 &\dashrightarrow
 \text{gauge-invariant OS carrier},\\
 \text{OS carrier}
 &\dashrightarrow
-H_{\mathrm{YM}}/E_*,\\
+H_{\mathrm{YM}}/E_0,\\
 H_{\mathrm{YM}}
 &\ge
-\gamma E_*(1-P_\Omega).
+\gamma E_0(1-P_\Omega).
 \end{aligned}
 }
 $$
 
 Only the determinant and Hermitian-square arrows in the middle are presently exact once the relevant structures are chosen. The first arrow, the QFT carrier change, the time-translation identification, the exclusion of lower sectors, and the uniform coercivity theorem are open.
 
-The number to pre-register is therefore not just $36$. It is a fork:
+The one-sided comparison model therefore has a pre-registered fork:
 
 $$
 \boxed{
-\gamma
+\gamma_{\mathrm{half\text{-}line}}
 \in
 \{9,36\}
 }
 $$
 
-for the determinant-amplitude and discriminant-amplitude branches of the one-sided second-order model, respectively. A derivation must decide the branch before comparing either number with a glueball mass.
+for the determinant-amplitude and discriminant-amplitude branches, respectively. Neither number is a candidate for a glueball coefficient until a physical carrier theorem selects that model over the compact Casimir operator and excludes lower sectors.
 
 ## Failure conditions
 
 - If an auxiliary invariant from one construction fails separate audit, only the bridge using that invariant closes; the existence of $J_{\mathrm{int}}$ remains available from the other proof routes.
 - If no natural comparison relates $J_{\mathrm{oct}}$ and $J_{\mathrm{int}}$, their coexistence on one smooth sphere is not a physical duality.
 - If no quantization or factorization functor takes $\mathcal O_X$ to a positive local operator net, integrable complex presentation is not the algebra of QFT.
+- Since a compact connected complex manifold has only constant global holomorphic scalar functions, any nonconstant bridge using the complex structure must be local, meromorphic, bundle-valued, or correspondence-valued rather than a global holomorphic scalar map to \(\mathfrak{sl}_3//SL_3\simeq\mathbb C^2\).
 - If the manuscript's toric $A_2$ cannot be mapped to the analytic or Weyl $A_2$ discriminant, its hexagon does not support the gauge-measure bridge.
-- If the discriminant is the ordinary Weyl measure density, the natural Hilbert-amplitude threshold is $9$, not $36$.
+- If the discriminant is the ordinary compact Weyl measure density, the half-density is forced but the radial spectrum is Casimir-valued, not degree-squared.
 - If no physical state lives in a squared determinant or density carrier, the weight-six-amplitude branch has no owner.
 - If the physical Hamiltonian is the square root of the constructed second-order operator, the energy factor is $3$ or $6$, not $9$ or $36$.
 - If lower gauge-invariant sectors survive, none of these weights is the mass gap merely because it occurs in the geometry.
@@ -390,16 +394,16 @@ for the determinant-amplitude and discriminant-amplitude branches of the one-sid
 
 The integrable $S^6$ result materially strengthens the philosophical architecture. One and the same smooth six-sphere can support a canonical octonionic almost-complex geometry and a different integrable complex presentation. That makes the phrase “octonionic ground, locally complex appearance” mathematically imaginable in a way it was not before.
 
-The result does not supply the bridge between those structures, and integrability does not itself supply QFT. Its most concrete contribution to the mass-gap exploration is the determinant fork:
+The result does not supply the bridge between those structures, and integrability does not itself supply QFT. Its most concrete contribution to the mass-gap exploration is the typed determinant chain:
 
 $$
 \boxed{
-\text{rank-three complex amplitude}
+\text{rank-three local determinant frame}
 \xrightarrow{\text{Hermitian square}}
-\text{sixth-weight invariant density}
-\xrightarrow{\text{second-order dynamics?}}
-6^2.
+\text{sixth-weight positive norm-square}
+\xrightarrow{\text{carrier and operator?}}
+\text{spectral coercivity}.
 }
 $$
 
-The first arrow is geometry. The second is a proposed dynamics. Standard Hilbert-space typing takes the square root of the density and predicts $3^2=9$, so $6^2=36$ requires a nonstandard but precisely specifiable carrier. That is now the clean theorem target.
+The first arrow is geometry. The second is the missing dynamics. The half-line Witten carrier yields \(9\) or \(36\), while the compact \(SU(3)\) radial carrier yields Casimirs. Constructing the carrier-changing map and proving a comparison with physical electric-flux coercivity is now the clean theorem target.
