@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26",
+  "generated": "2026-09-01",
   "identity_priority": [
     "doi",
     "arxiv_base_id",
@@ -547,6 +547,14 @@
           "sha256": "283bba102dd1d5dc346af81b28145bdaaea6654398d5032e76e97bafb9a858f2"
         }
       ]
+    },
+    {
+      "module": "conditional-expectations-in-von-neumann-algebras",
+      "title": "Conditional Expectations in von Neumann Algebras",
+      "identity": "doi:10.1016/0022-1236(72)90004-3",
+      "arxiv": null,
+      "doi": "10.1016/0022-1236(72)90004-3",
+      "artifacts": []
     },
     {
       "module": "comprehensive-local-hubble-constant-measurement",
@@ -2269,6 +2277,30 @@
       ]
     },
     {
+      "module": "quantum-measurement-information-and-completely-positive-maps",
+      "title": "Quantum Measurement, Information, and Completely Positive Maps",
+      "identity": "doi:10.1007/0-306-47114-0_15",
+      "arxiv": "quant-ph/0107090",
+      "doi": "10.1007/0-306-47114-0_15",
+      "artifacts": [
+        {
+          "path": "quant-ph-0107090-ozawa-quantum-measurement-information-completely-positive-maps.pdf",
+          "bytes": 106006,
+          "sha256": "f712641cf7c593cc3945738584aa699be6f5a40a0e1b00c1b2c3a689acc30559"
+        },
+        {
+          "path": "quant-ph-0107090-source.tex",
+          "bytes": 29721,
+          "sha256": "5fdc157bd1d687342686e4cb63780a964ae9759adb4f826f210fb96820211d89"
+        },
+        {
+          "path": "quant-ph-0107090-source.tex.gz",
+          "bytes": 8457,
+          "sha256": "c30bf4a14da64002de3de309675b2f1824c95917b77865df90fb37558448b150"
+        }
+      ]
+    },
+    {
       "module": "quantum-reference-frames-local-algebra-types",
       "title": "Quantum reference frames, measurement schemes and the type of local algebras in quantum field theory",
       "identity": "arxiv:2403.11973",
@@ -2308,6 +2340,20 @@
           "path": "1988-mukhanov-gauge-invariant-cosmological-perturbations.pdf",
           "bytes": 270600,
           "sha256": "909f71295db880f13c86652e1aa0fd0ad136384d292bbf814b144210c515cebf"
+        }
+      ]
+    },
+    {
+      "module": "quantum-yang-mills-theory",
+      "title": "Quantum Yang--Mills Theory",
+      "identity": "url:https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf",
+      "arxiv": null,
+      "doi": null,
+      "artifacts": [
+        {
+          "path": "2006-jaffe-witten-quantum-yang-mills-theory.pdf",
+          "bytes": 195976,
+          "sha256": "3558403ca14c11e382f73a09e548222708540bfdf478cf96aa11c52d43e23e09"
         }
       ]
     },

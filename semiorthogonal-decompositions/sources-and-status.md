@@ -28,7 +28,7 @@ The standard categorical claims in this module are grounded in the foundational 
 
 ## Analytic comparison source
 
-- M. Takesaki, [“Conditional Expectations in von Neumann Algebras”](https://doi.org/10.1016/0022-1236(72)90004-3), *Journal of Functional Analysis* **9** (1972), 306--321. Primary source for the equivalence between modular invariance of a von Neumann subalgebra and existence of the corresponding faithful normal weight-preserving expectation, under the paper's semifiniteness hypotheses.
+- M. Takesaki, [[library/conditional-expectations-in-von-neumann-algebras/inq|“Conditional Expectations in von Neumann Algebras”]], *Journal of Functional Analysis* **9** (1972), 306--321. Primary source for the equivalence between modular invariance of a von Neumann subalgebra and existence of the corresponding faithful normal weight-preserving expectation, under the paper's semifiniteness hypotheses.
 
 - A. Jaffe, A. Lesniewski, and K. Osterwalder, [“Quantum K-Theory I: The Chern Character”](https://doi.org/10.1007/BF01218474), *Communications in Mathematical Physics* **118** (1988), 1--14. Primary source for the heat-kernel entire cyclic cocycle now called the JLO character. This construction requires analytic heat-kernel and representation data; it is not supplied by a semiorthogonal decomposition alone.
 

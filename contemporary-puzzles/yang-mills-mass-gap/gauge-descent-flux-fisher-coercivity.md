@@ -489,6 +489,8 @@ $$
 
 implies a global Poincare bound with constant \(\inf_j c_j\). This is a concrete role for descent: isolate what each scale contributes to distinguishability, then prove that electric flux charges every nonconstant shell. The difficult statements are the existence of vacuum-preserving expectations compatible with gauge locality and a lower bound on \(c_j\) that survives arbitrarily many shells. A formal tower without these estimates is only a decomposition, not a gap theorem.
 
+[[physical-distinction-coercivity]] separates this energetic shell statement from the superficially similar discreteness of a measurement projection. It also states a possible noncommutative continuum gate: if nested subalgebras are invariant under one faithful vacuum modular flow, Takesaki's theorem supplies vacuum-preserving expectations whose GNS implementations are orthogonal. Constructing such a useful filtration is a strong sufficient architecture, not a necessary consequence of having a gap.
+
 ## The continuum theorem to pursue
 
 Let \(a\) be lattice spacing and \(L\) physical volume. Define the energy form after ground-state transform by
