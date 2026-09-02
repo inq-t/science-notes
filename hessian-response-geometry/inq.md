@@ -176,7 +176,7 @@ Gauge quotient, constraint elimination, and Hessian formation need not commute. 
 
 ### Complex response space
 
-The tangent bundle \(T\mathfrak D_{\mathrm{phys}}\) is a natural complex space of response base points and tangent displacements. Its conjugation can model a real slice of response data and may clarify what an antiholomorphic factive selection would have to preserve. It is generally noncompact and is not the compact conditional \(S^6\) geometry. The two constructions may occupy different layers; they are not automatically rivals or identical carriers.
+The tangent bundle \(T\mathfrak D_{\mathrm{phys}}\) is a natural complex space of response base points and tangent displacements. Its conjugation can model a real slice of response data and may clarify what an antiholomorphic factive selection would have to preserve. It is generally noncompact and is not the compact integrable \(S^6\) geometry. The two constructions may occupy different layers; they are not automatically rivals or identical carriers.
 
 ### Consumer maps
 

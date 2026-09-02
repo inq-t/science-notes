@@ -39,7 +39,7 @@ The programme-level owners used below are [[program-core/common-response-form|th
 | CWST | a finite positive BKM seed | localization, areal-to-volume conversion, spatial carrier, source transform, and probability-1PI construction in W2 |
 | $S^6/A_2$ branch | evidence that monodromy and singular gluing can organize globally nontrivial presentation | an actual comparison functor between the manuscript's toric $A_2$ combinatorics and this analytic inverse-cover $A_2$ |
 
-The final row is especially important. [[algebra/s6-manuscript-branch|The conditional $S^6$ manuscript]] uses $A_2$ triangular toric data, whereas [[algebra/a2-inverse-cover|the inverse-cover branch]] uses an analytic cusp and $S_3$ sheet monodromy. A shared label does not identify them.
+The final row is especially important. [[algebra/s6-manuscript-branch|The integrable $S^6$ construction]] uses $A_2$ triangular toric data, whereas [[algebra/a2-inverse-cover|the inverse-cover branch]] uses an analytic cusp and $S_3$ sheet monodromy. A shared label does not identify them.
 
 ## A construction programme
 

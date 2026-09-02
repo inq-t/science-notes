@@ -114,9 +114,9 @@ $$
 N_J\neq0
 $$
 
-for the standard structure. Nonassociativity is therefore not merely analogous to its failure of integrability: the associator is the local obstruction tensor. Its intrinsic torsion is part of the standard nearly Kähler geometry. A hypothetical integrable complex structure on the smooth six-sphere would be another structure, not an integrable version of this same homogeneous octonionic \(J\).
+for the standard structure. Nonassociativity is therefore not merely analogous to its failure of integrability: the associator is the local obstruction tensor. Its intrinsic torsion is part of the standard nearly Kähler geometry. An integrable complex structure on the smooth six-sphere is another structure, not an integrable version of this same homogeneous octonionic \(J\).
 
-The conditional manuscript in [[algebra/s6-manuscript-branch|the \(S^6\) manuscript branch]] claims such an integrable structure through a globally assembled torus family. Its status remains conditional. Even if it survives scrutiny, the resulting compact complex threefold cannot be Kähler because
+The constructions in [[algebra/s6-manuscript-branch|the integrable \(S^6\) branch]] supply such a structure through a globally assembled torus family. The existence theorem is established. The resulting compact complex threefold cannot be Kähler because
 
 $$
 H^2(S^6;\mathbb R)=0.
@@ -147,7 +147,7 @@ $$
 \boxed{
 \text{canonical round-compatible }G_2\text{ nearly Kähler structure}
 \quad\text{versus}\quad
-\text{hypothetical integrable, necessarily non-Kähler structure}.
+\text{integrable, necessarily non-Kähler structure}.
 }
 $$
 
@@ -450,7 +450,7 @@ These targets are not automatic consequences of \(S^6\). They become predictions
 | each \(u\) defines an associative complex subalgebra \(\mathbb C_u\) | established algebra |
 | the standard octonionic almost-complex structure on \(S^6\) is nonintegrable | established mathematics |
 | \(N_J=2[\ ,\ ,\ ]\) in the declared convention | established associator/Nijenhuis identity; coefficient is convention-sensitive |
-| an integrable complex structure on the smooth \(S^6\) exists | conditional local manuscript claim; classical problem otherwise unresolved |
+| an integrable complex structure on the smooth \(S^6\) exists | established by self-contained geometric and formal proof routes |
 | any such integrable \(S^6\) is Kähler or \(G_2\)-homogeneous | excluded for the standard meanings used here |
 | the exceptional Jordan algebra has a homogeneous self-dual positive cone | established mathematics |
 | that cone is the programme's premetric causal cone | proposed physical identification |

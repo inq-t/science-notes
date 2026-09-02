@@ -43,4 +43,4 @@ $$
 (\text{readouts and records}),
 $$
 
-with an invariant or explicitly typed loss or remainder, together with a recovery statement, at every arrow. [[algebra/s6-manuscript-branch|The Conditional $S^6$ Manuscript Branch]] owns the source-status caveats, while [[algebra/real-forms-and-factive-spacetime|Real Forms and Factive Spacetime]] owns the proposed realization. This is the rigorous form of philosophical bravery: permit the ontology demanded by the source mathematics, then accept the full burden of constructing how it presents itself.
+with an invariant or explicitly typed loss or remainder, together with a recovery statement, at every arrow. [[algebra/s6-manuscript-branch|The Integrable $S^6$ Branch]] owns the structure and its remaining bridge caveats, while [[algebra/real-forms-and-factive-spacetime|Real Forms and Factive Spacetime]] owns the proposed realization. This is the rigorous form of philosophical bravery: permit the ontology demanded by the source mathematics, then accept the full burden of constructing how it presents itself.

@@ -128,7 +128,7 @@ $$
 
 The first can define a real fixed locus in a complex manifold. The second supplies KO-sign relations with \(D\) and \(\gamma\). A bridge between them would require a represented function algebra, compatibility of \(J\) with complex conjugation on that algebra, and a reconstruction theorem. [[ko-dimension-as-morita-class/inq|KO-dimension six]] is mod-eight operator data, not six metric coordinates.
 
-Likewise, the conditional complex-threefold claim in [[algebra/s6-manuscript-branch|the \(S^6\) manuscript branch]] does not provide an antiholomorphic involution with a physical three-dimensional fixed locus. Even if that complex structure exists, the datum \(\tau\), the topology of \(X^\tau\), and the functor \(\mathfrak L\) remain separate construction gates.
+Likewise, the established complex threefold in [[algebra/s6-manuscript-branch|the integrable \(S^6\) branch]] does not provide an antiholomorphic involution with a physical three-dimensional fixed locus. The datum \(\tau\), the topology of \(X^\tau\), and the functor \(\mathfrak L\) remain separate construction gates.
 
 ## Consequences for CST and CWST
 

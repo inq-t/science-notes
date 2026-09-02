@@ -1,6 +1,6 @@
 # Mass-Gap Receipt Ledger
 
-The ledger records the numerical companions to [[inq]]: a rhyme sweep of the causal grain against the scales of Yang–Mills and QCD, its empirical negative control, the unit-artifact trap, and the correlation-length mismatch. Every entry is a negative result. The receipt is [[contemporary-puzzles/yang-mills-mass-gap/receipts/rhyme_sweep.py|rhyme_sweep.py]], standard library only, nonzero exit on any failure; its output is stored beside it. The vault already carries a finer siren census for the same grain in [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|the grain-in-every-register note]], with a measured candidate density of about forty-two per nat and the \(f_\pi/2\) siren explicitly quarantined; this ledger is the QCD-restricted, branch-aware companion to that census, not a replacement for it.
+The ledger records the numerical companions to [[inq]]: a rhyme sweep of the causal grain against the scales of Yang–Mills and QCD, its empirical negative control, the unit-artifact trap, and the correlation-length mismatch. Every entry in the declared sweep is a negative result. The receipt is [[contemporary-puzzles/yang-mills-mass-gap/receipts/rhyme_sweep.py|rhyme_sweep.py]], standard library only, nonzero exit on any failure; its output is stored beside it. The vault already carries a finer siren census for the same grain in [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|the grain-in-every-register note]], with a measured candidate density of about forty-two per nat and the \(f_\pi/2\) siren explicitly quarantined; this ledger is the QCD-restricted, branch-aware companion to that census, not a replacement for it. The later factor \(36\) was outside this sweep and is separately quarantined in [[the-grain-of-causal-scale/inbox/causal-grain-and-the-yang-mills-gap/entry|the causal-grain gap packet]].
 
 ## What was swept
 
@@ -36,6 +36,8 @@ That zero is tolerance-specific. At five percent, \(2m_*\approx f_\pi(92)\) and 
 ## The correlation-length mismatch
 
 The lightest state resolved in the pure-\(\mathrm{SU}(3)\) lattice spectrum is the \(0^{++}\) glueball, so the numerical gap candidate has correlation length \(\hbar c/m_{0^{++}}\approx0.11\)–\(0.12\,\mathrm{fm}\). The grain is \(\lambda_*\approx4.18\)–\(4.26\,\mathrm{fm}\) across the two branches. The ratio is thirty-five to thirty-seven, and the error is in the wrong direction for the grain to be the confinement scale: it is far too coarse. Deep inelastic scattering resolves structure three orders of magnitude below the grain. The receipt reports the ranges and asserts only that they fall where the prose says.
+
+The declared factor family tested integers only through twelve. The proposal to inspect \(36=(-\partial_N\log|\mathfrak D_{A_2}|)^2\) was made after this thirty-five-to-thirty-seven mismatch was known, so it is not a surviving hit or an out-of-sample prediction of the sweep. Its only legitimate upgrade path is a pre-registered operator mechanism plus held-out dimensionless spectral ratios.
 
 ## Everything wrong with this comparison
 

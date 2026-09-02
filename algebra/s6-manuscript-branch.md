@@ -1,6 +1,6 @@
-# The Conditional $S^6$ Manuscript Branch
+# The Integrable $S^6$ Branch
 
-The local manuscript claims that a completed $(3,4,\infty)$ family of complex two-tori over $\mathbb P^1$ is a compact complex threefold diffeomorphic to $S^6$. The source is anonymous, unreviewed in the local record, and explicitly conflicts with a published obstruction argument, so its conclusion remains conditional. Even if correct, it would not identify the smooth six-sphere with Connes' finite KO-degree-six geometry, the Keller $A_2$ inverse cover, or a six-dimensional physical internal space.
+The smooth six-sphere admits an integrable complex structure. The Alpöge-hosted manuscript realizes one through a completed $(3,4,\infty)$ family of complex two-tori over $\mathbb P^1$; Engel gives a shorter self-contained geometric proof, and a separate Lean artifact proves the direct existence statement on the standard unit six-sphere with only the standard permitted axioms. This established existence theorem does not identify the integrable structure with the canonical octonionic one, Connes' finite KO-degree-six geometry, the Keller $A_2$ inverse cover, or a six-dimensional physical internal space.
 
 ## What the manuscript claims
 
@@ -27,15 +27,28 @@ $$
 
 Compactification completes the family; it does not add a dimension.
 
-## Source status
+## Source and formal-certificate status
 
-The PDF records no author, affiliation, arXiv identifier, DOI, journal reference, or usable bibliographic attribution. All identity-bearing metadata fields are blank; only build metadata such as the LaTeX creator, pdfTeX producer/banner, and zeroed dates are populated. The manuscript devotes a section to explaining why its main theorem conflicts with the published Campana--Demailly--Peternell result. Until the source is attributed, independently checked, and its response to that literature is accepted, the appropriate status is:
+The PDF itself records no author, affiliation, arXiv identifier, DOI, or journal reference. It is hosted on Levent Alpöge's personal domain and was publicly shared by him, so "unsigned Alpöge-hosted manuscript" is more precise than "anonymous source." The manuscript devotes a section to explaining why its main theorem conflicts with the published Campana--Demailly--Peternell result.
+
+[[library/complex-structures-on-s6-engel/inq|Engel's 22-page proof]] supplies an independent, self-contained geometric presentation of the construction. [[library/formalization-of-the-hopf-problem/inq|The public Lean artifact]] at commit `9ac8a456b526527837d7082ff775213ca8bc9809` proves the exact statement that the standard unit $S^6$ carries a complex-three-dimensional manifold atlas. A static audit found no executable `sorry`, added axiom, `opaque`, or `unsafe` declaration. Its final dependency report lists only `propext`, `Classical.choice`, and `Quot.sound`; its comparator configuration permits exactly those axioms and enables `nanoda`. The artifact was not rebuilt in this workspace because the Lean toolchain is unavailable.
+
+The appropriate split status is therefore:
 
 $$
-\boxed{\text{manuscript claim, not established project input}.}
+\boxed{
+\begin{aligned}
+&\text{existence on standard }S^6:
+&&\text{established theorem with geometric and formal proofs},\\
+&\text{manuscript's auxiliary analytic invariants}:
+&&\text{source claims under independent review},\\
+&\text{physical interpretation}:
+&&\text{open construction}.
+\end{aligned}
+}
 $$
 
-The source can support a conditional branch and a list of verification obligations. It cannot carry a canonical derivation merely because the conclusion would be foundationally exciting.
+The theorem's truth no longer depends on treating the Alpöge manuscript as the sole source. The formal certificate does not automatically formalize every Hodge, polarization, automorphism, or algebraic-dimension computation in that manuscript, and none of the mathematical proofs can carry a physical derivation merely because the conclusion is foundationally exciting.
 
 ## Which monodromy and which $A_2$
 
@@ -49,9 +62,9 @@ $$
 
 nor that its transport is the Keller inverse-cover representation $\pi_1(U)\to S_3$. Any bridge between the two constructions must identify their bases, families, and monodromy representations explicitly.
 
-## What would follow if the theorem is correct
+## What follows from the existence theorem
 
-The real smooth manifold $S^6$ would admit at least one integrable complex structure and hence a presentation as a compact complex threefold. Because $H^2(S^6;\mathbb R)=0$, such a compact complex manifold could not be Kähler: a Kähler form would define a nonzero cohomology class.
+The real smooth manifold $S^6$ admits at least one integrable complex structure and hence a presentation as a compact complex threefold. Because $H^2(S^6;\mathbb R)=0$, such a compact complex manifold cannot be Kähler: a Kähler form would define a nonzero cohomology class.
 
 The standard octonionic almost-complex structure is a different object. It is $G_2$-invariant and nonintegrable. The standard homogeneous-space identity
 
@@ -80,11 +93,11 @@ Fuzzy spectral geometries are finite-resolution approximations to classical geom
 
 To use this branch in the algebraic pre-core, one would need:
 
-1. independent verification and attribution of the manuscript;
+1. separate verification of any manuscript-specific invariant used downstream, without reopening the independently established existence theorem;
 2. a functor from its torus-family or stack data to the proposed foundational presentation category;
 3. a comparison with the standard octonionic $G_2/SU(3)$ structure;
 4. a spectral triple or algebraic background whose KO, metric, and ordinary dimensions are separately computed;
 5. a reduction or realization theorem yielding a Lorentzian $3+1$ carrier; and
 6. a recovery theorem for gauge, matter, action, and factual-record data.
 
-Until those maps exist, $S^6$ is an intriguing conditional geometry and not the hidden ontology of the Standard Model. [[complex-presentation-without-polarization/inq|Complex presentation without polarization]] develops the stronger conditional philosophical lesson while keeping holomorphic machinery, positive state geometry, real-form selection, factive descent, and Lorentzian realization as separate types.
+Until those maps exist, an integrable $S^6$ is a striking geometric input and not yet the hidden ontology of the Standard Model. [[complex-presentation-without-polarization/inq|Complex presentation without polarization]] develops the philosophical consequence while keeping holomorphic machinery, positive state geometry, real-form selection, factive descent, and Lorentzian realization as separate types.

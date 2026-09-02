@@ -60,7 +60,7 @@ S^6=\{u\in\operatorname{Im}\mathbb O:\|u\|=1\}
 \cong G_2/SU(3),
 $$
 
-and the long roots of $G_2$ form an $A_2$ subsystem. But $A_2$ does not define all of $G_2$, and the octonionic almost-complex structure on $S^6$ is not integrable. These facts motivate a search for a functor; they do not supply it.
+and the long roots of $G_2$ form an $A_2$ subsystem. But $A_2$ does not define all of $G_2$, and the canonical octonionic almost-complex structure on $S^6$ is not integrable. The fresh [[algebra/s6-manuscript-branch|integrable $S^6$ construction]] supplies a different complex structure on the same smooth sphere, not an integration of the octonionic tensor. These facts motivate a comparison functor; they do not supply it.
 
 ## Locality is additional structure
 

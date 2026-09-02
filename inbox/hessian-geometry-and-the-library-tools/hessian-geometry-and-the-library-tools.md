@@ -64,7 +64,7 @@ $$
 \end{aligned}}
 $$
 
-This is the boxed implication of the real-forms note, run backwards, with the conditional datum supplied. Two honest limits travel with it. The three is the dimension of **the physical tangent quotient**, not of physical space; it does not by itself deliver a carrier for [[causal-wall-spectral-theory/open-questions/bkm-source-kernel-comparison|W2]], whose target is a $k$-indexed mode space. And $TM$ is noncompact and Kähler, so this route and the $S^6$ route are mutually exclusive rather than complementary — see §3.
+This is the boxed implication of the real-forms note, run backwards, with the required datum supplied. Two honest limits travel with it. The three is the dimension of **the physical tangent quotient**, not of physical space; it does not by itself deliver a carrier for [[causal-wall-spectral-theory/open-questions/bkm-source-kernel-comparison|W2]], whose target is a $k$-indexed mode space. And $TM$ is noncompact and Kähler, so this route and the $S^6$ route are mutually exclusive rather than complementary — see §3.
 
 ## 3. The $S^6$ manuscript is a negative result for the response programme
 

@@ -31,7 +31,7 @@ Per [[nilpotency-and-the-wall/the-trichotomy-identification|the trichotomy ident
 
 ## The question this poses to the manuscript
 
-The $S^6$ family of [[algebra/s6-manuscript-branch|the conditional branch]] is built on $(3,4,\infty)$ — area $5\pi/6$, two and a half times the minimum — because its rank-four lattice representation needs torsion orders three and four with unipotent product ([[nilpotency-and-the-wall/s6-deep-read|deep read]]). Sharp open question, now typed: does an analogous rank-four family exist over $(2,3,\infty)$ — orders two and three with unipotent product — and if not, what obstruction selects $(3,4,\infty)$? Either answer is informative: an obstruction would be a genuine selection mechanism of exactly the kind [[algebra/theorem-programme|the theorem programme]] wants; existence would demote the manuscript's base to one member of the catalogue.
+The $S^6$ family of [[algebra/s6-manuscript-branch|the integrable branch]] is built on $(3,4,\infty)$ — area $5\pi/6$, two and a half times the minimum — because its rank-four lattice representation needs torsion orders three and four with unipotent product ([[nilpotency-and-the-wall/s6-deep-read|deep read]]). Sharp open question, now typed: does an analogous rank-four family exist over $(2,3,\infty)$ — orders two and three with unipotent product — and if not, what obstruction selects $(3,4,\infty)$? Either answer is informative: an obstruction would be a genuine selection mechanism of exactly the kind [[algebra/theorem-programme|the theorem programme]] wants; existence would demote this base to one member of the catalogue.
 
 ## Firewall exhibit: 5 pi / 6 versus the golden index
 

@@ -1,6 +1,6 @@
 # Polarization Is Not Positive State Geometry
 
-A polarization in Hodge theory or geometric quantization and the Bogoliubov--Kubo--Mori metric on faithful states are different structures. The signature-\((1,1)\) invariant form in the conditional \(S^6\) manuscript blocks a polarized-Hodge route through its torus family and cannot directly serve as positive BKM geometry on the full rank-two Hodge bundle. It neither destroys the integrable complex structure nor forbids a separately constructed positive state subquotient.
+A polarization in Hodge theory or geometric quantization and the Bogoliubov--Kubo--Mori metric on faithful states are different structures. The signature-\((1,1)\) invariant form in the torus-fibered \(S^6\) construction blocks a polarized-Hodge route through that family and cannot directly serve as positive BKM geometry on the full rank-two Hodge bundle. It neither destroys the established integrable complex structure nor forbids a separately constructed positive state subquotient.
 
 ## Three uses of positivity
 

@@ -109,7 +109,7 @@ $$
 
 not as the strict-positive spectral rank of the degenerate operator exactly at \(\varepsilon=0\). Neither algebraic fact by itself identifies a wall channel with an areal contribution, and boundary degenerations require this declared multiplicity convention. The clause also does not say that \(A_2\) is a two-outcome sample space: the completion has three slots, whereas the observed response quotient is binary. [[algebra/a2-positive-completion|The \(A_2\) positive completion]], [[a2-ternary-response/inq|the ternary audit]], and [[inbox/the-rank-two-cell/the-rank-two-cell|the rank-two cell]] supply the separate algebraic faces. The physical identification remains conjectural until a trace or cyclic pairing sends \(\mathcal K_A\) to the areal ledger.
 
-[[algebra/s6-manuscript-branch|The conditional \(S^6/A_2\) branch]] motivates seeking a nontrivial global-to-local carrier, but no numerical step in the closure is inferred merely from the existence of a complex structure on \(S^6\). The integer \(\gamma\) stands or falls with the area-writing channel map above.
+[[algebra/s6-manuscript-branch|The integrable \(S^6/A_2\) branch]] motivates seeking a nontrivial global-to-local carrier, but no numerical step in the closure is inferred merely from the existence of a complex structure on \(S^6\). The integer \(\gamma\) stands or falls with the area-writing channel map above.
 
 ### Area square
 

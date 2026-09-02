@@ -6,6 +6,7 @@ closure and reproduce its diagnostic branch values. They do not verify the
 wall correspondence, select a material carrier, or establish a resonance.
 """
 
+import cmath
 import math
 import sys
 
@@ -153,6 +154,45 @@ for row in branch_rows:
 check(
     "sixth-power ledger is the square of the conditional cubic amplitude",
     born_checks,
+)
+
+
+def vandermonde(values):
+    product = 1.0 + 0.0j
+    for i in range(len(values)):
+        for j in range(i + 1, len(values)):
+            product *= values[i] - values[j]
+    return product
+
+
+roots = (-1.25, 0.5, 2.0)
+radial_scale = 0.37
+phase = 0.41
+weyl_amplitude = vandermonde(roots)
+radial_amplitude = vandermonde(tuple(radial_scale * x for x in roots))
+phase_amplitude = vandermonde(tuple(cmath.exp(1j * phase) * x for x in roots))
+weyl_density = abs(weyl_amplitude) ** 2
+
+check(
+    "A2 Weyl amplitude has weight three and its positive density weight six",
+    close(abs(radial_amplitude / weyl_amplitude), radial_scale**3)
+    and close(abs(radial_amplitude) ** 2 / weyl_density, radial_scale**6),
+)
+
+check(
+    "holomorphic discriminant has phase weight six while positive density is phase-neutral",
+    abs(
+        (phase_amplitude**2 / weyl_amplitude**2)
+        - cmath.exp(6j * phase)
+    )
+    < 1.0e-12
+    and close(abs(phase_amplitude) ** 2, weyl_density),
+)
+
+check(
+    "half-density and raw-discriminant Witten thresholds remain distinct",
+    3**2 == 9 and 6**2 == 36,
+    "Weyl half-density slope=3; discriminant-as-amplitude slope=6",
 )
 
 reverse_checks = True

@@ -90,9 +90,9 @@ As parameters \(\lambda\) move around a discriminant, admissible cycles can unde
 
 This is the rigorous kernel of the intuition that twisting around a singularity can generate complexity: nontriviality may live in the local system of cycles or branches rather than in a new local equation. Witten's analytic continuation of Chern--Simons theory is a primary physical example in which complexified integration cycles and Picard--Lefschetz theory organize a path integral. It does not imply that the \(S^6\) manuscript realizes that theory.
 
-## What the conditional \(S^6\) geometry supplies
+## What the integrable \(S^6\) geometry supplies
 
-If [[algebra/s6-manuscript-branch|the conditional \(S^6\) construction]] is correct, it supplies:
+[[algebra/s6-manuscript-branch|The integrable \(S^6\) construction]] supplies:
 
 - a complex threefold, hence a \((p,q)\)-decomposition of differential forms and a Dolbeault complex;
 - a holomorphic fibration by complex two-tori over a punctured complex curve;

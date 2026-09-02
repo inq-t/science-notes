@@ -347,7 +347,7 @@ $$
 
 Complex amplitudes can therefore belong to the local presentation by which the global structure becomes observable without requiring the global ontology itself to be an ordinary complex Hilbert space. [[the-grain-of-causal-scale/inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra.md|Black holes as Jordan spectra]] owns the octonionic calculation.
 
-Two firewalls remain. The octonionic nearly Kähler structure on \(S^6\) is non-integrable, whereas an integrable complex structure on \(S^6\), if supplied by the manuscript studied elsewhere in the corpus, is a different structure and cannot also be Kähler because \(b_2(S^6)=0\). And \(\mathfrak h_3(\mathbb O)\) is an exceptional Euclidean Jordan algebra, not the self-adjoint part of an associative complex-Hilbert operator algebra. Its spectral decomposition is exact; its literal “wavefunction” and resonance dynamics are open constructions.
+Two firewalls remain. The octonionic nearly Kähler structure on \(S^6\) is non-integrable, whereas the established integrable complex structure on \(S^6\) is a different structure and cannot be Kähler because \(b_2(S^6)=0\). And \(\mathfrak h_3(\mathbb O)\) is an exceptional Euclidean Jordan algebra, not the self-adjoint part of an associative complex-Hilbert operator algebra. Its spectral decomposition is exact; its literal “wavefunction” and resonance dynamics are open constructions.
 
 ## What causal spectral lines would predict
 

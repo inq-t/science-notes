@@ -5,7 +5,7 @@ inq.include:
 ---
 # Complex Presentation Without Polarization
 
-An integrable complex geometry can be an ontologically complete mode of presentation without being Kähler, polarized, probabilistic, or already spacetime. Conditional on the local $S^6$ manuscript, the six-real-dimensional sphere admits precisely such a presentation: a compact complex threefold assembled from a torus family, monodromy, logarithmic twists, and a non-normal cusp fiber arising from a toric degeneration. Its lack of a monodromy-compatible polarization does not erase the complex geometry; it shows that complex presentation, positive quantum-state geometry, real-form selection, factive descent, and Lorentzian realization must be constructed as distinct structures.
+An integrable complex geometry can be an ontologically complete mode of presentation without being Kähler, polarized, probabilistic, or already spacetime. The smooth six-sphere is now known to admit precisely such a presentation: geometric proofs and a direct Lean formalization construct a compact complex threefold from a torus family, monodromy, logarithmic twists, and a toric cusp filling. Its lack of a compatible Kähler polarization does not erase the complex geometry; it shows that complex presentation, positive quantum-state geometry, real-form selection, factive descent, and Lorentzian realization must be constructed as distinct structures.
 
 ## The meaning of complex presentation
 
@@ -36,9 +36,9 @@ The underlying smooth cycles do not change merely because \(J\) is integrable. T
 
 On the programme's mathematical realism, that complex structure is as real as a Lorentzian metric or an operator algebra. But reality does not abolish type. A complex atlas is not yet a Hilbert space of states, a positive information metric, a selected real locus, or a causal history.
 
-## The conditional $S^6$ return value
+## The new $S^6$ return value
 
-The anonymous manuscript audited in [[algebra/s6-manuscript-branch|the conditional \(S^6\) branch]] claims a compact complex threefold
+The Alpöge-hosted manuscript audited in [[algebra/s6-manuscript-branch|the integrable $S^6$ branch]] constructs a compact complex threefold
 
 $$
 f:X\longrightarrow\mathbb P^1
@@ -46,9 +46,9 @@ $$
 
 that is diffeomorphic to $S^6$. Its generic fibers are complex two-tori. The two exceptional fibers have multiplicities \(3\) and \(4\), with local monodromies of orders \(3\) and \(4\). At the cusp the manuscript uses unipotent monodromy, logarithmic transformations, and an \(A_2\)-triangulated toric degeneration. The resulting cusp fiber \(W\) is non-normal: its normalization is a degree-six del Pezzo surface whose opposite boundary curves are identified.
 
-The claim is **[CONDITIONAL SOURCE INPUT]**. The local PDF is anonymous and unreviewed, and its theorem conflicts explicitly with a published obstruction result. [[algebra/s6-manuscript-branch|The conditional manuscript branch]] owns that source audit and the verification obligations. Nothing in this module promotes the manuscript to established mathematics.
+The existence statement is **[ESTABLISHED]**. [[library/complex-structures-on-s6-engel/inq|Engel gives a shorter self-contained geometric proof]], while [[library/formalization-of-the-hopf-problem/inq|a separate Lean artifact]] proves a complex-manifold atlas on the standard unit $S^6$, with a standard-axiom dependency report and comparator configuration. This workspace has statically audited but not locally rebuilt the formal artifact. Manuscript-specific Hodge, polarization, and automorphism computations remain source-specific claims unless separately verified. [[algebra/s6-manuscript-branch|The branch note]] owns that narrower evidence boundary.
 
-If the construction survives review, however, its philosophical force is substantial. It would exhibit one compact smooth object whose complex presentation is created globally by monodromy and singular gluing rather than by choosing a complex coordinate independently at every point. The geometry would be simple locally and nontrivial in the way its local pieces continue around exceptional loci.
+Its philosophical force is substantial. It exhibits one compact smooth object whose complex presentation is created globally by monodromy and singular gluing rather than by choosing a complex coordinate independently at every point. The geometry is simple locally and nontrivial in the way its local pieces continue around exceptional loci.
 
 ## Why wave functions make this compelling
 
@@ -74,6 +74,32 @@ $$
 $$
 
 A wave function is normally a vector or ray in a complex Hilbert space, often realized as a section. A complex manifold by itself supplies neither the Hilbert norm nor the operator algebra, state, Hamiltonian or Dirac operator, Born rule, and observable representation needed to give that section quantum meaning.
+
+## Holomorphic locality is not yet a QFT net
+
+Integrability supplies the contravariant commutative sheaf
+
+$$
+U\longmapsto\mathcal O_X(U).
+$$
+
+A local quantum field theory instead supplies a covariant net or factorization structure of generally noncommutative operator algebras,
+
+$$
+O\longmapsto\mathcal A(O)\subset B(\mathcal H),
+$$
+
+together with adjoints, positivity, a state, causal locality, and physical dynamics. Holomorphic functions are not closed under complex conjugation, so $\mathcal O_X(U)$ is not even naturally the required $C^*$-algebra. On compact connected $X$, the global holomorphic functions are only constants.
+
+The precise charitable reading is that an integrable $J$ may provide the *grammar of compatible local complex presentation*. A quantization or realization functor must still construct the local quantum algebras:
+
+$$
+\mathcal O_X
+\dashrightarrow
+\left(O\mapsto\mathcal A(O),\omega,\mathcal H,H\right).
+$$
+
+[[the-grain-of-causal-scale/inbox/causal-grain-and-the-yang-mills-gap/s6-complex-presentation-and-the-determinant-fork|The determinant-fork exploration]] asks what extra structure would be required for that grammar to contribute a physical spectral number.
 
 ## The absence of polarization is a type lesson
 
@@ -125,7 +151,7 @@ This architecture permits an atemporal internal regime. Complex integrals and sp
 
 ## Failure conditions
 
-- If the \(S^6\) manuscript fails review, this particular example disappears; the separation between complex presentation and polarization remains mathematically valid.
+- If a manuscript-specific invariant fails separate audit, only the downstream claims using that invariant close; the existence of an integrable complex structure on $S^6$ remains established by independent proof routes.
 - If no algebra, spectral family, or faithful state bundle is constructed from $X$, the quantum reading remains analogy.
 - If the state bundle is added arbitrarily, it explains no more than an independently postulated quantum model.
 - If no antiholomorphic involution with a suitable fixed locus exists, complex dimension three does not yield physical three-space.

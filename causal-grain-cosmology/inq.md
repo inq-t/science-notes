@@ -446,7 +446,7 @@ $$
 N_J(v,w)=2[u,v,w],
 $$
 
-so the octonionic associator is the integrability obstruction. `inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality.md` distinguishes the exceptional positive whole from locally associative observable fibers. The earlier Hessian audit found a narrower negative result: the conditional torus-fibered complex threefold \(X\simeq S^6\) used in that manuscript has an indefinite Hodge form and cannot carry the required positive BKM response by that route. This does not rule out every positive response construction on the homogeneous slice space \(S^6=G_2/SU(3)\). Octonions and \(G_2\) organize a candidate descent and symmetry here, not the upstream source of the grain's positive coefficient.
+so the octonionic associator is the integrability obstruction. `inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality.md` distinguishes the exceptional positive whole from locally associative observable fibers. The earlier Hessian audit found a narrower negative result: the torus-fibered complex threefold \(X\simeq S^6\) has an indefinite Hodge form and cannot carry the required positive BKM response by that route. This does not rule out every positive response construction on the homogeneous slice space \(S^6=G_2/SU(3)\). Octonions and \(G_2\) organize a candidate descent and symmetry here, not the upstream source of the grain's positive coefficient.
 
 The exact algebraic restriction underlying the proposed synthesis is
 

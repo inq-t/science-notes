@@ -66,9 +66,11 @@ a2-ternary-response = "local:a2-ternary-response"
 algebraic-backgrounds = "local:algebraic-backgrounds"
 complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
 complex-structure-on-s6 = "local:complex-structure-on-s6"
+complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
 conservation-of-causal-charge = "local:conservation-of-causal-charge"
 counterexamples-to-the-jacobian-conjecture = "local:counterexamples-to-the-jacobian-conjecture"
 descent = "local:descent"
+formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
 ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
 planar-algebraic-conditional-expectations = "local:planar-algebraic-conditional-expectations"
 program-core = "local:program-core"
@@ -163,6 +165,7 @@ crossing-evaluated-flat-modulus = "local:crossing-evaluated-flat-modulus"
 deriving-g-v2 = "local:deriving-g-v2"
 deriving-value-of-g = "local:deriving-value-of-g"
 flux-record-and-top-form-realizations = "local:flux-record-and-top-form-realizations"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 
 [[local]]
 name = "canonical-energy-is-quantum-fisher-information"
@@ -350,10 +353,20 @@ name = "complex-presentation-without-polarization"
 a2-ternary-response = "local:a2-ternary-response"
 algebra = "local:algebra"
 complex-structure-on-s6 = "local:complex-structure-on-s6"
+complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
+formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 uniqueness-of-chentsov-metric-quantum-information-geometry = "local:uniqueness-of-chentsov-metric-quantum-information-geometry"
 
 [[local]]
 name = "complex-structure-on-s6"
+
+[local.links]
+complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
+formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
+
+[[local]]
+name = "complex-structures-on-s6-engel"
 
 [[local]]
 name = "comprehensive-local-hubble-constant-measurement"
@@ -490,6 +503,7 @@ sufficient-reason = "local:sufficient-reason"
 name = "dark-energy-and-acceleration"
 
 [local.links]
+algebra = "local:algebra"
 binary-information-geometry = "local:binary-information-geometry"
 causal-scale-theory = "local:causal-scale-theory"
 causal-wall-spectral-theory = "local:causal-wall-spectral-theory"
@@ -497,13 +511,16 @@ compatible-with-existing-physics = "local:compatible-with-existing-physics"
 conformal-scale-geometry = "local:conformal-scale-geometry"
 conformal-time = "local:conformal-time"
 cosmodynamics = "local:cosmodynamics"
+crossing-evaluated-flat-modulus = "local:crossing-evaluated-flat-modulus"
 deriving-value-of-g = "local:deriving-value-of-g"
 desi-dr2-results-ii = "local:desi-dr2-results-ii"
 desi-dr2-results-iv = "local:desi-dr2-results-iv"
+minimal-cosmodynamic-closure = "local:minimal-cosmodynamic-closure"
 on-desi-dr2-exclusion-of-lambda-cdm = "local:on-desi-dr2-exclusion-of-lambda-cdm"
 program-core = "local:program-core"
 scale-as-modular-observable = "local:scale-as-modular-observable"
 spectral-wall-descent = "local:spectral-wall-descent"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 wall-construction-interface = "local:wall-construction-interface"
 
 [[local]]
@@ -761,6 +778,9 @@ sufficient-reason = "local:sufficient-reason"
 wall-construction-interface = "local:wall-construction-interface"
 
 [[local]]
+name = "formalization-of-the-hopf-problem"
+
+[[local]]
 name = "fractional-conformal-laplacians-and-fractional-yamabe-problems"
 
 [[local]]
@@ -927,6 +947,7 @@ hessians = "local:hessians"
 misner-log-time = "local:misner-log-time"
 nilpotency-and-the-wall = "local:nilpotency-and-the-wall"
 program-core = "local:program-core"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 
 [[local]]
 name = "inconsistencies-in-verlinde-s-emergent-gravity"
@@ -1012,6 +1033,17 @@ name = "local-wick-polynomials-and-time-ordered-products"
 name = "lorentzian-kernel-epistemic-envelope"
 
 [[local]]
+name = "lorentzian-spectral-envelope"
+
+[local.links]
+algebraic-backgrounds = "local:algebraic-backgrounds"
+cauchy-spectral-envelope = "local:cauchy-spectral-envelope"
+deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories = "local:deformations-of-half-sided-modular-inclusions-and-non-local-chiral-field-theories"
+spectral-wall-descent = "local:spectral-wall-descent"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
+
+[[local]]
 name = "mass-and-gravity-as-dual-readout-sectors"
 
 [[local]]
@@ -1088,8 +1120,10 @@ name = "nilpotency-and-the-wall"
 algebra = "local:algebra"
 complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
 complex-structure-on-s6 = "local:complex-structure-on-s6"
+complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
 deriving-g-v2 = "local:deriving-g-v2"
 dimensional-ladder = "local:dimensional-ladder"
+formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
 ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
 noether-conservation = "local:noether-conservation"
 program-core = "local:program-core"
@@ -1312,7 +1346,6 @@ name = "scale-as-modular-observable"
 binary-information-geometry = "local:binary-information-geometry"
 causal-scale-theory = "local:causal-scale-theory"
 conformal-scale-geometry = "local:conformal-scale-geometry"
-deriving-value-of-g = "local:deriving-value-of-g"
 program-core = "local:program-core"
 soldering = "local:soldering"
 wall-construction-interface = "local:wall-construction-interface"
@@ -1513,6 +1546,9 @@ bulk-area-cell-normalization = "local:bulk-area-cell-normalization"
 causal-grain-cosmology = "local:causal-grain-cosmology"
 causal-scale-theory = "local:causal-scale-theory"
 complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
+complex-structure-on-s6 = "local:complex-structure-on-s6"
+complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
+conformal-scale-geometry = "local:conformal-scale-geometry"
 conformal-time = "local:conformal-time"
 conservation-of-causal-charge = "local:conservation-of-causal-charge"
 cosmodynamics = "local:cosmodynamics"
@@ -1521,7 +1557,9 @@ deriving-g-v2 = "local:deriving-g-v2"
 deriving-value-of-g = "local:deriving-value-of-g"
 extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
 flux-record-and-top-form-realizations = "local:flux-record-and-top-form-realizations"
+formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
 hyperbolic-counting = "local:hyperbolic-counting"
+lorentzian-spectral-envelope = "local:lorentzian-spectral-envelope"
 minimal-cosmodynamic-closure = "local:minimal-cosmodynamic-closure"
 misner-log-time = "local:misner-log-time"
 nilpotency-and-the-wall = "local:nilpotency-and-the-wall"
@@ -1531,6 +1569,7 @@ quanta-of-geometry = "local:quanta-of-geometry"
 semiorthogonal-decompositions = "local:semiorthogonal-decompositions"
 standard-model-from-exceptional-jordan-algebra = "local:standard-model-from-exceptional-jordan-algebra"
 wall-construction-interface = "local:wall-construction-interface"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
 name = "the-mixmaster-cosmological-metrics"
@@ -1609,3 +1648,14 @@ name = "why-the-standard-model"
 
 [[local]]
 name = "wmap-seven-year-power-spectra"
+
+[[local]]
+name = "yang-mills-mass-gap"
+
+[local.links]
+dark-energy-and-acceleration = "local:dark-energy-and-acceleration"
+deriving-value-of-g = "local:deriving-value-of-g"
+ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
+lorentzian-spectral-envelope = "local:lorentzian-spectral-envelope"
+program-core = "local:program-core"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
