@@ -1,0 +1,16 @@
+oriented descent angle: finite principal-angle witnesses
+degrees   c_F          frame_floor  alternating  orientation
+     15   0.965925826  0.034074174  0.933012702  0.125000000
+     30   0.866025404  0.133974596  0.750000000  0.216506351
+     60   0.500000000  0.500000000  0.250000000  0.216506351
+     90   0.000000000  1.000000000  0.000000000  0.000000000
+reversal: frame operator unchanged; orientation operator changes sign
+weyl pair: finite traceless Hilbert--Schmidt floor
+order     exact_floor
+    2     4.000000000
+    3     3.000000000
+    4     2.000000000
+    6     1.000000000
+   12     0.267949192
+weyl reversal: phase conjugates; squared-commutator floor is unchanged
+scope: finite matrix witnesses only; no type-III, Casimir, continuum, or Yang--Mills claim

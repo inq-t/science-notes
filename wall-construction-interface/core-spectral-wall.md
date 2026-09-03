@@ -251,6 +251,8 @@ $$
 
 Thus the exact binary curve used by CST is realized as the presentation of one atemporal normal state through moving spectral cuts. In the transported picture, the cut is fixed and the state moves; the two descriptions are related by $\beta_N$ and contain the same mathematics.
 
+Restriction to the larger commutative algebra $W^*(X)$ gives the probability carrier $L^2(\mathbb R,q_{\nu,N_c}\,\mathrm dx)$. [[contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law|Pointing coercivity and the flat-partner law]] uses the normalized dual-action derivation to obtain the exact sharp Poincare lower edge $\nu^2$. More strongly, a homogeneous Darboux partner with an unspecified real constant plus one normalizable ordered zero mode forces the constant to be positive and uniquely selects this logistic family. This is a gap on the commutative scale shadow, not on the whole core or a physical Hamiltonian carrier.
+
 For the logistic density, the full transported core density is explicitly
 
 $$
@@ -355,9 +357,9 @@ This construction changes the keystone gap. It is no longer true that the reposi
 2. recover a local type-III net and explain whether its physical wall algebra is represented by the whole-core response carrier, the finite corner, or a controlled relation between them;
 3. construct a nondegenerate binary context inside each finite corner, or prove why the ambient context is the physically correct response carrier;
 4. select $\varphi$ and the global density $d$ from deeper algebra rather than choosing a convenient member;
-5. derive or measure the dimensionless width $\nu$—core scale fixes $N$, not the state width;
+5. justify or reject the optional binary extensions of [[scale-character-solder|the scale-character solder]] and resolve their generator-normalization fork: projection-coded matching or the nondegenerate incoming-density law gives \(\nu=1/2\), whereas normalized-involution matching gives \(\nu=1\); the core scale by itself fixes \(N\), not the state width;
 6. construct renormalized Weyl and TT source tangents and the physical quotient;
 7. identify the trace-capacity measure with edge, spectral-area, and gravitational response on the same tangent; and
 8. construct factual records and a Lorentzian history functor.
 
-The logistic density is therefore a mathematically natural exact member, not yet a uniqueness theorem. [[algebra/a2-positive-completion|The $A_2$ positive-completion theorem]] supplies independent fiberwise boundary types and, after a subgroup choice, a binary stabilizer expectation. [[scale-character-solder|The scale-character solder]] states the precise optional matching among its discriminant depth, this trace capacity, and HSMI affine scale.
+The logistic density is therefore a mathematically natural exact core member, but it is not selected uniquely by the core data. [[contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law|The flat-partner theorem]] selects it uniquely only after adding a homogeneous-partner assumption and a normalizable ordered zero-mode requirement; the theorem forces positivity of the partner constant but not its magnitude. [[algebra/a2-positive-completion|The $A_2$ positive-completion theorem]] supplies independent fiberwise boundary types and, after a subgroup choice, a binary stabilizer expectation. [[scale-character-solder|The scale-character solder]] matches discriminant depth, trace capacity, and HSMI affine scale, and states the optional binary normalization fork plus the separate boundary axiom that would select \(\nu=1/2\).

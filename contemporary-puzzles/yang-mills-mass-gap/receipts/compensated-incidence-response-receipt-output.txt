@@ -1,0 +1,5 @@
+finite sample: exact cancellation on one two-sided shell window: passed
+finite samples: decreasing floors for R=7I on radii 2,4,8,16: passed
+finite samples: D=3,4,5 character arithmetic under q=D-2 and p=1: passed
+finite witness: one selected terminal kernel survives compensation: passed
+scope: no unbounded-support theorem, D=4 selection theorem, physical boundary response, entropy Hessian, Casimir solder, or Yang--Mills gap is tested

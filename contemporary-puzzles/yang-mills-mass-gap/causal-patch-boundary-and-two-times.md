@@ -257,6 +257,25 @@ $$
 T_{\tau_E}=e^{-\tau_E(H-E_0)/\hbar}.
 $$
 
+That phrase hides an exact descent gate. Start with a reflection \(\theta\), a positive-time algebra \(\mathcal A_+\), a reflection-positive functional \(\omega\), and a distinguished family of Euclidean translations \(\tau_s\). Quotient \(\mathcal A_+\) by the null space of
+
+$$
+\langle[F],[G]\rangle_{\mathrm{OS}}
+:=
+\omega\!\left(\theta(F)^*G\right).
+$$
+
+The positive translations must preserve this null space and descend to a strongly continuous self-adjoint contraction semigroup on the completed OS carrier. Only then does the spectral theorem give
+
+$$
+T(s)=e^{-sH/\hbar},
+\qquad H\geq0.
+$$
+
+Euclidean covariance, the OS regularity and growth conditions, locality or symmetry of the Euclidean fields, and analytic continuation are further requirements for identifying this \(H\) with the clock Hamiltonian of a positive-energy Poincare theory. Reflection positivity alone does not turn an arbitrary Markov, modular, RG, or record-order semigroup into time translation.
+
+[[library/the-semigroup-characterization-of-osterwalder-schrader-path-spaces/inq|Klein's semigroup characterization]] isolates this quotient-semigroup step, while [[library/from-euclidean-field-theory-to-quantum-field-theory/inq|Schlingemann's algebraic reconstruction]] begins with Euclidean local data and an additional time-zero condition in order to recover a Haag--Kastler net.
+
 It composes and prepares the ground-state space but is not a Lorentzian clock and does not select an outcome. For a self-adjoint \(H-E_0\geq0\), finite-depth \(T_{\tau_E}\) is injective even though its inverse is generally unbounded, and the spectral theorem gives
 
 $$

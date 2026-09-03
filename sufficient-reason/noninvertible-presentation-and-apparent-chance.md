@@ -122,20 +122,22 @@ This is the same caution as for Stinespring dilation. A channel can be represent
 
 ## What the Jacobian counterexample makes exact
 
-[[library/counterexamples-to-the-jacobian-conjecture/inq|Gao's 2026 construction]] records polynomial maps
+The [[library/counterexamples-to-the-jacobian-conjecture/inq|2026 Jacobian counterexamples]] record polynomial maps
 
 $$
 F:\mathbb C^n\longrightarrow\mathbb C^n,
 \qquad n>2,
 $$
 
-with constant nonzero Jacobian determinant that are nevertheless noninjective. For the first three-dimensional member,
+with constant nonzero Jacobian determinant that are nevertheless noninjective. For [[library/counterexample-to-the-jacobian-conjecture/inq|Alpöge's original three-dimensional map]],
 
 $$
 \det JF\equiv-2,
 $$
 
 while the generic fiber has three points. The inverse-function theorem supplies a local analytic inverse branch at every source point. The global inverse fails because the map is nonproper: sheets escape through infinity rather than meeting at a finite ramification point.
+
+Gao's later tangent-sweep construction contains a different three-dimensional map with determinant $+2$ and generic degree four. The two examples make the same local--global point, but their numerical invariants must not be conflated.
 
 This gives an exact local-to-global separation:
 

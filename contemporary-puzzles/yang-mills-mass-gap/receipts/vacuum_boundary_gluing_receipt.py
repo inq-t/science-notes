@@ -3,8 +3,9 @@
 This checks that an invertible, strictly positive transfer matrix can remain
 injective at every finite depth while reflected boundary amplitudes converge
 projectively to the squared vacuum. It also checks the periodic-cylinder
-marginal and the vacuum Doob transform. It makes no continuum Yang--Mills
-claim.
+marginal, the vacuum Doob transform, and a finite reflection-Markov example
+in which conditional expectation realizes the OS quotient isometrically on
+the interface. It makes no continuum Yang--Mills claim.
 """
 
 from fractions import Fraction
@@ -97,9 +98,89 @@ doob = tuple(
 assert all(sum(row) == 1 for row in doob)
 assert vacuum_law[0] * doob[0][1] == vacuum_law[1] * doob[1][0]
 
+
+# Reflection-Markov receipt.  The interface label is fixed by reflection, and
+# the negative and positive variables are conditionally independent copies
+# with the following laws given interface i.
+interface_law = (Fraction(2, 5), Fraction(3, 5))
+conditional = (
+    (Fraction(1, 3), Fraction(2, 3)),
+    (Fraction(3, 4), Fraction(1, 4)),
+)
+
+
+def boundary_map(observable):
+    return tuple(
+        sum(
+            conditional[i][x] * observable[i][x]
+            for x in range(2)
+        )
+        for i in range(2)
+    )
+
+
+def interface_inner(left, right):
+    return sum(
+        interface_law[i] * left[i] * right[i]
+        for i in range(2)
+    )
+
+
+def os_inner(left, right):
+    # Reflection sends the positive observable to the conditionally
+    # independent negative copy.  Values are real in this receipt.
+    return sum(
+        interface_law[i]
+        * sum(conditional[i][y] * left[i][y] for y in range(2))
+        * sum(conditional[i][x] * right[i][x] for x in range(2))
+        for i in range(2)
+    )
+
+
+basis = (
+    ((Fraction(1), Fraction(0)), (Fraction(0), Fraction(0))),
+    ((Fraction(0), Fraction(1)), (Fraction(0), Fraction(0))),
+    ((Fraction(0), Fraction(0)), (Fraction(1), Fraction(0))),
+    ((Fraction(0), Fraction(0)), (Fraction(0), Fraction(1))),
+)
+for left in basis:
+    for right in basis:
+        assert os_inner(left, right) == interface_inner(
+            boundary_map(left), boundary_map(right)
+        )
+
+# A conditionally mean-zero function is OS-null.
+null_observable = (
+    (Fraction(2), Fraction(-1)),
+    (Fraction(1), Fraction(-3)),
+)
+assert boundary_map(null_observable) == (0, 0)
+assert os_inner(null_observable, null_observable) == 0
+
+# Interface insertions are fixed by the boundary map.  An insertion centered
+# against the distinguished constant reference line therefore has exact
+# coverage one; this finite Markov receipt does not identify that line with a
+# unique Hamiltonian vacuum.
+centered_interface = (Fraction(3), Fraction(-2))
+assert sum(
+    interface_law[i] * centered_interface[i]
+    for i in range(2)
+) == 0
+centered_insertion = tuple(
+    (centered_interface[i], centered_interface[i])
+    for i in range(2)
+)
+assert boundary_map(centered_insertion) == centered_interface
+assert os_inner(centered_insertion, centered_insertion) == interface_inner(
+    centered_interface, centered_interface
+)
+
 print("transfer determinant:", transfer[0][0] * transfer[1][1] - transfer[0][1] ** 2)
 print("finite transfer is injective:", True)
 print("vacuum law:", tuple(str(value) for value in vacuum_law))
 print("depth-6 sewn total-variation error:", str(previous_tv))
 print("Doob row sums:", tuple(str(sum(row)) for row in doob))
+print("reflection-Markov OS factorization on basis:", True)
+print("OS null equals boundary-map kernel in receipt:", True)
+print("reference-complement interface coverage:", "1")
 print("all vacuum boundary-gluing receipts passed")

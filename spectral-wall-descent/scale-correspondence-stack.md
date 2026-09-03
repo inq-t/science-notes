@@ -180,6 +180,16 @@ $$
 
 becomes an additive cocycle only if the edge states satisfy a declared fusion or Markov compatibility. That compatibility is a theorem target, not a consequence of the word “stack.”
 
+The chosen finite-index expectation also contains a normalized one-sided witness. On properly infinite algebras, its conjugate solution supplies \(\widetilde v\) with
+
+$$
+\widetilde v^*\widetilde v=\operatorname{Ind}(E),
+\qquad
+E(\widetilde v\widetilde v^*)=1.
+$$
+
+Hence \(V_E=\widetilde v\operatorname{Ind}(E)^{-1/2}\) is an isometry, proper in a factor whenever the index is greater than one. Equivalently, if \(A_E=\log d(E)\), then \(\widetilde v^*\widetilde v=e^{2A_E}\) and \(\widetilde v e^{-A_E}=V_E\). [[contemporary-puzzles/yang-mills-mass-gap/finite-index-duality-and-the-square-response|The finite-index square-response note]] develops this exact normalization and its limitations. It gives the stack a possible one-sided carrier and an algebraic reason for a squared response character. It does not make the range projection canonical physical data, turn the \(L^2\) implementation of \(E\) into an injective frame, or supply an energy scale.
+
 ## Realization data are later choices
 
 The candidate correspondence prestack is not itself a spacetime. A geometric realization requires at least

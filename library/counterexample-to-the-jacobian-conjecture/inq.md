@@ -7,7 +7,7 @@ inq.ambient:
 ---
 # A Counterexample to the Jacobian Conjecture
 
-This unattributed manuscript verifies an explicit polynomial map from complex three-space to itself with constant Jacobian determinant minus two and a three-point fiber, yielding a counterexample in dimension three and, by stabilization, every dimension at least three. A projective coordinate reduces inversion to roots of a binary cubic and supports a description of the fibers, image, and nonproperness set.
+This unattributed manuscript verifies the polynomial map announced by Levent Alpöge from complex three-space to itself with constant Jacobian determinant minus two, generic degree three, and an explicit three-point fiber, yielding a counterexample in dimension three and, by stabilization, every dimension at least three. A projective coordinate reduces inversion to roots of a binary cubic and supports a description of every fiber, the image, and the nonproperness set.
 
 ## Metadata
 

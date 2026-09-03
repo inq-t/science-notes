@@ -162,6 +162,24 @@ $$
 
 Here $\Lambda_{\mathrm{YM}}$ is typed as an energy scale, consistently with $\Delta_E/\Lambda_{\mathrm{YM}}$. Equivalently, with inverse-length scale $\kappa_{\mathrm{YM}}:=\Lambda_{\mathrm{YM}}/(\hbar c)$, equation (RG5) reads $a_{j_*}\asymp\kappa_{\mathrm{YM}}^{-1}$.
 
+The same blocking data also provide candidate logarithmic shell addresses
+
+$$
+N_j=N_0+j\log L.
+$$
+
+[[paired-scale-filtrations-and-the-invariant-incidence-wall]] shows why this does not by itself produce a gap. As $j_*(a)\to\infty$, the corresponding one-sided inverse-scale operator has spectral values accumulating at zero. Any floor obtained merely by keeping finitely many shells is therefore a cutoff artifact unless it is uniform through the limit. The structural alternative is a pair of oppositely transforming filtrations whose **joint incidence support** has a regulator-uniform diagonal ceiling. This preserves unbounded relative resolution while bounding the invariant mean address; it is a relation between towers, not an imposed endpoint of either tower.
+
+There is also a nontruncating alternative. [[compensated-incidence-response-and-four-dimensional-balance]] shows that a joint-shell response with bottom coefficient \(\rho_{r,jk}\) produces a uniform soft wall exactly when
+
+$$
+\inf_{r,(j,k)\in\Sigma_r}
+\rho_{r,jk}e^{-2p\overline N_{r,jk}}>0,
+\tag{RG5a}
+$$
+
+provided the shells reduce the form; otherwise (RG5a) must be replaced by the direct pullback-form inequality. The RG problem can therefore be asked more sharply: derive the scale growth of \(\rho_{r,jk}\) from the effective interaction and its mixed Hessian, rather than either truncating deep shells or inserting compensating weights. [[library/spectral-gap-critical-exponent-for-glauber-dynamics-of-hierarchical-spin-models/inq|Bauerschmidt--Bodineau's hierarchical recursion]] is a useful precedent because it transports inverse-gap forms through covariance slices while also exhibiting critical models whose gaps still decay. It confirms that RG recursion is machinery for proving compensation, not compensation by itself.
+
 The effective action there is not generally another one-parameter Wilson action. Write it as a quasi-local polymer interaction
 
 $$

@@ -1,0 +1,9 @@
+t=0.0001: smallest_positive_ratio=3.33333316505e-09
+t=0.1: smallest_positive_ratio=0.00334226908721
+t=0.5: smallest_positive_ratio=0.0897607733732
+t=0.9: smallest_positive_ratio=0.388678110589
+generalized spectrum at each t:
+  0 (multiplicity 1)
+  1 - t / artanh(t) (multiplicity 2)
+  1 (multiplicity 12)
+PASS: fixed index 4 does not bound the positive BKM loss edge.

@@ -60,4 +60,4 @@ $$
 =\frac12g^{\mathrm{bin}}_{\theta\theta}.
 $$
 
-The partner operator is free and the nontrivial potential is reflectionless. This is an exact factorization of the one-dimensional reduced profile. Turning it into a perturbation operator, a field equation, a causal charge, or a gravitational response requires additional mathematical objects and independent physical principles.
+After restoring inverse width \(\nu\) and address \(N_c\), the partner operator is free above \(\nu^2\), the nontrivial potential is reflectionless, and the same factorization is unitarily equivalent to the sharp logistic Poincare inequality with lower edge \(\nu^2\). Conversely, a homogeneous partner with an initially unspecified real constant and one normalizable ordered zero mode force that constant to be positive and uniquely force the translated logistic family. These are exact statements about the one-dimensional reduced carrier. Turning them into a perturbation operator, field equation, causal charge, gravitational response, or physical mass requires additional mathematical objects and independent physical principles.

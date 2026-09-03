@@ -1,6 +1,6 @@
 # Vacuum Boundary Gluing and the Wall-Response Operator
 
-The most literal mathematical version of “crossing a wall and paying a residue cost” is Euclidean boundary reduction. A restriction map sends bulk histories to their boundary data; integrating over each fiber produces a half-space amplitude; gluing two halves multiplies those amplitudes and integrates over the boundary; and infinite Euclidean depth prepares the vacuum density \(\psi_0^2\). In the exactly solvable Gaussian case, the logarithmic residue is governed by a Dirichlet-to-Neumann operator whose positive lower edge is precisely the oscillator or field mass gap after the kinetic unit is restored. This identifies a serious Yang--Mills target: construct the interacting, gauge-reduced boundary response independently from the Hamiltonian spectrum, prove volume-uniform coercivity at each regulator, and retain positivity of the calibrated physical product through continuum removal. It does not identify the mass gap with wave-function collapse.
+The most literal mathematical version of “crossing a wall and paying a residue cost” is Euclidean boundary reduction. A restriction map sends bulk histories to their boundary data; integrating over each fiber produces a half-space amplitude; gluing two halves multiplies those amplitudes and integrates over the boundary; and infinite Euclidean depth prepares the vacuum density \(\psi_0^2\). Under explicit reflection-Markov and separator hypotheses, conditional expectation onto a reflection-fixed separator factors the Osterwalder--Schrader form exactly: after quotienting its null subspace, the reconstructed carrier embeds isometrically—and, with dense interface insertions, unitarily—into the gauge-invariant interface \(L^2\) space. A closable invariant interface derivative then supplies a complex-linear, phase-sensitive analysis operator; it is complete only if its kernel is proved to contain nothing beyond the constant line. Identifying a thick interface with the canonical transfer slice and its electric-flux calculus requires another geometric map. In the Gaussian member, the logarithmic residue is governed by a Dirichlet-to-Neumann operator whose positive lower edge is precisely the oscillator or field mass gap after the kinetic unit is restored. The first genuinely open Yang--Mills estimate is therefore a volume-, depth-, and boundary-uniform cylinder Poincare bound together with an independently proved comparison to the transfer or Kogut--Susskind form along the asymptotically free trajectory. None of these statements identifies the mass gap with wave-function collapse.
 
 **Status: [EXACT ABSTRACT GLUING THEOREM; EXACT GAUSSIAN DIRICHLET-TO-NEUMANN MODEL; STANDARD FINITE-LATTICE TRANSFER INPUT; OPEN INTERACTING YANG--MILLS BOUNDARY ESTIMATE].** The fiber integration, transfer limit, Gaussian boundary action, and Poincare calculation below are exact under their stated hypotheses. The required nonlinear boundary-response bound for four-dimensional Yang--Mills is a proposed theorem target, not a result.
 
@@ -191,7 +191,7 @@ $$
 
 is the finite-regulator energy gap when \(T=e^{-a_\tau H/\hbar}\).
 
-In infinite volume compactness is lost. A unique ground vector can still give strong convergence \(e^{-\tau(H-E_0)/\hbar}\to P_0\) without norm convergence. If positive spectrum accumulates at zero, then
+In infinite volume compactness is lost. A unique ground vector can still give strong convergence \(e^{-\tau(H-E_0)/\hbar}\to P_0\) as \(\tau\to\infty\) without norm convergence. If positive spectrum accumulates at zero, then
 
 $$
 \left\|e^{-\tau(H-E_0)/\hbar}-P_0\right\|=1
@@ -568,6 +568,133 @@ then \(\Delta_E\geq\kappa_{\mathrm{fr}}\eta_{\mathrm{sol}}E_*\). The wall constr
 
 There is also a codimension firewall. The present sewing surface is a codimension-one Euclidean time slice. The programme's causal-wall constructions often use codimension-two Lorentzian cuts. Analytic continuation alone preserves codimension. Their identification therefore requires an additional corner, intersection, thickening, or carrier-changing functor, together with the OS continuation; vocabulary does not supply it.
 
+## The OS quotient factors exactly through a reflection interface
+
+The first reconstructed-to-wall map need not remain abstract at finite regulator. Let \(\mu_\rho\) be a normalized reflection-invariant Euclidean lattice probability measure, let \(\vartheta\) reverse Euclidean time, and let
+
+$$
+(\Theta F)(\Phi)
+:=
+\overline{F(\vartheta\Phi)}
+$$
+
+act on the gauge-invariant positive-side cylinder functions \(\mathcal A_{\rho,+}^{\mathrm{GI}}\). Their reflection/OS sesquilinear form is
+
+$$
+\langle F,G\rangle_{\mathrm{OS}}
+:=
+\int(\Theta F)G\,\mathrm d\mu_\rho.
+\tag{OS1}
+$$
+
+Choose a reflection-invariant separator \(I\), with sigma-algebra \(\mathcal F_I\), so that every interaction crossing the reflection plane is carried by \(I\). On a periodic cylinder, \(I\) must contain every cut needed to separate the two reflected regions, generally including both fixed cuts. For the untwisted \(L^2\) factorization below, assume additionally that reflection fixes the interface variables pointwise after the residual gauge quotient. If reflection induces a nontrivial involution on \(I\), (OS3) instead contains that involution and the ordinary \(L^2\) conclusion requires a further positive factorization. Assume the **reflection-Markov property**: conditioned on \(\mathcal F_I\), the strictly positive- and strictly negative-time variables are independent, with their conditional laws exchanged by reflection. Let
+
+$$
+b_\rho F
+:=
+\mathbb E_{\mu_\rho}[F\mid\mathcal F_I]
+\tag{OS2}
+$$
+
+and let \(\nu_{\rho,I}\) be the interface marginal of \(\mu_\rho\). Conditional independence and reflection symmetry give the exact factorization, which in particular proves positivity of this form,
+
+$$
+\boxed{
+\langle F,G\rangle_{\mathrm{OS}}
+=
+\int_I
+\overline{b_\rho F}\,
+b_\rho G\,
+\mathrm d\nu_{\rho,I}.}
+\tag{OS3}
+$$
+
+Consequently,
+
+$$
+\mathcal N_{\mathrm{OS}}
+:=
+\{F:\langle F,F\rangle_{\mathrm{OS}}=0\}
+=
+\ker b_\rho,
+\tag{OS4}
+$$
+
+and \(b_\rho\) descends to an isometry
+
+$$
+B_\rho^{\mathrm{OS}}:
+\overline{
+\mathcal A_{\rho,+}^{\mathrm{GI}}/
+\mathcal N_{\mathrm{OS}}
+}
+\longrightarrow
+L^2(\nu_{\rho,I})^{\mathrm{GI}},
+\qquad
+B_\rho^{\mathrm{OS}}[F]=b_\rho F.
+\tag{OS5}
+$$
+
+If gauge-invariant interface insertions belong to the positive-side class and are dense in \(L^2(\nu_{\rho,I})^{\mathrm{GI}}\), then \(b_\rho f=f\) for those insertions, the isometric range is both dense and closed, and \(B_\rho^{\mathrm{OS}}\) is unitary. Write \(\Omega_\rho:=[1]\) for the distinguished normalized OS reference vector and define
+
+$$
+P_{\Omega,\rho}:=|\Omega_\rho\rangle\langle\Omega_\rho|.
+$$
+
+Since \(B_\rho^{\mathrm{OS}}[1]=1\),
+
+$$
+J_{\Omega,\rho}
+:=
+B_\rho^{\mathrm{OS}}(1-P_{\Omega,\rho})
+$$
+
+has exact reference-complement coverage one:
+
+$$
+\|J_{\Omega,\rho}\Psi\|
+=
+\|(1-P_{\Omega,\rho})\Psi\|.
+\tag{OS6}
+$$
+
+For a general reflection-Markov measure, \(\Omega_\rho\) is a distinguished reference vector, not yet a theorem about the complete zero-energy subspace. Only after the Euclidean state is identified with an infinite-depth vacuum state and that vacuum is proved unique may one rename \(P_{\Omega,\rho}\) as the physical vacuum projection \(P_{0,\rho}\).
+
+This theorem identifies what the OS quotient forgets. Its null set is a seminorm-null linear subspace. For every bounded interface multiplier \(h\) that preserves the chosen positive-side domain, \(b_\rho(hF)=h\,b_\rho(F)\), so the null set is a module over that declared multiplier algebra; no closure under all of \(L^\infty(\mathcal F_I)\) has been assumed, and it is not thereby a two-sided algebra ideal. Gauge reduction is already built into the invariant function class and residual interface quotient. A naive one-slice interface is insufficient whenever the action contains couplings that cross it, and a thick interface is not automatically the canonical transfer slice.
+
+The theorem also distinguishes a joint reflection interface from a one-slice marginal, and finite periodic preparation from the vacuum limit. For the kernel formulas, assume that the transfer operator is compact, nonnegative, and self-adjoint and that one of its positive integer powers is Hilbert--Schmidt, so every sufficiently deep \(T^{n_\tau}\) has an \(L^2\) kernel \(K_{n_\tau}\) and \(T^{2n_\tau}\) is trace class. In the simplest periodic geometry with two cuts carrying configurations \((U,V)\), the joint separator marginal has the form
+
+$$
+\mathrm d\nu_{\rho,I}^{(n_\tau)}(U,V)
+=
+\frac{|K_{n_\tau}(U,V)|^2}
+{\|T^{n_\tau}\|_{\mathrm{HS}}^2}
+\,\mathrm d\mu_{\mathrm{Haar}}(U)
+\,\mathrm d\mu_{\mathrm{Haar}}(V).
+$$
+
+By contrast, the separate one-slice marginal at finite temporal depth is
+
+$$
+\mathrm d\nu_{\rho,\Sigma}^{(n_\tau)}(U)
+=
+\frac{
+\int |K_{n_\tau}(U,V)|^2
+\,\mathrm d\mu_{\mathrm{Haar}}(V)}
+{\|T^{n_\tau}\|_{\mathrm{HS}}^2}
+\mathrm d\mu_{\mathrm{Haar}}(U).
+$$
+
+When a regular composition-kernel representative exists, the numerator is \(K_{2n_\tau}(U,U)\), and \(\|T^{n_\tau}\|_{\mathrm{HS}}^2=\operatorname{Tr}(T^{2n_\tau})\). Under the Hilbert--Schmidt-power condition and the simple-top-eigenvalue hypotheses of the transfer-gluing theorem, the normalized kernels converge in Hilbert--Schmidt norm to \(\psi_{0,\rho,L}(U)\overline{\psi_{0,\rho,L}(V)}\). Their squared moduli therefore converge in \(L^1\), so after \(n_\tau\to\infty\) this **one-slice** marginal converges in total variation to
+
+$$
+\psi_{0,\rho,L}^2\,\mathrm d\mu_{\mathrm{Haar}}.
+$$
+
+The two-cut joint marginal instead tends in total variation to the corresponding product of vacuum slice marginals. It must not be identified with the one-slice law by suppressing one of its boundary variables.
+
+Thus \(B_\rho^{\mathrm{OS}}\) is the exact OS-to-interface leg of the sought carrier map. It is not yet the map from interface configurations to the logistic core-scale shadow.
+
 ## The Yang--Mills boundary construction at finite regulator
 
 For Wilson lattice gauge theory, reflection positivity supplies a spectrally positive self-adjoint transfer matrix on the gauge-invariant carrier; [[library/construction-of-a-selfadjoint-strictly-positive-transfer-matrix-for-euclidean-lattice-gauge-theories/inq|Luscher's construction]] and [[library/gauge-field-theories-on-a-lattice/inq|Osterwalder--Seiler positivity]] are the canonical sources. Reflection positivity alone does not select a one-dimensional vacuum space. For the formulas below, additionally assume that the finite-spatial-lattice transfer operator is compact, injective, and positivity improving, so its maximal eigenvalue is simple with \(\psi_0>0\). The [[library/the-schrodinger-functional-a-renormalizable-probe-for-non-abelian-gauge-theories/inq|Schrodinger functional]] is a lattice gauge-theory amplitude with fixed fields at temporal boundaries and a perturbatively controlled continuum renormalization framework.
@@ -586,10 +713,11 @@ If \(c_B:=\langle\psi_0,b_B\rangle\neq0\), transfer projection gives
 $$
 \lambda_0^{-n_\tau}Z_{n_\tau,B}[U]
 \longrightarrow c_B\psi_{0,a,L}(U)
+\quad\text{in }L^2(\mu_{\mathrm{Haar}})
 \qquad(n_\tau\to\infty).
 $$
 
-Gluing two such slabs gives the equal-time vacuum measure
+After normalizing the glued finite-depth amplitudes and taking this infinite-depth limit, their squared densities converge in \(L^1\) to the equal-time vacuum measure
 
 $$
 \boxed{
@@ -599,7 +727,7 @@ $$
 }
 $$
 
-This is exactly the ground-state measure for the Hamiltonian
+This limiting law is exactly the ground-state measure for the Hamiltonian
 
 $$
 H_T:=-\frac{\hbar}{a_\tau}\log T.
@@ -623,6 +751,145 @@ $$
 $$
 
 This form operates on gauge-invariant functions of boundary link configuration; its first-order calculus probes infinitesimal electric-flux directions. The measure does not make it the ground-state form of \(H_T\). A nonlinear Dirichlet-to-Neumann construction would have to show how a boundary link variation changes the conjugate normal electric flux of the integrated half-space theory and then prove the required form identity or domination.
+
+The exact OS map first makes an **interface** analysis operator explicit. Let \(\mathcal K_{\rho,I}\) be the Hilbert direct sum of the \(L^2(\nu_{\rho,I})\) derivative components indexed by \((j,A)\), with their natural residual-gauge covariance retained. Assume that the invariant gradient on smooth gauge-invariant interface functions, formed from normalized derivatives \(X_j^A\) on every continuous interface variable, is closable from \(L^2(\nu_{\rho,I})^{\mathrm{GI}}\) to \(\mathcal K_{\rho,I}\). Let \(D_{\rho,I}\) denote its closure, so on the smooth core
+
+$$
+D_{\rho,I}:
+\operatorname{Dom}D_{\rho,I}
+\subset L^2(\nu_{\rho,I})^{\mathrm{GI}}
+\longrightarrow\mathcal K_{\rho,I},
+\qquad
+D_{\rho,I}f
+:=
+\bigl(X_j^Af\bigr)_{j,A},
+\qquad
+\|D_{\rho,I}f\|^2
+=
+\mathcal E_{\rho,I}(f,f),
+$$
+
+and define
+
+$$
+\boxed{
+J_{\mathrm{int},\rho,I}
+:=
+D_{\rho,I}B_\rho^{\mathrm{OS}},
+\qquad
+\operatorname{Dom}J_{\mathrm{int},\rho,I}
+=
+(B_\rho^{\mathrm{OS}})^{-1}\operatorname{Dom}D_{\rho,I}.}
+\tag{OS7}
+$$
+
+This complex-linear map kills the constant reference line and is sensitive to complex phase directions that a probability-density tangent can miss. At the prequotient level, \(D_{\rho,I}b_\rho\) vanishes on \(\mathcal N_{\mathrm{OS}}=\ker b_\rho\), so it descends to the OS quotient; the later derivative may have an additional kernel. It is not yet known to be complete on the reference complement: that would require, in particular, \(\ker D_{\rho,I}=\mathbb C1\) on every relevant connected or gauge-reduced component. Its norm is the declared interface coordinate form; it is not automatically the spatial electric-flux form.
+
+To make that latter identification, require one more geometric input: the separator must be identifiable with the canonical transfer slice \(\Sigma\), its infinite-depth marginal must be
+
+$$
+\nu_{\rho,I}
+=
+\nu_{\rho,L}
+=
+\psi_{0,\rho,L}^2\mu_{\mathrm{Haar}},
+$$
+
+and its derivative metric must be the Kogut--Susskind link metric. Only in this specialization may one write
+
+$$
+D_{\rho,I}=D_{\rho,L},
+\qquad
+J_{\mathrm{int},\rho,I}=J_{\mathrm{flux},\rho,L}.
+$$
+
+For a genuinely thick interface, an additional domain-compatible map \(C_{\rho,I\to\Sigma}\) from interface data to the canonical slice is required before composing with \(D_{\rho,L}\); conditional expectation alone does not supply it.
+
+In the canonical-slice, infinite-depth specialization, define the boundary-to-canonical-carrier unitary
+
+$$
+U_{0,\rho}:
+L^2(\nu_{\rho,L})^{\mathrm{GI}}
+\longrightarrow
+L^2(\mu_{\mathrm{Haar}})^{\mathrm{GI}},
+\qquad
+(U_{0,\rho}f)(U):=\psi_{0,\rho,L}(U)f(U),
+$$
+
+and \(\mathcal U_\rho^{\mathrm{OS}\to\mathrm{Sch}}:=U_{0,\rho}B_\rho^{\mathrm{OS}}\). If the Kogut--Susskind Hamiltonian acts on the target canonical carrier, transport it rather than silently letting it act on \(\mathcal H_{\mathrm{OS}}\):
+
+$$
+H_{\mathrm{KS},\rho,L}^{\mathrm{OS}}
+:=
+(\mathcal U_\rho^{\mathrm{OS}\to\mathrm{Sch}})^{-1}
+H_{\mathrm{KS},\rho,L}
+\mathcal U_\rho^{\mathrm{OS}\to\mathrm{Sch}}.
+$$
+
+Its centered closed quadratic form is
+
+$$
+h_{\mathrm{KS},\rho,L}^{\mathrm{OS}}[\Psi]
+:=
+\left\|
+(H_{\mathrm{KS},\rho,L}^{\mathrm{OS}}-E_{0,\rho,L})^{1/2}\Psi
+\right\|_{\mathcal H_{\mathrm{OS}}}^2
+$$
+
+on the transported form domain.
+
+Suppose now that its kinetic term is exactly the normalized invariant-link Laplacian with coefficient \(\kappa_\rho\), that \(\psi_{0,\rho,L}\) is its positive ground state, and that the ground-state transform carries the full form domain to the declared coordinate-form domain. Then integration by parts gives the same-carrier identity
+
+$$
+h_{\mathrm{KS},\rho,L}^{\mathrm{OS}}[\Psi]
+=
+\kappa_\rho
+\|J_{\mathrm{flux},\rho,L}\Psi\|^2.
+\tag{OS8}
+$$
+
+The coincidence of a vacuum vector and an invariant metric alone would not establish this intertwining or form identity. For the isotropic Wilson transfer Hamiltonian \(H_{T,\rho}=-(\hbar/a_\tau)\log T_\rho\), similarly set
+
+$$
+H_{T,\rho,L}^{\mathrm{OS}}
+:=
+(\mathcal U_\rho^{\mathrm{OS}\to\mathrm{Sch}})^{-1}
+H_{T,\rho,L}
+\mathcal U_\rho^{\mathrm{OS}\to\mathrm{Sch}}
+$$
+
+when the carriers and vacuum preparation have been identified, and define
+
+$$
+h_{T,\rho,L}^{\mathrm{OS}}[\Psi]
+:=
+\left\|
+(H_{T,\rho,L}^{\mathrm{OS}}-E_{0,T,\rho,L})^{1/2}\Psi
+\right\|^2
+$$
+
+on its transported form domain. Equation (OS8) is not automatic for this transfer generator. The required statement is the domain inclusion
+
+$$
+\operatorname{Dom}h_{T,\rho,L}^{\mathrm{OS}}
+\subseteq
+\operatorname{Dom}J_{\mathrm{flux},\rho,L}
+$$
+
+together with an independently proved form solder
+
+$$
+h_{T,\rho,L}^{\mathrm{OS}}[\Psi]
+\geq
+\epsilon_\rho
+\|J_{\mathrm{flux},\rho,L}\Psi\|^2,
+\qquad
+\Psi\in
+\operatorname{Dom}h_{T,\rho,L}^{\mathrm{OS}},
+\tag{OS9}
+$$
+
+or a controlled temporal-continuum theorem identifying the transfer and Kogut--Susskind forms. The stated reflection-interface hypotheses construct \(B_\rho^{\mathrm{OS}}\); reflection positivity by itself proves neither that factorization, the interface-to-slice identification, nor (OS9).
 
 ## A direct route that does not require a local boundary action
 
@@ -703,9 +970,11 @@ $$
 
 The boundary perspective turns the open mechanism into a specific chain.
 
-**B1. Construct the half-space carrier.** For every finite \((\rho,L,n_\tau)\), construct the gauge-reduced boundary configuration carrier, reference Haar measure, reflection-positive transfer system, and normalized finite-slab amplitude without using a spectral-gap assumption. Then control the limit \(n_\tau\to\infty\) that prepares the half-space vacuum amplitude.
+**B1. Construct the half-space carrier.** For every finite \((\rho,L,n_\tau)\), construct the gauge-reduced boundary configuration carrier, a reflection-Markov separator carrying every crossing interaction, reference Haar measure, reflection-positive transfer system, and normalized finite-slab amplitude without using a spectral-gap assumption. For the untwisted \(L^2\) factorization, prove that reflection fixes the separator after residual gauge reduction; on a periodic cylinder include every separating cut. Then control the limit \(n_\tau\to\infty\) that prepares the half-space vacuum amplitude.
 
-**B2. Identify the gluing residue.** Prove that gluing prepares \(\nu_{\rho,L}=e^{-W_{\rho,L}}\mu_{\mathrm{Haar}}\). Then prove that multiplication \(U_0f=\psi_{0,\rho,L}f\) is the unitary intertwining its weighted \(L^2\) carrier and form with the centered physical Hamiltonian carrier and form.
+**B2. Identify the gluing residue and quotient map.** Use reflection-Markov factorization to prove that conditional expectation onto the interface descends to the unitary \(B_\rho^{\mathrm{OS}}:\mathcal H_{\mathrm{OS}}\to L^2(\nu_{\rho,I})^{\mathrm{GI}}\), with the OS null subspace exactly its kernel before quotienting and exact coverage on the complement of the distinguished reference vector. Do not call that vector the complete vacuum or identify this interface carrier with a one-slice link carrier by notation alone.
+
+**B2a. Reach the canonical transfer slice.** Either choose a reflection geometry for which \(I=\Sigma\) is the canonical transfer slice, or construct a domain-compatible interface-to-slice map \(C_{\rho,I\to\Sigma}\). Prove that infinite-depth gluing prepares \(\nu_{\rho,L}=e^{-W_{\rho,L}}\mu_{\mathrm{Haar}}\), rather than identifying a finite periodic marginal with that limit. Then prove that multiplication \(U_0f=\psi_{0,\rho,L}f\) is the unitary intertwining this weighted slice carrier and form with the centered transfer-Hamiltonian carrier and form.
 
 **B3. Control the response without circularity.** Preferably prove a bulk Poincare or logarithmic-Sobolev inequality uniform in volume, temporal depth, and boundary conditions, and pass it to the slice marginal. Alternatively, for a fixed physical block size, prove uniform conditional Poincare bounds for \(\nu_{\rho,L}\) and a subcritical block-influence estimate. Either route must follow from the bulk action, reflection positivity, gauge geometry, and renormalization estimates—not from assumed exponential clustering or an assumed Hamiltonian gap.
 
@@ -714,16 +983,37 @@ The boundary perspective turns the open mechanism into a specific chain.
 $$
 \widetilde h_{\rho,L}[f]
 :=
-\left\langle
-\psi_{0,\rho,L}f,
-(H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})\psi_{0,\rho,L}f
-\right\rangle,
+\left\|
+(H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})^{1/2}
+(\psi_{0,\rho,L}f)
+\right\|^2,
+\qquad
+D(\widetilde h_{\rho,L})
+:=
+\left\{
+f:
+\psi_{0,\rho,L}f
+\in
+D\!\left((H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})^{1/2}\right)
+\right\},
 $$
 
-require, for every gauge-invariant centered
+Require first that
 
 $$
-f\in D(\widetilde h_{\rho,L})\cap D(\mathcal E_{\rho,L}),
+\ker(H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})
+=
+\mathbb C\psi_{0,\rho,L},
+\qquad
+D(\widetilde h_{\rho,L})
+\subseteq
+D(\mathcal E_{\rho,L}),
+$$
+
+so centering against \(\nu_{\rho,L}\) is exactly orthogonality to the complete physical vacuum line and the response form is defined throughout the pulled-back physical form domain. Then, for every gauge-invariant
+
+$$
+f\in D(\widetilde h_{\rho,L}),
 \qquad
 \int f\,\mathrm d\nu_{\rho,L}=0,
 $$
@@ -810,10 +1100,12 @@ This is the Schrödinger stopping rule from the operator-signature verdict, spec
 |---|---|
 | Exact under finite-regulator hypotheses | with a disintegrable measure and cutting-compatible action/measure, bulk restriction has boundary-condition fibers and fiber integration/gluing produce boundary amplitudes and states |
 | Exact, abstract | a compact positivity-improving self-adjoint transfer operator prepares \(\psi_0\), and two-sided gluing converges in total variation to \(\psi_0^2\mu\) |
+| Exact under reflection-interface hypotheses | conditional expectation onto a reflection-fixed Markov separator factors the OS form; after quotient completion and dense interface insertions it gives a unitary \(B_\rho^{\mathrm{OS}}\) with reference-complement coverage one, and a closable interface derivative gives a complex-linear, phase-sensitive analysis map; calling the reference vector the unique vacuum or the derivative complete requires additional theorems |
 | Exact, Gaussian | the half-space Dirichlet-to-Neumann operator is \(\Omega\), the glued logarithmic Hessian is \(2\Omega/\hbar\), and kinetic solder returns the gap \(\hbar\omega_{\min}\) |
 | Standard, finite lattice | reflection-positive Wilson gauge theory admits a positive transfer construction; temporal boundary amplitudes are Schrodinger functionals |
 | Exact, finite transfer regulator | the glued vacuum measure is the carrier of the ground-state transform for \(H_T=-(\hbar/a_\tau)\log T\) |
 | Conditional identification | this is the Kogut--Susskind flux form only for a semigroup built from \(H_{\mathrm{KS}}\), or after a controlled Hamiltonian limit and form comparison |
+| Carrier firewall | a thick OS separator is not automatically the canonical transfer slice; identifying its derivative with electric flux requires a special reflection geometry or a domain-compatible interface-to-slice map |
 | Exact marginal theorem | a bulk Poincare or logarithmic-Sobolev inequality for a product carré du champ passes to a coordinate marginal equipped with its inherited coordinate form |
 | Interpretation | the boundary effective action is a precise candidate for a wall residue; a causal-charge interpretation additionally requires a common continuous action, a normalized generator, a moment map or covariant boundary charge, and a proved flux law |
 | Typed no-go | a torsor, strict descent, finite outcome algebra, OS quotient, transfer contraction, and mass gap are not the same construction |

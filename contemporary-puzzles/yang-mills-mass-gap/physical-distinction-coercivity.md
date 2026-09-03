@@ -429,6 +429,10 @@ $$
 \end{aligned}}
 $$
 
+[[paired-scale-filtrations-and-the-invariant-incidence-wall]] extracts an exact address operator from this shell grammar. One resolution tower whose addresses are unbounded above produces a gapless inverse-scale operator, so stopping a single filtration cannot explain mass. Two cross-commuting filtrations instead produce a joint incidence support; a positive floor for their invariant product is equivalent to a diagonal ceiling on the mean shell address. This theorem does not replace the Hamiltonian estimate displayed above. It identifies the algebraic obstruction that must be generated before a separate same-carrier solder can compare the dimensionless incidence operator with the reconstructed Poincare Casimir.
+
+[[compensated-incidence-response-and-four-dimensional-balance]] identifies the exact alternative when the form does not impose a hard support ceiling. If the joint shells reduce a positive response form with bottom coefficients \(\rho_{r,jk}\), then its pullback through the inverse-scale presentation has coefficients \(\rho_{r,jk}e^{-2p\overline N_{r,jk}}\). Uniform coercivity is therefore equivalent to a positive infimum of these compensated coefficients. Without shell reduction the target must remain the single closed-form estimate \(\mathfrak R_r[M_{p,r}f]\geq\kappa^2\|f\|^2\); Hilbert-space shell orthogonality does not remove response-form cross-terms. This types the candidate residue cost without assuming that forgotten information, boundary multiplicity, or entropy already carries energy.
+
 This filtration is not strict Grothendieck descent: strict descent glues equivalent local presentations and need not forget anything. It is the project's observational or coarse-graining use of *descent*. Filtration alone supplies no cost; the Hamiltonian form alone supplies no independently useful multiscale decomposition. Their correctly typed composition is a proposed proof architecture, and becomes a physical mechanism only after the filtration itself has an independent selection and realization theorem.
 
 ## The full physical-carrier chain

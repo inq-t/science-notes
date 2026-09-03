@@ -1,0 +1,24 @@
+T=20.054420 MeV: Theta/rho=0.030735278
+T=46.283721 MeV: Theta/rho=0.084509095
+T=100.324050 MeV: Theta/rho=0.093245978
+T=150.038880 MeV: Theta/rho=0.253364091
+T=175.512160 MeV: Theta/rho=0.312383224
+T=200.013840 MeV: Theta/rho=0.290697213
+T=299.129190 MeV: Theta/rho=0.188828882
+Xi(299.129190 -> 46.283721 MeV)=0.396190560
+Xi(150.038880 -> 46.283721 MeV)=0.154845359
+Xi(100.324050 -> 46.283721 MeV)=0.069027761
+Xi(299.129190 -> 20.054420 MeV)=0.456070321
+ideal Bose stationary point: x=m/T=2.302863424
+charged-pion stationary temperature=60.607324 MeV
+grain-temperature x=m_pi/T=3.016127061
+pion trace-shape ratio at grain temperature=0.918648952
+ideal Fermi stationary point: x=m/T=2.453869465
+muon stationary temperature=43.057863 MeV
+muon trace-shape ratio at grain temperature=0.993813846
+radiation-era H(T_g)=1.673584e+03 s^-1
+charged-pion vacuum-decay rate/H(T_g)=2.295241e+04
+PASS: among the seven hard-coded central rows, 46 MeV does not maximize Theta/rho.
+PASS: in the hard-coded charged-pion ideal-gas model, the normalized shape at T_g is 0.918648952 of its bracketed stationary maximum.
+PASS: the muon negative control is even closer to its generic thermal shoulder.
+PASS: generic charged-pion decay is far faster than expansion at T_g.

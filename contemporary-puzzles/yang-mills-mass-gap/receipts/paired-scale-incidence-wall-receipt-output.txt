@@ -1,0 +1,7 @@
+finite joint-shell incidence and diagonal wall: passed
+gapless one-sided limit with fixed joint floor: passed
+reciprocal shell shift preserves mean address: passed
+noncommuting shell products are not joint projections: passed
+terminal-tail intersection is weaker than vacuum-complete tails: passed
+all-direction null-pair minimum equals the Casimir: passed
+no physical filtration, Casimir solder, or Yang--Mills gap is tested

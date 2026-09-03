@@ -111,6 +111,8 @@ For a fixed Schwarzschild areal radius \(R\), \(2GM/(Rc^2)=1\) and \(S_{\mathrm{
 
 **Kill condition.** A proposed gap fails if it infers a positive energy floor from an entropy maximum, area law, horizon, or Unruh/Hawking temperature without a full-carrier lower bound and a same-carrier clock-energy comparison. Choosing the region radius from the desired correlation length is circular.
 
+The same warning applies to scale compensation. [[compensated-incidence-response-and-four-dimensional-balance]] proves that an independently derived response can compensate a gapless inverse-scale presentation, but boundary multiplicity is not the response spectrum. The number of channels can grow like area while all of them miss one normalized tangent. A valid argument must prove a lower-frame or closed-range estimate on the complete physical carrier; setting the response equal to the inverse square of the presentation simply writes the desired conclusion into the operator.
+
 ## A lower-dimensional structural analogue
 
 **[STANDARD -- non-rigorous calculation, lattice-corroborated]** In \(2+1\) dimensions Karabali and Nair pass from the connection to a gauge-invariant matrix variable; the Jacobian of that change of variables is \(e^{2c_A S_{\mathrm{WZW}}}\), where \(c_A\) is the adjoint Casimir and \(2c_A\) is the level of the hermitian WZW action the change of variables induces. In their approximation this measure factor helps make the vacuum wavefunctional normalizable and produces a mass parameter

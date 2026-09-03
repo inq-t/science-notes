@@ -1,0 +1,7 @@
+resolvent odds and forced logistic rate: passed
+scale normalization, moments, entropy, and Fisher constants: passed
+normalized signed scale-detail window: passed
+finite diagonal scale-frame isometry: passed
+gapless spectra translate centers without changing shape: passed
+reciprocal causal centers have invariant mean: passed
+no Yang--Mills operator selection, Casimir solder, or mass gap is tested

@@ -8,7 +8,7 @@ inq.ambient:
 ---
 # Causal-Grain Cosmology: From Scale Response to the Acoustic Sky
 
-The five-day search for a causal grain produced one unusually economical possibility. Given the imported Einstein/Bekenstein--Hawking area normalization, a literal spherical bulk-cell ansatz, common-count saturation, the two unit principles fixing \(s_*=1\), the proposed wall-to-area identification \(\gamma=2\), and a supplied crossing address \(R_c\), the programme conditionally fixes \(\lambda_*^3=(8/3)\ell_P^2R_c\); the logarithmic depth of that relation then lies almost exactly three units below the observed CMB acoustic count. The common-count law and its discrete coefficient were obtained before the acoustic-angle comparison, so that target did not manufacture them, although the displayed \(4.264\,\mathrm{fm}\) value uses a CMB-conditioned crossing rate. The proposed cubic relation is nevertheless a post-search conjecture, not yet independent evidence: its CMB-conditioned form is in-sample, while its combined chiral-acoustic form is free of CMB and cosmological inputs after cancellation but was constructed after the acoustic target was inspected. The first frozen likelihood transfer now shows that the economical CH0 branch can remove one continuous acoustic coordinate with \(\Delta\chi^2<0.34\) across fresh Planck and ACT TT/TE/EE fits. What has been found is a compact, falsifiable, statistically viable candidate for explaining one common acoustic ruler from fewer inputs—not yet a derivation of the full CMB spectrum or of \(G\).
+The five-day search for a causal grain produced one unusually economical possibility. Given the imported Einstein/Bekenstein--Hawking area normalization, a literal spherical bulk-cell ansatz, common-count saturation, the two unit principles fixing \(s_*=1\), the proposed wall-to-area identification \(\gamma=2\), and a supplied crossing address \(R_c\), the programme conditionally fixes \(\lambda_*^3=(8/3)\ell_P^2R_c\); the logarithmic depth of that relation then lies almost exactly three units below the observed CMB acoustic count. The common-count law and its discrete coefficient were obtained before the acoustic-angle comparison, so that target did not manufacture them, although the displayed \(4.264\,\mathrm{fm}\) value uses a CMB-conditioned crossing rate. This ordering does not make the branch QCD-blind: the earlier \(a=1\) monomial branch was explicitly introduced as “Fossil Weinberg” in a visible chiral/QCD-scale window, and \(\gamma=2\) was selected only after the broad matter-ruler window had appeared. The proposed cubic relation is nevertheless a post-search conjecture, not yet independent evidence: its CMB-conditioned form is in-sample, while its combined chiral-acoustic form cancels the CMB-fitted and cosmological continuous parameters but retains measured \(G\) and chiral laboratory inputs and was constructed after the acoustic target was inspected. The first frozen likelihood transfer now shows that the economical CH0 branch can remove one continuous acoustic coordinate with \(\Delta\chi^2<0.34\) across newly run Planck and ACT TT/TE/EE fits. What has been found is a compact, falsifiable, statistically viable candidate for explaining one CMB acoustic-angle coordinate from fewer inputs—not yet a derivation of the full CMB spectrum or of \(G\).
 
 ## The find in one line
 
@@ -38,7 +38,7 @@ The first double arrow is an exact deduction from declared closure clauses. The 
 
 The repository trail is more informative backward than forward because each prior note explains one factor in the final coefficient. The raw `inbox/causal-grain-cmb-spectroscopy/repository-genealogy.md` owns the detailed claim-by-claim inheritance; the chain below gives its argumentative line.
 
-### The canonical grain is a common count
+### The canonical metric grain is a common-count scale
 
 The canonical [[the-grain-of-causal-scale/inq|grain module]] begins from an areal ledger and an effective bulk-cell ledger at the selected crossing:
 
@@ -63,7 +63,7 @@ $$
 }
 $$
 
-This is not dimensional analysis alone. Dimensional analysis permits a cubic UV/IR mixture; the common-count hypothesis fixes which two ledgers are being equated and supplies the coefficient. The earlier `inbox/the-ledger-level/the-ledger-level.md` note is where the horizon-area count was first reread as a Hubble-bulk correlation count rather than merely as the familiar \(10^{122}\) hierarchy.
+This is not dimensional analysis alone. Dimensional analysis permits a cubic UV/IR mixture; the common-count hypothesis fixes which two ledgers are being equated and supplies the coefficient. At this stage \(\lambda_*\) is an effective common-count cell scale supplied by the declared bulk-cell ansatz. Calling it a microscopic correlation length, pole length, particle radius, or cutoff would require a separate two-point or carrier theorem. The earlier `inbox/the-ledger-level/the-ledger-level.md` note is where the horizon-area count was first reread as a Hubble-bulk correlation count rather than merely as the familiar \(10^{122}\) hierarchy.
 
 ### The denominator three is geometry
 
@@ -128,7 +128,7 @@ $$
 \lambda_*^3=4\zeta\ell_P^2R_c,
 $$
 
-and therefore a broad \(40\)--\(63\,\mathrm{MeV}\) matter-ruler window. [[deriving-g-v2/rulers-are-matter|Rulers are matter]] had already made the conceptual demand: an absolute length cannot emerge from scale-free geometry without a physical ruler. The subsequent ledger, carrier, unit-nat, and rank-two notes explained the formerly free \(\zeta\) as
+and therefore a broad \(40\)--\(63\,\mathrm{MeV}\) matter-ruler window. The exponent \(a=1\) in that monomial family was not selected by geometry alone: it was named the “Fossil Weinberg” branch and was already compared with chiral/QCD scales. Thus QCD numbers do not occur in the displayed closure identity, but QCD-scale awareness belongs to its branch-selection provenance. [[deriving-g-v2/rulers-are-matter|Rulers are matter]] had already made the conceptual demand: an absolute length cannot emerge from scale-free geometry without a physical ruler. The subsequent ledger, carrier, unit-nat, and rank-two notes explained the formerly free \(\zeta\) as
 
 $$
 \zeta=\frac{\gamma s_*}{3}=\frac23.
@@ -166,7 +166,7 @@ The early synoptic theories therefore already contained the later ingredients in
 
 ## The five-day path seen forward
 
-The historical sequence matters because it rules out one particularly damaging circularity: the common-count law and its discrete coefficient were not tuned to the acoustic ruler. The numerical grain still used a CMB-conditioned crossing rate.
+The historical sequence matters because it rules out one particularly damaging circularity: the common-count law and its discrete coefficient were not tuned to the CMB acoustic-angle coordinate. The numerical grain still used a CMB-conditioned crossing rate.
 
 | Stage | Repository move | New content |
 |---|---|---|
@@ -198,7 +198,7 @@ The first is naturally groupoidal. The second is semigroup-like and can carry or
 
 Connes' modular parameter is also not ordinary time. For a von Neumann algebra \(M\) and faithful normal state or weight, the state supplies a representative modular flow while the algebra determines its state-independent outer class. Finite matrix algebras have only inner automorphisms, so the finite \(A_2\), Jordan, and complex-slice carriers cannot by themselves carry nontrivial Connes outer time; the programme needs a bridge to an infinite, typically type-III, local observable algebra. [[scale-as-modular-observable/inq|Scale as a modular observable]] and `inbox/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension.md` separate this reversible algebraic flow from positive causal order, record order, scale-age, conformal time, and proper duration. The constant \(c\) then solders length and time readings inside a realized Lorentzian frame; it does not create the prior order.
 
-Continuous scale cannot by itself contain a smallest step. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] proves why a nontrivial continuous character has no canonical least positive interval. The grain must therefore enter through a discrete support jump, index, wall crossing, record, or other noninvertible realization event. Its metric length is a later image:
+Continuous scale cannot by itself contain a smallest step. [[basic-concepts/soldering/continuous-character-no-go|The continuous-character no-go]] proves why a nontrivial continuous character has no canonical least positive interval. On the stronger causal-spectrum interpretation, the grain is proposed to enter through a discrete support jump, index, wall crossing, record, or other noninvertible realization event. This is not a consequence of the common-count lemma. Its metric length would be a later image:
 
 $$
 \boxed{
@@ -227,7 +227,7 @@ $$
 The fact that \(H_c\) has type \(T^{-1}\) makes \(H_c\Delta\tau\) dimensionless. Interpreting that product as a logarithmic scale increment requires the declared FLRW solder
 
 $$
-\mathrm dN=H\,\mathrm d\tau.
+\mathrm dN=H_{\mathrm{FLRW}}\,\mathrm d\tau.
 $$
 
 The unit-free object is not the femtometre value but the relative scale
@@ -317,6 +317,14 @@ q_*:=\theta_*^{-1}=\frac{D_M(z_*)}{r_s(z_*)},
 $$
 
 The grain is not the sound horizon. It is a candidate reason why the global geometry and the local resonator share one acoustic count.
+
+[[contemporary-puzzles/yang-mills-mass-gap/causal-grain-as-a-mass-engagement-fossil|The mass-engagement fossil note]] now makes that upstream reading operator-shaped. It asks whether the historically prior primitive wall index can be represented by the newly constructed capacity-relative Fredholm phase and thereby mark an admissibility branch correlated with a scale-indexed coercivity transition for complementary causal distinctions, while each direction separately remains gapless. The Fredholm phase does not generate that coercivity: the probability operator \(A_\nu\) is already coercive for every \(\nu>0\), and the additional relative-Haar zero-mode rule is a declared carrier-selection hypothesis. The identification is conjectural: \(s_*=1\), one primitive logarithmic interval, and a Fredholm index \(+1\) are different typed claims. The historical CMB inbox notation \(\nu(q)=+1\) names that integer wall index; it is not the continuous logistic rate \(\nu\) in \(A_\nu\) and \(B_\nu\). A later full-Casimir solder could supply a stable rest-bearing sector. A separate full-QCD/material realization must then supply baryonic loading and expansion history, whose relational imprint standard acoustic transfer may preserve. [[contemporary-puzzles/yang-mills-mass-gap/pair-annihilation-quotient-and-the-baryon-acoustic-carrier|The baryon pair quotient]] gives one exact standard-physics carrier template: its algebraic complete-annihilation retraction forgets the symmetric baryon--antibaryon load while preserving net baryon number, although finite-rate kinetics need not reach that terminal representative; a QCD mass-per-charge solder then folds the two charge orientations into the same positive loading. Acoustic transfer can retain the survivor magnitude, but not the charge sign or annihilation history, and the template does not construct the grain-to-baryon map. If $46.27\,\mathrm{MeV}$ is retyped as a thermal epoch solely for diagnosis, its present comoving Hubble radius is about $1.75\,\mathrm{pc}$, so the comoving scale later identified with the $147.09\,\mathrm{Mpc}$ drag ruler was super-Hubble then. This rules out an instantaneous stamp or passive stretching of that parsec scale; it does not rule out sound-horizon accumulation afterward. The same conditional thermal map points instead to a present horizon-reentry frequency near $0.9\,\mathrm{nHz}$, without identifying the plasma energy with a wave quantum. Whole-state selection, constitutive history, an active source, a scale characteristic, and a representation transition remain distinct candidate fossil routes. [[contemporary-puzzles/yang-mills-mass-gap/trace-residue-as-a-scale-cocycle|The trace-residue cocycle]] isolates an exact dimensionless interval functional available after such a material realization. It is not itself the BAO fossil: BAO applies a different, epoch-weighted, many-to-one transfer functional to the history.
+
+[[contemporary-puzzles/yang-mills-mass-gap/wall-crossing-defect-and-the-fossil-of-mass-engagement|The wall-crossing defect]] supplies the sharp event test. If \(J_\sigma\) realizes a pre-wall carrier inside a post-wall carrier, then \(\mathfrak D_\sigma=J_\sigma'+J_\sigma A_--A_+J_\sigma\) is the failure of realization to intertwine the two scale evolutions. A zero defect makes the declared terminal-state composite independent of wall placement, without proving that a noninvertible \(J_\sigma\) is reversible; a nonzero defect yields a first-order fossil only if its evolved action survives the finite observable and nuisance kernels. This distinguishes carrier engagement, post-wall Casimir coercivity, and observable memory as three separate proof obligations.
+
+Two provenance firewalls remain load bearing. First, the displayed absolute grain uses measured \(G\) and the separately supplied, fixed-physical-density, CMB-distance-conditioned value \(H_c=83.1058\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\). The values \(z_c=0.296\) and \(z_c\simeq0.3418\) belong respectively to a flat-\(\Lambda\)CDM equal-partition bookkeeping cut and the CST-B2 unit-root benchmark; they are not an uncertainty interval, do not by themselves determine \(R_c=c/H_c\), and are not early mass-generation dates. Relating any of these late-time addresses to an early stable rest-bearing realization requires a new transport theorem. Second, the frozen empirical result here is an inverse CMB acoustic-angle and TT/TE/EE transfer test, not an independent galaxy-BAO prediction. The common acoustic origin makes BAO a natural prospective external-validation fossil channel, but it is genuinely held out only after a specific statistic, mapping, nuisance treatment, and data release are frozen; no shell-casing match has yet been earned from \(D_M/r_d\) or \(D_H/r_d\). The separate [[causal-scale-theory/data-consistency|DESI BAO-plus-supernova CST test]] profiles \(A=c/(H_0r_d)\) and tests the late-time background shape; it does not test \(\lambda_*\), \(\Sigma_c\), or the grain characteristic.
+
+The word *fossil* also names two different constructions. [[crossing-evaluated-flat-modulus/inq|The original calibration fossil]] is a scalar on a whole cosmological solution, evaluated at one distinguished event and pulled back constantly to its cuts; it is not an early object carried forward. [[contemporary-puzzles/yang-mills-mass-gap/causal-grain-as-a-mass-engagement-fossil|The mass-engagement proposal]] instead asks for a transport fossil: a class produced by a pre-clock carrier transition whose later constitutive image remains observable. The trace-residue cocycle sits between these registers as an intermediate material-history functional; it is neither the calibration fossil nor the final observable image. Showing that one construction supplies all three records is an open wall-to-history theorem, not part of the numerical acoustic result.
 
 ## The equation that snapped into place
 
@@ -498,7 +506,7 @@ The answer to “does this fit the data with fewer free parameters?” is now pr
 | CMB-conditioned acoustic cubic | extremely close in-sample reconstruction | Planck-informed \(H_c\), Planck acoustic angle, post-search discrete choices |
 | minimal chiral acoustic oracle | zero CMB-fitted continuous parameters; about \(0.38\) quoted Planck \(\sigma\) from the central acoustic angle | \(G\), frozen \(F_\pi^\chi\), common-count and acoustic welds |
 | pion-midpoint acoustic oracle | still closer central postdiction | the preceding inputs plus charged-pion pole, divisor-three, and midpoint choices |
-| frozen CH0-selected package transfer | negligible \(\Delta\chi^2\) in fresh Planck Plik-lite and ACT TT/TE/EE; nominal one-parameter \(\Delta\mathrm{AIC}\) favors the constraint | standard flat-\(\Lambda\)CDM Einstein--Boltzmann transfer, unchanged nuisance treatments, frozen package |
+| frozen CH0-selected package transfer | negligible \(\Delta\chi^2\) in newly run Planck Plik-lite and ACT TT/TE/EE transfers; nominal one-parameter \(\Delta\mathrm{AIC}\) favors the constraint | standard flat-\(\Lambda\)CDM Einstein--Boltzmann transfer, unchanged nuisance treatments, frozen package |
 | full TT/TE/EE explanation | not yet performed | requires a complete primordial state and transfer calculation |
 
 The present candidate predicts **one compressed acoustic scalar**, \(q_*\). In base flat \(\Lambda\)CDM, the six usual cosmological parameters include an acoustic-scale coordinate. [[causal-grain-cosmology/cmb-likelihood-test|The first frozen likelihood test]] now replaces the physical \(\theta_*\), not the approximate \(\theta_{\mathrm{MC}}\), inside paired Planck and ACT TT/TE/EE transfers. The continuous base freedom falls from six to five. Nuisance treatment is unchanged within each pair: ACT retains its explicit calibration coordinates, while Planck Plik-lite retains the same covariance in which the high-\(\ell\) nuisance sector was already marginalized.
@@ -522,7 +530,7 @@ The candidate should now be frozen in its most economical form and tested in thi
 6. reserve at least one genuinely uninspected polarization, BAO, lensing, or future acoustic determination as the holdout; and
 7. forbid branch switching between the economical chiral prescription and the closer pion-midpoint prescription after unblinding.
 
-Step 5 has now been partially executed in two transparent spectrum-transfer likelihoods and approximated for the official full Planck stack through its archived chain geometry. The fresh Planck fit omits low-\(\ell\), the lensing likelihood, and explicit Plik nuisances; ACT has no separate lensing likelihood; and the full Planck result remains a Gaussian surrogate rather than a constrained minimization. Step 6 remains entirely open: ACT is an independent instrument but was already known to the search, so it is a cross-instrument consistency check rather than a blind holdout.
+Step 5 has now been partially executed in two transparent spectrum-transfer likelihoods and approximated for the official full Planck stack through its archived chain geometry. The newly run Planck fit omits low-\(\ell\), the lensing likelihood, and explicit Plik nuisances; ACT has no separate lensing likelihood; and the full Planck result remains a Gaussian surrogate rather than a constrained minimization. Step 6 remains entirely open: ACT is an independent instrument but was already known to the search, so it is a cross-instrument consistency check rather than a blind holdout.
 
 A compact theorem target is
 
@@ -536,16 +544,16 @@ $$
 A stronger hot-history map must return
 
 $$
-(H,R,\dot\kappa,\mathcal P_\zeta,\ldots)
+(H_{\mathrm{FLRW}},R_b,\dot\tau_{\mathrm{opt}},\mathcal P_\zeta,\ldots)
 $$
 
-so that the same law predicts the acoustic ruler, peak phases, amplitudes, damping, and polarization rather than only their common count. `inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry.md` and [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] state those recovery obligations.
+so that the same law predicts the recombination ruler \(r_s(z_*)\), peak phases, amplitudes, damping, and polarization—and, through a separately propagated drag history, the BAO ruler \(r_d=r_s(z_d)\)—rather than only the CMB acoustic count. `inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry.md` and [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] state those recovery obligations.
 
-The proposal fails if the wall construction does not select rank two, if the unit response does not become a primitive logarithmic interval, if the acoustic characteristic must be retuned across data sets, if an independently fixed chiral grain misses a held-out acoustic ruler, or if the full spectra require unrelated phase corrections that destroy the claimed common origin.
+The proposed descendant map fails if the wall construction does not select rank two, if the unit response does not become a primitive logarithmic interval, if the acoustic characteristic must be retuned across data sets, if an independently fixed chiral grain misses a prospectively frozen CMB acoustic-angle coordinate, or if the full spectra require unrelated phase corrections that falsify the claimed shared-descendant transfer model. Failure of that map would not by itself refute every possible upstream grain ontology.
 
 ## The present verdict
 
-The spectacular part is real but specific. A conditional grain constructed while investigating gravity, scale, and cosmic acceleration unexpectedly organizes the CMB's dimensionless acoustic ruler through the same small structural numbers \(1\), \(2\), \(3\), and \(8/3\). The exact direct-ruler route failed, and that failure exposed the deeper variable: not an absolute femtometre length, but the logarithmic ratio of the causal grain to the size of its cosmic realization.
+The spectacular part is real but specific. A conditional grain constructed while investigating gravity, scale, and cosmic acceleration unexpectedly organizes the CMB's dimensionless acoustic count through the same small structural numbers \(1\), \(2\), \(3\), and \(8/3\). The exact direct-ruler route failed, and that failure exposed the deeper acoustic variable \(\Sigma_c=\log(R_c/\lambda_*)\): not an absolute femtometre ruler carried into the sky, but the logarithmic relation between one common-count calibration and the size of its cosmic realization. The more primitive grain remains the oriented realization together with its scale valuation; identifying that class with either the calibrated \(\lambda_*\) or a transported acoustic fossil requires a separate map.
 
 The most charitable defensible reading is therefore:
 

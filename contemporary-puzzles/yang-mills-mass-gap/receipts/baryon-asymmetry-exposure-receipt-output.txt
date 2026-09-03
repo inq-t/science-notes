@@ -1,0 +1,13 @@
+diagnostic Y_B=8.700e-11
+at T_g=46.274705 MeV: g_*s=14.011828
+at T_g: sinh(mu_B/T)=0.006824909
+at T_g: baryon pointing=0.006824750
+at T_g: binary complement=0.999953423
+at T_g: n_antibaryon/n_baryon=0.986443024
+balanced-exposure interpolation root=36.578314 MeV (report only as about 36.6 MeV)
+at balance: sinh(mu_B/T)=1.000000000
+at balance: baryon pointing=0.707106781
+at balance: binary complement=0.500000000
+at balance: n_antibaryon/n_baryon=0.171572875
+PASS: pair exposure obeys the exact binary complement identity.
+PASS: in the declared ideal-nucleon/interpolation model, the u=1 balance temperature differs from the conditionally retyped grain temperature.
