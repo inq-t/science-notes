@@ -17,6 +17,8 @@ The word *gauge* can hide four mathematically different relations:
 
 The Doplicher--Roberts compact group reconstructs global internal symmetry from superselection data. It does not turn the local gauge redundancy of a Yang--Mills connection into a finite-index quotient. Likewise, a finite-index Q-system can encode a finite collection of charged sectors without being the inclusion between all fields and all \(SU(N)\)-invariant observables.
 
+Nor may this reconstruction be used circularly to generate the gap. If the physical justification of the DHR localization and sector hypotheses has already excluded infrared or long-range sectors by massive-particle assumptions, the reconstructed compact group organizes that supplied sector structure; it does not prove the vacuum mass floor on which the application relied.
+
 ## Exact no-go for the full continuous fixed-point route
 
 Let a compact group \(G\) act faithfully and minimally on a factor \(\mathcal M\) with separable predual, and put

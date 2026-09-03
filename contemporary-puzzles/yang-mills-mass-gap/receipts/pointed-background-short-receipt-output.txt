@@ -1,0 +1,10 @@
+pointed-background receipt: 1000 KL and 1000 Schur witnesses passed
+KL residue equals expected conditional fibre divergence
+shorted response equals the least whole cost over hidden extensions
+raw forgetting projection vanishes on the retained carrier
+minimum sampled KL residue: 1.978160324746e-02
+maximum KL allocation error: 2.220446049250e-16
+minimum sampled short edge: 2.000007626473e-01
+maximum completed-square error: 3.552713678801e-14
+maximum order-cone error: 0.000000000000e+00
+scope: finite classical/block identities only; no mass-gap theorem

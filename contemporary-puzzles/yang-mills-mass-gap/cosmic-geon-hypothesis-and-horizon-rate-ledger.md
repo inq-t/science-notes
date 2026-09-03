@@ -161,7 +161,7 @@ The defensible claim is therefore not “the cosmos has been proved to be one ge
 
 > Flat FLRW possesses a geon-like self-consistency grammar in which energy, boundary scale, capacity, temperature, and rate are all functions of one cosmological scale section. A deeper theory may explain that ledger as the internal presentation of whole-state confinement, but it must construct rather than assume the comparison.
 
-## A fact requires a relative background
+## The relative background of a Copernican fact
 
 The radical Copernican insight can be stated without first presupposing a spatial whole. Let \(\mathcal A_W\) be a candidate whole-register von Neumann algebra, let \(\mathcal A_O\) be an accessible von Neumann algebra for a context \(O\), and suppose a normal unital inclusion
 
@@ -334,7 +334,7 @@ $$
 S_A=G-BC^{-1}B^*,
 $$
 
-which acts on the retained local distinction and equals its least whole-register cost. The short satisfies (0\leq S_A\leq G): background elimination can expose the residual tangential stiffness but cannot create it from a zero retained block. A mass candidate is therefore a positive lower edge of this shorted response, not the raw fibre, lost entropy, or forgetting projection.
+which acts on the retained local distinction and equals its least whole-register cost. The short satisfies \(0\leq S_A\leq G\): background elimination can expose the residual tangential stiffness but cannot create it from a zero retained block. A mass candidate is therefore a positive lower edge of this shorted response, not the raw fibre, lost entropy, or forgetting projection.
 
 The philosophical claim survives in a sharper form:
 
@@ -360,14 +360,14 @@ $$
 \tag{CG14}
 $$
 
-is dimensionless. This is the correct type of observable target for a common-origin proposal. It does not identify the underlying structures: (H) is a logarithmic scale/redshift rate along cosmic time, while (\omega_m) is a phase or Euclidean-attenuation rate on a reconstructed mass sector. A theory must derive the comparison map and specify the epoch rather than equating two quantities merely because both have units of inverse time.
+is dimensionless. This is the correct type of observable target for a common-origin proposal. It does not identify the underlying structures: \(H\) is a logarithmic scale/redshift rate along cosmic time, while \(\omega_m\) is a phase or Euclidean-attenuation rate on a reconstructed mass sector. A theory must derive the comparison map and specify the epoch rather than equating two quantities merely because both have units of inverse time.
 
 The noncircular construction sought by [[mass-as-a-calibrated-distinction-rate]] begins with a dimensionless positive tangential generator \(K_\parallel\) and a canonically normalized composition parameter. It must then construct:
 
 1. a clock solder converting its edge into a frequency;
 2. an action solder converting frequency into energy;
 3. a map covering every physical nonvacuum direction; and
-4. strongly commuting Poincare translation generators with forward-cone joint spectrum; and
+4. strongly commuting Poincare translation generators with forward-cone joint spectrum;
 5. a full-carrier lower bound for their invariant Casimir, together with the theorem relating it to the Hamiltonian threshold.
 
 Only after these arrows exist can (CG14) become a prediction rather than a unit conversion. A cosmological value of \(H\), \(G\), \(c\), or \(\hbar\) cannot be fitted to the desired gap and then advertised as its origin.

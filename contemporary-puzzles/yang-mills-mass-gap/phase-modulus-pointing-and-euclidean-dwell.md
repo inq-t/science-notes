@@ -42,6 +42,8 @@ The obtained fact need not itself have positive entropy: a character can be defi
 
 The vacuum projection in (PMP1) is a distinguished common subspace. Only under vacuum uniqueness, \(P_0=|\Omega\rangle\langle\Omega|\), does it determine one vacuum ray; it is still not an obtained character. Pointing alone cannot imply coercivity: one can have \(\ker H=\mathbb C\Omega\) while \(\sigma(H|_{\mathcal K})\) accumulates at zero. [[pointing-coercivity-and-the-flat-partner-law]] gives an explicit normalizable-pointing counterexample. The gap is not the zero-mode subspace; it is the uniform exclusion, or equivalently the uniform decay rate, on its orthogonal complement.
 
+A pointedness firewall is therefore necessary. A pointed cone obeying \(C\cap(-C)=\{0\}\), a categorical pointed object \((X,x_0)\), a character \(\chi_x\), a vacuum projection \(P_0\), and an obtained fact with a persistent record are five different structures. Each can be useful, but no one of them supplies the other four without explicit maps and additional hypotheses. [[pointed-facts-and-the-shorted-response]] separately distinguishes the visible counterfactual complement of a point from its hidden whole-register antecedent fibre.
+
 ## Mass is not a canonical phase-space coordinate
 
 After positive-energy Poincare reconstruction, the mass-squared operator is the joint invariant
@@ -146,7 +148,7 @@ V_{ij}V_{jk}
 \tag{PMP12}
 $$
 
-Such a law would require an actual cocycle and representation. The stationary Markov witness has trivial cocycle. [[inbox/supplying-complex-numbers/the-necessity-of-i|The raw braid-center exploration]] identifies a possible phase slot, but neither a canonical character nor its normalization; its complex-number pincer is conditional, not a derivation of physical \(i\). More generally, effective descent may erase distinctions without selecting an outcome or producing time. A “residue cost” becomes mathematics only after it is typed as an obstruction class, monodromy, kernel or cokernel, entropy defect, record increment, or positive transfer modulus.
+Such a law would require an actual cocycle and representation. The stationary Markov witness has trivial cocycle. The raw braid-center exploration in inbox/supplying-complex-numbers/the-necessity-of-i.md identifies a possible phase slot, but neither a canonical character nor its normalization; its complex-number pincer is conditional, not a derivation of physical \(i\). More generally, effective descent may erase distinctions without selecting an outcome or producing time. A “residue cost” becomes mathematics only after it is typed as an obstruction class, monodromy, kernel or cokernel, entropy defect, record increment, or positive transfer modulus.
 
 ## Positive return and Born form
 
