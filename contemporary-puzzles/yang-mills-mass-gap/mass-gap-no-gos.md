@@ -20,6 +20,22 @@ The reclassification in [[register-audit]] has positive content only if it forbi
 
 **Consequence for the programme.** Without an independent scale-setting input, the correctly typed target of an algebraic argument is a pure number computed within one convention: \(m_{0^{++}}/\sqrt\sigma\approx3.5\)–\(3.6\) (Lucini--Teper, continuum), \(m_{2^{++}}/m_{0^{++}}\approx1.4\), or a scheme-labelled ratio such as \(m_{0^{++}}/\Lambda_{\overline{\mathrm{MS}}}\). An output in MeV with no such input has mistyped the problem; so has a ratio assembled from two conventions.
 
+### Gravitational-scale corollary
+
+**[EXACT DIMENSIONAL FIREWALL]** Once a mass is known, \(G,c,\hbar\) give the reciprocal presentations
+
+$$
+\ell_G(m)=\frac{Gm}{c^2},
+\qquad
+\lambda_C(m)=\frac{\hbar}{mc},
+\qquad
+\ell_G(m)\lambda_C(m)=\ell_P^2.
+$$
+
+These equations make mass a precise hinge between gravitational response length and reduced-Compton length. They do not derive \(m\). More decisively, the Clay pure Yang--Mills target on Minkowski spacetime contains no Newton coupling. A construction in a larger gravitational theory must recover either an exact decoupled pure-gauge factor or a controlled \(G\to0\) limit with the renormalized gauge scale, gauge-invariant observables, and proposed Yang--Mills gap finite. [[mass-as-casimir-and-realization#Mass in gravitational and quantum length conversions|Mass in gravitational and quantum length conversions]] gives the full geometric typing.
+
+**Kill condition.** A formula that obtains the pure Yang--Mills gap essentially from \(G\) or Planck units, but supplies no gravity-decoupling and Yang--Mills scale-matching theorem, answers a different problem or merely changes units.
+
 ## NG4 — A running grain is dead, and transmutation is a running phenomenon
 
 **[NO-GO — RECEIPT, imported]** [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|The grain-in-every-register note]] shows that if the grain closure were a live law, \(G_{\mathrm{BBN}}/G_0\approx3\times10^{17}\) against a nucleosynthesis bound of \(0.2\). The grain must be a frozen address, evaluated once. Dimensional transmutation, by contrast, is the statement that the coupling runs and the scale is an invariant of that running. The two are different jobs; the grain cannot do the second.
@@ -31,6 +47,50 @@ The reclassification in [[register-audit]] has positive content only if it forbi
 ## NG6 — Retyping does not solve
 
 **[PROGRAMME COMMITMENT]** The gluon-mass category error and the two construction cautions dissolve the appearance of paradox. They do not shorten the proof, produce the estimate, or make the construction exist. [[contemporary-puzzles/dark-energy-and-acceleration/coincidence-reframed|The coincidence note]] states the same discipline for a different puzzle: a problem retyped is not a problem answered. Anyone who reports this module as having explained the mass gap has skipped this section.
+
+## NG7 — Ordinary vacuum local algebras cannot supply the expectation shells
+
+**[EXACT UNDER REEH--SCHLIEDER HYPOTHESES]** Let $\mathcal N\subseteq\mathcal M$ be proper nested local observable algebras in the vacuum representation. Suppose $\Omega$ is cyclic for $\mathcal N$ and separating for $\mathcal M$, as in the standard [[library/remarks-on-unitary-equivalence-of-lorentz-invariant-fields/inq|Reeh--Schlieder]] setting. If a vacuum-preserving conditional expectation $E:\mathcal M\to\mathcal N$ existed, then
+
+$$
+\langle n\Omega,(a-Ea)\Omega\rangle=0
+\qquad(n\in\mathcal N,\ a\in\mathcal M).
+$$
+
+Cyclicity gives $(a-Ea)\Omega=0$, and separation gives $a=Ea$, so $\mathcal N=\mathcal M$, a contradiction. The expectation-shell architecture in [[physical-distinction-coercivity]] must therefore use regulator or RG coarse-graining algebras, a different carrier or state, a controlled nonlocal construction, or inequalities weaker than exact vacuum-preserving expectations. It cannot be obtained by taking the ordinary AQFT region net and reversing its arrows.
+
+**Kill condition.** A purported continuum shell proof that assumes proper vacuum-preserving conditional expectations between ordinary nested local region algebras fails before any energy estimate is attempted.
+
+## NG8 — Descent, forgetting, factivity, and a spectral gap are four arrows
+
+**[EXACT TYPE SEPARATION]** Strict descent glues compatible local presentations and can be an equivalence. A nonfaithful functor or a noninjective quotient, channel, or conditional expectation can forget declared distinctions. A quantum instrument supplies outcome probabilities and conditioned states. An obtained character and its persistent record supply a fact. A closed energy form defines the spectral-gap question; a coercive energy form supplies a positive gap. None of these operations has the same source and target without additional comparison maps.
+
+A torsor illustrates unpointedness, not information destruction: its relative differences are exact, but it has no preferred origin until a point is chosen. Likewise, restricting a state to a finite commutative readout algebra gives a probability vector, not one realized vertex. A conditional-expectation entropy defect can quantify dimensionless lost information, but it neither selects an outcome nor acquires energy units by being called a residue cost. [[causal-frame-coercivity#The factivity bridge: from nowhere in particular to here and now|The factivity bridge]] states the constructive route: the wall process may define the same distinction channels used by the causal frame, after which an independent form inequality must solder them to energy.
+
+**Kill condition.** A mass-gap argument fails if a descent obstruction, noninjective quotient, discrete readout, or obtained fact is itself called a positive Hamiltonian gap without an explicit physical-carrier map and energy-form comparison.
+
+## NG9 — A global vacuum-density ratio is not local mixing
+
+**[EXACT -- FINITE REGULATOR]** On the pure-gauge product-Haar carrier of a finite connected graph containing a cycle, with every vertex gauged, the sharp invariant electric-flux constant is
+
+$$
+\lambda_\Gamma^{\mathrm{GI}}
+=
+g(\Gamma)\lambda_G,
+$$
+
+where $g(\Gamma)$ is graph girth and $\lambda_G$ is the smallest nonzero Casimir permitted by the global form of the compact gauge group in a declared metric convention. For the interacting vacuum measure $\nu_\Gamma=\psi_{0,\Gamma}^2\mu_\Gamma$, elementary bounded-density comparison gives only
+
+$$
+\lambda_{\nu,\Gamma}^{\mathrm{GI}}
+\geq
+g(\Gamma)\lambda_G
+e^{-\operatorname{osc}(-2\log\psi_{0,\Gamma})}.
+$$
+
+The first factor is volume independent, but the global oscillation of the log-density may be extensive. The resulting exponential deterioration is a defect of this proof method, not evidence that the true gap closes: even product measures can have bad global density ratios and uniform Poincare constants. A viable proof needs local conditional or block inequalities and a quantitative mixing estimate, controlled without assuming the target gap.
+
+**Kill condition.** Positivity of the density ratio at every finite regulator does not imply a volume-uniform or continuum gap. A claimed proof fails if it never bounds its comparison factor in fixed physical units uniformly in volume and regulator removal.
 
 ## A lower-dimensional structural analogue
 

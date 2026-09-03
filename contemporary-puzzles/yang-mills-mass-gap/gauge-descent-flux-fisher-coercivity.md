@@ -1,8 +1,8 @@
 # The Yang--Mills Gap as Gauge-Descended Flux Coercivity
 
-At a finite lattice regulator, the Yang--Mills Hamiltonian gap is exactly a Poincare constant of the ground-state-weighted electric-flux form. On the real multiplication sector, its \(L^2\) denominator has an exact classical Fisher-score realization. This turns the philosophical inversion into a theorem: mass is not a substance added to a gauge field, but coercivity of the physical vacuum geometry. The theorem is exact at finite regulator. The unsolved problem is to construct the continuum theory and retain a positive bound in physical renormalization-group units, uniformly in volume and regulator removal.
+At a finite lattice regulator, the Yang--Mills Hamiltonian gap is exactly a Poincare constant of the ground-state-weighted electric-flux form. On a connected pure-gauge graph containing a cycle, compact-group geometry and gauge closure give the sharp dimensionless Haar constant: graph girth times the smallest allowed Casimir. It does not deteriorate with graph volume and is volume independent on fixed-girth families such as ordinary square-plaquette lattices. Comparison with the interacting vacuum yields an explicit but generally volume-degrading bound. Wu's theorem instead gives an exact sufficient local-to-global estimate, assuming uniform conditional Poincare bounds and an influence matrix with spectral radius below one. On the real multiplication sector, the denominator also has an exact classical Fisher-score realization. The unsolved problem is to prove the local vacuum estimates from Yang--Mills dynamics and carry the resulting positive bound through the continuum limit in physical renormalization-group units.
 
-**Status: [EXACT REGULATED THEOREM; OPEN CONTINUUM PROGRAMME].** The ground-state transform below is standard elliptic analysis on a finite product of compact groups. It neither proves existence of four-dimensional continuum Yang--Mills nor supplies the uniform estimate that would prove its mass gap.
+**Status: [EXACT REGULATED, HAAR-FRAME, AND GIRTH--CASIMIR THEOREMS; CONDITIONAL LOCAL-TO-GLOBAL THEOREM; OPEN VACUUM-MIXING AND CONTINUUM PROGRAMME].** The ground-state transform, product-Haar frame, gauge-invariant girth refinement, coordinate-expectation decomposition, and bounded-density comparison below are finite-dimensional functional analysis on products of compact groups. They neither prove existence of four-dimensional continuum Yang--Mills nor supply the regulator-uniform interacting-vacuum hypotheses that would prove its mass gap.
 
 ## The category correction
 
@@ -78,7 +78,7 @@ $$
 
 We assume this carrier has nonconstant vectors, as it does when the cell complex contains a nontrivial loop sector. On a tree with the full vertex gauge group, the invariant carrier can collapse to the constants, in which case there is no first physical excitation to estimate.
 
-For an orthonormal Lie-algebra basis indexed by \(A\), let \(X_e^A\) be the corresponding invariant vector field on the copy of \(SU(3)\) assigned to edge \(e\). The electric-flux Laplacian is
+Fix the Lie-algebra metric to be \(-B_{\mathfrak{su}(3)}\), as in the Haar-frame theorem below. For a basis orthonormal in that convention and indexed by \(A\), let \(X_e^A\) be the corresponding invariant vector field on the copy of \(SU(3)\) assigned to edge \(e\). The electric-flux Laplacian is
 
 $$
 K_\Gamma
@@ -244,6 +244,402 @@ $$
 $$
 
 This is stronger conceptually than a dimensional match. It identifies the right carrier, the right norm, the right derivatives, and the right operator.
+
+## A volume-uniform kinematic frame
+
+The interacting vacuum is difficult, but the compact-group carrier already proves a nontrivial frame theorem. Let $G$ be a compact connected simple Lie group. Fix the bi-invariant metric
+
+$$
+\langle X,Y\rangle_K=-B_{\mathfrak g}(X,Y)
+$$
+
+and let $\{T_A\}$ be orthonormal in this convention. If $\pi$ is an irreducible unitary representation, define its Casimir number by
+
+$$
+-\sum_A\mathrm d\pi(T_A)^2=c_K(\pi)I,
+\qquad
+\lambda_G
+:=
+\min_{\substack{\pi\in\widehat G\\\pi\neq\mathbf1}}
+c_K(\pi)>0.
+$$
+
+Only representations that descend to the chosen global form of $G$ enter the minimum. Thus $\lambda_G$ can distinguish two groups with the same Lie algebra. With the metric $-B_{\mathfrak g}$, $c_K(\mathrm{Ad})=1$; another declared metric convention rescales every $c_K(\pi)$.
+
+For a finite edge set $E$, put $\mu_E=\mu_G^{\otimes E}$ and define the dimensionless Haar analysis map
+
+$$
+\mathscr D_E^{\mathrm H}f
+:=
+\bigl(X_e^Af\bigr)_{e,A},
+\qquad
+\|\mathscr D_E^{\mathrm H}f\|^2
+=
+\sum_{e,A}\int_{G^E}|X_e^Af|^2\,\mathrm d\mu_E.
+$$
+
+**Product-Haar flux-frame theorem.** For every $f\in H^1(G^E)$,
+
+$$
+\boxed{
+\|\mathscr D_E^{\mathrm H}f\|^2
+\geq
+\lambda_G\operatorname{Var}_{\mu_E}(f).}
+\tag{Haar-frame}
+$$
+
+The constant is optimal on the full product and independent of $|E|$.
+
+**Proof.** By Peter--Weyl, the positive single-copy Laplacian is diagonal on matrix coefficients with eigenvalues $c_K(\pi)$; [[library/spectra-of-the-laplace-beltrami-operator-on-compact-semisimple-lie-groups/inq|Beers and Millman]] give a primary spectral-geometric treatment. The product Laplacian is the sum of the commuting single-copy Laplacians, so its eigenvalues are finite sums $\sum_ec_K(\pi_e)$. The least nonzero sum is $\lambda_G$. The Rayleigh principle gives the inequality. $\square$
+
+The metric scale is not itself an observable number. Rescaling the invariant metric rescales $\lambda_G$ and the coordinate expression of the kinetic prefactor $\kappa_a$ reciprocally. The product $\kappa_a\lambda_G$, followed by its independently specified renormalization-group comparison, is the typed energy quantity.
+
+## Gauge invariance sharpens the constant to girth times Casimir
+
+Let $\Gamma=(V,E)$ be a finite connected graph, with the full vertex gauge group acting by
+
+$$
+(g\mathbin{\cdot}U)_e
+=
+g_{s(e)}U_eg_{t(e)}^{-1}.
+$$
+
+On the nonconstant gauge-invariant carrier, define
+
+$$
+\lambda_\Gamma^{\mathrm{GI}}
+:=
+\inf_{
+\substack{f\in H^1(G^E)^{G^V}\\f\not\equiv\mathrm{const}}
+}
+\frac{\|\mathscr D_E^{\mathrm H}f\|^2}
+{\operatorname{Var}_{\mu_E}(f)}.
+$$
+
+The spin-network decomposition gives the exact representation-theoretic formula
+
+$$
+\lambda_\Gamma^{\mathrm{GI}}
+=
+\min_{\substack{
+(\pi_e)\neq(\mathbf1)\\
+\operatorname{Inv}_v(\{\pi_e\})\neq0\ \text{for every }v
+}}
+\sum_{e\in E}c_K(\pi_e).
+\tag{spin-network-gap}
+$$
+
+Here $\operatorname{Inv}_v$ is the invariant tensor space obtained from the outgoing representation spaces and the duals of the incoming ones. [[library/spin-network-states-in-gauge-theory/inq|Baez's spin-network basis]] supplies this decomposition on a fixed graph; the following girth identity is a short deduction from it, not a theorem quoted from that paper.
+
+Let $g(\Gamma)$ be the girth of the underlying multigraph, counting a self-loop as a cycle of length one and a pair of parallel edges as a cycle of length two.
+
+**Finite-graph girth--Casimir theorem.** If $\Gamma$ contains a cycle, then
+
+$$
+\boxed{
+\lambda_\Gamma^{\mathrm{GI}}
+=
+g(\Gamma)\lambda_G.}
+\tag{girth-Casimir}
+$$
+
+**Proof.** In a nontrivial spin-network block, the subgraph of nontrivially labelled edges cannot have a degree-one vertex: a single nontrivial irreducible representation has no invariant vector. Every finite nonempty graph of minimum degree at least two contains a cycle. Its support therefore has at least $g(\Gamma)$ nontrivial edges, each contributing at least $\lambda_G$ to (spin-network-gap). This proves the lower bound.
+
+For saturation, choose a shortest cycle $C$ and a representation $\pi_*$ attaining $\lambda_G$. The Wilson character
+
+$$
+f_C(U)
+=
+\chi_{\pi_*}\!\left(
+\prod_{e\in C}U_e^{\varepsilon_e}
+\right)
+$$
+
+is gauge invariant, has Haar mean zero, and is an eigenfunction with eigenvalue $g(\Gamma)c_K(\pi_*)$. This proves the reverse bound. $\square$
+
+Thus a simple pure-gauge hypercubic graph with square plaquettes and no shorter periodic identification has the sharp kinematic constant $4\lambda_G$, independent of its total volume. A tree with every vertex gauged has only constant invariant functions. The saturation argument assumes that every edge on a shortest cycle remains an independent $G$-valued coordinate with product Haar measure. Ungauged boundary vertices, charged endpoints, matter fields, fixed boundary links or holonomy, flatness constraints, and other restrictions of $G^E$ can alter the admissible spin networks and invalidate the girth formula.
+
+For $G=SU(3)$ in the $-B_{\mathfrak{su}(3)}$ convention, the fundamental representation is allowed and
+
+$$
+\lambda_{SU(3)}
+=
+\frac{C_2(\mathbf3)}{C_2(\mathrm{Ad})}
+=
+\frac{4/3}{3}
+=
+\frac49.
+$$
+
+An ordinary plaquette lattice therefore has the exact dimensionless Haar-frame constant
+
+$$
+\boxed{
+g(\Gamma)\lambda_{SU(3)}
+=
+\frac{16}{9}.}
+$$
+
+For the global form $PSU(3)=SU(3)/\mathbb Z_3$, the fundamental representation does not descend; the smallest allowed representation is instead the adjoint in this comparison, giving $\lambda_{PSU(3)}=1$. The number is therefore sensitive to global gauge structure, as it should be. Neither $16/9$ nor $4$ is a mass gap: it is a normalized kinematic frame constant that still requires interacting-vacuum transfer and an energy solder.
+
+This is a genuine closure result, but not yet a knot theorem. The obstruction is the impossibility of a gauge-invariant nontrivial open end, and the relevant topology is the shortest cycle of an abstract graph. It exists in every graph dimension; embedding, linking, and knotting in three-space do no work in this proof. Any specifically three-dimensional knot mechanism must enter through an additional carrier or dynamics.
+
+The individual derivatives $X_e^A$ need not return gauge-invariant functions. Their direct sum is a gauge-covariant response vector whose squared norm is gauge invariant. The analysis operator therefore acts on physical invariant vectors while its response carrier remembers the electric-flux direction.
+
+The weaker product estimate also has an exact coordinate conditional-expectation presentation. For each edge, let
+
+$$
+(\mathsf E_e^{\mathrm H}f)(U_{\neq e})
+:=
+\int_G f(U_{\neq e},u_e)\,\mathrm d\mu_G(u_e).
+$$
+
+On $L^2(\mu_E)$, Haar bi-invariance makes $\mathsf E_e^{\mathrm H}$ an orthogonal state-preserving expectation that sends gauge-invariant functions to gauge-invariant functions. The single-copy Poincare inequality gives
+
+$$
+\|(I-\mathsf E_e^{\mathrm H})f\|_2^2
+\leq
+\frac1{\lambda_G}
+\sum_A\|X_e^Af\|_2^2.
+\tag{local-Haar}
+$$
+
+Choose an ordering $e_1,\ldots,e_m$, set $F_0=I$, and put
+
+$$
+F_j
+:=
+\mathsf E_{e_j}^{\mathrm H}\cdots
+\mathsf E_{e_1}^{\mathrm H},
+\qquad
+D_j:=F_{j-1}-F_j.
+$$
+
+The expectations commute, their ranges form a decreasing filtration, and $F_m$ is expectation to the constants. Hence the $D_j$ are mutually orthogonal and
+
+$$
+\sum_{j=1}^m\|D_jf\|_2^2
+=
+\operatorname{Var}_{\mu_E}(f).
+$$
+
+Because $F_{j-1}$ is a contraction commuting with the $e_j$ expectation, (local-Haar) implies
+
+$$
+\sum_A\|X_{e_j}^Af\|_2^2
+\geq
+\lambda_G\|D_jf\|_2^2.
+$$
+
+Summation recovers (Haar-frame). This is an exact finite model of Haar coordinate omission and flux response. It is not a causal wall, a measurement outcome, or an interacting Yang--Mills vacuum.
+
+## What the interacting vacuum changes
+
+Write the finite-volume vacuum density as
+
+$$
+\rho_\Gamma:=\psi_{0,\Gamma}^2,
+\qquad
+\mathrm d\nu_\Gamma=\rho_\Gamma\,\mathrm d\mu_\Gamma.
+$$
+
+Elliptic positivity and compactness give finite constants
+
+$$
+0<m_\Gamma:=\min\rho_\Gamma
+\leq
+\rho_\Gamma
+\leq
+M_\Gamma:=\max\rho_\Gamma<\infty.
+$$
+
+For every regular $f$,
+
+$$
+\mathcal E_\Gamma(f,f)
+\geq
+m_\Gamma\mathcal E_\Gamma^{\mathrm H}(f,f),
+\qquad
+\operatorname{Var}_{\nu_\Gamma}(f)
+\leq
+M_\Gamma\operatorname{Var}_{\mu_\Gamma}(f).
+$$
+
+Combining these estimates with (Haar-frame) proves
+
+$$
+\mathcal E_\Gamma(f,f)
+\geq
+\lambda_G\frac{m_\Gamma}{M_\Gamma}
+\operatorname{Var}_{\nu_\Gamma}(f).
+$$
+
+For gauge-invariant $f$, (girth-Casimir) sharpens the finite-regulator bound to
+
+$$
+\boxed{
+\mathcal E_\Gamma(f,f)
+\geq
+g(\Gamma)\lambda_G\frac{m_\Gamma}{M_\Gamma}
+\operatorname{Var}_{\nu_\Gamma}(f).}
+\tag{vacuum-comparison}
+$$
+
+If $W_\Gamma=-\log\rho_\Gamma$, then
+
+$$
+\frac{m_\Gamma}{M_\Gamma}
+=
+e^{-\operatorname{osc}W_\Gamma},
+$$
+
+and the ground-state transform yields
+
+$$
+\boxed{
+\Delta_\Gamma
+\geq
+\kappa_a g(\Gamma)\lambda_G
+e^{-\operatorname{osc}W_\Gamma}.}
+\tag{regulated-gap-bound}
+$$
+
+The factors have different types:
+
+- $g(\Gamma)\lambda_G$ is regulator incidence or combinatorics plus compact-group geometry;
+- $W_\Gamma=-2\log\psi_{0,\Gamma}$ and its mixing properties are interacting-vacuum dynamics;
+- $\kappa_a$ and the tuned comparison across regulators provide dimensional calibration; and
+- a factive outcome map, if one is wanted, is a further operational structure.
+
+The bound is positive at each fixed regulator and does not insert an excited eigenvalue. It is nevertheless ground-state-dependent and a posteriori: $\psi_{0,\Gamma}$ comes from the same interacting Hamiltonian. It becomes explanatory only if $W_\Gamma$ or its local conditionals can be controlled from independently stated bare or renormalized data.
+
+A global density ratio is generally the wrong control. If $W_\Gamma$ is extensive, then $\operatorname{osc}W_\Gamma=O(|P(\Gamma)|)$ and (regulated-gap-bound) can decay exponentially with volume. Even a product probability density can have an exponentially bad global ratio while retaining a volume-independent Poincare constant by tensorization. The decay therefore indicts the global comparison proof, not the true interacting gap.
+
+This comparison is the elementary Poincare analogue of the [[library/logarithmic-sobolev-inequalities-and-stochastic-ising-models/inq|Holley--Stroock bounded-perturbation principle]]. It is useful as a finite receipt and a warning about global oscillation, not as the intended continuum proof.
+
+The replacement must be local or multiscale. For the actual vacuum measure, one may ask for:
+
+1. a compatible local or block specification for $\nu_\Gamma$ derived from the Hamiltonian rather than fitted correlators;
+2. uniform conditional Poincare or logarithmic-Sobolev bounds on each block with arbitrary admissible boundary data;
+3. a quantitative interdependence or spatial-mixing condition preventing a collective low-cost mode; and
+4. constants natural under volume growth and the tuned regulator comparison maps.
+
+These requirements have an exact raw-link assembly theorem. At fixed $\Gamma$, use the product carrier $G^{E(\Gamma)}$ before quotienting. Give every link the geodesic metric $d_K$ and gradient determined by the same $-B_{\mathfrak g}$ normalization as $K_\Gamma$, and let $\nu_e(\cdot\mid x)$ be the conditional law of link $e$. Define the Wasserstein--Dobrushin matrix
+
+$$
+c_{ej}
+:=
+\sup_{\substack{x=y\ \mathrm{off}\ j\\x_j\neq y_j}}
+\frac{
+W_{1,d_K}\!\left(
+\nu_e(\cdot\mid x),
+\nu_e(\cdot\mid y)
+\right)
+}{d_K(x_j,y_j)},
+\qquad
+C_\Gamma=(c_{ej}).
+$$
+
+Suppose
+
+$$
+\lambda_{\mathrm{loc},\Gamma}
+\operatorname{Var}_{\nu_e(\cdot\mid x)}h
+\leq
+\sum_A\int_G|X^Ah|^2\,\mathrm d\nu_e(\cdot\mid x),
+\qquad
+r_{\mathrm{sp}}(C_\Gamma)<1
+\tag{local-mixing-data}
+$$
+
+for every link, conditional configuration, and admissible boundary datum. Compactness supplies the finite-moment hypothesis. Then [[library/poincare-and-transportation-inequalities-for-gibbs-measures-under-the-dobrushin-uniqueness-condition/inq|Wu's sharp Dobrushin estimate]] first gives approximate variance tensorization,
+
+$$
+(1-r_{\mathrm{sp}}(C_\Gamma))
+\operatorname{Var}_{\nu_\Gamma}(f)
+\leq
+\sum_e
+\int
+\operatorname{Var}_{\nu_e(\cdot\mid x)}(f)
+\,\mathrm d\nu_\Gamma(x),
+$$
+
+and therefore, for every regular $f$,
+
+$$
+\boxed{
+\mathcal E_\Gamma(f,f)
+\geq
+\lambda_{\mathrm{loc},\Gamma}
+[1-r_{\mathrm{sp}}(C_\Gamma)]
+\operatorname{Var}_{\nu_\Gamma}(f).}
+\tag{local-to-global}
+$$
+
+The inequality holds on the raw product and hence on its gauge-invariant subspace, where the ground-state transform identifies it with a Hamiltonian bound. This is a **conditional theorem**, not a Yang--Mills result smuggled in through vocabulary. The hard work is proving (local-mixing-data) for $\nu_{a,L}=\psi_{0,a,L}^2\mu_{a,L}$ from bare or renormalized local dynamics without importing an already known gap or clustering length.
+
+A raw-link condition may be too rigid along the continuum trajectory, so gauge-invariant blocks with explicit boundary variables may be the natural scale. Wu's displayed theorem does not automatically apply to overlapping, constrained, or heterogeneous blocks. A block version must provide either a disjoint energy-isometric product factorization or a separately proved comparison
+
+$$
+\mathcal E_{a,L}
+\geq
+b_{a,L}\mathcal E_{a,L}^{\mathrm{coord}},
+\qquad
+b_{a,L}>0.
+$$
+
+The resulting lower constant is $b_{a,L}\lambda_{\mathrm{loc}}(a,L)[1-r_{\mathrm{sp}}(C_{a,L})]$. A singular orbit space cannot simply be assumed to have product coordinates or an energy-isometric block gradient.
+
+To state the regulator gate without hiding the volume quantifiers, define
+
+$$
+\underline\lambda_{\mathrm{loc}}(a)
+:=
+\inf_{L,\,\mathrm{boundary}}
+\lambda_{\mathrm{loc}}(a,L),
+\qquad
+\overline q(a)
+:=
+\sup_{L,\,\mathrm{boundary}}
+r_{\mathrm{sp}}(C_{a,L}),
+\qquad
+\underline b(a)
+:=
+\inf_L b_{a,L}.
+$$
+
+For the raw-link theorem $\underline b(a)=1$. Let $\widehat\Lambda_{\mathrm{YM},a}^{(\mathsf s)}>0$ be an independently specified energy-valued regulator comparison satisfying
+
+$$
+\widehat\Lambda_{\mathrm{YM},a}^{(\mathsf s)}
+\longrightarrow
+\Lambda_{\mathrm{YM}}^{(\mathsf s)}
+$$
+
+along the tuned trajectory. The regulator-uniform coercivity gate for this route is
+
+$$
+\boxed{
+\liminf_{a\to0}
+\frac{
+\kappa_a\underline b(a)
+\underline\lambda_{\mathrm{loc}}(a)[1-\overline q(a)]
+}{
+\widehat\Lambda_{\mathrm{YM},a}^{(\mathsf s)}
+}
+>0.}
+\tag{Dobrushin-stop}
+$$
+
+One also needs $\overline q(a)<1$ and positive local and comparison constants at every regulator where the theorem is invoked. Their separate dimensionless values may tend to zero as $a\to0$; that is not fatal if $\kappa_a$ compensates and the displayed physical ratio retains a positive lower limit. Conversely, (Dobrushin-stop) is not by itself a continuum mass-gap theorem. The form and vacuum-projection convergence, nontrivial continuum carrier, and OS or positive-energy recovery conditions stated below are still required.
+
+[[library/dobrushin-uniqueness-theorem-and-logarithmic-sobolev-inequalities/inq|Zegarlinski's theorem]] proves, for Riemannian single-site spaces under its declared Dobrushin hypotheses, that local specification control can yield a unique Gibbs measure satisfying a logarithmic Sobolev inequality; linearization then gives a Poincare bound. It cannot simply be cited for lattice Yang--Mills. One must first prove that the ground-state density $\psi_{0,\Gamma}^2$ defines the required compatible quasilocal specification after gauge reduction and that the influence bound remains below its threshold uniformly. Neither follows from locality of the original Hamiltonian, because taking the logarithm of an interacting ground-state wavefunction can generate nonlocal dependence.
+
+At bare weak coupling such a one-link Dobrushin condition may be the wrong scale. A viable RG version would form gauge-invariant blocks at an independently fixed physical scale, prove conditional mixing between those blocks, and then identify the resulting block defects with the causal-frame maps. This is a precise use of “crossing a wall”: not discreteness by itself, but a local conditional distinction whose influence on remote blocks contracts.
+
+There is a rigorous nearby precedent. [[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen, Zhu, and Zhu]] prove volume-uniform Bakry--Emery, Poincare, and logarithmic-Sobolev estimates for the Euclidean Wilson lattice measure at explicit strong coupling; for $SU(N)$ their convention includes $|\beta|<1/[16(d-1)]$. Their carrier is the Euclidean Wilson Gibbs measure, their generator is Langevin or stochastic-quantization dynamics, and their “mass gap” conclusion is exponential covariance decay. It is not the equal-time Hamiltonian vacuum measure $\psi_0^2\mu_{\mathrm H}$, not the ground-state-transformed Kogut--Susskind generator, and not a continuum-limit theorem. The precedent proves that compact-group curvature plus local interaction control can yield the desired kind of volume-uniform functional inequality; it does not identify the two problems.
+
+There is also a carrier firewall. $\mathsf E_e^{\mathrm H}$ is orthogonal and state preserving in $L^2(\mu_E)$ only. The corresponding interacting map is the conditional expectation $\mathsf E_e^\nu$ in $L^2(\nu_\Gamma)$, and (local-Haar) does not automatically transfer to it. Moreover, either expectation forgets continuous configuration data; neither selects an outcome character or creates a record. A factive wall would additionally require a readout context and instrument. What the calculation supplies is a Haar-carrier prototype. The interacting same-carrier wall map and its uniform flux inequality remain open.
 
 ## Classical Fisher information realizes the real denominator
 

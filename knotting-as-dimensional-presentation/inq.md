@@ -165,6 +165,23 @@ with prescribed meridional conjugacy data when the defect model requires it. A f
 
 The roles must remain typed. Parallel transport operates on paths and returns fiber isomorphisms. A based loop returns a group element only after a frame is chosen; without that choice it supplies a conjugacy class. The Wilson-loop observable is a function of a connection. Only after a regulator or continuum definition, representation, renormalization, and operator domain are supplied may it define an operator on a gauge-invariant state carrier. The Hamiltonian operates on states. The knot is a label or support for an observable; it is not itself a mass operator.
 
+## Gauge closure already has an exact kinematic cost
+
+There is now a precise result one logical level below embedding and knotting. Let a compact connected simple group $G$ label the links of a finite connected graph $\Gamma$, equip $G$ with the negative-Killing metric, and impose the full gauge group at every vertex. Peter--Weyl theory and the spin-network basis give
+
+$$
+\boxed{
+\lambda_\Gamma^{\mathrm{GI}}
+=
+g(\Gamma)\lambda_G,}
+$$
+
+where $\lambda_\Gamma^{\mathrm{GI}}$ is the sharp product-Haar electric-flux Poincare constant on nonconstant gauge-invariant functions, $g(\Gamma)$ is graph girth, and $\lambda_G$ is the smallest nonzero Casimir allowed by the global form of $G$. The reason is elementary but structural: nontrivial gauge-invariant spin-network support cannot terminate at a degree-one vertex, so it must contain a cycle; a Wilson character on a shortest cycle saturates the bound. [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|The girth--Casimir theorem]] gives the proof and boundary qualifications.
+
+For $SU(3)$ the convention gives $\lambda_G=4/9$, and a simple square-plaquette graph gives the exact dimensionless number $16/9$. This is the first rigorous instance in this programme where **closure multiplies group geometry to produce a nonzero dimensionless distinction cost**.
+
+But the theorem is deliberately weaker than the knot hypothesis. Graph girth is combinatorial and dimension independent; no embedding, crossing, linking, or ambient isotopy enters. Its measure is product Haar, not the interacting vacuum measure. It therefore proves neither selection of three spatial dimensions nor the physical Yang--Mills mass gap. What it does prove is that “closure” is not merely poetic: once the carrier and flux operator are typed, closed gauge support can sharpen a local group constant into an exact full-carrier kinematic frame bound.
+
 Witten's [Chern--Simons construction of the Jones polynomial](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-121/issue-3/Quantum-field-theory-and-the-Jones-polynomial/cmp/1104178138.full) makes this relation explicit at the formal path-integral level: Wilson-line expectation values in three-dimensional Chern--Simons theory produce framed-link invariants; an unframed Jones invariant requires a framing choice followed by the appropriate correction or normalization. Reshetikhin and Turaev's [quantum-group construction](https://doi.org/10.1007/BF01239527) gives the associated topological invariants a rigorous realization. Pure classical Chern--Simons theory is metric-independent, while the quantum theory retains framing dependence. It supplies topological distinction without a local propagating energy or mass scale.
 
 ## A conditional dimension-selection theorem

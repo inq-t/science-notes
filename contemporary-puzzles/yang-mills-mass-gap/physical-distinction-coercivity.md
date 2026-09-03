@@ -1,6 +1,6 @@
 # Physical Distinction Coercivity
 
-Measurement and the Yang--Mills mass gap share one exact carrier-level grammar, but not one mechanism. A projection supplies an exclusive question, a state supplies probabilities, an instrument supplies outcome-conditioned state change, and a Hamiltonian form assigns energy to physical departures from the vacuum. The mass gap is the uniform coercive cost of every such departure. The most concrete operator-algebraic route is staged: tempered Connes--Takesaki core maps, or another declared comparison functor, first place different regulator presentations on comparable carriers; Connes cocycles may then compare faithful reference states on one such carrier; and Takesaki's modular-invariance criterion can supply vacuum-preserving conditional expectations there. Only an independently constructed Hamiltonian-form estimate can then charge the resulting distinction shells.
+Measurement and the Yang--Mills mass gap share one exact carrier-level grammar, but not one mechanism. A projection supplies an exclusive question, a state supplies probabilities, an instrument supplies outcome-conditioned state change, and a Hamiltonian form assigns energy to physical departures from the vacuum. The mass gap is the uniform coercive cost of every such departure. The most concrete operator-algebraic route is staged: tempered Connes--Takesaki core maps, or another declared comparison functor, first place different regulator presentations on comparable carriers; Connes cocycles may then compare faithful reference states on one such carrier; and Takesaki's modular-invariance criterion can supply vacuum-preserving conditional expectations on an admissible regulator or comparison carrier. Ordinary proper nested AQFT region algebras cannot supply such a tower in the vacuum representation under Reeh--Schlieder hypotheses. Only an independently constructed Hamiltonian-form estimate can charge the surviving distinction shells.
 
 **Status: [EXACT CENTERED GNS CARRIER; CONDITIONAL SHELL THEOREM; OPEN PHYSICAL CONSTRUCTION].** The centered GNS space, projection identities, spectral-gap equivalence, Takesaki existence gate, and orthogonal-shell implication are exact under the stated hypotheses. The centered carrier becomes physical only after gauge reduction, vacuum selection, and time realization. Constructing a regulator-natural filtration from four-dimensional Yang--Mills data, proving uniform shell coercivity without assuming the gap, and passing it to a nontrivial continuum theory remain open.
 
@@ -192,6 +192,8 @@ $$
 
 None of these predicates implies either of the others. A gapless theory can have discrete spin or polarization outcomes; a gapped theory can have observables with continuous spectrum; a superselection sector can be gapless; and a unique gapped vacuum need not solve the outcome problem.
 
+[[mass-as-casimir-and-realization]] adds the representation-theoretic reason for this independence: momentum generates translations, mass is their Poincare Casimir, phase selection chooses a state or representation, and outcome actualization points within a readout context. These roles can coexist on one physical carrier without being one operator.
+
 ## The operator-signature ledger
 
 The reversal tactic begins by asking what each operator operates on. Similar-looking arrows must not be composed until their carriers and codomains match.
@@ -261,7 +263,7 @@ On one fixed carrier, the promising role of modular theory is to construct expec
    $$
 
    on \(L^2(\nu_r)\), where \(\nu_r\) has full support in the declared measure class, and use the ground-state unitary \(U_{0,r}\) to identify its form with the gauge-invariant Hamiltonian form.
-2. In a noncommutative local route, use a local or support-reduced von Neumann algebra on which the vacuum restriction is faithful normal and \(\Omega_r\) is cyclic and separating. A pure vacuum vector state on the full \(B(\mathcal H_{\mathrm{phys}})\) is not faithful when \(\dim\mathcal H_{\mathrm{phys}}>1\). An explicit form-preserving map to the full physical vacuum carrier is therefore required.
+2. In a noncommutative comparison route, use a support-reduced, RG, core, or other von Neumann carrier on which the reference state is faithful normal. It cannot simply be a proper tower of ordinary vacuum local-region algebras: Reeh--Schlieder cyclicity and separation would force every vacuum-preserving expectation in that tower to be trivial. A pure vacuum vector state on the full \(B(\mathcal H_{\mathrm{phys}})\) is not faithful when \(\dim\mathcal H_{\mathrm{phys}}>1\). An explicit form-preserving map to the full physical vacuum carrier is therefore required.
 
 Let \(\omega_r\) denote the faithful normal reference state on the chosen \(\mathfrak M_{r,0}\), and suppose there is a decreasing filtration
 
@@ -298,7 +300,7 @@ $$
 
 are mutually orthogonal. Call such a family a **Takesaki-admissible distinction filtration**.
 
-This terminology declares a sufficient architecture, not a necessary property of every gapped Yang--Mills theory. Modular invariance of useful gauge-local subalgebras is a severe condition and may fail. In the finite ground-state-transformed commutative carrier, ordinary conditional expectations onto sub-\(\sigma\)-algebras are easier to obtain; compatibility with gauge locality and electric flux remains the hard part.
+This terminology declares a sufficient architecture, not a necessary property of every gapped Yang--Mills theory. Modular invariance of useful gauge-local subalgebras is a severe condition and may fail. More sharply, [[causal-frame-coercivity#Conditional-expectation shells|the local-expectation no-go]] proves that proper vacuum-preserving expectations between ordinary nested AQFT region algebras are impossible under the standard cyclic/separating hypotheses. In the finite ground-state-transformed commutative carrier, ordinary conditional expectations onto sub-\(\sigma\)-algebras are easier to obtain; compatibility with gauge locality and electric flux remains the hard part.
 
 ### The anti-tautology gate
 

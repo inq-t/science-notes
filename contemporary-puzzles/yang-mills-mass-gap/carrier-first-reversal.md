@@ -4,6 +4,50 @@ An operator has no physical meaning apart from the carrier, domain, state, and c
 
 **Status: [EXACT FUNCTIONAL-ANALYTIC REVERSAL; OPEN YANG--MILLS CONTINUUM CONSTRUCTION].** The representation theorem for closed forms, semigroup reconstruction, carré du champ, and finite-regulator carrier identifications are exact under their stated hypotheses. The continuum vacuum measure, closability, Osterwalder--Schrader identification, and uniform Poincare bound remain open.
 
+## The Copernican criterion: change the primitives
+
+A genuine reversal does not merely solve the old equations for a different variable. It replaces what is assumed with what can be reconstructed. The proposed primitive package is schematically
+
+$$
+\mathfrak P
+=
+(\mathfrak A,\omega,\mathsf C,\mathfrak d),
+$$
+
+where \(\mathfrak A\) is an algebra or higher algebra of distinctions, \(\omega\) is a state or consistency functional, \(\mathsf C\) is a directed compatibility or causal relation, and \(\mathfrak d\) is a canonically normalized positive response form. None is yet “matter moving in spacetime.” A successful reconstruction must produce
+
+$$
+\boxed{
+\mathfrak P
+\xrightarrow{\ \mathsf{Rec}\ }
+(M,[g],\sigma,\mathcal O\mapsto\mathfrak A(\mathcal O),U,P_\mu,H,M^2),}
+\tag{C0}
+$$
+
+with event localization, causal cones, metric scale, an observable net, Poincare action, clock Hamiltonian, and invariant mass operator satisfying their required compatibility laws.
+
+| Conventional primitive | Carrier-first reconstruction target |
+|---|---|
+| things located at spacetime points | states, characters, sectors, or records individuated by an algebra |
+| pre-given spatial distance | distance reconstructed from a Dirichlet form, commutator seminorm, or correlation response |
+| locality as microscopic ontology | isotony, commutation, causal factorization, and finite propagation of the observable net |
+| one undifferentiated time variable | directed record order, reversible clock automorphisms, Euclidean preparation, and modular flow, compared but not identified |
+| mass as stuff or a field coefficient | Poincare Casimir and a positive lower edge of the reconstructed translation spectrum |
+| a black hole as an object enclosing an assumed interior | an exterior boundary sector or terminal localization object, with any interior ontology owed by reconstruction |
+| entropy as substance | unresolved distinguishability relative to a state, algebra, boundary, or channel |
+
+This is the programme's Copernican test. If \(\mathsf{Rec}\) recovers the QFT observables and symmetries and makes the gap follow from a simpler coercive principle, the reversal has explanatory force. If it merely renames energy “distinction,” assumes the desired response form, or fails to recover locality and Poincare covariance, it has redrawn the epicycle.
+
+For Yang--Mills, the reversed question is therefore
+
+$$
+\boxed{
+\text{Why can no nonvacuum gauge-invariant distinction be made at arbitrarily small clock cost?}}
+\tag{C1}
+$$
+
+The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and terminal-boundary version of the same reversal; [[mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
+
 ## The operator-carrier ledger
 
 The recurring operators in this programme do not act on the same thing:

@@ -1,0 +1,6 @@
+transfer determinant: 1/4
+finite transfer is injective: True
+vacuum law: ('16/25', '9/25')
+depth-6 sewn total-variation error: 235917/1342177325
+Doob row sums: ('1', '1')
+all vacuum boundary-gluing receipts passed
