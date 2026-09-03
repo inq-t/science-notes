@@ -36,9 +36,19 @@ The resemblance is therefore of the same species as the one Connes himself flags
 Real Clifford algebras are graded-Morita-periodic with period $8$:
 
 $$
-\mathrm{Cl}_{p+8,q}\ \simeq\ \mathrm{Cl}_{p,q},
+U(\mathrm{Cl}_{p+8,q})
+\cong
+U(\mathrm{Cl}_{p,q})\otimes M_{16}(\mathbb R),
 $$
 
-which is real Bott periodicity. Connes' sign table repeats with period $8$ for exactly that reason, and Wall's eight real classes are the eight residues of exactly that periodicity. The complex algebras are periodic with period $2$, which supplies Wall's remaining two and, on Connes' side, the two kinds of spectral triple that carry no real structure at all.
+after forgetting the grading, while
+
+$$
+\mathrm{Cl}_{p+8,q}
+\simeq_{\mathrm{gr\text{-}Morita}}
+\mathrm{Cl}_{p,q},
+$$
+
+where (U) is the forgetful functor from graded to ordinary algebras. The first relation is an ordinary algebra isomorphism after explicit matrix stabilization; the second is the graded categorical equivalence that forgets that matrix size. This Clifford-module periodicity is the algebraic input to real Bott periodicity, rather than the complete topological theorem itself. Connes' sign table repeats with period $8$ for exactly that reason, and Wall's eight real classes are the eight residues of exactly that periodicity. The complex algebras are periodic with period $2$, which supplies Wall's remaining two and, on Connes' side, the two kinds of spectral triple that carry no real structure at all.
 
 So the honest statement of the link is: Connes' $\mathbb Z/8$ **is** the eightfold part of the tenfold way. His $10$ is not the tenfold way's $10$.

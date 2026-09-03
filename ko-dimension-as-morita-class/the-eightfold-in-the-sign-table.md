@@ -28,7 +28,23 @@ The triple $(\varepsilon,\varepsilon',\varepsilon'')$, with the presence or abse
 
 ## Why it is a classification and not a convention
 
-The signs are exactly the data distinguishing the real Clifford algebras $\mathrm{Cl}_{p,q}$ up to graded Morita equivalence, and the period $8$ is real Bott periodicity, $\mathrm{Cl}_{p+8,q}\simeq\mathrm{Cl}_{p,q}$. The qualifier **graded** is not decorative: as ungraded algebras the real Clifford algebras collapse to far fewer classes, and Wall's $\mathbb Z/8$ exists only in the graded category. Two consequences follow.
+The signs are exactly the data distinguishing the real Clifford algebras $\mathrm{Cl}_{p,q}$ up to graded Morita equivalence. Two related period-eight statements must be typed separately. If (U) forgets the grading, the matrix-stabilized ordinary algebras obey
+
+$$
+U(\mathrm{Cl}_{p+8,q})
+\cong
+U(\mathrm{Cl}_{p,q})\otimes M_{16}(\mathbb R),
+$$
+
+while the graded module categories obey
+
+$$
+\mathrm{Cl}_{p+8,q}
+\simeq_{\mathrm{gr\text{-}Morita}}
+\mathrm{Cl}_{p,q}.
+$$
+
+The first is an isomorphism after forgetting the grading; the second is a categorical equivalence that retains the graded type while forgetting matrix size. This Clifford-module periodicity is an algebraic input to real Bott periodicity, not literally the topological periodicity theorem by itself. The qualifier **graded** is not decorative: as ungraded algebras the real Clifford algebras collapse to far fewer classes, and Wall's $\mathbb Z/8$ exists only in the graded category. Two consequences follow.
 
 First, the divorce of metric from KO-dimension is explained rather than merely permitted. The metric label is analytic — spectral growth of $D$ — while the KO label is an invariant of a graded module category. A finite-dimensional algebra can sit in any class whatever while its Dirac operator has finite spectrum. Connes introduces the divorce as a device and cites the Podleś sphere as precedent; Wall's theorem says no precedent is needed.
 

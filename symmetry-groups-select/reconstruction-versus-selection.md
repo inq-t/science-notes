@@ -34,6 +34,33 @@ They are not classification theorems saying that causal order, a binary normal p
 
 The reconstructed object is a compact global internal group acting on fields or sectors. Reconstruction alone does not produce a Yang–Mills connection, gauge bosons, a BRST complex, coupling constants, or gauge-field dynamics.
 
+## Stabilizer-first is a third logical order
+
+The exceptional-Jordan flag supplies a route that is neither reconstruction from an imported QFT nor symmetry breaking inside a preselected group. Let \(J=\mathfrak h_3(\mathbb O)\), let \(w\in F_4=\operatorname{Aut}(J)\) be the order-three orientation whose fixed algebra is \(\mathfrak h_3(\mathbb C)\), and let \(\ell\) be a trace-two idempotent in that fixed algebra. Then
+
+$$
+H_{\ell,w}:=\operatorname{Stab}_{F_4}(\ell,w)
+\cong S(U(2)\times U(3)).
+$$
+
+Here the asymmetric pointed datum \((\ell,w)\) is prior and the familiar group is its stabilizer. This is a genuine **group-type selection theorem** conditional on the exceptional whole and the admissible flag type; it is not spontaneous breaking, because no \(H\)-symmetric vacuum or potential was assumed before \(H\) appeared.
+
+The construction now reaches further. The projection \(F_4\to F_4/H\) is the principal torsor of local flag presentations. Coordinates of compatible comparison arrows in chosen lifts obey the ordinary \(H\)-valued lattice gauge law. The faithful 149-dimensional defining-data normal then supplies a holonomy response, and its pullback to the distinguished color factor is exactly the fundamental Wilson action:
+
+$$
+Q_N\circ\iota_{\mathrm c}^{E}=288Q_W,
+\qquad
+\beta_W=144\beta.
+$$
+
+Thus three levels must be distinguished:
+
+1. **group-type selection:** the stabilizer theorem, now exact;
+2. **finite-regulator action recovery:** the flag-torsor and color-Wilson theorem, exact after choosing the full normal carrier and color pullback; and
+3. **QFT selection:** a state, bare coupling trajectory, physical carrier, continuum net, dynamics, and matter content determined from the deeper data, still open.
+
+The result has genuine Copernican content because several familiar structures now follow from one prior pointed object. It does not yet show why the exceptional flag is physically admissible, why the color-only member rather than the full non-simple stabilizer is realized, or why its Wilson vacuum has a continuum mass gap. [[contemporary-puzzles/yang-mills-mass-gap/exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional normal-holonomy theorem]] owns the exact construction and its stopping conditions.
+
 ## The circularity test
 
 The [[wall-construction-interface/inq#The interface is a dependency, not a theory|interface formulation]] permits

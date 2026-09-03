@@ -87,6 +87,8 @@ $$
 
 and the index is constant along every norm-continuous path that remains Fredholm. The representative defect \(\beta_W\), the stabilizer \(G_W\), and a metric Hessian may vary while this integer persists. For a graded Fredholm Dirac arrow \(D^+:\mathcal H^+\to\mathcal H^-\), the same index records oriented chiral imbalance. This is a precise candidate for conservation *across* changing symmetry and asymmetry: the persistent object is a relative class of the arrow, not a Noether charge generated inside one already symmetric phase.
 
+[[order-three-orientation-and-the-exceptional-stabilizer]] is now an exact exceptional instance of this reversal. Yokota's oriented operation \(w\in F_4\) has connected symmetry \(C_{F_4}(w)\), adjoining the pointed idempotent \(\ell\) reduces that symmetry to \(S(U(2)\times U(3))\), and the cyclic average \((1+w+w^2)/3\) forgets the distinction \(w\leftrightarrow w^{-1}\). The reversal-odd residue \((w-w^2)/\sqrt3\) is a complex structure on the forgotten complement. Thus the observed group is literally the stabilizer of prior oriented algebraic data. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] then shows why this kinematic success is not yet a mass gap: the intrinsic flag normal is not a faithful module for the surviving group, and the faithful full normal must be promoted to a field-valued physical response before any coercivity theorem applies.
+
 ## The whole carries two opposed descents
 
 Let \(\mathcal M\) be a von Neumann algebra with faithful normal state \(\varphi\), represented on its GNS-standard Hilbert space
@@ -344,7 +346,7 @@ $$
 
 and the candidate observed group is the common stabilizer \(\operatorname{Aut}(\mathbb W)\), not the stabilizer of one conveniently chosen component. A reconstruction may instead require the full tensor category of sectors or correspondences. [[symmetry-groups-select/inq|Selecting internal symmetry from causal-scale structure]] owns that stronger obligation. The present mass-gap mechanism is intentionally group neutral: it could apply memberwise to a supplied compact simple gauge group without claiming to derive the Standard Model group.
 
-## Complex phase and Jordan pointing do not supply the modulus
+## Complex phase does not supply the modulus; Jordan idempotency supplies a normal one
 
 The imaginary unit can retain orientation without producing the positive floor. If \(M,N\) are closed subspaces of a real Hilbert space and \(M_{\mathbb C},N_{\mathbb C}\) are their complexifications, then their projections complexify and
 
@@ -381,6 +383,31 @@ $$
 
 The familiar group is therefore the symmetry of a selected complex flag in an exceptional whole, not the premise from which that selection must be broken. This proves an order-of-explanation precedent, not that this flag is nature's carrier or that it supplies the Yang--Mills Hamiltonian.
 
+[[jordan-idempotency-and-the-stabilizer-gap]] adds a positive operator that was missing from the earlier audit. In any Euclidean Jordan algebra, let
+
+$$
+C(x)=x\circ x-x,
+\qquad
+V(x)=\frac12\lVert C(x)\rVert^2.
+\tag{OD30d1}
+$$
+
+At an idempotent \(e\), Peirce decomposition gives
+
+$$
+\boxed{
+\operatorname{Hess}_eV
+=
+(2L_e-I)^2
+=
+I-P_{1/2}.}
+\tag{OD30d2}
+$$
+
+Its kernel is exactly the tangent space of the fixed-rank idempotent orbit, while its normal complement has unit edge in the canonical dimensionless convention. For a primitive idempotent in \(\mathfrak h_3(\mathbb O)\), this gives multiplicities \(0^{(16)}\) and \(1^{(11)}\). Thus the exceptional product can generate both a presentation orbit with a stabilizer and a positive transverse response; one need not append a gauge group and a quadratic cost as unrelated inputs.
+
+The direction of this Hessian is also its most important limitation. It penalizes leaving the valid idempotent locus. If physical Yang--Mills excitations instead live tangent to a space of valid fields, the Jordan Hessian is a constraint-violation stiffness and misses precisely the physical sector. A recovery theorem must therefore construct a flag field or analysis map whose **normal response covers every gauge-invariant nonvacuum direction**, and compare that response with the OS Hamiltonian form. Without that carrier-and-coverage theorem, the normal edge is not a mass edge.
+
 Two Jordan walls must remain separate. For a Jordan-frame spectrum \((\lambda_1,\lambda_2,\lambda_3)\),
 
 $$
@@ -395,7 +422,7 @@ N_J=\lambda_1\lambda_2\lambda_3=0
 \tag{OD30f}
 $$
 
-is the determinant wall of rank loss. Neither implies the other: \(\operatorname{diag}(1,1,2)\) lies only on the first, while \(\operatorname{diag}(1,2,0)\) lies only on the second. The \(A_2\) cusp, Jordan-rank transition, black-hole entropy dictionary, and positive mass gap are consequently four different claims. [[inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra]] is a useful presentation-versus-invariant model, but it contains no slab semigroup or all-direction coercive modulus.
+is the determinant wall of rank loss. Neither implies the other: \(\operatorname{diag}(1,1,2)\) lies only on the first, while \(\operatorname{diag}(1,2,0)\) lies only on the second. The \(A_2\) cusp, Jordan-rank transition, idempotency-defect normal edge, black-hole entropy dictionary, and physical mass gap are consequently five different claims. [[inbox/black-holes-as-jordan-spectra/black-holes-as-jordan-spectra]] is a useful presentation-versus-invariant model, but it contains no slab semigroup or all-physical-direction coercive modulus.
 
 ## Exact flux witness
 
@@ -681,7 +708,7 @@ The asymmetry-first route advances only if it constructs:
 6. vacuum-controlled convergence to a local Poincaré-covariant continuum theory;
 7. only then, the Casimir comparison (OD41) and an independent physical yardstick.
 
-The route is killed or downgraded if the symmetry group is inserted before the arrow and then announced as derived; if \(E_\pm\) are tautological expectations onto scalars; if touching Euclidean halves are treated as a vacuum-only pair despite their shared time-zero carrier; if \(c_F<1\) follows only after a spectral cutoff selected from the desired gap; if a raw adjacent-slice angle is required to stay uniformly open as the spacing vanishes; if complexification or a unitary phase is claimed to change the positive modulus; if the Jordan discriminant and rank walls are conflated; if a twist or index is called an energy; if a Markov, modular, RG, or record-order generator is silently identified with the clock Hamiltonian; if the spectral action is asked to choose temporal orientation; or if a cosmological yardstick replaces rather than supplements the gravity-free Yang--Mills scale theorem.
+The route is killed or downgraded if the symmetry group is inserted before the arrow and then announced as derived; if \(E_\pm\) are tautological expectations onto scalars; if touching Euclidean halves are treated as a vacuum-only pair despite their shared time-zero carrier; if \(c_F<1\) follows only after a spectral cutoff selected from the desired gap; if a raw adjacent-slice angle is required to stay uniformly open as the spacing vanishes; if complexification or a unitary phase is claimed to change the positive modulus; if the Jordan discriminant, rank wall, and idempotency Hessian are conflated; if the normal Hessian is called a physical gap without a coverage theorem; if a twist or index is called an energy; if a Markov, modular, RG, or record-order generator is silently identified with the clock Hamiltonian; if the spectral action is asked to choose temporal orientation; or if a cosmological yardstick replaces rather than supplements the gravity-free Yang--Mills scale theorem.
 
 The Copernican statement is therefore exact but conditional in its physical application:
 

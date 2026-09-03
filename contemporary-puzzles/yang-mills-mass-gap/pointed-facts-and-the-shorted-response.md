@@ -2,7 +2,7 @@
 
 A local fact has two logically independent contrasts: observable alternatives of which one is obtained, and globally different antecedents that the local presentation cannot distinguish. Finite probability theory makes the second contrast an exact conditional relative-entropy residue. Positive-operator theory then supplies the reversal demanded by the programme: eliminate the hidden antecedent directions and obtain a **shorted response operator on the retained local distinction**. A positive lower edge of that operator is a precise candidate for dimensionless fact-persistence stiffness, although it becomes energy or mass only after the existing clock, action, carrier, and Poincare solders.
 
-**Status: [EXACT] for the finite readout decomposition, background-fibre saturation lemma, and bounded positive-block theorem; [DEFINITION] for a Copernican fact requiring both observable contrast and antecedent ambiguity; [CONDITIONAL CONSTRUCTION] for the shorted operator as a fact-persistence generator; [OPEN] for its Yang--Mills realization, Type-III naturality, continuum lower bound, and physical calibration.**
+**Status: [EXACT] for the finite readout decomposition, background-fibre saturation lemma, bounded positive-block theorem, and bounded Hilbert-space shorting laws; [DEFINITION] for a Copernican fact requiring both observable contrast and antecedent ambiguity; [CONDITIONAL CONSTRUCTION] for the shorted operator as a fact-persistence generator; [OPEN] for its Yang--Mills realization, Type-III naturality, continuum lower bound, and physical calibration.**
 
 ## Pointing and forgetting are two axes
 
@@ -186,6 +186,28 @@ On \(\mathcal H_W\), the operator \(S_A\oplus0\) is the short of \(A\) to \(\mat
 
 This answers “what does the operator operate on?” It operates on \(x\in\mathcal K_O\), the retained distinction. The forgotten background enters through the minimization over \(z\in\mathcal K_B\); it is implicated without being mistaken for the operator's physical carrier.
 
+The inverse in (PF9) is only the transparent block case. [[shorted-response-filtration-and-the-leak-cocycle]] gives the intrinsic bounded theorem without assuming an invertible hidden block. For a closed retained subspace \(L\subseteq\mathcal H_W\),
+
+$$
+S_L(A)
+=
+\max\{X\geq0:X\leq A,\ \operatorname{Ran}X\subseteq L\},
+\qquad
+\langle S_L(A)x,x\rangle
+=
+\inf_{z\in L^\perp}\langle A(x+z),x+z\rangle.
+\tag{PF10a}
+$$
+
+For nested retained carriers \(L\subseteq T\), shorting is exactly transitive,
+
+$$
+S_L(S_T(A))=S_L(A).
+\tag{PF10b}
+$$
+
+The stage loss \(D_{T\to L}(A):=S_T(A)-S_L(A)\geq0\) telescopes along a filtration. This is the positive-operator version of a leak cocycle: it measures response discarded by further descent, whereas the hard/relaxed residue \(P_LAP_L-S_L(A)\) measures the benefit of allowing the hidden extension to adjust. The two quantities obey an exact balance but are not the same physical or mathematical object.
+
 ## What elimination can and cannot generate
 
 The inequalities
@@ -201,7 +223,21 @@ This corrects the slogan “the leak is the cost of mass.” The transverse act 
 
 The existing [[descent-loss-cocycle-and-recovery-fork|output-transgression theorem]] makes the warning sharper. If \(A\) is taken to be only the loss Hessian of one state-preserving expectation with its adapted BKM geometries, the retained minimum-lift transgression is identically zero. A nonzero shorted response must therefore come from a non-adapted metric comparison, a jointly transverse family, or an independent whole/boundary response—not from relabeling the canonical vertical loss.
 
-Let \(\Omega\in\mathcal K_O\) be a proposed invariant or vacuum vector and \(P_0\) its projection. The exact dimensionless stopping condition is
+There is nevertheless no requirement that the whole operator have a global gap. For \(\kappa>0\), the exact stopping theorem is
+
+$$
+\boxed{
+S_L(A)\geq\kappa P_L
+\iff
+A\geq\kappa P_L
+\iff
+L\subseteq\operatorname{Ran}A^{1/2}.}
+\tag{PF11a}
+$$
+
+The last equivalence is Douglas range inclusion. Thus \(A\) may have a kernel or spectrum accumulating at zero in globally invisible directions while its retained quotient remains uniformly stiff. This is the precise sense in which a scale-free or gapless whole can present a gapped local distinction: shorting does not create the stiffness, but it can isolate a positive relative capacity hidden inside a globally gapless carrier.
+
+Let \(\Omega\in\mathcal K_O\) be a proposed invariant or vacuum vector and \(P_0\) its projection. The invariant excitation carrier is \(L_{\mathrm{exc}}=L\cap\ker P_0\); one should short directly to this intersection unless vacuum annihilation and projection compatibility have already been proved. The exact dimensionless stopping condition is
 
 $$
 \boxed{

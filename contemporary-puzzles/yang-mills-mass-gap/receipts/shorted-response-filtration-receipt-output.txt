@@ -1,0 +1,8 @@
+PASS  nested shorting: max |S_L(A)-S_L(S_T(A))| = 8.882e-16
+PASS  positive stage loss: sampled min quadratic value = 6.738143e-07
+PASS  nested hard/relaxed residue: max balance error = 8.882e-16
+PASS  positive hard/relaxed residue: sampled minima = 5.105419e-08, 8.408779e-09
+PASS  stage loss projects to added relaxation: max projection error = 8.882e-16
+PASS  hidden cancellation: frozen response = 1, shorted response = 0.000e+00
+PASS  gapless-whole/gapped-quotient truncations: local floor = 1; N=256 whole floor = 3.906250e-03
+SUMMARY  7/7 checks passed

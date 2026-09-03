@@ -1,0 +1,12 @@
+PASS exceptional Peirce balance: 1 + 16 + 10 = 27
+PASS exceptional Hessian multiplicities: spec((2L_e-I)^2) = {0^(16), 1^(11)}
+PASS Cayley-plane orbit balance: dim(F4) - dim(Spin(9)) = 52 - 36 = 16
+PASS rank-two exceptional Peirce balance: 10 + 16 + 1 = 27 and the Hessian multiplicities remain 0^(16), 1^(11)
+PASS Jordan-frame triality balance: dim(F4/Spin(8)) = 24 = dim(8_v + 8_s + 8_c)
+PASS exceptional flag orbit balance: dim(F4/S(U(2)xU(3))) = 52 - 12 = 40
+PASS flag fibration balance: dim h3(C)-subalgebra orbit 36 + dim Gr_2(C^3) 4 = 40
+PASS h5(C) tangent kernel: 12 cross-block real directions; max ||DC_p(h)|| = 0.000e+00
+PASS h5(C) unit normal edge: 13 block-diagonal directions; max norm error = 0.000e+00
+PASS h5(C) stabilizer/orbit balance: dim SU(5) = 24, dim S(U(2)xU(3)) = 12, orbit dim = 12
+PASS normalization firewall: V -> 7V sends the dimensionless Hessian edge 1 -> 7
+SUMMARY 11/11 checks passed

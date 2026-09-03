@@ -1,0 +1,16 @@
+PASS order-three trace and fixed rank: trace(w) = 9 + 9*(2 cos(2*pi/3)) = 0 and rank(P_B) = 9
+PASS signed cyclic residue: (w-w^2)^2 = w+w^2-2 = -3 on B-perp, hence I_B^2 = -1
+PASS orientation reversal parity: I_B -> -I_B sends the ninth symplectic power to its negative
+PASS normal branching subtraction: (J + Hom(B,C)) - T(F4/H) equals the displayed H-module
+PASS normal representation dimension: 5 + 72 + 72 = 149
+PASS SU(2) index: I_SU2 = 71
+PASS SU(3) index: I_SU3 = 24
+PASS exact color character: chi_N|SU3 = 5 + 24*tr_3 + 24*tr_bar3 = 5 + 48*Re tr_3
+PASS exact color Wilson pullback: ||sigma_N(U)-I||^2 = 96*(3-Re tr_3 U) = 288*q_W; beta_W = 144*beta
+PASS stable triality comparison: N_def|SU3 + R^43 = 8*T(F4/Spin8)|SU3; reduced real representation classes agree
+PASS S6 tangent-to-Wilson response ladder: Q_TS6 = 12*q_W, Q_Tfr = 3*Q_TS6 = 36*q_W, Q_N = 8*Q_Tfr = 288*q_W
+PASS normal-metric Haar floor: b_TS6 = (-Killing)/3, b_Tfr = -Killing, b_N = 8*b_Tfr; lambda_link,N = 1/18
+PASS normalized U(1) index: sum dim*q^2 = 828; divide by 12 to get 69
+PASS global central kernel: the two test multiplets leave exactly 6 central lifts, generated cyclically as Z6
+PASS reduced oriented-flag Hessian: dim ambient 44, spec(Hess V) = {0^(40), 1^(4)}
+SUMMARY 15/15 checks passed

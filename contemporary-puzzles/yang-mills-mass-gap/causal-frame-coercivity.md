@@ -527,7 +527,17 @@ Ordinary strong-resolvent language without vacuum control is too weak for this p
 
 ## Recovery of observed QFT below a UV threshold
 
-The causal-frame signature does not select $SU(3)$, nor should compatibility be advertised as doing so. It defines a class of admissible whole-state realizations. A Yang--Mills member is indexed by a compact simple group $G$; proving the axioms for every such $G$ remains the Clay obligation.
+The bare causal-frame signature does not select $SU(3)$, nor should compatibility be advertised as doing so. The newer exceptional flag does select the larger stabilizer $S(U(2)\times U(3))$ and structurally distinguishes its eight-dimensional simple color ideal, but it still does not select a vacuum state, coupling trajectory, or complete QFT member. A Yang--Mills member is indexed by a compact simple group $G$; proving the axioms for every such $G$ remains the Clay obligation.
+
+There is now one exact recovery arrow at finite regulator. For the 149-dimensional defining-data normal of the exceptional flag, pullback along the color inclusion gives
+
+$$
+Q_N\circ\iota_{mathrm c}^{E}=288Q_W,
+\qquad
+\beta_W=144\beta.
+$$
+
+Thus, with product color Haar measure, that member is exactly the fundamental Wilson $SU(3)$ Gibbs and transfer system at every finite lattice spacing. This discharges action identification for the declared color pullback; it does not obtain that member by conditioning the full stabilizer theory, select its coupling trajectory, or construct its continuum net. The comparison contracts below remain necessary for any stronger claim that QFT itself emerges.
 
 The phrase “below a UV threshold” is itself ill typed until the pre-QFT filtration has been soldered to local Lorentzian energy or length. It also must not mean a sharp spectral truncation of each local algebra: spectral projections are global and generally spoil algebra closure or locality. Keep the full local net and restrict comparison estimates to suitably smeared observables and matrix elements between states in a declared spectral window.
 

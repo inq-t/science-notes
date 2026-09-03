@@ -97,3 +97,5 @@ The strong recovery test returns whenever the programme claims any of the follow
 - global constraints induce observable corrections inside a domain previously assigned to GR or QFT.
 
 Absent those claims, the correct questions are whether the local restriction is conservative, whether the surrounding maps exist, and whether the new global relations are independently predictive.
+
+The exceptional-flag construction now gives a useful intermediate example. The map from an oriented Albert-algebra flag to its stabilizer is a group-type selection theorem, and the associated full normal pulls back to exactly Wilson's finite-lattice \(SU(3)\) action after a fixed coupling conversion. Neither statement selects a vacuum state, running coupling, continuum limit, or complete QFT member. It is therefore stronger than verbal compatibility and weaker than QFT recovery: the finite regulator is identified exactly, while the state-and-dynamics limit remains to be constructed.

@@ -382,6 +382,8 @@ $$
 
 For the global form $PSU(3)=SU(3)/\mathbb Z_3$, the fundamental representation does not descend; the smallest allowed representation is instead the adjoint in this comparison, giving $\lambda_{PSU(3)}=1$. The number is therefore sensitive to global gauge structure, as it should be. Neither $16/9$ nor $4$ is a mass gap: it is a normalized kinematic frame constant that still requires interacting-vacuum transfer and an energy solder.
 
+[[exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional defining-data normal]] now fixes a different, derived metric convention on the same color group. Its trace index gives \(b_N=8(-B_{\mathfrak{su}(3)})\), so \(\lambda_{SU(3)}^{(N)}=1/18\) and the square-girth invariant Haar constant is \(2/9\). This is exactly the inverse metric rescaling of \(16/9\), not a competing physical prediction: the electric kinetic prefactor rescales reciprocally, and only the product in physical units enters a Hamiltonian bound.
+
 This is a genuine closure result, but not yet a knot theorem. The obstruction is the impossibility of a gauge-invariant nontrivial open end, and the relevant topology is the shortest cycle of an abstract graph. It exists in every graph dimension; embedding, linking, and knotting in three-space do no work in this proof. Any specifically three-dimensional knot mechanism must enter through an additional carrier or dynamics.
 
 The individual derivatives $X_e^A$ need not return gauge-invariant functions. Their direct sum is a gauge-covariant response vector whose squared norm is gauge invariant. The analysis operator therefore acts on physical invariant vectors while its response carrier remembers the electric-flux direction.

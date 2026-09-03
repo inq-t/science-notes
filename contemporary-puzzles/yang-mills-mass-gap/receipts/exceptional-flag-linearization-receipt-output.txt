@@ -1,0 +1,7 @@
+PASS variable dimension: 27 + 9*18 = 189
+PASS standard flag orbit dimension: 52 - 12 = 40
+PASS integral Jacobian shape: 874 x 189
+PASS Jacobian ranks modulo five primes: 1009:149, 10007:149, 100003:149, 1000003:149, 1000033:149
+PASS rational nullity upper bound: 189 - 149 = 40
+PASS kernel equality: the 40-dimensional equivariant orbit tangent is the full rational kernel
+SUMMARY 6/6 checks passed
