@@ -4,8 +4,8 @@ Primary material for this module is held in [[library/the-tenfold-way/inq|the te
 
 ## The classification
 
-- C. T. C. Wall, *Graded Brauer groups*, J. Reine Angew. Math. **213** (1964) 187–199. Real super division algebras and $\mathrm{BW}(\mathbb R)\cong\mathbb Z/8$.
-- M. F. Atiyah, R. Bott and A. Shapiro, [*Clifford Modules*](https://doi.org/10.1016/0040-9383(64)90003-5), *Topology* **3** Suppl. 1 (1964) 3–38. The matrix-stabilized Clifford period, module cokernels, and Thom/KO symbol construction.
+- C. T. C. Wall, [[library/graded-brauer-groups-wall/inq|*Graded Brauer Groups*]], J. Reine Angew. Math. **213** (1964) 187–199. Real super division algebras and $\mathrm{BW}(\mathbb R)\cong\mathbb Z/8$.
+- M. F. Atiyah, R. Bott and A. Shapiro, [[library/clifford-modules-atiyah-bott-shapiro/inq|*Clifford Modules*]], *Topology* **3** Suppl. 1 (1964) 3–38. The matrix-stabilized Clifford period, module cokernels, and Thom/KO symbol construction.
 - F. J. Dyson, *The threefold way. Algebraic structure of symmetry groups and ensembles in quantum mechanics*, J. Math. Phys. **3** (1962) 1199–1215. The ungraded case.
 - J. C. Baez, *The tenfold way*, arXiv:2011.14234; Notices AMS **67** (2020) 1599.
 - D. S. Freed and G. W. Moore, *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013) 1927–2023; arXiv:1208.5055. The reference Baez names for the mathematics.

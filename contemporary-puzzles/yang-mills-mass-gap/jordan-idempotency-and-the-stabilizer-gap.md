@@ -1,6 +1,6 @@
 # Jordan Idempotency and the Stabilizer Gap
 
-Jordan idempotency supplies an exact finite model of the proposed Copernican turn. A point-like alternative is constrained by \(e\circ e=e\); the Hessian of its squared constraint defect has zero modes precisely along changes of presentation within the idempotent orbit and a unit positive edge normal to that orbit. In the exceptional Jordan algebra, an order-three orientation \(w\) and a trace-two idempotent \(\ell\) have the faithfully acting Standard Model gauge group as their stabilizer. An exact modular-rank calculation shows that the natural continuous constraints on \((\ell,B)\) have no infinitesimal zero modes beyond the forty-dimensional flag orbit, while a reduced oriented bundle has canonical Hessian spectrum \(0^{(40)}\oplus1^{(4)}\). The deeper product therefore gives the observed stabilizer, an explicit orientation residue, and finite normal rigidity. What remains open is the physical synthesis: justify the response carrier, realize a flag or normal-holonomy field on a Type-III/OS Yang--Mills carrier, and prove a regulator-uniform comparison with the physical mass Casimir.
+Jordan idempotency supplies an exact finite model of the proposed Copernican turn. A point-like alternative is constrained by \(e\circ e=e\); the Hessian of its squared constraint defect has zero modes precisely along changes of presentation within the idempotent orbit and a unit positive edge normal to that orbit. In the exceptional Jordan algebra, an order-three orientation \(w\) and a trace-two idempotent \(\ell\) have the faithfully acting Standard Model gauge group as their stabilizer. An exact modular-rank calculation shows that the natural continuous constraints on \((\ell,B)\) have no infinitesimal zero modes beyond the forty-dimensional flag orbit, while on a reduced oriented bundle the Hessian has that orbit as its radical and equals the trace metric on the four-dimensional intrinsic normal. The deeper product therefore gives the observed stabilizer, an explicit orientation residue, and finite normal rigidity. What remains open is the physical synthesis: justify the response carrier, realize a flag or normal-holonomy field on a Type-III/OS Yang--Mills carrier, and prove a regulator-uniform comparison with the physical mass Casimir.
 
 **Status: [EXACT] for the Peirce linearization, idempotency-defect Hessian, order-three orientation consequences, and reduced oriented-flag spectrum; [EXACT COMPUTER-ASSISTED] for the kernel of the displayed exceptional continuous-flag constraint at the standard flag; [EXACT CITED] for the exceptional-Jordan stabilizer, order-three centralizer, transitivity, and triality statements; [CONSTRUCTION] for the physical response carrier and normal-holonomy use; [OPEN] for physical chirality, Type-III realization, four-dimensional Yang--Mills recovery, continuum coercivity, and dimensional calibration.**
 
@@ -493,9 +493,9 @@ $$
 The inverse \(w^2\) fixes the same \(B\), while the antiunitary component exchanges \(w\leftrightarrow w^2\). The signed residue
 
 $$
-I_B=\frac{w-w^2}{\sqrt3},
+I_w=\frac{w-w^2}{\sqrt3},
 \qquad
-I_B^2=-(1-P_B),
+I_w^2=-(1-P_B),
 \tag{JI36i}
 $$
 
@@ -530,7 +530,7 @@ A_{\mathrm{flag},f}
 \tag{JI37}
 $$
 
-It operates on infinitesimal deformations of the continuous **pointing structure** \(f_{\mathrm c}=(\ell,P_B)\), not on particles moving in a pre-existing spacetime. Globally, (JI37) is an equivariant field of conjugate Hessians over the flag orbit. The orientation-odd datum \(I_B\) lives on its double cover and is not recovered by this even response.
+It operates on infinitesimal deformations of the continuous **pointing structure** \(f_{\mathrm c}=(\ell,P_B)\), not on particles moving in a pre-existing spacetime. Globally, (JI37) is an equivariant field of conjugate Hessians over the flag orbit. The orientation-odd datum \(I_w\) lives on its double cover and is not recovered by this even response.
 
 For the standard \(B=\mathfrak h_3(\mathbb C)\subset\mathfrak h_3(\mathbb O)\) and \(\ell=\operatorname{diag}(1,1,0)\), the continuous ambient tangent has dimension
 
@@ -574,12 +574,15 @@ $$
 \boxed{
 V^{-1}(0)\cong F_4/S(U(2)\times U(3)),
 \qquad
-\operatorname{Spec}(\operatorname{Hess}V)
-=\{0^{(40)},1^{(4)}\}.}
+\operatorname{rad}(\operatorname{Hess}V)
+=T(F_4/S(U(2)\times U(3))),
+\qquad
+\left.\operatorname{Hess}V\right|_{N_{\mathrm{int}}}
+=\langle\ ,\ \rangle_{\mathrm{tr}}.}
 \tag{JI37d}
 $$
 
-This fixes the finite spectrum by restricting the ambient carrier to Yokota's orientation orbit. Its four-dimensional normal is not a faithful representation of the surviving group: color and \(U(1)\) act trivially. Conversely, the 149-dimensional normal quotient of the full defining-data carrier is faithful but inherits no singular spectrum from the redundant constraint rows. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] develops this exact carrier fork. Compatibility with a physical local carrier remains open in both branches.
+This fixes the finite normal form by restricting the ambient carrier to Yokota's orientation orbit. With any total metric extending the trace metric and making the tangent/normal splitting orthogonal, the associated Hessian operator has shorthand spectrum \(0^{(40)}\oplus1^{(4)}\). Its four-dimensional normal is not a faithful representation of the surviving group: color and \(U(1)\) act trivially. Conversely, the 149-dimensional normal quotient of the full defining-data carrier is faithful but inherits no singular spectrum from the redundant constraint rows. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] develops this exact carrier fork. Compatibility with a physical local carrier remains open in both branches.
 
 ## First-order asymmetry and positive mass are different faces
 
@@ -601,7 +604,7 @@ separates two structures:
 - \(D_{\mathrm{flag},f}\) retains signed first-order constraint residuals and left-polar/codomain data;
 - \(A_{\mathrm{flag},f}\) retains only their positive even response.
 
-Squaring forgets more than a sign: it forgets the left polar factor and every codomain-unitary presentation of the same modulus. But the flag's complex orientation is even more prior: it is carried by \(w\), or equivalently by \(I_B=(w-w^2)/\sqrt3\), and is already lost under the average \(w\mapsto P_B\). Neither \(D_{\mathrm{flag},f}\) nor its square recovers it from \((\ell,P_B)\). Therefore a positive Hessian cannot by itself explain chirality, and an orientation-bearing first-order operator cannot by itself prove a positive mass floor. In finite dimensions \(D_{\mathrm{flag},f}\) is automatically Fredholm and its index is only a dimension count; a physically meaningful chiral index would have to arise from a later infinite-dimensional graded Fredholm realization. The asymmetry-first programme needs the primitive orientation and the positive modulus together, but not identified.
+Squaring forgets more than a sign: it forgets the left polar factor and every codomain-unitary presentation of the same modulus. But the flag's complex orientation is even more prior: it is carried by \(w\), or equivalently by \(I_w=(w-w^2)/\sqrt3\), and is already lost under the average \(w\mapsto P_B\). Neither \(D_{\mathrm{flag},f}\) nor its square recovers it from \((\ell,P_B)\). Therefore a positive Hessian cannot by itself explain chirality, and an orientation-bearing first-order operator cannot by itself prove a positive mass floor. In finite dimensions \(D_{\mathrm{flag},f}\) is automatically Fredholm and its index is only a dimension count; a physically meaningful chiral index would have to arise from a later infinite-dimensional graded Fredholm realization. The asymmetry-first programme needs the primitive orientation and the positive modulus together, but not identified.
 
 The same firewall separates three uses of the word *gap*:
 

@@ -6,11 +6,13 @@ N_{\mathrm{def}}\oplus\mathbb R^{43}
 \cong
 8\,T_{\mathrm{fr}}
 \cong
-24\,\mathbb O .
+24\,\mathbb O
+\qquad
+\text{as real }SU(3)_{\mathrm c}\text{-modules}.
 \]
-The selected complex slice \(\mathbb C_u\subset\mathbb O\) has a six-dimensional orthogonal complement \(W\cong(\mathbb C^3)_{\mathbb R}\), and left octonion multiplication makes \(\mathbb O\) the irreducible ordinary real module of \(\mathrm{Cl}_{0,6}\). Thus the stabilized normal is exactly twenty-four copies of a module for the Clifford algebra representing Brauer--Wall degree six, while differentiation of the stable character gives \(b_N=8(-B_{\mathfrak{su}(3)})\). This puts the slice torsor, Wilson character, trace-metric eight, octonionic triality, and a degree-six Clifford residue on one carrier. It does **not** derive a connection from a slice choice, identify multiplication by eight in a representation ring with Bott's invertible degree-eight shift, supply a complete graded real spectral cycle, construct Connes' finite spectral triple, or prove a Yang--Mills mass gap.
+The selected complex slice \(\mathbb C_u\subset\mathbb O\) has a six-dimensional orthogonal complement \(W\cong(\mathbb C^3)_{\mathbb R}\), and left octonion multiplication makes \(\mathbb O\) the irreducible ordinary real module of \(\mathrm{Cl}_{0,6}\). A choice of the displayed color intertwiner therefore transports twenty-four copies of this Clifford action to the stabilized normal, but neither makes that transport canonical nor extends it to the full residual group. Differentiating the stable character gives \(b_N=8(-B_{\mathfrak{su}(3)})\). This puts the slice groupoid, Wilson character, trace-metric eight, octonionic triality, and a degree-six Clifford residue in one color-restricted stable carrier diagram. The homogeneous slice geometry does derive one canonical \(SU(3)\) connection, but not the arbitrary four-dimensional connection or quantum measure of Yang--Mills theory. The construction does **not** identify multiplication by eight in a representation ring with Bott's invertible degree-eight shift, supply a canonically selected graded real spectral cycle, construct Connes' finite spectral triple, or prove a Yang--Mills mass gap.
 
-**Status: [EXACT CITED] for \(S^6=G_2/SU(3)\), its principal-bundle structure, \(\mathbb O=\mathbb C\oplus\mathbb C^3\), the color action, and the \(\operatorname{Spin}(8)\) triality tangent; [EXACT] for the minimal Wilson response, stable color-representation identity, ordinary Clifford action, trace-form consequence, and Morita no-go; [PROPOSED READING] for the class-six complement as the algebraic residue of complex descent; [OPEN] for a derived connection, nontrivial four-dimensional bundle sectors, a compatible graded real cycle, an \(H\)-equivariant bundle lift, a finite spectral triple, a physical response carrier, interacting-vacuum coercivity, and continuum reconstruction.**
+**Status: [EXACT CITED] for \(S^6=G_2/SU(3)\), its principal-bundle structure, \(\mathbb O=\mathbb C\oplus\mathbb C^3\), the color action, and the \(\operatorname{Spin}(8)\) triality tangent; [EXACT] for the minimal Wilson response, stable color-representation identity, ordinary Clifford action, trace-form consequence, and Morita no-go; [PROPOSED READING] for the class-six complement as the algebraic residue of complex descent; [OPEN] for arbitrary four-dimensional connections, a compatible graded real cycle, a full-\(S(U(2)\times U(3))\)-equivariant bundle lift, a finite spectral triple, a physical response carrier, interacting-vacuum coercivity, and continuum reconstruction.**
 
 ## One color subgroup acts on both carriers
 
@@ -61,7 +63,7 @@ Let
 \[
 T_{\mathrm{fr}}
 :=
-T(F_4/\operatorname{Spin}(8))
+T_{[e]}(F_4/\operatorname{Spin}(8))
 \tag{OC5}
 \]
 
@@ -87,115 +89,62 @@ The same color subgroup acts by octonion automorphisms on all three matrix entri
 
 This is the precise common-carrier statement. The color \(SU(3)\) appearing here is not a second isomorphic group chosen after the fact.
 
-## The slice torsor already carries the minimal Wilson representation
+## The slice groupoid carries the minimal color response
 
-The same selection has an exact homogeneous-space form. Fixing a reference unit
-imaginary octonion \(u_0\),
+[[octonionic-slice-groupoid-and-orientation-torsor]] proves the stronger categorical
+statement behind (OC2)--(OC4):
 
 \[
-\pi:G_2\longrightarrow S^6,
-\qquad
-\pi(g)=g(u_0),
-\qquad
-S^6\cong G_2/SU(3)_{\mathrm c}
+[S^6/G_2]\simeq\mathbf B SU(3)_{\mathrm c}.
 \tag{OC7a}
 \]
 
-is a principal \(SU(3)_{\mathrm c}\)-bundle. Its isotropy representation is precisely
-the real color module \(W\), so
+The quotient stack retains all color torsors, not only pullbacks along one global
+map to \(S^6\), and its universal associated real carrier is
 
 \[
-T S^6
-\cong
-G_2\times_{SU(3)_{\mathrm c}}W,
-\qquad
-W=T_{u_0}S^6\cong(\mathbb C^3)_{\mathbb R}.
+W=T_uS^6\cong(\mathbb C^3)_{\mathbb R}.
 \tag{OC7b}
 \]
 
-[[inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality|The (S^6) slice note]] keeps this homogeneous choice space distinct from a complex atlas on the manifold. [Gyenge's explicit transition-function calculation](https://sigma-journal.com/2019/078/) further identifies this fibration with a generator of \(\pi_5(SU(3))\).
-
-This is a particularly economical Copernican order of explanation:
+The reductive homogeneous presentation has a unique \(G_2\)-invariant canonical
+\(SU(3)\) connection with full holonomy. That is one derived composite
+connection, not the arbitrary four-dimensional Yang--Mills connection or its
+quantum measure. For any supplied color connection with plaquette holonomies
+\(U_p\), the minimal carrier gives
 
 \[
 \boxed{
-\text{choice of local complex direction }u
-\longrightarrow
-\text{stabilizer }SU(3)_{\mathrm c}
-\longrightarrow
-\text{color carrier }T_uS^6 .}
+Q_{S^6}(U)
+:=
+\sum_p\|\rho_W(U_p)-I_W\|_{\mathrm{HS}}^2
+=
+12Q_{\mathrm{fund}}^{\mathrm{Wilson}}(U).}
 \tag{OC7c}
 \]
 
-No symmetry is broken in this statement. The whole \(G_2\)-family contains all
-complex directions; the symmetry observed in one presentation is the automorphism
-group of the selected direction.
+Here
+\(Q_{\mathrm{fund}}^{\mathrm{Wilson}}(U)
+:=\sum_p(1-\frac13\operatorname{Re}\operatorname{tr}_{\mathbf3}U_p)\);
+the subscript distinguishes the fundamental Wilson class function from the
+carrier \(W\).
 
-If \(s:X\to S^6\) is a field of slice choices on some base \(X\), its local
-presentations form the pullback torsor
-
-\[
-P_s:=s^*G_2\longrightarrow X .
-\tag{OC7d}
-\]
-
-Local lifts of \(s\) differ by \(SU(3)_{\mathrm c}\)-valued transition functions.
-Thus the selection derives the allowed gauge-coordinate changes and the associated
-bundle
-
-\[
-E_W=P_s\times_{SU(3)_{\mathrm c}}W
-\cong s^*TS^6 .
-\tag{OC7e}
-\]
-
-It does **not** derive a connection. A connection on \(P_s\), or an equivalent
-rule for comparing neighboring presentations, is additional data. Once such a
-comparison gives plaquette holonomies \(U_p\in SU(3)_{\mathrm c}\), however, the
-Hilbert--Schmidt response of the tangent carrier is already exactly Wilson's
-fundamental response. With
-
-\[
-Q_W^{\mathrm{Wilson}}(U)
-:=
-\sum_p\left(1-\frac13
-\operatorname{Re}\operatorname{tr}_{\mathbf3}U_p\right),
-\tag{OC7f}
-\]
-
-equation (OC4) gives
-
-\[
-\begin{aligned}
-Q_{S^6}(U)
-&:=
-\sum_p\left\|\rho_W(U_p)-I_W\right\|_{\mathrm{HS}}^2\\
-&=
-\sum_p2\bigl(6-\chi_W(U_p)\bigr)\\
-&=
-12Q_W^{\mathrm{Wilson}}(U).
-\end{aligned}
-\tag{OC7g}
-\]
-
-Consequently \((\beta_{S^6}/2)Q_{S^6}\) is the Wilson plaquette action with
-\(\beta_W=6\beta_{S^6}\). The three nested carriers then obey the exact finite-holonomy identities
+The three response carriers consequently form the exact finite-holonomy ladder
 
 \[
 \boxed{
 Q_{T_{\mathrm{fr}}}
 =3Q_{S^6}
-=36Q_W^{\mathrm{Wilson}},
+=36Q_{\mathrm{fund}}^{\mathrm{Wilson}},
 \qquad
 Q_N
 =24Q_{S^6}
 =8Q_{T_{\mathrm{fr}}}
-=288Q_W^{\mathrm{Wilson}}.}
-\tag{OC7h}
+=288Q_{\mathrm{fund}}^{\mathrm{Wilson}}.}
+\tag{OC7d}
 \]
 
-Their infinitesimal metrics express the same ladder. In the normalization of
-(OC21)--(OC24),
+Their infinitesimal metrics are
 
 \[
 b_{S^6}
@@ -206,28 +155,14 @@ b_{T_{\mathrm{fr}}}
 \qquad
 b_N
 =8(-B_{\mathfrak{su}(3)}).
-\tag{OC7i}
+\tag{OC7e}
 \]
 
-Thus the trace-metric eight is not a primitive property of color: it is the
-normal quotient's multiplicity relative to the triality carrier, while the
-triality carrier is three copies of the minimal slice tangent. This also shows
-why the corresponding Casimir number is not an absolute energy scale. Changing
-the declared response carrier changes the trace metric and is compensated by the
-coefficient of the physical kinetic form.
-
-Two firewalls prevent overreading this result. First, the principal bundle
-\(G_2\to S^6\) is not the universal \(SU(3)\)-bundle. It represents a generator
-of \(\pi_5(SU(3))\); for a four-dimensional CW base every map to the
-five-connected sphere \(S^6\) is null-homotopic, so a pullback of this one bundle
-is topologically trivial. In particular, a slice field alone does not recover
-the nonzero instanton sectors seen after compactifying \(\mathbb R^4\) to
-\(S^4\). Second, none of (OC7a)--(OC7i) uses an integrable complex structure on
-the manifold \(S^6\). It uses the standard homogeneous sphere of octonionic
-complex **choices** and its isotropy representation. The canonical octonionic
-almost-complex structure is nonintegrable, while the established integrable
-complex structures on the same smooth sphere are different geometries; the two
-must not be silently identified.
+The new groupoid note owns the distinction among coarse orbit, quotient stack,
+global slice, arbitrary torsor, homogeneous connection, and arbitrary gauge
+connection. The present note owns the representation/Clifford reason that the
+minimal, triality, and flag-normal response metrics occur in the ratio
+\(1:3:24\).
 
 ## The flag normal is eight stable triality tangents
 
@@ -393,7 +328,9 @@ c(w)c(z)+c(z)c(w)
 \tag{OC15}
 \]
 
-The universal property of the Clifford algebra therefore produces
+Use the signature convention in which \(\mathrm{Cl}_{p,q}\) has \(p\)
+positive-square and \(q\) negative-square generators. The universal property of
+the Clifford algebra therefore produces
 
 \[
 c:\mathrm{Cl}_{0,6}\longrightarrow
@@ -401,7 +338,9 @@ c:\mathrm{Cl}_{0,6}\longrightarrow
 \tag{OC16}
 \]
 
-Since \(\mathrm{Cl}_{0,6}\cong M_8(\mathbb R)\), both sides have real dimension \(64\), and the unital map is an isomorphism. Moreover, for \(g\in SU(3)_{\mathrm c}\),
+Since \(\mathrm{Cl}_{0,6}\cong M_8(\mathbb R)\) is simple, this unital map is
+nonzero and hence injective. Both sides have real dimension \(64\), so it is an
+isomorphism. Moreover, for \(g\in SU(3)_{\mathrm c}\),
 
 \[
 gL_wg^{-1}=L_{gw},
@@ -410,7 +349,7 @@ gL_wg^{-1}=L_{gw},
 
 so this is an equivariant Clifford action. The octonion is not merely an eight-dimensional vector space in this comparison: it is the irreducible real spinor module of the six-dimensional color-bearing complement.
 
-Combining (OC11) and (OC16) gives an exact **Clifford completion**:
+Combining (OC11) and (OC16) gives the exact stable color-module isomorphism
 
 \[
 \boxed{
@@ -421,24 +360,75 @@ N_{\mathrm{def}}\oplus\mathbb R^{43}
 \tag{OC18}
 \]
 
-with an \(SU(3)_{\mathrm c}\)-equivariant ordinary \(\mathrm{Cl}_{0,6}\)-module structure on the stabilized carrier. No such unital action exists on \(N_{\mathrm{def}}\) itself: every \(M_8(\mathbb R)\)-module has real dimension divisible by eight, while \(149\) is not.
+A choice of intertwiner in (OC18) transports the ordinary
+\(\mathrm{Cl}_{0,6}\)-action to the stabilized carrier
+\(SU(3)_{\mathrm c}\)-equivariantly. This action exists but is not selected
+canonically by the character identity. No such unital action exists on
+\(N_{\mathrm{def}}\) itself: every \(M_8(\mathbb R)\)-module has real dimension
+divisible by eight, while \(149\) is not.
 
-The word **ordinary** is load-bearing. The eight-dimensional irreducible module above has not been supplied with a real \(\mathbb Z/2\)-grading on which every \(w\in W\) acts oddly. A graded Clifford module, and still more a real spectral triple with operators \((J,D,\gamma)\), requires additional carrier data. The construction proves which graded algebra class is present and gives an ungraded spinor representation of it; it does not silently manufacture the KO-cycle.
+The word **ordinary** is load-bearing. The eight-dimensional irreducible module
+cannot carry a real \(\mathbb Z/2\)-grading on which every \(w\in W\) acts
+oddly. Indeed, for an oriented orthonormal basis \(e_1,\ldots,e_6\) of \(W\),
+put
+
+\[
+\omega_W:=c(e_1)\cdots c(e_6).
+\tag{OC18a}
+\]
+
+Then \(\omega_W^2=-I\), and \(\omega_W\) anticommutes with every \(c(w)\).
+If a candidate grading \(\Gamma\) had the latter property, then the invertible
+operator \(\Gamma\omega_W^{-1}\) would commute with
+\(c(\mathrm{Cl}_{0,6})=\operatorname{End}_{\mathbb R}(\mathbb O)\), so
+\(\Gamma=\lambda\omega_W\) for some real scalar \(\lambda\). Since
+\(\omega_W^2=-I\), no such real operator can also obey \(\Gamma^2=I\). The
+same commutant argument shows, after fixing the orientation, that
+
+\[
+L_u=\pm\omega_W.
+\tag{OC18b}
+\]
+
+This no-go is irreducible, not stable. On
+\(\mathbb O\otimes\mathbb R^m\), every real operator anticommuting with the
+Clifford generators has the form \(\omega_W\otimes A\), and
+
+\[
+(\omega_W\otimes A)^2=I
+\quad\Longleftrightarrow\quad
+A^2=-I.
+\]
+
+Such an \(A\) exists exactly when \(m\) is even. Thus the stabilized
+\(m=24\) carrier admits many \(SU(3)_{\mathrm c}\)-equivariant real gradings
+(an orthogonal complex structure on the multiplicity space makes the grading
+self-adjoint), but the stable character identity selects none of them and proves
+no compatibility with the full residual group \(H\).
+
+Relative to one irreducible \(\mathbb O\), a real odd grading requires even
+multiplicity or complexification; neither option is canonically selected here.
+A real spectral triple also requires the independent operators and axioms around
+\((J,D,\gamma)\). The construction proves which graded algebra class is present
+and gives an ungraded irreducible spinor representation of it; it does not
+silently manufacture the KO-cycle.
 
 Complexification does supply a canonical partial sign-table witness. On
 
 \[
-\mathcal H_{\mathbb O}:=\mathbb O\otimes_{\mathbb R}\mathbb C
-\tag{OC18a}
+\mathcal H_{\mathbb O}
+:=
+\mathbb O\otimes_{\mathbb R}\mathbb C_{\mathrm{ext}}
+\tag{OC18c}
 \]
 
 put
 
 \[
-\gamma_u:=iL_u,
+\gamma_u:=i_{\mathrm{ext}}(L_u\otimes1),
 \qquad
-J_0(x\otimes z):=x\otimes\bar z.
-\tag{OC18b}
+J_0:=\operatorname{id}_{\mathbb O}\otimes\text{complex conjugation}.
+\tag{OC18d}
 \]
 
 Because \(L_u^*=-L_u\) and \(L_u^2=-I\),
@@ -448,7 +438,7 @@ Because \(L_u^*=-L_u\) and \(L_u^2=-I\),
 J_0^2=I,
 \qquad
 J_0\gamma_u=-\gamma_uJ_0.
-\tag{OC18c}
+\tag{OC18e}
 \]
 
 These are exactly the \((\varepsilon,\varepsilon'')=(+,-)\) signs of KO-degree \(6\). Up to interchanging the signs of \(\gamma_u\), its chiral color spaces are
@@ -459,12 +449,21 @@ These are exactly the \((\varepsilon,\varepsilon'')=(+,-)\) signs of KO-degree \
 \qquad
 \mathcal H_{\mathbb O}^-
 \cong\mathbf1\oplus\bar{\mathbf3},
-\tag{OC18d}
+\tag{OC18f}
 \]
 
-and \(J_0\) exchanges them. This is stronger than a dimension count: the selected complex orientation produces the grading operator and the class-six real-structure signs on the same color carrier. It remains only a **partial** KO witness. No physical finite algebra, Dirac operator, order-one condition, Pfaffian, or fermion multiplicity has been constructed, so the missing sign \(JD=\varepsilon'DJ\) and the spectral content cannot be declared.
+and \(J_0\) exchanges them. This is stronger than a dimension count: the selected
+complex orientation produces the grading operator and two class-six
+real-structure signs on the same color carrier. It remains only a **partial** KO
+witness. The third sign cannot even be tested until a nontrivial self-adjoint
+odd operator \(D\) has been supplied; KO-degree \(6\) would require
+\(J_0D=DJ_0\) in the sign convention used here. No physical finite algebra,
+Dirac operator, order-zero or order-one condition, Pfaffian, or fermion
+multiplicity has been constructed, so the spectral content cannot be declared.
 
-There is also an exact Brauer--Wall statement. Orthogonal sums become graded tensor products,
+There is also an exact
+[[library/graded-brauer-groups-wall/inq|Brauer--Wall statement]]. Orthogonal
+sums become graded tensor products,
 
 \[
 \mathrm{Cl}_{0,8}
@@ -480,7 +479,23 @@ so in \(\mathrm{BW}(\mathbb R)\cong\mathbb Z/8\),
 \tag{OC20}
 \]
 
-In the Euclidean convention of [[ko-dimension-as-morita-class/inq|KO-dimension as a graded Morita class]], choosing the real two-plane \(\mathbb C_u\) inside the period-eight octonionic whole leaves a real six-plane whose Clifford algebra has the complementary class \(6\). This makes “six as the residue of selecting the complex face of eight” exact at the Clifford level. It does not yet identify that residue with the KO-dimension of the finite noncommutative Standard-Model geometry: no algebra representation, \(D\), \(J\), grading, Pfaffian condition, or fermion carrier has been derived here.
+Here \([\mathrm{Cl}_{0,1}]=1\) fixes the generator of
+\(\mathrm{BW}(\mathbb R)\). Equation (OC19) concerns the negative-definite
+Clifford algebra of the vector-space splitting
+\(\mathbb O=\mathbb C_u\oplus W\). It does **not** extend the
+left-multiplication representation from \(W\) to all of \(\mathbb O\):
+\(L_1^2=+I\), whereas a \(\mathrm{Cl}_{0,8}\) vector generator must square to
+\(-I\), and the smallest real \(\mathrm{Cl}_{0,8}\cong M_{16}(\mathbb R)\)
+module has dimension \(16\).
+
+In the Euclidean convention of [[ko-dimension-as-morita-class/inq|KO-dimension
+as a graded Morita class]], choosing the real two-plane \(\mathbb C_u\) inside
+the period-eight octonionic vector space leaves a real six-plane whose Clifford
+algebra has the complementary class \(6\). This makes “six as the residue of
+selecting the complex face of eight” exact at the Clifford-algebra level. It
+does not yet identify that residue with the KO-dimension of the finite
+noncommutative Standard-Model geometry: no algebra representation, \(D\),
+\(J\), grading, Pfaffian condition, or fermion carrier has been derived here.
 
 ## Differentiating the stable identity explains the Killing factor
 
@@ -525,12 +540,14 @@ b_N
 \tag{OC24}
 \]
 
-The trace-metric eight is therefore the ratio of the color-active stable representation classes:
+Define the real trace index in the normalization (OC21) by
+\(b_R(X_a,X_b)=I_{SU(3)}(R)\delta_{ab}\). The trace-metric eight is therefore
+the ratio of the color-active stable representation classes:
 
 \[
 8
 =
-\frac{24\,W}{3\,W}
+\frac{24}{3}
 =
 \frac{I_{SU(3)}(N_{\mathrm{def}})}
        {I_{SU(3)}(T_{\mathrm{fr}})}.
@@ -561,16 +578,28 @@ KO^q_G(X)\xrightarrow{\ \cong\ }KO^{q+8}_G(X).
 \]
 
 These cannot be identified. Multiplication by \(8\) is not invertible even on
-\(KO^0(\mathrm{pt})\cong\mathbb Z\), whereas the Bott shift is an isomorphism. At the Clifford-algebra level the distinction is visible in
+\(KO^0(\mathrm{pt})\cong\mathbb Z\), whereas the Bott shift is an isomorphism.
+At the graded Clifford-algebra level the distinction is visible in
 
 \[
 \mathrm{Cl}_{0,n+8}
 \cong
-\mathrm{Cl}_{0,n}\otimes M_{16}(\mathbb R):
+\mathrm{Cl}_{0,n}\,\widehat\otimes\,\mathrm{Cl}_{0,8},
 \tag{OC28}
 \]
 
-the Morita class repeats while the matrix size changes.
+so the Brauer--Wall class repeats because \(\mathrm{Cl}_{0,8}\) is graded
+Morita-trivial. After forgetting the grading, the familiar matrix periodicity is
+
+\[
+U(\mathrm{Cl}_{0,n+8})
+\cong
+U(\mathrm{Cl}_{0,n})\otimes M_{16}(\mathbb R),
+\tag{OC28a}
+\]
+
+where \(U\) denotes the underlying ungraded algebra. The Morita class repeats
+while the matrix size changes.
 
 Nor is a Brauer--Wall degree the same type as a numerical KO charge. At a point,
 
@@ -578,18 +607,22 @@ Nor is a Brauer--Wall degree the same type as a numerical KO charge. At a point,
 KO^{-6}(\mathrm{pt})=0,
 \qquad
 KO^{-8}(\mathrm{pt})\cong\mathbb Z.
-\tag{OC28a}
+\tag{OC28b}
 \]
 
 Thus the class-six Clifford algebra in (OC16) cannot emit an integer \(8\) through a degree-six point index. An integer appears only after a full degree-eight Thom or symbol construction has supplied the corresponding KO class.
 
-The Atiyah--Bott--Shapiro construction also identifies exactly what the ordinary color character forgets. Let \(V,S^+,S^-\) be the three eight-dimensional \(\operatorname{Spin}(8)\) triality modules. The Bott symbol retains the graded Clifford-multiplication map
+[[library/clifford-modules-atiyah-bott-shapiro/inq|The
+Atiyah--Bott--Shapiro construction]] also identifies exactly what the ordinary
+color character forgets. Let \(V,S^+,S^-\) be the three eight-dimensional
+\(\operatorname{Spin}(8)\) triality modules. The Bott symbol retains the graded
+Clifford-multiplication map
 
 \[
 c(v):S^+\longrightarrow S^-,
 \qquad
 v\in V.
-\tag{OC28b}
+\tag{OC28c}
 \]
 
 On restriction to the same color subgroup,
@@ -602,14 +635,17 @@ S^+|_{SU(3)}
 S^-|_{SU(3)}
 \cong
 \mathbb O|_{SU(3)}.
-\tag{OC28c}
+\tag{OC28d}
 \]
 
 The ungraded color character therefore cannot distinguish \(S^+\) from \(S^-\): it forgets the oriented difference carried by the Bott symbol. The positive trace metric instead adds squared actions and is insensitive to that grading. This is the Clifford version of the programme's phase/modulus firewall. Triality supplies a common upstream object for Bott periodicity and the Killing metric, but the two descendants retain different information.
 
 This yields a useful no-go theorem:
 
-> **Morita trace-scale no-go.** No graded Morita class by itself determines a representation-trace normalization. Stabilizing a representative or taking \(m\) copies preserves its Morita class but multiplies the trace form by \(m\).
+> **Morita trace-scale no-go.** No graded Morita class by itself determines a
+> representation-trace normalization. Taking \(m\) direct-sum copies of a fixed
+> representation leaves the Clifford algebra's graded Morita class unchanged
+> while multiplying the unnormalized representation trace form by \(m\).
 
 So \(\mathrm{BW}(\mathbb R)\cong\mathbb Z/8\) cannot, by itself, force the coefficient in (OC24). The coefficient is fixed here only because the exceptional construction supplies more than a Morita class: it supplies the particular color representation \(N_{\mathrm{def}}\), the triality tangent \(T_{\mathrm{fr}}\), and the stable intertwining relation (OC11). A true Bott-to-normal bridge must lift that abstract color isomorphism to an \(SU(3)\)-equivariant graded Clifford symbol or \(KKO\)-class and then state the separate pairing that returns the trace form.
 
@@ -621,15 +657,15 @@ The exact triangle is
 \boxed{
 \begin{array}{c}
 \mathbb O=\mathbb C_u\oplus W,\quad
-\mathrm{Cl}(W)\cong\operatorname{End}_{\mathbb R}(\mathbb O)
+\mathrm{Cl}_{0,6}\cong\operatorname{End}_{\mathbb R}(\mathbb O)
 \\[3pt]
 \Downarrow
 \\[3pt]
 T_{\mathrm{fr}}|_{SU(3)}
-=3\mathbb O,
+\cong3\mathbb O,
 \qquad
-N_{\mathrm{def}}\oplus\mathbb R^{43}
-=24\mathbb O
+\left.(N_{\mathrm{def}}\oplus\mathbb R^{43})\right|_{SU(3)}
+\cong24\mathbb O
 \\[3pt]
 \Downarrow
 \\[3pt]
@@ -643,7 +679,7 @@ To turn this into a physical theorem one must still:
 1. lift the color-restricted stable isomorphism to a natural bundle or correspondence over the oriented-flag field, rather than choose an abstract character isomorphism;
 2. determine whether the Clifford action extends compatibly to the full residual group \(H\), or prove that a dynamical color projection is forced;
 3. construct the first-order operator, real structure, grading, state, and restriction system needed for an actual KO-dimension-six spectral cycle;
-4. compare the resulting field-valued Clifford response with the Wilson electric form on the complete interacting-vacuum complement; and
+4. compare the resulting field-valued Clifford response with the interacting-vacuum weighted electric form on the complete gauge-invariant complement; and
 5. transport a regulator-uniform positive product through OS and Poincare reconstruction.
 
 The stopping condition has consequently improved. A future claim that Bott periodicity “explains the \(8\)” must recover (OC11) or a stronger natural intertwiner, not merely repeat the numeral. A future claim that the class-six residue explains matter must build the spectral cycle, not merely count the six discarded real directions. A future mass-gap claim must still prove the interacting and continuum coercivity that neither stable representation theory nor Clifford periodicity contains.
