@@ -6,15 +6,43 @@ An operator has no physical meaning apart from the carrier, domain, state, and c
 
 ## The Copernican criterion: change the primitives
 
-A genuine reversal does not merely solve the old equations for a different variable. It replaces what is assumed with what can be reconstructed. The proposed primitive package is schematically
+A genuine reversal does not merely solve the old equations for a different variable. It replaces what is assumed with what can be reconstructed. To honor the question “what does the operator operate on?”, the proposed primitive package is more precisely
 
 $$
 \mathfrak P
 =
-(\mathfrak A,\omega,\mathsf C,\mathfrak d),
+(\mathfrak A,\omega,\mathsf C,\mathcal K_\partial,\partial),
 $$
 
-where \(\mathfrak A\) is an algebra or higher algebra of distinctions, \(\omega\) is a state or consistency functional, \(\mathsf C\) is a directed compatibility or causal relation, and \(\mathfrak d\) is a canonically normalized positive response form. None is yet “matter moving in spacetime.” A successful reconstruction must produce
+where \(\mathfrak A\) is an algebra or higher algebra of distinctions, \(\omega\) is a state or consistency functional, \(\mathsf C\) is a directed relation on a declared category of contexts, \(\mathcal K_\partial\) is a response Hilbert space or correspondence, and
+
+$$
+\partial:
+\mathfrak A_0
+\longrightarrow
+\mathcal K_\partial
+$$
+
+is a canonically normalized distinction map on a dense test algebra. The state first constructs the GNS carrier \((\pi_\omega,\mathcal H_\omega,\Omega)\). Writing
+
+$$
+\mathcal N_\omega
+:=
+\{a\in\mathfrak A_0:\omega(a^*a)=0\},
+$$
+
+the response becomes a form on what the theory can physically distinguish only if it descends through the state-null ideal, for example through \(\partial n=0\) for \(n\in\mathcal N_\omega\):
+
+$$
+\mathfrak d_\partial([a],[b])
+:=
+\langle\partial a,\partial b\rangle_{\mathcal K_\partial},
+\qquad
+[a]=\pi_\omega(a)\Omega.
+\tag{C0a}
+$$
+
+Closability is then a theorem to prove, not a word hidden inside “operator.” None of these data is yet “matter moving in spacetime,” and the response generator obtained from the closed form is not yet the physical clock Hamiltonian. A successful reconstruction must produce
 
 $$
 \boxed{
@@ -37,6 +65,44 @@ with event localization, causal cones, metric scale, an observable net, Poincare
 | entropy as substance | unresolved distinguishability relative to a state, algebra, boundary, or channel |
 
 This is the programme's Copernican test. If \(\mathsf{Rec}\) recovers the QFT observables and symmetries and makes the gap follow from a simpler coercive principle, the reversal has explanatory force. If it merely renames energy “distinction,” assumes the desired response form, or fails to recover locality and Poincare covariance, it has redrawn the epicycle.
+
+## Explanatory order is not algebraic rearrangement
+
+An equation may be solved in either direction without either direction becoming an explanation. The proposed order is instead a dependency graph:
+
+$$
+\boxed{
+\mathfrak P
+\longrightarrow
+(\mathcal H_\omega,\overline{\mathfrak d}_\partial)
+\xrightarrow{\text{clock and energy solder}}
+(\mathcal H_{\mathrm{phys}},\mathfrak h)
+\longrightarrow
+H
+\longrightarrow
+\Delta_E.}
+\tag{C0b}
+$$
+
+Geometry is reconstructed from the algebra and closed response form along a second downstream branch; it is not inserted into the first arrow as a pre-given container. The mass gap becomes explanatory only if no construction arrow secretly points backward from \(H\), \(\Delta_E\), a fitted correlator, or the observed glueball spectrum into \(\mathfrak P\). In particular,
+
+$$
+\mathfrak d_\partial
+:=
+E_*^{-1}\mathfrak h
+$$
+
+would make the desired comparison true by definition and explain nothing.
+
+A proposed Copernican replacement therefore has five non-circularity tests:
+
+1. **Upstream definability:** the algebra, state, directed relation, response carrier, and distinction map are defined without a background metric, the Yang--Mills Hamiltonian, or its low spectrum.
+2. **Fixed normalization:** rescaling \(\partial\), its fiber metric, the wall measure, or the clock is forbidden after spectral data are consulted.
+3. **Typed realization:** explicit maps carry the response form to the physical carrier and separately reconstruct localization, Poincare covariance, and clock evolution.
+4. **Uniform coercivity:** the lower bound covers the entire nonvacuum carrier and survives volume, cutoff, and continuum limits.
+5. **Empirical recovery:** the reconstructed net, state, scattering or correlators, and gauge identities recover ordinary Yang--Mills in a declared regime.
+
+This is how the Copernican claim becomes falsifiable. GR and QFT may remain exact or effective calculational descriptions of the reconstructed observable arena while ceasing to dictate the ontology from which that arena is built.
 
 For Yang--Mills, the reversed question is therefore
 

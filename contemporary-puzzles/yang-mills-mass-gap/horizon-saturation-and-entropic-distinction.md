@@ -89,7 +89,18 @@ $$
 \tag{H4}
 $$
 
-The area law is therefore a boundary-saturation benchmark at fixed \(R\), not the statement that one universal object has both maximum mass and maximum entropy. Quantum and higher-curvature corrections can modify (H2)--(H4), and a static observer at finite radius measures the Tolman-redshifted temperature rather than \(T_H^{(\infty)}\).
+The area law is therefore a boundary-saturation benchmark at fixed \(R\), not the statement that one universal object has both maximum mass and maximum entropy. Quantum and higher-curvature corrections can modify (H2)--(H4). In a static thermal equilibrium state, such as the Hartle--Hawking state, the local Tolman relation is
+
+$$
+T_{\mathrm{loc}}(r)
+\sqrt{1-\frac{2GM}{rc^2}}
+=
+T_H^{(\infty)},
+\qquad
+r>\frac{2GM}{c^2}.
+$$
+
+An evaporating state with flux and greybody effects need not be an exactly Tolman-redshifted thermal bath.
 
 A cosmological scale makes the relativity explicit. For the Schwarzschild--de Sitter convention
 
@@ -101,7 +112,15 @@ f(r)
 \Lambda>0,
 $$
 
-distinct positive black-hole and cosmological horizons require \(0<9G^2M^2\Lambda/c^4<1\). The Nariai endpoint obeys
+distinct positive black-hole and cosmological horizons require
+
+$$
+M>0,
+\qquad
+0<\frac{3GM\sqrt{\Lambda}}{c^2}<1.
+$$
+
+The Nariai endpoint obeys
 
 $$
 9G^2M_{\mathrm N}^2\Lambda/c^4=1,
@@ -162,7 +181,7 @@ $$
 
 Calling such a class a **sector** requires a further criterion—factoriality, quasi-equivalence, disjointness, a central character, or another declared representation-theoretic relation. Calling the boundary **terminal** would likewise require an actual category and universal property. No set of localized interior “things” appears in the target algebra merely from (H5). In this precise sense, “nothing inside” can mean **no independently individuated interior object in the exterior observable theory**. It does not mean that an empty subset of an already assumed interior manifold has been proved to exist.
 
-This is structurally like the modern meaning of particle. A particle is not fundamentally a tiny visible bead; it is identified through a representation of observable symmetry and scattering structure. A black hole may analogously be reconstructed as a massive boundary or asymptotic sector only after the GNS and sector criteria are proved; its upstream realization need not be represented by interior localized objects.
+This is structurally like the modern meaning of particle. A particle is not fundamentally a tiny visible bead; it is identified through a representation of observable symmetry and scattering structure. A black hole may analogously begin as a charge-labelled exterior equivalence class and become a mass-labelled boundary or asymptotic sector only after the GNS and sector criteria are proved; its upstream realization need not be represented by interior-localized objects.
 
 The hypothesis incurs a strict recovery debt. It must reconstruct all exterior predictions, causal response, conserved charges, horizon thermodynamics, perturbative ringdown, and unitary or otherwise explicitly stated information accounting. Calling the GR singularity a symptom is philosophically admissible; replacing the interior is physics only after those maps and predictions exist.
 
@@ -181,7 +200,7 @@ but no finite microstate set is thereby constructed. In an operator-algebraic th
 
 The phrase “nothing in particular” is captured by the fiber before a point is selected: exterior facts determine an equivalence class, not one underlying realization. Entropy quantifies the unresolved alternatives relative to that coarse observable presentation. It is not the quantity of non-being, and it does not itself select which realization obtains.
 
-This also corrects the strongest form of “facts require entropy.” A pure state can have zero von Neumann entropy and still support definite records. What fact formation requires is an algebra of alternatives, a state or weighting when probabilities are used, an obtained point, and a persistent record. Positive entropy enters when distinctions remain unresolved relative to a chosen algebra or are discarded by a noninjective process.
+This also corrects the strongest form of “facts require entropy.” A pure state can have zero von Neumann entropy and still support definite records. What fact formation requires is an algebra of alternatives, a state or weighting when probabilities are used, an obtained point, and a persistent record. Positive entropy or relative-entropy loss may quantify unresolved or discarded distinctions, but noninjectivity alone does not force positive output entropy.
 
 ## The exact entropy--energy solder
 
@@ -245,17 +264,19 @@ The operator ledger matters:
 | Object | Operates on | Returns |
 |---|---|---|
 | restriction or channel | global states or observables | exterior/coarse state or algebra |
-| entropy | a state relative to an algebra or reference | a dimensionless uncertainty or distinguishability number |
-| modular operator | the standard/GNS carrier of an algebra and state | dimensionless modular flow |
+| Shannon or von Neumann entropy | one probability law or state on a declared algebra | dimensionless uncertainty or mixedness |
+| relative entropy | an ordered pair of states on the same algebra | dimensionless distinguishability |
+| modular operator | a standard/GNS carrier with faithful normal state or cyclic-separating vector, or the appropriate support restriction | dimensionless modular flow |
+| relative modular operator | a standard carrier and ordered state pair | relative modular comparison |
 | clock Hamiltonian | the physical Hilbert carrier | energy and reversible time translations |
 | temperature or another yardstick | entropy units and clock normalization | an energy comparison |
 
-An identification \(K=H/(k_BT)+\text{constant}\) holds for the finite Gibbs density matrix above, not for every modular Hamiltonian. For a general KMS state, the modular automorphism group can agree with a rescaled physical automorphism group on the algebra without identifying its standard-form modular generator with \(H\) on the same Hilbert carrier. Near stationary horizons, surface gravity provides the comparison. If \(\kappa_{\mathrm{acc}}\) has acceleration units,
+An identification \(K=H/(k_BT)+\text{constant}\) holds for the finite Gibbs density matrix above, not for every modular Hamiltonian. For a general KMS state, the modular automorphism group can agree with a rescaled physical automorphism group on the algebra without identifying its standard-form modular generator with \(H\) on the same Hilbert carrier. For a stationary Killing horizon, with a specified normalization of its generator and an appropriate regular Hawking/KMS state, surface gravity provides the comparison. If \(\kappa_{\mathrm{acc}}\) has acceleration units,
 
 $$
 k_BT
 =
-\frac{\hbar|\kappa_{\mathrm{acc}}|}{2\pi c};
+\frac{\hbar|\kappa_{\mathrm{acc}}|}{2\pi c}
 \tag{H9}
 $$
 
@@ -272,7 +293,7 @@ D(\Phi_*\rho\Vert\Phi_*\sigma).
 \tag{H10}
 $$
 
-Information distinguishability cannot increase after declared distinctions are forgotten. Equality can hold for unitary or recoverable channels; irreversible loss requires strict inequality, or equivalently failure of a recovery map for the state pair. Data processing therefore supplies an information-accessibility preorder, not by itself a record order. A directed record order additionally requires a specified channel family or algebra inclusion, a persistent record subalgebra, compatible dynamics, and a no-recovery or monotonicity law along that family. [[causal-patch-boundary-and-two-times]] separates such one-sided order from Lorentzian clock time, Euclidean preparation depth, and modular flow.
+Information distinguishability cannot increase after declared distinctions are forgotten. Equality can hold for unitary or recoverable channels. When the relative entropies are finite and the usual support hypotheses hold, equality has the Petz recovery characterization; extended-valued equality such as \(+\infty=+\infty\) does not establish recoverability. Irreversible loss therefore requires a declared state family and strict loss or a proved failure of recovery. Data processing supplies an information-accessibility preorder, not by itself a record order. A directed record order additionally requires a specified channel family or algebra inclusion, a persistent record subalgebra, compatible dynamics, and a no-recovery or monotonicity law along that family. [[causal-patch-boundary-and-two-times]] separates such one-sided order from Lorentzian clock time, Euclidean preparation depth, and modular flow.
 
 A horizon is a natural place for this distinction because exterior accessibility changes what can be compared. But neither a partial trace nor an algebra restriction proves that something ontologically exists on the discarded side. It only defines the equivalence relation seen by the retained algebra.
 
@@ -311,7 +332,7 @@ e^{-a/\xi_\delta}.}
 \tag{H12}
 $$
 
-If \(\delta=\Delta_E:=\inf\sigma(H|_{(1-P_0)\mathcal H})\) is the optimal positive threshold, then \(\xi_{\mathrm{gap}}=\hbar c/\Delta_E\) is the optimal worst-case vacuum-complement contraction length. If \(\delta\) is merely a nonoptimal proven lower bound, then \(\xi_{\mathrm{gap}}\leq\xi_\delta\). Only after Poincare covariance, the spectrum condition, and the invariant joint-spectrum threshold have been recovered may one identify \(m_{\mathrm{gap}}=\Delta_E/c^2\) and write \(\xi_{\mathrm{gap}}=\hbar/(m_{\mathrm{gap}}c)\).
+If \((1-P_0)\mathcal H\neq\{0\}\) and \(\delta=\Delta_E:=\inf\sigma(H|_{(1-P_0)\mathcal H})\) is the optimal positive threshold, then \(\xi_{\mathrm{gap}}=\hbar c/\Delta_E\) is the optimal worst-case vacuum-complement contraction length. If \(\delta\) is merely a nonoptimal proven lower bound, then \(\xi_{\mathrm{gap}}\leq\xi_\delta\). Only after Poincare covariance, the spectrum condition, and the invariant joint-spectrum threshold have been recovered may one identify \(m_{\mathrm{gap}}=\Delta_E/c^2\) and write \(\xi_{\mathrm{gap}}=\hbar/(m_{\mathrm{gap}}c)\).
 
 This is a rigorous sense in which a mass gap supplies scale: it controls Hilbert-norm contraction under Euclidean evolution. The map \(e^{-\tau H/\hbar}\) is not a trace-preserving quantum channel, so (H11) is not itself operational distinguishability or relative-entropy decay. Vectors supported above the threshold decay faster. Under additional locality and spectral hypotheses the gap is related to exponential clustering of separated observables. It is not a spatial pixel, a minimum observable distance, or entropy production under real-time unitary evolution.
 
@@ -358,7 +379,7 @@ The hypothesis becomes physics only after it supplies:
 2. an exterior equivalence class, and then any claimed GNS sector, reconstructed from the complete exterior dynamics without presupposing an interior manifold;
 3. the area law and generalized second law in an operator-algebraic form, with finite relative quantities;
 4. a derivation of the clock normalization or temperature scale rather than insertion of the desired mass;
-5. a state-to-tangent map and entropy Hessian satisfying a uniform lower-frame bound \(\mathfrak d_{\mathrm{ent}}[\Psi]\geq\kappa_{\mathrm{ent}}\|(1-P_0)\Psi\|^2\), with \(\kappa_{\mathrm{ent}}>0\) stable through volume and regulator removal;
+5. a state-to-tangent map and entropy Hessian satisfying a uniform lower-frame bound \(\mathfrak d_{\mathrm{ent},n}[\Psi]\geq\kappa_{\mathrm{ent},n}\|(1-P_{0,n})\Psi\|^2\), with explicit carrier-identification maps, a positive uniform \(\liminf_n\kappa_{\mathrm{ent},n}\), generalized Mosco or another adequate convergence of the pulled-back entropy and Hamiltonian forms, and convergence of the vacuum projections;
 6. an independent same-carrier domination \(h\geq\eta_{\mathrm{sol}}E_*\mathfrak d_{\mathrm{ent}}\); and
 7. exact or controlled recovery of the \(G\)-free pure Yang--Mills carrier, local observable net, gauge identities, locality, Poincare covariance, spectrum condition, nontriviality, vacuum, and limiting Hamiltonian form when the claim concerns the Clay problem.
 

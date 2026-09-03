@@ -13,7 +13,7 @@ The target is not a numerical coincidence or a reinterpretation of a known Hamil
 - a derived dimensionless form comparison between distinction and physical energy after the yardstick is fixed;
 - a typed separation of descent, nonfaithful forgetting, outcome selection, record formation, and spectral coercivity;
 - control through infinite volume and continuum removal; and
-- either conservative local restriction to Yang--Mills QFT or a full recovery theorem.
+- exact recovery of the pure-Yang--Mills observable net, vacuum state, translation representation, and energy form, or their controlled recovery in a decoupling limit; restriction to a gauge-observable subalgebra of a larger theory is not enough.
 
 Selection of $SU(3)$, Standard Model matter, or numerical MeV values is outside the compatibility claim. The Clay statement is indexed by every compact simple gauge group.
 
@@ -31,7 +31,9 @@ Selection of $SU(3)$, Standard Model matter, or numerical MeV values is outside 
 10. Separate causal boundedness from UV regulation, replace the single-patch picture by an atlas of overlapping patches, distinguish record order from Euclidean and Lorentzian time, and prove the cross-carrier causal-semigroup comparison theorem in [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times|the causal-patch note]].
 11. Retype mass as the Poincare Casimir of the reconstructed translation representation, separate measurement pointing and phase selection from spectral coercivity, and audit the \(G,c,\hbar\) scale triangle against the gravity-free pure Yang--Mills target in [[contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization|the realization note]].
 12. Separate physical unit lines from conformal scale densities, prove the general same-carrier dilation no-gap lemma, and type inverse-Compton mass as a length dual only after the \(c,\hbar\) comparison maps are supplied.
-13. Audit the horizon/entropy intuition at fixed boundary scale and formulate the no-interior Copernican route as an exterior-sector reconstruction problem in [[contemporary-puzzles/yang-mills-mass-gap/horizon-saturation-and-entropic-distinction|the entropic-distinction note]].
+13. Audit the horizon/entropy intuition at fixed boundary scale and formulate the no-interior Copernican route first as an exterior-equivalence reconstruction problem in [[contemporary-puzzles/yang-mills-mass-gap/horizon-saturation-and-entropic-distinction|the entropic-distinction note]]; representation-sector language is admitted only after a GNS criterion is proved.
+14. Replace the ill-typed BKM Hessian at the global pure vacuum by a family of faithful observable-output states, pull their relative-entropy Hessians back to projective vacuum tangents, prove the finite regional-frame theorem, and test its blind directions in [[contemporary-puzzles/yang-mills-mass-gap/regional-relative-entropy-frames|the regional-frame note]].
+15. Audit whether quantum Markov or modular generators can supply the missing clock rate; prove the rate-rescaling and modular no-go boundaries, and isolate paired null generators followed by a joint Poincare Casimir as the viable modular reconstruction target.
 
 ## Evidence and obligation matrix
 
@@ -40,12 +42,12 @@ Selection of $SU(3)$, Standard Model matter, or numerical MeV values is outside 
 | Problem statement | Jaffe--Witten define the gap by absence of Hamiltonian spectrum in $(0,\Delta)$, require a nontrivial QFT on $\mathbb R^4$, and emphasize uniform finite-volume control | the target is a whole physical-carrier spectral theorem | continuum existence, axioms, nontriviality, and uniform gap remain indispensable |
 | Poincare Casimir | translation generators have a joint spectral measure; on an irreducible positive-energy sector \(P^2/c^2=m^2 1\) | mass labels a relativistic orbit or sector while momentum varies within it | first construct the Poincare-covariant physical carrier and exclude every nonvacuum null or arbitrarily light sector |
 | Realization signature | alternatives, probability weighting, obtained pointing, persistent record, and positive dynamical form are separately typed data | measurement, SSB, and a gap share an organizational grammar without sharing one mechanism | no general implication connects pointing to coercivity or supplies an actuality rule |
-| \(G,c,\hbar\) scale triangle | \(\ell_G=Gm/c^2\), \(\lambda_C=\hbar/(mc)\), and \(\ell_G\lambda_C=\ell_P^2\) are exact dimensional identities | an already known mass can be presented through reduced-Compton and gravitational lengths after the constants are fixed | pure Yang--Mills contains no \(G\); a gravitational derivation must recover a decoupled pure-gauge subtheory or a controlled \(G\to0\) limit and cannot infer the gap from unit conversion |
+| \(G,c,\hbar\) scale triangle | \(\ell_G=Gm/c^2\), \(\lambda_C=\hbar/(mc)\), and \(\ell_G\lambda_C=\ell_P^2\) are exact dimensional identities | an already known mass can be presented through reduced-Compton and gravitational lengths after the constants are fixed | pure Yang--Mills contains no \(G\); a gravitational derivation must recover the pure-Yang--Mills net, state, translation representation, and energy form in a controlled \(G\to0\) limit at fixed renormalized Yang--Mills scale, with a gap estimate uniform in the decoupling parameter |
 | unit versus conformal scale | physical dimensions live in quantity lines, while conformal densities are associated to the local Weyl-scale bundle | \(mc/\hbar\) is an inverse-length quantity; a nowhere-zero inverse-scale field can select a conformal scale only after a comparison map is supplied | a unit change, Weyl rescaling, dynamical scale field, and RG flow must not be identified |
 | exact dilation covariance | a nonzero positive self-adjoint \(A\) with \(V_sAV_s^*=e^{-s}A\) has \(\sigma(A)=[0,\infty)\) | a nontrivial same-carrier dilation-covariant Hamiltonian cannot be gapped | Yang--Mills dimensional transmutation removes exact dilatation symmetry but still requires a positive dimensionless ratio \(\Delta_E/\Lambda_{\mathrm{YM}}^{(\mathsf s)}\) |
 | horizon saturation | at fixed Schwarzschild areal radius, \(2GM/(Rc^2)=1\), \(S_{\mathrm{BH}}=k_BA/(4\ell_P^2)\), and \(T_HS_{\mathrm{BH}}=Mc^2/2\) | mass, area entropy, and temperature form a boundary-relative conversion triangle | no universal maximum mass follows; the radius and \(G\) are supplied inputs and do not set the pure Yang--Mills scale |
-| relative entropy solder | \(D(\rho\Vert\sigma)=\Delta\langle K_\sigma\rangle-\Delta s\geq0\), and for a Gibbs reference \(k_BTD=\Delta E-T\Delta S\) | temperature is an exact energy-per-nat comparison when modular and clock generators are identified | positivity is an entropy ceiling, not a full-carrier Hamiltonian floor; an entropy Hessian, coverage bound, and same-carrier energy comparison remain necessary |
-| no-interior reconstruction | an exterior map defines equivalence classes of pre-observable realizations without requiring interior objects in its target category | a black hole can be posed as a massive boundary or asymptotic representation sector | reconstruct all exterior observables, charges, horizon thermodynamics, causal response, and information accounting without importing the GR interior |
+| relative entropy solder | \(D(\rho\Vert\sigma)=\Delta\langle K_\sigma\rangle-\Delta s\geq0\), and for a faithful Gibbs reference at \(T>0\), \(k_BTD=\Delta E-T\Delta S\) | \(k_BT\) converts dimensionless relative entropy into a free-energy difference on that thermal carrier | positivity is an entropy ceiling, not a full-carrier Hamiltonian floor; an entropy Hessian, coverage bound, and same-carrier energy comparison remain necessary |
+| no-interior reconstruction | an operational exterior-algebra map defines equivalence classes of pre-observable states without requiring interior-localized objects in its target | a black hole can first be posed as an exterior equivalence class labelled by recovered charges; any sector claim requires a GNS representation and a declared factoriality, quasi-equivalence, disjointness, or central criterion | reconstruct all exterior observables, charges, horizon thermodynamics, causal response, ringdown, and information accounting without importing the GR interior |
 | Gauge descent | finite lattice gauge theory has a gauge-invariant physical carrier and Kogut--Susskind Hamiltonian | the gap need not be a gluon propagator mass | gauge reduction alone does not imply coercivity |
 | Ground-state transform | the regulated Hamiltonian becomes a vacuum-weighted flux Dirichlet form | exact finite-regulator Poincare reformulation | vacuum measure and lower constant must be controlled uniformly |
 | Haar flux frame | Peter--Weyl diagonalizes the product Laplacian; gauge invariants on a connected graph containing a cycle decompose into closed spin networks | the sharp pure-gauge constant is $g(\Gamma)\lambda_G$, which does not deteriorate with volume and is constant on fixed-girth lattice families | this is kinematic closure, not the interacting vacuum, continuum dynamics, or three-dimensional knotting |
@@ -56,13 +58,17 @@ Selection of $SU(3)$, Standard Model matter, or numerical MeV values is outside 
 | Finite causal patch | bounded continuum regions can retain arbitrarily short-distance modes and type-III local algebras | causal accessibility, UV resolution, algebraic dimension, and information capacity must be typed separately | construct any claimed finite capacity and UV regulator rather than infer them from a horizon radius |
 | Patch atlas and locality | locally covariant QFT and observable nets formulate isotony, spacelike commutation, and comparison among regions | locality may be recovered as an observable relation rather than assumed as primitive ontology | construct the patch site and a reconstruction functor with microcausality, covariance, state, dynamics, and gauge compatibility |
 | Two temporal roles | record inclusions or nonautomorphic semigroups are one-sided, while physical clock evolution is a two-sided automorphism group | causal direction can be investigated without identifying it with reversible equation time | construct obtained persistent records and a clock/energy solder; keep Euclidean depth and modular flow separate |
-| Causal-semigroup bridge | an invariant GNS-symmetric CP semigroup has a positive dimensionless dissipation generator; the comparison theorem combines causal coercivity, lower carrier coverage, energy soldering, and a yardstick | exact sufficient condition $\Delta_E\geq\eta_{\mathrm{sol}}\kappa_Cb_JE_*$ | construct every factor without the Hamiltonian gap and keep the product positive through continuum removal |
+| Causal-semigroup bridge | an invariant GNS-symmetric CP semigroup has a positive dimensionless dissipation generator; the comparison theorem combines causal coercivity, lower carrier coverage, energy soldering, and a yardstick | exact implication, conditional on its hypotheses: $\Delta_E\geq\eta_{\mathrm{sol}}\kappa_Cb_JE_*$ | construct every factor without the Hamiltonian gap and keep the product positive through continuum removal |
 | Formation versus response | an expectation defect and a formation generator vanish on their stable observable range | exact range--kernel no-go: transverse forgetting cannot be the internal mass-gap form | construct a tangential boundary-response operator on retained data, then compare it with physical energy |
 | Continuous frame | a family of analysis maps can have a positive lower frame bound | precise dimensionless meaning of causal completeness | maps, fiber norms, measure, and bound must be canonically normalized and physically constructed rather than chosen from $H$ |
 | Conditional expectations | Takesaki modular invariance gives state-preserving expectations; nested GNS projections give martingale shells | exact distinction decompositions on an admissible carrier | ordinary nested vacuum AQFT region algebras cannot provide a proper vacuum-preserving tower under Reeh--Schlieder hypotheses |
 | Dirichlet calculus | closed derivations can square to noncommutative Dirichlet generators | algebraic differentiation may precede an operator | Markov relaxation is not physical time without OS or a direct intertwiner |
 | Type III/core | Type III is natural locally; Falcone--Takesaki gives a canonical semifinite core with trace scaling | state/core transport and comparison across scale presentations | no Yang--Mills state, energy unit, or gap follows from type or core alone |
-| BKM/entropy | relative entropy Hessians and expectation loss give positive distinction norms | response-fiber metrics and finite Pythagorean identities | no physical energy numerator or clock rate follows |
+| Global-vacuum BKM obstruction | relative entropy between two distinct pure vector states is infinite in both directions because their supports differ | the global rank-one vacuum cannot directly carry the desired transverse BKM Hessian | use faithful observable outputs or a justified Araki-relative-entropy tangent construction, not an arbitrary full-rank admixture |
+| Regional entropy frame | faithful output channels give density-tangent maps \(J_\alpha\); their pulled-back BKM sum has kernel \(\bigcap_\alpha\ker J_\alpha\), and in finite dimension joint injectivity is equivalent to a positive lower-frame bound | an exact dimensionless, carrier-correct distinction form; the two-qubit witness proves local marginals can miss relative phase while a joint observable closes the kernel | construct a canonical gauge-invariant regional-plus-flux atlas and retain a uniform closed-range bound through continuum removal |
+| BKM/entropy | state-tangent BKM uses \(\Omega_\sigma^{-1}\), while the dual observable perturbation pairing uses \(\Omega_\sigma\); Umegaki entropy selects BKM from the larger Petz family | relative-entropy Hessians and expectation loss give positive distinction norms without confusing their domains | no physical energy numerator or clock rate follows |
+| QMS rate obstruction | \(\mathcal L_\varepsilon=\varepsilon(E_\sigma-\mathrm{id})\) leaves \(\sigma\), relative entropy, and BKM geometry fixed while its nonzero rate tends to zero | entropy decay or MLSI can lower-bound the gap of a separately supplied normalized Markov generator | construct its differential calculus and rate independently, then prove an OS or form-dominating bridge to the physical Yang--Mills Hamiltonian |
+| Modular kinematics | a Connes derivative is generally a twisted cocycle with no Stone generator; HSMI reconstructs a positive generator but dilation covariance makes it gapless | modular inclusions can supply orientation and null-translation kinematics; two individually gapless null generators can have a positive joint mass Casimir | reconstruct a coherent physical Poincare representation and exclude both the nonvacuum null cone and arbitrarily small timelike hyperboloids without importing the mass label |
 | Factivity/measurement | commutative contexts have characters; completely positive instruments determine outcome laws and conditional states | exact distinction between probability law, branch update, obtained value, and record | neither the state nor instrument selects one actual character; no spectral energy follows |
 | Torsors/descent | a torsor has relative differences but no preferred origin; strict descent glues compatible data | exact grammar for unpointed presentation and local-to-global compatibility | choosing a point is extra; descent alone is neither forgetting nor collapse |
 | knots/flux/topology | gauge invariance forces nontrivial finite-graph spin-network support to contain a cycle; embedding can add linking and knot invariants | abstract cycle closure gives the exact girth factor; embedded knot data may supply further dimensionless channels | girth is dimension independent, knotting is not used by the frame proof, and topological sectors need not exhaust all excitations |
@@ -129,11 +135,16 @@ Only the last arrow defines a spectral gap. The useful new hypothesis is that th
 - Fabio Cipriani and Jean-Luc Sauvageot, “Derivations as Square Roots of Dirichlet Forms,” *Journal of Functional Analysis* **201** (2003), [DOI](https://doi.org/10.1016/S0022-1236(03)00085-5). Relates tracially symmetric noncommutative Dirichlet forms to closable derivations and bimodules.
 - Melchior Wirth, “Modular Completely Dirichlet Forms as Squares of Derivations,” *International Mathematics Research Notices* (2024), [DOI](https://doi.org/10.1093/imrn/rnae092). Extends the derivation route to nontracial modular settings relevant to Type III standard forms.
 - Kazuhiro Kuwae and Takashi Shioya, “Convergence of Spectral Structures,” *Communications in Analysis and Geometry* **11** (2003), [DOI](https://doi.org/10.4310/CAG.2003.v11.n4.a1). Supplies generalized Mosco convergence on varying Hilbert spaces.
+- Andrew Lesniewski and Mary Beth Ruskai, “Monotone Riemannian Metrics and Relative Entropy on Noncommutative Probability Spaces,” *Journal of Mathematical Physics* **40** (1999), [arXiv:math-ph/9808016](https://arxiv.org/abs/math-ph/9808016). Supplies the relative-modular formulation of monotone metrics and the distinction between state-tangent and dual observable pairings.
+- Denes Petz, “Monotone Metrics on Matrix Spaces,” *Linear Algebra and its Applications* **244** (1996), [DOI](https://doi.org/10.1016/0024-3795(94)00211-8). Classifies a family of monotone quantum metrics, so monotonicity alone does not uniquely select BKM.
 - Eric Carlen and Jan Maas, “Gradient Flow and Entropy Inequalities for Quantum Markov Semigroups with Detailed Balance,” *Journal of Functional Analysis* **273** (2017), [arXiv](https://arxiv.org/abs/1609.01254). Shows in finite dimensions how detailed-balance Markov generators, noncommutative differential calculus, entropy gradient flow, and quantitative decay inequalities fit together; it does not identify Markov time with Lorentzian time.
+- Melchior Wirth, “Exponential Relative Entropy Decay Along Quantum Markov Semigroups,” [arXiv:2505.07549](https://arxiv.org/abs/2505.07549). Extends exponential Araki-relative-entropy decay, modified logarithmic-Sobolev inequalities, and an intertwining criterion to general von Neumann algebras; the semigroup and its normalization remain supplied data.
 
 ### Type III, modular transport, and expectations
 
 - Masamichi Takesaki, “Conditional Expectations in von Neumann Algebras,” *Journal of Functional Analysis* **9** (1972), [DOI](https://doi.org/10.1016/0022-1236(72)90004-3). Gives the modular-invariance criterion for a weight-preserving normal expectation.
+- Alain Connes, “Une classification des facteurs de type III,” *Annales scientifiques de l'École Normale Supérieure* **6** (1973), [DOI](https://doi.org/10.24033/asens.1247). Supplies the cocycle law and type-\(\mathrm{III}_1\) modular-spectrum invariant used to rule out a positive gapped Hamiltonian from one modular logarithm.
+- Gert K. Pedersen and Masamichi Takesaki, “The Radon--Nikodym Theorem for von Neumann Algebras,” *Acta Mathematica* **130** (1973), [DOI](https://doi.org/10.1007/BF02392262). In the commuting case represents a cocycle group by \(h^{it}\); state normalization then makes a semidefinite \(\log h\) trivial.
 - Tony Falcone and Masamichi Takesaki, “The Non-commutative Flow of Weights on a Von Neumann Algebra,” *Journal of Functional Analysis* **182** (2001), [DOI](https://doi.org/10.1006/jfan.2000.3718). Constructs the canonical semifinite core and trace-scaling action.
 - Helmut Reeh and Siegfried Schlieder, “Bemerkungen zur Unitäräquivalenz von Lorentzinvarianten Feldern,” *Nuovo Cimento* **22** (1961), [DOI](https://doi.org/10.1007/BF02787889). Supplies the cyclicity theorem used in the local-expectation no-go; separation follows from locality plus cyclicity for a spacelike complement in the usual vacuum setting.
 - Jakob Yngvason, “The Role of Type III Factors in Quantum Field Theory,” [arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058). Reviews why Type III factors occur naturally and why net embeddings, not the abstract isomorphism type of one factor, distinguish theories.
@@ -155,10 +166,11 @@ Only the last arrow defines a spectral gap. The useful new hypothesis is that th
 
 ### Entropy, acceleration, and dimensional calibration
 
-- Jacob D. Bekenstein, “Black Holes and Entropy,” *Physical Review D* **7** (1973), [DOI](https://doi.org/10.1103/PhysRevD.7.2333), [APS record](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.7.2333). Introduces black-hole entropy as exteriorly inaccessible information and formulates the generalized second law; it does not establish a universal maximum mass.
+- Jacob D. Bekenstein, “Black Holes and Entropy,” *Physical Review D* **7** (1973), [DOI](https://doi.org/10.1103/PhysRevD.7.2333), [APS record](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.7.2333). Motivates black-hole entropy using information inaccessible to an exterior observer and formulates the generalized second law; it does not establish a universal maximum mass.
+- Jacob D. Bekenstein, “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems,” *Physical Review D* **23** (1981), [DOI](https://doi.org/10.1103/PhysRevD.23.287), [APS record](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.23.287). Proposes \(S\leq2\pi k_BER/(\hbar c)\) for bounded systems and identifies black-hole saturation; the radius, energy, system class, and entropy notion are hypotheses, not a universal mass theorem.
 - S. W. Hawking, “Particle Creation by Black Holes,” *Communications in Mathematical Physics* **43** (1975), [DOI](https://doi.org/10.1007/BF02345020), [primary scan](https://astrofrelat.fcaglp.unlp.edu.ar/agujeros_negros/media/Papers/Hawking_1975-Particle_creation_by_black_holes.pdf). Derives thermal emission and fixes the Hawking temperature and quarter-area entropy coefficient.
 - G. W. Gibbons and S. W. Hawking, “Cosmological Event Horizons, Thermodynamics, and Particle Creation,” *Physical Review D* **15** (1977), [DOI](https://doi.org/10.1103/PhysRevD.15.2738). Makes horizon entropy and temperature explicitly relative to an observer's cosmological causal patch.
-- H. Casini, “Relative Entropy and the Bekenstein Bound,” *Classical and Quantum Gravity* **25** (2008), [DOI](https://doi.org/10.1088/0264-9381/25/20/205021), [arXiv:0804.2182](https://arxiv.org/abs/0804.2182). Retypes the finite QFT bound as positivity of vacuum-relative entropy, \(\Delta S\leq\Delta\langle K\rangle\); this is not a Hamiltonian lower bound.
+- H. Casini, “Relative Entropy and the Bekenstein Bound,” *Classical and Quantum Gravity* **25** (2008), [DOI](https://doi.org/10.1088/0264-9381/25/20/205021), [arXiv:0804.2182](https://arxiv.org/abs/0804.2182). Retypes the finite QFT bound as positivity of vacuum-relative entropy, \(\Delta S/k_B\leq\Delta\langle K\rangle\), when the subtracted terms are separately defined; this is not a Hamiltonian lower bound.
 - Ted Jacobson, “Thermodynamics of Spacetime: The Einstein Equation of State,” *Physical Review Letters* **75** (1995), [DOI](https://doi.org/10.1103/PhysRevLett.75.1260), [arXiv:gr-qc/9504004](https://arxiv.org/abs/gr-qc/9504004). Derives the Einstein equation from local Rindler heat balance after an entropy-per-area density is supplied; that density fixes Newton's coupling rather than deriving a Yang--Mills scale.
 - Erik Verlinde, “On the Origin of Gravity and the Laws of Newton,” *JHEP* **04** (2011) 029, [DOI](https://doi.org/10.1007/JHEP04(2011)029), [arXiv:1001.0785](https://arxiv.org/abs/1001.0785). Gives an entropic-force construction in which $G$ enters the holographic bit-count normalization; it is therefore not a parameter-free source of $E_*$.
 
@@ -184,33 +196,60 @@ Only the last arrow defines a spectral gap. The useful new hypothesis is that th
 
 ## Resulting construction target
 
-The research supports the exact factorization
+The research supports the following conditional lower-bound schema:
 
 $$
 \Delta_E
 \geq
 \underbrace{\kappa_{\mathrm{fr}}}_{\text{dimensionless causal completeness}}
 \underbrace{\eta_{\mathrm{sol}}}_{\text{dimensionless energy comparison}}
-\underbrace{\Lambda_*}_{\text{independently calibrated energy scale}}.
+\underbrace{E_*}_{\text{independently calibrated energy scale}}.
 $$
 
 The strongest currently realized member is finite lattice Yang--Mills, where the canonical Kogut--Susskind physical form is exactly a vacuum-weighted flux Dirichlet form. On the unweighted pure-gauge Haar carrier of a connected graph containing a cycle, the exact lower frame constant is $g(\Gamma)\lambda_G$. Euclidean time-slice sewing now constructs the corresponding vacuum law for the transfer Hamiltonian, while the Gaussian member shows exactly how a half-space Dirichlet-to-Neumann lower edge becomes a mass gap after kinetic solder. A global density transfer to the interacting vacuum is exact but usually non-uniform. Two noncircular theorem routes remain: prove uniform local conditional coercivity plus subcritical influence for $\psi_{0,a,L}^2\mu_{a,L}$, or prove a uniform bulk Euclidean functional inequality and pass it directly to the time-zero marginal. Either route still requires the correct Hamiltonian-form comparison and survival of the calibrated product in the continuum. A separately constructed causal relaxation carrier now has its own exact comparison theorem: causal coercivity $\kappa_C$, lower carrier coverage $b_J$, an energy solder $\eta_{\mathrm{sol}}$, and a yardstick $E_*$ imply $\Delta_E\geq\eta_{\mathrm{sol}}\kappa_Cb_JE_*$. Type III/core and Hessian machinery are comparison tools for these constructions, not substitutes for them.
 
-The factors $\kappa_{\mathrm{fr}}$ and $\eta_{\mathrm{sol}}$ are separately explanatory only after the response-fiber norms and wall measure have a canonical upstream wall or test normalization. Under an arbitrary rescaling of the distinction maps they transform reciprocally; the physical product $\kappa_{\mathrm{fr}}\eta_{\mathrm{sol}}\Lambda_*$ is invariant.
+The factors $\kappa_{\mathrm{fr}}$ and $\eta_{\mathrm{sol}}$ are separately explanatory only after the response-fiber norms and wall measure have a canonical upstream wall or test normalization. Under an arbitrary rescaling of the distinction maps they transform reciprocally; the physical product $\kappa_{\mathrm{fr}}\eta_{\mathrm{sol}}E_*$ is invariant.
 
-The entropy research sharpens the interpretation of the first factor. A horizon or noninjective exterior map can organize unresolved alternatives, and relative-entropy Hessians can provide dimensionless local distinction forms. Temperature supplies an exact energy-per-nat comparison only when a modular generator is independently identified with the relevant physical clock generator. Thus a possible specialization is
+The entropy research sharpens the interpretation of the first factor. A horizon or noninjective exterior map can organize unresolved alternatives, but the rank-one global vacuum cannot itself carry a finite transverse Umegaki/BKM Hessian. A typed specialization instead requires independently constructed observable channels \(\mathcal R_\alpha\) whose vacuum outputs \(\sigma_\alpha=\mathcal R_\alpha(P_0)\) are faithful, and the derivative maps
+
+$$
+J_\alpha:
+\mathcal H_{\mathrm{YM}}\ominus\mathcal H_0
+\longrightarrow
+T_{\sigma_\alpha}\mathcal S,
+\qquad
+\mathfrak d_{\mathrm{ent}}[\Psi]
+:=
+\sum_\alpha w_\alpha
+g^{\mathrm{BKM}}_{\sigma_\alpha}
+(J_\alpha\Psi,J_\alpha\Psi),
+$$
+
+and the two independent estimates
+
+$$
+\mathfrak d_{\mathrm{ent}}[\Psi]
+\geq
+\kappa_{\mathrm{ent}}\lVert\Psi\rVert^2,
+\qquad
+\mathfrak h_{\mathrm{YM}}[\Psi]
+\geq
+\eta_{\mathrm{ent}}E_*
+\mathfrak d_{\mathrm{ent}}[\Psi].
+$$
+
+Only then would one obtain
 
 $$
 \Delta_E
 \geq
 \kappa_{\mathrm{ent}}
-\eta_{\mathrm{ent}}
-k_BT_*,
+\eta_{\mathrm{ent}}E_*,
 $$
 
-but every factor must be constructed on or compared with the pure Yang--Mills vacuum carrier. Black-hole area saturation, an Unruh temperature at a chosen acceleration, and positivity of relative entropy do not supply this inequality. Conversely, once a physical gap is known, \(\xi_{\mathrm{gap}}=\hbar c/\Delta_E\) is its exact Euclidean persistence length. The gap supplies a scale of decay, not a spacetime pixel.
+At finite dimension the first estimate is exactly a lower-frame or least-singular-value problem for the joint BKM-weighted observation map; the two-qubit witness shows why local marginals may require joint flux or loop channels to close their common kernel. Infinite dimension requires a uniform closed-range estimate, not mere point separation. The second estimate is independent. Neither bare BKM geometry nor a Connes cocycle fixes its rate: the QMS family \(\mathcal L_\varepsilon=\varepsilon(E_\sigma-\mathrm{id})\) has identical state geometry and arbitrarily small gap, while one HSMI generator is positive but necessarily gapless. The modular positive target is instead a joint Poincare Casimir reconstructed from a coherent family of causal generators. Black-hole area saturation, an Unruh temperature at a chosen acceleration, and positivity of relative entropy do not supply either estimate or the yardstick. Conversely, once a physical gap is known, \(\xi_{\mathrm{gap}}=\hbar c/\Delta_E\) is the universal norm-decay length of the vacuum-complement Euclidean semigroup. Under further locality, spectral, and coupling hypotheses it bounds channel-specific correlation scales; it is not a spacetime pixel.
 
-The resulting Copernican proposal is a reconstruction order, not a rejection slogan: begin with an algebra of distinctions, a state, directed compatibility data, and a positive response form; reconstruct localization, causal cones, metric scale, the Poincare action, and the clock Hamiltonian; then prove that the response form is uniformly coercive. A no-interior black-hole ontology is admissible within this order only if an exterior-sector reconstruction recovers every observable prediction without presupposing the classical interior manifold.
+The resulting Copernican proposal is a reconstruction order, not a rejection slogan: begin with an algebra of distinctions, a state, directed compatibility data, and a positive response form; reconstruct localization, causal cones, metric scale, the Poincare action, and the clock Hamiltonian; then prove that the response form is uniformly coercive. A no-interior black-hole ontology is admissible within this order only if an exterior-equivalence construction recovers every observable prediction without presupposing the classical interior manifold; calling the result a representation sector is a later theorem, not part of the definition.
 
 ## Kill conditions
 
@@ -222,11 +261,13 @@ The resulting Copernican proposal is a reconstruction order, not a rejection slo
 - The wall family has a common kernel larger than the vacuum or only pointwise, non-uniform separation.
 - The energy-solder inequality is simply postulated after inspecting the desired gap.
 - The dimensional scale imports the observed gap, measured $G$, Planck units, or a fitted cosmic history while claiming a derivation.
-- Newton's constant is made essential to the pure Yang--Mills gap without a gravity-decoupling theorem that recovers the \(G\)-free Clay target.
+- Newton's constant is made essential to the pure Yang--Mills gap without a \(G\to0\) theorem at fixed renormalized Yang--Mills scale that recovers the observable net, state, translations, and energy form and carries a gap estimate uniform in the decoupling parameter.
 - A metrological unit change is identified with a Weyl rescaling, or a Poincare spectral mass is treated as a spacetime scale field without a comparison map.
 - Horizon area saturation, relative-entropy positivity, or a thermal/KMS state is claimed to imply a positive Hamiltonian gap; massless Rindler QFT is an immediate counterexample.
 - A black hole is declared to have no interior while exterior charges, response, ringdown, horizon thermodynamics, and information accounting are left unreconstructed.
 - A Markov or modular generator is called physical time without OS reconstruction or a direct positive-energy intertwiner.
+- Bare BKM or relative-entropy geometry is claimed to determine a dimensional rate despite the fixed-state rescaling family \(\mathcal L_\varepsilon=\varepsilon(E_\sigma-\mathrm{id})\).
+- One modular logarithm or HSMI translation is called mass instead of reconstructing the full translation representation and testing its joint Poincare Casimir.
 - Causal boundedness is treated as a UV cutoff, a finite-dimensional algebra, or a finite information-capacity theorem.
 - A single totally ordered patch chain is treated as sufficient to reconstruct spacelike locality.
 - The transverse defect that forms the observable carrier is reused as its internal gap form even though it vanishes on that carrier.

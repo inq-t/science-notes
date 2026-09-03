@@ -551,6 +551,75 @@ $$
 
 with the scheme dependence cancelling in the physical product. RG evolution is not itself a same-carrier unitary dilation group, and neither the anomaly nor asymptotic freedom proves \(\kappa_{\mathsf s}>0\).
 
+### A fixed member may be gapped while the family is scale covariant
+
+The preceding no-gap lemma applies to one operator on one Hilbert carrier. It does not forbid covariance of a *family* of theories carrying different nonzero scale parameters. Let
+
+$$
+\mathfrak T_\Lambda
+=
+(\mathfrak A_\Lambda,\omega_\Lambda,U_\Lambda),
+\qquad
+\Lambda>0,
+$$
+
+denote a putative one-scale family, with the unit convention suppressed. If enlarging lengths by (e^s) induces comparison isomorphisms
+
+$$
+\mathfrak D_s^\Lambda:
+\mathfrak T_\Lambda
+\longrightarrow
+\mathfrak T_{e^{-s}\Lambda},
+\qquad
+\mathfrak D_s^{e^{-t}\Lambda}
+\circ
+\mathfrak D_t^\Lambda
+=
+\mathfrak D_{s+t}^\Lambda,
+\tag{D1}
+$$
+
+after the domains and identifications have been made precise, then (D1) relates *different members*. It is not the forbidden internal relation (V_sH_\Lambda V_s^*=e^{-s}H_\Lambda) on one fixed carrier. A fixed member with (Lambda>0) can therefore be gapped even while the unpointed family is covariant under changes of scale.
+
+Suppose the comparison maps also transport the physical translation spectrum. Homogeneity then requires
+
+$$
+\Delta_E(e^{-s}\Lambda)
+=
+e^{-s}\Delta_E(\Lambda).
+\tag{D2}
+$$
+
+For a genuinely one-scale family this gives
+
+$$
+\boxed{
+\Delta_E(\Lambda)
+=
+\kappa\Lambda,}
+\tag{D3}
+$$
+
+where (kappa) is dimensionless. Equation (D3) separates two questions that are often blurred. Family covariance explains why any gap, if present, scales linearly with the sole yardstick. It does not prove (kappa>0). That strict inequality is precisely the infrared coercivity theorem still owed.
+
+There is a torsor-like metrological aspect. Before one member is calibrated against another physical sector, the family has relative scale ratios but no preferred numerical origin or unit. A renormalization-scheme change
+
+$$
+\Lambda_{\mathsf s'}
+=
+C_{\mathsf s'\mathsf s}\Lambda_{\mathsf s}
+$$
+
+must be accompanied by
+
+$$
+\kappa_{\mathsf s'}
+=
+C_{\mathsf s'\mathsf s}^{-1}\kappa_{\mathsf s}
+$$
+
+so that (Delta_E) is unchanged. Pointing this scale torsor expresses the answer in MeV; it is not what makes the ratio positive. [[register-audit]] uses this member--family distinction to locate the remaining Clay problem in the ultraviolet-to-infrared trajectory rather than in a contradiction between classical scale covariance and observed mass.
+
 ### Gravitational and reduced-Compton presentations
 
 Gravity adds a second conversion. For a mass \(m\), define the gravitational length without the conventional Schwarzschild factor \(2\),
