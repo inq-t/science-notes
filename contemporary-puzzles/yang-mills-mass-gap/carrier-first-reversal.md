@@ -33,7 +33,7 @@ with event localization, causal cones, metric scale, an observable net, Poincare
 | locality as microscopic ontology | isotony, commutation, causal factorization, and finite propagation of the observable net |
 | one undifferentiated time variable | directed record order, reversible clock automorphisms, Euclidean preparation, and modular flow, compared but not identified |
 | mass as stuff or a field coefficient | Poincare Casimir and a positive lower edge of the reconstructed translation spectrum |
-| a black hole as an object enclosing an assumed interior | an exterior boundary sector or terminal localization object, with any interior ontology owed by reconstruction |
+| a black hole as an object enclosing an assumed interior | an exterior equivalence class, with sector status and any interior ontology owed by reconstruction |
 | entropy as substance | unresolved distinguishability relative to a state, algebra, boundary, or channel |
 
 This is the programme's Copernican test. If \(\mathsf{Rec}\) recovers the QFT observables and symmetries and makes the gap follow from a simpler coercive principle, the reversal has explanatory force. If it merely renames energy “distinction,” assumes the desired response form, or fails to recover locality and Poincare covariance, it has redrawn the epicycle.
@@ -46,7 +46,7 @@ $$
 \tag{C1}
 $$
 
-The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and terminal-boundary version of the same reversal; [[mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
+The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and localization-boundary version of the same reversal; [[mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
 
 ## The operator-carrier ledger
 

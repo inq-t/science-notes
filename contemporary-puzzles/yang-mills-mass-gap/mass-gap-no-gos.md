@@ -12,6 +12,8 @@ The reclassification in [[register-audit]] has positive content only if it forbi
 
 **[EXACT -- SCOPED]** [[the-grain-of-causal-scale/causal-spectrum|The HSMI no-gap theorem]]: if the positive translation generator \(P\) of a half-sided modular inclusion satisfies \(\Delta^{it}P\Delta^{-it}=e^{-2\pi t}P\), then \(P=0\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum on a separable Hilbert space. A nonzero gap in that *same generator* requires the covariance hypothesis to fail or passage to a different constructed carrier and generator. The theorem does not establish that every pre-wall spectrum is gapless or that a wall automatically supplies a gap. Classical Yang--Mills scale covariance and its quantum trace anomaly are a compatible standard analogy, not an identification of its Hamiltonian with this \(P\).
 
+The spectral core is more general. If \(A\geq0\) is nonzero and self-adjoint and \(V_sAV_s^*=e^{-s}A\) as self-adjoint operators for every real \(s\), unitary invariance forces \(\sigma(A)=e^{-s}\sigma(A)=[0,\infty)\). A unit change, a conformal-scale presentation, RG flow, and such a same-carrier unitary dilation symmetry are four different operations. [[mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|The same-carrier lemma]] states the domains and the Yang--Mills application.
+
 **Kill condition.** A proposed gap located in this unbroken dilation-covariant HSMI generator contradicts the exact theorem. The condition says nothing until the proposed physical Hamiltonian is actually identified with that generator.
 
 ## NG3 — Dimensionless data cannot supply the yardstick
@@ -32,7 +34,7 @@ $$
 \ell_G(m)\lambda_C(m)=\ell_P^2.
 $$
 
-These equations make mass a precise hinge between gravitational response length and reduced-Compton length. They do not derive \(m\). More decisively, the Clay pure Yang--Mills target on Minkowski spacetime contains no Newton coupling. A construction in a larger gravitational theory must recover either an exact decoupled pure-gauge factor or a controlled \(G\to0\) limit with the renormalized gauge scale, gauge-invariant observables, and proposed Yang--Mills gap finite. [[mass-as-casimir-and-realization#Mass in gravitational and quantum length conversions|Mass in gravitational and quantum length conversions]] gives the full geometric typing.
+These equations make mass a precise hinge between gravitational response length and reduced-Compton length. They do not derive \(m\). More decisively, the Clay pure Yang--Mills target on Minkowski spacetime contains no Newton coupling. A construction in a larger gravitational theory must recover either an exact decoupled pure-gauge subtheory or a controlled \(G\to0\) limit yielding the pure-Yang--Mills carrier, Hamiltonian, renormalized gauge scale, and gauge-invariant observables. The full gravitational carrier remains gapless in the presence of arbitrarily soft gravitons. [[mass-as-casimir-and-realization#Mass in gravitational and quantum length conversions|Mass in gravitational and quantum length conversions]] gives the full geometric typing.
 
 **Kill condition.** A formula that obtains the pure Yang--Mills gap essentially from \(G\) or Planck units, but supplies no gravity-decoupling and Yang--Mills scale-matching theorem, answers a different problem or merely changes units.
 
@@ -91,6 +93,23 @@ $$
 The first factor is volume independent, but the global oscillation of the log-density may be extensive. The resulting exponential deterioration is a defect of this proof method, not evidence that the true gap closes: even product measures can have bad global density ratios and uniform Poincare constants. A viable proof needs local conditional or block inequalities and a quantitative mixing estimate, controlled without assuming the target gap.
 
 **Kill condition.** Positivity of the density ratio at every finite regulator does not imply a volume-uniform or continuum gap. A claimed proof fails if it never bounds its comparison factor in fixed physical units uniformly in volume and regulator removal.
+
+## NG10 — Entropy ceilings do not imply spectral floors
+
+**[EXACT TYPE SEPARATION]** Positivity of relative entropy gives
+
+$$
+D(\rho\Vert\sigma)
+=
+\Delta\langle K_\sigma\rangle-\Delta s
+\geq0,
+$$
+
+and hence an upper bound on entropy change by modular energy. Data processing makes this distinguishability nonincreasing under a channel. Neither statement lower-bounds the physical Hamiltonian on every vector orthogonal to the vacuum. A Rindler horizon and Unruh temperature exist for massless QFT, while a gapped isolated system preserves fine-grained entropy under reversible unitary evolution. Horizon, temperature, entropy monotonicity, and mass gap therefore do not imply one another.
+
+For a fixed Schwarzschild areal radius \(R\), \(2GM/(Rc^2)=1\) and \(S_{\mathrm{BH}}=k_BA/(4\ell_P^2)\) express boundary-relative compactness and entropy saturation. The scale \(R\) and the coupling \(G\) are already present, and neither belongs to the gravity-free Clay theory. The live entropy route must instead construct a relative-entropy or BKM Hessian on a complete family of gauge-invariant state perturbations, prove a uniform lower-frame bound, and compare that form with the Yang--Mills Hamiltonian using an independent pure-gauge scale. [[horizon-saturation-and-entropic-distinction]] gives the typed construction.
+
+**Kill condition.** A proposed gap fails if it infers a positive energy floor from an entropy maximum, area law, horizon, or Unruh/Hawking temperature without a full-carrier lower bound and a same-carrier clock-energy comparison. Choosing the region radius from the desired correlation length is circular.
 
 ## A lower-dimensional structural analogue
 
