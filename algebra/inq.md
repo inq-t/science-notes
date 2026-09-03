@@ -98,6 +98,8 @@ The integrable complex structure on $S^6$ is established, but it is not an estab
 
 There is nevertheless a rigorous route by which six real dimensions can return three. For a complex threefold \(X\) with an antiholomorphic involution \(\tau\), every nonempty fixed component \(X^\tau\) is a real three-manifold. [[algebra/real-forms-and-factive-spacetime|Real forms and factive spacetime]] proves this exact statement and separates it from the open functor that would make those three-manifolds spatial objects and four-dimensional Lorentzian histories their process arrows.
 
+There is also an independent conditional route from cyclic probes to three-space. A single bare closed line has nontrivial ambient-isotopy classes in Euclidean dimension three but not in dimension two or any dimension at least four. [[knotting-as-dimensional-presentation/inq|Knotting as three-dimensional presentation]] shows how connection holonomy motivates the one-dimensional probe, why codimension-two loop detection gives \(1+1+1=3\), and where the argument still presupposes rather than derives spatial realization.
+
 ## The new dependency order
 
 The proposed order of construction is

@@ -13,6 +13,7 @@ members = [
   "nilpotency-and-the-wall",
   "dimensional-ladder",
   "ko-dimension-as-morita-class",
+  "knotting-as-dimensional-presentation",
   "symmetry-groups-select",
   "compatible-with-existing-physics",
   "causal-wall-spectral-theory",
