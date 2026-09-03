@@ -81,7 +81,7 @@ $$
 \tag{R4}
 $$
 
-In pure four-dimensional Yang--Mills the native candidate is a renormalization-group scale \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\), after a scheme and renormalization condition are declared. A scheme change rescales \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\) and the reported coefficient reciprocally; the physical product is invariant. A dimensionless octonionic, cusp, flux, or entropy invariant cannot become MeV merely by multiplication with \(G\), a fitted cosmic rate, or a chosen Unruh acceleration unless an independent same-carrier theorem explains why that quantity is the Yang--Mills yardstick.
+In pure four-dimensional Yang--Mills the native candidate is a renormalization-group scale \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\), taken here in an energy-valued convention after a scheme and renormalization condition are declared; an inverse-length convention requires \(\hbar c\). A scheme change rescales \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\) and the reported coefficient reciprocally; the physical product is invariant. A dimensionless octonionic, cusp, flux, or entropy invariant cannot become MeV merely by multiplication with \(G\), a fitted cosmic rate, or a chosen Unruh acceleration unless an independent same-carrier theorem explains why that quantity is the Yang--Mills yardstick.
 
 The family \(\{\mathfrak T_\Lambda\}_{\Lambda>0}\) is scale-torsor-like: ratios between members are meaningful before one member is assigned a numerical unit. Coupling to a metrological or external sector may point the torsor and express the gap in joules, but the pure-theory theorem must first show the scale-free statement \(\Delta_E/\Lambda_{\mathrm{YM}}^{(\mathsf s)}>0\).
 

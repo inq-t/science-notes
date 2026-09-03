@@ -84,11 +84,11 @@ k_BT_\kappa
 \qquad
 \frac{\delta Q_\kappa}{k_BT_\kappa}
 =
-\frac{\delta Q_1}{k_BT_1}.
+\frac{2\pi c}{\hbar}\,\delta Q_1.
 \tag{E5}
 $$
 
-The cancellation is exactly why an arbitrary local boost normalization can yield a geometric equation. It also proves a no-yardstick result: the dimensionless entropy response determines no absolute \(\kappa\), temperature, energy, or mass scale. The universal \(2\pi\) fixes a dimensionless conversion convention; it cannot by itself produce \(E_*\).
+Here \(\delta Q_1\) denotes the coefficient of the chosen boost normalization, not heat evaluated at a dimensionless “unit acceleration.” The cancellation is exactly why an arbitrary local boost normalization can yield a geometric equation. It also proves a no-yardstick result: the dimensionless entropy response determines no absolute \(\kappa\), temperature, energy, or mass scale. The universal \(2\pi\) fixes a dimensionless conversion convention; it cannot by itself produce \(E_*\).
 
 The entropy-area coefficient is likewise supplied:
 
@@ -177,6 +177,18 @@ and the equipotential surfaces of the desired potential define the screen family
 Stochasticity is not a common premise of the strongest entropic arguments above. Jacobson's implication is an equilibrium universality argument, and (E9) is a deterministic equality of quadratic forms. In [[library/stochastic-gravity-theory-and-applications/inq|stochastic gravity]], a classical stochastic source is introduced so that its covariance reproduces the stress-tensor noise kernel in the Einstein--Langevin description. The noise kernel is a positive two-point covariance acting on test-tensor perturbations; it is not a selection of one actual history and does not assert that chance is fundamental.
 
 Such a kernel may still be useful. It supplies a principled quadratic form measuring fluctuations visible to geometry, and an influence functional can relate its symmetric noise part to a dissipative response kernel under suitable state and stationarity assumptions. But covariance is not inverse covariance, dissipation is not Lorentzian Hamiltonian evolution, and fluctuation--dissipation does not supply an absolute clock normalization. A noise kernel can become one response fiber in an atlas only after a carrier map, domain, quotient by gauge directions, and energy solder are proved.
+
+The distinction is already exact in a faithful finite model. If \(\sigma=\sum_i p_i|i\rangle\langle i|\), the symmetrized covariance of a self-adjoint observable \(A\) weights \(|A_{ij}|^2\) by the arithmetic mean \((p_i+p_j)/2\). The dual BKM observable form weights it by the logarithmic mean
+
+$$
+L(p_i,p_j)
+:=
+\frac{p_i-p_j}{\log p_i-\log p_j},
+$$
+
+with the continuous diagonal value \(L(p_i,p_i)=p_i\), while the BKM metric on density tangents uses \(L(p_i,p_j)^{-1}\). These forms are related but not identical. Calling all of them “entropy curvature” would erase which object operates on observables, which on state tangents, and which on stochastic sources.
+
+Nor does a threshold in the stress-tensor noise spectrum automatically equal the global mass gap. It sees only sectors created by \(T_{\mu\nu}\); for a free massive scalar, for example, the bilinear stress tensor has a two-particle threshold even though the one-particle mass is lower. A fluctuation--dissipation relation transports spectral support between noise and response kernels under its KMS hypotheses; it does not create support or prove that the probed channel is complete. At finite temperature, energy-difference frequencies can also accumulate at zero despite a positive vacuum gap.
 
 ## The all-cut entropic-stiffness theorem target
 

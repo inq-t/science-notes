@@ -539,7 +539,7 @@ $$
 
 Thus, when \(A\neq0\), zero cannot be separated by a positive interval from the nonzero spectral support of that **same operator on that same carrier**. The \(A=0\) branch is spectrally trivial and cannot describe nontrivial Yang--Mills translations. Changing the basis of the unit lines, or the trivialization used to present one fixed abstract conformal scale, does not evade the theorem. A genuine gap requires (D) to fail, passage to a different GNS carrier with its induced operator, or identification of the physical Hamiltonian with a different operator. Merely changing a state inside the same representation does not change \(\sigma(A)\).
 
-Taking \(A=H\) gives the clean energy-gap obstruction and is the general spectral skeleton of [[the-grain-of-causal-scale/causal-spectrum|the HSMI no-gap theorem]]. In renormalized four-dimensional pure Yang--Mills, the nonzero beta function produces a flat-space trace or dilatation anomaly, so a fixed quantum theory is not expected to satisfy (D). The running coupling at a reference scale is traded for a scheme-labelled RG-invariant parameter \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\). This still does not prove a gap: one must establish
+Taking \(A=H\) gives the clean energy-gap obstruction and is the general spectral skeleton of [[the-grain-of-causal-scale/causal-spectrum|the HSMI no-gap theorem]]. In renormalized four-dimensional pure Yang--Mills, the nonzero beta function produces a flat-space trace or dilatation anomaly, so a fixed quantum theory is not expected to satisfy (D). The running coupling at a reference scale is traded for a scheme-labelled RG-invariant parameter \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\), taken here in an energy-valued convention. An inverse-length convention requires the factor \(\hbar c\). This still does not prove a gap: one must establish
 
 $$
 \Delta_E
@@ -563,7 +563,7 @@ $$
 \Lambda>0,
 $$
 
-denote a putative one-scale family, with the unit convention suppressed. If enlarging lengths by (e^s) induces comparison isomorphisms
+denote a putative one-scale family, with \(\Lambda\) energy-valued and the unit basis suppressed. If enlarging lengths by \(e^s\) induces comparison isomorphisms
 
 $$
 \mathfrak D_s^\Lambda:
@@ -579,7 +579,7 @@ $$
 \tag{D1}
 $$
 
-after the domains and identifications have been made precise, then (D1) relates *different members*. It is not the forbidden internal relation (V_sH_\Lambda V_s^*=e^{-s}H_\Lambda) on one fixed carrier. A fixed member with (Lambda>0) can therefore be gapped even while the unpointed family is covariant under changes of scale.
+after the domains and identifications have been made precise, then (D1) relates *different members*. It is not the forbidden internal relation \(V_sH_\Lambda V_s^*=e^{-s}H_\Lambda\) on one fixed carrier. A fixed member with \(\Lambda>0\) can therefore be gapped even while the unpointed family is covariant under changes of scale.
 
 Suppose the comparison maps also transport the physical translation spectrum. Homogeneity then requires
 
@@ -600,7 +600,7 @@ $$
 \tag{D3}
 $$
 
-where (kappa) is dimensionless. Equation (D3) separates two questions that are often blurred. Family covariance explains why any gap, if present, scales linearly with the sole yardstick. It does not prove (kappa>0). That strict inequality is precisely the infrared coercivity theorem still owed.
+where \(\kappa\) is dimensionless. Equation (D3) separates two questions that are often blurred. Family covariance explains why any gap, if present, scales linearly with the sole yardstick. It does not prove \(\kappa>0\). That strict inequality is precisely the infrared coercivity theorem still owed.
 
 There is a torsor-like metrological aspect. Before one member is calibrated against another physical sector, the family has relative scale ratios but no preferred numerical origin or unit. A renormalization-scheme change
 
@@ -618,7 +618,7 @@ $$
 C_{\mathsf s'\mathsf s}^{-1}\kappa_{\mathsf s}
 $$
 
-so that (Delta_E) is unchanged. Pointing this scale torsor expresses the answer in MeV; it is not what makes the ratio positive. [[register-audit]] uses this member--family distinction to locate the remaining Clay problem in the ultraviolet-to-infrared trajectory rather than in a contradiction between classical scale covariance and observed mass.
+so that \(\Delta_E\) is unchanged. Pointing this scale torsor expresses the answer in MeV; it is not what makes the ratio positive. [[register-audit]] uses this member--family distinction to locate the remaining Clay problem in the ultraviolet-to-infrared trajectory rather than in a contradiction between classical scale covariance and observed mass.
 
 ### Gravitational and reduced-Compton presentations
 
