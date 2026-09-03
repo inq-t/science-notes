@@ -1,0 +1,23 @@
+past--future angle: finite reversible three-state witness
+separation exponent d (step = 0.2)
+d    c_F           expected       round_trip
+1    0.818730753   0.818730753   0.670320046
+2    0.670320046   0.670320046   0.449328964
+3    0.548811636   0.548811636   0.301194212
+5    0.367879441   0.367879441   0.135335283
+adjacent slices: raw floor vanishes; logarithmic rate stays fixed
+a          1-c_F         -log(c_F)/a
+0.5000     0.393469340    1.000000000
+0.2500     0.221199217    1.000000000
+0.1250     0.117503097    1.000000000
+0.0625     0.060586937    1.000000000
+fixed physical thickness: raw angle stays fixed
+a          d       c_F           1-c_F
+1.0000     1       0.367879441   0.632120559
+0.5000     2       0.367879441   0.632120559
+0.2500     4       0.367879441   0.632120559
+0.1250     8       0.367879441   0.632120559
+Euclidean dwell (hbar*c = 1): gap is reciprocal persistence ceiling
+spectrum(D_E) = [0.000000000, 0.166666667, 0.500000000]
+1/(2 ||D_E||) = 1.000000000
+scope: finite Markov identities only; no continuum or Yang--Mills claim

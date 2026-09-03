@@ -251,10 +251,10 @@ $$
 
 is a reversible automorphism group. Energy is the generator dual to this clock parameter. It is not what is “spent” merely because a fact becomes settled.
 
-After OS reconstruction—or after a regulated transfer generator has independently been identified with the physical Hamiltonian—Euclidean depth is represented by
+After OS reconstruction—or after a regulated transfer generator has independently been identified with the physical Hamiltonian—let \(E_0:=\inf\sigma(H)\), assume the ground-energy eigenspace exists in the stated setup, and write \(H_0:=H-E_0I\geq0\) for the vacuum-normalized Hamiltonian. Euclidean depth is represented by
 
 $$
-T_{\tau_E}=e^{-\tau_E(H-E_0)/\hbar}.
+T_{\tau_E}=e^{-\tau_EH_0/\hbar}.
 $$
 
 That phrase hides an exact descent gate. Start with a reflection \(\theta\), a positive-time algebra \(\mathcal A_+\), a reflection-positive functional \(\omega\), and a distinguished family of Euclidean translations \(\tau_s\). Quotient \(\mathcal A_+\) by the null space of
@@ -268,23 +268,55 @@ $$
 The positive translations must preserve this null space and descend to a strongly continuous self-adjoint contraction semigroup on the completed OS carrier. Only then does the spectral theorem give
 
 $$
-T(s)=e^{-sH/\hbar},
-\qquad H\geq0.
+T(s)=e^{-sH_0/\hbar},
+\qquad H_0\geq0.
 $$
 
-Euclidean covariance, the OS regularity and growth conditions, locality or symmetry of the Euclidean fields, and analytic continuation are further requirements for identifying this \(H\) with the clock Hamiltonian of a positive-energy Poincare theory. Reflection positivity alone does not turn an arbitrary Markov, modular, RG, or record-order semigroup into time translation.
+Euclidean covariance, the OS regularity and growth conditions, locality or symmetry of the Euclidean fields, and analytic continuation are further requirements for identifying the unshifted \(H=H_0+E_0I\) with the clock Hamiltonian of a positive-energy Poincare theory. Reflection positivity alone does not turn an arbitrary Markov, modular, RG, or record-order semigroup into time translation.
 
 [[library/the-semigroup-characterization-of-osterwalder-schrader-path-spaces/inq|Klein's semigroup characterization]] isolates this quotient-semigroup step, while [[library/from-euclidean-field-theory-to-quantum-field-theory/inq|Schlingemann's algebraic reconstruction]] begins with Euclidean local data and an additional time-zero condition in order to recover a Haag--Kastler net.
 
-It composes and prepares the ground-state space but is not a Lorentzian clock and does not select an outcome. For a self-adjoint \(H-E_0\geq0\), finite-depth \(T_{\tau_E}\) is injective even though its inverse is generally unbounded, and the spectral theorem gives
+[[past-future-angle-and-the-transfer-gap]] gives a sharp geometric realization when the OS path space is also stationary, reversible, Markov, and Hilbert-positive. Conditional expectations onto disjoint past and future half-spaces at Euclidean separation \(\ell>0\) have Friedrichs cosine
 
 $$
-e^{-\tau_E(H-E_0)/\hbar}
+c_F(\ell)
+=
+\left\|e^{-\ell H_0/(\hbar c)}(1-P_0)\right\|,
+\qquad
+P_0=E_{H_0}(\{0\}).
+$$
+
+The positive return \(qpq\) lives on the history carrier. If \(J_+^0\) is the centered endpoint isometry, then the exact carrier identification is
+
+$$
+(J_+^0)^*(qpq)J_+^0
+=
+e^{-2\ell H_0/(\hbar c)}(1-P_0).
+$$
+
+Thus its supported logarithm per slab thickness recovers \(H_0\) after endpoint identification. The positive separation is load bearing: touching halves share the entire time-zero algebra, and subtracting their common range removes the transfer datum. Nor may the step size be hidden. For adjacent lattice cuts \(1-c_F(a)\to0\) at finite physical gap; a fixed-thickness contraction or \(-(\hbar c/a)\log c_F(a)\) is the continuum-stable statement.
+
+It composes and prepares the ground-state space but is not a Lorentzian clock and does not select an outcome. For self-adjoint \(H_0\geq0\), finite-depth \(T_{\tau_E}\) is injective even though its inverse is generally unbounded, and the spectral theorem gives
+
+$$
+e^{-\tau_EH_0/\hbar}
 \xrightarrow[\tau_E\to\infty]{\mathrm{strong}}
-P_{\ker(H-E_0)}.
+P_{\ker H_0}.
 $$
 
 No positive gap is needed for this strong limit. It equals \(P_\Omega\) only when the ground-state space is one-dimensional. [[vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] proves the abstract finite-regulator version.
+
+The integrated transfer gives a second exact distinction. On the vacuum complement,
+
+$$
+\mathcal D_{\mathrm E}
+:=
+\int_0^\infty e^{-2\ell H_0/(\hbar c)}(1-P_0)\,\mathrm d\ell
+=
+\frac{\hbar c}{2}H_0^{-1}
+$$
+
+as an extended positive form on the vacuum complement, with \(H_0^{-1}\) understood there. [[phase-modulus-pointing-and-euclidean-dwell]] proves that \(H_0\geq\Delta I\) on that complement exactly when \(\mathcal D_{\mathrm E}\leq\hbar c/(2\Delta)I\). This is a uniform Euclidean persistence ceiling, not a minimum interval between facts. Factive record order still has no metric duration until a clock solder is supplied.
 
 There is also a useful bounded-generator firewall. On any Banach space, if \(\mathcal L\) is bounded, then
 

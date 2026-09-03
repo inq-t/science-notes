@@ -184,6 +184,8 @@ J_\sigma:=U(1)e^{-r_\sigma P}.
 \tag{HSM5}
 $$
 
+This is a correctly typed bounded map between the endpoint Hilbert carriers. The HSMI theorem does not say that the smoothing factor implements a normal UCP algebra map or a physical wall; that remains an additional realization problem.
+
 Its wall defect is
 
 $$
@@ -203,7 +205,7 @@ U(1)\left(
 \tag{HSM6}
 $$
 
-The final equality follows from (HSM1). More generally, the same cancellation holds for sufficiently regular endpoint-aligned functional-calculus profiles \(U(1)f(r_\sigma P)\). Canonical modular transport plus canonical affine smoothing is an equivariant presentation change; it does not pay a wall residue.
+The final equality follows from (HSM1). More generally, the same cancellation holds for sufficiently regular endpoint-aligned functional-calculus profiles \(U(1)f(r_\sigma P)\). Canonical modular transport plus canonical affine smoothing is a defect-flat carrier contraction; it does not pay a wall residue.
 
 If the endpoint transporter is omitted and the bare \(T_\sigma\) is incorrectly placed between the two endpoint generators, the formal defect is nonzero:
 
@@ -226,7 +228,7 @@ $$
 
 This is an exact **[ENDPOINT-ALIGNED WALL-DEFECT NO-GO]**. HSMI supplies orientation, an affine scale law, and exact cross-fiber transport, but its natural differentiable realization is defect-flat. A nonzero wall needs additional, independently selected non-equivariant data.
 
-Sharp core cuts do not evade the conclusion. Spectral projections \(e_N=\mathbf1_{(-\infty,N]}(X)\) can be genuinely noninjective, but whenever the intervening spectral slice is nonzero,
+Sharp cuts from [[core-spectral-wall|the core spectral wall]] do not evade the conclusion. Spectral projections \(e_N=\mathbf1_{(-\infty,N]}(X)\) can be genuinely noninjective, but whenever the intervening spectral slice is nonzero,
 
 $$
 \|e_{N+h}-e_N\|=1.

@@ -71,7 +71,7 @@ $$
 \langle\theta F,F\rangle\ \ge\ 0\qquad(F\in\mathcal A_+),
 $$
 
-and the associated pre-Hilbert space is \(\mathcal A_+\) modulo the null vectors of this form; completing that quotient gives the Hilbert carrier. Together with the other Osterwalder--Schrader hypotheses, the one-sided pairing reconstructs a positive-energy Hilbert theory; reflection positivity alone is not the whole reconstruction theorem. Calling the reflection hyperplane a programme “wall” is a proposed comparison, not part of the standard theorem. On a lattice the construction is exact: the transfer operator \(T_a=e^{-aH}\) acts across one slice, it is positive in the Wilson theory, and Osterwalder and Seiler proved reflection positivity for Wilson's lattice gauge action at every coupling (*Ann. Phys.* **110**, 440 (1978)). The rigorous gap supplied by the accompanying strong-coupling analysis is restricted to that regime; reflection positivity by itself does not imply a gap.
+and the associated pre-Hilbert space is \(\mathcal A_+\) modulo the null vectors of this form; completing that quotient gives the Hilbert carrier. Together with the other Osterwalder--Schrader hypotheses, the one-sided pairing reconstructs a positive-energy Hilbert theory; reflection positivity alone is not the whole reconstruction theorem. Calling the reflection hyperplane a programme “wall” is a proposed comparison, not part of the standard theorem. On a lattice the construction is exact: a positive transfer operator \(T_a\) acts across physical Euclidean slice length \(a\); after division by its vacuum eigenvalue, its logarithmic generator is conventionally written \(\widetilde T_a=e^{-aH_0/(\hbar c)}\), where \(H_0\) is a vacuum-normalized energy and lattice conventions often set \(\hbar=c=1\). Osterwalder and Seiler proved reflection positivity for Wilson's lattice gauge action at every coupling (*Ann. Phys.* **110**, 440 (1978)). The rigorous gap supplied by the accompanying strong-coupling analysis is restricted to that regime; reflection positivity by itself does not imply a gap.
 
 **[DEFINITION]** Let \(P_0\) be the vacuum projection and normalize the transfer operator by its vacuum eigenvalue,
 
@@ -84,28 +84,54 @@ $$
 The general transfer-semigroup form of the gap is
 
 $$
-\boxed{\Delta_a=-\frac1a\ln r_a.}
+\boxed{\Delta_{E,a}=-\frac{\hbar c}{a}\ln r_a.}
 $$
 
 In finite spatial volume, when a next eigenvalue exists, this reduces to
 
 $$
-\boxed{a\Delta_a=-\ln\frac{\lambda_1(T_a)}{\lambda_0(T_a)}.}
+\boxed{\frac{a\Delta_{E,a}}{\hbar c}=-\ln\frac{\lambda_1(T_a)}{\lambda_0(T_a)}.}
 $$
 
 Thus \(r_a<1\) is the strict contraction equivalent of a gap after the Hilbert carrier and time-translation semigroup have been constructed. It is not by itself a non-invertible descent. **[RECEIPT]** The one-dimensional Ising transfer matrix is the complete debugging model: \(T=\begin{pmatrix}e^{K}&e^{-K}\\e^{-K}&e^{K}\end{pmatrix}\), \(\lambda_0=2\cosh K\), \(\lambda_1=2\sinh K\), and in the infinite-chain limit \(\langle s_0s_n\rangle=(\lambda_1/\lambda_0)^n=(\tanh K)^n\), with \(\xi^{-1}=-\ln\tanh K\). For every tested \(K>0\), \(\det T=2\sinh(2K)>0\): the matrix is invertible even though its normalized vacuum complement contracts. The receipt checks this distinction, reproduces the finite-ring two-point function with its correction term, and samples the analytic approach of the gap toward zero through \(K=5\).
 
-**[PROPOSED COMPARISON]** Three arrows must remain distinct. The Osterwalder--Schrader quotient \(q:\mathcal A_+\to\mathcal H_{\mathrm{OS}}\) can have a kernel and constructs the carrier. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] uses an idempotent completely positive algebra map and proves the entropic cost \(\Sigma_E(\rho)=S(\bar\rho)-S(\rho)\ge0\). The transfer operator \(e^{-aH}\) is instead an injective Hilbert-space semigroup operator; in finite dimension it is invertible. This is the same injective-smoothing versus quotient-like-forgetting distinction enforced by [[cauchy-spectral-envelope/inq#Descent and factivity: smoothing is not forgetting|the Cauchy envelope]]. A programme wall may eventually induce all three, but identifying its expectation with its transfer dynamics requires an explicit carrier map or intertwiner. Without that construction, "descent cost" and "spectral contraction" are only a proposed comparison.
+**[EXACT -- MARKOV--OS SPECIALIZATION]** [[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap|The separated past--future theorem]] reconstructs the same \(r_\ell\) from relative subspace geometry. For a stationary reversible Hilbert-positive Markov path space, conditional expectations onto disjoint half-spaces separated by \(\ell>0\) have
+
+$$
+c_F(\ell)
+=
+\left\|e^{-\ell H_0/(\hbar c)}(1-P_0)\right\|,
+$$
+
+and, writing \(J_+^0\) for the centered endpoint isometry and \(q p q\) for the history-carrier positive return,
+
+$$
+(J_+^0)^*(qpq)J_+^0
+=
+e^{-2\ell H_0/(\hbar c)}(1-P_0).
+$$
+
+Touching halves share the whole time-zero carrier and do not have this reduced-angle interpretation. [[contemporary-puzzles/yang-mills-mass-gap/phase-modulus-pointing-and-euclidean-dwell|The phase--modulus note]] then gives
+
+$$
+\int_0^\infty e^{-2\ell H_0/(\hbar c)}(1-P_0)\,\mathrm d\ell
+=
+\frac{\hbar c}{2}H_0^{-1}
+$$
+
+on the vacuum complement, with \(H_0^{-1}\) understood there. Thus a gap is exactly a finite uniform Euclidean-persistence ceiling after the transfer carrier exists. Neither theorem constructs that carrier or proves its contraction from four-dimensional Yang--Mills.
+
+**[PROPOSED COMPARISON]** Three arrows must remain distinct. The Osterwalder--Schrader quotient \(q:\mathcal A_+\to\mathcal H_{\mathrm{OS}}\) can have a kernel and constructs the carrier. [[spectral-wall-descent/conditional-expectation-balance|The conditional-expectation balance]] uses an idempotent completely positive algebra map and proves the entropic cost \(\Sigma_E(\rho)=S(\bar\rho)-S(\rho)\ge0\). The transfer operator \(e^{-aH_0/(\hbar c)}\) is instead an injective Hilbert-space semigroup operator; in finite dimension it is invertible. This is the same injective-smoothing versus quotient-like-forgetting distinction enforced by [[cauchy-spectral-envelope/inq#Descent and factivity: smoothing is not forgetting|the Cauchy envelope]]. A programme wall may eventually induce all three, but identifying its expectation with its transfer dynamics requires an explicit carrier map or intertwiner. Without that construction, "descent cost" and "spectral contraction" are only a proposed comparison.
 
 **[EXACT -- HSMI SCOPE]** [[the-grain-of-causal-scale/causal-spectrum|The HSMI no-gap theorem]] shows that the particular positive translation generator \(P\) of a dilation-covariant half-sided modular inclusion has \(\sigma(P)=\{0\}\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum. This forbids locating an isolated gap in that generator while its exact modular scaling law remains unbroken. It does not show that every object called "pre-wall" is gapless, and an Osterwalder--Schrader reflection plane can occur in both massive and massless theories without itself breaking dilation covariance. **[STANDARD]** Classical Yang--Mills in four dimensions is dilation covariant, while the quantum scale enters through the trace anomaly. A scale is not yet a gap: in the expected chirally broken phase of massless-quark QCD, the pions are Goldstone modes, and a theory flowing to an infrared fixed point can likewise remain gapless.
 
 **[OPEN -- NOT OWNED HERE]** For a regulator family \(T_{a,L}\), the required estimate is a positive lower bound on
 
 $$
-\Delta_{a,L}=-\frac1a\ln\left\|\widetilde T_{a,L}(1-P_{0,a,L})\right\|
+\Delta_{E,a,L}=-\frac{\hbar c}{a}\ln\left\|\widetilde T_{a,L}(1-P_{0,a,L})\right\|
 $$
 
-that is uniform through the infinite-volume limit and remains positive in fixed physical units along the tuned continuum trajectory. For a fixed physical gap, the raw per-slice residue satisfies \(1-r_a\sim a\Delta\to0\); it must *not* stay bounded away from zero. Constructing the nontrivial local Poincaré-covariant limit is the other inseparable part of the Yang--Mills problem; [[contemporary-puzzles/yang-mills-mass-gap/inq|the puzzle module]] states it in full.
+that is uniform through the infinite-volume limit and remains positive in fixed physical units along the tuned continuum trajectory. For a fixed physical gap, the raw per-slice residue satisfies \(1-r_a\sim a\Delta_E/(\hbar c)\to0\); it must *not* stay bounded away from zero. Constructing the nontrivial local Poincaré-covariant limit is the other inseparable part of the Yang--Mills problem; [[contemporary-puzzles/yang-mills-mass-gap/inq|the puzzle module]] states it in full.
 
 ## 3. Lorentzian causal structure from modular data
 
@@ -152,8 +178,9 @@ $$
 | Status | Content |
 |---|---|
 | Standard | the two-sided correlation--Cauchy Fourier pair; the retarded resolvent with the same denominator; the clustering--spectral-support dictionary under OS reconstruction; reflection positivity for Wilson lattice gauge theory and the strong-coupling gap in its proved regime; the trace anomaly as the source of the Yang--Mills scale; Bisognano--Wichmann; geometric modular action under its source's conditions; Lieb--Robinson for bounded local Hamiltonians; the qualified de Sitter quasinormal spectrum; nuclearity and split under their own hypotheses |
-| Definition | the Hamiltonian gap \(E_H((0,\Delta))=0\); equivalently \(\Delta_a=-a^{-1}\ln\lVert\widetilde T_a(1-P_0)\rVert\), with the eigenvalue ratio only in discrete finite-volume settings |
+| Definition | the Hamiltonian energy gap \(E_H((0,\Delta_E))=0\); equivalently \(\Delta_{E,a}=-(\hbar c/a)\ln\lVert\widetilde T_a(1-P_0)\rVert\), with the eigenvalue ratio only in discrete finite-volume settings |
 | Receipt | the Fourier pair and pole fit; the invertible Ising transfer matrix whose normalized vacuum complement contracts; the sampled closing-gap trend |
+| Exact, Markov--OS specialization | disjoint past/future expectation projections have Friedrichs cosine equal to the vacuum-reduced transfer norm across their slab; their supported positive return recovers the transfer generator, and finite uniform Euclidean dwell is equivalent to a positive gap |
 | Exact, scoped | the no-gap theorem for the positive generator of a dilation-covariant half-sided modular inclusion, imported from [[the-grain-of-causal-scale/causal-spectrum|the causal-spectrum note]] |
 | Proposed comparison | an explicit wall realization may relate the OS quotient, a conditional expectation, and transfer dynamics; the split-property type-I corner and the programme's type-I product cell share an interpolation pattern |
 | Open construction | a Lorentzian realization of the core pre-wall; an intertwiner from wall dynamics to a physical transfer semigroup; the norm \(\lVert[D,a]\rVert\) and the Connes distance in this vault; any operator whose damping convention realizes \(\Gamma_c=\hbar H_c\); Lieb--Robinson for unbounded gauge links |

@@ -200,6 +200,8 @@ $$
 
 in quadratic-form sense. Lorentz invariance is load-bearing in the converse: a timelike orbit contains its rest-energy point, while a nonzero null orbit contains energies arbitrarily close to zero under boosts. This is the exact bridge between the Hamiltonian and invariant-mass formulations; it is available only after Poincare covariance and the spectrum condition have been constructed.
 
+[[mass-as-a-calibrated-distinction-rate]] gives the corresponding rate presentation. On the vacuum complement, the derivative of the dimensionless transfer depth \(R(\ell)=-\log\|e^{-\ell H/(\hbar c)}(1-P_0)\|\) is \(\Delta_E/(\hbar c)\); only the equivalence above licenses its final retyping as \(m_{\mathrm{gap}}=(\hbar/c)\,\mathrm dR/\mathrm d\ell\). This makes mass convertible to a calibrated persistence rate without turning it into a canonical phase-space coordinate or a stream of measurement outcomes.
+
 ## Three centers that must not be conflated
 
 The word “central” tempts a false unification.
@@ -422,6 +424,8 @@ c\in\mathcal U_L\otimes\mathcal U_T^{-1},
 $$
 
 so \(c:\mathcal U_T\to\mathcal U_L\) and \(\hbar:\mathcal U_T^{-1}\to\mathcal U_E\) are unit-line conversion isomorphisms. They compare temporal, spatial, frequency, and energetic measures; they do not themselves construct a causal cone or a dynamics.
+
+[[hbar-clock-and-the-calibration-firewall]] strengthens this into a parameter-rescaling no-go: an abstract spectral generator does not become a physical frequency until its one-parameter action is independently soldered to a clock or length, and \(\hbar\) cannot supply that missing normalization.
 
 For an already given positive mass \(m\in\mathcal U_M\), these maps give
 

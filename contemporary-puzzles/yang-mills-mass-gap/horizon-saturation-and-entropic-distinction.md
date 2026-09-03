@@ -89,6 +89,35 @@ $$
 \tag{H4}
 $$
 
+The same relations admit an exact rate presentation. Define the rest-phase rate and the asymptotically normalized horizon boost rate by
+
+$$
+\omega_M:=\frac{Mc^2}{\hbar},
+\qquad
+\alpha_H:=\frac{a_H}{c}
+=\frac{c^3}{4GM},
+\qquad
+a_H:=\frac{c^4}{4GM}.
+\tag{H4a}
+$$
+
+Then
+
+$$
+\boxed{
+\omega_M\alpha_H
+=
+\frac{1}{4t_P^2},}
+\qquad
+\boxed{
+\frac{S_{\mathrm{BH}}}{k_B}
+=
+\pi\frac{\omega_M}{\alpha_H}.}
+\tag{H4b}
+$$
+
+Here \(t_P=\ell_P/c=\sqrt{\hbar G/c^5}\). Thus increasing \(M\) raises the mass phase rate and entropy capacity while lowering the horizon boost rate and Hawking temperature. Entropy is proportional to their ratio, not to a rate of facts or entropy production. [[mass-as-a-calibrated-distinction-rate]] compares this identity with transfer attenuation and states what would be needed to promote either rate to a fact-producing process.
+
 The area law is therefore a boundary-saturation benchmark at fixed \(R\), not the statement that one universal object has both maximum mass and maximum entropy. Quantum and higher-curvature corrections can modify (H2)--(H4). In a static thermal equilibrium state, such as the Hartle--Hawking state, the local Tolman relation is
 
 $$
@@ -271,7 +300,7 @@ The operator ledger matters:
 | clock Hamiltonian | the physical Hilbert carrier | energy and reversible time translations |
 | temperature or another yardstick | entropy units and clock normalization | an energy comparison |
 
-An identification \(K=H/(k_BT)+\text{constant}\) holds for the finite Gibbs density matrix above, not for every modular Hamiltonian. For a general KMS state, the modular automorphism group can agree with a rescaled physical automorphism group on the algebra without identifying its standard-form modular generator with \(H\) on the same Hilbert carrier. For a stationary Killing horizon, with a specified normalization of its generator and an appropriate regular Hawking/KMS state, surface gravity provides the comparison. If \(\kappa_{\mathrm{acc}}\) has acceleration units,
+An identification \(K=H/(k_BT)+\text{constant}\) holds for the finite Gibbs density matrix above, not for every modular Hamiltonian. For a general KMS state, the modular automorphism group can agree with a rescaled physical automorphism group on the algebra without identifying its standard-form modular generator with \(H\) on the same Hilbert carrier. For a stationary Killing horizon, with a specified normalization of its generator and an appropriate regular Hawking/KMS state, surface gravity provides the comparison. [[library/notes-on-black-hole-evaporation/inq|Unruh's accelerated-detector construction]] supplies the flat-spacetime acceleration precedent. If \(\kappa_{\mathrm{acc}}\) has acceleration units,
 
 $$
 k_BT

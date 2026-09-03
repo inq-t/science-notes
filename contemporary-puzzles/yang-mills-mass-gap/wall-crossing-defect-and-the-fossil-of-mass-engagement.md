@@ -430,7 +430,7 @@ The operator-switch proposal advances only if it supplies:
 
 1. declared pre- and post-wall carriers and a natural realization map \(J_\sigma\);
 2. a nonzero intertwining defect on physically occupied states;
-3. an independently normalized post-wall form with a uniform continuum floor;
+3. an independently normalized post-wall form with a uniform continuum floor, or a transfer contraction with a positive logarithmic rate per fixed physical thickness;
 4. a same-carrier solder of that form to the full Poincare Casimir;
 5. a predeclared fossil signature with positive post-nuisance response; and
 6. a common-origin theorem joining the metric, Casimir, and observable branches.
@@ -444,4 +444,4 @@ The route is killed or downgraded if:
 - the post-wall coercive operator acts on a different carrier from the physical Casimir without a pullback theorem; or
 - BAO is asked to reconstruct a sign or history already erased by the material-loading map.
 
-This is the useful reversal: the question is not whether an energy field struck spacetime at a chosen temperature. It is whether an independently fixed realization fails to commute with causal-scale evolution, whether a separately constructed positive pullback of that defect has a physical uniform floor, and whether any finite descendant can still detect the failure.
+This is the useful reversal: the question is not whether an energy field struck spacetime at a chosen temperature. It is whether an independently fixed realization fails to commute with causal-scale evolution, whether a separately constructed positive pullback of that defect has a physical uniform floor or calibrated semigroup rate, and whether any finite descendant can still detect the failure. For adjacent Euclidean regulator slices, a raw angle floor must vanish at finite physical gap; [[past-future-angle-and-the-transfer-gap]] identifies the fixed-thickness contraction and logarithmic rate that remain meaningful.

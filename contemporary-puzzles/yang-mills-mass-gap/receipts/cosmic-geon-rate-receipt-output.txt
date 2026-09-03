@@ -1,0 +1,9 @@
+cosmic-geon rate ledger: 1000 random arithmetic witnesses passed
+critical compactness and E = temperature * capacity passed
+P/E = d log(capacity)/dt = 2 H (1+q) passed
+E_dot = P/2 and temperature/capacity allocation passed
+comoving radiation: -d log(E_gamma)/dt = H passed
+channel descent: nonnegative, composition-additive KL residue passed
+minimum sampled residue: 5.650381055550e-06
+maximum allocation error: 1.075528555106e-16
+scope: arithmetic/classical-channel checks only; no cosmic-geon or mass-gap theorem
