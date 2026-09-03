@@ -34,6 +34,9 @@ The local [[causal-wall-spectral-theory/sources/entry|operator-algebra and QFT s
 
 ## Statistical time and interpretation
 
+- Kemeny and Snell, *Finite Markov Chains* (1960; later editions), for the exact lumpability criterion distinguishing a Markov factor from a generic hidden-memory projection.
+- Gao, “Counterexamples to the Jacobian Conjecture in Dimensions Greater Than Two” (2026), for everywhere unramified nonproper polynomial maps with generically multiple fibers; the result is used only as a local--global invertibility model.
+- Petz, “Sufficiency of Channels over von Neumann Algebras” (1988), for the operator-algebraic recovery notion and its relation to equality in data processing.
 - Price, *Time's Arrow and Archimedes' Point* (1996).
 - The Everettian probability programmes of Deutsch and Wallace, and the self-locating uncertainty programme associated with Sebens and Carroll.
 - The decoherence and einselection literature for dynamical selection of stable pointer observables.

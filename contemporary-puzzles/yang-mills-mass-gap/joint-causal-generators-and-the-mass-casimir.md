@@ -1,6 +1,6 @@
 # Joint Causal Generators and the Mass Casimir
 
-A positive mass need not be a gap in any single causal generator. Oppositely scaling null-translation generators can each have spectrum down to zero while their joint Poincare Casimir stays uniformly positive. This supplies a precise Copernican reversal for the modular programme: use modular inclusions, if possible, to reconstruct causal translation kinematics; define mass only from the completed joint representation; and prove a Casimir coercivity estimate on the physical vacuum complement. A one-line operator arithmetic--geometric-mean argument then converts that estimate into the Hamiltonian mass gap.
+A positive mass need not be a gap in any single causal generator. In $1+1$ dimensions, oppositely scaling null-translation generators can each have spectrum down to zero while their product, the mass Casimir in that setting, stays uniformly positive. In higher dimensions the full invariant requires all translation components. This supplies a precise Copernican reversal for the modular programme: use modular inclusions, if possible, to reconstruct causal translation kinematics; define mass only from the completed joint representation; and prove a full-Casimir coercivity estimate on the physical vacuum complement. A one-line operator arithmetic--geometric-mean argument then converts that estimate into the Hamiltonian mass gap.
 
 **Status: [EXACT MODULAR NO-GO BOUNDARIES; EXACT JOINT-SPECTRAL THEOREM; EXACT MASSIVE REPRESENTATION WITNESS; OPEN YANG--MILLS RECONSTRUCTION].** Nothing below derives the Yang--Mills scale or constructs its continuum carrier. It identifies the first modular route that is not ruled out by the dilation no-gap theorem.
 
@@ -61,7 +61,7 @@ Consequently \(P=0\) or \(\sigma(P)=[0,\infty)\). [[library/extension-of-borcher
 
 ## The joint-null theorem
 
-Work first in natural units and let \(P_+,P_-\geq0\) be strongly commuting self-adjoint operators on \(\mathcal H\). Their products and square roots are defined by the joint spectral calculus. Suppose a vacuum projection \(P_0\) reduces both generators and
+Work first in natural units in $1+1$ dimensions, or on a declared zero-transverse-momentum sector. Let \(P_+,P_-\geq0\) be strongly commuting self-adjoint operators on \(\mathcal H\). Their products and square roots are defined by the joint spectral calculus. Suppose a vacuum projection \(P_0\) reduces both generators and
 
 $$
 P_+P_0=P_-P_0=0.
@@ -103,7 +103,7 @@ m_*(1-P_0).}
 \tag{J8}
 $$
 
-Thus two individually gapless positive generators can jointly force an ordinary energy gap. The missing proposition for Yang--Mills is (J7), not a positive lower edge for either \(P_+\) or \(P_-\) separately.
+Thus two individually gapless positive generators can jointly force an ordinary energy gap. In this low-dimensional realization (J7) is the mass-Casimir bound. In $3+1$ dimensions, $P_+P_-=H^2-P_z^2=\mathcal C+\mathbf P_\perp^2$ in natural units, so the Yang--Mills target is instead the full-Casimir estimate (J15), not merely (J7) for one null pair and not a positive lower edge for either \(P_+\) or \(P_-\) separately.
 
 ## Exact massive witness
 

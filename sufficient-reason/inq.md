@@ -43,6 +43,8 @@ The measure determines the probabilities of possible readouts. It does not, mere
 
 [[algebraic-arrow-of-time]] isolates the stronger claim about temporality. A many-to-one observational restriction is not yet a time evolution; an algebraic arrow requires a one-sided endomorphism semigroup or comparable structure. [[algebraic-and-statistical-arrows]] explains why that proposal is meant to differ from a Boltzmannian arrow and what the absence of a trace does and does not establish.
 
+[[noninvertible-presentation-and-apparent-chance]] makes the deterministic alternative exact without promoting it to a conclusion. A noninjective readout of a deterministic history acquires observer-facing probabilities only after a state or fiberwise disintegration is supplied; it need not induce a Markov process. Every stationary stochastic law has an invertible deterministic path-space presentation, which proves that the law alone underdetermines ontology but does not make that tautological dilation explanatory. The 2026 Jacobian counterexamples sharpen the local--global possibility: an everywhere invertible differential can coexist with a nonproper, globally many-to-one map. Groupoids and descent retain the inverse-branch data; a further nonfaithful realization forgets it.
+
 [[necessity-and-nonemptiness]] asks whether the availability of commutative contexts makes facts necessary. It proves the availability of characters but separates this from the realization of a normal, physically obtainable outcome. [[quantum-interpretations]] applies the distinction to measurement without pretending that a change of mathematical description is already a collapse mechanism.
 
 ## Status of the claims
