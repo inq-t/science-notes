@@ -281,6 +281,19 @@ $$
 
 is constant along the record system. This is an exact conditional persistence result. It does not choose the outcome, construct the write instrument, determine \(q_c\), or prove Noether conservation. [[program-core/record-scale-soldering|Record--scale soldering]] owns the additional theorem required before record extension can be identified with cosmic scale growth.
 
+There is now an exact precursor to such a record, but it must not be confused
+with one. [[directed-isometric-residue-completion/inq|A contractive transfer
+has a universal minimal isometric completion]] whose added orthogonal
+coordinates carry precisely the transported transfer defects. If a geometric
+response is dominated by a defect, Douglas factorization makes it a
+contractive readout of that defect carrier. This constructs candidate record
+*amplitudes* and a coherent finite cascade. It does not construct the algebras
+$\mathcal R_N$, their monomorphisms, an instrument, or an obtained character.
+A direct sum of defect Hilbert spaces is likewise not yet a product system or
+an $E_0$-semigroup; those require their own multiplication and endomorphism
+laws. The distinction between norm completion and factual persistence is the
+physical-carrier obligation in the displayed record system.
+
 ## Top-form realization
 
 A covariant constancy mechanism can instead place the calibration in a global form sector. In four spacetime dimensions, let \(A_3\) be a three-form and \(\eta\) a scalar modulus. The schematic topological term

@@ -34,6 +34,37 @@ The first pair already has exact models. A global obstruction is not logically r
 
 The programme's mathematical realism changes the form of the bridge. A realization functor relates one mathematical ontology to another; “presentation” does not mean fiction. If that functor genuinely forgets distinctions, [[algebra/nonfaithful-realization|the nonfaithfulness theorem]] proves that it cannot be an equivalence across the wall, even though reversible or unitary structure may persist inside either register.
 
+[[algebra/quotient-unitarity-and-kernel-stabilization|Quotient unitarity and kernel stabilization]] now makes that coexistence constructive. An upstream automorphism descends through a quotient exactly when it preserves the quotient ideal; a transformation preserving a semidefinite response becomes an isometry of the radical quotient. The locally visible symmetry that lifts is therefore the image of the stabilizer of what the wall made invisible. This does not prove that loss causes unitarity, but it converts “symmetry is the grammar of appearance” into an exact quotient theorem and a precise reconstruction obligation.
+
+[[algebra/os-descent-naturality-and-clock-no-go|OS descent naturality and
+the idempotent-clock no-go]] closes the converse ambiguity. Polynomial
+identities survive a surjective factor, so an idempotent expectation can
+descend to a unitary only as the identity; likewise a positive Euclidean
+contraction is unitary only when it is trivial. A nonfaithful OS-bounded map
+can nevertheless intertwine two reconstructed clock groups when it commutes
+with the separately supplied Euclidean translations. If that map is
+surjective, a spectral band is absent locally exactly when the corresponding
+whole spectral subspace lies in its kernel; an explicit Hilbert-semigroup
+example has soft whole spectrum accumulating at zero and a fixed local gap.
+Forgetting and clock
+transport are therefore compatible arrows but cannot literally be the same
+arrow, and the kernel must be physically derived before spectral deletion is
+an explanation.
+
+[[algebra/retract-corners-and-local-unitarity|Retract corners]] sharpen the same point without first assuming an upstream group. For a split whole-to-local map \(q\) with section \(h\), the idempotent \(e=hq\) makes the local endomorphism algebra exactly the corner \(e\operatorname{End}(W)e\). A local unitary is invertible relative to the retained identity \(e\) while its whole-carrier representative kills \(\ker q\) and is noninvertible relative to \(I_W\). With a harmonic section, the idempotent first removes the vertical response and only then exposes the reversible local grammar. [[trace-dirichlet-descent/inq|Trace Dirichlet descent]] derives the accompanying local Markov generator by infimizing a whole response over those same vertical fibres.
+
+[[algebra/faithful-descent-rigidity-and-noiseless-unitarity|Faithful descent rigidity]] supplies the converse firewall. If the expected restriction of a normal UCP semigroup through a faithful conditional expectation is a \(*\)-automorphism of the retained algebra, then that algebra was already invariant and lies in the multiplicative domain of the whole process; under the stated invariant-state hypotheses its GNS carrier is a reducing noiseless sector and the automorphism is represented unitarily. If the corresponding \(L^2\)-implementation of the same continuous-parameter semigroup is self-adjoint, that local automorphism sector is necessarily static. Thus noisy whole dynamics and local unitary clock evolution can coexist, but faithful coarse-graining does not create the unitarity. A nontrivial clock requires a reversible component already present or a distinct reconstruction arrow.
+
+[[modular-cocycle-tomography/inq|Modular cocycle tomography]] now supplies
+the complementary visibility theorem. One faithful state detects
+inner-unitary directions only modulo its centralizer; a state atlas detects
+them modulo the common centralizer, which Connes cocycles express as a
+commutant inside one reference presentation. A countable atlas separates any
+separable factor, and a type-III\(_1\) factor admits a single faithful state
+with scalar centralizer. This proves algebraic separation, not a spectral
+edge: the continuum problem is the atlas's uniform closed range relative to
+the physical norm.
+
 ## Algebra comes before geometry only as a doctrine
 
 A bare algebra does not determine one geometry without qualifications. Even in commutative algebraic geometry, one declares a base, a category of algebras, admissible morphisms, and a topology before $\operatorname{Spec}$ and descent have their intended force. In noncommutative, operator-algebraic, spectral, Jordan, and octonionic settings, there is no single common spectrum that silently identifies those theories.

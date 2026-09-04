@@ -1,6 +1,6 @@
 # The CWST Construction Programme
 
-CWST has one typed sequence: construct a causal-wall BKM response, transport it to scalar or tensor spatial wall precision, realize that field in a gauge-reduced Lorentzian phase space, calculate higher response, and transfer the result to observables. [[causal-wall-spectral-theory/realization-map|The realization map]] is the sole W0--W5 ledger; this note is a direct launchpad to the unresolved owners. Actual outcomes and persistent records belong to [[conservation-of-causal-charge/factive-descent-and-records|the separate factive branch]].
+CWST has one typed sequence: construct a causal-wall BKM response, transport it to scalar or tensor spatial wall precision, realize that precision first on a gauge-reduced equal-time configuration carrier, lift it separately to a Lorentzian phase space and clocked state, calculate higher response, and transfer the result to observables. [[causal-wall-spectral-theory/realization-map|The realization map]] is the sole W0--W5 ledger; this note is a direct launchpad to the unresolved owners. Actual outcomes and persistent records belong to [[conservation-of-causal-charge/factive-descent-and-records|the separate factive branch]].
 
 $$
 \boxed{
@@ -10,7 +10,9 @@ $$
 \longrightarrow
 \text{W2 spatial wall precision}
 \longrightarrow
-\text{W3 Lorentzian field realization}
+\text{W3}_{\mathrm{eq}}\text{ configuration realization}
+\longrightarrow
+\text{W3}_{\mathrm L}\text{ Lorentzian lift and clock}
 \longrightarrow
 \text{W4 higher response}
 \longrightarrow
@@ -21,7 +23,7 @@ $$
 
 At W2, [[conjectures/bkm-to-spatial-precision|the scalar map]] and [[conjectures/tt-bkm-to-spatial-precision|the TT map]] are independent. [[open-questions/bkm-source-kernel-comparison|The same-source kernel comparison]] is their first discriminating calculation. [[holographic-spectral-adapter|The holographic adapter]] is optional and cannot define either W2 branch.
 
-At W3, [[conjectures/wall-scalar-to-cosmological-curvature|the scalar curvature map]] and [[conjectures/wall-tensor-to-cosmological-graviton|the tensor graviton map]] independently construct the Lorentzian physical fields. [[open-questions/lorentzian-evolution-and-matching|Lorentzian evolution and matching]] then asks for state, constraints, stability, matching, and coherent evolution. A dimensionless residue or TT source label is not yet a physical metric perturbation.
+At W3\(_{\mathrm{eq}}\), [[conjectures/wall-scalar-to-cosmological-curvature|the scalar curvature map]] and [[conjectures/wall-tensor-to-cosmological-graviton|the tensor graviton map]] independently construct reduced equal-time physical configurations. [[open-questions/lorentzian-evolution-and-matching|Lorentzian evolution and matching]] owns W3\(_{\mathrm L}\): the conjugate variables, symplectic form, state, constraints, stability, clock, matching, and coherent evolution. [[measured-response-carriers/inq|Measured response carriers]] owns the generic closed-form congruence, while [[lorentzian-spectral-envelope/inq|the Lorentzian spectral envelope]] owns the general static-to-clock boundary. A dimensionless residue or TT source label is not yet a physical metric perturbation, and an equal-time positive precision is not yet a Hamiltonian.
 
 Microscopic predictivity remains three independent calculations: [[open-questions/calculate-scalar-response|scalar response]], [[open-questions/calculate-tensor-response|tensor response]], and [[open-questions/calculate-higher-response|higher response]]. A member may therefore be scalar-only, may fail at higher points while retaining a two-point sector, or may replace one calculation without changing the whole architecture.
 

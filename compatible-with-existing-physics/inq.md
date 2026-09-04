@@ -44,6 +44,30 @@ $$
 
 for local causal contexts $O$, together with new comparison and gluing data over the family. The assignment of local fibers may be imported from GR plus QFT. The cosmodynamic claim concerns the structure that makes the family one cosmos rather than a disconnected inventory of local theories.
 
+One implementation class is now available at the level of types.
+[[local-physics-interface#A process enrichment can preserve the local net|A
+process enrichment]] adds compatible, vacuum-preserving, covariant UCP maps
+to an imported local net without redefining its observable algebras,
+locality, clock automorphisms, or tested predictions. The process maps and
+the unitary clock group are different arrows. This proves formal coexistence
+conditional on constructing a coherent family; it does not prove that such
+a family exists for an ordinary four-dimensional QFT net. The concrete
+existence precedent is chiral conformal theory, not Yang--Mills. Nor does the
+typing select the maps, derive the net, or identify a Markov generator with
+physical energy.
+
+[[pointed-cp-fusion-residue/inq|Pointed CP Fusion Residue]] strengthens this
+coexistence statement under composition. A normal UCP semigroup has pointed
+GNS correspondences whose composite embeds as the cyclic part of the fused
+stage carrier; the adjoint endpoint map is a coisometry and the pointwise
+fibers form a subproduct system. A unitary on the retained endpoint
+correspondence extends block-diagonally across the fusion residue and
+intertwines with endpoint descent. The coisometry is noninvertible exactly
+when that residue is nonzero. Neither carrier has thereby been identified
+with a local QFT carrier or a physical whole-to-local formation map, and the
+residue does not cause endpoint unitarity. Both the CP family and the local
+clock action remain independently supplied.
+
 Within that architecture, CWST has a more specific role. It retypes the usual primordial “perturbation mechanism” question as a question about the correlation geometry of the whole cosmic state and its representation in local records. It need not reproduce the conventional local-event story for the origin of those correlations or derive the local field theories used in the transfer calculation. It must still satisfy [[primordial-observable-interface|the primordial observable interface]]: identify a gauge-invariant physical scalar, return a Lorentzian state and constrained dynamics, and supply either [[passive-adiabatic-transfer|passive Einstein--Boltzmann descent]] or a comparably complete alternative. Equality of observable content may be required even when identity of mechanism is not.
 
 ## What must still be shown

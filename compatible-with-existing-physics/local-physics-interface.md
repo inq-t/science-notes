@@ -68,6 +68,72 @@ for the relevant local contexts, together with coherent overlap maps. The second
 
 Neither implementation is yet supplied by the mere statement that QFT is a fiber. [[wall-construction-interface/inq|The wall-construction interface]] records the missing region family, state family, and transports; [[compatible-with-existing-physics/primordial-observable-interface|the primordial observable interface]] states the separate Lorentzian representation burden.
 
+## A process enrichment can preserve the local net
+
+The surrounding structure need not be another automorphism group or another
+Lagrangian. It may add normal unital completely positive operations
+
+\[
+\Phi_O:\mathcal A(O)\longrightarrow\mathcal A(O)
+\]
+
+provided they are natural under inclusions,
+
+\[
+\Phi_{O_2}|_{\mathcal A(O_1)}=\Phi_{O_1}
+\qquad(O_1\subset O_2),
+\tag{LP1}
+\]
+
+preserve the declared vacuum or state family, and transform covariantly,
+
+\[
+\beta_g\Phi_O=\Phi_{gO}\beta_g.
+\tag{LP2}
+\]
+
+Automorphisms are the reversible members of this larger process category;
+expectations, averaged operations, and nonselective readouts need not be
+invertible within it. Treating such maps as an enrichment leaves isotony,
+locality, the Poincare action, and the Hamiltonian of the imported net
+unchanged by definition. Existence of a coherent family satisfying (LP1)--
+(LP2) is a separate theorem. An operation asserted to be an actual laboratory
+or clock evolution would carry additional empirical obligations, but a
+structural comparison or response probe can coexist formally with the
+established local dynamics.
+
+[[library/quantum-operations-on-conformal-nets/inq|Quantum Operations on Conformal Nets]]
+is a rigorous lower-dimensional precedent: compatible,
+vacuum-preserving, covariant UCP families exist on type-III local algebras,
+and discrete subnet inclusions can organize them into hypergroups. It is not
+a construction for four-dimensional Yang--Mills. The exact property-\((T)\)
+gap benchmark and the additional energy-solder obligations are stated in
+[[contemporary-puzzles/yang-mills-mass-gap/kazhdan-markov-process-carrier]].
+
+There is also an exact compatibility model for the stronger whole-to-local
+claim. If \(q:W\to L\) has a section \(h\), then
+\(e=hq\) is an idempotent and
+
+\[
+\operatorname{End}(L)\cong e\operatorname{End}(W)e.
+\]
+
+Consequently the imported local QFT automorphisms may remain unitary in the
+retained corner even though their whole-carrier representatives are
+noninvertible relative to \(I_W\). [[algebra/retract-corners-and-local-unitarity|The
+corner theorem]] proves this without identifying the local and whole
+identities. If \(h\) is selected by minimizing a whole Dirichlet response,
+[[trace-dirichlet-descent/inq|Dirichlet descent]] can additionally derive a
+local positive generator, but an arbitrary least-cost quotient is not
+automatically Markovian. The safe alternative pulls observables through an
+expected inclusion. [[trace-dirichlet-descent/standard-form-pullback-and-reducing-wall|The
+standard-form theorem]] proves that this restriction preserves complete
+Dirichletness even for Type-III local algebras, provided the restricted domain
+is dense. Compatibility still requires the corner action and form-generated
+process to reproduce or compare with the given local net, state, Poincare
+representation, and Hamiltonian; the existence of a retract does not select
+them.
+
 ## Perturbations and measurable interfaces
 
 A global theory need not reproduce the conceptual story by which conventional cosmology motivates primordial perturbations. It does have to calculate the local records through which the cosmos is measured. [[primordial-observable-interface|The primordial observable interface]] gives the full return type. For CMB, lensing, growth, clocks, or gravitational waves, it must either

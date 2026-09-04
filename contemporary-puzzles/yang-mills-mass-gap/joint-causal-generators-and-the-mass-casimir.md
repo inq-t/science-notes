@@ -1,6 +1,6 @@
 # Joint Causal Generators and the Mass Casimir
 
-A positive mass need not be a gap in any single causal generator. In $1+1$ dimensions, oppositely scaling null-translation generators can each have spectrum down to zero while their product, the mass Casimir in that setting, stays uniformly positive. In higher dimensions the full invariant requires all translation components. This supplies a precise Copernican reversal for the modular programme: use modular inclusions, if possible, to reconstruct causal translation kinematics; define mass only from the completed joint representation; and prove a full-Casimir coercivity estimate on the physical vacuum complement. A one-line operator arithmetic--geometric-mean argument then converts that estimate into the Hamiltonian mass gap.
+A positive mass need not be a gap in any single causal generator. In $1+1$ dimensions, oppositely scaling null-translation generators can each have spectrum down to zero while their product, the mass Casimir in that setting, stays uniformly positive. In higher dimensions the full invariant requires all translation components, although after Poincare reconstruction a full-carrier floor for one fixed null-pair product already forces an energy gap and hence a Casimir floor. This supplies a precise Copernican reversal for the modular programme: use modular inclusions, if possible, to reconstruct causal translation kinematics; define mass only from the completed joint representation; and prove a joint coercivity estimate on the physical vacuum complement. A one-line operator arithmetic--geometric-mean argument then converts that estimate into the Hamiltonian mass gap.
 
 **Status: [EXACT MODULAR NO-GO BOUNDARIES; EXACT JOINT-SPECTRAL THEOREM; EXACT MASSIVE REPRESENTATION WITNESS; OPEN YANG--MILLS RECONSTRUCTION].** Nothing below derives the Yang--Mills scale or constructs its continuum carrier. It identifies the first modular route that is not ruled out by the dilation no-gap theorem.
 
@@ -62,6 +62,35 @@ Consequently \(P=0\) or \(\sigma(P)=[0,\infty)\). [[library/extension-of-borcher
 ## Several modular directions require a compatibility theorem
 
 Constructing several half-sided modular inclusions in one environment does not automatically produce one translation representation. [[library/relative-positions-of-half-sided-modular-inclusions/inq|Koot's relative-position analysis]] characterizes when inclusions among the corresponding standard subspaces have the stronger half-sided property and exhibits cases where an ordinary inclusion does not. The associated positive one-parameter groups commute only under additional relative-position compatibility. Thus independently writing \(P_+\) and \(P_-\) is not yet permission to multiply them.
+
+Even strong commutation is insufficient when both generators have the same
+modular orientation. If one modular group satisfies
+
+$$
+\Delta^{it}P_j\Delta^{-it}
+=
+e^{-2\pi t}P_j,
+\qquad
+j=1,2,
+\tag{J4s}
+$$
+
+then joint functional calculus gives
+
+$$
+\Delta^{it}(P_1P_2)\Delta^{-it}
+=
+e^{-4\pi t}P_1P_2.
+\tag{J4t}
+$$
+
+If the positive product is nonzero, the same-carrier dilation no-gap theorem
+forces its spectrum to be \([0,\infty)\). It cannot have a positive lower edge.
+The invariant product required below therefore needs **opposite modular
+weights**, not merely two inclusions: a positive/negative half-sided pair,
+opposite wedge boundaries, or an already completed Lorentz representation,
+together with a separate compatibility theorem proving strong commutation on
+one carrier.
 
 The positive precedent is [[library/modular-theory-and-the-reconstruction-of-four-dimensional-quantum-field-theories/inq|Kähler--Wiesbrock reconstruction]]: a finite constellation of von Neumann algebras in specified mutual modular position can reconstruct a \(3+1\)-dimensional Poincare representation and a local observable net. Its lesson is the order of construction
 
@@ -125,9 +154,9 @@ m_*(1-P_0).}
 \tag{J8}
 $$
 
-Thus two individually gapless positive generators can jointly force an ordinary energy gap. In this low-dimensional realization (J7) is the mass-Casimir bound. In $3+1$ dimensions, $P_+P_-=H^2-P_z^2=\mathcal C+\mathbf P_\perp^2$ in natural units, so the Yang--Mills target is instead the full-Casimir estimate (J15), not merely (J7) for one null pair and not a positive lower edge for either \(P_+\) or \(P_-\) separately.
+Thus two individually gapless positive generators can jointly force an ordinary energy gap. In this low-dimensional realization (J7) is the mass-Casimir bound. In $3+1$ dimensions, \(P_+P_-=H^2-c^2P_z^2=\mathcal C+c^2\mathbf P_\perp^2\), so one null-pair product is not *identical* to the full Casimir. Nevertheless, once a positive-energy Poincare representation has been reconstructed, a lower bound for one fixed pair on the **entire** vacuum complement already gives the Hamiltonian gap by (J6), and the Lorentz-orbit theorem below then gives the full-Casimir floor. What fails is calling the directional product itself mass before that reconstruction, or proving a floor only on an incomplete directional carrier.
 
-[[paired-scale-filtrations-and-the-invariant-incidence-wall#Every spatial direction recovers the full Casimir|The all-direction theorem]] closes this directional loophole exactly. For every unit vector \(\mathbf n\), put \(P_\pm(\mathbf n)=H\pm c\mathbf P\cdot\mathbf n\). Then
+[[paired-scale-filtrations-and-the-invariant-incidence-wall#One full-carrier direction suffices after Lorentz reconstruction|The directional theorem]] separates two sufficient routes. For every unit vector \(\mathbf n\), put \(P_\pm(\mathbf n)=H\pm c\mathbf P\cdot\mathbf n\). Then
 
 $$
 P_+(\mathbf n)P_-(\mathbf n)
@@ -135,11 +164,17 @@ P_+(\mathbf n)P_-(\mathbf n)
 \mathcal C+c^2\bigl(|\mathbf P|^2-(\mathbf P\cdot\mathbf n)^2\bigr).
 $$
 
-A common lower floor for these products in every direction of any countable dense subset of \(S^2\) is equivalent to the full Casimir floor. One null pair gives only a directional overestimate; the all-cut family is tomographically complete. The theorem still does not create the positive constant: that must come from the proposed incidence wall or another non-spectral geometric construction.
+A lower floor for one fixed product on the complete vacuum complement is equivalent to the full Casimir floor **after** Lorentz reconstruction. A common floor in every direction of any countable dense subset of \(S^2\) is the stronger direct tomography statement: it recovers the Casimir pointwise without first appealing to the Lorentz-orbit implication. Neither theorem creates the positive constant; that must come from the proposed incidence wall or another non-spectral geometric construction.
 
 ## Energy gap and Casimir floor are equivalent only after Lorentz reconstruction
 
-Let \(U(a,\Lambda)\) be a unitary representation of the connected Poincare group with unique invariant vacuum projection \(P_0\), and assume the full joint spectrum condition
+Let \(U(a,\Lambda)\) be a unitary representation of the connected Poincare group, let \(E_{(H/c,\mathbf P)}\) be the joint spectral measure of its translations, and put
+
+$$
+P_0:=E_{(H/c,\mathbf P)}(\{0\}).
+$$
+
+The zero-translation projection \(P_0\) is invariant and reduces the joint spectral measure; it is rank one only under the additional unique-vacuum hypothesis. Assume the full joint spectrum condition
 
 $$
 \operatorname{supp}E_{(H/c,\mathbf P)}
@@ -211,6 +246,38 @@ $$
 $$
 
 changes \(M\) by \(a\). The first is kinematics. The second requires the dimensional yardstick. A dimensionless geometry may fix an invariant ratio, but it cannot fix the common physical scale merely by choosing a frame.
+
+On the joint-active carrier this admits an exact rapidity normal form. Assume
+\(P_+P_-\) has trivial kernel there, so the spectral logarithms are defined,
+and put
+
+$$
+M:=(P_+P_-)^{1/2},
+\qquad
+\Theta:=\frac12(\log P_+-\log P_-).
+\tag{J12n}
+$$
+
+Strong commutation gives
+
+$$
+\boxed{
+P_+=Me^{\Theta},
+\qquad
+P_-=Me^{-\Theta},
+\qquad
+H=M\cosh\Theta.}
+\tag{J12o}
+$$
+
+Under the reciprocal boost (J11), \(M\) is invariant and
+\(\Theta\mapsto\Theta+sI\). Hence \(H\geq M\) is not merely a scalar
+arithmetic--geometric-mean trick: \(M\) is the invariant joint scale and
+\(\Theta\) is the frame coordinate. Each null generator can approach zero by
+sending rapidity to one end while the invariant mass operator remains bounded
+below. A product floor removes the joint kernel and makes this normal form
+available on the complete nonvacuum carrier; it still does not supply the
+floor or its units.
 
 [[resolvent-logistic-scale-transform]] gives this witness an exact scale-coordinate reading. Applying the effect--odds transform to \(P_+/E_*\) and \(P_-/E_*\) assigns center operators
 

@@ -583,7 +583,7 @@ $$
 
 The separate coefficients are normalization-dependent. Rescaling \(R\mapsto aR\) sends \(q_{R,p}\mapsto aq_{R,p}\) and \(\kappa^2\mapsto a\kappa^2\), while the same physical solder is registered by \(\eta\mapsto\eta/a\). Only \(\eta\kappa^2\), and hence \(E_*\sqrt\eta\,\kappa\), is invariant. The normalization of \(R\) must therefore be frozen upstream if its factors are to have explanatory meaning.
 
-Alternatively, prove the analogue of (CR36) for every physical null pair in a countable dense set of spatial directions and invoke the all-direction Casimir theorem in the paired-filtration note. One oriented pair is insufficient in \(3+1\) dimensions.
+Alternatively, after positive-energy Poincare reconstruction, prove the analogue of (CR36) for one fixed physical null pair on the entire vacuum complement. The fixed-direction theorem in the paired-filtration note then gives the Hamiltonian gap and the full Casimir floor. A countable dense all-direction family remains an exact direct-tomography alternative. One oriented pair is insufficient only when it is abstract, sector-restricted, differently carried, or not identified with the physical null translations.
 
 Neither \(c\) nor \(\hbar\) supplies \(E_*\): they convert space to time and inverse time to energy. In pure Yang--Mills the honest current yardstick is a declared scheme-dependent dimensional-transmutation scale, with the dimensionless coefficient transforming oppositely under a scheme change. Importing \(G\), a Hawking temperature, a glueball mass, or the numerical causal-grain coincidence would forfeit the claimed derivation unless a separate decoupling and transport theorem is proved.
 
@@ -597,7 +597,7 @@ This route has crossed from analogy to a physical theorem only when:
 4. any codimension-two exponent is proved as a lower-frame scaling law, not inferred from area, multiplicity, or the already-known engineering dimension of the Yang--Mills coupling; a claim of unique dimensional selection additionally proves the matching upper scaling and bilateral support;
 5. the response survives infinite-volume and continuum removal on identified carriers with convergent vacuum projections;
 6. Poincare covariance, the spectrum condition, locality, gauge-invariant observables, and nontrivial Yang--Mills short-distance behavior are reconstructed; and
-7. a same-carrier all-direction or direct-Casimir solder supplies the physical energy scale.
+7. a same-carrier fixed-null-pair, all-direction, or direct-Casimir solder supplies the physical energy scale.
 
 The route is killed if \(R=e^{2pA}\) or its shell coefficients are chosen solely to force (CR10); if boundary channel count is substituted for the lower frame bound (CR23); if entropy positivity or an entropy maximum is called stiffness; if form cross-terms are discarded without a reduction theorem; if the response leaves a nonvacuum terminal kernel; if the \(D=4\) exponent is imported from the Yang--Mills action and reported as independently derived; or if the dimensionless floor is converted into MeV before (CR36) and an independent \(E_*\) exist.
 
@@ -611,6 +611,6 @@ The route is killed if \(R=e^{2pA}\) or its shell coefficients are chosen solely
 | Exact conditional theorem | on a bilateral scale carrier, the homogeneous response \(e^{qA}\) compensates \(e^{-pA}\) uniformly iff \(q=2p\) |
 | Conditional geometric consequence | if a codimension-two boundary supplies the homogeneous response character \(D-2\) and presentation has inverse-length order one, power neutrality selects \(D=4\); an actual floor still requires a positive residual lower edge |
 | Established precedent | weighted Poincare, two-scale LSI, Dobrushin, and strong-coupling lattice results show concrete response-weight and local-to-global gap mechanisms on their declared carriers |
-| Open | derive the boundary/flux response, its lower frame and normalization, the bilateral/all-direction realization, the continuum estimate, and the Poincare-Casimir solder from four-dimensional Yang--Mills geometry |
+| Open | derive the boundary/flux response, its lower frame and normalization, the bilateral fixed-pair/all-direction/direct-Casimir realization, the continuum estimate, and the Poincare-Casimir solder from four-dimensional Yang--Mills geometry |
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/compensated_incidence_response_receipt.py|The finite receipt]] illustrates exact diagonal compensation on one finite two-sided window, decreasing sampled floors for the fixed bounded response \(R=7I\), the arithmetic obtained after assuming \(q=D-2,p=1\) for \(D=3,4,5\), and persistence of one selected terminal kernel; [[contemporary-puzzles/yang-mills-mass-gap/receipts/compensated-incidence-response-receipt-output.txt|its stored output]] records the passing run. It does not establish unbounded spectral support, the exponent hypotheses, uniqueness of \(D=4\), any infinite-dimensional theorem, or any open physical arrow.

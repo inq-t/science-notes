@@ -17,6 +17,8 @@ a          d       c_F           1-c_F
 0.5000     2       0.367879441   0.632120559
 0.2500     4       0.367879441   0.632120559
 0.1250     8       0.367879441   0.632120559
+history compression: omitted Gramian is I-T^(2d)
+centered residue floor at thickness 1 = 0.864664717
 Euclidean dwell (hbar*c = 1): gap is reciprocal persistence ceiling
 spectrum(D_E) = [0.000000000, 0.166666667, 0.500000000]
 1/(2 ||D_E||) = 1.000000000

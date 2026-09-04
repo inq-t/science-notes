@@ -518,6 +518,22 @@ If instead \(\iota_c=S_{A,c}/k_B\) is identified through the Bekenstein--Hawking
 
 The exact categorical carrier is not yet the Yang--Mills carrier. Admissible fusion-algebra representations are restrictions of tube-algebra representations and can be realized through annular states or subfactor symmetric-enveloping correspondences. DHR sectors also form rigid tensor categories under suitable AQFT hypotheses. None of those facts constructs \(J_q\) in (QG23).
 
+[[categorical-action-on-the-neutral-wilson-carrier]] makes this carrier
+firewall exact on the two nearest concrete realizations. On
+\(L^2(SU(3))^{\operatorname{Ad}}\), multiplication by the restricted
+fundamental character is exactly fusion by
+\(\mathbf1\oplus\mathbf3\oplus\bar{\mathbf3}\), but it has no normalizable
+invariant GNS vector--only a formal distributional \(1\)-eigenstate or
+evaluation functional at the flat connection--and its classical normalized
+defect has zero edge after removal of any fixed vacuum line. Dividing by the quantum
+dimension \(\delta_q>7\) creates only a scalar floor plus a rescaled ordinary
+Wilson potential; the floor cancels from normalized Gibbs laws and all
+excitation-energy differences. In the opposite direction, canonical
+Type-III hypergroup UCP maps act on the standard GNS Hilbert space but fix the
+entire smaller algebra's GNS subspace. If that algebra is the neutral
+observable subnet, the construction assigns zero cost to all its glueball
+directions.
+
 There is an especially sharp DHR firewall. Neutral glueball excitations belong to the vacuum representation, which is the tensor unit. That unit sector has statistical dimension and index one regardless of whether
 
 \[
@@ -532,7 +548,17 @@ There are three immediate failure modes:
 - If \(\mathcal C_q\) is assigned to superselection sectors, confinement may leave the observable vacuum representation with no corresponding charged DHR carriers.
 - If \(J_q\) covers only a selected finite family of observables, the orthogonal complement can still contain arbitrarily soft physical directions.
 
-The required action is therefore not “\(G_2\) rotates a glueball.” It is a global-presentation comparison on **localized gauge-invariant state tangents**, with trivial categorical presentation corresponding exactly to the vacuum direction. That is the substantive content of (QG23)--(QG24).
+The required action is therefore not “\(G_2\) rotates a glueball.” The
+strongest target is a family of state-preserving UCP maps on the regional
+neutral observable algebra satisfying the normalized fusion law: its GNS
+fusion representation must extend to the tube algebra and have joint invariant
+space exactly \(\mathbb C\Omega\). Then the categorical Kazhdan projection is
+already the physical vacuum projection and the coverage constant in (QG23) is
+one for a specified symmetric Kazhdan averaging element. A claim for one
+fundamental generator still needs its corresponding universal estimate. The
+more general \(J_q\)-theorem remains a valid fallback when such a direct
+same-carrier action is unavailable, but its lower-frame map is then an
+additional physical construction.
 
 The classical exceptional chain and the quantum category are also not yet the same object. The \(S^6=G_2/SU(3)\) stabilizer, the \(F_4/H\) flag torsor, and the exact Wilson-factor response in [[exceptional-wilson-same-carrier-factorization]] live on classical compact-group carriers. The \(q\neq1\) rigidity theorem lives in a deformed tensor category. A deformation, functor, or Q-system must recover the local \(SU(3)\) Wilson carrier while retaining a uniform categorical edge. Merely sharing the name \(G_2\) is not that theorem.
 
@@ -543,15 +569,15 @@ This route makes a genuine dent in the conceptual problem if, and only if, all o
 1. an internal rule selects \(q\neq1\), a fusion depth \(n\), and a standard Q-system or inclusion without fitting the glueball spectrum;
 2. the cosmic/index weld (QG18) is realized by a composition-preserving map, with a selected birth section and a wall-to-cosmos synchronization;
 3. the quantum-\(G_2\) categorical data descend to the classical local \(SU(3)\) observable regulator in a controlled branch;
-4. an admissible representation and analysis map (QG23) are constructed on a regulator-complete neutral Yang--Mills tangent core;
-5. its trivial categorical subspace pulls back to exactly the vacuum, and the lower frame \(a_J\) is uniform in volume and cutoff;
+4. preferably, state-preserving UCP maps satisfying the normalized fusion law are constructed on the regional neutral observable algebra and their GNS action is tube-admissible; otherwise an admissible representation and independent analysis map (QG23) are constructed on a regulator-complete neutral tangent core;
+5. the joint invariant space of the direct action is exactly \(\mathbb C\Omega\), or the fallback map pulls the trivial categorical subspace back to exactly the vacuum with a lower frame \(a_J\) uniform in volume and cutoff;
 6. one genuine regional Type-III restriction-loss form dominates the categorical form as in (QG24), with a positive Hermitian extension on the complex energy-form core;
 7. the width \(R_B=\alpha\lambda_*\) and fossil transport of \(\lambda_*\) are derived rather than declared;
 8. Osterwalder--Schrader and Poincare reconstruction turn the energy edge into the complete invariant-mass gap; and
 9. the gravity-coupled selection construction has a controlled pure-Yang--Mills limit in which the positive dimensionless coefficient survives.
 
-The new exact advance is narrow but important: the exceptional framework now contains a mathematically genuine **minimum distinction operator** in addition to a maximum distinction capacity. It also supplies a hard counterexample to their conflation at \(q=1\). What remains is no longer “find some discrete number.” It is to prove that the categorical Laplacian operates on every physical neutral distinction and that the whole-cosmos capacity selects its dimensional realization.
+The new exact advance is narrow but important: the exceptional framework now contains a mathematically genuine **minimum distinction operator** in addition to a maximum distinction capacity. It also supplies a hard counterexample to their conflation at \(q=1\), and the direct Wilson/Type-III audit identifies the precise kind of action that is still missing. What remains is no longer “find some discrete number.” It is to construct a vacuum-ergodic categorical Laplacian on every physical neutral distinction, prove its non-scalar defect is dominated by regional restriction loss, and show that the whole-cosmos capacity selects its dimensional realization.
 
-Primary sources: [[library/representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories/inq|Popa and Vaes on admissible categorical representations, property (T), and the Kazhdan projection]], [[library/property-t-discrete-quantum-groups-and-subfactors-with-triangle-presentations/inq|Vaes and Valvekens on the universal tube-algebra averaging operator]], [[library/quantum-g2-categories-have-property-t/inq|Jones on property (T) for quantum \(G_2\) categories]], and [[library/tensor-categories-and-endomorphisms-of-von-neumann-algebras/inq|Bischoff, Longo, Kawahigashi, and Rehren on Q-system reconstruction and dimension conventions]].
+Primary sources: [[library/representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories/inq|Popa and Vaes on admissible categorical representations, property (T), and the Kazhdan projection]], [[library/property-t-discrete-quantum-groups-and-subfactors-with-triangle-presentations/inq|Vaes and Valvekens on the universal tube-algebra averaging operator]], [[library/quantum-g2-categories-have-property-t/inq|Jones on property (T) for quantum \(G_2\) categories]], [[library/annular-representation-theory-for-rigid-c-star-tensor-categories/inq|Ghosh and Jones on annular extension and admissibility]], [[library/operator-algebras-in-rigid-c-star-tensor-categories/inq|Jones and Penneys on internal GNS and completely positive maps]], [[library/realization-of-rigid-c-star-tensor-categories-via-tomita-bimodules/inq|Giorgetti and Yuan on Type-III categorical realizability]], [[library/compact-hypergroups-from-discrete-subfactors/inq|Bischoff, Del Vecchio, and Giorgetti on same-standard-space hypergroup actions]], and [[library/tensor-categories-and-endomorphisms-of-von-neumann-algebras/inq|Bischoff, Longo, Kawahigashi, and Rehren on Q-system reconstruction and dimension conventions]].
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/quantum-g2-categorical-rigidity-receipt.py|The finite receipt]] and its [[contemporary-puzzles/yang-mills-mass-gap/receipts/quantum-g2-categorical-rigidity-receipt-output.txt|stored output]] check the quantum-dimension symmetry, the explicit Jones certificate, the classical capacity/certificate contrast, inversion of the conditional cosmic-depth equation, and the separately declared one-channel-birth numerical diagnostic. It does not calculate the universal Kazhdan constant, test the classical rigidity theorem, prove property \((T)\), construct a Q-system or physical carrier, validate the cosmic weld, select fusion depth, or establish a Yang--Mills gap.

@@ -350,7 +350,19 @@ $$
 
 Every symbol in (R15) is an obligation: the region site \(\mathfrak R\), measure and normalization, perturbation class, common domain, relative-entropy differentiability, measurability, closability, and treatment of gauge centers or edge data. A collection of local restrictions may still possess globally or topologically invisible tangents. Reeh--Schlieder cyclicity does not itself give the uniform lower frame bound, and the impossibility of a proper vacuum-preserving conditional-expectation tower between ordinary nested local algebras remains untouched.
 
-The Connes cocycle can compare faithful state presentations on one algebra. It neither supplies the family \(J_{\mathcal O}\), makes (R15) coercive, nor turns a modular generator into the physical Hamiltonian. [[wall-construction-interface/half-sided-modular-tunnel]] gives a particularly sharp warning: its invariant reference state has zero horizontal BKM response, and a nonzero response requires an independent state path.
+The Connes cocycle can compare faithful state presentations on one algebra.
+Once such a family is supplied, [[modular-cocycle-tomography/inq|the modular
+tomography theorem]] computes its exact common local-unitary kernel as the
+intersection of its centralizers, or equivalently as one reference
+centralizer intersected with the commutant of all relative cocycles. A
+type-III\(_1\) factor with separable predual even admits faithful states with scalar
+centralizer. This sharpens the injectivity question, but it neither selects
+the physical family \(J_{\mathcal O}\), makes (R15) coercive, nor turns a
+modular generator into the physical Hamiltonian.
+[[wall-construction-interface/half-sided-modular-tunnel]] gives a
+particularly sharp warning: its invariant reference state has zero
+horizontal BKM response, and a nonzero response requires an independent
+state path.
 
 ## Entropic geometry becomes a gap only through a second inequality
 

@@ -20,6 +20,51 @@ $$
 
 makes the dependence explicit.
 
+## Semidefinite before quotient, Hessian after quotient
+
+A response pullback naturally begins one step earlier. Let
+\(\widetilde M\) be an affine parameter manifold, let \(E\to\widetilde M\)
+carry a positive-definite fiber metric \(h\), and let
+
+$$
+J:T\widetilde M\longrightarrow E
+$$
+
+be a smooth bundle map. Define
+
+$$
+G_x(v,w):=h_x(J_xv,J_xw).
+$$
+
+Then
+
+$$
+\mathcal R_x
+:=
+\ker G_x^\flat
+=
+\ker J_x.
+$$
+
+The pullback \(G\) is positive semidefinite. Even when
+\(G=\widetilde\nabla\mathrm d\widetilde\Psi\), it is only a Hessian
+premetric when \(\mathcal R_x\neq0\). It has no inverse metric or
+nondegenerate Legendre map, so
+\((\widetilde M,\widetilde\nabla,G)\) is not yet a Hessian manifold in the
+Riemannian sense used in this module. This is the carrier boundary isolated in
+[[measured-response-carriers/inq|measured response carriers]].
+
+A quotient \(q:\widetilde M\to M\) produces a genuine Hessian manifold only
+under additional hypotheses: the radical must have locally constant rank
+and integrate to a smooth quotient, the form must be basic
+\(G=q^*g\), the flat torsion-free connection must descend, and the local
+potential must descend modulo affine functions along the fibers. Then the
+induced \(g\) is positive definite and locally equals
+\(\nabla\mathrm d\Psi\). Variable rank, singular quotient strata, or a
+nonbasic form leave a stratified or degenerate response object, not a
+Hessian manifold. Constant linear redundancies in a finite exponential
+family are the elementary case where the local affine quotient is valid.
+
 ## The local Codazzi criterion
 
 Define the cubic form

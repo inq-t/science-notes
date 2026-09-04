@@ -214,7 +214,33 @@ $$
 \int_{\mathbb R}|f'(N)|^2\,\mathrm d\mu_{\nu,N_c}(N).}
 $$
 
-The constant is sharp but is not attained by a nonconstant \(L^2(\mu_{\nu,N_c})\) eigenfunction: the positive spectrum begins continuously at \(\nu^2\). The address \(N_c\) translates the state and leaves the lower edge unchanged; the inverse width \(\nu\) fixes the dimensionless rate.
+The constant is sharp but is not attained by a nonconstant \(L^2(\mu_{\nu,N_c})\) eigenfunction: the positive spectrum begins continuously at \(\nu^2\). The address \(N_c\) translates the state and leaves the lower edge unchanged; the inverse width \(\nu\) fixes the rate in the selected \(N\)-coordinate.
+
+Here
+
+$$
+m(N):=\tanh(\nu(N-N_c)),
+\qquad
+p_\pm(N):=\frac{1\pm m(N)}{2}
+$$
+
+are the Bernoulli polarization and outcome weights at a fixed address, not
+the address density \(q_{\nu,N_c}(N)\). Rather,
+
+$$
+q_{\nu,N_c}(N)
+=\frac12\frac{\mathrm d m}{\mathrm dN}
+=\frac{1}{2\nu}g^{\mathrm{bin}}_{NN},
+\qquad
+g^{\mathrm{bin}}_{NN}
+=\nu^2\operatorname{sech}^2(\nu(N-N_c)).
+$$
+
+Thus \(\nu\) is inverse width in the selected \(N\)-coordinate. It is
+dimensionless only when \(N\) is dimensionless, and it is not a physical
+clock rate without a separate clock solder. The normalizable zero mode
+selects a localized kernel line and address; it is not an obtained
+measurement outcome or a Yang--Mills vacuum.
 
 ## Flat-partner uniqueness
 
@@ -258,7 +284,7 @@ W(N)=\nu\tanh\!\bigl(\nu(N-N_c)\bigr),
 \frac{\nu}{2}\operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr).}
 $$
 
-Thus a homogeneous constant partner plus one normalizable pointing forces positivity of the partner constant, the logistic wall, its translation modulus, and its dimensionless lower edge. It does not fix the positive magnitude \(\nu\), nor explain why the homogeneous-partner law is fundamental. When \(\nu\downarrow0\), the probability measures lose tightness, the normalized state has no probability-measure limit on the line, and the lower edge closes as \(\nu^2\).
+Thus a homogeneous constant partner plus one normalizable pointing forces positivity of the partner constant, the logistic wall, its translation modulus, and its coordinate lower edge. It does not fix the positive magnitude \(\nu\), nor explain why the homogeneous-partner law is fundamental. When \(\nu\downarrow0\), the probability measures lose tightness, the normalized state has no probability-measure limit on the line, and the lower edge closes as \(\nu^2\).
 
 ## Reflectionless continuum
 

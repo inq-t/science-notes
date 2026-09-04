@@ -45,6 +45,15 @@ $$
 
 and it cannot be replaced by the weighted internal sum. Showing that this full joint metric is Hessian requires a common affine model for the central law and the conditional states, not merely sectorwise potentials.
 
+[[vacuum-balance-fisher-geometry/inq|Vacuum-Balance Fisher Geometry]]
+supplies the corresponding pointed-Hilbert decomposition for an atomic block
+law: the real between-block vacuum directions carry exactly the Fisher score
+metric, the internally centered blocks carry the conditional directions, and
+the total Hilbert norm obeys the associated total-variance split. Its
+imaginary balance directions remain phase rather than classical Fisher
+tangents, so the Hilbert theorem does not by itself construct a joint Hessian
+state manifold.
+
 Thus the mixed response relation already used by [[program-core/common-response-form|the common response form]],
 
 $$
@@ -79,7 +88,18 @@ $$
 (\dot\rho_I,\dot\rho_J)
 $$
 
-in the declared affine chart. Pulling this state geometry back along the CRF readout map gives that sector's response matrix. Central averaging or factive evaluation is a later operation.
+in the declared affine chart. Pulling this state geometry back along the CRF readout map gives that sector's response form. By [[measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers|the pullback-radical theorem]],
+
+$$
+\operatorname{rad}G_\lambda
+=
+\ker D\rho_\lambda.
+$$
+
+It is a metric only after parameter directions that induce no state tangent
+have been quotiented. Equivalently, the centered generators must be linearly
+independent modulo the scalar identity. Central averaging or factive
+evaluation is a later operation.
 
 This is an **[EXACT FINITE-DIMENSIONAL MODEL]**. It does not prove that every CRF realization is Hessian or that its continuum response is finite. More generally, set
 
@@ -107,6 +127,27 @@ $$
 
 Thus a nonlinear modular Hamiltonian contributes an acceleration term, and the raw log-partition Hessian need not be the positive BKM pullback in those coordinates.
 
+[[bridge-score-fusion-geometry/inq|Bridge-Score Fusion Geometry]] gives a
+carrier-level instance of the same sign. After a two-step kernel is
+conditioned on both endpoints, the centered logarithmic derivative of its
+middle bridge lies in the scalarized fusion residue. Its Fisher Gramian is
+the conditional score covariance, while the differentiated normalized GNS
+half-density has one quarter of that Gramian. For
+\(\mathscr A=-\log\int e^{-\mathscr V}\),
+
+$$
+\nabla^2\mathscr A
+=
+\mathbb E[\nabla^2\mathscr V]
+-\operatorname{Cov}(\mathrm d\mathscr V,\mathrm d\mathscr V).
+$$
+
+An arbitrary middle-slice source \(f\), rather than a finite parameter list,
+then yields the bounded analysis
+\((I-\mathbb E[\,\cdot\mid X_0,X_{2n}])f(X_n)\). Its Gramian is an operator on
+the full slice \(L^2\) carrier. This is a genuine response operator; a
+uniform lower frame for it remains an additional analytic theorem.
+
 A programme-specific **[OPEN ANSATZ]** is one represented modular or Dirac-derived family
 
 $$
@@ -127,6 +168,18 @@ Once the construction is genuine, the programme gains more than a name.
 - Natural and expectation coordinates are related by a Legendre transform on the response manifold.
 - Hidden-mode elimination can be tested for compatibility with the Hessian structure rather than performed block by block.
 - The global existence question becomes a problem about affine holonomy, convexity, and the patching of local potentials.
+
+The Hessian form canonically lowers an index,
+
+$$
+g^\flat:T_\lambda U\longrightarrow T_\lambda^*U.
+$$
+
+It is not a response endomorphism until a separately normalized source norm
+or Riesz map identifies tangent and cotangent carriers. Consequently, matrix
+eigenvalues of \(G_{IJ}\) are not intrinsic spectral gaps: they depend on
+the tangent normalization and coordinates. The reusable carrier distinction
+is developed in [[measured-response-carriers/inq]].
 
 Legendre duality does **not** perform the Fourier covariance-to-precision map. The former relates dual affine coordinates on one statistical manifold; [[basic-concepts/hessians/fourier-covariance-and-precision|the latter]] inverts an operator after a carrier, measure, and Fourier convention have been supplied. W2 still needs its carrier-changing realization.
 
@@ -161,6 +214,11 @@ $$
 $$
 
 For \(n=3\), this is an exact six-real-dimensional complexification with a three-real-dimensional fixed locus. [[tangent-bundle-complexification|The tangent-bundle note]] explains why this is an important debugging model but not a derivation of space: the real three-manifold \(M\) is input, and in the CRF it initially parametrizes responses rather than spatial points.
+
+Nor does the Dombrowski complex structure on \(TM\) supply the positive
+Hermitian extension of a real response form to a complex physical Hilbert
+or Hamiltonian-form carrier. Those are different complexifications and
+require an explicit comparison map.
 
 ## Impact on the larger programme
 

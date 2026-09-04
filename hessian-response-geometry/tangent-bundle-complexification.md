@@ -78,6 +78,12 @@ $$
 
 which is precisely the fundamental form and real metric induced by \(\widetilde g\). Other common conventions move the factor of \(2\) between the Kähler potential, Hermitian components, and line element; the tensors above fix the convention used here.
 
+This construction requires the nondegenerate postquotient metric. A
+semidefinite response pullback does not define a Kähler metric on its tangent
+bundle until the regular affine quotient described in
+[[affine-hessian-structure#Semidefinite before quotient, Hessian after quotient]]
+has been performed.
+
 ## Canonical conjugation
 
 Fiber negation defines

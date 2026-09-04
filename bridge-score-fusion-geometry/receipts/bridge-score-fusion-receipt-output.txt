@@ -1,0 +1,14 @@
+bridge-score fusion geometry: finite two-state receipt
+conditional-projection error = 1.110e-16
+projection orthogonality error = 6.072e-18
+centered-score error = 0.000e+00
+score finite-difference error = 2.483e-10
+half-density finite-difference error = 5.282e-11
+Fisher Gramian = 0.604367777117
+half-density Gramian = 0.151091944271
+one-quarter-factor error = 7.912e-12
+bridge-Gramian eigenvalues = (0.0, 0.6043677771171634)
+defect-minus-bridge eigenvalues = (1.1102230246251565e-16, 0.14903525894123015)
+Doob row-sum error = 2.665e-15
+Wilson/Doob bridge-cancellation error = 2.220e-16
+PASS: bridge score is a centered fusion residue below transfer defect

@@ -1,0 +1,11 @@
+two-slice innovation geometry: finite identities
+pair maximal correlation       = 0.600000000
+pair-form floor 1-rho         = 0.400000000
+optimal variance factor       = 2.500000000
+innovation-matrix bound       = 0.600000000
+actual product-channel rho    = 0.600000000
+hidden parity rho             = 0.970000000
+proper-block correlation      = 4.155e-17
+injective proper-block rho    = 0.008000000
+injective parity eigenvalue   = 0.950804800
+scope: finite operator checks only; no Yang--Mills claim

@@ -1,0 +1,17 @@
+bridge data-augmentation solder: finite binary receipt
+middle-boundary maximal correlation = 0.727606875109
+data-augmentation centered eigenvalue = 0.529411764706
+bridge lower-frame constant = 0.470588235294
+parity bridge-formula error = 1.110e-16
+minimum eigenvalue of S-P^2 = -0.000000000000
+3-factor product centered eigenvalue = 0.529411764706
+3-factor product bridge floor = 0.470588235294
+one-factor / direct-product minorization = 0.117647058824 / 0.001628332994
+3-link Z2 gauge-cycle eigenvalue = 0.148381844087
+3-link Z2 gauge-cycle floor = 0.851618155913
+row-sum error = 2.220e-16
+detailed-balance error = 0.000e+00
+squared-correlation error = 0.000e+00
+product-tensorization error = 3.331e-16
+gauge-cycle eigenvalue error = 5.551e-17
+PASS: canonical bridge augmentation tensorizes without a volume-product loss

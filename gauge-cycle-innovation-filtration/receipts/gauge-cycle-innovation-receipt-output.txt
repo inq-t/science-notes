@@ -1,0 +1,9 @@
+gauge-cycle innovation receipt: PASS
+tree/prefix physical ranks = [1, 1, 2, 4]
+link correlation = 0.620000000
+pure physical contraction = r^2 = 0.384400000
+interacting physical rho = 0.339534780
+interacting innovation matrix =
+[[0.262652577 0.063926233]
+ [0.063926233 0.288423843]]
+innovation-matrix norm = 0.340750193

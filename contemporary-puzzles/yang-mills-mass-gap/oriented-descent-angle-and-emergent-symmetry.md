@@ -406,6 +406,16 @@ $$
 
 Its kernel is exactly the tangent space of the fixed-rank idempotent orbit, while its normal complement has unit edge in the canonical dimensionless convention. For a primitive idempotent in \(\mathfrak h_3(\mathbb O)\), this gives multiplicities \(0^{(16)}\) and \(1^{(11)}\). Thus the exceptional product can generate both a presentation orbit with a stabilizer and a positive transverse response; one need not append a gauge group and a quadratic cost as unrelated inputs.
 
+There is now an exact bridge between those two facts. The selected-flag
+stabilizer preserves the Jordan product, the trace form, the idempotent, and
+hence the Hessian and its radical. It therefore induces an orthogonal
+representation on the normal quotient. This is a finite exceptional instance
+of [[algebra/quotient-unitarity-and-kernel-stabilization|quotient unitarity by
+kernel stabilization]]: the familiar unitary factors act after selection as
+symmetries of the retained response. The theorem neither proves that this
+quotient is the physical Hilbert carrier nor that its unit normal edge is an
+energy gap.
+
 The direction of this Hessian is also its most important limitation. It penalizes leaving the valid idempotent locus. If physical Yang--Mills excitations instead live tangent to a space of valid fields, the Jordan Hessian is a constraint-violation stiffness and misses precisely the physical sector. A recovery theorem must therefore construct a flag field or analysis map whose **normal response covers every gauge-invariant nonvacuum direction**, and compare that response with the OS Hamiltonian form. Without that carrier-and-coverage theorem, the normal edge is not a mass edge.
 
 Two Jordan walls must remain separate. For a Jordan-frame spectrum \((\lambda_1,\lambda_2,\lambda_3)\),

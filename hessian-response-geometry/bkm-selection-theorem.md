@@ -28,22 +28,34 @@ On self-adjoint trace-zero density tangents \(X,Y\), the BKM metric is
 
 $$
 \boxed{
-g^{\mathrm{BKM}}_\rho(X,Y)
+g^{\mathrm{BKM,dens}}_\rho(X,Y)
 =
 \operatorname{Tr}
 \left[X\,\Omega_\rho^{-1}(Y)\right].}
 $$
 
-Equivalently, for centered exponential scores \(A,B\),
+For centered exponential scores \(A,B\), define
 
 $$
-g^{\mathrm{BKM}}_\rho(A,B)
+g^{\mathrm{BKM,score}}_\rho(A,B)
 =
 \int_0^1
 \operatorname{Tr}
 \left(
 \rho^sA\rho^{1-s}B
 \right)\,\mathrm ds.
+$$
+
+These forms agree only after the Kubo--Mori identification
+
+$$
+X=\Omega_\rho(A),
+\qquad
+Y=\Omega_\rho(B),
+\qquad
+g^{\mathrm{BKM,dens}}_\rho(X,Y)
+=
+g^{\mathrm{BKM,score}}_\rho(A,B).
 $$
 
 When all relevant operators commute, this reduces to ordinary covariance and hence to classical Fisher information.

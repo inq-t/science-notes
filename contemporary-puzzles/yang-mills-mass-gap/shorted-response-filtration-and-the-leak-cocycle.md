@@ -1,8 +1,8 @@
 # Shorted Response Filtration and the Positive Leak Cocycle
 
-A whole positive response can be pushed to a local fact carrier without choosing a hidden antecedent: minimize the whole cost over the entire fibre of compatible backgrounds. For bounded positive operators this is Anderson--Trapp shorting. The operation is exactly transitive on nested retained carriers, and it yields two distinct positive ledgers: a monotone retained-response filtration and a frozen-versus-relaxed background residue. Most importantly, a positive local floor is equivalent to a Douglas range-inclusion condition. The whole operator may be globally gapless while its arbitrarily soft modes are entirely invisible to the retained quotient; the local gap is then real, but shorting has exposed rather than manufactured it.
+A whole positive response can be pushed to a local fact carrier without choosing a hidden antecedent: minimize the whole cost over the entire fibre of compatible backgrounds. For bounded positive operators this is Anderson--Trapp shorting. The operation is exactly transitive on nested retained carriers, and it yields two distinct positive ledgers: a monotone retained-response filtration and a frozen-versus-relaxed background residue. A single wall defect vanishes on its own retained carrier, but the weighted sum of two projection defects has an exact Cayley-type short whose possible positive floor is controlled by their Friedrichs angle. Most importantly, a positive local floor is equivalent to a Douglas range-inclusion condition. The whole operator may be globally gapless while its arbitrarily soft modes are entirely invisible to the retained quotient; the local gap is then real, but shorting has exposed rather than manufactured it.
 
-**Status: [EXACT] for bounded positive operators on one Hilbert carrier, including variational shorting, transitivity, the two positive ledgers, and the Douglas stopping condition; [EXACT MODEL] for a globally gapless whole with a gapped retained short; [CONDITIONAL CONSTRUCTION] for a vacuum response and nested fact carriers; [OPEN] for a canonical Type-III/Jordan/Yang--Mills carrier, an unbounded closed-form extension with the required naturality, a regulator-uniform floor, and the clock--Poincare solder.**
+**Status: [EXACT] for bounded positive operators on one Hilbert carrier, including variational shorting, transitivity, the two positive ledgers, the paired-projection formula, and the Douglas stopping condition; [EXACT MODEL] for a globally gapless whole with a gapped retained short; [CONDITIONAL CONSTRUCTION] for a vacuum response and nested fact carriers; [OPEN] for a canonical Type-III/Jordan/Yang--Mills carrier, an unbounded closed-form extension with the required naturality, a regulator-uniform floor, and the clock--Poincare solder.**
 
 ## A fact carrier is a quotient of compatible whole variations
 
@@ -26,7 +26,7 @@ S_L(A)
 :=
 \max\left\{
 X\in B(\mathcal H_W):
-0\leq X\leq A,\ 
+0\leq X\leq A,
 \operatorname{Ran}X\subseteq L
 \right\}.}
 \tag{SF2}
@@ -203,6 +203,145 @@ $$
 Equation (SF16) separates the relaxation already paid outside \(T\) from the additional relaxation paid on passing from \(T\) to \(L\). It is an exact operator identity, not merely an inequality or a metaphor about forgotten information.
 
 The common ambient carrier is load bearing. A tower of Type-III algebras or \(W^*\)-correspondences does not automatically provide nested Hilbert subspaces to which (SF12) applies. Compatible standard-form embeddings, expectation implementations, or another coherent realization must first be supplied.
+
+## Paired walls produce an exact tangential response
+
+**Exact bounded theorem.** Let \(P,Q\) be orthogonal projections on a Hilbert space \(\mathcal H\), let \(\alpha,\beta>0\), and put
+
+$$
+A_{\alpha,\beta}
+:=
+\alpha(I-P)+\beta(I-Q).
+\tag{SF17a}
+$$
+
+Write
+
+$$
+R:=P\wedge Q,
+\qquad
+C:=PQP\big|_{P\mathcal H},
+\qquad
+E_{P,Q}:=(P-R)\mathcal H.
+\tag{SF17b}
+$$
+
+Then the short to the \(P\)-retained carrier is
+
+$$
+\boxed{
+\Lambda_{P\leftarrow Q}^{\alpha,\beta}
+:=
+S_{P\mathcal H}(A_{\alpha,\beta})\big|_{P\mathcal H}
+=
+\alpha\beta(I-C)(\alpha I+\beta C)^{-1}.}
+\tag{SF17c}
+$$
+
+Here \(A_{\alpha,\beta}\) acts on the whole comparison carrier \(\mathcal H\), whereas \(\Lambda_{P\leftarrow Q}^{\alpha,\beta}\) acts on a retained vector \(x\in P\mathcal H\) after every hidden lift has been relaxed:
+
+$$
+\boxed{
+\langle x,\Lambda_{P\leftarrow Q}^{\alpha,\beta}x\rangle
+=
+\inf_{z\in\ker P}
+\left{
+\alpha\|z\|^2
++
+\beta\|(I-Q)(x+z)\|^2
+\right}.}
+\tag{SF17d}
+$$
+
+This typing resolves the range--kernel obstruction for a raw wall. On its own retained carrier,
+
+$$
+(I-P)\big|_{P\mathcal H}=0,
+\qquad
+S_{P\mathcal H}\!\left(\alpha(I-P)\right)=0.
+\tag{SF17e}
+$$
+
+Any tangential response surviving in (SF17c) therefore comes from the relative position of the **second** wall, not from reinterpreting \(I-P\) as an operator it cannot be.
+
+For the proof, decompose \(\mathcal H=P\mathcal H\oplus\ker P\) and write
+
+$$
+Q=
+\begin{pmatrix}
+C&B\\
+B^*&D
+\end{pmatrix}.
+$$
+
+The hidden block of \(A_{\alpha,\beta}\) is \(M=\alpha I+\beta(I-D)\geq\alpha I\), so the Schur formula applies. The projection identities
+
+$$
+BB^*=C-C^2,
+\qquad
+B M=(\alpha I+\beta C)B
+$$
+
+give
+
+$$
+\beta(I-C)-\beta^2BM^{-1}B^*
+=
+\alpha\beta(I-C)(\alpha I+\beta C)^{-1},
+$$
+
+which proves (SF17c). This is the bounded two-projection instance of the infimal whole-to-local pushforward in [[trace-dirichlet-descent/inq|Trace Dirichlet Descent]]. If the resulting form is also closed and Markovian, that separate theorem supplies a local semigroup generator; bounded positivity and shorting alone do not.
+
+The common kernel and the sharp reduced floor are
+
+$$
+\ker\Lambda_{P\leftarrow Q}^{\alpha,\beta}
+=R\mathcal H,
+\qquad
+\inf\sigma\!\left(
+\Lambda_{P\leftarrow Q}^{\alpha,\beta}\big|_{E_{P,Q}}
+\right)
+=
+\frac{\alpha\beta(1-c_F^2)}{\alpha+\beta c_F^2},
+\tag{SF17f}
+$$
+
+provided \(E_{P,Q}\neq\{0\}\), where
+
+$$
+c_F
+:=
+\|(P-R)(Q-R)\|
+$$
+
+is the Friedrichs cosine. Indeed, \(C\) is the identity on \(R\mathcal H\), its restriction to \(E_{P,Q}\) has norm \(c_F^2\), and the scalar function \(t\mapsto\alpha\beta(1-t)/(\alpha+\beta t)\) is decreasing. Consequently the following are equivalent:
+
+$$
+\boxed{
+c_F<1
+\quad\Longleftrightarrow\quad
+(P-R)\mathcal H+(Q-R)\mathcal H\ \text{is closed}
+\quad\Longleftrightarrow\quad
+E_{P,Q}\subseteq\operatorname{Ran}A_{\alpha,\beta}^{1/2}.}
+\tag{SF17g}
+$$
+
+Thus a sequence of almost-common reduced vectors with \(c_F=1\) falsifies any positive paired-wall floor. For equal weights,
+
+$$
+\boxed{
+\Lambda_{P\leftarrow Q}^{1,1}
+=(I-C)(I+C)^{-1},
+\qquad
+\inf\sigma\!\left(\Lambda_{P\leftarrow Q}^{1,1}\big|_{E_{P,Q}}\right)
+=
+\frac{1-c_F^2}{1+c_F^2}.}
+\tag{SF17h}
+$$
+
+If \(P\) and \(Q\) are the common-GNS implementations of two state-preserving conditional expectations, then the quadratic form of \(A_{\alpha,\beta}\) is the weighted sum of their squared restriction losses. This gives the paired response a canonical meaning once the state, carrier, and expectations have been constructed. A bare inclusion, correspondence, or Q-system does not by itself supply those data. Multiplying \(\alpha,\beta\) by one common scalar changes only the overall normalization; changing their ratio changes the spectral response function even though the two projection ranges, and hence their unweighted wall geometry, stay fixed.
+
+[[contemporary-puzzles/yang-mills-mass-gap/receipts/paired_wall_shorting_receipt.py|The paired-wall receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/paired-wall-shorting-receipt-output.txt|its stored output]] verify (SF17c), the common kernel, the single-wall no-go, and the equal-weight Cayley/tanh specialization in a finite projection model. They verify operator arithmetic only.
 
 ## The exact stopping condition is a range inclusion
 

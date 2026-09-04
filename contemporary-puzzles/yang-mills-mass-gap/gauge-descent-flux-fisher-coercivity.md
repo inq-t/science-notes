@@ -357,6 +357,18 @@ $$
 
 is gauge invariant, has Haar mean zero, and is an eigenfunction with eigenvalue $g(\Gamma)c_K(\pi_*)$. This proves the reverse bound. $\square$
 
+The same support-and-saturation argument gives the sharp bounded analogue for the $SU(2)$ pure product-Wilson convolution. If $P_{x,\Gamma}^{\mathrm{kin}}=\bigotimes_eP_x$, then [[finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|the product-Wilson theorem]] proves on the gauge-invariant carrier
+
+$$
+I-P_{x,\Gamma}^{\mathrm{kin}}
+\geq
+\left[
+1-\left(\frac{I_2(x)}{I_1(x)}\right)^{g(\Gamma)}
+\right](I-P_{\mathrm{const}}),
+$$
+
+and the shortest-cycle spin-$\tfrac12$ Wilson character saturates the bound. This is a pure kinetic product statement only. Magnetic plaquette factors and the interacting transfer vacuum destroy this product diagonalization, so the theorem supplies no interacting-vacuum transfer edge by itself.
+
 Thus a simple pure-gauge hypercubic graph with square plaquettes and no shorter periodic identification has the sharp kinematic constant $4\lambda_G$, independent of its total volume. A tree with every vertex gauged has only constant invariant functions. The saturation argument assumes that every edge on a shortest cycle remains an independent $G$-valued coordinate with product Haar measure. Ungauged boundary vertices, charged endpoints, matter fields, fixed boundary links or holonomy, flatness constraints, and other restrictions of $G^E$ can alter the admissible spin networks and invalidate the girth formula.
 
 For $G=SU(3)$ in the $-B_{\mathfrak{su}(3)}$ convention, the fundamental representation is allowed and
@@ -634,6 +646,15 @@ $$
 $$
 
 One also needs $\overline q(a)<1$ and positive local and comparison constants at every regulator where the theorem is invoked. Their separate dimensionless values may tend to zero as $a\to0$; that is not fatal if $\kappa_a$ compensates and the displayed physical ratio retains a positive lower limit. Conversely, (Dobrushin-stop) is not by itself a continuum mass-gap theorem. The form and vacuum-projection convergence, nontrivial continuum carrier, and OS or positive-energy recovery conditions stated below are still required.
+
+There is now a more direct temporal use of the same theorem family.
+[[three-block-bridge-factorization/inq|Three-Block Bridge Factorization]]
+treats the initial slice, entire open Euclidean slab, and final slice as three
+macrocoordinates. Wu's inequality for that **whole path law** leaves only the
+bridge conditional variance when tested on a midpoint observable, and hence
+directly bounds the physical bridge Gramian. This is not licensed by the
+one-slice matrix above: the macroblock conditional laws, metrics, and
+influence coefficients must be derived anew from the spacetime Gibbs law.
 
 [[library/dobrushin-uniqueness-theorem-and-logarithmic-sobolev-inequalities/inq|Zegarlinski's theorem]] proves, for Riemannian single-site spaces under its declared Dobrushin hypotheses, that local specification control can yield a unique Gibbs measure satisfying a logarithmic Sobolev inequality; linearization then gives a Poincare bound. It cannot simply be cited for lattice Yang--Mills. One must first prove that the ground-state density $\psi_{0,\Gamma}^2$ defines the required compatible quasilocal specification after gauge reduction and that the influence bound remains below its threshold uniformly. Neither follows from locality of the original Hamiltonian, because taking the logarithm of an interacting ground-state wavefunction can generate nonlocal dependence.
 

@@ -400,7 +400,7 @@ $$
 
 This is only a floor on the joint-positive carrier. It yields a vacuum-complement floor only after proving \(P_{\leftrightarrow}=1-P_0\), or equivalently excluding every nonvacuum sector on which either causal generator vanishes.
 
-This is the rigorous version of the upside-down claim: a single causal generator can remain scale-covariant and gapless, while a lower edge can reside in the frame-invariant mean address of two reciprocal directions. In \(1+1\) dimensions this product is the mass Casimir after normalization, provided the joint-positive carrier is the vacuum complement. In \(3+1\) dimensions one null pair gives \(H^2-P_z^2=\mathcal C+\mathbf P_\perp^2\), so the Clay target still requires the full Poincare Casimir, not (RL34) for one chosen direction.
+This is the rigorous version of the upside-down claim: a single causal generator can remain scale-covariant and gapless, while a lower edge can reside in the frame-invariant mean address of two reciprocal directions. In \(1+1\) dimensions this product is the mass Casimir after normalization, provided the joint-positive carrier is the vacuum complement. In \(3+1\) dimensions one null pair gives \(H^2-P_z^2=\mathcal C+\mathbf P_\perp^2\), so the product is not identical to the full Casimir. Yet (RL34) for one chosen direction does prove the Clay Hamiltonian gap if \(K_\pm\) have first been identified with that fixed physical null pair on the entire vacuum complement of a positive-energy Poincare representation. For an abstract or sector-restricted pair, a full-carrier fixed-pair, all-direction, or direct-Casimir solder remains necessary.
 
 ## Naturality and the candidate boundary-to-scale map
 
@@ -445,7 +445,6 @@ $$
 \boxed{
 S_r^{\mathrm{res}}
 :=\mathscr S_{L_{r,I}/L_{*,r}}}
-}
 \tag{RL40}
 $$
 
@@ -523,7 +522,7 @@ The candidate becomes physically useful only if all of the following survive scr
 5. a center ceiling is uniform in volume and in physical units along continuum removal;
 6. the same-carrier comparison to the transfer Hamiltonian and eventually the full Poincare Casimir is proved;
 7. in the paired route, the causal generators strongly commute and belong to one reconstructed translation representation; and
-8. in \(3+1\) dimensions, the full Casimir replaces the product of one chosen null pair.
+8. in \(3+1\) dimensions, either one fixed physical null-pair floor is proved on the whole vacuum complement after Poincare reconstruction, or an all-direction/direct-Casimir solder is supplied; the directional product itself is not relabeled as the Casimir.
 
 The route is killed if the universal \(1/4\), \(1/12\), \(2\)-nat entropy, or \(\pi^2/3\) variance is called a mass scale; if the reference \(L_*\) is chosen from the observed gap; if the spectral center is discarded during recentering; or if the scale POVM is called an actuality selector. Each error confuses an equation of numbers with an identity of concepts.
 

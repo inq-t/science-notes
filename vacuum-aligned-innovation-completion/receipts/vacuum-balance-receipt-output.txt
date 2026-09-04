@@ -1,0 +1,8 @@
+vacuum balance receipt: PASS
+correlation kappa = 0.600000000
+half-density block weights = [0.900000000, 0.100000000]
+naive internal-centered rank = 0
+vacuum-balance rank = 1
+physical centered rank = 1
+transfer eigenvalue = 0.730000000
+balance transfer norm = 0.730000000

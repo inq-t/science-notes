@@ -2,9 +2,9 @@
 
 The receipt constructs two conditional-expectation projections from a reversible
 three-state Markov pair. It checks the Friedrichs cosine, the alternating
-round trip, the two-projection frame edge, and the distinction between a
-shrinking one-step separation and a fixed physical slab. It makes no
-continuum or Yang--Mills claim.
+round trip, the two-projection frame edge, the one-boundary prediction-residue
+Gramian, and the distinction between a shrinking one-step separation and a
+fixed physical slab. It makes no continuum or Yang--Mills claim.
 """
 
 from __future__ import annotations
@@ -35,7 +35,9 @@ def transfer(thickness: float) -> np.ndarray:
     return matrix
 
 
-def projection_witness(step: float, separation_steps: int) -> tuple[float, float, float]:
+def projection_witness(
+    step: float, separation_steps: int
+) -> tuple[float, float, float, float]:
     """Construct endpoint sigma-algebra projections on the weighted pair carrier."""
     thickness = step * separation_steps
     transition = transfer(thickness)
@@ -90,9 +92,23 @@ def projection_witness(step: float, separation_steps: int) -> tuple[float, float
     assert np.allclose(compressed, expected_compressed, atol=2e-12)
     assert np.allclose(compressed @ q_state, compressed)
 
+    # The part of a future-slice observable omitted by projection to the
+    # initial slice has Gramian I-T^(2d).
+    prediction_residue = (np.eye(path_count) - e_past) @ future_basis
+    residue_gramian = prediction_residue.T @ prediction_residue
+    expected_residue = identity_states - transfer(2.0 * thickness)
+    assert np.allclose(residue_gramian, expected_residue, atol=2e-12)
+    centered_residue_spectrum = np.linalg.eigvalsh(
+        q_state @ residue_gramian @ q_state
+    )
+    residue_floor = float(centered_residue_spectrum[1])
+    assert math.isclose(
+        residue_floor, 1.0 - expected_cosine**2, abs_tol=2e-12
+    )
+
     recovered_gap = -math.log(friedrichs_cosine) / thickness
     assert math.isclose(recovered_gap, 1.0, abs_tol=2e-12)
-    return friedrichs_cosine, frame_floor, alternating_norm
+    return friedrichs_cosine, frame_floor, alternating_norm, residue_floor
 
 
 def main() -> None:
@@ -115,7 +131,7 @@ def main() -> None:
     print("separation exponent d (step = 0.2)")
     print("d    c_F           expected       round_trip")
     for separation_steps in (1, 2, 3, 5):
-        cosine, _, round_trip = projection_witness(0.2, separation_steps)
+        cosine, _, round_trip, _ = projection_witness(0.2, separation_steps)
         print(
             f"{separation_steps:1d}    {cosine:.9f}   "
             f"{math.exp(-0.2 * separation_steps):.9f}   {round_trip:.9f}"
@@ -124,18 +140,22 @@ def main() -> None:
     print("adjacent slices: raw floor vanishes; logarithmic rate stays fixed")
     print("a          1-c_F         -log(c_F)/a")
     for step in (0.5, 0.25, 0.125, 0.0625):
-        cosine, frame_floor, _ = projection_witness(step, 1)
+        cosine, frame_floor, _, _ = projection_witness(step, 1)
         print(f"{step:.4f}     {frame_floor:.9f}    {-math.log(cosine) / step:.9f}")
 
     print("fixed physical thickness: raw angle stays fixed")
     print("a          d       c_F           1-c_F")
     for separation_steps in (1, 2, 4, 8):
         step = 1.0 / separation_steps
-        cosine, frame_floor, _ = projection_witness(step, separation_steps)
+        cosine, frame_floor, _, _ = projection_witness(step, separation_steps)
         print(
             f"{step:.4f}     {separation_steps:1d}       "
             f"{cosine:.9f}   {frame_floor:.9f}"
         )
+
+    _, _, _, residue_floor = projection_witness(1.0, 1)
+    print("history compression: omitted Gramian is I-T^(2d)")
+    print(f"centered residue floor at thickness 1 = {residue_floor:.9f}")
 
     print("Euclidean dwell (hbar*c = 1): gap is reciprocal persistence ceiling")
     print(

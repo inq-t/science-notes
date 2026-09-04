@@ -930,6 +930,113 @@ $$
 
 The two-cut joint marginal instead tends in total variation to the corresponding product of vacuum slice marginals. It must not be identified with the one-slice law by suppressing one of its boundary variables.
 
+### A fixed inner slab prepares the stationary endpoint law
+
+There is a different two-cut limit that retains a prescribed transfer
+separation. Fix an integer \(d\geq1\) for which \(T^d\) has an \(L^2\) kernel
+\(K_d\), and let the complementary arc of a periodic cylinder have length
+\(N-d\). In the trace-class kernel regime used above, the joint marginal of
+the two marked slices is
+
+$$
+\mathrm d\mathsf J_{N,d}(U,V)
+:=
+\frac{
+K_d(U,V)K_{N-d}(V,U)
+}{\operatorname{Tr}(T^N)}
+\,\mathrm d\mu_{\mathrm{Haar}}(U)
+\,\mathrm d\mu_{\mathrm{Haar}}(V).
+\tag{VBG1}
+$$
+
+The Hilbert--Schmidt law above is the balanced special case \(N=2d\).
+Holding \(d\) fixed while sending the complementary outer depth
+\(N-d\to\infty\) instead gives, in total variation under the same
+simple-top-eigenvalue and kernel hypotheses,
+
+$$
+\boxed{
+\mathrm d\mathsf J_T^{(d)}(U,V)
+:=
+\frac{
+\psi_0(U)K_d(U,V)\psi_0(V)
+}{\lambda_0^d}
+\,\mathrm d\mu_{\mathrm{Haar}}(U)
+\,\mathrm d\mu_{\mathrm{Haar}}(V)
+=
+\nu_0(\mathrm dU)P^d(U,\mathrm dV).}
+\tag{VBG2}
+$$
+
+Indeed,
+\(\lambda_0^{-(N-d)}K_{N-d}\to\psi_0\otimes\psi_0\) in \(L^2\),
+\(\lambda_0^{-N}\operatorname{Tr}(T^N)\to1\), and multiplication by the
+fixed \(L^2\) kernel \(K_d\) sends the first convergence to \(L^1\).
+
+Thus the fixed-inner-slab limit is the \(d\)-step stationary law of the
+vacuum Doob transform, whereas the balanced periodic limit lets the
+separation itself diverge and tends to the product vacuum law. These are
+different limiting geometries.
+
+On the gauge-invariant slice carrier
+
+$$
+\mathcal K_T:=L^2(\nu_0)^{\mathrm{GI}},
+\qquad
+\mathscr K_T^{(d)}:=L^2(\mathsf J_T^{(d)}),
+$$
+
+with the quotient or gauge-projection convention understood, define the
+endpoint pullback isometries
+
+$$
+J_-f(U,V):=f(U),
+\qquad
+J_+f(U,V):=f(V).
+$$
+
+Reversibility gives \((J_+)^*J_-=P^d\). Hence the endpoint residual
+
+$$
+L_{-\mid+}
+:=
+(I-J_+J_+^*)J_-,
+\qquad
+(L_{-\mid+}f)(U,V)
+=
+f(U)-(P^df)(V),
+$$
+
+is bounded and satisfies the exact round-trip identity
+
+$$
+\boxed{
+L_{-\mid+}^*L_{-\mid+}
+=
+I-(P^d)^*P^d
+=
+I-P^{2d}.}
+\tag{VBG3}
+$$
+
+This identity instantiates the joint-correspondence residue on the actual
+vacuum-prepared Wilson pair law, but it is not an independent gap estimate:
+both the isometries and the residual were constructed from the physical
+transfer \(P\). It must also not be confused with the one-way jump defect
+\(I-P^d\) in [[markov-edge-measure-solder/inq|the stationary edge form]].
+Hilbert positivity gives
+\(I-P^{2d}=(I+P^d)(I-P^d)\geq I-P^d\), so an independently proved
+same-carrier comparison for the one-way defect supplies a lower bound on the
+residual, not an identification of the two forms.
+
+Finally, (VBG2) does not by itself identify the endpoint carrier with the
+reflection-interface carrier in (OS5). The finite periodic separator law
+entering (OS3) and the stationary fixed-slab law in (VBG2) arise from
+different cut limits. Relating their endpoint pullbacks requires the
+appropriate reflection-Markov pushforward and, for a thick separator, the
+interface-to-slice map \(C_{\rho,I\to\Sigma}\). Reflection positivity alone
+does not supply either identification.
+
 Thus \(B_\rho^{\mathrm{OS}}\) is the exact OS-to-interface leg of the sought carrier map. It is not yet the map from interface configurations to the logistic core-scale shadow.
 
 ## The Yang--Mills boundary construction at finite regulator
@@ -971,6 +1078,8 @@ H_T:=-\frac{\hbar c}{a_\tau}\log T.
 $$
 
 It is the measure in the Kogut--Susskind ground-state-transform theorem only if \(T=e^{-a_\tau H_{\mathrm{KS}}/(\hbar c)}\) was defined from that Hamiltonian, or after a controlled temporal-continuum theorem identifies \(H_T\) with \(H_{\mathrm{KS}}\). The ordinary isotropic finite-spacing Wilson transfer matrix does not make that identification automatic. At fixed regulator, Euclidean sewing and ground-state transformation meet exactly for the same transfer Hamiltonian; changing Hamiltonians requires a comparison theorem.
+
+[[library/gauge-fixing-the-transfer-matrix-and-confinement-on-a-lattice/inq|Creutz's transfer-matrix derivation]] makes the limiting qualification concrete: the Kogut--Susskind Hamiltonian is extracted as the timelike lattice spacing tends to zero after gauge fixing that preserves gauge-singlet Green functions. It supports the temporal-limit bridge, not an equality between the isotropic finite-spacing Wilson transfer logarithm and the canonical Hamiltonian.
 
 Define the quantum boundary effective action
 
@@ -1105,28 +1214,69 @@ h_{T,\rho,L}^{\mathrm{OS}}[\Psi]
 \right\|^2
 $$
 
-on its transported form domain. Equation (OS8) is not automatic for this transfer generator. The required statement is the domain inclusion
+on its transported form domain. Equation (OS8) is not automatic for this
+transfer generator. More strongly, the analogous unbounded domination and
+its displayed domain inclusion are generally false at fixed Wilson temporal
+spacing. [[finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|The (SU(2)) Wilson convolution witness]] has
+\(-\log p_j\sim2j\log j\) while the invariant flux Laplacian grows as
+\(j(j+1)\). Its domains obey
 
 $$
-\operatorname{Dom}h_{T,\rho,L}^{\mathrm{OS}}
-\subseteq
 \operatorname{Dom}J_{\mathrm{flux},\rho,L}
+\subsetneq
+\operatorname{Dom}h_{T,\rho,L}^{\mathrm{OS}}
 $$
 
-together with an independently proved form solder
+in the pure one-link member, not the reverse inclusion. Thus the direct
+unbounded solder cannot be treated as the generic finite-Wilson theorem
+target.
+
+The domain-safe target compares bounded defects. Let
 
 $$
-h_{T,\rho,L}^{\mathrm{OS}}[\Psi]
+P_{T,\rho,L}^{\mathrm{OS}}
+:=
+\exp\!\left[
+-\frac{a_\tau}{\hbar c}
+(H_{T,\rho,L}^{\mathrm{OS}}-E_{0,T,\rho,L})
+\right]
+$$
+
+and, when the closed flux form is represented by
+\(D_{\mathrm{flux},\rho,L}=J_{\mathrm{flux},\rho,L}^*
+J_{\mathrm{flux},\rho,L}\), prove from the transfer kernel or action that
+
+$$
+\boxed{
+I-P_{T,\rho,L}^{\mathrm{OS}}
 \geq
-\epsilon_\rho
-\|J_{\mathrm{flux},\rho,L}\Psi\|^2,
+\eta_{\rho,L}
+\left(I-e^{-\tau_{\rho,L} D_{\mathrm{flux},\rho,L}}\right),
 \qquad
-\Psi\in
-\operatorname{Dom}h_{T,\rho,L}^{\mathrm{OS}},
+\eta_{\rho,L},\tau_{\rho,L}>0.}
 \tag{OS9}
 $$
 
-or a controlled temporal-continuum theorem identifying the transfer and Kogut--Susskind forms. The stated reflection-interface hypotheses construct \(B_\rho^{\mathrm{OS}}\); reflection positivity by itself proves neither that factorization, the interface-to-slice identification, nor (OS9).
+Here \(\tau_{\rho,L}\) has reciprocal units to \(D_{\mathrm{flux},\rho,L}\), so \(\tau_{\rho,L}D_{\mathrm{flux},\rho,L}\) is dimensionless. In the dimensionless invariant-link normalization, \(\tau_{\rho,L}\) itself is dimensionless and is not Euclidean clock time. Since
+\(-\log x\geq1-x\), a flux edge
+\(D_{\mathrm{flux},\rho,L}\geq
+\lambda_{\rho,L}(I-P_\Omega)\) would then give
+
+$$
+H_{T,\rho,L}^{\mathrm{OS}}-E_{0,T,\rho,L}
+\geq
+\frac{\hbar c}{a_\tau}
+\eta_{\rho,L}
+\left(1-e^{-\tau_{\rho,L}\lambda_{\rho,L}}\right)
+(I-P_\Omega).
+\tag{OS9a}
+$$
+
+Alternatively, a controlled temporal-continuum theorem may identify the
+transfer and Kogut--Susskind forms and recover (OS8) in the limit. The stated
+reflection-interface hypotheses construct \(B_\rho^{\mathrm{OS}}\);
+reflection positivity by itself proves neither that factorization, the
+interface-to-slice identification, nor the bounded comparison (OS9).
 
 ## A direct route that does not require a local boundary action
 
@@ -1221,6 +1371,17 @@ The same constants pass to their unique infinite-volume measure. Their separate 
 
 This is preferable to assuming that the nonlocal boundary action is quasilocal. [[library/projections-of-gibbs-measures-may-be-non-gibbsian/inq|Schonmann's low-temperature Ising counterexample]] proves that an infinite-volume local Gibbs measure can have a lower-dimensional marginal with no quasilocal DLR specification. Every strictly positive finite-dimensional marginal can still be written \(e^{-W}\mathrm d\mu\); the pathology concerns the infinite-volume specification. Boundary Dobrushin control is one possible route, not a consequence of bulk locality.
 
+The safer route may remain in the local bulk law instead of first taking its
+boundary marginal. [[three-block-bridge-factorization/inq|Three-Block Bridge
+Factorization]] covers a finite prepared cylinder by its open interior and
+overlapping boundary collars. A whole-law block factorization then becomes
+exactly the midpoint bridge floor, while the overlap prevents
+boundary-adjacent ultraviolet adhesion from forcing the full factorization
+constant to diverge. A boundary-uniform estimate could then be passed to the
+Perron preparation limit. This avoids assuming that the induced boundary
+action is quasilocal, but it still requires a gauge-covariant collared
+factorization theorem and fixed-physical-scale continuum control.
+
 ### The regulator and order of limits
 
 The symbol \(a\) hides too much for this construction. Separate the UV data
@@ -1260,7 +1421,49 @@ The boundary perspective turns the open mechanism into a specific chain.
 
 **B3. Control the response without circularity.** Preferably prove a bulk Poincare or logarithmic-Sobolev inequality uniform in volume, temporal depth, and boundary conditions, and pass it to the slice marginal. Alternatively, for a fixed physical block size, prove uniform conditional Poincare bounds for \(\nu_{\rho,L}\) and a subcritical block-influence estimate. Either route must follow from the bulk action, reflection positivity, gauge geometry, and renormalization estimates—not from assumed exponential clustering or an assumed Hamiltonian gap.
 
-**B4. Solder to energy on one carrier.** Define
+**B4. Solder to energy on one carrier.** At finite Wilson temporal spacing,
+the primary theorem target is the bounded comparison (OS9), with
+\(\eta_{\rho,L}\) and \(\tau_{\rho,L}\) fixed from the action, transfer
+kernel, or independently normalized RG data—not from the unknown nonvacuum
+edge of \(P_{T,\rho,L}^{\mathrm{OS}}\). If
+
+$$
+D_{\mathrm{flux},\rho,L}
+\geq
+\lambda_{\mathrm{boundary}}(\rho,L)(I-P_\Omega),
+$$
+
+then the exact finite-step conclusion is
+
+$$
+\boxed{
+\Delta_{\rho,L}
+\geq
+\frac{\hbar c}{a_\tau}
+\eta_{\rho,L}
+\left(
+1-e^{-\tau_{\rho,L}\lambda_{\mathrm{boundary}}(\rho,L)}
+\right).}
+\tag{OS37}
+$$
+
+The exponential comparison is domain-safe because both sides of (OS9) are
+bounded Markov defects with the same fixed space. In the dimensionless
+invariant-link normalization, \(\tau_{\rho,L}\) is dimensionless. If a
+temporal-continuum theorem identifies
+\(\kappa_\rho D_{\mathrm{flux},\rho,L}\) as the Kogut--Susskind kinetic
+energy, the natural small-step scaling is
+
+$$
+\tau_{\rho,L}
+=
+\frac{a_\tau\kappa_\rho}{\hbar c}
++o(a_\tau).
+\tag{OS38}
+$$
+
+Only after such a continuous-time or common-form theorem has been proved may
+one use the unbounded branch. Define
 
 $$
 \widetilde h_{\rho,L}[f]
@@ -1270,42 +1473,36 @@ $$
 (\psi_{0,\rho,L}f)
 \right\|^2,
 \qquad
-D(\widetilde h_{\rho,L})
+\operatorname{Dom}\widetilde h_{\rho,L}
 :=
 \left\{
 f:
 \psi_{0,\rho,L}f
 \in
-D\!\left((H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})^{1/2}\right)
-\right\},
+\operatorname{Dom}\!\left((H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})^{1/2}\right)
+\right\}.
 $$
 
-Require first that
+Require
 
 $$
 \ker(H_{\mathrm{phys},\rho,L}-E_{0,\rho,L})
 =
 \mathbb C\psi_{0,\rho,L},
 \qquad
-D(\widetilde h_{\rho,L})
+\operatorname{Dom}\widetilde h_{\rho,L}
 \subseteq
-D(\mathcal E_{\rho,L}),
+\operatorname{Dom}\mathcal E_{\rho,L},
 $$
 
-so centering against \(\nu_{\rho,L}\) is exactly orthogonality to the complete physical vacuum line and the response form is defined throughout the pulled-back physical form domain. Then, for every gauge-invariant
-
-$$
-f\in D(\widetilde h_{\rho,L}),
-\qquad
-\int f\,\mathrm d\nu_{\rho,L}=0,
-$$
-
-prove
+and, for every centered gauge-invariant
+\(f\in\operatorname{Dom}\widetilde h_{\rho,L}\), prove
 
 $$
 \widetilde h_{\rho,L}[f]
 \geq
 \kappa_\rho c_{\mathrm{form}}(\rho,L)\mathcal E_{\rho,L}[f].
+\tag{OS39}
 $$
 
 Then
@@ -1313,20 +1510,49 @@ Then
 $$
 \Delta_{\rho,L}
 \geq
-\kappa_\rho c_{\mathrm{form}}(\rho,L)\lambda_{\mathrm{boundary}}(\rho,L).
+\kappa_\rho c_{\mathrm{form}}(\rho,L)
+\lambda_{\mathrm{boundary}}(\rho,L).
+\tag{OS40}
 $$
 
-For the canonical Kogut--Susskind flux form, \(c_{\mathrm{form}}=1\) only when the invariant Lie-algebra metric and electric-flux normalization agree exactly with those defining \(\mathcal E_{\rho,L}\). If two Hamiltonians have different vacua, Hilbert carriers, centered subspaces, or form domains, a scalar \(c_{\mathrm{form}}\) is not enough; first construct norm- and domain-compatible comparison maps or complete the temporal-continuum identification. The bulk-marginal route gives \(\lambda_{\mathrm{boundary}}\geq C_\rho^{-1}\). The conditional-block route gives
+For the canonical Kogut--Susskind flux form, \(c_{\mathrm{form}}=1\) only
+when the invariant Lie-algebra metric and electric-flux normalization agree
+exactly with those defining \(\mathcal E_{\rho,L}\). If two Hamiltonians
+have different vacua, Hilbert carriers, centered subspaces, or form domains,
+a scalar \(c_{\mathrm{form}}\) is not enough; first construct norm- and
+domain-compatible comparison maps or complete the temporal-continuum
+identification. The bulk-marginal route gives
+\(\lambda_{\mathrm{boundary}}\geq C_\rho^{-1}\). The conditional-block
+route supplies
+\(\lambda_{\mathrm{boundary}}\geq
+\underline b(\rho)\underline\lambda_{\mathrm{loc}}(\rho)
+[1-\overline q(\rho)]\), but this lower edge must still enter the bounded
+finite-step branch or the separately justified continuous-time branch.
+
+**B5. Use a physical yardstick.** Let \(\rho_j\) denote a declared UV
+regulator trajectory, after obtaining estimates uniform in \(L\) and
+\(n_\tau\). For a declared renormalization scheme \(s\), the finite-Wilson
+stopping condition is
 
 $$
-\Delta_{\rho,L}
-\geq
-\kappa_\rho c_{\mathrm{form}}(\rho,L)\,
-\underline b(\rho)\,\underline\lambda_{\mathrm{loc}}(\rho)
-\bigl[1-\overline q(\rho)\bigr].
+\boxed{
+\liminf_{j\to\infty}
+\inf_L
+\frac{\hbar c}{a_{\tau,j}\widehat\Lambda_{\mathrm{YM},\rho_j}^{(s)}}
+\eta_{\rho_j,L}
+\left(
+1-e^{-\tau_{\rho_j,L}\lambda_{\mathrm{boundary}}(\rho_j,L)}
+\right)
+>0.}
+\tag{OS41}
 $$
 
-**B5. Use a physical yardstick.** Let \(\rho_j\) denote a declared UV regulator trajectory, after obtaining estimates uniform in \(L\) and \(n_\tau\). For a declared renormalization scheme \(s\), prove
+For a finite physical continuum scale, the dimensionless one-step factor in
+(OS41) must be at least of order
+\(a_{\tau,j}\widehat\Lambda_{\mathrm{YM},\rho_j}^{(s)}/(\hbar c)\), and is
+expected to vanish at that order rather than remain at a fixed raw lattice
+value. On the separately established continuous-time branch, the stopping
+condition is instead
 
 $$
 \liminf_{j\to\infty}
@@ -1337,6 +1563,7 @@ c_{\mathrm{form}}(\rho_j,L)\lambda_{\mathrm{boundary}}(\rho_j,L)
 \right]
 }{\widehat\Lambda_{\mathrm{YM},\rho_j}^{(s)}}
 >0.
+\tag{OS42}
 $$
 
 **B6. Pass to the theory.** Establish generalized Mosco convergence, or an equivalent identified strong-resolvent framework, together with convergence of vacuum projections and passage of the uniform lower-form bound to the entire limiting physical complement. Add OS reconstruction or an equivalent Hamiltonian identification, nontriviality, and the Yang--Mills axioms. Only then does the limit inherit a positive gap in physical units.
@@ -1383,7 +1610,7 @@ This is the Schrödinger stopping rule from the operator-signature verdict, spec
 | Exact under finite-regulator hypotheses | with a disintegrable measure and cutting-compatible action/measure, bulk restriction has boundary-condition fibers and fiber integration/gluing produce boundary amplitudes and states |
 | Exact, abstract | a compact positivity-improving self-adjoint transfer operator prepares \(\psi_0\), and two-sided gluing converges in total variation to \(\psi_0^2\mu\) |
 | Exact under reflection-interface hypotheses | conditional expectation onto a reflection-fixed Markov separator factors the OS form; after quotient completion and dense interface insertions it gives a unitary \(B_\rho^{\mathrm{OS}}\) with reference-complement coverage one, and a closable interface derivative gives a complex-linear, phase-sensitive analysis map; calling the reference vector the unique vacuum or the derivative complete requires additional theorems |
-| Exact, Gaussian | the half-space Dirichlet-to-Neumann operator is \(\Omega\), the glued logarithmic Hessian is \(2\Omega/\hbar\), and kinetic solder returns the gap \(\hbar\omega_{\min}\) |
+| Exact, Gaussian | the half-space Dirichlet-to-Neumann operator is \(\Omega\), the glued logarithmic Hessian is \(2\Omega/\hbar\), kinetic solder returns the gap \(\hbar\omega_{\min}\), and [[gaussian-bridge-gap-calibration/inq|the two-ended bridge floor]] is exactly \(\tanh(\omega_{\min}\ell)\) |
 | Standard, finite lattice | reflection-positive Wilson gauge theory admits a positive transfer construction; temporal boundary amplitudes are Schrodinger functionals |
 | Exact, finite transfer regulator | the glued vacuum measure is the carrier of the ground-state transform for \(H_T=-(\hbar c/a_\tau)\log T\), with \(a_\tau\) a Euclidean length |
 | Conditional identification | this is the Kogut--Susskind flux form only for a semigroup built from \(H_{\mathrm{KS}}\), or after a controlled Hamiltonian limit and form comparison |

@@ -1,0 +1,14 @@
+pointed CP fusion residue: finite classical-path receipt
+semigroup composition error = 5.551e-17
+GNS endpoint dimension = 4
+two-step fusion path dimension = 8
+retained projection trace = 4.000000000000
+fusion residue projection trace = 4.000000000000
+V*V identity error = 1.110e-16
+retained projection error = 1.110e-16
+residue projection error = 1.110e-16
+three-step associativity error = 2.220e-16
+retained-corner unitary error = 1.110e-16
+full-extension unitary error = 3.331e-16
+coisometric descent error = 4.441e-16
+PASS: pointwise GNS fusion is a proper cyclic inclusion

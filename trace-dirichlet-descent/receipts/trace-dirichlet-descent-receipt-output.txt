@@ -1,0 +1,9 @@
+PASS  dangling-bulk Schur complement: max |short(A_epsilon)-L_boundary| = 1.110e-16
+PASS  gapless-whole/gapped-trace family: epsilon=0.001 whole gap = 1.499625e-03; trace gap = 2
+PASS  whole-to-local lift inequality: max |A-2q*(I-P0)q-epsilon vv*| = 7.633e-17
+PASS  harmonic Pythagorean residue: max |A-e*Ae-(I-e)*A(I-e)| = 3.469e-17
+PASS  split idempotent: max |e^2-e| = 0.000e+00
+PASS  local inverse uses the corner identity: max |tilde(U)^2-e| = 0.000e+00
+PASS  whole representative is noninvertible: tilde(U)(0,0,1) = [0.0, 0.0, 0.0]
+PASS  conditional-expectation trace is not automatically Markov: offdiag(1,2) = 0.25; E(|f|) = 9.0 > E(f) = 6.0
+SUMMARY  8/8 checks passed

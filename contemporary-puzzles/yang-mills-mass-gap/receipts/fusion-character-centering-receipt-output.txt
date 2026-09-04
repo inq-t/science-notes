@@ -1,0 +1,9 @@
+fusion-character centering receipt
+delta(0) = 7.000000000000
+max CW16 identity error = 1.110e-16
+classical near-flat ratio at t=1e-02: 0.999991666693
+classical near-flat ratio at t=1e-03: 0.999999916707
+classical near-flat ratio at t=1e-04: 0.999999999474
+normalized Gibbs cancellation error = 5.551e-17
+spectral-difference centering error = 1.110e-16
+PASS: scalar quantum-dimension floor cancels after normalization

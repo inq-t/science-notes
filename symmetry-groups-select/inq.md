@@ -5,13 +5,65 @@ inq.include:
 ---
 # Selecting Internal Symmetry from Causal-Scale Structure
 
-Causal Scale Dynamics does not currently derive $SU(3)_c\times SU(2)_L\times U(1)_Y$. Its reduced normal geometry supplies candidate constraints—an index-one Witten pair, a $J$-odd binary generator, blindness to an additive identity shift, and a conditional affine law for a reduced relative cocycle—that might restrict an independently constructed finite algebra and chiral module. A physical Dirac lift, a noncircular observable-net or sector construction, representation-dependent unimodularity, anomaly cancellation, and uniqueness are all still open; symmetry selection is therefore an optional strong-completion programme rather than part of the established causal-scale core.
+Causal Scale Dynamics does not currently derive $SU(3)_c\times SU(2)_L\times U(1)_Y$. It now has a sharper order-of-explanation precedent: the locally visible symmetry that lifts through a nonfaithful realization is the image of the stabilizer of its kernel, and the exceptional Jordan flag has stabilizer $S(U(2)\times U(3))$. This proves that familiar unitary factors can arise after a selection as symmetries of a retained response; it does not identify the response with the physical Standard Model carrier. A physical Dirac lift, a noncircular observable-net or sector construction, representation-dependent unimodularity, anomaly cancellation, chirality, dynamics, and uniqueness are all still open, so symmetry selection remains an optional strong-completion programme rather than part of the established causal-scale core.
 
 ## The programme is optional, not load-bearing
 
 The native causal-wall architecture permits ordinary QFT, including its internal gauge content, to supply local fibers while causal-scale structure supplies horizontal comparison among cosmic states. This division of labor is developed in the [[wall-construction-interface/inq#The interface is a dependency, not a theory|wall interface]] and guarded by [[wall-construction-interface/elimination-test#Test II — conservative restriction|the local GR+QFT preservation test]]. On that formulation, the project need not derive the Standard Model; it must show that the new horizontal structure preserves its tested local regime.
 
 Symmetry selection is a stronger alternative. It asks whether causal and modular axioms can determine the local charged-sector data instead of importing them. Success at that level would require more than coexistence with QFT: it would have to recover a renormalized, local, unitary Standard Model sector with its gauge fields, chiral representations, Higgs/Yukawa data, anomaly cancellation, and a decoupling limit for wall-induced corrections.
+
+## Symmetry can be the stabilizer of a retained presentation
+
+[[algebra/quotient-unitarity-and-kernel-stabilization|The
+kernel-stabilization theorem]] makes one part of the Copernican reversal
+exact. If
+
+$$
+q:\mathcal A_{\mathrm{pre}}\twoheadrightarrow
+\mathcal A_{\mathrm{obs}}
+$$
+
+is a quotient, an upstream automorphism descends precisely when it preserves
+\(\ker q\). The lifted observable symmetry is the image of
+\(\operatorname{Stab}(\ker q)\), modulo transformations acting trivially on
+the quotient. Likewise, an automorphism preserving a positive semidefinite
+response acts isometrically on its radical quotient. With an invariant state
+and strong continuity, the descended automorphism group is unitarily
+implemented in the observable GNS representation even though \(q\) itself is
+noninvertible.
+
+The exceptional flag gives a finite exact witness. For
+
+$$
+X\cong\mathfrak h_2(\mathbb C)
+\subset
+B\cong\mathfrak h_3(\mathbb C)
+\subset
+\mathfrak h_3(\mathbb O),
+$$
+
+the connected simultaneous stabilizer is
+
+$$
+S(U(2)\times U(3))
+\cong
+\frac{U(1)\times SU(2)\times SU(3)}{\mathbb Z_6}.
+$$
+
+It preserves the selected idempotent, the Jordan product, the trace form, and
+the idempotency-response radical, so it acts orthogonally on the normal
+quotient. [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|The
+oriented-descent note]] proves the stabilizer statement and records the
+response operator. This is a rigorous sense in which one may ask why symmetry
+is observed rather than how a fundamental symmetry was broken.
+
+Two limits are decisive. The theorem proves only compatibility: a
+nonfaithful kernel does not cause or select the local unitary action. And the
+normal response penalizes departure from the flag orbit; physical gauge
+excitations may instead be tangent to a field configuration space. A carrier
+map must show that this normal quotient covers the local charged or neutral
+physical directions before its stabilizer can be called a gauge group.
 
 ## The exact seed is a horizontal index, not a Weyl fermion
 

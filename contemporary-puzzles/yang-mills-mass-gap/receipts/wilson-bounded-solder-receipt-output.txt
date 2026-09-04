@@ -1,0 +1,13 @@
+SU(2) Wilson bounded-solder receipt
+x= 0.2: p_half=0.049916874446, sharp edge=0.950083125554, elementary floor=0.833333333333
+x= 1.0: p_half=0.240193723870, sharp edge=0.759806276130, elementary floor=0.500000000000
+x= 4.0: p_half=0.658047267359, sharp edge=0.341952732641, elementary floor=0.200000000000
+x=20.0: p_half=0.925987748583, sharp edge=0.074012251417, elementary floor=0.047619047619
+square-girth contraction=0.267755404931, defect edge=0.732244595069, elementary floor=0.517746913580
+x= 25.0: x(1-p_half)=1.484366126, x log(1/p_half)=1.530258842
+x= 50.0: x(1-p_half)=1.492345921, x log(1/p_half)=1.515070194
+x=100.0: x(1-p_half)=1.496211999, x log(1/p_half)=1.507518169
+a_tau=0.040: edge/electric-Casimir=1.004581582
+a_tau=0.020: edge/electric-Casimir=1.002288290
+a_tau=0.010: edge/electric-Casimir=1.001143506
+PASS: pure product-Wilson edge and temporal scaling agree

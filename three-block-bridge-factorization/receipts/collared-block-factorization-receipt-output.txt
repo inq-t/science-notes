@@ -1,0 +1,15 @@
+collared block factorization: finite stationary-path receipt
+path states = 128
+adjacent transfer eigenvalue = 0.800000000000
+1-p^2 = 0.360000000000
+boundary-adjacent trial energy = 0.345057462610
+disjoint full-carrier floor = 0.154558661861
+collared-to-bridge compression error = 1.665e-16
+midpoint bridge floor = 0.584605243142
+SU(2) disjoint-constant lower bound versus x/(3g), g=4
+x       exact_bound      leading          relative_error
+ 20.0   2.176551096   1.666666667   0.305930658
+ 50.0   4.645402588   4.166666667   0.114896621
+100.0   8.801821714   8.333333333   0.056218606
+PASS: collars preserve the bridge while removing the adhesion test
+scope: finite Markov and Bessel identities only; no continuum claim

@@ -1,0 +1,9 @@
+PASS  orthogonal projections: max projection error = 1.388e-17
+PASS  weighted paired-wall formula: max formula error = 1.110e-16
+PASS  common kernel and sharp reduced floor: spectrum = [0.          0.21383812  0.929327902]
+PASS  single-wall retained-carrier no-go: short norm = 0.000e+00
+PASS  finite projection return: max |PQP-exp(-2 d a H)| = 2.776e-17
+PASS  Cayley/tanh relation: max |short-tanh(d a H)| = 2.776e-17
+PASS  tanh edge: computed = 0.201216439, expected = 0.201216439
+SUMMARY  7/7 checks passed
+scope: finite projection arithmetic only; no continuum or Yang--Mills claim

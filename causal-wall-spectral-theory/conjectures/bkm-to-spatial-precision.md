@@ -1,6 +1,6 @@
 # BKM Response to Scalar Spatial Precision
 
-CWST conjectures that the mean-zero observational BKM block of a physically constructed [[program-core/common-response-form|common descent family]] can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture.
+CWST conjectures that the mean-zero observational BKM block of a physically constructed [[program-core/common-response-form|common descent family]] can be transported into a positive three-dimensional probability-1PI precision for the wall scalar. This W2 conjecture changes the response representation and carrier; it does not identify that scalar with cosmological curvature, which is the separate W3 conjecture. Its output is a static or equal-time spatial form, not a transfer generator or Hamiltonian.
 
 ## Statement
 
@@ -32,7 +32,7 @@ $$
 [G^{\mathsf p}_{\zeta\zeta}]}
 $$
 
-on a declared physical subspace. Here \(\mathcal K^{\zeta}_{\mathrm{wall}}=\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}\) is the Legendre-1PI inverse connected covariance of the spatial wall field after the carrier has been constructed. This is **[CONJECTURE — OPEN CONSTRUCTION]**.
+on a declared physical subspace. Here \(\mathcal K^{\zeta}_{\mathrm{wall}}=\Gamma^{(2)}_{\zeta_{\mathrm{wall}}}\) is the Legendre-1PI inverse connected covariance of the spatial wall field after the carrier has been constructed. It is not thereby an energy observable. This is **[CONJECTURE — OPEN CONSTRUCTION]**.
 
 ## Required factorization
 
@@ -53,15 +53,17 @@ $$
 The symbols stand for obligations, not assumed formulas:
 
 - \(S_{\mathsf p}\): normal unconditioned evaluation or normalized internal-sector restriction, with the choice and its state law declared;
-- \(L\): localization, restriction, extension, or integration that changes the wall carrier and its measure;
+- \(L\): localization, restriction, extension, or integration that changes the wall carrier, measure, and closed-form domain;
 - \(M_\omega\): the state-dependent transform relating a BKM form to the source response used by the member; and
 - \(P\): construction of the spatial probability or Legendre-1PI kernel on the wall field.
 
-A holographic implementation may factor selected stages through [[causal-wall-spectral-theory/holographic-spectral-adapter|the optional holographic adapter]]. Its simultaneous continuation must specify the state, regulator, branch, and continued theory parameters. That optional factorization still does not construct the spacetime realization map \(R_{\mathrm s}\).
+A holographic implementation may factor selected stages through [[causal-wall-spectral-theory/holographic-spectral-adapter|the optional holographic adapter]]. Its simultaneous continuation must specify the state, regulator, branch, and continued theory parameters. That optional factorization still constructs neither the equal-time realization map \(R_{\mathrm s}^{\mathrm{eq}}\) nor its later Lorentzian lift.
 
-Another realization may factor the map differently. What is not allowed is to omit a central-resolution, carrier-changing, or state-dependent arrow and replace it by equality of notation. Algebraic character evaluation is not normalized sector conditioning, and it is not factive without an instrument and outcome. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced Lorentzian representation.
+Another realization may factor the map differently. What is not allowed is to omit a central-resolution, carrier-changing, or state-dependent arrow and replace it by equality of notation. Algebraic character evaluation is not normalized sector conditioning, and it is not factive without an instrument and outcome. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The curvature conjecture]] separately asks whether \(\zeta_{\mathrm{wall}}\) has a gauge-reduced equal-time representation and a subsequent Lorentzian lift.
 
-Every stage must additionally be natural under the declared region restrictions and cross-fiber transport. A patchwise construction must satisfy overlap compatibility and effective gluing. If a stage is noninjective, its kernel and effective image must be included in the physical quotient before the returned precision is called nondegenerate. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real locus]] can supply a candidate three-dimensional target carrier, but not the maps \(L\), \(M_\omega\), or \(P\).
+Every stage must additionally be natural under the declared region restrictions and cross-fiber transport. A patchwise construction must satisfy overlap compatibility and effective gluing. If a stage is represented by an invertible carrier map, the closed form and its domain must be transported together as specified by [[measured-response-carriers/inq|measured response carriers]]. If a stage is noninjective or has nonclosed range, its kernel and effective image must be handled by an explicit quotient or shorted-form construction before the returned precision is called nondegenerate. [[algebra/real-forms-and-factive-spacetime|A complex-threefold real locus]] can supply a candidate three-dimensional target carrier, but not the maps \(L\), \(M_\omega\), or \(P\).
+
+Nothing in this factorization chooses a clock or time step. Turning an equal-time probability precision into a Lorentzian state, transfer operator, or Hamiltonian requires additional history data and positivity; that later boundary is owned by [[lorentzian-spectral-envelope/inq|the Lorentzian spectral envelope]] and W3.
 
 ## Why the Hessian theorem does not prove it
 

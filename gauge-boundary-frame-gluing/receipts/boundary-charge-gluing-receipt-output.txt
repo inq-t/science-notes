@@ -1,0 +1,6 @@
+boundary charge gluing receipt: PASS
+extended regional dimensions = 2 x 2
+diagonally glued physical dimension = 2
+separately closed dimension = 1
+retained global sectors = trivial-trivial, charged-charged
+premature regional closure erases = charged-charged

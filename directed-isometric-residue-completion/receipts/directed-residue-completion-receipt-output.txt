@@ -1,0 +1,11 @@
+directed isometric residue completion receipt: PASS
+proper positive column input/output rank = 2 / 3
+coisometric column unitarity residues = 0.000000000 / 0.000000000
+universal residual factorization error = 0.000000000
+discrete cascade isometry residue = 0.000000000
+endpoint-unitary chronological archive rank = 1 / 2
+Schaeffer compression-of-powers error = 0.000000000
+refined response-residual isometry residue = 0.000000000
+continuous residue floor / recovered generator edge = 0.428790936 / 0.400000000
+partitioned residue Gramian error = 0.000000000
+residue-clock intertwiner error = 0.000000000

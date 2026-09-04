@@ -47,13 +47,23 @@ $$
 G^{\mathsf p}_{\zeta\zeta}
 \xrightarrow{\;\mathfrak B\;}
 \mathcal K^\zeta_{\mathrm{wall}}
-\xrightarrow{\;R_{\mathrm s}\;}
-\mathcal K_{\zeta_{\mathrm{cos}}}.}
+\xrightarrow{\;R_{\mathrm s}^{\mathrm{eq}}\;}
+\mathcal K^{\mathrm{eq}}_{\zeta_{\mathrm{cos}}}.}
 $$
 
-[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including spatial-carrier construction, measure conversion, any modular-frequency transform, and probability-1PI construction. [[program-core/localized-areal-response-geometry|Localized areal response geometry]] retains the distinct meaning of localization on the cut. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The W3 conjecture]] owns the gauge-reduced Lorentzian realization \(R_{\mathrm s}\).
+[[causal-wall-spectral-theory/conjectures/bkm-to-spatial-precision|The W2 conjecture]] owns \(\mathfrak B\), including spatial-carrier construction, measure conversion, any modular-frequency transform, and probability-1PI construction. [[program-core/localized-areal-response-geometry|Localized areal response geometry]] retains the distinct meaning of localization on the cut. [[causal-wall-spectral-theory/conjectures/wall-scalar-to-cosmological-curvature|The W3 conjecture]] first owns the gauge-reduced equal-time configuration realization \(R_{\mathrm s}^{\mathrm{eq}}\). Its Lorentzian phase-space lift and clock are separate. [[measured-response-carriers/inq|Measured response carriers]] owns the generic closed-form transport conditions.
 
-The hidden sector matters before this map. Eliminating a constructed auxiliary or heavy block can give
+The hidden sector matters before this map. Let \(q^{\mathsf p}\) be the closed positive common response form on the compatible part of \(H_{\mathrm{obs},0}\oplus H_{\mathrm{hid}}\). The domain-sensitive hidden-sector reduction begins with the extended shorted quadratic functional
+
+$$
+q_{\mathrm{eff}}^{\mathsf p}[\zeta]
+=\inf\left\{
+q^{\mathsf p}[\zeta\oplus h]:
+\zeta\oplus h\in D(q^{\mathsf p})
+\right\}.
+$$
+
+It defines the effective response only when it is densely defined and closed, or after a separately justified lower-semicontinuous closure. Only when a bounded block representative exists, the hidden block has the needed closed-range property, and all pseudoinverse products and form domains are compatible may this short reduce to the Schur expression
 
 $$
 G_{\zeta\zeta}^{\mathsf p,\mathrm{eff}}
@@ -63,7 +73,7 @@ G_{\zeta\zeta}^{\mathsf p,\mathrm{eff}}
 G_{h\zeta}^{\mathsf p}.
 $$
 
-CWST must say whether \(\mathfrak B\) acts before or after that reduction and prove that the selected order respects constraints, positivity, and covariance.
+Without those hypotheses the pseudoinverse formula is unavailable. CWST must say whether \(\mathfrak B\) acts before or after the shorting and prove that the selected order respects constraints, positivity, covariance, and the form domain. [[spectral-wall-descent/hidden-resolvent-and-seesaw|The hidden-resolvent construction]] owns any model-specific realization.
 
 ## Homogeneity predicts a vanishing cross block
 
@@ -114,7 +124,7 @@ $$
 \text{non-homogeneous fundamental algebra}.
 $$
 
-The CWST scalar first labels a mean-zero direction in the observational descent. It becomes a spatial wall field only after \(\mathfrak B\), and it becomes cosmological curvature only after \(R_{\mathrm s}\). Its eventual lumpy record is a later factive layer. These three type changes must not be abbreviated to one equality of \(\zeta\) symbols.
+The CWST scalar first labels a mean-zero direction in the observational descent. It becomes a spatial wall field only after \(\mathfrak B\), becomes an equal-time curvature configuration only after \(R_{\mathrm s}^{\mathrm{eq}}\), and becomes a Lorentzian field only after the further phase-space lift. Its eventual lumpy record is a later factive layer. These type changes must not be abbreviated to one equality of \(\zeta\) symbols.
 
 ## Independence test
 

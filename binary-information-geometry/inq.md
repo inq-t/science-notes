@@ -48,7 +48,38 @@ D(\rho_\theta\Vert\rho_\vartheta)
 -\psi(\theta)+\psi(\vartheta),
 $$
 
-whose coincidence Hessian is \(g^{\mathrm{bin}}_{\theta\theta}\). Reflection through the balanced point produces an even divergence, so the reduced geometry cannot choose an orientation of evolution.
+whose coincidence Hessian is \(g^{\mathrm{bin}}_{\theta\theta}\). The special
+reflected pair \((\theta,-\theta)\) has an even divergence, so that comparison
+cannot choose an orientation of evolution; relative entropy is not
+orientation-even for arbitrary pairs.
+
+The carriers in these identities must remain visible. The involution \(Q\)
+acts on the original representation space; the BKM/Fisher form acts on the
+one-dimensional state-family tangent; the weighted Poincare form acts on
+\(L^2(\mathbb R,\mu_{\nu,N_c})\); and the factored Schrödinger operator acts
+on \(L^2(\mathbb R,\mathrm dN)\). The last two are unitarily related by
+multiplication with the positive half-density, but neither is thereby the
+GNS defect of a physical channel or a clock Hamiltonian. The general
+channel, GNS, and state-tangent distinction is isolated in
+[[measured-response-carriers/inq]].
+
+[[binary-channel-carrier]] supplies the exact finite channel test. Every
+balanced-state-preserving channel on the binary algebra acts by
+\(Q\mapsto rQ\), \(-1\leq r\leq1\). Its GNS distinction defect is
+\(1-r\), whereas its BKM information loss is \(1-r^2\). The reversible flip
+\(r=-1\) is therefore lossless but maximally far from the identity in the
+GNS defect. This proves that categorical disagreement, forgetting, and
+factive selection cannot be identified merely because all are positive
+after a chosen symmetrization.
+
+[[vacuum-balance-fisher-geometry/inq|Vacuum-Balance Fisher Geometry]]
+generalizes the score carrier without assuming two equally weighted
+outcomes. Whenever a pointed vacuum occupies several orthogonal analysis
+blocks, their relative-amplitude balance is
+\(L^2_0(J,p;\mathbb R)\) with its Fisher norm. The complexified balance
+carrier also contains relative-phase directions invisible to \(p\), and its
+physical rate exists only after a complete transfer and clock have been
+constructed.
 
 Finally, the square root of the susceptibility is the unique normalizable zero mode of [[witten-darboux|the binary Witten--Darboux pair]]:
 

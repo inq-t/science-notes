@@ -1,6 +1,9 @@
 # The Binary Fisher Line
 
-The balanced binary BKM metric is globally flattened by the Gudermannian, making the complete exponential family a finite open interval of length \(\pi\). This is an intrinsic statement about the normalized one-dimensional statistical manifold.
+The balanced binary BKM metric is globally flattened by the Gudermannian,
+making the entire exponential family a finite open interval of length
+\(\pi\). The manifold is nevertheless metrically incomplete until its two
+nonfaithful conditional endpoints are added.
 
 Under the hypotheses of [[balanced-exponential-family]], the line element is
 
@@ -78,7 +81,11 @@ These are **[EXACT — AFTER BALANCED BINARY REDUCTION]**.
 
 ## Completion and boundary
 
-The statistical manifold itself is the open interval. Its metric completion adds the two limiting distributions supported entirely in the \(Q=+1\) and \(Q=-1\) sectors. Those endpoints are not faithful, so formulas requiring faithful density operators apply only before completion or by a controlled limit.
+The statistical manifold itself is the open interval. Its metric completion
+adds the two limiting conditional states supported entirely in the
+\(Q=+1\) and \(Q=-1\) sectors. If either eigenspace is degenerate, these
+endpoints need not be pure and are still conditioned by the original
+\(\rho_0\). They are not faithful, so formulas requiring faithful density
+operators apply only before completion or by a controlled limit.
 
 Finite normalized Fisher length does not determine an extensive physical norm. Replicating the binary channel, changing its multiplicity, or attaching a scale-dependent prefactor leaves the intrinsic normalized line unchanged while changing any extensive capacity.
-

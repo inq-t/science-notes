@@ -736,7 +736,7 @@ $$
 
 No formal identity equates the algebraic quotient $q_r$ with the tangent contraction $A_r$. A realization theorem must show that $\Phi_r$ implements the declared accessible quotient and that its reachable BKM tangents belong to the reconstructed physical package.
 
-Approximate low-energy compatibility is weaker. It should compare the full net on energy-bounded states or smeared observables with explicit regulator, volume, heavy-sector, and background errors; a sharp spectral subspace should not be misnamed a local subalgebra. [[causal-frame-coercivity#Three compatibility strengths|The compatibility ledger]] states the exact extension, effective-recovery, and strong-emergence contracts separately.
+Approximate low-energy compatibility is weaker. It should compare the full net on energy-bounded states or smeared observables with explicit regulator, volume, heavy-sector, and background errors; a sharp spectral subspace should not be misnamed a local subalgebra. [[causal-frame-coercivity#Recovery of observed QFT below a UV threshold|The compatibility ledger]] states the exact extension, effective-recovery, and strong-emergence contracts separately.
 
 This factorization resolves an apparent contradiction in (D7). The wall may forget distinctions that do not survive into $\mathcal Q_{r,G}$ while the reconstructed effective image exactly realizes QFT. Petz recovery of the *full source* is neither required nor desired. What must be recovered is the observable net from the effective quotient. Conversely, if a proposed positive residue is evaluated on a family claimed to be Petz-recoverable through the same wall, it vanishes and cannot explain a gap.
 
@@ -773,7 +773,7 @@ $$
 
 [[joint-causal-generators-and-the-mass-casimir|The joint-causal-generator theorem]] proves this exact reversal and gives a massive rapidity-space witness in which both null generators are gapless while their product is fixed. The quotient transgression must therefore be compared with the joint Casimir of a completed translation representation, not with one modular logarithm or one null generator. The “gapless causal directions, gapped mass” pattern is not an evasion of the mass-gap problem; it identifies the invariant on which its coercivity theorem belongs.
 
-In $3+1$ dimensions, $P_\pm=H\pm cP_z$ give $P_+P_-=H^2-c^2P_z^2=\mathcal C+c^2\mathbf P_\perp^2$, not the full mass Casimir. The physical theorem must therefore reconstruct enough commuting translation directions to form $\mathcal C=H^2-c^2\mathbf P^2$. The two-null product is the exact low-dimensional model of the reversal, not a shortcut around the full Poincare invariant.
+In $3+1$ dimensions, $P_\pm=H\pm cP_z$ give $P_+P_-=H^2-c^2P_z^2=\mathcal C+c^2\mathbf P_\perp^2$, not the full mass Casimir. This forbids identifying the directional product itself with mass. It does **not** make a full-carrier directional floor insufficient: after positive-energy Poincare reconstruction, a lower bound for one fixed physical null-pair product on the entire vacuum complement gives the Hamiltonian gap by the arithmetic--geometric mean, and Lorentz-orbit covariance then gives the full Casimir floor. An abstract distinction product still requires a noncircular same-carrier solder to that physical pair, to an all-direction family, or directly to $\mathcal C$.
 
 ## The paired-wall operator signature
 
@@ -860,7 +860,7 @@ $$
 A_r:V_r\longrightarrow W_r
 $$
 
-with closed reachable range (W_r^{\mathrm{reach}}:=\operatorname{Ran}A_r). The quotient/minimum-lift norm is then
+with closed reachable range \(W_r^{\mathrm{reach}}:=\operatorname{Ran}A_r\). The quotient/minimum-lift norm is then
 
 $$
 g_{A_r}^{\uparrow}(y,y)

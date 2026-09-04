@@ -1,0 +1,10 @@
+transported response solder receipt: PASS
+joint-correspondence residual identity error = 0.000000000
+bounded response edge = 0.503414696
+same-carrier solder coefficient = 0.774709207
+individual transfer norms / product norm = 1.000000000, 1.000000000 / 0.610000000
+individual response ranks / joint floor = 1, 1 / 0.390000000
+certified / exact product norm = 0.781024968 / 0.610000000
+transported residual / total defect floors = 0.237900000 / 0.627900000
+certified / exact inverse-slab rates = 0.247148161 / 0.494296322
+ledger survival + response + residual = 0.359076500 + 0.376350000 + 0.229573500 = 0.965000000

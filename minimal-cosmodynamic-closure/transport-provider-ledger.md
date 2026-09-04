@@ -64,6 +64,25 @@ $$
 
 This is a precise provider specification, not an instantiated physical stack. A bare correspondence does not choose a conditional expectation, CP instrument, edge state, or record. Q-system or inclusion-plus-expectation data are additional, and effective descent on physical covers remains open.
 
+There is now one exact intermediate result once the normal CP arrows are
+given. [[pointed-cp-fusion-residue/inq|Their pointed self-dual GNS
+correspondences]] compose by canonical cyclic inclusions
+$E_{\Psi\Phi}\hookrightarrow E_\Phi\bar\otimes_BE_\Psi$; the adjoints are
+coisometries and form the multiplication of a GNS subproduct system. The
+orthogonal complement records intermediate fusion directions absent from the
+minimal composite. This still does not construct the missing arrows from the
+core provider: CP maps and their points are premises of the theorem. Nor is
+the complement automatically a physical transfer defect;
+[[contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect|its
+canonical pullback to the endpoint cyclic carrier vanishes]].
+[[bridge-score-fusion-geometry/inq|The stationary bridge construction]] now
+supplies a history-sensitive commutative realization: insert a complete
+middle-slice $L^2$ observable and condition it on both endpoints. The
+resulting fusion-residue Gramian is bounded above by the transfer defect.
+What remains here is to derive the CP/path family from the core provider,
+lift the construction to the intended noncommutative or Type-III carrier,
+and prove its regulator-uniform lower frame.
+
 Two finite constructions show that the desired compatibility laws are attainable. [[wall-construction-interface/finite-cellular-markov-wall|The finite cellular Markov wall]] supplies a local net with isotony, commuting disjoint regions, and coherent scale presentation maps. [[spectral-wall-descent/conditional-expectation-balance|Conditional-expectation balance]] supplies nested composition and the equivariance identity
 
 $$

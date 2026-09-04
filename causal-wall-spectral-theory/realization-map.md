@@ -1,6 +1,6 @@
 # CWST Realization Map
 
-Causal-Wall Spectral Theory consumes a stage-relative observational quotient and mean-zero response block from the programme core, subject to refinement by downstream geometric, charge, and record consequence functors. It then adds a conjectural chain from causal-wall response to primordial observables. It does not consume the CST-B2 homogeneous pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld.
+Causal-Wall Spectral Theory consumes a stage-relative observational quotient and mean-zero response block from the programme core, subject to refinement by downstream geometric, charge, and record consequence functors. It then adds a conjectural chain from causal-wall response to primordial observables. It does not consume the CST-B2 homogeneous pulse equations, and it does not promote an exact Hessian or an optional holographic representation into the missing physical weld. [[measured-response-carriers/inq|Measured response carriers]] owns the generic closed-form transport theorem used below; it does not supply any CWST-specific realization.
 
 ## Relation to the Ruble equations
 
@@ -41,9 +41,11 @@ $$
 [S_{\mathsf p_{\mathrm s}}(\mathfrak G^Z_{\zeta\zeta})]
 &&\text{scalar spatial precision},\\
 \text{W3}_{\mathrm s}\text{: }&
-\mathcal K_{\zeta_{\mathrm{cos}}}
-=R_{\mathrm s}^{-*}\mathcal K^{\zeta}_{\mathrm{wall}}R_{\mathrm s}^{-1}
-&&\text{physical-curvature representation},\\
+\mathcal K^{\mathrm{eq}}_{\zeta_{\mathrm{cos}}}
+=\bigl(R_{\mathrm s}^{\mathrm{eq}}\bigr)^{-*}
+\mathcal K^{\zeta}_{\mathrm{wall}}
+\bigl(R_{\mathrm s}^{\mathrm{eq}}\bigr)^{-1}
+&&\text{equal-time physical-curvature representation},\\
 \text{W1}_{\mathrm t}\text{: }&
 \mathfrak G^Z_{\mathrm{TT}}
 =(Z,\mathbf G^Z_{\mathrm{TT}},\omega^Z)
@@ -54,9 +56,11 @@ $$
 [S_{\mathsf p_{\mathrm t}}(\mathfrak G^Z_{\mathrm{TT}})]
 &&\text{tensor spatial precision},\\
 \text{W3}_{\mathrm t}\text{: }&
-\mathcal K_{\gamma_{\mathrm{cos}}}
-=R_{\mathrm t}^{-*}\mathcal K^{\gamma}_{\mathrm{wall}}R_{\mathrm t}^{-1}
-&&\text{physical-tensor representation},\\
+\mathcal K^{\mathrm{eq}}_{\gamma_{\mathrm{cos}}}
+=\bigl(R_{\mathrm t}^{\mathrm{eq}}\bigr)^{-*}
+\mathcal K^{\gamma}_{\mathrm{wall}}
+\bigl(R_{\mathrm t}^{\mathrm{eq}}\bigr)^{-1}
+&&\text{equal-time physical-tensor representation},\\
 \text{W4: }&
 \{\Gamma^{(n)}_{\zeta,\gamma}\}_{n\geq3}
 &&\text{higher scalar, tensor, and mixed vertices},\\
@@ -72,16 +76,27 @@ The scalar path does not generate the tensor path. A member that makes no W1\(_{
 
 W0 is internally factorized as W0a carrier, W0b state law, W0c transport, W0d readout, and W0e source readiness by [[wall-construction-interface/inq|the canonical interface]]. [[wall-construction-interface/core-spectral-wall|The core spectral wall]] now combines the algebraic state, transport, and binary-readout portions on labelled whole-core fibers, with finite trace-capacity kept on separate corners. This homogeneous binary member is not W1\(_{\mathrm s}\) or W1\(_{\mathrm t}\): no causal local carrier, physical quotient, mean-zero Weyl or TT tangent, renormalized localization, or source has been constructed. The half-sided-modular and cellular walls remain independent orientation and finite-response benchmarks.
 
-Here \(R_{\mathrm s}\) is the linearized spacetime realization map in \(\zeta_{\mathrm{cos}}=R_{\mathrm s}\zeta_{\mathrm{wall}}\); it is unrelated to the Ruble crossing number \(\mathfrak R_c\). On an invertible sector the scalar precision transforms as
+Here \(R_{\mathrm s}^{\mathrm{eq}}\) is the linearized equal-time configuration map in \(\zeta_{\mathrm{cos}}=R_{\mathrm s}^{\mathrm{eq}}\zeta_{\mathrm{wall}}\); it is unrelated to the Ruble crossing number \(\mathfrak R_c\). Let \(q_{\mathrm{wall}}\) be the closed positive form associated with \(\mathcal K^{\zeta}_{\mathrm{wall}}\). If \(R_{\mathrm s}^{\mathrm{eq}}\) is a bounded Hilbert-space isomorphism with bounded inverse, define
 
 $$
-\mathcal K_{\zeta_{\mathrm{cos}}}
-=R_{\mathrm s}^{-*}\mathcal K^{\zeta}_{\mathrm{wall}}R_{\mathrm s}^{-1}.
+D(q_{\mathrm{cos}})=R_{\mathrm s}^{\mathrm{eq}}D(q_{\mathrm{wall}}),
+\qquad
+q_{\mathrm{cos}}[R_{\mathrm s}^{\mathrm{eq}}\xi,R_{\mathrm s}^{\mathrm{eq}}\eta]
+=q_{\mathrm{wall}}[\xi,\eta].
 $$
 
-The notation makes the domain change visible; equality of the two \(\zeta\) symbols is only the special case \(R_{\mathrm s}=\mathbf1\) after their carriers have already been identified. The tensor map \(R_{\mathrm t}\) has a different domain and must be constructed independently.
+Then the associated equal-time operator is
 
-If \(R_{\mathrm s}\) has a kernel, the inverse-conjugation formula applies only after quotienting by the declared gauge or null sector and proving that the induced map is an isomorphism onto its physical image. Otherwise W3 requires a projected covariance, constrained reduction, or Schur-complement construction rather than a formal inverse.
+$$
+\mathcal K^{\mathrm{eq}}_{\zeta_{\mathrm{cos}}}
+=\bigl(R_{\mathrm s}^{\mathrm{eq}}\bigr)^{-*}
+\mathcal K^{\zeta}_{\mathrm{wall}}
+\bigl(R_{\mathrm s}^{\mathrm{eq}}\bigr)^{-1}.
+$$
+
+The form identity is primary and makes the domain change visible. Equality of the two \(\zeta\) symbols is only the special case \(R_{\mathrm s}^{\mathrm{eq}}=\mathbf1\) after their carriers have already been identified. The tensor map \(R_{\mathrm t}^{\mathrm{eq}}\) has a different domain and must be constructed independently. If either map has a kernel or nonclosed range, the inverse-conjugation formula is unavailable until a declared quotient or shorted-form reduction yields an isomorphism onto a closed physical image.
+
+These are configuration-space statements. A full Lorentzian W3 completion must separately construct a canonical pair, symplectic form, state, constraints, and clock evolution. The static precision supplies none of those objects by itself; [[lorentzian-spectral-envelope/inq|the Lorentzian spectral envelope]] owns the general clock boundary.
 
 ## Provider and owner ledger
 
@@ -91,12 +106,13 @@ If \(R_{\mathrm s}\) has a kernel, the inverse-conjugation formula applies only 
 | physical quotient | [[program-core/physical-quotient|programme core]] | show which inhomogeneous directions survive and why |
 | W1\(_{\mathrm s}\), W1\(_{\mathrm t}\) | [[wall-construction-interface/inq|wall interface]], [[program-core/center-valued-response|center-valued response]], and [[basic-concepts/hessians/symmetrized-relative-entropy-hessian|the Hessian theorem]] | retain \((Z,\mathbf G^Z,\omega^Z)\), including the central Fisher density; continuum finiteness, localization, and the TT source remain open |
 | covariance and 1PI precision | [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier precision]] | specify the nondegenerate physical domain and interacting/Gaussian regime |
+| closed-form carrier transport | [[measured-response-carriers/inq|measured response carriers]] | prove the bounded isomorphism and mapped form-domain hypotheses, or replace inverse congruence by a justified quotient or shorted form |
 | W2\(_{\mathrm s}\) | [[conjectures/bkm-to-spatial-precision|CWST scalar state-to-spatial-precision conjecture]] | declare the central-resolution policy and construct every required carrier, state-response, normalization, and—where used—continuation arrow in the scalar sector |
 | W2\(_{\mathrm t}\) | [[conjectures/tt-bkm-to-spatial-precision|CWST tensor state-to-spatial-precision conjecture]] | declare the independent TT central-resolution policy, carrier, response transform, polarization convention, and normalization |
 | critical \(\lvert k\rvert^3\) shape | [[critical-scale-kernels/inq|critical scale kernels]] | justify its symmetry hypotheses for the returned field |
 | optional stress representation | [[holographic-spectral-adapter|the holographic spectral adapter]] and [[vendor/holographic-cosmology/inq|holographic cosmology]] | establish the wall-to-\(T^{(3)}\) source pairing, state, branch, regulator, simultaneous continuation, and contacts; the adapter cannot discharge W3 |
-| W3\(_{\mathrm s}\) | [[conjectures/wall-scalar-to-cosmological-curvature|CWST curvature conjecture]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | construct the gauge-reduced scalar representation and its normalization |
-| W3\(_{\mathrm t}\) | [[conjectures/wall-tensor-to-cosmological-graviton|CWST tensor realization conjecture]] | construct the independent gauge-reduced Lorentzian TT phase space, state, and normalization |
+| W3\(_{\mathrm s}\) | [[conjectures/wall-scalar-to-cosmological-curvature|CWST curvature conjecture]] plus [[compatible-with-existing-physics/primordial-observable-interface|the observable interface]] | first construct the gauge-reduced equal-time scalar configuration map and normalization; then separately construct its Lorentzian phase-space lift, state, and clock evolution |
+| W3\(_{\mathrm t}\) | [[conjectures/wall-tensor-to-cosmological-graviton|CWST tensor realization conjecture]] | first construct the independent equal-time TT configuration map; then separately construct the Lorentzian TT phase space, state, and normalization |
 | W4 | [[open-questions/calculate-higher-response|CWST higher-response problem]] | calculate cubic and higher scalar, tensor, and mixed vertices rather than infer them from two-point data |
 | W5 | [[compatible-with-existing-physics/primordial-observable-interface|primordial observable interface]] plus [[open-questions/empirical-completion|empirical completion]] | supply dynamics, matching, transfer, released likelihoods, and observable data products; actual facts and persistent records are a separate branch |
 | philosophical interpretation | [[program-core/grounding-reasons|grounding reasons]] and [[sufficient-reason/quantum-interpretations|quantum interpretations]] | state the CWST application without treating it as a calculation |
@@ -113,7 +129,7 @@ $$
 
 in the registered three-dimensional Fourier convention. A common-geometry proposal must therefore supply an integration over a normal or history direction, a boundary-to-bulk map, a measure conversion, or another explicit soldering operation. [[program-core/common-response-form|The core common response form]] owns the shared blocks, while [[conjectures/cwst-common-response-consumer|the CWST consumer note]] owns this stronger application. Dimensional agreement after an unstated unit choice would not be enough; the carriers and measures must also agree.
 
-[[algebra/real-forms-and-factive-spacetime|A complex-threefold real form]] supplies one exact candidate construction of a three-dimensional carrier when a suitable antiholomorphic involution exists. It does not identify that carrier with the wall cut, determine its measure, or construct either W2 or W3. W3 remains a realization into an imported or independently recovered \(3+1\) Lorentzian phase space.
+[[algebra/real-forms-and-factive-spacetime|A complex-threefold real form]] supplies one exact candidate construction of a three-dimensional carrier when a suitable antiholomorphic involution exists. It does not identify that carrier with the wall cut, determine its measure, or construct either W2 or W3. W3 first realizes an equal-time configuration; its completion then lifts that configuration into an imported or independently recovered \(3+1\) Lorentzian phase space.
 
 ## Failure localization
 

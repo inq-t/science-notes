@@ -48,6 +48,32 @@ Under the standard hypotheses, the inclusion generates a positive-energy transla
 
 The observer/wall structures needed to instantiate such an inclusion are part of [[wall-construction-interface/inq|the wall-construction interface]], not consequences of modular theory alone.
 
+## A norm-preserving arrow can still be one-sided
+
+There is an exact Hilbert-space prototype between reversible groups and
+record algebras. For any contraction $A:\mathcal H\to\mathcal K$,
+
+$$
+V_Ax=Ax\oplus(I-A^*A)^{1/2}x
+$$
+
+is an isometry into the survivor-plus-defect carrier. Its codomain is minimal
+among isometric completions, and $V_A$ is onto exactly when $A$ is a
+coisometry. Hence a nonidentity positive same-carrier transfer has a proper
+isometric completion: it preserves norm but does not form a group on the
+enlarged carrier. [[directed-isometric-residue-completion/inq|The full
+completion theorem]] proves the changing-carrier cascade and its stationary
+continuous-depth form.
+
+This sharpens but does not finish the arrow-of-time proposal. A proper
+isometry has an adjoint left inverse on its range, so non-surjectivity says
+that not every final tuple is a compatible history; it does not prove that a
+compatible history is physically unrecoverable. Wold shift structure and
+pointwise decay are also weaker than a spectral gap. Ontological time still
+requires a physically instantiated record inclusion or another rule that
+restricts admissible reversal, while a mass gap requires a uniform residue
+floor at finite physical depth.
+
 ## Programme claim
 
 The proposed formula is

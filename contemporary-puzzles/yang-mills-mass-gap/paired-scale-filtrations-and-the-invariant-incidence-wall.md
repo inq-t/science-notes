@@ -1,8 +1,8 @@
 # Paired Scale Filtrations and the Invariant Incidence Wall
 
-A regulator- or RG-defined filtration canonically decomposes a centered carrier into orthogonal distinction shells and thereby defines a self-adjoint scale-address operator without using a Hamiltonian spectrum. One filtration whose active addresses are unbounded above necessarily gives a gapless inverse-scale operator. Two strongly commuting, oppositely oriented filtrations contain strictly more information: their nonzero joint shell intersections form an incidence geometry, and a ceiling on the **sum** of the two scale addresses is exactly a floor for their positive product while the relative address may remain unbounded. This is a precise candidate meaning of a causal wall: not a smallest spatial pixel and not a potential acting on a thing, but an algebraic restriction on which reciprocal distinctions can be jointly realized. It becomes a mass statement only after an all-direction construction and a noncircular solder to the reconstructed Poincare Casimir.
+A regulator- or RG-defined filtration canonically decomposes a centered carrier into orthogonal distinction shells and thereby defines a self-adjoint scale-address operator without using a Hamiltonian spectrum. One filtration whose active addresses are unbounded above necessarily gives a gapless inverse-scale operator. Two strongly commuting, oppositely oriented filtrations contain strictly more information: their nonzero joint shell intersections form an incidence geometry, and a ceiling on the **sum** of the two scale addresses is exactly a floor for their positive product while the relative address may remain unbounded. This is a precise candidate meaning of a causal wall: not a smallest spatial pixel and not a potential acting on a thing, but an algebraic restriction on which reciprocal distinctions can be jointly realized. It becomes a mass statement only after Poincare reconstruction and a noncircular same-carrier solder to one fixed physical null pair on the full vacuum complement, to an all-direction family, or directly to the Poincare Casimir.
 
-**Status: [EXACT FILTRATION-ADDRESS THEOREM]; [EXACT PAIRED-INCIDENCE THEOREM]; [EXACT ALL-DIRECTION CASIMIR TOMOGRAPHY]; [CANDIDATE PRE-QFT REALIZATION]; [OPEN YANG--MILLS FILTRATION, WALL, AND CONTINUUM CONSTRUCTION].** The exact results begin with supplied projections and scale labels. They do not construct the Yang--Mills filtrations or prove their incidence ceiling.
+**Status: [EXACT FILTRATION-ADDRESS THEOREM]; [EXACT PAIRED-INCIDENCE THEOREM]; [EXACT FIXED-DIRECTION GAP EQUIVALENCE AFTER LORENTZ RECONSTRUCTION]; [EXACT ALL-DIRECTION CASIMIR TOMOGRAPHY]; [CANDIDATE PRE-QFT REALIZATION]; [OPEN YANG--MILLS FILTRATION, WALL, AND CONTINUUM CONSTRUCTION].** The exact results begin with supplied projections and scale labels. They do not construct the Yang--Mills filtrations or prove their incidence ceiling.
 
 ## One filtration constructs an address operator
 
@@ -17,7 +17,7 @@ E_j\xrightarrow[j\to\infty]{\mathrm{strong}}P_0.
 \tag{PF1}
 $$
 
-In the applications envisioned here, the \(E_j\) arise from state-preserving conditional expectations onto nested regulator or RG algebras, as in [[physical-distinction-coercivity#A Takesaki-admissible distinction filtration|the Takesaki-admissible filtration]]. They are not assumed to be expectations between ordinary nested vacuum AQFT region algebras, which are obstructed under the standard cyclic and separating hypotheses.
+In the applications envisioned here, the \(E_j\) arise from state-preserving conditional expectations onto nested regulator or RG algebras, as in [[physical-distinction-coercivity#The operator-algebraic contribution: transport first, shells second|the Takesaki-admissible filtration]]. They are not assumed to be expectations between ordinary nested vacuum AQFT region algebras, which are obstructed under the standard cyclic and separating hypotheses.
 
 Define the martingale shell projections
 
@@ -398,9 +398,16 @@ $$
 
 A semi-infinite RG tower does not carry this bilateral group exactly, and a discrete shift is not the continuous Lorentz boost group. A countable atomic shell resolution can realize only discrete \(\delta\mathbb Z\) translation covariance: a nontrivial strongly continuous \(\mathbb R\)-action cannot continuously permute its atoms. Recovering continuous covariance requires a continuous projection-valued resolution or direct integral, in which there is generally no pointwise projection density \(D_t\), only Stieltjes interval projections, or else a controlled scaling limit. Equation (PF26) is a signature to be realized, not permission to call ordinary block spin a boost.
 
-## Every spatial direction recovers the full Casimir
+## One full-carrier direction suffices after Lorentz reconstruction
 
-One null pair is insufficient in \(3+1\) dimensions, but an all-direction family is exact. Let \((H,\mathbf P)\) be the strongly commuting translation generators of a positive-energy Poincare representation, let \(P_0\) be its invariant vacuum projection, assume that \(P_0\) reduces their joint spectral measure, and put \(P=1-P_0\). For a unit vector \(\mathbf n\in S^2\), define
+One null-pair product is not identical to the full Casimir in \(3+1\)
+dimensions, but a floor for one fixed pair on the entire physical vacuum
+complement is already sufficient after Poincare reconstruction. Let
+\((H,\mathbf P)\) be the strongly commuting translation generators of a
+positive-energy Poincare representation with joint spectral measure
+\(E_{(H/c,\mathbf P)}\), put
+\(P_0:=E_{(H/c,\mathbf P)}(\{0\})\) and \(P:=1-P_0\), and let
+\(\mathbf n\in S^2\) be a unit vector. Define
 
 $$
 P_\pm(\mathbf n)
@@ -430,7 +437,37 @@ $$
 \tag{PF29}
 $$
 
-Assume \(P\mathcal H\neq\{0\}\), and read the following as spectral, equivalently closed-quadratic-form, inequalities. Let \(\mathcal D\subset S^2\) be any countable dense set. For every \(\Delta>0\), joint spectral calculus gives
+Assume \(P\mathcal H\neq\{0\}\), and read the following as spectral,
+equivalently closed-quadratic-form, inequalities. For every fixed
+\(\mathbf n_0\in S^2\) and every \(\Delta>0\),
+
+$$
+\boxed{
+\mathcal C\geq\Delta^2P
+\quad\Longleftrightarrow\quad
+M_{\mathbf n_0}^2\geq\Delta^2P
+\quad\Longleftrightarrow\quad
+H\geq\Delta P.}
+\tag{PF30}
+$$
+
+The Casimir floor implies the directional floor because the transverse term in
+(PF28) is nonnegative. The directional floor implies the Hamiltonian floor by
+joint functional calculus and
+
+$$
+H
+=
+\frac{P_+(\mathbf n_0)+P_-(\mathbf n_0)}2
+\geq
+\sqrt{P_+(\mathbf n_0)P_-(\mathbf n_0)}.
+$$
+
+Finally, [[joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction|the Lorentz-orbit theorem]] converts the Hamiltonian floor back into the full Casimir floor. This last implication uses the reconstructed Lorentz-invariant joint spectral support. It is unavailable for an abstract pair of scale operators or at a generic finite lattice regulator.
+
+An all-direction family remains an exact, stronger tomography statement that
+does not use the energy-gap detour. Let \(\mathcal D\subset S^2\) be any
+countable dense set. Joint spectral calculus gives
 
 $$
 \boxed{
@@ -438,12 +475,23 @@ $$
 \quad\Longleftrightarrow\quad
 M_{\mathbf n}^2\geq\Delta^2P
 \text{ for every }\mathbf n\in\mathcal D.}
-\tag{PF30}
+\tag{PF30a}
 $$
 
-The forward implication follows from the nonnegative transverse term in (PF28). Conversely, all inequalities in the countable family hold on one common full-measure subset of the joint energy--momentum spectrum. At a point \((E,\mathbf p)\) in that subset, choose \(\mathbf n_r\in\mathcal D\) approaching \(\mathbf p/|\mathbf p|\), or any direction when \(\mathbf p=0\). Continuity in \(\mathbf n\) sends the transverse term to zero and yields \(E^2-c^2|\mathbf p|^2\geq\Delta^2\).
+The forward implication again follows from the nonnegative transverse term in
+(PF28). For the reverse implication, take one common full-measure subset of
+the joint energy--momentum spectrum. At a point \((E,\mathbf p)\) in that
+subset, choose \(\mathbf n_r\in\mathcal D\) approaching
+\(\mathbf p/|\mathbf p|\), or any direction when \(\mathbf p=0\).
+Continuity in \(\mathbf n\) sends the transverse term to zero and yields
+\(E^2-c^2|\mathbf p|^2\geq\Delta^2\).
 
-Thus Jacobson-style “all-cut tomography” has a sharp mass-gap analogue: a common paired floor in every causal orientation is equivalent to a full Casimir floor. The direction family supplies tensorial completeness; it does not supply the positive constant. By [[joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction|the Lorentz-orbit theorem]], (PF30) then gives the Hamiltonian gap. Before Poincare reconstruction, neither (PF27) nor this conclusion is available.
+Thus all-cut tomography directly reconstructs the tensorial invariant, but it
+is not necessary once one fixed directional inequality has complete physical
+carrier coverage and Lorentz covariance is already available. The apparent
+directional loophole is really a carrier-and-reconstruction loophole: a floor
+on only one sector, or on a different carrier for each direction, does not
+meet (PF30). Neither route supplies the positive constant.
 
 ## What the operator operates on
 
@@ -464,7 +512,7 @@ $$
 \text{diagonal ceiling on }\Sigma
 &\longrightarrow
 \text{dimensionless joint floor},\\
-\text{all-direction Casimir solder and }E_*
+\text{full-carrier fixed-pair, all-direction, or direct-Casimir solder and }E_*
 &\longrightarrow
 \text{physical energy gap}.
 \end{aligned}}
@@ -509,8 +557,8 @@ The following are independent obligations:
 3. prove the cross-commutation or replace (PF13) by a controlled noncommuting frame construction;
 4. derive the scale addresses and their normalization from the RG character, including the length-versus-operator-order distinction;
 5. prove a regulator-uniform incidence ceiling or softer same-carrier coercive substitute without a spectral truncation;
-6. construct enough compatible causal orientations to invoke (PF30);
-7. identify their generators with one positive-energy Poincare representation and compare the filtration product with its Casimir;
+6. reconstruct one positive-energy Poincare representation and identify at least one opposed pair with its physical null translations;
+7. prove a same-carrier comparison from the filtration product to that fixed pair on the whole vacuum complement, or instead supply an all-direction family or direct-Casimir solder;
 8. supply an independently normalized energy yardstick; and
 9. pass the carrier, vacuum projection, forms, local net, covariance, and inequalities through infinite volume and continuum removal.
 
@@ -518,7 +566,7 @@ Compatibility with QFT is downstream and stricter than coexistence. [[library/mo
 
 ## Stopping and kill conditions
 
-By the Schrodinger stopping rule in `inbox/operator-signature-verdict/commentary/the-schrodinger-stopping-rule.md`, (PF20) is mature enough to serve as part of a **signature**: it defines a research class and a sharp failure contract. It is not yet a physical **correspondence**. The Yang--Mills filtrations, their incidence law, the all-direction reconstruction, and the Casimir solder cannot be relabeled as interpretation or absorbed into a freely chosen member. A numerical wall location may eventually be member data; the form of the wall and the return map to observables must be frozen before confronting the spectrum.
+By the Schrodinger stopping rule in `inbox/operator-signature-verdict/commentary/the-schrodinger-stopping-rule.md`, (PF20) is mature enough to serve as part of a **signature**: it defines a research class and a sharp failure contract. It is not yet a physical **correspondence**. The Yang--Mills filtrations, their incidence law, the Poincare reconstruction, and the fixed-pair, all-direction, or direct-Casimir solder cannot be relabeled as interpretation or absorbed into a freely chosen member. A numerical wall location may eventually be member data; the form of the wall and the return map to observables must be frozen before confronting the spectrum.
 
 The paired-filtration route has made progress only when the incidence support is computed or bounded from independently frozen algebraic data. It is killed if:
 
@@ -528,7 +576,7 @@ The paired-filtration route has made progress only when the incidence support is
 - boundary area, channel count, or entropy extensivity is substituted for a shellwise lower-frame estimate;
 - two noncommuting expectations are multiplied as though their differences were joint projections;
 - a one-sided spatial RG address is called mass;
-- a floor for one null pair in \(3+1\) dimensions is called the full mass gap;
+- a floor for an abstract, sector-restricted, or differently carried null pair is called the full mass gap without a same-carrier identification with one fixed physical null pair on the whole vacuum complement after Poincare reconstruction;
 - the kernel contains nonvacuum one-sided sectors;
 - a discrete RG shift is silently promoted to continuous Lorentz covariance; or
 - a dimensionless support ceiling is converted to MeV without an independent yardstick and scheme comparison.
@@ -544,8 +592,9 @@ The paired-filtration route has made progress only when the incidence support is
 | Exact | a ceiling on mean joint address is equivalent to a positive floor for \((K_+K_-)^{1/2}\) |
 | Exact | a shell-reducing response gives the softer floor precisely when its bottom coefficients compensate the squared inverse-scale weights; the hard wall is the neutral-response special case |
 | Exact | reciprocal affine shell shifts preserve the mean-address operator and its floor |
+| Exact | after positive-energy Poincare reconstruction, a floor for one fixed physical null-pair product on the whole vacuum complement is equivalent to both the Hamiltonian gap and the full Casimir floor |
 | Exact | a uniform null-pair floor on a countable dense family of spatial directions is equivalent to the full Poincare-Casimir floor |
 | Candidate interpretation | the incidence ceiling is a precise algebraic model of a pre-spatial causal wall or conserved paired grade |
-| Open | physical filtration selection, cross-commutation, wall derivation, all-direction realization, Casimir solder, yardstick, and continuum Yang--Mills construction |
+| Open | physical filtration selection, cross-commutation, wall derivation, fixed-pair/all-direction/direct-Casimir realization, yardstick, and continuum Yang--Mills construction |
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/paired_scale_incidence_wall_receipt.py|The numerical receipt]] checks finite shell resolutions, the diagonal support equivalence, a gapless-pair/gapped-product family, reciprocal shifts, the necessity of commutation, the terminal-tail kernel warning, and all-direction Casimir minimization; [[contemporary-puzzles/yang-mills-mass-gap/receipts/paired-scale-incidence-wall-receipt-output.txt|its stored output]] records the passing run. It does not construct a physical filtration or test a Yang--Mills mass gap.

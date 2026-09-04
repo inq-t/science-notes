@@ -1,0 +1,11 @@
+collared surface-response receipt
+local cosine 1: 0.536038381382
+local cosine 2: 0.292765142225
+two-projection edge 1: 0.463961618618
+1 - cosine 1: 0.463961618618
+bridge floor 1: 0.712662853685
+1 - cosine 1^2: 0.712662853685
+product cosine: 0.536038381382
+max local cosine: 0.536038381382
+leading product singular values: 1.000000000000, 0.536038381382, 0.292765142225, 0.156933352963
+all checks passed

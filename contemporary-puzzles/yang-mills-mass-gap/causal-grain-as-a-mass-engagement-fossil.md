@@ -771,7 +771,7 @@ The fossil hypothesis becomes a genuine contribution only if it:
 - constructs both directional distinction operators on the centered interface/GNS carrier, proves strong commutation before multiplying them, and intertwines their full joint incidence geometry through any later scale transform;
 - derives the paired floor and its transition (F2)--(F3) without reading a glueball, pion, CMB, or BAO scale backward;
 - proves that the historical floor survives regulator removal and constructs any claimed characteristic pairing between the reduced Fredholm wall and the paired incidence wall;
-- reconstructs the full $3+1$ Poincare Casimir rather than one null-pair product;
+- reconstructs a positive-energy $3+1$-dimensional Poincare representation and proves either a full-Casimir floor or a floor for one fixed physical null-pair product on the entire vacuum complement, rather than relabeling an abstract or sector-restricted pair as mass;
 - specifies the map from mass engagement to $R_b(\eta)$, the primordial phase, or another input that survives the exact ruler cancellation;
 - derives the metric map \(\mathscr W_\lambda\) and the material map \(\mathscr R\) from one upstream class, passes the dimensionless discrimination test (F7j), and satisfies the common-signature conditions (F7k)--(F7l) after nuisance projection;
 - predicts a prospectively frozen external-validation BAO quantity with the statistic, acoustic rule, nuisance treatment, and data release fixed before inspection;

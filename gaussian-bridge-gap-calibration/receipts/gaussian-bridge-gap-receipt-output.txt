@@ -1,0 +1,12 @@
+Gaussian bridge-gap calibration: finite-mode receipt
+half-slab length = 1.200000
+omega=0.350000: r=0.657046819815, q^2=0.603069567995, kappa=0.396930432005, generic-bound=0.210717799625
+omega=0.900000: r=0.339595525645, q^2=0.206800902916, kappa=0.793199097084, generic-bound=0.656666154260
+omega=1.700000: r=0.130028710878, q^2=0.033252712216, kappa=0.966747287784, generic-bound=1.418174560337
+product bridge floor = 0.396930432005
+reconstructed minimum frequency = 0.350000000000
+maximum tanh identity error = 5.551e-17
+maximum Hermite-floor error = 0.000e+00
+maximum quasi-factorization error = 2.220e-16
+maximum rate-reconstruction error = 4.441e-16
+PASS: dimensionless bridge geometry reconstructs the Gaussian inverse-length gap

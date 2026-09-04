@@ -1,0 +1,15 @@
+reverse prediction residue receipt: PASS
+reversible spectrum: [0.4 0.4 1. ]
+fixed slab depth: 3
+centered survivor norm: 0.064000000000
+optimal innovation floor: 0.995904000000
+reversible max conditional error: 1.180e-16
+reversible max orthogonality error: 1.041e-17
+reversible norm-ledger error: 1.110e-16
+reversible operator-telescope error: 1.000e-16
+nonreversible max conditional error: 1.318e-16
+nonreversible max orthogonality error: 7.373e-18
+nonreversible norm-ledger error: 2.220e-16
+nonreversible operator-telescope error: 2.138e-16
+period-two innovation-defect norm: 0.000e+00
+period-two Dirichlet-response norm: 2.828427124746

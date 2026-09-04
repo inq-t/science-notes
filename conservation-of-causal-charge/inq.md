@@ -9,6 +9,16 @@ Causal charge is a proposed downstream invariant of a fact-bearing observable ar
 
 [[unitarity-and-ontological-time|Why unitarity is not the wall symmetry]] separates four registers: structural class persistence upstream, noninvertible loss at the wall, ordinary action and charge in observable physics, and the one-sided filtration of records. [[algebra/nonfaithful-realization|The nonfaithfulness theorem]] proves the exact categorical obstruction to treating genuine forgetting as an equivalence. Unitarity is not imposed across registers as a conservation of information; it may remain a law inside a recovered local physical sector.
 
+[[algebra/quotient-unitarity-and-kernel-stabilization|Quotient unitarity and kernel stabilization]] proves the exact coexistence mechanism: a noninvertible quotient can carry reversible unitary dynamics when the upstream action preserves its kernel and the quotient state implements the descended automorphisms in GNS. The observable symmetry that lifts is the image of that kernel stabilizer. This does not make loss the cause of unitarity or turn the quotient map into time.
+
+The ambient algebra of arrows can now be stated more concretely.
+[[unitarity-and-ontological-time#The ambient process category has a reversible core|Normal UCP processes contain automorphisms as their reversible core]]. A
+property-\((T)\) average can have a positive dimensionless Dirichlet edge on
+the same type-III carrier while the physical clock remains an independent
+unitary automorphism group. This is a candidate Markov distinction-decay
+rate, not yet the nonfaithful whole-to-local wall, a causal charge, a record
+arrow, or mass.
+
 ## Indiscernibility comes before conservation
 
 The first principle is not that information must be conserved. It is that a difference with no possible bearing on the declared observables belongs to one accessible equivalence class. [[indiscernibility-and-the-noether-gap]] makes the inference precise:

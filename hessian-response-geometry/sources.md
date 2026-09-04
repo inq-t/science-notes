@@ -13,6 +13,9 @@ This ledger separates the established geometry and information theory from the p
 
 ## Existing canonical project owners
 
+- [[measured-response-carriers/inq|Measured response carriers]] owns the distinction among algebra, GNS,
+  state-tangent, and parameter-tangent carriers, together with the typed
+  pullback and closed-form congruence theorems used here.
 - [[basic-concepts/hessians/inq|Hessians]] owns the general second-variation, relative-entropy, covariance/precision, and characteristic-dependent distinctions.
 - [[program-core/common-response-form|The common response form]] owns the transported physical datum, shared response blocks, mixed jet, and common-form construction gates.
 - [[program-core/center-valued-response|Center-valued response and scalarization]] owns the central-score Fisher density, internal sector density, retained central law, and evaluation taxonomy.
