@@ -18,4 +18,5 @@ We consider a general, classical theory of gravity with arbitrary matter fields 
 - **arXiv:** [gr-qc/9403028v1](https://arxiv.org/abs/gr-qc/9403028).
 - **Publication:** Phys.Rev. D50 (1994) 846-864.
 - **DOI:** [10.1103/PhysRevD.50.846](https://doi.org/10.1103/PhysRevD.50.846).
+- **Machine-readable text:** [arXiv HTML, version 1](https://arxiv.org/html/gr-qc/9403028v1). Equations (118) and (124) checked 2026-09-04.
 - **Local artifacts:** `gr-qc-9403028-iyer-wald-noether-charge-dynamical-black-hole-entropy.pdf`, `gr-qc-9403028-source.tar.gz`.

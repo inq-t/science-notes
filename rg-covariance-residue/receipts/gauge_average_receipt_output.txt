@@ -1,0 +1,6 @@
+PASS: SU(2), SU(3), SU(4) regular polar means are special unitary.
+PASS: independent endpoint gauge covariance and coincident-input derivative.
+PASS: local Frobenius derivative bound at regular sampled inputs.
+PASS: order-two symmetric inputs are singular and admit no fixed group output.
+PASS: global anchored continuation, cutoff branches, endpoint covariance, and common-pivot inverse.
+Not tested: spatial block coercivity, conditional laws, continuum limit, or mass gap.

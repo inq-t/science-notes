@@ -54,7 +54,7 @@ and therefore
 
 \[
 \boxed{
-D^2S_W[I](X,X)
+D^2S_W\big|_I(X,X)
 =
 \frac{\beta}{N}\lVert d_1X\rVert^2,
 \qquad
@@ -452,19 +452,29 @@ There is a sharper least-cost interpretation. For
 \]
 
 It is the least whole-law response after every hidden lift has been allowed
-to relax. For \(\gamma>0\),
+to relax. For a fixed \(\gamma>0\),
 
 \[
 \boxed{
 S_E(C_s)\geq\gamma I_E
 \iff
-C_s\geq\gamma P_E
-\iff
-E\subseteq\operatorname{Ran}C_s^{1/2}.}
+C_s\geq\gamma P_E.}
 \tag{NW31}
 \]
 
-The last equivalence is the Douglas range criterion. This branch can ignore
+The Douglas range criterion gives the correctly quantified companion:
+
+\[
+\boxed{
+\exists\gamma>0:\ S_E(C_s)\geq\gamma I_E
+\iff
+E\subseteq\operatorname{Ran}C_s^{1/2}.}
+\tag{NW31a}
+\]
+
+The range inclusion does not preserve a preassigned numerical \(\gamma\); its
+best value is controlled by the norm of the corresponding Douglas factor.
+This branch can ignore
 globally soft directions that are uniformly invisible to \(E\), but the
 short need not be Markov and has no automatic edge-measure certificate.
 

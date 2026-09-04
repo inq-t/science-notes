@@ -1,0 +1,23 @@
+distinction-grain spectrum receipt
+gapped edge: 0.700000000000
+uniform half grain: 0.495105128971
+recoverable fraction there: 0.500000000000
+reconstructed edge: 0.700000000000
+gapless diagonal truncations
+N=   10  largest_half_grain=3.465735902800  fixed_depth_retention=0.818730753078
+N=  100  largest_half_grain=34.657359027997  fixed_depth_retention=0.980198673307
+N= 1000  largest_half_grain=346.573590279973  fixed_depth_retention=0.998001998667
+N=10000  largest_half_grain=3465.735902799726  fixed_depth_retention=0.999800019999
+moving-carrier score check
+original scale Fisher: 2.000000000000
+transported scale Fisher: 0.000000000000
+product-sign Markov counterexample
+selected recoverable fraction: 0.500000000000
+selected residual fraction: 0.500000000000
+N=   10  complete_norm_squared=0.900000000000  complete_defect_edge=0.100000000000
+N=  100  complete_norm_squared=0.990000000000  complete_defect_edge=0.010000000000
+N= 1000  complete_norm_squared=0.999000000000  complete_defect_edge=0.001000000000
+N=10000  complete_norm_squared=0.999900000000  complete_defect_edge=0.000100000000
+PASS: a moving carrier identification can erase a scale score
+PASS: individual grains can be finite while their uniform ceiling diverges
+PASS: one balanced Markov direction need not give a complete-carrier gap

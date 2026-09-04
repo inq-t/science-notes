@@ -2,10 +2,13 @@
 inq.module: "spectral-wall-descent"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - "**/*.py"
+  - "**/*.txt"
 ---
 # Spectral Wall Descent
 
-Spectral wall descent is the proposed algebraic passage from a homogeneous noncommutative spectral datum to a symmetry-broken observable geometry. The construction now has three distinct ledgers: conditional expectation splits retained from erased distinguishability; a finite-index correspondence plus extra expectation and fixed-edge-state data can define a candidate central entropy operator; and a later, generally infinite-index readout produces commutative facts and records. AdS holography calibrates retained Fisher response against canonical energy in a controlled vacuum-ball regime, while direct semiclassical de Sitter type-II constructions supply candidate observable carriers. The spectral action and least-action equations remain downstream. The open theorem is an all-patch equality between central edge entropy, horizontal BKM capacity, and independently normalized spectral area—not a conservation of unitary information or a renaming of loss as gravity.
+Spectral wall descent investigates how relative noncommutative spectral data could produce observable geometry and symmetry. Conditional expectation splits retained from erased distinguishability; a finite-index correspondence plus expectation and fixed-edge-state data can define a candidate central entropy operator; and a later readout is meant to produce commutative facts and records. Ordinary spacetime spectral action is a downstream realization, while an abstract internal spectral selector is not excluded. The finite model proves that identical bulk spectra can have different response floors relative to a fixed observable context. The open physical theorem is an all-patch relation between central edge entropy, horizontal BKM capacity, and independently normalized spectral area, together with a return to observable dynamics.
 
 ## The revised order of construction
 
@@ -44,6 +47,8 @@ S_{\mathrm{spec}}[D_{+,A}]
 $$
 
 have its ordinary variational meaning. [[spectral-wall-descent/observable-spectral-action|The observable spectral-action note]] fixes that register boundary.
+
+Homogeneity of a candidate algebra or of a family of contexts does not assert an initially symmetric physical state. [[higgs-reduction-as-local-shadow/symmetry-without-a-random-trigger|The invariant-state theorem]] keeps the symmetry of an algebra, a law, and a state separate. An asymmetry-first model must construct its effective local symmetries; it need not posit an earlier symmetric cosmos or a random event that broke it.
 
 ## The exact loss--gain theorem
 
@@ -150,7 +155,7 @@ The finite and spectral calculations establish the following useful facts.
 
    Its real span is the decomposition into the homogeneous direction and mean-zero observational distinctions used by [[program-core/common-response-form|the common response form]].
 
-2. A two-level finite spectral triple makes the wall BKM cost a positive norm of a Dirac commutator. Its bulk spectral action remains constant along conjugacy orbits while its fixed-context entropy defect changes. [[spectral-wall-descent/finite-spectral-wall|The finite spectral wall]] gives the formulas and reproducible receipt.
+2. A two-level finite spectral triple makes the wall BKM cost a positive norm of a Dirac commutator. Its entire bulk spectrum remains constant along conjugacy orbits while its fixed-context entropy defect and centered response floor change. The latter is the compressed double commutator \(E_0\operatorname{ad}_{h_\theta/m}^{\,2}i_0\), with floor \(4\sin^2(2\theta)\); it measures relative projection geometry. [[spectral-wall-descent/finite-spectral-wall|The finite spectral wall]] gives the formulas and reproducible receipt.
 
 3. A three-level exponential family has
 

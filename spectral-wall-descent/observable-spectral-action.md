@@ -1,6 +1,6 @@
-# The Spectral Action Is an Observable Action
+# Spectral Action and Observable Response
 
-The spectral action is a powerful generator of observable Euclidean gravity, gauge, Higgs, and mass terms from represented spectral data. It should not be projected backward into the pre-observable register as a universal least-action law. Its trace, cutoff, test function, manifold representation, and variational interpretation already belong to an effective observable geometry.
+The standard almost-commutative spectral action generates Euclidean gravity, gauge, Higgs, and mass terms from represented spectral data. That realization already assumes a spacetime spectral factor. An abstract spectral trace need not assume clock time or a manifold, so an internal spectral selector remains a legitimate deeper construction to investigate. What cannot be inferred from the trace alone is its physical interpretation, a state law, a relative response floor, or the Yang--Mills mass gap.
 
 ## The spectral datum
 
@@ -29,7 +29,7 @@ These fluctuations generate gauge and Higgs fields in the almost-commutative Sta
 
 ## What the spectral action calculates
 
-For an even positive test function \(f\) and a scale \(\Lambda\),
+For an even positive test function \(f\), a scale \(\Lambda\), and hypotheses making \(f(D_A/\Lambda)\) trace class,
 
 $$
 \boxed{
@@ -53,9 +53,9 @@ $$
 
 Nor does the spectral trace define a positive information metric. Its Hessian can have either sign, whereas BKM response is positive after the physical quotient.
 
-## Why it belongs downstream of the wall
+## When it belongs downstream of the wall
 
-The action requires choices that already have observable meaning:
+The ordinary almost-commutative physical interpretation requires:
 
 - a represented operator with a spectrum that can be counted;
 - a trace or regularized trace;
@@ -69,6 +69,76 @@ The principle of stationary action may govern the observable geometry produced a
 This boundary does not exclude a separately defined **atemporal internal spectral selector** on a moduli category of internal Dirac data. Such a functional could select or weight mathematical objects without presupposing temporal evolution. [[algebra/real-forms-and-factive-spacetime|The real-form realization note]] states that possibility. It would not be this observable action unless a functor transported the internal datum, trace, cutoff, and variational problem to the realized geometry, and it would not orient time without the independent fact-and-record process.
 
 This also retypes spectral-action symmetry breaking. A \(G\)-invariant potential can have a minimum with stabilizer \(H\subset G\). The functional remains \(G\)-invariant while a selected minimizing representative is only \(H\)-invariant. That is conventional observable symmetry breaking. Within one fixed triple, the corresponding persistence question is answered by the \(K\)-homology or cyclic class in [[spectral-wall-descent/index-and-curvature-transgression|index and curvature transgression]]. Persistence across a wall that changes the algebra additionally requires an explicit \(KK\)-correspondence or pushforward.
+
+## The unbroken gauge Hessian has no automatic infrared floor
+
+The pure gauge term recovered from the four-dimensional \(a_4\) coefficient has, at a flat trivial connection and with a positive invariant Lie-algebra inner product, quadratic action
+
+$$
+S_g^{(2)}(a)=\frac{1}{2g^2}\|da\|_{L^2}^2,\qquad
+K_g=g^{-2}d^*d.
+\tag{SA1}
+$$
+
+This operator acts on **connection perturbations**, not on the physical vacuum Hilbert space. Gauge directions \(a=d\phi\) are null. On transverse Fourier modes \(p\cdot\widehat a=0\), its eigenvalue is \(g^{-2}|p|^2\). A fixed finite torus supplies a lowest nonzero momentum; as its side \(R\) grows, that value is \(g^{-2}(2\pi/R)^2\to0\), even after harmonic modes are removed.
+
+There is a more general **[EXACT QUADRATIC OBSTRUCTION]**. Suppose the stationary-background Hessian on \(\mathbb R^4\) is translation invariant, has matrix symbol \(K(p)\) continuous at zero, and satisfies the linear gauge identity
+
+$$
+K(p)(p\otimes X)=0
+\quad\text{for every Lie-algebra vector }X.
+\tag{SA2}
+$$
+
+For any direction \(n\), set \(p=\varepsilon n\), divide by \(\varepsilon\), and take the limit. Then \(K(0)(n\otimes X)=0\) for all \(n,X\), so \(K(0)=0\). If the form is nonnegative, normalized transverse wave packets with Fourier support in shrinking annuli about zero have Rayleigh quotients tending to zero. No positive \(L^2\) floor survives on this quadratic gauge quotient.
+
+The usual rotation-invariant form is
+
+$$
+K_{\mu\nu}(p)
+=(|p|^2\delta_{\mu\nu}-p_\mu p_\nu)
+F(|p|^2/\Lambda^2),
+\tag{SA3}
+$$
+
+with a color coefficient understood. Every finite local derivative expansion with \(F\) bounded near zero meets the obstruction. Adding a UV scale or more regular derivative terms does not by itself remove long-wavelength modes.
+
+This is not limited to a truncated heat expansion. [[library/spectral-action-beyond-the-weak-field-approximation/inq|Iochum, Levy, and Vassilevich]] compute the noncompact, reference-subtracted action to second order in curvature with full momentum dependence. In their \(f(D^2/\Lambda^2)\) convention, equation (29) gives, for admissible \(f\) continuous at zero,
+
+$$
+w_\Lambda(0)=-\tfrac23 f(0).
+\tag{SA4}
+$$
+
+The apparent \(1/p^2\) is removable: writing \(u=\alpha(1-\alpha)\), the integrand tends to \(f(0)(1-2u)\). Their anti-Hermitian curvature convention accounts for the negative sign. This is an infrared-regular quadratic example, not a theorem about every spectral triple or cutoff. Their noncompact action is the trace of an operator difference, not subtraction of two separately finite traces.
+
+The hypotheses matter. A nonlocal transverse kernel \(\mu^2P_T(p)\), with \(P_T=I-pp^T/|p|^2\), is gauge invariant at quadratic order and has a positive transverse floor, but is not continuous at zero. A nonzero internal Higgs background can also add \(\|[a,\Phi_0]\|^2\); (SA1) addresses the unbroken directions commuting with \(\Phi_0\), not those massive directions. Exact finite-torus spectral traces can contain holonomy terms not captured by the infinite-volume symbol.
+
+Most importantly, a bare Hessian is an inverse covariance only for a Gaussian law. The [[basic-concepts/hessians/inq|effective-action Hessian]] is a different object in an interacting theory. These statements neither disprove the nonperturbative Yang--Mills gap nor prove that a singular gauge propagator would establish it. They locate the missing mechanism beyond the bare quadratic return.
+
+## A relative spectral construction, not a scalar substitution
+
+A useful deeper candidate must retain at least the typed data
+
+$$
+\mathfrak S_c=
+(\mathcal A,\mathcal H_{\rm spec},D;\,
+ \mathcal B_c\hookrightarrow\mathcal A,\omega_c,\partial_c,\mathsf s_c),
+\qquad
+\partial_c:\mathcal D_c\subset L^2(\mathcal B_c,\omega_c)
+\longrightarrow\mathcal K_c.
+\tag{SA5}
+$$
+
+Here \(\mathcal H_{\rm spec}\) carries the spectral triple; \(\mathcal D_c\) is a dense domain of observable GNS classes; \(\mathcal K_c\) carries their response; and \(\mathsf s_c\) records normalization or a scale section. They are not one Hilbert space by notation. The state and response must be constructed from the proposed whole-to-local law; (SA5) records required types, not independent freely fitted parameters.
+
+If \(\partial_c\) is closable and descends through the GNS null ideal, the squared norm of its closure defines \(L_c=\overline{\partial_c}^{\,*}\overline{\partial_c}\). [[contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal|The carrier-first construction]] owns this representation step. A spectral action could help select the upstream data or define a regulated weight, but a scalar functional alone supplies neither a normalized measure nor a physical vacuum. Recovering its classical Yang--Mills term is one test; recovering that theory's state, observables, and translations is another.
+
+[[finite-spectral-wall|The finite relative-spectrum witness]] proves why the context in (SA5) cannot be omitted. Its entire bulk Dirac spectrum stays fixed while the centered response floor is \(4\sin^2(2\theta)\), including zero. Selecting the commutant as the readout and using the same Dirac commutator as response instead annihilates every retained observable. A second, relatively placed response structure is needed in that construction.
+
+For a physical gap, a dimensionless lower bound for \(L_c\) must survive on a source-complete carrier and reach the reconstructed translation generator through the [[global-local-response-reconstruction/qft-recovery-contract|QFT recovery contract]]. [[lorentzian-spectral-envelope/inq|The transfer/energy dictionary]] then converts a common inverse-length exponent \(\sigma_*>0\) into \(\Delta_E\ge\hbar c\,\sigma_*\) and, with the required Poincare spectrum, a mass floor \(\hbar\sigma_*/c\). Equality requires the optimal complete-carrier exponent. This conversion is not a derivation of its yardstick.
+
+The new [[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|Gaussian blocking estimate]] supplies one local-sector recovery test: a suitable gauge-compatible averaging map preserves curvature control through arbitrary blocking depth. [[rg-covariance-residue/normalized-gauge-kernels-and-markov-residues|Normalized gauge kernels]] supply an exact finite-law comparison without declaring probabilistic weights to be ontological dice. Neither commits the upstream theory to Yang--Mills action as primitive; neither supplies its missing interacting infrared estimate.
 
 ## The conjugacy-orbit no-go
 
@@ -154,6 +224,9 @@ The most useful lessons are structural:
 - If the proposed wall map is unitary or invertible, it does not encode genuine loss; a \(KK\)-equivalence alone also supplies no nonzero relative \(K\)-class, though it does not rule out every metric defect.
 - If the output triple still imports \(M\), it has not derived spacetime.
 - If a spectral-action Hessian is called BKM without a proof, positivity and type have been confused.
+- If the unbroken bare gauge Hessian is assigned a uniform infrared floor while its Fourier symbol remains continuous at zero, (SA2) rules out that assignment; this is not a no-gap theorem for the interacting physical carrier.
 - If context-dependent entropy is inferred from the conjugacy-invariant bulk action, the finite orbit counterexample applies.
 - If heat entropy is used to derive Einstein gravity, the \(a_2\) cancellation must be overcome by a different functional or boundary term.
 - If an observable minimum is used as the necessity of the pre-observable ground, the action has been moved across the wall without a descent theorem.
+
+[[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite verification receipt]] checks the relative-floor witness and the removable infrared form-factor limit for \(f(s)=e^{-s}\). It does not construct an interacting quantum law or test a continuum physical gap.

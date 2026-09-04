@@ -1,0 +1,11 @@
+Run: 2026-09-04
+Command: python rg-covariance-residue/receipts/covariance_residue_receipt.py
+PASS: complex covariance identity and weighted orthogonal shells.
+PASS: nonnested-projection negative control fails the claimed identity.
+PASS: geometric-scale endpoint bound over parameter grid.
+PASS: discarded-correlated-fiber negative control.
+PASS: Gaussian sine-source formula retains the massless power-law tail.
+
+Scope: finite illustrative identities, bounds, and counterexamples.
+Not verified by this receipt: the Yang--Mills shell estimates, terminal mixing,
+continuum existence, reflection positivity, or physical reconstruction.

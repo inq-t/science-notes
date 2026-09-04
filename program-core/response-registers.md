@@ -26,6 +26,7 @@ Changing one of these fields changes the response question even when the display
 | static susceptibility | derivative of an expectation with respect to a declared conjugate source | [[basic-concepts/hessians/fisher-response|Fisher response]] |
 | Kubo real-time response | causal or frequency-dependent dynamical response with a time prescription | [[basic-concepts/hessians/inq#Actions, effective actions, and inverse covariance|functional Hessians and response]] |
 | covariance | centered two-point fluctuation on a declared state or probability carrier | [[basic-concepts/hessians/inq|Hessians]] |
+| Witten one-form response | \(L_1^{-1}dG\), the configuration-space susceptibility induced by a local score on the exact one-form sector | [[auxiliary-response-localization/inq|auxiliary response localization]] |
 | probability or 1PI precision | inverse covariance or effective-action Hessian on a declared nondegenerate physical domain | [[basic-concepts/hessians/fourier-covariance-and-precision|Fourier covariance and precision]] |
 | spectral multiplier or filter | functional-calculus operator with no automatic covariance or response interpretation | [[cauchy-spectral-envelope/inq|heat mixtures and Cauchy envelopes]] |
 | center-valued response package | the central response density together with the inherited normal central law, before a consumer policy | [[program-core/center-valued-response|center-valued response and scalarization]] |

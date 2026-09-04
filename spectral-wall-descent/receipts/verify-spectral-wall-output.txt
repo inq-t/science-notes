@@ -1,0 +1,43 @@
+finite spectral wall: PASS
+  entropy defect at pi/4 = 0.192744757022
+  BKM/defect Hessian    = 1.663553233344
+conditional expectation balance: PASS
+  relative-entropy closure = -1.110e-16
+  BKM Hessian closure      = -1.827e-13
+fixed-context spectral response floor: PASS
+  fixed bulk spectra; centered floor ranges from 0 to 4
+  compression and co-moving zero-response control: PASS
+gauge-quadratic infrared control: PASS
+  removable form-factor singularity; transverse eigenvalues tend to zero
+heat entropy coefficients: PASS
+  linear a2 coefficient   = +0.000e+00
+  quadratic coefficient   = -0.431947069943
+hidden resolvent and seesaw: PASS
+  minimum full eigenvalue = 1.172242083376
+  mixed-jet derivative    = +0.118011834320
+  exact light eigenvalue  = -0.001799595182
+  seesaw Schur mass       = -0.001800000000
+mixed response jet: PASS
+  finite-difference jet = 0.353553186727
+  exact jet             = 0.353553390593
+Majorana response Jacobian: PASS
+binary reduced-twist toy: PASS
+  twist entropy defect    = 0.209154257588
+  binary BKM response     = 0.611789570162
+type-I product-edge identity: PASS
+  edge entropy            = 0.897945724857
+  erased distinction      = 0.200666563811
+  tracial half log index  = 1.098612288668
+  selected-state index    = 15.000000000000
+rank-one completion lemma (constructed sufficiency): PASS
+  generalized eigenvalues = [1.7 1.7]
+finite real response determinant: PASS
+  same-direction Fisher   = +0.015343999464
+  mixed Fisher component  = -0.012478337278
+  bosonic action Hessian  = +0.012478338501
+Majorana source ray and project pulse: PASS
+  unrestricted residual   = 27.095596154726
+  source-ray n_eff        = 2.333333333333
+  source-ray kappa^-2     = 2.720676423164
+affine AdS scale atlas: PASS
+  unit-radius scalar R    = -2

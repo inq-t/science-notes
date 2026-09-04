@@ -202,6 +202,67 @@ $$
 
 Meanwhile any bulk spectral action of the conjugated Dirac operator \(U_\theta hU_\theta^*\) is constant in \(\theta\). This proves the finite conjugacy-orbit no-go in [[spectral-wall-descent/observable-spectral-action|the observable-action note]].
 
+## Identical bulk spectra, different relative response floors
+
+There is a stronger fixed-context test than entropy variation. Keep the readout
+\(\mathcal B_0=\operatorname{span}_{\mathbb C}\{I,\sigma_z\}\) fixed, use the normalized trace
+\(\tau(a)=\operatorname{Tr}(a)/2\), and rotate
+
+$$
+h_\theta=U_\theta m\sigma_zU_\theta^*,\qquad
+D_\theta=L_{h_\theta}+R_{h_\theta}.
+\tag{FW1}
+$$
+
+Every \(D_\theta\) has spectrum \(\{-2m,0,0,2m\}\), so every defined bulk spectral action \(\operatorname{Tr}f(D_\theta/\Lambda)\) is constant in \(\theta\).
+
+Now define a dimensionless response on the **fixed readout carrier**
+\(L^2(\mathcal B_0,\tau)\):
+
+$$
+\partial_\theta a=[h_\theta/m,a]\in L^2(M_2,\tau),\qquad
+\mathfrak q_\theta(a)=\|\partial_\theta a\|_\tau^2.
+\tag{FW2}
+$$
+
+For \(a=\alpha I+\beta\sigma_z\),
+\([h_\theta/m,\sigma_z]=-2i\sin(2\theta)\sigma_y\). Hence
+
+$$
+\boxed{
+\mathfrak q_\theta(a)
+=4\sin^2(2\theta)\,
+\|a-\tau(a)I\|_\tau^2.}
+\tag{FW3}
+$$
+
+The finite form is closed and defines a positive operator on \(L^2(\mathcal B_0,\tau)\). With \(i_0\) the inclusion and \(E_0\) the tracial expectation onto \(\mathcal B_0\),
+
+$$
+L_\theta=\partial_\theta^*\partial_\theta
+=E_0\operatorname{ad}_{h_\theta/m}^{\,2}i_0
+=4\sin^2(2\theta)(I-E_{\mathbb CI}).
+\tag{FW4}
+$$
+
+This is a compression, not a restriction: the unrestricted double commutator generally takes \(\sigma_z\) outside \(\mathcal B_0\). The spectrum of \(L_\theta\) is
+\(\{0,4\sin^2(2\theta)\}\), counting the centered eigenvalue as zero when \(\sin(2\theta)=0\). At \(\theta=0\), all readout directions have zero response; at \(\theta=\pi/4\), the centered floor is four. The complete bulk Dirac spectrum, not merely one trace value, is unchanged.
+
+The projection geometry is explicit. Write \(k_\theta=h_\theta/m\), so \(k_\theta^2=I\). The tracial expectation onto \(\mathcal B_\theta=\{h_\theta\}'\) obeys
+
+$$
+E_\theta(a)=\tfrac12(a+k_\theta a k_\theta),\qquad
+\operatorname{ad}_{k_\theta}^{\,2}=4(I-E_\theta),\qquad
+\mathfrak q_\theta(a)=4\|(I-E_\theta)a\|_\tau^2.
+\tag{FW5}
+$$
+
+The floor therefore measures the angle of the fixed centered readout against the moving commutant. Even the full double-commutator spectrum \(\{0,0,4,4\}\) stays fixed.
+
+This proves that no bulk-spectrum-only rule determines this relative response floor. The needed data include the embedding of the readout algebra relative to \(D\), its state, and the response map. Simultaneously conjugating both \(h_\theta\) and the readout instead preserves their relative position. In particular, on the moving readout \(\mathcal B_\theta\), the commutator form vanishes identically. The same Dirac operator that defines a commutant does not, through its own commutator, generate a positive retained response on that commutant.
+
+The symbols \(D_\theta\), \(\partial_\theta\), and \(L_\theta\) act on different spaces. None has been identified with a physical clock Hamiltonian. The parameter \(m\) here sets a finite spectral radius; (FW2) divides it out and does not predict a mass. This is a concrete reason to pursue a **relative spectral datum**, not to identify spectral-action eigenvalue spacing with the Yang--Mills gap.
+
 ## Relative \(K\)-theory and the binary distinction
 
 For the inclusion
@@ -242,10 +303,10 @@ The finite model constructs, without unitarity or energy conservation,
 - entropy gain equal to lost distinction;
 - a positive Dirac-commutator wall response;
 - a relative zero-sum \(K\)-class; and
-- a proof that bulk spectral action cannot determine wall entropy.
+- a proof that bulk spectral action cannot determine wall entropy or the fixed-context commutator response floor.
 
 It does not construct a causal wall, Lorentzian spacetime, gravity, or fact selection. Those are precisely the carrier, soldering, and record obligations exposed by the model.
 
 ## Receipt
 
-[[spectral-wall-descent/receipts/verify-spectral-wall.py|The verification receipt]] checks the spectra, trace moments, entropy identity, entropy-defect Hessian, kernel of the relative rank map, and mixed-response jet by matrix diagonalization and finite differences. The analytic BKM identification and full mapping-cone sequence are proved in the notes rather than independently reconstructed by the script.
+[[spectral-wall-descent/receipts/verify-spectral-wall.py|The verification receipt]] checks the spectra, trace moments, entropy identity, entropy-defect Hessian, fixed-context response floor and its projection compression, kernel of the relative rank map, and mixed-response jet by matrix diagonalization and finite differences. The analytic BKM identification and full mapping-cone sequence are proved in the notes rather than independently reconstructed by the script.

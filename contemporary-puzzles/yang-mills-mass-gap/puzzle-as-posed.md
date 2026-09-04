@@ -1,6 +1,6 @@
 # The Puzzle as Posed
 
-The Yang–Mills existence and mass-gap problem, as the Clay Mathematics Institute states it in the description by Jaffe and Witten, is four separable clauses, and the contemporary presentation runs them together. This note states each in the literature's own terms and cites nothing from the vault, so that a reader who rejects every reclassification downstream can still use the statement.
+The Yang–Mills existence and mass-gap problem, as the Clay Mathematics Institute states it in [[library/quantum-yang-mills-theory/inq|the description by Jaffe and Witten]], can be audited as four separable clauses that contemporary shorthand often runs together. This note states each in the literature's own terms so that a reader who rejects every reclassification downstream can still use the target.
 
 ## Clause 1 — existence
 
@@ -35,3 +35,5 @@ It does not say that a continuum theory cannot have isolated spectral structure;
 ## Distinct logical forms
 
 The clauses have different forms: existence is a construction; the gap is a spectral inequality; nontriviality excludes a degenerate solution; and numerical evidence consists of regulator-controlled estimates with uncertainties and scale conventions. No argument that addresses one clause automatically addresses the others. [[register-audit]] isolates the narrower register mistake that can make this theorem look paradoxical.
+
+Nor does undecidability of the general spectral-gap decision problem add a fifth obstruction to this particular theorem. [[spectral-gap-undecidability-firewall]] records the quantifiers: no universal algorithm for one constructed family does not imply that Yang--Mills is undecidable, independent, or immune to a model-specific proof.

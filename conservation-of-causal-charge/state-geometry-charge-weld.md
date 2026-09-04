@@ -4,7 +4,7 @@ Causal capacity is a positive quadratic response, whereas causal charge is a sig
 
 ## The canonical capacity side
 
-[[program-core/localized-areal-response-geometry|Localized areal response geometry]] owns the state-side construction. A scale-indexed family first requires a common carrier, cross-fiber transport, a physical horizontal quotient, and a canonically normalized scale tangent
+[[program-core/localized-areal-response-geometry|Localized areal response geometry]] owns the state-side construction. A scale-indexed family first requires a common carrier, an independently selected cross-fiber connection, a physical horizontal quotient, and a scale tangent whose normalized class is natural under every admissible change of transport
 
 $$
 v_N:=D^{\mathrm{hor}}\Phi(\partial_N).

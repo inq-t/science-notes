@@ -1,0 +1,14 @@
+nonlinear whole-law surface-response receipt
+soft transverse Hessian mode at fixed a=0.01 and ell=1
+L=  20.0  omega=3.141590069757e-03  kappa_sing=5.158845674773e-01  4*pi*ell/L=6.283185307180e-01  ratio=0.82105579
+L=  40.0  omega=1.570796003749e-03  kappa_sing=2.873268626385e-01  4*pi*ell/L=3.141592653590e-01  ratio=0.91458981
+L=  80.0  omega=7.853981230054e-04  kappa_sing=1.506142139871e-01  4*pi*ell/L=1.570796326795e-01  ratio=0.95883987
+L= 160.0  omega=3.926990765645e-04  kappa_sing=7.695892584945e-02  4*pi*ell/L=7.853981633974e-02  ratio=0.97987148
+likelihood maximal correlation: 0.406269960876
+bridge floor: 0.834944718890
+1 - correlation^2: 0.834944718890
+bridge quadratic form: 0.531324179324
+integrated conditional variance: 0.531324179324
+pairwise cocycle chain error: 2.220e-16
+all checks passed
+

@@ -1,6 +1,6 @@
 # Causal-Capacity Equivalence
 
-The keystone physical conjecture is that horizontal state distinguishability, gravitational canonical response, and central edge area are compatible representations of one local modulus. Its unit scalar form is an equivalence law only after three independent edges have been composed: retained BKM response to canonical energy, selected edge entropy to independently normalized spectral area, and the canonical scale-tangent energy to the gravitational entropy measure. No lost-response block is renamed gravity.
+The keystone physical conjecture is that horizontal state distinguishability, gravitational canonical response, and central edge area are compatible representations of one local modulus. Its unit scalar form is an equivalence law only after three independent edges have been composed: retained BKM response to canonical energy, selected edge entropy to independently normalized spectral area, and the canonical energy of a connection-relative scale tangent whose class has passed the required naturality theorem to the gravitational entropy measure. No lost-response block is renamed gravity.
 
 ## The gravitational modulus
 
@@ -97,7 +97,7 @@ $$
 
 for every admissible patch. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] supplies exact type-I and code-theoretic precursors under its hypotheses; [[deriving-value-of-g/spectral-index-area-route|the spectral index--area route]] owns the physical all-patch theorem target. The edge operator is not an entry of the BKM Hessian, and its coefficient cannot be normalized from measured \(G\).
 
-The **Einstein scale-direction edge** concerns only the canonically normalized tangent \(v_N\). It requires a horizon, focusing, first-law, or canonical-energy theorem identifying the gravitational response produced by the first edge with the Einstein entropy-area measure whose normalization agrees with the second edge:
+The **Einstein scale-direction edge** concerns only a connection-relative tangent \(v_N\) after an admissible-transport naturality theorem has selected and normalized its class. It requires a horizon, focusing, first-law, or canonical-energy theorem identifying the gravitational response produced by the first edge with the Einstein entropy-area measure whose normalization agrees with the second edge:
 
 $$
 \mathrm d\mu^{\mathrm{desc}}_{v_N,v_N}

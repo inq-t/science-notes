@@ -1,0 +1,10 @@
+PASS: full-domain normalized gauge kernel preserves the exact fine marginal.
+PASS: omitting the normalizer changes the law; singular averages remain defined.
+PASS: complex-linear retained derivative has the real score in the first covariance slot.
+PASS: nested suffix projections, Markov reduction, and complex covariance-residue identity.
+PASS: individual state algebras fail the nesting test.
+PASS: independent readout transfers every centered correlation into the first residue.
+PASS: SU(2) Haar moment, normalized-kernel Hessian, Fisher metric, and Ward identity.
+PASS: opposite paths have zero Fisher information but positive mode curvature.
+PASS: rescaled Haar density converges to the declared normalized Gaussian.
+Not tested: reverse conditional localization, nonlinear RG limit, OS reconstruction, or Yang--Mills mass gap.

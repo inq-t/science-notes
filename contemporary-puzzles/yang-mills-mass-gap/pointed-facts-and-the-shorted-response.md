@@ -223,19 +223,28 @@ This corrects the slogan “the leak is the cost of mass.” The transverse act 
 
 The existing [[descent-loss-cocycle-and-recovery-fork|output-transgression theorem]] makes the warning sharper. If \(A\) is taken to be only the loss Hessian of one state-preserving expectation with its adapted BKM geometries, the retained minimum-lift transgression is identically zero. A nonzero shorted response must therefore come from a non-adapted metric comparison, a jointly transverse family, or an independent whole/boundary response—not from relabeling the canonical vertical loss.
 
-There is nevertheless no requirement that the whole operator have a global gap. For \(\kappa>0\), the exact stopping theorem is
+There is nevertheless no requirement that the whole operator have a global gap. For each prescribed \(\kappa>0\), shorting gives
 
 $$
 \boxed{
 S_L(A)\geq\kappa P_L
 \iff
-A\geq\kappa P_L
-\iff
-L\subseteq\operatorname{Ran}A^{1/2}.}
+A\geq\kappa P_L.}
 \tag{PF11a}
 $$
 
-The last equivalence is Douglas range inclusion. Thus \(A\) may have a kernel or spectrum accumulating at zero in globally invisible directions while its retained quotient remains uniformly stiff. This is the precise sense in which a scale-free or gapless whole can present a gapped local distinction: shorting does not create the stiffness, but it can isolate a positive relative capacity hidden inside a globally gapless carrier.
+Douglas range inclusion instead supplies the existential statement
+
+$$
+\boxed{
+\exists\,\kappa>0:
+S_L(A)\geq\kappa P_L
+\iff
+L\subseteq\operatorname{Ran}A^{1/2}.}
+\tag{PF11b}
+$$
+
+If the inclusion \(L\hookrightarrow\mathcal H\) factors as \(A^{1/2}C\), the best floor is the reciprocal of the least admissible value of \(\|C\|^2\). Thus \(A\) may have a kernel or spectrum accumulating at zero in globally invisible directions while its retained quotient remains uniformly stiff. This is the precise sense in which a scale-free or gapless whole can present a gapped local distinction: shorting does not create the stiffness, but it can isolate a positive relative capacity hidden inside a globally gapless carrier.
 
 Let \(\Omega\in\mathcal K_O\) be a proposed invariant or vacuum vector and \(P_0\) its projection. The invariant excitation carrier is \(L_{\mathrm{exc}}=L\cap\ker P_0\); one should short directly to this intersection unless vacuum annihilation and projection compatibility have already been proved. The exact dimensionless stopping condition is
 

@@ -1,0 +1,7 @@
+auxiliary-response-localization receipt: PASS
+covariance split error: 0.000e+00
+optimized auxiliary time: 1.126934984520
+static exponent: 0.563467492260
+generator-rescaling invariance: PASS
+linear Gaussian Witten identity error: 0.000e+00
+scope: algebra and normalization only; no Yang--Mills or continuum premise tested

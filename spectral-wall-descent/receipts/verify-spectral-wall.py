@@ -149,6 +149,81 @@ def check_conditional_expectation_balance() -> None:
     print(f"  BKM Hessian closure      = {hessians[0] - hessians[1] - hessians[2]:+.3e}")
 
 
+def check_relative_spectral_floor() -> None:
+    identity = np.eye(2, dtype=complex)
+    sigma_z = np.diag([1.0, -1.0]).astype(complex)
+    m = 1.3
+
+    def norm_tau_squared(matrix: np.ndarray) -> float:
+        return float(np.trace(matrix.conj().T @ matrix).real / 2.0)
+
+    for theta in np.linspace(0.0, math.pi / 2.0, 17):
+        unitary = rotation(float(theta))
+        k = unitary @ sigma_z @ unitary.conj().T
+        dirac = left_right_dirac(m * k)
+        assert np.allclose(np.linalg.eigvalsh(dirac), [-2*m, 0, 0, 2*m], atol=TOL)
+        ad_k = np.kron(identity, k) - np.kron(k.T, identity)
+        assert np.allclose(np.linalg.eigvalsh(ad_k @ ad_k), [0, 0, 4, 4], atol=TOL)
+        floor = 4.0 * math.sin(2.0 * theta)**2
+        for a in (sigma_z, (0.2+0.3j)*identity + (0.7-0.4j)*sigma_z):
+            commutator = k @ a - a @ k
+            centered = a - np.trace(a) * identity / 2.0
+            expected = floor * norm_tau_squared(centered)
+            assert abs(norm_tau_squared(commutator) - expected) < TOL
+            moving_expectation = (a + k @ a @ k) / 2.0
+            assert abs(4*norm_tau_squared(a - moving_expectation) - expected) < TOL
+            double_commutator = k @ commutator - commutator @ k
+            assert np.allclose(dephase(double_commutator), floor * centered, atol=TOL)
+            # Ordinary trace on the four-dimensional HS carrier needs 1/(4 m^2).
+            left_a = np.kron(identity, a)
+            dirac_commutator = dirac @ left_a - left_a @ dirac
+            hs_value = np.trace(dirac_commutator.conj().T @ dirac_commutator).real
+            assert abs(hs_value/(4*m*m) - expected) < TOL
+        # A co-moving retained context is annihilated, not positively controlled.
+        moving_a = (0.2+0.1j)*identity + (0.6-0.3j)*k
+        assert norm_tau_squared(k @ moving_a - moving_a @ k) < TOL
+
+    theta = math.pi / 8.0
+    unitary = rotation(theta)
+    k = unitary @ sigma_z @ unitary.conj().T
+    commutator = k @ sigma_z - sigma_z @ k
+    double_commutator = k @ commutator - commutator @ k
+    assert norm_tau_squared(double_commutator - dephase(double_commutator)) > 1.0
+    print("fixed-context spectral response floor: PASS")
+    print("  fixed bulk spectra; centered floor ranges from 0 to 4")
+    print("  compression and co-moving zero-response control: PASS")
+
+
+def check_gauge_quadratic_infrared() -> None:
+    # Equation (29) for f(s)=exp(-s), with Lambda=1.
+    nodes, weights = np.polynomial.legendre.leggauss(64)
+    alpha = (nodes + 1.0) / 2.0
+    weights = weights / 2.0
+    u = alpha * (1.0 - alpha)
+
+    def form_factor(z: float) -> float:
+        if z == 0:
+            return -2.0 / 3.0
+        integrand = np.exp(-u*z) + 2.0*np.expm1(-u*z)/z
+        return -float(np.dot(weights, integrand))
+
+    momenta = np.array([1e-1, 1e-2, 1e-3, 1e-4])
+    eigenvalues = []
+    for p in momenta:
+        z = p*p
+        factor = -1.5*form_factor(z)  # positive normalization F(0)=1
+        assert 0.99 < factor <= 1.0 + TOL
+        eigenvalues.append(z * factor)
+        momentum = np.array([p, 0.0, 0.0, 0.0])
+        kernel = (z*np.eye(4) - np.outer(momentum, momentum))*factor
+        assert np.linalg.norm(kernel @ momentum) < TOL
+        assert np.allclose(np.linalg.eigvalsh(kernel)[1:], z*factor, atol=TOL)
+    assert np.all(np.diff(eigenvalues) < 0.0)
+    assert abs(form_factor(1e-8) + 2.0/3.0) < TOL
+    print("gauge-quadratic infrared control: PASS")
+    print("  removable form-factor singularity; transverse eigenvalues tend to zero")
+
+
 def check_heat_entropy_coefficients() -> None:
     a0, a2, a4 = 2.3, -0.7, 1.1
     b = a2 / a0
@@ -612,6 +687,8 @@ def check_affine_ads_atlas() -> None:
 if __name__ == "__main__":
     check_finite_spectral_wall()
     check_conditional_expectation_balance()
+    check_relative_spectral_floor()
+    check_gauge_quadratic_infrared()
     check_heat_entropy_coefficients()
     check_hidden_resolvent()
     check_mixed_response_jet()

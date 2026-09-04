@@ -180,7 +180,7 @@ No manipulation of dimensionless data, \(c\), \(\hbar\), and \(k_B\) produces an
 The obstructions leave a sharply defined theorem target:
 
 1. construct a wall algebra and scale-indexed state independently of \(G\) and the fitted expansion history;
-2. prove that the physical scale tangent is canonically normalized and identify its escort and transverse components;
+2. select the cross-fiber connection independently, prove naturality of the physical scale tangent and its normalization under admissible transport changes, and identify its escort and transverse components;
 3. prove a regulator-independent, locally additive BKM measure on the cut;
 4. derive its Radon--Nikodym density with respect to an independently normalized area measure;
 5. construct the central edge-entropy operator of the gravitational correspondence and prove its all-patch density with respect to spectral area;

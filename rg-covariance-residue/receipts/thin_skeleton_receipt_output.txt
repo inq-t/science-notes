@@ -1,0 +1,14 @@
+PASS: direct lattice norm, curl energy, zero mean, and exact skeleton blindness.
+n=M=   4: b^2 R=3.921000119; analytic upper=3.991210624
+n=M=   8: b^2 R=1.366616522; analytic upper=1.368317985
+n=M=  16: b^2 R=0.529258746; analytic upper=0.529304144
+n=M=  32: b^2 R=0.226057567; analytic upper=0.226058864
+n=M=  64: b^2 R=0.103388605; analytic upper=0.103388643
+n=M= 128: b^2 R=0.049284593; analytic upper=0.049284594
+n=M= 256: b^2 R=0.024039894; analytic upper=0.024039894
+n=M= 512: b^2 R=0.011869348; analytic upper=0.011869348
+n=M=1024: b^2 R=0.005897025; analytic upper=0.005897025
+PASS: physical Rayleigh quotient tends downward on the joint-limit sequence.
+PASS: exact Neumann block eigenvalue and cutoff-uniform b^-2 lower bound.
+PASS: mean-zero block constraint controls random four-dimensional scalar fields.
+Not tested: interacting conditional Yang--Mills laws, OS spectrum, or continuum existence.

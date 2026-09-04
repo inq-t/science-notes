@@ -182,7 +182,7 @@ $$
 {\mathrm d\mu_A}(p).
 $$
 
-The additional horizon or canonical-energy bridge for the canonically normalized scale tangent is
+The additional horizon or canonical-energy bridge for the connection-relative scale tangent, after a naturality theorem has selected and normalized its class, is
 
 $$
 \boxed{

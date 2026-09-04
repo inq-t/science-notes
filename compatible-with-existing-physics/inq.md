@@ -19,6 +19,8 @@ Several questions were compressed into the word “compatible” in the archived
 
 These relations do not form one ladder that every theory must climb. A theory can surround and constrain a local theory without deriving it. Conversely, sharing vocabulary or reproducing one fitted curve is not yet surrounding, embedding, or recovery.
 
+The mass-gap programme makes the stronger claim that its whole-law response lies underneath the local QFT description. For that claim, compatibility is not enough: [[global-local-response-reconstruction/qft-recovery-contract|the QFT recovery contract]] requires an actual observable-net, state, dynamics, covariance, and continuum return map. The more modest surrounding relation remains appropriate for cosmodynamic modules that explicitly import local QFT rather than reconstruct it.
+
 ## The division by object of inquiry
 
 The relevant distinction is logical rather than a hierarchy of length scales:

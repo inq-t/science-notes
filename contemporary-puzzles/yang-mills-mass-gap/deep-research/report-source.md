@@ -251,7 +251,7 @@ Selection of $SU(3)$, Standard Model matter, or numerical MeV values is outside 
 | \(\hbar\), clock, and action firewall | \(S_s=e^{-sK}=e^{-s'K'}\) under \(s'=\lambda s\), \(K'=K/\lambda\); \(\hbar\) lies in the action line and converts inverse time to energy or inverse length to momentum; after Poincare reconstruction, strongly commuting inverse-length translation generators with forward-cone joint spectrum define \(U(x)=e^{-ix\cdot\Pi}\), \(\mu=(\Pi^\mu\Pi_\mu)^{1/2}\), and \(m=\hbar\mu/c\) | a spectral exclusion need not contain \(\hbar\) intrinsically, and an abstract ordered spectrum may precede its interpretation as frequency | independently construct the translation/clock parameter and its normalization; if mass is claimed to constitute spacetime, using \(E=\hbar\omega\) upstream is circular; only dimensionless variation of \(\hbar\) is operationally meaningful |
 | localized mass precedents | the even bosonic spectral trace packages observable mass terms from supplied \((\mathcal A,\mathcal H,D,\Lambda)\) but is blind to \(D\mapsto-D\); Coleman Q-balls localize energy at fixed global charge; Wheeler's original geons self-confine electromagnetic radiation through classical gravity | spectral organization and the Q-ball/geon grammar of coherent recurrence plus self-consistent confinement can organize rest-like localized sectors without a fundamental material mass term | all three assume downstream structure; a localized or metastable sector may retain soft modes and does not prove coercivity on the complete vacuum complement; derive the carrier, scale balance, stability, and continuum Yang--Mills comparison |
 | cosmic-geon and whole-to-part residue | for a conserved trace-free stress tensor, the FLRW conformal charge in a compact comoving slice or flux-free comoving cell is \(Q_\xi=aE_\gamma\), up to the normalization of the conformal Killing field and the chosen domain; hence \(-\mathrm d\log E_\gamma/\mathrm dt=H\), and in radiation domination \(E_\gamma\iota_A^{1/4}=\mathrm{const}\); a flat Einstein--FLRW apparent-horizon sphere has \(2GM_A/(R_Ac^2)=1\), \(E_A=\Theta_A^{\mathrm{can}}\iota_A=c^5/(2GH)\), and \(P_A/E_A=\mathrm d\log\iota_A/\mathrm dt=2H(1+q)\); \(\Theta_{\mathrm{HK}}=\Theta_A^{\mathrm{can}}|1-\epsilon_H/2|\) proves that thermality and matter supply are distinct; for a Schrödinger predual channel \(T_*\), \(\mathfrak R_{T_*}(\rho:\sigma)=D(\rho\Vert\sigma)-D(T_*\rho\Vert T_*\sigma)\) is nonnegative and additive under composition | an exact conformal-energy and apparent-horizon rate ledger, plus a trace-independent mathematical meaning for the distinguishability forgotten by a whole-to-local presentation | no theorem identifies FLRW with a Wheeler geon, redshift with horizon flux, conformal charge with Yang--Mills energy after the trace anomaly, or informational residue with mass; construct the whole and local carriers, a factual instrument, tangential coercivity, clock/action/Casimir solders, a gravity-decoupling limit, and a dimensionless prediction |
-| pointed fact and shorted response | a finite readout has an antecedent fibre independent of its visible counterfactual complement; KL loss is the expected conditional divergence inside those fibres; bounded positive-operator shorting gives the least whole cost over hidden extensions, composes exactly under nested descent, and has a telescoping positive order-loss; \(S_L(A)\geq\kappa P_L\iff A\geq\kappa P_L\iff L\subseteq\operatorname{Ran}A^{1/2}\) | a carrier-correct operator on retained distinctions that remembers the globally forgotten background; a whole with global soft spectrum can still have a gapped retained quotient when those soft directions are invisible | shorting does not construct \(A\), the local carrier, a Type-III localization map, factive instrument, Yang--Mills response, continuum floor, or physical calibration; the range condition must be uniform through the regulator limit |
+| pointed fact and shorted response | a finite readout has an antecedent fibre independent of its visible counterfactual complement; KL loss is the expected conditional divergence inside those fibres; bounded positive-operator shorting gives the least whole cost over hidden extensions, composes exactly under nested descent, and has a telescoping positive order-loss; for each prescribed \(\kappa>0\), \(S_L(A)\geq\kappa P_L\iff A\geq\kappa P_L\), while existence of some positive floor is equivalent to \(L\subseteq\operatorname{Ran}A^{1/2}\) | a carrier-correct operator on retained distinctions that remembers the globally forgotten background; a whole with global soft spectrum can still have a gapped retained quotient when those soft directions are invisible | shorting does not construct \(A\), the local carrier, a Type-III localization map, factive instrument, Yang--Mills response, continuum floor, or physical calibration; the range condition must be uniform through the regulator limit |
 | exceptional stabilizer-to-Wilson chain | Yokota's order-three \(w\) fixes \(B\cong\mathfrak h_3(\mathbb C)\), cyclic averaging forgets \(w\leftrightarrow w^2\), and adjoining a trace-two idempotent leaves \(H=S(U(2)\times U(3))\); the flag-lift fibres are \(H\)-torsors whose comparison coordinates obey the gauge-link law; the reduced Hessian has a forty-dimensional radical and is the trace metric on its four-dimensional intrinsic normal; the 149-dimensional full normal is faithful; its color restriction is \(5\mathbf1\oplus24\mathbf3\oplus24\bar{\mathbf3}\), giving exactly \(Q_N=288Q_W\) and \(\beta_W=144\beta\); and the normal metric gives the unweighted color Haar floor \(g(\Gamma)/18\), hence \(2/9\) at square girth | one deeper pointed product now produces orientation, stabilizer, gauge-coordinate grammar, a faithful curvature response, a normalized kinematic floor, and the standard finite-lattice color action rather than fitting each appearance separately | the full normal and color-only member remain physical choices; no sheet, vacuum, bare coupling, RG trajectory, physical chirality, interacting-vacuum Poincare constant, continuum theory, or yardstick is selected; the Haar floor is not the vacuum gap |
 | triangle-character cusp coercivity | \(\Delta^+(3,4,\infty)_{\mathrm{ab}}\cong C_{12}\); all eleven nontrivial unitary characters have nontrivial cusp holonomy, so the shifted cusp Fourier estimate plus Rellich gives compact resolvent, zero kernel, and a positive lowest twisted-Casimir eigenvalue; the $S^6$ winding data obey \(\chi_\ell(c)=e^{2\pi ip/12}\), and the commutator cover is a once-punctured genus-three surface whose deck decomposition contains one scattering sector and eleven confined sectors | an exact example in which a smooth local operator becomes coercive because discrete global descent removes an escape channel; the unit defect has a genuine positive spectral shadow without being equated to energy | the unitary character is not the nonunitary rank-four monodromy; \(p=-7\) is also coercive and conjugate signs are isospectral; every direct $SU(3)$ adjoint cusp holonomy fixes at least its rank-two Cartan subspace, so ordinary color holonomy cannot use this zero-channel-removal mechanism; the number is not explicit, the neutral sector and full physical carrier still matter, and no Yang--Mills comparison, continuum survival, Poincare solder, or yardstick follows |
 | closed-range and Kazhdan firewall | for a flat connection Laplacian, a positive edge above its parallel kernel is equivalent to closed range of \(\nabla_\rho\); property \((T)\) is the uniform spectral gap of a discrete group Laplacian over every unitary representation; \(C_3*C_4\) has finite-index commutator subgroup \(F_6\) and therefore is not Kazhdan; an explicit irreducible two-dimensional family has cusp displacement tending to zero | identifies the exact upgrade from qualitative global discreteness to quantitative global distinction: no almost-invariant nontrivial directions on the declared carrier | the finite \(C_{12}\) character family is representation-specific; even property \((T)\) would vanish on a neutral invariant block, so construct a presentation-comparison action whose joint fixed space on physical tangents is exactly the vacuum and compare its form to regional entropy loss |
@@ -588,6 +588,9 @@ Only the last arrow defines a spectral gap. The phrase “the whole is not unita
 - Pascal Auscher, Alan McIntosh, and Andrew J. Morris, [[library/calderon-reproducing-formulas-and-applications-to-hardy-spaces/inq|“Calderon Reproducing Formulas and Applications to Hardy Spaces,”]] *Revista Matematica Iberoamericana* **31** (2015), [DOI](https://doi.org/10.4171/RMI/857), [arXiv:1304.0168](https://arxiv.org/abs/1304.0168). Supplies the closest general self-adjoint functional-calculus precedent for the scale analysis/synthesis form and its localization obligations.
 - Romeo Brunetti, Klaus Fredenhagen, and Rainer Verch, “The Generally Covariant Locality Principle,” *Communications in Mathematical Physics* **237** (2003), [arXiv](https://arxiv.org/abs/math-ph/0112041). Formulates locally covariant QFT as a covariant functor with fields as natural transformations.
 - David B. Malament, “The Class of Continuous Timelike Curves Determines the Topology of Spacetime,” *Journal of Mathematical Physics* **18** (1977), [DOI](https://doi.org/10.1063/1.523436). Under the distinguishing hypotheses, supplies the causal reconstruction result used to separate conformal causal structure from the missing metric scale.
+
+- BIPM, [“SI base unit: metre,”](https://www.bipm.org/en/si-base-units/metre) undated current institutional page, accessed 2026-09-04. Direct HTML confirms that the metre calibration uses both the fixed numerical value of \(c\) and the second defined through the caesium frequency. Supports the metrological example only, not an ontological claim that length requires light signals.
+- Vivek Iyer and Robert M. Wald, [[library/some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy/inq|“Some Properties of Noether Charge and a Proposal for Dynamical Black Hole Entropy,”]] *Physical Review D* **50** (1994), 846--864, [primary HTML](https://arxiv.org/html/gr-qc/9403028v1), accessed 2026-09-04. Equations (118) and (124) respectively give the Einstein area law and a curvature-dependent Lovelock example. Supports theory dependence of the entropy functional; it does not derive the proposed Yang--Mills comparison.
 
 ## Source exclusions and caution
 
@@ -1171,7 +1174,7 @@ The common-count proposal is exactly \(\Xi_{m_*}=3/(4\pi\gamma s_*)\). Its drift
 
 The same audit gives the disciplined radical-Copernican bridge. A local state's forgotten background is the fibre of whole states with the same restriction. For a Schrödinger predual channel \(T_*\), the trace-free relative-entropy residue \(\mathfrak R_{T_*}(\rho:\sigma)=D(\rho\Vert\sigma)-D(T_*\rho\Vert T_*\sigma)\) is nonnegative and exactly additive under composition. Type-III structure makes modular comparison available without an atomic trace but supplies no outcome, record, clock, or gap. Moreover, the transverse defect of the expectation that forms an observable carrier vanishes on that carrier. The mass candidate must therefore be a different tangential response operator that charges variations of retained distinctions. Only a uniform lower edge plus independent clock, action, carrier, and Poincare solders could turn its dimensionless descent rate into mass; \(mc^2/(\hbar H)\) is a legitimate dimensionless comparison target, not an identity.
 
-[[contemporary-puzzles/yang-mills-mass-gap/pointed-facts-and-the-shorted-response|The pointed-fact reversal]] now identifies that operator in the first exact finite model. The visible alternatives not obtained and the globally different antecedents not distinguished are separate axes. For deterministic coarse-graining, KL loss is precisely the expected conditional divergence inside the antecedent fibres. On a positive Hilbert response carrier, minimizing over those hidden directions produces the shorted response, which acts on the retained distinction and records its least whole-compatible cost. [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle|The intrinsic shorting theorem]] removes the invertible-hidden-block assumption: for nested retained carriers \(L\subseteq T\), \(S_L(S_T(A))=S_L(A)\); the positive stage loss \(S_T(A)-S_L(A)\) telescopes; and \(S_L(A)\geq\kappa P_L\) is equivalent both to \(A\geq\kappa P_L\) and to the actual Douglas range inclusion \(L\subseteq\operatorname{Ran}A^{1/2}\). Background elimination still cannot create stiffness, but global gaplessness is no longer an obstruction if all global soft directions are invisible to the retained carrier. The possible mass precursor is a regulator-uniform version of this relative capacity floor on the complete local vacuum complement, followed by independently constructed physical solders—not the quotient, fibre, or lost information itself.
+[[contemporary-puzzles/yang-mills-mass-gap/pointed-facts-and-the-shorted-response|The pointed-fact reversal]] now identifies that operator in the first exact finite model. The visible alternatives not obtained and the globally different antecedents not distinguished are separate axes. For deterministic coarse-graining, KL loss is precisely the expected conditional divergence inside the antecedent fibres. On a positive Hilbert response carrier, minimizing over those hidden directions produces the shorted response, which acts on the retained distinction and records its least whole-compatible cost. [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle|The intrinsic shorting theorem]] removes the invertible-hidden-block assumption: for nested retained carriers \(L\subseteq T\), \(S_L(S_T(A))=S_L(A)\), and the positive stage loss \(S_T(A)-S_L(A)\) telescopes. For a prescribed \(\kappa>0\), \(S_L(A)\geq\kappa P_L\) is equivalent to \(A\geq\kappa P_L\); the Douglas range condition \(L\subseteq\operatorname{Ran}A^{1/2}\) is instead equivalent to the existence of some positive such \(\kappa\). Background elimination still cannot create stiffness, but global gaplessness is no longer an obstruction if all global soft directions are invisible to the retained carrier. The possible mass precursor is a regulator-uniform version of this relative capacity floor on the complete local vacuum complement, followed by independently constructed physical solders—not the quotient, fibre, or lost information itself.
 
 The exceptional-Jordan material now supplies an orientation witness, a symmetry witness, and two exact but inequivalent finite normal-response witnesses. For the selected flag
 
@@ -4867,7 +4870,273 @@ The progress ledger is therefore:
 5. its uniform action-derived bound, continuum passage, OS reconstruction,
    unique vacuum, locality, and Poincare mass interpretation remain open.
 
+## DR90. Covariance residues replace opaque RG transport; symmetry does not need a random trigger
+
+**2026-09-04.** The continuation tested the source-transport obligation in
+[[contemporary-puzzles/yang-mills-mass-gap/asymptotically-free-response-crossover-lemma|the response-crossover lemma]]
+and the proposed critique of a randomly triggered Higgs transition.
+The reusable mathematical result is now owned by
+[[rg-covariance-residue/inq|RG covariance residue]], rather than duplicated
+throughout this record.
+
+For nested conditional expectations on one regulated law, the microscopic
+covariance is exactly terminal covariance plus orthogonal shell covariances.
+Geometric physical scales give a cutoff-uniform summation theorem: a common
+scale-local exponential bound dominates polynomial source growth in the
+remaining ratio \(b_*/b_j\), not arbitrary terminal cutoff divergences. The
+terminal sources need their own weighted localization estimate. A local
+block that discards an independent massless field is the negative control:
+its retained massive law says nothing about the discarded power-law tail.
+
+This corrects an overstrong earlier requirement. Full forgotten-fiber
+auxiliary coercivity belongs to the direct functional-inequality route.
+The static OS route can instead use source-complete conditional covariance
+localization. Both still require a genuine continuum law and a total family.
+The crossover note also corrects its countability statement, reflection
+conjugation convention, scale-factor hypotheses, and vacuum assumptions.
+
+[[higgs-reduction-as-local-shadow/symmetry-without-a-random-trigger|Symmetry without a random trigger]]
+records a separate exact result: invariant states
+remain invariant under equivariant evolution. Instability does not select
+one asymmetric outcome. Robertson variance, detector disturbance, and
+gravitational localization are distinct; a massive detector does not by
+itself establish that mass causes field uncertainty. An asymmetric upstream
+law remains a construction hypothesis with explicit state and recovery maps.
+
+The focused source ledger is:
+
+| Claim | Primary source and date | Access and limit |
+|---|---|---|
+| Localized Gaussian covariance scales exist | [[library/a-simple-method-for-finite-range-decomposition/inq|Bauerschmidt, 2013; arXiv revision 2019]] | Abstract and metadata; precedent, not Yang--Mills or a deterministic block tower |
+| Physical-Higgs electroweak thermal change is a crossover | [[library/standard-model-cross-over-on-the-lattice/inq|D'Onofrio and Rummukainen, 2016]] | Publisher introduction, footnote 1, effective-theory definition; conditional Standard Model calculation |
+| State-variance bound follows from the observable algebra | [[library/the-uncertainty-principle/inq|Robertson, 1929]] | Primary two-page text and independent Cauchy--Schwarz derivation |
+| Measurement noise and disturbance are different from preparation variance | [[library/uncertainty-noise-and-disturbance/inq|Ozawa, 2003]] | Primary abstract and definitions; no ontological randomness inference |
+| Radiation quadrature statistics have experimental support | [[library/observation-of-squeezed-states-in-an-optical-cavity/inq|Slusher and collaborators, 1985]] | Original publisher abstract; material apparatus, no apparatus-free-universe experiment; erratum text not inspected |
+
+All records were checked on 2026-09-04. Retrieval metadata for this pass:
+turn3484view1, turn3484view2, turn3485view0, turn3485view1,
+turn3485view2, turn3486view1. Source URLs and publication details are
+preserved in the canonical library entries; no new local article payloads
+were downloaded.
+
+Discovery searched existing covariance shells, conditional expectations,
+fiber coercivity, symmetry, uncertainty, and exact source identifiers before
+creating modules. Two bounded independent audits checked the shell theorem
+and the symmetry/experimental evidence. Research stopped at this milestone
+because the implications and counterexamples were proved or source-bounded;
+more general literature retrieval would not establish the missing
+non-Abelian estimates. The finite receipt passed complex covariance
+decomposition, weighted shell orthogonality, geometric-scale summation, and
+negative controls for nonnested projections and discarded correlations.
+It is not a proof of continuum Yang--Mills.
+
+## DR91. A concrete conditional Wilson carrier and the source-normalization obstruction
+
+**2026-09-04.** The next step searched the existing score, mean-force,
+Witten-response, and source-renormalization material before extending
+[[rg-covariance-residue/inq|RG covariance residue]] with two focused notes.
+No new top-level module was needed.
+
+[[rg-covariance-residue/conditioned-source-transport|Conditioned source transport]]
+derives the complex-linear derivative of a conditioned source and its
+weighted spatial influence recurrence. The operator acts on hidden score
+one-forms; source locality needs susceptibility control, not merely a local
+mixed derivative. The recurrence exposes an important failed shortcut:
+bounded amplification per step grows toward the fixed terminal scale,
+whereas the shell theorem permits polynomial growth in the opposite
+direction. A nontrivial renormalized-source envelope is still required.
+
+[[rg-covariance-residue/wilson-path-product-fibers|Wilson path-product fibers]]
+constructs a global Haar-preserving chart for edge-disjoint path blocking.
+It proves the finite smooth-density part of AFR4 for this block class,
+derives the retained pivot-plaquette score and its mixed derivatives, and
+computes the inherited coarse mobility as the path length. The remaining
+long-range effective interaction is exactly conditional score covariance.
+Finite density, a local bare score, and a convenient product chart do not
+supply the uniform weighted interaction expansion or the hidden response.
+
+Primary checks used the existing library owners:
+[[library/a-general-two-scale-criteria-for-logarithmic-sobolev-inequalities/inq|Lelièvre (2009)]],
+author text equations (3)--(4) and Lemma 2.3 for mean-force/coarea transport;
+[[library/witten-laplacian-methods-for-the-decay-of-correlations/inq|Lo (2008)]],
+primary abstract for weighted inverse-Witten methods;
+[[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen--Zhu--Zhu (2023)]],
+primary abstract for the distinct strong-coupling endpoint; and
+[[library/confinement-of-quarks/inq|Wilson (1974)]], publisher abstract for
+the gauge-invariant lattice formulation. The path-coordinate calculations
+are derived in the note, not attributed as a new theorem of these papers.
+URLs are preserved in the library records. Retrieval references:
+turn3487view0, turn3487view1, turn3490view0, turn3490view1, turn3491view0.
+
+Two independent audits checked the source theorem and gauge geometry.
+Finite numerical checks passed the complex covariance orientation, moving
+reference term, non-Abelian path inversion, endpoint gauge covariance,
+path-length mobility, local Wilson derivative, and the terminal-amplification
+counterexample. They do not establish conditional mixing or a continuum
+theory. Retrieval stopped once the exact finite claims and source-dependent
+limitations were identified; the next needed evidence is an analytic
+uniform conditional-response estimate, not another analogy or finite check.
+
+## DR92. A thin-skeleton obstruction and the averaged-carrier test
+
+**2026-09-04.** The explicit finite carrier from DR91 was tested rather than
+promoted to an ultraviolet separation. The exact calculation and its
+positive comparator are now owned by
+[[rg-covariance-residue/thin-skeleton-and-block-average-coercivity|Thin skeletons and block-average coercivity]].
+
+An aligned composite straight-path block has a nontrivial identity fiber
+containing a transverse, nonharmonic Maxwell direction. A long-wave sine
+can be modified on the sampled lines so that all retained products remain
+identity while the physical stiffness tends to zero under joint refinement
+and volume growth. This disproves a uniform geometry-only fluctuation
+floor for this composite skeleton. It leaves the finite Haar chart intact,
+and does not disprove adjacent-step estimates, nonlinear conditional
+mixing, or a Yang--Mills quantum gap.
+
+Cell averages supply a positive comparison: their mean-zero scalar
+fluctuations satisfy the exact Neumann block estimate, uniform under
+refinement at fixed physical block width. With an explicit co-closed
+linear gauge slice, the periodic Hodge identity gives the corresponding
+Maxwell statement. Since a massless theory also has this ultraviolet
+separation, the retained infrared estimate remains indispensable.
+
+The source search checked existing averaging, axial-gauge, and carrier
+notes before adding one primary library owner:
+[[library/covariant-axial-gauge/inq|Dimock, Covariant Axial Gauge (2015)]].
+Equations (21)--(29) and (85)--(99), including Proposition 6, were inspected
+in arXiv v3. Its averaged-path construction is an Abelian Gaussian
+precedent, not a non-Abelian continuum theorem. Bałaban's 1985 averaging
+paper and 1987 small-field RG paper were checked only at metadata/abstract
+level; no particular nonlinear averaging formula or global estimate is
+inferred from them. Their records are
+[CMP 98, 17--51](https://doi.org/10.1007/BF01211042) and
+[CMP 109, 249--301](https://doi.org/10.1007/BF01215223).
+
+Two independent read-only checks verified the thin-skeleton proof and the
+averaging precedent. The finite receipt passes direct norm and curl sums,
+zero mean, exact skeleton blindness, the joint-limit formula, and block
+Neumann eigenvalues. These are geometric checks, not Yang--Mills
+simulations. The next obligation is a gauge-compatible averaged carrier
+with controlled conditional response and renormalized sources, followed
+by an independent terminal infrared estimate.
+
+## DR93. An averaged readout and an exact obstruction to unpointed selection
+
+**2026-09-04.** Following the thin-skeleton failure, a bounded algebraic
+construction produced
+[[rg-covariance-residue/regular-gauge-averages-and-the-selection-obstruction|a regular gauge average]].
+It acts on open \(SU(r)\) transports with common endpoints. An arithmetic
+matrix average, unitary polar factor, and anchored determinant lift give
+a smooth endpoint-covariant group output on an explicit nonsingular
+domain. Its coincident-input derivative is the weighted path-incidence
+average. The forward derivative is bounded by the inverse smallest
+singular value; determinant correction is an orthogonal traceless
+projection, with no additional rank factor.
+
+A separate exact obstruction explains why the domain and selection data
+matter. Left multiplication cyclically permutes an equal-weight finite
+subgroup orbit. Permutation symmetry and left equivariance would force
+its group-valued mean to be fixed by a nontrivial left translation,
+which is impossible. For \(SU(r)\), an order-two pair already suffices.
+This requires no continuity hypothesis. It concerns open transports, not
+an unchanged argument for conjugation-only closed holonomies.
+
+The construction neither proves a spatial fluctuation floor nor supplies
+the full conditional law. Taking all paths identical recovers the failed
+thin-path choice. Singular averages and determinant branches are
+selection-map geometry, not physical energies or causal costs.
+
+Workspace discovery checked existing polar, averaging, and torsor notes.
+[[library/computing-the-polar-decomposition-with-applications/inq|Higham (1986)]]
+was verified through the author-deposited metadata and abstract as
+matrix-analysis background, not as the source of the selection theorem.
+The proofs are explicit in the modular note. An independent read-only
+audit verified covariance, the endpoint limitation, determinant lift,
+linearization, and the Sylvester derivative estimate. Finite checks for
+\(SU(2)\), \(SU(3)\), and \(SU(4)\) passed. Research stops here for this
+milestone: the next uncertainty is spatial and conditional response,
+which neither further polar-factor arithmetic nor another symmetry
+analogy can settle.
+
+## DR94. Full-domain gauge carriers and a depth-uniform Gaussian ultraviolet theorem
+
+**2026-09-04.** The regular averaged readout now has two distinct full-domain continuations. [[rg-covariance-residue/regular-gauge-averages-and-the-selection-obstruction|An anchored smooth continuation]] agrees with the regular mean near coincident inputs and returns its anchor far away. A common independent pivot gives an exact global Haar chart. [[rg-covariance-residue/normalized-gauge-kernels-and-markov-residues|A normalized probability-valued kernel]] instead preserves equal-weight path symmetry without choosing a group-valued mean. Its normalizer preserves the fine marginal; the reverse conditional law controls discarded correlations. Nested suffix algebras, not successive single-state algebras, recover the covariance-residue identity on the auxiliary Markov tower.
+
+[[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|The spatial calculation]] proves that an endpoint-transported average and ordinary volume average coincide on linear gauge classes. Coarse curvature energy does not exceed fine curvature energy. Exact Gaussian minimization therefore preserves a lower comparison with coarse Maxwell energy through arbitrary depth, and a two-block axial estimate gives the next fixed-factor fluctuation floor uniformly in volume and completed depth. The numerical receipt checks dimensions two through four and small exact Gaussian quotients.
+
+These are compatible pieces, not yet one nonlinear estimate: the common-pivot architecture must realize the same spatially adequate paths, or the soft kernel needs a comparison with the hard Gaussian constraints. Large-field Wilson response, source tails, and the retained infrared estimate remain open. Maxwell itself satisfies the Gaussian theorem and remains massless.
+
+The existing [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|DeGrand et al. source]] was checked at equations (4)--(7), including its group-integral normalizer. Old-arXiv HTML access failed; parsed primary PDF text supplied the formulas. No PDF was authored or imported. Independent audits checked the three constructions; all seven affected receipt scripts passed.
+
+## DR95. Spectral action needs a relative observable carrier
+
+**2026-09-04.** The revised research objective prioritizes a deeper spectral-action or mass retyping. [[spectral-wall-descent/observable-spectral-action|The canonical spectral-action note]] now distinguishes an abstract internal selector from the ordinary almost-commutative spacetime realization. It records a typed candidate containing the spectral datum, observable embedding, state, closable response map, and normalization, using existing carrier-first and QFT-recovery constructions rather than duplicating them.
+
+[[spectral-wall-descent/finite-spectral-wall|The finite witness]] proves a stronger relative-spectrum result. Every conjugated Dirac operator has the same full spectrum, while its normalized commutator response on one fixed readout has centered floor \(4\sin^2(2\theta)\). The generator is a compression of the double commutator, not its restriction. The floor is relative projection geometry; on the co-moving commutant it vanishes. Neither the bulk spectrum nor the existence of a selected context determines a physical gap.
+
+A separate exact quadratic obstruction follows from the Ward identity and continuity of the gauge Hessian symbol at zero. It excludes a positive transverse \(L^2\) floor in that bare quadratic sector, not a nonperturbative Yang--Mills gap. [[library/spectral-action-beyond-the-weak-field-approximation/inq|Iochum, Levy, and Vassilevich's full-momentum calculation]] supplies an infrared-regular spectral-action example; its formula and conventions were checked in primary HTML. The independent matrix audit and numerical form-factor check passed.
+
+The user's renewed objection to a random Higgs trigger was checked against [[higgs-reduction-as-local-shadow/symmetry-without-a-random-trigger|the existing invariant-state theorem]]. No duplicate note was needed. Equivariant evolution does not select an asymmetric state from invariant data; uncertainty is not a classical jitter trajectory; neither statement shows that electromagnetic uncertainty requires mass. The next substantive target is a derived relative response law whose floor survives on the complete physical carrier, not a numerical fit or a relabeling of a bare Hessian.
+
+## DR96. Soft conditioning has a depth-uniform Gaussian response floor
+
+**2026-09-04.** The preceding turn supplied real mathematical progress but left the soft-versus-hard conditional comparison unresolved. Rechecking the current notes exposed the needed stronger statement: the [[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|two-block patch inequality]] controls **all** linear gauge classes when its observation term is retained. A coarse minimum-norm gauge representative can be lifted and internally axial-fixed without estimating the lift's norm. The resulting coefficient of the physical readout norm is \(L^{-d}\), not one.
+
+[[rg-covariance-residue/soft-gaussian-gauge-blocking|Soft Gaussian blocking]] applies that observation inequality to a normalized chain. Unrolling its exact covariance before estimating shows that readout noise at meshes \(b_i\) contributes a geometric sum of \(b_i^2\). The retained precision therefore dominates the current Maxwell operator by one depth-independent factor. The reverse conditional precision then has an explicit \(b_{k+1}^{-2}\) floor uniform in volume and completed depth.
+
+A two-dimensional counterexample proves why the old hard-fiber floor was insufficient: a block can control its exact kernel while attenuating a soft visible direction arbitrarily strongly. The new observation inequality excludes that failure. The result is still Gaussian ultraviolet control, not spatial response localization or a physical mass gap; the original Maxwell marginal remains massless.
+
+Two independent audits verified the quotient metrics, gauge lifts, patch multiplicity, noise scaling, covariance order and posterior bound. The existing endpoint receipt was extended rather than duplicating its matrix helpers. It checks full observation and soft conditional estimates at three blocking steps in two dimensions and one in three, supplementing the dimension-independent proof and prior four-dimensional tests.
+
+## DR97. A normalized compact-to-Gaussian match separates two Hessians
+
+**2026-09-04.** [[rg-covariance-residue/compact-gauge-kernel-tangent-response|The compact-kernel calculation]] now derives the exact finite-concentration second derivative, including the normalizer. At coincident \(SU(r)\) inputs, the mode Hessian is an averaged mismatch plus a positive scatter term. The forward Fisher metric instead depends only on the averaged velocity. Oppositely moving \(SU(2)\) paths have zero Fisher information at coincidence while the negative-log density has positive curvature at its mode. This is a direct counterexample to identifying every local Hessian with entropy or information response.
+
+In diffusive scaling, the scatter factor cancels between numerator and normalizer. The rescaled Haar density tends to a normalized Gaussian centered at the average velocity. For the specified endpoint-volume paths and harmonic-free gauge carrier, four-dimensional physical normalization gives exactly the soft noise strength used in DR96. The match is fixed-regulator and local in bounded inputs; it is not yet uniform over the nonlinear Wilson law or blocking depth.
+
+The existing [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|DeGrand et al. library source]] was rechecked in parsed primary PDF text at its quadratic mismatch and inverse-kernel recursion, equations (15)--(20), printed pages 10--11. Its saddle calculation is the relevant precedent, not the source of the finite-concentration Fisher distinction. Screenshot calls returned no inspectable image; no visual page audit is claimed. No source payload or PDF was created.
+
+The compact receipt now checks the \(SU(2)\) Haar moment, Ward identity, mode/Fisher discrepancy, and normalized density limit by deterministic quadrature. Both extended receipts passed, as did the independent written-note audits. Further source searches would not settle the remaining analytic gap: uniform nonlinear comparison, spatial influence, and source transport must be proved for the same complete law before the retained infrared stopping condition can yield the Clay gap.
+
+## DR98. A yardstick is also the denominator of the response theorem
+
+**2026-09-04.** The user's quotient-first clarification led to a focused audit of the scale torsor, generalized rate pencil, G-free first law, matter rulers, and affine Hessian geometry. The question was not which constants reproduce a mass, but which normalized relation survives changes of units, tangent coordinates, and physical frames. Those three invariance requirements are distinct. The planning tool remained unavailable; the scope and work stages were stated in conversation.
+
+[[hessian-response-geometry/relative-response-spectrum|The reusable relative-response lemma]] records the exact finite-dimensional answer: \(q/g\) is invariant under simultaneous pullback, while independent normalizations multiply its edge by their ratio. Raw Hessian eigenvalues \(3,8\) can become \(12,2\) under a dimensionless chart change; the properly transported generalized eigenvalues remain \(3,8\). The stationary-point or covariant-Hessian hypothesis is stated explicitly. An integer in topology is not thereby a normalized response eigenvalue.
+
+The audit found and repaired an actual missing hypothesis in [[contemporary-puzzles/yang-mills-mass-gap/scale-torsor-and-the-global-local-gap-invariant|the scale-torsor gap implication]]. Complete range alone does not control the carrier map's norm. The corrected response denominator is \(\|J\xi\|^2\), its image must be a physical energy-form core, and the selected reference energy must have matching scale covariance. A rescaled one-dimensional carrier gives an exact counterexample to the previous implication. Vacuum uniqueness and the form domains in the transfer-edge formulas are now explicit.
+
+[[deriving-g-v2/rulers-are-matter|The existing ruler note]] owns the entropy-area comparison, avoiding a duplicate module. Its description of \(Gm^2/(\hbar c)\) as an inverse entropy-cell count was off by four and is corrected. The spectral extension is \(\Xi_{\mathrm{gap}}=\mathfrak a_{\mathrm E}\sigma_{\mathrm{gap}}^2=4Gm_{\mathrm{gap}}^2/(\hbar c)\) after the optimal physical edge and full Poincare reconstruction are established. A lower bound stays an inequality. This is a cross-sector dimensionless ratio, not an entropy assigned to a particle, a proof of common tangents, or a derived gap.
+
+The evidence gaps are now bounded: primary metrology supports the calibration example; primary gravitational theory supports the scoped area law; direct algebra and an independent audit support the quotient and norm repairs. A shared upstream scale-selection law and complete physical response floor remain open. Searches stopped after these claims were checked; more source retrieval would not supply the missing construction. The extended rate-edge receipt passes the coordinate, normalization, carrier-map, factor-four, and unit-covariance tests. Raw source material was preserved.
+
+## DR99. A local gauge completion supplies first-step spatial response
+
+**2026-09-04.** The previous turn was progress: the relative-response audit repaired a missing carrier-norm condition. The present analytic target was the missing implication from a conditional Gaussian precision floor to actual spatial covariance and source transport. Workspace discovery located the soft Gaussian law, full observation inequality, conditional-source theorem, and auxiliary-localization framework. The planning tool remained unavailable; the bounded work stages were stated in conversation.
+
+[[rg-covariance-residue/local-completion-of-soft-gauge-conditioning|The new Gaussian theorem]] constructs a local full-bond precision using the block-mean-zero scalar projection \(P=I-Q_0^*Q_0\), rather than a nonlocal Coulomb projection. Integrating the auxiliary gauge coordinates returns exactly the projected soft readout law on curvature observables. Harmonics are treated separately. A naive full-divergence penalty can instead increase the physical stiffness; a two-dimensional cochain counterexample displays the error.
+
+The proof now supplies an explicit full-carrier bound, not merely positivity of finite matrices. The scalar block Poincare inequality, exact coarse-gradient lift norm, and full observation inequality give \(\beta b^{-2}I\le\mathcal L\le M b^{-2}I\), uniformly in volume at fixed blocking factor. Finite spatial range then yields an exponentially decaying inverse by a Neumann expansion. Gaussian interpolation extends the conditional covariance estimate to smooth nonlinear curvature observables of the same Gaussian law, and the normalized coarse score gives a localized derivative of their conditional expectation. The observable gradient envelope is explicit rather than suppressed.
+
+Primary-source follow-up checked [[library/covariant-axial-gauge/inq|Dimock's version 3]] directly in [HTML](https://arxiv.org/html/1410.2798v3), Proposition 5, equations (75)--(84), section 3.8, and equations (134)--(140). His modified Feynman projector and hard-constraint subtraction differ from this soft partial-divergence completion. The paper explicitly notes that its accumulated fluctuation covariance is not the inverse of a local operator. The library access metadata was updated without altering source payloads. Two independent audits verified the orbit integration, constants, finite range, Gaussian interpolation, and local-source derivative.
+
+The evidence gap is now narrower: the first-step Maxwell completion is exact, but the actual accumulated prior \(P_k\) is not a fresh Maxwell precision. Its known lower comparison does not provide locality. A multidepth local representation or weighted-kernel estimate is still required, followed by nonlinear full-law control, source normalization, the retained infrared bound, and continuum reconstruction. Gauge-dependent certificate constants are not canonical masses. The underlying Maxwell theory remains gapless.
+
+The existing endpoint receipt was extended rather than duplicating its lattice operators. It checks quotient and completed curvature covariance, mean response, auxiliary-gauge independence, explicit constants, finite-range powers, and a nonlinear curvature-observable derivative at several finite lattices. These tests pass. Source retrieval stopped after the exact comparison and scope were verified; more citations would not prove the missing multidepth or nonlinear estimate.
+
 ## Kill conditions
+
+- A partial-divergence gauge completion is replaced by an arbitrary positive gauge penalty without checking its induced quotient law, or first-step Maxwell locality is extended to the accumulated precision using only a lower form comparison.
+
+- A dimensionless raw Hessian eigenvalue is treated as coordinate invariant, a response edge is normalized against the wrong carrier norm, or an onto carrier map is treated as isometric.
+- A certified spectral lower bound is substituted for the optimal edge in a claimed glueball-mass prediction; or a unit-independent matter/gravity ratio is claimed invariant under physical changes of that hierarchy.
+
+- A symmetric group mean is asserted on unrestricted inputs despite a fixed-point obstruction, or a regular averaging chart silently removes the excluded region from the physical law.
+
+- A thin-skeleton block is assumed to retain all infrared information because its Haar chart is smooth, or a constrained ultraviolet Hessian floor is called a physical Hamiltonian mass gap.
+
+- A per-step source bound is called cutoff uniform even though its product diverges at the fixed terminal scale, or intermediate source renormalization hides the inverse normalization required in physical correlations.
+- A Haar-preserving block chart is used to identify its product coordinate metric with the inherited fine Dirichlet metric, or a smooth finite retained density is treated as a uniform local polymer expansion.
 
 - A transfer gap and the qualitative identity
   \(\ker B^{\rm br}=\mathbb C1\) are said to imply a bridge floor; positive

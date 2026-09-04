@@ -65,6 +65,8 @@ is one component of the Hessian cubic form. Equality of its permutations is an i
 
 [[affine-hessian-structure|The affine Hessian structure]] states the local theorem and the global obstructions. The tensor \(\nabla g\) is the Amari--Chentsov tensor only when the Hessian manifold is supplied by the relevant statistical model; a generic Hessian cubic should not inherit that physical interpretation by name alone.
 
+[[relative-response-spectrum|A response spectrum is relative to a metric]] supplies the numerical gate: eigenvalues of a raw coordinate Hessian are not intrinsic. A generalized response spectrum is coordinate invariant only when response and reference metric are pulled back together, and its relative normalization remains part of the data.
+
 ## When the Hessian is BKM
 
 Suppose one fixed finite algebra in one central sector carries a faithful affine exponential family

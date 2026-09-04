@@ -17,7 +17,6 @@ Lelievre extends two-scale logarithmic-Sobolev transfer to nonlinear coarse vari
 - **Primary record:** [publisher page](https://doi.org/10.1016/j.jfa.2008.09.019).
 - **Publication:** *Journal of Functional Analysis* 256 (7), 2211--2221 (2009).
 - **DOI:** [10.1016/j.jfa.2008.09.019](https://doi.org/10.1016/j.jfa.2008.09.019).
+- **Primary text:** [author-hosted preprint](https://cermics.enpc.fr/cermics-rapports-recherche/2008/CERMICS-2008/CERMICS-382.pdf).
+- **Access:** local mean force, equations (3)--(4), and Lemma 2.3 inspected 2026-09-04.
 - **Local artifacts:** None held in this workspace.
-
-The paragraph above is an editorial synopsis of the article abstract and main theorem.
-

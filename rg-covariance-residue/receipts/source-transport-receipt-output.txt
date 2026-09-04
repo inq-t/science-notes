@@ -1,0 +1,7 @@
+Run: 2026-09-04
+Command: python rg-covariance-residue/receipts/source_transport_receipt.py
+PASS: complex-linear source derivative, moving-reference term, and negative controls.
+PASS: non-Abelian path inversion, endpoint gauge covariance, and length-weighted mobility.
+PASS: exact Wilson pivot-score formula, local support, and beta bound.
+PASS: accumulated source growth diverges at fixed terminal scale.
+Scope: exact finite identities and illustrative bounds, not Yang--Mills mixing or continuum existence.

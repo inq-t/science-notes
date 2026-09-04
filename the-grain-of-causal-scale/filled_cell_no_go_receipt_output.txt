@@ -1,0 +1,6 @@
+causal-grain filled-cell no-go receipt
+cell energy density:     9.562210616017e+31 J m^-3
+critical energy density: 1.165946587797e-09 J m^-3
+density ratio:           8.201242420617e+40
+all checks passed
+

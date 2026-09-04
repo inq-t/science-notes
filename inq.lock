@@ -41,6 +41,9 @@ name = "a-note-on-a-covariant-version-of-verlinde-s-emergent-gravity"
 name = "a-note-on-continuous-entropy"
 
 [[local]]
+name = "a-note-on-insufficiency-and-the-preservation-of-fisher-information"
+
+[[local]]
 name = "a-note-on-spectral-gap-and-weighted-poincare-inequalities-for-some-one-dimensional-diffusions"
 
 [[local]]
@@ -48,6 +51,9 @@ name = "a-note-on-the-exceptional-jordan-algebra"
 
 [[local]]
 name = "a-probabilistic-mechanism-for-quark-confinement"
+
+[[local]]
+name = "a-simple-method-for-finite-range-decomposition"
 
 [[local]]
 name = "a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling"
@@ -178,6 +184,17 @@ name = "asymptotic-properties-of-fields-and-spacetimes"
 
 [[local]]
 name = "asymptotic-symmetries-and-memories-of-gauge-theories-in-flrw-spacetimes"
+
+[[local]]
+name = "auxiliary-response-localization"
+
+[local.links]
+a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling = "local:a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
+tensorizing-maximal-correlations = "local:tensorizing-maximal-correlations"
+witten-laplacian-methods-for-the-decay-of-correlations = "local:witten-laplacian-methods-for-the-decay-of-correlations"
+witten-laplacian-on-a-lattice-spin-system = "local:witten-laplacian-on-a-lattice-spin-system"
 
 [[local]]
 name = "axial-anomalies-and-index-theorems-on-open-spaces"
@@ -426,6 +443,9 @@ name = "center-stabilized-yang-mills-theory-confinement-and-large-n-volume-indep
 name = "christensen-evans-theorem-and-extensions-of-gns-symmetric-quantum-markov-semigroups"
 
 [[local]]
+name = "classical-higgs-fields"
+
+[[local]]
 name = "clifford-modules-atiyah-bott-shapiro"
 
 [[local]]
@@ -484,6 +504,7 @@ causal-wall-spectral-theory = "local:causal-wall-spectral-theory"
 conformal-scale-geometry = "local:conformal-scale-geometry"
 dynamical-locality-and-covariance = "local:dynamical-locality-and-covariance"
 ehlers-newtonian-limit = "local:ehlers-newtonian-limit"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
 hessians = "local:hessians"
 holography-for-cosmology = "local:holography-for-cosmology"
 non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models = "local:non-gaussian-features-of-primordial-fluctuations-in-single-field-inflationary-models"
@@ -526,6 +547,9 @@ name = "complex-structures-on-s6-engel"
 
 [[local]]
 name = "comprehensive-local-hubble-constant-measurement"
+
+[[local]]
+name = "computing-the-polar-decomposition-with-applications"
 
 [[local]]
 name = "conditional-expectations-and-a-theorem-of-takesaki"
@@ -671,6 +695,9 @@ name = "counting-resonances-on-hyperbolic-surfaces-with-unitary-twists"
 name = "covariance-structure-of-the-gibbs-sampler-with-applications-to-the-comparisons-of-estimators-and-augmentation-schemes"
 
 [[local]]
+name = "covariant-axial-gauge"
+
+[[local]]
 name = "covariant-cq-path-integrals"
 
 [[local]]
@@ -778,6 +805,7 @@ planck-2018-cosmological-parameters = "local:planck-2018-cosmological-parameters
 postquantum-gravity = "local:postquantum-gravity"
 program-core = "local:program-core"
 renormalisation-of-postquantum-gravity = "local:renormalisation-of-postquantum-gravity"
+some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy = "local:some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy"
 spectral-wall-descent = "local:spectral-wall-descent"
 sufficient-reason = "local:sufficient-reason"
 thermodynamics-of-spacetime-the-einstein-equation-of-state = "local:thermodynamics-of-spacetime-the-einstein-equation-of-state"
@@ -892,6 +920,20 @@ two-slice-innovation-geometry = "local:two-slice-innovation-geometry"
 vacuum-aligned-transfer-cocycle = "local:vacuum-aligned-transfer-cocycle"
 
 [[local]]
+name = "distinction-grain-spectrum"
+
+[local.links]
+a-note-on-insufficiency-and-the-preservation-of-fisher-information = "local:a-note-on-insufficiency-and-the-preservation-of-fisher-information"
+finding-the-observed-information-matrix-when-using-the-em-algorithm = "local:finding-the-observed-information-matrix-when-using-the-em-algorithm"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+information-geometry-and-sufficient-statistics = "local:information-geometry-and-sufficient-statistics"
+on-maximal-correlation-hypercontractivity-and-the-data-processing-inequality-studied-by-erkip-and-cover = "local:on-maximal-correlation-hypercontractivity-and-the-data-processing-inequality-studied-by-erkip-and-cover"
+reverse-prediction-residue-archive = "local:reverse-prediction-residue-archive"
+strong-data-processing-inequalities-and-phi-sobolev-inequalities-for-discrete-channels = "local:strong-data-processing-inequalities-and-phi-sobolev-inequalities-for-discrete-channels"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
+
+[[local]]
 name = "distinguishing-causal-seeds-from-inflation"
 
 [[local]]
@@ -989,6 +1031,9 @@ name = "ergodic-states-on-type-iii-1-factors-and-ergodic-actions"
 name = "evolution-of-antibaryon-abundances-in-the-early-universe-and-in-heavy-ion-collisions"
 
 [[local]]
+name = "exact-scheme-independence"
+
+[[local]]
 name = "exceptional-lie-groups-yokota"
 
 [[local]]
@@ -1023,6 +1068,9 @@ wall-construction-interface = "local:wall-construction-interface"
 
 [[local]]
 name = "field-equations-and-particle-motion-in-covariant-emergent-gravity"
+
+[[local]]
+name = "finding-the-observed-information-matrix-when-using-the-em-algorithm"
 
 [[local]]
 name = "fine-structure-constant-from-first-principles"
@@ -1120,6 +1168,9 @@ name = "gauge-field-theories-on-a-lattice"
 name = "gauge-fixing-the-transfer-matrix-and-confinement-on-a-lattice"
 
 [[local]]
+name = "gauge-invariant-accounts-of-the-higgs-mechanism"
+
+[[local]]
 name = "gauss-law-and-string-localized-quantum-field-theory"
 
 [[local]]
@@ -1157,6 +1208,39 @@ name = "geons"
 
 [[local]]
 name = "global-anomalies-in-the-standard-model-s-and-beyond"
+
+[[local]]
+name = "global-local-response-reconstruction"
+
+[local.links]
+a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling = "local:a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling"
+auxiliary-response-localization = "local:auxiliary-response-localization"
+block-factorization-of-the-relative-entropy-via-spatial-mixing = "local:block-factorization-of-the-relative-entropy-via-spatial-mixing"
+collared-quasi-factorization-and-surface-response = "local:collared-quasi-factorization-and-surface-response"
+compatible-with-existing-physics = "local:compatible-with-existing-physics"
+distinction-grain-spectrum = "local:distinction-grain-spectrum"
+equation-of-state-in-2-plus-1-flavor-qcd = "local:equation-of-state-in-2-plus-1-flavor-qcd"
+exact-scheme-independence = "local:exact-scheme-independence"
+from-euclidean-field-theory-to-quantum-field-theory = "local:from-euclidean-field-theory-to-quantum-field-theory"
+gauge-field-theories-on-a-lattice = "local:gauge-field-theories-on-a-lattice"
+gaussian-bridge-gap-calibration = "local:gaussian-bridge-gap-calibration"
+geons = "local:geons"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
+knotting-as-dimensional-presentation = "local:knotting-as-dimensional-presentation"
+modular-cocycle-tomography = "local:modular-cocycle-tomography"
+nonlinear-whole-law-surface-response = "local:nonlinear-whole-law-surface-response"
+precision-study-of-the-continuum-su3-yang-mills-theory = "local:precision-study-of-the-continuum-su3-yang-mills-theory"
+properties-and-uses-of-the-wilson-flow-in-lattice-qcd = "local:properties-and-uses-of-the-wilson-flow-in-lattice-qcd"
+quasi-factorization-of-the-entropy-and-logarithmic-sobolev-inequalities-for-gibbs-random-fields = "local:quasi-factorization-of-the-entropy-and-logarithmic-sobolev-inequalities-for-gibbs-random-fields"
+scale-score-connection = "local:scale-score-connection"
+spectral-wall-descent = "local:spectral-wall-descent"
+tensorizing-maximal-correlations = "local:tensorizing-maximal-correlations"
+the-classically-perfect-fixed-point-action-for-su3-gauge-theory = "local:the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
+the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
+trace-and-dilatation-anomalies-in-gauge-theories = "local:trace-and-dilatation-anomalies-in-gauge-theories"
+trace-dirichlet-descent = "local:trace-dirichlet-descent"
+wall-construction-interface = "local:wall-construction-interface"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
 name = "globular-cluster-age"
@@ -1220,10 +1304,12 @@ hessians = "local:hessians"
 measured-response-carriers = "local:measured-response-carriers"
 monotone-metrics-on-matrix-spaces = "local:monotone-metrics-on-matrix-spaces"
 program-core = "local:program-core"
+rg-covariance-residue = "local:rg-covariance-residue"
 spectral-wall-descent = "local:spectral-wall-descent"
 transport-collective-motion-and-brownian-motion = "local:transport-collective-motion-and-brownian-motion"
 uniqueness-of-chentsov-metric-quantum-information-geometry = "local:uniqueness-of-chentsov-metric-quantum-information-geometry"
 vacuum-balance-fisher-geometry = "local:vacuum-balance-fisher-geometry"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
 name = "hessians"
@@ -1254,6 +1340,30 @@ stacks = "local:stacks"
 statistical-mechanical-theory-of-irreversible-processes-i = "local:statistical-mechanical-theory-of-irreversible-processes-i"
 uniqueness-of-chentsov-metric-quantum-information-geometry = "local:uniqueness-of-chentsov-metric-quantum-information-geometry"
 wall-construction-interface = "local:wall-construction-interface"
+
+[[local]]
+name = "higgs-phenomenon-without-a-symmetry-breaking-order-parameter"
+
+[[local]]
+name = "higgs-reduction-as-local-shadow"
+
+[local.links]
+algebra = "local:algebra"
+auxiliary-response-localization = "local:auxiliary-response-localization"
+classical-higgs-fields = "local:classical-higgs-fields"
+gauge-invariant-accounts-of-the-higgs-mechanism = "local:gauge-invariant-accounts-of-the-higgs-mechanism"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+higgs-phenomenon-without-a-symmetry-breaking-order-parameter = "local:higgs-phenomenon-without-a-symmetry-breaking-order-parameter"
+impossibility-of-spontaneously-breaking-local-symmetries = "local:impossibility-of-spontaneously-breaking-local-symmetries"
+observation-of-squeezed-states-in-an-optical-cavity = "local:observation-of-squeezed-states-in-an-optical-cavity"
+program-core = "local:program-core"
+rg-covariance-residue = "local:rg-covariance-residue"
+scale-invariance-in-the-spectral-action = "local:scale-invariance-in-the-spectral-action"
+standard-model-cross-over-on-the-lattice = "local:standard-model-cross-over-on-the-lattice"
+the-spectral-action-principle = "local:the-spectral-action-principle"
+the-uncertainty-principle = "local:the-uncertainty-principle"
+uncertainty-noise-and-disturbance = "local:uncertainty-noise-and-disturbance"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
 name = "hodge-atoms-spectral-triples-bps"
@@ -1329,6 +1439,9 @@ name = "inequalities-for-modified-bessel-functions"
 name = "information-and-sufficiency"
 
 [[local]]
+name = "information-geometry-and-sufficient-statistics"
+
+[[local]]
 name = "inner-product-modules-over-b-star-algebras"
 
 [[local]]
@@ -1366,6 +1479,9 @@ name = "introduction-to-effective-field-theories"
 
 [[local]]
 name = "invariant-connections-over-a-principal-fibre-bundle"
+
+[[local]]
+name = "jordan-algebras-exceptional-groups-and-higher-composition-laws"
 
 [[local]]
 name = "kazhdans-property-t-via-semidefinite-optimization"
@@ -1596,10 +1712,27 @@ name = "non-gaussian-features-of-primordial-fluctuations-in-single-field-inflati
 name = "noncommutative-flow-of-weights"
 
 [[local]]
+name = "nonlinear-whole-law-surface-response"
+
+[local.links]
+collared-quasi-factorization-and-surface-response = "local:collared-quasi-factorization-and-surface-response"
+confinement-of-quarks = "local:confinement-of-quarks"
+gauge-boundary-frame-gluing = "local:gauge-boundary-frame-gluing"
+gauge-cycle-innovation-filtration = "local:gauge-cycle-innovation-filtration"
+markov-edge-measure-solder = "local:markov-edge-measure-solder"
+modular-cocycle-tomography = "local:modular-cocycle-tomography"
+modular-completely-dirichlet-forms-as-squares-of-derivations = "local:modular-completely-dirichlet-forms-as-squares-of-derivations"
+orbit-space-curvature-as-a-source-of-mass-in-quantum-gauge-theory = "local:orbit-space-curvature-as-a-source-of-mass-in-quantum-gauge-theory"
+the-dynamics-of-zero-modes-in-lattice-gauge-theory = "local:the-dynamics-of-zero-modes-in-lattice-gauge-theory"
+
+[[local]]
 name = "notes-on-black-hole-evaporation"
 
 [[local]]
 name = "notes-on-some-entanglement-properties-of-quantum-field-theory"
+
+[[local]]
+name = "observation-of-squeezed-states-in-an-optical-cavity"
 
 [[local]]
 name = "on-an-inequality-for-modified-bessel-functions"
@@ -1746,6 +1879,9 @@ stochastic-modes-in-postquantum-gravity = "local:stochastic-modes-in-postquantum
 sufficient-reason = "local:sufficient-reason"
 
 [[local]]
+name = "precision-study-of-the-continuum-su3-yang-mills-theory"
+
+[[local]]
 name = "primordial-gravitational-waves-precisely"
 
 [[local]]
@@ -1769,6 +1905,7 @@ name = "program-core"
 [local.links]
 a2-ternary-response = "local:a2-ternary-response"
 algebra = "local:algebra"
+auxiliary-response-localization = "local:auxiliary-response-localization"
 binary-information-geometry = "local:binary-information-geometry"
 causal-scale-theory = "local:causal-scale-theory"
 causal-wall-spectral-theory = "local:causal-wall-spectral-theory"
@@ -1777,14 +1914,18 @@ conservation-of-causal-charge = "local:conservation-of-causal-charge"
 cosmodynamics = "local:cosmodynamics"
 deriving-value-of-g = "local:deriving-value-of-g"
 descent = "local:descent"
+distinction-grain-spectrum = "local:distinction-grain-spectrum"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
 groupoids = "local:groupoids"
 hessian-response-geometry = "local:hessian-response-geometry"
 hessians = "local:hessians"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
 indiscernibility-of-identicals = "local:indiscernibility-of-identicals"
 ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
 ncg-standard-model-neutrino-mixing = "local:ncg-standard-model-neutrino-mixing"
 principle-of-least-action = "local:principle-of-least-action"
 quanta-of-geometry = "local:quanta-of-geometry"
+scale-score-connection = "local:scale-score-connection"
 sheafs = "local:sheafs"
 soldering = "local:soldering"
 spectral-wall-descent = "local:spectral-wall-descent"
@@ -1926,6 +2067,23 @@ vacuum-aligned-transfer-cocycle = "local:vacuum-aligned-transfer-cocycle"
 yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
+name = "rg-covariance-residue"
+
+[local.links]
+a-general-two-scale-criteria-for-logarithmic-sobolev-inequalities = "local:a-general-two-scale-criteria-for-logarithmic-sobolev-inequalities"
+a-simple-method-for-finite-range-decomposition = "local:a-simple-method-for-finite-range-decomposition"
+a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling = "local:a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling"
+auxiliary-response-localization = "local:auxiliary-response-localization"
+computing-the-polar-decomposition-with-applications = "local:computing-the-polar-decomposition-with-applications"
+confinement-of-quarks = "local:confinement-of-quarks"
+covariant-axial-gauge = "local:covariant-axial-gauge"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
+scale-score-connection = "local:scale-score-connection"
+the-classically-perfect-fixed-point-action-for-su3-gauge-theory = "local:the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
+torsors = "local:torsors"
+yang-mills-mass-gap = "local:yang-mills-mass-gap"
+
+[[local]]
 name = "scale-as-modular-observable"
 
 [local.links]
@@ -1935,6 +2093,19 @@ conformal-scale-geometry = "local:conformal-scale-geometry"
 program-core = "local:program-core"
 soldering = "local:soldering"
 wall-construction-interface = "local:wall-construction-interface"
+
+[[local]]
+name = "scale-invariance-in-the-spectral-action"
+
+[[local]]
+name = "scale-score-connection"
+
+[local.links]
+a-note-on-insufficiency-and-the-preservation-of-fisher-information = "local:a-note-on-insufficiency-and-the-preservation-of-fisher-information"
+exact-scheme-independence = "local:exact-scheme-independence"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+the-classically-perfect-fixed-point-action-for-su3-gauge-theory = "local:the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
+vacuum-aligned-transfer-cocycle = "local:vacuum-aligned-transfer-cocycle"
 
 [[local]]
 name = "scaling-algebras-and-renormalization-group-in-algebraic-quantum-field-theory"
@@ -2024,6 +2195,9 @@ name = "spatial-volume-dependence-for-2-1-dimensional-su-n-yang-mills-theory"
 name = "spectra-of-the-laplace-beltrami-operator-on-compact-semisimple-lie-groups"
 
 [[local]]
+name = "spectral-action-beyond-the-weak-field-approximation"
+
+[[local]]
 name = "spectral-gap-critical-exponent-for-glauber-dynamics-of-hierarchical-spin-models"
 
 [[local]]
@@ -2046,9 +2220,13 @@ deriving-value-of-g = "local:deriving-value-of-g"
 extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
 functoriality-of-connes-takesaki-flow-of-weights = "local:functoriality-of-connes-takesaki-flow-of-weights"
 generalized-entropy-for-general-subregions-in-quantum-gravity = "local:generalized-entropy-for-general-subregions-in-quantum-gravity"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+hessians = "local:hessians"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
 holographic-cosmology = "local:holographic-cosmology"
 holographic-map-as-conditional-expectation = "local:holographic-map-as-conditional-expectation"
 holography-for-cosmology = "local:holography-for-cosmology"
+lorentzian-spectral-envelope = "local:lorentzian-spectral-envelope"
 minimal-index-and-matrix-dimension-finite-centers = "local:minimal-index-and-matrix-dimension-finite-centers"
 ncg-standard-model-neutrino-mixing = "local:ncg-standard-model-neutrino-mixing"
 operator-algebra-quantum-error-correction = "local:operator-algebra-quantum-error-correction"
@@ -2060,8 +2238,10 @@ pseudo-supersymmetry-and-the-domain-wall-cosmology-correspondence = "local:pseud
 quanta-of-geometry = "local:quanta-of-geometry"
 relative-entropy-and-subalgebra-index = "local:relative-entropy-and-subalgebra-index"
 relative-entropy-equals-bulk-relative-entropy = "local:relative-entropy-equals-bulk-relative-entropy"
+rg-covariance-residue = "local:rg-covariance-residue"
 semiorthogonal-decompositions = "local:semiorthogonal-decompositions"
 soldering = "local:soldering"
+spectral-action-beyond-the-weak-field-approximation = "local:spectral-action-beyond-the-weak-field-approximation"
 subregion-algebras-in-classical-and-quantum-gravity = "local:subregion-algebras-in-classical-and-quantum-gravity"
 twisted-spectral-triple-standard-model = "local:twisted-spectral-triple-standard-model"
 wall-construction-interface = "local:wall-construction-interface"
@@ -2088,6 +2268,9 @@ torsors = "local:torsors"
 
 [[local]]
 name = "standard-model-algebra"
+
+[[local]]
+name = "standard-model-cross-over-on-the-lattice"
 
 [[local]]
 name = "standard-model-from-exceptional-jordan-algebra"
@@ -2199,6 +2382,9 @@ name = "tensor-categories-and-endomorphisms-of-von-neumann-algebras"
 name = "tensor-product-systems-of-hilbert-modules-and-dilations-of-completely-positive-semigroups"
 
 [[local]]
+name = "tensorizing-maximal-correlations"
+
+[[local]]
 name = "testing-emergent-gravity-on-galaxy-cluster-scales"
 
 [[local]]
@@ -2229,10 +2415,16 @@ name = "the-atacama-cosmology-telescope-dr6-constraints-on-extended-cosmological
 name = "the-class-of-continuous-timelike-curves-determines-the-topology-of-spacetime"
 
 [[local]]
+name = "the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
+
+[[local]]
 name = "the-differential-structure-of-generators-of-gns-symmetric-quantum-markov-semigroups"
 
 [[local]]
 name = "the-dirichlet-to-neumann-operator-on-rough-domains"
+
+[[local]]
+name = "the-dynamics-of-zero-modes-in-lattice-gauge-theory"
 
 [[local]]
 name = "the-equivalence-of-the-logarithmic-sobolev-inequality-and-the-dobrushin-shlosman-mixing-condition"
@@ -2267,9 +2459,11 @@ cosmodynamics = "local:cosmodynamics"
 crossing-evaluated-flat-modulus = "local:crossing-evaluated-flat-modulus"
 deriving-g-v2 = "local:deriving-g-v2"
 deriving-value-of-g = "local:deriving-value-of-g"
+distinction-grain-spectrum = "local:distinction-grain-spectrum"
 extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
 flux-record-and-top-form-realizations = "local:flux-record-and-top-form-realizations"
 formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
 hyperbolic-counting = "local:hyperbolic-counting"
 lorentzian-spectral-envelope = "local:lorentzian-spectral-envelope"
 minimal-cosmodynamic-closure = "local:minimal-cosmodynamic-closure"
@@ -2321,6 +2515,9 @@ name = "the-tenfold-way"
 
 [[local]]
 name = "the-uncertainty-principle"
+
+[[local]]
+name = "the-unsolvable-problem"
 
 [[local]]
 name = "thermodynamical-aspects-of-gravity-new-insights"
@@ -2421,6 +2618,12 @@ yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
 [[local]]
 name = "type-iii-and-spectral-triples"
+
+[[local]]
+name = "uncertainty-noise-and-disturbance"
+
+[[local]]
+name = "undecidability-of-the-spectral-gap"
 
 [[local]]
 name = "une-classification-des-facteurs-de-type-iii"
@@ -2527,6 +2730,12 @@ yang-mills-mass-gap = "local:yang-mills-mass-gap"
 name = "why-the-standard-model"
 
 [[local]]
+name = "witten-laplacian-methods-for-the-decay-of-correlations"
+
+[[local]]
+name = "witten-laplacian-on-a-lattice-spin-system"
+
+[[local]]
 name = "wmap-seven-year-power-spectra"
 
 [[local]]
@@ -2555,6 +2764,7 @@ approximate-recoverability-and-relative-entropy-ii = "local:approximate-recovera
 approximate-tensorization-of-entropy-at-high-temperature = "local:approximate-tensorization-of-entropy-at-high-temperature"
 approximate-tensorization-of-the-relative-entropy-for-noncommuting-conditional-expectations = "local:approximate-tensorization-of-the-relative-entropy-for-noncommuting-conditional-expectations"
 asymptotic-symmetries-and-memories-of-gauge-theories-in-flrw-spacetimes = "local:asymptotic-symmetries-and-memories-of-gauge-theories-in-flrw-spacetimes"
+auxiliary-response-localization = "local:auxiliary-response-localization"
 axial-anomalies-and-index-theorems-on-open-spaces = "local:axial-anomalies-and-index-theorems-on-open-spaces"
 baryonic-features-in-the-matter-transfer-function = "local:baryonic-features-in-the-matter-transfer-function"
 binary-information-geometry = "local:binary-information-geometry"
@@ -2574,6 +2784,7 @@ collared-quasi-factorization-and-surface-response = "local:collared-quasi-factor
 compact-hypergroups-from-discrete-subfactors = "local:compact-hypergroups-from-discrete-subfactors"
 compatible-with-existing-physics = "local:compatible-with-existing-physics"
 complex-presentation-without-polarization = "local:complex-presentation-without-polarization"
+computing-the-polar-decomposition-with-applications = "local:computing-the-polar-decomposition-with-applications"
 conditional-expectations-and-a-theorem-of-takesaki = "local:conditional-expectations-and-a-theorem-of-takesaki"
 conditional-expectations-in-von-neumann-algebras = "local:conditional-expectations-in-von-neumann-algebras"
 confinement-of-quarks = "local:confinement-of-quarks"
@@ -2589,6 +2800,7 @@ cosmological-event-horizons-thermodynamics-and-particle-creation = "local:cosmol
 cosmological-strangeness-abundance = "local:cosmological-strangeness-abundance"
 counting-resonances-on-hyperbolic-surfaces-with-unitary-twists = "local:counting-resonances-on-hyperbolic-surfaces-with-unitary-twists"
 covariance-structure-of-the-gibbs-sampler-with-applications-to-the-comparisons-of-estimators-and-augmentation-schemes = "local:covariance-structure-of-the-gibbs-sampler-with-applications-to-the-comparisons-of-estimators-and-augmentation-schemes"
+covariant-axial-gauge = "local:covariant-axial-gauge"
 crossing-evaluated-flat-modulus = "local:crossing-evaluated-flat-modulus"
 dark-energy-and-acceleration = "local:dark-energy-and-acceleration"
 decomposition-of-entanglement-entropy-in-lattice-gauge-theory = "local:decomposition-of-entanglement-entropy-in-lattice-gauge-theory"
@@ -2603,6 +2815,7 @@ desi-dr2-results-iv = "local:desi-dr2-results-iv"
 differentiable-stacks-and-gerbes = "local:differentiable-stacks-and-gerbes"
 dirac-operators-and-domain-walls = "local:dirac-operators-and-domain-walls"
 directed-isometric-residue-completion = "local:directed-isometric-residue-completion"
+distinction-grain-spectrum = "local:distinction-grain-spectrum"
 distinguishing-causal-seeds-from-inflation = "local:distinguishing-causal-seeds-from-inflation"
 dobrushin-uniqueness-theorem-and-logarithmic-sobolev-inequalities = "local:dobrushin-uniqueness-theorem-and-logarithmic-sobolev-inequalities"
 dualizability-and-index-of-subfactors = "local:dualizability-and-index-of-subfactors"
@@ -2628,6 +2841,7 @@ general-representation-theory-of-jordan-algebras = "local:general-representation
 generalized-global-symmetries = "local:generalized-global-symmetries"
 generalizing-dirichlet-to-neumann-operators = "local:generalizing-dirichlet-to-neumann-operators"
 geons = "local:geons"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
 graded-brauer-groups-wall = "local:graded-brauer-groups-wall"
 gradient-flow-and-entropy-inequalities-for-quantum-markov-semigroups-with-detailed-balance = "local:gradient-flow-and-entropy-inequalities-for-quantum-markov-semigroups-with-detailed-balance"
 group-theory-for-unified-model-building = "local:group-theory-for-unified-model-building"
@@ -2635,12 +2849,14 @@ groupoids = "local:groupoids"
 hamiltonian-formulation-of-wilsons-lattice-gauge-theories = "local:hamiltonian-formulation-of-wilsons-lattice-gauge-theories"
 hessian-response-geometry = "local:hessian-response-geometry"
 hessians = "local:hessians"
+higgs-reduction-as-local-shadow = "local:higgs-reduction-as-local-shadow"
 impossibility-of-spontaneously-breaking-local-symmetries = "local:impossibility-of-spontaneously-breaking-local-symmetries"
 inequalities-for-modified-bessel-functions = "local:inequalities-for-modified-bessel-functions"
 inner-product-modules-over-b-star-algebras = "local:inner-product-modules-over-b-star-algebras"
 instantons-on-the-six-sphere-and-twistors = "local:instantons-on-the-six-sphere-and-twistors"
 intersections-of-finite-families-of-finite-index-subfactors = "local:intersections-of-finite-families-of-finite-index-subfactors"
 invariant-connections-over-a-principal-fibre-bundle = "local:invariant-connections-over-a-principal-fibre-bundle"
+jordan-algebras-exceptional-groups-and-higher-composition-laws = "local:jordan-algebras-exceptional-groups-and-higher-composition-laws"
 kazhdans-property-t-via-semidefinite-optimization = "local:kazhdans-property-t-via-semidefinite-optimization"
 knotting-as-dimensional-presentation = "local:knotting-as-dimensional-presentation"
 ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
@@ -2660,6 +2876,7 @@ modular-theory-and-the-reconstruction-of-four-dimensional-quantum-field-theories
 monotone-riemannian-metrics-and-relative-entropy = "local:monotone-riemannian-metrics-and-relative-entropy"
 noether-conservation = "local:noether-conservation"
 noncommutative-flow-of-weights = "local:noncommutative-flow-of-weights"
+nonlinear-whole-law-surface-response = "local:nonlinear-whole-law-surface-response"
 notes-on-black-hole-evaporation = "local:notes-on-black-hole-evaporation"
 on-an-inequality-for-modified-bessel-functions = "local:on-an-inequality-for-modified-bessel-functions"
 on-majorization-factorization-and-range-inclusion-of-operators-on-hilbert-space = "local:on-majorization-factorization-and-range-inclusion-of-operators-on-hilbert-space"
@@ -2707,6 +2924,7 @@ remarks-on-entanglement-entropy-for-gauge-fields = "local:remarks-on-entanglemen
 remarks-on-unitary-equivalence-of-lorentz-invariant-fields = "local:remarks-on-unitary-equivalence-of-lorentz-invariant-fields"
 representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories = "local:representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories"
 reverse-prediction-residue-archive = "local:reverse-prediction-residue-archive"
+rg-covariance-residue = "local:rg-covariance-residue"
 scaling-algebras-and-renormalization-group-in-algebraic-quantum-field-theory = "local:scaling-algebras-and-renormalization-group-in-algebraic-quantum-field-theory"
 scaling-algebras-and-renormalization-group-in-algebraic-quantum-field-theory-ii-instructive-examples = "local:scaling-algebras-and-renormalization-group-in-algebraic-quantum-field-theory-ii-instructive-examples"
 short-distance-analysis-for-algebraic-euclidean-field-theory = "local:short-distance-analysis-for-algebraic-euclidean-field-theory"
@@ -2715,9 +2933,11 @@ shorting-parallel-addition-and-form-sums-of-nonnegative-selfadjoint-linear-relat
 shorts-of-operators-and-some-extremal-problems = "local:shorts-of-operators-and-some-extremal-problems"
 solitons-with-fermion-number-one-half = "local:solitons-with-fermion-number-one-half"
 some-properties-of-modular-conjugation-and-a-noncommutative-radon-nikodym-theorem-with-a-chain-rule = "local:some-properties-of-modular-conjugation-and-a-noncommutative-radon-nikodym-theorem-with-a-chain-rule"
+some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy = "local:some-properties-of-noether-charge-and-a-proposal-for-dynamical-black-hole-entropy"
 some-remarks-on-the-gribov-ambiguity = "local:some-remarks-on-the-gribov-ambiguity"
 spatial-volume-dependence-for-2-1-dimensional-su-n-yang-mills-theory = "local:spatial-volume-dependence-for-2-1-dimensional-su-n-yang-mills-theory"
 spectra-of-the-laplace-beltrami-operator-on-compact-semisimple-lie-groups = "local:spectra-of-the-laplace-beltrami-operator-on-compact-semisimple-lie-groups"
+spectral-action-beyond-the-weak-field-approximation = "local:spectral-action-beyond-the-weak-field-approximation"
 spectral-gap-critical-exponent-for-glauber-dynamics-of-hierarchical-spin-models = "local:spectral-gap-critical-exponent-for-glauber-dynamics-of-hierarchical-spin-models"
 spectral-shorted-operators = "local:spectral-shorted-operators"
 spectral-wall-descent = "local:spectral-wall-descent"
@@ -2739,9 +2959,11 @@ supersymmetry-and-quantum-mechanics = "local:supersymmetry-and-quantum-mechanics
 symmetry-groups-select = "local:symmetry-groups-select"
 tensor-categories-and-endomorphisms-of-von-neumann-algebras = "local:tensor-categories-and-endomorphisms-of-von-neumann-algebras"
 tensor-product-systems-of-hilbert-modules-and-dilations-of-completely-positive-semigroups = "local:tensor-product-systems-of-hilbert-modules-and-dilations-of-completely-positive-semigroups"
+tensorizing-maximal-correlations = "local:tensorizing-maximal-correlations"
 the-action-of-su-n-lattice-gauge-theory-in-terms-of-the-heat-kernel-on-the-group-manifold = "local:the-action-of-su-n-lattice-gauge-theory-in-terms-of-the-heat-kernel-on-the-group-manifold"
 the-anisotropic-wilson-gauge-action = "local:the-anisotropic-wilson-gauge-action"
 the-class-of-continuous-timelike-curves-determines-the-topology-of-spacetime = "local:the-class-of-continuous-timelike-curves-determines-the-topology-of-spacetime"
+the-classically-perfect-fixed-point-action-for-su3-gauge-theory = "local:the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
 the-differential-structure-of-generators-of-gns-symmetric-quantum-markov-semigroups = "local:the-differential-structure-of-generators-of-gns-symmetric-quantum-markov-semigroups"
 the-dirichlet-to-neumann-operator-on-rough-domains = "local:the-dirichlet-to-neumann-operator-on-rough-domains"
 the-equivalence-of-the-logarithmic-sobolev-inequality-and-the-dobrushin-shlosman-mixing-condition = "local:the-equivalence-of-the-logarithmic-sobolev-inequality-and-the-dobrushin-shlosman-mixing-condition"
@@ -2759,6 +2981,7 @@ the-spectral-action-principle = "local:the-spectral-action-principle"
 the-spectrum-of-2-1-dimensional-yang-mills-theory-on-a-twisted-spatial-torus = "local:the-spectrum-of-2-1-dimensional-yang-mills-theory-on-a-twisted-spatial-torus"
 the-standard-form-of-von-neumann-algebras = "local:the-standard-form-of-von-neumann-algebras"
 the-uncertainty-principle = "local:the-uncertainty-principle"
+the-unsolvable-problem = "local:the-unsolvable-problem"
 thermodynamical-aspects-of-gravity-new-insights = "local:thermodynamical-aspects-of-gravity-new-insights"
 thermodynamics-of-spacetime-the-einstein-equation-of-state = "local:thermodynamics-of-spacetime-the-einstein-equation-of-state"
 three-block-bridge-factorization = "local:three-block-bridge-factorization"
@@ -2770,6 +2993,7 @@ transport-collective-motion-and-brownian-motion = "local:transport-collective-mo
 transported-response-observability-solder = "local:transported-response-observability-solder"
 two-slice-innovation-geometry = "local:two-slice-innovation-geometry"
 type-iii-and-spectral-triples = "local:type-iii-and-spectral-triples"
+undecidability-of-the-spectral-gap = "local:undecidability-of-the-spectral-gap"
 une-classification-des-facteurs-de-type-iii = "local:une-classification-des-facteurs-de-type-iii"
 universal-upper-bound-on-the-entropy-to-energy-ratio-for-bounded-systems = "local:universal-upper-bound-on-the-entropy-to-energy-ratio-for-bounded-systems"
 unstable-hadrons-in-hot-hadron-gas = "local:unstable-hadrons-in-hot-hadron-gas"
@@ -2778,3 +3002,4 @@ vacuum-aligned-transfer-cocycle = "local:vacuum-aligned-transfer-cocycle"
 vacuum-balance-fisher-geometry = "local:vacuum-balance-fisher-geometry"
 von-neumann-algebra-automorphisms-and-the-time-thermodynamics-relation = "local:von-neumann-algebra-automorphisms-and-the-time-thermodynamics-relation"
 wall-construction-interface = "local:wall-construction-interface"
+witten-laplacian-methods-for-the-decay-of-correlations = "local:witten-laplacian-methods-for-the-decay-of-correlations"

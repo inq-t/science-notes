@@ -167,7 +167,7 @@ $$
 
 **P4b — Einstein scale-channel equivalence.**
 
-Throughout a declared Einstein universality class, after the canonical scale tangent, common carrier, absolute-continuity relation, and horizon/canonical-energy bridge have been constructed in one compatible scheme,
+Throughout a declared Einstein universality class, after an RG/scale connection and naturality theorem have selected and normalized the scale tangent, and after the common carrier, absolute-continuity relation, and horizon/canonical-energy bridge have been constructed in one compatible scheme,
 
 $$
 \boxed{

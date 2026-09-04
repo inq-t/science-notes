@@ -35,6 +35,9 @@ The core vocabulary assigns different mathematical types to ground, presentation
 | Action | functional on histories or fields | variational object whose stationary points give equations of motion |
 | Entropy | state-, algebra-, and prescription-dependent functional | thermodynamic or informational accounting, with units through \(k_B\) |
 | Energy | generator or charge relative to a chosen flow | not a substance independent of the flow that types it |
+| Spectral gap | lower spectral edge of a named positive generator after its fixed space is removed | depends on the generator, carrier, state/representation, and normalization; it is not yet invariant mass |
+| Invariant mass | nonnegative joint-functional-calculus square root of the translation Casimir in a positive-energy Poincare representation | a representation-theoretic label or spectral observable, not a generic coefficient called “mass” in a local action |
+| Higgs field | Lorentz-scalar section of a supplied associated internal bundle | its orbit direction can present a structure-group reduction while its invariant radial mode is separate; both already presuppose a local field carrier |
 
 The specialist account of time, state, and fact is [[cosmodynamics/registers-and-type-discipline|the cosmodynamic register discipline]]. The present table owns the programme's nouns and types; [[program-core/operation-registers|operations between registers]] own its arrows, while [[program-core/response-registers|response registers]] own the distinctions among quadratic response, covariance, precision, and their carrier changes.
 
@@ -78,6 +81,9 @@ N&\ne\tau\ne s\ne\ln\mu,\\
 \text{capacity}&\ne\text{charge},\\
 \text{Casimir}&\ne\text{Noether conservation},\\
 \text{entropy}&\ne\text{fact count},\\
+\text{Lorentz scalar}&\ne\text{scalar number}\ne\text{origin of metric scale},\\
+\text{Higgs reduction}&\ne\text{pure Yang--Mills gap},\\
+\text{clock-energy gap}&\ne\text{Poincare mass gap without Casimir reconstruction},\\
 \text{relative-distinguishability deficit}&\ne\text{conserved charge}\ne\text{gravity},\\
 \text{orbit set}&\ne\text{groupoid}\ne\text{stack},\\
 \text{groupoid arrow}&\ne\text{causal precedence},\\
@@ -141,12 +147,17 @@ A quantity is not fully typed by its dimensions. Its carrier, tangent, integrati
 | \(\mathfrak r_{\Sigma,N}(p)\) | \(1\) | local state--gravity matching field at \(p\in\Sigma_N\), with state, tangent, area, and prescription held explicit |
 | \(\mathfrak R_\Sigma(N)\) | \(1\) | integrated cut ratio; the gravitational-entropy-measure-weighted average of \(\mathfrak r_{\Sigma,N}(p)\) when the Radon--Nikodym hypotheses hold |
 | \(\mathfrak R_c\) | \(1\) | integrated evaluation on the distinguished cut \(\Sigma_c\) at \(N_c\); not a local field or a pathwise constant |
-| \(\chi_N(p)\) | \(L^{-2}\) | contraction of the areal descent modulus on the canonically normalized dimensionless scale tangent at \(p\in\Sigma_N\) |
+| \(\chi_N(p)\) | \(L^{-2}\) | contraction of the areal descent modulus on the dimensionless connection-relative scale tangent at \(p\in\Sigma_N\), after its normalization and transport class have been declared |
 | \(\eta_{\mathrm{grav}}(p)\), \(\eta_{\mathrm E}\) | \(L^{-2}\) | gravitational entropy--area modulus on a declared cut and in a declared gravitational theory; \(\eta_{\mathrm E}=c^3/(4\hbar G)\) in Einstein gravity |
 | \(\mathfrak a_N=\chi_N^{-1}\), \(\mathfrak a_{\mathrm E}=\eta_{\mathrm E}^{-1}\) | \(L^2\) | scalar compliance on a nondegenerate scale direction; the inverse of a full bilinear form instead lives on the dual tangent space |
 | \(\mathcal K_\zeta(k)\) | \(L^{-3}\) in the current three-dimensional Fourier normalization | momentum-space precision kernel for the dimensionless field \(\zeta\); a three-dimensional spectral density, not an areal modulus |
 | \(\rho_\theta\) | \(1\) as a trace-one operator | density operator on the reduced state algebra; not an energy density |
 | \(\rho_X(N)\), \(\rho_{\mathrm{crit}}(N)\) | energy per volume | homogeneous spacetime energy densities along a cosmological history; not quantum density operators |
+| \(R(\ell)=-\log\|e^{-\ell H/(\hbar c)}(I-P_0)\|\) | \(1\) | dimensionless transfer-attenuation depth on a declared vacuum-reduced Hilbert carrier |
+| \(\sigma=\mathrm dR/\mathrm d\ell\) | \(L^{-1}\) | inverse-length attenuation rate; \(\hbar c\sigma\) is a clock-energy edge after OS reconstruction |
+| \(\Delta_E\) | energy | lower edge of a named Hamiltonian above its fixed space; it becomes an invariant-mass threshold only after positive-energy Poincare and joint-spectrum hypotheses |
+| \(M:=c^{-1}(P_\mu P^\mu)^{1/2}=c^{-2}(H^2-c^2|\mathbf P|^2)^{1/2}\) | mass | invariant-mass operator defined by joint functional calculus when \(P^\mu=(H/c,\mathbf P)\), the signature is \((+---)\), and the joint spectrum lies in the forward cone |
+| \(m_H,y_fv/\sqrt2,\ldots\) | mass | renormalized local-QFT parameters or pole/spectral quantities whose precise scheme and observable definition must be declared; equal units do not identify their concepts |
 
 Fourier coefficients such as \(\zeta_{\mathbf k}\) acquire convention-dependent dimensions. The entry for \(\mathcal K_\zeta\) assumes the convention in which
 

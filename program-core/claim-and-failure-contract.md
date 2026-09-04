@@ -15,6 +15,8 @@ An equality between two physical response quantities is meaningful only after an
 
 A phrase such as “both capacities are defined on the same horizon” does not settle the other five tests.
 
+Dimensional agreement is only a necessary syntactic check. It is not a seventh sameness test and cannot replace the first six: an inverse time may be a decay rate, boost rate, modular parameter rate, sampling-clock rate, or phase rate. Constants such as \(c\), \(\hbar\), and \(k_B\) can convert their quantity lines while leaving their carriers and concepts inequivalent. Every proposed equality must therefore type the map that performs the conversion, not infer identity from matching units.
+
 ## The principal anti-circularity rule
 
 The noncircular construction order is
@@ -44,7 +46,7 @@ The proposed derivation of \(G\) is circular if the state-side normalization use
 
 Such calculations can remain valuable consistency checks or cross-calibrations. They must not be labeled first-principles derivations.
 
-## Four recurrent scope separations
+## Six recurrent scope separations
 
 ### Normalized versus extensive
 
@@ -82,6 +84,24 @@ A relative-entropy Hessian controls neighboring states at coincidence. It does n
 
 Local GR and QFT can be imported as tested fibers while the programme studies global comparison and facthood. Imported local physics is neither a failure nor an emergence theorem. A recovery burden applies only to sectors the programme claims to reconstruct.
 
+### Hamiltonian edge versus invariant-mass edge
+
+The Clay statement calls for a gap in the physical Hamiltonian above its zero-energy space. Its invariant-mass interpretation is available only in a positive-energy Poincare-covariant representation whose strongly commuting translation generators obey the forward-cone spectrum condition. With signature \((+---)\) and \(P^\mu=(H/c,\mathbf P)\),
+
+$$
+M
+=
+\frac{1}{c}(P_\mu P^\mu)^{1/2}
+=
+\frac{1}{c^2}(H^2-c^2|\mathbf P|^2)^{1/2}.
+$$
+
+Under those hypotheses, Lorentz invariance of the joint spectrum identifies the optimal nonvacuum Hamiltonian edge with \(c^2\) times the optimal invariant-mass edge. A gap of an auxiliary Markov or Witten generator, or a finite-volume regulator Hamiltonian, is not thereby a Poincare mass gap; it still requires the declared comparison, continuum passage, and reconstruction.
+
+### Higgs orbit direction versus radial mode
+
+For a regular nonzero field whose normalized values lie in one fixed orbit \(G/H\), a section of \(P\times_G(G/H)\) is equivalent, under the standard bundle hypotheses, to a global reduction of an already supplied principal \(G\)-bundle to \(H\). A local trivialization supplies only a coordinate representative of that global datum. The invariant radius \(r=\lVert\Phi\rVert\) is separate field data, and the reduction correspondence by itself constructs neither its potential and dynamics, the spacetime base, nor a pure Yang--Mills gap.
+
 ## Four meanings of variation
 
 A universal rule can return different values without being a running coupling. Keep separate:
@@ -111,7 +131,7 @@ The common constitutive trunk is sequential:
 |---|---|---|---|
 | C0 | declared causal-scale presentations and current observable stage \(\mathcal O_i\) | metaphysical vocabulary to a typed kinematic question | the proposed quotient is undefined |
 | C1 | groupoid or comparable physical quotient | redundancy claim to a mathematical object | declared indiscernibility was incomplete or incoherent |
-| C2 | cross-fiber transport and canonical \(v_N\) | scale/state analogy to a physical tangent | no invariant horizontal comparison |
+| C2 | cross-fiber transport plus a naturality-selected and normalized \(v_N\) | scale/state analogy to a physical tangent | no invariant horizontal comparison |
 | C3 | finite positive BKM form | tangent to response geometry | selected state family or renormalization fails |
 | C4 | local additive measure and independent area | cut norm to areal modulus | response may be nonlocal, nonadditive, or lack an area density |
 
@@ -165,6 +185,8 @@ The following are settled boundaries unless their premises are changed:
 - normalized four-dimensional heat-kernel entropy cancels the term linear in \(a_2\) containing the Einstein--Hilbert action;
 - a finite-index conditional expectation cannot model a final type-III-to-commutative observational step;
 - a local BKM Hessian supplies no all-history source;
+- a Higgs orbit-direction reduction supplies neither the invariant radial mode nor a pure Yang--Mills gap;
+- a positive auxiliary or finite-regulator generator edge supplies no Poincare mass gap without a physical comparison, continuum passage, and Poincare reconstruction;
 - central blindness of a local response supplies no global vacuum solution; and
 - a background receipt verifies arithmetic, not the physical closure stack.
 

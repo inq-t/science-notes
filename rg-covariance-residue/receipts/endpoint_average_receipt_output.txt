@@ -1,0 +1,15 @@
+PASS: endpoint/volume identity, gauge covariance, curvature contraction, composition in d=2,3,4.
+PASS: two-block axial floor d=2, n=2: c=0.120709963
+PASS: two-block axial floor d=2, n=3: c=0.0344422552
+PASS: two-block axial floor d=3, n=2: c=0.0597139622
+PASS: two-block axial floor d=4, n=2: c=0.0298402382
+PASS: exact Gaussian quotient pushforward dominates coarse Maxwell form in d=2.
+PASS: exact Gaussian quotient pushforward dominates coarse Maxwell form in d=3.
+PASS: physical quotient observation, soft covariance, and reverse floors in d=2, depth=3.
+PASS: physical quotient observation, soft covariance, and reverse floors in d=3, depth=1.
+PASS: hard-kernel coercivity alone fails the soft-observation test.
+PASS: local completion, quotient curl law, source response, and explicit bounds in d=2, n=2.
+PASS: local completion, quotient curl law, source response, and explicit bounds in d=2, n=3.
+PASS: local completion, quotient curl law, source response, and explicit bounds in d=3, n=2.
+PASS: finite-range inverse expansion and naive gauge-completion counterexample.
+Not tested: accumulated-step localization, nonlinear Wilson law, infrared gap, or continuum existence.

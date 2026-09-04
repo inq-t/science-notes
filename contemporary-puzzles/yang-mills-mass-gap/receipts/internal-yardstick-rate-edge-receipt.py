@@ -1,5 +1,7 @@
 from math import exp, isclose, log, pi
 
+import numpy as np
+
 
 def close(left, right, tolerance=2e-13):
     return isclose(left, right, rel_tol=tolerance, abs_tol=tolerance)
@@ -58,6 +60,75 @@ assert close(proper_duration, age_shape / hubble_birth)
 assert close(log(hubble_birth / hubble_cut), integrated_depth)
 
 
+def relative_spectrum(response, metric):
+    """Eigenvalues of a finite response relative to a positive metric."""
+    factor = np.linalg.cholesky(metric)
+    reduced = np.linalg.solve(factor, response) @ np.linalg.inv(factor.T)
+    assert np.allclose(reduced, reduced.T)
+    return np.linalg.eigvalsh(reduced)
+
+
+# Dimensionless coordinate changes alter the raw Hessian spectrum.
+response = np.diag([3.0, 8.0])
+metric = np.eye(2)
+chart = np.diag([2.0, 0.5])
+pulled_response = chart.T @ response @ chart
+pulled_metric = chart.T @ metric @ chart
+assert np.allclose(np.linalg.eigvalsh(pulled_response), [2.0, 12.0])
+assert np.allclose(relative_spectrum(pulled_response, pulled_metric), [3.0, 8.0])
+
+rng = np.random.default_rng(731)
+for _ in range(12):
+    chart = np.eye(2) + 0.15 * rng.normal(size=(2, 2))
+    assert abs(np.linalg.det(chart)) > 0.1
+    assert np.allclose(
+        relative_spectrum(chart.T @ response @ chart, chart.T @ metric @ chart),
+        [3.0, 8.0],
+    )
+assert np.allclose(relative_spectrum(7 * response, 2 * metric), [10.5, 28.0])
+
+
+# Coverage without norm control does not transfer an upstream unit floor.
+epsilon = 0.013
+physical_energy = np.diag([epsilon, 4.0])
+carrier_map = np.diag([epsilon ** -0.5, 0.5])
+upstream_response = np.eye(2)
+physical_pullback = carrier_map.T @ carrier_map
+assert np.allclose(carrier_map.T @ physical_energy @ carrier_map, upstream_response)
+assert min(np.linalg.eigvalsh(physical_energy)) < min(np.linalg.eigvalsh(upstream_response))
+assert np.allclose(
+    relative_spectrum(upstream_response, physical_pullback),
+    np.linalg.eigvalsh(physical_energy),
+)
+
+
+# Einstein area compliance and reduced-Compton reference area: pure identities.
+for hbar, c, gravity, mass in ((1.7, 2.3, 0.41, 0.19), (0.73, 5.1, 1.4, 2.2)):
+    area_compliance = 4 * hbar * gravity / c ** 3
+    spectral_edge = mass * c / hbar
+    compton_ledger = 1 / (spectral_edge ** 2 * area_compliance)
+    gravity_ratio = gravity * mass ** 2 / (hbar * c)
+    xi = area_compliance * spectral_edge ** 2
+    assert close(xi, 4 * gravity_ratio)
+    assert close(xi, 1 / compton_ledger)
+    assert close(gravity_ratio, 1 / (4 * compton_ledger))
+    assert area_compliance * (0.7 * spectral_edge) ** 2 < xi
+    for length_scale, time_scale, mass_scale in ((2.0, 3.0, 5.0), (0.4, 1.7, 0.3)):
+        c_new = c * length_scale / time_scale
+        hbar_new = hbar * mass_scale * length_scale ** 2 / time_scale
+        gravity_new = gravity * length_scale ** 3 / (mass_scale * time_scale ** 2)
+        mass_new = mass * mass_scale
+        area_new = 4 * hbar_new * gravity_new / c_new ** 3
+        edge_new = mass_new * c_new / hbar_new
+        assert close(area_new, length_scale ** 2 * area_compliance)
+        assert close(edge_new, spectral_edge / length_scale)
+        assert close(area_new * edge_new ** 2, xi)
+
+
 print("GENERALIZED_RATE_EDGE_BENCHMARK_PASSED")
 print("CATEGORICAL_DEPTH_LADDER_IDENTITIES_PASSED")
 print("INDEPENDENT_AGE_CALIBRATION_IDENTITY_PASSED")
+print("RELATIVE_RESPONSE_COORDINATE_AND_NORMALIZATION_TESTS_PASSED")
+print("CARRIER_MAP_NORM_COUNTEREXAMPLE_AND_REPAIR_PASSED")
+print("ENTROPY_COMPTON_FACTOR_FOUR_AND_UNIT_COVARIANCE_PASSED")
+print("Not tested: a physical response weld, a derived yardstick, continuum existence, or Yang--Mills mass gap.")

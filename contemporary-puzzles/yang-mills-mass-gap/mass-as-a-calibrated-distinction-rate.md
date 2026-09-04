@@ -88,6 +88,17 @@ Equations (MDR1)--(MDR6) are downstream identities on an already clocked quantum
 
 This answers “a rate of what?” at the level already proved by [[past-future-angle-and-the-transfer-gap]]: it is the slowest logarithmic attenuation exponent, hence the uniform lower attenuation rate over all nonvacuum directions across a Euclidean slab. Individual spectral directions can attenuate faster. Equivalently, [[phase-modulus-pointing-and-euclidean-dwell]] shows that its reciprocal controls the supremal integrated Euclidean persistence.
 
+[[auxiliary-response-localization/inq|Auxiliary response localization]] moves the construction one step upstream without identifying an auxiliary sampler clock with physical time. If a local action-derived Markov semigroup forgets centered observables at rate \(\kappa\) while its two-observable multiplicativity defect propagates no faster than \(v\) with spatial exponent \(\alpha\), balancing the two estimates returns the static inverse-length certificate
+
+$$
+\sigma_{\mathrm{aux}}
+=
+\frac{2\alpha\kappa}{\alpha v+2\kappa}.
+\tag{MDR6a}
+$$
+
+The arbitrary rescaling of that proof clock cancels between \(\kappa\) and \(v\). This makes \(\sigma_{\mathrm{aux}}\) a noncircular candidate for the numerator in (MDR6), not yet its physical value. The identification requires regulator-uniform bounds in the Yang--Mills law, transport to the OS translation direction, a common exponent on a limiting total local family, and full OS/Poincare reconstruction.
+
 The word *attenuation* is load bearing. Every \(C_\ell\) is injective at finite \(\ell\). It need not identify two inputs, erase information, form a record, or choose an outcome. The rate in (MDR6) becomes a rate of fact-making only if an additional theorem identifies this transfer geometry with a process that actually produces stable facts.
 
 ## The factor of two in Born-form persistence
@@ -425,7 +436,7 @@ The rate retyping advances the programme if a proposed primitive operator answer
 - **How does it become mass?** Poincare reconstruction and the full Casimir equivalence.
 - **How does it become a fact?** An instrument, obtained character, and persistent record—not attenuation alone.
 
-The category error is now sharply located. Asking where a local gauge-field mass term comes from mistakes a global spectral rate for a coefficient in a local presentation. The Copernican replacement is not yet “mass is factification,” but the typed theorem target:
+The category error is now sharply located for pure Yang--Mills. Asking a local gauge-field mass term to explain its gauge-invariant vacuum-sector gap mistakes a global spectral rate for a coefficient in a local presentation; asking how electroweak vector masses arise from a supplied Higgs sector remains a legitimate local-QFT question. The Copernican replacement is not yet “mass is factification,” but the typed theorem target:
 
 $$
 \boxed{

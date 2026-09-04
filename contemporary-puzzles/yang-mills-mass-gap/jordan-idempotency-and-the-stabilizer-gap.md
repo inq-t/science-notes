@@ -416,13 +416,25 @@ $$
 \boxed{
 A_O\geq\kappa I_{K_O}
 \iff
-A_f\geq\kappa q_O^*q_O
+A_f\geq\kappa q_O^*q_O.}
+\tag{JI32e}
+$$
+
+The range statement has an existential, not a preassigned, constant:
+
+$$
+\boxed{
+\exists\,\kappa>0:
+A_O\geq\kappa I_{K_O}
 \iff
 \operatorname{Ran}q_O^*
 \subseteq
 \operatorname{Ran}A_f^{1/2}.}
-\tag{JI32e}
+\tag{JI32e'}
 $$
+
+Equivalently, Douglas factorization gives
+\(q_O^*=A_f^{1/2}C_O\) for a bounded \(C_O\); the best positive floor is the reciprocal of the least admissible value of \(\|C_O\|^2\). Thus range inclusion proves existence of some floor but does not identify an arbitrarily prescribed \(\kappa\).
 
 Under the constraint-orbit hypothesis (JI28), \(\operatorname{Ran}A_f^{1/2}=T_f(G\cdot f)^\perp\). Hence a quotient can retain a positive edge only if
 

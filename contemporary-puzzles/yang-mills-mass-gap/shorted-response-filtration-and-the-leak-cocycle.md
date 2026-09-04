@@ -471,6 +471,7 @@ $$
 \boxed{
 S_L(A)P_0=0,
 \qquad
+\exists\,\kappa>0:\quad
 S_L(A)\geq\kappa Q
 \quad\Longleftrightarrow\quad
 E\subseteq\operatorname{Ran}A^{1/2}.}

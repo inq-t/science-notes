@@ -1,6 +1,6 @@
 # Two-Scale RG Descent and the Crossover Lemma
 
-Renormalization-group blocking gives the carrier-first reversal a rigorous analytic target. Disintegration across a block map splits entropy exactly into a coarse contribution and conditional entropy on the forgotten fibers, while observable pullback induces an exact conditional mobility tensor on the coarse carrier. Two-scale logarithmic-Sobolev theorems transfer coercivity only when the fibers, coarse marginal, transported metric, and macro--micro coupling are uniformly controlled. For four-dimensional Yang--Mills the missing theorem is now sharply located: prove that the weak-bare-coupling ultraviolet flow enters a strong-mixing basin at a fixed physical scale, with summable loss through the diverging number of blocking steps, and then prove a normalization-invariant same-carrier comparison with the Osterwalder--Schrader Hamiltonian. Stochastic generators are proof instruments in this route, not ontological dice.
+Renormalization-group blocking gives the carrier-first reversal a rigorous analytic target. Disintegration across a block map splits entropy exactly into a coarse contribution and conditional entropy on the forgotten fibers, while observable pullback induces an exact conditional mobility tensor on the coarse carrier. Two-scale logarithmic-Sobolev theorems transfer coercivity only when the fibers, coarse marginal, transported metric, and macro--micro coupling are uniformly controlled. For four-dimensional Yang--Mills the missing theorem is now sharply located: prove that the weak-bare-coupling ultraviolet flow enters a strong-mixing basin at a fixed physical scale, with controlled loss through the diverging number of blocking steps. One may then either eliminate auxiliary time to obtain a common static exponent on an OS-total family, or prove a normalized same-carrier comparison with the OS transfer. Stochastic generators are proof instruments in both routes, not ontological dice.
 
 **Status: [EXACT DISINTEGRATION, PULLBACK-MOBILITY, AND PRODUCT-FIBER IDENTITIES; ESTABLISHED TWO-SCALE LSI THEOREMS ON THEIR DECLARED CARRIERS; ESTABLISHED UV AND STRONG-COUPLING ENDPOINTS; OPEN FOUR-DIMENSIONAL YANG--MILLS CROSSOVER].** No functional inequality below is identified with a Lorentzian mass gap before the transfer and reconstruction maps are supplied.
 
@@ -17,7 +17,7 @@ At scale $j$, distinguish:
 
 The block map has no spectral gap. The RG transformation has stability exponents but not particle masses. The gap of $-\mathcal L_j$ is a stochastic-time mixing rate. The Yang--Mills mass gap is the positive spectral floor of $H$ after physical-carrier reconstruction.
 
-These distinctions survive a deterministic ontology. A probability measure can be the observer-facing law or Euclidean calculational state of an inaccessible deterministic ground. Its Poincare or logarithmic-Sobolev inequality is still mathematically valid and may control correlations; it does not establish that the auxiliary diffusion is fundamental time.
+These distinctions survive a deterministic ontology. A probability measure can be the observer-facing law or Euclidean calculational state of an inaccessible deterministic ground. Its Poincaré or logarithmic-Sobolev inequality is still mathematically valid and may control correlations; it does not establish that the auxiliary diffusion is fundamental time.
 
 ## Exact entropy descent along a block map
 
@@ -111,7 +111,7 @@ $$
 This formula follows from the chain rule and disintegration. Because
 \(J_B(C\circ f)=C\circ J_Bf\) for every normal contraction \(C\), the
 cylinder form is Dirichlet whenever its fine parent is, and its restriction
-to the closed pullback range is closed when densely defined. A fine Poincare
+to the closed pullback range is closed when densely defined. A fine Poincaré
 constant passes to it exactly:
 
 $$
@@ -137,7 +137,7 @@ $$
 
 on the gauge-invariant tangent bundle, with controlled constants. The linear
 normalization \(PNP^{\mathsf T}=I\) used below is the flat prototype of this
-requirement. Without (RG1f), “the same Poincare constant survived blocking”
+requirement. Without (RG1f), “the same Poincaré constant survived blocking”
 may only report that the auxiliary form and its unit of rate were transported
 together.
 
@@ -159,10 +159,20 @@ $$
 $$
 
 Here the last limit assumes
-\(\lambda(\gamma_\varepsilon)\to0\). The forgotten fibers must therefore
-carry their own uniform coercivity, and
-their coupling to the coarse directions must be controlled. This is exactly
-the missing information supplied by a two-scale theorem.
+\(\lambda(\gamma_\varepsilon)\to0\). Recovering a uniform fine auxiliary
+Poincare inequality by this route therefore requires uniform fiber
+coercivity and controlled coupling to coarse directions. This is the missing
+information supplied by a two-scale theorem.
+
+That requirement does not extend automatically to a static OS proof:
+\(\lambda(\gamma_\varepsilon)\) belongs to the declared auxiliary form,
+not necessarily a physical energy operator.
+[[rg-covariance-residue/inq|RG covariance residue]] gives an alternative exact split into terminal
+covariance and conditional shell covariances. Uniform physical localization
+of the transported sources and shell covariances can suffice without a
+uniform gap for every fiber sampler. A physically gapless discarded field
+visible to the source family still defeats that route, whereas an arbitrarily
+slow auxiliary clock does not.
 
 ## The linear two-scale coercivity theorem
 
@@ -202,7 +212,7 @@ When $\kappa=0$, this reduces to $\min\{\rho,\lambda\}$. The theorem makes “re
 
 Balaban's multiscale programme supplies much of the ultraviolet side: gauge-covariant averaging, regular configuration classes and local gauge fixing, constrained background minimizers, propagator estimates, small- and large-field effective densities, and four-dimensional ultraviolet stability. The official Yang--Mills problem statement emphasizes both the importance and the limit of those results: gauge-invariant expectations, a nontrivial continuum theory, and a volume-uniform gap still require new work.
 
-At the other endpoint, strong-coupling lattice gauge theory has convergent expansions, reflection positivity, and transfer-matrix control. [[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen, Zhu, and Zhu]] prove explicit volume-uniform Poincare and logarithmic-Sobolev inequalities, exponential ergodicity, and correlation decay for Wilson measures. For $SU(N)$, in their Wilson-action and metric normalization, their curvature estimate applies when
+At the other endpoint, strong-coupling lattice gauge theory has convergent expansions, reflection positivity, and transfer-matrix control. [[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen, Zhu, and Zhu]] prove explicit volume-uniform Poincaré and logarithmic-Sobolev inequalities, exponential ergodicity, and correlation decay for Wilson measures. For $SU(N)$, in their Wilson-action and metric normalization, their curvature estimate applies when
 
 $$
 |\beta|<\frac{1}{16(d-1)},
@@ -216,7 +226,7 @@ The continuum trajectory approaches weak bare coupling. It therefore begins outs
 
 ## Physical units reverse the naive gap estimate
 
-Let $a$ be an isotropic Euclidean length spacing, so the Euclidean time step is $a/c$, and let $m_{\mathrm{lat}}(a)$ be a dimensionless decay exponent measured per lattice step. The associated energy is
+Let $a$ be an isotropic Euclidean length spacing, so the Euclidean time step is $a/c$, and let $m_{\mathrm{lat}}(a)$ be a dimensionless decay exponent measured per lattice step. Fix one renormalization convention \(\mathsf s\), and let \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\) denote its energy-valued Yang--Mills transmutation scale, selected independently of the target gap. The associated energy is
 
 $$
 \Delta_E(a)
@@ -265,7 +275,7 @@ j_*(a)\longrightarrow\infty.
 \tag{RG5}
 $$
 
-Here $\Lambda_{\mathrm{YM}}$ is typed as an energy scale, consistently with $\Delta_E/\Lambda_{\mathrm{YM}}$. Equivalently, with inverse-length scale $\kappa_{\mathrm{YM}}:=\Lambda_{\mathrm{YM}}/(\hbar c)$, equation (RG5) reads $a_{j_*}\asymp\kappa_{\mathrm{YM}}^{-1}$.
+Here \(\Lambda_{\mathrm{YM}}\) abbreviates the fixed-scheme energy scale \(\Lambda_{\mathrm{YM}}^{(\mathsf s)}\), consistently with \(\Delta_E/\Lambda_{\mathrm{YM}}\). Equivalently, with inverse-length scale $\kappa_{\mathrm{YM}}:=\Lambda_{\mathrm{YM}}/(\hbar c)$, equation (RG5) reads $a_{j_*}\asymp\kappa_{\mathrm{YM}}^{-1}$.
 
 The same blocking data also provide candidate logarithmic shell addresses
 
@@ -346,95 +356,103 @@ along the tuned asymptotically free trajectory and prove:
 4. summable degradation through the diverging number $j_*(a)$ of ultraviolet steps;
 5. entry at (RG5) into (RG8), (RG9), or another uniform coercive basin;
 6. exponential decay of gauge-invariant Euclidean correlations in **physical** distance, uniformly in cutoff and volume; and
-7. reflection-positive OS reconstruction and comparison with the physical transfer Hamiltonian.
+7. reflection-positive OS reconstruction, followed either by OS-total static
+   decay or by a normalized same-carrier comparison with the physical transfer
+   Hamiltonian.
 
-The last item must be normalized on the same carrier. At finite Wilson
+The last item splits into two non-equivalent branches. A direct cylinder-to-transfer inequality must be normalized on one carrier. Alternatively, [[auxiliary-response-localization/inq|auxiliary response localization]] eliminates sampler time before reconstruction: a volume-uniform centered \(L^2\) contraction together with a weighted quasi-local influence estimate yields a static, normalization-invariant spatial exponent. If one common physical exponent holds on an OS-total centered local family, the spectral theorem supplies the Hamiltonian gap without a direct sampler-to-transfer solder. This second branch still requires the full infinite-volume and continuum OS law; it does not identify the sampler generator with \(H\) or prove the stronger complete-surface response angle.
+
+On the direct branch, the comparison must be normalized on the same carrier. At finite Wilson
 temporal spacing, an unbounded comparison of the transfer logarithm with the
 cylinder gradient is generally false on the full carrier; the high-character
 counterexample is proved in
-[[finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|the bounded-flux audit]]. Let \(P_{T,a,L}\) be the
+[[finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|the bounded-flux audit]]. Let \(P_{T,a,V}\) be the
 ground-state-transformed normalized transfer on the reconstructed slice
-carrier, and let \(D_{\mathrm{cyl},a,L}\) represent the transported cylinder
+carrier in finite spatial volume \(V\), and let \(D_{\mathrm{cyl},a,V}\) represent the transported cylinder
 form, with the same vacuum fixed-space projection. The domain-safe target is
 
 $$
 \boxed{
-I-P_{T,a,L}
+I-P_{T,a,V}
 \geq
-\eta_{a,L}
-\left(I-e^{-\tau_aD_{\mathrm{cyl},a,L}}\right),
+\eta_{a,V}
+\left(I-e^{-\tau_aD_{\mathrm{cyl},a,V}}\right),
 \qquad
-\eta_{a,L},\tau_a>0,}
+\eta_{a,V},\tau_a>0,}
 \tag{RG11}
 $$
 
-where \(\tau_a\) has reciprocal units to \(D_{\mathrm{cyl},a,L}\), so
-\(\tau_aD_{\mathrm{cyl},a,L}\) is dimensionless. In the dimensionless
+where \(\tau_a\) has reciprocal units to \(D_{\mathrm{cyl},a,V}\), so
+\(\tau_aD_{\mathrm{cyl},a,V}\) is dimensionless. In the dimensionless
 invariant-link normalization, \(\tau_a\) is itself dimensionless and is a
 smoothing parameter rather than Euclidean clock time. If
 
 $$
-D_{\mathrm{cyl},a,L}
+D_{\mathrm{cyl},a,V}
 \geq
-\lambda_{\mathrm{cyl},a,L}(I-P_{0,a,L}),
+\lambda_{\mathrm{cyl},a,V}(I-P_{0,a,V}),
 $$
 
 then \(-\log x\geq1-x\) gives
 
 $$
-\Delta_E(a,L)
+\Delta_E(a,V)
 \geq
 \frac{\hbar c}{a_{\tau,a}}
-\eta_{a,L}
-\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,L}}\right).
+\eta_{a,V}
+\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,V}}\right).
 \tag{RG12}
 $$
 
 This statement is invariant under multiplying the auxiliary cylinder form by
 a positive scalar provided \(\tau_a\) is scaled inversely, so that the bounded
-operator \(\tau_aD_{\mathrm{cyl},a,L}\) is unchanged. The finite-transfer
+operator \(\tau_aD_{\mathrm{cyl},a,V}\) is unchanged. The finite-transfer
 continuum stopping condition is therefore
 
 $$
 \boxed{
-\liminf_{\substack{a\downarrow0\\L\uparrow\infty}}
-\frac{\hbar c}{a_{\tau,a}\Lambda_{\mathrm{YM}}^{(\mathsf s)}}
-\eta_{a,L}
-\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,L}}\right)
+\liminf_{a\downarrow0}
+\inf_{V\in\mathcal V_a}
+\frac{\hbar c}{a_{\tau,a}\Lambda_{\mathrm{YM}}}
+\eta_{a,V}
+\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,V}}\right)
 >0.}
 \tag{RG13}
 $$
 
+Here \(\mathcal V_a\) is the declared cofinal family of admissible finite spatial volumes and boundary conditions used to construct the infinite-volume theory; the infimum states volume uniformity rather than a simultaneous-limit shortcut. The reference scale \(\Lambda_{\mathrm{YM}}\) is fixed independently by the declared renormalized-coupling/RG prescription, not by the unknown transfer edge.
+
 The smoothing scale \(\tau_a\) must be fixed by the independently declared
-cylinder/kinetic normalization, and \(\eta_{a,L}\) must be derived from the
+cylinder/kinetic normalization, and \(\eta_{a,V}\) must be derived from the
 kernels, action, or RG transport—not by tuning either quantity against the
 unknown transfer edge. Equivalently, with
 
 $$
-q_{a,L}
+q_{a,V}
 :=
-\eta_{a,L}
-\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,L}}\right),
+\eta_{a,V}
+\left(1-e^{-\tau_a\lambda_{\mathrm{cyl},a,V}}\right),
 \tag{RG13a}
 $$
 
 a nonzero lower gap in physical units requires
-\(\inf_L q_{a,L}\gtrsim
-a_{\tau,a}\Lambda_{\mathrm{YM}}^{(\mathsf s)}/(\hbar c)\). A finite
+\(\inf_{V\in\mathcal V_a} q_{a,V}\gtrsim
+a_{\tau,a}\Lambda_{\mathrm{YM}}/(\hbar c)\). A finite
 continuum energy therefore corresponds to a one-step defect of order
 \(a_{\tau,a}\), not a fixed raw defect. If a temporal-continuum theorem
 identifies a dimensionless cylinder generator with a Kogut--Susskind kinetic
-energy \(\kappa_{a_s}D_{\mathrm{cyl},a,L}\), its natural matching is
+energy \(\kappa_{a_s}D_{\mathrm{cyl},a,V}\), its natural matching is
 
 $$
 \tau_a
 =
 \frac{a_{\tau,a}\kappa_{a_s}}{\hbar c}
-+o(a_{\tau,a}).
+\,[1+o(1)].
 \tag{RG13b}
 $$
 
-A continuous-time Hamiltonian regulator supplies a second branch only after
+A continuous-time Hamiltonian regulator supplies a distinct unbounded variant
+of the direct branch only after
 a common-carrier form theorem: if its physical form really obeys
 \(\mathfrak h_a\geq\varepsilon_a\mathcal E_{\mathrm{cyl},a}\) on a common
 form core with the required domain inclusion, then
@@ -443,20 +461,35 @@ This unbounded branch cannot be imported from a finite-spacing Wilson transfer
 matrix without a temporal-continuum form theorem.
 
 Both branches require vacuum-projection convergence and complete carrier
-coverage. If the OS/interface map is only a frame rather than a unitary, its
-uniform lower-frame constant is an additional factor in the corresponding
-gap and stopping conditions.
+coverage. On the direct comparison branch, if the OS/interface map is only a
+frame rather than a unitary, its uniform lower-frame constant is an additional
+factor in the corresponding gap and stopping conditions. The auxiliary static
+branch instead requires convergence of the reflected correlations and OS
+totality; once those are proved, it needs no uniform frame constant.
 
-Under those hypotheses, a bound
+Under the auxiliary-time-elimination hypotheses, the required positive
+diagonal OS bound is
 
 $$
-\left|
-\langle F,\tau_tF\rangle_c
-\right|
+0\leq
+\left\langle
+\psi_F,e^{-s(H-E_0)/(\hbar c)}\psi_F
+\right\rangle
 \leq
-C_F e^{-m_*t}
+C_F e^{-\sigma_*s}
+\qquad(s\geq s_F).
 $$
 
-for a complete physical observable family, together with the required density and spectral hypotheses, would exclude spectral support in $(0,\hbar c\,m_*)$. The completeness clause matters: decay in one channel does not prove the full mass gap.
+Here \(s\) is physical Euclidean length along the OS axis and
+\(\psi_F\) ranges over an OS-total centered local family. With the required
+reconstruction and correlation-convergence hypotheses, this excludes spectral
+support of the OS Hamiltonian in \((0,\hbar c\,\sigma_*)\). The prefactor
+\(C_F\) and onset \(s_F\) may depend on \(F\); the exponent may not. Totality
+removes the low spectral projection vector by vector, so no sum over a
+transverse surface and no uniform frame prefactor is needed. Decay in one
+channel, or exponents whose infimum over the total family is zero, does not
+prove the full Hamiltonian gap. Calling it an invariant mass gap additionally
+requires a positive-energy Poincaré representation with Lorentz-invariant
+joint energy--momentum spectrum and a unique vacuum.
 
-This is the exact role of the “wall.” Each RG arrow forgets fine coordinates and pays the conditional term in (RG1); the two-scale theorem states when coarse and fiber coercivity survive their coupling; the stopping condition asks whether the flow reaches a carrier on which infrared stiffness is manifest. None of that makes stochasticity fundamental. It turns the philosophical reversal into the concrete missing crossover lemma between Balaban's ultraviolet control and an OS-reconstructed physical spectral floor.
+This is the exact role of the “wall.” Each RG arrow forgets fine coordinates and pays the conditional term in (RG1); the two-scale theorem states when coarse and fiber coercivity survive their coupling; the stopping condition asks whether the flow reaches a carrier on which infrared stiffness is manifest. None of that makes stochasticity fundamental. Balaban-type control plausibly supplies quasi-local effective interactions, while the missing non-Abelian theorem is a cutoff-, volume-, boundary-, and declared-vacuum-uniform \(L^2\) floor for the full terminal RG law, coupled to a compatible influence estimate. The auxiliary last mile sharpens the endpoint; it does not remove this crossover wall.
