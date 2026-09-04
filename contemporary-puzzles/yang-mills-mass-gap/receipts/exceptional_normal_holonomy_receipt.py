@@ -88,14 +88,14 @@ def main() -> None:
         record(
             "signed cyclic residue",
             residue_square == (Fraction(-3), Fraction(0)),
-            "(w-w^2)^2 = w+w^2-2 = -3 on B-perp, hence I_B^2 = -1",
+            "(w-w^2)^2 = w+w^2-2 = -3 on B-perp, hence I_w^2 = -1",
         )
     )
     checks.append(
         record(
             "orientation reversal parity",
             (-1) ** rotating_complex_dimension == -1,
-            "I_B -> -I_B sends the ninth symplectic power to its negative",
+            "I_w -> -I_w sends the ninth symplectic power to its negative",
         )
     )
 

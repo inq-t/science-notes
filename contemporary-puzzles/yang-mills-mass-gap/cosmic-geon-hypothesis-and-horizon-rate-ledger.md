@@ -41,6 +41,99 @@ For \(H>0\), the Hubble parameter is exactly the logarithmic redshift-loss rate 
 
 Nor is it automatically entropy production. For equilibrium radiation with fixed effective species and adiabatic expansion, \(T\propto a^{-1}\), the entropy density scales as \(s\propto T^3\), and \(S_\gamma=sa^3V_0\) is constant. Radiation energy can redshift while fine-grained or comoving thermodynamic entropy does not increase. Energy attenuation, entropy production, and record production remain different types.
 
+## Conformal charge is not leaked energy
+
+There is a more global conservation statement, but it confirms rather than removes the type distinction. In conformal time,
+
+$$
+\mathrm ds^2
+=
+a(\eta)^2\bigl(-c^2\mathrm d\eta^2+\mathrm d\mathbf x^2\bigr),
+\qquad
+\xi=\partial_\eta
+$$
+
+is conformal Killing. For a conserved symmetric stress tensor, choose the sign convention in which the conformal current is future-directed:
+
+$$
+j^\mu_{\mathrm{conf}}:=-T^{\mu\nu}\xi_\nu.
+$$
+
+the conformal-Killing identity gives
+
+$$
+\nabla_\mu j^\mu_{\mathrm{conf}}
+=
+-\frac{a'}{a}T^\mu{}_\mu
+=
+\frac{a'}{a}(\varepsilon-3p).
+\tag{CG3a}
+$$
+
+Here the metric signature is \((-+++)\), so \(T^\mu{}_\mu=-\varepsilon+3p\). With the corresponding positive hypersurface-charge convention, a compact comoving slice, or a finite comoving cell with vanishing net boundary flux, has \(Q_\xi=aE\). Equivalently, the continuity equation gives
+
+$$
+\boxed{
+\frac{\mathrm d}{\mathrm dt}(aE)
+=
+aHV(\varepsilon-3p).}
+\tag{CG3b}
+$$
+
+For trace-free radiation,
+
+$$
+\boxed{
+Q_\xi=aE_\gamma=\text{constant}.}
+\tag{CG3c}
+$$
+
+Thus the physical energy lost from the comoving cell is retained as conformal charge after multiplication by the scale factor. It is redshift work, not stochastic dissipation and not escape into an unmodelled exterior. In noncompact flat FLRW the whole-slice integral is generally divergent, so the statement is literally global only after a compact spatial quotient or appropriate integrability assumptions; otherwise it remains a no-flux cell identity. Moreover, the magnitude of \(Q_\xi\) scales with the normalization of the conformal Killing field and with the chosen comoving domain. Its conservation is exact, but it is not by itself a canonically normalized yardstick.
+
+[[library/asymptotic-symmetries-and-memories-of-gauge-theories-in-flrw-spacetimes/inq|Enriquez-Rojo and Schroeder]] provide the primary FLRW gauge-theory and conformal-coordinate setting used here.
+
+Combining (CG3) with the later horizon-capacity rate (CG7), and writing
+
+$$
+\epsilon_H:=-\frac{\dot H}{H^2}=1+q,
+$$
+
+gives, on any interval where \(\epsilon_H\neq0\), the exact cross-ledger relation
+
+$$
+\boxed{
+-\frac{\mathrm d\log E_\gamma}
+{\mathrm d\log\iota_A}
+=
+\frac{1}{2\epsilon_H}.}
+\tag{CG3d}
+$$
+
+On an Einstein--FLRW radiation-dominated branch, \(\epsilon_H=2\), so
+
+$$
+\boxed{
+E_\gamma\,\iota_A^{1/4}
+=
+\text{constant}.}
+\tag{CG3e}
+$$
+
+This is correlated scaling, not a transfer equation between the radiation cell and the apparent horizon. In fact, the horizon sphere is moving and encloses more material while a fixed comoving cell redshifts.
+
+Quantum Yang--Mills supplies the natural obstruction to (CG3c): in flat-space renormalization conventions its trace contains
+
+$$
+T^\mu{}_\mu
+=
+\frac{\beta(g)}{2g}[F^2],
+\tag{CG3f}
+$$
+
+with additional curvature-anomaly terms on curved spacetime. The trace anomaly is therefore where conformal-charge bookkeeping and dimensional transmutation meet. It is a Ward identity and an integrated scale residue; it is not a positive lower bound on the vacuum-reduced Hamiltonian spectrum.
+
+[[library/trace-and-dilatation-anomalies-in-gauge-theories/inq|Collins, Duncan, and Joglekar]] supply the primary non-Abelian trace-anomaly result and its operator-mixing qualifications.
+
 The second ledger concerns a moving apparent horizon and must not be identified with (CG3). For a spatially flat expanding Einstein--FLRW solution, define
 
 $$
@@ -133,6 +226,38 @@ $$
 $$
 
 Thus the moving-horizon energy changes at half of the signed supply rate: the capacity term contributes \(P_A\), while the temperature term contributes \(-P_A/2\). For \(1+q>0\) the horizon cools and the quasi-local energy grows; the signs reverse in a phantom regime. In this restricted model the alleged leak is not simply radiation leaving a cosmic container. It is a balance among quasi-local energy, boundary capacity, temperature, and motion of the subsystem boundary.
+
+The dynamical Hayward--Kodama surface gravity supplies a useful temperature firewall. For flat FLRW,
+
+$$
+\kappa_{\mathrm{HK}}
+=
+-\frac1{R_A}
+\left(
+1-\frac{\dot R_A}{2HR_A}
+\right)
+=
+-\frac1{R_A}
+\left(
+1-\frac{\epsilon_H}{2}
+\right),
+\tag{CG8a}
+$$
+
+so its energy-valued temperature scale is
+
+$$
+\Theta_{\mathrm{HK}}
+=
+\frac{\hbar c|\kappa_{\mathrm{HK}}|}{2\pi}
+=
+\Theta_A\left|1-\frac{\epsilon_H}{2}\right|.
+\tag{CG8b}
+$$
+
+Radiation domination has \(\epsilon_H=2\), hence \(\Theta_{\mathrm{HK}}=0\), even though \(P_A=2c^5/G\) and \(\dot E_A=c^5/G\) are nonzero. Exact de Sitter has \(\epsilon_H=0\), hence \(P_A=\dot\iota_A=0\), while its stationary Gibbons--Hawking temperature is nonzero. Thermality, classical horizon supply, and capacity growth are therefore three distinct predicates.
+
+The dynamical apparent-horizon convention is documented by [[library/first-law-of-thermodynamics-and-friedmann-equations-of-frw-universe/inq|Cai and Kim]], while [[library/cosmological-event-horizons-thermodynamics-and-particle-creation/inq|Gibbons and Hawking]] supply the stationary de Sitter comparison.
 
 ## Exact critical compactness, without an exterior mass
 

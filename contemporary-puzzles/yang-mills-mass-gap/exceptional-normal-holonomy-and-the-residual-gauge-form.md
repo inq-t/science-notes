@@ -552,11 +552,22 @@ $$
 
 It derives a gauge group, the gauge-coordinate law, a faithful probe, a relative invariant metric, a sharp unweighted Haar floor, and a reflection-positive finite-lattice action from one exceptional flag architecture. Its color pullback then recovers the ordinary Wilson regulator exactly. In the heliocentric analogy, this is a common construction behind several appearances rather than an independent fit to each symmetry factor.
 
+[[exceptional-wilson-same-carrier-factorization]] sharpens the carrier statement. The normal representation is the finite response probe, not the Yang--Mills state space. Its Hilbert--Schmidt contraction produces \(Q_N\), its trace produces \(b_N\), and both act on the standard gauge-invariant carrier. On that common carrier,
+
+$$
+H_N(\kappa_N,\lambda_N)
+=
+H_W\!\left(\frac{\kappa_N}{8},288\lambda_N\right).
+\tag{NH30a}
+$$
+
+Thus the holonomy branch already has an exact finite-regulator carrier bridge. The separate field-valued map into normal fibres is required only if the idempotency Hessian itself is proposed as the gap form.
+
 It is not yet the desired mass-gap mechanism:
 
 1. \(H\) is not simple and contains an abelian factor. The color pullback gives the Clay-relevant \(SU(3)\) regulator exactly, but choosing the color-only member is another declared step rather than a dynamical selection theorem.
 2. At finite lattice spacing, a positive Hessian modulo gauge is automatic once relative cohomology vanishes; it says nothing uniform about large volume or continuum removal.
-3. The magnetic plaquette response must be joined to the electric kinetic form and to the interacting vacuum measure.
+3. The magnetic plaquette multiplier cannot itself be gapped on a fixed vacuum complement: gauge-invariant wavefunctions may concentrate arbitrarily near the flat locus where \(Q_N=0\). It must be joined to the electric kinetic form and the interacting vacuum measure.
 4. Reflection positivity constructs a possible Hilbert carrier and transfer operator; it does not by itself prove a vacuum-complement contraction.
 5. The normal representation fixes the conversion \(\beta_W=144\beta\), not \(\beta\) itself, a dimensional scale, or the renormalized coupling.
 
@@ -590,6 +601,15 @@ H_{\mathrm{YM}}
 \tag{NH33}
 $$
 
-This is a conditional passage theorem, not a proof of (NH32). The exceptional construction fixes the regulator, metric normalization, and exact strong-coupling anchor; it does not yet control the interacting vacuum through the weak-bare-coupling continuum trajectory. A finite normal Hessian cannot substitute for that theorem.
+This is a conditional passage theorem, not a proof of (NH32). The exceptional construction fixes the regulator, metric normalization, and exact strong-coupling anchor; it does not yet control the interacting vacuum through the weak-bare-coupling continuum trajectory. Equivalently, the normalization-free relative coercivity
+
+$$
+\Theta_r
+:=
+\frac{\lambda_r}{g(\Gamma_r)/18}
+\tag{NH33a}
+$$
+
+equals one on the Haar anchor but has no proved positive uniform lower limit for the interacting vacuum. The geometric factor \(8\) cancels against the matched kinetic coefficient and cannot supply that missing control. A finite normal Hessian cannot substitute for the vacuum theorem.
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional_normal_holonomy_receipt.py|The normal-holonomy receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional-normal-holonomy-receipt-output.txt|its stored output]] verify the 149-dimensional branching balance, all three indices, the residual central-kernel count, the exact color-character/Wilson conversion, the normal-metric Haar floor, and the reduced Hessian dimension ledger. They do not prove the cited exceptional-group branchings, choose the physical carrier or color-only member, establish reflection positivity, or imply a continuum mass gap.

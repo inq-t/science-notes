@@ -253,6 +253,37 @@ $$
 
 For a general restriction and reference state, pointwise positivity gives no such uniform \(\kappa>0\). For a state-preserving ordinary expectation, however, (D5h) holds tautologically with \(\kappa=1\) on the incoming BKM quotient. The next theorem shows why that exact estimate is still not a mass-gap form.
 
+## A localized loss has an established energy upper solder
+
+When \(\mathcal M=\mathcal A(B)\) is a local QFT algebra for a region of width \(2R\), the reference is the vacuum restriction, and the state path is implemented by localized unitaries \(e^{isA}\Omega\), Longo's finite-width theorem adds a physical comparison that is absent for a generic inclusion. Under the differentiability and domain hypotheses stated in [[localized-relative-entropy-and-the-energy-solder]], the convention in (D5f), which uses the full second derivative, gives
+
+$$
+0\leq
+q_{\omega,\mathcal N}[A]
+\leq
+\frac{4\pi R}{\hbar c}
+\langle A\Omega,HA\Omega\rangle.
+\tag{D5h.0}
+$$
+
+Therefore a noncircular lower bound
+
+$$
+q_{\omega,\mathcal N}[A]
+\geq
+\kappa\|(1-P_0)A\Omega\|^2
+$$
+
+on a Hamiltonian form core would imply
+
+$$
+\Delta_E
+\geq
+\frac{\hbar c}{4\pi R}\kappa.
+$$
+
+Equivalently, using half-Hessians removes both factors of two. The physical advance is that the right-hand inequality comes from locality and positive-energy translation covariance rather than a freely normalized Markov clock. The remaining obstruction is the left-hand lower frame and the form-core theorem. The preserving-expectation result below explains why one vertical loss cannot supply them on retained neutral directions.
+
 ## The preserving-expectation Hessian is vertical
 
 Suppose \(E:\mathcal M\to\mathcal N\) is a faithful normal conditional expectation and the faithful normal reference state obeys \(\sigma\circ E=\sigma\). Let

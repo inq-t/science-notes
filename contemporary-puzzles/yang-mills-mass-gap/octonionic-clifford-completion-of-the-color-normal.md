@@ -413,7 +413,10 @@ A real spectral triple also requires the independent operators and axioms around
 and gives an ungraded irreducible spinor representation of it; it does not
 silently manufacture the KO-cycle.
 
-Complexification does supply a canonical partial sign-table witness. On
+After an external scalar copy \(\mathbb C_{\mathrm{ext}}\) is chosen,
+complexification of the irreducible octonion module supplies a canonical
+algebraic partial sign-table witness; the stable identity does not select it as
+the physical carrier. On
 
 \[
 \mathcal H_{\mathbb O}

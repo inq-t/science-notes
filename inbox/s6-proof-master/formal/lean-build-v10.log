@@ -1,0 +1,31 @@
+V10 PINNED LEAN BUILD RECEIPT — PASS
+
+Verification date: 2026-08-28
+Built-source Git commit: b6220d0fd6b301b2df2082a91885513945126f45
+Manifested source state at invocation: exactly matched HEAD (git diff --quiet exit 0)
+Repository state at invocation: release evidence/prose outside the manifested source tree in progress;
+  generated untracked formal/lean-source/.lake/ cache present
+Lean toolchain: leanprover/lean4:v4.31.0-rc1
+Lean version: 4.31.0-rc1
+Lean commit: fd009949156901e6cf15b6d9bf1122294b8e697a
+Lake version: 5.0.0-src+fd00994
+Launcher PATH: /home/goblin/.elan/toolchains/leanprover--lean4---v4.31.0-rc1/bin:/usr/local/bin:/usr/bin:/bin
+Mathlib commit: 0531bb79fea20efc9ce6942db46b96be5a919400
+Source-tree manifest: formal/SOURCE_TREE_V10.sha256
+Source-tree aggregate digest: 37d55a7a16aa29bf11cc291bdca8a20c98192bb18883b5da171bc25c449a55f1
+Clean command: lake clean, exit 0
+Cache hydration: lake exe cache get, exit 0; 8488 cached files decompressed, 4 already decompressed
+Command: lake build 2>&1 | tee ../lean-build-v10.log, executed with bash pipefail
+Build exit code: 0
+
+RAW BUILD OUTPUT
+
+✔ [8508/8517] Built S6.UnitTransgression (3.7s)
+✔ [8509/8517] Built S6.SplitExtension (6.4s)
+✔ [8510/8517] Built S6Shortcuts (11s)
+✔ [8512/8517] Built S6.LatticeOrbitIndex (3.4s)
+✔ [8513/8517] Built S6.SquareZeroExchange (3.9s)
+✔ [8514/8517] Built S6.CyclicAverage (4.1s)
+✔ [8515/8517] Built S6.TwoExceptionalGluing (4.1s)
+✔ [8516/8517] Built S6 (2.4s)
+Build completed successfully (8517 jobs).

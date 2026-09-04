@@ -1,6 +1,6 @@
 # What Commutes with Everything
 
-Schur's lemma is a theorem about invisibility: the operators commuting with an entire symmetry are exactly the differences in the carrier that are no difference to the symmetry. Frobenius bounds that undetectable residue to $\mathbb R$, $\mathbb C$, $\mathbb H$; grading the carrier admits one bit of sign between odd elements and the count rises from three to ten. Three distinctions keep this from collapsing into slogan. A commutant need not be commutative — $\mathbb H$ is a commutant. Connes imposes commutation as a *relation between a left and a right action*, not as a property of one algebra, and his gauge group is a consequence of that relation. And the passage from commutant to double commutant is a Galois closure of the same shape as the invariance/automorphism connection, with the same failure of faithfulness at the bottom.
+Schur's lemma is a theorem about invisibility: the operators commuting with an entire symmetry are exactly the differences in the carrier that are no difference to the symmetry. On a finite-dimensional real irreducible carrier, Frobenius bounds that undetectable residue to $\mathbb R$, $\mathbb C$, $\mathbb H$; grading the same finite-dimensional setting admits one bit of sign between odd elements and the count rises from three to ten. Three distinctions keep this from collapsing into slogan. A commutant need not be commutative — $\mathbb H$ is a commutant. Connes imposes commutation as a *relation between a left and a right action*, not as a property of one algebra, and his gauge group is a consequence of that relation. And the passage from commutant to double commutant is a Galois closure of the same shape as the invariance/automorphism connection, with the same failure of faithfulness at the bottom.
 
 ## The commutant is what the symmetry cannot see
 
@@ -12,12 +12,12 @@ $$
 
 If $S=\rho(G)$ for a representation $\rho$ on $V$, then $T\in\rho(G)'$ is precisely a morphism of representations: applying $T$ before or after any symmetry gives the same result, so $T$ is a transformation of $V$ that is not a transformation of $\rho$. It is a difference in the carrier which no equivariant description registers.
 
-Schur's lemma says that when $\rho$ is irreducible every nonzero such $T$ has kernel and range $\{0\}$ or $V$, hence is invertible, so $\operatorname{End}_G(V)$ is a division algebra. Frobenius says that over $\mathbb R$ the finite-dimensional associative division algebras are exactly $\mathbb R$, $\mathbb C$, $\mathbb H$ (associativity is essential: the octonions are a non-associative real division algebra, and $\operatorname{End}_G(V)$ is associative by construction). Two boundaries follow, and both matter:
+Assume here that $V$ is a finite-dimensional real irreducible $G$-module. Schur's lemma says that every nonzero $T\in\operatorname{End}_G(V)$ has kernel and range $\{0\}$ or $V$, hence is invertible, so $\operatorname{End}_G(V)$ is a finite-dimensional real division algebra. Frobenius then says that it is exactly one of $\mathbb R$, $\mathbb C$, $\mathbb H$ (associativity is essential: the octonions are a non-associative real division algebra, and $\operatorname{End}_G(V)$ is associative by construction). Two boundaries follow in this declared setting, and both matter:
 
 - the residue is **never trivial** — the scalars always commute with everything;
 - the residue is **never large** — at most four real dimensions.
 
-So the invisible part of an irreducible carrier is guaranteed to exist, guaranteed to be small, and comes in exactly three kinds. That census is Dyson's threefold way, and it is the reason particles come in three kinds before any grading is introduced.
+So the invisible part of a finite-dimensional real irreducible carrier is guaranteed to exist, guaranteed to be small, and comes in exactly three kinds. That census is the algebraic core of Dyson's threefold way; applying it to physical symmetry classes requires the additional Hilbert-space and antiunitary structure of that classification.
 
 ## Commuting is a relation; commutativity is that relation predicated of a thing and itself
 
@@ -33,7 +33,7 @@ $$
 \mathcal A\subseteq\mathcal A' ,
 $$
 
-and the centre is the place where they meet, $Z(\mathcal A)=\mathcal A\cap\mathcal A'$. Commutation is a two-place relation and requires a second term. Commutativity is the degenerate case in which the second term is the first. Frobenius' three possible commutants include one noncommutative entry, so the inference *from* "commutes with everything" *to* "is commutative" fails in a third of all cases — and fails exactly at the quaternions, which is the block that carries the weak interaction.
+and the centre is the place where they meet, $Z(\mathcal A)=\mathcal A\cap\mathcal A'$. Commutation is a two-place relation and requires a second term. Commutativity is the degenerate case in which the second term is the first. Frobenius' three allowed commutants include one noncommutative entry, so the inference *from* "commutes with everything" *to* "is commutative" fails in the quaternionic case — the same division-algebra block used for the weak interaction in the finite geometry.
 
 ## Double commutant as a Galois closure
 

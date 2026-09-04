@@ -2,7 +2,7 @@
 
 The proposed pre-QFT explanation of a mass gap is a three-factor theorem rather than a new particle-mass term: a canonically normalized family of physically constructed causal distinctions must detect every non-vacuum direction with a dimensionless lower frame bound; the member dynamics must dominate that distinction form by a dimensionless solder coefficient; and an independently fixed energy scale must calibrate the result. Their product is a certified lower bound on the gap. This makes causal completeness a dimensionless analytic obstruction rather than a pixel length; it becomes geometric only when the tests and normalization are geometrically constructed. The theorem states exactly what Type III algebras, Connes transport, entropy Hessians, fibers, knots, and a dimensional yardstick would each have to contribute.
 
-**Status: [EXACT CONDITIONAL FRAME THEOREM; EXACT LOCAL-EXPECTATION NO-GO UNDER REEH--SCHLIEDER HYPOTHESES; OPEN YANG--MILLS CONSTRUCTION].** The functional-analytic implications are proved below. No causal wall family, energy solder, or continuum member satisfying all premises has yet been constructed for four-dimensional Yang--Mills.
+**Status: [EXACT CONDITIONAL FRAME THEOREM; EXACT LOCAL-EXPECTATION NO-GO UNDER REEH--SCHLIEDER HYPOTHESES; STANDARD REAL LOCALIZED ENERGY COMPARISON; OPEN YANG--MILLS CONSTRUCTION].** The functional-analytic implications are proved below. [[localized-relative-entropy-and-the-energy-solder|Longo's finite-width bound]] supplies the energy comparison for real localized relative-entropy Hessians under explicit entropy and energy-form differentiability. A spectral conclusion additionally needs a positive Hermitian extension or compatible real structure on a complex Hamiltonian form core. No causal wall family, such extension, uniform regional lower frame, whole-to-local width map, or continuum Yang--Mills member satisfying the remaining premises has yet been constructed.
 
 ## The category error, precisely stated
 
@@ -538,6 +538,26 @@ Q_N\circ\iota_{mathrm c}^{E}=288Q_W,
 $$
 
 Thus, with product color Haar measure, that member is exactly the fundamental Wilson $SU(3)$ Gibbs and transfer system at every finite lattice spacing. This discharges action identification for the declared color pullback; it does not obtain that member by conditioning the full stabilizer theory, select its coupling trajectory, or construct its continuum net. The comparison contracts below remain necessary for any stronger claim that QFT itself emerges.
+
+The finite Hamiltonian carrier is also already the ordinary one. [[exceptional-wilson-same-carrier-factorization]] proves that the normal is a response probe whose character and trace induce operators on
+\(L^2(SU(3)^E,\mu_{\mathrm H})^{SU(3)^V}\), with
+
+$$
+H_N(\kappa_N,\lambda_N)
+=
+H_W(\kappa_N/8,288\lambda_N).
+$$
+
+Thus no map from the finite normal fibre into the QFT Hilbert space is needed on the holonomy branch. The trace-metric factor \(8\) cancels against the matched kinetic coefficient. The remaining dimensionless unknown is
+
+$$
+\Theta_\Gamma
+:=
+\frac{\lambda_{\mathrm P}^{\mathrm{GI}}(\psi_0^2\mu_{\mathrm H};b_N)}
+{g(\Gamma)/18},
+$$
+
+whose positive regulator-uniform control is exactly an interacting-vacuum problem. A field-valued normal analysis map remains necessary only if the finite idempotency Hessian itself is proposed as the gap form.
 
 The phrase “below a UV threshold” is itself ill typed until the pre-QFT filtration has been soldered to local Lorentzian energy or length. It also must not mean a sharp spectral truncation of each local algebra: spectral projections are global and generally spoil algebra closure or locality. Keep the full local net and restrict comparison estimates to suitably smeared observables and matrix elements between states in a declared spectral window.
 

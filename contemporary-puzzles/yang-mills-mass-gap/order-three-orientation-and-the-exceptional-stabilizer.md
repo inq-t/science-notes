@@ -1,6 +1,6 @@
 # Order-Three Orientation and the Exceptional Stabilizer
 
-The exceptional flag admits a concrete asymmetry-first encoding. Yokota's order-three automorphism \(w\in F_4\) fixes \(\mathfrak h_3(\mathbb C)\), while its inverse \(w^2\) fixes the same subalgebra with the opposite hidden complex orientation. Cyclic averaging forgets that orientation, and adjoining a trace-two idempotent \(\ell\) leaves precisely \(S(U(2)\times U(3))\) as stabilizer. On the natural oriented-flag bundle, the idempotency-defect Hessian has the forty-dimensional flag orbit as its radical and equals the trace metric on the four-dimensional intrinsic normal. This derives symmetry, orientation, and a finite normal stiffness from one prior algebraic datum; it does not yet give the surviving gauge fields a Yang--Mills mass gap.
+The exceptional flag admits a concrete asymmetry-first encoding. Yokota's order-three automorphism \(w\in F_4\) fixes \(\mathfrak h_3(\mathbb C)\), while its inverse \(w^2\) fixes the same subalgebra with the opposite hidden complex orientation. Cyclic averaging forgets that orientation, and adjoining a trace-two idempotent \(\ell\) leaves precisely \(S(U(2)\times U(3))\) as stabilizer. On the natural oriented-flag bundle, the idempotency-defect Hessian has the tangent to the forty-dimensional flag orbit as its radical and equals the trace metric on the four-dimensional intrinsic normal. This derives symmetry, orientation, and a finite normal stiffness from one prior algebraic datum; it does not yet give the surviving gauge fields a Yang--Mills mass gap.
 
 **Status: [EXACT CITED] for Yokota's automorphism and centralizer and for the exceptional-flag stabilizer; [EXACT] for the averaging, orientation-residue, projector, associated-bundle, and Hessian consequences; [CONSTRUCTION] for treating this flag as a field or holonomy probe; [OPEN] for physical chirality, Yang--Mills dynamics, OS reconstruction, continuum coercivity, and dimensional calibration.**
 
@@ -38,7 +38,7 @@ K:=C_{F_4}(w)
 \qquad
 \Delta\mathbb Z_3
 :=
-\{(\zeta^kI_3,\zeta^kI_3):k=0,1,2\}.
+\{(\omega^kI_3,\omega^kI_3):k=0,1,2\}.
 \tag{OT3}
 $$
 
@@ -413,8 +413,8 @@ Therefore the metric-independent statement is
 
 $$
 \boxed{
-\operatorname{rad}(\operatorname{Hess}V)
-=T(F_4/H),
+\operatorname{rad}(\operatorname{Hess}_{[e,\ell]}V)
+=T_{[e,\ell]}(F_4/H),
 \qquad
 \left.\operatorname{Hess}V\right|_{N_{\mathrm{int}}}
 =\langle\ ,\ \rangle_{\mathrm{tr}}.}

@@ -1,8 +1,8 @@
 # Jordan Idempotency and the Stabilizer Gap
 
-Jordan idempotency supplies an exact finite model of the proposed Copernican turn. A point-like alternative is constrained by \(e\circ e=e\); the Hessian of its squared constraint defect has zero modes precisely along changes of presentation within the idempotent orbit and a unit positive edge normal to that orbit. In the exceptional Jordan algebra, an order-three orientation \(w\) and a trace-two idempotent \(\ell\) have the faithfully acting Standard Model gauge group as their stabilizer. An exact modular-rank calculation shows that the natural continuous constraints on \((\ell,B)\) have no infinitesimal zero modes beyond the forty-dimensional flag orbit, while on a reduced oriented bundle the Hessian has that orbit as its radical and equals the trace metric on the four-dimensional intrinsic normal. The deeper product therefore gives the observed stabilizer, an explicit orientation residue, and finite normal rigidity. What remains open is the physical synthesis: justify the response carrier, realize a flag or normal-holonomy field on a Type-III/OS Yang--Mills carrier, and prove a regulator-uniform comparison with the physical mass Casimir.
+Jordan idempotency supplies an exact finite model of the proposed Copernican turn. A point-like alternative is constrained by \(e\circ e=e\); the Hessian of its squared constraint defect has zero modes precisely along changes of presentation within the idempotent orbit and a unit positive edge normal to that orbit. In the exceptional Jordan algebra, an order-three orientation \(w\) and a trace-two idempotent \(\ell\) have a stabilizer isomorphic to the faithfully acting Standard Model gauge group. An exact modular-rank calculation shows that the natural continuous constraints on \((\ell,B)\) have no infinitesimal zero modes beyond the forty-dimensional flag orbit, while on a reduced oriented bundle the Hessian has that orbit as its radical and equals the trace metric on the four-dimensional intrinsic normal. The deeper product therefore gives this exceptional stabilizer, an explicit orientation residue, and finite normal rigidity. The Hessian route still needs a field-valued physical response carrier. The holonomy route already induces the ordinary finite Wilson carrier, but selection of its response probe, interacting-vacuum coercivity, Type-III or OS continuum realization, and comparison with the physical mass Casimir remain open.
 
-**Status: [EXACT] for the Peirce linearization, idempotency-defect Hessian, order-three orientation consequences, and reduced oriented-flag spectrum; [EXACT COMPUTER-ASSISTED] for the kernel of the displayed exceptional continuous-flag constraint at the standard flag; [EXACT CITED] for the exceptional-Jordan stabilizer, order-three centralizer, transitivity, and triality statements; [CONSTRUCTION] for the physical response carrier and normal-holonomy use; [OPEN] for physical chirality, Type-III realization, four-dimensional Yang--Mills recovery, continuum coercivity, and dimensional calibration.**
+**Status: [EXACT] for the Peirce linearization, idempotency-defect Hessian, order-three orientation consequences, reduced oriented-flag spectrum, and finite-regulator holonomy-to-Wilson carrier factorization; [EXACT COMPUTER-ASSISTED] for the kernel of the displayed exceptional continuous-flag constraint at the standard flag; [EXACT CITED] for the exceptional-Jordan stabilizer, order-three centralizer, transitivity, and triality statements; [CONSTRUCTION] for selection of the physical response probe and any Hessian-carrier realization; [OPEN] for physical chirality, Type-III realization, four-dimensional Yang--Mills recovery, continuum coercivity, and dimensional calibration.**
 
 ## Pointing begins with an idempotent equation
 
@@ -582,7 +582,7 @@ V^{-1}(0)\cong F_4/S(U(2)\times U(3)),
 \tag{JI37d}
 $$
 
-This fixes the finite normal form by restricting the ambient carrier to Yokota's orientation orbit. With any total metric extending the trace metric and making the tangent/normal splitting orthogonal, the associated Hessian operator has shorthand spectrum \(0^{(40)}\oplus1^{(4)}\). Its four-dimensional normal is not a faithful representation of the surviving group: color and \(U(1)\) act trivially. Conversely, the 149-dimensional normal quotient of the full defining-data carrier is faithful but inherits no singular spectrum from the redundant constraint rows. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] develops this exact carrier fork. Compatibility with a physical local carrier remains open in both branches.
+This fixes the finite normal form by restricting the ambient carrier to Yokota's orientation orbit. With any total metric extending the trace metric and making the tangent/normal splitting orthogonal, the associated Hessian operator has shorthand spectrum \(0^{(40)}\oplus1^{(4)}\). Its four-dimensional normal is not a faithful representation of the surviving group: color and \(U(1)\) act trivially. Conversely, the 149-dimensional normal quotient of the full defining-data carrier is faithful but inherits no singular spectrum from the redundant constraint rows. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] develops this exact carrier fork. Physical compatibility of the finite Hessian remains open. The holonomy branch has exact finite-regulator compatibility with the Wilson configuration carrier, while physical selection of its response probe and continuum Type-III or net realization remain open.
 
 ## First-order asymmetry and positive mass are different faces
 
@@ -618,7 +618,9 @@ The first two are exact algebra. The third follows only after carrier realizatio
 
 The idempotency theorem penalizes motion **away from** the valid projector locus and vanishes along motion **within** that locus. This is exactly right for normal rigidity, but it creates a decisive typing question. If physical field excitations are tangent variations among valid configurations, then \(A_e\) charges constraint violations while vanishing on the prospective physical sector. Quotienting the orbit would then discard the physical directions rather than prove them massive.
 
-The exceptional flag construction becomes physically relevant only if a realization map turns every gauge-invariant nonvacuum excitation into a nonzero normal flag response. A single finite-dimensional normal space cannot cover an infinite-dimensional regulated OS Hilbert space with a uniform lower bound. The finite fibre must instead be deployed over field configurations, regions, links, or boundary data, producing an infinite-dimensional response carrier before a full-sector coverage estimate can even be stated.
+If the finite normal Hessian itself is proposed as the mass precursor, the exceptional flag construction requires a realization map that turns every gauge-invariant nonvacuum excitation into a nonzero normal flag response. A single finite-dimensional normal space cannot cover an infinite-dimensional regulated OS Hilbert space with a uniform lower bound. The finite fibre must instead be deployed over field configurations, regions, links, or boundary data, producing an infinite-dimensional response carrier before a full-sector coverage estimate can even be stated.
+
+The holonomy route in [[exceptional-normal-holonomy-and-the-residual-gauge-form]] performs a different deployment. It contracts normal-fibre transport to a scalar plaquette class function and an invariant link metric, which then act directly on gauge-configuration wavefunctions. [[exceptional-wilson-same-carrier-factorization]] proves that this route needs no linear embedding of \(N_{\mathrm{def}}\) into the Yang--Mills Hilbert carrier. The four-dimensional normal Hessian still does not become an excitation gap; instead, the character and trace form of the separate 149-dimensional response representation \(N_{\mathrm{def}}\) become coefficients of the standard Wilson--Kogut--Susskind operator.
 
 This gives a useful no-shortcut result:
 
@@ -630,7 +632,7 @@ $$
 \tag{JI38a}
 $$
 
-The missing bridge is not merely multiplication by an energy unit. It is a carrier-changing analysis map, a proof that its kernel is exactly the vacuum, and a kinetic comparison with the physical clock generator.
+For the Hessian route, the missing bridge is not merely multiplication by an energy unit. It is a carrier-changing analysis map, a proof that its kernel is exactly the vacuum, and a kinetic comparison with the physical clock generator. For the holonomy route, that finite carrier bridge is already explicit; the missing theorem is uniform coercivity of the resulting interacting vacuum form.
 
 ## Shorting turns the flag response toward a local fact
 
@@ -773,15 +775,15 @@ is [[library/general-representation-theory-of-jordan-algebras/inq|Jacobson's reg
 
 The exceptional construction now replaces two parts of the gauge-theory epicycle at finite regulator: local lifts of the oriented-flag orbit derive the \(H\)-valued gauge-coordinate law, and the full normal character pulls back to exactly the fundamental color Wilson action. A full Copernican replacement still requires:
 
-1. a principled carrier choice between the reduced oriented bundle, whose canonical normal is not faithful, and the full defining-data quotient, whose 149-dimensional normal is faithful but whose physical status must be justified;
+1. a principled choice between the reduced oriented normal, which is not faithful, and the 149-dimensional defining-data quotient as the holonomy response probe whose character and trace metric are physically used;
 2. a principle selecting the color-only member, its state and coupling trajectory, rather than merely declaring the exact pullback along \(SU(3)_{\mathrm c}\hookrightarrow H\);
 3. a continuum map from the finite flag-comparison carrier to a net of Type-III local observable algebras, or a complete OS limit of the recovered Wilson measures;
 4. a first-order realization yielding physical Lorentz chirality and passing local and global anomaly tests;
-5. a proof that the resulting holonomy or shorted response detects every gauge-invariant nonvacuum direction uniformly through infinite volume and continuum removal;
-6. a fixed comparison with the OS Hamiltonian form and, after Poincare reconstruction, the full mass Casimir; and
+5. a regulator-uniform Poincare estimate showing that the induced electric derivative form detects every gauge-invariant nonvacuum direction in the interacting vacuum law;
+6. a fixed transfer-to-Hamiltonian comparison and, after OS and Poincare reconstruction, the full mass Casimir; and
 7. a dimensional yardstick derived independently of the observed glueball spectrum.
 
-The finite identities are now stronger than a spectrum target: (JI36)--(JI37d) give an explicit orientation lift and a canonically normalized reduced Hessian, while [[exceptional-normal-holonomy-and-the-residual-gauge-form]] derives the stabilizer torsor, shows that the 149-dimensional defining-data normal is faithful, and proves the exact color identity \(Q_N=288Q_W\) with \(\beta_W=144\beta\). The next nontrivial theorem is consequently physical and regulator dependent:
+The finite identities are now stronger than a spectrum target: (JI36)--(JI37d) give an explicit orientation lift and a canonically normalized reduced Hessian, while [[exceptional-normal-holonomy-and-the-residual-gauge-form]] derives the stabilizer torsor, shows that the 149-dimensional defining-data normal is faithful, and proves the exact color identity \(Q_N=288Q_W\) with \(\beta_W=144\beta\). If the Hessian route is retained, its next nontrivial theorem is the physical, regulator-dependent bound
 
 $$
 \boxed{
@@ -793,6 +795,19 @@ $$
 \tag{JI42}
 $$
 
-together with the required OS and Poincare convergence. Here the factors must arise from one declared carrier and cannot be chosen to fit the known spectrum. Even before that bridge, (JI21), (JI36), (JI37b), and (JI37d) derive symmetry, orientation loss, and dimensionless normal rigidity from the same pointed whole. That is a pre-QFT Copernican advance rather than a fit to the epicycles; it is not yet a theorem about the Yang--Mills spectrum.
+together with the required OS and Poincare convergence. Here the factors must arise from one declared carrier and cannot be chosen to fit the known spectrum. The holonomy route has a sharper direct target: if
+\[
+\Theta_r
+:=
+\frac{\lambda_{\mathrm P}^{\mathrm{GI}}(\psi_{0,r}^2\mu_{\mathrm H};b_N)}
+{g(\Gamma_r)/18},
+\]
+then the exact finite-regulator identity is
+\[
+\Delta_r
+=
+\kappa_{N,r}\frac{g(\Gamma_r)}{18}\Theta_r.
+\]
+Its missing theorem is a positive lower limit of this product in independently fixed physical units, followed by the same OS and Poincare convergence. Even before either bridge, (JI21), (JI36), (JI37b), and (JI37d) derive symmetry, orientation loss, and dimensionless normal rigidity from the same pointed whole. That is a pre-QFT Copernican advance rather than a fit to the epicycles; it is not yet a theorem about the Yang--Mills spectrum.
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/jordan_idempotency_gap_receipt.py|The Peirce receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/jordan-idempotency-gap-receipt-output.txt|its stored output]] verify the idempotency spectra and dimension balances. [[contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional_flag_linearization_receipt.py|The flag-linearization receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional-flag-linearization-receipt-output.txt|its stored output]] prove the standard continuous constraint's kernel dimension by exact modular rank plus the cited orbit dimension. The [[contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional_normal_holonomy_receipt.py|normal-holonomy receipt]] checks the reduced Hessian ledger, faithful-normal representation arithmetic, and exact color-Wilson normalization. These receipts do not prove physical chirality, select a Yang--Mills carrier or state, or imply a continuum gap.

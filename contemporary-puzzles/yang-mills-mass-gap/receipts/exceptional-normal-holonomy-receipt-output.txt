@@ -1,6 +1,6 @@
 PASS order-three trace and fixed rank: trace(w) = 9 + 9*(2 cos(2*pi/3)) = 0 and rank(P_B) = 9
-PASS signed cyclic residue: (w-w^2)^2 = w+w^2-2 = -3 on B-perp, hence I_B^2 = -1
-PASS orientation reversal parity: I_B -> -I_B sends the ninth symplectic power to its negative
+PASS signed cyclic residue: (w-w^2)^2 = w+w^2-2 = -3 on B-perp, hence I_w^2 = -1
+PASS orientation reversal parity: I_w -> -I_w sends the ninth symplectic power to its negative
 PASS normal branching subtraction: (J + Hom(B,C)) - T(F4/H) equals the displayed H-module
 PASS normal representation dimension: 5 + 72 + 72 = 149
 PASS SU(2) index: I_SU2 = 71

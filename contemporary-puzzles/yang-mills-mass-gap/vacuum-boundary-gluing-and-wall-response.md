@@ -185,11 +185,13 @@ This theorem separates three notions that are easily conflated.
 - Integrating bulk histories over \(r^{-1}(\varphi)\) is genuinely many-to-one at the history level.
 - Infinite normalized depth has the rank-one limit \(P_0\). It forgets every component orthogonal to \(\psi_0\). The convergence rate is \(r^N\), and
 
+Writing \(a_\tau\) for Euclidean temporal **length** and \(\delta\tau=a_\tau/c\) for clock duration,
+
 $$
--\frac{\hbar}{a_\tau}\log r
+-\frac{\hbar c}{a_\tau}\log r
 $$
 
-is the finite-regulator energy gap when \(T=e^{-a_\tau H/\hbar}\).
+is the finite-regulator energy gap when \(T=e^{-a_\tau H/(\hbar c)}=e^{-\delta\tau H/\hbar}\).
 
 In infinite volume compactness is lost. A unique ground vector can still give strong convergence \(e^{-\tau(H-E_0)/\hbar}\to P_0\) as \(\tau\to\infty\) without norm convergence. If positive spectrum accumulates at zero, then
 
@@ -229,7 +231,7 @@ $$
 \,\mathrm d\mu(x)\mathrm d\mu(y).
 $$
 
-This Doob transform operates on functions of one boundary slice and gives their conditional transport to the next slice. Its contraction coefficient on centered functions is \(r\), so \(1-r\) is the discrete-time relaxation gap; the physical energy gap is the logarithmic rate \(-\hbar a_\tau^{-1}\log r\). It is a temporal conditional law, not a measurement instrument and not a spatial Dobrushin specification.
+This Doob transform operates on functions of one boundary slice and gives their conditional transport to the next slice. Its contraction coefficient on centered functions is \(r\), so \(1-r\) is the discrete-time relaxation gap; the physical energy gap is the logarithmic rate \(-\hbar c a_\tau^{-1}\log r=-\hbar\delta\tau^{-1}\log r\). It is a temporal conditional law, not a measurement instrument and not a spatial Dobrushin specification.
 
 ## The logarithmic residue is a boundary potential
 
@@ -498,17 +500,252 @@ $$
 
 Even sparse \(K\) generally has dense \(K_{II}^{-1}\). A local bulk action therefore does not imply a local boundary potential.
 
+### The nonlinear residue has a fixed sign
+
+The preceding identity gives an exact meaning to the cost of forgetting, but it also prevents a misleading conclusion. Let \(B\) be the retained boundary manifold, let \(F\) be a closed hidden-fibre manifold, take \(\beta>0\), and use a fixed Riemannian product \(B\times F\) whose fibre metric and volume are independent of \(x\). Put
+
+$$
+Z_\beta(x)
+:=
+\int_F e^{-\beta V(x,y)}\,\mathrm d\operatorname{vol}_F(y),
+\qquad
+A_\beta(x)
+:=
+-\frac1\beta\log Z_\beta(x).
+\tag{VB24a}
+$$
+
+Assume \(V\in C^2(B\times F)\), \(Z_\beta>0\), and sufficient domination to differentiate twice under the integral. For a genuinely varying fibre metric, horizontal-connection, fibre-volume, and mean-curvature terms must be added. With
+
+$$
+\mathrm d\mu_x(y)
+:=
+Z_\beta(x)^{-1}e^{-\beta V(x,y)}
+\,\mathrm d\operatorname{vol}_F(y),
+\tag{VB24b}
+$$
+
+one obtains, for \(u,v\in T_xB\),
+
+$$
+\boxed{
+\nabla_B^2A_\beta(u,v)
+=
+\mathbb E_{\mu_x}
+\!\left[\nabla_{BB}^2V(u,v)\right]
+-
+\beta\operatorname{Cov}_{\mu_x}
+\!\left(\mathrm d_BV(u),\mathrm d_BV(v)\right).}
+\tag{VB24c}
+$$
+
+The covariance is positive semidefinite. Marginalization therefore never adds pointwise curvature beyond the conditional mean visible Hessian. It can discard globally soft directions and thereby leave a better retained spectral constant, but every hidden direction coupled to the retained score subtracts from the local effective stiffness. This is the potential-theoretic analogue of “observed information = complete information minus missing information.”
+
+Suppose more quantitatively that every conditional law \(\mu_x\) obeys the fibre Poincare inequality
+
+$$
+\operatorname{Var}_{\mu_x}(h)
+\leq
+\lambda_x^{-1}
+\int_F\lvert\nabla_Fh\rvert^2\,\mathrm d\mu_x.
+\tag{VB24d}
+$$
+
+Then (VB24c), applied to \(h=\mathrm d_BV(u)\), gives
+
+$$
+\boxed{
+\nabla_B^2A_\beta(u,u)
+\geq
+\mathbb E_{\mu_x}
+\!\left[
+\nabla_{BB}^2V(u,u)
+-
+\frac{\beta}{\lambda_x}
+\left\lvert\nabla_F\!\left(\mathrm d_BV(u)\right)\right\rvert^2
+\right].}
+\tag{VB24e}
+$$
+
+Thus the nonlinear descent obstruction is not “information was lost” by itself. It is the product of hidden susceptibility \(\lambda_x^{-1}\) and the mixed derivative that tells how strongly a retained variation moves the hidden conditional law.
+
+When the fibre Bakry--Emery tensor
+
+$$
+\mathcal R_x
+:=
+\operatorname{Ric}_F
++\beta\nabla_{FF}^2V(x,\cdot)
+\tag{VB24f}
+$$
+
+is positive definite, the Riemannian Brascamp--Lieb inequality sharpens (VB24e) to
+
+$$
+\nabla_B^2A_\beta(u,u)
+\geq
+\mathbb E_{\mu_x}
+\!\left[
+\nabla_{BB}^2V(u,u)
+-
+\beta
+\left\langle
+\mathcal R_x^{-1}
+\nabla_F\!\left(\mathrm d_BV(u)\right),
+\nabla_F\!\left(\mathrm d_BV(u)\right)
+\right\rangle
+\right],
+\tag{VB24g}
+$$
+
+with the displayed convention that \(\mathcal R_x\) includes the factor \(\beta\) in its Hessian term. In a flat Euclidean fibre, if
+
+$$
+\nabla^2V
+=
+\begin{pmatrix}
+A&M\\
+M^{\mathsf T}&D
+\end{pmatrix},
+\qquad D\succ0,
+\tag{VB24h}
+$$
+
+the equivalent cancellation of the \(\beta\) factors gives the clean shorting bound
+
+$$
+\boxed{
+\nabla^2A_\beta
+\succeq
+\mathbb E_{\mu_x}
+\!\left[A-MD^{-1}M^{\mathsf T}\right].}
+\tag{VB24i}
+$$
+
+For a Gaussian action this is equality and recovers \(K_{BB}-K_{BI}K_{II}^{-1}K_{IB}\). For a nonlinear action it is a sufficient lower estimate: visible curvature must dominate the susceptibility-weighted hidden coupling.
+
+There is also an exact nonlinear Schur expression, but its hidden block is a Witten operator rather than the pointwise matrix \(D\). Put \(S=\beta V\), \(W=\beta A_\beta\), and
+
+$$
+\mathcal K_x^{\mathrm{ex}}
+:=
+\overline{\operatorname{Ran}\mathrm d_F}
+\subset L^2(T^*F,\mu_x).
+\tag{VB24ia}
+$$
+
+For \(u\in T_xB\), define the conditional hidden score one-form
+
+$$
+\mathcal B_xu
+:=
+\mathrm d_F\!\left(\mathrm d_BS(u)\right)
+\in\mathcal K_x^{\mathrm{ex}},
+\tag{VB24ib}
+$$
+
+and let \(C_x\) be the conditional one-form Witten operator restricted to that exact-form subspace,
+
+$$
+C_x
+=
+\left(
+\mathrm d_F\mathrm d_{\mu_x}^*
++\mathrm d_{\mu_x}^*\mathrm d_F
+\right)\big|_{\mathcal K_x^{\mathrm{ex}}}
+=
+\nabla_{\mu_x}^*\nabla
++\operatorname{Ric}_F
++\nabla_{FF}^2S.
+\tag{VB24ic}
+$$
+
+Under the standard self-adjointness, domain, conditional Poincare, and closed-range hypotheses, the Helffer--Sjostrand covariance identity gives
+
+$$
+\operatorname{Cov}_{\mu_x}
+\!\left(\mathrm d_BS(u),\mathrm d_BS(v)\right)
+=
+\left\langle
+\mathcal B_xu,C_x^{-1}\mathcal B_xv
+\right\rangle_{L^2(T^*F,\mu_x)}.
+\tag{VB24id}
+$$
+
+Consequently,
+
+$$
+\boxed{
+(\operatorname{Ric}_B+\nabla_B^2W)_x(u,v)
+=
+\operatorname{Ric}_B(u,v)
++\mathbb E_{\mu_x}[\nabla_{BB}^2S(u,v)]
+-
+\left\langle
+\mathcal B_xu,C_x^{-1}\mathcal B_xv
+\right\rangle.}
+\tag{VB24ie}
+$$
+
+This is the genuine nonlinear Schur expression. The inverse operates on conditional hidden score one-forms; the resulting form operates on retained boundary tangents; its curvature consequence governs functions in \(L^2(\bar\mu)\). None of those carriers is automatically the OS or Kogut--Susskind Hilbert carrier. In the constant quadratic Gaussian, \(C_x^{-1}\) reduces on linear scores to the inverse hidden Hessian and (VB24ie) becomes the ordinary matrix Schur complement. Outside that case, the effective Hessian is not generally the Anderson--Trapp short of a pointwise Hessian matrix.
+
+To call it an operator short in the Anderson--Trapp sense requires the additional positivity and form-domain hypotheses for
+
+$$
+\mathbb A_x
+=
+\begin{pmatrix}
+G_x^\sharp&\mathcal B_x^*\\
+\mathcal B_x&C_x
+\end{pmatrix}
+\geq0,
+\qquad
+G_x(u,v)
+=
+\operatorname{Ric}_B(u,v)
++\mathbb E_{\mu_x}[\nabla_{BB}^2S(u,v)].
+\tag{VB24if}
+$$
+
+Without this block positivity, (VB24ie) remains an exact covariance/Schur formula but is not a positive operator short.
+
+The primary mathematical precedents are [Brascamp--Lieb's covariance inequality](https://doi.org/10.1016/0022-1236(76)90004-5), the [Helffer--Sjostrand inverse-Witten covariance formula](https://doi.org/10.1007/BF02186817), and the [Riemannian weighted-curvature extension](https://arxiv.org/abs/1310.2526). Their hypotheses are part of the statement; none licenses an inverse of a gauge-degenerate pointwise Hessian on a stratified quotient.
+
+The corresponding sufficient boundary-gap criterion is tensorial. The marginal measure
+
+$$
+\mathrm d\bar\mu(x)
+\propto
+e^{-\beta A_\beta(x)}\,\mathrm d\operatorname{vol}_B(x)
+\tag{VB24j}
+$$
+
+has Bakry--Emery tensor
+
+$$
+\operatorname{Ric}_B
++\beta\mathbb E_{\mu_x}[\nabla^2_{BB}V]
+-\beta^2\operatorname{Cov}_{\mu_x}(\mathrm d_BV).
+\tag{VB24k}
+$$
+
+If \(B\) is closed and (VB24d) together with the corresponding mixed-derivative estimate makes this tensor at least \(\rho g_B\) everywhere for some \(\rho>0\), the Bakry--Emery criterion gives \(\lambda_{\mathrm P}(\bar\mu)\geq\rho\). With boundary, the corresponding Neumann/convex-boundary hypotheses are required. This is a valid whole-to-boundary stopping condition, not a necessary characterization.
+
+There is a decisive compact-group firewall. No smooth function on a closed connected Riemannian manifold can satisfy \(\nabla^2W\succeq\kappa g\) globally for \(\kappa>0\): tracing and integrating would give \(0=\int\Delta W\geq\kappa\dim(B)\operatorname{vol}(B)>0\). Therefore no proof on \(SU(3)^E\) can rest on a globally positive Hessian of a smooth Wilson or effective boundary potential. Exponential coordinates do not evade the topology, and the gauge quotient is generally stratified. The global objects that remain viable are \(\operatorname{Ric}+\operatorname{Hess}W\), conditional or global Poincare and logarithmic-Sobolev inequalities, or block-influence estimates formulated upstairs on \(SU(3)^E\) and then restricted to gauge-invariant functions.
+
+This also explains why the direct marginal-inheritance theorem below is stronger than the Hessian diagnostic on the compact lattice carrier. If the full Euclidean measure already has a uniform Poincare inequality for the product carré du champ, its coordinate marginal inherits that bound by testing functions constant in the forgotten variables. No globally convex effective potential is needed. Equations (VB24c)--(VB24k) are most useful for diagnosing or constructing the bulk/conditional coercivity; they do not replace it.
+
 ## Concept ledger in the boundary construction
 
 | Concept | Algebraic or geometric role here | What it is not |
 |---|---|---|
 | space | incidence and locality of boundary variables, together with the spatial operator inside the bulk extension problem; a configuration metric may be induced by the flux form | a container through which already-individuated things move |
-| time | the composition parameter of transfer kernels; Lorentzian time is the positive-energy one-parameter group recovered after OS reconstruction | identical to energy merely because \(a_\tau H/\hbar\) is dimensionless |
+| time | the composition parameter of transfer kernels; Lorentzian time is the positive-energy one-parameter group recovered after OS reconstruction | identical to energy merely because \(a_\tau H/(\hbar c)=\delta\tau H/\hbar\) is dimensionless |
 | energy | the self-adjoint generator of transfer composition and its quadratic form on the physical carrier | a synonym for mass or information |
 | mass gap | the positive lower edge of that generator above the vacuum; in the Gaussian member it is equivalently a calibrated lower edge of boundary response | a finite outcome set, a spacetime pixel, or a gauge-field mass term |
 | causality | the admissible composition, reflection, locality, and later Lorentzian commutation structure that makes boundary preparations compatible | observation itself, an entropy number, or a selected detector result |
 
-This ledger makes the reversal exact without turning equations of dimensions into equations of concepts. The dimensionless exponent \(a_\tau H/\hbar\) relates a temporal interval and an energy generator. It does not say that time *is* energy. Likewise, \(\Omega=\sqrt{-\Delta+m^2}\) relates spatial extension to boundary response. It does not say that mass *is* spatial curvature in every geometric register.
+This ledger makes the reversal exact without turning equations of dimensions into equations of concepts. The dimensionless exponent \(a_\tau H/(\hbar c)=\delta\tau H/\hbar\) relates a temporal interval and an energy generator. It does not say that time *is* energy. Likewise, \(\Omega=\sqrt{-\Delta+m^2}\) relates spatial extension to boundary response. It does not say that mass *is* spatial curvature in every geometric register.
 
 ## What this says about “here and now”
 
@@ -730,10 +967,10 @@ $$
 This limiting law is exactly the ground-state measure for the Hamiltonian
 
 $$
-H_T:=-\frac{\hbar}{a_\tau}\log T.
+H_T:=-\frac{\hbar c}{a_\tau}\log T.
 $$
 
-It is the measure in the Kogut--Susskind ground-state-transform theorem only if \(T=e^{-a_\tau H_{\mathrm{KS}}/\hbar}\) was defined from that Hamiltonian, or after a controlled temporal-continuum theorem identifies \(H_T\) with \(H_{\mathrm{KS}}\). The ordinary isotropic finite-spacing Wilson transfer matrix does not make that identification automatic. At fixed regulator, Euclidean sewing and ground-state transformation meet exactly for the same transfer Hamiltonian; changing Hamiltonians requires a comparison theorem.
+It is the measure in the Kogut--Susskind ground-state-transform theorem only if \(T=e^{-a_\tau H_{\mathrm{KS}}/(\hbar c)}\) was defined from that Hamiltonian, or after a controlled temporal-continuum theorem identifies \(H_T\) with \(H_{\mathrm{KS}}\). The ordinary isotropic finite-spacing Wilson transfer matrix does not make that identification automatic. At fixed regulator, Euclidean sewing and ground-state transformation meet exactly for the same transfer Hamiltonian; changing Hamiltonians requires a comparison theorem.
 
 Define the quantum boundary effective action
 
@@ -848,7 +1085,7 @@ h_{\mathrm{KS},\rho,L}^{\mathrm{OS}}[\Psi]
 \tag{OS8}
 $$
 
-The coincidence of a vacuum vector and an invariant metric alone would not establish this intertwining or form identity. For the isotropic Wilson transfer Hamiltonian \(H_{T,\rho}=-(\hbar/a_\tau)\log T_\rho\), similarly set
+The coincidence of a vacuum vector and an invariant metric alone would not establish this intertwining or form identity. For the isotropic Wilson transfer Hamiltonian \(H_{T,\rho}=-(\hbar c/a_\tau)\log T_\rho\), similarly set
 
 $$
 H_{T,\rho,L}^{\mathrm{OS}}
@@ -931,7 +1168,52 @@ $$
 
 Closure extends the inequality from the \(C^1\) core to its coordinate-form domain. This marginal-inheritance theorem needs neither a local expression for \(W_{a,L}\) nor a boundary DLR theorem. The same restriction argument passes a logarithmic-Sobolev inequality. It applies to a coordinate marginal equipped with the inherited product carré du champ, not to an arbitrary marginal carrying an unrelated form.
 
-[[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen--Zhu--Zhu]] prove volume-independent Euclidean Poincare and logarithmic-Sobolev constants for unit-spacing periodic tori with \(G=SO(N_c)\) or \(SU(N_c)\) at explicit strong coupling. This is a direct fixed-spacing precedent and becomes an input to the sewing route only after the required rectangular or anisotropic cylinder extension and transfer matching are proved. Their “mass gap” is exponential Euclidean covariance decay in that regime, not by itself the transfer-Hamiltonian spectral theorem sought here. Three gaps remain:
+[[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen--Zhu--Zhu]] prove a sharp fixed-spacing strong-coupling precedent. With normalization
+
+$$
+\mathrm d\mu_{\Lambda,N,\beta}
+\propto
+\exp\!\left(
+N\beta\operatorname{Re}\sum_p\operatorname{Tr}Q_p
+\right)
+\prod_e\mathrm d\sigma_N(Q_e),
+$$
+
+their volume-uniform Bakry--Emery constant on unit-spacing periodic \(d\)-tori, \(d>1\), is
+
+$$
+K_{\mathrm{SZZ}}
+=
+\begin{cases}
+\dfrac{N-2}{4}-8N|\beta|(d-1),&G=SO(N),\\[1mm]
+\dfrac N2-8N|\beta|(d-1),&G=SU(N).
+\end{cases}
+\tag{VB36a}
+$$
+
+Hence they obtain
+
+$$
+\operatorname{Ent}_\mu(F^2)
+\leq\frac{2}{K_{\mathrm{SZZ}}}\mathcal E(F,F),
+\qquad
+\operatorname{Var}_\mu(F)
+\leq\frac{1}{K_{\mathrm{SZZ}}}\mathcal E(F,F)
+\tag{VB36b}
+$$
+
+when
+
+$$
+|\beta|<\frac{N-2}{32N(d-1)}
+\quad\text{for }SO(N),
+\qquad
+|\beta|<\frac1{16(d-1)}
+\quad\text{for }SU(N).
+\tag{VB36c}
+$$
+
+The same constants pass to their unique infinite-volume measure. Their separate covariance theorem gives exponential decay for disjoint smooth cylinder observables, with a rate depending on \(K_{\mathrm{SZZ}},N,d\). This is a genuine fixed-spacing strong-coupling Euclidean mass-gap result. For \(\beta\geq0\), connecting it to a fixed-lattice transfer gap still requires Wilson reflection positivity, an explicit OS transfer identification, and density of the local physical core. It does not control the anisotropic Kogut--Susskind limit or the asymptotically free \(a\to0\) trajectory. Their normalization obeys \(\beta_W=N^2\beta_{\mathrm{SZZ}}\) relative to the conventional Wilson exponent \((\beta_W/N)\sum_p\operatorname{ReTr}U_p\); this parameter is unrelated to the exceptional-model parameter satisfying \(\beta_W=144\beta_{\mathrm{exc}}\). Three gaps remain:
 
 1. uniformity in temporal depth and in the precise boundary/cylinder family must match the sewing limit;
 2. the inherited coordinate-gradient form must be compared with the ground-state form of \(H_T\), or a temporal-continuum limit must identify it with the Kogut--Susskind flux form; and
@@ -1103,10 +1385,12 @@ This is the Schrödinger stopping rule from the operator-signature verdict, spec
 | Exact under reflection-interface hypotheses | conditional expectation onto a reflection-fixed Markov separator factors the OS form; after quotient completion and dense interface insertions it gives a unitary \(B_\rho^{\mathrm{OS}}\) with reference-complement coverage one, and a closable interface derivative gives a complex-linear, phase-sensitive analysis map; calling the reference vector the unique vacuum or the derivative complete requires additional theorems |
 | Exact, Gaussian | the half-space Dirichlet-to-Neumann operator is \(\Omega\), the glued logarithmic Hessian is \(2\Omega/\hbar\), and kinetic solder returns the gap \(\hbar\omega_{\min}\) |
 | Standard, finite lattice | reflection-positive Wilson gauge theory admits a positive transfer construction; temporal boundary amplitudes are Schrodinger functionals |
-| Exact, finite transfer regulator | the glued vacuum measure is the carrier of the ground-state transform for \(H_T=-(\hbar/a_\tau)\log T\) |
+| Exact, finite transfer regulator | the glued vacuum measure is the carrier of the ground-state transform for \(H_T=-(\hbar c/a_\tau)\log T\), with \(a_\tau\) a Euclidean length |
 | Conditional identification | this is the Kogut--Susskind flux form only for a semigroup built from \(H_{\mathrm{KS}}\), or after a controlled Hamiltonian limit and form comparison |
 | Carrier firewall | a thick OS separator is not automatically the canonical transfer slice; identifying its derivative with electric flux requires a special reflection geometry or a domain-compatible interface-to-slice map |
 | Exact marginal theorem | a bulk Poincare or logarithmic-Sobolev inequality for a product carré du champ passes to a coordinate marginal equipped with its inherited coordinate form |
+| Exact nonlinear marginal identity; conditional lower bounds | the retained effective Hessian is conditional mean visible Hessian minus conditional score covariance; under the Helffer--Sjostrand domain and closed-range hypotheses this is the Witten short \(G-B^*C^{-1}B\), while conditional Poincare and Riemannian Brascamp--Lieb inequalities give sufficient estimates |
+| Compact-carrier no-go | no smooth potential on a closed connected manifold such as \(SU(3)^E\) has globally positive Hessian; a global proof must use weighted Ricci curvature, a functional inequality, or another topology-compatible estimate |
 | Interpretation | the boundary effective action is a precise candidate for a wall residue; a causal-charge interpretation additionally requires a common continuous action, a normalized generator, a moment map or covariant boundary charge, and a proved flux law |
 | Typed no-go | a torsor, strict descent, finite outcome algebra, OS quotient, transfer contraction, and mass gap are not the same construction |
 | Open theorem target | derive regulator- and volume-uniform boundary coercivity and weak influence from the Yang--Mills bulk theory along the continuum trajectory |

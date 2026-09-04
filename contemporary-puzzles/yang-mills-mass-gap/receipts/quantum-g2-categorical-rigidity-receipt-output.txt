@@ -1,0 +1,26 @@
+PASS q-inversion dimension symmetry q=0.5: actual=1285.25488281, expected=1285.25488281
+PASS eta presentation q=0.5: actual=1285.25488281, expected=1285.25488281
+PASS q-inversion dimension symmetry q=0.8: actual=18.7513365661, expected=18.7513365661
+PASS eta presentation q=0.8: actual=18.7513365661, expected=18.7513365661
+PASS q-inversion dimension symmetry q=1.0: actual=7, expected=7
+PASS eta presentation q=1.0: actual=7, expected=7
+PASS q-inversion dimension symmetry q=1.25: actual=18.7513365661, expected=18.7513365661
+PASS eta presentation q=1.25: actual=18.7513365661, expected=18.7513365661
+PASS q-inversion dimension symmetry q=2.0: actual=1285.25488281, expected=1285.25488281
+PASS eta presentation q=2.0: actual=1285.25488281, expected=1285.25488281
+PASS classical quantum dimension: actual=7, expected=7
+PASS classical index capacity: actual=3.89182029811, expected=3.89182029811
+PASS Jones certificate at q=1: actual=0, expected=0
+PASS firewall: positive 2 log(7) capacity coexists with zero Jones certificate
+PASS certificate inversion symmetry q=0.6: actual=4.70787160494, expected=4.70787160494
+PASS certificate inversion symmetry q=0.9: actual=0.135690001524, expected=0.135690001524
+PASS certificate inversion symmetry q=1.1: actual=0.110667174373, expected=0.110667174373
+PASS certificate inversion symmetry q=1.7: actual=5.23580960597, expected=5.23580960597
+PASS dimension small-eta coefficient: actual=168.000005019, limit=168
+PASS certificate small-eta coefficient: actual=12.0000000018, limit=12
+PASS conditional cosmic-depth inversion: actual=0.137, expected=0.137
+PASS twofold q presentation: actual=10.5913831282, expected=10.5913831282
+PASS threshold: depth below 2 n log(7) has no positive-real-q solution
+PASS post-search one-channel diagnostic CMB-conditioned: D=281.314211935, n_max=72, D-144log(7)=1.10315047101, eta_72=0.0178803869406, q_72=1.01804119808
+PASS post-search one-channel diagnostic local-ladder: D=281.193848789, n_max=72, D-144log(7)=0.982787324858, eta_72=0.0168753010507, q_72=1.01701849328
+PASS scope: scalar identities only; no property-(T) or mass-gap claim tested

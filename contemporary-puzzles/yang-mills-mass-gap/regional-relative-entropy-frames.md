@@ -1,8 +1,8 @@
 # Regional Relative-Entropy Frames
 
-A relative-entropy Hessian can act on Yang--Mills excitations only after a family of observable-access channels pulls state tangents back to the physical vacuum carrier. The global pure vacuum does not itself support a finite BKM Hessian in transverse directions, while faithful regional restrictions can. Their joint pullback is a dimensionless quadratic form whose positive lower-frame bound is exactly an infinitesimal informational-completeness condition. Local channels alone can miss phase, loop, or topological directions; nonlocal flux or boundary channels may be required to close that kernel. A mass gap follows only after an independent clock-energy form dominates this complete distinction frame uniformly through the continuum limit.
+A relative-entropy Hessian can act on Yang--Mills excitations only after a family of observable-access channels pulls state tangents back to the physical vacuum carrier. The global pure vacuum does not itself support a finite BKM Hessian in transverse directions, while faithful regional restrictions can. Their joint pullback is a dimensionless quadratic form whose positive lower-frame bound is exactly an infinitesimal informational-completeness condition. Local channels alone can miss phase, loop, or topological directions; nonlocal flux or boundary channels may be required to close that kernel. For arbitrary channels, a mass gap still needs a separate clock-energy comparison. For localized local-unitary state paths, however, a finite-width QFT theorem now supplies that comparison: the remaining hard gate is a uniform lower frame on a Hamiltonian form core.
 
-**Status: [EXACT FINITE-DIMENSIONAL PULLBACK AND FRAME THEOREM; EXACT TWO-QUBIT BLIND-DIRECTION WITNESS; CONDITIONAL TYPE-III EXTENSION; OPEN YANG--MILLS REALIZATION].** The finite statements below are elementary consequences of the BKM metric and finite-dimensional frame theory. They neither construct continuum Yang--Mills nor prove the energy comparison.
+**Status: [EXACT FINITE-DIMENSIONAL PULLBACK AND FRAME THEOREM; EXACT TWO-QUBIT BLIND-DIRECTION WITNESS; CONDITIONAL TYPE-III EXTENSION; EXACT LOCALIZED ENTROPY--ENERGY DEDUCTION; OPEN YANG--MILLS REALIZATION].** The finite statements below are elementary consequences of the BKM metric and finite-dimensional frame theory. They do not construct continuum Yang--Mills. The physical energy comparison is established only for the localized state-path specialization stated below.
 
 ## The global pure-vacuum Hessian is not the carrier
 
@@ -390,7 +390,47 @@ E_*
 \tag{R17}
 $$
 
-in quadratic-form sense. Equation (R7) addresses the first inequality at finite regulator. It does no work on the second.
+in quadratic-form sense. Equation (R7) addresses the first inequality at finite regulator. It does no work on the second for an arbitrary channel family.
+
+There is now one important carrier-correct specialization. For a wedge-dual positive-energy translation-covariant QFT, a state localized in a region of width \(2R\) obeys Longo's bound
+
+$$
+S_B(\varphi\Vert\omega)
+\leq
+\frac{2\pi R}{\hbar c}\langle H\rangle_\varphi.
+$$
+
+Along a twice differentiable local-unitary path \(\varphi_s\) through the vacuum, define both entropy forms with the half-Hessian convention. Then [[localized-relative-entropy-and-the-energy-solder]] proves
+
+$$
+0\leq
+q_{B\to\mathcal N}^{\mathrm{loss}}
+\leq
+q_B
+\leq
+\frac{2\pi R}{\hbar c}\mathfrak h_{\mathrm{YM}}.
+\tag{R17a}
+$$
+
+Consequently, if the loss frame itself satisfies
+
+$$
+q_{B\to\mathcal N}^{\mathrm{loss}}[\Psi]
+\geq
+\kappa_B\|(1-P_0)\Psi\|^2
+\tag{R17b}
+$$
+
+on a complexified Hamiltonian form core, then
+
+$$
+\Delta_E
+\geq
+\frac{\hbar c}{2\pi R}\kappa_B.
+\tag{R17c}
+$$
+
+This does not follow for an arbitrary family \(\mathcal R_\alpha\), and Reeh--Schlieder norm density does not supply the required form-core property. But it replaces the formerly free solder in (R16) by an established locality-and-positive-energy theorem on the declared localized carrier.
 
 Quantum Markov-semigroup theory can relate entropy convexity, Dirichlet forms, logarithmic-Sobolev inequalities, and spectral gaps for an independently specified dissipative generator. [[library/gradient-flow-and-entropy-inequalities-for-quantum-markov-semigroups-with-detailed-balance/inq|Carlen--Maas]] provide a finite-dimensional detailed-balance construction. Its generator acts on an open-system or relaxation algebra; it is not the Lorentzian Yang--Mills Hamiltonian. To use it here one must prove either a ground-state-transform/OS identification with the physical Euclidean Hamiltonian form or the explicit domination in (R16). Calling Markov time “causal time” does not supply that theorem.
 

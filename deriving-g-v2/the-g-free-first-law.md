@@ -44,15 +44,21 @@ $$
 
 the price of measuring $\iota$ with rulers instead of counting it. Three of the programme's standing objects then line up without new assumptions: the areal descent modulus $\chi$ of [[program-core/localized-areal-response-geometry|localized areal response geometry]] is $\mathrm d\iota_{\mathrm{state}}/\mathrm dA$; the Einstein modulus $\eta_{\mathrm E}$ is $\mathrm d\iota_{\mathrm{grav}}/\mathrm dA$; and the matching field $\mathfrak r=\chi/\eta$ of [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] asserts the two ledgers are one ledger.
 
+[[contemporary-puzzles/yang-mills-mass-gap/mass-and-g-as-dual-exchange-rates|Mass and G as dual exchange rates]] gives the conditional composition with the transfer-rate presentation of mass. Its essential extra premise is not dimensional: the boundary ledger differential here must be proved equal, on every physical nonvacuum tangent, to the logarithmic transfer-attenuation differential. Under that same-ledger theorem the composition is $m=(c/4G)\,\mathrm dA/\mathrm d\tau$; without it, the repeated dimensionless middle term is an equivocation.
+
 ## The wall-inclusion target
 
 In the finite-index realization of [[spectral-wall-descent/inq|spectral wall descent]], the ledger has an algebraic candidate: the central edge-entropy assignment, with
 
 $$
-\iota(\text{cell})=\tfrac12\log\operatorname{Ind}_W(E)
+\iota_{\mathrm{edge}}(\text{cell})
+=
+\tfrac12\log\operatorname{Ind}_W(E_\tau)
 $$
 
 at saturation in the exact type-I product-edge model with its auxiliary tracial expectation, per $S(\chi)+D(\chi\Vert\tau)=\tfrac12\log\operatorname{Ind}_W(E_\tau)$ (receipt-verified in `receipts/`). This identity is not asserted for an arbitrary finite-index inclusion. The theorem target of this module is then the first pass's two welds in new variables:
+
+[[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld]] separately records the established full log-index capacity of an infinite-factor expectation; that supremal loss is not the selected edge entropy used here.
 
 1. **(Ledger additivity.)** The edge assignment is a countably additive, regulator-independent measure over wall patches — [[deriving-value-of-g/spectral-index-area-route|the all-patch identity]].
 2. **(Law.)** $q=\delta\iota$ holds at every admissible wedge of the wall family, with $q$ built from the transported horizontal state response — the same-tangent weld of [[deriving-value-of-g/causal-scale-derivation-target|the derivation target]].

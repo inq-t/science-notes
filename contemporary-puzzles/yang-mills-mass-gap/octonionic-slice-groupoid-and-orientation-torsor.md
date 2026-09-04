@@ -1,8 +1,8 @@
 # The Octonionic Slice Groupoid and the Orientation Torsor
 
-The ordinary orbit set of octonionic complex directions is a point, but the corresponding differentiable quotient stack is not: for \(S^6=G_2/SU(3)\), the transitive action groupoid presents \([S^6/G_2]\simeq\mathbf B SU(3)\). This is the precise category in which a selected complex direction is an origin for relational symmetry rather than a location in a prior space. The stack retains the stabilizer, all twisted \(SU(3)\)-torsors, and the universal associated color carrier \(W=(\mathbb C^3)_{\mathbb R}\); its free-path transgression gives the standard unconstrained link-configuration groupoid \(SU(3)^E\mathbin{/\mkern-6mu/}SU(3)^V\) on a fixed graph. The homogeneous presentation also carries one canonical \(G_2\)-invariant characteristic connection with full \(SU(3)\) holonomy, but it does not generate the arbitrary four-dimensional connections or quantum measure of Yang--Mills theory. Passing from oriented directions \(S^6\) to unoriented complex subalgebras \(\mathbb RP^6\) extends the stabilizer by a reversal \(\mathbb Z_2\); an \(SU(3)\)-reduction is then exactly a choice of handed origin in the resulting double-cover torsor. The internal Clifford grading changes sign under this reversal, whereas the Wilson and Killing responses descend because they are even. This derives a rigorous common grammar for origin, torsor, orientation, connection, and color, but it does not yet derive weak chirality, a physical scale, or a Yang--Mills mass gap.
+The ordinary orbit set of octonionic complex directions is a point, but the corresponding differentiable quotient stack is not: for \(S^6=G_2/SU(3)\), the transitive action groupoid presents \([S^6/G_2]\simeq\mathbf B SU(3)\). This is the precise category in which a selected complex direction is an origin for relational symmetry rather than a location in a prior space. The stack retains the stabilizer, all twisted \(SU(3)\)-torsors, and the universal associated color carrier \(W=(\mathbb C^3)_{\mathbb R}\); its free-path transgression gives the standard unconstrained link-configuration groupoid \(SU(3)^E\mathbin{/\mkern-6mu/}SU(3)^V\) on a fixed graph. The homogeneous presentation also carries one canonical \(G_2\)-invariant characteristic connection with full \(SU(3)\) holonomy, but it does not generate the arbitrary four-dimensional connections or quantum measure of Yang--Mills theory. Its defining complex rank-three bundle has \(c_3=\pm2\) and twisted Dirac index \(\pm1\), giving a genuine topological chiral-index seed without yet supplying Standard-Model chirality. Passing from oriented directions \(S^6\) to unoriented complex subalgebras \(\mathbb RP^6\) extends the stabilizer by a reversal \(\mathbb Z_2\); an \(SU(3)\)-reduction is then exactly a choice of handed origin in the resulting double-cover torsor. The internal Clifford grading changes sign under this reversal, whereas the Wilson and Killing responses descend because they are even. This derives a rigorous common grammar for origin, torsor, orientation, connection, color, and an index, but it does not yet derive weak chirality, a physical scale, or a Yang--Mills mass gap.
 
-**Status: [EXACT] for the transitive-groupoid equivalence, torsor classification, free-path lattice transgression, associated tangent and Clifford carriers, invariant-connection uniqueness and holonomy, orientation-reduction obstruction, and Wilson character; [EXACT CITED] for the \(G_2\to S^6\) transition function and the canonical nearly Kähler connection; [PROPOSED INTERPRETATION] for a selected orientation as the structural origin of an observed symmetry; [OPEN] for a dynamically selected reduction, arbitrary four-dimensional continuum gauge configurations, the Yang--Mills state, the Standard Model chiral bimodule, anomaly cancellation, interacting-vacuum coercivity, continuum reconstruction, and dimensional calibration.**
+**Status: [EXACT] for the transitive-groupoid equivalence, torsor classification, free-path lattice transgression, associated tangent and Clifford carriers, the Chern/index deduction, invariant-connection uniqueness and holonomy, orientation-reduction obstruction, and Wilson character; [EXACT CITED] for the \(G_2\to S^6\) transition function and the canonical nearly Kähler connection; [PROPOSED INTERPRETATION] for a selected orientation as the structural origin of an observed symmetry; [OPEN] for a dynamically selected reduction, arbitrary four-dimensional continuum gauge configurations, the Yang--Mills state, the Standard Model chiral bimodule, anomaly cancellation, interacting-vacuum coercivity, continuum reconstruction, and dimensional calibration.**
 
 ## The coarse quotient commits the category error
 
@@ -131,6 +131,56 @@ shows that the particular bundle \(G_2\to S^6\) has clutching function generatin
 \(\pi_5(SU(3))\). Equation (SG7) does not claim that this one bundle is universal;
 it says the *quotient stack of its transitive presentation* is the classifying
 stack because twisting and descent have been retained.
+
+## The generator bundle has a genuine chiral index
+
+The defining complex representation of the stabilizer gives the associated
+rank-three bundle
+
+\[
+E:=G_2\times_{SU(3)}\mathbb C^3\longrightarrow S^6.
+\tag{SG9e}
+\]
+
+As a real bundle, this is the tangent isotropy bundle equipped with the
+octonionic almost-complex structure. Hence its top Chern class is its Euler
+class. After fixing the compatible orientation,
+
+\[
+c_1(E)=c_2(E)=0,
+\qquad
+\int_{S^6}c_3(E)=\chi(S^6)=2.
+\tag{SG9f}
+\]
+
+Equivalently, the factor two is the Bott-integrality normalization of the
+generator in \(\pi_5(SU(3))\). The six-sphere is spin. For its chiral Dirac
+operator twisted by \(E\), the Atiyah--Singer formula has only the degree-six
+part of the Chern character available, and therefore
+
+\[
+\boxed{
+\operatorname{ind}D_E^+
+=\int_{S^6}\widehat A(TS^6)\operatorname{ch}(E)
+=\frac12\int_{S^6}c_3(E)
+=1,}
+\tag{SG9g}
+\]
+
+with simultaneous sign reversal if the orientation is reversed. This is a
+genuine chiral Fredholm index carried by the same octonionic stabilizer bundle.
+It is stronger than merely observing the balanced complexification
+\(\mathbf3\oplus\bar{\mathbf3}\).
+
+It is not yet Standard-Model chirality. The index concerns a six-dimensional
+elliptic Dirac operator on the internal sphere, not a constructed Lorentzian
+fermion carrier with the observed \(SU(3)\times SU(2)\times U(1)\)
+representations. Nor can it imply the bosonic Yang--Mills mass gap: an index
+counts a signed kernel difference and commonly protects zero modes, whereas a
+mass gap is a positive lower bound on the vacuum complement. A physical use of
+(SG9g) needs a dimensional-reduction or spectral-triple theorem, anomaly
+control, and a comparison with the integrable complex presentation discussed
+in [[s6-descent-defect-and-the-chirality-firewall]].
 
 ## Free-path transgression gives the lattice gauge groupoid
 

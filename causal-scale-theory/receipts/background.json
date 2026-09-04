@@ -379,7 +379,7 @@
     "1.2": 0.13667014362430202,
     "1.5": -0.09740480724745423
   },
-  "generated_utc": "2026-08-24T04:55:01.183275+00:00",
+  "generated_utc": "2026-09-04T02:25:44.757377+00:00",
   "parameters": {
     "dark0": 0.6893105,
     "omega_m0": 0.310598,
@@ -394,7 +394,7 @@
   "receipt": "causal-scale-theory homogeneous background",
   "runtime": {
     "platform": "Windows-11-10.0.26200-SP0",
-    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
   },
   "scope": "arithmetic and formula implementation only",
   "unit_branch": {

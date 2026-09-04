@@ -1,0 +1,54 @@
+PASS one-sided pure loss d=2: actual=0.69314718056, expected=0.69314718056
+PASS half categorical log-index d=2: actual=0.69314718056, expected=0.69314718056
+PASS amplified full log-index d=2: actual=1.38629436112, expected=1.38629436112
+PASS one-sided pure loss d=3: actual=1.09861228867, expected=1.09861228867
+PASS half categorical log-index d=3: actual=1.09861228867, expected=1.09861228867
+PASS amplified full log-index d=3: actual=2.19722457734, expected=2.19722457734
+PASS one-sided pure loss d=5: actual=1.60943791243, expected=1.60943791243
+PASS half categorical log-index d=5: actual=1.60943791243, expected=1.60943791243
+PASS amplified full log-index d=5: actual=3.21887582487, expected=3.21887582487
+PASS carrier-dependent capacity n=1, d=4: actual=1.38629436112, expected=1.38629436112
+PASS carrier-dependent capacity n=2, d=4: actual=2.07944154168, expected=2.07944154168
+PASS carrier-dependent capacity n=4, d=4: actual=2.77258872224, expected=2.77258872224
+PASS carrier-dependent capacity n=8, d=4: actual=2.77258872224, expected=2.77258872224
+PASS declared scalar fusion arithmetic n=0: actual=0, expected=0
+PASS horizon capacity ratio n=0: actual=1, expected=1
+PASS Hubble ratio n=0: actual=1, expected=1
+PASS common-count ratio n=0: actual=1, expected=1
+PASS yardstick-energy ratio n=0: actual=1, expected=1
+PASS additive-weld Hubble ratio n=0: actual=1, expected=1
+PASS declared scalar fusion arithmetic n=1: actual=2.19722457734, expected=2.19722457734
+PASS horizon capacity ratio n=1: actual=9, expected=9
+PASS Hubble ratio n=1: actual=0.333333333333, expected=0.333333333333
+PASS common-count ratio n=1: actual=2.08008382305, expected=2.08008382305
+PASS yardstick-energy ratio n=1: actual=0.693361274351, expected=0.693361274351
+PASS additive-weld Hubble ratio n=1: actual=0.989191667031, expected=0.989191667031
+PASS declared scalar fusion arithmetic n=2: actual=4.39444915467, expected=4.39444915467
+PASS horizon capacity ratio n=2: actual=81, expected=81
+PASS Hubble ratio n=2: actual=0.111111111111, expected=0.111111111111
+PASS common-count ratio n=2: actual=4.32674871092, expected=4.32674871092
+PASS yardstick-energy ratio n=2: actual=0.480749856769, expected=0.480749856769
+PASS additive-weld Hubble ratio n=2: actual=0.978726385163, expected=0.978726385163
+PASS declared scalar fusion arithmetic n=3: actual=6.59167373201, expected=6.59167373201
+PASS horizon capacity ratio n=3: actual=729, expected=729
+PASS Hubble ratio n=3: actual=0.037037037037, expected=0.037037037037
+PASS common-count ratio n=3: actual=9, expected=9
+PASS yardstick-energy ratio n=3: actual=0.333333333333, expected=0.333333333333
+PASS additive-weld Hubble ratio n=3: actual=0.96858638299, expected=0.96858638299
+PASS declared scalar fusion arithmetic n=4: actual=8.78889830934, expected=8.78889830934
+PASS horizon capacity ratio n=4: actual=6561, expected=6561
+PASS Hubble ratio n=4: actual=0.0123456790123, expected=0.0123456790123
+PASS common-count ratio n=4: actual=18.7207544075, expected=18.7207544075
+PASS yardstick-energy ratio n=4: actual=0.231120424784, expected=0.231120424784
+PASS additive-weld Hubble ratio n=4: actual=0.958755151843, expected=0.958755151843
+PASS declared scalar fusion arithmetic n=5: actual=10.9861228867, expected=10.9861228867
+PASS horizon capacity ratio n=5: actual=59049, expected=59049
+PASS Hubble ratio n=5: actual=0.00411522633745, expected=0.00411522633745
+PASS common-count ratio n=5: actual=38.9407383983, expected=38.9407383983
+PASS yardstick-energy ratio n=5: actual=0.160249952256, expected=0.160249952256
+PASS additive-weld Hubble ratio n=5: actual=0.949217332726, expected=0.949217332726
+PASS branch firewall: additive and multiplicative cosmic welds differ
+PASS fractional-ledger rate quotient: actual=840, expected=840
+PASS additive-nat rate quotient: actual=0.84, expected=0.84
+PASS rate firewall: fractional-ledger and additive-nat quotients differ
+PASS scope: finite arithmetic only; no Type-III or mass-gap claim tested

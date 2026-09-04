@@ -140,6 +140,8 @@ $$
 
 while the matrix-amplified subalgebra relative-entropy capacity is \(\log\operatorname{Ind}_{W}(E_\tau)=2\log d\). If \(n=\dim\mathcal H_a\), the ordinary unamplified supremum in this concrete model is \(\log\!\left(d\min\{n,d\}\right)\). The half-index term is therefore not the unrestricted information capacity of the inclusion.
 
+[[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld|The two-sided index-capacity theorem]] records the infinite-factor result that removes this finite ancillary-size ambiguity: for a finite-index expectation, the supremal Araki relative-entropy loss is exactly the log Kosaki index, while the statewise losses for the expectation and its commutant-dual sum to that same constant. This establishes an operational meaning for the full log index, not an area weld and not a lower response bound.
+
 ## Central geometry in several sectors
 
 For the sector-preserving type-I toy inclusion,

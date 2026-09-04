@@ -31,6 +31,18 @@ $$
 
 is an inverse-length presentation. Equating it to $k_BT$, a pole mass, a vacuum expectation value, or a Hamiltonian gap requires a separate constitutive map.
 
+[[cosmological-selection-of-the-yang-mills-yardstick]] now gives this presentation its sharpest whole-to-part form. Conditional on the common-count and Einstein apparent-horizon ledgers,
+
+$$
+E_{\mathrm g}
+=
+\left(\frac{6\pi^2}{\gamma s_*}\right)^{1/3}
+E_{A,c}\iota_c^{-2/3}
+=\hbar H_ce^{\Sigma_c}.
+$$
+
+This is an exact recombination of one whole energy, one dimensionless capacity, and one logarithmic depth; it is not yet a Yang--Mills scale-selection theorem. If used live it predicts $\mathrm d\log E_{\mathrm g}/\mathrm dN=-\epsilon/3$, where $\epsilon=-\dot H/H^2$, so the fossil proposal must preserve a dimensional normalization after the selected crossing rather than continually updating it with $H(t)$. It must also prove that the common-count length maps to the localization width in Longo's entropy--energy theorem and that the real localized loss has a positive Hermitian extension with a uniform lower bound on a complex Hamiltonian form core.
+
 Nor does relativity imply that a radiation-only cosmos has no collective rest frame or no spacetime. One photon has no rest frame, but an isotropic radiation fluid has a timelike four-velocity and stress tensor. Using \(c=1\) for this tensor formula and \(u^\mu u_\mu=-1\),
 
 $$
