@@ -5,7 +5,7 @@ inq.include:
 ---
 # The Variational Axiom
 
-The first of the three principles this section treats as axioms. It asserts that a dynamical law has the type of a stationarity condition on a functional of whole histories rather than of a propagation rule for states. "Least" is historical shorthand: the condition is $\delta S=0$, and the history may be a minimum, maximum, or saddle. The assertion has content, since not every dynamics admits an action and the obstruction is exact. It is silent about symmetry and supplies no conservation law. Its partial ground is a composition law on histories, of which the action is the logarithm up to $-i\hbar$.
+The first of the three principles this section studies as candidate axioms: a dynamical law may be represented by stationarity of a functional of histories rather than specified only as a state-propagation rule. "Least" is historical shorthand for $\delta S=0$, which permits a minimum, maximum or saddle. Whether an action exists is a separate question from its symmetry and conservation laws. Composition of history phases and realization of a quotient clock provide two conditional routes to action; neither establishes stationary action as a primitive law of the whole.
 
 ## The axiom
 
@@ -43,7 +43,22 @@ That note also disposes of the standard illustration. The damped oscillator *is*
 
 ## The axiom has a partial ground
 
-[[why-an-action-at-all]] reconstructs the form of the principle from a composition law: weights that multiply under concatenation in an *abelian* group have an additive logarithm, which under absolute continuity is an integral along the history, and stationarity then follows by stationary phase rather than by postulate. What the reconstruction delivers is circle-valued, so the real-valued $S$ the axiom posits needs a further lift. This inverts the order of grounding and leaves the composition law, locality, and the Lagrangian itself underived.
+[[why-an-action-at-all]] reconstructs part of the form from a composition law: nonzero complex scalar weights have additive logarithms modulo branch ambiguity. A compatible absolutely continuous lift gives an integral density along a history, not automatically a finite-jet local Lagrangian. Phase-only weights initially give a circle-valued action. Stationary-phase conclusions require a defined oscillatory integration problem and controlled asymptotics.
+
+[[algebra/quotient-clock-and-stationary-action|The quotient-clock route]]
+instead derives an exact stationary state action from a one-sided process
+and its complex positive realization. The
+[[directed-analytic-realization/inq|analytic-tail member]] calculates its
+Hilbert quotient and generator from the same translation rule. This is a
+worked state-space variational representation, not yet a spacetime-local QFT
+action or a physical mass-gap construction.
+
+[[algebra/cauchy-response-and-local-action|The opposed-boundary theorem]]
+now returns an actual local scalar action in \(3+1\) coordinates from
+that state action, using a supplied three-dimensional response geometry.
+The exact relation is an endpoint correction followed by elimination of
+the normal-response variable. It does not derive the chosen arena or
+an interacting gauge theory.
 
 ## Flavors
 
@@ -80,7 +95,7 @@ Shared variational form is not a derived physical equivalence. Writing an entrop
 |---|---|
 | **[STANDARD]** | the Euler--Lagrange equivalence, for a first-order Lagrangian with fixed endpoints and regularity; self-adjointness of the Fréchet derivative as the criterion for variationality, locally on a star-shaped domain; local solvability of the inverse problem for one degree of freedom, after Darboux; Douglas's classification of the two-degree-of-freedom multiplier problem; non-uniqueness of the two-point problem at conjugate points; the equilibrium and near-equilibrium extremum principles of the thermodynamic and kinetic flavors, under their stated constraints |
 | **[EXACT]** | failure of the first Helmholtz condition for a non-symmetric acceleration matrix; the Caldirola--Kanai Lagrangian for the damped oscillator |
-| **[CONDITIONAL THEOREM]** | the action as the logarithm of a multiplicative composition law, given an abelian weight group, absolute continuity in the endpoints, and unimodularity — yielding a circle-valued action, with the lift to $\mathbb R$ a further hypothesis |
+| **[CONDITIONAL THEOREM]** | a circle-valued additive action from multiplicative $U(1)$ weights; a compatible real lift and absolute continuity give a density along a history; finite-jet locality and stationary-phase control remain additional hypotheses; a quotient unitary process admits an exact stationary state action on its declared domain |
 | **[PROGRAMME COMMITMENT]** | reading $\delta S=0$ as characterizing the solution set rather than producing it |
 | **[OPEN CONSTRUCTION]** | whether physics is variational as a classification rather than a commitment; the multiplier problem for three or more degrees of freedom; grounds for the composition law, for locality, and for the specific Lagrangian |
 | Outside this module | which symmetries an action has, and any conservation law |

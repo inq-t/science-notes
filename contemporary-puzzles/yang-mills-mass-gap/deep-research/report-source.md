@@ -7330,6 +7330,34 @@ The dependency audit of DR1–DR129 distinguishes law selection from analysis in
 
 The prior results and kill conditions remain available as a downstream test library. This change of priority is not a reproof of every recorded lemma, a rejection of their scoped conclusions, or a claim that the Clay problem has been solved.
 
+## CA1. Directed analytic realization and the first state-action return
+
+The new general-causal-action charter replaces further comparison estimates as the active research direction. Its full target remains a four-dimensional Yang–Mills realization with a proved mass gap, with local action and clock understood as outputs of a deeper law.
+
+[[directed-analytic-realization/inq|The first explicit member]] uses future translation of analytic periodic tails plus compact transients. Its long-interval pairing selects the transient radical, Hardy quotient and positive generator together. [[algebra/quotient-clock-and-stationary-action|The general quotient-action theorem]] derives the symplectic state form and exact stationary Schrödinger action from the same realized process. No separately chosen Hamiltonian is appended.
+
+The primitive tail class, complex polarization, mean pairing, additive process parameter and period remain supplied. Under a compatible tower of longer periods, old vectors retain their norms and rates while new positive frequencies accumulate at zero. The limiting quotient still has a unique vacuum, positive energy and an exact state action, but no gap. This is not asserted to be the Yang–Mills regulator trajectory; it is an explicit refinement failure that prevents promotion of the member to a continuum gap theorem.
+
+The quotient also fails to factor through any finite initial cut: distinct analytic tails can be made identical on that cut by compact transients. The construction is therefore explicitly whole-history and asymptotic, not a finite causal-patch readout.
+
+The action notes were corrected to distinguish scalar phase logarithms from arbitrary abelian weights, pathwise absolute continuity from finite-jet locality, and a multiplicative weight from a controlled oscillatory integral. The new receipt checks finite translation, averaging, finite-cut nonfactorization, symplectic, action-variation and rational-refinement identities. The infinite-dimensional statements have direct proofs in the canonical notes; no physical realization or empirical prediction is certified by the receipt.
+
+The next construction must constrain the presently free realization data or identify a candidate where the structural exclusion of soft retained modes survives the required physical return. It must not rescue this member by deleting its newly visible modes through a spectrum-chosen quotient. The active goal remains open.
+
+## CA2. The same residue supplies boundary response and local commutation
+
+[[directed-analytic-realization/harmonic-boundary-realization|The oriented harmonic member]] removes two independent choices relative to a specified metric disk. The real tangent derivative \(D\) determines \(J=-D|D|^{-1}\) on its moving sector, and its positive modulus is exactly the disk's Dirichlet-to-Neumann response. Tangential unitary evolution and logarithmic inward smoothing obey a two-parameter harmonic relation, without being identified as the same process or as literal finite-time erasure.
+
+[[algebra/hardy-compression-and-boundary-response|The shared compression theorem]] calculates the missing comparison: for real symbols, the trace of the positive Hardy multiplication defect is \(R/2\) times that boundary response. The odd traced defect is the local form \((2\pi)^{-1}\int f g'\). The untraced compressed observables can fail to commute even on disjoint arcs; taking the central form is a different realization, not a preservation theorem for compressed multiplication.
+
+[[directed-analytic-realization/local-weyl-realization|The Weyl construction]] uses the same positive and odd forms to build a bosonic local circle net, Gaussian vacuum, and inherited positive Fock clock. Its new one-particle norm is the compression trace. A coherent state's energy contains an additional generator factor, so the symbol response, old Hardy energy and new Fock energy are not silently equated.
+
+The construction is exact under its stated disk, polarization and CCR/Fock choices. It supplies locality and dynamics together in a one-dimensional boundary model, not an interacting four-dimensional Yang–Mills theory. The period-cover test remains fatal to a uniform gap for this member; source normalization and cover-locality must also change when the response becomes the carrier norm. Finite arc locality does not resolve the earlier finite-initial-history readout obstruction.
+
+The new receipt checks the geometry/residue normalization by independent harmonic integration, the exact Hardy product with a Fourier halo, its central commutation form, Weyl composition on coherent vectors, and the extra boundary introduced by finite matrix cuts. Direct proofs in the canonical notes establish the infinite Hilbert and local-algebra statements. No external literature survey or numerical mass matching was used.
+
+The next structural question is which geometry can preserve this joint production of a positive response, a local commutation law and a clock while admitting the required higher-dimensional interacting gauge realization. A positive mode count or a free circle net is not a substitute for that obligation. The full goal remains active.
+
 ## Kill conditions
 
 - A vector in the pointwise kernel of a singular source derivative is treated as an integrable fixed-source motion, despite the discrete extremal staple fiber.

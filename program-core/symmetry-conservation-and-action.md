@@ -155,6 +155,24 @@ $$
 
 with a declared domain, boundary terms, admissible variations, and stationary equations yielding the descended gravitational response, observable constraints, matter dynamics, and any proposed record dynamics. No such common observable functional is currently defined, and its existence would not make the upstream wall variational.
 
+There is now a smaller exact special-case construction.
+[[algebra/quotient-clock-and-stationary-action|A quotient clock supplies a
+stationary state action]] from the same process generator and realized
+Hermitian form. [[directed-analytic-realization/inq|Future analytic tails]]
+give a concrete member whose discarded directions remain unconstrained by
+that action. It establishes a state-space variational return, not the
+common gravitational, field and record functional above. Its compatible
+period refinement preserves the action while closing the spectral gap.
+
+[[algebra/cauchy-response-and-local-action|Opposed boundary response]]
+adds a spatially local free-field return: the same state action becomes
+the canonical wave action up to an endpoint term, with its spatial
+operator fixed by the boundary response. This connects the action and
+its arena within a specified geometric model, not yet the common
+gravitational, material and record law. The
+[[directed-analytic-realization/three-dimensional-boundary-test|capped-slab counterexample]]
+shows why a positive clock edge cannot replace the locality obligation.
+
 Einstein--Hilbert gravity can be written in the areal-modulus basis as
 
 $$

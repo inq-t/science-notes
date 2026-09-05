@@ -36,6 +36,35 @@ The programme's mathematical realism changes the form of the bridge. A realizati
 
 [[algebra/quotient-unitarity-and-kernel-stabilization|Quotient unitarity and kernel stabilization]] now makes that coexistence constructive. An upstream automorphism descends through a quotient exactly when it preserves the quotient ideal; a transformation preserving a semidefinite response becomes an isometry of the radical quotient. The locally visible symmetry that lifts is therefore the image of the stabilizer of what the wall made invisible. This does not prove that loss causes unitarity, but it converts “symmetry is the grammar of appearance” into an exact quotient theorem and a precise reconstruction obligation.
 
+[[algebra/quotient-clock-and-stationary-action|The quotient-action theorem]]
+extends this return: the complex realized form supplies a symplectic state
+space, and the process derivative supplies its stationary Schrödinger
+action. The [[directed-analytic-realization/inq|analytic-tail member]]
+calculates quotient, generator and action from one future-translation law.
+No four-dimensional arena has yet been recovered, and compatible period
+refinement closes its initially positive spacing.
+
+[[algebra/hardy-compression-and-boundary-response|Hardy compression]]
+now identifies an actual response-to-clock form in an oriented disk member:
+the trace of the lost multiplication channel equals harmonic boundary
+response. Its odd trace is a local derivative pairing. The
+[[directed-analytic-realization/local-weyl-realization|Weyl realization]]
+uses these even and odd parts to construct local circle algebras and an
+inherited positive clock; bosonic quantization remains a declared choice.
+Neither the locality of this circle net nor its finite-period gap provides
+the missing four-dimensional interacting return.
+
+[[algebra/cauchy-response-and-local-action|Opposed Cauchy response]]
+now extends the action theorem to a spatially local scalar action in
+\(3+1\) coordinates. Two opposed harmonic graphs supply the positive norm
+and Green pairing together; a normal-response clock rotation returns the
+wave dynamics. The [[algebra/three-dimensional-weighted-compression-response|three-dimensional trace]]
+must operate on normal-source data to recover that response. A finite cap
+opens a clock edge but makes its squared generator nonlocal, so it fails
+the [[directed-analytic-realization/three-dimensional-boundary-test|spacelike-commutation test]].
+[[algebra/clifford-mass-plane-and-selection|The explicit Clifford mass plane]]
+likewise distinguishes permitting a mass term from selecting a nonzero one.
+
 [[algebra/os-descent-naturality-and-clock-no-go|OS descent naturality and
 the idempotent-clock no-go]] closes the converse ambiguity. Polynomial
 identities survive a surjective factor, so an idempotent expectation can

@@ -2,6 +2,7 @@
 name = "physics"
 members = [
   "algebra",
+  "directed-analytic-realization",
   "a2-ternary-response",
   "a2-spectral-geometry-of-jacobian-counterexample-3d",
   "cauchy-spectral-envelope",

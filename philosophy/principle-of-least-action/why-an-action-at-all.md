@@ -1,26 +1,31 @@
 # Why There Is an Action
 
-The axiom can be given a partial ground rather than merely posited. If weights attach to histories and multiply under concatenation in an abelian group, their logarithm is additive over concatenation; with a regularity condition that logarithm is an integral along the history, which is an action. This grounds the *form* of the principle in a composition law. It does not supply the Lagrangian, does not derive the composition law, and delivers a circle-valued functional rather than the real-valued $S$ the axiom posits.
+Composition can partly ground the form of an action without presupposing stationarity. Nonzero complex scalar weights that multiply under concatenation have additive logarithms modulo their branch ambiguity; phase-only weights give a circle-valued action. Absolute continuity can supply a density along each history, but not a finite-jet local Lagrangian. Stationary phase additionally needs a defined integration problem and controlled asymptotics. A separate exact route reconstructs a stationary state action from a quotient clock.
 
 ## The composition argument
 
-Histories concatenate. If $\gamma_1$ runs from $a$ to $b$ and $\gamma_2$ from $b$ to $c$, there is a history $\gamma_2\circ\gamma_1$ from $a$ to $c$. Suppose each history carries a weight $W(\gamma)$ in an **abelian** multiplicative group — the hypothesis matters, since for noncommuting values the concatenation law produces path-ordered exponentials and no additive functional — and require
+Histories concatenate. If $\gamma_1$ runs from $a$ to $b$ and $\gamma_2$ from $b$ to $c$, there is a history $\gamma_2\circ\gamma_1$ from $a$ to $c$. Suppose each history carries a nonzero complex scalar weight $W(\gamma)\in\mathbb C^\times$ and require
 
 $$
 W(\gamma_2\circ\gamma_1)=W(\gamma_2)\,W(\gamma_1).
 $$
 
-Then $A:=\log W$ is additive over concatenation:
+Then $A:=\log W$ is additive over concatenation modulo $2\pi i\mathbb Z$:
 
 $$
-A(\gamma_2\circ\gamma_1)=A(\gamma_2)+A(\gamma_1).
+A(\gamma_2\circ\gamma_1)=A(\gamma_2)+A(\gamma_1)
+\pmod{2\pi i\mathbb Z}.
 $$
 
-An additive interval function need not be an integral — a singular measure or a crossing count is additive too — so the passage to a density is a second hypothesis, absolute continuity in the endpoints, after which Radon--Nikodym gives
+An arbitrary abelian group need not possess such a logarithm; the target group is part of the hypothesis. Noncommuting transport in general requires an operator-valued or path-ordered description rather than this scalar identity. For positive real weights the real logarithm is unambiguous; phase-only weights retain the lift issue below.
+
+Along a parametrized history, choose a compatible additive lift where one exists. An additive interval function need not be an integral—a singular measure or a crossing count is additive too. If the lifted increment defines an absolutely continuous finite-variation measure on each finite interval, Radon–Nikodym gives an integrable density along that history:
 
 $$
 A(\gamma)=\int_\gamma\mathcal L .
 $$
+
+This does not prove that $\mathcal L$ depends only on position, a field and finitely many derivatives. Finite-jet locality and compatibility among histories are additional requirements. Nor has the history parameter thereby become physical clock time.
 
 Adding $|W|=1$ makes $\mathcal L$ imaginary and yields
 
@@ -40,21 +45,46 @@ On $U(1)$ the logarithm is multivalued, so additivity holds modulo $2\pi i$ and 
 
 ## Stationarity as a shadow
 
-Stationarity then arrives as an asymptotic statement rather than a postulate. When action differences among neighboring histories are large compared with $\hbar$, phases interfere destructively away from stationary histories, and a stationary-phase expansion is organized around those that remain; the construction and its qualifications belong to [[quantum-action]].
+Stationarity can then arrive as an asymptotic statement rather than a postulate, but only after an oscillatory integral and an asymptotic family are defined. For a smooth finite-dimensional phase and compactly supported amplitude away from critical points, integration by parts suppresses the nonstationary contribution as the phase parameter grows. Nondegenerate critical points admit the corresponding stationary-phase expansion. A functional-integral or regulator limit requires further control; a multiplicative weight alone supplies neither that integral nor its measure. [[quantum-action]] owns the physical interpretation and its qualifications.
 
-The consequence is an inversion in the order of grounding. Read from the classical side, $\delta S=0$ is the axiom and the quantum phase a later discovery. Read from the composition side, the composition law is the axiom, the action is its logarithm, and $\delta S=0$ is a limit theorem. Both readings agree on all the mathematics. They disagree about what is fundamental.
+The possible inversion is precise: a composition law can precede the action, and a controlled stationary-phase theorem can explain a classical stationary description. This is not a universal derivation of physical dynamics from composition.
 
 ## What the argument grounds
 
 | Grounded, given the hypotheses named above | Not grounded here |
 |---|---|
 | that the weight is exponential in an additive functional | the multiplicative composition law itself |
-| that the functional is an integral of a local density | absolute continuity, and locality |
+| that a compatible lifted increment has an integral density along a history | absolute continuity, finite-jet locality and compatibility among histories |
 | that the density is imaginary, given $\vert W\vert=1$ | unimodularity |
-| that stationary histories dominate a semiclassical limit | the specific Lagrangian, its field content, and its couplings |
+| stationary-phase asymptotics for an integral satisfying its hypotheses | the integration problem, measure, limiting control, specific Lagrangian, field content and couplings |
 | | the lift from a circle-valued to a real-valued action, and the existence and value of $\hbar$ |
 
-The composition law is the assumption that a history's weight factorizes through its segments, a strong locality-in-time condition that could fail. The Lagrangian is left entirely open: what selects it is symmetry together with field content, which is the business of [[philosophy/symmetry-principle/inq|the invariance axiom]] and, in the local sector, of [[symmetry-groups-select/inq|symmetry selection]].
+The composition law assumes factorization through segments on the declared history category. It need not imply a finite-memory evolution on a smaller state space. Within a separately established local variational class, symmetry and field content can constrain a Lagrangian; [[philosophy/symmetry-principle/inq|the invariance axiom]] and [[symmetry-groups-select/inq|symmetry selection]] own that different selection question.
+
+## An exact state-action return from a directed process
+
+[[algebra/quotient-clock-and-stationary-action|The quotient-action theorem]]
+does not start with scalar history weights. It begins with a one-sided
+linear process and a complex semidefinite realization. When the process
+induces a continuous unitary quotient, the quotient form supplies a
+symplectic state space and the derivative of that same process supplies its
+Hamiltonian. The resulting Schrödinger state action is exact, not a
+stationary-phase limit. [[directed-analytic-realization/inq|An explicit
+analytic-tail member]] calculates the form and generator from future
+translation and a mean pairing. It still imports the analytic tail class
+and process parameter, and does not supply a spacetime-local action.
+
+[[algebra/cauchy-response-and-local-action|Opposed Cauchy response]]
+now gives a stronger special case. Two boundary graphs supply a positive
+pair norm and Green form; their common normal-response rate supplies the
+clock. The same state action becomes
+\(p\dot q-\tfrac12(p^2+qA^2q)\) after an endpoint correction. When the
+geometrically derived \(A^2\) is a local Laplacian, eliminating \(p\)
+returns a local wave-action integral. The boundary geometry and
+clock-realization rule remain declared inputs; a gapped but nonlocal
+\(A^2\) fails this return, as the
+[[directed-analytic-realization/three-dimensional-boundary-test|finite-cap test]]
+demonstrates.
 
 ## The shape of answer this project wants
 

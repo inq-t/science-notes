@@ -12,6 +12,25 @@ The research programme asks whether a prior directed law can determine the local
 
 [[clay-contract-and-scale-assumptions|The attached Clay-statement audit]] distinguishes required observable properties from optional construction primitives. [[directed-realization-and-foundational-restart|The foundational restart]] pauses further local-estimate repairs and asks for one law that jointly constrains the realization kernel, positive form and dynamics. The mathematical tools below remain conditional recovery tests, not a derivation of those inputs.
 
+The first [[directed-analytic-realization/inq|directed analytic member]]
+now derives a Hilbert quotient, positive clock and
+[[algebra/quotient-clock-and-stationary-action|stationary state action]]
+from one future-translation rule and its mean pairing. Its analytic
+polarization and periodic tail are explicit inputs. A compatible refinement
+preserves all those structures while closing the gap, so this is a
+constructive action-return test—not the four-dimensional theory or its
+uniform mass bound.
+
+The next [[directed-analytic-realization/harmonic-boundary-realization|harmonic boundary return]]
+ties that clock's quadratic form exactly to a compression residue.
+The residue's positive trace and odd central trace then give a
+[[directed-analytic-realization/local-weyl-realization|local Weyl circle net]]
+under a stated bosonic realization. This is a genuine observable-algebra
+return from the chosen geometry, not just a lower bound on an unrelated
+operator. Its finite-circle gap still closes under period refinement;
+neither an interacting four-dimensional carrier nor its physical mass
+Casimir has been constructed.
+
 ## The target is a spectral exclusion, not a spatial pixel
 
 [[puzzle-as-posed|The Clay statement]] requires a nontrivial quantum Yang--Mills theory on \(\mathbb R^4\), for every compact simple gauge group, satisfying the required axioms and having

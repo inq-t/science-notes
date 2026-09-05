@@ -214,6 +214,14 @@ inverses even when no upstream inverse exists. This is the exact sense in
 which directed prequotient processing can present itself as reversible local
 clock transport.
 
+[[algebra/quotient-clock-and-stationary-action|The quotient-action theorem]]
+derives the realized symplectic form and exact stationary state action
+from this same Hermitian form and process generator. Its
+[[directed-analytic-realization/inq|analytic-tail member]] supplies an
+explicit noninjective process, quotient and positive clock together;
+compatible period refinement also shows why that realization alone does
+not force a limiting gap.
+
 This quotient mechanism is categorically different from
 [[directed-isometric-residue-completion/inq|isometric residue completion]]:
 

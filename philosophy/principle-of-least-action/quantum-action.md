@@ -86,6 +86,14 @@ If $|\psi(t)\rangle$ is restricted to a trial family, the same idea gives time-d
 
 This state-space action is conceptually different from summing over configuration-space histories, even when the formulations are mathematically equivalent in an appropriate regime.
 
+[[algebra/quotient-clock-and-stationary-action|A quotient-clock construction]]
+reverses the order within this register: a declared one-sided process and
+complex positive realization determine the unitary quotient and its
+generator, from which a real state action and its stationary equation
+follow. The [[directed-analytic-realization/inq|analytic-tail member]] works
+this out without an independently appended Hamiltonian. It does not derive
+the four-dimensional configuration-space action or its integration measure.
+
 ## The quantum effective action
 
 The effective action $\Gamma[\bar\phi]$ is a functional of a mean or classical field $\bar\phi$, obtained from the generating functional by a Legendre transform. Its stationarity equation,

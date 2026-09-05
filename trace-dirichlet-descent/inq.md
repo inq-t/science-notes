@@ -57,6 +57,15 @@ This is a quotient construction, not a restriction of \(\mathcal E_W\) to a pref
 
 The operation is not automatically physical. The form \(\mathcal E_W\), the map \(q\), and the local Hilbert norm must be derived independently of the desired mass spectrum.
 
+[[algebra/hardy-compression-and-boundary-response|The harmonic disk example]]
+provides one explicit such comparison: the trace of a Hardy multiplication
+defect equals the Dirichlet boundary form with its declared metric
+normalization. The [[directed-analytic-realization/harmonic-boundary-realization|oriented boundary derivative]]
+also has that Dirichlet-to-Neumann operator as its positive modulus, so the
+clock comparison is calculated from geometry rather than supplied as a
+bound. This is a circle model, not the required four-dimensional gauge
+realization.
+
 ## Harmonic representatives and the exact residue
 
 Suppose every fibre in (TD2) has a selected linear minimizer

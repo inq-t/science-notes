@@ -1,0 +1,8 @@
+PASS: real polar structure and Hardy isometry
+PASS: logarithmic radial smoothing and tangential relation
+PASS: independently integrated bulk, compression and clock responses
+PASS: product defect and real-symbol scope
+PASS: exact corner and separated-support noncommutation
+PASS: cutoff-boundary and period-cover negative controls
+PASS: central derivative form, coherent Weyl law and inherited clock
+Scope: finite harmonic and compression identities; no four-dimensional QFT certified

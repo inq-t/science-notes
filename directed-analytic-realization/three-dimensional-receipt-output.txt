@@ -1,0 +1,6 @@
+PASS: opposed graphs, Green form, complex structure and clock
+PASS: independent state-to-local-action and variation identities
+PASS: capped bulk response, clock edge and nonlocality witness
+PASS: three-dimensional Green-weighted compression integral
+PASS: Clifford mass plane and its unfixed direction
+Scope: finite identities and quadratures; no interacting Yang-Mills construction certified

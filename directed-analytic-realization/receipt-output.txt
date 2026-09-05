@@ -1,0 +1,9 @@
+Directed analytic realization — finite receipt
+
+PASS: translation, composition, Hermitian and symplectic return
+PASS: finite erasure and exact inverse-length transient correction
+PASS: equal finite-cut histories can have different realized tails
+PASS: independent action variation and on-shell sign checks
+PASS: exact rational refinement preserves old rates and adds soft modes
+PASS: Fourier-orientation negative control
+Scope: finite algebraic checks only; no four-dimensional QFT or physical gap certified

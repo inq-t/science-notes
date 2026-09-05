@@ -37,7 +37,7 @@ Unitarity means a surjective complex-linear Hilbert-space isometry. It does not 
 
 The source uses distances, translation parameters and short- versus long-distance limits relative to the target spacetime structure. This is an assumption of a geometric arena. It is not a choice of a distinguished physical meter, nor a claim that “large” and “small” are observer-independent numerical absolutes.
 
-For a positive change of energy unit represented by (H'=aH),
+For a positive change of energy unit represented by \(H'=aH\),
 
 \[
 \sigma(H')=a\sigma(H),\qquad
@@ -59,7 +59,7 @@ F_\lambda(x)=\lambda^2F(\lambda x),\qquad
 
 This invariance uses the particular action and dimension, not smoothness alone. Conversely, a smooth coefficient or potential can carry a length scale. The meaningful question is which symmetries the realized law has and how its scale is selected—not whether its coordinates are continuous.
 
-Page 9 explicitly calls (M=\sqrt{H^2-\vec P^{\,2}}) the mass operator **in natural units**. The absence of a printed \(\hbar\) is a convention, not evidence that the quantum-to-clock normalization has ceased to matter. The foundational programme may explain that normalization, but cannot infer its dispensability from typography.
+Page 9 explicitly calls \(M=\sqrt{H^2-\vec P^{\,2}}\) the mass operator **in natural units**. The absence of a printed \(\hbar\) is a convention, not evidence that the quantum-to-clock normalization has ceased to matter. The foundational programme may explain that normalization, but cannot infer its dispensability from typography.
 
 ## The warranted Copernican reversal
 
