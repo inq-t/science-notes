@@ -8,7 +8,9 @@ inq.ambient:
 ---
 # Yang–Mills Existence and the Mass Gap
 
-The research programme asks whether prior oriented geometry can determine both the local gauge description and a positive lower bound on its physical excitations. Its strongest kinematic result derives an exceptional stabilizer and a Wilson gauge carrier; its strongest analytic reductions identify the uniform response or correlation estimate that would force a gap. These are connected but different achievements. The interacting four-dimensional continuum construction and its regulator-uniform infrared bound remain open.
+The research programme asks whether a prior directed law can determine the local observable carrier, its clock dynamics and a positive lower bound on physical excitations. Its kinematic constructions and scoped Wilson estimates remain useful, but do not yet select that law. The current priority is a foundational audit of the global–local realization, while the interacting four-dimensional continuum construction and its uniform infrared bound remain open.
+
+[[clay-contract-and-scale-assumptions|The attached Clay-statement audit]] distinguishes required observable properties from optional construction primitives. [[directed-realization-and-foundational-restart|The foundational restart]] pauses further local-estimate repairs and asks for one law that jointly constrains the realization kernel, positive form and dynamics. The mathematical tools below remain conditional recovery tests, not a derivation of those inputs.
 
 ## The target is a spectral exclusion, not a spatial pixel
 
