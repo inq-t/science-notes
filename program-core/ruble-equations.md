@@ -225,6 +225,8 @@ $$
 
 This contraction-level equality throughout a declared universality class is stronger than crossing equality on one cut, but it does not by itself construct the full tangent-space weld above.
 
+[[hessian-response-geometry/response-rigidity-and-multiplicity|The scalar-to-operator test]] makes that distinction constructive. A fixed finite Markov carrier can preserve an entire binary entropy/Fisher profile and the total residual-response trace while its weakest nonconstant response tends to zero. A separately derived all-direction rigidity law can close the implication; unit matching on the scale tangent alone cannot.
+
 In a two-derivative Einstein universality class,
 
 $$
@@ -309,6 +311,8 @@ m^2+g^{\mathrm{bin}}_{\theta\theta}=1.}
 $$
 
 These equations fix a normalized shape and Casimir allocation. They do not construct the full wall, its channel multiplicity, a fact, a charge, or gravity.
+
+[[conditional-fisher-coercivity/moving-fiber-connection#The binary wall profile is a geometric coefficient, not a mass insertion|The moving-fiber calibration]] gives an exact operator use of this shape: \(\operatorname{sech}^2x\) is the transverse derivative cost of the normalized centered binary mode. Restoring the conditional-vacuum band permits cancellation in the complete horizontal form. Thus the same profile can be a genuine geometric coefficient without itself being a mass term or a full spectral bound.
 
 The exact reduction is proved once in [[binary-information-geometry/balanced-exponential-family|the balanced exponential-family theorem]]. The claim that a physical wall admits this reduction belongs instead to [[wall-construction-interface/binary-channel|the binary-channel interface]].
 

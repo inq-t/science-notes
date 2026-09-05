@@ -114,7 +114,7 @@ In nonlinear coordinates, the direct \(\delta\) is replaced by the corresponding
 
 Thus the source derivative depends on two different ingredients: the local mixed score that launches a response, and the conditional susceptibility that transports it. Locality of the first does not prove locality of the second.
 
-[[local-completion-of-soft-gauge-conditioning|The one-step Gaussian gauge completion]] constructs both ingredients on a complete linear gauge carrier: its normalized curvature law has a local positive completion, and the mixed coarse score is \(Q^*h/(\eta b^2)\). Equations (LC17)--(LC18) give setwise covariance and source-tail bounds, including for smooth nonlinear curvature observables of that Gaussian law. Their observable gradient norms must still be controlled uniformly in the conditioned value; no iteration through the actual accumulated precision is supplied by that first-step result.
+[[local-completion-of-soft-gauge-conditioning|The one-step Gaussian gauge completion]] constructs both ingredients on a complete linear gauge carrier: its normalized curvature law has a local positive completion, and the mixed coarse score is \(Q^*h/(\eta b^2)\). [[uniform-gaussian-conditional-locality|Uniform Gaussian conditional locality]] extends the terminal inverse and score estimates through the actual accumulated Gaussian precision. [[nonlinear-conditional-gauge-response|The normalized compact conditional law]] supplies a separate full nonlinear strong-coupling estimate, with the log-normalizer retained. Neither statement alone controls the source norms through the nonlinear RG iteration below.
 
 ## Iteration and the direction of cutoff growth
 

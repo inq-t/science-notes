@@ -5,7 +5,7 @@ inq.include:
 ---
 # Complex Presentation Without Polarization
 
-An integrable complex geometry can be an ontologically complete mode of presentation without being Kähler, polarized, probabilistic, or already spacetime. The smooth six-sphere is now known to admit precisely such a presentation: geometric proofs and a direct Lean formalization construct a compact complex threefold from a torus family, monodromy, logarithmic twists, and a toric cusp filling. Its lack of a compatible Kähler polarization does not erase the complex geometry; it shows that complex presentation, positive quantum-state geometry, real-form selection, factive descent, and Lorentzian realization must be constructed as distinct structures.
+An integrable complex geometry can be an ontologically complete mode of presentation without being Kähler, polarized, probabilistic, or already spacetime. The geometric six-sphere construction reviewed here uses a torus family, monodromy, logarithmic twists, and a toric cusp filling; an inspected but not locally executed Lean source supplies a distinct formal presentation. Its lack of a compatible Kähler polarization does not erase the complex geometry; it shows that complex presentation, positive quantum-state geometry, real-form selection, factive descent, and Lorentzian realization must be constructed as distinct structures.
 
 ## The meaning of complex presentation
 
@@ -46,7 +46,7 @@ $$
 
 that is diffeomorphic to $S^6$. Its generic fibers are complex two-tori. The two exceptional fibers have multiplicities \(3\) and \(4\), with local monodromies of orders \(3\) and \(4\). At the cusp the manuscript uses unipotent monodromy, logarithmic transformations, and an \(A_2\)-triangulated toric degeneration. The resulting cusp fiber \(W\) is non-normal: its normalization is a degree-six del Pezzo surface whose opposite boundary curves are identified.
 
-The existence statement is **[ESTABLISHED]**. [[library/complex-structures-on-s6-engel/inq|Engel gives a shorter self-contained geometric proof]], while [[library/formalization-of-the-hopf-problem/inq|a separate Lean artifact]] proves a complex-manifold atlas on the standard unit $S^6$, with a standard-axiom dependency report and comparator configuration. This workspace has statically audited but not locally rebuilt the formal artifact. Manuscript-specific Hodge, polarization, and automorphism computations remain source-specific claims unless separately verified. [[algebra/s6-manuscript-branch|The branch note]] owns that narrower evidence boundary.
+[[library/complex-structures-on-s6-engel/inq|Engel gives a shorter self-contained geometric proof]] of the same construction; this is not an unrelated geometric route. [[library/formalization-of-the-hopf-problem/inq|The separate public Lean source]] transports a complex atlas by a homeomorphism to the standard topological unit sphere. Compatibility with a preassigned standard smooth atlas is not the target of that formal snippet; the geometric recognition argument supplies the smooth existence conclusion. The displayed axiom list is a comment recording expected output, not an independently executed dependency report, and the comparator configuration is not an execution receipt. This workspace has statically audited but not locally rebuilt the artifact. Manuscript-specific Hodge, polarization, and automorphism computations remain source-specific claims unless separately verified. [[algebra/s6-manuscript-branch|The branch note]] owns this evidence boundary.
 
 Its philosophical force is substantial. It exhibits one compact smooth object whose complex presentation is created globally by monodromy and singular gluing rather than by choosing a complex coordinate independently at every point. The geometry is simple locally and nontrivial in the way its local pieces continue around exceptional loci.
 
@@ -153,7 +153,7 @@ This architecture permits an atemporal internal regime. Complex integrals and sp
 
 ## Failure conditions
 
-- If a manuscript-specific invariant fails separate audit, only the downstream claims using that invariant close; the existence of an integrable complex structure on $S^6$ remains established by independent proof routes.
+- If a manuscript-specific invariant fails separate audit, only the downstream claims using that invariant are affected directly. The geometric existence argument and the inspected, not locally executed, formal source require their own evidence assessment; agreement of presentations is not an independent execution receipt.
 - If no algebra, spectral family, or faithful state bundle is constructed from $X$, the quantum reading remains analogy.
 - If the state bundle is added arbitrarily, it explains no more than an independently postulated quantum model.
 - If no antiholomorphic involution with a suitable fixed locus exists, complex dimension three does not yield physical three-space.

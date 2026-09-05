@@ -206,6 +206,65 @@ $$
 
 When $\kappa=0$, this reduces to $\min\{\rho,\lambda\}$. The theorem makes “residue cost across scale” quantitative: coercivity survives only insofar as fiber and coarse stiffness dominate their coupling.
 
+### A conditional-Fisher version for Poincare bounds
+
+There is a direct \(L^2\) version on a fixed product
+\(\mu(dz,dy)=\nu(dz)\beta_z(dy)\), with declared product metrics and the regularity, dense test class and closed forms of [[conditional-fisher-coercivity/inq|conditional Fisher coercivity]]. Assume conditional Poincare constant \(\rho>0\), actual marginal Poincare constant \(\lambda>0\), and normalized conditional Fisher bound \(I_z\le Cg_Z\).
+
+For an arbitrary \(F(y,z)\), let \(u=\|d_YF\|_2\), \(v=\|d_ZF\|_2\). The conditional-mean derivative includes the direct derivative and score term. Conditional Poincare, the score-map norm, Minkowski's inequality and total variance give
+\[
+\operatorname{Var}_\mu F
+\le\frac{u^2}{\rho}
++\frac1\lambda\left(v+\sqrt{C/\rho}\,u\right)^2.
+\tag{RG2a}
+\]
+Inverting this two-dimensional coefficient matrix yields
+\[
+\boxed{\lambda_{\rm fine}\ge
+T_F(\rho,\lambda,C)=
+\frac{\rho+\lambda+C-
+\sqrt{(\rho+\lambda+C)^2-4\rho\lambda}}2.}
+\tag{RG2b}
+\]
+The inverse matrix has diagonal entries \(\rho,\lambda+C\), off-diagonal entries \(-\sqrt{\rho C}\), and determinant \(\rho\lambda\). A mixed score-derivative bound \(\kappa\) gives \(C\le\kappa^2/\rho\) and recovers the expression (RG2). These weaker hypotheses establish **Poincare**, not LSI.
+
+No separate small-coupling threshold is needed for positivity of (RG2b), because \(\lambda\) is already the constant of the **actual marginal**. Replacing it by the constant of a second coordinate-conditional law changes the theorem. The Gaussian potential
+\[
+V(y,z)=\frac{\rho}{2}(y-\alpha z)^2+\frac{\lambda}{2}z^2
+\]
+has \(C=\rho\alpha^2\) and saturates (RG2b).
+
+For a prescribed target \(0<t<\min(\rho,\lambda)\), the certificate reaches \(t\) exactly when
+\[
+\boxed{C\le\frac{(\rho-t)(\lambda-t)}{t}.}
+\tag{RG2c}
+\]
+This follows from positivity of the two-dimensional inverse matrix minus \(tI\). If \(\rho>\lambda\), a useful sufficient degradation estimate is
+\[
+T_F\ge\frac{\lambda}{1+C/(\rho-\lambda)}.
+\tag{RG2d}
+\]
+It follows by substituting the right side for \(t\) in (RG2c).
+
+To iterate, start with a terminal certificate \(\underline\lambda_J>0\). Include a proved comparison \(m_j>0\) from the actual fine form to the chart product form and recursively assign
+\[
+\underline\lambda_j:=
+\frac{m_j\underline\lambda_{j+1}}
+{1+C_j/(\rho_j-\underline\lambda_{j+1})},
+\qquad \rho_j>\underline\lambda_{j+1}.
+\tag{RG2e}
+\]
+Check the displayed condition at each step, with all forms in the stated scale normalizations. Induction then proves the actual fine gap is at least
+\[
+\underline\lambda_0
+=\underline\lambda_J
+\prod_{j<J}\frac{m_j}
+{1+C_j/(\rho_j-\underline\lambda_{j+1})}.
+\]
+Arbitrary independently chosen lower certificates do not telescope. Given a uniformly positive terminal certificate, uniform summability of the ratios and of negative logarithmic metric losses is sufficient to keep this product positive. Bounded loss per step is not sufficient at diverging depth. The actual normalized scores, induced metric and integrated marginal must be used at each step.
+
+[[bridge-data-augmentation-solder/coarse-boundary-leakage-and-response-lifting|Same-law bridge lifting]] supplies a different two-scale theorem directly for the bounded conditional-variance response. Its fiber hypothesis conditions on both the retained core and the full boundary, and it subtracts predictors hidden by boundary coarsening. It does not require identifying this auxiliary Poincare constant with physical energy.
+
 [[library/a-general-two-scale-criteria-for-logarithmic-sobolev-inequalities/inq|Lelievre's nonlinear extension]] replaces $P$ by a smooth reaction coordinate $\xi:D\to M$. Its hypotheses require a uniformly nondegenerate Gram matrix $\nabla\xi\nabla\xi^{\mathsf T}$, uniform fiber LSI, coarse LSI, and a bound on the tangential derivative of the local mean force. This is closer to a geometric descent, but it does not yet cover gauge orbit space: stabilizers make the quotient stratified, and Balaban's gauge slices are local rather than one global smooth submersion.
 
 ## What the two known endpoints provide

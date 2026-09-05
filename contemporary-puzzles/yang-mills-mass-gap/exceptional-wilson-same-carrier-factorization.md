@@ -236,6 +236,8 @@ in which the electric form and the interacting vacuum couple configuration
 directions. A finite normal Hessian or a positive curvature penalty cannot
 replace that joint analysis.
 
+[[faithful-and-adjoint-holonomy-response|The faithful/adjoint comparison]] makes a different global distinction exact: the probes have the same identity Hessian, but the adjoint probe discards a trace-displacement residue and cannot distinguish nontrivial center holonomy. The faithful Wilson potential itself has negative Hessian there. Neither local metric agreement nor faithfulness supplies global potential convexity.
+
 ## The ground-state transform preserves the cancellation
 
 Assume the matched operator has a unique strictly positive normalized ground
@@ -297,6 +299,10 @@ gap in either convention:
 The trace-metric eight lowers the dimensionless Poincare constant by eight
 and raises the matched kinetic coefficient by eight. It cancels exactly in
 the energy product.
+
+[[global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients|The differentiated-context frame]] further factors the same vacuum-weighted electric form into exceptional context losses:
+\(\|\mathcal A_{\rm ctx}f\|^2=(9/13)\mathcal E_{K,\nu_\Gamma}(f)\).
+This is an actual map on configuration-dependent observables, not an internal channel acting on scalar Wilson values. The factorization neither selects the ground-state law nor bounds its Poincare constant.
 
 ## A normalization-free location of the unknown
 

@@ -546,6 +546,14 @@ unconditioned local marginal, or assumed exponential clustering cannot
 replace these temporal estimates. The continuum proof must also construct
 the limiting carrier and OS/Poincare representation.
 
+[[global-local-response-reconstruction/boundary-frozen-heat-and-conditional-fisher-response|Boundary-frozen heat]] provides a finite-depth approximation from below to the bridge defect; its infinite-depth compression returns this canonical chain. [[conditional-fisher-coercivity/inq|The conditional Fisher theorem]] gives a separate geometric lower certificate for the defect. Once its constant is uniform, [[bridge-floor-under-joint-limits|the predictor-error formulation]] passes that floor through a joint cylinder limit without assuming convergence of the conditional expectations themselves.
+
+[[coarse-boundary-leakage-and-response-lifting|Same-law multiscale lifting]] addresses the preceding uniformity step. A coarse bridge floor, corrected for prediction hidden by boundary coarsening, combines with a discarded-core estimate conditioned on both retained core and full boundary. The sharp product theorem yields an explicit budget whose loss must be summable through the RG depth; a benign coarse law alone supplies neither term.
+
+[[relative-boundary-leakage|Relative leakage]] replaces the absolute boundary correction by a ratio to the fine response. A conditional-Fisher estimate on the actual discarded-boundary fibers supplies that ratio; a finite total logarithmic budget then preserves a positive floor without an additive smallness threshold. [[regional-randomization-and-response-lifting|Regional randomization]] makes this lifting available for private probabilistic readouts: the enlarged response is the original response plus identity on the private-noise directions. The discarded-core estimate must cover that entire enlarged carrier.
+
+[[predictive-sufficient-interfaces|Predictive sufficient interfaces]] provide a different choice of retained object. Exact sufficiency removes both lifting losses; approximate sufficiency uses the complete discarded-prediction norm instead of a worst conditional-fiber bound. Small conditional entropy can bound this norm only with an additional uniform density envelope. [[gaussian-bridge-gap-calibration/predictive-rank-and-physical-separation|The physical-separation calibration]] shows why the resulting interface must still refer to the specified midpoint, not every interior slice approaching an endpoint.
+
 The Copernican content is typed rather than metaphorical. The whole
 middle--boundary relation comes first. Its two conditional-expectation
 projections on the joint carrier are noninvertible when their orthogonal

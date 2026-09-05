@@ -13,6 +13,10 @@ An orthogonal block decomposition need not decompose the vacuum complement block
 
 ## The missing balance sector
 
+[[heat-envelopes-and-the-vacuum-vector|Heat envelopes and the vacuum vector]] gives a related obstruction for smoothing comparisons: transporting an actual return operator to a Haar carrier must also transport its fixed vector. A nonconstant vacuum rules out a full unit-prefactor Haar-heat domination, and an analytic gapped circle example rules out every finite prefactor. This concerns the proposed comparison, not the existence of a physical gap.
+
+[[local-perron-oscillation-and-conditional-coercivity|Local Perron control]] bounds the actual vacuum on each fixed block without a whole-volume density ratio. [[boundary-action-fixed-points-and-physical-linearization|The boundary-action recursion]] constructs those laws from finite histories and identifies its complete fixed-point derivative with the physical transfer. Its mixed spatial response is a joint kinetic-score covariance. [[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate|A whole-slab certificate]] now controls that covariance and the complete interacting bridge in an explicit strong-coupling regime; refinement and crossover control remain open.
+
 Let \(\mathcal H\) be a separable Hilbert space with a finite or countable
 orthogonal resolution
 

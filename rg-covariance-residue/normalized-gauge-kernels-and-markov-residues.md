@@ -105,6 +105,8 @@ These are local score bounds. They do not control the inverse conditional Witten
 
 [[compact-gauge-kernel-tangent-response|The compact tangent-response calculation]] now evaluates the normalizer's second derivative exactly. At coincident inputs, a mode Hessian penalizes path scatter, while the forward Fisher metric detects only the averaged velocity. Its normalized diffusive limit matches [[soft-gaussian-gauge-blocking|the soft Gaussian carrier]] in four dimensions with the declared physical noise scale. This is a fixed-regulator local limit, not uniform nonlinear response control.
 
+[[nonlinear-gauge-fiber-transport|A conditional transport construction]] now inverts the normalized score through the actual weighted Poisson operator. It supplies smooth finite-regulator, gauge-equivariant motion between reverse laws and a pointwise strong-coupling distortion bound. This changes neither the fine marginal nor the requirement to estimate the full nonlinear conditional response.
+
 ## The correct filtration for probabilistic blocking
 
 Let standard Borel carriers and normalized Markov kernels define
@@ -158,6 +160,8 @@ $$
 
 Thus [[inq|the covariance-residue summation theorem]] applies unchanged to initial physical sources when its uniform shell and terminal bounds are proved on this extended carrier. The reverse kernel \(\nu\), not the forward readout kernel \(\mathsf Q\), controls the forgotten conditional correlations.
 
+For two regional chains, [[bridge-data-augmentation-solder/regional-randomization-and-response-lifting|private regional augmentation]] proves a stronger carrier identity: each regional suffix pair has exactly the response floor of its current pair. [[regional-gauge-readouts-and-conditional-lifting|The gauge application]] gives a one-step conditional lifting certificate when the paths stay within their assigned regions. A usual stencil crossing the split is not automatically covered.
+
 ## An exact negative control
 
 At the first step, \(\kappa=0\) makes \(X_1\) independent product Haar, unrelated to \(X_0\). For centered initial \(F\),
@@ -171,6 +175,8 @@ Every original correlation then lies in the first residue, even though the termi
 
 Likewise, \(L^2\) contraction of conditional expectation does not bound spatially weighted source derivatives. A convenient, rapidly mixing forward readout can coexist with uncontrolled reverse conditional correlations.
 
-The parameter \(\kappa\), path family, and weights are supplied blocking choices. This construction is removable auxiliary bookkeeping, not an assertion about ontological dice, a mechanism selecting an observed outcome, or a mass scale. Gauge covariance also does not by itself prove reflection positivity or locality of the induced coarse law. A Clay proof still needs the actual non-Abelian response estimates, a Yang--Mills continuum limit, and the full reconstruction hypotheses.
+[[nonlinear-conditional-gauge-response|The intrinsic reverse-conditional Hessian]] differentiates the full normalized law, including its mean and covariance corrections. Path-incidence bounds give a uniform conditional strong-coupling estimate on product Haar, without choosing a tangent chart. They do not yet propagate through arbitrary effective actions.
+
+The parameter \(\kappa\), path family, and weights are supplied blocking choices. This construction is removable auxiliary bookkeeping, not an assertion about ontological dice, a mechanism selecting an observed outcome, or a mass scale. Gauge covariance also does not by itself prove reflection positivity or locality of the induced coarse law. A Clay proof still needs regulator-uniform non-Abelian response estimates along the continuum trajectory, a Yang--Mills continuum limit, and the full reconstruction hypotheses.
 
 [[receipts/normalized_kernel_receipt.py|The finite verification receipt]] checks exact normalization on a finite compact subgroup, the score derivative with complex sources, and nested Markov suffix projections. Its independent-readout and nonnested-state-algebra controls test why neither a trivial coarse law nor separate single-state projections establish a gap.

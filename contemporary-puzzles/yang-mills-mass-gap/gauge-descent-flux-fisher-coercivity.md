@@ -592,6 +592,8 @@ $$
 
 The inequality holds on the raw product and hence on its gauge-invariant subspace, where the ground-state transform identifies it with a Hamiltonian bound. This is a **conditional theorem**, not a Yang--Mills result smuggled in through vocabulary. The hard work is proving (local-mixing-data) for $\nu_{a,L}=\psi_{0,a,L}^2\mu_{a,L}$ from bare or renormalized local dynamics without importing an already known gap or clustering length.
 
+[[vacuum-aligned-innovation-completion/local-perron-oscillation-and-conditional-coercivity|The local Perron calculation]] provides finite conditional constants from the actual Wilson eigen-equation and the influence estimate \(C_{ij}\le M_{ij}/\lambda_i^{\rm cond}\). Here \(M_{ij}\) includes the cross covariance of kinetic scores under the actual transition law, even where the bare spatial potential has no mixed term. Locality of that potential therefore cannot be substituted for control of the full influence matrix. The accompanying slow-mixture example proves that uniformly regular conditional fibers alone do not force global coercivity.
+
 A raw-link condition may be too rigid along the continuum trajectory, so gauge-invariant blocks with explicit boundary variables may be the natural scale. Wu's displayed theorem does not automatically apply to overlapping, constrained, or heterogeneous blocks. A block version must provide either a disjoint energy-isometric product factorization or a separately proved comparison
 
 $$

@@ -80,6 +80,8 @@ $$
 
 There is no reason for \(\ell_X=\ell_Y\) when \(X\) and \(Y\) are different response objects. A background-radiation anisotropy, a Yang--Mills vacuum slab, a horizon cut, and a thermodynamic transition can carry different measures, normalizations, and response laws. What can be shared is the diagrammatic form of the comparison. A common numerical scale is justified only if a further naturality theorem identifies the two carriers and their ledgers.
 
+A scalar ledger need not identify all the geometry relevant to response. [[rg-covariance-residue/frustrated-su3-conditional-wells#Equal scalar strength does not identify the source orbit|Two realizable gauge sources]] have identical singular values and scalar strength but inequivalent determinant phases and different conditional well structures. Thus a matched count can select a yardstick while leaving essential context data unresolved. The comparison should eliminate redundant presentation choices, not distinctions that change the operator.
+
 ## The causal-scale member
 
 For a spherical causal presentation, take
@@ -108,7 +110,7 @@ $$
 \tag{RG6}
 $$
 
-The \(46\)--\(47\,\mathrm{MeV}\) presentation belongs only to one conditionally calibrated member of (RG6). Its BAO/CMB acoustic agreement is a numerical clue that this matched-ledger method may be well matched to that background-radiation object; because the comparison is post-search and partly conditioned on cosmological data, it is not yet independent evidence. It does not make the returned number universal, identify a particle, or authorize importing it into Yang--Mills. [[the-grain-of-causal-scale/filled-cell-no-go|The filled-cell no-go]] makes one of those type boundaries quantitative.
+The \(46\)--\(47\,\mathrm{MeV}\) presentation belongs only to one conditionally calibrated member of (RG6). The downstream [[causal-grain-cosmology/cmb-likelihood-test|chiral-acoustic likelihood test]] has a narrower, more concrete result: a frozen relation removes one fitted CMB acoustic-angle coordinate with little penalty in the archived paired Planck and ACT spectrum fits. It uses the standard transfer calculation and a post-search functional law; no independent galaxy-BAO prediction has yet been established. This supports conditional parameter economy, not a derivation of the common-count law. It does not make the returned grain universal, identify a particle, or authorize importing it into Yang--Mills. [[the-grain-of-causal-scale/filled-cell-no-go|The filled-cell no-go]] makes one of those type boundaries quantitative.
 
 ## Covariance and the word “functor”
 

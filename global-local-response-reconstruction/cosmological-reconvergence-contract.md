@@ -86,6 +86,55 @@ $$
 
 where \(K_e\) conditionally predicts complete retained distinctions from the two sides of a collar. This is how a directed asymmetric formation can present a locally symmetric law while leaving an even positive persistence cost. Chirality or order requires a separate reversal-odd operator; positivity does not remember handedness by itself.
 
+[[conditional-fisher-coercivity/inq|Conditional Fisher coercivity]] now gives a concrete sufficient certificate for this response: compare variation of the conditional interior law with the actual context law in its Fisher geometry. The resulting dimensionless floor concerns the specified joint carrier; calling that carrier “whole” does not identify it with the cosmos. A cosmological application must construct its own conditional family and prove that the common scale source is compatible with both reconstruction branches below. The nonlinear Wilson example supplies one regulated vacuum-candidate law, not that cosmological identification.
+
+[[bridge-data-augmentation-solder/relative-boundary-leakage|Relative boundary leakage]] makes one part of this requirement quantitative across resolutions. The candidate invariant is a ratio between conditional sensitivity and stiffness of the actual discarded-context law; it is not the size of the context in meters. A finite total logarithmic loss can preserve a response floor through a tower, once both interior and boundary conditional estimates are proved. This supplies a shared mathematical test for proposed vacuum and cosmic constructions, not a derivation connecting gluons to dark matter, dark energy or acoustic anisotropies. Those claims still need the distinct state, source and observable-return maps below.
+
+## What to borrow from acoustic explanatory economy
+
+[[program-core/inq|Program Core]] and [[cosmodynamics/inq|Cosmodynamics]] organize theories by their object and explanatory role, not by whether the objects appear large or small. The useful methodological precedent in [[causal-grain-cosmology/inq|causal-grain cosmology]] is therefore not its absolute length or energy. It is the sequence: distinguish the area and bulk counting laws; state a proposed matching relation; cancel arbitrary ruler choices; form a dimensionless scale ratio; and ask which independently measurable relation that construction actually constrains.
+
+The failed first acoustic insertion is especially instructive. The grain cancels from the phase when it is introduced only as a common unit. The later candidate instead constrains \(D_M/r_s\), a relation between propagation geometry and the acoustic ruler. Neither a logarithm nor a quotient alone creates an invariant: the transformations, carriers and physical matching law must be specified.
+
+There is a real but narrow economy result to preserve. [[causal-grain-cosmology/cmb-likelihood-test|The archived likelihood comparison]] removes one continuous acoustic-angle coordinate from the six-parameter baseline while retaining the same transfer physics and nuisance treatment. Its stored Planck and ACT spectrum-profile receipts report penalties of approximately \(0.064\) and \(0.332\) in \(\chi^2\). That is a CMB TT/TE/EE constraint-transfer result, not an independent galaxy-BAO prediction or a complete reduced-parameter cosmology. The functional law was selected after inspecting the acoustic target, and the common-count, chiral and discrete branch choices remain part of its explanatory cost. The parameter counts and existing receipts support this narrower description; they do not establish that the deeper matching law is necessary.
+
+The separate [[causal-scale-theory/data-consistency|CST BAO-plus-supernova comparison]] has equal parameter count to its flat-\(\Lambda\)CDM comparator: both fit one background-shape parameter and profile the same two calibrations. Its economy is avoiding extra dark-history parameters; it does not predict the grain or separate \(H_0\) from \(r_d\). These two empirical results support different claims and must not be combined into “fewer parameters explain BAO.” This audit reads the archived comparisons; it does not rerun their likelihoods.
+
+[[program-core/explanatory-economy|The freedom-displacement test]] is equally important for the mass-gap route. Removing a mass parameter achieves little if an arbitrary state, readout kernel, transport connection or boundary law is chosen to reproduce the same spectrum. A useful construction must constrain several return quantities together, so changing it to save one observation also changes the others.
+
+[[vacuum-aligned-innovation-completion/local-perron-oscillation-and-conditional-coercivity|The actual-vacuum response calculation]] gives this method a concrete mathematical target. All off-diagonal vacuum responses arise from one transition family \(\eta_U=P_T(U,\cdot)\): their mixed Hessians contain the joint covariance of its kinetic scores. [[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate|The Wilson slab certificate]] now controls that covariance and the actual vacuum's stiffness from one interacting history law in a specified strong-coupling regime. Together they imply a complete midpoint response floor, with no separately fitted response blocks. The remaining task is uniform control through temporal and spatial refinement. This is a reusable relation between whole and part, not an identification of a cosmic horizon with a lattice boundary or of entropy with mass.
+
+[[vacuum-aligned-innovation-completion/boundary-action-fixed-points-and-physical-linearization|The nonlinear boundary-action construction]] identifies the operator behind this example: it integrates one additional history layer and acts on boundary actions modulo constants. Its entropy variational increment, conditional covariance Hessian and complete physical fixed-point derivative are outputs of the same law. This is an exact instance of deriving several structural responses together, while still taking the Wilson dynamics as supplied. It does not derive that dynamics, select a cosmic carrier or turn the entropy increment into causal charge.
+
+The current response calculation gives this tactic a precise next object. For one actual core--context law, let \(Kf=\mathbb E[f(Y)\mid Z]\). Then
+\[
+\operatorname{Var}_{\mu_Y}f
+=\operatorname{Var}_{\nu_Z}(Kf)
++\mathbb E\operatorname{Var}(f(Y)\mid Z).
+\tag{CR5a}
+\]
+This is an exact allocation of distinguishability between context-predictable and residual parts. Its dimensionless relative response is
+\[
+\mathfrak q_\mu(f):=
+\frac{\mathbb E\operatorname{Var}(f(Y)\mid Z)}
+{\operatorname{Var}_{\mu_Y}f},\qquad
+\kappa_\mu:=\inf_{f\notin\mathbb C\mathbf1}\mathfrak q_\mu(f).
+\tag{CR5b}
+\]
+Invertible relabelings of core and context leave this ratio unchanged after pushing forward the same law. Forgetting data changes the law's observable algebras and can change the ratio; [[bridge-data-augmentation-solder/relative-boundary-leakage|relative leakage]] bounds that change. Rescaling the observable \(f\) does not select a different response. Changing the preparation state or the conditioning boundary generally does.
+
+The identity (CR5a) alone cannot force \(\kappa_\mu>0\). That requires a uniform lower fraction over the complete observable carrier, not merely a nonzero response for one chosen distinction. This is the step at which a suggestive conserved allocation becomes a substantive spectral question.
+
+In the terminology of [[conservation-of-causal-charge/inq|causal charge]], (CR5a) is a quadratic allocation, not yet a linear Noether or moment-map charge, and \(\mathfrak q_\mu\) is not a rate of record production. An outcome instrument, record law, physical flow and charge-flux map would be additional constructions. A finite sum of logarithmic response losses along a chosen tower is likewise a bound, not automatically a path-independent scale cocycle.
+
+The candidate Copernican reversal is thus specific: construct the core--context relation and its positive uniform response before assigning a mass interpretation to its reconstructed local spectrum. A cosmological and a laboratory application may share this type of structure without sharing the same state, boundary, numerical ratio or operator. Explaining their relation requires the common-source reconstruction below; their apparent sizes provide no argument either for or against it.
+
+[[coarse-response-memory/inq|The dynamical hidden-return calculation]] adds a second transferable quotient. In its declared Hilbert block model, let \(s\) bound the retained static short, \(c_H\) bound the hidden generator, and \(k=\|C^{-1}B\|\) measure return coupling. The dimensionless gap budget depends on \(s/c_H\) and \(k\), not on a choice of clock unit. The full retained response nevertheless contains \(B^*(z+C)^{-1}B\): replacing it by a single fitted local rate can omit slow contextual feedback. This is a precise way to retain the wider context without introducing an arbitrary new response function, since its frequency dependence comes from the same whole generator. Here \(c_H\) is a hidden-sector bound, not the speed of light. Neither this model nor the acoustic fit identifies cosmic redshift with that hidden return, or supplies a mass scale before the physical reconstruction.
+
+[[bridge-score-fusion-geometry/two-boundary-multiplication-and-predictive-tails|The two-boundary product theorem]] sharpens what it means to include the context. Separately propagated observables combine multiplicatively when predicting from two endpoints; the actual joint endpoint measure fixes the norm. An exact sufficient observable algebra survives that composition, whereas a linear mode cutoff can omit products still accessible to the boundary pair. This is a concrete type correction inside the proposed method, not evidence that a cosmic horizon is literally a Euclidean slab boundary. An acoustic, horizon, or vacuum application must supply its own carrier and map before borrowing the same estimate.
+
+[[bridge-score-fusion-geometry/volume-uniform-fusion-envelopes|The unit-prefactor fusion theorem]] now shows one way a complete response estimate can survive increasing the number of independent degrees of freedom. But two other parts of the object cannot be omitted: [[vacuum-aligned-innovation-completion/heat-envelopes-and-the-vacuum-vector|its actual vacuum]] and [[bridge-score-fusion-geometry/gauge-quotients-of-midpoint-bridges#The boundary cannot be chosen just to improve the bound|its physical endpoint readouts]]. Even a gapped analytic model can fail comparison with the wrong reference vacuum. Conversely, discarding all endpoint information manufactures maximal residual response in any dynamics, including a gapless one. The shared method is therefore not “put the object in a finite box”; it is to construct a law together with the state, accessible algebras and comparison maps that make its dimensionless response physically meaningful.
+
 ## The two reconstruction branches
 
 The same upstream object must have at least two theory- and state-dependent return schemas:

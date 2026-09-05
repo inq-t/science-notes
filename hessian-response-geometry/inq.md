@@ -2,6 +2,8 @@
 inq.module: "hessian-response-geometry"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - "**/*.py"
 ---
 # Hessian Structure on a Common Response Form
 
@@ -66,6 +68,12 @@ is one component of the Hessian cubic form. Equality of its permutations is an i
 [[affine-hessian-structure|The affine Hessian structure]] states the local theorem and the global obstructions. The tensor \(\nabla g\) is the Amari--Chentsov tensor only when the Hessian manifold is supplied by the relevant statistical model; a generic Hessian cubic should not inherit that physical interpretation by name alone.
 
 [[relative-response-spectrum|A response spectrum is relative to a metric]] supplies the numerical gate: eigenvalues of a raw coordinate Hessian are not intrinsic. A generalized response spectrum is coordinate invariant only when response and reference metric are pulled back together, and its relative normalization remains part of the data.
+
+[[response-rigidity-and-multiplicity|Response rigidity]] supplies the all-direction gate: even an entire selected entropy profile and a fixed total response can coexist with an arbitrarily weak direction on one finite carrier. Irreducibility of the actual comparison geometry, controlled anisotropy, or genuine saturation under a proved ceiling can promote scalar calibration to an operator bound. Internal representation multiplicities remain separate obligations.
+
+[[compatible-image-and-signed-curvature|Compatible-image curvature]] adds the constraint gate for a signed Hessian. Negative ambient weights can be inaccessible to compatible variations, while positive coordinate diagonals can hide a collective negative mode. An exact compression norm decides the finite relative stability question; this signed action Hessian is not a positive information metric.
+
+[[finite-witness-compactness-and-uniform-escape|Finite-witness compactness]] adds a coverage gate. On a compact background family, strict finite-support instability at every point implies one uniform support radius and margin. For central Wilson contexts, failure instead produces an infinite context whose remote Hessian is nonnegative on every finitely supported variation. Compactness sharpens the classification obligation; it does not prove its instability premise.
 
 ## When the Hessian is BKM
 

@@ -4,6 +4,8 @@ Within an already reconstructed and metrically calibrated quantum theory, a spec
 
 **Status: [EXACT] for the transfer-rate identities, the rest-phase rate, and the rapidity-rate expression of acceleration; [STANDARD] for the classical Schwarzschild and leading semiclassical area-law inputs; [EXACT -- AFTER REDUCTION] for the algebraic rate identities conditional on those inputs; [CONDITIONAL THEOREM] for the factification-rate solder; [IDENTIFICATION] for reading attenuation as unresolved distinction persistence or Schwarzschild entropy as a rate-ratio capacity; [OPEN CONSTRUCTION] for a prelocal or octonionic carrier, its Yang--Mills realization, and any cosmological common origin.**
 
+[[vacuum-aligned-innovation-completion/boundary-action-fixed-points-and-physical-linearization|Boundary-action fixed points]] supplies an exact functional interpretation of this rate. Integrating one more transfer layer acts nonlinearly on logarithmic boundary actions modulo constants; its derivative at the vacuum is the actual Doob transfer on the complete centered physical tangent space. Entropy enters through a conditional variational identity with a specified reference law. This does not equate entropy with mass, and contraction of a selected quadratic ansatz need not control the full tangent spectrum.
+
 ## The quotient carried by mass
 
 Let \(H\geq0\), let \(P_0=E_H(\{0\})\), and assume the nonvacuum carrier \(\mathcal K=(1-P_0)\mathcal H\) is nonzero. For Euclidean length \(\ell>0\), put

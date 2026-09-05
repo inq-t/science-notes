@@ -13,6 +13,12 @@ Let $N\mapsto(\mathcal A_N,\omega_N)$ be the intended family. Relative entropy a
 
 These are not equivalent. An inclusion of regions gives isotony for free but changes which observables exist; a common ambient algebra buys comparability at the cost of specifying that ambient object; a crossed product changes the algebra type and introduces its own dressed observables; a connection defines transport only up to holonomy, which must then be shown negligible or accounted for.
 
+## A compact commutative benchmark
+
+[[conditional-fisher-coercivity/measure-preserving-horizontal-lifts|A smooth conditional family]] admits an exact connection with \(dP=PD\), even when that connection has curvature. [[conditional-fisher-coercivity/bounded-transport-and-cut-flux|Cut-flux duality]] determines whether the required law-preserving transport is bounded in the declared metrics. This is a concrete commutative transport instance, not a type-III or Lorentzian wall construction.
+
+The connection transports the conditional law to itself while moving the probes. A score in a fixed presentation can therefore be nonzero even though the law is constant under that transport. Neither this score nor its cut quotient is automatically the physical horizontal BKM tangent selected by RE1--RE2. State selection, choice of connection, response interpretation and physical realization remain distinct.
+
 ## Exact transport constructors
 
 The first exact constructor is a reconstructed half-sided-modular tunnel. Given one half-sided modular inclusion, [[half-sided-modular-tunnel|the tunnel theorem]] defines

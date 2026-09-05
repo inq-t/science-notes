@@ -226,7 +226,11 @@ slice law. It subtracts the part recoverable from the two boundary slices.
 Its value is not a pixel size, a particle mass, or an outcome probability;
 it is a dimensionless conditional non-recoverability.
 
+[[predictive-rank-and-physical-separation|Predictive rank and physical separation]] extends this calibration to Gaussian interfaces and tests the carrier choice. The complete response of every interior sample can vanish under refinement while this fixed-distance midpoint response stays positive. Exact sufficient compression preserves that distinction; it does not make an adjacent boundary layer interchangeable with the midpoint.
+
 ## Exact comparison with physical Euclidean transfer
+
+[[two-boundary-half-smoothing|Two-boundary half-smoothing]] supplements the comparison below with the complete operator sandwich \(P_{2\ell}\le K_\ell^*K_\ell\le P_\ell\). It controls a discarded upper spectral tail without assuming a positive lower spectral edge, and separates that useful estimate from an invalid same-distance one-ended comparison.
 
 Let \(P_\ell\) be the one-ended Ornstein--Uhlenbeck transfer through length
 \(\ell\). It acts on the Hermite basis as

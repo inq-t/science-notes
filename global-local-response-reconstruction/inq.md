@@ -61,6 +61,8 @@ A framework claimed to lie beneath both particle physics and cosmology needs a s
 
 ## What the response operator operates on
 
+[[exceptional-context-analysis-of-gauge-gradients|Exceptional context analysis]] now supplies one explicit field-sensitive map: apply the context losses to differentiated gauge-representation gradients, then integrate along the whole law's auxiliary heat flow. This factors a bounded response on the retained physical carrier. It also explains why [[algebra/primitive-peirce-response|complete finite matrix readouts]] alone are insufficient: a fiberwise unital map leaves every scalar function of the field untouched. Uniform comparison with the joint-boundary defect below remains a separate theorem.
+
 Fix a reflected slab in one regulated member \(r\). Let \((\mathcal W_r,\omega_r)\) be its whole algebra and state, with expected midpoint and two-boundary subalgebras
 
 $$

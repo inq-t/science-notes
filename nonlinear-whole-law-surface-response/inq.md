@@ -543,6 +543,8 @@ whole-law heat step moves the same distinction. It can fail by an explicit
 sequence \(f_{\mathfrak r}\) for which the whole-law response stays positive
 while the bridge residue tends to zero.
 
+[[global-local-response-reconstruction/boundary-frozen-heat-and-conditional-fisher-response|Boundary-frozen heat]] gives a distinct branch: the generator fixes the actual retained boundary, making the upper comparison constant one. Conditional Fisher control then supplies a separate lower bound, realized for nonlinear Wilson laws in [[collared-quasi-factorization-and-surface-response/fisher-collar-bound-for-wilson-laws|the strong-coupling collar theorem]]. This does not prove (NW34) for the unfrozen generator. Compression, rather than the least-cost short, is essential to the frozen branch: boundary zero modes can make its short vanish even when its core compression is positive.
+
 ## The carrier must be complete before the cut is closed
 
 At a gauge boundary, separate regional gauge closure erases charged edge

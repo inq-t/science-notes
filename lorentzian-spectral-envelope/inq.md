@@ -73,6 +73,8 @@ $$
 
 and the associated pre-Hilbert space is \(\mathcal A_+\) modulo the null vectors of this form; completing that quotient gives the Hilbert carrier. Together with the other Osterwalder--Schrader hypotheses, the one-sided pairing reconstructs a positive-energy Hilbert theory; reflection positivity alone is not the whole reconstruction theorem. Calling the reflection hyperplane a programme “wall” is a proposed comparison, not part of the standard theorem. On a lattice the construction is exact: a positive transfer operator \(T_a\) acts across physical Euclidean slice length \(a\); after division by its vacuum eigenvalue, its logarithmic generator is conventionally written \(\widetilde T_a=e^{-aH_0/(\hbar c)}\), where \(H_0\) is a vacuum-normalized energy and lattice conventions often set \(\hbar=c=1\). Osterwalder and Seiler proved reflection positivity for Wilson's lattice gauge action at every coupling (*Ann. Phys.* **110**, 440 (1978)). The rigorous gap supplied by the accompanying strong-coupling analysis is restricted to that regime; reflection positivity by itself does not imply a gap.
 
+[[positive-kernels-and-reflection-positivity|Positive kernels and reflection positivity]] gives a decisive type check: the stationary sech-squared kernel has a positive Fourier transform but a negative reflected two-point determinant. Its legitimate density and Witten-operator roles survive; they do not certify an OS two-point function.
+
 **[DEFINITION]** Let \(P_0\) be the vacuum projection and normalize the transfer operator by its vacuum eigenvalue,
 
 $$

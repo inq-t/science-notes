@@ -421,6 +421,8 @@ The right side is exactly the Kogut--Susskind electric coefficient times the \(S
 
 [[contemporary-puzzles/yang-mills-mass-gap/receipts/wilson_bounded_solder_receipt.py|The finite receipt]] checks the Bessel ordering on representative sectors, the elementary certificates, the square-girth product edge, and convergence of the pure-kinetic logarithmic rate to the electric Casimir normalization. Its [[contemporary-puzzles/yang-mills-mass-gap/receipts/wilson-bounded-solder-receipt-output.txt|stored output]] records the passing run. It verifies arithmetic, not the Peter--Weyl proof, the interacting transfer comparison, or a continuum mass gap.
 
+[[bridge-score-fusion-geometry/wilson-bridge-envelopes-under-temporal-blocking|Wilson bridge envelopes under temporal blocking]] extends this pure-kernel calculation to complete two-ended prediction. The actual logarithmic weights obey a sharp fusion-growth constant \(2\), and composing genuine Wilson steps yields a unit-prefactor envelope uniform in coupling and independent product size at a declared positive blocked depth. It does not replace finite-spacing weights by the Casimir or identify powers of the magnetic sandwich with products of blocked kinetic kernels.
+
 ## The full finite Wilson sandwich has an explicit global bound
 
 The magnetic terms do not erase the kinetic result, but they change its carrier. For pure Wilson gauge theory in temporal gauge, Luscher's factorization has the schematic exact form
@@ -555,6 +557,8 @@ The reason this exact estimate does not approach the Clay problem is visible in 
 for the \(SU(2)\) factor \(e^{x\cos\theta}\), the one-link ratio is \(e^{-2x}\). On a regular lattice family with \(|E_\Gamma|\) and the number of spatial plaquettes proportional to volume and with fixed \(x\), the kernel factor alone makes (FB15t) deteriorate exponentially in spatial volume even though the exact pure kinetic edge (FB15g) does not. In infinite volume the interacting vacuum need not have any globally bounded density relative to product Haar measure.
 
 This locates the remaining interaction problem more sharply. A local or block-conditional comparison is the viable next route: it should cover every admissible boundary-flux sector and remain uniform after gauge-covariant blocking to a fixed physical scale. The calculation does not prove that every possible global comparison must fail; it proves that this global minimum-to-maximum Holley--Stroock/Harnack certificate cannot supply the desired thermodynamic stopping quantity. [[two-scale-rg-descent-and-the-crossover-lemma]] records the summable-RG version of the obligation, while [[gauge-descent-flux-fisher-coercivity]] records the conditional Poincare/Dobrushin route.
+
+[[vacuum-aligned-innovation-completion/local-perron-oscillation-and-conditional-coercivity|Local Perron oscillation]] now supplies the fixed-block part of this programme directly from the same eigen-equation. It gives volume-independent conditional density ratios at fixed block and couplings, and expresses the vacuum's distant mixed Hessian as a covariance of kinetic scores under its actual Doob transition. The conditional constants may deteriorate under refinement, and the covariance still needs a collective influence estimate; the whole-volume ratio has not merely been renamed.
 
 [[gauge-cycle-innovation-filtration/inq|Gauge-Cycle Innovation Filtration]]
 now supplies the complementary exact localization. Subgraph conditional

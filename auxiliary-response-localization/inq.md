@@ -2,6 +2,8 @@
 inq.module: "auxiliary-response-localization"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - "**/*.py"
 ---
 # Auxiliary Response Localization
 
@@ -203,7 +205,9 @@ This follows by inserting \(W_{\sigma,B}^{-1}W_{\sigma,B}\) in (ARL12). It ident
 
 For gauge-invariant \(F,G\), one may work on the smooth product \(\mathsf G^E\) rather than prematurely quotienting by the stratified gauge orbit space. With an invariant metric and action, \(L_0\) and \(L_1\) commute with the gauge action, while \(dF\) and \(dG\) are invariant exact forms annihilating vertical gauge directions. A scalar Poincare gap controls this exact sector, not every coexact or harmonic one-form. If a chosen generator has a fixed algebra larger than the constants, (ARL2) and the reduced inverse must instead use the orthogonal fixed-space projection, and every conclusion is confined to its complement. Neither these configuration-space one-forms nor their exact sector are carriers for a generalized one-form global symmetry; the later local OS argument reaches only the cyclic neutral vacuum representation unless an extended-operator totality theorem is added. Neither (ARL11) nor the parabolic Witten heat semigroup supplies finite propagation by itself; weighted off-diagonal control is a separate theorem.
 
-[[library/witten-laplacian-methods-for-the-decay-of-correlations/inq|Lo's Witten-Laplacian method]] proves this covariance-resolvent strategy for classes of lattice spin systems. [[library/witten-laplacian-on-a-lattice-spin-system/inq|Shigekawa]] supplies related volume- and boundary-uniform one-form estimates. These are precedents for the operator signature, not Yang--Mills continuum theorems.
+[[exact-source-locality-without-a-full-form-gap|Exact-source locality]] supplies a sufficient off-diagonal estimate without a full one-form gap. Spatial weights need not preserve exact forms: bounded weighted growth is proved on the full nonnegative operator, while long-time decay is used only on the original exact source. Splitting those two estimates gives a static exponential bound. [[rg-covariance-residue/nonlinear-conditional-gauge-response|The normalized compact gauge law]] supplies explicit Hessian and locality constants in a conditional strong-coupling regime.
+
+[[library/witten-laplacian-methods-for-the-decay-of-correlations/inq|Lo's Witten-Laplacian method]] proves this covariance-resolvent strategy for classes of lattice spin systems. [[library/witten-laplacian-on-a-lattice-spin-system/inq|Shigekawa]] supplies related volume- and boundary-uniform positive-degree form estimates. These are precedents for the operator signature, not Yang--Mills continuum theorems.
 
 ## From one common exponent to an OS gap
 

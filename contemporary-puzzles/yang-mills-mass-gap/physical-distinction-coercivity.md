@@ -236,6 +236,39 @@ This asks how much physical energy charges the distinctions erased by that parti
 
 If \(\operatorname{Ran}\widehat E\) contains nonvacuum directions, \(\lambda_E>0\) does not by itself give the global mass gap. The wall has charged one family of distinctions and retained another. This is precisely why a complete filtration is useful.
 
+### Stable inversion of which arrow?
+
+After a physical reconstruction, let \(K\ge0\) be the self-adjoint inverse-length generator with \(\ker K=\mathbb C\Omega\). Fix \(\ell>0\), and work on the nonzero complement \(\mathcal H_0=\Omega^\perp\). The two bounded operators
+\[
+T_\ell=e^{-\ell K},\qquad
+D_\ell=(I-T_\ell^2)^{1/2}
+\]
+are injective with dense range there. They ask opposite spectral questions. If
+\(\sigma=\inf\operatorname{spec}(K|_{\mathcal H_0})\) and
+\(M=\sup\operatorname{spec}(K|_{\mathcal H_0})\), functional calculus gives
+\[
+\inf_{\|\psi\|=1}\|T_\ell\psi\|^2=e^{-2\ell M},
+\qquad
+\inf_{\|\psi\|=1}\|D_\ell\psi\|^2=1-e^{-2\ell\sigma},
+\]
+with \(e^{-\infty}=0\). A bounded inverse on the range, equivalently closed range here, therefore means
+\[
+\boxed{
+\begin{aligned}
+\text{stable inversion of }T_\ell
+&\ \Longleftrightarrow\ M<\infty
+&&\text{(an ultraviolet ceiling)},\\
+\text{stable inversion of }D_\ell
+&\ \Longleftrightarrow\ \sigma>0
+&&\text{(an infrared gap)}.
+\end{aligned}}
+\]
+The bounded-below criterion proves both implications; dense closed range is the entire carrier.
+
+On \(\mathbb C\Omega\oplus\ell^2(\mathbb N)\), \(Ke_n=ne_n\) has a gap but no bounded transfer inverse, whereas \(Ke_n=n^{-1}e_n\) has a bounded transfer inverse but no gap. These are exact operator examples, not candidate relativistic theories. A mass gap is an upper bound below one on vacuum-reduced transfer, or a positive lower bound on its defect—not a lower bound on transfer itself.
+
+This \(D_\ell\) is a spectral diagnostic defined **after** \(K\). It cannot be advertised as an independently constructed wall. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap#A constructive quantitative gluing map|The quantitative gluing theorem]] instead requires bounded recovery from its actual upstream response defect, followed by comparison with physical transfer. Stable cross-fiber transport alone supplies neither condition. Simultaneous rescaling \(K\mapsto aK,\ \ell\mapsto\ell/a\) preserves both operators and does not decide whether either edge is positive.
+
 ## The operator-algebraic contribution: transport first, shells second
 
 The Connes--Takesaki contribution is the prior comparison problem. Tempered arrows and their canonical-core maps, or another explicitly constructed comparison functor, can compare different regions or regulators as described in [[wall-construction-interface/cross-fiber-transport|cross-fiber transport]]. Only after two faithful states have been placed on one von Neumann algebra can a relative Connes cocycle compare their modular presentations. These constructions do not select a state, produce an expectation, or prove a gap. Every algebra or core comparison used below must have a state-compatible Hilbert implementation

@@ -62,7 +62,11 @@ positivity can relate temporal correlation decay to transfer spectral
 support. The two statements must not be conflated: an auxiliary Markov
 generator and the Euclidean-time Wilson transfer are different operators.
 
+[[wilson-slab-conditional-fisher-certificate|The conditional-Fisher slab certificate]] supplies an explicit same-vacuum realization of the bridge programme: a finite-history Dobrushin bound controls the true vacuum and its joint endpoint scores, then gives a complete midpoint floor and a physical transfer rate. Its small spatial and temporal Wilson parameters are stated separately. [[hamiltonian-product-vacuum-stability|Product-vacuum stability]] supplies a distinct continuous-time, fixed-spatial-lattice anchor by applying a published local-perturbation theorem to compact electric rotors. Neither certificate crosses the weak-bare-coupling continuum trajectory.
+
 ## The continuum trajectory leaves that theorem's regime
+
+[[temporal-column-response/inq|Temporal-column response]] improves the time-refinement leg without dropping the interaction: a complete path is one variable in a compact Wasserstein metric, and its conditional block mixing bounds the cost of a local exterior insertion. [[wilson-temporal-column-coercivity|The Wilson application]] yields an explicit vacuum Poincare floor uniform in spatial volume and \(x\to\infty\) when \((d_s-1)\beta_s x\le1/200\). [[wilson-to-hamiltonian-vacuum-limit|The vacuum-limit theorem]] passes that floor to the continuous-time lattice Hamiltonian. This is not a finite-step Wilson-to-Laplacian form comparison or a complete two-endpoint bridge theorem; the small magnetic/electric ratio still excludes the spatial continuum trajectory.
 
 For the standard four-dimensional Wilson normalization,
 

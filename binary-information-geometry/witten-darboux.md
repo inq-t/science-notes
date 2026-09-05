@@ -288,6 +288,8 @@ Thus a homogeneous constant partner plus one normalizable pointing forces positi
 
 ## Reflectionless continuum
 
+[[matrix-flat-partner-rigidity|Matrix flat-partner rigidity]] states the precise extension: a scalar constant partner forces one constant diagonal basis, while a nonscalar partner can support noncommuting channels. A single normalizable channel then need not exclude a separate gapless channel. Operator-level rigidity, full-carrier coverage, and physical calibration remain different requirements.
+
 For \(k>0\), applying \(A^\dagger\) to a free wave produces a generalized eigenfunction at energy \(1+k^2\):
 
 $$

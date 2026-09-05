@@ -428,6 +428,8 @@ $$
 \tag{NH29d}
 $$
 
+[[faithful-and-adjoint-holonomy-response|Faithful versus adjoint response]] decomposes this exact color function as \(288a+144|1-\operatorname{tr}V/3|^2\), where \(a\) is the identity-Hessian-normalized adjoint defect. The extra summand is already part of (NH29d), not a new stiffness; it retains center information invisible to the adjoint probe.
+
 Let
 
 $$

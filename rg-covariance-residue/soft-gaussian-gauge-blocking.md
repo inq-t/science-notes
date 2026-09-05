@@ -79,6 +79,8 @@ $$
 
 The constant is independent of starting cutoff, volume, and completed depth. A stepwise comparison that repeatedly multiplies by a loss factor would miss this bound: noise injected far upstream has physical amplitude proportional to the square of its smaller block width. Unrolling the law before estimating retains that information.
 
+[[gaussian-harmonic-refresh-lifting|The harmonic-lift comparison]] also bounds the retained precision from above by a fixed multiple of the coarse Maxwell operator. Thus (SG6) is one side of a two-sided Maxwell-order estimate, not evidence that conditioning has created an infrared mass. For hard observations, that construction supplies an exactly composing section and a one-shot gradient-form comparison; those hard right-inverse identities are not asserted for the noisy channel (SG3).
+
 ## The reverse conditional response
 
 At fixed coarse field \(X_{k+1}=B\), the Gaussian law of \(X_k=A\) has precision

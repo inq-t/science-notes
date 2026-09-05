@@ -27,6 +27,12 @@ FINITE-WILSON HYPOTHESES] for the Perron-cancellation formula; [OPEN
 ANALYTIC ESTIMATE] for a volume- and regulator-uniform bridge lower frame on
 the complete gauge-invariant vacuum complement.**
 
+[[two-boundary-multiplication-and-predictive-tails|Two-boundary multiplication]] makes the next analytic target explicit: the adjoint midpoint predictor multiplies separately propagated endpoint observables, with their actual joint-law norm. It supplies a finite multiplication certificate and a density-qualified sufficient-algebra estimate. [[compact-heat-bridge-fusion-tail|The compact heat-bridge tail]] and [[gaussian-bridge-gap-calibration/two-boundary-half-smoothing|Gaussian half-smoothing]] give complete upper-tail calibrations. [[volume-uniform-fusion-envelopes|The unit-prefactor fusion theorem]] makes the compact result independent of product size, while [[gauge-quotients-of-midpoint-bridges|the endpoint quotient theorem]] preserves its order but not necessarily its diagonalization. Uniform interacting response and continuum construction remain open.
+
+[[wilson-bridge-envelopes-under-temporal-blocking|Wilson temporal blocking]] supplies an actual-regulator example: a positive heat-mixture representation makes the Wilson logarithmic cost concave in the Casimir and gives its sharp fusion constant. An all-representation factorial tail then certifies a coupling- and product-size-uniform blocked envelope. This uses the true Wilson cost, not a finite-spacing heat substitution; the interacting Perron law remains a separate obligation.
+
+[[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate|The interacting Wilson slab certificate]] now supplies an actual-vacuum lower frame in an explicit strong-coupling region. It estimates the complete joint endpoint Fisher response and the true midpoint Poincare constant, then uses adjoint prediction to cover every midpoint observable. The regulator crossover remains separate from this fixed-parameter result.
+
 ## A composite kernel disintegrates into bridge fibers
 
 Let \(X,Y,Z\) be standard Borel spaces, let \(\nu\) be a probability measure

@@ -150,6 +150,8 @@ $$
 
 Differentiating \(\int c_N(z\mid x)\,\mathrm dz=1\) gives \(\mathbb E[u_N\mid X]=0\), but it does not force \(\chi_N=0\). Thus \(K_Ns_N^X\) is the full output score only for a fixed channel or after a theorem proves that its conditional channel-score term vanishes. Moving support and singular deterministic channels require a separate pushforward or DQM formulation. [[library/a-note-on-insufficiency-and-the-preservation-of-fisher-information/inq|Pollard's DQM theorem]] owns the fixed-statistic score projection; equation (SC11) is the elementary dominated moving-channel extension.
 
+[[conditional-fisher-coercivity/coarse-graining-and-moving-context|The conditional-Fisher transport theorem]] derives the associated tensor balance: input Fisher information plus channel Fisher information equals output information plus the missing conditional score covariance. It explains why fixed-channel monotonicity cannot be reused when the readout depends on the context being varied, even if every kernel remains normalized.
+
 In bundle language, a family of contractions \(K_N:\mathcal H_N^X\to\mathcal H_N^Z\) has covariant derivative
 
 $$
@@ -201,6 +203,8 @@ s_N^Z-K_Ns_N^X
 $$
 
 Thus \(\chi_N\) is exactly one component of \(\nabla K\), evaluated on the reference section. Full horizontality implies \(\chi_N=0\); the converse need not hold.
+
+For an already declared joint product-gradient form, this metric connection is not the same operation as its inherited derivative at fixed hidden coordinate. [[conditional-fisher-coercivity/moving-fiber-connection|The moving-fiber calculation]] proves that the latter becomes \(\partial_N-s_N/2\) after square-root transport, and annihilates the transported conditional vacuum. A Fisher term from the bare derivative of that vacuum cannot be inserted into the same generator without the compensating score term.
 
 ## A moving frame can erase an apparent scale
 

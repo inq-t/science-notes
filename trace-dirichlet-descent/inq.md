@@ -53,6 +53,8 @@ $$
 
 This is a quotient construction, not a restriction of \(\mathcal E_W\) to a preferred copy of \(\mathcal H_L\). The hidden fibre is quantified over before the local operator is formed. In the language of positive operators it is [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle|shorting]]; in boundary potential theory it is the trace form; in a finite block it is a Schur complement.
 
+[[coarse-response-memory/inq|Coarse response memory]] supplies the time-dependent extension: the static short is the zero-frequency value of a hidden-return response, while actual compressed evolution has a memory kernel. Its three-state example has a fixed fast instantaneous response but an arbitrarily slow observable tail. A positive low-frequency metric and the corresponding block coercivity criterion keep that dynamical distinction explicit.
+
 The operation is not automatically physical. The form \(\mathcal E_W\), the map \(q\), and the local Hilbert norm must be derived independently of the desired mass spectrum.
 
 ## Harmonic representatives and the exact residue
@@ -169,6 +171,8 @@ $$
 $$
 
 [[library/the-dirichlet-to-neumann-operator-on-rough-domains/inq|Arendt and ter Elst]] construct a positive self-adjoint Dirichlet-to-Neumann operator on rough boundaries by form methods and show that its negative generates a contractive \(C_0\)-semigroup. [[library/generalizing-dirichlet-to-neumann-operators/inq|Li]] identifies Dirichlet-to-Neumann operators of irreducible Dirichlet forms with trace Dirichlet forms and boundary time changes of the associated Markov processes.
+
+[[well-core-capacity-and-source-response|Well-core capacity]] supplies a concrete domain-compatible finite return. Sharp finite labels are not themselves \(H^1\) observables on a connected smooth diffusion, but harmonic interpolation between separated cores gives a conductance matrix. The inherited Gram metric differs from diagonal label weights; a four-vertex example shows that changing this metric can decide whether the coordinate evolution is Markovian. In the binary case, source response divided by the corresponding rate remains exactly source transfer squared over capacity in either metric. This preserves the slow channel rather than choosing a new rate for it.
 
 ## When the wall derives a local process
 

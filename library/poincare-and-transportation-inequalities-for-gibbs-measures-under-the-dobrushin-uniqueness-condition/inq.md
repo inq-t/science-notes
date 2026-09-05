@@ -16,6 +16,7 @@ Wu proves explicit sharp spectral-gap and transportation inequalities for Gibbs 
 - **Journal:** *The Annals of Probability* **34** (5), 1960--1989.
 - **DOI:** [10.1214/009117906000000368](https://doi.org/10.1214/009117906000000368).
 - **arXiv:** [math/0611635](https://arxiv.org/abs/math/0611635).
+- **Author manuscript:** [Full text](https://arxiv.org/pdf/math/0611635); [TeX source](https://arxiv.org/src/math/0611635).
 - **Local artifacts:** none.
 
 The opening paragraph paraphrases the article abstract and theorem statements.

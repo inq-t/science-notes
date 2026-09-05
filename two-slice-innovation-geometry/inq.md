@@ -403,6 +403,8 @@ $$
 
 and the second term is an additional influence channel.
 
+When a two-block decomposition comes with the stronger full-space inequality \(B\ge bQ\), [[projection-conditioned-coercivity|projection-conditioned coercivity]] gives a sharp alternative to estimating a scalar matrix of all cross blocks: \(PBP\ge aP\) and \(0\le B\le I\) imply \(B\ge abI\). [[bridge-data-augmentation-solder/coarse-boundary-leakage-and-response-lifting|Conditional fine-to-coarse bridge lifting]] constructs this hypothesis from the actual discarded-core law and explicitly accounts for fine-boundary predictors omitted by coarsening.
+
 ## The hidden-parity obstruction is exact
 
 Let

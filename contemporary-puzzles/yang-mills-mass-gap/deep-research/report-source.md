@@ -5184,7 +5184,2263 @@ All **35 mass-gap receipts passed**, with no stderr or timeouts; the read-only b
 
 The next research action is to use the algebraic whole-law structure to force the physical lower frame, or establish the non-Abelian conditional and retained-infrared estimates that imply the same spectral exclusion. The broader Yang--Mills goal remains active and unachieved.
 
+## DR102. Nonlinear compact response and exact-source locality
+
+**2026-09-04.** The continuation addressed the missing nonlinear response after DR101, while keeping the user's carrier-first wiki audit as its organizing constraint. The working plan was to audit the scalar/exact/full-one-form distinction, derive the actual compact conditional Hessian, test what the exceptional probe controls away from identity, and materialize the resulting proofs in their existing owners. The planning tool remained unavailable. Three bounded read-only specialist lanes checked these independent questions; the main agent wrote and verified the artifacts.
+
+### Results on their declared carriers
+
+[[auxiliary-response-localization/exact-source-locality-without-a-full-form-gap|Exact-source locality without a full one-form gap]] proves a useful conditional implication. A scalar Poincare floor \(\rho\) controls the exact source sector; a full-space conjugation defect \(M_\theta\) controls short-time spatial spreading. Splitting at the crossing of the two heat bounds gives the static exponent
+\[
+\sigma_\theta b=\frac{\theta\rho}{\rho+M_\theta}.
+\]
+The proof does not assume that spatial weights preserve exact forms. They generally do not. It also does not bound arbitrary localized one-forms after a potentially nonlocal projection to the exact sector. Exact local scores suffice for the covariance and retained-source derivative applications. This is a directly proved refinement of the existing auxiliary-time argument, not a claim to have discovered the Witten covariance method.
+
+[[rg-covariance-residue/nonlinear-conditional-gauge-response|The normalized nonlinear compact response]] operates on the actual \(SU(r)^E\) product-Haar reverse conditional law. Differentiating the log normalizer contributes a mean correction and a positive covariance term with coefficient \(\kappa^2\). Normalized Hilbert--Schmidt estimates remove unnecessary rank factors from the path bounds. With explicit nonnegative incidence matrices \(D,J\), the sufficient scalar floor is \(r^2/2-\|D\|>0\), and the weighted one-form defect is bounded by the exponential row sums of \(J\). These are volume- and retained-configuration-uniform when the stated length-weighted incidence and interaction-distance bounds are uniform.
+
+This is a full nonlinear conditional **strong-coupling** result, not a weak-field approximation. Its Wilson fine action and one normalized conditioning step are essential restrictions. Later RG effective actions, retained-source norms, and the weak-bare-coupling trajectory are not controlled by these estimates. A negative value of the sufficient lower bound means that this test is inconclusive, not that the actual law is gapless.
+
+[[contemporary-puzzles/yang-mills-mass-gap/faithful-and-adjoint-holonomy-response|Faithful and adjoint holonomy response]] isolates the exact nonlinear geometric distinction:
+\[
+w=a+\tfrac12|1-t|^2,\qquad t=\operatorname{tr}U/N.
+\]
+The identity follows from the conjugation representation and an orthogonal matrix decomposition. Both normalized probes have the same identity Hessian, but the adjoint probe vanishes at every center element. At nontrivial \(SU(3)\) centers the faithful Wilson potential instead has value \(3/2\) and Hessian \(-g/2\). The exceptional probe already equals \(288w\) globally, so this decomposition does not add a new stiffness or multiply the gap. Center sensitivity of a probe is distinct from center charge of physical glueball states.
+
+### Refactor and source correction
+
+The auxiliary-response owner now links the exact-source proof; normalized kernels, conditioned source transport, and the covariance-residue entry point to the full nonlinear calculation. The exceptional Wilson and normal-holonomy owners consume the faithful/adjoint identity. The mass-gap entry was updated in place without restoring a historical milestone ledger. The Gaussian depth-uniform result, compact strong-coupling result, and missing nonlinear crossover are now separate statements rather than a single ambiguous claim of “response control.”
+
+The Shigekawa library abstract was corrected. The primary paper proves finite-region estimates uniform in region and boundary, with infinite-system consequences **if a Gibbs state exists**; it does not construct that state in the cited argument. Library prose remains source description, not project commentary. No raw source, inbox material, or earlier research-record section was rewritten.
+
+### Primary-source and proof ledger
+
+Sources were checked on 2026-09-04. The main agent independently inspected the consequential source passages rather than relying only on worker summaries.
+
+| Claim | Evidence | Scope and confidence |
+|---|---|---|
+| Weighted Witten covariance precedent | [Assane Lo, Witten Laplacian Methods for the Decay of Correlations](https://arxiv.org/pdf/math-ph/0611002), journal publication 2008; equation (1), section 7, Proposition 21/Corollary 22; turn3568view0 and specialist passage audit | Primary-source precedent. Weighted quadratic-form coercivity is stronger than spectral positivity of a conjugated operator. The new split proof is written independently. |
+| Uniform spin-system form bounds | [Ichiro Shigekawa, Witten Laplacian on a Lattice Spin System](https://www.math.kyoto-u.ac.jp/~ichiro/shigekawa_us.pdf), Asterisque 327 (2009); section 5, Theorems 5.1--5.3; turn3568view1, turn3570view0/2, turn3573view0 | The finite-region restriction and conditional infinite-state extension are explicit on printed page 10. Corrected the library overclaim. |
+| Intrinsic Ricci--Hessian implication | [Dorian Le Peutrec, On Witten Laplacians and Brascamp--Lieb's Inequality on Manifolds with Boundary](https://arxiv.org/pdf/1607.08714), arXiv v2, 2017; introduction and Corollary 1.3; turn3572view1 | Primary precedent for the weighted manifold inequality. The new compact note also supplies its own scalar eigenfunction proof and metric normalization. |
+| Strong-coupling lattice Yang--Mills precedent | [Hao Shen, Rongchan Zhu, Xiangchan Zhu](https://arxiv.org/abs/2204.12737), arXiv 2022, CMP publication 2023; abstract; turn3572view0 | Uniform functional inequalities and infinite-volume correlation decay in their stated regime. Neither their threshold nor their normalization is silently reused for the conditional readout law. |
+| Exact-source split, normalized conditional Hessian, faithful/adjoint identity | Complete derivations in the three linked canonical notes, independently audited against their written final forms | Exact mathematics under written hypotheses. No priority claim, physical carrier identification, or continuum solution inferred from finite receipts. |
+
+Retrieval stopped after the relevant source assumptions and the three proof scopes were resolved. Further general searches for “carrier” would not supply the remaining weak-coupling scalar floor or source-envelope estimate.
+
+### Verification and remaining construction
+
+The exact-source receipt tests cycles of sizes 8, 16, and 32, with a genuine harmonic one-form kernel and a shrinking exact-sector gap. Its first test vector lay at a spatial-weight symmetry point and failed to demonstrate loss of exactness; choosing a vector across unequal weights corrected the test, without changing the theorem or tolerance. The independent heat and inverse comparisons pass.
+
+The faithful/adjoint receipt passes for \(SU(2)\), \(SU(3)\), and \(SU(4)\), including random group elements, all center elements, and the quartic remainder. The compact \(SU(2)\) receipt passes 30 normalized nonlinear Hessian checks: maximum five-point finite-difference discrepancy \(1.57\times10^{-10}\), maximum mixed-Hessian/analytic-bound ratio \(0.378440\). It uses the normalized \(S^3\) Haar marginal, inverse path jets, and repeated plaquette occurrences.
+
+The final regression batch passed all **46 receipt scripts** across the mass-gap, covariance-residue, and auxiliary-response owners. Pre/post SHA-256 checks confirmed unchanged receipt sources and stored outputs. All **11 changed canonical Markdown notes** passed H1/lead, display-math, fence, and whitespace checks; workspace synchronization and link/style lint passed for **471 modules**. These are finite algebra/computation and document checks, not validation of the physical hypotheses or every historical proof.
+
+The next mathematical target is a scalar conditional floor and controlled mixed-Hessian tails for the actual non-Abelian effective laws outside the conservative compact-curvature regime, together with retained-source bounds and a nonzero infrared exponent. The exceptional geometry has not yet forced those analytic premises. The Clay construction and its mass gap remain open; the persistent goal is active and unachieved.
+
+## DR103. The geometric type of a possible solution
+
+**2026-09-04.** The user requested a conceptual review of which geometry or algebra could force the continuum bounds, rather than another calculation of sufficient constants. The review used Deep Research and the modular-notes procedure, with three bounded read-only audits of categorical rigidity, nonlinear gluing/RG, and descent versus clock reconstruction. The planning tool was unavailable. The primary output is [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|Quantitative Descent and the Shape of a Mass-Gap Construction]], a focused synthesis rather than a replacement of the existing reconstruction contract.
+
+### Deductions and their grades
+
+The candidate is a stateful geometry of directed gluing with quantitative rigidity. The state selects the comparison norm; correspondences and process maps relate carriers; the response measures joint unrecoverability; and a separate positive-energy reconstruction returns the local clock. Neither a bare exceptional algebra nor a topological obstruction fixes this whole structure.
+
+Two exact sufficient certificate shapes sharpen the target. A positive bounded gluing element satisfying \(R^2-\kappa R=\sum B_j^*B_j\) has a gap above its kernel in every admissible bounded representation. Alternatively, an independently constructed return map \(B_rT_r=I-E_r\), with uniform \(\|B_r\|\le C\) and \(\|E_r\|\le\rho<1\), forces a lower frame. The synthesis identifies \(T_r\) with the actual residual map, so this is not an unexplained replacement carrier. Both require a vacuum-only kernel and a physical fixed-slab comparison.
+
+The essential nonlinear qualification is exact: for UCP \(\Phi\), the Schwarz defect \(V_\Phi(R)=\Phi(R^2)-\Phi(R)^2\) is positive, but enters the transported polynomial certificate with a minus sign. Thus a certificate preserved by a representation need not be preserved by arbitrary coarse-graining. An RG theorem must track that remainder, the induced metric, and the physical kernel. Positive maps still preserve linear order inequalities when their carrier and projection comparisons are valid.
+
+The bounded-coefficient unimodular matrices \(I-S_n\) have least squared singular value \(4\sin^2(\pi/(4n+2))\to0\); unit residue and exact invertibility therefore do not force a uniform gluing inverse. Strong operator convergence likewise fails to prevent an escaping low-response direction. The existing massless Gaussian result additionally proves that even uniform ultraviolet conditional response does not determine the retained infrared spectrum.
+
+The flat-partner pointing theorem supplies a small exact model of the desired explanatory form: a normalizable ordered zero mode plus the separately imposed homogeneous-partner law forces a positive scale-shadow edge. Its generalization is a research direction, not a physical realization or a proof that the partner law is necessary.
+
+The review does not endorse the proposition that unitarity, time-reversal symmetry, or QFT locality has been proved to cause the unsolved problem. Unitarity and time reversal are distinct, and noninvertible formation can coexist with a separately reconstructed unitary clock. The proposed Copernican change concerns explanatory primitives and compatibility laws.
+
+### Source ledger and scope
+
+Primary sources were inspected on 2026-09-04.
+
+| Claim | Primary source and access | Scope |
+|---|---|---|
+| Algebraic positivity can force a representation-uniform edge | [Ozawa, Noncommutative Real Algebraic Geometry of Kazhdan's Property (T)](https://arxiv.org/abs/1312.5431), preprint 2013; full primary proof inspected, turn3579view2 and turn3583view1 | Group-Laplacian theorem. Its positive-certificate form is an exact precedent; the physical gluing element remains unconstructed. A canonical library entry was added. |
+| AQFT already has genuine local-to-global descent mathematics | [Benini, Grant-Stuart, Schenkel, Haag--Kastler stacks](https://arxiv.org/abs/2404.14510v2), revised 2025; abstract and primary HTML, turn3579view0 and turn3583view0 | Takes Lorentzian manifolds as input. Neither emergent spacetime nor mass-gap rigidity follows. A canonical library entry was added. |
+| Relative-QFT precedent | [Freed--Teleman, Relative quantum field theory](https://arxiv.org/abs/1212.1692), v3 2014, turn3579view1 | Abstract-level verification only; no detailed theorem is used in the synthesis. An initially mismatched arXiv result was discarded. |
+| Asymmetric modular inclusion can reconstruct unitary translations | [Araki--Zsido, Extension of the Structure Theorem of Borchers](https://arxiv.org/pdf/math/0412061), 2005; specialist Theorem 2.1 audit and main section-2 spot-check, turn3591view0 | Distinct from expected forgetting; one affine translation generator is not a massive Casimir. |
+| Euclidean positivity can reconstruct physical unitary symmetry | [Schlingemann, From Euclidean Field Theory to Quantum Field Theory](https://arxiv.org/abs/hep-th/9802035), 1999; specialist theorem review and main abstract check, turn3591view1 | Requires its Euclidean regularity and reflection hypotheses; local-net recovery adds the time-zero condition. Not spacetime emergence from an arbitrary category. |
+| Clay target and distinctions among gap, confinement, and chiral breaking | [Jaffe--Witten, Quantum Yang--Mills Theory](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), turn3576view0 | The target observable theory remains the recovery requirement. |
+
+The specialists also identified a proposed quantum-\(G_2\) edge upper bound near the classical parameter, but pinpoint verification of its representation inputs was incomplete. It was not used or promoted into a canonical result. The standard modular-inclusion/expectation incompatibility was checked as a direct argument and already matches the expected-inclusion cautions in the reconstruction owner.
+
+The integer-incidence formula was checked at sizes 2, 4, 8, 16, and 32, with maximum discrepancy \(1.81\times10^{-16}\). A scalar UCP example checked the subtractive Schwarz-defect identity and failure of automatic polynomial-certificate transport. These are small diagnostic checks, not a new continuum verification suite. The report's operator proof received a separate final audit; half-thickness and response-map identifications were made explicit. Retrieval stopped when the candidate mechanisms and their unsupported physical inputs were clearly separated. The actual Yang--Mills construction and mass gap remain open.
+
+## DR104. Positivity, exceptional context response, and matrix rigidity
+
+**2026-09-04.** The user requested a broad keyword audit, emphasizing positivity, rigidity, the asymmetric global--local operator, and cosmology without an absolute small/large distinction. The deep-research plan was to survey the named notes, separate the meanings of positivity and rigidity, extract constructive bridges, and test their physical coverage. The plan tool was unavailable. Three bounded read-only lanes reviewed exceptional positivity, operator rigidity, and cosmological returns; the main agent reconciled sources, proved the new finite statements, wrote all artifacts, and verified them. The user's further methodological caution was incorporated by keeping origin narratives out of proof premises, not by treating the rejection of a narrative as a proof of its alternative.
+
+The repository-wide Markdown keyword inventory, excluding chat, source, and deep-research directories for those counts, found positivity in 454 files across 69 first-level directories, rigidity in 119 across 27, carrier in 314 across 65, response in 398 across 62, and coercivity in 97 across 23. These are retrieval counts, not claims that every hit was read. Canonical and raw matches were then separated. The named S6 positivity and determinant-fork explorations were consumed without modifying their raw files; the CST rigid-sech theorem, canonical polarization audit, ordered exceptional flag, and global--local reconstruction owners were read directly.
+
+### Constructive result
+
+The new [[algebra/exceptional-context-response|exceptional context response]] proves that Yokota's cyclic retraction on the Albert algebra is unital, positive, trace-preserving, and a Jordan module map. Its Schwarz-type defect is exactly the positive Jordan square residue:
+\[
+E(x^2)-(Ex)^2=E((x-Ex)^2).
+\]
+The trace is the squared orthogonal loss. On the full trace-free Albert carrier, normalized F4 Haar comparison gives the exact frame \(9/13\) and an explicit bounded left inverse. This uses the irreducible 26-dimensional F4 representation, not a chosen physical scale.
+
+The regular multiplication carrier further supplies a genuine associative trace-preserving CP expectation with \(\mathscr E(L_x)=L_{Ex}\). Its matrix relative-entropy-loss expansion has coefficient \(\|qx\|^2/18\), and Haar averaging yields \(\|x\|^2/26\), hence second derivative \(\|x\|^2/13\). The regular representation is not a Jordan-product embedding. Its expectation range is \(M_9\oplus M_9\oplus M_9\), not \(M_3\). The explicit nonzero balance tangent \(26P_{\mathbf1}-P_{J_0}\) is fixed by every context expectation, so full matrix-state coverage does not follow. No number is promoted to a glueball coefficient.
+
+### Two operator-level corrections
+
+[[binary-information-geometry/matrix-flat-partner-rigidity|Matrix flat-partner rigidity]] proves that a scalar constant partner forces simultaneous diagonalization of every finite Hermitian matrix superpotential. Global smoothness and a nonzero normalizable zero mode force a positive scalar partner, but the result is a collection of scalar logistic channels. The note constructs a smooth noncommuting example with a nonscalar positive partner and separately exhibits one pointed channel alongside a gapless free channel. Thus the required extension must derive its partner and cover all admitted directions. Fredholm claims are restricted to the strictly positive scalar-partner case.
+
+[[lorentzian-spectral-envelope/positive-kernels-and-reflection-positivity|Positive kernels and reflection positivity]] corrects an unqualified Bochner-to-OS inference found in raw carrier-and-zeta notes: sech-squared is ordinarily positive definite but has a negative reflected two-by-two Gram determinant at every pair of distinct positive times. Positive Laplace mixtures give the constructive comparison. This does not invalidate the logistic density, Fisher geometry, or its Witten factorization.
+
+### Cosmology and shared ownership
+
+The existing trace-residue cocycle and trace-source two-moment solder remain the strongest cosmological routes. The cocycle is dimensionless and additive under homogeneous conservation, but is not automatically quantized or entropy-producing. Thermal first moments, vacuum separated covariances, baryon excess, and acoustic loading have distinct return types. A same-pure-gauge construction of \(\Delta_E/(k_BT_c)\) is the clean pilot before a full-QCD and cosmological return. Neither an inflationary history nor a spontaneous-jitter narrative is a premise of the new algebraic results.
+
+The existing [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|shape-of-a-gap note]] was extended as an ordered synthesis rather than duplicated by another survey module. It now includes the positivity type table, finite exceptional construction, matrix-rigidity restriction, and cosmological return. Canonical algebra, binary, Lorentzian, and polarization notes link to the new owners. The complex-presentation entry was corrected to match the existing S6 evidence audit: the public formal source's expected-axiom comment is not an executed report, and transport to a topological sphere is not itself standard-smooth-atlas compatibility.
+
+### Independently checked sources and receipts
+
+- Yokota, arXiv:0902.0431; Baez--Schwahn, arXiv:2606.15235, with the local TeX and public primary article checked for the exceptional decomposition, context action, and stabilizer. The new variance, frame, CP, and entropy formulas are deductions from the declared data, not claims quoted from those papers.
+- Semmelmann--Weingart, *Stability of Compact Symmetric Spaces*, DOI 10.1007/s12220-021-00838-3, Section 4 after equation (32): explicit irreducibility of the trace-free 26-dimensional Albert representation. A minimal source module was added and registered.
+- Jorgensen--Tian, arXiv:1705.05262, and the primary reflection-positive-kernel literature distinguish the reflected form from ordinary positive definiteness. The sech determinant obstruction is proved directly.
+- HotQCD, arXiv:1407.6387, and Borsanyi et al., arXiv:2202.05234: checked primary records support the distinction between the full-QCD crossover and the pure-gauge first-order thermal transition. These constrain thermal returns, not an asserted primordial origin narrative.
+
+The new [[contemporary-puzzles/yang-mills-mass-gap/receipts/positivity_rigidity_audit_receipt.py|positivity and rigidity receipt]] reuses the existing Albert multiplication table. It passes the cyclic automorphism, Jordan variance, regular trace, CP intertwiner, entropy Taylor coefficient, unseen balance, nine negative reflected sech minors, positive Laplace controls, noncommuting matrix Riccati example, and free-channel closing sequence. Maximum Jordan variance error was \(9.71\times10^{-17}\); entropy coefficient error \(9.12\times10^{-9}\); Riccati error \(4.67\times10^{-10}\). Haar irreducibility and infinite-dimensional spectral claims are analytic inputs and proofs, not conclusions of numerical sampling. Ten changed canonical notes passed H1/lead, TeX-delimiter, whitespace, and encoding checks. Workspace synchronization recognized 474 modules; link lint and the Git whitespace check passed.
+
+## DR105. Complete Peirce response and a field-sensitive exceptional bridge
+
+**2026-09-04.** The continuation resumed at the explicit matrix balance direction found in DR104. The preceding conversational-only turn was classified as no new mathematical progress; this pass returned to a finite construction, an exact certificate, and the physical carrier comparison. The user emphasized that cosmology and gluon physics must remain within one inquiry without an absolute small/large distinction. This was incorporated as a common-law and state-selection target, not an assumption that dark matter, dark energy, acoustic structure, and the Yang--Mills vacuum gap already have one proved mechanism.
+
+The deep-research and modular-note workflows were read and followed. Workspace-first searches covered primitive idempotents, Peirce sectors, pinching, regular multiplication, balance, response, depolarization, and physical realization. The existing Jordan regular carrier, exceptional context response, state geometry, quantitative-descent synthesis, Wilson ground-state factorization, whole-law heat compression, and trace-source owner supplied the construction inputs. Three bounded read-only lanes independently examined the Peirce moment and exact certificate, the analytic regular-multiplier identities, and the actual Wilson-carrier bridge. The main agent reconciled and wrote the results; no worker edited files. The plan tool remained unavailable.
+
+### A complete finite response, not merely a kernel observation
+
+[[algebra/primitive-peirce-response|The primitive Peirce theorem]] is the new canonical owner. For the canonical trace-orthonormal Albert basis,
+\[
+\mathcal D(T)=\sum_a[L_{e_a},[L_{e_a},T]]
+\]
+has scalar-only kernel on all of \(M_{27}(\mathbb C)\). Its elementary commutant proof uses a Jordan frame and its off-diagonal Peirce spaces. The exact identities
+\[
+\sum_aL_{e_a}^2=3I+6P_{\mathbf1},\qquad
+\mathcal D(L_x)=6L_{x-P_{\mathbf1}x}
+\]
+are proved analytically. Nonzero Jordan derivations attain eigenvalue three.
+
+The new integer receipt verifies the annihilating polynomial with roots
+\(0,3,5,6,12,18\), by representing \(8\mathcal D\) as an integral \(729\times729\) matrix. Self-adjoint positivity, the polynomial, and the proved kernel give the sharp regular-multiplier inequality
+\(\mathcal D\ge3(I-P_{\rm sc})\). The certificate has \(10{,}653\) nonzero entries; the maximum conservative implemented integer bound is
+\(223{,}452{,}887{,}777{,}280<2^{63}\), excluding overflow. No rounded spectral values are used to prove the bound.
+
+Primitive idempotents determine Peirce pinching expectations with block dimensions \(1,16,10\). The invariant primitive-orbit second moment is \(I_{J_0}/39\). Comparing pinching loss with multiplier commutators gives
+\[
+\int\|(I-\Pi_p)T\|_{\rm HS}^2\,dp
+\ge\frac1{13}\|(I-P_{\rm sc})T\|_{\rm HS}^2.
+\]
+The old matrix balance direction has exact loss ratio \(6/13\), so it is detected rather than discarded. The pinching bound is not claimed sharp. A global finite entropy consequence also follows:
+\[
+\int D(\rho\|\Pi_p\rho)\,dp\ge\frac1{702}D(\rho\|I/27).
+\]
+Thus the averaged channel has a nonsharp relative-entropy contraction factor \(701/702\) on all density matrices, not merely a local Hessian bound. This remains a geometrically specified family and weighting; it neither selects an actual context nor derives a physical clock or thermodynamic production law.
+
+### A map that reaches scalar field observables
+
+[[global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients|The differentiated-context construction]] addresses a different carrier. Every fiberwise unital channel fixes every \(f(U)I\), so even complete matrix coverage leaves all scalar Wilson observables invisible. A torus example with a finite internal gap and a scalar Laplacian exhibits a unique constant kernel while its first scalar excitation tends to zero with growing volume.
+
+Differentiating the F4 representation provides a constructive alternative. The cyclic context expectation restricts to the adjoint projection with retained dimension \(16\) inside \(52\); its averaged lost norm is \(9/13\). The selected color restriction has metric
+\(K(X,Y)=-6\operatorname{ReTr}_3(XY)\). Applying those context losses to \(i\,d\rho(\nabla_{e,K}f)\), initially for all smooth configuration functions, produces
+\[
+\|\mathcal A_{\rm ctx}f\|^2=\frac9{13}\mathcal E_{K,\mu}(f).
+\]
+Gauge equivariance then permits restriction to the neutral carrier. The full initial domain is necessary for subsequent use with extended boundary data before gluing; an independent review caught and corrected an initially narrower domain statement.
+
+On the actual Kogut--Susskind ground-state law this factors the already matched electric energy form. On the distinct complete Euclidean cylinder law, heat integration factors
+\[
+J_C^*(I-e^{-sL_W})J_C.
+\]
+It introduces no artificial context dynamics and does not identify auxiliary heat depth with physical time. It also avoids the known invalid comparison of an unbounded gradient with finite-spacing transfer. The missing estimates are precisely the existing whole-law response floor and its uniform comparison with the two-ended slab recovery defect. A stationary-edge certificate or a bounded comparison constructed from the actual conditional kernels remains a noncircular next target.
+
+### Cosmological and source boundaries
+
+The frame coefficient is unchanged when the specified measure changes; its weighted adjoint and spectral constants need not be. The existing trace-source note now links this distinction to its thermal first moment, source covariance, and vacuum spectral measure. A common geometric frame is therefore useful shared structure but does not equate the state-dependent outputs. No absolute cosmic size, magic causal-grain number, primordial jitter, or symmetry-breaking trigger was introduced as a premise.
+
+The primary Yokota record was checked, and its locally retained TeX was read at Theorems 2.3.8 and 2.12.2: dimension \(52\) and centralizer \((SU(3)\times SU(3))/\mathbb Z_3\). The primitive stabilizer \(\operatorname{Spin}(9)\) also appears in Theorem 2.7.4. The existing Semmelmann--Weingart source supplies the trace-free Albert irreducibility used for the second moment. An Oxford chapter endpoint and experimental arXiv HTML endpoint were unavailable; neither is a load-bearing uninspected source. No duplicate library module was created.
+
+### Artifact and verification ledger
+
+The two new owners are housed within the existing algebra and global--local modules. The earlier exceptional response, algebra entry, quantitative-descent synthesis, global--local entry, Wilson factorization, mass-gap entry, and trace-source note were cross-linked or updated in place; raw sources, chats, and inbox material were preserved.
+
+[[contemporary-puzzles/yang-mills-mass-gap/receipts/primitive_peirce_response_receipt.py|The new receipt]] passes the exact polynomial and weighted self-adjointness certificate, analytic multiplier checks, nonzero eigenvalue-three witness, Peirce projections, balance loss, and finite entropy controls. A separate numerical diagnostic confirms the differentiated context dimensions \(52\), \(16\), and \(36\); its Haar identity is proved from the cited centralizer and irreducibility, not inferred from sampling. The earlier positivity/rigidity and nonlinear holonomy-probe receipts also pass. Nine changed canonical notes pass H1/lead, TeX-delimiter, fence, encoding, and conflict-marker checks. Synchronization still recognizes 474 modules; link lint and Git whitespace validation pass.
+
+This is concrete progress: full finite-state response and a typed field-sensitive factorization now replace two previously missing steps. It is not a solution of the Clay problem. Interacting state selection, uniform field coercivity, physical boundary comparison, and four-dimensional continuum reconstruction remain open.
+
+## DR106. Boundary-frozen response, conditional Fisher coercivity, and an area-free Wilson collar
+
+**2026-09-04.** The previous goal turn is classified as progress: DR105 completed the finite matrix response and constructed a genuine configuration-gradient analysis. This continuation addressed its outstanding boundary comparison. The full Clay objective remains active and unsolved; the results below are finite-regulator constructions and conditional limit theorems, not a replacement success criterion.
+
+The deep-research and modular-note instructions were read and followed. Workspace-first searches covered conditional heat, frozen boundaries, normalized scores, Fisher information, Poincare inequalities, source locality, and bridge response. Three bounded read-only lanes checked the actual Wilson constants, the conditional-heat and limit arguments, and the Gaussian/product calibration. The main agent reconciled the proofs and made all edits. The plan tool was searched for but unavailable.
+
+### The upper comparison can be built into the generator
+
+[[global-local-response-reconstruction/boundary-frozen-heat-and-conditional-fisher-response|The boundary-frozen construction]] disintegrates the actual joint law over the retained boundary and evolves only the conditional interior. Boundary functions belong to the generator's kernel, giving
+\[
+0\le J_C^*(I-e^{-sL_v})J_C
+\le J_C^*(I-E_D)J_C.
+\]
+This proves the upper comparison with constant one for a new, explicitly different generator. It does not silently substitute for the old unfrozen whole-law generator. The differentiated exceptional frame factors its interior gradient, and heat integration gives a bounded map on the complete core \(L^2\) carrier.
+
+If the fibers have uniform Poincare constant \(\rho\), the response lies between \((1-e^{-s\rho})B_D\) and \(B_D\). This controls the approximation to the bridge, not the bridge's positive floor. The Gaussian example makes the distinction sharp: the conditional generator has gap \(1/\kappa\), while its compressed response has bottom \(\kappa(1-e^{-s/\kappa})\to0\). The compressed infinitesimal generator has unit gap but its exponential is a different process, refreshing the boundary between steps.
+
+A correlated two-sign example also has positive core compression but zero least-cost short. Boundary zero modes can cancel hidden-extension cost; the short of the frozen response is therefore not the right lower-certificate target.
+
+### A geometric lower certificate on the complete observable carrier
+
+[[conditional-fisher-coercivity/inq|Conditional Fisher Coercivity]] is a new shared module. For the normalized conditional family \(\beta_z\), its score map \(S_z\) has Fisher tensor \(I_z=S_z^*S_z\). Differentiating a conditional mean gives \(dKf=S_z^*(f-Kf)\). The whitened score map is an orthogonal projection, hence
+\[
+\|dKf\|_{I^{-1}}^2\le\operatorname{Var}_{\beta_z}f
+\]
+without a factor counting context coordinates. If the actual context law has Fisher-metric Poincare constant \(\lambda_F>0\), total variance gives
+\[
+B_D\ge\frac{\lambda_F}{1+\lambda_F}Q_C.
+\]
+The dense-test-class and closed-form argument extends this to all square-integrable core observables. A background-metric branch requires only an upper Fisher bound \(I\le Cg\) and context Poincare constant \(\lambda_Z\), yielding \(\lambda_Z/(\lambda_Z+C)\); singular Fisher directions are allowed.
+
+The intrinsic branch needs a genuine quotient or a form on the admissible conditional-mean image. Review corrected the suggestion that constant-rank null-score directions could be nonintegrable: a smooth constant-rank family has local level sets. Rank jumps and failure of a smooth global identifiable quotient are the actual concerns. The pseudoinverse contraction is intrinsic only on covectors annihilating the null directions.
+
+Gaussian conditional means give the sharp calibration \(\lambda_F=\kappa/(1-\kappa)\). Independent products use the sum of forms and retain the minimum component constant. This recovers the Gaussian worst-mode bridge floor without an area factor; interacting pairs require the separate nonlinear argument.
+
+### Actual nonlinear Wilson collar control
+
+[[collared-quasi-factorization-and-surface-response/fisher-collar-bound-for-wilson-laws|The Wilson application]] uses the explicit metric \(-\operatorname{ReTr}/r\), action \(\beta\sum_p(1-\operatorname{ReTr}U_p/r)\), ordinary plaquette incidence, \(r\ge2\), and \(d\ge2\). The full Hessian and mixed-block incidence constants are \(8\beta(d-1)\) and \(h=6\beta(d-1)\). Compact curvature gives
+\[
+\rho=r^2/2-8\beta(d-1)>0
+\]
+for every frozen-link conditional law and, by pullback, its coordinate marginals. Normalized conditional scores then yield the direct core floor \(\rho^2/(\rho^2+h^2)\).
+
+Integrating the intervening links exactly gives an effective mixed Hessian equal to the direct mixed term minus conditional score covariance. For separated core and boundary, the direct term vanishes. Applying exact-source locality to complete tangent combinations bounds this covariance in operator norm by an exponentially decreasing collar coefficient \(h_{\rm eff}\), with no surface-cardinality multiplier. Inherited conditional and marginal Poincare inequalities give
+\[
+B_D\ge\frac{\rho^2}{\rho^2+h_{\rm eff}^2}Q_C.
+\]
+This uses the Fisher family of the integrated core law, distinct from the direct full-interior family. Combining the better of the two proved response bounds with boundary-frozen heat supplies both field sensitivity and the upper bridge comparison. The endpoint order requires that the retained boundary include the endpoint sigma-algebra. The \(\beta=0\) case is independence and does not use the displayed inverse collar coefficients.
+
+This is an explicit volume-uniform strong-bare-coupling result. Its criterion fails to cover the asymptotically free weak-bare-coupling continuum trajectory. A continuum proof must transport operator-norm score response, the actual integrated law, induced metrics, and source control to a fixed physical scale. Failure of this sufficient curvature criterion is not a proof of gaplessness.
+
+### Preserve the response inequality rather than its certificate
+
+[[bridge-data-augmentation-solder/bridge-floor-under-joint-limits|The joint-limit theorem]] is housed in the existing bridge module. Rewrite the uniform bridge bound as
+\[
+\mathbb E_{\mu_n}|f(C)-g(D)|^2
+\ge\kappa\operatorname{Var}_{\mu_n}f(C)
+\]
+for every identified bounded continuous core test and boundary predictor. Joint cylinder convergence passes each inequality. Density in the limiting marginal \(L^2\) spaces extends it, after which minimizing over predictors gives the same bridge floor. No convergence of conditional expectations, Fisher tensors or generators is required.
+
+Identifications preserve constants, products and conjugation. Unbounded tests require the stated integrability treatment. The theorem does not construct the limiting joint law, prevent a trivial limit, establish OS axioms, or identify varying physical-sector projections.
+
+### Cosmological reconvergence and source provenance
+
+The user's global--local cosmological clue remains part of the inquiry. [[global-local-response-reconstruction/cosmological-reconvergence-contract|The existing reconvergence contract]] was checked and linked to the new certificate. A conditional law called “whole” is not thereby the entire cosmos. The shared trace-source prescription remains a concrete candidate for distinct thermal and vacuum returns; their state and theory maps, normalization and complete physical-channel coverage remain unproved. The new theorem introduces no cosmic size cutoff and no identification of entropy production, redshift, and spectral mass.
+
+The primary arXiv records for Raginsky's strong-data-processing work (1411.3575) and Shen--Zhu--Zhu's strong-coupling lattice work (2204.12737) were checked. Their existing library modules remain the source owners. Raginsky supplies the functional-inequality context, not an attribution for the differential theorem proved here. The Wilson constants and collar deductions use the workspace's normalized compact-gauge and exact-source proofs; the primary strong-coupling paper supplies the established curvature-method precedent. No duplicate source modules were added.
+
+### Artifact and verification ledger
+
+The new shared module owns the conditional-Fisher theorem and its receipt. The boundary-frozen construction, Wilson collar theorem, and joint-limit theorem live in their existing operator, surface-response and bridge modules. The mass-gap entry, quantitative-descent synthesis, exceptional gradient bridge, cosmological contract, RG residue entry, and relevant parent modules were updated with genuine dependency links. Raw sources, chats, inbox material and unrelated worktree changes were preserved.
+
+The new receipt passes the complex score projection, normalized conditional derivative, Gaussian sharpness and product tests, non-Gaussian circle Fourier checks, finite frozen heat, zero-short witness, Wilson incidence constants, and collar-bound arithmetic. Four regression receipts also pass: primitive Peirce response, nonlinear conditional gauge Hessian, exact-source locality, and bridge data augmentation. Numerical checks support their stated finite identities and arithmetic, not the continuum proof. Twelve canonical notes pass H1/lead, TeX, display/fence, encoding and conflict-marker checks. Workspace synchronization recognizes 475 modules; link lint and Git whitespace validation pass after correcting the new module's include selector and a TeX expression accidentally parsed as a link.
+
+This turn is concrete progress: an automatic boundary comparison, a complete conditional-Fisher lower certificate, an area-free nonlinear strong-coupling collar application, and a response-preserving joint-limit theorem. The next mathematical task is the actual effective-law continuum crossover, alongside nontrivial Yang--Mills construction and physical reconstruction. No Clay solution or numerical glueball prediction is claimed.
+
+## DR107. Same-law response lifting and the multiscale loss budget
+
+**2026-09-04.** The previous turn is classified as progress: DR106 proved conditional-Fisher coercivity, the boundary-frozen upper comparison, a nonlinear strong-coupling Wilson collar bound, and joint-limit persistence. This continuation tested whether these certificates survive actual changes of resolution. The full Clay objective remains active and unsolved.
+
+The deep-research and modular-note instructions were read again. The plan tool was searched for and remained unavailable. Workspace-first searches covered two-scale inequalities, conditional Fisher transport, missing information, normalized gauge kernels, induced mobility, and innovation blocks. The existing scale-score connection, conditioned-source derivative, two-scale RG note, bridge construction, Pollard library entry and GOVW library entry supplied the relevant owners. Three bounded read-only lanes independently checked score transport, two-scale Poincare constants, and same-law bridge lifting. The main agent derived, reconciled, wrote and validated the artifacts.
+
+### The new sharp operator ingredient
+
+[[two-slice-innovation-geometry/projection-conditioned-coercivity|Projection-conditioned coercivity]] is the reusable operator lemma:
+\[
+0\le B\le I,\quad B\ge bQ,\quad PBP\ge aP,\quad Q=I-P
+\quad\Longrightarrow\quad B\ge abI.
+\]
+For any vector, compress to the span of its \(P\) and \(Q\) components. The resulting positive \(2\times2\) matrix has determinant at least \(ab\) and largest eigenvalue at most one. This proves the result in arbitrary Hilbert dimension. An explicit matrix with eigenvalues \(ab,1\) proves sharpness. The full inequality \(B\ge bQ\), unlike the weaker diagonal compression bound, excludes mixed-direction cancellation.
+
+### Fine-boundary prediction has to be paid back
+
+[[bridge-data-augmentation-solder/coarse-boundary-leakage-and-response-lifting|The same-law lifting theorem]] applies this lemma to a consistent joint fine core and boundary \((Y,Z)\), with deterministic retained variables \(X=q(Y)\), \(W=r(Z)\). If \(K\) predicts from the full boundary and \(R\) retains only \(W\), then the exact identity is
+\[
+J_X^*(I-K^*K)J_X
+=B_{\rm coarse}-L^*L,\qquad
+L=(I-R)KJ_X.
+\]
+A coarse response may be larger merely because the boundary forgot useful predictors. The omitted prediction norm \(\eta=\|L\|\) must be subtracted before lifting.
+
+The second hypothesis concerns the discarded core under the complete conditioning data:
+\[
+\mathbb E\operatorname{Var}(f(Y)\mid X,Z)
+\ge b\,\mathbb E\operatorname{Var}(f(Y)\mid X)
+\]
+for every fine observable. Conditioning monotonicity supplies the full operator inequality needed by the projection lemma. Hence
+\[
+\boxed{\kappa_{\rm fine}\ge b(\kappa_{\rm coarse}-\eta^2).}
+\]
+This is a complete-carrier statement, not a bound on selected parameter tangents. Its discarded-mode hypothesis can be certified by conditional Fisher geometry inside each retained-core fiber, with the actual \(Z\mid X=x\) law and residual-core family. An ordinary fiber diffusion gap is not a substitute.
+
+The finite sign example has density \(1+rXV\) on \((X,U,V,W)\). Retaining \(X,W\) gives coarse floor one and conditional discarded-core floor one, but the fine boundary coordinate \(V\) predicts \(X\). The exact fine floor is \(1-r^2\), with \(\eta=r\). This verifies the necessity of the subtraction without singular support.
+
+Iteration gives a terminal floor multiplied by conditional response factors, minus an explicitly weighted sum of boundary-prediction losses. Nonnegative conditional Fisher ratios \(c_j\), summable uniformly in depth, give \(\prod b_j\ge\exp(-\sum c_j)\). Together with a positive terminal floor and a sufficiently small sum of \(\eta_j^2\), this proves a depth-independent fine floor. A fixed loss per step does not suffice. The geometric decay profile written in the note is a sufficient budget to prove, not a decay estimate established for Yang--Mills.
+
+### Fisher transport does not run backward for free
+
+[[conditional-fisher-coercivity/coarse-graining-and-moving-context|The transport note]] separates three operations. With unchanged context and a context-independent hidden readout, the output score is the conditional projection of the input score. The missing Fisher tensor is positive. Positive-definite inverse-Fisher forms therefore have the reverse order, on compatible domains and with the same context prior. Singular tensors need the extended dual form or a genuine quotient; naive pseudoinverse order is false.
+
+A noisy Gaussian readout makes the retained bridge floor larger while the fine one can approach zero. Fisher preservation also only concerns the selected parameter scores, not an independently supplied generator on an omitted auxiliary sector. These facts do not weaken the complete-carrier theorem; they prevent applying it after an unnoticed carrier change.
+
+For a context-dependent normalized readout, the existing scale-score owner supplies an additional channel score. Input Fisher plus channel Fisher equals output Fisher plus the missing joint-score covariance. Normalization centers the channel score conditional on the input, not conditional on the output. A Wilson path kernel can depend on the varied boundary even with fixed tuning coefficient.
+
+### A checked auxiliary two-scale budget
+
+The existing [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|two-scale RG owner]] now contains a direct Poincare proof from conditional Poincare \(\rho\), actual marginal Poincare \(\lambda\), and conditional Fisher bound \(C\). Its two-dimensional precision matrix has determinant \(\rho\lambda\) and trace \(\rho+\lambda+C\). The Gaussian example saturates the lower constant. The stated hypotheses prove Poincare, not LSI.
+
+A desired lower target \(t<\min(\rho,\lambda)\) is certified exactly when
+\[
+C\le(\rho-t)(\lambda-t)/t.
+\]
+For \(\rho>\lambda\), a convenient weaker bound is \(\lambda/[1+C/(\rho-\lambda)]\), with the actual metric comparison included. Review identified and corrected an important iteration error: arbitrary independently chosen lower certificates do not telescope. The note now constructs certificates recursively from the terminal bound and checks the inequality at each step. A three-factor independent counterexample and a coupled Gaussian hierarchy were added to the receipt.
+
+### Evidence and remaining gaps
+
+| Claim | Evidence | Remaining requirement |
+|---|---|---|
+| Sharp projection product and same-law lifting | Direct proofs; independent review; matrix and joint-law receipts | Prove their coefficients for the actual gauge tower |
+| Fixed and moving Fisher transport | Direct conditional-score proof; Pollard Theorem 7; existing moving-channel owner | Common carrier, prior, domains and normalized kernels at each scale |
+| Auxiliary two-scale constant and budget | Direct Poincare proof; Gaussian sharpness; GOVW comparison | Actual effective marginal, conditional scores and induced metrics |
+| Continuum Yang--Mills gap | Not established | Positive terminal estimate, uniform total loss, nontrivial continuum law and full physical reconstruction |
+
+Primary provenance: David Pollard, *A Note on Insufficiency and the Preservation of Fisher Information*, arXiv 1107.3797v2, revised April 20, 2012; the primary record and [primary text](https://arxiv.org/pdf/1107.3797v2), Theorem 7, page 6, were inspected. Its changing-support counterexample was not imported into the stronger common-positive-support setting. Grunewald--Otto--Villani--Westdickenberg, *A Two-Scale Approach to Logarithmic Sobolev Inequalities and the Hydrodynamic Limit*, AIHP 45 (2009), 302--351, DOI 10.1214/07-AIHP200; the [primary text](https://www.numdam.org/item/AIHPB_2009__45_2_302_0.pdf), normalization (2), Theorem 3 and equation (7), were inspected. The existing library modules retain the source links. The experimental arXiv HTML endpoint was unavailable; the primary PDF was accessible. Otto--Reznikoff and Menz were discovery/context checks, not uninspected load-bearing inputs or new library duplicates.
+
+The bounded research pass stopped after independent checks resolved the material theorem and scope questions. More broad source collection would not establish the missing gauge estimates. The next concrete target is the actual reverse-conditional score covariance on an integrated gauge law, in its induced metric, together with the boundary-prediction loss—not the forward readout Fisher tensor or its identity Hessian.
+
+### Artifacts and verification
+
+Three focused notes were added inside existing modules: the generic projection lemma, its same-law bridge application, and conditional-Fisher transport. The existing two-scale RG note was extended rather than duplicated. The conditional-Fisher, bridge, innovation, RG and mass-gap entry notes, the Wilson collar application, and the scale-score owner now link their genuine dependencies. Raw sources, inbox, chats and unrelated changes were preserved.
+
+The new receipt passes the sharp matrices, 60 complex operator checks, 40 random joint-law lifts, the boundary-leakage identity, the stronger conditional full-space inequality, fixed and moving score derivatives, Gaussian calibrations, recursive-certificate rejection test, and summable-loss arithmetic through 500 levels. Four regression receipts also pass: conditional Fisher response, bridge data augmentation, normalized gauge kernels, and nonlinear conditional gauge Hessians. These finite checks do not certify a Yang--Mills continuum.
+
+Eleven canonical notes pass H1/lead, TeX/display, fence, encoding and conflict-marker checks. Synchronization recognizes 475 modules, and link lint and Git whitespace validation pass. The synchronization process yielded a live session; it was resumed to verified completion rather than restarted. Markdown received structural validation, not a claim of exhaustive rendered visual inspection.
+
+This is concrete progress toward a continuum estimate: the previous certificate now has a sharp reverse lifting theorem and an explicit multiscale loss budget. The budget has not yet been proved for the four-dimensional Yang--Mills trajectory. The objective remains active.
+
+## DR108. Relative boundary leakage and the actual joint gauge score
+
+**2026-09-04.** DR107 is classified as progress: it proved sharp response lifting and exposed an explicit multiscale loss budget. This continuation improves that budget, calculates both conditional score tensors of an actual normalized gauge law, and tests the distinction between marginal smoothness and conditional response. The user's cosmological clue remains in scope as a proposed common-origin construction, not an established identity between vacuum glueball spectra and cosmic observables. The full Clay objective remains active and unsolved.
+
+The deep-research and modular-note workflows were used, with Markdown as required. The plan tool was searched for and remained unavailable. Workspace-first searches covered conditional Fisher, relative leakage, path incidence, coarse marginal geometry, Bessel spectra and the cosmological reconvergence contract. Three bounded read-only lanes checked the relative theorem, gauge score/marginal bounds and exact compact calibration. No workers edited artifacts. Existing source and concept owners were reused; no library duplicates or raw-source rewrites were needed.
+
+### A relative loss rather than an absolute subtraction
+
+[[bridge-data-augmentation-solder/relative-boundary-leakage|The relative-leakage theorem]] uses the exact same-law identity
+\[
+B_c=A+L^*L,\qquad A=J_X^*B_{\rm fine}J_X.
+\]
+On each discarded boundary fiber \(Z\mid W=w\), a Poincare constant \(\lambda_w\) and a vertical conditional-Fisher bound \(C_w\) imply
+\[
+L^*L\le r_{\partial}A,\qquad
+r_{\partial}=\mathop{\mathrm{ess\,sup}}_w C_w/\lambda_w.
+\]
+The proof applies the joint score-map estimate to every retained conditional mean, then the actual fiber Poincare inequality. It requires genuine fiber metrics, normalized conditional laws, justified derivatives and dense-domain control; arbitrary quotient labels do not provide them.
+
+Together with the stronger discarded-core condition from DR107, this proves
+\[
+\boxed{\kappa_{\rm fine}\ge
+\frac{b}{1+r_{\partial}}\kappa_c.}
+\]
+A finite total logarithmic loss suffices through a consistent tower. Unlike the absolute-error budget, there is no extra subtraction that must be smaller than the terminal floor. This is a stronger relative hypothesis, not a free consequence of an absolute norm bound. A Gaussian model with retained boundary \(W\), discarded predictor \(V\), and \(X=W+V+\varepsilon\) saturates the factor exactly.
+
+The [[collared-quasi-factorization-and-surface-response/fisher-collar-bound-for-wilson-laws|Wilson collar owner]] now verifies both lifting hypotheses for actual raw-link coordinate deletion in its strong-coupling regime. Freezing and marginalizing the original law preserve the required Poincare estimates; the mixed score bounds give \(r_{\partial}\le h^2/\rho^2\) and \(b\ge\rho^2/(\rho^2+h^2)\). This is a nonlinear one-step example. Its direct response bound is stronger in that regime, and its fixed per-step constants do not prove summability or a continuum crossover.
+
+### The whole joint gauge score, in both directions
+
+[[rg-covariance-residue/joint-fisher-response-of-normalized-gauge-blocking|The joint gauge response note]] uses the weighted path-incidence matrix \(\mathsf P\) to bound all tangent combinations before taking a norm. The forward normalized score has covariance bounded by \(\kappa^2\|\mathsf P\|^2\), using conditional product independence. Both path length and path reuse must be controlled.
+
+If the unchanged fine marginal has Poincare constant \(\sigma\), conditional Fisher coercivity gives complete coarse prediction-defect floor \(\sigma/(\sigma+C_{\to})\). The centered prediction maps are adjoints, so their norms agree and the same complete floor holds for fine observables predicted from the coarse readout. This does not require a posterior gradient gap, and it does not identify the readout with a physical temporal boundary.
+
+For \(a=r^2/2-\kappa>0\), the actual conditional readout Poincare estimate additionally gives a coarse-marginal constant \(a\sigma/(\sigma+C_{\to})\). The separate reverse-conditional calculation gives
+\[
+I^{\leftarrow}_V\le
+\frac{\kappa^2\|\mathsf P\|^2}{\rho}\,g_V
+\]
+when the actual posterior has Poincare constant \(\rho\). Its exact coarse effective Hessian is the averaged conditional potential Hessian **minus** this Fisher covariance. The fine-dependent normalizer remains inside the posterior even though its coarse derivative vanishes.
+
+These distinctions prevent four substitutions: forward Fisher for reverse Fisher, marginal Poincare for posterior Poincare, conditional-variance response for gradient coercivity, and a normalized readout for a physical vacuum slab. The forward-adjoint response is volume-uniform for a fixed bounded readout strength and bounded incidence under the strong-coupling fine-law estimate, not for arbitrary divergent readout strength.
+
+### The compact calibration is sharp in the singular readout limit
+
+[[conditional-fisher-coercivity/compact-su2-fisher-calibration|The Haar \(SU(2)\) example]] keeps both marginals exactly Haar while the complete prediction defect shrinks:
+\[
+A_\kappa=I_2(\kappa)/I_1(\kappa),\qquad
+\kappa_{\rm bridge}=1-A_\kappa^2,\qquad
+I^{\leftarrow}=\kappa A_\kappa g.
+\]
+The unit round-\(S^3\) marginal gradient edge is three, so the Fisher certificate is \(3/(3+\kappa A_\kappa)\). Both the exact edge and certificate are asymptotic to \(3/\kappa\). The normalized coarse Hessian vanishes because its averaged curvature and reverse Fisher subtraction cancel exactly. The sphere dimension is not thereby identified with spacetime dimension or a dimensional mass.
+
+The existing finite-spacing Wilson-transfer note supplies the character-spectrum owner. The new note adds the conditional-metric calculation rather than duplicating that spectrum proof. The fixed-frame versus physical gauge-invariant carrier restriction is explicit.
+
+### Evidence, provenance and the remaining construction
+
+| Claim | Evidence and confidence | Missing extension |
+|---|---|---|
+| Relative leakage and multiplicative lifting | Direct proof, independent review, sharp Gaussian; exact under stated hypotheses | Actual continuum-tower coefficients |
+| Two one-step Wilson conditional estimates | Frozen-law Bochner and normalized mixed-score bounds; exact sufficient bounds | Holonomy/blocking fibers and their induced metric |
+| Bidirectional normalized readout response | Product score variance, Fisher coercivity and adjoint norms; exact conditional theorem | Physical slab identification |
+| Reverse score and coarse Hessian | Direct normalized differentiation and incidence operator bounds | Uniform posterior/effective-law control beyond the strong-coupling window |
+| Compact response/Fisher calibration | Haar integration by parts and existing Bessel spectrum; exact | No interacting four-dimensional inference |
+| Cosmology and the gauge gap from one origin | Typed common-construction hypothesis only | State/source maps, observable return, gravity-decoupling recovery |
+
+Primary reference checks: NIST, *Digital Library of Mathematical Functions*, sections 10.32 (integral representations), 10.25 (defining series), and 10.40 (large-argument asymptotics), accessed September 4, 2026. The main agent inspected [10.32.2](https://dlmf.nist.gov/10.32.E2), [10.32.3](https://dlmf.nist.gov/10.32.E3), [10.25.2](https://dlmf.nist.gov/10.25.E2), and [10.40.1](https://dlmf.nist.gov/10.40.E1). The attempted section 10.37 fetch failed; no retry was needed because the positive integral representation and existing Soni source owner supplied the order comparison. The relative theorem, compact Fisher identity and gauge-score deductions are proved locally, not attributed to the reference formulas. DR107's Pollard/GOVW and DR106's strong-coupling source provenance remain the relevant upstream precedents.
+
+The cosmological reconvergence contract now points to the relative conditional ratio as a possible shared test. It explicitly does not infer dark matter, dark energy or acoustic signatures from these bounds. A common metric or ratio does not construct the vacuum and thermal return maps.
+
+This bounded pass stopped after the independent mathematical checks converged. Additional general source collection would not supply the missing effective-law estimates. The next load-bearing task is to prove a uniformly finite total loss for a genuine gauge-blocking tower at fixed physical slab width, while constructing a nontrivial continuum law and its full positive-energy reconstruction. No freely selected kernel strength, cosmic yardstick or finite-model spectrum can substitute for that work.
+
+### Artifacts and verification
+
+Three focused companion notes were added under existing modules: relative boundary leakage, joint gauge Fisher response, and compact \(SU(2)\) Fisher calibration. Their original owners and the mass-gap, bridge, RG and cosmological entries link the relevant dependencies. The Wilson collar note now contains the concrete coordinate-deletion application. Existing raw material and unrelated worktree changes were preserved.
+
+The new receipt passes 50 actual finite joint-law relative lifts and adjoint-floor comparisons, sharp Gaussian tests, logarithmic-budget arithmetic through 500 levels, independently evaluated Haar quadrature and positive Bessel power series through \(\kappa=1000\), representation coefficients through dimension 12, Fisher/Hessian cancellation, and 90 joint nonlinear score/incidence checks. SciPy was unavailable; the receipt uses NumPy and standard-library positive series instead, with no installation or environment change. These are finite identity checks, not continuum or physical-gap verification.
+
+### Bounded side inquiry: borrow the method, not the grain value
+
+The user's subsequent clue requested the mindset of Program Core, Cosmodynamics and causal charge, and an audit of the acoustic model's parameter economy. The main agent read their canonical entries and the explanatory-economy and register notes; one read-only lane checked record/charge and scale-transport implications. The spectroscopy packet is under the immutable inbox, while the canonical synthesis and executable comparison are in causal-grain-cosmology.
+
+The live local scripts remove only the physical acoustic-angle coordinate; the same base transfer calculation, other fitted coordinates and nuisance treatment remain. Reading the stored JSON comparison objects confirms \(\Delta\chi^2=0.0641189617\) for Planck and \(0.3315792154\) for ACT. These profiles were not rerun this turn. The existing likelihood note identifies the post-selection, imported transfer and missing independent galaxy-BAO validation. No stronger parameter-economy claim was inferred.
+
+The [[global-local-response-reconstruction/cosmological-reconvergence-contract#What to borrow from acoustic explanatory economy|reconvergence contract]] now extracts the actionable tactic: an inserted ruler that cancels has supplied no explanation; a genuine structural law must constrain an independently meaningful ratio and reduce the complete choice ledger. For the mass-gap route the immediate ratio is complete residual conditional variance divided by total observable variance. Its allocation identity is exact, but its positive infimum and physical reconstruction are additional obligations. It is neither a linear causal charge nor an actual fact-production rate. The framework is organized by object and carrier rather than size, while distinct vacuum and cosmic state/observable returns remain explicit.
+
+Final validation: the new receipt and four regression receipts pass. Eleven canonical notes pass structural checks for title/lead, display delimiters, equation-tag uniqueness, encoding and whitespace. The initial delimiter check was corrected to distinguish TeX line spacing from a display opener; one existing trailing-space math separator was replaced by explicit spacing. Synchronization recognizes 475 modules, wiki-link lint is clean, and Git whitespace checks pass. No rendered visual inspection or rerun of the archived cosmological likelihood fits is claimed. This continuation is concrete mathematical and documentation progress; the full continuum construction and Clay gap remain unproved.
+
+## DR109. Regional probabilistic lifting without a noise-generated gap
+
+**2026-09-04.** DR108 is classified as progress: it produced a sharper relative lifting theorem and a nonlinear one-step coordinate-deletion application. This continuation connects that deterministic theorem to genuinely probabilistic regional gauge blocking. The full Clay existence and mass-gap objective remains active and unsolved.
+
+The deep-research and modular-note workflows were used. Targeted workspace searches preceded construction. Three independent read-only lanes audited the enlarged carrier, actual nonlinear conditional constants, and sharp/degenerate counterexamples; no workers edited sources. The plan-tool search returned no available plan tool. The main agent owns the derivations, source check, notes and receipt.
+
+### An exact carrier-preservation theorem
+
+[[bridge-data-augmentation-solder/regional-randomization-and-response-lifting|Regional randomization]] starts with one original law and private regional kernels:
+\[
+\widetilde\mu(dy,dx,dz,dw)=\mu(dy,dz)q(dx\mid y)r(dw\mid z).
+\]
+On centered observable carriers the enlarged predictor factors as
+\[
+\widetilde K=J_ZKJ_Y^*,\qquad
+\widetilde B=J_YBJ_Y^*+(I-J_YJ_Y^*).
+\]
+Thus the added private-noise directions have response one, while the original response operator is unchanged. The normalized complete floor is exactly preserved, including infinite-dimensional carriers. Normalization alone would preserve original expectations but would not establish this stronger conclusion.
+
+Retaining the two readouts is deterministic on this enlarged carrier. Relative lifting therefore gives
+\[
+\kappa_\mu\ge\frac{b\kappa_c}{1+r_\partial},
+\]
+provided the discarded-core inequality covers every \(F(Y,X)\), not only the original functions \(f(Y)\). A finite counterexample has a sharp restricted-source coefficient \(1/4\) while the complete coefficient is zero. The review also found and repaired a vacuous-condition edge case: \(b\) must be capped at one when the retained variable determines the original core. Normalized floor certificates are defined in \([0,1]\), including trivial centered carriers.
+
+For a regional Markov tower, applying this identity to its actual pair marginals gives the same multiplicative budget at every depth. Regional suffix algebras supply the nested history carriers; single-time algebras are not silently declared nested.
+
+### Readout noise pays back its apparent improvement
+
+For an original standard Gaussian pair of correlation \(t\), adjoin independent centered Gaussian readouts with noise variances \(u,v\). The complete Hermite spectrum gives
+\[
+\kappa_c=1-\frac{t^2}{(1+u)(1+v)},\quad
+b=\frac{(1-t^2)(1+u)}{u+1-t^2},\quad
+r_\partial=\frac{t^2v}{(1+v)(u+1-t^2)}.
+\]
+Their lifting combination equals \(1-t^2\) exactly. The relative coefficient is optimal over all observable directions, not merely linear sources. Independent erasure similarly moves the entire original burden into the discarded-core coefficient. Conversely, shared auxiliary information can create a zero-response direction on the enlarged carrier even when the original regions are independent. These are direct controls against manufacturing a physical gap through auxiliary choices.
+
+### The actual nonlinear gauge application
+
+[[rg-covariance-residue/regional-gauge-readouts-and-conditional-lifting|Regional gauge readouts]] uses a Wilson law on raw product-Haar links and normalized path averages whose paths stay inside their assigned regions. The fine-dependent log normalizer remains in every actual posterior.
+
+Let \(\rho_0\) bound the original and frozen-conditional Poincare constants, \(\rho_X\) the actual fixed-core-readout posterior constant, and \(h\) the whole mixed core--boundary Hessian norm. The unchanged opposite channel \(Z\mid Y,X=Z\mid Y\) improves the discarded-core certificate to
+\[
+b\ge\frac{\rho_0\rho_X}{\rho_0\rho_X+h^2}.
+\]
+It avoids replacing both conditional constants by the weaker posterior bound.
+
+The shared [[conditional-fisher-coercivity/coarse-graining-and-moving-context|Fisher transport note]] now proves the quantitative whole-tensor contraction \(I_{\rm out}\le\tau I_{\rm in}\), where \(\tau=C/(\rho+C)\) follows from conditional Fisher coercivity and adjoint prediction norms. With \(C_X=\kappa_X^2\|\mathsf P_X\|^2\) and \(\tau_X=C_X/(\rho_0+C_X)\), the gauge leakage coefficient satisfies
+\[
+r_\partial\le\frac{\tau_Xh^2}{\rho_0^2}.
+\]
+This conservative estimate uses the actual original boundary marginal; it requires no separate curvature gate for \(Z\mid W\). An integrated collar can replace \(h\) by its decaying effective bound in the retained sensitivity, but not automatically in the complete discarded-core estimate.
+
+These results close the one-step probabilistic-carrier mismatch. They do not improve the existing direct strong-coupling floor necessarily, and they do not control the actual iterated effective actions on the weak-bare-coupling continuum trajectory.
+
+### Provenance, method and verification
+
+The existing primary-source owner [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|DeGrand--Hasenfratz--Hasenfratz--Niedermayer]] was reused. The main agent checked the article's effective-action/kernel formulas (4)--(6), normalized Haar integral and gauge-covariance statement (7) in the primary arXiv PDF. They support the kernel precedent, not the new regional response theorem or an assertion that the usual stencil respects an arbitrary cut. No duplicate library module was created.
+
+The user's causal-grain methodological clue remains [[global-local-response-reconstruction/cosmological-reconvergence-contract|a same-structure reconstruction contract]]. The useful economy here is an exact variance allocation and dimensionless conditional ratios with no freely added physical scale. Private-kernel cancellation is a test of that discipline. It does not establish that cosmic expansion, BAO and vacuum glueball spectra share a constructed dynamics, nor convert archived acoustic fits into independent BAO evidence. No cosmological likelihood was rerun.
+
+[[bridge-data-augmentation-solder/receipts/regional_randomization_receipt.py|The new receipt]] checks eight deterministic/private-noise degeneracies, trivial carriers and null atoms; 50 positive finite joint-law enlargements and relative lifts; a sharp restricted-source counterexample; 64 Gaussian noise choices with 50 Hermite degrees each; shared-noise controls; a three-step Markov tower and its suffix carriers; 50 whole Fisher tensor contractions; 12 nonlinear finite-subgroup laws with fine-dependent normalizers; and 81 sufficient-constant combinations. These are algebraic and finite calibration checks, not a numerical proof of the Lie-group curvature bounds.
+
+The next load-bearing target is to control the complete discarded-core cost through actual integrated effective laws. A shrinking retained collar sensitivity alone cannot supply a finite total logarithmic budget. The continuum limiting law, nontriviality, physical slab identification and OS/Poincare reconstruction remain separate requirements.
+
+Final validation: the new receipt and four regression receipts pass. Independent review prompted the normalized-coefficient cap, explicit Gaussian-law declaration, and additional deterministic/null-atom tests. Eleven canonical notes pass title/lead, display/fence balance, equation-tag uniqueness, encoding and whitespace checks. Synchronization recognizes 475 modules, wiki-link lint is clean, and Git whitespace checks pass. No rendered visual inspection is claimed. This continuation is concrete carrier-construction and conditional-estimate progress, not a solution of the Clay problem.
+
+## DR110. Predictive interfaces and the cost of choosing the wrong carrier
+
+**2026-09-04--05.** DR109 is classified as progress: it connected probabilistic regional blocking to complete original-response lifting and verified a nonlinear one-step application. This continuation tests whether its worst conditional-fiber cost is unavoidable. It derives an exact sufficient-interface alternative, a direct discarded-prediction estimate, and a Gaussian counterexample to an unnecessarily strong all-interior continuum requirement. The full Clay objective remains active and unsolved.
+
+The deep-research and modular-note workflows were used. The plan-tool discovery again returned no available plan tool. Targeted workspace searches for sufficient statistics, conditional independence, interfaces, rank and bounded likelihood tilts preceded primary-source verification and three independent read-only research lanes. The coordinating agent wrote the proofs, artifacts and checks. Primary support was sufficient after the definition/factorization audit; no broad source search was continued merely to accumulate corroboration.
+
+### Exact reduction can avoid the discarded-core cost
+
+[[bridge-data-augmentation-solder/predictive-sufficient-interfaces|Predictive sufficient interfaces]] defines canonical probability-valued statistics by the two complete conditional laws. Their completed sigma algebras are minimal among the corresponding exact predictive statistics. They need not be finite-dimensional or smaller than the original configurations.
+
+When deterministic retained variables satisfy \(Y\perp Z\mid X\) and \(X\perp Z\mid W\),
+\[
+K=J_WK_cJ_X^*,\qquad
+B=J_XB_cJ_X^*+(I-J_XJ_X^*).
+\]
+Thus all nontrivial response lives on the induced interface, while every omitted observable innovation has response one. The original and interface floors agree exactly: \(b=1\), \(r_\partial=0\). This is stronger than preservation of selected Fisher scores but is still a theorem about this specified joint law, not an arbitrary independently attached dynamics.
+
+[[rg-covariance-residue/exact-wilson-interface-statistics|Wilson interface statistics]] constructs such a reduction at every finite coupling. Retain the regional links, or ordered transport runs, entering cross plaquettes. The interaction factors through them, and the actual induced interface measure includes the integrated regional self-weights. Alternating noncommuting runs cannot be replaced by their unordered within-region products; an explicit \(SU(2)\) commutator gives the counterexample.
+
+The arbitrary-coupling result is exact factorization, not a uniform interface gap theorem. Pushforward measures, potentially singular statistic images, endpoint gauge frames and integrated bulk free energies remain part of the object.
+
+### Direct discarded prediction is weaker than the worst-fiber demand
+
+Let \(P\) retain functions of the chosen core statistic, \(Q=I-P\), and set
+\[
+\delta=\|KQ\|^2.
+\]
+If the fine response on retained observables has floor \(a\), then
+\[
+KK^*=KPK^*+KQK^*
+\quad\Longrightarrow\quad
+\kappa_{\rm fine}\ge\max\{0,a-\delta\}.
+\]
+With relative boundary leakage, \(a=\kappa_c/(1+r_\partial)\). This yields an additive discarded-prediction budget instead of the essential conditional-fiber coefficient used to establish the multiplicative \(b\)-bound.
+
+A positive finite rare-sector example is sharp. A hidden sign correlates with the boundary only in a sector of probability \(\varepsilon\), with correlation \(\rho\). The worst conditional floor is \(1-\rho^2\), but the discarded-prediction norm is \(\varepsilon\rho^2\) and the exact original floor is \(1-\varepsilon\rho^2\). Thus the conditional certificate can fail badly without the original response failing.
+
+This does not justify replacing operator control with an averaged entropy. A separate strictly positive rare-atom example has mutual information tending to zero while its complete floor also tends to zero. Under an additional uniform product-density envelope \(k\le M\), however,
+\[
+\delta\le\|k-\mathbb E_{\mu_Y}[k\mid X]\|_{L^2(\mu_Y\otimes\mu_Z)}^2
+\le2M I(Y;Z\mid X).
+\]
+The last inequality follows from the strong convexity of \(s\log s\). It provides a precise possible role for entropy, with its missing uniform tail condition exposed rather than assumed. No such regulator-uniform \(M\) has been proved for the target Yang--Mills law.
+
+The regional-randomization owner also now records two constraints. A common-positive noisy readout has exact discarded coefficient one only when the original regions were independent. A likelihood tilt of finite logarithmic oscillation \(A\) changes the original complete floor by factors between \(e^{-A}\) and \(e^A\), not \(e^{\pm2A}\). Finite product-kernel positivity does not give a volume-uniform oscillation bound.
+
+### Preserve physical separation, not every interior variable
+
+[[gaussian-bridge-gap-calibration/predictive-rank-and-physical-separation|The Gaussian interface calibration]] gives the complete response for positive precision blocks:
+\[
+\kappa=1-\|A^{-1/2}CD^{-1/2}\|^2.
+\]
+The sufficient linear coordinates are \(C^{\mathsf T}Y\) and \(CZ\). On their identifiable quotient the inverse-Fisher certificate is exactly sharp. Small mixed coupling need not reduce predictive rank: an explicit integrated Gaussian collar has \(C_{\rm eff}=-\varepsilon^2I\), arbitrarily small norm and full rank.
+
+More importantly, take a stationary Gaussian mode of decay rate \(\omega>0\) with fixed endpoints at \(\pm\ell\). The complete bridge floor of every interior lattice sample, at spacing \(a\), is
+\[
+\kappa_{\rm all}
+=\frac{1-e^{-2\omega a}}{1+e^{-2\omega\ell}}
+\longrightarrow0.
+\]
+Its sufficient interface is the adjacent interior pair. Yet the physically separated midpoint floor remains
+\[
+\kappa_{\rm mid}=\tanh(\omega\ell)>0.
+\]
+The model and time-transfer gap have not changed. Enlarging the core to include variables approaching the endpoints creates an avoidably stronger uniformity demand. A positive larger-carrier bound would still be sufficient; its failure is not evidence of midpoint gaplessness.
+
+### Current claim and gap ledger
+
+| Claim | Evidence and status | Remaining construction |
+|---|---|---|
+| Predictive reduction preserves complete response | Direct conditional-law factorization; independently audited; exact | A tractable sufficient statistic for the actual separated gauge bridge |
+| Finite Wilson interfaces eliminate both lifting costs | Explicit Gibbs split and actual induced measure; exact at arbitrary finite coupling | Uniform response of that induced law, not merely its positivity |
+| Direct discarded-prediction control can replace a worst-fiber certificate | Bounded-operator proof and sharp positive rare-sector example | Regulator-uniform norm estimates and a positive additive loss margin |
+| Entropy can certify the prediction norm | Exact under the uniform density envelope | A valid envelope or other tail control on the target carrier |
+| Uniform all-interior response is necessary for a midpoint gap | Contradicted by the complete Gaussian slab calculation | Preserve the intended physical core and separation in every comparison |
+| Clay existence and positive mass gap | Not established | Nontrivial continuum law, uniform physical bridge estimate, and OS/Poincare reconstruction |
+
+### Provenance and verification
+
+The existing source owner [[library/information-geometry-and-sufficient-statistics/inq|Ay, Jost, Lê and Schwachhöfer, “Information Geometry and Sufficient Statistics”]] was reused: *Probability Theory and Related Fields* 162 (2015), 327--364, DOI 10.1007/s00440-014-0574-8. The main agent inspected the primary [arXiv v4 text](https://arxiv.org/html/1207.6736v4), Definition 3.1, Lemma 3.3 and Theorem 3.5, supporting density factorization and Fisher invariance under sufficient statistics. The new complete-response identities were proved directly, not attributed as results of that paper. The archive identifies revision v4 as December 4, 2013; the HTML rendering's later displayed date is not treated as a new scientific revision. Parent-visible source references are turn3628view0--1 and turn3629view0--2/turn3630view0--1. No duplicate library module or PDF was created.
+
+[[bridge-data-augmentation-solder/receipts/predictive_interface_receipt.py|The new receipt]] passes two degenerate and 30 positive exact interface reductions; 50 approximate operator/density/entropy comparisons; 12 sharp rare conditional examples; four positive rare-atom controls; 50 bounded-tilt comparisons; three nonlinear finite-subgroup interface laws; the \(SU(2)\) transport-order witness; 30 Gaussian rank/Fisher/noisy-posterior checks; four full-rank collars; 30 full-covariance slab-refinement checks; and additive-budget checks through depth 100. The tests do not numerically establish a non-Abelian continuum law or a uniform interacting functional inequality.
+
+The next research target has changed: first preserve the actual fixed-distance midpoint carrier, then construct a tractable predictive interface or control its discarded-prediction operator. A proof should not spend its effort forcing every rare posterior or every near-endpoint interior slice to obey a stronger estimate than the physical comparison needs. This is a verified correction to the current proof strategy, not evidence that established QFT is inconsistent or that the user's general category-error diagnosis has been proved.
+
+Final validation: all three independent mathematical audits pass after clarifying the distinction between the full-space \(B\ge bQ\) condition and its stronger conditional-fiber sufficient hypothesis. The receipt was independently inspected and run; its invertible-response helper domain is explicit, and separate exact checks cover constant statistics and zero response. The new receipt and five regression receipts pass. Twelve canonical notes pass structural title/lead, display/fence balance, equation-tag, encoding and whitespace checks. Synchronization recognizes 475 modules; wiki-link lint and Git whitespace checks pass. No rendered visual inspection or new cosmological fit is claimed. The result is concrete proof-strategy and operator-estimate progress; existence and the physical continuum gap remain open.
+
+## DR111. Two-boundary multiplication, sufficient algebras and complete predictive tails
+
+DR110 replaced an unnecessarily strong worst-fiber requirement with direct discarded-prediction control on the actual fixed-distance midpoint carrier. This turn asks how to estimate that operator without assuming the desired response floor. The useful answer involves multiplication as well as propagation: two endpoints test products of separately propagated observables in their actual joint norm.
+
+### What the adjoint operates on
+
+For a stationary reversible midpoint law \(\nu(dy)p_\ell(y,dx)p_\ell(y,dz)\), let \(Kf=\mathbb E[f(Y)\mid X,Z]\). Then
+\[
+K^*(u\otimes v)=(P_\ell u)(P_\ell v),\qquad
+\delta=\|KQ\|^2=\|QK^*\|^2.
+\]
+[[bridge-score-fusion-geometry/two-boundary-multiplication-and-predictive-tails|Two-boundary multiplication and predictive tails]] proves the identity on a dense endpoint product family, preserving the actual endpoint law \(J(dx,dz)=\nu(dx)p_{2\ell}(x,dz)\).
+
+There is an exact positive result: the minimal one-end predictive sigma algebra is also the minimal two-end predictive sigma algebra. Tensoring and marginalization prove both directions. Consequently \(P_\ell Q=0\) implies \(KQ=0\) when \(Q\) is the complement of an actual conditional expectation. A low-mode linear span is not necessarily an algebra, so it need not share this property. The four-state positive reversible parity witness makes the distinction explicit; product bit flips show why a uniform same-distance approximate comparison can fail even for genuine deterministic retained statistics.
+
+The density form is the weighted insertion norm
+\[
+\|Kf\|_J^2=
+\int\frac{|(P_\ell M_fP_\ell)(x,z)|^2}{p_{2\ell}(x,z)}
+\,\nu(dx)\nu(dz).
+\]
+This is a pointwise kernel ratio, not operator division. The exact Perron-dressed version retains endpoint \(\psi(U)\psi(Z)\) weights and the stationary midpoint \(\psi^2\) norm. Fiberwise cancellation does not justify a Haar replacement.
+
+### Two independently checkable estimates
+
+For a finite real transfer eigenbasis \((\phi_a,\lambda_a)\), multiplication coefficients determine both the actual endpoint Gram matrix \(G\) and the discarded product columns \(F_{ab}=\lambda_a\lambda_bQ(\phi_a\phi_b)\). The complete coefficient is
+\[
+\delta=\|FG^{\dagger/2}\|^2.
+\]
+Thus \(F^*F\le dG\) is a finite certificate using the declared transfer and multiplication table. It is not enough to inspect individual columns or use a product-prior identity Gram.
+
+For a genuine sufficient-algebra approximation, a more elementary sufficient estimate is
+\[
+\delta\le\min\{1,4R\varepsilon/m\},\qquad
+\varepsilon=\|QP_\ell\|_{\mathrm{HS}}^2,\quad
+R=\mathop{\mathrm{ess\,sup}}_y\int p_\ell(y,x)^2\nu(dx),\quad
+p_{2\ell}\ge m>0.
+\]
+Its proof expands a product about its retained conditional expectation and uses the row-square bound. These are explicit extra hypotheses beyond one-ended operator smoothing. They can carry a volume or regulator penalty and have not been established uniformly for the physical trajectory.
+
+### Complete upper tails in controlled carriers
+
+[[gaussian-bridge-gap-calibration/two-boundary-half-smoothing|Two-boundary half-smoothing]] proves, on complete Gaussian and independent bit-flip carriers,
+\[
+P_{2\ell}\le K_\ell^*K_\ell\le P_\ell.
+\]
+Therefore a generator tail above \(\Lambda\) has discarded-prediction cost at most \(e^{-\ell\Lambda}\). This requires no positive lower frequency edge and remains valid when such an edge closes. It is an upper-tail control, not a proof of the infrared gap.
+
+[[bridge-score-fusion-geometry/compact-heat-bridge-fusion-tail|The compact heat-bridge tail]] supplies a non-Abelian calibration. With the declared \(SU(2)\) heat eigenvalues \(e^{-t j(j+1)}\), the full prediction operator is scalar on every \(V_j\otimes V_j^*\). Its numerator is
+\[
+C_j(t)=\frac1{2j+1}\sum_{a,b}(2a+1)(2b+1)N_{ab}^{\,j}
+e^{-2t[a(a+1)+b(b+1)]}.
+\]
+The note proves a parity-sensitive exact reindexing and an explicit Gaussian-integral tail bound. It keeps the endpoint heat denominator and obtains \(\delta_{>J}\to0\) at fixed \(t>0\) on the complete high-spin carrier. This is stronger than checking selected characters, but it does not survive an interacting change of law without proof.
+
+An independent audit corrected a useful point: the compact model is exactly block diagonal, so its full centered floor is \(\min\{a_J,1-\delta_{>J}\}\), not merely \(a_J-\delta_{>J}\). The latter is the weaker general lifting certificate when reduction of the split has not been established. A sufficient proof tactic must not be mistaken for a necessary condition.
+
+### The causal-grain side inquiry
+
+The user renewed the request to borrow the method rather than the numerical grain. Main inspected Program Core, explanatory economy, Cosmodynamics, its register discipline, causal-charge meaning, the acoustic provenance and the archived likelihood discussion. The existing [[global-local-response-reconstruction/cosmological-reconvergence-contract|reconvergence contract]] already owns the method extraction, so it was extended rather than duplicated.
+
+The checked economy claim is one fewer continuous acoustic-angle coordinate in the archived CMB TT/TE/EE comparisons, retaining standard transfer physics and nuisance treatment. It is not an independent galaxy-BAO prediction or a complete reduced-parameter cosmology. No new likelihood run was performed. The transferable tactic is to specify the two compared structures, state the matching law, cancel arbitrary ruler choices and test the resulting dimensionless constraint. The failed literal grain insertion, which cancels from the acoustic phase, is as informative as the later numerical match.
+
+The present multiplication theorem supplies a concrete related type correction: preserving a vector-space cutoff is different from preserving an observable algebra and its actual whole-law norm. It does not identify a Euclidean bridge boundary with a cosmological event horizon. Quadratic response allocation remains distinct from a linear causal charge and from physical fact/record production.
+
+### Provenance, artifacts and remaining construction
+
+The deep-research and modular-note workflows were followed, with three independent read-only algebra/semigroup/gauge audits. No plan tool was available in tool discovery. Primary verification reused [[library/spin-network-states-in-gauge-theory/inq|Baez's existing source owner]]; main inspected the original [arXiv v1 paper](https://arxiv.org/pdf/gr-qc/9411007), printed page 4 before Lemma 1, for the \(G\times G\) Peter--Weyl decomposition and graph-carrier distinction. The full parity-sensitive \(SU(2)\) fusion rule was proved from the elementary character identity rather than copied from the introduction's abbreviated triangle condition. Parent-visible references are turn3638view1, turn3639view0 and turn3640view0. Baez's theorem supplies representation kinematics, not the new bridge tail or an interacting response theorem.
+
+The Menotti--Onofri owner was inspected, but its CERN endpoint was bot-protected; no inaccessible contents were used. Hall's heat-kernel survey abstract and Woit's course index were consulted as background only. No duplicate library module or PDF was authored. The bridge, matrix, sufficient-algebra and tail estimates above are directly proved calculations, with no priority claim.
+
+Three focused notes, their owner links and one read-only NumPy receipt were added. [[bridge-score-fusion-geometry/receipts/two_boundary_prediction_receipt.py|The receipt]] passes 30 positive finite product/Gram/smoothing/Perron checks, exact algebra closure, nine four-state parity calibrations, 18 complete bit-cube bridges, 375 Gaussian multidegree checks and 51 compact fusion sum/quadrature comparisons with analytic-tail calibrations. Finite quadrature does not certify an infinite tail or a sampled heat-kernel minimum; the proofs carry those obligations.
+
+| Required return | Present result | Still missing |
+|---|---|---|
+| A correctly typed boundary predictor | Exact multiplication adjoint and weighted insertion | The independently selected physical whole law |
+| Controlled discarded observables | Complete bounds on declared Gaussian, bit-flip and compact heat carriers | Uniform control after gauge reduction, Perron dressing and refinement |
+| A positive complete infrared response | Conditional lifting and fixed-compact calibration | Retained-sector coercivity and a positive uniform loss margin where needed |
+| Cosmological and vacuum reconvergence | Shared method and explicit carrier/charge distinctions | Common-source naturality and distinct observable returns |
+| Clay solution | Not established | Nontrivial continuum existence, physical uniform response and OS/Poincare reconstruction |
+
+The next target is no longer a bare one-ended eigenvalue estimate. It is a product-compatible, endpoint-normalized predictive tail on the actual separated gauge law, combined with a retained-sector response theorem. The user's category-error diagnosis remains a research hypothesis; the exact correction here is to the proposed proof strategy's own use of observable algebras and spectral cutoffs.
+
+Final validation: all three independent mathematical reviews pass after explicitly requiring a nonnegative Perron kernel, specifying zero-denominator conventions, defining the squared spectral-tail norm and using the sharper reducing-block floor in the compact model. A second agent inspected and ran the receipt; its compact output was narrowed to “fusion-numerator tail bounds” because it does not numerically certify the full \(\gamma_j\) integral or \(m_{2t}\). The new receipt and three regression receipts pass. Eight canonical notes pass title/lead, display/fence balance, equation-tag, encoding and whitespace checks. Synchronization still recognizes 475 modules; wiki-link lint and Git whitespace checks pass. One math expression initially parsed as a local link was rewritten without changing its meaning. No new cosmological fit, rendered-note audit or continuum construction is claimed.
+
+## DR112. Volume-uniform fusion envelopes and the vacuum they must preserve
+
+The preceding goal turn is classified as progress: DR111 changed the operator target and produced checked multiplication, sufficient-algebra and compact-tail results. This turn advances from one compact carrier toward field-size control, while testing the state and quotient assumptions needed to apply that control physically. The full Clay objective remains unmet and active.
+
+### A prefactor-free bound before tensorization
+
+[[bridge-score-fusion-geometry/volume-uniform-fusion-envelopes|Volume-uniform fusion envelopes]] supplies a general compact-kernel theorem. Let a continuous strictly positive central symmetric probability kernel have strictly positive Hilbert eigenvalues \(\lambda_r=e^{-w_r}\). Assume a proved fusion-growth inequality
+\[
+N_{ab}^{\,r}>0\quad\Longrightarrow\quad
+w_r\le C(w_a+w_b)+D,\qquad C>0,\ D\ge0.
+\]
+Its complete two-ended prediction operator then obeys
+\[
+S\le P^\vartheta,\qquad
+\vartheta=\frac1C\frac{u}{u+\log A}>0,
+\]
+where \(u\) comes from an explicit one-bridge minorization and \(A=e^{D/C}\|h\|_2^2/\min(h*h)\). A bound \(S\le A P^{1/C}\) alone would introduce \(A^{|E|}\) on independent links. Combining that bound with the low-mode contraction removes the prefactor first and yields
+\[
+\bigotimes_e S_e\le
+\exp\!\left[-\vartheta_*\sum_e(-\log P_e)\right],
+\qquad \vartheta_*=\inf_e\vartheta_e>0.
+\]
+The fractional powers are self-adjoint comparison operators; their Markov property is neither assumed nor needed.
+
+For a compact connected Lie group with a fixed bi-invariant metric, the Casimir inequality \(c_r\le2(c_a+c_b)\) on tensor summands proves the fusion hypothesis for heat kernels with \(C=2,D=0\). Thus the complete heat-bridge estimate extends beyond \(SU(2)\), and its coefficient is independent of the number of independent degrees of freedom. This is not a theorem for correlated Wilson links.
+
+The \(SU(2)\) case now has a particularly simple rigorous certificate in the convention \(c_j=j(j+1)\). Geometric series and rational exponential bounds prove
+\[
+\min h_3\ge11/20,\qquad
+\min h_6\ge19/20,\qquad
+\max h_6\le21/20.
+\]
+They imply \(b(3)\ge6897/6278>1\), hence \(S_t^{(E)}\le e^{-\sum_eL_e}\) for every \(t\ge3\), uniformly in finite product size. These are normalized group-heat quantities, not a numerical prediction of physical mass. At \(t\downarrow0\), any such absolute heat exponent must satisfy \(b(t)\le2t\); no uniform small-time claim is made.
+
+### Gauge quotient is a further two-ended operation
+
+[[bridge-score-fusion-geometry/gauge-quotients-of-midpoint-bridges|Gauge quotients of midpoint bridges]] distinguishes restriction to invariant midpoint functions from independent removal of endpoint gauge frames. Exact one-step lumpability gives
+\[
+\bar K=J_\partial^*KJ_0,\qquad
+\bar S=J_0^*K^*R_\partial KJ_0\le J_0^*SJ_0.
+\]
+The difference is the square of the endpoint information lost by that additional quotient. It can be nonzero even for an exact positive reversible continuous semigroup.
+
+Two \(S_3\) conjugacy examples verify the distinction. Identical and distinct transposition endpoints have the same separate conjugacy classes but yield different raw predictions, \(4/9\) and \(1/3\). A second semigroup has a quotient bridge cross element \(5/693\) between characters of different transfer eigenvalues, disproving automatic preservation of spectral diagonalization.
+
+The useful bound nevertheless descends by order. The product heat envelope gives \(\bar S\le e^{-bL_{\mathrm{el}}^{\mathrm{GI}}}\), so its high-frequency tail is bounded even when \(\bar S\) does not commute with the cutoff. The existing [[gauge-descent-flux-fisher-coercivity|girth--Casimir theorem]] then yields the pure-product response bound
+\[
+I-\bar S\ge(1-e^{-b\,g(\Gamma)c_{\min}})Q_0
+\]
+under that theorem's graph, group, metric and unconstrained-link hypotheses. The earlier girth proof was reused, not rediscovered or duplicated. The DR111 compact note was clarified: its character restriction retains raw endpoints; separately quotienting those endpoints is a different bridge.
+
+### The actual vacuum blocks a naive heat replacement
+
+[[vacuum-aligned-innovation-completion/heat-envelopes-and-the-vacuum-vector|Heat envelopes and the vacuum vector]] gives a second, independent constraint. If \(\nu=\psi^2\mu_{\mathrm{Haar}}\), transporting an actual prediction return to Haar gives \(A\psi=\psi\), not \(A1=1\). Therefore a full comparison \(A\le e^{-bL_{\mathrm{Haar}}}\) forces \(\psi\) to be Haar-constant. Even allowing a finite prefactor requires
+\[
+C\ge\|e^{bL_{\mathrm{Haar}}/2}\psi\|^2.
+\]
+This can be infinite for a completely regular physical model.
+
+The exact circle witness is
+\[
+\psi_\kappa\propto e^{\kappa\cos\theta},\qquad
+H=(\partial_\theta+\kappa\sin\theta)^*
+(\partial_\theta+\kappa\sin\theta).
+\]
+It has bounded analytic potential, a unique positive vacuum and a genuine positive compact-space gap. Its Fourier coefficients satisfy
+\(|\widehat\psi_\kappa(n)|\ge Z_\kappa^{-1/2}(\kappa/2)^n/n!\), which excludes every finite-prefactor Haar-Gaussian envelope. Independent copies retain the positive physical gap while the obstruction remains. This is a counterexample to a proposed comparison, not to gapped dynamics.
+
+Centering allows a different comparison, but its elementary Haar-reference estimate pays \(|\langle1,\psi\rangle|^2\), which can deteriorate exponentially under products. Adapting the electric form to \(\nu\) instead gives the existing physical ground-state transform, not a new independently derived yardstick. The note connects the viable same-state route to [[markov-edge-measure-solder/inq|stationary edge-measure comparison]] and distinguishes positive resolvent order from unjustified exponential order for noncommuting generators.
+
+### The next physical cost is not automatically a Casimir
+
+Current workspace inspection recovered an additional existing constraint: [[finite-spacing-transfer-and-bounded-flux-solder|the finite-spacing Wilson audit]] has \(p_j(x)=I_{2j+1}(x)/I_1(x)\) and \(-\log p_j\sim2j\log j\) at fixed \(x\). Its high-spin cost is not the heat Casimir \(j(j+1)\). Thus even the pure finite-spacing Wilson kernel cannot simply be relabelled as a group heat slice.
+
+The sharpened next pure-kernel test is the fusion-growth inequality above for those actual logarithmic Wilson weights, with explicit coupling dependence. The interacting continuation must additionally preserve the actual vacuum and its complete gauge-invariant carrier. Neither a successful pure-kernel estimate nor an analytic vacuum alone supplies a uniform interacting low-sector floor or nontrivial continuum existence.
+
+### Evidence, provenance and verification
+
+The deep-research and modular-note workflows were used; the required plan tool remains absent from discovery. Three independent read-only lanes audited fusion envelopes, gauge quotients and vacuum alignment while the main agent constructed proofs and artifacts. The bounded search stopped once the exact claims had independent checks and the remaining physical assumptions were explicit.
+
+Existing owners were reused for Peter--Weyl/spin networks, girth--Casimir coercivity, the ground-state transform, fixed-spacing Wilson weights and Markov edge comparison. The current primary [publisher record for Lüscher's 1977 transfer-matrix paper](https://link.springer.com/article/10.1007/BF01614090) verifies its metadata and physical-positivity scope; its abstract does not prove any new envelope here. Parent-visible reference: turn3642view0. Hall's [heat-kernel survey record](https://arxiv.org/abs/quant-ph/0006037), submitted June 7, 2000 and published in *Bulletin of the AMS* 38 (2001), 43--78, was consulted only for background scope, not as a source for the newly proved inequalities; reference turn3642view1. Initial search results were not used as theorem evidence. No inaccessible full text was represented as read, and no duplicate source module or PDF was authored.
+
+Three focused notes and two read-only receipts were added. [[bridge-score-fusion-geometry/receipts/volume_uniform_envelope_receipt.py|The fusion/quotient receipt]] uses exact rational arithmetic for the heat certificate, checks 180 finite-spin numerator bounds, constructs both \(S_3\) processes and quotient isometries, verifies the exact loss square and \(5/693\) cross term, and tests product/quotient orders through three finite-group factors. Independent audit caught underflow in 106 of the original finite-spin sums, including 21 vacuous zero-to-zero comparisons. The correction evaluates all 180 positive truncated sums and envelope comparisons in logarithms; 64 non-underflow direct sums also agree. These are explicitly 80-term numerical checks, not certificates for the infinite series. The exact rational certificate and analytic proof were unaffected. [[vacuum-aligned-innovation-completion/receipts/vacuum_heat_envelope_receipt.py|The vacuum receipt]] passes 35 finite rank-one and centered-overlap cases, three circle factorizations, 27 Fourier coefficients and finite divergence illustrations. Infinite statements remain proved in the notes, not inferred from finite tests.
+
+| Construction obligation | Evidence now available | Remaining gap |
+|---|---|---|
+| Avoid an artificial product-volume penalty | Exact unit-prefactor fusion theorem and rational compact calibration | Correlated interacting law |
+| Preserve the physical quotient | Exact quotient loss square and descending operator order | Identification with the reconstructed physical path law |
+| Preserve the actual vacuum | Exact obstruction, centered alternative and gapped analytic witness | A proved useful same-state comparison |
+| Match the regulator's true spectral cost | General fusion-growth signature and existing Wilson weight formula | Coupling-controlled Wilson fusion estimate |
+| Complete the Clay problem | Not established | Interacting continuum construction and uniform physical spectral exclusion |
+
+### The acoustic side exploration sharpens the observation-map requirement
+
+The user's additional clue prompted a focused reread of [[program-core/inq|Program Core]], [[cosmodynamics/inq|Cosmodynamics]], [[conservation-of-causal-charge/inq|causal charge]], [[causal-grain-cosmology/inq|the causal-grain genealogy]] and [[causal-grain-cosmology/cmb-likelihood-test|the archived likelihood comparison]]. The point of comparison is explanatory role rather than apparent physical size. The grain cancelled when inserted merely as an acoustic unit; its later candidate instead constrains a dimensionless relation between propagation distance and an acoustic ruler.
+
+The current evidence supports one fewer continuously fitted CMB acoustic-angle coordinate, with stored paired Planck and ACT penalties \(0.06412\) and \(0.33158\), while retaining the standard transfer calculation. It does not establish an independent galaxy-BAO prediction, and the functional law was selected after the target was inspected. An independent read-only lane checked the archived JSON and reran the stdout-only common-count arithmetic; no likelihood optimizers were rerun. The stale “BAO/CMB agreement” wording in [[the-grain-of-causal-scale/relational-grain-construction|the shared matched-ledger note]] was corrected to the actual tested scope. Raw inbox material was preserved.
+
+The method has a concrete consequence here. A response edge belongs to a pointed law and its observation maps, not to an abstract symmetry group or a bare spectrum. The new quotient note now proves that the independently quotiented endpoints still contain either single physical endpoint, hence \(\bar P^*\bar P\le\bar S\). Arbitrarily erasing the whole boundary instead gives zero prediction and unit residual on every centered midpoint, even for gapless dynamics; that operation loses the physical-transfer comparison and cannot prove a gap. [[global-local-response-reconstruction/cosmological-reconvergence-contract|The existing reconvergence owner]] now links this observation-map condition and the vacuum obstruction to the parameter-economy method. No second cosmological synthesis or new top-level module was created.
+
+Final validation: the two new receipts and four regressions pass, including the DR111 two-boundary, predictive-interface, finite bridge-score and Gaussian bridge-gap receipts. The independent fusion audit also reran the corrected logarithmic checks, and the gauge audit verified the added one-boundary inequality. All nine scoped canonical notes pass H1/lead, display-math, fence, equation-label, encoding and trailing-whitespace checks. The workspace remains at 475 modules after synchronization; repository link lint and git diff whitespace checks are clean. No interacting continuum gap, cosmological source map or completed Clay solution is claimed.
+
+## DR113. The true Wilson fusion cost and the actual vacuum response
+
+**2026-09-05.** DR112 is classified as progress: it removed the artificial product-volume prefactor and exposed the wrong-vacuum obstruction. This continuation tests the actual Wilson weights rather than borrowing a heat Casimir. It produces an explicit refinement-controlled pure-kernel envelope and a separate exact local estimate on the interacting vacuum. The full Clay objective remains active and unsolved.
+
+### A concave spectral cost supplies the missing fusion law
+
+[[bridge-score-fusion-geometry/volume-uniform-fusion-envelopes|The general envelope owner]] now includes the elementary inheritance theorem: an increasing concave function \(F\) with \(F(0)=0\) is subadditive and carries a Casimir fusion bound \(c_r\le2(c_a+c_b)\) to \(F(c_r)\le2(F(c_a)+F(c_b))\). A negative logarithm of a positive Laplace transform has precisely this concavity. No linear lower comparison or infinite-divisibility claim follows.
+
+[[bridge-score-fusion-geometry/wilson-bridge-envelopes-under-temporal-blocking|The Wilson blocking note]] constructs the required measure from the Hartman--Watson transform. With \(l=2j\), \(L|_j=j(j+1)\), and \(p_l(x)=I_{l+1}(x)/I_1(x)\), the properly tilted probability measure gives
+\[
+P_x=\int e^{-2aL}\,\mu_x(da)
+=e^{-F_x(4L)},\qquad
+w_r(x)\le2\{w_a(x)+w_b(x)\}.
+\]
+The fusion constant \(2\) is sharp over all couplings and representations. The auxiliary Bessel clock represents a kernel mathematically; it is not a claim of ontic stochasticity or an identification with physical time.
+
+The same note proves the quaternion convolution formula and derives an all-representation factorial domination for genuine temporal blocking:
+\[
+x\ge1,\quad n/x\ge\tau_->0
+\quad\Longrightarrow\quad
+p_{d-1}(x)^n\le(d!)^{-\tau_-}.
+\]
+This supplies analytic density minima and maxima without sampling. For \(n/x\ge4\), the complete midpoint-prediction return satisfies
+\[
+\boxed{S_{x,n}\le
+e^{-(59/124)W_{x,n}},\qquad W_{x,n}=-n\log P_x.}
+\]
+The unit prefactor survives independent products of any finite size and the declared endpoint gauge quotients. Under the full-vertex unconstrained-link hypotheses the girth argument gives
+\[
+I-\bar S_{x,n}^{(\Gamma)}
+\ge\left(1-2^{-(59/31)g(\Gamma)}\right)Q_0.
+\]
+These rational constants certify the chosen pure kinetic convention, not a glueball mass.
+
+The factorial tail also upgrades fixed-representation temporal convergence to uniform convergence of kernels with every fixed number of group derivatives; the heat time is \(2n/x\). Whitened one-factor bridge maps converge in Hilbert--Schmidt norm. This does not imply uniform tensor-product approximation at unbounded volume. Moreover, every finite-spacing Wilson cost still grows like \(l\log l\), so the one-boundary lower order rules out a full Gaussian Casimir envelope at every finite \(x,n\). The temporally uniform estimate uses the true logarithmic cost throughout.
+
+### The Perron equation localizes what remains
+
+[[vacuum-aligned-innovation-completion/local-perron-oscillation-and-conditional-coercivity|Local Perron control]] works with the actual finite transfer \(T=M_aKM_a\), not a substitute Haar vacuum. Comparing its positive eigen-equation at configurations differing only in a block \(I\) yields the conditional density log-oscillation
+\[
+D_I=\operatorname{osc}_I V_{\rm sp}
++2\sum_{e\in I}\log
+\frac{\sup k_e}{\inf k_e},
+\qquad
+\lambda_I^{\rm cond}\ge e^{-D_I}\lambda_{{\rm H},I}.
+\]
+Fixed blocks at fixed couplings avoid a whole-volume density ratio. For Wilson factors the kinetic contribution is \(4\sum_{e\in I}x_e\), so this certificate is not yet refinement uniform.
+
+Differentiating the same eigen-equation fixes the remaining nonlocal term without selecting a new law. With \(s_I=d_I\log k_I\) and \(\eta_U=P_T(U,\cdot)\), disjoint blocks obey
+\[
+\boxed{\nabla_Jd_I\log\psi
+=\nabla_Jd_I\log a+
+\operatorname{Cov}_{\eta_U}(s_I,s_J).}
+\]
+This covariance is the cross block of the actual transition family's Fisher metric. It remains even when the bare potential has no distant mixed derivative. The conditional influence coefficient is bounded by \(M_{ij}/\lambda_i^{\rm cond}\), where \(M_{ij}\) includes that covariance. The existing raw-link Dobrushin owner states the applicable global assembly and its separate physical-transfer comparison.
+
+An exact symmetric mixture of two biased product laws supplies the necessary countercheck: all single-spin conditional probabilities stay uniformly positive, but a majority distinction has heat-bath energy at most \(N(1-m^2)^{(N-1)/2}\), which tends to zero. Thus local conditional regularity cannot replace the collective estimate.
+
+### The acoustic method constrains this next step
+
+The latest user clue prompted a focused reread of [[program-core/inq|Program Core]], [[cosmodynamics/inq|Cosmodynamics]], [[conservation-of-causal-charge/causal-charge-meaning|the causal-charge meanings]], the matched-ledger grain construction, the canonical acoustic likelihood audit and the raw spectroscopy template. No stronger empirical claim than DR112 was found: one fewer continuously fitted CMB acoustic coordinate survives the archived paired tests, the standard transfer calculation remains imported, the functional law was selected after inspecting the target, and an independent galaxy-BAO grain prediction remains unmade. The native full-Planck constrained minimization is still an open test. Archived optimizers and likelihood arithmetic were not rerun here.
+
+The productive tactic is one construction, several differently conditioned readouts, one input ledger. In the current proof this means controlling the joint score-covariance matrix of the one actual transition family, not fitting a separate response at every block. [[global-local-response-reconstruction/cosmological-reconvergence-contract|The reconvergence owner]] now links that consequence to the acoustic method. Causal charge, entropy, conditional Fisher response, clock rate and invariant mass retain different types. Their common origin remains a construction target, not a consequence of all being expressible as dimensionless ratios.
+
+### Sources, independent checks and remaining obligations
+
+The deep-research and modular-note workflows were used; discovery still exposes no plan-update tool. Three read-only lanes independently checked the fusion proof, blocking estimates and actual-vacuum calculation while the main agent constructed and integrated the notes. The PDF-reading workflow was used only for primary-source verification; no PDF was authored or downloaded into the workspace.
+
+[[library/exponential-functionals-of-brownian-motion-i/inq|Matsumoto--Yor's source module]] now owns the 2005 survey metadata and author-manuscript links. The main agent read the relevant Section 2 text in the [arXiv manuscript](https://arxiv.org/pdf/math/0511517), especially equations (2.2), (2.4), and (2.8)--(2.10), to verify positivity, normalization and the Bessel-index square. Parent-visible reference: turn3647view0. Screenshot requests returned references but no viewable images; verification was textual, not visual. Failed HTML alternatives were not represented as read.
+
+Näsell's existing source owner was reused and given the [author-deposited full-text link](https://www.researchgate.net/publication/242921211_Inequalities_for_modified_Bessel_functions). The main agent verified Proposition 1 in the original article body, not the host's abstract transcription, whose inequality sign disagrees with that body. Parent-visible reference: turn3652view0. NIST's [definition](https://dlmf.nist.gov/10.25), [recurrence](https://dlmf.nist.gov/10.29) and [large-argument asymptotic](https://dlmf.nist.gov/10.40) sections were checked for the standard Bessel ingredients; references turn3644view1, turn3644view0 and turn3644view2. These primary sources support the ingredients; the bridge-envelope deductions are proved in the workspace.
+
+The new Wilson receipt passes 100 independent Bessel checks, 72,912 fusion channels, seven concavity grids, the exact rational certificate, 20 quaternion-convolution quadratures, 240 blocked-weight samples, 60 positive truncated log-domain numerator checks and sampled kernel convergence. The local-vacuum receipt passes nine finite Perron laws, 72 score/gradient/cross-Fisher derivative cases and 12 enumerated slow mixtures. Independent review found two notation-only issues, both corrected: spin versus doubled-label character indexing, and a fusion-enumeration comment missing a factor of two. No proof or implemented formula changed.
+
+| Construction obligation | Evidence now available | Remaining gap |
+|---|---|---|
+| Respect the regulator's true spectral cost | Sharp Wilson fusion law from a positive measure | Other groups and interacting transfer |
+| Avoid coupling and product-volume loss | Explicit temporally blocked kinetic envelope | Magnetic sandwich and simultaneous four-dimensional limit |
+| Control the actual vacuum locally | Perron conditional oscillation and Poincare bounds | Refinement-uniform constants |
+| Retain the whole in local response | Exact joint transition-score covariance | Summable or subcritical collective influence |
+| Recover physical mass | Typed response and transfer comparison targets | Uniform interacting spectral exclusion, nontrivial continuum and OS/Poincare reconstruction |
+
+The next bounded target is the actual-vacuum covariance or a bounded transition-form substitute on a fixed physical block, with volume and refinement quantified together. Neither the pure-kernel certificate nor the conditional sampler estimate closes that obligation.
+
+Final validation: both new receipts and four regressions pass (volume-uniform envelopes, two-boundary prediction, vacuum heat obstruction and bounded Wilson solder). Eleven scoped canonical notes pass opening, display-math, fence, equation-label, encoding and whitespace checks; the new report section passes its separate structure check. Initial link validation found that the new source module had not yet been registered; registration and synchronization resolved both links. The workspace now contains 476 registered modules, with clean link lint and git diff whitespace checks. Existing unrelated edits and raw source material were preserved.
+
+## DR114. Boundary-action stability and a complete interacting strong-coupling certificate
+
+**2026-09-05.** DR113 is classified as progress: its true Wilson fusion law, temporal blocking and local Perron identities changed the next estimate to the actual transition-score covariance. This continuation controls that covariance in an explicit strong-coupling window and derives a complete physical midpoint-bridge floor there. It also identifies the exact boundary-action operator whose linearization carries the physical spectrum. These are intermediate results; the full Clay objective remains active and unsolved.
+
+### Layer elimination has a typed nonlinear operator
+
+[[vacuum-aligned-innovation-completion/boundary-action-fixed-points-and-physical-linearization|Boundary-action fixed points]] constructs the vacuum from finite histories of the same positive transfer. On continuous real boundary actions modulo constants,
+\[
+\mathscr R(V)
+=V_{\rm sp}-2\log K e^{-(V_{\rm sp}+V)/2},
+\qquad
+D\mathscr R_V[h]=\eta^Vh,\qquad
+D^2\mathscr R_V[h,k]=-\tfrac12\operatorname{Cov}_{\eta^V}(h,k).
+\]
+An exact conditional relative-entropy variational formula supplies the nonlinear increment. It refers to probability measures on the declared conditional carrier, not a universal entropy stock or a record-production law.
+
+At the Perron class, the derivative extends from bounded action tangents to the complete centered physical \(L^2(\psi^2dU)\) carrier and is precisely \(P_T\). Consequently its logarithmic attenuation per calibrated layer is the physical energy edge, provided the positive transfer is injective. The nonlinear exponential map is not claimed on all \(L^2\) actions. Assuming uniform contraction of this linearization would assume an equivalent form of the spectral target.
+
+The elementary projective estimate has coefficient \(\tanh(\sum_ex_e)\), because the Wilson cross-ratio diameter is \(4\sum_ex_e\) and the magnetic endpoint multipliers cancel. Its deterioration at fixed positive couplings exposes another whole-volume certificate that cannot prove the thermodynamic result. Local posterior oscillation estimates, in contrast, remain uniform in preparation horizon.
+
+The Gaussian calculation gives a second exact distinction. Its quadratic precision obeys a matrix Riccati recurrence with fixed point \(B^{1/2}\sqrt{\bar A^2+4\bar A}B^{1/2}\). Quadratic perturbations contract with products of first-chaos rates, so an even quadratic ansatz misses slower complete-carrier directions. Positive conditional precision can persist while the limiting vacuum loses normalizability and its spatial response develops a nonanalytic massless symbol.
+
+### The whole-history estimate closes the covariance in a declared regime
+
+[[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate|The Wilson slab certificate]] keeps the finite-history law until after its estimates are proved. In its explicit \(SU(2)\) trace convention and unit-\(S^3\) gradient metric, set
+\[
+q=2\tanh x+6(d_s-1)\tanh\beta_s<1,\qquad
+D_0=4x+4\beta_s(d_s-1),\qquad \lambda_H=3.
+\]
+Temporal bonds and shared plaquettes produce a symmetric total-variation influence majorant with norm at most \(q\), independent of spatial volume and preparation depth. Wu's variance theorem, followed by ordinary conditional Haar comparison, gives the actual vacuum Poincare constant at least \(\lambda_H e^{-D_0}(1-q)\). No TV coefficient is silently converted into a geodesic Wasserstein coefficient.
+
+Integrating the auxiliary heat-bath oscillation estimate gives a static covariance resolvent. Applied to all first-slice scores jointly, it bounds the actual transition Fisher tensor by \(x^2/(1-q)\) times the metric. Spatial paths with at least one plaquette step also give a mixed-block row sum proportional to
+\[
+\frac{x^2q_s}{(1-q_t)(1-q_t-q_s)};
+\]
+this vanishes in the spatially decoupled case. All estimates are obtained before the finite-volume Perron limit, without assuming locality of the unknown vacuum action.
+
+Given a midpoint, its two adjacent endpoints are independent draws from the actual reversible transition. Their joint Fisher tensor doubles the bound. Conditional Fisher coercivity and equality of adjoint prediction norms then prove
+\[
+\boxed{I-S_{\rm bridge}\ge\kappa_*Q_0,\qquad
+\kappa_*=
+\frac{\lambda_H e^{-D_0}(1-q)^2}
+{\lambda_H e^{-D_0}(1-q)^2+2x^2}.}
+\]
+This is a complete interacting midpoint response, not merely a tangent score estimate or a sampler gap. Gauge restriction and independently quotiented endpoints preserve the bound. The one-boundary order gives the physical transfer rate
+\[
+\Delta_E\ge-\frac{\hbar c}{2\ell_\tau}\log(1-\kappa_*).
+\]
+Thus the programme now recovers a genuine fixed-regulator strong-coupling physical gap through its own joint-response construction.
+
+The restriction remains decisive: \(q_t\to2\) as \(x\to\infty\), so this single-link proof fails even when \(\beta_s=0\), where DR113 already controls the temporally blocked kinetic process. This is failure of this sufficient estimate, not evidence of a physical gap closing. Any improvement must retain the magnetic factors of \(T^n\), rather than substitute products of independently blocked kinetic kernels.
+
+### Continuous time has a separate strong-coupling anchor
+
+[[strong-coupling-gap-and-continuum-crossover/hamiltonian-product-vacuum-stability|The product-vacuum stability application]] applies Yarotsky's published theorem to grouped outgoing compact-group rotors. The on-site electric gap is normalized to one; a plaquette has fixed spatial support and bounded multiplication norm. After subtracting scalar plaquette constants, the dimensionless local perturbation obeys
+\[
+\varepsilon\le
+\binom{d_s}{2}\frac{|B|}{Ac_G}.
+\]
+The theorem yields a volume-uniform interacting Hamiltonian gap at sufficiently small \(\varepsilon\), with an actual vacuum and a thermodynamic GNS limit. Gauge restriction preserves the bound. The declared application uses the theorem's empty-boundary convention, not an unproved periodic extension. In conventional fixed normalizations, \(\varepsilon\) scales as \(g_0^{-4}\), so the theorem still does not follow the asymptotically free continuum trajectory.
+
+This anchor concerns continuous-time Hamiltonian transfer, not the finite-spacing Wilson logarithm. Its gap alone does not prove a universal two-ended midpoint floor; that converse is already ruled out by the bridge owners. Infinite-volume statements use the GNS semigroup, not an assumed vacuum density relative to infinite product Haar measure.
+
+### Sources, verification and the next estimate
+
+The deep-research and modular-note workflows were used. The plan-update tool remained absent from discovery. Bounded workspace searches covered Perron iteration, finite-history and Feynman--Kac preparation, covariance feedback, Riccati equations, projective contraction, and product-vacuum stability. Three independent read-only lanes audited the fixed-point/Gaussian calculation, the whole-history covariance proof, and the Hamiltonian theorem application. The main agent verified consequential sources and wrote the artifacts.
+
+The main agent read Wu's [author manuscript](https://arxiv.org/pdf/math/0611635), Section 2, including Theorem 2.1/(2.4) and Proposition 2.5/(2.10), and checked the trivial-metric convention and variance-to-gradient passage. Parent-visible references: turn3665view0 and turn3666view0. The PDF-reading workflow was source-only; screenshots returned references without viewable images, so verification was textual. Its existing library owner was reused and given manuscript/source links. The failed HTML endpoint was not represented as read.
+
+[[library/quasi-particles-in-weak-perturbations-of-non-interacting-quantum-lattice-systems/inq|Yarotsky's source module]] now owns the November 11, 2004 preprint and its HTML/TeX links. The main agent read [Section 1, Theorems 1--3](https://arxiv.org/html/math-ph/0411042), including infinite-dimensional on-site spaces, unbounded electric operators, local bounded-perturbation norms, empty boundaries and the GNS limit, and the Section 2 proof setup. Parent-visible references: turn3656view1 and turn3658view0. Quasiparticle conclusions were not imported. Broader search results and the alternative periodic formulation were not used to extend the chosen theorem.
+
+The fixed-point receipt passes 18 action-derivative/entropy/projective cases, six finite Perron limits and nine noncommuting Gaussian calibrations. The slab receipt passes 36 enumerated finite histories, six complete interacting bridge/gauge-quotient matrices and 27 compact-group certificate arithmetic cases. The discrete score calculation is explicitly a continuous external-source Fisher family, not a tangent derivative on a discrete group. Independent execution checked nonzero interacting covariances and strict endpoint-information losses, excluding vacuous zero comparisons. Finite receipts do not prove the compact-group or infinite-limit statements.
+
+Audits corrected the general logarithm's injectivity hypothesis, the entropy minimization's probability normalization, the finite-volume scope of Haar vacuum densities, an unnormalized path-density label and discrete-score typing. The analytic bounds and implemented matrix formulas were unchanged.
+
+| Obligation | Evidence obtained | Remaining gap |
+|---|---|---|
+| Give the whole-to-boundary operator an actual domain | Nonlinear action quotient, entropy increment and complete physical derivative | Derive continuum-uniform stability rather than assume it |
+| Bound the actual vacuum covariance | Finite-history resolvent and joint Fisher bounds in \(q<1\) | Strong temporal bonds and induced blocked interactions |
+| Recover the complete physical response | Explicit interacting bridge floor and physical logarithmic rate | Crossover outside the strong-coupling region |
+| Handle continuous time without a global density ratio | Product-vacuum stability application to the lattice Hamiltonian | Spatial regulator removal and matching of joint limits |
+| Solve the Clay problem | Not established | Nontrivial continuum Yang--Mills construction and full physical spectral exclusion |
+
+The user's acoustic-method clue was checked against Program Core, Cosmodynamics and the canonical archived likelihood notes. The CH0 CMB comparison removes one continuous acoustic coordinate within the unchanged transfer calculation; the separate CST compressed-BAO-plus-supernova likelihood uses equal parameter count to flat-\(\Lambda\)CDM. Neither is an independently validated grain-to-galaxy-BAO prediction. The cosmological reconvergence owner now distinguishes those empirical claims and links the whole-history covariance theorem as the precise reusable method: one declared law must constrain its several actual-state responses together. The archived cosmological likelihoods were not rerun.
+
+Verification passes all six executed receipts: the two new fixed-point/slab receipts and the local-Perron, Wilson-fusion-blocking, complete two-boundary-prediction, and relative-leakage/compact-gauge regressions. Synchronization registers 477 modules; repository link lint and the whitespace diff check pass. Structural checks cover the 12 scoped canonical Markdown notes, including H1/lead openings, balanced displays and fences, distinct equation tags, encoding, placeholders and trailing whitespace. The DR114 report section is checked separately. No PDF was authored; source, inbox and chat archives were left unchanged.
+
+The next useful test is temporal-chain or fixed-physical-depth blocking of the actual interacting law. It must keep the induced magnetic dependence and provide a joint response bound that does not count strong temporal neighbors as independent small perturbations. The full objective is not reduced to the established strong-coupling window.
+
+## DR115. Entire temporal columns and the anisotropic vacuum limit
+
+**2026-09-05.** DR114 is classified as progress: it established an actual interacting bridge floor in a small-parameter regime and exposed the precise temporal-refinement failure. This continuation changes the dependence carrier from individual time sites to complete finite temporal columns. It proves a uniform vacuum gradient bound along a declared anisotropic refinement and passes that bound to the continuous-time lattice Hamiltonian. The full Clay objective remains active and unsolved; the category-error diagnosis is still a research hypothesis.
+
+### Internal temporal dependence is handled before spatial dependence
+
+[[temporal-column-response/inq|Temporal Column Response]] is the new reusable owner. It starts with a compact positive Markov kernel whose \(n\)-step density lies between \(m_n\) and \(M_n\), and arbitrary conditioned one-site potentials of oscillation at most \(b\). The actual inhomogeneous Feynman--Kac block, retaining all its potentials, has cross-ratio diameter at most \(2\log(M_n/m_n)+2nb\). Its normalized conditional rows contract in total variation by at most
+\[
+\tau=\tanh[(\log(M_n/m_n)+nb)/2].
+\]
+Separate end messages and fixed endpoints do not enlarge this coefficient. Open temporal intervals are essential to the stated proof.
+
+A compatible outward coupling controls entire paths, not merely separate time marginals. Coupling block endpoints and filling their exact conditional bridges yields disagreement at separation \(d\) at most \(\tau^{\lfloor d/n\rfloor}\), with two-sided susceptibility
+\[
+\mathcal S=\frac{2n}{1-\tau}-1.
+\]
+A potential insertion at one time therefore has whole-path response at most one quarter of its oscillation times \(\mathcal S\). Use the sum of normalized chordal distances on the finite column, a compact Polish metric. Telescoping exterior time changes divides out their summed input distance, leaving a column interdependence coefficient \(\mathcal S J_{ef}\), not one proportional to the total preparation horizon.
+
+This is the decisive difference from applying total variation to an arbitrarily changed entire exterior column. The latter can accumulate a horizon cost; the metric Lipschitz coefficient above does not. Wu's Wasserstein-matrix variance theorem then applies literally on each finite column space. No infinite-path Hamming topology or limiting path metric has been assumed.
+
+### The true Wilson vacuum now has a refinement-uniform floor
+
+[[strong-coupling-gap-and-continuum-crossover/wilson-temporal-column-coercivity|The Wilson application]] uses the prior all-representation bound \(m_n=26/35,\ M_n=44/35\), with \(n=\lceil4x\rceil,\ x\ge1\). Conditional magnetic potentials have \(b=4(d_s-1)\beta_s\); quaternion chordal sensitivity gives \(J_{ef}=\beta_s m_{ef}\). Thus
+\[
+q_{\mathrm{col}}=6(d_s-1)\beta_s\mathcal S.
+\]
+At midpoints at least \(n\) bonds from both ends, smoothing the actual incoming messages bounds the one-coordinate conditional log density by
+\[
+D_{\mathrm{mid}}=b+2nb+2\log(22/13).
+\]
+Column variance factorization and conditional midpoint Haar comparison give an actual vacuum gradient Poincare bound, without a whole-volume density ratio.
+
+The conservative sufficient window
+\[
+x\ge1,\qquad 0\le(d_s-1)\beta_sx\le1/200
+\]
+implies \(\tau\le1/3,\ q_{\mathrm{col}}\le9/20\), and
+\[
+\boxed{\lambda_\nu\ge
+\lambda_*=\frac{33}{20}(13/22)^2e^{-11/50}>0.}
+\]
+It is uniform in spatial volume, preparation horizon and temporal refinement. Under \(x=1/\varepsilon,\ \beta_s=g\varepsilon\), the remaining smallness condition is \((d_s-1)g\le1/200\). The rational numbers certify a deliberately conservative window, not a fundamental grain or predicted coupling.
+
+### Pass an already uniform inequality, not an unproved uniform limit
+
+[[strong-coupling-gap-and-continuum-crossover/wilson-to-hamiltonian-vacuum-limit|The Wilson-to-Hamiltonian vacuum limit]] proves at each fixed finite spatial volume
+\[
+T_\varepsilon^{n(\varepsilon)}
+\longrightarrow e^{-tH_g}\quad\hbox{in operator norm},\qquad
+H_g=\tfrac12\sum_eL_{S^3,e}+gW,\quad n\varepsilon\to t>0.
+\]
+The proof controls high representations with the owned Näsell bound before invoking a compact-resolvent bounded-perturbation argument. Positive-contraction scalar calculus compares powers with Euler exponentials. This is stronger than pointwise convergence on a selected collection of character labels.
+
+Simple positive Perron projections then converge at fixed volume, giving \(L^2\) convergence of normalized vacuum vectors and \(L^1\) convergence of their squared densities. Smooth bounded tests pass the already uniform vacuum inequality with its unchanged constant. The exact Hamiltonian ground-state transform supplies
+\[
+\langle\psi F,(H_g-E_0)\psi F\rangle
+=\tfrac12\int\sum_e|\nabla_eF|^2\psi^2\,dU,
+\qquad
+H_g-E_0\ge\tfrac12\lambda_*Q_0.
+\]
+Gauge restriction is asserted only for gauge-invariant \(W\). The fixed-volume convergence constants may grow with volume; this does not invalidate the forward passage of an independently uniform inequality. It does invalidate any attempted reverse inference of a uniform finite-step Wilson gap from the limiting Hamiltonian gap.
+
+This result is not a complete two-ended bridge estimate through refinement, and it does not bound the finite-step Wilson logarithm below by the group Laplacian. The small magnetic/electric ratio remains proportional to strong bare gauge coupling; it is the opposite of the spatial asymptotically free trajectory. A nontrivial four-dimensional continuum law and its full spectral exclusion are still missing.
+
+### Primary sources and independent checks
+
+The deep-research and modular-note workflows governed this continuation; plan-tool discovery again returned no available updater. Workspace discovery preceded bounded source searches for path-space blocking, compact quantum rotors and norm semigroup convergence. Three read-only lanes independently examined the chain coupling, the path-space precedent and the vacuum-limit argument. No worker edited the artifacts.
+
+The main agent re-read Wu's [Section 2](https://arxiv.org/pdf/math/0611635), especially the alternatives for the underlying metric space and Theorem 2.1. Parent-visible reference: turn3684view0. The literal compact Polish path metric is important: an uncountable Hamming-sum topology was not covered by the quoted hypotheses. The existing source owner was reused.
+
+[[library/uniqueness-problem-for-quantum-lattice-systems-with-compact-spins/inq|The new compact-spin source owner]] records the May 8, 1999 Albeverio--Kondratiev--Minlos--Shchepan'uk manuscript. The main agent read its [Theorem 1 and Section 3](https://bibos.math.uni-bielefeld.de/preprints/bibos99-837.pdf), including the separate temporal and integrated-potential activities and Remark 7. Parent-visible references: turn3681view0 and turn3684view3. It is a pair-interaction uniqueness precedent, not a quoted Wilson-plaquette or complete-bridge theorem. The companion ground-state PDF was discovered but its corrupted text was not used for detailed claims. The Zagrebnov semigroup article was a discovery lead; the limit note instead supplies its own compact-resolvent and scalar proof. No unseen publisher text is represented as verified.
+
+The PDF skill was used only for source reading. Screenshot attempts supplied an unviewable reference or cache failure; source verification was textual, not visual. No PDF was authored or downloaded, and the source module records that no local manuscript payload is stored.
+
+The new stdout-only receipt passes 27 inhomogeneous Feynman--Kac block comparisons, 30 complete-path covariance/conditioning/score checks, three complete interacting binary-column laws, five finite-state transfer/vacuum refinements and 54 compact-group coefficient calculations. The two-column maximal-correlation calculation checks the entire finite path carrier, not just chosen scalar observables. The receipt is not a numerical \(SU(2)\) discretization or continuum proof. Independent reviewers checked the actual assumptions, including finite positive endpoint normalizations, open temporal intervals, nonnegative Wilson coupling, metric normalization and gauge invariance of the potential.
+
+| Obligation | Evidence obtained | Remaining gap |
+|---|---|---|
+| Retain magnetic interactions during temporal grouping | Exact inhomogeneous block kernels and whole-column conditional laws | None for the declared finite histories |
+| Avoid horizon and time-refinement losses | Metric column sensitivity and explicit actual-vacuum Poincare floor | Large magnetic/electric ratio |
+| Return a physical continuous-time rate | Fixed-volume norm limit and exact Hamiltonian ground-state form | Spatial regulator removal and full continuum reconstruction |
+| Preserve the complete midpoint-to-two-boundary response | Not proved by this new vacuum inequality | Normalized blocked endpoint-score or another complete response estimate |
+| Solve the Clay problem | Not established | Nontrivial continuum construction and uniform physical mass edge |
+
+Final verification passes the new receipt and four regressions: actual Wilson slab Fisher, boundary-action fixed points, Wilson fusion/blocking, and local Perron response. Structural checks cover nine scoped canonical Markdown notes and the DR115 report section. Synchronization registers 479 modules; repository link lint and the whitespace diff check pass. Two Python indexing expressions were rewritten equivalently because the wiki scanner interpreted adjacent brackets as local links. No raw source or historical archive was changed.
+
+The next estimate must address spatial coarse graining of this actual whole-law response, or obtain a complete interacting fixed-time endpoint bound that can survive that coarse graining. Merely making the temporal blocks longer cannot solve the crossover: it improves kinetic mixing but increases their accumulated magnetic response. That tradeoff is now explicit in \(q_{\mathrm{col}}\), rather than hidden in a change of clock or boundary.
+
+## DR116. Spatial self-return and frequency-dependent coarse response
+
+**2026-09-05.** DR115 is classified as progress: it established an actual-vacuum bound uniform in temporal refinement within a specified strong-coupling regime. This continuation examines spatial elimination without deleting induced interactions or changing the physical clock. The result is an exact conditional-law elimination formula and a reusable dynamical memory construction. Neither supplies the remaining spatial continuum estimates; the Clay objective remains active and unsolved.
+
+### Static spatial elimination has a self-return denominator
+
+[[temporal-column-response/spatial-elimination-and-self-return|Spatial elimination and self-return]] starts with the actual finite compact column law and its nonnegative interdependence majorant \(C\). Retaining \(R\) and integrating \(H\), define
+\[
+E=C_{RR}+C_{RH}(I-C_{HH})^{-1}C_{HR}.
+\]
+Provided the hidden block is subcritical and \(E_{ii}<1\), the actual retained single-column influences are bounded by
+\[
+\bar C_{ij}=\frac{E_{ij}}{1-E_{ii}}\quad(i\ne j),\qquad\bar C_{ii}=0.
+\]
+Comparison on the joint conditional block \(\{i\}\cup H\) proves the formula. The denominator sums hidden excursions returning to the column being updated. A three-spin Ising chain makes this correction sharp: simply erasing the induced diagonal underestimates the exact retained influence.
+
+The same calculation preserves an existing row contraction \(q<1\). But the exact finite-matrix equivalence
+\[
+\rho(C)<1\iff\rho(E)<1
+\iff[E_{ii}<1\ \forall i,\ \rho(\bar C)<1]
+\]
+shows that algebraically recycling this majorant cannot cross its spectral threshold. This is not a prohibition on spatial improvement. For the three-leaf Ising star at \(J=\log3\), the exact original influence matrix is spectrally supercritical, while a fresh calculation of the actual retained marginal gives radius \(32/41<1\). The new joint law can admit a sharper estimate than the inherited comparison. Coordinate elimination and nonlinear coarse holonomies remain distinct operations.
+
+### Dynamic reduction returns a memory operator, not only a short
+
+[[coarse-response-memory/inq|Coarse Response Memory]] is the new reusable owner. For a declared self-adjoint nonnegative block operator
+\[
+L=\begin{pmatrix}A&B^*\\B&C\end{pmatrix}
+\]
+with bounded off-diagonal coupling, the retained evolution and resolvent satisfy
+\[
+\dot R_t=-AR_t+\int_0^tB^*e^{-(t-s)C}BR_s\,ds,\qquad
+\widehat R(z)=[z+A-B^*(z+C)^{-1}B]^{-1}.
+\]
+The static short \(S=A-B^*C^{-1}B\) is only the zero-frequency reduction when \(C\) has a positive lower bound. The first frequency correction is the positive metric \(Z_0=I+B^*C^{-2}B\), with an explicit positive remainder bound. A resolvent sandwich also controls the static approximation without making an invalid exponential-order inference.
+
+The finite reversible three-state chain supplies a decisive calibration. Its centered readout has \(A=3/2\), \(C=1/2+2\varepsilon\), \(B=-\sqrt3/2\): both instantaneous blocks remain bounded below. Nevertheless the actual observable tail has rate \(\lambda_-\sim3\varepsilon/2\) and nonvanishing limiting weight \(1/4\). Static elimination gives \(S\sim6\varepsilon\); the metric \(Z_0\to4\) explains the leading discrepancy. Even a uniformly fast hidden block does not exclude slow feedback cancellation.
+
+If \(C\ge cI\), \(S\ge sI\), and \(k=\|C^{-1}B\|\), the full operator has the lower bound
+\[
+\delta=\frac{s+c+ck^2-\sqrt{(s+c+ck^2)^2-4sc}}2.
+\]
+This is the owned two-scale scalar budget in a block-memory interpretation, not a new scalar constant. Its normalized form depends on \(s/c\) and \(k\), which are unchanged by rescaling the entire generator. It is an estimate conditional on these quantities, not a derivation of their positivity.
+
+There is a safe physical application signature without unbounded block-domain assumptions: use \(L=I-T_\tau\), where \(T_\tau\) is the actual positive physical transfer. Then a complete-vacuum-complement block estimate yields
+\[
+H-E_0\ge-\frac{\hbar}{\tau}\log(1-\delta)\,Q_{\mathrm{vac}}.
+\]
+The parameter of \(e^{-tL}\) remains auxiliary bounded-defect time; the physical bound comes from functional calculus of \(T_\tau\). No auxiliary sampler was relabelled as the Hamiltonian.
+
+### The causal-grain method informs the relation, not a shared numeral
+
+The user's side exploration prompted a bounded re-read of Program Core, Cosmodynamics, the matched-ledger grain owner, causal-charge distinctions and the archived acoustic tests. Their methodological contribution is already owned: construct the carrier and counting laws independently, cancel arbitrary rulers, constrain a dimensionless response relation, and count structural choices as well as explicit fit coordinates.
+
+The archival evidence has two separate scopes. The frozen chiral-acoustic package removes one base CMB acoustic-angle coordinate while retaining standard transfer physics and identical paired nuisance treatment. The stored Planck and ACT spectrum-profile penalties are approximately \(0.064\) and \(0.332\). The separate released-2025 DESI-plus-Pantheon comparison has three parameters in each model; it profiles the acoustic calibration and tests late-time shape. It does not independently predict the galaxy BAO ruler. This continuation checked the existing records and parameter lists; it did not rerun the likelihoods or treat the post-search construction as blind evidence.
+
+[[global-local-response-reconstruction/cosmological-reconvergence-contract|The existing reconvergence contract]] now includes the new memory quotient as a concrete extension. A common mathematical response signature does not require equal physical size, but it does require compatible state, readout and reconstruction maps before a cosmological rate can be compared with a vacuum mass. Neither redshift-as-leakage nor a common dark-sector/glueball mechanism has been derived.
+
+### Evidence, limits and verification
+
+The deep-research and modular-note skills governed the work; the PDF skill was used only for primary-source reading. Plan-tool discovery again returned no available updater. Workspace searches found the prior short/compression, actual Wilson interface, normalized readout and two-scale owners before any new note was created. Three bounded read-only lanes checked the conditional comparison, operator memory and primary-source scope; one lane then audited the new acoustic-method clue.
+
+| Claim | Primary or local evidence | Confidence and remaining gap |
+|---|---|---|
+| Finite coordinate comparison | Rebeschini--van Handel, Corollary 2.6, [author manuscript](https://web.math.princeton.edu/~rvan/dobrushin130819.pdf), 2014 published article | Source theorem verified; self-return formula and matrix criterion derived here; nonlinear readout needs a new conditional certificate |
+| Exact projection memory | Chorin--Hald--Kupferman, Section 2, equations 2.5--2.7, [author manuscript](https://math.huji.ac.il/~razk/Publications/PDF/CHK00.pdf), PNAS, March 28, 2000 | Primary structural precedent verified; self-adjoint formulas and finite calibration explicitly proved; no Wilson-specific estimate supplied by the source |
+| New gap budget interpretation | Existing two-scale theorem plus completed-square block proof | Exact under stated hypotheses; uniform physical blocks not constructed |
+| Acoustic economy | Frozen acoustic likelihood note and stored paired profile records; CST data-consistency owner | Archived narrow results verified, not fresh likelihood runs or independent BAO-grain evidence |
+| Full Yang--Mills solution | No new continuum construction | Open: nontrivial continuum law and uniform complete physical edge |
+
+Parent-visible source records are turn3697view0/turn3698view0 for the comparison theorem and turn3699view0/turn3700view0 for projection memory. The primary author manuscripts were read textually. A comparison-page screenshot returned an unviewable reference; no visual source verification is claimed. PubMed Central presented a browser challenge, so the author manuscript supplied the verified full text. The two new library modules contain abstract-level descriptions and provenance, with no local PDF payload or project analysis. No persistent source access failure was repeatedly retried.
+
+The new receipts pass 60 block resolvent/memory/remainder/bound cases, 15 complete reversible-readout time cases, eight actual Ising-law eliminations and 240 matrix threshold checks. The physical bounded-defect calibration returns the exact finite-chain spectral edge. These are finite algebra checks, not a Yang--Mills discretization, a cosmological fit or a proof of the continuum assumptions. Independent review found the mathematics sound and caught one heading-fragment mismatch, which was corrected.
+
+The next substantive construction must independently sharpen the actual spatially eliminated Wilson law or its complete physical transfer response. Repeated Schur elimination of the same failed influence envelope will not suffice. A candidate improvement must preserve the hidden-sector estimate and induced memory rather than only certify a retained marginal.
+
+Final scoped validation passes both new receipts and the temporal-column regression, all eight canonical-note opening/math/fence/tag checks, repository link lint and the whitespace diff check. Synchronization now registers 482 modules. The low-frequency metric was additionally checked as the harmonic lift's exact norm pullback, and the normalized block budget was checked under a common clock rescaling. Read-back caught and removed two stale formula lines introduced while disambiguating the hidden bound \(c_H\) from the speed of light. Raw notes, source payloads and historical archives were preserved.
+
+## DR117. Arbitrary-field conditional geometry and the cost of unfavorable contexts
+
+**2026-09-05.** DR116 is classified as progress: exact spatial self-return and dynamical memory isolated what an inherited mixing estimate misses. This continuation computes an actual Wilson elimination and proves a stronger single-link result for \(SU(2)\), then tests its group dependence. The result narrows the next construction to joint, context-sensitive control. It does not establish the weak-coupling spatial continuum or complete the Clay objective.
+
+### A geometric conditional bound survives every finite linear field
+
+[[conditional-fisher-coercivity/linear-tilted-sphere-coercivity|Linear-tilted sphere coercivity]] proves
+\[
+(n-3)\operatorname{Var}_{q_a}F
+\le\int|\nabla_{S^{n-1}}F|^2\,dq_a,\qquad
+dq_a\propto e^{a\cdot u}d\sigma,\quad n\ge4,
+\]
+uniformly for finite \(a\). The proof retains the induced latitude measure. Its logarithmic curvature is independent of the linear field; a self-contained one-dimensional variance argument, angular Poincare inequality, endpoint truncation and closed-form-domain extension give the result. The bound is conservative, not claimed optimal.
+
+With the declared unit round metric this gives a conditional gradient floor of one for an actual \(SU(2)\) Wilson link at every finite coupling and exterior. It improves on the small-field Ricci--Hessian sufficient test without changing the law. A plaquette-independent hidden link set tensorizes without a volume factor. It does not control arbitrary nonlinear hidden potentials or temporally interacting columns.
+
+[[rg-covariance-residue/su2-staple-elimination-and-response|The exact staple response]] supplies the associated marginal:
+\[
+a(R)=\sum_p\beta_p w_p(R),\qquad
+Z(a)=2I_1(|a|)/|a|,\qquad
+V_{\rm eff}=S_{\rm rest}-\log Z(a(R)).
+\]
+The covariance is the source Hessian of \(\log Z\). The retained Hessian includes both the negative pulled-back covariance and the expected second derivative of the nonlinear staple map. At coherent and cancelling two-staple contexts its induced second derivative is respectively \(\beta b(2\beta)/2\) and \(-\beta^2/4\), for \(\beta\ge0\). Strong conditional coercivity therefore coexists with large boundary sensitivity and nonconvex induced response.
+
+### The same all-boundary strategy fails for an actual SU(3) conditional
+
+[[rg-covariance-residue/frustrated-su3-conditional-wells|Frustrated SU(3) wells]] constructs the finite Wilson conditional \(q_\beta(U)\propto e^{-\beta\operatorname{ReTr}U}\). Three staples \(zI\) and three \(z^2I\), with \(z=e^{2\pi i/3}\), realize its source on an ordinary four-dimensional link star. The determinant constraint gives exactly two nondegenerate minima, \(zI\) and \(z^2I\). A smooth gauge-invariant relative-loop test separates them, with
+\[
+\lambda_{\rm PI}(q_\beta)\le C\beta^4e^{-\eta\beta}\longrightarrow0.
+\]
+The proof includes the eight-dimensional normalization lower bound. For each finite coupling nearby exterior configurations have positive marginal measure and comparably small test quotients. Thus the counterexample excludes a coupling-independent all-boundary or essentially all-boundary single-link certificate. It does not show the full physical theory is gapless: exterior derivatives and motion of the context were frozen.
+
+There is also a sharper orbit-level distinction. Realizable six-staple sums \(S_+=3I\) and \(S_-=-3I\) have equal singular values but determinant phases differing by \(\pi\). Endpoint \(SU(3)\) transformations preserve that phase. The positive source has one exponent maximum; the negative source has the two proven wells. Ordered singular values plus determinant phase classify the invertible source orbit, but a moving-frame derivative must still be kept for a complete response calculation. One scalar source strength is not a sufficient context.
+
+### Whole columns and bad-context localization retain the joint law
+
+[[temporal-column-response/spatial-elimination-and-self-return#The actual whole-column marginal|Whole-column spatial elimination]] selects a spatial checkerboard independent of time. With the stated factorized endpoint preparation the hidden objects are independent chains, not independent individual links. Their exact partition functions contain the actual temporal kernels and all magnetic sources; their Hessians are two-time conditional covariances. At one layer the generated interaction is spatially finite-range under local endpoint assumptions but generally temporally nonlocal. It cannot be replaced by a product of one-link Bessel factors. Reflection positivity transfers by pullback only under the stated reflection and observable-algebra conditions.
+
+[[conditional-fisher-coercivity/bad-context-response-and-localization|Bad-context response and localization]] is a new shared resource. On the actual joint carrier, \(P=\mathbb E[\cdot\mid R]\) and \(\Pi_B=\mathbf1_B(I-P)\) are orthogonal projections. Whenever nonzero, \(\|\Pi_B\|=1\), regardless of how small the context probability is. Hence unfavorable-context probability cannot alone replace a spectral bound.
+
+If the good-context fiber floor is \(\lambda_0>0\), and a common joint form independently satisfies
+\[
+\|\Pi_Bf\|^2\le a\mathcal E(f)+b\operatorname{Var}_\mu f,
+\qquad
+\operatorname{Var}_\mu(Pf)\le c\mathcal E(f),\qquad 0\le b<1,
+\]
+then total variance proves the full-form floor
+\[
+\mathcal E(f)\ge
+\frac{1-b}{\lambda_0^{-1}+a+c}\operatorname{Var}_\mu f.
+\]
+The constants are not proved for the Wilson trajectory. The theorem identifies the replacement obligation: quantify the joint cost of concentrating on or escaping unfavorable contexts, rather than average their probabilities and forget the test function.
+
+### The cosmological clue concerns a method, not a transferred value
+
+The renewed side exploration reread Program Core, Cosmodynamics, their response and charge typing, the matched-ledger grain owner and archived acoustic comparisons. It does not need another summary module: [[the-grain-of-causal-scale/relational-grain-construction|the existing matched-ledger resource]] already owns independently normalized counts, ruler cancellation and object-relative roots.
+
+The narrow archived result remains one fewer base CMB fit coordinate with paired Planck and ACT penalties \(0.06411896\) and \(0.33157922\). The standard transfer model remains imported, and the functional law was selected after inspecting the acoustic target. The separate DESI/Pantheon comparison fits three parameters against three and profiles its acoustic calibration; it is not an independent grain prediction of galaxy BAO. No likelihood was rerun in this continuation.
+
+The new transferable deduction is more structural: the same scalar strength can conceal inequivalent source orbits, and a small context weight can conceal a norm-one fluctuation sector. Thus explanatory economy should eliminate redundant presentation choices while preserving the joint relations that determine response. Cosmological and gauge observables can share this question without sharing a numeral or physical scale. The actual two-return construction remains governed by [[global-local-response-reconstruction/cosmological-reconvergence-contract|the reconvergence contract]], not by identifying redshift with leakage or an acoustic feature with a vacuum mass.
+
+### Evidence and verification
+
+The deep-research and modular-note skills governed the work; the PDF skill was used for textual primary-source reading. Plan-updater discovery again returned no available tool. Three bounded read-only research lanes checked source scope, sphere/conditional geometry and spatial blocking; subsequent reviews checked the new notes and acoustic comparison. They did not author artifacts. Review caught and corrected the distinction between equality in the minimum's auxiliary inequality and actually attaining the minimum, the nonnegative coupling convention in the two-staple example, and the linear-source requirement on additional boundary factors.
+
+| Claim | Evidence obtained | Remaining gap |
+|---|---|---|
+| Raw Wilson conditional has a linear staple source | Lüscher, *Computational Strategies in Lattice QCD*, §2.3.3, equations 2.46--2.47, [author manuscript](https://luscher.web.cern.ch/luscher/lectures/LesHouches09.pdf) | No new mass-gap result is attributed to this source |
+| Sphere normalizer | [NIST DLMF 10.32.2](https://dlmf.nist.gov/10.32.E2), independently specialized to normalized \(S^3\) measure | Arbitrary nonlinear posterior not covered |
+| All-finite-field sphere bound | Complete latitude, variance and angular proof in the new resource | Full many-body and physical bounds remain separate |
+| SU(3) unfavorable context | Explicit determinant-constrained minima, Wilson-star realization and Rayleigh proof | Joint-law localization and physical response |
+| Whole-column marginal | Actual prepared Wilson factorization and exact source derivatives | Uniform interacting column/source estimates after repeated spatial elimination |
+| Bad-context rescue | Exact projection and total-variance theorem | Independent, regulator-uniform constants |
+| Full Clay objective | Not established | Nontrivial continuum construction and uniform complete physical mass edge |
+
+The Lüscher author manuscript and DLMF integral representation were verified textually. The original Brascamp--Lieb publisher page returned an internal access error. No uninspected original theorem was quoted: the one-dimensional variance proof is supplied explicitly. No visual PDF verification is claimed. The new Lüscher library module contains only an abstract-level description and source provenance, without a local PDF payload or project commentary.
+
+The new stdout-only receipt verifies 28 polynomial/angular sphere-form blocks, 32 exact-versus-finite-difference staple Hessian and cancellation cases, 1,536 checkerboard plaquettes, two equal-strength source determinant classes, five SU(3) conditional trial quotients and three rare-context projection calibrations. These finite tests do not prove the full-domain inequalities, their physical premises or the continuum. The decreasing sampled SU(3) quotients run from approximately \(5.95\) to \(8.60\times10^{-10}\); the exponential theorem is the written variational proof, not an extrapolation.
+
+The next substantive estimate is the actual-law localization or larger-block control just isolated, together with retained response and temporal reconstruction. Replacing it with a typical-boundary assertion, a scalar source norm, or a cosmological number would discard the structure identified here.
+
+Final verification passes the new receipt and three regressions: nonlinear normalized gauge response, spatial self-return and coarse dynamical memory. Eleven scoped canonical notes and the DR117 section pass opening, display-math, fence and tag checks; repository link lint and the whitespace diff check pass. Synchronization registers 483 modules. Independent final review verified the rare-context projection, the absorption constant, its form-core extension and the source-orbit classification, and prompted an explicit nonnegativity assumption for the disintegrated fiber forms. Raw sources, inbox material and historical archives remain unchanged.
+
+## DR118. A full-law escape certificate and the inherited conditional connection
+
+**2026-09-05.** DR117 is classified as progress: an all-field sphere estimate and an actual \(SU(3)\) conditional counterexample changed the next proof obligation from uniform frozen-fiber coercivity to joint-context control. This continuation supplies such control on a concrete unfavorable neighborhood, including all surrounding Wilson plaquettes. A second exact calculation identifies the derivative that must accompany a conditional Hilbert-space presentation. The full Clay objective remains active and unsolved.
+
+### The obstructive conditional context has a full-action escape
+
+[[rg-covariance-residue/wilson-frustration-and-joint-escape|Wilson frustration and joint escape]] keeps the full isotropic four-dimensional Wilson law, metric \(-\operatorname{ReTr}/3\), and the prior six-staple realization. At central links, the full Hessian is
+\[
+\operatorname{Hess}S[X,X]
+=\beta\sum_p\operatorname{Re}(z_p)\|dX(p)\|^2.
+\]
+The active coordinate is locally stable at either frozen well, but all six outer-link coordinates are unstable once their thirty additional plaquettes are included. Their coordinate space gives a 48-dimensional negative-definite restriction. For one opposite-phase outer link, an explicit rotation gives the full finite-motion identity
+\[
+S(t)-S(0)=2\beta(\cos t-1),\qquad 0\le t\le\pi.
+\]
+Thus this context has a strictly downhill escape and a \(4\beta\) action drop. It is not merely a saddle of a truncated open-star action.
+
+### A local positive function makes the escape test-uniform
+
+[[conditional-fisher-coercivity/lyapunov-localization-certificate|The shared Lyapunov resource]] proves the exact conservative symmetric-diffusion identity
+\[
+\int\left(-\frac{LW}{W}\right)f^2\,d\mu
+=\mathcal E(f)-\int W^2\Gamma(f/W)\,d\mu.
+\]
+If its multiplication potential is at least \(\delta>0\) on an unfavorable context and at least \(-M\) elsewhere, this gives the missing localization coefficients \(a=(\delta+M)^{-1}\), \(b=M/(\delta+M)<1\). A killed-region bound alone would not suffice, because unrestricted cutoffs incur derivative costs. The globally defined positive function keeps that accounting.
+
+For the actual Wilson law let \(J\) be the six outer links and \(B\) the retained-context set on which all thirty external plaquettes have normalized real trace at most \(-2/5\). This set contains the displayed central exterior in its interior and is independent of the active link. The fundamental Casimir is eight in the declared metric, giving
+\[
+\Delta_JS\le-48\beta\quad\text{on }B,\qquad
+\Delta_JS\le288\beta\quad\text{globally}.
+\]
+With the local action \(S_J\) containing every plaquette touching \(J\), take \(W=e^{S_J}\) and the actual partial generator \(L_J=\Delta_J-\nabla_JS\cdot\nabla_J\). Then \(-L_JW/W=-\Delta_JS\) exactly. Neither a typical-boundary approximation nor the probability of \(B\) appears.
+
+The centering can remain local. Put \(K=\{e\}\cup J\), let \(Q_e\) be the active-link innovation and \(Q_K\) the seven-link innovation, both under the same full law. The resulting estimate is
+\[
+\boxed{
+\|\mathbf1_BQ_ef\|^2
+\le\frac{\mathcal E_J(f)}{336\beta}
++\frac67\|Q_Kf\|^2.}
+\]
+It follows by subtracting the conditional mean outside \(K\), which is constant along all \(J\) derivatives. Conditional variance bounds the active-link residual without differentiating its moving conditional mean. Supported tests have \(\mathcal E_J(f)\ge48\beta\|f\|^2\).
+
+Every link belongs to six outer sets. Summing all active patches consequently gives the volume-independent form comparison
+\[
+\sum_e\|\mathbf1_{B_e}Q_ef\|^2
+\le\frac{\mathcal E_{\mathrm{full}}(f)}{56\beta}
++\frac67\sum_e\|Q_{K_e}f\|^2.
+\]
+The last sum is an auxiliary block-heatbath form, not an extensive multiple of the full variance. Its absorption or independent control is not proved. Likewise \(B^c\) has not been shown to have uniformly good single-link gaps: the same frustrated source can have other surrounding geometries. This is a genuine local piece of the needed all-context theorem, not that theorem in full.
+
+### Simplicity requires retaining the derivative, not inserting a scalar coefficient
+
+The user's request prompted a fresh reading of the wall-construction interface, Algebraic Pre-Core, Ruble equations, cross-fiber transport and scale-score connection. These owners distinguish presentation from process and require the connection, state, source and physical normalization to be supplied together. No new foundation is claimed merely because the carrier is written as a bundle.
+
+[[conditional-fisher-coercivity/moving-fiber-connection|The inherited conditional derivative]] adds a direct calculation. For \(\mu(dx,du)=\nu(dx)q_x(u)m(du)\), multiplication by \(\sqrt{q_x}\) carries the declared product derivative to
+\[
+D_i=\partial_i-\tfrac12\partial_i\log q_x.
+\]
+It annihilates the transported conditional vacuum \(\sqrt{q_x}\). Its bare derivative has Fisher norm \(I_{ii}/4\), but that apparent term cancels in the correctly transported form. Replacing \(D_i\) by bare \(\partial_i\) would change the operator, not reveal a previously hidden mass.
+
+For a normalized moving conditional band, the exact restricted form contains a connection coefficient, a positive transverse derivative form and any supplied conditional eigenvalue. It remains a band restriction: complementary directions can relax the apparent positive cost. The balanced binary member makes this concrete. Its coefficients are \(\tanh x\) and \(\operatorname{sech}^2x\), while the complete two-band horizontal form is
+\[
+\int\left[
+|a_0'-\operatorname{sech}x\,a_1|^2+
+|a_1'+\tanh x\,a_1|^2
+\right]d\nu.
+\]
+A fixed-label observable makes both squares vanish through the interband terms. The conditional vertical energy remains a separate contribution. Thus the Ruble profile has an exact geometric appearance without being promoted to a mass term or a proof about the complete spectrum.
+
+The constructive simplification is to keep one joint form and its inherited derivative before reducing it. The Wilson localizer and the moving-band calculation give two complementary tests of that principle: joint motion removes one false conditional obstruction, while full band motion removes one false scalar coercivity claim. Neither argument assumes that the Higgs mechanism caused the pure-Yang--Mills problem; the Clay target has no Higgs field.
+
+### Evidence, boundaries and next action
+
+The deep-research and modular-note skills governed the work; the PDF skill was used only for primary-source reading. Plan-updater discovery again returned no available tool. Workspace-first searches covered bad contexts, large fields, Lyapunov localization, moving fibers and existing connection/shorting owners. Three bounded read-only lanes supplied the full-lattice geometry, primary localization source and foundational connection audit; the main agent wrote the artifacts and independently verified the formulas.
+
+| Claim | Evidence obtained | Remaining gap |
+|---|---|---|
+| Positive-function integration identity | Bakry--Barthe--Cattiaux--Guillin, *A simple proof of the Poincare inequality*, ECP 13 (2008), 60--66, [author manuscript](https://perso.math.univ-toulouse.fr/cattiaux/files/2013/11/bbcgecp.pdf), printed p.64 before equation (2.3) | The source's Euclidean theorem does not assert the compact Wilson application |
+| Full Wilson escape | Exact plaquette incidence, central Hessian and finite rotation; independently reviewed | Not a classification of all unfavorable source realizations |
+| Joint localization | Local action Laplacian, actual partial diffusion and block-local centering | Remaining context cover, block-form control and physical transfer |
+| Moving-band form | Explicit half-density transport and orthogonal decomposition | Selected law, domain, mobility and physical scale connection remain inputs |
+| Full mass-gap objective | Not established | Nontrivial continuum construction and a complete regulator-uniform physical edge |
+
+The primary identity was read textually in the complete author manuscript. A screenshot request did not supply a visually inspected page, so no visual PDF verification is claimed. The DOI endpoint returned a nonretryable access error; the author-hosted text supplied the consequential source, and the journal citation-export record mirrored by TCD/EMIS separately verified its DOI and publication metadata. The new library module contains source metadata and an abstract-level description only, with no local PDF payload.
+
+The stdout-only receipt enumerates a full periodic \(5^4\) lattice with 3,750 plaquettes, verifies the 36/30 incidence partition and sixfold outer-link overlap, checks 30 finite escape paths, 16 signed full-action Hessians and six noncommuting localizer/Laplacian comparisons, and calibrates 15 ground-state identities, 31 binary moving-fiber cases and 12 nested conditional projections. The largest relative discrepancy in the nonlinear finite-difference localizer checks is approximately \(4.6\times10^{-7}\). These checks corroborate normalization and algebra; the written identities, not the finite tests, establish their stated uniform scope.
+
+The next substantive action is to control additional unfavorable context geometries or derive a comparison that closes the remaining block-innovation term without a volume or refinement loss. Repeating the same local certificate on overlapping patches and replacing the residual sum by the number of patches times variance would erase the gain just obtained. A separate physical reconstruction step remains necessary even after a full configuration-space form estimate.
+
+Final verification passes the new joint-context receipt and four regressions: staple geometry, conditional Fisher response, moving-score/bridge lifting and coarse dynamical memory. Eleven scoped canonical notes and the DR118 section pass opening, math, fence, tag and encoding checks; repository link lint and the whitespace diff check pass. Synchronization registers 484 modules. Independent final review verified the localizer endpoint \(t=1\), partial-generator symmetry, block-local centering, overlap coefficient, moving-frame signs and complete binary cancellation. It also prompted an explicit statement that the continuity neighborhood for the small frozen conditional quotient may depend on coupling. Raw sources, inbox content and historical archives were preserved.
+
+## DR119. Unequal conditional wells and one retained force--curvature certificate
+
+**2026-09-05.** DR118 is classified as progress: it controlled one genuine unfavorable exterior under the full Wilson law. This continuation establishes that frozen-link metastability is not confined to exact equal-well symmetry, constructs a compatible unequal-well exterior outside the previous controlled region, and controls it by the same joint-law method. A single retained certificate then combines force and curvature. The full Clay objective remains active and unsolved.
+
+### An asymmetric conditional obstruction
+
+[[rg-covariance-residue/frustrated-su3-conditional-wells#Unequal wells persist without exact phase coexistence|The extended conditional-well theorem]] treats
+\[
+dq_{\kappa,\psi}\propto
+e^{\kappa\operatorname{ReTr}(e^{-i\psi}U)}dU,
+\qquad \pi/6<\psi<\pi/3.
+\]
+The central points \(I,zI\) are nondegenerate exponent maxima with unequal heights. A cutoff around the lower maximum has both small variance and small energy, but their common small weight cancels from the Rayleigh quotient. The annular barrier gives
+\[
+\lambda_{\mathrm{PI}}\le C\kappa^4e^{-\kappa\eta}.
+\]
+The variance proof is \(\operatorname{Var}f\ge[1-q(\operatorname{supp}f)]q(f^2)\), not an assertion of order-one variance. Constants can be uniform on compact phase subintervals and small matrix-source neighborhoods. This is an open metastable chamber, not merely a determinant-phase equality locus.
+
+The realizable six-staple source
+\[
+S_{\mathrm{staple}}=(46+32i)I/25
+\]
+comes from two copies of each cyclic permutation of
+\(D=\operatorname{diag}(a,a,a^{-2})\), \(a=(3+4i)/5\). Every external plaquette has normalized real trace \(23/75>0\), placing it outside the earlier negative-trace cut. Continuity of the staple map, not surjectivity onto all matrix sources, gives a fixed open exterior neighborhood with persistent unequal wells.
+
+### Surrounding force supplies an actual-law bound
+
+[[rg-covariance-residue/wilson-exterior-force-localization|The new focused resource]] uses the same six outer links \(J\), their thirty external plaquettes, the full Wilson action and metric \(-\operatorname{ReTr}/3\). Each external dimensionless force is \(\mathcal F_j=-\sum_{\mathrm{ext},p\ni j}\nabla_j\phi_p\). A single plaquette has gradient norm at most one. Thus on the retained set \(B_\nabla=\{\|\mathcal F_j\|\ge3\text{ for every }j\}\), no active-link value can cancel the lower bound
+\[
+|\nabla_JS|^2\ge24\beta^2.
+\]
+The explicit source lies strictly inside this set: every exterior force has norm \(44\sqrt2/15>3\).
+
+For \(W=e^{S_J/2}\), the existing positive-function identity returns
+\[
+-L_JW/W=\tfrac14|\nabla_JS|^2-\tfrac12\Delta_JS
+\ge6\beta^2-144\beta
+\]
+on \(B_\nabla\), and at least \(-144\beta\) everywhere. Keeping the exact constants simplifies the local estimate to
+\[
+\|\mathbf1_{B_\nabla}Q_ef\|^2
+\le\frac{\mathcal E_J(f)}{6\beta^2}
++\frac{24}{\beta}\|Q_Kf\|^2,\qquad\beta>24.
+\]
+Its summed gradient coefficient is \(1/\beta^2\). The remainder is a local seven-link innovation, has coefficient at most \(1/2\) for \(\beta\ge48\), and is not automatically absorbed. The threshold is a sufficient certificate choice, not a physical scale.
+
+### The simpler shared object is a context function, not a new field
+
+The retained force excess and curvature sum define
+\[
+\begin{aligned}
+A(R)&=\sum_{j\in J}(\|\mathcal F_j(R)\|-1)_+^2,\\
+\chi_\beta(R)&=\tfrac14\beta^2 A(R)
+-4\beta\left(6+\sum_{p\in\mathcal P_{\mathrm{ext}}}\phi_p(R)\right).
+\end{aligned}
+\]
+For every active link, \(-L_JW/W\ge\chi_\beta(R)\ge-144\beta\). Positive level sets of \(\chi_\beta\) consequently give joint localization coefficients. This scalar is a bound on the declared configuration-space comparison operator; it is not a Higgs field, a mass eigenvalue, or a physical force.
+
+For \(\beta\ge28\), the same half-action localizer controls the union of the old negative-trace region and the new force region:
+\[
+\|\mathbf1_{B_\Delta\cup B_\nabla}Q_ef\|^2
+\le\frac{\mathcal E_J(f)}{168\beta}+\frac67\|Q_Kf\|^2.
+\]
+This uses one certificate with one remainder, rather than adding residual coefficients. It is a broader sufficient context cut, not an exhaustive classification.
+
+The constructive whole--part lesson is now more precise. A local well is a statement about variations with the context fixed. Joint coercivity concerns variations of the same state with the context allowed to change. Neither can be inferred from the other without the horizontal part of the form. Re-reading the wall-construction interface and Algebraic Pre-Core preserved that distinction; the prior Ruble moving-connection calculation remains the owner of its binary specialization. No new physical identification follows merely from the common word “scale.”
+
+### Evidence, limits and verification
+
+The deep-research and modular-note skills governed this continuation. The plan-updater remained unavailable. Workspace-first searches covered metastability, unequal wells, exterior force, Poincare bounds, Ruble equations and existing wall/algebra owners. Three bounded read-only lanes independently audited source geometry, the rare-well variational proof and primary metastability evidence. Artifact edits and critical-claim verification remained with the main agent.
+
+| Claim | Evidence and provenance | Boundary |
+|---|---|---|
+| Unequal wells can yield an exponentially small gradient floor | Menz--Schlichting, *Poincaré and logarithmic Sobolev inequalities by decomposition of the energy landscape*, Annals of Probability 42(5), 1809--1884 (2014), [primary HTML](https://arxiv.org/html/1202.1510v4), Corollary 2.18, equation (27) | Euclidean confining Morse setting; sharpness is explicitly attributed there to Bovier--Gayrard--Klein, Theorem 1.2 |
+| Normalization | Same source, Definition 1.1 and introductory form | Its generator gap is \(\varepsilon\rho\), whereas \(\rho\) is the gradient Poincare floor |
+| Compact \(SU(3)\) asymmetric obstruction | Intrinsic Hessian, cutoff and variance proof (FW12)--(FW17) | No application of the Euclidean theorem to \(SU(3)\) |
+| New full-law context control | Exact exterior forces, unit trace-gradient bound, Casimir and positive-function identity | Not all unfavorable contexts or a closed block-response estimate |
+| Continuum physical mass | Not established | Requires complete physical transfer control and nontrivial continuum construction |
+
+The source metadata and relevant HTML equations and assumptions were checked directly; no PDF payload was needed. Its new library entry contains only an abstract-level account and provenance. Source discovery stopped once the unequal-well and normalization questions were resolved; no extra primary result was needed for the self-contained compact-group proof.
+
+The new stdout-only receipt reuses the existing full periodic lattice and group metric. It checks the asymmetric source against 25 actual active-link plaquette evaluations, 48 unequal-well Hessians, six noncommuting full-force/localizer evaluations, 160 generic plaquette gradient bounds and 36 adaptive/union-certificate comparisons. The largest relative finite-difference discrepancies are approximately \(4.4\times10^{-8}\) for Hessians and \(1.4\times10^{-5}\) for the half-action localizer. Sampling checks normalizations and signs; the written inequalities establish their declared uniform scope.
+
+The next mathematical problem is the uncovered context geometry and the block innovation left by the certificate. A test can involve collective motions not captured by individual exterior force or a negative action Laplacian. The next proof must control those directions or supply an actual-law block comparison, with no volume or refinement loss. Large inverse coupling in a local inequality is not itself the four-dimensional continuum limit.
+
+Final verification passes the new receipt and five regressions: the previous joint-context, staple-elimination, conditional-Fisher, coarse-Fisher/bridge-lifting and dynamical-memory receipts. Eight scoped canonical notes plus this section pass structural checks; repository link lint and the whitespace diff check are clean. Synchronization registers 485 modules. Independent review confirmed the force orientation, sharp local coefficients, adaptive retained bound, common-union certificate, gauge invariance and form-domain extension. Raw sources and historical archives were not edited.
+
+## DR120. Compatible curvature and a force-zero collective escape
+
+**2026-09-05.** DR119 is classified as progress: it extended the actual-law context bound to asymmetric wells and supplied a common force--curvature cut. This continuation exhibits a critical two-well context that cut misses, proves that it has a finite compatible collective instability despite positive individual-link Hessians, and promotes that instability to a gauge-invariant joint localization inequality. The full Clay objective remains active and unsolved.
+
+### The correct signed operator includes compatibility
+
+[[hessian-response-geometry/compatible-image-and-signed-curvature|The reusable compatible-image theorem]] separates a signed form on an ambient output from the form accessible through a derivative \(D\). For
+\[
+q(v)=\|Dv\|^2-\alpha\|BDv\|^2,\qquad
+P=D(D^*D)^\dagger D^*,
+\]
+where \(B\) is an orthogonal projection, the exact finite relative edge is
+\[
+\inf_{Dv\ne0}\frac{q(v)}{\|Dv\|^2}
+=1-\alpha\|BPB\|.
+\]
+For the central \(SU(3)\) Wilson Hessian, \(\alpha=3/2\), \(D\) is the link-to-plaquette differential, and \(B\) selects nontrivial central plaquettes. The instability criterion is therefore \(\|BPB\|>2/3\). This is a compression on compatible curvature variations, not an independent-plaquette test or a mass spectrum. The curvature kernel quotient is explicitly limited to this relative stability question.
+
+### A critical context defeats the previous cut
+
+[[rg-covariance-residue/critical-context-and-collective-escape|The new application]] uses a periodic lattice of side at least eight:
+\[
+U_0(x)=z^{s(x_1)+s(x_2)+s(x_3)}I,\qquad
+U_i(x)=I\ (i=1,2,3),\qquad
+s=\mathbf1_{\{0,1\}}.
+\]
+All forces vanish. Every direction-zero link has individual Hessian at least \(3\beta g/2\), and every spatial link at least \(3\beta g\). Yet the active origin has source \(-3zI\), producing two equal conditional wells. Its previous retained force--curvature certificate is exactly \(-54\beta\), so the earlier sufficient cut does not cover it.
+
+A variation on 72 direction-zero links at \(x_0=1\), with a two-site strip in \(x_1\) and six-point Dirichlet sine profiles in \(x_2,x_3\), has unit norm and
+\[
+\operatorname{Hess}S[X,X]\le-\nu\beta,\qquad
+\nu=\tfrac12-8\sin^2(\pi/14)>0.
+\]
+The negative strip-boundary contribution beats the two positive transverse cutoff costs. Its support shares no plaquette with the active link. This is a compatible finite direction, not a guess based on one negative plaquette weight.
+
+### Coherent transport produces a genuine comparison form
+
+A fixed 71-edge retained spatial tree transports a common orthonormal root Lie basis to the 72 selected links. The tree is not differentiated. The resulting eight collective fields \(\mathscr X_A\) are smooth and Haar-divergence-free; their sum-of-squares operator and form are gauge invariant, with
+\[
+\sum_A|\mathscr X_Af|^2\le|\nabla_Jf|^2.
+\]
+The actual-law drift generator and \(W=e^{S_J}\) give
+\[
+-\mathcal LW/W=-\sum_A\mathscr X_A^2S.
+\]
+At the displayed context this is at least \(8\nu\beta\). A global bound follows from the fundamental Casimir, at most two selected links per plaquette and six plaquettes per link:
+\[
+\left|\sum_A\mathscr X_A^2S\right|\le96\beta.
+\]
+The retained cut where the negative collective action Laplacian is at least \(4\nu\beta\) consequently obeys
+\[
+\|\mathbf1_{B_{\mathrm{coll}}}Q_ef\|^2
+\le\frac{\mathcal E_J(f)}{\beta(96+4\nu)}
++\frac{96}{96+4\nu}\|Q_{\{e\}\cup J}f\|^2.
+\]
+The cut is independent of \(\beta\) and arbitrary active-link values. One prescribed patch orientation per active direction gives a fixed 72-fold overlap under summation. The remainder is a 73-link innovation with coefficient about \(0.99569\), not an absorbed error.
+
+The conceptual advance is specific: a locally stable part can sit in a collectively unstable relation. Coherent transport keeps the cross terms that reveal it. Replacing the whole variation by unrelated local frames can erase those terms; conversely, allowing arbitrary ambient plaquette variations can invent directions the whole does not admit.
+
+### Primary-source audit and evidence ledger
+
+The deep-research and modular-note skills governed the work; the PDF skill was read for source inspection only. The plan-updater remained unavailable. Workspace-first discovery covered critical contexts, center vortices, signed Hessians, compatible images and existing response-metric owners. Three bounded read-only lanes reviewed the primary stability claim, the signed-image theorem and the gauge-covariant collective construction. The main agent independently verified the formulas and created the artifacts.
+
+| Claim | Evidence obtained | Boundary |
+|---|---|---|
+| Central cosine-weight expansion | Greensite--Olejnik, *k-String Tensions and Center Vortices at Large N*, JHEP 09 (2002) 039, [primary manuscript](https://arxiv.org/pdf/hep-lat/0209088), Section 3, equations (3.7)--(3.10) | The displayed positive-cosine condition is sufficient; a negative coefficient alone does not construct a compatible link variation |
+| Changed-action stability | Same source, equations (3.26)--(3.30) | Its blocked adjoint-truncated action is not the original fundamental Wilson action |
+| Exact compatible-image criterion | Finite singular-value decomposition and compression proof, independently reviewed | Infinite-dimensional closed-range and physical-kernel identifications are not established |
+| Force-zero collective context bound | Explicit compatible links, normalized sine variation, frozen transport tree, global jet bound and positive-function identity | One further context class, not all-context closure |
+| Full physical gap | Not established | Collective block-response comparison, physical transfer and nontrivial continuum limit |
+
+The arXiv record verified authors, date and publication. Experimental HTML was unavailable; the relevant manuscript equations were read textually. A screenshot request returned a reference but no visually inspected page, so no visual PDF verification is claimed. The worker could not inspect the older Bachas--Dashen full text, which was not used as proof. The new library owner contains only abstract-level description and provenance, with no PDF payload. Source discovery stopped once the independent-plaquette ambiguity was isolated; the explicit compatible construction resolves the present case directly.
+
+The stdout-only receipt enumerates the complete \(8^4\) lattice, verifies positive single-link Hessian minima and the exact active source, and finds the normalized collective quotient approximately \(-0.297197\), below the analytic bound \(-0.103875\). It verifies transported gauge covariance, the global second-jet estimate and the actual nonlinear localizer, plus 24 finite compatible-image comparisons on rank-deficient maps. An initial total-action finite-difference check failed its numerical tolerance; summing plaquette differences directly and using a larger step reduced cancellation without changing the theorem. The final nonlinear comparisons use three couplings, with maximum relative discrepancy about \(2.92\times10^{-7}\).
+
+The next obligation is not another pointwise Hessian diagnostic alone. It is either a covering/control theorem for the remaining context geometries or a joint comparison that handles the now-explicit block innovations without a volume or continuum loss. Even a successful auxiliary form theorem still requires its independently normalized physical transfer realization.
+
+Final verification passes the new collective receipt and six regressions covering asymmetric and central context bounds, staple elimination, conditional Fisher geometry, retained lifting and dynamical memory. Nine scoped canonical notes and this section pass structural checks; repository link lint and the whitespace diff check are clean. Synchronization registers 486 modules. Independent final reviews confirmed the compatible-image infimum, kernel caveat, source and strip geometry, transport orientation, global bound, partial-form domains, arbitrary-active-link independence and prescribed 72-fold overlap. Raw/source archives were preserved.
+
+## DR121. Scalar simplicity, response rigidity, and the inversion fork
+
+**2026-09-05.** DR120 is progress, but its additional collective context does not close the full physical problem. The user's reminder redirected this continuation toward explanatory economy: revisit the wall interface, algebra and Ruble equations before accumulating further local estimates. The resulting contribution is an exact all-direction acceptance test, not a proposed solution of Clay. The full goal remains active and unsolved.
+
+### What a simple scalar law leaves free
+
+[[hessian-response-geometry/response-rigidity-and-multiplicity|The new canonical note]] constructs strictly positive reversible channels on one fixed eight-state probability carrier. The entire selected input/output relative-entropy profile and one-parameter Fisher profiles are independent of a parameter \(\varepsilon\). The distinguished direction has exactly equal retained and lost norms, and the **complete** residual-response trace is always five. Nevertheless, the minimum residual response over the full nonconstant carrier is exactly \(\varepsilon\to0\).
+
+This strengthens the earlier balanced-tangent counterexample without changing its ownership: the new result fixes not only a point value but the whole selected nonlinear profile and a total spectral moment. It does not disprove determination by a fully specified wall; it proves that these scalar data do not specify that wall's unprobed responses.
+
+Three elementary relations can restore the inference. Actual-response equivariance on an irreducible comparison carrier forces \(R=cI\). A separately bounded deviation from this averaged form gives \(R\ge(c-\eta)I\). A proved ceiling \(R\le CI\) and exact faithful saturation force \(R=CI\), with the finite near-saturation bound \(R\ge(C-\delta/m)I\) when the state density is at least \(mI\). Each relation controls all directions; the scalar matching value alone does not.
+
+The finite exceptional context frame has precisely the first structure. Internal symmetry on a field carrier, however, leaves operators on multiplicity spaces free. The eight-state example makes the averaging danger visible too: full permutation averaging replaces its response by \((5/7)Q\), while the actual operator's distance from that average is at least \(5/7-\varepsilon\). A symmetric state cannot silently supply an equivariant response.
+
+### Stable recovery has to name its arrow
+
+[[physical-distinction-coercivity#Stable inversion of which arrow?|The new operator fork]] separates transfer \(T_\ell=e^{-\ell K}\) from its defect \(D_\ell=(I-T_\ell^2)^{1/2}\). On the nonvacuum complement,
+\[
+\inf_{\psi\in\mathcal H_0,\ \|\psi\|=1}\|T_\ell\psi\|^2
+=e^{-2\ell\sup\sigma(K|_{\mathcal H_0})},\qquad
+\inf_{\psi\in\mathcal H_0,\ \|\psi\|=1}\|D_\ell\psi\|^2
+=1-e^{-2\ell\inf\sigma(K|_{\mathcal H_0})}.
+\]
+Thus bounded inversion of transfer means an upper spectral ceiling, whereas bounded inversion of the defect means a lower spectral gap. The diagonal examples \(K e_n=n e_n\) and \(K e_n=n^{-1}e_n\) separate the properties. The upstream gluing theorem concerns recovery from its actual response, not inversion of Euclidean attenuation. Defining the diagnostic defect from an already-known Hamiltonian is not an upstream construction.
+
+### Scope and primary evidence
+
+The deep-research and modular-note skills governed the work; the plan-updater remained unavailable after discovery. Workspace-first review covered the named modules, relative metrics, balanced-grain selection, operator signatures, irreducibility, multiplicity, closed range and prior collective escape results. Three bounded read-only workers independently audited scalar rigidity, the inversion fork and primary-source scope. The coordinator derived and checked the results and owns the edits.
+
+| Claim | Evidence | Limit |
+|---|---|---|
+| Pure Yang--Mills target, without a Higgs field | Jaffe--Witten, *Quantum Yang--Mills Theory* (2006), [official description](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), Section 4 | Requires nontrivial theory on \(\mathbb R^4\), every compact simple group, physical gap and axioms; an absolute MeV prediction and cosmology are not the target |
+| Scalar data do not fix the response edge | Full Walsh diagonalization and exact pushed-forward exponential family in the new note | Changes the unprescribed channel, not a fully fixed physical theory |
+| Irreducibility, quantitative comparison and saturation give sufficient rigidity | Self-adjoint eigenspaces, operator-norm inequality and faithful positivity proofs | All-carrier hypotheses and regulator-uniform constants remain obligations |
+| Inversion distinguishes upper and lower spectral edges | Functional calculus and the bounded-inverse criterion | Spectral diagnostic, not a constructed pre-observable carrier |
+| Nonflat configurations need not support the proposed downhill-escape mechanism | Ilgenfritz--Martemyanov--Müller-Preussker, [Dirac-sheet study](https://arxiv.org/pdf/1208.2916), Phys. Rev. D 86, 074515 (2012), Sections III, V, VI | Finite-temperature analytic stability and numerical cooling, not a full finite-Wilson Hessian classification or continuum theorem |
+
+The Dirac-sheet source reports holonomy-stabilized, noncentral magnetic configurations under finite-lattice Wilson cooling. The authors explicitly exclude their relevance in the thermodynamic limit as the action vanishes. This cautions against promoting the central-context constructions into a universal nonflat-implies-escape premise. It does not refute a quantum vacuum gap.
+
+Independently, at an actual stationary local minimum of an action \(S\), a divergence-free-field sum-of-squares localizer built from \(W=e^{tS}\), \(t>0\), has
+\[
+-LW/W=-t\sum_A X_A^2S\le0.
+\]
+Here \(L=\sum_A(X_A^2-(X_AS)X_A)\) is the actual-law symmetric auxiliary generator. Its action-exponential escape argument cannot have a strictly positive local value there. Other localizers, nonlocal comparisons and physical transfer estimates are not excluded. No new classification of Wilson minima has been obtained.
+
+The source's arXiv HTML was unavailable; relevant PDF text was inspected, without a visual-layout claim. The new library owner contains only an abstract-level description and provenance, not analysis or a downloaded payload. Searches stopped once the scalar-to-operator gap and source boundaries were explicit; a fresh universal-escape classification was not pursued in this turn. The main physical task now asks which derived relation couples the complete response directions, rather than which numeral fits one distinguished profile.
+
+Verification passes five complete eight-state channels, 30 entropy/Fisher-profile comparisons, all Walsh modes, exact full trace and lower edge, full point-permutation averaging, and finite rigidity/saturation checks. The maximum output-profile discrepancy is \(8.33\times10^{-17}\). Independent final review confirms the profile, rigidity, multiplicity and saturation proofs and independently reruns the receipt. The inversion review caught missing unit-vector restrictions in this report's displayed infima; those restrictions and the nonvacuum spectral restriction are now explicit. Seven canonical notes and this section pass structural checks. Workspace synchronization registers 487 modules; link lint and the whitespace diff check pass. Raw/source archives and unrelated workspace changes were preserved.
+
+## DR122. Commuting escape and an exact local-to-global projection threshold
+
+**2026-09-05.** This continuation makes two positive improvements: the actual Wilson collective-escape bound retains its original single-link remainder, and whole-link cube geometry gives a dimension-independent \(1/n\) sufficient threshold for conditional heat-bath coercivity. A separate neutral-sector test rules out direct absorption of the former enlarged remainder. These are exact finite-law results and conditional global estimates, not a continuum Yang--Mills construction. The Clay goal remains active and unsolved.
+
+### The simpler algebraic object
+
+Revisiting [[wall-construction-interface/inq|the wall interface]], [[algebra/inq|the algebraic pre-core]] and [[program-core/ruble-equations|the Ruble equations]] reinforces the useful dependency order: first construct the common carrier and the comparison maps; then compute their response; only afterward identify a physical generator and its calibration. Ruble RE2 is a response on a declared scale tangent. Its value cannot stand for an all-direction lower bound without the rigidity or completion of DR121.
+
+The current concrete return is simpler than another field inserted into spacetime:
+\[
+\mathcal D_\mu:
+L^2(\mu)\ominus\mathbb C\mathbf1
+\longrightarrow\bigoplus_e\operatorname{Ran}Q_e,
+\qquad
+f\longmapsto(Q_ef)_e,
+\qquad
+Q_e=I-\mathbb E_\mu[\cdot\mid U_{e^c}].
+\]
+It measures the part of a whole-law observable not recoverable after conditionally forgetting one coordinate. The desired bound is
+\[
+\|\mathcal D_\mu f\|^2\ge\eta\|f\|^2,\qquad \eta>0,
+\]
+uniformly in the relevant family. A trivial kernel is only qualitative separation; the inequality excludes normalized collective variations whose response becomes arbitrarily small. Calling the eventual physical result a "scale gap" must not turn it into a minimum increment of the logarithmic coordinate or a lattice of spacetime pixels.
+
+Here the carrier and state are still supplied by a finite Wilson model. The projection theorem abstracts their overlap algebra, but does not derive that Wilson law, its gauge group, or its physical clock from a pre-observable ontology. The [official Clay problem](https://www.claymath.org/millennium/yang-mills-the-maths-gap/) remains the target; criticism of a Higgs narrative cannot replace construction of the pure Yang--Mills theory.
+
+### Remove the unnecessary enlarged remainder
+
+The selected 72 escape links of DR120 share no plaquette with the active link. Their transport coefficients use a retained tree that excludes the active variable. Consequently the active conditional density is invariant under every selected derivative:
+\[
+X_Aq_e=0,\qquad [X_A,P_e]=0,\qquad
+\mathcal E_X(Q_ef)\le\mathcal E_X(f).
+\]
+Shared undifferentiated boundary variables do not change this conclusion. [[conditional-fisher-coercivity/lyapunov-localization-certificate#Commuting escape preserves the original innovation|The reusable commuting-escape lemma]] gives the score formula, domain extension and same-form requirement for the localizer.
+
+Applying the localizer directly to \(Q_ef\) replaces the old 73-link remainder by the original innovation. With \(\nu=\tfrac12-8\sin^2(\pi/14)>0\), [[rg-covariance-residue/critical-context-and-collective-escape|CE14]] now reads
+\[
+\|\mathbf1_{B_e}Q_ef\|^2
+\le
+\frac{\mathcal E_{J_e}(f)}{\beta(96+4\nu)}
++\frac{96}{96+4\nu}\|Q_ef\|^2.
+\]
+The coefficient is below one in the correct form. If a complete complementary-context bound with coefficient \(C_g\) is supplied, the selected-link overlap gives CE15:
+\[
+\mathcal H_{\rm hb}[f]\le
+\left[\frac{96+4\nu}{4\nu}C_g+\frac{18}{\nu\beta}\right]
+\mathcal E_{\rm full}(f).
+\]
+Neither the complementary bound nor full context coverage has been proved. The earlier neighboring-link escape changes the active conditional density and does not automatically enjoy this repair. DR120 retains the historically valid but weaker 73-link result; canonical statements now contain the improvement.
+
+### Geometry that controls collective directions
+
+[[conditional-fisher-coercivity/finite-patch-projection-coercivity|The new modular theorem]] works on any Hilbert space with bounded orthogonal projections. If weighted patches cover each projection with weight \(\rho\), every potentially noncommuting pair with weight \(\kappa>0\), and every commuting pair with weight at most \(\kappa\), then
+\[
+h_B^2\ge\gamma h_B\ \text{for all patches}
+\quad\Longrightarrow\quad
+H^2\ge\left[1+\frac{\rho}{\kappa}(\gamma-1)\right]H.
+\]
+The proof expands squares and uses positivity only for anticommutators of commuting projections. It neither discretizes the compact group nor assumes a finite-dimensional carrier.
+
+For actual Wilson conditionals, links sharing no plaquette have commuting projections. A cube of \(n\) vertices per axis containing whole links has
+\[
+\rho=(n-1)n^{d-1},\qquad
+\kappa=(n-1)^2n^{d-2}.
+\]
+All plaquette-sharing pairs have exactly this second overlap; every other distinct pair has at most this overlap. Therefore, for torus side lengths exceeding \(2n\),
+\[
+\boxed{
+\gamma_n>1/n
+\quad\Longrightarrow\quad
+H_{\rm hb}\ge\frac{n\gamma_n-1}{n-1}(I-P_0).}
+\]
+The hypothesis is an essential-uniform gap of the **actual exterior-conditioned patch law**, retaining all boundary plaquette factors. Sampled exteriors, an averaged gap, or a different free-boundary law do not establish it. Product Haar returns the sharp value one; an elementary bounded-density comparison supplies only a restrictive strong-coupling certificate.
+
+An enlarged remainder must still be compared in the correct direction. If each link lies in \(r\) parallel-link blocks, a neutral plaquette probe forces the block-to-single-link comparison constant to be at least \(r/2\). For the seven-link remainder this makes \((6/7)C\ge3\), excluding direct scalar absorption. This does not preclude other localized estimates. The repaired collective construction avoids that obstruction by not enlarging its remainder.
+
+### Evidence, review and stopping point
+
+The deep-research and modular-note skills governed this continuation; discovery again found no callable plan updater. Workspace searches preceded a bounded primary-source pass. Three read-only workers checked the actual-law closure, cube geometry and relevant finite-size literature; the coordinator wrote the proofs, receipts and modular edits. Final independent review confirmed the constants and identified two clarifications now incorporated: the commuting localizer must use the same Dirichlet form, and other interaction graphs require their own counts rather than a blanket exclusion of nearest-neighbor models.
+
+| Claim | Evidence | Scope |
+|---|---|---|
+| Cyclic projection-counting precedent | [[library/spectral-gaps-and-incompressibility-in-a-fractional-quantum-hall-system/inq|Nachtergaele--Warzel--Young]], Section 3.5, Theorem 3.10, [primary full text](https://link.springer.com/article/10.1007/s00220-021-03997-0) | The arbitrary-Hilbert weighted version and Wilson cube specialization are proved in the new note |
+| Same-innovation Wilson improvement | Exact plaquette incidence, conditional score identity and same-form localizer | Covers the declared collective cut, not every bad context |
+| Neutral remainder obstruction | Nested conditional projections and the four-link plaquette probe | Excludes this scalar absorption route, not a physical gap |
+| Finite-patch criterion | Bounded projection algebra and endpoint-contained cube counts | Requires the actual exterior-uniform patch gap above the threshold |
+
+The primary publisher HTML was read directly, including theorem and metadata; the library owner contains abstract-level content and provenance only. Anshu--Arad--Vidick and Lemm were checked by the source worker but are not imported as additional proof premises. No payload was downloaded and no new PDF was authored. Search stopped after the same-law criterion and its unproved input were identified.
+
+The finite receipts pass nine exact cube-counting cases in dimensions two, three and four, plus six complete finite conditional-projection matrix tests. The smallest tested positive-order defect eigenvalue is \(-1.49\times10^{-14}\), consistent with floating-point roundoff. The updated Wilson receipt passes 24 conditional-derivative quadrature tests, with maximum discrepancy \(2.73\times10^{-13}\), alongside the previous critical-configuration, curvature, gauge-covariance and compatible-image checks. The quadrature is an algebraic consistency test, not a certified approximation to a continuum conditional integral. The exact incidence proof supplies that commutation result.
+
+The joint-context, asymmetric-force and response-rigidity regression receipts also pass. Seven canonical notes and this section pass title/lead, display-math, fence and whitespace checks. Synchronization registers 488 modules, wiki-link lint is clean, and the whitespace diff check passes. Immutable archives and unrelated working-tree edits were preserved.
+
+The next finite construction is a proved exterior-uniform patch gap exceeding \(1/n\), or a sharper comparison that replaces that input without presupposing the desired whole-law bound. Even after that succeeds, physical transfer comparison, regulator control, the nontrivial continuum theory and its mass gap remain separate obligations. This turn removes an actual remainder loss and supplies a precise acceptance threshold; it does not yet meet the full stopping condition.
+
+## DR123. Remove redundant slow modes before testing the patch gap
+
+**2026-09-05.** DR122 made progress, but its full-carrier conditional patch hypothesis is stronger than the intended invariant-sector target. This continuation proves that the fixed-size full-carrier threshold eventually fails at weak coupling, identifies the gauge-dependent witness responsible, and replaces that hypothesis by a valid interior-Gauss-restricted criterion. The change is to the mathematical carrier of the estimate, not to the requested Clay objective. The full existence and mass-gap goal remains active and unsolved.
+
+### The actual Wilson obstruction
+
+[[conditional-fisher-coercivity/gauge-reduced-patch-coercivity|The new canonical note]] treats the finite Wilson law on a whole-link cube with a strictly interior vertex. For an incident edge \(e\), interior gauge invariance keeps \(U_e\) Haar-distributed under every frozen exterior. Yet a complementary plaquette path is a predictor of \(U_e\) from the other links. Using the matrix entries as a finite family of scalar Rayleigh tests gives
+\[
+\gamma_B^{\rm full}(\beta;\eta)
+\le2\,\mathbb E_{\beta,\eta}(1-\phi_p).
+\]
+At identity exterior the nonnegative dimensionless action \(V_B\) has minimum zero, so low-temperature concentration makes the right side vanish. This is a statement about an actual nonlinear compact-group law, not a quadratic approximation.
+
+Entropy supplies an elementary quantitative bound. A small exponential-coordinate ball gives \(Z_{\beta,\mathbf1}\ge c_B\beta^{-D/2}\), with \(D=(q^2-1)|B|\). Positivity of relative entropy against normalized product Haar implies
+\[
+\beta\mathbb E_{\beta,\mathbf1}V_B\le-\log Z_{\beta,\mathbf1}.
+\]
+Thus the relevant expectation is \(O_B(\log\beta/\beta)\). No sharp \(1/\beta\) rate or classification of the entire flat set is needed.
+
+Identity exterior is a null event, but continuous finite expectations and full support of the exterior law transfer the upper bound to the essential-infimum conditional gap. Positive-measure neighborhoods may shrink with \(\beta\); their rarity does not remove them from an essential-uniform criterion. Therefore DR122's fixed-\(n\ge3\) full-carrier threshold eventually fails. This result does not address growing patches or \(n=2\), and it is not a claim of physical gaplessness.
+
+### The positive replacement
+
+The witness is killed by averaging a single interior gauge vertex. Let \(A_v\) be the actual-law vertex gauge-average projections and \(A=\prod_vA_v\). They commute with one another and with the gauge-equivariant heat-bath operator. Hence
+\[
+\sum_v(I-A_v)\ge I-A,\qquad
+\widehat H_a=H_{\rm hb}+a\sum_v(I-A_v)
+\]
+agrees exactly with \(H_{\rm hb}\) on invariant observables and has floor at least \(a\) on their orthogonal complement. For any proposed \(\gamma\le a\), a full-carrier lower bound \(\gamma\) for \(\widehat H_a\) is equivalent to that bound for the original invariant-sector operator. The arbitrary rate \(a\) cannot create a gap in that sector.
+
+For a frozen patch, this completion uses only vertices whose entire incident star lies in the patch. It is equivalent to testing the original conditional operator on functions invariant under those interior transformations. Such a patch bound, essential-uniform in the exterior, implies the squared patch inequality on the globally invariant carrier. The same overlap proof then yields
+\[
+\gamma_n^{\rm int}>1/n
+\quad\Longrightarrow\quad
+H_{\rm hb}|_{\rm inv}\ge
+\frac{n\gamma_n^{\rm int}-1}{n-1}(I-P_0)|_{\rm inv}.
+\]
+This corrects the next construction obligation without fitting a spectrum or deleting a physical low mode.
+
+[[gauge-boundary-frame-gluing/inq|The existing boundary-gluing theorem]] is load bearing here: boundary transformations generally move the exterior, and separately closing each regional boundary can erase globally invariant loops. Interior invariance is a sufficient regional test, not in general an exact description of every fiber of global observables. The exterior stabilizer can impose a further constraint, as the two-edge patch of an \(SU(2)\) triangle demonstrates. The note does not rely on a generic-stabilizer equivalence or discard boundary charge sectors.
+
+### A complete finite spectral witness
+
+For a four-link \(\mathbb Z_2\) plaquette, \(\mu_\beta\propto e^{\beta\prod_i x_i}\), the complete Walsh calculation gives
+\[
+\operatorname{gap}(H_{\rm hb})
+=2-\sqrt{1+3\tanh^2\beta}\longrightarrow0,\qquad
+\operatorname{gap}(H_{\rm hb}|_{\rm inv})=4.
+\]
+Gauge refresh at rate two makes the full augmented gap four while leaving the invariant operator exactly unchanged. This finite witness separates the two gaps without importing a continuum approximation or identifying an auxiliary rate with energy. It is not an \(SU(3)\) discretization.
+
+### Evidence and scope
+
+The deep-research and modular-note skills were reread and used. The plan updater remained unavailable after discovery. Workspace-first searches covered gauge-orbit slowing, invariant conditional samplers, the Gaussian gauge completions, boundary Gauss gluing and the existing gauge-averaging kernel obstruction. Three bounded read-only workers independently examined the nonlinear Wilson witness, quotient-patch carrier and primary-source scope; the coordinator derived the stronger matrix-probe constant and entropy estimate and owns all edits.
+
+| Claim | Evidence | Remaining boundary |
+|---|---|---|
+| Fixed-patch full gap vanishes at weak coupling | Haar marginal, complementary-path least-squares predictor, compact concentration and entropy inequality | Gauge-dependent witness; no invariant-sector conclusion |
+| Quotient-preserving auxiliary completion | Commuting vertex projections and reducing-subspace decomposition | Refresh rate is free and creates no invariant stiffness |
+| Interior-invariant patch bound suffices | Actual-law disintegration and the bounded projection theorem restricted to the global invariant carrier | Essential-uniform reduced patch bound remains unproved |
+| Pointed finite-graph quotient retains a root action | Pflaum--Rudolph--Schmidt, *Deformation quantization and homological reduction of a lattice gauge model*, version September 18, 2020, [primary HTML, Section 2, equations (2.4)--(2.5)](https://arxiv.org/html/1912.12819v2) | Maximal-tree kinematics is not a spectral or locality theorem |
+
+The existing [[library/deformation-quantization-and-homological-reduction-of-a-lattice-gauge-model/inq|library owner]] was reused. The coordinator read the relevant primary HTML directly. The source worker additionally distinguished fixed-configuration Landau gauge-fixing rates from Wilson ensemble mixing; that separate algorithmic literature was not imported as evidence for the new gap theorem. Searches stopped after the carrier distinction and actual conditional proof were settled. No new source payloads, library duplicates or PDFs were created.
+
+The finite receipt checks all sixteen states of the plaquette, its complementary-character spectrum, four couplings and eight gauge-completion cases. The maximum raw-gap formula discrepancy is \(1.09\times10^{-15}\). It also checks 128 \(SU(3)\) complementary-path identities, with maximum discrepancy \(3.56\times10^{-15}\), and nine cube interior-star counts. These tests supplement the exact proofs; they do not certify a nonabelian reduced patch gap.
+
+Both independent final mathematical reviews pass, and one reviewer independently reran the new receipt. The projection, collective-escape and boundary-charge-gluing regression receipts also pass. Five canonical notes and this section pass structural checks; the delimiter check was corrected to distinguish valid TeX row spacing from display-math delimiters. Synchronization retains 488 modules, wiki-link lint is clean and the whitespace diff check passes. Existing source owners, historical sections and unrelated workspace edits were preserved.
+
+The next substantive task is to control the complete interior-invariant patch response with its boundary sectors retained, or derive a different global comparison if that reduced threshold is also obstructed. Physical transfer comparison, regulator-uniform control, the nontrivial continuum theory and the mass gap are still missing. This turn removes a proved false stronger premise rather than treating further failure of that premise as an unexplained mystery.
+
+## DR124. A retained boundary response defeats the fixed patch threshold
+
+**2026-09-05.** Interior gauge reduction was a necessary carrier correction, not a proof that the reduced response is fast. This continuation constructs a surviving path mode and proves its actual nonlinear weak-coupling Rayleigh limit. A neutral loop completion makes the obstruction valid even on globally gauge-invariant functions. The result excludes a specific fixed-patch certificate; it does not exclude a physical mass gap. The Clay goal remains active and unsolved.
+
+### What the quadratic operator acts on
+
+[[conditional-fisher-coercivity/gaussian-refresh-projection-spectrum|The reusable Gaussian theorem]] starts with conditional projections on Gaussian random variables. For retained orthogonal projections \(p_e\), positive rates \(r_e\), and \(F=\sum_e r_e(I-p_e)>0\), the complete Hermite decomposition gives
+\[
+\operatorname{gap}\left(\sum_e r_e(I-E_e)\right)
+=\lambda_{\min}(F).
+\tag{DR124a}
+\]
+The proof covers arbitrary block subspaces, not only scalar directions. A gauge-link refresh resamples all colors jointly; separate scalar color updates are a different process on higher chaos. Independent review identified that typing requirement, which is now explicit in the canonical theorem and tested in the receipt.
+
+For the Wilson vertex cube of side \(n\), with all links whose endpoints are inside, freeze the exterior to identity and include every touching plaquette. The actual quadratic form is
+\[
+K=C_{\rm in}^*C_{\rm in}+W,\qquad
+W_{(x,\mu)}=\#\{\nu\ne\mu:x_\nu\in\{0,n-1\}\},
+\qquad K_{ee}=2(d-1).
+\tag{DR124b}
+\]
+Its kernel consists exactly of gradients vanishing at the boundary. Quotienting that kernel is legitimate interior gauge reduction, not the deletion of boundary response.
+
+### A fixed observable carries the obstruction into the nonlinear law
+
+[[conditional-fisher-coercivity/weak-coupling-patch-threshold|The canonical fixed-patch theorem]] uses a field constant along one axis, with a product of transverse sine weights. It is orthogonal to the gauge kernel, and its linear Gaussian Rayleigh quotient obeys
+\[
+r(v)=\frac{\|v\|^2}{2(d-1)v^*K^+v}
+\le b_n:=1-\cos\frac{\pi}{n+1}<\frac1n
+\quad(n\ge3).
+\tag{DR124c}
+\]
+This is an exact Cauchy--Schwarz upper bound; the trial is not asserted to be an eigenvector.
+
+A smooth compact-group path observable has precisely this derivative. At identity exterior the full flat set is one free interior gauge orbit. A boundary-rooted forest gives a compact smooth quotient with one nondegenerate minimum. Finite-dimensional Laplace controls its variance and all required scaled moments. A separate, uniform one-link conditional minimum argument controls the refresh numerator; whole-law concentration alone would not do so.
+
+Consequently, at every fixed \(n\ge3\),
+\[
+\limsup_{\beta\to\infty}\Gamma_n^{\rm int}(\beta)
+\le r(v)\le b_n<1/n.
+\tag{DR124d}
+\]
+Finite-coupling continuity and full support transfer the identity-exterior Rayleigh test to the essential-infimum criterion. This is an actual nonlinear conditional-law result, not a numerical extrapolation or a convergence theorem for entire spectra. At \(n=2\), the complete Gaussian gap is exactly \(1/2\); that equality does not decide the sign of a finite-coupling margin.
+
+### The neutral extension closes the carrier loophole
+
+Complete every path through exterior links into a loop based at a common root, and take the squared norm of the traceless anti-Hermitian part of their weighted sum. The result is globally gauge invariant. Its leading jet is \(\sum_{A=1}^{q^2-1}(v^*X^A)^2\).
+
+For each refreshed edge an edge-avoiding gauge forest makes the actual refresh a coordinate conditional in the quotient. A scaled stationary replica pair retains the conditional Gaussian mean shift as well as its covariance. Stationarity and higher marginal moment bounds justify the fourth-order variance limits. Writing \(d_0=2(d-1)\) and \(s=v^*K^+v\) gives
+\[
+R_{\rm neutral}
+=2r(v)-\frac{\sum_e v_e^4}{d_0^2s^2}
+\le2b_n<1/n
+\quad(n\ge8).
+\tag{DR124e}
+\]
+The color multiplicity cancels.
+
+At finite coupling, conditional variance \(D(\eta)\) and refresh numerator \(N(\eta)\) are continuous exterior-gauge-invariant functions. If \(N(\mathbf1)<c_*D(\mathbf1)\) for \(c_*<1/n\), the exterior cutoff \((c_*D-N)_+\), multiplied by the centered loop observable, is a nonzero globally invariant test violating \(h_B\ge(1/n)(I-P_B)\). Thus the stronger global carrier does not rescue the certificate for fixed \(n\ge8\). The full-lattice operator also updates the exterior, so no small whole-lattice energy follows.
+
+### The simpler conceptual return
+
+The user's reminder prompted renewed reading of [[wall-construction-interface/inq|the wall interface]], [[algebra/inq|the algebraic pre-core]] and [[program-core/ruble-equations|Ruble's equations]]. Their useful shared order is carrier, state, comparison, response, then physical realization and calibration. RE3 also explicitly distinguishes scalar matching on one scale tangent from coercivity on the complete response carrier.
+
+Here the path mode already factors through a boundary-to-boundary readout. Calling it gauge would erase retained information. [[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|The existing endpoint-average construction]] supplies the linear template: a hard zero-readout fiber may be coercive while the retained Maxwell response remains soft. [[rg-covariance-residue/soft-gaussian-gauge-blocking|Soft blocking]] preserves both pieces in one law.
+
+The resulting instruction is simple: control the discarded fibers **and** the response induced on retained data, with their coupling carried through the comparison. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|The shared construction note]] now links this actual Wilson obstruction to that requirement. This is a principled retyping of an unsuccessful certificate, not proof that all QFT is ill-typed. The Higgs mechanism is a separate question: [[contemporary-puzzles/yang-mills-mass-gap/puzzle-as-posed|the target theory]] is pure Yang--Mills and requires no Higgs field. Likewise a spectral exclusion is not a lattice of spatial pixels.
+
+### Sources, review and verification
+
+The deep-research and modular-note skills were reread and used. The planning tool remained unavailable after discovery. Three bounded read-only workers independently checked cube geometry, Gaussian source scope, and the nonlinear quotient and neutral extension; all edits and integration were performed by the coordinator. The PDF skill was used to inspect primary manuscript text when its HTML was unavailable; no PDF was authored and no visual-layout verification is claimed.
+
+| Claim or method | Evidence | Boundary |
+|---|---|---|
+| Gaussian random-scan gap and first-chaos optimizer | [[library/adapting-the-gibbs-sampler/inq|Chimisov--Latuszynski--Roberts]], arXiv:1801.09299v1, Section 2, Theorems 2--3 | The canonical note proves its more general projection statement directly; normalized scan probabilities differ from per-link rates |
+| Actual Wilson path and neutral Rayleigh limits | Complete fixed-dimensional quotient and conditional-replica proofs in the canonical note; independent mathematical review | No full spectral convergence, volume-uniform Laplace constants, or continuum theorem |
+| Pure Yang--Mills differs from Higgs augmentation | Jaffe--Witten, [official problem description, Sections 1--2](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf) | Does not adjudicate an alternative theory of the Higgs sector |
+
+The Gaussian manuscript was available in full; a proposed Hwang Laplace-method reference was accessible only as metadata and was not used to certify a theorem or given a new library owner. The compact quotient proof supplies the needed argument directly.
+
+The new stdout-only receipt passes nine complete cube matrix cases in dimensions two through four, four Hermite/block-refresh comparisons, and eight compact \(SU(3)\) action, gauge, path and neutral-jet cases. It also checks the analytic threshold inequalities across 31 cube sizes. These are finite identity checks, not a simulation of the nonlinear asymptotic theorem.
+
+Three regressions pass: gauge-reduced patch spectra and completion, finite-patch conditional projection counting, and boundary charge gluing. Eight scoped canonical notes and this DR124 section pass opening, math-delimiter, fence, unique-tag and encoding checks. Synchronization registers 489 modules. Link lint and the whitespace diff check pass; lint first caught an ambiguous relative link in this report, now replaced by its full module path. Existing unrelated edits and historical research sections were preserved.
+
+### Remaining construction
+
+The fixed \(1/n\) strategy cannot be repaired merely by taking a larger fixed cube or adding gauge refresh. A useful next step must derive a sharper finite-size threshold, retain and control coarse boundary response, or pay for unfavorable contexts through the actual joint geometry. Growing patch size is a different limit: the present nonlinear constants are not uniform in \(n\). Even a successful replacement still owes physical transfer comparison, a nontrivial continuum Yang--Mills construction and its uniform mass bound.
+
+## DR125. A sharper patch criterion and an exactly composing interface
+
+**2026-09-05.** The fixed-cube obstruction of DR124 leads to two constructive replacements. The actual Wilson refresh can be put on tensor-local supports and tested against an inverse-square threshold. Separately, Gaussian harmonic sections compose exactly and remain uniformly bounded over a composite blocking step, allowing a single fine/coarse gradient comparison. Neither result proves the missing interacting infrared estimate or the physical continuum theorem. The Clay goal remains active and unsolved.
+
+### Local support on the correct Hilbert carrier
+
+[[conditional-fisher-coercivity/tensor-local-refresh-and-inverse-square-patches|The canonical Wilson construction]] conjugates conditional refresh by \(Jf=\sqrt\rho f\), from Gibbs \(L^2\) to product-Haar \(L^2\). Remote action terms cancel exactly in its kernel, leaving a rank-one conditional projection on the refreshed variable controlled only by its plaquette star. The Gibbs-process zero line is not identified with the physical vacuum.
+
+Grouping outgoing links into side-two supercells puts each original projector in one uniquely assigned padded elementary cube. Keeping the individual labels avoids double counting when a term's minimal support is smaller. The resulting actual patch family differs from DR124's whole-link cubes. The noncommutation degree is at most \(6(d-1)\); an even-torus coloring gives \(2d\) commuting layers.
+
+Applying the bounded-projection proof of [[library/improved-local-spectral-gap-thresholds/inq|Anshu's inverse-square criterion]] gives (TP7), with explicit size conditions and constants. The proof uses spectral infima on the compact-group Hilbert space and restricts to the global invariant reducing subspace, keeping each regional full kernel. A direct two-projection norm estimate replaces the finite-dimensional Jordan decomposition in the converse bound.
+
+This is a rigorously typed sufficient criterion, not a verified weak-coupling margin. An inverse-square trial and an inverse-square threshold need not have favorable coefficients. Nor does a new patch label make the previous obstruction disappear.
+
+### The retained/fiber interface is now an operator construction
+
+[[rg-covariance-residue/gaussian-harmonic-refresh-lifting|The harmonic-lift theorem]] uses the actual Gaussian law and an onto readout:
+\[
+C_c=QC_fQ^*,\qquad M=C_fQ^*C_c^{-1},\qquad
+X=\zeta+MZ,\quad Z=QX.
+\tag{DR125a}
+\]
+The discarded \(\zeta\in\ker Q\) and retained \(Z\) are independent; their energy cross term vanishes. Reversible marginal dynamics lift through this bijection to commuting dynamics of the fine law, with gap the minimum of the two component gaps.
+
+Harmonic sections telescope through the exact covariance tower. [[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|The endpoint-average theorem]], (EA15)--(EA18), now proves a composite section norm at most \(r_d=(\pi/2)^{d+1}\) and a hard-fiber precision floor \(4/[(1+r_d^2)b^2]\). Principal-alias minimality, not a product of per-level bounds, gives the uniform norm.
+
+For the natural physical-metric Gaussian gradient forms this yields
+\[
+\boxed{
+\lambda_f\ge\frac1{1+r_d^2}
+\min\left\{\frac4{(1+r_d^2)b^2},\,\lambda_c\right\}.}
+\tag{DR125b}
+\]
+The comparison is made once at any composite regular scale. It concerns the original fine gradient form rather than merely assigning a fast rate to a new auxiliary process.
+
+Two-sided precision bounds show that the actual retained hard and soft laws stay of Maxwell order. Their least modes still scale with inverse squared physical box diameter. This positive construction therefore also identifies exactly what it does not solve: long-wavelength retained response.
+
+### The simple structure and the nonlinear target
+
+The order emphasized by [[wall-construction-interface/inq|the wall interface]], [[algebra/inq|the algebraic pre-core]], and [[program-core/ruble-equations|Ruble's equations]] is operational here: declare the carrier, actual state, readout and transport before interpreting its response. The Gaussian interface realizes a narrow part of that programme, not the full state--gravity weld or factual record construction.
+
+The nonlinear replacement for harmonic translation must carry the conditional measure over one retained configuration into that over another, while controlling distortion in the actual derivative or refresh form. A measurable choice of fiber coordinates is insufficient. A useful next theorem must combine such transport with a genuine retained-response estimate, or prove the new actual Wilson patch margin. Any successful auxiliary estimate still requires physical transfer comparison and nontrivial continuum reconstruction.
+
+### Evidence and verification
+
+The deep-research and modular-note skills governed source review, canonical ownership and claim typing. The planning tool remained unavailable on discovery. Three bounded read-only workers checked source applicability, Wilson support and carrier restrictions, and the Gaussian lift. The coordinator independently checked consequential arguments, wrote all artifacts and ran verification. One review clarification changed “dimension-independent” to explicitly mean independent of finite local Hilbert dimension; constants still depend on lattice dimension.
+
+| Claim | Evidence and provenance | Remaining boundary |
+|---|---|---|
+| Inverse-square finite-size threshold | Anurag Anshu, arXiv:1909.01516v1, September 4, 2019; [machine-readable primary manuscript](https://arxiv.org/html/1909.01516v1), main result and Appendices A--E inspected September 5, 2026 | Wilson support assignment and infinite-Hilbert/invariant adaptation are proved separately in the canonical note; no local gap margin is imported |
+| Harmonic transport, composition and gradient comparison | Direct finite Gaussian proof (HL1)--(HL12), extending the workspace endpoint-average geometry; independent mathematical review | No nonlinear fiber transport, spatial-range theorem for the section, or physical-time identification |
+
+Source discovery stopped after finding and checking the explicit criterion that addresses the prior threshold obstruction. A more recent general-graph multiscale result was considered but not adopted or given a library owner; it was unnecessary for the stated construction. No PDF or external dataset was created.
+
+Both new stdout-only receipts pass. The Wilson receipt checks four finite \(Z_2\) Gibbs laws, exact conjugation, full gauge reduction, star support and commuting layers in dimensions two through four, unique anchor counts, threshold arithmetic, and 60 two-projection inequalities. The \(Z_2\) laws test algebra, not an approximation to \(SU(3)\). The Gaussian receipt checks an arbitrary positive precision, four physical-metric Maxwell quotient cases, composite harmonic transport, accumulated soft noise, and 240 Fourier samples. No finite test is described as a proof of continuum or weak-coupling uniformity.
+
+Three regression suites also pass: weak-coupling patch geometry and jets, finite-patch conditional projection algebra, and the endpoint-average/soft-Gaussian comparisons. Ten scoped canonical notes and this section pass structural checks for openings, math delimiters, fences, tags and text hygiene. Synchronization registers 490 modules; link lint and the whitespace diff check pass. No visual rendering was performed for these Markdown artifacts. Historical research and unrelated working-tree changes were preserved.
+
+## DR126. Curved conditional transport and the norm it must control
+
+**2026-09-05.** DR125 was progress: it constructed and verified a uniformly composing Gaussian interface and a sharper nonlinear patch criterion. This continuation replaces Gaussian translation by a smooth measure-preserving connection on the actual nonlinear conditional laws. Flatness is unnecessary for exact conditional reduction. A concrete Wilson application supplies pointwise transport control in a sufficient strong-coupling regime. A circle counterexample shows why minimum average transport cost is not the right norm for the full-form comparison. The Clay goal remains active and unsolved.
+
+### A nonlinear operator, not only a covariance decomposition
+
+[[conditional-fisher-coercivity/measure-preserving-horizontal-lifts|The canonical horizontal-lift theorem]] starts from the actual smooth positive conditional density \(b_z\) on a compact connected hidden manifold. The weighted Poisson equation
+\[
+A_z\phi_h=d_Z\log b_z[h],\qquad
+A_z=-b_z^{-1}\operatorname{div}_Y(b_z\nabla_Y),\qquad
+v_h=\nabla_Y\phi_h
+\tag{DR126a}
+\]
+gives \(d_Zb[h]+\operatorname{div}_Y(b_zv_h)=0\). Its transport derivative \(D_h=d_Z[h]+d_Y[v_h]\) satisfies the exact relation
+\[
+\boxed{d_ZP=P D.}
+\tag{DR126b}
+\]
+The horizontal diffusion therefore has the actual retained gradient generator as its restriction to the conditional-mean subspace. That subspace reduces the full operator. Adding complete-fiber refresh gives a gap at least the minimum of its chosen rate and the retained gap; adding actual vertical gradient energy instead requires a conditional Poincare estimate.
+
+The construction is not a frame change of the original product derivative. Its half-density form has a transport vector field and half its divergence. A separate sharp shear inequality compares it to the inherited form, with coefficient \(C(B)=(2+B^2+B\sqrt{B^2+4})/2\) when the entire transport tangent map has pointwise norm at most \(B\).
+
+### Curvature and state preservation coexist exactly
+
+The connection curvature is conditionally divergence free, not necessarily zero. An explicit circle family \(b_{a,b}(y)=1+a\cos y+b\sin y\) has curvature \(\partial_y\) at the origin. Holonomy can move hidden observables while preserving the returned conditional law. Thus a path-independent product trivialization is stronger than the conditional reducing property actually used in the proof.
+
+This is a precise piece of global--local geometry: consistency of retained laws does not force the hidden transport to be trivial. It does not identify that curvature with spacetime curvature or prove that holonomy creates a physical gap.
+
+### Least average cost can choose a poorly conditioned connection
+
+[[conditional-fisher-coercivity/transport-cost-and-uniform-distortion|The transport-cost note]] separates three norms. The minimum-gradient cost is \(\langle s,A^{-1}s\rangle\), Fisher information is \(\langle s,s\rangle\), and all-observable form comparison needs an adequate multiplication-form bound on the velocity.
+
+For a rotating von Mises circle density,
+\[
+b_z(y)=e^{K\cos(y-z)}/I_0(K),\qquad
+v_{\min}=1-e^{-K\cos(y-z)}/I_0(K),
+\tag{DR126c}
+\]
+the minimum cost is \(1-I_0(K)^{-2}\le1\), but its maximum velocity grows as \(\sqrt{2\pi K}\). Rigid rotation \(v=1\) transports the same family with a uniform shear coefficient. The difference is a conditionally divergence-free circulation. Removing that circulation minimizes average cost while worsening the worst-region distortion.
+
+A second exact compact example uses rescaled bumps in dimension greater than two. It keeps the Fisher-to-fiber-gap ratio bounded while the minimum velocity's pointwise norm diverges. Its original joint density remains bounded above and below uniformly, so the original gap does not close. These are failures of a chosen comparison strategy, not physical gaplessness. Localized oscillatory tests justify the full-form obstruction even where the probability is small.
+
+### An actual nonlinear Wilson realization
+
+[[rg-covariance-residue/nonlinear-gauge-fiber-transport|The gauge application]] uses the globally normalized compact readout with its full hidden action, including the fine-dependent log normalizer. Smooth gauge-equivariant Poisson transport exists at every fixed finite regulator. The soft carrier preserves the original fine metric and marginal; hard Haar charts have additional pullback-mobility obligations.
+
+Under the existing full conditional curvature bound \(\rho=r^2/2-\|D\|>0\), Bochner heat-gradient contraction and the pointwise path-incidence score estimate prove
+\[
+\|v\|_\infty\le B=\kappa\|\mathsf P\|/\rho.
+\tag{DR126d}
+\]
+The bound is joint in all coarse tangent components. Uniformity requires control of the complete numerator \(\kappa\|\mathsf P\|\), not incidence alone.
+
+The actual coarse Hessian, including the negative score covariance, gives the sufficient retained constant
+\(\lambda_{\rm ret}=r^2/2-\kappa-\kappa^2\|\mathsf P\|^2/\rho\).
+When positive, the connection form has gap at least \(\min(\rho,\lambda_{\rm ret})\). On fine observables its comparison denominator improves from the full shear coefficient to \(1+B^2\), because they have no explicit coarse derivative. This returns a bound to the unchanged fine law.
+
+This does not improve the known direct strong-coupling Wilson estimate; its hypotheses already lie in a regime where that estimate applies. The advance is a constructed nonlinear interface and its correct metric comparison. Finite existence alone, or its extensively deteriorating bounded-density estimate, does not reach weak coupling, growing volume or diverging RG depth.
+
+### Evidence and review
+
+The deep-research and modular-note skills governed workspace-first discovery, source verification, canonical ownership and explicit claim boundaries. The planning tool remained unavailable. Three bounded read-only workers separately reviewed primary transport formalism, the curved-connection proof and counterexamples, and the actual Wilson carrier and constants. The coordinator verified the arguments and authored all changes. Final review caught and corrected the need to bound \(\kappa\|\mathsf P\|\), rather than only \(\|\mathsf P\|\), in the uniformity claim.
+
+| Claim | Evidence and provenance | Scope |
+|---|---|---|
+| Weighted-divergence tangent and smooth curve transport | John Lott, *Some geometric calculations on Wasserstein space*, arXiv:math/0612562v2, April 9, 2007; [primary HTML](https://arxiv.org/html/math/0612562v2), Sections 2--3 and Proposition 3.3 proof inspected September 5, 2026 | Establishes the transport formalism; the new conditional reduction and distortion results are proved separately |
+| Conditional reduction, circle curvature and distortion, compact bump obstruction | Direct proofs in the two canonical conditional-coercivity notes and independent mathematical review | Smooth declared carriers and forms; no identification with physical clock time |
+| Nonlinear Wilson transport estimate | Actual normalized action (NG3), full curvature estimate (NG9), pointwise joint score bound and a direct Bochner argument | One-step sufficient strong coupling; not a new continuum or stronger strong-coupling gap theorem |
+
+Source discovery stopped after the original accessible transport formalism was located and checked. No further general transport survey was needed for these directly proved claims. One primary-source library owner was added; no PDF was authored or source/chat material modified.
+
+The new receipt passes four smooth conditional families, their expectation and reducing-form identities, a nonzero-curvature test, six rotating-circle concentrations, a rare-region derivative test, and 16 sharp shear matrix checks. It does not numerically verify the higher-dimensional bump proof or a Wilson continuum statement. Three regression suites pass: nonlinear normalized compact Hessians, inherited moving-fiber cancellation and joint context identities, and Gaussian harmonic lifting.
+
+Ten scoped canonical notes and this DR126 section pass opening, delimiter, fence, tag and text-hygiene checks. Synchronization registers 491 modules; link lint and the whitespace diff check pass. The deliverables are linked Markdown notes; no visual rendering was performed. Historical material and unrelated working-tree changes were preserved.
+
+### The next non-Abelian estimate
+
+The new target is a uniformly controlled law-preserving transport for the actual weak-coupling or renormalized conditional laws, together with the retained response and source-localization estimates. The minimum-gradient choice is a candidate, not an axiom: conditionally divergence-free corrections can improve its distortion. A usable construction must preserve gauge covariance and be bounded by the inherited form, rather than assigning a new favorable rate. Physical reconstruction and the nontrivial continuum Yang--Mills law remain indispensable.
+
+## DR127. The cut quotient and the distinction that transport cannot hide
+
+**2026-09-05.** DR126 was progress: it constructed curved nonlinear conditional transport and separated its uniform distortion from minimum average cost. This continuation solves the bounded-transport optimization at the level of an exact dual criterion, gives smooth realization with a strict margin, and tests that criterion against an actual \(SU(3)\) exterior variation. The test rules out every uniformly bounded transport on that one-link conditional carrier, not the physical mass gap. Its constructive remainder is a label-enriched or enlarged joint interface. The Clay goal remains active and unsolved.
+
+### A simple quotient with a precise input
+
+[[conditional-fisher-coercivity/bounded-transport-and-cut-flux|The canonical cut-flux theorem]] fixes a positive density \(b\) and a mean-zero state score \(s\) on a closed connected manifold. It proves
+\[
+\boxed{
+\inf_{\operatorname{div}(bv)=-bs}\|v\|_\infty
+=\sup_A\frac{|\int_A s\,b\,dm|}
+{\operatorname{Per}_b(A)}.}
+\tag{DR127a}
+\]
+The numerator is the demanded probability transfer; the denominator is weighted cut capacity. A direct Hahn--Banach proof gives weak attainment. Coarea identifies the scalar cut tests, and Hodge heat smoothing with an exact divergence correction proves equality of smooth and weak infima.
+
+Several context directions require one linear velocity map, not independent choices for each direction. The exact dual then uses a nuclear-norm denominator for the matrix of test gradients. A smooth equilateral-triangle circle example proves that scalar directional tests can miss the joint constant. A strict uniform joint bound gives a smooth parameter-dependent connection by local elliptic correction and convex gluing. No flatness is required.
+
+The rotating-circle example is sharpened to an exact minimum-\(L^\infty\) result:
+\[
+B_*=\tanh K,\qquad
+v_\infty=1-e^{-K\cos(y-z)}/\cosh K.
+\tag{DR127b}
+\]
+This is a density-contrast quotient, not an independently derived physical rate. It improves rigid rotation's bound and distinguishes both from the minimum-gradient transport.
+
+### A genuine obstruction on an actual exterior path
+
+[[rg-covariance-residue/su3-context-flux-obstruction|The canonical Wilson obstruction]] uses two copies of each cyclic diagonal permutation of \(D_\alpha=\operatorname{diag}(e^{i\alpha},e^{i\alpha},e^{-2i\alpha})\) as its six staples. At \(\alpha=\pi\),
+\[
+S_\pi=-2I,\quad S'_\pi=-8iI,\quad
+s_\alpha=-(8\beta/3)\operatorname{ImTr}U,\quad
+|\dot R_\pi|^2=12.
+\tag{DR127c}
+\]
+The corresponding two-well law has \(\kappa=2\beta/3\). A five-link reference path gives a gauge-invariant relative-loop test with zero explicit derivative along this context variation.
+
+[[rg-covariance-residue/frustrated-su3-conditional-wells|The well owner]] now proves that the exact minimax barrier is \(1/2\): real \(SU(3)\) trace forces an eigenvalue one and trace at least \(-1\), while a diagonal path attains that barrier. For any fixed \(0<\eta<1/2\), a smooth separator has \(L^1\) gradient expectation at most \(C_\eta\kappa^4e^{-\eta\kappa}\), but its score pairing is asymptotic to \(-4\sqrt3\beta\). Therefore every admissible velocity satisfies
+\[
+\|v_\alpha\|_\infty
+\ge c_\eta\beta\kappa^{-4}e^{\eta\kappa}.
+\tag{DR127d}
+\]
+This defeats divergence-free repairs as well as the minimum-gradient choice. Finite-\(\beta\) continuity extends the obstruction to nearby positive-measure exterior contexts, without claiming they retain a uniform probability.
+
+### The retained label carries the leading response
+
+Retain \(L=\operatorname{sign}\operatorname{ImTr}(UW_{\rm ref}^*)\). For this fixed partition the exact score disintegration gives
+\[
+\mathcal I_{\rm full}
+=\mathcal I_L+\sum_\ell\pi_\ell\mathcal I_{\mathrm{within},\ell},
+\qquad
+\mathcal I_L/\beta^2\to48,\quad
+\mathcal I_{\rm full}/\beta^2\to48.
+\tag{DR127e}
+\]
+Thus the leading response changes well weights, not just coordinates within a well. Retaining the label is a constructive change of interface; deleting its dynamics would be spectral deletion. Uniform within-label coercivity and a retained-label transition estimate have not been proved.
+
+Enlarging the active block is also meaningful: the surrounding-link variation is downhill at either frozen central well. The previous joint-escape cuts do not automatically cover this exterior, so their coefficient cannot be borrowed without a new localization proof. The obstruction is for a one-link law conditioned on the full exterior, not the normalized soft posterior or every possible block.
+
+### The user's foundational clues and their exact scope
+
+The canonical `wall-construction-interface`, `algebra` and [[program-core/ruble-equations|Ruble equations]] were revisited. Their common lesson is to construct state, carrier, transport and response before identifying a physical quotient. The new theorem fills a compact commutative transport test, not the full physical interface.
+
+In particular, a configuration-space cut is not already a spacetime horizon; its perimeter is not already gravitational area. Fisher information is quadratic response, whereas cut flux is linear probability transfer. Neither is automatically the prospective causal charge. The probability law does not select an outcome, and transporting it does not create an irreversible record. Likewise the Clay problem is pure Yang--Mills without a Higgs field; criticism of the electroweak narrative does not replace its continuum construction and positive-energy requirements.
+
+The useful change of perspective is now operational: ask which distinctions a local presentation may forget while preserving a uniformly controlled relation to the whole. The well-label calculation answers one finite non-Abelian instance. It does not yet show that mass is that distinction, nor that a paradigm shift is mathematically necessary.
+
+### Evidence, ownership and review
+
+The deep-research skill governed workspace-first discovery and primary-source verification. The modular-note skill kept the scalar/joint flux proof, Wilson application and trace barrier in distinct canonical owners with inline dependencies. The PDF-reading skill was used only for read-only primary-source inspection; all new exposition is Markdown. The planning tool remained unavailable. Three bounded read-only workers checked duality and smoothing, the actual Wilson source and label response, and source/foundational connections. The coordinator verified and authored the proofs and edits. Review corrected an evaluation-point ambiguity in the label score identity.
+
+| Claim | Evidence | Scope |
+|---|---|---|
+| Continuous max-flow/min-cut precedent | Nozawa, *Osaka J. Math.* 27(4), 805--842 (1990), [primary text](https://ocu-omu.repo.nii.ac.jp/record/2009227/files/111F0000002-02704-4.pdf); selected sections 2--4, Theorems 4.4 and 4.9, Remark 4.11 inspected | Classical anisotropic bounded-flow duality; smooth manifold and joint-operator arguments supplied separately |
+| Exact bounded-speed dual, smooth realization, joint norm distinction | Direct proofs and independent review in the canonical flux note | Fixed smooth compact carriers; no regulator-uniform locality or physical gap |
+| Realizable exterior obstruction and label response | Compatible six-staple path, invariant relative loop, exact barrier, Laplace concentration and score disintegration | Every one-link conditional transport along the stated path; not all blocked carriers |
+
+Source discovery stopped once the original continuous-flow theorem and its scope were checked. No inaccessible formula was used as a substitute for the direct proof, and no visual-layout verification is claimed. One primary-source library owner was added. Historical source/chat material and unrelated working-tree changes were preserved.
+
+The two new receipts pass: six circle concentrations, thirty weighted interval minimax examples, the exact joint-versus-directional three-cycle witness, the \(SU(3)\) source and metric identities, reference-path incidences, the trace barrier, and five finite Weyl-integral response checks. The latter uses an explicitly declared \(C^2\) plateau cutoff; it does not numerically prove the smooth asymptotic theorem. Four regression suites also pass: measure-preserving lifts, staple elimination, nonlinear normalized gauge response, and joint context escape.
+
+Ten scoped canonical notes and this DR127 section pass structural checks for openings, math delimiters, fences, duplicate equation tags and text hygiene. Synchronization registers 492 modules; link lint and the whitespace diff check pass. These checks concern the written mathematics and finite diagnostics, not the physical continuum claim.
+
+The next constructive target is a genuine retained-label or enlarged-block form whose response can be bounded uniformly under the actual joint law, without discarding the separator's dynamics. Physical reconstruction, source control and a nontrivial continuum Yang--Mills theory remain required.
+
+## DR128. Common-link support and the metric of a retained well
+
+**2026-09-05.** DR127 was verified progress: it characterized bounded transport and found an actual one-link obstruction. This continuation checks the constructive alternatives. It corrects an overlooked existing joint certificate, proves a sharper common-link support bound with a smaller residual carrier, and constructs a finite-energy retained well form without changing its metric unnoticed. The full Clay objective remains active and unsolved.
+
+### Revalidation changes the next action
+
+The \(D_\pi\) exterior from DR127 was outside two simple cuts but not outside the adaptive force--curvature criterion (EF15). Its thirty external normalized traces are \(-1/3\), its exterior force vanishes, and
+\[
+\chi_\beta=-4\beta(6-10)=16\beta>0.
+\tag{DR128a}
+\]
+Thus a joint localization estimate already existed. The contrary sentence in the canonical flux note was corrected. The single-link transport obstruction survives; what was missing was the correct placement of that example among previously controlled joint contexts. The old research section is retained as history, with this explicit correction.
+
+### The active responses must belong to one common link
+
+[[rg-covariance-residue/special-unitary-source-support|The new source-support owner]] proves an exact gauge-invariant maximum
+\[
+h_3(M)=\max_{U\in SU(3)}\tfrac13\operatorname{ReTr}(U^*M).
+\tag{DR128b}
+\]
+It is Lipschitz and needs no smooth maximizer selection. For scalar sources its value is the support of the central trace triangle. For general sources, singular values and determinant phase reduce the problem to one global angle; a null singular direction absorbs the phase constraint. An ordinary polar determinant correction is generally only a feasible candidate, not the optimum. A sampled angular maximum is a lower bound; the proved Lipschitz remainder supplies the upper enclosure needed by localization.
+
+The important gain is compatibility. Conjugate central staples have separate maxima summing to two, but their common-link maximum is \(h_3(-I)=1/2\). This does not introduce a new action or a physical mass unit.
+
+### A three-link remainder replaces a seven-link one in a new context
+
+[[rg-covariance-residue/coherent-staple-localization|The canonical localization theorem]] fixes a subset \(I\) of \(k\) outer parallel links and the retained scalar
+\[
+T_I(R)=h_3\!\left(\sum_{j\in I}W_j(R)\right)
++\sum_{p\in\mathcal P_{{\rm ext},I}}\phi_p(R).
+\]
+The exact action Laplacian and the positive-function identity yield
+\[
+\boxed{
+\|\mathbf1_{\{T_I\le-r\}}Q_ef\|^2
+\le
+\frac{\mathcal E_I(f)}{8\beta(r+6k)}
++\frac{6k}{r+6k}\|Q_{\{e\}\cup I}f\|^2.}
+\tag{DR128c}
+\]
+No derivative of the support function, cut, or active conditional mean is required. The inequality uses the full Wilson law, including all surrounding plaquettes.
+
+An explicit central exterior has eight identity and twenty-two nontrivial external plaquettes. Its total external trace is \(-3\), the external forces vanish, and the old adaptive criterion is \(-12\beta\), not positive. The active conditional still has the two central wells. For one opposite transverse pair, the exterior trace is \(-2\) and the active source is \(-I\), giving \(T_I=-3/2\). The \(r=1\) cut contains a fixed open neighborhood and returns
+\[
+\|\mathbf1_BQ_ef\|^2
+\le\frac{\mathcal E_I(f)}{104\beta}
++\frac{12}{13}\|Q_{\text{three-link block}}f\|^2.
+\tag{DR128d}
+\]
+A consistently chosen transverse pair has twofold overlap, so the summed gradient coefficient is \(1/(52\beta)\). The residual remains a sum of local block forms. Its coefficient below one does not permit absorption into a different form without a further comparison. Configuration-dependent choice of the best subset likewise needs a separate combination argument.
+
+The six-link exact-support cut also covers the new example; the pair's extra advantage is its smaller residual carrier. These are different form tradeoffs, not a universal dominance assertion.
+
+### A retained label needs both an energy form and a metric
+
+[[trace-dirichlet-descent/well-core-capacity-and-source-response|The new well-core owner]] proves that a nonconstant finite-valued observable is not \(H^1\) on a connected compact smooth diffusion carrier. Hard-label Fisher information is defined, but a dense diffusion form on that pulled-back hard-label algebra is not.
+
+Harmonic interpolation between separated positive-volume cores supplies a legitimate replacement. Its basis \(h_i\) gives a conductance matrix \(C_{ij}=\mathcal E(h_i,h_j)\) with the correct Markov signs. But the inherited metric is \(M_{ij}=\mu(h_i h_j)\), not the diagonal label metric \(D_\pi\), where \(\pi_i=\mu h_i\):
+\[
+D_\pi-M=\mu[\operatorname{diag}(h)-hh^\mathsf T]\ge0.
+\tag{DR128e}
+\]
+The difference is exactly the covariance of the interpolation weights. A four-vertex example proves that \(-M^{-1}C\) need not generate a positive coordinate evolution even though \(-D_\pi^{-1}C\) does. The latter changes the norm. Neither restricted form supplies the actual compressed time evolution without a reducing-subspace theorem.
+
+For two cores, let \(c\) be their capacity, \(d=\mu(sh)\), \(p=\mu h\), and \(v_h=\operatorname{Var}_\mu h\). The exact and diagonal metrics assign different source norms and rates, but
+\[
+\boxed{
+\frac{d^2/v_h}{c/v_h}
+=\frac{d^2/[p(1-p)]}{c/[p(1-p)]}
+=\frac{d^2}{c}
+\le\inf_v\int|v|^2d\mu.}
+\tag{DR128f}
+\]
+The source pairing holds the reference harmonic tests fixed. In the symmetric Wilson two-well law, the norm mismatch tends to zero while capacity remains exponentially small. The resulting minimum transport energy diverges at least as \(c_\eta\beta^2\kappa^{-4}e^{\eta\kappa}\). Retaining the label exposes the slow channel; replacing it with a unit-rate refresh would alter the dynamics.
+
+This is an exact quotient worth retaining in the broader rate programme, not an identification of auxiliary diffusion time with physical clock time or mass. It distinguishes \(L^2\) capacity from the prior \(L^1\) cut perimeter.
+
+### Evidence and verification
+
+Workspace-first searches covered well labels, source support, harmonic trace, capacity and the existing force--curvature cuts. Three bounded read-only workers independently checked source maximization, the full Wilson patch and small-block estimate, and the well-core form and metric. The coordinator verified the arguments and authored all changes. Reviews tightened the symmetry assumption to preservation of both measure and form, specified the \(L^2\) score domain and \(0\le\varepsilon<1\), and corrected generator-versus-semigroup positivity wording.
+
+| Claim | Evidence and source | Scope |
+|---|---|---|
+| Path-sum trace optimization is a lattice gauge construction | Virgili, Kamleh, Leinweber, *Physical Review D* 106, 014505 (July 11, 2022), [primary text](https://scoap3-prod-backend.s3.cern.ch/media/files/71281/10.1103/PhysRevD.106.014505.pdf), equation (35) and adjacent update prescription inspected | Their iterative algorithm is not the exact support formula or a gap proof |
+| Exact source support and coherent localization | Direct SVD, determinant, trace-triangle and Lyapunov proofs, independently reviewed | Fixed geometrically chosen subsets on the actual finite Wilson law |
+| Well-core energy, metric correction and source quotient | Direct variational, Sobolev-chain-rule and finite-matrix proofs; existing trace-descent owner supplies the common framework | A typed retained response, not an automatic Markov or physical-energy reconstruction |
+
+Primary-source discovery stopped after the relevant trace objective and the distinction from its implementation were checked. The attempted arXiv HTML was unavailable; the PDF-reading skill was used solely for read-only extracted-text inspection of the published source. No visual-layout verification or PDF authoring is claimed. The deep-research and modular-note skills governed source scope, modular ownership and explicit boundaries; the planning tool remained unavailable.
+
+The two new receipts pass source support on scalar and eighteen general matrix examples, gauge tests including the actual Wilson patch, full-lattice incidence, the new eight/twenty-two split, five Casimir-normalized nonlinear Laplacian checks, the three-link constants and pair overlap. They also pass twenty-four harmonic graph examples, the exact four-vertex non-Markov witness, and eight binary quotient comparisons. These are finite diagnostics, not interval-arithmetic certificates or continuum proofs.
+
+Four existing regressions also pass: the SU(3) context-flux, joint-context escape, asymmetric-context force, and cut-flux transport receipts. The ten scoped canonical notes and this research section pass structural checks; wiki-link lint and whitespace checks are clean. Registry synchronization reports 493 modules. These checks validate the edited artifacts and selected finite calculations, not the missing continuum theorem.
+
+The user's simplicity reminder prompted a further check against [[wall-construction-interface/inq|the wall interface]], [[algebra/inq|the algebraic pre-core]], and [[program-core/ruble-equations|Ruble's equations]]. Their useful common discipline is to construct the comparison before assigning its physical measure. Here the compact candidate is an inherited energy form paired with its retained metric, not a bare label or an arbitrarily normalized rate. The binary quotient above survives the two stated metric choices; its identification with the physical scale response in the Ruble programme is not proved. A scale-gap interpretation must still produce a nonzero physical spectral threshold, rather than merely a preferred cut.
+
+The next unsolved requirement is a uniform bound for the residual block dynamics together with control of complementary contexts. The smaller carrier and preserved metric specify that target more sharply, but do not supply the all-scale source, physical-transfer and nontrivial continuum construction.
+
+## DR129. Exact source fibers and the radius of genuine escape
+
+**2026-09-05.** DR128 was verified progress: it supplied a common-source support theorem, an actual smaller-block estimate, and a metric-correct retained well form. Revalidation now rules out direct scalar absorption of that block family, replaces its displayed example's remainder using one farther link, and identifies a singular-fiber obstruction to a tempting commuting repair. A compactness theorem turns the remaining central-context coverage question into one definite stability alternative. The full Clay objective remains active and unsolved.
+
+### The previous residual comparison is impossible, not merely missing
+
+The three-link blocks in (CS10) each lie along one prescribed transverse direction. Four such choices cannot cover all six coordinate planes. A plaquette in a missed plane meets each block in at most one link, and each of its links belongs to three blocks. For its gauge-invariant trace observable,
+\[
+\mathcal H_{\mathrm{block}}[f]\ge3\mathcal H_{\mathrm{hb}}[f]>0.
+\tag{DR129a}
+\]
+Thus a scalar comparison \(\mathcal H_{\mathrm{block}}\le C\mathcal H_{\mathrm{hb}}\) requires \(C\ge3\), already in the physical invariant sector. The ratio is exactly three at product Haar.
+
+Testing the two-staple support at its first summand gives \(h_3(W_1+W_2)\ge1/2\). The ten external traces then force \(T_I\ge-9/2\), so every nonempty cut of this family has residual coefficient \(b\ge8/11\). Hence \(bC\ge24/11>1\): a stronger cut margin cannot repair direct scalar absorption. [[conditional-fisher-coercivity/finite-patch-projection-coercivity|The projection owner]] now contains this proof. It excludes this comparison, not a localized remainder or a physical gap.
+
+### One farther link removes the enlarged remainder at the example
+
+In the actual DR128 exterior, select the direction-\(\mu\) link at \(+2\nu_3\). Its six touching plaquettes have one identity and five nontrivial central traces; no touching plaquette contains the active link. Consequently
+\[
+\Theta=-\tfrac32,\qquad
+\Delta_jS=-12\beta,\qquad
+[\nabla_j,P_e]=0.
+\]
+[[rg-covariance-residue/second-ring-commuting-escape|Second-ring escape]] proves, on the new retained cut \(B_e=\{\Theta\le-1\}\),
+\[
+\boxed{\|\mathbf1_{B_e}Q_ef\|^2
+\le\frac{\mathcal E_j(f)}{56\beta}+\frac67\|Q_ef\|^2.}
+\tag{DR129b}
+\]
+The cut contains a coupling-independent open neighborhood of the displayed exterior. Translating the same offset separately in each orientation has overlap one. The remainder now uses exactly the original innovation, so the algebra of absorption is valid if complementary contexts are independently controlled. This is not a strengthening on the whole earlier coherent-support cut, whose definition differs.
+
+### A linearized kernel can contain no genuine fixed-source motion
+
+[[rg-covariance-residue/singular-staple-fibers-and-exact-conditional-symmetries|The new singular-fiber owner]] studies
+\(\Sigma:SU(3)^6\to M_3(\mathbb C)\), \(\Sigma(W)=\sum_jW_j\).
+The trace minimum forces
+\[
+|\Sigma^{-1}(-3I)|=20,\qquad
+\operatorname{rank}D\Sigma=16,\qquad
+\dim\ker D\Sigma=32
+\quad\text{at each of these points}.
+\tag{DR129c}
+\]
+The fiber consists of all ordered assignments of three \(zI\)'s and three \(z^2I\)'s. It is discrete despite the large first-order kernel. For every initial velocity,
+\[
+\left.\frac{d^2}{dt^2}
+\bigl(\operatorname{ReTr}\Sigma(W(t))+9\bigr)\right|_{t=0}
+=\tfrac32\sum_j\|X_j\|_g^2.
+\tag{DR129d}
+\]
+No nonzero kernel vector can be extended into an exact constant-source path by a compensating second-order acceleration.
+
+For \(\beta>0\), exact preservation of the normalized conditional density is equivalent to preserving the entire source matrix. A smooth commuting field on the six outer links, with the transverse factors frozen, must therefore vanish at the extremal context. Its diffusion cannot furnish positive pointwise Lyapunov localization there. Full path-factor fibers and remote links remain available; their geometry is not the six-product fiber. This is a concrete distinction between a formal infinitesimal direction and the carrier of an actual dynamics, not a deduction of mass quantization from the number 20.
+
+### The central coverage question has a compactness alternative
+
+[[hessian-response-geometry/finite-witness-compactness-and-uniform-escape|The reusable finite-witness theorem]] considers actual central links on \(\mathbb Z^4\), with their compact finite-alphabet product topology. The bad-source condition is a compact cylinder. Freeze the 19-link active star and let \(\lambda_R(\omega)\) be the lowest normalized central Hessian on remote cochains supported in radius \(R\), retaining every touched plaquette.
+
+These functions are continuous and decrease with radius. Therefore
+\[
+\boxed{
+\begin{gathered}
+\text{every bad central context has some strict finite remote negative mode}\\
+\Longleftrightarrow\
+\exists R_*,\nu>0:\ \lambda_{R_*}(\omega)\le-\nu
+\text{ for all such contexts}.
+\end{gathered}}
+\tag{DR129e}
+\]
+If this fails, one infinite bad central context has nonnegative Hessian against every finitely supported remote cochain. The proof is an increasing open cover, or equivalently nested compact sets. At a fixed radius the matrices have rational entries and only finitely many patterns occur; an exact rational negative witness for each pattern would be a finite certificate.
+
+This theorem does not decide the alternative. Nor does it turn a Hessian witness into a smooth gauge-covariant localizer, combine its remainders, or cover noncentral sources. Remote second-order stability would invalidate this sufficient route, not the Yang--Mills mass gap. The next structural question is the existence or exclusion of that stable central context, rather than an unbounded collection of unrelated examples.
+
+### Evidence, review and boundaries
+
+The discovery scope was the residual-block comparison, exact source-preserving motions and exhaustive central-context coverage. Workspace-first searches covered block absorption, conditional commutators, singular source fibers, compatible signed Hessians, center vortices and finite-support collective escape. The planning tool was searched for and remained unavailable. The deep-research skill organized three bounded read-only lanes; the modular-note skill kept the new source-fiber and finite-witness arguments in reusable owners. The coordinator checked the high-impact proofs, wrote all artifacts and preserved historical research sections.
+
+| Claim | Evidence | Confidence and boundary |
+|---|---|---|
+| Three-link scalar absorption fails | Direct invariant-projection and lattice-incidence proof; independent review | Exact for the prescribed block family, not all possible comparisons |
+| A second-ring link gives same-innovation localization | Full six-plaquette geometry, Casimir identity and existing positive-function theorem; independent review | Exact on the newly declared cut, not all earlier cuts |
+| Extremal source fiber is discrete despite a large kernel | Trace-minimum equality, real-linear rank calculation, positive quadratic normal displacement and normalized score identity | Exact smooth finite-carrier statements; no mass or clock identification |
+| Pointwise strict finite witnesses become uniform on a compact family | Direct finite-subcover/nested-compact-set proof; independent review | The instability premise remains unproved |
+| Existing center-vortex results do not decide the new classification | Greensite--Olejnik, JHEP 09 (2002), 039, [primary arXiv record](https://arxiv.org/abs/hep-lat/0209088), September 6, 2002; primary abstract rechecked | Its stated \(N>4\) stability result is not an \(SU(3)\) frozen-star coverage theorem |
+
+Targeted external discovery stopped after that source boundary was checked; the new mathematical claims have direct proofs rather than an attribution to the vortex paper. The new receipt passes all 20 central assignments, rank 16/kernel 32, twelve second-order source tests, the full 19-link star and six-plaquette second ring, eight nonlinear Hessian checks, actual gauge transformations, source independence and onefold overlap. It also checks all 81 fixed transverse-choice assignments underlying the neutral plaquette obstruction. Floating-point diagnostics are not interval certificates, and no finite test proves the infinite-context alternative's premise.
+
+The existing coherent-staple, collective-context, finite-patch projection and well-core response receipts also pass. Eight scoped canonical notes and this research section pass structural checks; wiki-link lint and whitespace checks are clean. Registry synchronization retains 493 modules. Verification concerns Markdown structure and the stated finite computations; no visual rendering or physical-spectrum validation is claimed. Independent review of the compactness note also corrected an unnecessary assertion that every finite selected support has gauge null directions.
+
+The all-context coercivity estimate, a sufficient whole-law innovation gap, nontrivial continuum construction, positive-energy physical reconstruction and the full compact-simple-group quantifier remain unmet. Nothing in this continuation licenses marking the Clay objective complete.
+
 ## Kill conditions
+
+- A vector in the pointwise kernel of a singular source derivative is treated as an integrable fixed-source motion, despite the discrete extremal staple fiber.
+- A same-innovation bound on a new second-ring cut is claimed on the whole original coherent-support cut without a containment theorem.
+- The three-link block sum is absorbed through an invariant-sector scalar comparison with coefficient below three, or its fixed family and refresh normalization are silently changed.
+- Compactness is invoked to supply an instability premise rather than to uniformize already strict witnesses; a finite search without a witness is called an infinite stable context.
+- Nonnegative remote central Hessian is identified with nonlinear stability, or its failure of one sufficient route is called failure of the physical mass gap.
+
+- A negative plaquette coefficient is treated as a freely variable curvature direction without restricting to the link differential's compatible image.
+- Positive individual-link Hessians are taken to exclude a collective negative mode, or a classical negative mode is called a quantum mass gap.
+- Independent gauge-frame averaging erases the cross terms of a collective direction, or a transport tree is differentiated while its coefficient derivatives are omitted.
+- A new collective mobility is used without domination by the inherited form; the finite tree certificate here proves that domination and does not identify auxiliary diffusion time with physical clock time.
+
+- Unequal conditional wells are dismissed because one has small equilibrium weight; the variance and energy can share that weight while their Rayleigh quotient remains exponentially small.
+- A coupling-independent neighborhood in source shape is inferred to be a full neighborhood of realizable matrix sums without checking the staple map; continuity supplies an exterior preimage neighborhood, not surjectivity.
+- Separate context cuts have their residual coefficients added and declared absorbed; a shared localizer can combine specified cuts, but a complete block-form comparison is still required.
+
+- A local killed-region bound is applied to unrestricted tests without accounting for cutoff derivatives, or a selected-link generator is replaced by a different diffusion while keeping its certificate.
+- A conditional mean depending on moving coordinates is subtracted inside a gradient without controlling its derivative; only the outside-block mean is automatically constant along the selected link derivatives here.
+- The controlled thirty-plaquette neighborhood is asserted to cover every frustrated staple source, or a coupling-dependent continuity neighborhood is called uniform in coupling.
+- The summed block-heatbath form is silently absorbed, normalized by volume without changing its coefficients, or relabelled as the physical transfer generator.
+- A half-density change of representation transports the state but not the derivative, or a positive one-band Fisher term is added as mass while complementary-band cancellation is omitted.
+
+- The all-linear-field \(SU(2)\) conditional bound is promoted to arbitrary nonlinear posteriors, whole columns or all compact gauge groups.
+- A frozen-link \(SU(3)\) conditional barrier is called a physical gap closing, or its context probability alone is used to control its operator contribution.
+- Source singular values or magnitude are assumed to classify the \(SU(3)\) two-sided source orbit without the determinant phase.
+- All parallel links are integrated as independent despite sharing plaquettes, or whole temporal-column partition functions are replaced by products of one-link Bessel factors.
+- Additional boundary factors are declared harmless merely because they factorize, despite changing the linear-tilt conditional law.
+
+- Whole-column total variation is confused with a Wasserstein coefficient normalized by the input path distance, or an uncountable Hamming-sum topology is silently declared compact Polish.
+- A midpoint conditional density bound is applied next to an arbitrarily sharp temporal endpoint without enough smoothing, or an open-chain outward coupling is used unchanged on periodic time or a correlated joint endpoint law.
+- Fixed-volume vacuum convergence is called volume-uniform operator convergence; or convergence of a limiting Hamiltonian gap is used to infer a uniform finite-step Wilson gap without a separate estimate.
+- A gradient Poincare inequality for the actual vacuum is applied directly to a nonlocal finite-step Wilson logarithm, rather than through a proved physical form comparison or Hamiltonian limit.
+
+- A positive but noninjective transfer is assigned a self-adjoint logarithm without specifying its positive support and null-state quotient.
+- The nonlinear boundary-action map is asserted on arbitrary \(L^2\) actions, or a restricted quadratic contraction is substituted for the complete physical tangent spectrum.
+- Finite projective contraction with coefficient \(\tanh(\sum_e x_e)\) is called volume uniform at fixed positive couplings.
+- Total-variation Dobrushin coefficients are silently used as geodesic Wasserstein coefficients, or tangent scores on a discrete group are inferred without a continuous source family.
+- A finite-volume Haar vacuum density is assumed to exist in the thermodynamic limit.
+- A known Hamiltonian gap is used to infer a universal complete midpoint-bridge floor, or a local perturbation theorem is applied using the extensive total interaction norm or an unproved boundary convention.
+
+- Concavity of the Wilson cost is promoted to a positive linear Casimir lower bound or to Markovianity of every fractional power without a separate theorem.
+- Uniform smooth convergence to a heat kernel is substituted for a finite-spacing Gaussian operator envelope or a uniform infinite-product norm approximation.
+- Powers of the magnetic Wilson sandwich are replaced by products of blocked pure kinetic kernels.
+- Fixed-block conditional Poincare constants are called refinement uniform, or conditional regularity is substituted for collective coercivity.
+- A distant mixed response is dropped because the bare potential is local, despite the actual-transition score covariance; a diagonal Hessian is computed without its expected kernel-Hessian term.
+
+- A prefactor in a one-link envelope is multiplied over volume and the resulting estimate is still described as uniform, without removing or controlling that prefactor first.
+- Exact Markov lumpability is used to identify a raw bridge restriction with its independently quotiented endpoints, or to assert that quotient prediction commutes with the transfer cutoff.
+- A nonconstant Perron vector is forgotten when transporting a full response envelope to Haar, or analyticity is substituted for the stronger heat-vector domain required by that comparison.
+- Failure of a Haar-heat certificate is interpreted as failure of the physical gap, despite the analytic gapped-circle and product witnesses.
+- A finite-spacing Wilson logarithmic weight is replaced by a heat Casimir without the required temporal-limit or operator comparison theorem.
+
+- A linear mode cutoff is treated as a conditional-expectation range without multiplicative closure, or failure for such a span is used to deny exact sufficient-algebra closure.
+- Two-ended prediction is bounded by one-ended damping at the same separation without controlling products and the actual joint endpoint Gram.
+- A bridge insertion kernel is divided by a transfer operator rather than its endpoint density, or Perron weights are removed from the complete norm because they cancel inside a fiber.
+- Fixed-carrier compact heat tails, sampled density minima, or finite fusion truncations are promoted to regulator-uniform interacting estimates without certified tail and normalization bounds.
+- A sufficient additive response margin is declared necessary when the retained/discarded split actually reduces the prediction operator.
+
+- An exact predictive statistic is claimed to reduce geometric dimension merely because its measurable construction exists, or its induced interface law is replaced by an unrelated simple prior.
+- Small averaged KL or conditional mutual information is substituted for complete operator-norm control without a valid uniform density/tail estimate.
+- Failure of a uniform complete all-interior response floor is interpreted as failure of the fixed-distance midpoint gap, despite the Gaussian carrier counterexample.
+
+- Regional randomization is claimed to preserve the complete carrier despite shared auxiliary information or cross-region readout dependence, without a replacement theorem.
+- A discarded-core estimate for original \(f(Y)\) alone is substituted for the required all-\(F(Y,X)\) estimate, or a vacuous conditional inequality is allowed to yield a normalized coefficient above one.
+- A probabilistic posterior \(Z\mid W\) is treated as a deterministic level set, or an improved noisy coarse floor is called a new physical response without paying both lifting costs.
+
+- A relative leakage bound is asserted from an absolute norm bound alone, or the actual boundary-fiber law and its vertical score are replaced by an unrelated marginal.
+- A complete bidirectional conditional-variance floor is treated as a uniform posterior gradient Poincare estimate, or readout strength is allowed to diverge while a fixed-strength uniformity claim is retained.
+
+- A coarse bridge floor is lifted after dropping the fine-boundary prediction term \(L^*L\), or a discarded-core diagonal compression is substituted for the full conditional inequality needed by projection-conditioned coercivity.
+- Arbitrary independently chosen lower certificates are telescoped across RG levels, or uniformly small per-step losses are called summable at diverging depth.
+- Fisher inverse order is applied after rank loss by taking naive pseudoinverses, or a context-dependent normalized readout is treated as a fixed channel.
+- Poincare hypotheses are promoted to an LSI conclusion, or an actual marginal constant is replaced by an unrelated coordinate-conditional constant in the two-scale theorem.
+
+- A conditional-fiber Poincare constant is called a core or transfer gap even though the boundary can predict the fiber's center almost perfectly.
+- The exponential of a compressed infinitesimal generator is substituted for compressed finite heat without a semigroup or intertwining proof.
+- Componentwise score estimates are summed and advertised as dimension-free despite introducing a boundary-cardinality factor.
+- An intrinsic Fisher inverse is used on a singular family without an identifiable quotient or an admissible closed form; a constant-rank score kernel is incorrectly called nonintegrable.
+- A bridge bound is passed using separate marginal convergence rather than joint predictor-error convergence, or a vacuous trivial-limit bound is called a nontrivial continuum construction.
+
+- A full finite matrix response is extended fiberwise and called field-complete despite its exact kernel containing every scalar configuration function \(f(U)I\).
+- The exceptional gradient frame coefficient is used as a Poincare constant of the measured law, or its auxiliary heat parameter is identified with physical time without reconstruction.
+
+- Spatial weights are assumed to preserve exact one-forms, or a scalar Poincare floor is used as a full one-form floor without a separate proof.
+- A normalized compact kernel is differentiated after dropping its fine-dependent log normalizer, or a one-step strong-coupling estimate is extended to the continuum RG trajectory without effective-law bounds.
+- Faithful and adjoint holonomy probes are declared globally equivalent because their identity Hessians agree, or probe center-blindness is identified with the center charge of a physical state.
 
 - A high-alias split is treated as periodic by itself, a complex modulus is used in a holomorphy argument, or a sampled symbol's harmonic value is changed without accounting for its nonlocal finite-volume correction.
 - Gaussian terminal locality is called a non-Abelian estimate or an infrared gap despite the massless unconditioned prior.
@@ -5309,6 +7565,9 @@ The next research action is to use the algebraic whole-law structure to force th
 - The additive relative-entropy capacity \(2n\log d\) is silently replaced by the multiplicative horizon law \(\iota_n/\iota_b=d^{2n}\), or the latter is described as a consequence of index theory rather than an independent effective-cell-count weld.
 - A Fredholm index, Jones--Kosaki index, descent-loss Hessian, and Poincare-Casimir lower edge are treated as one invariant without explicit carrier maps.
 - A relaxation gap \(\gamma\) from \(T_t=E+e^{-\gamma t}(I-E)\) is advertised as derived from descent even though \(\gamma>0\) was freely chosen.
+- Hidden-coordinate self-return is erased from a Schur influence matrix instead of being normalized, or the no-escape theorem for one majorant is mistaken for a prohibition on sharper exact-marginal estimates.
+- A static short, instantaneous readout generator and actual compressed time evolution are identified despite a nonzero memory kernel; fast hidden relaxation alone is claimed to exclude feedback-induced slow modes.
+- The evolution generated by a bounded physical transfer defect is called physical clock time, rather than returning the Hamiltonian bound through functional calculus of the actual transfer.
 - Boundary area, entropy extensivity, or the number of readout channels is treated as a lower-frame response bound; shared blind directions are not excluded.
 - The balance \(D-2=2p\) is advertised as an independent selection of four dimensions after the Yang--Mills action's known engineering dimensions were used to choose either exponent.
 - A one-sided spatial RG address operator is called mass even though unbounded scale covariance forces it gapless and no Lorentz or Casimir solder has been constructed.

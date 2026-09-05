@@ -60,6 +60,8 @@ $$
 
 A functional source \(\sigma(x)\) packages the full connected two-point kernel. In continuum QFT, an actual Weyl deformation gives that kernel plus the local response \(\langle\delta\Theta(x)/\delta\sigma(y)\rangle\), with the chosen signs and anomaly counterterms. Thus “one operator, two moments” means one typed source family—not a numerical equality between its gradient and Hessian. A single integrated variance does not determine a spectral edge; the separated \(\ell\)-profile is essential.
 
+[[exceptional-context-analysis-of-gauge-gradients|The differentiated exceptional frame]] gives a further useful distinction at a smooth finite gauge regulator. The same context-analysis map can factor the configuration-gradient form of \(\Theta_E(f)\) under different specified measures, with the same geometric coefficient \(9/13\). Its weighted adjoint and spectral constant nevertheless depend on the measure. A common geometric frame therefore does not identify a thermal mean, a source covariance, a configuration-gradient norm, and a vacuum spectral edge; the state and reconstruction maps remain essential.
+
 This suggests a candidate field-theoretic content for [[global-local-response-reconstruction/yang-mills-balanced-fisher-grain|the balanced-Fisher score]]. Along a differentiable fixed-carrier effective-action path \(\mathrm d\nu_N=Z_N^{-1}e^{-S_N}\mathrm dm\), with \(N\)-independent \(m\) and all Jacobians absorbed into \(S_N\),
 
 $$

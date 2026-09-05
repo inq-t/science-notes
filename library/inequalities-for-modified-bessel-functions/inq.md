@@ -19,6 +19,7 @@ Näsell proves a sequence of increasingly sharp bounds refining the classical in
 - **Published:** January 1974.
 - **Journal:** *Mathematics of Computation* **28** (125), 253--256.
 - **DOI:** [10.1090/S0025-5718-1974-0333288-9](https://doi.org/10.1090/S0025-5718-1974-0333288-9).
+- **Author-deposited full text:** [ResearchGate copy](https://www.researchgate.net/publication/242921211_Inequalities_for_modified_Bessel_functions), uploaded by Ingemar Näsell on May 27, 2015.
 - **Local artifacts:** none.
 
 The opening paragraph paraphrases the paper abstract and records Proposition 1 with its stated parameter range.

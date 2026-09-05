@@ -17,7 +17,9 @@ not categorical: Cesi's published
 \(L^\infty\) certificate counts the transverse boundary cells and loses
 uniformity when its complete-analyticity rate has finite physical scaling.
 The sharper target is a tensorizing \(L^2\) surface-response angle derived
-from the Wilson action.
+from the Wilson action. Conditional Fisher control now supplies such a
+volume-uniform core-response certificate in an explicit nonlinear
+strong-coupling regime, with continuum transport still open.
 
 **Status: [EXACT] for the two-block-to-bridge reduction, the Wilson cell-spin
 encoding, and the Friedrichs-angle formulation; [ESTABLISHED INPUT] for
@@ -366,6 +368,8 @@ the gap. A noncircular proof must instead construct an \(L^2\)
 boundary-response analysis from plaquette incidence, covariant derivatives,
 Hessian or Fisher response, and finite-range geometry, then prove that it
 dominates the relevant reduced projection product.
+
+[[fisher-collar-bound-for-wilson-laws|The nonlinear Fisher collar theorem]] realizes an action-derived certificate on the complete core-observable carrier in a strong-coupling regime. It integrates the collar exactly and controls the mixed score map in operator norm before counting components; the resulting bound has no transverse-area factor. This is a direct conditional-variance bound, not a proof of Cesi's full entropy quasi-factorization with a new constant. Its extension to the fixed-physical-scale family in (CQ21) remains the continuum task.
 
 The exact bounded response on the retained central-core carrier is already
 visible. Put

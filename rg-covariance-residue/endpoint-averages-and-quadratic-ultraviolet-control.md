@@ -257,6 +257,49 @@ $$
 
 The coefficient is independent of the fine cutoff, total volume, and number of already completed Gaussian blocking steps. Distinguishing the current mesh \(b_k\) from the next block width \(b_{k+1}\) prevents a spurious scale factor.
 
+## A uniformly bounded harmonic section
+
+Remove the harmonic zero modes and use the physical quotient metrics. Put
+\(r_d=s_d^{-1}=(\pi/2)^{d+1}\). The principal-alias quotient inverse in (EA8d) gives a right inverse \(L_n\) of \(\mathsf Q_n\) satisfying
+\[
+\|L_nB\|_a\le r_d\|B\|_b,\qquad
+q_a(L_nB)\le C_d^{\rm Max}q_b(B),\qquad
+C_d^{\rm Max}=\frac{\pi^2}{4}r_d^2.
+\tag{EA15}
+\]
+Indeed the principal fine eigenvalue
+\(\lambda_0(p)=4a^{-2}\sum_\nu\sin^2(p_\nu/(2n))\)
+is at most \((\pi^2/4)\lambda_b(p)\). At Nyquist ties a complex lift can be replaced by its real part; the real readout is preserved and neither norm nor energy increases.
+
+Combining this competitor with (EA12) bounds the exact hard coarse precision on both sides:
+\[
+\boxed{K_b\le K_{{\rm eff},n}\le C_d^{\rm Max}K_b.}
+\tag{EA16}
+\]
+Let \(C_a=K_a^{-1}\), \(C_c=\mathsf Q_nC_a\mathsf Q_n^*\), and let
+\(M=C_a\mathsf Q_n^*C_c^{-1}\) be the energy-minimizing section. On each nonzero coarse Fourier fiber the principal alias has the smallest fine Maxwell eigenvalue among all aliases. Hence
+\[
+\lambda_0(p)\|MB(p)\|_a^2
+\le q_a(MB)(p)
+\le r_d^2\lambda_0(p)\|B(p)\|_b^2.
+\]
+Canceling the positive \(\lambda_0(p)\) proves the sharper norm bound
+\[
+\boxed{\|M\|\le r_d,}
+\tag{EA17}
+\]
+uniformly in cutoff, volume and composite integer blocking factor. No estimate at \(p=0\) is lost: the retained harmonic mode has already been removed.
+
+There is also a sharper hard-fiber floor than the triangle-inequality consequence of (EA8e). For \(\mathsf Q_nA=0\), the orthogonal alias decomposition obeys
+\(\|A_{\rm lo}\|\le r_d\|A_{\rm hi}\|\).
+Thus \(\|A\|^2\le(1+r_d^2)\|A_{\rm hi}\|^2\), while its high-mode energy is at least \(4b^{-2}\|A_{\rm hi}\|^2\). Consequently
+\[
+\boxed{q_a(A)\ge\frac{c_d^{\rm fib}}{b^2}\|A\|_a^2,\qquad
+c_d^{\rm fib}=\frac4{1+r_d^2},\qquad A\in\ker\mathsf Q_n.}
+\tag{EA18}
+\]
+These estimates supply the bounded section needed for [[gaussian-harmonic-refresh-lifting|a commuting retained/fiber dynamics and a one-shot fine/coarse comparison]]. A bounded section need not be spatially local.
+
 ## The nonlinear problem has not been replaced by its tangent
 
 The form \(q_{{\rm eff},k}\) acts on classical linear gauge-field variations. It is not the physical quantum Hamiltonian. The construction even starts from a massless Maxwell theory, whose infrared modes remain in the retained field. A uniform ultraviolet shell floor is therefore not evidence of a physical mass gap.
