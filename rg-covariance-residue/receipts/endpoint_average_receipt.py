@@ -326,4 +326,203 @@ naive = np.array([[3.0, 1.0], [1.0, 2.0]])
 assert np.isclose(np.linalg.inv(naive)[0, 0], 2/5)
 assert not np.isclose(np.linalg.inv(naive)[0, 0], 1/2)
 print("PASS: finite-range inverse expansion and naive gauge-completion counterexample.")
-print("Not tested: accumulated-step localization, nonlinear Wilson law, infrared gap, or continuum existence.")
+
+def nearest_neighbor_covariance(side, dim, diagonal, neighbor):
+    count = dim*side**dim
+    basis = np.eye(count).reshape((count, dim) + (side,)*dim)
+    return np.column_stack([
+        np.array([
+            diagonal*field[mu]
+            + neighbor*(np.roll(field[mu], 1, mu)+np.roll(field[mu], -1, mu))
+            for mu in range(dim)
+        ]).ravel()
+        for field in basis
+    ])
+
+
+def alias_multiplier(q, n):
+    box = np.array([np.exp(1j*t*np.arange(n)).mean() for t in q])
+    return np.prod(box)*box
+
+
+for dim, side, n in ((2, 12, 2), (2, 12, 3), (2, 12, 4), (3, 6, 2)):
+    a, b = 0.37, n*0.37
+    fine_curl, raw_q = periodic_matrices(side, dim, n)
+    q_full = n**(dim/2)*raw_q
+    expected = nearest_neighbor_covariance(
+        side//n, dim, (2+n**-2)/3, (1-n**-2)/6,
+    )
+    assert np.allclose(q_full@q_full.T, expected, atol=1e-12)
+
+    # Actual plane-wave map in equal physical-volume Fourier conventions.
+    coordinates = np.indices((side,)*dim)
+    coarse_coordinates = np.indices((side//n,)*dim)
+    for _ in range(5):
+        q_mode = 2*np.pi*rng.integers(0, side, size=dim)/side
+        fine_wave = np.exp(1j*np.einsum("i,i...->...", q_mode, coordinates))
+        coarse_wave = np.exp(1j*np.einsum("i,i...->...", n*q_mode, coarse_coordinates))
+        multiplier = alias_multiplier(q_mode, n)
+        for mu in range(dim):
+            field = np.zeros((dim,) + (side,)*dim, dtype=complex)
+            field[mu] = fine_wave
+            assert np.allclose(average(field, n)[mu], multiplier[mu]*coarse_wave)
+
+    # Quotient includes harmonics here: the observation must detect them.
+    fine_e, fine_v = quotient_basis(side, dim, a)
+    _, coarse_v = quotient_basis(side//n, dim, b)
+    harmonic_f = np.kron(np.eye(dim), np.ones((side**dim, 1))/np.sqrt(side**dim))
+    harmonic_c = np.kron(
+        np.eye(dim), np.ones(((side//n)**dim, 1))/np.sqrt((side//n)**dim),
+    )
+    fine_v = np.column_stack((fine_v, harmonic_f))
+    coarse_v = np.column_stack((coarse_v, harmonic_c))
+    q_quotient = coarse_v.T@q_full@fine_v
+    s = (2/np.pi)**(dim+1)
+    a_obs, b_obs = (1+1/s)**2/2, 2/s**2
+    observation = (
+        a_obs*b*b*np.diag(np.r_[fine_e, np.zeros(dim)])
+        + b_obs*q_quotient.T@q_quotient
+    )
+    assert np.linalg.eigvalsh(observation)[0] >= 1-1e-8
+    print(f"PASS: physical Fourier aliases, exact neighbor stencil, and uniform-factor observation in d={dim}, n={n}.")
+
+
+for dim, sides in ((2, [12, 6, 3]), (2, [24, 12, 6, 3]), (3, [6, 3])):
+    n, eta = 2, 0.21
+    meshes = [n**(i-len(sides)+1) for i in range(len(sides))]
+    data = [quotient_basis(side, dim, mesh) for side, mesh in zip(sides, meshes)]
+    raw_maps = [periodic_matrices(side, dim, n)[1] for side in sides[:-1]]
+    full_maps = [n**(dim/2)*q for q in raw_maps]
+    quotient_maps = [
+        data[i+1][1].T@q@data[i][1] for i, q in enumerate(full_maps)
+    ]
+    covariances = [np.diag(1/data[0][0])]
+    noise = np.zeros_like(covariances[0])
+    for i, q in enumerate(quotient_maps):
+        noise = q@noise@q.T+eta*meshes[i+1]**2*np.eye(q.shape[0])
+        covariances.append(
+            q@covariances[-1]@q.T+eta*meshes[i+1]**2*np.eye(q.shape[0]),
+        )
+        depth, b = i+1, meshes[i+1]
+        u = (1-n**(-2*depth))/(1-n**-2)
+        v = (1-n**(-4*depth))/(1-n**-4)
+        raw_noise = eta*b*b*nearest_neighbor_covariance(
+            sides[i+1], dim, (2*u+v)/3, (u-v)/6,
+        )
+        transverse = data[i+1][1]
+        assert np.allclose(noise, transverse.T@raw_noise@transverse, atol=1e-9)
+        noise_spectrum = np.linalg.eigvalsh(raw_noise)
+        assert noise_spectrum[0] >= eta*b*b-1e-9
+        assert noise_spectrum[-1] <= eta*b*b/(1-n**-2)+1e-9
+
+    # Check the complete final covariance symbol and its transverse inverse.
+    depth, final_side, b = len(sides)-1, sides[-1], meshes[-1]
+    factor = n**depth
+    transverse = data[-1][1]
+    full_covariance = transverse@covariances[-1]@transverse.T
+    full_precision = transverse@np.linalg.inv(covariances[-1])@transverse.T
+    coordinates = np.indices((final_side,)*dim)
+    for p_index in ((1,)+(0,)*(dim-1), (1,)*dim):
+        p = 2*np.pi*np.array(p_index)/final_side
+        p = (p+np.pi) % (2*np.pi)-np.pi
+        diagonal = np.zeros(dim)
+        for ell in itertools.product(range(factor), repeat=dim):
+            q_alias = (p+2*np.pi*np.array(ell))/factor
+            diagonal += (
+                abs(alias_multiplier(q_alias, factor))**2
+                / (4*np.sin(q_alias/2).dot(np.sin(q_alias/2)))
+                / factor**2
+            )
+        diagonal += eta*(u-2*(u-v)*np.sin(p/2)**2/3)
+        gradient_mode = np.exp(1j*p)-1
+        projector = np.eye(dim)-np.outer(
+            gradient_mode, gradient_mode.conj(),
+        )/np.vdot(gradient_mode, gradient_mode)
+        symbol = b*b*projector@np.diag(diagonal)@projector
+        dinv = np.diag(1/diagonal)
+        dv = dinv@gradient_mode
+        inverse_symbol = (
+            dinv-np.outer(dv, dv.conj())/np.vdot(gradient_mode, dv)
+        )/(b*b)
+        wave = np.exp(1j*np.einsum("i,i...->...", p, coordinates))/np.sqrt(final_side**dim)
+        plane_basis = np.kron(np.eye(dim), wave.reshape(-1, 1))
+        assert np.allclose(plane_basis.conj().T@full_covariance@plane_basis, symbol, atol=1e-8)
+        assert np.allclose(plane_basis.conj().T@full_precision@plane_basis, inverse_symbol, atol=1e-8)
+        assert np.allclose(inverse_symbol@symbol, projector, atol=1e-8)
+    print(f"PASS: accumulated local noise, full alias covariance, and transverse inverse in d={dim}, depth={depth}.")
+
+    # All latent levels except the fixed terminal readout.
+    hidden_sides, hidden_meshes = sides[:-1], meshes[:-1]
+    sizes = [dim*side**dim for side in hidden_sides]
+    offsets = np.r_[0, np.cumsum(sizes)]
+    slices = [slice(offsets[i], offsets[i+1]) for i in range(len(sizes))]
+    c_ops = [periodic_matrices(side, dim, 1)[0]/mesh
+             for side, mesh in zip(hidden_sides, hidden_meshes)]
+    gauge_terms = []
+    for side, mesh in zip(hidden_sides, hidden_meshes):
+        derivative, q0 = scalar_matrices(side, dim, n, mesh)
+        z = np.eye(q0.shape[1])-q0.T@q0
+        gauge_terms.append(derivative@z@derivative.T)
+
+    k = len(sizes)-1
+    weight = 1/(eta*meshes[-1]**2)
+    terminal_v = data[-2][1]
+    terminal_prior = terminal_v@np.linalg.inv(covariances[-2])@terminal_v.T
+    reverse = np.linalg.inv(covariances[-2])+weight*quotient_maps[-1].T@quotient_maps[-1]
+    target_curl_covariance = (
+        c_ops[-1]@terminal_v@np.linalg.inv(reverse)@terminal_v.T@c_ops[-1].T
+    )
+    c_patch = patch_constant(n, dim)
+    gamma = 1+4*dim*eta/(1-n**-2)
+    first = 6*dim*(1+2*np.sqrt(n))**2/(c_patch*n*n)
+    second = 3*(1+2*np.sqrt(n))**2/(c_patch*n**dim)+12*n
+    for alpha in (0.4, 1.6):
+        joint = np.zeros((offsets[-1], offsets[-1]))
+        joint[slices[0], slices[0]] += c_ops[0].T@c_ops[0]
+        for i, sl in enumerate(slices):
+            joint[sl, sl] += alpha*gauge_terms[i]
+        for i, q in enumerate(full_maps):
+            current = slices[i]
+            local_weight = 1/(eta*meshes[i+1]**2)
+            joint[current, current] += local_weight*q.T@q
+            if i < k:
+                following = slices[i+1]
+                joint[following, following] += local_weight*np.eye(sizes[i+1])
+                joint[following, current] -= local_weight*q
+                joint[current, following] -= local_weight*q.T
+        np.linalg.cholesky(joint)
+        terminal = slices[-1]
+        if k:
+            prior_slice = slice(0, offsets[-2])
+            schur = (
+                joint[terminal, terminal]
+                - joint[terminal, prior_slice]
+                @np.linalg.solve(joint[prior_slice, prior_slice], joint[prior_slice, terminal])
+            )
+        else:
+            schur = joint
+        expected = terminal_prior+alpha*gauge_terms[-1]+weight*full_maps[-1].T@full_maps[-1]
+        assert np.allclose(schur, expected, atol=1e-8)
+        inverse = np.linalg.inv(schur)
+        assert np.allclose(c_ops[-1]@inverse@c_ops[-1].T, target_curl_covariance, atol=1e-8)
+        beta = min(1/(gamma*first), 1/(eta*second), 4*alpha/3)
+        assert np.linalg.eigvalsh(schur)[0]*meshes[-1]**2 >= beta-1e-8
+        if k:
+            upper = n*n*(1/eta+4*dim*alpha)+1/eta
+            assert np.linalg.eigvalsh(schur)[-1]*meshes[-1]**2 <= upper+1e-8
+
+        # One physical constant field represented on every mesh.
+        harmonic = np.concatenate([
+            np.r_[np.ones(side**dim), np.zeros((dim-1)*side**dim)]*mesh**(dim/2)
+            for side, mesh in zip(hidden_sides, hidden_meshes)
+        ])
+        rayleigh = harmonic@joint@harmonic/(harmonic@harmonic)
+        assert np.isclose(rayleigh, 1/(eta*meshes[-1]**2*(k+1)), atol=1e-8)
+    print(f"PASS: exact multilevel Schur precision, terminal curvature law, and stack-norm counterexample in d={dim}, hidden_levels={k+1}.")
+
+direction = np.array([1.0, -1.0])/np.sqrt(2)
+diagonal = np.diag([1.0, 2.0])
+assert np.isclose(1/(direction@diagonal@direction), 2/3)
+assert np.isclose(direction@np.linalg.inv(diagonal)@direction, 3/4)
+print("PASS: inversion and transverse projection do not commute.")
+print("Not tested: depth-uniform accumulated spatial localization, nonlinear Wilson law, infrared gap, or continuum existence.")

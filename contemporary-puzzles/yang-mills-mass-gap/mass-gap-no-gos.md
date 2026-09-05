@@ -38,9 +38,9 @@ These equations make mass a precise hinge between gravitational response length 
 
 **Kill condition.** A formula that obtains the pure Yang--Mills gap essentially from \(G\) or Planck units, but supplies no gravity-decoupling and Yang--Mills scale-matching theorem, answers a different problem or merely changes units.
 
-## NG4 — A running grain is dead, and transmutation is a running phenomenon
+## NG4 — The tested live grain closure fails its cosmological check
 
-**[NO-GO — RECEIPT, imported]** [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|The grain-in-every-register note]] shows that if the grain closure were a live law, \(G_{\mathrm{BBN}}/G_0\approx3\times10^{17}\) against a nucleosynthesis bound of \(0.2\). The grain must be a frozen address, evaluated once. Dimensional transmutation, by contrast, is the statement that the coupling runs and the scale is an invariant of that running. The two are different jobs; the grain cannot do the second.
+**[NO-GO — SCOPED RECEIPT, imported]** [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|The grain-in-every-register note]] tests the specific live closure \(G\propto H_{\mathrm{FLRW}}/m_*^3\) with the grain mass held fixed. Its inferred \(G_{\mathrm{BBN}}/G_0\approx3\times10^{17}\) fails the quoted nucleosynthesis tolerance by many orders of magnitude. A frozen-address interpretation avoids that particular extrapolation; the calculation does not exclude every time-dependent grain construction. Dimensional transmutation instead produces a scale invariant along a coupling flow. Identifying an object-relative grain with that invariant still requires a matching theorem.
 
 ## NG5 — Emergent space owes the axiom
 

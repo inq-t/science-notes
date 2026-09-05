@@ -18,4 +18,4 @@ Thomas DeGrand, Anna Hasenfratz, Peter Hasenfratz, and Ferenc Niedermayer constr
 - **DOI:** [10.1016/0550-3213(95)00458-5](https://doi.org/10.1016/0550-3213(95)00458-5).
 - **Local artifacts:** none.
 - **Primary text:** [arXiv manuscript](https://arxiv.org/pdf/hep-lat/9506030).
-- **Access:** Equations (4)--(7), printed pages 6--7, and (15)--(20), printed pages 10--11, inspected in parsed primary PDF text 2026-09-04. The archive and publication date is 1995; the retrieved typeset title page displays a later 2018 date.
+- **Access:** Equations (4)--(7), printed pages 6--7, (15)--(20), printed pages 10--11, and Appendix A (A6)--(A10), (A14)--(A19), printed pages 30--31, inspected in parsed primary PDF text 2026-09-04. The archive and publication date is 1995; the retrieved typeset title page displays a later 2018 date.

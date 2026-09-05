@@ -752,6 +752,8 @@ The logical chain is therefore
 
 The common-count scalar does not act on a glueball state. The relative-entropy Hessian does, after a tangent and region are constructed. Longo compares that form with \(H\) on the same localized path. The last arrow is a separate lemma: if full Poincare covariance, uniqueness of the vacuum, the spectrum condition, and Lorentz invariance of the joint translation spectrum have been constructed, a nonvacuum massless orbit would approach zero energy and a massive orbit of invariant mass \(m<\Delta_E/c^2\) would contain a rest energy below \(\Delta_E\). Under those hypotheses the Hamiltonian floor therefore gives the invariant-mass floor \(m\geq\Delta_E/c^2\). Without them, an energy gap is not yet a mass-Casimir theorem.
 
+The [[contemporary-puzzles/yang-mills-mass-gap/receipts/cosmological-yardstick-receipt.py|cosmological yardstick receipt]] checks dimensions, coefficient cancellations, and the logarithmic-depth normalization identities. It does not validate a selector, the global-to-local carrier change, or a mass gap.
+
 ## What would count as success
 
 The cosmological yardstick contributes to the mass-gap problem only if all of the following are supplied:

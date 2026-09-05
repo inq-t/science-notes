@@ -737,93 +737,9 @@ generator, or Poincare Casimir.
 
 ## The generic response-to-energy theorem
 
-Let \(\mathfrak h_{\mathrm{phys}}\) be a densely defined closed nonnegative
-form on a physical Hilbert space, with associated self-adjoint Hamiltonian
-\(H_{\mathrm{phys}}\) and normalized vacuum \(\Omega\). Let
-\(\mathcal K_{\mathrm{phys}}\subset
-\operatorname{Dom}(\mathfrak h_{\mathrm{phys}})\cap\Omega^\perp\) be a
-complex linear subspace, and let
-\(J:\mathcal K_{\mathrm{phys}}\to\operatorname{Dom}(q)\) be complex linear.
-Suppose
-
-\[
-\|J\psi\|_{\mathcal K}^2
-\geq
-b_J\|\psi\|_{\mathrm{phys}}^2,
-\qquad
-b_J>0.
-\tag{MC21f}
-\]
-
-Assume the response form has an edge on the represented image,
-
-\[
-q[J\psi]\geq\kappa\|J\psi\|_{\mathcal K}^2,
-\qquad
-\kappa>0,
-\tag{MC21g}
-\]
-
-and that an independently normalized energy comparison gives
-
-\[
-\mathfrak h_{\mathrm{phys}}[\psi]
-\geq
-\eta_{\mathrm{sol}}E_*\,q[J\psi],
-\qquad
-\eta_{\mathrm{sol}}>0,
-\quad E_*>0.
-\tag{MC21h}
-\]
-
-Then
-
-\[
-\boxed{
-\mathfrak h_{\mathrm{phys}}[\psi]
-\geq
-\eta_{\mathrm{sol}}E_*\kappa b_J
-\|\psi\|_{\mathrm{phys}}^2.}
-\tag{MC21i}
-\]
-
-If \(\mathcal K_{\mathrm{phys}}\) is a form core for the restriction of
-\(\mathfrak h_{\mathrm{phys}}\) to \(\Omega^\perp\) and
-\(\ker H_{\mathrm{phys}}=\mathbb C\Omega\), then
-
-\[
-\Delta_E
-:=
-\inf\sigma\!\left(H_{\mathrm{phys}}\big|_{\Omega^\perp}\right)
-\geq
-\eta_{\mathrm{sol}}E_*\kappa b_J.
-\tag{MC21j}
-\]
-
-This implication is exact; its premises contain the physical work. In
-particular, a real BKM Hessian must first have a positive Hermitian extension
-to the complex energy core, \(J\) must cover every physical nonvacuum
-direction, and \(E_*\) must be selected without fitting the desired gap.
-
-The operator registers are therefore:
-
-\[
-\begin{array}{c|c}
-\text{object}&\text{extra datum needed before energy}\\
-\hline
-\text{BKM or Fisher response}&
-\text{complex physical analysis map and Hermitian extension}\\
-\text{spatial probability precision}&
-\text{configuration-to-energy or OS/kinetic solder}\\
-\text{Dirichlet or Markov defect}&
-\text{identification with physical Euclidean time}\\
-\text{positive transfer step}&
-\text{injectivity and calibrated duration}\\
-\text{Hamiltonian edge}&
-\text{Poincare reconstruction before invariant mass}
-\end{array}
-\tag{MC21k}
-\]
+[[response-to-energy-comparison|The response-to-energy comparison theorem]] owns (MC21f)--(MC21k). On a complex physical energy-form core, a lower frame \(b_J\), a response edge \(\kappa\), and the independently normalized comparison
+\(\mathfrak h_{\mathrm{phys}}[\psi]\ge\eta_{\mathrm{sol}}E_*q[J\psi]\)
+give \(\Delta_E\ge\eta_{\mathrm{sol}}E_*\kappa b_J\). Coercivity modulo a response kernel needs a lower frame modulo that same kernel. The theorem does not identify response time with physical time.
 
 ## Categorical fusion-action specialization
 

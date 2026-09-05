@@ -12,4 +12,15 @@ PASS: local completion, quotient curl law, source response, and explicit bounds 
 PASS: local completion, quotient curl law, source response, and explicit bounds in d=2, n=3.
 PASS: local completion, quotient curl law, source response, and explicit bounds in d=3, n=2.
 PASS: finite-range inverse expansion and naive gauge-completion counterexample.
-Not tested: accumulated-step localization, nonlinear Wilson law, infrared gap, or continuum existence.
+PASS: physical Fourier aliases, exact neighbor stencil, and uniform-factor observation in d=2, n=2.
+PASS: physical Fourier aliases, exact neighbor stencil, and uniform-factor observation in d=2, n=3.
+PASS: physical Fourier aliases, exact neighbor stencil, and uniform-factor observation in d=2, n=4.
+PASS: physical Fourier aliases, exact neighbor stencil, and uniform-factor observation in d=3, n=2.
+PASS: accumulated local noise, full alias covariance, and transverse inverse in d=2, depth=2.
+PASS: exact multilevel Schur precision, terminal curvature law, and stack-norm counterexample in d=2, hidden_levels=2.
+PASS: accumulated local noise, full alias covariance, and transverse inverse in d=2, depth=3.
+PASS: exact multilevel Schur precision, terminal curvature law, and stack-norm counterexample in d=2, hidden_levels=3.
+PASS: accumulated local noise, full alias covariance, and transverse inverse in d=3, depth=1.
+PASS: exact multilevel Schur precision, terminal curvature law, and stack-norm counterexample in d=3, hidden_levels=1.
+PASS: inversion and transverse projection do not commute.
+Not tested: depth-uniform accumulated spatial localization, nonlinear Wilson law, infrared gap, or continuum existence.

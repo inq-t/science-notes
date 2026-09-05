@@ -5124,7 +5124,73 @@ The evidence gap is now narrower: the first-step Maxwell completion is exact, bu
 
 The existing endpoint receipt was extended rather than duplicating its lattice operators. It checks quotient and completed curvature covariance, mean response, auxiliary-gauge independence, explicit constants, finite-range powers, and a nonlinear curvature-observable derivative at several finite lattices. These tests pass. Source retrieval stopped after the exact comparison and scope were verified; more citations would not prove the missing multidepth or nonlinear estimate.
 
+## DR100. Local multilevel completion and the exact accumulated-noise stencil
+
+**2026-09-04.** The first-step localization theorem was the starting point. This continuation investigated the actual accumulated Gaussian chain, rather than replacing its prior by a fresh Maxwell form. Workspace discovery reused the endpoint averages, soft covariance recursion, adapted gauge completion, and relative-response metric. The planning tool remained unavailable. The bounded tasks were exact carrier construction, source comparison, independent mathematical audit, and modular verification.
+
+[[rg-covariance-residue/multilevel-local-gauge-completion|The multilevel completion]] preserves the joint curvature law of all latent levels conditional on the terminal readout. Relative scalar gauge coordinates and block-zero divergence coordinates form an affine bijection with field-independent Jacobian; their dimensions telescope. Harmonics form a separate anchored chain. Eliminating earlier levels gives exactly the gauge- and harmonic-flat extension of the actual accumulated prior, plus the terminal partial gauge and raw readout precision. Its upper and lower bounds are depth-uniform in the terminal physical metric. A coherent auxiliary harmonic field proves that the unweighted full-stack floor instead loses a factor \(k+1\). This is a concrete warning against treating an enlarged carrier's spectrum as the same relative observable spectrum.
+
+[[rg-covariance-residue/endpoint-averages-and-quadratic-ultraviolet-control|The endpoint note]] now owns the physical Fourier convention and a principal-alias observation estimate uniform in arbitrary integer blocking factor. The low alias maps gradient lines bijectively with a dimension-only minimum multiplier; all other transverse aliases have Maxwell eigenvalue at least \(4/b^2\). This improves the regular-average refinement bound without making a claim about the older finite-patch constant.
+
+[[rg-covariance-residue/accumulated-readout-noise|The accumulated-noise note]] derives an exact nearest-neighbor unprojected covariance by triangular overlap counting. Intermediate quotient projections cancel after the final one. Summing the resulting two geometric series gives explicit depth-uniform noise bounds and a noise-only ultraviolet limit. The full potential noise is still compressed by a nonlocal Coulomb projection. The note gives the remaining inherited-Maxwell alias sum and the correct transverse Schur inverse; inverse-then-project fails already for a two-dimensional diagonal example.
+
+The primary-source follow-up checked [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|DeGrand, Hasenfratz, Hasenfratz, and Niedermayer (1995)]], [Appendix A](https://arxiv.org/pdf/hep-lat/9506030), equations (A6)--(A10) and (A14)--(A19), in parsed primary text. These support the covariance-iteration and longitudinal/transverse-inversion precedent, not our kernel-specific constants or a uniform localization theorem. Native retrieval records were turn3543view0 and turn3543view1. Library access metadata was extended; no source payload or PDF was authored.
+
+The evidence gaps are sharply separated: the local completion and noise stencil are exact finite-regulator algebra, checked by two independent audits; depth-uniform spatial control of the inherited Maxwell term remains open; the full nonlinear Wilson law, source envelope, retained infrared gap, and continuum existence remain further obligations. No dimensional yardstick or canonical mass number follows from an auxiliary Gaussian precision floor. The original Maxwell marginal is recovered only after averaging the conditioned terminal readout, and is massless.
+
+The existing receipt was extended, retaining shared lattice operators. New tests check physical Fourier multipliers, the exact neighbor stencil, arbitrary-factor observation at sampled factors, accumulated-noise recursion, full covariance symbols and constrained inverses, multilevel terminal Schur identity, curvature covariance, and the stack-norm counterexample. All passed in sampled two- and three-dimensional lattices. Source retrieval stopped when the primary precedent and distinct scope were established; more citations would not close the remaining analytic estimate.
+
+## DR101. Uniform Gaussian locality and the carrier-first wiki refactor
+
+**2026-09-04.** The user's organizing request was a survey of the whole mass-gap folder, cross-workspace discovery of *carrier* and *response*, and extraction of shared work. Deep Research and the modular-notes procedure were used. The planning tool remained unavailable; the sequence was inventory, specialist-owner comparison, independent proof/source audits, extraction, and verification. The ongoing Gaussian estimate was completed as one branch, not substituted for the algebraic programme.
+
+### Analytic result and its limits
+
+[[rg-covariance-residue/uniform-gaussian-conditional-locality|Uniform Gaussian conditional locality]] proves a depth-independent complex momentum strip for the actual accumulated precision of the declared regular soft average. A summable high-alias majorant controls every fixed dimension, including four. The principal cochain identity cancels the apparent transverse-inverse pole even across its nonzero complex null cone. Uniform positivity away from zero and analytic continuation complete the periodic strip. Exponential Fourier coefficients, the terminal Schur floor, and a weighted block Schur test then give volume- and depth-uniform conditional covariance and coarse-source response.
+
+Two independent mathematical audits checked the pole cancellation, strip gluing, physical matrix normalization, terminal inversion, and source factors. The proof uses operator entries in physical-orthonormal coordinates, not integral kernels with an omitted cell-volume measure. It does not assert uniformity in an increasing blocking factor, automatically control observable-gradient envelopes, or turn the massless prior into a massive theory. Full non-Abelian conditional bounds, source transport, the retained infrared exponent, and the interacting continuum construction remain open.
+
+The new finite receipt checks the high-alias bound, cochain identity, inverse agreement, complex-cone continuation, real positivity, gauge kernel, periodicity, and weighted-inverse matrix lemma. Its two inverse formulas share a symbol helper: they check consistency, not independent derivation of the physical covariance. The older endpoint receipt supplies the separate real-space covariance and multilevel Schur comparison. Tolerances are explicit. A roundoff failure from evaluating the cancellation chart far outside its useful chart was resolved by using the original constrained inverse there and balanced momenta for the finite Fourier model, not by relaxing the final tolerance.
+
+### Refactor, corrections, and preservation
+
+The survey covered all **69 root canonical notes**, their leads and headings, the complete **1,053-line entry**, and targeted proof passages and dependencies. This is not verification of every proof in the **33,546-line** canonical body. The entry is now a **115-line dependency argument**: oriented operation, emergent stabilizer, actual carrier, lower frame, energy comparison, physical certificates, and scale selection. Its preceding text is preserved in the module's junk-drawer/inq-before-2026-09-04-refactor.txt. Historical research sections were not rewritten.
+
+[[measured-response-carriers/response-to-energy-comparison|The generic response-to-energy theorem]] was extracted from the measured-carrier entry, retaining MC21f--k and the old heading as a live link. The new note makes the carrier, vacuum condition, complex form core, image lower bound, and modulo-kernel alternative explicit. Its proof closes only the resulting physical energy inequality; neither surjectivity nor a whole-Hilbert bounded extension of the analysis map is required. The response-register owner and the oriented, categorical, regional, reversal, and rate-edge consumers now point to the relevant shared result.
+
+The exceptional notes distinguish finite-graph holonomy, which reaches a Wilson carrier with separately supplied measure and couplings, from the stronger uncompleted Clifford/spectral-cycle realization. Trace eight links to its reciprocal kinetic conversion. The S6 descent note now links metric normalization and the neutral-sector obstruction instead of relying on vocabulary-level similarities.
+
+Three substantive corrections were made: the optimal regional quadratic-frame coefficient is the **squared** least singular value; the causal-frame grain is an object-relative entropy/scale calibration, not automatically a physical correlation length; and the cosmological rejection concerns the tested live \(G\propto H/m_*^3\) closure, not every running-grain construction. The formerly unlinked cosmological receipt has a scoped consumer link. The entry's malformed multi-cell status rows are preserved in its snapshot, with their mathematical limitations retained in the detailed owners.
+
+The ownerless Faizal--Shabir criticism was moved into [[strong-coupling-gap-and-continuum-crossover/inq#A proposed crossover proof and its missing inequalities|the crossover module]]. Primary equations confirm the lower/upper operator-bound mismatch and distinct error-budget issues. The less well-supported compressed criticism of entry into a controlled regime was not repeated.
+
+### Primary-source ledger
+
+All sources below were inspected on 2026-09-04.
+
+| Claim | Primary source and retrieval | Finding and limit |
+|---|---|---|
+| Clay status | [Clay Mathematics Institute](https://www.claymath.org/millennium/yang-mills-the-maths-gap/), turn3561view0 | Still listed as unsolved; no construction requirement is relaxed. |
+| Geometric complex-S6 existence | [Engel, Theorem 3.1](https://philip-engel.github.io/S6.pdf) and [Alpöge-hosted main theorem/Corollary 1.1](https://alpo.ge/s6.pdf), turn3559view1--2 and turn3560view2--3 | Both assert smooth existence; Engel independently presents the same construction using sphere recognition. The acknowledged CDP analytic disagreement was not independently settled. |
+| Full formal source | [Pinned HopfProblem solution](https://github.com/plby/HopfProblem/blob/9ac8a456b526527837d7082ff775213ca8bc9809/Solution.lean), final construction and comparator configuration; local V10 scope/build reports | The public source transports an atlas by a homeomorphism to the standard topological sphere. A source comment is not an execution receipt. No full local Lean build was performed; the local 62-name finite-algebra audit is a different artifact. |
+| Proposed Yang--Mills bridge | [Faizal--Shabir arXiv v1](https://arxiv.org/pdf/2606.19362v1), main article (10.72)--(10.74), (11.1)--(11.8), turn3560view0--1 | Parsed-equation checks support the scoped critique, not a blanket verdict on every appended paper or on this construction style. |
+| Locality precedent | [Dimock's covariant axial-gauge analysis](https://arxiv.org/html/1410.2798v3), revisited; DeGrand et al. Appendix A from DR100 | Related iteration/decay architecture, not the kernel-specific strip theorem derived here. |
+
+Discovery stopped after the canonical owners, highest-impact source claims, and distinct missing maps were identified. More broad keyword searches would add links without changing the construction. No raw source, inbox packet, or conversation log was edited.
+
+### Verification scope
+
+All **35 mass-gap receipts passed**, with no stderr or timeouts; the read-only batch took 6.315 seconds with Python 3.12.14 and NumPy 2.3.5. A pre/post SHA-256 inventory confirmed no changes to the receipts directory or stored outputs. The new Gaussian locality receipt and seven related covariance, source, gauge-average, endpoint, normalized-kernel, and spectral-wall regressions also passed: **43 finite computation checks**, not 43 physical theorems. Workspace synchronization covers 471 modules; final link/style lint and whitespace checks cover the edited state.
+
+The next research action is to use the algebraic whole-law structure to force the physical lower frame, or establish the non-Abelian conditional and retained-infrared estimates that imply the same spectral exclusion. The broader Yang--Mills goal remains active and unachieved.
+
 ## Kill conditions
+
+- A high-alias split is treated as periodic by itself, a complex modulus is used in a holomorphy argument, or a sampled symbol's harmonic value is changed without accounting for its nonlocal finite-volume correction.
+- Gaussian terminal locality is called a non-Abelian estimate or an infrared gap despite the massless unconditioned prior.
+
+- A nearest-neighbor unprojected noise covariance is identified with its Coulomb compression or with the full accumulated precision; inverse-then-project is substituted for inversion on the transverse carrier.
+- Local coefficients on an enlarged multilevel carrier are treated as depth-uniform inverse localization despite a deteriorating product-norm floor; a terminal Schur norm sandwich is treated as a finite-range theorem.
 
 - A partial-divergence gauge completion is replaced by an arbitrary positive gauge penalty without checking its induced quotient law, or first-step Maxwell locality is extended to the accumulated precision using only a lower form comparison.
 

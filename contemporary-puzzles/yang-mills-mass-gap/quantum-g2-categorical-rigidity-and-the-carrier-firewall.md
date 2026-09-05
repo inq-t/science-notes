@@ -401,6 +401,8 @@ This makes the order of explanation visible: a boundary section fixes the overal
 
 ## The carrier-correct conditional mass-gap theorem
 
+The [[measured-response-carriers/inq#Categorical fusion-action specialization|categorical action interface]] distinguishes abstract fusion multiplication from a state-compatible, tube-admissible action on a physical carrier. The product of bounds below is a specialization of [[measured-response-carriers/response-to-energy-comparison|the response-to-energy comparison]], with categorical constants and regional normalization retained explicitly.
+
 Let
 
 \[

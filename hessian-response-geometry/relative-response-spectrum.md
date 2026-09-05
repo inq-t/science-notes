@@ -69,6 +69,8 @@ Thus the geometrically meaningful object is the **normalized pair** \((q,g)\), n
 
 Nor does finite-dimensional positivity settle the infinite-dimensional case. On \(\ell^2(\mathbb N)\), the bounded operator \(Re_n=n^{-1}e_n\) has \(q(v,v)>0\) for every nonzero \(v\), but its infimum relative to the ordinary norm is zero. The closed-form and domain-correct extension of (RS2) is already stated in [[contemporary-puzzles/yang-mills-mass-gap/internal-yardstick-as-a-generalized-rate-edge|the generalized rate-edge theorem]].
 
+[[rg-covariance-residue/multilevel-local-gauge-completion|The Gaussian multilevel completion]] gives a different, concrete carrier warning. Its terminal Schur response has a depth-uniform floor, but a coherent auxiliary field repeated across \(k+1\) levels has the same single terminal cost divided by a product norm \(k+1\) times as large. The enlarged lower edge can therefore tend to zero without any change to the terminal observable law. Enlarging a presentation is not an invertible change of coordinates on the original carrier; (RS3) does not license comparing its arbitrary product metric to the physical one.
+
 ## When a Hessian really transforms as a form
 
 For a scalar \(F\) and a nonlinear coordinate change \(x=x(y)\), ordinary second derivatives obey

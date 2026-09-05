@@ -178,7 +178,7 @@ $$
 \tag{R7}
 $$
 
-Thus the lower frame constant is the least singular value of the joint, BKM-weighted first-order observation map. It measures whether the entire declared tangent sector is visible somewhere in the atlas.
+Thus the optimal lower frame constant is the **square** of the least singular value of the joint, BKM-weighted first-order observation map. It measures whether the entire declared tangent sector is visible somewhere in the atlas. This is a [[measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers|pullback through the observation map]], measured relative to the independently specified norm in [[hessian-response-geometry/relative-response-spectrum|the response pair]]; it is not the smallest entry of a coordinate Hessian.
 
 This equivalence is special to finite dimension. In an infinite-dimensional carrier, injectivity does not imply a positive lower bound: the joint observation map can have singular values tending to zero. The continuum target is closed range, or directly a uniform lower-frame estimate, not merely separation of every individual vector.
 

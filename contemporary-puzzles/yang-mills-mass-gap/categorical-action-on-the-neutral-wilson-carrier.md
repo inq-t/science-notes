@@ -762,6 +762,8 @@ concentrated into a falsifiable algebraic object.
 
 ## Construction signature and kill conditions
 
+The last implication (CW34)--(CW36) is [[measured-response-carriers/response-to-energy-comparison|the generic response-to-energy comparison]] on the same carrier, with \(J=I\) and \(E_*=\hbar c/(2\pi R_B)\). The categorical averaging edge and the independently proved regional domination remain separate inputs; writing their product does not construct either.
+
 A vacuum-only fixed subspace and a numerical edge are not, by themselves,
 diagnostic of mass. Pairs of conditional-expectation projections can be
 chosen whose ranges meet only on \(\mathbb C\Omega\) and whose summed defect

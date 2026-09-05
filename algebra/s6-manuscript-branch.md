@@ -1,6 +1,6 @@
 # The Integrable $S^6$ Branch
 
-The smooth six-sphere admits an integrable complex structure. The Alpöge-hosted manuscript realizes one through a completed $(3,4,\infty)$ family of complex two-tori over $\mathbb P^1$; Engel gives a shorter self-contained geometric proof, and a separate Lean artifact proves the direct existence statement on the standard unit six-sphere with only the standard permitted axioms. This established existence theorem does not identify the integrable structure with the canonical octonionic one, Connes' finite KO-degree-six geometry, the Keller $A_2$ inverse cover, or a six-dimensional physical internal space.
+Engel presents a self-contained geometric proof that the smooth six-sphere admits an integrable complex structure, explaining the Alpöge-hosted $(3,4,\infty)$ construction. A separate public Lean source constructs a complex atlas on the standard topological sphere; its full execution has not been reproduced here. These geometric and formal sources do not identify that integrable structure with the canonical octonionic one, Connes' finite KO-degree-six geometry, the Keller $A_2$ inverse cover, or a six-dimensional physical internal space.
 
 ## What the manuscript claims
 
@@ -31,7 +31,11 @@ Compactification completes the family; it does not add a dimension.
 
 The PDF itself records no author, affiliation, arXiv identifier, DOI, or journal reference. It is hosted on Levent Alpöge's personal domain and was publicly shared by him, so "unsigned Alpöge-hosted manuscript" is more precise than "anonymous source." The manuscript devotes a section to explaining why its main theorem conflicts with the published Campana--Demailly--Peternell result.
 
-[[library/complex-structures-on-s6-engel/inq|Engel's 22-page proof]] supplies an independent, self-contained geometric presentation of the construction. [[library/formalization-of-the-hopf-problem/inq|The public Lean artifact]] at commit `9ac8a456b526527837d7082ff775213ca8bc9809` proves the exact statement that the standard unit $S^6$ carries a complex-three-dimensional manifold atlas. A static audit found no executable `sorry`, added axiom, `opaque`, or `unsafe` declaration. Its final dependency report lists only `propext`, `Classical.choice`, and `Quot.sound`; its comparator configuration permits exactly those axioms and enables `nanoda`. The artifact was not rebuilt in this workspace because the Lean toolchain is unavailable.
+[[library/complex-structures-on-s6-engel/inq|Engel's geometric proof]] independently presents the same construction, not an unrelated one. His Theorem 3.1 passes from a complex homotopy sphere to the standard smooth sphere using sphere recognition and \(\Theta_6=0\). The conflict with Campana--Demailly--Peternell's analytic argument is acknowledged in the Alpöge manuscript; this audit does not independently settle it.
+
+[[library/formalization-of-the-hopf-problem/inq|The pinned public Lean source]] transports a complex atlas by a **homeomorphism** to the metric unit sphere in \(\mathbb R^7\). Its target specifies that topology, not compatibility with a preassigned standard smooth atlas. The geometric recognition step supplies the latter existence conclusion. A static scan found no visible executable proof holes or added axioms. The source's three-axiom list after `#print axioms` is a comment recording expected output; the comparator configuration is not an execution receipt. Full kernel/comparator execution has not been reproduced here.
+
+The local `inbox/s6-proof-master` V10 companion is different: its own scope and build reports cover finite algebra and supplied-data implications, explicitly excluding construction of the complex six-sphere. Its 62-name axiom audit must not be substituted for a run of the full public formalization.
 
 The appropriate split status is therefore:
 
@@ -39,7 +43,7 @@ $$
 \boxed{
 \begin{aligned}
 &\text{existence on standard }S^6:
-&&\text{established theorem with geometric and formal proofs},\\
+&&\text{geometric proof; inspected formal proof source},\\
 &\text{manuscript's auxiliary analytic invariants}:
 &&\text{source claims under independent review},\\
 &\text{physical interpretation}:
@@ -93,7 +97,7 @@ Fuzzy spectral geometries are finite-resolution approximations to classical geom
 
 To use this branch in the algebraic pre-core, one would need:
 
-1. separate verification of any manuscript-specific invariant used downstream, without reopening the independently established existence theorem;
+1. separate verification of any manuscript-specific invariant used downstream, distinguishing source-level geometric results from independently executed formal certificates;
 2. a functor from its torus-family or stack data to the proposed foundational presentation category;
 3. a comparison with the standard octonionic $G_2/SU(3)$ structure;
 4. a spectral triple or algebraic background whose KO, metric, and ordinary dimensions are separately computed;

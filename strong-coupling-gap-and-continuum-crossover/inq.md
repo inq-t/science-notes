@@ -103,6 +103,13 @@ The arrow includes ultraviolet construction, infrared uniformity, vacuum
 control, and scale setting. Universality heuristics do not constitute that
 arrow.
 
+## A proposed crossover proof and its missing inequalities
+
+[[library/reflection-positive-construction-of-four-dimensional-su-n-yang-mills-theory-with-mass-gap-and-confinement/inq|Faizal and Shabir's proposed construction]], main article in arXiv v1, illustrates three distinct obligations. At printed pp. 128--129, (11.1)/(11.3) bound the next transfer operator **below**; (11.5) uses an **upper** bound that does not follow. Equation (11.8) also needs
+\(\sum_k c_k\varepsilon_k<\Delta_0\), not merely a finite error sum. At printed p. 125, (10.72)--(10.74) allow an \(O(g_k^2)\) remainder with \(g_k^2\sim C/k\); that estimate does not establish absolute summability. It does not prove that the actual remainder diverges either: a sharper estimate or cancellation could repair it.
+
+These are equation-level missing implications in the main article, not a verdict on every appended supporting paper, nor an impossibility theorem for reflection-positive renormalization or strong-to-weak coupling constructions. The paper does address entry into a controlled regime; that separate argument is not resolved by these three checks.
+
 ## A finite physical mass forces the one-step gap to close
 
 Let \(P_{0,a,L}\) project onto the intended vacuum sector and suppose the
@@ -236,4 +243,3 @@ projection gap as mass.
 - [[library/gauge-field-theories-on-a-lattice/inq|Osterwalder--Seiler]] supply reflection positivity and strong-coupling infinite-volume control.
 - [[library/existence-of-glueballs-in-strongly-coupled-lattice-gauge-theories/inq|Schor]] supplies direct isolated-glueball spectral evidence at strong coupling.
 - [[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Shen--Zhu--Zhu]] supply explicit volume-uniform functional inequalities and exponential correlation decay in a declared strong-coupling region.
-

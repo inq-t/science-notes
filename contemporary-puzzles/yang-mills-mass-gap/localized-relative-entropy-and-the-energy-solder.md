@@ -287,6 +287,8 @@ This places the restriction-loss construction of [[descent-loss-cocycle-and-reco
 
 ## Conditional gap theorem
 
+This is the same-carrier specialization of [[measured-response-carriers/response-to-energy-comparison|the response-to-energy comparison]], with analysis map equal to the identity and energy coefficient \(\hbar c/(2\pi R)\). The local-unitary regularity and complex-extension hypotheses below supply the content that the generic implication does not.
+
 For the gap conclusion, assume additionally that the chosen vacuum is unique,
 \(\ker H=\mathbb C\Omega\), so that the spectral vacuum projection is
 \(P_0=P_\Omega\).

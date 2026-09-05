@@ -37,6 +37,18 @@ Changing one of these fields changes the response question even when the display
 | gravitational canonical energy | a quadratic form on physical gravitational perturbations in a declared covariant phase space | [[spectral-wall-descent/ads-calibration-and-ds-carrier|AdS calibration and the de Sitter carrier]] |
 | capacity | a scalar contraction \(g(v,v)\) of a positive response form; not a linear charge or an action | [[program-core/symmetry-conservation-and-action|symmetry, conservation, and action]] |
 
+## Algebraic and conditional response carriers
+
+The mass-gap branches introduce further response types:
+
+| Term | Carrier and return | Canonical owner |
+|---|---|---|
+| two-descent response | sum of squared forgotten components on one GNS carrier, modulo the common retained space | [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|oriented descent and the pair angle]] |
+| representation-trace response | Lie-algebra form induced by a specified representation, not yet a field-state energy | [[contemporary-puzzles/yang-mills-mass-gap/octonionic-clifford-completion-of-the-color-normal|the color-normal Clifford completion]] and [[contemporary-puzzles/yang-mills-mass-gap/exceptional-wilson-same-carrier-factorization|its Wilson coefficient conversion]] |
+| categorical Dirichlet response | normalized fusion-averaging defect in a tube-admissible representation, modulo invariant vectors | [[contemporary-puzzles/yang-mills-mass-gap/quantum-g2-categorical-rigidity-and-the-carrier-firewall|quantum-\(G_2\) rigidity]] |
+| automorphic response | closed Laplacian form on a specified unitary-character bundle over a hyperbolic orbifold | [[contemporary-puzzles/yang-mills-mass-gap/triangle-character-cusp-coercivity|character-cusp coercivity]] |
+| accumulated Gaussian conditional precision | inverse conditional covariance on the terminal bond carrier, distinct from the prior and the full latent-stack Hessian | [[rg-covariance-residue/uniform-gaussian-conditional-locality|uniform Gaussian conditional locality]] |
+
 ## Exact same-carrier bridges
 
 The reusable equalities are conditional theorems, not similarities of notation. For a regular classical exponential family in its natural coordinates,
@@ -76,6 +88,8 @@ $$
 Normal unconditioned evaluation, normalized conditional-sector geometry, algebraic character evaluation, and a post-instrument factual response are different policies. [[program-core/center-valued-response|The scalarization owner]] gives their exact relation, including the central Fisher term. A center-linear construction may instead retain the center throughout later carrier changes.
 
 ## Open carrier and interpretation changes
+
+For a mass-gap application, [[measured-response-carriers/response-to-energy-comparison|the response-to-energy comparison]] isolates the required lower frame, response edge, and energy-form comparison. A representation multiplicity, an index, an automorphic character, and a categorical invariant projection do not identify the physical vacuum complement merely by sharing the word *response*.
 
 The project-specific arrows are longer than the same-carrier identities:
 

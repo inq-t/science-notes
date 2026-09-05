@@ -139,7 +139,7 @@ m_{\mathrm{gap}}
 \tag{RY9}
 \]
 
-Equation (RY8) is the scalar-denominator generalized-Rayleigh corollary of the theorem in [[causal-frame-coercivity]], not a second gap mechanism. [[localized-relative-entropy-and-the-energy-solder]] supplies one established upper bound on a response or relative-entropy form by the Hamiltonian form that a construction of (RY7) may consume. [[joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction]] owns the last step to (RY9).
+Equation (RY8) is the scalar-denominator generalized-Rayleigh corollary of [[causal-frame-coercivity]], not a second gap mechanism. In [[measured-response-carriers/response-to-energy-comparison|the generic response-to-energy theorem]], take the dimensionless response \(q=\mathfrak a_{\mathrm{loc}}/H_c\), \(E_*=\hbar H_c\), and \(b_J=1\). [[localized-relative-entropy-and-the-energy-solder]] supplies one established upper comparison that a construction of (RY7) may consume. [[joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction]] owns the last step to (RY9).
 
 ## The scale ratio is not yet the rate edge
 

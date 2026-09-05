@@ -170,7 +170,7 @@ c\,\mathcal E_{\mathrm{cand}}(f,f),
 c>0.
 $$
 
-Matching an eigenvalue, determinant degree, heat coefficient, or dimension does not pass this test. This is the common admission rule for \(S^6\), \(A_2\), wall, and Connes-inspired candidates.
+Matching an eigenvalue, determinant degree, heat coefficient, or dimension does not pass this test. This is the common admission rule for \(S^6\), \(A_2\), wall, and Connes-inspired candidates. [[measured-response-carriers/response-to-energy-comparison|The generic response-to-energy theorem]] gives the lower-bound version with an analysis map rather than a unitary equivalence; in the present unitary case its map is \(J=W^{-1}\) on the physical form core.
 
 ## Begin with the form, not a differential expression
 

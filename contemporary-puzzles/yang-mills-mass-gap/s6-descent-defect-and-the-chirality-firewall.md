@@ -219,7 +219,7 @@ H\longmapsto\varepsilon H,
 \tag{SD17}
 $$
 
-leaves $\Lambda$, monodromy, $B_0$, $p$, and every topological quotient unchanged while multiplying every energy gap by $\varepsilon$. Thus no topological certificate by itself determines even a dimensionless transfer rate.
+leaves $\Lambda$, monodromy, $B_0$, $p$, and every topological quotient unchanged while multiplying every energy gap by $\varepsilon$. Thus no topological certificate by itself determines even a dimensionless transfer rate. [[hessian-response-geometry/relative-response-spectrum#Coordinate covariance does not fix normalization|Coordinate covariance does not fix normalization]] explains the extra metric datum needed to make that rate meaningful.
 
 The needed theorem is a **descent-to-coercivity realization**. It must:
 
@@ -237,13 +237,13 @@ The needed theorem is a **descent-to-coercivity realization**. It must:
 4. control $\kappa\epsilon$ through volume removal and the continuum limit; and
 5. separately calibrate the surviving inverse time or inverse length into mass.
 
-Until then, the $S^6$ unit defect is an unusually crisp model of **topological residue cancellation**, while [[triangle-character-cusp-coercivity|the automorphic theorem]] is an exact model of **global unitary descent restricting a local continuum into a coercive sector**. The unproved step is transporting that mechanism to the Yang--Mills carrier and limit.
+Until then, the $S^6$ unit defect is an unusually crisp model of **topological residue cancellation**, while [[triangle-character-cusp-coercivity|the automorphic theorem]] is an exact model of **global unitary descent restricting a local continuum into a coercive sector**. The unproved step is transporting that mechanism to the Yang--Mills carrier and limit. In particular, [[augmentation-descent-and-the-neutral-sector-firewall#Exact neutral-sector no-go|a nontrivial character sector cannot silently stand in for neutral physical states]].
 
 ## Evidence boundary
 
 - **[EXACT FINITE INTERFACE]** The cyclic projections, signed winding data, unit determinant, relation-cokernel classification, and finite Lean certificates in `inbox/s6-proof-master`.
 - **[CONDITIONAL SOURCE-SPECIFIC GEOMETRY]** The use of those certificates in the particular period family, cusp filling, Hausdorff assembly, van Kampen calculation, and Leray computation. The short proof explicitly imports these results; its own audit leaves their independent verification open.
-- **[INDEPENDENT EXISTENCE EVIDENCE]** Existence of an integrable complex structure on the smooth $S^6$ has an independent geometric proof and a direct Lean proof recorded in [[algebra/s6-manuscript-branch|the integrable-$S^6$ branch]], while conventional publication and community assimilation remain in progress. This does not automatically certify every invariant of the $(3,4,\infty)$ construction.
+- **[GEOMETRIC AND FORMAL SOURCE EVIDENCE]** Engel presents a self-contained geometric proof of smooth existence. The pinned public Lean source constructs a complex atlas on the standard **topological** six-sphere; this workspace has inspected it, not rerun its full kernel/comparator check. [[algebra/s6-manuscript-branch|The integrable-$S^6$ branch]] separates that source from the narrower local finite-algebra companion and from smooth-sphere recognition. These results do not automatically certify every auxiliary invariant or supply a physical realization.
 - **[EXACT AUTOMORPHIC THEOREM]** The character formula $\chi_\ell(c)=e^{2\pi ip/12}$ and positive-bottom result for every nontrivial unitary character of $\Delta^+(3,4,\infty)$; this is a theorem on the hyperbolic-orbifold carrier, not on Yang--Mills.
 - **[EXACT, SEPARATE OCTONIONIC INDEX]** The generator clutching class of $G_2\to S^6$ and the index calculation (SD15); no comparison with $J_{\mathrm{int}}$ is supplied.
 - **[OPEN]** A comparison of the two $S^6$ structures, physical chirality or charge, a same-carrier automorphic-to-Yang--Mills coercivity map, continuum survival, and any mass scale.

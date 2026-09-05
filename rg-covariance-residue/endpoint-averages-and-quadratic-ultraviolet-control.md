@@ -142,6 +142,58 @@ $$
 
 This is not representative-level contraction for \(M_n\), whose connectors can be large. [[soft-gaussian-gauge-blocking|Soft Gaussian blocking]] uses (EA8a) and (EA8c) to control actual reverse conditional laws, not only a hard fiber.
 
+## A Fourier estimate uniform in the blocking factor
+
+For these regular periodic averages, the observation constant can also be made independent of the integer factor \(n\). For the exact Fourier convention take lower-corner blocks \(B_y=y+\{0,\ldots,n-1\}^d\) in fine-site coordinates. Use physical-unitary Fourier waves of amplitude \(\mathcal V^{-1/2}\), where \(\mathcal V\) is the common physical volume. At coarse dimensionless momentum \(p\in[-\pi,\pi)^d\), the fine aliases are \(q_\ell=(p+2\pi\ell)/n\), reduced modulo \(2\pi\). Define
+
+$$
+d_n(t)=\frac1n\sum_{r=0}^{n-1}e^{irt},\qquad
+s_n(q)=\prod_{\nu=1}^d d_n(q_\nu),\qquad
+\Omega_n(q)_{\mu\nu}=\delta_{\mu\nu}s_n(q)d_n(q_\mu).
+\tag{EA8d}
+$$
+
+Direct substitution in (EA3) gives \(\widehat{Q_nA}(p)=\sum_\ell\Omega_n(q_\ell)\widehat A(q_\ell)\). There is no additional \(n^{-d/2}\) factor in this physical-unitary convention. Factors in raw counting-measure Fourier conventions must not be imported here.
+
+Choose the principal alias \(q_0=p/n\). Since \(|q_{0,\nu}|\le\pi/n\),
+\(|d_n(q_{0,\nu})|\ge2/\pi\). Thus
+\(\sigma_{\min}(\Omega_n(q_0))\ge s_d:=(2/\pi)^{d+1}\).
+The cochain identity maps the fine gradient line onto the coarse gradient line, with nonzero scalar multiplier on this alias. The inverse multiplier therefore also preserves those lines. Taking the infimum over gauge representatives shows that the induced quotient map has the same lower singular-value bound.
+
+Split a minimum-norm Coulomb representative into its principal-alias part \(A_{\rm lo}\) and the remaining Fourier modes \(A_{\rm hi}\). Work in the complexified Fourier space: at a Nyquist tie the separate parts need not be real even when their sum is. Every latter mode has at least one \(|q_\nu|\ge\pi/n\). On the Coulomb carrier its Maxwell eigenvalue is
+\(4a^{-2}\sum_\nu\sin^2(q_\nu/2)\ge4/b^2\).
+Consequently
+
+$$
+\|A_{\rm hi}\|_a\le\frac b2\sqrt{q_a(A)},\qquad
+\|A_{\rm lo}\|_a
+\le s_d^{-1}\bigl(\|[Q_nA]\|_b+\|A_{\rm hi}\|_a\bigr),
+$$
+
+where the second estimate also uses (EA8c). The zero-momentum harmonic sector belongs to the low part and is preserved exactly. Hence
+
+$$
+\boxed{
+\|[A]\|_a
+\le s_d^{-1}\|[Q_nA]\|_b+
+\frac{1+s_d^{-1}}2\,b\sqrt{q_a(A)}.}
+\tag{EA8e}
+$$
+
+This constant is independent of \(a,n\), and total volume at fixed dimension. Squaring with \((x+y)^2\le2x^2+2y^2\) yields
+
+$$
+\|[A]\|_a^2\le A_d b^2q_a(A)+B_d\|[Q_nA]\|_b^2,\qquad
+A_d=\frac{(1+s_d^{-1})^2}{2},\quad B_d=2s_d^{-2}.
+\tag{EA8f}
+$$
+
+Thus a soft penalty \(q_a+\rho b^{-2}\|[Q_nA]\|_b^2\) has lower bound
+\(b^{-2}\min\{A_d^{-1},\rho B_d^{-1}\}\|[A]\|_a^2\).
+On the hard fiber, the unsquared estimate gives the slightly stronger
+\(q_a(A)\ge4(1+s_d^{-1})^{-2}b^{-2}\|[A]\|_a^2\).
+This improves the refinement uniformity of the finite-patch argument for this particular average; it does not establish uniformity of the separate patch constant \(c_{n,d}\), or apply to thin-skeleton sampling.
+
 ## Curvature contraction removes the blocking-depth loss
 
 For forward exterior derivatives with their physical spacings, telescoping the coordinate differences in (EA3) yields

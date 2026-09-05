@@ -559,7 +559,7 @@ the ratio of the color-active stable representation classes:
 
 This is stronger than observing \(24=3\cdot8\). The numerator and denominator are traces of the same Lie-algebra action on two carriers derived from the same exceptional Jordan whole.
 
-It still does not supply an energy. Rescaling a configuration-space metric rescales its Laplacian inversely, while the electric kinetic coefficient rescales reciprocally. The physical invariant is their dimensionful product after the state, clock, and continuum normalization have been fixed.
+It still does not supply an energy. Rescaling a configuration-space metric rescales its Laplacian inversely, while the electric kinetic coefficient rescales reciprocally. The physical invariant is their dimensionful product after the state, clock, and continuum normalization have been fixed. [[exceptional-wilson-same-carrier-factorization#Exact coefficient-conversion theorem|The exact Wilson coefficient conversion]] implements this cancellation; the eight is not an independently predicted energy multiplier. [[hessian-response-geometry/relative-response-spectrum|The relative-response spectrum]] supplies the general metric-pair formulation.
 
 ## The two eights remain different operations
 
@@ -677,13 +677,15 @@ b_N=8(-B_{\mathfrak{su}(3)}).
 \tag{OC29}
 \]
 
-To turn this into a physical theorem one must still:
+For the **Clifford/spectral-cycle branch**, one must still:
 
 1. lift the color-restricted stable isomorphism to a natural bundle or correspondence over the oriented-flag field, rather than choose an abstract character isomorphism;
 2. determine whether the Clifford action extends compatibly to the full residual group \(H\), or prove that a dynamical color projection is forced;
 3. construct the first-order operator, real structure, grading, state, and restriction system needed for an actual KO-dimension-six spectral cycle;
 4. compare the resulting field-valued Clifford response with the interacting-vacuum weighted electric form on the complete gauge-invariant complement; and
 5. transport a regulator-uniform positive product through OS and Poincare reconstruction.
+
+The **holonomy-probe branch** has a different status: [[exceptional-wilson-same-carrier-factorization#Two uses of the exceptional normal must be separated|the exceptional normal already reconstructs a Wilson gauge carrier]]. It does not require the missing finite spectral cycle merely to reach that carrier; its open step is the interacting, regulator-uniform physical gap.
 
 The stopping condition has consequently improved. A future claim that Bott periodicity “explains the \(8\)” must recover (OC11) or a stronger natural intertwiner, not merely repeat the numeral. A future claim that the class-six residue explains matter must build the spectral cycle, not merely count the six discarded real directions. A future mass-gap claim must still prove the interacting and continuum coercivity that neither stable representation theory nor Clifford periodicity contains.
 

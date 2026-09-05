@@ -1,6 +1,6 @@
 # Soft Gaussian Gauge Blocking
 
-Normalized Gaussian readouts of gauge classes preserve a Maxwell comparison through arbitrarily many blocking steps. Their accumulated noise is controlled by a geometric series in physical block widths, and the full observation inequality gives a uniform lower bound for each reverse conditional precision. These are exact Gaussian ultraviolet results. They do not establish spatial localization, a nonlinear Yang--Mills bound, or a physical mass gap.
+Normalized Gaussian readouts of gauge classes preserve a Maxwell comparison through arbitrarily many blocking steps. Their accumulated noise is controlled by a geometric series in physical block widths, and the full observation inequality gives a uniform lower bound for each reverse conditional precision. This norm theorem is an exact Gaussian ultraviolet result; a separate holomorphic-symbol argument supplies spatial localization. Neither theorem establishes a nonlinear Yang--Mills bound or a physical mass gap.
 
 ## The carrier and the normalized law
 
@@ -55,6 +55,8 @@ C_k:=\operatorname{Cov}(X_k)
 $$
 
 The additive covariance recursion has a gauge-blocking precedent in [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|DeGrand et al.]], equation (20). The block geometry and physical-metric estimates here are specified separately; their fixed-point calculation is not being cited as proof of (SG5).
+
+For these regular averages, [[accumulated-readout-noise|the entire noise sum has an exact nearest-neighbor unprojected covariance]]. Its projection onto \(H_k\) need not be local. That result also gives the full inherited-Maxwell alias formula and the correct transverse inverse, isolating the remaining spatial estimate.
 
 For completeness, energy contraction implies the inverse comparison: from
 \(T^*K_kT\le K_0\), the operator \(K_k^{1/2}TK_0^{-1/2}\) is a contraction, hence \(TK_0^{-1}T^*\le K_k^{-1}\). Norm contraction separately bounds every noise term. Therefore
@@ -113,7 +115,7 @@ $$
 
 Thus the reverse conditional covariance has operator norm at most \(b_{k+1}^2/c_{\rm soft}\), uniformly in depth and volume. Gaussian Poincare then bounds conditional variance by this constant times the expected squared hidden gradient. Neither assertion implies exponential off-diagonal decay in a declared spatial metric.
 
-[[local-completion-of-soft-gauge-conditioning|A local partial-divergence completion]] supplies the missing spatial estimate for the **first Maxwell step**. Gauge-orbit integration preserves its conditional curvature law, and an explicit full-carrier floor plus finite range gives exponential covariance and coarse-source response bounds. Applying that proof at later steps requires spatial control of the actual accumulated \(P_k\); (SG6) alone does not provide it.
+[[local-completion-of-soft-gauge-conditioning|A local partial-divergence completion]] proves first-step exponential covariance and coarse-source response. [[multilevel-local-gauge-completion|The whole-chain enlargement]] supplies the actual terminal Schur precision, although its unweighted full-stack norm loses coercivity with depth. [[uniform-gaussian-conditional-locality|The accumulated locality theorem]] avoids that norm: exact gradient compatibility cancels the principal inverse pole, a common holomorphic strip controls the coefficients, and weighted terminal inversion yields depth-uniform spatial decay. The comparison (SG6) alone would not provide that result.
 
 The observation term is essential. In an abstract two-dimensional example with \(0<\varepsilon\le1\), take
 
