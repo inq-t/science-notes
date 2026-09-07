@@ -148,6 +148,8 @@ Consequently
 \]
 This lower bound is sufficient, not asserted sharp for the pinching family. It controls the full \(728\)-dimensional complex traceless matrix carrier, not just \(L(J_0)\). A context measure \(\mu\ge\alpha\,dp\) retains the bound \(\alpha/13\); an arbitrary concentrated context law need not.
 
+The same moment (PP11) also enters [[primitive-overlap-refinement-and-the-emergent-diffusion|overlap refinement]] on functions of primitive states: the kernel \(3\operatorname{tr}(p\circ q)\) has eigenvalue \(1/13\) on linear traceless symbols and an infinite-dimensional kernel. Higher overlap powers and repeated comparison construct a full state-space diffusion. That function-space comparison is not the matrix pinching form in (PP12), despite the shared coefficient.
+
 The previous unseen balance
 \(T_{\rm bal}=27P_{\mathbf1}-I\) is now detected. For every primitive \(p\),
 \[

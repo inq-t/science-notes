@@ -1,0 +1,9 @@
+PASS exact Wick generator sign and complex symplectic scaling
+PASS stable Euclidean graph gives positive frequency and action sign
+PASS rational non-diagonal response gives one negative record direction
+PASS record reparametrization and positive conformal covariance
+PASS beta=3 stays Lorentzian but only beta=2 is a reflection
+PASS increasing record alone does not imply the causal cone bound
+PASS finite reflection-positive kernel equals its feature Gram form
+PASS finite positive attenuation is contractive but not information erasure
+Finite algebra only; no continuum construction, time calibration or mass gap certified.

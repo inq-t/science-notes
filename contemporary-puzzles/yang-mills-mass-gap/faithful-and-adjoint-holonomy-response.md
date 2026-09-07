@@ -87,6 +87,8 @@ It does not add an independently adjustable term, change the kinetic conversion 
 
 Replacing the faithful probe by its Hessian-matched adjoint version loses center information. This is not the same statement as [[twisted-holonomy-and-the-neutral-hessian|center neutrality of physical glueball states]]. A fundamental closed Wilson loop is gauge invariant and can distinguish the holonomies in (FA4); an adjoint character cannot. Probe sensitivity and the charge of a physical state have different carriers.
 
+[[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop transport example]] makes the same sensitivity distinction spectral on another carrier. Pauli vector transport has central square holonomy \(-I\) and a volume-independent connection-Laplacian edge. Adjoint transport erases that holonomy and, on an even torus, is gauge-equivalent to ordinary matrix-valued graph diffusion. This is a comparison of specified section processes, not a calculation of glueball energy.
+
 The negative potential Hessian in (FA8) also prevents a global convexity argument based solely on the positive identity metric. It does not imply a gapless interacting law: the full electric operator, vacuum weighting, and configuration-space Ricci term are different ingredients. [[rg-covariance-residue/nonlinear-conditional-gauge-response|The normalized compact conditional bound]] shows explicitly how those Hessian signs enter a valid sufficient estimate.
 
 [[receipts/nonlinear_holonomy_probe_receipt.py|The finite holonomy receipt]] checks the exact decomposition, center values, matching identity Hessians, and quartic remainder for \(SU(2)\), \(SU(3)\), and \(SU(4)\). These checks certify the written finite-dimensional identities, not their missing physical realization.

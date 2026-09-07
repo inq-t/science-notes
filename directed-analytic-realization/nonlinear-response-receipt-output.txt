@@ -1,0 +1,8 @@
+PASS nonlinear graphs, decay law, coupling relation, metric control
+PASS determinant transgression, magnetic potential, gauge horizontality
+PASS positive-Hessian incompatibility: 20/27 - 8/27 = 4/9
+PASS norm-preserving response rotation is not gradient-compatible
+PASS quartic-response quantum gap constants: 0.866025404, 1.046049620
+PASS homogeneous gauge oscillator counting and epsilon^(4/3) scaling
+PASS flat local gauge connection has nonzero pointwise commutator
+Finite checks only; continuum Yang--Mills existence and gap remain open.

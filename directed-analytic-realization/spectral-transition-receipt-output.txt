@@ -1,0 +1,8 @@
+PASS: the isometry and three spectral effects give 144 exact complex preparation-Gram identities; the compressed readout is not a semigroup.
+PASS: the exact atom/source null quotient rejects the source flip but admits the diagonal coefficient action; preserving a source label is not automatic descent.
+PASS: 36 canonical corner products and their adjoints are preserved, but the returned unit is JJ*, not the identity on the three-dimensional preparation carrier.
+PASS: three preparation vectors have determinant -3/25; their nine transitions span M3 and satisfy all 81 exact Gram-contracted products and adjoint identities.
+PASS: two exact spectral phases preserve all transition products, adjoints and rank-one norms by unitary conjugation, while the initial source corner is not invariant.
+PASS: two Hermitian transitions create orthogonal vectors yet have a nonzero commutator that kills the vacuum; carrier orthogonality is not physical locality.
+All six check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Finite spectral reconstruction and transition closure do not establish physical locality, a spacetime net, a selected clock scale, or a new mass-gap theorem.

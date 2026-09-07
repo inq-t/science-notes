@@ -41,6 +41,13 @@ This follows by expanding \(x^2=b^2+2b\circ y+y^2\), applying (EC2), and taking 
 \]
 Here the operator acts on Jordan observables. Its residue is a lost quadratic distinction, not yet energy or a count of actual events.
 
+[[algebra/positive-cone-processes-and-the-complex-corner|Complex-corner response]]
+compresses this actual positive residue through a selected trace-two
+idempotent in \(B\). The result belongs to the \(3+1\) Lorentz cone of
+\(\mathfrak h_2(\mathbb C)_+\), and obeys its determinant-Hessian causal
+bound. A nonzero off-context residue can land on the null boundary;
+positivity of this cost is not a strict mass floor.
+
 The signed datum survives separately:
 \[
 I_w=\frac{w-w^2}{\sqrt3},\qquad

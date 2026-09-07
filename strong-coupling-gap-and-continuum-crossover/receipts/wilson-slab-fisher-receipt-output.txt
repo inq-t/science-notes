@@ -1,0 +1,40 @@
+PASS 36 exact finite slabs: conditional TV, covariance resolvent and joint-score bounds
+PASS 6 complete interacting bridge and separate endpoint gauge-quotient matrices
+PASS 27 SU(2) certificate arithmetic cases and the temporal-refinement failure check
+PASS 128 raw Wilson link states -> 4 complete gauge orbits: kinetic/magnetic restriction, Perron law and Doob lumpability
+Fixed-space temporal refinement: supplied gamma=0.5, ell=0.5; beta=epsilon*g
+graph cycles states g kappa_H gap_H rate_bound kappa_H-tanh(ell*gap_H) commutator
+1x1 1 2 0.0 0.761594156 2.000000000 1.433780830 +0.000000000 5.551e-17
+  n=1->32 block error 5.551e-17->4.441e-16; bridge error 0.000e+00->4.441e-16; n=32 kappa=0.761594156 gap=2.000000000
+1x1 1 2 0.2 0.769432146 2.039607805 1.467210083 -0.000354506 0.000e+00
+  n=1->32 block error 5.433e-03->5.399e-06; bridge error 5.934e-04->5.931e-07; n=32 kappa=0.769432739 gap=2.039610997
+1x1 1 2 0.8 0.853577116 2.561249695 1.921256382 -0.003074190 1.110e-16
+  n=1->32 block error 2.177e-02->2.195e-05; bridge error 4.802e-03->4.969e-06; n=32 kappa=0.853582086 gap=2.561290364
+2x1 2 4 0.0 0.760710249 2.000000000 1.430080116 -0.000883907 1.254e-16
+  n=1->32 block error 4.712e-16->7.789e-15; bridge error 3.331e-16->3.442e-15; n=32 kappa=0.760710249 gap=2.000000000
+2x1 2 4 0.2 0.761339417 2.003288942 1.432712892 -0.000944510 1.125e-04
+  n=1->32 block error 7.860e-03->7.818e-06; bridge error 9.757e-04->9.789e-07; n=32 kappa=0.761340396 gap=2.003293717
+2x1 2 4 0.8 0.816261931 2.307745717 1.694244072 -0.002771084 1.562e-04
+  n=1->32 block error 2.932e-02->2.971e-05; bridge error 8.479e-03->8.766e-06; n=32 kappa=0.816270697 gap=2.307801541
+2x2 4 16 0.0 0.759723358 2.000000000 1.425964344 -0.001870798 1.050e-16
+  n=1->32 block error 1.482e-15->9.741e-15; bridge error 5.551e-16->6.994e-15; n=32 kappa=0.759723358 gap=2.000000000
+2x2 4 16 0.2 0.752382967 1.965426482 1.395871947 -0.001855080 3.109e-04
+  n=1->32 block error 1.141e-02->1.135e-05; bridge error 1.390e-03->1.396e-06; n=32 kappa=0.752384362 gap=1.965432824
+2x2 4 16 0.8 0.756453859 1.987381500 1.412448864 -0.002477816 4.233e-04
+  n=1->32 block error 3.712e-02->3.768e-05; bridge error 1.383e-02->1.412e-05; n=32 kappa=0.756467983 gap=1.987449407
+1x1x1 5 32 0.0 0.757719643 2.000000000 1.417659722 -0.003874513 1.241e-16
+  n=1->32 block error 1.757e-15->1.880e-14; bridge error 0.000e+00->1.665e-15; n=32 kappa=0.757719643 gap=2.000000000
+1x1x1 5 32 0.2 0.710760050 1.803794803 1.240498660 -0.006460443 1.225e-03
+  n=1->32 block error 1.404e-02->1.398e-05; bridge error 2.256e-03->2.266e-06; n=32 kappa=0.710762316 gap=1.803802848
+1x1x1 5 32 0.8 0.724015532 1.875001005 1.287410688 -0.010056220 2.108e-03
+  n=1->32 block error 3.029e-02->3.079e-05; bridge error 1.546e-02->1.455e-05; n=32 kappa=0.724030080 gap=1.875059804
+PASS 72 same-law complete Wilson bridges through fixed-space temporal refinement
+Finite floating-point spectra are calibrations, not certified lower bounds; no spatial thermodynamic/continuum limit, compact-simple group, or generated physical mass is established.
+PASS exact interacting one-plaquette bridge: kappa=163/273, tanh(ell*gap)=3/5, difference=-4/1365
+PASS 24 noncommuting SU(2) ramp log-weight derivatives: kinetic, all magnetic factors and fixed endpoints; max error=7.571e-11
+PASS 18 mixed-neighbor score tests with zero self tangent and actual oriented plaquette incidence
+PASS 21 SU(2) Haar Fisher quadratures: x^2 E[(d_v phi)^2]=x |v|^2 E[phi] <= x |v|^2; max residual=1.478e-12
+PASS 81 WC17 ramp certificate cases: lambda_*=0.462360262008, C_*=1.219122906800, kappa_*=0.159401259584
+PASS 7 temporal-rounding and rate checks: n*epsilon -> 8; bridge rate=0.010852553428, separate gradient rate=0.231180131004
+SU(2) differential, quadrature and constant checks are deterministic numerical evidence, not a proof of the full-group inequalities or any limiting construction.
+No compact-group discretization limit or four-dimensional continuum gap is certified.

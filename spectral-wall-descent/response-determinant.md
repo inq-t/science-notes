@@ -127,6 +127,16 @@ $$
 
 The arrow to an observable action is a consumer map. Least action may govern the resulting fields without being the principle that first selected \(L\), the wall, or the state family.
 
+[[algebra/positive-cone-processes-and-the-complex-corner|The complex rank-two cone]]
+uses the same matrix differential identity in a different carrier:
+\(-\tfrac12\log\det u\) supplies a positive affine Hessian and a scale
+covector together. Their reflection is a Lorentzian form. Its
+[[algebra/determinant-scale-clock-and-the-hyperbolic-threshold|scale–shape decomposition]]
+has hyperbolic spatial slices, but the flat massless field return cancels
+the apparent Laplacian threshold. No Gaussian elimination, state family
+or gravitational determinant term is identified across these carriers
+without a comparison.
+
 ## Spectral regularization and the normalization problem
 
 For a background-dependent elliptic operator \(L[\bar x,g,\ldots]\), one may represent the determinant through a heat trace or zeta function. Schematically,

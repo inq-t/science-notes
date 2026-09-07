@@ -1,0 +1,11 @@
+PASS: d=2..8 balance; 105 exact oscillator coefficient cases.
+PASS: 340 paired-frequency cases; 34 sharp or zero equality cases.
+PASS: 363 diagonal su(N) root cases, N=2..6; -Tr metric, b_g=2N.
+PASS: 30 SU(2) cross-product matrices; d=3 recovery and metric distinction.
+PASS: 140 carrier/parameter dilation cases; kinetic and quartic scales agree.
+PASS: Gaussian normalization/moment; 84 exact R^-2 excess cases.
+PASS: 84 reductive bracket cases; central displacement costs no potential.
+All seven check groups passed. Stdlib only; stdout only; no files written.
+Scope: coefficient, root, scaling and free-center checks; no spectral gap computed.
+Compactness, vacuum uniqueness and a positive centered gap use the note's proofs.
+No continuum, volume-uniform, physical-yardstick or group/dimension selection claim.

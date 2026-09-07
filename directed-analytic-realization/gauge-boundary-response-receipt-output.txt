@@ -1,0 +1,7 @@
+PASS full cubic boundary response satisfies Hamilton-Jacobi and Gauss
+PASS transverse-only cubic response fails the nonabelian Ward test
+PASS quartic source requires the positive Coulomb completion energy
+PASS zero-mode cubic prescription leaves a nonzero quartic obstruction
+PASS local positive branch jets and weighted Green contraction kernel
+PASS invariant quantum-origin jet and 44 a + 28 b coefficient identity
+Finite checks only; no full boundary vacuum or continuum mass gap certified.

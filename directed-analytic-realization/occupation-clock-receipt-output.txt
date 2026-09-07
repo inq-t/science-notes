@@ -1,0 +1,10 @@
+PASS: 57 bounded-occupation residual checks, 45 energy-cutoff checks and 39 first/second differences; residual <= E(E-1)/D on m<=E for tested integer cutoffs E>=1, and second difference=2/D.
+PASS: 3 exact vacuum/m=D mixtures with tail weight 1/D give E[H]=2-1/D, E[N]=1 and E[H-N]=1-1/D; bounded mean energy alone does not justify convergence of these unbounded expectations.
+PASS: 135 sector-subtraction identities give (1+2n/D)k+k(k-1)/D; 96 negative controls reject the coefficient n/D.
+PASS: 240 two-mode differences equal 2ab/D; 135 nonzero mixed terms reject an additive independent-mode clock.
+PASS: 225 positive shifted-resolvent differences to a_D N satisfy 0<=difference<=1/(D a_D^2)<=1/D at the declared rational probes.
+PASS: the equal rate-1/rate-3 mixture on |1><0| has phase derivatives 2i,-5 rather than 2i,-4 (defect -1), and heat derivatives -2,5 rather than -2,4 (defect +1); rate variance is exactly one.
+PASS: the exact rank-three spectral cyclic projector retains one vacuum and both excited levels, commutes with H and contains J; the original lowering operator sends a retained antisymmetric excitation to the excluded vacuum.
+All six exact finite check groups passed; stdlib only; stdout only; no files written.
+No floating arithmetic, numerical exponential, sampling or spectral fitting is used.
+Finite checks do not prove full-space convergence, an occupation-selection law, physical clock calibration, spatial locality or a Yang--Mills gap.

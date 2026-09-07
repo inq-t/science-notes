@@ -156,6 +156,8 @@ The tangent-bundle construction remains valuable in four ways.
 
 Fixed-locus formation is not a conditional expectation, quotient, or wall-descent process. For factive spacetime the remaining step is the realization described in [[algebra/real-forms-and-factive-spacetime|real forms and factive spacetime]]. Conjugation selects a real object; it does not create a one-sided record order or Lorentzian time.
 
+[[algebra/opposed-response-polarization-and-kahler-completion|Opposed response polarization]] provides a different complexification of two configurations rather than the tangent bundle of one. The nonlinear graph sum supplies its Green form; a chosen exchange complex structure then forces the arithmetic mean of the two Hessians as its metric. A polar prescription gives their geometric mean instead. In a convex-quartic family the exchange geometry admits a complete isometric circle action with an explicit moment function. This gives a concrete clock-selection test while keeping the response-pair, tangent-bundle and quantum Hilbert carriers distinct.
+
 ## Primary sources
 
 - P. Dombrowski, [[library/geometry-of-the-tangent-bundle/inq|*On the Geometry of the Tangent Bundle*]], *Journal fur die reine und angewandte Mathematik* 210 (1962), 73--88. This supplies the natural almost-complex structure and its integrability criterion.

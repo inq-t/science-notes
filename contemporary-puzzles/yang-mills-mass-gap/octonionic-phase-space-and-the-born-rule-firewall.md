@@ -15,7 +15,7 @@ $$
 
 and its stabilizer in \(G_2=\operatorname{Aut}(\mathbb O)\) is \(SU(3)\). The resulting principal bundle is the [[library/transition-function-of-g2-over-s6/inq|homogeneous fibration \(SU(3)\to G_2\to S^6\)]]. This is an exact model of a local complex face and its stabilizer.
 
-But a classical phase space requires a nondegenerate closed two-form, and a quantum carrier requires still more: a complex Hilbert space or another precisely stated probabilistic framework, a positive state, and an associative composition law for observables or an explicit replacement. Octonion multiplication alone supplies none of these. Its commutator is a Malcev rather than Lie bracket, so one cannot silently treat it as a Poisson bracket; the Jacobi identity is part of what would have to be recovered.
+A symplectic classical phase-space realization requires a nondegenerate closed two-form. A standard quantum return requires a complex Hilbert or observable-algebra carrier, positive evaluations and a specified composition law; a deeper proposal may instead state an explicit replacement and prove the required observable return. These are structural obligations, not a requirement that the upstream ontology be symplectic or fundamentally probabilistic. Octonion multiplication alone supplies none of these returns. Its commutator is a Malcev rather than Lie bracket, so one cannot silently treat it as a Poisson bracket; the Jacobi identity is part of what would have to be recovered in that particular realization.
 
 ## The literal exceptional phase-space candidate
 
@@ -62,7 +62,7 @@ $$
 \tag{O4}
 $$
 
-The “resonant frequencies” are meaningful only after \(\widehat K\), its self-adjoint domain, and a normalized evolution parameter exist. The Born rule is meaningful only after a positive normalized state and an outcome algebra or instrument exist. Descent may select a complex slice, but selection of \(\mathbb C_u\) does not prove either positivity or a gap.
+The “resonant frequencies” are meaningful only after \(\widehat K\), its self-adjoint domain, and a normalized evolution parameter exist. Conventional Born weights require a positive normalized evaluation and specified tests. The broader *Born-rule-like* objective is to construct the model-to-observation map itself, without choosing a probabilistic, Everettian or deterministic ontology. [[directed-analytic-realization/positive-readout-and-the-born-weight|Positive readout on returned transitions]] provides one conditional construction; an outcome interpretation is not its premise. Descent may select a complex slice, but selection of \(\mathbb C_u\) does not prove either positivity or a gap.
 
 ## The causal-patch confinement test
 
@@ -83,8 +83,8 @@ The second route cannot be inferred from the first. Recovering the familiar \(SU
 
 The exceptional carrier becomes more than a metaphor only if it returns:
 
-1. a specified symplectic/Jordan carrier and domain;
-2. a quantization or generalized probabilistic rule with positive normalized states;
+1. a specified global carrier and domain, such as the Jordan/Freudenthal candidate;
+2. a quantization or explicit realization/readout rule returning positive normalized evaluations;
 3. an associative local observable face, or a proved replacement with the correct composition and positivity laws;
 4. a canonical self-adjoint global response generator whose kernel is exactly the vacuum direction after descent;
 5. a causal-patch or wall construction with a regulator- and volume-uniform lower frame;
@@ -92,4 +92,4 @@ The exceptional carrier becomes more than a metaphor only if it returns:
 7. recovery of the local Yang--Mills net, gauge identities, asymptotic freedom, Poincare representation, and \(\mathbb R^4\) limit; and
 8. the spectral conclusion \(\sigma(H)\cap(0,\Delta)=\varnothing\).
 
-Until then the Freudenthal space is the best-typed candidate for the proposed octonionic phase space, while the actual stopping condition remains the ordinary Yang--Mills Hamiltonian gap.
+The Freudenthal space is thus one precisely typed candidate for the proposed octonionic phase space, while the actual stopping condition remains the ordinary Yang--Mills Hamiltonian gap on the recovered physical carrier.

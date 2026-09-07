@@ -134,6 +134,31 @@ Here \(p\in\Sigma_N\), \([\chi_N]=[\overline\chi_{\Sigma,N}]=L^{-2}\), and \([\m
 
 The coincidence-Hessian theorem is owned by [[basic-concepts/hessians/inq#Log-partition Hessians and Fisher geometry|the Hessian module]]; [[basic-concepts/hessians/gibbs-free-energy-relative-entropy|the Gibbs--relative-entropy identity]] records the fixed-Hamiltonian thermodynamic specialization. Neither theorem supplies the open localization map.
 
+[[algebra/moving-response-balance-and-a-ruble-operator-signature|Moving response balance]]
+extends the operator question to changing comparison forms: a process with
+response \(G_u\) and tangent transport \(K_u\) has covariant loss form
+\(R_u=-\dot G_u-K_u^*G_u-G_uK_u\). Its finite-arrow defect is additive after
+pullback, and its fixed-rank determinant cost supplies a process cocycle
+without choosing an external clock. A comparison pencil \((R_u,C_u)\)
+is a proposed operator-valued exchange signature, not a new definition of
+the localized scalar \(\chi_N\) or proof of the state--geometry weld.
+
+[[algebra/sphere-to-ball-descent-and-the-jacobi-response|Spherical readout]]
+constrains a measure and response through the same rank-changing
+presentation. Its [[algebra/jordan-covariance-and-the-entropy-weighted-ball|retained covariance]]
+is SLD-type rather than BKM; its negative log density also depends on
+the reference volume form. The
+[[algebra/finite-entropy-cost-and-rank-changing-readout|finite conditional entropy loss]]
+is a third, state-indexed comparison. These exact distinctions prevent
+substituting every positive quantity called entropy or response into RE2.
+
+[[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|Partial-trace clock consistency]]
+also fixes a response duration across different readouts of one
+purification: the product \(dK\) of retained and environment dimensions is
+unchanged. This is a typed whole-to-local invariant, not a Hubble rate or
+the physical area–state comparison. Enlarging the parent is a separate
+limit whose ensemble and quantum response carriers must be distinguished.
+
 ## RE3 — State–geometry equivalence
 
 **[FULL-WELD CONJECTURE + NORMALIZED-CHANNEL PRINCIPLE]**

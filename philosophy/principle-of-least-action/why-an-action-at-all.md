@@ -39,6 +39,37 @@ $$
 
 Unimodularity is a further postulate and not a consequence of unitarity, which constrains the evolution operator rather than the weight of an individual history: Euclidean weights $e^{-S_E}$ obey the same composition law without it. Nothing in the argument asserts that anything is minimized, and it never mentions stationarity.
 
+## A history weight is not a transfer kernel
+
+Multiplicativity above is a statement about one concatenated history.
+An integral kernel composes by summing over the intermediate value:
+\[
+k_{t+s}(x,z)=\int k_t(x,y)k_s(y,z)\,d\nu(y).
+\]
+Taking a pointwise negative logarithm therefore gives a log of an
+integral, not addition of two endpoint costs. This requires a reference
+measure and an actual composition theorem; scalar history additivity
+alone does not supply them.
+
+For example, in fixed dimensionless coordinates the heat semigroup of
+\(H=-\partial_x^2\) on \(L^2(\mathbb R,dx)\) has kernel
+\[
+k_t(x,y)=\frac{e^{-(x-y)^2/(4t)}}{\sqrt{4\pi t}},\qquad
+-\log k_t(x,y)=\frac{(x-y)^2}{4t}+\frac12\log(4\pi t).
+\]
+The endpoint cost includes a normalization term as well as the classical
+quadratic saddle cost. Changing the reference density also changes its
+pointwise logarithm. In contrast, the operator identity
+\(-\log(e^{-tH})=tH\) is spectral functional calculus on its proper
+domain; it is not the pointwise logarithm of \(k_t(x,y)\).
+
+Thus a semigroup can be a primitive from which one seeks a path or
+variational presentation. Neither an arbitrary semigroup nor its operator
+logarithm already specifies a local history action. The
+[[algebra/quotient-clock-and-stationary-action|exact stationary state action]]
+below is a different construction and does not require a saddle
+approximation or path-integral representation.
+
 ## The action is circle-valued
 
 On $U(1)$ the logarithm is multivalued, so additivity holds modulo $2\pi i$ and the reconstruction produces an $\mathbb R/2\pi\hbar\mathbb Z$-valued functional. Lifting it to a genuine $S:\mathcal H\to\mathbb R$ is an extra hypothesis, and the obstruction is not an artifact — it is the same ambiguity that makes theta angles, Wess--Zumino terms, and Dirac quantization meaningful, and it is why [[what-the-axiom-asserts]] records that the quantum weight is sensitive to the action only modulo $2\pi\hbar$.

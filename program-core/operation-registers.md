@@ -61,4 +61,13 @@ $$
 
 No adjacent stages may be collapsed merely because one implementation uses the same underlying set, algebra, or symbol. In particular, contextual readout does not select a fact, and factual selection does not by itself construct a persistent history.
 
+A *Born-rule-like* map, in the broad model-to-observation sense, names a
+realization or readout problem without selecting an ontology of outcomes.
+The narrower [[directed-analytic-realization/positive-readout-and-the-born-weight|Born-form evaluation]]
+assigns positive normalized weights to specified tests. Its algebraic
+derivation and operational adequacy can be investigated without first
+settling whether randomness is fundamental, apparent or absent.
+The complete readout law may even separate source states; readout,
+information loss and obtained value are not synonymous operations.
+
 The words *descent*, *collapse*, *reduction*, *forgetting*, *residue*, and *realization* are therefore incomplete in a canonical claim unless the actual operation is named. [[program-core/ontological-registers|Ontological registers]] type the objects at the ends of these arrows; [[program-core/response-registers|response registers]] type the quadratic structures transported through some of them.

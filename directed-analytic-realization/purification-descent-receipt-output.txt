@@ -1,0 +1,10 @@
+PASS: 20 exact purification observables and 120 rational unit-point checks give Q=Psi Psi* and L f_A=K Tr A-dK f_A.
+PASS: 150 exact Jordan covariance and spherical second-moment pairs match [K Tr A Tr B+Tr(AB)]/[d(dK+1)].
+PASS: 25 exact diagonal-polynomial pullbacks have upper-degree eigenvalue ell(ell+dK-1); seven checks use the explicit rotational fields.
+PASS: nine symmetric traceless 16x16 matrices satisfy all 81 Clifford relations; the exact Hopf norm and six probes pass, while a rational right-action counterexample changes the fiber.
+PASS: nine Laplacian and 81 gradient-covariance identities give the quarter-Casimir return; 81 second and 45 fourth moments match S8, with parent linear rate 15/4 and visible quadratic rate 8.
+PASS: 55 Hopf intertwinings, three signed corner quadratics and six partial traces give Bloch=(h_Re,-h_e,h_diag); a common complex phase preserves the Gram matrix but changes the full Hopf output.
+PASS: four marginalizations, 55 variances, 438 co-metrics, 150 Hilbert-isometry pairs and 36 left-representation products pass; quantum positivity survives, but the global phase clock fails algebra normalization and disjoint-factor unequal-time commutation.
+All seven check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Finite polynomial and moment identities do not establish a global spectral theorem, physical scale, selected spatial dimension, or a Yang--Mills mass gap.
+The finite fluctuation checks do not prove a central limit theorem, process convergence, or a physical field limit.

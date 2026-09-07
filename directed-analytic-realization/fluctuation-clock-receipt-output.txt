@@ -1,0 +1,8 @@
+PASS: 330 exact sphere-permutation moments match the radial formula at D=8,24,48, through order six; noncommuting cycle traces and their imaginary cancellations are retained.
+PASS: 4900 exact moment-Gram symmetry entries and 140 degree-ordered orthogonal modes on 35 monomials verify positivity, unique constant ground and finite-degree gap one; finite quadratic rate is 2+2/D, not 2.
+PASS: 1260 two-sided rational polynomial resolvent identities and 279 scalar degree checks (n=0..30, z=1/2,1,3); shifted bound 1/D and scaled bound 1/(zD) are distinguished.
+PASS: 945 exact Gaussian ladder commutators, 2100 Gaussian adjoint pairings and 35 Hermite modes verify H=sum(a* a)=-A_infinity with every generated degree retained.
+PASS: 540 finite-core commutators [Q_i,V_j]=2 a_ij on degree-at-most-three monomials at D=8,24,48 retain the noncentral co-metric; no operator-domain or physical CCR claim.
+All four finite exact check groups passed; stdout only; no files written.
+No floating arithmetic, sampling, numerical integration or eigensolver is used.
+Finite checks do not prove full-space spectral completeness, norm-resolvent convergence, a field limit, physical time or a Yang--Mills gap.

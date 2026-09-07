@@ -9,7 +9,7 @@ inq.ambient:
 
 This module owns the causal-register reading of spectral data that [[cauchy-spectral-envelope/inq|the Cauchy envelope]] deliberately declined: the exact Fourier dictionaries relating a Cauchy line to two-sided exponential correlation and Euclidean clustering to spectral support; the Osterwalder--Schrader reflection construction of a Hilbert carrier from Euclidean data; the transfer semigroup that reads a gap once that carrier and its dynamics exist; modular precedents for recovering causal structure from algebras and states; and the de Sitter damping scale. The strict dictionaries, standard reconstruction results, and proposed programme comparisons are kept separate. The module does not prove that a wall causes a gap, identify a transfer operator with a conditional expectation, construct a Lorentzian wall, prove a continuum gap, derive a unit conversion, or identify any pole with the causal grain.
 
-The Cauchy module's terminology firewall stands unchanged: a Lorentzian *line shape* and a Lorentzian *signature* are unrelated meanings of one word, and no implication runs between them. Section 1 relates the line shape to a decay law in time — both in the line-shape register. Lorentzian signature enters only in section 3, through modular theory, and nowhere else.
+The Cauchy module's terminology firewall stands unchanged: a Lorentzian *line shape* and a Lorentzian *signature* are unrelated meanings of one word, and no implication runs between them. Section 1 relates the line shape to a decay law in the line-shape register. Reconstruction, the linked Wick real-form calculation and section 3's causal-geometry constructions address different mathematical structures.
 
 ## 1. Line shape and decay law
 
@@ -135,7 +135,22 @@ $$
 
 that is uniform through the infinite-volume limit and remains positive in fixed physical units along the tuned continuum trajectory. For a fixed physical gap, the raw per-slice residue satisfies \(1-r_a\sim a\Delta_E/(\hbar c)\to0\); it must *not* stay bounded away from zero. Constructing the nontrivial local Poincaré-covariant limit is the other inseparable part of the Yang--Mills problem; [[contemporary-puzzles/yang-mills-mass-gap/inq|the puzzle module]] states it in full.
 
-## 3. Lorentzian causal structure from modular data
+## 3. Lorentzian causal structure and its selection
+
+[[algebra/wick-real-forms-and-positive-preparation|Wick real forms and positive preparation]]
+give a direct linear construction: the same boundary response determines
+a reflected positive kernel, its Hilbert quotient and its clock generator.
+Changing the complex response slice together with the analytic parameter
+relates the elliptic and hyperbolic equations. The quotient can forget
+half-history data although finite attenuation on the retained carrier is
+injective. This does not reconstruct a record-production law.
+
+[[algebra/directed-response-and-lorentzian-signature|Directed-response reflection]]
+asks for that further relation geometrically. A positive tangent response
+and oriented cotangent line determine one negative metric direction.
+The proposed process law must also imply the resulting cone inequality.
+This is a separate conditional construction, not an identification of its
+reflection with modular conjugation or the OS reflection.
 
 The programme has asked for the algebraic meaning of \(c\). In the Riemannian register the answer is Connes' distance formula, \(d(x,y)=\sup\{|a(x)-a(y)|:\lVert[D,a]\rVert\le1\}\), in which the commutator bound is the unit-Lipschitz condition and the metric is a supremum over the algebra; the vault has never taken that norm, and the construction is recorded below as open. In the Lorentzian register two theorems recover the *causal structure and its symmetry group* from modular data. Neither recovers a unit conversion: they return the group of boosts, not the number \(c\).
 

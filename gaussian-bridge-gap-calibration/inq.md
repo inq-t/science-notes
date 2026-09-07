@@ -371,6 +371,94 @@ The full bridge Gramian should not be identified with
 functional calculus would give \(\tanh(k\omega\ell)\). The rate reconstruction
 uses the sharp bottom edge, not an operator identity on every excitation.
 
+## Normalization, collars and the order of limits
+
+For the physical free-field covariance, the one-mode midpoint variance is
+\(C_{00}=1/(2\omega)\), not one. Its two-boundary Schur complement is
+\[
+C_{00\mid\partial}=\frac{\tanh(\ell\omega)}{2\omega},\qquad
+C_{00}^{-1/2}C_{00\mid\partial}C_{00}^{-1/2}
+=\tanh(\ell\omega).
+\tag{G23a}
+\]
+The unnormalized conditional variance tends to \(\ell/2\) as
+\(\omega\downarrow0\); the normalized residual tends to zero.
+These are different quantities. At exactly zero frequency the stipulated
+stationary variance does not exist, so a finite periodic massless model
+must explicitly remove its spatially constant mode or supply a different
+infrared construction. Inserting a small positive mass without declaring
+it would change the control being tested.
+
+On a periodic spatial lattice with \(s\) spatial dimensions, \(N\) sites
+per axis and spacing \(a\), the continuous-Euclidean-time free dispersion is
+\[
+\omega_k^2=\mu^2+\frac4{a^2}\sum_{j=1}^s
+\sin^2\!\frac{\pi k_j}{N},\qquad k_j\in\{0,\ldots,N-1\}.
+\tag{G23b}
+\]
+Here \(\mu\) is an input inverse-length mass parameter, not a predicted
+gap. Fourier transformation gives the full slice covariances
+\(C_t=F^*\operatorname{diag}(e^{-|t|\omega_k}/(2\omega_k))F\)
+on the retained positive-frequency subspace, with
+\(\Omega=F^*\operatorname{diag}(\omega_k)F\) on that subspace.
+The normalized midpoint Schur complement, conditioned on both full
+boundary slices, is therefore \(\tanh(\ell\Omega)\) on the linear
+slice carrier. Equations (G10)--(G14) and tensorization are what extend
+its smallest eigenvalue to the complete nonlinear observable carrier.
+
+For each fixed finite box with positive retained frequencies,
+\(\kappa_L(\ell)\) increases with \(\ell\) and tends to one.
+For the massless zero-mode-removed lattice at fixed spacing,
+\[
+\kappa_L(\ell)=\tanh\!\left(\frac{2\ell}{a}\sin\frac\pi N\right),
+\qquad L=Na.
+\tag{G23c}
+\]
+It vanishes as \(L\to\infty\) at fixed \(\ell\), not as
+\(\ell\to\infty\) at fixed \(L\). In fact
+\[
+\lim_{\ell\to\infty}\lim_{L\to\infty}\kappa_L(\ell)=0,
+\qquad
+\lim_{L\to\infty}\lim_{\ell\to\infty}\kappa_L(\ell)=1.
+\tag{G23d}
+\]
+For \(\mu>0\), retaining the zero spatial momentum gives instead
+\(\kappa_L(\ell)=\tanh(\mu\ell)\), independently of this lattice
+volume. None of these limits removes the obligation to construct the
+stationary or reconstructed carrier; in particular the unmodified
+massless scalar in one spatial dimension has an infrared problem.
+
+A single midpoint site is not the full midpoint slice. With both full
+boundary slices retained, translation invariance gives its normalized
+linear residual
+\[
+\kappa_{\mathrm{site}}=
+\frac{\sum_k\omega_k^{-1}\tanh(\ell\omega_k)}
+{\sum_k\omega_k^{-1}},
+\tag{G23e}
+\]
+on the declared positive-frequency modes. This weighted average can be
+much larger than the spectral infimum. At fixed spatial ultraviolet
+cutoff in three dimensions, its massless infinite-volume integrals are
+infrared finite and their ratio is positive, although the complete slice
+floor is zero. A positive local test number is not complete spectral
+coverage.
+
+Exterior collars add no further prediction once the full separating
+slices at \(\pm\ell\) are known, by the Gaussian Markov property.
+Collars extending toward the midpoint change the nearest separation.
+[[predictive-rank-and-physical-separation|The whole-interior counterexample]]
+shows why that distinction survives exact sufficient compression.
+
+The [[receipts/gaussian_bridge_gap_receipt.py|existing Gaussian receipt]]
+also constructs spatial covariance matrices in one and three spatial
+dimensions, solves their normalized Schur complements, and compares them
+with the mode formula. Separate Fourier scans test the two different
+limits and the single-site/full-slice distinction. Its
+[[receipts/gaussian-bridge-gap-receipt-output.txt|stored output]] is a
+free-field calibration with supplied dispersion, not evidence that the
+interacting Wilson response has a positive uniform floor.
+
 ## Mass is a rate, once the arrow is typed
 
 If Euclidean clock duration is \(\tau=\ell/c\), define

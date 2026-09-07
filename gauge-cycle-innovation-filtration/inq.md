@@ -244,6 +244,15 @@ information. The prefix filtration does not: such a distinction appears in
 the first innovation whose prefix contains every holonomy on which it
 depends.
 
+The response must also remain joint. The
+[[loop-coordinates-and-the-induced-clock|theta-graph clock construction]]
+transports the edge Laplacian to two loop coordinates with an unavoidable
+shared-edge mixed derivative. It constructs the complete positive heat
+evolution and intertwines changes of spanning tree exactly. Replacing that
+operator by independent loop Laplacians changes the attenuation of the
+relative loop, even on gauge-invariant characters. Tree reduction supplies
+a carrier chart, not a new factorization of the dynamics.
+
 ## The actual Wilson pair has a complete physical matrix
 
 Let a finite, vacuum-normalized, gauge-covariant transfer be represented by

@@ -56,6 +56,42 @@ This is a real algebraic realization of the proposed reversal. It does **not** d
 
 One can instead seek positive-energy evolution through reflection-positive reconstruction, or by a direct Lorentzian construction. [[algebra/os-descent-naturality-and-clock-no-go|OS naturality]] controls the former route once its input is supplied. It does not select the input law. A realization map may intertwine translations; an individual localized event need not commute with a fixed clock, because translation generally moves the event and its region.
 
+## Changing primitives does not remove every return hypothesis
+
+The strategy is broader than “use modular theory instead of an action.”
+A state on a von Neumann algebra and a family of inclusions are one
+possible starting package. The deeper programme also permits the algebra,
+positive form and clock to be returned by a prior directed law. Its merit
+must be a joint selection that reduces independent choices, not the mere
+absence of a classical Lagrangian in the first line.
+
+[[joint-causal-generators-and-the-mass-casimir|Half-sided modular reconstruction]]
+illustrates both the possibility and its cost. A suitable inclusion
+produces a positive translation generator, but that generator's exact
+dilation covariance forces it to be gapless when nonzero. Compatible
+opposed directions can instead carry a massive joint invariant. Neither
+the abstract factor's isomorphism class nor one standard state alone
+provides the needed inclusions, physical local net or Casimir bound.
+
+The action question likewise concerns a dependency order, not a list of
+properties allegedly implicit in every variation. The
+[[philosophy/principle-of-least-action/why-an-action-at-all#A history weight is not a transfer kernel|composition audit]]
+separates multiplicative history weights, integral-kernel composition
+and spectral operator logarithms. The
+[[algebra/quotient-clock-and-stationary-action|quotient-state action]]
+is an exact variational representation, not a Feynman--Kac saddle
+approximation. A successful foundational law should explain why such a
+realized description becomes available, without demanding that it govern
+the discarded directions too.
+
+Large-N factorization offers a possible interface, not an automatic
+solution: [[algebra/characters-factorization-and-the-modular-carrier|a character's own GNS carrier]]
+is one-dimensional and has trivial modular dynamics. An excitation
+response can survive a definite macroscopic limit only on additional
+retained or rescaled data. Its normalization, positive pairing and
+inherited dynamics must be constructed together. Factorization by itself
+does not determine the decay rate of that response.
+
 ## Why a residue is not yet a mass
 
 The same OS audit gives a decisive negative control. Fix the forgetting map
@@ -74,6 +110,39 @@ r\bigl(e^{-sK}\oplus e^{-sL}\bigr)=e^{-sK}r.
 The kernel, its dimension and nonfaithfulness are unchanged while the local spectrum can be gapped or gapless. Therefore “there is a forgotten background” cannot by itself select mass. Likewise, an idempotent forgetting map cannot descend to a nontrivial unitary clock: its descended map remains idempotent, and an invertible idempotent is the identity.
 
 The missing ingredient is a **law relating composition to retained response** that disallows this independent replacement of \(K\). It could be introduced as a rigid constitutive principle before metaphysical necessity is established. It must constrain more than the vocabulary of the carrier.
+
+[[bridge-data-augmentation-solder/bridge-law-and-the-recovered-clock|The
+finite inverse-bridge theorem]] makes one dependency exact: a compatible
+full-support conditional family fixes the homogeneous stationary Markov
+clock and its law. Endpoint symmetry is exactly detailed balance, while a
+positive Hamiltonian logarithm requires an additional positivity test.
+But arbitrary one-anchor conditionals parametrize every positive
+stochastic clock. The inverse therefore removes a redundant independent
+choice after the data are fixed, not the freedom to encode arbitrary
+dynamics in those data. It is a realization interface for a future
+constitutive law, not yet that law or the stronger foundational milestone.
+
+[[algebra/primitive-overlap-refinement-and-the-emergent-diffusion|Primitive
+overlap refinement]] supplies a more constrained worked member: a declared
+Jordan orbit, invariant law and tensor-overlap iteration determine a
+complete geometric diffusion and the existing sphere-to-ball return,
+without independently supplying its Laplacian or assuming a spectral
+floor. The scaled squared-norm loss recovers the same energy form and its
+domain; the positive threshold survives the infinite-dimensional comparison
+limit. This removes one independent generator choice, but the compact
+state arena and symmetric comparison law are still inputs, not derived
+from asymmetric primitives. Comparison refinement is not the spatial
+continuum or infinite-volume limit required by Yang–Mills.
+
+[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement|The
+group-side companion]] now fixes a joint finite-box gauge law from a
+declared trace overlap and face-composition prescription, by an explicit
+application of the known carpet-refinement theorem. It does not derive the
+box or gauge group. Its full boundary-amplitude law closes under finite
+integration, while a single heat-kernel face weight does not generally close
+under all four-dimensional mesh eliminations. The next question concerns
+that larger family and its compatible limits, not another isolated compact
+spectral edge.
 
 ## What could be conserved across the relation?
 

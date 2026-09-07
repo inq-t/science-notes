@@ -1,0 +1,31 @@
+two-sided Fisher receipt: finite construction discrimination
+PASS Pauli-derived adjoint Casimir=2, five positive joint Fisher inversions, both one-hand domination tests and left/right exchange; finite equality block is nonsingular
+Joint neutral-character finite trial: heat-area t  b(t)  Rayleigh quotient
+        1  2.8675616610e+00  3.6215445168e+00
+      0.3  6.8868153985e-01  2.4295061581e+00
+      0.1  2.0998337764e-01  2.1367433486e+00
+     0.03  6.0899865032e-02  2.0403108571e+00
+     0.01  2.0099998333e-02  2.0133679951e+00
+    0.001  2.0009999998e-03  2.0013336805e+00
+    1e-05  2.0000100000e-05  2.0000133334e+00
+PASS seven independent 60-digit joint character quotients; finite samples only, not a spectral-edge or eigenvalue proof
+Logarithmic-ramp finite entropy control: L  integrated value  analytic bound 1/L
+ 2  4.0936373022e-01  5.0000000000e-01
+ 4  2.2377561195e-01  2.5000000000e-01
+ 8  1.1830386818e-01  1.2500000000e-01
+16  6.0825312102e-02  6.2500000000e-02
+32  3.0831327971e-02  3.1250000000e-02
+PASS five actual weighted logarithmic-ramp integrals with 64/128/256-point agreement; upper bound follows from 1-exp(-2s)<=2s, not extrapolation
+Raw-coordinate finite cutoff diagnostic: epsilon  pointwise response  heat-state response
+      0.1  1.6811791716e+00  9.6036381937e-01
+    0.001  4.0340972369e+00  1.9958829631e+00
+    1e-05  6.3371774133e+00  2.9917531284e+00
+    1e-07  8.6397674563e+00  3.9872390520e+00
+PASS invariant quaternion determinant cancels the initial singular term: joint response=9.4942253219e-01, above both one-hand values 193/625 and 481/625; raw heat-state logarithmic coefficient=2.1616617919e-01
+Finite matrix, gradient, integral and trial checks only. No continuum domain theorem, spectral-edge/eigenvalue theorem, four-dimensional construction or physical mass gap certified.
+Joint annular response at t=0.4: s=0: 3.9479271135e-01, s=0.2: 5.9081711210e-01, s=1: 6.5849372436e-01, s=5: 6.6080524280e-01; 4tJ comparison=6.6080524306e-01
+PASS nine quaternion annular gradient transports and four 64/128/256-point integrals checked against analytic antiderivatives; same-clock restart fails in these finite samples, despite unchanged increment state laws
+PASS heat-factor alpha=0.2,0.5,0.8: 15 actual SU(2) 6x6 noise rotations and projected/residual score orthogonality; 15 source/output/missing Fisher blocks with positive discarded information
+PASS finite KL K=L=exp(s T3), T=0.7, cA=2; alpha:(source,output,missing) 0.2:(1.0937500000e+00,1.6164924099e-01,9.3210075901e-01); 0.5:(7.0000000000e-01,1.6164924099e-01,5.3835075901e-01); 0.8:(1.0937500000e+00,1.6164924099e-01,9.3210075901e-01); separate 64/128/256-point integrals satisfy source=output+missing
+PASS lifted annular response at t=0.4: 2tJ=3.3040262153e-01 for s=0,0.2,1,5 and alpha=0.2,0.5,0.8; below each prior joint-Fisher response, despite the same output heat state
+PASS opposite-chaos constant-triangle overlap: six 64/128/256-point double integrals and 80-digit closed forms; R(1e-10)=0.999999999933, R(0.7)=0.659792820349, R(3)=0.277915486232; finite overlap checks only

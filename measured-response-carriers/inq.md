@@ -665,6 +665,40 @@ open W2 arrow in [[causal-wall-spectral-theory/inq]] is precisely a
 carrier-changing map from such state response to a spatial
 probability-precision operator.
 
+## Fisher-invisible actions and finite observable response
+
+Suppose a declared family of transformations \(T_\theta\) acts on a
+probability space \((X,\mu)\), with differentiable pushed densities at
+identity. Let \(S_v\in L^2(\mu)\) be the state score in parameter
+direction \(v\), and \(V_vF(x)\) the pointwise derivative of an observable.
+The score pullback metric is \(g(v,v)=\|S_v\|_2^2\).
+These are two different analysis maps: \(S\) differentiates a state,
+whereas \(v\mapsto V_vF(x)\) differentiates observable values.
+
+Define the extended dual response by
+\[
+\Gamma(F)(x)=\inf\{C\ge0:\ |V_vF(x)|^2\le Cg(v,v)
+\text{ for every }v\},\qquad \inf\varnothing=\infty .
+\]
+Then finite response requires \(V_vF(x)=0\) for every \(v\in\ker S\).
+Otherwise a zero-score direction violates the displayed inequality for
+every finite \(C\). An infinitesimal state-preserving action belongs
+to this radical even if it moves individual points. In finite dimensions,
+annihilating the radical suffices for a finite dual norm. In infinite
+dimensions, continuity in the score norm is a further requirement;
+annihilation alone does not supply it.
+
+This is a general stabilizer-annihilation rule, not an identification
+of a state symmetry with a physical gauge redundancy. Changing the
+admissible transformation family changes the test. A weak, nondegenerate
+score metric can also enforce invariance under limits of vanishing-cost
+directions, as in
+[[gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier|the
+two-sided path-state construction]]. There the finite smooth cylinder
+algebra, its \(L^2\) completion, and its closed response operator are
+proved separately. None follows merely by writing an inverse of a
+degenerate Fisher matrix.
+
 ## Closed-form transport across carriers
 
 Let \(q\) be a densely defined closed nonnegative Hermitian form on a Hilbert

@@ -35,9 +35,29 @@ $$
 
 The measure determines the probabilities of possible readouts. It does not, merely by being a measure, determine a point in its support. Calling it sufficient *that* a fact occurs is therefore the philosophical proposal; the displayed mathematics supplies the measure but not the actuality of an outcome.
 
+Probability notation here specifies the form of an accessible readout
+law, not a commitment to fundamental randomness or any interpretation of
+quantum mechanics. An inaccessible determining reason and an accessible
+sufficing law can coexist. The broader model-to-observation question is
+typed in [[program-core/operation-registers|the operation ledger]].
+
 ## Argument
 
 [[facticity-and-pointing]] identifies a contextual fact with a multiplicative functional and separates multiplicativity from purity, extremality, and mere non-emptiness. [[two-species-of-reason]] then uses Gleason, Bell, and Kochen--Specker to state exactly how far a probability assignment can and cannot be replaced by predetermined values.
+
+[[algebra/characters-factorization-and-the-modular-carrier|The character-carrier theorem]]
+adds a dynamical distinction: a character's own GNS representation is
+one-dimensional with trivial modular flow. A definite contextual value
+must not replace the larger carrier whose responses and dynamics are
+being explained; large-N factorization can hide exactly this change of
+algebra and product.
+
+[[directed-analytic-realization/positive-readout-and-the-born-weight|Positive readout]]
+provides a constructive companion: on the compact algebra returned from
+preparation overlaps, positive normalized linear evaluation has the trace
+form, and pure evaluations give squared-overlap weights. This derives a
+readout formula from stated algebraic assumptions without deriving those
+assumptions, selecting a physical state, or choosing an outcome ontology.
 
 [[algebra-and-coalgebra]] proposes initial algebra and final coalgebra as formalisms for construction and observation. This is a research-level representation of the distinction, not a consequence of Gelfand duality or the quantum no-go theorems.
 

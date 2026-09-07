@@ -7,3 +7,11 @@ interacting innovation matrix =
 [[0.262652577 0.063926233]
  [0.063926233 0.288423843]]
 innovation-matrix norm = 0.340750193
+S3 theta Haar-reset response: PASS (not Lie diffusion)
+S3 theta raw/neutral dimensions = 216/11
+S3 theta weights (a,b,c) = (1,2,4); exact gauge and tree intertwinings: PASS
+S3 theta exact eigenvalue:multiplicity = {0: 1, 3: 2, 5: 2, 6: 2, 7: 4}
+naive independent cycle resets: sign(v) rate 1 becomes rate 2 (exact failure)
+normalized full-carrier compression/eigenvalue checks: atol=3e-12, rtol=0
+SU2 Casimir normalization C2(j)=j(j+1): theta floor = 9/4
+SU2 admissible nonvacuum labels checked = 615, 2j <= 12; finite check only

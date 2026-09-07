@@ -7358,6 +7358,691 @@ The new receipt checks the geometry/residue normalization by independent harmoni
 
 The next structural question is which geometry can preserve this joint production of a positive response, a local commutation law and a clock while admitting the required higher-dimensional interacting gauge realization. A positive mode count or a free circle net is not a substitute for that obligation. The full goal remains active.
 
+## CA3. Opposed normal response returns a local action; a cap fails the gap test
+
+[[algebra/cauchy-response-and-local-action|The opposed-Cauchy theorem]] supplies a stronger action return. One decaying harmonic graph has zero Green pairing and cannot alone be a phase carrier. Two opposed graphs instead determine a positive pair norm, local Green form and compatible complex structure. Rotating their common normal-response rate returns the wave clock. The earlier state action becomes the canonical action up to an endpoint term; eliminating the normal-response variable produces the local scalar action in \(3+1\) coordinates when the response square is a spatial Laplacian.
+
+[[directed-analytic-realization/three-dimensional-boundary-test|The flat half-space member]] therefore has a local free-field action, positive Fock clock and commuting spacelike observables under its declared bosonic realization. Flat three-dimensional geometry, the response law and the normal-to-clock prescription are supplied; the construction is not an interacting gauge theory or a derivation of the arena's dimension.
+
+The same note tests a finite Dirichlet cap. Its response \(|k|\coth(L|k|)\) opens a genuine clock edge \(L^{-1}\) even on infinite three-dimensional space, but its mass-Casimir candidate tends to zero at high momentum. More decisively, its squared response has a nonzero off-support kernel, producing a Weyl commutator at arbitrarily small spacelike separation. This kills the capped member's proposed local massive return, not all boundary-based mechanisms.
+
+[[algebra/three-dimensional-weighted-compression-response|The weighted compression theorem]] corrects the dimensional extrapolation from the circle: ordinary defect trace diverges, while composition with the same geometry's Neumann-to-Dirichlet map gives an exactly finite order-one response. This changes what the input operator acts on. Its scalar odd trace is zero, so the opposed Green pairing remains a separate necessary piece of this construction.
+
+[[algebra/clifford-mass-plane-and-selection|The Clifford mass plane]] gives an additional selection test. The minimal real constant-coefficient first-order carrier admits a two-dimensional plane of anticommuting skew mass terms. Its own commutant rotates all normalized directions; neither direction nor nonzero magnitude follows from the triple. A varying residue also introduces a derivative term. This is a typed free-signature target for further wall data, not an identification of a linear mass term with the Yang–Mills gap.
+
+The new receipt independently checks paired response, action variation and endpoint normalization, slab bulk response, the positive off-support kernel, the weighted angular integral, and the finite mass-plane matrices. Mathematical statements outside these finite checks have direct proofs in their canonical notes. The next law must preserve local dynamics while selecting a nonzero obstruction and constructing the interacting gauge return. No dimensionful number or elementary mass term was fitted to declare that step complete.
+
+## CA4. Transgression fixes an interaction; the positive state is a separate realization
+
+[[algebra/nonlinear-response-and-clock-realization|The nonlinear response theorem]] separates the classical and quantum returns. A closed gradient response gives invariant normal graphs and, under a stated cotangent prescription, the clock potential \(\|N\|^2/2\). Its force is \(DN^*N\), not \(N\circ N\). The cubic-response member imposes a coefficient relation on the returned sextic potential, but its moving Hessian does not preserve the linear construction's Hilbert metric.
+
+[[directed-analytic-realization/chern-simons-response-and-gauge-action|Chern–Simons transgression]] gives an interacting gauge instance without first defining the response by minimizing the Yang–Mills action. On a declared oriented metric three-manifold, \(\nabla W_{\rm CS}=*F_A\) and the squared response is exactly the magnetic potential. The canonical kinetic pairing and temporal gauge redundancy remain inputs; variation of the temporal connection imposes Gauss law. Infinitesimal invariance of \(W_{\rm CS}\) alone does not impose that constraint on an independent momentum.
+
+The signed normal relation is not a contractive vacuum preparation law. The free curl has both signs, and the homogeneous response is the cofactor of a real matrix. [[algebra/absolute-hessian-and-response-integrability|The new compatibility test]] proves that taking its positive spectral modulus cannot supply a nonlinear response Hessian. Already on the determinant slice, two required mixed derivatives are \(20/27\) and \(8/27\), with nonzero difference \(4/9\). This is a smooth-chamber obstruction, not a singularity at a zero eigenvalue. A separate norm-preserving sign rotation also fails closedness.
+
+[[algebra/response-factorization-and-the-vacuum|The quantum factorization theorem]] retains the missing divergence correction, measure, domain and normalizability. Its quartic-superpotential calibration has zero classical linear stiffness and a rigorous positive quantum gap, so the quantum question cannot be replaced by a classical Hessian test. The binary Witten–Darboux and actual-vacuum transform remain the shared owners of the earlier factorization arguments.
+
+There is nevertheless a positive gauge realization on the actual nine-coordinate homogeneous carrier. For the transgression-selected quartic potential, [[directed-analytic-realization/homogeneous-gauge-positive-realization|the transverse-oscillator proof]] gives \(H_\epsilon\geq K_\epsilon/2+(\epsilon/2)\sum_i|a_i|\), despite the commuting zero valleys. This proves compact resolvent, a unique positive gauge-invariant ground state, and a strictly positive gap on the complete invariant matrix carrier. The normalizable vacuum is not the formal Chern–Simons exponential. Both signs of that harmonic cubic yield the same closed scalar form, so this return also forgets its orientation.
+
+The exact volume scaling is \(\Delta_{\rm inv}(\epsilon,\mathcal V)=\epsilon^{4/3}\mathcal V^{-1/3}\Delta_{\rm inv}(1,1)\). Thus no uniform large-volume gap is supplied by this member. Nor is quantizing the homogeneous truncation the same as finding a reducing sector of the complete field Hamiltonian. An explicit smooth pure-gauge connection has zero curvature but nonzero pointwise commutators: its derivatives cancel the putative matrix potential. This prevents extending the oscillator bound by independently treating each spatial point as a homogeneous triple. The next construction must relate spatial modes, local gauge redundancy and the actual positive boundary state without losing control of the physical limits; a finite matrix gap cannot stand in for that step.
+
+The new finite receipt checks gradient and force identities, gauge horizontality, the exact integrability mismatch against independent spectral differentiation, the quantum correction and variational constants, oscillator multiplicities and scaling, and the pure-gauge cancellation. Compactness and infinite spectra are proved in the notes, not inferred from that sampling. No gap numeral, preferred mass direction or cosmological calibration was fitted. The full charter remains open.
+
+## CA5. A compatible cubic field response and the quantum origin
+
+[[algebra/positive-boundary-response-from-decaying-extensions|The decaying-extension theorem]] replaces a formerly assumed regular branch by an actual local construction. For a supplied analytic finite-dimensional potential with \(\operatorname{Hess}V(0)=A^2>0\), a weighted half-line Green contraction constructs the decaying trajectories. Their vanishing Wronskians force a closed response; the same trajectories give \(\|\nabla W\|^2/2=V\) and select the positive Hessian at the vacuum. A sum-rate inverse fixes every higher coefficient. This is local existence with a supplied quadratic scale, not a result at zero stiffness or uniformly through a field limit.
+
+[[directed-analytic-realization/cubic-gauge-boundary-response-and-gauss-completion|The spatial gauge construction]] applies that inverse only at coefficient level. On Fourier-polynomial connections, with all generated modes retained, the positive free branch gives a cubic denominator \(|p|+|q|+|r|\). Its transverse coefficient alone fails the Ward identity. The full functional includes longitudinal terms fixed by Gauss law, and its gradient has longitudinal part \(d\Delta_0^{-1}\rho\), where \(\rho=\sum_i[a_i,(Ka)_i]\). Its squared norm supplies the positive Coulomb energy \((\rho,\Delta_0^{-1}\rho)\) in the quartic recursion. Thus compatibility fixes a real interaction contribution rather than an arbitrary comparison factor.
+
+The cubic prescription has zero gradient on constant connections, while their noncommuting quartic potential need not vanish. Its proposed quartic continuation therefore fails the harmonic solvability condition. An undetermined signed harmonic cubic can alter that condition; it does not supply a positive vacuum. The note keeps this failure specific to the prescribed branch rather than declaring every boundary response impossible.
+
+[[directed-analytic-realization/quantum-response-regularity-at-the-gauge-origin|The regularity theorem]] shows why the quantum return matters. No \(C^3\) classical eikonal response with a local minimum can generate a nonzero quartic potential at its origin. Yet the actual homogeneous quantum ground state is smooth and positive. Its logarithm has \(\operatorname{Hess}W_0(0)=2\mathcal V[E_0-V(0)]I_9/(9\epsilon)>0\), fixed by symmetry and the divergence term in its own equation. This is the state's local stiffness, not its excitation gap. Coupling dilation yields a nonanalytic \(|g|^{2/3}\) spectral factor in this finite model; no continuum beta-function law follows.
+
+The three arguments have separate canonical owners and cross-links. The finite receipt checks cubic gauge and squared-response identities, the longitudinal norm, harmonic obstruction, positive-branch jets and invariant quantum-origin Laplacians. Its Fourier pairings use normalized torus measure; it does not independently test the integrated volume factor, analytic convergence, or the full quantum field state. The missing construction is now a quantum, gauge-compatible boundary law through the harmonic and spatial sectors—not a pointwise positive Hessian.
+
+## CA6. The homogeneous positive carrier is not specific to \(SU(2)\)
+
+[[directed-analytic-realization/compact-lie-gauge-positive-realization|The compact-Lie construction]] lifts the finite confinement proof into a shared theorem. For every nonzero compact semisimple Lie algebra, its adjoint trace \(\tau(a)=\operatorname{Tr}\sqrt{-\operatorname{ad}_a^2}\) has a positive radial lower bound. A balanced fiber-oscillator decomposition works for every \(d\geq2\), giving a coercive closed form, compact resolvent, a unique positive invariant vacuum and a centered excitation gap. The original determinant member retains its explicit orientation and pure-gauge tests while referring to this shared analytic proof.
+
+The negative controls locate what this mechanism uses. A positive-dimensional Lie-algebra center splits off a free Cartesian factor and leaves no normalizable bottom state. Finite group centers do not do that. The mechanism works already with two slots, so it selects neither three spatial dimensions nor a preferred simple group. Its exact normalization law remains \(\epsilon^{4/3}|\kappa|^{2/3}\mathcal V^{-1/3}\), not a volume-uniform field gap. The root and Gaussian receipt tests the constants, metric conventions and free-center behavior; the theorem, not finite sampling, supplies compactness and the invariant carrier's spectrum.
+
+## CA7. A nonlinear complex realization can determine a different clock
+
+[[algebra/opposed-response-polarization-and-kahler-completion|The opposed-pair theorem]] extends the boundary investigation into a genuine nonlinear complex geometry. For a strictly convex response \(W\), the pair chart \((x,y)\mapsto(x+y,\nabla W(x)-\nabla W(y))\) pulls the canonical Green form back to the sum of the two Hessians. The separately supplied Hessian metric is compatible without correction exactly when those Hessians agree. Global raw compatibility on all pairs therefore restricts this prescription to a quadratic response.
+
+Polar normalization has an exact noncommuting-matrix return: the compatible response in the Cauchy chart is the geometric mean \(P\#M\). In one configuration dimension its complex structure is integrable, but the compatible metric has diagonal curvature \(-[b'(a)]^2/[4b(a)^3]\). A different, constant exchange prescription gives a Kähler structure in every dimension with the arithmetic mean of the two Hessians. These are alternative well-defined realizations, not a proof that one is uniquely selected. The existing tangent-bundle complexification is linked as a distinct construction on a different carrier.
+
+There is now a positive clock test as well as a failure test. For \(W(v)=v^TAv/2+W_4(v)\), with \(A>0\) and a convex homogeneous quartic \(W_4\), the exchange geometry admits a complete simultaneous circle rotation. Its inherited Green form fixes the moment function
+\[
+H_{\rm rot}=x^TAx+y^TAy+3W_4(x)+3W_4(y)
++\frac12x^T\operatorname{Hess}W_4(y)x.
+\]
+This returns a complete Hamiltonian flow and its canonical stationary action from the same geometry. It generally differs from the earlier kinetic-plus-squared-response prescription; the latter fails an explicit isometry test. Thus the new construction does not repair the old clock by assertion. It supplies another compatible dynamics with a calculable relation to its response law.
+
+The scalar circle member is also globally symplectically conjugate to an ordinary harmonic oscillator by an explicit radial Darboux map. Its nonlinear response geometry must not be mistaken for a new interaction merely because the earlier coordinate expression for its Hamiltonian is nonlinear. This preserves its value as a joint geometry/action construction while limiting what dynamics it has actually produced.
+
+The actual homogeneous quantum vacuum's positive Hessian can feed these pair tensors locally, but its uncomputed higher response is not identified with that quartic family. Nor is rotation angle a calibrated physical duration. A quantum Hilbert realization, the required local Yang–Mills dynamics and the physical continuum gap remain open. The finite receipt checks noncommuting means, the two pairings, curvature, the failed clock and the exact moment identity on a nonradial quartic. This is progress toward a geometry that constrains its dynamics, not a substitution of the finite circle model for the Clay target.
+
+## CA8. Directed response, real forms and branch forgetting
+
+[[algebra/directed-response-and-lorentzian-signature|Directed-response reflection]]
+constructs one negative metric direction from a positive response metric
+and an oriented cotangent line. The line need not begin as an integrable
+clock differential. Its proposed process-to-cone inequality is
+dimensionless and conformally invariant; monotonicity alone does not
+imply it. The coefficient two comes from the reflection prescription,
+not from directedness alone. This identifies an actual selection problem
+rather than inferring signature or a propagation bound from terminology.
+
+[[algebra/wick-real-forms-and-positive-preparation|The Wick real-form theorem]]
+relates normal continuation and clock rotation by changing the complex
+slice and parameter together. Its positive preparation kernel constructs
+a quotient, and delay descends to the same generator whose analytic
+boundary is a unitary clock. The preparation quotient can erase
+half-histories; finite attenuation on its retained carrier is injective.
+The construction permits both gapped and gapless generators.
+
+[[algebra/octonionic-associator-and-branch-forgetting|The octonionic branch model]]
+supplies a further exact ingredient. Reversible parenthesizations differ
+by an operator whose square response is four times the projector outside
+a selected quaternion context. Keeping a branch label gives an isometry;
+discarding it gives a noninvertible channel. The vector-response kernel,
+operator-channel kernel and historical record have different types.
+The resulting reflection has signature \((4,4)\), so it does not itself
+select the single negative line of the metric construction.
+
+[[global-local-response-reconstruction/cosmological-balance-and-vacuum-gap-conjecture|The cosmic-balance conjecture]]
+is quarantined from these proofs. It asks for one independently defined
+invariant with cosmological and vacuum returns, not a fitted equality
+between positive numbers. A positive source response, the residual
+cosmological term and a centered uniform gap remain distinct.
+
+The shared notes and finite real-form receipt now own these calculations.
+The remaining target is a common process law that selects and identifies
+the carriers, positive forms, directed line and clock, then controls all
+nonvacuum directions through the four-dimensional Yang–Mills limits.
+
+## CA9. The positive corner constrains response, scale and a dynamic gap test
+
+[[algebra/positive-cone-processes-and-the-complex-corner|The positive-cone construction]]
+lifts the earlier spectroscopy-inbox clue into a canonical shared note.
+The existing exceptional flag selects a complex rank-two corner. Its
+negative half-log-determinant has a positive affine Hessian and a scale
+differential whose reflection is the determinant Lorentz form. Actual
+exceptional variance, followed by corner compression, lands in its
+positive cone and therefore obeys the causal bound. A transported variance
+identity supplies composition; an accumulated persistent ledger remains
+a separate process interpretation.
+
+[[algebra/qubit-cone-interiorization-and-the-clock-gap|Cone interiorization]]
+then proves an exact same-generator statement on the finite corner:
+the worst normalized squared radius is \(e^{-2s\delta}\), and the
+minimum determinant is \(1-e^{-2s\delta}\), where \(\delta\) is the
+centered transfer gap. This is a bound over the complete finite positive
+base. A completely positive family keeps the cone, trace state and two
+rates fixed while the remaining rate tends to zero, exposing the dynamic
+condition still needed. The determinant margin is not a uniform angular
+bound on physical momenta: a fixed nonzero mass determinant can approach
+the normalized null boundary under boosts.
+
+[[algebra/determinant-scale-clock-and-the-hyperbolic-threshold|The scale-clock test]]
+uses the same determinant geometry. Scale–shape coordinates give
+\(\mathbb R\times\mathbb H^3\); the spatial Laplacian has lower edge one.
+The exact flat massless return subtracts that one, leaving a gapless
+positive clock. Minimal product coupling retains the edge but is a
+different equation. This prevents a change of clock or conformal
+presentation from being called a mass derivation.
+
+The shared cone receipt checks finite matrix identities separately from
+numerical derivative and radial-integral comparisons. Physical selection
+of the flag, the compatible field dynamics, observable-net gluing and
+uniform Yang–Mills coercivity remain unconstructed. The gain is a smaller
+set of independent finite choices and sharper same-carrier tests, not a
+replacement of the full Clay target.
+
+## CA10. Context geometry fixes a channel; transport tests its observable return
+
+[[algebra/peirce-context-averaging-and-the-emergent-qubit-process|The Peirce-context construction]]
+keeps the rank-two octonionic unit fixed while moving its complex
+subcontexts. Inner Jordan derivations supply all rotations of the
+nine-dimensional trace-free corner. Invariant averaging of rank-three
+projections therefore forces centered return \(1/3\). The local return is
+explicitly CP even though individual Jordan comparisons can fail CP.
+Unit-rate Poissonization has gap \(2/3\); logarithmic interpolation has
+rate \(\log3\). These are declared process conventions, not physical units.
+
+[[algebra/depolarizing-return-and-the-classical-record-threshold|The classical-record theorem]]
+identifies that return with a measure-and-prepare channel, exactly at the
+qubit entanglement-breaking threshold. General rank-three spin-factor
+averaging gives \(3/n\), so this threshold is reached at \(n=9\). The
+readout is informationally complete and no outcome is selected. A small
+bias toward the marked context removes entanglement breaking while
+retaining a positive transfer gap. Thus the classical threshold and a
+spectral gap are not the same predicate.
+
+[[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop theorem]]
+constructs a bounded recovery map for section discrepancies from local
+holonomy coverage and bounded loop congestion. Pauli edge transports
+realize a volume-independent connection edge \(2d-2\sqrt d\), without an
+on-site potential. Their adjoint observable process erases the central
+square holonomy and is gauge-equivalent to ordinary diffusion, with four
+parallel zero modes and an edge tending to zero as volume grows.
+
+These constructions eliminate one freely chosen local process shape and
+give an explicit quantitative gluing mechanism. They do not yet select
+the context law, build a physical vacuum or preserve the response on a
+four-dimensional neutral field realization. The shared context–transport
+receipt checks the finite arithmetic and matrix forms; the canonical
+proofs carry the Haar and infinite-graph arguments. The required
+interacting continuum return and physical gap remain open.
+
+## CA11. A neutral vacuum return preserves the bound, but not its continuum scaling
+
+[[algebra/positive-energy-pairs-and-the-neutral-gap|The positive-energy pair theorem]]
+constructs an energy-preserving inclusion into doubled bosonic Fock space.
+Opposite charges cancel while their energies add, giving exact neutral
+edge \(2\inf\sigma(A)\), including continuous spectral bottoms. The
+Hilbert–Schmidt presentation carries \(AT+TA\), not the observable
+commutator \(AT-TA\) or the adjoint connection Laplacian.
+
+[[directed-analytic-realization/neutral-gaussian-return-of-holonomy-response|The Gaussian transport realization]]
+sets \(A=\sqrt{L_T}\) from the existing independent response. The same
+root supplies the finite Gaussian vacuum, positive preparation, clock and
+Weyl state. Global phase averaging of local observables has cyclic span
+equal to the neutral Fock sector. Local Wick squares create the pair
+amplitudes and inherit their Euclidean decay. This closes a genuine
+vacuum-and-observable return for the section bound, not a dynamical
+nonabelian Gauss-law theory.
+
+[[algebra/pauli-transport-and-the-continuum-scaling-obstruction|The scaling theorem]]
+proves an exact relation between the Pauli edge and the quadratic spatial
+coefficients. Finite nonzero propagation in at least two shrinking-lattice
+directions forces the gap to diverge, even with anisotropic positive
+weights and spacings. A one-direction limit is an explicit exception.
+Subtracting the divergent response edge and supplying a finite mass
+produces a controlled free envelope, but changes the field law; it is not
+vacuum-energy subtraction or a unit conversion.
+
+The fixed-lattice neutral gap is therefore real within the declared
+model, while its intended multidirectional continuum return fails in the
+unchanged transport family. Changing the scale-dependent holonomy law is
+a remaining possibility, not an established repair. The seven-group
+neutral receipt validates finite algebra and numerical refinements; the
+canonical proofs carry the Fock, local-observable and scaling arguments.
+The full interacting Yang–Mills return remains unconstructed.
+
+## CA12. Moving response and intrinsic process calibration
+
+[[algebra/refining-holonomy-and-a-finite-continuum-threshold|Identity-approaching transport]]
+has an exact finite continuum probe threshold without an on-site mass
+subtraction, and locally averaged Gaussian covariances converge. The
+[[algebra/joint-transport-variance-and-the-source-free-obstruction|joint-variance theorem]]
+identifies its edge with the least incompatibility of the connection
+components. Constant source-free magnetic stationarity instead forces
+those components to commute. Moreover, even the neutral free pair spectrum
+fails the forward-cone test. The example is therefore a diagnostic of
+what a supplied background can and cannot explain, not the arena-making
+primitive sought by the programme.
+
+The renewed operator target is
+[[algebra/moving-response-balance-and-a-ruble-operator-signature|moving response balance]].
+The exact loss form \(R=-\dot G-K^*G-GK\) includes changes of the
+comparison geometry as well as transport of distinctions. Its finite
+defects compose by pullback. Its two-form pencil has a frame- and
+reparameterization-invariant spectrum when both forms carry the same
+process-density weight. On fixed-rank invertible arrows, normalized
+negative log determinant supplies an additive intrinsic cost; it is not
+yet proper time or a finite cost for quotient descent.
+
+The Peirce qubit member realizes this calculus, but fixed total
+response does not bound the weakest direction, and even a complete scalar
+loss history leaves the held-frame skew transport undetermined. The
+fundamental open law must select response, admissible transport, carrier
+change and observable clock together. Eight moving-response and seven
+refinement check groups passed; they verify the stated finite identities
+and sampled refinements, not the interacting Yang–Mills return.
+
+## CA13. Rank-changing readout, Jordan covariance and weighted geometry
+
+[[algebra/sphere-to-ball-descent-and-the-jacobi-response|The sphere-to-ball member]]
+constructs a genuine many-to-one presentation and its fiber-averaging
+observable map. In the selected octonionic rank-two corner, primitive
+elements form \(S^8\); retaining a complex three-plane gives the qubit ball.
+The same projection pushes forward round measure to
+\(105(1-|x|^2)^2/(32\pi)\,dx\) and the spherical Laplacian to
+\[
+\mathcal L=(\delta_{ij}-x_ix_j)\partial_i\partial_j-8x\cdot\nabla.
+\]
+Its inherited nonabsorbing realization has exact spectrum
+\(\ell(\ell+7)\). A hidden rotational drift makes the whole process fail
+detailed balance while vanishing under this local readout. This is not
+unitary heat evolution or the production of a recorded outcome.
+
+[[algebra/jordan-covariance-and-the-entropy-weighted-ball|The covariance theorem]]
+identifies \(I-xx^T\) with the symmetrized covariance of affine qubit
+observables. Its inverse is the SLD metric, not BKM or the determinant
+Hessian. The hidden \(S^5\) fibers supply the weighted hemisphere law:
+its potential is \(5\mathcal F\) relative to hemisphere volume, while
+negative log Lebesgue density is \(4\mathcal F+\text{constant}\).
+Effective weighted Ricci curvature is \(7g\), and the resulting
+curvature–dimension inequality gives the sharp response edge eight.
+With the selected complex orientation, covariance and the odd bracket
+also recover matrix multiplication on affine symbols, not on arbitrary
+smooth functions.
+
+The reverse characterization fixes the same local differential expression
+from its coordinate covariance, fiber-induced measure and symmetry on
+smooth test functions. Stationarity alone would permit retained
+divergence-free circulation, and the inherited boundary domain remains
+necessary. This removes an independent drift choice within the stated
+class without claiming that covariance alone manufactures a clock.
+
+The whole round generator already has this gap; projection preserves
+visible modes attaining it. The result constrains the returned measure,
+metric and dynamics together, but does not derive the choice of round
+whole, marked context or generator normalization. Bloch coordinates
+remain state parameters, not three physical spatial coordinates.
+
+[[algebra/finite-entropy-cost-and-rank-changing-readout|The finite-cost theorem]]
+separately proves finite relative-entropy loss across the same geometric
+readout for bounded positive densities. The loss composes with the
+processed state; repeating the same expectation has zero further cost.
+Its Hessian acts on forgotten incoming distinctions, and its minimum
+over lifts of each retained tangent is zero. A Gram-pseudodeterminant
+counterexample excludes deleting zero singular values as a repair of the
+old fixed-rank volume clock. The retained differential response is
+therefore not merely renamed readout loss.
+
+Nine receipt groups check exact polynomial descent, moments, hidden
+rotations, finite entropy calibrations, Jordan/SLD identities and weighted
+curvature jets. The source-to-observable relation is now explicit in this
+state-space member. Its physical selection, spacetime realization,
+translation spectrum and interacting four-dimensional Yang–Mills return
+remain unconstructed.
+
+## CA14. Hopf factorization, matrix descent and the common-parent clock
+
+[[algebra/octonionic-hopf-descent-and-the-complex-purification|The Hopf theorem]]
+proves an exact common-parent factorization
+\[
+S^{15}\subset\mathbb O^2
+\longrightarrow S^8
+\longrightarrow\overline B^3,
+\]
+whose composite is the selected complex \(\mathbb C^{2\times4}\) Gram
+readout. Nine symmetric real Clifford matrices compute the response:
+\(\Delta_{15}/4\) returns \(\Delta_8\), and then the previous ball
+operator. The measures and inherited domains follow the same diagram.
+The intermediate \(S^7\) fibers are not the naive orbits of simultaneous
+right octonion multiplication. The intermediate Hopf map also need not
+factor through complex global phase, although its final Gram readout does.
+
+The visible spectral edge changes from \(15/4\) on all amplitude
+functions to \(8\) on quadratic Hopf readouts: linear modes have been
+forgotten. This is exclusion inside an already-gapped parent, not a
+gapless-to-gapped construction or a mass value.
+
+[[algebra/purification-descent-and-the-matrix-response|The matrix theorem]]
+extends the same method to \(\mathbb C^{d\times K}\), \(K\ge d\).
+The quotient law is proportional to \((\det\rho)^{K-d}\); the operator
+covariance is the Jordan covariance on observable cotangents, with SLD
+inverse on state tangents. Its complete polynomial spectrum is
+\(\ell(\ell+dK-1)\). Thus state space, reference law, response and
+closed spectrum are constrained by one chosen parent and readout.
+
+[[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|The limit test]]
+proves that successive partial traces preserve the same total
+\(D=dK\), generator duration and normalized affine gap.
+At fixed retained matrix size, increasing \(K\) nevertheless concentrates
+the state-parameter law at \(I/d\). Quantum variance within that state
+does not vanish. Rescaled ensemble fluctuations have a Gaussian
+stationary limit and locally convergent Ornstein–Uhlenbeck coefficients;
+[[algebra/matrix-symbol-realization-and-the-clock-algebra|The matrix-symbol realization]]
+uses these fluctuations for an exact finite quantum Hilbert isometry and
+depolarizing-semigroup intertwiner. Transported left multiplication does
+give a faithful positive operator algebra, despite the vector map failing
+pointwise positivity. The Hilbert clock does not normalize this selected
+matrix algebra. Its explicit unequal-time commutator on disjoint tensor
+factors also rules out assigning those factors positive spatial
+separation and strictly finite propagation with this same global clock.
+
+The seven-group purification receipt checks finite Clifford, Gram,
+moment, response and marginalization identities. The general density,
+spectrum and stationary-limit claims have separate proofs in their
+owners. The next physical construction must retain the appropriate
+product, positive cone and spatial relations along its limit; none is
+obtained by interpreting matrix size as spatial volume. The full
+interacting Yang–Mills return remains open.
+
+## CA15. Pure-vacuum loss returns a compatible operator clock
+
+[[algebra/faithful-stationary-states-and-the-positive-clock|Faithful-state clock rigidity]]
+generalizes the preceding matrix obstruction. If a unitary group fixes a
+cyclic and separating vector and normalizes its von Neumann algebra,
+Tomita conjugation gives \(JHJ=-H\). A nonnegative anchored generator must
+therefore vanish. This is not a prohibition of positive physical
+Hamiltonians: the faithful-state implementation carries both signs, and
+time covariance among different local algebras is not normalization of
+one fixed algebra.
+
+[[directed-analytic-realization/pure-vacuum-loss-and-the-returned-clock|The pure-vacuum construction]]
+changes the state quotient, not positivity. A row with
+\(L_a\Omega=0\) determines
+\[
+K=\tfrac12\sum_aL_a^*L_a,\qquad
+\mathcal L(A)=\sum_aL_a^*AL_a-KA-AK,\qquad
+q(A)=A\Omega.
+\]
+The exact relation \(q e^{s\mathcal L}=e^{-sK}q\) returns positive
+preparation, and the same \(K\) generates automorphisms of the defining
+operator algebra. Its representation is faithful although its vacuum
+state is not. The state Schwarz loss is exactly
+\(\int_0^s\|\mathbf L e^{-rK}A\Omega\|^2\,dr\); it is not automatically
+von Neumann entropy. Distinct whole processes, including amplitude
+damping and dephasing, can have the same returned \(K\).
+
+The row's unitary channel-label stabilizers preserve the process and
+clock together. For a compact connected semisimple symmetry, a unique
+common kernel line has no nontrivial continuous character and supplies
+an invariant vacuum. The physical gauge action and the row itself still
+need a construction; this lemma does not select a gauge group.
+
+[[directed-analytic-realization/local-loss-rows-and-the-uniform-gap|The local row tests]]
+use actual finite tensor algebras. Independent loss and its graph-star
+entangling conjugate have gap \(1/2\), uniformly. The entangled vacuum is
+faithful on each one-site algebra but nonfaithful globally. Anchored
+nearest-neighbor loss differences instead have a unique vacuum and exact
+full gap \(1-\cos(\pi/(2N+1))\), which closes as \(N^{-2}\). A complete
+fermionic occupation-basis argument proves the full-spectrum claim;
+the one-excitation ramp already gives a vanishing upper bound.
+
+This member resolves a finite state/response/clock compatibility that
+the tracial member did not. It has not been derived from that earlier
+octonionic purification law. Its supplied tensor factors and support
+relations are not a derived four-dimensional arena; the gapped graph
+example is conjugate to an independent clock, not Yang--Mills dynamics.
+The [[directed-analytic-realization/vacuum_loss_receipt.py|seven-group receipt]]
+and [[directed-analytic-realization/vacuum-loss-receipt-output.txt|output]]
+verify finite process, support, response, CAR and graph-state identities.
+The full return obligation remains an interacting four-dimensional
+Yang--Mills realization with a uniform physical gap.
+
+[[algebra/local-vacuum-faithfulness-and-the-loss-carrier|The local-faithfulness boundary]]
+also rules out an uncritical continuum import of these rows. A nonzero
+operator affiliated with a local algebra cannot annihilate its separating
+vacuum when the vacuum is in its domain. The graph examples avoid this
+because their vacuum is nonfaithful on the stars supporting their jumps,
+despite being faithful on each single site.
+
+A constructive two-sided alternative uses
+\(\Omega_\rho=\sum_i\sqrt{p_i}|ii\rangle\). The mirror
+\(B_A=\rho^{1/2}A^{\mathsf T}\rho^{-1/2}\) gives
+\[
+D_A=A\otimes I-I\otimes B_A,\qquad D_A\Omega_\rho=0.
+\]
+Each separate factor has a faithful state, while the mismatch is a
+joined operator. For all matrix units at uniform Schmidt weights,
+\(\tfrac12\sum D_{E_{ij}}^*D_{E_{ij}}=d(I-P_\Omega)\).
+This realizes a positive response of the relation itself; it does not
+assign the opposed factors positive spatial separation or make their
+individual algebras invariant under that clock. The mirror need not
+preserve adjoints at unequal weights, and is not a quantum channel.
+The finite receipt checks these distinctions and the exact two-level
+response. Constructing the corresponding loss carrier, local net and
+uniform field limit remains essential to the full target.
+
+## CA16. Spectral compatibility is weaker than autonomous local clocks
+
+[[algebra/modular-mirror-response-and-the-analytic-domain|The modular mirror]]
+extends the finite opposed-factor construction to an entire
+modular-analytic observable in a cyclic-separating representation:
+\[
+R_A=J\sigma_{-i/2}(A^*)J,\qquad
+D_A=A-R_A,\qquad D_A(B\Omega)=[A,B]\Omega.
+\]
+The bounded partner is unique. Its adjoint has a modular twist, and its
+norm need not remain bounded as analytic smoothing is removed. A finite
+bounded row gives the same pure-vector UCP quotient and positive clock
+on \(B(\mathcal H)\) in arbitrary Hilbert dimension. Neither the row's
+normalization nor its lower bound is selected by modularity alone.
+
+[[algebra/expected-inclusions-and-mirror-clock-consistency|The inclusion theorem]]
+then separates three different requirements. A faithful bipartite state
+supplies a GNS inclusion isometry \(V\); mirror commutators intertwine
+through it; hence \(V^*K_MV=K_N\). Reduction of the clock is stronger.
+For a same included frame with scalar commutant, it is equivalent to a
+product state. This is not a demand that physical local observations be
+uncorrelated.
+
+In the exact correlated two-qubit fixture, a local coherence of
+first-moment rate one actually reads the rates \(5\) and \(5/9\);
+its second-moment excess is \(16/9\). More sharply, a centered local
+distinction of first-moment rate two retains a zero-frequency weight
+\(16/25\). The included frame leaves a whole commutant kernel, which
+correlations expose to the local readout. An apparent local form gap
+therefore does not certify the whole excitation spectrum.
+
+[[coarse-response-memory/spectral-readout-and-the-visible-gap|The spectral readout]]
+keeps \(\mathsf M(B)=V^*E_K(B)V\) instead of replacing the response by
+the exponential of its first moment. These positive operator-valued
+measures compose under nested isometries even when the contexts are
+not autonomous. A common visible floor controls the whole spectrum
+only on a complete or spectrally cyclic family. Even uniform absolute
+heat-readout convergence can hide vanishing-weight soft modes.
+
+[[global-local-response-reconstruction/compatible-spectral-readouts-and-positive-clock|Spectral assembly]]
+constructs one positive clock from a compatible family of these
+readouts. The common-stage forms define a measure on a Hilbert
+inductive limit; an explicit positive kernel, null quotient and
+minimal spectral dilation return a self-adjoint generator. A
+compatible unique vacuum and a common lower bound survive when
+proved in the input. Minimality excludes arbitrary invisible sectors.
+
+The result identifies a composable intermediate object without
+assuming a primitive global Hamiltonian or autonomous local clocks.
+It does not yet produce the noncommutative observable algebra from
+the spectral kernel, establish physical translation covariance, or
+force the common lower bound. The next construction must supply
+those links from the directed law rather than add them as independent
+inputs. The full interacting four-dimensional Yang--Mills return
+remains the target.
+
+[[directed-analytic-realization/mirror_inclusion_receipt.py|The finite receipt]]
+and [[directed-analytic-realization/mirror-inclusion-receipt-output.txt|its output]]
+check the modular twist, inclusion, spectral atoms and product control
+in five exact rational groups. These calculations test the stated
+finite identities, not the infinite-carrier assembly or continuum
+mass-gap conclusion.
+
+## CA17. Preparation overlaps return a whole transition algebra
+
+The missing observable action in CA16 now has a classified obstruction
+and a constructive alternative.
+[[algebra/spectral-coefficient-lifts-and-the-frozen-clock|The coefficient-lift theorem]]
+proves that the fixed-spectral-label rule
+\([B,\xi]\mapsto[B,a\xi]\) is bounded exactly when
+\(a^*\mathsf M(B)a\le C^2\mathsf M(B)\) for every spectral set.
+It is a \(*\)-representation of a supplied coefficient algebra exactly
+when that algebra commutes with every effect. These lifts preserve
+energy sectors and cannot create positive-energy states from a
+zero-energy vacuum. The restriction belongs to this prescription,
+not to all observable realizations.
+
+[[directed-analytic-realization/preparation-overlaps-and-the-transition-algebra|Preparation transitions]]
+instead use \(x_{s,\xi}=e^{-sH}J\xi\), with overlap
+\(\langle x_{s,\xi},x_{t,\eta}\rangle
+=\langle\xi,R_{s+t}\eta\rangle\). Their rank-one operators obey
+\[
+\Theta_{s,t}(\xi,\eta)\Theta_{u,v}(\zeta,\theta)
+=\langle\eta,R_{t+u}\zeta\rangle
+ \Theta_{s,v}(\xi,\theta).
+\]
+This is an actual associative product fixed by the same readout kernel.
+Positive-depth preparations span the entire minimal dilation; even
+integer multiples of any fixed preparation depth suffice by polynomial
+density after \(q=e^{-\tau\lambda}\).
+Consequently the transition span completes to the compact operators,
+with ultraweak completion \(B(\mathcal K)\).
+The existing positive clock acts on this algebra, and the
+vacuum-created centered transitions give a complete global
+response family. No second generator is chosen.
+
+The algebra is a whole return, not the required local net. The corner
+\(a\mapsto JaJ^*\) preserves products and adjoints but changes the unit
+to \(JJ^*\). An explicit three-dimensional minimal dilation has a
+two-dimensional source; it returns \(M_3\), whereas a unital
+\(M_2\to M_3\) representation is impossible. Also, Hermitian
+transitions from a shared vacuum to orthogonal states need not commute,
+even when their commutator annihilates the vacuum. Neither a correct
+whole algebra nor vacuum two-point orthogonality supplies local
+operator commutation.
+
+The construction therefore improves the return obligation from
+“some noncommutative operators are missing” to selection of the
+physical local algebras, their common unit, covariance and causal
+relations inside a clock-compatible whole. The preparation kernel and
+its spectral normalization remain input. A common positive threshold,
+interacting Yang--Mills dynamics and the four-dimensional physical
+return are not derived by allowing all rank-one transitions.
+
+[[directed-analytic-realization/spectral_transition_receipt.py|The spectral-transition receipt]]
+and [[directed-analytic-realization/spectral-transition-receipt-output.txt|output]]
+verify six exact rational groups: the kernel, null quotient, corner,
+complete transition span, clock products and vacuum-sharing
+commutation counterexample. The general density and completion
+claims have proofs in their canonical owners, not merely finite tests.
+
+## CA18. Positive evaluation returns a readout law without fixing ontology
+
+[[directed-analytic-realization/positive-readout-and-the-born-weight|Positive readout]]
+extends CA17 from a transition algebra to an explicit numerical
+evaluation. Every positive norm-one linear functional on the returned
+compact algebra has the form \(T\mapsto\operatorname{Tr}(\rho T)\)
+for a unique positive trace-class density. Rank-one coefficients prove
+this in every nonzero complex Hilbert dimension; positivity and
+linearity on the entire algebra are substantive inputs, not inferred
+from inaccessible antecedents or noninvertibility.
+
+Pure evaluations give squared overlaps. Two nonnull preparations yield
+\[
+w_{s\xi,t\eta}
+=\frac{|\langle\eta,R_{s+t}\xi\rangle|^2}
+{\langle\xi,R_{2s}\xi\rangle
+ \langle\eta,R_{2t}\eta\rangle}\in[0,1].
+\]
+A finite preparation frame also determines normalized effects through
+its inverse frame operator. The same overlap geometry therefore
+supplies a real-valued binary or finite readout once the evaluation and
+probes are specified. The complete family of coherent preparation tests
+separates normal states: a model-to-law map need not itself forget the
+state.
+
+This construction is neutral between probabilistic, Everettian and
+deterministic ontologies. The
+[[sufficient-reason/noninvertible-presentation-and-apparent-chance|sufficing-reason analysis]]
+allows inaccessible determining data alongside an accessible law, while
+keeping the loss map and weighting distinct. No selected outcome
+mechanism is required as a premise of the present readout theorem.
+The physical selection of kernel, state and test remains open, as do
+local field realization and a uniform lower edge. Zero weight in one
+state is not a state-independent exclusion of the corresponding
+spectral subspace.
+
+## CA19. Full-cone positivity constrains preparation but retains soft states
+
+[[algebra/determinant-preparation-positivity-and-the-rank-threshold|The determinant-kernel theorem]]
+tests a concrete supplier for CA18's pairing. On
+\(\operatorname{Herm}_2(\mathbb C)_{++}\),
+\(K_\beta(A,B)=\det(A+B)^{-\beta}\) is positive exactly when
+\(\beta=0\) or \(\beta\ge1\). An elementary differential obstruction
+and positive integral representations prove this; a six-point rationally
+certified Gram witness excludes \(\beta=1/2\). A positive determinant
+Hessian alone misses the obstruction. At fixed trace, even noncommuting
+qubits admit every positive exponent. Restoring scale variation is
+therefore essential to this particular global compatibility test.
+
+[[directed-analytic-realization/determinant-cone-preparation-and-the-gapless-return|The same-kernel return]]
+constructs a dense preparation carrier, positive contraction semigroup,
+unitary translations and Lorentz action. Their joint mass-squared
+invariant is the dual determinant. It vanishes at \(\beta=1\); for
+\(\beta>1\) it is positive almost everywhere but has spectrum reaching
+zero. Homogeneous dilations and explicit normalized soft preparations
+prove gaplessness. Adding a vacuum line does not alter that conclusion.
+
+This gives a structural constraint, not a Yang--Mills construction or a
+new positivity classification: the general Jordan result is attributed
+in its canonical note. The candidate fixes more of the pairing/clock
+relationship, but a support-changing or carrier-changing law remains
+necessary for a mass gap. Strictly positive reweighting cannot remove
+the existing soft support. The
+[[directed-analytic-realization/determinant_kernel_receipt.py|exact finite receipt]]
+checks the obstruction and response identities; neither it nor the
+returned compact transition algebra supplies a physical local gauge net.
+
+## CA20. A concentrating whole law retains a full fluctuation clock
+
+[[algebra/purification-response-normalization-and-the-full-clock-limit|The full-clock theorem]]
+closes the dynamical limit left open by the purification notes. At fixed
+matrix size and growing parent dimension \(D\), finite nonzero covariance
+requires fluctuation amplitude of order \(\sqrt D\); a non-frozen
+continuous fixed-degree clock requires duration scaling of order
+\(D^{-1}\). Finite calibration constants remain. Exact all-order moments
+and polynomial-compatible Hilbert comparisons then give
+\[
+U_D^*H_DU_D=\mathcal N+\frac{\mathcal N(\mathcal N-1)}D,
+\]
+where \(\mathcal N\) is the Gaussian number operator. This identity
+proves full-space norm-resolvent convergence, positive-time heat
+convergence and strong unitary-clock convergence, not merely convergence
+of differential coefficients or selected covariances.
+
+[[directed-analytic-realization/purification-fluctuation-and-the-oscillator-return|The same-clock oscillator return]]
+extracts conjugate operators from the response of coordinate readout.
+The finite noncentral commutator approaches a canonical commutator;
+the limiting Weyl algebra is preserved by the inherited clock and has
+a derived stationary state action. This is a different algebra from
+the finite matrix-symbol return, whose clock failed to preserve it.
+
+The source sphere already had a gap, and the limit is Gaussian with
+finitely many internal modes. The result neither derives physical
+units nor constructs spacetime locality or gauge interactions. It
+demonstrates how a concentrating presentation and retained dynamical
+response can coexist, while identifying exactly which nonlinear
+degree correction disappears. The
+[[directed-analytic-realization/fluctuation_clock_receipt.py|exact receipt]]
+checks finite identities; the canonical proofs establish the full limit.
+
+## CA21. Background conditioning changes the rate, reference and closure
+
+The [[algebra/purification-response-normalization-and-the-full-clock-limit#Moving high-degree probes do not retain an interaction at bounded energy|bounded-energy theorem]]
+strengthens CA20: the quadratic spectral correction disappears
+uniformly on bounded-energy sectors, independently of multiplicities.
+Even moving normalized vectors with bounded mean energy have vanishing
+finite-time dynamical difference, though rare high-energy tails can
+retain a difference in unbounded energy expectations.
+
+[[algebra/occupation-conditioned-clocks-and-the-vacuum-boundary|The occupied-background construction]]
+then tests a genuinely different comparison. Splitting Hermite modes and
+conditioning on background occupation \(n_D/D\to\rho\) gives
+\[
+h_D(n_D+\mathcal N_A)-h_D(n_D)
+\longrightarrow(1+2\rho)\mathcal N_A.
+\]
+The whole spectrum determines the visible rate through a discrete
+derivative. However, this is an excited-sector subtraction, and the
+visible nonlinear correction still vanishes. The chosen mode split is
+not the original purification environment or a derived spatial region.
+
+Forgetting a nontrivial bounded distribution of these rates produces
+memory rather than an autonomous visible clock. In the exact two-rate
+example, minimal spectral completion removes an extra vacuum but fails
+to retain the original visible lowering operators. Thus obtaining a
+unique spectral vacuum does not discharge observable-algebra recovery.
+The [[directed-analytic-realization/occupation_clock_receipt.py|finite receipt]]
+checks the sector law and this obstruction. These results constrain the
+next candidate; neither background selection nor a physical interacting
+vacuum has been constructed by this change of reference.
+
 ## Kill conditions
 
 - A vector in the pointwise kernel of a singular source derivative is treated as an integrable fixed-source motion, despite the discrete extremal staple fiber.

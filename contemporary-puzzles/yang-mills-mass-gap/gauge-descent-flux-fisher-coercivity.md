@@ -122,6 +122,13 @@ This finite construction avoids pretending that the orbit quotient is globally a
 
 ## Exact ground-state-transform theorem
 
+This theorem starts with the actual vacuum of a specified Hamiltonian.
+[[algebra/response-factorization-and-the-vacuum|The response-first construction]]
+gives the converse direction only after declaring a factorization rule,
+metric and measure; it retains the resulting divergence correction.
+Computing \(W=-\epsilon\log\psi_0\) after the fact is not an independent
+construction of that response.
+
 For every sufficiently regular gauge-invariant \(f\), multiplication by the vacuum gives a physical vector
 
 $$
@@ -356,6 +363,44 @@ f_C(U)
 $$
 
 is gauge invariant, has Haar mean zero, and is an eigenfunction with eigenvalue $g(\Gamma)c_K(\pi_*)$. This proves the reverse bound. $\square$
+
+**Weighted extension.** Keep the same graph, Haar carrier, and full Gauss
+projection. More generally, let \(G\) be any nontrivial compact connected
+Lie group with a bi-invariant metric \(Q\), and take positive edge
+coefficients \(\alpha_e\). Define
+\[
+K_{\Gamma,\alpha,Q}:=\sum_e\alpha_eD_{Q,e},\qquad
+\gamma_Q:=\min_{\pi\ne\mathbf1}c_Q(\pi)>0,\qquad
+g_\alpha(\Gamma):=\min_{C\text{ simple cycle}}
+\sum_{e\in C}\alpha_e,
+\tag{WG1}
+\]
+where \(D_{Q,e}=-\Delta_{Q,e}\). Self-loops and parallel pairs have the
+same cycle conventions as above. The positive self-adjoint operator is
+defined by its \(H^1\) flux form and restricted to gauge invariants. Its
+exact nonvacuum threshold is
+\[
+\boxed{\operatorname{gap}_{\mathbf1}K_{\Gamma,\alpha,Q}
+=\gamma_Q g_\alpha(\Gamma).}
+\tag{WG2}
+\]
+Indeed, every nontrivial admissible spin-network support contains a cycle,
+and its energy satisfies
+\(\sum_e\alpha_ec_Q(\pi_e)
+\ge\gamma_Q\sum_{e\in\operatorname{supp}\boldsymbol\pi}\alpha_e
+\ge\gamma_Q g_\alpha(\Gamma)\).
+Conversely, a character in a representation attaining \(\gamma_Q\),
+placed on a minimizing cycle, has Haar mean zero, norm one, and exactly
+that eigenvalue. Positivity of all edge coefficients is used in the lower
+bound. This is the weighted form of the same spin-network argument,
+not an interacting-vacuum comparison.
+
+Under a pure bivalent subdivision, the
+[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|additive holonomy clock law]]
+\(\alpha_e=\sum_{s\subset e}\alpha_s\) preserves every cycle sum and
+hence (WG2). Adding new edges can introduce new cycles with smaller total
+weight. Preservation of the old loop clocks therefore does not prove a
+positive lower bound throughout a graph-refinement family.
 
 The same support-and-saturation argument gives the sharp bounded analogue for the $SU(2)$ pure product-Wilson convolution. If $P_{x,\Gamma}^{\mathrm{kin}}=\bigotimes_eP_x$, then [[finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|the product-Wilson theorem]] proves on the gauge-invariant carrier
 

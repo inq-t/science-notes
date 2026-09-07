@@ -66,6 +66,15 @@ clock comparison is calculated from geometry rather than supplied as a
 bound. This is a circle model, not the required four-dimensional gauge
 realization.
 
+For a flat three-dimensional boundary,
+[[algebra/three-dimensional-weighted-compression-response|the inverse normal-response map]]
+also makes a Clifford compression trace equal to harmonic boundary
+response. [[algebra/cauchy-response-and-local-action|Two opposed response graphs]]
+then supply a Green-paired carrier whose state action reduces to the
+local scalar wave action. The underlying three-dimensional metric and
+the clock-rotation prescription are still inputs; the relation is not
+an automatic conversion of any trace Dirichlet form into physical time.
+
 ## Harmonic representatives and the exact residue
 
 Suppose every fibre in (TD2) has a selected linear minimizer
@@ -383,6 +392,13 @@ At a finite Wilson regulator, the coordinate or cylinder form in
 is precisely (TD16g). It is the safer Markov branch. The infimal trace remains
 the sharper realization of least whole-compatible cost, but now carries a
 genuine additional theorem obligation.
+
+[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|Holonomy refinement]]
+computes this pullback for a nonlinear product of gauge links. Its
+induced cometric is the conditional mean of the transported whole
+cometric. For independent-link diffusion the subdivision factors survive
+every faithful density reweighting, so state compatibility alone does
+not establish response or clock compatibility.
 
 ## The gap is exactly a whole-to-local lift inequality
 

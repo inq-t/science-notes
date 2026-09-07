@@ -112,6 +112,16 @@ The phrase “facts happen here and now” contains two different pointings. **H
 
 Writing \(x^0=ct\) converts a temporal coordinate to units of length. The constant \(c\) is not a quotient that identifies space with time: Lorentzian signature, causal cones, and the distinction between spacelike and timelike directions remain. A soldering map between record order and Lorentzian time is an additional physical weld.
 
+[[algebra/directed-response-and-lorentzian-signature|The directed-response construction]]
+turns that weld into a concrete test. A positive response metric and an
+oriented cotangent line produce a Lorentzian reflection; future record
+monotonicity must additionally satisfy its causal-cone inequality.
+[[algebra/octonionic-associator-and-branch-forgetting|The octonionic branch model]]
+supplies a different exact ingredient: nonassociative multiplication
+produces a positive discrepancy between reversible operations, while an
+explicit discarded-label channel supplies actual loss. Neither operation
+alone constructs a persistent record functor.
+
 Likewise, mass-energy and gravity are related but not generally identical or dual. In an imported Einstein branch, stress-energy sources geometry through field equations; the metric also has source-free degrees of freedom. Calling gravity the “cost of descent” requires a covariant map from a typed loss or response functional to gravitational canonical energy, curvature, and independently normalized area. It does not follow from forgetting, and it does not by itself explain cosmic expansion or acceleration.
 
 ## There is no untyped residue of forgetting

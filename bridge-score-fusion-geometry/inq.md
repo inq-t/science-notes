@@ -388,6 +388,15 @@ law and the orthogonal structure of the physical slice carrier remain
 Perron weighted, as recorded by
 [[gauge-cycle-innovation-filtration/inq#The actual Wilson pair has a complete physical matrix|the Wilson innovation matrix]].
 
+There is a qualified inverse to this warning.
+[[bridge-data-augmentation-solder/bridge-law-and-the-recovered-clock|Complete
+finite full-support bridge data]], if compatible with a homogeneous Markov
+realization, determine its normalized transition and stationary law.
+Perron weights need not then be independently chosen, although they still
+enter the norm. This uses the complete conditional family and the stated
+realization class; arbitrary endpoint mixtures, sparse supports, and a
+single bridge score or floor do not satisfy that conclusion.
+
 ## A middle insertion analyzes the complete slice carrier
 
 The finite-parameter score construction does not by itself cover an

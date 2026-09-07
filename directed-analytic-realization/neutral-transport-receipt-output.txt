@@ -1,0 +1,10 @@
+PASS: nine matrix units distinguish pair sums from Liouville differences; 210 occupation states include 46 neutral states with edge 2.
+PASS: six finite Pauli spectra give charged edge sqrt(gamma) and free neutral edge 2sqrt(gamma), distinct from adjoint diffusion.
+PASS: 12 rational weighted models verify the exact identity a^2 gamma=2(sqrt(sum b)sum sqrt(b)-sum b), plus numerical radical values.
+PASS: 16 numerical isotropic and 12 exact anisotropic refinements keep nonzero velocities while gamma scales as a^-2.
+PASS: seven degenerate refinements approach finite gamma=4 only while the two transverse quadratic velocities vanish.
+PASS: 16 axis/diagonal small-momentum probes check the isotropic quartic formula and sampled sixth-order remainder.
+PASS: 54 exact finite Gaussian/Hermite modes verify the vacuum subtraction, covariance epsilon/(2A), and energy-versus-rate normalization.
+All seven check groups passed. Stdlib only; stdout only; no files written.
+Finite identities and selected numerical refinements do not prove an interacting or continuum limit.
+Global charge neutrality, adjoint diffusion, and local gauge invariance are distinct constructions.

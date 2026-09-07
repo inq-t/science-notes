@@ -41,8 +41,8 @@ extends this return: the complex realized form supplies a symplectic state
 space, and the process derivative supplies its stationary Schrödinger
 action. The [[directed-analytic-realization/inq|analytic-tail member]]
 calculates quotient, generator and action from one future-translation law.
-No four-dimensional arena has yet been recovered, and compatible period
-refinement closes its initially positive spacing.
+The tail member does not derive a four-dimensional arena, and compatible
+period refinement closes its initially positive spacing.
 
 [[algebra/hardy-compression-and-boundary-response|Hardy compression]]
 now identifies an actual response-to-clock form in an oriented disk member:
@@ -64,6 +64,158 @@ opens a clock edge but makes its squared generator nonlocal, so it fails
 the [[directed-analytic-realization/three-dimensional-boundary-test|spacelike-commutation test]].
 [[algebra/clifford-mass-plane-and-selection|The explicit Clifford mass plane]]
 likewise distinguishes permitting a mass term from selecting a nonzero one.
+
+[[algebra/wick-real-forms-and-positive-preparation|Wick real forms]] make
+the special sign of the clock equation explicit: analytic continuation
+changes the normal-response slice and parameter together, while a positive
+preparation kernel constructs a quotient carrying the same generator.
+[[algebra/directed-response-and-lorentzian-signature|Directed-response reflection]]
+produces one negative metric direction from a positive response and an
+oriented cotangent line. The [[algebra/positive-cone-processes-and-the-complex-corner|complex-corner construction]]
+now supplies both from a logarithmic determinant, and exceptional
+descent variance supplies inputs that force its cone bound. The selected
+complex rank-two type supplies the \(3+1\) signature. Uniform
+[[algebra/qubit-cone-interiorization-and-the-clock-gap|interiorization of its positive base]]
+then measures a specified transfer gap on the same finite carrier.
+The [[algebra/determinant-scale-clock-and-the-hyperbolic-threshold|scale-clock test]]
+exposes the remaining dynamics choice: the flat massless return cancels a
+hyperbolic threshold that survives under a different field prescription.
+[[algebra/determinant-preparation-positivity-and-the-rank-threshold|Determinant preparation positivity]]
+instead constrains the overlap itself: its full-cone exponent threshold
+disappears on the fixed-trace state ball. The admissible kernel returns
+[[directed-analytic-realization/determinant-cone-preparation-and-the-gapless-return|a common Lorentz-covariant carrier and clock]],
+but exact scale covariance keeps its invariant mass spectrum gapless.
+[[algebra/peirce-context-averaging-and-the-emergent-qubit-process|Moving Peirce contexts]]
+now determine a local CP return with contraction \(1/3\), by comparing
+three-dimensional complex directions inside the nine-dimensional
+trace-free octonionic corner. Its
+[[algebra/depolarizing-return-and-the-classical-record-threshold|classical-record factorization]]
+lies exactly at the qubit entanglement-breaking boundary; this concerns a
+declared measurement realization, not an obtained outcome or mass onset.
+[[algebra/short-loop-holonomy-and-quantitative-gluing|Short-loop gluing]]
+separately constructs a volume-uniform section bound from incompatible
+transports. Its Pauli example loses that bound on the adjoint observable
+carrier. [[algebra/positive-energy-pairs-and-the-neutral-gap|Positive-energy pairs]]
+give a different return: opposite charges cancel while their excitation
+energies add. The
+[[directed-analytic-realization/neutral-gaussian-return-of-holonomy-response|Gaussian neutral realization]]
+preserves the section bound in a vacuum observable sector, but the
+[[algebra/pauli-transport-and-the-continuum-scaling-obstruction|continuum scaling identity]]
+prevents a finite-gap multidirectional limit by positive reweighting alone.
+No common four-dimensional gauge realization has yet been constructed.
+
+[[algebra/refining-holonomy-and-a-finite-continuum-threshold|Refining the transport itself]]
+does retain a finite continuum threshold and local propagation, but
+[[algebra/joint-transport-variance-and-the-source-free-obstruction|joint variance]]
+exposes its incompatible source-free background and its translation spectrum
+fails the forward-cone test. The foundational question therefore concerns
+the response and realization law together.
+[[algebra/moving-response-balance-and-a-ruble-operator-signature|Moving response balance]]
+gives that question a covariant operator signature: transport changes both
+distinctions and their comparison forms, with an additive defect and an
+intrinsic fixed-rank log-volume cost. The latter is not a physical clock
+or a mass bound. [[algebra/finite-entropy-cost-and-rank-changing-readout|Finite entropy readout]]
+provides a different, state-indexed cost for a genuine fiber-forgetting map.
+[[algebra/sphere-to-ball-descent-and-the-jacobi-response|The sphere-to-ball member]]
+pushes forward both the whole law and differential generator through one
+selected projection. Its [[algebra/jordan-covariance-and-the-entropy-weighted-ball|Jordan covariance and hidden-fiber weight]]
+fix the local metric, drift and sharp response edge together. A hidden
+circulation can be invisible in its detailed-balanced local return; the
+chosen whole geometry, generator normalization and physical realization
+remain open inputs rather than consequences of forgetting alone.
+
+[[algebra/octonionic-hopf-descent-and-the-complex-purification|The Hopf factorization]]
+now places that sphere return and complex purification over one
+normalized amplitude parent, with the same transported measure and
+generator. [[algebra/purification-descent-and-the-matrix-response|Matrix-state descent]]
+extends the construction to all finite matrix sizes.
+[[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|Its marginalization law]]
+preserves the total parent dimension and response duration; the growing
+environment test separately distinguishes state-ensemble concentration
+from quantum variance. [[algebra/matrix-symbol-realization-and-the-clock-algebra|The matrix-symbol return]]
+constructs a faithful positive operator algebra on the fluctuation
+Hilbert carrier, not by pointwise multiplication. Its global clock
+does not preserve that algebra and immediately couples disjoint
+tensor factors under time translation.
+
+[[purification-response-normalization-and-the-full-clock-limit|The full fluctuation limit]]
+instead retains all polynomial degrees. Nondegeneracy and clock
+continuity fix its rescaling orders, and exact spectral transport
+proves convergence to the Gaussian number operator. The
+[[directed-analytic-realization/purification-fluctuation-and-the-oscillator-return|resulting oscillator algebra]]
+is preserved by that same clock. It is a different observable carrier,
+with a derived stationary state action but no spacetime field return.
+The same spectrum bounds the correction even for moving bounded-energy
+probes. [[occupation-conditioned-clocks-and-the-vacuum-boundary|Occupied-background conditioning]]
+retains a global-to-visible rate relation, but changes the reference
+sector. Forgetting a distribution of those rates yields memory; removing
+its extra zero modes need not preserve the visible observable algebra.
+
+[[faithful-stationary-states-and-the-positive-clock|Faithful-state clock rigidity]]
+requires the state, algebra and clock to be realized together: a
+nontrivial positive generator cannot normalize an invariant algebra while
+fixing its cyclic and separating vector.
+[[directed-analytic-realization/pure-vacuum-loss-and-the-returned-clock|Pure-vacuum loss]]
+gives a constructive alternative through a nonfaithful state quotient.
+The operator representation remains faithful; it is the state that is
+not. [[directed-analytic-realization/local-loss-rows-and-the-uniform-gap|Its local row tests]]
+then separate compatible clock realization from the additional uniform
+lower bound needed through growing systems.
+
+[[local-vacuum-faithfulness-and-the-loss-carrier|The local-faithfulness boundary]]
+requires the loss carrier itself to be typed: a nonzero operator in an
+algebra with a separating vacuum cannot annihilate that vacuum.
+State-dependent Schmidt mirrors instead construct a vacuum-annihilating
+mismatch between two opposed factor actions. This supplies a concrete
+relational response without calling either local presentation the whole.
+
+[[modular-mirror-response-and-the-analytic-domain|Modular analytic mirrors]]
+extend that response beyond finite matrices with an explicit domain and
+adjoint twist. [[expected-inclusions-and-mirror-clock-consistency|Their inclusion law]]
+preserves the commutator and response form, but generally not the clock.
+The weaker compatible object is the
+[[coarse-response-memory/spectral-readout-and-the-visible-gap|complete spectral readout]]:
+it retains the frequencies and hidden-return information that the first
+moment forgets.
+
+[[spectral-coefficient-lifts-and-the-frozen-clock|Coefficient-only spectral actions]]
+are now classified: an observable \(*\)-action of this kind must commute
+with the clock and cannot create excitations from its vacuum.
+[[directed-analytic-realization/preparation-overlaps-and-the-transition-algebra|Preparation transitions]]
+instead connect different spectral sectors. Their product is fixed by
+the overlap kernel, returning a noncommutative whole algebra with its
+clock, but not a specified family of local algebras.
+
+[[algebra/nonlinear-response-and-clock-realization|A nonlinear closed response]]
+returns a classical squared-response potential under a declared cotangent
+prescription. [[directed-analytic-realization/chern-simons-response-and-gauge-action|Chern–Simons transgression]]
+then supplies the interacting magnetic term, without first defining the
+response by minimizing that same action. Its signed Hessian cannot simply
+be made positive: [[algebra/absolute-hessian-and-response-integrability|the spectral modulus]]
+fails Hessian compatibility even on the determinant slice. A
+[[algebra/positive-boundary-response-from-decaying-extensions|decaying-extension theorem]]
+instead constructs the compatible positive germ at a nondegenerate finite
+vacuum. The [[directed-analytic-realization/cubic-gauge-boundary-response-and-gauss-completion|spatial gauge coefficient]]
+obeys its own Gauss completion and harmonic solvability condition; it does
+not inherit that local existence theorem at zero stiffness.
+[[algebra/response-factorization-and-the-vacuum|Positive quantum factorization]]
+has a separate measure, domain and divergence condition. The
+[[directed-analytic-realization/compact-lie-gauge-positive-realization|compact-Lie homogeneous gauge form]]
+nevertheless constructs a positive vacuum and a gap without a positive
+classical Hessian; the adjoint trace controls transverse localization.
+[[directed-analytic-realization/quantum-response-regularity-at-the-gauge-origin|Quantum-origin regularity]]
+then derives a local positive slope from that actual state. The gap is
+not volume uniform, and this carrier is not the complete four-dimensional
+field theory.
+
+[[algebra/opposed-response-polarization-and-kahler-completion|Nonlinear pair polarization]]
+also asks which complex realization can support a clock. Two opposed
+response Hessians require a geometric-mean polar correction, or a different
+arithmetic-mean exchange metric. The latter is Kähler and, for a
+convex-quartic family, admits a complete isometric circle action whose
+moment function fixes its Hamiltonian. It is a constructive alternative
+to the squared-response clock, not a proof that every complexification
+selects the same dynamics or a physical time.
 
 [[algebra/os-descent-naturality-and-clock-no-go|OS descent naturality and
 the idempotent-clock no-go]] closes the converse ambiguity. Polynomial
@@ -127,6 +279,14 @@ $$
 on the generic, double-root, and triple-root strata in the closure of the three-real-root chamber. These types are not canonical specialization arrows. A separately declared stabilizer action does give exact group-averaging expectations $\mathbb C^3\to\mathbb C^2\to\mathbb C$. The nonreduced singular algebras retain nilpotent thickness while every $*$-representation by bounded operators kills a self-adjoint nilpotent; this supplies exact fiberwise nonfaithful quotients and a logarithmic discriminant depth. The same-representation lemma proves only that one nonidentity bounded operator cannot be both unitary and unipotent; a representation-changing group map is not forbidden.
 
 ## Reversible identity and irreversible history
+
+[[algebra/octonionic-associator-and-branch-forgetting|Octonionic branch forgetting]]
+gives an exact finite example of the distinction. Two reversible
+parenthesizations have a positive squared discrepancy; their labelled
+realization is isometric, while discarding the label erases specified
+operator coherences. The nonassociative defect, the channel kernel and a
+historical record are different structures. The associated reflection has
+signature \((4,4)\), not a Lorentzian time direction.
 
 The minimum architecture has two kinds of arrow:
 

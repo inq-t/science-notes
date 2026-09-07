@@ -1,0 +1,7 @@
+PASS: two faithful matrix states satisfy 125 cyclic commutator identities and 890 exact HS-adjoint checks, including the nonuniform modular twist.
+PASS: the correlated diagonal inclusion intertwines mirror rows and their first response form, but its exact coherence second-moment defect is 16/9.
+PASS: exact correlated spectral projectors compress to a nonprojective POVM; centered Z retains zero weight 16/25, and two rational heat returns fail the semigroup law.
+PASS: the product-state control intertwines rows and adjoints, has zero second-moment leakage, and retains projection-valued spectra and an exact heat semigroup.
+PASS: three rational two-level spectral compressions satisfy the exact positive second-moment identity; their effects are nonprojective and neither heat nor unitary compression is an autonomous clock.
+All five check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Finite mirror and spectral-return identities do not establish unbounded domains, a physical clock or scale, a QFT limit, or a Yang--Mills mass gap.

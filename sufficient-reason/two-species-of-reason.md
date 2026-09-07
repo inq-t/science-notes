@@ -26,6 +26,16 @@ The theorem fixes the *form* of every admissible projection-probability assignme
 
 The projection-valued theorem has a genuine two-dimensional exception. Qubit versions can recover Born form by enlarging the measurement domain, for example to suitable POVMs, but that uses stronger hypotheses. Any foundational claim must state which version it needs.
 
+There is a separate elementary route when the input is already a positive
+normalized linear functional on a compact operator algebra. The
+[[directed-analytic-realization/positive-readout-and-the-born-weight|compact-algebra representation proof]]
+recovers a unique trace-class density in every nonzero complex Hilbert
+dimension, including two. This uses linear evaluation of all compact
+operators, not only projection additivity; it must not be presented as a
+removal of Gleason's hypotheses. Applying it to a returned preparation
+algebra connects the model to readout weights without selecting their
+ontology.
+
 ## What the no-go theorems exclude
 
 Kochen--Specker excludes a global noncontextual valuation satisfying the functional relations among observables in dimension at least three. In presheaf language, the compatible global section does not exist.

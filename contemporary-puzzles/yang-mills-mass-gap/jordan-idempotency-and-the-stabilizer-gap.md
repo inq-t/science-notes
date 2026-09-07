@@ -248,6 +248,13 @@ $$
 
 The group is no longer inserted as the primordial grammar and then asked to explain why nature departs from it. It is the automorphism group that remains after an algebraic presentation has been pointed.
 
+The same complex rank-two \(X\) has an exact
+[[algebra/positive-cone-processes-and-the-complex-corner|positive Lorentz cone]].
+Its determinant supplies the positive response, scale differential and
+opposite-sign form together. This requires no new choice of three
+coordinates after the flag, but does not select that flag or identify
+the internal gauge stabilizer with spacetime Lorentz transformations.
+
 The identity-component qualifier is informative. The full intersection with \(\operatorname{Stab}(B)\) contains another component acting antiunitarily on the complex subalgebra. Passing to \(\operatorname{Stab}(B)_0\) removes that antiunitary component. This orientation is realized explicitly below by Yokota's order-three automorphism \(w\): the antiunitary component exchanges \(w\) with \(w^{-1}\) while leaving \(B\) fixed. It is an exact asymmetric datum, not yet a derivation of physical CP violation or weak chirality.
 
 Calling this “spontaneous symmetry breaking” is optional language imposed after the fact. The exact mathematics says only:

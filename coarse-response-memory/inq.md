@@ -67,6 +67,21 @@ In particular \(M(t)\ge0\), and the derivatives of \(\Sigma\) alternate in opera
 
 [[library/optimal-prediction-and-the-mori-zwanzig-representation-of-irreversible-processes/inq|Chorin, Hald and Kupferman]] give the projection/Dyson memory construction in a more general dynamical setting. Equations (CM3)--(CM5) are the explicit self-adjoint specialization proved here, not a new attribution of a Wilson estimate to that source.
 
+[[spectral-readout-and-the-visible-gap|The complete spectral readout]]
+retains the whole generator's compressed spectral measure, even without
+the block-domain assumptions used for (CM3)--(CM5). Its first moment is
+the pulled-back form, while its full support controls the visible
+threshold. [[algebra/expected-inclusions-and-mirror-clock-consistency|A correlated matrix inclusion]]
+realizes this distinction explicitly: exactly matching local forms
+coexist with two-frequency return and a centered readout with a
+persistent zero-frequency component.
+
+[[algebra/occupation-conditioned-clocks-and-the-vacuum-boundary|Occupation-conditioned clocks]]
+give another exact source of this distinction: one whole spectral law
+supplies the conditioned rates, but forgetting their label produces a
+nonautonomous mixture. Its spectral-minimal carrier can have a unique
+vacuum while failing to reduce the specified visible observable algebra.
+
 ## Zero frequency and the first retained metric
 
 Suppose \(C\ge c_HI\) for \(c_H>0\). The symbol \(c_H\) is a hidden-generator bound, not the speed of light. Define

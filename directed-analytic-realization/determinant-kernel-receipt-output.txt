@@ -1,0 +1,8 @@
+PASS: six rational positive points give beta=1/2 Gram quadratic Q < -84420832374148/261387268239424095 < 0; all radical bounds are squared rational checks.
+PASS: beta=1 and beta=2 six-point Grams are positive definite by exact LDL; normalization is positive diagonal congruence, and beta=-1 fails a scalar two-point test.
+PASS: 24 exact fourth-order determinant jets independently give D^2 det(C)^(-beta)/det(C)^(-beta) = beta^2(beta^2-1)/det(C)^2, including negative values throughout the three tested forbidden exponents.
+PASS: 54 exact normalized congruence/scaling checks and nine direct-sum product identities; logarithmic cost additivity is tested in its equivalent multiplicative form.
+PASS: 30 rational radial curves have mean beta/a and variance beta/(2a^2); doubling a halves the mean, and exact attenuation ratios differ from an exponential semigroup.
+All four check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Scope: finite Gram, differential-jet, normalization and radial-moment checks. No global positivity classification, Gaussian integral or spectral-support theorem is numerically inferred.
+The exponent obstruction is not an energy threshold; no physical clock, scale, locality or Yang--Mills mass gap is established.

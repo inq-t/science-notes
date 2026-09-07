@@ -1,6 +1,6 @@
 # Quantitative Descent and the Shape of a Mass-Gap Construction
 
-The strongest candidate is a state-dependent geometry of directed gluing whose normalized response cannot degenerate under refinement. Algebraic descent would organize compatible local presentations; a positive state would supply their comparison norm; quantitative rigidity would exclude almost-invisible physical distinctions; and a separate reconstruction would return local unitary clock dynamics. The missing principle is not merely that a distinction exists, but that the complete physical distinction carrier cannot approach zero response at one fixed physical scale.
+A candidate is a state-dependent geometry of directed gluing whose normalized response cannot degenerate under refinement. Algebraic descent would organize compatible local presentations; a positive state would supply their comparison norm; quantitative rigidity would exclude almost-invisible physical distinctions; and a separate reconstruction would return local unitary clock dynamics. The missing principle is not merely that a distinction exists, but that the complete physical distinction carrier cannot approach zero response at one fixed physical scale.
 
 **Status: [RESEARCH SYNTHESIS AND CANDIDATE CONSTRUCTION].** The operator identities and sufficient certificates below are exact under their stated assumptions. No existing workspace geometry is shown here to force those assumptions for continuum Yang--Mills.
 
@@ -52,6 +52,32 @@ Ordinary mass units enter later. Under the stationary reversible Markov, reflect
 \tag{QD4}
 \]
 The equation is a lower bound, not a predicted optimal glueball mass. It cannot be used backward to define \(R\) from the desired spectrum.
+
+[[gaussian-bridge-gap-calibration/inq|The existing Gaussian calibration]]
+computes this actual boundary-recovery defect, rather than an unrelated
+oscillator coefficient. Its sharp complete-carrier floor is
+\(\kappa(\ell)=\tanh(\ell\omega_{\min})\), established by a Schur
+complement and a full Hermite expansion. The linked numerical check
+includes spatial-lattice covariance solves in one and three dimensions.
+The input mass is supplied; this is a free-field control, not an
+interacting Yang--Mills estimate.
+
+The limits matter: at fixed finite volume the Gaussian floor increases
+with slab thickness. A massless floor closes as the spatial volume grows
+at fixed physical thickness. A positive residual for one midpoint site
+can coexist with a zero complete-slice floor, so the chosen probes and
+normalization cannot be omitted from a proposed leakage calculation.
+
+[[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate#An interacting finite gauge bridge through time refinement|The interacting finite gauge calibration]]
+now constructs the same operator on complete cycle carriers through temporal
+refinement, including all 32 physical states of a small three-dimensional
+\(\mathbb Z_2\) cube. Its state and excitation spectrum come from the same
+Wilson transfer, not a fitted mass. The Gaussian equality between the sharp
+floor and a hyperbolic function of the energy edge does not survive in
+general; the comparison (QD4) does. Thus “mass as a rate” requires a
+specified state and comparison law, not merely renaming the scalar
+\(\kappa\). This fixed-space calibration does not supply the missing
+compact-simple-group or spatial-continuum estimate.
 
 ## Positivity has to follow the carrier
 
@@ -154,6 +180,8 @@ This follows from
 \le C\|T_r\psi\|\).
 
 The meaningful construction is a gluing algorithm assembled from local extension maps, with bounded overlap or congestion and an error margin independent of the number of boundary cells. Choosing \(B_r\) as an inverse whose boundedness is inferred from the desired gap would be circular. [[gauge-boundary-frame-gluing/inq|Gauge boundary frames]] and [[markov-edge-measure-solder/inq|local form comparison]] describe relevant ingredients: keep boundary charge data open until parts have been glued, and avoid paying a separate uncontrolled loss for every surface cell.
+
+[[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop theorem]] constructs such a return map on an explicit section carrier: uniformly visible holonomy defects and bounded loop congestion give \(\mathcal RD_T=I\) and \(\|\mathcal R\|\le\sqrt{B/\kappa}\). Pauli edge transports realize the hypotheses with a volume-independent floor. The corresponding adjoint observable process loses the central defect and is instead diffusive. Thus the theorem realizes the gluing mechanism, while its physical carrier comparison remains substantive.
 
 This is what “geometry forces the bound” could mean concretely: a bounded reconstruction of every physical distinction from its response, with constants fixed by gluing geometry.
 

@@ -11,6 +11,14 @@ After a declared scalar evaluation, or within one normalized sector, a common re
 
 ## The scalar or sectorwise input
 
+[[algebra/positive-cone-processes-and-the-complex-corner|The complex positive cone]]
+is an explicit finite example in which one log-determinant potential
+supplies both a positive Hessian and a distinguished scale differential.
+The [[algebra/determinant-scale-clock-and-the-hyperbolic-threshold|resulting scale–shape geometry]]
+has a Lorentzian reflection, but does not by itself select a field action.
+Its Hessian uses the matrix-affine connection and is not identified with
+the quantum BKM form below.
+
 [[program-core/center-valued-response|Center-valued response and scalarization]] owns the W1 package, its central-score Fisher term, its internal sector metrics, and the distinction among normal evaluation, sectorwise reasoning, and character evaluation. An ordinary real Hessian manifold begins only after one scalar policy \(G^{\mathsf p}\) has been declared or one normalized sector metric \(G^{(\alpha),\mathrm{int}}\) has been selected for a conditional theorem. Calling \(\mathbf G^Z\) itself a Hessian metric requires a separately defined center-valued affine connection and potential.
 
 Fix one sector \(\alpha\), let \(U\subset\mathfrak D_{\mathrm{phys}}^{(\alpha)}\) be a finite-dimensional smooth affine neighborhood with flat torsion-free connection \(\nabla\), and suppose a strictly convex potential

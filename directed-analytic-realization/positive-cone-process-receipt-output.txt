@@ -1,0 +1,12 @@
+PASS: 196 exact metric/Lorentz pairs at four positive units (three non-diagonal).
+PASS: inverse-metric scale normalization and 84 simultaneous congruence cases.
+PASS: 88 exact PSD cone cases; ratios in [1,2], null saturation, soft rank-two boundary.
+PASS: 12 exact pinching/corner CP variance balances with both positive contributions.
+PASS: six isolated octonionic 13-entry norm products give nonzero rank-one residues.
+PASS: 224 numerical logdet derivative comparisons (finite differences, not proofs).
+PASS: six exact Pauli rate families (1,1,epsilon); unchanged cone and zero-rate endpoint.
+PASS: 240 numerical CP cone probes; the slow boundary direction saturates exp(-2s epsilon).
+PASS: five numerical H^1 radial trials; quotient 1+pi^2/L^2 and shifted quotient pi^2/L^2.
+All nine check groups passed. Stdlib only; stdout only; no files written.
+Exact finite matrix checks are separate from numerical derivatives and quadrature.
+No full Albert CP map, causal history, physical mass or continuum spectral gap is certified.

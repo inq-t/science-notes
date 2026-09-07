@@ -646,6 +646,18 @@ control, and a same-carrier OS or positive-energy comparison.  The pullback
 theorem closes the complete-Markov arrow; it does not supply those remaining
 physical arrows.
 
+[[algebra/expected-inclusions-and-mirror-clock-consistency|The mirror-inclusion test]]
+gives a concrete comparison with these hypotheses. Its GNS isometry
+exists for every faithful bipartite matrix state and intertwines the
+mirror commutators, so their squared response forms pull back exactly.
+For an irreducible included frame, reduction of that same clock occurs
+exactly for product states; a correlated example retains a zero-frequency
+component that its local form misses. The mirror-row UCP realization is
+on the joined \(B(\mathcal H)\) with a pure vector state. It is not
+automatically a completely Dirichlet realization on the original
+faithful left algebra, and therefore does not bypass the cone and
+Markov hypotheses above.
+
 ## Primary theorem anchors
 
 - Masamichi Takesaki, “Conditional Expectations in von Neumann Algebras,”

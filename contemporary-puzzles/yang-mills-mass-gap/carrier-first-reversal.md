@@ -42,7 +42,16 @@ $$
 \tag{C0a}
 $$
 
-Closability is then a theorem to prove, not a word hidden inside “operator.” None of these data is yet “matter moving in spacetime,” and the response generator obtained from the closed form is not yet the physical clock Hamiltonian. A successful reconstruction must produce
+Closability is then a theorem to prove, not a word hidden inside “operator.”
+[[gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability|The
+planar heat-state construction]] makes this distinction concrete: every
+finite density is faithful, finite response forms are consistent, and
+yet approximate state-null cylinder sequences carry persistent positive
+response. Its perimeter form is not closable. Passing exact state-null
+vectors is therefore weaker than descending through the completed state
+carrier.
+
+None of these data is yet “matter moving in spacetime,” and the response generator obtained from the closed form is not yet the physical clock Hamiltonian. A successful reconstruction must produce
 
 $$
 \boxed{

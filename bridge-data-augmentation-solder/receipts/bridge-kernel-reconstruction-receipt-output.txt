@@ -1,0 +1,13 @@
+PASS 21 full-support kernel inversions, 105 anchors: same Doob clock and stationary law; positive diagonal/scalar gauges cancel
+PASS 18 nonreversible examples retained by the general inverse
+PASS 21 symmetric inversions: normalized transfer, full bridge compatibility and vacuum recovered from diagonal conditionals
+PASS 21 positive logarithmic clocks: H=-log(T/rho), H*psi=0, exp(-H)=T/rho
+PASS diagonal-bridge law differs from vacuum: largest coordinate difference=0.130474995
+PASS 8 existing interacting Wilson rectangle/cube inversions: complete 4/32-state carriers, state and normalized clock reconstructed from bridge data
+PASS 4 blocked-clock checks: P_3=P_1^3, H_3=3 H_1; max log residual=6.089e-07, min clock eigenvalue=1.082e-13
+PASS Wilson clock differs from actual bridge K^*K: weighted operator difference=0.102647337
+PASS incompatible full specification rejected: positive normalized endpoint-symmetric rows and unchanged reversible diagonals are insufficient
+PASS exact sparse C5 obstruction: all 125 two-step bridge probabilities agree, clocks differ by 1/6; full support is essential
+PASS positivity firewall: diagonal D is Hilbert-positive (min=0.050717703) but its reconstructed entry-positive clock is indefinite (min=-0.037789738)
+PASS interpolation firewall: spectrum(P)=(1,0.7,0.2), log(P)[0,1]=-0.089902180, P^0.1[0,1]=-0.007257227
+Finite deterministic inverse checks and exact sparse counterexample only; no full-group inverse, continuum carrier, generated scale or Yang-Mills return is certified.

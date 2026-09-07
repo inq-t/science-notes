@@ -59,6 +59,28 @@ where the output has an isotonic local observable net, a physical vacuum represe
 
 A framework claimed to lie beneath both particle physics and cosmology needs a second return rather than a larger local QFT. [[global-local-response-reconstruction/cosmological-reconvergence-contract|The cosmological reconvergence contract]] requires vacuum and thermal/cosmological reconstructions from one whole object while forbidding their carriers from being collapsed. [[global-local-response-reconstruction/trace-source-two-moment-solder|The trace-source solder]] gives the first precise common test: one scale-source prescription must return a thermal one-point interaction measure in the relevant thermal theory and a connected vacuum two-point spectral response in pure Yang--Mills. These are theory- and state-specific images, not one numerical observable; one scalar channel is not the complete gap. [[global-local-response-reconstruction/radiation-era-horizon-confinement-no-go|The horizon-confinement no-go]] further proves that the lowest or any order-one harmonic of a recovered radiation-era Hubble patch is parametrically far below a QCD-scale edge, so cosmology can enter only through a more structural selection or reconstruction map unless it derives the missing hierarchy.
 
+[[compatible-spectral-readouts-and-positive-clock|Compatible spectral readouts]]
+give a conditional intermediate reconstruction without first assuming
+the whole Hilbert carrier. Compatible local positive operator-valued
+measures define an inductive-limit measure; its positive-kernel quotient
+and minimal spectral dilation return one positive clock. Individual
+contexts need not be dynamically closed. A unique vacuum and a common
+spectral floor survive when established in those data. This construction
+represents the commutative spectral calculus, not yet the noncommutative
+field algebras in (GR2), and does not generate the lower bound it preserves.
+Its upstream moment theorem now constructs those spectral measures from
+all-duration reflected boundary pairings. Positivity and a common
+contraction normalization create the transfer; absence of a zero-transfer
+atom is a further requirement for a full-carrier clock logarithm.
+
+[[directed-analytic-realization/preparation-overlaps-and-the-transition-algebra|Preparation transitions]]
+extend that return to a whole noncommutative algebra: middle preparation
+overlaps determine operator multiplication, and the same clock acts on
+the completed compact transitions. The construction supplies a complete
+global vacuum-response family. It does not select local algebras with a
+common unit or prove their causal commutation; those remain the
+substantive algebraic obligations in (GR2).
+
 ## What the response operator operates on
 
 [[exceptional-context-analysis-of-gauge-gradients|Exceptional context analysis]] now supplies one explicit field-sensitive map: apply the context losses to differentiated gauge-representation gradients, then integrate along the whole law's auxiliary heat flow. This factors a bounded response on the retained physical carrier. It also explains why [[algebra/primitive-peirce-response|complete finite matrix readouts]] alone are insufficient: a fiberwise unital map leaves every scalar function of the field untouched. Uniform comparison with the joint-boundary defect below remains a separate theorem.
@@ -152,6 +174,14 @@ $$
 $$
 
 The two outputs may depend on one common law or even be computed from one response family; the claim is independence of their proof obligations and normalizations, not statistical independence. A topological integer, entropy count, or exceptional orbit may constrain a dimensionless response class. It cannot alone supply the dimensional gap. Conversely, dimensional analysis can generate a length without proving that the response at that length is bounded away from perfect recoverability.
+
+[[cosmological-balance-and-vacuum-gap-conjecture|Cosmological balance and
+the vacuum gap]] quarantines the stronger conjecture that a common
+invariant constrains both returns. It requires independently constructed
+comparison maps and calibrations, distinguishes a positive source
+component from the total cosmological residual, and records that shifting
+a local Hamiltonian's zero does not change its centered gap. No cosmic
+ratio or numerical grain is inserted into the gap premises.
 
 ## The joint invariant and the rate presentation
 

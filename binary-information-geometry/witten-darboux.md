@@ -320,6 +320,14 @@ The same Gudermannian that flattens [[fisher-line|the Fisher line]] therefore de
 
 ## Boundary of the theorem
 
+[[algebra/response-factorization-and-the-vacuum|Response-to-vacuum realization]]
+states the general metric, measure and domain choices behind this style of
+factorization, including its quantum divergence correction. Its quartic
+response has zero linearized classical stiffness but a strictly positive
+quantum gap. The logistic exact spectrum here is therefore one selected
+member, not evidence that a nonzero Hessian at the minimum is necessary
+for quantum spectral exclusion.
+
 Positivity of \(H_-=A^\dagger A\) is positivity of this internal operator on its declared domain. It does not prove stability, ghost freedom, causal propagation, or transparency for a spacetime perturbation. Such conclusions require a covariant action, constraint reduction, physical inner product, spacetime variable, and a theorem identifying its second-variation operator with \(H_-\).
 
 An unqualified heat-regularized Witten index or Levinson count is not asserted here. On a noncompact line, continuum and threshold contributions make those prescriptions depend on domains and counting conventions. There is, however, one unambiguous domain-specific integer: with \(A_\nu\) regarded as a map \(H^1(\mathbb R)\to L^2(\mathbb R)\), the flat-partner identity makes it surjective, its kernel is spanned by \(\operatorname{sech}(\nu x)\), and its adjoint kernel is trivial. Hence its ordinary Fredholm index is \(+1\). [[contemporary-puzzles/yang-mills-mass-gap/indexed-scale-wall-and-the-causal-grain|The indexed-scale-wall theorem]] proves this statement and separates the integer wall charge from the continuous edge \(\nu^2\).

@@ -10,3 +10,54 @@ maximum Hermite-floor error = 0.000e+00
 maximum quasi-factorization error = 2.220e-16
 maximum rate-reconstruction error = 4.441e-16
 PASS: dimensionless bridge geometry reconstructs the Gaussian inverse-length gap
+
+Finite spatial lattice: continuous Euclidean time, a=1, ell=1
+Dense covariance Schur solves; full midpoint and two full boundary slices
+m=0: exact constant mode removed by orthonormal zero-mean contrasts
+dense s=1, N= 8, m=0.0, modes=  7: floor=0.644227284454, single-point/full-boundary=0.793578274163
+dense s=1, N= 8, m=0.3, modes=  8: floor=0.291312612452, single-point/full-boundary=0.614120615362
+dense s=1, N=16, m=0.0, modes= 15: floor=0.371515949128, single-point/full-boundary=0.671059988826
+dense s=1, N=16, m=0.3, modes= 16: floor=0.291312612452, single-point/full-boundary=0.640574208804
+dense s=1, N=32, m=0.0, modes= 31: floor=0.193561127973, single-point/full-boundary=0.568800484469
+dense s=1, N=32, m=0.3, modes= 32: floor=0.291312612452, single-point/full-boundary=0.642395517185
+dense s=3, N= 4, m=0.0, modes= 63: floor=0.888385561586, single-point/full-boundary=0.966841706956
+dense s=3, N= 4, m=0.3, modes= 64: floor=0.291312612452, single-point/full-boundary=0.894519774176
+dense s=3, N= 6, m=0.0, modes=215: floor=0.761594155956, single-point/full-boundary=0.957072647102
+dense s=3, N= 6, m=0.3, modes=216: floor=0.291312612452, single-point/full-boundary=0.937255288747
+PASS: 10 dense Schur solves, positivity, full spectra, zero-mode quotients, and single-point checks
+Solver relative residual < 2e-12; matrix/spectrum tolerance = 2e-10
+
+Fourier-only infrared scan: ell=1 (not additional dense Schur solves)
+modal s=1, N= 8, m=0.0: floor=0.644227284454, single-point/full-boundary=0.793578274163
+modal s=1, N=16, m=0.0: floor=0.371515949128, single-point/full-boundary=0.671059988826
+modal s=1, N=32, m=0.0: floor=0.193561127973, single-point/full-boundary=0.568800484469
+modal s=1, N=64, m=0.0: floor=0.097821525165, single-point/full-boundary=0.488223154649
+modal s=1, N= 8, m=0.3: floor=0.291312612452, single-point/full-boundary=0.614120615362
+modal s=1, N=16, m=0.3: floor=0.291312612452, single-point/full-boundary=0.640574208804
+modal s=1, N=32, m=0.3: floor=0.291312612452, single-point/full-boundary=0.642395517185
+modal s=1, N=64, m=0.3: floor=0.291312612452, single-point/full-boundary=0.642406465960
+modal s=3, N= 8, m=0.0: floor=0.644227284454, single-point/full-boundary=0.951488423391
+modal s=3, N=16, m=0.0: floor=0.371515949128, single-point/full-boundary=0.944239033874
+modal s=3, N=32, m=0.0: floor=0.193561127973, single-point/full-boundary=0.941967526279
+modal s=3, N=64, m=0.0: floor=0.097821525165, single-point/full-boundary=0.941342121703
+modal s=3, N= 8, m=0.3: floor=0.291312612452, single-point/full-boundary=0.945778796825
+modal s=3, N=16, m=0.3: floor=0.291312612452, single-point/full-boundary=0.949131226273
+modal s=3, N=32, m=0.3: floor=0.291312612452, single-point/full-boundary=0.949205462449
+modal s=3, N=64, m=0.3: floor=0.291312612452, single-point/full-boundary=0.949205646258
+
+Fourier-only thickness scan: N=16 (not additional dense Schur solves)
+modal s=1, N=16, m=0.0, ell=0.25: floor=0.097236951372, single-point/full-boundary=0.243590907051
+modal s=1, N=16, m=0.0, ell=1.00: floor=0.371515949128, single-point/full-boundary=0.671059988826
+modal s=1, N=16, m=0.0, ell=4.00: floor=0.915537440142, single-point/full-boundary=0.969852691790
+modal s=1, N=16, m=0.3, ell=0.25: floor=0.074859690687, single-point/full-boundary=0.229750888837
+modal s=1, N=16, m=0.3, ell=1.00: floor=0.291312612452, single-point/full-boundary=0.640574208804
+modal s=1, N=16, m=0.3, ell=4.00: floor=0.833654607012, single-point/full-boundary=0.957075635512
+modal s=3, N=16, m=0.0, ell=0.25: floor=0.097236951372, single-point/full-boundary=0.492245327855
+modal s=3, N=16, m=0.0, ell=1.00: floor=0.371515949128, single-point/full-boundary=0.944239033874
+modal s=3, N=16, m=0.0, ell=4.00: floor=0.915537440142, single-point/full-boundary=0.998890447108
+modal s=3, N=16, m=0.3, ell=0.25: floor=0.074859690687, single-point/full-boundary=0.498224288530
+modal s=3, N=16, m=0.3, ell=1.00: floor=0.291312612452, single-point/full-boundary=0.949131226273
+modal s=3, N=16, m=0.3, ell=4.00: floor=0.833654607012, single-point/full-boundary=0.999227738420
+PASS: 16 modal infrared evaluations and 12 modal thickness evaluations
+The full L2 floor uses the proved Gaussian Hermite extension, not a finite-chaos test.
+Finite Gaussian calibration only: no interacting or continuum Yang--Mills gap is proved.

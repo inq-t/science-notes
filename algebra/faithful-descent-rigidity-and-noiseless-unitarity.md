@@ -310,3 +310,16 @@ This leaves three viable physical architectures:
 3. a symmetric Euclidean or Markov semigroup supplies a positive distinction form, while Osterwalder--Schrader reconstruction or another independent theorem supplies Lorentzian unitary clock evolution from a separately identified generator.
 
 For the mass-gap problem, the third architecture is presently the cleanest. The symmetric process may prove coercivity, but its parameter is not thereby clock time. The missing solder must compare its positive form or bounded transfer defect with the physical Hamiltonian on the same complete neutral carrier. [[conservation-of-causal-charge/unitarity-and-ontological-time|The ontological-time ledger]] keeps that process, the nonfaithful formation map, and factual record order distinct.
+
+[[directed-analytic-realization/pure-vacuum-loss-and-the-returned-clock|Pure-vacuum loss]]
+now gives an exact finite member combining the first and third
+architectures. Its nonfaithful state quotient returns \(e^{-sK}\) from the
+whole UCP process, and the same \(K\) generates an automorphism on the
+defining operator algebra. The quotient is a map to vectors, not a
+faithful conditional expectation, and the real-time automorphism is not
+the expected dissipative map in (FD2). Thus it does not evade (FD3) by
+mistyping a heat process as a unitary one.
+[[faithful-stationary-states-and-the-positive-clock|Faithful-state clock rigidity]]
+supplies the separate obstruction to making a nontrivial positive
+generator preserve an invariant algebra with a faithful stationary
+cyclic vector.

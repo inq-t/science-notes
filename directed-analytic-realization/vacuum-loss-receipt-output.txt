@@ -1,0 +1,9 @@
+PASS: three pure dark vacua, 35 full matrix observables and 108 Schwarz defects give G(A)Omega=-K A Omega, stationarity, unitality and the vacuum form 2K.
+PASS: three Kraus channels and 54 compositions distinguish damping from same-K dephasing; 72 clock products are automorphic, and 11 qutrit probes preserve the whole generator under orthogonal label mixing.
+PASS: the entangled vacuum and 18 conjugated generators admit four opposed-factor Schmidt defects with rank-three response; 16 mirror products, local faithfulness and the uniform identity K=2(I-P_Bell) are exact.
+PASS: five actual local spin chains have a unique dark-vacuum response kernel; K preserves excitation count, and the jumps satisfy 60 exact outside-support commutators.
+PASS: five independent one-excitation compressions give constant quotient 1/(2N) and ramp quotient 3/((N+1)(2N+1)); these are variational upper bounds, not numerical eigenvalues.
+PASS: 55 exact CAR index pairs and five full-carrier reconstructions identify the anchored spin response with its quadratic fermionic realization.
+PASS: three actual path-cluster systems have commuting stabilizers, 28 complete eigenvectors, nine maximally mixed marginals and local jumps; each finite gap is exactly 1/2.
+All seven check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Finite identities and trial quotients do not establish a thermodynamic or continuum limit, a relativistic net, physical scale selection, or a Yang--Mills mass gap.

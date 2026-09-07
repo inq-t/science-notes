@@ -196,3 +196,5 @@ Under the old period embedding \(R'=kR\), preserve one-particle vectors by sendi
 it preserves \(\mu,\sigma\) and the old rates. It is not the unrescaled \(L^2\)-tail inclusion, and the preimage of one arc has \(k\) components. Thus a period cover also has a nontrivial effect on the proposed notion of locality.
 
 Second quantization preserves those old modes, while new unit one-particle vectors have rate \(1/R'\). The factorial tower therefore retains its soft-mode obstruction on this enlarged observable construction. A local net, positive response and exact stationary state action together still do not supply a refinement-uniform mass edge.
+
+In [[three-dimensional-boundary-test|three boundary dimensions]], the scalar odd trace used here vanishes and the unweighted positive trace diverges. The weighted response still exists, but local commutation comes instead from the Green pairing of opposed value and normal-response slots. The shared bosonic realization can be reused after that carrier change; the single-circle phase form cannot.

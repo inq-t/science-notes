@@ -1,0 +1,10 @@
+PASS: 144 numerical SU(2) edge-gradient symbols agree with the Pauli Fourier formula and explicit lower-band spinors.
+PASS: 36 numerical plaquettes check both orientation signs and (I-H)* (I-H)=4sin^4(ag) I.
+PASS: 14 numerical continuous-Bloch saturators and 4032 sampled momenta check the exact edge formula; no finite-grid attainment is presumed.
+PASS: 36 edge and 90 symbol refinements approach the finite continuum response; the old single-square lower certificate instead tends to zero.
+PASS: 60 numerical joint-variance decompositions, two Pauli saturators, and an exact noncommuting/common-eigenvector witness are consistent.
+PASS: eight exact integer-Pauli source identities and nine commuting controls verify the source-free obstruction and noncommuting covariant momenta.
+PASS: 24 sampled charged and globally neutral equal-momentum pairs have positive energy but negative H^2-|P|^2.
+All seven check groups passed. Stdlib only; stdout only; no files written.
+Sampled symbols and refinements are arithmetic checks, not proofs of a continuum quantum field theory.
+The fixed background requires a source; global neutrality does not impose local Gauss law or restore Lorentz covariance.

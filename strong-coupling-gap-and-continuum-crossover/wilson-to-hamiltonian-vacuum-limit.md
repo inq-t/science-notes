@@ -4,6 +4,62 @@ At each fixed finite spatial lattice, anisotropic Wilson transfer powers converg
 
 **Status: [EXACT] for the finite compact carrier, nonnegative bounded smooth potential and normalization below.** Spatial regulator removal and infinite-volume representations require separate constructions.
 
+## A blocked transfer can certify the entire generator
+
+The spectral-tail argument below has a useful alternative when a whole
+blocked transfer is already controlled. Let \(0\le Q_N\le I\) act on one
+Hilbert space, let integers \(m_N\to\infty\), and suppose, for a
+nonnegative self-adjoint \(A\),
+\[
+\|Q_N^{m_N}-e^{-A}\|\longrightarrow0.
+\tag{BR1}
+\]
+Then \(A_N=m_N(I-Q_N)\) converges to \(A\) in norm resolvent.
+This is a functional-calculus lemma, not a claim about the origin of
+\(Q_N\) or a mass gap.
+
+For \(z>0\), define continuous functions on \([0,1]\) by
+\[
+f_m(x)=\frac1{z+m(1-x^{1/m})},\qquad
+f(x)=\frac1{z-\log x}\ (x>0),\qquad f(0)=0.
+\tag{BR2}
+\]
+The functions \(f_m\) decrease pointwise to the continuous \(f\),
+including \(f_m(0)=1/(z+m)\to0\); hence convergence is uniform by
+Dini's theorem. Positive functional calculus gives exactly
+\[
+(A_N+z)^{-1}=f_{m_N}(Q_N^{m_N})
+\ \longrightarrow\ f(e^{-A})=(A+z)^{-1}
+\quad\text{in norm}.
+\tag{BR3}
+\]
+Continuity of the fixed functional calculus in operator norm follows by
+uniform polynomial approximation. Neither injectivity of \(Q_N\) nor
+joint diagonalization of different \(Q_N\) is required.
+
+Also \(Q_N\to I\) strongly. Indeed,
+\[
+(I-Q_N)(A_N+z)^{-1}
+=m_N^{-1}\bigl[I-z(A_N+z)^{-1}\bigr]\to0
+\quad\text{in norm}.
+\]
+Use (BR3) to replace the resolvent on the left by \((A+z)^{-1}\),
+then its dense range and \(\|I-Q_N\|\le1\) to extend convergence to
+every vector. This is the strong-convergence input used in the
+bounded-multiplier perturbation (WH6).
+
+Together with (WH7), (BR3) implies
+\(Q_N^{n_N}\to e^{-tA}\) in norm whenever \(n_N/m_N\to t>0\).
+Thus one controlled positive blocked duration determines all positive
+durations in this regime. This does not replace discrete powers by
+Poissonized evolution: (WH7) bounds their difference before taking the
+limit. If \(Q_N\) has a kernel, its vectors have \(A_N\)-energy \(m_N\),
+not a finite logarithmic energy. Their orthogonal projections tend
+strongly to zero under (BR1): they annihilate \(Q_N^{m_N}\), so their
+products with \(e^{-A}\) tend to zero in norm; the range of \(e^{-A}\)
+is dense. A limiting full-carrier clock can therefore exist without
+deleting the finite-step zero modes.
+
 ## The time convention is part of the theorem
 
 On a fixed finite set \(E\) of \(SU(2)\) links, use \(L|_l=l(l+2)\), the unit-\(S^3\) Laplacian. Set

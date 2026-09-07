@@ -1,0 +1,7 @@
+PASS noncommuting Hessian pullback, polar mean and exchange completion
+PASS unequal-response raw compatibility fails
+PASS curved polar geometry and prescribed nonlinear clock failure
+PASS nonradial quartic exchange geometry has an exact positive circle clock
+PASS clock moment map follows the same opposed Green form
+PASS scalar circle clock is canonically a harmonic oscillator
+Finite geometry checks only; no unique physical clock or quantum field gap.

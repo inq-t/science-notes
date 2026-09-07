@@ -26,6 +26,15 @@ pure-product link application; [OPEN] for the volume-, sector-, and
 regulator-uniform interacting Wilson innovation estimate and its continuum
 reconstruction.**
 
+[[bridge-law-and-the-recovered-clock|The inverse bridge construction]] asks
+what can precede the supplied stationary path. On a finite full-support
+carrier, compatible complete bridge conditionals determine a unique
+homogeneous transition and stationary law; additional reversal and
+Hilbert-positivity conditions permit a Hamiltonian logarithm. This does not
+identify the physical transition with the auxiliary chain below. Nor does
+inversion select the conditional data: arbitrary one-anchor data still
+parametrize every positive stochastic transition.
+
 ## The boundary pair is a second component
 
 Let \((X_j)_{j\in\mathbb Z}\) be a stationary Markov path with invariant law

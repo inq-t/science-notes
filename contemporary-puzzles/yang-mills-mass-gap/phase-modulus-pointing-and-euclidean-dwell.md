@@ -29,6 +29,13 @@ $$
 
 Restriction of a state to \(\mathcal D\cong C(X)\) gives a probability measure on \(X\), not one selected \(x\). An instrument can give the conditional state for each result without choosing which result is obtained. This contextual fact need not be an energy fact: that requires a bounded or coarse-grained spectral readout in which the relevant \(E_H(B)\) belongs to \(\mathcal D\). These are the type distinctions in [[sufficient-reason/facticity-and-pointing]] and [[physical-distinction-coercivity]].
 
+These distinctions do not choose an interpretation of quantum outcomes.
+The [[directed-analytic-realization/positive-readout-and-the-born-weight|positive-evaluation theorem]]
+derives the trace and squared-overlap forms from explicit assumptions on
+the returned compact transition algebra. It advances the broader
+model-to-readout problem without treating actualization as a prerequisite
+to a useful readout law, or probabilities as proof of ontic randomness.
+
 The rigorous core of “distinction requires ambiguity” is correspondingly modest. A nontrivial informational distinction requires a possibility space with at least two alternatives. In the binary case, a nontrivial projection \(e\in\mathcal D\) brings its contrary \(1-e\), and
 
 $$
@@ -90,7 +97,7 @@ $$
 
 Adjoining \(i\) cannot open a Friedrichs-angle gap. In [[hessian-response-geometry/tangent-bundle-complexification]], the exact formula \(J(X,Y)=(-Y,X)\) on the tangent bundle of a flat Hessian manifold gives a useful geometric meaning to \(i\): it exchanges horizontal/base and vertical/fiber variations. But it complexifies an already chosen real Hessian carrier and supplies neither its physical state nor its energy.
 
-An integrable complex structure is likewise not a phase space. A phase space needs a closed nondegenerate two-form and usually a polarization before quantization; [[complex-presentation-without-polarization/inq]] and [[polarization-and-positive-state-geometry]] keep these obligations separate. In particular, complex structure by itself supplies no Hilbert norm, Born rule, Hamiltonian, or factual point.
+An integrable complex structure is likewise not by itself a symplectic phase space. The latter additionally needs a closed nondegenerate two-form; a geometric quantization prescription generally requires further data such as a polarization. [[complex-presentation-without-polarization/inq]] and [[complex-presentation-without-polarization/polarization-and-positive-state-geometry]] keep these obligations separate. In particular, complex structure by itself supplies no Hilbert norm, Born rule, Hamiltonian, or factual point.
 
 ## Polar decomposition separates orientation from magnitude
 

@@ -135,6 +135,13 @@ on the core and then by continuity.
 
 The rule (CR11) is an explicit realization prescription. It does not prove that every directed process must choose this clock. Its nontrivial return is that the norm, complex structure, generator and action are now constrained by the same \(A\) and opposed Green data; no independently selected Hamiltonian has been placed on an unrelated quotient.
 
+[[algebra/wick-real-forms-and-positive-preparation|The Wick real-form calculation]]
+relates (CR10) and (CR11) by changing the complexified response slice and
+continuing the normal parameter together. A reflected preparation kernel
+then constructs a positive quotient with this same generator. Its
+half-history quotient, injective attenuation and reversible clock are
+different operations, all explicitly specified.
+
 ## The state action becomes a canonical local action
 
 Take smooth core-valued paths with endpoint-fixed variations. The [[algebra/quotient-clock-and-stationary-action|exact state action]] of \(\psi=\kappa_A(q,p)\) is
@@ -195,6 +202,24 @@ This is a local four-dimensional scalar action returned from the boundary prescr
 
 Most importantly, locality follows here from the square \(A^2\), not from the mere positivity or lower edge of \(A\). A nonlocal \(A\) can have a local square; a positive gapped \(A\) need not.
 
+For a nonlinear response \(N=\nabla W\), the corresponding classical force
+is \(DN^*N\), not the composition \(N\circ N\). The
+[[algebra/nonlinear-response-and-clock-realization|nonlinear theorem]]
+derives that return and shows why replacing \(A\) by \(DN(q)\) does not
+preserve the fixed Hilbert metric above. If \(DN\) is signed,
+[[algebra/absolute-hessian-and-response-integrability|taking its modulus]]
+can also destroy the compatibility of the response itself.
+
+The [[algebra/opposed-response-polarization-and-kahler-completion|nonlinear pair construction]]
+replaces the fixed response by two Hessians evaluated at the paired
+configurations. Polar compatibility uses their matrix geometric mean;
+a distinct exchange prescription gives an integrable Kähler metric from
+their arithmetic mean. A convex-quartic family has a complete compatible
+circle clock whose moment function returns an action, but that clock is
+not generally the squared-response prescription (CR11). The difference is
+an explicit dynamics-selection question, not a reason to identify every
+complexification with the same Hilbert carrier.
+
 ## Local observables from the same pair carrier
 
 For (CR18), smooth compactly supported real pairs have finite response norm in three spatial dimensions, including \(m=0\). The possible infrared factor \(A^{-1}\) is locally integrable in the quadratic form at zero momentum. Constants are not \(L^2(\mathbb R^3)\) zero modes.
@@ -211,3 +236,5 @@ W(u)W(v)=e^{-i\sigma(u,v)/2}W(u+v),
 The [[directed-analytic-realization/local-weyl-realization|coherent-vector construction]] proves these relations with \(u\mapsto\kappa_Au\). Equal-time disjoint supports commute because (CR1) is local. The clock (CR13) obeys the wave equation with propagation speed at most one when (CR18) holds, so evolved local algebras commute at spacelike separation. Its Fock implementer is \(\Gamma(e^{-itA})\).
 
 This is a free scalar realization, not an interacting gauge theory. CCR quantization and the Gaussian vacuum are still explicit choices. [[directed-analytic-realization/three-dimensional-boundary-test|The half-space and capped-slab tests]] distinguish its genuinely local return from a boundary construction that is gapped but violates finite-speed locality.
+
+[[directed-analytic-realization/neutral-gaussian-return-of-holonomy-response|The neutral Gaussian transport member]] applies this same prescription to a positive connection Laplacian. Its charged realification yields a neutral Fock sector with an inherited energy-sum threshold and a cyclic neutral observable family. A finite-range graph square gives equal-time locality but continuous-time propagation tails, not the exact continuum light-cone property used above. [[pauli-transport-and-the-continuum-scaling-obstruction|The Pauli scaling test]] separately limits its continuum return.

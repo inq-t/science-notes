@@ -1,0 +1,10 @@
+PASS: six exact 3-to-2-to-4 contraction chains verify positive defects, pulled-back cocycles, and erased incoming directions.
+PASS: six exact moving-frame jets include S-dot and preserve R by congruence; omitting S-dot fails each test.
+PASS: 18 exact characteristic-polynomial ratios verify frame and common-clock-weight invariance, but not invariance of an uncalibrated rate.
+PASS: six exact determinant cocycles, six Jacobi jets, and eight numerical integrals verify the additive response-volume clock; singular arrows remain excluded.
+PASS: five numerical yardstick states and four intervals distinguish compensated coordinate decay from actual response loss.
+PASS: four exact skew choices preserve the whole positive response while changing the generator's characteristic polynomial.
+PASS: exact Peirce defect 8/9 and distinct interpolation rates return the same intrinsic step cost 2log(3), at their different durations.
+PASS: seven exact trace-clock models have mean rate one while their minimum remains epsilon tending to zero.
+All eight check groups passed. Stdlib only; stdout only; no files written.
+Finite matrix identities and numerical exponentials do not select physical clocks, records, spacetime or a mass gap.

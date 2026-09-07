@@ -8,28 +8,98 @@ inq.ambient:
 ---
 # Yang–Mills Existence and the Mass Gap
 
-The research programme asks whether a prior directed law can determine the local observable carrier, its clock dynamics and a positive lower bound on physical excitations. Its kinematic constructions and scoped Wilson estimates remain useful, but do not yet select that law. The current priority is a foundational audit of the global–local realization, while the interacting four-dimensional continuum construction and its uniform infrared bound remain open.
+The research programme asks whether a prior directed law can determine the local observable carrier, its clock dynamics and a positive lower bound on physical excitations. Explicit response constructions now reach local classical \(3+1\) actions and a positive interacting homogeneous gauge model, with their primitive choices and failures stated. The priority is a law that constrains the global–local realization itself; neither those constructions nor the scoped Wilson estimates yet supply the interacting four-dimensional continuum theory and its uniform infrared bound.
 
 [[clay-contract-and-scale-assumptions|The attached Clay-statement audit]] distinguishes required observable properties from optional construction primitives. [[directed-realization-and-foundational-restart|The foundational restart]] pauses further local-estimate repairs and asks for one law that jointly constrains the realization kernel, positive form and dynamics. The mathematical tools below remain conditional recovery tests, not a derivation of those inputs.
 
-The first [[directed-analytic-realization/inq|directed analytic member]]
-now derives a Hilbert quotient, positive clock and
-[[algebra/quotient-clock-and-stationary-action|stationary state action]]
-from one future-translation rule and its mean pairing. Its analytic
-polarization and periodic tail are explicit inputs. A compatible refinement
-preserves all those structures while closing the gap, so this is a
-constructive action-return test—not the four-dimensional theory or its
-uniform mass bound.
+[[directed-analytic-realization/inq|Directed analytic realization]] owns
+the constructive action-return tests. Its tail law selects a Hilbert
+quotient and clock together; opposed boundary responses reach a local
+classical \(3+1\) action under a declared clock prescription. Their negative
+controls are substantive: period refinement closes the tail gap, while a
+finite boundary cap opens a clock edge but violates spacelike commutation.
+[[algebra/opposed-response-polarization-and-kahler-completion|Nonlinear pair polarization]]
+adds a different action return: a chosen Kähler realization has a
+compatible circle clock with a geometrically fixed Hamiltonian. It
+does not yet return the stipulated interacting gauge dynamics.
 
-The next [[directed-analytic-realization/harmonic-boundary-realization|harmonic boundary return]]
-ties that clock's quadratic form exactly to a compression residue.
-The residue's positive trace and odd central trace then give a
-[[directed-analytic-realization/local-weyl-realization|local Weyl circle net]]
-under a stated bosonic realization. This is a genuine observable-algebra
-return from the chosen geometry, not just a lower bound on an unrelated
-operator. Its finite-circle gap still closes under period refinement;
-neither an interacting four-dimensional carrier nor its physical mass
-Casimir has been constructed.
+[[directed-analytic-realization/chern-simons-response-and-gauge-action|Transgression]]
+supplies a nonlinear gauge potential.
+[[directed-analytic-realization/cubic-gauge-boundary-response-and-gauss-completion|Its positive cubic field response]]
+obeys both the squared-response equation and Gauss law, with a forced
+longitudinal Coulomb contribution at the next order. The harmonic
+compatibility condition and the full quantum boundary state remain open.
+[[directed-analytic-realization/quantum-response-regularity-at-the-gauge-origin|The origin regularity test]]
+explains why that state cannot simply be a smooth positive classical
+eikonal branch.
+
+On a supplied homogeneous quantum carrier,
+[[directed-analytic-realization/compact-lie-gauge-positive-realization|the adjoint-trace construction]]
+proves a unique invariant vacuum and a centered gap for every compact
+semisimple Lie algebra and \(d\geq2\) matrix slots. A Lie-algebra center
+leaves a free factor. This removes an \(SU(2)\)-specific restriction, but
+does not select a group or spatial dimension, and its gap is not volume
+uniform. The full field theory and its scale remain the target.
+
+The newer [[algebra/octonionic-hopf-descent-and-the-complex-purification|Hopf/Gram construction]]
+instead starts with a whole-to-local map and derives a matrix-state law
+and response together. Its [[algebra/purification-descent-and-the-matrix-response|matrix generalization]]
+has a complete retained spectrum, with the first visible mode determined
+by quadratic readout rather than by the lowest mode of its amplitude
+parent. [[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|The partial-trace test]]
+preserves a common response duration and distinguishes ensemble
+concentration from finite quantum variance.
+[[algebra/matrix-symbol-realization-and-the-clock-algebra|The fluctuation carrier]]
+does represent the supplied matrix algebra faithfully and positively,
+but its global clock produces immediate unequal-time commutators between
+disjoint tensor factors. Those factors cannot accompany that clock as
+positively separated regions with strictly finite propagation. These are
+explicit realization constraints; finite matrix size is not spatial
+volume, and the construction has not yet returned a four-dimensional
+interacting net.
+
+[[algebra/faithful-stationary-states-and-the-positive-clock|The faithful-state theorem]]
+locates that incompatibility in the state/algebra/clock relation.
+[[directed-analytic-realization/pure-vacuum-loss-and-the-returned-clock|Pure-vacuum loss]]
+then constructs an algebra-compatible positive clock through a different,
+nonfaithful state quotient. A unitary channel-label stabilizer preserves
+both the process and its response; under connected semisimple symmetry,
+a unique vacuum line is invariant. The
+[[directed-analytic-realization/local-loss-rows-and-the-uniform-gap|local row examples]]
+show why that finite joint return is not yet enough: an entangled family
+has a uniform gap, while a unique-vacuum difference row has an exactly
+closing full gap. The required field realization must select the relevant
+row geometry and control its physical limits, not just its finite kernel.
+
+[[algebra/local-vacuum-faithfulness-and-the-loss-carrier|The local carrier boundary]]
+sharpens that requirement: wherever the vacuum is faithful on a bounded
+local algebra, a nonzero affiliated local operator cannot annihilate it
+with the vacuum in its domain. The finite loss rows therefore cannot be
+imported unchanged as local fields. An opposed-factor Schmidt construction
+does supply an annihilating relational response while preserving each
+factor's faithful state; this is a carrier prototype, not yet a local net.
+
+[[algebra/modular-mirror-response-and-the-analytic-domain|The modular continuation]]
+now supplies an analytic-domain version of that relational response.
+[[algebra/expected-inclusions-and-mirror-clock-consistency|Its inclusion test]]
+proves that local response forms can agree exactly while their inferred
+clocks disagree. The appropriate retained object is then a
+[[coarse-response-memory/spectral-readout-and-the-visible-gap|complete spectral readout]],
+not only an instantaneous positive cost.
+[[global-local-response-reconstruction/compatible-spectral-readouts-and-positive-clock|Compatible readouts can assemble]]
+into one positive clock, preserving a common vacuum and floor when proved
+in the input. The theorem does not supply the floor, physical translations
+or the interacting field algebra.
+
+[[directed-analytic-realization/preparation-overlaps-and-the-transition-algebra|The preparation-transition algebra]]
+now makes the whole-algebra return explicit: its product contracts the
+same overlap kernel that defines its carrier, and its clock is inherited
+without choosing another generator. The exact remaining distinction is
+between this globally total transition algebra and the desired local
+field net. A fixed-label
+[[algebra/spectral-coefficient-lifts-and-the-frozen-clock|coefficient action]]
+would freeze energy sectors, while unrestricted global transitions can
+violate the intended local unit and commutation relations.
 
 ## The target is a spectral exclusion, not a spatial pixel
 
@@ -82,7 +152,7 @@ The discarded-prediction estimate now has a more specific algebraic shape. [[bri
 
 [[vacuum-aligned-innovation-completion/boundary-action-fixed-points-and-physical-linearization|Boundary-action linearization]] gives a precise operator reading of the global--local proposal: the derivative of layer elimination at the vacuum is the physical transfer on the complete centered action tangent. A uniform contraction of that derivative is an equivalent spectral target, not a result supplied by naming the fixed point. [[strong-coupling-gap-and-continuum-crossover/hamiltonian-product-vacuum-stability|Hamiltonian product-vacuum stability]] separately shows how a local relative interaction norm can preserve a physical gap without an extensive vacuum-density comparison.
 
-[[temporal-column-response/inq|Temporal-column response]] now controls a different grouping of the same interacting histories. Its [[strong-coupling-gap-and-continuum-crossover/wilson-temporal-column-coercivity|Wilson vacuum bound]] is uniform in temporal refinement and spatial volume in an explicit small magnetic/electric-ratio regime. The [[strong-coupling-gap-and-continuum-crossover/wilson-to-hamiltonian-vacuum-limit|Hamiltonian vacuum limit]] then gives a physical gap at fixed spatial regulator. Neither the complete two-ended bridge bound through refinement nor the weak-bare-coupling spatial continuum construction follows.
+[[temporal-column-response/inq|Temporal-column response]] controls a different grouping of the same interacting histories. Its [[strong-coupling-gap-and-continuum-crossover/wilson-temporal-column-coercivity|Wilson vacuum and complete bridge bounds]] are uniform in temporal refinement and spatial volume in an explicit small magnetic/electric-ratio regime. [[temporal-column-response/smoothed-endpoint-response|The endpoint-score construction]] controls every midpoint observable through the adjoint conditional-mean map, not only score tangents. The [[strong-coupling-gap-and-continuum-crossover/wilson-to-hamiltonian-vacuum-limit|Hamiltonian vacuum limit]] and joint-law convergence pass these bounds at fixed spatial regulator. The graph, action and clock calibration remain supplied; neither their foundational selection nor the weak-bare-coupling spatial continuum construction follows.
 
 The next spatial step must retain two different hidden returns. [[temporal-column-response/spatial-elimination-and-self-return|Conditional-law elimination]] includes self-return denominators and shows why recycling a supercritical influence matrix cannot fix it; exact marginal recalculation can improve the certificate. [[coarse-response-memory/inq|Dynamical elimination]] instead leaves a frequency-dependent memory operator. Applied to the bounded defect of the actual physical transfer, its block criterion gives a domain-safe route to a gap, conditional on uniform retained-short, hidden-defect and coupling bounds. Those estimates remain to be derived along the continuum trajectory.
 

@@ -84,6 +84,22 @@ Only after an independently constructed clock solder \(\nu_u\) is supplied can \
 
 ## Conditional rate-edge theorem
 
+[[algebra/moving-response-balance-and-a-ruble-operator-signature|Moving response balance]]
+supplies an upstream finite-dimensional version of the pencil, allowing the
+comparison metric itself to move. Its defect density is
+\(R=-\dot G-K^*G-GK\), and its second form must have the same parameter
+weight for the relative spectrum to be invariant. An intrinsic normalized
+log-determinant cost is additive on invertible fixed-rank processes; it
+does not select a physical clock or itself extend to rank-changing
+arrows. [[algebra/finite-entropy-cost-and-rank-changing-readout|Finite readout entropy]]
+supplies a different state-indexed cost, but its Hessian has zero minimum
+over lifts of any retained tangent. The
+[[algebra/jordan-covariance-and-the-entropy-weighted-ball|weighted ball response]]
+has a positive edge only after the specified spherical law and generator
+are retained through the projection. These distinctions avoid interpreting
+coordinate decay or a finite loss as intrinsic mass, while preserving
+the same-carrier and normalization obligations below.
+
 Fix a selected expanding cosmic cut with \(H_c>0\). Take
 
 \[

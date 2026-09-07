@@ -281,10 +281,74 @@ L^2(\nu_{B\mid s})\,
 \tag{BG18}
 $$
 
-Boundary gauge matching then acts fibrewise. Without conditional
-independence, (BG18) is not available; the appropriate noncommutative
+Boundary gauge matching acts fibrewise if the separator variables are
+boundary-gauge invariant. For raw separator links the action generally
+moves \(s\), relating different fibres; a stabilizer or equivariant
+disintegration must then be specified. Without conditional
+independence, the canonical conditional-product identification (BG18) is
+not available; the appropriate noncommutative
 replacement is a correspondence or relative tensor product, with its state
 and modular hypotheses stated explicitly.
+
+[[overlap-kernels-and-face-refinement|Overlap kernels and face refinement]]
+adds an actual joint-state construction on a supplied finite box: a
+comparison law fixes the limiting heat-kernel face weight under exact
+boundary integration. This is more than the carrier equivalence (BG16),
+but carpet refinement leaves the full four-dimensional continuum and
+physical transfer obligations open. Its temporal sewing calculation
+also constructs a fixed-spatial-graph clock under explicit anisotropic
+scaling and proves that same-weight sharpening on that fixed carrier
+has no such clock limit. The refinement law is additional structure,
+not a consequence of Gauss gluing.
+
+[[holonomy-refinement-and-clock-compatibility|Holonomy refinement and clock compatibility]]
+makes that extra structure quantitative: independent segment rates add
+under holonomy pullback, and faithful vacuum dressing does not change
+the induced principal form. Mixed link responses can evade that ansatz,
+but must still detect closed physical loops; the natural
+Ashtekar–Lewandowski response has nonconstant analytic-loop zero modes.
+The additive Haar branch instead has a unique vacuum and a constructed
+refinement clock whose exact threshold is the least Casimir times the
+infimum of weighted cycle lengths. Refinements adding arbitrarily cheap
+cycles close that threshold while preserving all old loop clocks.
+[[gauge-cycle-innovation-filtration/loop-coordinates-and-the-induced-clock|The
+induced theta-loop response]] explicitly retains shared-edge mixed terms
+without privileging a spanning tree; this repairs coordinate covariance,
+not the shrinking-cycle obstruction.
+
+[[heat-state-continuity-and-response-closability|The area-dependent heat-state construction]]
+escapes the bounded Haar-density comparison and changes the small-loop
+threshold. It also supplies a stronger failure test: consistent finite
+perimeter responses need not be closable on the glued state. Nearby
+disjoint loops become the same observable in the state norm. If their
+energies remain uniformly bounded, a closed replacement must retain
+mixed responses across their presentations. Carrier completion is an additional compatibility law,
+not a consequence of finite positivity.
+
+[[shared-driver-response-and-the-nested-holonomy-clock|A shared-driver
+response]] now realizes that compatibility on the full nested-holonomy
+path carrier. Its common driver produces nonzero mixed responses and an
+explicit closed clock. The unit Ornstein--Uhlenbeck choice has invariant
+threshold two, while a driver intensity approaching zero gives the same
+state and gauge symmetry a unique vacuum but no gap. Same-clock annular
+restart homogeneity selects constant intensity in this family; deriving
+such a response law is distinct from constructing the heat state.
+[[path-shift-fisher-geometry-before-gauge-projection|The path-shift Fisher
+construction]] selects that response once a handed shift action and
+Fisher-dual prescription are declared. Its first-order scores disappear
+under prior gauge averaging, even though invariant observable response
+does not. The extended presentation must therefore be retained through
+the metric-to-operator construction; the state alone does not choose it.
+
+[[two-sided-fisher-completion-and-the-neutral-carrier|The joint two-sided
+construction]] computes the cross-score metric before choosing a handed
+action. Finite smooth cylinder response forces simultaneous-conjugation
+invariance, and the resulting cylinder closure has a unique constant
+vacuum with non-attained threshold two. Its complete clock is compatible
+with longer path horizons and heat-time reparameterization. It is not
+homogeneous under deleting the past and restarting an annulus: that
+explicit failure distinguishes a contextual response from the additional
+restart law, and the auxiliary threshold from a physical mass.
 
 ## The charged innovation frame
 

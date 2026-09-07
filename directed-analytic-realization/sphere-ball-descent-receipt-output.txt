@@ -1,0 +1,30 @@
+PASS: 125 exact polynomial pullbacks match the ambient rotational Casimir modulo the sphere equation and its triangular degree spectrum.
+PASS: 79 exact low-degree eigenpolynomials have eigenvalues ell(ell+n-2); the n=9 coordinate quotient attains 8.
+PASS: 1741 exact moment pairings verify the weighted Dirichlet integration-by-parts identity on low polynomials.
+PASS: exact radial beta normalization gives 105/(32pi); 35 independent radial/angular moments match the n=9 sphere formula.
+PASS: three exact nonsymmetric hidden rotations change the whole generator but annihilate all 35 tested retained polynomials.
+PASS: three discrete probability chain rules, repeated-projection zero loss, and nine numerical Hessian probes agree with the exact finite loss form.
+PASS: three exact rank-one projection pairs show that deleting zero eigenvalues loses the compositional angle cost.
+PASS: 64 Jordan covariances, 16 SLD equations, 36 complex affine products and 216 associativity checks are exact; the nonaffine associator and distinct symbol/matrix norms delimit the construction.
+PASS: nine exact hemisphere jets verify the entropy-weight Hessian, effective Ricci cancellation, and descended divergence drift.
+PASS: 220 exact shifted-Jacobi/Beta integrations match falling(k,ell)/rising(k+rho,ell), including 102 integrated zero tails.
+PASS: 16 independent kernel normalizations and displacement moments give Z_k=(a)_k/(a+b)_k and E_k[2(1-t)]=2b/(k+a+b); finite-head edges equal rho*k/(k+rho).
+Overlap refinement: H_k=k(I-B_k); displayed degrees ell=1,2,4, not a harmonic cutoff proof.
+S8: rho=8, limiting eigenvalues=(8, 18, 44)
+  k=   1: 0.888888889, 1.000000000, 1.000000000
+  k=   4: 2.666666667, 3.692307692, 3.997069597
+  k=  16: 5.333333333, 9.600000000, 14.340740741
+  k=  64: 7.111111111, 14.904109589, 30.544025670
+  k= 256: 7.757575758, 17.125214408, 39.861740423
+  k=1024: 7.937984496, 17.774015624, 42.904514050
+OP2: rho=12, limiting eigenvalues=(12, 26, 60)
+  k=   1: 0.923076923, 1.000000000, 1.000000000
+  k=   4: 3.000000000, 3.823529412, 3.998968008
+  k=  16: 6.857142857, 11.270935961, 15.074527253
+  k=  64: 10.105263158, 19.904306220, 36.935749128
+  k= 256: 11.462686567, 24.189535593, 52.411041907
+  k=1024: 11.861003861, 25.525368322, 57.947403740
+The full-harmonic spectrum and operator convergence require the shared decomposition/tail theorem; these exact finite integrations do not supply it.
+All ten check groups passed. Stdlib only; stdout only; no files written.
+Exact low-degree identities and finite entropy calibrations do not prove global domains or a continuum spectral theorem.
+The three Bloch coordinates are not, by this calculation, three spatial coordinates or a spacetime observable net.

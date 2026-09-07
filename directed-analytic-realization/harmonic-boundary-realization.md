@@ -161,6 +161,13 @@ U_sT_aU_s^*=T_{a(\,\cdot+s/R\,)}.
 
 This supplies an observable algebra and its covariance without appending another Hamiltonian. It does not turn that algebra into a commuting local net.
 
+[[preparation-overlaps-and-the-transition-algebra|The preparation-transition theorem]]
+isolates the reusable compact-operator part: preparation overlaps fix
+rank-one composition and a compatible whole clock without requiring this
+particular shift presentation. Its completed algebra is the compact
+ideal, not the entire Toeplitz algebra \(C^*(S)\). The distinction
+between whole operator generation and local-net realization remains.
+
 [[local-weyl-realization|A different realization of the same response]] does construct commuting local circle algebras: the trace of the odd compression residue supplies the local derivative pairing, while the even trace supplies a positive one-particle norm. A stated bosonic Weyl/Fock construction then returns locality and clock covariance. It is an additional realization choice, not an identification of Weyl operators with Toeplitz readouts.
 
 The compatible period refinement remains available and still closes the positive rate edge. Geometry has now removed two independent choices from the prototype; it has not supplied the interacting four-dimensional theory or the obstruction that would keep all its normalized excitations away from zero.

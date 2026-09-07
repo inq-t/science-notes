@@ -1,0 +1,14 @@
+path-shift Fisher receipt: reference Gaussian driver and explicit frame distinctions
+PASS exact Gaussian projection coefficients: epsilon-score=0, eta-score=(|Z|^2-3)/6, boundary eta-Fisher=1/6, KL coefficient=1/12; unprojected shift Fisher=1
+Full radial quadrature: epsilon  normalization error  KL/epsilon^4  eta-Fisher  chi-square identity error  rigorous tail bound
+      0  7.105e-15          boundary  1.6666666667e-01  0.000e+00  8.933e-35
+0.03125  7.216e-15  8.3315255020e-02  1.6655824441e-01  8.206e-22  6.272e-33
+ 0.0625  7.105e-15  8.3261094050e-02  1.6623398995e-01  5.506e-21  1.577e-33
+  0.125  6.883e-15  8.3045549923e-02  1.6495192418e-01  2.168e-19  7.979e-34
+   0.25  7.105e-15  8.2200383229e-02  1.6004926170e-01  3.361e-18  8.167e-34
+    0.5  7.105e-15  7.9060352582e-02  1.4337004989e-01  5.378e-17  9.924e-33
+      1  6.550e-15  6.9146945443e-02  1.0228472285e-01  8.604e-16  1.738e-28
+PASS seven full radial likelihood integrals: 128/256/512-point quadrature discrepancy <= 1.887e-15; all omitted tails bounded by exact rational estimates below 1e-24
+PASS exact five-time increment-Hessian inversion: all 25 inverse entries equal 2*min(s,t); three-component Cameron--Martin norms agree
+PASS exact quaternion frame audit: invariant determinant has pointwise Gamma_left=193/625 and Gamma_right=481/625; no integrated-energy inequality inferred
+Finite diagnostics and exact coefficient checks only; quadrature refinement is not a certified quadrature-error bound. No right/left clock identification, Born rule, four-dimensional construction or physical mass gap is certified.

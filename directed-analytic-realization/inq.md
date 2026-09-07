@@ -8,11 +8,67 @@ inq.ambient:
 ---
 # Directed Analytic Realization
 
-A one-sided process can forget an initial history while its persistent analytic tail determines a Hilbert quotient, positive clock and stationary state action. Harmonic boundary response relates that clock to compression; opposed value and normal-response data extend the construction to a local scalar action in \(3+1\) coordinates. The circle edge closes under refinement, while a capped three-dimensional member opens a clock gap but violates locality. These explicit returns and failures constrain the sought directed realization without yet supplying an interacting Yang–Mills theory.
+A one-sided process can forget an initial history while its persistent analytic tail determines a Hilbert quotient, positive clock and stationary state action. Harmonic and nonlinear boundary responses extend the investigation to local classical \(3+1\) actions and a positive interacting homogeneous gauge realization. The constructions expose different obstructions: period refinement closes a gap, a finite cap violates locality, and pointwise positivity can destroy response integrability. A complete four-dimensional quantum Yang–Mills realization and its mass gap remain open.
 
-The [[harmonic-boundary-realization|harmonic boundary construction]] selects the original tail's complex orientation from a real tangent derivative and identifies its positive modulus with boundary response. [[algebra/hardy-compression-and-boundary-response|The compression theorem]] owns the exact residue calculation. [[local-weyl-realization|The local Weyl construction]] then uses that response as a one-particle norm and its odd partner as a local commutation form. This last step is an additional CCR/Fock realization, not the claim that compressing multiplication preserves locality.
+The primitive member below derives a quotient, positive clock and stationary
+state action from one-sided translation. [[harmonic-boundary-realization|Harmonic boundary response]] identifies that clock with the same geometry's
+[[algebra/hardy-compression-and-boundary-response|compression residue]].
+[[local-weyl-realization|A separate Weyl realization]] returns local circle
+algebras; it does not make compressed multiplication local.
 
-The [[three-dimensional-boundary-test|three-dimensional test]] requires a different pairing: one scalar harmonic graph has zero Green form, while two opposed graphs supply a full Cauchy carrier. [[algebra/cauchy-response-and-local-action|The shared Cauchy theorem]] derives its clock and local wave action from the same response. [[algebra/three-dimensional-weighted-compression-response|A Green-weighted compression trace]] computes that response in three dimensions; simply reusing the circle's unweighted trace would diverge. The three-dimensional metric, clock-realization prescription and bosonic vacuum remain inputs.
+For a field response, [[algebra/cauchy-response-and-local-action|opposed Cauchy data]] supply a nondegenerate Green pairing and a local classical wave action.
+[[chern-simons-response-and-gauge-action|Transgression]] instead supplies the
+magnetic potential through \(*F_A\), with a declared kinetic pairing and gauge
+prescription. [[cubic-gauge-boundary-response-and-gauss-completion|Its cubic positive branch]] satisfies the response and Gauss identities together, but
+the harmonic sector still obstructs the proposed full vacuum construction.
+
+The [[homogeneous-gauge-positive-realization|standard bosonic \(SU(2)\) matrix model]] has an actual positive invariant vacuum and centered gap. Its known
+transverse-oscillator confinement mechanism extends to
+[[compact-lie-gauge-positive-realization|every compact semisimple Lie algebra and \(d\ge2\) slots]]. This selects neither a gauge group nor spatial dimension.
+The gap scales as \(\epsilon^{4/3}|\kappa|^{2/3}\mathcal V^{-1/3}\), not uniformly
+in volume. The homogeneous note's pure-gauge cancellation test prevents
+importing its pointwise commutator bound into a spatial field.
+
+State, algebra and clock must also agree. [[pure-vacuum-loss-and-the-returned-clock|Pure-vacuum loss]] returns all three on a specified carrier; [[local-loss-rows-and-the-uniform-gap|local rows]] distinguish a uniform gap from soft neighboring differences.
+[[algebra/modular-mirror-response-and-the-analytic-domain|Mirror response]] and
+[[algebra/expected-inclusions-and-mirror-clock-consistency|the inclusion test]]
+show that exact form compatibility need not give an autonomous retained
+clock. [[global-local-response-reconstruction/compatible-spectral-readouts-and-positive-clock|Compatible spectral readouts]] can still assemble a positive common clock.
+
+On that spectral carrier, [[preparation-overlaps-and-the-transition-algebra|preparation overlaps]] fix transition products, and [[positive-readout-and-the-born-weight|positive evaluation]] fixes their trace readout. Neither theorem supplies a spacelike
+net. [[algebra/occupation-conditioned-clocks-and-the-vacuum-boundary|The occupied-sector test]] also shows why removing extra spectral vacua need not preserve the
+original observable algebra.
+
+[[algebra/purification-descent-and-the-matrix-response|Actual matrix purification]]
+supplies a law and differential response together.
+[[algebra/purification-response-normalization-and-the-full-clock-limit|Its full fluctuation limit]] has polynomial-compatible spectral convergence, and
+[[purification-fluctuation-and-the-oscillator-return|the oscillator return]]
+constructs a clock-preserved algebra and stationary action. This is a
+foundational finite-mode realization, not physical mass generation: the
+parent was already gapped and the retained nonlinear correction vanishes.
+
+The following controls distinguish three concrete ways a gap can disappear;
+the last uses [[determinant-cone-preparation-and-the-gapless-return|determinant-cone preparation]].
+
+| Construction | Exact softening | What remains intact |
+|---|---|---|
+| Compatible period refinement below | \(1/R\to0\) as new frequencies are retained | The norm, old rates, unique vacuum and quotient action |
+| Anchored neighboring loss differences | \(1-\cos(\pi/(2N+1))\asymp N^{-2}\) | Bounded-range rows and the unique finite-volume vacuum |
+| Homogeneous determinant-cone dilation | \(\beta=1\): lightlike support; \(\beta>1\): timelike mass support reaching zero | Positive preparation and Poincare covariance; adjoining a vacuum does not open a gap |
+
+These are not an exhaustive classification or a Goldstone argument. The
+difference row is diffusive; the other two failures use refinement and exact
+dilation. Conversely, [[three-dimensional-boundary-test|a finite normal cap]]
+opens a clock edge but fails locality and the uniform mass-Casimir test.
+A positive gap in one register is therefore not sufficient.
+
+[[gaussian-bridge-gap-calibration/inq|The Gaussian bridge calibration]] supplies
+a quantitative free-field comparison, not merely a receipt:
+\(\kappa_{\mathrm{br}}(\ell)=\tanh(\omega\ell)\) on the complete Gaussian
+carrier. Turning that dimensionless response into a physical mass requires
+the supplied slab scale and relativistic realization. The individual notes'
+receipts check finite identities and negative controls; neither those checks
+nor the free calibration establish the interacting Yang–Mills limit.
 
 ## The primitive member
 
@@ -207,8 +263,14 @@ The long-interval mean is an asymptotic whole-history construction. Calling its 
 
 The member supplies an explicit relationship among process, quotient metric, generator and action. It is more than a freely appended Hamiltonian on an unrelated quotient. It does not prove that these primitive choices are necessary or identify the member with nature.
 
-The remaining choices in the tail construction are now visible: analytic polarization, periodic versus refined tail class, averaging rule and process parameter. The harmonic extension constrains the first relative to an oriented metric disk; the Weyl realization constructs local circle algebras but additionally selects bosonic CCR and a Gaussian vacuum. No three-dimensional spatial arena, gauge group, gravity, interacting vacuum or cosmological history is derived here. The [[contemporary-puzzles/yang-mills-mass-gap/directed-realization-and-foundational-restart|foundational restart]] remains aimed at the full [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|Clay return]], not at substituting these members for that target.
+The remaining choices in the tail construction are now visible: analytic polarization, periodic versus refined tail class, averaging rule and process parameter. The harmonic extension constrains the first relative to an oriented metric disk; the Weyl realization constructs local circle algebras but additionally selects bosonic CCR and a Gaussian vacuum. The nonlinear gauge member adds an interacting matrix vacuum on its separately specified homogeneous carrier. None derives a necessary three-dimensional arena, gauge group, gravity or cosmological history. The [[contemporary-puzzles/yang-mills-mass-gap/directed-realization-and-foundational-restart|foundational restart]] remains aimed at the full [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|Clay return]], not at substituting these members for that target.
 
 [[receipt.py|The finite receipt]] checks composition, transient erasure, pairing, symplectic invariance, action-variation signs and compatible refinement on representative modes. The proofs above, not finite sampling, establish the infinite-dimensional quotient and spectra.
 
 [[boundary_response_receipt.py|The boundary receipt]] separately checks harmonic integration against compression and clock forms, both orientation signs, local-readout failure, the central Weyl relation, and the changed normalization under period covers. It uses exact finite-polynomial Hardy matrices with a sufficient halo, avoiding the spurious second boundary of a finite matrix cut. [[boundary-response-receipt-output.txt|Its stored output]] records these finite checks, not a certification of the full observable theory.
+
+[[nonlinear_response_receipt.py|The nonlinear receipt]] checks determinant gradients and gauge horizontality, the exact Hessian incompatibility, closed-response and quantum-correction identities, variational constants, and homogeneous oscillator counting and scaling. [[nonlinear-response-receipt-output.txt|The stored output]] is a finite audit; compact resolvent, vacuum uniqueness and the fixed-normalization gap are proved in the homogeneous note.
+
+[[gauge_boundary_response_receipt.py|The field-response receipt]] checks the full cubic gauge and squared-response identities, the Coulomb term, harmonic obstruction, local decaying-response jets and quantum-origin constraints. [[gauge-boundary-response-receipt-output.txt|Its stored output]] does not certify a full boundary state or a continuum gap.
+
+[[compact_lie_response_receipt.py|The compact-Lie receipt]] checks the general oscillator coefficients, root traces, scale laws and free-center control. [[opposed_response_geometry_receipt.py|The pair-geometry receipt]] checks noncommuting geometric means, compatible metrics, curvature, the failed prescribed clock and the constructive nonlinear circle moment. Their respective [[compact-lie-response-receipt-output.txt|Lie output]] and [[opposed-response-geometry-receipt-output.txt|geometry output]] retain the distinction between finite checks and the proofs in the canonical notes.

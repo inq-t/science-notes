@@ -1,0 +1,6 @@
+PASS: two faithful densities define normalized positive trace pairings; 13 matrix-unit values reconstruct them exactly and 17 A* A probes are nonnegative.
+PASS: nine pure weights equal squared overlaps; the mixed state has purity 5/9, and a redundant nonorthogonal tight frame gives positive normalized effects while its naive ray sum is 2 P_F.
+PASS: the shared three-dimensional preparation fixture gives weights 289/325 and 36/325; the compressed-kernel formula and nine independent endpoint-phase checks agree.
+PASS: real and imaginary off-diagonal state differences are invisible to basis diagonal tests but yield coherent projective weights 3/4 versus 1/4.
+All four check groups passed. Exact rational arithmetic; stdlib only; stdout only; no files written.
+Finite positive readout checks do not prove the trace-class representation theorem or select a state, measurement outcome, physical locality, or mass gap.

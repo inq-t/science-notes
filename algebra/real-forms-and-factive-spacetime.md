@@ -103,6 +103,16 @@ $$
 
 The temporal “one” is therefore not one of the six internal real coordinates. It is the oriented compositional dimension by which spatial presentations become stages of one factual history. This agrees with the record-order criterion while leaving metric proper time to a later soldering theorem.
 
+[[algebra/directed-response-and-lorentzian-signature|Directed-response reflection]]
+now gives a conditional construction of one part of that return. On a
+supplied positive response manifold, an oriented cotangent line defines a
+metric with one negative direction and selects a cone component. A separate
+dimensionless response inequality is needed to put realized process arrows
+inside those cones. The construction does not require the line to be an
+integrable clock differential; that is a further property. It supplies
+neither the three-dimensional real form above nor the common history
+functor \(\mathfrak L\).
+
 ## Atemporal spectral selection
 
 A functional on internal spectral data can be fundamental without being a time-evolution law. For example, a spectral functional of the schematic form

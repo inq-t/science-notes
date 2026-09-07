@@ -92,6 +92,12 @@ These vary the trace of the relative holonomy \(W_1^*W_2\), so the distinction i
 
 Conversely, a common endpoint rotation of every staple preserves \(|a|\). Along that path the covariance and second-derivative contributions cancel exactly. Counting only the covariance would assign stiffness to a gauge motion that leaves the integrated potential unchanged.
 
+[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement#The exact response of a coincident boundary star|The general coincident-star identity]]
+organizes this coherent case for any smooth positive central profile:
+the retained Hessian is a complete-graph difference form with its
+coefficient fixed by the shared conditional Fisher tensor. It reproduces
+the first branch of (ST9), but not a positive bound at cancelled contexts.
+
 The conditional bound (ST3) therefore does not make the retained potential uniformly convex. At cancellation a boundary variation with \(da=\beta\,dv\) has Fisher cost \(\beta^2|dv|^2/4\), although the conditional law itself is Haar. This is the precise obstruction to inferring a weak-coupling response bound from strong single-link coercivity.
 
 ## One independent layer, not a closed Wilson recursion

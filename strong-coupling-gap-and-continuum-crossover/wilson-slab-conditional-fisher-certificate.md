@@ -131,8 +131,203 @@ Here \(\ell_\tau\) is the declared temporal lattice length. This last step conce
 
 In three spatial dimensions, an isotropic choice \(x=\beta_s=b\) satisfies (WF4) when \(14\tanh b<1\). This is a small Wilson-parameter, strong-bare-coupling region. As \(x\to\infty\), \(q_t\to2\), so this single-link certificate fails even at \(\beta_s=0\), where [[bridge-score-fusion-geometry/wilson-bridge-envelopes-under-temporal-blocking|the pure kinetic blocked estimate]] already succeeds.
 
-That failure identifies the next task: regroup the actual interacting histories into fixed-physical-depth blocks and control their induced conditional response. Replacing \(T^n\) with blocked kinetic factors would delete its intermediate magnetic terms. No nontrivial four-dimensional continuum law, universal glueball ratio or extension across the weak-bare-coupling trajectory follows from (WF11).
+That failure identifies the required change of grouping: retain actual interacting histories across fixed-physical-depth blocks and control their induced conditional response. Replacing \(T^n\) with blocked kinetic factors would delete its intermediate magnetic terms. No nontrivial four-dimensional continuum law, universal glueball ratio or extension across the weak-bare-coupling trajectory follows from (WF11).
 
-[[wilson-temporal-column-coercivity|Temporal-column coercivity]] now performs this grouping for the actual vacuum's gradient form: its bound survives time refinement at a small magnetic/electric ratio. It does not extend (WF11) itself. The [[wilson-to-hamiltonian-vacuum-limit|continuous-time return]] uses a separately proved vacuum limit and ground-state Dirichlet identity, not the adjacent-slice Fisher bound above.
+[[wilson-temporal-column-coercivity|Temporal-column coercivity]] performs this grouping for both the actual vacuum's gradient form and a complete bridge at positive blocked depth. Its additional ramp-to-Fisher argument survives time refinement at a small magnetic/electric ratio. This is a new estimate for the blocked bridge, not an extension of the adjacent-slice constant (WF11). The [[wilson-to-hamiltonian-vacuum-limit|continuous-time return]] passes the vacuum and transfer blocks; the predictor inequality then passes through their joint law without assuming convergence of conditional-expectation operators.
 
 [[receipts/wilson_slab_fisher_receipt.py|The finite receipt]] checks incidence bounds, finite conditional covariance, normalized-score Fisher estimates and complete bridge matrices in a discrete gauge calibration. It tests the mechanism, not the infinite compact-group theorem or continuum limit.
+
+## An interacting finite gauge bridge through time refinement
+
+The same receipt now tests the missing *kind* of comparison on open square
+graphs and a three-dimensional cube: form the actual interacting transfer,
+prepare its Perron vacuum, and calculate the complete physical midpoint
+predictor after blocking to a fixed half-slab. This is a finite
+\(\mathbb Z_2\) gauge calibration, not a discretization of \(SU(2)\).
+The construction below is exact finite-dimensional algebra; floating-point
+eigenvalues test it but are not certified continuum bounds.
+
+Let \(\Gamma=(V,E)\) be a connected finite graph with at least one cycle.
+Its binary cycle space is
+\[
+\mathcal C=\ker(\partial:\mathbb F_2^E\to\mathbb F_2^V),
+\qquad b=|E|-|V|+1.
+\tag{WF13}
+\]
+Each cycle \(c\) defines the gauge-invariant character
+\(\chi_c(U)=\prod_{e:c_e=1}U_e\). A spanning-tree cycle basis identifies
+the full orbit space with \(\mathbb F_2^b\); its \(2^b\) characters form
+the complete physical slice carrier. No low-energy or low-degree truncation
+is taken. The cube has five independent cycles, not six: the product of
+its six face holonomies is one. This is the finite Abelian case of
+[[gauge-cycle-innovation-filtration/inq|the cycle filtration]].
+
+Write \(F_{z,c}=2^{-b/2}\chi_c(z)\) for the orthogonal character matrix.
+For a supplied electric rate \(\gamma>0\), set
+\[
+\tanh x_\varepsilon=e^{-\gamma\varepsilon},\qquad
+H_E=F\operatorname{diag}(\gamma|c|)F^{\mathsf T},\qquad
+K_\varepsilon=e^{-\varepsilon H_E}.
+\tag{WF14}
+\]
+Here \(|c|\) counts edges in the binary cycle, including cancellations at
+shared edges. The formula follows by restricting the independent-link
+Wilson convolution to gauge-invariant characters. In particular,
+\(x_\varepsilon=\operatorname{artanh}(e^{-\gamma\varepsilon})\), not the
+\(SU(2)\) choice \(1/\varepsilon\). The character spectrum determines
+the correct temporal calibration for the chosen group.
+
+For the actual face cycles \(c_p\), supply a magnetic coefficient \(g\ge0\)
+and define
+\[
+V_g(z)=g\sum_p(1-\chi_{c_p}(z)),\quad
+T_\varepsilon=e^{-\varepsilon V_g/2}
+K_\varepsilon e^{-\varepsilon V_g/2},\quad
+H=H_E+V_g.
+\tag{WF15}
+\]
+Neighboring plaquettes do not give independent two-state factors: they
+share edges in (WF14), and \(H_E\) and \(V_g\) generally do not commute.
+For \(n\varepsilon=\ell\), the finite-dimensional product formula gives
+\(T_\varepsilon^n\to e^{-\ell H}\). Every intermediate magnetic factor
+remains in \(T_\varepsilon^n\); replacing it by
+\(e^{-\ell V_g/2}K_\varepsilon^n e^{-\ell V_g/2}\) changes the law.
+
+Let \(\lambda_0\) and \(\psi>0\), with \(\sum_y\psi_y^2=1\), be the
+top eigenpair of \(T_\varepsilon\). The state and reversible clock are
+obtained from that same transfer:
+\[
+\pi_y=\psi_y^2,\qquad
+P_{yz}=\frac{(T_\varepsilon)_{yz}\psi_z}{\lambda_0\psi_y},\qquad
+R=P^n,\qquad J_{xz}=\pi_x(R^2)_{xz}.
+\tag{WF16}
+\]
+Both endpoints are complete, independently gauge-quotiented slice states.
+The normalized conditional-prediction matrix, acting on Euclidean versions
+of the state-weighted carriers, is explicitly
+\[
+A_{(x,z),y}=\frac{\sqrt{\pi_y}\,R_{yx}R_{yz}}{\sqrt{J_{xz}}},
+\qquad S=A^{\mathsf T}A.
+\tag{WF17}
+\]
+Conditional independence of the two endpoints given the middle proves
+this formula. It is the full predictor, not merely a covariance or Fisher
+matrix of selected plaquettes. The independently checked raw-link
+compression on two neighboring plaquettes verifies that these orbit
+coordinates implement the physical quotient rather than discard a
+nonvacuum mode. [[bridge-score-fusion-geometry/gauge-quotients-of-midpoint-bridges|Independent endpoint quotients]] explain why this differs from keeping raw endpoint frames.
+
+With \(\widehat R=\operatorname{diag}(\sqrt\pi)R
+\operatorname{diag}(1/\sqrt\pi)\), the checks use the exact order
+\[
+\widehat R^2\le S\le I,\qquad S\psi=\psi,\qquad
+\kappa=1-\lambda_{\max}(S|_{\psi^\perp}).
+\tag{WF18}
+\]
+In the following comparison, \(H\) and its excitation edges are in inverse
+Euclidean-time units; an energy conversion is separate. The rate
+certificate and independently diagonalized excitation edge are
+\[
+-\frac{\log(1-\kappa)}{2\ell}
+\le\Delta_\varepsilon
+:=-\frac1\varepsilon\log\frac{\lambda_1}{\lambda_0}.
+\tag{WF19}
+\]
+This is [[bridge-data-augmentation-solder/inq|the bridge-to-transfer
+comparison]] on one actual law. Neither \(\Delta_\varepsilon\) nor
+\(\kappa\) is entered as a fit parameter. The graph, coefficients,
+boundary convention and temporal yardstick *are* supplied, so their
+calculation does not derive those inputs or the arena itself.
+
+At each fixed graph, strict positivity and Perron simplicity also hold for
+\(e^{-\ell H}\). To see the required irreducibility, let \(v_e\) record
+which basis cycles contain edge \(e\), and let \(X_{v_e}\) translate the
+orbit coordinate by that binary vector. Then
+\(H_E=(\gamma/2)\sum_e(I-X_{v_e})\); chord-edge vectors include a basis,
+so their flips connect the whole orbit space. A finite diagonal potential
+does not remove those transitions. The strictly positive joint triple law
+makes a perfectly boundary-recoverable midpoint function constant. On this
+finite carrier, that proves \(\kappa_H(\ell)>0\).
+
+Finite matrix convergence passes the vacuum and (WF17) to the limiting
+bridge: all limiting denominators are positive. Consequently
+\(\kappa_\varepsilon(\ell)\to\kappa_H(\ell)>0\). This continuity argument
+is not uniform in graph size. It does not extend
+[[wilson-to-hamiltonian-vacuum-limit|the compact-group vacuum-limit theorem]]
+to bridge operators without additional kernel and conditional-law control.
+
+### What the complete calculation measures
+
+The receipt uses \(\gamma=1/2\), \(\ell=1/2\), magnetic coefficients
+\(g=0,0.2,0.8\), and \(n=1,2,4,8,16,32\). It checks 72 refined
+bridges on four graphs, in addition to the original single-plaquette and
+conditional-Fisher checks. [[receipts/wilson-slab-fisher-receipt-output.txt|The saved receipt output]]
+records the values and validation scope. The continuous-time *finite-cube* results are:
+
+| \(g\) | Complete bridge floor \(\kappa_H\) | Excitation rate \(\Delta_H\) | Bridge-certified rate from (WF19) |
+|---|---:|---:|---:|
+| 0 | 0.757719643 | 2.000000000 | 1.417659722 |
+| 0.2 | 0.710760050 | 1.803794803 | 1.240498660 |
+| 0.8 | 0.724015532 | 1.875001005 | 1.287410688 |
+
+These are numerical approximations, not interval-certified bounds. At
+\(g=0.8\), the refined floor changes from \(0.739473417\) at \(n=1\)
+to \(0.724030080\) at \(n=32\), approaching the directly calculated
+continuous-time value. The normalized-transfer error decreases from
+\(3.029\times10^{-2}\) to \(3.079\times10^{-5}\). Temporal refinement
+therefore tests a positive limiting floor while the single-link
+Dobrushin hypothesis (WF4) fails: already its temporal term
+\(2\tanh x_\varepsilon=2e^{-\gamma\varepsilon}\) exceeds one at
+all these refinements. Failure of that sufficient certificate is not
+failure of the actual finite-system bridge.
+
+The [[gaussian-bridge-gap-calibration/inq|Gaussian calibration]] is not a
+universal readout formula. For this interacting cube,
+\[
+\kappa_H-\tanh(\ell\Delta_H)\simeq-0.010056220,
+\qquad
+\|[S_H,e^{-\ell(H-E_0)}]\|\simeq0.002108.
+\tag{WF20}
+\]
+The computed noncommutation is a diagnostic of the same distinction proved
+exactly by [[bridge-score-fusion-geometry/gauge-quotients-of-midpoint-bridges|the quotient-bridge counterexample]]:
+the recovery operator need not be a scalar spectral function of the clock.
+The two-boundary geometry and state belong to its input. The universal
+statement used here is the one-sided order (WF18), not the Gaussian inverse
+\(\Delta=\ell^{-1}\operatorname{artanh}\kappa\).
+
+There is also an exact rational witness inside the one-plaquette family,
+independent of the cube's floating-point spectrum. Choose
+\(\gamma=1/2\), \(g=1/\sqrt3\), and
+\(\ell=\sqrt3\log2/4\). The resulting Hamiltonian and Doob block are
+\[
+H=\begin{pmatrix}1&-1\\-1&1+2/\sqrt3\end{pmatrix},\quad
+\Delta=4/\sqrt3,\quad
+\pi=(3/4,1/4),\quad
+R=\frac18\begin{pmatrix}7&1\\3&5\end{pmatrix}.
+\tag{WF20a}
+\]
+Both \(R\) and the symmetric two-state block
+\(\frac14\left(\begin{smallmatrix}3&1\\1&3\end{smallmatrix}\right)\)
+have nonconstant eigenvalue \(1/2\). For (WF20a), the actual endpoint law
+is \(J=\frac1{64}\left(\begin{smallmatrix}39&9\\9&7\end{smallmatrix}\right)\).
+Conditional variance of the normalized centered binary observable gives
+\[
+\kappa=\sum_{x,z=0}^1
+\frac{R_{0x}R_{0z}R_{1x}R_{1z}}{J_{xz}}
+=\frac{163}{273}
+=\frac35-\frac4{1365}.
+\tag{WF20b}
+\]
+The symmetric block instead has \(\kappa=3/5\). At the same \(\ell\),
+these blocks have the same excitation rate but different complete bridge
+floors. The receipt checks this identity with rational arithmetic. The
+dependence on the state and observation relation cannot be removed merely
+by knowing the clock's lowest spectral edge.
+
+The next analytic obligation is not to find another positive finite
+number. It is to control the *complete interacting bridge* uniformly as
+the spatial graph, group representation content and physical regulators
+change. This finite-group calculation neither bounds \(SU(2)\)'s
+unbounded representation tail nor controls spatial volume or a
+four-dimensional continuum trajectory.
