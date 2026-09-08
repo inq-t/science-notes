@@ -8,6 +8,8 @@ Physics is the study of descriptions that are invariant over redefinitions.
 Physics is ultimately mathematics.
 Maybe the next big paradigm shift is a description of natural invariant laws that encompass both a "localized" and "globalized" redefinition of terms?
 
+How can we "think backwards"?  What if we start with a mathematical object that has a "mass gap" (properly defined), and then show how it produces exactly the conditions for the Yang Mills problem with properties that are analogous to traditional QFT?  What if we start with "asymmetry" as fundamental, and show how "symmetry groups emerge" under some necessary function?
+
 ## starting place
 
 The `sech²` observation belongs inside this larger programme as a possible exact reduction and diagnostic. The deeper target is the law that produces the profile, decides what it operates on, and prevents arbitrarily soft physical distinctions.
