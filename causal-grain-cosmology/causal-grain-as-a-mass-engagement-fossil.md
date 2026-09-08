@@ -358,7 +358,7 @@ The finite-index theorem nevertheless gives a principled reason that a response 
 
 This sharpens “mass switched on.” The exact candidate is not a universal substance acquiring a time-dependent coefficient. It is a change in which carrier and which invariant are physically realized: below the transition there need be no admissible stable rest-bearing sector with a uniform joint floor; above it a noninvertible descent, a normalized response, and a Casimir solder may coexist. A cosmological clock date is assigned only after the last line of (F5b) has been constructed.
 
-[[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]] isolates the corresponding event operator. For pre- and post-wall generators \(A_-\) and \(A_+\) joined by a scale-dependent realization \(J_\sigma\), the exact defect
+[[transport-intertwining-defect/propagator-intertwining-and-placement|Propagator intertwining]] supplies the general event-operator test. For pre- and post-wall generators \(A_-\) and \(A_+\) joined by a scale-dependent realization \(J_\sigma\), the exact defect
 
 $$
 \mathfrak D_\sigma
@@ -367,7 +367,7 @@ J_\sigma'+J_\sigma A_--A_+J_\sigma
 \tag{F5c}
 $$
 
-measures the failure of realization to commute with scale evolution. If \(\mathfrak D_\sigma=0\), the declared terminal-state composite is independent of the wall address; this does not make a noninvertible \(J_\sigma\) reversible, and it constrains only observations factoring through that state. If the defect is nonzero, its evolved action on supplied inputs must still survive the finite observable and nuisance kernels. The engagement construction, the post-wall Casimir floor, and the fossil readout are therefore three distinct proof obligations; a common-origin construction must derive all three from the same carrier.
+measures the failure of realization to commute with scale evolution. If \(\mathfrak D_\sigma=0\), the declared terminal-state composite is independent of the wall address; this does not make a noninvertible \(J_\sigma\) reversible, and it constrains only observations factoring through that state. If the defect is nonzero, its evolved action on supplied inputs must still survive the finite observable and nuisance kernels. [[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement|The mass-engagement application]] separates the engagement construction, post-wall Casimir floor and fossil readout into three proof obligations; a common-origin construction must derive all three from the same carrier.
 
 ## What BAO actually fossilizes
 

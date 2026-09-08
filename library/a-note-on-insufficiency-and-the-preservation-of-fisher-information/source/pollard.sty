@@ -1,0 +1,90 @@
+% pollard.sty, for Wellner volume
+
+%%%%%%%% fonts
+
+\usepackage{euscript}
+\let\Cal=\EuScript
+\let\muchmore=\gg
+\let\muchless=\ll
+\let\typewriter=\tt  % for turning on the font
+
+\def\aa{{\Cal A}}\def\bb{{\Cal B}}\def\cc{{\Cal C}}\def\dd{{\Cal D}}
+\def\ee{{\Cal E}}\def\ff{{\Cal F}}\def\gg{{\Cal G}}\def\hh{{\Cal H}}
+\def\ii{{\Cal I}}\def\jj{{\Cal J}}\def\kk{{\Cal K}}\def\ll{{\Cal L}}
+\def\mm{{\Cal M}}\def\nn{{\Cal N}}\def\oo{{\Cal O}}\def\pp{{\Cal P}}
+\def\qq{{\Cal Q}}\def\rr{{\Cal R}}\def\ss{{\Cal S}}\def\tt{{\Cal T}}
+\def\uu{{\Cal U}}\def\vv{{\Cal V}}\def\ww{{\Cal W}}\def\xx{{\Cal X}}
+\def\yy{{\Cal Y}}\def\zz{{\Cal Z}}
+
+\def\AA{{\mathbb A}}\def\BB{{\mathbb B}}\def\CC{{\mathbb C}}
+\def\DD{{\mathbb D}}\def\EE{{\mathbb E}}\def\FF{{\mathbb F}}
+\def\GG{{\mathbb G}}\def\HH{{\mathbb H}}\def\II{{\mathbb I}}
+\def\JJ{{\mathbb J}}\def\KK{{\mathbb K}}\def\LL{{\mathbb L}}
+\def\MM{{\mathbb M}}\def\NN{{\mathbb N}}\def\OO{{\mathbb O}}
+\def\PP{{\mathbb P}}\def\QQ{{\mathbb Q}}\def\RR{{\mathbb R}}
+\def\SS{{\mathbb S}}\def\TT{{\mathbb T}}\def\UU{{\mathbb U}}
+\def\VV{{\mathbb V}}\def\WW{{\mathbb W}}\def\XX{{\mathbb X}}
+\def\YY{{\mathbb Y}}\def\ZZ{{\mathbb Z}}
+
+
+\makeatletter
+
+
+\def\cases@#1{\left\{\,\vcenter{\normalbaselines\m@th
+    \ialign{$##$\hfil&\quad##\hfil\crcr#1\crcr}}\right.}
+
+\def\Cases#1\endCases{\let\\=\cr\cases@{#1}}
+
+\makeatother
+
+\def\cref#1{(\ref{#1})}
+\def\text#1{\hbox{\rm#1}}
+\def\qt#1{\qquad\text{#1}}
+\def\var{\text{var}}
+
+\def\argmin{\mathop{\rm argmin}}
+\def\argmax{\mathop{\rm argmax}}
+
+\def\singP{P^\bot}
+\def\singQ{Q^\bot}
+\def\singPP{\PP^\perp}
+\def\htil{\widetilde h}
+\def\xitil{\widetilde\xi}
+\def\Deltil{\widetilde\Delta}
+\def\rtil{\widetilde r}
+\def\Ate{A_{t,\eps}}
+
+\def\newdef#1{{\itshape\bfseries #1}}
+\def\gdot{{\dot g}}
+
+\def\almev#1{a.s.$[#1]$}
+\def\norm#1{\|#1\|}
+\def\normTV#1{\norm{#1}_{\rm{TV}}}
+
+\def\yL{y_{L:n}}
+\def\yR{y_{R:n}}
+\def\zin{z^*_{i,n}}
+\def\xin{x^*_{i,n}}
+
+
+\def\tDel{\widetilde\Delta}
+\def\that{\widehat \theta_n}
+
+\def\wrt/{with respect to}
+\def\a{\alpha}
+\def\b{\beta}
+\def\gam{\gamma}	\def\Gam{\Gamma}
+\def\del{\delta}	\def\Del{\Delta}
+\def\eps{\epsilon}
+\def\lam{\lambda}	\def\Lam{\Lambda}
+\def\lamb{\mathbf \lambda}	\def\Lamb{\mathbf \Lambda}
+\def\om{\omega}		\def\Om{\Omega}
+\def\sig{\sigma}
+\def\th{\theta}		\def\Th{\Theta}
+
+
+
+
+
+
+

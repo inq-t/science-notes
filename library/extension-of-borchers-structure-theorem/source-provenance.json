@@ -1,0 +1,58 @@
+{
+  "description": "Verification of previously archived primary-source bytes against the library identity inventory; fresh remote comparison where available. Existing source files are unchanged.",
+  "records": [
+    {
+      "path": "math-0412061-araki-zsido-borchers-half-sided-modular-inclusions.pdf",
+      "bytes": 549422,
+      "sha256": "14e3c8961c3fd6323c3e6d8635c4c420ee09493d94e228574e44261456068a14",
+      "version": "math/0412061v3",
+      "kind": "pre-existing-primary-source",
+      "inventory": "library/identities.json",
+      "primary_url": "https://arxiv.org/pdf/math/0412061v3",
+      "verified_at": "2026-09-08T20:10:45.885121+00:00",
+      "remote_verification": {
+        "url": "https://arxiv.org/pdf/math/0412061v3",
+        "resolved_url": "https://arxiv.org/pdf/math/0412061v3",
+        "bytes": 549422,
+        "sha256": "14e3c8961c3fd6323c3e6d8635c4c420ee09493d94e228574e44261456068a14",
+        "byte_identical": true
+      },
+      "pdf_pages": 48,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 48,
+        "first_page_text_prefix": "arXiv:math/0412061v3  [math.OA]  14 Sep 2005\nEXTENSION OF THE STRUCTURE THEOREM OF BORCHERS\nAND ITS APPLICA TION TO HALF-SIDED MODULAR\nINCLUSIONS\nHUZIHIRO ARAKI AND L ´ASZL ´O ZSID"
+      }
+    },
+    {
+      "path": "math-0412061-source.tar.gz",
+      "bytes": 47117,
+      "sha256": "caf269938cbda924e16999129c0f3660bc2408517d89a0104bcfbb3d94e1efaa",
+      "version": "math/0412061v3",
+      "kind": "pre-existing-primary-source",
+      "inventory": "library/identities.json",
+      "primary_url": "https://arxiv.org/src/math/0412061v3",
+      "verified_at": "2026-09-08T20:10:45.883121+00:00",
+      "remote_verification": {
+        "url": "https://arxiv.org/src/math/0412061v3",
+        "resolved_url": "https://arxiv.org/src/math/0412061v3",
+        "bytes": 47117,
+        "sha256": "caf269938cbda924e16999129c0f3660bc2408517d89a0104bcfbb3d94e1efaa",
+        "byte_identical": true
+      },
+      "format": "gzip-compressed MacBinary (legacy filename retained)"
+    },
+    {
+      "path": "source/hsmi.tex",
+      "bytes": 187218,
+      "sha256": "03cf8ad4ad2afb6cb78e973660d60d04cfff1aadf5269f0d909a45a554b15dc9",
+      "kind": "extracted-author-source",
+      "derived_from": "math-0412061-source.tar.gz",
+      "method": "gzip decompression followed by byte-exact MacBinary data-fork extraction",
+      "container_header_bytes": 128,
+      "data_fork_bytes": 187218,
+      "resource_fork_bytes": 382,
+      "archive_member": "hsmi.tex"
+    }
+  ]
+}

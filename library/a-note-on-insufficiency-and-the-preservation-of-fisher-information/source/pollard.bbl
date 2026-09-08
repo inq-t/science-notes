@@ -1,0 +1,109 @@
+\def\noopsort#1{}
+\begin{thebibliography}{9}
+
+\bibitem[\protect\citeauthoryear{Bickel {\it et~al.}}{1993}]{BKRW:93book}
+\begin{bbook}[author]
+\bauthor{\bsnm{Bickel},~\bfnm{P.~J.}\binits{P.~J.}},
+  \bauthor{\bsnm{Klaassen},~\bfnm{C.~A.~J.}\binits{C.~A.~J.}},
+  \bauthor{\bsnm{Ritov},~\bfnm{Y.}\binits{Y.}} \AND
+  \bauthor{\bsnm{Wellner},~\bfnm{J.~A.}\binits{J.~A.}}
+(\byear{1993}).
+\btitle{Efficient and Adaptive Estimation for Semiparametric Models}.
+\bpublisher{Johns Hopkins University Press}, \baddress{Baltimore}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{H\'ajek}{1972}]{Hajek:72berk}
+\begin{binproceedings}[author]
+\bauthor{\bsnm{H\'ajek},~\bfnm{J.}\binits{J.}}
+(\byear{1972}).
+\btitle{Local asymptotic minimax and admissibility in estimation}.
+In \bbooktitle{Proceedings of the Sixth Berkeley Symposium on Mathematical
+  Statistics and Probability}
+(\beditor{\bfnm{L.}\binits{L.}~\bsnm{Le~Cam}},
+  \beditor{\bfnm{J.}\binits{J.}~\bsnm{Neyman}} \AND
+  \beditor{\bfnm{E.~L.}\binits{E.~L.}~\bsnm{Scott}}, eds.)
+\bvolume{I}
+\bpages{175--194}.
+\bpublisher{University of California Press}, \baddress{Berkeley}.
+\end{binproceedings}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Ibragimov and
+  Has'minskii}{1981}]{Ibragimov:Hasminskii:81book}
+\begin{bbook}[author]
+\bauthor{\bsnm{Ibragimov},~\bfnm{I.~A.}\binits{I.~A.}} \AND
+  \bauthor{\bsnm{Has'minskii},~\bfnm{R.~Z.}\binits{R.~Z.}}
+(\byear{1981}).
+\btitle{Statistical Estimation: Asymptotic Theory}.
+\bpublisher{Springer}, \baddress{New York}.
+\bnote{(English translation from 1979 Russian edition)}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Kagan and Shepp}{2005}]{KaganShepp05AmStat}
+\begin{barticle}[author]
+\bauthor{\bsnm{Kagan},~\bfnm{Abram}\binits{A.}} \AND
+  \bauthor{\bsnm{Shepp},~\bfnm{Lawrence~A.}\binits{L.~A.}}
+(\byear{2005}).
+\btitle{A sufficiency paradox: an insufficient statistic preserving the
+  {F}isher information}.
+\bjournal{The American Statistician}
+\bvolume{59}
+\bpages{54--56}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Le~Cam}{1986}]{LeCam:86book}
+\begin{bbook}[author]
+\bauthor{\bsnm{Le~Cam},~\bfnm{L.}\binits{L.}}
+(\byear{1986}).
+\btitle{Asymptotic Methods in Statistical Decision Theory}.
+\bpublisher{Springer-Verlag}, \baddress{New York}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Le~Cam and Yang}{1988}]{Lecam:Yang:88AS}
+\begin{barticle}[author]
+\bauthor{\bsnm{Le~Cam},~\bfnm{L.}\binits{L.}} \AND
+  \bauthor{\bsnm{Yang},~\bfnm{G.~L.}\binits{G.~L.}}
+(\byear{1988}).
+\btitle{On the preservation of local asymptotic normality under information
+  loss}.
+\bjournal{Annals of Statistics}
+\bvolume{16}
+\bpages{483--520}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Le~Cam and Yang}{2000}]{LeCam:Yang:2000book}
+\begin{bbook}[author]
+\bauthor{\bsnm{Le~Cam},~\bfnm{L.}\binits{L.}} \AND
+  \bauthor{\bsnm{Yang},~\bfnm{G.~L.}\binits{G.~L.}}
+(\byear{2000}).
+\btitle{Asymptotics in Statistics: Some Basic Concepts}, \bedition{2nd} ed.
+\bpublisher{Springer-Verlag}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{Pitman}{1979}]{Pitman1979book}
+\begin{bbook}[author]
+\bauthor{\bsnm{Pitman},~\bfnm{E.~J.~G.}\binits{E.~J.~G.}}
+(\byear{1979}).
+\btitle{Some Basic Theory for Statistical Inference}.
+\bseries{Monographs on applied probability and statistics}.
+\bpublisher{Chapman and Hall}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{van~der Vaart}{1988}]{vaart:88cwi}
+\begin{bbook}[author]
+\bauthor{\bparticle{van~der }\bsnm{Vaart},~\bfnm{Aad}\binits{A.}}
+(\byear{1988}).
+\btitle{Statistical estimation in large parameter spaces}.
+\bpublisher{Center for Mathematics and Computer Science}
+\bnote{CWI Tract 44}.
+\end{bbook}
+\endbibitem
+
+\end{thebibliography}

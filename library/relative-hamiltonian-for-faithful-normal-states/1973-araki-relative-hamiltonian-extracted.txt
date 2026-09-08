@@ -1,0 +1,1132 @@
+--- PDF page 1 ---
+Publ. RIMS, Kyoto Univ.
+9 (1973), 165-209
+Relative Hamiltonian for Faithful Normal States
+of a von Neumann Algebra
+By
+Huzihiro ARAKI
+Abstract
+Let W be a cyclic and separating vector for a von Neumann algebra 5ft
+and Jr be its modular operator. For any elements Qi,...,Qn in %R and complex
+numbers 2rlv.., zn such that Re Zj^>Q and I Re z^l/2, F is shown to be in
+the domain of A^Q,...A^Qn and \ApQi... A'w«QnV\^\Ql\...\Qn\\Vl
+A self adjoint operator h=h(<p/</))^'>ffl is called a Hamiltonian of a faithful
+normal state p of 9# relative to another faithful state 9) of %R if vectors £„
+and £$ representing <p and <p (in the canonical cone F£/4) is related by
+f,= £ (-ln=0
+The operator
+is shown to be an intertwining unitary operator between modular automor-
+phisms a\ and <s\ for states ^ and (pi
+The relative hamiltonian h(^/^) is unique for given states (p and (p. It
+exists and satisfies log/1^-h(y?/^)^log/2 if / J/2^^^^/21/2^, where ^j^^g
+means that 0j — 02 is in the canonical cone Vy*. In particular, if /^
+then h((p/(/)) exists and satisfies the above inequality.
+The modular operators As<p and Jff are related by
+where / is the common modular conjugation operator for %v and ^. The
+chain rule h(^1/^2)4-h(92/^3) = h(^1/^3) is satisfied.
+§1. Introduction
+Let 2Ji be a *-algebra of finite matrices and (pQ be a faithful tracial
+state on 3K. Then every positive linear functional (p on 971 is uniquely
+Received December 7, 1972.
+
+
+--- PDF page 2 ---
+166 HUZIHIRO ARAKI
+represented by a positive element p9 of 2ft by
+(1.1) ?(*) = Po(P,*), *e2R.
+The corresponding modular automorphism 07 is given by
+(1.2) <rK*) = pJf*p;«, *e9W.
+The Z,2-norm ||^||2 = ^o(^*::c)1/2 makes Wl a Hilbert space which we shall
+write «t>. The vector corresponding to leSJl is written as ?0.
+To each ^e2JlJ, there corresponds a canonical vector ^ = pj/2f0 sucn
+that the expectation functional a)^ by the vector $9 is #?. The set of £9
+is a selfdual convex cone 2ft+<?0 m §> which has been denoted as FJO or
+F|£4 in Q2]. The modular conjugation operator / for £9 is common for
+all faithful ^e2ftj and is given by
+(1.3)
+The modular operator A^v for $9 is given by
+(1-4) Jt,xe<> = P9xP?£Q.
+In statistical mechanics, h9= — Iogp9 for a faithful ^ e TO J is called a
+Hamiltonian, (5% is called a time translation automorphism and cp is called
+the Gibbs state for this Hamiltonian (with an inverse temperature 0 = 1).
+We shall be concerned with a Hamiltonian of a faithful state cp relative
+to another faithful state 0 defined by
+(1.5) h(?/0) = &,-A,
+The original h9 is h(^?/^0). Since a tracial state is not available for a
+purely infinite von Neumann algebra, we are forced to work with the
+relative Hamiltonian in the general case.
+From (1.2), we immediately see that the unitary operator
+(1.6) M?* = PiV/
+intertwines modular automorphisms of (p and 0:
+(1.7) tt?*<rf(*) = <r?(*)n?*, x^m.
+The operator in (1.6) has the following perturbation expansion
+
+
+--- PDF page 3 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 167
+(1.8)
+n=Q
+where /i = h(<^/0).
+For two faithful states 0 and q> in 2JIJ, there exists a unique
+e2ft such that A(<^/0)f(/) = c^. It is the Radon-Nikodym derivative satisfy-
+ing the chain rule [2T\ and is given by
+(1.9)
+which has the following perturbation expansion:
+(1.10) £,
+where the integration is over the following simplex
+(1.11) /i'zs{(^,..., AJ; A^O,..., AB5:0, 1/2^ + -.. + !„}.
+These expansion formulas are of the same form as the covariant per-
+turbation expansion in an interaction picture used in quantum field theory
+and has been discussed in p] in the Banach algebra context.
+The purpose of the present paper is to show that the relative hamil-
+tonian h(<p/0) exists for a certain class of the pair <p, 0 in 5D?J, it is
+unique and it satisfies (1.7), (1.10), the chain rule
+(1.12)
+and
+§2. Multi- variable three-line theorem
+The following is an immediate generalization of the three-line theorem
+of Doetsch to the case of many complex variables.
+Theorem 2.1, Let f(z) be a function of n complex variables z =
+
+
+--- PDF page 4 ---
+168 HUZIHIRO ARAKI
+(Z-L...ZH) satisfying the following two conditions:
+(i) f(,2r) is holomorphic in the tube
+(2.1) T(B) = {z',Imz^B}
+where B is an open convex set in Rn.
+(ii) f(z) is continuous and bounded in the closure T(B)
+Let
+(2.2) X
+Then logg(j) is a convex function of
+Proof. We have to prove the inequality
+(2.3) lo
+for O^^l, ya^B and
+If g(y0) = 0 at one point y0, then f(A; + jj0) = 0 for all x^Rn and
+hence f(z) = 0 identically (by the edge of wedge theorem if j0e95). In
+this case, logg(y)= — oo for all y^B and (2.3) holds. We now assume
+that f(z)^0 and hence g(y)^0.
+For each ya and yb, we may restrict our attention to a compact
+convex subset of B containing ya, yb and a non-empty interior. Hence
+we may assume that B is compact without loss of generality.
+First consider the case where ^ ya + (l — fy yb^B for 0<A<1. Consider
+a function of one complex variable ZQ:
+If Re2r0e(0, 1), then fx(zo) is holomorphic by the tentative assumption,
+continuous and bounded in the closure. By Doetsch's three-line theorem,
+log sup 1^(^ + 1(7)1 is a convex function of A in Q),l]. Since the supremuma&R
+of a family of convex functions is convex, we have the convexity of
+sup log sup | f X(A + iff) | = log g(A ya + (1 - A) yb)
+in ^ and hence (2.3).
+For general points ya and j& in B, we consider a sequence of points
+
+
+--- PDF page 5 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 169
+yna and yl such that lim y%= ya, lim y%= yb and ^ y? + (l — ^) J?^^ for
+0<A<1 and all TI. Instead of f, we first consider the function
+f,(*) = f(20exp(-0S*J). 09 >0.)
+For compact B, i^(z) tends uniformly to 0 as z tends to oo in T(B).
+Let
+Then it is continuous in jeB. By what we have already proved we have
+By continuity, we have
+We can now complete the proof by showing that
+for each y^B. First we have
+|exp(-/?I>?)| ^expO? sup Z j|)->l^eS
+as /?-»0. (S is assumed to be compact at this stage of the proof.) Hence
+for sufficiently small /?,
+for any given £>0. There exists x such that
+For this x, we have i^(x-\-iy)\ ^g(j) — e for sufficiently small /?. Hence
+for sufficiently small /? for any given e>0. Q.E.D.
+Remark, The convexity of log g( j) implies the convexity of g(j).
+
+
+--- PDF page 6 ---
+170 HUZIHIRO ARAKI
+By considering exp f(z) instead of f(z), we also obtain the convexity of
+sup Re f(# + i y).X
+Corollary 2.2. Let B in Theorem 2.1 be a simplex
+B = I«n = {y; J1>0S...J yn>0, a>yi + •- + ?„}, a>Q.
+Then g(y) takes its maximum value in B at one of (ra + 1) extremal points
+of B: J° = (o,..., 0), ^ = (a, 0,..., 0), ^ = (0, a, 0,..., 0), ..., A» = (0f..., 0, a).
+Proof. Since log g( y) is convex, it takes its maximum value in a
+compact convex set B at one of its extremal points.
+Q.E.D.
+§3. Multiple KMS Property
+Theorem 3.1. Let W be a cyclic and separating vector with a modular
+operator Aw. It is in the domain of
+(3.1) J^1J^a...^-0. = A(*)
+if Qk<=%fl, k = l,...9n, and z = (zl...zn)<=T(-Iln12). The vector valued
+function A(z)¥ of z is holomorphic in the tube T( — 7^/2), strongly con-
+tinuous and uniformly bounded in its closure T( — /^/2):
+(3-2) \\A(zW\\^\\n\\Qi\\" '\\Qn\\.
+Proof. We prove Theorem by induction on ji. When n = 0s there is
+nothing to prove. Assume that Theorem is true for n<m except that the
+strong continuity is temporarily replaced by the weak continuity and
+consider the case n = m.
+Let 0eD(Jp). Then 0eD(JSrzl) for Im ^eQ-1/2, 0]. Consider
+By Lemma 4 of p], we have
+
+
+--- PDF page 7 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 171
+Hence 02 is a uniformly bounded and strongly continuous function of zl
+for 2r1eT( — /i/2). By inductive assumption, @1 is a uniformly bounded
+and weakly continuous function of (z2,.--, zm)^T( — I^?.l). Hence f(*)
+is a uniformly bounded continuous function of z = (z1,...9 zn) in T( — /i/2)
+XT( — I^-i), which contains T( — /J/2). Since $2 is holomorphic for
+^eTC-/!/2) and ®l is holomorphic for (*2,..., zJeTC-/!/^), f(*) is
+holomorphic in T(-/];/2) xTX-JJ/2!) by Hartogs' theorem.
+We now consider |f(*)| when Im z is at one of extremal points of
+We have
+If Im Zj = Q except for j = k and Im zk=— 1/2, we have
+where A;/ = Rez/ and Q(t) = A^QAylt. Hence we have
+for all 2:eT( — /J/2). By Riesz theorem, there exists a vector ®(z) such
+that f(*) = (0(*), 0) and I^WII^IISFIIIIOill"'!^!!- Hence 0! is in the
+domain of Aizi and (3.2) holds for ?i = m.
+Since f(z) is holomorphic in T( — /J/2) and continuous in, T( — /J/2),
+the uniform boundedness implies that 0(<2r)=A(z)5T is weakly continuous
+in T( — /J/2) and weakly holomorphic in T( — /J/2). Since the weak and
+strong holomorphy are the same due to Cauchy integral formula for
+polycircles, we have the desired properties for n — m.
+To show the strong continuity from the weak continuity, it is enough
+to show the continuity of the norm. This follows from the next Theorem.
+Q.E.D.
+The following Theorem states a multiple KMS property and has been
+
+
+--- PDF page 8 ---
+172 / HUZIHIRO ARAKI
+derived in somewhat different but equivalent context in []1], except for (4).
+Theorem 3.2, There exists a function F(*) of z = (zl9..., z^) for a
+given cyclic and separating vector ¥ and operators Ql9...9 Qn+l^Wl such
+that
+(1) F(z) is holomorphic in zeT( —/*),
+(2) F(z) is continuous in ,zeT( — /*),
+(3) F(z) is uniformly bounded in z^T( — /J):
+(3.3) |F(z)|
+(4) if z^T(-IlJ and
+then F(» = (0i, $2) where
+non-negative real number satisfying
+1/2 + ImC*! + • • • + ^_i) ^ a ^ - 1/2 - Im(zA + • - • + -»„),
+(5) (/" Im 2 = 0, //?««
+F(z) - a>r(e,+ie.(*,)C.-i(*.-i + *.)•• -<?i(^i + ' ' ' + *„)),
+(6) z/ Im 2^ = 0 except for Im Zj=— 1, £/&ew
+z) = fl)r(^X*y+--- + O...^i(A;1 + --- + O^+1...^1(a;^
+- = Re^- and Q(t} = A^QAy1*.
+Proof. Let QSl/3 = Qj(f^) where /g is given by (3.11) of [2] and the
+notation Q(f) is given by (3.7) of pT], Qj,p(t) has an analytic continua-
+tion ^/3(<2r)e9Jl for any complex number 2 and
+
+
+--- PDF page 9 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 173
+is an entire function of z. By Theorem 2.1, |F^(,2r) — F^\z)\ for ze
+T(-/J) is bounded by the maximum of |F*(*-i7(''0-F^*-iA(>>)l
+for / = 0, 1,..., n and real x where A(y) is as in Corollary 2.2 in which
+we set a = l.
+By usual KMS condition, we have
+Since \\Qj.p\\^\\Qj\\,limQj,p = Qj and Urn Qfifl = Qf, |F*-F*' converges0-^0 /3-+0
+to zero uniformly in z in any compact subset of T( — /*). Let F(z) =
+lim F^(2r). As the uniform limit of a continuous and holomorphic func-£-0
+tion, F(z) is continuous on T( — /J) and holomorphic in T( — 7J). Since
+2> (3) is also satisfied. Hence F(*)
+so constructed satisfies (1), (2), (3), (5) and (6). It remains to prove (4).
+Consider
+in the domain
+f(z) is holomorphic in this domain.
+If Im (*! + ••• + *„+!) ^-1/2, then
+By the weak continuity of Theorem 3.1, f(z) is continuous in zeT( — /J+2i).
+At Im^ = 0, we have f(2r) = 0. Hence f (*) = () identically by edge of
+
+
+--- PDF page 10 ---
+174 HUZIHIRO ARAKI
+wedge theorem. This proves (4) for z e T( — /J) satisfying
+- a + lm(zl + • • • + 2rA-i) > - 1/2, Im(2rA + • • • + z J + a > - 1/2.
+For a fixed zl...zk-l, we obtain (4) for zeT( — /J) satisfying
+by the weak continuity. For fixed zk...zn+i, we then obtain (4) for
+*eT( — IJ) satisfying
+by weak continuity again. Q.E.D.
+§4. Relative Hamiltonian
+Proposition 4.1. L0J AeSft, h* = h and W be a cyclic and separat-
+ing vector. Then
+(4.1)
+converges absolutely and uniformly over bounded h, where the integrations
+are over the region
+(4.2) Ji/2 = {(^...O; *i^0,..., *^0, ^ + ... + ^^1/2}.
+W(h} defined by (4.1) is in VW9 namely the closure of J^42K+F [2]. If
+a sequence hn converges to h strongly, then W(hn} converges to W(h)
+strongly.
+Proof. By Theorem 3.1, we have
+Hence (4.1) is dominated by 2(n^~l\\h\\n\\W\\ = e^\W\\ and hence con-
+verges absolutely and uniformly over a bounded set of h.
+Since converging sequence is uniformly bounded and multiplication is
+continuous on a bounded set, we have
+lim
+
+
+--- PDF page 11 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 175
+for each tl...tm. By Lebesgue dominated convergence theorem, we have
+the strong convergence (i.e. weak convergence plus the convergence of
+norm) :
+(4.3)
+n
+for any Ll functions fi...fm, where
+We shall use f% given by (3.11) of [2].
+If F(zl...zn) is a vector valued function holomorphic in {z ; \ Zj — zj \
+and bounded by A, then for \Zj — Zj\^d/29 we have
+. (4.4)
+^4: Ad'1.
+Hence \\F(z)-F(z')\\^4A8-1\z-z'\ for \z]-z*i\£8/2, |*J-
+Since
+is holomorphic in z = (s1 + itl,...9 sm + itm) for Re ze/J/2 and bounded
+uniformly for a bounded set of Aw, it has the equicontinuity in (£l5 ^ + ^2?
+....^H ----- hiw) and hence
+lim As^hn(f%}...A^hn(f%W = J^A.. . . J J-A.y/S-» + 0
+strongly and uniformly over n for each fixed (sl...sm) in /J/2. The same
+equation holds when Aw is replaced by A.
+Furthermore,
+where
+Hence by (4.3) we have
+
+
+--- PDF page 12 ---
+176 HUZIHIRO ARAKI
+Therefore, by taking the limit as £— » + 0 and exchanging the order of limit
+in n and, #, we obtain
+lim As¥lhn...A¥mhn¥ = Aswlh...A¥mh¥
+for each (Sl...sm
+Since As^hn...AswmhJF is uniformly bounded by (sup ||&J|)W||F||, we have
+by Lebesgue dominated convergence theorem.
+We now show that F(A)e Fr. Let hft = h(f%). Then ||^||^||A|| and
+lim A£ = A. If we show W(h^ Vw, then r(A) = lim F(A^)e Vw.^Q-»-t-0
+The closure of Awh^A¥s is given by
+A^( - is) = (A^hA^f^t + is)dt e M.
+Hence
+Changing integration variables to 5X = tl H ----- h tn, s2 = ^2 H
+we obtain
+°° fl/2 fsi fSn-l
+(4.5) y(A/?)=S\ d5l d52...»=oJo Jo Jo
+Gl/2
+; hfi(-isy
+where the expansional Expr is defined in
+By formula (3.5) of [3], we have
+Gl/2
+; hft-is
+
+
+--- PDF page 13 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 177
+Since
+= JTh^(i(Sl - 1/4)) . . .hf(i(sH
+we have
+Gl/4 \ /fl/4 \
+; hff( - i(s + l/4))ds W = JFExp,( \ ; hff(i(s - l/4))da W.o / \Jo /
+By formula (2.10) of [3], we have
+Gl/4
+;
+Hence
+where
+Q.E.D.
+Definition 4.2. LeZ ^e5K{, 0e5KJ anJ £,,, ^f/J &g unique representa-
+tives of <p and (/) in Vw. If f^ = f0( — A), AeSJJ, h = h*, then h is called
+a Hamiltonian of <p relative to 0 and denoted by h(<p /</>).
+We shall prove the uniqueness in Lemma 4.6.
+Remark. There is an unfortunate small discrepancy in the notation of
+mathematicians and physicists. As explained in Introduction, the time
+translation automorphism of physicists differs from the modular automor-
+phisms of mathematicians by sign of the variable, which also causes a
+sign change in the statement of KMS condition. In the present definition,
+it would be simpler mathematically to call —h as a relative hamiltonian,
+but we would like to avoid a further discrepancy in terminologies and we
+define the hamiltonian as it appears in statistical mechanics. In the present
+
+
+--- PDF page 14 ---
+178 HUZIHIRO ARAKI
+article, we follow mathematician's notation regarding modular automor-
+phisms, MSK conditions and inner product of a Hilbert space.
+Proposition 4.3. Assume that h(<p/</>) exists for faithful (p and <]) in
+9JJJ. Let 07 and o~f be modular automorphisms for (p and 0. Let
+(4.6) n?*
+(4.7) fi?*
+(4.8) (*?*)*=*?*, ufuTl>
+(4.9) uffff(x) = ^(x)uf,
+Proof. The first equation in (4.8) follows from definition. The second
+equation in (4.8) follows from formulas (2.14) and (2.15) of Q3]. To prove
+(4.9), we consider
+where &=-h(<p/0), hft = h(f%) and f% is given by (3.11) of [2]. we
+first prove (4.9) for (p$ instead of (p.
+We have
+where
+(4.10) hft(z)
+We compare two functions
+(4.11) Fj(0 = <
+
+
+--- PDF page 15 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 179
+and
+(4.12)
+where x,
+Gl/2
+;
+and the second equalities of (4.11) and (4.12) are due to (4.5). We shall
+first prove that kt and kt have analytic continuations to the same entire
+function and &,_,- = £,.
+By formulas (4.2) and (4.4) of pT], we have
+= Expr(V ; -^(-\Jo
+By formula (2.8) of [3], we have
+Expr(\ ; -iA,g(-\Jo
+The right hand side is an entire function of t and its value at t = ± is is
+given by
+due to formula (2.8) of £3] where s is real positive. Hence the analytic
+continuation of ExpJ\ ; —ih0( — ff)dff] to z = t±is is given by
+
+
+--- PDF page 16 ---
+180 HUZIHIRO ARAKI
+By formula (2.11) of [3], we have
+Hence
+rt+it2
+We also have
+Gl/2
+; -/^(i
+due to h0(-iff)* = h0(iff) and formulas (2.17), (2.14) and (2.15) of [3].
+Hence
+Therefore kt and kt have analytic continuations to the same entire func-
+tion and kt-i = kt.
+Since Exprf\ ; — ihp( — (T)d(T J has an inverse
+for all z = t±is, k^1 and £^x have analytic continuations to the same entire
+function and k^{ = kjl.
+Returning to F1(^)9 it has an analytic continuation to z = t — i/2:
+
+
+--- PDF page 17 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 181
+On the other hand F2(z) has an analytic continuation to z = t + i/2 :
+F2(t + i/2) = (A*xA¥, Ji-'^C&r 1 7
+Since kz = k29 they coincide. Hence the ^-automorphism
+satisfies the KMS condition for (p^. Hence it must be the modular auto-
+morphism of (ppi
+If /?-» + 0, hp tends to h scrongly. By Proposition 4.1, V(h^ tends
+to W(h) strongly and hence <p0 tends to cp in norm. By Theorem 10 of
+Q2], fftf(x) tends to G%(x) strongly for x^Wl.
+On the other hand, ^(/^...d"'/'^/^) converges strongly to G^JJi)...
+0fB(&) and hence u%** and u1*+ converge strongly to uf and uf by
+Lebesgue dominated convergence theorem. Hence we have
+which proves (4.9). Q.E.D.
+Corollary 4.4. If W is cyclic and separating and h^yjl, h* = h,
+then W(Ji) is also cyclic and separating.
+Proof. By the proof of Proposition 4.3, W(h) satisfies KMS condition
+relative to the group of ^-automorphisms
+where
+and the group property of the *-automorphisms follow from the cocycle
+equation
+
+
+--- PDF page 18 ---
+182 HUZIHIRO ARAKI
+which is formula (4.2) of p]. It is known that a KMS state is faithful
+if it is faithful on the center.
+Let E be a central projection. Then E{W(K)} = (EW)(Eh), where we
+restrict our attention to EWl and the restriction EAW of Jr (which com-
+mutes with E) is AE¥. Since W is separating E¥^Q unless £=0.
+We now prove $(A)^o for any non-zero cyclic and separating 0. We
+then have E¥(h)^Q and hence W(h) is separating for M. Since
+Fjr, W(K) is then also cyclic and the proof is complete.
+To prove 0(h)3=Q9 we define
+The integrand is continuous for Re seQO, 1/2], holomorphic for Re^e(0,
+1/2) and uniformly bounded by ||&|h|0|| for Re*eE[0, 1/2]. Hence $Z(K)
+is continuous for ResreQO, 1/2] and holomorphic for Imze(0, 1/2).
+Next we prove the following formula:
+where t is real,
+and <p = cd#. If this formula is proved, then $(/&) = 01/2(A) = 0 implies
+®ii2+itW = ® and hence 0z(h) = Q by the edge of wedge theorem. In
+particular 00(&) = 0 = 0. Since (^^0 by assumption, we obtain 0(A)=£0.
+Since w? is a unitary operator strongly continuous in h and ®z(Ji) is
+also strongly continuous in A by the proof of Proposition 4.1, it is enough
+to prove the formula when h is replaced by h/3 = h(f<§). For h^ the
+formula reduces to
+which holds for Re* = 0 due to the formula (2.8) and (4.2) of [3] and
+hence for Re^e^O, 1/2] by the edge of wedge theorem, Q.E.D,
+
+
+--- PDF page 19 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 183
+Proposition 4.5. If ® = W(h), then ®(-h) = V. If ^^(Aj) and
+®l(h2), then Q^
+Proof. First we consider
+Then we have
+Gl/2
+i
+where hl/3(z) and h2^0(z) are analytic continuations of
+and h27/3(t) = ff^(h27/3)9 and 0 = fl)r,
+By Proposition 4.3, we have
+G* \ /ri
+; z'&1/3(s)ds) = ExpJ \ ; ithl/3(ts)o / \Jo
+By analytic continuation of the right hand side, we obtain the analytic
+continuation of the left hand side:
+rn ; izhl/3(zs)ds\
+Hence
+By formula (3.10) of
+Gl/2
+;
+
+
+--- PDF page 20 ---
+184 HUZIHIRO ARAKI
+In the limit /9-» + 0, &1/3 tends to hl9 and hence $1/3 tends to 0l
+strongly. By the proof of Theorem 10 of Q2], Jjfltf tends to J^ strongly
+(uniformly over bounded t) and hence
+tends to
+which is an analytic continuation of
+Therefore A27/g tends to A27 strongly and ®i/3(h27/3) tends strongly to
+*i(A2y)- BY Proposition 4.1, yr(hl0 + h27^ tends to F(A1 + A27). Hence
+In the limit f— > + 0, A2y tends to A2 and hence by Proposition 4.1
+By taking hz=-hl, we have ®(-h) = ¥ when 0 =
+Q.E.D.
+Proposition 4.6. For ^'vew faithful 0 «W6/ ^eTOJ, h(^?/0) w unique
+if it exists.
+Proof. Any cone Fr is related to any other cone Fy' by a unitary
+w'eTO7: z^/Frr=Fr'. Hence the choice of Fr does not affect the defini-
+tion of h(0>/0). We fix one Fy. Assume that
+By Proposition 4.5,
+By Proposition 4.3, Exprf\ ; iff^fji-^ — hz)As\ must commute with all ff'l'(x),
+
+
+--- PDF page 21 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 185
+x^Wl and hence is in the center of 2JL By differentiating by t at £ = 0,
+we see that hl — h2 is in the center of TO. We then have ff<t(h1 — h2) =
+hl — h2 and hence
+i - h2) = exptfAi - h2)/2}W = W.
+Since W is separating, we have hl — h2 = Q for self adjoint hl — h2.
+Q.E.D.
+Proposition 4.7. u?*=uf*.
+Proof. By (4.9), we have
+By formula (3.10) of [3], we have
+By Proposition 4.5, the right hand side is 1 and hence
+U> j Uf £ lit j U> f Ul f m
+Q.E.D.
+Proposition 4.8. Let ® = ¥(-h), h^m, h* = h, H¥= -logJr, H0 =
+0. Then
+(4.13)
+where j(h') = J¥hJ¥=J0hJ0. For a)0 = (p, o)r = 0,
+(4.14) ufJtf
+(4.15) J?tuf
+(4.16) Ail = j(
+
+
+--- PDF page 22 ---
+186 HUZIHIRO ARAKI
+Proof. By Remark to Proposition 16 of pQ and equation (4.6), we
+have the first equality of (4.14) where H¥ + h is selfadjoint. By Proposi-
+tion 4.7 and equation (4.8), we have
+Hence by Remark to Proposition 16 of Q3], we have the first equality of
+(4.15), where H0 — h is selfadjoint. ((4.15) can be obtained also from
+(4.14) by taking adjoint and interchanging cp and 0.)
+Consider
+For x^yfl and ye TO', we have
+wxj(j\y» = W'j\u*)u^
+= A"
+Hence w^mnW ( = (3HU3K')')- Obviously w is unitary. Since Vw =
+V$ is invariant under multiplication of J|/, Jjf and Qj(Q), Q= u^^Wl,
+we have wVwaVw. By the next Lemma, this implies w^O and hence
+w = l. Hence we have the first equality of (4.16). By taking adjoint
+and changing the sign of t, we obtain the second equality of (4.16). From
+w = l, we also obtain second equalities of (4.14) and (4.15).
+By (4.14), (4.15) and w — l, we have
+where we have used the property j(H0)=—H^ which follows from J^A^J^
+= A^1. Since both H¥ + h and HQ + j(K) are selfadjoint operators, we have
+(4.17) H¥ + h = H0 + j(h\
+Since Hp + h and Hw + h — j(K) have the same domain, which also coincides
+with the domain of H0 by (4.17), we have (4.13). Q.E.D,
+
+
+--- PDF page 23 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 187
+Lemma 4.9. If w<=Wlr}Wl' and wVwc.Vw, then w^O.
+Proof. Since -JR n 2ft' is commutative, w is normal. Let E be a
+spectral projection of w for an open set contained in the upper half complex
+plane. Since E<=mnmf, Ejw(E) = EE* = E by Lemma 3 of [2] and hence
+EVW<^.VW. Therefore, for any ®<=VW, we have E0^V¥, w®^V¥ and
+hence a)0(Ew)^Q. On the other hand, E is a spectral projection of w for
+an open set in the upper half plane and hence Im a)0(Ew)>Q unless E0 = Q.
+Therefore we have E0 = Q for any ®^V¥ and hence E = Q. Similarly w
+can not have a spectrum in the lower half plane nor in the negative real
+axis. Hence w^Q. Q.E.D.
+Proposition 4.10. // 0:gZ1/2F (i.e. 1II2¥-@<=F¥) and if
+exists for a)0 = <p, a)¥ = </) then —
+Proof. For AeSft, h* = h, we define
+(4.18) V(t\ h}= n=OJO Jo
+W(h) defined earlier is W(l/2\K). We shall first prove the following
+formula :
+(4.19) (J)t(x) = (A(
+= (xJ¥V(t/2;K),
+First consider hl3 = h(f(^) instead of h. Then
+¥(t; ^) =
+Hence
+(XJwW(t/2; h,), J¥¥(t/2-
+
+
+--- PDF page 24 ---
+188 HUZIHIRO ARAKI
+where
+Gtl2 \
+; h^(-is)ds).o /
+Since the closure of JJ/2A;*Jy*/2 is given by
+Gtl2 \ /f^2
+; hf3(i(s-t/2))ds) = Expr(\ ; h0(-is^o / \Jo
+due to formula (2.11) of Q3], we obtain as the closure of
+Ct!2
+Gtl2
+;
+t
+o
+by formula (3.5) of pT]. Hence (4.19) is proved for h = h/3.
+By taking the limit /?— » + 0, we obtain (4.19) by continuity of W(t\ h)
+on h, which can be proved in exctly the same way as the continuity of
+F(&) in h.
+Assume now 0 = W(h), ®^1II2¥ For a general ae[0, 1/2], the
+closure of JfTO+?r is denoted by P$ in [2]. By Theorem 3 (5) of [2],
+it is dual to Vy2~a. By Taking x<=Tl+ in (4.19), we obtain
+(4.20)
+We now prove
+(4.21)
+by induction on n. It is true for n = l by our assumption.
+Assume that
+Since A^~t}l2xW^. V^2~tl2 = (V^2y for x^m+, we have
+Hence a)x^lt(p for x = J¥¥(t/2; h). Hence, there exists yt^^Sl' such that
+
+
+--- PDF page 25 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 189
+Let xt = jwy
+By Theorem 3(2) of [2] and equation (4.20), we have
+J¥¥(t/2; h} = A£-»^¥(t/2- A).
+Hence
+By Lemma 6 of Q2], 0"f(#/) has an analytic continuation to ImseQ), t/2)
+and ||0"f(#f)|!^5 ||#f||^Z*/2 for the analytic continuation. In particular,
+Q^G'ltU(xt)^lil2' where the positivity comes from W(t/2\ /i)<EF|/4 and
+Theorem 3(7) of [2]. Hence
+This completes the inductive proof of (4.21).
+We have
+where the last equation is due to the estimate
+and
+t-*o o
+Hence we have
+(4.22)
+Since p1/2-'*r|i:g2||*||||3H| for x^m *e[0, 1/2], and
+is strongly continuous in te[_0, 1/2J, we have
+
+
+--- PDF page 26 ---
+190 HUZIHIRO ARAKI
+whenever ||0W-0||-*0. By (4.22) and (4.21), we have
+for all x^m+. Hence (log Z - h}¥ e V$ and we have
+logl^h.
+Q.E.D.
+Corollary 4.11. // l\' 2¥ ^ 0 ^ 112< 2¥ , <p = u>^ </> = a)¥, and h(<?/0)
+exists, then
+(4.23) log/x^-hfo/^log/a.
+Proof. By Proposition 4.10, we have — h(#?/0)5^1og Z2. Since F^
+, we have — h(0/^?)^ — log /!. Since h(^?/0)= — h(0/^), we have
+Q.E.D.
+Proposition 4.12. For Ae9ft, A* = A, a cyc/z'c <z#d separating vector
+is in the domain of exp z( — H¥ + K) for Re -sre^O, 1/2],
+/A^ vector
+(4.24) F(*) n=0 Jo Jo Jo
+is holomorphic in z for Re ^e(0, 1/2) a^fi? strongly continuous in z for
+Im zeQ), 1/2]. /jf Aw tends to h strongly then
+(4.25) limexp z(-Hp + hn)¥ =n
+strongly for Re z<=[0, 1/2].
+. For z = i^ with real t, we have
+«=o Jo Jo Jo
+
+
+--- PDF page 27 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 191
+where (D = ¥(h\ (p = a)0, (/> = a)¥ and Proposition 4.8 is used. Hence (4.24)
+holds for pure imaginary z.
+If H is any selfadjoint operator and ezH¥ with pure imaginary z has
+an "analytic continuation" 3F(z) holomorphic for Re ze(0, $) and con-
+tinuous for Re z e [0,5], then W is in the domain of ezH', Re ze[0, 5]
+and ¥(z) = ezH¥ due to the following argument:
+Let .ff=Udl?x and D be the union of ranges of EL — E_L for all L>0.
+D is a core of ezH for any z. For each (D^D, we have
+(?(*), «) = (?", e2*$)
+for pure imaginary z. Both sides are holomorphic in z for Re ze(0, <J)
+and continuous in z for Reze[0, 5]. Hence the equality holds for all
+z with Re ze[0, <J] by the edge of wedge theorem. Since D is a core of
+e*H, the equality holds for all 0^D(ezH). Hence ¥<=D(ezH) and W(z} =
+ezHW.
+Therefore we obtain Proposition if we show that the right hand side
+of (4.24) is holomorphic for Re ze (0,1/2), is strongly continuous for
+Re ze [0,1/2], and sequentially strongly continuous in h.
+Due to (3.2), the sum in (4.24) converges uniformly in norm for
+Reze[0, 1/2] and over a bounded set of h. Due to Theorem 3.1, the
+integrand in each term of (4.24) is holomorphic for Re ze(0, 1/2) and
+continuous for Re ze[0, 1/2]. Since the integrand is dominated by
+11h\\n\\¥\\ irrespective of sk and z, we obtain the holomorphy of the integral
+by Fubini's theorem applied to Cauchy integral formula. We also obtain
+the strong continuity in z by Lebesgue dominated convergence theorem
+applied to the inner product with other vector and the norm. Hence we
+have holomorphy and continuity of the sum by the uniform convergence.
+Exactly the same proof as Proposition 4.1 shows that the right hand
+side of (4.24) is sequentially strongly continuous in h.
+Q.E.D.
+Proposition 4.13. Let /ie2Ji, h* = h, W be a cyclic and separating
+
+
+--- PDF page 28 ---
+192 HUZIHIRO ARAKI
+vector, 0 = ¥(h)9 0 = o>r and (p = o)0. Assume that 1\I2¥^®^1\IZ¥ for
+some I-L and 12. Then there exists an invertible A(z)e2J£ for Re ze
+Q), 1/2] such that A(z) is holomorphic for Re £e(0, 1/2), strongly con-
+tinuous for Re *e[0, 1/2], ||A(*) |:gmax(Zp, 1), IIAC^II^maxCZj1'2, 1),
+}, A(0) = l, A(1/2)F = «, ¥(z)=A(z)¥.
+Proof. Consider ¥(z) of Proposition 4.12. We have
+(4.26) ¥(s + it) = expjf( - H¥ + A)F (5) - uf
+due to (4.14). By Theorem 3 (8) of [2], there exists A<=Wl such that
+<D = A¥, \\A\\^l{'2, \A-l\\^l^'\ Hence
+(4.27) ¥(it)=uf¥,
+For a vector % and (^eSUT, consider
+f(z) = (¥(z), (?*%).
+Since ||?r(-2r)||^ell*ll||5!r||, f(^) is uniformly bounded for Re *e=[0, 1/2].
+By Proposition 4.12, it is holomorphic for Re 2re(0, 1/2) and continuous
+for Re *e[]0, 1/2]. Furthermore, by (4.27), we have the following bounds
+on the boundary lines:
+it)\ = \(u^ff*(AW, Q*x)\ =
+Hence we have
+This implies the existence of operators A(z) such that
+due to Riesz theorem and
+Since f(z) = (Q¥(z), x), we have
+
+
+--- PDF page 29 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 193
+Hence [A(», Q^Q¥=Q for any Q, Qf €^W and hence A
+By interchanging the role of ¥ and $, we obtain B(2r)e3Jl such that
+B(iO = B?" and ||B(z)||rgmax(Z21/2, 1). Since A(fOB(/0 = K?Mv = lf we
+have A(*)B(*) = 1. Similarly B(*)A(*) = 1. Hence HAC*)'1!! = ||B(*)||^
+maxC/j1'2, 1).
+Since ?"(*) is strongly continuous for Re z eQ), 1/2], we have the
+strong continuity of A(z)Q'¥ = Q'¥(z) for all @'e3K. Since A(s) is
+uniformly bounded, it is strongly continuous for Re zep), 1/2].
+Since ¥(z) is holomorphic for Re £e(0, 1/2), we have
+for any ^'eSJi7 and any simple closed curve F9 encircling the point z and
+contained in the strp {z; Re <ze (0,1/2)}. Hence A(z) is holomorphic
+for Re*e(0, 1/2).
+The equality A(s + it)=ufffl'{A(s)} follows from (4.26) and ¥(z} =
+A(z}¥. Q.E.D.
+Proposition 4.14. In Proposition 4.13, tff(/i) has an analytic con-
+tinuation to Im ze( — 1/2, 1/2).
+Proof. Since A(z) and A(z)"1 is holomorphic in z for Re ze(0, 1/2),
+the operator
+(4.28) B(^r) = A(z)-1(d/d^)A(z)
+is also holomorphic for Re ze(0, 1/2). For pure imaginary z = it, we
+have A(z)=uf' = Expr(\ ; iff*(Ii)ds) and hence
+Since B(z) is holomorphic for Re ze(0, 1/2), B( — z)* is holomorphic
+for Re *e(-l/2, 0). We also have B(i'0 = B(-^)*. By edge of wedge
+theorem, there exists an operator valued analytic function h(.z) for Re z^.
+
+
+--- PDF page 30 ---
+194 HUZIHIRO ARAKI
+(-1/2,1/2) such that h(*) = B(*) for Re z<= (0,1/2), h(*) = B(-*)* for
+Re z e ( - 1/2, 0) and h(*0 = fff(h). Q. E. D.
+§5. Existence Proof (I)
+Lemma 5.1. Let
+(5.1)
+(5.2)
+Then 0$ is in D( A*/) for Imze( — 1/4, 1/4), it is in Vw and satisfies
+ri/4(5.3) 0 = \ J'rQfdt. J-l/4
+If ® = QW, (?e5W, rtew 0F = Qf¥ where </> = a)¥ and
+(5.4)
+Proof. We have
+(5.5) F(w)
+Hence 0F=F(log Aw)9 is in the domain of A\f for Im z e ( — 1/4, 1/4)
+because eo:aF(^) is bounded for |Rea|<l/4. We also have
+ri/4 ^\ F(i^)e^d^ = l.J-l/4
+Hence (5.3) holds.
+Since Vw is a convex cone invariant under A if and F(z)>0, we have
+0F£EF¥. If ® = QW, then (5.4) follows from (5.2) due to Ayit¥ = ¥.
+Q.E.D8
+Lemma 5.2. Let <?e2Ji te s«cA /Afl^ (^e Fgr, (7?((?) Acs flw "analytic
+continuation" <rJ(0)e3W /or Imze[-5, 0] a»rf ||(Tt«(^)-l||^i
+number in (0, 1/8). Le/ ^F fe ^'v^n fty (5.4). Then (T]f(
+
+
+--- PDF page 31 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 195
+has an "analytic continuation11 (f£(()F)<E M for Im z<=( — d — 1/4, £ + 3/4),
+(5.6) h, = <T ?/4(<2F) - 2 = 44{(<? - 1)F}
+is in m, hf = hl9 ||A1||^2£,
+Gl/2; ffiis(h0
+and
+Gl/2 \
+; -(7*,.(Ai)d*)
+<rl((?i)e3K/0r Im ze[-£l5 0],
+L/-(l/2){7rZlog2(£-51)}2exp{-7Tl, log 2(5-50},
+zs ^zn^ number in (0, 5).
+. By Theorem 3(7) of [2], QW^VW implies that (Tf(<3) has an
+"analytic continuation" jt(0e5m for Im *e[0, 1/2] and (<rj((?))* =
+(Tf+f-/2(^). ("Analytic continuation" here means a function continuous in
+the closed strip and holomorphic in the interior.) By assumption, we also
+have an "analytic continuation" #£(()) e 2ft for Im zeQ — 5, Oj. By edge
+of wedge theorem, we have *£(()) e=5K for Im *€=[>0,
+and
+(see proof of Lemma 6 of
+By (5.4), we have an analytic continuation
+(5.10)
+whenever z = zl + z2, Im ^^(-5, 1/2 + 5) and Im *2e(-l/4, 1/4) i.e.
+for Im <2re(-5-l/4, 3/4 + 5). Since QF¥<= V¥9 we have
+by Theorem 3 (7) of [2]. Hence hf = hl. Since F(0) = 2, 1F = 2 and we
+
+
+--- PDF page 32 ---
+196 HUZIHIRO ARAKI
+have the second equality of (5.6). By proof of Lemma 6(4) of pT] and
+the equality 420?F-2) = 0?F-2)*, we have H^ £||0F-2||£2||0-1||£
+2\\ffti8(Q — 1)||^2Z, where the third inequality follows from proof of Lemma
+6(4) of [2] and (**(«)* = (^,
+Let
+Gi/2
+; -<
+By Lemma 5.1,
+i/2
+-l/4
+$1/2fftLis(hl)ds = Q — 1. Hence the definition (5.8)o
+implies
+(5.12) 0i=
+We have
+\\ffKQi)- ill ^ HffJW) - ill2
+w=2JO
+By (5.10), (5.6) and (5.9), we have
+^ L \ \F(t + taJ-OO
+if a(s) is chosen such that
+Im z - s + a(5) + 1/4 e [ - ff , 1/2], | a(s) | < 1/4
+If Im zeQ — (Jl9 0] and 5i<5, one can choose
+
+
+--- PDF page 33 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 197
+For | a(s) | < 1/4, we have | a(s)(l/4 - | a(s) | )/sin 4;ra(s) | ^ 2~5 due to
+| x /sin x | ^ 7T/2 for | x \ ^ n/2 and sin (TT — #) = sin A;. Hence
+r i / 2
+Jo
+Since
+we have
+||(rf((?i)!|^i', Inns:-*!, 01
+By analytic continuation of (4.9), (T'/^^!) has the following analytic con-
+tinuation :
+By (5.6), (5.9) and F(0d^ = 2, we have \\<Jtis(hl}\\^2L for 0^s^Sl
+and hence II^CCOII^II^^i)!! exp451L^(i:2 + (l + JL)LOe^2.
+Finally, QiWl = QW follows from formula (2.15) of [3].
+Q.E.D.
+Lemma 5.3. Let Q<=Wl be such that QW <= Vw, ff(lzQ<=%tt for Im Z<E
+[-5,0], 5e(0, 1/8) and \\ff<tisQ-l\\^L0,
+(5.13) Z0^(4
+Then there exists h^m, h* = h such that Q¥ = W(h).
+Proof. We fix 5W = 2~W5, ^ = 0,1,.... By Lemma 5.2, we obtain a
+sequence of vectors ¥n9 operators QMe3Jl, operators Awe9Jl and positive
+numbers Ln, n = l,29... such that Wn = Wn.^(hn\ ¥Q = W, h* = hn, \\hn
+<^2Ln_l9 o)¥n = </)n9 o~i'nQn has an analytic continuation ff%nQn for Im z
+and
+
+
+--- PDF page 34 ---
+198 HUZIHIRO ARAKI
+(5.14) L'n_, = (l/2){7rLM_1log 2(ffB_1 -^)
+We prove that Ln^2~"L0 inductively. Assume that Z,B_1
+We have
+l-5tt)}2Ln_1 ^ 7T2(log S-(n - l)log 2)22-(»-1>
+^ 27r2(log <J)2Z,0 + 27T2(log 2)2(re - 1)22-(«-1^0.
+Since n22~n^Q/8, we have (log2)2(re-l)22-(B-1)^(log(J)2 and
+{?rlog2(^_1 -Stt-)}2Ln^ ^ 4^2(log S)2L0 ^ 1/4
+Hence we also have
+Since LW_1^L0^2~4, we have
+exp(l/8))e1/32 < 1/2.
+This proves Ln^2~nL^.
+Since ||AB||^2ZM_1, A = £^» is norm convergent and hence lim Wn = W(Ji)
+by Lemmas 4.5 and 4.1. Since Qn¥n^ Vw=VWn, where ¥n = ¥(hl + -- + hn)
+is cyclic and separating by Corollary 4.4, $'ln(Q^) nas an analytic continua-
+tion ^(QJ for Im re (0,1/2) and (^X^))* = ^//2(A). Hence we
+have the analytic continuation tftn(@w) for Im re Q — ffw, 1/2 + 5 J and by
+proof of Lemma 6 of pT|,
+Hence lim — 1|=0 and we have
+Q.E.D.
+Proposition 5.4. Let Q^m be such that JWQW = QW and fff
+has an "analytic continuation11 ff^Q for Im z^[_ — 1/2, 0]. Then there
+exists h^Wl such that h* = h and
+
+
+--- PDF page 35 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 199
+Proof. By assumption, Q¥ = J¥Q¥ which implies Ayll2QW =
+Hence 0f((?) has an "analytic continuation" 0t((?) for Im *e[05 1/2] by
+Lemma 6 of [2]. It satisfies 0f/2((?) = (?*, which implies <rj(())* =
+(rt+i/2«?) forlm* = 0 and hence for Im *<=[]- 1/2, (TJ by an "analytic
+continuation". In particular
+Let 0t = etQ¥, <pt = (0,t. By Theorem 3 (7) of [2], tff/
+4(@)^0 implies 0t^F¥ for real £.
+By Lemma 7 of pT], we have
+By Lemma 6 of Q2], (T^(^) has an "analytic continuation" for
+[-1/2, 0] and
+We now choose N such that
+for a fixed fle(0, 1/8). Then
+We can now apply Lemma 5.3 and find ABe9JZ for each integer
+n e [0,7V] such that ^W = (5(B_1)/JV(AB), A* = AB. Then
+Q.E.D.
+Remark. Vectors eQF satisfying the condition of Proposition 5.4 are
+dense in Vw, which can be seen as follows.
+The vectors A^^xW, #e2J£, #^0 are dense in Vw by definition.
+Furthermore
+
+
+--- PDF page 36 ---
+200 HUZIHIRO ARAKI
+for *-#' = (#-a')*e5K by equation (3.13) of [2]. Let x = }idEX9 XL =
+X(EL-EIIL) + (1/L)EIIL + (1-EL1 yL.e = (lagxzXf$. Then
+lim lim &*••»¥ = xfL-^°° £-»+(}
+and hence QL^ — ^-H^JL^ satisfy
+lim lim eQL'^¥ = A^ux¥.L-+°° J3-++Q
+G'zQi.p is an entire function of z and J¥Q L ^ = Q L ^¥ due to <rf/4(^f/g)
+= yL,/3 = J*,/9- Hence @£j/? satisfies the requirement for Q in Proposition
+5.4.
+§6. Existence Proof (II)
+We use the technique introducted by Connes. (See Q5].)
+Lemma 6.1. Let W be a cyclic and separating vector for a von
+Neumann algebra 37£ on a Hilbert space $Q and Ae9K, h* = h=£Q. Let 31
+be a type I2 factor on 4 dimensional space ^, {u{j} and {u'{j} be matrix
+units of 31 and W, and {e^} be an orthonormal basis of $ such that
+and u'e^Se. Let Wl = 3Jl03l, 0<A<1 and
+(6.1) *„,
+.A.
+Then xh^ is a cyclic and separating vector of 2JZ, the modular conjugation
+operator for %A>X is JT®Je, e = eu + e22, and the modular operator A for
+XA,X zs given by
+(6.2)
+(6.3)
+(6.4)
+(6.5)
+
+
+--- PDF page 37 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 201
+.
+Proof. Any Q^Wl can be decomposed as Q=HQijU>ij, Qij
+. For J=J¥®Je, we have
+Due to W^V¥ and W(h)^Vv^ the right hand side is positive. Since /=
+/r®/« obviously satisfies J$lJ=3jlf ( = 5K/(g)5Jl/)» J%h,\ = Xh,\ and is an
+antiunitary involution, it is the modular conjugation operator for xh >x by
+Theorem 1 of [2].
+Since fl)Xft>jl((l(g)wyy)^) = ft)Xft>,l(^(l(8)Myy)), l®Myy commutes with J.
+Hence l®je(ukk) also commutes with J. Since uJjje(ukk)eil=Sijdklejk9
+we have
+For Q = IQilUii and tf = Ox»fX = ^fly®ey, we have
+Hence
+(6.6)
+(6-7)
+(6.8)
+(6.9)
+Since TO%^>X is a core of J1/25 Q^W^W^W, W2 = ¥(h}} must be a
+core of 4}y2. (6.6) implies that two self ad joint operators A\^ and Ay2
+coincide on their core and hence must be equal. Similarly (6.7) implies
+ji/22 = ^/(2)B Hence we have (6<3)B
+To prove (6.4) and (6.5), we first consider the case where h is
+replaced by A^ = A(/g). Then W(hl3) = AW = j(A}W, ¥ = A~l¥(h/3) =
+01/2 \
+; (Ttf/A^dsJ. We
+have
+
+
+--- PDF page 38 ---
+202 HUZIHIRO ARAKI
+The inverse A~1=Exp,(\ ; — fftis(h^)As\ is an analytic continuation of
+(6.10) u* = («f*)*
+to t=—i/2, where y = a>V(h^. By an analytic continuation of (4.15), we
+obtain
+which holds on ^4D(J^1/2). (See second paragraph of proof of Proposition
+4.12.) Hence we have
+-^
+Since Wl¥(h) is a core of A^ and both A^ and
+are self adjoint, we have (6.4) for h^.
+Hence
+- it(HT -
+As /?-> + 0, J" for %AflX tends strongly to A'' for %A>X by Theorem 10 of
+[X], and uj* for (p = u>r(h/i-j tends strongly to uf' for ^ = a)r(A). Hence
+we have (6.4) for a general h.
+From (6.9), we have
+01/2 \
+; Gis(hp}&s ) is an analytic continuation of (6.10) too /
+
+
+--- PDF page 39 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 203
+= i/2, we obtain as before
+By taking the limit /?-» + 0, we obtain (6.5). Q.E.D.
+Remark. If u! is a unitary operator in Wlf and
+then
+is a unitary element of 3Jlf and %—u'%hi^. Hence modular conjugation
+operator and modular operator for such % are given by u/(/r(x)/e)(il/)* and
+Lemma 6.2, If hn*=<m, h* = hn, HmF(&w) = 0 (strongly), 0 is cyclic
+and separating and l\l2W^W(h^)^l\l2W for strictly positive Zt and 12
+independent of n, then & = w-lim hn exists and ® = W(Ji).
+Proof. Let xn = xhn,\ be defind as (6.1) and
+Then ® = lim¥(hn) implies % = lim %w. % is cyclic and separating and by
+Theorem 10 of [2]
+(6.11) lim^m = ^, limJ¥{kn}=Wn n
+where the convergence is in the strong operator topology and is uniform
+over a compact set of t.
+Since (4Xn)i\ ®u22j(ull) = A%n(l® u22j(ull}}, and (^%)
+22/(^ll))» we have
+(6.12) limexp it( —
+by (6.5) where the convergence is uniform in t over a compact set.
+By multiplying e~t and integrating over £^Q), oo)? we obtain
+
+
+--- PDF page 40 ---
+204 HUZIHIRO ARAKI
+(6.12') lim{(-JHr + A,,) + »}-1
+Hence, by subtracting ( — H¥Jri}~1, we have
+By Corollary 4.11, ||AB|| is uniformly bounded. Hence we obtain
+Hence ( — H¥ + i)~lhny is strongly convergent for any iq in the range of
+{logJ2i + i}~1» which is a dense set. Since ||( — Hw + i)~lhn\\ is uniformly
+bounded, we have the existence of
+For £2eD((-.Hy + i)*), we have
+Hence A0f1eD((-JJr + 0) and ||(-#r + 0^oll^suppj|. We have
+w-lim hn = h = ( — H¥ + i)h0.
+By (4.14), we have
+(6.13) i4»f/>
+which is strongly convergent, uniformly in t over a compact set, due to
+(6.12), where (pn = ti)w(hnY
+By Proposition 4.13, there exists Aw(z)e9K for Re z<= [0,1/2]
+such that An(z) is holomorphic for Reze(0, 1/2), strongly continuous for
+Re* ^0,1/2], ||AB(*)||^max(Z}'2, 1), llA.Cz^ll^maxC/a1", 1), AK(
+= Up*ff+{AnW}, AB(0) = 1 and A.(l/2)F = y(All).
+Since A,l(it~)Q'¥ = Q' {expit(-HF + hJ}¥ and
+<3/w?»V|'{^K(l/2)}r = <?/{expz7(-Jffi, + AB)}2F(AB) for Q'eW are strongly
+convergent, uniformly over real t in a compact set, and since ||^B((l/2)
++ it)\\ and |^ff(ff)|| are uniformly bounded, An((l/2) + it) and An(it~) are
+
+
+--- PDF page 41 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 205
+strongly convergent, uniformly over real t in a compact set.
+Since Aw(z) is holomorphic for Reze(0, 1/2) and is continuous and
+uniformly bounded for RezeQO, 1/2], we have
+(6.14) ez2An(z) = (2n)-l (z -i
+for Re z e (0, 1/2). Hence
+(6.15) (d/dz)e*2AKO)
+l<\ O ~ it -
+Since ||AW(^)|| and ||Aw(j'£ + l/2)|| are uniformly bounded in t and TI, the
+integral converges uniformly in n. Hence (6.15) is strongly convergent
+as n— »oo, uniformly in z over any compact subset of {z ; Re ze(0, 1/2)}.
+By l\l2¥^W(hn)^l\l2W and ^-limF^J, we have 1\I2¥^®^1\I2¥.
+By Theorem 3(8) of [2], there exists ^eTO such that A¥ = ®, \\A\\^l\12
+and \\A-l\\^lz112. Then ^ = lim Aw(l/2).
+For Q'^m' we have
+^ i/2r(A j- *n
+which converges to 0 as n-*oo uniformly in t over a compact set due to
+\\m¥(hn) = 0 and Theorem 10 of [2], where 0> = o>f. Hence
+uniformly in ^ over a compact set.
+
+
+--- PDF page 42 ---
+206 HUZIHIRO ARAKI
+By (6.11),
+is strongly convergent, uniformly over a compact set of t.
+Since HA^s)"1)! is uniformly bounded, the analyticity and the con-
+tinuity of Aw(z) imply the same properties for An(z)~~l* Hence
+(6.16) A^ + fO-^ftA.C^
+is strongly convergent as n— >oo, for sep), 1/2], which is proved in exactly
+the same way as before by use of the Cauchy integral formula of the
+form (6.14).
+Combining the convergences of (6.15) and (6.16), we have the strong
+convergence of
+as n— >oo uniformly in z over any compact subset of {z; Re ze(0, 1/2)}.
+By Theorem 1 of Q3] and (4.6), we have
+Hence
+(6.17)
+for z = it. Hence
+which holds for all z satisfying RezeQO, 1/2]. Since w-limhn = h and
+FB(.z) has a strong limit, we have
+lim(e-z2FB(z) - 2z)Q'¥ = Q'A'wh¥n
+for (Xe§lr2 (see §3 of [2] for the definition of Slr2) and Reze(0, 1/2).
+Since limFB(.2r)e3Dfi, this implies the existence of an analytic continuation
+<rf(A) of <J?(&) to z in {^; Re *e(0, 1/2)}.
+By (6.15) and the uniform boundedness of An(z), we obtain the
+uniform boundedness of 0t(^«) over anY compact subset of {z; Re*e(0,
+
+
+--- PDF page 43 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 207
+1/2)} and over all n. Hence \im(J*(hn} = G*(h} and
+is strongly convergent as n-*oo for tj>Q9 tl-\ ----- \-tm<l/2.
+Since ||An|| is uniformly bounded by maxdlog/il, |logZ2|), we have
+by Lebesgue dominated convergence Theorem (for inner product with other
+vectors and for its norm). Hence ® = W(h). Q.E.D.
+Theorem 6.3. // Z^ZgX) and 1\I2¥^®^1\I2¥ for cyclic and
+separating W and 0, then there exists AeSUl such that h* = h, ® = ¥(Ji)
+and log Z^A^l
+Remark. If <p and 0 are normal faithful states satisfying Z10
+then the unique representative £9 and f ^ in a fixed canonical cone Vw
+satisfies I\l2£^9^l\12^ by Theorem 3(8) and (9) of [2] and hence
+there exists h^Wl such that h* = h, ® = W(h} and log/^A^log/2 due to
+this theorem.
+Proof. By Theorem 3(8) of [2] and the assumption 1{I
+there exists @<E2ft such that ® = Q¥. By Theorem 3(7) of [2] and
+-^m for Im ^e05.l/2 and
+where the bar indicates the closure. Let
+Then &e2Jl and logZi^A^log^- We have
+Let A^ = (7f(i)/g(0d* where f% is given by (3.11) of [2]. Then
+
+
+--- PDF page 44 ---
+208 HUZIHIRO ARAKI
+k% = ka, P^ll^Pli and \imka = k. Hence
+by (3.13) of [2] and JJ/2(e*'-c*)P1 = /r(c^-c*)?r. Let
+We have (DB<=VW and Iim0£ = 0.
+Since f/g(0d* = l and/g(0^0, we have
+By Theorem 3(7) of [2], we have
+Since
+and fff(k0) has an analytic continuation to an entire function
+^^yf'0 has an analytic continuation to an entire function
+Hence
+Since Qi = fftiU(k^ satisfies J¥Q1W( = A\rl2Q:fW} = QlW and has the property
+that fft(Qi) = fff-ii 4(^/3) has an analytic continuation to an entire function
+fft(Qi) = fft-u 4(^/3)9 Proposition 5.4 is applicable and there exists A^eTO
+such that ®B = W(hB}, h* = hB. Lemma 6.2 then implies Theorem.
+Q.E.D.
+Remark. The above proof implies that if 0 = A^uek¥, k = A* e 3H, and
+logli, then there exists h^Wl, h* = h such that 0 = ¥(h\ and
+
+
+--- PDF page 45 ---
+RELATIVE HAMILTONIAN FOR FAITHFUL NORMAL STATES 209
+References
+[ 1 ] Araki, H., Publ. RIMS 4(1968), 361-371.
+[ 2 ] Araki, H., Pacific J. Math., to be published.
+[ 3 ] Araki, H., Ann. Sci. Ecole Norm. Sup., 6 (1973) , 67-84.
+[4] Araki, H., Rep. Math. Phys. 4 (1973), 227-254.
+[ 5 ] Connes, A., C. R. Acad. Sci. Paris A274 (1972), 1923-1926.
+Note added in proof'. Theorem 3(8) of p] has been misused in
+proofs of Propositions 4.13, 4.14, Lemma 6.2 and Theorem 6.3. Hence
+we need the assumption /i/2<%^a)02^2/2<% in Propositions 4.13 and 4.14.
+However, Lemma 6.2 and Theorem 6.3 hold without modification.
+For Lemma 6.2, we modify its proof after (6.13) as follows: Since
+h — hn is weakly convergent to 0 and ( — H¥ + i-i-}i)~l is strongly conver-
+gent,
+is weakly convergent to 0. By (6.127), (J%)2i = exp( — Hw-\-li), which
+implies that 0 and W(h) have the same modular automorphisms. Hence
+$=ea¥(h) for a selfadjoint a affiliated with the center. Then (j%)2i is
+calculated to be exp(-H¥ + h + a). Hence a = Q and 0 = ¥(h).
+For Theorem 6.3, 1\I2W^0^1\I2¥ directly implies 0 = ^^ek¥ for
+a &<EE3Jl and log Z^&^log Z2.
+
+
+--- PDF page 46 ---
+

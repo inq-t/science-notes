@@ -2,6 +2,7 @@
 inq.module: "scale-score-connection"
 inq.include:
   - "**/*.md"
+keywords: [scale scores, metric connection, moving channels, Fisher information, transport]
 ---
 # The Scale-Score Connection
 
@@ -35,7 +36,7 @@ $$
 
 The projection removes the entire normalized complex reference line. Since metricity and normalization make the parallel component of \(\nabla_N\Omega_N\) purely imaginary, \(v_N^{\nabla}\) is the projective or Fubini--Study tangent after the \(U(1)\) phase direction has been removed; it is not the horizontal tangent of the supplied bundle connection and not a velocity through spacetime. For a mixed state represented by a purification, phase is not the full gauge: one must quotient the purification or commutant orbit, or choose a canonical standard-form representative. Equation (SC2) is therefore not yet a general quantum Fisher construction.
 
-On one fixed classical carrier with dominating measure \(m\), assume \(p_N>0\) on common support, quadratic-mean differentiability, and enough domination to differentiate normalization under the integral. Put \(\Omega_N=\sqrt{p_N}\in L^2(m)\) and use the trivial connection. Then the DQM score agrees almost everywhere with \(s_N=\partial_N\log p_N\), and
+On one fixed classical carrier with dominating measure \(m\), assume \(p_N>0\) on common support, quadratic-mean differentiability, pointwise density differentiability almost everywhere, and enough domination to identify the two derivatives and differentiate normalization under the integral. Put \(\Omega_N=\sqrt{p_N}\in L^2(m)\) and use the trivial connection. Then the DQM score agrees almost everywhere with \(s_N=\partial_N\log p_N\), and
 
 $$
 2\partial_N\Omega_N
@@ -48,7 +49,7 @@ s_N\Omega_N,
 \tag{SC3}
 $$
 
-Equation (SC3) is the ordinary Fisher information of the scale path. Here \(Q_N\) is redundant because normalization gives \(\langle\sqrt{p_N},\partial_N\sqrt{p_N}\rangle=0\). Moving support can add boundary or distributional terms and lies outside these hypotheses. Equation (SC2) is the corresponding pure-projective bundle construction, not a universal mixed-state identification.
+Equation (SC3) is the ordinary Fisher information of the scale path. DQM alone defines an \(L^2\) score and does not assert a pointwise log-density derivative; that identification uses the additional density regularity above. Here \(Q_N\) is redundant because normalization gives \(\langle\sqrt{p_N},\partial_N\sqrt{p_N}\rangle=0\). Moving support can add boundary or distributional terms and lies outside these hypotheses. Equation (SC2) is the corresponding pure-projective bundle construction, not a universal mixed-state identification.
 
 ## Frame covariance is not connection uniqueness
 
@@ -118,7 +119,7 @@ Because the base \(I\) is one-dimensional, the curvature two-form of every ordin
 
 ## A moving channel has its own score
 
-Let the input density be \(p_N(x)\) and let an observation or blocking channel have density \(c_N(z\mid x)\) relative to \(N\)-independent reference measures. Assume common positive supports and joint DQM or dominated differentiability sufficient to pass \(\partial_N\) through both normalizing integrals. Define
+Let the input density be \(p_N(x)\) and let an observation or blocking channel have density \(c_N(z\mid x)\) relative to \(N\)-independent reference measures. Assume common positive supports, pointwise differentiable densities with domination sufficient to pass \(\partial_N\) through the defining and normalizing integrals, and joint DQM with square-integrable scores agreeing with those density derivatives. Define
 
 $$
 s_N^X(x):=\partial_N\log p_N(x),
@@ -152,7 +153,7 @@ Differentiating \(\int c_N(z\mid x)\,\mathrm dz=1\) gives \(\mathbb E[u_N\mid X]
 
 [[conditional-fisher-coercivity/coarse-graining-and-moving-context|The conditional-Fisher transport theorem]] derives the associated tensor balance: input Fisher information plus channel Fisher information equals output information plus the missing conditional score covariance. It explains why fixed-channel monotonicity cannot be reused when the readout depends on the context being varied, even if every kernel remains normalized.
 
-In bundle language, a family of contractions \(K_N:\mathcal H_N^X\to\mathcal H_N^Z\) has covariant derivative
+For an independently differentiable bundle map \(K_N:\mathcal H_N^X\to\mathcal H_N^Z\), the [[transport-intertwining-defect/connection-and-generator-conventions|induced connection on maps]] gives the covariant derivative
 
 $$
 (\nabla K)_N
@@ -170,7 +171,7 @@ W_N^Z(\nabla K)_N(W_N^X)^{-1},
 \tag{SC13a}
 $$
 
-so its vanishing is frame-independent. This is bi-unitary covariance, not literal conjugation when source and target differ.
+so its vanishing is frame-independent. This is bi-unitary covariance, not literal conjugation when source and target differ. In the convention (SC4), the connection coefficient is \(A_N\); an evolution written \(x'=A_{\mathrm{dyn}}x\) instead has \(A_{\mathrm{dyn}}=-A_N\). Equation (SC13) requires the compositions and product rule on a declared common section domain. The density differentiation used in (SC11) alone does not establish operator-norm differentiability of the full family \(K_N\).
 
 There is an exact classical solder. Take
 
@@ -181,7 +182,7 @@ $$
 \tag{SC13b}
 $$
 
-with unit reference sections \(1_X,1_Z\) and square-root-induced metric connections
+with unit reference sections \(1_X,1_Z\). On the common multiplication and differentiation domains, square-root transport induces the metric connections
 
 $$
 \nabla_N^Xf=\partial_Nf+\frac12s_N^Xf,
@@ -190,7 +191,7 @@ $$
 \tag{SC13c}
 $$
 
-Since \(K_N1_X=1_Z\), equations (SC11)--(SC13) give
+The score multipliers may be unbounded. Where these connections and the product rule are defined on the reference section, \(K_N1_X=1_Z\) and (SC11)--(SC13) give
 
 $$
 \boxed{
@@ -226,7 +227,7 @@ $$
 
 The scale-dependent bijection \(Y=e^{-N}X_N\) transports every member to \(\mathcal N(0,1)\), so the transported score and Fisher information are zero. The missing value has not been physically destroyed; the moving identification absorbed it. Because this is a singular deterministic, moving pushforward, it is a frame-change witness of (SC8)--(SC9), not literally an instance of the density hypotheses in (SC10).
 
-[[library/exact-scheme-independence/inq|Exact renormalization-group kernels can be formulated as field connections]], while [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|exact \(SU(3)\) blocking transformations contain free choices]]. Consequently, “exact blocking” and “canonical scale derivative” are different predicates.
+[[library/exact-scheme-independence/inq|Exact renormalization-group kernels can be formulated as field connections]] under suitable redefinitions with fixed field content. That construction has local-versus-global and fixed-point qualifications and does not by itself select a metric connection on physical Hilbert carriers. Meanwhile, [[library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory/inq|exact \(SU(3)\) blocking transformations contain free choices]]. Consequently, “exact blocking” and “canonical scale derivative” are different predicates.
 
 ## What each operator operates on
 

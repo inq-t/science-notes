@@ -1,0 +1,543 @@
+\documentclass[aos]{imsart}
+
+%\RequirePackage[OT1]{fontenc}
+\RequirePackage{amsthm,amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\RequirePackage[authoryear]{natbib}
+%\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref}
+
+
+% settings
+%\pubyear{2005}
+%\volume{0}
+%\issue{0}
+%\firstpage{1}
+%\lastpage{8}
+%\arxiv{math.PR/0000000}
+
+\startlocaldefs
+\input pollard.sty
+%\numberwithin{equation}{section}
+%\theoremstyle{plain}
+%\newtheorem{thm}{Theorem}[section]
+\endlocaldefs
+
+\begin{document}
+
+
+\begin{frontmatter}
+\title{A note on insufficiency and the preservation of Fisher information}
+\runtitle{No loss of information}
+%\thankstext{T1}{Footnote to the title with the `thankstext' command.}
+
+\begin{aug}
+\author{
+\fnms{David} 
+\snm{Pollard}
+\ead[label=e1]{david.pollard@yale.edu}
+%\author{\fnms{Second} \snm{Author}\thanksref{t3,m1,m2}\ead[label=e2]{second@somewhere.com}}
+%\and
+%\author{\fnms{Third} \snm{Author}\thanksref{t1,m2}
+%\ead[label=e3]{third@somewhere.com}
+\ead[label=u1,url]{http://www.stat.yale.edu}}
+
+%\thankstext{t1}{Some comment}
+%\thankstext{t2}{First supporter of the project}
+%\thankstext{t3}{Second supporter of the project}
+\runauthor{David Pollard}
+
+\affiliation{Yale University}
+
+\address{Statistics Department\\
+Yale University\\
+%Box 208290 Yale Station\\
+New Haven, Connecticut\\
+%06520
+%\printead{e1}\\
+%\phantom{E-mail:\ }\printead*{e1}
+}
+
+%\address{Address of the Third author\\
+%usually few lines long\\
+%usually few lines long\\
+%\printead{e3}\\
+%\printead{u1}}
+\end{aug}
+
+\begin{abstract}
+\citet{KaganShepp05AmStat} presented an elegant example of a mixture model  for which an insufficient statistic  preserves Fisher information.
+This note uses the regularity property of differentiability in quadratic mean to provide another explanation for the phenomenon they observed. Some connections with Le~Cam's theory for convergence of experiments are noted. 
+\end{abstract}
+
+\begin{keyword}[class=AMS]
+\kwd[Primary ]{60K35}
+\kwd{60K35}
+\kwd[; secondary ]{60K35}
+\end{keyword}
+
+\begin{keyword}
+\kwd{Fisher information; Hellinger differentiability of probability models; differentiability in quadratic mean; score function; Le~Cam's distance between statistical models}
+\end{keyword}
+
+\end{frontmatter}
+
+%\input body.tex
+\section{Introduction}  \label{intro}
+Suppose $\pp=\{P_\th: \th\in\Th\}$ is a
+statistical experiment, a set of probability measures
+on some~$(\xx,\aa)$ indexed by a subset~$\Th$ of the real line.
+
+The Fisher information function~$\II_\pp(\th)$ can be defined under
+various regularity conditions.  If $S$ is a measurable map from  $\xx$
+into another measure space $(\yy,\bb)$, each image measure $Q_\th =
+S P_\th$ (often called the distribution of~$S$ under~$P_\th$, and sometimes denoted
+by~$P_\th S^{-1}$) is a probability measure on~$\bb$. The
+statistical experiment $\qq=\{Q_\th:\th\in\Th\}$ is  less
+informative, in the sense that an observation~$y\sim Q_\th$ tells us
+less about~$\th$ than an observation~$x\sim P_\th$.  In particular,
+$\II_\qq(\th)\le \II_\pp(\th)$ for every~$\th$. If $S$ is a sufficient
+statistic the last inequality becomes an equality: there is no loss of
+Fisher information.
+
+\citet{KaganShepp05AmStat} (henceforth K\&S) showed, by means of a
+simple example, that it is possible to have $\II_\qq(\th)=
+\II_\pp(\th)$ for every~$\th$ without~$S$ being sufficient.
+
+The purpose of this note is: (i) using the geometry of
+differentiabilty in quadratic mean, to reinterpret the phenomenon
+identified by K\&S; (ii) to explain why the experiment~$\qq_n$
+obtained by~$n$ independent replications of~$\qq$ is asymptotically
+equivalent (in Le~Cam's sense) to the corresponding~$\pp_n$.
+
+Most of the necessary theory is already available in the literature
+but is not widely known.  The K\&S example provides a good showcase 
+for that theory.
+
+
+\section{The K\&S example} \label{KSeg}
+What follows is a slightly simplified version of the K\&S
+construction.
+
+Start from a smooth probability density
+$$
+g(w) = \tfrac12 w^2 e^{-w}\{w>0\}
+$$
+\wrt/ Lebesgue measure $\Leb$ on the real line. 
+The power $w^2$ is chosen so that
+$$
+\frac{\gdot(w)^2}{g(w)} = g(w) \left(\frac{d\log g(w)}{dw}\right)^2=\frac12 (2-w)^2e^{-w}\{w>0\}
+$$
+is Lebesgue integrable.
+
+Let $\nu$ denote the probability measure that puts mass~$1/2$ at each
+of~$+1$ and~$-1$. For  each $\th\in\Theta=\RR$ define a probability
+measure $P_\th$ on (the Borel sigma-field of) $\xx=\RR\times\{-1,+1\}$
+by means of its density
+\beq
+f_\th(x) = \{z=+1\}g(y-\th) +\{z= -1\}g(\th-y)
+\qt{where $x = (y,z)\in\xx$}
+\label{f.def}
+\eeq
+\wrt/~the measure~$\lam:=\Leb\otimes\nu$. That is, the coordinate~$z$
+has marginal distribution~$\nu$ and the conditional distribution of
+$y$ given~$z$ is that of $\th+zw$ where~$w\sim g$ independently of~$z$.
+
+
+\medskip
+\includegraphics[width=5in]{density}
+%\smallskip
+
+Define the statistic $S$ as the coordinate projection, $S(y,z)=y$.
+Here are the pertinent facts. (See the next Section for some proofs.)
+
+The distribution $Q_\th$ of~$S$ has density
+$$
+h_\th(y) = \tfrac12g(y-\th)+\tfrac12 g(\th-y)
+\qt{\wrt/ $\Leb$.}
+$$
+Both~$\pp$ and~$\qq$ have finite Fisher information,
+\beq
+\II_\qq(\th) = \II_\pp(\th) = \II := \int_{-\infty}^{\infty} \gdot(w)^2/g(w)\,dw < \infty
+\qt{for all $\th$}.
+\label{FI}
+\eeq
+There is no loss of Fisher information when $z$ is ignored. However, the statistic~$S$ is not sufficient because
+$$
+P_\th(z=1\mid S=y)=\{y>\th\}  ,
+$$
+which depends on~$\th$. More formally, if $S$ were sufficient there would exist some measurable function~$\pi(y)$ for which $P_\th(z=1\mid S=y)=\pi(y)$ a.e[$Q_\th]$, for every~$\th$.
+
+
+\Remark 
+K\&S used a slightly more involved construction, with density
+\bAlign
+f(x,\th) &= \{z=+1\}\left[0.7 g(y-\th) +0.3 g(\th-y)\right]
+\\
+&\quad+\{z= - 1\}\left[0.3 g(y-\th) +0.7 g(\th-y)\right]
+\qt{where $x = (y,z)\in\xx$}
+\eAlign
+\wrt/ $\Leb\otimes \mu$ where $\mu\{+1\}=\a = 1-\mu\{-1\}$ and $\a\ne 1/2$. The analysis in this note can be extended to this~$f_\th$.
+\endRemark
+
+\section{DQM interpretation}
+K\&S attributed the phenomenon in their version of the example in
+Section~\ref{KSeg} to a failure of strict convexity of Fisher
+information \wrt/ mixtures of statistical experiments. There is
+another explanation involving the geometry of Hellinger derivatives,
+which I find more illuminating.
+
+By a theorem of \citet[Lemma A.3]{Hajek:72berk}, Lebesgue
+integrability of the function~$\gdot^2/g$ in~\cref{FI} implies that the  set
+of densities $\gg:=\{g(y-\th):\th\in \RR\}$ (\wrt/ Lebesgue measure) is Hellinger
+differentiable with Hellinger derivative $\gam(y-\th)$ at~$\th$, where
+$$
+\gam(w) := \frac{-\gdot(w)}{2\sqrt{g(w)}} = \frac{(2-w)}{2\sqrt{2}}e^{-w/2}\{w>0\}  .
+$$
+That is,
+$$
+\int\left|\sqrt{g(y-\th-t)} -\sqrt{g(y-\th)} - t\gam(y-\th)\right|^2dy = o(|t|^2)
+\qt{as $t\to 0$}.
+$$
+This assertion is also easy to check by explicit calculations.
+
+The family of densities $\ff:=\{f_\th(x): \th \in\RR\}$, for $f_\th$ as in~\cref{f.def}, inherits
+the Hellinger differentiability from~$\gg$:
+\beq
+\lam\left|\sqrt{f_{\th+t}(x)} -\sqrt{f_{\th}(x)} - t\zeta_\th(x)\right|^2  = o(|t|^2)
+\qt{as $t\to 0$},
+\label{f.deriv}
+\eeq
+for the Hellinger derviative
+$$
+\zeta_\th(x) := \{z= +1\}\gam(y-\th) -\{z= -1\}\gam(\th-y).
+$$
+
+The significance of approximation~\cref{f.deriv}  becomes clearer when it is rewritten as a differentiability property of the likelihood ratios.
+That is, it helps to work with the square root of the density
+of~$P_{\th+t}$ \wrt/~$P_\th$. Unfortunately, $P_{\th+t}$ is not
+dominated by~$P_\th$. In general, to eliminate such an embarrassment
+one needs to split~$P_{\th+t}$ into a singular part~$\singP_{t,\th}$,
+which concentrates on a set of zero~$P_\th$ measure, plus a part~$P_{\th+t}^{(abs)}$ that
+has a density~$p_{t,\th}$ \wrt/~$P_\th$. For reasons related to the
+asymptotic theory for repeated sampling, it is customary to make a
+small extra assumption about the behavior of~$\singP_{t,\th}\xx$
+as~$t$ tends to zero. Following \citet[Section~17.3]{LeCam:86book} and
+\citet[Section~7.2]{LeCam:Yang:2000book}, I will call the slightly
+stronger property \newdef{differentiability in  quadratic mean (DQM)},
+to stress that the definition requires a little more than Hellinger
+differentiability. 
+
+\Remark 
+Beware: Some authors (for example,
+\citealt[page~457]{BKRW:93book}) use the term DQM as a synonym for
+Hellinger differentiability.
+\endRemark 
+
+\Definition	\label{dqm.def}
+Say that $\pp=\{P_\th:\th \in \Th\}$, with $\Th\subseteq\RR$, is differentiable in quadratic mean (DQM) at~$\th$ with score function~$\Del_\th(x)$
+  if, for $\th+t\in\Th$,
+\begin{enumerate} 
+\item
+for the part~$\singP_{t,\th}$ of~$P_{\th+t}$ that is singular \wrt/~$P_\th$,
+$$
+\singP_{t,\th}(\xx)=o(|t|^2) 
+\qt{as $|t|\to0$}
+$$
+
+\item
+$\Del_\th\in\ll^2(P_\th)$  
+
+\item
+the absolutely continuous part of $P_{\th+t}$ 
+has density $p_{t,\th}(x)$ \wrt/ $P_\th$ for which
+$$
+\sqrt{p_{t,\th}(x)} = 1 + \tfrac12 t \Del_\th(x) + r_{t,\th}(x)
+\qt{with $P_\th \left(r_{t,\th}^2\right) =
+o(|t|^2)$ as $t\to0$}.
+$$
+\end{enumerate} 
+
+
+\Remark 
+The factor of~$1/2$ in requirement~(iii) ensures that $P_\th \Del_\th^2$ is equal to the Fisher information~$\II_\pp(\th)$ if the densities are suitably smooth in a pointwise sense. 
+\endRemark
+Call $\pp$  DQM if it is DQM at each~$\th$ in~$\Th$.
+\endDefinition
+
+The~$\pp$ from Section~\ref{KSeg} is, in fact, DQM. For $t>0$ the
+singular part~$\singP_{t,\th}$ has density
+$\{z=-1\}g(\th-y)\{\th<y<\th+t\}$ \wrt/~$\lam$, so that
+$\singP_{t,\th}(\xx)=O(|t|^3)$. The part of~$P_{\th+t}$ that is
+dominated by~$P_\th$ has density
+\bAlignL
+p_{t,\th}(x) &= \frac{f_{\th+t}(x)}{f_\th(x)}\{f_\th(x)>0\}
+\notag
+\\
+&= \{z = +1\}\frac{g(y-\th-t)}{g(y-\th)} \{y>\th\}
++ \{z = -1\}\frac{g(\th+t-y)}{g(\th-y)} \{y <\th\}
+\label{ptth}
+\eAlignL
+There is a similar expression for the case $t<0$.
+The score function equals
+\bAlignL
+\Del_\th(x) 
+&= 2\frac{\zeta_\th(x)}{\sqrt{f_\th(x)}} \{f_\th(x)>0\}
+\notag\\
+&= \{z= +1\}\frac{\gam(y-\th)}{g(y-\th)}\{y>\th\}
+- \{z= -1\}\frac{\gam(\th-y)}{g(\th-y)}\{y<\th\}
+\label{scoreP}
+\eAlignL
+
+The density~$p_{t,\th}$ and the score function $\Del_\th(x)$ are
+uniquely determined only up to a~$P_\th$ equivalence. With that
+thought in mind, observe that both $\{z=+1\} =\{y>\th\}$ \almev{P_\th} and
+$\{z=-1\} =\{y<\th\}$ \almev{P_\th}. The score function~$\Del_\th$ is
+only changed on a $P_\th$-negligible set if we omit the two indicator
+functions involving~$z$ from~\cref{scoreP}. In effect, the score
+function~$\Del_\th(x)$ depends on~$x$ only through the value of the
+statistic~$S$. That property is exactly what we need to preserve Fisher information. The relevant facts are contained in the next theorem, which is proved in Section~\ref{Proof}.
+
+\Theorem  \label{preserveDQM}
+Suppose $\pp=\{P_\th:\th\in\Theta\}$ on~$(\xx,\aa)$
+is DQM  with score function~$\Del_\th$.
+Suppose $S$ is a measurable map from $(\xx,\aa)$ into $(\yy,\bb)$
+and $Q_\th = SP_\th$ is the distribution of~$S$ under~$P_\th$.
+Then: 
+\begin{enumerate} 
+\item
+The statistical experiment
+$\qq=\{Q_\th:\th\in\Th\}$ is also DQM, with score function 
+$\tDel_\th(y) = P_\th(\Del_\th\mid S=y)$.  
+
+\item
+At each fixed~$\th$, Fisher information is preserved (that is, $\II_\pp(\th)=\II_\qq(\th)$) if and only if $\Del_\th(x) = \tDel_\th(Sx)$ \almev{P_\th}.
+
+\end{enumerate} 
+\endTheorem
+
+
+With only notational changes, the  Theorem extends to the case
+where~$\Th$ is a subset of some Euclidean space; no extra conceptual
+difficulties arise in higher dimensions.
+
+\subheading{Credit where credit is due.}
+The results stated in Theorem~\ref{preserveDQM} have an interesting history. Part~(i) was asserted (``Direct calculations show that the function~$q^{1/2}(y;\th)$ is differentiable in $L_2(\widetilde\nu)$ and possess a continuous derivative \dots") in Theorem~7.2 of 
+\citet[Chapter~I, page~70]{Ibragimov:Hasminskii:81book}, an English translation from the 1979 Russian edition. However, that Theorem also (incorrectly, as noted by K\&S) asserted that Fisher information is preserved if and only if~$S$ is sufficient.
+
+\citet[pages~19--21]{Pitman1979book} established differentiability in mean, a property slightly different from~(i), in order to deduce a result equivalent to~(ii).
+
+\citet[Section~7]{Lecam:Yang:88AS} deduced an  analogue of~(i)  (preservation
+of DQM under restriction to sub-sigma-fields) by an indirect argument using
+equivalence of DQM with the existence of a quadratic approximation to
+likelihood ratios of product measures (an LAN condition). 
+
+\citet[page~461]{BKRW:93book} proved result~(i), citing 
+\citet{Ibragimov:Hasminskii:81book},
+\citet{Lecam:Yang:88AS}, and 
+\citet[Appendix~A3]{vaart:88cwi} for earlier proofs. The last of these was a revised
+(``I have not resisted the temptation to rewrite numerous parts of the original manuscript") version of \citeauthor{vaart:88cwi}'s 1987 Ph.D. thesis. He  cited \citet{Lecam:Yang:88AS} and a manuscript version of \citet{BKRW:93book}.
+
+
+
+
+\section{Large sample interpretation}
+Write $\PP_{\th,n}$ for the $n$-fold product measure~$P_\th^n$, and~$\QQ_{n,\th}$ for~$Q_\th^n$, with $P_\th$ and $Q_\th$ as in Section~\ref{KSeg}.  That is, the statistical experiment
+$\pp_n=\{\PP_{\th,n}: \th\in \Th\}$ corresponds to taking $n$ independent observations~$x_1=(y_1,z_1),\dots, x_n=(y_n,z_n)$ from~$P_\th$ and~$\qq_n=\{\QQ_{\th,n}:\th\in\Th\}$ corresponds to~$y_1,\dots,y_n$. 
+
+Classical theory establishes existence of estimators $\that=\that(y_1,\dots,y_n)$ for which $\sqrt{n}\left(\that-\th\right)$ converges in distribution under~$\PP_{\th,n}$ to~$N(0,\II^{-1})$. What more do we learn from the $z_i$'s?  Asymptotically speaking, not much.
+
+For example, as shown by the H\'ajek-Le~Cam convolution and asymptotic minimax theorems \cite[Section~2.3]{BKRW:93book}, there are various senses in which~$N(0,\II^{-1})$ is the best we can hope to achieve. Indeed, the score function essentially determines the  behaviour of the likelihood function in $O(n^{-1/2})$ neighborhoods of~$\th$, which  controls the asymptotics at the~``$\sqrt{n}$'' level. The $z_i$'s must be contributing at a less important level. 
+
+For $i=1,\dots,n$, suppose~$\yL$ is the largest $y_i$   for which $z_i = -1$  and $\yR$ the smallest~$y_i$ for which~$y_i=+1$. With $\PP_{\th,n}$ probability one we know that $\yL<\th <yR$. The~$w^2$ decay in~$g(w)$ at zero, implies that both $\th-\yL$ and~$\yR-\th$ are decreasing at an~$n^{-1/3}$ rate. In fact both~$n^{1/3}(\th-\yL)$ and $n^{1/3}(\yR-\th)$ have nontrivial limit distributions under~$\PP_{\th,n}$. The event~$A_n=\{\yL<\that<\yR\}$ has $\PP_{\th,n}$ probability that tends very rapidly to one.
+
+Define $\zin = \text{sgn}(y_i-\that)$.  That is, 
+$$
+\zin =
+\Cases
++1&if $y_i >\that$
+\\
+-1& if $y_i < \that$
+\endCases
+.
+$$
+Define $\xin = (y_i,\zin)$.
+On the event~$A_n$ we have $x_i=\xin$ for $i=1,\dots,n$. If $\PP^*_{\th,n}$ denotes the joint distribution of $x^*_{1,n},\dots,x^*_{n,n}$ then
+$$
+\sup_{\th\in\Th}\normTV{\PP^*_{\th,n}-\PP_{\th,n}}\to 0
+\qt{rapidly}.
+$$
+In the terminology of Le~Cam's convergence of statistical experiments,~$\pp_n$ and~$\qq_n$ are asymptotically equivalent; the vector $(y_1,\dots,y_n)$ is asymptotically sufficient for~$\pp_n$ in Le~Cam's sense. 
+
+\Remark 
+Rough calculations suggest that the Le~Cam distance between~$\pp_n$ and~$\qq_n$ tends to zero like $\exp(-Cn^{1/3})$ for some constant~$C$. I omit the details because the actually rate is not important for the story I am telling.
+\endRemark
+
+Put another way, for every statistic~$\psi_n(x_1,\dots,x_n)$ for~$\pp_n$ there is another statistic $\psi_n^*(y_1,\dots, y_n) =\psi_n(x^*_{1,n},\dots,x^*_{n,n})$ for $\qq_n$ that has the same asymptotic behavior.
+
+
+%\input preserve.tex
+%\section{Appendix: Preservation of DQM under measurable maps} 
+\section{Proof of Theorem~\protect{\ref{preserveDQM}}}  \label{Proof}
+Recall  that the Kolmogorov conditional expectation
+$P_\th(\cdot\mid S=y)$ is abstractly defined, via the
+Radon-Nikodym theorem, as an increasing linear map (depending on~$\th$)
+$\kappa:L_1(P_\th)\to L^1(Q_\th)$ with properties analogous to those
+enjoyed by a Markov kernel. If we identify an~$f$
+in~$L^1(P_\th)$ with the (signed) measure~$\mu_f$ for which
+$d\mu_f/dP_\th=f$, then $g=\kappa f$ is the density of~$S\mu_f$
+\wrt/~$Q_\th$. 
+To stress the analogy with Markov kernels I will write $\kappa_y f$, or
+even $\kappa_y f(x)$, instead of~$(\kappa f)(y)$. 
+Thus the defining property of~$\kappa$ can be rewritten as
+\beq
+Q_\th f_1(y)\kappa_y f_2 = P_\th f_1(Sx)f_2(x)
+\label{Kol}
+\eeq
+for measurable real functions $f_1$ on~$\yy$ and $f_2$ on~$\xx$,
+at least when $f_1(Sx)f_2(x)$ is $P_\th$-integrable.
+A reader
+who chose to interpret~$\kappa_y$ as a Markov kernel would lose only a
+tiny amount of generality.
+
+
+Of course if one regards $\kappa$ as acting on~$\ll^1(P_\th)$, instead
+of on the space~$L^1(P_\th)$ of $P_\th$-equivalence classes, then one
+should qualify assertions with the occasional \almev{P_\th} caveats
+and regard~$\kappa f$ as being defined only up to $Q_\th$ equivalence.
+Following the usual custom, I will omit such qualifiers.
+
+\subheading{{\scshape Proof} of assertion~(i).}
+The following argument is adapted from
+\citet[Appendix~A3]{vaart:88cwi}.
+
+
+
+
+%Now suppose~$\pp=\{P_\th: \th\in\Th\}$ is DQM at~$\th=0$ with score function~$\Del$. 
+
+To simplify notation, I will prove that~$\qq$ is DQM only at~$\th=0$,
+writing $\singP_t$ instead of~$\singP_{t,0}$ and $p_t$ instead
+of~$p_{t,0}$. Keep in mind that~$\kappa_y$ now denotes the conditional expectation
+operator~$P_0(\cdot\mid S=y)$. 
+For each function~$h(x)$ in~$\ll^2(P_0)$ I will write $\htil(y)$ for its conditional mean~$\kappa_yh(x)$ and
+$$
+\var_y h := \kappa_y\left(h(x)-\htil(y)\right)^2 = \kappa_y h(x)^2 - \htil(y)^2
+$$
+for its conditional variance.
+
+Start with the simplest case where~$P_t$ is actually dominated by~$P_0$. Then
+$$
+\xi_t(x) = \sqrt{{dP_t}/{dP_0}} = 1 +\tfrac12 t\Del_0(x) + r_t(x)
+\qt{with $P_0r_t^2 = o(t^2)$}
+$$
+%with $P_0r_t^2 = o(t^2)$ as $t\to0$ 
+and
+\beq
+\xitil_t(y) := \kappa_y\xi_t(x) = 1+ \tfrac12 t \Deltil_0(y) + \rtil_t(y)
+\qt{with $Q_0\rtil_t^2 \le P_0 r_t^2= o(t^2)$}.
+\label{xitil}
+\eeq
+and, by the Radon-Nikodym property,
+$$
+\eta_t(y) =\sqrt{{dQ_t}/{dQ_0}} = \sqrt{\kappa_y\xi_t(x)^2}
+\quad.
+$$
+
+
+The proof of assertion~(i) will work by showing that the difference $\del_t(y) := \eta_t(y)-\xitil_t(y)$ is small, in the sense that~$Q_0\del_t^2=o(t^2)$. For then we will have
+$$
+\eta_t(y) = 
+1 +\frac12 t \Deltil_0(y) +\bigl[\rtil_t(y) +\del_t(y)\bigr]
+\qt{with }Q_0\bigl[\rtil_t(y) +\del_t(y)\bigr]^2=o(t^2),
+$$
+which implies DQM for~$\qq$ at~$0$.
+
+
+The desired property for~$\del_t$ will be derived from the following facts about the conditional variance
+\beq
+\sig_t^2(y) := \var_y(\xi_t) = \kappa_y \xi_t(x)^2 - \xitil_t(y)^2= \eta_t(y)^2 - \xitil_t(y)^2.
+\label{sigt}
+\eeq
+\begin{enumerate} 
+\item[(a)]
+The  representation $\sig_t^2(y) =\kappa_y\left(\xi_t(x)-\xitil_t(y)\right)^2$ gives
+\bAlign
+\sig_t^2(y)
+&= \kappa_y\left(\tfrac12 t\left[\Del_0(x)-\Deltil_0(y)\right] +\left[r_t(x)-\rtil_t(y)\right]\right)^2
+\notag\\
+&\le 2\left(\tfrac12 t\right)^2\kappa_y\left[\Del_0(x)-\Deltil_0(y)\right] ^2 + 2\kappa_y\left[r_t(x)-\rtil_t(y)\right]^2
+\notag\\
+&\le \tfrac12 t^2 \kappa_y\Del_0^2 + 2\kappa_y r_t^2   .
+%\label{sig.bnd}
+\eAlign
+\end{enumerate} 
+
+\Remark 
+The cancellation of the leading $1$ when $\xitil_t$ is subtracted from~$\xi_t$ seems to
+be vital to the proof. For general Hellinger differentiability, the cancellation would not occur.
+\endRemark
+
+\begin{enumerate} 
+
+\item[(b)]
+ $\del_t(y) \ge 0$ because
+ $\eta_t(y)^2-\xitil_t(y)^2 =\sig_t^2(y)\ge0$.
+\smallskip
+\item[(c)]
+Substitution of $\del_t+\xitil_t$ for~$\eta_t$ in~\cref{sigt} gives
+$$
+\sig_t^2(y) = 2\del_t(y)\xitil_t(y) + \del_t(y)^2 .
+$$
+\end{enumerate} 
+
+The rest is easy.
+For each $\eps>0$ define
+$$
+\Ate :=\{y\in \yy: \xitil_t(y) \ge\tfrac12,\, \sig_t(y) \le \eps\}.
+$$
+Integration of inequality~(a) gives
+$$
+Q_0 \sig_t^2(y) \le \tfrac12 t^2 P_0\Del_0^2 + 2P_0r_t^2 = O(t^2)+o(t^2)\le Ct^2
+\qt{for some constant $C$},
+$$
+which, together with~\cref{xitil}, implies $Q_0\Ate\to1$ as~$t\to0$.
+
+On the set~$\Ate$ equality~(c) ensures that $\del_t(y) \le \sig_t^2(y) \le \eps \sig_t(y)$; on $\Ate^c$ the nonnegativity of~$\del_t$ and equality~(c) give~$\del_t^2\le \sig_t^2$.
+Thus
+\bAlign
+Q_0 \del_t(y)^2
+&\le \eps^2 Q_0 \sig_t^2(y)\{y\in \Ate\} 
++ Q_0 \sig_t^2(y)\{y\notin \Ate\}
+\\
+&\le \eps^2 Ct^2 + \tfrac12 t^2 Q_0 \kappa_y\Del_0^2\Ate^c + 2Q_0\kappa_y r_t^2
+\qt{by (a)}.
+\eAlign
+The $Q_0$-integrability of $\kappa_y\Del_0^2$ and the Dominated Convergence theorem imply $Q_0 \kappa_y\Del_0^2\Ate^c\to0$. It follows that~$Q_0\del_t^2=o(t^2)$. 
+
+
+Finally, what happens when~$P_t$ is not dominated by~$P_0$?
+The analysis for $\xi_t^2$, the density of the part of~$P_t$ that is dominated by~$P_0$, is the same as before. The image measure~$S\singP_t$ has total mass of order~$o(t^2)$, part of which gets absorbed into~$\singQ_t$. The part of~$S\singP_t$ that is dominated by~$Q_0$ contributes an extra nonnegative term,~$\gam_t(y)$, to the density~$dQ_t^{(abs)}/dQ_0$.  The $\eta_t^2(y)$ becomes $\kappa_y \xi_t^2(y) +\gam_t(y)$. The extra term causes little  trouble because
+$$
+\sqrt{\kappa_y\xi_t^2} 
+\le \eta_t \le
+\sqrt{\kappa_y\xi_t^2} +\sqrt{\gam_t}
+\qt{and}\qquad Q_0\gam_t=o(t^2).
+$$
+
+
+\subheading{{\scshape Proof} of assertion~(ii).}
+Write $\HH$ for the closed subspace of~$L^2(P_\th)$ consisting of (equivalence classes of) functions measurable \wrt/ the sub-sigma-field of~$\aa$ generated by~$S$. Each member of~$\HH$ is of the form $f(Sx)$ for some~$f$ in~$L^2(Q_\th)$. The orthogonal projection of~$\Del_\th$ onto~$\HH$ equals~$\Deltil_\th(Sx)$. Thus
+$$
+\II_\pp(\th) = P_\th \Del_\th(x)^2 = 
+P_\th \Deltil_\th(Sx)^2 + P_\th\left[\Del_\th(x)-\Deltil_\th(Sx)\right]^2.
+$$
+The first term on the right-hand side equals $Q_\th(\Deltil_\th^2)= \II_\qq$; the last term is zero if and only iff $\Del_\th(x)=\Deltil_\th(Sx)$ \almev{P_\th}.
+
+
+\bibliographystyle{imsart-nameyear}%
+\bibliography{DBP}%
+
+\end{document}

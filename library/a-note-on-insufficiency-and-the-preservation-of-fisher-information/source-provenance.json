@@ -1,0 +1,88 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction.",
+  "records": [
+    {
+      "path": "1107.3797v2-pollard-fisher-information.pdf",
+      "bytes": 422940,
+      "sha256": "c4ebe9fdd611bbf73b4d6281abcd64dfe577473c589e427bcdb73bf78d2ed343",
+      "url": "https://arxiv.org/pdf/1107.3797v2",
+      "resolved_url": "https://arxiv.org/pdf/1107.3797v2",
+      "retrieved_at": "2026-09-08T20:08:03.535669+00:00",
+      "version": "1107.3797v2",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/pdf",
+      "pdf_pages": 12,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 12,
+        "first_page_text_prefix": "Submitted to the Annals of Statistics\nA NOTE ON INSUFFICIENCY AND THE\nPRESER V A TION OF FISHER INFORMA TION\nBy David Pollard\nYale University\nKagan and Shepp (2005) presented an el"
+      }
+    },
+    {
+      "path": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "bytes": 98882,
+      "sha256": "3e5410bb8b35f0e2d0848ef82b3decc2e96bbfc8ffdcde07af9fa349f689c173",
+      "url": "https://arxiv.org/src/1107.3797v2",
+      "resolved_url": "https://arxiv.org/src/1107.3797v2",
+      "retrieved_at": "2026-09-08T20:08:03.855387+00:00",
+      "version": "1107.3797v2",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/gzip",
+      "format": "gzip-compressed tar archive"
+    },
+    {
+      "path": "source/density.pdf",
+      "bytes": 105073,
+      "sha256": "cd682261aefd82f65b490ad012fbdb64d9a48612eefbd90f7445c42a5b39f7ee",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "density.pdf"
+    },
+    {
+      "path": "source/pollard.bbl",
+      "bytes": 3730,
+      "sha256": "86634bba01c3247d352176f58a2e9ebf7b45f1bf3136e3ea146c459e7ecb6831",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "pollard.bbl"
+    },
+    {
+      "path": "source/pollard.sty",
+      "bytes": 2295,
+      "sha256": "08ba401cb0d75df0047851d82fb4200de9cb653100c96556839a6a57b6abccf4",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "pollard.sty"
+    },
+    {
+      "path": "source/pollard.tex",
+      "bytes": 22077,
+      "sha256": "9af4eaf6958b8394ab4d5b43a2f6542ba73cbfc8f30a154f845dd4128f7f330b",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "pollard.tex"
+    },
+    {
+      "path": "source/pollard_april2012.bbl",
+      "bytes": 5733,
+      "sha256": "47e70ac7e9f34dfbf1dfd87d992286b6f557d7b295497c459f434b14bde18127",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "pollard_april2012.bbl"
+    },
+    {
+      "path": "source/pollard_april2012.tex",
+      "bytes": 27538,
+      "sha256": "79f5697137aafda1b25f3cb679d5009fb92e46f05594c980dae87f891bf5cf4a",
+      "kind": "extracted-author-source",
+      "derived_from": "1107.3797v2-pollard-fisher-information-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "pollard_april2012.tex"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "section_map": "scripts/refactors/2026-09-08-transport-intertwining-sections.json",
+  "active_heading_redirects": [],
+  "semantic_consumer_edits": [
+    {
+      "path": "wall-construction-interface/half-sided-modular-tunnel.md",
+      "baseline_sha256": "4f36dc0725613d8aa1cb4a6858db89071edb74a5b0cd9dbc8fbde0aa84abf77d",
+      "reviewed_sha256": "4f8de345e4af7332a7f9de95084f0e8371d8b8310d0c880b9ae58ae4fe9990bb"
+    },
+    {
+      "path": "scale-score-connection/inq.md",
+      "baseline_sha256": "d8757040c782c4ab1dbed301b5aa2d28441a5dc43cb4a665738a88db1f590749",
+      "reviewed_sha256": "667768b6e705d189f23ef3b45dde03022c89fa9e63c96ed12fdaade807c1efc0"
+    },
+    {
+      "path": "trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry.md",
+      "baseline_sha256": "910771267c6f95999e18feb241e3577eaa35239c444333df39d383ce03182e17",
+      "reviewed_sha256": "695aa6dd234a6246f3f53ac43d94af15fae5704b7de38f7a2f436f1fe0d101d9"
+    },
+    {
+      "path": "causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil.md",
+      "baseline_sha256": "02faa5753fed8d714db7121270028c8119fcffc03b9d60acdeefd8f97a4acc89",
+      "reviewed_sha256": "9648b6e280f76670d8b5e63370d5fa03197f240f3a4796aa096231e70fe95b30"
+    }
+  ],
+  "frozen_files_checked": 296,
+  "frozen_files_unchanged": true,
+  "source_equation_labels": [
+    "WD1",
+    "WD1a",
+    "WD2",
+    "WD2a",
+    "WD3",
+    "WD4",
+    "WD5",
+    "WD6",
+    "WD7",
+    "WD7a",
+    "WD7b",
+    "WD7c",
+    "WD8",
+    "WD8a",
+    "WD9",
+    "WD10",
+    "WD10a",
+    "WD10b",
+    "WD11",
+    "WD11a",
+    "WD11b",
+    "WD11c",
+    "WD12",
+    "WD12a",
+    "WD13",
+    "WD14",
+    "WD15",
+    "WD16",
+    "WD16a",
+    "WD17",
+    "WD17a",
+    "WD17b",
+    "WD18"
+  ],
+  "all_source_labels_have_one_destination": true,
+  "validation": {
+    "rectangular_noncommuting_numerical_witness": {
+      "parameters": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "terminal_derivative_max_error": 3.010149015671823e-11,
+      "presentation_covariance_max_error": 8.392333290941275e-16,
+      "zero_defect_noninvertible_projection": "passed"
+    },
+    "scope": "Finite matrix witnesses guard conventions and pointwise algebra; they do not prove unbounded-domain, source-selection, continuum or physical gap claims.",
+    "active_heading_targets_checked": 17,
+    "source_artifacts_verified": 26,
+    "scoped_module_graph": "11 modules pass internal note/resource closure, local-path and format checks.",
+    "inq_lint": {
+      "version": "0.4.0",
+      "baseline_total_errors": 32,
+      "current_total_errors": 41,
+      "preexisting_nonlibrary_errors": 23,
+      "library_resource_link_errors": 18,
+      "new_this_round": 9,
+      "status": "fails_with_confirmed_resource_ordering_bug",
+      "cause": "ResourceTree iterates string-sorted ResourcePath keys; link_modules converts them to PathBuf without re-sorting, while LinkModule.includes binary-searches with component-based Path ordering. source-provenance.json and source/* reverse order, violating the search invariant.",
+      "source_checkout": "/home/tomtop3/work/inq-space/mono",
+      "source_revision": "v0.4.0",
+      "source_locations": [
+        {
+          "path": "lib/inq-model/src/resource.rs",
+          "lines": [
+            10,
+            11
+          ],
+          "role": "ResourcePath derives Ord on String"
+        },
+        {
+          "path": "lib/inq-model/src/resource.rs",
+          "lines": [
+            174,
+            175
+          ],
+          "role": "ResourceTree stores BTreeMap<ResourcePath, ResourceEntry>"
+        },
+        {
+          "path": "lib/inq-model/src/resource.rs",
+          "lines": [
+            255,
+            260
+          ],
+          "role": "files iterates portable string path order"
+        },
+        {
+          "path": "lib/inq-workspace/src/loader/mod.rs",
+          "lines": [
+            217,
+            229
+          ],
+          "role": "link_modules collects absolute PathBuf resources without sorting"
+        },
+        {
+          "path": "lib/inq-workspace/src/query/link.rs",
+          "lines": [
+            21,
+            25
+          ],
+          "role": "includes uses binary_search_by with Path::cmp"
+        }
+      ],
+      "reproduction": {
+        "method": "Read-only Python emulation of Rust slice binary_search_by with component-based path comparison over each module string-sorted file inventory.",
+        "predicted_false_exclusions": 18,
+        "reported_errors_matched_exactly": 18,
+        "false_exclusions_by_module": {
+          "library/a-note-on-insufficiency-and-the-preservation-of-fisher-information": [
+            "source-provenance.json",
+            "source/density.pdf"
+          ],
+          "library/the-classically-perfect-fixed-point-action-for-su3-gauge-theory": [
+            "source-provenance.json",
+            "source/paper1.tex",
+            "source/perfect_vlink.eps"
+          ],
+          "library/extension-of-borchers-structure-theorem": [
+            "source-provenance.json",
+            "source/hsmi.tex"
+          ],
+          "library/exact-scheme-independence": [
+            "source-provenance.json",
+            "source/hep-th-0008123v2.tex"
+          ],
+          "library/derivations-and-kms-symmetric-quantum-markov-semigroups": [
+            "source-provenance.json",
+            "source/Derivations_and_KMS-symmetric_quantum_Markov_semigroups.bbl",
+            "source/Derivations_and_KMS-symmetric_quantum_Markov_semigroups.tex"
+          ],
+          "library/approximate-recoverability-and-relative-entropy-ii": [
+            "source-provenance.json",
+            "source/2010.05513v1.tex"
+          ],
+          "library/the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups": [
+            "source-provenance.json",
+            "source/00README.json",
+            "source/KMS_GNS_gap.bbl",
+            "source/KMS_GNS_gap.tex"
+          ]
+        }
+      },
+      "recommended_fix": "Sort collected absolute PathBuf resources using the same ordering as includes, or use a consistent membership set; add a regression with source/ files beside source-provenance.json.",
+      "resource_integrity": "All reported paths exist, remain selected in inventories, and pass source-byte hashes and scoped graph closure. No source renaming, validator workaround, or external repository edit was performed."
+    }
+  }
+}

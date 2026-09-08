@@ -1,0 +1,22 @@
+{
+  "source": "inbox/operator-signature-verdict/commentary/the-schrodinger-stopping-rule.md",
+  "resource": "cosmological-scale-selection/junk-drawer/source-records/operator-signature-verdict/the-schrodinger-stopping-rule.md",
+  "bytes": 4908,
+  "sha256": "e08628c34bd26f8d5543a0b187ace7999161f98253317ebd1bd3775853b4cd25",
+  "admitted_exact_matches_before_copy": [],
+  "reason": "Package the directly cited historical stopping-rule record as an opaque resource. Original inbox bytes remain unchanged. Reuse the three already admitted causal-grain source records rather than duplicate them.",
+  "reused_resources": [
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic.md"
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent.md"
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/repository-genealogy.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/repository-genealogy.md"
+    }
+  ]
+}

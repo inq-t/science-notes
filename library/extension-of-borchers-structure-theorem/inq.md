@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [half-sided-modular-inclusion, semifinite-weight, positive-generator, modular-transport]
 ---
 # Extension of the structure theorem of Borchers and its application to half-sided modular inclusions
 
@@ -16,7 +17,13 @@ A result of H.-W. Wiesbrock is extended from the case of a common cyclic and sep
 - **First submitted:** 2004-12-02.
 - **Last revised:** 2005-09-14.
 - **Primary category:** `math.OA`.
-- **arXiv:** [math/0412061v3](https://arxiv.org/abs/math/0412061).
+- **arXiv:** [math/0412061v3](https://arxiv.org/abs/math/0412061v3).
 - **Publication:** Rev. Math. Phys. 17 (2005), 491-543.
 - **DOI:** [10.1142/S0129055X05002388](https://doi.org/10.1142/S0129055X05002388).
-- **Local artifacts:** `math-0412061-araki-zsido-borchers-half-sided-modular-inclusions.pdf`, `math-0412061-source.tar.gz`.
+
+## Local sources
+
+- [[library/extension-of-borchers-structure-theorem/source/hsmi.tex|Author TeX]].
+- [[library/extension-of-borchers-structure-theorem/math-0412061-source.tar.gz|Original arXiv source download (gzip-compressed MacBinary; historical filename retained)]].
+- [[library/extension-of-borchers-structure-theorem/math-0412061-araki-zsido-borchers-half-sided-modular-inclusions.pdf|PDF]].
+- [[library/extension-of-borchers-structure-theorem/source-provenance.json|Source URLs, SHA-256 hashes, verification and extraction provenance]].

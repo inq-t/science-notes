@@ -1,0 +1,138 @@
+{
+  "source_commit": "7fd8cf8",
+  "source_path": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+  "source_sha256": "4568e80651e3e02f2e5514e69235255796e969c0dcc0286d204cf14b2d4bceed",
+  "frontier_item": "F2 in the Yang-Mills neighbor audit",
+  "purpose": "Separate generic propagator, connection, observation and metric-response mathematics from the cosmological application. All original labels have one destination; this checks preservation, not the mathematical claims. The source note remains as the application.",
+  "section_moves": [
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#Reverse the question",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#A wall event needs a selected transport comparison",
+      "source_lines": [
+        7,
+        60
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#The exact wall-defect identity",
+      "new": "transport-intertwining-defect/propagator-intertwining-and-placement#The exact wall-defect identity",
+      "source_lines": [
+        61,
+        112
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#The defect is covariant under presentation changes",
+      "new": "transport-intertwining-defect/propagator-intertwining-and-placement#The defect is covariant under presentation changes",
+      "source_lines": [
+        113,
+        150
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#The first stopping condition: a zero defect erases wall placement",
+      "new": "transport-intertwining-defect/propagator-intertwining-and-placement#A zero defect erases placement",
+      "source_lines": [
+        151,
+        192
+      ],
+      "additional_owner": "transport-intertwining-defect/observation-of-a-transport-defect#First-order sensitivity after nuisance removal"
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#Engagement, gap, and fossil are three proof obligations",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#Engagement, gap, and fossil are three proof obligations",
+      "source_lines": [
+        193,
+        233
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#The defect is a residue, but not yet an energy cost",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#The defect is a residue, but not yet an energy cost",
+      "source_lines": [
+        234,
+        281
+      ],
+      "additional_owner": "transport-intertwining-defect/metric-response-of-an-intertwining-defect"
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#BAO retains less than the wall may produce",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#BAO retains less than the wall may produce",
+      "source_lines": [
+        282,
+        323
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#A harmonic sweet spot requires a spectral statement",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#A harmonic sweet spot requires a spectral statement",
+      "source_lines": [
+        324,
+        346
+      ]
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#What the causal grain can consistently mean",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#What the causal grain can consistently mean",
+      "source_lines": [
+        347,
+        426
+      ],
+      "additional_owner": "transport-intertwining-defect/observation-of-a-transport-defect#A finite experiment returns a response class"
+    },
+    {
+      "old": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#Promotion and kill conditions",
+      "new": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement#Promotion and kill conditions",
+      "source_lines": [
+        427,
+        447
+      ]
+    }
+  ],
+  "equation_owners": {
+    "WD1": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD1a": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD2": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD2a": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD3": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD4": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD5": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD6": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD7": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD7a": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD7b": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD7c": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD8": "transport-intertwining-defect/propagator-intertwining-and-placement.md",
+    "WD8a": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD9": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD10": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD10a": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD10b": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD11": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD11a": "transport-intertwining-defect/metric-response-of-an-intertwining-defect.md",
+    "WD11b": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD11c": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD12": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD12a": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD13": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD14": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD15": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD16": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+    "WD16a": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD17": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD17a": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD17b": "transport-intertwining-defect/observation-of-a-transport-defect.md",
+    "WD18": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md"
+  },
+  "reviewed_corrections": [
+    "Distinguish evolution x'=Ax from metric connection partial+Gamma: A=-Gamma.",
+    "State strong continuity, local bounds and common generator domains for the pointwise propagator product rule; integration requires its own regularity.",
+    "Use real Frechet derivatives for real observations of possibly complex carriers.",
+    "Require a Hilbert source and closed or bounded operator realization for the incoming closed-range theorem.",
+    "Correct WD15 from an unscaled finite change to an insertion-parameter derivative.",
+    "Presentation covariance holds for arbitrary admissible maps; physical selection is separate.",
+    "DQM alone supplies an L2 score, not a pointwise density derivative or norm-differentiable full channel.",
+    "Use compatible shared GNS weight realizations and a common affine smooth core for the HSMI example."
+  ],
+  "source_record_packaging": "scripts/refactors/2026-09-08-transport-source-record.json"
+}

@@ -4,7 +4,7 @@ A half-sided modular inclusion constructs an exact nested family of von Neumann 
 
 ## Exact transport from one inclusion
 
-Let \(\mathcal N\subset\mathcal M\subset B(\mathcal H)\) satisfy the hypotheses of the general half-sided modular-inclusion theorem for a normal faithful semifinite weight \(\chi\): the restriction \(\chi|_{\mathcal N}\) is semifinite, both algebras have the required standard forms, and, in the convention used here,
+Let \(\mathcal N\subset\mathcal M\subset B(\mathcal H)\) carry a normal faithful semifinite weight \(\chi\) whose restriction \(\chi|_{\mathcal N}\) is semifinite. Use the compatible GNS realizations required by Araki--Zsido Theorem 2.1: the GNS map of \(\chi|_{\mathcal N}\) is the restriction of that of \(\chi\), and its image is dense in the same \(\mathcal H\). Thus the two modular operators belong to this shared construction, not unrelated standard-form identifications. In the convention used here, assume
 
 $$
 \Delta_{\mathcal M}^{it}\mathcal N\Delta_{\mathcal M}^{-it}
@@ -140,7 +140,7 @@ A_{\mathcal M}:=-\frac{i}{2\pi}K_{\mathcal M},
 A_{\mathcal N}:=-\frac{i}{2\pi}K_{\mathcal N}.
 $$
 
-The affine covariance above gives, on the common smooth core,
+The affine covariance above gives, on the common Gårding smooth-vector core of the reconstructed affine-group representation,
 
 $$
 [K_{\mathcal M},P]=2\pi iP,
@@ -168,7 +168,7 @@ $$
 
 For a proper nontrivial inclusion, dilation covariance forces \(\sigma(P)=[0,\infty)\). Thus \(T_\sigma\) is injective with dense range but has no bounded inverse. It is an oriented smoothing, not a many-to-one quotient.
 
-The typing trap appears when this contraction is used as the realization \(J_\sigma\) in [[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The actual endpoint transport from the \(\mathcal M\) presentation to the \(\mathcal N\) presentation contains \(U(1)\), because
+The typing trap appears when this contraction is used as the comparison \(J_\sigma\) in [[transport-intertwining-defect/propagator-intertwining-and-placement|the propagator-intertwining identity]]. The actual endpoint transport from the \(\mathcal M\) presentation to the \(\mathcal N\) presentation contains \(U(1)\), because
 
 $$
 \mathcal N=\operatorname{Ad}U(1)(\mathcal M),
@@ -245,7 +245,7 @@ j_r:=\left.\alpha_r\right|_{\mathcal M}:
 \mathcal M\overset{\sim}{\longrightarrow}\mathcal A_r
 $$
 
-and choose a faithful \(C^2\) state path \(r\mapsto\psi_r\) on the fixed reference algebra \(\mathcal M\), with finite or renormalized Araki-relative-entropy Hessian. Define
+and choose a faithful state path \(r\mapsto\psi_r\) on the fixed reference algebra \(\mathcal M\), with finite relative entropies near comparison and a regular quadratic second variation on a declared tangent domain. These are the [[channel-loss-and-recovery/bkm-loss-operators#Type-III Hessians and closed operators|Araki/BKM Hessian hypotheses]]; an unspecified renormalized subtraction does not automatically preserve them. Define
 
 $$
 \omega_r:=\psi_r\circ j_r^{-1}.
@@ -272,7 +272,7 @@ G_{rr}(r)
 =g^{\mathrm{BKM}}_{\psi_r}(\dot\psi_r,\dot\psi_r).
 $$
 
-[[library/relative-hamiltonian-for-faithful-normal-states/inq|Bounded Araki perturbations]] provide standard faithful examples of such paths. This is an exact, type-III-capable **[ABSTRACT INTERFACE CONSTRUCTION]** and it uses neither \(G\) nor a fitted FLRW curve. It does not make the response a consequence of the half-sided inclusion: the choice of \(\psi_r\), its generator, its rate, and its physical interpretation are new input. To recover half-sided modularity for the perturbed states, one would additionally have to prove the appropriate modular containment at every \(r\) and compatibility with the already reconstructed \(U\); that is open and may force the response back to zero.
+[[library/relative-hamiltonian-for-faithful-normal-states/inq|Bounded self-adjoint Araki perturbations]], with the resulting faithful functional normalized to a state, provide standard state-path examples. The stated finite-entropy and Hessian regularity must still hold for the comparison being used. This is an exact, type-III-capable **[ABSTRACT INTERFACE CONSTRUCTION]** and it uses neither \(G\) nor a fitted FLRW curve. It does not make the response a consequence of the half-sided inclusion: the choice of \(\psi_r\), its generator, its rate, and its physical interpretation are new input. To recover half-sided modularity for the perturbed states, one would additionally have to prove the appropriate modular containment at every \(r\) and compatibility with the already reconstructed \(U\); that is open and may force the response back to zero.
 
 ## What is closed, and what is not
 

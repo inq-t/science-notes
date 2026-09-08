@@ -1,0 +1,106 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction.",
+  "records": [
+    {
+      "path": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action.pdf",
+      "bytes": 313178,
+      "sha256": "e3ae911b69f206fa230af3bb73070912e679dbb4386ad84874eef4cc71b1fb35",
+      "url": "https://arxiv.org/pdf/hep-lat/9506030v1",
+      "resolved_url": "https://arxiv.org/pdf/hep-lat/9506030v1",
+      "retrieved_at": "2026-09-08T20:08:03.602909+00:00",
+      "version": "hep-lat/9506030v1",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/pdf",
+      "pdf_pages": 34,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 34,
+        "first_page_text_prefix": "arXiv:hep-lat/9506030v1  27 Jun 1995\nBUTP–95/14\nCOLO-HEP-361\nThe classically perfect ﬁxed point action for\nSU(3) gauge theory 1\nThomas DeGrand, Anna Hasenfratz\nDepartment of Physic"
+      }
+    },
+    {
+      "path": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "bytes": 54305,
+      "sha256": "4c39e6b58e913bc41727b37ab9e65fe1c9f969a5c0249a6d2b3c3973f085dfdb",
+      "url": "https://arxiv.org/src/hep-lat/9506030v1",
+      "resolved_url": "https://arxiv.org/src/hep-lat/9506030v1",
+      "retrieved_at": "2026-09-08T20:08:03.823127+00:00",
+      "version": "hep-lat/9506030v1",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/gzip",
+      "format": "gzip-compressed tar archive"
+    },
+    {
+      "path": "source/paper1.tex",
+      "bytes": 75167,
+      "sha256": "5e57ef396dfafceeaff76229d9b8677a3fbf64b7d2875bc1763f0310d3a9a8d6",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "paper1.tex"
+    },
+    {
+      "path": "source/perfect_vlink.eps",
+      "bytes": 22671,
+      "sha256": "90add7447e4d721b1863cf9b924ff3ff0e6d285d7eb136439d348391144a0022",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "perfect_vlink.eps"
+    },
+    {
+      "path": "source/rgt.eps",
+      "bytes": 4563,
+      "sha256": "251100c708ce39facf1f93e71d24f5fd466f95e437987a99957ac07d47a0dada",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "rgt.eps"
+    },
+    {
+      "path": "source/spectrum.eps",
+      "bytes": 11120,
+      "sha256": "7b8dead4ef8069ae8a964598682a0516e9adec60bf5e0e4aab3000449f91bfb7",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "spectrum.eps"
+    },
+    {
+      "path": "source/sym_v.eps",
+      "bytes": 24471,
+      "sha256": "428e20dc77b1483fb7d557ab0e51adcf63226b9d71c7b7fcd0ab187be799169e",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "sym_v.eps"
+    },
+    {
+      "path": "source/type1.eps",
+      "bytes": 17232,
+      "sha256": "1c8a7ecac114118576c3fb7ae1f6738055a8c9650d0b9815602cab3fc15b9c9c",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "type1.eps"
+    },
+    {
+      "path": "source/type2.eps",
+      "bytes": 19299,
+      "sha256": "f0759b6de1f0c7caf0e4f36e53ba63ed2deb4b22508a22ff2ad8650b39d6753e",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "type2.eps"
+    },
+    {
+      "path": "source/wils_v.eps",
+      "bytes": 23715,
+      "sha256": "2cbe066f28329b9e21936446ce5b37f7c34c73078dbb1bce9ca38524585d274d",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-lat-9506030v1-degrand-hasenfratz-niedermayer-fixed-point-action-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "wils_v.eps"
+    }
+  ]
+}

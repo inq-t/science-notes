@@ -2,7 +2,10 @@
 inq.module: cosmological-scale-selection
 inq.include:
   - './'
+inq.exclude:
+  - 'junk-drawer/'
 inq.ambient:
+  - 'junk-drawer/**'
   - 'receipts/*.py'
   - 'receipts/*.txt'
 keywords:
@@ -17,7 +20,7 @@ keywords:
 ---
 # Cosmological Scale Selection
 
-A whole-state law might select the dimensional scale realized by a local theory without making cosmological expansion responsible for the existence of its mass gap. This module separates that proposed selection from three related questions: what horizon saturation actually fixes, how a selected scale remains constant downstream, and whether a carrier-changing wall leaves an observable fossil. The horizon ledgers and wall-defect identities are exact under their stated hypotheses; a common parent for the cosmological and local spectral returns remains unconstructed.
+A whole-state law might select the dimensional scale realized by a local theory without making cosmological expansion responsible for the existence of its mass gap. This module separates that proposed selection from three related questions: what horizon saturation actually fixes, how a selected scale remains constant downstream, and whether a carrier-changing wall leaves an observable fossil. The horizon ledgers are exact under their stated hypotheses, and the fossil proposal applies the shared transport-intertwining theorem; a common parent for the cosmological and local spectral returns remains unconstructed.
 
 ## A whole-scale benchmark is not a local spectral floor
 
@@ -49,15 +52,8 @@ The selector itself has two jobs. A dilation-invariant condition can select an e
 
 ## A fossil must survive the carrier change and the readout
 
-[[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement|The wall-defect construction]] asks what changes when pre- and post-wall evolution are joined by a realization \(J_\sigma\). On its declared differentiable cores,
+[[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement|The wall-engagement application]] imports [[transport-intertwining-defect/propagator-intertwining-and-placement|the transport-intertwining theorem]] for a physically selected realization \(J_\sigma\). A zero defect erases wall placement from the declared terminal-state composite, even when the map is noninvertible. A nonzero defect is presentation covariant but still needs a physical selection principle; [[transport-intertwining-defect/observation-of-a-transport-defect|the observation theorem]] determines whether it survives transfer and nuisance projection. An independently selected post-wall metric can turn the defect into a positive response form, whose physical lower bound and Casimir comparison remain separate requirements.
 
-\[
-\mathfrak D_\sigma
-=J_\sigma'+J_\sigma A_--A_+J_\sigma
-\]
-
-is the obstruction to moving the wall without changing the terminal state. A zero defect makes the wall's placement invisible to readouts factoring only through that state, even when \(J_\sigma\) is noninvertible. A nonzero defect need not survive propagation or nuisance projection, and it is not automatically a positive energy form.
-
-This separates engagement, gap and fossil into different tests of the same proposed parent. [[causal-grain-cosmology/inq|Causal-grain cosmology]] owns the downstream acoustic and material-history tests: baryon loading and a finite acoustic readout can erase distinctions that the wall produced. Numerical agreement of a length, energy or acoustic scale cannot replace the missing comparison maps.
+This separates engagement, gap and fossil into different tests of the same proposed parent. [[causal-grain-cosmology/inq|Causal-grain cosmology]] owns the downstream acoustic and material-history tests. In the declared charge-even survivor-loading branch, the readout loses baryon-sign information and cannot recover an erased annihilation history; a proposed wall signature must survive beyond what the final loading already fixes. Numerical agreement of a length, energy or acoustic scale cannot replace the missing comparison maps.
 
 [[global-local-response-reconstruction/cosmological-reconvergence-contract|The reconvergence contract]] states the common target: construct one upstream law with distinct vacuum and cosmological returns, then prove their compatibility. The vacuum return must carry the required local theory and uniform spectral floor; the cosmological return must select its normalization and make a prospectively testable prediction. This module's ledgers constrain those arrows without identifying their different carriers.

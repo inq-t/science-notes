@@ -449,6 +449,7 @@ scale-incidence-response = "local:scale-incidence-response"
 soldering = "local:soldering"
 sufficient-reason = "local:sufficient-reason"
 the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
+transport-intertwining-defect = "local:transport-intertwining-defect"
 unstable-hadrons-in-hot-hadron-gas = "local:unstable-hadrons-in-hot-hadron-gas"
 wall-construction-interface = "local:wall-construction-interface"
 workspace-note-maintenance = "local:workspace-note-maintenance"
@@ -904,6 +905,7 @@ the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 the-qcd-mass-gap-and-quark-deconfinement-scales-as-mass-bounds-in-strong-gravity = "local:the-qcd-mass-gap-and-quark-deconfinement-scales-as-mass-bounds-in-strong-gravity"
 trace-and-dilatation-anomalies-in-gauge-theories = "local:trace-and-dilatation-anomalies-in-gauge-theories"
 trace-dirichlet-descent = "local:trace-dirichlet-descent"
+transport-intertwining-defect = "local:transport-intertwining-defect"
 two-slice-innovation-geometry = "local:two-slice-innovation-geometry"
 universal-upper-bound-on-the-entropy-to-energy-ratio-for-bounded-systems = "local:universal-upper-bound-on-the-entropy-to-energy-ratio-for-bounded-systems"
 wall-construction-interface = "local:wall-construction-interface"
@@ -2763,6 +2765,7 @@ conditional-fisher-coercivity = "local:conditional-fisher-coercivity"
 exact-scheme-independence = "local:exact-scheme-independence"
 global-local-response-reconstruction = "local:global-local-response-reconstruction"
 the-classically-perfect-fixed-point-action-for-su3-gauge-theory = "local:the-classically-perfect-fixed-point-action-for-su3-gauge-theory"
+transport-intertwining-defect = "local:transport-intertwining-defect"
 vacuum-aligned-transfer-cocycle = "local:vacuum-aligned-transfer-cocycle"
 
 [[local]]
@@ -3319,6 +3322,7 @@ the-friedrichs-angle-and-alternating-projections-in-hilbert-c-star-modules = "lo
 the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 the-semigroup-characterization-of-osterwalder-schrader-path-spaces = "local:the-semigroup-characterization-of-osterwalder-schrader-path-spaces"
 the-spectral-action-principle = "local:the-spectral-action-principle"
+transport-intertwining-defect = "local:transport-intertwining-defect"
 two-slice-innovation-geometry = "local:two-slice-innovation-geometry"
 type-iii-and-spectral-triples = "local:type-iii-and-spectral-triples"
 von-neumann-algebra-automorphisms-and-the-time-thermodynamics-relation = "local:von-neumann-algebra-automorphisms-and-the-time-thermodynamics-relation"
@@ -3329,6 +3333,12 @@ name = "transition-function-of-g2-over-s6"
 
 [[local]]
 name = "transport-collective-motion-and-brownian-motion"
+
+[[local]]
+name = "transport-intertwining-defect"
+
+[local.links]
+measured-response-carriers = "local:measured-response-carriers"
 
 [[local]]
 name = "transported-response-observability-solder"
@@ -3506,10 +3516,10 @@ algebra = "local:algebra"
 algebraic-observational-cosmology = "local:algebraic-observational-cosmology"
 binary-information-geometry = "local:binary-information-geometry"
 causal-scale-theory = "local:causal-scale-theory"
+channel-loss-and-recovery = "local:channel-loss-and-recovery"
 conditional-fisher-coercivity = "local:conditional-fisher-coercivity"
 conformal-scale-geometry = "local:conformal-scale-geometry"
 cosmological-horizons-and-reconstruction-of-quantum-field-theories = "local:cosmological-horizons-and-reconstruction-of-quantum-field-theories"
-cosmological-scale-selection = "local:cosmological-scale-selection"
 de-sitter-observables-algebra = "local:de-sitter-observables-algebra"
 dynamical-locality-and-covariance = "local:dynamical-locality-and-covariance"
 extension-of-borchers-structure-theorem = "local:extension-of-borchers-structure-theorem"
@@ -3530,6 +3540,7 @@ soldering = "local:soldering"
 spectral-wall-descent = "local:spectral-wall-descent"
 subregion-algebras-in-classical-and-quantum-gravity = "local:subregion-algebras-in-classical-and-quantum-gravity"
 the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics = "local:the-generally-covariant-locality-principle-a-new-paradigm-for-local-quantum-physics"
+transport-intertwining-defect = "local:transport-intertwining-defect"
 
 [[local]]
 name = "why-the-standard-model"

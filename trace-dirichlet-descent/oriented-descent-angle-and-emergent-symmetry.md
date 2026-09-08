@@ -66,7 +66,7 @@ $$
 \tag{OD7}
 $$
 
-This is the group-direction analogue of the scale-direction defect in [[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The two may be components of a connection on a bundle of arrow spaces; neither is automatically an energy operator.
+This is the group-direction analogue of [[transport-intertwining-defect/connection-and-generator-conventions|the induced connection on maps]]. For a constant \(W\) and evolution generators \(A_\pm=\mathrm du_\pm(\xi)\), (OD7) equals minus the transport defect \(WA_--A_+W\). Their zero sets agree; the sign follows from the evolution-versus-connection convention. Neither expression is automatically an energy operator.
 
 When \(X_\pm\) are Hilbert spaces and \(W:X_-\to X_+\) is bounded and Fredholm, there is an exact conservation-like datum:
 
@@ -505,7 +505,7 @@ The matrix witness does not place mutually nonlocal line operators in one local 
 
 ## A non-arbitrary metric for the wall defect
 
-The wall-crossing defect
+The [[transport-intertwining-defect/propagator-intertwining-and-placement|transport-intertwining defect]], on its declared generator domains,
 
 $$
 \mathfrak D_\sigma
@@ -535,7 +535,7 @@ q_{\mathrm{wall}}[x]
 \tag{OD39}
 $$
 
-This supplies a non-arbitrary candidate for the previously open post-wall metric \(G_+\). It still does not give a lower bound in the incoming norm. That stronger result requires injectivity modulo the declared null space together with closed range for the restricted map \((1-P_0)\mathfrak D_\sigma\), equivalently a positive lower singular value on the orthogonal complement of that null space. A wall can be transverse after it acts while remaining blind to many incoming directions.
+This supplies a structured candidate for the post-wall metric \(G_+\) once the opposed descents are selected. A bound in the incoming norm additionally requires \(X_-\) to have a specified Hilbert norm and \(T=(1-P_0)\mathfrak D_\sigma\) to have a densely defined closed realization, or a bounded extension. [[transport-intertwining-defect/metric-response-of-an-intertwining-defect#Closed range is the quantitative condition on the quotient|The closed-range criterion]] then equates closed range with a positive lower bound modulo \(\ker T\). Identifying this kernel with a separately declared physical null space is another condition. A core-defined defect alone does not supply these hypotheses; a wall can be transverse after it acts while remaining blind to incoming directions.
 
 ## Conditional mass-gap theorem
 

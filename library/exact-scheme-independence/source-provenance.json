@@ -1,0 +1,42 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction.",
+  "records": [
+    {
+      "path": "hep-th-0008123v2-latorre-morris-exact-scheme-independence.pdf",
+      "bytes": 175242,
+      "sha256": "412f4ab6fcbb57ef4219ba8d3f9993c566821f1568cd4c77a873184bf320e254",
+      "url": "https://arxiv.org/pdf/hep-th/0008123v2",
+      "resolved_url": "https://arxiv.org/pdf/hep-th/0008123v2",
+      "retrieved_at": "2026-09-08T20:08:03.587775+00:00",
+      "version": "hep-th/0008123v2",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/pdf",
+      "pdf_pages": 15,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 15,
+        "first_page_text_prefix": "arXiv:hep-th/0008123v2  3 Nov 2000\nhep-th/0008123\nSHEP 00-09\nExact Scheme Independence\nJos´ e I. Latorrea and Tim R. Morris b\n(a)Departament d’Estructura i Constituents de la Mat` "
+      }
+    },
+    {
+      "path": "hep-th-0008123v2-latorre-morris-exact-scheme-independence-source.tex.gz",
+      "bytes": 15347,
+      "sha256": "19e2c3debc38cea8e2a991571f8e3a3c7cf9e789abe73b36edb254e2ffde94d0",
+      "url": "https://arxiv.org/src/hep-th/0008123v2",
+      "resolved_url": "https://arxiv.org/src/hep-th/0008123v2",
+      "retrieved_at": "2026-09-08T20:08:03.789286+00:00",
+      "version": "hep-th/0008123v2",
+      "kind": "downloaded-primary-source",
+      "content_type": "application/gzip",
+      "format": "gzip-compressed single TeX source"
+    },
+    {
+      "path": "source/hep-th-0008123v2.tex",
+      "bytes": 42469,
+      "sha256": "fb3911513d0f26c3e4dfcbcc6b1814c8d2f5debabdb329b82a940de87591385b",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-th-0008123v2-latorre-morris-exact-scheme-independence-source.tex.gz",
+      "method": "gzip decompression"
+    }
+  ]
+}

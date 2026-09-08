@@ -1,0 +1,36 @@
+{
+  "description": "Verification of previously archived primary-source bytes against the library identity inventory; fresh remote comparison where available. Existing source files are unchanged.",
+  "records": [
+    {
+      "path": "1973-araki-relative-hamiltonian-faithful-normal-states.pdf",
+      "bytes": 2839492,
+      "sha256": "08049dcff4e39992d2cc27ad8b9bc8319d259c47dd97f315b095298e8517a7a1",
+      "version": "1973 published article",
+      "kind": "pre-existing-primary-source",
+      "inventory": "library/identities.json",
+      "primary_url": "https://ems.press/content/serial-article-files/41744",
+      "verified_at": "2026-09-08T20:10:45.885121+00:00",
+      "remote_verification": {
+        "url": "https://ems.press/content/serial-article-files/41744",
+        "resolved_url": "https://ems.press/content/serial-article-files/41744",
+        "bytes": 2839492,
+        "sha256": "08049dcff4e39992d2cc27ad8b9bc8319d259c47dd97f315b095298e8517a7a1",
+        "byte_identical": true
+      },
+      "pdf_pages": 46,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 46,
+        "first_page_text_prefix": "Publ. RIMS, Kyoto Univ.\n9 (1973), 165-209\nRelative Hamiltonian for Faithful Normal States\nof a von Neumann Algebra\nBy\nHuzihiro ARAKI\nAbstract\nLet W be a cyclic and separating vecto"
+      }
+    },
+    {
+      "path": "1973-araki-relative-hamiltonian-extracted.txt",
+      "bytes": 45904,
+      "sha256": "f3d44b3259be5449500d34e7b5ecddfa10c51f3b5cf74e18c75dd722d9adffd7",
+      "kind": "derived-searchable-text",
+      "derived_from": "1973-araki-relative-hamiltonian-faithful-normal-states.pdf",
+      "method": "pypdf text extraction, UTF-8 with page markers; mathematical OCR may be imperfect"
+    }
+  ]
+}

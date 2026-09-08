@@ -4,6 +4,7 @@ inq.include:
   - "**/*.md"
 inq.ambient:
   - "**/*.py"
+keywords: [scale-indexed algebras, modular transport, state selection, causal regions, wall construction]
 ---
 # The Wall-Construction Interface
 

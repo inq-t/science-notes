@@ -53,6 +53,7 @@ members = [
   "library/observation-of-squeezed-states-in-an-optical-cavity",
   "distinction-grain-spectrum",
   "scale-score-connection",
+  "transport-intertwining-defect",
   "higgs-reduction-as-local-shadow",
   "reverse-prediction-residue-archive",
   "gauge-boundary-frame-gluing",
