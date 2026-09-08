@@ -59,7 +59,7 @@ J|_{SU(3)_c}\cong\mathbb R^9\oplus3(\mathbb C^3)_{\mathbb R},
 \tag{CG5}
 \]
 The branching and normalization are established in
-[[contemporary-puzzles/yang-mills-mass-gap/exceptional-normal-holonomy-and-the-residual-gauge-form|the exceptional normal-holonomy calculation]]. In particular the color subgroup fixes the retained complex Jordan context pointwise. Its adjoint gradient must not be confused with the trace-free part of that context.
+[[exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form|the exceptional normal-holonomy calculation]]. In particular the color subgroup fixes the retained complex Jordan context pointwise. Its adjoint gradient must not be confused with the trace-free part of that context.
 
 ## An exact analysis map on the measured field carrier
 
@@ -139,7 +139,7 @@ response in this frame.
 
 For the finite Kogut--Susskind operator normalized with kinetic metric \(K\) and coefficient \(\kappa_W\), suppose a unique strictly positive normalized ground state \(\psi_0\) has been obtained. Put
 \(\nu=\psi_0^2\,d\mu_H\). The existing
-[[contemporary-puzzles/yang-mills-mass-gap/exceptional-wilson-same-carrier-factorization|same-carrier ground-state transform]] gives
+[[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization|same-carrier ground-state transform]] gives
 \[
 \langle\psi_0f,(H_{\rm KS}-E_0)\psi_0f\rangle
 =\kappa_W\mathcal E_{K,\nu}(f)

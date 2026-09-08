@@ -150,7 +150,7 @@ $$
 \tag{C13}
 $$
 
-After the Poincare representation has been reconstructed, [[joint-causal-generators-and-the-mass-casimir]] identifies the corresponding invariant-mass statement. Before that reconstruction, (C9) is a transfer-Hamiltonian estimate, not yet a mass Casimir.
+After the Poincare representation has been reconstructed, [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]] identifies the corresponding invariant-mass statement. Before that reconstruction, (C9) is a transfer-Hamiltonian estimate, not yet a mass Casimir.
 
 ## The fresh stopping condition
 

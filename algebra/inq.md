@@ -2,6 +2,10 @@
 inq.module: "algebra"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - 'receipts/*.py'
+  - 'receipts/*.txt'
+keywords: [algebra, descent, realization, associator, positive-response]
 ---
 # Algebraic Pre-Core
 

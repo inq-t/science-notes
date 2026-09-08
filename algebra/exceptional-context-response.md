@@ -11,7 +11,7 @@ J=\mathfrak h_3(\mathbb O),\qquad
 \operatorname{tr}_J\mathbf1=3.
 \]
 Its cone \(J_+=\{x^2:x\in J\}\) is the closed convex cone of nonnegative Jordan spectra. The trace form is positive definite. Let \(w\) be
-[[contemporary-puzzles/yang-mills-mass-gap/order-three-orientation-and-the-exceptional-stabilizer|Yokota's order-three automorphism]], and put
+[[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|Yokota's order-three automorphism]], and put
 \[
 B=\operatorname{Fix}(w)\cong\mathfrak h_3(\mathbb C),\qquad
 E=\frac{I+w+w^2}{3},\qquad q=I-E.
@@ -207,12 +207,12 @@ This is a concrete reason not to infer full physical coverage from the finite Jo
 ## What this contributes to the mass-gap search
 
 The same prior \(w\), supplemented by a trace-two idempotent, has
-[[contemporary-puzzles/yang-mills-mass-gap/order-three-orientation-and-the-exceptional-stabilizer|the exceptional Standard-Model flag stabilizer]]. It now also supplies a positive retraction and a computable information-response realization. The link is therefore stronger than matching a group name to a number.
+[[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|the exceptional Standard-Model flag stabilizer]]. It now also supplies a positive retraction and a computable information-response realization. The link is therefore stronger than matching a group name to a number.
 
-Still missing are a law selecting physical contexts and states, their spacetime localization, a faithful action on the complete neutral gauge carrier, and a uniform comparison with the physical transfer or mass Casimir. [[contemporary-puzzles/yang-mills-mass-gap/exceptional-wilson-same-carrier-factorization|The exceptional Wilson construction]] is a separate existing route to an actual finite Euclidean gauge measure; it must not be identified with (EC10) by terminology alone.
+Still missing are a law selecting physical contexts and states, their spacetime localization, a faithful action on the complete neutral gauge carrier, and a uniform comparison with the physical transfer or mass Casimir. [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization|The exceptional Wilson construction]] is a separate existing route to an actual finite Euclidean gauge measure; it must not be identified with (EC10) by terminology alone.
 
 There is now a concrete partial bridge: [[global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients|differentiating the representation]] makes the cyclic contexts an exact frame for gradients of scalar gauge-invariant observables under a specified Wilson law. It does not act on their scalar values as an internal channel. This factors the field Dirichlet form, but leaves its state-dependent coercivity and the physical slab comparison unproved.
 
 The coefficient \(9/13\) in (EC6) is a normalized finite frame ratio, and \(1/13\) in the second derivative of (EC16) is a Hessian coefficient in the explicitly selected state chart. Neither is a glueball coefficient or an inverse clock time. Their value is methodological: an algebraically specified relation really can force a quantitative bound, while the operator's domain says exactly which distinctions it bounds.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/positivity_rigidity_audit_receipt.py|The finite audit receipt]] checks the Jordan variance, regular traces, CP intertwining, entropy expansion, and unseen balance direction. The Haar identity is proved above using the cited representation input, not established by finite sampling.
+[[algebra/receipts/positivity_rigidity_audit_receipt.py|The finite audit receipt]] checks the Jordan variance, regular traces, CP intertwining, entropy expansion, and unseen balance direction. The Haar identity is proved above using the cited representation input, not established by finite sampling.

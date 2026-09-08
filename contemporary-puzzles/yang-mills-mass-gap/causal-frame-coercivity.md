@@ -539,7 +539,7 @@ $$
 
 Thus, with product color Haar measure, that member is exactly the fundamental Wilson $SU(3)$ Gibbs and transfer system at every finite lattice spacing. This discharges action identification for the declared color pullback; it does not obtain that member by conditioning the full stabilizer theory, select its coupling trajectory, or construct its continuum net. The comparison contracts below remain necessary for any stronger claim that QFT itself emerges.
 
-The finite Hamiltonian carrier is also already the ordinary one. [[exceptional-wilson-same-carrier-factorization]] proves that the normal is a response probe whose character and trace induce operators on
+The finite Hamiltonian carrier is also already the ordinary one. [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization]] proves that the normal is a response probe whose character and trace induce operators on
 \(L^2(SU(3)^E,\mu_{\mathrm H})^{SU(3)^V}\), with
 
 $$

@@ -121,7 +121,7 @@ $$
 \tag{C1}
 $$
 
-The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and localization-boundary version of the same reversal; [[mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
+The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and localization-boundary version of the same reversal; [[mass-scale-calibration/mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
 
 ## The operator-carrier ledger
 

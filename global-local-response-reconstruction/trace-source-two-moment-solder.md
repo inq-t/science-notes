@@ -137,7 +137,7 @@ $$
 
 Thus a constant Weyl-source derivative is extensive; obtaining (TM4) from it requires the displayed unit conversion, matched thermal and vacuum support, the thermodynamic limit, and the stated subtraction. This interaction measure detects departure from conformal radiation in a thermal state. A generic RG-depth derivative is not automatically this Weyl or temperature response.
 
-Its cosmological history can be integrated into the dimensionless additive cocycle developed in [[contemporary-puzzles/yang-mills-mass-gap/trace-residue-as-a-scale-cocycle|trace residue as a scale cocycle]],
+Its cosmological history can be integrated into the dimensionless additive cocycle developed in [[causal-grain-cosmology/trace-residue-as-a-scale-cocycle|trace residue as a scale cocycle]],
 
 $$
 \Xi_\Theta(N_1,N_2)

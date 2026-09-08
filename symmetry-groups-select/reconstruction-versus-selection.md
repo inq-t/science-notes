@@ -59,7 +59,7 @@ Thus three levels must be distinguished:
 2. **finite-regulator action recovery:** the flag-torsor and color-Wilson theorem, exact after choosing the full normal carrier and color pullback; and
 3. **QFT selection:** a state, bare coupling trajectory, physical carrier, continuum net, dynamics, and matter content determined from the deeper data, still open.
 
-The result has genuine Copernican content because several familiar structures now follow from one prior pointed object. It does not yet show why the exceptional flag is physically admissible, why the color-only member rather than the full non-simple stabilizer is realized, or why its Wilson vacuum has a continuum mass gap. [[contemporary-puzzles/yang-mills-mass-gap/exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional normal-holonomy theorem]] owns the exact construction and its stopping conditions.
+The result has genuine Copernican content because several familiar structures now follow from one prior pointed object. It does not yet show why the exceptional flag is physically admissible, why the color-only member rather than the full non-simple stabilizer is realized, or why its Wilson vacuum has a continuum mass gap. [[exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional normal-holonomy theorem]] owns the exact construction and its stopping conditions.
 
 ## The circularity test
 

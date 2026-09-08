@@ -60,7 +60,7 @@ M^2=\frac{H^2-c^2\mathbf P^2}{c^4}.
 \tag{PMP4}
 $$
 
-On an irreducible massive sector it is a scalar label, while momentum varies along the corresponding orbit. There is no universal canonical coordinate \(Q_M\) with \([Q_M,M]=i\hbar\). This is the valid content of saying that mass is not another phase-space coordinate. It does **not** mean that every state has sharp mass: reducible representations can have mass distributions, and unstable resonances have spectral widths. Nor can fixed mass inside a sector be used circularly to prove that the vacuum representation has a mass gap. [[mass-as-casimir-and-realization]] owns the full distinction.
+On an irreducible massive sector it is a scalar label, while momentum varies along the corresponding orbit. There is no universal canonical coordinate \(Q_M\) with \([Q_M,M]=i\hbar\). This is the valid content of saying that mass is not another phase-space coordinate. It does **not** mean that every state has sharp mass: reducible representations can have mass distributions, and unstable resonances have spectral widths. Nor can fixed mass inside a sector be used circularly to prove that the vacuum representation has a mass gap. [[mass-scale-calibration/mass-as-casimir-and-realization]] owns the full distinction.
 
 Thus the Heisenberg relations and the mass-gap statement ask different questions. The former concern noncommuting observables on an already supplied carrier. The latter asks whether the reconstructed joint spectrum contains any nonvacuum sector arbitrarily close to the vacuum.
 
@@ -240,7 +240,7 @@ $$
 
 If the Euclidean parameter is a duration \(\tau\), replace \(\ell/c\) by \(\tau\) and \(\hbar c\) by \(\hbar\). The theorem gives an exact sense in which a clock-energy gap is a time or length gap: it is the reciprocal of the supremal, or worst-case, integrated Euclidean persistence over normalized nonvacuum directions. It does **not** give a smallest spatial interval, a duration between facts, or a grain of observation. A gapless theory can have finite dwell for particular states while lacking a uniform ceiling over the whole vacuum complement. Only after the Poincare reconstruction and Casimir identification may this clock-energy statement be called a relativistic mass gap.
 
-[[mass-as-a-calibrated-distinction-rate]] gives the differential companion: the same gap is \(\hbar c\) times the logarithmic attenuation per Euclidean length, or \(\hbar\) times the attenuation per Euclidean duration. It also states the additional carrier and record obligations required before that exact attenuation rate may be interpreted as a rate of factification.
+[[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] gives the differential companion: the same gap is \(\hbar c\) times the logarithmic attenuation per Euclidean length, or \(\hbar\) times the attenuation per Euclidean duration. It also states the additional carrier and record obligations required before that exact attenuation rate may be interpreted as a rate of factification.
 
 Under the stationary reversible Hilbert-positive Markov--OS and endpoint-identification hypotheses of [[past-future-angle-and-the-transfer-gap]], combine this with the exact angle identity
 

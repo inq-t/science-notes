@@ -184,7 +184,7 @@ is a periodic fiber-coordinate transformation with
 This gap is measured above the **entire** parallel kernel, not just the scalar unit. Already \(X_v=f(v)I\) supplies the ordinary slow scalar modes.
 
 The change from vector to adjoint representation removes exactly the central loop discrepancy used by (HT3). This is the same kind of global-sensitivity distinction as
-[[contemporary-puzzles/yang-mills-mass-gap/faithful-and-adjoint-holonomy-response|faithful versus adjoint holonomy]],
+[[exceptional-gauge-realization/faithful-and-adjoint-holonomy-response|faithful versus adjoint holonomy]],
 now with an explicit volume-uniform spectral consequence on one carrier and its failure on the other. It is not proof that a composite bound state is gapless: the adjoint heat process is not the two-particle Hamiltonian of the vector model.
 
 [[positive-energy-pairs-and-the-neutral-gap|The positive-energy pair construction]] now makes this distinction constructive. The same response root \(A=\sqrt{L_T}\) yields a free charged Fock vacuum and a neutral pair threshold \(2\inf\sigma(A)\), transported by an explicit energy intertwiner. [[directed-analytic-realization/neutral-gaussian-return-of-holonomy-response|The Gaussian field return]] realizes that threshold in the vacuum carrier of a neutral local observable family. Global phase neutrality and a fixed-background free theory are not the Yang–Mills Gauss-law construction.

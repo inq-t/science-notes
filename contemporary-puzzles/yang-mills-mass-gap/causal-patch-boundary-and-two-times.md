@@ -652,7 +652,7 @@ The theorem deliberately does not equate units with concepts.
 | scale | comparison of distinguishability or metric normalization between carriers | dimensionless ratio before a yardstick |
 | mass | invariant spectral threshold in a Poincare-covariant physical representation satisfying the spectrum condition | \(\Delta_E/c^2\) |
 
-[[mass-as-casimir-and-realization]] refines the final row: the translation generators \(P_\mu\) vary within irreducible Poincare representations, while \(P^2/c^2\) is one invariant label of their type. Its common realization ledger also separates measurement pointing and broken-vacuum selection from the independent coercivity statement that isolates the vacuum.
+[[mass-scale-calibration/mass-as-casimir-and-realization]] refines the final row: the translation generators \(P_\mu\) vary within irreducible Poincare representations, while \(P^2/c^2\) is one invariant label of their type. Its common realization ledger also separates measurement pointing and broken-vacuum selection from the independent coercivity statement that isolates the vacuum.
 
 If a Poincare-covariant vacuum representation with Lorentz-invariant joint spectrum and the spectrum condition has been recovered, the rest-mass gap is
 

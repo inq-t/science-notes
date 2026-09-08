@@ -19,7 +19,7 @@ X=pBp\cong\mathfrak h_2(\mathbb C),\qquad Q(a)=pE(a)p.
 \]
 Compression occurs inside the associative complex matrix presentation of \(B\). Both maps are positive. Their composite retracts onto \(X\), with retained unit \(p\), and is not a product-preserving embedding of the exceptional algebra.
 
-These are the same \(w,p\) data underlying [[contemporary-puzzles/yang-mills-mass-gap/jordan-idempotency-and-the-stabilizer-gap|the exceptional flag stabilizer]]. No additional three-dimensional subspace is chosen after (PC2). Physical selection of the complex context and rank-two corner remains open.
+These are the same \(w,p\) data underlying [[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap|the exceptional flag stabilizer]]. No additional three-dimensional subspace is chosen after (PC2). Physical selection of the complex context and rank-two corner remains open.
 
 Write \(I\) for \(p\) in a matrix chart. The Pauli decomposition gives
 \[

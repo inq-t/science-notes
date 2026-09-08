@@ -386,7 +386,7 @@ C_{p,2p}^*C_{p,2p}=r_0I.
 \tag{CR27}
 $$
 
-Equivalently, under a scale translation \(A\mapsto A+sI\), the squared response transforms by the character \(e^{(q-2p)s}\). It is scale-neutral precisely when \(q=2p\). This is a **common translation of invariant mean scale** and should be interpreted as address or theory-family covariance, not an exact unitary dilation symmetry inside one fixed gapped theory; [[mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|the same-carrier dilation no-go]] forbids the latter. It is also distinct from the reciprocal frame or boost shift of the two directional addresses, under which their mean \(A\) is already fixed.
+Equivalently, under a scale translation \(A\mapsto A+sI\), the squared response transforms by the character \(e^{(q-2p)s}\). It is scale-neutral precisely when \(q=2p\). This is a **common translation of invariant mean scale** and should be interpreted as address or theory-family covariance, not an exact unitary dilation symmetry inside one fixed gapped theory; [[mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|the same-carrier dilation no-go]] forbids the latter. It is also distinct from the reciprocal frame or boost shift of the two directional addresses, under which their mean \(A\) is already fixed.
 
 The bilateral hypothesis is load-bearing and is not supplied by an ordinary semi-infinite RG tower. If \(A\) is bounded below and unbounded above, the exact homogeneous model has a floor whenever \(q\geq2p\); if \(A\) is bounded above and unbounded below, it has a floor whenever \(q\leq2p\). Equality is uniquely forced by a bilateral carrier, or by the stronger requirement that the response be scale-neutral rather than merely bounded below. A physical application must construct the relevant support and covariance rather than silently extending a one-sided filtration. Likewise, choosing \(R=e^{2pA}\) after seeing (CR26) is a tautology. Explanatory content begins only if geometry derives \(R\), its exponent, and its normalization independently of the desired floor.
 
@@ -557,7 +557,7 @@ H^2-c^2|\mathbf P|^2
 \tag{CR35}
 $$
 
-be the energy-squared presentation of the physical Poincare mass Casimir; the spectrum condition makes it nonnegative. [[joint-causal-generators-and-the-mass-casimir#Casimir solder to a distinction frame|The canonical Casimir-solder note]] owns this downstream comparison. A direct same-carrier solder would have to prove
+be the energy-squared presentation of the physical Poincare mass Casimir; the spectrum condition makes it nonnegative. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir#Casimir solder to a distinction frame|The canonical Casimir-solder note]] owns this downstream comparison. A direct same-carrier solder would have to prove
 
 $$
 \|\mathcal C^{1/2}f\|^2

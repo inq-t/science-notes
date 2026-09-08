@@ -310,7 +310,7 @@ Using \(\mathcal C\) here clarifies the meaning of a known mass gap. It cannot p
 
 ## Opposite causal directions and the invariant mean center
 
-The reminder in [[joint-causal-generators-and-the-mass-casimir]] now has an exact scale-coordinate form. Let \(K_+,K_-\geq0\) be strongly commuting dimensionless self-adjoint operators, and let
+The reminder in [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]] now has an exact scale-coordinate form. Let \(K_+,K_-\geq0\) be strongly commuting dimensionless self-adjoint operators, and let
 
 $$
 P_{\leftrightarrow}
@@ -503,7 +503,7 @@ $$
 
 is already, up to the universal factor \(1/12\), the desired Casimir gap estimate. The transform cannot make that comparison free. Its useful new return value is the scale-center observable (RL20), where the missing infrared obstruction becomes visible rather than hidden in a universal profile constant.
 
-For the causal grain, this changes the viable interpretation. A grain cannot be the logistic width, a \(4.264\,\mathrm{fm}\) pixel, or the number \(1/4\). It could only be a historical reason that the physical carrier acquires an invariant center ceiling, an admissible-sector boundary, or an RG stopping class whose dimensionful presentation is fixed later. [[causal-grain-as-a-mass-engagement-fossil]] owns that conjectural historical claim.
+For the causal grain, this changes the viable interpretation. A grain cannot be the logistic width, a \(4.264\,\mathrm{fm}\) pixel, or the number \(1/4\). It could only be a historical reason that the physical carrier acquires an invariant center ceiling, an admissible-sector boundary, or an RG stopping class whose dimensionful presentation is fixed later. [[causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil]] owns that conjectural historical claim.
 
 ## Compatibility and recovery
 

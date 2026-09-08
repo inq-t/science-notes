@@ -1,0 +1,373 @@
+{
+  "manifest": "scripts/refactors/2026-09-08-yang-mills.json",
+  "moves": [
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/jordan-idempotency-and-the-stabilizer-gap.md",
+      "to": "exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap.md",
+      "before_sha256": "9152bc98875f207559ce108d57d6ee9cbaea7d6269d5083f89bb6ca5011e0356",
+      "after_sha256": "2f22b27054687e9d44919e863c8668efccba871008a04c697fdd5a34f6739dea"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/order-three-orientation-and-the-exceptional-stabilizer.md",
+      "to": "exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer.md",
+      "before_sha256": "559e1d5615aa4fae789cf9cda713d8f3207178c343f348d51769e3b3cfb958e3",
+      "after_sha256": "99772c5315d9fc7cdcf264bd2dce34c6839ffa3206e935fb02bd5453bb9f7e25"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/exceptional-normal-holonomy-and-the-residual-gauge-form.md",
+      "to": "exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form.md",
+      "before_sha256": "1e932c30839ec90ff558c012fcfe608d0362fe1da4c30b635525253e67ce4442",
+      "after_sha256": "5d1efee2cb6b3ba2c80716187a3060a9588250937431b5c59abc35c1214edd32"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/octonionic-clifford-completion-of-the-color-normal.md",
+      "to": "exceptional-gauge-realization/octonionic-clifford-completion-of-the-color-normal.md",
+      "before_sha256": "2ab4ac8faa987226e796948718735cc07e887a3dbc8753973a752829c449bd77",
+      "after_sha256": "8840ade8317ea1ed317afb30c5d03ee1897d5be4161231c9235e480fe80040e4"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/octonionic-slice-groupoid-and-orientation-torsor.md",
+      "to": "exceptional-gauge-realization/octonionic-slice-groupoid-and-orientation-torsor.md",
+      "before_sha256": "8e3d6347f83466d2e4d056b277183dcff5db8a7e9fd14b70d0d44f70acb53e9d",
+      "after_sha256": "4216866c7e891ba11aae60d2941549391d5c276592865e5ddf7a4315359546e4"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/exceptional-wilson-same-carrier-factorization.md",
+      "to": "exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization.md",
+      "before_sha256": "b202994bab04f084fa077883af492056c2db53c1071c9e880d68e7e1e1997ef7",
+      "after_sha256": "3e88ffd1117c5b6d6729585627a415d1d7e653196543d32d5408afbfa03e548c"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/faithful-and-adjoint-holonomy-response.md",
+      "to": "exceptional-gauge-realization/faithful-and-adjoint-holonomy-response.md",
+      "before_sha256": "e24bd4a433ee52c58671493d1f0108e0ac7162679aec7f62f9e9479d379e028d",
+      "after_sha256": "f81e168bd4144c0f7075265c4c5eb7898cfc4c530c9ccfe9836349e1a4bb466c"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/global-discreteness-kazhdan-rigidity-and-the-gap.md",
+      "to": "categorical-gauge-response/global-discreteness-kazhdan-rigidity-and-the-gap.md",
+      "before_sha256": "0b0f511a495c3aacdb0bdc918f84fc6c5c3e8b024a3e5cc08d0fdd63ae551af0",
+      "after_sha256": "80777f4614247406935fb764b73a0c111747e3c7f9228e0981ab9d7405d4179d"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/quantum-g2-categorical-rigidity-and-the-carrier-firewall.md",
+      "to": "categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall.md",
+      "before_sha256": "1baea86faaa31bea022ad1f563a03a128be4c51c9877ca92db052df5f7dada20",
+      "after_sha256": "148609867325932b1bf8a11bdf244242753da0ae694a6a412be7f666a62aad14"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/categorical-action-on-the-neutral-wilson-carrier.md",
+      "to": "categorical-gauge-response/categorical-action-on-the-neutral-wilson-carrier.md",
+      "before_sha256": "226c691ed5b7c71a33d249895a6ea4a3b6f3f2cf45b0b64c47e85a506a7ed5d0",
+      "after_sha256": "a9df3bdcf21667ec4831fbc87f050f04b51f49863f3429ed1a583dc2e88935db"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/kazhdan-markov-process-carrier.md",
+      "to": "categorical-gauge-response/kazhdan-markov-process-carrier.md",
+      "before_sha256": "777b4de95d6e72002c319e876dacb02dd91fb5529f11ded39c35b105dcefe9c2",
+      "after_sha256": "6ba8696a87c977e0af49391781f120219d7f9a95299e937339894fde148480e5"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/s6-descent-defect-and-the-chirality-firewall.md",
+      "to": "triangle-descent-response/s6-descent-defect-and-the-chirality-firewall.md",
+      "before_sha256": "1d043be54a9aa58ac32e67841b62da8c2af8c40cdb59ecedfa6933d3d383523d",
+      "after_sha256": "1e045eb03204b9eb58b88a4e6dd0d3388685b7c5a4259d676a730ac0d6763829"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/triangle-character-cusp-coercivity.md",
+      "to": "triangle-descent-response/triangle-character-cusp-coercivity.md",
+      "before_sha256": "7c41caf146e03ff28ed8d24b4bd6006c9b192dda518eb745878eacda70c7d6e7",
+      "after_sha256": "56ed2e85ed6571238f3c7aed2701b8d145d696c20beb06156a6666d857e86855"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/augmentation-descent-and-the-neutral-sector-firewall.md",
+      "to": "triangle-descent-response/augmentation-descent-and-the-neutral-sector-firewall.md",
+      "before_sha256": "9bcebbd1ed7f76f16dd77359e997d05c032276558dcc92de20ad61bfbd47a197",
+      "after_sha256": "d5a80a08d92b0e10fa125011bae69e95f97b9c47dd0d9de5024a001d2ca62158"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/triangle-presentation-descent-on-the-neutral-adjoint-carrier.md",
+      "to": "triangle-descent-response/triangle-presentation-descent-on-the-neutral-adjoint-carrier.md",
+      "before_sha256": "be6da056c83cb3e74cab83c4028c83a55081cb03590dbd210b82ad37ea37abc6",
+      "after_sha256": "ed85783eb52ffa827a79c2b0df01215aec8064d726ab1d2acf92818b07d295a0"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/mass-and-g-as-dual-exchange-rates.md",
+      "to": "mass-scale-calibration/mass-and-g-as-dual-exchange-rates.md",
+      "before_sha256": "3c5164d69089ed12240e8b6b28af6e2918be0837651ea3cfce4ea6dea8754e80",
+      "after_sha256": "8513f8781903b2f3f8d32b38fd459f7f215101f8de06112fce76a9d2102122d1"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/mass-as-a-calibrated-distinction-rate.md",
+      "to": "mass-scale-calibration/mass-as-a-calibrated-distinction-rate.md",
+      "before_sha256": "b9b0ec8a60a528306bc64e8c3be6f2c5e688991875a3708cfe6f66746f962233",
+      "after_sha256": "a70009dbedaa24fdb560302eb9b7b401e39ebb6d1ca09def7b66d6cd693c082a"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/hbar-clock-and-the-calibration-firewall.md",
+      "to": "mass-scale-calibration/hbar-clock-and-the-calibration-firewall.md",
+      "before_sha256": "f53daf98f4249e67849382d8e4fa0ded54fdc237b93ca3cd2a938a5e39ab3143",
+      "after_sha256": "37d00920655d6f58a4a0fcb20466a4f9171c61eef867c91dbdaebb1c2394cb05"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/internal-yardstick-as-a-generalized-rate-edge.md",
+      "to": "mass-scale-calibration/internal-yardstick-as-a-generalized-rate-edge.md",
+      "before_sha256": "8113405019cac8928284b7748ffc87b0da340cf17adbed0990b64bb019cfbe98",
+      "after_sha256": "d69f9c05344235b1d047dd0d4353feb319553174354bb355269438a02d7606b1"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/joint-causal-generators-and-the-mass-casimir.md",
+      "to": "mass-scale-calibration/joint-causal-generators-and-the-mass-casimir.md",
+      "before_sha256": "1860b0d1ac6ed26708be266d339bec0bfc89d9a019dab395bd101ebcec1bc60f",
+      "after_sha256": "df71256a0e1891ee60f67caa9cc0de52754fb97e2bdc67c30e56b4cf49deb2bf"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/scale-torsor-and-the-global-local-gap-invariant.md",
+      "to": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "before_sha256": "31ee97282129743bf930f32ef13302be45235973e7cc98ba2b792a35c46f30cf",
+      "after_sha256": "c9a547a5f1de5187e69e52189e34c449cfb3bab14a4ad7dfedfe3c78344b5f9c"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization.md",
+      "to": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "before_sha256": "f16fd4b89b93fc09356280c753bb7c170134c95abb78ede7f2690f3cd482c01c",
+      "after_sha256": "6568f7e7073d1629aac3388d434283f15c5b2703f872cc44ef9fc68416b7e1e4"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/causal-grain-as-a-mass-engagement-fossil.md",
+      "to": "causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil.md",
+      "before_sha256": "7301f4afeadf195fd9069ffe5a78ffd65f54b630a77aca115a130eed51d721a0",
+      "after_sha256": "22584b63358410986862c500aa9fe2e98440ceaaee246f3995b290aeb3f5c805"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/pair-annihilation-quotient-and-the-baryon-acoustic-carrier.md",
+      "to": "causal-grain-cosmology/pair-annihilation-quotient-and-the-baryon-acoustic-carrier.md",
+      "before_sha256": "16d0489c96b549105cd47b715837c424fd52f2cf3d01ed5bf3c1cdf5fc169acb",
+      "after_sha256": "76baa7f0bcd9f6a37db9586fd4a91872ef3f9f3605878b180ae10f67b5d26ce8"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/trace-residue-as-a-scale-cocycle.md",
+      "to": "causal-grain-cosmology/trace-residue-as-a-scale-cocycle.md",
+      "before_sha256": "fb04452c1f3648bef0ae74f5e6399fc01e132550f10fac64a01109df6640c8a1",
+      "after_sha256": "0bba90f283357b3432398fa0703ab7d433cf11157cd4400664befa4c4a035150"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/standard-model-trace-fossil-diagnostic.md",
+      "to": "causal-grain-cosmology/standard-model-trace-fossil-diagnostic.md",
+      "before_sha256": "8edd3872326ea32ba458bcaf32a39a14bd7f597e303a4257ec60146d4848420a",
+      "after_sha256": "f880a808a446f649228ee1127aa1afe529a140feb648411590c8c5230f088e4f"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/a2-weyl-radial-operator.md",
+      "to": "algebra/a2-weyl-radial-operator.md",
+      "before_sha256": "fd6e6125ad9909347d6b4644e6a81f93d2af825af8bbbb8169fbf0c41b23c975",
+      "after_sha256": "c5b8cb96afe69b243bdac460a75547009d547cfe6e358750a00f14197333191c"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/octonionic-phase-space-and-the-born-rule-firewall.md",
+      "to": "algebra/octonionic-phase-space-and-the-born-rule-firewall.md",
+      "before_sha256": "52e6d6743969e9500db55aed53ccee9211b0abe4e01a7e0b5452341ca3ceefaf",
+      "after_sha256": "e0a6e3decb1715d844e190545264c41ada9d8f99c7ec58ef498be603c07425ab"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/jordan_idempotency_gap_receipt.py",
+      "to": "exceptional-gauge-realization/receipts/jordan_idempotency_gap_receipt.py",
+      "before_sha256": "f0df0d08cae35b6a51ce3f79f62abf2706d79fcff7b694b45069c518cf11edce",
+      "after_sha256": "f0df0d08cae35b6a51ce3f79f62abf2706d79fcff7b694b45069c518cf11edce"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/jordan-idempotency-gap-receipt-output.txt",
+      "to": "exceptional-gauge-realization/receipts/jordan-idempotency-gap-receipt-output.txt",
+      "before_sha256": "8905f9f45f06a93eb02a9959efd78b00460219a19c44fded9241ae3f4859c4e5",
+      "after_sha256": "8905f9f45f06a93eb02a9959efd78b00460219a19c44fded9241ae3f4859c4e5"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional_normal_holonomy_receipt.py",
+      "to": "exceptional-gauge-realization/receipts/exceptional_normal_holonomy_receipt.py",
+      "before_sha256": "0560da564ad389c8d15f3012481acac6acb0cae05c64f7be6d4ffdf8b69d2365",
+      "after_sha256": "0560da564ad389c8d15f3012481acac6acb0cae05c64f7be6d4ffdf8b69d2365"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional-normal-holonomy-receipt-output.txt",
+      "to": "exceptional-gauge-realization/receipts/exceptional-normal-holonomy-receipt-output.txt",
+      "before_sha256": "127afd4c425dfe38deab1bc9b55ddcdbebc64884cda38c08c0e5edc8b45d73d8",
+      "after_sha256": "127afd4c425dfe38deab1bc9b55ddcdbebc64884cda38c08c0e5edc8b45d73d8"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/nonlinear_holonomy_probe_receipt.py",
+      "to": "exceptional-gauge-realization/receipts/nonlinear_holonomy_probe_receipt.py",
+      "before_sha256": "3c49f0b30f4a33274882b1f64a765cff885cd1813d58475910130153fdc8db39",
+      "after_sha256": "3c49f0b30f4a33274882b1f64a765cff885cd1813d58475910130153fdc8db39"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/quantum-g2-categorical-rigidity-receipt.py",
+      "to": "categorical-gauge-response/receipts/quantum-g2-categorical-rigidity-receipt.py",
+      "before_sha256": "2d7bec2c153747a621e7c2285b2584b2e8a4e4fb9292a3970aa8c6f76e57f6c7",
+      "after_sha256": "2d7bec2c153747a621e7c2285b2584b2e8a4e4fb9292a3970aa8c6f76e57f6c7"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/quantum-g2-categorical-rigidity-receipt-output.txt",
+      "to": "categorical-gauge-response/receipts/quantum-g2-categorical-rigidity-receipt-output.txt",
+      "before_sha256": "abc2f7e308df3b87ca0d3564668f24506b3469705112c7eca9da35381002221e",
+      "after_sha256": "abc2f7e308df3b87ca0d3564668f24506b3469705112c7eca9da35381002221e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/fusion_character_centering_receipt.py",
+      "to": "categorical-gauge-response/receipts/fusion_character_centering_receipt.py",
+      "before_sha256": "3721dd9778d4ef4503bd668d07473e73a05d28ec32908e68e0b170f77d1fe5f1",
+      "after_sha256": "3721dd9778d4ef4503bd668d07473e73a05d28ec32908e68e0b170f77d1fe5f1"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/fusion-character-centering-receipt-output.txt",
+      "to": "categorical-gauge-response/receipts/fusion-character-centering-receipt-output.txt",
+      "before_sha256": "928a04bea645776355c2a1c0ebfabf517f7d01a17c020db269e08af9d3d5d0fe",
+      "after_sha256": "928a04bea645776355c2a1c0ebfabf517f7d01a17c020db269e08af9d3d5d0fe"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-almost-invariant-receipt.py",
+      "to": "categorical-gauge-response/receipts/triangle-almost-invariant-receipt.py",
+      "before_sha256": "e6ad6fc6d8e23ab2158b902b209fdcc555784f58edb510a51fc108e45e2820ce",
+      "after_sha256": "e6ad6fc6d8e23ab2158b902b209fdcc555784f58edb510a51fc108e45e2820ce"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-almost-invariant-receipt-output.txt",
+      "to": "categorical-gauge-response/receipts/triangle-almost-invariant-receipt-output.txt",
+      "before_sha256": "27b865555dd836e557cc28fb0e8bf99e34df149bc350ca7b8cf0798d5a386ed5",
+      "after_sha256": "27b865555dd836e557cc28fb0e8bf99e34df149bc350ca7b8cf0798d5a386ed5"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-character-cusp-receipt.py",
+      "to": "triangle-descent-response/receipts/triangle-character-cusp-receipt.py",
+      "before_sha256": "75b97970c000d500d412a4d020d03fec4cc0bda3f6c66f57a000b114c1db9534",
+      "after_sha256": "75b97970c000d500d412a4d020d03fec4cc0bda3f6c66f57a000b114c1db9534"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-character-cusp-receipt-output.txt",
+      "to": "triangle-descent-response/receipts/triangle-character-cusp-receipt-output.txt",
+      "before_sha256": "bd3ee3b0d35a2a87597ff871a6c01614360d4517298728f9d78321bbeb639163",
+      "after_sha256": "bd3ee3b0d35a2a87597ff871a6c01614360d4517298728f9d78321bbeb639163"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/augmentation-descent-receipt.py",
+      "to": "triangle-descent-response/receipts/augmentation-descent-receipt.py",
+      "before_sha256": "48be379ec9ae2e48f28f1ba90a06d852cac3ee992581cde376b92ec29ebebbd6",
+      "after_sha256": "48be379ec9ae2e48f28f1ba90a06d852cac3ee992581cde376b92ec29ebebbd6"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/augmentation-descent-receipt-output.txt",
+      "to": "triangle-descent-response/receipts/augmentation-descent-receipt-output.txt",
+      "before_sha256": "458258aaa2aa503bbba8c18248921e3549a5105f41299887f3776d5f884cd5ef",
+      "after_sha256": "458258aaa2aa503bbba8c18248921e3549a5105f41299887f3776d5f884cd5ef"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-neutral-adjoint-frame-receipt.py",
+      "to": "triangle-descent-response/receipts/triangle-neutral-adjoint-frame-receipt.py",
+      "before_sha256": "b4c4c4fe43f6374e4e0e7d8be0fda6920cd65f67e49cc0cc6536875a0b206c88",
+      "after_sha256": "b4c4c4fe43f6374e4e0e7d8be0fda6920cd65f67e49cc0cc6536875a0b206c88"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/triangle-neutral-adjoint-frame-receipt-output.txt",
+      "to": "triangle-descent-response/receipts/triangle-neutral-adjoint-frame-receipt-output.txt",
+      "before_sha256": "0b521ec51fe15cc18b3e513de178a0cd3187ae9007347b12b318d325baa14c54",
+      "after_sha256": "0b521ec51fe15cc18b3e513de178a0cd3187ae9007347b12b318d325baa14c54"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/joint_null_casimir_receipt.py",
+      "to": "mass-scale-calibration/receipts/joint_null_casimir_receipt.py",
+      "before_sha256": "d4c8469174abc619f33cf7d128606061ff2dd50ee79b24b1cc8cb0e7b202daa4",
+      "after_sha256": "d4c8469174abc619f33cf7d128606061ff2dd50ee79b24b1cc8cb0e7b202daa4"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/internal-yardstick-rate-edge-receipt.py",
+      "to": "mass-scale-calibration/receipts/internal-yardstick-rate-edge-receipt.py",
+      "before_sha256": "63ba85994482ffbcdc245779323a4bcee67da79c052d76180966c30cdb9dd696",
+      "after_sha256": "63ba85994482ffbcdc245779323a4bcee67da79c052d76180966c30cdb9dd696"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/internal-yardstick-rate-edge-receipt-output.txt",
+      "to": "mass-scale-calibration/receipts/internal-yardstick-rate-edge-receipt-output.txt",
+      "before_sha256": "c494918300631daae236cecb3d9e1fac20a14067f52ddeb3805da8f467125a21",
+      "after_sha256": "c494918300631daae236cecb3d9e1fac20a14067f52ddeb3805da8f467125a21"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/causal_grain_mass_engagement_scale_receipt.py",
+      "to": "causal-grain-cosmology/receipts/causal_grain_mass_engagement_scale_receipt.py",
+      "before_sha256": "3c3e7899b319a6103aa06699e2ed27229f00d4e8c62e026605fc8571e53eab2e",
+      "after_sha256": "3c3e7899b319a6103aa06699e2ed27229f00d4e8c62e026605fc8571e53eab2e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/baryon_asymmetry_exposure_receipt.py",
+      "to": "causal-grain-cosmology/receipts/baryon_asymmetry_exposure_receipt.py",
+      "before_sha256": "35505f324bb761f5947c615daf22320b1352c2bb80fb50c5262f8e20bca7f862",
+      "after_sha256": "35505f324bb761f5947c615daf22320b1352c2bb80fb50c5262f8e20bca7f862"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/baryon-asymmetry-exposure-receipt-output.txt",
+      "to": "causal-grain-cosmology/receipts/baryon-asymmetry-exposure-receipt-output.txt",
+      "before_sha256": "a6110e4a8345ff87e8389f2cd60ecdf56c0a1d482a8c7f028527ea1e65d968e7",
+      "after_sha256": "a6110e4a8345ff87e8389f2cd60ecdf56c0a1d482a8c7f028527ea1e65d968e7"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/standard_model_trace_fossil_receipt.py",
+      "to": "causal-grain-cosmology/receipts/standard_model_trace_fossil_receipt.py",
+      "before_sha256": "b28e0c90c8d22d904ae507ae176539c2c519ad2bde594447cc1855a70920e79e",
+      "after_sha256": "b28e0c90c8d22d904ae507ae176539c2c519ad2bde594447cc1855a70920e79e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/standard-model-trace-fossil-receipt-output.txt",
+      "to": "causal-grain-cosmology/receipts/standard-model-trace-fossil-receipt-output.txt",
+      "before_sha256": "56d11c2dc56b8c16373e65f118c43e053b7e8eb96f569b4ef6dd6b5eddba578e",
+      "after_sha256": "56d11c2dc56b8c16373e65f118c43e053b7e8eb96f569b4ef6dd6b5eddba578e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional_flag_linearization_receipt.py",
+      "to": "algebra/receipts/exceptional_flag_linearization_receipt.py",
+      "before_sha256": "24ad2d5b362335bed4622190fd0f7d43812989b2ba06fb179561f79ec61548d4",
+      "after_sha256": "24ad2d5b362335bed4622190fd0f7d43812989b2ba06fb179561f79ec61548d4"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/exceptional-flag-linearization-receipt-output.txt",
+      "to": "algebra/receipts/exceptional-flag-linearization-receipt-output.txt",
+      "before_sha256": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795",
+      "after_sha256": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/positivity_rigidity_audit_receipt.py",
+      "to": "algebra/receipts/positivity_rigidity_audit_receipt.py",
+      "before_sha256": "c32ac0fa14dda8855f0ce3f89131473bac2ab0d3c5eebaa21eb3a2af9959219e",
+      "after_sha256": "c32ac0fa14dda8855f0ce3f89131473bac2ab0d3c5eebaa21eb3a2af9959219e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/primitive_peirce_response_receipt.py",
+      "to": "algebra/receipts/primitive_peirce_response_receipt.py",
+      "before_sha256": "15573d7354cff1b66634e63c93f1058beff9cac454927405a1d38f6e84caed7d",
+      "after_sha256": "15573d7354cff1b66634e63c93f1058beff9cac454927405a1d38f6e84caed7d"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/a2_radial_receipt.py",
+      "to": "algebra/receipts/a2_radial_receipt.py",
+      "before_sha256": "39b8b67f3f67723793b8daf219505a2e6f60b08af813ea5309a03eec0b795e0a",
+      "after_sha256": "39b8b67f3f67723793b8daf219505a2e6f60b08af813ea5309a03eec0b795e0a"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/a2-radial-receipt-output.txt",
+      "to": "algebra/receipts/a2-radial-receipt-output.txt",
+      "before_sha256": "1cdbdfe16dafc4a8ce3b6d41645b5f714f468ae6813b499c04783b13486fa871",
+      "after_sha256": "1cdbdfe16dafc4a8ce3b6d41645b5f714f468ae6813b499c04783b13486fa871"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/general-causal-action-research-schema.md",
+      "to": "general-causal-action/research-schema.md",
+      "before_sha256": "bf094503cec22da691227b290e89063697d99be07efb4dc4bb8aebf75b9197fd",
+      "after_sha256": "80dd206441a8220179046ad17dff082a38aa2e47a292063ead73ff1aafab6614"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/directed-realization-and-foundational-restart.md",
+      "to": "general-causal-action/directed-realization-and-foundational-restart.md",
+      "before_sha256": "74749f8cb4d830e8b06043404fc3cc9c66e9780e0d8d065f4484ec732b3abdc6",
+      "after_sha256": "5548e58c0a819ae3dd202fdf8db55f0e66fd35abd71bcdbe69b5974016ef7d95"
+    }
+  ],
+  "link_updates": 300,
+  "frozen_records_verified": 199
+}

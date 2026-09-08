@@ -548,7 +548,7 @@ inside a declared observable algebra, and the third is reversible global
 clock evolution covariant on the local net. It need not preserve one fixed
 regional algebra. A construction must relate them; a shared diagram does not.
 
-[[contemporary-puzzles/yang-mills-mass-gap/kazhdan-markov-process-carrier|The
+[[categorical-gauge-response/kazhdan-markov-process-carrier|The
 Kazhdan--Markov theorem]] proves more. If the automorphisms carry a
 property-\((T)\) composition law and have only the vacuum as a common GNS
 invariant, their normalized symmetric average has a positive dimensionless

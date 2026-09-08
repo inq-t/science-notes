@@ -46,7 +46,7 @@ For a positive change of energy unit represented by \(H'=aH\),
 \sigma(H')\cap(0,a\Delta)=\varnothing.
 \]
 
-The *existence* of a positive gap survives every such rescaling. It can be asserted before a value in MeV is selected. [[scale-torsor-and-the-global-local-gap-invariant|The scale-torsor construction]] owns the stronger distinction between changing units, relating differently scaled members, and imposing exact dilation symmetry on one fixed physical representation.
+The *existence* of a positive gap survives every such rescaling. It can be asserted before a value in MeV is selected. [[mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant|The scale-torsor construction]] owns the stronger distinction between changing units, relating differently scaled members, and imposing exact dilation symmetry on one fixed physical representation.
 
 Smoothness is also not scale invariance. As a direct algebraic check, classical four-dimensional Yang–Mills at constant coupling obeys
 
@@ -65,4 +65,4 @@ Page 9 explicitly calls \(M=\sqrt{H^2-\vec P^{\,2}}\) the mass operator **in nat
 
 The stronger hypothesis is that local spacetime, its clock and its observable symmetries are representations of a more primitive directed law. It reverses the explanatory order without denying the structures that must be recovered. “Global” and “local” need not even be two frames connected by an invertible coordinate change: a nonfaithful realization can change what distinctions exist in its target.
 
-This programme has fewer primitive spacetime assumptions only if it does not reintroduce them as unprescribed choices of state, kernel, positive form and generator. [[directed-realization-and-foundational-restart|The foundational restart]] makes that reduction of independent choices the next test. Failure of a familiar construction motivates this search; it is not a proof that only this search can succeed.
+This programme has fewer primitive spacetime assumptions only if it does not reintroduce them as unprescribed choices of state, kernel, positive form and generator. [[general-causal-action/directed-realization-and-foundational-restart|The foundational restart]] makes that reduction of independent choices the next test. Failure of a familiar construction motivates this search; it is not a proof that only this search can succeed.

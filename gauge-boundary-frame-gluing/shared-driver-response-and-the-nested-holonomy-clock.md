@@ -180,7 +180,7 @@ have not been identified. Multiplying \(L\) by a positive constant
 multiplies this threshold by that constant.
 
 There is a stronger obstruction to identifying those clocks:
-[[contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization#A Poincare Hamiltonian has no positive eigenvalues|boost covariance excludes positive Hamiltonian eigenvalues]]
+[[mass-scale-calibration/mass-as-casimir-and-realization#A Poincare Hamiltonian has no positive eigenvalues|boost covariance excludes positive Hamiltonian eigenvalues]]
 in any strongly continuous positive-energy Poincare representation.
 The explicit eigenvector \(LW=2W\) therefore rules out every positive
 rescaling of this \(L\) as that same Hamiltonian, despite its infinite

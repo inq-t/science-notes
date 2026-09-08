@@ -6,7 +6,7 @@ None of the attractive ingredients—Type III, cocycles, entropy Hessians, knots
 
 ## One admissible dependency chain
 
-For the observed color member, [[contemporary-puzzles/yang-mills-mass-gap/octonionic-slice-groupoid-and-orientation-torsor|the octonionic quotient-stack construction]] supplies the strongest current kinematic chain:
+For the observed color member, [[exceptional-gauge-realization/octonionic-slice-groupoid-and-orientation-torsor|the octonionic quotient-stack construction]] supplies the strongest current kinematic chain:
 
 $$
 [S^6/G_2]\simeq B SU(3)
@@ -32,7 +32,7 @@ Each arrow has a different job:
 5. a strict norm bound supplies quantitative neutral-sector coercivity; and
 6. reflection-positive transfer and continuum reconstruction turn that coercivity into the physical gap.
 
-Only steps 1--3 and the finite-regulator implication in step 6 are presently exact. [[contemporary-puzzles/yang-mills-mass-gap/exceptional-normal-holonomy-and-the-residual-gauge-form|Exceptional normal holonomy]] proves the Wilson-action pullback used in step 3. Step 4 is well defined at finite regulator once the full law and boundary carrier are fixed. Step 5 is the principal missing theorem, while the four-dimensional continuum part of step 6 is the Clay existence problem.
+Only steps 1--3 and the finite-regulator implication in step 6 are presently exact. [[exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form|Exceptional normal holonomy]] proves the Wilson-action pullback used in step 3. Step 4 is well defined at finite regulator once the full law and boundary carrier are fixed. Step 5 is the principal missing theorem, while the four-dimensional continuum part of step 6 is the Clay existence problem.
 
 For the Clay statement, which ranges over every compact simple \(G\), the first arrow must be replaced by a general group-indexed construction
 
@@ -157,7 +157,7 @@ is a different operation. It agrees with (RL7) when the retained subspace reduce
 
 ## What topology can and cannot do
 
-[[knotting-as-dimensional-presentation/inq|Knotting]], holonomy, characters, and indices can change operator domains and remove specified zero channels without making local differential geometry discrete. [[contemporary-puzzles/yang-mills-mass-gap/triangle-character-cusp-coercivity|The triangle-character theorem]] is the clean finite witness of this “global discreteness, local continuum” clue.
+[[knotting-as-dimensional-presentation/inq|Knotting]], holonomy, characters, and indices can change operator domains and remove specified zero channels without making local differential geometry discrete. [[triangle-descent-response/triangle-character-cusp-coercivity|The triangle-character theorem]] is the clean finite witness of this “global discreteness, local continuum” clue.
 
 But sector separation is not neutral coercivity:
 

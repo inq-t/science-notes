@@ -116,7 +116,7 @@ $$
 \tag{H4b}
 $$
 
-Here \(t_P=\ell_P/c=\sqrt{\hbar G/c^5}\). Thus increasing \(M\) raises the mass phase rate and entropy capacity while lowering the horizon boost rate and Hawking temperature. Entropy is proportional to their ratio, not to a rate of facts or entropy production. [[mass-as-a-calibrated-distinction-rate]] compares this identity with transfer attenuation and states what would be needed to promote either rate to a fact-producing process.
+Here \(t_P=\ell_P/c=\sqrt{\hbar G/c^5}\). Thus increasing \(M\) raises the mass phase rate and entropy capacity while lowering the horizon boost rate and Hawking temperature. Entropy is proportional to their ratio, not to a rate of facts or entropy production. [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] compares this identity with transfer attenuation and states what would be needed to promote either rate to a fact-producing process.
 
 The area law is therefore a boundary-saturation benchmark at fixed \(R\), not the statement that one universal object has both maximum mass and maximum entropy. Quantum and higher-curvature corrections can modify (H2)--(H4). In a static thermal equilibrium state, such as the Hartle--Hawking state, the local Tolman relation is
 

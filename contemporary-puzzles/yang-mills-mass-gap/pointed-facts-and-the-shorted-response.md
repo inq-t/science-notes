@@ -257,7 +257,7 @@ S_A\geq\kappa_O(I-P_0)
 \tag{PF12}
 $$
 
-If \(S_A\) is the generator of a canonically normalized symmetric contraction semigroup, (PF12) is a dimensionless relaxation or persistence gap on the complete retained complement. It is not yet the Yang--Mills mass gap. [[mass-as-a-calibrated-distinction-rate]] and [[hbar-clock-and-the-calibration-firewall]] give the further clock, action, OS, Poincare, and Casimir arrows.
+If \(S_A\) is the generator of a canonically normalized symmetric contraction semigroup, (PF12) is a dimensionless relaxation or persistence gap on the complete retained complement. It is not yet the Yang--Mills mass gap. [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] and [[mass-scale-calibration/hbar-clock-and-the-calibration-firewall]] give the further clock, action, OS, Poincare, and Casimir arrows.
 
 ## Type III supplies the setting, not the floor
 

@@ -319,7 +319,7 @@ control its behavior through the required field limits. Without that
 selecting law the construction passes fixed-input consistency, not
 the stronger test against encoding arbitrary desired dynamics.
 
-The result refines the [[contemporary-puzzles/yang-mills-mass-gap/general-causal-action-research-schema|joint-realization programme]].
+The result refines the [[general-causal-action/research-schema|joint-realization programme]].
 [[haar-vertex-source-and-joint-gauge-response|The retained graph-source test]]
 now supplies this mixed interface law from one source metric and
 returns its state and full Gauss carrier as well. It has a different,

@@ -210,7 +210,7 @@ $$
 \right\rangle_{G_\Gamma}.
 $$
 
-This is the Witten or Bakry--Emery weighted Laplacian. The orbit-volume or Weyl/Faddeev--Popov factor cannot be dropped: it is part of the same geometry exposed in [[contemporary-puzzles/yang-mills-mass-gap/a2-weyl-radial-operator|the compact radial audit]]. If \(\mathrm{dvol}_{G_\Gamma}\) is instead defined to be the pushed-forward Haar measure, this Jacobian is absorbed by convention. The negative logarithm of the vacuum is not an optional entropy ansatz: the remaining weight is fixed by the ground state of the same Hamiltonian.
+This is the Witten or Bakry--Emery weighted Laplacian. The orbit-volume or Weyl/Faddeev--Popov factor cannot be dropped: it is part of the same geometry exposed in [[algebra/a2-weyl-radial-operator|the compact radial audit]]. If \(\mathrm{dvol}_{G_\Gamma}\) is instead defined to be the pushed-forward Haar measure, this Jacobian is absorbed by convention. The negative logarithm of the vacuum is not an optional entropy ansatz: the remaining weight is fixed by the ground state of the same Hamiltonian.
 
 ## The gap is a Poincare constant
 
@@ -439,7 +439,7 @@ $$
 
 For the global form $PSU(3)=SU(3)/\mathbb Z_3$, the fundamental representation does not descend; the smallest allowed representation is instead the adjoint in this comparison, giving $\lambda_{PSU(3)}=1$. The number is therefore sensitive to global gauge structure, as it should be. Neither $16/9$ nor $4$ is a mass gap: it is a normalized kinematic frame constant that still requires interacting-vacuum transfer and an energy solder.
 
-[[exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional defining-data normal]] now fixes a different, derived metric convention on the same color group. Its trace index gives \(b_N=8(-B_{\mathfrak{su}(3)})\), so \(\lambda_{SU(3)}^{(N)}=1/18\) and the square-girth invariant Haar constant is \(2/9\). This is exactly the inverse metric rescaling of \(16/9\), not a competing physical prediction: the electric kinetic prefactor rescales reciprocally, and only the product in physical units enters a Hamiltonian bound.
+[[exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form|The exceptional defining-data normal]] now fixes a different, derived metric convention on the same color group. Its trace index gives \(b_N=8(-B_{\mathfrak{su}(3)})\), so \(\lambda_{SU(3)}^{(N)}=1/18\) and the square-girth invariant Haar constant is \(2/9\). This is exactly the inverse metric rescaling of \(16/9\), not a competing physical prediction: the electric kinetic prefactor rescales reciprocally, and only the product in physical units enters a Hamiltonian bound.
 
 This is a genuine closure result, but not yet a knot theorem. The obstruction is the impossibility of a gauge-invariant nontrivial open end, and the relevant topology is the shortest cycle of an abstract graph. It exists in every graph dimension; embedding, linking, and knotting in three-space do no work in this proof. Any specifically three-dimensional knot mechanism must enter through an additional carrier or dynamics.
 

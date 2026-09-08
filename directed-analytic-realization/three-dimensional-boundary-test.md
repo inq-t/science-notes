@@ -121,7 +121,7 @@ A_L(k)^2-|k|^2
 
 This mass-Casimir candidate is positive but tends to zero at large \(|k|\). Hence no positive lower bound survives for it, despite the Hamiltonian edge \(L^{-1}\). Boost invariance has not been constructed, and this dispersion supplies no Lorentz-covariant mass-shell interpretation.
 
-The lesson is not that a mass is a clock frequency in different units. A physical mass bound is a statement about a joint translation invariant; a lower edge of one selected clock can be insufficient. This is the same operator distinction emphasized by the workspace's [[contemporary-puzzles/yang-mills-mass-gap/joint-causal-generators-and-the-mass-casimir|Casimir comparison]].
+The lesson is not that a mass is a clock frequency in different units. A physical mass bound is a statement about a joint translation invariant; a lower edge of one selected clock can be insufficient. This is the same operator distinction emphasized by the workspace's [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|Casimir comparison]].
 
 ## The local-commutation test also fails
 

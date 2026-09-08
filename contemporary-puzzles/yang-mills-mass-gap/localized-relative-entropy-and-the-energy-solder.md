@@ -355,7 +355,7 @@ x,y\in\mathcal D_{B,\mathbb R}.
 
 Then norm and energy split into their real and imaginary parts, so the two real inequalities imply the required complex inequalities. Absent such a structure or a directly constructed Hermitian form, a lower bound on a real subspace whose complex span is a core does not imply a spectral gap.
 
-[[receipts/real-core-complexification-firewall-receipt.py|The finite counterexample receipt]] takes \(H=\operatorname{diag}(1/2,3/2)\) and the real form \(\{(a+ib,a-ib):a,b\in\mathbb R\}\). The energy quotient is identically one on that real form, whose complex span is all of \(\mathbb C^2\), while the actual spectral floor is \(1/2\).
+[[contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt.py|The finite counterexample receipt]] takes \(H=\operatorname{diag}(1/2,3/2)\) and the real form \(\{(a+ib,a-ib):a,b\in\mathbb R\}\). The energy quotient is identically one on that real form, whose complex span is all of \(\mathbb C^2\), while the actual spectral floor is \(1/2\). The [[contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt-output.txt|stored counterexample output]] checks this failure of the real-to-complex inference.
 
 ## Why this is progress but not a solution
 
@@ -367,7 +367,7 @@ sharply localized vectors can hide unbounded high-energy tails. The carrier
 kernel, complex form-core, and Hermitian-extension hypotheses are therefore
 substantive and cannot be omitted.
 
-Nor does Type \(\mathrm{III}_1\) structure make \(\kappa_B\) positive. It makes faithful regional relative entropy available, while the positive lower frame bound must come from the relative position of the whole family of presentations, inclusions, or descents. [[global-discreteness-kazhdan-rigidity-and-the-gap]] identifies the exact group-level analogue: a Kazhdan or representation-specific closed-range bound forbids almost-invariant nonvacuum directions. The missing comparison is
+Nor does Type \(\mathrm{III}_1\) structure make \(\kappa_B\) positive. It makes faithful regional relative entropy available, while the positive lower frame bound must come from the relative position of the whole family of presentations, inclusions, or descents. [[categorical-gauge-response/global-discreteness-kazhdan-rigidity-and-the-gap]] identifies the exact group-level analogue: a Kazhdan or representation-specific closed-range bound forbids almost-invariant nonvacuum directions. The missing comparison is
 
 \[
 \text{global presentation disagreement}

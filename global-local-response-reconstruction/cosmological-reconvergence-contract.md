@@ -34,7 +34,7 @@ The stronger Copernican hypothesis survives:
 
 > A conformal massless vacuum supplies no intrinsic dimensional scale or isolated rest-bearing one-particle sector. A thermal state can add a scale and a collective frame, but a new construction is still required to explain a stable local timelike spectrum and a uniform persistence length.
 
-This is not the claim that mass creates every possible clock. It is the claim that **rest-bearing spectral scale** is a different return type from causal order, a null trajectory, or a thermal fluid frame. [[contemporary-puzzles/yang-mills-mass-gap/causal-grain-as-a-mass-engagement-fossil|The mass-engagement fossil]] separates these notions in more detail.
+This is not the claim that mass creates every possible clock. It is the claim that **rest-bearing spectral scale** is a different return type from causal order, a null trajectory, or a thermal fluid frame. [[causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil|The mass-engagement fossil]] separates these notions in more detail.
 
 ## “Before” and “after” are not yet clock times
 

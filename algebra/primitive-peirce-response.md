@@ -63,7 +63,7 @@ This proves separation; finite dimensionality then gives some positive edge. The
 \tag{PP5}
 \]
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/primitive_peirce_response_receipt.py|The reproducible certificate]] builds (PP5) from the existing integer Albert multiplication table. In its original coordinate basis \(b_i\), the trace metric has diagonal \(n_i=1,1,1,2,\ldots,2\), and \(M_i=2L_{b_i}\) is integral. Put
+[[algebra/receipts/primitive_peirce_response_receipt.py|The reproducible certificate]] builds (PP5) from the existing integer Albert multiplication table. In its original coordinate basis \(b_i\), the trace metric has diagonal \(n_i=1,1,1,2,\ldots,2\), and \(M_i=2L_{b_i}\) is integral. Put
 \[
 A_8=\sum_i\frac2{n_i}M_i^2,\qquad
 Z=A_8\otimes I+I\otimes A_8^{\mathsf T}
@@ -102,7 +102,7 @@ Normalization is part of the theorem: using a basis orthonormal for
 ## Primitive readouts cover the added directions
 
 For a primitive idempotent \(p\), \(\operatorname{tr}_Jp=\|p\|_J^2=1\).
-The [[contemporary-puzzles/yang-mills-mass-gap/jordan-idempotency-and-the-stabilizer-gap|Peirce decomposition]] of \(L_p\) has eigenvalues \(1,\tfrac12,0\), with dimensions \(1,16,10\). Its orthogonal projections are
+The [[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap|Peirce decomposition]] of \(L_p\) has eigenvalues \(1,\tfrac12,0\), with dimensions \(1,16,10\). Its orthogonal projections are
 \[
 \begin{aligned}
 Q_1(p)&=2L_p^2-L_p,\\

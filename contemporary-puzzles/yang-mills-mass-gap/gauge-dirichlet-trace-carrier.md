@@ -319,7 +319,7 @@ nor its spectrum defines them. The first is presently the rigorous Markov
 branch. The second adds a least-cost interpretation only when its additional
 trace theorem holds.
 
-This remains a conditional bridge rather than the current \(D_r\). Conjugating a classical \(L^2\) Markov semigroup by a Hilbert-space unitary produces a contraction semigroup, but does not by itself produce normal UCP maps on the complete noncommutative neutral observable algebra. One must also prove complete Dirichletness, identify the represented algebra, include electric-flux as well as link-coordinate observables, establish net naturality, and obtain the same-core comparison required in [[kazhdan-markov-process-carrier]]. In a continuum type-III net, a vacuum-preserving expectation onto a proposed local algebra is itself conditional on modular invariance by [[library/conditional-expectations-in-von-neumann-algebras/inq|Takesaki's theorem]].
+This remains a conditional bridge rather than the current \(D_r\). Conjugating a classical \(L^2\) Markov semigroup by a Hilbert-space unitary produces a contraction semigroup, but does not by itself produce normal UCP maps on the complete noncommutative neutral observable algebra. One must also prove complete Dirichletness, identify the represented algebra, include electric-flux as well as link-coordinate observables, establish net naturality, and obtain the same-core comparison required in [[categorical-gauge-response/kazhdan-markov-process-carrier]]. In a continuum type-III net, a vacuum-preserving expectation onto a proposed local algebra is itself conditional on modular invariance by [[library/conditional-expectations-in-von-neumann-algebras/inq|Takesaki's theorem]].
 
 ## Naive compression does not produce a slice process
 

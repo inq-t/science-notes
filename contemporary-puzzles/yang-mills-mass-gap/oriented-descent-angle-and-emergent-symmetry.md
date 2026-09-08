@@ -87,7 +87,7 @@ $$
 
 and the index is constant along every norm-continuous path that remains Fredholm. The representative defect \(\beta_W\), the stabilizer \(G_W\), and a metric Hessian may vary while this integer persists. For a graded Fredholm Dirac arrow \(D^+:\mathcal H^+\to\mathcal H^-\), the same index records oriented chiral imbalance. This is a precise candidate for conservation *across* changing symmetry and asymmetry: the persistent object is a relative class of the arrow, not a Noether charge generated inside one already symmetric phase.
 
-[[order-three-orientation-and-the-exceptional-stabilizer]] is an exact exceptional instance of this reversal. Yokota's oriented operation \(w\in F_4\) has connected symmetry \(C_{F_4}(w)\), adjoining the pointed idempotent \(\ell\) reduces that symmetry to \(S(U(2)\times U(3))\), and the cyclic average \((1+w+w^2)/3\) forgets the distinction \(w\leftrightarrow w^{-1}\). The reversal-odd residue \((w-w^2)/\sqrt3\) is a complex structure on the forgotten complement. Thus this group is literally the stabilizer of prior oriented algebraic data. [[exceptional-normal-holonomy-and-the-residual-gauge-form]] identifies the faithful full normal, but [[exceptional-wilson-same-carrier-factorization#Two uses of the exceptional normal must be separated|its two uses differ]]: the direct Hessian/Clifford route still needs a field-valued physical response; the holonomy-probe route already recovers the Wilson carrier and owes interacting continuum coercivity. Neither kinematic result is a mass gap.
+[[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer]] is an exact exceptional instance of this reversal. Yokota's oriented operation \(w\in F_4\) has connected symmetry \(C_{F_4}(w)\), adjoining the pointed idempotent \(\ell\) reduces that symmetry to \(S(U(2)\times U(3))\), and the cyclic average \((1+w+w^2)/3\) forgets the distinction \(w\leftrightarrow w^{-1}\). The reversal-odd residue \((w-w^2)/\sqrt3\) is a complex structure on the forgotten complement. Thus this group is literally the stabilizer of prior oriented algebraic data. [[exceptional-gauge-realization/exceptional-normal-holonomy-and-the-residual-gauge-form]] identifies the faithful full normal, but [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization#Two uses of the exceptional normal must be separated|its two uses differ]]: the direct Hessian/Clifford route still needs a field-valued physical response; the holonomy-probe route already recovers the Wilson carrier and owes interacting continuum coercivity. Neither kinematic result is a mass gap.
 
 ## The whole carries two opposed descents
 
@@ -383,7 +383,7 @@ $$
 
 The familiar group is therefore the symmetry of a selected complex flag in an exceptional whole, not the premise from which that selection must be broken. This proves an order-of-explanation precedent, not that this flag is nature's carrier or that it supplies the Yang--Mills Hamiltonian.
 
-[[jordan-idempotency-and-the-stabilizer-gap]] adds a positive operator that was missing from the earlier audit. In any Euclidean Jordan algebra, let
+[[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap]] adds a positive operator that was missing from the earlier audit. In any Euclidean Jordan algebra, let
 
 $$
 C(x)=x\circ x-x,
@@ -569,7 +569,7 @@ E_*^2\eta_{\mathrm{sol}}(1-c_F)(1-P_0).}
 \tag{OD42}
 $$
 
-Under the Poincaré reconstruction hypotheses in [[joint-causal-generators-and-the-mass-casimir]], \(0\leq\mathcal C\leq H^2\), so this implies
+Under the Poincaré reconstruction hypotheses in [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]], \(0\leq\mathcal C\leq H^2\), so this implies
 
 $$
 \boxed{

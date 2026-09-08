@@ -39,7 +39,7 @@ J^*=-J,\qquad J^2=-1,\qquad D=-JA.
 
 Thus orientation, positive modulus and complex structure are related, not three separately fitted operators. Reversing the boundary orientation sends \(D,J\) to \(-D,-J\), leaving \(A\) unchanged. The underlying unoriented metric does not choose a preferred sheet.
 
-The same structural distinction appears in [[contemporary-puzzles/yang-mills-mass-gap/order-three-orientation-and-the-exceptional-stabilizer|the order-three exceptional construction]]: its oriented operation selects an odd complex structure while its even response survives reversal. The circle calculation does not identify its carrier or derivative with the exceptional automorphism.
+The same structural distinction appears in [[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|the order-three exceptional construction]]: its oriented operation selects an odd complex structure while its even response survives reversal. The circle calculation does not identify its carrier or derivative with the exceptional automorphism.
 
 The polar factorization itself does not prove a gap. For any densely defined real skew-adjoint \(D\), set \(A=|D|\) and define \(J(Au)=-Du\) on \(\operatorname{Ran}A\). The equality \(\|Au\|=\|Du\|\) extends this map to the same orthogonal complex structure on \(\ker(D)^\perp\), even when \(A^{-1}\) is unbounded. Thus positivity can be obtained by a choice of complex presentation for a general real skew flow. The additional content here is the independently computed identification of \(A\) with harmonic response and compression residue, not positivity by itself.
 

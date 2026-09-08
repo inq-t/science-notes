@@ -23,7 +23,7 @@ X_0=B\cap\mathcal P\cong\mathfrak h_2(\mathbb C).
 \tag{PA2}
 \]
 
-The unit of both corners is \(p\), not the Albert unit \(\mathbf1\). The [[contemporary-puzzles/yang-mills-mass-gap/jordan-idempotency-and-the-stabilizer-gap|primitive Peirce dimensions and stabilizer]] give
+The unit of both corners is \(p\), not the Albert unit \(\mathbf1\). The [[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap|primitive Peirce dimensions and stabilizer]] give
 \(\dim\mathcal P=10\) and
 \[
 G_p=\operatorname{Stab}_{F_4}(p)

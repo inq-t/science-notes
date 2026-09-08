@@ -49,7 +49,7 @@ L_{e_i}^T=-L_{e_i},\qquad
 L_{e_i}L_{e_j}+L_{e_j}L_{e_i}=-2\delta_{ij}I.
 \tag{OH4}
 \]
-For the second identity, polarize \(L_e^2=-|e|^2I\) on imaginary elements. The product on the left is ordinary associative composition of real-linear maps, not a claim that octonion multiplication is associative. The related [[contemporary-puzzles/yang-mills-mass-gap/octonionic-clifford-completion-of-the-color-normal|color-normal Clifford construction]] uses this distinction on its own representation carrier.
+For the second identity, polarize \(L_e^2=-|e|^2I\) on imaginary elements. The product on the left is ordinary associative composition of real-linear maps, not a claim that octonion multiplication is associative. The related [[exceptional-gauge-realization/octonionic-clifford-completion-of-the-color-normal|color-normal Clifford construction]] uses this distinction on its own representation carrier.
 
 On \(\mathbb O\oplus\mathbb O\), define nine symmetric matrices
 \[
@@ -148,7 +148,7 @@ The common parent is the amplitude sphere, not its selected complex projectiviza
 
 The choices \(e\) are parameterized by \(S^6\). Equation (OH10) is a complex structure on the real eight-dimensional vector space \(\mathbb O\), not a complex structure on \(TS^6\). It neither assumes nor proves integrability of an almost-complex structure on that six-sphere.
 
-Octonion automorphisms fixing \(e\) preserve (OH12). The [[contemporary-puzzles/yang-mills-mass-gap/octonionic-slice-groupoid-and-orientation-torsor|selected color stabilizer]] therefore acts vertically for this qubit readout. Its existence does not make the three qubit modes into color-field excitations; a nontrivial color response needs the appropriate retained carrier.
+Octonion automorphisms fixing \(e\) preserve (OH12). The [[exceptional-gauge-realization/octonionic-slice-groupoid-and-orientation-torsor|selected color stabilizer]] therefore acts vertically for this qubit readout. Its existence does not make the three qubit modes into color-field excitations; a nontrivial color response needs the appropriate retained carrier.
 
 ## Both routes return the same law and spectrum
 

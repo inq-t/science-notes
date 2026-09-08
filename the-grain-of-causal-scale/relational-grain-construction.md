@@ -134,7 +134,7 @@ $$
 \tag{RG8}
 $$
 
-Only after a category of carriers and transformations satisfying (RG7) has been specified is it justified to call the assignment \(X\mapsto\ell_X\) a grain functor. Before that, **matched-ledger construction** is the accurate name. The absence of one preferred global scale is compatible with a covariant family of selected local scales; [[contemporary-puzzles/yang-mills-mass-gap/scale-torsor-and-the-global-local-gap-invariant|the scale-torsor note]] states that distinction.
+Only after a category of carriers and transformations satisfying (RG7) has been specified is it justified to call the assignment \(X\mapsto\ell_X\) a grain functor. Before that, **matched-ledger construction** is the accurate name. The absence of one preferred global scale is compatible with a covariant family of selected local scales; [[mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant|the scale-torsor note]] states that distinction.
 
 ## Application to the mass-gap search
 

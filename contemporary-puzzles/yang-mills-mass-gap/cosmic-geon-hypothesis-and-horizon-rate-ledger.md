@@ -417,7 +417,7 @@ $$
 \qquad(t\in\mathbb R),
 $$
 
-then scale covariance forces \(\sigma(P)=[0,\infty)\). The mass candidate must instead be a joint invariant—such as a full Poincare Casimir reconstructed from compatible oppositely scaling directions—or another positive tangential response with a proved floor. [[wall-construction-interface/half-sided-modular-tunnel]] and [[joint-causal-generators-and-the-mass-casimir]] own that distinction.
+then scale covariance forces \(\sigma(P)=[0,\infty)\). The mass candidate must instead be a joint invariant—such as a full Poincare Casimir reconstructed from compatible oppositely scaling directions—or another positive tangential response with a proved floor. [[wall-construction-interface/half-sided-modular-tunnel]] and [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]] own that distinction.
 
 ## The forgetting operator cannot itself be mass
 
@@ -487,7 +487,7 @@ $$
 
 is dimensionless. This is the correct type of observable target for a common-origin proposal. It does not identify the underlying structures: \(H\) is a logarithmic scale/redshift rate along cosmic time, while \(\omega_m\) is a phase or Euclidean-attenuation rate on a reconstructed mass sector. A theory must derive the comparison map and specify the epoch rather than equating two quantities merely because both have units of inverse time.
 
-The noncircular construction sought by [[mass-as-a-calibrated-distinction-rate]] begins with a dimensionless positive tangential generator \(K_\parallel\) and a canonically normalized composition parameter. It must then construct:
+The noncircular construction sought by [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] begins with a dimensionless positive tangential generator \(K_\parallel\) and a canonically normalized composition parameter. It must then construct:
 
 1. a clock solder converting its edge into a frequency;
 2. an action solder converting frequency into energy;

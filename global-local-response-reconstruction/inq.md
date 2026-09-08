@@ -346,7 +346,7 @@ This dense-local-family route avoids a transverse-surface union bound because it
 | [[trace-dirichlet-descent/standard-form-pullback-and-reducing-wall|conditional expectations and correspondences]] | typed restriction, prediction, forgetting, and composable gluing | a positive uniform response angle by themselves |
 | [[hessian-response-geometry/inq|relative-entropy or BKM Hessians]] | positive local state-response forms with monotonicity | complete physical coverage or an energy solder |
 | [[knotting-as-dimensional-presentation/inq|knots]], holonomy, and discrete descent | domain or sector restrictions and possible removal of specific zero channels | neutral-sector coverage, quantitative rigidity, or a continuum scale |
-| [[contemporary-puzzles/yang-mills-mass-gap/octonionic-phase-space-and-the-born-rule-firewall|exceptional Jordan and Freudenthal geometry]] | candidate whole from which familiar stabilizers and symplectic phase carriers descend | state selection, dynamics, Born rule, or every compact simple \(G\) |
+| [[algebra/octonionic-phase-space-and-the-born-rule-firewall|exceptional Jordan and Freudenthal geometry]] | candidate whole from which familiar stabilizers and symplectic phase carriers descend | state selection, dynamics, Born rule, or every compact simple \(G\) |
 | entropy and horizon ledgers | possible independently normalized whole counts in (GR9) | automatic identity with Yang--Mills response or energy |
 
 The common lesson is that algebraic obstruction supplies a kernel statement; the mass gap requires a quantitative, normalized, same-carrier inequality.

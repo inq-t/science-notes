@@ -1,6 +1,12 @@
 [workspace]
 name = "physics"
 members = [
+  "scripts",
+  "general-causal-action",
+  "exceptional-gauge-realization",
+  "categorical-gauge-response",
+  "triangle-descent-response",
+  "mass-scale-calibration",
   "algebra",
   "directed-analytic-realization",
   "a2-ternary-response",

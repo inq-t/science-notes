@@ -238,7 +238,7 @@ acts on their relation, not on either local algebra alone.
 
 [[local-loss-rows-and-the-uniform-gap|The local row constructions]] prove this distinction on complete finite tensor carriers: independent loss has a uniform gap, anchored neighboring differences have the same unique vacuum but a closing gap, and a star-supported entangling conjugation retains the uniform gap while making each one-site vacuum restriction faithful. These are actual examples for (PV11), not assumptions that every local row satisfies it.
 
-The construction makes the [[contemporary-puzzles/yang-mills-mass-gap/directed-realization-and-foundational-restart|joint-return question]] concrete: one declared loss row supplies a UCP law, state quotient, quadratic response, positive preparation generator and algebra-preserving analytic clock. It does not construct an obtained outcome, irreversible record order, the origin of a spatial arena, or a four-dimensional Yang–Mills theory. Those are further return obligations on the same proposed physical family, not consequences of calling \(L_a\) a loss.
+The construction makes the [[general-causal-action/directed-realization-and-foundational-restart|joint-return question]] concrete: one declared loss row supplies a UCP law, state quotient, quadratic response, positive preparation generator and algebra-preserving analytic clock. It does not construct an obtained outcome, irreversible record order, the origin of a spatial arena, or a four-dimensional Yang–Mills theory. Those are further return obligations on the same proposed physical family, not consequences of calling \(L_a\) a loss.
 
 [[vacuum_loss_receipt.py|The exact finite receipt]] and
 [[vacuum-loss-receipt-output.txt|its output]] check the quotient,

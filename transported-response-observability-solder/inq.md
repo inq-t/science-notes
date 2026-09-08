@@ -745,5 +745,5 @@ response-carrier and Hessian typing rules.
 [[gauge-cycle-innovation-filtration/inq|Gauge-Cycle Innovation Filtration]]
 supplies a complete regulated gauge distinction family; its expectations
 are analyses rather than physical transfer.
-[[contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization|Mass
+[[mass-scale-calibration/mass-as-casimir-and-realization|Mass
 as Casimir and Realization]] owns the final energy-to-mass step.

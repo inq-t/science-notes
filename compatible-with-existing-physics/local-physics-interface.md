@@ -108,7 +108,7 @@ vacuum-preserving, covariant UCP families exist on type-III local algebras,
 and discrete subnet inclusions can organize them into hypergroups. It is not
 a construction for four-dimensional Yang--Mills. The exact property-\((T)\)
 gap benchmark and the additional energy-solder obligations are stated in
-[[contemporary-puzzles/yang-mills-mass-gap/kazhdan-markov-process-carrier]].
+[[categorical-gauge-response/kazhdan-markov-process-carrier]].
 
 There is also an exact compatibility model for the stronger whole-to-local
 claim. If \(q:W\to L\) has a section \(h\), then

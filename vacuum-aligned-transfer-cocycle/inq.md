@@ -891,7 +891,7 @@ $\gamma_{\mathrm{coc}}$ is a lower bound on the slowest inverse-length
 attenuation rate of the complete pointed vacuum complement; it equals the
 optimal rate only when $q_*$ is sharp at the operator level. It contains
 neither $\hbar$ nor a mass by definition.
-[[contemporary-puzzles/yang-mills-mass-gap/mass-as-a-calibrated-distinction-rate|Mass
+[[mass-scale-calibration/mass-as-a-calibrated-distinction-rate|Mass
 as a Calibrated Distinction Rate]] owns the full conversion and calibration
 firewalls.
 
@@ -961,7 +961,7 @@ $$
 where $\Sigma_{\mathrm{nv}}$ is the nonvacuum part of the joint spectrum of
 $(K,\mathbf P)$. When the reconstructed Poincare theorem proves
 $\Delta_E=c^2m_{\mathrm{gap}}$, as detailed in
-[[contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization|Mass
+[[mass-scale-calibration/mass-as-casimir-and-realization|Mass
 as Casimir and Realization]], (VC35) becomes
 
 $$

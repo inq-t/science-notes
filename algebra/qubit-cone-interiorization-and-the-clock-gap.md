@@ -101,7 +101,7 @@ has \(\det P_r=m^2\) but
 \(\det P_r/\tau(P_r)^2=\operatorname{sech}^2r\to0\).
 A fixed nonzero invariant determinant permits normalized directions
 arbitrarily close to the null boundary in a fixed trace frame.
-[[contemporary-puzzles/yang-mills-mass-gap/joint-causal-generators-and-the-mass-casimir|The joint-Casimir construction]]
+[[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|The joint-Casimir construction]]
 therefore asks for a bound on the joint translation invariant, not a
 uniform angular margin for boosted momenta. Here \(T_s\) acts on matrix
 observables in a specified transfer model.

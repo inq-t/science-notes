@@ -353,7 +353,7 @@ selects the projection-branch value: the normal-state density is then neither er
 
 The generator \(L_{\nu,N_c}\) acts on distinctions across logarithmic core scale. It is not either null-translation generator \(P_+\) or \(P_-\). A nonzero HSMI translation generator is forced by dilation covariance to have spectrum \([0,\infty)\), so attaching the edge \(\nu^2\) directly to one such generator would contradict the exact no-gap theorem.
 
-The permitted route is the one in [[joint-causal-generators-and-the-mass-casimir]]: a compatible modular constellation must first reconstruct one positive-energy Poincare representation and the strongly commuting family \(P_\mu\); mass is then the joint invariant \(\mathcal C=H^2-c^2\mathbf P^2\). [[library/relative-positions-of-half-sided-modular-inclusions/inq|Koot's relative-position analysis]] shows why separately available half-sided inclusions do not automatically provide the required commutation. The wall form may serve as a comparison norm for \(\mathcal C\) only after this kinematic reconstruction. It never requires either causal direction itself to become gapped.
+The permitted route is the one in [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]]: a compatible modular constellation must first reconstruct one positive-energy Poincare representation and the strongly commuting family \(P_\mu\); mass is then the joint invariant \(\mathcal C=H^2-c^2\mathbf P^2\). [[library/relative-positions-of-half-sided-modular-inclusions/inq|Koot's relative-position analysis]] shows why separately available half-sided inclusions do not automatically provide the required commutation. The wall form may serve as a comparison norm for \(\mathcal C\) only after this kinematic reconstruction. It never requires either causal direction itself to become gapped.
 
 ## The wall--Casimir sandwich
 
@@ -496,7 +496,7 @@ $$
 \tag{PC11}
 $$
 
-Positive energy and the theorem in [[joint-causal-generators-and-the-mass-casimir|joint causal generators and the mass Casimir]] then imply
+Positive energy and the theorem in [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|joint causal generators and the mass Casimir]] then imply
 
 $$
 \boxed{

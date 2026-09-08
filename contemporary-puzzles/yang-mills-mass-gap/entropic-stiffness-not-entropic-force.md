@@ -226,7 +226,7 @@ H_r^2-c^2\mathbf P_r^2
 \tag{E14}
 $$
 
-is the energy-squared Poincare Casimir on the reconstructed physical carrier. By [[joint-causal-generators-and-the-mass-casimir]], (E13) implies
+is the energy-squared Poincare Casimir on the reconstructed physical carrier. By [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]], (E13) implies
 
 $$
 \boxed{

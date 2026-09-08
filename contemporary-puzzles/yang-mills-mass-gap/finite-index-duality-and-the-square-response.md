@@ -240,7 +240,7 @@ A=\log d,\\
 \tag{FI17}
 $$
 
-The first line can model a primitive, topologically retained “mass-engagement” event. The second line is what could make it physical. [[causal-grain-as-a-mass-engagement-fossil]] therefore treats the grain as the possible index of a transition, not as a \(4.264\,\mathrm{fm}\) voxel or a \(46.27\,\mathrm{MeV}\) particle.
+The first line can model a primitive, topologically retained “mass-engagement” event. The second line is what could make it physical. [[causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil]] therefore treats the grain as the possible index of a transition, not as a \(4.264\,\mathrm{fm}\) voxel or a \(46.27\,\mathrm{MeV}\) particle.
 
 ## Stopping conditions
 

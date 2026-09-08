@@ -25,7 +25,7 @@ If \(\ker\mathbf L=\mathbb C\Omega\), the returned clock gap is
 \|\mathbf L\psi\|^2.}
 \tag{LR2}
 \]
-The row acts on vectors representing distinctions \(A\Omega\), not on a coordinate called mass. Its lower singular bound becomes a clock spectral bound on that same carrier. A physical mass identification would require the appropriate spacetime translation representation and its joint invariant; [[algebra/positive-energy-pairs-and-the-neutral-gap|the positive-energy pair theorem]] and [[contemporary-puzzles/yang-mills-mass-gap/joint-causal-generators-and-the-mass-casimir|the Casimir construction]] keep that further step distinct.
+The row acts on vectors representing distinctions \(A\Omega\), not on a coordinate called mass. Its lower singular bound becomes a clock spectral bound on that same carrier. A physical mass identification would require the appropriate spacetime translation representation and its joint invariant; [[algebra/positive-energy-pairs-and-the-neutral-gap|the positive-energy pair theorem]] and [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|the Casimir construction]] keep that further step distinct.
 
 ## Independent local loss fixes a uniform bound
 

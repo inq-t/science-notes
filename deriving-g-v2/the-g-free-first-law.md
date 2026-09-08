@@ -44,7 +44,7 @@ $$
 
 the price of measuring $\iota$ with rulers instead of counting it. Three of the programme's standing objects then line up without new assumptions: the areal descent modulus $\chi$ of [[program-core/localized-areal-response-geometry|localized areal response geometry]] is $\mathrm d\iota_{\mathrm{state}}/\mathrm dA$; the Einstein modulus $\eta_{\mathrm E}$ is $\mathrm d\iota_{\mathrm{grav}}/\mathrm dA$; and the matching field $\mathfrak r=\chi/\eta$ of [[program-core/causal-capacity-equivalence|causal-capacity equivalence]] asserts the two ledgers are one ledger.
 
-[[contemporary-puzzles/yang-mills-mass-gap/mass-and-g-as-dual-exchange-rates|Mass and G as dual exchange rates]] gives the conditional composition with the transfer-rate presentation of mass. Its essential extra premise is not dimensional: the boundary ledger differential here must be proved equal, on every physical nonvacuum tangent, to the logarithmic transfer-attenuation differential. Under that same-ledger theorem the composition is $m=(c/4G)\,\mathrm dA/\mathrm d\tau$; without it, the repeated dimensionless middle term is an equivocation.
+[[mass-scale-calibration/mass-and-g-as-dual-exchange-rates|Mass and G as dual exchange rates]] gives the conditional composition with the transfer-rate presentation of mass. Its essential extra premise is not dimensional: the boundary ledger differential here must be proved equal, on every physical nonvacuum tangent, to the logarithmic transfer-attenuation differential. Under that same-ledger theorem the composition is $m=(c/4G)\,\mathrm dA/\mathrm d\tau$; without it, the repeated dimensionless middle term is an equivocation.
 
 ## The wall-inclusion target
 

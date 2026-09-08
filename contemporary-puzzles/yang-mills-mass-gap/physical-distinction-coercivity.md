@@ -192,7 +192,7 @@ $$
 
 None of these predicates implies either of the others. A gapless theory can have discrete spin or polarization outcomes; a gapped theory can have observables with continuous spectrum; a superselection sector can be gapless; and a unique gapped vacuum need not solve the outcome problem.
 
-[[mass-as-casimir-and-realization]] adds the representation-theoretic reason for this independence: momentum generates translations, mass is their Poincare Casimir, phase selection chooses a state or representation, and outcome actualization points within a readout context. These roles can coexist on one physical carrier without being one operator.
+[[mass-scale-calibration/mass-as-casimir-and-realization]] adds the representation-theoretic reason for this independence: momentum generates translations, mass is their Poincare Casimir, phase selection chooses a state or representation, and outcome actualization points within a readout context. These roles can coexist on one physical carrier without being one operator.
 
 ## The operator-signature ledger
 

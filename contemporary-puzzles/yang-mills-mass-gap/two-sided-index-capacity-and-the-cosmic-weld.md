@@ -381,7 +381,7 @@ Then
 \tag{IC23}
 \]
 
-Equation (IC23) is a smooth cosmic address on the multiplicative branch whose integer crossings label candidate categorical walls. The integer is not continuously varying ontology; it is attained only at the selected cuts. [[contemporary-puzzles/yang-mills-mass-gap/causal-grain-as-a-mass-engagement-fossil|A mass-engagement claim]] would additionally have to prove that one crossing changes the physical carrier or its neutral response and that the resulting scale is transported as a fossil.
+Equation (IC23) is a smooth cosmic address on the multiplicative branch whose integer crossings label candidate categorical walls. The integer is not continuously varying ontology; it is attained only at the selected cuts. [[causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil|A mass-engagement claim]] would additionally have to prove that one crossing changes the physical carrier or its neutral response and that the resulting scale is transported as a fossil.
 
 ## From capacity to a candidate dimensional yardstick
 
@@ -488,7 +488,7 @@ S(\varphi\Vert\varphi\varepsilon)
 
 A preserving expectation is projection-like on its \(L^2\) carrier and has a forgotten kernel. Its descent-loss Hessian is stiff vertically but vanishes on retained directions. [[subfactor-angle-coercivity-and-the-index-firewall]] makes the quantitative obstruction exact for two descents: after their common range is removed, the edge is \(1-c_F\), but a spin-model family keeps all three Jones indices fixed at \(2,2,4\) while \(c_F\to1\). Even the common inclusion and its standard reducible Q-system can be held fixed while the angle collapses. Index therefore does not determine the mixed relative position that coercivity needs.
 
-[[quantum-g2-categorical-rigidity-and-the-carrier-firewall]] supplies the complementary positive result and an even sharper internal control. The fundamental quantum-\(G_2\) category has a universal categorical edge for \(q\neq1\), while at \(q=1\) its sector capacity remains \(2\log7>0\) and its categorical rigidity vanishes. Thus maximum forgetting capacity and minimum distinction cost are independent invariants even within one continuous categorical family. The log index normalizes how much can be forgotten; only an additional relative-position law or Kazhdan-type invariant can prove that every declared nontrivial direction is seen.
+[[categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall]] supplies the complementary positive result and an even sharper internal control. The fundamental quantum-\(G_2\) category has a universal categorical edge for \(q\neq1\), while at \(q=1\) its sector capacity remains \(2\log7>0\) and its categorical rigidity vanishes. Thus maximum forgetting capacity and minimum distinction cost are independent invariants even within one continuous categorical family. The log index normalizes how much can be forgotten; only an additional relative-position law or Kazhdan-type invariant can prove that every declared nontrivial direction is seen.
 
 The missing theorem must construct, independently of the target spectrum:
 

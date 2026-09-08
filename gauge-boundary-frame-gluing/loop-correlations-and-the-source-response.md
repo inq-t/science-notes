@@ -409,7 +409,7 @@ V=-\lambda^{-1}\log(w_*/w_0)
 makes (LT2) exactly \(w_*\).
 Thus the construction passes fixed-input retuning for the response,
 but **fails to select the state if arbitrary \(V\) is permitted**.
-This is the [[contemporary-puzzles/yang-mills-mass-gap/general-causal-action-research-schema#The next construction: joint selection with restricted primitives|disguised-input test]]
+This is the [[general-causal-action/research-schema#The next construction: joint selection with restricted primitives|disguised-input test]]
 in an actual interacting source family.
 
 A chosen loop weight is not a derivation of an action from nothing.

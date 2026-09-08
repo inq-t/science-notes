@@ -52,7 +52,7 @@ $$
 \tag{R2}
 $$
 
-then covariance fixes the homogeneity of the gap but not the strict positivity of the dimensionless coefficient \(\kappa\). Proving \(\kappa>0\) is the mass-gap problem after the scale register has been corrected. [[mass-as-casimir-and-realization#A fixed member may be gapped while the family is scale covariant|The fixed-member/family distinction]] makes the torsor statement precise.
+then covariance fixes the homogeneity of the gap but not the strict positivity of the dimensionless coefficient \(\kappa\). Proving \(\kappa>0\) is the mass-gap problem after the scale register has been corrected. [[mass-scale-calibration/mass-as-casimir-and-realization#A fixed member may be gapped while the family is scale covariant|The fixed-member/family distinction]] makes the torsor statement precise.
 
 ## A coefficient is not a spectral property
 
@@ -70,7 +70,7 @@ p^\mu p_\mu\geq m_*^2c^2
 \tag{R3}
 $$
 
-Thus one must not infer “no gap” from a missing bare mass coefficient, nor infer the observable gap from a pole or parameter belonging to a gauge-dependent two-point function. [[joint-causal-generators-and-the-mass-casimir]] gives the sharper reversal: individually gapless null-translation generators can possess a strictly positive joint Poincare Casimir.
+Thus one must not infer “no gap” from a missing bare mass coefficient, nor infer the observable gap from a pole or parameter belonging to a gauge-dependent two-point function. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]] gives the sharper reversal: individually gapless null-translation generators can possess a strictly positive joint Poincare Casimir.
 
 ## A number is not yet a physical quantity
 

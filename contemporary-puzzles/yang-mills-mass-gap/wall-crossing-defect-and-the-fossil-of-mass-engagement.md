@@ -188,7 +188,7 @@ $$
 \tag{WD10}
 $$
 
-This criterion does not exclude higher-order identifiability when the first derivative vanishes, and it does not by itself guarantee detectability at finite noise. Stable first-order inference requires a positive lower bound after uncertainties and nuisance directions are included. For several wall parameters, the corresponding response vectors must have full restricted rank. This is the operator-level version of [[trace-residue-as-a-scale-cocycle#The fossil readout is a quotient operator|the finite-rank fossil theorem]]: a frozen finite linearization retains only an equivalence class modulo its response kernel.
+This criterion does not exclude higher-order identifiability when the first derivative vanishes, and it does not by itself guarantee detectability at finite noise. Stable first-order inference requires a positive lower bound after uncertainties and nuisance directions are included. For several wall parameters, the corresponding response vectors must have full restricted rank. This is the operator-level version of [[causal-grain-cosmology/trace-residue-as-a-scale-cocycle#The fossil readout is a quotient operator|the finite-rank fossil theorem]]: a frozen finite linearization retains only an equivalence class modulo its response kernel.
 
 ## Engagement, gap, and fossil are three proof obligations
 
@@ -227,7 +227,7 @@ D(\mathcal C_+^{1/2})
 \tag{WD11}
 $$
 
-Under these reconstruction hypotheses, [[joint-causal-generators-and-the-mass-casimir]] proves that this floor is equivalent to the ordinary Hamiltonian spectral gap used in the Yang--Mills problem. In the exact \(1+1\)-dimensional witness, individual oppositely scaling null generators remain gapless while their product has a positive invariant floor. In \(3+1\) dimensions one null-pair product contains transverse momentum and is therefore not identical to the mass Casimir. Nevertheless, a floor for one fixed physical pair on the entire vacuum complement already gives the Hamiltonian gap and, after Lorentz reconstruction, the Casimir floor. The all-direction theorem is the stronger direct-tomography alternative. The mass is attached to the full translation invariant, not to either causal direction by itself.
+Under these reconstruction hypotheses, [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir]] proves that this floor is equivalent to the ordinary Hamiltonian spectral gap used in the Yang--Mills problem. In the exact \(1+1\)-dimensional witness, individual oppositely scaling null generators remain gapless while their product has a positive invariant floor. In \(3+1\) dimensions one null-pair product contains transverse momentum and is therefore not identical to the mass Casimir. Nevertheless, a floor for one fixed physical pair on the entire vacuum complement already gives the Hamiltonian gap and, after Lorentz reconstruction, the Casimir floor. The all-direction theorem is the stronger direct-tomography alternative. The mass is attached to the full translation invariant, not to either causal direction by itself.
 
 Third comes the **fossil theorem**: prove that the same wall construction has a nonzero, prospectively declared image under (WD9), or a specified higher-order replacement. A common-origin explanation must show that the response defect and the Casimir floor descend from one carrier construction through \(\mathfrak R_+\). Numerical proximity between their dimensional presentations does not provide that theorem.
 
@@ -281,7 +281,7 @@ The methodological stopping rule in `inbox/operator-signature-verdict/commentary
 
 ## BAO retains less than the wall may produce
 
-The exact carrier in [[pair-annihilation-quotient-and-the-baryon-acoustic-carrier]] illustrates two successive reduced descriptions. Pair reactions preserve the oriented comoving residue
+The exact carrier in [[causal-grain-cosmology/pair-annihilation-quotient-and-the-baryon-acoustic-carrier]] illustrates two successive reduced descriptions. Pair reactions preserve the oriented comoving residue
 
 $$
 Q_B=b-\bar b,

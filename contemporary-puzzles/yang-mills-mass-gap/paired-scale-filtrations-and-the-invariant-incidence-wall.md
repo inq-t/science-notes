@@ -355,7 +355,7 @@ M_{\mathcal F}=e^{-N_0}P.
 \tag{PF23}
 $$
 
-The gapless individual addresses are the price of unlimited frame displacement; the fixed mean address is the joint invariant. This is the discrete counterpart of the massive rapidity witness in [[joint-causal-generators-and-the-mass-casimir#Exact massive witness]].
+The gapless individual addresses are the price of unlimited frame displacement; the fixed mean address is the joint invariant. This is the discrete counterpart of the massive rapidity witness in [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir#Exact massive witness]].
 
 ## Reciprocal shifts preserve the wall
 
@@ -463,7 +463,7 @@ H
 \sqrt{P_+(\mathbf n_0)P_-(\mathbf n_0)}.
 $$
 
-Finally, [[joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction|the Lorentz-orbit theorem]] converts the Hamiltonian floor back into the full Casimir floor. This last implication uses the reconstructed Lorentz-invariant joint spectral support. It is unavailable for an abstract pair of scale operators or at a generic finite lattice regulator.
+Finally, [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction|the Lorentz-orbit theorem]] converts the Hamiltonian floor back into the full Casimir floor. This last implication uses the reconstructed Lorentz-invariant joint spectral support. It is unavailable for an abstract pair of scale operators or at a generic finite lattice regulator.
 
 An all-direction family remains an exact, stronger tomography statement that
 does not use the energy-gap detour. Let \(\mathcal D\subset S^2\) be any

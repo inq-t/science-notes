@@ -6,7 +6,7 @@ The conjecture is that one deeper global–local law constrains both cosmologica
 
 The [[deriving-g-v2/the-g-free-first-law|G-free first law]] rewrites a supplied horizon's Clausius relation as \(q=\delta\iota\), with \(\iota=S/k_B\) and \(q=\delta Q/(k_BT)\). Its useful method is to distinguish a dimensionless ledger from the independently normalized maps presenting that ledger as heat or area. Its stated horizon, state, temperature and geometric premises remain necessary.
 
-[[contemporary-puzzles/yang-mills-mass-gap/mass-and-g-as-dual-exchange-rates|The dual-exchange-rate analysis]] identifies the corresponding difficulty for mass: a first-order entropy differential and a positive projective transfer rate have different algebraic types. Sharing units does not identify them. A comparison needs either specified ledger paths for physical rays or a common quadratic-response carrier and a genuine form comparison. A static entropy balance does not select its dynamical rate.
+[[mass-scale-calibration/mass-and-g-as-dual-exchange-rates|The dual-exchange-rate analysis]] identifies the corresponding difficulty for mass: a first-order entropy differential and a positive projective transfer rate have different algebraic types. Sharing units does not identify them. A comparison needs either specified ledger paths for physical rays or a common quadratic-response carrier and a genuine form comparison. A static entropy balance does not select its dynamical rate.
 
 The cosmological conjecture asks for a construction of the following form:
 

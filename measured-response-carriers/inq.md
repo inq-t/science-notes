@@ -545,7 +545,7 @@ dual BKM metric on **state tangents**, and still require the score or predual
 intertwiner, its common domain, and physical range. Nor does (MC19f) identify
 the Markov parameter with clock time or its generator with energy. The
 same-carrier property-\((T)\) application is developed in
-[[contemporary-puzzles/yang-mills-mass-gap/kazhdan-markov-process-carrier]].
+[[categorical-gauge-response/kazhdan-markov-process-carrier]].
 
 The Type-III extension is not formal bookkeeping. There
 \(f(\Delta_\omega)^{1/2}\) and its inverse need not be bounded. One must
@@ -837,7 +837,7 @@ For a single self-dual simple tensor generator \(X\), one may take
 \(\mu=\delta_X\) only after proving that this particular normalized fusion
 element has the Kazhdan estimate. This is the exact conditional shape needed
 in
-[[contemporary-puzzles/yang-mills-mass-gap/categorical-action-on-the-neutral-wilson-carrier]].
+[[categorical-gauge-response/categorical-action-on-the-neutral-wilson-carrier]].
 It is still dimensionless. A physical mass gap requires a same-core
 comparison with the vacuum-subtracted clock-energy form and an independent
 duration or localization-width normalization.
