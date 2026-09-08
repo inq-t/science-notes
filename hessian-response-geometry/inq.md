@@ -106,7 +106,7 @@ $$
 (\dot\rho_I,\dot\rho_J)
 $$
 
-in the declared affine chart. Pulling this state geometry back along the CRF readout map gives that sector's response form. By [[measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers|the pullback-radical theorem]],
+in the declared affine chart. Pulling this state geometry back along the CRF readout map gives that sector's response form. By [[measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers|the pullback-radical theorem]],
 
 $$
 \operatorname{rad}G_\lambda

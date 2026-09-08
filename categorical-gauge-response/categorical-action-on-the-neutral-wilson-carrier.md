@@ -410,65 +410,33 @@ understood on one declared complex core in
 \(\operatorname{Dom}(H_{\mathrm{YM}}^{1/2})\), where
 \(H_{\mathrm{YM}}\) means the vacuum-subtracted generator \(H-E_0\).
 
-A **normalized fusion action by measured operations** of a rigid category
-\(\mathcal C_q\) consists, at minimum, of normal unital completely positive
-maps
+Require a [[measured-response-carriers/normalized-fusion-actions#State-preserving fusion operations|normalized fusion action by measured operations]] of \(\mathcal C_q\) on this specific regional algebra:
 
 \[
 \Phi_\alpha:\mathcal A_B\to\mathcal A_B,
 \qquad
-\alpha\in\operatorname{Irr}(\mathcal C_q),
+\alpha\in\operatorname{Irr}(\mathcal C_q).
 \tag{CW28}
 \]
 
-which preserve \(\omega_B\), admit \(\omega_B\)-adjoints, and obey
-
-\[
-\begin{aligned}
-\Phi_{\mathbf1}&=\operatorname{id},\\
-\Phi_{\bar\alpha}&=\Phi_\alpha^\sharp,\\
-\Phi_\alpha\Phi_\beta
-&=
-\sum_\gamma
-\frac{N_{\alpha\beta}^{\ \ \gamma}d_q(\gamma)}
-{d_q(\alpha)d_q(\beta)}
-\Phi_\gamma.
-\end{aligned}
-\tag{CW29}
-\]
-
-Here \(\sharp\) is the GNS adjoint condition
+Every \(\Phi_\alpha\) must be normal, unital, completely positive, and
+\(\omega_B\)-preserving, with the tensor-unit and conjugate compatibility
+and normalized fusion law (MC22), using \(d=d_q\). In particular, the
+nontracial adjoint condition here is
 
 \[
 \omega_B\!\left(a^*\Phi_\alpha(b)\right)
 =
-\omega_B\!\left(\Phi_{\bar\alpha}(a)^*b\right),
+\omega_B\!\left(\Phi_{\bar\alpha}(a)^*b\right).
 \tag{CW29a}
 \]
 
-so existence of the normal UCP adjoint is a substantive nontracial
-hypothesis.
-
-The coefficients in the last line are nonnegative and sum to one because
-\(d_q\) is a fusion character. Let \(V_\alpha\) be the GNS contraction
-
-\[
-V_\alpha(a\Omega_B):=\Phi_\alpha(a)\Omega_B.
-\tag{CW30}
-\]
-
-Then
-
-\[
-\Theta([\alpha]):=d_q(\alpha)V_\alpha
-\tag{CW31}
-\]
-
-is an algebraic \(*\)-representation of the fusion algebra. The load-bearing
-additional requirement is **tube admissibility**: \(\Theta\) must be
-unitarily equivalent to the weight-zero restriction of a nondegenerate full
-annular or tube-algebra representation, possibly on a larger graded Hilbert
-space. This is not a consequence of (CW29).
+The [[measured-response-carriers/normalized-fusion-actions#GNS fusion representation and tube admissibility|shared GNS construction]] supplies the contractions \(V_\alpha\) on
+\(\mathcal H_B\) and the algebraic fusion representation
+\(\Theta([\alpha])=d_q(\alpha)V_\alpha\). Its tube-admissibility condition
+must be proved for these regional maps: a full annular or tube
+representation must have this \(\Theta\) as its weight-zero restriction.
+The normalized fusion identities alone do not supply that extension.
 
 Require also the Hilbert-space ergodicity condition
 
@@ -484,8 +452,9 @@ Require also the Hilbert-space ergodicity condition
 This condition rules out both failures above: the invariant is normalizable,
 and no nonvacuum neutral subspace is fixed pointwise.
 
-**Same-carrier categorical-edge theorem.** Suppose (CW28)--(CW32) hold for
-the quantum-\(G_2\) category at \(q>0,\ q\neq1\). Choose a finite symmetric
+**Same-carrier categorical-edge theorem.** Suppose this normalized fusion
+action is tube admissible and satisfies (CW32) for the quantum-\(G_2\)
+category at \(q>0,\ q\neq1\). Choose a finite symmetric
 tensor-generating set
 \(S\subset\operatorname{Irr}(\mathcal C_q)\setminus\{\mathbf1\}\) and
 symmetric positive weights \(\nu\), let
@@ -506,11 +475,9 @@ V_{\mathrm K}
 \end{aligned}
 \]
 
-The coefficients in \(\Phi_{\mathrm K}\) are positive and sum to one, so it
-is again a state-preserving UCP map. Symmetry of \(S\) and \(\nu\), together
-with (CW29a), makes it GNS symmetric.
-
-Then categorical property \((T)\) gives
+This is the probability average (MC23a) with
+\(\mu_\alpha=\nu(\alpha)d_q(\alpha)/Z_{S,\nu}\). Applying
+[[measured-response-carriers/normalized-fusion-actions#A categorical averaging edge|the generic categorical edge (MC24)]] with the vacuum identification (CW32) gives
 
 \[
 \boxed{
@@ -520,13 +487,8 @@ I-V_{\mathrm K}
 \tag{CW33}
 \]
 
-**Proof.** Tube admissibility permits application of the universal
-categorical Kazhdan estimate to the represented averaging element. Equation
-(CW32) identifies the represented Kazhdan projection with
-\(P_{\Omega_B}\). \(\square\)
-
-For a self-conjugate fundamental generator \(X=\bar X\), (CW29)--(CW31) make
-\(V_X\) self-adjoint. Replacing \(V_{\mathrm K}\) by \(V_X\) in (CW33) is
+For a self-conjugate fundamental generator \(X=\bar X\), the shared
+GNS-adjoint identity makes \(V_X\) self-adjoint. Replacing \(V_{\mathrm K}\) by \(V_X\) in (CW33) is
 valid only after declaring \(S=\{X\}\) to be symmetric and tensor-generating
 and invoking the corresponding universal estimate
 \(\kappa_{q,\{X\},\nu}>0\). Property \((T)\) does not turn every arbitrarily
@@ -543,15 +505,12 @@ e^{-t}\sum_{n=0}^{\infty}
 \tag{CW33p}
 \]
 
-It is a normal \(\omega_B\)-preserving quantum Markov semigroup whose GNS
-implementation is \(e^{-t(I-V_{\mathrm K})}\). Hence (CW33) is a GNS
-Markov gap. [[library/the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups/inq|Wirth's operator-monotone gap theorem]]
-then gives at least the same decay rate in every normalized
-operator-monotone observable norm, including the observable BKM norm. This
-removes an ad hoc GNS-to-observable-BKM comparison even in type III. It does
-not prove (CW33c): the inverse BKM metric on state tangents is the dual
-carrier and still requires the score intertwiner and physical range. Nor
-does Poissonization turn the Markov parameter into clock time. The group
+Its GNS implementation is \(e^{-t(I-V_{\mathrm K})}\).
+[[measured-response-carriers/observable-bkm-gap-transfer|The shared Markov-gap transfer theorem]] therefore transports (CW33) to every normalized
+operator-monotone observable norm, including observable BKM, also in type
+III. This does not prove (CW33c): the inverse BKM metric on state tangents
+still requires the score intertwiner and physical range. Nor does
+Poissonization turn the Markov parameter into clock time. The group
 benchmark and its exact constants are isolated in
 [[categorical-gauge-response/kazhdan-markov-process-carrier]].
 
@@ -625,8 +584,7 @@ with the modular flow, and the Kubo--Mori coordinate map gives precisely such
 an intertwiner. For a Type-III regional algebra the corresponding modular
 maps are generally unbounded; a common Tomita core, strong modular
 commutation, closability, invariant range, and coverage must therefore be
-proved. [[measured-response-carriers/inq#A conditional BKM--GNS bridge|The
-shared carrier theorem]] records the exact hypotheses.
+proved. [[measured-response-carriers/state-tangent-bkm-bridge|The shared carrier theorem]] records the exact hypotheses.
 
 If \(J_B\) maps the physical real core into this tangent space, write
 
@@ -776,8 +734,8 @@ content.
 A successful global-to-local construction must now produce all of the
 following without consulting the glueball spectrum:
 
-1. the state-preserving fusion law (CW29), not bare multiplication by a Wilson
-   class function;
+1. the state-preserving fusion law (MC22) on \(\mathcal A_B\), not bare
+   multiplication by a Wilson class function;
 2. extension to a full annular or tube-algebra representation;
 3. the vacuum-only invariant condition (CW32) on the complete neutral carrier;
 4. a non-scalar centered defect--anything reduced to (CW16) is physically

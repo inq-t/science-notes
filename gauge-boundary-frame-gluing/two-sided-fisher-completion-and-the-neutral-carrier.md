@@ -134,7 +134,7 @@ undefined quotients with denominator zero by declaring the extended norm
 \qquad \inf\varnothing=\infty .
 \tag{JF8}
 \]
-This is the [[measured-response-carriers/inq#Fisher-invisible actions and finite observable response|stabilizer-annihilation rule]]
+This is the [[measured-response-carriers/response-pullbacks-and-radicals#Fisher-invisible actions and finite observable response|stabilizer-annihilation rule]]
 for a specified observable cotangent, not inversion of a projected
 zero metric. The pointwise derivative in (JF7) is not the derivative of
 the expectation of \(F\).

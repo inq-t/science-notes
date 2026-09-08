@@ -67,7 +67,7 @@ $$
 \bigl(R_{\mathrm s}^{\mathrm{eq}}\bigr)^{-1}.
 $$
 
-Thus even a successful scalar identification need not preserve the numerical kernel unchanged. A nontrivial field normalization or carrier map belongs in \(R_{\mathrm s}^{\mathrm{eq}}\). [[measured-response-carriers/inq|Measured response carriers]] owns this closed-form transport theorem and its domain hypotheses.
+Thus even a successful scalar identification need not preserve the numerical kernel unchanged. A nontrivial field normalization or carrier map belongs in \(R_{\mathrm s}^{\mathrm{eq}}\). [[measured-response-carriers/closed-form-carrier-transport|Measured response carriers]] owns this closed-form transport theorem and its domain hypotheses.
 
 If \(R_{\mathrm s}^{\mathrm{eq}}\) has a kernel, first quotient by the declared null or gauge sector and prove that the induced map is an isomorphism onto a closed physical image. If the map remains genuinely projective, precision must be transported by an appropriate projected-covariance, constrained, or shorted-form construction; the displayed inverse formula is then not available on the unreduced carrier.
 

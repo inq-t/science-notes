@@ -75,7 +75,7 @@ The image-specific hypothesis (MC21g) matters. A gap for \(L\) only on \((\ker L
 \(\operatorname{dist}(J\psi,\ker L)^2\ge b_J\|\psi\|_{\mathrm{phys}}^2\)
 and use the corresponding modulo-kernel response inequality.
 
-This implication is exact; its premises contain the physical work. A real BKM Hessian first needs a positive Hermitian extension, and the comparison must hold on a **complex form core of the full physical vacuum complement**, not merely a selected channel. \(E_*\) must be selected without fitting the desired gap. [[hessian-response-geometry/relative-response-spectrum|The response metric pair]] fixes the quotient being bounded; [[inq#Parameter Hessians are pullbacks, not new carriers|a parameter Hessian]] cannot manufacture the missing lower frame.
+This implication is exact; its premises contain the physical work. A real BKM Hessian first needs a positive Hermitian extension, and the comparison must hold on a **complex form core of the full physical vacuum complement**, not merely a selected channel. \(E_*\) must be selected without fitting the desired gap. [[hessian-response-geometry/relative-response-spectrum|The response metric pair]] fixes the quotient being bounded; [[measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers|a parameter Hessian]] cannot manufacture the missing lower frame.
 
 The operator registers are therefore:
 

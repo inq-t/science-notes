@@ -1,0 +1,77 @@
+{
+  "source_commit": "6fc47c3",
+  "source_path": "measured-response-carriers/inq.md",
+  "source_sha256": "803a04ce338762a8f41725e14a0b06a83e0f87108613c414851de80dfc407d3a",
+  "purpose": "Extract reusable carrier constructions, preserve equation labels and redirect active heading links. Exact bodies are initially lifted from the source commit; scoped clarifications and deduplication are reviewed in Git. This map does not certify the mathematics.",
+  "section_moves": [
+    {
+      "old": "measured-response-carriers/inq#The measured operation",
+      "new": "measured-response-carriers/measured-operations-and-gns-defects#The measured operation"
+    },
+    {
+      "old": "measured-response-carriers/inq#First carrier: the observable algebra",
+      "new": "measured-response-carriers/measured-operations-and-gns-defects#First carrier: the observable algebra"
+    },
+    {
+      "old": "measured-response-carriers/inq#Descent and clock use different arrows",
+      "new": "measured-response-carriers/descent-and-clock-arrows#Descent and clock use different arrows"
+    },
+    {
+      "old": "measured-response-carriers/inq#Second carrier: GNS state vectors",
+      "new": "measured-response-carriers/measured-operations-and-gns-defects#Second carrier: GNS state vectors"
+    },
+    {
+      "old": "measured-response-carriers/inq#Families and vacuum ergodicity",
+      "new": "measured-response-carriers/measured-operations-and-gns-defects#Families and vacuum ergodicity"
+    },
+    {
+      "old": "measured-response-carriers/inq#Lazification does not supply a clock",
+      "new": "measured-response-carriers/lazification-and-clock-calibration#Lazification does not supply a clock"
+    },
+    {
+      "old": "measured-response-carriers/inq#Third carrier: faithful state tangents",
+      "new": "measured-response-carriers/state-tangent-bkm-bridge#Faithful state tangents"
+    },
+    {
+      "old": "measured-response-carriers/inq#A conditional BKM--GNS bridge",
+      "new": "measured-response-carriers/state-tangent-bkm-bridge#A conditional BKM--GNS bridge"
+    },
+    {
+      "old": "measured-response-carriers/inq#An operator-monotone gap transfer on arbitrary von Neumann algebras",
+      "new": "measured-response-carriers/observable-bkm-gap-transfer#An operator-monotone gap transfer on arbitrary von Neumann algebras"
+    },
+    {
+      "old": "measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers",
+      "new": "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+    },
+    {
+      "old": "measured-response-carriers/inq#Fisher-invisible actions and finite observable response",
+      "new": "measured-response-carriers/response-pullbacks-and-radicals#Fisher-invisible actions and finite observable response"
+    },
+    {
+      "old": "measured-response-carriers/inq#Closed-form transport across carriers",
+      "new": "measured-response-carriers/closed-form-carrier-transport#Closed-form transport across carriers"
+    },
+    {
+      "old": "measured-response-carriers/inq#The generic response-to-energy theorem",
+      "new": "measured-response-carriers/response-to-energy-comparison#Response-to-Energy Comparison"
+    },
+    {
+      "old": "measured-response-carriers/inq#Categorical fusion-action specialization",
+      "new": "measured-response-carriers/normalized-fusion-actions#Normalized Fusion Actions"
+    },
+    {
+      "old": "measured-response-carriers/inq#The Three Carriers of a Measured Response",
+      "new": "measured-response-carriers/inq#Measured Response Carriers"
+    },
+    {
+      "old": "measured-response-carriers/inq#Construction gates",
+      "new": "measured-response-carriers/inq#The reusable carrier stack"
+    }
+  ],
+  "remaining_concentration": {
+    "path": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork.md",
+    "source_lines": 978,
+    "next_review": "Separate the exact channel-loss and recovery constructions from minimum-lift output forms, localized energy comparisons, paired-wall operators and the reconstructed Casimir theorem. This round splits the entrypoint, not that supporting monolith."
+  }
+}

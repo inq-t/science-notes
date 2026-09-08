@@ -539,7 +539,7 @@ This supplies a non-arbitrary candidate for the previously open post-wall metric
 
 ## Conditional mass-gap theorem
 
-The incoming bound in (OD39) is a [[measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers|pullback-carrier obligation]], separate from the post-wall edge. The reusable [[measured-response-carriers/response-to-energy-comparison|response-to-energy comparison]] isolates that obligation. The following specialization instead compares with the **squared mass-energy Casimir**; its square root and continuum hypotheses must not be replaced by the generic linear-energy formula.
+The incoming bound in (OD39) is a [[measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers|pullback-carrier obligation]], separate from the post-wall edge. The reusable [[measured-response-carriers/response-to-energy-comparison|response-to-energy comparison]] isolates that obligation. The following specialization instead compares with the **squared mass-energy Casimir**; its square root and continuum hypotheses must not be replaced by the generic linear-energy formula.
 
 Suppose the post-wall carrier has already been identified with a positive-energy Hilbert space, and suppose the intersection projection \(P_0\) from (OD13) is exactly the projection onto its unique joint-translation-invariant vacuum. Let the nonnegative Poincaré Casimir be
 

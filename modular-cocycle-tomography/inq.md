@@ -306,7 +306,7 @@ g_{\varphi_i}^{\mathrm{BKM}}
 \]
 
 Where every target metric is positive definite, the pullback theorem in
-[[measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers|measured response carriers]]
+[[measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers|measured response carriers]]
 gives
 
 \[

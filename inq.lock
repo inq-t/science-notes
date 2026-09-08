@@ -391,7 +391,6 @@ quantum-operations-on-conformal-nets = "local:quantum-operations-on-conformal-ne
 realization-of-rigid-c-star-tensor-categories-via-tomita-bimodules = "local:realization-of-rigid-c-star-tensor-categories-via-tomita-bimodules"
 representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories = "local:representation-theory-for-subfactors-lambda-lattices-and-c-star-tensor-categories"
 tensor-categories-and-endomorphisms-of-von-neumann-algebras = "local:tensor-categories-and-endomorphisms-of-von-neumann-algebras"
-the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups = "local:the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups"
 triangle-descent-response = "local:triangle-descent-response"
 yang-mills-mass-gap = "local:yang-mills-mass-gap"
 
@@ -2077,6 +2076,7 @@ name = "measured-response-carriers"
 
 [local.links]
 algebra = "local:algebra"
+annular-representation-theory-for-rigid-c-star-tensor-categories = "local:annular-representation-theory-for-rigid-c-star-tensor-categories"
 approximate-recoverability-and-relative-entropy-ii = "local:approximate-recoverability-and-relative-entropy-ii"
 binary-information-geometry = "local:binary-information-geometry"
 categorical-gauge-response = "local:categorical-gauge-response"
@@ -2095,12 +2095,14 @@ mass-scale-calibration = "local:mass-scale-calibration"
 modular-cocycle-tomography = "local:modular-cocycle-tomography"
 monotone-riemannian-metrics-and-relative-entropy = "local:monotone-riemannian-metrics-and-relative-entropy"
 physical-response-coercivity = "local:physical-response-coercivity"
+property-t-discrete-quantum-groups-and-subfactors-with-triangle-presentations = "local:property-t-discrete-quantum-groups-and-subfactors-with-triangle-presentations"
 spectral-wall-descent = "local:spectral-wall-descent"
 sufficiency-of-channels-over-von-neumann-algebras = "local:sufficiency-of-channels-over-von-neumann-algebras"
 sufficient-reason = "local:sufficient-reason"
 sufficient-subalgebras-and-relative-entropy = "local:sufficient-subalgebras-and-relative-entropy"
 the-differential-structure-of-generators-of-gns-symmetric-quantum-markov-semigroups = "local:the-differential-structure-of-generators-of-gns-symmetric-quantum-markov-semigroups"
 the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups = "local:the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups"
+trace-dirichlet-descent = "local:trace-dirichlet-descent"
 transported-response-observability-solder = "local:transported-response-observability-solder"
 
 [[local]]

@@ -1,4 +1,4 @@
-# The Kazhdan--Markov Process Carrier
+# Kazhdan--Markov Process Carrier
 
 The reversible automorphisms of a local observable algebra need not exhaust its physically meaningful arrows. Given a state-preserving action of a property-\((T)\) group whose only invariant GNS vectors are the vacuum line, a symmetric Kazhdan average has an exact dimensionless Dirichlet edge on that algebra's own GNS carrier, even when the algebra is type III. This is a conditional same-carrier benchmark for local distinction decay, not yet the whole-to-local wall or a fact-producing collapse. It becomes a Yang--Mills mass gap only after a selected net action, a theorem relating that endoprocess to the realization wall, modular-response coverage, a same-core entropy--energy comparison, regulator-uniformity, and Poincare reconstruction are proved.
 
@@ -194,11 +194,10 @@ Yang--Mills selects \(\Gamma\), \(\alpha\), or \(\mu\).
 
 ## The BKM gain, and its exact limit
 
-[[library/the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups/inq|Wirth's 2026 theorem]]
-applies to quantum Markov semigroups with a faithful normal invariant state
-on arbitrary von Neumann algebras. If such a semigroup has GNS spectral gap
-\(\lambda\), then it has \(f\)-spectral gap at least \(\lambda\) for every
-normalized operator-monotone function \(f\). In particular this includes
+Apply the
+[[measured-response-carriers/observable-bkm-gap-transfer|observable BKM gap-transfer theorem]]
+to the Poissonized semigroup (KM12), using its GNS rate
+\(\lambda_\mu\) from (KM10). Its BKM specialization uses
 
 \[
 f_{\mathrm{BKM}}(t)
@@ -228,8 +227,8 @@ reach the *observable* BKM norm. It does not identify that norm with the
 inverse BKM metric on state-density tangents. The two are Legendre-dual
 carriers. A score map, predual dualization, or detailed-balance intertwiner
 with its domain and range is still required before one may claim a
-relative-entropy Hessian bound. [[measured-response-carriers/inq#Third carrier: faithful state tangents|Measured response carriers]]
-owns this distinction.
+relative-entropy Hessian bound. [[measured-response-carriers/state-tangent-bkm-bridge|The state-tangent bridge]]
+states those hypotheses and proves the canonical finite faithful case.
 
 Nor is \(L_\mu\) the physical Hamiltonian. Rescaling
 \(t\mapsto at\) replaces it by \(aL_\mu\) without changing the invariant

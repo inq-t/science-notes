@@ -1,0 +1,131 @@
+{
+  "section_map": "scripts/refactors/2026-09-08-measured-response-sections.json",
+  "scope": "Mechanical active wiki-heading redirects after extraction. Source equations are checked by label presence; this does not prove theorem correctness or substitute for content review.",
+  "active_files_updated": [
+    {
+      "path": "categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall.md",
+      "before_sha256": "03dab74ac3750971b99034dee8fbd4ba352c1b640dd2a4c0673f1db869871feb",
+      "after_sha256": "d884cf55601bd0716386c4cfceda28c812e7c2ecc0cb0d055aef99570036e07b",
+      "links": [
+        [
+          "measured-response-carriers/inq#Categorical fusion-action specialization",
+          "measured-response-carriers/normalized-fusion-actions#Normalized Fusion Actions"
+        ]
+      ]
+    },
+    {
+      "path": "gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier.md",
+      "before_sha256": "4a042be5a0b1f8e592e07c00375f0ce13bdd6089fd5115bca52e3a2d431db69b",
+      "after_sha256": "d4f16a49d987e4d6225d85a5767401b4aff6461c4044ba2c00f7f0f415de5155",
+      "links": [
+        [
+          "measured-response-carriers/inq#Fisher-invisible actions and finite observable response",
+          "measured-response-carriers/response-pullbacks-and-radicals#Fisher-invisible actions and finite observable response"
+        ]
+      ]
+    },
+    {
+      "path": "hessian-response-geometry/inq.md",
+      "before_sha256": "fddb97bdc2927376db8d45ef044def345f5ac74d409aef05a7f363aa3f462753",
+      "after_sha256": "2052000520ab81f1b00b3053a27e4136691367bfb2dee98e3b265da33d1bf30b",
+      "links": [
+        [
+          "measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers",
+          "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+        ]
+      ]
+    },
+    {
+      "path": "measured-response-carriers/response-to-energy-comparison.md",
+      "before_sha256": "3aca32006fc7273bdbe539e0b26fb897bedfe7b99b46ace2b97cb20356b87f27",
+      "after_sha256": "929029f89374647a09cb11b0df5406c9566dc4008deb42dccce06442a9af7843",
+      "links": [
+        [
+          "inq#Parameter Hessians are pullbacks, not new carriers",
+          "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+        ]
+      ]
+    },
+    {
+      "path": "modular-cocycle-tomography/inq.md",
+      "before_sha256": "48d68231138394d7f2aabead977b365852a357aea817cbce28087658235bf3b4",
+      "after_sha256": "6f5ff3da4bbd5f882c09a91f91ea5708965ca0850fb39828e78984c42a54f4f4",
+      "links": [
+        [
+          "measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers",
+          "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+        ]
+      ]
+    },
+    {
+      "path": "physical-response-coercivity/regional-relative-entropy-frames.md",
+      "before_sha256": "4098a6594d3eacd28f0d2ddb3d1c62ec215a01fc3cc74d2f1add53d939fb1806",
+      "after_sha256": "e68837330a980c5422830f187cc60e10b13ef87c97c5b0a8eefa6faffe317dc1",
+      "links": [
+        [
+          "measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers",
+          "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+        ]
+      ]
+    },
+    {
+      "path": "trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry.md",
+      "before_sha256": "b21e44ace70eec932ab7d1f73f03f758852db4aab4f9240cbf2f1f4a5c339fb3",
+      "after_sha256": "910771267c6f95999e18feb241e3577eaa35239c444333df39d383ce03182e17",
+      "links": [
+        [
+          "measured-response-carriers/inq#Parameter Hessians are pullbacks, not new carriers",
+          "measured-response-carriers/response-pullbacks-and-radicals#Parameter Hessians are pullbacks, not new carriers"
+        ]
+      ]
+    }
+  ],
+  "anchor_updates": 7,
+  "frozen_markdown_verified": 213,
+  "source_equation_tags_verified": [
+    "MC1",
+    "MC2",
+    "MC3",
+    "MC3a",
+    "MC3b",
+    "MC3c",
+    "MC3d",
+    "MC4",
+    "MC5",
+    "MC6",
+    "MC7",
+    "MC8",
+    "MC9",
+    "MC10",
+    "MC11",
+    "MC12",
+    "MC13",
+    "MC14",
+    "MC15",
+    "MC16",
+    "MC17",
+    "MC18",
+    "MC19",
+    "MC19a",
+    "MC19b",
+    "MC19c",
+    "MC19d",
+    "MC19e",
+    "MC19f",
+    "MC20",
+    "MC21",
+    "MC21'",
+    "MC21a",
+    "MC21b",
+    "MC21c",
+    "MC21d",
+    "MC21e",
+    "MC21e'",
+    "MC21e''",
+    "MC22",
+    "MC23",
+    "MC23a",
+    "MC24",
+    "MC25"
+  ]
+}
