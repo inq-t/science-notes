@@ -174,6 +174,25 @@ The demand on readouts is also stronger than [[general-causal-action/research-sc
 \]
 All spatial or contextual structure in this correlation sits in the static covariance; its temporal factor is common. More strongly, (GN4) removes hidden-mode memory from the full observable algebra of every linear readout. This is a discriminating hypothesis for this Gaussian family, not every notion of global/local compatibility and not a model of a general interacting interface with nontrivial retained memory. Nonlinear readouts are outside that autonomous-reduction assertion.
 
+## All linear readouts being autonomous also restricts the state
+
+The Gaussian hypothesis can itself be recovered from a strong autonomy requirement, provided the configuration dimension is at least two. Let \(d\ge2\), \(B>0\) be constant, and \(\rho=Z^{-1}e^{-U}>0\) be a normalizable smooth density on all of \(\mathbb R^d\). Its reversible differential expression is
+\[
+L=-B:\nabla^2+b(x)\cdot\nabla,\qquad b=B\nabla U.
+\tag{GN20}
+\]
+Suppose for every nonzero linear functional \(a\), the drift \(a\cdot b(x)\) depends only on \(a\cdot x\). This is necessary for that readout to carry an autonomous diffusion, and is weaker than demanding its complete semigroup in advance. Then
+\[
+\boxed{b(x)=c(x-m),\qquad \rho=N(m,B/c),\qquad c>0.}
+\tag{GN21}
+\]
+
+Indeed, differentiating the readout drift along every vector perpendicular to \(a\) gives \(a^T(Db)v=0\). Thus \((Db)^Ta\) is parallel to every \(a\); a linear map with every vector an eigenvector is scalar, so \(Db(x)=c(x)I\). The vanishing off-diagonal derivatives make each \(b_i\) depend only on \(x_i\). Equality of the diagonal derivatives for independently varying coordinates, using \(d\ge2\), forces their common value to be a constant \(c\). Hence \(b=cx+d_0\) and \(\nabla^2U=cB^{-1}\). Normalizability on the whole Euclidean space excludes \(c\le0\), and completing the square proves (GN21). In dimension one this argument does not apply: nonzero linear readouts are invertible and impose no Gaussian restriction.
+
+Consequently extending all-readout autonomy unchanged would exclude the smooth non-Gaussian states of [[general-causal-action/interacting-comparison-refinement|the interacting refinement]]. A common whole/local law may instead retain their explicitly derived memory. This is a restriction of constant mobility and complete linear-readout autonomy, not a theorem excluding interacting theories with other readout or response structures.
+
+## Distinct parents and the physical clock
+
 There are separate constructive routes into this class. The [[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|purification fluctuation calculation]] derives the limiting differential expression \(G:\nabla^2-\xi\cdot\nabla\) with stationary covariance \(G\) from one supplied parent; the [[algebra/purification-response-normalization-and-the-full-clock-limit|full purification clock theorem]] proves the corresponding complete spectral convergence. The [[general-causal-action/gaussian-overlap-balancing-and-clock-sewing|Gaussian overlap balancing construction]] instead starts with finite-width comparisons: within its balanced Gaussian proximity family, exact composition under one scalar clock forces the proximity cometric to be proportional to the state covariance. That is an independent selecting condition on a declared kernel family, not a consequence of (GN4) or Gaussian shape alone.
 
 The rule is local as a second-order differential operator on this finite configuration space. It need not be local in a physical spatial decomposition: a field covariance can connect variables assigned to distant spatial regions, and using it as mobility changes the physical Euclidean-gradient dynamics. In particular, choosing inverse precision as mobility removes the precision-dependent relaxation rates by construction; it does not establish a mass gap for the original Maxwell or Yang–Mills clock. Infinite-dimensional existence, physical locality, interacting observable recovery and calibration of \(c\) require their own constructions.

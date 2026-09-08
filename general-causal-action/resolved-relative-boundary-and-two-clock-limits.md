@@ -4,6 +4,8 @@ A narrowing joint comparison can retain its relative distinctions through a chan
 
 **Status: exact carrier construction and two limiting process theorems for the declared \(SU(2)\) family.** The Gaussian coordinate is a resolved boundary distinction, with no assigned matter content or gravitational coupling. [[sewn-overlap-refinement|The refinement theorem]] owns the multiplier estimates, normalization and uniform finite-system gap. Neither result supplies a four-dimensional field theory.
 
+The process here conditionally resamples two contexts. [[sewn-transfer-clock-and-the-rotor-limit|The transfer interpretation]] instead treats them as successive endpoints of a path and returns a consistent rotor on its slice carrier. The present theorem does not require every normalized short-interval fluctuation to survive as an independent physical state. Its two-clock restriction remains exact for the declared conditional-update dynamics.
+
 ## Resolve the joint state before taking its clock limit
 
 Use \(p_k,q_k,\pi_k,L_k\) from [[sewn-overlap-and-conditional-clock|the sewn comparison]]. In the coordinates \(g=xy^{-1}\) and \(y\), Haar invariance gives exactly
