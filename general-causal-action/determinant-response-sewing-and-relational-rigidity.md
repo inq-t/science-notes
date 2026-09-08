@@ -28,6 +28,8 @@ For \(\nu\in\mathbb N_{>0}\) independent copies, the normalization is \((\det Q_
 
 On a pair \((w,Q)\), elimination multiplies \(w\) by the determinant factor. For disjoint interior sets, successive elimination equals elimination of their union: the Schur complements associate, and their determinant factors multiply. This follows directly from (DS1) and Fubini. It is an equality of full retained amplitudes, including their normalization.
 
+[[spectral-wall-descent/response-determinant|Response and determinant from one hidden operator]] already owns this two-output mechanism and its effective-action interpretation. The present proposal asks which algebraic presentation identities constrain its admissible inputs.
+
 The two outputs have different jobs. The determinant changes the relative weights of retained configurations. The Schur complement preserves how arbitrary boundary data respond. Retaining only a normalized scalar density loses the latter; retaining only a quadratic form loses the former. With a spectral parameter, retain \(Q_{\partial|I}(z)\) at every admissible \(z\), not just its value at zero. [[coarse-response-memory/inq|Coarse response memory]] owns the resulting dynamical Schur formula.
 
 This construction permits non-Gaussian retained laws in linear coordinates even though the eliminated variables are Gaussian: \(Q\) may depend nonlinearly on the retained variables. On compact frame groups, the invariant statement is that the induced Haar-relative law can be nonconstant. Neither setting falls under [[gaussian-sewing-rigidity|the constant-metric Gaussian sewing theorem]]. Integer \(\nu\) has an explicit Gaussian realization. Any real power of a positive determinant is a positive scalar weight; positive-definiteness of a proposed overlap kernel is a further requirement, as in [[algebra/determinant-preparation-positivity-and-the-rank-threshold|determinant preparation positivity]].
@@ -171,7 +173,9 @@ Q_\Gamma(z)=z\Gamma+
 has both Schur response \(zI\) and a \(z\)-independent unit normalization precisely when \(\Gamma=\operatorname{diag}(I,0)\). The inserted variable is then an algebraic auxiliary with no independent clock weight. This insertion remains transparent in every positive boundary context, including finite forests of such leaves.
 
 The determinant condition does real work. Already for scalars,
-\(\Gamma_c=\left(\begin{smallmatrix}1+c&-c\\-c&c\end{smallmatrix}\right)\), \(c\ge0\), preserves the entire Schur response \(z\), while its hidden determinant is \(1+cz\). For \(c>0\), it hides a relative mode of rate \(1/c\). The next task is to extend the selected unit rule to genuine multiplication and composition without making every physical distinction an auxiliary.
+\(\Gamma_c=\left(\begin{smallmatrix}1+c&-c\\-c&c\end{smallmatrix}\right)\), \(c\ge0\), preserves the entire Schur response \(z\), while its hidden determinant is \(1+cz\). For \(c>0\), it hides a relative mode of rate \(1/c\). Extending this unit law to genuine multiplication requires a rule distinguishing presentation auxiliaries from physical distinctions.
+
+[[multiplication-reassociation-and-the-process-metric|The reassociation test]] now separates two results. Giving each intermediate tensor a positive clock norm fails for every nontrivial finite unital algebra. Giving clock weight only to the endpoints returns a positive amplitude independent of every sequential reduction order, with iterated multiplication and its covariance sum retained. But an integrated identity leaf is not an identity transition: finite Gaussian noise accumulates along a wire. The latter requires zero innovation, or a whole-diagram correlation that cancels it. A single common Gaussian state for both unit presentations is also obstructed under the stated positive-noise hypotheses.
 
 ## Conjecture 2: relational cycles force physical rigidity
 
@@ -201,7 +205,7 @@ D(X)=([U,X],[V,X]),
 
 Indeed, the basis \(U^aV^b\) diagonalizes the form with eigenvalues \(4\sin^2(\pi a/N)+4\sin^2(\pi b/N)\). A fixed-coefficient chain also admits arbitrarily long, slowly varying distinctions. The desired theorem must identify an additional rigidity that defeats these escape routes. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|Quantitative descent]] states the corresponding full-carrier requirement.
 
-## Conjecture 3: cosmic geometry and local mass are response readouts
+## Conjecture 3: cosmic normalization and local mass share a marked amplitude
 
 In the bounded-coupling block setting of [[coarse-response-memory/inq|the memory theorem]], remove the actual vacuum and write
 
@@ -222,7 +226,7 @@ The complete retained denominator and its first frequency derivative are
 
 The identity is exact: the induced norm remembers how long a hidden response can persist. It gives a candidate interpretation of inertia as accumulated relational response. It does not equate that norm with a mass eigenvalue.
 
-**Conjecture 3.** The same selected amplitude admits independently constructed local and homogeneous-scale tangents whose full response is the pullback of one \(\mathscr F\). In particular, a proposed cosmic response form would obey
+**Conjecture 3.** The same selected amplitude determines a joint closed normalization and marked boundary response, admitting independently constructed homogeneous and local physical returns. Their transported mixed-source derivatives have a common origin. The harmonic-lift identification below is one candidate noncentral component:
 
 \[
 \mathbb G_{NN}\ \stackrel{?}{=}\ J_N^*\mathscr F'(0)J_N,
@@ -233,6 +237,8 @@ The identity is exact: the induced norm remembers how long a hidden response can
 \]
 
 The first equality is a conjectured identification after transport, central resolution and unit calibration. \(J_N\) must be derived as a physical homogeneous-scale tangent, not chosen to force the equality. [[program-core/common-response-form|The common response form]] owns the independent state geometry and mixed-response test. Its BKM form is not automatically the harmonic-lift norm in (DS13). When a tangent differentiates an eliminated variable, its source insertion must also be carried through the integration; preserving an unmarked amplitude alone does not preserve every response witness.
+
+[[closed-normalization-and-cosmic-response|Marked closed normalization]] supplies an exact finite generating identity: matrix-source derivatives of a determinant recover the complete open resolvent and its homogeneous variation. A decoupled hidden mode can contribute to the determinant while being absent from \(\mathscr F\). Conversely, unmarked eigenvalues do not determine local couplings. Even the marked identity leaves an additive scalar character on genuine diagrams possible unless the primitive law excludes it; unit transparency alone does not determine cosmic vacuum normalization.
 
 The spectral measure of \(\mathcal R_{\rm loc}\), together with a totality theorem, could detect the physical gap after the translation and Poincaré return. A low-frequency coefficient alone cannot. For example,
 
