@@ -359,6 +359,23 @@ dynamics together. Closing arbitrary two-input products under block
 assembly, and selecting those supplied dynamics, remain separate
 obligations; upper spectral tails do not exclude soft excitations.
 
+For arbitrary two inputs, the second-order Hilbert norm and its
+dyadic spectral variant fail by concentration on one fixed raw
+Wilson block. [[transition-score-and-lipschitz-product-control|Transition-score covariance]]
+instead gives a bounded nonlinear response in the homogeneous
+Lipschitz quotient, uniformly over independent copies of fixed
+blocks. Its constants are explicit finite block data; they do not
+control an extensive source or remain uniform along the continuum
+trajectory.
+
+[[product-boundary-frames-and-crossing-susceptibility|The crossing-state test]]
+exposes a separate structural cost. Exact independent regional
+vacua still give Haar crossing holonomy and a nonzero neutral
+susceptibility at the electric scale. Final whole-gauge projection
+leaves that product vector unchanged. A reference that improves
+this cost must include actual shared boundary correlations, not
+only better internal spectra and separately neutral states.
+
 ## Use the physical bounded defect when domains are difficult
 
 For an actual positive injective physical transfer

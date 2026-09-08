@@ -448,3 +448,15 @@ gap, exact ground-state conjugation, nor an internal positive
 associator supplies that estimate. A nonassociative parent
 would add content if it constrained this shared product,
 state and response law before they were chosen.
+
+Two subsequent tests separate the remaining obligations.
+[[transition-score-and-lipschitz-product-control|The actual transition score]]
+does control arbitrary two-input response in a homogeneous
+Lipschitz quotient, uniformly over independent copies of fixed
+blocks. That is not yet a local norm for an extensive source.
+More decisively, [[product-boundary-frames-and-crossing-susceptibility|independent boundary frames]]
+leave a genuinely crossing loop Haar-distributed under every
+such exact product vacuum. Its neutral ground-state tangent
+cannot be made small simply by strengthening the internal
+interactions. A correlated interface reference would change
+that assumption; merely enlarging independent blocks does not.

@@ -52,6 +52,23 @@ The finite operator is elliptic on a compact connected product with a bounded re
 
 The raw one-site constant \(c_G\), not the larger gauge-invariant girth constant, is needed in (HV1). Charged one-link states exist in the raw tensor product used by the theorem. Removing them later cannot justify changing the theorem's earlier normalization.
 
+The source's Section 2 avoids pointwise multiplication of arbitrary
+wavefunctions: it expands the state using vacuum-excitation
+creation operators and controls energy-weighted excitation
+vectors. Their subset weights use a minimal connecting hull;
+excitation subsets need not themselves be connected. Thus the
+[[coarse-response-memory/block-spectral-moments-and-connected-assembly#A second-order Hilbert norm still loses concentrated products|failed function-product norm]]
+does not obstruct this already established stability method.
+Its small local interaction requirement remains.
+
+Replacing the elementary sites by exact interacting raw blocks
+does not automatically improve that smallness ratio.
+[[coarse-response-memory/product-boundary-frames-and-crossing-susceptibility|The independent-boundary test]]
+gives both a raw-block gap ceiling and a nonvanishing actual
+neutral crossing tangent, regardless of internal coupling.
+This restricts the proposed product-reference repair, not the
+published theorem or correlated-reference methods.
+
 ## What this controls, and what it does not
 
 At finite volume normalize \(\|\psi_\Lambda\|_2=1\), set \(\nu_\Lambda=\psi_\Lambda^2\,d\mathrm{Haar}\), and let \(Q_0=I-\Pi_1\) on \(L^2(\nu_\Lambda)\), or its gauge-invariant subspace. For the actual positive ground-state-transformed Hamiltonian semigroup, suppressing \(\Lambda\) in the formula,

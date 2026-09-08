@@ -86,6 +86,13 @@ but reverses the sign of \(q_p\). Edges elsewhere in the
 \(A\)-region may also transform; invariance of its whole vacuum
 law is what licenses this argument.
 
+[[product-boundary-frames-and-crossing-susceptibility|A full transition-vertex average]]
+strengthens this sign test: the crossing holonomy is Haar under
+the product reference, and its actual neutral inverse response
+has a lower bound independent of internal coupling. The
+infinitesimal cost is therefore not removed by solving the two
+regions exactly before coupling them.
+
 Testing \(H\) on \(\phi\) therefore gives \(E\le E_{\rm dec}\).
 With \(\delta=E_{\rm dec}-E\), (BC5) becomes
 \[

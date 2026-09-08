@@ -501,6 +501,18 @@ still starts from a supplied kinetic geometry; it does not select
 that geometry, produce nonassociative dynamics or close the
 nonlinear assembly merely by changing the carrier.
 
+The next tests distinguish norm choice from state choice.
+[[coarse-response-memory/transition-score-and-lipschitz-product-control|Transition-score covariance]]
+controls genuine nonlinear response in a derivative quotient,
+where a second-order Hilbert replacement fails by concentration.
+But [[coarse-response-memory/product-boundary-frames-and-crossing-susceptibility|the boundary-state test]]
+shows that exact independent regional vacua still leave an
+unsuppressed neutral crossing response. Whole gauge projection
+cannot add correlations to an already invariant product vector.
+The sharper primitive target is therefore a compatible joint
+boundary state and response law—not merely independently
+solvable pieces with a larger local spectral number.
+
 The remaining continuum and physical-gap tests cannot be replaced by
 the fixed-graph construction. The decisive controls are already
 available: a massless field, a massive field with known threshold,

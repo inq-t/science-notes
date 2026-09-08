@@ -9,119 +9,110 @@ This run tests whether one primitive comparison/composition law can jointly cons
 
 ## Current research cursor
 
-Updated on 2026-09-08 after the charged Wilson spectral test,
-the first-order product bound and the nonassociative-readout audit.
-This continuation makes **progress**. The fixed-system time
-certificate and small-interaction volume estimates are complete;
-do not restart those scans. The goal and Clay target are unchanged.
+Updated on 2026-09-08 after the two-input response test, the
+independent-boundary audit and the nonassociative coverage check.
+The former energy-band test is complete; do not restart it.
+The goal is paused at the latest live check. This checkpoint
+records completed work and the next action if work is resumed;
+it does not resume the goal or change the Clay destination.
 
-- **Active hypothesis:** the candidate assembly datum must constrain
-  products, the positive state and kinetic response together.
-  Intrinsic spectral-window maps can avoid losses caused solely
-  by taking absolute coordinates in a degenerate eigenbasis.
-  They must still close under the nonlinear connected equation.
-- **Strongest new general estimate:**
-  [[coarse-response-memory/first-order-lift-and-spectral-product-tails|the first-order lift]]
-  factors the actual raw weighted operator as \(K=d^*d\), with
-  \(d=\sqrt\kappa\,\nabla\), on scalar functions and one-forms.
-  The self-adjoint auxiliary lift \(\mathscr D\) satisfies
+- **Active hypothesis:** shared primitive data must constrain the
+  joint boundary state and its response, not merely the exact
+  states of individual regions. Comparison between local
+  contexts is a possible location for a parent multiplication
+  law; no such law has yet selected the Wilson vacuum.
+- **Positive two-input result:**
+  [[coarse-response-memory/transition-score-and-lipschitz-product-control|transition-score control]]
+  proves
   \[
-  \|[\mathscr D,M_q]\|=\sqrt\kappa\|\nabla q\|_\infty.
+  \|\nabla L^{-1}Q\Gamma(f,g)\|_\infty
+  \le\kappa\mathcal A\|\nabla f\|_\infty\|\nabla g\|_\infty,
+  \qquad
+  \mathcal A=\int_0^\infty
+    \sup_{b,x}\sqrt{\|J_b(t,x)\|_{\rm op}}\,dt.
   \]
-  Its complete quadratic spectral row and separate operator
-  theorem give
+  The transition Fisher operator is block diagonal on independent
+  products. Every fixed finite Wilson block has explicit finite
+  data for this integral, at arbitrary finite coupling. The bound
+  is uniform over copies of fixed block types, not over growing
+  interacting blocks or a continuum trajectory. The homogeneous
+  Lipschitz quotient is not an algebra under multiplication, and
+  an extensive source still has a gradient norm growing as the
+  square root of the number of copies.
+- **Failed unrestricted norm closure:**
+  [[coarse-response-memory/block-spectral-moments-and-connected-assembly#A second-order Hilbert norm still loses concentrated products|the fixed-reference concentration test]]
+  disproves bounded two-input closure in both the second-order
+  Hilbert graph norm and its declared spectral dyadic
+  \(B^2_{2,1}(L)\) replacement for raw dimension \(D>4\).
+  The state and operator stay fixed while test functions
+  concentrate. This does not exclude the actual generated Wilson
+  class or stronger support-sensitive norms. Raw configuration
+  dimension is not spacetime dimension.
+- **Strongest joint-state obstruction:**
+  [[coarse-response-memory/product-boundary-frames-and-crossing-susceptibility|independent boundary frames]]
+  leave a crossing square holonomy exactly Haar-distributed,
+  even when each block has its exact interacting vacuum.
+  For its half-trace \(q\),
   \[
-  \sum_k(\sqrt{\epsilon_k}-\sqrt{\epsilon_i})^2
-  |\langle\phi_k,q\phi_i\rangle_\nu|^2
-  \le2\kappa\|\nabla q\|_\infty^2,
+  \|q\|_2^2=\tfrac14,\quad
+  \langle q,Lq\rangle=\tfrac{3\kappa}{4},\quad
+  \langle q,L^{-1}q\rangle\ge\tfrac1{12\kappa}.
   \]
-  \[
-  \|P_{\ge(\sqrt E+R)^2}M_qP_{\le E}\|
-  \le\min(\|q\|_\infty,\sqrt{2\kappa}\|\nabla q\|_\infty/R).
-  \]
-  These bounds use the actual state and all input energies,
-  with no block-gap or score hypothesis and no degeneracy
-  factor. A fundamental Wilson word on \(r\) distinct links
-  has \(\|\nabla q\|_\infty^2\le r/2\), at every internal
-  coupling. This auxiliary lift is not a physical Dirac equation
-  or a newly selected metric or clock.
-- **Strongest new state–readout identity:**
-  [[coarse-response-memory/charged-link-probes-and-vacuum-spectral-width|the charged single-link spectral law]]
-  is scalar across all normalized spin-\(j\) matrix-entry
-  combinations, by independent endpoint gauge symmetry.
-  On the actual finite Wilson vacuum,
-  \[
-  \langle E\rangle_{e,j}=\kappa j(j+1),\qquad
-  \operatorname{Var}_{e,j}(E)
-  =\frac{4\kappa^2j(j+1)}3 I_e,\qquad
-  I_e=\int|\nabla_e\log\psi|^2\,d\nu.
-  \]
-  The variance is exactly the readout's squared hidden response.
-  Its ratio to the mean is independent of \(j\), not of the
-  supplied energy normalization. Charge fusion stays exact even
-  while the spectral energy distribution broadens. These charged
-  probes do not cover the neutral physical excitation carrier.
-- **Failed coordinate shortcut:**
-  [[coarse-response-memory/block-spectral-moments-and-connected-assembly#Squared spectral control does not choose an absolute coefficient basis|the Haar degeneracy control]]
-  constructs one real eigenbasis where every squared spectral
-  moment stays unchanged but the absolute product rows grow
-  without bound for any nondecreasing energy-only weights.
-  A fixed reweighting cannot repair that example. It does not
-  exclude adapted bases or invalidate the conditional four-moment
-  theorem. It does rule out inferring that theorem's scalar
-  absolute rows from the new Hilbert-space tail estimates.
-- **Prior analytic anchors retained:**
-  [[coarse-response-memory/interacting-reference-and-spectral-product-control|actual block re-centering]]
-  preserves the connected law and has a sufficient small-drift
-  extension. A checked weighted-circle example already ruled out
-  transplanting a hard Haar energy triangle. The
-  [[coarse-response-memory/kinetic-smoothing-and-connected-fourier-control|Haar kinetic theorem]]
-  and [[coarse-response-memory/kinetic-hessian-bootstrap-and-uniform-response|Killing-score bootstrap]]
-  remain proved in their explicit small-interaction regimes.
-  Full raw finite-block gaps exist with a deteriorating comparison
-  bound; that is not the missing product certificate.
-- **Nonassociativity clue sharpened:**
-  [[algebra/octonionic-associator-and-branch-forgetting|octonionic context comparison]]
-  distinguishes grouping from order and from irreversible
-  readout. The existing associator has an exact positive
-  comparison response, but does not select a physical scale.
-  The added Choi–Effros associativity proof shows that an
-  idempotent completely positive readout cannot supply a
-  nonassociative projected product; a faithful preserved state
-  further makes its range an ambient subalgebra. Thus a parent
-  associator must constrain genuinely different composition or
-  context data, not be renamed from the present conditional
-  expectation. This is a restriction on that candidate readout
-  class, not an axiom against a nonassociative foundation.
-- **Next concrete action:** test a basis-independent,
-  energy-band formulation of the connected product estimate.
-  Begin on one actual Wilson reference block: retain the whole
-  charged matrix windows and estimate the two-input
-  \(L_b^{-1}Q_b\Gamma_b(f,g)\), not only \(M_q f\) for a fixed
-  Wilson coefficient. Track the gradient cost of the second
-  input and the summation over energy windows; test the proposed
-  norm on concentrated high-energy inputs before tensorizing.
-  A successful estimate must close on the generated unknowns
-  and avoid a factor accumulating per block. Do not convert
-  quadratic rows into absolute sums without their channel cost.
-- **Clay distance and primitive test:** the first-order bound also
-  holds for a gapless free operator on the line. Upper tails and
-  positive variance therefore do not exclude arbitrarily soft
-  excitations. No new primitive selects the supplied state,
-  kinetic metric or Hamiltonian. There is no reconstructed
-  four-dimensional vacuum, physical translation representation,
-  ultraviolet correspondence or continuum/infinite-volume gap.
-- **Verification and hygiene:** independent actual-text audits
-  checked the first-order domains, signed spectral decomposition,
-  operator-window proof, charged spectral moments and AF20.
-  The charged link's derivative convention was made explicit.
-  The main read and ran the focused charged-probe receipt:
-  cutoff sixteen gives \(E_0\approx0.918058176624\) and
-  \(I_e\approx0.0198159912184\); all four tested spins agree
-  with the moment identities, with full four-link differential
-  errors below \(7.5\times10^{-9}\). These are finite diagnostics,
-  not interval certificates. Proofs, consumers and the current
-  checkpoint are linked; prior history and unrelated edits remain.
+  Switching on \(-t\lambda_\times q\) therefore gives an actual
+  ground-state tangent of norm at least
+  \(\lambda_\times/(6\kappa)\). This is a whole-gauge-invariant
+  source, not a colored mode removed by Gauss projection.
+  Increasing internal coupling alone cannot suppress this
+  response at fixed crossing/electric ratio.
+- **Independent-retuning witness:** the positive laws
+  \(d\nu_s=(1+s q)d\nu_{\rm ref}\), \(|s|<1\), keep every
+  individual-block marginal and whole gauge invariance, while
+  changing \(\langle q\rangle=s/4\). They are not vacua of one
+  fixed Hamiltonian. In the one-internal-plaquette example, the
+  actual tangent is not a scalar multiple of \(q\); a fitted
+  alignment alone misses its spectral response channels.
+- **Nonassociativity clue:**
+  [[algebra/octonionic-associator-and-branch-forgetting#Nonassociativity and complete coverage are different hypotheses|the weighted context test]]
+  holds the octonion product, norm, total comparison weight and
+  total response trace fixed. Positive comparison weights can
+  still give an edge \(16\varepsilon/7\to0\), with only the unit
+  line in the kernel for every \(\varepsilon>0\).
+  The canonical complete \(G_2\)-invariant comparison excludes
+  this particular concentration; it is not contradicted by
+  changing its weights. A nonassociative parent must constrain
+  the comparison law and its realization, not merely provide
+  a nonzero defect or rename a conditional expectation.
+- **Prior anchors retained:**
+  [[coarse-response-memory/first-order-lift-and-spectral-product-tails|first-order spectral-window bounds]],
+  [[coarse-response-memory/charged-link-probes-and-vacuum-spectral-width|exact charged spectral moments]],
+  and the explicit small-interaction connected estimates remain
+  available. The
+  [[strong-coupling-gap-and-continuum-crossover/hamiltonian-product-vacuum-stability|weak-product-vacuum construction]]
+  uses energy-weighted excitation vectors and is not invalidated
+  by failure of unrestricted scalar-function product norms.
+  Its weak remaining-interaction hypothesis still needs checking.
+- **Next concrete action on resumption:** use the existing complete
+  [[coarse-response-memory/two-plaquette-vacuum-and-relational-state|two-plaquette relational carrier]]
+  to compute the first correlated interface tangent with
+  independently specified internal and crossing couplings.
+  Retain the angular channels. The exact crossing spectral law
+  is the internal charged-link law shifted by \(9\kappa/4\);
+  use that lower edge to seek a certified inverse-residual bound.
+  Quantify the tangent beyond a one-correlation ansatz before
+  proposing a new boundary preparation law.
+- **Clay distance:** the supplied finite reference still provides
+  the state, kinetic metric and Hamiltonian. Neither a complete
+  boundary law, an extensive interacting assembly bound, nor
+  a reconstructed four-dimensional Yang--Mills limit with the
+  required positive mass gap has been obtained.
+- **Verification and hygiene:** the new fixed-reference
+  concentration proof, transition-score proof and boundary
+  response identities received independent actual-text review.
+  The context-coverage spectrum has a direct projection proof
+  and independent algebra check. No new physical mass or
+  numerically certified susceptibility is claimed. Canonical
+  proofs and their consumers were linked; historical sections
+  below and unrelated work remain preserved.
 
 ## Earlier projection-cycle branch
 

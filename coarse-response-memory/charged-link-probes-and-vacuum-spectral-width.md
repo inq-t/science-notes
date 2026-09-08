@@ -121,6 +121,15 @@ These identities hold at every finite coupling, graph size
 and spin. They keep all spectral channels; neither a cutoff
 nor an isolated interacting eigenbranch enters the proof.
 
+The fundamental probe also gives
+\(\operatorname{gap}(L)\le3\kappa/4\) on this full raw carrier,
+by the Rayleigh principle. This is not an upper bound for its
+neutral physical restriction. For an independent block reference,
+[[product-boundary-frames-and-crossing-susceptibility|a crossing loop]]
+does supply a globally neutral test: its fixed first moment
+forces a nonzero infinitesimal boundary response even when
+the internal blocks have been solved exactly.
+
 For \(j>0\), the representation-independent comparison is
 \[
 \frac{\operatorname{Var}_{\sigma_{e,j}}(E)}

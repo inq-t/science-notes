@@ -143,6 +143,51 @@ constructive question is whether the parent multiplication
 can constrain those structures, not merely factor them after
 they have been supplied.
 
+### Nonassociativity and complete coverage are different hypotheses
+
+Even with the multiplication, norm and total comparison weight fixed,
+nonassociativity alone does not force a uniform response edge. Fix a
+Cayley pair \(i,j\), its quaternion context \(H\), and let
+\(Q_H=P_{H^\perp}\). Mix its comparison with the normalized complete
+comparison:
+\[
+K_\varepsilon
+:=(1-\varepsilon)D_{i,j}^*D_{i,j}
+  +\frac{\varepsilon}{21}\mathcal A_{\rm as}^*\mathcal A_{\rm as}
+=4(1-\varepsilon)Q_H
+  +\frac{16\varepsilon}{7}P_{\operatorname{Im}\mathbb O},
+\qquad 0<\varepsilon\le1.
+\tag{AF21}
+\]
+Every one of the twenty-one pair comparisons has strictly positive
+weight, and the weights sum to one. Nevertheless the exact spectrum is
+\[
+\operatorname{spec}K_\varepsilon
+=\left\{0^{(1)},\
+  \left(\frac{16\varepsilon}{7}\right)^{(3)},\
+  \left(4-\frac{12\varepsilon}{7}\right)^{(4)}\right\}.
+\tag{AF22}
+\]
+Indeed \(\mathbb O=\mathbb R\mathbf1\oplus\operatorname{Im}H
+\oplus H^\perp\), and the two projections in (AF21) are diagonal on
+this splitting. At \(\varepsilon=1\) the positive eigenvalues coincide.
+Thus the kernel is exactly the unit line for every positive
+\(\varepsilon\), while the edge \(16\varepsilon/7\) tends to zero.
+This is not a loss of nonassociativity or a change of octonionic units.
+Even \(\operatorname{Tr}K_\varepsilon=16\) stays fixed: the total
+response strength has not been rescaled. It is degenerating coverage
+of the different associative contexts.
+
+The selected comparison in (AF21) is not \(G_2\)-invariant unless
+\(\varepsilon=1\). Consequently this family does not retune the
+canonical complete comparison while keeping all its primitive data
+fixed. Rather, it identifies a substantive role for such a law:
+invariant complete comparison prevents this particular concentration.
+A realization claiming an unavoidable scale must establish its
+comparison law and uniform coverage, not merely exhibit a nonzero
+associator. Even after that finite task, the scalar field kernel and
+the unsupplied translation law described above remain separate.
+
 ## A retained product can become nonassociative
 
 There is a converse possibility that does not require a
