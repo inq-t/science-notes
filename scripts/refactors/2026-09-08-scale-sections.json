@@ -1,0 +1,24 @@
+{
+  "section_moves": [
+    {
+      "old": "logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law#A gapless causal direction is compatible with the scale edge",
+      "new": "logistic-scale-geometry/scale-wall-to-casimir-comparison#A gapless causal direction is compatible with the scale edge"
+    },
+    {
+      "old": "logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law#The wall--Casimir sandwich",
+      "new": "logistic-scale-geometry/scale-wall-to-casimir-comparison#The wall--Casimir sandwich"
+    },
+    {
+      "old": "logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law#Compatibility with local QFT",
+      "new": "logistic-scale-geometry/scale-wall-to-casimir-comparison#Compatibility with local QFT"
+    },
+    {
+      "old": "scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance#The codimension-two balance",
+      "new": "scale-incidence-response/codimension-two-response-balance#The codimension-two balance"
+    },
+    {
+      "old": "scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance#Where entropy, flux, and RG can enter",
+      "new": "scale-incidence-response/codimension-two-response-balance#Where entropy, flux, and RG can enter"
+    }
+  ]
+}

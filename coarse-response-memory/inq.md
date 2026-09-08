@@ -169,7 +169,7 @@ Equivalently,
 \]
 This is the useful quotient: static retained stiffness and hidden relaxation must be compared together with their coupling. Under \(L\mapsto aL\), \(r,k,\delta/c_H\) are unchanged. Geometry may constrain those dimensionless relations; it does not thereby select the dimensional clock.
 
-The scalar root is the existing [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma#A conditional-Fisher version for Poincare bounds|two-scale Fisher budget]] with \((\rho,\lambda,C_{\mathrm{Fisher}})=(c_H,s,c_Hk^2)\), not a new numerical constant. The additional content here is its operator-memory interpretation and the positive metric \(Z_0\). It assumes estimates for \(S,C,B\); positivity or elimination alone supplies none of the required uniform constants.
+The scalar root is the existing [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma#A conditional-Fisher version for Poincare bounds|two-scale Fisher budget]] with \((\rho,\lambda,C_{\mathrm{Fisher}})=(c_H,s,c_Hk^2)\), not a new numerical constant. The additional content here is its operator-memory interpretation and the positive metric \(Z_0\). It assumes estimates for \(S,C,B\); positivity or elimination alone supplies none of the required uniform constants.
 
 There is also a direct static-approximation check. Since
 \(0\le\Sigma(0)-\Sigma(z)\le zk^2I\), inverse order gives

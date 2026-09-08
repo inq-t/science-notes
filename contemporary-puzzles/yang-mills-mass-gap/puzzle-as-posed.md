@@ -1,4 +1,4 @@
-# The Puzzle as Posed
+# Puzzle as Posed
 
 The Yang–Mills existence and mass-gap problem, as the Clay Mathematics Institute states it in [[library/quantum-yang-mills-theory/inq|the description by Jaffe and Witten]], can be audited as four separable clauses that contemporary shorthand often runs together. This note states each in the literature's own terms so that a reader who rejects every reclassification downstream can still use the target.
 

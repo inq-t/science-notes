@@ -99,7 +99,7 @@ Hence the **actual coarse marginal** \(\bar\mu(dV)=\int\mu(dU,dV)\) obeys
 \boxed{\lambda_{\bar\mu}\ge\frac{a\sigma}{\sigma+C_{\to}}>0.}
 \tag{JF9}
 \]
-This bound requires no separately assumed coarse effective potential. For a general observable \(F(U,V)\), [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|the two-scale Fisher--Poincare theorem]] instead gives the joint gradient-form constant \(T_F(a,\sigma,C_{\to})\). The marginal-only bound (JF9) can be stronger; the two conclusions concern different carriers.
+This bound requires no separately assumed coarse effective potential. For a general observable \(F(U,V)\), [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|the two-scale Fisher--Poincare theorem]] instead gives the joint gradient-form constant \(T_F(a,\sigma,C_{\to})\). The marginal-only bound (JF9) can be stronger; the two conclusions concern different carriers.
 
 ## Reverse Fisher information and the exact effective Hessian
 

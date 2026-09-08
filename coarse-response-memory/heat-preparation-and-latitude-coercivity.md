@@ -364,7 +364,7 @@ assumption on the hidden block of the full Hamiltonian.
 
 Combining (HP3), (HP9), (HP10) and total variance is exactly
 the existing
-[[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|two-scale Fisher--Poincare argument]]:
+[[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale Fisher--Poincare argument]]:
 \[
 \operatorname{gap}(H-E_0)\ge
 \frac{\gamma+\rho+\beta^2-

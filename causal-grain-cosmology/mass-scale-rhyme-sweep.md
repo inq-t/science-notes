@@ -1,8 +1,8 @@
-# Mass-Gap Receipt Ledger
+# Mass-Scale Rhyme Sweep
 
 The causal-grain rhyme sweep tests numerical matches to Yang–Mills and QCD scales against an empirical negative control, unit changes, and correlation lengths. No match in its declared factor family survives as evidence for a physical mass-gap mechanism. The later factor \(36\) was outside that search and remains a separate post-search proposal.
 
-The [[contemporary-puzzles/yang-mills-mass-gap/receipts/rhyme_sweep.py|rhyme-sweep calculation]] uses only the standard library and exits nonzero on a failed check. Its [[contemporary-puzzles/yang-mills-mass-gap/receipts/receipt-output.txt|stored sweep output]] records the tested family and controls. The finer census in [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|the grain-in-every-register history]] found about forty-two candidate coincidences per nat and explicitly quarantined the \(f_\pi/2\) siren; this ledger is its QCD-restricted, branch-aware companion. The later factor \(36\) is discussed in [[the-grain-of-causal-scale/inbox/causal-grain-and-the-yang-mills-gap/entry|the causal-grain gap packet]]. [[algebra/a2-weyl-radial-operator|The compact \(SU(3)\) radial audit]] adds a structural negative control: Weyl degree does not become the compact radial spectral gap.
+The [[causal-grain-cosmology/receipts/rhyme_sweep.py|rhyme-sweep calculation]] uses only the standard library and exits nonzero on a failed check. Its [[causal-grain-cosmology/receipts/rhyme-sweep-output.txt|stored sweep output]] records the tested family and controls. The finer census in [[the-grain-of-causal-scale/inbox/the-grain-in-every-register/entry|the grain-in-every-register history]] found about forty-two candidate coincidences per nat and explicitly quarantined the \(f_\pi/2\) siren; this ledger is its QCD-restricted, branch-aware companion. The later factor \(36\) is discussed in [[the-grain-of-causal-scale/inbox/causal-grain-and-the-yang-mills-gap/entry|the causal-grain gap packet]]. [[algebra/a2-weyl-radial-operator|The compact \(SU(3)\) radial audit]] adds a structural negative control: Weyl degree does not become the compact radial spectral gap.
 
 ## What was swept
 
@@ -41,17 +41,17 @@ The lightest state resolved in the pure-\(\mathrm{SU}(3)\) lattice spectrum is t
 
 The declared factor family tested integers only through twelve. The proposal to inspect \(36=(-\partial_N\log|\mathfrak D_{A_2}|)^2\) was made after this thirty-five-to-thirty-seven mismatch was known, so it is not a surviving hit or an out-of-sample prediction of the sweep. Its only legitimate upgrade path is a pre-registered operator mechanism plus held-out dimensionless spectral ratios.
 
-## Everything wrong with this comparison
+## Limits of the comparison
 
 The sweep compares a cosmological diagnostic inversion — a number obtained by inserting measured \(G\) and \(H_c\) — against laboratory scales, which the grain module's own falsifier ("the line center is selected only by inserting measured \(G\) and then rediscovered") already forbids as evidence in either direction. A null result is therefore the only admissible outcome and does not by itself bear on the grain. The scale entries carry lattice and scheme uncertainties of several percent (glueballs, \(\Lambda\), \(\sqrt\sigma\)), so the one-percent tolerance is stricter than some inputs. The analytic chance model assumes log-uniform ratios and independent trials, neither exactly true; that is why the empirical control is the load-bearing comparison. At one percent no pair survives both branches; at five percent several do, and both the real and control counts rise. Branch stability is therefore not a tolerance-independent kill. The grain-in-every-register census uses a broader candidate set and reaches the same quarantine by a different route.
 
-## Kill list
+## What would change the conclusion
 
 What each failure would kill:
 
 | Failure | Kills |
 |---|---|
 | a coincidence surviving both branches at sub-percent level after the branch spread is resolved | the null result of this ledger, not the grain; it would enter the existing siren census, not become a claim |
-| an independently constructed grain predicting \(m_{0^{++}}/\sqrt\sigma\) or \(m_{2^{++}}/m_{0^{++}}\) with no \(G\), \(H_c\), or unit input | NG3's presumption that the programme has nothing to say here — this is the only admissible form of a positive result |
-| a vault gap mechanism that survives removal of \(\lambda_*\) | NG1's presumption; it would then have to face NG2 and NG5 |
+| an independently constructed grain predicting \(m_{0^{++}}/\sqrt\sigma\) or \(m_{2^{++}}/m_{0^{++}}\) with no \(G\), \(H_c\), or unit input | [[contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos#NG3 — Dimensionless data cannot supply the yardstick|NG3]]'s presumption that the programme has nothing to say here — this is the only admissible form of a positive result |
+| a vault gap mechanism that survives removal of \(\lambda_*\) | [[contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos#NG1 — A fixed-cutoff gap is insufficient|NG1]]'s presumption; it would then have to face the dilation and reconstruction tests in the same note |
 | the unit-artifact reappearing as a claim anywhere in the vault | the vault's own discipline, not any physics |

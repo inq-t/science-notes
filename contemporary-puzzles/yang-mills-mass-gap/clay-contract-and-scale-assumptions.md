@@ -1,4 +1,4 @@
-# The Clay Contract and Its Scale Assumptions
+# Clay Contract and Scale Assumptions
 
 The Jaffe–Witten problem leaves the construction language open while prescribing a demanding observable return: a nontrivial four-dimensional quantum Yang–Mills theory with positive energy and a mass gap. Its genuine starting structure is Minkowski localization and translation, not a specified universal numerical ruler. A foundational reversal may derive that structure from something prior; it must not weaken the return conditions or mistake their unexplained origin for an inconsistency.
 

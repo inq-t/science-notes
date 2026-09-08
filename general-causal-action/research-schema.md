@@ -154,7 +154,7 @@ H\geq E_*\sqrt{\eta\kappa}\,(I-P_0).
 
 The challenge is to derive the estimates, not postulate them under geometric names. The physical norm must come from the observable realization, not be defined to equal \(\mathfrak d\). The reference \(E_*\) must be calibrated independently of the unknown mass gap. For regulator constructions, a positive lower bound in that fixed calibration must survive the required limits alongside a nontrivial continuum theory.
 
-Any proposed proof must fail on a hidden arbitrarily soft physical sector even if a coarse description forgets it. The [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|two-scale analysis]] supplies the existing rigorous framework for testing that failure. A lossless visible sector can also remain soft: complete retained-plus-residue accounting does not by itself charge it.
+Any proposed proof must fail on a hidden arbitrarily soft physical sector even if a coarse description forgets it. The [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale analysis]] supplies the existing rigorous framework for testing that failure. A lossless visible sector can also remain soft: complete retained-plus-residue accounting does not by itself charge it.
 
 ## Constants and cosmology remain questions, not concealed inputs
 

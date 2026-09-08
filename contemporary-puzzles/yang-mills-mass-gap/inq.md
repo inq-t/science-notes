@@ -6,8 +6,6 @@ inq.exclude:
   - "./deep-research/"
   - "./research-runs/"
 inq.ambient:
-  - "**/*.py"
-  - "**/*.txt"
   - "deep-research/**"
   - "research-runs/**"
   - "junk-drawer/**"
@@ -33,17 +31,19 @@ The decisive distinction is between determining individual contexts and determin
 
 ## From a response to a physical gap
 
+[[logistic-scale-geometry/inq|Logistic scale geometry]] develops the scale coordinate and its pointed response spectrum. [[scale-incidence-response/inq|Scale-incidence response]] asks whether crossing directions survive paired coarse-grainings with a quantitative lower bound. [[finite-index-distinction/inq|Finite-index distinction]] separates the capacity of an inclusion from the metric and dynamics of a state. Together they distinguish a scale presentation, the directions it detects, and the cost assigned to those directions; none supplies the other two automatically.
+
 [[general-causal-action/carrier-first-reversal|Carrier-first construction]] asks what the operator acts on before interpreting its edge. [[physical-response-coercivity/inq|Physical response coercivity]] collects the complete-carrier requirement, regional entropy frames and their energy comparisons. A lower bound must cover the whole physical vacuum complement; merely excluding exactly invisible vectors is insufficient.
 
 [[measured-response-carriers/response-to-energy-comparison|The shared response-to-energy theorem]] owns the generic implication: a response floor, quantitative carrier coverage and an independently normalized physical-energy comparison imply an energy floor. [[mass-scale-calibration/inq|Mass-scale calibration]] separates the response ratio, clock rate, energy and joint Poincare invariant. Neither changing units nor naming a modular or auxiliary generator supplies the missing comparison.
 
-The existing physical certificates have different strengths. [[contemporary-puzzles/yang-mills-mass-gap/collared-surface-response-to-the-clay-gap|The fixed-slab certificate]] uses the complete dressed carrier and the [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|past–future angle]]. [[auxiliary-response-localization/inq|The correlation certificate]] instead controls a common physical decay exponent on a total family of local states. [[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|Fusion and transfer defects]] require an explicit comparison because they act on different carriers. These are sufficient routes with distinct hypotheses, not interchangeable definitions of locality.
+The existing physical certificates have different strengths. [[yang-mills-continuum-crossover/collared-surface-response-to-the-clay-gap|The fixed-slab certificate]] uses the complete dressed carrier and the [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|past–future angle]]. [[auxiliary-response-localization/inq|The correlation certificate]] instead controls a common physical decay exponent on a total family of local states. [[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|Fusion and transfer defects]] require an explicit comparison because they act on different carriers. These are sufficient routes with distinct hypotheses, not interchangeable definitions of locality.
 
 ## The interacting and continuum obligations
 
 [[trace-dirichlet-descent/gauge-dirichlet-trace-carrier|The gauge trace carrier]] and [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|flux–Fisher response]] formulate the physical comparison. [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|Finite-spacing transfer]] makes one regulator-level realization explicit. [[strong-coupling-gap-and-continuum-crossover/inq|The strong-coupling programme]] and [[temporal-column-response/inq|temporal-column response]] prove scoped bounds while retaining their fixed-regulator and coupling restrictions.
 
-[[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|Two-scale descent]] and [[contemporary-puzzles/yang-mills-mass-gap/asymptotically-free-response-crossover-lemma|the asymptotically free crossover]] identify what must survive volume removal and regulator refinement. [[rg-covariance-residue/inq|Covariance residues]] tracks discarded and retained responses; [[coarse-response-memory/inq|dynamical memory]] tracks the nonautonomous return hidden by elimination. A lower bound uniform over independent copies or one refinement parameter is not automatically uniform on the interacting continuum trajectory.
+[[yang-mills-continuum-crossover/inq|Yang–Mills continuum crossover]] combines the two-scale descent estimates with the separate correlation and fixed-slab reconstruction routes. It states what must survive volume removal and regulator refinement. [[rg-covariance-residue/inq|Covariance residues]] tracks discarded and retained responses; [[coarse-response-memory/inq|dynamical memory]] tracks the nonautonomous return hidden by elimination. A lower bound uniform over independent copies or one refinement parameter is not automatically uniform on the interacting continuum trajectory.
 
 ## Whole-to-local comparisons have separate owners
 
@@ -51,4 +51,4 @@ The existing physical certificates have different strengths. [[contemporary-puzz
 
 [[cosmological-scale-selection/inq|Cosmological scale selection]] asks whether a common parent could select a local scale member through cosmic response, horizon balance or a fossilized transition. [[causal-grain-cosmology/inq|Causal-grain cosmology]] instead owns the specific acoustic-fossil and material-history investigations. A shared origin requires the [[global-local-response-reconstruction/cosmological-reconvergence-contract|reconvergence theorem]], not importation of a fitted cosmic scale into pure Yang–Mills.
 
-[[contemporary-puzzles/yang-mills-mass-gap/mass-gap-receipt-ledger|The receipt ledger]] states what the retained calculations check. [[contemporary-puzzles/yang-mills-mass-gap/research-history|The frozen research history]] preserves previous syntheses, the full research record and the relocation provenance. The research branches remain available, but their mathematical ownership is no longer folded into one chronological entrypoint.
+[[causal-grain-cosmology/mass-scale-rhyme-sweep|The mass-scale rhyme sweep]] tests numerical coincidences against controls and unit changes; it provides no mass-gap mechanism. [[contemporary-puzzles/yang-mills-mass-gap/research-history|The frozen research history]] preserves previous syntheses, the full research record and the relocation provenance.

@@ -285,7 +285,7 @@ $$
 \tag{GR19}
 $$
 
-The finite-regulator implication is exact; [[contemporary-puzzles/yang-mills-mass-gap/collared-surface-response-to-the-clay-gap|the collared-surface theorem]] gives the proof and lists the continuum hypotheses. A one-step bound at fixed lattice depth is not enough, because its physical thickness vanishes under refinement.
+The finite-regulator implication is exact; [[yang-mills-continuum-crossover/collared-surface-response-to-the-clay-gap|the collared-surface theorem]] gives the proof and lists the continuum hypotheses. A one-step bound at fixed lattice depth is not enough, because its physical thickness vanishes under refinement.
 
 After Osterwalder--Schrader and Poincare reconstruction, (GR18) becomes an energy-spectrum statement and then an invariant-mass statement. Before that reconstruction it is a transfer estimate, not yet the Clay mass gap.
 

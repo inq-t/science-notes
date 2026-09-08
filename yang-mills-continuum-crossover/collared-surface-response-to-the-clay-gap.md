@@ -1,4 +1,4 @@
-# From Collared Surface Response to the Clay Gap
+# Collared Surface Response to the Clay Gap
 
 A uniform middle-to-boundary maximal-correlation bound on the complete regulated Yang--Mills vacuum complement is sufficient to produce a fixed-physical-slab Hamiltonian gap. If that bound and the pointed transfer forms survive the continuum and infinite-volume limits with Osterwalder--Schrader reconstruction, the limiting spectral exclusion is exactly the gap clause of the Clay problem. This note isolates that implication so the search for a pre-QFT carrier has one unambiguous analytic return type.
 
@@ -35,7 +35,7 @@ B_{n_r}^{\mathrm{br}}:=I-S_{n_r}.
 \tag{C3}
 $$
 
-Suppose the path law is reversible, so that the exact data-augmentation order holds,
+Suppose the path law is reversible, so that the exact [[bridge-data-augmentation-solder/inq|data-augmentation order]] holds,
 
 $$
 P_r^{2n_r}Q_r\leq S_{n_r}Q_r,
@@ -104,7 +104,7 @@ $$
 \tag{C11}
 $$
 
-The Gaussian calibration sharpens the dictionary but is not used in the theorem: for a Gaussian mode, \(1-c_F^2=\tanh(\omega\ell_*)\). An interacting proof needs only the inequality (C5), not a Gaussian inverse formula.
+The [[gaussian-bridge-gap-calibration/inq|Gaussian calibration]] sharpens the dictionary but is not used in the theorem: for a Gaussian mode, \(1-c_F^2=\tanh(\omega\ell_*)\). An interacting proof needs only the inequality (C5), not a Gaussian inverse formula.
 
 ## What “complete” means
 
@@ -166,4 +166,3 @@ $$
 $$
 
 on the complete Perron-dressed Wilson carrier, with the independent continuum and reconstruction hypotheses above. Every proposed wall, Hessian, entropy, knot, exceptional geometry, or global--local invariant should be evaluated by whether it constructs or bounds the operator in (C14) without reading the desired transfer spectrum backward into its definition.
-

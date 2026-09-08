@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [observability, transfer-cocycle, response, coercivity, fixed-slab, mass-gap]
 ---
 # Transported Response Observability Solder
 
@@ -276,7 +277,7 @@ $\eta_k$ without reading the unknown transfer edge backward, and proving
 
 The heat defect is not the only safe transform. Any bounded Borel function
 $f_k(G_k)$ with $f_k(0)=0$ and no further zeros may preserve the same
-radical. [[contemporary-puzzles/yang-mills-mass-gap/resolvent-logistic-scale-transform|The
+radical. [[logistic-scale-geometry/resolvent-logistic-scale-transform|The
 resolvent-logistic transform]] supplies the log-scale windows
 
 $$

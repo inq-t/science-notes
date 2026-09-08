@@ -1,4 +1,4 @@
-# The Asymptotically Free Response-Crossover Lemma
+# Asymptotically Free Response-Crossover Lemma
 
 One unresolved analytic bridge is to carry the four-dimensional weak-bare-coupling Wilson law, by exact gauge-covariant blocking, to one fixed physical scale where the **full generated non-Abelian law** has a uniform centered \(L^2\) floor and a uniform weighted influence estimate. Their ratio produces a static inverse-distance response exponent independent of the sampler-clock normalization. A covariance-residue theorem then specifies sufficient estimates on both discarded fluctuations and transported sources; terminal mixing alone is not enough. Full Osterwalder--Schrader reconstruction turns one common exponent on a total local family into a Hamiltonian gap. This crossover has not been established here or in the sources reviewed.
 
@@ -245,7 +245,7 @@ the source family would violate those static bounds; a slow auxiliary clock
 alone need not. The massless discarded-species counterexample in
 [[rg-covariance-residue/inq|RG covariance residue]] makes the distinction exact.
 
-[[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|Two-scale RG descent]] explains the stronger functional-inequality branch: fiber coercivity, transported coarse metric, and macro--micro coupling. Both branches require source completeness, boundary uniformity, and control of the exact generated law.
+[[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|Two-scale RG descent]] explains the stronger functional-inequality branch: fiber coercivity, transported coarse metric, and macro--micro coupling. Both branches require source completeness, boundary uniformity, and control of the exact generated law.
 
 ## Exact conditional consequence
 

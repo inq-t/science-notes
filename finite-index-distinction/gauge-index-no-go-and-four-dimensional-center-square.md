@@ -1,6 +1,6 @@
-# The Gauge-Index No-Go and the Four-Dimensional Center Square
+# Gauge-Index No-Go and Four-Dimensional Center Square
 
-The full continuous compact-group fixed-point route cannot be the finite-index carrier behind the square response: for a faithful minimal compact-group action on a factor with separable predual, the fixed-point inclusion has finite index exactly when the effective acting group is finite, so the faithful global \(SU(N)\) fixed-point inclusion has infinite index. This theorem does not classify local Gauss-law gauge reduction. A canonical finite square nevertheless survives in pure four-dimensional gauge theory at a different type: a ring and its causal complement are both rings, and the jointly available electric and magnetic nonlocal classes form \(Z(G)^*\times Z(G)\), giving index \(|Z(G)|^2\) and certainty budget \(2\log|Z(G)|\) under the finite-center hypotheses. This is a topological information plateau, not a mass gap. Its exact value can label a branch of descent, but only the scale-dependent vacuum response around that branch, pulled back to a normalized physical carrier and compared with the Poincare Casimir, could become energetic stiffness.
+Faithful minimal compact global group actions on factors with separable predual have finite fixed-point index exactly when the effective group is finite. This rules out the full continuous global fixed-point inclusion as a finite-index Yang--Mills carrier, without classifying local Gauss-law reduction. Under the stated four-dimensional pure-gauge net hypotheses, a distinct ring inclusion can instead have index \(|Z(G)|^2\). That finite center capacity supplies neither a normalized BKM response floor nor a mass gap.
 
 **Status: [EXACT -- FAITHFUL MINIMAL COMPACT-GROUP ACTIONS WITH SEPARABLE PREDUAL] for the finite-versus-infinite fixed-point-index theorem; [STANDARD/CONDITIONAL ON THE NET HYPOTHESES] for the four-dimensional ring center square and certainty relation; [EXACT ON A DECLARED SMOOTH ARAKI/BKM TANGENT DOMAIN] for the preserving-expectation Hessian split; [NO-GO] for deriving a normalized BKM or energetic floor from index alone; [OPEN] for the scale-dependent Yang--Mills response, continuum coercivity, and Casimir solder.**
 
@@ -185,7 +185,7 @@ $$
 
 Tensoring (GI12) with a Type III factor preserves the index and the counterexample. Hence no positive lower-edge theorem can depend on index alone.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/finite_index_bkm_counterexample_receipt.py|The fixed-index BKM receipt]] evaluates the two metrics directly and diagonalizes the full \(15\)-dimensional traceless Hermitian tangent space; [[contemporary-puzzles/yang-mills-mass-gap/receipts/finite-index-bkm-counterexample-receipt-output.txt|the frozen output]] records the multiplicities and limiting edge.
+[[finite-index-distinction/receipts/finite_index_bkm_counterexample_receipt.py|The fixed-index BKM receipt]] evaluates the two metrics directly and diagonalizes the full \(15\)-dimensional traceless Hermitian tangent space; [[finite-index-distinction/receipts/finite-index-bkm-counterexample-receipt-output.txt|the frozen output]] records the multiplicities and limiting edge.
 
 ## The corrected square-response chain
 

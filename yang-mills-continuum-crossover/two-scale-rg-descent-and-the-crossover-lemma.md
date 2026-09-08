@@ -342,9 +342,9 @@ $$
 N_j=N_0+j\log L.
 $$
 
-[[paired-scale-filtrations-and-the-invariant-incidence-wall]] shows why this does not by itself produce a gap. As $j_*(a)\to\infty$, the corresponding one-sided inverse-scale operator has spectral values accumulating at zero. Any floor obtained merely by keeping finitely many shells is therefore a cutoff artifact unless it is uniform through the limit. The structural alternative is a pair of oppositely transforming filtrations whose **joint incidence support** has a regulator-uniform diagonal ceiling. This preserves unbounded relative resolution while bounding the invariant mean address; it is a relation between towers, not an imposed endpoint of either tower.
+[[scale-incidence-response/paired-scale-filtrations-and-the-invariant-incidence-wall]] shows why this does not by itself produce a gap. As $j_*(a)\to\infty$, the corresponding one-sided inverse-scale operator has spectral values accumulating at zero. Any floor obtained merely by keeping finitely many shells is therefore a cutoff artifact unless it is uniform through the limit. The structural alternative is a pair of oppositely transforming filtrations whose **joint incidence support** has a regulator-uniform diagonal ceiling. This preserves unbounded relative resolution while bounding the invariant mean address; it is a relation between towers, not an imposed endpoint of either tower.
 
-There is also a nontruncating alternative. [[compensated-incidence-response-and-four-dimensional-balance]] shows that a joint-shell response with bottom coefficient \(\rho_{r,jk}\) produces a uniform soft wall exactly when
+There is also a nontruncating alternative. [[scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance]] shows that a joint-shell response with bottom coefficient \(\rho_{r,jk}\) produces a uniform soft wall exactly when
 
 $$
 \inf_{r,(j,k)\in\Sigma_r}

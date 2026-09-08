@@ -116,7 +116,7 @@ I_R(\xi,\xi)=
 \sum_{e\in H}da_e[\xi]^\top\mathcal F(a_e)\,da_e[\xi].
 \tag{ST11}
 \]
-Together with a proved gap for the **actual** marginal in (ST10), this can enter [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|the two-scale conditional-Fisher estimate]]. Neither the marginal gap nor a uniformly small response is supplied by (ST3).
+Together with a proved gap for the **actual** marginal in (ST10), this can enter [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|the two-scale conditional-Fisher estimate]]. Neither the marginal gap nor a uniformly small response is supplied by (ST3).
 
 One permitted set selects a fixed orientation \(i\) and bases with \(\sum_{j\ne i}x_j\) even, on an open lattice or compatible even periodic sizes. Selecting every parallel link fails: a plaquette contains two of them. The induced terms are finite-range for this one layer, but couple retained edges absent from a common original plaquette. The opposite original checkerboard is generally no longer independent under the new action.
 

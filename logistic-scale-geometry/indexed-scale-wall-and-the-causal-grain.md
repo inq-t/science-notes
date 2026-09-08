@@ -1,6 +1,6 @@
-# The Indexed Scale Wall and the Causal Grain
+# Indexed Scale Wall and the Causal Grain
 
-The logistic scale wall carries two related first-order operators whose distinction reveals a genuine critical index structure. The probability half-density factor \(A_\nu\) has Fredholm index \(+1\) for every \(\nu>0\) and its square has the sharp positive edge \(\nu^2\). The factor \(B_\nu\) built from the state density **relative to core capacity** has index \(0\) below \(2\nu=1\), loses Fredholmness exactly at the rate-matching wall, and has index \(+1\) above it. Thus the exact reduced mechanism is not a spacetime pixel: a directed probability state remains coercive at the critical value while its capacity-relative presentation crosses a topological boundary. A still-unconstructed physical carrier map must transport this structure to the Yang--Mills Casimir.
+The probability half-density factor of a logistic scale state has Fredholm index \(+1\), and its positive square has excitation edge \(\nu^2\), for every \(\nu>0\). Treating its capacity-relative coefficient as a half-density on translation-Haar scale gives a different operator: its index changes from zero to \(+1\) across the non-Fredholm threshold \(2\nu=1\). These exact domain-dependent classifications distinguish orientation, scale stiffness and a possible memory of a transition; their transport to a Yang--Mills Casimir remains open.
 
 **Status: [EXACT] for both Sobolev-domain Fredholm classifications and the logistic spectrum; [STANDARD] for Fredholm-index stability; [CONSTRUCTION AXIOM] for adopting nondegenerate incoming density as a selection law; [OPEN CONSTRUCTION] for a Yang--Mills or cosmological realization.**
 

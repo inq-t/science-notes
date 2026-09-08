@@ -1,12 +1,12 @@
-# Compensated Incidence Response and the Four-Dimensional Balance
+# Compensated Incidence Response and Four-Dimensional Balance
 
-A paired scale filtration need not acquire a floor only by deleting all joint incidences beyond a hard diagonal wall. It can retain arbitrarily deep joint shells if an independently constructed positive response form grows quickly enough to compensate their inverse-scale attenuation. The exact object is the closed pullback form \(q[f]=\|\overline{R^{1/2}M_p}f\|^2\) on the joint-active carrier: \(M_p\) says how a reciprocal distinction is presented at scale, while \(R\) says how strongly its presented image responds. For a bilateral logarithmic scale operator \(A\), the model law \(M_p=e^{-pA}\), \(R_q=e^{qA}\) has a uniform floor only at the scale-neutral balance \(q=2p\). If—and these are open geometric hypotheses—the response is a codimension-two boundary frame with exponent \(q=D-2\), the address is soldered to log length, and presentation has first inverse-length order \(p=1\), then \(D=4\) is the unique power-law-neutral spacetime dimension within this homogeneous ansatz. This is an exact conditional exponent theorem, not yet a Yang--Mills construction or a derivation of its mass scale.
+An independently constructed positive response can compensate the inverse-scale attenuation of arbitrarily deep joint shells. The exact object is the closed pullback \(q[f]=\|\overline{R^{1/2}e^{-pA}}f\|^2\) on the declared joint-active carrier; its lower bound is a closed-range condition, and the bilateral homogeneous model \(R=r_0e^{qA}\) balances precisely at \(q=2p\). [[scale-incidence-response/codimension-two-response-balance|The four-dimensional application]] separately tests the geometric identification \(q=D-2,p=1\), whose normalization and residual-response hypotheses remain open.
 
 **Status: [EXACT DIAGONAL COMPENSATION THEOREM]; [EXACT NONCOMMUTING PULLBACK CRITERION]; [EXACT CONDITIONAL CRITICAL-EXPONENT THEOREM]; [CANDIDATE LOG-LENGTH SOLDER, FIRST-ORDER PRESENTATION, AND CODIMENSION-TWO RESPONSE]; [OPEN YANG--MILLS RESPONSE, CASIMIR SOLDER, AND CONTINUUM LIMIT].**
 
 ## Hard and soft walls
 
-Let the joint-active carrier of [[paired-scale-filtrations-and-the-invariant-incidence-wall]] be
+Let the joint-active carrier of [[scale-incidence-response/paired-scale-filtrations-and-the-invariant-incidence-wall]] be
 
 $$
 \mathcal H_{\leftrightarrow}
@@ -392,159 +392,21 @@ The bilateral hypothesis is load-bearing and is not supplied by an ordinary semi
 
 ### An exact categorical source of the square
 
-The law \(R=e^{2A}\) need not be introduced only as the answer required by (CR26). [[finite-index-duality-and-the-square-response]] supplies an independent algebraic instance, but with an important normalization split. For a chosen normal faithful finite-index expectation between properly infinite von Neumann algebras, the conjugate/Q-system construction contains an intertwiner \(\widetilde v_E\) with
+[[finite-index-distinction/finite-index-duality-and-the-square-response|Finite-index duality]] gives \(\widetilde v_E^*\widetilde v_E=e^{2A_E}\) and \(\widetilde v_Ee^{-A_E}=V_E\) with \(V_E^*V_E=1\). Here \(A_E=\tfrac12\log\operatorname{Ind}(E)\) depends on the chosen expectation. Only the minimal expectation and standard conjugate solution identify it with \(\log d\), additive under Connes fusion for standard factor sectors.
 
-$$
-\widetilde v_E^*\widetilde v_E
-=
-\operatorname{Ind}(E)
-\tag{CR27a}
-$$
-
-Writing the chosen-expectation address
-
-$$
-A_E:=\frac12\log\operatorname{Ind}(E)
-$$
-
-gives
-
-$$
-\widetilde v_E^*\widetilde v_E=e^{2A_E},
-\qquad
-\widetilde v_Ee^{-A_E}=V_E,
-\qquad
-V_E^*V_E=1.
-\tag{CR27b}
-$$
-
-In a factor with chosen index greater than one, \(V_E\) is a proper isometry. The number \(A_E\) generally depends on the expectation and is not automatically fusion additive. Only for the minimal expectation \(E^0\) and standard conjugate solution does
-
-$$
-\operatorname{Ind}(E^0)=d(\iota)^2,
-\qquad
-A_{\mathrm{cat}}:=\log d(\iota),
-\tag{CR27c}
-$$
-
-where the intrinsic statistical dimension multiplies under Connes fusion and \(A_{\mathrm{cat}}\) adds. Thus standard duality supplies the response-square/additive-address grammar exactly; an arbitrary expectation supplies only an expectation-dependent normalization square.
-
-This does not establish the hypotheses of the present theorem. For one fixed factor inclusion, both \(A_E\) and, when defined, \(A_{\mathrm{cat}}\) are scalar and bounded; the normalized identity preserves all vector norms and supplies no vacuum-selective response. A physical application must prove that a scale-indexed family of standard correspondences yields the bilateral address \(A\), that its conjugate intertwiner controls the same boundary or flux form \(R\), and that the resulting residual lower edge is regulator uniform. Without those maps, (CR27b)--(CR27c) are normalization identities rather than Yang--Mills stiffness.
+That is an independent algebraic square normalization, not the scale family required by (CR26). A fixed factor index is scalar and bounded, its normalized isometry sees no vacuum distinction, and no map to the boundary or flux response follows. A physical use must construct that family, its bilateral address and the same-carrier comparison before the categorical identity can supply stiffness.
 
 ## The codimension-two balance
 
-Now declare, rather than smuggle in, the geometric hypotheses:
-
-1. an independently proved scale-character solder identifies the abstract invariant address with \(A=\log(L/L_0)\) on a bilateral scale carrier;
-2. the presentation map has independently fixed first inverse-length order, \(M_1=e^{-A}=L_0/L\);
-3. a transverse spatial cut of a codimension-one causal boundary in \(D\) spacetime dimensions has dimension \(D-2\); and
-4. in the scale-diagonal branch, an independently normalized boundary-frame theorem factors its response into the engineering boundary character and a dimensionless residual,
-
-   $$
-   R_{\partial,D}
-   =
-   r_0e^{(D-2)A}Z_D(A),
-   \qquad
-   Z_D(a)>0\quad E_A\text{-almost everywhere}.
-   \tag{CR28}
-   $$
-
-The exactly homogeneous or two-sided-comparable ansatz additionally requires scale- and regulator-independent constants \(0<c_-\leq c_+<\infty\) such that \(c_-I\leq Z_D(A)\leq c_+I\), with common form domains. That extra bound is not part of the bare factorization. Accordingly, if this comparison is abbreviated as \(R_{\partial,D}\asymp r_0e^{(D-2)A}\), the symbol \(\asymp\) must mean a global, regulator-uniform, two-sided quadratic-form comparison on that common domain across both spectral tails. Ordinary large-\(L\) asymptotics or a one-sided lower bound is insufficient for the necessity direction in (CR30).
-
-The first two clauses are not changes of notation. An address may instead log an operator parameter of differential order \(d\), which rescales \(p\) and changes the apparent dimensional balance. [[resolvent-logistic-scale-transform]] and [[wall-construction-interface/scale-character-solder]] isolate this normalization problem. The value \(p=1\) is therefore as load-bearing as the codimension exponent.
-
-There is also a codimension firewall. The reflection-fixed separator in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]] is a codimension-one Euclidean interface. It does not automatically furnish the codimension-two transverse cut used in (CR28). A Lorentzian causal-boundary reconstruction, a further cut, and a carrier map between their response forms are additional obligations.
-
-Under the scale-diagonal factorization the pulled-back squared response is
+[[scale-incidence-response/codimension-two-response-balance|The codimension-two response balance]] applies the exponent theorem to an independently constructed geometric family. If \(A=\log(L/L_0)\), presentation has first inverse-length order \(p=1\), and the boundary response factors as
 
 $$
-C_{\partial,D,1}^*C_{\partial,D,1}
-=
-r_0e^{(D-4)A}Z_D(A).
-\tag{CR29}
+R_{\partial,D}=r_0e^{(D-2)A}Z_D(A),
 $$
 
-At the level of the explicit power character, the critical balance is exactly
+the pulled-back response is \(r_0e^{(D-4)A}Z_D(A)\). On bilateral support, global regulator-uniform two-sided bounds on \(Z_D\) make a floor possible exactly at \(D=4\). Without those bounds, the equality \(D-4=0\) states only engineering neutrality; in four dimensions a positive floor still requires \(\operatorname*{ess\,inf}_{E_A}Z_4>0\).
 
-$$
-\boxed{
-D-4=0
-\quad\Longleftrightarrow\quad
-D=4.}
-\tag{CR30}
-$$
-
-In words: a codimension-two response contributes the area character, while a first-order inverse-scale amplitude contributes its square. Only in four spacetime dimensions do these **power characters** cancel without another power-law factor. If \(A\) has bilateral support and \(Z_D(A)\) obeys the uniform two-sided bounds above, the actual response floor exists exactly at \(D=4\). Without those residual bounds, (CR30) asserts engineering neutrality only.
-
-Power cancellation is only engineering marginality. In \(D=4\), (CR29) becomes
-
-$$
-C_{\partial,4,1}^*C_{\partial,4,1}
-=
-r_0Z_4(A),
-\qquad
-\boxed{
-\inf\sigma(C_{\partial,4,1}^*C_{\partial,4,1})>0
-\Longleftrightarrow
-\operatorname*{ess\,inf}_{E_A}Z_4>0.}
-\tag{CR30a}
-$$
-
-Here \(Z_4\) may contain quantum running or anomalous response after the power character has been removed. Thus four-dimensionality cancels the power drift but does not supply the uniform size of the residual response. Dimensional transmutation can furnish an independent energy yardstick; the uniform multiscale dynamical theorem must still prove that \(Z_4\) does not decay to zero on any physical scale channel.
-
-If the running response does not reduce the address spectral measure, the function \(Z_D(A)\) is unavailable and the correct target remains the noncommuting pullback inequality (CR19).
-
-This is closely related to the ordinary statement that Yang--Mills coupling is dimensionless in four spacetime dimensions. It may be a geometric re-expression of that power counting rather than an independent explanation of it. In \(D\neq4\), a dimensionful coupling can contribute the missing scale character. Therefore (CR30) does **not** prove that nature must be four-dimensional, that codimension-two boundaries exist pre-geometrically, or that four-dimensional Yang--Mills is gapped. It isolates two sharper construction targets:
-
-$$
-\boxed{
-\text{derive a gauge-invariant boundary/flux lower frame}
-\quad
-R_{\partial,4}\gtrsim e^{2A}
-\quad
-\text{for four-dimensional sufficiency},}
-\tag{CR31}
-$$
-
-and, for a claim that the geometry selects four dimensions **among independently constructed \(D\)-dimensional candidates**, derive the exponent factorization (CR28), bilateral scale support, and bounds showing that \(Z_D\) does not hide a compensating power character. Neither target may import the Yang--Mills action's known power counting.
-
-In (CR31), \(\gtrsim\) denotes a regulator-uniform lower quadratic-form bound on a declared common domain. That one-sided estimate is a sufficiency target after fixing \(D=4\); it cannot by itself select \(D=4\) among dimensions.
-
-The integer \(D-2\) must arise from the incidence or boundary geometry itself. The exponent \(p\) must arise from the order of the presentation map. Their equality is then a theorem about compatible scale characters rather than an equation of units mistaken for an equation of concepts. The positive lower bound for \(Z_4\) is a further dynamical theorem, not another dimensional identity.
-
-## Where entropy, flux, and RG can enter
-
-Entropy is relevant at the response arrow, but an entropy value is not the response operator. An area law can motivate an extensive boundary capacity or multiplicity. Distinguishability is instead state-pair- and tangent-dependent; the needed object is its second variation or analysis-frame operator on the same tangent directions:
-
-$$
-R_{\mathrm{ent}}
-=
-J^*G_{\mathrm{BKM}}J,
-\tag{CR32}
-$$
-
-with a lower bound of the form (CR23). [[physical-response-coercivity/regional-relative-entropy-frames]] gives this pullback type and shows why local channels can share blind directions. [[cosmological-scale-selection/horizon-saturation-and-entropic-distinction]] explains why relative-entropy positivity, maximal entropy, or a first-law identity does not provide the required Hessian floor. Leading area contributions can also cancel from relative entropy, as [[spectral-wall-descent/finite-index-area-weld#Relation to gravity and to lost response|the area-term no-go]] makes explicit, so their \(D-2\) scaling need not survive in \(R_{\mathrm{ent}}\). A black-hole area coefficient also imports \(G\), so it cannot set the scale of the gravity-free Clay problem.
-
-The finite-regulator electric-flux Dirichlet form in [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] is a more direct physical cost. The exact target is not separate shell estimates unless the form reduces the shell projections, but the joint inequality
-
-$$
-\mathfrak R_r[M_{p,r}f]
-\geq
-\kappa^2\|f\|^2.
-\tag{CR33}
-$$
-
-When reduction is proved, this becomes the regulator-uniform coefficient condition
-
-$$
-\inf_{r,\alpha}
-\rho_{r,\alpha}e^{-2pa_{r,\alpha}}>0.
-\tag{CR34}
-$$
-
-The most plausible source of the scale dependence in \(\rho_{r,\alpha}\) is the two-scale machinery of [[two-scale-rg-descent-and-the-crossover-lemma]]: conditional fiber coercivity, coarse coercivity, and a controlled mixed Hessian must survive every blocking step. Established results prove that such compensation is mathematically possible without making randomness fundamental. [[library/a-note-on-spectral-gap-and-weighted-poincare-inequalities-for-some-one-dimensional-diffusions/inq|Weighted Poincare inequalities]] include diffusions whose ordinary form is gapless while a position-dependent response weight restores a spectral gap. [[library/a-two-scale-approach-to-logarithmic-sobolev-inequalities/inq|The two-scale logarithmic-Sobolev theorem]] and [[library/poincare-and-transportation-inequalities-for-gibbs-measures-under-the-dobrushin-uniqueness-condition/inq|the Dobrushin Poincare theorem]] give exact local-to-global assembly mechanisms under their stated hypotheses. [[library/spectral-gap-critical-exponent-for-glauber-dynamics-of-hierarchical-spin-models/inq|The Bauerschmidt--Bodineau recursion]] transports inverse-gap forms across hierarchical covariance slices while its critical examples show that multiscale decomposition itself need not create a floor. [[library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/inq|Strong-coupling lattice Yang--Mills]] supplies a genuine gauge-theory endpoint precedent.
-
-None of those results proves (CR34) along the asymptotically free four-dimensional continuum trajectory. Their stochastic generators organize functional inequalities on declared Euclidean carriers; they are not ontological dice and are not automatically the Lorentzian clock Hamiltonian.
+The geometric note states the independent log-length, codimension and normalization hypotheses, the distinction from a codimension-one Euclidean separator, and the response estimates that entropy, flux or RG constructions would need to supply. A boundary channel count is not a lower frame estimate, and a one-sided lower response bound cannot select a unique dimension.
 
 ## From a dimensionless floor to mass
 
@@ -613,4 +475,4 @@ The route is killed if \(R=e^{2pA}\) or its shell coefficients are chosen solely
 | Established precedent | weighted Poincare, two-scale LSI, Dobrushin, and strong-coupling lattice results show concrete response-weight and local-to-global gap mechanisms on their declared carriers |
 | Open | derive the boundary/flux response, its lower frame and normalization, the bilateral fixed-pair/all-direction/direct-Casimir realization, the continuum estimate, and the Poincare-Casimir solder from four-dimensional Yang--Mills geometry |
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/compensated_incidence_response_receipt.py|The finite receipt]] illustrates exact diagonal compensation on one finite two-sided window, decreasing sampled floors for the fixed bounded response \(R=7I\), the arithmetic obtained after assuming \(q=D-2,p=1\) for \(D=3,4,5\), and persistence of one selected terminal kernel; [[contemporary-puzzles/yang-mills-mass-gap/receipts/compensated-incidence-response-receipt-output.txt|its stored output]] records the passing run. It does not establish unbounded spectral support, the exponent hypotheses, uniqueness of \(D=4\), any infinite-dimensional theorem, or any open physical arrow.
+[[scale-incidence-response/receipts/compensated_incidence_response_receipt.py|The finite receipt]] illustrates exact diagonal compensation on one finite two-sided window, decreasing sampled floors for the fixed bounded response \(R=7I\), the arithmetic obtained after assuming \(q=D-2,p=1\) for \(D=3,4,5\), and persistence of one selected terminal kernel; [[scale-incidence-response/receipts/compensated-incidence-response-receipt-output.txt|its stored output]] records the passing run. It does not establish unbounded spectral support, the exponent hypotheses, uniqueness of \(D=4\), any infinite-dimensional theorem, or any open physical arrow.

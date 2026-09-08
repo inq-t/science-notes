@@ -490,7 +490,7 @@ Type-III operator algebra is relevant because it can hold global and local obser
 - operator-valued weights and \(W^*\)-correspondences provide broader noninvertible comparison arrows under additional hypotheses; and
 - Connes fusion composes correspondences coherently up to canonical unitary.
 
-None of these facts canonically supplies the whole response \(A\), the retained subspace \(L\), or the domination in (SF29). A bare correspondence has no preferred vector, state transfer, CP map, or positive quadratic form. Arbitrary inclusions need not admit expectations or operator-valued weights. Even when a finite-index expectation has a Pimsner--Popa order floor, [[contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square]] and [[contemporary-puzzles/yang-mills-mass-gap/finite-index-duality-and-the-square-response]] show that this index floor is not a Yang--Mills Hessian or clock-energy gap.
+None of these facts canonically supplies the whole response \(A\), the retained subspace \(L\), or the domination in (SF29). A bare correspondence has no preferred vector, state transfer, CP map, or positive quadratic form. Arbitrary inclusions need not admit expectations or operator-valued weights. Even when a finite-index expectation has a Pimsner--Popa order floor, [[finite-index-distinction/gauge-index-no-go-and-four-dimensional-center-square]] and [[finite-index-distinction/finite-index-duality-and-the-square-response]] show that this index floor is not a Yang--Mills Hessian or clock-energy gap.
 
 Type III is therefore the likely **carrier grammar** for the whole/local relation, not the reason the positive edge exists. The missing theorem must construct a natural family
 

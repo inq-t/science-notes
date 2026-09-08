@@ -490,7 +490,7 @@ $$
 
 The four-dimensional continuum limit of Wilson Yang--Mills instead follows the asymptotically free weak-coupling trajectory. Consequently the exact constant \(K_S\) is uniform in spatial volume at fixed strong coupling, but not uniform along the required continuum trajectory. Volume uniformity is not lattice-spacing uniformity, boundary-condition uniformity, or physical-unit calibration.
 
-Moreover \(K_S\) is dimensionless and depends on the chosen stochastic normalization. Rescaling the Langevin clock rescales both the form and its gap. To become a physical lower energy, (GDT23) or (GDT25) still needs an independently normalized, same-core comparison with the physical energy or response operator. At adjacent lattice slices a finite physical mass normally corresponds to a dimensionless contraction tending to one at rate \(a\), not to a fixed raw one-step deficit. The calibrated two-scale requirement is developed in [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma]].
+Moreover \(K_S\) is dimensionless and depends on the chosen stochastic normalization. Rescaling the Langevin clock rescales both the form and its gap. To become a physical lower energy, (GDT23) or (GDT25) still needs an independently normalized, same-core comparison with the physical energy or response operator. At adjacent lattice slices a finite physical mass normally corresponds to a dimensionless contraction tending to one at rate \(a\), not to a fixed raw one-step deficit. The calibrated two-scale requirement is developed in [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma]].
 
 The viable theorem target is therefore:
 

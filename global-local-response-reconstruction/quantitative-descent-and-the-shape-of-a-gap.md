@@ -227,7 +227,7 @@ Third, ultraviolet stability is not infrared mass. [[rg-covariance-residue/unifo
 
 ## The most suggestive small model of necessity
 
-[[contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law|The flat-partner pointing theorem]] has the explanatory form worth generalizing. For an ordered pair
+[[logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law|The flat-partner pointing theorem]] has the explanatory form worth generalizing. For an ordered pair
 \[
 A=\partial_N+W(N),\qquad
 AA^*=-\partial_N^2+\lambda,

@@ -1,6 +1,6 @@
-# The Resolvent--Logistic Scale Transform
+# Resolvent-Logistic Scale Transform
 
-Every nonnegative self-adjoint operator has a canonical scale-resolved presentation once its positive spectrum is converted into bounded effects by the odds map \(X\mapsto X(1+X)^{-1}\). Differentiating that effect along logarithmic scale produces an exactly normalized logistic profile with rate \(\nu=1/2\), and its square root gives an isometric, complex-linear Calderon-type analysis transform on the complement of the kernel. This closes part of the boundary-to-scale carrier problem without spectral fitting. It also proves a decisive no-go: the universal logistic edge \(1/4\) is a shape constant shared by gapped and gapless operators. A positive lower spectral edge is instead an upper bound on the log-scale **center**. This becomes a mass statement only after the supplied operator is noncircularly identified with the physical Casimir. For two oppositely scaling causal generators, their separate centers move in opposite directions while their mean is the negative logarithm of the joint positive invariant.
+The effect--odds transform of a supplied nonnegative self-adjoint operator defines an isometric, complex-linear resolution by logarithmic scale on the complement of its kernel. Each spectral channel has the same logistic profile and a center equal to its negative log spectral value. Consequently the universal profile edge \(1/4\) does not distinguish gapped from gapless operators: a positive operator edge requires an upper bound on the centers, followed by a noncircular physical Casimir comparison for a mass interpretation.
 
 **Status: [EXACT FUNCTIONAL-CALCULUS THEOREM]; [EXACT JOINT-CENTER THEOREM]; [CANDIDATE INTERFACE ANALYSIS MAP]; [OPEN YANG--MILLS OPERATOR SELECTION AND CASIMIR COMPARISON].** The transform below parses the spectrum of a supplied operator. It neither constructs that operator nor proves its positive lower edge.
 
@@ -450,7 +450,7 @@ $$
 
 is a canonical candidate for the previously open interface-to-log-scale analysis leg. It is complex-linear, has exact lower coverage one on the constant complement, and is defined without choosing eigenvectors or inspecting whether a gap exists.
 
-This is real progress but not a completed identification with the map in [[pointing-coercivity-and-the-flat-partner-law#The wall--Casimir sandwich|the wall--Casimir sandwich]]. Its natural codomain is the half-density carrier
+This is real progress but not a completed identification with the map in [[logistic-scale-geometry/scale-wall-to-casimir-comparison#The wall--Casimir sandwich|the wall--Casimir sandwich]]. Its natural codomain is the half-density carrier
 
 $$
 L^2(\mathbb R,\mathrm dN;
@@ -470,7 +470,7 @@ S_r^{\mathrm{disc}}f
 \tag{RL42}
 $$
 
-on the centered carrier. If geometry or RG supplies log-scale addresses \(N_{r,j}\), then [[paired-scale-filtrations-and-the-invariant-incidence-wall]] defines
+on the centered carrier. If geometry or RG supplies log-scale addresses \(N_{r,j}\), then [[scale-incidence-response/paired-scale-filtrations-and-the-invariant-incidence-wall]] defines
 
 $$
 A_{r,\mathcal F}=\sum_jN_{r,j}D_{r,j},
@@ -540,4 +540,4 @@ The route is killed if the universal \(1/4\), \(1/12\), \(2\)-nat entropy, or \(
 | Candidate construction | \(S_r^{\mathrm{res}}\) closes the coverage and phase-preservation part of the boundary-to-scale map once an independent natural \(L_{r,I}\) with kernel \(\mathbb C1\) is constructed |
 | Open | selection of \(L_{r,I}\), RG-shell interpolation, uniform center confinement, transfer/Casimir comparison, and the four-dimensional continuum Yang--Mills construction |
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/resolvent_logistic_scale_receipt.py|The numerical receipt]] checks the scalar logistic, moment, entropy, Fisher, half-density, finite spectral-isometry, and reciprocal-center identities; [[contemporary-puzzles/yang-mills-mass-gap/receipts/resolvent-logistic-scale-receipt-output.txt|its stored output]] records the passing run. It does not prove the spectral theorem, choose \(L_{r,I}\), or test a Yang--Mills gap.
+[[logistic-scale-geometry/receipts/resolvent_logistic_scale_receipt.py|The numerical receipt]] checks the scalar logistic, moment, entropy, Fisher, half-density, finite spectral-isometry, and reciprocal-center identities; [[logistic-scale-geometry/receipts/resolvent-logistic-scale-receipt-output.txt|its stored output]] records the passing run. It does not prove the spectral theorem, choose \(L_{r,I}\), or test a Yang--Mills gap.

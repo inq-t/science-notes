@@ -58,7 +58,7 @@ $$
 
 at saturation in the exact type-I product-edge model with its auxiliary tracial expectation, per $S(\chi)+D(\chi\Vert\tau)=\tfrac12\log\operatorname{Ind}_W(E_\tau)$ (receipt-verified in `receipts/`). This identity is not asserted for an arbitrary finite-index inclusion. The theorem target of this module is then the first pass's two welds in new variables:
 
-[[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld]] separately records the established full log-index capacity of an infinite-factor expectation; that supremal loss is not the selected edge entropy used here.
+[[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld]] separately records the established full log-index capacity of an infinite-factor expectation; that supremal loss is not the selected edge entropy used here.
 
 1. **(Ledger additivity.)** The edge assignment is a countably additive, regulator-independent measure over wall patches — [[deriving-value-of-g/spectral-index-area-route|the all-patch identity]].
 2. **(Law.)** $q=\delta\iota$ holds at every admissible wedge of the wall family, with $q$ built from the transported horizontal state response — the same-tangent weld of [[deriving-value-of-g/causal-scale-derivation-target|the derivation target]].

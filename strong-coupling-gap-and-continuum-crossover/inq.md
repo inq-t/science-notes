@@ -111,8 +111,14 @@ $$
 $$
 
 The arrow includes ultraviolet construction, infrared uniformity, vacuum
-control, and scale setting. Universality heuristics do not constitute that
-arrow.
+control, and scale setting. [[yang-mills-continuum-crossover/inq|Yang–Mills
+continuum crossover]] distinguishes two sufficient continuations: a common
+static correlation exponent on an OS-total local family, and a complete
+midpoint-to-boundary contraction at fixed physical thickness. Its
+[[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale descent theorem]]
+states the discarded-fiber, induced-metric and coupling estimates required
+to transport auxiliary coercivity. Universality heuristics do not
+constitute that arrow.
 
 ## A proposed crossover proof and its missing inequalities
 

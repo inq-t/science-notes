@@ -187,7 +187,7 @@ $$
 
 Every edge in a path sends an orthonormal Lie-algebra variation to a coarse variation by an adjoint isometry. Summing over that edge's orthonormal basis gives \(\|\nabla_bf\|^2\); summing over the path gives \(\ell_b\). Edge-disjointness prevents overlap between paths.
 
-Thus the inherited coarse mobility is \(\ell_b\), not one. The pivot-only lift in (WP7) is convenient for differentiation but is not the orthogonal horizontal lift for the original metric. Product-Haar factorization cannot justify silently using the chart product metric as the fine Dirichlet metric. [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|The general pullback-mobility formula]] owns this distinction.
+Thus the inherited coarse mobility is \(\ell_b\), not one. The pivot-only lift in (WP7) is convenient for differentiation but is not the orthogonal horizontal lift for the original metric. Product-Haar factorization cannot justify silently using the chart product metric as the fine Dirichlet metric. [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|The general pullback-mobility formula]] owns this distinction.
 
 ## What this supplies to the crossover problem
 

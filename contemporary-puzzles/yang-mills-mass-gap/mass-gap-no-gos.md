@@ -1,6 +1,6 @@
 # Mass-Gap No-Gos
 
-The reclassification in [[register-audit]] has positive content only if it forbids something. This note states what it forbids, at the scope the programme's canon allows, and then turns the same obstructions on the programme itself. A lower-dimensional heuristic precedent is recorded last, together with the reasons it does not presently transfer to four dimensions.
+Several proposed mass-gap certificates fail because their bounds apply to the wrong carrier, use an uncalibrated scale, or do not survive the continuum limit. These obstruction tests state the assumptions under which each failure follows, including limits on the present research programme. They rule out particular arguments; they do not rule out Yang–Mills existence or a positive physical gap.
 
 ## NG1 — A fixed-cutoff gap is insufficient
 
@@ -12,7 +12,7 @@ The reclassification in [[register-audit]] has positive content only if it forbi
 
 **[EXACT -- SCOPED]** [[the-grain-of-causal-scale/causal-spectrum|The HSMI no-gap theorem]]: if the positive translation generator \(P\) of a half-sided modular inclusion satisfies \(\Delta^{it}P\Delta^{-it}=e^{-2\pi t}P\), then \(P=0\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum on a separable Hilbert space. A nonzero gap in that *same generator* requires the covariance hypothesis to fail or passage to a different constructed carrier and generator. The theorem does not establish that every pre-wall spectrum is gapless or that a wall automatically supplies a gap. Classical Yang--Mills scale covariance and its quantum trace anomaly are a compatible standard analogy, not an identification of its Hamiltonian with this \(P\).
 
-The spectral core is more general. If \(A\geq0\) is nonzero and self-adjoint and \(V_sAV_s^*=e^{-s}A\) as self-adjoint operators for every real \(s\), unitary invariance forces \(\sigma(A)=e^{-s}\sigma(A)=[0,\infty)\). A unit change, a conformal-scale presentation, RG flow, and such a same-carrier unitary dilation symmetry are four different operations. [[mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|The same-carrier lemma]] states the domains and the Yang--Mills application.
+[[mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|The same-carrier dilation lemma]] gives the general self-adjoint-operator proof and its domain conditions. A unit change, a conformal-scale presentation, RG flow, and such a unitary dilation symmetry are four different operations.
 
 **Kill condition.** A proposed gap located in this unbroken dilation-covariant HSMI generator contradicts the exact theorem. The condition says nothing until the proposed physical Hamiltonian is actually identified with that generator.
 
@@ -52,14 +52,7 @@ These equations make mass a precise hinge between gravitational response length 
 
 ## NG7 — Ordinary vacuum local algebras cannot supply the expectation shells
 
-**[EXACT UNDER REEH--SCHLIEDER HYPOTHESES]** Let $\mathcal N\subseteq\mathcal M$ be proper nested local observable algebras in the vacuum representation. Suppose $\Omega$ is cyclic for $\mathcal N$ and separating for $\mathcal M$, as in the standard [[library/remarks-on-unitary-equivalence-of-lorentz-invariant-fields/inq|Reeh--Schlieder]] setting. If a vacuum-preserving conditional expectation $E:\mathcal M\to\mathcal N$ existed, then
-
-$$
-\langle n\Omega,(a-Ea)\Omega\rangle=0
-\qquad(n\in\mathcal N,\ a\in\mathcal M).
-$$
-
-Cyclicity gives $(a-Ea)\Omega=0$, and separation gives $a=Ea$, so $\mathcal N=\mathcal M$, a contradiction. The expectation-shell architecture in [[physical-response-coercivity/physical-distinction-coercivity]] must therefore use regulator or RG coarse-graining algebras, a different carrier or state, a controlled nonlocal construction, or inequalities weaker than exact vacuum-preserving expectations. It cannot be obtained by taking the ordinary AQFT region net and reversing its arrows.
+**[EXACT UNDER REEH--SCHLIEDER HYPOTHESES]** If the vacuum is cyclic for $\mathcal N$ and separating for $\mathcal M$, a vacuum-preserving conditional expectation $\mathcal M\to\mathcal N$ forces $\mathcal N=\mathcal M$. [[physical-response-coercivity/causal-frame-coercivity#Conditional-expectation shells|The expectation-shell obstruction]] gives the proof. The shell construction must therefore use regulator or RG coarse-graining algebras, a different carrier or state, controlled nonlocal blocks, or a weaker inequality. Reversing the arrows of an ordinary AQFT region net does not construct the required filtration.
 
 **Kill condition.** A purported continuum shell proof that assumes proper vacuum-preserving conditional expectations between ordinary nested local region algebras fails before any energy estimate is attempted.
 
@@ -111,7 +104,7 @@ For a fixed Schwarzschild areal radius \(R\), \(2GM/(Rc^2)=1\) and \(S_{\mathrm{
 
 **Kill condition.** A proposed gap fails if it infers a positive energy floor from an entropy maximum, area law, horizon, or Unruh/Hawking temperature without a full-carrier lower bound and a same-carrier clock-energy comparison. Choosing the region radius from the desired correlation length is circular.
 
-The same warning applies to scale compensation. [[compensated-incidence-response-and-four-dimensional-balance]] proves that an independently derived response can compensate a gapless inverse-scale presentation, but boundary multiplicity is not the response spectrum. The number of channels can grow like area while all of them miss one normalized tangent. A valid argument must prove a lower-frame or closed-range estimate on the complete physical carrier; setting the response equal to the inverse square of the presentation simply writes the desired conclusion into the operator.
+The same warning applies to scale compensation. [[scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance]] proves that an independently derived response can compensate a gapless inverse-scale presentation, but boundary multiplicity is not the response spectrum. The number of channels can grow like area while all of them miss one normalized tangent. A valid argument must prove a lower-frame or closed-range estimate on the complete physical carrier; setting the response equal to the inverse square of the presentation simply writes the desired conclusion into the operator.
 
 ## A lower-dimensional structural analogue
 

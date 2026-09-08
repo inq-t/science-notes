@@ -377,7 +377,7 @@ $$
 \tag{D5h.7}
 $$
 
-Tensoring this example with any \(\sigma\)-finite Type III factor preserves both index and ratio. Hence there is no state-uniform positive Hessian floor depending only on the index. [[contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square]] gives the gauge-theoretic consequence: index is a capacity or sector-count datum, whereas physical coercivity needs normalized pullbacks and transverse relative position among a family of descents.
+Tensoring this example with any \(\sigma\)-finite Type III factor preserves both index and ratio. Hence there is no state-uniform positive Hessian floor depending only on the index. [[finite-index-distinction/gauge-index-no-go-and-four-dimensional-center-square]] gives the gauge-theoretic consequence: index is a capacity or sector-count datum, whereas physical coercivity needs normalized pullbacks and transverse relative position among a family of descents.
 
 ## The normalization no-go
 

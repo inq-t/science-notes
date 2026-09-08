@@ -299,7 +299,7 @@ S(\varphi\Vert\varphi\circ\varepsilon_{X_n})
 \tag{RY17a}
 \]
 
-while the statewise loss for \(\varepsilon_{X_n}\) plus the complementary loss for its commutant-dual expectation equals the same constant. [[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld]] owns the hypotheses, the finite-dimensional factor-of-two firewall, and the exact two-sided formula.
+while the statewise loss for \(\varepsilon_{X_n}\) plus the complementary loss for its commutant-dual expectation equals the same constant. [[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld]] owns the hypotheses, the finite-dimensional factor-of-two firewall, and the exact two-sided formula.
 
 There are then two physical hypotheses, not one. Directly identifying additive entropy increments would give \(\iota_n-\iota_b=2n\log d\) and \(H_n/H_b=(1+2n\log d/\iota_b)^{-1/2}\). The geometric ladder below uses the strictly stronger **multiplicative cosmic-cell/index-capacity weld** between a birth cut \(b\) and the cut assigned to fusion rung \(n\):
 
@@ -358,7 +358,7 @@ The ladder must stop at the selected engagement rung if \(\omega_*\) is to fossi
 
 The finite algebra in (RY2), (RY17)--(RY20), and the independent-age identity is exercised by [[mass-scale-calibration/receipts/internal-yardstick-rate-edge-receipt.py|the internal-yardstick receipt]] and its [[mass-scale-calibration/receipts/internal-yardstick-rate-edge-receipt-output.txt|stored output]]. The receipt verifies arithmetic and a diagonal finite-form benchmark; it does not test the log-capacity weld, the common carrier, the Yang--Mills limit, or any physical premise.
 
-For finite-dimensional centers, scalar \(d\) must be replaced by the dimension matrix or full correspondence. Scalar minimal index need not multiply without matched spherical or Markov data. [[spectral-wall-descent/scale-correspondence-stack]], [[contemporary-puzzles/yang-mills-mass-gap/finite-index-duality-and-the-square-response]], and [[library/minimal-index-and-matrix-dimension-finite-centers/inq|minimal index and matrix dimension]] own these normalization firewalls. [[contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square]] also forbids the obvious shortcut: the faithful continuous \(SU(N)\) fixed-point inclusion is infinite-index, while the finite ring-center remnant \(|Z(G)|^2\) is not universal.
+For finite-dimensional centers, scalar \(d\) must be replaced by the dimension matrix or full correspondence. Scalar minimal index need not multiply without matched spherical or Markov data. [[spectral-wall-descent/scale-correspondence-stack]], [[finite-index-distinction/finite-index-duality-and-the-square-response]], and [[library/minimal-index-and-matrix-dimension-finite-centers/inq|minimal index and matrix dimension]] own these normalization firewalls. [[finite-index-distinction/gauge-index-no-go-and-four-dimensional-center-square]] also forbids the obvious shortcut: the faithful continuous \(SU(N)\) fixed-point inclusion is infinite-index, while the finite ring-center remnant \(|Z(G)|^2\) is not universal.
 
 ## The composed Copernican target
 

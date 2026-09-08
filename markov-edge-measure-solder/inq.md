@@ -192,7 +192,7 @@ J_B^*P^nJ_B,
 \tag{ME18}
 \]
 
-and a family \(J_B^*P_tJ_B\) need not obey the semigroup law unless \(\operatorname{Ran}J_B\) is invariant. Nor can (ME17) be run backward: a coarse gap leaves every forgotten fiber uncontrolled. The fiber inequalities, induced horizontal metric, and macro--micro coupling required for that lift are the content of [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma|the two-scale RG problem]].
+and a family \(J_B^*P_tJ_B\) need not obey the semigroup law unless \(\operatorname{Ran}J_B\) is invariant. Nor can (ME17) be run backward: a coarse gap leaves every forgotten fiber uncontrolled. The fiber inequalities, induced horizontal metric, and macro--micro coupling required for that lift are the content of [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|the two-scale RG problem]].
 
 ## The transfer Doob transform gives the physical certificate
 

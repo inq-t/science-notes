@@ -4,7 +4,6 @@ inq.include:
   - './'
 inq.ambient:
   - 'receipts/*.py'
-  - 'receipts/*.txt'
 keywords:
   - measured response
   - GNS representation

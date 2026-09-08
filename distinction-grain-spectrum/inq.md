@@ -434,7 +434,7 @@ $$
 \tag{DG32}
 $$
 
-Unlike the one-sided semigroup theorem, this collared criterion is presented only as a sufficient implication: the two-sided boundary can retain more predictive information than either one boundary. [[contemporary-puzzles/yang-mills-mass-gap/collared-surface-response-to-the-clay-gap|The collared-surface theorem]] owns the finite-regulator proof and continuum obligations.
+Unlike the one-sided semigroup theorem, this collared criterion is presented only as a sufficient implication: the two-sided boundary can retain more predictive information than either one boundary. [[yang-mills-continuum-crossover/collared-surface-response-to-the-clay-gap|The collared-surface theorem]] owns the finite-regulator proof and continuum obligations.
 
 ## Yang--Mills interpretation
 

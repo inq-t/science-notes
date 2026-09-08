@@ -252,7 +252,7 @@ For \(q\neq1\), the same categorical source supplies both numbers,
 
 but no theorem identifies them. The first is additive under fusion and measures a maximum information-loss capacity after the appropriate finite-index factor realization. The second is a minimum spectral separation across admissible presentations. Maximum capacity and minimum coercivity are different quantifiers even when they arise from one category.
 
-This is the exact refinement of [[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld]]: the missing floor need not be manufactured from the index. It may be a second invariant of the same deeper compositional structure.
+This is the exact refinement of [[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld]]: the missing floor need not be manufactured from the index. It may be a second invariant of the same deeper compositional structure.
 
 ## A conditional cosmic selector for the deformation magnitude
 
@@ -325,7 +325,7 @@ This is the first precise way the global cosmic ledger can select a **dimensionl
 
 The equation only determines \(|\eta|\). Both \(\delta_q\) and \(\rho_q\) are invariant under \(q\leftrightarrow q^{-1}\). Consequently this construction supplies no physical handedness by itself. The residual twofold presentation may be redundant under categorical equivalence; calling it chirality would require a separate orientation-sensitive invariant and an observable image.
 
-On the same conjectural branch, [[contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld]] gives
+On the same conjectural branch, [[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld]] gives
 
 \[
 \frac{H_c}{H_b}=\delta_q^{-n},

@@ -1,4 +1,4 @@
-# Spectral-Gap Undecidability Is Not a Yang--Mills No-Go
+# Spectral-Gap Undecidability Firewall
 
 The undecidability theorem of Cubitt, Perez-Garcia, and Wolf blocks a universal algorithm for deciding the thermodynamic spectral phase of every Hamiltonian in a specially constructed two-dimensional spin-system family. It neither proves that four-dimensional pure Yang--Mills is undecidable nor rules out a model-specific analytic, geometric, or constructive proof. Its useful Copernican lesson is narrower and stronger: complete local interaction data do not, in unrestricted families, make the global infinite-system spectral phase uniformly computable.
 
@@ -68,4 +68,3 @@ The undecidability claim may enter a Yang--Mills theorem only after one of two r
 2. a model-specific global certificate proving the requested Yang--Mills construction and gap.
 
 At present neither has been supplied by the undecidability literature. The Scientific American headline is therefore a warning about universal algorithms, not evidence that the Millennium problem is doomed or must be replaced.
-

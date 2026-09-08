@@ -1,0 +1,43 @@
+{
+  "description": "Split the causal-grain cosmology synthesis into five focused notes, retain established result owners, and preserve the previous entry byte for byte.",
+  "source": "causal-grain-cosmology/inq.md",
+  "archive": "causal-grain-cosmology/junk-drawer/2026-09-08-entry-before-section-split.md",
+  "archive_sha256": "ff16404dc68485f93644f7f96d283fdea9d79c4494ddd391afe005971fa0a22e",
+  "new_notes": [
+    "causal-grain-cosmology/grain-acoustic-genealogy.md",
+    "causal-grain-cosmology/causal-grain-and-local-rulers.md",
+    "causal-grain-cosmology/acoustic-characteristic-and-chiral-calibration.md",
+    "causal-grain-cosmology/exceptional-scale-phase-descent.md",
+    "causal-grain-cosmology/acoustic-recovery-contract.md"
+  ],
+  "anchor_replacements": {
+    "causal-grain-cosmology/inq#Working backward from the grain": "causal-grain-cosmology/grain-acoustic-genealogy#Working backward from the grain",
+    "causal-grain-cosmology/inq#The canonical metric grain is a common-count scale": "causal-grain-cosmology/grain-acoustic-genealogy#The canonical metric grain is a common-count scale",
+    "causal-grain-cosmology/inq#The denominator three is geometry": "causal-grain-cosmology/grain-acoustic-genealogy#The denominator three is geometry",
+    "causal-grain-cosmology/inq#The one is a unit response, not one bit": "causal-grain-cosmology/grain-acoustic-genealogy#The one is a unit response, not one bit",
+    "causal-grain-cosmology/inq#The two is an \\(A_2\\) positive-support proposal": "causal-grain-cosmology/grain-acoustic-genealogy#The two is an \\(A_2\\) positive-support proposal",
+    "causal-grain-cosmology/inq#The \\(A_2\\) triple sharpened the broad grain window": "causal-grain-cosmology/grain-acoustic-genealogy#The \\(A_2\\) triple sharpened the broad grain window",
+    "causal-grain-cosmology/inq#The scale first appeared while trying to derive \\(G\\)": "causal-grain-cosmology/grain-acoustic-genealogy#The scale first appeared while trying to derive \\(G\\)",
+    "causal-grain-cosmology/inq#Before \\(G\\), there was a wall of scale response": "causal-grain-cosmology/grain-acoustic-genealogy#Before \\(G\\), there was a wall of scale response",
+    "causal-grain-cosmology/inq#The five-day path seen forward": "causal-grain-cosmology/grain-acoustic-genealogy#The five-day path seen forward",
+    "causal-grain-cosmology/inq#Why this is a grain of causal scale": "causal-grain-cosmology/causal-grain-and-local-rulers#Why this is a grain of causal scale",
+    "causal-grain-cosmology/inq#One scale, many local rulers": "causal-grain-cosmology/causal-grain-and-local-rulers#One scale, many local rulers",
+    "causal-grain-cosmology/inq#The CMB clue survived only after the grain cancelled": "causal-grain-cosmology/acoustic-characteristic-and-chiral-calibration#The CMB clue survived only after the grain cancelled",
+    "causal-grain-cosmology/inq#The equation that snapped into place": "causal-grain-cosmology/acoustic-characteristic-and-chiral-calibration#The equation that snapped into place",
+    "causal-grain-cosmology/inq#The chiral cancellation is the real empirical candidate": "causal-grain-cosmology/acoustic-characteristic-and-chiral-calibration#The chiral cancellation is the real empirical candidate",
+    "causal-grain-cosmology/inq#Why \\(A_2\\), \\(G_2\\), and the octonions belong nearby": "causal-grain-cosmology/exceptional-scale-phase-descent#Why \\(A_2\\), \\(G_2\\), and the octonions belong nearby",
+    "causal-grain-cosmology/inq#Perturbation need not mean ontic randomness": "causal-grain-cosmology/acoustic-recovery-contract#Perturbation need not mean ontic randomness",
+    "causal-grain-cosmology/inq#The noncircular test": "causal-grain-cosmology/acoustic-recovery-contract#The noncircular test",
+    "causal-grain-cosmology/inq#The find in one line": "causal-grain-cosmology/inq#From conditional calibration to an acoustic characteristic",
+    "causal-grain-cosmology/inq#Mass engagement, trace history, and acoustic fossils": "causal-grain-cosmology/inq#Mass engagement, trace history, and acoustic fossils",
+    "causal-grain-cosmology/inq#What has actually been achieved": "causal-grain-cosmology/cmb-likelihood-test",
+    "causal-grain-cosmology/inq#The present verdict": "causal-grain-cosmology/inq#Empirical return and the remaining recovery"
+  },
+  "deduplicated_sections": {
+    "Working backward from the grain / common-count algebra": "the-grain-of-causal-scale/inq#The common-count lemma",
+    "Working backward from the grain / denominator three": "bulk-area-cell-normalization/inq",
+    "What has actually been achieved": "causal-grain-cosmology/cmb-likelihood-test",
+    "Mass engagement, trace history, and acoustic fossils": "Existing mass-engagement, pair-quotient, trace-cocycle, thermal-diagnostic and wall-crossing-defect owners; concise linked synthesis retained in entry",
+    "The present verdict": "Claim boundaries integrated into entry; original assessment retained in archive"
+  }
+}

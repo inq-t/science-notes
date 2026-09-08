@@ -276,7 +276,7 @@ $$
 \tag{S4b}
 $$
 
-At the middle value, \(\sqrt d\) is a bounded but non-normalizable incoming threshold solution and zero reaches the essential spectrum of \(B^*B\). [[contemporary-puzzles/yang-mills-mass-gap/indexed-scale-wall-and-the-causal-grain|The indexed-scale-wall theorem]] supplies the domains and proof. Thus \(\varepsilon_{\mathrm{in}}\) is simultaneously a boundary-class exponent and the sign that distinguishes two Fredholm phases. The critical member itself has no index, and transporting this reduced transition to a physical causal grain remains an open carrier problem.
+At the middle value, \(\sqrt d\) is a bounded but non-normalizable incoming threshold solution and zero reaches the essential spectrum of \(B^*B\). [[logistic-scale-geometry/indexed-scale-wall-and-the-causal-grain|The indexed-scale-wall theorem]] supplies the domains and proof. Thus \(\varepsilon_{\mathrm{in}}\) is simultaneously a boundary-class exponent and the sign that distinguishes two Fredholm phases. The critical member itself has no index, and transporting this reduced transition to a physical causal grain remains an open carrier problem.
 
 This index statement depends on its declared carrier. Here \(d=e^{-N}q\) is treated as a density relative to core capacity and \(\sqrt d\) is placed on translation-Haar \(L^2(\mathrm dN)\). If the same differential expression is instead placed on the natural core-trace carrier \(L^2(e^N\mathrm dN)\), multiplication by \(e^{N/2}\) conjugates it to the ordinary probability factor \(A_\nu\), whose index remains \(+1\) for every \(\nu>0\). Core normality alone therefore does not select the phase-changing carrier; a physical realization must justify why translation-Haar relative density, rather than core-trace density, is the operative presentation.
 
@@ -304,7 +304,7 @@ q_{\frac12,N_c}
 G_{NN}^{\mathrm{bin}}.
 $$
 
-The last equality concerns coordinate coefficients in the canonically normalized \(N\)-coordinate, not geometric types: \(q\,\mathrm dN\) is a probability measure and \(G_{NN}^{\mathrm{bin}}\,\mathrm dN^2\) is a metric. Within the logistic family, (S1P), the boundary law (S3), and equality of these numerical coefficients are equivalent consequences of \(\nu=1/2\); they are not three independent pieces of evidence. [[contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law|Pointing coercivity and the flat-partner law]] gives the associated sharp scale-shadow gap \(\nu^2=1/4\). The involution branch instead gives edge \(1\). Neither branch proves that its proposed capacity-to-readout comparison is physically compulsory.
+The last equality concerns coordinate coefficients in the canonically normalized \(N\)-coordinate, not geometric types: \(q\,\mathrm dN\) is a probability measure and \(G_{NN}^{\mathrm{bin}}\,\mathrm dN^2\) is a metric. Within the logistic family, (S1P), the boundary law (S3), and equality of these numerical coefficients are equivalent consequences of \(\nu=1/2\); they are not three independent pieces of evidence. [[logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law|Pointing coercivity and the flat-partner law]] gives the associated sharp scale-shadow gap \(\nu^2=1/4\). The involution branch instead gives edge \(1\). Neither branch proves that its proposed capacity-to-readout comparison is physically compulsory.
 
 ## What the solder constructs
 

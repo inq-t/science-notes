@@ -156,7 +156,7 @@ $$
 
 Thus two individually gapless positive generators can jointly force an ordinary energy gap. In this low-dimensional realization (J7) is the mass-Casimir bound. In $3+1$ dimensions, \(P_+P_-=H^2-c^2P_z^2=\mathcal C+c^2\mathbf P_\perp^2\), so one null-pair product is not *identical* to the full Casimir. Nevertheless, once a positive-energy Poincare representation has been reconstructed, a lower bound for one fixed pair on the **entire** vacuum complement already gives the Hamiltonian gap by (J6), and the Lorentz-orbit theorem below then gives the full-Casimir floor. What fails is calling the directional product itself mass before that reconstruction, or proving a floor only on an incomplete directional carrier.
 
-[[contemporary-puzzles/yang-mills-mass-gap/paired-scale-filtrations-and-the-invariant-incidence-wall#One full-carrier direction suffices after Lorentz reconstruction|The directional theorem]] separates two sufficient routes. For every unit vector \(\mathbf n\), put \(P_\pm(\mathbf n)=H\pm c\mathbf P\cdot\mathbf n\). Then
+[[scale-incidence-response/paired-scale-filtrations-and-the-invariant-incidence-wall#One full-carrier direction suffices after Lorentz reconstruction|The directional theorem]] separates two sufficient routes. For every unit vector \(\mathbf n\), put \(P_\pm(\mathbf n)=H\pm c\mathbf P\cdot\mathbf n\). Then
 
 $$
 P_+(\mathbf n)P_-(\mathbf n)
@@ -279,7 +279,7 @@ below. A product floor removes the joint kernel and makes this normal form
 available on the complete nonvacuum carrier; it still does not supply the
 floor or its units.
 
-[[contemporary-puzzles/yang-mills-mass-gap/resolvent-logistic-scale-transform]] gives this witness an exact scale-coordinate reading. Applying the effect--odds transform to \(P_+/E_*\) and \(P_-/E_*\) assigns center operators
+[[logistic-scale-geometry/resolvent-logistic-scale-transform]] gives this witness an exact scale-coordinate reading. Applying the effect--odds transform to \(P_+/E_*\) and \(P_-/E_*\) assigns center operators
 
 $$
 N_{c,+}=-\log(P_+/E_*),
@@ -299,7 +299,7 @@ $$
 
 is invariant. Thus each causal generator may remain gapless and have centers extending without bound, while a mass floor is exactly a ceiling on their invariant mean center. The universal logistic width of the scale readout does not supply that ceiling.
 
-[[contemporary-puzzles/yang-mills-mass-gap/compensated-incidence-response-and-four-dimensional-balance]] shows that an exact ceiling is only the neutral-response member of a larger theorem. If an independently constructed response \(R\) acts on the image of the invariant presentation \(e^{-pA_M}\), the relevant joint object is the closed pullback \(C=\overline{R^{1/2}e^{-pA_M}}\). Its lower singular-value bound can survive even when \(A_M\) is unbounded, provided the response compensates every escaping scale channel. When \(R\) is a function of \(A_M\), this construction retains reciprocal frame invariance because \(A_M\) does. It still requires a separate comparison with the physical Casimir: a frame-invariant response operator is not thereby a translation generator or mass.
+[[scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance]] shows that an exact ceiling is only the neutral-response member of a larger theorem. If an independently constructed response \(R\) acts on the image of the invariant presentation \(e^{-pA_M}\), the relevant joint object is the closed pullback \(C=\overline{R^{1/2}e^{-pA_M}}\). Its lower singular-value bound can survive even when \(A_M\) is unbounded, provided the response compensates every escaping scale channel. When \(R\) is a function of \(A_M\), this construction retains reciprocal frame invariance because \(A_M\) does. It still requires a separate comparison with the physical Casimir: a frame-invariant response operator is not thereby a translation generator or mass.
 
 ## Casimir solder to a distinction frame
 

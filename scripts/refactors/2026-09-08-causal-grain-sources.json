@@ -1,0 +1,101 @@
+{
+  "description": "Package precisely cited raw causal-grain sources as opaque resources when no byte-identical admitted resource already exists. Original inbox records remain unchanged; active canonical accounts remain the five extracted notes.",
+  "lookup": "Searched the complete Inq inventory for exact byte matches, using length filtering before hash and byte comparison.",
+  "records": [
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/cmb-acoustic-resonator.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/cmb-acoustic-resonator.md",
+      "sha256": "8f0a093e730e77dc796e179be84794fee8b10097b76efc8b175eda63294666b5",
+      "bytes": 12367,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/grain-acoustic-characteristic.md",
+      "sha256": "1a57e3f943e6d716b845928a262397a07835b5b2698193a37eeafbf1da972eda",
+      "bytes": 13659,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/grain-primordial-precision.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/grain-primordial-precision.md",
+      "sha256": "88fd9d5e121e21384ab7402decd0fbdddfa3d8922489e3593e89da0e668de2e4",
+      "bytes": 9311,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/cosmodynamic-acoustic-geometry.md",
+      "sha256": "06034a9384c1cd1f0e77db20a044932913397ad15884188876de5514323f8631",
+      "bytes": 22271,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/connes-time-as-algebraic-dimension.md",
+      "sha256": "41386b6295db6be621f9ac73521b7e891ffd13e7f776500b60498e8c38e813f6",
+      "bytes": 12365,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/scale-phase-harmonic-descent.md",
+      "sha256": "a7b5ece2b563d4ea214bc0a5aa874d9d4323f2fc3ec4409837f1b5bcce45270d",
+      "bytes": 12714,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/octonionic-associative-descent.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/octonionic-associative-descent.md",
+      "sha256": "b717e6e3664595f6cdad832021f7e5e2e350894b156b7584b124cb5fce704dba",
+      "bytes": 11670,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/s6-positivity-integrability-duality.md",
+      "sha256": "0afd98547c9d20bb15d322f25f38505eb3b27ff53dbd91e1286b00913d21ca6e",
+      "bytes": 20136,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/causal-grain-cmb-spectroscopy/repository-genealogy.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/causal-grain-cmb-spectroscopy/repository-genealogy.md",
+      "sha256": "454b5bc7845bf237ad4bb18bfbb1c8ea010ae234ce9d768f14cc19928959abaf",
+      "bytes": 22433,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/the-ledger-level/the-ledger-level.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/the-ledger-level/the-ledger-level.md",
+      "sha256": "3aa45daaead6c826f0feec586e708429a08a5af255eff6efa49ff5aa9d5ea3f5",
+      "bytes": 8344,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    },
+    {
+      "source": "inbox/the-unit-nat-channel/the-unit-nat-channel.md",
+      "resource": "causal-grain-cosmology/junk-drawer/source-records/the-unit-nat-channel/the-unit-nat-channel.md",
+      "sha256": "195a9dc823c49bb0f86b8739a30fb4c379fee6cfa229e6c2279ccaf5fb06390e",
+      "bytes": 8181,
+      "copied_for_packaging": true,
+      "admitted_exact_matches": []
+    }
+  ],
+  "updated_notes": [
+    "causal-grain-cosmology/grain-acoustic-genealogy.md",
+    "causal-grain-cosmology/causal-grain-and-local-rulers.md",
+    "causal-grain-cosmology/acoustic-characteristic-and-chiral-calibration.md",
+    "causal-grain-cosmology/exceptional-scale-phase-descent.md",
+    "causal-grain-cosmology/acoustic-recovery-contract.md"
+  ]
+}

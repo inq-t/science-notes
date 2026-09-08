@@ -188,7 +188,7 @@ $$
 
 Relative to the ordered convention that \(A_WA_W^\dagger\) is flat and \(\psi_0\in\ker A_W\), this orientation gives the normalizable solution \(\psi_0\propto\operatorname{sech}\). Reversing the kink swaps which Darboux partner is flat and places the normalizable mode in \(\ker A_W^\dagger\); the candidate in \(\ker A_W\) is proportional to \(\cosh\). The orientation therefore belongs to the ordered factorization, not to normalizability alone. This is algebraic directedness, not yet an arrow of clock time or irreversible physical evolution.
 
-With the domains made explicit, this directedness is also discrete. [[indexed-scale-wall-and-the-causal-grain|The indexed-scale-wall theorem]] regards \(A_W:H^1(\mathbb R)\to L^2(\mathbb R)\) and proves \(\operatorname{ind}A_W=+1\) for the displayed orientation, \(-1\) for its reverse, and \(0\) for a constant orientation. A change of index must leave the Fredholm set by closing an asymptotic edge or losing end control. The integer protects the orientation and net zero-mode count; it does not fix \(\nu\) or replace the coercivity theorem.
+With the domains made explicit, this directedness is also discrete. [[logistic-scale-geometry/indexed-scale-wall-and-the-causal-grain|The indexed-scale-wall theorem]] regards \(A_W:H^1(\mathbb R)\to L^2(\mathbb R)\) and proves \(\operatorname{ind}A_W=+1\) for the displayed orientation, \(-1\) for its reverse, and \(0\) for a constant orientation. A change of index must leave the Fredholm set by closing an asymptotic edge or losing end control. The integer protects the orientation and net zero-mode count; it does not fix \(\nu\) or replace the coercivity theorem.
 
 ## Pointing is not sufficient; exponential tail confinement is the hinge
 
@@ -417,7 +417,7 @@ $$
 
 An abstract Hilbert-space unitary cannot serve as \(S_r\): it must arise from boundary/RG geometry, respect the relevant form domains and complex phases, and be natural under regulator comparison. When \(I\) is thicker than the canonical transfer slice, \(S_r\) must also include or factor through a separately constructed interface-to-slice map. Thus the OS quotient-to-interface leg is exact under declared hypotheses; selecting its physical scale operator remains open.
 
-[[resolvent-logistic-scale-transform]] now supplies an exact candidate for the **coverage** part of this missing leg. Given an independently constructed nonnegative self-adjoint interface operator \(L_{r,I}\) with \(\ker L_{r,I}=\mathbb C1\), effect--odds functional calculus defines
+[[logistic-scale-geometry/resolvent-logistic-scale-transform]] now supplies an exact candidate for the **coverage** part of this missing leg. Given an independently constructed nonnegative self-adjoint interface operator \(L_{r,I}\) with \(\ker L_{r,I}=\mathbb C1\), effect--odds functional calculus defines
 
 $$
 (S_r^{\mathrm{res}}f)(N)
@@ -578,7 +578,7 @@ The first two arrows are now exact on the scale shadow after the dual-translatio
 
 Failure of any item blocks the physical interpretation. What has changed is that the proposed causal grain now has a precise analytic job: it must account for nonzero two-sided exponential tail confinement of a state on canonical logarithmic scale and make that scale-shadow stiffness natural on the retained OS carrier. It is not asked to be a smallest spacetime interval.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/scale_pointing_gap_receipt.py|The scale-pointing receipt]] checks normalization, the Riccati and Darboux identities, the weighted-to-flat ground-state transform, the projection/involution parameter fork, the incoming-density identities, approach to the continuum threshold, the local entropy/Fisher Hessian expansion, and the heavy-tail contrast. It does not test either construction axiom, the operator-domain proof, the carrier map, or Yang--Mills.
+[[logistic-scale-geometry/receipts/scale_pointing_gap_receipt.py|The scale-pointing receipt]] checks normalization, the Riccati and Darboux identities, the weighted-to-flat ground-state transform, the projection/involution parameter fork, the incoming-density identities, approach to the continuum threshold, the local entropy/Fisher Hessian expansion, and the heavy-tail contrast. It does not test either construction axiom, the operator-domain proof, the carrier map, or Yang--Mills.
 
 ## Sources
 

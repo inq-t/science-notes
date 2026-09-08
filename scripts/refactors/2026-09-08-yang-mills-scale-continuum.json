@@ -1,0 +1,30 @@
+{
+  "description": "Separate scale geometry, incidence response, finite-index distinction, continuum reconstruction, and the numerical rhyme sweep from the Yang-Mills problem module.",
+  "moves": {
+    "contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law.md": "logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law.md",
+    "contemporary-puzzles/yang-mills-mass-gap/indexed-scale-wall-and-the-causal-grain.md": "logistic-scale-geometry/indexed-scale-wall-and-the-causal-grain.md",
+    "contemporary-puzzles/yang-mills-mass-gap/resolvent-logistic-scale-transform.md": "logistic-scale-geometry/resolvent-logistic-scale-transform.md",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/scale_pointing_gap_receipt.py": "logistic-scale-geometry/receipts/scale_pointing_gap_receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/resolvent_logistic_scale_receipt.py": "logistic-scale-geometry/receipts/resolvent_logistic_scale_receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/resolvent-logistic-scale-receipt-output.txt": "logistic-scale-geometry/receipts/resolvent-logistic-scale-receipt-output.txt",
+    "contemporary-puzzles/yang-mills-mass-gap/paired-scale-filtrations-and-the-invariant-incidence-wall.md": "scale-incidence-response/paired-scale-filtrations-and-the-invariant-incidence-wall.md",
+    "contemporary-puzzles/yang-mills-mass-gap/compensated-incidence-response-and-four-dimensional-balance.md": "scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance.md",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/paired_scale_incidence_wall_receipt.py": "scale-incidence-response/receipts/paired_scale_incidence_wall_receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/paired-scale-incidence-wall-receipt-output.txt": "scale-incidence-response/receipts/paired-scale-incidence-wall-receipt-output.txt",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/compensated_incidence_response_receipt.py": "scale-incidence-response/receipts/compensated_incidence_response_receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/compensated-incidence-response-receipt-output.txt": "scale-incidence-response/receipts/compensated-incidence-response-receipt-output.txt",
+    "contemporary-puzzles/yang-mills-mass-gap/finite-index-duality-and-the-square-response.md": "finite-index-distinction/finite-index-duality-and-the-square-response.md",
+    "contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square.md": "finite-index-distinction/gauge-index-no-go-and-four-dimensional-center-square.md",
+    "contemporary-puzzles/yang-mills-mass-gap/two-sided-index-capacity-and-the-cosmic-weld.md": "finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld.md",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/finite_index_bkm_counterexample_receipt.py": "finite-index-distinction/receipts/finite_index_bkm_counterexample_receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/finite-index-bkm-counterexample-receipt-output.txt": "finite-index-distinction/receipts/finite-index-bkm-counterexample-receipt-output.txt",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/two-sided-index-capacity-receipt.py": "finite-index-distinction/receipts/two-sided-index-capacity-receipt.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/two-sided-index-capacity-receipt-output.txt": "finite-index-distinction/receipts/two-sided-index-capacity-receipt-output.txt",
+    "contemporary-puzzles/yang-mills-mass-gap/asymptotically-free-response-crossover-lemma.md": "yang-mills-continuum-crossover/asymptotically-free-response-crossover-lemma.md",
+    "contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma.md": "yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma.md",
+    "contemporary-puzzles/yang-mills-mass-gap/collared-surface-response-to-the-clay-gap.md": "yang-mills-continuum-crossover/collared-surface-response-to-the-clay-gap.md",
+    "contemporary-puzzles/yang-mills-mass-gap/mass-gap-receipt-ledger.md": "causal-grain-cosmology/mass-scale-rhyme-sweep.md",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/rhyme_sweep.py": "causal-grain-cosmology/receipts/rhyme_sweep.py",
+    "contemporary-puzzles/yang-mills-mass-gap/receipts/receipt-output.txt": "causal-grain-cosmology/receipts/rhyme-sweep-output.txt"
+  }
+}
