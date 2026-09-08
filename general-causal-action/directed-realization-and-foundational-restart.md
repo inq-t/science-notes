@@ -134,7 +134,7 @@ state arena and symmetric comparison law are still inputs, not derived
 from asymmetric primitives. Comparison refinement is not the spatial
 continuum or infinite-volume limit required by Yang–Mills.
 
-[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement|The
+[[holonomy-state-refinement/overlap-kernels-and-face-refinement|The
 group-side companion]] now fixes a joint finite-box gauge law from a
 declared trace overlap and face-composition prescription, by an explicit
 application of the known carpet-refinement theorem. It does not derive the

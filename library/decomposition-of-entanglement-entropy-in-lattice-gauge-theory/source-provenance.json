@@ -1,0 +1,51 @@
+{
+  "description": "Primary artifacts for decomposition-of-entanglement-entropy-in-lattice-gauge-theory; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:1109.0036v2",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1109.0036v2",
+      "version": "1109.0036v2",
+      "attempted_at": "2026-09-08T21:23:54.765871+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/1109.0036v2",
+      "content_type": "application/pdf",
+      "path": "arxiv-1109-0036v2.pdf",
+      "bytes": 204529,
+      "sha256": "540d62c6eadab154f0f564c84662e6824d0bcc6e02d863c9ec0bcf02da4e2b89",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 8,
+        "first_page_text_prefix": "arXiv:1109.0036v2  [hep-th]  26 Apr 2012\nDecomposition of entanglement entropy in lattice gauge the ory\nWilliam Donnelly\nCenter for Fundamental Physics, Departm"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/1109.0036v2",
+      "version": "1109.0036v2",
+      "attempted_at": "2026-09-08T21:23:55.027818+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/src/1109.0036v2",
+      "content_type": "application/gzip",
+      "path": "arxiv-1109-0036v2.tar.gz",
+      "bytes": 14970,
+      "sha256": "a0af3e3d40e868a3042616980c106fdbda43b602eb88188e3af134d33795cefd"
+    },
+    {
+      "path": "source/lattice.bbl",
+      "bytes": 9041,
+      "sha256": "bc6a9f95a5bedddf3211c6af4cc0cdcb1bf294b483f0b17b3a78f3f20cbf63b2",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1109-0036v2.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "lattice.bbl"
+    },
+    {
+      "path": "source/lattice.tex",
+      "bytes": 41815,
+      "sha256": "119a03c98506e44b24a8954b76a567ba89a747346c873b10c122e41e4c749e64",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1109-0036v2.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "lattice.tex"
+    }
+  ]
+}

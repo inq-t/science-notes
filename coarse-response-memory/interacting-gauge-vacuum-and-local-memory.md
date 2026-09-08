@@ -198,7 +198,7 @@ Therefore
 \]
 Only a one-link bounded perturbation and its free Casimir were used, not a global retained/hidden block decomposition. Since \(n_e\le4\), this is a volume-uniform \(O(\lambda^2)\) upper bound whenever \(\lambda/\kappa<3/16\) stays away from the endpoint.
 
-[[gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison|The physical-vacuum Fisher comparison]]
+[[prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison|The physical-vacuum Fisher comparison]]
 uses (IV15) for a different purpose. Independent vertex gauge
 symmetry makes the density-score covariance block diagonal by
 vertex. The local kinetic bound then controls the full source
@@ -207,7 +207,7 @@ comparison of its reconstructed form with the physical electric
 form. Neither this comparison nor the local memory bound is
 itself a lower spectral estimate.
 
-The bounds (IV16) and (IV19) control one specified character's hidden drift. They neither control the whole unbounded off-diagonal map on arbitrary readouts nor provide a positive memory floor, a uniform remainder in (IV14), or long-time return estimates. At \(\lambda=0\), a single plaquette has zero hidden drift while the physical electric theory is gapped: this memory coefficient is not itself mass. The exact [[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|two-plaquette free return]] also shows that separate autonomy does not imply joint autonomy.
+The bounds (IV16) and (IV19) control one specified character's hidden drift. They neither control the whole unbounded off-diagonal map on arbitrary readouts nor provide a positive memory floor, a uniform remainder in (IV14), or long-time return estimates. At \(\lambda=0\), a single plaquette has zero hidden drift while the physical electric theory is gapped: this memory coefficient is not itself mass. The exact [[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|two-plaquette free return]] also shows that separate autonomy does not imply joint autonomy.
 
 [[local-score-bounds-and-the-order-of-hidden-response|The pointwise-score extension]]
 supplies the previously missing full single-plaquette form-domain
@@ -220,7 +220,7 @@ proves why these first-order bounds do not compose under a join of
 two trace algebras: a discarded mixed response supplies a hidden
 second derivative. Neither result is a physical gap lower bound.
 
-The [[gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py|overlapping-plaquette receipt]] checks link derivatives, Haar moments and open-box incidence underlying (IV11)--(IV14). It does not approximate the finite-\(\lambda\) vacuum or certify a uniform perturbative expansion. The finite-box analytic arguments above, rather than the numerical checks, establish the exact score identities and bounds.
+The [[holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py|overlapping-plaquette receipt]] checks link derivatives, Haar moments and open-box incidence underlying (IV11)--(IV14). It does not approximate the finite-\(\lambda\) vacuum or certify a uniform perturbative expansion. The finite-box analytic arguments above, rather than the numerical checks, establish the exact score identities and bounds.
 
 [[two-plaquette-vacuum-and-relational-state|The complete interacting pair]]
 now computes that vacuum on the isolated two-square graph without

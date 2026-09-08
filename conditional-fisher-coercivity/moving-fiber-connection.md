@@ -1,4 +1,4 @@
-# The Inherited Derivative on Moving Conditional Fibers
+# Moving Fiber Connection
 
 Writing a joint law as a family of conditional Hilbert spaces makes the relation between a distinction and its context explicit. But changing representation must also transform the derivative. A Fisher term obtained by differentiating a conditional vacuum is not automatically an added mass: in the inherited joint form its score correction cancels that term. A moving nonvacuum band can have genuine geometric cost, but complementary bands remain part of the operator.
 
@@ -20,7 +20,7 @@ Suppose the inherited horizontal energy is
 =\int|\partial_xF|_{g_x^{-1}}^2\,d\mu.
 \tag{MF2}
 \]
-This is a declared derivative at fixed \(u\), not a consequence of the probability law alone. Multiplication by \(\sqrt{q_x}\) gives a unitary map
+This is a declared derivative at fixed \(u\), not a consequence of the probability law alone. [[equivalent-measure-carriers/inq|Equivalent-measure transport]] supplies the unitary map given by multiplication by \(\sqrt{q_x}\)
 \[
 \mathcal UF=\Psi=\sqrt{q_x}F:
 L^2(\mu)\longrightarrow L^2(\nu\otimes m).

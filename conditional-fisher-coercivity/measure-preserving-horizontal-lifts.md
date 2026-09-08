@@ -193,7 +193,7 @@ square-integrable. Therefore constructing (MH14) over an endpoint
 law does not preserve a pre-existing path-source Fisher pairing.
 It constructs an experiment whose likelihood contains only that
 endpoint information. The
-[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts|retained-source cut test]]
+[[gauge-source-action-transport/source-action-transport-through-ordered-cuts|retained-source cut test]]
 gives a strict compact-group example and an alternative that
 transports the complete source.
 

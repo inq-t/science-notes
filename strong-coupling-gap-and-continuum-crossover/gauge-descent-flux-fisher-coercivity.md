@@ -396,7 +396,7 @@ bound. This is the weighted form of the same spin-network argument,
 not an interacting-vacuum comparison.
 
 Under a pure bivalent subdivision, the
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|additive holonomy clock law]]
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility|additive holonomy clock law]]
 \(\alpha_e=\sum_{s\subset e}\alpha_s\) preserves every cycle sum and
 hence (WG2). Adding new edges can introduce new cycles with smaller total
 weight. Preservation of the old loop clocks therefore does not prove a

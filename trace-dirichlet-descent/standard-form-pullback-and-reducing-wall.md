@@ -360,7 +360,7 @@ diverge as the grid is refined. This criterion asks for bounded
 Sobolev stability, not energy contraction with \(a=1,b=0\);
 it therefore does not require the reducing condition below.
 
-[[gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect|The two-heat-factor readout]]
+[[gauge-path-fisher-response/heat-factor-response-and-the-compression-defect|The two-heat-factor readout]]
 has exactly this unresolved core question. Fixed-grid conditioning
 of smooth source holonomy cylinders gives smooth output cylinders
 through compact heat-kernel integration. A grid-uniform estimate

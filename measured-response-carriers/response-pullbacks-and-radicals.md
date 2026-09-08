@@ -151,7 +151,7 @@ of a state symmetry with a physical gauge redundancy. Changing the
 admissible transformation family changes the test. A weak, nondegenerate
 score metric can also enforce invariance under limits of vanishing-cost
 directions, as in
-[[gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier|the
+[[gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier|the
 two-sided path-state construction]]. There the finite smooth cylinder
 algebra, its \(L^2\) completion, and its closed response operator are
 proved separately. None follows merely by writing an inverse of a

@@ -1,0 +1,40 @@
+{
+  "description": "Primary artifacts for analysis-on-wiener-space-and-applications; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:1003.1649v2",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1003.1649v2",
+      "version": "1003.1649v2",
+      "attempted_at": "2026-09-08T21:23:55.176102+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/1003.1649v2",
+      "content_type": "application/pdf",
+      "path": "arxiv-1003-1649v2.pdf",
+      "bytes": 1492116,
+      "sha256": "895e34df2c5cbd9c535281d0bf8f4fde8c8d9c77d21157aac27e9bb7ffec7997",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 244,
+        "first_page_text_prefix": "arXiv:1003.1649v2  [math.PR]  2 Apr 2015\nAnalysis on Wiener Space and\nApplications\nA. S. ¨Ust¨ unel"
+      }
+    },
+    {
+      "path": "arxiv-1003-1649v2.tex.gz",
+      "url": "https://arxiv.org/src/1003.1649v2",
+      "version": "1003.1649v2",
+      "kind": "existing-primary-source",
+      "verified_at": "2026-09-08T21:23:55.560810+00:00",
+      "bytes": 141926,
+      "sha256": "984076b2662f5b9adbb6094bf3d5897756b86f01a3cd10277184af7c0d11ad9b",
+      "origin": "Previously archived author source; original retrieval date was not recorded. The retained entry note recorded this byte count and SHA-256."
+    },
+    {
+      "path": "source/arxiv-1003-1649v2.tex",
+      "bytes": 476338,
+      "sha256": "1bc5216794056589f95d9569ae166eed2f791d30ff28850cbc784780cf2646e8",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1003-1649v2.tex.gz",
+      "method": "Byte-preserving gzip decompression of the single author LaTeX file."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "source_commit": "809df22",
+  "equation_preservation": [
+    {
+      "source": "gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement.md",
+      "destinations": [
+        "holonomy-state-refinement/overlap-kernels-and-face-refinement.md"
+      ],
+      "tags": 38,
+      "displays": 40,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility.md",
+      "destinations": [
+        "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md"
+      ],
+      "tags": 25,
+      "displays": 25,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability.md",
+      "destinations": [
+        "holonomy-state-refinement/heat-state-continuity-and-response-closability.md"
+      ],
+      "tags": 15,
+      "displays": 16,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock.md",
+      "destinations": [
+        "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md"
+      ],
+      "tags": 16,
+      "displays": 25,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection.md",
+      "destinations": [
+        "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md"
+      ],
+      "tags": 13,
+      "displays": 18,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier.md",
+      "destinations": [
+        "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md"
+      ],
+      "tags": 38,
+      "displays": 48,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect.md",
+      "destinations": [
+        "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md"
+      ],
+      "tags": 34,
+      "displays": 45,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response.md",
+      "destinations": [
+        "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md"
+      ],
+      "tags": 18,
+      "displays": 21,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/loop-correlations-and-the-source-response.md",
+      "destinations": [
+        "gauge-graph-source-response/loop-correlations-and-the-source-response.md"
+      ],
+      "tags": 28,
+      "displays": 38,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/local-interaction-cocycle-and-global-source-response.md",
+      "destinations": [
+        "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md"
+      ],
+      "tags": 19,
+      "displays": 23,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action.md",
+      "destinations": [
+        "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md"
+      ],
+      "tags": 10,
+      "displays": 14,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts.md",
+      "destinations": [
+        "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md",
+        "prepared-vacuum-fisher-comparison/coherent-source-subdivision.md"
+      ],
+      "tags": 15,
+      "displays": 19,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison.md",
+      "destinations": [
+        "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md"
+      ],
+      "tags": 18,
+      "displays": 19,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/prepared-vacuum-subdivision-and-the-recovered-clock.md",
+      "destinations": [
+        "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md"
+      ],
+      "tags": 17,
+      "displays": 17,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/inq.md",
+      "destinations": [
+        "gauge-boundary-frame-gluing/finite-gauss-gluing.md",
+        "gauge-boundary-frame-gluing/faithful-state-gluing.md",
+        "gauge-boundary-frame-gluing/charged-innovation-frame.md"
+      ],
+      "tags": 24,
+      "displays": 25,
+      "tags_preserved": true,
+      "displays_preserved": true
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/oriented-context-gluing-and-mixed-response.md",
+      "destinations": [
+        "gauge-boundary-frame-gluing/oriented-context-gluing-and-mixed-response.md"
+      ],
+      "tags": 19,
+      "displays": 22,
+      "tags_preserved": true,
+      "displays_preserved": true
+    }
+  ],
+  "unchanged_moved_calculation_artifacts": [
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py",
+      "destination": "holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py",
+      "sha256": "930d7099e8b5c991d1c6df4745e6927a457cac976d783c5c496df4cb84fb893f"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/path_shift_fisher_receipt.py",
+      "destination": "gauge-path-fisher-response/receipts/path_shift_fisher_receipt.py",
+      "sha256": "bd62f587c31fd2c31363d3dcc4ad13db08ae75a7fa85df5641e6196b7575e79e"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/path-shift-fisher-receipt-output.txt",
+      "destination": "gauge-path-fisher-response/receipts/path-shift-fisher-receipt-output.txt",
+      "sha256": "af175ae156bcb5427fb7886d480a23483c5ed93f504a1f3ff6eb6acd3b90014a"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/two_sided_fisher_receipt.py",
+      "destination": "gauge-path-fisher-response/receipts/two_sided_fisher_receipt.py",
+      "sha256": "8ab48a6a1a76c5ce82bbb7dc3fcd95a7e11db1806a52954de60ff2b7cbefbb3b"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/two-sided-fisher-receipt-output.txt",
+      "destination": "gauge-path-fisher-response/receipts/two-sided-fisher-receipt-output.txt",
+      "sha256": "8bb18f80e394f7b89e66725b2b88c3bade91ef7a89c1e2c499f5508567b1d58e"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/local_interaction_assembly_receipt.py",
+      "destination": "gauge-graph-source-response/receipts/local_interaction_assembly_receipt.py",
+      "sha256": "76f264ac95c8dbbb7a9537444818b2f0c9a1b7ede1e33b03855524727cfac8f0"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/receipts/prepared_vacuum_subdivision_receipt.py",
+      "destination": "prepared-vacuum-fisher-comparison/receipts/prepared_vacuum_subdivision_receipt.py",
+      "sha256": "7b0549a7f009238e6fdbdacaae17e7c956885eac173239423277d1a830c5b6ff"
+    }
+  ],
+  "unchanged_retained_receipt": "gauge-boundary-frame-gluing/receipts/boundary_charge_gluing_receipt.py",
+  "all_frozen_files_verified": 296,
+  "scoped_receipts": {
+    "count": 6,
+    "all_passed_from_unrelated_cwd": "C:/Users/sketc/Documents",
+    "stored_outputs": "path-shift and boundary exact matches; two-sided historical 31-line output is exact prefix of 51-line current run",
+    "scope": "Finite algebra, source response, subdivision and obstruction checks; not a continuum mass-gap proof."
+  },
+  "primary_sources": {
+    "existing_library_owners": 9,
+    "pdfs": 9,
+    "artifact_hashes_verified": 48,
+    "byte_exact_author_extractions": 30
+  },
+  "registry_members": 533,
+  "inq_lint": {
+    "baseline_errors": 56,
+    "final_errors": 82,
+    "new_errors": 26,
+    "new_error_cause": "Verified Inq 0.4.0 string-sorted resource array searched by PathBuf ordering; all 26 files exist and are admitted by describe. No new missing target.",
+    "existing_nonlibrary_errors": 23
+  },
+  "validation": {
+    "scoped_modules": 19,
+    "unreachable_notes": 0,
+    "unlinked_resources": 0,
+    "unresolved_links": 0,
+    "format_warnings": 0,
+    "incoming_and_changed_fragments_checked": 143,
+    "fragment_errors": 0,
+    "authored_whitespace": "passed; immutable author sources excluded from style rewriting",
+    "mathematical_clarifications": [
+      "Compact normalized-Haar finite Gauss scope; finite-group scope of the cited fusion construction.",
+      "Complete equivariant innovation projections; bounded transfer block matrix and source-vacuum typing.",
+      "Equivalent-measure carrier transport does not preserve the constant vacuum or conditional projection without conjugation.",
+      "Girsanov normalized exponential and quadratic-mean scores; full-path injective-noise Itô-map hypotheses.",
+      "A continuous unitary clock needs strong continuity on a declared Hilbert carrier; an abstract automorphism group needs implementation."
+    ]
+  }
+}

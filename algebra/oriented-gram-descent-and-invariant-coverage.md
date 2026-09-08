@@ -44,7 +44,7 @@ u_e\longmapsto k u_e\ell^{-1}.
 \]
 Each path may be subdivided; its supplied electric weight is the sum
 of its segment weights as in
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|holonomy refinement]].
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility|holonomy refinement]].
 
 Write \(u_e=(w_e,v_e)\) in unit-quaternion coordinates, with matrix
 convention \(u_e=w_eI-i v_e\cdot\sigma\). The two endpoint groups act
@@ -77,7 +77,7 @@ Therefore the actual missing observable is
 \tag{OG5}
 \]
 It is the invariant determinant already used in
-[[gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection#The choice of handed action remains visible|the three-holonomy response test]],
+[[gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection#The choice of handed action remains visible|the three-holonomy response test]],
 now identified as missing orbit data.
 
 For example, based vector triples \((e_1,e_2,e_3)\) and
@@ -329,7 +329,7 @@ without dividing by a rank determinant. The resulting algebra is a
 core of the supplied whole electric operator; the law selecting that
 shared response remains open.
 
-[[gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py|The overlapping-holonomy receipt]]
+[[holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py|The overlapping-holonomy receipt]]
 checks the actual quaternion determinant, four-link Pauli derivatives,
 Haar norm and reflection covariance. It supports those finite
 identities; the coverage and closed-domain conclusions use the

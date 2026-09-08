@@ -106,7 +106,7 @@ The vacuum is the \(T=1\), or \(H=0\), sector—not the \(T=0\) sector.
 A unique vacuum and a positive mass threshold remain separate conditions.
 
 The distinction applies directly to
-[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement|finite overlap kernels]]:
+[[holonomy-state-refinement/overlap-kernels-and-face-refinement|finite overlap kernels]]:
 their finite-rank convolution operators have exact zero modes. Restricting
 to their supported range changes the degree-zero carrier and is not a
 harmless logarithm convention. A Poissonized generator such as \(I-B_N\)
@@ -139,7 +139,7 @@ must supply: consistently normalized pairings for all depths, the
 reflected inequalities on all finite preparations, and the endpoint
 conditions needed for the logarithm and vacuum. It does not prove those
 conditions for repeated four-dimensional coarse graining.
-[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement#Temporal sewing needs a separate refinement law|Temporal sewing of the overlap law]]
+[[holonomy-state-refinement/overlap-kernels-and-face-refinement#Temporal sewing needs a separate refinement law|Temporal sewing of the overlap law]]
 constructs these pairings on a fixed spatial graph under a declared
 anisotropic refinement. Its same-weight alternative instead realizes
 the zero-transfer-atom failure even after Perron normalization; the

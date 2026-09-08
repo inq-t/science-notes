@@ -1,23 +1,33 @@
 ---
 inq.module: "differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits"
 inq.include:
-  - "**/*.md"
+  - "./"
 inq.ambient:
-  - "**/*.gz"
+  - "**"
+keywords:
+  - "generalized connections"
+  - "projective limits"
+  - "graph refinement"
+  - "heat-kernel measures"
+  - "diffeomorphism invariance"
 ---
 # Differential Geometry on the Space of Connections via Graphs and Projective Limits
 
-Ashtekar and Lewandowski develop differential geometry on completed spaces of connections using graph-indexed projective limits. The construction includes differential forms, vector fields, volume forms, Laplacians and heat-kernel measures, with applications to gauge-invariant and diffeomorphism-invariant theories.
+Ashtekar and Lewandowski develop differential geometry on completed spaces of gauge-equivalent connections through graph-indexed projective limits. The construction includes differential forms, vector fields, divergence, Laplacians, and heat-kernel measures. Its background-independent formulation is suited to gauge-invariant and diffeomorphism-invariant theories.
 
-Abhay Ashtekar and Jerzy Lewandowski, *Journal of Geometry and Physics*
-**17** (1995), 191–230. DOI: 10.1016/0393-0440(95)00028-G.
+## Metadata
 
-- [Version-2 record](https://arxiv.org/abs/hep-th/9412073v2), revised 29 January 1996.
-- [Original TeX source](https://arxiv.org/src/hep-th/9412073v2).
-- [Published article](https://doi.org/10.1016/0393-0440(95)00028-G).
-- [[library/differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits/arxiv-hep-th-9412073v2.tex.gz|Local version-2 TeX source]].
+- **Authors:** Abhay Ashtekar and Jerzy Lewandowski.
+- **Published:** *Journal of Geometry and Physics* **17** (1995), 191–230.
+- **First submitted:** 8 December 1994.
+- **Archived version:** [arXiv:hep-th/9412073v2](https://arxiv.org/abs/hep-th/9412073v2), 29 January 1996; 69 PDF pages. The arXiv record marks v1 withdrawn; this archive retains v2.
+- **DOI:** [10.1016/0393-0440(95)00028-G](https://doi.org/10.1016/0393-0440(95)00028-G).
+- **Report number:** CGPG-94/12-4.
 
-The local source is one gzip-compressed TeX file, not a tar archive:
-40,249 bytes; SHA-256
-`a32ed14fe965e9bcf5030c66b33423b5aa20aaea14450c2d7aaefb629db6d0b9`.
-The arXiv record marks version 1 withdrawn; the retained text is version 2.
+## Local sources
+
+- [[library/differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits/arxiv-hep-th-9412073v2.pdf|Author PDF, archived version]].
+- [[library/differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits/arxiv-hep-th-9412073v2.tex.gz|Original compressed author LaTeX]].
+- [[library/differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits/source/arxiv-hep-th-9412073v2.tex|Author LaTeX: arxiv-hep-th-9412073v2.tex]].
+
+[[library/differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits/source-provenance.json|Source provenance]] records the versioned URLs, artifact hashes, and extraction details.

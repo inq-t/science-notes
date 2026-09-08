@@ -267,7 +267,7 @@ type. Even a bounded map intertwining the same unitary clock with a
 Poincare clock must annihilate every positive-eigenvalue subspace.
 
 In particular, the full invariant
-[[gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock|shared-driver OU clock]]
+[[gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock|shared-driver OU clock]]
 has an explicit eigenvector at energy \(2\) in its unit convention.
 No positive rescaling of that clock can be the returned Hamiltonian.
 It can still serve as an auxiliary response or as **internal mass

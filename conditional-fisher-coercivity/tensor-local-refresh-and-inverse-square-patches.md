@@ -1,4 +1,4 @@
-# Tensor-Local Refresh and an Inverse-Square Patch Criterion
+# Tensor Local Refresh and Inverse Square Patches
 
 The Wilson conditional-refresh operator becomes genuinely tensor-local after multiplication by the square root of its Gibbs density. Its projection geometry therefore admits an inverse-square finite-region criterion, with no finite-dimensional approximation of the compact gauge group. This replaces the scale dependence of the earlier sufficient threshold, but requires different, precisely assigned patches and their actual invariant-sector gaps. Those estimates and the physical continuum comparison remain unproved.
 
@@ -20,7 +20,7 @@ The map
 J:L^2(\mu)\longrightarrow L^2(m),\qquad Jf=\sqrt\rho\,f
 \tag{TP1}
 \]
-is unitary. Split \(S=S_e+S_{\neg e}\), with \(S_e\) the sum of plaquette terms touching \(e\). For retained variables \(R=U_{e^c}\), set
+is unitary by [[equivalent-measure-carriers/inq|equivalent-measure transport]]. Its conditional-projection formula below specializes the same theorem; cancellation of the finite Wilson action supplies the additional locality. Split \(S=S_e+S_{\neg e}\), with \(S_e\) the sum of plaquette terms touching \(e\). For retained variables \(R=U_{e^c}\), set
 \[
 z_e(R)=\int e^{-S_e(v,R)}\,dm_e(v),\qquad
 q_e(u\mid R)=z_e(R)^{-1}e^{-S_e(u,R)}.

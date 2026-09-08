@@ -518,7 +518,7 @@ positive two-slice relation associated with the transfer.
 
 The remaining hard work is analytic and continuum-sensitive. Maximal-tree
 holonomies can be macroscopically long, while strict subgraph-invariant
-algebras omit open boundary edge modes. [[gauge-boundary-frame-gluing/inq|The
+algebras omit open boundary edge modes. [[gauge-boundary-frame-gluing/finite-gauss-gluing|The
 finite Gauss-gluing theorem]] now supplies the exact carrier correction:
 
 $$
@@ -574,7 +574,7 @@ tail-complete realization.
 - [[library/deformation-quantization-and-homological-reduction-of-a-lattice-gauge-model/inq|Pflaum--Rudolph--Schmidt]] give the pointed-gauge, maximal-tree, and residual diagonal-conjugation reduction.
 - [[library/spin-network-states-in-gauge-theory/inq|Baez]] gives the complete fixed-graph spin-network basis.
 - [[library/a-new-basis-for-hamiltonian-su-2-simulations/inq|Bauer--D'Andrea--Freytsis--Grabowska]] exhibit the rooted maximal-tree loop variables and the nonlocality introduced into the gauge-fixed electric Hamiltonian.
-- [[gauge-boundary-frame-gluing/inq|Gauge Boundary Frames and Gauss Gluing]] supplies the exact dual-charge regional carrier and premature-closure no-go.
+- [[gauge-boundary-frame-gluing/finite-gauss-gluing|Gauge Boundary Frames and Gauss Gluing]] supplies the exact dual-charge regional carrier and premature-closure no-go.
 - [[vacuum-aligned-innovation-completion/inq|Vacuum-Aligned Innovation Completion]] supplies the exact state-pointed completion and the mandatory balance block.
 - [[two-slice-innovation-geometry/inq|Two-Slice Innovation Geometry]] supplies the abstract operator-matrix theorem and parity obstruction.
 - [[library/conditional-expectations-in-von-neumann-algebras/inq|Takesaki]] supplies the modular-invariance gate for the noncommutative limit.

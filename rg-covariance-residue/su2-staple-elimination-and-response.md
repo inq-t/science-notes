@@ -92,7 +92,7 @@ These vary the trace of the relative holonomy \(W_1^*W_2\), so the distinction i
 
 Conversely, a common endpoint rotation of every staple preserves \(|a|\). Along that path the covariance and second-derivative contributions cancel exactly. Counting only the covariance would assign stiffness to a gauge motion that leaves the integrated potential unchanged.
 
-[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement#The exact response of a coincident boundary star|The general coincident-star identity]]
+[[holonomy-state-refinement/overlap-kernels-and-face-refinement#The exact response of a coincident boundary star|The general coincident-star identity]]
 organizes this coherent case for any smooth positive central profile:
 the retained Hessian is a complete-graph difference form with its
 coefficient fixed by the shared conditional Fisher tensor. It reproduces

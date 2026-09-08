@@ -1,0 +1,76 @@
+{
+  "description": "Primary artifacts for a-new-basis-for-hamiltonian-su-2-simulations; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:2307.11829v1",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/2307.11829v1",
+      "version": "2307.11829v1",
+      "attempted_at": "2026-09-08T21:30:15.856891+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/2307.11829v1",
+      "content_type": "application/pdf",
+      "path": "arxiv-2307-11829v1.pdf",
+      "bytes": 2411614,
+      "sha256": "c93267c0a926e9d3031524378a1f82033a5c187fb9d0295a274815955e6d1ef1",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 30,
+        "first_page_text_prefix": "IQuS@UW-21-058\nA new basis for Hamiltonian SU(2) simulations\nChristian W. Bauer, 1, 2, ∗ Irian D’Andrea,1, 2, † Marat Freytsis,3, ‡ and Dorota M. Grabowska 4, §"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/2307.11829v1",
+      "version": "2307.11829v1",
+      "attempted_at": "2026-09-08T21:30:15.857891+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/src/2307.11829v1",
+      "content_type": "application/gzip",
+      "path": "arxiv-2307-11829v1.tar.gz",
+      "bytes": 1077686,
+      "sha256": "f16d8b2f509f830981b448b650a8a16a7791d404317b4e8c2978866968294b46"
+    },
+    {
+      "path": "source/main.bbl",
+      "bytes": 21359,
+      "sha256": "a3a8c7e58fce07a1fcdeed8a8a996cb19bdd5076eea6b10f120b06f7076b71b3",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2307-11829v1.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "main.bbl"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 156053,
+      "sha256": "6e9d7c266bacd7d0a58cc0a7977f983be8c6559ec5b28434e2e2504a3178d384",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2307-11829v1.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "main.tex"
+    },
+    {
+      "path": "source/refs.bib",
+      "bytes": 42578,
+      "sha256": "6eb3ebfdeaf2301e2c0b4c1e368268f80dcb53c09578d75857e04e61f30df6d1",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2307-11829v1.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "refs.bib"
+    }
+  ],
+  "extraction_policy": {
+    "description": "All author textual sources are extracted; figure PDFs remain in the complete original archive and the complete rendered article.",
+    "retained_only_in_archive": [
+      "figures/w_transport_new.pdf",
+      "figures/plaq_expectation_value.pdf",
+      "figures/one_plaquette_spectrum.pdf",
+      "figures/SinglePlaquette.pdf",
+      "figures/axis_angle_coords.pdf",
+      "figures/OneLinkHilbert.pdf",
+      "figures/fibers.pdf",
+      "figures/2dLattice.pdf",
+      "figures/GaugeTrans.pdf",
+      "figures/Loop.pdf",
+      "figures/RigidRod.pdf"
+    ]
+  }
+}

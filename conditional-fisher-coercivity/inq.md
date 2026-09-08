@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [conditional Fisher, score projection, Poincare inequalities, conditional variance, gauge blocking, transport distortion]
 ---
 # Conditional Fisher Coercivity
 
@@ -137,6 +138,8 @@ then \(I_z\le(H^2/\rho)g_Z\). Hence
 \tag{CF12}
 \]
 The conditional law, its normalized score, the context marginal, and both metrics must be the ones appearing in the actual joint law. An unrelated sampler with the same one-component marginal supplies none of these couplings.
+
+For conditionals induced by a ground state, [[bounded-coupling-and-conditional-score-concentration|the soft-reference counterexample]] shows why small boundary coupling cannot replace these hypotheses. Its interaction tends to zero in \(C^2\) and its integrated relative Fisher cost vanishes, while its conditional half-density score covariance diverges as the regional reference develops a soft mode. The required conditional response bound must therefore control the reference as well as the crossing interaction. This inverse-designed family is not a Wilson-family obstruction.
 
 ## Gaussian calibration is sharp
 

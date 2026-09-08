@@ -126,7 +126,7 @@ k_{\eta,b}(a)=e^{\eta a}
 The ratio is one at zero. This is a rotation average of
 one fixed linear tilt, not an arbitrary mixture of fields.
 The same \(S^2\) integration appears in
-[[gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection#The first retained change is explicitly quadratic|the path-source orbit average]].
+[[gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection#The first retained change is explicitly quadratic|the path-source orbit average]].
 
 The classical [hyperbolic-sine product](https://dlmf.nist.gov/4.36.E1)
 gives

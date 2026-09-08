@@ -26,7 +26,7 @@ The [[general-causal-action/carrier-first-reversal|carrier-first reversal]] give
 
 ## Joint contexts are the current discriminating test
 
-[[gauge-boundary-frame-gluing/inq|Charged boundary gluing]] preserves distinctions that would be lost by separately neutralizing the parts. Its [[gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action|joint path law]] imposes a real compatibility condition on source transformations, while [[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts|coherent source transport]] still leaves some response choices unresolved.
+[[gauge-boundary-frame-gluing/inq|Charged boundary gluing]] preserves distinctions that would be lost by separately neutralizing the parts. Its [[gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action|joint path law]] imposes a real compatibility condition on source transformations, while [[gauge-source-action-transport/source-action-transport-through-ordered-cuts|coherent source transport]] still leaves some response choices unresolved.
 
 [[coarse-response-memory/product-boundary-frames-and-crossing-susceptibility|Exact regional vacua do not determine crossing response]]. This supplies a concrete acceptance test for a proposed parent law: constrain the joint boundary state and its full first response, not only individual marginals or a fitted correlation. [[coarse-response-memory/inq|The interacting-vacuum calculations]] remain benchmarks and analytical tools for that test.
 

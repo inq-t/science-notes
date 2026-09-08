@@ -1,0 +1,133 @@
+{
+  "manifest": "scripts/refactors/2026-09-08-gauge-boundary-extraction.json",
+  "moves": [
+    {
+      "from": "gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement.md",
+      "to": "holonomy-state-refinement/overlap-kernels-and-face-refinement.md",
+      "before_sha256": "bb73b4c252dc143596fd6ed540326114379d3e69d936e4c658a7261e939a42bc",
+      "after_sha256": "b06ce7216406ebe6f6fd04f904ff4276da72d856bddfda7619ea3f46a79dc799"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility.md",
+      "to": "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md",
+      "before_sha256": "839f7f1f509ac8aeeb8213e76f5af6ff6238770a2d8060ddc2a20a77dce0e737",
+      "after_sha256": "b2032854d1702a8448071a58a81001ba903ad6c87259f228eaaf3c8cc1fcbce5"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability.md",
+      "to": "holonomy-state-refinement/heat-state-continuity-and-response-closability.md",
+      "before_sha256": "540b214f6f306a8333e6d2f8895d8ec2a5ebc7e6088b7accf0ad21306dce64db",
+      "after_sha256": "5c82cdcb651bf914e7c92e7b5df946e84b213d1289f8a97a20489de8cd4a3842"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py",
+      "to": "holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py",
+      "before_sha256": "930d7099e8b5c991d1c6df4745e6927a457cac976d783c5c496df4cb84fb893f",
+      "after_sha256": "930d7099e8b5c991d1c6df4745e6927a457cac976d783c5c496df4cb84fb893f"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock.md",
+      "to": "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md",
+      "before_sha256": "8e782bbd900228c1432550833c495e5ad27419dfd221d706f0116a356230a304",
+      "after_sha256": "42038bdd87a7f352ba66911aa39ac547bc4eeb4761e88fcf656e687feba3fc43"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection.md",
+      "to": "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md",
+      "before_sha256": "4ef6a1872c544b041220cd8d15d4eba2bc93b56eaf2f009f8fbc71fbef3748d5",
+      "after_sha256": "e86232a69b1b8cf0a2f28d54726da089f7945af322b382ba786b90b3f4bdaca7"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier.md",
+      "to": "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md",
+      "before_sha256": "d4f16a49d987e4d6225d85a5767401b4aff6461c4044ba2c00f7f0f415de5155",
+      "after_sha256": "2b731f7ff055fc54899fce3ce0b9899fcd7cdb64493076983f02a7bb516fa963"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect.md",
+      "to": "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md",
+      "before_sha256": "378f3bb5626f0c80d854bc889bd27f51f9fd6551025f99879d45d220b1732321",
+      "after_sha256": "24e2f4f95288848c6ec3345e09866022467cf3cac2a998e34acf9da73342dda4"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/path_shift_fisher_receipt.py",
+      "to": "gauge-path-fisher-response/receipts/path_shift_fisher_receipt.py",
+      "before_sha256": "bd62f587c31fd2c31363d3dcc4ad13db08ae75a7fa85df5641e6196b7575e79e",
+      "after_sha256": "bd62f587c31fd2c31363d3dcc4ad13db08ae75a7fa85df5641e6196b7575e79e"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/path-shift-fisher-receipt-output.txt",
+      "to": "gauge-path-fisher-response/receipts/path-shift-fisher-receipt-output.txt",
+      "before_sha256": "af175ae156bcb5427fb7886d480a23483c5ed93f504a1f3ff6eb6acd3b90014a",
+      "after_sha256": "af175ae156bcb5427fb7886d480a23483c5ed93f504a1f3ff6eb6acd3b90014a"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/two_sided_fisher_receipt.py",
+      "to": "gauge-path-fisher-response/receipts/two_sided_fisher_receipt.py",
+      "before_sha256": "8ab48a6a1a76c5ce82bbb7dc3fcd95a7e11db1806a52954de60ff2b7cbefbb3b",
+      "after_sha256": "8ab48a6a1a76c5ce82bbb7dc3fcd95a7e11db1806a52954de60ff2b7cbefbb3b"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/two-sided-fisher-receipt-output.txt",
+      "to": "gauge-path-fisher-response/receipts/two-sided-fisher-receipt-output.txt",
+      "before_sha256": "8bb18f80e394f7b89e66725b2b88c3bade91ef7a89c1e2c499f5508567b1d58e",
+      "after_sha256": "8bb18f80e394f7b89e66725b2b88c3bade91ef7a89c1e2c499f5508567b1d58e"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response.md",
+      "to": "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md",
+      "before_sha256": "ef82609fafc7fe8cc7c63c92779ab9eaffe2afa11864adfff7fc054c051977da",
+      "after_sha256": "68ecd84e15af4f85b57580ad122f388ebeaa8df20f6471263841acb764034217"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/loop-correlations-and-the-source-response.md",
+      "to": "gauge-graph-source-response/loop-correlations-and-the-source-response.md",
+      "before_sha256": "02115e25d6c655efe7ec11f4537c1622a9d1c812e5671587b118000603cff982",
+      "after_sha256": "463d33909366f3dce1da919f4320dfc497415d426e964f0bc4c4d0e1fd4ecaaf"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/local-interaction-cocycle-and-global-source-response.md",
+      "to": "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md",
+      "before_sha256": "685c72097a8a968c87880359e775c2f64c873427708f00d477272edcf39fed04",
+      "after_sha256": "d7a6c1829c196961dca88e737acd28568c9fccdd9d02615ff810d970951aae10"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/local_interaction_assembly_receipt.py",
+      "to": "gauge-graph-source-response/receipts/local_interaction_assembly_receipt.py",
+      "before_sha256": "76f264ac95c8dbbb7a9537444818b2f0c9a1b7ede1e33b03855524727cfac8f0",
+      "after_sha256": "76f264ac95c8dbbb7a9537444818b2f0c9a1b7ede1e33b03855524727cfac8f0"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action.md",
+      "to": "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md",
+      "before_sha256": "766eac835be8f9667f33af5635948e453daf09accd74ace6838fa9ee882fb30c",
+      "after_sha256": "9e179f5e69684b1f16762cc3f6ecf0c77725e57e6f54726e3b2f8e632a1922bc"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts.md",
+      "to": "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md",
+      "before_sha256": "2a61ac584d07644c9826a538acccd671a529b28b22816463af50f757cfb705d3",
+      "after_sha256": "221f670bdb8fc622fb9ec4c92016a8520f22f2984357ae0c6bda0b3110260aa9"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison.md",
+      "to": "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md",
+      "before_sha256": "69dd8f023a058ba3378979eb2c9e642d44e35ebba2932ac9154ce20800a2fdf8",
+      "after_sha256": "5e5b3df426202a1825595844a5f61e795faf90e1aed04474e92920742d66521e"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/prepared-vacuum-subdivision-and-the-recovered-clock.md",
+      "to": "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md",
+      "before_sha256": "d324713b76c2ab0e870ddec2cf0e49086f7c7d06e6f574c76be4db3ece00f703",
+      "after_sha256": "6b7f3175ce75f02f23593c93fe9bd1ea82951e9cb21b498bb1609c8a12af546f"
+    },
+    {
+      "from": "gauge-boundary-frame-gluing/receipts/prepared_vacuum_subdivision_receipt.py",
+      "to": "prepared-vacuum-fisher-comparison/receipts/prepared_vacuum_subdivision_receipt.py",
+      "before_sha256": "7b0549a7f009238e6fdbdacaae17e7c956885eac173239423277d1a830c5b6ff",
+      "after_sha256": "7b0549a7f009238e6fdbdacaae17e7c956885eac173239423277d1a830c5b6ff"
+    }
+  ],
+  "link_updates": 131,
+  "frozen_records_verified": 214
+}

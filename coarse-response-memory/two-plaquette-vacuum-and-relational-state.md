@@ -87,7 +87,7 @@ H_0(ab+z)=\tfrac92\kappa(ab+z).
 \tag{TP6}
 \]
 These agree with
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|the exact free two-channel return]].
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|the exact free two-channel return]].
 Discarding the shared derivative would remove precisely the
 \(z\)-term in \(H_0(ab)\).
 
@@ -421,7 +421,7 @@ class admits states whose initially flat local marginals
 lose latitude concavity. The preparation, not only its
 positive cone, must constrain the relevant correlations.
 
-[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts#Coherent spatial extension retains its reference experiment|Coherent transport through redundant vertices]]
+[[prepared-vacuum-fisher-comparison/coherent-source-subdivision#Coherent spatial extension retains its reference experiment|Coherent transport through redundant vertices]]
 preserves an already chosen comparison law but cannot remove its
 initial reference experiment. Genuine cycle addition is different:
 it enlarges the physical carrier, and the supplied interacting

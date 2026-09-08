@@ -99,7 +99,6 @@
     {"paths": ["general-causal-action/research-schema.md:169-179", "gauge-boundary-frame-gluing/inq.md:98-208"], "observation": "The foundational schema imports finite gauge gluing as a worked constraint on joint selection. Gluing a supplied weighted carrier and selecting its law remain different tasks."}
   ],
   "unreviewed_frontier": [
-    {"module": "gauge-boundary-frame-gluing", "lead": "Its 555-line entry contains charge gluing, faithful-weight transport and innovation frames. The entry and selected boundaries were inspected, but supporting source-action and overlap-refinement notes were not deeply audited."},
     {"module": "directed-analytic-realization", "lead": "The entry separates one-sided quotient/action construction, local Weyl examples and homogeneous gauge vacua. Supporting analytic domain proofs and path-sensitive receipts were not audited."},
     {"module": "modular-cocycle-tomography", "lead": "Centralizer coverage and the injectivity-versus-closed-range boundary were inspected; primary-source claims and all Type-III domain details remain outside this triage."},
     {"module": "hessian-response-geometry", "lead": "The entry distinguishes matrix-affine, BKM and signed action Hessians. Its full integrability, compatible-image and center-valued construction dependencies were not traversed."},
@@ -132,7 +131,13 @@
       "finding": "F5",
       "record": "scripts/refactors/2026-09-08-scale-calibration-sections.json",
       "status": "implemented and validated; commit is the revision introducing this completion record"
+    },
+    {
+      "finding": "gauge-boundary-frame-gluing frontier traversal",
+      "record": "scripts/refactors/2026-09-08-gauge-boundary-integration.json",
+      "status": "implemented and validated; commit is the revision introducing this completion record",
+      "scope": "Six focused module entries; finite Gauss, faithful-state and innovation-frame proofs; nine existing local primary-source owners; all six finite receipts. Shared half-density transport extracted with conditional and vacuum-alignment imports. No claim of a continuum construction or global workspace certification."
     }
   ],
-  "next_ranked_finding": "Initial F1-F5 findings are implemented. Continue through unreviewed_frontier, beginning with gauge-boundary-frame-gluing; these modules are not certified by the completed extractions."
+  "next_ranked_finding": "Initial F1-F5 and the gauge-boundary source/refinement traversal are implemented. Continue through unreviewed_frontier, beginning with directed-analytic-realization; completion of these extractions does not certify neighboring analytic claims."
 }

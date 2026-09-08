@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [vacuum alignment, innovation projections, balance sector, transfer matrix]
 ---
 # Vacuum-Aligned Innovation Completion
 
@@ -303,7 +304,7 @@ the full physical contraction.
 ## Canonical charge-resolved blocks before vacuum alignment
 
 Consider the edge cut and regional carriers in
-[[gauge-boundary-frame-gluing/inq|Gauge Boundary Frames and Gauss Gluing]].
+[[gauge-boundary-frame-gluing/faithful-state-gluing|Gauge Boundary Frames and Gauss Gluing]].
 Write \(K=G^\partial\). Let
 
 $$
@@ -382,7 +383,7 @@ r>0.
 \tag{VA22}
 $$
 
-The gauge-equivariant unitary
+The [[equivalent-measure-carriers/inq|equivalent-measure carrier theorem]] supplies the gauge-equivariant unitary
 
 $$
 W:L^2(\nu)\longrightarrow L^2(\nu_A\otimes\nu_B),

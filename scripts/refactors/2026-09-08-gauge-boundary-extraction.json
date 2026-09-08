@@ -1,0 +1,28 @@
+{
+  "source_commit": "809df22",
+  "purpose": "Separate finite Gauss gluing, holonomy refinement, path Fisher response, graph-source assembly, source-action transport, and prepared-vacuum comparison. Shared calculation artifacts keep one owner and explicit cross-module links.",
+  "moves": {
+    "gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement.md": "holonomy-state-refinement/overlap-kernels-and-face-refinement.md",
+    "gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility.md": "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md",
+    "gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability.md": "holonomy-state-refinement/heat-state-continuity-and-response-closability.md",
+    "gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py": "holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py",
+    "gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock.md": "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md",
+    "gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection.md": "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md",
+    "gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier.md": "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md",
+    "gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect.md": "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md",
+    "gauge-boundary-frame-gluing/receipts/path_shift_fisher_receipt.py": "gauge-path-fisher-response/receipts/path_shift_fisher_receipt.py",
+    "gauge-boundary-frame-gluing/receipts/path-shift-fisher-receipt-output.txt": "gauge-path-fisher-response/receipts/path-shift-fisher-receipt-output.txt",
+    "gauge-boundary-frame-gluing/receipts/two_sided_fisher_receipt.py": "gauge-path-fisher-response/receipts/two_sided_fisher_receipt.py",
+    "gauge-boundary-frame-gluing/receipts/two-sided-fisher-receipt-output.txt": "gauge-path-fisher-response/receipts/two-sided-fisher-receipt-output.txt",
+    "gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response.md": "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md",
+    "gauge-boundary-frame-gluing/loop-correlations-and-the-source-response.md": "gauge-graph-source-response/loop-correlations-and-the-source-response.md",
+    "gauge-boundary-frame-gluing/local-interaction-cocycle-and-global-source-response.md": "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md",
+    "gauge-boundary-frame-gluing/receipts/local_interaction_assembly_receipt.py": "gauge-graph-source-response/receipts/local_interaction_assembly_receipt.py",
+    "gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action.md": "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md",
+    "gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts.md": "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md",
+    "gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison.md": "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md",
+    "gauge-boundary-frame-gluing/prepared-vacuum-subdivision-and-the-recovered-clock.md": "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md",
+    "gauge-boundary-frame-gluing/receipts/prepared_vacuum_subdivision_receipt.py": "prepared-vacuum-fisher-comparison/receipts/prepared_vacuum_subdivision_receipt.py"
+  },
+  "protected": []
+}

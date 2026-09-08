@@ -1,0 +1,59 @@
+{
+  "description": "Primary artifacts for ito-maps-and-analysis-on-path-spaces; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:math/0605089v1",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/math/0605089v1",
+      "version": "math/0605089v1",
+      "attempted_at": "2026-09-08T21:23:55.351318+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/math/0605089v1",
+      "content_type": "application/pdf",
+      "path": "arxiv-math-0605089v1.pdf",
+      "bytes": 605088,
+      "sha256": "03ae273c50671ebc08666a6485fde24e0a1f55beee05d7c9bf4580cfdb4fdabe",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 60,
+        "first_page_text_prefix": "arXiv:math/0605089v1  [math.PR]  3 May 2006\nItˆo maps and analysis on path spaces\nK. D. Elworthy & Xue-Mei Li\nAbstract\nWe consider versions of Malliavin calculu"
+      }
+    },
+    {
+      "path": "arxiv-math-0605089v1.tar.gz",
+      "url": "https://arxiv.org/src/math/0605089v1",
+      "version": "math/0605089v1",
+      "kind": "existing-primary-source",
+      "verified_at": "2026-09-08T21:23:55.563975+00:00",
+      "bytes": 66352,
+      "sha256": "f70a3f38945c8bfc9c3d7214a0ea9260fb106f640760849d0ac396fb6c3fb85f",
+      "origin": "Previously archived author source; original retrieval date was not recorded. The retained entry note recorded this byte count and SHA-256."
+    },
+    {
+      "path": "source/chain-rule-4.tex",
+      "bytes": 191925,
+      "sha256": "6075cddb14ded7f1db5f2b403bfc25705bd52dd85f3d6029410dea4edafe3188",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-math-0605089v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "chain-rule-4.tex"
+    },
+    {
+      "path": "source/mhequ.sty",
+      "bytes": 10192,
+      "sha256": "9c842af5faa0c31ac42329bd7efc1c2b809108ed1dfca9402eca85e6f4cafc11",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-math-0605089v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "mhequ.sty"
+    },
+    {
+      "path": "source/preprint.cls",
+      "bytes": 23107,
+      "sha256": "413ca03100eb7e7207fcd4137cfab3521f7e07a4f6b8e1f5620b72f90234c813",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-math-0605089v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "preprint.cls"
+    }
+  ]
+}

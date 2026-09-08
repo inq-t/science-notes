@@ -1,6 +1,12 @@
 [workspace]
 name = "physics"
 members = [
+  "equivalent-measure-carriers",
+  "holonomy-state-refinement",
+  "gauge-path-fisher-response",
+  "gauge-graph-source-response",
+  "gauge-source-action-transport",
+  "prepared-vacuum-fisher-comparison",
   "scripts",
   "general-causal-action",
   "exceptional-gauge-realization",

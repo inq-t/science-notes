@@ -1,0 +1,498 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Sorkin1983}
+R.~D. Sorkin, ``On the entropy of the vacuum outside a horizon,'' in {\em Tenth
+  International Conference on General Relativity and Gravitation (held Padova,
+  4-9 July, 1983), Contributed Papers}, vol.~2, pp.~734--736.
+\newblock 1983.
+\newblock \href{http://arxiv.org/abs/1402.3589}{{\ttfamily arXiv:1402.3589
+  [gr-qc]}}.
+
+\bibitem{Bombelli1986}
+L.~Bombelli, R.~K. Koul, J.~Lee, and R.~D. Sorkin, ``Quantum source of entropy
+  for black holes,'' \href{http://dx.doi.org/10.1103/PhysRevD.34.373}{{\em
+  Phys. Rev. D} {\bfseries 34} no.~2, (1986) 373--383}.
+
+\bibitem{Srednicki1993}
+M.~Srednicki, ``{Entropy and area},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.71.666}{{\em Phys. Rev. Lett.}
+  {\bfseries 71} (1993) 666--669},
+\href{http://arxiv.org/abs/hep-th/9303048}{{\ttfamily arXiv:hep-th/9303048}}.
+%%CITATION = HEP-TH/9303048;%%.
+
+\bibitem{Solodukhin2011}
+S.~N. Solodukhin, ``Entanglement Entropy of Black Holes,'' {\em Living Reviews
+  in Relativity} {\bfseries 14} no.~8, (2011) ,
+  \href{http://arxiv.org/abs/1104.3712}{{\ttfamily arXiv:1104.3712 [hep-th]}}.
+  \url{http://www.livingreviews.org/lrr-2011-8}.
+
+\bibitem{Bianchi:2012ev}
+E.~Bianchi and R.~C. Myers, ``{On the Architecture of Spacetime Geometry},''
+  \href{http://dx.doi.org/10.1088/0264-9381/31/21/214002}{{\em Class. Quant.
+  Grav.} {\bfseries 31} (2014) 214002},
+\href{http://arxiv.org/abs/1212.5183}{{\ttfamily arXiv:1212.5183 [hep-th]}}.
+%%CITATION = ARXIV:1212.5183;%%.
+
+\bibitem{VanRaamsdonk2010}
+M.~Van~Raamsdonk, ``{Building up spacetime with quantum entanglement},''
+  \href{http://dx.doi.org/10.1007/s10714-010-1034-0,
+  10.1142/S0218271810018529}{{\em Gen.Rel.Grav.} {\bfseries 42} (2010)
+  2323--2329},
+\href{http://arxiv.org/abs/1005.3035}{{\ttfamily arXiv:1005.3035 [hep-th]}}.
+%%CITATION = ARXIV:1005.3035;%%.
+
+\bibitem{Maldacena2013}
+J.~Maldacena and L.~Susskind, ``{Cool horizons for entangled black holes},''
+  \href{http://dx.doi.org/10.1002/prop.201300020}{{\em Fortsch. Phys.}
+  {\bfseries 61} (2013) 781--811},
+\href{http://arxiv.org/abs/1306.0533}{{\ttfamily arXiv:1306.0533 [hep-th]}}.
+%%CITATION = ARXIV:1306.0533;%%.
+
+\bibitem{Jacobson1995}
+T.~Jacobson, ``{Thermodynamics of space-time: The Einstein equation of
+  state},'' \href{http://dx.doi.org/10.1103/PhysRevLett.75.1260}{{\em
+  Phys.Rev.Lett.} {\bfseries 75} (1995) 1260--1263},
+\href{http://arxiv.org/abs/gr-qc/9504004}{{\ttfamily arXiv:gr-qc/9504004
+  [gr-qc]}}.
+%%CITATION = GR-QC/9504004;%%.
+
+\bibitem{Jacobson:2015hqa}
+T.~Jacobson, ``{Entanglement Equilibrium and the Einstein Equation},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.116.201101}{{\em Phys. Rev.
+  Lett.} {\bfseries 116} no.~20, (2016) 201101},
+\href{http://arxiv.org/abs/1505.04753}{{\ttfamily arXiv:1505.04753 [gr-qc]}}.
+%%CITATION = ARXIV:1505.04753;%%.
+
+\bibitem{Giddings:2005id}
+S.~B. Giddings, D.~Marolf, and J.~B. Hartle, ``{Observables in effective
+  gravity},'' \href{http://dx.doi.org/10.1103/PhysRevD.74.064018}{{\em Phys.
+  Rev.} {\bfseries D74} (2006) 064018},
+\href{http://arxiv.org/abs/hep-th/0512200}{{\ttfamily arXiv:hep-th/0512200
+  [hep-th]}}.
+%%CITATION = HEP-TH/0512200;%%.
+
+\bibitem{Giddings:2015lla}
+S.~B. Giddings, ``{Hilbert space structure in quantum gravity: an algebraic
+  perspective},'' \href{http://dx.doi.org/10.1007/JHEP12(2015)099}{{\em JHEP}
+  {\bfseries 12} (2015) 099},
+\href{http://arxiv.org/abs/1503.08207}{{\ttfamily arXiv:1503.08207 [hep-th]}}.
+%%CITATION = ARXIV:1503.08207;%%.
+
+\bibitem{Gu:2009jh}
+Z.-C. Gu and X.-G. Wen, ``{Emergence of helicity $\pm 2$ modes (gravitons) from
+  qbit models},'' \href{http://dx.doi.org/10.1016/j.nuclphysb.2012.05.010}{{\em
+  Nucl. Phys.} {\bfseries B863} (2012) 90--129},
+\href{http://arxiv.org/abs/0907.1203}{{\ttfamily arXiv:0907.1203 [gr-qc]}}.
+%%CITATION = ARXIV:0907.1203;%%.
+
+\bibitem{Harlow:2015lma}
+D.~Harlow, ``{Wormholes, Emergent Gauge Fields, and the Weak Gravity
+  Conjecture},'' \href{http://dx.doi.org/10.1007/JHEP01(2016)122}{{\em JHEP}
+  {\bfseries 01} (2016) 122},
+\href{http://arxiv.org/abs/1510.07911}{{\ttfamily arXiv:1510.07911 [hep-th]}}.
+%%CITATION = ARXIV:1510.07911;%%.
+
+\bibitem{Haag1992}
+R.~Haag, {\em Local quantum physics: fields, particles, algebras}.
+\newblock Texts and Monographs in Physics. Springer-Verlag, 1992.
+
+\bibitem{Casini:2013rba}
+H.~Casini, M.~Huerta, and J.~A. Rosabal, ``{Remarks on entanglement entropy for
+  gauge fields},'' \href{http://dx.doi.org/10.1103/PhysRevD.89.085012}{{\em
+  Phys. Rev.} {\bfseries D89} no.~8, (2014) 085012},
+\href{http://arxiv.org/abs/1312.1183}{{\ttfamily arXiv:1312.1183 [hep-th]}}.
+%%CITATION = ARXIV:1312.1183;%%.
+
+\bibitem{Yngvason2005}
+J.~Yngvason, ``The role of type III factors in quantum field theory,''
+  \href{http://dx.doi.org/10.1016/S0034-4877(05)80009-6}{{\em Reports on
+  Mathematical Physics} {\bfseries 55} no.~1, (2005) 135 -- 147},
+  \href{http://arxiv.org/abs/math-ph/0411058}{{\ttfamily arXiv:math-ph/0411058
+  [math-ph]}}.
+
+\bibitem{Buividovich:2008gq}
+P.~V. Buividovich and M.~I. Polikarpov, ``{Entanglement entropy in gauge
+  theories and the holographic principle for electric strings},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2008.10.032}{{\em Phys. Lett.}
+  {\bfseries B670} (2008) 141--145},
+\href{http://arxiv.org/abs/0806.3376}{{\ttfamily arXiv:0806.3376 [hep-th]}}.
+%%CITATION = ARXIV:0806.3376;%%.
+
+\bibitem{Donnelly2011}
+W.~Donnelly, ``{Decomposition of entanglement entropy in lattice gauge
+  theory},'' \href{http://dx.doi.org/10.1103/PhysRevD.85.085004}{{\em
+  Phys.Rev.} {\bfseries D85} (2012) 085004},
+\href{http://arxiv.org/abs/1109.0036}{{\ttfamily arXiv:1109.0036 [hep-th]}}.
+%%CITATION = ARXIV:1109.0036;%%.
+
+\bibitem{Ghosh:2015iwa}
+S.~Ghosh, R.~M. Soni, and S.~P. Trivedi, ``{On The Entanglement Entropy For
+  Gauge Theories},'' \href{http://dx.doi.org/10.1007/JHEP09(2015)069}{{\em
+  JHEP} {\bfseries 09} (2015) 069},
+\href{http://arxiv.org/abs/1501.02593}{{\ttfamily arXiv:1501.02593 [hep-th]}}.
+%%CITATION = ARXIV:1501.02593;%%.
+
+\bibitem{Aoki:2015bsa}
+S.~Aoki, T.~Iritani, M.~Nozaki, T.~Numasawa, N.~Shiba, and H.~Tasaki, ``{On the
+  definition of entanglement entropy in lattice gauge theories},''
+  \href{http://dx.doi.org/10.1007/JHEP06(2015)187}{{\em JHEP} {\bfseries 06}
+  (2015) 187},
+\href{http://arxiv.org/abs/1502.04267}{{\ttfamily arXiv:1502.04267 [hep-th]}}.
+%%CITATION = ARXIV:1502.04267;%%.
+
+\bibitem{Soni:2015yga}
+R.~M. Soni and S.~P. Trivedi, ``{Aspects of Entanglement Entropy for Gauge
+  Theories},'' \href{http://dx.doi.org/10.1007/JHEP01(2016)136}{{\em JHEP}
+  {\bfseries 01} (2016) 136},
+\href{http://arxiv.org/abs/1510.07455}{{\ttfamily arXiv:1510.07455 [hep-th]}}.
+%%CITATION = ARXIV:1510.07455;%%.
+
+\bibitem{Donnelly:2014gva}
+W.~Donnelly, ``{Entanglement entropy and nonabelian gauge symmetry},''
+  \href{http://dx.doi.org/10.1088/0264-9381/31/21/214003}{{\em Class. Quant.
+  Grav.} {\bfseries 31} no.~21, (2014) 214003},
+\href{http://arxiv.org/abs/1406.7304}{{\ttfamily arXiv:1406.7304 [hep-th]}}.
+%%CITATION = ARXIV:1406.7304;%%.
+
+\bibitem{Lewkowycz2013}
+A.~Lewkowycz and J.~Maldacena, ``{Exact results for the entanglement entropy
+  and the energy radiated by a quark},''
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)025}{{\em JHEP} {\bfseries 1405}
+  (2014) 025},
+\href{http://arxiv.org/abs/1312.5682}{{\ttfamily arXiv:1312.5682 [hep-th]}}.
+%%CITATION = ARXIV:1312.5682;%%.
+
+\bibitem{Donnelly:2014fua}
+W.~Donnelly and A.~C. Wall, ``{Entanglement entropy of electromagnetic edge
+  modes},'' \href{http://dx.doi.org/10.1103/PhysRevLett.114.111603}{{\em Phys.
+  Rev. Lett.} {\bfseries 114} no.~11, (2015) 111603},
+\href{http://arxiv.org/abs/1412.1895}{{\ttfamily arXiv:1412.1895 [hep-th]}}.
+%%CITATION = ARXIV:1412.1895;%%.
+
+\bibitem{Donnelly:2015hxa}
+W.~Donnelly and A.~C. Wall, ``{Geometric entropy and edge modes of the
+  electromagnetic field},''
+\href{http://arxiv.org/abs/1506.05792}{{\ttfamily arXiv:1506.05792 [hep-th]}}.
+%%CITATION = ARXIV:1506.05792;%%.
+
+\bibitem{Crnkovic:1987tz}
+C.~Crnkovi\'{c}, ``{Symplectic Geometry of the Covariant Phase Space,
+  Superstrings and Superspace},''
+\href{http://dx.doi.org/10.1088/0264-9381/5/12/008}{{\em Class. Quant. Grav.}
+  {\bfseries 5} (1988) 1557--1575}.
+%%CITATION = CQGRD,5,1557;%%.
+
+\bibitem{Regge1974}
+T.~Regge and C.~Teitelboim, ``Role of surface integrals in the Hamiltonian
+  formulation of general relativity,''
+  \href{http://dx.doi.org/10.1016/0003-4916(74)90404-7}{{\em Annals of Physics}
+  {\bfseries 88} no.~1, (1974) 286 -- 318}.
+
+\bibitem{Freidel:2013jfa}
+L.~Freidel, ``{Gravitational Energy, Local Holography and Non-equilibrium
+  Thermodynamics},''
+  \href{http://dx.doi.org/10.1088/0264-9381/32/5/055005}{{\em Class. Quant.
+  Grav.} {\bfseries 32} no.~5, (2015) 055005},
+\href{http://arxiv.org/abs/1312.1538}{{\ttfamily arXiv:1312.1538 [gr-qc]}}.
+%%CITATION = ARXIV:1312.1538;%%.
+
+\bibitem{Balachandran1994}
+A.~Balachandran, L.~Chandar, and A.~Momen, ``{Edge states in gravity and black
+  hole physics},'' \href{http://dx.doi.org/10.1016/0550-3213(95)00622-2}{{\em
+  Nucl.Phys.} {\bfseries B461} (1996) 581--596},
+\href{http://arxiv.org/abs/gr-qc/9412019}{{\ttfamily arXiv:gr-qc/9412019
+  [gr-qc]}}.
+%%CITATION = GR-QC/9412019;%%.
+
+\bibitem{Balachandran1995}
+A.~Balachandran, L.~Chandar, and A.~Momen, ``{Edge states in canonical
+  gravity},''
+\href{http://arxiv.org/abs/gr-qc/9506006}{{\ttfamily arXiv:gr-qc/9506006
+  [gr-qc]}}.
+%%CITATION = GR-QC/9506006;%%.
+
+\bibitem{Carlip1994}
+S.~Carlip, ``{The Statistical mechanics of the (2+1)-dimensional black hole},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.51.632}{{\em Phys.Rev.} {\bfseries
+  D51} (1995) 632--637},
+\href{http://arxiv.org/abs/gr-qc/9409052}{{\ttfamily arXiv:gr-qc/9409052
+  [gr-qc]}}.
+%%CITATION = GR-QC/9409052;%%.
+
+\bibitem{Carlip1998}
+S.~Carlip, ``{Black hole entropy from conformal field theory in any
+  dimension},'' \href{http://dx.doi.org/10.1103/PhysRevLett.82.2828}{{\em
+  Phys.Rev.Lett.} {\bfseries 82} (1999) 2828--2831},
+\href{http://arxiv.org/abs/hep-th/9812013}{{\ttfamily arXiv:hep-th/9812013
+  [hep-th]}}.
+%%CITATION = HEP-TH/9812013;%%.
+
+\bibitem{Carlip1999}
+S.~Carlip, ``{Entropy from conformal field theory at Killing horizons},''
+  \href{http://dx.doi.org/10.1088/0264-9381/16/10/322}{{\em Class.Quant.Grav.}
+  {\bfseries 16} (1999) 3327--3348},
+\href{http://arxiv.org/abs/gr-qc/9906126}{{\ttfamily arXiv:gr-qc/9906126
+  [gr-qc]}}.
+%%CITATION = GR-QC/9906126;%%.
+
+\bibitem{Carlip2011}
+S.~Carlip, ``{Effective Conformal Descriptions of Black Hole Entropy},''
+  \href{http://dx.doi.org/10.3390/e13071355}{{\em Entropy} {\bfseries 13}
+  (2011) 1355--1379},
+\href{http://arxiv.org/abs/1107.2678}{{\ttfamily arXiv:1107.2678 [gr-qc]}}.
+%%CITATION = ARXIV:1107.2678;%%.
+
+\bibitem{Kijowski:1976ze}
+J.~Kijowski and W.~Szczyrba, ``{A Canonical Structure for Classical Field
+  Theories},''
+\href{http://dx.doi.org/10.1007/BF01608496}{{\em Commun. Math. Phys.}
+  {\bfseries 46} (1976) 183--206}.
+%%CITATION = CMPHA,46,183;%%.
+
+\bibitem{Crnkovic1987}
+C.~Crnkovi\'{c} and E.~Witten, ``Covariant description of canonical formalism
+  in geometrical theories,'' in {\em Three hundred years of gravitation}, S.~W.
+  Hawking and W.~Israel, eds., pp.~676--684.
+\newblock Cambridge University Press, Cambridge, 1987.
+
+\bibitem{Gawedzki:1990jc}
+K.~Gawedzki, ``{Classical origin of quantum group symmetries in
+  Wess-Zumino-Witten conformal field theory},''
+\href{http://dx.doi.org/10.1007/BF02102735}{{\em Commun. Math. Phys.}
+  {\bfseries 139} (1991) 201--214}.
+%%CITATION = CMPHA,139,201;%%.
+
+\bibitem{Lee:1990nz}
+J.~Lee and R.~M. Wald, ``{Local symmetries and constraints},''
+\href{http://dx.doi.org/10.1063/1.528801}{{\em J. Math. Phys.} {\bfseries 31}
+  (1990) 725--743}.
+%%CITATION = JMAPA,31,725;%%.
+
+\bibitem{Weinstein1979}
+A.~Weinstein, {\em Lectures on Symplectic Manifolds}.
+\newblock No.~29 in CBMS Regional Conference Series in Mathematics. American
+  Mathematical Society, 1979.
+
+\bibitem{Freidel:2015gpa}
+L.~Freidel and A.~Perez, ``{Quantum gravity at the corner},''
+\href{http://arxiv.org/abs/1507.02573}{{\ttfamily arXiv:1507.02573 [gr-qc]}}.
+%%CITATION = ARXIV:1507.02573;%%.
+
+\bibitem{Giulini:1998rk}
+D.~Giulini and D.~Marolf, ``{On the generality of refined algebraic
+  quantization},'' \href{http://dx.doi.org/10.1088/0264-9381/16/7/321}{{\em
+  Class. Quant. Grav.} {\bfseries 16} (1999) 2479--2488},
+\href{http://arxiv.org/abs/gr-qc/9812024}{{\ttfamily arXiv:gr-qc/9812024
+  [gr-qc]}}.
+%%CITATION = GR-QC/9812024;%%.
+
+\bibitem{Wald1984}
+R.~Wald, {\em General Relativity}.
+\newblock University of Chicago Press, 1984.
+
+\bibitem{Hollands2012}
+S.~Hollands and R.~M. Wald, ``{Stability of Black Holes and Black Branes},''
+  \href{http://dx.doi.org/10.1007/s00220-012-1638-1}{{\em Commun.Math.Phys.}
+  {\bfseries 321} (2013) 629--680},
+\href{http://arxiv.org/abs/1201.0463}{{\ttfamily arXiv:1201.0463 [gr-qc]}}.
+%%CITATION = ARXIV:1201.0463;%%.
+
+\bibitem{Hawking:1998jf}
+S.~W. Hawking and C.~J. Hunter, ``{Gravitational entropy and global
+  structure},'' \href{http://dx.doi.org/10.1103/PhysRevD.59.044025}{{\em Phys.
+  Rev.} {\bfseries D59} (1999) 044025},
+\href{http://arxiv.org/abs/hep-th/9808085}{{\ttfamily arXiv:hep-th/9808085
+  [hep-th]}}.
+%%CITATION = HEP-TH/9808085;%%.
+
+\bibitem{Brown:2000dz}
+J.~D. Brown, S.~R. Lau, and J.~W. York, Jr., ``{Action and energy of the
+  gravitational field},''
+\href{http://arxiv.org/abs/gr-qc/0010024}{{\ttfamily arXiv:gr-qc/0010024
+  [gr-qc]}}.
+%%CITATION = GR-QC/0010024;%%.
+
+\bibitem{Carlip:1994gy}
+S.~Carlip, ``{The Statistical mechanics of the (2+1)-dimensional black hole},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.51.632}{{\em Phys. Rev.} {\bfseries
+  D51} (1995) 632--637},
+\href{http://arxiv.org/abs/gr-qc/9409052}{{\ttfamily arXiv:gr-qc/9409052
+  [gr-qc]}}.
+%%CITATION = GR-QC/9409052;%%.
+
+\bibitem{Wald1993}
+R.~M. Wald, ``{Black hole entropy is the Noether charge},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.48.R3427}{{\em Phys.Rev.} {\bfseries
+  D48} (1993) 3427--3431},
+\href{http://arxiv.org/abs/gr-qc/9307038}{{\ttfamily arXiv:gr-qc/9307038
+  [gr-qc]}}.
+%%CITATION = GR-QC/9307038;%%.
+
+\bibitem{Iyer1994}
+V.~Iyer and R.~M. Wald, ``{Some properties of Noether charge and a proposal for
+  dynamical black hole entropy},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.50.846}{{\em Phys. Rev. D}
+  {\bfseries 50} (1994) 846--864},
+  \href{http://arxiv.org/abs/gr-qc/9403028}{{\ttfamily arXiv:gr-qc/9403028
+  [gr-qc]}}.
+
+\bibitem{Carlip1993}
+S.~Carlip and C.~Teitelboim, ``{The Off-shell black hole},''
+  \href{http://dx.doi.org/10.1088/0264-9381/12/7/011}{{\em Class.Quant.Grav.}
+  {\bfseries 12} (1995) 1699--1704},
+\href{http://arxiv.org/abs/gr-qc/9312002}{{\ttfamily arXiv:gr-qc/9312002
+  [gr-qc]}}.
+%%CITATION = GR-QC/9312002;%%.
+
+\bibitem{Mackey1989}
+G.~Mackey, {\em Unitary group representations in physics, probability, and
+  number theory}.
+\newblock Advanced book classics. Addison-Wesley, 1989.
+
+\bibitem{deWit:1988ig}
+B.~de~Wit, J.~Hoppe, and H.~Nicolai, ``{On the Quantum Mechanics of
+  Supermembranes},''
+\href{http://dx.doi.org/10.1016/0550-3213(88)90116-2}{{\em Nucl. Phys.}
+  {\bfseries B305} (1988) 545}.
+%%CITATION = NUPHA,B305,545;%%.
+
+\bibitem{Atiyah1988}
+M.~Atiyah, ``Topological quantum field theories,''
+  \href{http://dx.doi.org/10.1007/BF02698547}{{\em Publications Mathématiques
+  de l'Institut des Hautes Études Scientifiques} {\bfseries 68} no.~1, (1988)
+  175--186}.
+
+\bibitem{SchommerPries:2011np}
+C.~J. Schommer-Pries, ``{The Classification of Two-Dimensional Extended
+  Topological Field Theories},''
+\href{http://arxiv.org/abs/1112.1000}{{\ttfamily arXiv:1112.1000 [math.AT]}}.
+%%CITATION = ARXIV:1112.1000;%%.
+
+\bibitem{Baez1995}
+J.~C. Baez and J.~Dolan, ``Higher-dimensional algebra and topological quantum
+  field theory,'' \href{http://dx.doi.org/10.1063/1.531236}{{\em Journal of
+  Mathematical Physics} {\bfseries 36} no.~11, (1995) 6073--6105},
+  \href{http://arxiv.org/abs/q-alg/9503002}{{\ttfamily arXiv:q-alg/9503002}}.
+
+\bibitem{Lurie2009}
+J.~Lurie, ``On the classification of topological field theories,'' {\em Current
+  Developments in Mathematics} {\bfseries 2008} (2009) 129--280,
+  \href{http://arxiv.org/abs/0905.0465}{{\ttfamily arXiv:0905.0465 [math.CT]}}.
+
+\bibitem{Oeckl2006}
+R.~Oeckl, ``{Two-dimensional quantum Yang-Mills theory with corners},''
+  \href{http://dx.doi.org/10.1088/1751-8113/41/13/135401}{{\em J.Phys.}
+  {\bfseries A41} (2008) 135401},
+\href{http://arxiv.org/abs/hep-th/0608218}{{\ttfamily arXiv:hep-th/0608218
+  [hep-th]}}.
+%%CITATION = HEP-TH/0608218;%%.
+
+\bibitem{Cordes1994}
+S.~Cordes, G.~W. Moore, and S.~Ramgoolam, ``{Lectures on 2-d Yang-Mills theory,
+  equivariant cohomology and topological field theories},''
+  \href{http://dx.doi.org/10.1016/0920-5632(95)00434-B}{{\em
+  Nucl.Phys.Proc.Suppl.} {\bfseries 41} (1995) 184--244},
+\href{http://arxiv.org/abs/hep-th/9411210}{{\ttfamily arXiv:hep-th/9411210
+  [hep-th]}}.
+%%CITATION = HEP-TH/9411210;%%.
+
+\bibitem{Witten2009}
+E.~Witten, ``{Geometric Langlands From Six Dimensions},''
+\href{http://arxiv.org/abs/0905.2720}{{\ttfamily arXiv:0905.2720 [hep-th]}}.
+%%CITATION = ARXIV:0905.2720;%%.
+
+\bibitem{Strominger2013a}
+A.~Strominger, ``{Asymptotic Symmetries of Yang-Mills Theory},''
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)151}{{\em JHEP} {\bfseries 1407}
+  (2014) 151},
+\href{http://arxiv.org/abs/1308.0589}{{\ttfamily arXiv:1308.0589 [hep-th]}}.
+%%CITATION = ARXIV:1308.0589;%%.
+
+\bibitem{He2014b}
+T.~He, P.~Mitra, A.~P. Porfyriadis, and A.~Strominger, ``{New Symmetries of
+  Massless QED},'' \href{http://dx.doi.org/10.1007/JHEP10(2014)112}{{\em JHEP}
+  {\bfseries 1410} (2014) 112},
+\href{http://arxiv.org/abs/1407.3789}{{\ttfamily arXiv:1407.3789 [hep-th]}}.
+%%CITATION = ARXIV:1407.3789;%%.
+
+\bibitem{Strominger2013b}
+A.~Strominger, ``{On BMS Invariance of Gravitational Scattering},''
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)152}{{\em JHEP} {\bfseries 1407}
+  (2014) 152},
+\href{http://arxiv.org/abs/1312.2229}{{\ttfamily arXiv:1312.2229 [hep-th]}}.
+%%CITATION = ARXIV:1312.2229;%%.
+
+\bibitem{He:2014laa}
+T.~He, V.~Lysov, P.~Mitra, and A.~Strominger, ``{BMS supertranslations and
+  Weinberg’s soft graviton theorem},''
+  \href{http://dx.doi.org/10.1007/JHEP05(2015)151}{{\em JHEP} {\bfseries 05}
+  (2015) 151},
+\href{http://arxiv.org/abs/1401.7026}{{\ttfamily arXiv:1401.7026 [hep-th]}}.
+%%CITATION = ARXIV:1401.7026;%%.
+
+\bibitem{Mohd:2014oja}
+A.~Mohd, ``{A note on asymptotic symmetries and soft-photon theorem},''
+  \href{http://dx.doi.org/10.1007/JHEP02(2015)060}{{\em JHEP} {\bfseries 02}
+  (2015) 060},
+\href{http://arxiv.org/abs/1412.5365}{{\ttfamily arXiv:1412.5365 [hep-th]}}.
+%%CITATION = ARXIV:1412.5365;%%.
+
+\bibitem{Andrade:2015fna}
+T.~Andrade and D.~Marolf, ``{Asymptotic Symmetries from finite boxes},''
+  \href{http://dx.doi.org/10.1088/0264-9381/33/1/015013}{{\em Class. Quant.
+  Grav.} {\bfseries 33} no.~1, (2016) 015013},
+\href{http://arxiv.org/abs/1508.02515}{{\ttfamily arXiv:1508.02515 [gr-qc]}}.
+%%CITATION = ARXIV:1508.02515;%%.
+
+\bibitem{Turaev1992}
+V.~Turaev and O.~Viro, ``State sum invariants of 3-manifolds and quantum
+  6j-symbols,'' \href{http://dx.doi.org/10.1016/0040-9383(92)90015-A}{{\em
+  Topology} {\bfseries 31} no.~4, (1992) 865 -- 902}.
+
+\bibitem{Sun:2015hla}
+K.~Sun, K.~Kumar, and E.~Fradkin, ``{Discretized Abelian Chern-Simons gauge
+  theory on arbitrary graphs},''
+  \href{http://dx.doi.org/10.1103/PhysRevB.92.115148}{{\em Phys. Rev.}
+  {\bfseries B92} no.~11, (2015) 115148},
+\href{http://arxiv.org/abs/1502.00641}{{\ttfamily arXiv:1502.00641
+  [cond-mat.str-el]}}.
+%%CITATION = ARXIV:1502.00641;%%.
+
+\bibitem{Cano:2013ooa}
+J.~Cano, M.~Cheng, M.~Mulligan, C.~Nayak, E.~Plamadeala, and J.~Yard,
+  ``{Bulk-edge correspondence in (2 + 1)-dimensional Abelian topological
+  phases},'' \href{http://dx.doi.org/10.1103/PhysRevB.89.115116}{{\em Phys.
+  Rev.} {\bfseries B89} no.~11, (2014) 115116},
+\href{http://arxiv.org/abs/1310.5708}{{\ttfamily arXiv:1310.5708
+  [cond-mat.str-el]}}.
+%%CITATION = ARXIV:1310.5708;%%.
+
+\bibitem{Gupta:2014hxa}
+R.~K. Gupta, S.~Lal, and S.~Thakur, ``{Logarithmic corrections to extremal
+  black hole entropy in $ \mathcal{N}=2 $ , 4 and 8 supergravity},''
+  \href{http://dx.doi.org/10.1007/JHEP11(2014)072}{{\em JHEP} {\bfseries 11}
+  (2014) 072},
+\href{http://arxiv.org/abs/1402.2441}{{\ttfamily arXiv:1402.2441 [hep-th]}}.
+%%CITATION = ARXIV:1402.2441;%%.
+
+\bibitem{Brown1986}
+J.~Brown and M.~Henneaux, ``Central charges in the canonical realization of
+  asymptotic symmetries: An example from three dimensional gravity,''
+  \href{http://dx.doi.org/10.1007/BF01211590}{{\em Communications in
+  Mathematical Physics} {\bfseries 104} no.~2, (1986) 207--226}.
+
+\bibitem{Strominger:1997eq}
+A.~Strominger, ``{Black hole entropy from near horizon microstates},''
+  \href{http://dx.doi.org/10.1088/1126-6708/1998/02/009}{{\em JHEP} {\bfseries
+  02} (1998) 009},
+\href{http://arxiv.org/abs/hep-th/9712251}{{\ttfamily arXiv:hep-th/9712251
+  [hep-th]}}.
+%%CITATION = HEP-TH/9712251;%%.
+
+\bibitem{Kolar1999}
+I.~Kol{\'a}r, J.~Slov{\'a}k, and P.~W. Michor, {\em Natural operations in
+  differential geometry}.
+\newblock Springer-Verlag, 1999.
+\newblock \url{http://www.emis.de/monographs/KSM/}.
+
+\end{thebibliography}\endgroup

@@ -1,0 +1,40 @@
+{
+  "description": "Primary artifacts for differential-geometry-on-the-space-of-connections-via-graphs-and-projective-limits; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:hep-th/9412073v2",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/hep-th/9412073v2",
+      "version": "hep-th/9412073v2",
+      "attempted_at": "2026-09-08T21:31:22.020680+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/hep-th/9412073v2",
+      "content_type": "application/pdf",
+      "path": "arxiv-hep-th-9412073v2.pdf",
+      "bytes": 413443,
+      "sha256": "db865ccb2761a5bc469418b9911e8aa65f1e3a8847b04643c4f3b777c247ebb9",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 69,
+        "first_page_text_prefix": "arXiv:hep-th/9412073v2  29 Jan 1996\nDiﬀerential geometry on the space of\nconnections via graphs and projective limits\nAbhay Ashtekar1,2 and Jerzy Lewandowski 3,"
+      }
+    },
+    {
+      "path": "arxiv-hep-th-9412073v2.tex.gz",
+      "url": "https://arxiv.org/src/hep-th/9412073v2",
+      "version": "hep-th/9412073v2",
+      "kind": "existing-primary-source",
+      "verified_at": "2026-09-08T21:31:22.356991+00:00",
+      "bytes": 40249,
+      "sha256": "a32ed14fe965e9bcf5030c66b33423b5aa20aaea14450c2d7aaefb629db6d0b9",
+      "origin": "Previously archived author source; original retrieval date unrecorded. The retained entry note recorded this byte count and SHA-256."
+    },
+    {
+      "path": "source/arxiv-hep-th-9412073v2.tex",
+      "bytes": 124586,
+      "sha256": "118c7b685b47893fd8ef18054d0f2268098ef50bc6d515367e96bc52c665ae68",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-hep-th-9412073v2.tex.gz",
+      "method": "Byte-preserving gzip decompression of the single author LaTeX file."
+    }
+  ]
+}

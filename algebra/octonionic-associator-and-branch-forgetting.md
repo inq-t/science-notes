@@ -290,7 +290,7 @@ the operation of retaining a binary product. To obtain a
 scale-selecting obstruction, a construction would need to
 constrain those discarded channels and compare their response
 with the complete relevant carrier. In
-[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts|the current source-cut programme]],
+[[gauge-source-action-transport/source-action-transport-through-ordered-cuts|the current source-cut programme]],
 the cut maps still compose associatively. Their transformation
 law has not been identified with the projected product above.
 

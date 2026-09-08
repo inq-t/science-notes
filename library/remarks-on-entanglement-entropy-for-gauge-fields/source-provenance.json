@@ -1,0 +1,105 @@
+{
+  "description": "Primary artifacts for remarks-on-entanglement-entropy-for-gauge-fields; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:1312.1183v1",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1312.1183v1",
+      "version": "1312.1183v1",
+      "attempted_at": "2026-09-08T21:23:54.762714+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/1312.1183v1",
+      "content_type": "application/pdf",
+      "path": "arxiv-1312-1183v1.pdf",
+      "bytes": 362006,
+      "sha256": "031f169b3912a5c16ba01e36e37206cb1c61777ab9cae592bd6ec380a3c757c2",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 26,
+        "first_page_text_prefix": "arXiv:1312.1183v1  [hep-th]  4 Dec 2013\nRemarks on entanglement entropy for gauge ﬁelds\nHoracio Casini ∗\n, Marina Huerta †and José Alejandro Rosabal ‡\nCentro At"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/1312.1183v1",
+      "version": "1312.1183v1",
+      "attempted_at": "2026-09-08T21:23:54.765365+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/src/1312.1183v1",
+      "content_type": "application/gzip",
+      "path": "arxiv-1312-1183v1.tar.gz",
+      "bytes": 43901,
+      "sha256": "0adcde1334262f3f4511abf908612815eb1da082a77442c07d0215dfdc040c71"
+    },
+    {
+      "path": "source/axial.eps",
+      "bytes": 3935,
+      "sha256": "0609a76fbb079b051e242f2babe4c789be3a0d05ee160592800f4f86dc0acf86",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "axial.eps"
+    },
+    {
+      "path": "source/gauge11.eps",
+      "bytes": 7713,
+      "sha256": "5420bb42c291c69fe618a0be05ccec5e9db8ed2338a33dc84230e9660edaaebc",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "gauge11.eps"
+    },
+    {
+      "path": "source/gauge44.eps",
+      "bytes": 21462,
+      "sha256": "f3d11e2528b6ceba97101ef36f5e6cf951436edf8d8d36d4ead5b04f2f429c99",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "gauge44.eps"
+    },
+    {
+      "path": "source/gauge6.eps",
+      "bytes": 7941,
+      "sha256": "3f12f4671be1a20ea1c50a4735520272271bce99d56a3896a4231c7f4ab87d07",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "gauge6.eps"
+    },
+    {
+      "path": "source/gauge7.eps",
+      "bytes": 7468,
+      "sha256": "127f5b7800c225aa99d329671171e566e54097ac874e9edea616da1f8d39255a",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "gauge7.eps"
+    },
+    {
+      "path": "source/gemarina.tex",
+      "bytes": 92928,
+      "sha256": "33ed6115074b096048e90e477a5135ba8ffa797f78e97145403bdcbf98b34982",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "gemarina.tex"
+    },
+    {
+      "path": "source/rrr.eps",
+      "bytes": 19049,
+      "sha256": "777bd4b45a698365c697e368a8ac5bd4d8d9c315be26689214ad85ccf360d654",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "rrr.eps"
+    },
+    {
+      "path": "source/topologica.eps",
+      "bytes": 3600,
+      "sha256": "f821f2c26c5fb61d724d88f92ace6c2e6e3c81e7bd39eb26e152ad716a2d8e4a",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1312-1183v1.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "topologica.eps"
+    }
+  ]
+}

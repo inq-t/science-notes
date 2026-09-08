@@ -148,7 +148,7 @@ Covariance means transforming the response tensor, not demanding the
 same diagonal coefficients in every presentation.
 
 The stronger
-[[gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action|joint path-law test]]
+[[gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action|joint path-law test]]
 also constrains which coordinate actions are admissible before
 forming a response. For actual shared-reference heat paths,
 deterministic two-sided loop shifts require a common right
@@ -158,7 +158,7 @@ shift of one loop changes the relative loop's quadratic variation
 and makes the joint laws singular. Finite endpoint densities
 alone cannot detect this complete-path obstruction.
 
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|The adjacent-square specialization]]
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|The adjacent-square specialization]]
 also computes what happens when relative-loop information is forgotten:
 the two separate character readouts are autonomous, but their joint
 readout has an exact two-rate compression defect. Restoring the third
@@ -191,7 +191,7 @@ intertwiner at each vertex; accidental energy coincidences can still
 give degeneracies. This is a full-carrier justification of (LC10),
 not an inference from only the three probes in (LC9).
 
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|Holonomy refinement]]
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility|Holonomy refinement]]
 requires the segment weights to add to the old edge weight under
 same-clock subdivision. The mixed coefficient in (LC5) then retains
 the total response of the shared path. Adding new cycles is a separate
@@ -211,7 +211,7 @@ g_{j-1}(U_j,V_j)g_j^{-1}.
 \tag{LC11}
 \]
 This is a specialization of
-[[gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response|the joint graph source]]:
+[[gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response|the joint graph source]]:
 give the two raw edges heat lengths \(\alpha t_j,\beta t_j\).
 Its edge-factor splits are auxiliary and disappear from the
 unweighted endpoint response. The raw differential form is
@@ -267,7 +267,7 @@ Bi-invariance removes that frame from their pairings, giving
 \]
 Polarization proves the identity on all mixed responses too.
 This is exactly the finite-increment response of
-[[gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect#Full ordered cuts retain the boundary charge|the ordered heat-path construction]].
+[[gauge-path-fisher-response/heat-factor-response-and-the-compression-defect#Full ordered cuts retain the boundary charge|the ordered heat-path construction]].
 Indeed its cumulative readouts are
 \(X_j=Z_1\cdots Z_j=(U_1\cdots U_j)(V_1\cdots V_j)^{-1}\).
 
@@ -313,7 +313,7 @@ arrow of time or a derivation of that geometry. Chain incidence,
 the metric, heat lengths and the source prescription remain inputs.
 Moreover, equality of these unweighted forms does not identify
 interacting source experiments:
-[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts#Independent edge actions fail after a tilt|the tilted two-bigon test]]
+[[gauge-source-action-transport/source-action-transport-through-ordered-cuts#Independent edge actions fail after a tilt|the tilted two-bigon test]]
 exhibits a strict mismatch when edge actions are independently
 reset instead of transporting the whole source action.
 

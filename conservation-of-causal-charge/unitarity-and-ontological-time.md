@@ -321,7 +321,7 @@ the restriction nor the inverse of either expectation. It is a
 different-carrier functional-calculus presentation of the reconstructed
 generator.
 
-[[gauge-boundary-frame-gluing/inq|Gauge Boundary Frames and Gauss Gluing]]
+[[gauge-boundary-frame-gluing/finite-gauss-gluing|Gauge Boundary Frames and Gauss Gluing]]
 give a complementary spatial theorem. A gauge-invariant whole is generally
 not the tensor product of gauge-invariant parts: regional carriers must first
 retain boundary charges, and the physical whole pairs each charge with its

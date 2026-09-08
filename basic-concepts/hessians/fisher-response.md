@@ -124,7 +124,7 @@ For the exponential family above, Fisher response equals static susceptibility a
 
 Fisher information is also not a quantity of hidden facts stored in a state. It is a bilinear response of a specified family under specified variations. Changing the family or tangent changes the question being measured.
 
-[[gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection|Finite-energy path shifts]] give an explicit infinite-dimensional classical example: the heat-state Fisher metric on a declared path action has a dual observable form with a closed realization. First averaging the shift scores over the residual gauge group instead makes their first-order Fisher metric vanish. This does not make the invariant observable response vanish, or provide an inverse of the zero metric; the state tangent, pointwise action derivative, and order of quotienting must remain distinct.
+[[gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection|Finite-energy path shifts]] give an explicit infinite-dimensional classical example: the heat-state Fisher metric on a declared path action has a dual observable form with a closed realization. First averaging the shift scores over the residual gauge group instead makes their first-order Fisher metric vanish. This does not make the invariant observable response vanish, or provide an inverse of the zero metric; the state tangent, pointwise action derivative, and order of quotienting must remain distinct.
 
 ## Primary literature
 

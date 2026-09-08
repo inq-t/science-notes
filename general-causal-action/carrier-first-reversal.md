@@ -43,7 +43,7 @@ $$
 $$
 
 Closability is then a theorem to prove, not a word hidden inside “operator.”
-[[gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability|The
+[[holonomy-state-refinement/heat-state-continuity-and-response-closability|The
 planar heat-state construction]] makes this distinction concrete: every
 finite density is faithful, finite response forms are consistent, and
 yet approximate state-null cylinder sequences carry persistent positive

@@ -1,0 +1,215 @@
+\def\cprime{$'$} \def\polhk#1{\setbox0=\hbox{#1}{\ooalign{\hidewidth \lower1.5ex\hbox{`}\hidewidth\crcr\unhbox0}}}
+\begin{thebibliography}{{Lam}23}
+\def\myhref#1#2{\href{#2}{\nolinkurl{#1}}}
+
+\bibitem[AHPS21]{AHPS21}
+\textsc{M.~{Aizenman}}, \textsc{M.~{Harel}}, \textsc{R.~{Peled}}, and \textsc{J.~{Shapiro}}.
+\newblock {Depinning in integer-restricted Gaussian Fields and BKT phases of two-component spin models}.
+\newblock \emph{arXiv e-prints} (2021).
+\newblock \myhref{arXiv:2110.09498}{https://arxiv.org/abs/2110.09498}.
+
+\bibitem[Ber71]{berezinskii1971destruction}
+\textsc{V.~Berezinskii}.
+\newblock Destruction of long-range order in one-dimensional and two-dimensional systems having a continuous symmetry group i. classical systems.
+\newblock \emph{Sov. Phys. JETP} \textbf{32}, no.~3, (1971), 493--500.
+
+\bibitem[Bre07]{Breuillard_07}
+\textsc{E.~Breuillard}.
+\newblock {Random walks on Lie groups}.
+\newblock \emph{Preprint} (2007).
+
+\bibitem[CC24]{CC22}
+\textsc{A.~Chandra} and \textsc{I.~Chevyrev}.
+\newblock Gauge field marginal of an {A}belian {H}iggs model.
+\newblock \emph{Comm. Math. Phys.} \textbf{405}, no.~6, (2024), Paper No. 143, 43.
+\newblock \myhref{doi:10.1007/s00220-024-05008-4}{https://dx.doi.org/10.1007/s00220-024-05008-4}.
+
+\bibitem[Cha16]{chatterjee2016leading}
+\textsc{S.~Chatterjee}.
+\newblock The leading term of the {Y}ang-{M}ills free energy.
+\newblock \emph{J. Funct. Anal.} \textbf{271}, no.~10, (2016), 2944--3005.
+\newblock \myhref{doi:10.1016/j.jfa.2016.04.032}{https://dx.doi.org/10.1016/j.jfa.2016.04.032}.
+
+\bibitem[Cha19]{chatterjee2019yang}
+\textsc{S.~Chatterjee}.
+\newblock Yang-{M}ills for probabilists.
+\newblock In \emph{Probability and analysis in interacting physical systems: In Honor of SRS Varadhan, Berlin, August, 2016}, vol. 283 of \emph{Springer Proc. Math. Stat.},  1--16. Springer, Cham, 2019.
+\newblock \myhref{doi:10.1007/978-3-030-15338-0_1}{https://dx.doi.org/10.1007/978-3-030-15338-0_1}.
+
+\bibitem[Cha20]{chatterjee2020wilson}
+\textsc{S.~Chatterjee}.
+\newblock Wilson loops in {I}sing lattice gauge theory.
+\newblock \emph{Comm. Math. Phys.} \textbf{377}, no.~1, (2020), 307--340.
+\newblock \myhref{doi:10.1007/s00220-020-03738-9}{https://dx.doi.org/10.1007/s00220-020-03738-9}.
+
+\bibitem[Che18]{Chevyrev18}
+\textsc{I.~Chevyrev}.
+\newblock Random walks and {L}\'{e}vy processes as rough paths.
+\newblock \emph{Probab. Theory Related Fields} \textbf{170}, no. 3-4, (2018), 891--932.
+\newblock \myhref{doi:10.1007/s00440-017-0781-1}{https://dx.doi.org/10.1007/s00440-017-0781-1}.
+
+\bibitem[Che19]{Chevyrev19YM}
+\textsc{I.~Chevyrev}.
+\newblock Yang-{M}ills measure on the two-dimensional torus as a random distribution.
+\newblock \emph{Comm. Math. Phys.} \textbf{372}, no.~3, (2019), 1027--1058.
+\newblock \myhref{doi:10.1007/s00220-019-03567-5}{https://dx.doi.org/10.1007/s00220-019-03567-5}.
+
+\bibitem[CPS23]{cao2023random}
+\textsc{S.~{Cao}}, \textsc{M.~{Park}}, and \textsc{S.~{Sheffield}}.
+\newblock {Random surfaces and lattice Yang-Mills}.
+\newblock \emph{arXiv e-prints} (2023).
+\newblock \myhref{arXiv:2307.06790}{https://arxiv.org/abs/2307.06790}.
+
+\bibitem[CS23]{CS23}
+\textsc{I.~{Chevyrev}} and \textsc{H.~{Shen}}.
+\newblock {Invariant measure and universality of the 2D Yang-Mills Langevin dynamic}.
+\newblock \emph{arXiv e-prints} (2023).
+\newblock \myhref{arXiv:2302.12160}{https://arxiv.org/abs/2302.12160}.
+
+\bibitem[DF22]{dubedat2022random}
+\textsc{J.~{Dub{\'e}dat}} and \textsc{H.~{Falconet}}.
+\newblock {Random clusters in the Villain and XY models}.
+\newblock \emph{arXiv e-prints} (2022).
+\newblock \myhref{arXiv:2210.03620}{https://arxiv.org/abs/2210.03620}.
+
+\bibitem[Dri89]{Driver89}
+\textsc{B.~K. Driver}.
+\newblock Y{M{${}_2$}}: continuum expectations, lattice convergence, and lassos.
+\newblock \emph{Comm. Math. Phys.} \textbf{123}, no.~4, (1989), 575--616.
+\newblock \myhref{doi:10.1007/BF01218586}{https://dx.doi.org/10.1007/BF01218586}.
+
+\bibitem[Fei78]{Feinsilver78}
+\textsc{P.~Feinsilver}.
+\newblock Processes with independent increments on a {L}ie group.
+\newblock \emph{Trans. Amer. Math. Soc.} \textbf{242}, (1978), 73--121.
+\newblock \myhref{doi:10.2307/1997728}{https://dx.doi.org/10.2307/1997728}.
+
+\bibitem[FLV23]{forsstrom2023wilson}
+\textsc{M.~P. Forsstr\"{o}m}, \textsc{J.~Lenells}, and \textsc{F.~Viklund}.
+\newblock Wilson loops in the abelian lattice {H}iggs model.
+\newblock \emph{Probab. Math. Phys.} \textbf{4}, no.~2, (2023), 257--329.
+\newblock \myhref{doi:10.2140/pmp.2023.4.257}{https://dx.doi.org/10.2140/pmp.2023.4.257}.
+
+\bibitem[FS82]{frohlich1982massless}
+\textsc{J.~Fr{\"o}hlich} and \textsc{T.~Spencer}.
+\newblock Massless phases and symmetry restoration in abelian gauge theories and spin systems.
+\newblock \emph{Communications in Mathematical Physics} \textbf{83}, no.~3, (1982), 411--454.
+\newblock \myhref{doi:10.1007/BF01213610}{https://dx.doi.org/10.1007/BF01213610}.
+
+\bibitem[Gin70]{ginibre1970general}
+\textsc{J.~Ginibre}.
+\newblock General formulation of griffiths' inequalities.
+\newblock \emph{Communications in Mathematical Physics} \textbf{16}, no.~4, (1970), 310--328.
+\newblock \myhref{doi:10.1007/BF01646537}{https://dx.doi.org/10.1007/BF01646537}.
+
+\bibitem[GM82]{gopfert1982proof}
+\textsc{M.~G{\"o}pfert} and \textsc{G.~Mack}.
+\newblock Proof of confinement of static quarks in 3-dimensionalu(1) lattice gauge theory for all values of the coupling constant.
+\newblock \emph{Communications in Mathematical Physics} \textbf{82}, no.~4, (1982), 545--606.
+\newblock \myhref{doi:10.1007/BF01961240}{https://dx.doi.org/10.1007/BF01961240}.
+
+\bibitem[Gre63]{Grenander63}
+\textsc{U.~Grenander}.
+\newblock \emph{Probabilities on algebraic structures}.
+\newblock John Wiley \& Sons, Inc., New York-London; Almqvist \& Wiksell, Stockholm-G\"{o}teborg-Uppsala, 1963,  218.
+
+\bibitem[GS23a]{garban2023improved}
+\textsc{C.~Garban} and \textsc{A.~Sep\'{u}lveda}.
+\newblock Improved spin-wave estimate for {W}ilson loops in {$U(1)$} lattice gauge theory.
+\newblock \emph{Int. Math. Res. Not. IMRN} \textbf{2023}, no.~21, (2023), 18142--18198.
+\newblock \myhref{doi:10.1093/imrn/rnac356}{https://dx.doi.org/10.1093/imrn/rnac356}.
+
+\bibitem[GS23b]{garban2023quantitative}
+\textsc{C.~Garban} and \textsc{A.~Sep\'{u}lveda}.
+\newblock Quantitative bounds on vortex fluctuations in {$2d$} {C}oulomb gas and maximum of the integer-valued {G}aussian free field.
+\newblock \emph{Proc. Lond. Math. Soc. (3)} \textbf{127}, no.~3, (2023), 653--708.
+\newblock \myhref{doi:10.1112/plms.12551}{https://dx.doi.org/10.1112/plms.12551}.
+
+\bibitem[Gut80]{guth1980existence}
+\textsc{A.~H. Guth}.
+\newblock Existence proof of a nonconfining phase in four-dimensional {U}(1) lattice gauge theory.
+\newblock \emph{Physical Review D} \textbf{21}, no.~8, (1980), 2291.
+\newblock \myhref{doi:10.1103/PhysRevD.21.2291}{https://dx.doi.org/10.1103/PhysRevD.21.2291}.
+
+\bibitem[HSC93]{Hebisch_Saloff_Coste_93}
+\textsc{W.~Hebisch} and \textsc{L.~Saloff-Coste}.
+\newblock Gaussian estimates for {M}arkov chains and random walks on groups.
+\newblock \emph{Ann. Probab.} \textbf{21}, no.~2, (1993), 673--709.
+\newblock \myhref{doi:10.1214/aop/1176989263}{https://dx.doi.org/10.1214/aop/1176989263}.
+
+\bibitem[JKKN77]{jose1977renormalization}
+\textsc{J.~V. Jos\'e}, \textsc{L.~P. Kadanoff}, \textsc{S.~Kirkpatrick}, and \textsc{D.~R. Nelson}.
+\newblock Renormalization, vortices, and symmetry-breaking perturbations in the two-dimensional planar model.
+\newblock \emph{Phys. Rev. B} \textbf{16}, (1977), 1217--1241.
+\newblock \myhref{doi:10.1103/PhysRevB.16.1217}{https://dx.doi.org/10.1103/PhysRevB.16.1217}.
+
+\bibitem[J{\o}r75]{jorgensen1975central}
+\textsc{E.~J{\o}rgensen}.
+\newblock The central limit problem for geodesic random walks.
+\newblock \emph{Z. Wahrscheinlichkeitstheorie und Verw. Gebiete} \textbf{32}, (1975), 1--64.
+\newblock \myhref{doi:10.1007/BF00533088}{https://dx.doi.org/10.1007/BF00533088}.
+
+\bibitem[{Lam}23]{lammers2023bijecting}
+\textsc{P.~{Lammers}}.
+\newblock {Bijecting the BKT transition}.
+\newblock \emph{arXiv e-prints} (2023).
+\newblock \myhref{arXiv:2301.06905}{https://arxiv.org/abs/2301.06905}.
+
+\bibitem[L{\'e}v03]{Levy03}
+\textsc{T.~L{\'e}vy}.
+\newblock Yang-{M}ills measure on compact surfaces.
+\newblock \emph{Mem. Amer. Math. Soc.} \textbf{166}, no. 790, (2003), xiv+122.
+\newblock \myhref{arXiv:math/0101239}{https://arxiv.org/abs/math/0101239}.
+\newblock \myhref{doi:10.1090/memo/0790}{https://dx.doi.org/10.1090/memo/0790}.
+
+\bibitem[Lup16]{lupu2016loop}
+\textsc{T.~Lupu}.
+\newblock From loop clusters and random interlacements to the free field.
+\newblock \emph{Ann. Probab.} \textbf{44}, no.~3, (2016), 2117--2146.
+\newblock \myhref{doi:10.1214/15-AOP1019}{https://dx.doi.org/10.1214/15-AOP1019}.
+
+\bibitem[Mig75]{Migdal75}
+\textsc{A.~A. Migdal}.
+\newblock {Recursion Equations in Gauge Theories}.
+\newblock \emph{Sov. Phys. JETP} \textbf{42}, (1975), 413.
+
+\bibitem[Ros02]{RossmannBook}
+\textsc{W.~Rossmann}.
+\newblock \emph{Lie groups: an introduction through linear groups}, vol.~5 of \emph{Oxford Graduate Texts in Mathematics}.
+\newblock Oxford University Press, Oxford, 2002,  x+265.
+
+\bibitem[Sei82]{seiler1982gauge}
+\textsc{E.~Seiler}.
+\newblock \emph{Gauge theories as a problem of constructive quantum field theory and statistical mechanics}, vol. 159 of \emph{Lecture Notes in Physics}.
+\newblock Springer-Verlag, Berlin, 1982,  v+192.
+\newblock \myhref{doi:10.1007/3-540-11559-5}{https://dx.doi.org/10.1007/3-540-11559-5}.
+
+\bibitem[SV73]{Stroock_Varadhan_73}
+\textsc{D.~W. Stroock} and \textsc{S.~R.~S. Varadhan}.
+\newblock Limit theorems for random walks on {L}ie groups.
+\newblock \emph{Sankhy\={a} Ser. A} \textbf{35}, no.~3, (1973), 277--294.
+
+\bibitem[vL23]{van2023duality}
+\textsc{D.~{van Engelenburg}} and \textsc{M.~{Lis}}.
+\newblock {On the duality between height functions and continuous spin models}.
+\newblock \emph{arXiv e-prints} (2023).
+\newblock \myhref{arXiv:2303.08596}{https://arxiv.org/abs/2303.08596}.
+
+\bibitem[Weh60]{Wehn_thesis}
+\textsc{D.~Wehn}.
+\newblock \emph{Limit distributions on Lie groups}.
+\newblock Phd thesis, Yale University, 1960.
+
+\bibitem[Weh62]{Wehn62}
+\textsc{D.~Wehn}.
+\newblock Probabilities on {L}ie groups.
+\newblock \emph{Proc. Nat. Acad. Sci. U.S.A.} \textbf{48}, (1962), 791--795.
+\newblock \myhref{doi:10.1073/pnas.48.5.791}{https://dx.doi.org/10.1073/pnas.48.5.791}.
+
+\bibitem[Wit91]{Witten91}
+\textsc{E.~Witten}.
+\newblock On quantum gauge theories in two dimensions.
+\newblock \emph{Comm. Math. Phys.} \textbf{141}, no.~1, (1991), 153--209.
+\newblock \myhref{doi:10.1007/BF02100009}{https://dx.doi.org/10.1007/BF02100009}.
+
+\end{thebibliography}

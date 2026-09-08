@@ -420,7 +420,7 @@ is precisely (TD16g). It is the safer Markov branch. The infimal trace remains
 the sharper realization of least whole-compatible cost, but now carries a
 genuine additional theorem obligation.
 
-[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility|Holonomy refinement]]
+[[holonomy-state-refinement/holonomy-refinement-and-clock-compatibility|Holonomy refinement]]
 computes this pullback for a nonlinear product of gauge links. Its
 induced cometric is the conditional mean of the transported whole
 cometric. For independent-link diffusion the subdivision factors survive

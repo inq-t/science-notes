@@ -1,0 +1,144 @@
+{
+  "source_commit": "809df22",
+  "heading_redirects": {
+    "gauge-boundary-frame-gluing/inq.md": {
+      "The cut must leave a boundary action": "gauge-boundary-frame-gluing/finite-gauss-gluing.md#The cut must leave a boundary action",
+      "The whole is assembled from dual boundary charges": "gauge-boundary-frame-gluing/finite-gauss-gluing.md#The whole is assembled from dual boundary charges",
+      "Closing the parts first loses physical loops": "gauge-boundary-frame-gluing/finite-gauss-gluing.md#Closing the parts first loses physical loops",
+      "Sources and receipt": "gauge-boundary-frame-gluing/finite-gauss-gluing.md#Sources and receipt",
+      "Faithful Wilson weights preserve the carrier, not the factorization": "gauge-boundary-frame-gluing/faithful-state-gluing.md#Faithful Wilson weights preserve the carrier, not the factorization",
+      "The charged innovation frame": "gauge-boundary-frame-gluing/charged-innovation-frame.md#The charged innovation frame",
+      "Where unitarity enters": "gauge-boundary-frame-gluing/charged-innovation-frame.md#Where unitarity enters",
+      "Gauge Boundary Frames and Gauss Gluing": "gauge-boundary-frame-gluing/inq.md#Gauge Boundary Frame Gluing",
+      "Claim boundary": "gauge-boundary-frame-gluing/inq.md"
+    },
+    "gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement.md": {
+      "Overlap Kernels and Face Refinement": "holonomy-state-refinement/overlap-kernels-and-face-refinement.md#Overlap kernels and face refinement"
+    },
+    "holonomy-state-refinement/overlap-kernels-and-face-refinement.md": {
+      "Overlap Kernels and Face Refinement": "holonomy-state-refinement/overlap-kernels-and-face-refinement.md#Overlap kernels and face refinement"
+    },
+    "gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility.md": {
+      "Holonomy Refinement and Clock Compatibility": "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md#Holonomy refinement and clock compatibility"
+    },
+    "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md": {
+      "Holonomy Refinement and Clock Compatibility": "holonomy-state-refinement/holonomy-refinement-and-clock-compatibility.md#Holonomy refinement and clock compatibility"
+    },
+    "gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability.md": {
+      "Heat-State Continuity and Response Closability": "holonomy-state-refinement/heat-state-continuity-and-response-closability.md#Heat-state continuity and response closability"
+    },
+    "holonomy-state-refinement/heat-state-continuity-and-response-closability.md": {
+      "Heat-State Continuity and Response Closability": "holonomy-state-refinement/heat-state-continuity-and-response-closability.md#Heat-state continuity and response closability"
+    },
+    "gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock.md": {
+      "Shared-Driver Response and the Nested-Holonomy Clock": "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md#Shared-driver response and the nested-holonomy clock"
+    },
+    "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md": {
+      "Shared-Driver Response and the Nested-Holonomy Clock": "gauge-path-fisher-response/shared-driver-response-and-the-nested-holonomy-clock.md#Shared-driver response and the nested-holonomy clock"
+    },
+    "gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection.md": {
+      "Path-Shift Fisher Geometry Before Gauge Projection": "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md#Path-shift Fisher geometry before gauge projection"
+    },
+    "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md": {
+      "Path-Shift Fisher Geometry Before Gauge Projection": "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md#Path-shift Fisher geometry before gauge projection"
+    },
+    "gauge-boundary-frame-gluing/two-sided-fisher-completion-and-the-neutral-carrier.md": {
+      "Two-Sided Fisher Completion and the Neutral Carrier": "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md#Two-sided Fisher completion and the neutral carrier"
+    },
+    "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md": {
+      "Two-Sided Fisher Completion and the Neutral Carrier": "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md#Two-sided Fisher completion and the neutral carrier"
+    },
+    "gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect.md": {
+      "Heat-Factor Response and the Compression Defect": "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md#Heat-factor response and the compression defect"
+    },
+    "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md": {
+      "Heat-Factor Response and the Compression Defect": "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md#Heat-factor response and the compression defect"
+    },
+    "gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response.md": {
+      "A Haar-Vertex Source for Joint Gauge Response": "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md#Haar-Vertex Source and Joint Gauge Response"
+    },
+    "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md": {
+      "A Haar-Vertex Source for Joint Gauge Response": "gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response.md#Haar-Vertex Source and Joint Gauge Response"
+    },
+    "gauge-boundary-frame-gluing/loop-correlations-and-the-source-response.md": {
+      "Loop Correlations Change the Source Response": "gauge-graph-source-response/loop-correlations-and-the-source-response.md#Loop Correlations and the Source Response"
+    },
+    "gauge-graph-source-response/loop-correlations-and-the-source-response.md": {
+      "Loop Correlations Change the Source Response": "gauge-graph-source-response/loop-correlations-and-the-source-response.md#Loop Correlations and the Source Response"
+    },
+    "gauge-boundary-frame-gluing/local-interaction-cocycle-and-global-source-response.md": {
+      "Local Interaction Likelihoods and the Global Source Response": "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md#Local Interaction Cocycle and Global Source Response"
+    },
+    "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md": {
+      "Local Interaction Likelihoods and the Global Source Response": "gauge-graph-source-response/local-interaction-cocycle-and-global-source-response.md#Local Interaction Cocycle and Global Source Response"
+    },
+    "gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action.md": {
+      "A Joint Path Law Forces a Shared Boundary Action": "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md#Joint Path Law and the Shared Boundary Action"
+    },
+    "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md": {
+      "A Joint Path Law Forces a Shared Boundary Action": "gauge-source-action-transport/joint-path-law-and-the-shared-boundary-action.md#Joint Path Law and the Shared Boundary Action"
+    },
+    "gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts.md": {
+      "Source Actions Must Travel with the Cut": "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md#Source Action Transport through Ordered Cuts",
+      "Coherent spatial extension retains its reference experiment": "prepared-vacuum-fisher-comparison/coherent-source-subdivision.md#Coherent spatial extension retains its reference experiment"
+    },
+    "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md": {
+      "Source Actions Must Travel with the Cut": "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md#Source Action Transport through Ordered Cuts",
+      "Coherent spatial extension retains its reference experiment": "prepared-vacuum-fisher-comparison/coherent-source-subdivision.md#Coherent spatial extension retains its reference experiment"
+    },
+    "gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison.md": {
+      "The Physical Vacuum Gives a Fisher Comparison, Not the Same Clock": "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md#Physical Vacuum Lift and Fisher Comparison"
+    },
+    "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md": {
+      "The Physical Vacuum Gives a Fisher Comparison, Not the Same Clock": "prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison.md#Physical Vacuum Lift and Fisher Comparison"
+    },
+    "gauge-boundary-frame-gluing/prepared-vacuum-subdivision-and-the-recovered-clock.md": {
+      "Subdivision Erases the Prepared-Vacuum Fisher Correction": "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md#Prepared Vacuum Subdivision and the Recovered Clock"
+    },
+    "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md": {
+      "Subdivision Erases the Prepared-Vacuum Fisher Correction": "prepared-vacuum-fisher-comparison/prepared-vacuum-subdivision-and-the-recovered-clock.md#Prepared Vacuum Subdivision and the Recovered Clock"
+    }
+  },
+  "active_heading_repairs": [
+    {
+      "source": "gauge-boundary-frame-gluing/oriented-context-gluing-and-mixed-response.md",
+      "from": "inq#Faithful Wilson weights preserve the carrier, not the factorization",
+      "to": "gauge-boundary-frame-gluing/faithful-state-gluing#Faithful Wilson weights preserve the carrier, not the factorization"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/oriented-context-gluing-and-mixed-response.md",
+      "from": "inq#The whole is assembled from dual boundary charges",
+      "to": "gauge-boundary-frame-gluing/finite-gauss-gluing#The whole is assembled from dual boundary charges"
+    },
+    {
+      "source": "gauge-path-fisher-response/heat-factor-response-and-the-compression-defect.md",
+      "from": "gauge-boundary-frame-gluing/inq#The whole is assembled from dual boundary charges",
+      "to": "gauge-boundary-frame-gluing/finite-gauss-gluing#The whole is assembled from dual boundary charges"
+    },
+    {
+      "source": "gauge-path-fisher-response/path-shift-fisher-geometry-before-gauge-projection.md",
+      "from": "gauge-boundary-frame-gluing/inq#Closing the parts first loses physical loops",
+      "to": "gauge-boundary-frame-gluing/finite-gauss-gluing#Closing the parts first loses physical loops"
+    },
+    {
+      "source": "gauge-path-fisher-response/two-sided-fisher-completion-and-the-neutral-carrier.md",
+      "from": "gauge-boundary-frame-gluing/inq#The whole is assembled from dual boundary charges",
+      "to": "gauge-boundary-frame-gluing/finite-gauss-gluing#The whole is assembled from dual boundary charges"
+    }
+  ],
+  "semantic_imports": [
+    "equivalent-measure-carriers/inq.md -> faithful-state-gluing and vacuum-aligned-innovation-completion",
+    "finite-gauss-gluing -> gauge-cycle-innovation-filtration and unitarity-and-ontological-time",
+    "trace-dirichlet-descent finite Dirichlet-to-Neumann operator -> local-interaction-cocycle IC14"
+  ],
+  "section_extraction": {
+    "gauge-boundary-frame-gluing/inq.md": [
+      "finite-gauss-gluing.md",
+      "faithful-state-gluing.md",
+      "charged-innovation-frame.md"
+    ],
+    "gauge-source-action-transport/source-action-transport-through-ordered-cuts.md": [
+      "prepared-vacuum-fisher-comparison/coherent-source-subdivision.md: ST11-ST15"
+    ]
+  }
+}

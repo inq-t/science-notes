@@ -36,7 +36,7 @@ free torsor.
 When both contexts have rank four, \(H_L=H_R=\{1\}\).
 Three independent shared vectors then leave no relative rotation,
 whereas two leave a full \(SO(2)\) angle. This is an instance of
-[[inq#Faithful Wilson weights preserve the carrier, not the factorization|stabilizer-relative gluing]],
+[[gauge-boundary-frame-gluing/faithful-state-gluing#Faithful Wilson weights preserve the carrier, not the factorization|stabilizer-relative gluing]],
 not a universal binary orientation rule.
 
 ## Three shared vectors give a singular reconstruction chart
@@ -123,7 +123,7 @@ The first angular harmonics are paired opposite \(SO(2)\) charges:
 a function of the relative angle is invariant under a common
 rotation, but not under independent rotations. This is precisely
 the distinction between
-[[inq#The whole is assembled from dual boundary charges|diagonal charge pairing]]
+[[gauge-boundary-frame-gluing/finite-gauss-gluing#The whole is assembled from dual boundary charges|diagonal charge pairing]]
 and separate regional closure.
 
 ## The missing angle changes the actual response
@@ -320,7 +320,7 @@ selecting law the construction passes fixed-input consistency, not
 the stronger test against encoding arbitrary desired dynamics.
 
 The result refines the [[general-causal-action/research-schema|joint-realization programme]].
-[[haar-vertex-source-and-joint-gauge-response|The retained graph-source test]]
+[[gauge-graph-source-response/haar-vertex-source-and-joint-gauge-response|The retained graph-source test]]
 now supplies this mixed interface law from one source metric and
 returns its state and full Gauss carrier as well. It has a different,
 explicitly gauge-averaged heat state, so the Haar coefficient (OC13)
@@ -329,7 +329,7 @@ uses additional state/response information, not algebraic coverage
 or a dense core alone. Selecting a Yang--Mills member and its physical
 calibration remains a separate obligation.
 
-[[receipts/overlapping_plaquette_transfer_receipt.py|The finite receipt]]
+[[holonomy-state-refinement/receipts/overlapping_plaquette_transfer_receipt.py|The finite receipt]]
 checks the raw quaternion gluing identities, actual Pauli derivatives,
 relative-angle moments and response-generated row replacement.
 The orbit, domain and core conclusions are analytic arguments above,

@@ -1,0 +1,113 @@
+{
+  "description": "Primary artifacts for villain-action-in-lattice-gauge-theory; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:2404.09928v2",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/2404.09928v2",
+      "version": "2404.09928v2",
+      "attempted_at": "2026-09-08T21:31:22.019149+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/2404.09928v2",
+      "content_type": "application/pdf",
+      "path": "arxiv-2404.09928v2.pdf",
+      "bytes": 531737,
+      "sha256": "89720d61bd0c0ebc2ac7e27d0d808de7ed8c13fc73f863c79302d38293cb2ae4",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 18,
+        "first_page_text_prefix": "Villain action in lattice gauge theory\nIlya Chevyrev1 and Christophe Garban2\n1 Institut f ¨ur Mathematik, TU Berlin, 10623 Berlin, Germany, and School\nof Mathem"
+      }
+    },
+    {
+      "path": "arxiv-2404.09928v2.tar.gz",
+      "url": "https://arxiv.org/src/2404.09928v2",
+      "version": "2404.09928v2",
+      "kind": "existing-primary-source",
+      "verified_at": "2026-09-08T21:31:22.301023+00:00",
+      "bytes": 73792,
+      "sha256": "aaf38fcfc7919bdc5facda09be6e3e849e1541defd1f72d1cc3aab23695852e7",
+      "origin": "Previously archived author source; original retrieval date unrecorded. The retained entry note recorded this byte count and SHA-256."
+    },
+    {
+      "path": "source/carpet_graph.bbl",
+      "bytes": 10653,
+      "sha256": "eb8657dddf048b5ecd7f35ba181cac23d85927d402e69fdc0b671e3330248f5f",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "carpet_graph.bbl"
+    },
+    {
+      "path": "source/carpet_graph.tex",
+      "bytes": 56004,
+      "sha256": "06e27f4b519bec9227540ecaff07d104ccec394b4abd293bfa49ad67b86566df",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "carpet_graph.tex"
+    },
+    {
+      "path": "source/comment.sty",
+      "bytes": 3083,
+      "sha256": "f9d014020da1af4c5c22e7322e3e6bbdf54dcb5919707c7c2ec9b01b4367808f",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "comment.sty"
+    },
+    {
+      "path": "source/FigureCarpet.pdf",
+      "bytes": 36389,
+      "sha256": "e12d1b7a6b31b787f1fc2f2d6c7e9cf049681a0648c85e709243d733f510182c",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "FigureCarpet.pdf"
+    },
+    {
+      "path": "source/Martin.bst",
+      "bytes": 29756,
+      "sha256": "b98bae908e11d674a044e3746b81dca14dc27ec2b835d90fcdf99dc34566925c",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "Martin.bst"
+    },
+    {
+      "path": "source/mhenvs.sty",
+      "bytes": 2549,
+      "sha256": "c21a0bbe1ec236595eb50d0c9943cafae0517223e6939b144559f7af435e8324",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "mhenvs.sty"
+    },
+    {
+      "path": "source/mhfig.sty",
+      "bytes": 5044,
+      "sha256": "469d0b745124ae21c0f76af2f6e18bb3fb0d3253a649b9c3dd228919a013e43d",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "mhfig.sty"
+    },
+    {
+      "path": "source/mhsymb.sty",
+      "bytes": 7722,
+      "sha256": "fd6728c7a8821b707a2763bc7da32a40f5469f32adf6b3e7b31f683430f3e8eb",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "mhsymb.sty"
+    },
+    {
+      "path": "source/preprint.cls",
+      "bytes": 22852,
+      "sha256": "edf648e0b8cb0dd90e75a503b47112041221398e055ad574f04b8dc54279282c",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-2404.09928v2.tar.gz",
+      "method": "Byte-preserving tar extraction.",
+      "archive_member": "preprint.cls"
+    }
+  ]
+}

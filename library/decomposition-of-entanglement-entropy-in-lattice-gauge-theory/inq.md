@@ -4,19 +4,29 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords:
+  - "lattice gauge theory"
+  - "extended Hilbert spaces"
+  - "boundary representations"
+  - "spin networks"
+  - "entanglement entropy"
 ---
 # Decomposition of Entanglement Entropy in Lattice Gauge Theory
 
-Donnelly embeds the physical lattice-gauge Hilbert space into regional spaces with open boundary indices and decomposes those edge states into irreducible boundary representations. Gluing contracts dual representation indices; the resulting entropy separates boundary-representation uncertainty, a nonabelian representation-dimension term, and nonlocal correlations.
+Donnelly constructs regional lattice-gauge Hilbert spaces with boundary states that carry nontrivial gauge representations. Decomposing these representations separates entanglement entropy into boundary-representation uncertainty, a representation-dimension contribution for non-Abelian groups, and nonlocal correlations. The construction is applied to several lattice-gauge states, including a strong-coupling ground-state expansion.
 
 ## Metadata
 
 - **Author:** William Donnelly.
-- **Submitted:** 2011-08-31; revised 2012-04-26.
 - **Published:** *Physical Review D* **85**, 085004 (2012).
-- **arXiv:** [1109.0036v2](https://arxiv.org/abs/1109.0036v2).
+- **First submitted:** 31 August 2011.
+- **Archived version:** [arXiv:1109.0036v2](https://arxiv.org/abs/1109.0036v2), 26 April 2012; 8 pages, matching the published version.
 - **DOI:** [10.1103/PhysRevD.85.085004](https://doi.org/10.1103/PhysRevD.85.085004).
-- **Relevant locator:** Section II, especially equations (1), (14), and (18)--(20).
-- **Local artifacts:** none.
 
-The opening paragraph paraphrases the abstract and the cited construction. This library entry records the source without identifying entanglement entropy with a mass-gap functional.
+## Local sources
+
+- [[library/decomposition-of-entanglement-entropy-in-lattice-gauge-theory/arxiv-1109-0036v2.pdf|Author PDF, archived version]].
+- [[library/decomposition-of-entanglement-entropy-in-lattice-gauge-theory/arxiv-1109-0036v2.tar.gz|Original author source archive]].
+- [[library/decomposition-of-entanglement-entropy-in-lattice-gauge-theory/source/lattice.bbl|Author bibliography]].
+- [[library/decomposition-of-entanglement-entropy-in-lattice-gauge-theory/source/lattice.tex|Author LaTeX]].
+- [[library/decomposition-of-entanglement-entropy-in-lattice-gauge-theory/source-provenance.json|Source URLs, versions, and SHA-256 hashes]].

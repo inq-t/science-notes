@@ -41,7 +41,7 @@ For spin \(j\in\{0,\tfrac12,1,\ldots\}\), put
 Gauge invariance makes the one-link marginal exactly Haar:
 rotate its source vertex and integrate the other link variables.
 This is the
-[[gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison#Haar marginals remove the reference Hessian|existing marginal identity]].
+[[prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison#Haar marginals remove the reference Hessian|existing marginal identity]].
 Thus the \(d_j^2\) entries in (CW3) are orthonormal.
 For \(j>0\), they are orthogonal to the constant vacuum.
 

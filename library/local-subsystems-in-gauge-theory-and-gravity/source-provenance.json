@@ -1,0 +1,51 @@
+{
+  "description": "Primary artifacts for local-subsystems-in-gauge-theory-and-gravity; original author bytes are preserved.",
+  "bibliographic_identifier": "arXiv:1601.04744v2",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1601.04744v2",
+      "version": "1601.04744v2",
+      "attempted_at": "2026-09-08T21:23:55.071042+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/1601.04744v2",
+      "content_type": "application/pdf",
+      "path": "arxiv-1601-04744v2.pdf",
+      "bytes": 443978,
+      "sha256": "68e8b2465815b9be220a27028f19dc40b0fb2d2fe0eb93d73cfbeed300ee764f",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 46,
+        "first_page_text_prefix": "arXiv:1601.04744v2  [hep-th]  8 Sep 2016\nPrepared for submission to JHEP\nLocal subsystems in gauge theory and gravity\nWilliam Donnelly a Laurent Freidel b\naDepa"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/1601.04744v2",
+      "version": "1601.04744v2",
+      "attempted_at": "2026-09-08T21:23:55.107901+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/src/1601.04744v2",
+      "content_type": "application/gzip",
+      "path": "arxiv-1601-04744v2.tar.gz",
+      "bytes": 45090,
+      "sha256": "d2a8fbb2eabe33e946320e63928a2235334e7dbf7aeff9b3e378a3f7239e8947"
+    },
+    {
+      "path": "source/symplectic.bbl",
+      "bytes": 21328,
+      "sha256": "e6a23544be2e6d8622298209052fe0cffe43e79cf79fd315ad1b9a0bfe4dc7dc",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1601-04744v2.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "symplectic.bbl"
+    },
+    {
+      "path": "source/symplectic.tex",
+      "bytes": 132464,
+      "sha256": "4d93d549aa3d826dfb1ce8d8032b87067c6fa6ce7607f20d5eaba998da1f3a66",
+      "kind": "extracted-author-source",
+      "derived_from": "arxiv-1601-04744v2.tar.gz",
+      "method": "Byte-preserving extraction of every regular file in the author tar archive.",
+      "archive_member": "symplectic.tex"
+    }
+  ]
+}

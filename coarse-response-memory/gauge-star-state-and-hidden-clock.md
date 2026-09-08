@@ -23,7 +23,7 @@ Changing variables \(v_i=g_i h\) proves the pushforward identity and the actual 
 d\nu_g(h)=A(g)^{-1}\prod_i p_i(g_i h)\,dh.
 \tag{GS2}
 \]
-Replacing \(h\) by \(u^{-1}\) identifies (GS1) with the normalized [[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement#The exact response of a coincident boundary star|shared-edge star integral]]. For unnormalized weights \(w_i\), its normalizer is \(\prod_i\int w_i\). This is a static identity. A based heat reference at finite time has an extra heat density in (GS1) and is a different framed state.
+Replacing \(h\) by \(u^{-1}\) identifies (GS1) with the normalized [[holonomy-state-refinement/overlap-kernels-and-face-refinement#The exact response of a coincident boundary star|shared-edge star integral]]. For unnormalized weights \(w_i\), its normalizer is \(\prod_i\int w_i\). This is a static identity. A based heat reference at finite time has an extra heat density in (GS1) and is a different framed state.
 
 The carrier here is the **full framed boundary** \(L^2(G^m,\mu)\). If all profiles are central, simultaneous conjugation is a symmetry and its invariant subspace is also available. Separate invariance in every factor would discard boundary charge pairings. General noncentral profiles require transforming their backgrounds before asserting gauge covariance.
 

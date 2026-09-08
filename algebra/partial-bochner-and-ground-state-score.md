@@ -82,7 +82,7 @@ the first-score estimate alone.
 
 For \(SU(2)\) with \(Q=-2\operatorname{Tr}\), the round-sphere
 radius is two and \(\operatorname{Ric}=Q/2\), as fixed in
-[[gauge-boundary-frame-gluing/heat-state-continuity-and-response-closability|the heat-state normalization]].
+[[holonomy-state-refinement/heat-state-continuity-and-response-closability|the heat-state normalization]].
 A plaquette function \(q_p=\tfrac12\operatorname{Tr}\operatorname{Hol}_p\)
 satisfies \(|\nabla_eq_p|\le1/2\) for each single edge occurrence.
 For common \(\kappa\) and
@@ -465,7 +465,7 @@ For a \(Q\)-unit \(SU(2)\) generator on one link,
 If two links share no plaquette, their energy-Gram entry vanishes
 exactly. This is not independence, a pointwise vanishing mixed
 score, or sparsity of the conditional covariance.
-[[gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison#The score energy is a plaquette-corner response|The endpoint gauge decomposition]]
+[[prepared-vacuum-fisher-comparison/physical-vacuum-lift-and-fisher-comparison#The score energy is a plaquette-corner response|The endpoint gauge decomposition]]
 turns (KS4) into a volume-uniform matrix bound and a separate
 charged-sector covariance bound.
 

@@ -68,7 +68,7 @@ states and their interacting evolution together. The feature tensors in
 (OR2) are not such a law for composing physical subsystems. Placing copies
 of \(X\) on a separately chosen graph and appending interactions would
 reintroduce the arena and dynamics as independent inputs.
-[[gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement|The group-side face-refinement construction]]
+[[holonomy-state-refinement/overlap-kernels-and-face-refinement|The group-side face-refinement construction]]
 is a limited bridge: a faithful trace comparison determines a joint gauge
 law on a supplied box through exact boundary integration. Its group and
 face-product prescription are explicit additional inputs, not consequences
