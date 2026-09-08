@@ -239,7 +239,7 @@ $$
 
 The conditional profile has differential entropy \(2\) nats, location Fisher information \(1/3\), and half-density Dirichlet energy \(1/12\), independently of \(\lambda\). These constants describe the **shape and resolution noise** of the canonical odds readout. They do not locate the channel on scale.
 
-This is also why the construction is not a wave-function-collapse mechanism. It supplies an effect-valued scale readout and an isometric dilation. It does not choose an outcome, form a record, or turn a possibility into a fact. [[physical-distinction-coercivity]] keeps pointing, actualization, and spectral coercivity in separate slots.
+This is also why the construction is not a wave-function-collapse mechanism. It supplies an effect-valued scale readout and an isometric dilation. It does not choose an outcome, form a record, or turn a possibility into a fact. [[physical-response-coercivity/physical-distinction-coercivity]] keeps pointing, actualization, and spectral coercivity in separate slots.
 
 ## A lower spectral edge is a center ceiling; mass requires a Casimir solder
 
@@ -422,7 +422,7 @@ $$
 
 Multiplying the input operator by a common scale therefore translates its analysis profile; it does not change the logistic shape. This is the correct torsor behavior of scale origin.
 
-At a finite Yang--Mills regulator, the exact interface theorem in [[vacuum-boundary-gluing-and-wall-response]] supplies
+At a finite Yang--Mills regulator, the exact interface theorem in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]] supplies
 
 $$
 B_r^{\mathrm{OS}}:

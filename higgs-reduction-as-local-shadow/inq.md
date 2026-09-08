@@ -179,7 +179,7 @@ $$
 \tag{HLS7a}
 $$
 
-The first factor is the scale-free coercivity question; the second points the one-scale family in physical units. [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick|Cosmological selection of the Yang--Mills yardstick]] keeps those jobs separate. A deeper theory may derive a relation between \(\Lambda_{\mathrm{YM}}\), an electroweak mass, and a cosmic invariant, but that is an additional cross-sector theorem rather than part of the pure-gauge Clay statement.
+The first factor is the scale-free coercivity question; the second points the one-scale family in physical units. [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick|Cosmological selection of the Yang--Mills yardstick]] keeps those jobs separate. A deeper theory may derive a relation between \(\Lambda_{\mathrm{YM}}\), an electroweak mass, and a cosmic invariant, but that is an additional cross-sector theorem rather than part of the pure-gauge Clay statement.
 
 In particular, using a measured \(Z\)-boson or glueball mass to set \(\ell_*\) and then announcing the returned glueball mass is circular. A cross-sector relation is explanatory only if the common upstream invariant and both reconstruction maps are independently fixed. [[global-local-response-reconstruction/inq|Global--local response reconstruction]] keeps the scale selector and attenuation edge as separate proof obligations.
 

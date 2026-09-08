@@ -295,7 +295,7 @@ $$
 C_2^G(R),
 $$
 
-the dimensionless quadratic Casimir of the **internal gauge group**. It controls link-Laplacian eigenvalues in the regulated electric form. It is not the spacetime Casimir \(P^2\). [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity]] proves how internal representation data contribute to a regulator-level coercivity constant; dynamics, the vacuum weight, continuum passage, and the energy scale are still required before that number can constrain \((\mathrm{MG})\).
+the dimensionless quadratic Casimir of the **internal gauge group**. It controls link-Laplacian eigenvalues in the regulated electric form. It is not the spacetime Casimir \(P^2\). [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] proves how internal representation data contribute to a regulator-level coercivity constant; dynamics, the vacuum weight, continuum passage, and the energy scale are still required before that number can constrain \((\mathrm{MG})\).
 
 ## The common realization ledger
 
@@ -376,7 +376,7 @@ $$
 \Delta_E\|(1-P_0)\Psi\|^2.
 $$
 
-This is a statement about every vector in the form domain, whether or not anyone measures it. It supplies neither \(i_*\) nor \(\mathcal R\). A gap may make records dynamically robust, and a fact-forming wall may help construct the same carrier on which the gap is proved, but those are comparison theorems still to be built. [[contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity]] gives the exact same-carrier formulation.
+This is a statement about every vector in the form domain, whether or not anyone measures it. It supplies neither \(i_*\) nor \(\mathcal R\). A gap may make records dynamically robust, and a fact-forming wall may help construct the same carrier on which the gap is proved, but those are comparison theorems still to be built. [[physical-response-coercivity/physical-distinction-coercivity]] gives the exact same-carrier formulation.
 
 ## Why symmetry breaking is not yet the gap
 
@@ -867,7 +867,7 @@ $$
 
 The conclusion is an operator inequality in quadratic-form sense.
 
-[[contemporary-puzzles/yang-mills-mass-gap/causal-frame-coercivity]] provides the family-valued version, and [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times]] proves why the operator that forms or forgets the observable carrier cannot itself be the tangential response form that gaps excitations within that carrier.
+[[physical-response-coercivity/causal-frame-coercivity]] provides the family-valued version, and [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]] proves why the operator that forms or forgets the observable carrier cannot itself be the tangential response form that gaps excitations within that carrier.
 
 The Casimir insight adds the spectral stopping condition. After Poincare recovery, the same theorem must imply
 

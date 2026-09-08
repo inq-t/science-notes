@@ -413,7 +413,7 @@ The proposed reversal can now be stated without identifying concepts that merely
 \tag{DG19}
 \]
 
-The left branch is the open area weld of [[program-core/causal-capacity-equivalence]]. The right branch is the transfer/OS construction of [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response]]. [[program-core/record-scale-soldering]] gives the categorical grammar: a common additive cocycle can have record, scale, entropy, and geometric representations only through explicit natural maps. The bridge in the centre—not dimensional substitution—is the sought explanation.
+The left branch is the open area weld of [[program-core/causal-capacity-equivalence]]. The right branch is the transfer/OS construction of [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]]. [[program-core/record-scale-soldering]] gives the categorical grammar: a common additive cocycle can have record, scale, entropy, and geometric representations only through explicit natural maps. The bridge in the centre—not dimensional substitution—is the sought explanation.
 
 A promising finite-regulator route is to integrate hidden bulk variables at fixed interface data. The negative logarithm of the resulting marginal density is a boundary effective action; its Hessian measures retained stiffness after hidden fluctuations have softened the bare response. In the Gaussian member this is exactly a Schur complement or Dirichlet-to-Neumann form. A nonlinear, gauge-invariant marginal-Hessian estimate could therefore be the common object whose two realized readings are boundary ledger response and transfer coercivity. It would still have to cover the full vacuum complement and remain uniform on the continuum trajectory.
 

@@ -386,7 +386,7 @@ $$
 \int_{\mathbb R}\|\partial_NF\|^2\,\mathrm d\mu.
 $$
 
-The analysis map must not hide the already constructible correspondence leg. Under the reflection-Markov, reflection-fixed-separator, and dense-interface-insertion hypotheses of [[vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS interface theorem]], conditional expectation induces a unitary
+The analysis map must not hide the already constructible correspondence leg. Under the reflection-Markov, reflection-fixed-separator, and dense-interface-insertion hypotheses of [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS interface theorem]], conditional expectation induces a unitary
 
 $$
 B_r^{\mathrm{OS}}:
@@ -529,7 +529,7 @@ The coefficient \(1/2\) is then dimensionless and algebraically fixed under that
 
 ## Compatibility with local QFT
 
-The scale coordinate must not be silently introduced as an observable scalar field. Compatibility requires the chain in [[descent-loss-cocycle-and-recovery-fork#QFT compatibility belongs after the nonfaithful quotient|the QFT-recovery fork]]:
+The scale coordinate must not be silently introduced as an observable scalar field. Compatibility requires the chain in [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#QFT compatibility belongs after the nonfaithful quotient|the QFT-recovery fork]]:
 
 $$
 \mathcal A_r^{\mathrm{pre}}

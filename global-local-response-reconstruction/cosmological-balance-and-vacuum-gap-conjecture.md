@@ -41,7 +41,7 @@ B_{\mathrm{cos}}
 
 The function \(\mathcal F_{\mathfrak I}\) is an unconstructed consequence demanded of (BV1), not a free function to fit. No density ratio or power law has been chosen for it. Defining \(E_*\) from the measured gap, adjusting the selected cosmic cut to match it, or absorbing disagreement into a new calibration would make the relation circular.
 
-Constants such as \(c,G,k_B\), and any action-to-clock conversion can enter a recovered presentation with declared meanings. They do not themselves identify its carriers. [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick|Cosmological yardstick selection]] separately distinguishes selection of a dimensional member from proof that its dimensionless local gap coefficient is positive.
+Constants such as \(c,G,k_B\), and any action-to-clock conversion can enter a recovered presentation with declared meanings. They do not themselves identify its carriers. [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick|Cosmological yardstick selection]] separately distinguishes selection of a dimensional member from proof that its dimensionless local gap coefficient is positive.
 
 ## Positivity has several different meanings here
 

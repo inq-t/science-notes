@@ -298,7 +298,7 @@ Conversely, an energy gap \(\Delta_E\) gives the optimal floor
 
 The factor \(1/2\) is forced by the squared norm in (RP20).  A proof of an innovation floor is therefore a proof of the corresponding transfer contraction; the archive does not make the analytic estimate easier by definition.  It may, however, expose a more geometric object on which to seek the estimate.
 
-This equivalence is the filtration form of the past-future contraction studied in [[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap|Past-Future Angle and the Transfer Gap]].
+This equivalence is the filtration form of the past-future contraction studied in [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|Past-Future Angle and the Transfer Gap]].
 
 ## 6. Finite Wilson specialization: prepare the vacuum at the outer walls
 
@@ -370,7 +370,7 @@ P(U_0,dU_1)\cdots P(U_{r-1},dU_r).
 \tag{RP30}
 \]
 
-Indeed, the factors of \(\psi_0\) telescope exactly under (RP26).  This is the stationary Doob path to which (RP1)-(RP24) apply.  The preparation theorem and its boundary hypotheses are developed in [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response|Vacuum Boundary Gluing and Wall Response]].
+Indeed, the factors of \(\psi_0\) telescope exactly under (RP26).  This is the stationary Doob path to which (RP1)-(RP24) apply.  The preparation theorem and its boundary hypotheses are developed in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|Vacuum Boundary Gluing and Wall Response]].
 
 A periodic two-cut density proportional to
 

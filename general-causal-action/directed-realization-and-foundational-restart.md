@@ -8,7 +8,7 @@ The [[contemporary-puzzles/yang-mills-mass-gap/deep-research/report-source|resea
 
 | Retained result | Achievement in its declared domain | Independent input still present |
 |---|---|---|
-| [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|Oriented descent]] and [[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|exceptional stabilizers]] | Symmetry can be the stabilizer of a prior oriented operation | The selected operation, pointing and physical realization |
+| [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|Oriented descent]] and [[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|exceptional stabilizers]] | Symmetry can be the stabilizer of a prior oriented operation | The selected operation, pointing and physical realization |
 | [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization|Exceptional Wilson factorization]] | A genuine holonomy carrier, plaquette probe and coefficient conversion | Product Haar law, couplings, interacting vacuum and continuum construction |
 | [[algebra/quotient-unitarity-and-kernel-stabilization|Quotient unitarity]] | A one-sided prequotient semigroup can become reversible on its realized carrier | Its invariant positive form, actual dynamics, positive energy and clock interpretation |
 | [[strong-coupling-gap-and-continuum-crossover/wilson-to-hamiltonian-vacuum-limit|The Hamiltonian vacuum limit]] | A scoped physical lattice gap, uniform in volume and temporal refinement in the specified small magnetic/electric-ratio regime | Spatial continuum control and the required weak-bare-coupling trajectory |

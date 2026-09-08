@@ -336,7 +336,7 @@ the completed physical carrier. The categorical measured action has a
 different job: it
 must preserve that kernel well enough to induce bounded contractions on the
 quotient, whose non-scalar defect is then compared with physical energy.
-[[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder#The local-unitary bridge has a centralizer kernel|The
+[[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder#The local-unitary bridge has a centralizer kernel|The
 local-unitary centralizer theorem]] gives the first falsification test:
 regional centralizer and purification directions invisible to the response
 must also be null for the categorical defect. Only after that compatibility,

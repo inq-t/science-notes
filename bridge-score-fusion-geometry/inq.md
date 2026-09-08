@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [bridge, fusion-residue, conditional-score, fisher-response, middle-insertion, transfer-defect]
 ---
 # Bridge-Score Fusion Geometry
 
@@ -289,7 +290,7 @@ $$
 
 The Fisher Gramian is the positive covariance term **subtracted** from the
 Hessian of \(-\log Z\), not generally the effective Hessian itself.
-[[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|The nonlinear marginal theorem]]
+[[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|The nonlinear marginal theorem]]
 owns the corresponding curved-fiber, Witten-operator, and form-domain
 statements. If the reference measure varies with \(q\), its log-density must
 be absorbed into \(\mathscr V_q\), or its score and geometric
@@ -536,9 +537,12 @@ I-P^{2n}.}
 $$
 
 This is a canonical history-sensitive same-carrier solder. It differs from
-the canonical endpoint lift of the composite GNS carrier, which lies
-entirely in the cyclic range and is annihilated by the fusion-residue
-projection.
+the canonical endpoint lift: the cyclic inclusion \(\mathsf V\) obeys
+\((I-\mathsf V\mathsf V^*)\mathsf V=0\), so that pullback of the residue is
+zero. The [[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|fusion/transfer distinction]]
+proves this for pointed noncommutative correspondences too. Middle insertion
+reaches noncyclic directions first; outside this stationary commutative
+realization, the required carrier-changing analysis remains to be constructed.
 
 The bridge analysis is also an infinite-dimensional score map. For bounded
 real \(f\), set \(\beta^{x,z}=\beta_n^{x,z}\) and tilt each conditional
@@ -745,7 +749,7 @@ proves the qualitative identity
 \(\ker B_n^{\mathrm{br}}=\operatorname{Ran}\Pi_{\mathrm{fix}}\), it gives no
 volume-uniform or continuum-uniform constant. A nonzero fusion residue can
 retain fixed rank while a Markov generator edge tends to zero, as
-[[contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect|the fusion/transfer firewall]]
+[[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|the fusion/transfer firewall]]
 shows.
 
 [[bridge-data-augmentation-solder/inq|Bridge Data-Augmentation Solder]]

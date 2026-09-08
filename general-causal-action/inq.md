@@ -2,6 +2,8 @@
 inq.module: general-causal-action
 inq.include:
   - './'
+inq.ambient:
+  - 'receipts/**'
 keywords: [action, directedness, realization, descent, joint-state, selection]
 ---
 # General Causal Action
@@ -11,6 +13,8 @@ General Causal Action asks for one compositional law that constrains access to d
 ## A law must determine more than its vocabulary
 
 The [[general-causal-action/research-schema|research schema]] specifies a proposed return: a process-and-context structure together with compatible observable algebras, pairings, states and dynamics. Its [[general-causal-action/directed-realization-and-foundational-restart|foundational restart]] separates this question from proving estimates after a field theory has already been supplied. A category organizes the comparison; it does not automatically select its state or generator.
+
+The [[general-causal-action/carrier-first-reversal|carrier-first reversal]] gives the analytic order of construction: a state defines the observable Hilbert carrier; a compatible closable response defines a generator; geometry can then be read from that form. The finite examples also show why the spectrum alone does not select a configuration geometry. Reconstructing a generator from supplied data and selecting those data are different tasks.
 
 [[algebra/moving-response-balance-and-a-ruble-operator-signature|Moving response balance]] provides the precise comparison law currently available. If a process contracts response, its retained part and pulled-back defect add consistently under composition. The infinitesimal balance includes change in the measuring form, so coordinate decay and intrinsic loss need not agree. This is an exact invariant accounting rule, not yet a constitutive equation selecting the process.
 

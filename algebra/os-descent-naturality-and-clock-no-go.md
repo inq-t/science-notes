@@ -406,6 +406,6 @@ and (ON19), while (ON17) rules out identifying them.
 
 - [[conservation-of-causal-charge/unitarity-and-ontological-time|Why Unitarity Is Not the Wall Symmetry]]
 - [[algebra/quotient-unitarity-and-kernel-stabilization|Quotient Unitarity and Kernel Stabilization]]
-- [[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap|Past--Future Angle and the Transfer Gap]]
+- [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|Past--Future Angle and the Transfer Gap]]
 - [[bridge-data-augmentation-solder/inq|Bridge Data-Augmentation Solder]]
 - [[gaussian-bridge-gap-calibration/inq|Gaussian Bridge-Gap Calibration]]

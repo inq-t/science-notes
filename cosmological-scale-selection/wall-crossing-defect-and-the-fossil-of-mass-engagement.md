@@ -246,7 +246,7 @@ $$
 
 Its closability, kernel, normalization, and lower edge are new obligations. Converting even a positive dimensionless form of this kind into mass requires an independent physical scale and a same-carrier Casimir comparison.
 
-[[oriented-descent-angle-and-emergent-symmetry]] supplies one non-arbitrary candidate for this previously open metric. If the post-wall carrier admits two \(\varphi\)-preserving opposed descents with standard-form projections \(e_\pm\) and common-core projection \(P_0\), then
+[[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry]] supplies one non-arbitrary candidate for this previously open metric. If the post-wall carrier admits two \(\varphi\)-preserving opposed descents with standard-form projections \(e_\pm\) and common-core projection \(P_0\), then
 
 $$
 G_+
@@ -444,4 +444,4 @@ The route is killed or downgraded if:
 - the post-wall coercive operator acts on a different carrier from the physical Casimir without a pullback theorem; or
 - BAO is asked to reconstruct a sign or history already erased by the material-loading map.
 
-This is the useful reversal: the question is not whether an energy field struck spacetime at a chosen temperature. It is whether an independently fixed realization fails to commute with causal-scale evolution, whether a separately constructed positive pullback of that defect has a physical uniform floor or calibrated semigroup rate, and whether any finite descendant can still detect the failure. For adjacent Euclidean regulator slices, a raw angle floor must vanish at finite physical gap; [[past-future-angle-and-the-transfer-gap]] identifies the fixed-thickness contraction and logarithmic rate that remain meaningful.
+This is the useful reversal: the question is not whether an energy field struck spacetime at a chosen temperature. It is whether an independently fixed realization fails to commute with causal-scale evolution, whether a separately constructed positive pullback of that defect has a physical uniform floor or calibrated semigroup rate, and whether any finite descendant can still detect the failure. For adjacent Euclidean regulator slices, a raw angle floor must vanish at finite physical gap; [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] identifies the fixed-thickness contraction and logarithmic rate that remain meaningful.

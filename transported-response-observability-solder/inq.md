@@ -454,7 +454,7 @@ residue, not a metaphor and not a random variable. It sets $S_k=0$ in
 
 [[two-slice-innovation-geometry/inq|Two-Slice Innovation Geometry]] gives
 the commutative conditional-transport instance, while
-[[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap#The noncommutative lift|the
+[[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap#The noncommutative lift|the
 Stinespring correspondence]] gives a Type-III-compatible completely
 positive instance. A bare scale correspondence does not yet supply the
 isometries, their pointed states, or a physical endpoint transfer. Those
@@ -488,7 +488,7 @@ preserve a comparison already proved. They do not create it or lift it back
 through forgotten fibres.
 
 The pure product-Wilson calculation in
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing
 Transfer and the Bounded Flux Solder]] is an exact regulated example. Its
 interacting-vacuum and continuum-uniform extension is still open.
 
@@ -510,7 +510,7 @@ I-e^{-\tau_kG_k}
 $$
 
 Families of expectations can have complementary kernels, as in
-[[contemporary-puzzles/yang-mills-mass-gap/two-expectation-angle-process|the
+[[trace-dirichlet-descent/two-expectation-angle-process|the
 two-expectation angle process]]. But $E_k$ itself is noninjective and cannot
 be a finite-thickness physical transfer of the form $e^{-\ell H}$. It is an
 auxiliary response operator. The physical content begins only after an
@@ -522,7 +522,7 @@ $I-E_k$.
 A closed densely defined nonnegative form on the actual complex Hilbert
 carrier determines a positive self-adjoint $G_k$ and hence (TR13). Electric
 flux Dirichlet forms provide one such regulated carrier in
-[[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|Gauge-Descended
+[[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|Gauge-Descended
 Flux Coercivity]].
 
 A parameter Hessian does not automatically do so. It is naturally a map

@@ -410,7 +410,7 @@ $$
 
 where \(g(\Gamma)\) is graph girth. This recovers the bounded
 girth--Wilson edge in
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing Transfer]] and proves that the filtration sees the exact
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing Transfer]] and proves that the filtration sees the exact
 physical contraction in the noninteracting calibration case.
 
 ## Interaction is an off-diagonal influence budget

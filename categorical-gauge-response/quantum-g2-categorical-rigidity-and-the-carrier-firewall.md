@@ -438,7 +438,7 @@ be a complex energy-form core for the vacuum-reduced physical Yang--Mills Hilber
    \tag{QG24}
    \]
 
-4. the finite-width energy comparison from [[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder]],
+4. the finite-width energy comparison from [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]],
 
    \[
    \widehat q_{\mathrm{loss},B}[\psi]

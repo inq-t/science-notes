@@ -67,7 +67,7 @@ $$
 \tag{CS6}
 $$
 
-The inverse operates on a **conditional configuration-space score one-form**. It returns the hidden response to a retained perturbation. It is not a spacetime propagator, a physical Hamiltonian inverse, or a mass operator. The [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|existing nonlinear Witten/Schur formula]] owns the corresponding effective-Hessian identity.
+The inverse operates on a **conditional configuration-space score one-form**. It returns the hidden response to a retained perturbation. It is not a spacetime propagator, a physical Hamiltonian inverse, or a mass operator. The [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|existing nonlinear Witten/Schur formula]] owns the corresponding effective-Hessian identity.
 
 For a product fiber, let \(\Pi_x\) select the one-form component at hidden site \(x\). A direct source-tail estimate needs only
 

@@ -176,7 +176,7 @@ $$
 g(\Gamma)\lambda_G,}
 $$
 
-where $\lambda_\Gamma^{\mathrm{GI}}$ is the sharp product-Haar electric-flux Poincare constant on nonconstant gauge-invariant functions, $g(\Gamma)$ is graph girth, and $\lambda_G$ is the smallest nonzero Casimir allowed by the global form of $G$. The reason is elementary but structural: nontrivial gauge-invariant spin-network support cannot terminate at a degree-one vertex, so it must contain a cycle; a Wilson character on a shortest cycle saturates the bound. [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|The girth--Casimir theorem]] gives the proof and boundary qualifications.
+where $\lambda_\Gamma^{\mathrm{GI}}$ is the sharp product-Haar electric-flux Poincare constant on nonconstant gauge-invariant functions, $g(\Gamma)$ is graph girth, and $\lambda_G$ is the smallest nonzero Casimir allowed by the global form of $G$. The reason is elementary but structural: nontrivial gauge-invariant spin-network support cannot terminate at a degree-one vertex, so it must contain a cycle; a Wilson character on a shortest cycle saturates the bound. [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|The girth--Casimir theorem]] gives the proof and boundary qualifications.
 
 For $SU(3)$ the convention gives $\lambda_G=4/9$, and a simple square-plaquette graph gives the exact dimensionless number $16/9$. This is the first rigorous instance in this programme where **closure multiplies group geometry to produce a nonzero dimensionless distinction cost**.
 
@@ -485,7 +485,7 @@ The most important reversal is not “calculate mass from curvature instead of c
 
 > Construct the carrier and its admissible distinctions first; then ask which closed form makes those distinctions costly; only afterward recover the operator and the geometry it generates.
 
-This is the same reversal developed in [[contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal|carrier-first reversal]].
+This is the same reversal developed in [[general-causal-action/carrier-first-reversal|carrier-first reversal]].
 
 ## The stopping condition for an actual mass-gap contribution
 
@@ -555,7 +555,7 @@ Knot topology contributes to this theorem only if all of the following are const
 5. **Uniformity:** the bound survives infinite volume and regulator removal in fixed physical units.
 6. **Realization:** reflection positivity, locality, covariance, regularity, and reconstruction produce the required Lorentzian positive-energy theory. Floer gradient flow is not an Osterwalder--Schrader measure and supplies none of these automatically.
 
-A lower bound only for knotted solitons proves none of items 4--6. A topological theory with knot invariants proves none of items 3--6. A dynamically generated scale proves neither 3 nor 4. [[contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity|Physical distinction and coercivity]] gives the operator-signature verdict: the problem stops only when the centered physical carrier has one joint, uniform coercive bound.
+A lower bound only for knotted solitons proves none of items 4--6. A topological theory with knot invariants proves none of items 3--6. A dynamically generated scale proves neither 3 nor 4. [[physical-response-coercivity/physical-distinction-coercivity|Physical distinction and coercivity]] gives the operator-signature verdict: the problem stops only when the centered physical carrier has one joint, uniform coercive bound.
 
 ## Research programme
 

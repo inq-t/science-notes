@@ -85,7 +85,7 @@ Q_N=288a+144|1-t|^2.
 \]
 It does not add an independently adjustable term, change the kinetic conversion in [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization|the same-carrier Wilson factorization]], or turn the trace factor eight into an enhancement of the mass gap.
 
-Replacing the faithful probe by its Hessian-matched adjoint version loses center information. This is not the same statement as [[contemporary-puzzles/yang-mills-mass-gap/twisted-holonomy-and-the-neutral-hessian|center neutrality of physical glueball states]]. A fundamental closed Wilson loop is gauge invariant and can distinguish the holonomies in (FA4); an adjoint character cannot. Probe sensitivity and the charge of a physical state have different carriers.
+Replacing the faithful probe by its Hessian-matched adjoint version loses center information. This is not the same statement as [[strong-coupling-gap-and-continuum-crossover/twisted-holonomy-and-the-neutral-hessian|center neutrality of physical glueball states]]. A fundamental closed Wilson loop is gauge invariant and can distinguish the holonomies in (FA4); an adjoint character cannot. Probe sensitivity and the charge of a physical state have different carriers.
 
 [[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop transport example]] makes the same sensitivity distinction spectral on another carrier. Pauli vector transport has central square holonomy \(-I\) and a volume-independent connection-Laplacian edge. Adjoint transport erases that holonomy and, on an even torus, is gauge-equivalent to ordinary matrix-valued graph diffusion. This is a comparison of specified section processes, not a calculation of glueball energy.
 

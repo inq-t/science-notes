@@ -93,7 +93,7 @@ Frobenius integrability gives local representatives \(\theta=f\,dr\), with \(f>0
 Without (DS9), the selected hyperplanes \(\ker\theta\) do not form clock slices. For example, on \(\mathbb R^3\), \(\theta=dz-x\,dy\) has
 \(\theta\wedge d\theta=-dz\wedge dx\wedge dy\neq0\), yet (DS3) still constructs a Lorentzian metric. That metric can have other local temporal functions; the conclusion is only that this chosen directed line is not proportional to their differential.
 
-This separates an upstream direction from its integrable presentation without naming a fifth coordinate. It does not identify Frobenius failure with entropy production. Likewise, persistent record extension, erasure of accessible distinctions, and invertibility of a clock remain different maps, as in [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times|the two-time analysis]].
+This separates an upstream direction from its integrable presentation without naming a fifth coordinate. It does not identify Frobenius failure with entropy production. Likewise, persistent record extension, erasure of accessible distinctions, and invertibility of a clock remain different maps, as in [[global-local-response-reconstruction/causal-patch-boundary-and-two-times|the two-time analysis]].
 
 ## The next common-object test
 

@@ -283,7 +283,7 @@ q_{B\to\mathcal N}^{\mathrm{loss}}[A]
 \|H^{1/2}A\Omega\|^2.
 \]
 
-This places the restriction-loss construction of [[descent-loss-cocycle-and-recovery-fork]] on the correct side of the physical energy inequality. That note defines its Hessian without the factor \(1/2\); in that convention the coefficient here is \(4\pi R/(\hbar c)\).
+This places the restriction-loss construction of [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork]] on the correct side of the physical energy inequality. That note defines its Hessian without the factor \(1/2\); in that convention the coefficient here is \(4\pi R/(\hbar c)\).
 
 ## Conditional gap theorem
 
@@ -355,7 +355,7 @@ x,y\in\mathcal D_{B,\mathbb R}.
 
 Then norm and energy split into their real and imaginary parts, so the two real inequalities imply the required complex inequalities. Absent such a structure or a directly constructed Hermitian form, a lower bound on a real subspace whose complex span is a core does not imply a spectral gap.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt.py|The finite counterexample receipt]] takes \(H=\operatorname{diag}(1/2,3/2)\) and the real form \(\{(a+ib,a-ib):a,b\in\mathbb R\}\). The energy quotient is identically one on that real form, whose complex span is all of \(\mathbb C^2\), while the actual spectral floor is \(1/2\). The [[contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt-output.txt|stored counterexample output]] checks this failure of the real-to-complex inference.
+[[physical-response-coercivity/receipts/real-core-complexification-firewall-receipt.py|The finite counterexample receipt]] takes \(H=\operatorname{diag}(1/2,3/2)\) and the real form \(\{(a+ib,a-ib):a,b\in\mathbb R\}\). The energy quotient is identically one on that real form, whose complex span is all of \(\mathbb C^2\), while the actual spectral floor is \(1/2\). The [[physical-response-coercivity/receipts/real-core-complexification-firewall-receipt-output.txt|stored counterexample output]] checks this failure of the real-to-complex inference.
 
 ## Why this is progress but not a solution
 

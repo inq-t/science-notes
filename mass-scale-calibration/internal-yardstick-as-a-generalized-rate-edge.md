@@ -80,7 +80,7 @@ K_{\mathrm{loc}}^{(t)}
 \tag{RY4}
 \]
 
-Only after an independently constructed clock solder \(\nu_u\) is supplied can \(K_{\mathrm{loc}}^{(t)}\) represent the rate form \(\mathfrak a_{\mathrm{loc}}\). If \(u\) is one e-fold and the scale coordinate has been synchronized with proper time at the selected cut, the candidate is \(\nu_u=H_c\); that synchronization is not automatic. Under \(u'=au\), the same semigroup has \(\widehat K'_{\mathrm{loc}}=\widehat K_{\mathrm{loc}}/a\). A freely rescalable parameter has no intrinsic edge. [[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap]] owns the supported transfer construction, while [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] owns its clock calibration.
+Only after an independently constructed clock solder \(\nu_u\) is supplied can \(K_{\mathrm{loc}}^{(t)}\) represent the rate form \(\mathfrak a_{\mathrm{loc}}\). If \(u\) is one e-fold and the scale coordinate has been synchronized with proper time at the selected cut, the candidate is \(\nu_u=H_c\); that synchronization is not automatic. Under \(u'=au\), the same semigroup has \(\widehat K'_{\mathrm{loc}}=\widehat K_{\mathrm{loc}}/a\). A freely rescalable parameter has no intrinsic edge. [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] owns the supported transfer construction, while [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] owns its clock calibration.
 
 ## Conditional rate-edge theorem
 
@@ -155,11 +155,11 @@ m_{\mathrm{gap}}
 \tag{RY9}
 \]
 
-Equation (RY8) is the scalar-denominator generalized-Rayleigh corollary of [[contemporary-puzzles/yang-mills-mass-gap/causal-frame-coercivity]], not a second gap mechanism. In [[measured-response-carriers/response-to-energy-comparison|the generic response-to-energy theorem]], take the dimensionless response \(q=\mathfrak a_{\mathrm{loc}}/H_c\), \(E_*=\hbar H_c\), and \(b_J=1\). [[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder]] supplies one established upper comparison that a construction of (RY7) may consume. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction]] owns the last step to (RY9).
+Equation (RY8) is the scalar-denominator generalized-Rayleigh corollary of [[physical-response-coercivity/causal-frame-coercivity]], not a second gap mechanism. In [[measured-response-carriers/response-to-energy-comparison|the generic response-to-energy theorem]], take the dimensionless response \(q=\mathfrak a_{\mathrm{loc}}/H_c\), \(E_*=\hbar H_c\), and \(b_J=1\). [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]] supplies one established upper comparison that a construction of (RY7) may consume. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir#Energy gap and Casimir floor are equivalent only after Lorentz reconstruction]] owns the last step to (RY9).
 
 ## The scale ratio is not yet the rate edge
 
-The common-count construction in [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick]] gives the exact conditional scale ratio
+The common-count construction in [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick]] gives the exact conditional scale ratio
 
 \[
 Q_{\mathrm{cc}}
@@ -176,7 +176,7 @@ Q_{\mathrm{cc}}^3
 \tag{RY10}
 \]
 
-This is a rate separation after the length-to-clock solder \(\omega_*=c/\lambda_*\), because \(Q_{\mathrm{cc}}=\omega_*/H_c\). It is not yet the spectral edge associated with (RY3). Compatibility with the lower-bound factorization [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick#The pure-Yang--Mills decoupling fork|developed in the cosmological selector]] requires the sufficient comparison target
+This is a rate separation after the length-to-clock solder \(\omega_*=c/\lambda_*\), because \(Q_{\mathrm{cc}}=\omega_*/H_c\). It is not yet the spectral edge associated with (RY3). Compatibility with the lower-bound factorization [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick#The pure-Yang--Mills decoupling fork|developed in the cosmological selector]] requires the sufficient comparison target
 
 \[
 \boxed{
@@ -352,7 +352,7 @@ H_n
 \tag{RY21}
 \]
 
-Alternatively, an independently constructed proper duration can calibrate \(H_n\) through [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick#Normalized acceleration can select a cut; it adds no independent unit|the age-calibration identity (CY17h)]], leaving (RY20) as the discrete endpoint constraint. Boltzmann's constant contributes through the dimensionless capacity \(\iota=S/k_B\); it does not by itself supply a duration or energy.
+Alternatively, an independently constructed proper duration can calibrate \(H_n\) through [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick#Normalized acceleration can select a cut; it adds no independent unit|the age-calibration identity (CY17h)]], leaving (RY20) as the discrete endpoint constraint. Boltzmann's constant contributes through the dimensionless capacity \(\iota=S/k_B\); it does not by itself supply a duration or energy.
 
 The ladder must stop at the selected engagement rung if \(\omega_*\) is to fossilize. Continuing (RY19) as a live law would make the local scale drift. If common count is asserted only at the selected cut, only the single-cut formula in (RY10) follows; the ratios involving \(Q_{\mathrm{cc}}\) and \(\omega_*\) require the stronger two-cut premise.
 

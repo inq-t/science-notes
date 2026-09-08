@@ -73,7 +73,7 @@ orthogonal complement records intermediate fusion directions absent from the
 minimal composite. This still does not construct the missing arrows from the
 core provider: CP maps and their points are premises of the theorem. Nor is
 the complement automatically a physical transfer defect;
-[[contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect|its
+[[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|its
 canonical pullback to the endpoint cyclic carrier vanishes]].
 [[bridge-score-fusion-geometry/inq|The stationary bridge construction]] now
 supplies a history-sensitive commutative realization: insert a complete

@@ -12,7 +12,7 @@ The usual question asks what dynamical mechanism gives a nominally massless fiel
 
 The operator does not act on “reality,” “possibilities,” or bare numbers. Classically it acts on tangent variations of boundary data and returns normal flux. After quantization, the logarithmic boundary action determines a boundary measure; a separately declared flux calculus and metric determine a weighted form on that measure. Only after the physical energy form is identified with or compared to this coordinate form does its lower bound acquire energy meaning.
 
-This is the same carrier-first discipline as [[carrier-first-reversal]], but it supplies a concrete candidate source for the interacting vacuum measure used in [[gauge-descent-flux-fisher-coercivity]].
+This is the same carrier-first discipline as [[general-causal-action/carrier-first-reversal]], but it supplies a concrete candidate source for the interacting vacuum measure used in [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]].
 
 ## The wall is a restriction map with fibers
 
@@ -175,7 +175,7 @@ $$
 
 On a gauge-invariant carrier, multiplication observables and measurable sets in this formula are understood on the quotient, or with the gauge projection inserted.
 
-The standard-library [[contemporary-puzzles/yang-mills-mass-gap/receipts/vacuum_boundary_gluing_receipt.py|finite-state receipt]] checks an invertible positive transfer matrix, convergence of reflected sewing and the periodic marginal to \(\psi_0^2\), and reversibility of the vacuum Doob transform. Its stored output is [[contemporary-puzzles/yang-mills-mass-gap/receipts/vacuum-boundary-gluing-receipt-output.txt|recorded beside it]].
+The standard-library [[global-local-response-reconstruction/receipts/vacuum_boundary_gluing_receipt.py|finite-state receipt]] checks an invertible positive transfer matrix, convergence of reflected sewing and the periodic marginal to \(\psi_0^2\), and reversibility of the vacuum Doob transform. Its stored output is [[global-local-response-reconstruction/receipts/vacuum-boundary-gluing-receipt-output.txt|recorded beside it]].
 
 ### Where exact forgetting enters
 
@@ -288,7 +288,7 @@ $$
 \Delta_E\geq\kappa c_{\mathrm{form}}\lambda_W.
 $$
 
-[[gauge-descent-flux-fisher-coercivity]] proves the equality for the canonical finite Kogut--Susskind flux form. Gluing derives the vacuum weight entering that theorem; it does not derive the flux calculus or the energy-form identity.
+[[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] proves the equality for the canonical finite Kogut--Susskind flux form. Gluing derives the vacuum weight entering that theorem; it does not derive the flux calculus or the energy-form identity.
 
 ## Flux matching is first variation; response is second variation
 
@@ -784,7 +784,7 @@ $$
 
 The instrument fixes the first arrow, including its probability-simplex marginal. It does not by itself add an actuality rule for the second arrow. None of these types contains an energy unit.
 
-[[physical-distinction-coercivity]] separates projections, instruments, state changes, and physical energy coercivity. The quantitative frame theorem is owned by [[causal-frame-coercivity]]: if outcome- or wall-derived distinction maps \(D_\alpha\) detect every centered physical direction,
+[[physical-response-coercivity/physical-distinction-coercivity]] separates projections, instruments, state changes, and physical energy coercivity. The quantitative frame theorem is owned by [[physical-response-coercivity/causal-frame-coercivity]]: if outcome- or wall-derived distinction maps \(D_\alpha\) detect every centered physical direction,
 
 $$
 \sum_\alpha\|D_\alpha\xi\|^2
@@ -1217,7 +1217,7 @@ $$
 on its transported form domain. Equation (OS8) is not automatic for this
 transfer generator. More strongly, the analogous unbounded domination and
 its displayed domain inclusion are generally false at fixed Wilson temporal
-spacing. [[finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|The (SU(2)) Wilson convolution witness]] has
+spacing. [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|The (SU(2)) Wilson convolution witness]] has
 \(-\log p_j\sim2j\log j\) while the invariant flux Laplacian grows as
 \(j(j+1)\). Its domains obey
 

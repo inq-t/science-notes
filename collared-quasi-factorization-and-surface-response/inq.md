@@ -458,7 +458,7 @@ not four descriptions of one map.
 
 - [[three-block-bridge-factorization/inq|Three-Block Bridge Factorization]]
 - [[bridge-data-augmentation-solder/inq|Bridge Data-Augmentation Solder]]
-- [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|Oriented Descent Angle and Emergent Symmetry]]
+- [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|Oriented Descent Angle and Emergent Symmetry]]
 - [[hessian-response-geometry/inq|Hessian Response Geometry]]
 - [[gauge-boundary-frame-gluing/inq|Gauge Boundary-Frame Gluing]]
 - [[strong-coupling-gap-and-continuum-crossover/inq|Strong-Coupling Gap and Continuum Crossover]]

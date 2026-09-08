@@ -149,5 +149,5 @@ The strongest reusable target is therefore:
 \end{array}}
 \]
 
-[[localized-relative-entropy-and-the-energy-solder]] now supplies a rigorous candidate for the last comparison on localized state tangents. What remains is to derive a neutral descent-loss Hessian whose lower constant survives decompactification, deformation removal, and the asymptotically free continuum limit.
+[[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]] now supplies a rigorous candidate for the last comparison on localized state tangents. What remains is to derive a neutral descent-loss Hessian whose lower constant survives decompactification, deformation removal, and the asymptotically free continuum limit.
 

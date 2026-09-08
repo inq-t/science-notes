@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [Yang-Mills, transfer, electric-flux, gauge-invariance, strong-coupling, continuum]
 ---
 # Strong-Coupling Gaps and the Continuum Crossover
 
@@ -35,6 +36,8 @@ Here \(\ell_a\) is the Euclidean length represented by one temporal lattice
 step and \(\lambda_0\) is the top transfer eigenvalue. A gap is the stronger
 statement that the spectrum of \(H_{a,L}-E_0\) on the vacuum complement has a
 positive lower edge.
+
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|Finite-spacing transfer]] explains why this logarithm must not be replaced by a local flux Laplacian: even a single Wilson convolution has different high-representation growth. Its bounded one-step defect gives the appropriate finite-step comparison. In the Hamiltonian formulation, [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|gauge-descended flux coercivity]] instead identifies the exact vacuum-weighted Poincare problem and proves the Haar girth–Casimir benchmark. Both constructions keep the actual vacuum and clock in view.
 
 At sufficiently strong coupling, that stronger phenomenon is known.
 [[library/gauge-field-theories-on-a-lattice/inq|Osterwalder--Seiler]] obtain
@@ -94,6 +97,8 @@ neighborhood of \(\beta=0\). The continuum trajectory runs toward the
 opposite end of the bare-coupling axis. The known theorem is therefore not a
 slightly nonuniform version of the Clay target; it controls a disjoint
 regime.
+
+[[strong-coupling-gap-and-continuum-crossover/twisted-holonomy-and-the-neutral-hessian|Twisted holonomy]] supplies a different finite-volume comparison: removing charged zero modes does not itself control neutral composites, and its kinematic box threshold vanishes under decompactification. The deformed-theory precedent requires a dynamical neutral Hessian as well as holonomy. Returning to undeformed continuum Yang–Mills is another comparison theorem, not a consequence of the twist.
 
 This identifies a precise crossover problem:
 

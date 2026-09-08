@@ -66,7 +66,7 @@ $$
 \tag{OD7}
 $$
 
-This is the group-direction analogue of the scale-direction defect in [[wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The two may be components of a connection on a bundle of arrow spaces; neither is automatically an energy operator.
+This is the group-direction analogue of the scale-direction defect in [[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The two may be components of a connection on a bundle of arrow spaces; neither is automatically an energy operator.
 
 When \(X_\pm\) are Hilbert spaces and \(W:X_-\to X_+\) is bounded and Fredholm, there is an exact conservation-like datum:
 
@@ -143,7 +143,7 @@ P_0
 \tag{OD14}
 $$
 
-It must be proved, not obtained by appending a tautological expectation onto \(\mathbb C1\). Under the Reeh--Schlieder hypotheses recorded in [[causal-frame-coercivity]], ordinary nested local AQFT algebras cannot furnish a nontrivial vacuum-preserving expectation tower of this form. Regulator blocks, split collars, comparison cores, or another nonlocal whole--part carrier are required.
+It must be proved, not obtained by appending a tautological expectation onto \(\mathbb C1\). Under the Reeh--Schlieder hypotheses recorded in [[physical-response-coercivity/causal-frame-coercivity]], ordinary nested local AQFT algebras cannot furnish a nontrivial vacuum-preserving expectation tower of this form. Regulator blocks, split collars, comparison cores, or another nonlocal whole--part carrier are required.
 
 ## Exact two-wall angle theorem
 
@@ -290,7 +290,7 @@ $$
 
 Thus \(c_F<1\) is also strict contraction of alternating descent away from the common core. The iteration count is dimensionless, and \(c_F^2\) is the worst-case contraction factor per \(qpq\) cycle. Calling the iteration parameter physical time requires an independent transfer or modular-time identification.
 
-[[past-future-angle-and-the-transfer-gap]] realizes that identification exactly in a stationary reversible Markov--Osterwalder--Schrader path space, but only for **disjoint** half-spaces separated by a positive Euclidean slab. There, \(c_F\) is the normalized transfer contraction across the slab, while the supported modulus \(|pq|\) is the endpoint transfer itself. The logarithm of \(|pq|\) per calibrated slab thickness recovers the clock Hamiltonian. Touching halves share the entire time-zero carrier and do not encode the gap in their reduced Friedrichs angle.
+[[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] realizes that identification exactly in a stationary reversible Markov--Osterwalder--Schrader path space, but only for **disjoint** half-spaces separated by a positive Euclidean slab. There, \(c_F\) is the normalized transfer contraction across the slab, while the supported modulus \(|pq|\) is the endpoint transfer itself. The logarithm of \(|pq|\) per calibrated slab thickness recovers the clock Hamiltonian. Touching halves share the entire time-zero carrier and do not encode the gap in their reduced Friedrichs angle.
 
 The bounded self-adjoint orientation operator
 
@@ -356,7 +356,7 @@ c_F(M_{\mathbb C},N_{\mathbb C})
 \tag{OD30b}
 $$
 
-Likewise, left multiplication of \(pq\) by a unitary changes its polar presentation but preserves \((pq)^*(pq)\), its norm, and its gap rate. [[phase-modulus-pointing-and-euclidean-dwell]] develops the exact division of labor: \(i\) and the polar partial isometry carry an oriented grammar; the positive modulus carries attenuation; an obtained character supplies a fact. A phase or chirality label can affect the modulus only through a separately constructed dynamical coupling or coherent sum.
+Likewise, left multiplication of \(pq\) by a unitary changes its polar presentation but preserves \((pq)^*(pq)\), its norm, and its gap rate. [[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell]] develops the exact division of labor: \(i\) and the polar partial isometry carry an oriented grammar; the positive modulus carries attenuation; an obtained character supplies a fact. A phase or chirality label can affect the modulus only through a separately constructed dynamical coupling or coherent sum.
 
 The compact exceptional Jordan algebra gives an exact finite witness for symmetry after a selection. For
 
@@ -501,7 +501,7 @@ $$
 
 [[library/reading-between-the-lines-of-four-dimensional-gauge-theories/inq|Aharony, Seiberg, and Tachikawa]] supply the physical charge-space precedent: electric and magnetic line classes carry an alternating mutual-locality pairing, and a local theory selects a maximal mutually local set. [[library/entropic-order-parameters-for-the-phases-of-qft/inq|Casini, Huerta, Magán, and Pontello]] supply the complementary-algebra precedent in which Wilson and 't Hooft class expectations obey an entropic certainty relation.
 
-The matrix witness does not place mutually nonlocal line operators in one local observable algebra. It represents their relative algebra on a comparison carrier. Its floor is not a Yang--Mills mass gap: \(4\sin^2(\pi/N)\to0\) as \(N\to\infty\); trivial-center groups supply no nontrivial center-flux Weyl pair by this mechanism; finite center data do not control every topologically trivial excitation; and (OD35) supplies neither a physical rate nor an energy scale. Its legitimate role is to seed the noncommuting response in [[compensated-incidence-response-and-four-dimensional-balance]], where a regulator-uniform scale law and a physical solder are still required.
+The matrix witness does not place mutually nonlocal line operators in one local observable algebra. It represents their relative algebra on a comparison carrier. Its floor is not a Yang--Mills mass gap: \(4\sin^2(\pi/N)\to0\) as \(N\to\infty\); trivial-center groups supply no nontrivial center-flux Weyl pair by this mechanism; finite center data do not control every topologically trivial excitation; and (OD35) supplies neither a physical rate nor an energy scale. Its legitimate role is to seed the noncommuting response in [[contemporary-puzzles/yang-mills-mass-gap/compensated-incidence-response-and-four-dimensional-balance]], where a regulator-uniform scale law and a physical solder are still required.
 
 ## A non-arbitrary metric for the wall defect
 
@@ -601,7 +601,7 @@ J_\ell^0H_T(J_\ell^0)^*
 \tag{OD43a}
 $$
 
-where \(\ell\) is the actual Euclidean slab length and \(J_\ell^0\) is the centered endpoint isometry of [[past-future-angle-and-the-transfer-gap]]. This is an exact logarithmic solder on the supported correlated endpoint carrier when the Markov and transfer hypotheses hold. It also shows why a regulator-independent coefficient in (OD41) should not be expected for adjacent slices: the raw frame edge is first order in \(\ell\), while the logarithmic rate remains finite.
+where \(\ell\) is the actual Euclidean slab length and \(J_\ell^0\) is the centered endpoint isometry of [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]]. This is an exact logarithmic solder on the supported correlated endpoint carrier when the Markov and transfer hypotheses hold. It also shows why a regulator-independent coefficient in (OD41) should not be expected for adjacent slices: the raw frame edge is first order in \(\ell\), while the logarithmic rate remains finite.
 
 ## Mass engagement as a calibrated angle rate
 
@@ -726,4 +726,4 @@ The Copernican statement is therefore exact but conditional in its physical appl
 
 > Symmetry may be the automorphism shadow of a prior asymmetric descent. Its orientation-even relative-position form can possess a dimensionless lower edge, but that edge becomes mass only after a noncircular comparison with physical translation energy.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/oriented_descent_angle_receipt.py|The finite receipt]] checks the two-dimensional principal-angle spectrum, alternating contraction, reversal parity of the orientation operator, and finite Weyl-pair floor; [[contemporary-puzzles/yang-mills-mass-gap/receipts/oriented-descent-angle-receipt-output.txt|the stored output]] records the run. It is a finite witness, not a type-III, continuum, or Yang--Mills construction.
+[[trace-dirichlet-descent/receipts/oriented_descent_angle_receipt.py|The finite receipt]] checks the two-dimensional principal-angle spectrum, alternating contraction, reversal parity of the orientation operator, and finite Weyl-pair floor; [[trace-dirichlet-descent/receipts/oriented-descent-angle-receipt-output.txt|the stored output]] records the run. It is a finite witness, not a type-III, continuum, or Yang--Mills construction.

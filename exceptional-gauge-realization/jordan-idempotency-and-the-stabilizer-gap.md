@@ -655,7 +655,7 @@ For the Hessian route, the missing bridge is not merely multiplication by an ene
 
 ## Shorting turns the flag response toward a local fact
 
-Suppose a physical realization transports or extends the finite Hessian to a bounded positive operator \(\widetilde A_{\mathrm{flag},f}\) on a common Hilbert carrier \(\widetilde{\mathcal H}_f\), and assigns the oriented flag a closed retained subspace \(L_f\subseteq\widetilde{\mathcal H}_f\). Only then does [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle]] supply
+Suppose a physical realization transports or extends the finite Hessian to a bounded positive operator \(\widetilde A_{\mathrm{flag},f}\) on a common Hilbert carrier \(\widetilde{\mathcal H}_f\), and assigns the oriented flag a closed retained subspace \(L_f\subseteq\widetilde{\mathcal H}_f\). Only then does [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle]] supply
 
 $$
 S_{L_f}(\widetilde A_{\mathrm{flag},f})

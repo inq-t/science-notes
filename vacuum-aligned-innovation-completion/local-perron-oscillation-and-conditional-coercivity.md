@@ -13,7 +13,7 @@ T=M_a K M_a,\qquad
 a=e^{-V_{\rm sp}/2}>0.
 \tag{LP1}
 \]
-Assume \(T\) is self-adjoint with positive Perron eigenfunction \(\psi\), normalized by \(\int\psi^2=1\), and \(T\psi=\lambda\psi\). The finite Wilson setting supplies such a product kinetic factor and gauge-invariant multiplication potential before restriction to the physical subspace; [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|the finite-transfer owner]] fixes its conventions. Write \(\nu=\psi^2\,dU\).
+Assume \(T\) is self-adjoint with positive Perron eigenfunction \(\psi\), normalized by \(\int\psi^2=1\), and \(T\psi=\lambda\psi\). The finite Wilson setting supplies such a product kinetic factor and gauge-invariant multiplication potential before restriction to the physical subspace; [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|the finite-transfer owner]] fixes its conventions. Write \(\nu=\psi^2\,dU\).
 
 For configurations \(U,V\) agreeing outside a block \(I\),
 \[
@@ -77,7 +77,7 @@ F(U):=\int k(U,Y)a(Y)\psi(Y)\,dY,\qquad
 \eta_U(dY):=\frac{k(U,Y)a(Y)\psi(Y)}{F(U)}\,dY.
 \tag{LP7}
 \]
-The Perron equation \(\lambda\psi(U)=a(U)F(U)\) shows that \(\eta_U\) is exactly the [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder#The exact one-step form|physical one-step Doob kernel]] \(P_T(U,dY)\), not a newly selected state.
+The Perron equation \(\lambda\psi(U)=a(U)F(U)\) shows that \(\eta_U\) is exactly the [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The exact one-step form|physical one-step Doob kernel]] \(P_T(U,dY)\), not a newly selected state.
 
 For a coordinate block \(I\), define the kinetic score covector
 \[
@@ -120,7 +120,7 @@ Applying (LP5) to both covariance factors yields, for \(1\)-Lipschitz \(f\),
 \le\frac{M_{ij}}{\lambda_i^{\rm cond}}.
 \tag{LP11}
 \]
-Integrating along a factor geodesic gives a Wasserstein sensitivity coefficient. Its type is propagation of a conditional readout under a change of exterior data, not mass or clock energy. The existing [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|raw-link Dobrushin assembly]] states one applicable global functional-inequality criterion. Its influence radius and conditional constants still need control along the regulator trajectory; a finite-spacing transfer-gap claim additionally needs the bounded same-carrier physical comparison.
+Integrating along a factor geodesic gives a Wasserstein sensitivity coefficient. Its type is propagation of a conditional readout under a change of exterior data, not mass or clock energy. The existing [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|raw-link Dobrushin assembly]] states one applicable global functional-inequality criterion. Its influence radius and conditional constants still need control along the regulator trajectory; a finite-spacing transfer-gap claim additionally needs the bounded same-carrier physical comparison.
 
 All these estimates are on the raw product carrier. Gauge-invariant restriction is safe after the estimate is proved, because it only removes test functions. Gauge fixing before taking conditional derivatives changes the carrier and measure and requires a new calculation. The score blocks are equivariant cotangent tensors, not separately gauge-invariant scalar observables.
 

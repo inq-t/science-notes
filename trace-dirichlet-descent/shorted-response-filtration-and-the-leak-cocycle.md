@@ -341,7 +341,7 @@ $$
 
 If \(P\) and \(Q\) are the common-GNS implementations of two state-preserving conditional expectations, then the quadratic form of \(A_{\alpha,\beta}\) is the weighted sum of their squared restriction losses. This gives the paired response a canonical meaning once the state, carrier, and expectations have been constructed. A bare inclusion, correspondence, or Q-system does not by itself supply those data. Multiplying \(\alpha,\beta\) by one common scalar changes only the overall normalization; changing their ratio changes the spectral response function even though the two projection ranges, and hence their unweighted wall geometry, stay fixed.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/paired_wall_shorting_receipt.py|The paired-wall receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/paired-wall-shorting-receipt-output.txt|its stored output]] verify (SF17c), the common kernel, the single-wall no-go, and the equal-weight Cayley/tanh specialization in a finite projection model. They verify operator arithmetic only.
+[[trace-dirichlet-descent/receipts/paired_wall_shorting_receipt.py|The paired-wall receipt]] and [[trace-dirichlet-descent/receipts/paired-wall-shorting-receipt-output.txt|its stored output]] verify (SF17c), the common kernel, the single-wall no-go, and the equal-weight Cayley/tanh specialization in a finite projection model. They verify operator arithmetic only.
 
 ## The exact stopping condition is a range inclusion
 
@@ -490,7 +490,7 @@ Type-III operator algebra is relevant because it can hold global and local obser
 - operator-valued weights and \(W^*\)-correspondences provide broader noninvertible comparison arrows under additional hypotheses; and
 - Connes fusion composes correspondences coherently up to canonical unitary.
 
-None of these facts canonically supplies the whole response \(A\), the retained subspace \(L\), or the domination in (SF29). A bare correspondence has no preferred vector, state transfer, CP map, or positive quadratic form. Arbitrary inclusions need not admit expectations or operator-valued weights. Even when a finite-index expectation has a Pimsner--Popa order floor, [[gauge-index-no-go-and-four-dimensional-center-square]] and [[finite-index-duality-and-the-square-response]] show that this index floor is not a Yang--Mills Hessian or clock-energy gap.
+None of these facts canonically supplies the whole response \(A\), the retained subspace \(L\), or the domination in (SF29). A bare correspondence has no preferred vector, state transfer, CP map, or positive quadratic form. Arbitrary inclusions need not admit expectations or operator-valued weights. Even when a finite-index expectation has a Pimsner--Popa order floor, [[contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square]] and [[contemporary-puzzles/yang-mills-mass-gap/finite-index-duality-and-the-square-response]] show that this index floor is not a Yang--Mills Hessian or clock-energy gap.
 
 Type III is therefore the likely **carrier grammar** for the whole/local relation, not the reason the positive edge exists. The missing theorem must construct a natural family
 
@@ -539,4 +539,4 @@ $$
 \tag{SF31}
 $$
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/shorted_response_filtration_receipt.py|The finite receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/shorted-response-filtration-receipt-output.txt|its stored output]] check nested Schur shorting, both positive ledgers, the staged identities, the cancellation example, and finite truncations of the gapless-whole/gapped-quotient witness. They verify operator arithmetic only; they do not construct Type-III naturality, the Jordan flag response, a continuum Yang--Mills measure, or a mass scale.
+[[trace-dirichlet-descent/receipts/shorted_response_filtration_receipt.py|The finite receipt]] and [[trace-dirichlet-descent/receipts/shorted-response-filtration-receipt-output.txt|its stored output]] check nested Schur shorting, both positive ledgers, the staged identities, the cancellation example, and finite truncations of the gapless-whole/gapped-quotient witness. They verify operator arithmetic only; they do not construct Type-III naturality, the Jordan flag response, a continuum Yang--Mills measure, or a mass scale.

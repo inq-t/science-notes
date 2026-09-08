@@ -137,7 +137,7 @@ R_{c,Y}R_{b,X}\mathcal W
 \tag{WP12}
 $$
 
-For pivots sharing no plaquette, the direct term vanishes. Their entire induced coupling is the negative conditional score covariance. These are ordered derivatives; same-factor Riemannian Hessians require the connection term. This is a Wilson realization of the [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|existing effective-Hessian identity]], not a new general Hessian formula.
+For pivots sharing no plaquette, the direct term vanishes. Their entire induced coupling is the negative conditional score covariance. These are ordered derivatives; same-factor Riemannian Hessians require the connection term. This is a Wilson realization of the [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The nonlinear residue has a fixed sign|existing effective-Hessian identity]], not a new general Hessian formula.
 
 The elementary covariance bound is only
 \(\beta^2\kappa_{\mathsf R}^2n_bn_c\). It supplies no decay with separation and worsens as the conventional Wilson \(\beta\) grows.

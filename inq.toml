@@ -7,6 +7,8 @@ members = [
   "categorical-gauge-response",
   "triangle-descent-response",
   "mass-scale-calibration",
+  "physical-response-coercivity",
+  "cosmological-scale-selection",
   "algebra",
   "directed-analytic-realization",
   "a2-ternary-response",

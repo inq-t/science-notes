@@ -255,7 +255,7 @@ For a general restriction and reference state, pointwise positivity gives no suc
 
 ## A localized loss has an established energy upper solder
 
-When \(\mathcal M=\mathcal A(B)\) is a local QFT algebra for a region of width \(2R\), the reference is the vacuum restriction, and the state path is implemented by localized unitaries \(e^{isA}\Omega\), Longo's finite-width theorem adds a physical comparison that is absent for a generic inclusion. Under the differentiability and domain hypotheses stated in [[localized-relative-entropy-and-the-energy-solder]], the convention in (D5f), which uses the full second derivative, gives
+When \(\mathcal M=\mathcal A(B)\) is a local QFT algebra for a region of width \(2R\), the reference is the vacuum restriction, and the state path is implemented by localized unitaries \(e^{isA}\Omega\), Longo's finite-width theorem adds a physical comparison that is absent for a generic inclusion. Under the differentiability and domain hypotheses stated in [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]], the convention in (D5f), which uses the full second derivative, gives
 
 $$
 0\leq
@@ -377,7 +377,7 @@ $$
 \tag{D5h.7}
 $$
 
-Tensoring this example with any \(\sigma\)-finite Type III factor preserves both index and ratio. Hence there is no state-uniform positive Hessian floor depending only on the index. [[gauge-index-no-go-and-four-dimensional-center-square]] gives the gauge-theoretic consequence: index is a capacity or sector-count datum, whereas physical coercivity needs normalized pullbacks and transverse relative position among a family of descents.
+Tensoring this example with any \(\sigma\)-finite Type III factor preserves both index and ratio. Hence there is no state-uniform positive Hessian floor depending only on the index. [[contemporary-puzzles/yang-mills-mass-gap/gauge-index-no-go-and-four-dimensional-center-square]] gives the gauge-theoretic consequence: index is a capacity or sector-count datum, whereas physical coercivity needs normalized pullbacks and transverse relative position among a family of descents.
 
 ## The normalization no-go
 
@@ -471,7 +471,7 @@ $$
 \tag{D7}
 $$
 
-This sharpens the range--kernel no-go in [[causal-patch-boundary-and-two-times]]. If a wall is to contribute to a mass-gap form, it needs a further construction that acts on retained physical directions.
+This sharpens the range--kernel no-go in [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]]. If a wall is to contribute to a mass-gap form, it needs a further construction that acts on retained physical directions.
 
 ## Minimal-lift transgression puts a form on the output
 
@@ -669,7 +669,7 @@ $$
 \tag{D17}
 $$
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/descent_loss_cocycle_receipt.py|The descent-loss receipt]] checks the carrier split, weighted quotient metric, general two-arrow infimal composition, and binary identities (D15)--(D17) numerically. The positive coefficient is a dimensionless contraction cost. No energy or time parameter occurs.
+[[measured-response-carriers/receipts/descent_loss_cocycle_receipt.py|The descent-loss receipt]] checks the carrier split, weighted quotient metric, general two-arrow infimal composition, and binary identities (D15)--(D17) numerically. The positive coefficient is a dimensionless contraction cost. No energy or time parameter occurs.
 
 ## Local invertibility still does not give global coercivity
 
@@ -736,7 +736,7 @@ $$
 
 No formal identity equates the algebraic quotient $q_r$ with the tangent contraction $A_r$. A realization theorem must show that $\Phi_r$ implements the declared accessible quotient and that its reachable BKM tangents belong to the reconstructed physical package.
 
-Approximate low-energy compatibility is weaker. It should compare the full net on energy-bounded states or smeared observables with explicit regulator, volume, heavy-sector, and background errors; a sharp spectral subspace should not be misnamed a local subalgebra. [[causal-frame-coercivity#Recovery of observed QFT below a UV threshold|The compatibility ledger]] states the exact extension, effective-recovery, and strong-emergence contracts separately.
+Approximate low-energy compatibility is weaker. It should compare the full net on energy-bounded states or smeared observables with explicit regulator, volume, heavy-sector, and background errors; a sharp spectral subspace should not be misnamed a local subalgebra. [[physical-response-coercivity/causal-frame-coercivity#Recovery of observed QFT below a UV threshold|The compatibility ledger]] states the exact extension, effective-recovery, and strong-emergence contracts separately.
 
 This factorization resolves an apparent contradiction in (D7). The wall may forget distinctions that do not survive into $\mathcal Q_{r,G}$ while the reconstructed effective image exactly realizes QFT. Petz recovery of the *full source* is neither required nor desired. What must be recovered is the observable net from the effective quotient. Conversely, if a proposed positive residue is evaluated on a family claimed to be Petz-recoverable through the same wall, it vanishes and cannot explain a gap.
 

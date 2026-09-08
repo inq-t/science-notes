@@ -657,7 +657,7 @@ $$
 
 as a closed completely Dirichlet local form whenever its domain is dense.
 This upgrades the coordinate or cylinder-form branch in
-[[contemporary-puzzles/yang-mills-mass-gap/gauge-dirichlet-trace-carrier|the
+[[trace-dirichlet-descent/gauge-dirichlet-trace-carrier|the
 regulated gauge carrier]]: local complete Markovianity follows from
 the expected multiplicative observable pullback together with domain density
 and whole complete Dirichletness, not from minimization through conditional

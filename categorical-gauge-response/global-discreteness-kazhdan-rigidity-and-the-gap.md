@@ -158,7 +158,7 @@ The viable Copernican use is different. Global lifts or presentations must induc
 
 with \(b>0\) uniform through the regulator and volume limits. Property \((T)\) can supply the middle spectral constant only after a separate lower frame bound for \(J\) and only if the invariant vectors of \(\pi\) do not contain nonvacuum images.
 
-[[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder]] supplies the next exact arrow: a lower bound on the resulting local distinction Hessian can be converted into a Hamiltonian lower bound by locality, positive energy, and finite width. The missing theorem has therefore narrowed to a same-carrier comparison between global presentation disagreement and a regional relative-entropy or descent-loss Hessian.
+[[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]] supplies the next exact arrow: a lower bound on the resulting local distinction Hessian can be converted into a Hamiltonian lower bound by locality, positive energy, and finite width. The missing theorem has therefore narrowed to a same-carrier comparison between global presentation disagreement and a regional relative-entropy or descent-loss Hessian.
 
 ## Stopping condition
 

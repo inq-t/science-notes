@@ -27,7 +27,7 @@ E_H((0,\Delta))=0.
 \tag{PMP2}
 $$
 
-Restriction of a state to \(\mathcal D\cong C(X)\) gives a probability measure on \(X\), not one selected \(x\). An instrument can give the conditional state for each result without choosing which result is obtained. This contextual fact need not be an energy fact: that requires a bounded or coarse-grained spectral readout in which the relevant \(E_H(B)\) belongs to \(\mathcal D\). These are the type distinctions in [[sufficient-reason/facticity-and-pointing]] and [[physical-distinction-coercivity]].
+Restriction of a state to \(\mathcal D\cong C(X)\) gives a probability measure on \(X\), not one selected \(x\). An instrument can give the conditional state for each result without choosing which result is obtained. This contextual fact need not be an energy fact: that requires a bounded or coarse-grained spectral readout in which the relevant \(E_H(B)\) belongs to \(\mathcal D\). These are the type distinctions in [[sufficient-reason/facticity-and-pointing]] and [[physical-response-coercivity/physical-distinction-coercivity]].
 
 These distinctions do not choose an interpretation of quantum outcomes.
 The [[directed-analytic-realization/positive-readout-and-the-born-weight|positive-evaluation theorem]]
@@ -47,9 +47,9 @@ $$
 
 The obtained fact need not itself have positive entropy: a character can be definite while the ambient algebra still contains alternatives. Conversely, \(\mathcal D\cong\mathbb C\) has a unique character but no nontrivial informational distinction. The spectrum \(X\) is the possibility structure; probabilistic ambiguity belongs to a non-Dirac weighting on \(X\); pointing belongs to a realized value.
 
-The vacuum projection in (PMP1) is a distinguished common subspace. Only under vacuum uniqueness, \(P_0=|\Omega\rangle\langle\Omega|\), does it determine one vacuum ray; it is still not an obtained character. Pointing alone cannot imply coercivity: one can have \(\ker H=\mathbb C\Omega\) while \(\sigma(H|_{\mathcal K})\) accumulates at zero. [[pointing-coercivity-and-the-flat-partner-law]] gives an explicit normalizable-pointing counterexample. The gap is not the zero-mode subspace; it is the uniform exclusion, or equivalently the uniform decay rate, on its orthogonal complement.
+The vacuum projection in (PMP1) is a distinguished common subspace. Only under vacuum uniqueness, \(P_0=|\Omega\rangle\langle\Omega|\), does it determine one vacuum ray; it is still not an obtained character. Pointing alone cannot imply coercivity: one can have \(\ker H=\mathbb C\Omega\) while \(\sigma(H|_{\mathcal K})\) accumulates at zero. [[contemporary-puzzles/yang-mills-mass-gap/pointing-coercivity-and-the-flat-partner-law]] gives an explicit normalizable-pointing counterexample. The gap is not the zero-mode subspace; it is the uniform exclusion, or equivalently the uniform decay rate, on its orthogonal complement.
 
-A pointedness firewall is therefore necessary. A pointed cone obeying \(C\cap(-C)=\{0\}\), a categorical pointed object \((X,x_0)\), a character \(\chi_x\), a vacuum projection \(P_0\), and an obtained fact with a persistent record are five different structures. Each can be useful, but no one of them supplies the other four without explicit maps and additional hypotheses. [[pointed-facts-and-the-shorted-response]] separately distinguishes the visible counterfactual complement of a point from its hidden whole-register antecedent fibre.
+A pointedness firewall is therefore necessary. A pointed cone obeying \(C\cap(-C)=\{0\}\), a categorical pointed object \((X,x_0)\), a character \(\chi_x\), a vacuum projection \(P_0\), and an obtained fact with a persistent record are five different structures. Each can be useful, but no one of them supplies the other four without explicit maps and additional hypotheses. [[trace-dirichlet-descent/pointed-facts-and-the-shorted-response]] separately distinguishes the visible counterfactual complement of a point from its hidden whole-register antecedent fibre.
 
 ## Mass is not a canonical phase-space coordinate
 
@@ -101,7 +101,7 @@ An integrable complex structure is likewise not by itself a symplectic phase spa
 
 ## Polar decomposition separates orientation from magnitude
 
-For the disjoint-cut construction in [[past-future-angle-and-the-transfer-gap]], write \(J_-^0,J_+^0:\mathcal K\to\mathscr H\) for the centered past and future endpoint isometries. The reduced ordered transfer has polar decomposition
+For the disjoint-cut construction in [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]], write \(J_-^0,J_+^0:\mathcal K\to\mathscr H\) for the centered past and future endpoint isometries. The reduced ordered transfer has polar decomposition
 
 $$
 A_\ell=pq=V_\ell|A_\ell|,
@@ -242,7 +242,7 @@ If the Euclidean parameter is a duration \(\tau\), replace \(\ell/c\) by \(\tau\
 
 [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] gives the differential companion: the same gap is \(\hbar c\) times the logarithmic attenuation per Euclidean length, or \(\hbar\) times the attenuation per Euclidean duration. It also states the additional carrier and record obligations required before that exact attenuation rate may be interpreted as a rate of factification.
 
-Under the stationary reversible Hilbert-positive Markov--OS and endpoint-identification hypotheses of [[past-future-angle-and-the-transfer-gap]], combine this with the exact angle identity
+Under the stationary reversible Hilbert-positive Markov--OS and endpoint-identification hypotheses of [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]], combine this with the exact angle identity
 
 $$
 c_F(\ell)
@@ -317,4 +317,4 @@ $$
 
 The hard noncircular step is still on the left of the positive modulus: construct the disjoint-cut carrier and prove a fixed-thickness contraction, or its calibrated infinitesimal rate, from gauge geometry, entropy contraction, a wall obstruction, or a complete regional frame **without** reading the desired spectrum from \(H\). Then identify its modulus with the OS transfer semigroup, reconstruct the local Poincare theory, and solder the clock gap to the mass Casimir. Phase, knot, monodromy, Jordan-frame, or octonionic data contribute only if they control that all-direction modulus or construct one of those missing maps.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/past_future_angle_receipt.py|The finite past--future receipt]] also checks (PMP19) for its three-state transfer generator. This is a spectral-calculus identity check, not an independent gap proof.
+[[two-slice-innovation-geometry/receipts/past_future_angle_receipt.py|The finite past--future receipt]] also checks (PMP19) for its three-state transfer generator. This is a spectral-calculus identity check, not an independent gap proof.

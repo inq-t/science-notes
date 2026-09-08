@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [shorting, dirichlet-form, conditional-expectation, friedrichs-angle, retained-response, harmonic-lift]
 ---
 # Trace Dirichlet Descent
 
@@ -51,7 +52,9 @@ $$
 \tag{TD4}
 $$
 
-This is a quotient construction, not a restriction of \(\mathcal E_W\) to a preferred copy of \(\mathcal H_L\). The hidden fibre is quantified over before the local operator is formed. In the language of positive operators it is [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle|shorting]]; in boundary potential theory it is the trace form; in a finite block it is a Schur complement.
+This is a quotient construction, not a restriction of \(\mathcal E_W\) to a preferred copy of \(\mathcal H_L\). The hidden fibre is quantified over before the local operator is formed. In the language of positive operators it is [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle|shorting]]; in boundary potential theory it is the trace form; in a finite block it is a Schur complement.
+
+[[trace-dirichlet-descent/pointed-facts-and-the-shorted-response|Pointed facts]] separates retained alternatives from indistinguishable antecedents. A raw projection defect vanishes on its retained range. Shorting instead asks what whole cost remains after every compatible antecedent has been allowed to adjust; it exposes a retained floor rather than manufacturing one.
 
 [[coarse-response-memory/inq|Coarse response memory]] supplies the time-dependent extension: the static short is the zero-frequency value of a hidden-return response, while actual compressed evolution has a memory kernel. Its three-state example has a fixed fast instantaneous response but an arbitrarily slow observable tail. A positive low-frequency metric and the corresponding block coercivity criterion keep that dynamical distinction explicit.
 
@@ -128,7 +131,7 @@ $$
 
 This is a precise form-level sense in which a representative is forgotten. It is not automatically thermodynamic entropy, energy emitted to an exterior, state reduction, or production of a record. It measures the whole response that disappears when only the least-cost representative of the local class is retained.
 
-When every downstream form is defined by the same infimal-pushforward rule, nested quotient maps compose by taking one joint infimum. This is the form version of transitivity of Anderson--Trapp shorting and gives a genuine descent law for successive eliminations.
+When every downstream form is defined by the same infimal-pushforward rule, nested quotient maps compose by taking one joint infimum. This is the form version of transitivity of Anderson--Trapp shorting and gives a genuine descent law for successive eliminations. The bounded [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle|shorted-response filtration]] distinguishes this stage loss from the benefit of relaxing a frozen hidden background: both are positive, but they account for different operations.
 
 [[conditional-score-shorting-and-observable-lifts|Conditional score shorting]] supplies an explicit singular-fiber member. Conditional Fisher forms average, while their duals descend by minimizing over range-admissible response lifts. The unique harmonic lifts compose and preserve one actual Gaussian observable through successive cuts. This realizes the variance quotient, not an observable-algebra quotient or an identity between differently dualized diffusion forms; the response kernel is not an ideal.
 
@@ -178,7 +181,7 @@ $$
 
 If \(C\) is singular, the intrinsic shorted operator still exists for bounded \(A\); a Moore--Penrose formula requires the corresponding range condition and must not be inferred from notation alone.
 
-For a finite electrical or Markov network, \(A\) is a graph Laplacian and \(\check A\) is the Kron-reduced boundary Laplacian. For an elliptic bulk form, \(\check A\) is the Dirichlet-to-Neumann operator: a boundary value is extended harmonically through the bulk, and the returned normal flux depends on the whole interior even though the operator acts only on boundary data. [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] contains the Gaussian field-theory member and its separate OS and physical-energy obligations.
+For a finite electrical or Markov network, \(A\) is a graph Laplacian and \(\check A\) is the Kron-reduced boundary Laplacian. For an elliptic bulk form, \(\check A\) is the Dirichlet-to-Neumann operator: a boundary value is extended harmonically through the bulk, and the returned normal flux depends on the whole interior even though the operator acts only on boundary data. [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] contains the Gaussian field-theory member and its separate OS and physical-energy obligations.
 
 This supplies a rigorous version of the reversal tactic:
 
@@ -193,6 +196,28 @@ $$
 [[library/the-dirichlet-to-neumann-operator-on-rough-domains/inq|Arendt and ter Elst]] construct a positive self-adjoint Dirichlet-to-Neumann operator on rough boundaries by form methods and show that its negative generates a contractive \(C_0\)-semigroup. [[library/generalizing-dirichlet-to-neumann-operators/inq|Li]] identifies Dirichlet-to-Neumann operators of irreducible Dirichlet forms with trace Dirichlet forms and boundary time changes of the associated Markov processes.
 
 [[well-core-capacity-and-source-response|Well-core capacity]] supplies a concrete domain-compatible finite return. Sharp finite labels are not themselves \(H^1\) observables on a connected smooth diffusion, but harmonic interpolation between separated cores gives a conductance matrix. The inherited Gram metric differs from diagonal label weights; a four-vertex example shows that changing this metric can decide whether the coordinate evolution is Markovian. In the binary case, source response divided by the corresponding rate remains exactly source transfer squared over capacity in either metric. This preserves the slow channel rather than choosing a new rate for it.
+
+## A second descent can supply a retained response
+
+For orthogonal projections \(P,Q\), put \(C=PQP|_{P\mathcal H}\).
+The [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle#Paired walls produce an exact tangential response|equal-weight paired-wall short]]
+is \((I-C)(I+C)^{-1}\) on \(P\mathcal H\). Its reduced edge is
+\((1-c_F^2)/(1+c_F^2)\) when the retained complement of the common range is
+nonzero. The second wall supplies relative tangential response; either
+projection defect alone vanishes on its own retained range.
+
+[[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|Ordered descent]]
+keeps this positive response separate from the commutator and the pair's
+stabilizer. [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall|Finite common index]]
+can separate each fixed subfactor pair without bounding that separation
+uniformly. Neither index nor nonzero commutator supplies the missing floor.
+
+In the finite tracial setting,
+[[trace-dirichlet-descent/two-expectation-angle-process|Poissonizing the palindromic channel]]
+\(E_PE_QE_P\) gives the completely Dirichlet generator \(I-PQP\), with
+reduced edge \(1-c_F^2\). This is a different construction, not a proof that
+the shorted Cayley response is Markovian. The pair, normalization and
+physical energy comparison remain separate inputs.
 
 ## When the wall derives a local process
 
@@ -390,7 +415,7 @@ obey the semigroup law without lumpability. Infimal quotient, observable
 pullback, and semigroup compression must therefore remain separate.
 
 At a finite Wilson regulator, the coordinate or cylinder form in
-[[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response#A direct route that does not require a local boundary action|the marginal-inheritance theorem]]
+[[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#A direct route that does not require a local boundary action|the marginal-inheritance theorem]]
 is precisely (TD16g). It is the safer Markov branch. The infimal trace remains
 the sharper realization of least whole-compatible cost, but now carries a
 genuine additional theorem obligation.
@@ -686,7 +711,7 @@ H_r
 \tag{TD36}
 $$
 
-If comparison maps or normalization constants intervene, their operator norms enter exactly as in [[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder|the localized energy solder]]. A continuum result requires the appropriately normalized version of
+If comparison maps or normalization constants intervene, their operator norms enter exactly as in [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder|the localized energy solder]]. A continuum result requires the appropriately normalized version of
 
 $$
 \inf_r\frac{\kappa_r}{R_r}>0,
@@ -704,7 +729,7 @@ of the same conditional local presentation. The dimensional yardstick remains
 separate. In (TD35), \(\hbar\) belongs to the downstream clock-energy
 calibration; it has not been used to define the pre-QFT response.
 
-[[contemporary-puzzles/yang-mills-mass-gap/gauge-dirichlet-trace-carrier|The regulated gauge specialization]]
+[[trace-dirichlet-descent/gauge-dirichlet-trace-carrier|The regulated gauge specialization]]
 now verifies the first finite part of this programme without reading from the
 transfer spectrum. A volume-uniform strong-coupling Poincare estimate for the
 Wilson Euclidean Langevin form gives a closed Markov cylinder form on any

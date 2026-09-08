@@ -19,7 +19,7 @@ q_\kappa(V\mid U)=
 \]
 The law is symmetric in \(U,V\); both marginals are Haar. At \(\kappa=0\), use \(N_0=1\) and independence.
 
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|The existing Wilson convolution calculation]] gives predictor eigenvalues
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|The existing Wilson convolution calculation]] gives predictor eigenvalues
 \[
 p_j(\kappa)=\frac{I_{2j+1}(\kappa)}{I_1(\kappa)},
 \qquad j=0,\tfrac12,1,\ldots.

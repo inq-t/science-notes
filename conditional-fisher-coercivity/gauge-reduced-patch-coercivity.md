@@ -108,7 +108,7 @@ H_{\rm hb}|_{\mathcal H_{\rm inv}}
 \]
 The full positive semigroups also agree exactly on invariant observables. These are legitimate reversible auxiliary refresh dynamics with the same stationary law, not a new field or a change of the Wilson density.
 
-The freely chosen \(a\) cannot set any invariant-sector gap. [[contemporary-puzzles/yang-mills-mass-gap/gauge-dirichlet-trace-carrier#Gauge averaging is a projection to the carrier, not its defect|Gauge averaging has the wrong kernel to be a physical gap operator]]: its defect kills all invariant excitations. Here that property is precisely why it can complete the redundant directions without altering the intended dynamics.
+The freely chosen \(a\) cannot set any invariant-sector gap. [[trace-dirichlet-descent/gauge-dirichlet-trace-carrier#Gauge averaging is a projection to the carrier, not its defect|Gauge averaging has the wrong kernel to be a physical gap operator]]: its defect kills all invariant excitations. Here that property is precisely why it can complete the redundant directions without altering the intended dynamics.
 
 ## Reduce inside a patch, not separately at its boundary
 

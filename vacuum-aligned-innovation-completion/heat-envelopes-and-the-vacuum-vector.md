@@ -117,7 +117,7 @@ If \(H=\eta L+V\), where \(V\) is a real multiplication potential, \(\eta>0\), a
 \eta L_\nu=U_\psi^{-1}(H-E_0)U_\psi.
 \tag{HV11}
 \]
-The [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|ground-state flux theorem]] already owns this exact identification. It requires the stated differential Hamiltonian and closed-form domains; a finite-spacing Wilson transfer logarithm need not have that form. The kinetic conversion \(\eta\) remains supplied, not independently predicted by renaming \(L_\nu\).
+The [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|ground-state flux theorem]] already owns this exact identification. It requires the stated differential Hamiltonian and closed-form domains; a finite-spacing Wilson transfer logarithm need not have that form. The kinetic conversion \(\eta\) remains supplied, not independently predicted by renaming \(L_\nu\).
 
 The practical correction is to compare operators on the same pointed carrier. [[markov-edge-measure-solder/inq|Stationary edge-measure comparison]] offers a sufficient route: an independently specified \(\nu\)-reversible reference \(R_\nu\) and actual return \(S_\nu\), with edge domination, yield
 \[

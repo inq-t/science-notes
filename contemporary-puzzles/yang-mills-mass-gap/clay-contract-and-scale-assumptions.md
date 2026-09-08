@@ -29,7 +29,7 @@ This suggests a sharper version of the two-time proposal:
 
 > Derive the positive form, temporal orientation and admissible translations from a prior process law, rather than treating the reconstruction data as primitive.
 
-It does not follow that Wick rotation erased an already specified record-formation law. Such a law was not among the starting axioms. [[causal-patch-boundary-and-two-times|The temporal register audit]] separates factual precedence, formation, auxiliary relaxation, Euclidean attenuation, Lorentzian clock evolution and modular flow. Two broad philosophical registers need not be two scalar coordinates.
+It does not follow that Wick rotation erased an already specified record-formation law. Such a law was not among the starting axioms. [[global-local-response-reconstruction/causal-patch-boundary-and-two-times|The temporal register audit]] separates factual precedence, formation, auxiliary relaxation, Euclidean attenuation, Lorentzian clock evolution and modular flow. Two broad philosophical registers need not be two scalar coordinates.
 
 Unitarity means a surjective complex-linear Hilbert-space isometry. It does not imply time-reversal symmetry, and neither property implies integrability in the sense of a solvable dynamical system. A new construction must keep these predicates separate even if it ultimately relates them.
 

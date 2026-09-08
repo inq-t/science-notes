@@ -129,7 +129,7 @@ Q^{\otimes}
 \tag{ME12}
 \]
 
-on the product carrier. A local bounded solder therefore reaches the product flux generator with the worst local coefficient, not its \(n\)-th power. This exact fact explains why a globally multiplied density-ratio estimate can be far weaker than the true product coercivity. The [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|pure product-Wilson theorem]] gives a sharper gauge-invariant instance by diagonalizing the spin-network carrier directly.
+on the product carrier. A local bounded solder therefore reaches the product flux generator with the worst local coefficient, not its \(n\)-th power. This exact fact explains why a globally multiplied density-ratio estimate can be far weaker than the true product coercivity. The [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|pure product-Wilson theorem]] gives a sharper gauge-invariant instance by diagonalizing the spin-network carrier directly.
 
 ## Gauge restriction and deterministic blocking preserve the order
 
@@ -143,7 +143,7 @@ I_{\mathrm{GI}}-P_{\mathrm{GI}}
 \tag{ME13}
 \]
 
-Gauge averaging constructs the carrier on which this inequality is tested. Its own defect \(I-E_{\mathcal G}\) vanishes on every gauge-invariant excitation and is not the coercive operator in (ME13), as emphasized by [[contemporary-puzzles/yang-mills-mass-gap/gauge-dirichlet-trace-carrier#Gauge averaging is a projection to the carrier, not its defect|the gauge-carrier firewall]].
+Gauge averaging constructs the carrier on which this inequality is tested. Its own defect \(I-E_{\mathcal G}\) vanishes on every gauge-invariant excitation and is not the coercive operator in (ME13), as emphasized by [[trace-dirichlet-descent/gauge-dirichlet-trace-carrier#Gauge averaging is a projection to the carrier, not its defect|the gauge-carrier firewall]].
 
 Now let \(B:X\to Y\) be a measurable block map, \(\bar\nu=B_*\nu\), and
 
@@ -233,7 +233,7 @@ I-P\geq\eta(I-e^{-\tau D}).
 \tag{ME22}
 \]
 
-This is the kernel-level return type of the bounded solder in [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder#The bounded-solder theorem|the finite-spacing transfer theorem]]. It compares stationary two-slice conductance, not merely the one-slice density \(\psi^2\). Bounds on \(\psi\) and \(\lambda_0\) are noncircular only when obtained from the action or vacuum construction without using the unknown nonvacuum transfer edge.
+This is the kernel-level return type of the bounded solder in [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The bounded-solder theorem|the finite-spacing transfer theorem]]. It compares stationary two-slice conductance, not merely the one-slice density \(\psi^2\). Bounds on \(\psi\) and \(\lambda_0\) are noncircular only when obtained from the action or vacuum construction without using the unknown nonvacuum transfer edge.
 
 The same comparison also feeds a nonstationary theorem. For a positive
 stage $P_k$, $I-P_k^2\geq I-P_k$, so, writing the comparison generator as
@@ -291,7 +291,7 @@ H_T-E_0
 \tag{ME26}
 \]
 
-This last interpretation requires the reflection-positive transfer construction and the exact carrier identification developed in [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response|vacuum boundary gluing]]. A stochastic sampler kernel with the same invariant measure is not thereby physical clock transport.
+This last interpretation requires the reflection-positive transfer construction and the exact carrier identification developed in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|vacuum boundary gluing]]. A stochastic sampler kernel with the same invariant measure is not thereby physical clock transport.
 
 ## The interacting obligation is now a local two-slice estimate
 

@@ -283,7 +283,7 @@ Poincare constant on the mean-zero gauge-invariant carrier, one obtains
 \]
 
 The ground-state-transform theorem in
-[[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity]] therefore gives the same physical
+[[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] therefore gives the same physical
 gap in either convention:
 
 \[
@@ -418,7 +418,7 @@ measures are therefore identical. Using the same reflection and transfer
 normalizations, their OS pre-Hilbert forms, null spaces, completed carriers,
 and transfer operators agree. Under the reflection-Markov and vacuum
 preparation hypotheses in
-[[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response]], the resulting OS-to-interface
+[[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]], the resulting OS-to-interface
 unitary lands in
 
 \[

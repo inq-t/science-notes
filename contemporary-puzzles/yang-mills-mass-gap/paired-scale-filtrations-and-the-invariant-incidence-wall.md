@@ -17,7 +17,7 @@ E_j\xrightarrow[j\to\infty]{\mathrm{strong}}P_0.
 \tag{PF1}
 $$
 
-In the applications envisioned here, the \(E_j\) arise from state-preserving conditional expectations onto nested regulator or RG algebras, as in [[physical-distinction-coercivity#The operator-algebraic contribution: transport first, shells second|the Takesaki-admissible filtration]]. They are not assumed to be expectations between ordinary nested vacuum AQFT region algebras, which are obstructed under the standard cyclic and separating hypotheses.
+In the applications envisioned here, the \(E_j\) arise from state-preserving conditional expectations onto nested regulator or RG algebras, as in [[physical-response-coercivity/physical-distinction-coercivity#The operator-algebraic contribution: transport first, shells second|the Takesaki-admissible filtration]]. They are not assumed to be expectations between ordinary nested vacuum AQFT region algebras, which are obstructed under the standard cyclic and separating hypotheses.
 
 Define the martingale shell projections
 
@@ -548,7 +548,7 @@ A commuting square supplies (PF12), not (PF20). It turns products of shell proje
 
 ## Yang--Mills realization and recovery obligations
 
-At a finite regulator, the most conservative carrier is the gauge-invariant ground-state-transformed \(L^2(\nu_r)\) space or the exact OS interface carrier supplied by [[vacuum-boundary-gluing-and-wall-response]]. Candidate filtrations can come from declared gauge-equivariant block maps, conditional expectations onto block observables, or a continuous interpolation of the RG martingale shells in [[two-scale-rg-descent-and-the-crossover-lemma]]. They must be selected before inspecting the transfer spectrum.
+At a finite regulator, the most conservative carrier is the gauge-invariant ground-state-transformed \(L^2(\nu_r)\) space or the exact OS interface carrier supplied by [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]]. Candidate filtrations can come from declared gauge-equivariant block maps, conditional expectations onto block observables, or a continuous interpolation of the RG martingale shells in [[two-scale-rg-descent-and-the-crossover-lemma]]. They must be selected before inspecting the transfer spectrum.
 
 The following are independent obligations:
 

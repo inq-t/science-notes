@@ -256,7 +256,7 @@ The Copernican point survives in a stricter form: unitarity is meaningful only
 after the physical carrier and clock action have been formed. It is not a law
 that the formation arrow itself must obey.
 
-[[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap#The whole shift, the slice compression, and the clock are different arrows|The stationary path dilation]] gives a useful exact warning against
+[[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap#The whole shift, the slice compression, and the clock are different arrows|The stationary path dilation]] gives a useful exact warning against
 overcorrecting. A two-sided stationary history has a unitary Koopman shift
 \(\mathscr U_{\mathrm{hist}}\), while its one-slice Euclidean transfer is the
 compression \(T^n=J_0^*\mathscr U_{\mathrm{hist}}^nJ_0\). The later
@@ -432,7 +432,7 @@ retained-carrier unitary can coexist by an exact
 intertwiner. The descent does not create the unitary, and unitarity need not
 fail on every operation available on the fused carrier. Moreover,
 $rv=0$: the raw fusion residue has zero pullback along the canonical endpoint
-lift. [[contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect|The
+lift. [[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|The
 fusion/transfer firewall]] shows why a separate history-sensitive carrier map
 is required before the residue can be interpreted as forgetting or compared
 with a physical transfer defect.

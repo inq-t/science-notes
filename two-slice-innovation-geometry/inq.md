@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [maximal-correlation, friedrichs-angle, transfer, innovation, conditional-variance, euclidean-dwell]
 ---
 # Two-Slice Innovation Geometry
 
@@ -154,6 +155,23 @@ $$
 Without Hilbert positivity, maximal correlation controls a singular norm;
 a negative near-\(-1\) eigenvalue can make \(\rho\) large without approaching
 the upper spectral edge of \(P\).
+
+[[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|Separated past and future]]
+realize these endpoint maps inside one stationary reversible Markov history.
+Disjoint half-spaces with a positive intervening slab have the transfer
+cosine; touching halves share the time-zero carrier instead. The supported
+positive return is the square of the endpoint transfer. Its logarithm is
+therefore taken on that support and divided by twice the calibrated slab
+thickness. History shift, compressed Euclidean transfer and reconstructed
+Lorentzian clock remain different arrows.
+
+[[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell|Phase and Euclidean dwell]]
+separates the polar identification, attenuation modulus and obtained record.
+On the complete vacuum complement, a positive gap is equivalent to a
+uniform ceiling on integrated Euclidean persistence, through the extended
+form \((\hbar c/2)H^{-1}\). Finite dwell for selected states is insufficient.
+This is another exact presentation of a supplied transfer spectrum, not
+an independent proof of its positive edge.
 
 ## The angle is exactly a two-block variance constant
 
@@ -675,7 +693,7 @@ physical Poincare energy--mass spectrum.
 - [[library/on-maximal-correlation-hypercontractivity-and-the-data-processing-inequality-studied-by-erkip-and-cover/inq|Anantharam--Gohari--Kamath--Nair]] identify the local information-geometric coefficient and refute its unqualified promotion to a global information contraction.
 - [[library/strong-data-processing-inequalities-for-channels-and-bayesian-networks/inq|Polyanskiy--Wu]] compare fixed-input \(\chi^2\), maximal-correlation, and relative-entropy contraction coefficients.
 - [[library/approximate-tensorization-of-entropy-at-high-temperature/inq|Caputo--Menz--Tetali]] and [[library/block-factorization-of-the-relative-entropy-via-spatial-mixing/inq|Caputo--Parisi]] supply classical conditional-to-global entropy precedents.
-- [[past-future-angle-and-the-transfer-gap]] supplies the stationary path-space and logarithmic-transfer realization.
+- [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] supplies the stationary path-space and logarithmic-transfer realization.
 - [[reverse-prediction-residue-archive/inq|Reverse-Prediction Residue Archive]] resolves the two-slice defect into the orthogonal innovations of a nested future filtration and states the finite-slab stopping condition.
 - [[bridge-data-augmentation-solder/inq|Bridge Data-Augmentation Solder]] identifies the bridge form with the positive marginal chain of the middle--boundary-pair Gibbs update and proves its product and gauge-restriction laws.
 - [[three-block-bridge-factorization/inq|Three-Block Bridge Factorization]] turns collared whole-spacetime block factorization into a bridge floor and proves that the disjoint full-carrier constant has the wrong continuum scaling.

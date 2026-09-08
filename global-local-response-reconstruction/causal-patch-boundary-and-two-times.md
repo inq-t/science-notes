@@ -276,7 +276,7 @@ Euclidean covariance, the OS regularity and growth conditions, locality or symme
 
 [[library/the-semigroup-characterization-of-osterwalder-schrader-path-spaces/inq|Klein's semigroup characterization]] isolates this quotient-semigroup step, while [[library/from-euclidean-field-theory-to-quantum-field-theory/inq|Schlingemann's algebraic reconstruction]] begins with Euclidean local data and an additional time-zero condition in order to recover a Haag--Kastler net.
 
-[[past-future-angle-and-the-transfer-gap]] gives a sharp geometric realization when the OS path space is also stationary, reversible, Markov, and Hilbert-positive. Conditional expectations onto disjoint past and future half-spaces at Euclidean separation \(\ell>0\) have Friedrichs cosine
+[[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] gives a sharp geometric realization when the OS path space is also stationary, reversible, Markov, and Hilbert-positive. Conditional expectations onto disjoint past and future half-spaces at Euclidean separation \(\ell>0\) have Friedrichs cosine
 
 $$
 c_F(\ell)
@@ -304,7 +304,7 @@ e^{-\tau_EH_0/\hbar}
 P_{\ker H_0}.
 $$
 
-No positive gap is needed for this strong limit. It equals \(P_\Omega\) only when the ground-state space is one-dimensional. [[vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] proves the abstract finite-regulator version.
+No positive gap is needed for this strong limit. It equals \(P_\Omega\) only when the ground-state space is one-dimensional. [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] proves the abstract finite-regulator version.
 
 The integrated transfer gives a second exact distinction. On the vacuum complement,
 
@@ -316,7 +316,7 @@ $$
 \frac{\hbar c}{2}H_0^{-1}
 $$
 
-as an extended positive form on the vacuum complement, with \(H_0^{-1}\) understood there. [[phase-modulus-pointing-and-euclidean-dwell]] proves that \(H_0\geq\Delta I\) on that complement exactly when \(\mathcal D_{\mathrm E}\leq\hbar c/(2\Delta)I\). This is a uniform Euclidean persistence ceiling, not a minimum interval between facts. Factive record order still has no metric duration until a clock solder is supplied.
+as an extended positive form on the vacuum complement, with \(H_0^{-1}\) understood there. [[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell]] proves that \(H_0\geq\Delta I\) on that complement exactly when \(\mathcal D_{\mathrm E}\leq\hbar c/(2\Delta)I\). This is a uniform Euclidean persistence ceiling, not a minimum interval between facts. Factive record order still has no metric duration until a clock solder is supplied.
 
 There is also a useful bounded-generator firewall. On any Banach space, if \(\mathcal L\) is bounded, then
 
@@ -634,7 +634,7 @@ $$
 
 appearing in the same-carrier energy inequality can survive those presentation changes.
 
-This is the semigroup version of [[causal-frame-coercivity|causal-frame coercivity]]. The frame theorem allows a whole family of wall tests on the physical carrier; the present theorem makes explicit how a separately constructed causal relaxation carrier would have to be transported into the Yang--Mills energy form.
+This is the semigroup version of [[physical-response-coercivity/causal-frame-coercivity|causal-frame coercivity]]. The frame theorem allows a whole family of wall tests on the physical carrier; the present theorem makes explicit how a separately constructed causal relaxation carrier would have to be transported into the Yang--Mills energy form.
 
 By the range--kernel obstruction, \(K_C\) in this theorem cannot be merely the transverse generator that projects onto the observable carrier when \(J\) lands inside that carrier. It must be a distinction or response generator that remains nonzero on centered accessible directions—for example, a boundary Dirichlet-to-Neumann form, an inherited coordinate carré du champ, or a canonically normalized family of overlapping wall responses.
 
@@ -709,7 +709,7 @@ The Copernican reversal is still available. A strongly local regular Dirichlet f
 
 ## The boundary-first gain
 
-The boundary route has now removed one unnecessary assumption. [[vacuum-boundary-gluing-and-wall-response|Euclidean gluing]] constructs the time-zero vacuum measure by integrating bulk histories over fibers and sewing half-space amplitudes. Its logarithmic boundary weight can be nonlocal. More importantly, a bulk Poincare or logarithmic-Sobolev inequality for a product carré du champ passes exactly to a coordinate marginal equipped with the inherited coordinate form. Therefore the proof need not first manufacture a local boundary action or a quasilocal boundary Gibbs specification.
+The boundary route has now removed one unnecessary assumption. [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|Euclidean gluing]] constructs the time-zero vacuum measure by integrating bulk histories over fibers and sewing half-space amplitudes. Its logarithmic boundary weight can be nonlocal. More importantly, a bulk Poincare or logarithmic-Sobolev inequality for a product carré du champ passes exactly to a coordinate marginal equipped with the inherited coordinate form. Therefore the proof need not first manufacture a local boundary action or a quasilocal boundary Gibbs specification.
 
 That is the precise sense in which boundary locality is a red herring for the current coercivity route:
 

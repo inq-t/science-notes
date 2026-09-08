@@ -96,7 +96,7 @@ Compare the marked context with the moving context and return:
 
 Here \(\mathsf E_0=E|_{\mathcal P}\) and \(P_0\) projects onto \(V_0\). The subscript zero marks the original context, not the zero map. Each comparison is positive, unital and trace-preserving on the real Hermitian corner. Its trace-Hilbert implementation is a positive self-adjoint contraction.
 
-Unlike the [[contemporary-puzzles/yang-mills-mass-gap/two-expectation-angle-process|associative two-expectation theorem]], these maps have not been granted a common completely positive associative realization. That distinction matters below.
+Unlike the [[trace-dirichlet-descent/two-expectation-angle-process|associative two-expectation theorem]], these maps have not been granted a common completely positive associative realization. That distinction matters below.
 
 ## Invariant comparison fixes the local channel
 

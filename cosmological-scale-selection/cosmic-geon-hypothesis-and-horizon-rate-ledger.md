@@ -376,7 +376,7 @@ $$
 
 This is the cleanest current mathematical meaning of a “residue cost paid under descent”: relative distinguishability loss is allocated between successive whole-to-part arrows. It is not automatically a torsor, obstruction class, heat, emitted energy, or mass. A torsor description additionally requires a specified free transitive group action; an obstruction requires a declared lifting or gluing problem. Vanishing residue becomes a recoverability or sufficiency statement only under the hypotheses of the relevant recovery theorem.
 
-The finite arithmetic identities in (CG3), (CG5), and (CG7)--(CG9), together with the finite classical-channel analogue of (CG12b), are exercised by [[contemporary-puzzles/yang-mills-mass-gap/receipts/cosmic_geon_rate_receipt.py|the cosmic-geon rate receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/cosmic-geon-rate-receipt-output.txt|its stored output]]; the receipt explicitly makes no Araki, ontological, continuum, or mass-gap claim.
+The finite arithmetic identities in (CG3), (CG5), and (CG7)--(CG9), together with the finite classical-channel analogue of (CG12b), are exercised by [[cosmological-scale-selection/receipts/cosmic_geon_rate_receipt.py|the cosmic-geon rate receipt]] and [[cosmological-scale-selection/receipts/cosmic-geon-rate-receipt-output.txt|its stored output]]; the receipt explicitly makes no Araki, ontological, continuum, or mass-gap claim.
 
 If \((T_{u,*})_{u\geq0}\) is a strongly continuous semigroup of predual channels on the declared state or tangent topology,
 
@@ -439,7 +439,7 @@ $$
 
 Then \((1-e)\xi=0\) for every \(\xi\in\mathcal K_O\). The raw forgetting form \(\|(1-e)\xi\|^2\) vanishes on the entire formed carrier, so it cannot distinguish the vacuum from excitations within that carrier. The act that forgets the background cannot also be the mass operator of what remains.
 
-Within this expectation/projection model, the no-go forces at least the three-stage architecture isolated in [[causal-patch-boundary-and-two-times]]:
+Within this expectation/projection model, the no-go forces at least the three-stage architecture isolated in [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]]:
 
 $$
 \boxed{
@@ -453,7 +453,7 @@ $$
 
 This is the most important correction to “the leak is the cost of mass.” The literal forgetting map forms the local arena. A different operator must measure the cost of varying or compatibly extending distinctions *within the retained arena* against the whole-register constraints. Only a carrier-correct lower-bound theorem may then identify that tangential cost with physical energy and mass.
 
-[[pointed-facts-and-the-shorted-response]] now makes that reversal exact for a bounded positive response. Pointing among visible alternatives and forgetting distinctions inside an antecedent fibre are independent axes. If a whole-response form is split into retained and hidden blocks, minimizing over every compatible hidden extension produces the Schur short
+[[trace-dirichlet-descent/pointed-facts-and-the-shorted-response]] now makes that reversal exact for a bounded positive response. Pointing among visible alternatives and forgetting distinctions inside an antecedent fibre are independent axes. If a whole-response form is split into retained and hidden blocks, minimizing over every compatible hidden extension produces the Schur short
 
 $$
 S_A=G-BC^{-1}B^*,

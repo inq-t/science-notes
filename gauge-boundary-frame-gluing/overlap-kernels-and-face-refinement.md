@@ -276,7 +276,7 @@ is a reflection-positivity or reconstruction theorem. The supplied group,
 arena and symmetric comparison remain; the Jordan object has not been
 shown to produce them. A compact group-diffusion gap is not the magnetic,
 Gauss-restricted physical threshold in
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|finite-spacing transfer]].
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|finite-spacing transfer]].
 
 ## Temporal sewing needs a separate refinement law
 

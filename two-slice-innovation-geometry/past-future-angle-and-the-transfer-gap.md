@@ -285,7 +285,7 @@ $$
 
 There is no factor of two in the separation exponent. A factor \(2d\) appears only after one completes a past--future--past or future--past--future return, or if the cuts themselves were placed \(2d\) steps apart.
 
-The pair form from [[oriented-descent-angle-and-emergent-symmetry]] now has the sharp edge
+The pair form from [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry]] now has the sharp edge
 
 $$
 G_{i,j}:=2I-e_--e_+,
@@ -438,7 +438,7 @@ This is the promised reversal tactic in exact form. One may begin with the relat
 
 ### The paired-wall short is a hyperbolic tangent
 
-Apply [[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle#Paired walls produce an exact tangential response|the paired-wall shorting theorem]] to \(q,p\) on the reduced history comparison carrier \(\mathscr H_0:=(I-R)\mathscr H\), and write \(I_0\) for its identity. The equal-weight response retained by the future wall is
+Apply [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle#Paired walls produce an exact tangential response|the paired-wall shorting theorem]] to \(q,p\) on the reduced history comparison carrier \(\mathscr H_0:=(I-R)\mathscr H\), and write \(I_0\) for its identity. The equal-weight response retained by the future wall is
 
 $$
 \boxed{
@@ -849,6 +849,6 @@ The whole is represented by \(QL^2(\nu)\): it survives every slab unchanged and 
 
 The arrow remains prior. Swapping the cuts adjoints \(pq\) and reverses \(V_d\); the supported moduli live on opposite endpoint carriers but have the same singular-value data, from which the self-adjoint observable generator is recovered. Symmetry and positive energy can therefore be shadows of an ordered construction without requiring a symmetric ontology that later breaks. What remains open is the hard part: derive the strictly positive calibrated rate from Yang--Mills geometry without importing the transfer spectrum, and carry it through the continuum reconstruction.
 
-[[phase-modulus-pointing-and-euclidean-dwell]] develops two exact consequences without identifying them with a measurement outcome. The return \(A_\ell^*A_\ell\) is a Born-form effect only after a readout is declared, while its monotone quadratic-form integral over Euclidean depth is \((\hbar c/2)H^{-1}\) on the vacuum complement. A gap is therefore equivalent to a uniform finite ceiling on that integrated persistence. The same note proves that adjoining a complex structure or a flat unitary phase cannot change the Friedrichs angle or open the positive modulus gap.
+[[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell]] develops two exact consequences without identifying them with a measurement outcome. The return \(A_\ell^*A_\ell\) is a Born-form effect only after a readout is declared, while its monotone quadratic-form integral over Euclidean depth is \((\hbar c/2)H^{-1}\) on the vacuum complement. A gap is therefore equivalent to a uniform finite ceiling on that integrated persistence. The same note proves that adjoining a complex structure or a flat unitary phase cannot change the Friedrichs angle or open the positive modulus gap.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/past_future_angle_receipt.py|The finite receipt]] constructs the conditional-expectation projections of a three-state reversible path pair, verifies the exponent \(d\), the round-trip square, and the frame edge, and contrasts shrinking adjacent slices with fixed physical thickness. [[contemporary-puzzles/yang-mills-mass-gap/receipts/past-future-angle-receipt-output.txt|Its stored output]] is a finite-dimensional identity check, not a continuum or Yang--Mills proof.
+[[two-slice-innovation-geometry/receipts/past_future_angle_receipt.py|The finite receipt]] constructs the conditional-expectation projections of a three-state reversible path pair, verifies the exponent \(d\), the round-trip square, and the frame edge, and contrasts shrinking adjacent slices with fixed physical thickness. [[two-slice-innovation-geometry/receipts/past-future-angle-receipt-output.txt|Its stored output]] is a finite-dimensional identity check, not a continuum or Yang--Mills proof.

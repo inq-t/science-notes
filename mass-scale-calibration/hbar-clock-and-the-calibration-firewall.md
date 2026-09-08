@@ -189,7 +189,7 @@ m_{\mathrm{gap}}
 \tag{HC10}
 $$
 
-These are conditional conversion theorems, not origins of scale. If \(\beta\) or \(L_*\) is chosen from the desired mass, the construction is circular. If the primitive theory yields only \(K\) up to the rescaling (HC2), then it has not yet yielded an absolute mass. [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times]] gives the same normalization firewall for causal semigroups, and [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] identifies the physical-side transfer depth to which a successful solder must connect.
+These are conditional conversion theorems, not origins of scale. If \(\beta\) or \(L_*\) is chosen from the desired mass, the construction is circular. If the primitive theory yields only \(K\) up to the rescaling (HC2), then it has not yet yielded an absolute mass. [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]] gives the same normalization firewall for causal semigroups, and [[mass-scale-calibration/mass-as-a-calibrated-distinction-rate]] identifies the physical-side transfer depth to which a successful solder must connect.
 
 ## What can be pregeometric
 

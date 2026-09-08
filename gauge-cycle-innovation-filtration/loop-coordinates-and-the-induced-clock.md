@@ -174,7 +174,7 @@ coefficient carrier; a separately fitted odd clock is unnecessary.
 
 ## The full spectral edge and its refinement obligation
 
-The [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|weighted girth--Casimir theorem]]
+The [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|weighted girth--Casimir theorem]]
 controls the entire physical carrier. With
 \(\lambda_G=\min_{\lambda\ne1}C_2(\lambda)\), it gives
 \[

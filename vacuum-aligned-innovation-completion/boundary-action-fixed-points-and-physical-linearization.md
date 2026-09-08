@@ -74,7 +74,7 @@ If the transfer is also positive and injective as a Hilbert-space operator, so t
 \Delta_E=-\frac{\hbar c}{\ell_\tau}\log\rho_{\rm lin}.
 \tag{BF7}
 \]
-This is the [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|transfer logarithm]], with one step representing Euclidean length \(\ell_\tau\). Equivalently, mass after the further Poincare identification is \(\Delta_E/c^2\). Uniform fixed-physical-depth linear stability would prove the corresponding spectral exclusion; assuming that stability merely assumes an equivalent form of the gap.
+This is the [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|transfer logarithm]], with one step representing Euclidean length \(\ell_\tau\). Equivalently, mass after the further Poincare identification is \(\Delta_E/c^2\). Uniform fixed-physical-depth linear stability would prove the corresponding spectral exclusion; assuming that stability merely assumes an equivalent form of the gap.
 
 ## Projective convergence has a volume cost
 
@@ -137,6 +137,6 @@ g(a)=\frac{2}{2+a+\sqrt{a^2+4a}};
 \]
 quadratic precision perturbations contract with products \(g(a_i)g(a_j)\). An even quadratic ansatz misses slower linear directions. At \(A=0\), the fixed precision vanishes and no normalizable whole-space vacuum results, although the local posterior precision remains at least \(B\). The flat seed on \(\mathbb R^r\) is not \(L^2\); for \(A>0\) it becomes normalizable after one step, or one may start with \(R_0>0\).
 
-For \(B=bI\) and \(A=\mu I+\Delta_{\rm lattice}\), (BF12) is generally nonlocal. As \(\mu\downarrow0\), its Fourier symbol has a \(|p|\) behavior, excluding a uniform exponentially localized limiting kernel. [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response|The half-space response owner]] explains the corresponding continuum Dirichlet-to-Neumann square root.
+For \(B=bI\) and \(A=\mu I+\Delta_{\rm lattice}\), (BF12) is generally nonlocal. As \(\mu\downarrow0\), its Fourier symbol has a \(|p|\) behavior, excluding a uniform exponentially localized limiting kernel. [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|The half-space response owner]] explains the corresponding continuum Dirichlet-to-Neumann square root.
 
 The next theorem must therefore control the actual joint response rather than assume local effective curvature. [[strong-coupling-gap-and-continuum-crossover/wilson-slab-conditional-fisher-certificate|The Wilson slab certificate]] supplies that control in a specified small-parameter regime. [[receipts/boundary_action_fixed_point_receipt.py|The finite receipt]] checks the action derivatives, projective constants, finite-horizon convergence and Gaussian precision calculation.

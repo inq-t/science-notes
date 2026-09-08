@@ -1,7 +1,19 @@
 ---
 inq.module: "measured-response-carriers"
 inq.include:
-  - "**/*.md"
+  - './'
+inq.ambient:
+  - 'receipts/*.py'
+  - 'receipts/*.txt'
+keywords:
+  - measured response
+  - GNS representation
+  - state tangents
+  - BKM metric
+  - completely positive maps
+  - information loss
+  - recovery
+  - energy comparison
 ---
 # The Three Carriers of a Measured Response
 
@@ -399,6 +411,16 @@ T_\omega\mathcal S_{\mathrm{faithful}}&
 An equality or comparison between them requires a score, standard-form, or
 other tangent-to-GNS map with its domain and normalization proved.
 
+[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|The
+descent-loss cocycle]] makes composition and output passage explicit.
+Incoming state-tangent losses add with transported arguments under channel
+composition. For a preserving expectation, the loss is the squared BKM norm
+of the forgotten component, while its infimum over lifts of every retained
+tangent is zero. A general contraction instead defines a minimum-lift output
+form relative to its two supplied metrics; these output forms compose by
+infimization, not ordinary addition. Neither operation turns an incoming
+information defect into physical energy.
+
 ## A conditional BKM--GNS bridge
 
 There is one exact comparison once that missing map is supplied. Let
@@ -775,6 +797,11 @@ generator, or Poincare Casimir.
 \(\mathfrak h_{\mathrm{phys}}[\psi]\ge\eta_{\mathrm{sol}}E_*q[J\psi]\)
 give \(\Delta_E\ge\eta_{\mathrm{sol}}E_*\kappa b_J\). Coercivity modulo a response kernel needs a lower frame modulo that same kernel. The theorem does not identify response time with physical time.
 
+[[physical-response-coercivity/inq|Physical response coercivity]] develops
+the causal and regional realizations of these hypotheses. It separates
+complete physical coverage from the independent energy comparison, including
+the localized relative-entropy specialization and its complex form-core gate.
+
 ## Categorical fusion-action specialization
 
 A measured action of a rigid \(C^*\)-tensor category is a family
@@ -883,7 +910,7 @@ The special modules then occupy precise positions:
 - [[causal-wall-spectral-theory/inq]] seeks a carrier-changing consumer from
   state response to spatial precision and then a separate Lorentzian field
   realization.
-- [[contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal]] asks
+- [[general-causal-action/carrier-first-reversal]] asks
   whether an upstream defect can be compared on the complete physical
   vacuum carrier with the Hamiltonian form.
 - [[transported-response-observability-solder/inq]] shows how a closed

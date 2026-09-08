@@ -453,7 +453,7 @@ The exactly homogeneous or two-sided-comparable ansatz additionally requires sca
 
 The first two clauses are not changes of notation. An address may instead log an operator parameter of differential order \(d\), which rescales \(p\) and changes the apparent dimensional balance. [[resolvent-logistic-scale-transform]] and [[wall-construction-interface/scale-character-solder]] isolate this normalization problem. The value \(p=1\) is therefore as load-bearing as the codimension exponent.
 
-There is also a codimension firewall. The reflection-fixed separator in [[vacuum-boundary-gluing-and-wall-response]] is a codimension-one Euclidean interface. It does not automatically furnish the codimension-two transverse cut used in (CR28). A Lorentzian causal-boundary reconstruction, a further cut, and a carrier map between their response forms are additional obligations.
+There is also a codimension firewall. The reflection-fixed separator in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]] is a codimension-one Euclidean interface. It does not automatically furnish the codimension-two transverse cut used in (CR28). A Lorentzian causal-boundary reconstruction, a further cut, and a carrier map between their response forms are additional obligations.
 
 Under the scale-diagonal factorization the pulled-back squared response is
 
@@ -523,9 +523,9 @@ J^*G_{\mathrm{BKM}}J,
 \tag{CR32}
 $$
 
-with a lower bound of the form (CR23). [[regional-relative-entropy-frames]] gives this pullback type and shows why local channels can share blind directions. [[horizon-saturation-and-entropic-distinction]] explains why relative-entropy positivity, maximal entropy, or a first-law identity does not provide the required Hessian floor. Leading area contributions can also cancel from relative entropy, as [[spectral-wall-descent/finite-index-area-weld#Relation to gravity and to lost response|the area-term no-go]] makes explicit, so their \(D-2\) scaling need not survive in \(R_{\mathrm{ent}}\). A black-hole area coefficient also imports \(G\), so it cannot set the scale of the gravity-free Clay problem.
+with a lower bound of the form (CR23). [[physical-response-coercivity/regional-relative-entropy-frames]] gives this pullback type and shows why local channels can share blind directions. [[cosmological-scale-selection/horizon-saturation-and-entropic-distinction]] explains why relative-entropy positivity, maximal entropy, or a first-law identity does not provide the required Hessian floor. Leading area contributions can also cancel from relative entropy, as [[spectral-wall-descent/finite-index-area-weld#Relation to gravity and to lost response|the area-term no-go]] makes explicit, so their \(D-2\) scaling need not survive in \(R_{\mathrm{ent}}\). A black-hole area coefficient also imports \(G\), so it cannot set the scale of the gravity-free Clay problem.
 
-The finite-regulator electric-flux Dirichlet form in [[gauge-descent-flux-fisher-coercivity]] is a more direct physical cost. The exact target is not separate shell estimates unless the form reduces the shell projections, but the joint inequality
+The finite-regulator electric-flux Dirichlet form in [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] is a more direct physical cost. The exact target is not separate shell estimates unless the form reduces the shell projections, but the joint inequality
 
 $$
 \mathfrak R_r[M_{p,r}f]

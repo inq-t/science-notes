@@ -58,7 +58,7 @@ $$
 
 This does not refute local QFT. It says that the carrier and limit are part of the problem. A finite Hamiltonian matrix is always algorithmically diagonalizable to arbitrary fixed precision; the undecidable property concerns the behavior of a computably specified sequence as system size tends to infinity. Likewise, the Yang--Mills gap belongs to the reconstructed infinite-volume vacuum representation, not to the classical density \(\operatorname{Tr}F^2\), a finite lattice Hessian, or a list of local couplings by itself.
 
-The constructive response is not to abandon rigor but to seek a Yang--Mills-specific global certificate: reflection-positive reconstruction, complete physical-carrier coverage, and a volume- and cutoff-uniform coercive estimate. [[carrier-first-reversal]] states that proof architecture.
+The constructive response is not to abandon rigor but to seek a Yang--Mills-specific global certificate: reflection-positive reconstruction, complete physical-carrier coverage, and a volume- and cutoff-uniform coercive estimate. [[general-causal-action/carrier-first-reversal]] states that proof architecture.
 
 ## Stopping rule
 

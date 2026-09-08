@@ -2,10 +2,13 @@
 inq.module: "global-local-response-reconstruction"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - 'receipts/**'
+keywords: [reconstruction, boundary-response, physical-carrier, scale, clock, spectral-gap]
 ---
 # Global–Local Response Reconstruction
 
-A pre-QFT explanation of a mass gap can be typed as a reconstruction problem. A directed whole-law system must construct local observable carriers and a covariantly specified whole-to-part response; local QFT is then recovered as a representation of that system, and mass is the Poincare presentation of a scale-covariant response edge. There are two genuinely alternative last-mile certificates. A regulator-uniform positive angle can separate every physical midpoint distinction from the information jointly recoverable at the two sides of a fixed physical slab. Alternatively, one clock-normalization-independent static localization exponent can become a common Euclidean-time exponent on an Osterwalder--Schrader-total local family. The first controls a complete boundary-response operator; the second already suffices for a qualitative vacuum-sector gap and need not construct that operator. Neither primitive certificate is itself a particle mass or a smallest length.
+Global–local response reconstruction asks which whole-law data can produce a local observable carrier, its clock and a physical spectral bound. It separates two conditional routes to that bound: a complete two-boundary response angle, or a common decay exponent on a total local family. Boundary gluing supplies worked realizations, while the interacting continuum law and the required uniform estimates remain open. An abstract response edge is not yet a particle mass or a smallest length.
 
 **Status: [EXACT DEFINITIONS] for the response operator and scale-covariant invariant; [EXACT CONDITIONAL THEOREMS] for complete-response edge to transfer gap and common OS exponent to Hamiltonian gap; [CONSTRUCTION TARGET] for the pre-QFT realization and QFT recovery; [OPEN] for four-dimensional Yang--Mills.**
 
@@ -39,6 +42,8 @@ Its slots have distinct types:
 - \(\mathsf C\) and \(\mathsf B\) are independently normalized whole and local response ledgers whose equality may select a section of \(\mathscr S\).
 
 Reversible changes of presentation, directed formation maps, and reconstructed clock evolution are different arrows. A whole-to-part map may be noninjective without making the later local clock nonunitary. Before a Hilbert carrier and clock have been reconstructed, “the whole is nonunitary” is not a well-typed assertion; the exact statement is that some formation or readout arrows are noninvertible.
+
+[[global-local-response-reconstruction/causal-patch-boundary-and-two-times|The causal-patch and temporal register audit]] distinguishes access restriction, record formation, Euclidean preparation, modular flow and reconstructed clock evolution. A bounded patch is not thereby a finite-dimensional theory or an ultraviolet regulator. These distinctions constrain what the cuts and realization maps in the proposed package must preserve.
 
 The required downstream map is
 
@@ -82,6 +87,8 @@ common unit or prove their causal commutation; those remain the
 substantive algebraic obligations in (GR2).
 
 ## What the response operator operates on
+
+[[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response|Vacuum boundary gluing]] realizes the boundary-first order under declared transfer and reflection-interface hypotheses. Half-space amplitudes prepare the boundary state; a separator can represent the OS quotient; an independently specified derivative supplies its response. The Gaussian Dirichlet-to-Neumann example checks that chain, while interface-to-slice identification and the interacting estimate remain separate requirements.
 
 [[exceptional-context-analysis-of-gauge-gradients|Exceptional context analysis]] now supplies one explicit field-sensitive map: apply the context losses to differentiated gauge-representation gradients, then integrate along the whole law's auxiliary heat flow. This factors a bounded response on the retained physical carrier. It also explains why [[algebra/primitive-peirce-response|complete finite matrix readouts]] alone are insufficient: a fiberwise unital map leaves every scalar function of the field untouched. Uniform comparison with the joint-boundary defect below remains a separate theorem.
 

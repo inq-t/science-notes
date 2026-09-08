@@ -269,7 +269,7 @@ $$
 \tag{R12}
 $$
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/regional_entropy_frame_receipt.py|The regional-frame receipt]] checks (R9)--(R12). The number \(4\) depends on the chosen channel weights and tangent normalization; it is a dimensionless frame constant, not a mass prediction.
+[[physical-response-coercivity/receipts/regional_entropy_frame_receipt.py|The regional-frame receipt]] checks (R9)--(R12). The number \(4\) depends on the chosen channel weights and tangent normalization; it is a dimensionless frame constant, not a mass prediction.
 
 The nonlocal Pauli readout is only a finite witness. In gauge theory its structural analogues are Wilson loops, 't Hooft operators, boundary charges, and other gauge-invariant channels that can distinguish holonomy or topological information invisible to a fixed family of local marginals. This does not prove that ordinary knots cause the Yang--Mills gap. It identifies a precise possible job for loop and knot data: remove the common kernel of a causal or regional distinction frame.
 
@@ -320,9 +320,9 @@ $$
 \tag{R14}
 $$
 
-Thus a classical regional entropy frame is literally a continuous-frame operator assembled from conditional-expectation projections. [[gauge-descent-flux-fisher-coercivity]] identifies (R13) with the real-amplitude denominator of the regulated mass-gap Rayleigh quotient. It also proves the limitation exposed by (R9): the multiplication carrier cannot see pure phase directions.
+Thus a classical regional entropy frame is literally a continuous-frame operator assembled from conditional-expectation projections. [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] identifies (R13) with the real-amplitude denominator of the regulated mass-gap Rayleigh quotient. It also proves the limitation exposed by (R9): the multiplication carrier cannot see pure phase directions.
 
-The reflection-positive boundary construction supplies a useful contrast. Under its reflection-Markov, reflection-fixed-separator, and dense-insertion hypotheses, [[vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS interface map]] \(B_\rho^{\mathrm{OS}}:\mathcal H_{\mathrm{OS}}\to L^2(\nu_{\rho,I})^{\mathrm{GI}}\) is a complex-linear unitary after quotient completion, so it retains every phase direction present in the reconstructed interface carrier. A closable interface derivative composed with it is therefore phase-sensitive, but is complete on the reference complement only if its kernel is proved to be exactly \(\mathbb C1\). Any later interface-to-log-scale map \(S_\rho\), including any thick-interface-to-slice leg, must preserve the required directions or declare and repair its kernel. A real state-density Hessian cannot substitute for this complex carrier map merely because both use the same probability measure.
+The reflection-positive boundary construction supplies a useful contrast. Under its reflection-Markov, reflection-fixed-separator, and dense-insertion hypotheses, [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS interface map]] \(B_\rho^{\mathrm{OS}}:\mathcal H_{\mathrm{OS}}\to L^2(\nu_{\rho,I})^{\mathrm{GI}}\) is a complex-linear unitary after quotient completion, so it retains every phase direction present in the reconstructed interface carrier. A closable interface derivative composed with it is therefore phase-sensitive, but is complete on the reference complement only if its kernel is proved to be exactly \(\mathbb C1\). Any later interface-to-log-scale map \(S_\rho\), including any thick-interface-to-slice leg, must preserve the required directions or declare and repair its kernel. A real state-density Hessian cannot substitute for this complex carrier map merely because both use the same probability measure.
 
 ## Type III locality repairs faithfulness, not completeness or energy
 
@@ -412,7 +412,7 @@ S_B(\varphi\Vert\omega)
 \frac{2\pi R}{\hbar c}\langle H\rangle_\varphi.
 $$
 
-Along a twice differentiable local-unitary path \(\varphi_s\) through the vacuum, define both entropy forms with the half-Hessian convention. Then [[localized-relative-entropy-and-the-energy-solder]] proves
+Along a twice differentiable local-unitary path \(\varphi_s\) through the vacuum, define both entropy forms with the half-Hessian convention. Then [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]] proves
 
 $$
 0\leq

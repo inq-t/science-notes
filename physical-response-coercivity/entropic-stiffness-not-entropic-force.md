@@ -40,7 +40,7 @@ $$
 
 Equation (E1) is the entanglement first law. Equation (E2) is the first nonvanishing relative-entropy remainder after that linear law cancels. A field equation can follow from universal first-order stationarity; a gap requires a positive *uniform second-order modulus*. This is the central upgrade from entropic equilibrium to entropic stiffness.
 
-The global Yang--Mills vacuum is pure, so (E2) is not finite on the full matrix algebra in transverse pure-state directions. [[regional-relative-entropy-frames]] gives the correctly typed repair: first restrict through observable channels to faithful regional output states, then pull their BKM Hessians back to the projective vacuum tangent.
+The global Yang--Mills vacuum is pure, so (E2) is not finite on the full matrix algebra in transverse pure-state directions. [[physical-response-coercivity/regional-relative-entropy-frames]] gives the correctly typed repair: first restrict through observable channels to faithful regional output states, then pull their BKM Hessians back to the projective vacuum tangent.
 
 ## Jacobson's real contribution is causal tomography
 

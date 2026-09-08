@@ -170,7 +170,7 @@ Its target has the additional \(dt\) norm. Spectral calculus and (CG7) give, for
 Thus \(\mathcal S_s\) is bounded, even for vectors outside the initial gradient domain. It factors exactly the
 [[nonlinear-whole-law-surface-response/inq|whole-law heat compression]], not a new independently assumed response. The parameter \(s\) is auxiliary response depth, not Euclidean separation or clock time.
 
-The unbounded gradient alone cannot automatically be compared with a finite-spacing transfer logarithm: [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|the high-representation obstruction]] rules out that shortcut. Heat integration retains a bounded candidate on the proper carrier.
+The unbounded gradient alone cannot automatically be compared with a finite-spacing transfer logarithm: [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|the high-representation obstruction]] rules out that shortcut. Heat integration retains a bounded candidate on the proper carrier.
 
 ## The remaining theorem is about joint recovery
 

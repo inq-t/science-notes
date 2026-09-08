@@ -189,7 +189,7 @@ Let
 \frac{S_A(t)}{k_B}
 \]
 
-denote a dimensionless whole-capacity ledger. For the flat Einstein apparent horizon audited in [[contemporary-puzzles/yang-mills-mass-gap/cosmic-geon-hypothesis-and-horizon-rate-ledger|the cosmic-geon rate ledger]],
+denote a dimensionless whole-capacity ledger. For the flat Einstein apparent horizon audited in [[cosmological-scale-selection/cosmic-geon-hypothesis-and-horizon-rate-ledger|the cosmic-geon rate ledger]],
 
 \[
 \iota_A(t)
@@ -385,7 +385,7 @@ Equation (IC23) is a smooth cosmic address on the multiplicative branch whose in
 
 ## From capacity to a candidate dimensional yardstick
 
-The log index is dimensionless. It can select a member of a scale family but cannot become an energy by itself. Once a cut has been selected, the common-count construction in [[cosmological-selection-of-the-yang-mills-yardstick]] gives
+The log index is dimensionless. It can select a member of a scale family but cannot become an energy by itself. Once a cut has been selected, the common-count construction in [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick]] gives
 
 \[
 Q_{\mathrm{cc}}^3
@@ -486,7 +486,7 @@ S(\varphi\Vert\varphi\varepsilon)
 \tag{IC28}
 \]
 
-A preserving expectation is projection-like on its \(L^2\) carrier and has a forgotten kernel. Its descent-loss Hessian is stiff vertically but vanishes on retained directions. [[subfactor-angle-coercivity-and-the-index-firewall]] makes the quantitative obstruction exact for two descents: after their common range is removed, the edge is \(1-c_F\), but a spin-model family keeps all three Jones indices fixed at \(2,2,4\) while \(c_F\to1\). Even the common inclusion and its standard reducible Q-system can be held fixed while the angle collapses. Index therefore does not determine the mixed relative position that coercivity needs.
+A preserving expectation is projection-like on its \(L^2\) carrier and has a forgotten kernel. Its descent-loss Hessian is stiff vertically but vanishes on retained directions. [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall]] makes the quantitative obstruction exact for two descents: after their common range is removed, the edge is \(1-c_F\), but a spin-model family keeps all three Jones indices fixed at \(2,2,4\) while \(c_F\to1\). Even the common inclusion and its standard reducible Q-system can be held fixed while the angle collapses. Index therefore does not determine the mixed relative position that coercivity needs.
 
 [[categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall]] supplies the complementary positive result and an even sharper internal control. The fundamental quantum-\(G_2\) category has a universal categorical edge for \(q\neq1\), while at \(q=1\) its sector capacity remains \(2\log7>0\) and its categorical rigidity vanishes. Thus maximum forgetting capacity and minimum distinction cost are independent invariants even within one continuous categorical family. The log index normalizes how much can be forgotten; only an additional relative-position law or Kazhdan-type invariant can prove that every declared nontrivial direction is seen.
 

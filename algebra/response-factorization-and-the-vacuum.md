@@ -76,7 +76,7 @@ On compact \(Q\), it is already smooth. Conversely, every weak zero mode has \(d
 
 A unique normalizable zero mode does not alone establish a positive gap above it.
 
-This is the constructive direction of the [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Exact ground-state-transform theorem|ground-state transform]]. With \(d\mu_\epsilon=\psi_\epsilon^2dm\), multiplication \(U_\epsilon f=\psi_\epsilon f\) is unitary and
+This is the constructive direction of the [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity#Exact ground-state-transform theorem|ground-state transform]]. With \(d\mu_\epsilon=\psi_\epsilon^2dm\), multiplication \(U_\epsilon f=\psi_\epsilon f\) is unitary and
 
 \[
 \mathfrak h_\epsilon[U_\epsilon f]

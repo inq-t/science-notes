@@ -265,7 +265,7 @@ normalization,
 \(a_\tau^{-1}\) when \(a_s,g_0\) are fixed. On an isotropic asymptotically
 free trajectory, \(x=4/g_0(a)^2\to\infty\). The exact transfer calculation is
 developed in
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing Transfer and the Bounded Flux Solder]].
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|Finite-Spacing Transfer and the Bounded Flux Solder]].
 
 ## Fixed-physical collars give the right reduction
 

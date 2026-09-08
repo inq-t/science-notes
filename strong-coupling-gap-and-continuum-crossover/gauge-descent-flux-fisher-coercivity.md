@@ -36,7 +36,7 @@ $$
 
 Here *horizontal* means physical after the Gauss-law redundancy has been removed. The curvature involved below is curvature of weighted configuration space, not curvature of physical spacetime.
 
-[[contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal|The carrier-first reversal]] makes the methodological consequence explicit: the closed flux form can be primary, the self-adjoint operator can be reconstructed from it, and its intrinsic geometry can be read from the carré du champ afterward.
+[[general-causal-action/carrier-first-reversal|The carrier-first reversal]] makes the methodological consequence explicit: the closed flux form can be primary, the self-adjoint operator can be reconstructed from it, and its intrinsic geometry can be read from the carré du champ afterward.
 
 ## A finite \(SU(3)\) carrier
 
@@ -402,7 +402,7 @@ hence (WG2). Adding new edges can introduce new cycles with smaller total
 weight. Preservation of the old loop clocks therefore does not prove a
 positive lower bound throughout a graph-refinement family.
 
-The same support-and-saturation argument gives the sharp bounded analogue for the $SU(2)$ pure product-Wilson convolution. If $P_{x,\Gamma}^{\mathrm{kin}}=\bigotimes_eP_x$, then [[finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|the product-Wilson theorem]] proves on the gauge-invariant carrier
+The same support-and-saturation argument gives the sharp bounded analogue for the $SU(2)$ pure product-Wilson convolution. If $P_{x,\Gamma}^{\mathrm{kin}}=\bigotimes_eP_x$, then [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The pure product-Wilson bounded edge|the product-Wilson theorem]] proves on the gauge-invariant carrier
 
 $$
 I-P_{x,\Gamma}^{\mathrm{kin}}
@@ -961,7 +961,7 @@ $$
 
 implies a global Poincare bound with constant \(\inf_j c_j\). This is a concrete role for descent: isolate what each scale contributes to distinguishability, then prove that electric flux charges every nonconstant shell. The difficult statements are the existence of vacuum-preserving expectations compatible with gauge locality and a lower bound on \(c_j\) that survives arbitrarily many shells. A formal tower without these estimates is only a decomposition, not a gap theorem.
 
-[[physical-distinction-coercivity]] separates this energetic shell statement from the superficially similar discreteness of a measurement projection. It also states a possible noncommutative continuum gate: if nested subalgebras are invariant under one faithful vacuum modular flow, Takesaki's theorem supplies vacuum-preserving expectations whose GNS implementations are orthogonal. Constructing such a useful filtration is a strong sufficient architecture, not a necessary consequence of having a gap.
+[[physical-response-coercivity/physical-distinction-coercivity]] separates this energetic shell statement from the superficially similar discreteness of a measurement projection. It also states a possible noncommutative continuum gate: if nested subalgebras are invariant under one faithful vacuum modular flow, Takesaki's theorem supplies vacuum-preserving expectations whose GNS implementations are orthogonal. Constructing such a useful filtration is a strong sufficient architecture, not a necessary consequence of having a gap.
 
 ## The continuum theorem to pursue
 

@@ -88,7 +88,7 @@ For a further measurable readout \(r:\overline B^k\to Y\) into a standard Borel 
 \tag{FE7}
 \]
 This is the concrete commutative member of the
-[[contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork|descent-loss cocycle, D1–D5]].
+[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|descent-loss cocycle, D1–D5]].
 The second cost is evaluated on the processed density \(g\), with its actual reference \(\nu\).
 
 To discuss repetition without composing maps of incompatible types, pull the readout back to the source:

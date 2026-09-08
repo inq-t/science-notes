@@ -268,7 +268,7 @@ B_{\mathrm{OS}}[F]:=b_\Sigma F
 \tag{GDT21}
 $$
 
-is an isometry from the reconstructed OS Hilbert space into \(L^2(\nu_\Sigma)^{GI}\). It is unitary onto that carrier if gauge-invariant interface insertions lie in the closure of its range. These hypotheses and the thick-interface issue are isolated in [[vacuum-boundary-gluing-and-wall-response]]; [[library/the-semigroup-characterization-of-osterwalder-schrader-path-spaces/inq|Klein]] and [[library/reflection-positivity-and-spectral-theory/inq|Jorgensen and Tian]] explain why the Markov property is stronger than reflection positivity alone.
+is an isometry from the reconstructed OS Hilbert space into \(L^2(\nu_\Sigma)^{GI}\). It is unitary onto that carrier if gauge-invariant interface insertions lie in the closure of its range. These hypotheses and the thick-interface issue are isolated in [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response]]; [[library/the-semigroup-characterization-of-osterwalder-schrader-path-spaces/inq|Klein]] and [[library/reflection-positivity-and-spectral-theory/inq|Jorgensen and Tian]] explain why the Markov property is stronger than reflection positivity alone.
 
 One may now transport either interface operator through the OS isometry. For
 the safe branch, if (GDT21) is unitary onto the declared coordinate carrier,
@@ -397,7 +397,7 @@ There is a constructive use of that same kernel distinction. [[conditional-fishe
 
 The Langevin parameter in (GDT2) is sampler time. The OS time translation reconstructed from Euclidean coordinate separation is the semigroup whose logarithm is the physical Hamiltonian. [[library/construction-of-a-selfadjoint-strictly-positive-transfer-matrix-for-euclidean-lattice-gauge-theories/inq|Luscher]] proves that the finite-regulator Wilson transfer matrix is self-adjoint and strictly positive, while [[library/gauge-field-theories-on-a-lattice/inq|Osterwalder and Seiler]] establish the corresponding physical positivity and strong-coupling Euclidean control. Strict positivity means that the transfer matrix has no zero eigenvalue; it is not a proof of a positive separation below its top eigenvalue. Its ground-state transform is an exact reversible one-step Markov operator, but using the unknown contraction edge of that operator as an input would merely rewrite \(H-E_0\). A comparison of its full kernel with an independently derived bounded cylinder response need not be circular.
 
-Uniform exponential decay of positive diagonal Euclidean-time autocorrelations, together with the full OS translation reconstruction and Hilbert totality of centered local states, can imply a transfer spectral gap by the spectral theorem. One common physical exponent is required, but observable-dependent prefactors are allowed. [[auxiliary-response-localization/inq|Auxiliary response localization]] proves that an auxiliary \(L^2\) forgetting rate can contribute to such an exponent only when paired with a separate quasi-local influence estimate; the arbitrary Langevin-clock normalization then cancels from their static combination. This is an indirect strong-coupling route. It does not identify the Langevin rate \(K_S\) with the transfer gap and does not give the whole-to-local operator factorization (GDT22) or (GDT24). [[past-future-angle-and-the-transfer-gap]] gives the exact transfer-semigroup version of this distinction.
+Uniform exponential decay of positive diagonal Euclidean-time autocorrelations, together with the full OS translation reconstruction and Hilbert totality of centered local states, can imply a transfer spectral gap by the spectral theorem. One common physical exponent is required, but observable-dependent prefactors are allowed. [[auxiliary-response-localization/inq|Auxiliary response localization]] proves that an auxiliary \(L^2\) forgetting rate can contribute to such an exponent only when paired with a separate quasi-local influence estimate; the arbitrary Langevin-clock normalization then cancels from their static combination. This is an indirect strong-coupling route. It does not identify the Langevin rate \(K_S\) with the transfer gap and does not give the whole-to-local operator factorization (GDT22) or (GDT24). [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] gives the exact transfer-semigroup version of this distinction.
 
 There is now a precise finite-spacing solder target. Let \(P_T\) be the
 vacuum-normalized transfer after its ground-state transform, and let
@@ -434,7 +434,7 @@ $$
 \tag{GDT31b}
 $$
 
-[[finite-spacing-transfer-and-bounded-flux-solder|The bounded-solder audit]]
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|The bounded-solder audit]]
 proves this implication and gives an exact (SU(2)) Wilson-character
 counterexample to the unbounded comparison at fixed spacing. What remains is
 to fix \(\tau_a\) from the independently declared cylinder/kinetic
@@ -490,7 +490,7 @@ $$
 
 The four-dimensional continuum limit of Wilson Yang--Mills instead follows the asymptotically free weak-coupling trajectory. Consequently the exact constant \(K_S\) is uniform in spatial volume at fixed strong coupling, but not uniform along the required continuum trajectory. Volume uniformity is not lattice-spacing uniformity, boundary-condition uniformity, or physical-unit calibration.
 
-Moreover \(K_S\) is dimensionless and depends on the chosen stochastic normalization. Rescaling the Langevin clock rescales both the form and its gap. To become a physical lower energy, (GDT23) or (GDT25) still needs an independently normalized, same-core comparison with the physical energy or response operator. At adjacent lattice slices a finite physical mass normally corresponds to a dimensionless contraction tending to one at rate \(a\), not to a fixed raw one-step deficit. The calibrated two-scale requirement is developed in [[two-scale-rg-descent-and-the-crossover-lemma]].
+Moreover \(K_S\) is dimensionless and depends on the chosen stochastic normalization. Rescaling the Langevin clock rescales both the form and its gap. To become a physical lower energy, (GDT23) or (GDT25) still needs an independently normalized, same-core comparison with the physical energy or response operator. At adjacent lattice slices a finite physical mass normally corresponds to a dimensionless contraction tending to one at rate \(a\), not to a fixed raw one-step deficit. The calibrated two-scale requirement is developed in [[contemporary-puzzles/yang-mills-mass-gap/two-scale-rg-descent-and-the-crossover-lemma]].
 
 The viable theorem target is therefore:
 

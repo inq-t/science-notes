@@ -150,7 +150,7 @@ On the ambient determinant vector space,
 \]
 It generates dilations about the cone vertex, not constant Minkowski translations. It is Killing for \(g\) but only conformal Killing for \(\eta\): \(\mathcal L_{\partial_s}\eta=2\eta\). A spectral statement about its field generator is therefore not automatically a statement about the Poincaré mass Casimir.
 
-This is a concrete example of the [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times|different temporal roles]], not a claim that logarithmic clocks are illegitimate. [[misner-log-time/inq|Misner time]] also separates scale from shape in its own gravitational carrier. Equality of the logarithmic grammar does not identify that carrier or its lapse with (DH2).
+This is a concrete example of the [[global-local-response-reconstruction/causal-patch-boundary-and-two-times|different temporal roles]], not a claim that logarithmic clocks are illegitimate. [[misner-log-time/inq|Misner time]] also separates scale from shape in its own gravitational carrier. Equality of the logarithmic grammar does not identify that carrier or its lapse with (DH2).
 
 There is a direct classical Yang–Mills comparison. On a supplied four-dimensional cone patch, the Hodge operator on two-forms is unchanged by \(\eta=e^{2s}g\): the volume contributes \(e^{4s}\), while the two inverse metrics contribute \(e^{-4s}\). Hence, for one connection and one invariant Lie-algebra pairing,
 \[

@@ -97,7 +97,7 @@ $$
 
 Thus \(r_a<1\) is the strict contraction equivalent of a gap after the Hilbert carrier and time-translation semigroup have been constructed. It is not by itself a non-invertible descent. **[RECEIPT]** The one-dimensional Ising transfer matrix is the complete debugging model: \(T=\begin{pmatrix}e^{K}&e^{-K}\\e^{-K}&e^{K}\end{pmatrix}\), \(\lambda_0=2\cosh K\), \(\lambda_1=2\sinh K\), and in the infinite-chain limit \(\langle s_0s_n\rangle=(\lambda_1/\lambda_0)^n=(\tanh K)^n\), with \(\xi^{-1}=-\ln\tanh K\). For every tested \(K>0\), \(\det T=2\sinh(2K)>0\): the matrix is invertible even though its normalized vacuum complement contracts. The receipt checks this distinction, reproduces the finite-ring two-point function with its correction term, and samples the analytic approach of the gap toward zero through \(K=5\).
 
-**[EXACT -- MARKOV--OS SPECIALIZATION]** [[contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap|The separated past--future theorem]] reconstructs the same \(r_\ell\) from relative subspace geometry. For a stationary reversible Hilbert-positive Markov path space, conditional expectations onto disjoint half-spaces separated by \(\ell>0\) have
+**[EXACT -- MARKOV--OS SPECIALIZATION]** [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap|The separated past--future theorem]] reconstructs the same \(r_\ell\) from relative subspace geometry. For a stationary reversible Hilbert-positive Markov path space, conditional expectations onto disjoint half-spaces separated by \(\ell>0\) have
 
 $$
 c_F(\ell)
@@ -113,7 +113,7 @@ $$
 e^{-2\ell H_0/(\hbar c)}(1-P_0).
 $$
 
-Touching halves share the whole time-zero carrier and do not have this reduced-angle interpretation. [[contemporary-puzzles/yang-mills-mass-gap/phase-modulus-pointing-and-euclidean-dwell|The phase--modulus note]] then gives
+Touching halves share the whole time-zero carrier and do not have this reduced-angle interpretation. [[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell|The phase--modulus note]] then gives
 
 $$
 \int_0^\infty e^{-2\ell H_0/(\hbar c)}(1-P_0)\,\mathrm d\ell

@@ -97,7 +97,7 @@ The bound uses \(\|W^{-1}A^*\|\le\kappa^{-1/2}\). Only the local matrices \(W_v\
 This realizes the constructive branch of
 [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative gluing, QD7–QD8]],
 with zero reconstruction error. It is distinct from
-[[contemporary-puzzles/yang-mills-mass-gap/two-expectation-angle-process|the two-expectation process]]:
+[[trace-dirichlet-descent/two-expectation-angle-process|the two-expectation process]]:
 the present response compares transported sections along edges, not two conditional expectations on one observable algebra.
 
 ## Pauli transport supplies a concrete obstruction
@@ -197,7 +197,7 @@ Three additional obligations cannot be omitted:
 
 - **Realization:** prove that the physical nonvacuum carrier sees the obstruction. A section carrier with no zero mode is not yet a physical vacuum-plus-excitation space. Passing to a new representation, algebra, quotient or state must preserve an appropriate bound rather than merely preserve the word “holonomy.”
 - **Selection and scale:** derive the transport law and its normalization. The graph result is uniform in volume at fixed edge convention. Assigning edge length \(a\) to a spatial discretization changes the Laplacian to \(a^{-2}L_T\). [[pauli-transport-and-the-continuum-scaling-obstruction|The exact scaling identity]] shows that even anisotropic positive reweighting cannot retain a finite clock gap and finite propagation in multiple shrinking-lattice directions. Fixed \(-I\) holonomy per shrinking plaquette is not a smooth finite-curvature continuum limit.
-- **The field law:** a Yang–Mills connection is dynamical and includes near-flat configurations. This theorem fixes a connection; it does not estimate a measure over connections, prove its vacuum law, or identify a translation Casimir. [[contemporary-puzzles/yang-mills-mass-gap/twisted-holonomy-and-the-neutral-hessian|The neutral-holonomy audit]] owns the separate finite-box and interacting-theory comparison.
+- **The field law:** a Yang–Mills connection is dynamical and includes near-flat configurations. This theorem fixes a connection; it does not estimate a measure over connections, prove its vacuum law, or identify a translation Casimir. [[strong-coupling-gap-and-continuum-crossover/twisted-holonomy-and-the-neutral-hessian|The neutral-holonomy audit]] owns the separate finite-box and interacting-theory comparison.
 
 Likewise, the square holonomies and their squared defects do not pick a historical arrow. A full directed construction must still identify its irreversible operation and its record structure. The point of the example is to constrain what that construction has to preserve when it produces local observables.
 

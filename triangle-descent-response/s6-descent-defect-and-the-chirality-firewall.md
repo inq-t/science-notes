@@ -248,4 +248,4 @@ Until then, the $S^6$ unit defect is an unusually crisp model of **topological r
 - **[EXACT, SEPARATE OCTONIONIC INDEX]** The generator clutching class of $G_2\to S^6$ and the index calculation (SD15); no comparison with $J_{\mathrm{int}}$ is supplied.
 - **[OPEN]** A comparison of the two $S^6$ structures, physical chirality or charge, a same-carrier automorphic-to-Yang--Mills coercivity map, continuum survival, and any mass scale.
 
-[[complex-presentation-without-polarization/inq|Complex presentation without polarization]] supplies the broader categorical setting; [[contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity]] states why discrete algebraic distinction and positive spectral separation must remain different types.
+[[complex-presentation-without-polarization/inq|Complex presentation without polarization]] supplies the broader categorical setting; [[physical-response-coercivity/physical-distinction-coercivity]] states why discrete algebraic distinction and positive spectral separation must remain different types.

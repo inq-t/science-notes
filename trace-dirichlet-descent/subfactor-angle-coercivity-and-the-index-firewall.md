@@ -22,7 +22,7 @@ q=e_Q,
 r=e_{P\cap Q}=p\wedge q
 $$
 
-for the trace-preserving Jones projections. The even two-descent form from [[oriented-descent-angle-and-emergent-symmetry]] is
+for the trace-preserving Jones projections. The even two-descent form from [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry]] is
 
 $$
 G_{\angle}:=(1-p)+(1-q)=2I-p-q,
@@ -158,4 +158,4 @@ $$
 
 Equivalently, \(\|pq-r\|\leq1-\varepsilon\), so \(G_{\angle}\geq\varepsilon(1-r)\). Such a relation could be expressed by an ordered pair of marked biprojections or Q-systems together with their mixed composition, or by a dynamical rule restricting the relative unitary; it cannot be recovered from the index or from either inclusion separately.
 
-For Yang--Mills, two further identifications remain load bearing. First, \(\operatorname{Ran}r\) must be proved to coincide with precisely the physical vacuum/null sector, or a justified physical quotient must remove it. Second, the mixed form must be transported to the reconstructed gauge-invariant carrier and compared there with the Poincare Casimir or transfer Hamiltonian, with an independent energy yardstick. [[past-future-angle-and-the-transfer-gap]] supplies an exact transfer realization of this comparison under Markov--Osterwalder--Schrader hypotheses; subfactor index alone supplies none of it.
+For Yang--Mills, two further identifications remain load bearing. First, \(\operatorname{Ran}r\) must be proved to coincide with precisely the physical vacuum/null sector, or a justified physical quotient must remove it. Second, the mixed form must be transported to the reconstructed gauge-invariant carrier and compared there with the Poincare Casimir or transfer Hamiltonian, with an independent energy yardstick. [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]] supplies an exact transfer realization of this comparison under Markov--Osterwalder--Schrader hypotheses; subfactor index alone supplies none of it.

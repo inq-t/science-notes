@@ -278,7 +278,7 @@ Every *may* in this statement denotes a missing map. In particular, BAO is direc
 
 Wheeler's [[library/geons/inq|geon]] models a suggestive downstream mechanism: approximate self-consistent, long-lived but leaky and unstable configurations in which radiation contributes to the geometry that confines the same radiation. It is useful because it reverses “mass placed inside space” into a self-consistency relation between flux and geometry; it is not a stable-existence theorem.
 
-It is not yet foundational. The classical geon assumes a Lorentzian spacetime, Einstein gravity, and an exterior into which radiation can leak. A homogeneous FLRW cosmos has no asymptotically flat exterior and no ADM mass. [[contemporary-puzzles/yang-mills-mass-gap/cosmic-geon-hypothesis-and-horizon-rate-ledger|The cosmic-geon ledger]] isolates the exact internal rhyme: a flat Einstein--FLRW apparent-horizon sphere has unit Misner--Sharp compactness, while for radiation in a comoving cell
+It is not yet foundational. The classical geon assumes a Lorentzian spacetime, Einstein gravity, and an exterior into which radiation can leak. A homogeneous FLRW cosmos has no asymptotically flat exterior and no ADM mass. [[cosmological-scale-selection/cosmic-geon-hypothesis-and-horizon-rate-ledger|The cosmic-geon ledger]] isolates the exact internal rhyme: a flat Einstein--FLRW apparent-horizon sphere has unit Misner--Sharp compactness, while for radiation in a comoving cell
 
 $$
 -\frac{\mathrm d}{\mathrm dt}\log E_\gamma=H,

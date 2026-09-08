@@ -75,7 +75,7 @@ Suppose \(L\ge0\) commutes with the gauge action and an actual raw bridge satisf
 \]
 It follows that \(\|\bar KQ_\Lambda\|^2\le e^{-b\Lambda}\) for a spectral tail \(Q_\Lambda\) of \(\bar L\). No commutation between \(\bar S\) and \(Q_\Lambda\) is required.
 
-For a product Haar heat law on a finite gauge graph, [[volume-uniform-fusion-envelopes|the unit-prefactor envelope]] applies with \(L=\sum_eL_e\). Under the full-vertex, independent-link hypotheses of [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|the existing girth--Casimir theorem]],
+For a product Haar heat law on a finite gauge graph, [[volume-uniform-fusion-envelopes|the unit-prefactor envelope]] applies with \(L=\sum_eL_e\). Under the full-vertex, independent-link hypotheses of [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|the existing girth--Casimir theorem]],
 \[
 \bar L\ge g(\Gamma)c_{\min}Q_0,\qquad
 I-\bar S\ge\bigl(1-e^{-b\,g(\Gamma)c_{\min}}\bigr)Q_0.

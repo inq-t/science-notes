@@ -31,7 +31,7 @@ $$
 
 is an inverse-length presentation. Equating it to $k_BT$, a pole mass, a vacuum expectation value, or a Hamiltonian gap requires a separate constitutive map.
 
-[[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick]] now gives this presentation its sharpest whole-to-part form. Conditional on the common-count and Einstein apparent-horizon ledgers,
+[[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick]] now gives this presentation its sharpest whole-to-part form. Conditional on the common-count and Einstein apparent-horizon ledgers,
 
 $$
 E_{\mathrm g}
@@ -68,7 +68,7 @@ J_r\mathcal E_r
 \operatorname{Dom}\!\left((K_+(r)K_-(r))^{1/2}\right).
 $$
 
-At a finite Euclidean regulator satisfying the reflection-interface hypotheses, [[contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS theorem]] localizes one part of this bridge. Write \(B_r^{\mathrm{OS}}\) for its unitary from the OS carrier to the gauge-invariant interface carrier. After infinite-depth preparation and a proof that its distinguished reference vector is the unique vacuum, the desired map must factor as
+At a finite Euclidean regulator satisfying the reflection-interface hypotheses, [[global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response#The OS quotient factors exactly through a reflection interface|the OS theorem]] localizes one part of this bridge. Write \(B_r^{\mathrm{OS}}\) for its unitary from the OS carrier to the gauge-invariant interface carrier. After infinite-depth preparation and a proof that its distinguished reference vector is the unique vacuum, the desired map must factor as
 
 $$
 J_r
@@ -275,7 +275,7 @@ $$
 \tag{F5}
 $$
 
-with $\eta_r,E_{\mathrm{sol},r}>0$, then at every $r$ for which $\kappa_{\leftrightarrow}(r)>0$, [[contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork#The paired-wall operator signature|the paired-wall theorem]] gives
+with $\eta_r,E_{\mathrm{sol},r}>0$, then at every $r$ for which $\kappa_{\leftrightarrow}(r)>0$, [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The paired-wall operator signature|the paired-wall theorem]] gives
 
 $$
 H_r
@@ -352,11 +352,11 @@ $$
 
 No equality is licensed between the metric branch and the Yang--Mills branch. Their common source symbol records the conjecture to be tested, not a proof that they share a carrier or normalization. A **reconvergence theorem** must construct both \(\mathfrak W_\lambda\) and \(\mathfrak W_{\mathrm{YM}}\) from one upstream object, then map their outputs into one physical theory so that the common-count calibration and the Casimir normalization agree without using the observed gap or acoustic scale. In (F5b), the reduced Fredholm classification and the identity \(\operatorname{Ind}=d^2\) are exact after their auxiliary carriers are declared, but the Yang--Mills descent is allowed—and for the faithful full continuous fixed-point candidate required—to be infinite-index. A finite regional center square may label the family; it cannot supply \(\mathfrak d_r\). Constructing the channels and physical pullbacks, proving their joint transversality and continuum coercivity, soldering that form to the Casimir, and realizing full-QCD matter are separate open arrows. Only the last transfer from supplied cosmological histories to CMB/BAO observables is standard.
 
-The finite-index theorem nevertheless gives a principled reason that a response character can be the **square** of an additive categorical scale, because \(A=\log d\) and \(\operatorname{Ind}=e^{2A}\). Four-dimensional ring topology supplies one canonical electric--magnetic instance of such a square. Neither statement supplies the dynamic response. The Type III restriction-loss construction in [[contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork]] gives a principled candidate for what a family of response forms could operate on: normal-state distinctions under declared channels. Its exact preserving-expectation split and normalization no-go are equally important. A single adapted expectation charges only forgotten vertical directions, and the same expectation admits semigroups with every externally chosen positive relaxation rate. The missing object is therefore an independently normalized, jointly transverse physical pullback—not generic quotient coercivity and not a finite index converted into energy.
+The finite-index theorem nevertheless gives a principled reason that a response character can be the **square** of an additive categorical scale, because \(A=\log d\) and \(\operatorname{Ind}=e^{2A}\). Four-dimensional ring topology supplies one canonical electric--magnetic instance of such a square. Neither statement supplies the dynamic response. The Type III restriction-loss construction in [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork]] gives a principled candidate for what a family of response forms could operate on: normal-state distinctions under declared channels. Its exact preserving-expectation split and normalization no-go are equally important. A single adapted expectation charges only forgotten vertical directions, and the same expectation admits semigroups with every externally chosen positive relaxation rate. The missing object is therefore an independently normalized, jointly transverse physical pullback—not generic quotient coercivity and not a finite index converted into energy.
 
 This sharpens “mass switched on.” The exact candidate is not a universal substance acquiring a time-dependent coefficient. It is a change in which carrier and which invariant are physically realized: below the transition there need be no admissible stable rest-bearing sector with a uniform joint floor; above it a noninvertible descent, a normalized response, and a Casimir solder may coexist. A cosmological clock date is assigned only after the last line of (F5b) has been constructed.
 
-[[contemporary-puzzles/yang-mills-mass-gap/wall-crossing-defect-and-the-fossil-of-mass-engagement]] isolates the corresponding event operator. For pre- and post-wall generators \(A_-\) and \(A_+\) joined by a scale-dependent realization \(J_\sigma\), the exact defect
+[[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]] isolates the corresponding event operator. For pre- and post-wall generators \(A_-\) and \(A_+\) joined by a scale-dependent realization \(J_\sigma\), the exact defect
 
 $$
 \mathfrak D_\sigma

@@ -173,7 +173,7 @@ K_R\sim\frac{1}{R},
 \tag{S11}
 $$
 
-which vanishes as \(R\to\infty\). That cannot prove the Clay gap on \(\mathbb R^4\). A causal-patch construction remains viable only if its boundary or descent law yields a coercive invariant uniform under enlargement of the patch, and if an atlas of such patches reconstructs locality, Poincare covariance, and the same infinite-volume vacuum representation. [[contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times]] states those recovery conditions.
+which vanishes as \(R\to\infty\). That cannot prove the Clay gap on \(\mathbb R^4\). A causal-patch construction remains viable only if its boundary or descent law yields a coercive invariant uniform under enlargement of the patch, and if an atlas of such patches reconstructs locality, Poincare covariance, and the same infinite-volume vacuum representation. [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]] states those recovery conditions.
 
 Thus “confinement” in the proposed wave picture cannot merely mean a finite spatial cavity. It must mean an admissibility, gluing, or closed-range condition on the global carrier that continues to exclude arbitrarily soft physical distinctions after the apparent box has been removed.
 

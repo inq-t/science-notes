@@ -306,7 +306,7 @@ q_{\mathrm{full}}[X].}
 \tag{NA24}
 \]
 
-This realizes, for the triangle presentation in finite Type I form, an algebraic prototype of the first arrow sought by [[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder]]: presentation disagreement becomes a restriction-loss Hessian on finite-algebra density tangents. The path \(\rho_s=\tfrac12(I+sX)\) is affine and mixed-state. It is not an inner-unitary path—indeed every inner unitary fixes the trace \(\tau\). The carrier-and-path comparison to localized QFT tangents is therefore absent from this finite static model and must be supplied explicitly below.
+This realizes, for the triangle presentation in finite Type I form, an algebraic prototype of the first arrow sought by [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]]: presentation disagreement becomes a restriction-loss Hessian on finite-algebra density tangents. The path \(\rho_s=\tfrac12(I+sX)\) is affine and mixed-state. It is not an inner-unitary path—indeed every inner unitary fixes the trace \(\tau\). The carrier-and-path comparison to localized QFT tangents is therefore absent from this finite static model and must be supplied explicitly below.
 
 ## Handedness and stiffness share a pair but are not identical
 
@@ -353,7 +353,7 @@ The domains are now explicit:
 | \(\mathcal G_\theta\) | the same traceless tangent carrier | charges failure to survive both descents |
 | \(\Omega_\theta\) | complexified traceless carrier | remembers the order of the two descents |
 
-Nothing here acts on spacetime, a cosmological scale, or a glueball wave function. The finite model supplies a normalized dimensionless response. [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick]] investigates a separate dimensional selector, and Longo's theorem supplies a real physical energy comparison only after one constructs localized inner-unitary paths in a positive-energy QFT net and then controls their complex form-core extension.
+Nothing here acts on spacetime, a cosmological scale, or a glueball wave function. The finite model supplies a normalized dimensionless response. [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick]] investigates a separate dimensional selector, and Longo's theorem supplies a real physical energy comparison only after one constructs localized inner-unitary paths in a positive-energy QFT net and then controls their complex form-core extension.
 
 ## Exact conditional target with the cosmic yardstick
 
@@ -402,7 +402,7 @@ The fibrewise theorem gives \(Q_{\mathrm{pair}}\geq\kappa_{\mathrm{pres}}Q_{\mat
 \tag{NA29}
 \]
 
-This is the complex-core obligation isolated in [[contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder]]; it does not follow merely because real local-unitary tangents span the core. Suppose there is also a spectrum-independent complex-linear analysis map
+This is the complex-core obligation isolated in [[physical-response-coercivity/localized-relative-entropy-and-the-energy-solder]]; it does not follow merely because real local-unitary tangents span the core. Suppose there is also a spectrum-independent complex-linear analysis map
 
 \[
 J:
@@ -447,7 +447,7 @@ b_J\kappa_{\mathrm{pres}}.
 \tag{NA33}
 \]
 
-If, independently, the common-count cell is proved to be the centered convex isotropic localization ball in [[contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick]], then
+If, independently, the common-count cell is proved to be the centered convex isotropic localization ball in [[cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick]], then
 
 \[
 \boxed{

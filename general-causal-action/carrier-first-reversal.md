@@ -121,7 +121,7 @@ $$
 \tag{C1}
 $$
 
-The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[horizon-saturation-and-entropic-distinction]] develops the entropy and localization-boundary version of the same reversal; [[mass-scale-calibration/mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
+The word *clock* is load-bearing: a dimensionless algebraic obstruction becomes a mass gap only after the reconstruction identifies the physical time-translation generator and proves a uniform form comparison on its full vacuum complement. [[cosmological-scale-selection/horizon-saturation-and-entropic-distinction]] develops the entropy and localization-boundary version of the same reversal; [[mass-scale-calibration/mass-as-casimir-and-realization]] supplies its representation-theoretic mass type.
 
 ## The operator-carrier ledger
 
@@ -248,7 +248,7 @@ This is the rigorous reversal tactic. The differential formula for \(L\) is seco
 
 A Hilbert-space contraction semigroup is not automatically geometric. To obtain a classical Dirichlet form, one must also choose a represented commutative configuration algebra \(\mathcal D\simeq L^\infty(X,\nu)\) with \(\Omega\leftrightarrow1\), and prove that the transformed semigroup is positivity preserving, \(L^\infty\)-contractive, and conservative. Without this Markov gate, a positive generator supplies dynamics but not a configuration-space metric.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/carrier_reversal_receipt.py|The finite-dimensional reversal receipt]] reconstructs a generator, form, carré du champ, and Poincare gap from one semigroup. It then exhibits two symmetric three-state generators with the same vacuum and spectrum \(\{0,1,10\}\), while only one is Markov in the declared coordinate cone; [[contemporary-puzzles/yang-mills-mass-gap/receipts/carrier-reversal-receipt-output.txt|the stored output]] records the passing run. The example isolates why spectral data do not choose a configuration geometry.
+[[general-causal-action/receipts/carrier_reversal_receipt.py|The finite-dimensional reversal receipt]] reconstructs a generator, form, carré du champ, and Poincare gap from one semigroup. It then exhibits two symmetric three-state generators with the same vacuum and spectrum \(\{0,1,10\}\), while only one is Markov in the declared coordinate cone; [[general-causal-action/receipts/carrier-reversal-receipt-output.txt|the stored output]] records the passing run. The example isolates why spectral data do not choose a configuration geometry.
 
 ## The gap is the coercivity of the form
 
@@ -389,7 +389,7 @@ $$
 }
 $$
 
-At finite regulator, [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|the flux-coercivity theorem]] executes these arrows after the vacuum is known. The continuum construction target is to:
+At finite regulator, [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|the flux-coercivity theorem]] executes these arrows after the vacuum is known. The continuum construction target is to:
 
 1. construct a reflection-positive vacuum measure \(\nu\) on gauge-invariant cylinder data or another precise observable carrier;
 2. define renormalized electric derivations and prove that their quadratic form is closable;

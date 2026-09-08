@@ -208,7 +208,7 @@ projection zero weight. A spectrally complete preparation family can
 test this assertion by the
 [[coarse-response-memory/spectral-readout-and-the-visible-gap|coverage theorem]],
 but the readout formula supplies no such exclusion. The
-[[contemporary-puzzles/yang-mills-mass-gap/phase-modulus-pointing-and-euclidean-dwell|dwell theorem]]
+[[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell|dwell theorem]]
 likewise needs a uniform bound, not just positive weights or a finite
 outcome list. Mass identification still needs the physical translation
 structure.

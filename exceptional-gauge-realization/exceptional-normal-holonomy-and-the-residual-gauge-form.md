@@ -514,7 +514,7 @@ $$
 \tag{NH29j}
 $$
 
-The finite-graph girth--Casimir theorem in [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity]] therefore gives the exact unweighted gauge-invariant Haar constant
+The finite-graph girth--Casimir theorem in [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]] therefore gives the exact unweighted gauge-invariant Haar constant
 
 $$
 \lambda_{\Gamma,\mathrm{Haar}}^{\mathrm{GI},N}
@@ -573,7 +573,7 @@ It is not yet the desired mass-gap mechanism:
 4. Reflection positivity constructs a possible Hilbert carrier and transfer operator; it does not by itself prove a vacuum-complement contraction.
 5. The normal representation fixes the conversion \(\beta_W=144\beta\), not \(\beta\) itself, a dimensional scale, or the renormalized coupling.
 
-For the finite Kogut--Susskind carrier, the relevant stopping condition remains the weighted Poincare inequality in [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity]]. If \(\nu_r=\psi_{0,r}^2\mu_{\mathrm{Haar}}\) is the interacting gauge-invariant vacuum law and \(\mathcal E_r\) is its closed electric form, one needs
+For the finite Kogut--Susskind carrier, the relevant stopping condition remains the weighted Poincare inequality in [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity]]. If \(\nu_r=\psi_{0,r}^2\mu_{\mathrm{Haar}}\) is the interacting gauge-invariant vacuum law and \(\mathcal E_r\) is its closed electric form, one needs
 
 $$
 \operatorname{Var}_{\nu_r}(F)

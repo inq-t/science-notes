@@ -1,0 +1,301 @@
+{
+  "manifest": "scripts/refactors/2026-09-08-yang-mills-response.json",
+  "moves": [
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/causal-frame-coercivity.md",
+      "to": "physical-response-coercivity/causal-frame-coercivity.md",
+      "before_sha256": "ce091d8d74c074f4ef5f4148bccfe5f273e3c7f368e46d7b21c204a32ec2ff1b",
+      "after_sha256": "88bac7a341b03423688583c2b72d45d49076b97224ea79ffe1d63b28c941aa96"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity.md",
+      "to": "physical-response-coercivity/physical-distinction-coercivity.md",
+      "before_sha256": "64cc636561e2db321c5512f77b0c5d58b80f13f88cb4780c37cd49916fab25c0",
+      "after_sha256": "01de16776ca103c55dff49b9f2140743e1c38cd6cbea00b74057efc12b224252"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/regional-relative-entropy-frames.md",
+      "to": "physical-response-coercivity/regional-relative-entropy-frames.md",
+      "before_sha256": "7182bc37e5c80626805a1ccb479ea368ef442ed172cf74619797256bc01d9e91",
+      "after_sha256": "4098a6594d3eacd28f0d2ddb3d1c62ec215a01fc3cc74d2f1add53d939fb1806"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/localized-relative-entropy-and-the-energy-solder.md",
+      "to": "physical-response-coercivity/localized-relative-entropy-and-the-energy-solder.md",
+      "before_sha256": "0ed4b2a96bee7ea4dc560f0a33739973c1a3b0eaf5945bfa8fef3143d87c1539",
+      "after_sha256": "b5811e56eb9ef399d23e99f777716c047cf62ea75c5f8dde8bc73a3f675c14ce"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/entropic-stiffness-not-entropic-force.md",
+      "to": "physical-response-coercivity/entropic-stiffness-not-entropic-force.md",
+      "before_sha256": "b8a6fc93192e461dc146e8c4ce9721116b81b5245165d10269e6fcc4c283797a",
+      "after_sha256": "3f3a18524401e4e18bf3a986ebac58a95f3f5a2d7b2a739de2748e5aba301fe5"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/regional_entropy_frame_receipt.py",
+      "to": "physical-response-coercivity/receipts/regional_entropy_frame_receipt.py",
+      "before_sha256": "7c15d6c5fde60e60c309eef22120e5d73bea52383b4d81d56cc9d9fc27a31176",
+      "after_sha256": "7c15d6c5fde60e60c309eef22120e5d73bea52383b4d81d56cc9d9fc27a31176"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt.py",
+      "to": "physical-response-coercivity/receipts/real-core-complexification-firewall-receipt.py",
+      "before_sha256": "83a13655c1b16b3374d4d3f89d801441fe1ca290426d547ce9c6f5eefc208cd9",
+      "after_sha256": "83a13655c1b16b3374d4d3f89d801441fe1ca290426d547ce9c6f5eefc208cd9"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/real-core-complexification-firewall-receipt-output.txt",
+      "to": "physical-response-coercivity/receipts/real-core-complexification-firewall-receipt-output.txt",
+      "before_sha256": "916f235d38736c66fe012621bfb34d0bec5c83f2d2b2cbff395063763081d410",
+      "after_sha256": "916f235d38736c66fe012621bfb34d0bec5c83f2d2b2cbff395063763081d410"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork.md",
+      "to": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork.md",
+      "before_sha256": "fbd6842ab3a8cbe0751b9b3714cfd97b38fdf9de11a9c82cc7bcabfa650fc419",
+      "after_sha256": "5f906aeeec00f2a6dc8500c084c8dfc33d07ee34fb96a16e7a885344ebe8af2c"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/descent_loss_cocycle_receipt.py",
+      "to": "measured-response-carriers/receipts/descent_loss_cocycle_receipt.py",
+      "before_sha256": "ba30bf64c4b8f87438994ca8a1ebf55c897726712b9243afe228f7e92b468c91",
+      "after_sha256": "ba30bf64c4b8f87438994ca8a1ebf55c897726712b9243afe228f7e92b468c91"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/pointed-facts-and-the-shorted-response.md",
+      "to": "trace-dirichlet-descent/pointed-facts-and-the-shorted-response.md",
+      "before_sha256": "f6f714302da4ac8d0193f857faf686d284172aaac6a4b06371b6b605a5745403",
+      "after_sha256": "3c101e029eaa5aadb1aebe2dd2536b578af3c08412728cd1d266cc3a3b3dbc9a"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle.md",
+      "to": "trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle.md",
+      "before_sha256": "b3692d6eb73b1d3de33120e88219efbeaed2efea77ad189f283b9611077ec834",
+      "after_sha256": "7cbbbbb6de0ecb7d5dbe3a4cc2f90877866dd0c209f3f1b5c2161a8e95c668b8"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/subfactor-angle-coercivity-and-the-index-firewall.md",
+      "to": "trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall.md",
+      "before_sha256": "746c265e02c269621f881be4ba6ae097b65b1f2faba610db14a95723ac0eab54",
+      "after_sha256": "dea38cc41b6e8771ad4f5f1f370289e3b0818a17913cfa729ae65753caaec386"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/two-expectation-angle-process.md",
+      "to": "trace-dirichlet-descent/two-expectation-angle-process.md",
+      "before_sha256": "d651eeaf742a94c631171b4b1ca5b4efaf41a0150ba3842da53915b307427e8b",
+      "after_sha256": "08828065a64b5186ffe60f864aa840ae017d33d8f32ad1c55751a71307cdaf71"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry.md",
+      "to": "trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry.md",
+      "before_sha256": "c68d0e94683d21375e5dddf6c2e61211d80b8d9df1ff9eba6ed80111f1d133a9",
+      "after_sha256": "2e94b0bc019b8df2b924986cfa4c0f25ca64d5ec5fe3750dab79c37b9496118a"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/gauge-dirichlet-trace-carrier.md",
+      "to": "trace-dirichlet-descent/gauge-dirichlet-trace-carrier.md",
+      "before_sha256": "90cbad0f57ae76c9ce2d2d3bfd1376405d4df852e0c13c88b38ab2f4bb80fdc4",
+      "after_sha256": "81092600f524789170a92bb054e26657dddafb2ee7a2d43d2ac4bf9f278af81e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/pointed-background-short-receipt.py",
+      "to": "trace-dirichlet-descent/receipts/pointed-background-short-receipt.py",
+      "before_sha256": "9cfd25a6e13924b9e38907642349b8f9f3a7aa688b3223ae71610dc8817cb357",
+      "after_sha256": "9cfd25a6e13924b9e38907642349b8f9f3a7aa688b3223ae71610dc8817cb357"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/pointed-background-short-receipt-output.txt",
+      "to": "trace-dirichlet-descent/receipts/pointed-background-short-receipt-output.txt",
+      "before_sha256": "a863789297b948a9f43222d37b9335796f9386a384ba6e0ef54e294774d307c3",
+      "after_sha256": "a863789297b948a9f43222d37b9335796f9386a384ba6e0ef54e294774d307c3"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/shorted_response_filtration_receipt.py",
+      "to": "trace-dirichlet-descent/receipts/shorted_response_filtration_receipt.py",
+      "before_sha256": "15ec479f4a5779e07c3456df86286a7e9507e26a31c68c9ecb55dd36086530c6",
+      "after_sha256": "15ec479f4a5779e07c3456df86286a7e9507e26a31c68c9ecb55dd36086530c6"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/shorted-response-filtration-receipt-output.txt",
+      "to": "trace-dirichlet-descent/receipts/shorted-response-filtration-receipt-output.txt",
+      "before_sha256": "f2e58fbc232462562ea35d9a20aafafa2e0a7519ffc3a0ea49516d42dbd5b42f",
+      "after_sha256": "f2e58fbc232462562ea35d9a20aafafa2e0a7519ffc3a0ea49516d42dbd5b42f"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/paired_wall_shorting_receipt.py",
+      "to": "trace-dirichlet-descent/receipts/paired_wall_shorting_receipt.py",
+      "before_sha256": "4f8b14743f46b94ad57014c4b37d645860e7d873564200cdf34d146f43097c77",
+      "after_sha256": "4f8b14743f46b94ad57014c4b37d645860e7d873564200cdf34d146f43097c77"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/paired-wall-shorting-receipt-output.txt",
+      "to": "trace-dirichlet-descent/receipts/paired-wall-shorting-receipt-output.txt",
+      "before_sha256": "43adfe8cdabd0dc1561fd704c03e0add360f76f729e29cae29ae345f0b268377",
+      "after_sha256": "43adfe8cdabd0dc1561fd704c03e0add360f76f729e29cae29ae345f0b268377"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/oriented_descent_angle_receipt.py",
+      "to": "trace-dirichlet-descent/receipts/oriented_descent_angle_receipt.py",
+      "before_sha256": "4fecadeee5e83930ddaa526e503fcbcf8911b0adc066ab75e988a6aa2622880a",
+      "after_sha256": "4fecadeee5e83930ddaa526e503fcbcf8911b0adc066ab75e988a6aa2622880a"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/oriented-descent-angle-receipt-output.txt",
+      "to": "trace-dirichlet-descent/receipts/oriented-descent-angle-receipt-output.txt",
+      "before_sha256": "a265ac2b6e280bce4b52d0779cf2ee32a33e4e93782b9d783f8c5e0e10ab32af",
+      "after_sha256": "a265ac2b6e280bce4b52d0779cf2ee32a33e4e93782b9d783f8c5e0e10ab32af"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/past-future-angle-and-the-transfer-gap.md",
+      "to": "two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap.md",
+      "before_sha256": "3f84948b19b40a3a9e8e5f48af35e204cb8e4d5ce49d1f3cf26305f52fce8725",
+      "after_sha256": "6157f8816818221cda85dc35b89a12c98eebd73599e2a742c01e7e3cdf3d4b47"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/phase-modulus-pointing-and-euclidean-dwell.md",
+      "to": "two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell.md",
+      "before_sha256": "ade110eed0f5af557b6c07dc368c6f69e598fcb24f4c67d86cf447c491f245a7",
+      "after_sha256": "0fbde0a4d9ea52620b1b35ba670410faca994aa493e20efb190b078301885f2b"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/past_future_angle_receipt.py",
+      "to": "two-slice-innovation-geometry/receipts/past_future_angle_receipt.py",
+      "before_sha256": "79a5aeb0b4fb62d3e44ba62d7674b7eaed668941ede90121742c2f9724185124",
+      "after_sha256": "79a5aeb0b4fb62d3e44ba62d7674b7eaed668941ede90121742c2f9724185124"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/past-future-angle-receipt-output.txt",
+      "to": "two-slice-innovation-geometry/receipts/past-future-angle-receipt-output.txt",
+      "before_sha256": "6504c08cb6165efc3b32df10a1b3cabf69da306218d4575fdd1d4aac3ee2ba92",
+      "after_sha256": "6504c08cb6165efc3b32df10a1b3cabf69da306218d4575fdd1d4aac3ee2ba92"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect.md",
+      "to": "bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect.md",
+      "before_sha256": "598fc85439c1c3a567f997b47ccd332ef1de434315ca12a9cdd8451f069bc7fd",
+      "after_sha256": "598fc85439c1c3a567f997b47ccd332ef1de434315ca12a9cdd8451f069bc7fd"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/cosmic-geon-hypothesis-and-horizon-rate-ledger.md",
+      "to": "cosmological-scale-selection/cosmic-geon-hypothesis-and-horizon-rate-ledger.md",
+      "before_sha256": "a005d50ef9d7c1053ac2ea7b7b8ed2055bc8b8abe2a07126507908e171ede0d7",
+      "after_sha256": "590d2f823e69cf32b69a1538fa97b9fe0ccd03ecd380293fc18d1240de7f9236"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/cosmological-selection-of-the-yang-mills-yardstick.md",
+      "to": "cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick.md",
+      "before_sha256": "66481869d4a7d48b62e15ca3d62aa5e5895234ba461fcd63426f834ab69bd05a",
+      "after_sha256": "d627ea0e95883339611348e7809296a3d2d79929cf3bfd303e1a58edf8453e34"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/horizon-saturation-and-entropic-distinction.md",
+      "to": "cosmological-scale-selection/horizon-saturation-and-entropic-distinction.md",
+      "before_sha256": "a91d00f43d5c990afd285ee1a57374119f3c68ba83d5e16f8a1af57df059eb30",
+      "after_sha256": "da69260f67efdde692bcbbb1d6458ba01254e12797958c1fe77a12279cb78aec"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+      "to": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md",
+      "before_sha256": "b8c55f823dbe677def8bd56ea01014f86407bcce67d252c2735ebc60c950b55a",
+      "after_sha256": "4568e80651e3e02f2e5514e69235255796e969c0dcc0286d204cf14b2d4bceed"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/cosmic_geon_rate_receipt.py",
+      "to": "cosmological-scale-selection/receipts/cosmic_geon_rate_receipt.py",
+      "before_sha256": "0cb51041b84d9da21a77ebdcbc7cb44124dc3d4f7f2be2aaa863047cc8725642",
+      "after_sha256": "0cb51041b84d9da21a77ebdcbc7cb44124dc3d4f7f2be2aaa863047cc8725642"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/cosmic-geon-rate-receipt-output.txt",
+      "to": "cosmological-scale-selection/receipts/cosmic-geon-rate-receipt-output.txt",
+      "before_sha256": "62406f0824dbd13d82f8b6ceb22b380073484da9be88939fbe97b53ae9d9e198",
+      "after_sha256": "62406f0824dbd13d82f8b6ceb22b380073484da9be88939fbe97b53ae9d9e198"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/cosmological-yardstick-receipt.py",
+      "to": "cosmological-scale-selection/receipts/cosmological-yardstick-receipt.py",
+      "before_sha256": "abeff4f56e43d9a4fbdbd20c71862df06ef0c00fce05c963642b2454f26c450e",
+      "after_sha256": "abeff4f56e43d9a4fbdbd20c71862df06ef0c00fce05c963642b2454f26c450e"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/cosmological-yardstick-receipt-output.txt",
+      "to": "cosmological-scale-selection/receipts/cosmological-yardstick-receipt-output.txt",
+      "before_sha256": "3120e0240190e065c6ebd23975975cebf26480709abe59eccd0b15f408d2582d",
+      "after_sha256": "3120e0240190e065c6ebd23975975cebf26480709abe59eccd0b15f408d2582d"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal.md",
+      "to": "general-causal-action/carrier-first-reversal.md",
+      "before_sha256": "edcc9e6008d934bf666d3b5e0eee014fca1b5d97df7c9040cbd7b06bcff01003",
+      "after_sha256": "11cb49d93d30e5732740c650378ef7c2a727b47f9649c809f8e3f340c3129299"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/carrier_reversal_receipt.py",
+      "to": "general-causal-action/receipts/carrier_reversal_receipt.py",
+      "before_sha256": "96344993db0f78b7f602d2856aef249862eda74d8cab78d3c0b0d93778bb40c9",
+      "after_sha256": "96344993db0f78b7f602d2856aef249862eda74d8cab78d3c0b0d93778bb40c9"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/carrier-reversal-receipt-output.txt",
+      "to": "general-causal-action/receipts/carrier-reversal-receipt-output.txt",
+      "before_sha256": "f132a0d172ff7d7902e286c4aff4f0d2c45ae75d75e4e7467dc8b3a28d934203",
+      "after_sha256": "f132a0d172ff7d7902e286c4aff4f0d2c45ae75d75e4e7467dc8b3a28d934203"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/causal-patch-boundary-and-two-times.md",
+      "to": "global-local-response-reconstruction/causal-patch-boundary-and-two-times.md",
+      "before_sha256": "d7df4960d0f40b63ce908005fd9c82947b215765b70adc194d2d10550ac7a248",
+      "after_sha256": "6e11d7168cb0014ddf9d17035c233e6e542cf2d20364e88f8e7259c7f7e95148"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/vacuum-boundary-gluing-and-wall-response.md",
+      "to": "global-local-response-reconstruction/vacuum-boundary-gluing-and-wall-response.md",
+      "before_sha256": "4c10c5987eae0a818c3275e91c04584c553fe67ce3f98da232fbaa0f766c32d7",
+      "after_sha256": "27557d45b81c12803cf5cef97eabb38e92af3699e126d399ed222ac32a7c4063"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/vacuum_boundary_gluing_receipt.py",
+      "to": "global-local-response-reconstruction/receipts/vacuum_boundary_gluing_receipt.py",
+      "before_sha256": "b7f84ba362c389b253086685608047f17349fe4bcc08b605c5dfe60976486e40",
+      "after_sha256": "b7f84ba362c389b253086685608047f17349fe4bcc08b605c5dfe60976486e40"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/vacuum-boundary-gluing-receipt-output.txt",
+      "to": "global-local-response-reconstruction/receipts/vacuum-boundary-gluing-receipt-output.txt",
+      "before_sha256": "a306a810291e59a5fa93d05764b0fabf2eb9a40d353f578acf3450dcb2597a6f",
+      "after_sha256": "a306a810291e59a5fa93d05764b0fabf2eb9a40d353f578acf3450dcb2597a6f"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder.md",
+      "to": "strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder.md",
+      "before_sha256": "f90bed820f5924bfd3e150cc1065e892160879e4ba90c0b747bf0f993dc7defd",
+      "after_sha256": "1f0355f23e5b4a35f0271c61811fd5a6f116467cea6ea98d6954311e8b12a272"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity.md",
+      "to": "strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity.md",
+      "before_sha256": "99094156672c60b4ff4c639c4e5fee07b21a2b3b81bcaec0d2afe4e8c538f8c0",
+      "after_sha256": "0039eec5f92388c0cf357c9c6c60f9fdaa347e3f45471786c512f267bce875c8"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/twisted-holonomy-and-the-neutral-hessian.md",
+      "to": "strong-coupling-gap-and-continuum-crossover/twisted-holonomy-and-the-neutral-hessian.md",
+      "before_sha256": "42a40e3521ae79196d30abb8ee62b6046debf8afa338b7ea883049276a2a2793",
+      "after_sha256": "4e5de895f57b69eed6a4d7ec37d353038dfec7fd82eb615c2707c251405e2925"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/wilson_bounded_solder_receipt.py",
+      "to": "strong-coupling-gap-and-continuum-crossover/receipts/wilson_bounded_solder_receipt.py",
+      "before_sha256": "8986a08cc297ded14f8a6510894b1b7fbca393199dc871bc315d0b8be023e6e6",
+      "after_sha256": "8986a08cc297ded14f8a6510894b1b7fbca393199dc871bc315d0b8be023e6e6"
+    },
+    {
+      "from": "contemporary-puzzles/yang-mills-mass-gap/receipts/wilson-bounded-solder-receipt-output.txt",
+      "to": "strong-coupling-gap-and-continuum-crossover/receipts/wilson-bounded-solder-receipt-output.txt",
+      "before_sha256": "1639d73d2dc554d12d32f0f8ab449747a76da4119770dcb968d3a3f36c1f9ccf",
+      "after_sha256": "1639d73d2dc554d12d32f0f8ab449747a76da4119770dcb968d3a3f36c1f9ccf"
+    }
+  ],
+  "link_updates": 264,
+  "frozen_records_verified": 199
+}

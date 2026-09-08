@@ -355,7 +355,7 @@ A modular execution of this route must construct, rather than assume:
 1. a coherent family of modular inclusions or intersections on one physical carrier, sufficient to reconstruct all translation generators and their strong commutation relations;
 2. a unique invariant vacuum, a positive-energy Poincare representation, and an observable net with locality and gauge compatibility;
 3. identification of that carrier and clock with the Osterwalder--Schrader or other constructive Yang--Mills carrier;
-4. a canonical regional-plus-flux distinction form such as [[contemporary-puzzles/yang-mills-mass-gap/regional-relative-entropy-frames]], with a regulator-uniform lower frame bound;
+4. a canonical regional-plus-flux distinction form such as [[physical-response-coercivity/regional-relative-entropy-frames]], with a regulator-uniform lower frame bound;
 5. the Casimir-form comparison in (J14), normalized without the desired spectrum; and
 6. persistence of the product \(E_*\sqrt{\eta_C\kappa}\) through infinite volume and continuum removal.
 

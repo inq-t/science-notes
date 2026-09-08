@@ -43,7 +43,7 @@ The mass-gap branches introduce further response types:
 
 | Term | Carrier and return | Canonical owner |
 |---|---|---|
-| two-descent response | sum of squared forgotten components on one GNS carrier, modulo the common retained space | [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|oriented descent and the pair angle]] |
+| two-descent response | sum of squared forgotten components on one GNS carrier, modulo the common retained space | [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|oriented descent and the pair angle]] |
 | representation-trace response | Lie-algebra form induced by a specified representation, not yet a field-state energy | [[exceptional-gauge-realization/octonionic-clifford-completion-of-the-color-normal|the color-normal Clifford completion]] and [[exceptional-gauge-realization/exceptional-wilson-same-carrier-factorization|its Wilson coefficient conversion]] |
 | categorical Dirichlet response | normalized fusion-averaging defect in a tube-admissible representation, modulo invariant vectors | [[categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall|quantum-\(G_2\) rigidity]] |
 | automorphic response | closed Laplacian form on a specified unitary-character bundle over a hyperbolic orbifold | [[triangle-descent-response/triangle-character-cusp-coercivity|character-cusp coercivity]] |

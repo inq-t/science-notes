@@ -219,7 +219,7 @@ Every finite state and finite operator exists. Exact finite marginal
 and form consistency also hold. The obstruction appears when the state
 completion identifies approximate observations that the response
 continues to treat as orthogonal. This is a concrete realization of
-the [[contemporary-puzzles/yang-mills-mass-gap/carrier-first-reversal#The Copernican criterion: change the primitives|carrier-first closability obligation]].
+the [[general-causal-action/carrier-first-reversal#The Copernican criterion: change the primitives|carrier-first closability obligation]].
 
 ## What a replacement response must retain
 

@@ -56,7 +56,7 @@ $$
 \tag{CR4}
 $$
 
-This is the sesquilinear counterpart of the [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity|orthogonal variance-shell identity]]. Expanding (CR3) on centered functions proves it: every cross-shell term vanishes. No dynamics or gap hypothesis enters.
+This is the sesquilinear counterpart of the [[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity|orthogonal variance-shell identity]]. Expanding (CR3) on centered functions proves it: every cross-shell term vanishes. No dynamics or gap hypothesis enters.
 
 If \(\mu_j\) is the exact retained law at scale \(j\), let \(f_j,g_j\) represent \(E_jF,E_jG\), and disintegrate \(\mu_j\) over the next block variable \(y\) with conditional law \(\nu_{j,y}\). Then
 

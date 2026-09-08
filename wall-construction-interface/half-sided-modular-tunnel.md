@@ -168,7 +168,7 @@ $$
 
 For a proper nontrivial inclusion, dilation covariance forces \(\sigma(P)=[0,\infty)\). Thus \(T_\sigma\) is injective with dense range but has no bounded inverse. It is an oriented smoothing, not a many-to-one quotient.
 
-The typing trap appears when this contraction is used as the realization \(J_\sigma\) in [[contemporary-puzzles/yang-mills-mass-gap/wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The actual endpoint transport from the \(\mathcal M\) presentation to the \(\mathcal N\) presentation contains \(U(1)\), because
+The typing trap appears when this contraction is used as the realization \(J_\sigma\) in [[cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement]]. The actual endpoint transport from the \(\mathcal M\) presentation to the \(\mathcal N\) presentation contains \(U(1)\), because
 
 $$
 \mathcal N=\operatorname{Ad}U(1)(\mathcal M),

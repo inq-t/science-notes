@@ -79,7 +79,7 @@ proper orthogonal fusion residue can record intermediate directions absent
 from the endpoint composite. [[pointed-cp-fusion-residue/inq|Pointed CP
 Fusion Residue]] proves this statement and its associativity. It does not
 close the provider: the CP maps were inputs, and
-[[contemporary-puzzles/yang-mills-mass-gap/fusion-residue-is-not-transfer-defect|the
+[[bridge-score-fusion-geometry/fusion-residue-is-not-transfer-defect|the
 fusion/transfer firewall]] proves that the canonical endpoint lift has zero
 component in this residue. In the scalarized stationary Markov realization,
 [[bridge-score-fusion-geometry/inq|middle-slice bridge analysis]] supplies a

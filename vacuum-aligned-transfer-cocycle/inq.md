@@ -1056,7 +1056,7 @@ defect-frame theorem from an independently proved same-carrier comparison.
 [[directed-isometric-residue-completion/inq|Directed Isometric Residue
 Completion]] gives the defect ledger its universal minimal isometric carrier
 and separates one-sided residue completion from Lorentzian clock unitarity.
-[[contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork|The
+[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|The
 Descent-Loss Cocycle]] is the additive relative-entropy arrow cost; it is
 distinct from the multiplicative transfer subcocycle here.
 [[spectral-wall-descent/scale-correspondence-stack|The Scale-Correspondence

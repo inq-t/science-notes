@@ -425,7 +425,7 @@ On the direct branch, the comparison must be normalized on the same carrier. At 
 temporal spacing, an unbounded comparison of the transfer logarithm with the
 cylinder gradient is generally false on the full carrier; the high-character
 counterexample is proved in
-[[finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|the bounded-flux audit]]. Let \(P_{T,a,V}\) be the
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder#The fixed-spacing unbounded-solder no-go|the bounded-flux audit]]. Let \(P_{T,a,V}\) be the
 ground-state-transformed normalized transfer on the reconstructed slice
 carrier in finite spatial volume \(V\), and let \(D_{\mathrm{cyl},a,V}\) represent the transported cylinder
 form, with the same vacuum fixed-space projection. The domain-safe target is

@@ -185,7 +185,7 @@ The meaningful construction is a gluing algorithm assembled from local extension
 
 This is what “geometry forces the bound” could mean concretely: a bounded reconstruction of every physical distinction from its response, with constants fixed by gluing geometry.
 
-The arrow being inverted matters. Here \(T_r\) denotes the response analysis \(\delta_{r,\ell}\), not Euclidean transfer. [[contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity#Stable inversion of which arrow?|The inversion fork]] proves that bounded inversion of physical transfer would impose an ultraviolet ceiling, whereas bounded inversion of its defect detects an infrared gap. [[hessian-response-geometry/response-rigidity-and-multiplicity|Response rigidity]] separately tests when a simple scalar matching law can control the complete response: exact irreducibility or a uniform comparison is needed; a fixed entropy profile and total trace do not suffice.
+The arrow being inverted matters. Here \(T_r\) denotes the response analysis \(\delta_{r,\ell}\), not Euclidean transfer. [[physical-response-coercivity/physical-distinction-coercivity#Stable inversion of which arrow?|The inversion fork]] proves that bounded inversion of physical transfer would impose an ultraviolet ceiling, whereas bounded inversion of its defect detects an infrared gap. [[hessian-response-geometry/response-rigidity-and-multiplicity|Response rigidity]] separately tests when a simple scalar matching law can control the complete response: exact irreducibility or a uniform comparison is needed; a fixed entropy profile and total trace do not suffice.
 
 ## The continuum condition belongs to the measured law
 
@@ -269,7 +269,7 @@ This programme does not require a narrative of primordial jitter, inflation, or 
 
 ## The Copernican change is in explanatory order
 
-[[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|An oriented arrow]] can determine its stabilizer, and [[algebra/quotient-unitarity-and-kernel-stabilization|a kernel stabilizer]] can determine which transformations descend to the local quotient. Exceptional geometry supplies concrete examples of this order. The remaining task is to make that same construction select the state, the response, and a certificate such as (QD5) or (QD7).
+[[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|An oriented arrow]] can determine its stabilizer, and [[algebra/quotient-unitarity-and-kernel-stabilization|a kernel stabilizer]] can determine which transformations descend to the local quotient. Exceptional geometry supplies concrete examples of this order. The remaining task is to make that same construction select the state, the response, and a certificate such as (QD5) or (QD7).
 
 Unitarity is not time-reversal symmetry, and a unitary clock is compatible with a gap. The assumption to question is that a whole-to-part formation map must itself be a unitary clock evolution. Noninvertible realization and local unitary dynamics can be different arrows. Faithful expected compression has important rigidity restrictions, described in [[algebra/faithful-descent-rigidity-and-noiseless-unitarity|the noiseless-sector theorem]]; it cannot simply manufacture a nontrivial reversible sector from a self-adjoint dissipative clock.
 

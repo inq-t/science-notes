@@ -346,7 +346,7 @@ The fixed-graph clock in
 [[overlap-kernels-and-face-refinement#Temporal sewing needs a separate refinement law|overlap temporal sewing]]
 does not automatically extend through spatial refinement. In the
 \(3+1\) electric scaling recorded in
-[[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|finite-spacing transfer]],
+[[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|finite-spacing transfer]],
 write \(\alpha(a)=\zeta_Q g(a)^2/a\). The fixed \(\zeta_Q>0\)
 includes the Casimir metric and unit convention; in the cited standard
 lattice normalization it is \(\hbar c/2\). A different normalization
@@ -422,7 +422,7 @@ so \(f\) is constant. The limit has a unique vacuum even when its
 spectral gap is zero.
 
 Assume some stage contains a cycle. The
-[[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|weighted girth theorem]]
+[[strong-coupling-gap-and-continuum-crossover/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|weighted girth theorem]]
 gives the exact full-carrier result
 \[
 \boxed{
@@ -516,8 +516,7 @@ either. A candidate that succeeds must change a stated part of this
 construction—its effective response, observable embeddings, state
 comparison, or clock realization—and control the resulting law.
 
-[[heat-state-continuity-and-response-closability|An exact area-dependent
-heat state]] now tests a change outside the bounded-density branch.
+[[heat-state-continuity-and-response-closability|An exact area-dependent]] now tests a change outside the bounded-density branch.
 Its shrinking single-loop threshold is of order perimeter divided by
 area, so the Haar cheap-loop witness no longer works. But its
 length-weighted cylinder form is not closable: edge-disjoint nearby
@@ -528,8 +527,7 @@ approximating loops must retain mixed responses compatible with their
 state convergence. Diverging response costs or a changed domain/readout
 construction leave those hypotheses and require separate control.
 
-[[shared-driver-response-and-the-nested-holonomy-clock|A shared driving
-path]] gives a closed replacement on the full nested-holonomy path sector,
+[[shared-driver-response-and-the-nested-holonomy-clock|A shared driving]] gives a closed replacement on the full nested-holonomy path sector,
 with an explicit minimum-kernel mixed response and all-duration character
 correlations. The same state supports both gapped and gapless driver clocks.
 Requiring annular response to be unchanged by restart in the same clock

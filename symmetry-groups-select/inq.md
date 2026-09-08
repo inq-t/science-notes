@@ -53,7 +53,7 @@ $$
 
 It preserves the selected idempotent, the Jordan product, the trace form, and
 the idempotency-response radical, so it acts orthogonally on the normal
-quotient. [[contemporary-puzzles/yang-mills-mass-gap/oriented-descent-angle-and-emergent-symmetry|The
+quotient. [[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|The
 oriented-descent note]] proves the stabilizer statement and records the
 response operator. This is a rigorous sense in which one may ask why symmetry
 is observed rather than how a fundamental symmetry was broken.

@@ -109,7 +109,7 @@ $$
 \tag{RL4b}
 $$
 
-[[contemporary-puzzles/yang-mills-mass-gap/descent-loss-cocycle-and-recovery-fork|The descent-loss cocycle]] extends the restriction version to faithful states on Type-III algebras and identifies its Petz-recoverable zero set. This additive residue is an access-order cost, not a conserved substance or a rate. A state-preserving expectation gives a stronger Pythagorean split only after the relevant modular-invariance gate is satisfied. None of these facts supplies a physical collar or a positive lower floor.
+[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|The descent-loss cocycle]] extends the restriction version to faithful states on Type-III algebras and identifies its Petz-recoverable zero set. This additive residue is an access-order cost, not a conserved substance or a rate. A state-preserving expectation gives a stronger Pythagorean split only after the relevant modular-invariance gate is satisfied. None of these facts supplies a physical collar or a positive lower floor.
 
 Tomographic completeness must also be separated from quantitative response. Even if a selected state atlas has only scalars in the intersection of its centralizers, its joint analysis map may be injective with singular values tending to zero. The gap-bearing statement is not
 

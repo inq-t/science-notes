@@ -170,7 +170,7 @@ $$
 
 and the claimed sharp lower edge for \(I-pqp\). In a commuting square \(pq=r\), so the last assertion follows. \(\square\)
 
-This theorem differs from the even two-projection operator \(2I-p-q\) analyzed in [[subfactor-angle-coercivity-and-the-index-firewall]]. That operator has reduced edge \(1-c_F\); the palindromic Markov generator has reduced edge \(1-c_F^2\). Both have the same full-carrier kernel \(L^2(P\cap Q)\).
+This theorem differs from the even two-projection operator \(2I-p-q\) analyzed in [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall]]. That operator has reduced edge \(1-c_F\); the palindromic Markov generator has reduced edge \(1-c_F^2\). Both have the same full-carrier kernel \(L^2(P\cap Q)\).
 
 ## One expectation gaps only what it discards
 
@@ -210,7 +210,7 @@ The two-expectation construction improves the geometry of this lost sector, but 
 
 ## Fixed index does not make the edge uniform
 
-[[subfactor-angle-coercivity-and-the-index-firewall|The index firewall]] owns
+[[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall|The index firewall]] owns
 the fixed-index and relative-position audit. Its Bakshi--Guin spin-model
 family has, for nonzero \(\delta=\alpha-\beta\),
 

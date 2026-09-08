@@ -78,7 +78,7 @@ $$
 
 This is a literal measure of relative distinction remaining inside the antecedent fibres after the visible readout has been fixed. It vanishes exactly when the two hypotheses have the same conditional distribution in every \(p\)-occupied fibre. It can therefore vanish even when the fibres contain many points. Fibre multiplicity, uncertainty, and positive information loss are three different statements.
 
-Equation (PF5) is the finite commutative specialization of the relative-entropy decrement in [[cosmic-geon-hypothesis-and-horizon-rate-ledger]]. In a general von Neumann algebra, data processing still gives a nonnegative Araki relative-entropy decrement, but the explicit conditional-fibre sum requires additional commutative or sufficient-channel structure.
+Equation (PF5) is the finite commutative specialization of the relative-entropy decrement in [[cosmological-scale-selection/cosmic-geon-hypothesis-and-horizon-rate-ledger]]. In a general von Neumann algebra, data processing still gives a nonnegative Araki relative-entropy decrement, but the explicit conditional-fibre sum requires additional commutative or sufficient-channel structure.
 
 There is, however, an exact noncommutative saturation statement. Let \(r:\mathsf S_{\mathrm n}(M)\to\mathsf S_{\mathrm n}(N)\) be restriction along a normal unital inclusion, let \(\Phi_*\) be any downstream local predual channel, and suppose
 
@@ -128,7 +128,7 @@ $$
 \tag{PF6}
 $$
 
-where \(\mathcal K_O\) carries retained local distinctions and \(\mathcal K_B\) carries hidden compatible extensions. Let \(e\) be the projection onto \(\mathcal K_O\). Then \(1-e\) vanishes on every retained vector. This is the range--kernel no-go in [[causal-patch-boundary-and-two-times]] and [[cosmic-geon-hypothesis-and-horizon-rate-ledger]].
+where \(\mathcal K_O\) carries retained local distinctions and \(\mathcal K_B\) carries hidden compatible extensions. Let \(e\) be the projection onto \(\mathcal K_O\). Then \(1-e\) vanishes on every retained vector. This is the range--kernel no-go in [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]] and [[cosmological-scale-selection/cosmic-geon-hypothesis-and-horizon-rate-ledger]].
 
 Now supply a different object: a bounded positive whole-response operator
 
@@ -186,7 +186,7 @@ On \(\mathcal H_W\), the operator \(S_A\oplus0\) is the short of \(A\) to \(\mat
 
 This answers “what does the operator operate on?” It operates on \(x\in\mathcal K_O\), the retained distinction. The forgotten background enters through the minimization over \(z\in\mathcal K_B\); it is implicated without being mistaken for the operator's physical carrier.
 
-The inverse in (PF9) is only the transparent block case. [[shorted-response-filtration-and-the-leak-cocycle]] gives the intrinsic bounded theorem without assuming an invertible hidden block. For a closed retained subspace \(L\subseteq\mathcal H_W\),
+The inverse in (PF9) is only the transparent block case. [[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle]] gives the intrinsic bounded theorem without assuming an invertible hidden block. For a closed retained subspace \(L\subseteq\mathcal H_W\),
 
 $$
 S_L(A)
@@ -221,7 +221,7 @@ are immediate. Allowing the hidden background to relax can only soften a positiv
 
 This corrects the slogan “the leak is the cost of mass.” The transverse act of forgetting supplies the relation in which a local point exists, but the mass candidate is the residual tangential cost after the forgotten background has been allowed to adjust. A nonzero floor must already be enforced by the whole response, a constraint, a paired descent, a boundary Dirichlet-to-Neumann form, or another independently constructed positive structure. The shorting operation reveals that residual; it does not create it by notation.
 
-The existing [[descent-loss-cocycle-and-recovery-fork|output-transgression theorem]] makes the warning sharper. If \(A\) is taken to be only the loss Hessian of one state-preserving expectation with its adapted BKM geometries, the retained minimum-lift transgression is identically zero. A nonzero shorted response must therefore come from a non-adapted metric comparison, a jointly transverse family, or an independent whole/boundary response—not from relabeling the canonical vertical loss.
+The existing [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|output-transgression theorem]] makes the warning sharper. If \(A\) is taken to be only the loss Hessian of one state-preserving expectation with its adapted BKM geometries, the retained minimum-lift transgression is identically zero. A nonzero shorted response must therefore come from a non-adapted metric comparison, a jointly transverse family, or an independent whole/boundary response—not from relabeling the canonical vertical loss.
 
 There is nevertheless no requirement that the whole operator have a global gap. For each prescribed \(\kappa>0\), shorting gives
 
@@ -302,4 +302,4 @@ A physical realization must still:
 6. reconstruct locality, a positive-energy Poincare representation, and the invariant Casimir; and
 7. obtain the clock/action/length normalization without fitting the desired mass.
 
-[[contemporary-puzzles/yang-mills-mass-gap/receipts/pointed-background-short-receipt.py|The finite receipt]] and [[contemporary-puzzles/yang-mills-mass-gap/receipts/pointed-background-short-receipt-output.txt|its stored output]] verify (PF4), (PF8)--(PF11), and the fact that the raw forgetting projection vanishes on the retained carrier. They do not verify any Type-III, continuum, fact-selection, or mass-gap claim.
+[[trace-dirichlet-descent/receipts/pointed-background-short-receipt.py|The finite receipt]] and [[trace-dirichlet-descent/receipts/pointed-background-short-receipt-output.txt|its stored output]] verify (PF4), (PF8)--(PF11), and the fact that the raw forgetting projection vanishes on the retained carrier. They do not verify any Type-III, continuum, fact-selection, or mass-gap claim.

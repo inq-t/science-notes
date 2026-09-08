@@ -507,7 +507,7 @@ stored output]] records the result.
 [[hessian-response-geometry/inq|Hessian Response Geometry]] owns the general
 metric-and-Hessian grammar. [[measured-response-carriers/inq|Measured
 Response Carriers]] separates GNS, BKM, and score tangents.
-[[contemporary-puzzles/yang-mills-mass-gap/shorted-response-filtration-and-the-leak-cocycle|Shorted
+[[trace-dirichlet-descent/shorted-response-filtration-and-the-leak-cocycle|Shorted
 Response Filtration]] supplies the general elimination logic, while
-[[contemporary-puzzles/yang-mills-mass-gap/physical-distinction-coercivity|Physical
+[[physical-response-coercivity/physical-distinction-coercivity|Physical
 Distinction Coercivity]] owns the final carrier and energy firewall.

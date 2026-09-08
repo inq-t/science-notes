@@ -2,7 +2,7 @@
 
 The actual \(SU(2)\) Wilson transfer cost obeys a sharp fusion-growth law even though it is not a quadratic Casimir. Its Bessel ratios are a positive mixture of heat weights, whose negative logarithm is an increasing concave function of the Casimir. Composing genuine Wilson steps then gives an explicit bridge envelope uniform in coupling and independent product size at a fixed positive blocked depth. The remaining obstruction is the interacting vacuum, not the absence of a pure-kernel fusion bound.
 
-**Status: [EXACT] for normalized \(SU(2)\) Wilson convolution, independent products, the declared gauge quotient and temporal blocking; [OPEN] for interacting four-dimensional Yang--Mills and its simultaneous continuum and infinite-volume limits.** The [[contemporary-puzzles/yang-mills-mass-gap/finite-spacing-transfer-and-bounded-flux-solder|bounded-flux audit]] owns the Wilson character calculation, high-spin no-go and pure transfer edge. [[volume-uniform-fusion-envelopes|The general envelope theorem]] owns the passage from fusion cost to complete two-ended prediction.
+**Status: [EXACT] for normalized \(SU(2)\) Wilson convolution, independent products, the declared gauge quotient and temporal blocking; [OPEN] for interacting four-dimensional Yang--Mills and its simultaneous continuum and infinite-volume limits.** The [[strong-coupling-gap-and-continuum-crossover/finite-spacing-transfer-and-bounded-flux-solder|bounded-flux audit]] owns the Wilson character calculation, high-spin no-go and pure transfer edge. [[volume-uniform-fusion-envelopes|The general envelope theorem]] owns the passage from fusion cost to complete two-ended prediction.
 
 ## The positive measure behind the Wilson cost
 
