@@ -178,6 +178,8 @@ These tests apply to the full retained algebra and its state, not only its posit
 
 A useful next proposal must therefore state a comparison or composition law before calculating its return, then test an actual mixed response across contexts. Finer calculations of a supplied Wilson system are benchmarks for that proposal, not a derivation of its primitives. The [[contemporary-puzzles/yang-mills-mass-gap/research-history|dated research record]] preserves the sequence of completed tests and superseded next steps; it is not part of the axiom list.
 
+[[general-causal-action/sewn-overlap-and-conditional-clock|The sewn-overlap construction]] supplies one exact member with a declared conditional-processing law. Its joint correlation and paired response rates cannot be retuned independently, while allowing an additional whole-state update changes the clock without changing the state. This identifies the selecting hypothesis precisely. Its bounded clock and gap collapse under binary sharpening prevent treating it as a Yang–Mills return. The next construction must control refinement of the full joint carrier and its clock; [[coarse-response-memory/correlated-interface-tangent|the two-channel interface tangent]] supplies an independently certified finite target for any claimed Yang–Mills recovery.
+
 ## How the programme learns
 
 Treat the workspace as a working mathematical dependency graph. Improve existing definitions and proofs before adding new terminology; lift genuinely shared results into reusable modules; preserve raw chats, attachments and superseded derivations as immutable evidence. Keep the present schema as the ordered proposal, with proofs owned by the linked specialist notes.

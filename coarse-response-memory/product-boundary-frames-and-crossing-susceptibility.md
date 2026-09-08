@@ -214,3 +214,9 @@ reproduce (PS7). A shared boundary law must constrain
 the complete response channels, not merely the marginal states
 and one measured alignment. This is the constructive
 whole-to-local obligation exposed here.
+
+[[correlated-interface-tangent|The correlated interface calculation]]
+now computes that complete first tangent through two coupled radial
+channels. Its angular component is nonzero for every positive internal
+coupling. The three external links give a full-residual error bound,
+including an exact-arithmetic enclosure at one declared coupling.
