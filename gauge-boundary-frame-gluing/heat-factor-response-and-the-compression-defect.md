@@ -336,6 +336,16 @@ Cutting the first two pieces before attaching the third gives the last frame \(a
 
 The full cut is an invertible change of path presentation. The two-source readout \(\pi(U,V)=UV^{-1}\) is a different, many-to-one map. Exact cut gluing therefore does not imply that the source OU clock descends through \(\pi\).
 
+[[source-action-transport-through-ordered-cuts|The retained-source cut]]
+now lifts this comparison to the actual paired paths and their
+transformation family. It preserves interacting likelihoods and
+responses when those actions are transported, but not when new
+independent actions are assigned after cutting. Its
+[[gauge-cycle-innovation-filtration/loop-coordinates-and-the-induced-clock#The ordered response is a reduced chain geometry|paired-edge-chain realization]]
+also identifies the unweighted ordered rows with a complete finite
+graph response. The ordering retains incidence information lost by
+the bare loop state; this is not an intrinsic time-arrow theorem.
+
 ## An output character has a non-output source-chaos component
 
 Now specialize to \(G=SU(2)\), \(Q=-2\operatorname{Tr}\),
@@ -476,6 +486,16 @@ H_\alpha\text{ or }H_{\alpha,\max}.
 \tag{HF27}
 \]
 This conclusion does not identify their domains. Nor does (HF25) eliminate smooth holonomy cylinders: such a cylinder generally has infinitely many source-chaos components. An arbitrary infinite expansion has no highest degree, so the induction does not apply. The explicit character in (HF19) illustrates precisely why taking one of its source-chaos components need not preserve its status as an output observable.
+
+[[haar-vertex-source-and-joint-gauge-response|The Haar-vertex graph source]]
+now extends the retained-factor prescription to an arbitrary finite
+graph with one endpoint per edge. Cost-free vertex frames return
+Gauss invariance, and the same edge source fixes both the
+gauge-averaged heat state and the shared response. Its rebuilt
+endpoint clocks respect ordinary edge subdivision and have a
+uniform auxiliary lower bound; the source OU still does not descend.
+This is not a general multitime spatial-net construction or a
+Yang--Mills state identification.
 
 ## What the source construction selects
 

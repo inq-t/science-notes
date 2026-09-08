@@ -1,6 +1,6 @@
 # Loop Coordinates and the Induced Clock
 
-Closing gauge paths supplies physical coordinates, not an independent clock for each coordinate. On the theta graph, two fundamental loops share one edge, and the response of that edge becomes a mixed derivative between their holonomies. Keeping this term makes changes of spanning tree exactly covariant; dropping it changes observable decay rates. The construction gives a positive clock on the complete finite physical carrier, while exposing the graph and response weights that still have to be selected by a deeper theory.
+Closing gauge paths supplies physical coordinates, not an independent clock for each coordinate. On the theta graph, two fundamental loops share one edge, and the response of that edge becomes a mixed derivative between their holonomies. On a chain of paired edges, the same reduction produces the ordered response of the retained heat-path construction: the loop state forgets connections that its response retains. Keeping these induced terms makes changes of spanning tree covariant; dropping them changes the dynamics. These finite constructions expose the graph and response weights that still have to be selected by a deeper theory.
 
 **Status: [EXACT FINITE CONSTRUCTION] for the induced response, heat evolution, tree covariance and Haar spectrum; [OPEN] for selection of an interacting vacuum and a compatible four-dimensional continuum law.**
 
@@ -147,11 +147,30 @@ Preserving an algebra and its state is not enough to preserve its clock.
 Covariance means transforming the response tensor, not demanding the
 same diagonal coefficients in every presentation.
 
+The stronger
+[[gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action|joint path-law test]]
+also constrains which coordinate actions are admissible before
+forming a response. For actual shared-reference heat paths,
+deterministic two-sided loop shifts require a common right
+control. Equation (LC7) permutes that control into the new reference
+position, preserving the admissible family. An independent right
+shift of one loop changes the relative loop's quadratic variation
+and makes the joint laws singular. Finite endpoint densities
+alone cannot detect this complete-path obstruction.
+
 [[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|The adjacent-square specialization]]
 also computes what happens when relative-loop information is forgotten:
 the two separate character readouts are autonomous, but their joint
 readout has an exact two-rate compression defect. Restoring the third
 trace completes the isolated \(SU(2)\) pair's invariant carrier.
+
+This completion does not generalize by keeping only more pairings.
+[[algebra/oriented-gram-descent-and-invariant-coverage|Oriented Gram descent]]
+shows that three based loops also carry an alternating invariant.
+Their complete pairwise-trace algebra has autonomous electric evolution
+but omits an entire physical orientation sector. The shared edge law
+fixes that sector's exact lowest energy and determinant-weighted
+coefficient carrier; a separately fitted odd clock is unnecessary.
 
 ## The full spectral edge and its refinement obligation
 
@@ -178,6 +197,125 @@ same-clock subdivision. The mixed coefficient in (LC5) then retains
 the total response of the shared path. Adding new cycles is a separate
 operation: it can introduce new low-energy states even while every
 old loop and its clock are exactly preserved.
+
+## The ordered response is a reduced chain geometry
+
+Take vertices \(v_0,\ldots,v_n\), with two parallel oriented edges
+\(U_j,V_j:v_{j-1}\to v_j\) at each step. Fix \(t_j>0\),
+\(0<\alpha<1\), and \(\beta=1-\alpha\). Start with independent
+central heat laws \(p_{\alpha t_j}(U_j)p_{\beta t_j}(V_j)\) and
+Haar-average the vertex action
+\[
+(U_j,V_j)\longmapsto
+g_{j-1}(U_j,V_j)g_j^{-1}.
+\tag{LC11}
+\]
+This is a specialization of
+[[gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response|the joint graph source]]:
+give the two raw edges heat lengths \(\alpha t_j,\beta t_j\).
+Its edge-factor splits are auxiliary and disappear from the
+unweighted endpoint response. The raw differential form is
+\[
+\Gamma_{\rm raw}(f)
+=2\sum_jt_j\left(\alpha|\nabla_{U_j}f|_Q^2
+                       +\beta|\nabla_{V_j}f|_Q^2\right).
+\tag{LC12}
+\]
+It is integrated against the gauge-averaged heat state, not Haar.
+Its generator is therefore weighted divergence, not the bare
+Casimir sum used in (LC1).
+
+Choose the \(V\)-edges as a tree and write
+\[
+P_{j-1}=V_1\cdots V_{j-1},\qquad
+Z_j=P_{j-1}U_jV_j^{-1}P_{j-1}^{-1}.
+\tag{LC13}
+\]
+The gauge choice \(g_j=P_j\), \(g_0=1\), sets every tree edge to
+one. Its remaining root action conjugates all \(Z_j\) together.
+This proves that the complete invariant algebra consists of all
+simultaneous-conjugation-invariant functions of the \(Z_j\), not
+only their individual characters or pairwise traces.
+
+Conditioned on the preceding raw edge pairs, \(Z_j\) is the
+conjugate of a fresh central heat variable of length \(t_j\).
+Its conditional law is \(p_{t_j}\), independent of that past.
+Induction proves the full product state
+\[
+\mathcal H_{\rm ch}
+\cong L^2\left(G^n,\prod_jp_{t_j}(Z_j)\,dZ_j\right)^{\operatorname{Ad}G}.
+\tag{LC14}
+\]
+Gauge averaging does not change expectations of invariant
+functions. No assertion of independent tree coordinates is needed.
+
+Let \(L_jF,R_jF\) be the Lie-algebra-valued left and right
+gradients in the \(j\)-th loop. A left \(U_j\) variation moves
+only \(Z_j\) on its left. A left \(V_j\) variation moves \(Z_j\)
+on its inverse right and conjugates every later \(Z_i\).
+Both derivatives use the same adjoint frame \(P_{j-1}\).
+Bi-invariance removes that frame from their pairings, giving
+\[
+\boxed{
+\Gamma_{\rm ch}(F)
+=2\sum_jt_j\left[
+\alpha|L_jF|_Q^2+
+\beta\left|R_jF+\sum_{i>j}(R_i-L_i)F\right|_Q^2
+\right].
+}
+\tag{LC15}
+\]
+Polarization proves the identity on all mixed responses too.
+This is exactly the finite-increment response of
+[[gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect#Full ordered cuts retain the boundary charge|the ordered heat-path construction]].
+Indeed its cumulative readouts are
+\(X_j=Z_1\cdots Z_j=(U_1\cdots U_j)(V_1\cdots V_j)^{-1}\).
+
+On the compact smooth product \(G^n\), the first term in (LC15)
+is uniformly elliptic and the state in (LC14) is smooth and
+strictly positive. Closing invariant smooth functions gives the
+inherited invariant \(H^1\) form domain and \(H^2\) operator
+domain. Thus the equality is of complete finite forms and their
+associated weighted generators, not only a selected scalar probe.
+These are domains on the smooth covering product, not a claim
+about naive coordinates on its singular orbit space.
+
+## Loop placement is not a disposable ordering convention
+
+For three loops \(A,B,C\), \(F=q(AC)\), \(G=SU(2)\), and
+\(Q=-2\operatorname{Tr}\), compare placements \(ABC\) and \(ACB\),
+transporting each labelled heat length with its loop. Equation
+(LC15) gives
+\[
+\Gamma_{ABC}(F)-\Gamma_{ACB}(F)
+=2\beta t_B|(R_C-L_C)F|^2
+=2\beta t_B|v_A\times v_C|^2.
+\tag{LC16}
+\]
+Here \(A=(q_A,v_A)\), \(C=(q_C,v_C)\) are unit quaternions.
+Independent heat moments
+\(\mathbb E vv^T=(1-e^{-2t})I_3/4\) imply
+\[
+\mathcal E_{ABC}(F)-\mathcal E_{ACB}(F)
+=\frac{3\beta t_B}{4}(1-e^{-2t_A})(1-e^{-2t_C})>0.
+\tag{LC17}
+\]
+The complete loop state is unchanged by this comparison, but the
+two occurrences of \(F\) join nonadjacent versus adjacent loop
+placements on the chain. It is not a coordinate change on one
+fixed metrized graph. Collapsing the chain to a bare bouquet
+forgets precisely the connecting-edge response visible in (LC16).
+Changing the spanning tree of the *same* graph instead transports
+the complete form, as in (LC7)--(LC8).
+
+This gives a parent geometry for the ordered law, not an intrinsic
+arrow of time or a derivation of that geometry. Chain incidence,
+the metric, heat lengths and the source prescription remain inputs.
+Moreover, equality of these unweighted forms does not identify
+interacting source experiments:
+[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts#Independent edge actions fail after a tilt|the tilted two-bigon test]]
+exhibits a strict mismatch when edge actions are independently
+reset instead of transporting the whole source action.
 
 The construction therefore does not select a mass by loop topology
 alone. It selects a covariant response **given** the edge law, and

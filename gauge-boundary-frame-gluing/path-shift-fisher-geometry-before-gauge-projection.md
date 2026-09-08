@@ -289,6 +289,24 @@ retain the action as part of the object and transport it when the
 presentation is inverted. Entropy supplies its metric; it does not
 silently supply the action, a chirality of nature, or physical time.
 
+This single-path ambiguity does not make every collection of
+regional shifts jointly admissible.
+[[joint-path-law-and-the-shared-boundary-action|The theta-path classification]]
+proves a restriction from an actual joint law: two loops sharing
+a reference permit deterministic two-sided transformations only
+with a common right boundary control. Otherwise their joint laws
+are mutually singular, even though each loop marginal permits
+its own shift. No finite likelihood score then exists to dualize.
+This selects compatibility within that action ansatz, not a
+preferred handed presentation for an isolated path or an
+interaction potential.
+
+[[algebra/oriented-gram-descent-and-invariant-coverage|Oriented Gram descent]]
+identifies a second role for the determinant in (PF13): single and
+pairwise traces can forget it while retaining an autonomous clock.
+The distinction belongs to the invariant multiplication, not just to
+a handed choice of response coordinates.
+
 [[two-sided-fisher-completion-and-the-neutral-carrier|Joint two-sided
 Fisher geometry]] uses the actual cross-score covariance rather than
 averaging the two response forms. Its finite cylinder domain is exactly

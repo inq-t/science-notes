@@ -291,9 +291,254 @@ def box_incidence_checks():
         print(f"PASS open 3D box: {len(plaquettes)} oriented plaquettes, {len(neighbors)} bulk neighbors, 66 private-edge parity witnesses, coefficient {coefficient:g}")
 
 
+def orientation_carrier_checks():
+    """Three loops: pairwise closure is exact but misses an odd physical mode.
+
+    Pairwise traces determine the O(3) Gram orbit, whereas physical gauge
+    conjugation acts by SO(3). Simultaneous inversion supplies the missing
+    reflection. The analytic reducing-subspace proof uses equality of
+    common left/right Casimirs on simultaneous-conjugation invariants;
+    the derivative tests below check that identity on actual readouts.
+    """
+    triples = np.array(list(itertools.product(HAAR, repeat=3)))
+    vectors = triples[..., 1:]
+    tau = np.einsum("ni,ni->n", vectors[:, 0], np.cross(vectors[:, 1], vectors[:, 2]))
+    close(np.mean(tau), 0)
+    close(np.mean(tau ** 2), 3 / 32)
+    reflected = inverse(triples)
+    reflected_tau = np.linalg.det(reflected[..., 1:])
+    close(reflected_tau, -tau)
+    for i, j in itertools.combinations(range(3), 2):
+        pair = 2 * multiply(triples[:, i], inverse(triples[:, j]))[:, 0]
+        reflected_pair = 2 * multiply(reflected[:, i], inverse(reflected[:, j]))[:, 0]
+        close(pair, reflected_pair)
+        close(np.mean(tau * pair), 0)
+        close(np.mean(tau * pair ** 2), 0)
+    close(triples[..., 0], reflected[..., 0])
+
+    def quaternion(u):
+        return np.array([np.trace(u).real / 2] + [-np.trace(t @ u).real for t in TA])
+
+    def readouts(links):
+        q = np.array([quaternion(u) for u in links])
+        x = multiply(q[1:], inverse(q[0]))
+        orientation = float(np.linalg.det(x[:, 1:]))
+        close(orientation, np.linalg.det(q))
+        singles = 2 * x[:, 0]
+        pair01 = 2 * multiply(x[0], inverse(x[1]))[0]
+        pair12 = 2 * multiply(x[1], inverse(x[2]))[0]
+        even = singles.prod() + .3 * pair01 * pair12
+        odd = orientation * (1 + .2 * singles[0])
+        return np.array([orientation, even, odd])
+
+    samples = (
+        np.eye(4),
+        np.array([[.5, .5, .5, .5], [.8, .6, 0, 0],
+                  [.6, 0, .8, 0], [.6, 0, 0, .8]]),
+    )
+    alpha = np.array([.7, 1.1, 1.4, .9])
+    step = 2e-4
+
+    def physical_derivatives(links):
+        values = readouts(links)
+        edge_laplacians = np.zeros((4, len(values)))
+        for edge in range(4):
+            for axis in range(3):
+                turn = math.cos(step / 2) * np.eye(2) + 2 * math.sin(step / 2) * TA[axis]
+                plus, minus = list(links), list(links)
+                plus[edge], minus[edge] = turn @ links[edge], turn.conj().T @ links[edge]
+                edge_laplacians[edge] += (readouts(plus) - 2 * values + readouts(minus)) / step ** 2
+        close(edge_laplacians[:, 0], np.full(4, -.75 * values[0]), atol=2e-7)
+        return -(alpha @ edge_laplacians)
+
+    for q in samples:
+        links = [matrix(value) for value in q]
+        values = readouts(links)
+        physical = physical_derivatives(links)
+        close(physical[0], .75 * alpha.sum() * values[0], atol=7e-7)
+        # OG15: the determinant ground transform returns drift five,
+        # not the drift three of a bare quaternion Gram coordinate.
+        odd_edge = .75 * alpha.sum()
+        odd_pair_edge = odd_edge + 1.25 * (alpha[0] + alpha[1])
+        close(physical[2], odd_edge * values[0]
+              + .4 * odd_pair_edge * values[0] * (q[0] @ q[1]), atol=2e-6)
+        # Gauge to a=1, then reflect the three actual loop holonomies.
+        x = multiply(q[1:], inverse(q[0]))
+        direct_links = [np.eye(2)] + [matrix(value) for value in x]
+        inverse_links = [np.eye(2)] + [matrix(value) for value in inverse(x)]
+        direct_values, inverse_values = readouts(direct_links), readouts(inverse_links)
+        parity = np.array([-1, 1, -1])
+        close(inverse_values, parity * direct_values)
+        close(physical_derivatives(inverse_links), parity * physical_derivatives(direct_links), atol=2e-6)
+
+        # Independent common-left/common-right Casimir check, not a
+        # replacement by independently reset loop generators.
+        common_laplacians = []
+        for handedness in ("left", "right"):
+            laplacian = np.zeros(3)
+            for axis in range(3):
+                turn = math.cos(step / 2) * np.eye(2) + 2 * math.sin(step / 2) * TA[axis]
+                if handedness == "left":
+                    plus = [np.eye(2)] + [turn @ u for u in direct_links[1:]]
+                    minus = [np.eye(2)] + [turn.conj().T @ u for u in direct_links[1:]]
+                else:
+                    plus = [np.eye(2)] + [u @ turn for u in direct_links[1:]]
+                    minus = [np.eye(2)] + [u @ turn.conj().T for u in direct_links[1:]]
+                laplacian += (readouts(plus) - 2 * direct_values + readouts(minus)) / step ** 2
+            common_laplacians.append(laplacian)
+        close(common_laplacians[0], common_laplacians[1], atol=8e-7)
+    print("PASS three-loop orientation: pairwise traces forget tau, ||tau||^2=3/32, four-link energy=(3/4)*sum(alpha)")
+    print("PASS actual four-link derivatives and common left/right Casimirs: pairwise parity closure does not cover the odd physical carrier")
+    print("PASS determinant-weighted linear Gram mode: inherited coefficient drift is five")
+
+
+def context_gluing_checks():
+    """Complete local invariant data can still omit a relative boundary frame.
+
+    Three independent shared quaternions fix the frame after orientation
+    is retained. Two shared quaternions leave an SO(2) gluing fibre.
+    Rank-deficient cubature nodes are never discarded: the residual
+    polynomial moment identities extend to those nodes continuously.
+    """
+    alpha0 = 1.7
+
+    def pair_gradient(links, i, j):
+        gradient = np.zeros((len(links), 3))
+        product = links[i] @ links[j].conj().T
+        for axis, t in enumerate(TA):
+            gradient[i, axis] = .5 * np.trace(t @ product).real
+            gradient[j, axis] = -.5 * np.trace(product @ t).real
+        return gradient
+
+    def qfrom(u):
+        return np.array([np.trace(u).real / 2] + [-np.trace(t @ u).real for t in TA])
+
+    sample = np.array([[.5, .5, .5, .5], [.8, .6, 0, 0],
+                       [.6, 0, .8, 0], [.6, 0, 0, .8],
+                       [0, .6, 0, .8], [.5, -.5, .5, -.5]])
+    links = [matrix(q) for q in sample]
+    gf, gg = pair_gradient(links, 0, 2), pair_gradient(links, 0, 4)
+    actual_gamma = alpha0 * float(gf[0] @ gg[0])
+    expected_gamma = alpha0 / 4 * (sample[2] @ sample[4]
+                                    - (sample[0] @ sample[2]) * (sample[0] @ sample[4]))
+    close(actual_gamma, expected_gamma)
+    step = 2e-4
+    for target, gradient in ((2, gf), (4, gg)):
+        for edge in (0, target):
+            for axis, t in enumerate(TA):
+                turn = math.cos(step / 2) * np.eye(2) + 2 * math.sin(step / 2) * t
+                plus, minus = list(links), list(links)
+                plus[edge], minus[edge] = turn @ links[edge], turn.conj().T @ links[edge]
+                fp = .5 * np.trace(plus[0] @ plus[target].conj().T).real
+                fm = .5 * np.trace(minus[0] @ minus[target].conj().T).real
+                close((fp - fm) / (2 * step), gradient[edge, axis], rtol=4e-9, atol=2e-12)
+
+    # Ordered determinant replacement is checked from actual Pauli tangents.
+    invariant = (0, 1, 2, 3)
+    tau = float(np.linalg.det(sample[list(invariant)]))
+    for a in invariant:
+        j = 4
+        determinant_gradient = np.zeros(3)
+        for axis, t in enumerate(TA):
+            differentiated = sample[list(invariant)].copy()
+            differentiated[invariant.index(a)] = qfrom(t @ links[a])
+            determinant_gradient[axis] = np.linalg.det(differentiated)
+        replaced = sample[list(invariant)].copy()
+        replaced[invariant.index(a)] = sample[j]
+        actual = alpha0 * determinant_gradient @ pair_gradient(links, a, j)[a]
+        expected = alpha0 / 4 * (np.linalg.det(replaced) - tau * (sample[a] @ sample[j]))
+        close(actual, expected)
+
+    def adjugate3(a):
+        return np.array([[(-1) ** (i + j) * np.linalg.det(np.delete(np.delete(a, j, 0), i, 1))
+                          for j in range(3)] for i in range(3)])
+
+    def gluing_identity(shared, u3, u4):
+        a = shared @ shared.T
+        b3, b4 = shared @ u3, shared @ u4
+        tau3 = np.linalg.det(np.vstack((shared, u3)))
+        tau4 = np.linalg.det(np.vstack((shared, u4)))
+        determinant = np.linalg.det(a)
+        adjugate = adjugate3(a)
+        close(a @ adjugate, determinant * np.eye(3))
+        close(determinant * (u3 @ u4), b3 @ adjugate @ b4 + tau3 * tau4)
+        if determinant > 1e-7:
+            rebuilt = b3 @ np.linalg.solve(a, b4) + tau3 * tau4 / determinant
+            close(rebuilt, u3 @ u4, rtol=3e-10, atol=3e-10)
+        return determinant, tau3, tau4
+
+    gluing_identity(sample[:3], sample[3], sample[4])
+    e = np.eye(4)
+    previous = math.inf
+    for epsilon in (.5, .2, .05, .01, .002):
+        shared = np.array([e[0], e[1], math.sqrt(1 - epsilon ** 2) * e[0] + epsilon * e[2]])
+        for sign in (1, -1):
+            determinant, tau3, tau4 = gluing_identity(shared, e[3], sign * e[3])
+            close([determinant, tau3, tau4], [epsilon ** 2, epsilon, sign * epsilon])
+            actual = alpha0 * (pair_gradient([matrix(q) for q in (*shared, e[3], sign * e[3])], 0, 3)[0]
+                               @ pair_gradient([matrix(q) for q in (*shared, e[3], sign * e[3])], 0, 4)[0])
+            close(actual, sign * alpha0 / 4)
+        # The only differing local oriented invariant is tau4: its
+        # difference vanishes, while cross pairing and response do not.
+        assert 2 * epsilon < previous
+        previous = 2 * epsilon
+    gluing_identity(np.array([e[0], e[1], e[0]]), e[2], e[3])
+    print("PASS rank-three oriented gluing identity, polynomial rank-wall extension, and nonuniform epsilon reconstruction")
+
+    # Both four-link contexts have full rank; the shared pair has rank two.
+    for order in (16, 32, 64):
+        theta = 2 * np.pi * np.arange(order) / order
+        responses = []
+        for angle in theta:
+            right4 = math.cos(angle) * e[2] + math.sin(angle) * e[3]
+            right5 = -math.sin(angle) * e[2] + math.cos(angle) * e[3]
+            q = np.array([e[0], e[1], e[2], e[3], right4, right5])
+            for indices in ((0, 1, 2, 3), (0, 1, 4, 5)):
+                context = q[list(indices)]
+                close(context @ context.T, np.eye(4))
+                close(np.linalg.det(context), 1)
+            links = [matrix(value) for value in q]
+            response = alpha0 * pair_gradient(links, 0, 2)[0] @ pair_gradient(links, 0, 4)[0]
+            close(response, alpha0 * math.cos(angle) / 4)
+            responses.append(response)
+        close(np.mean(responses), 0)
+        close(np.var(responses), alpha0 ** 2 / 32)
+
+    # Rotational invariance fixes the shared span, not a conditionally
+    # sampled pair of possibly degenerate cubature vectors. The actual
+    # six-link Haar integral of residual moments is independent of its
+    # Gram angle. All u2/u4 cubature nodes, including rank walls, remain.
+    matrices2 = np.array([matrix(q) for q in HAAR])
+    derivatives2 = .5 * np.einsum("aij,nji->na", np.array(TA), matrices2.conj().transpose(0, 2, 1)).real
+    final_variance = None
+    for order in (16, 32, 64):
+        theta = 2 * np.pi * np.arange(order) / order
+        rotated = np.repeat(HAAR[:, None, :], order, axis=1)
+        rotated[..., 2] = HAAR[:, 2, None] * np.cos(theta) - HAAR[:, 3, None] * np.sin(theta)
+        rotated[..., 3] = HAAR[:, 2, None] * np.sin(theta) + HAAR[:, 3, None] * np.cos(theta)
+        matrices4 = np.array([[matrix(q) for q in row] for row in rotated])
+        derivatives4 = .5 * np.einsum("aij,ntji->nta", np.array(TA), matrices4.conj().transpose(0, 1, 3, 2)).real
+        responses = alpha0 * np.einsum("ia,jta->ijt", derivatives2, derivatives4)
+        means = responses.mean(axis=2)
+        conditional_variance = np.mean((responses - means[..., None]) ** 2, axis=2)
+        residual_norms = np.sum(HAAR[:, 2:] ** 2, axis=1)
+        close(conditional_variance, alpha0 ** 2 / 32 * residual_norms[:, None] * residual_norms[None, :])
+        final_variance = float(HW @ conditional_variance @ HW)
+        close(final_variance, alpha0 ** 2 / 128)
+    norm_fg = float(HW @ ((HAAR[:, 0, None] * HAAR[None, :, 0]) ** 2) @ HW)
+    close(norm_fg, 1 / 16)
+    hidden_h_fg = 4 * final_variance
+    close(hidden_h_fg, alpha0 ** 2 / 32)
+    close(hidden_h_fg / norm_fg, alpha0 ** 2 / 2)
+    print("PASS actual pair/determinant Pauli response identities and complete-local-context SO(2) gluing freedom")
+    print("PASS independent angle/Haar moments: hidden Gamma norm^2=alpha0^2/128, hidden H(FG) norm^2=alpha0^2/32, normalized 4FG defect=alpha0^2/2")
+
+
 if __name__ == "__main__":
     haar_and_link_checks()
     data = physical_pair_checks()
     wilson_convolution_checks(*data)
     box_incidence_checks()
+    orientation_carrier_checks()
+    context_gluing_checks()
     print("Finite physical-graph identities and leading magnetic perturbation checks only; no interacting continuum mass gap or finite-lambda spectral diagonalization.")

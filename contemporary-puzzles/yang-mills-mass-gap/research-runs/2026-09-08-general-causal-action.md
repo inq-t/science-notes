@@ -7,7 +7,123 @@ This run tests whether one primitive comparison/composition law can jointly cons
 - The narrow [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|Clay return contract]] remains the destination. The revised objective retains the requirement for a consequential checked construction and an explicit account of what remains.
 - At activation, the module entry had the previous turn's routing edit and the schema was untracked. These pre-existing edits are preserved.
 
-## Current branch
+## Current research cursor
+
+Updated on 2026-09-08 after the charged Wilson spectral test,
+the first-order product bound and the nonassociative-readout audit.
+This continuation makes **progress**. The fixed-system time
+certificate and small-interaction volume estimates are complete;
+do not restart those scans. The goal and Clay target are unchanged.
+
+- **Active hypothesis:** the candidate assembly datum must constrain
+  products, the positive state and kinetic response together.
+  Intrinsic spectral-window maps can avoid losses caused solely
+  by taking absolute coordinates in a degenerate eigenbasis.
+  They must still close under the nonlinear connected equation.
+- **Strongest new general estimate:**
+  [[coarse-response-memory/first-order-lift-and-spectral-product-tails|the first-order lift]]
+  factors the actual raw weighted operator as \(K=d^*d\), with
+  \(d=\sqrt\kappa\,\nabla\), on scalar functions and one-forms.
+  The self-adjoint auxiliary lift \(\mathscr D\) satisfies
+  \[
+  \|[\mathscr D,M_q]\|=\sqrt\kappa\|\nabla q\|_\infty.
+  \]
+  Its complete quadratic spectral row and separate operator
+  theorem give
+  \[
+  \sum_k(\sqrt{\epsilon_k}-\sqrt{\epsilon_i})^2
+  |\langle\phi_k,q\phi_i\rangle_\nu|^2
+  \le2\kappa\|\nabla q\|_\infty^2,
+  \]
+  \[
+  \|P_{\ge(\sqrt E+R)^2}M_qP_{\le E}\|
+  \le\min(\|q\|_\infty,\sqrt{2\kappa}\|\nabla q\|_\infty/R).
+  \]
+  These bounds use the actual state and all input energies,
+  with no block-gap or score hypothesis and no degeneracy
+  factor. A fundamental Wilson word on \(r\) distinct links
+  has \(\|\nabla q\|_\infty^2\le r/2\), at every internal
+  coupling. This auxiliary lift is not a physical Dirac equation
+  or a newly selected metric or clock.
+- **Strongest new state–readout identity:**
+  [[coarse-response-memory/charged-link-probes-and-vacuum-spectral-width|the charged single-link spectral law]]
+  is scalar across all normalized spin-\(j\) matrix-entry
+  combinations, by independent endpoint gauge symmetry.
+  On the actual finite Wilson vacuum,
+  \[
+  \langle E\rangle_{e,j}=\kappa j(j+1),\qquad
+  \operatorname{Var}_{e,j}(E)
+  =\frac{4\kappa^2j(j+1)}3 I_e,\qquad
+  I_e=\int|\nabla_e\log\psi|^2\,d\nu.
+  \]
+  The variance is exactly the readout's squared hidden response.
+  Its ratio to the mean is independent of \(j\), not of the
+  supplied energy normalization. Charge fusion stays exact even
+  while the spectral energy distribution broadens. These charged
+  probes do not cover the neutral physical excitation carrier.
+- **Failed coordinate shortcut:**
+  [[coarse-response-memory/block-spectral-moments-and-connected-assembly#Squared spectral control does not choose an absolute coefficient basis|the Haar degeneracy control]]
+  constructs one real eigenbasis where every squared spectral
+  moment stays unchanged but the absolute product rows grow
+  without bound for any nondecreasing energy-only weights.
+  A fixed reweighting cannot repair that example. It does not
+  exclude adapted bases or invalidate the conditional four-moment
+  theorem. It does rule out inferring that theorem's scalar
+  absolute rows from the new Hilbert-space tail estimates.
+- **Prior analytic anchors retained:**
+  [[coarse-response-memory/interacting-reference-and-spectral-product-control|actual block re-centering]]
+  preserves the connected law and has a sufficient small-drift
+  extension. A checked weighted-circle example already ruled out
+  transplanting a hard Haar energy triangle. The
+  [[coarse-response-memory/kinetic-smoothing-and-connected-fourier-control|Haar kinetic theorem]]
+  and [[coarse-response-memory/kinetic-hessian-bootstrap-and-uniform-response|Killing-score bootstrap]]
+  remain proved in their explicit small-interaction regimes.
+  Full raw finite-block gaps exist with a deteriorating comparison
+  bound; that is not the missing product certificate.
+- **Nonassociativity clue sharpened:**
+  [[algebra/octonionic-associator-and-branch-forgetting|octonionic context comparison]]
+  distinguishes grouping from order and from irreversible
+  readout. The existing associator has an exact positive
+  comparison response, but does not select a physical scale.
+  The added Choi–Effros associativity proof shows that an
+  idempotent completely positive readout cannot supply a
+  nonassociative projected product; a faithful preserved state
+  further makes its range an ambient subalgebra. Thus a parent
+  associator must constrain genuinely different composition or
+  context data, not be renamed from the present conditional
+  expectation. This is a restriction on that candidate readout
+  class, not an axiom against a nonassociative foundation.
+- **Next concrete action:** test a basis-independent,
+  energy-band formulation of the connected product estimate.
+  Begin on one actual Wilson reference block: retain the whole
+  charged matrix windows and estimate the two-input
+  \(L_b^{-1}Q_b\Gamma_b(f,g)\), not only \(M_q f\) for a fixed
+  Wilson coefficient. Track the gradient cost of the second
+  input and the summation over energy windows; test the proposed
+  norm on concentrated high-energy inputs before tensorizing.
+  A successful estimate must close on the generated unknowns
+  and avoid a factor accumulating per block. Do not convert
+  quadratic rows into absolute sums without their channel cost.
+- **Clay distance and primitive test:** the first-order bound also
+  holds for a gapless free operator on the line. Upper tails and
+  positive variance therefore do not exclude arbitrarily soft
+  excitations. No new primitive selects the supplied state,
+  kinetic metric or Hamiltonian. There is no reconstructed
+  four-dimensional vacuum, physical translation representation,
+  ultraviolet correspondence or continuum/infinite-volume gap.
+- **Verification and hygiene:** independent actual-text audits
+  checked the first-order domains, signed spectral decomposition,
+  operator-window proof, charged spectral moments and AF20.
+  The charged link's derivative convention was made explicit.
+  The main read and ran the focused charged-probe receipt:
+  cutoff sixteen gives \(E_0\approx0.918058176624\) and
+  \(I_e\approx0.0198159912184\); all four tested spins agree
+  with the moment identities, with full four-link differential
+  errors below \(7.5\times10^{-9}\). These are finite diagnostics,
+  not interval certificates. Proofs, consumers and the current
+  checkpoint are linked; prior history and unrelated edits remain.
+
+## Earlier projection-cycle branch
 
 The first branch produced [[algebra/oriented-projection-cycles-and-joint-response|an exact graph-polygon construction]]. The ordered projections determine a returned contraction, its residue row, and a generator \(S+iH\), with a sharp polygon inequality. Two independent proof reviews found no necessary correction. The same proof establishes a simultaneous smooth-refinement escape: nontrivial phase survives while norm loss tends to zero.
 
@@ -128,7 +244,7 @@ Hessian and hidden common-direction return. The comparison uses the
 specified metric to identify tangents and covectors; neutral scalar
 first jets vanish at coincidence. It is not a global coercivity bound.
 
-## Next active obligations
+## Earlier obligations before the completed overlap tests
 
 1. Test two overlapping stars with their actual exterior joint law.
    Retain the cross-response and hidden spectral return induced by the
@@ -200,7 +316,7 @@ worktree diff check was clean. The code's opposite quaternion-vector
 sign convention is documented explicitly. No raw sources or
 historical output files were rewritten.
 
-## Resume from research, not from the goal-drafting exchange
+## Historical correction of the goal-drafting loop
 
 The user corrected a repeated return to drafting the goal. Subsequent
 updates should report mathematical changes, current limitations and
@@ -208,16 +324,16 @@ the next executable step; do not reproduce or replace the charter
 without a new explicit request. The app reported the autonomous goal
 as paused during this correction; no goal state was changed here.
 
-The next integration is now in
+The next integration at that checkpoint was in
 [[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|the existing holonomy/clock note]],
 not another programme summary. It contains the complete free
 adjacent-plaquette character calculation, its positive all-duration
 compression defect, and the exact repair by retaining the outside-loop
 trace. The theta-loop note links to that canonical proof.
 
-This sharpens the first active obligation above: the free overlap test
-is completed, and the lost relative channel is identified. Next
-integrate the interacting finite-box calculation with its actual
+This sharpened the first obligation above: the free overlap test
+was completed, and the lost relative channel was identified. The next
+step was to integrate the interacting finite-box calculation with its actual
 vacuum and stated normalization, then test whether successive
 overlaps admit controlled relational or history data. A repair that
 merely restores the entire isolated graph does not yet supply a
@@ -227,3 +343,10 @@ The existing overlapping-plaquette receipt was inspected and rerun
 successfully. Its additional magnetic-coefficient and box-incidence
 checks are not, by themselves, a written interacting proof or a
 four-dimensional mass-gap result.
+
+The authoritative current cursor is the section at the top of this
+file. The later interacting and orientation results recorded there
+supersede these historical next-action labels. At 05:20:19 UTC the
+following continuation classified the preceding goal-review turn as
+no mathematical progress and resumed the unfinished form-core and
+further-context gluing work; it did not start a new run-wide budget.

@@ -71,6 +71,16 @@ with nonvanishing spectral weight. That example needs no hidden zero
 mode at any positive parameter; resetting the compressed family to its
 first-moment semigroup loses the slow return.
 
+[[charged-link-probes-and-vacuum-spectral-width|The actual Wilson link probe]]
+gives an all-spin instance of (SR5). Its finite-dimensional entry
+space lies in the smooth operator domain. Independent endpoint
+symmetry makes its compressed spectral law scalar: the mean is
+\(\kappa j(j+1)\), while the second-moment defect is
+\(4\kappa^2j(j+1)I_e/3\), where \(I_e\) is the actual link score
+energy. The first moment stays fixed as the vacuum changes; the
+width does not. These charged readouts do not cover the neutral
+physical excitation carrier or determine a lower threshold.
+
 ## Correlation can hide a zero mode from the local form
 
 [[algebra/expected-inclusions-and-mirror-clock-consistency|The mirror-inclusion calculation]]
@@ -148,6 +158,15 @@ A single readout may instead suffice when its minimal spectral carrier
 is all of \(\mathcal H_0\). It is reducing, and its spectrum is exactly what the compressed measure can detect. Unseen reducing sectors cannot be excluded by its measurements.
 
 Individual positive thresholds are not enough: on \(\ell^2(\mathbb N)\), take \(K_0 e_n=n^{-1}e_n\) and read out each coordinate separately. Each one-dimensional readout has a positive threshold, their ranges span the whole space, and the whole infimum is still zero.
+
+[[algebra/oriented-gram-descent-and-invariant-coverage|The three-loop
+orientation test]] supplies the complementary failure: the whole
+pairwise-trace carrier is reducing, so all its time-dependent data are
+exactly autonomous, but it omits a nonzero gauge-invariant odd sector.
+Minimal spectral dilation cannot recover a sector absent from every
+input observable. In that finite electric example the missing sector
+lies above the lowest even excitation; the point is incomplete
+observable coverage, not an incorrectly estimated free gap.
 
 ## Inclusion compatibility need not be autonomous-clock compatibility
 

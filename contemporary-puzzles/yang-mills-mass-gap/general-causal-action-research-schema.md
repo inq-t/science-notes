@@ -51,6 +51,13 @@ The strategic target is a **joint realization**:
 
 This is a return signature, not a theorem about a bare category. Each candidate must expose its primitive rules and all remaining choices. If an arbitrary Hamiltonian can still be appended without changing those rules, the claimed joint selection has not occurred; this does not invalidate a separately proved construction that acknowledges the Hamiltonian as input. The [[directed-realization-and-foundational-restart|foundational restart]] supplies the existing worked examples and their unresolved dependencies.
 
+The observable entry must retain the invariant contractions of the
+declared multiplication, not just its positive metric. A realization
+can preserve every clock readout while forgetting such contractions.
+Thus temporal compatibility and algebraic coverage are separate tests
+of the same proposed object; neither can be used to define away a
+sector required by the other.
+
 ## The invariant to seek: composition with accounted loss
 
 The most concrete available template is [[algebra/moving-response-balance-and-a-ruble-operator-signature|moving response balance]]. In a finite-dimensional analytic realization, let \(V_X\) carry a positive response form \(\Gamma_X\), and let a contextual comparison have tangent map \(J:V_X\to V_Y\). When the construction proves response contractivity, define
@@ -189,15 +196,317 @@ stay fixed while the actual visible edge tends to zero with positive
 weight. The two-profile relative-loop extension preserves the failure
 after full endpoint-neutral pairing, with a fixed positive amount of
 weight in a shrinking spectral interval. Thus state-plus-response is
-not sufficient joint data for the
-actual spectral return. The next comparison should retain two
-overlapping stars and their induced mixed response or carry compatible
-spectral readouts directly; resetting an independent local clock is not
-an innocuous presentation change. Where a finite-regulator physical
-transfer is already available, use that specified transfer for the
-comparison rather than introducing another freely chosen mobility.
+not sufficient joint data for the actual spectral return. The
+[[coarse-response-memory/interacting-gauge-vacuum-and-local-memory|interacting
+vacuum calculation]] moves this test to the specified finite-box
+Hamiltonian: a conditional score variance gives the exact local memory
+coefficient. Its one-link estimates are volume-uniform upper bounds,
+not an independently supplied physical gap.
 
-Extend the strongest candidate toward a controlled infinite-dimensional carrier while testing that restriction and its uniform rigidity. The decisive controls are already available: a massless field, a massive field with known threshold, a finite-box gap that closes, and a coarse map hiding soft excitations. These test different failures; none is replaced by another finite algebraic coefficient check.
+[[algebra/oriented-gram-descent-and-invariant-coverage|Oriented Gram
+descent]] then rules out making complete spectral return the only
+repair. Three-loop pairwise traces retain a reducing electric carrier
+but erase the alternating invariant of the full gauge algebra.
+Its determinant-weighted odd carrier and its lowest electric energy
+are returned by the same supplied link law. This constrains the
+candidate primitive more sharply: preserve the invariant tensor and
+loop-word algebra through gluing, as well as its positive state and
+spectral readouts. Pairing alone can silently enlarge the quotient's
+equivalence group. The odd coefficient operator now has a polynomial
+operator and form core across its rank wall, so that domain
+construction is no longer an open prerequisite. A nonassociative
+parent would likewise need its multiplication defects represented,
+not discarded in a quadratic metric surrogate.
+
+[[gauge-boundary-frame-gluing/oriented-context-gluing-and-mixed-response|The next spatial gluing test]]
+has also been completed. Full regional invariant algebras can leave
+a relative interface rotation, with a nonzero calculated joint-clock
+defect. Conversely, closure under products and the same supplied
+shared-edge response recovers every pairing and alternating minor,
+and a core of the whole finite operator, without rank-dependent
+division. The candidate joint law must therefore constrain the
+mixed response on products across contexts, not only separate local
+clocks or lists of invariant values. The raw shared derivations and
+their weights are still inputs to this successful repair. Repeating
+its polynomial closure does not select those inputs; the next
+advance must construct or quantitatively restrict that shared law
+and its state through spatial assembly.
+
+[[gauge-boundary-frame-gluing/haar-vertex-source-and-joint-gauge-response|The Haar-vertex source]]
+now makes that joint finite selection explicit: the score radical
+returns the full Gauss carrier, and the same heat factors return the
+state and shared response. A common countable source closes its
+fixed-graph infinite-volume auxiliary form with lower bound two.
+The source still has an edge-additive heat-length loop law, not a
+constructed Yang--Mills vacuum, and its auxiliary clock is not a
+physical translation generator.
+
+[[gauge-boundary-frame-gluing/loop-correlations-and-the-source-response|The next interacting test]]
+returns more than a density perturbation. For a declared loop weight,
+the actual path-shift entropy gives the entire response through
+\(\mathsf C_\lambda=(D_0^{-1}+\lambda\mathsf H_\lambda)^{-1}\),
+where \(\mathsf H_\lambda\) is the averaged endpoint Hessian of
+that same interaction. A finite coercivity theorem and an exact
+\(SU(2)\) state-to-mobility relation follow. Arbitrary weights can
+still encode arbitrary desired positive states, so the functional
+input remains unselected.
+
+More decisively, this weighted construction fails ordinary edge
+subdivision: the two presentations have identical complete physical
+states, but their returned forms have a strictly positive calculated
+first-order mismatch. Symmetric factor choices do not remove it.
+The proposed master object must therefore constrain the correlation
+law and its source comparisons **together**. Choosing a scalar weight
+and reconstructing the clock independently in each presentation is
+not the required joint law.
+
+[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts|The completed source-transport test]]
+now separates three possibilities. Endpoint conditional transport
+changes the retained-source likelihood; transporting the entire
+source and its actions preserves the interacting response exactly;
+independently reassigning edge actions does not. Moreover,
+[[gauge-cycle-innovation-filtration/loop-coordinates-and-the-induced-clock#The ordered response is a reduced chain geometry|the ordered response has a paired-edge-chain realization]].
+What appeared to be an extra ordering choice can encode connection
+data that the loop state forgot. This is a substantive change in
+the candidate's type: incidence, readout and admissible comparisons
+belong together. It is not evidence that every ordering is
+irreversible time.
+
+The interacting obstruction survives this geometric repair.
+Its exact first-order defect is a positive sum of squared
+disagreements between transported raw-edge covectors. Carrying
+the state and the unweighted metric is therefore insufficient.
+The next selecting test is whether a source-comparison law can
+be specified intrinsically across graph assembly and restrict
+the admissible interaction, rather than being defined by
+conjugating an arbitrarily chosen whole action. Full covariance
+of a supplied law is achieved; selection of that law is not.
+
+[[gauge-boundary-frame-gluing/joint-path-law-and-the-shared-boundary-action|The theta-path admissibility theorem]]
+then removes one independent compatibility choice. Among
+deterministic two-sided transformations of two shared-reference
+loop paths, their joint law forces a common right boundary
+control. Incompatible choices change an intrinsic quadratic
+variation and yield mutually singular laws, although each
+separate loop marginal admits its transformation. The surviving
+family is covariant under changing the reference edge at a fixed
+base vertex. A joint state
+can therefore constrain the admissible comparison structure,
+not merely assign costs to an arbitrary collection of comparisons.
+
+The restriction uses the specified diffusion covariance and
+retained path carrier, not a scale-free derivation of them.
+It is also invariant under bounded positive cylinder tilts.
+Consequently this admissibility criterion cannot distinguish
+their interaction potentials. Selecting a state requires an
+additional compatibility or quantitative law sensitive to those
+correlations; repeating the same quadratic-variation obstruction
+on more small graphs will not supply it.
+
+[[gauge-boundary-frame-gluing/local-interaction-cocycle-and-global-source-response|The interacting local-likelihood construction]]
+supplies the next quantitative step. A countable conditional
+specification gives exact finite-support source likelihoods, with
+boundary interactions retained. Their entropy Hessian completes to
+one global Fisher stiffness under a uniform weighted-Hessian
+smallness bound. Its inverse is genuinely nonlocal; Schur elimination
+and buffered finite-section estimates quantify how the exterior
+changes a local observable's response. The invariant-cylinder form
+closes without a global density relative to product heat law.
+
+This ties a chosen interaction and state to a response rather than
+adding independent regional clocks. It still does not select the
+interaction or Gibbs phase, identify the auxiliary heat index with
+physical time, or prove a state-level Poincare inequality. A positive
+Fisher stiffness and its decaying inverse are not the physical
+translation spectrum.
+
+[[gauge-boundary-frame-gluing/physical-vacuum-lift-and-fisher-comparison|Preparing the actual finite-regulator vacuum]]
+now supplies a physical comparison without asserting clock identity.
+Its retained-source stiffness is \(D_0^{-1}+\mathsf I_w\), where
+\(\mathsf I_w\) is the full parameter-Fisher tensor of that vacuum.
+Gauge symmetry makes it vertex-block diagonal. One-link kinetic
+bounds yield a calibrated two-sided comparison with the physical
+electric form, uniform over finite three-dimensional boxes at
+fixed coupling ratio. An explicit invariant probe proves the
+clocks differ whenever the vacuum is nonconstant.
+
+This changes the role of the construction: it may be a comparison
+operator through which a physical lower bound can be proved,
+not the physical generator itself. The exact vacuum and electric
+calibration were supplied for this test. A positive lower bound
+on all centered observables, compatibility through spatial
+refinement, and the nontrivial continuum construction remain
+separate obligations.
+
+[[gauge-boundary-frame-gluing/prepared-vacuum-subdivision-and-the-recovered-clock|The prepared-state subdivision theorem]]
+now rules out treating that particular comparison family as
+intrinsic. Adding only redundant vertices preserves the exact
+physical vacuum and Hamiltonian, yet fresh independent source
+controls dilute the Fisher correction. Its operators converge in
+norm resolvent to the supplied physical clock. Exact naturality
+under these same subdivisions, combined with that dilution rule,
+would force the correction to vanish from the outset.
+
+The missing primitive is therefore not repaired by another
+static-density Hessian at each presentation. It must constrain
+comparison transport across interfaces, or declare additional
+data that distinguish those presentations. The result does not
+identify the defect with nonassociativity: the products in this
+test remain associative. Nor is redundant subdivision a physical
+continuum limit; it adds no independent observable cycles.
+
+[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts#Coherent spatial extension retains its reference experiment|Coherent source extension]]
+does transport the entire prepared state and response across those
+interfaces. It nevertheless preserves different starting responses
+on the same refined output law. That closes this attempted repair
+as covariance, not selection, and directs the test to genuine new
+physical channels rather than repeated subdivision.
+
+[[coarse-response-memory/two-plaquette-vacuum-and-relational-state|The interacting pair of plaquettes]]
+then gives a sharper return requirement. At every positive magnetic
+coupling its actual vacuum must depend on relative orientation,
+not just the two individual traces. The shared derivative forces
+that relational state component at second order, while sending
+a single-plaquette observable into a hidden channel at first order.
+A complete invariant basis now computes its finite-coupling vacuum
+and local memory, and an analytic finite-time return retains two
+hidden rates. A whole-to-local proposal must reproduce this
+state-and-response dependence together. These are finite-target
+constraints, not a construction of the physical Hamiltonian or
+the required continuum lower bound.
+
+[[coarse-response-memory/local-score-bounds-and-the-order-of-hidden-response|The next interface test]]
+now distinguishes two different kinds of closure. A pointwise
+ground-state score estimate controls the entire single-plaquette
+hidden drift and conditional form domain, uniformly in exterior
+volume at fixed coupling ratio. But joining two trace algebras
+produces a hidden second derivative: no finite bound by their
+first-derivative energy survives, even at the Haar vacuum.
+Thus an assembly law cannot be specified only by separate scalar
+states and their local clocks. It must retain mixed response
+coefficients, or supply a genuinely stronger memory topology.
+The domain-safe resolvent comparison needs no hidden gap, but
+degenerates at zero frequency and therefore does not derive one.
+
+[[coarse-response-memory/boundary-interaction-and-conditional-score-budget|The regional boundary budget]]
+retains the raw link and boundary-charge carrier. Its exact
+ground-state identity equates crossing interaction gain with
+energy lowering plus marginal and conditional Fisher costs.
+The conditional covariance is the squared defect between
+differentiation and forgetting. This relates state, readout and
+hidden dynamics once the finite Hamiltonian is supplied; it does
+not select that Hamiltonian. Crucially, the boundary-scaled
+integrated estimate is weaker than the required form-multiplier
+estimate. Controlling conditional concentration without importing
+a hidden gap is the next analytic obligation.
+
+[[conditional-fisher-coercivity/bounded-coupling-and-conditional-score-concentration|The next concentration test]]
+shows why that obligation needs the whole reference: an exact
+correlated vacuum can have vanishing boundary coupling in \(C^2\)
+and vanishing integrated relative cost, yet diverging conditional
+response. Its regional reference has an explicit soft mode.
+This inverse-designed control is not a Wilson counterexample,
+but it rules out a reference-free inference from a smooth
+crossing cost. Positive weighted-reference curvature would
+suffice; [[algebra/partial-bochner-and-ground-state-score#The required reference curvature can already be negative|the actual plaquette]]
+disproves taking that sufficient assumption for granted.
+The source law must constrain susceptibility of the regional
+state, not only the amount of coupling across its boundary.
+
+[[coarse-response-memory/positive-amplitude-kernel-and-preparation|The positive-kernel realization]]
+sharpens that selecting obligation. Conditioning on the same
+shared path returns a positive amplitude kernel, whose squared
+rows give the local law and whose transported derivatives give
+conditional response. Its evolution is completely positive,
+but still represents the supplied Hamiltonian. A positive-feature
+kernel with identical local marginals and exchange symmetry
+nevertheless fails the needed marginal shape condition under
+that evolution. The next primitive constraint must therefore
+govern quantitative correlations reachable from preparation,
+not merely name a positive cone or identify information loss.
+
+[[coarse-response-memory/replica-weighted-correlations-and-the-local-readout|The actual source weights]]
+are now explicit: squaring the amplitude reweights two shared
+paths by squared overlap, and a local readout reweights them
+again. The local curvature includes a positive posterior score
+variance. A componentwise harmonic bound fails on admissible
+path neighborhoods; controlling the actual mixture is essential.
+This sharpens the state-selection obligation without yet
+deriving a new dynamical primitive.
+
+[[coarse-response-memory/path-source-tilts-and-the-curvature-budget|Resolving the same path source further]]
+supplies known concave spherical components and an explicit
+posterior variance budget. It also rules out a uniform
+fractional margin: the two terms grow together with
+preparation time, while their difference stays finite.
+The lesson for primitive selection is to constrain the
+correlated cancellation, not to posit separately bounded
+loss and response terms or identify either with mass.
+
+[[coarse-response-memory/certified-ground-marginal-and-late-preparation|A certified additive estimate]]
+now controls the full compact ground marginal and an entire
+preparation trajectory at one explicit coupling. Its proof
+ties harmonic multiplication, the inherited kinetic blocks and
+conditional integration together; exact finite residuals control
+all omitted modes and entire time intervals, including the cubic
+initial cancellation. The gain is a proved constraint on an actual
+prepared state, not a new choice of dynamical primitive.
+[[coarse-response-memory/pointed-preparation-stability-and-the-volume-test|The normalization audit]]
+shows why the successful global norm cannot simply be reused
+uniformly in volume: it grows even on independent gapped copies.
+[[coarse-response-memory/connected-preparation-and-local-normalization|The connected assembly equation]]
+instead cancels independent contributions exactly.
+[[coarse-response-memory/kinetic-smoothing-and-connected-fourier-control|Its kinetic majorant]]
+now constructs the actual connected preparation in a small-source
+regime, uniformly under spatial extension. Nonabelian Casimirs
+control the derivative cost before matrix channels and supports
+are summed. The instantaneous map fails in the same norm;
+the kinetic response cannot be independently discarded.
+[[coarse-response-memory/kinetic-hessian-bootstrap-and-uniform-response|The complementary Hessian estimate]]
+then gives direct uniform conditional-response control in its
+own explicit \(SU(2)\) regime. These are constraints derived
+from the shared supplied dynamics, not selection of a new
+primitive Hamiltonian. The remaining task is a law that retains
+such control relative to interacting blocks and along the
+continuum trajectory, where the present smallness conditions
+do not apply.
+
+[[coarse-response-memory/interacting-reference-and-spectral-product-control|The first interacting-block extension]]
+preserves the exact assembly equation but exposes the additional
+compatibility needed: a block gap does not control multiplication
+of its eigenfunctions. A checked gapped reference violates the
+Haar spectral triangle. Re-centering works under a separate
+reference-drift bound; it is not an automatic escape from smallness.
+The next certificate must govern products, response and full
+boundary-charge channels together. This makes the selecting
+obligation more concrete without deriving a new primitive.
+[[coarse-response-memory/block-spectral-moments-and-connected-assembly|The replacement assembly theorem]]
+reduces this particular estimate to four one-block weighted product
+moments and explicit derivative bounds. It permits high-energy
+product channels and prevents a loss factor multiplying once per
+block. These hypotheses still require proof on the full Wilson
+blocks; their tensorization is no longer the open step.
+
+[[coarse-response-memory/first-order-lift-and-spectral-product-tails|The first-order product test]]
+then removes two unnecessary assumptions for fixed insertions:
+neither an interacting gap nor scalar eigenbasis summation is
+needed to control transfer between energy windows. The weighted
+gradient and its adjoint factor the actual kinetic operator;
+the multiplication commutator supplies an all-coupling bound.
+[[coarse-response-memory/charged-link-probes-and-vacuum-spectral-width|Its charged vacuum test]]
+also fixes spectral width from the state's link score, uniformly
+across representation labels. The foundational gain is a shared
+constraint on product, pairing and response. The factorization
+still starts from a supplied kinetic geometry; it does not select
+that geometry, produce nonassociative dynamics or close the
+nonlinear assembly merely by changing the carrier.
+
+The remaining continuum and physical-gap tests cannot be replaced by
+the fixed-graph construction. The decisive controls are already
+available: a massless field, a massive field with known threshold,
+a finite-box gap that closes, and a coarse map hiding soft excitations.
+These test different failures; none is replaced by another finite
+algebraic coefficient check.
 
 Exceptional Jordan geometry, \(S^6\), \(A_2\) singularities, global inversion obstructions and twisted spectral geometry remain candidate suppliers of the primitive rule. Each must earn its place by forcing a composition, pairing, compatibility or rigidity result. Their names, dimensions and obstruction classes are not themselves mass spectra.
 

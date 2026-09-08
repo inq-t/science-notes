@@ -92,6 +92,51 @@ The same derivative map could use the completed Peirce family. Full matrix-state
 
 ## Two comparisons, with different laws
 
+The analysis also represents a differentiation--forgetting
+defect, on the **same** supplied field law. For a raw link split
+\(A,B\), let \(P_A\) be conditional expectation, extended
+componentwise to tangent and matrix fibers. Write
+\(\mathcal A_{{\rm ctx},A}=T_A\nabla_A\), where \(T_A\) is the
+configuration-independent fiber map in (CG6), so
+\(T_A^*T_A=(9/13)I\). It commutes with conditional expectation.
+On smooth functions,
+\[
+\boxed{
+\mathcal A_{{\rm ctx},A}P_A-P_A\mathcal A_{{\rm ctx},A}
+=T_A(\nabla_AP_A-P_A\nabla_A)=T_A\mathcal C_A,\qquad
+\|T_A\mathcal C_A F\|^2=\frac9{13}\|\mathcal C_A F\|^2.
+}
+\tag{CG12}
+\]
+The norms use the actual marginal law and the same context
+measure as (CG7). Smooth positive finite-product densities make
+\(\mathcal C_A\) bounded on \(L^2\), so this defect identity
+extends from the smooth core. This extends the bounded difference,
+not its two unbounded summands separately. For the half-density
+conditional score covariance in
+[[coarse-response-memory/boundary-interaction-and-conditional-score-budget|the actual regional-vacuum construction]],
+the two positive Gramians have distinct carriers:
+\[
+(T_A\mathcal C_A)(T_A\mathcal C_A)^*=4T_AM_AT_A^*,
+\qquad
+(T_A\mathcal C_A)^*(T_A\mathcal C_A)
+=\frac9{13}\mathcal C_A^*\mathcal C_A.
+\tag{CG13}
+\]
+The first acts on the matrix-context output; the second acts
+on the scalar-function input.
+
+Thus an exceptional matrix realization of the actual defect is
+available; a multiplication-associator identification is not.
+The map \(T_A\) factors every admissible state and does not
+select \(M_A\). The coefficient \(9/13\) uses the \(SU(3),K\)
+carrier fixed in (CG5); applying it to the current \(SU(2),Q\)
+examples requires a declared normalized embedding.
+[[algebra/octonionic-associator-and-branch-forgetting|The octonionic associator]]
+would add a constraint only through a separately derived
+compatibility law, not by representing an already supplied
+response in this frame.
+
 For the finite Kogut--Susskind operator normalized with kinetic metric \(K\) and coefficient \(\kappa_W\), suppose a unique strictly positive normalized ground state \(\psi_0\) has been obtained. Put
 \(\nu=\psi_0^2\,d\mu_H\). The existing
 [[contemporary-puzzles/yang-mills-mass-gap/exceptional-wilson-same-carrier-factorization|same-carrier ground-state transform]] gives

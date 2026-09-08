@@ -381,6 +381,28 @@ tail. Spatial composition must therefore carry the actual dynamical
 readout, not just the integrated density and an independently rebuilt
 clock.
 
+[[oriented-context-gluing-and-mixed-response|Oriented context gluing]]
+makes the stabilizer in (BG18) explicit for quaternionic contexts.
+Two independent shared links leave a relative \(SO(2)\) frame even
+when both regional orbit algebras retain full orientation. The
+supplied electric response detects that frame, and closure under
+products and the shared response recovers the complete physical
+algebra and an operator core. This is a constructive coverage test,
+not a choice of the shared dynamics or a uniform gap estimate.
+
+[[haar-vertex-source-and-joint-gauge-response|The Haar-vertex source]]
+returns the required full Gauss carrier, state and mixed response
+together, under declared heat laws and source actions. One common
+countable product also closes its fixed-graph auxiliary form.
+Its heat-length loop law and non-descending source clock keep that
+construction distinct from Yang--Mills.
+[[loop-correlations-and-the-source-response|An actual loop tilt]]
+then makes the response a finite inverse Hessian fixed by the same
+weighted state. However, equivalent subdivisions return different
+interacting forms despite identical physical states. The selecting
+principle must constrain correlation and source comparison jointly;
+state gluing and finite positivity do not suffice.
+
 ## The charged innovation frame
 
 The exact finite-regulator order of operations is now

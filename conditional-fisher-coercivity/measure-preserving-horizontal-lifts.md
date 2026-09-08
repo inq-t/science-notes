@@ -143,4 +143,187 @@ If the joint construction preserves an original \(Y\)-marginal, this returns a P
 
 [[transport-cost-and-uniform-distortion|The transport-cost counterexample]] shows why a small average velocity norm cannot replace (MH11). [[rg-covariance-residue/nonlinear-gauge-fiber-transport|The nonlinear gauge construction]] supplies an actual Wilson conditional family and an explicit strong-coupling bound on \(B\). Neither statement extends those constants through the continuum trajectory.
 
+## A law-preserving lift has the marginal likelihood
+
+Let \(\phi_\epsilon\) be a smooth base diffeomorphism and let
+\[
+T_\epsilon(z,y)=(\phi_\epsilon z,\Psi_{\epsilon,z}y),
+\qquad
+(\Psi_{\epsilon,z})_*\beta_z=\beta_{\phi_\epsilon z}.
+\tag{MH14}
+\]
+The horizontal flow above supplies such a lift along a base flow.
+Disintegration, tested against an arbitrary joint function, gives
+\[
+(T_\epsilon)_*\mu(dz,dy)
+=(\phi_\epsilon)_*\nu(dz)\,\beta_z(dy).
+\]
+Consequently its actual likelihood and relative entropy are
+\[
+\boxed{
+\frac{d(T_\epsilon)_*\mu}{d\mu}(z,y)
+=\frac{d(\phi_\epsilon)_*\nu}{d\nu}(z),\qquad
+D((T_\epsilon)_*\mu\Vert\mu)
+=D((\phi_\epsilon)_*\nu\Vert\nu).
+}
+\tag{MH15}
+\]
+Thus for base velocity \(h\), the pushed-law score and its Fisher
+pairing are
+\[
+S_h=-\operatorname{div}_\nu h,\qquad
+g(h,k)=\int S_hS_k\,d\nu.
+\tag{MH16}
+\]
+These are likelihood identities, not a choice of the Riemannian
+metric in (MH6). The pointwise derivative on a joint observable
+remains \(D_hF=d_ZF[h]+d_YF[v_h]\). Its score can be basic while
+its observable derivative is not.
+
+For a different retained-source experiment with readout \(R\),
+differentiation of the marginal density instead gives
+\[
+S_{\rm marginal}=\mathbb E[S_{\rm source}\mid R],\qquad
+g_{\rm source}-g_{\rm marginal}
+=\mathbb E\operatorname{Cov}(S_{\rm source}\mid R)\ge0,
+\tag{MH17}
+\]
+as a matrix or quadratic-form identity whenever the scores are
+square-integrable. Therefore constructing (MH14) over an endpoint
+law does not preserve a pre-existing path-source Fisher pairing.
+It constructs an experiment whose likelihood contains only that
+endpoint information. The
+[[gauge-boundary-frame-gluing/source-action-transport-through-ordered-cuts|retained-source cut test]]
+gives a strict compact-group example and an alternative that
+transports the complete source.
+
+Adding a conditionally divergence-free vertical velocity preserves
+(MH15)--(MH16), but can change \(D_hF\) for nonbasic \(F\). Neither
+the state nor this Fisher pairing alone selects the full connection.
+
+## Gauge equivariance supplies a partial lift without inversion
+
+For a finite raw link split \(G^{A\sqcup B}\), use the product
+bi-invariant metric and a smooth strictly positive, vertex-gauge-
+invariant joint density \(\rho(a,b)\). This includes the actual
+finite-regulator vacuum density, not only a Wilson Gibbs law.
+Let \(\beta_a(b)=\rho(a,b)/\rho_A(a)\). For vertex parameters
+\(\xi\in\mathfrak g^V\), write the restricted gauge tangents in
+the matrix frame \(\delta a_e\,a_e^{-1}\) as
+\[
+(\mathsf G_A(a)\xi)_e=\xi_{s(e)}-\operatorname{Ad}_{a_e}\xi_{t(e)},
+\qquad
+(\mathsf G_B(b)\xi)_e=\xi_{s(e)}-\operatorname{Ad}_{b_e}\xi_{t(e)}.
+\tag{GE1}
+\]
+Gauge invariance and invariance of hidden Haar measure imply
+\[
+\beta_{g_Aa}(g_Bb)=\beta_a(b),\qquad
+d_A\log\beta_a[\mathsf G_A\xi]
+=-\mathsf G_B\xi\log\beta_a.
+\tag{GE2}
+\]
+The marginal is gauge invariant. Since a fixed-parameter
+\(\mathsf G_B\xi\) preserves Haar volume, (GE2) is precisely
+\[
+d_A\beta_a[\mathsf G_A\xi]
++\operatorname{div}_B(\beta_a\mathsf G_B\xi)=0.
+\]
+Thus \(h=\mathsf G_A\xi,\ v_h=\mathsf G_B\xi\) solves (MH3)
+along a labelled gauge motion, without a conditional Poisson
+inverse or spectral assumption.
+
+At one vertex \(v\), with \(d_v^A>0\) retained incident edges
+and no self-loops, the map from its parameter is injective:
+\[
+|\mathsf G_v^A\xi|^2=d_v^A|\xi|^2,\qquad
+|\mathsf G_v^B\xi|^2=d_v^B|\xi|^2.
+\tag{GE3}
+\]
+Its lift has norm \(\sqrt{d_v^B/d_v^A}\). Combining vertex
+directions is a different problem: their retained motions can
+cancel on shared links.
+
+In particular, \(\mathsf G_B\xi\) descends to a function of
+the tangent \(h=\mathsf G_A\xi\), preserving **every labelled
+motion**, exactly when
+\(\ker\mathsf G_A\subseteq\ker\mathsf G_B\).
+A retained stabilizer \(\zeta\in\ker\mathsf G_A\) instead
+satisfies
+\[
+\operatorname{div}_B(\beta_a\mathsf G_B\zeta)=0.
+\tag{GE4}
+\]
+It may move hidden observables while leaving their conditional
+law unchanged. The intrinsic lift is therefore specified
+modulo this vertical circulation, not necessarily as one vector
+field on the ordinary retained tangent bundle.
+
+The product metric supplies one representative on every
+constant-rank stratum:
+\[
+v_h(b)=\mathsf G_B(b)\mathsf G_A(a)^\dagger h,\qquad
+h\in\operatorname{Ran}\mathsf G_A(a).
+\tag{GE5}
+\]
+The Moore--Penrose inverse minimizes parameter norm. Its
+coefficients depend only on \(a,h\), so (GE4) makes it
+law-preserving. This is not generally minimum conditional
+transport cost. A pointwise hidden-norm minimization may use
+coefficients depending on \(b\); even if each \(Z_j\) preserves
+\(\beta_a\), the field \(\sum_jc_j(b)Z_j\) has weighted
+divergence \(\sum_jZ_jc_j\), which need not vanish.
+
+## The metric-selected gauge lift can diverge at a stabilizer
+
+This failure occurs on a fixed pair of adjacent squares.
+Retain the left square \(A\), with three links equal to \(I\)
+and its closing link \(e^{\varepsilon T_3}\), and take all
+hidden links to be \(I\). Here \(T_1,T_3\) are orthonormal
+\(SU(2)\), \(Q=-2\operatorname{Tr}\), generators. Put
+\(\xi=T_1\) at all four retained vertices and zero at the two
+remaining vertices.
+
+For small nonzero \(\varepsilon\), the retained stabilizer on
+its four vertices is the common \(T_3\) direction. The chosen
+\(\xi\) is orthogonal to that kernel and to parameters at
+vertices untouched by \(A\), so
+\[
+\mathsf G_A^\dagger\mathsf G_A\xi=\xi,\qquad
+|\mathsf G_A\xi|=2|\sin(\varepsilon/2)|,\qquad
+|\mathsf G_B\xi|=\sqrt2.
+\tag{GE6}
+\]
+The last value comes from the two hidden edges leaving the
+retained square. Therefore the representative (GE5) has norm
+at least \(\sqrt2/[2|\sin(\varepsilon/2)|]\).
+It is unbounded near the retained stabilizer wall even on
+this fixed graph. Smooth positive vacuum densities do not
+exclude its neighborhoods.
+
+This is not an obstruction to every law-preserving lift:
+(MH2) still gives a smooth bounded full-tangent lift on each
+fixed compact smooth positive family. The divergence concerns
+this metric-selected gauge representative; at the wall its
+large motion tends toward conditional-law-preserving circulation.
+It is not a divergent physical mass or a failure of the
+underlying smooth state.
+
+More fundamentally, these explicit gauge lifts cover the wrong
+directions for a direct physical gap argument. If \(F\) is
+invariant under the **whole** vertex action, then
+\[
+D_hF=(\mathsf G_A\xi+\mathsf G_B\xi)F=0,\qquad
+d_A(P_AF)[h]=0.
+\tag{GE7}
+\]
+A retained tree has no other tangent directions, but its
+gauge-invariant observable algebra is only constants. Retained
+cycles introduce genuine shape directions, which (GE2) does
+not transport. The
+[[coarse-response-memory/boundary-interaction-and-conditional-score-budget#The physical estimate sees only the shape component|quotient-horizontal response criterion]]
+identifies their exact conditional estimate. Gauge symmetry
+alone leaves every admissible joint density in play; it has
+not selected that response or its spectrum.
+
 The [[receipts/measure_preserving_lift_receipt.py|finite receipt]] checks conditional differentiation, curved transport and shear estimates on smooth circle families. It is not a simulation of continuum Yang--Mills.

@@ -23,6 +23,23 @@ Thus \(B:\mathcal H_R\to\mathcal H_H\) carries a retained variation into its hid
 
 For the theorem below assume \(A,C\ge0\) self-adjoint, \(B\) bounded, and \(D(L)=D(A)\oplus D(C)\). Every bounded nonnegative \(L\) with an orthogonal readout satisfies this setting. An unbounded field generator with a general conditional expectation need not: projection invariance of its form domain and the off-diagonal extension must be checked.
 
+[[local-score-bounds-and-the-order-of-hidden-response|The physical plaquette application]]
+now proves those form-domain controls in a different, explicitly
+unbounded setting. Its hidden coupling is bounded from the retained
+energy domain to hidden \(L^2\), giving a form-valued memory resolvent
+without assuming a hidden gap. Joining two trace readouts can raise
+the hidden differential order, so this is not a license to use the
+bounded-block theorem on arbitrary regional joins.
+
+[[boundary-interaction-and-conditional-score-budget|Retaining the full regional links]]
+instead gives a first-order hidden response. The crossing Wilson
+interaction bounds its integrated conditional score covariance,
+through an exact split into relative vacuum deformation and energy
+lowering. That boundary budget controls gradient-sup readouts;
+the available full form-domain bound still counts retained links.
+The covariance is exactly a squared differentiation–forgetting
+defect, not a multiplication associator or a positive mass floor.
+
 For a reversible Markov law \(\mu\) and measurable readout \(r\), the canonical example is
 \[
 \mathcal H=L^2(\mu),\quad
@@ -219,6 +236,128 @@ For general finite stars, the first compression defect is the
 conditional covariance of the hidden drift. This calculation uses
 strong differentiation on smooth readouts rather than assuming the
 bounded off-diagonal block required by (CM3).
+
+[[interacting-gauge-vacuum-and-local-memory|The actual interacting gauge
+vacuum]] now supplies a physical version of this coefficient. It is
+the conditional variance of the vacuum's logarithmic score along a
+retained plaquette. The leading term counts adjacent plaquettes, and
+one-link variational and resolvent comparisons give volume-uniform
+upper bounds without an explicit vacuum solution. Those bounds do not
+supply the hidden and retained lower bounds in (CM10).
+
+[[two-plaquette-vacuum-and-relational-state|The interacting two-plaquette state]]
+cannot close on separate traces at any positive magnetic coupling.
+Its complete relational basis supplies actual finite-coupling
+conditional-memory calculations and a two-rate finite-time
+perturbative return. The vacuum and its moving readout projection
+are retained together; replacing that return by the exponential
+of its first moment would lose the derived hidden channels.
+
+[[radial-marginal-and-conditional-stress|Its radial marginal]]
+has a positive-curvature result at small coupling, but
+its effective force retains the divergence of the full
+conditional information tensor. Orbit stress is invisible
+to the scalar coupling coefficient and can take either
+sign. Thus a positive local metric alone cannot replace
+the joint state or close the memory-dependent return.
+[[heat-preparation-and-latitude-coercivity|Its actual Haar preparation]]
+has a marginal Poincare bound at least the electric coefficient
+for every preparation time and at the ground-state limit,
+throughout a fixed small-coupling range. The proof controls a
+combined source from the full evolution, despite failure of
+conditional convexity itself. At sufficiently large coupling,
+the same bound also holds throughout each prescribed bounded
+interval of magnetic preparation time; this separate theorem
+does not reach the large-coupling ground state.
+Neither argument freezes the hidden
+state or turns the marginal into an autonomous physical clock.
+An explicit conditional holonomy bound and the existing
+two-scale comparison lift the ground-state marginal estimate
+to the full finite carrier in that regime. The hidden bound
+deteriorates with coupling; it supplies no continuum margin.
+
+[[positive-amplitude-kernel-and-preparation|The shared-path kernel realization]]
+then exposes a stronger state constraint: the amplitude itself
+is a positive Gram kernel, and the physical marginal is the
+diagonal of its normalized square. The same supplied evolution
+is completely positive on kernels. Yet a rank-ten positive-feature
+kernel with both marginals exactly Haar develops positive
+latitude curvature. A concrete inequality between its first
+two relative moments detects that failure. Positivity and
+matched local laws do not replace the actual preparation.
+
+[[replica-weighted-correlations-and-the-local-readout|Squaring that prepared kernel]]
+forces an overlap-weighted mixture of one-loop laws.
+Some admissible hidden contributions violate the proposed
+relative-moment bound, so a componentwise proof is excluded.
+The actual local curvature is a posterior mean curvature
+plus a positive source-score variance. Its sign remains an
+estimate on the prepared mixture, not a consequence of
+averaging to a convolution state or of kernel positivity.
+
+[[path-source-tilts-and-the-curvature-budget|The fully resolved path sources]]
+make the component curvature explicit: each conjugation-averaged
+spherical tilt is log-concave. The actual posterior variance and
+geometric curvature can be computed separately at the poles.
+Both grow quadratically at late preparation times while their
+difference converges, ruling out any time-uniform fractional
+separation. A successful estimate must keep their correlated
+cancellation, even in this finite compact system.
+
+[[certified-ground-marginal-and-late-preparation|An additive remainder certificate]]
+now proves the needed marginal shape at \(\kappa=\lambda=1\)
+for the full ground vector and every positive preparation time.
+A cubic initial-layer bound, exact time--latitude rectangles
+and contraction toward the ground cover the complete trajectory.
+This closes the fixed-system estimate left open by the source
+budget; neither sampling nor separate source positivity proves it.
+[[pointed-preparation-stability-and-the-volume-test|The reusable pointed-flow estimate]]
+also exposes its limitation: global comparison norms grow on
+independent copies even while the gap stays fixed.
+[[connected-preparation-and-local-normalization|Connected log-preparation]]
+removes those disconnected contributions exactly and gives their
+assembly equation.
+[[kinetic-smoothing-and-connected-fourier-control|Retaining kinetic smoothing]]
+now closes a representation-weighted connected norm at an explicit
+small interaction-to-kinetic ratio, uniformly in volume and time.
+It constructs the actual prepared logarithm and bounds how its local
+score changes when distant interactions are removed. The instantaneous
+quadratic map fails in the same norm; its kinetic inverse is essential.
+
+[[kinetic-hessian-bootstrap-and-uniform-response|A complementary geometric bootstrap]]
+controls the actual full logarithmic Hessian and conditional covariance
+for every raw cut in a stated small \(SU(2)\) regime. Its ground limit
+gives an operator bound for hidden response without an extensive
+boundary factor. The point is explicit state-and-readout control,
+not a newly discovered existence of a strong-coupling lattice gap.
+Extending either estimate beyond its smallness condition and through
+the continuum trajectory remains open.
+
+[[interacting-reference-and-spectral-product-control|The interacting-reference test]]
+now identifies what such an extension costs. Re-centering on actual
+block grounds preserves the connected law, and a small reference
+drift gives a sufficient derivative bound. But a block gap alone
+does not preserve the spectral product inequalities: a gapped
+compact counterexample develops a forbidden Haar energy channel.
+Crossing interactions also require the full boundary-charged block
+carrier, not only its separately neutral spectrum.
+[[block-spectral-moments-and-connected-assembly|Four local spectral product moments]]
+give a precise sufficient replacement: if certified on the complete
+blocks, they imply the connected inverse estimate uniformly in the
+number of blocks. But absolute eigenbasis sums can acquire unbounded
+degeneracy costs even on the Haar block; those hypotheses are not
+basis-independent consequences of squared spectral control.
+
+[[first-order-lift-and-spectral-product-tails|Factoring the actual kinetic operator]]
+instead controls fixed-multiplier transfer between entire energy
+windows, at every internal Wilson coupling and input energy, without
+a gap assumption or a count of eigenvectors. For a single charged
+link probe, [[charged-link-probes-and-vacuum-spectral-width|the exact spectral width]]
+is proportional to the link's vacuum score energy, with the same
+ratio for every spin. These constrain readout, state and supplied
+dynamics together. Closing arbitrary two-input products under block
+assembly, and selecting those supplied dynamics, remain separate
+obligations; upper spectral tails do not exclude soft excitations.
 
 ## Use the physical bounded defect when domains are difficult
 

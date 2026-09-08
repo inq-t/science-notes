@@ -107,6 +107,15 @@ cancel an independent-link principal-response mismatch. The marginal
 relation itself is an additional requirement, not automatic for two
 independently chosen lattice vacua.
 
+[[prepared-vacuum-subdivision-and-the-recovered-clock|The prepared-vacuum Fisher test]]
+establishes that relation exactly for pure subdivision: the pulled-back
+positive eigenvector is the actual fine vacuum, and internal Gauss
+invariance identifies the complete physical carriers. Nevertheless,
+rebuilding the Fisher-dual source response changes the clock.
+Its correction vanishes under increasingly fine redundant subdivision,
+recovering the already supplied physical form. This is a failure of
+the source-comparison prescription, not of the holonomy carrier map.
+
 ## The tensor condition is stronger than a scalar normalization
 
 Allow a smooth positive diffusion cometric \(C_f\), represented using
@@ -273,6 +282,15 @@ In this free example the full electric gap and the rebuilt
 joint-character gap both equal \(3\kappa\), witnessed by a single
 plaquette character. The disagreement concerns the full dynamical
 return, not those two numerical gap values.
+
+[[coarse-response-memory/interacting-gauge-vacuum-and-local-memory|The
+interacting vacuum calculation]] identifies the exact single-plaquette
+hidden score and bounds its short-time coefficient uniformly in box
+size. [[algebra/oriented-gram-descent-and-invariant-coverage|The
+three-loop orientation test]] exposes a different obstruction: even
+perfectly autonomous pairwise clocks can omit a physical invariant
+sector. Temporal compatibility and observable completeness must both
+survive the next gluing operation.
 
 ## A natural mixed response can still miss closed distinctions
 

@@ -1,8 +1,8 @@
 # Linear-Tilted Sphere Coercivity
 
-A linear external field does not destroy every uniform gradient bound on a sphere. On the unit \(S^{n-1}\), \(n\ge4\), the latitude measure supplies enough convexity to give a Poincare lower bound \(n-3\), independent of the field's magnitude or direction. For \(SU(2)\cong S^3\), this yields a coupling-independent single-link conditional bound even where a direct Bakry--Emery curvature test becomes negative.
+A linear external field does not destroy every uniform gradient bound on a sphere. On the unit \(S^{n-1}\), \(n\ge4\), the latitude measure supplies enough convexity to give a Poincare lower bound \(n-3\), independent of the field's magnitude or direction. The same bound holds for every smooth positive amplitude whose logarithm is concave in latitude. For \(SU(2)\cong S^3\), this gives coercivity even where an angular curvature test becomes negative.
 
-**Status: [EXACT THEOREM] for every finite linear tilt and the unit round metric; [NOT AN OPTIMAL-CONSTANT CLAIM]; [NOT A MANY-BODY OR PHYSICAL MASS GAP].**
+**Status: [EXACT THEOREM] for finite linear tilts and the stated log-concave radial amplitudes, with the unit round metric; [NOT AN OPTIMAL-CONSTANT CLAIM]; [NOT A MANY-BODY OR PHYSICAL MASS GAP].**
 
 ## The measure and the bound
 
@@ -78,6 +78,105 @@ For a smooth sphere function \(F(x,\omega)\), total variance, Jensen and the rou
 The last bracket is exactly the round spherical gradient norm. This proves (LT2) on smooth functions; density in the weighted \(H^1\) form domain proves the stated extension.
 
 The proof does not apply as written to \(S^2\), where the latitude exponent vanishes, or to an arbitrary nonlinear potential. Its failure there is not a counterexample to any sharper theorem.
+
+## Concave radial amplitudes retain the same bound
+
+The linear tilt is not essential to the estimate. Let
+\(f\in C^\infty([-1,1])\) be strictly positive, with
+\((\log f)''\le0\), and replace (LT1) by
+\(dq\propto f(x)^2d\sigma\). Its latitude potential satisfies
+\[
+V_f''=-2(\log f)''+(n-3)\frac{1+x^2}{(1-x^2)^2}
+\ge\frac{n-3}{1-x^2}.
+\tag{LT9}
+\]
+The interval argument (LT3)--(LT6), followed by the same
+independent angular decomposition, proves (LT2) with the
+unchanged constant \(n-3\). In particular, on the radial
+\(S^3\) carrier with electric coefficient \(\kappa\),
+\[
+\boxed{
+\operatorname{Var}_{\nu_f}F
+\le\int_{-1}^1(1-x^2)|F'(x)|^2d\nu_f,
+\qquad d\nu_f\propto f(x)^2\sqrt{1-x^2}\,dx.
+}
+\tag{LT10}
+\]
+Thus the inherited form \(\kappa\int(1-x^2)|F'|^2d\nu_f\)
+has gap at least \(\kappa\). The concavity condition is on
+the logarithm of the amplitude in the latitude coordinate,
+not on the density in angular distance. These are different
+tests. [[algebra/partial-bochner-and-ground-state-score#A latitude estimate is uniform in magnetic coupling|The single-plaquette heat construction]]
+proves this condition for its actual reference vacuum at
+every finite magnetic coupling. A many-plaquette marginal
+must satisfy it by a separate argument.
+
+## Averaging a fixed transverse tilt preserves latitude concavity
+
+On \(S^3\), split a fixed field into an axial component
+\(\eta\in\mathbb R\) and transverse magnitude \(b\ge0\).
+Average the transverse direction over \(S^2\), keeping
+the latitude \(a\) fixed. With \(h=1-a^2\), the resulting
+unnormalized density relative to round measure is
+\[
+k_{\eta,b}(a)=e^{\eta a}
+\frac{\sinh(b\sqrt h)}{b\sqrt h}.
+\tag{LT11}
+\]
+The ratio is one at zero. This is a rotation average of
+one fixed linear tilt, not an arbitrary mixture of fields.
+The same \(S^2\) integration appears in
+[[gauge-boundary-frame-gluing/path-shift-fisher-geometry-before-gauge-projection#The first retained change is explicitly quadratic|the path-source orbit average]].
+
+The classical [hyperbolic-sine product](https://dlmf.nist.gov/4.36.E1)
+gives
+\[
+\log\frac{\sinh(b\sqrt h)}{b\sqrt h}
+=\sum_{n\ge1}\log\left(1+\frac{b^2h}{\pi^2n^2}\right).
+\]
+Define
+\[
+A_b(h)=\sum_{n\ge1}\frac{b^2}{\pi^2n^2+b^2h},
+\qquad
+B_b(h)=\sum_{n\ge1}\frac{b^4}{(\pi^2n^2+b^2h)^2}.
+\tag{LT12}
+\]
+The series and the required derivatives converge uniformly
+for bounded \(b\), \(0\le h\le1\). Differentiation proves
+\[
+\boxed{
+(\log k_{\eta,b})'=\eta-2aA_b(h),\qquad
+(\log k_{\eta,b})''=-2A_b(h)-4a^2B_b(h)\le0.
+}
+\tag{LT13}
+\]
+The second inequality is strict for \(b>0\), including
+both endpoints. In particular,
+\[
+A_b(0)=b^2/6,\qquad B_b(0)=b^4/90.
+\tag{LT14}
+\]
+There is no pole singularity in these expressions.
+The amplitude \(\sqrt{k_{\eta,b}}\) therefore satisfies
+(LT9), giving the same lower bound for each normalized
+rotation-averaged component.
+
+Arbitrary positive mixing does not preserve this conclusion.
+Mix \((\eta,b)=(1,1),(-1,1)\) with equal weights. Both
+components are strictly log-concave, but their sum is
+proportional to
+\[
+K(a)=\cosh(a)\frac{\sinh\sqrt{1-a^2}}{\sqrt{1-a^2}},
+\qquad
+(\log K)''(0)=1-2A_1(1)\ge2/3>0,
+\tag{LT15}
+\]
+since \(A_1(1)\le\sum_{n\ge1}(\pi^2n^2)^{-1}=1/6\).
+The two component normalizers agree by \(a\mapsto-a\),
+so this also describes their equally weighted normalized
+mixture. This disproves mixture preservation of the
+sufficient concavity condition, not the existence of a
+Poincare bound for that particular smooth mixture.
 
 ## The exact conditional scope
 

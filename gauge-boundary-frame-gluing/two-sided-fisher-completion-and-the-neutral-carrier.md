@@ -749,6 +749,67 @@ obstruction. [[trace-dirichlet-descent/conditional-score-shorting-and-observable
 separately explains why central resolution and Fisher inversion change
 the operator, without claiming to solve this charged gluing problem.
 
+## Copying the output metric onto spatial edges fails the carrier test
+
+Take independent copies of (JF1) on \(n\) edges and one positive
+readout time \(t\). Independent two-sided control pairs have the
+direct-sum Fisher norm \(\sum_e g_2(h_e,j_e)\). Therefore a smooth
+endpoint function has response
+\[
+\Gamma_{\mathrm{ind}}(f)
+=\sum_e\int_0^t
+\left[
+\frac{|\nabla_{L,e}f-\nabla_{R,e}f|^2}{1-r(u)}
++\frac{|\nabla_{L,e}f+\nabla_{R,e}f|^2}{1+r(u)}
+\right]du.
+\tag{JF36}
+\]
+The proof of (JF10), edge by edge, says that finite integrated response
+is equivalent to **separate conjugation on every edge**, not the
+Gauss action of the intended spatial graph.
+
+For two parallel \(SU(2)\) edges, write \(x_0=(a,v)\), \(x_2=(b,w)\)
+and take the actual physical pairing
+\[
+F=\tfrac12\operatorname{Tr}(x_0x_2^{-1})=ab+v\cdot w.
+\]
+Its two conjugation gradients are \(v\times w\) and \(-v\times w\),
+up to the common quaternion orientation convention. Thus (JF36)
+contains
+\[
+2|v\times w|^2\int_0^t\frac{du}{1-e^{-2u}}=\infty
+\quad\text{almost surely}.
+\tag{JF37}
+\]
+Strictly positive product heat density gives the almost-sure
+nonvanishing. A logarithmic based ramp on just one edge proves the
+same exclusion without an exact constant control. This is a domain
+failure of the proposed spatial copy, not infinite physical energy
+of the relative loop.
+
+The opposite restriction fails differently. If only one common pair
+\((h,j)\) acts on all \(n\) paths, independent centered scores give
+Fisher norm \(ng_2(h,j)\). Every same-time endpoint function invariant
+under \(x_e\mapsto kx_el^{-1}\) has
+\[
+\sum_e\nabla_{L,e}f=\sum_e\nabla_{R,e}f=0,
+\qquad \Gamma_{\mathrm{common}}(f)=0.
+\tag{JF38}
+\]
+This conclusion uses full two-endpoint invariance; simultaneous
+conjugation alone only sets the difference of the sums to zero.
+The common action tests gauge motions rather than nontrivial
+physical variations.
+
+[[haar-vertex-source-and-joint-gauge-response|The Haar-vertex source]]
+is a different declared package that avoids both failures. Haar
+vertex motions supply the correct zero-score Gauss directions,
+while retained independent heat factors carry nondegenerate
+variations before the output is formed. Its actual source entropy
+returns a finite shared response on the complete invariant algebra.
+It does not regularize (JF36) while pretending to keep this output
+metric fixed.
+
 The original construction is a state-action-response triple with a constrained
 observable carrier and a complete auxiliary clock. Neither a Yang--Mills
 vacuum state on all four-dimensional observables nor its physical
