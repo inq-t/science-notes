@@ -1,0 +1,56 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction. Extracted PDF text is a searchable derivative, not an editable author source.",
+  "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+  "records": [
+    {
+      "path": "2604.21630v1-source.tar.gz",
+      "bytes": 14077,
+      "sha256": "5a959d92650ed6bf1f7a4186f641586a279e1db350e2451ddda3f6223f6c8755",
+      "url": "https://arxiv.org/src/2604.21630v1",
+      "resolved_url": "https://arxiv.org/src/2604.21630v1",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2604.21630v1",
+      "kind": "downloaded-primary-source"
+    },
+    {
+      "path": "source/00README.json",
+      "bytes": 220,
+      "sha256": "13118982e0e868be16129f3c1873ebb5c7963190a53bc0df8e252617c2289765",
+      "kind": "unchanged-archive-member",
+      "archive": "2604.21630v1-source.tar.gz",
+      "member": "00README.json"
+    },
+    {
+      "path": "source/KMS_GNS_gap.bbl",
+      "bytes": 9505,
+      "sha256": "8ebd510a60507f9a38ef37e366a3dc0e69b2f41250b17d6c1c2e359dac7c791d",
+      "kind": "unchanged-archive-member",
+      "archive": "2604.21630v1-source.tar.gz",
+      "member": "KMS_GNS_gap.bbl"
+    },
+    {
+      "path": "source/KMS_GNS_gap.tex",
+      "bytes": 35450,
+      "sha256": "87a9d694bfd36ba2b2899134d52d31eddec6665bd5f79e0f39952531771240d0",
+      "kind": "unchanged-archive-member",
+      "archive": "2604.21630v1-source.tar.gz",
+      "member": "KMS_GNS_gap.tex"
+    },
+    {
+      "path": "2604.21630v1-wirth-kms-gns-spectral-gap.pdf",
+      "bytes": 390456,
+      "sha256": "704fabd40627dab1469fa1249b1d0fe34228e27cf30b0a425947112b7590528f",
+      "url": "https://arxiv.org/pdf/2604.21630v1",
+      "resolved_url": "https://arxiv.org/pdf/2604.21630v1",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2604.21630v1",
+      "kind": "downloaded-primary-source",
+      "pdf_pages": 13,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 13,
+        "first_page_text_prefix": "THE KMS AND GNS SPECTRAL GAP OF QUANTUM\nMARKOV SEMIGROUPS\nMELCHIOR WIRTH\nAbstract.We establish a relation between the exponential decay rates of\nquantum Markov "
+      }
+    }
+  ]
+}

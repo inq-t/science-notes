@@ -283,7 +283,16 @@ q_{B\to\mathcal N}^{\mathrm{loss}}[A]
 \|H^{1/2}A\Omega\|^2.
 \]
 
-This places the restriction-loss construction of [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork]] on the correct side of the physical energy inequality. That note defines its Hessian without the factor \(1/2\); in that convention the coefficient here is \(4\pi R/(\hbar c)\).
+The [[channel-loss-and-recovery/bkm-loss-operators|restriction-loss Hessian]] uses the full second derivative, \(q_{\omega,\mathcal N}[A]=2q_{B\to\mathcal N}^{\mathrm{loss}}[A]\). In that convention the same estimate is
+
+\[
+0\leq q_{\omega,\mathcal N}[A]
+\leq\frac{4\pi R}{\hbar c}
+\|H^{1/2}A\Omega\|^2.
+\tag{D5h.0}
+\]
+
+After the complex-extension and form-core conditions below are proved, a full-Hessian lower frame \(q[\psi]\geq\kappa\|(1-P_0)\psi\|^2\) gives \(\Delta_E\geq\hbar c\kappa/(4\pi R)\). Half-Hessian conventions remove both factors of two. Locality and positive-energy translation covariance supply the upper comparison here; the lower frame remains independent. [[channel-loss-and-recovery/preserving-expectation-loss|A preserving expectation's vertical loss]] cannot supply it on recovered neutral directions.
 
 ## Conditional gap theorem
 

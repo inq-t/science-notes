@@ -1,0 +1,345 @@
+--- PDF page 1 ---
+Communications in
+Commun. Math. Phys. 105,123-131 (1986) Mathematical
+Physics© Springer-Verlag 1986
+Sufficient Subalgebras and the Relative Entropy
+of States of a von Neumann Algebra
+Denes Petz
+Mathematisches Institut der Universitat Tubingen, Auf der Morgenstelle 10, D-7400 Tubingen,
+Federal Republic of Germany
+Abstract. A subalgebra Mo of a von Neumann algebra M is called weakly
+sufficient with respect to a pair (φ, ω) of states if the relative entropy of φ and ω
+coincides with the relative entropy of their restrictions to Mo. The main result
+says that Mo is weakly sufficient for (φ, ω) if and only if Mo contains the Radon-
+Nikodym cocycle [Dφ,Dω]t. Other conditions are formulated in terms of
+generalized conditional expectations and the relative Hamiltonian.
+Introduction
+Suppose that an experiment is described by a measurable space (X, Sf) and the
+outcome of the experiment is governed by a probability measure μ on Sf. In
+mathematical statistics the probability distribution μ belongs to a family Θ of
+probability distributions. A sub-σ-algebra & of S? can be considered as application
+of a statistics or an indirect observation, ffl is defined to be sufficient with respect to
+the family Θ if the conditional distribution of μ e Θ does not depend on μ. More
+precisely, for every S e 9* there exist an ^-measurable function ξs such that J ξs dμR
+= μ(RnS) for every R e 01 and μ e Θ (see [12 or 7, 28]). In mathematical statistics
+the case \θ\ = 2 is called the discrimination between two statistical hypotheses.
+Let Θ = {μ, v}? and assume that μ, v <ζ λ. Halmos and Savage ([12]) proved that
+$ is sufficient for {μ, v} if and only if the function
+dμ jdv
+JλjTλ
+is ^-measurable. Another equivalent formulation due to Kullback and Leibler
+[18] is based on the relative entropy of measures. Namely, M is sufficient if and
+only if
+Permanent address: Mathematical Institute of HAS, Realtanoda u. 13-15, H-1364 Budapest,
+P.O. Box. 127, Hungary
+
+--- PDF page 2 ---
+124 D. Petz
+where S(μ,v) (S(μθ9vo)) denotes the relative entropy of μ and v (that of their
+restrictions to M\
+The main goal of this paper is to investigate the equivalencies above in the
+noncommutative case. In the algebraic approach to quantum mechanics [10] a
+physical system corresponds to an operator algebra M, and a subalgebra Mo of M
+is selected for experimental observation. The determination through the coarse
+grained algebra Mo provides only partial information about the state of the
+system. Mathematically, instead of a state (that is, a positive functional) of M its
+restriction to Mo is at our disposal (cf. [31]). Discussions concerning sufficiency of
+a subalgebra have been made first by Umegaki ([30], see also [11, 15]). The
+subalgebra Mo is sufficient with respect to the states φ and ω of M, provided there
+is a conditional expectation E (in the sense of Umegaki, see [30]) onto Mo
+preserving φ and ω, i.e. φ°E = φ and ω°E = ω. By Takesaki's theorem ([29], see
+also [27,10.1]) projection of norm one onto a subalgebra preserving a given state is
+an infrequent object in the theory of operator algebras. Hence, the definition above
+is rather restrictive. On the other hand, in the present shape of quantum
+probability there exists no satisfactory mathematical formalism for conditioning.
+Therefore we try to involve the notion of relative entropy of states in the study of
+sufficiency instead of considering conditional expectations.
+The relative entropy in an operator algebra setup was first studied by Umegaki
+[30] and it has provided a useful tool for mathematical physics in the papers of
+Lindblad [20, 21]. Araki [4] extended the notion of relative entropy to the case of
+normal states of arbitrary von Neumann algebra and its relation to the sufficiency
+problem was discussed also by Hiai et al. [13,14].
+In [23] we used the following definition. The subalgebra Mo of M is weakly
+sufficient for the pair (φ, ώ) if the relative entropy of φ and ω coincides with the
+relative entropy of their restrictions to Mo. Applying a method of Holevo [15] we
+characterized weakly sufficient commutative subalgebras of finite dimensional
+operator algebras. In the present paper we drop the assumption on commutativity
+and use a different method based on quasi-entropies (see [23, 24]. We prove that
+Mo is weakly sufficient for (φ,ω) if and only if the Radon-Nikodym cocycle
+\_Dφ, Dώ]t is in Mo. This is equivalent to the condition Eφ = Eω, where Eψ denotes
+the φ-conditional expectation of Accardi and Cecchini [1] with respect to a
+state Ψ.
+Preliminaries
+Let M be a von Neumann algebra with a faithful normal state ω. We can assume
+that M acts on a Hubert space H and ω is determined by a cyclic separating vector
+Ω. If φ is another normal state, then the densely defined quadratic form
+aΩ^φiμa*) (aeM) is closable and there exists an associated positive selfadjoint
+operator A. It is characterized by the following properties. MΩ is a core for A1/2
+and \\Δll2aΩ\\2 = φ{aa*) [17, VI, Sect. 2]. A was called by Araki the relative
+modular operator of φ and ω and it is usually denoted by A(φ,ω) (see [4, 5]).
+The modular group of ω is a one-parameter group of automorphisms of M and
+it looks like
+
+--- PDF page 3 ---
+Subalgebras and Relative Entropy of von Neumann Algebra 125
+Another Radon-Nikodym derivative-like object for comparison of two states is
+the Radon-Nikodym cocycle discovered by Connes ([6], see also [5]). If φ is a
+faithful normal semifϊnite weight, then [Dφ,Dώ]t = ut is a σω-cocycle and
+σf = utσfuf. The formula \_Dφ,Dω]t = Δ(φ,ω)u A(ω,ω)~u forms a bridge between
+the two objects (see [5]).
+The inner perturbation of a state was studied by Araki [2]. If h = h* e M, then
+there is a state ωh determined by
+,-itH
+where H stands for logzl(ω,ω). The main properties of the perturbed state are
+summarized in [3].
+Let /: R+ ->R be a continuous function. The quasi-entropy Sf(φ, ω) is defined
+as (f(Δ(φ,ω))Ω,Ωy. It possesses nice convexity properties when / is operator
+convex (see [23, 24]). The choice f(t)= — logί gives the relative entropy:
+S(φ,ω)=-<}ogA(φ9ω)Ω9Ωy.
+Monotonicity of quasi-entropies means the following assertion. Assume that Mo
+and M are von Neumann algebras and α: M0^M is a 2-positive unit preserving
+mapping. If φ and ω are faithful normal states on M, then Sf(φ o α, ω o α) ^ Sf(φ, ω),
+provided that —/ is operator monotone ([24]).
+If Mo is a subalgebra of M, then ω-preserving conditional expectation of M
+onto Mo does not exists always. However, there exists a very natural completely
+positive mapping Eω: M^M0, which is defined by Accardi and Cecchini ([1]) and
+may be called generalized conditional expectation for several reasons. The
+ω-conditional expectation Eω has a convenient description using standard forms
+[22]. Assume that M(M0) has the standard form (M, H, J, 2?) ((Mo, Hθ9 Jθ9 &o)\
+and let i: Mo-+M be the embedding. If Ω e £P (Ωo e 0>o) is the vector representative
+for the state ω (ω restricted to Mo) then
+VωaΩ0 = ι(a)Ω (aeM0)
+defines a contraction of Ho into H. The ω-conditional expectation is defined as
+Eωφ) = Jo V*JbJ VωJ0 (beM).
+Concerning the ω-conditional expectation we refer to the papers [1] and [20].
+Main Result
+Let M be a von Neumann algebra with faithful normal states φ and ω. When Mo is
+a von Neumann subalgebra of M, then φ0 and ω0 stand for the the restriction of φ
+and ω, respectively. By the monotonicity property of the relative entropy, we have
+S(φ0, ω0) ^ S(φ, ω). We say that Mo is weakly sufficient with respect to the pair (φ, ω)
+if S(φo,ωo) = S(φ,ω) (see [23]). Recall that Mo is sufficient if there exists a
+conditional expectation E:M^M0 such that φoE = φ and ω°£ = ω. In partic-
+ular, sufficiency implies weak sufficiency.
+In the rest of this section we assume that M acts on a Hubert space H and ω is
+given by the cyclic and separating vector ΩeH. We consider the natural
+
+--- PDF page 4 ---
+126 D. Petz
+representation of Mo on Ho = [M0Ω], and P denotes the orthogonal projection of
+H onto Ho. We shall shorten our notation to A (Ao) for the relative modular
+operator A(φ9ω) (A(φo,ωo)).
+Lemma 1. Assume that Mo is weakly sufficient for (φ, ω) and S(φ, ω) is finite. Then
+where ft(λ) =l/λ + t(O<t<oo).
+Proof. Using the formula
+logx=f
+o
+we write
+S(φ,ω)= - (log AΩ,Ω}=]
+o
+= ]sft(φ,ω)-(\+ty1dt.o
+Since —ft is operator monotone, by the monotonicity of the quasi-entropies, we
+have Sft(φo,ωo) ^Sft(φ,ω) and S(φ,ω) = S(φo,ωo) implies that Sft(φ,ω)
+= Sf(φ0,ω0) for almost all ίe]R+. By continuity we obtain the equality for all
+teWL+.
+Lemma 2. For λ>0, we have
+Proof. A is the associated positive selfadjoint operator to the densely defined
+closable quadratic form q:aΩ->φ(aa*)9 (aεM) and Ao is associated to the00
+restriction q\M0Ω. Let f λdE(λ) be the spectral decomposition of A, and define
+Hn= ]λdE(λ). Then (A + flB)"1-^(A +J)^1 strongly for all λ>0.
+o
+The set {aΩ + η:ηeH, Pη = O, aeM0} is a core for (PA0P)1/2 = PA10/2P.
+Evidently,
+and we establish PHnP^PΔ0P. Then
+Since
+(see [8]) we arrive at
+and letting n->co, we complete the proof.
+
+--- PDF page 5 ---
+Subalgebras and Relative Entropy of von Neumann Algebra 127
+Lemma 3. Assume that
+for all λ>0. Then f(A)Ω = f(A0)Ω for every bounded continuous function
+/:R+^C.
+Proof. Using Lemma 2 we can estimate
+whenever λ>0. By the hypothesis, we have P(λ + A)~1Ω = (λ + Aoy1Ω for all
+λ>0, and through analytic continuation for all λe<L — IR~. Derivating by λ we
+obtain P(λ + Ay2Ω = (λ + Aoy2Ω. Hence
+and {λ + ΔyιΩ must be in Ho. So
+Looking at the formula for spectral resolution [9, p. 1202], we can establish
+E((s, t),A)Ω = E((s, t),A0)Ω for every open interval (s, ί)ClR. Reference to the
+spectral theorem makes the proof complete.
+Theorem 4. Assume that S(φ, ω) is finite. For a subalgebra Mo of M the following
+conditions are equivalent.
+(i) [_Dφ, Dώ]t e Mo for every t e IR.
+(ii) There exists a subalgebra of Mo which is sufficient for (φ9 ω).
+(iii) Mo is weakly sufficient for (φ, ω).
+(iv) [Dφ, Dω]t = [Dφ0, Dωo]t for every t e IR.
+(v) Eφ = Eω.
+(vi) φoEω = φ.
+(vii) ω°Eφ = ω.
+Proof. Suppose (i) and let N be the subalgebra generated by {[_Dφ, Dώ]t: t e IR}.
+Then N is stable under the modular group of ω and there is a conditional
+expectation E: M^N preserving ω. The converse of Connes' theorem [6, 27, 5.1]
+guarantees a weight φ' on N such that \_Dφ,Dω]t = \Dφ\D(ω\N)~\t. On the other
+hand [D(φ'°E),Dώ\t = \Pφ\D(ω\N)~\t (see [27, 10.5]) and φΌE must be φ.
+Consequently, E preserves also φ.
+(ii) implies (iii) according to the monotonicity theorem.
+To prove (iii)-^(iv), we first note that
+and similarly [Dφo,Dωo']tΩ = AoΩ. Due to Lemma 3 [Dφ,Dω\tΩ
+= [Pφo,Dωo~\tΩ, and we conclude (iv).
+In order to prove (iv)->(v), let (M, H, J, ^) ((Mo, Ho, Jo, ^0)) be the standard
+form of M and Mo, respectively. Define the contractions Vω9 Vφ:H0-+H by the
+formulas
+VωaΩ = ι(a)Ω and VφaΦ0 = ι(a)Φ (aeM0),
+
+--- PDF page 6 ---
+128 D. Petz
+where Ωe^ and ΦE^{ΩE0>O and Φo E^0) are the vector representatives for the
+states ω and φ (ω0 and φ0), moreover i: M0^M is the inclusion. By assumption
+for all aeM0 and ίeR. Since [Dφo,Dωo]tΩ = A(φo,ωo)ίtΩ, and
+[in fact, A(φo,ωo)1/2Ω = ΦO] the function
+has continuous extension to the strip S = {ze(C: — l/2^Imz^0}, which is
+analytic on S° = {z eC: -l/2<Imz<0} [26, 9.15]. Similarly, Ga(z)
+= aA(φ0, ωo)ιtΩ is continuous on S and analytic on S°. Since Fα(ί) = Ga(t) for every
+ί G R, we can conclude
+Vω(aΦ0) = Fa{ - ί/2) = Gβ( - i/2) = aΦ (ae Mo),
+and this means that Vφ=Vω. Therefore, Eφ = Eω.
+The implications (v)->(vi) and (v)->(vii) are obvious and both (vi) and (vii)
+imply (iii) by the monotonicity theorem. Finally, (iv)->(i) is trivial.
+It seems worth noting that weak sufficiency for a pair (φ, ω) is not symmetrical
+by definition, but it turns out to be such according to Theorem 4. The subalgebra
+generated by {[Dφ, Dώ]t: t e R} is the smallest weakly sufficient subalgebra and it
+is sufficient.
+Corollary 5. // S(φ, ω) is finite, Mo is weakly sufficient for (φ, ω) and there is a
+conditional expectation of M onto Mo which preserves φ or ω, then Mo is sufficient.
+Proof. If, for example, φoE = φ, then E = Eφ must hold, and according to
+condition (viii) in Theorem 4 ω o E = ω.
+Theorem 6. Let Mo be a von Neumann subalgebra of the von Neumann algebra M.
+Assume that ω is a faithful normal state on M and denote by ωh the perturbation of ω
+by h = h*εM. Then the following conditions are equivalent.
+(i) σsω([Dωh,Dω]ί)eM0 (s,ίeR).
+(ii) σ»(h)eM0 (seR).
+(iii) EJh) = h, where Eω denotes the ω-conditional expectation of M into Mo.
+Proof. We abbreviate logzl(ω, ω) as H. By straightforward computation, we have
+for ξeD(H),
+lim(eit{H+h)e-itHξ-ξ)/it = hξ
+as ί->0. We show that
+(eit(H + h)e-ίtH_ jyt _ (eίt(H + h)_ eitH^e-itHjt
+is bounded in a neighbourhood of 0. We need the norm convergent expansion
+n = 0
+where U0(t) = eitH, UH+I(t)= -i\ei{t-s)HhUn(s)ds and the estimate
+o
+|| 17,(011 ^
+
+--- PDF page 7 ---
+Subalgebras and Relative Entropy of von Neumann Algebra 129
+(see [17, IX, Sect. 2]). So
+Σ ^ Σ ί""1|
+is a bounded function of t in a neighbourhood of 0. Consequently, the limit above
+exists for every ξ e H.
+Now we prove (i)-»(ii). Since
+by the previous considerations, it follows that the strong derivative of
+σsω([DαΛ Dώ]t) at ί = 0 is -iσf(h).
+Conversely, we refer to the expansion
+lDω\ Dώ]t = £ ίn ί dt! j dt2 ... tnϊ' Λn<(Λ)... σftΛ)« = 0 0 0 0
+(see [2]) which shows immediately the implication (ii)-*(i).
+The equivalence (ii)*->(iii) is in Theorem 5.1 of [1].
+Corollary. The subalgebra Mo is is weakly sufficient for the pair (α/1, ώ) (where ωh
+is an inner perturbation of ω) if and only if his a fixed point of the ω-condίtional
+expectation of M into Mo.
+Discussions
+Let M be a von Neumann algebra with faithful normal states φ and ω. In [25]
+Raggio introduced a transition probability PA(φ9ω) which turned out to be a
+quasi-entropy by the function f(t) = t112 (see [23]). Suppose that Mo is a
+subalgebra of M. The equality PA(φ, ω) = PA{φ \ Mo, ω \ Mo) can be studied by our
+methods, and it is equivalent to the conditions (i)-(vii) in Theorem 4.
+The outstanding problem of joint convexity of the relative entropy functional
+was proved by Lieb [19]. We recall the argument in [24] deducing convexity from
+monotonicity. lϊφ and ω normal states on M (i =1,2), then consider the following
+states on N = M@M:
+φί2 = λφ1+(l — λ)φ2 and ω12 = λω
+So
+On the other hand,
+S(φί2\No,ωί2\No) = S(λφί+(l-λ)φ2,λω1+(l-λ)ω2),
+where iV0 = {a®a: a e M} is a subalgebra of N. The monotonicity yields
+We are going to find a condition for the equality. By Theorem 4 the equality
+holds if [Dφ12,Dω12]te No for ίeR. Since
+[Dφ12, Dω12]t = \_Dφu Dω{\t@ [Dφ2, Dω2~\t,
+
+--- PDF page 8 ---
+130 D. Petz
+the equality [Dφu Dω1}t = {_Dφ2, Dω2]ί is a necessary and sufficient condition. In
+terms of densities this reads
+n - itnit _ ,, - itvit
+where vf and gt are the densities of φi and ωb respectively (z = 1,2).
+Acknowledgements. This work was done while the author stayed at the Mathematical Institute of
+the University Tubingen supported by a Forschungsstipendium from the Alexander von
+Humboldt-Stiflung. It is a pleasure to thank W. Arendt, I. Csiszar, B. Kύmmerer, G. Raggio, and
+L. Zsidό for valuable conversations. The author is grateful to the referee for his suggestions.
+References
+1. Accardi, L., Cecchini, C.: Conditional expectation in von Neumann algebras and a theorem of
+Takesaki. J. Funct. Anal. 45, 245-273 (1982)
+2. Araki, H.: Relative Hamiltonian for faithful normal states of a von Neumann algebra. Publ.
+Res. Inst. Math. Sci. 9, 165-209 (1973)
+3. Araki, H.: Recent developments in the theory of operator algebras and their significance in
+theoretical physics. Symposia Math., XX, 395^424. New York: Academic Press 1976
+4. Araki, H.: Relative entropy of states of von Neumann algebras. I, II. Publ. Res. Inst. Math. Sci.
+11, 809-833 (1976) and 13, 173-192 (1977)
+5. Araki, H., Masuda, T.: Positive connes and Lp-spaces for von Neumann algebras. Publ. Res.
+Inst. Math. Sci. 18, 339-411 (1982)
+6. Connes, A.: Une classification des facteurs de type III. Ann. Sci. Ec. Norm. Super. 6,133-252
+(1973)
+7. Csiszar, I.: Information type measure of difference of probability distributions and indirect
+observations. Stud. Sci. Math. Hung. 2, 299-318 (1967)
+8. Davis, C.: A Schwarz inequality for convex operator functions. Proc. Am. Math. Soc. 8,42^4
+(1957)
+9. Dunford, N., Schwartz, J.T.: Linear operators. Part II. New York: Interscience 1958
+10. Emch, G.G.: Algebraic methods in statistical mechanics and quantum field theory. New York:
+Wiley 1972
+11. Gudder, S., Merchand, J.P.: Noncommutative probability on von Neumann algebras. J.
+Math. Phys. 13, 799-806 (1972)
+12. Halmos, P.R., Savage, L.J.: Application of the Radon-Nikodym theorem to the theory of
+sufficient statistics. Ann. Math. Stat. 20, 225-241 (1949)
+13. Hiai, F., Ohya, M., Tsukada, M.: Sufficiency, KMS condition and relative entropy in von
+Neumann algebras. Pac. J. Math. 96, 99-109 (1981)
+14. Hiai, F., Ohya, M., Tsukada, M.: Sufficiency and relative entropy in *-algebras with
+applications in quantum systems. Pac. J. Math. 107, 117-140 (1983)
+15. Holevo, A.S.: Some estimates for the amount of information transmittable by a quantum
+communication channel (in Russian). Probl. Peredachi Inf. 9, 3-11 (1973)
+16. Holevo, A.S.: Investigations in the general theory of statistical decisions. Am. Math. Soc. Proc.
+Steklov Inst. Math. 124 (1978)
+17. Kato, T.: Perturbation theory for linear operators. Berlin, Heidelberg, New York: Springer
+1966
+18. Kullback, S., Leibler, R.A.: On information and sufficiency. Ann. Math. Stat. 22,79-86 (1951)
+19. Lieb, E.H.: Convex trace functions and the Wigner-Yanase-Dyson conjecture. Adv. Math. 11,
+267-288 (1973)
+20. Lindblad, G.: Entropy, information and quantum measurement. Commun. Math. Phys. 33,
+305-322 (1973)
+21. Lindblad, G.: Expectation and entropy inequalities for finite quantum systems. Commun.
+Math. Phys. 39, 111-119 (1974)
+
+--- PDF page 9 ---
+Subalgebras and Relative Entropy of von Neumann Algebra 131
+22. Petz, D.: A dual in von Neumann algebras with weights. Q. J. Math. Oxf. 35,475-483 (1984)
+23. Petz, D.: Properties of quantum entropy, quantum probability and applications II. Accardi,
+L., von Waldenfels, W. (eds.). Lecture Notes in Mathematics. Vol. 1136, pp. 428-441. Berlin,
+Heidelberg, New York: Springer 1985
+24. Petz, D.: Quasi-entropies for states of a von Neumann algebra. Publ. Res. Inst. Math. Sci. 21,
+787-800 (1985)
+25. Raggio, G.A.: Comparison of Uhlmann's transition probability with the one induced by the
+natural positive cone of a von Neumann algebra in standard form. Lett. Math. Phys. 6,
+233-236 (1982)
+26. Stratila, S., Zsidό, L.: Lectures on von Neumann algebras. Tunbridge Wells: Abacuss Press
+1979
+27. StratM, S.: Modular theory of operator algebras. Tunbridge Wells: Abacus Press 1981
+28. Strasser, H.: Mathematical theory of statistics. Berlin: de Gruyter 1985
+29. Takesaki, M.: Conditional expectations in von Neumann algebras. J. Funct. Anal. 9,306-321
+(1972)
+30. Umegaki, H.: Conditional expectations in an operator algebra IV (entropy and information).
+Kodai Math. Sem. Rep. 14, 59-85 (1962)
+31. Wolfe, J.C., Emch, G.G.: C*-algebraic formalism for coarse graining. I. General theory. J.
+Math. Phys. 15, 1343-1347 (1974)
+Communicated by H. Araki
+Received November 28, 1985; in revised form January 23, 1986
+
+--- PDF page 10 ---
+

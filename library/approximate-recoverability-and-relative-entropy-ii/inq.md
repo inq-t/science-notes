@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [relative-entropy, recovery, data-processing, conditional-expectation]
 ---
 # Approximate Recoverability and Relative Entropy II
 
@@ -13,6 +14,11 @@ Thomas Faulkner and Stefan Hollands prove a strengthened data-processing inequal
 - Published: 2022
 - Journal: *Letters in Mathematical Physics* **112**, 26
 - DOI: [10.1007/s11005-022-01510-9](https://doi.org/10.1007/s11005-022-01510-9)
-- arXiv: [2010.05513](https://arxiv.org/abs/2010.05513)
-- Local artifacts: none
+- arXiv: [2010.05513v1](https://arxiv.org/abs/2010.05513v1)
 
+## Local sources
+
+- [[library/approximate-recoverability-and-relative-entropy-ii/2010.05513v1-source.tex.gz|arXiv source download]].
+- [[library/approximate-recoverability-and-relative-entropy-ii/source/2010.05513v1.tex|TeX source]].
+- [[library/approximate-recoverability-and-relative-entropy-ii/2010.05513v1-faulkner-hollands-recoverability-ii.pdf|PDF]].
+- [[library/approximate-recoverability-and-relative-entropy-ii/source-provenance.json|Source URLs, versions, SHA-256 hashes and extraction provenance]].

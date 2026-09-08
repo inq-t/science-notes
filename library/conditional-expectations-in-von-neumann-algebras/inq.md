@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [conditional-expectation, modular-invariance, von-Neumann-algebra]
 ---
 # Conditional Expectations in von Neumann Algebras
 
@@ -16,6 +17,7 @@ For an inclusion \(N\subseteq M\) of von Neumann algebras and a faithful semifin
 - **Journal:** *Journal of Functional Analysis* **9** (3), 306--321.
 - **DOI:** [10.1016/0022-1236(72)90004-3](https://doi.org/10.1016/0022-1236(72)90004-3).
 - **Publisher record:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/0022123672900043).
-- **Local artifacts:** none.
 
 The publisher identifies the article as open archive. No arXiv record or editable source was located.
+
+Source retrieval on 8 September 2026 did not obtain a full-text artifact. The [[library/conditional-expectations-in-von-neumann-algebras/source-provenance.json|retrieval record]] preserves the attempted locations and responses.

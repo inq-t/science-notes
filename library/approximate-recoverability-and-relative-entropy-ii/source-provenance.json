@@ -1,0 +1,40 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction. Extracted PDF text is a searchable derivative, not an editable author source.",
+  "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+  "records": [
+    {
+      "path": "2010.05513v1-source.tex.gz",
+      "bytes": 23596,
+      "sha256": "735948995d1ad0220b06beae0340d2ebb6f10eaa50dfbc536baad62978b2b58c",
+      "url": "https://arxiv.org/src/2010.05513v1",
+      "resolved_url": "https://arxiv.org/src/2010.05513v1",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2010.05513v1",
+      "kind": "downloaded-primary-source"
+    },
+    {
+      "path": "source/2010.05513v1.tex",
+      "bytes": 73624,
+      "sha256": "bd075238dd6d3c8d035e31b92d9e7dfaa7040ec0830cd8f75dbf96b1a22b03cf",
+      "kind": "unchanged-decompressed-source",
+      "archive": "2010.05513v1-source.tex.gz",
+      "compression": "gzip"
+    },
+    {
+      "path": "2010.05513v1-faulkner-hollands-recoverability-ii.pdf",
+      "bytes": 598972,
+      "sha256": "c653f22a3fdd48492bb7b643e55a609428c60482c6d3000e41faebf60c69e20d",
+      "url": "https://arxiv.org/pdf/2010.05513v1",
+      "resolved_url": "https://arxiv.org/pdf/2010.05513v1",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2010.05513v1",
+      "kind": "downloaded-primary-source",
+      "pdf_pages": 19,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 19,
+        "first_page_text_prefix": "Approximate recoverability and relative entropy II:\n2-positive channels of general v. Neumann algebras\nThomas Faulkner1∗, Stefan Hollands 2†\n1 University of Ill"
+      }
+    }
+  ]
+}

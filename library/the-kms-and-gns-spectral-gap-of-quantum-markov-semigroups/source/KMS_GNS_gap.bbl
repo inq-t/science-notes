@@ -1,0 +1,259 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{TKR{\etalchar{+}}10}
+
+\bibitem[AFP21]{AFP21}
+J.~Agredo, F.~Fagnola, and D.~Poletti.
+\newblock Gaussian quantum {M}arkov semigroups on a one-mode {F}ock space:
+  irreducibility and normal invariant states.
+\newblock {\em Open Syst. Inf. Dyn.}, 28(1):Paper No. 2150001, 39, 2021.
+
+\bibitem[AFP22a]{AFP22a}
+Juli\'an Agredo, Franco Fagnola, and Damiano Poletti.
+\newblock The decoherence-free subalgebra of {G}aussian quantum {M}arkov
+  semigroups.
+\newblock {\em Milan J. Math.}, 90(1):257--289, 2022.
+
+\bibitem[AFP22b]{AFP22b}
+Juli\'an Agredo, Franco Fagnola, and Damiano Poletti.
+\newblock The {K}ossakowski matrix and strict positivity of {M}arkovian quantum
+  dynamics.
+\newblock {\em Open Syst. Inf. Dyn.}, 29(2):Paper No. 2250005, 16, 2022.
+
+\bibitem[AL87]{AL87}
+R.~Alicki and K.~Lendi.
+\newblock {\em Quantum dynamical semigroups and applications}, volume 286 of
+  {\em Lecture Notes in Physics}.
+\newblock Springer-Verlag, Berlin, 1987.
+
+\bibitem[Bia03]{Bia03}
+Philippe Biane.
+\newblock Logarithmic {S}obolev inequalities, matrix models and free entropy.
+\newblock In {\em {International Workshop on Operator Algebra and Operator
+  Theory}}, volume~19 of {\em Acta Math. Sin. (Engl. Ser.)}, pages 497--506.
+  Springer, Berlin, 2003.
+
+\bibitem[BM24]{BM24}
+Morris Brooks and Jan Maas.
+\newblock Characterisation of gradient flows for a given functional.
+\newblock {\em Calc. Var. Partial Differential Equations}, 63(6):Paper No. 153,
+  22, 2024.
+
+\bibitem[CFK14]{CFK14}
+Fabio Cipriani, Uwe Franz, and Anna Kula.
+\newblock Symmetries of {L}\'evy processes on compact quantum groups, their
+  {M}arkov semigroups and potential theory.
+\newblock {\em J. Funct. Anal.}, 266(5):2789--2844, 2014.
+
+\bibitem[Cip08]{Cip08}
+Fabio Cipriani.
+\newblock Dirichlet forms on noncommutative spaces.
+\newblock In {\em Quantum potential theory}, volume 1954 of {\em Lecture Notes
+  in Math.}, pages 161--276. Springer, Berlin, 2008.
+
+\bibitem[Cip23]{Cip23}
+Fabio E.~G. Cipriani.
+\newblock The emergence of noncommutative potential theory.
+\newblock In {\em Quantum and stochastic mathematical physics}, volume 377 of
+  {\em Springer Proc. Math. Stat.}, pages 41--106. Springer, Cham, [2023]
+  \copyright 2023.
+
+\bibitem[CM20]{CM20}
+Eric~A. Carlen and Jan Maas.
+\newblock Non-commutative calculus, optimal transport and functional
+  inequalities in dissipative quantum systems.
+\newblock {\em J. Stat. Phys.}, 178(2):319--378, 2020.
+
+\bibitem[Con76]{Con76}
+A.~Connes.
+\newblock Classification of injective factors. {C}ases {$II\sb{1},$}
+  {$II\sb{\infty },$} {$III\sb{\lambda },$} {$\lambda \not=1$}.
+\newblock {\em Ann. of Math. (2)}, 104(1):73--115, 1976.
+
+\bibitem[CS03]{CS03}
+F.~Cipriani and J.-L. Sauvageot.
+\newblock Noncommutative potential theory and the sign of the curvature
+  operator in {R}iemannian geometry.
+\newblock {\em Geom. Funct. Anal.}, 13(3):521--545, 2003.
+
+\bibitem[CS09]{CS09}
+Fabio Cipriani and Jean-Luc Sauvageot.
+\newblock Fredholm modules on {P}.{C}.{F}. self-similar fractals and their
+  conformal geometry.
+\newblock {\em Comm. Math. Phys.}, 286(2):541--558, 2009.
+
+\bibitem[CS15]{CS15}
+Martijn Caspers and Adam Skalski.
+\newblock The {H}aagerup approximation property for von {N}eumann algebras via
+  quantum {M}arkov semigroups and {D}irichlet forms.
+\newblock {\em Comm. Math. Phys.}, 336(3):1637--1664, 2015.
+
+\bibitem[CS17]{CS17}
+Fabio Cipriani and Jean-Luc Sauvageot.
+\newblock Amenability and subexponential spectral growth rate of {D}irichlet
+  forms on von {N}eumann algebras.
+\newblock {\em Adv. Math.}, 322:308--340, 2017.
+
+\bibitem[Don67]{Don67}
+William~F. Donoghue, Jr.
+\newblock The interpolation of quadratic norms.
+\newblock {\em Acta Math.}, 118:251--270, 1967.
+
+\bibitem[DR89]{DR89}
+E.~B. Davies and O.~S. Rothaus.
+\newblock Markov semigroups on {$C^*$}-bundles.
+\newblock {\em J. Funct. Anal.}, 85(2):264--286, 1989.
+
+\bibitem[EN00]{EN00}
+Klaus-Jochen Engel and Rainer Nagel.
+\newblock {\em One-parameter semigroups for linear evolution equations}, volume
+  194 of {\em Graduate Texts in Mathematics}.
+\newblock Springer-Verlag, New York, 2000.
+\newblock With contributions by S. Brendle, M. Campiti, T. Hahn, G. Metafune,
+  G. Nickel, D. Pallara, C. Perazzoli, A. Rhandi, S. Romanelli and R.
+  Schnaubelt.
+
+\bibitem[Fag99]{Fag99}
+Franco Fagnola.
+\newblock Quantum {M}arkov semigroups and quantum flows.
+\newblock {\em Proyecciones}, 18(3):144, 1999.
+
+\bibitem[FL25]{FL25}
+Franco Fagnola and Zheng Li.
+\newblock Spectral {Analysis} for {Gaussian} {Quantum} {Markov} {Semigroups}.
+\newblock Preprint, {arXiv}:2504.12162 [math.{FA}] (2025), 2025.
+
+\bibitem[FP24]{FP24}
+Franco Fagnola and Damiano Poletti.
+\newblock A note on invariant states of {G}aussian quantum {M}arkov semigroups.
+\newblock {\em Infin. Dimens. Anal. Quantum Probab. Relat. Top.}, 27(4):Paper
+  No. 2440004, 15, 2024.
+
+\bibitem[FPSU25]{FPSU25}
+F.~Fagnola, D.~Poletti, E.~Sasso, and V.~Umanit\`a.
+\newblock The spectral gap of a {G}aussian quantum {M}arkovian generator.
+\newblock {\em J. Funct. Anal.}, 289(10):Paper No. 111119, 41, 2025.
+
+\bibitem[GKS76]{GKS76}
+Vittorio Gorini, Andrzej Kossakowski, and E.~C.~G. Sudarshan.
+\newblock Completely positive dynamical semigroups of {$N$}-level systems.
+\newblock {\em J. Mathematical Phys.}, 17(5):821--825, 1976.
+
+\bibitem[GP26]{GP26}
+Federico Girotti and Damiano Poletti.
+\newblock Gaussian quantum {M}arkov semigroups on finitely many modes admitting
+  a normal invariant state.
+\newblock {\em J. Math. Anal. Appl.}, 556(1):Paper No. 130150, 37, 2026.
+
+\bibitem[HJ24]{HJ24}
+Guixiang Hong and Yuanyuan Jing.
+\newblock Campanato spaces via quantum {M}arkov semigroups on finite von
+  {N}eumann algebras.
+\newblock {\em Int. Math. Res. Not. IMRN}, (21):13611--13641, 2024.
+
+\bibitem[HP82]{HP82}
+Frank Hansen and Gert~Kjaerg\.ard Pedersen.
+\newblock Jensen's inequality for operators and {L}\"owner's theorem.
+\newblock {\em Math. Ann.}, 258(3):229--241, 1982.
+
+\bibitem[HP84]{HP84}
+R.~L. Hudson and K.~R. Parthasarathy.
+\newblock Construction of quantum diffusions.
+\newblock In {\em Quantum probability and applications to the quantum theory of
+  irreversible processes ({V}illa {M}ondragone, 1982)}, volume 1055 of {\em
+  Lecture Notes in Math.}, pages 173--198. Springer, Berlin, 1984.
+
+\bibitem[JLMX06]{MLX06}
+Marius Junge, Christian Le~Merdy, and Quanhua Xu.
+\newblock {$H^\infty$} functional calculus and square functions on
+  noncommutative {$L^p$}-spaces.
+\newblock {\em Ast\'erisque}, (305):vi+138, 2006.
+
+\bibitem[JM10]{JM10}
+M.~Junge and T.~Mei.
+\newblock Noncommutative {R}iesz transforms---a probabilistic approach.
+\newblock {\em Amer. J. Math.}, 132(3):611--680, 2010.
+
+\bibitem[JM12]{JM12}
+M.~Junge and T.~Mei.
+\newblock B{MO} spaces associated with semigroups of operators.
+\newblock {\em Math. Ann.}, 352(3):691--743, 2012.
+
+\bibitem[KA80]{KA80}
+Fumio Kubo and Tsuyoshi Ando.
+\newblock Means of positive linear operators.
+\newblock {\em Math. Ann.}, 246(3):205--224, 1980.
+
+\bibitem[Li25]{Li25}
+Zheng Li.
+\newblock On the existence of the {KMS} spectral gap in {Gaussian} quantum
+  {Markov} semigroups.
+\newblock Preprint, {arXiv}:2512.23414 [math.{FA}] (2025), 2025.
+
+\bibitem[Lie73]{Lie73}
+Elliott~H. Lieb.
+\newblock Convex trace functions and the {W}igner-{Y}anase-{D}yson conjecture.
+\newblock {\em Advances in Math.}, 11:267--288, 1973.
+
+\bibitem[Lin76]{Lin76}
+G.~Lindblad.
+\newblock On the generators of quantum dynamical semigroups.
+\newblock {\em Comm. Math. Phys.}, 48(2):119--130, 1976.
+
+\bibitem[L{\"o}w34]{Low34}
+Karl L{\"o}wner.
+\newblock \"uber monotone {M}atrixfunktionen.
+\newblock {\em Math. Z.}, 38(1):177--216, 1934.
+
+\bibitem[Mos94]{Mos94}
+Umberto Mosco.
+\newblock Composite media and asymptotic {D}irichlet forms.
+\newblock {\em J. Funct. Anal.}, 123(2):368--421, 1994.
+
+\bibitem[Pet96]{Pet96}
+D\'enes Petz.
+\newblock Monotone metrics on matrix spaces.
+\newblock {\em Linear Algebra Appl.}, 244:81--96, 1996.
+
+\bibitem[Pet09a]{Pet09a}
+Jesse Peterson.
+\newblock A 1-cohomology characterization of property ({T}) in von {N}eumann
+  algebras.
+\newblock {\em Pacific J. Math.}, 243(1):181--199, 2009.
+
+\bibitem[Pet09b]{Pet09b}
+Jesse Peterson.
+\newblock {$L^2$}-rigidity in von {N}eumann algebras.
+\newblock {\em Invent. Math.}, 175(2):417--433, 2009.
+
+\bibitem[Pol22]{Pol22}
+Damiano Poletti.
+\newblock Characterization of {G}aussian quantum {M}arkov semigroups.
+\newblock In {\em Infinite dimensional analysis, quantum probability and
+  applications}, volume 390 of {\em Springer Proc. Math. Stat.}, pages
+  197--211. Springer, Cham, [2022] \copyright 2022.
+
+\bibitem[Sim19]{Sim19}
+Barry Simon.
+\newblock {\em Loewner's theorem on monotone matrix functions}, volume 354 of
+  {\em Grundlehren der mathematischen Wissenschaften [Fundamental Principles of
+  Mathematical Sciences]}.
+\newblock Springer, Cham, 2019.
+
+\bibitem[TKR{\etalchar{+}}10]{TKRWV10}
+K.~Temme, M.~J. Kastoryano, M.~B. Ruskai, M.~M. Wolf, and F.~Verstraete.
+\newblock The {$\chi^2$}-divergence and mixing times of quantum {M}arkov
+  processes.
+\newblock {\em J. Math. Phys.}, 51(12):122201, 19, 2010.
+
+\bibitem[VS84]{VS84}
+G.~F. Vincent-Smith.
+\newblock Dilation of a dissipative quantum dynamical system to a quantum
+  {M}arkov process.
+\newblock {\em Proc. London Math. Soc. (3)}, 49(1):58--72, 1984.
+
+\bibitem[Wat79]{Wat79}
+Seiji Watanabe.
+\newblock Ergodic theorems for dynamical semigroups on operator algebras.
+\newblock {\em Hokkaido Math. J.}, 8(2):176--190, 1979.
+
+\end{thebibliography}

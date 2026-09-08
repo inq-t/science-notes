@@ -2,8 +2,6 @@
 inq.module: "measured-response-carriers"
 inq.include:
   - './'
-inq.ambient:
-  - 'receipts/*.py'
 keywords:
   - measured response
   - GNS representation
@@ -62,7 +60,7 @@ Each arrow needs its own domain, kernel and comparison theorem. The state and ma
 
 [[measured-response-carriers/observable-bkm-gap-transfer|Operator-monotone gap transfer]] carries a GNS Markov gap to the observable BKM norm under the source theorem's faithful invariant-state and exponential-contraction hypotheses; GNS symmetry is not required. This addresses the observable score. [[measured-response-carriers/state-tangent-bkm-bridge|The state-tangent bridge]] separately uses the inverse BKM metric on density perturbations. In finite dimensions, its modular factor gives a canonical GNS realization; a Type-III score map still needs a tangent domain, intertwining and adequate range.
 
-[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|The descent-loss cocycle]] makes this distinction consequential. Data-processing losses add with transported arguments, but a preserving expectation's loss is vertical: it vanishes on recovered directions and has zero minimum over lifts of a retained tangent. That loss therefore cannot become retained stiffness merely by quotienting. Jointly transverse comparisons require their own lower frame.
+[[channel-loss-and-recovery/inq|Channel loss and recovery]] makes this distinction consequential. Data-processing losses add with transported arguments, but a preserving expectation's loss is vertical: it vanishes on recovered directions and has zero minimum over lifts of a retained tangent. That loss therefore cannot become retained stiffness merely by quotienting. Jointly transverse comparisons require their own lower frame.
 
 ## Pullbacks determine what a model can see
 

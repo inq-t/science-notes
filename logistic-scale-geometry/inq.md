@@ -2,6 +2,8 @@
 inq.module: logistic-scale-geometry
 inq.include:
   - './'
+inq.exclude:
+  - 'junk-drawer/'
 inq.ambient:
   - 'receipts/*.py'
   - 'receipts/*.txt'

@@ -1,0 +1,263 @@
+{
+  "section_map": "scripts/refactors/2026-09-08-channel-loss-sections.json",
+  "scope": "Mechanical active incoming redirects for the retired source, with exact-heading destinations and semantic overrides for bare links. Later editorial changes remain visible in Git. Frozen sources retain original bytes.",
+  "active_files_updated": [
+    {
+      "path": "algebra/finite-entropy-cost-and-rank-changing-readout.md",
+      "before_sha256": "4ffcf1b64e08878cf73fbbee7679576c994c01f63cec3ca7fc87bbb417f63510",
+      "after_sha256": "d12b880c6d64eb9980c70018bc13397808ee1567b5e873a61143c125c4359d3d",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency"
+        ]
+      ]
+    },
+    {
+      "path": "algebra/moving-response-balance-and-a-ruble-operator-signature.md",
+      "before_sha256": "09323f387214be4b63a703238904cb1f267742614bff8719353a136469a1db87",
+      "after_sha256": "98807788f4410970cc50e137343318eb77fa44c5fe1c78563439df79e1e5ccf6",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/bkm-loss-operators"
+        ]
+      ]
+    },
+    {
+      "path": "causal-grain-cosmology/causal-grain-as-a-mass-engagement-fossil.md",
+      "before_sha256": "fafcfde697c57ffe41df49fbb8b7c95d30050b3c61ca7a03f6d47525ae739358",
+      "after_sha256": "02faa5753fed8d714db7121270028c8119fcffc03b9d60acdeefd8f97a4acc89",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The paired-wall operator signature",
+          "physical-response-coercivity/paired-wall-casimir-comparison#The paired-wall operator signature"
+        ],
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/inq"
+        ]
+      ]
+    },
+    {
+      "path": "causal-grain-cosmology/pair-annihilation-quotient-and-the-baryon-acoustic-carrier.md",
+      "before_sha256": "181d4e7bcd6dd79be46015b5f6ed274899d9a2f27c622d0b1e9b058238f6918c",
+      "after_sha256": "330006fb0862df388fa3aa0ae2da2f3879c571da8b96dc0591f45940938c585b",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/preserving-expectation-loss"
+        ]
+      ]
+    },
+    {
+      "path": "distinction-grain-spectrum/inq.md",
+      "before_sha256": "514fadbdf1403fa99edc87e2f5b46d3392fbbd90ee6f4e98a5dc63a843507518",
+      "after_sha256": "515dbbf93b12ce2f315c315817fe06378a9a5d0cb8bf0b375121dcfde16da22b",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/inq"
+        ]
+      ]
+    },
+    {
+      "path": "general-causal-action/research-schema.md",
+      "before_sha256": "1a671b8ed19fc466396daf3c1cf9d14a801793f5d85a35929ea15a78a833663f",
+      "after_sha256": "c14871f161521059d4f48dd7e64eac6541d70114420c1f6735bdf082253b67e9",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/inq"
+        ]
+      ]
+    },
+    {
+      "path": "global-local-response-reconstruction/realization-ledger.md",
+      "before_sha256": "798354678c3b7319230a78743d92d783fb100f553228d5ffd61600485cbf0baf",
+      "after_sha256": "4cf068b19efc78a794abc2367865264f52700b72625e737e63c97565a42ecfff",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency"
+        ]
+      ]
+    },
+    {
+      "path": "logistic-scale-geometry/scale-wall-to-casimir-comparison.md",
+      "before_sha256": "62b31245b1da3d0285259fcb49141373483c01e4f37fae9bf15738df9f043df3",
+      "after_sha256": "1a7f97fbbd3cc0d04a9d81951184895f8362136a7c42bd3f96561d3fede39da3",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#QFT compatibility belongs after the nonfaithful quotient",
+          "physical-response-coercivity/quotient-to-qft-realization#QFT compatibility belongs after the nonfaithful quotient"
+        ]
+      ]
+    },
+    {
+      "path": "measured-response-carriers/inq.md",
+      "before_sha256": "ba0c0542b19cb4bf50a57fd7a8c8a04984b4bb410ae5db5915afc7634fc282b4",
+      "after_sha256": "df1e1d29d3859fc95e8d6be72522a33aab4b7f55201ebe9a8415b6ffbecc44a7",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/inq"
+        ]
+      ]
+    },
+    {
+      "path": "measured-response-carriers/state-tangent-bkm-bridge.md",
+      "before_sha256": "81b49bb448580dab30f02202dd6c1085648ff4b1c0547c08ce4015e8c030d158",
+      "after_sha256": "9840c06d560fe2aae7cf1a213447547d274290d7d9322f51253ab4e94aab6dec",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/inq"
+        ]
+      ]
+    },
+    {
+      "path": "spectral-wall-descent/conditional-expectation-balance.md",
+      "before_sha256": "42c9eaa8874ca1ddf8363e8a875ebdaa494195ae6ad9e0dddbe804cca8f03782",
+      "after_sha256": "b0ff611aee703407c8e3de373c4b5b9e2246aef6208c4c609f5de8e4203dc078",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The preserving-expectation Hessian is vertical",
+          "channel-loss-and-recovery/preserving-expectation-loss#The preserving-expectation Hessian is vertical"
+        ],
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Minimal-lift transgression puts a form on the output",
+          "channel-loss-and-recovery/minimum-lift-output-forms#Minimal-lift transgression puts a form on the output"
+        ]
+      ]
+    },
+    {
+      "path": "spectral-wall-descent/inq.md",
+      "before_sha256": "41a7b31f930f43c5414038d4402738a3a9673b7b4d89480cbc7ef3df11b82d2e",
+      "after_sha256": "254b04004af4347a0b349d247699a439567fbbba752df4623f79ede10f1bb089",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The preserving-expectation Hessian is vertical",
+          "channel-loss-and-recovery/preserving-expectation-loss#The preserving-expectation Hessian is vertical"
+        ]
+      ]
+    },
+    {
+      "path": "sufficient-reason/noninvertible-presentation-and-apparent-chance.md",
+      "before_sha256": "9f578dcfd0d771678bda0007cf5a4d8be7fbcc00c0e764a8a110f968c53264d3",
+      "after_sha256": "6c1c393f4c3622ac548fede03a14aea5e01d40eb943f03d31502fc5990d8a609",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/normalization-and-coercivity-limits#Local invertibility still does not give global coercivity"
+        ]
+      ]
+    },
+    {
+      "path": "trace-dirichlet-descent/pointed-facts-and-the-shorted-response.md",
+      "before_sha256": "3c101e029eaa5aadb1aebe2dd2536b578af3c08412728cd1d266cc3a3b3dbc9a",
+      "after_sha256": "0fc085c3e989c3725eb660776235e1a57817f40dbaa30fb87330a40de3fda9b7",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/preserving-expectation-loss"
+        ]
+      ]
+    },
+    {
+      "path": "vacuum-aligned-transfer-cocycle/inq.md",
+      "before_sha256": "f914f1a44c0b44a7b05c66239c7bc7fcd54a04d4116698ceded04dd526f23625",
+      "after_sha256": "e88a6ded80b6ead58fbcf81e7d819be08018e24710ffded1668a93b35ede69b6",
+      "links": [
+        [
+          "measured-response-carriers/descent-loss-cocycle-and-recovery-fork",
+          "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency"
+        ]
+      ]
+    }
+  ],
+  "frozen_files_checked": 295,
+  "frozen_files_unchanged": true,
+  "source_equation_labels": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D5a",
+    "D5b",
+    "D5c",
+    "D5d",
+    "D5e",
+    "D5f",
+    "D5g",
+    "D5h",
+    "D5h.0",
+    "D5h.1",
+    "D5h.2",
+    "D5h.3",
+    "D5h.4",
+    "D5h.5",
+    "D5h.6",
+    "D5h.7",
+    "D5i",
+    "D5j",
+    "D5k",
+    "D5l",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D9a",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D18",
+    "D19",
+    "D19a",
+    "D19b",
+    "D19c",
+    "D19d",
+    "D19e",
+    "D20",
+    "D21",
+    "D22",
+    "D23",
+    "D23a"
+  ],
+  "all_source_labels_have_one_destination": true,
+  "source_retired": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork.md",
+  "source_retired_from_revision": "53fe228",
+  "opaque_history_packaging": {
+    "module": "logistic-scale-geometry",
+    "change": "Exclude junk-drawer/ from note parsing while retaining its existing ambient resource selection. Historical Markdown bytes and original links remain unchanged."
+  },
+  "validation": {
+    "original_equation_labels_preserved": 50,
+    "checked_active_heading_targets": 33,
+    "scoped_module_audit": "No unreachable notes, unlinked resources, unresolved paths or format warnings in the changed construction modules and reviewed library modules.",
+    "numerical_checks": "Unchanged cocycle/minimum-lift receipt passes. Fixed-index BKM loss eigenvalue and quotient ratio checked at t=0.01, 0.2 and 0.7 to error below 7e-15.",
+    "staged_primary_artifacts_verified": 14,
+    "raw_source_whitespace": "Downloaded TeX, bibliography and extracted search text retain original or recorded derivative bytes, including source whitespace; authored files receive a separate staged whitespace check.",
+    "inq_version": "0.4.0",
+    "inq_lint_existing_errors": 23,
+    "inq_lint_additional_source_link_errors": 9,
+    "inq_lint_discrepancy": "Inq inventory and describe admit these source files, while lint calls their exact linked paths unresolved or excluded. The scoped filesystem resolver, file modes, hashes and source archive extraction checks pass. The same discrepancy reproduces in a fresh cache and an isolated three-module copy; explicit ambient selectors and relative wiki or Markdown links do not resolve it. Canonical links and source bytes are preserved; the internal validator cause is unconfirmed.",
+    "affected_library_modules": [
+      "library/approximate-recoverability-and-relative-entropy-ii",
+      "library/derivations-and-kms-symmetric-quantum-markov-semigroups",
+      "library/the-kms-and-gns-spectral-gap-of-quantum-markov-semigroups"
+    ],
+    "affected_resource_kinds": [
+      "source/*.tex",
+      "source/*.bbl",
+      "source/00README.json",
+      "source-provenance.json"
+    ]
+  }
+}

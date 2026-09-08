@@ -63,10 +63,10 @@ T_\omega\mathcal S_{\mathrm{faithful}}&
 An equality or comparison between them requires a score, standard-form, or
 other tangent-to-GNS map with its domain and normalization proved.
 
-[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|The
+[[channel-loss-and-recovery/inq|The
 descent-loss cocycle]] makes composition and output passage explicit.
 Incoming state-tangent losses add with transported arguments under channel
-composition. For a preserving expectation, the loss is the squared BKM norm
+composition. For a preserving expectation, the loss Hessian is the squared BKM norm
 of the forgotten component, while its infimum over lifts of every retained
 tangent is zero. A general contraction instead defines a minimum-lift output
 form relative to its two supplied metrics; these output forms compose by

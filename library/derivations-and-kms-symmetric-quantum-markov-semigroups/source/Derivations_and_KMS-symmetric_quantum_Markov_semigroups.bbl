@@ -1,0 +1,2354 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{AC21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c5f09a9f4fe16f669653c21b76fe016}{%
+           family={Amorim},
+           familyi={A\bibinitperiod},
+           given={Érik},
+           giveni={É\bibinitperiod}}}%
+        {{hash=11ed6177711d2df4ed0ce82034aabf6a}{%
+           family={Carlen},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fb2306ee84adb58879c3db03c0c864f}
+      \strng{fullhash}{8fb2306ee84adb58879c3db03c0c864f}
+      \strng{bibnamehash}{8fb2306ee84adb58879c3db03c0c864f}
+      \strng{authorbibnamehash}{8fb2306ee84adb58879c3db03c0c864f}
+      \strng{authornamehash}{8fb2306ee84adb58879c3db03c0c864f}
+      \strng{authorfullhash}{8fb2306ee84adb58879c3db03c0c864f}
+      \field{labelalpha}{AC21}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-3795}
+      \field{journaltitle}{Linear Algebra Appl.}
+      \field{title}{Complete positivity and self-adjointness}
+      \field{volume}{611}
+      \field{year}{2021}
+      \field{pages}{389\bibrangedash 439}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.1016/j.laa.2020.10.038
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.laa.2020.10.038
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.laa.2020.10.038
+      \endverb
+    \endentry
+    \entry{AC82}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ca3a166a9210214acdbd4b8e7c4f659e}{%
+           family={Accardi},
+           familyi={A\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6fbf1ccd10c17c787274759aeea63ab0}{%
+           family={Cecchini},
+           familyi={C\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{70da8bd2cf92a38661a04f797297d397}
+      \strng{fullhash}{70da8bd2cf92a38661a04f797297d397}
+      \strng{bibnamehash}{70da8bd2cf92a38661a04f797297d397}
+      \strng{authorbibnamehash}{70da8bd2cf92a38661a04f797297d397}
+      \strng{authornamehash}{70da8bd2cf92a38661a04f797297d397}
+      \strng{authorfullhash}{70da8bd2cf92a38661a04f797297d397}
+      \field{labelalpha}{AC82}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Functional Analysis}
+      \field{number}{2}
+      \field{title}{Conditional expectations in von {N}eumann algebras and a theorem of {T}akesaki}
+      \field{volume}{45}
+      \field{year}{1982}
+      \field{pages}{245\bibrangedash 273}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/0022-1236(82)90022-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0022-1236(82)90022-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0022-1236(82)90022-2
+      \endverb
+    \endentry
+    \entry{AH77}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd53288b512c544432cf5bf27633f977}{%
+           family={Albeverio},
+           familyi={A\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=317bc11a31a3100bb43135f97e1aa045}{%
+           family={{H{ø}egh-Krohn}},
+           familyi={H\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \strng{fullhash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \strng{bibnamehash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \strng{authorbibnamehash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \strng{authornamehash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \strng{authorfullhash}{08821ba23e74c1c4832d5c9e8a928af9}
+      \field{labelalpha}{AH77}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{Dirichlet forms and {M}arkov semigroups on {$C\sp*$}-algebras}
+      \field{volume}{56}
+      \field{year}{1977}
+      \field{pages}{173\bibrangedash 187}
+      \range{pages}{15}
+    \endentry
+    \entry{Ali76}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cb85060412d22f91849050754273e404}{%
+           family={Alicki},
+           familyi={A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb85060412d22f91849050754273e404}
+      \strng{fullhash}{cb85060412d22f91849050754273e404}
+      \strng{bibnamehash}{cb85060412d22f91849050754273e404}
+      \strng{authorbibnamehash}{cb85060412d22f91849050754273e404}
+      \strng{authornamehash}{cb85060412d22f91849050754273e404}
+      \strng{authorfullhash}{cb85060412d22f91849050754273e404}
+      \field{labelalpha}{Ali76}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0034-4877}
+      \field{journaltitle}{Rep. Math. Phys.}
+      \field{number}{2}
+      \field{title}{On the detailed balance condition for non-{H}amiltonian systems}
+      \field{volume}{10}
+      \field{year}{1976}
+      \field{pages}{249\bibrangedash 258}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0034-4877(76)90046-X
+      \endverb
+      \verb{urlraw}
+      \verb https://doi-org.libraryproxy.ist.ac.at/10.1016/0034-4877(76)90046-X
+      \endverb
+      \verb{url}
+      \verb https://doi-org.libraryproxy.ist.ac.at/10.1016/0034-4877(76)90046-X
+      \endverb
+    \endentry
+    \entry{Arh23}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cb22aaf728e858e4c1a862dfb658aa4a}{%
+           family={Arhancet},
+           familyi={A\bibinitperiod},
+           given={Cédric},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \strng{fullhash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \strng{bibnamehash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \strng{authorbibnamehash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \strng{authornamehash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \strng{authorfullhash}{cb22aaf728e858e4c1a862dfb658aa4a}
+      \field{labelalpha}{Arh23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Spectral triples, Coulhon-Varopoulos dimension and heat kernel estimates}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2209.12263
+      \endverb
+    \endentry
+    \entry{AZ15}{article}{}
+      \name{author}{2}{}{%
+        {{hash=84633de7df87cd0fd913e0db1b85f2b2}{%
+           family={Androulakis},
+           familyi={A\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=80d9dca7af63d8dddf232467863dbf24}{%
+           family={Ziemke},
+           familyi={Z\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \strng{fullhash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \strng{bibnamehash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \strng{authorbibnamehash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \strng{authornamehash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \strng{authorfullhash}{1411801e8d7d58e81d4d059e4017ae3e}
+      \field{labelalpha}{AZ15}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-2488}
+      \field{journaltitle}{J. Math. Phys.}
+      \field{number}{8}
+      \field{title}{Generators of quantum {M}arkov semigroups}
+      \field{volume}{56}
+      \field{year}{2015}
+      \field{pages}{083512\bibrangessep 16}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1063/1.4928936
+      \endverb
+      \verb{urlraw}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1063/1.4928936
+      \endverb
+      \verb{url}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1063/1.4928936
+      \endverb
+    \endentry
+    \entry{Bar17}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d6e96effe2956d061d102a4f6829afb1}{%
+           family={Bardet},
+           familyi={B\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{d6e96effe2956d061d102a4f6829afb1}
+      \strng{fullhash}{d6e96effe2956d061d102a4f6829afb1}
+      \strng{bibnamehash}{d6e96effe2956d061d102a4f6829afb1}
+      \strng{authorbibnamehash}{d6e96effe2956d061d102a4f6829afb1}
+      \strng{authornamehash}{d6e96effe2956d061d102a4f6829afb1}
+      \strng{authorfullhash}{d6e96effe2956d061d102a4f6829afb1}
+      \field{labelalpha}{Bar17}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Estimating the decoherence time using non-commutative Functional Inequalities}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1710.01039
+      \endverb
+      \verb{eprint}
+      \verb 1710.01039
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1710.01039
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1710.01039
+      \endverb
+      \keyw{Quantum Physics (quant-ph),Mathematical Physics (math-ph),Functional Analysis (math.FA),Probability (math.PR),FOS: Physical sciences,FOS: Physical sciences,FOS: Mathematics,FOS: Mathematics}
+    \endentry
+    \entry{Bia03}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7f08512df794b88b3fdd0097d05065fe}{%
+           family={Biane},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f08512df794b88b3fdd0097d05065fe}
+      \strng{fullhash}{7f08512df794b88b3fdd0097d05065fe}
+      \strng{bibnamehash}{7f08512df794b88b3fdd0097d05065fe}
+      \strng{authorbibnamehash}{7f08512df794b88b3fdd0097d05065fe}
+      \strng{authornamehash}{7f08512df794b88b3fdd0097d05065fe}
+      \strng{authorfullhash}{7f08512df794b88b3fdd0097d05065fe}
+      \field{labelalpha}{Bia03}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1439-8516}
+      \field{journaltitle}{Acta Math. Sin. (Engl. Ser.)}
+      \field{note}{International Workshop on Operator Algebra and Operator Theory (Linfen, 2001)}
+      \field{number}{3}
+      \field{title}{Logarithmic {S}obolev inequalities, matrix models and free entropy}
+      \field{volume}{19}
+      \field{year}{2003}
+      \field{pages}{497\bibrangedash 506}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s10114-003-0271-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10114-003-0271-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10114-003-0271-5
+      \endverb
+    \endentry
+    \entry{BK19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d261a8dbca8968e4744386578c7a9831}{%
+           family={Baudoin},
+           familyi={B\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a2316272975d7776123753bfb2c2c5cb}{%
+           family={Kelleher},
+           familyi={K\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \strng{fullhash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \strng{bibnamehash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \strng{authorbibnamehash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \strng{authornamehash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \strng{authorfullhash}{d86a9bbdd54d34a4a45b31ea914b9e3b}
+      \field{labelalpha}{BK19}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Amer. Math. Soc.}
+      \field{number}{5}
+      \field{title}{Differential one-forms on {D}irichlet spaces and {B}akry-Émery estimates on metric graphs}
+      \field{volume}{371}
+      \field{year}{2019}
+      \field{pages}{3145\bibrangedash 3178}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1090/tran/7362
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/tran/7362
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/tran/7362
+      \endverb
+    \endentry
+    \entry{Bla06}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0be51c841ed33a4d7b37182b9da567b9}{%
+           family={Blackadar},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag, Berlin}%
+      }
+      \strng{namehash}{0be51c841ed33a4d7b37182b9da567b9}
+      \strng{fullhash}{0be51c841ed33a4d7b37182b9da567b9}
+      \strng{bibnamehash}{0be51c841ed33a4d7b37182b9da567b9}
+      \strng{authorbibnamehash}{0be51c841ed33a4d7b37182b9da567b9}
+      \strng{authornamehash}{0be51c841ed33a4d7b37182b9da567b9}
+      \strng{authorfullhash}{0be51c841ed33a4d7b37182b9da567b9}
+      \field{labelalpha}{Bla06}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-28486-4; 3-540-28486-9}
+      \field{note}{Theory of $C^*$-algebras and von Neumann algebras, Operator Algebras and Non-commutative Geometry, III}
+      \field{series}{Encyclopaedia of Mathematical Sciences}
+      \field{title}{Operator algebras}
+      \field{volume}{122}
+      \field{year}{2006}
+      \field{pages}{xx+517}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1007/3-540-28517-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/3-540-28517-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/3-540-28517-2
+      \endverb
+    \endentry
+    \entry{Cas21}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c42eac407a7c424479484a1850e32704}{%
+           family={Caspers},
+           familyi={C\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c42eac407a7c424479484a1850e32704}
+      \strng{fullhash}{c42eac407a7c424479484a1850e32704}
+      \strng{bibnamehash}{c42eac407a7c424479484a1850e32704}
+      \strng{authorbibnamehash}{c42eac407a7c424479484a1850e32704}
+      \strng{authornamehash}{c42eac407a7c424479484a1850e32704}
+      \strng{authorfullhash}{c42eac407a7c424479484a1850e32704}
+      \field{labelalpha}{Cas21}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5831}
+      \field{journaltitle}{Math. Ann.}
+      \field{number}{1-2}
+      \field{title}{Gradient forms and strong solidity of free quantum groups}
+      \field{volume}{379}
+      \field{year}{2021}
+      \field{pages}{271\bibrangedash 324}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1007/s00208-020-02109-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00208-020-02109-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00208-020-02109-y
+      \endverb
+    \endentry
+    \entry{CE79}{article}{}
+      \name{author}{2}{}{%
+        {{hash=39c657bc09863663530ff4d2d2ec0948}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3d487056627df26a64b75c3d28173773}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \strng{fullhash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \strng{bibnamehash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \strng{authorbibnamehash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \strng{authornamehash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \strng{authorfullhash}{fd9d2c4ab2769609ca1e6b6eb341257a}
+      \field{labelalpha}{CE79}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-6107}
+      \field{journaltitle}{J. London Math. Soc. (2)}
+      \field{number}{2}
+      \field{title}{Cohomology of operator algebras and quantum dynamical semigroups}
+      \field{volume}{20}
+      \field{year}{1979}
+      \field{pages}{358\bibrangedash 368}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1112/jlms/s2-20.2.358
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1112/jlms/s2-20.2.358
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1112/jlms/s2-20.2.358
+      \endverb
+    \endentry
+    \entry{CFK14}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bf0873c447070924e361b2dce8c9932f}{%
+           family={Cipriani},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9b7749a11a995af3a05a1867e9db2e29}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod}}}%
+        {{hash=ce68c154f2e6070bd081a9f6892e374f}{%
+           family={Kula},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \strng{fullhash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \strng{bibnamehash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \strng{authorbibnamehash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \strng{authornamehash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \strng{authorfullhash}{0465d3ed6758bfa77922bcca53ff20c8}
+      \field{labelalpha}{CFK14}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{5}
+      \field{title}{Symmetries of {L}évy processes on compact quantum groups, their {M}arkov semigroups and potential theory}
+      \field{volume}{266}
+      \field{year}{2014}
+      \field{pages}{2789\bibrangedash 2844}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1016/j.jfa.2013.11.026
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jfa.2013.11.026
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jfa.2013.11.026
+      \endverb
+    \endentry
+    \entry{Cip97}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bf0873c447070924e361b2dce8c9932f}{%
+           family={Cipriani},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf0873c447070924e361b2dce8c9932f}
+      \strng{fullhash}{bf0873c447070924e361b2dce8c9932f}
+      \strng{bibnamehash}{bf0873c447070924e361b2dce8c9932f}
+      \strng{authorbibnamehash}{bf0873c447070924e361b2dce8c9932f}
+      \strng{authornamehash}{bf0873c447070924e361b2dce8c9932f}
+      \strng{authorfullhash}{bf0873c447070924e361b2dce8c9932f}
+      \field{labelalpha}{Cip97}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{2}
+      \field{title}{Dirichlet forms and {M}arkovian semigroups on standard forms of von {N}eumann algebras}
+      \field{volume}{147}
+      \field{year}{1997}
+      \field{pages}{259\bibrangedash 300}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1006/jfan.1996.3063
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1006/jfan.1996.3063
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1006/jfan.1996.3063
+      \endverb
+    \endentry
+    \entry{CIW21}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c42eac407a7c424479484a1850e32704}{%
+           family={Caspers},
+           familyi={C\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7ca8fd5f346f156bdcb66145ecfa83f6}{%
+           family={Isono},
+           familyi={I\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1ce01a58f81bf0f6c8847fd3a2b1e198}{%
+           family={Wasilewski},
+           familyi={W\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \strng{fullhash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \strng{bibnamehash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \strng{authorbibnamehash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \strng{authornamehash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \strng{authorfullhash}{703f01ed9026aa3407a6ae2a3f5bf10b}
+      \field{labelalpha}{CIW21}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1073-7928}
+      \field{journaltitle}{Int. Math. Res. Not. IMRN}
+      \field{number}{9}
+      \field{title}{{$L_2$}-cohomology, derivations, and quantum {M}arkov semi-groups on {$q$}-{G}aussian algebras}
+      \field{year}{2021}
+      \field{pages}{6405\bibrangedash 6441}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1093/imrn/rnaa044
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/imrn/rnaa044
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/imrn/rnaa044
+      \endverb
+    \endentry
+    \entry{CM17}{article}{}
+      \name{author}{2}{}{%
+        {{hash=11ed6177711d2df4ed0ce82034aabf6a}{%
+           family={Carlen},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a2a6616efceb7a78b10661e00cd48076}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{fullhash}{4e11afb768ec475c174075ea8d786275}
+      \strng{bibnamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authorbibnamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authornamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authorfullhash}{4e11afb768ec475c174075ea8d786275}
+      \field{extraname}{1}
+      \field{labelalpha}{CM17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{5}
+      \field{title}{Gradient flow and entropy inequalities for quantum {M}arkov semigroups with detailed balance}
+      \field{volume}{273}
+      \field{year}{2017}
+      \field{pages}{1810\bibrangedash 1869}
+      \range{pages}{60}
+      \verb{doi}
+      \verb 10.1016/j.jfa.2017.05.003
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jfa.2017.05.003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jfa.2017.05.003
+      \endverb
+    \endentry
+    \entry{CM20}{article}{}
+      \name{author}{2}{}{%
+        {{hash=11ed6177711d2df4ed0ce82034aabf6a}{%
+           family={Carlen},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a2a6616efceb7a78b10661e00cd48076}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{fullhash}{4e11afb768ec475c174075ea8d786275}
+      \strng{bibnamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authorbibnamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authornamehash}{4e11afb768ec475c174075ea8d786275}
+      \strng{authorfullhash}{4e11afb768ec475c174075ea8d786275}
+      \field{extraname}{2}
+      \field{labelalpha}{CM20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4715}
+      \field{journaltitle}{J. Stat. Phys.}
+      \field{number}{2}
+      \field{title}{Non-commutative {C}alculus, {O}ptimal {T}ransport and {F}unctional {I}nequalities in {D}issipative {Q}uantum {S}ystems}
+      \field{volume}{178}
+      \field{year}{2020}
+      \field{pages}{319\bibrangedash 378}
+      \range{pages}{60}
+      \verb{doi}
+      \verb 10.1007/s10955-019-02434-w
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10955-019-02434-w
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10955-019-02434-w
+      \endverb
+    \endentry
+    \entry{Con94}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3745cf9244a5815447aea11906514603}{%
+           family={Connes},
+           familyi={C\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press, Inc., San Diego, CA}%
+      }
+      \strng{namehash}{3745cf9244a5815447aea11906514603}
+      \strng{fullhash}{3745cf9244a5815447aea11906514603}
+      \strng{bibnamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authorbibnamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authornamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authorfullhash}{3745cf9244a5815447aea11906514603}
+      \field{labelalpha}{Con94}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-12-185860-X}
+      \field{title}{Noncommutative geometry}
+      \field{year}{1994}
+      \field{pages}{xiv+661}
+      \range{pages}{-1}
+    \endentry
+    \entry{CS03b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf0873c447070924e361b2dce8c9932f}{%
+           family={Cipriani},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ad4154cbe820acd495457931f08d7a48}{%
+           family={Sauvageot},
+           familyi={S\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{fullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{bibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorbibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authornamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorfullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \field{extraname}{1}
+      \field{labelalpha}{CS03}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{1}
+      \field{title}{Derivations as square roots of {D}irichlet forms}
+      \field{volume}{201}
+      \field{year}{2003}
+      \field{pages}{78\bibrangedash 120}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1016/S0022-1236(03)00085-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0022-1236(03)00085-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0022-1236(03)00085-5
+      \endverb
+    \endentry
+    \entry{CS03a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf0873c447070924e361b2dce8c9932f}{%
+           family={Cipriani},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ad4154cbe820acd495457931f08d7a48}{%
+           family={Sauvageot},
+           familyi={S\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{fullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{bibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorbibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authornamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorfullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \field{extraname}{2}
+      \field{labelalpha}{CS03}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1016-443X}
+      \field{journaltitle}{Geom. Funct. Anal.}
+      \field{number}{3}
+      \field{title}{Noncommutative potential theory and the sign of the curvature operator in {R}iemannian geometry}
+      \field{volume}{13}
+      \field{year}{2003}
+      \field{pages}{521\bibrangedash 545}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s00039-003-0421-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00039-003-0421-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00039-003-0421-z
+      \endverb
+    \endentry
+    \entry{CS15}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c42eac407a7c424479484a1850e32704}{%
+           family={Caspers},
+           familyi={C\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod}}}%
+        {{hash=65b38994c0863a8a2f50410b6c6624ee}{%
+           family={Skalski},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cda128a9308e878f7ee66165fc8827c}
+      \strng{fullhash}{1cda128a9308e878f7ee66165fc8827c}
+      \strng{bibnamehash}{1cda128a9308e878f7ee66165fc8827c}
+      \strng{authorbibnamehash}{1cda128a9308e878f7ee66165fc8827c}
+      \strng{authornamehash}{1cda128a9308e878f7ee66165fc8827c}
+      \strng{authorfullhash}{1cda128a9308e878f7ee66165fc8827c}
+      \field{labelalpha}{CS15}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{3}
+      \field{title}{The {H}aagerup approximation property for von {N}eumann algebras via quantum {M}arkov semigroups and {D}irichlet forms}
+      \field{volume}{336}
+      \field{year}{2015}
+      \field{pages}{1637\bibrangedash 1664}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s00220-015-2302-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s00220-015-2302-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s00220-015-2302-3
+      \endverb
+    \endentry
+    \entry{CS17}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf0873c447070924e361b2dce8c9932f}{%
+           family={Cipriani},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ad4154cbe820acd495457931f08d7a48}{%
+           family={Sauvageot},
+           familyi={S\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{fullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{bibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorbibnamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authornamehash}{c3a49a9308785ea478ceadd28e4177a7}
+      \strng{authorfullhash}{c3a49a9308785ea478ceadd28e4177a7}
+      \field{extraname}{3}
+      \field{labelalpha}{CS17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{title}{Amenability and subexponential spectral growth rate of {D}irichlet forms on von {N}eumann algebras}
+      \field{volume}{322}
+      \field{year}{2017}
+      \field{pages}{308\bibrangedash 340}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/j.aim.2017.10.017
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.aim.2017.10.017
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.aim.2017.10.017
+      \endverb
+    \endentry
+    \entry{CZ76}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb558caa94448ef31a1cb99ee6549aa2}{%
+           family={Ciorănescu},
+           familyi={C\bibinitperiod},
+           given={Ioana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=79731265ca4249ef510f5a7e74c55a42}{%
+           family={Zsidó},
+           familyi={Z\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \strng{fullhash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \strng{bibnamehash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \strng{authorbibnamehash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \strng{authornamehash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \strng{authorfullhash}{b140fb74f78d5242ad7fbfd917a2c3ec}
+      \field{labelalpha}{CZ76}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-8735}
+      \field{journaltitle}{Tohoku Math. J. (2)}
+      \field{number}{3}
+      \field{title}{Analytic generators for one-parameter groups}
+      \field{volume}{28}
+      \field{year}{1976}
+      \field{pages}{327\bibrangedash 362}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.2748/tmj/1178240775
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2748/tmj/1178240775
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2748/tmj/1178240775
+      \endverb
+    \endentry
+    \entry{Dab10}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=27097d60bbf7ea42c2021eb4be93f072}{%
+           family={Dabrowski},
+           familyi={D\bibinitperiod},
+           given={Yoann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{27097d60bbf7ea42c2021eb4be93f072}
+      \strng{fullhash}{27097d60bbf7ea42c2021eb4be93f072}
+      \strng{bibnamehash}{27097d60bbf7ea42c2021eb4be93f072}
+      \strng{authorbibnamehash}{27097d60bbf7ea42c2021eb4be93f072}
+      \strng{authornamehash}{27097d60bbf7ea42c2021eb4be93f072}
+      \strng{authorfullhash}{27097d60bbf7ea42c2021eb4be93f072}
+      \field{labelalpha}{Dab10}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OA}
+      \field{eprinttype}{arXiv}
+      \field{title}{A non-commutative Path Space approach to stationary free Stochastic Differential Equations}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb 1006.4351
+      \endverb
+    \endentry
+    \entry{Dav79}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d8494ba0f8b50ce7230ea01c1bdd84cf}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={E.Brian},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \strng{fullhash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \strng{bibnamehash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \strng{authorbibnamehash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \strng{authornamehash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \strng{authorfullhash}{d8494ba0f8b50ce7230ea01c1bdd84cf}
+      \field{labelalpha}{Dav79}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give a detailed description of the generators of those strongly continuous quantum dynamical semigroups which possess a pure stationary state or an associated extension property.}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{Journal of Functional Analysis}
+      \field{number}{3}
+      \field{title}{Generators of dynamical semigroups}
+      \field{volume}{34}
+      \field{year}{1979}
+      \field{pages}{421\bibrangedash 432}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-1236(79)90085-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022123679900855
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022123679900855
+      \endverb
+    \endentry
+    \entry{DI16}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27097d60bbf7ea42c2021eb4be93f072}{%
+           family={Dabrowski},
+           familyi={D\bibinitperiod},
+           given={Yoann},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=edef9b35fd617faac14466c4bc353b21}{%
+           family={Ioana},
+           familyi={I\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \strng{fullhash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \strng{bibnamehash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \strng{authorbibnamehash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \strng{authornamehash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \strng{authorfullhash}{5b07b1ec0dea5bd7b43ec0f4a3d0e41d}
+      \field{labelalpha}{DI16}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Amer. Math. Soc.}
+      \field{number}{7}
+      \field{title}{Unbounded derivations, free dilations, and indecomposability results for {$\rm II_1$} factors}
+      \field{volume}{368}
+      \field{year}{2016}
+      \field{pages}{4525\bibrangedash 4560}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1090/tran/6470
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/tran/6470
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/tran/6470
+      \endverb
+    \endentry
+    \entry{DL92}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d8494ba0f8b50ce7230ea01c1bdd84cf}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi Brian},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d606258779c2de3f6c9b7e109aaadcdc}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{fullhash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{bibnamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authorbibnamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authornamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authorfullhash}{1bd2672a651d415437f4e2e0481e1bff}
+      \field{extraname}{1}
+      \field{labelalpha}{DL92}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5874}
+      \field{journaltitle}{Math. Z.}
+      \field{number}{3}
+      \field{title}{Noncommutative symmetric {M}arkov semigroups}
+      \field{volume}{210}
+      \field{year}{1992}
+      \field{pages}{379\bibrangedash 411}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1007/BF02571804
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF02571804
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02571804
+      \endverb
+    \endentry
+    \entry{DL93}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d8494ba0f8b50ce7230ea01c1bdd84cf}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi Brian},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d606258779c2de3f6c9b7e109aaadcdc}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{fullhash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{bibnamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authorbibnamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authornamehash}{1bd2672a651d415437f4e2e0481e1bff}
+      \strng{authorfullhash}{1bd2672a651d415437f4e2e0481e1bff}
+      \field{extraname}{2}
+      \field{labelalpha}{DL93}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{Superderivations and symmetric {M}arkov semigroups}
+      \field{volume}{157}
+      \field{year}{1993}
+      \field{pages}{359\bibrangedash 370}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://projecteuclid.org.libraryproxy.ista.ac.at/euclid.cmp/1104253944
+      \endverb
+      \verb{url}
+      \verb http://projecteuclid.org.libraryproxy.ista.ac.at/euclid.cmp/1104253944
+      \endverb
+    \endentry
+    \entry{EL77b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=97632e79629f667af9371e1073368efb}{%
+           family={Effros},
+           familyi={E\bibinitperiod},
+           given={Edward\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=984028306083bb3bbb686da779d562a1}{%
+           family={Lance},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi Christopher},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{414c13c38d377290e18f5d0742b5d5ff}
+      \strng{fullhash}{414c13c38d377290e18f5d0742b5d5ff}
+      \strng{bibnamehash}{414c13c38d377290e18f5d0742b5d5ff}
+      \strng{authorbibnamehash}{414c13c38d377290e18f5d0742b5d5ff}
+      \strng{authornamehash}{414c13c38d377290e18f5d0742b5d5ff}
+      \strng{authorfullhash}{414c13c38d377290e18f5d0742b5d5ff}
+      \field{labelalpha}{EL77}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{number}{1}
+      \field{title}{Tensor products of operator algebras}
+      \field{volume}{25}
+      \field{year}{1977}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1016/0001-8708(77)90085-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0001-8708(77)90085-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0001-8708(77)90085-8
+      \endverb
+    \endentry
+    \entry{EL77a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d487056627df26a64b75c3d28173773}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ffc30c0812f16b15f785510930490029}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b82bb8612a6001dc536802dad428fde}
+      \strng{fullhash}{4b82bb8612a6001dc536802dad428fde}
+      \strng{bibnamehash}{4b82bb8612a6001dc536802dad428fde}
+      \strng{authorbibnamehash}{4b82bb8612a6001dc536802dad428fde}
+      \strng{authornamehash}{4b82bb8612a6001dc536802dad428fde}
+      \strng{authorfullhash}{4b82bb8612a6001dc536802dad428fde}
+      \field{labelalpha}{EL77}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0070-7414}
+      \field{journaltitle}{Communications Dublin Inst. Advanced Studies. Ser. A}
+      \field{number}{24}
+      \field{title}{Dilations of irreversible evolutions in algebraic quantum theory}
+      \field{year}{1977}
+      \field{pages}{v+104}
+      \range{pages}{-1}
+    \endentry
+    \entry{FU10}{article}{}
+      \name{author}{2}{}{%
+        {{hash=63308c6c14c090d1cd68d75f0abdc5e8}{%
+           family={Fagnola},
+           familyi={F\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6c75bf3f7c6a2af2a5cd6e63e5891d8b}{%
+           family={Umanità},
+           familyi={U\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5205c545fbaa5fc6fe33473a517b719}
+      \strng{fullhash}{e5205c545fbaa5fc6fe33473a517b719}
+      \strng{bibnamehash}{e5205c545fbaa5fc6fe33473a517b719}
+      \strng{authorbibnamehash}{e5205c545fbaa5fc6fe33473a517b719}
+      \strng{authornamehash}{e5205c545fbaa5fc6fe33473a517b719}
+      \strng{authorfullhash}{e5205c545fbaa5fc6fe33473a517b719}
+      \field{labelalpha}{FU10}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{Generators of {KMS} symmetric {M}arkov semigroups on {$ B(h)$} symmetry and quantum detailed balance}
+      \field{volume}{298}
+      \field{year}{2010}
+      \field{pages}{523\bibrangedash 547}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s00220-010-1011-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-010-1011-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-010-1011-1
+      \endverb
+    \endentry
+    \entry{GKS76}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e6ca8675f575b55af15904865727278c}{%
+           family={Gorini},
+           familyi={G\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9423fb51e60c3b76524923e2829e9081}{%
+           family={Kossakowski},
+           familyi={K\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=34abeef36e3cc59c23bef7feee44d587}{%
+           family={Sudarshan},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi C.\bibnamedelimi George},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \strng{fullhash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \strng{bibnamehash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \strng{authorbibnamehash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \strng{authornamehash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \strng{authorfullhash}{dc41c38414beeb26cc3f7c13505cf6a2}
+      \field{labelalpha}{GKS76}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-2488}
+      \field{journaltitle}{J. Mathematical Phys.}
+      \field{number}{5}
+      \field{title}{Completely positive dynamical semigroups of {$N$}-level systems}
+      \field{volume}{17}
+      \field{year}{1976}
+      \field{pages}{821\bibrangedash 825}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1063/1.522979
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.522979
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.522979
+      \endverb
+    \endentry
+    \entry{GL95}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a03b8e47c36a77b9a6b357188f79e1eb}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Stanisław},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d606258779c2de3f6c9b7e109aaadcdc}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \strng{fullhash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \strng{bibnamehash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \strng{authorbibnamehash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \strng{authornamehash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \strng{authorfullhash}{2a2967ed098dcc6c6248a757474ed6f2}
+      \field{labelalpha}{GL95}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5874}
+      \field{journaltitle}{Math. Z.}
+      \field{number}{4}
+      \field{title}{K{MS}-symmetric {M}arkov semigroups}
+      \field{volume}{219}
+      \field{year}{1995}
+      \field{pages}{591\bibrangedash 608}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/BF02572383
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02572383
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02572383
+      \endverb
+    \endentry
+    \entry{GR22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6d30f5f063d3f35d85db69600cc02f07}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=45775495ccf3fe82fc6a205ccba35bec}{%
+           family={Rouzé},
+           familyi={R\bibinitperiod},
+           given={Cambyse},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bb9c275237eb953f794deda33d3e625}
+      \strng{fullhash}{3bb9c275237eb953f794deda33d3e625}
+      \strng{bibnamehash}{3bb9c275237eb953f794deda33d3e625}
+      \strng{authorbibnamehash}{3bb9c275237eb953f794deda33d3e625}
+      \strng{authornamehash}{3bb9c275237eb953f794deda33d3e625}
+      \strng{authorfullhash}{3bb9c275237eb953f794deda33d3e625}
+      \field{labelalpha}{GR22}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-9527}
+      \field{journaltitle}{Arch. Ration. Mech. Anal.}
+      \field{number}{1}
+      \field{title}{Complete entropic inequalities for quantum {M}arkov chains}
+      \field{volume}{245}
+      \field{year}{2022}
+      \field{pages}{183\bibrangedash 238}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1007/s00205-022-01785-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00205-022-01785-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00205-022-01785-1
+      \endverb
+    \endentry
+    \entry{Haa75}{article}{}
+      \name{author}{1}{}{%
+        {{hash=78b558c5dfb6f3e0b4894f26db91d8a7}{%
+           family={Haagerup},
+           familyi={H\bibinitperiod},
+           given={Uffe},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{fullhash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{bibnamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authorbibnamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authornamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authorfullhash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \field{extraname}{1}
+      \field{labelalpha}{Haa75}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5521}
+      \field{journaltitle}{Math. Scand.}
+      \field{number}{2}
+      \field{title}{The standard form of von {N}eumann algebras}
+      \field{volume}{37}
+      \field{year}{1975}
+      \field{pages}{271\bibrangedash 283}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.7146/math.scand.a-11606
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.7146/math.scand.a-11606
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.7146/math.scand.a-11606
+      \endverb
+    \endentry
+    \entry{Haa85}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=78b558c5dfb6f3e0b4894f26db91d8a7}{%
+           family={Haagerup},
+           familyi={H\bibinitperiod},
+           given={Uffe},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Berlin}%
+      }
+      \strng{namehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{fullhash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{bibnamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authorbibnamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authornamehash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \strng{authorfullhash}{78b558c5dfb6f3e0b4894f26db91d8a7}
+      \field{extraname}{2}
+      \field{labelalpha}{Haa85}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Operator algebras and their connections with topology and ergodic theory ({B}uşteni, 1983)}
+      \field{series}{Lecture Notes in Math.}
+      \field{title}{Injectivity and decomposition of completely bounded maps}
+      \field{volume}{1132}
+      \field{year}{1985}
+      \field{pages}{170\bibrangedash 222}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.1007/BFb0074885
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BFb0074885
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BFb0074885
+      \endverb
+    \endentry
+    \entry{HJX10}{article}{}
+      \name{author}{3}{}{%
+        {{hash=78b558c5dfb6f3e0b4894f26db91d8a7}{%
+           family={Haagerup},
+           familyi={H\bibinitperiod},
+           given={Uffe},
+           giveni={U\bibinitperiod}}}%
+        {{hash=34b499255bba4ae2ccc0fed37e387ae7}{%
+           family={Junge},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dd0c7559c57016aaf9ded81eae666550}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Quanhua},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \strng{fullhash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \strng{bibnamehash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \strng{authorbibnamehash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \strng{authornamehash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \strng{authorfullhash}{d4ce087d688732ba42f6ddc3ee203a56}
+      \field{labelalpha}{HJX10}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Amer. Math. Soc.}
+      \field{number}{4}
+      \field{title}{A reduction method for noncommutative {$L_p$}-spaces and applications}
+      \field{volume}{362}
+      \field{year}{2010}
+      \field{pages}{2125\bibrangedash 2165}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1090/S0002-9947-09-04935-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/S0002-9947-09-04935-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/S0002-9947-09-04935-6
+      \endverb
+    \endentry
+    \entry{Hol95}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f991ba52d3259c461210ecfb760acf97}{%
+           family={Holevo},
+           familyi={H\bibinitperiod},
+           given={Alexander\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f991ba52d3259c461210ecfb760acf97}
+      \strng{fullhash}{f991ba52d3259c461210ecfb760acf97}
+      \strng{bibnamehash}{f991ba52d3259c461210ecfb760acf97}
+      \strng{authorbibnamehash}{f991ba52d3259c461210ecfb760acf97}
+      \strng{authornamehash}{f991ba52d3259c461210ecfb760acf97}
+      \strng{authorfullhash}{f991ba52d3259c461210ecfb760acf97}
+      \field{labelalpha}{Hol95}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{2}
+      \field{title}{On the structure of covariant dynamical semigroups}
+      \field{volume}{131}
+      \field{year}{1995}
+      \field{pages}{255\bibrangedash 278}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1006/jfan.1995.1089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1006/jfan.1995.1089
+      \endverb
+      \verb{url}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1006/jfan.1995.1089
+      \endverb
+    \endentry
+    \entry{HT13}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=8b8be8618a5cbc84176d33fb28baa1ce}{%
+           family={Hinz},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cff5e0c9b61d265e3dc1ba513acbd857}{%
+           family={Teplyaev},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Amer. Math. Soc., Providence, RI}%
+      }
+      \strng{namehash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \strng{fullhash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \strng{bibnamehash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \strng{authorbibnamehash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \strng{authornamehash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \strng{authorfullhash}{0dbd1a3d449dc48a04e5bea0dbab61ad}
+      \field{labelalpha}{HT13}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fractal geometry and dynamical systems in pure and applied mathematics. {II}. {F}ractals in applied mathematics}
+      \field{series}{Contemp. Math.}
+      \field{title}{Vector analysis on fractals and applications}
+      \field{volume}{601}
+      \field{year}{2013}
+      \field{pages}{147\bibrangedash 163}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1090/conm/601/11960
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/conm/601/11960
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/conm/601/11960
+      \endverb
+    \endentry
+    \entry{JMP14}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=34b499255bba4ae2ccc0fed37e387ae7}{%
+           family={Junge},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de1c1ab4ad3b6904d54368d83000758c}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6c74f0ef60c0c9985a4f9cce7b8fa588}{%
+           family={Parcet},
+           familyi={P\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Amer. Math. Soc., Providence, RI}%
+      }
+      \strng{namehash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \strng{fullhash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \strng{bibnamehash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \strng{authorbibnamehash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \strng{authornamehash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \strng{authorfullhash}{5952259620ebb41cd12d6ef7be0cafb1}
+      \field{labelalpha}{JMP14}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Harmonic analysis and partial differential equations}
+      \field{series}{Contemp. Math.}
+      \field{title}{An invitation to harmonic analysis associated with semigroups of operators}
+      \field{volume}{612}
+      \field{year}{2014}
+      \field{pages}{107\bibrangedash 122}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1090/conm/612/12227
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/conm/612/12227
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/conm/612/12227
+      \endverb
+    \endentry
+    \entry{JRS}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=34b499255bba4ae2ccc0fed37e387ae7}{%
+           family={Junge},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ad62790925458c8dfc6b7b835a69f230}{%
+           family={Ricard},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=54b0642b23b8c022955459be93e41135}{%
+           family={Shlyakhtenko},
+           familyi={S\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \strng{fullhash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \strng{bibnamehash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \strng{authorbibnamehash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \strng{authornamehash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \strng{authorfullhash}{0860812d4c436abe48c6e4c2fa0788d5}
+      \field{labelalpha}{JRS}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Unpublished preprint}
+      \field{title}{Noncommutative diffusion semigroups and free probability}
+    \endentry
+    \entry{JX07}{article}{}
+      \name{author}{2}{}{%
+        {{hash=34b499255bba4ae2ccc0fed37e387ae7}{%
+           family={Junge},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dd0c7559c57016aaf9ded81eae666550}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Quanhua},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \strng{fullhash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \strng{bibnamehash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \strng{authorbibnamehash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \strng{authornamehash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \strng{authorfullhash}{7fb77fb527f22c810f64a9695b4b9d0f}
+      \field{labelalpha}{JX07}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0894-0347}
+      \field{journaltitle}{J. Amer. Math. Soc.}
+      \field{number}{2}
+      \field{title}{Noncommutative maximal ergodic theorems}
+      \field{volume}{20}
+      \field{year}{2007}
+      \field{pages}{385\bibrangedash 439}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.1090/S0894-0347-06-00533-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1090/S0894-0347-06-00533-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1090/S0894-0347-06-00533-9
+      \endverb
+    \endentry
+    \entry{JZ15}{article}{}
+      \name{author}{2}{}{%
+        {{hash=34b499255bba4ae2ccc0fed37e387ae7}{%
+           family={Junge},
+           familyi={J\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cbc415fc36c599555cb13b0e962f1c25}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb086aec5f9794612823d59fa94df273}
+      \strng{fullhash}{bb086aec5f9794612823d59fa94df273}
+      \strng{bibnamehash}{bb086aec5f9794612823d59fa94df273}
+      \strng{authorbibnamehash}{bb086aec5f9794612823d59fa94df273}
+      \strng{authornamehash}{bb086aec5f9794612823d59fa94df273}
+      \strng{authorfullhash}{bb086aec5f9794612823d59fa94df273}
+      \field{labelalpha}{JZ15}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0178-8051}
+      \field{journaltitle}{Probab. Theory Related Fields}
+      \field{number}{3-4}
+      \field{title}{Noncommutative martingale deviation and {P}oincaré type inequalities with applications}
+      \field{volume}{161}
+      \field{year}{2015}
+      \field{pages}{449\bibrangedash 507}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.1007/s00440-014-0552-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00440-014-0552-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00440-014-0552-1
+      \endverb
+    \endentry
+    \entry{Kap53}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f21a937cde34af7b3489bde1d52b0b2f}{%
+           family={Kaplansky},
+           familyi={K\bibinitperiod},
+           given={Irving},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \strng{fullhash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \strng{bibnamehash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \strng{authorbibnamehash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \strng{authornamehash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \strng{authorfullhash}{f21a937cde34af7b3489bde1d52b0b2f}
+      \field{labelalpha}{Kap53}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9327}
+      \field{journaltitle}{Amer. J. Math.}
+      \field{title}{Modules over operator algebras}
+      \field{volume}{75}
+      \field{year}{1953}
+      \field{pages}{839\bibrangedash 858}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2307/2372552
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307/2372552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307/2372552
+      \endverb
+    \endentry
+    \entry{KB16}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6dc8c51b01edb2672a39eae463585278}{%
+           family={Kastoryano},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=66db7554332962be2b0abe2cefe77501}{%
+           family={Brandão},
+           familyi={B\bibinitperiod},
+           given={Fernando\bibnamedelimb G.\bibnamedelimi S.\bibnamedelimi L.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61780dee267a4cd508e66f7d34fb770}
+      \strng{fullhash}{b61780dee267a4cd508e66f7d34fb770}
+      \strng{bibnamehash}{b61780dee267a4cd508e66f7d34fb770}
+      \strng{authorbibnamehash}{b61780dee267a4cd508e66f7d34fb770}
+      \strng{authornamehash}{b61780dee267a4cd508e66f7d34fb770}
+      \strng{authorfullhash}{b61780dee267a4cd508e66f7d34fb770}
+      \field{labelalpha}{KB16}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{3}
+      \field{title}{Quantum {G}ibbs samplers: the commuting case}
+      \field{volume}{344}
+      \field{year}{2016}
+      \field{pages}{915\bibrangedash 957}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/s00220-016-2641-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1007/s00220-016-2641-8
+      \endverb
+      \verb{url}
+      \verb https://doi-org.libraryproxy.ista.ac.at/10.1007/s00220-016-2641-8
+      \endverb
+    \endentry
+    \entry{Kos72}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9423fb51e60c3b76524923e2829e9081}{%
+           family={Kossakowski},
+           familyi={K\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9423fb51e60c3b76524923e2829e9081}
+      \strng{fullhash}{9423fb51e60c3b76524923e2829e9081}
+      \strng{bibnamehash}{9423fb51e60c3b76524923e2829e9081}
+      \strng{authorbibnamehash}{9423fb51e60c3b76524923e2829e9081}
+      \strng{authornamehash}{9423fb51e60c3b76524923e2829e9081}
+      \strng{authorfullhash}{9423fb51e60c3b76524923e2829e9081}
+      \field{labelalpha}{Kos72}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An axiomatic definition of time evolution (dynamical semi-group) of a physical system has been given. A dynamical semi-group is defined as a one-parametersemi-group of linear endomorphisms of the set of all density operators corresponding to the physical system in question. Some classes of dynamical semi-groups (quantum Poisson and Brownian processes) induced by Markov processes on topological groups are described. Examples of dynamical semi-groups for the harmonic oscillator are given.}
+      \field{issn}{0034-4877}
+      \field{journaltitle}{Reports on Mathematical Physics}
+      \field{number}{4}
+      \field{title}{On quantum statistical mechanics of non-Hamiltonian systems}
+      \field{volume}{3}
+      \field{year}{1972}
+      \field{pages}{247\bibrangedash 274}
+      \range{pages}{28}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0034-4877(72)90010-9
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0034487772900109
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0034487772900109
+      \endverb
+    \endentry
+    \entry{Lin76}{article}{}
+      \name{author}{1}{}{%
+        {{hash=676170c69cd0d1740b6220f5513f99c1}{%
+           family={Lindblad},
+           familyi={L\bibinitperiod},
+           given={Göran},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{676170c69cd0d1740b6220f5513f99c1}
+      \strng{fullhash}{676170c69cd0d1740b6220f5513f99c1}
+      \strng{bibnamehash}{676170c69cd0d1740b6220f5513f99c1}
+      \strng{authorbibnamehash}{676170c69cd0d1740b6220f5513f99c1}
+      \strng{authornamehash}{676170c69cd0d1740b6220f5513f99c1}
+      \strng{authorfullhash}{676170c69cd0d1740b6220f5513f99c1}
+      \field{labelalpha}{Lin76}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{On the generators of quantum dynamical semigroups}
+      \field{volume}{48}
+      \field{year}{1976}
+      \field{pages}{119\bibrangedash 130}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://projecteuclid.org/euclid.cmp/1103899849
+      \endverb
+      \verb{url}
+      \verb http://projecteuclid.org/euclid.cmp/1103899849
+      \endverb
+    \endentry
+    \entry{Lon18}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9d9dd5d6a6960d283ea602c7ad4a873f}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \strng{fullhash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \strng{bibnamehash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \strng{authorbibnamehash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \strng{authornamehash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \strng{authorfullhash}{9d9dd5d6a6960d283ea602c7ad4a873f}
+      \field{labelalpha}{Lon18}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{On {L}andauer's principle and bound for infinite systems}
+      \field{volume}{363}
+      \field{year}{2018}
+      \field{pages}{531\bibrangedash 560}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/s00220-018-3116-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-018-3116-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-018-3116-x
+      \endverb
+    \endentry
+    \entry{Nee22}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c1a6ec6ee05675ffd9f57479664af64d}{%
+           family={Neerven},
+           familyi={N\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \strng{fullhash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \strng{bibnamehash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \strng{authorbibnamehash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \strng{authornamehash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \strng{authorfullhash}{c1a6ec6ee05675ffd9f57479664af64d}
+      \field{labelalpha}{Nee22}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Studies in Advanced Mathematics}
+      \field{title}{Functional Analysis}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1017/9781009232487
+      \endverb
+    \endentry
+    \entry{Pet09a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0bc6c068b2b512887b09debe03d6b2d3}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{fullhash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{bibnamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authorbibnamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authornamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authorfullhash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \field{extraname}{1}
+      \field{labelalpha}{Pet09}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-9910}
+      \field{journaltitle}{Invent. Math.}
+      \field{number}{2}
+      \field{title}{{$L^2$}-rigidity in von {N}eumann algebras}
+      \field{volume}{175}
+      \field{year}{2009}
+      \field{pages}{417\bibrangedash 433}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s00222-008-0154-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00222-008-0154-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00222-008-0154-6
+      \endverb
+    \endentry
+    \entry{Pet09b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0bc6c068b2b512887b09debe03d6b2d3}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{fullhash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{bibnamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authorbibnamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authornamehash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \strng{authorfullhash}{0bc6c068b2b512887b09debe03d6b2d3}
+      \field{extraname}{2}
+      \field{labelalpha}{Pet09}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0030-8730}
+      \field{journaltitle}{Pacific J. Math.}
+      \field{number}{1}
+      \field{title}{A 1-cohomology characterization of property ({T}) in von {N}eumann algebras}
+      \field{volume}{243}
+      \field{year}{2009}
+      \field{pages}{181\bibrangedash 199}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.2140/pjm.2009.243.181
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2140/pjm.2009.243.181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2140/pjm.2009.243.181
+      \endverb
+    \endentry
+    \entry{Pis20}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b573a7ab4dc3d7c4873b143ad067400a}{%
+           family={Pisier},
+           familyi={P\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press, Cambridge}%
+      }
+      \strng{namehash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \strng{fullhash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \strng{bibnamehash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \strng{authorbibnamehash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \strng{authornamehash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \strng{authorfullhash}{b573a7ab4dc3d7c4873b143ad067400a}
+      \field{labelalpha}{Pis20}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-108-74911-4; 978-1-108-47901-1}
+      \field{series}{London Mathematical Society Student Texts}
+      \field{title}{Tensor products of {$C^*$}-algebras and operator spaces---the {C}onnes-{K}irchberg problem}
+      \field{volume}{96}
+      \field{year}{2020}
+      \field{pages}{x+484}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/9781108782081
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/9781108782081
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/9781108782081
+      \endverb
+    \endentry
+    \entry{Sau96}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad4154cbe820acd495457931f08d7a48}{%
+           family={Sauvageot},
+           familyi={S\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad4154cbe820acd495457931f08d7a48}
+      \strng{fullhash}{ad4154cbe820acd495457931f08d7a48}
+      \strng{bibnamehash}{ad4154cbe820acd495457931f08d7a48}
+      \strng{authorbibnamehash}{ad4154cbe820acd495457931f08d7a48}
+      \strng{authornamehash}{ad4154cbe820acd495457931f08d7a48}
+      \strng{authorfullhash}{ad4154cbe820acd495457931f08d7a48}
+      \field{labelalpha}{Sau96}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{2}
+      \field{title}{Semi-groupe de la chaleur transverse sur la {$C^*$}-algèbre d'un feuilletage riemannien}
+      \field{volume}{142}
+      \field{year}{1996}
+      \field{pages}{511\bibrangedash 538}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1006/jfan.1996.0158
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1006/jfan.1996.0158
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1006/jfan.1996.0158
+      \endverb
+    \endentry
+    \entry{Sch69}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad87b966789010aa01aca321635a33e0}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad87b966789010aa01aca321635a33e0}
+      \strng{fullhash}{ad87b966789010aa01aca321635a33e0}
+      \strng{bibnamehash}{ad87b966789010aa01aca321635a33e0}
+      \strng{authorbibnamehash}{ad87b966789010aa01aca321635a33e0}
+      \strng{authornamehash}{ad87b966789010aa01aca321635a33e0}
+      \strng{authorfullhash}{ad87b966789010aa01aca321635a33e0}
+      \field{labelalpha}{Sch69}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{Journal of Functional Analysis}
+      \field{number}{1}
+      \field{title}{On the spectra of operators on tensor products}
+      \field{volume}{4}
+      \field{year}{1969}
+      \field{pages}{95\bibrangedash 99}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-1236(69)90024-X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/002212366990024X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/002212366990024X
+      \endverb
+    \endentry
+    \entry{Ver22}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f805c1384cb37578341139be2b8630e0}{%
+           family={Vernooij},
+           familyi={V\bibinitperiod},
+           given={Matthijs},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f805c1384cb37578341139be2b8630e0}
+      \strng{fullhash}{f805c1384cb37578341139be2b8630e0}
+      \strng{bibnamehash}{f805c1384cb37578341139be2b8630e0}
+      \strng{authorbibnamehash}{f805c1384cb37578341139be2b8630e0}
+      \strng{authornamehash}{f805c1384cb37578341139be2b8630e0}
+      \strng{authorfullhash}{f805c1384cb37578341139be2b8630e0}
+      \field{labelalpha}{Ver22}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{On the existence of derivations as square roots of generators of state-symmetric quantum Markov semigroups}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2203.12307
+      \endverb
+    \endentry
+    \entry{Wir20}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=72098d38ea08aada77ee50e5d1cbcc61}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Melchior},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{fullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{bibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorbibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authornamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorfullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \field{extraname}{1}
+      \field{labelalpha}{Wir20}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Noncommutative Transport Metric and Symmetric Quantum Markov Semigroups as Gradient Flows of the Entropy}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1808.05419
+      \endverb
+      \verb{eprint}
+      \verb 1808.05419v2
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1808.05419
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1808.05419
+      \endverb
+      \keyw{Operator Algebras (math.OA),Mathematical Physics (math-ph),Analysis of PDEs (math.AP),Functional Analysis (math.FA),FOS: Mathematics,FOS: Mathematics,FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{Wir22a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=72098d38ea08aada77ee50e5d1cbcc61}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Melchior},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{fullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{bibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorbibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authornamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorfullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \field{extraname}{2}
+      \field{labelalpha}{Wir22}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Christensen--Evans theorem and extensions of GNS-symmetric quantum Markov semigroups}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2203.00341
+      \endverb
+      \verb{eprint}
+      \verb 2203.00341
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.00341
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.00341
+      \endverb
+      \keyw{Operator Algebras (math.OA),Mathematical Physics (math-ph),Functional Analysis (math.FA),Quantum Physics (quant-ph),FOS: Mathematics,FOS: Mathematics,FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{Wir22b}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=72098d38ea08aada77ee50e5d1cbcc61}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Melchior},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{fullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{bibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorbibnamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authornamehash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \strng{authorfullhash}{72098d38ea08aada77ee50e5d1cbcc61}
+      \field{extraname}{3}
+      \field{labelalpha}{Wir22}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Differential Structure of Generators of GNS-symmetric Quantum Markov Semigroups}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2207.09247
+      \endverb
+      \verb{eprint}
+      \verb 2207.09247
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2207.09247
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2207.09247
+      \endverb
+      \keyw{Operator Algebras (math.OA),Mathematical Physics (math-ph),Functional Analysis (math.FA),Quantum Physics (quant-ph),FOS: Mathematics,FOS: Mathematics,FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{WZ21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72098d38ea08aada77ee50e5d1cbcc61}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Melchior},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c06684149a7cf629b3ef5fa5d6c0eaf3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \strng{fullhash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \strng{bibnamehash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \strng{authorbibnamehash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \strng{authornamehash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \strng{authorfullhash}{226695d609bbe9071c2ad96b8f7bfe45}
+      \field{labelalpha}{WZ21}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{title}{Complete gradient estimates of quantum {M}arkov semigroups}
+      \field{volume}{387}
+      \field{year}{2021}
+      \field{pages}{761\bibrangedash 791}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/s00220-021-04199-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-021-04199-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-021-04199-4
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

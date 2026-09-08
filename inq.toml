@@ -23,6 +23,7 @@ members = [
   "complex-presentation-without-polarization",
   "hessian-response-geometry",
   "measured-response-carriers",
+  "channel-loss-and-recovery",
   "markov-edge-measure-solder",
   "two-slice-innovation-geometry",
   "bridge-score-fusion-geometry",

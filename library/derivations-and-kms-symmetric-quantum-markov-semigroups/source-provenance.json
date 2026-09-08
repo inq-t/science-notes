@@ -1,0 +1,48 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction. Extracted PDF text is a searchable derivative, not an editable author source.",
+  "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+  "records": [
+    {
+      "path": "2303.15949v2-source.tar.gz",
+      "bytes": 41054,
+      "sha256": "10464eb184d95d52843c521160720ee35ca35af319eabb0cc31cf77aa6d50f4e",
+      "url": "https://arxiv.org/src/2303.15949v2",
+      "resolved_url": "https://arxiv.org/src/2303.15949v2",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2303.15949v2",
+      "kind": "downloaded-primary-source"
+    },
+    {
+      "path": "source/Derivations_and_KMS-symmetric_quantum_Markov_semigroups.bbl",
+      "bytes": 92280,
+      "sha256": "4d70c0b05b24c2577d948b1c8a8889cfc6d7cc175dee603b5df645f87849c2be",
+      "kind": "unchanged-archive-member",
+      "archive": "2303.15949v2-source.tar.gz",
+      "member": "Derivations_and_KMS-symmetric_quantum_Markov_semigroups.bbl"
+    },
+    {
+      "path": "source/Derivations_and_KMS-symmetric_quantum_Markov_semigroups.tex",
+      "bytes": 108545,
+      "sha256": "ab49bb064744800be838d409e79928b1c4c31a53ee9847dbc5b38b2a9dbd5378",
+      "kind": "unchanged-archive-member",
+      "archive": "2303.15949v2-source.tar.gz",
+      "member": "Derivations_and_KMS-symmetric_quantum_Markov_semigroups.tex"
+    },
+    {
+      "path": "2303.15949v2-vernooij-wirth-derivations-kms.pdf",
+      "bytes": 342592,
+      "sha256": "1e659bff4cadfffc80682e1cebb371044a8083f4bed5ee329d4bfde4540af548",
+      "url": "https://arxiv.org/pdf/2303.15949v2",
+      "resolved_url": "https://arxiv.org/pdf/2303.15949v2",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "arXiv:2303.15949v2",
+      "kind": "downloaded-primary-source",
+      "pdf_pages": 34,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 34,
+        "first_page_text_prefix": "arXiv:2303.15949v2  [math.OA]  23 Jun 2023\nDERIV ATIONS AND KMS-SYMMETRIC QUANTUM MARKOV SEMIGROUPS\nMATTHĲS VERNOOĲ AND MELCHIOR WIRTH\nA/b.pc/s.pc/t.pc/r.pc/a.p"
+      }
+    }
+  ]
+}

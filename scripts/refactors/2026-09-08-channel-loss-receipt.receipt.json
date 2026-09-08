@@ -1,0 +1,13 @@
+{
+  "manifest": "scripts/refactors/2026-09-08-channel-loss-receipt.json",
+  "moves": [
+    {
+      "from": "measured-response-carriers/receipts/descent_loss_cocycle_receipt.py",
+      "to": "channel-loss-and-recovery/receipts/descent_loss_cocycle_receipt.py",
+      "before_sha256": "ba30bf64c4b8f87438994ca8a1ebf55c897726712b9243afe228f7e92b468c91",
+      "after_sha256": "ba30bf64c4b8f87438994ca8a1ebf55c897726712b9243afe228f7e92b468c91"
+    }
+  ],
+  "link_updates": 1,
+  "frozen_records_verified": 213
+}

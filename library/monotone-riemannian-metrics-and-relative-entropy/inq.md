@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [BKM, relative-entropy, monotone-metric, information-geometry]
 ---
 # Monotone Riemannian Metrics and Relative Entropy on Non-Commutative Probability Spaces
 
@@ -18,4 +19,4 @@ We use the relative modular operator to define a generalized relative entropy fo
 - **arXiv:** [math-ph/9808016v1](https://arxiv.org/abs/math-ph/9808016).
 - **Publication:** J. Math. Phys., 40, 5702-5724 (1999).
 - **DOI:** [10.1063/1.533053](https://doi.org/10.1063/1.533053).
-- **Local artifacts:** `9808016-lesniewski-ruskai-monotone-riemannian-metrics-relative-entropy.pdf`.
+- **Local artifacts:** [[library/monotone-riemannian-metrics-and-relative-entropy/9808016-lesniewski-ruskai-monotone-riemannian-metrics-relative-entropy.pdf|local article PDF]].

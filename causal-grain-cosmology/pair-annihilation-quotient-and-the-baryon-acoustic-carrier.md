@@ -195,7 +195,7 @@ $$
 
 The pair-reaction generator can have a positive relaxation edge after one fixes \(D\) and removes its conserved modes. That edge measures vertical approach toward the minimal or equilibrium representative inside one quotient fiber. It cannot be the energetic mass of the retained baryon sector, because its descended action on functions of \(D\) is zero.
 
-This is the finite physical analogue of the vertical-coercivity result in [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork]]: a channel can strongly charge what it forgets while inducing no positive form on what it retains. The mass solder in (BQ25) must therefore come from a different operator. Comparing a collision rate with \(H\) diagnoses kinetic memory; it does not derive a Poincare-Casimir gap.
+This is the finite physical analogue of the vertical-coercivity result in [[channel-loss-and-recovery/preserving-expectation-loss]]: a channel can strongly charge what it forgets while inducing no positive form on what it retains. The mass solder in (BQ25) must therefore come from a different operator. Comparing a collision rate with \(H\) diagnoses kinetic memory; it does not derive a Poincare-Casimir gap.
 
 ## Entropy normalizes the retained charge
 

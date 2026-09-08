@@ -182,7 +182,7 @@ The coefficient \(1/2\) is then dimensionless and algebraically fixed under that
 
 ## Compatibility with local QFT
 
-The scale coordinate must not be silently introduced as an observable scalar field. Compatibility requires the chain in [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#QFT compatibility belongs after the nonfaithful quotient|the QFT-recovery fork]]:
+The scale coordinate must not be silently introduced as an observable scalar field. Compatibility requires the chain in [[physical-response-coercivity/quotient-to-qft-realization#QFT compatibility belongs after the nonfaithful quotient|the QFT-recovery fork]]:
 
 $$
 \mathcal A_r^{\mathrm{pre}}

@@ -1,0 +1,6 @@
+{
+  "moves": {
+    "measured-response-carriers/receipts/descent_loss_cocycle_receipt.py": "channel-loss-and-recovery/receipts/descent_loss_cocycle_receipt.py"
+  },
+  "reason": "The calculation verifies channel-loss and minimum-lift identities now owned by channel-loss-and-recovery; preserve its bytes."
+}

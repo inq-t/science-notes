@@ -144,7 +144,7 @@ There is one exact rigidity route. If the retained context symmetries preserve \
 
 ## Information geometry supplies an exact member
 
-Take faithful finite-dimensional reference states \(\rho_c\), state-tangent spaces of traceless self-adjoint matrices, and \(G_c=g^{\mathrm{BKM}}_{\rho_c}\). For a CPTP map \(\Phi_a\), set \(\rho_d=\Phi_a\rho_c\) and \(F_aX=\Phi_aX\), restricting to the output support when required. The [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|descent-loss theorem, D4--D5c]] proves (MR1)--(MR3) by differentiating data processing:
+Take faithful finite-dimensional reference states \(\rho_c\), state-tangent spaces of traceless self-adjoint matrices, and \(G_c=g^{\mathrm{BKM}}_{\rho_c}\). For a CPTP map \(\Phi_a\), set \(\rho_d=\Phi_a\rho_c\) and \(F_aX=\Phi_aX\), restricting to the output support when required. The [[channel-loss-and-recovery/bkm-loss-operators|descent-loss theorem, D4--D5c]] proves (MR1)--(MR3) by differentiating data processing:
 \[
 D(\rho_c+\epsilon X\Vert\rho_c)
 -D(\rho_d+\epsilon F_aX\Vert\rho_d)

@@ -1,0 +1,30 @@
+{
+  "description": "Primary-source downloads and byte-preserving source extraction. Extracted PDF text is a searchable derivative, not an editable author source.",
+  "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+  "records": [
+    {
+      "path": "1986-petz-sufficient-subalgebras.pdf",
+      "bytes": 852719,
+      "sha256": "8eb085ffc372aa823c64420ca3fb382b7bcb7a4dd3a8f17bdb8d01b387be395d",
+      "url": "https://math.bme.hu/~petz/pdf/29suff.pdf",
+      "resolved_url": "https://math.bme.hu/~petz/pdf/29suff.pdf",
+      "retrieved_at": "2026-09-08T19:48:35.050459+00:00",
+      "version": "1986 published article",
+      "kind": "downloaded-primary-source",
+      "pdf_pages": 10,
+      "verification": {
+        "pdf_header": true,
+        "parsed_pages": 10,
+        "first_page_text_prefix": "Communications in\nCommun. Math. Phys. 105,123-131 (1986) Mathematical\nPhysics© Springer-Verlag 1986\nSufficient Subalgebras and the Relative Entropy\nof States of"
+      }
+    },
+    {
+      "path": "1986-petz-sufficient-subalgebras-extracted.txt",
+      "bytes": 19800,
+      "sha256": "eb00f04384a3a28b998dc30972a342bc3c3c6eeca6d693eac4ab245c8d176482",
+      "kind": "derived-searchable-text",
+      "derived_from": "1986-petz-sufficient-subalgebras.pdf",
+      "method": "pypdf text extraction, UTF-8 with page markers"
+    }
+  ]
+}

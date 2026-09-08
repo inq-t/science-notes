@@ -82,7 +82,7 @@ D(\rho\Vert\sigma)-D(E_{\sigma,*}\rho\Vert\sigma)
 
 Thus relative distinguishability can be lost while absolute entropy falls. Inputs of sufficiently small entropy give the opposite entropy sign for the same expectation. The [[spectral-wall-descent/receipts/nontracial-expectation-entropy.py|nontracial expectation receipt]] checks both signs, state preservation and the observable/state adjoint relation. This is a counterexample to dropping the tracial hypothesis, not an exception to data processing.
 
-[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The preserving-expectation Hessian is vertical|The preserving-expectation chain rule]] states the general von Neumann relative-entropy result with restriction and recovery maps, including its tangent-domain requirements. That is the appropriate continuation to type III, where absolute density-matrix entropy is generally unavailable.
+[[channel-loss-and-recovery/preserving-expectation-loss#The preserving-expectation Hessian is vertical|The preserving-expectation chain rule]] states the general von Neumann relative-entropy result with restriction and recovery maps, including its tangent-domain requirements. That is the appropriate continuation to type III, where absolute density-matrix entropy is generally unavailable.
 
 ## Entropy as anti-information in a declared register
 
@@ -149,7 +149,7 @@ $$
 
 This is the exact quadratic balance sought by [[program-core/common-response-form|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state; its [[spectral-wall-descent/receipts/verify-spectral-wall-output.txt|stored output]] also records the module's other finite examples.
 
-The lost form vanishes whenever \(X=EX\). Its minimum over all lifts of a prescribed retained tangent is therefore zero. [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Minimal-lift transgression puts a form on the output|The minimal-lift theorem]] makes this obstruction precise: the incoming loss does not become stiffness on the output merely by taking a quotient. [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall|Subfactor-angle coercivity]] instead compares two differently placed projections. Their common kernel and quantitative separation are additional data, even when all relevant indices are finite.
+The lost form vanishes whenever \(X=EX\). Its minimum over all lifts of a prescribed retained tangent is therefore zero. [[channel-loss-and-recovery/minimum-lift-output-forms#Minimal-lift transgression puts a form on the output|The minimal-lift theorem]] makes this obstruction precise: the incoming loss does not become stiffness on the output merely by taking a quotient. [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall|Subfactor-angle coercivity]] instead compares two differently placed projections. Their common kernel and quantitative separation are additional data, even when all relevant indices are finite.
 
 ## Nested expectations and scale towers
 

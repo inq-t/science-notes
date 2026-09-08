@@ -82,7 +82,7 @@ For a non-null tangent \(v\), the dimensionless fraction
 
 survives a common change of response units and compatible changes of presentation. It is not yet a universal constant or a mass. The law is algebraically available for many unrelated systems; its physical content would come from a primitive geometry forcing \(J\), the forms, and their normalization together.
 
-The [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork|relative-entropy loss cocycle]] supplies one exact information-geometric realization. Its recovery fork is essential: completely erased distinctions have no retained tangent, while exactly recoverable distinctions can have zero loss. Mass cannot be assigned to either class by simply renaming that one-channel defect.
+The [[channel-loss-and-recovery/inq|relative-entropy loss cocycle]] supplies one exact information-geometric realization. Its recovery fork is essential: completely erased distinctions have no retained tangent, while exactly recoverable distinctions can have zero loss. Mass cannot be assigned to either class by simply renaming that one-channel defect.
 
 The [[directed-isometric-residue-completion/inq|retained-plus-residue completion]] preserves a norm in an enlarged mathematical carrier. This neither makes the discarded data accessible nor proves a unitary ontology. In infinite-dimensional physical realizations, positivity of a form difference does not alone imply closability; domains, quotient compatibility and completion must be proved.
 

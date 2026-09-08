@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-09-08T19:49:23.683037+00:00",
+  "status": "retrieval-unsuccessful",
+  "artifacts": [],
+  "attempts": [
+    {
+      "url": "https://academic.oup.com/qjmath/article-pdf/39/1/97/4559225/39-1-97.pdf",
+      "outcome": "HTTP 403 Forbidden; no artifact saved"
+    },
+    {
+      "url": "https://math.bme.hu/~petz/lessrecent.html",
+      "outcome": "Author-hosted older-publications list checked; no link to the 1988 channel-sufficiency paper was present"
+    }
+  ]
+}

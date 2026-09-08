@@ -1,0 +1,196 @@
+{
+  "source_commit": "53fe228",
+  "source_path": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork.md",
+  "source_sha256": "8c327af386dd11fc66ab0991d5a6fb04687501fba844ec5dd6d7263c104ebc7e",
+  "purpose": "Separate channel loss, recovery and minimum-output constructions from physical carrier and energy comparisons. The source is retired after section extraction and incoming-link repair; Git preserves the complete original. Equation-label checks establish preservation, not theorem correctness. Scoped corrections and proof deduplication are recorded by this round of Git changes.",
+  "default_destination": "channel-loss-and-recovery/inq",
+  "section_moves": [
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The Descent-Loss Cocycle and the Recovery Fork",
+      "new": "channel-loss-and-recovery/inq#Channel Loss and Recovery",
+      "source_lines": [
+        1,
+        6
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Relative-entropy loss is an arrow cost",
+      "new": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency#Relative-entropy loss is an arrow cost",
+      "source_lines": [
+        7,
+        62
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The infinitesimal cocycle is a BKM defect",
+      "new": "channel-loss-and-recovery/bkm-loss-operators#The infinitesimal cocycle is a BKM defect",
+      "source_lines": [
+        63,
+        175
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Type III lift: the exact loss and the conditional response operator",
+      "new": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency#Restriction loss and sufficiency in Type III",
+      "source_lines": [
+        176,
+        255
+      ],
+      "additional_owner": "channel-loss-and-recovery/bkm-loss-operators#Type-III Hessians and closed operators"
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#A localized loss has an established energy upper solder",
+      "new": "physical-response-coercivity/localized-relative-entropy-and-the-energy-solder#A descent-loss Hessian also fits",
+      "source_lines": [
+        256,
+        286
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The preserving-expectation Hessian is vertical",
+      "new": "channel-loss-and-recovery/preserving-expectation-loss#The preserving-expectation Hessian is vertical",
+      "source_lines": [
+        287,
+        381
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The normalization no-go",
+      "new": "channel-loss-and-recovery/normalization-and-coercivity-limits#The normalization no-go",
+      "source_lines": [
+        382,
+        427
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The sufficiency--carrier fork",
+      "new": "channel-loss-and-recovery/preserving-expectation-loss#The sufficiency--carrier fork",
+      "source_lines": [
+        428,
+        475
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Minimal-lift transgression puts a form on the output",
+      "new": "channel-loss-and-recovery/minimum-lift-output-forms#Minimal-lift transgression puts a form on the output",
+      "source_lines": [
+        476,
+        617
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Binary channel witness",
+      "new": "channel-loss-and-recovery/binary-channel-witness#Binary channel witness",
+      "source_lines": [
+        618,
+        673
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Local invertibility still does not give global coercivity",
+      "new": "channel-loss-and-recovery/normalization-and-coercivity-limits#Local invertibility still does not give global coercivity",
+      "source_lines": [
+        674,
+        689
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#QFT compatibility belongs after the nonfaithful quotient",
+      "new": "physical-response-coercivity/quotient-to-qft-realization#QFT compatibility belongs after the nonfaithful quotient",
+      "source_lines": [
+        690,
+        742
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Why the solder must target the joint invariant",
+      "new": "physical-response-coercivity/paired-wall-casimir-comparison#Why the solder must target the joint invariant",
+      "source_lines": [
+        743,
+        777
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The paired-wall operator signature",
+      "new": "physical-response-coercivity/paired-wall-casimir-comparison#The paired-wall operator signature",
+      "source_lines": [
+        778,
+        838
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The conditional Casimir stopping theorem on reconstructed members",
+      "new": "physical-response-coercivity/retained-output-casimir-bound#The conditional Casimir stopping theorem on reconstructed members",
+      "source_lines": [
+        839,
+        966
+      ]
+    },
+    {
+      "old": "measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The concrete Yang--Mills research question",
+      "new": "physical-response-coercivity/quotient-to-qft-realization#The concrete Yang--Mills research question",
+      "source_lines": [
+        967,
+        978
+      ]
+    }
+  ],
+  "equation_owners": {
+    "D1": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency.md",
+    "D2": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency.md",
+    "D3": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency.md",
+    "D4": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5a": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5b": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5c": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5d": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency.md",
+    "D5e": "channel-loss-and-recovery/relative-entropy-loss-and-sufficiency.md",
+    "D5f": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5g": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5h": "channel-loss-and-recovery/bkm-loss-operators.md",
+    "D5h.0": "physical-response-coercivity/localized-relative-entropy-and-the-energy-solder.md",
+    "D5h.1": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.2": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.3": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.4": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.5": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.6": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5h.7": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D5i": "channel-loss-and-recovery/normalization-and-coercivity-limits.md",
+    "D5j": "channel-loss-and-recovery/normalization-and-coercivity-limits.md",
+    "D5k": "channel-loss-and-recovery/normalization-and-coercivity-limits.md",
+    "D5l": "channel-loss-and-recovery/normalization-and-coercivity-limits.md",
+    "D6": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D7": "channel-loss-and-recovery/preserving-expectation-loss.md",
+    "D8": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D9": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D9a": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D10": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D11": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D12": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D13": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D14": "channel-loss-and-recovery/minimum-lift-output-forms.md",
+    "D15": "channel-loss-and-recovery/binary-channel-witness.md",
+    "D16": "channel-loss-and-recovery/binary-channel-witness.md",
+    "D17": "channel-loss-and-recovery/binary-channel-witness.md",
+    "D18": "channel-loss-and-recovery/normalization-and-coercivity-limits.md",
+    "D19": "physical-response-coercivity/quotient-to-qft-realization.md",
+    "D19a": "physical-response-coercivity/paired-wall-casimir-comparison.md",
+    "D19b": "physical-response-coercivity/paired-wall-casimir-comparison.md",
+    "D19c": "physical-response-coercivity/paired-wall-casimir-comparison.md",
+    "D19d": "physical-response-coercivity/paired-wall-casimir-comparison.md",
+    "D19e": "physical-response-coercivity/paired-wall-casimir-comparison.md",
+    "D20": "physical-response-coercivity/retained-output-casimir-bound.md",
+    "D21": "physical-response-coercivity/retained-output-casimir-bound.md",
+    "D22": "physical-response-coercivity/retained-output-casimir-bound.md",
+    "D23": "physical-response-coercivity/retained-output-casimir-bound.md",
+    "D23a": "physical-response-coercivity/retained-output-casimir-bound.md"
+  },
+  "shared_proof_owners": [
+    "mass-scale-calibration/joint-causal-generators-and-the-mass-casimir",
+    "measured-response-carriers/response-to-energy-comparison",
+    "trace-dirichlet-descent/inq"
+  ],
+  "calculation_move": "scripts/refactors/2026-09-08-channel-loss-receipt.json"
+}
