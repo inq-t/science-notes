@@ -1,0 +1,257 @@
+\begin{thebibliography}{10}
+
+\bibitem{Sobolev}
+R.~A. Adams and J.~J.~F. Fournier.
+\newblock {\em Sobolev spaces}, volume 140 of {\em Pure and Applied Mathematics
+  (Amsterdam)}.
+\newblock Elsevier/Academic Press, Amsterdam, second edition, 2003.
+
+\bibitem{sharp_transition}
+M.~Aizenman, D.~Barsky, and R.~Fern\'andez.
+\newblock The phase transition in a general class of {I}sing-type models is
+  sharp.
+\newblock {\em J.\ Stat.\ Phys.}, 47:343--374, 1987.
+
+\bibitem{Billingsley}
+P.~Billingsley.
+\newblock {\em Convergence of probability measures}.
+\newblock John Wiley \& Sons Inc., 1968.
+
+\bibitem{Billingsley*}
+P.~Billingsley.
+\newblock {\em Probability and measure}.
+\newblock Wiley Series in Probability and Mathematical Statistics. John Wiley
+  \& Sons Inc., third edition, 1995.
+
+\bibitem{Bradley83}
+R.~C. Bradley.
+\newblock Equivalent measures of dependence.
+\newblock {\em J. Multivariate Anal.}, 13(1):167--176, 1983.
+
+\bibitem{Bradley92}
+R.~C. Bradley.
+\newblock On the spectral density and asymptotic normality of weakly dependent
+  random fields.
+\newblock {\em J. Theoret. Probab.}, 5(2):355--373, 1992.
+
+\bibitem{Bradley-review}
+R.~C. Bradley.
+\newblock Basic properties of strong mixing conditions. {A} survey and some
+  open questions.
+\newblock {\em Probab. Surv.}, 2:107--144 (electronic), 2005.
+\newblock Update of the 1986 original.
+
+\bibitem{Bradley-book}
+R.~C. Bradley.
+\newblock {\em Introduction to strong mixing conditions. {V}ol. 1--3}.
+\newblock Kendrick Press, Heber City, UT, 2007.
+
+\bibitem{Bryc}
+W.~Bryc.
+\newblock Conditional moment representations for dependent random variables.
+\newblock {\em Electron. J. Probab.}, 1(article no.\ 7):14 pp., 1996.
+
+\bibitem{Bulinskii84}
+A.~V. Bulinski{\u\i}.
+\newblock Measures of dependence that are close to the maximum correlation
+  coefficient.
+\newblock {\em Soviet Math. Dokl.}, 30(1):249--252, 1984.
+
+\bibitem{Winfty}
+T.~Champion, L.~De~Pascale, and P.~Juutinen.
+\newblock The {$\infty$}-{W}asserstein distance: local solutions and existence
+  of optimal transport maps.
+\newblock {\em SIAM J. Math. Anal.}, 40(1):1--20, 2008.
+
+\bibitem{CoverThomas}
+T.~M. Cover and J.~A. Thomas.
+\newblock {\em Elements of information theory}.
+\newblock Wiley-Interscience [John Wiley \& Sons], second edition, 2006.
+
+\bibitem{CsakiFischer}
+P.~Cs{\'a}ki and J.~Fischer.
+\newblock On the general notion of maximal correlation.
+\newblock {\em Magyar Tud. Akad. Mat. Kutat\'o Int. K\"ozl.}, 8:27--51, 1963.
+
+\bibitem{Dedecker}
+J.~Dedecker.
+\newblock A central limit theorem for stationary random fields.
+\newblock {\em Probab. Theory Related Fields}, 110(3):397--426, 1998.
+
+\bibitem{complete_analyticity}
+R.~L. Dobrushin and S.~Shlosman.
+\newblock Completely analytical interactions: constructive description.
+\newblock {\em J. Statist. Phys.}, 46(5-6):983--1014, 1987.
+
+\bibitem{Dobrushin71}
+R.~L. Dobru{\v{s}}in.
+\newblock Markov processes with a large number of locally interacting
+  components: {T}he invertible case and certain generalizations.
+\newblock {\em Problemy Pereda\v ci Informacii}, 7(3):57--66, 1971.
+
+\bibitem{B-M_inequality}
+R.~J. Gardner.
+\newblock The {B}runn-{M}inkowski inequality.
+\newblock {\em Bull. Amer. Math. Soc. (N.S.)}, 39(3):355--405, 2002.
+
+\bibitem{Gromov}
+{\'E}.~Ghys and P.~de~la Harpe.
+\newblock Infinite groups as geometric objects (after {G}romov).
+\newblock In {\em Ergodic theory, symbolic dynamics, and hyperbolic spaces
+  ({T}rieste, 1989)}, Oxford Sci. Publ., pages 299--314. Oxford Univ. Press,
+  1991.
+
+\bibitem{elliptique}
+D.~Gilbarg and N.~S. Trudinger.
+\newblock {\em Elliptic partial differential equations of second order}.
+\newblock Classics in Mathematics. Springer-Verlag, 2001.
+\newblock Reprint of the 1998 edition.
+
+\bibitem{Glauber}
+R.~J. Glauber.
+\newblock Time-dependent statistics of the {I}sing model.
+\newblock {\em J. Mathematical Phys.}, 4:294--307, 1963.
+
+\bibitem{Grimmett}
+G.~Grimmett.
+\newblock {\em The random-cluster model}, volume 333 of {\em Grundlehren der
+  Mathematischen Wissenschaften}.
+\newblock Springer-Verlag, 2006.
+
+\bibitem{Differential}
+H.~W. Guggenheimer.
+\newblock {\em Differential geometry}.
+\newblock Dover Publications Inc., 1977.
+\newblock Corrected reprint of the 1963 edition.
+
+\bibitem{HornJohnson}
+R.~A. Horn and C.~R. Johnson.
+\newblock {\em Matrix analysis}.
+\newblock Cambridge University Press, 1990.
+\newblock Corrected reprint of the 1985 original.
+
+\bibitem{Ibragimov75}
+I.~A. Ibragimov.
+\newblock A note on the central limit theorems for dependent random variables.
+\newblock {\em Theory of Probability and its Applications}, 20(1):135--141,
+  1975.
+
+\bibitem{profinite}
+A.~Ioana.
+\newblock Cocycle superrigidity for profinite actions of property {(T)} groups.
+\newblock Preprint available at \url{arXiv:0805.2998v1}, 2008.
+
+\bibitem{KolmogorovRozanov}
+A.~N. Kolmogorov and Y.~A. Rozanov.
+\newblock On strong mixing conditions for stationary {G}aussian processes.
+\newblock {\em Theory of Probability and its Applications}, 5(2):204--208,
+  1960.
+
+\bibitem{Lancaster}
+H.~O. Lancaster.
+\newblock Some properties of the bivariate normal distribution considered in
+  the form of a contingency table.
+\newblock {\em Biometrika}, 44:289--292, 1957.
+
+\bibitem{Liggett}
+T.~M. Liggett.
+\newblock {\em Interacting particle systems}, volume 276 of {\em Grundlehren
+  der Mathematischen Wissenschaften}.
+\newblock Springer-Verlag, 1985.
+
+\bibitem{Martinelli}
+F.~Martinelli.
+\newblock Lectures on {G}lauber dynamics for discrete spin models.
+\newblock In {\em Lectures on probability theory and statistics
+  ({S}aint-{F}lour, 1997)}, volume 1717 of {\em Lecture Notes in Math.}, pages
+  93--191. Springer, 1999.
+
+\bibitem{MO}
+F.~Martinelli and E.~Olivieri.
+\newblock Approach to equilibrium of {G}lauber dynamics in the one phase
+  region. {I}. {T}he attractive case.
+\newblock {\em Comm. Math. Phys.}, 161(3):447--486, 1994.
+
+\bibitem{MOS}
+F.~Martinelli, E.~Olivieri, and R.~H. Schonmann.
+\newblock For {$2$}-{D} lattice spin systems weak mixing implies strong mixing.
+\newblock {\em Comm. Math. Phys.}, 165(1):33--47, 1994.
+
+\bibitem{Peierls}
+R.~Peierls.
+\newblock On {I}sing's model of ferromagnetism.
+\newblock {\em Proc.\ Cambridge Philos.\ Soc.}, 32:477--481, 1936.
+
+\bibitem{Peligrad87}
+M.~Peligrad.
+\newblock On the central limit theorem for {$\rho$}-mixing sequences of random
+  variables.
+\newblock {\em Ann. Probab.}, 15(4):1387--1394, 1987.
+
+\bibitem{AR(1)}
+D.~B. Percival and A.~T. Walden.
+\newblock {\em Spectral analysis for physical applications}.
+\newblock Cambridge University Press, 1993.
+
+\bibitem{perso}
+R.~Peyre.
+\newblock Compléments sur les corrélations hilbertiennes.
+\newblock Personal notes.
+
+\bibitem{PSL2Z}
+R.~A. Rankin.
+\newblock {\em The modular group and its subgroups}.
+\newblock The Ramanujan Institute, Madras, 1969.
+
+\bibitem{nonstandard}
+A.~Robert.
+\newblock Functional analysis and {NSA}.
+\newblock In {\em Developments in nonstandard mathematics ({A}veiro, 1994)},
+  volume 336 of {\em Pitman Res. Notes Math. Ser.}, pages 73--90. Longman,
+  1995.
+
+\bibitem{Rosenblatt56}
+M.~Rosenblatt.
+\newblock A central limit theorem and a strong mixing condition.
+\newblock {\em Proc. Nat. Acad. Sci. U. S. A.}, 42:43--47, 1956.
+
+\bibitem{Rosenblatt}
+M.~Rosenblatt.
+\newblock {\em Markov processes. {S}tructure and asymptotic behavior}, volume
+  184 of {\em Grundlehren der mathematischen Wissenschaften}.
+\newblock Springer-Verlag, 1971.
+
+\bibitem{Rudin}
+W.~Rudin.
+\newblock {\em Real and complex analysis}.
+\newblock McGraw-Hill Book Co., third edition, 1987.
+
+\bibitem{Villani-topics}
+C.~Villani.
+\newblock {\em Topics in optimal transportation}, volume~58 of {\em Graduate
+  Studies in Mathematics}.
+\newblock American Mathematical Society, 2003.
+
+\bibitem{hypocoercivity}
+C.~Villani.
+\newblock Hypocoercivity.
+\newblock {\em Mem. Amer. Math. Soc.}, 202(950):iv+141 pp., 2009.
+
+\bibitem{Weidmann}
+J.~Weidmann.
+\newblock {\em Linear operators in {H}ilbert spaces}, volume~68 of {\em
+  Graduate Texts in Mathematics}.
+\newblock Springer-Verlag, 1980.
+\newblock Translated from the German by Joseph Sz{\"u}cs.
+
+\bibitem{Withers}
+C.~S. Withers.
+\newblock Central limit theorems for dependent variables. {I}.
+\newblock {\em Z. Wahrsch. Verw. Gebiete}, 57(4):509--534, 1981.
+
+\bibitem{Witsenhausen}
+H.~S. Witsenhausen.
+\newblock On sequences of pairs of dependent random variables.
+\newblock {\em SIAM J. Appl. Math.}, 28:100--113, 1975.
+
+\end{thebibliography}

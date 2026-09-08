@@ -1,0 +1,41 @@
+{
+  "description": "Primary sources for auxiliary response localization; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/math-ph/0611002v9",
+      "version": "math-ph/0611002v9",
+      "attempted_at": "2026-09-08T20:47:45.080209+00:00",
+      "resolved_url": "https://arxiv.org/pdf/math-ph/0611002v9",
+      "content_type": "application/pdf",
+      "path": "math-ph-0611002v9-lo-witten.pdf",
+      "bytes": 366028,
+      "sha256": "c2dcfcb0f6481b6a159c2105947fb30e6b84f0926828ef5c51e2ba931f173111",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 46,
+        "first_page_text_prefix": "arXiv:math-ph/0611002v9  24 Mar 2007\nWitten Laplacian Methods for The Decay of\nCorrelations\nAssane Lo\nThe University of Arizona\nJuly 2, 2018\nAbstract\nThe aim of this paper is to ap"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/math-ph/0611002v9",
+      "version": "math-ph/0611002v9",
+      "attempted_at": "2026-09-08T20:47:45.080808+00:00",
+      "resolved_url": "https://arxiv.org/src/math-ph/0611002v9",
+      "content_type": "application/gzip",
+      "path": "math-ph-0611002v9-source.tex.gz",
+      "bytes": 31190,
+      "sha256": "22c7ba8019f39369fe8a2a60184158e25934db2b8c010647e6193eae8507ba79",
+      "kind": "downloaded-primary-source",
+      "format": "gzip-compressed single TeX source"
+    },
+    {
+      "path": "source/math-ph-0611002v9.tex",
+      "bytes": 121680,
+      "sha256": "14309e2d8487a2c7593b1809ec17fce32c3bbc326d81495263542da83e185ac9",
+      "kind": "extracted-author-source",
+      "derived_from": "math-ph-0611002v9-source.tex.gz",
+      "method": "byte-preserving gzip decompression"
+    }
+  ]
+}

@@ -108,7 +108,7 @@ This is not a claim that correlations imply physical gaplessness. This particula
 
 ## A visible threshold is an all-time statement
 
-Now remove the actual whole vacuum and use a readout into its orthogonal complement. Write \(K_0\) for that nonnegative restriction, and use \(\mathsf M\) for its compressed measure. For \(\delta>0\),
+Remove the complete zero-eigenspace of \(K\), put \(\mathcal H_0=(\ker K)^\perp\), and use an isometry \(V:\mathcal R\to\mathcal H_0\). Vacuum uniqueness, when claimed, is a separate assertion about that removed space. Write \(K_0\) for the nonnegative restriction to \(\mathcal H_0\), and use \(\mathsf M\) for its compressed measure. For \(\delta>0\),
 \[
 \boxed{
 \mathsf M([0,\delta))=0
@@ -117,9 +117,9 @@ V^*e^{-sK_0}V\le e^{-\delta s}I
 \ \text{for every }s\ge0.}
 \tag{SR8}
 \]
-The forward implication integrates the scalar bound on the supported spectrum. Conversely, if a vector measure had positive mass \(m\) in \([0,b]\) with \(b<\delta\), its heat readout would be at least \(m e^{-bs}\), contradicting the asserted estimate for sufficiently large \(s\). The intervals \([0,b]\), \(b<\delta\), exhaust \([0,\delta)\).
+This specializes the positive diagonal spectral-measure argument in [[positive-semigroup-decay/total-family-spectral-gap|total-family spectral decay]] to the vectors \(V\eta\) and their scalar measures \(\langle\eta,\mathsf M(\cdot)\eta\rangle\). Applying its exclusion argument vector by vector gives the reverse implication; integrating over the resulting support gives the forward bound. Totality in the whole carrier is not assumed here, so the conclusion concerns only the compressed measure. The semigroup is \(e^{-sK_0}\) on the whole carrier; its compression need not be autonomous.
 
-Even an estimate \(C e^{-\delta s}\) with one finite \(C\) for all \(s\) gives the same spectral exclusion. A good fit on a bounded interval of \(s\), or a finite list of moments, does not.
+Finite vector-dependent prefactors and onsets are also sufficient when the exponent \(\delta\) is common to all tested vectors and those vectors span a dense subspace of \(\mathcal R\). In particular, a bound \(V^*e^{-sK_0}V\le C e^{-\delta s}I\) with one finite \(C\) for all sufficiently large \(s\) gives the same spectral exclusion. A good fit on a bounded interval of \(s\), or a finite list of moments, does not.
 
 For example, \(0<\varepsilon<1\) gives the scalar measures
 \[
@@ -147,7 +147,7 @@ If every \(\mathsf M_i([0,\delta))=0\) with the same \(\delta>0\), then
 \[
 E_{K_0}([0,\delta))V_i=0
 \]
-for every \(i\), since the squared norm is the compressed projection form. Density forces \(E_{K_0}([0,\delta))=0\), hence \(K_0\ge\delta I\). A common visible floor becomes a whole floor only after this coverage is established.
+for every \(i\), since the squared norm is the compressed projection form. The [[positive-semigroup-decay/total-family-spectral-gap|total-family theorem]] applies to \(\bigcup_i V_i\mathcal R_i\): (SR8) supplies its common diagonal decay exponent, and (SR10) supplies precisely the required Hilbert totality. It gives \(K_0\ge\delta I\) on \(\mathcal H_0\). A common visible floor becomes a whole floor only after this coverage is established; no operator-domain or form-core condition is needed.
 
 A single readout may instead suffice when its minimal spectral carrier
 \[
@@ -157,7 +157,7 @@ A single readout may instead suffice when its minimal spectral carrier
 \]
 is all of \(\mathcal H_0\). It is reducing, and its spectrum is exactly what the compressed measure can detect. Unseen reducing sectors cannot be excluded by its measurements.
 
-Individual positive thresholds are not enough: on \(\ell^2(\mathbb N)\), take \(K_0 e_n=n^{-1}e_n\) and read out each coordinate separately. Each one-dimensional readout has a positive threshold, their ranges span the whole space, and the whole infimum is still zero.
+Individual positive thresholds are not enough. In the [[distinction-grain-spectrum/inq#Every distinction may have a grain while the theory is gapless|gapless grain example]], each one-dimensional coordinate readout has threshold \(1/n>0\), their ranges span the whole space, and the whole infimum is still zero.
 
 [[algebra/oriented-gram-descent-and-invariant-coverage|The three-loop
 orientation test]] supplies the complementary failure: the whole

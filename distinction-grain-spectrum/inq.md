@@ -2,6 +2,7 @@
 inq.module: "distinction-grain-spectrum"
 inq.include:
   - "**/*.md"
+keywords: [distinction grain, Fisher retention, total family, spectral gap, transfer semigroup]
 ---
 # The Distinction-Grain Spectrum
 
@@ -321,6 +322,8 @@ $$
 
 This is an exact re-expression of a positive spectral edge, not a derivation of one. It becomes explanatory only if upstream geometry proves a finite uniform grain without consulting \(A\)'s low spectrum.
 
+[[positive-semigroup-decay/total-family-spectral-gap|Total-family spectral decay]] gives another certificate for the same edge: one common eventual exponential bound on positive diagonal responses suffices on a family whose linear span is Hilbert-norm dense in \(Q\mathcal H\). Its prefactors and onsets may depend on the vector; no operator or form core is required for that spectral-measure argument. Finite individual grains alone do not supply its common exponent.
+
 ## Every distinction may have a grain while the theory is gapless
 
 On \(\ell^2(\mathbb N)\), define
@@ -395,7 +398,7 @@ $$
 
 If the semigroup parameter is Euclidean time \(\tau\), the corresponding relation is \(A=(H-E_0)/\hbar\); for Euclidean length \(s=c\tau\), it is (DG26). A dimensionless blocking depth cannot be inserted into (DG27) until a physical temporal lattice spacing or continuum length map has been constructed.
 
-The logarithm comes from converting multiplicative retention into additive attenuation. The number \(1/2\) chooses a balanced reporting convention; any prospective \(0<\alpha<1\) returns the same generator edge through (DG27). Neither \(\hbar\) nor \(c\) creates the grain. They solder a reconstructed clock-length rate to energy units. The quotient \(\Delta_E/c^2\) becomes a physical invariant-mass gap only after OS/Poincare reconstruction and restriction to the zero-spatial-momentum sector; before that step it is merely an energy gap written in mass units.
+The logarithm comes from converting multiplicative retention into additive attenuation. The number \(1/2\) chooses a balanced reporting convention; any prospective \(0<\alpha<1\) returns the same generator edge through (DG27). Neither \(\hbar\) nor \(c\) creates the grain. They solder a reconstructed clock-length rate to energy units. The [[mass-scale-calibration/mass-as-casimir-and-realization#Quantum reversal: mass labels Poincare representation components|joint-spectrum mass theorem]] identifies \(\Delta_E/c^2\) with the invariant-mass edge once the same vacuum-normalized Hamiltonian belongs to a strongly continuous positive-energy Poincare representation with Lorentz-invariant joint spectrum in the closed forward cone. This uses the full translation spectrum, not a restriction to normalizable zero-spatial-momentum states. Before that reconstruction, the quotient is an energy gap written in mass units.
 
 ## The collared whole--local version
 

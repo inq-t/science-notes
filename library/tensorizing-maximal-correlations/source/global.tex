@@ -1,0 +1,398 @@
+\pdfoutput=1
+\documentclass[a4paper,twoside,12pt]{report}
+
+%%%%%%%% PRÉAMBULE GÉNÉRAL DE LA THÈSE
+
+%%%%%% EXTENSIONS À CHARGER
+
+%% TeXnicités
+
+\usepackage[utf8]{inputenc} % Encodage du source
+\usepackage[T1]{fontenc} % Encodage des fontes
+\usepackage{textcomp} % Symboles de texte complémentaires
+%\usepackage[english,french]{babel} % Langues
+\usepackage{hyperref} % Hyperliens
+%\usepackage{graphicx} % Images
+\usepackage{tikz} % Dessins
+
+%% Astuces techniques
+
+\usepackage{verbatim} % Définit l'environnement {comment}
+\usepackage{calc} % Facilite la syntaxe des longueurs dans \setlength
+\usepackage{fmtcount} % Définit la commande \abalph pour la représentation alphabétique d'un compteur
+\usepackage{remreset} % Permet d'annuler l'effet de \@addtoreset
+\usepackage{relsize} % Permet de définir des tailles de fontes relatives
+\usepackage{fancyhdr} % Pour personnaliser l'en-tête
+\usepackage{paralist} % Définit des environnements de listes compactes
+
+%% Les extensions de l'AMS
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%% Divers
+
+\usepackage{pifont} % Casseaux
+\usepackage{lettrine} % Lettrines
+
+
+
+%%%%%% PARAMÉTRAGES
+% On utilisera du 11pt
+
+
+%%%% PARAMÈTRES DE TOLÉRANCE
+% Je suis ici une suggestion du l2tabu
+
+\tolerance=1414 % Qualité acceptable pour l'algorithme de coupure de lignes
+\setlength\emergencystretch{1.5em} % Espace que l'algorithme de coupure de lignes peut ajouter en dernier recours
+\hbadness=\tolerance % Seuil auquel LaTeX émet un avertissement "bad hbox"
+\setlength\hfuzz{0.3pt} % Seuil auquel LaTeX émet un avertissement "overfull hbox"
+\setlength\vfuzz{\hfuzz} % Seuil auquel LaTeX émet un avertissement "overfull vbox"
+\widowpenalty=9999 % Éviter que la dernière ligne d'un paragraphe soit "veuve" sur une autre page
+\raggedbottom
+
+
+%%%% POLICES
+
+\usepackage{fouriernc} % Police mathématique
+%\renewcommand\rmdefault{ptm} % Times
+%\renewcommand\sfdefault{phv} % Helvetica
+%\renewcommand\ttdefault{cmtt} % Computer Modern
+
+
+%%%% MISE EN PAGE
+
+% Marges verticales
+\addtolength\textheight{2\topmargin+1.in}
+\setlength\topmargin{-.5in}
+
+% Marges horizontales
+\addtolength\textwidth{\evensidemargin}
+\setlength\evensidemargin{0.pt}
+\setlength\marginparwidth{.5\marginparwidth}
+
+%% En-têtes et pieds de pages
+% \titrepartie devra être redéfini dans chaque partie
+
+%\pagestyle{fancy} % Style de page par défaut
+%\fancyhf{}
+%\fancyhead[RO,LE]{\small{\oldstylenums{\thepage}}} % Pagination
+%\fancyhead[CE]{\small Quelques problèmes d'inspiration physique en théorie des probabilités} % Pages de gauche
+%\fancyhead[CO]{\small\titrepartie} % Pages de droite
+
+%\fancypagestyle{plain}{\fancyhf{}\renewcommand\headrulewidth{0.pt}} % Vider le style "plain"
+
+%\def\titrepartie{} % Initialisation de \titrepartie
+
+%% Espacement vertical
+
+%\renewcommand\baselinestretch{1.08}\normalsize % Interligne
+\setlength\parskip{.5\baselineskip} % Séparation des paragraphes
+
+
+
+%%%%%% COMMANDES PERSONNALISÉES
+
+
+%%%% THÉORÈMES
+
+\swapnumbers % Le numéro est avant le mot "Théorème"
+
+\theoremstyle{definition}
+% Les lignes suivantes font terminer les définitions par un carreau
+%\makeatletter
+%\let\@endtheorem@TeX=\@endtheorem
+%\renewcommand\@endtheorem{\strut\nolinebreak\hfill$\diamondsuit$\@endtheorem@TeX}
+%\makeatother
+
+\newtheorem{Def}{Definition}[section] % Indexer les théorèmes sur les sections
+\newtheorem{Not}[Def]{Notation}
+\newtheorem{Hyp}[Def]{Assumption}
+
+\theoremstyle{plain}
+% La ligne suivante fait terminer les théorèmes par un trèfle
+%\makeatletter\renewcommand\@endtheorem{\strut\nolinebreak\hfill$\clubsuit$\@endtheorem@TeX}\makeatother
+
+\newtheorem{Pro}[Def]{Proposition}
+\newtheorem{Clm}[Def]{Claim}
+\newtheorem{Lem}[Def]{Lemma}
+\newtheorem{Thm}[Def]{Theorem}
+\newtheorem{Cor}[Def]{Corollary}
+
+\theoremstyle{remark}
+% La ligne suivante fait terminer les remarques par un cœur
+%\makeatletter\renewcommand\@endtheorem{\strut\nolinebreak\hfill$\heartsuit$\@endtheorem@TeX}\makeatother
+
+\newtheorem{Rmk}[Def]{Remark}
+\newtheorem{Xpl}[Def]{Example}
+
+
+%%%% COMPTEURS
+
+\renewcommand\thesubsection{\thesection.\alph{subsection}} % Les sous-sections s'appelleront "1.a"
+\makeatletter\@removefromreset{equation}{chapter}\makeatother % Pour contourner la numérotation des équations par chapitre
+\renewcommand\theequation{\texttt{\ABAlph{equation}}} % Numéroter les équations par des lettres
+\makeatletter\@removefromreset{figure}{section}\makeatother % Numéroter les figures globalement
+\renewcommand\thefigure{\arabic{figure}}
+
+
+%%%% QUELQUES RACCOURCIS
+
+\newcommand\mbb{\mathbb}
+\newcommand\mbf{\mathbf}
+\newcommand\mcal{\mathcal}
+\newcommand\mfrak{\mathfrak}
+\newcommand\mrm{\mathrm}
+\newcommand\msf{\mathsf}
+
+\newcommand\CC{\mbb{C}}
+\newcommand\NN{\mbb{N}}
+\newcommand\QQ{\mbb{Q}}
+\newcommand\RR{\mbb{R}}
+\newcommand\ZZ{\mbb{Z}}
+
+\newcommand\PP{\Pr}
+\newcommand\EE{\mathop{\smash{\mbf{E}}}\nolimits}
+\DeclareMathOperator\Var{Var}
+\DeclareMathOperator\Loi{\mathit{Loi}}
+\DeclareMathOperator\Law{\mathit{Law}}
+
+\newcommand\ab{\allowbreak}
+
+
+%%%% REDÉFINITIONS SIMPLES
+
+\renewcommand\epsilon{\varepsilon}
+\renewcommand\phi{\varphi}
+\renewcommand\geq{\geqslant}
+\renewcommand\leq{\leqslant}
+\renewcommand\setminus{\smallsetminus}
+\renewcommand\ell{l}
+
+\renewcommand\Pr{\mathop{\smash{\mbf{P}}}\nolimits}
+\renewcommand\ln{\log}
+\renewcommand\Re{\mathop{\mfrak{Re}}}
+\renewcommand\Im{\mathop{\mfrak{Im}}}
+\renewcommand\arcsin{\mathop{\mathrm{Arcsin}}}
+\renewcommand\arccos{\mathop{\mathrm{Arccos}}}
+\renewcommand\arctan{\mathop{\mathrm{Arctan}}}
+\renewcommand\limsup{\varlimsup}
+\renewcommand\liminf{\varliminf}
+
+%\renewcommand\qedsymbol{$\spadesuit$} % Pique en fin de démonstration
+\renewcommand\thefootnote{[\fnsymbol{footnote}]} % Appel de notes entre crochets
+
+% Deux-points mathématique
+\renewcommand\colon{\:\mathpunct{:}\enskip}
+% Numéroter toutes les formules
+\renewcommand\[{\begin{equation}}
+\renewcommand\]{\end{equation}}
+% Faire des listes compactes
+\renewenvironment{itemize}{\vspace{-.5\parskip}\begin{compactitem}}{\end{compactitem}\vspace{-.5\parskip}}
+\renewenvironment{enumerate}{\vspace{-.5\parskip}\begin{compactenum}}{\end{compactenum}\vspace{-.5\parskip}}
+
+
+%%%% REDÉFINITIONS PLUS SUBTILES
+\makeatletter
+
+% Chiffres elzéviriens
+%\let\oldstylenums@TeX=\oldstylenums
+%\renewcommand\oldstylenums{\fontfamily{cmr}\selectfont\oldstylenums@TeX}
+
+% Résumé
+%\renewenvironment{abstract}{\thispagestyle{plain}\null\vfil\@beginparpenalty\@lowpenalty\begin{center}\bfseries\abstractname\@endparpenalty\@M\end{center}}{\par\vfil\null\clearpage}
+
+%% Diminuer la taille de \wedge, \vee et \bigtriangleup
+
+\let\wedge@TeX=\wedge
+\renewcommand\wedge{\mathbin{\text{\relsize{-1}$\wedge@TeX$}}}
+
+\let\vee@TeX=\vee
+\renewcommand\vee{\mathbin{\text{\relsize{-1}$\vee@TeX$}}}
+
+\let\bigtriangleup@TeX=\bigtriangleup
+\renewcommand\bigtriangleup{\mathbin{\text{\relsize{-1}$\bigtriangleup@TeX$}}}
+
+%% Agrandir les accents mathématiques
+
+\usepackage{accents} % Accents mathématiques
+
+\def\CM@fonts#1{\begingroup\fontfamily{cmr}\selectfont#1\endgroup}
+
+\def\acute@low{\CM@fonts{\relsize{+4}\raisebox{-1.2ex}{\textasciiacute}}}
+\def\bar@low  {\CM@fonts{\relsize{+2}\raisebox{-1.4ex}{\textasciimacron}}}
+\def\breve@low{\CM@fonts{\relsize{+3}\raisebox{-1.2ex}{\textasciibreve}}}
+\def\check@low{\CM@fonts{\relsize{+3}\raisebox{-1.2ex}{\textasciicaron}}}
+\def\ddot@low {\CM@fonts{\relsize{+4}\raisebox{-0.0ex}{.\hspace{-.1em}.}}}
+\def\dot@low  {\CM@fonts{\relsize{+4}\raisebox{-0.0ex}{.}}}
+\def\grave@low{\CM@fonts{\relsize{+4}\raisebox{-1.2ex}{\textasciigrave}}}
+\def\hat@low  {\CM@fonts{\relsize{+3}\raisebox{-1.0ex}{\textasciicircum}}}
+\def\tilde@low{\CM@fonts{\relsize{+3}\raisebox{+0.1ex}{\texttildelow}}}
+\def\vec@low  {\CM@fonts{\relsize{+0}\raisebox{-0.0ex}{$\rightarrow$}}}
+
+\renewcommand\acute[1]{\accentset{\smash{\text{\acute@low}}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\bar  [1]{\accentset{\smash{\text{\bar@low  }}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\breve[1]{\accentset{\smash{\text{\breve@low}}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\check[1]{\accentset{\smash{\text{\check@low}}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\ddot [1]{\accentset{\smash{\text{\ddot@low }}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\dot  [1]{\accentset{\smash{\text{\dot@low  }}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\grave[1]{\accentset{\smash{\text{\grave@low}}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\hat  [1]{\accentset{\smash{\text{\hat@low  }}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\tilde[1]{\accentset{\smash{\text{\tilde@low}}\rule{0pt}{.3ex}}{#1}}
+\renewcommand\vec  [1]{\accentset{\smash{\text{\vec@low  }}\rule{0pt}{.3ex}}{#1}}
+
+%% Rendre les espace \enskip et \quad sécables
+
+\let\enskip@TeX=\enskip
+\renewcommand\enskip{\penalty-0\enskip@TeX\relax}
+
+\let\quad@TeX=\quad
+\renewcommand\quad{\penalty-0\quad@TeX\relax}
+
+%% Changer la façon de fonctionner de \big
+
+\renewcommand\big[1]{\text{\relsize{+1}\raisebox{-.09ex}{$#1$}}}
+\renewcommand\Big[1]{\text{\relsize{+2}\raisebox{-.17ex}{$#1$}}}
+\let\bigg=\bigg % On ne modifie pas \bigg
+\renewcommand\Bigg[1]{\text{\relsize{+1}\raisebox{-.09ex}{$\bigg#1$}}}
+
+%% Modifier la commande \fnsymbol pour qu'elle boucle sur six symboles
+
+\newcount\@DT@loopN
+\newcount\@DT@modctr
+\newcount\@DT@X
+\newcommand*{\@fnsymbol@six}[1]{%
+\@DT@loopN=#1\relax
+\advance\@DT@loopN by -1\relax
+\divide\@DT@loopN by 6\relax
+\@DT@modctr=\@DT@loopN
+\multiply\@DT@modctr by 6\relax
+\@DT@X=#1\relax
+\advance\@DT@X by -1\relax
+\advance\@DT@X by -\@DT@modctr
+\advance\@DT@loopN by 1\relax
+\advance\@DT@X by 1\relax
+\@fnsymbol\@DT@X
+}
+\providecommand*{\fnsymbol@six}[1]{%
+\expandafter\protect\expandafter\@fnsymbol@six{%
+\expandafter\the\csname c@#1\endcsname}}
+\renewcommand\fnsymbol\fnsymbol@six
+
+%\let\selectlanguage@TeX=\selectlanguage
+%\renewcommand\selectlanguage[1]{\selectlanguage@TeX{#1}%
+\let\figurename@TeX=\figurename%
+\renewcommand\figurename{\small\figurename@TeX}%}
+
+
+\makeatother
+%%%% QUELQUES NOUVELLES MACROS
+
+\newcommand\coloneqq{\mathrel{\text{\rlap{\raisebox{-.25ex}{$\cdot$}}\raisebox{+.25ex}{$\cdot$}$=$}}} % Symbole :=
+\newcommand\eqqcolon{\mathrel{\text{$=$\rlap{\raisebox{-.25ex}{$\cdot$}}\raisebox{+.25ex}{$\cdot$}}}} % Symbole =:
+\newcommand\dx[1]{d\mspace{-2.mu}\mathord{#1}} % Élément différentiel
+\newcommand\1[1]{\mbf{1}_{\text{\relsize{+1}$#1$}}} % Indicatrice
+\newcommand\pushfwd{\mathbin{\text{\relsize{-1}$\#$}}} % Mesure image
+\newcommand\Bcdot{\mathord{\Big\cdot}} % Gros point centré
+\newcommand\Dirac[1]{\boldsymbol{\delta}_{\text{\relsize{+1}$#1$}}} % Masse de Dirac
+%\newcommand\VERT{\mathord{|\!|\!|}} % Norme triple
+
+% Le paragraphe suivant introduit \clap, analogue de \rlap et \llap
+\def\clap#1{\hbox to 0pt{\hss#1\hss}}
+\def\mathclap{\mathpalette\mathclapinternal}
+\def\mathclapinternal#1#2{%
+\clap{$\mathsurround=0pt#1{#2}$}}
+
+\newenvironment{ienumerate}{\vspace{-.5\parskip}\begin{compactenum}[(i)]}{\end{compactenum}\vspace{-.5\parskip}} % Liste numérotée en "(i)"
+\newenvironment{NOTA}{\par\noindent\rm\ding{42}\quad\it}{\par} % Environnement "NOTA BENE"
+
+%%%%%%%% FIN DU PRÉAMBULE GÉNÉRAL
+
+
+
+%%%% Auteur
+
+\author{R\'emi Peyre}
+\title{Tensorizing maximal correlations}
+\date{December 30, 2010}
+
+%%%% Dessin
+
+%\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes.misc}
+\newcommand{\minisquare}[1]{\draw #1 +(-.7pt,-.7pt) rectangle +(+.7pt,+.7pt);}
+\newcommand{\rightangle}[3]{\draw (#2)
+	let	\p1 = ($(#1)-(#2)$), \p3 = ($(#3)-(#2)$), \n1 = {veclen(\p1)}, \n3 = {veclen(\p3)}
+	in	+($5/\n1*(\p1)$) -- +($5/\n1*(\p1) + 5/\n3*(\p3)$) -- +($5/\n3*(\p3)$);}
+
+%%%% Commandes spécifiques
+
+\newcommand\dist{\mathit{dist}}
+\newcommand\C[1]{#1^{\msf{c}}}
+\newcommand\vechat[1]{\vec{\hat{#1}}} % Pour raison historique
+\newcommand\longto{\to} % Flèche signifiant « tend vers »
+\newcommand{\ldb}{\smash{\bar{L}}^2}
+\DeclareMathOperator\ecty{Sd}
+\DeclareMathOperator\Cov{Cov}
+\DeclareMathOperator\Corr{Corr}
+\newcommand\footrel[2]{\underset{#1}{#2}}
+\newcommand\T[1]{#1^{\msf{\!T}}}
+\newcommand\onecirc{\raisebox{-.25ex}{\large\ding{172}}} %% `1' cerclé
+\newcommand\twocirc{\raisebox{-.25ex}{\large\ding{173}}} %% `2' cerclé
+\newcommand\threecirc{\raisebox{-.25ex}{\large\ding{174}}} %% `3' cerclé
+\newcommand{\barLip}{\overline{\mathit{Lip}}}
+\newcommand\boldepsilon{\boldsymbol\epsilon} %% \epsilon gras
+\newcommand{\notR}{\mcal{R}\llap{\raisebox{-.22ex}{$\Big/$}$\mspace{3.mu}$}}
+\DeclareMathOperator\valency{val}
+\DeclareMathOperator\II{II}
+\DeclareMathOperator\volume{vol}
+\newcommand\teps{\tilde\epsilon} %% \epsilon tilde
+\newcommand\offset{\mathit{offset}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+%%%% Césures
+
+\hyphenation{mea-su-ra-ble}
+\hyphenation{Fro-be-nius}
+\hyphenation{Cho-go-sov}
+
+%%%%%%%%%%%%%%%%
+
+\begin{document}
+%\selectlanguage{english}
+
+%\renewcommand\figurename{\small Figure}
+
+\maketitle
+
+\begin{abstract}
+The \emph{maximal \emph{(or \emph{Hilbertian})} correlation coefficient} between two random variables $X$ and~$Y$, denoted by ${\{X:Y\}}$, is the supremum of the $\big|\Corr\big(f(X),g(Y)\big)\big|$ for real measurable functions~$f,g$, where ``$\Corr$'' denotes Pearson's correlation coefficient.
+%
+It is a classical result that for independent pairs of variables $(X_i,Y_i)_{i\in I}$, ${\{\vec{X}_I : \vec{Y}_I\}}$ is the supremum of the~${\{X_i:Y_i\}}$. The main goal of this monograph is to prove similar tensorization results when one only has partial independence between the~$(X_i,Y_i)$; more generally, for random variables $(X_i)_{i\in I}, \ab (Y_j)_{j\in J}$, we will look for bounds on~${\{\vec{X}_I:\vec{Y}_J\}}$ from bounds on the~${\{X_i:Y_j\}}, \enskip i\in I, \ab j\in J$.
+
+My tensorization theorems will imply new decorrelation results for models of statistical physics exhibiting asymptotic independence, like the subcritical Ising model. I shall prove that for such models, two distant bunches of spins are decorrelated (in the Hilbertian sense) \emph{uniformly in their sizes and shapes}: if $I$ and~$J$ are two sets of spins such that $\dist(i,j) \geq d$ for all~$i\in I, \ab j\in J$, then one gets a nontrivial bound for~${\{\vec{X}_I:\vec{Y}_J\}}$ only depending on~$d$.
+
+Still for models like the subcritical Ising one, I shall also prove how Hilbertian decorrelations may be used to get the spatial CLT or the (strict) positiveness of the spectral gap for the Glauber dynamics, \emph{via} tensorization techniques again.
+
+Besides all that, I shall finally prove a new criterion to bound the maximal correlation~${\{\mcal{F}:\mcal{G}\}}$ between two $\sigma$-algebras~$\mcal{F}$ and~$\mcal{G}$ form a uniform bound on the $\big|{\Pr[A\cap B]}-{\Pr[A]\Pr[B]}\big| \mathbin{\big/} \sqrt{\Pr[A]\Pr[B]}$ for all~$A\in\mcal{F}, \ab B\in\mcal{G}$. Such criteria were already known, but mine strictly improves those and can moreover be proved to be optimal.
+\end{abstract}
+
+
+\input{intro}
+\setcounter{tocdepth}{1}
+\tableofcontents
+\input{chap0}
+\input{chap1}
+\input{chap2}
+\input{chap3}
+\input{chap4}
+\input{chap5}
+
+\bibliographystyle{abbrv}
+\bibliography{biblio}
+
+\end{document}
+

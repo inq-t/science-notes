@@ -1,0 +1,145 @@
+{
+  "source_commit": "4ab2ca5",
+  "frontier_item": "F4 in the Yang-Mills neighbor audit",
+  "semantic_consumer_edits": [
+    {
+      "path": "coarse-response-memory/inq.md",
+      "baseline_sha256": "8aa9803c37a6664d7d732e347a2aa259f2c45695b3de6e3a24efd6cea4c067f2",
+      "reviewed_sha256": "f78072399bea2b2a4c65e1e1a7ddcc03bcf141fd9a0992b7d9753de8fe6b1387"
+    },
+    {
+      "path": "coarse-response-memory/spectral-readout-and-the-visible-gap.md",
+      "baseline_sha256": "285c41e59549a6658997c8437056c97b67b761747cb8213cb6eec151c406b288",
+      "reviewed_sha256": "b2917623bd9e370ca7378eab367361c396bdaeff23583f92d2021148cbd7802d"
+    },
+    {
+      "path": "contemporary-puzzles/yang-mills-mass-gap/inq.md",
+      "baseline_sha256": "1114c358da0811a0225b83869794fee8a2e1996ba66bc32a3a6ceeadcd854e1e",
+      "reviewed_sha256": "33075dc57745a578fa8a8b5e620aab5ede33d7ad55c44b4eec556139d8d9019a"
+    },
+    {
+      "path": "cosmological-scale-selection/cosmological-selection-of-the-yang-mills-yardstick.md",
+      "baseline_sha256": "31da71fd95893b831d222662456c5d25f952f010eecdd6f9ff64c36e40118a97",
+      "reviewed_sha256": "67c0bc1ef2c168a4ee4cb4acd1746b05f6f60062156bff912683648b1706e958"
+    },
+    {
+      "path": "distinction-grain-spectrum/inq.md",
+      "baseline_sha256": "515dbbf93b12ce2f315c315817fe06378a9a5d0cb8bf0b375121dcfde16da22b",
+      "reviewed_sha256": "95e6e8611003d1a49bdd2fa9daeb36edb633718af5fc067f5f9eef7719a1ea36"
+    },
+    {
+      "path": "global-local-response-reconstruction/inq.md",
+      "baseline_sha256": "834ffb10009edd6c02373e3a34345e257a66098ea6da55ff6d5895ad0b678f1d",
+      "reviewed_sha256": "8470bf070a059d6731781daec915879dff165a72947b9ba1916f1424f8b99945"
+    },
+    {
+      "path": "global-local-response-reconstruction/realization-ledger.md",
+      "baseline_sha256": "4cf068b19efc78a794abc2367865264f52700b72625e737e63c97565a42ecfff",
+      "reviewed_sha256": "14ec602b974afa7f287023c829ad8c2dadfc7a452a15ca754bd368e6b5e5c5a1"
+    },
+    {
+      "path": "higgs-reduction-as-local-shadow/inq.md",
+      "baseline_sha256": "8aa3380a01993777a49eb81c7fc596159d004846e0f38c4490a5157740c67d3f",
+      "reviewed_sha256": "918e3b1655b807194348fceb8fd0c521224a777ffb9bc110d01238db6a97c39e"
+    },
+    {
+      "path": "mass-scale-calibration/mass-as-a-calibrated-distinction-rate.md",
+      "baseline_sha256": "8132005b49a1d96da41b0b7161dde9a51b1c4785c350d8275799b44f7ab6b216",
+      "reviewed_sha256": "55d40631322733bed061d3d41efa9907bdb696c2453694b6c5a1adb9af8d8258"
+    },
+    {
+      "path": "program-core/operation-registers.md",
+      "baseline_sha256": "2d113fe8b56e70b3b80eb2312a5854b09f8522a0503383d15bf2a1c3e91ed560",
+      "reviewed_sha256": "64e946c3a163393600f2af5ccecbf07e5740174798785812445a18099d9e38a7"
+    },
+    {
+      "path": "program-core/response-registers.md",
+      "baseline_sha256": "298453ad49912d78c4593dfb0a82ab9a2914837bcfed0dad7deeab734fbeb75b",
+      "reviewed_sha256": "640d7f0d142a29f4b8ef6d759c023fba2fc5f1c0a0c3529345c8ac939c2d5c95"
+    },
+    {
+      "path": "rg-covariance-residue/inq.md",
+      "baseline_sha256": "985b8fa9e25945d44a68073359fc1eb1e870334ccf05a45983b610d14be73af8",
+      "reviewed_sha256": "f419b7d1db972f143f8a29c63bcf789622ce57e607eca0e6524f714e1a43f56f"
+    },
+    {
+      "path": "trace-dirichlet-descent/gauge-dirichlet-trace-carrier.md",
+      "baseline_sha256": "57423faa2696935347cfaa1cf97261f8f5542c3024a5c42bc35ad8329886f707",
+      "reviewed_sha256": "d6d14a22cfb4af82400f673fc7ef64c642ee5b30f1002320de9a41c0d43795c9"
+    },
+    {
+      "path": "yang-mills-continuum-crossover/asymptotically-free-response-crossover-lemma.md",
+      "baseline_sha256": "82881f855cb3149fc5fb06c4cb33f03c5c1775c1233e1564e6a651d2724ab578",
+      "reviewed_sha256": "249d6a1f282731b39653cc6ed3d7235aa5f27e5c1155507eece99333016c94b0"
+    },
+    {
+      "path": "yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma.md",
+      "baseline_sha256": "49c8e96ce4abcf75c0e63434d7af57ee7127ed2fe4648e64104b48d461522b3b",
+      "reviewed_sha256": "e9937af99ac61dbf481aa3d8f870b47f49432a093827e1b45dc94befa80fa1a0"
+    }
+  ],
+  "validation": {
+    "existing_consumer_tags_preserved": 318,
+    "ARL_tags_preserved": 27,
+    "artifact_hashes_checked": 20,
+    "byte_exact_extractions": 12,
+    "active_heading_targets_checked": 16,
+    "retired_heading_links": [],
+    "changed_markdown_count": 31,
+    "changed_markdown_findings": [],
+    "frozen_paths_changed": [],
+    "whitespace_return_code": 0,
+    "whitespace_output": "",
+    "findings": [],
+    "scoped_module_graph": {
+      "modules": 12,
+      "unreachable_notes": 0,
+      "unlinked_resources": 0,
+      "unresolved_links": 0,
+      "format_findings": 0
+    },
+    "independent_mathematical_review": "No actionable findings: totality, full ground-space removal, conditional-pinning coverage, physical distance, regulator limits and reconstruction assumptions retained.",
+    "receipts": "Both auxiliary NumPy receipts passed from C:/ before the split; scripts and stored output remain byte-identical to source commit. Section manifest records hashes.",
+    "staged_artifact_hashes_checked": 20,
+    "staged_authored_whitespace": "pass; immutable author artifacts excluded",
+    "inq_sync_modules": 525,
+    "inq_lint": {
+      "errors": 54,
+      "warnings": 0,
+      "unchanged_nonlibrary_errors": 23,
+      "unchanged_library_ordering_false_exclusions": 23,
+      "new_library_ordering_false_exclusions": 8,
+      "new_actual_missing_targets": 0,
+      "verified_library_targets": 31,
+      "cause": "Inq 0.4.0 resource inventory is string-sorted; LinkModule includes uses PathBuf-component binary search without resort. All library failures match this ordering model and point to admitted existing resources.",
+      "new_false_exclusions": [
+        "library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/source-provenance.json",
+        "library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/source/Yang_mills_ergodicity_-7.bbl",
+        "library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling/source/Yang_mills_ergodicity_-7.tex",
+        "library/tensorizing-maximal-correlations/source-provenance.json",
+        "library/tensorizing-maximal-correlations/source/chap0.tex",
+        "library/tensorizing-maximal-correlations/source/chap1.tex",
+        "library/witten-laplacian-methods-for-the-decay-of-correlations/source-provenance.json",
+        "library/witten-laplacian-methods-for-the-decay-of-correlations/source/math-ph-0611002v9.tex"
+      ]
+    }
+  },
+  "primary_sources": {
+    "downloaded": [
+      "library/witten-laplacian-methods-for-the-decay-of-correlations",
+      "library/witten-laplacian-on-a-lattice-spin-system",
+      "library/a-stochastic-analysis-approach-to-lattice-yang-mills-at-strong-coupling",
+      "library/tensorizing-maximal-correlations"
+    ],
+    "metadata_only_after_failed_retrieval": [
+      "library/axioms-for-euclidean-greens-functions",
+      "library/axioms-for-euclidean-greens-functions-ii"
+    ]
+  },
+  "changes": [
+    "Split auxiliary-response-localization into a synthesis and three constructions while retaining the exact-source proof and calculation resources.",
+    "Extract shared positive-semigroup spectral decay and conditional-correlation tensorization into independent owners.",
+    "Replace repeated spectral and mass-conversion arguments with direct imports; correct Hilbert-total versus operator-core and zero-momentum eigenspace requirements.",
+    "Localize primary-source precedents, distinguishing support-dependent exponents, strong-coupling estimates, all-pinning hypotheses and full physical reconstruction."
+  ]
+}

@@ -539,16 +539,6 @@ C_F e^{-\sigma_*s}
 \qquad(s\geq s_F).
 $$
 
-Here \(s\) is physical Euclidean length along the OS axis and
-\(\psi_F\) ranges over an OS-total centered local family. With the required
-reconstruction and correlation-convergence hypotheses, this excludes spectral
-support of the OS Hamiltonian in \((0,\hbar c\,\sigma_*)\). The prefactor
-\(C_F\) and onset \(s_F\) may depend on \(F\); the exponent may not. Totality
-removes the low spectral projection vector by vector, so no sum over a
-transverse surface and no uniform frame prefactor is needed. Decay in one
-channel, or exponents whose infimum over the total family is zero, does not
-prove the full Hamiltonian gap. Calling it an invariant mass gap additionally
-requires a positive-energy Poincaré representation with Lorentz-invariant
-joint energy--momentum spectrum and a unique vacuum.
+Here \(s\) is physical Euclidean length along the OS axis and \(\psi_F\) ranges over a Hilbert-total family in the complete ground-state complement. The [[positive-semigroup-decay/physical-reconstruction-and-units|physical reconstruction contract]] gives the energy floor from this bound and states the additional joint-spectrum assumptions for invariant mass. The finite prefactor \(C_F\) and onset \(s_F\) may depend on the source, while the physical exponent is common. This spectral step requires no transverse-surface sum or uniform frame constant.
 
 This is the exact role of the “wall.” Each RG arrow forgets fine coordinates and pays the conditional term in (RG1); the two-scale theorem states when coarse and fiber coercivity survive their coupling; the stopping condition asks whether the flow reaches a carrier on which infrared stiffness is manifest. None of that makes stochasticity fundamental. Balaban-type control plausibly supplies quasi-local effective interactions, while the missing non-Abelian theorem is a cutoff-, volume-, boundary-, and declared-vacuum-uniform \(L^2\) floor for the full terminal RG law, coupled to a compatible influence estimate. The auxiliary last mile sharpens the endpoint; it does not remove this crossover wall.

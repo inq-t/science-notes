@@ -308,7 +308,7 @@ $$
 $$
 
 With the usual OS placement of supports, the limiting diagonal correlation is
-\(\langle\psi_F,e^{-s(H-E_0)/(\hbar c)}\psi_F\rangle\). The spectral theorem
+\(\langle\psi_F,e^{-s(H-E_0)/(\hbar c)}\psi_F\rangle\). [[positive-semigroup-decay/total-family-spectral-gap|The total-family spectral-gap theorem]]
 then gives
 
 $$
@@ -325,9 +325,7 @@ translation. It becomes an invariant-mass statement only if the reconstructed
 theory also carries a strongly continuous positive-energy Poincaré
 representation, its joint energy--momentum spectrum is Lorentz invariant and
 contained in the closed forward cone, and the vacuum is the unique
-zero-momentum invariant vector. Under those additional hypotheses, every
-nonzero massive spectral orbit contains its rest-energy point, while a
-massless orbit would have arbitrarily small positive energy. Hence (AFR11)
+zero-momentum invariant vector. The [[mass-scale-calibration/mass-as-casimir-and-realization#Quantum reversal: mass labels Poincare representation components|joint-spectrum energy–mass theorem]] supplies this separate implication without requiring normalizable rest states. Hence (AFR11)
 implies
 
 $$
@@ -389,7 +387,7 @@ regulator indices. Here the essential supremum is taken with respect to the
 \(\nu_a(\cdot\mid U_K=u_K)\) is a chosen regular conditional law, defined for
 almost every \(u_K\). Put
 \(\epsilon_{bb'}:=\min\{\kappa_0,Ae^{-m d(b,b')}\}\). Under the hypotheses of
-[[library/tensorizing-maximal-correlations/inq|Peyre's theorem]], (AFR13)
+[[conditional-correlation-tensorization/inq|The conditional-correlation tensorization theorem]], (AFR13)
 tensorizes for finite disjoint bunches \(I,J,K\) to
 
 $$

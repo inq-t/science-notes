@@ -1,0 +1,997 @@
+--- PDF page 1 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM
+by
+Ichiro Shigekawa
+Dedicated to Jean-Michel Bismut on the occasion of his 60th birthday
+Abstract.— We consider an unbounded lattice spin system with a Gibbs measure.
+We introduce the Hodge-Kodaira operator acting on diﬀerential forms and give a
+suﬃcient condition for the positivity of the lowest eigenvalue.
+R´esum´e (Laplacien de Witten sur un syst` eme de spin sur r´ eseau)
+Nous consid´erons un r´eseau de spin muni d’une mesure de Gibbs. Nous intro-
+duisons l’op´erateur de Hodge-Kodaira agissant sur les formes diﬀ´erentielle, et nous
+donnons une condition suﬃsante pour la positivit´e de la plus petite valeur propre.
+1. Introduction
+In this paper, we consider the spectral gap problem for a lattice spin system. Here,
+in our case, the single spin space is R and so it is non-compact. This is sometimes
+called an unbounded spin system.
+We consider a model that each spin sits on the latticeZd, and so the conﬁguration
+space is RZd
+. We suppose that a Gibbs measure is given in RZd
+, which has the
+following formal expression:
+ν= Z−1 exp
+{
+−2J
+∑
+i,j∈Zd
+i∼j
+(xi − xj)2 − 2
+∑
+i∈Zd
+U(xi)
+} ∏
+i∈Zd
+dxi.(1.1)
+Here U is a function of R, called a self potential and i ∼ j means that ∥i − j∥1 =∑
+k |ik − jk| = 1. Under this measure we deﬁne the Hodge-Kodaira operator and
+discuss the positivity of the lowest eigenvalue of the operator. For unbounded spin
+systems, the Poincar´e inequality, the logarithmic Sobolev inequality and other prop-
+erties are well discussed, e.g., Zegarlinski [11], Yoshida [10], etc. In particular, Helﬀer
+[5, 6, 7, 8] dealt with this problem in connection to the Witten Laplacian. In fact, he
+2000 Mathematics Subject Classiﬁcation .— 60H07, 47D08, 47A10.
+Key words and phrases .— Lattice spin system, Witten Laplacian, spectral gap.
+
+--- PDF page 2 ---
+2 ICHIRO SHIGEKA W A
+proved the positivity of the lowest eigenvalue of the Hodge-Kodaira operator acting
+on 1-forms. From this point of view, we generalize his result to any p-forms (p ≥ 1),
+i.e., we will prove that the lowest eigenvalue of the Hodge-Kodaira operator acting on
+p-forms is positive.
+The organization of the paper is as follows. In Section 2, we discuss the Witten
+Laplacian on a ﬁnite dimensinal space and in Section 3, we summarize diﬀerential
+forms, the Hodge-Kodaira operator and the Weitzenb¨ock formula, which is crucial in
+the later argument. In Section 4, we give an estimate of spectral gap for 1-dimensinal
+case. Last in Section 5, we prove the positivity of the lowest eigenvalue of the Hodge-
+Kodaira operaotr. We only consider the ﬁnite region case but we give a uniform
+estimate. In fact, it is independent of the choice of reginon and the boundary condi-
+tion. So the result is valid for the inﬁnite volume case as well.
+2. Witten Laplacian in ﬁnite dimension
+We give a quick review of the Witten Laplacian, which we need later. Details
+and related topics can be found in Hellfer [ 8], Albeverio-Daletskii-Kondratiev [ 1],
+Elworthy-Rosenberg [4], etc. Simon et al [ 3] is also a good reference for the super-
+symmetry.
+Our interest is in the inﬁnite dimensional case, but we start with the ﬁnite dimen-
+sional case. Suppose we are given a C
+2 function Φ on RN and deﬁne a measure ν
+by
+ν(dx)= Z−1e−2Φdx.(2.1)
+Here Z =
+∫
+RN e−2Φdx so that ν is a probability measure. Deﬁne a Dirichlet form E
+by
+E (f,g )=
+∫
+RN
+(∇f, ∇g)e−2Φdx,(2.2)
+where ∇ =( ∂1,...,∂ N ), ∂k = d
+dxk
+.( ∇f, ∇g) stands for the Euclidean inner product.
+We must specify the domain of E . (2.2) is well-deﬁned for f, g ∈ C∞
+0 (RN ). So at
+ﬁrst, E is deﬁned on C∞
+0 (RN ). Let us give an explicit form of the dual operator ∂∗
+j
+of ∂j in L2(ν). To do this, note that
+∫
+RN
+∂jfge −2Φdx = −
+∫
+RN
+f∂j(ge−2Φ)dx = −
+∫
+RN
+f(∂jg − 2∂jΦg)e−2Φdx,
+which means
+∂∗
+j = −∂j +2 ∂jΦ.(2.3)
+Here ∂∗
+j is the dual operator of ∂j in L2(ν).
+
+--- PDF page 3 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 3
+From this, we can see that the dual operator of ∇ has dense domain and so ∇ is
+closable. Moreover the generator A is given by
+Af = −
+∑
+j
+∂∗
+j ∂j =
+∑
+j
+(∂2
+j f − 2∂jΦ∂jf)= △f − 2(∇Φ, ∇f).(2.4)
+This is valid for f ∈ C∞
+0 (RN ). We can show that A is essentially self-adjoint and so,
+by taking closure, we may regard A as self-adjoint operator. The domain of E is a
+set of all functions f ∈ L2(ν) with ∇f ∈ L2(ν; RN ).
+We now deﬁne a Witten Laplacian. Let I : L2(dx) −→ L2(ν) be a unitary operator
+deﬁned by
+If (x)= eΦf.(2.5)
+Let us obtain a operator Xj which satisﬁes the following commutative diagram:
+L2(dx)
+I
+−−−−→ L2(ν)
+Xj
+⏐⏐↓
+⏐⏐↓∂j
+L2(dx)
+I
+−−−−→ L2(ν)
+(2.6)
+It is not hard to see that
+Xj = e−Φ∂jeΦ = ∂j + ∂jΦ.
+We denote the dual operator of Xj in L2(dx)b y ˜Xj. Here we use the following
+convention. ∗stands for the dual operator inL2(ν) and ˜ stands for the dual operator
+in L2(dx), dx being the Lebesgue measure in RN . ˜Xj has the following form:
+˜Xj = −∂j + ∂jΦ.
+This is also equal to e−Φ∂∗
+j eΦ. The operator A associated with the generator A =
+− ∑
+j ∂∗
+j ∂j is computed by
+A = e−Φ AeΦ = −e−Φ(
+∑
+j
+∂∗
+j ∂j)eΦ = −
+∑
+j
+˜XjXj
+= −
+∑
+j
+(−∂j + ∂jΦ)(∂j + ∂jΦ) =
+∑
+j
+(∂2
+j + ∂2
+j Φ − (∂jΦ)2)
+= △ + △Φ −| ∇ Φ|2.
+Deﬁnition 2.1 .— A = △ + △Φ −| ∇ Φ|2 in L2(dx) is called a Witten Laplacian.
+A and A are unitary equivalent to each other but we distinguish them and call A
+as the Witten Laplacian, which is an operaotr in L2(dx).
+The following commutation relation is easily checked.
+Proposition 2.1.—I n L2(ν), we have
+[∂i,∂j]=0 ,(2.7)
+[∂i,∂∗
+j ]=2 ∂i∂jΦ,(2.8)
+
+--- PDF page 4 ---
+4 ICHIRO SHIGEKA W A
+[∂∗
+j ,∂∗
+k]=0 .(2.9)
+Further, in L2(dx), we have
+[Xi,X j]=0 ,(2.10)
+[Xi, ˜Xj]=2 ∂i∂jΦ,(2.11)
+[ ˜Xj, ˜Xj]=0 .(2.12)
+3. Witten Laplacian acting on diﬀerential forms
+In Section 2, we have introduced the Witten Laplacian. We now proceed to the
+Witten Laplacian acting on diﬀerential forms.
+Let us quickly review the exterior algebra. In the sequel, we will deal with multi-
+linear functionals on RN . Let t be a p-linear functional and s be a q-linear functional,
+e.g., t is a functional from RN ×···× RN
+
+ 
+ 
+p
+into R which is linear in each coordinate.
+We deﬁne p + q-linear functional t ⊗ s by
+t ⊗ s(v1,...,v p,vp+1,...,v p+q)= t(v1,...,v p)s(vp+1,...,v p+q).(3.1)
+t ⊗ s is called a tensor product. We also deﬁne the alternation mapping Ap by
+Apt(v1,...,v p)= 1
+p!
+∑
+σ∈Sp
+(sgn σ)t(vσ(1),...,v σ(p))(3.2)
+for p-linear functional t. Here Sp is the symmetric group of degreep and sgnσ stands
+for the signature. If p-linear functional θsatisﬁes Apθ= θ, θis called alternating. We
+denote the set of all alternating functionals of degreep by ⋀p(RN )∗.F o rθ ∈ ⋀p(RN )∗
+and η ∈ ⋀q(RN )∗, we deﬁne their exterior product θ∧ η by
+θ∧ η= (p + q)!
+p!q! Ap+q(θ⊗ η).(3.3)
+Taking an orthonormal basis θ1,...,θ N in (RN )∗, any element of ⋀p(RN )∗ is repre-
+sented as a unique linear combination of the following elements
+θi1 ∧···∧ θip(3.4)
+We deﬁne an inner product in ⋀p(RN )∗ so that all elements of the form (3.4) become
+an orthonormal basis in ⋀p(RN )∗.
+Ap(RN )= RN × ⋀p(RN )∗ has a structure of vector bundle and a section of
+Ap(RN ) is called a diﬀerential form of degree p. The set of all sections is denoted
+by Γ(Ap(RN )). Since the vector bundle Ap(RN ) is trivial, any section can be identi-
+ﬁed with a mapping from RN into ⋀p(RN )∗. In the sequel, we use this convention.
+Γ∞ (Ap(RN )) denotes the set of all smooth diﬀerential forms and Γ∞
+0 (Ap(RN )) denotes
+the set of all smooth diﬀerential forms with compact support.
+
+--- PDF page 5 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 5
+We introduce some operators in ⋀p(RN )∗ as follows. For θ ∈ (RN )∗, we deﬁne
+ext(θ): ⋀p(RN )∗ −→ ⋀p+1(RN )∗ by
+ext(θ)ω = θ∧ ω(3.5)
+and for v ∈ RN , we deﬁne int( θ): ⋀p(RN )∗ −→ ⋀p−1(RN )∗ by
+(int(v)ω)(v1,...,v p−1)= ω(v,v 1,...,v p−1).(3.6)
+Taking a standard basis{e1,...,e N } of RN and its dual basis {θ1,...,θ N }, we deﬁne
+operators ai,( ai)∗ by
+ai =i n t (ei),(3.7)
+(ai)∗ = ext(θi).(3.8)
+Here we regard ai,( ai)∗ as operators on an exterior algebra R ⊕ (RN )∗ ⊕ ⋀2(RN )∗ ⊕
+···⊕ ⋀N (RN )∗. They satisfy the following commutation relation:
+[ai,a j]+ =0 ,(3.9)
+[ai, (aj)∗]+ = δij,(3.10)
+[(ai)∗, (aj)∗]+ =0 .(3.11)
+Here [ , ]+ stands for an anti-commutator, i.e., [ai,a j]+ = aiaj + ajai.
+For diﬀerential forms, the covariant diﬀerentiation∇ can be deﬁned. More gener-
+ally, the covariant diﬀerentiation∇ is deﬁned for tensor ﬁelds as follows:
+∇t =
+∑
+i
+θi ⊗ ∂it.
+Here we remark that the operator is considered in L2(ν), i.e., the reference measure
+is ν. The dual operator of ∇ in L2(ν) is given by
+∇ ∗(
+∑
+i
+θi ⊗ ti)=
+∑
+i
+∂∗
+i ti
+and so we have
+∇ ∗∇t =
+∑
+i
+∂∗
+i ∂it = −
+∑
+i
+(∂2
+i − 2∂iΦ∂i)t.
+For diﬀerential forms, we can deﬁne the exterior diﬀerentiation as follows. Let ω
+be a diﬀerential form of degree p. Then its exterior derivative is deﬁned by dω =
+(p +1 )Ap+1∇ω and it is written as
+d =
+∑
+i
+ext(θi)∂i =
+∑
+i
+(ai)∗∂i.(3.12)
+Hence, its dual operator is expressed as
+d∗ =
+∑
+i
+ai∂∗
+i .(3.13)
+
+--- PDF page 6 ---
+6 ICHIRO SHIGEKA W A
+Using these operators, the Hodge-Kodaira Laplacian is deﬁned as −(dd∗ + d∗d).
+The following formula is called the Weitzenb¨ock formula:
+Theorem 3.1. — We have the following identity.
+dd∗ + d∗d = ∇ ∗∇ +2
+∑
+i,j
+∂i∂jΦ( ai)∗aj.(3.14)
+Proof. — By (3.12) and (3.13), we have
+dd∗ + d∗d =
+∑
+i,j
+{(ai)∗∂i aj∂∗
+j + aj∂∗
+j (ai)∗∂i}
+=
+∑
+i,j
+{(ai)∗aj ∂i∂∗
+j − (ai)∗aj ∂∗
+j ∂i +( ai)∗aj ∂∗
+j ∂i + aj(ai)∗ ∂∗
+j ∂i}
+=
+∑
+i,j
+{(ai)∗aj[∂i,∂∗
+j ]+[ (ai)∗,a j]+∂∗
+j ∂j }
+=
+∑
+i,j
+{2(ai)∗aj∂i∂jΦ+ δij∂∗
+j ∂i}
+=
+∑
+i,j
+2∂i∂jΦ( ai)∗aj +
+∑
+i
+∂∗
+i ∂i
+= ∇ ∗∇ +
+∑
+i,j
+2∂i∂jΦ( ai)∗aj.
+This is what we wanted.
+So far, the reference measure has been ν. The isomorphism I : L2(dx) −→ L2(ν)
+can be extended to diﬀerential forms. Under the Lebesgue measure, the corresponding
+exterior diﬀerentiation and its dual operator are given by
+D = e−ΦdeΦ,(3.15)
+˜D = e−Φd∗eΦ.(3.16)
+So the operator ˜DD+D ˜D can be deﬁned similarly and it has the following expression:
+Theorem 3.2. — We have the following identities:
+˜DD + D ˜D =
+∑
+i
+˜XiXi +2
+∑
+i,j
+∂i∂jΦ( ai)∗aj.(3.17)
+We call the operator ˜DD +D ˜D in L2(dx) as the Witten Laplacian and distinguish
+from dd∗+d∗d, which is deﬁned in L2(dν) and is called the Hodge-Kodaira Laplacian.
+We remark that the operatorsaj,( ai)∗ are independent of the underlying measure
+and so we used the same notation.
+Proof. — We easily have
+˜DD + D ˜D = e−Φ(dd∗ + d∗d)eΦ
+
+--- PDF page 7 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 7
+= e−Φ {∇ ∗∇ +2
+∑
+i,j
+∂i∂jΦ( ai)∗aj }eΦ
+=
+∑
+i
+˜XiXi +2
+∑
+i,j
+∂i∂jΦ( ai)∗aj.
+This is the desired result.
+Due to this unitary equivalence, the following theorem is well-known (see, e.g., [2]).
+Theorem 3.3. — The Hodge-Kodiara operator ˜DD+D ˜D with a domain Γ∞
+0 (Ap(RN ))
+is essentially self-adjoint in L2(dx; ⋀p(RN )∗). Furthermore, d∗d + d∗d with a domain
+Γ∞
+0 (Ap(RN )) is essentially self-adjoint in L2(ν; ⋀p(RN )∗).
+4. Witten Laplacian in one-dimension
+In this section, we give an estimate of the bottom of the spectrum in 1-dimensional
+case. In the sequel, the state space is R and the underlying measure is Lebesgue
+measure. We denote the Hamiltonian by φ instead of Φ to distinguish. We deﬁne an
+operator Xφ = ∂t + φ′, ∂t = d
+dt . Using this operator, the Witten Laplacian can be
+written as
+−20 = ˜XφXφ,(4.1)
+which acts on scalar functions, and
+−21 = ˜XφXφ +2 φ′′(t)(4.2)
+which acts on 1-forms. Here we identify 1-forms with scalar functions. This is possible
+since the dimension of ﬁber space is 1-dimension. Our aim is to give an estimate of
+the lowest eigenvalue of−2
+1, which we denote byλ1(φ). From (4.2), we can see that
+λ1(φ) ≥ 2c if φ is convex and φ′′(t) ≥ c. Noting that ˜Xφ = −∂t + ∂tφ, we have
+˜XφXφ − Xφ ˜Xφ =( −∂t + φ′)(∂t + φ′) − (∂t + φ′)(−∂t + φ′)
+= −∂2
+t − φ′′ − φ′∂t + φ′(∂t + φ′)+ ∂2
+t − φ′′ − φ′∂t − φ′(−∂t + φ′)
+= −2φ′′,
+which means
+−21 = Xφ ˜Xφ.(4.3)
+As in Deﬁnition 2.1, we have
+−20 = ˜XφXφ = − d2
+dt2 + φ′(t)2 − φ′′(t)(4.4)
+and further
+−21 = Xφ ˜Xφ = − d2
+dt2 + φ′(t)2 + φ′′(t).(4.5)
+
+--- PDF page 8 ---
+8 ICHIRO SHIGEKA W A
+We note that the pair of 20 and 21 has a supersymmetric structure. In fact, in
+the space L2(R) ⊕ L2(R), we deﬁne
+Q =
+( 0 ˜Xφ
+Xφ 0
+)
+.(4.6)
+Then Q is symmetric and satisﬁes
+Q2 =
+( ˜XφXφ 0
+0 Xφ ˜Xφ
+)
+=
+( −20 0
+0 −21
+)
+.
+By using the following well-known fact (see, e.g., [3, Theorem 6.3]), we can see that
+−20 and −21 have the same spectrum except for 0.
+Proposition 4.1. — Let T be a closed operator in a Hilbert space H. Then T ∗T
+and TT ∗ has the same spectrum except for 0.
+By this special structure, we have that eigenvalues of −20 coincide with those of
+−21 excluding 0.
+The next Lemma shows that a bounded perturbation preserves the positivity of
+the lowest eigenvalue.
+Lemma 4.2. — Let χ be a bounded function. We denote by χsup, χinf the inﬁmum
+and the supremum of χ, respectively. Then we have
+λ1(φ) ≥ e−2(χsup−χinf)λ1(φ+ χ).(4.7)
+Proof. — Note that
+e−χ(−∂t + φ′ + χ′)eχ = −e−χ∂teχ + φ′ + χ′
+= −e−χ(eχχ′ + eχ∂t)+ φ′ + χ′ = −∂t + φ′ = ˜Xφ.
+Hence we have
+(−21u, u)=( ˜Xφu, ˜Xφu)
+=( (−∂t + φ′)u, (−∂t + φ′)u)
+=( e−χ(−∂t + φ′ + χ′)eχu, e−χ(−∂t + φ′ + χ′)eχu)
+≥ e−2χsup ((−∂t + φ′ + χ′)eχu, (−∂t + φ′ + χ′)eχu)
+≥ e−2χsup λ1(φ+ χ)∥eχu∥2
+2
+≥ e−2χsup λ1(φ+ χ)e2χinf ∥u∥2
+2
+= e−2(χsup−χinf)λ1(φ+ χ)∥u∥2
+2.
+This means (4.7).
+The equation (4.7) can be written as
+λ1(φ+ χ) ≥ e−2(χsup−χinf )λ1(φ).
+
+--- PDF page 9 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 9
+This implies the following. If the function φ is a sum of a convex function and a
+bounded function, then the lowest eigenvalue of −21 is positive, and further the
+operator −20 has a spectral gap. To be precise, writing φ = V +W with V ′′ ≥ c and
+W being bounded, we have the following estimate:
+λ1(φ) ≥ 2ce−2(Wsup−Winf).
+Lastly we give another type of estimate of the lowest eigenvalue for a double well
+potential of the form at4 − bt2. To do this, we recall the harmonic oscillator −A =
+− d2
+dt2 + at2 on L2(R,d x). It is well-known that the lowest eigenvalue of this operator
+is √
+a with an eigenfunction e− √
+ at2/2. Using this, we have the following:
+Proposition 4.3.—I f φ(t)= at4 − bt2, then we have
+λ1(φ) ≥ 2
+√
+3a − 2b.(4.8)
+Proof. — From (4.5),
+(−21u, u)=( ( − d2
+dt2 + φ′′(t)+ φ′(t)2)u, u)
+≥ ((− d2
+dt2 + φ′′(t))u, u)
+=( (− d2
+dt2 +1 2at2 − 2b)u, u).
+Here the operator− d2
+dt2 +12at2 is a harmonic oscillator and hence the lowest eigenvalue
+is 2
+√
+3a. This yields that
+(−21u, u) ≥ ((2
+√
+3a − 2b)u, u),
+which is the desired result.
+5. Positivity of the lowest eigenvalue for the Witten Laplacian
+Lattice spin systems are characterized by Gibbs measures on X = RZd
+. To deﬁne
+a Gibbs measure, we have to introduce a Hamiltonian. Suppose we are given an
+potential U : R → R. Then the Hamiltonian is deﬁned by
+Φ(x)=
+∑
+i,j∈Zd
+i∼j
+J (xi − xj)2 +
+∑
+i∈Zd
+U(xi).(5.1)
+Here x =( xi)i∈Zd and i ∼ j means that ∥i − j∥1 = |i1 − j1| + ··· + |id − jd| =1 .
+(xi − xj)2 stands for an interaction between particles. We only deal with this type
+of nearest neighbor interaction. We can generalize it to ﬁnite range interaction but
+we restrict ourselves to nearest neighbor interaction for the sake of simplicity. The
+expression of (5.1) involves an inﬁnite sum and it is no more than a formal expression.
+The Gibbs measure is sometimes expressed as
+ν= Z
+−1e−2Φ(x)dx.(5.2)
+
+--- PDF page 10 ---
+10 ICHIRO SHIGEKA W A
+But it does not make sense since Φ( x) diverges and the Lebesgue measure dx is
+nothing but a ﬁctitious measure.
+Precise characterization of Gibbs measures is given by the Dobrushin-Lanford-
+Ruelle equation. For a given ﬁnite region Λ ⊆ Zd (we denote this fact by Λ ⋐ Zd)
+and a boundary condition η ∈ X, we deﬁne a Hamiltonian on RΛ by
+ΦΛ,η(x)=
+∑
+i,j∈Λ
+i∼j
+J (xi − xj)2 +
+∑
+i∈Λ
+U(xi)+2
+∑
+i∈Λ,j∈Λc
+i∼j
+J (xi − ηj)2(5.3)
+and introduce a measure on RΛ by
+νΛ,η = Z−1e−2ΦΛ,η (x)dxΛ.(5.4)
+Here dxΛ denotes the Lebesgue measure on RΛ. Let FΛc = σ{xi; i ∈ Λc}. We also
+denote xΛ =( xi; i ∈ Λ) and xΛc =( xi; i ∈ Λc). Then ν is called a Gibbs measure if
+the conditional probability with respect to FΛc is given as
+Eν[ ·| xΛc = ηΛc ]= νΛ,η(dxΛ) ⊗ δηΛc (dxΛc )(5.5)
+for any Λ ⋐ Zd. Here δηΛc is the Dirac measure at a point ηΛc ∈ RΛc
+, ηΛc being
+the restriction of η to Λc. The existence and the uniqueness of such measures is a
+subtle problem. In this paper, we only consider ﬁnite region measure and will give
+uniform estimates. Then our result holds for the inﬁnite system if it exists. In fact,
+suppose that estimates are uniform. Take any diﬀerential form θ which depends on
+ﬁnite variables. We can ﬁnd a ﬁnite region Λ which contains these variables. Then,
+by the identity (5.5), we have
+E
+ν[(dθ, dθ)+( d∗θ,d∗θ) |xΛc = ηΛc ] ≥ kEν[(θ,θ) |xΛc = ηΛc ].
+Then, by integrating with respect to ηΛc , we have
+Eν[(dθ, dθ)+( d∗θ,d∗θ)] ≥ kEν[(θ,θ)].
+Now we ﬁx Λ ⋐ Zd and η ∈ X and the Hamiltonian is given by (5.3). As was
+discussed in the previous section, the Hodge-Kodaira operator dd∗ + d∗d is well-
+deﬁned on RΛ. Our aim is to show that the bottom of the spectrum σ(dd∗ + d∗d)i s
+positive for p-forms (p ≥ 1). Under the unitary operator I : L2(dxΛ) → L2(νΛ,η), we
+consider the Witten Laplacian D ˜D + ˜DD in L2(dxΛ).
+From now on, we ﬁx p ≥ 1. Indices I,J ,... denote p distinct elements i1,i2,...,i p
+of Λ. We denote |I| = p. When I = {i1,...,i p}, we setdxI = dxi1 ∧···∧ dxip .S oa n y
+p-form θ can be written uniquely as θ= ∑
+I θIdxI. From the Weitzenb¨ock formula,
+we have
+( ˜DD + D ˜D)θ=
+∑
+i
+˜XiXi
+∑
+I
+θIdxI +2
+∑
+i,j
+∂i∂jΦ( ai)∗aj ∑
+I
+θIdxI
+=
+∑
+I
+∑
+i
+˜XiXiθIdxI +2
+∑
+I
+θI
+∑
+i
+∂2
+i Φ( ai)∗aidxI
+
+--- PDF page 11 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 11
++2
+∑
+I
+θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI
+=
+∑
+I
+∑
+i
+˜XiXiθIdxI +2
+∑
+I
+θI
+∑
+i∈I
+∂2
+i ΦdxI
++2
+∑
+I
+θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI.
+Therefore
+(( ˜DD + D ˜D)θ,θ)
+=(
+∑
+I
+∑
+i
+˜XiXiθIdxI +2
+∑
+I
+θI
+∑
+i∈I
+∂2
+i ΦdxI
++2
+∑
+I
+θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJ dxJ )
+=
+∑
+I
+(
+∑
+i
+˜XiXiθI,θI)+2
+∑
+I
+(θI
+∑
+i∈I
+∂2
+i Φ,θI)
++2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJdxJ )
+=
+∑
+I
+(
+∑
+i∈I
+˜XiXiθI,θI)+
+∑
+I
+(
+∑
+i̸∈I
+˜XiXiθI,θI)+2
+∑
+I
+(θI
+∑
+i∈I
+∂2
+i Φ,θI)
++2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ(ai)∗ajdxI,
+∑
+J
+θJdxJ )
+≥
+∑
+I
+(
+∑
+i∈I
+˜XiXiθI,θI)+2
+∑
+I
+(θI
+∑
+i∈I
+∂2
+i Φ,θI)
++2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJdxJ )
+=
+∑
+I
+∑
+i∈I
+(( ˜XiXi +2 ∂2
+i Φ)θI,θI)+2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJ dxJ ).
+To get positivity of the left hand side, we estimate the right hand side term by term.
+We state our result as a theorem.
+Theorem 5.1. — Suppose U is decomposed as U = V + W so that V ′′ ≥ c> 0
+and W is bounded. Wsup and Winf denote the supremum and the inﬁmum of W,
+respectively. If 2( c +8 dJ )e−2(Wsup −Winf) > 16dJ , then the lowest eigenvalue of
+˜DD+D ˜D for p-forms is greater than{2(c+8dJ )e−2(Wsup−Winf) −16dJ }p. Therefore
+there is no harmonic p-forms for p ≥ 1.
+Proof. — We ﬁrst estimate the second term. To do this, we ﬁrst compute ∂j∂iΦ. For
+i ̸= j, we have
+∂i∂jΦ(x)= ∂i∂j
+{ ∑
+k,l∈Λ
+k∼l
+J (xk − xl)2 +
+∑
+k∈Λ
+U(xk)+2
+∑
+k∈Λ,l∈Λc
+k∼l
+J (xk − ηl)2
+}
+
+--- PDF page 12 ---
+12 ICHIRO SHIGEKA W A
+=
+{
+−4J ,i ∼ j
+0, otherwise.
+For i = j, we have
+∂2
+i Φ(x)= U ′′(xi)+8 J d.
+Hence
+2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ(ai)∗ajdxI,
+∑
+J
+θJdxJ )
+= −8J
+∑
+I,J
+(θI
+∑
+i∼j
+(ai)∗ajdxI,θJ dxJ )
+= −8J
+∑
+I,J
+(
+∑
+i∼j
+(ai)∗ajdxI,d xJ )(θI,θJ)
+= −8J
+∑
+I,J
+c(I,J )(θI,θJ).
+Here we set c(I,J )=( ∑
+i∼j(ai)∗ajdxI,d xJ ). c(I,J )=1o r −1 only when I and J
+diﬀers by only one element and they are adjacent to each other. Otherwisec(I,J )=0 .
+For each ﬁxed I, there are utmost 2dp J’s with c(I,J ) ̸= 0. Therefore we have
+−8J
+∑
+I,J
+c(I,J )(θI,θJ) ≥− 4J
+∑
+I,J
+|c(I,J )|{∥θI ∥2
+2 + ∥θJ ∥2
+2}
+≥− 4J
+∑
+I
+2dp∥θI ∥2
+2 − 4J
+∑
+J
+2dp∥θJ ∥2
+2
+= −16dpJ
+∑
+I
+∥θI ∥2
+2.
+Eventually the second term is estimated as follows:
+2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ(ai)∗ajdxI,
+∑
+J
+θJdxJ ) ≥− 16dpJ
+∑
+I
+|θI |2.
+We will show that the ﬁrst term is greater than the second term ifJ is suﬃciently
+small. To estimate the ﬁrst term, we need to compute (( ˜XiXi +2 ∂2
+i Φ)θI,θI) and we
+regards it as a function of xi for a moment. So other variables are ﬁxed. We denote
+other variables by yi, i.e.,
+yi = {xj }j∈Λ\{i} ∈ RΛ\{i}.
+The variables {xj }j∈Λ are decomposed into xi and yi. Then
+Φ(x)=Φ ( xi,y i)= U(xi)+4 dJ (xi)2 − xi
+{∑
+j∈Λ
+j∼i
+4xj +
+∑
+j∈Λc
+j∼i
+4ηj
+}
++ ˆΦi(yi).
+It is enough to consider the 1-dimensional Hamiltonian of the form
+φ(t)= U(t)+4 dJ t2 − αt.
+
+--- PDF page 13 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 13
+In this case, let us estimate the lowest eigenvalue of a operator ˜XφXφ +2 φ′′(t).
+Here Xφ = ∂t + φ′, ∂t = d
+dt . But we have already considered the 1-dimensional
+case in the previous section and so we are ready to estimate (( ˜XiXi +2 ∂2
+i Φ)θI,θI).
+In fact, by Lemma 4.2, the lowest eigenvalue of ˜XiXi +2 ∂2
+i Φ is greater than ( c +
+8dJ )e−2(Wsup−Winf).
+(( ˜DD + D ˜D)θ,θ)
+≥
+∑
+I
+∑
+i∈I
+(( ˜XiXi +2 ∂2
+i Φ)θI,θI)+2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJdxJ )
+≥
+∑
+I
+∑
+i∈I
+2(c +8 dJ )e−2(Wsup −Winf)∥θI ∥2
+2 − 16dpJ
+∑
+I
+∥θI ∥2
+2
+=
+∑
+I
+2p(c +8 dJ )e−2(Wsup −Winf)∥θI ∥2
+2 − 16dpJ
+∑
+I
+∥θI ∥2
+2
+= p{2(c +8 dJ )e−2(Wsup−Winf ) − 16dJ }∥θ∥2
+2.
+This is what we wanted.
+When U is a double well potential, we can give another kind of estimate. This
+time, we use Proposition 4.3.
+Theorem 5.2. — Assume that U is of the form U(t)= at4 − bt2.I f
+√
+3a − b −
+4dJ > 0, then the lowest eigenvalue of ˜DD + D ˜D for p-forms is not smaller than
+2(
+√
+3a − b − 4dJ )p. Therefore there is no harmonic p-forms (p ≥ 1).
+Proof. — A proof is almost same as the previous one. This time, one dimensional
+Hamiltonian is of the form
+φ(t)= at4 − bt2 +4 dJ t2 − αt.
+By Proposition 4.3, the lowest eigenvalue of˜XiXi +2φ′′(t)+ φ′(t)2 is not smaller than
+2
+√
+3a − 2b +8 dJ . Hence we have
+(( ˜DD + D ˜D)θ,θ)
+≥
+∑
+I
+∑
+i∈I
+(( ˜XiXi +2 ∂2
+i Φ)θI,θI)+2
+∑
+I,J
+(θI
+∑
+i̸=j
+∂i∂jΦ( ai)∗ajdxI,
+∑
+J
+θJdxJ )
+≥
+∑
+I
+∑
+i∈I
+(2
+√
+3a − 2b − 8dJ )∥θI ∥2
+2 − 16dpJ
+∑
+I
+∥θI ∥2
+2
+=2 (
+√
+3a − b − 4dJ )p∥θ∥2
+2.
+This completes the proof.
+Lastly we will show that any diﬀerential form can be decomposed into three parts;
+exact, coexact and harmonic, which is usually called the Hodge-Kodaira decomposi-
+tion. We have seen the positivity of the lowest eigenvalue, the decomposition follows
+easily. We state it as a theorem.
+
+--- PDF page 14 ---
+14 ICHIRO SHIGEKA W A
+Theorem 5.3. — Under the assumption of Theorem 5.1 or Theorem 5.2, the follow-
+ing Hodge-Kodaira decomposition holds: For p =0 ,
+L2(ν)= { constant functions }⊕ Ran(d∗)(5.6)
+and for p ≥ 1,
+L2(ν; ⋀p(RΛ)∗) = Ran(d) ⊕ Ran(d∗).(5.7)
+Proof. — We only give a proof for p ≥ 1. Set
+T =( d, d∗): L2(ν; ⋀p(RΛ)∗) → L2(ν; ⋀p+1(RΛ)∗) ⊕ L2(ν; ⋀p−1(RΛ)∗).
+Here, by taking a closure, T is deﬁned as a closed operator. Then we can have
+−2p = T ∗T. In fact, both operator coincides for smooth p-forms with compact
+support. So the identity follows from the essential self-adjointness of 2p.T h u s w e
+have
+−2p = dd∗ + d∗d
+on the domain of 2p. Since the lowest eigenvalue of −2p is positive, it has an inverse
+operator, which we denote by −G. Then for ω ∈ L2(ν; ⋀p(RΛ)∗) we have
+ω =( dd∗ + d∗d)Gω = d(d∗Gω)+ d∗(dGω).
+The orthogonality between d(d∗Gω) and d∗(dGω) follows easily from the property
+d2 = 0. This completes the proof.
+References
+[1] S. Albeverio, A. Daletskii and Y. Kondratiev, Stochastic analysis on product manifolds:
+Dirichlet operators on diﬀerential forms, J. Funct. Anal. , 176 (2000), no. 2, 280–316.
+[2] P. R. Chernoﬀ, Schr¨odinger and Dirac operators with singular potentials and hyperbolic
+equations, Paciﬁc J. Math. , 72 (1977), no. 2, 361–382.
+[3] H. L. Cycon, R. G. Froese, W. Kirsch and B. Simon, “ Schr¨odinger operators with
+application to quantum mechanics and global geometry ,” Springer-Verlag, Berlin, 1987.
+[4] K. D. Elworthy and S. Rosenberg, The Witten Laplacian on negatively curved simply
+connected manifolds, Tokyo J. Math. , 16 (1993), no. 2, 513–524.
+[5] B. Helﬀer, Remarks on decay of correlations and Witten Laplacians, Brascamp-Lieb
+inequalities and semiclassical limit, J. Funct. Anal. , 155 (1998), no. 2, 571–586.
+[6] B. Helﬀer, Remarks on decay of correlations and Witten Laplacians. II. Analysis of the
+dependence on the interaction, Rev. Math. Phys. , 11 (1999), no. 3, 321–336.
+[7] B. Helﬀer, Remarks on decay of correlations and Witten Laplacians. III. Application to
+logarithmic Sobolev inequalities, Ann. Inst. H. Poincar´e Probab. Statist. , bf 35 (1999),
+no. 4, 483–508.
+[8] B. Helﬀer, “ Semiclassical analysis, Witten Laplacians, and statistical mechanics ,” Series
+on Partial Diﬀerential Equations and Applications, 1, World Scientiﬁc, River Edge, NJ,
+2002.
+[9] O. Matte and J. S. Møller On the spectrum of semi-classical Witten-Laplacians and
+Schr¨odinger operators in large dimension, J. Funct. Anal. , 220 (2005), no. 2, 243–264.
+
+--- PDF page 15 ---
+WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM 15
+[10] N. Yoshida, The log-Sobolev inequality for weakly coupled lattice ﬁelds, Probab. Theory
+Related Fields, 115 (1999), 1–40.
+[11] B. Zegarlinski, The strong decay to equilibrium for the stochastic dynamics of un-
+bounded spin systems on a lattice Comm. Math. Phys. , 175 (1996), no. 2, 401–432.
+Ichiro Shigekaw a, Department of Mathematics, Graduate School of Science, Kyoto University,
+Kyoto, 606-8502, JAPAN  E-mail : ichiro@math.kyoto-u.ac.jp
+Url : http://www.math.kyoto-u.ac.jp/~ichiro/

@@ -1,0 +1,36 @@
+{
+  "description": "Original Osterwalder–Schrader reconstruction paper; downloaded source bytes are preserved.",
+  "records": [
+    {
+      "url": "https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-31/issue-2/Axioms-for-Euclidean-Greens-functions/cmp/1103858969.pdf",
+      "version": "published article",
+      "attempted_at": "2026-09-08T20:52:08.207229+00:00",
+      "resolved_url": "https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-31/issue-2/Axioms-for-Euclidean-Greens-functions/cmp/1103858969.pdf",
+      "content_type": "text/html",
+      "status": "unavailable",
+      "error": "unexpected header",
+      "kind": "retrieval-attempt"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01645738.pdf",
+      "version": "published article",
+      "attempted_at": "2026-09-08T20:52:55.535043+00:00",
+      "resolved_url": "https://link.springer.com/article/10.1007/BF01645738?error=cookies_not_supported&code=bafdd50f-30d9-48f0-a83d-546bdaf86093",
+      "content_type": "text/html; charset=utf-8",
+      "status": "unavailable",
+      "error": "unexpected header",
+      "kind": "retrieval-attempt"
+    }
+  ],
+  "availability_checks": [
+    {
+      "url": "https://inspirehep.net/api/literature/81180",
+      "checked": "2026-09-08",
+      "result": "No documents or external full-text URLs in the INSPIRE record."
+    }
+  ],
+  "download_status": "No PDF obtained: Project Euclid returned an access-denial HTML page; the Springer PDF endpoint redirected to subscription article HTML. No HTML response was stored as a PDF.",
+  "metadata_sources": [
+    "https://link.springer.com/article/10.1007/BF01645738"
+  ]
+}

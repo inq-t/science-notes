@@ -90,7 +90,7 @@ Equations (MDR1)--(MDR6) are downstream identities on an already clocked quantum
 
 This answers “a rate of what?” at the level already proved by [[two-slice-innovation-geometry/past-future-angle-and-the-transfer-gap]]: it is the slowest logarithmic attenuation exponent, hence the uniform lower attenuation rate over all nonvacuum directions across a Euclidean slab. Individual spectral directions can attenuate faster. Equivalently, [[two-slice-innovation-geometry/phase-modulus-pointing-and-euclidean-dwell]] shows that its reciprocal controls the supremal integrated Euclidean persistence.
 
-[[auxiliary-response-localization/inq|Auxiliary response localization]] moves the construction one step upstream without identifying an auxiliary sampler clock with physical time. If a local action-derived Markov semigroup forgets centered observables at rate \(\kappa\) while its two-observable multiplicativity defect propagates no faster than \(v\) with spatial exponent \(\alpha\), balancing the two estimates returns the static inverse-length certificate
+[[auxiliary-response-localization/auxiliary-clock-elimination|Auxiliary clock elimination]] moves the construction one step upstream without identifying an auxiliary sampler clock with physical time. If a local action-derived Markov semigroup forgets centered observables at rate \(\kappa\) while its two-observable multiplicativity defect propagates no faster than \(v\) with spatial exponent \(\alpha\), balancing the two estimates returns the static inverse-length certificate
 
 $$
 \sigma_{\mathrm{aux}}

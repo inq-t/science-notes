@@ -1,0 +1,796 @@
+\chapter{Other applications of tensorization techniques}%
+\label{parOtherApplicationsOfTensorizationTechniques}%
+\addcontentsline{itc}{chapter}{\protect\numberline{\thechapter}Other applications of tensorization techniques}
+
+In the previous chapter we have been seeing
+how Hilbertian decorrelation hypotheses between pairs of variables
+could yield `global' results on an arbitrary number of variables,
+by splitting functions of several variables into relevant telescopic sums.
+I used the word ``tensorization'' to qualify these results,
+as the conclusions were of the same nature as the hypotheses.
+
+But the techniques of \S~\ref{parTensorization} can also be applied to get other types of results.
+In this chapter I am going to show how, from Hilbertian decorrelation hypotheses,
+one can get results on some classical features of particle systems
+which are not linked with Hilbertian correlations \emph{a priori}.
+
+I will deal with two such features.
+First, I will look at the implications of $\rho$-mixing
+on the existence of a central limit theorem%
+—more precisely, of a \emph{spatial} central limit theorem,
+since I am more interested in random fields than in sequences
+(variables indexed by~$\ZZ^n$ rather than by~$\ZZ$).
+Very sharp results concerning this issue are already known;
+however, I find interesting to show how it goes with my `tensorization-like' approach:
+this approach takes indeed a quite different way to do the job,
+which may be neater by certain sides.
+Moreover, the results are stated with a slighlty different vocabulary%
+—namely, \emph{subjective} Hilbertian correlations.
+
+Next, I will look at the question of spectral gap for Glauber dynamics.
+Though this point has already been thouroughly studied in a $\beta$-mixing paradigm,
+this work, to the best of my knowledge,
+is the first to show how $\rho$-mixing can be used to tackle this issue.
+
+My main goal here is just to show
+\emph{how} the techniques of this work may be applied to the problems
+of spatial central limit theorem and convergence of the Glauber dynamics.
+Accordingly, I favoured the simplicity on proofs against the refinement of the results.
+
+
+
+\section{Spatial central limit theorem}
+
+\subsection{Introduction}
+
+A fundamental result in probability theory is the central limit theorem (CLT),
+which, in its standard statement, requires an assumption of complete independence.
+It is natural to wonder whether that assumption can be relaxed
+into an hypothesis of `near independence'.
+Hilbertian decorrelations are a natural frame for such a generalization,
+since the CLT already takes place in an $L^2$ setting.
+
+Our point of view is motivated by statistical physics.
+Let~$\ZZ^n$ be a lattice, on each vertex $i$ of which there is a random `spin' $X_i$
+ranged in some space $\mcal{X}$ not depending on~$i$.
+We assume that the law of the system is translation invariant,
+i.e.\ that for all~$z\in\ZZ^n$, $(X_{i+z})_{i\in\ZZ^n}$ has the same law
+as~$\vec{X}_{\ZZ^n}$.
+Then, for all~$z \in \ZZ^n$, we denote
+\[\label{f5933} \epsilon_z = \{ X_i : X_{i+z} \}_* .\]
+We are interested in situations where the~$\epsilon_z$ are sufficiently `rapidly decreasing'
+as $|z| \longto \infty$ so that $\sum_{z\in\ZZ^n} \epsilon_z < \infty$.
+
+Let~$f \colon \mcal{X} \to \RR$ be a function such that $f(X_0)$ is square-integrable and centered.
+The question is, does one get a CLT when summing $f(X_i)$ for~$i$ in a large subset of~$\ZZ^n$,
+i.e., does the sum grow as the square root of the number of its terms
+and have asymptotically normal distribution?
+For instance, we would like the law of the variable
+\[ \frac{1}{\sqrt{\ell^n}} \sum_{\substack{i\in\ZZ^n\\0\leq i_1,\ldots,i_n<\ell}} f(X_i) \]
+to weakly converge, when~$\ell \longto \infty$, to some Gaussian distribution.
+
+\begin{Rmk}
+Note that the limit distribution, if it exists, will have to be centered,
+but its variance will not be equal to~$\Var\big(f(X_0)\big)$ in general.
+\end{Rmk}
+
+In the case $n=1$, extremely sharp results for this topic have been known from long;
+let us cite, among many others, \cite{Rosenblatt56, Ibragimov75, Peligrad87, Bradley92}.
+For $n\geq 2$, similar results also exist; see e.g.\ \cite[Theorem~5]{Bradley92} for such a result,
+and~\cite[\S~29]{Bradley-book} for a survey of the topic.
+All these proofs relie on some `coupling' between (bunches of) the spins
+and other convenient variables which are close to them,
+but which are \emph{actually} independent,
+so as to deduce the CLT for the former from the CLT for the latter.
+On the other hand, my proof will mimick
+Lévy's proof of the CLT, hence needing no coupling argument.
+
+\emph{A priori} the results presented here do not improve the state of the art;
+however, when turning to quantitative versions of these results,
+it is likely that the difference between the usual method and mine
+would yield a difference in the corresponding non-asymptotic bounds obtained.
+
+
+\subsection{Product of weakly coupled variables}
+
+My results relie on the following
+%
+\begin{Lem}\label{l1840}
+Let~$N \geq 1$ and let~$\dot{\mcal{F}}_1, \ldots, \dot{\mcal{F}}_N$ be $\sigma$-algebras with
+$\{ \dot{\mcal{F}}_i : \dot{\mcal{F}}_j \}_* \leq \epsilon_{ij}$%
+\footnote{As in \S~\ref{parMachineryForUsingTheTensorizationTheorems},
+``$*$'' stands for ``the natural $\sigma$-metalgebra of the system''.
+Moreover, in the same way as in \S~\ref{parMinimalHypotheses},
+it is actually possible in the statement of the lemma
+to replace that~$\sigma$-metalgebra by smaller ones.},
+and denote
+\[ \bar\epsilon = \sup_i \sum_{j\neq i} \epsilon_{ij} .\]
+Let~$\Phi_1, \ldots, \Phi_N$ be complex-valued random variables with $|\Phi_i|\leq1$ a.s.,
+such that $\Phi_i$ is $\dot{\mcal{F}}_i$-measurable for all~$i$,
+with all the~$\Phi_i$ having the same distribution.
+Then, denoting by~$\phi$ the common value of the~$\EE[\Phi_i]$,
+\[\label{fo9356} \Big| \EE\Big[ \prod_{i} \Phi_i \Big] - \phi^N \Big| \leq
+N \bar\epsilon(1+\bar\epsilon) (1-|\phi|^2) .\]
+\end{Lem}
+
+\begin{proof}
+Denote $\delta \coloneqq \ecty(\Phi)$. Since $\EE[|\Phi^2|] \leq 1$,
+the definition of (complex) variance ensures that $\delta \leq \sqrt{1-|\phi|^2}$.
+
+For all~$i \in \{0,\ldots,N\}$, denote $\mcal{F}_i \coloneqq \bigvee_{i'\leq i}\dot{\mcal{F}}_i$ ;
+denote $\Psi^{(i)} \coloneqq \prod_{i'\leq i} \Phi_{i'}$; define
+\[ \Psi^{(i)}_j \coloneqq (\Psi^{(i)})^{\mcal{F}_j} - \EE[\Psi^{(i)}|\mcal{F}_{j-1}] \]
+and denote $\Delta^{(i)}_j \coloneqq \ecty(\Psi^{(i)}_j)$.
+Also denote
+\[ \Phi_{i,j} \coloneqq (\Phi_i)^{\mcal{F}_j} - \EE[\Phi_i|\mcal{F}_{j-1}] .\]
+
+Usual manipulation on conditioning shows that, for~$i\geq1$,
+\[ \Psi^{(i)}_j = \Psi^{(i-1)}_j (\Phi_i)^{\mcal{F}_j}
++ \Psi^{(i-1)}_{j-1} \Phi_{i,j} .\]
+Since $\|\Phi_i\|_{L^\infty} \leq 1$,
+one has also $\| (\Phi_i)^{\mcal{F}_j} \|_{L^\infty} \leq 1$, hence
+\[ \ecty\big( \Psi^{(i-1)}_j (\Phi_i)^{\mcal{F}_j} \big)
+\leq \ecty(\Psi^{(i-1)}_j) = \Delta^{(i-1)}_j .\]
+%
+Similarly, it is obvious that $\|\Psi^{(i-1)}\|_{L^\infty} \leq 1$, whence
+\[ \ecty\big( \Psi^{(i-1)}_{j-1} \Phi_{i,j} \big) \leq \ecty(\Phi_{i,j}) .\]
+
+Now, I claim that
+%
+\begin{Clm}\label{clm-dld}
+\[ \ecty(\Phi_{i,j}) \leq \epsilon_{ij} \delta .\]
+\end{Clm}
+%
+\begingroup\def\proofname{Proof of Claim~\ref{clm-dld}}
+\begin{proof}
+Conditionally to~$\mcal{F}_{j-1}$, $\Phi_{i,j}$ is indeed the projection on~$\dot{\mcal{F}}_{j}$ of the centered $\dot{\mcal{F}}_i$-measurable function $(\Phi_i - \EE[\Phi_i|\mcal{F}_{j-1}])$, whose standard deviation is less than $\ecty(\Phi_i) = \delta$ by associativity of the variance, so that $\ecty(\Phi_{i,j}) \leq {\{\dot{\mcal{F}}_i:\dot{\mcal{F}}_j\}_{\mcal{F}_{j-1}}} \delta \ab \leq \epsilon_{ij} \delta$.
+\end{proof}\endgroup
+
+In the end, we got that
+\[ \Delta^i_j \leq \Delta^{(i-1)}_j + \epsilon_{ij} \delta .\]
+Since $\Delta^0_j = 0$, one has therefore:
+\[ \forall i,j \qquad \Delta^i_j \leq (1+\bar\epsilon) \delta .\]
+%
+Now, denoting $\psi^{(i)} \coloneqq \EE[\Psi^{(i)}]$, one has
+\[ | \psi^{(i)} - \phi\psi^{(i-1)} |
+= \Big| \sum_{j<i} \EE\big[ \Psi^{(i-1)}_j \Phi_{i,j} \big] \Big|
+\leq \sum_{j<i} \Delta^{(i-1)}_j \ecty(\Phi_{i,j})
+\leq \bar\epsilon (1+\bar{\epsilon}) \delta^2 ,\]
+%
+and finally
+\[ | \psi^{(N)} - \phi^N |
+= \sum_{i=1}^N |\phi|^{N-i} \big|\psi^{(i)} - \phi\psi^{(i-1)}\big|
+\leq \sum_{i=1}^N \big|\psi^{(i)} - \phi\psi^{(i-1)}\big| \\
+\leq N \bar\epsilon(1+\bar\epsilon) \delta^2 ,\]
+which is (\ref{fo9356}) if you recall that $\delta^2 \leq 1-|\phi|^2$.
+\end{proof}
+
+
+\subsection{A spatial CLT}
+
+First I state and prove a CLT on cubes:
+%
+\begin{Thm}\label{thm0318}
+Consider a translation-invariant spin model on a lattice $\ZZ^n$
+and define $\epsilon_z$ by~(\ref{f5933}).
+Assume that $\sum_{z\in\ZZ^n} \epsilon_z < \infty$.
+Then for any centered square-summable function~$f \colon \mcal{X} \to \RR$,
+there exists a constant $\sigma < \infty$ such that
+\[\label{f7877}
+\frac{1}{\sqrt{\ell^n}} \sum_{\substack{i\in\ZZ^n\\0\leq i_1,\ldots,i_n<\ell}} f(X_i)
+\stackrel{\ell\longto\infty}{\rightharpoonup} \mcal{N}(\sigma^2) ,\]
+where ``$\rightharpoonup$'' denotes convergence in law.
+\end{Thm}
+
+\begin{proof}
+Denote by~$F(\ell)$ —or merely $F$ —the left-hand side of~(\ref{f7877}).
+
+What will be the value of~$\sigma$?
+Clearly we must have
+\[\label{fo0116} \sigma^2 = \lim_{\ell\longto\infty} \Var \big( F(\ell) \big) ,\]
+which yields
+\[ \sigma = \sqrt{ \sum_{z\in\ZZ} \EE\big[ f(X_0) f(X_z) \big] } ,\]
+where the expression under the root sign,
+which is necessarily nonnegative,
+is finite because $|\EE[f(X_0)f(X_z)]| \leq
+\epsilon_z \ecty(f(X_0))\ecty(f(X_z)) = \epsilon_z \Var(f)$.
+By the way, we will denote
+\[ \sigma_*^2 \coloneqq \Big( \sum_z \epsilon_z \Big) \|f\|_{L^2}^2 .\]
+
+Fix some arbitrary $\eta > 0$.
+The assumption that $\sum \epsilon_z < \infty$
+implies the existence of an $\ell_0 < \infty$
+such that
+\[ \sum_{|z|_\infty > \ell_0} \epsilon_z \leq \eta ,\]
+where $|z|_\infty$ denotes $\max(|z_1|,\ldots,|z_n|)$.
+By~(\ref{fo0116}), we can also fix an $\ell_1 < \infty$
+such that
+\[\label{f1939} \big| \Var \big( F(\ell) \big) - \sigma^2 \big| \leq \eta .\]
+
+Now we will `tile' the cube of size $\ell$ into a `patchwork'
+made of cubes of size $\ell_1$ which I call ``tiles'',
+each tile being at distance at least $\ell_0$ from the others, plus some ``scrap''.
+I denote by~$\tilde{F}$ the part of~$F$ due to the tiles
+and by~$F^*$ the part of~$F$ due to the scrap.
+
+Index the tiles by~$\{ 1,\ldots,N \}$, with
+$N \coloneqq \big\lfloor (\ell+\ell_0) \div (\ell_1+\ell_0) \big\rfloor^n$.
+We write, with obvious notation, $\tilde{F} \eqqcolon F_1 + \cdots + F_N$.
+For~$\lambda\in\RR$, denote
+\begin{eqnarray}
+\Psi (\lambda,\ell) \coloneqq \exp(i\lambda \tilde{F}), &\qquad&
+\psi(\lambda,\ell) \coloneqq \EE[\Psi (\lambda,\ell)] ; \\
+\Phi_j(\lambda,\ell) \coloneqq \exp(i\lambda F_j), &\qquad&
+\phi(\lambda,\ell) \coloneqq \EE[\Phi_j(\lambda,\ell)] .
+\end{eqnarray}
+%
+Then we are exactly in situation of applying Lemma~\ref{l1840},
+which yields:
+\[\label{f1890} \big| \psi(\lambda,\ell) - \phi(\lambda,\ell)^N \big| \leq
+N \eta(1+\eta) \big( 1-|\phi(\lambda,\ell)|^2 \big) .\]
+
+Let us look at the asymptotics of Formula~(\ref{f1890}) when~$\ell \longto \infty$.
+We observe that, denoting
+\[ F_{\rm t} \coloneqq \frac{1}{\sqrt{\ell_1^n}} \sum_{i\in\text{\it\ fixed tile}} f(X_i) ,\]
+one has
+\[ F_j \stackrel{\text{law}}{=} \frac{\sqrt{\ell_1^n}}{\sqrt{\ell^n}} F_{\rm t} .\]
+%
+Since $F_{\rm t}$ is centered, its Fourier transform satisfies $\hat{F}_{\rm t}(0)=1$,
+$\hat{F}_{\rm t}'(0)=0$ and $\hat{F}_{\rm t}'' = \Var(F_{\rm t})$, so that
+\[ \lim_{\ell\longto\infty} \ell^n \big(1-\phi(\lambda,\ell)\big)
+= \frac{\lambda^2}{2} \ell_1^n \Var(F_{\rm t}) ,\]
+where, denoting $\sigma^2_{\ell_1} \coloneqq \Var(F_{\rm t})$,
+we recall that $\ell_1$ has been taken sufficiently large so that
+$|\sigma^2_{\ell_1} - \sigma^2| \leq \eta$.
+%
+Then, since $N \stackrel{\ell\longto\infty}{\sim} \ell^n \div (\ell_1+\ell_0)^n$,
+one has the following asymptotics for~(\ref{f1890}):
+\begin{eqnarray}
+\phi(\lambda,\ell)^N & \stackrel{\ell\longto\infty}{\longto} &
+\exp \left[ -\sigma^2_{\ell_1} \bigg( \frac{\ell_1}{\ell_1+\ell_0} \bigg)^{\!n}
+\frac{\lambda^2}{2} \right] ; \\
+N \big( 1-|\phi(\lambda,\ell)|^2 \big) & \stackrel{\ell\longto\infty}{\longto} &
+\sigma^2_{\ell_1} \bigg( \frac{\ell_1}{\ell_1+\ell_0} \bigg)^{\!n}\lambda^2 .
+\end{eqnarray}
+
+It remains to control the contribution of~$F^*$.
+%
+\begin{Clm}\label{c7901}
+There are at most
+\[ \bigg[1-\bigg(\frac{\ell_1}{\ell_1+\ell_0}\bigg)^{\!n}\bigg]\ell^n + n\ell_1\ell^{n-1} \]
+scrap spins.
+\end{Clm}
+%
+By Claim~\ref{c7901},
+\[ \|F^*\|_{L^1} \leq \Var(F^*) \leq
+\bigg[1-\bigg(\frac{\ell_1}{\ell_1+\ell_0}\bigg)^{\!n} + n\frac{\ell_1}{\ell} \bigg] \sigma_*^2 ;\]
+then the contribution of~$F^*$ is controlled using the following immediate
+%
+\begin{Lem}
+Let~$X$ and~$H$ be real random variables with $\|H\|_{L^1} < \infty$.
+Then, for~$\lambda\in\RR$,
+\[ \big| \EE\big[e^{i\lambda(X+H)}\big] - \EE\big[e^{i\lambda X}\big] \big| \leq |\lambda| \|H\|_{L^1} .\]
+\end{Lem}
+
+In the end, putting everything together we get:
+\begin{multline}\label{f6829}
+\limsup_{\ell\longto\infty} \big| \psi(\lambda,\ell) - e^{-\sigma^2\lambda^2/2} \big| \leq \\
+\Big|e^{\big{-(\sigma^2-\eta) [\ell_1 \div (\ell_1+\ell_0)]^n \lambda^2/2}} - e^{-\sigma^2\lambda^2/2}\Big|
++ \eta(1+\eta) \bigg( \frac{\ell_1}{\ell_1+\ell_0} \bigg)^{\!n} (\sigma^2+\eta) \lambda^2
++ \sqrt{ 1-\bigg(\frac{\ell_1}{\ell_1+\ell_0}\bigg)^{\!n} } \sigma_* .
+\end{multline}
+%
+Since there were no upper restriction on the value of~$\ell_1$, we can assume
+that we have taken it such that $[\ell_1 \div (\ell_1+\ell_0)]^n \geq 1-\eta$.
+Then (\ref{f6829}) becomes:
+\[\label{f6890} \limsup_{\ell\longto\infty}
+\big| \psi(\lambda,\ell) - e^{-\sigma^2\lambda^2/2} \big| \leq
+\Big| e^{\big{-(\sigma^2-\eta)(1-\eta)\lambda^2/2}} - e^{-\sigma^2\lambda^2/2} \Big|
++ \eta(1+\eta)(1-\eta) (\sigma^2+\eta) \lambda^2
++ \sqrt{\eta} \sigma_* .\]
+%
+The right-hand side of~(\ref{f6890}) can be made arbitrarily close to~$0$
+by taking $\eta$ small enough, so we have proved that
+%
+\[ \forall \lambda \in \RR \quad \EE\big[e^{i\lambda F(\ell)}\big]
+\stackrel{\ell\longto\infty}{\longto} e^{-\sigma^2\lambda^2/2} .\]
+By L\'evy's theorem on characteristic functions,
+this is tantamount to saying that $F(\ell)$ converges in law to~$\mcal{N}(\sigma^2)$.
+\end{proof}
+
+The CLT should remain valid for other shapes than a cube,
+since morally the random field $f(X_i)$
+should look like a Gaussian white noise at large scales.
+Indeed, the same proof as above yields a CLT for general shapes,
+where moreover convergence is uniform in the shape considered in some way.
+Let us give a precise statement:
+%
+\begin{Def}
+An open subset $U \subset \RR^n$ (not necessarily connected)
+is said to be \emph{$\mcal{C}^2$} if its boundary $M$ is a $\mcal{C}^2$ submanifold
+of~$\RR^n$ (of codimension $1$).
+We define the \emph{roughness} of~$U$, denoted by~$\kappa(U)$, as
+\[ \kappa(U) \coloneqq \sup_{x\in M} \VERT \II(x) \VERT, \]
+where $\II(\Bcdot)$ denotes the shape tensor of~$M$~\cite[Chapter~10]{Differential},
+which measures the local deviation of~$M$ from being flat.
+Also, the Lebesgue measure of~$U$ will be denoted by~$\volume(U)$.
+\end{Def}
+
+\begin{Thm}\label{thm3015}
+Consider a translation-invariant spin model on a lattice $\ZZ^n$
+and define $\epsilon_z$ by~(\ref{f5933}).
+Assume that $\sum_{z\in\ZZ^n} \epsilon_z < \infty$.
+Then for any centered square-summable function~$f \colon \mcal{X} \to \RR$,
+if $(U_k)_{k\in\NN}$ is a sequence of $\mcal{C}^2$ bounded subsets of~$\RR^n$
+with $\sup_k \kappa(U_k) < \infty$ and
+$(\ell_k)_{k\in\NN}$ is a sequence of positive numbers tending to infinity,
+\[ \frac{1}{\sqrt{\ell_k^n\volume(U_k)}} \sum_{i\in\ell_kU_k\cap\ZZ^n} f(X_i)
+\stackrel{k\longto\infty}{\rightharpoonup} \mcal{N}(\sigma^2) ,\]
+where $\sigma^2$ is the same as in Theorem~\ref{thm0318}.
+\end{Thm}
+
+\begin{proof}
+Just copy the proof of Theorem~\ref{thm0318}.
+The only difference lies in proving the analoguous of Claim~\ref{c7901},
+which is where one needs the~$\kappa(U_k)$ to be bounded.
+Observe that we use the non-asymptotic form of our intermediate bounds
+to get a result independent of the precise shape of the~$U_k$.
+\end{proof}
+
+\begin{Rmk}
+Another generalization of the CLT, still based on the idea that
+the field $f(X_i)$ looks like a Gaussian white noise at large scales,
+is the statement that for~$\phi$ a continuous function with compact support,
+\[ \frac{1}{\sqrt{\ell^n}} \sum_{i\in\ZZ^n} \phi\big(X_i\div\ell\big) f(X_i)
+\stackrel{\ell\longto\infty}{\rightharpoonup}
+\mcal{N}\big(\sigma^2 \mathsmaller{\int_{\RR^n} \phi(x)^2\,\dx{x}} \big) .\]
+This can be proved with the same methods as before.
+\end{Rmk}
+
+
+\section{Spectral gap for the Glauber dynamics}
+
+\subsection{Introduction}
+
+In this section we are looking at a probabilistic system
+made of a large number of `elementary' random variables $(X_i)_{i\in I}$
+— $I$ may be seen as lattice and $X_i$ as the state of the particle being at site~$i$.
+As is customary by now, theorems will only be stated in the case where $I$ is finite,
+the infinite case being got by passing to the limit.
+
+\begin{Def}
+Denoting by~$\Omega$ the states space of~$\vec{X}_I$,
+let~$\Pr$ be a probability measure on~$\Omega$.
+The \emph{Glauber dynamics}~\cite{Glauber, Dobrushin71}
+associated to~$\Pr$ is the Markov process on~$\Omega$ having the following law:
+on each~$i\in I$ there is an alarm clock,
+all the clocks being independent and ringing with law $\mathit{Poisson}(1)$.
+When a clock rings, the state of spin $X_i$ —and only it—is flipped
+so that the state of~$X_i$ immediately after the flip follows the law
+$\Pr\big(X_i|\vec{X}_{I\setminus\{i\}}\big)$.
+
+In formal terms, the Glauber dynamics is the Markov process
+whose generator $\mcal{L}$ on~$L^\infty(\Omega)$ is defined by:
+\[ \big(\mcal{L}f\big)(\vec{x}_I)
+= \sum_{i\in I} \EE \big[ f(\vec{X}_I) - f(\vec{x}_I) \big|
+\vec{X}_{I\setminus\{i\}} = \vec{x}_{I\setminus\{i\}} \big] .\]
+\end{Def}
+
+Let us recall some basic facts on the Glauber dynamics
+(see~\cite[Chapter~IV]{Liggett} for more details).
+By construction $\Pr$ is a reversible equilibrium measure for the dynamics,
+so $\mcal{L}$ is self-adjoint on~$L^2(\Pr)$.
+Since obviously $\mcal{L}1\equiv0$, one can also define $\mcal{L}$ on~$\ldb(\Pr)$,
+on which it is self-adjoint too. This leads to the following definition:
+%
+\begin{Def}
+The \emph{energy} of~$f\in\ldb(\Pr)$ is
+\[ \mcal{E}(f,f) = \langle Lf, f \rangle \]
+\end{Def}
+%
+The following immediate identity shows that $\mcal{E}$ is always a nonnegative bilinear form:
+\begin{Pro}\label{p1345}
+\[ \mcal{E}(f,f) = \int_\Omega \dx\Pr[\vec{x}_I]
+\sum_i \Var\big( f \big| \vec{X}_{I\setminus\{i\}} = \vec{x}_{I\setminus\{i\}} \big) .\]
+\end{Pro}
+
+\begin{Def}
+For~$\lambda > 0$, the Glauber dynamics is said to have \emph{spectral gap $\geq\lambda$}
+if, for all~$f\in\ldb(\Pr)$,
+\[\label{fo8103} \mcal{E}(f,f) \geq \lambda \Var(f) .\]
+\end{Def}
+%
+What makes spectral gap interesting is that its positiveness
+is equivalent to exponential convergence to~$0$
+of the semigroup $(e^{-t\mcal{L}})_{t\geq0}$ on $\ldb(\Pr)$,
+the rate of convergence being equal to the width of the spectral gap.
+As the Glauber dynamics is one of the easiest ways to simulate the law $\Pr$ for complicated models,
+the stake of having exponential convergence for it is evident.
+
+Many works have been done on the spectral gap of the Glauber dynamics,
+see for instance Martinelli's St-Flour course~\cite{Martinelli}.
+Several results state that,
+the less spins are correlated, the larger the spectral gap is.
+Yet the researchers who work on this topic generally express
+the decorrelation between the spins in terms of $\beta$-mixing (cf.\ Definition~\ref{def3167}),
+while it seems be more natural to look at them in terms of Hilbertian decorrelations,
+since the formula~(\ref{fo8103}) stating the spectral gap problem
+takes place in a Hilbertian frame itself.
+Thus my goal here will be to find a control on the spectral gap
+expressed in terms of $\rho$-mixing conditions.
+Since Hilbertian correlations look to be the minimal frame
+to study the spectral gap for the Glauber dynamics,
+hopefully the bounds yielded by this method will be sharp.
+
+Another noticeable feature of my approach
+is that it remains at a quite abstract level:
+no symmetry property of~$I$ or $\Pr$ need be assumed,
+all the work essentially consisting in manipulating relevant quadratic forms.
+
+
+
+\subsection{A lower bound for the spectral gap}
+
+The central theorem of this section is the following:
+\begin{Thm}\label{t7230}
+Take $I = \{1,\ldots,N\}$.
+Suppose that for all distinct $i,j\in I$ one has ${\{X_i:X_j\}_\ast} \ab \leq \epsilon_{ij} < 1$
+—we will make the costless assumption that $\epsilon_{ji} = \epsilon_{ij}$.
+For~$i \in I$, denote
+\[ \tilde1_i \coloneqq \frac{1}{ \prod_{i<j\leq N} (1-\epsilon_{ij}^2) }
+= \frac{\teps_{iN}}{\epsilon_{iN}} ,\]
+and for~$i < j$, denote
+\[ \teps_{ij} \coloneqq
+\frac{\epsilon_{ij}}{\prod_{i<j'\leq j}(1-\epsilon_{ij'}^2)} .\]
+Then the Glauber dynamics has spectral gap at least $\VERT M \VERT^{-2}$,
+where $M$ is the $(N \times N)$ matrix defined by
+\[\label{for4393} M = \begin{pmatrix} 1 & -\teps_{12} & \cdots & -\teps_{1N} \\
+0 & \ddots & \ddots & \vdots \\
+\vdots & \ddots & \ddots & -\teps_{(N-1)N} \\
+0 & \cdots & 0 & 1 \end{pmatrix}^{-1}
+\begin{pmatrix} \tilde1_1 & 0 & \cdots & 0 \\
+0 & \ddots & \ddots & \vdots \\
+\vdots & \ddots & \ddots & 0 \\
+0 & \cdots & 0 & \tilde1_N \end{pmatrix} .\]
+\end{Thm}
+%
+\begin{Rmk}\label{rmk4123}
+The form of the first matrix in the right-hand side of~(\ref{for4393})
+ensures that it is invertible.
+Since moreover all the~$\epsilon_{ij}$ were supposed $<1$,
+all the~$\tilde\epsilon_{ij}$ and the~$\tilde{1}_i$ are finite;
+thus, the lower bound~$\VERT M \VERT^{-2}$ is strictly positive.
+\end{Rmk}
+
+\begin{proof}
+Let~$f$ be a centered square-integrable function on~$(\Omega,\Pr)$.
+For~$I' \subset I$, denote $\mcal{F}_{I'} \coloneqq \sigma\big(\vec{X}_{I'}\big)$.
+For~$i\in I$, $I' \subset I\setminus\{i\}$,
+denote
+\[ f_i^{I'} \coloneqq f^{\mcal{F}_{I'\uplus\{i\}}} - \EE[f|\mcal{F}_{I'}] ;\]
+define moreover
+\begin{eqnarray}
+f_i^{\neq} & \coloneqq & f_i^{I\setminus\{i\}} ; \\
+f_i^{<}  & \coloneqq & f_i^{\{1,\ldots,i-1\}}.
+\end{eqnarray}
+%
+Then by Proposition~\ref{p1345}, one has
+\[ \mcal{E}(f,f) = \sum_i \Var(f_i^{\neq}) ,\]
+while the usual telescopic argument shows that
+\[ \Var(f) = \sum_i \Var(f_i^<) .\]
+
+So to prove the theorem, we have to establish links between
+the different values $\Var(f_i^{I'})$.
+It will be convenient to introduce the shorthands $\Delta_i^{I'} = \ecty(f_i^{I'})$.
+One has the following
+%
+\begin{Clm}\label{l8326}
+For~$I' \subset I$ and~$i,j\in I \setminus I'$ with $j\neq i$,
+\[\label{f4464} \Delta_i^{I'} \leq \Delta_i^{I'\uplus\{j\}} + \epsilon_{ij} \Delta_j^{I'} .\]
+\end{Clm}
+
+\begin{proof}
+Assume in a first time that $I'=\emptyset$,
+and denote $f_i \coloneqq f_i^{\emptyset}$, $f_j \coloneqq f_j^{\emptyset}$, $f_i^j \coloneqq f_i^{\{j\}}$
+and $\mcal{F}_i \coloneqq \mcal{F}_{\{i\}}$.
+%
+Projecting the decomposition ``$f_i = f_i^j + (f_i-f_i^j)$''
+on~$L^2(\mcal{F}_i)$, one has $f_i = (f_i^j)^{\mcal{F}_i} + (f_j)^{\mcal{F}_i}$,
+whence by the Cauchy--Shwarz inequality:
+\[\label{f4448}
+\ecty(f_i) \leq \ecty\big((f^j_i)^{\mcal{F}_i}\big) + \ecty\big((f_j)^{\mcal{F}_i}\big) .\]
+%
+One has trivially
+$\ecty\big((f^j_i)^{\mcal{F}_i}\big) \leq \ecty(f^j_i)$;
+on the other hand, $f_j$ is $X_j$-measurable,
+so $\ecty\big((f_j)^{\mcal{F}_i}\big) \leq \epsilon_{ij} \ecty(f_j)$.
+In the end, (\ref{f4448}) becomes
+\[ \ecty(f_i) \leq \ecty(f^j_i) + \epsilon_{ij} \ecty(f_j) ,\]
+which is~(\ref{f4464}) for $I' = \emptyset$.
+
+In the case $I' \neq \emptyset$, the same reasoning can be performed, except that
+one have to work conditionally to~$\mcal{F}_{I'}$.
+Then, taking
+$f_i = f^{I'}_i$,
+$f_j = f^{I'}_j$,
+$f^j_i = f^{I'\uplus\{j\}}_i$,
+$\mcal{F}_i = \mcal{F}_{I'\uplus\{i\}}$,
+%
+one gets
+\[\label{fo5917}
+\ecty(f_i|\mcal{F}_{I'}) \leq \ecty(f^j_i|\mcal{F}_{I'}) + \epsilon_{ij} \ecty(f_j|\mcal{F}_{I'}) .\]
+Now
+\[\ecty(f_i) = \sqrt{\int \ecty\big(f_i|\vec{X}_{I'}=\vec{x}_{I'}\big)^2 \dx\Pr[\vec{x}_{I'}]} ,\]
+with similar formulas for~$f_j$ and~$f^j_i$, since all these functions
+are centered w.r.t.~$\mcal{F}_{I'}$.
+%
+Therefore, integrating~(\ref{fo5917}) and applying Minkowski's inequality yields:
+\[ \ecty(f_i) \leq \ecty(f^j_i) + \epsilon_{ij} \ecty(f_j) ,\]
+i.e.~(\ref{f4464}).
+\end{proof}
+
+For~$i \leq j$, let us denote
+\[ \Delta^{[j]}_i = \Delta^{\{1,\ldots,j\} \setminus \{i\}}_i .\]
+Claim~\ref{l8326} will be used through the following corollary:
+\begin{Clm}\label{l3526}
+For all~$i<j$,
+\[\label{f7631} \Delta^{[j-1]}_i \leq \frac{1}{1-\epsilon_{ij}^2}
+\big( \Delta^{[j]}_i + \epsilon_{ij} \Delta^{<}_j \big) .\]
+\end{Clm}
+
+\begin{proof}
+We have to bound $\Delta^{[j-1]}_i$, which here we rather denote
+$\Delta^{[b-1]}_a$ to avoid confusion with the notation of Claim~\ref{l8326}.
+Applying Claim~\ref{l8326} with $I' = \{1,\ldots,b-1\} \setminus \{a\}$,
+$i = a$ and $j = b$, one has
+\[\label{f7625a} \Delta^{[b-1]}_a = \Delta^{\{1,\ldots,b-1\}\setminus\{a\}}_{a}
+\leq \Delta^{\{1,\ldots,b\}\setminus\{a\}}_{a}
++ \epsilon_{ab} \Delta^{\{1,\ldots,b-1\}\setminus\{a\}}_b
+= \Delta^{[b]}_{a} + \epsilon_{ab} \Delta^{\{1,\ldots,b-1\}\setminus\{a\}}_b .\]
+But applying again Claim~\ref{l8326}, this time with $I' = \{1,\ldots,b-1\} \setminus \{a\}$,
+$i = b$ and $j = a$, one has
+\[\label{f7625b} \Delta^{\{1,\ldots,b-1\}\setminus\{a\}}_{b}
+\leq \Delta^{\{1,\ldots,b-1\}}_{b}
++ \epsilon_{ab} \Delta^{\{1,\ldots,b-1\}\setminus\{a\}}_a
+= \Delta^{<}_b + \epsilon_{ab} \Delta^{[b-1]}_a .\]
+Combining~(\ref{f7625a}) and~(\ref{f7625b}) then yields~(\ref{f7631}).
+\end{proof}
+
+Now let us show how Claim~\ref{l3526} implies the theorem.
+To avoid heavy formalism, I will detail the computations for $I = \{1,2,3,4\}$
+(rather denoted by~$I = \{a,b,c,d\}$ here to avoid confusions
+with ``$1$'' and~``$2$'' taken as numbers),
+hoping that generalizing is obvious then.
+
+First, note that
+\[\label{f4236d} \Delta^<_d = \Delta^{\neq}_d .\]
+Now, by a direct use of Claim~\ref{l3526},
+\[\label{f4236c} \Delta^<_c = \Delta^{[c]}_c
+\leq \frac{1}{1-\epsilon_{cd}^2} \big( \Delta^{[d]}_c + \epsilon_{cd} \Delta^{<}_d \big)
+= \tilde1_c \Delta^{\neq}_c + \tilde{\epsilon}_{cd} \Delta^{\neq}_d .\]
+%
+To bound $\Delta^<_b$, we have to iterate Claim~\ref{l3526} twice:
+\begin{multline}\label{f4236b}
+\Delta^<_b = \Delta^{[b]}_b
+\leq \frac{1}{1-\epsilon_{bc}^2} \Delta^{[c]}_b + \teps_{bc} \Delta^{<}_c \\
+\leq \frac{1}{(1-\epsilon_{bc}^2)(1-\epsilon_{bd}^2)}
+\big( \Delta^{[d]}_b + \epsilon_{cd} \Delta^{<}_d \big) + \teps_{bc} \Delta^<_c
+= \tilde1_b \Delta^{\neq}_b + \teps_{bd} \Delta^{\neq}_d + \teps_{bc} \Delta^<_c \\
+\footrel{(\ref{f4236c})}\leq
+\tilde1_b \Delta^{\neq}_b + \tilde1_c \teps_{bc} \Delta^{\neq}_c
++ (\teps_{bd} + \teps_{bc}\teps_{cd}) \Delta^{\neq}_d .
+\end{multline}
+%
+Last, bounding $\Delta^{<}_a$ requires iterating Claim~\ref{l3526} three times:
+\begin{multline}\label{f4236a}
+\Delta^<_a = \Delta^{[a]}_a
+\leq \frac{1}{1-\epsilon_{ab}^2} \Delta^{[b]}_a + \teps_{ab} \Delta^<_b \\
+\leq \frac{1}{(1-\epsilon_{ab}^2)(1-\epsilon_{ac}^2)} \Delta^{[c]}_a
++ \teps_{ac} \Delta^<_c + \teps_{ab} \Delta^<_b 
+\leq \tilde1_a \Delta^{\neq a} + \teps_{ad} \Delta^<_d
++ \teps_{ac} \Delta^<_c + \teps_{ab} \Delta^<_b \\
+\footrel{(\ref{f4236c},\ref{f4236b})}
+\leq \tilde1_a \Delta^{\neq a} + \tilde1_b \teps_{ab} \Delta^{\neq}_b
++ \tilde1_c (\teps_{ac} + \teps_{ab}\teps_{bc}) \Delta^{\neq}_c
++ (\teps_{ad} + \teps_{ac}\teps_{cd}
++ \teps_{ab}\teps_{bd}
++ \teps_{ab}\teps_{bc}\teps_{cd}) \Delta^{\neq}_d.
+\end{multline}
+
+One can sum up Equations~(\ref{f4236d})--(\ref{f4236a}) into the matricial expression
+\[\label{f5482}
+\begin{pmatrix} \Delta_a^< \\ \Delta_b^< \\ \Delta_c^< \\ \Delta_d^< \end{pmatrix} \leq
+\begin{pmatrix} 1 & \teps_{ab} & \teps_{ac} + \teps_{ab}\teps_{bc} &
+\teps_{ad} + \teps_{ac}\teps_{cd} + \teps_{ab}\teps_{bd} + \teps_{ab}\teps_{bc}\teps_{cd} \\
+0 & 1 & \teps_{bc} & \teps_{bd} + \teps_{bc}\teps_{cd} \\
+0 & 0 & 1 & \teps_{cd} \\
+0 & 0 & 0 & 1 \end{pmatrix}
+\begin{pmatrix} \tilde1_a \Delta^{\neq}_a \\ \tilde1_b \Delta^{\neq}_b \\
+\tilde1_c \Delta^{\neq}_c \\ \Delta^{\neq}_d \end{pmatrix} .\]
+%
+If we look back at how the square matrix in~(\ref{f5482}) has been constructed,
+we find that
+\[ \begin{pmatrix}
+\text{\it square} \\
+\text{\it matrix} \\
+\text{\it in} \\
+\text{\it (\ref{f5482})} \\
+\end{pmatrix} =
+\sum_{k=0}^{\infty} \begin{pmatrix}
+0 & \teps_{ab} & \teps_{ac} & \teps_{ad} \\
+0 & 0 & \teps_{bc} & \teps_{bd} \\
+0 & 0 & 0 & \teps_{cd} \\
+0 & 0 & 0 & 0 \end{pmatrix}^{k}
+= \begin{pmatrix}
+1 & -\teps_{ab} & -\teps_{ac} & -\teps_{ad} \\
+0 & 1 & -\teps_{bc} & -\teps_{bd} \\
+0 & 0 & 1 & -\teps_{cd} \\
+0 & 0 & 0 & 1 \end{pmatrix}^{-1} ,\]
+%
+so in the end we obtain that
+\[ \begin{pmatrix} \Delta_a^< \\ \Delta_b^< \\ \Delta_c^< \\ \Delta_d^< \end{pmatrix} \leq
+M \begin{pmatrix} \Delta^{\neq}_a \\ \Delta^{\neq}_b \\ \Delta^{\neq}_c \\ \Delta^{\neq}_d
+\end{pmatrix} ,\]
+where $M$ is given by~(\ref{for4393}).
+Then it is immediate that $\Var(f) = \sum_i \big(\Delta_i^<\big)^2 \leq
+\VERT M \VERT^2 \sum_i \big(\Delta_i^{\neq}\big)^2 = \VERT M \VERT^{2} \,\mcal{E}(f,f)$, \textsc{qed}.
+\end{proof}
+
+The bound we have obtained for the spectral gap
+is not symmetric by permutation of the indexes in~$I$.
+It can however can be bounded by a simpler expression,
+which is nearly as good as the original one in concrete situations:
+%
+\begin{Cor}
+In Theorem~\ref{t7230}, $M$ can be replaced by the matrix
+\[ M' = \begin{pmatrix} 1 & -\epsilon_{12} & \cdots & -\epsilon_{1N} \\
+-\epsilon_{12} & \ddots & \ddots & \vdots \\
+\vdots & \ddots & \ddots & -\epsilon_{(N-1)N} \\
+-\epsilon_{1N} & \cdots & -\epsilon_{(N-1)N} & 1 \end{pmatrix}^{-1} ,\]
+provided $\rho(\mbf{I}_N-M') < 1$.
+\end{Cor}
+
+\begin{proof}
+Each entry of~$M$ is actually bounded by the corresponding entry of~$M'$.
+To see it, we `expand' the entries of~$M$, resp.~$M'$.
+First, notice that $1/(1-\epsilon_{ij}^2)$ can be expanded
+into $1+\epsilon_{ij}\epsilon_{ji}
++ \epsilon_{ij}\epsilon_{ji}\epsilon_{ij}\epsilon_{ji} + \cdots$,
+so that one has the expansions
+\[ \tilde1_i = \sum_{i<j_1\leq\cdots\leq j_k} \prod_{\ell=1}^k
+\epsilon_{ij_\ell} \epsilon_{j_\ell i} \]
+and
+\[ \teps_{ij} = \sum_{i<j_1\leq\cdots\leq j_k\leq j} \Big( \prod_{\ell=1}^k
+\epsilon_{ij_\ell} \epsilon_{j_\ell i} \Big) \epsilon_{ij} .\]
+Then, using the inversion formula $(\mrm{I}-A)^{-1} = \sum_{k=0}^\infty A^k$
+for triangular arrays, one obtains that
+\[ M_{ij} = \sum_{\substack{(i_0,i_1,\ldots,i_k)\\\text{\it first condition}}}
+\prod_{\ell=0}^{k-1} \epsilon_{i_\ell i_{\ell+1}} ,\]
+where the meaning of ``\textit{first condition}'' is given by the following
+%
+\begin{Def}\label{d8225}
+A sequence $(i_0,\ldots,i_k)$ is said to satisfy the \textit{first condition} if:
+\begin{ienumerate}
+\item\label{i8226a} $i_0 = i$ and $i_k = j$;
+\item\label{i8226b} $i_\ell \neq i_{\ell+1}$ for all~$\ell$;
+\item $i_{\ell+1} < i_\ell$ only if $\ell \geq 1$ and $i_{\ell+1} = i_{\ell-1}$;
+\item If $i_{\ell+1} < i_\ell$ and $\ell \leq k-2$,
+then $i_{\ell+2} \geq i_\ell$.
+\end{ienumerate}
+\end{Def}
+
+One has a similar formula for~$M'$:
+\[ M'_{ij} = \sum_{\substack{(i_0,i_1,\ldots,i_k)\\\text{\it second condition}}}
+\prod_{\ell=0}^{k-1} \epsilon_{i_\ell i_{\ell+1}} ,\]
+where
+\begin{Def}
+A sequence $(i_0,\ldots,i_k)$ is said to satisfy the \textit{second condition} if
+it satisfies Conditions~(\ref{i8226a}) and~(\ref{i8226b}) of Definition~\ref{d8225}.
+\end{Def}
+
+Since the \textit{second condition} is obviously weaker than the \textit{first condition},
+one has $M_{ij} \leq M'_{ij}$.\linebreak[1]\strut
+\end{proof}
+
+There is a still weaker but even simpler formula:
+\begin{Cor}\label{cor3632}
+Defining
+\[ \begin{array}{rrcl} \boldepsilon \colon & L^2(I) & \to & L^2(I) \\
+& (a_i)_{i\in I} & \mapsto & \big( \sum_{j\neq i} \epsilon_{ij}a_j \big)_{i\in I} ,\end{array} \]
+the spectral gap of the Glauber dynamics is at least
+\[\label{fo6385} \big( 1 - \VERT \boldepsilon \VERT \big)_+^2 .\]
+\end{Cor}
+%
+\begin{proof}
+One has $M' = (\mrm{I}-\boldepsilon)^{-1}$, so, provided $\VERT A\VERT < 1$,
+\[ \VERT M' \VERT = \big\VERT (\mrm{I}-A)^{-1} \big\VERT = \Big\VERT \sum_{k=0}^\infty A^k \Big\VERT
+\leq \sum_{k=0}^\infty \VERT A \VERT^k = (1-\VERT A\VERT)^{-1} .\]
+In the case $\VERT A\VERT \geq 1$, (\ref{fo6385}) is trivial.
+\end{proof}
+
+
+\subsection{Avoiding the articial phase transition}
+
+A common situation in which we would like to apply the previous results is when $I = \ZZ^n$
+and $\epsilon_{ij}$ is of the form $\epsilon(j-i)$
+for some symmetric function~$\epsilon \colon \ZZ^n \to [0,1]$.
+Then Corollary~\ref{cor3632} tells
+that the Glauber dynamics has a (strictly) positive spectral gap as soon as
+$\sum_{z\neq 0} \epsilon(z) < 1$.
+But like in \S~\ref{parAvoidingThePhaseTransitionForTheToyModel},
+we are going to prove that that bound is somehow `artificial'
+and that it can be relaxed into the neater condition
+``$\sum_{z\neq 0} \epsilon(z) < \infty$'':
+%
+\begin{Thm}\label{thm7431}
+Suppose that $I = \ZZ^n$ and that for all~$i,j\in \ZZ^n$
+one has ${\{X_i:X_j\}_\ast} \ab \leq \epsilon(j-i)$
+for some symmetric function~$\epsilon \colon \ZZ^n \to [0,1]$
+such that $\epsilon(z) < 1$ as soon as $z \neq 0$.
+Then if $\sum_{z\in\ZZ^n} \epsilon(z) < \infty$,
+the spectral gap of the Glauber dynamics is positive.
+\end{Thm}
+
+\begin{proof}
+The assumption on~$\sum_z\epsilon(z)$ allows us to take $\ell < \infty$ large enough so that
+\[ \sum_{z\in\ell\ZZ^n\setminus\{0\}} \epsilon(z) < 1 .\]
+We split $\ZZ^n$ into a partition of~$\ell^n \eqqcolon N$ sublattices $Z_1, \ldots, Z_N$,
+each lattice $Z_u$ being of the form $\ell \ZZ^n + z_u$ for some $z_u\in\ZZ^n/\ell\ZZ^n$.
+Then we define an auxiliary dynamics:
+%
+\begin{Def}\label{def4108}
+The \emph{sublattice Glauber dynamics} is the Glauber dynamics for~$\vec{X}_{\ZZ^n}$
+\emph{considered as the finite-dimensional vector
+$(\vec{X}_{Z_1},\ldots,\vec{X}_{Z_N})$}.
+In other words, on each~$u\in\{1,\ldots,N\}$
+there is an independent $\mathit{Poisson}(1)$ alarm clock,
+and when clock $u$ rings, the state of the whole $\vec{X}_{Z_u}$ is flipped in one shot
+according to~$\Pr\big(X_{Z_u}\big|\vec{X}_{\ZZ^n\setminus Z_u}\big)$.
+\end{Def}
+
+Now let~$f \ab {\in \ldb(\Omega)}$.
+In addition to the notation of the proof of Theorem~\ref{t7230},
+we introduce the following definition:
+%
+\begin{Def}
+For~$u \in \{1,\ldots,N\}$, we define
+\[ f_{(u)}^{\neq} \coloneqq f - \EE\big[ f \big| \vec{X}_{\ZZ^n \setminus Z_u} \big] .\]
+\end{Def}
+%
+\begin{Rmk}\label{rmk8840}
+The~$f_{(u)}^{\neq}$ are the equivalent of the~$f_i^{\neq}$ for the sublattice Glauber dynamics.
+\end{Rmk}
+
+Fixing some `boundary condition' $\vec{x}_{\ZZ^n\setminus Z_u}$ on~$\ZZ^n\setminus Z_u$,
+we can apply Corollary~\ref{cor3632} to the Glauber dynamics
+for~$\vec{X}_{Z_u}$ under the law
+$\Pr\big[\Bcdot\big|\vec{X}_{\ZZ^n\setminus Z_u}=\vec{x}_{\ZZ^n\setminus Z_u}\big]$.
+After integrating, one gets that
+\[\label{fo4048} \Var\big( f_{(u)}^{\neq} \big) \leq
+\big(1-\VERT\boldsymbol\zeta\VERT\big)^{-2} \sum_{i\in Z_u} \Var\big( f_i^{\neq} \big) ,\]
+where $\boldsymbol\zeta$ is the operator on~$L^2(\ell\ZZ^n)$ defined by
+\[ \big(\boldsymbol\zeta g\big)(i)
+= \sum_{z\in\ell\ZZ^n\setminus\{0\}} \epsilon(z) g(i+z) ,\]
+whose norm is obviously bounded by~$\sum_{z\in\ell\ZZ^n\setminus\{0\}} \eqqcolon \zeta < 1$.
+Then, summing~(\ref{fo4048}) for all~$u$:
+\[\label{fo8710a} \sum_{u=1}^N \Var\big( f_{(u)}^{\neq} \big) \leq
+\big(1-\zeta\big)^{-2} \mcal{E}(f,f) .\]
+
+Now, let us apply Theorem~\ref{t7230} to the sublattice Glauber dynamics [Definition~\ref{def4108}].
+It yields that
+\[\label{fo8710b} \Var(f) \leq \VERT M\VERT^2 \sum_{u=1}^N \Var\big( f_{(u)}^{\neq} \big) ,\]
+where $M$ is some $(N\times N)$ matrix depending on the
+${\{ \vec{X}_{Z_u} : \vec{X}_{Z_v} \}_*}$.
+But by Theorem~\ref{lem4067},
+${\{ \vec{X}_{Z_u} : \vec{X}_{Z_v} \}_*} < 1$ for all~$u\neq v$,
+thus $\VERT M\VERT < \infty$ by Remark~\ref{rmk4123}.
+Combining~(\ref{fo8710a}) and~(\ref{fo8710b}), we finally get that
+the spectral gap of the Glauber dynamics
+for~$\vec{X}_{\ZZ^n}$ is bounded below by~$\VERT M\VERT^{-2} \times (1-\zeta)^2 > 0$.\linebreak[1]\strut
+\end{proof}
+
+\begin{Rmk}
+Like Theorem~\ref{lem4067}, Theorem~\ref{thm7431} could actually be stated
+in the general case of `abstract' metric spaces on which some group acts profinitely.
+\end{Rmk}
+

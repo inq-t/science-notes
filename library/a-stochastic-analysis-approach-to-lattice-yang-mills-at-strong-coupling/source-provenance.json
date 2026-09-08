@@ -1,0 +1,51 @@
+{
+  "description": "Primary sources for auxiliary response localization; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/2204.12737v1",
+      "version": "2204.12737v1",
+      "attempted_at": "2026-09-08T20:47:45.080808+00:00",
+      "resolved_url": "https://arxiv.org/pdf/2204.12737v1",
+      "content_type": "application/pdf",
+      "path": "2204.12737v1-shen-zhu-zhu-lattice-yang-mills.pdf",
+      "bytes": 525950,
+      "sha256": "21d0cf19e74e13f8468d1f980ba05849a781f28018301ea2b11d7551822597d1",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 43,
+        "first_page_text_prefix": "arXiv:2204.12737v1  [math.PR]  27 Apr 2022\nA STOCHASTIC ANAL YSIS APPROACH TO LA TTICE Y ANG–MILLS\nA T STRONG COUPLING\nHAO SHEN, RONGCHAN ZHU, AND XIANGCHAN ZHU\nAbstract. We develo"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/2204.12737v1",
+      "version": "2204.12737v1",
+      "attempted_at": "2026-09-08T20:47:45.267779+00:00",
+      "resolved_url": "https://arxiv.org/src/2204.12737v1",
+      "content_type": "application/gzip",
+      "path": "2204.12737v1-source.tar.gz",
+      "bytes": 56607,
+      "sha256": "c2f61d2e3a79602006c996d32930093c8e847090ebbdc5296e6ac847444949a2",
+      "kind": "downloaded-primary-source",
+      "format": "gzip-compressed tar archive"
+    },
+    {
+      "path": "source/Yang_mills_ergodicity_-7.bbl",
+      "bytes": 11607,
+      "sha256": "d1e43d4fcc07d5f497c2b33734db17413f836e7f06f947940c7f68648cf13ba7",
+      "kind": "extracted-author-source",
+      "derived_from": "2204.12737v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Yang_mills_ergodicity_-7.bbl"
+    },
+    {
+      "path": "source/Yang_mills_ergodicity_-7.tex",
+      "bytes": 176265,
+      "sha256": "ed81603491d0f71748178dc62e83630e05955fa7a9c6980577e100421892ad7c",
+      "kind": "extracted-author-source",
+      "derived_from": "2204.12737v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Yang_mills_ergodicity_-7.tex"
+    }
+  ]
+}

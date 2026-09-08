@@ -1,0 +1,2763 @@
+\chapter{Tensorization}\label{parTensorization}%
+\addcontentsline{itc}{chapter}{\protect\numberline{\thechapter}Tensorization}
+
+\section{Subjective correlation}\label{parSubjectiveCorrelation}
+
+In this chapter we will need more advanced definitions for decorrelation.
+
+\begin{Def}
+Let~$X$, $Y$ and~$Z$ be random variables. For~$\epsilon\geq 0$,
+one says that $X$ and~$Y$ are \emph{subjectively $\epsilon$-decorrelated w.r.t.~$Z$}
+(or \emph{$\epsilon$-decorrelated seen from $Z$})
+if $X$ and~$Y$ are $\epsilon$-decorrelated under the law $\Law(X,Y|{Z=z})$
+for $\Law(Z)$-almost-all~$z$\footnote{The conditional laws $\Law(\Bcdot|{Z=z})$
+are only defined up to~$\Law(Z)$-a.e.\ equality, whence the need to specify
+``for $\Law(Z)$-almost-all~$z$''.}.
+
+The smallest $\epsilon$ such that $X$ and~$Y$ are $\epsilon$-decorrelated
+seen from $Z$ will be called the \emph{subjective correlation level
+between~$X$ and~$Y$ w.r.t.~$Z$} (or \emph{correlation level between~$X$ and~$Y$ seen from $Z$});
+we denote it ${\{X:Y\}}_{Z}$.
+\end{Def}
+
+In \S~\ref{parDefinition}, we had given the definitions
+in terms of $\sigma$-algebras rather than random variables.
+Of course there is also a $\sigma$-algebra definition for subjective correlation,
+though I find it harder to understand:
+%
+\begin{Def}\label{def5436}
+Let~$\mcal{F}$, $\mcal{G}$ and~$\mcal{H}$ be $\sigma$-algebras.
+For~$\epsilon \in [0,1]$, the expression
+``$\{\mcal{F}:\mcal{G}\}_{\mcal{H}} \leq \epsilon$'' means that
+for all~$f \in \ldb(\mcal{F}\vee\mcal{H})$ and all~$g \in \ldb(\mcal{G}\vee\mcal{H})$
+satisfying $\EE[f|\mcal{H}] \equiv 0$, resp.\ $\EE[g|\mcal{H}] \equiv 0$,
+one has:
+\[ |\EE[fg]| \leq \epsilon \ecty(f) \ecty(g) .\]
+\end{Def}
+
+We let the reader check that with that definition,
+for~$X$, $Y$ and~$Z$ random variables,
+${\{X:Y\}}_{Z} = \{\sigma(X):\sigma(Y)\}_{\sigma(Z)}$.
+
+\begin{Rmk}
+The ordinary correlation can be seen as a particular case of subjective correlation,
+since $\{\mcal{F}:\mcal{G}\} = \{\mcal{F}:\mcal{G}\}_{\mcal{O}}$ for $\mcal{O} = \{\emptyset,\Omega\}$
+the trivial $\sigma$-field.
+\end{Rmk}
+
+\begin{Rmk}\label{r4670}
+Warning! Writing that ${\{X:Y\}}_Z \leq \epsilon$ does \emph{not} imply
+that for all subset $C$ of the range of~$Z$,
+$X$ and~$Y$ are $\epsilon$-decorrelated under~$\Law(X,Y|\ab Z\in C)$:
+see Examples~\ref{xpl3309} and~\ref{xpl3450} below.
+\end{Rmk}
+
+\begin{Rmk}
+Warning again! There is no general inequality between~%
+${\{X:Y\}}$ and~${\{X:Y\}}_Z$: see Examples~\ref{xpl3308} and~\ref{xpl3309} below.
+\end{Rmk}
+
+\begin{Xpl}
+Let~$f \colon \RR \to \RR_+$ be a nonnegative continuous function
+with $\int_{\RR} f(x)\,\dx{x} = 1$ and let~$(X,Y,Z)$ be a variable
+on~$\RR^3$ with density
+\[ \dx\Pr\big[(X,Y,Z)=(x,y,z)\big] = \frac{1}{2\pi} f(z)
+\exp\Big( \sinh z\cdot xy - {\textstyle\frac{1}{2}} \cosh z\cdot(x^2+y^2) \Big) \,\dx{x}\dx{y}\dx{z} .\]
+Then, conditionally to ``$Z=z$'', $(X,Y)$ is a Gaussian vector
+with $\Var(X) = \Var(Y) = \cosh z$ and $\Cov(X,Y) = \sinh z$,
+so by Theorem~\ref{pro1857}, under the law $\Pr[\Bcdot|Z=z]$ one has ${\{X:Y\}} = |\tanh z|$.
+Consequently ${\{X:Y\}}_Z = \sup\{ |\tanh z| \colon f(z)>0 \}$.
+\end{Xpl}
+
+The three following examples show that subjective correlation may behave rather wildly,
+especially when one changes the $\sigma$-field of reference:
+%
+\begin{Xpl}\label{xpl3308}
+Let~$X$ and~$Y$ be independent variables with uniform law on~$\RR/\ZZ$
+and let~$Z=X+Y$; then ${\{X:Y\}}_{Z} = 1$: under~$\Pr[\Bcdot|\ab Z=z]$ indeed
+$Y$ is $X$-measurable (and not constant), since $Y\equiv z-X$.
+\end{Xpl}
+
+\begin{Xpl}\label{xpl3309}
+Let~$\alpha,\beta,\gamma$ be three independent random variables
+uniform on~$\{0,1\}$; define ${X=(\gamma,\alpha)}, \ab Y=(\gamma,\beta)$ and $Z=\gamma$.
+Then, conditionally to ``$Z=0$'', $X$ and~$Y$ are independent
+with common law uniform on~$\{(0,0),(0,1)\}$,
+and similarly $X$ and~$Y$ are independent conditionally to ``$Z=1$'',
+so ${\{X:Y\}}_Z=0$.
+Yet $X$ and~$Y$ are not independent
+since the events ``$X\in\{(0,0),(0,1)\}$'' and ``$Y\in\{(0,0),(0,1)\}$'',
+which are non-trivial under~$\Pr$, are equivalent,
+so that ${\{X:Y\}}=1$.
+\end{Xpl}
+
+\begin{Xpl}\label{xpl3450}
+Let $X=(X_1,X_2)$ and $Y=(Y_1,Y_2)$ be independent with uniform laws
+on~$\{0,1\}^2$ and define $Z=(X_1,Y_1)$;
+then one easily checks that ${\{X:Y\}}_Z=0$.
+Now let~$Z'=\1{X_1=Y_1}$, which is $Z$-measurable;
+one has ${\{X:Y\}}_{Z'}=1$ since, for instance,
+under ``$Z'=1$'' the events ``$X_1=0$'' and ``$Y_1=0$''
+are non-trivial and equivalent.
+\end{Xpl}
+
+Now we define a more restrictive concept of subjective correlation.
+%
+\begin{Def}
+A \emph{$\sigma$-metalgebra} $\mcal{M}$ is a set $\{\mcal{H}\colon \mcal{H}\in\mcal{M}\}$
+of $\sigma$-algebras which is stable under the ``$\bigvee$'' operator,
+i.e.\ such that for any~$\mcal{M}'\subset\mcal{M}$, $\bigvee_{\mcal{H}\in\mcal{M}'}\mcal{H}\in\mcal{M}$.
+\end{Def}
+
+One can speak of the `$\sigma$-metalgebra spanned by some set of $\sigma$-algebras',
+as states the following immediate proposition:
+%
+\begin{Pro}\label{pro0539}
+If $(\mcal{H}_k)_{k\in K}$ is a set of $\sigma$-algebras, then there is a smallest
+$\sigma$-metalgebra containing all the~$\mcal{H}_k$, which is
+\[ \mcal{M} = \Big\{ \bigvee_{k\in K'} \mcal{H}_k \ ;\ K'\subset K \Big\} .\]
+\end{Pro}
+
+When one deals with random variables rather than $\sigma$-algebras,
+one has the following variant of Proposition~\ref{pro0539}:
+%
+\begin{Pro}\label{cor0780}
+Let~$(Z_k)_{k\in K}$ be a set of random variables,
+then the $\sigma$-metalgebra spanned by~$\{\sigma(Z_k) \colon k\in K\}$
+is $\{\sigma(\vec{Z}_{K'})\colon K'\subset K\}$.
+\end{Pro}
+
+\begin{Def}
+Let~$\mcal{F}$ and~$\mcal{G}$ be $\sigma$-algebras and $\mcal{M}$ be a $\sigma$-metalgebra.
+We define the \emph{correlation between~$\mcal{F}$ and~$\mcal{G}$ seen from $\mcal{M}$} by:
+\[ \{\mcal{F}:\mcal{G}\}_{\mcal{M}} = \sup_{\mcal{H}\in\mcal{M}} \{\mcal{F}:\mcal{G}\}_{\mcal{H}} .\]
+\end{Def}
+
+\begin{Rmk}
+Speaking in terms of random variables, if $X$, $Y$ and~$(Z_k)_{k\in K}$ are variables,
+denoting by~$\mcal{M}$ the $\sigma$-metalgebra spanned by the~$Z_k$,
+then ${\{X:Y\}}_{\mcal{M}}$ is the supremum%
+\footnote{More precisely it is a \emph{true} supremum (over $K'$)
+of \emph{essential} suprema (over $\vec{z}_{K'}$).}
+of the~${\{X:Y\}}$ when taken under all the laws
+of kind $\Pr[\Bcdot|\vec{Z}_{K'}=\vec{z}_{K'}]$ for~$K'$ a subset of~$K$
+and~$z_k, k\in K'$ elements of the respective ranges of the~$Z_k$.
+\end{Rmk}
+
+Finally, the following proposition gathers some easy properties
+of relative correlation w.r.t.\ a $\sigma$-metalgebra:
+%
+\begin{Pro}\strut
+\begin{ienumerate}
+\item Call~$\mcal{M}_{\emptyset}$ the trivial $\sigma$-metalgebra, that is,
+$\mcal{M}_{\emptyset} = \{\mcal{O}\}$; then for all $\sigma$-algebras~$\mcal{F}$ and~$\mcal{G}$,
+$\{\mcal{F}:\mcal{G}\} = \{\mcal{F}:\mcal{G}\}_{\mcal{M}_{\emptyset}}$.
+\item If $\mcal{M} \subset \mcal{M}'$, then $\{\mcal{F}:\mcal{G}\}_{\mcal{M}} \leq \{\mcal{F}:\mcal{G}\}_{\mcal{M}'}$.
+\item Let~$\mcal{F}$ and~$\mcal{G}$ be $\sigma$-algebras,
+let~$\mcal{M}$ be a $\sigma$-metalgebra, and call~$\tilde{\mcal{M}}$ the $\sigma$-metalgebra
+spanned by~$\mcal{M}$, $\mcal{F}$ and~$\mcal{G}$; then
+$\{\mcal{F}:\mcal{G}\}_{\mcal{M}} = \{\mcal{F}:\mcal{G}\}_{\tilde{\mcal{M}}}$.
+\end{ienumerate}
+\end{Pro}
+
+\begin{Def}\label{def3128}
+In the sequel, the probabilistic systems which we shall consider
+will often be made of some `elementary' variables, say $(X_i)_{i\in I}$.
+In this case, the so-called \emph{natural $\sigma$-metalgebra} of the system
+will mean the $\sigma$-metalgebra spanned by the~$X_i$.
+\end{Def}
+
+
+
+
+\section{Simple tensorization}\label{parSimpleTensorization}
+
+Now we turn to tensorization.
+First let us deal with `simple' tensorization,
+by which I mean that tensorization is performed on only one variable.
+The main result of this section will be the `$N$~against~$1$' theorem
+(Theorem~\ref{thm5750}).
+
+The problem considered is the following:
+Let~$I$ be a set and~$(X_i)_{i\in I}, Y$ be random variables;
+call~$\mcal{M}$ the natural $\sigma$-metalgebra of this system, that is,
+the $\sigma$-metalgebra spanned by the~$X_i$ and~$Y$ (cf.\ Definition~\ref{def3128}).
+Suppose we have bounds ${\{X_i:Y\}_{\mcal{M}}} \leq \epsilon_i$ for all~$i$;
+the question is, can we deduce from them a bound on~$\{\vec{X}_I:Y\}$?
+We shall prove that the answer is ``yes'',
+and moreover the bound~(\ref{for5719}) we will give is optimal in some way
+(see \S~\ref{parOptimality}).
+
+For pedagogical purpose,
+let us first state and prove a weaker but easier proposition:
+%
+\begin{Pro}\label{pro5527}
+With the notation above,
+\[\label{for5528} \big\{\vec{X}_I:Y\big\} \leq \sqrt{\sum_{i\in I} \epsilon_i^2} .\]
+\end{Pro}
+
+\begin{proof}
+By Proposition~\ref{pro6559} we may assume $I=\{1,\ldots,N\}$.
+Let~$f$ and~$g$ be centered $L^2$ $\vec{X}$-measurable,
+resp.\ $Y$-measurable, functions; our goal is to bound $|\EE[fg]|$.
+
+For all~$i\in\{0,\ldots,N\}$, denote
+\[ \mcal{F}_i = \sigma(X_1,\ldots,X_i) ,\]
+and for all~$i\in\{1,\ldots,N\}$,
+\[ f_i = f^{\mcal{F}_i} - \EE[f|\mcal{F}_{i-1}] .\]
+%
+Then $f = \sum_i f_i$, where each~$f_i$ is $\mcal{F}_i$-measurable
+and centered w.r.t.~$\mcal{F}_{i-1}$ (i.e., $\EE[f_i|\mcal{F}_{i-1}] \equiv 0$).
+Consequently, for all~$i_0<i_1$ one has $\EE[f_{i_0}f_{i_1}] = 0$
+(since $f_{i_0}$ is $\mcal{F}_{i_0}$-measurable while
+$f_{i_1}$ is centered w.r.t.~$\mcal{F}_{i_1-1} \supset \mcal{F}_{i_0}$)
+and thus when one expands $\Var(f) = \EE\big[\big(\sum_i f_i\big)^2\big]$
+all the non-diagonal terms vanish, yielding:
+\[\label{f9207} \Var(f) = \sum_{i=1}^{N} \Var(f_i) .\]
+
+Now, the decomposition ``$f = \sum_i f_i$'' yields
+\[ \EE[fg] = \sum_{i=1}^{N} \EE[f_ig] ,\]
+so let us bound the~$|\EE[f_ig]|$.
+The law of total expectation gives:
+\[ \EE[f_ig] =
+\int \EE\big[f_ig\big|X_1=x_1,\ldots,X_{i-1}=x_{i-1}\big] \,\dx\Pr[x_1,\ldots,x_{i-1}] .\]
+But under~$\dx\Pr[\Bcdot|\ab x_1,\ldots,x_{i-1}]$,
+$f_i$ is $X_i$-measurable and centered while $g$ is $Y$-mea\-su\-ra\-ble,
+moreover under this law
+$\{X_i:Y\} \leq \{X_i:Y\}_{\mcal{F}_{i-1}} \leq \{X_i:Y\}_{\mcal{M}} \leq \epsilon_i$, so:
+\[ \big|\EE\big[f_ig\big|Y_1=y_1,\ldots,Y_{i-1}=y_{i-1}\big]\big| \leq \epsilon_i
+\ecty\big(f_i\big|x_1,\ldots,x_{i-1}\big) \ecty\big(g\big|x_1,\ldots,x_{i-1}\big) .\]
+%
+Using the bound $\ecty(h) \leq \sqrt{\EE[h^2]}$, it follows that:
+\begin{multline}\label{cal4816}
+\big|\EE[f_ig]\big| \leq \epsilon_i
+\int \sqrt{\EE[f_i^2|x_1,\ldots,x_{i-1}]} \sqrt{\EE[g^2|x_1,\ldots,x_{i-1}]}
+\,\dx\Pr[x_1,\ldots,x_{i-1}] \\
+\footrel{\text{CS}}{\leq} \epsilon_i \sqrt{\int\EE[f_i^2|x_1,\ldots,x_{i-1}]\,\dx\Pr[x_1,\ldots,x_{i-1}]}\sqrt{\textit{the same for~$g$}}
+= \epsilon_i \ecty(f) \ecty(g_i) .
+\end{multline}
+So, summing~(\ref{cal4816}) for all~$i$:
+\[\label{f3109} |\EE[fg]| \leq \sum_{i=1}^N \epsilon_i \ecty(f_i) \ecty(g)
+\footrel{\text{CS}}{\leq} \sqrt{\sum_i \epsilon_i^2} \sqrt{\sum_i \Var(f_i)} \, \ecty(g)
+= \sqrt{\sum_i \epsilon_i^2} \, \ecty(f) \ecty(g) .\]
+Since (\ref{f3109}) is true for all~$f,g$, (\ref{for5528}) is proved.
+\end{proof}
+
+\label{lbl91}It is striking in Proposition~\ref{pro5527}
+that the right-hand side of~(\ref{for5528})
+may be greater than $1$, which is never the case for a correlation level.
+Actually there is some `loss of optimality' in the proof
+of the proposition when we bound above $\Var(f_i|\mcal{F}_{i-1})$
+by~$\EE[f_i^2|\mcal{F}_{i-1}]$, since $\EE[f_i^2|\mcal{F}_{i-1}] - \Var(f_i|\mcal{F}_{i-1}) = \EE[f_i|\mcal{F}_{i-1}]^2$
+may be different to~$0$. We will use a technique for `recycling' that loss
+to get the following result, which \S~\ref{parOptimality} shall prove to be optimal:
+%
+\begin{Thm}[`$N$~against~$1$' theorem]\label{thm5750}
+Take the same hypotheses as in Proposition~\ref{pro5527}:
+$\forall i\in I \quad \{X_i:Y\}_{\mcal{M}} \leq \epsilon_i$, where $\mcal{M}$
+is the natural $\sigma$-metalgebra of the system. Then:
+\[\label{for5719} \big\{\vec{X}_I:Y\big\} \leq \sqrt{1-\prod_{i\in I}(1-\epsilon_i^2)} .\]
+\end{Thm}
+
+\begin{Rmk}
+The right-hand side of~(\ref{for5719})
+is the~$\bar\epsilon\in[0,1]$ characterized by
+$1-\bar\epsilon^2 = \prod_i (1-\epsilon_i)^2$.
+\end{Rmk}
+
+\begin{Rmk}
+The right-hand side of~(\ref{for5719}) is bounded above by~$\sqrt{\sum_i \epsilon_i^2}$,
+so Theorem~\ref{thm5750} gives back Proposition~\ref{pro5527} as a corollary.
+\end{Rmk}
+%
+\begin{proof}
+As in the proof of Proposition~\ref{pro5527},
+let~$f$ and~$g$ be centered $L^2$ $\vec{X}$-measurable,
+resp.\ $Y$-measurable, functions.
+Assume $I=\{1,\ldots,N\}$;
+denote $\mcal{F}_i \coloneqq \sigma(X_1,\ldots,X_i)$
+and $f_i \coloneqq f^{\mcal{F}_i} - \EE[f|\mcal{F}_{i-1}]$.
+Also denote, for~$i\in\{0,\ldots,N\}$,
+\[ g^i \coloneqq g - \EE[g|\mcal{F}_i] .\]
+
+As before, one has $\Var(f) = \sum_i\Var(f_i)$ and $\EE[fg] = \sum_{i=1}^N \EE[f_ig]$.
+But $f_i$ is centered w.r.t.~$\mcal{F}_{i-1}$
+while $(g - g^{i-1})$ is $\mcal{F}_{i-1}$-measurable,
+so $\EE[f_ig] = \EE[f_ig^{i-1}]$.
+Since, conditionally to~$\mcal{F}_{i-1}$, $f_i$ and~$g^{i-1}$ are both centered and resp.\
+$X_i$- and $Y$-measurable, the fact that $\{X_i:Y\}_{\mcal{M}} \leq \epsilon_i$ implies,
+by the same argument as in the previous proof,
+that
+\[ |\EE[f_ig^{i-1}]| \leq \epsilon_i \ecty(f_i) \ecty(g^{i-1}) .\]
+
+Now, for~$i\in\{1,\ldots,N\}$, denote
+\[ \bar{g}^i = \EE[g^{i-1}|\mcal{F}_i] .\]
+Since $g^{i-1} = \bar{g}^i + g^i$,
+where $\bar{g}^i$ is $\mcal{F}_i$-measurable while $g^i$ is centered w.r.t.~$\mcal{F}_i$, one has:
+\[ \Var(g^i) = \Var(g^{i-1}) - \Var(\bar{g}^i) .\]
+%
+Then, the point consists in making the following observation:
+for~$\Var(g^i)$ to be large (that is, close to~$\Var(g^{i-1})$),
+$\Var(\bar{g}^i)$ has to be small. But in that case
+$|\EE[f_ig]|$ shall be small:
+one has indeed, since $f_i$ is $\mcal{F}_i$-measurable,
+\[ |\EE[f_ig]| = |\EE[f_ig^{i-1}]|
+= \big|\EE\big[f_i(g^{i-1})^{\mcal{F}_i}\big]\big| = \big|\EE\big[f_i\bar{g}^i\big]\big|
+\footrel{\text{CS}}{\leq} \ecty(f_i) \ecty(\bar{g}^i) .\]
+
+Let us sum up the relations obtained.
+One has, for all~$i\in\{1,\ldots,N\}$:
+\begin{eqnarray}
+\label{f9041a} |\EE[f_ig]| & \leq & \epsilon_i \ecty(f_i) \ecty(g^{i-1}) ; \\
+\label{f9041b} \ecty(g^i) & = & \sqrt{\ecty(g^{i-1})^2 - \ecty(\bar{g}^i)^2} ; \\
+\label{f9041c} |\EE[f_ig]| & \leq & \ecty(f_i) \ecty(\bar{g}^i) .
+\end{eqnarray}
+%
+Now define $\hat\epsilon_i \coloneqq |\EE[f_ig]| \div \ecty(f_i)\ecty(g^{i-1})$,
+or $\hat\epsilon_i = 0$ if the right-hand side is $0 \div 0$.
+Then (\ref{f9041a}) ensures that $\hat\epsilon_i \leq \epsilon_i$,
+and (\ref{f9041c}) means that $\ecty(\bar{g}^i) \geq \hat\epsilon_i\ecty(g^{i-1})$,
+so that (\ref{f9041b}) yields $\ecty(g^i) \leq \sqrt{1-\hat\epsilon_i^2} \*
+\hspace{.056em} \ecty(g^{i-1})$.
+Since $g^0 = g$, one has therefore by induction
+$\ecty(g^i) \leq \prod_{i'=1}^{i-1} \ab \sqrt{1-\hat\epsilon_{i'}^2} \,\ecty(g)$,
+so that the decomposition ``$\EE[fg]=\sum_i\EE[f_ig]$'' gives:
+\[\label{f8485} |\EE[fg]| \leq \sum_{i=1}^N
+\Big( \hat\epsilon_i \prod_{i'=1}^{i-1} \sqrt{1-\hat\epsilon_{i'}^2} \Big)
+\ecty(f_i) \ecty(g) .\]
+By the Cauchy--Schwarz inequality, it follows that:
+\[\label{f9280} |\EE[fg]| \leq \sqrt{\sum_{i=1}^N \hat\epsilon_i^2
+\prod_{i'=1}^{i-1} \big(1-\hat\epsilon_{i'}^2 \big)} \, \ecty(f)\ecty(g)
+= \sqrt{1-\prod_{i=1}^N \big(1-\hat\epsilon_i^2\big)} \, \ecty(f)\ecty(g) .\]
+%
+Obviously the maximal value for the right-hand side of~(\ref{f9280})
+is when $\hat\epsilon_i = \epsilon_i$ for all~$i$,
+then yiel\mbox{di}ng~(\ref{for5719}).
+\end{proof}
+
+There is an alternative proof, which is less intuitive
+but whose reasoning shall be used again in the proof of Theorem~\ref{thm6413}:
+%
+\begingroup\def\proofname{Alternative proof of Theorem~\ref{thm5750}}
+\begin{proof}
+We use the same notation as in the previous proof.
+As $f$ is $\mcal{F}$-measurable, $\EE[fg] = \EE[fg^{\mcal{F}}]$,
+so by the Cauchy--Schwarz inequality:
+\[\label{f2641} |\EE[fg]| \leq \ecty(f) \ecty(g^{\mcal{F}}) .\]
+Now, by associativity of variance $\ecty(g^{\mcal{F}}) = \sqrt{\Var(g)-\Var(g-g^{\mcal{F}})}$,
+so by~(\ref{f2641}) it suffices to prove that
+\[\label{for5211}
+\Var\big(g-g^{\mcal{F}}) \geq \prod_{i=1}^N \big(1-\epsilon_i^2\big) \Var(g) .\]
+
+With our notation, $g-g^{\mcal{F}} = g^N$ and $g = g^0$;
+we will prove that for all~$i\in\{1,\ldots,N\}$,
+\[\label{for0829} \Var(g^i) \geq (1-\epsilon_i^2) \Var(g^{i-1}) .\]
+%
+Since $g^{i-1}$ and~$g^i$ are centered w.r.t.~$\mcal{F}_{i-1}$,
+one has
+\[ \Var(g^{i-1}) = \int \Var(g^{i-1}|x_1,\ldots,x_{i-1}) \,\dx\Pr[x_1,\ldots,x_{i-1}] ,\]
+with a similar decomposition for~$\Var(g^i)$,
+so that it suffices to prove~(\ref{for0829}) conditionally to~$\mcal{F}_{i-1}$.
+
+Conditionally to~$\mcal{F}_{i-1}$, $g^{i-1}$ is centered and $Y$-measurable.
+Moreover, $g^i = g^{i-1} - (g^{i-1})^{\sigma(X_i)}$,
+so by associativity of variance
+$\Var(g^i) = \Var(g^{i-1}) - \Var\big( (g^{i-1})^{\sigma(X_i)} \big)$,
+and therefore (\ref{for0829}) is equivalent to
+\[ \Var\big( (g^{i-1})^{\sigma(X_i)} \big) \geq \epsilon_i^2 \Var(g^{i-1}) ,\]
+which follows directly from the assumption ``$\{X_i:Y\}_{\mcal{F}_{i-1}} \leq \epsilon_i$''.
+\end{proof}\endgroup
+
+
+
+
+\section{Double tensorization}\label{parDoubleTensorization}
+
+Simple tensorization as itself is already interesting
+since it gives an $L^2$-type bound for the correlation between~$X$ and~$\vec{Y}$,
+which is better than the $L^1$-type bounds
+typically obtained by total variation methods.
+Yet it does not exhaust
+the full potential of Hilbertian correlations
+concerning tensorization, since obviously
+it does not contain results like independent tensorization
+(cf.\ \S~\ref{parIndependentTensorization}).
+
+The aim of this section is to get sharp tensorization results
+where we perform tensorizing on \emph{both} sides,
+without having to assume complete independence like in Theorem~\ref{pro1252}.
+The price to pay is that the techniques involved,
+though similar in their spirit, will be much more tricky,
+moreover the bounds obtained will not be completely optimal
+(see \S~\ref{parOptimality}).
+
+
+\subsection{`\texorpdfstring{$N$}{N}~against~\texorpdfstring{$M$}{M}' tensorization}
+
+The following theorem may be considered as the main result of this monograph.
+As will be explained in \S~\ref{parAsymptoticOptimality},
+it `contains' qualitatively all the other tensorization theorems
+(i.e.\ Theorems~\ref{pro1252}, \ref{thm5750} and~\ref{thm0119}).
+
+\begin{Thm}[`$N$~against~$M$' theorem]\label{thm6413}
+Let~$I$ and~$J$ be sets, and let~$(X_i)_{i\in I}$ and~$(Y_j)_{j\in J}$ be random variables,
+the $\sigma$-metalgebra they generate being denoted by~$\mcal{M}$.
+Suppose for any~$i,j$, ${\{X_i:Y_j\}_{\mcal{M}}} \leq \epsilon_{ij}$ for some $\epsilon_{ij} \geq 0$,
+and define the operator
+\[ \begin{array}{rrcl} \boldepsilon \colon & L^2(J) & \to & L^2(I) \\
+& (a_j)_{j\in J} & \mapsto & \big( \sum_{j\in J} \epsilon_{ij}a_j \big)_{i\in I} ,\end{array} \]
+then:
+\[\label{for3009} \big\{ \vec{X}_I : \vec{Y}_J \big\} \leq \VERT \boldepsilon \VERT \wedge 1 .\]
+\end{Thm}
+
+\begin{Rmk}
+On~$(\RR_+)^{I\times J}$, $\VERT \boldepsilon \VERT$
+is a nondecreasing function of each~$\epsilon_{ij}$.
+\end{Rmk}
+
+\begin{NOTA}
+As the proof of Theorem~\ref{thm6413} is rather technical,
+I found it useful to write down how it goes on a concrete example.
+This is performed in Appendix~\ref{parIllustrationOfTheProofs},
+which I suggest the reader to look at in parallel with the proof as a complement.
+\end{NOTA}
+
+To prove Theorem~\ref{thm6413},
+we will need the following
+%
+\begin{Lem}\label{lem7265}
+Let~$X_1,X_2,\ldots,X_N$ and~$Y$ be random variables,
+call~$\mcal{M}$ their natural $\sigma$-metalgebra,
+and assume that for all~$i\in\{1,\ldots,N\}$,
+\[ \{X_i:Y\}_{\mcal{M}} \leq \epsilon_i .\]
+Let~$f$ be an $\ldb(\vec{X})$ function.
+For all~$0 \leq i \leq N$, denote $\mcal{F}_i \coloneqq \sigma(X_1,\ldots,X_i)$,
+resp.\ $\mcal{F}^*_i \coloneqq \sigma(X_1,\ldots,\ab X_i,Y)$,
+and for all~$1 \leq i \leq N$, define
+\[ f_i \coloneqq f^{\mcal{F}_i} - \EE[f|\mcal{F}_{i-1}] ,\]
+\[ \llap{\text{resp.}\quad} f^*_i \coloneqq f^{\mcal{F}^*_i} - \EE[f|\mcal{F}^*_{i-1}] ,\]
+and denote by~$V_i$ and~$V^*_i$ their respective variances. Then,
+for all~$1 \leq i \leq N$,
+\[\label{for1302}
+V^*_i \geq (1-\epsilon_i^2) V_i - 2\epsilon_i \sqrt{V_i} \Big( \sum_{i'>i} \epsilon_{i'} \sqrt{V_{i'}} \Big) .\]
+\end{Lem}
+
+\begin{proof}
+For~$0\leq i\leq N$, define
+\[ \tilde{f}_i \coloneqq f - \EE[f|\mcal{F}_i] ,\]
+\[ \llap{\text{resp.}\quad} \tilde{f}^*_i \coloneqq f - \EE[f|\mcal{F}^*_i] ,\]
+and call~$\tilde{V}_i$ and~$\tilde{V}^*_i$ their respective variances.
+One has $\tilde{f}_i = \sum_{i'>i} f_{i'}$, resp.\ $\tilde{f}^*_i = \sum_{i'>i} f^*_{i'}$.
+Moreover, by the same argument as in the proof of Proposition~\ref{pro5527},
+all the~$f_i$ are orthogonal (that is, ${i_0\neq i_1} {\enskip\Rightarrow}\enskip \EE[f_{i_0}f_{i_1}] = 0$),
+thus
+\[ \tilde{V}_i = \sum_{i'>i} V_{i'} ;\]
+similarly,
+\[ \tilde{V}^*_i = \sum_{i'>i} V^*_{i'} .\]
+
+In a first step, we observe that for all~$i$,
+$\tilde{f}_i - \tilde{f}^*_i = (f-f^{\mcal{F}_i}) - (f-f^{\mcal{F}^*_i})
+= f^{\mcal{F}^*_i} - f^{\mcal{F}_i} = {f^{\mcal{F}^*_i} - (f^{\mcal{F}_i})^{\mcal{F}^*_i}} \ab = (f - f^{\mcal{F}_i})^{\mcal{F}^*_i} = (\tilde{f}_i)^{\mcal{F}^*_i}$,
+which by associativity of variance yields the following
+%
+\begin{Clm}\label{clm1908}
+\[\label{for4854} \tilde{V}_i - \tilde{V}^*_i = \Var\big((\tilde{f}_i)^{\mcal{F}^*_i}\big).\]
+\end{Clm}
+
+Now, the following claim will be the main tool for proving the lemma:
+%
+\begin{Clm}\label{clm1959}
+For all~$1 \leq i \leq N$,
+\[\label{for1960}
+\tilde{V}_{i-1} - \tilde{V}^*_{i-1} \leq \Big( \epsilon_i \sqrt{V_i} + \sqrt{\tilde{V}_i-\tilde{V}^*_i} \Big)^{\!2\,}
+\footnotemark .\]
+\end{Clm}
+%
+\footnotetext{Taking the square root of~$(\tilde{V}_i-\tilde{V}^*_i)$
+is allowed, since that quantity is nonnegative by Claim~\ref{clm1908}.}
+
+Admit temporarily Claim~\ref{clm1959}. Since $\tilde{V}_N= \tilde{V}^*_N = 0$,
+(\ref{for1960}) applied with $i=N$ gives $\tilde{V}_{N-1} - \tilde{V}^*_{N-1} \leq \epsilon_N^2 V_N$,
+which in turn we can use in~(\ref{for1960}) with $i=N-1$, and so on,
+to finally prove by finite (decreasing) induction that, for all~$i$,
+\[\label{for1291}
+\tilde{V}_i - \tilde{V}^*_i \leq \Big( \sum_{i'>i}\epsilon_{i'}\sqrt{V_{i'}} \Big)^2 .\]
+Now to get~(\ref{for1302}),
+we note that $V_i = \tilde{V}_{i-1} - \tilde{V}_i$,
+resp.\ $V^*_i = \tilde{V}^*_{i-1} - \tilde{V}^*_i$,
+so, using successively the inequalities~(\ref{for1960}) and~(\ref{for1291}),
+\begin{multline}
+V_i - V^*_i = \big( \tilde{V}_{i-1} - \tilde{V}^*_{i-1} \big)
+- \big( \tilde{V}_i - \tilde{V}^*_i \big) \\
+\leq \Big( \epsilon_i \sqrt{V_i} + \sqrt{\tilde{V}_i - \tilde{V}^*_i} \Big)^2
+- (\tilde{V}_i - \tilde{V}^*_i)
+= \epsilon_i^2 V_i + 2 \epsilon_i\sqrt{V_i} \sqrt{\tilde{V}_i - \tilde{V}^*_i} \\
+\leq \epsilon_i^2 V_i + 2 \epsilon_i\sqrt{V_i} \Big( \sum_{i'>i}\epsilon_{i'}\sqrt{V_{i'}} \Big),
+\end{multline}
+which is equivalent to (\ref{for1302}).
+\end{proof}
+
+\begingroup\def\proofname{Proof of Claim~\ref{clm1959}}\begin{proof}
+Thanks to Claim~\ref{clm1908}, what we have to prove is:
+\[\label{for3998}
+\Var\big((\tilde{f}_{i-1})^{\mcal{F}^*_{i-1}}\big) \leq \Big( \epsilon_i \sqrt{V_i} + \sqrt{\tilde{V}_i-\tilde{V}^*_i} \Big)^{\!2\,} .\]
+By the definition of conditional expectation
+and the equality case in the Cauchy--Schwarz inequality,
+(\ref{for3998}) is equivalent to saying that for all~$\ldb(\mcal{F}^*_{i-1})$ function~$g$,
+\[\label{for3331} \big| \EE \big[ \tilde{f}_{i-1} g \big] \big| \leq
+\Big( \epsilon_i \sqrt{V_i} + \sqrt{\tilde{V}_i-\tilde{V}^*_i} \Big) \ecty(g) .\]
+So let~$g$ be a centered $L^2$ $\mcal{F}^*_{i-1}$-measurable real function.
+Since $\tilde{f}_{i-1} = f_i + \tilde{f}_i$,
+$\EE[\tilde{f}_{i-1}g] = \EE[f_ig] + \EE[\tilde{f}_ig]$,
+which two terms we shall bound separately.
+
+For the first term, under~$\Pr[\Bcdot|\ab \mcal{F}_{i-1}]$,
+$f_i$ is centered and only depends on~$X_i$, and~$g$ only depends on~$Y$.
+Since $\{ X_i : Y \}_{\mcal{F}_{i-1}} \leq {\{ X_i : Y \}_{\mcal{M}}} \leq \epsilon_i$,
+it follows that
+\[ \big| \EE[f_ig|\mcal{F}_{i-1}] \big| \leq \epsilon_i \, \ecty(f_i|\mcal{F}_{i-1}) \, \ecty(g|\mcal{F}_{i-1}) ,\]
+which yields upon integrating:
+\begin{multline}\label{cal3329}
+|\EE[f_ig]| \leq \epsilon_i \int \ecty(f_i|\mcal{F}_{i-1}) \ecty(g|\mcal{F}_{i-1}) \,\dx\Pr \\
+\footrel{\text{CS}}{\leq} \epsilon_i \sqrt{\int \Var(f_i|\mcal{F}_{i-1}) \, \dx\Pr} \sqrt{\int \Var(g|\mcal{F}_{i-1}) \, \dx\Pr} \\
+= \epsilon_i \sqrt{V_i} \sqrt{\Var(g) - \Var(g^{\mcal{F}_{i-1}})} \leq \epsilon_i \sqrt{V_i} \ecty(g) .
+\end{multline}
+
+For the second term, under~$\Pr[\Bcdot|\ab \mcal{F}_i]$,
+$g$ only depends on~$Y$, and $\EE[\tilde{f}_i|Y]
+\equiv \tilde{f}_i - \tilde{f}^*_i$ as we noticed just before Claim~\ref{clm1908},
+so $\EE[\tilde{f}_ig|\mcal{F}_i] = \EE[{(\tilde{f}_i - \tilde{f}^*_i)}g | \mcal{F}_i]$,
+which yields upon integrating:
+\[\label{for3330} |\EE[\tilde{f}_ig]|
+= \big| \EE \big[ (\tilde{f}_i - \tilde{f}^*_i) g \big] \big|
+\footrel{\text{CS}}{\leq} \ecty(\tilde{f}_i - \tilde{f}^*_i) \ecty(g) = \sqrt{\tilde{V}_i - \tilde{V}^*_i} \ecty(g) ,\]
+the last equality coming from Claim~\ref{clm1908}.
+Then it just remains to combine~(\ref{cal3329}) and~(\ref{for3330})
+to get~(\ref{for3331}).\linebreak[1]\strut
+\end{proof}\endgroup
+
+\begingroup\def\proofname{Proof of Theorem~\ref{thm6413}}\begin{proof}
+First, thanks to a by now classical approximation argument
+we may assume that $I = \{1,\ldots,N\}$
+and $J = \{1,\ldots,M\}$. Denote $\mcal{F} \coloneqq \sigma(\vec{X}_I)$,
+resp.\ $\mcal{G} \coloneqq \sigma(\vec{Y}_J)$; our goal is to prove
+that for all~$f\in\ldb(\mcal{F})$, all~$g\in\ldb(\mcal{G})$,
+one has $|\EE[fg]| \leq ( \VERT \boldepsilon \VERT \wedge 1 ) \ecty(f) \ecty(g)$.
+We will use the same trick as in our alternative proof of Theorem~\ref{thm5750}:
+by the definition of conditional expectation and the Cauchy--Schwarz inequality,
+proving the inequality above is equivalent to showing that for all~$f\in\ldb(\mcal{F})$,
+\[ \Var\big( f^{\mcal{G}} \big) \leq \big( \VERT \boldepsilon \VERT^2 \wedge 1 \big) \Var(f) ,\]
+which, by associativity of variance, is in turn equivalent to:
+\[\label{f3451}
+\Var\big( f - f^{\mcal{G}} \big) \geq \big( 1-\VERT\boldepsilon\VERT^2 \big)_+ \Var(f) .\]
+
+For~$0\leq i\leq N$, resp.~$0\leq j\leq M$, define
+$\mcal{F}_i = \sigma(X_1,\ldots,X_i)$, resp. $\mcal{G}_j = \sigma(Y_1,\ldots,Y_j)$.
+For all~$0 \leq j \leq M$, define
+\[ f^j \coloneqq f - \EE[f|\mcal{G}_j] ,\]
+and for all~$1 \leq i \leq N$, define moreover
+\[ f^j_i \coloneqq f^{\mcal{G}_j\vee\mcal{F}_i} - \EE[f|\mcal{G}_j\vee\mcal{F}_{i-1}] .\]
+Denote $V^j \coloneqq \Var(f^j)$, resp.\ $V^j_i \coloneqq \Var(f^j_i)$.
+For fixed~$j$, the~$f^j_i$ are pairwise orthogonal
+(again by the argument in the proof of Proposition~\ref{pro5527})
+and their sum is equal to~$f^j$, so:
+\[\label{for3043} V^j = \sum_{i=1}^N V^j_i .\]
+Thus, with this notation our goal~(\ref{f3451}) becomes:
+\[\label{for7254}
+\sum_{i=1}^N V^M_i \geq \big( 1-\VERT\boldepsilon\VERT^2 \big)_{\!+\,} \sum_{i=1}^N V^0_i .\]
+
+The main tool to prove~(\ref{for7254}) will be Lemma~\ref{lem7265}.
+Actually the rough formula~(\ref{for1302}) is quite impratical,
+so we introduce a \emph{linearized} version of it:
+for each~$1\leq i\leq N$ take some $\alpha_i > 0$
+(which for the time being is arbitrary), then by the Cauchy--Schwarz inequality,
+(\ref{for1302}) implies that:
+\[\label{for3261}
+V^*_i \geq (1-\epsilon_i^2) V_i - \frac{\epsilon_i V_i}{\alpha_i} \sum_{i'>i} \epsilon_{i'}\alpha_{i'}
+- \epsilon_i\alpha_i \sum_{i'>i} \frac{\epsilon_{i'}V_{i'}}{\alpha_{i'}} .\]
+
+\begin{Rmk}
+(\ref{for3261}) is devised so that its right-hand side is exactly the same
+as in~(\ref{for1302}) if $V_i \propto \alpha_i^2\enskip\forall i$.
+\end{Rmk}
+
+Let us reason conditionally to~$\mcal{G}_{j-1}$ for a few lines.
+Under this conditioning, call~$\dot{\mcal{F}}_i \coloneqq \sigma(X_1,\ldots,X_i)$,
+resp.\ $\dot{\mcal{F}}^*_i \coloneqq \sigma(X_1,\ldots,X_i,Y_j)$, and $\dot{f} \coloneqq f^{j-1}$.
+Then $\dot{f}$ is an $\ldb(\vec{X})$ function,
+so we are in situation of applying Lemma~\ref{lem7265} to the functions
+\begin{eqnarray} \dot{f}_i &\coloneqq& \dot{f}^{\dot{\mcal{F}}_i} - \EE\big[\dot{f}\big|\dot{\mcal{F}}_{i-1}\big] \\
+\text{\llap{and \qquad}{}} \dot{f}^*_i &\coloneqq& \dot{f}^{\dot{\mcal{F}}^*_i} - \EE\big[\dot{f}\big|\dot{\mcal{F}}^*_{i-1}\big] .
+\end{eqnarray}
+%
+But in fact we already know these functions:
+namely, $\dot{f}_i = f^{j-1}_i$ and $\dot{f}^*_i = f^j_i$.
+Then, applying the linearized version~(\ref{for3261}) of Lemma~\ref{lem7265}
+\[ \Var \big( f^j_i|\mcal{G}_{j-1} \big) \geq \\
+\bigg( 1-\epsilon_{ij}^2 - \frac{\epsilon_{ij}}{\alpha_i} \sum_{i'>i} \epsilon_{i'j}\alpha_{i'} \bigg)
+\Var \big( f^{j-1}_i|\mcal{G}_{j-1} \big)
+- \epsilon_{ij}\alpha_i \sum_{i'>i} \frac{\epsilon_{i'j}\Var\big( f^{j-1}_{i'}|\mcal{G}_{j-1} \big)}{\alpha_{i'}} , \]
+whence upon integrating:
+\[\label{for4382}
+V^j_i \geq (1-\epsilon_{ij}^2) V^{j-1}_i
+- \Big(\sum_{i'>i} \epsilon_{i'j}\alpha_{i'}\Big) \frac{\epsilon_{ij} V^{j-1}_i}{\alpha_i}
+- \epsilon_{ij}\alpha_i \sum_{i'>i} \frac{\epsilon_{i'j}V^{j-1}_{i'}}{\alpha_{i'}} .\]
+
+By Equation~(\ref{for4382}), we have transformed our initial problem
+into a purely abstract operator problem, \emph{posed in an $L^1$ setting}.
+%
+To handle it, we need a little notation.
+Call~$L^1(I)$ the set of real functions on~$I$,
+endowed with the $L^1$ norm
+\[ \big\| (v_i)_{i\in I} \big\|_1 \coloneqq \sum_{i\in I} |v_i| .\]
+The dual space of~$L^1(I)$ is made of the linear forms
+$\ell \colon (v_i)_{i\in I} \mapsto \sum \ell_i v_i$,
+equipped with the $L^{\infty}$ norm
+\[ \| \ell \|_{\infty} \coloneqq \sup_{i\in I} |\ell_i| .\]
+We shall write ``$L^1(I) \ni v \geq 0$'' to mean that all the entries of~$v$ are nonnegative,
+and ``$(L^1(I))' \ni \ell \geq 0$'' to mean that
+$(v \geq 0) \Rightarrow (\ell v \geq 0)$, which is equivalent to say that
+all the~$\ell_i$ are nonnegative.
+%
+Now I claim the following lemma, whose proof is postponed:
+\begin{Lem}\label{lem5453}
+Suppose given some nonnegative numbers $V^j_i$ for
+$(i,j) \in \{1,\ldots,N\} \times \{0,\ldots,M\}$,
+such that Equation~(\ref{for4382}) is satisfied for all~$i,j$.
+Call~$\mcal{L}$ the nonnegative linear form on~$L^1(I)$ defined by
+\[ \mcal{L}v = \sum_{\substack{j\in J\\i,i'\in I}} \frac{\alpha_{i'}}{\alpha_i} \epsilon_{ij}\epsilon_{i'j} v_i ,\]
+and assume $\|\mcal{L}\|_{\infty} \leq 1$,
+then:
+\[\label{for6376}
+\sum_{i=1}^N V^M_i \geq \sum_{i=1}^N V^0_i - \mcal{L}\big( (V^0_i)_{i\in I} \big) .\]
+\end{Lem}
+
+Lemma~\ref{lem5453} has the following immediate
+\begin{Cor}\label{cor1307}
+Suppose given some nonnegative numbers $V^j_i$ for
+$(i,j) \in \{1,\ldots,N\} \times \{0,\ldots,M\}$,
+such that Equation~(\ref{for4382}) is satisfied for all~$i,j$,
+then:
+\[\label{for1338} \sum_{i=1}^N V^M_i \geq
+\bigg( 1 - \sup_{i\in I} \sum_{\substack{j\in J\\i'\in I}} \frac{\alpha_{i'}}{\alpha_i} \epsilon_{ij}\epsilon_{i'j}
+\bigg)_{\!\!+\,\,} \sum_{i=1}^N V^0_i .\]
+\end{Cor}
+
+Now we finish the proof of Theorem~\ref{thm6413}:
+thanks to Corollary~\ref{cor1307}
+we have proved that~(\ref{for1338}) stands true in our situation
+for \emph{any} choice of positive $(\alpha_i)_{i\in I}$.
+The last step then consists in optimizing that choice.
+Denote ``$\alpha>0$'' to mean that all the~$\alpha_i$ are positive. One has:
+\begin{multline}
+\inf_{\alpha>0} \sup_{i\in I} \sum_{\substack{j\in J\\i'\in I}} \frac{\alpha_{i'}}{\alpha_i} \epsilon_{ij}\epsilon_{i'j}
+= \inf \big\{ \lambda \geq 0 \colon
+(\exists \alpha > 0) (\forall i) \big( \sum_{\substack{j\in J\\i'\in I}} \epsilon_{ij}\epsilon_{i'j}\alpha_{i'}
+\leq \lambda \alpha_i \big) \big\} \\
+= \inf \big\{ \lambda \geq 0 \colon (\exists \alpha > 0)
+(\boldepsilon\boldepsilon^* \alpha \leq \lambda\alpha) \big\}.
+\end{multline}
+But $\boldepsilon\boldepsilon^*$ is a nonnegative operator on~$L^2(I)$
+(I mean, when seen as a matrix all its entries are nonnegative),
+so by Lemma~\ref{l3542} in appendix:
+%
+\[\label{for2029}
+\inf \big\{ \lambda\geq 0 \colon (\exists \alpha > 0) (\boldepsilon\boldepsilon^* \alpha \leq \lambda\alpha) \big\}
+= \rho(\boldepsilon\boldepsilon^*) = \VERT \boldepsilon \VERT^2 .\]
+This ends the proof of Theorem~\ref{thm6413}.
+\end{proof}\endgroup
+
+\begingroup\def\proofname{Proof of Lemma~\ref{lem5453}}\begin{proof}
+We prove Lemma~\ref{lem5453} by induction on~$M$.
+The case $M=0$ is trivial.
+Suppose $M\geq1$ and assume the result is true for~${(M-1)}$.
+We generalize the notation $\mcal{L}$
+by defining, for~$\bullet \in \{\text{\textvisiblespace},1,*\}$,
+\[ \mcal{L}^{\bullet}v = \sum_{\substack{j\in J^{\bullet}\\i,i'\in I}}
+\frac{\alpha_{i'}}{\alpha_i} \epsilon_{ij}\epsilon_{i'j} v_i ,\]
+with $J^1 = \{1\}$, resp.\ $J^* = \{2,\ldots,M\}$,
+so that $\mcal{L} = \mcal{L}^1 + \mcal{L}^*$.
+Notice that $\|\mcal{L}^*\|_{\infty}\leq 1$ since ${\|\mcal{L}\|_{\infty}\leq1}$.
+For all~$i \in I$, define
+\[ \check{V}^1_i = (1-\epsilon_{i1}^2) V^0_i - \frac{\epsilon_{i1} V^0_i}{\alpha_i} \sum_{i'>i} \epsilon_{i'1}\alpha_{i'}
+- \epsilon_{i1}\alpha_i \sum_{i'>i} \frac{\epsilon_{i'1}V^0_{i'}}{\alpha_{i'}} ,\]
+which is the value that $V^1_i$ would take if there were equality in~(\ref{for4382})
+for $j=1$.
+%
+With that notation, (\ref{for4382}) writes
+\[\label{for6134} \big( V^1_i - \check{V}^1_i \big)_{i\in I} \geq 0 ,\]
+and by induction hypothesis we have:
+\[\label{for6135} \sum_{i=1}^N V^M_i \geq \sum_{i=1}^N V^1_i - \mcal{L}^* \big( (V^1_i)_{i\in I} \big) .\]
+
+Introducing the~$\check{V}^1_i$, we have therefore the following chain of inequalities:
+\begin{multline}
+\sum_{i=1}^N V^M_i \footrel{(\ref{for6135})}{\geq}
+\sum_{i=1}^N V^1_i - \mcal{L}^* \big( (V^1_i)_{i\in I} \big) \\
+%
+\footrel{(\ref{for6134})}{=} \sum_{i=1}^N \check{V}^1_i + \big\| \big( V^1_i - \check{V}^1_i \big)_{i\in I} \big\|_1
+- \mcal{L}^* \big( (\check{V}^1_i)_{i\in I} \big) - \mcal{L}^* \big( (V^1_i - \check{V}^1_i)_{i\in I} \big) \\
+%
+\footrel{\|\mcal{L}^*\|_\infty\leq1}{\geq} \sum_{i=1}^N \check{V}^1_i - \mcal{L}^* \big( (\check{V}^1_i)_{i\in I} \big)
+%
+= \sum_{i=1}^N V^0_i - \mcal{L}^1 \big( (V^0_i)_{i\in I} \big)
+- \mcal{L}^* \big( (\check{V}^1_i)_{i\in I} \big) \\
+%
+\footrel{\substack{\check{V}^1\leq V^0\\\mcal{L}^*\geq0}}{\geq}
+\sum_{i=1}^N V^0_i - \mcal{L}^1 \big( (V^0_i)_{i\in I} \big)
+- \mcal{L}^* \big( (V^0_i)_{i\in I} \big)
+%
+= \sum_{i=1}^N V^0_i - \mcal{L} \big( (V^0_i)_{i\in I} \big),
+\end{multline}
+%
+so~(\ref{for6376}) is true for~$M$, whence the lemma by induction.
+\end{proof}\endgroup
+
+\begin{Rmk}
+Our proof of Theorem~\ref{thm6413}
+handled the~$X_i$ and the~$Y_j$ in a fully nonsymmetric way,
+since we began with putting orders on~$I$ and~$J$,
+which orders played a crucial role in the decomposition of~$f$.
+%
+Yet the bound~(\ref{for3009}) obtained \emph{is} obviously symmetric
+by re-labelling the basic variables%
+—and this is not due to having proceeded to any `re-symmetrization' step\dots\ 
+To date I have no simple explanation for this `coincidence'.
+\end{Rmk}
+
+
+\subsection{`\texorpdfstring{$\ZZ$}{Z}~against~\texorpdfstring{$\ZZ$}{Z}' tensorization}
+
+The proof of the `$N$~against~$M$' theorem was quite more technical than
+that of the `$N$~against~$1$' theorem;
+because of that, in order to get tractable computations
+we had to use suboptimal inequalities at two places:
+%
+\begin{itemize}
+\item Claim~\ref{clm1959} is suboptimal: it has indeed the same shortcoming
+as Proposition~\ref{pro5527} exhibited compared to Theorem~\ref{thm5750},
+namely, it does not `recycle the losses' occurring
+when one makes $g$ covariate with both~$f_i$ and~$\tilde{f}_i$
+(cf.\ the discussion on page~\pageref{lbl91},
+just after the proof of Proposition~\ref{pro5527}).
+%
+\item Our linearization technique is suboptimal in general,
+even after optimizing the~$\alpha_i$.
+In fact, as we said before, Inequality~(\ref{for3261}) is optimal
+if and only if one has $V_i \propto \alpha_i$;
+thus, for~(\ref{for4382}) to be always optimal,
+one has to have $V^j_i \propto \alpha_i$
+for \emph{all} $j$, with the \emph{same} values for the~$\alpha_i$.
+This would imply that all the sequences $(V_i^j)_{0\leq i<n}$
+are proportional, which is not true in general.
+\end{itemize}
+
+So, Theorem~\ref{thm6413} is certainly not optimal%
+\footnote{Though, as we will see in \S~\ref{parAsymptoticOptimality},
+it is `asymptotically optimal'.}%
+—this is confirmed by the example of \S~\ref{parIllustrationOfTheProofs}.
+Nonetheless, there is one particular case in which
+an alternative reasoning yields an optimal bound%
+\footnote{The bound's being optimal shall be proved by Theorem~\ref{t6657}.}.
+This case is when some symmetries in the decorrelation hypotheses
+allow us to transform the original two-parameter problem (indexed by~$I\times J$)
+into a one-parameter problem (indexed by~$\ZZ$).
+Let us state and prove the corresponding result:
+%
+\begin{Thm}[`$\ZZ$~against~$\ZZ$' theorem]\label{thm0119}
+Let~$I$ and~$J$ be sets isomorphic to~$\ZZ$,
+and let~$(X_i)_{i\in I}$ and~$(Y_j)_{j\in J}$ be random variables
+such that, $\mcal{M}$ denoting the $\sigma$-metalgebra they generate,
+one has for all~$i,j\in\ZZ$
+\[ \{X_i : Y_j\}_{\mcal{M}} \leq \epsilon(j-i) \]
+for some function~$\epsilon \colon \ZZ \to [0,1]$.
+
+Then
+\[ \big\{ \vec{X}_I : \vec{Y}_J \big\} \leq \bar{\epsilon} ,\]
+where $\bar{\epsilon} \in [0,1]$ is characterized by:
+\[\label{f6444} \arcsin \bar{\epsilon} =
+\Big( \sum_{z\in\ZZ} \arcsin \epsilon(z) \Big) \wedge \frac{\pi}{2} .\]
+\end{Thm}
+
+\begin{Rmk}
+If we apply Theorem~\ref{thm6413} to the situation above, we find
+${\{\vec{X}_I:\vec{Y}_J\}} \ab \leq \big( \sum_{z\in\ZZ}\epsilon(z) \big) \wedge 1$
+(cf.\ \S~\ref{parPractical}).
+The latter expression is always $\geq \bar{\epsilon}$
+because of the concavity of the function~$\sin(\Bcdot\wedge\frac{\pi}{2})$ on~$\RR_+$,
+and even $>\bar\epsilon$ if $\bar{\epsilon}\neq0,1$;
+so, when it is applicable, Theorem~\ref{thm0119} is strictly stronger than Theorem~\ref{thm6413}.
+\end{Rmk}
+
+\begin{proof}
+Let~$f$ and~$g$ be resp.\ $\vec{X}_I$- and $\vec{Y}_J$-measurable $\ldb$ functions.
+Denote $\mcal{F} \coloneqq \sigma(\vec{X})$, resp.\ $\mcal{G} \coloneqq \sigma(\vec{Y})$,
+and for~$i\in\ZZ$, resp.~$j\in\ZZ$,
+denote $\mcal{F}_i \coloneqq \bigvee_{i'\leq i} \sigma(X_{i'})$,
+resp.\ $\mcal{G}_j \coloneqq \bigvee_{j'\leq j} \sigma(Y_{j'})$.
+For~$(i,j)\in\ZZ\times\ZZ$, define
+\[\label{f9113}
+f_i^j \coloneqq f^{\mcal{G}_j\vee\mcal{F}_i} - \EE[f|\mcal{G}_j\vee\mcal{F}_{i-1}] \]
+and\footnote{Beware: the definition of~$g_j^i$
+is \emph{not} analogous to the definition of~$f_i^j$\,!}
+\[ g_j^i \coloneqq g^{\mcal{G}_j} - \EE[g^{\mcal{G}_j}|\mcal{G}_{j-1}\vee\mcal{F}_i] .\]
+Denote $V\coloneqq\Var(f)$, $W\coloneqq\Var(g)$, $V_i^j\coloneqq\Var(f_i^j)$, $W_j^i\coloneqq\Var(g_j^i)$;
+also denote
+\[ S_{ij} \coloneqq \EE[f_i^{j-1}g_j^{i-1}] .\]
+
+Our auxiliary functions were devised so that
+\begin{Clm}\label{clm4070}
+Provided the sum in the right-hand side is absolutely convergent,
+\[\label{for5163} \EE[fg] = \sum_{i,j} S_{ij} .\]
+\end{Clm}
+
+\begingroup\def\proofname{Proof of Claim~\ref{clm4070}}\begin{proof}
+First define $\bar{f} \coloneqq f^{\mcal{G}}$,
+so that $\bar{f}$ is $\mcal{G}$-measurable and
+$\EE[fg] = \EE[\bar{f}g]$.
+For~$j \ab {\in \ZZ}$, define
+$g_j \coloneqq g^{\mcal{G}_j} - \EE[g|\mcal{G}_{j-1}]$,
+resp.\ $\bar{f}_j \coloneqq {\bar f}^{\mcal{G}_j} - \EE[\bar{f}|\mcal{G}_{j-1}]$:
+we have $g=\sum_jg_j$ and $\bar{f}=\sum_j\bar{f}_j$,
+which are the respective decompositions of~$g$ and~$\bar{f}$
+on the same basis of orthogonal subspaces of~$\ldb(\mcal{G})$,
+so $\EE[fg] = \sum_{j} \EE[\bar{f}_jg_j]$.
+The terms of the right-hand side of that formula are unchanged upon replacing
+$\bar{f}_j$ by~$f^{j-1} \coloneqq f - \EE[f|\mcal{G}_{j-1}]$,
+since $\EE[(f^{j-1} - \bar{f}_j)g_j]$ is zero%
+—the function~$(f^{j-1} - \bar{f}_j)$ is indeed equal to~$(f-\EE[f|\mcal{G}_j])$,
+which is centered conditionally to~$\mcal{G}_j$,
+while $g_j$ is $\mcal{G}_j$-measurable.
+In the end we have:
+\[\label{for5102} \EE[fg] = \sum_j \EE[f^{j-1}g_j] .\]
+
+So in a first step we have decomposed $\EE[fg]$
+into a sum indexed by~$j$. Now we decompose each term of that sum
+into a sum indexed by~$i$.
+Let us reason conditionally to~$\mcal{G}_{j-1}$.
+Then $f^{j-1}$ is an $\ldb(\mcal{F})$ function
+and $g_j$ is in~$\ldb(Y_j)$.
+%
+We compute $\EE[f^{j-1}g_j]$ as in the first step of this proof:
+first we replace $g_j$ by~$\bar{g}_j \coloneqq (g_j)^{\mcal{F}}$;
+then we decompose $f^{j-1} = \sum_i f^{j-1}_i$ and $\bar{g}_j = \sum_i \bar{g}_{ji}$,
+with $f^{j-1}_i \coloneqq (f^{j-1})^{\mcal{F}_i} - \EE[f^{j-1}|\mcal{F}_{i-1}]$%
+%
+\footnote{Notation is consistent: this $f^{j-1}_i$ is indeed the same
+as the~$f^{j-1}_i$ defined by~(\ref{f9113}),
+since we are reasoning conditionally to~$\mcal{G}_{j-1}$.},
+%
+resp.\ $\bar{g}_{ji} \coloneqq \bar{g}_j^{\mcal{F}_i} - \EE[\bar{g}_j|\mcal{F}_{i-1}]$,
+and by orthogonal decomposition
+we get $\EE[f^{j-1}g_j] = \sum_i \EE[f^{j-1}_i\bar{g}_{ji}]$;
+then we conclude by saying that $\EE[f^{j-1}_i\bar{g}_{ji}]$
+is actually equal to~$\EE[f^{j-1}_ig^{i-1}_j]$,
+since $(g^{i-1}_j - \bar{g}_{ji})$ is centered conditionally to~$\mcal{F}_i$
+while $f^{j-1}_i$ is $\mcal{F}_i$-measurable.
+In the end we have obtained
+\[\label{for5103} \EE[f^{j-1}g_j] = \sum_i \EE[f^{j-1}_ig^{i-1}_j] ,\]
+which combined with~(\ref{for5102}) yields~(\ref{for5163}).
+\end{proof}\endgroup
+
+So we have expressed $\EE[fg]$ as a function of the~$S_{ij}$.
+It is also possible to `read' the values of~$V$ and~$W$ from the~$V_i^j$,
+resp.\ from the~$W_j^i$, \emph{via} the formulas:
+\begin{eqnarray}
+\label{for0923a} V &=& \overset{\nearrow}{\lim_{j\longto-\infty}} \Big( \sum_i V_i^j \Big) ;\\
+\label{for0923b} W &=& \sum_j \Big( \overset{\nearrow}{\lim_{i\longto-\infty}} W_j^i \Big) .
+\end{eqnarray}
+
+Now we are looking for relations between the~$V_i^j$, the~$W_j^i$ and the~$S_{ij}$.
+The first relation comes from the decorrelation hypothesis:
+conditionally to~$\mcal{G}_{j-1} \vee \mcal{F}_{i-1}$,
+$f_i^{j-1}$ is in~$\ldb(X_i)$, resp.~$g_j^{i-1}$ is in~$\ldb(Y_j)$,
+and ${\{X_i:Y_j\}} \leq \epsilon(j-i)$, so:
+\[\label{for9472a} |S_{ij}| \leq \epsilon(j-i) \sqrt{V_i^{j-1}W_j^{i-1}} .\]
+
+The second relation means that a large value of~$|S_{ij}|$ forces $W_j^i$ to diminish.
+To state it, we observe that, since $f_i^{j-1}$ is $(\mcal{G}_{j-1}\vee\mcal{F}_i)$-measurable,
+$S_{ij} = \EE[f_i^{j-1}(g_j^{i-1})^{\mcal{G}_{j-1}\vee\mcal{F}_i}]$,
+so by the Cauchy--Schwarz inequality
+$|S_{ij}| \leq \ecty(f_i^{j-1}) \*
+\ecty\big( (g_j^{i-1})^{\mcal{G}_{j-1}\vee\mcal{F}_i} \big)$.
+Moreover, since $g_j^{i-1} - (g_j^{i-1})^{\mcal{G}_{j-1}\vee\mcal{F}_i} = g_j^i$,
+one has by orthogonality $\Var\big( (g_j^{i-1})^{\mcal{G}_{j-1}\vee\mcal{F}_i} \big) =
+\Var(g_j^{i-1}) - \Var(g_j^i)$,
+so our inequality becomes
+\[\label{for9472b} |S_{ij}| \leq \sqrt{V_i^{j-1}}\sqrt{W_j^{i-1}-W_j^i} \]
+(where it is understood that $W_j^i \leq W_j^{i-1}$),
+or more eloquently
+\[\label{for9472b'} W^i_j \leq W^{i-1}_j - (S_{ij})^2/V^{j-1}_i \]
+provided $V_i^{j-1} > 0$.
+
+The third and last relation means, on the other hand,
+that a large value of~$\big|\sum_{i'>i} S_{i'j}\big|$ forces~$\sum_{i'>i} V_i^j$ to diminish.
+To state it, we denote
+\[ \tilde{f}^j_i \coloneqq f - f^{\mcal{G}_j\vee\mcal{F}_i}
+= \sum_{i'>i} f^j_{i'} ,\]
+whose variance is $\Var(\tilde{f}^j_i) = \sum_{i'>i} \Var(f_{i'}^j)$
+since the~$f_{i'}^j$ are pairwise orthogonal.
+One has
+\[ \sum_{i'>i} S_{i'j} = \sum_{i'>i} \EE[f_{i'}^{j-1} g_j^{i'-1}]
+= \sum_{i'>i} \EE [ f_{i'}^{j-1} g_j^i ] = \EE[\tilde{f}_i^{j-1} g_j^i]
+= \EE[(\tilde{f}_i^{j-1})^{\mcal{G}_j\vee\mcal{F}_i} g_j^i] , \]
+so by the Cauchy--Schwarz inequality,
+\[ \Big| \sum_{i'>i} S_{i'j} \Big| \leq
+\ecty\big((\tilde{f}^{j-1}_i)^{\mcal{G}_j\vee\mcal{F}_i}\big) \ecty(g_j^i) .\]
+Since $\tilde{f}^{j-1}_i - (\tilde{f}^{j-1}_i)^{\mcal{G}_j\vee\mcal{F}_i} = \tilde{f}^j_i$,
+one has by orthogonality
+\[ \Var\big((\tilde{f}^{j-1}_i)^{\mcal{G}_j\vee\mcal{F}_i}\big) =
+\Var(\tilde{f}^{j-1}_i) - \Var(\tilde{f}^j_i) ,\]
+so our inequality becomes
+\[\label{for9472c}
+\Big| \sum_{i'>i} S_{i'j} \Big| \leq
+\sqrt{\sum_{i'>i} V_{i'}^{j-1} - \sum_{i'>i} V_{i'}^j} \sqrt{W_j^i} ,\]
+or more eloquently:
+\[\label{for9472c'} \sum_{i'>i} V_{i'}^j \leq
+\sum_{i'>i} V_{i'}^{j-1} - \Big( \sum_{i'>i} S_{i'j} \Big)^{\!2} \mathbin{\Big/} W_j^i .\]
+
+So, we have transformed our initial probabilistic problem into the following analytic one:
+let~$\mbf{A}$ be an array indexed by~$\ZZ\times\ZZ$,
+each entry $(i,j)$ of which contains three numbers~$V_i^j\geq 0$, $W_j^i\geq 0$ and~$S_{ij}$,
+satisfying~(\ref{for9472a}), (\ref{for9472b}) and~(\ref{for9472c})%
+—we will say such an array is \emph{correct}.
+We define $V$ by~(\ref{for0923a}) and~$W$ by~(\ref{for0923b}),
+and we set $S = \sum_{i,j} S_{ij}$ (provided it makes sense);
+our goal is to get a bound of the form
+``$|S| \leq \bar{\epsilon}\sqrt{VW}$'',
+with~$\bar{\epsilon}$ only depending on~$\epsilon(\Bcdot)$.
+
+Note that \emph{A priori} some problems of summability can arise from $\mbf{A}$'s being infinite,
+for instance to check~(\ref{for9472c'}) or to define $S$.
+However, in the situations which are of interest to us,
+we can restrict to cases in which $\mbf{A}$ is of nice particular form.
+To do this, we first approximate $f$ in~$\ldb(\vec{X})$, resp.~$g$ in~$\ldb(\vec{Y})$,
+by a function depending only on a finite number of~$X_i$, resp.\ of~$Y_j$
+—say, we assume $f$ is $\vec{X}_{\dot{I}}$-measurable
+and $g$ is $\vec{Y}_{\dot{J}}$-measurable for finite $\dot{I} \subset I, \dot{J} \subset J$.
+%
+Then, we define a new model $(\tilde{X}_i)_{i\in\ZZ}, (\tilde{Y}_j)_{j\in\ZZ}$
+by~$\tilde{X}_i = X_i$ for $i\in\dot{I}$, resp.\ $\tilde{Y}_j = Y_j$ for $j\in\dot{J}$,
+and $\tilde{X}_i, \tilde{Y}_j = \partial$ for $i\notin\dot{I}, j\notin\dot{J}$,
+$\partial$ being some cemetery point.
+This new model still gives a correct array,
+for which $S/\sqrt{VW}$ is arbitrarily close to the initial value of
+$\EE[fg]/\ecty(f)\ecty(g)$;
+and the new array is of the following form, which we will call \emph{compact},
+for which all the quantities of interest are well defined:
+\begin{itemize}
+\item $V^j_i$ is zero as soon as $i\notin\dot{I}$, and it does not depend on~$j$
+for $j < \min\dot{J}$, nor for $j \geq \max\dot{J}$;
+\item Similarly, $W^i_j$ is zero as soon as $j\notin\dot{J}$, and it does not depend on~$i$
+for $i < \min\dot{I}$, nor for $i \geq \max\dot{I}$;
+\item $S_{ij}$ is zero as soon as $(i,j)\notin\dot{I}\times\dot{J}$.
+(This condition automatically follows from the first two if the array is correct).
+\end{itemize}
+
+We define the following operations on arrays:
+\begin{Def}\strut\begin{itemize}
+\item For~$z\in\ZZ$, we define the \emph{translation operator} $\tau^z$ on arrays
+such that, if the entries of~$\mbf{A}$ at~$(i,j)$ are $V_i^j,W_j^i,S_{ij}$,
+the entries of~$\tau^z\mbf{A}$ at~$(i,j)$ are $V_{i+z}^{j+z},W_{j+z}^{i+z},S_{(i+z)(j+z)}$.
+\item For~$\grave{\mbf{A}}$ and~$\acute{\mbf{A}}$ two arrays
+with entries $\grave{V}_i^j, \ab \grave{W}_j^i, \ab \grave{S}_{ij}$,
+resp.~$\acute{V}_i^j, \ab \text{etc.}$,
+for~$\alpha, \beta$ two real numbers,
+we define the linear combination $\alpha\grave{\mbf{A}} + \beta\acute{\mbf{A}}$
+as the array with entries $\alpha\grave{V}_i^j+\beta\acute{V}_i^j,
+\alpha\grave{W}_j^i+\beta\acute{W}_j^i,\text{etc.}$.
+\end{itemize}\end{Def}
+
+\begin{Lem}\label{lem0513}
+Correct arrays are stable by translations and by nonnegative linear combinations,
+i.e., if $\mbf{A}$ and~$\mbf{B}$ are correct arrays,
+then for all~$z\in\ZZ$ and~$\alpha,\beta \geq 0$,
+$\tau^z\mbf{A}$ and~$\alpha\mbf{A} + \beta\mbf{B}$
+are correct too.
+\end{Lem}
+
+\begingroup\def\proofname{Proof of Lemma~\ref{lem0513}}\begin{proof}
+Recall that being correct means satisfying~(\ref{for9472a}), (\ref{for9472b}) and~(\ref{for9472c}).
+These conditions are trivially stable by multiplication by a nonnegative constant
+and by translation%
+\footnote{Getting stability of Condition~(\ref{for9472a}) by translation
+is actually the only place where the symmetries of the problem are used.}.
+It remains to see that they are stable by addition.
+The technique being the same for all three inequalities,
+we just treat the case of~(\ref{for9472b}).
+%
+Stability of this condition by addition is a consequence of the following inequality
+(which is in fact a particuliar case of the \emph{Brunn--Minkowski inequality},
+see~\cite{B-M_inequality}):
+%
+\begin{Lem}\label{lem0514} For all~$a_1, b_1, a_2, b_2 \geq 0$,
+\[\label{f1709} \sqrt{(a_1+a_2)(b_1+b_2)} \geq \sqrt{a_1b_1} + \sqrt{a_2b_2} .\]
+\end{Lem}
+%
+\begingroup\def\proofname{Proof of Lemma~\ref{lem0514}}\begin{proof}
+Take squares on both sides of~(\ref{f1709})
+and notice that ${(a_1+a_2)}\ab {(b_1+b_2)} \ab - {\big(\sqrt{a_1b_1} + \sqrt{a_2b_2}\big)^2}
+\ab = a_1b_2 + a_2b_1 - 2\sqrt{a_1b_1a_2b_2} \ab =
+{\big(\sqrt{a_1b_2} - \sqrt{a_2b_1}\big)^2} \ab \geq 0$.
+\end{proof}\endgroup
+
+For~$\grave{\mbf{A}}$ and~$\acute{\mbf{A}}$ two correct arrays satisfying~(\ref{for9472b}),
+applying~(\ref{f1709}) with ${a_1 = \acute{V}^{j-1}_i}, a_2 = \grave{V}^{j-1}_i,
+b_1 = \acute{W}^{i-1}_j - \acute{W}^i_j, b_2 = \grave{W}^{i-1}_j - \grave{W}^i_j$,
+we get:
+\begin{multline} \big|\grave{S}_{ij}+\acute{S}_{ij}\big| \leq
+|\grave{S}_{ij}| + |\acute{S}_{ij}| \leq
+\sqrt{\grave{V}_i^{j-1}}\sqrt{\grave{W}_j^{i-1}-\grave{W}_j^i}
++ \sqrt{\acute{V}_i^{j-1}}\sqrt{\acute{W}_j^{i-1}-\acute{W}_j^i} \\
+\leq \sqrt{\grave{V}_i^{j-1}+\acute{V}_i^{j-1}}
+\sqrt{(\grave{W}_j^{i-1}+\acute{W}_j^{i-1}) - (\grave{W}_j^i+\acute{W}_j^i)} ,
+\end{multline}
+so~(\ref{for9472b}) is still valid for~$(\grave{\mbf{A}}+\acute{\mbf{A}})$.
+\end{proof}\endgroup
+
+Now, thanks to Lemma~\ref{lem0513} we will reduce our problem on~$(\ZZ\times\ZZ)$-arrays
+into a problem on~$\ZZ$-arrays.
+Suppose $\mbf{A}$ is a correct array with certain values of~$V$, $W$ and~$S$.
+Then, for~$k \geq 0$, the array
+\[\label{for3010} \mbf{A}_k = \frac{1}{2k+1} \sum_{z=-k}^{k} \tau^z\mbf{A} \]
+is correct too, with the same values of~$V$, $W$ and~$S$ as~$\mbf{A}$.
+Now when~${k \longto \infty}$, $\mbf{A}_k$ `looks more and more like a Toeplitz array',
+that is, an array whose entries at~$(i,j)$ only depend on~$(j-i)$.
+To state it rigorously, we need some definitions:
+%
+\begin{Def}\label{def3111}\strut
+\begin{itemize}
+\item Here, a \emph{Toeplitz array} will mean a $\ZZ\times\ZZ$ array whose entries at~$(i,j)$
+only depend on~$(j-i)$.
+For such an array, for~$z\in\ZZ$ we denote by~$V_{(z)}, W_{(z)}, S_{(z)}$ the quantities
+characterized by~$V_i^j = V_{(j-i)}$, etc..
+%
+\item Actually we can always assume our Toeplitz array is \emph{Toeplitz compact},
+which means that there exists some $z^-\leq z^+$ such that:
+\begin{itemize}
+\item $V_{(z)}$ does not depend on~$z$ for $z<z^-$, nor for $z\geq z^+$;
+\item $W_{(z)}$ does not depend on~$z$ for $z\leq z^-$, nor for $z>z^+$;
+\item $S_{(z)}$ is zero as soon as $z<z^-$ or $z>z^+$.
+\end{itemize}
+%
+\item For a compact Toeplitz array, we define $v, w, s$
+as `renormalized versions' of~$V, W, S$:
+\begin{eqnarray}
+\label{for3162a} v &\coloneqq& V_{(z<z^-)} ;\\
+\label{for3162b} w &\coloneqq& W_{(z>z^+)} ;\\
+\label{for3162c} s &\coloneqq& \sum_{z\in\ZZ} S_{(z)} .
+\end{eqnarray}
+%
+\item A Toeplitz array is said to be \emph{correct} if it is correct when seen as an ordinary array.
+For a Toeplitz array, Equations~(\ref{for9472a}), (\ref{for9472b'}) and~(\ref{for9472c'})
+become respectively%
+\footnote{Note that the way (\ref{for3534}) follows from~(\ref{for9472c'}) is rather tricky,
+because it appears a difference between two infinite quantities,
+which has to be `renormalized' in the convenient way.}:
+\begin{eqnarray}
+\label{for5175}
+|S_{(z)}| &\leq& \epsilon(z) \sqrt{V_{(z-1)}W_{(z+1)}} ; \\
+\label{for5246}
+W_{(z)} &\leq& W_{(z+1)} - S_{(z)}^2 \mathbin{\big/} V_{(z-1)} ; \\
+\label{for3534}
+V_{(z-1)} &\leq& v - \Big( \sum_{z'<z} S_{(z')} \Big)^{\!2} \mathbin{\Big/} W_{(z)} .
+\end{eqnarray}
+\end{itemize}
+\end{Def}
+
+With that vocabulary, our informal statement can be made precise:
+let~$\mbf{A}$ be a compact correct array with entries $V_i^j, W_j^i, S_{ij}$,
+and associated quantities $V, W, S$,
+and define the arrays $\mbf{A}_k$ by~(\ref{for3010}).
+Then when~$k \longto \infty$ one has $(2k+1) \mbf{A}_k \longto \bar{\mbf{A}}$ (in the sense that
+each entry of~$(2k+1) \mbf{A}_k$ converges to the corresponding entry of~$\bar{\mbf{A}}$),
+where $\bar{\mbf{A}}$ is the Toeplitz array with entries $\bar{V}_i^j,\bar{W}_j^i,\bar{S}_{ij}$
+defined by:
+\begin{eqnarray}
+\bar{V}_{(z)} &=& \sum_{j-i=z} V_i^j ; \\ 
+\bar{W}_{(z)} &=& \sum_{j-i=z} W_j^i ; \\
+\bar{S}_{(z)} &=& \sum_{j-i=z} S_{ij}.
+\end{eqnarray}
+%
+This array $\bar{\mbf{A}}$ is Toeplitz compact
+with $z^-=\min\dot{J}-\max\dot{I}$, resp.\ $z^+=\max\dot{J}-\min\dot{I}$,
+and the quantities~(\ref{for3162a})--(\ref{for3162c}) for~$\bar{\mbf{A}}$
+are:
+\begin{eqnarray}
+\bar{v} &=& V ; \\
+\bar{w} &=& W ; \\
+\bar{s} &=& S.
+\end{eqnarray}
+Moreover $\bar{\mbf{A}}$ is correct, because all the~$(2k+1) \mbf{A}_k$ are,
+and being correct is clearly conserved by array convergence.
+
+The consequence of this statement is the following claim,
+which achieves the reduction to a `$\ZZ$-indexed' problem
+I alluded to a few lines above:
+%
+\begin{Clm}
+The supremum of~$|S|/\sqrt{VW}$ for correct arrays
+is not greater than the supremum of~$|s|/\sqrt{vw}$
+for correct Toeplitz arrays.
+\end{Clm}
+
+So we have to study (compact) correct Toeplitz arrays.
+Consider such an array.
+Denote $\theta(z) \coloneqq \arcsin \epsilon(z)$;
+then~(\ref{for5175}) can be rewritten:
+\[\label{f7312} \exists \hat{\theta}(z) \in [\pm\theta(z)] \qquad
+S_{(z)} = \sin \hat{\theta}(z) \cdot \sqrt{V_{(z-1)}W_{(z+1)}} .\]
+%
+Now, notice that for fixed values of the~$V_{(z)}$, the~$S_{(z)}$ and~$w$,
+if we have values $W_{(z)}$ such that (\ref{for5175})--(\ref{for3534}) are satisfied,
+we can modify those $W_{(z)}$ so that (\ref{for5246}) becomes an equality for all~$z$,
+an operation which keeps (\ref{for5175}) and~(\ref{for3534}) true
+since it can only make the~$W_{(z)}$ increase.
+So we can suppose that (\ref{for5246}) actually is an equality,
+i.e.\ that for all~$z\in\ZZ$,
+\[\label{for5357} W_{(z)} = w \prod_{z'\geq z} \cos^2\hat{\theta}(z') .\]
+%
+Then it remains to integrate~(\ref{for3534}).
+For~$z\in\ZZ$, denote
+\[ \Gamma(z) \coloneqq \sum_{z'<z} \Big( \sin \hat{\theta}(z') \cdot
+\prod_{z'<z''<z} \cos \hat{\theta}(z'') \cdot \sqrt{V_{(z'-1)}} \Big) ,\]
+so that (\ref{for3534}) becomes:
+\[\label{for6008} V_{(z-1)} \leq v - \Gamma(z)^2 .\]
+$\Gamma(\Bcdot)$ satisfies the recursion equation
+\[ \Gamma(z+1) = \sin\hat{\theta}(z) \sqrt{V_{(z-1)}} + \cos\hat{\theta}(z) \Gamma(z) ,\]
+so by~(\ref{for6008}):
+\[\label{for6399} |\Gamma(z+1)| \leq \sin |\hat{\theta}(z)| \sqrt{v-\Gamma(z)^2}
++ \cos\hat{\theta}(z) |\Gamma(z)| .\]
+%
+From~(\ref{for6399}), we will now prove that for all~$z\in\ZZ$:
+\[\label{for6450} |\Gamma(z)| \leq
+\sin \Big( \frac{\pi}{2} \wedge \sum_{z'<z} \theta(z') \Big) \sqrt{v} .\]
+%
+Indeed, (\ref{for6450}) is equivalent to saying that
+there exists some $\eta(z) \in [0, \sum_{z'<z} \theta(z')]$
+such that $|\Gamma(z)| = \sin\eta(z) \sqrt{v}$,
+which we prove by induction.
+First, since our Toeplitz array was supposed compact,
+$\forall z<z^- \enskip \hat\theta(z) = 0$, so
+the formula is true for $z\leq z^-$ with $\eta(z) = 0$.
+Next, if the formula is true for~$z$, then (\ref{for6399}) yields
+\[|\Gamma(z)| \leq \big( \sin|\hat{\theta}(z)| \cos\eta(z)
++ \cos|\hat{\theta}(z)| \sin \eta(z) \big) \sqrt{v}
+= \sin\big( \eta(z) + |\hat{\theta}(z)| \big) \sqrt{v} ,\]
+where $\eta(z) + |\hat{\theta}(z)| \leq \sum_{z'<z} \theta(z') + \theta(z)
+= \sum_{z'<z+1} \theta(z')$, so the formula is true for~$(z+1)$,
+which ends the induction.
+
+To conclude, we write that $s = \sum_z S_{(z)} = \Gamma({z>z^+})\sqrt{w}$.
+But by~(\ref{for6450}),
+${|\Gamma(z > z^+)|} \ab \leq \sin\bar{\epsilon} \cdot \sqrt{v}$,
+so in the end:
+\[\label{for4760} |s| \leq \sin\bar{\epsilon} \cdot \sqrt{vw} ,\]
+\emph{quod erat demonstrandum.}
+\end{proof}
+
+
+\begin{Cor}[`$\ZZ^n$ against $\ZZ^n$' theorem]\label{corZnZn}
+Let~$n\geq 1$; let~$(X_x)_{x\in\ZZ^n}$ and~$(Y_y)_{y\in\ZZ^n}$ be random variables,
+and assume there exists a function~$\epsilon \colon \ZZ^n \to [0,1]$
+such that for all~$x,y\in\ZZ^n$,
+\[ \{ X_x : Y_y \}_{\mcal{M}} \leq \epsilon(y-x) ,\]
+$\mcal{M}$ being the natural $\sigma$-metalgebra of the system.
+Then $\{\vec{X} : \vec{Y}\} \leq \bar{\epsilon}$,
+where $\bar{\epsilon}$ the number in~$[0,1]$ such that
+\[\label{for7131} \arcsin (\bar{\epsilon}) =
+\Big( \sum_{v\in\ZZ^n} \arcsin \epsilon(v) \Big) \wedge \frac{\pi}{2} .\]
+\end{Cor}
+
+\begin{proof}
+To alleviate notation, we define the `arcsin-sum'
+as the binary operation $\tilde{+} \colon [0,1]^2 \to [0,1]$
+defined by:
+\[ a \tilde{+} b = \sin \Big( \big( \arcsin a + \arcsin b \big) \wedge \frac{\pi}{2} \Big) .\]
+$\tilde{+}$ is associative, commutative and nondecreasing,
+so it can be extended into an $\infty$-ary operator $\tilde{\sum}$;
+with this notation, (\ref{for7131}) merely writes
+$\bar{\epsilon} = \tilde{\sum}_{v\in\ZZ^n} \epsilon(v)$.
+
+Let~$(\mbf{e}_1,\ldots,\mbf{e}_n)$ be a $\ZZ$-basis of~$\ZZ^n$.
+For~$1\leq r\leq n$,
+we identify $\ZZ^r$ with~$\ZZ\mbf{e}_1 \oplus \ZZ\mbf{e}_2 \oplus \cdots \oplus \ZZ\mbf{e}_r$;
+we also denote $\ZZ_r^\perp \coloneqq \ZZ\mbf{e}_{r+1} \oplus \cdots \oplus \ZZ\mbf{e}_n$.
+What we will prove is actually the following
+%
+\begin{Clm}\label{clm6369}
+For all~$r\in\{1,\ldots,n\}$, all~$x,y\in\ZZ_r^\perp$,
+\[\label{for7222} \big\{ \vec{X}_{x+\ZZ^r} : \vec{Y}_{y+\ZZ^r} \big\}_{\mcal{M}}
+\leq \tilde{\sum}_{v\in\ZZ^r} \epsilon(y-x+v) .\]
+\end{Clm}%
+%
+\noindent The statement of the lemma then corresponds to the claim for $r=n$.
+
+We prove Claim~\ref{clm6369} by induction on~$r$.
+The case $r=1$ is merely Theorem~\ref{thm0119}%
+\footnote{More precisely, it is the subjective version of that theorem,
+cf.\ \S~\ref{parSubjectiveResults}.}.
+Now let us show how to go from the case $r-1$ to the case $r$ for~$r>1$:
+
+Take $x,y \in \ZZ_r^\perp$.
+We notice that
+\[ \vec{X}_{x+\ZZ^r} = \big( \vec{X}_{x+i\mbf{e}_r+\ZZ^{r-1}} \big)_{i\in\ZZ} ,\]
+which we shorthand into $\vec{X}_{x+\ZZ^r} = (\mbf{X}_i)_{i\in\ZZ}$;
+similarly we write, with obvious notation, $\vec{Y}_{y+\ZZ^r} \eqqcolon (\mbf{Y}_j)_{j\in\ZZ}$.
+%
+By induction hypothesis one has for all~$i,j\in\ZZ$:
+\[\label{for7020} \{ \mbf{X}_i : \mbf{Y}_j \}_{\mcal{M}} \leq
+\tilde{\sum}_{v\in\ZZ^{r-1}} \epsilon\big(y-x+(j-i)\mbf{e}_r+v\big) .\]
+Since the right-hand side of~(\ref{for7020}) only depends on~$(j-i)$,
+we can apply Theorem~\ref{thm0119}
+to the~$\mbf{X}_i$ and the~$\mbf{Y}_j$, which yields
+\[ \big\{ \vec{X}_{x+\ZZ^r} : \vec{Y}_{y+\ZZ^r} \big\}_{\mcal{M}} \leq
+\tilde{\sum}_{z\in\ZZ} \Big( \tilde{\sum}_{v\in\ZZ^{r-1}} \epsilon\big(y-x+z\mbf{e}_r+v \big) \Big)
+= \tilde{\sum}_{v\in\ZZ^r} \epsilon(y-x+v) ,\]
+i.e.~(\ref{for7222}).
+\end{proof}
+
+
+
+
+\section{Generalizations of the tensorization results}
+
+\subsection{Minimal Hypotheses}\label{parMinimalHypotheses}
+
+When reading the proofs of the tensorization theorems,
+you may have noticed that taking the decorrelation hypotheses
+w.r.t.\ the whole $\sigma$-metalgebra of the system was a needlessly strong assumption.
+Actually each decorrelation hypothesis can be stated
+relatively to only \emph{one} $\sigma$-algebra,
+in the following way:
+%
+\begin{itemize}
+\item For Theorem~\ref{thm5750},
+one needs only assume that for all~$i\in I$,
+$X_i$ and~$Y$ are $\epsilon_i$-decorrelated
+when seen from $\sigma\big((X_{i'})_{i'<i}\big)$;
+%
+\item For Theorems~\ref{thm6413} and~\ref{thm0119},
+one needs only assume that
+$X_i$ and~$Y_j$ are $\epsilon_{ij}$-decorrelated (or $\epsilon(j-i)$-decorrelated)
+when seen from $\sigma\big((X_{i'})_{i'<i},(Y_{j'})_{j'<j}\big)$.
+\end{itemize}
+
+In practice it is rare that one can bound above
+${\{X_i:Y\}_{\vec{X}_{\{i'<i\}}}}$
+or~${\{X_i:Y_j\}_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<j\}}\mathlarger{)}}}$
+more sharply than~${\{X:Y_i\}}_{\mcal{M}}$, resp.~${\{X_i:Y_j\}_{\mcal{M}}}$;
+yet it is worth remembering that the `genuine' decorrelation hypotheses
+are weaker than those we wrote,
+especially when one gets interested in optimality issues (cf.\ \S~\ref{parOptimality}).
+
+\begin{Rmk}
+In our tensorization proofs we took~$I$ and~$J$ finite; yet those proofs,
+and therefore everything in this subsection,
+remain valid if we take for~$I$ or~$J$ any (countable) well-ordered set,
+in particular if $I$ or~$J$ is~$\NN$.
+\end{Rmk}
+
+
+\subsection{Subjective versions of the theorems}\label{parSubjectiveResults}
+
+In the tensorization theorems I stated,
+the decorrelation hypotheses were given with regard to
+the natural $\sigma$-metalgebra $\mcal{M}$ of the system,
+while the results were given in terms of `objective' (I mean, not subjective) decorrelations.
+Yet actually it can be shown that our results are still valid w.r.t.~$\mcal{M}$
+—or even w.r.t.\ any sharper $\sigma$-metalgebra $\mcal{N}\supset\mcal{M}$,
+provided decorrelation hypotheses are stated w.r.t.~$\mcal{N}$.
+As an example, let us state and prove the subjective result corresponding to Theorem~\ref{thm5750}:
+%
+\begin{Cor}\label{cor4274}
+Let~$X$, $(Y_i)_{i\in I}$ and~$(Z_\theta)_{\theta\in\Theta}$ be random variables,
+and call~$\mcal{N}$ the $\sigma$-metalgebra they span.
+Suppose we have bounds ${\{X:Y_i\}}_{\mcal{N}} \leq \epsilon_i$ for all~$i\in I$;
+then:
+\[\label{for4193}
+\{ X : \vec{Y}_I \}_{\mcal{N}} \leq \sqrt{1-\prod_{i\in I}(1-\epsilon_i^2)} .\]
+\end{Cor}
+
+\begin{proof}
+Up to making up copies of~$I$ and~$\Theta$,
+we can assume that $\{0\}$, $I$ and~$\Theta$ are disjoint,
+which allows us to denote $Z_0 \coloneqq X$ and $Z_i \coloneqq Y_i$ for~$i\in I$,
+so that $\mcal{N}$ is the $\sigma$-metalgebra spanned by the~$Z_\theta$
+for~$\theta\in\bar{\Theta} \coloneqq \{0\} \uplus I \uplus \Theta$.
+%
+Then (\ref{for4193}) means that for all~$\Xi \subset \bar{\Theta}$,
+for (almost-)all~$\vec{z}_{\Xi}$, one must have:
+\[ \{ X : \vec{Y}_I \} \leq \sqrt{1-\prod_{i\in I}(1-\epsilon_i^2)} 
+\quad \text{under the law $\Pr\big[\Bcdot\big|\vec{Z}_{\Xi} = \vec{z}_{\Xi}\big]$.} \]
+%
+So, Corollary~\ref{cor4274} will ensue from Theorem~\ref{thm5750}
+provided we can prove that, denoting by~$\mcal{M}$ the $\sigma$-metalgebra spanned by~$X$ and the~$Y_i$,
+one has for all~$i\in I$:
+\[\label{for4395} \{ X : Y_i \}_{\mcal{M}} \leq \epsilon_i
+\quad \text{under the law $\Pr\big[\Bcdot\big|\vec{Z}_{\Xi} = \vec{z}_{\Xi}\big]$.} \]
+
+But under a law $P$, saying that ${\{X:Y_i\}}_{\mcal{M}} \leq \epsilon_i$ means that for all~$\Upsilon\subset\{0\}\uplus I$,
+for (almost-)all~$\vec{z}\,'_{\!\Upsilon}$,
+one has ${\{X:Y_i\}}\leq\epsilon_i$ under the law $P[\Bcdot|\vec{Z}_{\Upsilon} = \vec{z}\,'_{\!\Upsilon}]$.
+So, for $P = \Pr[\Bcdot\big|\vec{Z}_{\Xi} = \vec{z}_{\Xi}]$,
+(\ref{for4395}) means that, for all~$\vec{z}\,'_{\!\Upsilon}$:
+%
+\[\label{for4586} \{ X : Y_i \} \leq \epsilon_i
+\quad \text{under the law $\Pr\big[\Bcdot\big|\vec{Z}_{\Xi} = \vec{z}_{\Xi}\enskip\text{and}\enskip \vec{Z}_{\Upsilon} = \vec{z}\,'_{\!\Upsilon}\big]$.} \]
+In Formula~(\ref{for4586}) we can assume that $z_\theta$ and~$z'_\theta$ coincide
+for all~$\theta \in \Xi \cap \Upsilon$,
+since otherwise the event ``$\vec{Z}_{\Xi}=\vec{z}_{\Xi}\enskip\text{and}\enskip \vec{Z}_{\Upsilon} = \vec{z}\,'_{\!\Upsilon}$''
+would be empty and there would be nothing to say.
+Then ``$\vec{Z}_{\Xi}=\vec{z}_{\Xi}\enskip\text{and}\enskip \vec{Z}_{\Upsilon} = \vec{z}\,'_{\!\Upsilon}$''
+is of the form ``$\vec{Z}_{\Xi\cup\Upsilon} = \vec{z}_{\Xi\cup\Upsilon}$'',
+where $\Xi\cup\Upsilon \subset \bar{\Theta}$,
+so that (\ref{for4586}) follows directly from the hypothesis
+$\{X:Y_I\}_{\mcal{N}} \leq \epsilon_i$.
+\end{proof}
+
+
+
+
+\section{Optimality}\label{parOptimality}
+
+\subsection{Exact Optimality}
+
+With the minimal hypotheses stated in \S~\ref{parMinimalHypotheses},
+Theorems~\ref{thm5750} and~\ref{thm0119} are optimal:
+%
+\begin{Thm}\label{t6656}
+The bound~(\ref{for5719}) in Theorem~\ref{thm5750} is optimal, in the following sense:
+for any integer $N$, for all~$(\epsilon_i)_{1\leq i\leq N}$ in~$[0,1]^N$,
+one can find random variables $X_1, \ldots, X_N, Y$ such that
+for all~$i \in \{1,\ldots,N\}$,
+\[\label{f6808} \{X_i:Y\}_{\vec{X}_{\{i'<i\}}} = \epsilon_i \]
+and
+\[ \{ \vec{X} : Y \} = \sqrt{1-\prod_{i}(1-\epsilon_i^2)} .\]
+\end{Thm}
+
+\begin{Thm}\label{thm6657-0}
+The bound~(\ref{f6444}) in Theorem~\ref{thm0119} is optimal, in the following sense:
+for any integer $N$, for all~$(\epsilon(z))_{-N\leq z\leq N} \in [0,1]^{\{-N,\ldots,N\}}$,
+one can find random variables~$(X_i)_{i\in\ZZ}$ and~$(Y_j)_{j\in\ZZ}$ such that for all~$i,j\in\ZZ$,
+\[\label{f0794} \{ X_i : Y_j \}_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<j\}}\mathlarger{)}}
+= \left\{ \begin{array}{lcl} \epsilon(j-i) & \quad & \text{if $|j-i| \leq N$;} \\
+0 & \quad & \text{if $|j-i| > N$} \end{array} \right.\]
+and ${\{ \vec{X} : \vec{Y} \}} = \bar{\epsilon}$, with~$\bar{\epsilon}$ defined by:
+\[\label{f6595} \arcsin \bar{\epsilon} = \sum_{z=-N}^N \arcsin \epsilon(z)
+\wedge \frac{\pi}{2} .\]
+\end{Thm}
+
+Actually, as proving Theorem~\ref{thm6657-0} for \emph{all} the~$(\epsilon(z))_{-N\leq z\leq N}$
+involves some heavy technicalities~\cite{perso},
+I will only prove the slightly weaker following
+%
+\begin{Thm}\label{t6657}
+For any integer $N$, the exists a neighbourhood $U$ of~$\vec{0}$ in~$[0,1]^{\{-N,\ldots,N\}}$
+such that, for all~$(\epsilon(z))_{-N\leq z\leq N} \in U$, one can find random variables
+$(X_i)_{i\in\ZZ}$ and~$(Y_j)_{j\in\ZZ}$ satisfying~(\ref{f0794}) and~(\ref{f6595})%
+\footnote{Notice that in the neighbourhood of~$\vec{0}$,
+one can drop the ``$\wedge\frac{\pi}{2}$'' in the right-hand side of~(\ref{f6595}).}.
+\end{Thm}
+
+\begin{Rmk}
+On the other hand, Theorem~\ref{thm6413}
+is obviously not optimal since, as we pointed out, its bound is strictly weaker
+than that of Theorem~\ref{thm0119}.
+\end{Rmk}
+
+The proof of Theorem~\ref{t6656} relies on the following important result:
+%
+\begin{Lem}\label{l6791}
+Let~$(X_1,\ldots,X_N,Y)$ be an $(N+1)$-dimensional Gaussian vector.
+For all~$1\leq i\leq N$, define
+\[ e_i \coloneqq \{ X_i : Y \}_{\vec{X}_{\{i'<i\}}} ,\]
+then one has exactly:
+\[\label{f1922} \{ \vec{X} : Y \} = \sqrt{1-\prod_{i}(1-e_i^2)} .\]
+\end{Lem}
+
+\begin{Rmk}\label{rmk>3lines}
+Maximal correlation, as I told in \S~\ref{parBasicHilbertianDecorrelations},
+is fundamentally a Hilbertian concept. When one deals with Gaussian vectors,
+the Hilbert spaces involved actually have finite dimensions,
+so that Lemma~\ref{l6791} about decorrelations can also be seen as a result about Euclidian spaces.
+In Appendix~\ref{par3lines}, I will present an unexpected corollary of this lemma,
+stating a geometric property of the $3$-dimensional Euclidian space.
+\end{Rmk}
+
+\begingroup\def\proofname{Proof of Lemma~\ref{l6791}}\begin{proof}
+To alleviate notation, we denote $\mcal{F}_{i-1} \coloneqq \sigma\big(\vec{X}_{\{i'<i\}}\big)$.
+Since $(\vec{X},Y)$ is Gaussian, the law of~$(X_i,Y)$
+under~$\Pr[\Bcdot|\ab x_1,\ldots,x_{i-1}]$ is Gaussian and only depends on
+$(x_1,\ldots,x_{i-1})$ through an additive constant;
+%
+consequently, we can speak of ``\emph{the} Hilbertian correlation between~$X_i$ and~$Y$ conditionally to~$\mcal{F}_{i-1}$'', which is $e_i$,
+and also of ``\emph{the} conditional variance of~$X_i$ w.r.t.~$\mcal{F}_{i-1}$'',
+resp.\ ``\emph{the} conditional variance of~$Y$'', resp.\ ``\emph{the} conditional covariance of~$(X_i,Y)$'',
+which we denote resp.~$\Var(X_i|\mcal{F}_{i-1})$, $\Var(Y|\mcal{F}_{i-1})$,
+$\Cov(X_i,Y|\mcal{F}_{i-1})$. By Theorem~\ref{pro1857}, one has:
+\[\label{f2664}
+\Cov(X_i,Y|\mcal{F}_{i-1}) = \pm e_i \ecty(X_i|\mcal{F}_{i-1}) \ecty(Y|\mcal{F}_{i-1}) .\]
+
+Now take $g(Y) = Y$ and $f(X) = \sum_{i=1}^{N} \beta_i X_i$,
+for some $\beta_i \in \RR$ to be chosen later.
+Then $g^{i-1}$ is equal to~$Y - \EE[Y|\mcal{F}_{i-1}]$ and $f_i$ is proportional
+to~$X_i - \EE[X_i|\mcal{F}_{i-1}]$, thus, by~(\ref{f2664}) and our model's being Gaussian,
+all the inequalities until~(\ref{f9041c}) in the proof of Theorem~\ref{thm5750}
+actually are equalities for $\epsilon_i = e_i$.
+If moreover $\Cov(f_i,g^{i-1}|\mcal{F}_{i-1}) \geq 0$ for all~$i$,
+then we can drop the absolute values in their left-hand sides,
+and thus (\ref{f8485}) will also be an equality.
+Then, to get an equality in~(\ref{f9280}), it just remains to ensure
+that the final Cauchy--Schwarz equality is an equality,
+i.e.\ to ensure that one has, for all~$i$:
+\[\label{f2464} \Var(f_i) \propto e_i^2 \prod_{i'=1}^{i-1} (1-e_{i'}^2) .\]
+%
+If all of that is satisfied, then one will have exactly
+$\EE[fg] = \sqrt{1-\prod_{i}(1-e_i^2)} \ab \hspace{.056em} \ecty(f)\ecty(g)$,
+so that $\{\vec{X}:Y\} \geq \sqrt{1-\prod_{i}(1-e_i^2)}$.
+The converse inequality being obviously true
+by (the minimal version of) Theorem~\ref{thm5750},
+the result will follow.
+
+So, we have to check that the choice of the~$\beta_i$ can be performed so that
+(\ref{f2464}) is satisfied, with $\Cov(f_i,g^{i-1}|\mcal{F}_{i-1})$ of the good sign.
+To do this, we will choose successively
+relevant values for~$\beta_N,\ab \beta_{N-1},\ab \ldots,\ab \beta_1$.
+
+We observe that, if $\beta_N,\ldots,\beta_{i+1}$ have already been fixed, then
+$\beta_i \mapsto \Cov(f_i,g^{i-1}|\mcal{F}_{i-1})$
+is an affine function with slope
+\[ \pm e_i \ecty(Y|\mcal{F}_{i-1}) \frac{\ecty(X_i|\mcal{F}_{i-1})}{\ecty(X_i)} .\]
+Moreover, $\Var(f_i) = \Var(f_i|\mcal{F}_{i-1})$ as $f_i$ is centered w.r.t.~$\mcal{F}_{i-1}$;
+so, since $f_i \propto X_i - \EE[X_i|\mcal{F}_{i-1}]$, (\ref{f2664}) implies:
+\[ \Var(f_i) = \frac{\Cov(f_i,g^{i-1}|\mcal{F}_{i-1})^2}{e_i^2 \Var(Y|\mcal{F}_{i-1})} .\]
+%
+So, provided all the three quantities $e_i$, $\ecty(Y|\mcal{F}_{i-1})$ and~$\ecty(X_i|\mcal{F}_{i-1})$ are nonzero,
+there exists a (unique) $\beta_i$ satisfying~(\ref{f2464}).
+
+Now if $\ecty(Y|\mcal{F}_{i-1})$ is zero, this means that $Y$ is $\mcal{F}_{i-1}$-measurable;
+then one of the~$e_{i'}$ has to be~$1$ and thus the result is trivial.
+Next if $\ecty(X_i|\mcal{F}_{i-1})$ is zero,
+this means that $X_i$ is $\mcal{F}_{i-1}$-measurable;
+then $e_i = 0$ and $f_i \equiv 0$, so that (\ref{f2464}) is automatically satisfied.
+Finally if $e_i = 0$ and $\Var(X_i|\mcal{F}_{i-1})>0$, then there exists a (unique) $\beta_i$
+such that $f_i \equiv 0$, for which (\ref{f2464}) is satisfied.
+So all those particular cases actually work fine too.
+\end{proof}\endgroup
+
+\begingroup\def\proofname{Proof of Theorem~\ref{t6656}}\begin{proof}
+For technical reasons, we begin with noticing that the theorem
+is immediate if some $e_i$ is equal to~$1$,
+so that we can assume that all the~$e_i$ are $<1$.
+Thanks to Lemma~\ref{l6791}, it suffices to prove that
+for any sequence of~$\epsilon_i \in [0,1)$
+it is possible to build a Gaussian vector~$(X,\vec{Y})$
+for which $e_i = \epsilon_i \ \forall i$.
+To do this, let~$\xi, \zeta_1, \ldots, \zeta_N$ be i.i.d.\ $\mcal{N}(1)$ variables,
+and take $Y = \xi$ and $X_i = \sqrt{1-\alpha_i}\zeta_i + \sqrt{\alpha_i}\xi$
+for some parameters $\alpha_i \in [0,1)$.
+We want to choose the~$\alpha_i$ such that $\vec{e}(\vec{\alpha}) = \vec{\epsilon}$;
+this is always possible, by the following method:
+\begin{itemize}
+\item First we compute $\alpha_1$: By Theorem~\ref{pro1857},
+one can write down the equation linking~$\alpha_1$ and~$e_1$.
+It is clear without knowing the precise form of that equation
+(actually, $e_1 = \sqrt{\alpha_1}$)
+that $e_1$ is a continuous increasing function of~$\alpha_1$
+with $e_1=0$ for $\alpha_1=0$ and $e_1=1$ for $\alpha_1=1$.
+Therefore there is a unique $\alpha_1$ such that $e_1=\epsilon_1$.
+\item Then we compute $\alpha_2$: As we already know the value of~$\alpha_1$,
+we can treat it as a constant and look for the equation linking~%
+$\alpha_2$ and~$e_2$, which we compute by Theorem~\ref{pro1857} again.
+That equation, though more complicated than in the previous case
+(actually, $e_2 = \sqrt{\alpha_2}\sqrt{1-\alpha_1}/\sqrt{1-\alpha_1\alpha_2}$),
+exhibits the same behaviour: $e_2$ is a continuous increasing function of~$\alpha_2$
+with $e_2(\alpha_2=0)=0$ and $e_2(\alpha_2=1)=1$.
+Therefore there is a unique $\alpha_2$ such that $e_2=\epsilon_2$.
+\item We carry on this process until having determined all the~$\alpha_i$.
+\end{itemize}
+\end{proof}\endgroup
+
+
+\begingroup\def\proofname{Proof of Theorem~\ref{t6657}}\begin{proof}
+Again, the principle of the proof will consist in showing
+how the optimal bound can be attained for relevant Gaussian vectors
+and linear functions of them.
+
+We consider independent $\mcal{N}(1)$ variables~$(\xi_j)_{j\in\ZZ}$
+and~$(\omega_{ij})_{(i,j)\in\ZZ\times\ZZ}$.
+For all~$i$ we set:
+\[ X_i = \sum_{z=-N}^{N} \omega_{i(i+z)} ,\]
+resp. for all~$j$:
+\[ Y_j = \xi_j + \sum_{z=-N}^{N} \alpha_z \omega_{(j-z)j} \]
+for some real parameters $(\alpha_z)_{-N\leq z\leq N}$ to be fixed later.
+This model is obviously invariant by translation of the indexes.
+For~$z\in\ZZ$, define
+\[ \dot{e}_z \coloneqq \frac{\Cov\big(X_i,Y_{i+z}\big|\mcal{F}_{i-1}\vee\mcal{G}_{i+z-1}\big)}
+{\ecty\big(X_i\big|\mcal{F}_{i-1}\vee\mcal{G}_{i+z-1}\big)
+\, \ecty\big(Y_{i+z}\big|\mcal{F}_{i-1}\vee\mcal{G}_{i+z-1}\big)} ,\]
+where the choice of~$i$ does not matter.
+Since our model is Gaussian, by Theorem~\ref{pro1857},
+\[ \{ X_i : Y_{i+z} \}_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<i+z\}}\mathlarger{)}}
+= |\dot{e}_z| .\]
+
+By the properties of Gaussian vectors,
+it is possible to write down explicitly the equations linking
+the~$\dot{e}_z$ to the~$\alpha_z$.
+Though these equations may be quite horrendous, some of their properties can be easily established:
+\begin{Clm}\label{c4330}\strut
+\begin{ienumerate}
+\item\label{i4332} For $|z|>N$, $\dot{e}_z = 0$ (for any choice of the~$\alpha_z$);
+\item The map $(\alpha_{-N},\ldots,\alpha_N) \mapsto (\dot{e}_{-N},\ldots,\dot{e}_N)$
+is of class $\mcal{C}^1$ on the neighbourhood of~$(0,\ldots,0)$, with:
+\[ \left(\frac{\partial \dot{e}_z}{\partial \alpha_y}\right)(\vec0) =
+\frac{\1{y=z}}{\sqrt{2N+1}} .\]
+\end{ienumerate}
+\end{Clm}
+%
+\noindent By the inverse function theorem, one can therefore find neighbourhoods~%
+$V$ and~$U$ of~$\vec0$ in~$\RR^{\{-N,\ldots,N\}}$ such that
+the map $\vec{\alpha} \mapsto \vec{\dot{e}}$ is a $\mcal{C}^1$-diffeomorphism from $V$ onto $U$.
+In particular, for~$\vec\epsilon$ in such an $U$ we can always fix the~$\alpha_z$
+of our model such that $\forall z\enskip\dot{e}_z = \1{|z|\leq N}\epsilon(z)$,
+so that (\ref{f0794}) is satisfied.
+
+Now we have to choose~$f$ and~$g$.
+Morally\footnote{I say ``morally'' because nothing ensures
+that the supremum~(\ref{for3878}) would actually be a maximum here.}
+we have to take the functions~$f$ and~$g$ having maximal Pearson correlation.
+Since the model is Gaussian, these functions will be linear,
+and since the model is invariant by translation,
+they will likely be invariant by translation too.
+So we would like to take, formally, $f(\vec{X}) = \sum_{i\in\ZZ} X_i$
+and $g(\vec{Y}) = \sum_{j\in\ZZ} Y_j$.
+%
+As such functions are not properly defined,
+we will rather consider
+$f[k](\vec{X}) = \sum_{i=-k}^k X_i$,
+resp.\ $g[k](\vec{Y}) = \sum_{j=-k}^k Y_j$,
+and then we will let~$k$ tend to infinity.
+
+For these~$f[k]$ and~$g[k]$, define the~$V[k]^j_i$, the~$W[k]_j^i$ and the~$S[k]_{ij}$
+as in the proof of Theorem~\ref{thm0119}, which are gathered into the array $\mbf{A}[k]$.
+%
+The following properties of the~$\mbf{A}[k]$
+follow easily from the structure of our model:
+%
+\begin{Clm}\label{c6626}\strut
+\begin{ienumerate}
+\item All the~$V[k]^j_i, W[k]_j^i, S[k]_{ij}$ are bounded uniformly in~$i,j,k$.
+\item\begin{itemize}\item $V[k]^j_i$ is zero as soon as $i\notin\{-k-2N,\ldots,k\}$;
+\item $W[k]_j^i$ is zero as soon as $j\notin\{-k,\ldots,k\}$.\end{itemize}
+\item $S[k]_{ij}$ is zero as soon as $|j-i| > N$.
+\item\label{itmHOT1}\begin{itemize}\item For $-k\leq i\leq k-2N$,
+$V[k]^j_i$ only depends on~$(j-i)$, even when $k$ varies. We denote its value by~$V_{(j-i)}$.
+\item For $-k\leq j\leq k$,
+$W[k]_j^i$ only depends on~$(j-i)$, even when $k$ varies. We denote its value by~$W_{(j-i)}$.
+\item For $-k\leq i\leq k-2N$ and $-k\leq j\leq k$,
+$S[k]_{ij}$ only depends on~$(j-i)$, even when $k$ varies. We denote its value by~$S_{(j-i)}$.\end{itemize}
+\item\label{itmHOT2}\begin{itemize}\item $V_{(z)}$ has some constant value $v$ for $z < -N$;
+\item $W_{(z)}$ has some constant value $w$ for $z > N$.
+\end{itemize}
+\end{ienumerate}
+\end{Clm}
+%
+\noindent By Claim~\ref{c6626}, $\mbf{A}[k]$ converges pointwise to
+some compact Toeplitz array $\mbf{A}$, whose entries are the~$V_{(z)}, W_{(z)}, S_{(z)}$
+introduced at Item~(\ref{itmHOT1}) of the claim,
+whose values~$v$ and~$w$ are those introduced at Item~(\ref{itmHOT2}),
+and whose value $s$ is $\sum_{z=-N}^{N} S_{(z)}$.
+All the arrays $\mbf{A}[k]$ are obviously correct since they correspond to true functions,
+so by passing to the limit $\mbf{A}$ is correct too.
+
+Since our model is Gaussian,
+all the inequalities~(\ref{for9472a}), (\ref{for9472b}) and~(\ref{for9472c})
+are actually equalities for the arrays $\mbf{A}[k]$;
+moreover, since the~$\dot\epsilon_z$ are nonnegative,
+the~$S[k]_{ij}$ are nonnegative.
+By letting $k$ tend to infinity, it follows that
+all the inequalities (\ref{for5175})--(\ref{for3534}) are actually equalities for the array $\mbf{A}$,
+with the~$S_{(z)}$ nonnegative.
+Consequently in~(\ref{f7312}) one has $\hat\theta(z) = \theta(z)$,
+and all the further inequalities are actually equalities, so that in the end
+(\ref{for4760}) becomes:
+\[\label{for4760=} \frac{s}{\sqrt{vw}} = \bar\epsilon .\]
+
+Now, defining~$V[k]$, $W[k]$ and~$S[k]$
+by resp.~(\ref{for0923a}), (\ref{for0923b}) and~(\ref{for5163}) for the arrays $\mbf{A}[k]$,
+Claim~\ref{c6626} shows that, when~$k \longto \infty$,
+$V[k] \sim 2kv$, resp.\ $W[k] \sim 2kw$, resp.\ $S[k] \sim 2ks$,
+so~(\ref{for4760=}) implies that $S[k]/\sqrt{V[k]W[k]} \longto \bar\epsilon$.
+But recall that $V[k]$, $W[k]$ and~$S[k]$ are the respective variances and covariance
+of the functions~$f[k] \in \ldb(\vec{X})$ and~$g[k] \in \ldb(\vec{Y})$,
+so by the very definition~(\ref{for3878}) of Hilbertian correlations,
+\[ \{\vec{X} : \vec{Y}\} \geq \frac{S[k]}{\sqrt{V[k]W[k]}} .\]
+Making $k \longto \infty$, it follows that $\{\vec{X}:\vec{Y}\} \geq \bar\epsilon$;
+the converse inequality being obviously true
+by (the minimal version of) Theorem~\ref{thm0119}, this proves Theorem~\ref{t6657}.
+\end{proof}\endgroup
+
+\begin{Xpl}\label{xplOptZZ}
+In this example we will carry out explicit computations for a Gaussian model
+close to the model presented in the proof above.
+%
+We take independent $\mcal{N}(1)$ variables $\ldots,\zeta_{-1},\zeta_0,\zeta_1,\ldots$,
+$\ldots,\xi_{-1/2},\xi_{1/2},\xi_{3/2}\ldots$,
+$\ldots,\omega_{-1/4},\omega_{1/4},\omega_{3/4},\ldots$,
+and we set
+%
+\begin{eqnarray}
+X_i &=& \zeta_i + \sqrt{\alpha} (\omega_{i-1/4} + \omega_{i+1/4}) , \\
+\llap{resp.\quad} Y_j &=& \xi_j + \sqrt{\alpha} (\omega_{j-1/4} + \omega_{j+1/4})
+\end{eqnarray}
+for all integer $i$, resp.\ all half-integer $j$,
+where $\alpha$ is some arbitrary nonnegative parameter.
+We are going to show that for this system (\ref{f6444}) is actually an equality,
+in accordance with the proof of Theorem~\ref{t6657}.
+
+For half-integer $z$ denote
+\[ e_z \coloneqq \{ X_i : Y_{i+z} \}%
+_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<i+z\}}\mathlarger{)}} ,\]
+where the choice of~$i$ does not matter by translation invariance.
+Clearly $e_{-z} = e_z$ for all~$z$ and $e_z = 0$ for $|z| > 1/2$,
+so to know all the~$e_z$ the only nontrivial computation is computing $e_{1/2}$.
+Let us perform it.
+
+Since everything is Gaussian, by Theorem~\ref{pro1857}, $e_{1/2}$ is the value,
+under the law $\Pr[\Bcdot|\ab \vec{X}_{\{i<0\}},\vec{Y}_{\{j<1/2\}} \equiv0]$, of
+\[\label{forVespr} |\EE[X_0Y_{1/2}]| \mathbin{\big/} \ecty(X_0)\ecty(Y_{1/2}) .\]
+%
+Under the law $\Pr[\Bcdot|\vec{X}_{\{i<0\}},\vec{Y}_{\{j<1/2\}} \equiv0]$,
+it is clear that $\zeta_0,\ab \omega_{1/4},\ab \xi_{1/2},\ab \omega_{3/4},\ldots$
+have exactly the same (joint) law as under~$\Pr$,
+and that $\omega_{-1/4}$ is still independent of these (joint) variables,
+though its variance shall have diminished.
+So we need only compute
+\[ v \coloneqq \Var\big(\omega_{-1/4}\big|\vec{X}_{\{i<0\}},\vec{Y}_{\{j<1/2\}} \equiv0\big) .\]
+
+Denote $\vec{L}_{\mathrm r} \coloneqq (\ldots,X_{-2},Y_{-3/2},X_{-1},Y_{-1/2})$,
+resp.\ $\vec{L}_{\mathrm l} \coloneqq (\ldots,X_{-2},Y_{-3/2},X_{-1})$.
+%
+We write that (formally)
+\[ \dx\Pr\big[ \vec{L}_{\mathrm r} \equiv0 \ \text{and} \ \omega_{-1/4} = x \big]
+\propto e^{-x^2/2v} \dx{x}, \]
+and also
+$\dx\Pr[ \vec{L}_{\mathrm l} \equiv0 \ \text{and} \ \omega_{-3/4} = y]
+\propto e^{-y^2/2v} \dx{y}$
+by translation invariance.
+But under~$\Pr[\Bcdot| \ab {\vec{L}_{\mathrm l} \equiv0} \enskip \text{and} \enskip {\omega_{-3/4} = y}]$,
+the law of~$(\xi_{-1/2},\omega_{1/4})$ is the same as under~$\Pr$, so one has:
+%
+\begin{multline}
+e^{-x^2/2v} \propto
+\dx\Pr\big[ \vec{L}_{\mathrm r} \equiv0 \ \text{and} \ \omega_{-1\!/\!4} = x \big] \\
+= \int_y \dx{y} \,
+\dx\Pr\big[ \vec{L}_{\mathrm l} \equiv0 \ \text{and} \ \omega_{-3\!/\!4} = y \big]
+\dx\Pr\big[ Y_{-1/2} = 0 \ \text{and} \ \omega_{-1\!/\!4} = x \big|
+\vec{L}_{\mathrm l} \equiv0 \ \text{and} \ \omega_{-3\!/\!4} = y \big] \\
+\propto \int_y \dx\Pr\big[ Y_{-1/2} = 0 \ \text{and} \ \omega_{-1\!/\!4} = x \big|
+\vec{L}_{\mathrm l} \equiv0 \ \text{and} \ \omega_{-3\!/\!4} = y \big] e^{-y^2/2v} \,\dx{y} \\
+= \int_y
+\dx\Pr\big[ \xi_{-1\!/\!2} = -\sqrt{\alpha}(x+y) \ \text{and} \ \omega_{-1\!/\!4} = x \big|
+\vec{L}_{\mathrm l} \equiv0 \ \text{and} \ \omega_{-3\!/\!4} = y \big]
+e^{-y^2/2v} \,\dx{y} \\
+\propto \int_y e^{-\alpha(x+y)^2/2} e^{-x^2/2} e^{-y^2/2v} \,\dx{y}
+\propto \exp \Big\{ \Big( 1+\alpha-\frac{\alpha^2}{\alpha+1/v} \Big) \frac{x^2}{2} \Big\},
+\end{multline}
+so that $v$ must satisfy:
+\[ 1+\alpha-\frac{\alpha^2}{\alpha+1/v} = \frac{1}{v} ,\]
+whose only nonnegative solution is
+\[ v = \frac{\sqrt{1+4\alpha}-1}{2\alpha} .\]
+
+So one has $\ecty(X_0|\vec{L}_{\mathrm l} \equiv0) = \sqrt{1+\alpha v+\alpha}
+= \big(\sqrt{1+4\alpha}+1\big)/2$,
+$\ecty(Y_{1/2}|\vec{L}_{\mathrm l} \equiv0) = \sqrt{1+2\alpha}$
+and $\EE[X_0Y_{1/2}|\vec{L}_{\mathrm l} \equiv0] = \alpha$,
+so that in the end (\ref{forVespr}) yields:
+\[\label{f3260} e_{1/2} = \frac{\sqrt{1+4\alpha}-1}{2\sqrt{1+2\alpha}} .\]
+%
+With this value, Theorem~\ref{thm0119} states that one has necessarily
+\[\label{forMncz} \{ \vec{X} : \vec{Y} \} \leq \sin (2\arcsin e_{1/2}) \footnotemark
+= 2 e_{1/2} \sqrt{1-e_{1/2}^2} = \frac{2\alpha}{1+2\alpha} .\]
+\footnotetext{As here one always has $e_{1/2} \leq 1/\sqrt{2}$,
+we can drop the ``$\wedge\frac{\pi}{2}$'' of Formula~(\ref{f6444}).}
+
+We show that (\ref{forMncz}) is actually an equality:
+take indeed~$f[k](\vec{X}) \coloneqq \sum_{i=1}^{k} X_k$,
+resp.\ $g[k](\vec{Y}) \coloneqq \sum_{j=1/2}^{k-1/2} Y_k$,
+then $\Var(f[k]) = \Var(g[k]) = k(1+2\alpha)$
+and $\EE[fg] = (2k-1)\alpha$,
+so that
+\[\label{f4151} \{ \vec{X} : \vec{Y} \} \geq \frac{(2k-1)\alpha}{k(1+2\alpha)} 
+\stackrel{k\longto\infty}{\longto} \frac{2\alpha}{1+2\alpha} .\]
+\end{Xpl}
+
+\begin{Rmk}\label{rmkPhTr}
+One can formally set $\alpha = +\infty$ in the previous example,
+which actually means that one takes $X_i = \omega_{i-1/4} + \omega_{i+1/4}$,
+resp.\ $Y_j = \omega_{j-1/4} + \omega_{j+1/4}$.
+In this case, both Formulas~(\ref{f3260}) and~(\ref{f4151}) `pass to the limit',
+yielding $e_{1/2} = 1/\sqrt{2}$ and $\{\vec{X}:\vec{Y}\}=1$.
+This shows that it is possible indeed that the~$e_z$ have `mild' values
+and that yet $\vec{X}$ and~$\vec{Y}$ are fully correlated.
+%
+In other words, the ``$\wedge\frac{\pi}{2}$'' in~(\ref{f6444})
+is not an `artifact' of the proof of Theorem~\ref{thm0119}%
+%
+\footnote{\label{ftn6129}%
+On the other hand, it is possible that the ``$\wedge1$'' in~(\ref{for3009})
+was such an artifact, since Theorem~\ref{thm6413} is not optimal.},
+%
+but the expression of a real `phase transition' phenomenon%
+%
+\footnote{There exist indeed situations going
+`beyond the phase transition', i.e.\ for which $\sum_{z\in\ZZ} \arcsin(e_z) \ab > \pi/2$,
+though this is not the case for Example~\ref{xplOptZZ}.}.
+%
+Such a phase transition did not occur for the simple tensorization formula~(\ref{for5719}),
+which shows that double tensorization in intrinsically more complicated
+than simple tensorization.
+\end{Rmk}
+
+
+\subsection{Asymptotic optimality}\label{parAsymptoticOptimality}
+
+In the previous subsection we saw that
+(the minimal versions of) Theorems~\ref{thm5750}
+and~\ref{thm0119} were optimal, while Theorem~\ref{thm6413} was not.
+However it turns out that that result is nevertheless `asymptotically optimal',
+in the sense that the bound it gives is equivalent to the optimal bound
+when the correlations between the variables become weak.
+Here is a precise statement:
+%
+\begin{Thm}
+Let $I = \{1,\ldots,N\}$ and $J=\{1,\ldots,M\}$ be finite sets, and define
+the function~$\mathit{Opt} \colon [0,1]^{I\times J} \to [0,1]$ by
+\[\label{f5516}
+\mathit{Opt} \big( \vec\epsilon_{I\times J} \big)
+\coloneqq \sup \Big\{ \big\{ \vec{X}_I : \vec{Y}_J \big\} \ ;\ \big(\forall (i,j) \in I\times J\big) \,
+\big(\{ X_i:Y_j \}_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<j\}}\mathlarger{)}}
+\leq \epsilon_{ij}\big) \Big\} ;\]
+then, when~$\vec\epsilon_{I\times J} \longto \vec{0}$,
+one has:
+\[\label{f7160}
+\mathit{Opt} \big(\vec\epsilon\big) \sim \VERT \boldepsilon \VERT .\]
+\end{Thm}
+
+\begin{Rmk}
+In the same way, the simple bound~(\ref{for5528}) of Proposition~\ref{pro5527}
+is asymptotically equivalent to the optimal bound~(\ref{for5719}) of Theorem~\ref{thm5750}.
+\end{Rmk}
+
+\begin{proof}
+Take $(M+NM)$ i.i.d.\ $\mcal{N}(1)$ variables
+$\xi_1,\ldots,\xi_M,\omega_{11},\ldots,\omega_{NM}$.
+For~$(\!(\alpha_{ij})\!)_{i,j} \in \RR^{N\times M}$,
+set
+\[ \left\{ \begin{array}{rcl} X_i &=& \sum_j \omega_{ij} ; \\
+Y_j &=& \xi_j + \sum_i \alpha_{ij} \omega_{ij} .\end{array} \right.\]
+
+Denote
+\[ e_{ij} \coloneqq
+\{ X_i:Y_j \}_{\mathlarger{(}\vec{X}_{\{i'<i\}},\vec{Y}_{\{j'<j\}}\mathlarger{)}} ,\]
+and define $\dot{e}_{ij}$ as the Pearson correlation coefficient
+of~$X_i$ and~$Y_j$ under the law
+$\Pr[\Bcdot|\ab \vec{X}_{\{i'<i\}}, \ab {\vec{Y}_{\{j'<j\}}\equiv 0}]$.
+Then, as in the proof of Theorem~\ref{t6657}, one has $e_{ij} = |\dot{e}_{ij}|$, and the function
+$\vec\alpha \mapsto \vec{\dot{e}}$ is $\mcal{C}^1$ around~$\vec{0}$, with
+\[\label{f8236} \vec{\dot{e}} = \frac{1}{\sqrt{M}}\,\vec\alpha + O(\|\vec\alpha\|^2)
+\qquad \text{when $\vec\alpha \longto \vec0$.} \]
+%
+By the inverse function theorem,
+$\vec\alpha \mapsto \vec{\dot{e}}$ is therefore a diffeomorphism
+from some neighbourhood~$V$ of~$\vec{0}$ onto some neighbourhood $U$ of~$\vec{0}$,
+whose inverse function is such that
+\[ \vec{\alpha} = \sqrt{M}\,\vec{\dot{e}} + O(\|\vec{\dot{e}}\|^2) \qquad
+\text{when $\vec{\dot{e}} \longto \vec0$.} \]
+
+Now let~$\vec\epsilon \in (\RR_+)^{N\times M} \cap U$.
+Take $\vec\alpha\in V$ such that $\vec{\dot{e}}(\vec\alpha) = \vec\epsilon$,
+so that the condition of~(\ref{f5516}) is satisfied.
+For~$\phi\in\RR^N,\ab {\psi\in\RR^M}$ with $\|\phi\|,\|\psi\| = 1$, set
+\[\left\{\begin{array}{rcl}
+f(\vec{X}) &\coloneqq& \sum_i \phi_i X_i ; \\
+g(\vec{Y}) &\coloneqq& \sum_j \psi_j Y_j.
+\end{array}\right.\]
+%
+One has
+\[ \Var(f) = M ,\]
+\[ \Var(g) = 1 + O(\|\vec\alpha\|^2) = 1 + O(\|\vec\epsilon\|^2) \]
+and
+\[ \EE[fg] = \sum_{i,j} \alpha_{ij}\phi_i\psi_j
+= \langle \phi, \boldsymbol\epsilon \psi \rangle + O(\|\vec\epsilon\|^2) ,\]
+where the constants implicit in the ``$O(\|\vec\epsilon\|^2)$'' are uniform
+in~$(\phi,\psi)$.
+%
+So one has
+\[ \mathit{Opt}(\vec{\epsilon}) \geq \{ \vec{X} : \vec{Y} \}
+\geq \frac{|\EE[fg]|}{\ecty(f)\ecty(g)}
+= |\langle \phi, \boldsymbol\epsilon \psi \rangle| + O(\|\vec\epsilon\|^2) ,\]
+whence after taking supremum over $(\phi,\psi)$:
+\[ \mathit{Opt}(\vec{\epsilon}) \geq \VERT \boldsymbol\epsilon \VERT + O(\|\vec\epsilon\|^2)
+\stackrel{\vec\epsilon\longto\vec0}{\sim} \VERT \boldsymbol\epsilon \VERT .\]
+Since on the other hand $\mathit{Opt}(\vec{\epsilon}) \leq \VERT\boldsymbol\epsilon\VERT$
+by Theorem~\ref{thm6413}, the proposition follows.
+\end{proof}
+
+\begin{Rmk}
+If we state decorrelation hypotheses
+w.r.t.\ the \emph{whole} $\sigma$-metalgebra of the system (denoted by~$*$),
+no quantity analogous to~$\dot{e}_{ij}$ shall exist any more;
+then one can only write, denoting $e'_{ij} \coloneqq \{X_i:Y_j\}_{*}$:
+\[ e'_{ij} (\vec\alpha) = \frac{|\alpha_{ij}|}{\sqrt{M}} + O(\|\vec\alpha\|^2) .\]
+So, to see how the correlations depend on the parameters,
+we have to study the map $\vec\alpha\mapsto\vec{e}\,'$,
+which is approximated by a homothety \emph{only on the cone $\RR^{N\times M}_+$}
+—and which moreover is no better than continuous here.
+So we shall replace the inverse function theorem by an alternative technique,
+which will yield the slightly weaker theorem stated just below.
+\end{Rmk}
+%
+\begin{Thm}
+Define
+\[ \mathit{Opt}' \big( (\epsilon_{ij})_{(i,j)\in I\times J} \big)
+\coloneqq \sup \Big\{ \big\{ \vec{X}_I : \vec{Y}_J \big\} \ ;\ \big(\forall (i,j) \in I\times J\big) \,
+\big(\{ X_i:Y_j \}_* \leq \epsilon_{ij}\big) \Big\} ;\]
+then for any closed cone $C$ of~$\RR^{N\times M}$
+contained in~$(\RR_+^*)^{N\times M} \cup \{0\}$,
+on~$C$, one has
+\[ \mathit{Opt}'(\vec{\epsilon}) \stackrel{\vec\epsilon\longto\vec0}\sim
+\VERT \boldepsilon \VERT .\]
+\end{Thm}
+
+
+
+
+\section{Machinery for using the tensorization theorems}%
+\label{parMachineryForUsingTheTensorizationTheorems}
+
+Up to now we stated the tensorization theorems in a rather `theoretical' form.
+To apply these results to `concrete' situations, some additional techniques may be needed.
+This section gives such techniques, which we will use later for the applications
+of Chapter~\ref{parApplications}.
+
+\begin{NOTA}
+In this section, all the probability systems considered
+will be endowed with their natural $\sigma$-metalgebras,
+cf.\ Definition~\ref{def3128}.
+To alleviate notation, I will give no names to these $\sigma$-metalgebras,
+but will plainly denote ${\{X:Y\}}_*$ to mean
+``the subjective decorrelation between~$X$ and~$Y$
+seen from the natural $\sigma$-metalgebra of the underlying system''.
+\end{NOTA}
+
+
+\subsection{The `doubling-up' technique}\label{parTheDoublingUpTechnique}
+
+\begin{Def}
+For~$I$ a set and~$\mcal{R}$ a binary relation on~$I$,
+$J_1,J_2\subset I$, we will say that ``$J_2$ is $\mcal{R}$-disjoint to~$J_1$''
+if $(i,j)\in J_1\times J_2\ \Rightarrow\ i\notR j$.
+\end{Def}
+
+\begin{Lem}[`Doubling-up' lemma]\label{lem0306}
+Let~$I$ be a (countable) set and let~$(X_i)_{i\in I}$ be random variables
+such that for all~$i,j\in I$, $\{X_i:X_j\}_* \leq \epsilon_{ij}$
+for a certain family of~$\epsilon_{ij} \in [0,1]$.
+
+Let~$\mcal{R}$ be a binary relation on~$I$;
+for~$i,j\in I$, denote $\epsilon^{\mcal{R}}_{ij} \coloneqq \1{i\notR j}\epsilon_{ij}$.
+
+Define $\mbf{I} = I_1 \uplus I_2$ to be a disjoint union of two copies of~$I$;
+denote by~$(i_1)_{i\in I}$, resp.~$(j_2)_{j\in I}$, the elements of~$I_1$, resp.~$I_2$.
+Assume that the following holds for a certain $\epsilon\in[0,1]$:
+``if $(Y_{i_{\kappa}})_{i_{\kappa}\in\mbf{I}}$ are random variables such that
+$\forall i, j \in I\enskip\{Y_{i_1}:Y_{j_2}\}_{*}
+\leq \epsilon^{\mcal{R}}_{ij}$, then $\{\vec{Y}_{I_1}:\vec{Y}_{I_2}\} \leq \epsilon$''.
+
+Then for all~$J_1,J_2\subset I$ such that $J_2$ is $\mcal{R}$-disjoint to~$J_1$,
+$\{\vec{X}_{J_1}:\vec{X}_{J_2}\}_{*} \leq \epsilon$.
+\end{Lem}
+
+\begin{Rmk}
+The interest of Lemma~\ref{lem0306} is that, by proving
+\emph{one} tensorization result on ${\{\vec{Y}_{I_1}:\vec{Y}_{I_2}\}}$,
+one gets tensorization results
+on \emph{all} the~$\{\vec{X}_{J_1}:\vec{X}_{J_2}\}$
+for $J_2$ $\mcal{R}$-disjoint to~$J_1$.
+\end{Rmk}
+
+\begin{Xpl}\label{xpl1201}\strut
+\begin{enumerate}
+\item If you take for~$\mcal{R}$ the equality relation,
+then Lemma~\ref{lem0306} gives a decorrelation result
+for all disjoint~$J_1$ and~$J_2$.
+\item\label{itm1202} If $I$ is equipped with a distance $\mathit{dist}$
+and if you take $(i\mcal{R}j) \, \Leftrightarrow \, {\big(\mathit{dist}(i,j)<d_1\big)}$,
+then you get a decorrelation result for all~$J_1$ and~$J_2$
+such that $\mathit{dist}(J_1,J_2) {\geq d_1}$.
+\end{enumerate}
+\end{Xpl}
+
+\begin{proof}
+Assume that the hypotheses of the lemma hold
+and let~$J_1,J_2\subset I$ with~$J_2$ $\mcal{R}$-disjoint to~$J_1$.
+For~$i_{\kappa} \in \mbf{I}$, define
+\[ Y_{i_{\kappa}} = \begin{cases} X_i &
+\text{if\ \ $(\kappa=1\enskip\text{and}\enskip i\in J_1)$\ \ or\ \ $(\kappa=2\enskip\text{and}\enskip i\in J_2)$;} \\
+\partial & \text{otherwise,} \end{cases} \]
+for~$\partial$ some cemetery point in the range of none of the~$X_i$.
+Since a constant variable is always independent of any variable,
+the hypothesis ``$\{X_i:X_j\}_* \leq \epsilon_{ij}$'' for all~$i,j \in I$
+implies that ${\{Y_{i_1}:Y_{j_2}\}_{*}} \leq \epsilon^{\mcal{R}}_{ij}$,
+so, by the assumption of the lemma, ${\{\vec{Y}_{I_1}:\vec{Y}_{I_2}\}} \leq \epsilon$.
+But $\vec{X}_{J_1}$ is $\vec{Y}_{I_1}$-measurable,
+resp.\ $\vec{X}_{J_2}$ is $\vec{Y}_{I_2}$-measurable,
+hence $\{\vec{X}_{J_1}:\vec{X}_{J_2}\} \leq \epsilon$.
+
+Getting the subjective result w.r.t.~$*$
+is just a variant of that reasoning, cf.\ \S~\ref{parSubjectiveResults}.
+\end{proof}
+
+
+\subsection{A practical result on~\texorpdfstring{$\ZZ^n$}{Z\textasciicircum n}}\label{parPractical}
+
+In Chapter~\ref{parApplications}, the situations we will handle
+shall always be of the following form:
+%
+\begin{Hyp}\label{hypZZn}
+For some $n\in\NN^*$, the system is made of random variables $X_i$, $i\in\ZZ^n$,
+which satisfy the condition
+\[ \forall i,j\in\ZZ^n \qquad \{X_i:X_j\}_* \leq \epsilon(j-i) \]
+for some symmetric function~$\epsilon \colon \ZZ^n \to [0,1]$.
+\end{Hyp}
+
+For systems satisfying Assumption~\ref{hypZZn},
+one has the following practical synthetic result:
+%
+\begin{Lem}\label{pro8882}
+Consider a norm $|\Bcdot|$ on~$\RR^n$,
+the associated distance on the affine $\RR^n$ being denoted by~$\dist$.
+Then for a system satisfying Assumption~\ref{hypZZn},
+for all~$J_1,J_2\subset I$:
+\[\label{for7041} \big\{ \vec{X}_{J_1} : \vec{X}_{J_2} \big\} \leq
+\Big(\sum_{\mathclap{\substack{z\in\ZZ^n\\|z|\geq\dist(J_1,J_2)}}} \epsilon(z)\Big)
+\wedge 1 .\]
+\end{Lem}
+
+\begin{proof}
+To alleviate notation, denote $d \coloneqq \dist(J_1,J_2)$.
+Applying Lemma~\ref{lem0306},
+taking for ``$\mcal{R}$'' the relation ``be at distance $<d$''
+(cf.\ Example~\ref{xpl1201}-\ref{itm1202}),
+our goal becomes the following:
+supposing $(Y_{i_\kappa})_{i_\kappa\in\ZZ^n_1\uplus\ZZ^n_2}$ are random variables
+such that $\{Y_{i_1}:Y_{j_2}\}_* \leq \1{|j-i|\geq d}\epsilon(j-i)$,
+we want to bound above $\{\vec{Y}_{\ZZ^n_1}:\vec{Y}_{\ZZ^n_2}\}$.
+
+To do this we apply Theorem~\ref{thm6413},
+and we get that $\{\vec{Y}_{\ZZ^n_1}:\vec{Y}_{\ZZ^n_2}\}$ is bounded by
+$\VERT \boldepsilon \VERT \wedge 1$,
+where $\boldepsilon$ is the following operator:
+%
+\[ \begin{array}{rrcl} \boldepsilon \colon & L^2(\ZZ) & \circlearrowleft & \\
+& \big(g(j)\big)_{j\in\ZZ} & \mapsto &
+\big( \sum_{j\in\ZZ} \1{|j-i|\geq d} \epsilon(j-i) g(j) \big)_{i\in\ZZ} .
+\end{array} \]
+
+To compute $\VERT \boldepsilon \VERT$, we split $\boldepsilon$
+as $\sum_{z\in\ZZ} \1{|z|\geq d} \epsilon(z) M_z$, where
+$M_z$ is the operator
+\[ \begin{array}{rrcl} M_z \colon & L^2(\ZZ) & \circlearrowleft & \\
+& \big(g(j)\big)_{j\in\ZZ} & \mapsto &
+\big( g(i+z) \big)_{i\in\ZZ} .\end{array} \]
+%
+Obviously $\VERT M_z \VERT = 1$,
+thus $\VERT \boldepsilon \VERT \leq \sum_{|z|\geq d} \epsilon(z)$
+—actually there is even equality\hbox{—,}
+which ends the proof of Lemma~\ref{pro8882}.
+\end{proof}
+
+\begin{Rmk}
+Instead of Theorem~\ref{thm6413}, here we could have used Theorem~\ref{corZnZn},
+which would yield a better result;
+yet that would be very specific to~$\ZZ^n$ (cf.\ \S~\ref{parNonFlat}),
+and the result would actually be almost equivalent to~(\ref{for7041})
+(cf.\ \S~\ref{parAsymptoticOptimality}).
+\end{Rmk}
+
+
+\subsection{Avoiding the artificial phase transition}%
+\label{parAvoidingThePhaseTransitionForTheToyModel}
+
+Let us look again at Formula~(\ref{for7041}):
+the ``$\wedge 1$'' in it is not really relevant
+since a correlation level is \emph{always} bounded by~$1$.
+In fact the situation is di\-cho\-to\-mic:
+denoting $d \coloneqq \dist(I,J)$, either $\sum_{|z|\geq d} \epsilon(z)$ is $<1$ and then
+(\ref{for7041}) is a true decorrelation result,
+or it is $\geq1$ and then (\ref{for7041}) tells us actually nothing.
+In other words, our result has a `phase transition'
+depending on the relative values of~$\sum_{|z|\geq d} \epsilon(z)$ and~$1$,
+similar to the phenomenon we discussed in Remark~\ref{rmkPhTr}.
+
+However, as I pointed out in Footnote~\ref{ftn6129} on page~\pageref{ftn6129},
+it is not clear whether the phase transition we are dealing with is a real phenomenon:
+maybe it is rather an artifact due to Theorem~\ref{thm6413}'s bound's being non-optimal,
+which could be avoided by a cleverer reasoning.
+We are strengthened in that thought by observing that,
+if $\sum_{z\in\ZZ^n} \epsilon(z) < \infty$,
+then for~$d$ large enough one has
+$\sum_{|z|\geq d} \epsilon(d) < 1$,
+so that there is no phase transition for long distances;
+why would a transition appear all of a sudden for short distances?
+
+This subsection will show that, indeed, phase transitions can be avoided
+in the situations we deal with.
+
+\begin{Lem}\label{lem4067}
+For a system satisfying Assumption~\ref{hypZZn}
+with $\epsilon(z)<1$ as soon as $z\neq0$ and $\sum_{z\neq0} \epsilon (z) < \infty$,
+there exists a constant $k<1$ such that, for all disjoint
+$J_1,J_2\subset I$, one has ${\{\vec{X}_{J_1}:\vec{X}_{J_2}\}} \ab \leq k$.
+\end{Lem}
+
+\begin{proof}
+As before, using Lemma~\ref{lem0306}
+we have to bound above $\{\vec{Y}_{\ZZ^n_1}:\vec{Y}_{\ZZ^n_2}\}$
+in the relevant doubled-up model.
+Our plan to avoid the phase transition will consist in reducing to the `long distance' case.
+
+For some $\ell \in \NN^*$,
+we split $\ZZ^n_1$, resp.~$\ZZ^n_2$,
+into a partition of~$\ell^n \eqqcolon N$ sublattices $Z_1^{(1)}, \ab \ldots, \ab Z_1^{(N)}$,
+resp.~$Z_2^{(1)}, \ab \ldots, \ab Z_2^{(N)}$,
+each lattice $Z_\kappa^{(u)}$ being of the form~$\ell \ZZ^n + z_u$ for some $z_u\in\ZZ^n \div \ell\ZZ^n$.
+I claim two fundamental properties of these sublattices:
+
+\begin{Clm}\label{clm8133}
+For all~$u,v\in\{1,\ldots,N\}$,
+\[\label{for8590} \big\{ \vec{Y}_{\ZZ_1^{(u)}} : \vec{Y}_{\ZZ_2^{(v)}} \big\}_*
+\leq \sum_{z \equiv z_v-z_u} \!\! \1{z\neq0} \, \epsilon(z) .\]
+\end{Clm}
+
+\begin{proof} It is analogous to the proof of Lemma~\ref{pro8882}.
+\end{proof}
+
+\begin{Clm}\label{clm9816}
+Provided $\ell$ is large enough,
+the right-hand side of~(\ref{for8590}) is (strictly) less than $1$
+for all the possible values of~$u,v$.
+\end{Clm}
+
+\begin{proof}
+Denote $\zeta \coloneqq \sup_{z\neq0} \epsilon(z)$;
+notice that our assumptions imply that $\zeta < 1$.
+Since $\sum_{z\in\ZZ^n} \epsilon(z)$ converges,
+there exists some $d_1<\infty$ such that $\sum_{|z|>d_1} \epsilon(z) < 1-\zeta$.
+Now, denoting $d_0 \coloneqq \min\{ |z| \colon z\in\ZZ^n\setminus\{0\} \}$,
+for $\ell > 2d_1 \div d_0$, for all~$u,v$ there is at most one $z$ congruent to
+$z_v-z_u$ [mod.\ $\ell$] such that $|z| \leq d_1$,
+whence the following uniform bound for the right-hand side of~(\ref{for8590}):
+%
+\[ \sum_{z\equiv z_v-z_u} \!\! \1{z\neq0} \, \epsilon(z)
+\leq \sum_{|z| > d_1} \epsilon(z)
++ \underbrace{\sum_{\substack{|z|\leq d_1\\z\equiv z_v-z_u\\z\neq 0}} \epsilon(z)}%
+_{\substack{\leq \zeta \text{ because}\\\text{the sum has at most}\\\text{one term, being $\leq \zeta$}}}
+\leq \underbrace{\sum_{|z| > d_1} \epsilon(z)}_{< 1-\zeta} + \zeta < 1.\]
+\end{proof}
+
+Now, suppose $\ell$ large enough so that Cl\-aim~\ref{clm9816} works.
+We apply \emph{simple} tensorization (Theorem~\ref{thm5750}) to the~$\vec{Y}_{\ZZ_2^{(v)}}$:
+writing that $\vec{Y}_{\ZZ^n_2} = \big( \vec{Y}_{\ZZ_2^{(1)}}, \ldots, \vec{Y}_{\ZZ_2^{(N)}} \big)$,
+we get that, for any~$u\in\{1,\ldots,N\}$,
+\[\label{for8741} \big\{ \vec{Y}_{\ZZ_1^{(u)}} : \vec{Y}_{\ZZ^n_2} \big\}_*
+\leq \sqrt{ 1 - \prod_{v=1}^{N}
+\left( 1 - \big\{ \vec{Y}_{\ZZ_1^{(u)}}:\vec{Y}_{\ZZ_2^{(v)}} \big\}_*^2 \right) } < 1 .\]
+%
+Now we write $\vec{Y}_{\ZZ^n_1} = \big( \vec{Y}_{\ZZ_1^{(1)}}, \ldots, \vec{Y}_{\ZZ_1^{(N)}} \big)$
+and we apply simple tensorization again\ab —this time to the~$\vec{Y}_{\ZZ_1^{(u)}}$ —to get:
+\[\label{for1198}
+\big\{ \vec{Y}_{\ZZ^n_1} : \vec{Y}_{\ZZ^n_2} \big\}
+\leq \sqrt{ 1 - \prod_{u=1}^{N}
+\left( 1 - \big\{ \vec{Y}_{\ZZ_1^{(u)}}:\vec{Y}_{\ZZ^n_2} \big\}_*^2 \right) } < 1 .\]
+Bound~(\ref{for1198}) achieves our goal.
+\end{proof}
+
+\begin{Rmk}
+With that proof, the way $k$ depends on~$\epsilon(\Bcdot)$ is rather complicated;
+in particular, you cannot express $k$
+as a function of only~$\sum_{z\neq0} \epsilon(z)$ and~$\sup_{z\neq0} \epsilon(z)$.
+\end{Rmk}
+
+\begin{Rmk}
+In the case $n=1$, at first sight Lemma~\ref{lem4067} seems to contradict Theorem~\ref{t6657},
+in which we told that Theorem~\ref{thm0119}, which does have a phase transition, was optimal.
+The explanation for this paradox stands in the slight difference between the assumptions
+of Lemma~\ref{lem4067} and Theorem~\ref{thm0119}:
+while in Lemma~\ref{lem4067} we really imposed that $\{X_i:X_j\}_* \leq \epsilon\big(\mfrak{d}(i,j)\big)$,
+with ``$*$'' denoting the \emph{full} natural $\sigma$-metalgebra of the system,
+in Theorem~\ref{thm0119}—more precisely, in the version of Theorem~\ref{thm0119}
+Theorem~\ref{t6657} proved to be optimal, which was the \emph{minimal} version of this theorem
+(cf.\ \S~\ref{parMinimalHypotheses})—%
+the conditions on subjective decorrelations were a bit looser.
+That difference makes all the trick when one performs the steps of simple tensorization in the proof of Lemma~\ref{lem4067},
+because these steps require subjective decorrelations w.r.t.\ the~$\vec{Y}_{I_\kappa^{(u)}}$,
+which the sole assumptions of Theorem~\ref{t6657} do not provide.
+\end{Rmk}
+
+
+\subsection{Non-flat geometries}\label{parNonFlat}
+
+It is natural to ask what we one can do
+when the basic variables $X_i$ are not indexed by~$\ZZ^n$,
+but by the vertices of a more general graph,
+for instance a tree or a finitely generated group.
+This shall occur indeed if the physical space one works in
+exhibits some curvature%
+—though Chapter~\ref{parApplications} will not handle such situations.
+
+Actually for general graphs there are results analogous to those of
+\S\S~\ref{parPractical} and~\ref{parAvoidingThePhaseTransitionForTheToyModel},
+with similar (though more technical) proofs~\cite{perso}.
+Here I will only give the statements of these results.
+
+In this subsection the situation will be the following:
+%
+\begin{Hyp}\label{hypNF}
+The system is made of random variables $(X_i)$ indexed by a (countable) set $I$.
+There is a group $G$ acting transitively on~$I$,
+and $I$ is endowed with a symmetric map $\mfrak{d} \colon {I\times I}\to\mfrak{D}$,
+called the `abstract distance', which is preserved by the action of~$G$.
+We assume that one has
+\[ \forall i,j\in I \quad \{X_i:X_j\}_{*} \leq \epsilon\big(\mfrak{d}(i,j)\big) \]
+for some function~$\epsilon \colon \mfrak{D} \to [0,1]$.
+\end{Hyp}
+
+\begin{Def}
+For~$d\in\mfrak{D}$, we define $\valency(d) \coloneqq \# \{ i\in I \colon \mfrak{d}(o,i) = d \}$,
+where the choice of~$o\in I$ does not matter.
+\end{Def}
+
+Then the analogous to Lemma~\ref{pro8882} is the
+%
+\begin{Lem}\label{pro8882+}
+For~$\mfrak{D}'\subset\mfrak{D}$, for all~$J_1,J_2\subset I$ such that
+$(i\in J_1,j\in J_2)\,\Rightarrow \mfrak{d}(i,j) \ab \in \nolinebreak[2] \mfrak{D}'$,
+\[ \big\{\vec{X}_{J_1} : \vec{X}_{J_2}\big\} \leq
+\Big( \sum_{d\in \mfrak{D}'} \valency(d)\,\epsilon(d) \Big) \wedge 1 .\]
+\end{Lem}
+
+The analogous of Lemma~\ref{lem4067} is the
+%
+\begin{Lem}\label{lem4067+}
+Assume that Assumption~\ref{hypNF} is satisfied;
+denoting by~$0$ the (common) value of the~$\mfrak{d}(i,i)$,
+also assume that $\valency(0)=1$ and that $\epsilon(d) < 1$ as soon as $d \neq 0$.
+Assume that $\sum_{d\in\mfrak{D}} \valency(d)\epsilon(d) < \infty$.
+
+Moreover, assume that the action of~$G$ on~$I$ is \emph{profinite}
+(cf.~\cite[Definition~1.1]{profinite}), i.e.\ that
+there is a subset $\mcal{N} \subset \NN^*$
+such that for each~$N\in\mcal{N}$, there is a subgroup $G_N \leq G$ such that:
+%
+\begin{ienumerate}
+\item\label{itm4759} The action of~$G_N$ splits $I$ into exactly $N$ orbits
+$I^{(1)},\ldots,I^{(N)}$;
+\item\label{itm4518} $G_N$ is normal,
+so that the partition of~$I$ into the~$I^{(u)}$ is stable by the action of~$G$;
+\item\label{itm4750} Any two distinct points of~$I$ are ultimately separated
+by the partitions induced by the~$G_N$, i.e.:
+\[ \limsup_{\substack{N\in\mcal{N}\\N\longto\infty}} (G_{N}\cdot o) = \{o\} .\]
+\end{ienumerate}
+
+Then there exists a constant $k<1$ such that, for all disjoint
+$J_1,J_2\subset I$, one has $\{\vec{X}_{J_1}:\vec{X}_{J_2}\} \leq k$.
+\end{Lem}
+
+\begin{Xpl}
+For $I=\ZZ^n$ on which $G=\ZZ^n$ acts by translation,
+equipped with the abstract distance $\mfrak{d}(x,y) = \{\pm(y-x)\}$,
+the assumptions of Lemmas~\ref{pro8882+} and~\ref{lem4067+} are checked,
+and these lemmas re-give resp.\ Lemmas~\ref{pro8882} and~\ref{lem4067}.
+\end{Xpl}
+
+\begin{Xpl}\label{x3339}
+For $I$ the modular group $\mathit{PSL}_2(\ZZ)$ acting by left multiplication on itself,
+equipped with its natural abstract distance (i.e., $\mfrak{d}(i,j) = \{i^{-1}j,j^{-1}i\}$),
+the assumptions of Lemmas~\ref{pro8882+} and~\ref{lem4067+} are also checked%
+—to see that the action of~$G$ on~$I$ is profinite,
+take for the~$G_{N(\ell)}$ the principal congruence subgroups
+$\Gamma(\ell)$ of the modular group~\cite{PSL2Z}.
+%
+Notice that $\mathit{PSL}_2(\ZZ)$ is an example of graph having negative curvature%
+~\cite{Gromov}.
+\end{Xpl}
+
+
+
+
+\section{Appendix: Illustration of the proof of Theorem~\ref{thm6413}}%
+\label{parIllustrationOfTheProofs}
+
+\begin{NOTA}
+This subsection is devised for the readers who would like to
+understand better the proof of Theorem~\ref{thm6413}
+by seeing how it works on a concrete example.
+It only contains pedagogical material,
+and thus can be skipped safely.
+\end{NOTA}
+
+
+\subsection{A Gaussian system of variables}\label{parX1X2Y}
+
+In this illustration we take $N=2, M=1$ —since $M=1$, $Y_1$ will merely be denoted by~$Y$ —,
+and we take $(X_1,X_2,Y)$ Gaussian (and centered),
+whose law is described through a $3\times3$ matrix
+\emph{via} writing that, for some standard Gaussian vector $(\xi_1,\xi_2,\xi_3) \in \RR^3$,
+\[\label{for5012}
+\begin{pmatrix} X_1\\X_2\\Y \end{pmatrix} =
+\begin{pmatrix} \alpha_1 & \alpha_2 & \alpha_3 \\
+\beta_1 & \beta_2 & \beta_3 \\ \omega_1 & \omega_2 & \omega_3 \end{pmatrix}
+\begin{pmatrix} \xi_1\\\xi_2\\\xi_3 \end{pmatrix}.\]
+We denote the matrix appearing in~(\ref{for5012}) by~$\mbf{M}$.
+The rows of~$\mbf{M}$ will be denoted by~$\alpha,\beta,\gamma \in \RR^3$,
+and $(\xi_1,\xi_2,\xi_3)$ will be denoted by~$\xi\in\RR^3$.
+On~$\RR^3$ we will use the Euclidian scalar product ``$\cdot$'' and the associated norm ``$\|\Bcdot\|$''.
+
+The advantage of this model is that,
+by of the general properties of Gaussian vectors
+(in particular Theorem~\ref{pro1857}),
+all the quantities of interest are computable exactly.
+
+First we compute the correlation levels:
+by Theorem~\ref{pro1857},
+\[ \{X_1:Y\} = \frac{|\alpha \cdot \omega|}{\|\alpha\| \, \|\omega\|} ,\]
+similarly $\{X_2:Y\} = |\beta \cdot \omega| \div \|\beta\|\|\omega\|$; and
+\[ \{\vec{X}:Y\} = \sqrt{1-\frac{|\omega\cdot(\alpha\vec{\times}\beta)|^2}{\|\omega\|^2\,\|\alpha\vec{\times}\beta\|^2}}, \]
+where ``$\vec{\times}$'' denotes the cross product on $\RR^3$.
+%
+Concerning the conditional quantities,
+denote by~$\beta^1$, resp.~$\omega^1$, the (orthogonal) projections of~$\beta$, resp.~$\omega$, on~$\RR\alpha$,
+and~$\beta^*$, resp.~$\omega^*$, the projections of the same vectors on~$(\RR\alpha)^\perp$,
+i.e.\ (assuming that $\alpha\neq0$):
+\[ \beta^1 \coloneqq (\beta\cdot\alpha \div \|\alpha\|^2)\,\alpha , \quad
+\omega^1 \coloneqq (\omega\cdot\alpha \div \|\alpha\|^2)\,\alpha ; \]
+\[ \beta^* \coloneqq \beta - \beta^1 , \quad
+\omega^* \coloneqq \omega - \omega^1 \]
+(see Figure~\ref{fig-abo}).
+%
+\begin{figure}
+\centering
+%
+%% Dessin pour \beta^1, \omega^1, \beta^*, \omega^*
+%
+\noindent\strut\hspace{1em}%
+\begin{tikzpicture}[>=stealth,x=.5cm,y=.5cm,inner sep=1.5pt]
+\coordinate (O) at (0,0);
+\coordinate (A) at (0,5.5);
+\coordinate (Bb) at (0,4.5);
+\coordinate (Zb) at (0,2.5);
+\coordinate (Bt) at (-2.2,-1.8);
+\coordinate (Zt) at (5.6,-1.2);
+\coordinate (B) at ($(Bb)+(Bt)$);
+\coordinate (Z) at ($(Zb)+(Zt)$);
+\draw (O) node[anchor=west]{$0$};
+
+%% "Bb" signifie "beta_zéro", "Zt" signifie "omega_étoile", etc..
+
+\draw[very thick,->] (O)--(A) node[anchor=east]{$\alpha$};
+\draw[very thick,->] (O)--(B) node[anchor=east]{$\beta$};
+\draw[very thick,->] (O)--(Z) node[anchor=west]{$\omega$};
+\draw[semithick,->] (O)--(Bb) node[anchor=west]{$\beta^1$};
+\draw[semithick,->] (O)--(Zb) node[anchor=east]{$\omega^1$};
+\draw[semithick,->] (O)--(Bt) node[anchor=east]{$\beta^*$};
+\draw[semithick,->] (O)--(Zt) node[anchor=west]{$\omega^*$};
+\draw[very thin, dashed] (B)--(Bb);
+\draw[very thin, dashed] (B)--(Bt);
+\draw[very thin, dashed] (Z)--(Zb);
+\draw[very thin, dashed] (Z)--(Zt);
+\draw[thin] (-3.6,0.2)--(-6.3,-2.5) node[above right]{\scriptsize~~$(\RR\alpha)^\perp$} --(7.2,-2.5);
+
+\rightangle{B}{Bb}{O}
+\rightangle{Z}{Zb}{O}
+\rightangle{B}{Bt}{O}
+\rightangle{Z}{Zt}{O}
+\end{tikzpicture}
+%
+\hfill
+%
+%% Dessin pour les autres vecteurs, relatifs au machin conditioné par Y.
+%
+\begin{tikzpicture}[>=stealth,x=.5cm,y=.5cm,inner sep=1.5pt]
+\coordinate (O) at (0,0);
+\coordinate (Z) at (0,5.4);
+\coordinate (Bd) at (-2.2,1.1);
+\coordinate (Bc) at (-2.7,-.9);
+\coordinate (At) at ($2.2*(Bc)$);
+\coordinate (Ab) at (0,3.2);
+\coordinate (Bb) at (0,4.1);
+\coordinate (Bt) at ($(Bc)+(Bd)$);
+\coordinate (B) at ($(Bt)+(Bb)$);
+\coordinate (A) at ($(At)+(Ab)$);
+\draw (O) node[anchor=north west]{$0$};
+
+%% "Bc" : "beta_chapeau" ; "Bd" : "beta_dague", etc..
+
+\draw[very thick,->] (O)--(A) node[anchor=east]{$\alpha$};
+\draw[very thick,->] (O)--(B) node[anchor=east]{$\beta$};
+\draw[very thick,->] (O)--(Z) node[anchor=east]{$\omega$};
+\draw[semithick,->] (O)--(Ab) node[anchor=west]{$\bar\alpha$};
+\draw[semithick,->] (O)--(At) node[anchor=east]{$\tilde\alpha$};
+\draw[semithick,->] (O)--(Bb) node[anchor=west]{$\bar\beta$};
+\draw[semithick,->] (O)--(Bt) node[anchor=north east]{$\tilde\beta$};
+\draw[semithick,->] (O)--(Bc) node[anchor=north west]{$\hat\beta$};
+\draw[semithick,->] (O)--(Bd) node[anchor=east]{$\beta^\dag$};
+\draw[very thin, dashed] (A)--(Ab);
+\draw[very thin, dashed] (A)--(At);
+\draw[very thin, dashed] (B)--(Bb);
+\draw[very thin, dashed] (B)--(Bt);
+\draw[very thin, dashed] (Bt)--(Bc);
+\draw[very thin, dashed] (Bt)--(Bd);
+\draw[thin] (-7.5,0.3)--(-10.5,-2.7) node[above right]{\scriptsize~~$(\RR\omega)^\perp$} --(1.5,-2.7);
+
+\rightangle{B}{Bb}{O}
+\rightangle{A}{Ab}{O}
+\rightangle{B}{Bt}{O}
+\rightangle{A}{At}{O}
+\rightangle{Bt}{Bc}{O}
+\rightangle{Bt}{Bd}{O}
+\end{tikzpicture}%
+\hspace{1em}\strut
+%
+\caption{Visual definitions of the vectors derived from $\alpha$, $\beta$ and~$\omega$:
+the left drawing shows how to build $\beta^1,\ab \omega^1,\ab \beta^*,\ab \omega^*$;
+the right drawing (with different values for~$\alpha,\ab \beta,\ab \omega$) explains
+the construction of~$\protect\bar\alpha,\ab \protect\bar\beta,\ab \protect\tilde\alpha,\ab \protect\tilde\beta,\ab \protect\hat\beta,\ab \beta^\dag$.}%
+\label{fig-abo}
+%
+\end{figure}%
+%
+Then one has
+$\EE[X_2|X_1] = \beta^1_1\xi_1 + \beta^1_2\xi_2 + \beta^1_3\xi_3 = \beta^1\cdot\xi$,
+resp.\ $\EE[Y|X_1] = \omega^1\cdot\xi$,
+thus $X_2-\EE[X_2|X_1] = \beta^*\cdot\xi$,
+resp. $Y-\EE[Y|X_1] = \omega^*\cdot\xi$.
+%
+As $(X_1,X_2,Y)$ is Gaussian,
+the law of~$(X_2-\EE[X_2|X_1],\ab {Y-\EE[Y|X_1]})$
+under~$\Pr[\Bcdot|\ab X_1=x]$ does not depend on the value of~$x$;
+therefore we know all the conditional laws of~$(X_2,Y)$ under the~$\Pr[\Bcdot|X_1=x]$,
+and for all these laws $\{X_2:Y\}$ is equal by Theorem~\ref{pro1857} to
+$|\beta^*\cdot\omega^*| \div \|\beta^*\|\|\omega^*\|$, so in the end:
+\[ \{ X_2:Y \}_{X_1} = \frac{|\beta^*\cdot\omega^*|}{\|\beta^*\|\,\|\omega^*\|} .\]
+$\{ X_1:Y \}_{X_2}$ can be computed by a similar formula.
+
+Now let us `dissect' the proof of Theorem~\ref{thm6413} on our example.
+We take $f$ linear, namely
+\[\label{forX1+X2} f(X_1,X_2) \coloneqq X_1 + X_2 ,\]
+so that all the computations shall again be tractable exactly.
+
+Let us start with computing the quantities linked to~$f^0$:
+one has
+\begin{eqnarray}
+f^0 = f &=& (\alpha+\beta)\cdot\xi ;\\
+f_1^0 = f^{\sigma(X_1)} &=& X_1 + (X_2)^{\sigma(X_1)} = (\alpha+\beta^1)\cdot\xi ;\\
+f_2^0 = f - f^{\sigma(X_1)} &=& \beta^*\cdot\xi ,
+\end{eqnarray}
+whence respectively
+\begin{eqnarray}
+V = V^0 &=& \|\alpha+\beta\|^2 = \|\alpha\|^2 + \|\beta\|^2 + 2\alpha\cdot\beta ; \\
+V_1^0 &=& \|\alpha+\beta^1\|^2 = \|\alpha\|^2 + 2\alpha\cdot\beta + \frac{(\alpha\cdot\beta)^2}{\|\alpha\|^2} ; \\
+V_2^0 &=& \|\beta^*\|^2 = \|\beta\|^2 - \frac{(\alpha\cdot\beta)^2}{\|\alpha\|^2} .
+\end{eqnarray}
+By the way we check that, as claimed by Formula~(\ref{for3043}),
+$V^0 = V_1^0 + V_2^0$.
+
+Now we turn to the quantities linked to~$f^1$.
+First we have to compute the conditional laws of~$(X_1,X_2)$
+under the events ``$Y=y$''.
+%
+The technique is the same as for computing $\{X_2:Y\}_{X_1}$
+a few lines above:
+denoting by~$\bar{\alpha}$, resp.\ by~$\bar{\beta}$, the projections of~$\alpha$, resp.~$\beta$, on~$\RR\omega$,
+and~$\tilde{\alpha}$, resp.~$\tilde{\beta}$, the projections of the same vectors on~$(\RR\omega^\perp)$, i.e.\ (see Figure~\ref{fig-abo})
+\[ \bar{\alpha} \coloneqq (\alpha\cdot\omega \div \|\omega\|^2)\,\omega , \quad
+\bar{\beta} \coloneqq (\beta\cdot\omega \div \|\omega\|^2) \,\omega ; \]
+\[ \tilde{\alpha} \coloneqq \alpha - \bar{\alpha} , \quad
+\tilde{\beta} \coloneqq \beta - \bar{\beta} ,\]
+%
+one has $\EE[X_1|Y] = \bar{\alpha}\cdot\xi$,
+resp.\ $\EE[X_2|Y] = \bar{\beta}\cdot\xi$, thus
+$X_1 - \EE[X_1|Y] = \tilde{\alpha}\cdot\xi$,
+resp.\ $X_2 - \EE[X_2|Y] = \tilde{\beta}\cdot\xi$;
+and $(X_1 - \EE[X_1|Y], X_2 - \EE[X_2|Y])$
+has the same law under all the~$\Pr[\Bcdot|Y=y]$.
+%
+So we can compute the quantities linked to~$f^1$ in the same way
+as we computed those linked to~$f^0$: denoting
+\[ \hat{\beta} \coloneqq \frac{\tilde{\beta} \cdot \tilde{\alpha}}{\|\tilde{\alpha}\|^2} \, \tilde{\alpha} ; \]
+\[\beta^\dag \coloneqq \tilde{\beta} - \hat{\beta} \]
+(see Figure~\ref{fig-abo}), one finds
+%
+\begin{eqnarray}
+f^1 &=& (\tilde{\alpha}+\tilde{\beta})\cdot\xi ;\\
+f_1^1 &=& (\tilde{\alpha}+\hat{\beta})\cdot\xi ;\\
+f_2^1 &=& \beta^\dag \cdot \xi ,
+\end{eqnarray}
+whence respectively:
+\begin{eqnarray}
+V^1 &=& \| \tilde{\alpha} + \tilde{\beta} \|^2 ;\\
+V_1^1 &=& \|\tilde{\alpha}+\hat{\beta}\|^2 ;\\
+V_2^1 &=& \|\beta^\dag\|^2.
+\end{eqnarray}
+%
+As for~$f^0$, we check that $V^1 = V_1^1 + V_2^1$,
+since $\tilde{\alpha} + \tilde{\beta}$ is the orthogonal sum of
+$\tilde{\alpha} + \hat{\beta}$ and~$\beta^\dag$.
+Moreover one always has $V^1 \leq V^0$, resp.\ $V_2^1 \leq V_2^0$:
+the first inequality follows indeed from ${(\tilde{\alpha} + \tilde{\beta})}$'s being
+the projection of~${(\alpha + \beta)}$ on~$(\RR\omega)^\perp$,
+and the second one from $\beta^\dag$'s being
+the projection of~$\beta^*$ on~${(\RR\omega+\RR\alpha)}^\perp$.
+%
+These inequalities are consistent with the following corollary of Claim~\ref{clm1908},
+obtained by applying the claim conditionally to~$\mcal{G}_{j-1}$
+with the role of ``$f$'' played by~$f^{j-1}$ and the role of ``$Y$'' played by~$Y_j$:
+%
+\begin{Pro}\label{clm3701}
+For all~$1\leq j\leq M$, all~$0\leq i\leq N$,
+\[ \sum_{i'>i} V_{i'}^j \leq \sum_{i'>i} V_{i'}^{j-1} .\]
+\end{Pro}
+
+
+\subsection{Numerical computations}\label{par411}
+
+Now let us see a numerical example.
+Our parameters will be chosen so that the function~$f$ defined by~(\ref{forX1+X2})
+is optimal in the supremum~(\ref{for3878})
+defining the Hilbertian correlation coefficient ${\{\vec{X}:Y\}}$;
+other than that, the behaviour of our example will be generic:
+\[ \mbf{M} = \begin{pmatrix} 4&1&1 \\ 1&4&1 \\ 1&1&4 \end{pmatrix} .\]
+%
+For that $\mbf{M}$ the calculations of the previous subsection give:
+
+\begin{center}
+\renewcommand\tabcolsep{5pt}
+\noindent\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$\chi$  & $\alpha$ & $\beta$ & $\gamma$ & $\alpha\vec{\times}\beta$ &
+$\beta^1$ & $\omega^1$ & $\beta^*$ & $\omega^*$ &
+$\bar{\alpha}$ & $\bar{\beta}$ & $\tilde{\alpha}$ & $\tilde{\beta}$ & 
+$\hat{\beta}$ & $\beta^\dag$ \\
+\hline\hline
+$\chi_1$ & $4$ & $1$ & $1$ & $-3$ & $2$  & $2$  & $-1$ & $-1$  & $1/2$ & $1/2$ & $7/2$ & $1/2$ & $7/6$ & $-2/3$ \\
+\hline
+$\chi_2$ & $1$ & $4$ & $1$ & $-3$ & $1/2$ & $1/2$ & $7/2$ & $1/2$ & $1/2$ & $1/2$ & $1/2$ & $7/2$ & $1/6$ & $10/3$ \\
+\hline
+$\chi_3$ & $1$ & $1$ & $4$ & $15$ & $1/2$ & $1/2$ & $1/2$ & $7/2$ & $2$  & $2$  & $-1$ & $-1$ & $-1/3$ & $-2/3$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\noindent whence $\{X_1:Y\} = 1/2$ and $\{X_1:Y\}_{X_2} = 1/3$,
+thus $\{X_1:Y\}_{\mcal{M}} = 1/2$;
+and similarly $\{X_2:Y\}_{\mcal{M}} = 1/2$.
+
+Then Theorem~\ref{thm5750} yields:
+\[ \{ \vec{X} : Y \} \leq 1/\sqrt{2} = 0.707\ldots ,\]
+and even, according to the refinements of \S~\ref{parMinimalHypotheses}:
+\[ \{ \vec{X} : Y \} \leq \sqrt{13}/6 = 0.600\ldots ;\]
+on the other hand, the true result is:
+\[ \{ \vec{X} : Y \} = 1/\sqrt{3} = 0.577\ldots .\]
+So here the bound~(\ref{for3009}) is (fortunately!) correct, and even rather sharp.
+
+
+Now, as the proof of Theorem~\ref{thm6413} consists in studying the relations
+between the~$V^j_i$, let us see what these quantities look like here.
+One computes:
+\[ \begin{pmatrix} V_1^0 & V_2^0 \\ V_1^1 & V_2^1 \end{pmatrix} =
+\begin{pmatrix} 40\frac{1}{2} & 13\frac{1}{2} \\ 24 & 12 \end{pmatrix} .\]
+As a first consequence, we can check the conclusions of Proposition~\ref{clm3701}:
+$V_2^1 = 12 \leq V_2^0 = 13\frac{1}{2}$,
+resp.\ $V_1^1+V_2^1 = 36 \leq V_1^0+V_2^0 = 54$.
+%
+Going further, we check the conclusions of Claim~\ref{clm1959},
+which forbids the differences~$V_2^0 - V_2^1$ and~$(V_1^0+V_2^0) - (V_1^1+V_2^1)$
+to be too large: for the first difference, one has
+$V_2^0 - V_2^1 = 1\frac{1}{2} \leq \epsilon_2^2 V_2^0 = 3\frac{3}{8}$%
+\footnote{According to \S~\ref{parMinimalHypotheses},
+one can replace $\epsilon_2 = 1/2$ by~$\{X_2:Y\}_{X_1} = 1/3$
+in this inequality. Then the inequality even becomes an equality:
+this is linked to the optimality of certain tensorization results for Gaussian variables,
+cf.\ \S~\ref{parOptimality}.}, and for the second one,
+$(V_1^0+V_2^0) - (V_1^1+V_2^1) = 18 \leq
+\big( \epsilon_1 V_1^0 + \sqrt{V_2^0-V_2^1} \big)^2 = 19.419\dots$.
+
+
+\subsection{Some traps to avoid}
+
+To finish with this appendix,
+I would like to comment on what is true or not about the~$V^j_i$ in general situations.
+Proposition~\ref{clm3701} pointed out that for all~$\hat\imath \in \{0,\ldots,N\}$,
+$\sum_{i>\hat\imath} V^j_{i}$ is a nonincreasing function of~$j$;
+in particular, when one looks at the table of the~$V^j_i$,
+the last term ($\hat\imath=N-1$), resp.\ the total ($\hat\imath=0$) of line $j$
+can only decrease.
+%
+Moreover, if in some line $j$ all the~$V^j_i$ are zero from some position $\hat\imath+1$,
+then this property remains true in all the lower lines $j'>j$.
+That can be explained very simply, since
+saying that all the~$V^j_i$ are zero from position $\hat\imath+1$
+means indeed that $f$ is $(\mcal{G}_j\vee\mcal{F}_{\hat\imath})$-measurable,
+hence \emph{a fortiori} $(\mcal{G}_{j'}\vee\mcal{F}_{\hat\imath})$-measurable.
+%
+The following example, in which $f$ turns out to be $2X_1$, illustrates this phenomenon:
+\[ \mbf{M} = \begin{pmatrix} 1&0&0 \\ 1&0&0 \\ 1&0&1 \end{pmatrix}
+\qquad \Rightarrow \qquad
+\begin{pmatrix} V_1^0 & V_2^0 \\ V_1^1 & V_2^1 \end{pmatrix} =
+\begin{pmatrix} 4 & 0 \\ 2 & 0 \end{pmatrix} .\]
+
+However, keep careful: almost anything else
+you would like to say about the table of the~$V_i^j$ would be false!
+In particular, for $i<N$, $V_i^j$ is not a nonincreasing function of~$j$ in general;
+it is not even true that $V_i^j = 0 \ \Rightarrow V_i^{j'>j} = 0$,
+as shown by the following example:
+\[\label{for9186a} \mbf{M} = \left(\begin{array}{ccc} 1&0&0 \\ \!\!-1&1&0 \\ 1&1&1 \end{array}\right)
+\qquad \Rightarrow \qquad
+\begin{pmatrix} V_1^0 & V_2^0 \\ V_1^1 & V_2^1 \end{pmatrix} =
+\begin{pmatrix} 0 & 1 \\ 1/6 & 1/2 \end{pmatrix} .\]
+
+It is not true either that,
+if $V^j$ remains unchanged from one line to another
+(that is, the total of the~$V^j_i$ remains unchanged),
+then all the~$V^j_i$ are unchanged.
+In fact, that $V^{j+1}$ is equal to~$V^j$ means that, conditionally to~$\mcal{G}_j$,
+$f^j$ is centered w.r.t.~$Y_{j+1}$, and then $f^{j+1} = f^j$.
+However, the way $f^{j+1}$ decomposes into a sum of~$f^{j+1}_i$
+may be different to the way $f^j$ decomposed into a sum of~$f^j_i$,
+because conditioning w.r.t.~$Y_{j+1}$ may make the law of the~$X_i$ change!
+That is what happens in the following example:
+%
+\[\label{for9186b} \mbf{M} = \begin{pmatrix} 1&0&1 \\ 0&1&\!\!-1 \\ 0&0&1 \end{pmatrix}
+\qquad \Rightarrow \qquad
+\begin{pmatrix} V_1^0 & V_2^0 \\ V_1^1 & V_2^1 \end{pmatrix} =
+\begin{pmatrix} 1/2 & 3/2 \\ 1 & 1 \end{pmatrix} .\]
+
+
+
+
+\section{Appendix: A corollary of the Perron--Fro\-be\-nius theorem}%
+\label{parACorollaryOfThePerronFrobeniusTheorem}
+
+In this appendix I handle a lemma used
+in the proof of Theorem~\ref{thm6413}.
+We are working on the vector space $\RR^N$ for some $N>0$;
+a vector or a matrix is said to be ${>0}$ if all its entries are positive,
+resp.~${\geq 0}$ if all its entries are nonnegative.
+Then the \emph{Perron--Frobenius theorem}~\cite[Theorem~8.3.1]{HornJohnson} states that
+if a square matrix $A$ is ${\geq 0}$, then $A$ has some ${\geq 0}$ eigenvector
+for the eigenvalue $\rho(A)$. Our goal here is prove the following corollary:
+%
+\begin{Lem}\label{l3542}
+Let~$A \geq 0$ be a square matrix,
+then:
+\[\label{for6491} \inf \big\{ \lambda\geq 0 \colon (\exists u > 0)(Au \leq \lambda u) \big\} = \rho(A) .\]
+\end{Lem}
+
+\begin{proof}
+We prove separately each way of the equality.
+Let us begin with way~``$\leq$''.
+Let~$v \geq 0$ be some eigenvector of~$A$ for the eigenvalue $\rho(A)$.
+If $v > 0$, then the value $\lambda = \rho(A)$ checks the condition in the infimum and we are done.
+Otherwise if $v \ngtr 0$, up to a permutation of indices it has the form
+$(0,\ldots,0,v'_{n+1},\ldots,v'_N)$ with $0<n<N$ and all the~$v'_i$ positive.
+Reasoning by induction,
+assume that we have proved the way~``$\leq$'' of the lemma
+for all~$n<N$.
+Then the form of the eigenvector~$v$ forces~$A$ to write blockwise
+\[ A = \left( \begin{array}{cc} \tilde{A} & 0 \\ * & * \end{array} \right) \]
+with $\RR^{n\times n} \ni \tilde{A} \geq 0$.
+I claim that $\rho(\tilde{A}) \leq \rho(A)$, since
+if $\tilde{v}$ is an eigenvector of~$\tilde{A}$ for the eigenvalue~$\rho(\tilde{A})$,
+then for~$t \geq 0$
+\[ A^{t} \big(\tilde{v},0,\ldots,0\big) = \big(\rho(\tilde{A})^{t}\,\tilde{v},*,\ldots,*\big) ,\]
+so
+\[\label{for5711}
+\limsup_{t\longto\infty} \rho(\tilde{A})^{-t} \big|A^{t}(\tilde{v},0,\ldots,0)\big| > 0 \footnotemark \]
+\footnotetext{Equation~(\ref{for5711}) is meaningless if $\rho(\tilde{A})=0$,
+but in this case there is nothing to prove.}%
+and consequently $\rho(A) \geq \rho(\tilde{A})$.
+Now let~$\epsilon > 0$.
+By induction hypothesis
+there exists some $\RR^n \ni w \ab > 0$ such
+that $\tilde{A}w \leq {(\rho(\tilde{A})+\epsilon) w}$.
+Thus for~$\eta>0$, $\RR^N \ni (\eta w,v') > 0$ and
+\[
+A(\eta w,v') = \big( \eta \tilde{A} w,\rho(A)v'+O(\eta) \big)
+\leq \big( \eta (\rho(\tilde{A})+\epsilon) w, \rho(A)v' + O(\eta) \big)
+\stackrel{\eta \searrow 0}{\leq} \big(\rho(A)+\epsilon\big) (\eta w, v') .
+\]
+So $(\rho(A)+\epsilon)$ checks the condition in the right-hand side of the infimum,
+which ends the proof of the way~``$\leq$'' of~(\ref{for6491}).
+
+For the way~``$\geq$'', consider any~$\RR^N \ni u > 0$
+and let again $v \geq 0$ be some eigenvector of~$A$
+for the eigenvalue $\rho(A)$.
+Then there exists a (unique) $\beta \geq 0$
+such that $u-\beta v \geq 0$ but $u - \beta v \ngtr 0$.
+For this $\beta$, one of the entries of~$\beta v$ and~$u$
+is the same, say $\beta v_{i_0} = u_{i_0}$.
+So if $\lambda < \rho(A)$,
+\[ \lambda u_{i_0} < \rho(A) u_{i_0} = \rho(A) \beta v_{i_0} = \big(A(\beta v)\big)_{i_0}
+\leq \big(A(\beta v)\big)_{i_0} + \big(A(u-\beta v)\big)_{i_0}
+= (Au)_{i_0} ,\]
+thus $Au \nleqslant \lambda u$.
+That relation being true for any~$u>0$, $\lambda$ does not check the condition in the infimum,
+which proves the way~``$\geq$'' of~(\ref{for6491}).
+\end{proof}
+
+
+
+
+\section{Appendix: A geometric consequence of results on correlations}\label{par3lines}
+
+As I pointed out in Remark~\ref{rmk>3lines}, for Gaussian vectors
+Hilbertian correlations can be interpreted in terms of Euclidian spaces.
+In this appendix I will present a funny corollary of Lemma~\ref{l6791}
+following from this interpretation.
+Actually that result itself is more or less a pretext:
+the real goal of this appendix is in fact to show in an eloquent way
+the geometric meaning of maximal correlations
+and the Hilbertian frame that underlies them.
+
+First we need some vocabulary about Euclidian spaces:
+%
+\begin{Def}\strut
+\begin{enumerate}
+\item For~$L_1,L_2$ two vector lines in the Euclidian space $\RR^2$,
+or more generally in any Hilbert space,
+we call \emph{geometric angle} between~$L_1$ and~$L_2$,
+denoted by~$\widehat{L_1L_2}$, their ``angle'' in the elementary sense:
+for arbitrary $\vec{a}\in L_1\setminus\{0\}, \vec{b}\in L_2\setminus\{0\}$,
+\[\widehat{L_1L_2}= \arccos \frac{|\vec{a}\cdot\vec{b}|}{\|\vec{a}\|\,\|\vec{b}\|} \in [0,\pi/2].\]
+%
+\item For~$L_1,L_2$ and~$L_3\neq L_1,L_2$ three vector lines in the Euclidian space $\RR^3$
+(or any Hilbert space),
+we call \emph{apparent angle between~$L_1$ and~$L_2$ seen from $L_3$}
+the geometric angle that an observer located somewhere on~$L_3\setminus\{0\}$
+would have the impression, due to perspective, that $L_1$ and~$L_2$ make
+(see Figure~\ref{fig-3lines}): technically,
+it is the geometric angle $\widehat{L'_1L'_2}$,
+where $L_1'$ and~$L_2'$ are the respective orthogonal projections of~$L_1$ and~$L_2$
+onto the plane $(L_3)^\perp$.
+\end{enumerate}
+\end{Def}
+
+Then one has the following corollary of Lemma~\ref{l6791}:
+%
+\begin{Thm}\label{c8818}
+Let~$L_1,L_2,L_3$ be three distinct vector lines of~$\RR^3$.
+Denote $\widehat{A} \coloneqq \widehat{L_2L_3}, \widehat{B} \coloneqq \widehat{L_3L_1},
+\widehat{\Omega} \coloneqq \widehat{L_1L_2}$,
+and denote by~$\widehat{A}'$ the apparent angle between~$L_2$ and~$L_3$ seen from $L_1$,
+resp.~$\widehat{B}'$ the apparent angle between~$L_3$ and~$L_1$ seen from $L_2$,
+etc..
+Then the relative order of~$\widehat{A}$ and~$\widehat{A}'$ is the same
+as the relative order of~$\widehat{B}$ and~$\widehat{B}'$
+and as the relative order of~$\widehat{\Omega}$ and~$\widehat{\Omega}'$, i.e.,
+``$\widehat{A}'<\widehat{A}$'' (resp.\ ``$\widehat{A}'=\widehat{A}$'',
+resp.\ ``$\widehat{A}'>\widehat{A}$'')
+is equivalent to ``$\widehat{B}'<\widehat{B}$'' (resp.\ ``$\widehat{B}'=\widehat{B}$'',
+resp.\ ``$\widehat{B}'>\widehat{B}$''),
+etc..
+\end{Thm}
+
+\begin{Rmk}
+I found Theorem~\ref{c8818} by chance, one day that I was looking for a situation
+where one would have $\widehat{B}' > \widehat{B}$ but $\widehat{A}' < \widehat{A}$,
+in order to build a `nice' example for \S~\ref{par411}.
+I thought that such a situation would be generic,
+but after having looked for it without success,
+I realized that it was actually impossible, and that the explanation had a simple
+interpretation in terms of correlations.
+\end{Rmk}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{quatredes}
+\caption{This figure shows four different views of the same $3$-dimensional object.
+What interests us actually is only the three concurrent lines $L_1,L_2,L_3$,
+but we added a die
+centered at their point of concurrency to see depth better on the pictures
+{\footnotesize[Recall that on a die, the total number of points on two opposite faces is always $7$.]}.
+%
+On the top picture, the die is shown in generic position. We represent the angles~%
+$\widehat{A}$, $\widehat{B}$ and~$\widehat\Omega$; these angles are $3$-dimensional angles,
+which we underline by drawing them with double strokes.
+%
+On each of the bottom pictures, the die is viewed from the direction of one of the lines
+(from the left to the right, $L_3$, $L_1$ and~$L_2$),
+so that this line appears completely foreshortened.
+We represent the angles $\widehat\Omega'$, $\widehat{A}'$ and~$\widehat{B}'$
+made by the two other lines {\it as they appear on the drawing};
+we underline that these angles are $2$-dimensional by drawing them with simple strokes
+{\footnotesize[Note that in the case of~$\widehat{B}'$,
+the angular sector representing $\widehat{B}'$
+is not the projection of the angular sector representing $\widehat{B}$, but its supplementary%
+—otherwise $\widehat{B}'$ would be greater than $\pi/2$, which would contradict
+our `geometric' definition of angles.]}.
+On this example one has
+$\widehat{A}\simeq58\,^{\circ}, \widehat{B}\simeq71\,^{\circ}, \widehat\Omega\simeq15\,^{\circ}$ and $\widehat{A}'\simeq30\,^{\circ}, \ab \widehat{B}'\simeq34\,^{\circ}, \ab 
+\widehat\Omega'\simeq9\,^{\circ}$; so, perspective makes angles appear
+smaller than they are really for all three pairs of lines,
+which is in accordance with Theorem~\ref{c8818}.}
+\label{fig-3lines}
+\end{figure}
+
+\begin{proof}
+Fix three arbitrary nonzero vectors $\alpha, \ab \beta, \ab \omega$ of resp.~$L_1, \ab L_2, \ab L_3$;
+and consider the Gaussian system~(\ref{for5012}) of \S~\ref{parIllustrationOfTheProofs}
+for these vectors.
+Then the correlation coefficients between~$X_1$, $X_2$ and~$Y$
+can be interpreted as angles between~$L_1$, $L_2$ and~$L_3$;
+more precisely, one has the following correspondance:
+%
+\begin{Pro}\label{procscs}\strut
+\begin{ienumerate}
+\item\label{itmCos2}
+$\{X_1:X_2\}$ is the cosine of the geometric angle between~$L_1$ and~$L_2$;
+\item\label{itmCos3}
+$\{X_1:X_2\}_Y$ is the cosine of the apparent angle between~$L_1$ and~$L_2$ seen from $L_3$.
+\end{ienumerate}
+\end{Pro}
+%
+\begin{proof}
+(\ref{itmCos2}) is nothing but the Euclidian interpretation of Theorem~\ref{pro1857}.
+(\ref{itmCos3}) follows from the fact that,
+in the vector space spanned by jointly Gaussian real random variables,
+conditional expectation corresponds to orthogonal projection
+and independence corresponds to orthogonality.
+\end{proof}
+
+By Proprosition~\ref{procscs}, in our situation Lemma~\ref{l6791} gives:
+\[\label{for0803a} \big\{(X_1,X_2):Y\big\} = \sqrt{1 - \sin^2\widehat{B} \, \sin^2\widehat{A}'} .\]
+%
+Obviously the roles of~$X_1$ and~$X_2$ can be interchanged in the above argument,
+yielding:
+\[\label{for0803b} \big\{(X_2,X_1):Y\big\} = \sqrt{1 - \sin^2\widehat{A} \, \sin^2\widehat{B}'} .\]
+But $(X_1,X_2)$ and~$(X_2,X_1)$ generate the same $\sigma$-algebra,
+so ${\{(X_1,X_2):Y\}} \ab = {\{(X_2,X_1):Y\}}$,
+and thus, comparing~(\ref{for0803a}) and~(\ref{for0803b}):
+\[ \frac{\sin\widehat{A}'}{\sin\widehat{A}} = \frac{\sin\widehat{B'}}{\sin\widehat{B}} .\]
+This implies in particular that
+$\sin\widehat{A},\sin\widehat{A}'$ and~$\sin\widehat{B},\sin\widehat{B}'$
+have the same relative order, so also do $\widehat{A},\widehat{A}'$ and~$\widehat{B},\widehat{B}'$.
+A cyclic permutation of~$L_1$, $L_2$ and~$L_3$
+shows that the result is still valid for~$\widehat{\Omega},\ab \widehat{\Omega}'$.\linebreak[1]\strut
+\end{proof}
+
+\begin{Xpl}
+See Figure~\ref{fig-3lines} on page~\pageref{fig-3lines}.
+\end{Xpl}
+

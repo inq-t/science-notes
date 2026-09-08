@@ -1,0 +1,258 @@
+\chapter*{Introduction}%
+\addcontentsline{itc}{chapter}{Introduction}
+
+\section*{Overview of the monograph}
+
+This monograph is devoted to the study
+of Hilbertian correlations (also called ``maximal correlations'' or ``$\rho$-mixing coefficients''),
+in particular to showing how this concept can be `tensorized'
+to yield new results on systems of statistical mechanics exhibiting asymptotic independence.
+I have divided it into six chapters:
+%
+\begin{itemize}
+\item The first chapter, numbered ``\ref{parMotivation}'',
+aims at motivating the study of Hilbertian correlations and their tensorization.
+In this chapter, I will recall some classical results on the subcritical Ising model,
+which is a classical model showing asymptotic independence between pairs of spins.
+When one gets interested in very large `bunches' of spins,
+it is known that asymptotic independence cannot be captured by $\beta$-mixing any more,
+but that, in certain cases at least, it still holds in terms of $\rho$-mixing.
+The techniques used so far to establish $\rho$-mixing for bunches of spins
+are strongly limited by technical assumptions looking somehow artificial,
+which will motivate studying $\rho$-mixing `for itself' and trying to tensorize it.
+%
+\item In Chapter~\ref{parBasicHilbertianDecorrelations},
+I shall recall the definition of the Hilbertian correlation coefficient;
+I shall also recall some classical facts about this concept and give some examples.
+This chapter can be seen as a `crash course' on $\rho$-mixing for the non-specialist reader:
+almost nothing in it is new.
+%
+\item In Chapter~\ref{parEventSufficientConditions}, I shall give some new criteria
+to bound the Hilbertian correlation between two $\sigma$-algebras,
+which criteria assume bounds on the~$(\Pr[A\cap B] - \Pr[A]\Pr[B])$
+for events~$A$ and~$B$ belonging to these respective $\sigma$-algebras.
+My ``strong event sufficient condition'', which improves previous results by several authors,
+shall even be shown to be optimal.
+\item Chapter~\ref{parTensorization} is the core of this work:
+in it I will handle tensorization of Hilbertian decorrelations.
+This chapter begins with a refined version of the concept of correlation,
+called ``subjective correlation'', which is necessary to write the subsequent tensorization results.
+Then I shall state and prove my three main tensorization theorems:
+Theorem~\ref{thm5750} (`$N$~against~$1$' theorem)
+bounds the correlation between
+a `simple' and a `vector' variable;
+Theorem~\ref{thm6413} (`$N$~against~$M$' theorem)
+deals with correlation between two vector variables,
+and Theorem~\ref{thm0119} (`$\ZZ$~against~$\ZZ$' theorem)
+refines the previous one in the case where certain symmetries are present.
+%
+Then, I will discuss some refinement and optimality statements
+about these theorems; in \S~\ref{par3lines},
+I will also present a geometric corollary of tensorization results
+which underlines quite well the Hilbertian aspect of maximal correlations.
+%
+\item In Chapter~\ref{parOtherApplicationsOfTensorizationTechniques},
+I will continue to use the tensorization techniques of Chapter~\ref{parTensorization},
+but that time instead of proving tensorization results \emph{stricto sensu}
+I will turn to different types of results, namely the spatial central limit theorem
+and the presence of spectral gap for the Glauber dynamics.
+%
+\item Finally, Chapter~\ref{parApplications} will present some concrete applications
+of the results of this monograph. For instance, I shall prove new results about decorrelation
+between distant bunches of spins in Ising's model (see Theorem~\ref{t3730});
+I will also give results of the same type for quite general models of statistical mechanics (see e.g.\ Theorems~\ref{thmTchou} and~\ref{thmLama}),
+also proving spatial CLT and spectral gap for the Glauber dynamics for these models.
+I will also show how tensorization of Hilbertian correlations can be used
+to get `hypocoercivity' results~[Theorem~\ref{thmParis}].
+\end{itemize}
+
+
+\section*{Conventions and notation}
+
+Notation will not always be perfectly rigorous:
+to make reading easier, it may occur sometimes that formalism is slightly loose,
+or that some writing conventions or assumptions are implicit.
+However this shall only be done in situations
+where adding the missing information by the reader is (hopefully) obvious.
+
+Here is some notation used throughout this text:
+
+\paragraph{Miscellaneous}
+
+\begin{itemize}
+\item The symbol $\NN$ denotes the set of nonnegative integers, including $0$.
+The set of positive integers $\NN\setminus\{0\}$ is denoted by~$\NN^*$.
+%
+\item For~$a,b$ real numbers, $a\wedge b$ denotes $\min\{a,b\}$,
+resp.~$a\vee b$ denotes $\max\{a,b\}$; $a_+$ denotes the positive part of~$a$,
+i.e.\ $a\vee0$.
+%
+\item For~$A$ a set, $\C{A}$ denotes the complement set of~$A$
+(the set of reference shall always be clear);
+$\1{A}$ denotes the indicator function of~$A$,
+that is, the function being~$1$ on~$A$ and~$0$ on~$\C{A}$.
+%
+\item For~$A,B$ sets, $A\bigtriangleup B$ denotes the symmetric difference of~$A$ and~$B$,
+i.e.\ ${(A\setminus B)}\uplus(B\setminus A)$,
+where ``$\uplus$'' means the same as ``$\cup$'', but with underlining that the union is disjoint.
+%
+\item The identity matrix in dimension $n$ will be denoted by~$\mathbf{I}_n$.
+The transpose of a matrix $A$ will be denoted by~$\T{A}$.
+%
+\item If $\Theta$ is a set endowed with a metric $\dist$, then for
+$I,J\subset\Theta$, $\dist(I,J)$ denotes the distance between~$I$ and~$J$, that is,
+$\dist(I,J) \coloneqq \inf\{\dist(i,j) \colon {i\in I}, \ab {j\in J}\}$.
+%
+\item As is customary in physical literature, $\propto$ means ``proportional to''.
+%
+\item Whenever $I$ is a set and $X$ a symbol,
+$\vec{X}_I$ will be a shorthand for ``$(X_i)_{i\in I}$''.
+\end{itemize}
+
+
+\paragraph{Probability}
+
+\begin{itemize}
+\item We will always work on an implicit probability space $(\Omega,\mcal{B})$
+equipped with a probability measure~$\Pr$. Sub-$\sigma$-algebras of~$\mcal{B}$
+will be merely called ``$\sigma$-algebras'';
+I will also often write ``variable'' for ``random variable''.
+Unless explicitly specified, variables on~$\Omega$ can be valued in any set.
+%
+\item If $f$ is a real random variable, the expectation of~$f$ is denoted by~$\EE[f]$;
+its variance is denoted by~$\Var(f)$; its standard deviation is denoted
+by $\ecty(f) \coloneqq \sqrt{\Var(f)}$; if $g$ is another real variable,
+the covariance between~$f$ and~$g$ is denoted by~$\Cov(f,g) \coloneqq \EE[fg] - \EE[f]\EE[g]$.
+All that notation extends to the case where $f$ and~$g$ are valued
+in some vector space $\RR^N$, except that in that case it refers to vectors or matrices.
+%
+\item If $B$ is an event with $\Pr[B]>0$, then $\Pr[A|B]$, $\EE[f|B]$, $\Var(f|B)$, \dots\ 
+stand resp.\ for the probability of~$A$, the expectation of~$f$, the variance of~$f$, \dots\ 
+under the conditional law~$\dx\Pr[\Bcdot|B] \coloneqq \1{B}\,\dx\Pr[\Bcdot] \div\Pr[B]$.
+Similarly, if $\mcal{F}$ is a $\sigma$-algebra,
+$\Pr[A|\mcal{F}]$, $\EE[f|\mcal{F}]$, \dots\ stand for the conditional probability of~$A$,
+the conditional expectation of~$f$, \dots\ w.r.t.~$\mcal{F}$.
+%
+\item Concerning conditional expectations, I will actually use two different conventions:
+for~$\mcal{G}$ a $\sigma$-algebra, $\EE[f|\mcal{G}]$ can also be denoted by~$f^{\mcal{G}}$.
+Both conventions can be used inside the same formula.%
+\footnote{The use of the first or the second convention will depend on
+the way we prefer to see the conditional expectation of~$f$ w.r.t.~$\mcal{G}$:
+if it is rather seen as the expectation of~$f$ knowing the information of~$\mcal{G}$,
+notation $\EE[f|\mcal{G}]$ will be chosen, while if it is more seen like
+the $\mcal{G}$-measurable function best approximating $f$, we will use the notation $f^{\mcal{G}}$.}%
+\footnote{One must not confuse $\Var(f|\mcal{G})$,
+which is the variance of~$f$ under the law $\Pr[\Bcdot|\mcal{G}]$,
+with~$\Var(f^{\mcal{G}})$ which is the (unconditioned) variance of the random variable $f^{\mcal{G}}$.
+One has the well-known identity $\Var(f) = \Var(f^{\mcal{G}}) + \EE[\Var(f|\mcal{G})]$,
+which I shall refer to as \emph{associativity of variance}.}
+%
+\item If $X$ is a variable on~$\Omega$, the $\sigma$-algebra generated by~$X$
+(that is, the smallest $\sigma$-algebra w.r.t.\ which $X$ is measurable)
+is denoted by~$\sigma(X)$. If $\mcal{F}$ and~$\mcal{G}$ are $\sigma$-algebras,
+the $\sigma$-algebra generated by~$\mcal{F}$ and~$\mcal{G}$
+(that is, the smallest $\sigma$-algebra containing both~$\mcal{F}$ and~$\mcal{G}$)
+is denoted by~$\mcal{F} \vee \mcal{G}$,
+and for an arbitrary number of $\sigma$-algebras this notation extends into the $\infty$-ary operator~$\bigvee$.
+%
+\item An event $A\in\mcal{B}$ is said to have trivial probability, or to be trivial,
+if $\Pr[A]\in\{0,1\}$. A $\sigma$-algebra is said to be trivial if all its events are trivial.
+The $\sigma$-algebra $\{\emptyset,\Omega\}$, which is trivial under any law $\Pr$,
+will be denoted by~$\mcal{O}$ and refered to as ``the'' trivial sigma-algebra.
+%
+\item The Lebesgue measure on~$\RR^n$ will be denoted by~$\dx{x}$,
+``$x$'' being the name of the integration variable.
+For a Borel set $A\subset\RR^n$, $\int_{x\in A} \dx{x}$ will sometimes be denoted by~$|A|$.
+%
+\item For~$C$ a positive-semidefinite matrix (possibly of dimension $1$,
+in which case it is identified with~$\sigma^2 \in \RR_+$), $\mcal{N}(C)$ denotes
+the law of the centered Gaussian vector with covariance matrix~$C$.
+I will write $\mcal{N}(C)+m$
+to denote the non-centered Gaussian vector with variance $C$ and mean $m$.
+\end{itemize}
+
+
+\paragraph{Functional analysis}
+
+\begin{itemize}
+\item Unless otherwise specified, all the functional spaces considered in this monograph
+shall be real.
+%
+\item For~$I$ an open interval of~$\RR$ and~$k\in\NN\cup\{\infty\}$,
+$\mcal{C}^k_0(I)$ denotes the subset of functions of~$\mcal{C}^k(I)$ with compact support.
+%
+\item If $\mu$ is a nonnegative measure on some measurable space $(\Omega,\mcal{B})$,
+$L^2(\mu)$ denotes the set of measurable functions $f$ (up to~$\mu$-a.e.\ equality) such that
+$\int_{\Omega} f(\omega)^2 \,\dx\mu(\omega) < \infty$.
+If $I$ is a countable set, $L^2(I)$ denotes the set of functions $f : I\to\RR$ such that
+$\sum_{i\in I} f(i)^2 < \infty$.
+If $\mcal{F}$ is a $\sigma$-algebra, $L^2(\mcal{F})$ denotes the space of
+$\mcal{F}$-measurable functions (up to a.s.\ equality)
+which are square-integrable w.r.t.~$\Pr$.
+All these spaces are equipped with their natural Hilbertian product
+$\langle\Bcdot,\Bcdot\rangle$ and the associated norm $\|\Bcdot\|$.
+%
+\item For~$\mu$ a finite measure, in~$L^2(\mu)$ the constant functions make a line
+which can be identified with~$\RR$;
+then, $\ldb(\mu)$ will denote the quotient $L^2(\mu)/\RR$,
+equipped with its natural Hilbert structure.
+In other words, if $\bar{f}\in \ldb(\mu)$ is the projection of~$f\in L^2(\mu)$,
+$\|\bar{f}\|_{\ldb} \coloneqq \inf\{\|f-a\|_{L^2}\colon {a\in\RR}\} =
+\big( \|f\|_{L^2}^2 - \langle f,1/\|1\|\rangle_{L^2}^2 \big)^{1/2}$.
+$\ldb(\mu)$ can also be seen as the subspace of centered functions of~$L^2(\mu)$,
+i.e.\ as $\{ f\in L^2(\mu)\colon \langle f,1\rangle = 0 \}$;
+throughout the monograph we will implicitly switch between both interpretations.
+%
+\item If $L \colon H_1\to H_2$ is a linear operator between two Hilbert spaces,
+then $L^* \colon H_2\to H_1$ denotes the adjoint operator of~$L$, characterized by the relationship
+$\langle L^*y, x \rangle_{H_1} = \langle y, Lx \rangle_{H_2}$.
+%
+\item If $L \colon E\to F$ is a linear operator between two Banach spaces
+(not necessarily Hilbert) with respective norms~$\|\Bcdot\|_E$ and~$\|\Bcdot\|_F$,
+the operator norm of~$f$, denoted by~$\VERT f\VERT$, is defined as
+$\sup\{\|Lx\|_F\colon \|x\|_E=1\}$.
+%
+\item If $L \colon E\to E$ is a bounded linear operator on a Banach space,
+then $\rho(L)$ denotes the spectral radius of~$f$, that is,
+$\rho(L) \coloneqq \lim_{k\longto\infty} \VERT L^k \VERT^{1/k}$
+—this limit always exists.
+%
+\item A column vector $(a_i)_{i\in I}$ will automatically be identified with
+the corresponding element of~$L^2(I)$.
+Likewise, a matrix $A = (\!(a_{ij})\!)_{(i,j)\in I\times J}$ will be identified
+with the corresponding linear operator from $L^2(J)$ to~$L^2(I)$.
+%
+\item In our computations we will often use the Cauchy\,-\,Schwarz inequality
+and its variants%
+\footnote{For instance, the discrete form $\big|\sum_{i=1}^N a_ib_i\big|
+\leq \big(\sum_{i=1}^N a_i^2\big)^{1/2}\big(\sum_{i=1}^N b_i^2\big)^{1/2}$,
+the probabilistic form $|\Cov[fg]| \leq \ecty(f)\ecty(g)$, etc..};
+when using such an inequality,
+we will indicate it by writing ``CS'' under the inequality sign concerned.
+Similarly, ``IP'' under an equality sign will mean
+that this equality follows from integrating by parts.
+\end{itemize}
+
+
+
+
+\section*{Acknowledgements}
+
+This work owes to many people's help.
+First of all I must mention V.~Beffara, who launched me on this topic incidentally.
+His relevant comments, as well of those of (among others)
+Y.~Ollivier, C.~Villani, Y.~Velenik, T.~Bodineau, C.~Shalizi and R.~Bradley,
+have also been the origin for several important improvements of this monograph.
+
+Several colleagues provided me with some help on mathematical topics
+I was not familiar with. In particular,
+Y.~Ollivier suggested to me the use of Lipschitz spaces to prove Lemma~\ref{lem7792};
+S.~Martineau pointed out how Gershgorin's Lemma solved a technical point
+in the complete proof of Theorem~\ref{thm6657-0};
+V.~Calvez had the idea of using Laplace transform to prove Lemma~\ref{l1939a}.
+Over the Internet, F.~Martinelli and S.~Shlosman also gave me
+precious bibliographic references on the state of the art
+about weak and strong mixing in statistical mechanics.
+
+Most of the drawings in this monograph were made thanks to the excellent \LaTeX\ extension \hbox{Ti\textit{k}Z}, combined with computations in C language. The dice of Figure~\ref{fig-3lines} have been kindly drawn for me by A.~Alvarez, using POV-Ray.
+

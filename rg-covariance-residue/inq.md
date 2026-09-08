@@ -5,6 +5,7 @@ inq.include:
 inq.ambient:
   - "**/*.py"
   - "**/*.txt"
+keywords: [conditional covariance, coarse-graining, renormalization, source locality, correlation decay]
 ---
 # RG Covariance Residue
 
@@ -238,7 +239,7 @@ Locality of a deterministic block map does **not** imply that its forgotten info
 
 ## From residues to physical mass
 
-Apply (CR8) at each regulator, including to reflected diagonal pairs from a fixed source family whose complex linear span reconstructs a dense vacuum-complement subspace. Compare support separation \(r\) with OS translation distance \(s\) explicitly. If \(r\ge s-\delta_F\) for a fixed source-dependent physical offset, the already summed estimate obeys \(e^{-\sigma_0r}\le e^{\sigma_0\delta_F}e^{-\sigma_0s}\). Unlike the individual-shell factor \(e^{m\delta_F/b_j}\), this prefactor is cutoff independent, so the exponent is preserved beyond a source-dependent onset. Pass the uniform bounds through a nontrivial reflection-positive continuum limit satisfying the full OS reconstruction hypotheses. [[auxiliary-response-localization/inq|The positive spectral-measure argument]] then gives
+Apply (CR8) at each regulator, including to reflected diagonal pairs from a fixed source family whose complex linear span reconstructs a dense vacuum-complement subspace. Compare support separation \(r\) with OS translation distance \(s\) explicitly. If \(r\ge s-\delta_F\) for a fixed source-dependent physical offset, the already summed estimate obeys \(e^{-\sigma_0r}\le e^{\sigma_0\delta_F}e^{-\sigma_0s}\). Unlike the individual-shell factor \(e^{m\delta_F/b_j}\), this prefactor is cutoff independent, so the exponent is preserved beyond a source-dependent onset. Pass the uniform bounds through a nontrivial reflection-positive continuum limit satisfying the full OS reconstruction hypotheses. [[positive-semigroup-decay/physical-reconstruction-and-units|The reconstructed total-family decay theorem]] then gives
 
 $$
 H-E_0\ge\hbar c\,\sigma_0(I-P_0).

@@ -106,5 +106,29 @@
     {"module": "rg-covariance-residue", "lead": "The entry and its spectral return were inspected; conditioned-source transport, block-fiber code and full multi-scale proof resources were not audited."},
     {"module": "algebra", "lead": "Only the exceptional state-comparison clump and selected foundational links were inspected. No claim is made about the rest of the algebra module or its missing-source baseline."},
     {"module": "trace-dirichlet-descent", "lead": "Paired-filtration dependencies were recognized but deferred because the current finite-index/spectral-wall round overlaps their likely next owner."}
-  ]
+  ],
+  "completed_rounds": [
+    {
+      "finding": "F1",
+      "commit": "53fe228",
+      "record": "scripts/refactors/2026-09-08-measured-response-sections.json"
+    },
+    {
+      "finding": "F2",
+      "commit": "3707d92",
+      "record": "scripts/refactors/2026-09-08-transport-intertwining-links.receipt.json"
+    },
+    {
+      "finding": "F3",
+      "commit": "4ab2ca5",
+      "record": "scripts/refactors/2026-09-08-exceptional-integration.json"
+    },
+    {
+      "finding": "F4",
+      "record": "scripts/refactors/2026-09-08-spectral-decay-integration.json",
+      "status": "implemented and validated; commit is the revision introducing this completion record"
+    }
+  ],
+  "next_ranked_finding": "F5; the other unreviewed_frontier entries remain open."
+
 }

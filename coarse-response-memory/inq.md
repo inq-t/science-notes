@@ -3,6 +3,7 @@ inq.module: "coarse-response-memory"
 inq.include:
   - "**/*.md"
   - "**/*.py"
+keywords: [hidden response, memory kernel, compression, spectral measure, visible gap]
 ---
 # Coarse Response Memory
 

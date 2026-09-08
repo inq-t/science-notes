@@ -1,0 +1,96 @@
+{
+  "source_commit": "4ab2ca5740e1cb7e96e9ae9ad8f4e9a5c3c21d56",
+  "source_path": "auxiliary-response-localization/inq.md",
+  "source_sha256": "6e700a14c76d3b20875c03e82aa169fc93e4d91ea0909764354dc6254567def4",
+  "support_source_sha256": {
+    "auxiliary-response-localization/exact-source-locality-without-a-full-form-gap.md": "712a9462ff950fc60326024d4a0a2f37bc5a7edb24cb0d3457c659048de49972"
+  },
+  "old_heading_to_new": {
+    "The operator ledger": [
+      "auxiliary-response-localization/witten-covariance-and-local-response.md#The configuration and physical carriers"
+    ],
+    "Eliminating the auxiliary clock": [
+      "auxiliary-response-localization/auxiliary-clock-elimination.md"
+    ],
+    "The Witten-resolvent form": [
+      "auxiliary-response-localization/witten-covariance-and-local-response.md"
+    ],
+    "From one common exponent to an OS gap": [
+      "positive-semigroup-decay/total-family-spectral-gap.md",
+      "positive-semigroup-decay/physical-reconstruction-and-units.md"
+    ],
+    "Two non-equivalent stopping routes": [
+      "auxiliary-response-localization/inq.md",
+      "conditional-correlation-tensorization/inq.md"
+    ],
+    "The Yang--Mills theorem still owed": [
+      "auxiliary-response-localization/yang-mills-response-calibration.md#The continuum construction still required",
+      "auxiliary-response-localization/yang-mills-response-calibration.md#A lower edge per physical length"
+    ],
+    "The Copernican interpretation": [
+      "auxiliary-response-localization/yang-mills-response-calibration.md#The Copernican interpretation"
+    ],
+    "Failure conditions": [
+      "auxiliary-response-localization/auxiliary-clock-elimination.md",
+      "auxiliary-response-localization/witten-covariance-and-local-response.md#Gauge invariance and the exact sector",
+      "auxiliary-response-localization/yang-mills-response-calibration.md"
+    ]
+  },
+  "label_owners": {
+    "ARL1": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL2": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL3": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL4": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL5": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL6": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL7": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL8": "auxiliary-response-localization/auxiliary-clock-elimination.md",
+    "ARL9": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL10": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL11": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL12": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL13": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL14": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL15": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL16": "auxiliary-response-localization/witten-covariance-and-local-response.md",
+    "ARL16a": "positive-semigroup-decay/physical-reconstruction-and-units.md",
+    "ARL17": "positive-semigroup-decay/total-family-spectral-gap.md",
+    "ARL18": "positive-semigroup-decay/physical-reconstruction-and-units.md",
+    "ARL19": "positive-semigroup-decay/total-family-spectral-gap.md",
+    "ARL19a": "positive-semigroup-decay/total-family-spectral-gap.md",
+    "ARL19b": "conditional-correlation-tensorization/inq.md",
+    "ARL20": "conditional-correlation-tensorization/inq.md",
+    "ARL20a": "conditional-correlation-tensorization/inq.md",
+    "ARL21": "auxiliary-response-localization/yang-mills-response-calibration.md",
+    "ARL21a": "auxiliary-response-localization/yang-mills-response-calibration.md",
+    "ARL22": "auxiliary-response-localization/yang-mills-response-calibration.md"
+  },
+  "scope_refinements": [
+    "Hilbert-total local family replaces operator/form core language; full OS translation reconstruction and vacuum-complement identification remain separate.",
+    "Witten realization explicitly uses a finite closed connected smooth compact carrier, smooth positive law, compatible self-adjoint domains and exact-sector reduced inverse.",
+    "ES6 to ES12 remains a direct off-support/covariance alternative, not a derivation of the global ARL15 weighted norm at the same endpoint exponent.",
+    "Continuum calibration requires controlled full covariance prefactors and transported source norms, not only a positive liminf of exponents.",
+    "Every ARL tagged display assigned here is preserved exactly; external spectral and tensorization owners are authored by root.",
+    "ES11 retains its formula and redirects the duplicated Poisson/integration-by-parts proof to the Witten owner.",
+    "Primary-source scope: Lo v9 Proposition 22/Corollary 23 permits support-dependent exponent and prefactor under weighted Hessian coercivity; Shigekawa Theorems 5.1-5.2 assumes quantitative potential/interaction bounds; Shen-Zhu-Zhu Corollary 1.6 has support-independent exponent under explicit strong coupling but does not supply arbitrary-pinning or continuum uniformity."
+  ],
+  "validation": {
+    "local_tagged_displays": "All retained ARL display blocks exactly match source.",
+    "receipt_sha256_unchanged": {
+      "auxiliary-response-localization/receipts/auxiliary_response_localization_receipt.py": "5e8fe81289625ad090e00d1d31abde46003115463704c16d75f6c29d7557b15a",
+      "auxiliary-response-localization/receipts/exact_source_locality_receipt.py": "db9533b687e30efd4aecb29facd278e5abb5bddac7801dc31fa18af82bc5b1b0",
+      "auxiliary-response-localization/receipts/auxiliary-response-localization-receipt-output.txt": "8c72a330c45688191c948aa986221370f38a9d4c1b9d54298a5be72602075e76"
+    },
+    "receipts": "Both standalone NumPy receipts passed from unrelated cwd C:/ before the prose split; executable and stored-output bytes remain unchanged.",
+    "lf_newlines": true,
+    "resource_closure": {
+      "reachable": 8,
+      "resources": 8,
+      "orphans": []
+    },
+    "all_owner_ARL_labels": 27,
+    "original_ARL_labels": 27,
+    "ES_display_blocks_unchanged": 17,
+    "link_format_and_label_findings": []
+  }
+}

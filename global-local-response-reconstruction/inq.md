@@ -305,7 +305,7 @@ The Clay problem itself remains well typed. The category mistake lies in expecti
 
 ## Two exact stopping certificates
 
-The complete fixed-collar response angle is the stronger boundary-response certificate, but it is not required by the exact spectral last mile. [[auxiliary-response-localization/inq|Auxiliary response localization]] proves the alternative route. A local proof dynamics may have an arbitrary time normalization; if its centered \(L^2\) forgetting rate and multiplicativity-defect influence speed are both controlled, eliminating that auxiliary time gives a normalization-invariant **static** inverse-distance exponent.
+The complete fixed-collar response angle is the stronger boundary-response certificate, but it is not required by the exact spectral last mile. [[auxiliary-response-localization/auxiliary-clock-elimination|Auxiliary clock elimination]] supplies one way to establish the alternative correlation estimate. A local proof dynamics may have an arbitrary time normalization; if its centered \(L^2\) forgetting rate and multiplicativity-defect influence speed are both controlled, eliminating that auxiliary time gives a normalization-invariant **static** inverse-distance exponent.
 
 Let one limiting reflected law \(\omega_\infty\) satisfy the full OS hypotheses and reconstruct \((\mathcal H_\infty,H_\infty,P_{0,\infty})\). Put
 
@@ -331,7 +331,7 @@ C_\psi e^{-\sigma_*s}
 \tag{GR19b}
 $$
 
-where \(C_\psi<\infty\) and \(s_\psi<\infty\) may depend on \(\psi\), then the spectral theorem gives
+where \(C_\psi<\infty\) and \(s_\psi<\infty\) may depend on \(\psi\), then [[positive-semigroup-decay/total-family-spectral-gap|the total-family spectral-gap theorem]] gives
 
 $$
 H_\infty-E_{0,\infty}
@@ -340,7 +340,7 @@ H_\infty-E_{0,\infty}
 \tag{GR19c}
 $$
 
-This dense-local-family route avoids a transverse-surface union bound because it annihilates the low spectral projection vector by vector and then uses Hilbert-space density. It does not construct the complete midpoint-to-two-boundary operator \(K_r\). Conversely, subjective pair correlations controlled uniformly under every subfamily pinning can be tensorized by [[library/tensorizing-maximal-correlations/inq|Peyre's theorem]] into \(\rho(U_I,U_J)\leq\min\{1,\|E_{I,J}\|_{2\to2}\}\). An area-stable complete angle requires the resulting matrix norm, not merely each entry, to be uniformly smaller than one. The two certificates have the same downstream spectral consequence under their respective limiting-law and reconstruction hypotheses, but different strengths and different missing lemmas.
+The [[positive-semigroup-decay/physical-reconstruction-and-units|physical reconstruction contract]] explains the required totality and translation direction. This route avoids a transverse-surface sum, with no operator-domain core assumption. It does not construct the complete midpoint-to-two-boundary operator \(K_r\). Conversely, conditional pair correlations controlled uniformly under every subfamily pinning can be tensorized by [[conditional-correlation-tensorization/inq|the complete conditional-correlation theorem]] into \(\rho(U_I,U_J)\leq\min\{1,\|E_{I,J}\|_{2\to2}\}\). An area-stable complete angle requires the resulting matrix norm, not merely each entry, to be uniformly smaller than one. The two certificates have the same downstream spectral consequence under their respective limiting-law and reconstruction hypotheses, but different strengths and different missing lemmas.
 
 ## What the candidate mathematics can contribute
 

@@ -1,0 +1,1685 @@
+\chapter{Concrete examples}\label{parApplications}%
+\addcontentsline{itc}{chapter}{\protect\numberline{\thechapter}Concrete examples}
+
+It is now time to see what the results of Chapters~\ref{parTensorization}
+and~\ref{parOtherApplicationsOfTensorizationTechniques}
+yield for concrete models of statistical physics.
+I will try to give rather different types of examples,
+so as to illustrate the advantages of working with Hilbertian correlations:
+this frame is indeed quite general, as it requires little structure on the models considered.
+
+In \S~\ref{parBackToIsingsModel} we will look back at Ising's model,
+seeing how tensorization of Hilbertian decorrelations
+improves the results of \S~\ref{parSomeResultsOnIsingsModel},
+and what other results are given by the theorems of
+\S~\ref{parOtherApplicationsOfTensorizationTechniques}.
+We will also consider two kinds of generalizations, namely
+when the range of interactions becomes infinite
+and when the strength of the interactions is random (\emph{spin glasses}).
+In the two next sections we will look at models with continuous states spaces:
+first a quite general class of linear models [\S~\ref{parQuadraticModels}],
+then a family of nonlinear models [\S~\ref{parNonlinearLatticeOfParticles}].
+Finally in \S~\ref{parAHypocoerciveSystemOfInteractingParticles} we will see
+how one can consider time as a supplementary dimension of the system
+to get contractivity results for non-reversible Markov chains
+(\emph{hypocoercivity}) on an infinite system of particles.
+
+\begin{NOTA}
+In this chapter, all the probability systems considered
+will be endowed with their natural $\sigma$-metalgebras,
+cf.\ Definition~\ref{def3128}.
+To alleviate notation, I will give no names to these $\sigma$-metalgebras,
+but will plainly write ``${\{X:Y\}_*}$'' to mean
+``the subjective decorrelation between~$X$ and~$Y$
+seen from the natural $\sigma$-metalgebra of the underlying system''.
+\end{NOTA}
+
+
+
+\section{Back to Ising's model}\label{parBackToIsingsModel}
+
+\subsection{Standard Ising's model}
+
+In all this section, we work on the lattice $\ZZ^n$
+equipped with its natural distance $\dist$;
+accordingly $|\Bcdot|$ will denote the $\ell^1$ norm on~$\RR^n$.
+Recall the definition of Ising's model and the related notation that we introduced
+in \S~\ref{parSomeResultsOnIsingsModel}, and Theorem~\ref{t4505}
+on the existence of a completely analytical regime.
+
+The following theroem states that Ising's model in completely analytical regime
+is $\rho$-mixing, i.e.\ that two distant bunches of spins
+are little correlated in the sense of maximal correlation:
+%
+\begin{Thm}\label{t3730}
+For Ising's model on~$\ZZ^n$ in the completely analytical regime,
+\begin{ienumerate}
+\item\label{i3743a} There exists some $\psi'>0$ (the same as in Theorem~\ref{t4505})
+such that for all disjoint $I,J\subset\ZZ^n$, one has when~$\dist(I,J)\longto\infty$ that
+\[\label{f4615}
+\{ \vec\omega_I : \vec\omega_J \} \leq \exp\big[-\big(\psi'+o(1)\big) \, \dist(I,J)\big] ,\]
+where the ``$o(1)$'' can be
+easily computed as an explicit function of~$\dist(I,J)$, $n$, $T$, $\psi'$ and the
+$C'$ appearing in Theorem~\ref{t4505}.
+\item\label{i3743b} There exists some $k<1$ such that for all disjoint $I,J\subset\ZZ^n$,
+\[ \{ \vec\omega_I : \vec\omega_J \} \leq k .\]
+\item\label{i5202}
+Points~(\ref{i3743a}) and~(\ref{i3743b}) remain valid uniformly under any law of the form
+$\Pr[\Bcdot|{\vec\omega_K=\vechat{\omega}_K}]$,
+for~$K \subset \ZZ^n$ and~$\vechat{\omega}_K \in \{\pm1\}^K$ a `boundary condition' on~$K$.
+\end{ienumerate}
+\end{Thm}
+
+\begin{Rmk}
+Let us compare Theorem~\ref{t3730} with Theorem~\ref{t4505}.
+Both theorems state decorrelation between distant bunches of spins
+above temperature $T_{\mrm{c}}'$; the difference relies in using $\rho$-mixing
+rather than $\beta$-mixing to quantify dependence between the bunches
+in Theorem~\ref{t3730}.
+
+Both results give an exponential decay of correlations,
+with the same exponential constant $\psi'$,
+but Theorem~\ref{t3730} is more powerful
+in the sense that the bound~(\ref{f4615}) is uniform in the size of~$I$ and~$J$
+while (\ref{f7869}) was not.
+Moreover, thanks to Point~(\ref{i3743b}) we get a non-trivial result
+for any choice of disjoint~$I$ and~$J$, which was not the case beforehand.
+Recall that the drawbacks of Theorem~\ref{t4505} were inherent to $\beta$-mixing,
+as Theorem~\ref{c3793} shew.
+
+Both result remain valid under conditioning.
+However, if one takes a \emph{random} boundary condition%
+—that is, if one works under the law $\Pr[\Bcdot|{\vec\omega_K\in C}]$
+for some non-singleton $C \subset \{\pm1\}^K$\hbox{ —,}
+then Point~(\ref{i5202}) of Theorem~\ref{t3730} fails (cf.\ Remark~\ref{r4670}),
+while (\ref{f7869}) is still valid by convexity of the total variation norm.
+\end{Rmk}
+
+\begin{Rmk}
+Let us compare Theorem~\ref{t3730} with Theorem~\ref{c6177}.
+The result of Theorem~\ref{c6177} can be rewritten:
+\[ \big\{ \vec\omega_{\{0\}\times\ZZ^{n-1}} : \vec\omega_{\{x\}\times\ZZ^{n-1}} \big\}
+\leq e^{-\psi x} . \]
+Theorem~\ref{t3730} can be seen as a generalization of that result
+to the case where $I$ and~$J$ have arbitrary shapes.%
+\footnote{Note that in the case $I$ and~$J$ are hyperplanes,
+we shew on page~\pageref{parHyperplanesInIsingsModel}
+that (\ref{f4615}) could be improved into
+\[ \big\{ \vec\omega_{\{0\}\times\ZZ^{n-1}} : \vec\omega_{\{x\}\times\ZZ^{n-1}} \big\}
+\leq e^{-\psi' x} .\]}
+Moreover, Point~(\ref{i5202}) also gives the existence of a conditional version,
+which we did not have before.
+
+There is however a price to pay for this greater generality,
+since we had to require complete analyticity rather than just weak mixing,
+which can be really more restrictive in some cases
+(cf.\ Footnote~\ref{Tc'=Tc?} on page~\pageref{Tc'=Tc?}).
+\end{Rmk}
+
+\begin{Rmk}
+Continuing the previous remark,
+a natural open question is whether one can tensorize maximal decorrelation
+under assumptions of weak mixing type.
+%
+In the case of Ising's model at least, I expect $\rho$-mixing to remain true%
+—even for arbitrary shapes—as soon as $T>T_{\mrm{c}}$,
+because on the one hand Theorem~\ref{c6177}
+proves $\rho$-mixing between parallel hyperplanes,
+while on the other hand $\rho$-mixing
+seems to hold also in the `opposite extreme case'
+when $I$ and~$J$ make a check pattern.
+
+By the way, it is likely that the natural condition
+should not be weak mixing itself but rather something like \emph{strong mixing for cubes}
+(often called merely \emph{strong mixing}%
+\footnote{Strong mixing \emph{stricto sensu} is actually
+the same as complete analyticity, so that mathematicians have got used to undermeaning
+``for cubes''—but strong mixing for cubes is strictly weaker than complete analyticity!%
+~\cite[\S~2]{MO}.},
+which means that when a boundary condition is fixed outside a cube of arbitrary edge,
+changing one spin on the boundary has an effect in total variation
+which decreases exponentially with the distance to the spin changed.
+%
+In fact it has been proved~\cite{MOS} that in dimension~2,
+weak mixing is equivalent to strong mixing.
+\end{Rmk}
+
+\begingroup\def\proofname{Proof of Theorem~\ref{t3730}}\begin{proof}
+Theorem~\ref{t3730} will be a direct consequence of the work of Chapter~\ref{parTensorization}
+as soon as we show that, denoting by~$*$ the natural $\sigma$-metalgebra of the system
+(i.e.\ the $\sigma$-metalgebra generated by the~$\omega_i$), for all distinct $i,j\in\ZZ^n$,
+one has
+\[\label{f7295} \{ \omega_i : \omega_j \}_* \leq c_0C' e^{-\psi' \dist(i,j)} \wedge k_0 \]
+for some explicit $c_0 < \infty$ and~$k_0 < 1$ only depending on~$n$ and~$T$.
+Then indeed, Proposition~\ref{pro8882} yields
+%
+\begin{multline}
+\{ \vec\omega_I : \vec\omega_J \} \leq
+\sum_{\substack{\delta\in\ZZ^n\\|\delta|\geq\dist(I,J)}}
+c_0C' e^{-\psi'|\delta|}
+= c_0C' \sum_{d=\dist(I,J)}^\infty
+\#\{\delta\in\ZZ^n\colon |\delta|=d\} e^{-\psi'd} \\
+\stackrel{\mathsmaller{\dist(I,J)\longto\infty}}{\sim}
+c_0C' \sum_{d=\dist(I,J)}^\infty \frac{2^nd^{n-1}}{(n-1)!} e^{-\psi'd}
+\sim \frac{c_0C'2^n}{(n-1)!} \dist(I,J)^{n-1} e^{-\psi'\dist(I,J)} \\
+= e^{-(\psi'+o(1))\dist(I,J)},
+\end{multline}
+whence Point~(\ref{i3743a}). Moreover, since
+\[ \sum_{\substack{\delta\in\ZZ^n\setminus\{0\}
+\\|\delta|\leq\dist(I,J)}} c_0C' e^{-\psi' \dist(i,j)}
+< \infty ,\]
+Point~(\ref{i3743b}) follows from Lemma~\ref{lem4067},
+and finally (\ref{i5202}) is a consequence of \S~\ref{parSubjectiveResults}
+about subjective results.
+
+So, we have to prove~(\ref{f7295}).
+Let~$\vechat{\omega}_K \in \{\pm1\}^K$, $K\subset\ZZ^n$, be some arbitrary boundary condition,
+and denote by~$\Pr_{\mathrm{con}}$ the associated law,
+that is, $\Pr_{\mathrm{con}} = \Pr[\Bcdot|{\vec\omega_K = \vechat{\omega}_K}]$;
+our goal is to show that under~$\Pr_{\mathrm{con}}$, for all distinct $i,j\in\ZZ^n$, one has
+$\{ \omega_i : \omega_j \} \leq c_0C' e^{-\psi' \dist(i,j)} \wedge k_0$.
+
+The result is immediate if $i\in K$, resp.\ $j\in K$
+(since then $\omega_i$, resp.~$\omega_j$, is constant and thus independent of everything),
+so we assume $i,j\notin K$.
+%
+We begin with observing that if $K$ is the set~$N(i)$ of all the neighbours of~$i$,
+equilibrium at~$i$ implies that, whatever the boundary condition may be:
+\[\label{f7537} \Pr_{\mathrm{con}}[\omega_i = -1], \Pr_{\mathrm{con}}[\omega_i = +1]
+\geq \big( e^{4n/T} + 1 \big)^{-1} \]
+—the extremal cases being when $\vechat{\omega}_{N(i)} \equiv +1$,
+resp.\ $\vechat{\omega}_{N(i)} \equiv -1$.
+Now in the general case $K \subset \ZZ^n\setminus\{i\}$,
+$\Law_{\mathrm{con}}[\omega_i]$ is an average of laws of the form
+$\Law(\omega_i|{\vec\omega_{N(i)}=\vechat{\omega}_{N(i)}})$,
+so that (\ref{f7537}) remains valid.
+%
+Similarly, equilibrium on~$\{i,j\}$ gives that
+for all~$a,b\in\{\pm1\}$,
+\[ \label{f7538} \Pr_{\mathrm{con}}[\omega_i = a \text{ and } \omega_j = b]
+\geq \big( e^{8n/T} + 2e^{(4n+2)/T} + 1 \big)^{-1} .\]
+
+Now, recall that the correlation level between two two-ranged variables
+can be computed by Formula~(\ref{f0699}), where
+$|p_a^b-p_ap^b|$ is also $\beta(X,Y)/2$.
+Thus the bound ``$\{\omega_i:\omega_j\} \leq C_0 e^{-\psi' \dist(i,j)}$''
+is a direct consequence of Theorem~\ref{t4505}, with
+\[ c_0 = \frac{1/2}{(e^{4n/T}+1)^{-1}\big(1-(e^{4n/T} + 1)^{-1}\big)}
+= \tanh(4n/T) + 1 .\]
+
+It remains to prove the bound ``$\{\omega_i:\omega_j\} \leq k_0$''.
+We will use the following corollary of~(\ref{f0699}):
+%
+\begin{Lem}\label{l1373}
+With the notation of Remark~\ref{rmk9549},
+there exists $a,b$ in the respective ranges of~$X,Y$ such that
+\[ \{X:Y\} \leq 1 - 4p_a^b .\]
+\end{Lem}
+
+\begingroup\def\proofname{Proof of Lemma~\ref{l1373}}%
+\begin{proof}
+The difference~$p_a^b-p_ap^b$ gets its sign changed whenever $a$, resp.~$b$, changes,
+so there are some~$a$ and~$b$ for which this value is nonpositive;
+moreover, denoting by~$\{a,a'\}$ and~$\{b,b'\}$ the respective ranges of~$X$ and~$Y$,
+$p_{a'}^{b'}-p_{a'}p^{b'}$ is also nonpositive.
+Now one has
+\[ \frac{p_ap^b}{\sqrt{p_ap_{a'}p^bp^{b'}}} \times \frac{p_{a'}p^{b'}}{\sqrt{p_ap_{a'}p^bp^{b'}}}
+= 1 ,\]
+so that either $p_ap^b$ or $p_{a'}p^{b'}$ is $\leq \sqrt{p_ap_{a'}p^bp^{b'}}$.
+Up to changing notation we can assume that it is~$p_ap^b$,
+and then
+\[ \{X:Y\} = \frac{|p_a^b-p_ap^b|}{\sqrt{p_ap_{a'}p^bp^{b'}}}
+= \frac{p_ap^b - p_a^b}{\sqrt{p_ap_{a'}p^bp^{b'}}}
+\leq 1 - \frac{p_a^b}{\sqrt{p_ap_{a'}p^bp^{b'}}} \leq 1 - 4p_a^b .\]
+\end{proof}\endgroup
+
+Combining Lemma~\ref{l1373} with~(\ref{f7538}),
+we then get the desired bound, with
+\[ k_0 = 1 - 4\big( e^{8n/T} + 2e^{(4n+2)/T} + 1 \big)^{-1} < 1 .\]
+\end{proof}\endgroup
+
+
+Formula~(\ref{f7295}) is also what we need to apply the results of Chapter~%
+\ref{parOtherApplicationsOfTensorizationTechniques}. Indeed, denoting
+$\epsilon(z) \coloneqq \{ X_i : X_{i+z} \}_*$, it gives that $\sum_{z\in\ZZ^n} \epsilon(z) < \infty$
+with $\epsilon(z) < 1$ as soon as $z \neq 0$,
+so that Theorems~\ref{thm3015} and~\ref{thm7431} yield respectively:
+%
+\begin{Thm}
+In completely analytical regime, the spins Ising's model satisfies
+the central limit theorem, in the sense that the conclusions of Theorem~\ref{thm3015}
+hold for them.
+\end{Thm}
+%
+\begin{Thm}
+In completely analytical regime, the Glauber dynamics for Ising's model
+has a (strictly) positive spectral gap,
+and this remains valid uniformly if one fixes
+a `boundary condition' on the spins of some $K \subset \ZZ^n$.
+\end{Thm}
+
+\begin{Rmk}
+As I told in Chapter~\ref{parOtherApplicationsOfTensorizationTechniques},
+results of these kinds have already been studied by other methods
+(see e.g.~\cite{Bradley92, Dedecker} for the CLT and~\cite{Martinelli} for the spectral gap).
+For the standard Ising model in completely analytical regime,
+which is ``very nice'', these previous works apply well,
+so the two theorems above are not new.
+They are interesting however because of the new method used to prove them,
+which is quite direct and likely to apply to a broader class of models.
+Such models will be presented in the sequel of this chapter.
+\end{Rmk}
+
+
+\subsection{Generalizations of Ising's model}
+
+The previous results can be adapted to several kinds of generalizations of Ising's model.
+Let us expose some of them.
+
+\subsubsection*{Long-range Ising models}
+
+A physically important case is the \emph{long-range Ising models} on~$\ZZ^n$.
+In these models, the states space is unchanged, but the Hamiltonian $H$ becomes
+\[ H(\vec\omega) = - \frac{1}{2} \sum_{i\neq j} J(j-i) \omega_i\omega_j ,\]
+where $J \colon \ZZ^n\setminus\{0\} \to \RR$ is some symmetric function with non-compact support
+such that $J(z) \stackrel{|z|\longto\infty}{=} O(|z|^{-(n+\alpha)})$ for some $\alpha>0$.
+
+Let us state a decorrelation result for this class of models.
+The frame of the proof of the following proposition will work as well
+for the other generalizations of Ising's model.
+%
+\begin{Pro}\label{pro5088}
+There exists an temperature $T_1 < \infty$ such that, provided $T\geq T_1$:
+\begin{ienumerate}
+\item\label{i0797} Equilibrium for the long-range Ising model is unique;
+\item\label{i96a} Uniformly in~$i,j$,
+$\{\omega_i:\omega_j\}_* \stackrel{|j-i|\longto\infty}{=} O(|j-i|^{-(n-\alpha)})$;
+\item\label{i96b} There exists some $k_0 < 1$ such that for all~$i\neq j$,
+$\{\omega_i:\omega_j\}_* \leq k_0$.
+\end{ienumerate}
+\end{Pro}
+
+\begin{proof}
+The principle of the proof consists in coupling two Glauber dynamics
+with different initial conditions.
+Recall that the Glauber dynamics is defined as follows:
+each spin has an independent clock ringing with rate $1$,
+and when the clock of a spin rings, this spin is flipped so that its final state is drawn
+according to its equilibrium measure conditionnally to the state of all other spins.
+Namely, if the clock of spin $i$ rings at time~$t$,
+denoting as usual $\beta = T^{-1}$,
+\[ \Pr[\omega_i(t+)=+1] = \frac{\exp\big(\beta\sum_{j\neq i}J(j-i)\omega_j(t)\big)}
+{2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega_j(t)\big)} \]
+and $\Pr[\omega_i(t+)=-1] = 1-\Pr[\omega_i(t+)=+1]$.
+
+To couple the Glauber dynamics, we will assume that, rather than just ``ringing'' at time~$t$,
+the clock of~$i$ is a Poisson process on~$\RR_+ \times (0,1)$,
+points of which are denoted by~$(t,y)$.
+Then, if at time~$t$ the clock of spin $i$ has a point $(t,y)$,
+spin $i$ flips to~$+1$ if $y<\Pr[\omega_i(t+)=+1]$,
+resp.\ to~$-1$ if~$y\geq\Pr[\omega_i(t+)=+1]$.
+
+Now, consider two Glauber dynamics~$\vec\omega^-$ and~$\vec\omega^+$
+having the same Poisson process, but starting with different initial conditions.
+It will be convenient%
+\footnote{In the cases where interactions can be antiferromagnetic ($J<0$),
+monotonicity does not stand any more;
+the proof however remains valid with a heavier formalism,
+replacing ``$>$'' by ``$\neq$'' and putting absolute values at the right places.}
+to assume that $\vec\omega^-(t=0) \leq \vec\omega^+(t=0)$ almost-surely:
+then, as we will see, for the coupled dynamics
+one has (a.s.) $\vec\omega^-(t) \leq \vec\omega^+(t) \ \forall t$.
+At time $t$, denote by~$\Theta(t)$ the set of points where~$\vec\omega^-$ and~$\vec\omega^+$ differ:
+\[ \Theta(t) = \big\{ i\in\ZZ^n \colon \big(\omega^-_i(t), \omega^+_i(t)\big) = (-1,+1) \} .\]
+%
+When the clock at spin $i$ rings at time $t$, three cases have to be distinguished:
+\begin{enumerate}
+\item If $y < \exp\big(\beta\sum_{j\neq i}J(j-i)\omega^-_j(t)\big) \mathbin{\big/}
+2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^-_j(t)\big)$,
+then both $\omega^+_i$ and~$\omega^-_i$ flip into state~$+1$;
+\item If $y > \exp\big(\beta\sum_{j\neq i}J(j-i)\omega^+_j(t)\big) \mathbin{\big/}
+2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^+_j(t)\big)$,
+then both $\omega^+_i$ and~$\omega^-_i$ flip into state~$-1$;
+\item If $\frac{\exp\big(\beta\sum_{j\neq i}J(j-i)\omega^-_j(t)\big)}
+{2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^-_j(t)\big)} < y
+< \frac{\exp\big(\beta\sum_{j\neq i}J(j-i)\omega^+_j(t)\big)}
+{2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^+_j(t)\big)}$,
+then $\omega^+_i$ flips into state $+1$ while $\omega^-_i$ flips into state $-1$.
+\end{enumerate}
+%
+Denoting
+\[ \mcal{J} \coloneqq \sum_{z\in\ZZ^n\setminus\{0\}} J(z) ,\]
+which is always finite by the assumption on~$J$,
+the probability of each of the two first cases is bounded below by
+$e^{-\beta\mcal{J}} / 2\cosh(\beta\mcal{J})$.
+%
+The probability of the third case is
+\[ \frac{\sinh\big(2\beta\sum_{j\in\Theta(t)\setminus\{i\}} J(j-i)\big)}
+{2\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^-_j(t)\big)
+\cosh\big(\beta\sum_{j\neq i}J(j-i)\omega^+_j(t)\big)} ,\]
+which is bounded above by~$\beta \sum_{j\in\Theta(t)\setminus\{i\}} {J(j-i)}$
+thanks to the following computational
+%
+\begin{Lem}
+For~$a \leq b$ two real numbers,
+\[ \sinh(b-a) \leq (b-a) \cosh a \cosh b .\]
+\end{Lem}
+%
+\begin{proof}
+Making the change of variables $x = (a+b)/2, t = (b-a)/2$,
+we have to prove that for~${x \in \RR}, \ab t \geq 0$, one has:
+\[\label{fo4994} \sinh(2t) \leq 2 t \cosh(x-t)\cosh(x+t) .\]
+%
+If we consider the right-hand side of~(\ref{fo4994})
+as a function of~$x$, it is symmetric (since $\cosh$ is symmetric)
+and its logarithm is convex (since $\ln\circ\cosh$ is convex,
+its derivative being the increasing function~$\tanh$),
+so its minimum is attained for $x=0$;
+thus it suffices to prove~(\ref{fo4994}) in that case,
+i.e.\ to prove that $\sinh(2t) \leq 2t\cosh^2t$ for all~$t\geq 0$.
+But $\sinh(2t) = 2\sinh t\cosh t$, so we can simplify both sides by~$2\cosh t$,
+and then it suffices to prove that
+$\sinh t \leq t \cosh t$, which is true since
+$\tanh t \leq t$ for all~$t\geq 0$.
+\end{proof}
+
+Thanks to these estimates, we can define a process Markovian $\Theta^*(t)$ on~$\mathfrak{P}(\ZZ^n)$
+such that almost-surely, $\Theta^*(t) \supset \Theta(t)\ \forall t$.
+This process has the following law:
+%
+\begin{Def}
+The law of~$\Theta^*$ is defined thanks to independent Poissonian clocks
+indexed by~$(\ZZ^n)^2$.
+For $i\neq j$ the clock $(i,j)$ has rate $\beta J(j-i)$,
+while the clock $(i,i)$ has rate $e^{-\beta\mcal{J}} / \cosh(\beta\mcal{J})$.
+At $t=0$ one has $\Theta^*(0) = \Theta(0)$.
+If at time $t$ the clock $(i,j)$ rings, with $j\neq i$, then:
+%
+\begin{itemize}
+\item Either $i\in\Theta^*(t-)$ and then $\Theta^*$ changes so that
+$\Theta^*(t+) = \Theta^*(t-) \cup \{j\}$%
+\footnote{Of course, if $j\in\Theta^*(t-)$ then $\Theta^*$ does actually not change.};
+\item Or $i\notin\Theta^*(t-)$ and then $\Theta^*$ does not change.
+\end{itemize}
+On the other hand, if at time $t$ the clock $(i,i)$ rings,
+then $\Theta^*$ changes so that $\Theta^*(t+) = \Theta^*(t-) \setminus \{i\}$.
+\end{Def}
+
+Let~$\lambda \coloneqq \beta\mcal{J} - \big(e^{-\beta\mcal{J}}/\cosh(\beta\mcal{J})\big)$.
+If we take $\EE\big[\#\Theta(t=0)\big] < \infty$%
+\footnote{The general case where $\Theta^*$ can be infinite can be got
+from the finite case by passing to the limit,
+despite some technicalities of little interest.},
+it is immediate that $\#\Theta^*(t)/e^{\lambda t}$ is a supermartingale.
+So, provided $T$ is large enough so that $\lambda < 0$, i.e.
+\[\label{for5229} \beta\mcal{J} < \frac{e^{-\beta\mcal{J}}}{\cosh(\beta\mcal{J})} ,\]
+the two processes~$\vec{\omega}^-(t)$ and~$\vec{\omega}^+(t)$
+tend to be equal when~$t\longto\infty$; in particular they have the same equilibrium.
+That proves Point~(\ref{i0797}) of the Lemma,
+since any initial condition stands between the `extreme' conditions
+$\vec\omega^-(t=0) \equiv -1$ and $\vec\omega^+(t=0) \equiv +1$.
+
+Observe that the previous reasoning remains entirely valid if one reasons conditionally
+to some boundary condition of the form ``$\vec\omega_K = \vechat{\omega}_K$'',
+with the same condition on~$T$.
+
+Now we are turning to the correlation between two distant spins.
+Let~$i\in\ZZ^n$ and let~$\vechat{\omega}_K$ be some boundary condition on
+some $K \subset \ZZ^n\setminus\{i\}$.
+Suppose $T$ satisfies~(\ref{for5229});
+I want to compare the Glauber dynamics corresponding to the boundary condition
+``$\vec\omega_{K\uplus\{i\}} = \big(\vechat{\omega}_K, (+1)^{\{i\}}\big)$''%
+—where $(\vechat{\omega}_K, (+1)^{\{i\}})$ stands for the function on
+$K\uplus\{i\}$ which is equal to~$\hat\omega$ on~$K$ and to~$+1$ at~$i$ —%
+with the Glauber dynamics corresponding to the boundary condition
+``$\vec\omega_{K\uplus\{i\}} = \big(\vechat{\omega}_K, (-1)^{\{i\}}\big)$''.
+In this frame, one defines the process $\Theta^*$ as previously,
+except that one imposes that $\Theta^*(t) \cap K = 0$ and $i \in \Theta^*(t)$ for all~$t$.
+This time, it is the equilibrium behaviour of~$\Theta^*$ which interests us.
+Denote by~$\Pr_{\text{eq}}$ the equilibrium law of~$\Theta^*$;
+for~$j'\in\ZZ^n\setminus K$, denote $\theta(j) \coloneqq \Pr_{\text{eq}}[j\in \Theta^*]$.
+Then $\theta$ satisfies the following discrete subelliptic equation
+with Dirichlet boundary conditions:
+%
+\[\label{fo7960} \left\{ \begin{array}{ll}
+\forall j\notin K\uplus\{i\}
+\quad \frac{e^{-\beta\mcal{J}}}{\cosh(\beta\mcal{J})} \theta(j) \leq
+\beta \sum_{\substack{i'\in\ZZ^n\setminus K \\ i'\neq j}} J(i'-j) \theta(i') ;\\
+\forall k\in K \quad \theta(k) = 0; \qquad \theta(i) = 1.
+\end{array} \right. \]
+
+Define the convolution kernel $a$ on~$\ZZ^n$ by
+\[ \left\{ \begin{array}{ll} a(0) = 1 ; \\
+\forall z\neq 0 \quad a(z) = - \frac{\cosh(\beta\mcal{J})}{e^{-\beta\mcal{J}}}\beta J(z) ,
+\end{array}\right. \]
+so that (\ref{fo7960}) writes in the bulk:
+\[ a * \theta \leq 0 .\]
+%
+Writing $a \eqqcolon \delta_0 - \tilde{a}$,
+Condition~(\ref{for5229}) ensures that $\|\tilde{a}\|_{\ell^1} < 1$.
+Since $\ell^1(\ZZ^n)$ is a Banach algebra for the convolution operator $*$,
+with neutral element $\delta_{0}$, it follows that $a$ is invertible with inverse
+\[\label{fo7178} a^{-*} =
+\delta_{0} + \tilde{a} + \tilde{a} * \tilde{a} + \tilde{a} * \tilde{a} * \tilde{a} + \cdots .\]
+Since $\tilde{a} \geq 0$, $a^{-*}$ is nonnegative everywhere with $a^{-*}(0)>0$.
+Therefore the function~$F \coloneqq \big(a^{-*}(0)\big)^{-1} \delta_i * a^{-*}$
+satisfies:
+\[\label{fo7960*} \left\{ \begin{array}{ll}
+\forall j\notin K\uplus\{i\} \quad \big(a \ast F\big)(j) = 0 ;\\
+\forall k\in K \quad F(k) \geq 0; \qquad F(i) = 1.
+\end{array}\right.\]
+Comparing~(\ref{fo7960}) with~(\ref{fo7960*}),
+since~(\ref{fo7960}) is subelliptic,
+we can apply a maximum principle to it%
+\footnote{The maximum principle is generally stated in a PDE context,
+see for instance~\cite[\S~3.1]{elliptique}, but it works exactly the same for discrete equations.},
+which yields that $\theta \leq F$ everywhere.
+But $J(z) = O(|z|^{-(n+\alpha)})$,
+so by Lemma~\ref{l1939b} in appendix, $F(j) = O(|j-i|^{-(n+\alpha)})$,
+and therefore
+\[\label{fo9696} \Pr\big[ \omega_j=+1 \big| \vec\omega_K = \vechat{\omega}_K , \omega_i = 1 \big]
+- \Pr\big[ \omega_j=-1 \big| \vec\omega_K = \vechat{\omega}_K , \omega_i = -1 \big]
+= O(|j-i|^{-(n+\alpha)}) ,\]
+uniformly in~$i, j, K, \vechat{\omega}_K$.
+
+The end of the proof, namely deducing Point~(\ref{i96a}) from~(\ref{fo9696})
+and proving Point~(\ref{i96b}), is then performed in the same way as to establish~(\ref{f7295})
+in the proof of Theorem~\ref{t3730}.
+\end{proof}
+
+Thanks to Proposition~\ref{pro5088}, we can apply the results of
+Chapters~\ref{parTensorization} and~\ref{parOtherApplicationsOfTensorizationTechniques}.
+One gets the following
+%
+\begin{Thm}\label{thm8777}
+For the long-range Ising model on~$\ZZ^n$ at~$T\geq T_1$,
+\begin{ienumerate}
+\item\label{i204a} For all disjoint $I,J\subset\ZZ^n$, uniformly in~$I,J$, one has an estimate
+\[\label{fo2580}
+\{ \vec\omega_I : \vec\omega_J \} \leq O \big(\dist(I,J)^{-\alpha}\big) ,\]
+where the~$O(\Bcdot)$ can be turned into an explicit constant only depending
+on~$\mcal{J}$ and~$T$.
+Moreover, there exists some $k<1$
+(still explicit and only depending on~$\mcal{J}$ and~$T$)
+such that for all disjoint $I,J\subset\ZZ^n$,
+\[ \{ \vec\omega_I : \vec\omega_J \} \leq k .\]
+%
+\item\label{i204b} The spins satisfies
+the central limit theorem, in the sense that the conclusions of Theorem~\ref{thm3015}
+hold for them.
+%
+\item\label{i204c} The Glauber dynamics has a positive spectral gap.
+%
+\item\label{i204d}
+Points~(\ref{i204a}) and~(\ref{i204c}) remain valid uniformly under any law of the form
+$\Pr[\Bcdot|{\vec\omega_K=\vechat{\omega}_K}]$,
+for~$K \subset \ZZ^n$ and~$\vechat{\omega}_K \in \{\pm1\}^K$ a `boundary condition' on~$K$.
+\end{ienumerate}
+\end{Thm}
+%
+\begin{proof}
+The proof is the same as the work done in the previous subsection.
+The only difference is to prove~(\ref{fo2580}),
+which follows from the following computation:
+denoting $D\coloneqq\dist(I,J)$, one has that, when~$D\longto\infty$,
+\[ \sum_{\substack{z\in\ZZ^n\\|z|\geq D}} \frac{1}{|z|^{n+\alpha}}
+\leq \sum_{d=D}^\infty
+\frac{\#\{z\in\ZZ^n\colon |z|=d\}}{d^{n+\alpha}}
+= \sum_{d=D}^\infty \frac{O(d^{n-1})}{|d^{n+\alpha}|}
+= O\Big( \sum_{d=D}^\infty \frac{1}{d^{1+\alpha}} \Big) = O(D^{-\alpha}). \]
+\end{proof}
+
+
+\subsubsection*{Spin glasses}
+
+\emph{Spin glasses} are another generalization of Ising's model.
+In these models, the interaction constants are not invariant by translation any longer.
+The Hamiltonian writes
+\[ H(\vec\omega) = - \frac{1}{2} \sum_{i\neq j} J(i,j) \omega_i\omega_j \]
+(with $J(j,i) = J(i,j)$), where the~$J(i,j)$ themselves are random.
+We make the following assumptions on the interaction constants:
+%
+\begin{Hyp}\label{hyp79}
+For distinct unordered pairs $\{i,j\}$, all the~$J(i,j)$ are independent.
+Moreover, $J(i,j)$ is distributed according to some law $P_J^{(j-i)}$ only depending on~$(j-i)$%
+\footnote{Observe that one has necessarily $P_J^{(-z)} = P_J^{(z)}$ for all~$z$;
+in particular the function~${J_\infty \colon} \ab {\ZZ^n \setminus \{0\}} \to \RR_+$
+shall always be symmetric.}.
+We will assume that all the~$P_J^{(z)}$ have bounded support,
+and we denote by~$J_\infty(z)$ the smallest number such that
+$P_J^{(z)} \big[ |J| \leq J_\infty(z) \big] = 1$.
+\end{Hyp}
+
+\begin{Rmk}
+Here the~$J(i,j)$ can be negative, which corresponds to antiferromagnetic interactions.
+\end{Rmk}
+
+\begin{NOTA}
+In spin glass models, there are two levels of randomness: first to fix the~$J(i,j)$,
+next to take $\vec\omega$ according to the Gibbs measure associated to~$H$.
+When both levels of randomness are taken into consideration, one speaks of \emph{annealed} law.
+Here I am only interested in the \emph{quenched} laws,
+which deal with the second level of randomness for fixed~$J(i,j)$.
+I will write sentences beginning with ``for almost-all quenched systems'',
+which mean that what follows is valid for almost-all Gibbs measures
+when the~$J(i,j)$ are taken randomly according to Assumption~\ref{hyp79}.
+\end{NOTA}
+
+The machinery exposed above still works for spin glass models.
+We obtain the
+%
+\begin{Thm}
+Suppose that when~$|z| \longto \infty$,
+$J_\infty(z)$ decreases at least as fast as $O(|z|^{-(n+\alpha)})$ for some $\alpha>0$.
+Then there is a $T_1 < \infty$ such that, for the spin glass model on~$\ZZ^n$ at~$T\geq T_1$,
+for almost-all quenched systems,
+\begin{ienumerate}
+\item If $J_\infty(z) = O(|z|^{-(n+\alpha)})$,
+then for all disjoint $I,J\subset\ZZ^n$, uniformly in~$I,J$, one has an estimate
+\[\label{fo8727} \{ \vec\omega_I : \vec\omega_J \} \leq O \big(\dist(I,J)^{-\alpha}\big) .\]
+%
+If moreover $J_\infty(z)$ has exponential decay
+(see Definition~\ref{def726} in the appendix),
+then the right-hand side of~(\ref{fo8727}) can even be replaced by
+``$\theta\big(\dist(I,J)\big)$'' for some function~$\theta(\Bcdot)$ with exponential decay.
+
+In both cases, there exists some $k<1$ such that for all disjoint $I,J\subset\ZZ^n$,
+\[ \{ \vec\omega_I : \vec\omega_J \} \leq k .\]
+%
+\item Points~(\ref{i204b})--(\ref{i204d}) of Theorem~\ref{thm8777} hold.
+\end{ienumerate}
+\end{Thm}
+
+
+\subsection*{Synthetic vocabulary}
+
+For all the models considered in this section,
+the techniques used and the results stated walked along the same lines.
+First, one establishes a bound $\{X_i:X_j\}_* \leq \epsilon(j-i) \wedge k_0$ for all~$i\neq j$,
+for some sufficiently rapidly decreasing function
+$\epsilon \colon \ZZ^n \to [0,1]$ and some $k_0 < 1$.
+Then, one applies the results of
+Chapters~\ref{parTensorization} and~\ref{parOtherApplicationsOfTensorizationTechniques},
+which yield maximal decorrelation for distant bunches of spins
+(which is sometimes called \emph{(interlaced) $\rho^*$-mixing})
+with uniformly non-full correlation between any two disjoint bunches of spins
+(which is sometimes denoted ``$\rho^*(1)<1$''),
+central limit theorem, and spectral gap for the Glauber dynamics.
+
+Since this method will be used again in the following sections,
+it will be convenient to introduce some synthetic vocabulary:
+%
+\begin{Def}\label{def-WRM}
+If a spin model (spins can have arbitrary range) $\vec{X}$ on~$\ZZ^n$ satisfies some bound
+``${\{X_i:X_j\}_*} \leq \epsilon(j-i) \wedge k_0$'' for all distinct $i,j \in \ZZ^n$,
+with $\sum_{z\in\ZZ^n\setminus\{0\}} \epsilon(z) < \infty$ and $k_0 < 1$,
+we say that this model is \emph{well-$\rho$-mixing}.
+According to our results, for such a model one has $\rho^*$-mixing with $\rho^*(1)<1$,
+CLT and spectral gap.
+
+Moreover,
+\begin{ienumerate}
+\item If $\epsilon(z) = O(|z|^{-(n+\alpha)})$ when~$|z|\longto\infty$,
+then we say that the model is \emph{$\alpha$-polynomially $\rho$-mixing}.
+According to our results, in this case $\rho^*$-mixing is polynomial with rate $\alpha$,
+i.e.\ Formula~(\ref{fo2580}) holds.
+\item If $\epsilon(z)$ has exponential decay (cf.\ Definition~\ref{def726}),
+then we say that the model is \emph{exponentially $\rho$-mixing}.
+According to our results, in this case $\rho^*$-mixing has an exponential speed of decay
+(but not with the same rate as $\epsilon(\Bcdot)$, cf.\ Remark~\ref{rmk9890}),
+i.e.\ a formula similar to~(\ref{f4615}) holds.
+\end{ienumerate}
+\end{Def}
+
+
+\section{Quadratic models}\label{parQuadraticModels}
+
+\begin{NOTA}
+In this subsubsection, an arbitrary norm $|\Bcdot|$ on~$\ZZ^n$ is fixed.
+\end{NOTA}
+
+\begin{Def}
+In our \emph{quadratic model}, the states space is $\Omega = \RR^{\ZZ^n}$
+for some $n\in\NN^*$. For~$\vec\omega_{\ZZ^n} \in \Omega$, $i\in\ZZ^n$,
+the real number $\omega_i$ will be called the \emph{polarization of particle~$i$}.
+Each particle $i$ is submitted to two types of forces:
+%
+\begin{itemize}
+\item A \emph{pinning force}, preventing the particle from having a too large polarization,
+which derives from the quadratic potential $\omega_i^2/2$;
+\item \emph{Interaction forces}: each particle $j\neq i$ exerts a force on~$i$
+which tends to make the polarizations of particles~$i$ and~$j$ equal;
+this force derives from a quadratic potential $\gamma_{j-i} (\omega_j-\omega_i)^2/2$.
+\end{itemize}
+%
+In other words, the Hamiltonian of the system is formally defined by
+\[ H(\vec\omega) = \frac{1}{2}\sum_{i\in\ZZ^n} \omega_i^2
++ \frac{1}{4}\sum_{i\neq j} \gamma_{j-i} (\omega_j-\omega_i)^2 ,\]
+where the~$\gamma_z$, for~$z\in\ZZ^n\setminus\{0\}$,
+are nonnegative numbers which we impose to satisfy the symmetry condition
+$\gamma_z = \gamma_{-z}$ for all~$z$.
+%
+Moreover we impose the that the sum of the~$\gamma_z$ is convergent, and we denote
+\[\label{f2380} \Gamma \coloneqq \sum_{z\in\ZZ^n\setminus\{0\}} \gamma_z < \infty .\]
+\end{Def}
+
+The Hamiltonian $H$ is a quadratic function of~$\vec\omega$,
+so at fixed parameter $\beta$ the (infinite-dimensional) random vector~$\vec\omega$
+will be Gaussian (and centered).
+Let us compute its covariance:
+the probability density of~$\vec\omega$ w.r.t.\ the `Lebesgue measure' on~$\Omega$
+is formally defined by
+\[ \frac{\dx\Pr_\beta [\vec\omega]}{\prod_{i\in\ZZ^n}\dx{\omega_i}} \propto
+\exp \Big({\textstyle\frac{1}{2}} \T{\omega} (\beta Q) \omega \Big), \]
+where $Q$ is the (infinite-dimensional) symmetric matrix defined by
+\[\label{f1243} \left\{ \begin{array}{ccl} Q_{ij} \coloneqq -\gamma_{j-i} & \quad & \text{for $i\neq j$;} \\
+Q_{ii} \coloneqq 1 + \Gamma & \quad & \text{on the diagonal,} \end{array} \right.\]
+%
+thus the covariance matrix of~$\vec\omega$ is $(\beta Q)^{-1}$.
+So we have to compute $Q^{-1}$, the inverse matrix of~$Q$.
+Since $Q$ is a Toeplitz matrix (with $n$-dimensional indexes)%
+\footnote{Recall that saying that matrix $Q$ is \emph{Toeplitz}
+means that its entries $Q_{ij}$ only depend on~$(j-i)$.},
+$Q^{-1}$ —if it exists—will be of the same form.
+Now, knowing that it is a Toeplitz matrix, $Q$ is described by the function
+$a_Q \colon \ZZ^n \to \RR$ such that for all~$i,j$, $Q_{ij} = a_Q(j-i)$.
+With this notation, (\ref{f1243}) rewrites:
+\[ \forall z\in\ZZ^n \qquad a_Q(z) = \1{z=0} (1+\Gamma) - \1{z\neq0} \gamma_z .\]
+%
+When coded by functions like $a_Q$,
+the multiplication of Toeplitz matrices becomes the convolution product:
+\[ \forall M, N \ \text{Toeplitz} \qquad a_{MN} = a_M * a_N .\]
+So, $Q^{-1}$ will be the Toeplitz matrix
+whose $a_{Q^{-1}}$ is the inverse of~$a_Q$ for the convolution product.
+Thanks to Condition~(\ref{f2380}), such an inverse always exists:
+indeed we can write $a_Q = (1+\Gamma) (\delta_{0} - \tilde{a}_Q)$,
+where $\tilde{a}_Q$ is a nonnegative function with
+$\|\tilde{a}_Q\|_{\ell^1} = \Gamma \div (1+\Gamma) < 1$,
+so that $a_Q$ is invertible with
+\[\label{f0024} a_Q^{-*} = (1+\Gamma)^{-1} \big(\delta_{0} + \tilde{a}_Q +
+\tilde{a}_Q * \tilde{a}_Q + \tilde{a}_Q * \tilde{a}_Q * \tilde{a}_Q + \cdots \big) .\]
+In the end, at parameter $\beta>0$ the covariance matrix of~$\vec\omega$ has entries:
+\[\label{f3366} \Cov(\omega_i,\omega_j) = \frac{a_{Q^{-1}}(j-i)}{\beta} .\]
+
+\begin{Rmk}
+All the entries of~$\Cov(\vec\omega)$ are nonnegative,
+which reflects the fact that all the interaction forces are attractive.
+\end{Rmk}
+
+\begin{Rmk}
+Since $\Cov(\vec\omega)$ depends on~$\beta$ only through a constant factor,
+the behaviour of the system is exactly the same, up to a multiplicative constant,
+for all~$\beta > 0$. Hence the study of correlations will not depend on~$\beta$.
+\end{Rmk}
+
+\begin{NOTA}
+In the sequel, we fix arbitrarily $\beta = 1$ and we denote~$\Pr$ for~$\Pr_{\beta=1}$.
+\end{NOTA}
+
+Since the model is Gaussian, by~(\ref{f3366}) and Theorem~\ref{pro1857}
+one has for all~$i \neq j$:
+\[ \{ \omega_i : \omega_j \} = \frac{a_{Q^{-1}}(j-i)}{a_{Q^{-1}}(0)} .\]
+Now we have the following claim, with an immediate key corollary:
+\begin{Clm}\label{l3475}
+For all~$i\neq j$, for all~$K \subset \ZZ\setminus\{i,j\}$,
+\[ \{ \omega_i : \omega_j \}_{\vec\omega_K} \leq \{ \omega_i : \omega_j \} .\]
+\end{Clm}
+
+\begin{Cor}\label{c6834}
+Denoting by~$*$ the natural $\sigma$-metalgebra of the system, for all~$i\neq j$,
+\[\label{fc6834} \{ \omega_i : \omega_j \}_* = \{ \omega_i : \omega_j \}
+= \frac{a_{Q^{-1}}(j-i)}{a_{Q^{-1}}(0)} .\]
+\end{Cor}
+
+\begin{proof}
+The proof of Claim~\ref{l3475} relies on the following claims:
+\begin{Clm}\label{c4577a}
+Up to an additive constant, $\Law(\vec\omega_{\ZZ^n}|\vec\omega_K=\vechat{\omega}_K)$
+is the same for all~$\vechat{\omega}_K \in \RR^K$, i.e.\ there exists a vector-valued function
+$\vechat{\omega}_K \mapsto \offset(\vechat{\omega}_K) \in \RR^{\ZZ^n}$
+such that the law of~$\vec\omega_{\ZZ^n}$ under~$\Pr[\Bcdot|\ab {\vec\omega_K=\vechat{\omega}_K}]$
+is the same as the law of~$\vec\omega_{\ZZ^n} + \offset(\vechat{\omega}_K)$
+under~$\Pr[\Bcdot|\ab {\vec\omega_K \equiv 0}]$.
+\end{Clm}
+
+\begin{Lem}\label{c4577b}
+For~$(X,Y)$ a two-dimensional centered Gaussian vector with~$X$ and~$Y$ non-degenerate,
+\[\label{f5223} \{X:Y\} = \sqrt{\frac{\EE[X^2]}{\EE[Y^2]}} \, \big|\EE[Y|X=1]\big| .\]
+\end{Lem}
+
+\begin{Clm}\label{c4577c}
+For~$K\subset\ZZ^n$, the function~$\offset$
+defined in Claim~\ref{c4577a} is nondecreasing,
+in the sense that each of the entries of~$\offset(\vechat{\omega}_K)$
+is a nondecreasing function of each~$\hat\omega_k$ for~$k\in K$.
+\end{Clm}
+
+\begin{Clm}\label{c4577d}
+For~$i\in\ZZ^n$, $K\subset\ZZ^n\setminus\{i\}$:
+\[ \offset\big(1^{\{i\}},0^K\big) \leq \offset\big(1^{\{i\}}\big) ,\]
+where $(1^{\{i\}},0^K)$ stands for the function on
+$K\uplus\{i\}$ which is equal to~$1$ at~$i$ and to~$0$ on~$K$,
+resp.~$1^{\{i\}}$ stands for the function on~$\{i\}$ mapping $i$ to~$1$.
+\end{Clm}
+
+Admit temporarily the claims.
+Let~$i,j$ be distinct points of~$\ZZ^n$, let~$K\subset\ZZ^n\setminus\{i,j\}$
+and let~$\vechat{\omega}_K \in \RR^K$; our goal is to compute
+$\{ \omega_i : \omega_j \}$ under~$\Pr[\Bcdot|\ab \vec\omega_K=\vechat{\omega}_K]$.
+First, by Claim~\ref{c4577a} we can suppose that $\vechat{\omega}_K \equiv 0$.
+Now under~$\Pr[\Bcdot|\ab \vec\omega_K\equiv0]$, $(\omega_i,\omega_j)$ is still Gaussian
+by the properties of Gaussian vectors, and it is centered by symmetry,
+therefore by Lemma~\ref{c4577b}, $\{\omega_i:\omega_j\}$ is equal to
+\[\label{f5276}
+\sqrt{\frac{\EE[\omega_i^2|\vec\omega_K\equiv0]}{\EE[\omega_j^2|\vec\omega_K\equiv0]}} \, \big| \EE\big[\omega_j\big|\vec\omega_K\equiv0\enskip\text{and}\enskip \omega_i=1\big] \big|
+= \sqrt{\frac{\EE[\omega_i^2|\vec\omega_K\equiv0]}{\EE[\omega_j^2|\vec\omega_K\equiv0]}} \, \big(\offset(1^{\{i\}},0^K)\cdot j\big) \]
+—one has indeed $\offset(1^{\{i\}},0^K)\cdot j \geq 0$,
+since by Claim~\ref{c4577c}, $\offset(1^{\{i\}},0^K) \geq \offset(0^{\{i\}\uplus K}) \equiv 0$.
+
+Now, taking $K=\emptyset$ in~(\ref{f5276}), we find that under the law $\Pr$:
+\[ \{\omega_i:\omega_j\} = \sqrt{\frac{\EE[\omega_i^2]}{\EE[\omega_j^2]}} \,
+\big(\offset(1^{\{i\}})\cdot j\big) ,\]
+which is $\geq \sqrt{\EE[\omega_i^2] \div \EE[\omega_j^2]} \, \big(\offset(1^{\{i\}},0^K)\cdot j\big)$
+by Claim~\ref{c4577d}.
+But up to switching the roles of~$i$ and~$j$, we can assume that
+$\EE[\omega_i^2] \div \EE[\omega_j^2] \geq
+\EE[\omega_i^2|\vec\omega_K\equiv0] \div \EE[\omega_j^2|\vec\omega_K\equiv0]$,
+thus getting the desired result:
+\[ \{\omega_i:\omega_j\}
+\geq \sqrt{\frac{\EE[\omega_i^2|\vec\omega_K\equiv0]}{\EE[\omega_j^2|\vec\omega_K\equiv0]}} \, \big(\offset(1^{\{i\}},0^K)\cdot j\big) = \{\omega_i:\omega_j\}_{\vec\omega_K} .\]
+\end{proof}
+
+\begingroup\def\proofname{Proof of the claims}
+\begin{proof}\strut\\
+\indent\textit{Claim~\ref{c4577a}\ --}
+It is a well-known property of Gaussian vectors,
+which here is stated in an infinite-dimensional setting.
+
+\indent\textit{Claim~\ref{c4577b}\ --}
+Since $(X,Y)$ is centered Gaussian,
+$Y^{\sigma(X)}$ is the orthogonal projection of the $L^2$ variable $Y$ on~$\RR X$,
+so $\EE[Y|X=x] \propto x$.
+Thus one has:
+\[\label{c5212} \EE[XY] = \int x\, \EE[Y|X=x]\, \dx\Pr[X=x] \\
+= \int x^2\, \EE[Y|X=1]\, \dx\Pr[X=x] = \EE[Y|X=1] \, \EE[X^2] .\]
+But for such a Gaussian vector, Theorem~\ref{pro1857} gives that
+\[ \{X:Y\} = \frac{|\Cov(X,Y)|}{\ecty(x)\ecty(y)} = \frac{|\EE[XY]|}{\sqrt{\EE[X^2]\EE[Y^2]}} ,\]
+which combined with~(\ref{c5212}) gives~(\ref{f5223}).
+
+\indent\textit{Claim~\ref{c4577c}\ --} First, notice that
+$\EE[\vec\omega_{\ZZ^n}|\vec\omega_K\equiv0] = \vec0$, so that
+\[\offset(\vechat{\omega}_K) =
+\EE\big[\vec\omega \big| \vec\omega_K=\vechat{\omega}_K \big] .\]
+Now, allowing temporarily $\beta$ to vary again, by the properties of Gaussian vectors,
+the vector-valued variable $\EE_\beta[\vec\omega_{\ZZ^n}|\vec\omega_K=\vechat{\omega}_K]$
+is Gaussian with constant expectation and covariance matrix proportional to~$\beta$.
+Therefore, the common expectation of all these laws
+is equal to the constant value of~$\vec\omega_{\ZZ^n}$ for $\beta=0$,
+which is the~$\vec\omega$ minimising $H$ under the constraint ``$\vec\omega_K=\vechat{\omega}_K$'':
+\[ \offset(\vechat{\omega}_K) =
+\argmin_{\vec\omega_K=\vechat{\omega}_K} H(\vec\omega) .\]
+%
+Since it minimizes energy, the state $\offset(\vec\omega_K)$ is at equilibrium outside $K$.
+In other words, it is the solution of the following subelliptic system:
+\[\label{f4463} \left\{ \begin{array}{ll}
+\forall i\in\ZZ^n\setminus K
+\quad -\omega_i + \sum_{j\neq i} \gamma_{j-i}(\omega_j-\omega_i) = 0 ;\\
+\forall i\in K \quad \omega_i = \hat\omega_i .\end{array} \right.\]
+(That system is clearly subelliptic
+because the pinning and interaction forces all are attractive).
+By the maximum principle,
+the solution of~(\ref{f4463}) is an increasing function of the boundary condition,
+which was our claim.
+
+\indent\textit{Claim~\ref{c4577d}\ --} Denote
+$\vec\omega^{1}_{\ZZ^n} = \offset(1^{\{i\}})$.
+Since $\offset(0^{\{i\}}) = 0^{\ZZ^n}$, by Claim~\ref{c4577c}
+one has ${\vec\omega^1_{\ZZ^n} \geq 0^{\ZZ^n}}$.
+Since obviously $\vec\omega^1_i = 1$, one has even
+$\vec\omega^1_{\ZZ^n} \geq (1^{\{i\}},0^{\ZZ^n\setminus\{i\}})$.
+In particular, $\vec\omega^1_{\{i\}\uplus K} \geq (1^{\{i\}},0^K)$;
+therefore, using again Claim~\ref{c4577c},
+\[\label{f3643} \offset\big(\vec\omega^1_{\{i\}\uplus K}\big) \geq \offset\big(1^{\{i\}},0^K\big).\]
+%
+Now, we defined $\vec\omega^1_{\ZZ^n}$ as $\offset(1^{\{i\}})$,
+so by Formula~(\ref{f4463}) it satisfies
+\[ -\omega^1_{i'} + \sum_{j\neq i'} \gamma_{j-i'}(\omega_j-\omega_i') = 0 \]
+for all~$i' \in \ZZ^n\setminus\{i\}$, hence \emph{a fortiori}
+for all~$i'\in \ZZ^n\setminus(\{i\}\uplus K)$.
+Since moreover $\vec\omega^1$ obviously coincides with~$\vec\omega^1_{\{i\}\uplus K}$
+on~$\{i\} \uplus K$, this implies, by Formula~(\ref{f4463}) again, that
+\[ \offset\big( \vec\omega^1_{\{i\}\uplus K} \big) =
+\vec\omega^1_{\ZZ^n} = \offset\big( 1^{\{i\}} \big) .\]
+So, (\ref{f3643}) becomes ``$\offset(1^{\{i\}}) \geq \offset(1^{\{i\}},0^K)$'',
+what we wanted.
+\end{proof}\endgroup
+
+Thanks to Corollary~\ref{c6834} our tensorization theorems give decorrelation results
+for the quadratic model:
+%
+\begin{Thm}\label{thmTchou}
+Provided Condition~(\ref{f2380}) holds:
+\begin{ienumerate}
+\item\label{i4805} The quadratic model is well-$\rho$-mixing, cf.\ Definition~\ref{def-WRM}.
+If $\Gamma < 1$, one can be more specific about the property ``$\rho^*(1)<1$'':
+for all disjoint $I,J\subset\ZZ^n$, ${\{\vec\omega_I:\vec\omega_J\}} \leq \Gamma$.
+\item\label{i4806} Moreover, if there is polynomial decay of interactions
+$\gamma_{z} = O(1/|z|^{n+\alpha})$, then the model is $\alpha$-polynomially $\rho$-mixing,
+and if $\gamma_{z}$ has exponential decay,
+then the model is exponentially $\rho$-mixing (but not with the same rate as $\gamma_z$ in general).
+\end{ienumerate}
+\end{Thm}
+
+\begin{proof}
+To prove Point~(\ref{i4805}), we have to show that
+\[ \sum_{z\in\ZZ^n\setminus\{0\}} \frac{a_{Q^{-1}}(z)}{a_{Q^{-1}}(0)} \leq \Gamma \]
+—recall that we assumed $\Gamma < \infty$.
+We write:
+\[\label{f1610} \sum_{z\in\ZZ^n\setminus\{0\}} \frac{a_{Q^{-1}}(z)}{a_{Q^{-1}}(0)}
+= \frac{\sum_{z\in\ZZ^n}a_{Q^{-1}}(z)}{a_{Q^{-1}}(0)} - 1 .\]
+%
+There, $\sum_{z\in\ZZ^n}a_{Q^{-1}}(z)$ is equal to~$1$:
+indeed, $a_{Q^{-1}}$ is the convolution inverse of~$a_Q$,
+so by Fubini's theorem:
+\[ \sum_{z\in\ZZ^n} a_{Q^{-1}}(z) = \Big( \sum_{z\in\ZZ^n} a_Q(z) \Big)^{-1} ,\]
+where
+\[ \sum_{z\in\ZZ^n} a_Q(z) = \sum_{z\in\ZZ^n\setminus\{0\}}\big(-\gamma(z)\big) + (1+\Gamma)
+= -\Gamma + 1 + \Gamma = 1 .\]
+Now, by~(\ref{f0024}),
+$a_{Q^{-1}}(0)$ is obviously bounded below by~$(1+\Gamma)^{-1}$, so in the end:
+\[ \sum_{z\in\ZZ^n\setminus\{0\}} \frac{a_{Q^{-1}}(z)}{a_{Q^{-1}}(0)}
+\leq \frac{1}{(1+\Gamma)^{-1}} - 1 = \Gamma .\]
+
+To prove Point~(\ref{i4806}), we have to show that
+polynomial decay of~$\gamma_z$ implies polynomial decay of~$a_{Q^{-1}}$
+with the same exponent, resp.\ that exponential decay of~$\gamma_z$
+implies exponential decay of~$a_{Q^{-1}}$.
+This is achieved resp.\ by Lemmas~\ref{l1939a} and~\ref{l1939b} in the appendix.
+\end{proof}
+
+
+
+\section{Nonlinear lattice of particles}\label{parNonlinearLatticeOfParticles}
+
+In this section we will consider a model with continuous spins,
+but where interactions are nonlinear, so that we cannot use the properties of Gaussian variables.
+One has a lattice of particles indexed by~$\ZZ^n$ (equipped with its $\ell^1$ graph structure),
+each particle $i$ being described by its ``polarization'' $\omega_i\in\RR$.
+Each particle is submitted to a pinning force deriving from a potential $V$,
+and to interaction forces with its neighbours, the interactions deriving from a potential $W$.
+In other words, the Hamiltonian is formally
+\[\label{forHNL} H(\vec\omega) = \sum_{i\in\ZZ} V(\omega_i) +
+\frac{1}{2} \sum_{i\sim j} W(\omega_j-\omega_i) .\]
+
+We make the following assumptions:
+\begin{Hyp}\label{hypVW}
+Both $V$ and~$W$ are convex; moreover
+$V$ is uniformly strictly convex and the Hessian of~$W$ is bounded,
+i.e.\ there exist constants~$v_*>0$ and~$w_*<\infty$
+such that for all~$x \in \RR$, $v_* \leq V''(x)$ and $W''(x) \leq w^*$.
+\end{Hyp}
+%
+We are interested in the equilibrium state of the system at some inverse temperature
+$0 < \beta < \infty$. (In the sequel we suppose that $\beta$ is fixed).
+
+Let~$i\neq j\in\ZZ$, $K\subset\ZZ\setminus\{i,j\}$ and~$\vechat{\omega}_K \in \RR^K$;
+we want to study the law of~$(\omega_i,\omega_j)$
+under the law $\Pr[\Bcdot|\vec\omega_K=\vechat{\omega}_K]$.
+Then, the probability distribution of the system is formally described by
+\[ \dx\Pr \big( \omega_i,\omega_j,\vec\omega_{\C{K}\setminus\{i,j\}} \big) \propto
+\exp \Big( -\beta
+H \big(\omega_i,\omega_j,\vec\omega_{\C{K}\setminus\{i,j\}},\vechat{\omega}_K\big) \Big) .\]
+%
+Our assumptions ensure that the function
+$H(\Bcdot,\Bcdot,\Bcdot,\vechat{\omega}_K)$ is uniformly convex,
+so that the equilibrium exists and is unique.
+
+For the sequel, we need to recall the definition of the $W_{\infty}$ Wasserstein distance:
+%
+\begin{Def}[see also~\cite{Winfty}]
+For~$\mu_1,\mu_2$ two measures on some metric space $(X,d)$,
+``$W_{\infty}(\mu_1,\mu_2) \leq \epsilon$'' means that there exists a probability measure~$\gamma$
+on~$E^2$ such that the two respective marginals of~$\gamma$ are~$\mu_1$ and~$\mu_2$
+and such that $d(x_1,x_2) \leq \epsilon \quad \gamma\text{-a.s.}$.
+This defines a (possibly infinite) distance on the probability measures on~$E$.
+\end{Def}
+
+The fundamental lemma of this subsection is the following
+\begin{Clm}\label{lem7014}
+For~$\hat\omega_j \in \RR$, denote by~$\mu(\hat\omega_j)$ the law of~$\omega_i$
+under~$\Pr[\Bcdot|\ab \vec{\omega}_{K\uplus\{j\}}=(\vechat{\omega}_K,\hat\omega_j)]$.
+There exists a function~$\epsilon \colon \ZZ \to [0,1]$ with
+$\epsilon(d) < 1$ as soon as $d > 0$ and $\epsilon(d) \stackrel{d\longto\infty}{\leq} Ce^{-\psi d}$
+for some~${\psi > 0}$ and~${C < \infty}$, such that
+\[ \forall \hat\omega_j^1, \hat\omega_j^2 \in \RR \qquad
+W_\infty \big( \mu(\hat\omega_j^1), \mu(\hat\omega_j^2) \big)
+\leq \epsilon(|j-i|) \big| \hat\omega_j^2 - \hat\omega_j^1 \big| .\]
+\end{Clm}
+
+\begin{proof}
+The proof relies on the `explicit' construction of a coupling measure~$\gamma$
+between~$\mu(\hat\omega_j^1)$ and~$\mu(\hat\omega_j^2)$.
+To do that, we will construct $\Pr[\Bcdot|\vec{\omega}_{K\uplus\{j\}}=(\vechat{\omega}_K,\hat\omega_j)]$
+thanks to a reversible Fokker--Planck dynamics, and then couple the dynamics
+for~$\hat\omega_j^1$ and~$\hat\omega_j^2$.
+
+We define the Fokker--Planck dynamics thanks to independent white noises
+$(\dx B^{i'}_t)_{t\in\RR}$ for~$i' \in {\ZZ^n \setminus (K\uplus\{j\})}$.
+The motion of point $i'$ is defined by:
+\[ \dx\omega_{i'} = -\beta \big( V'(\omega_{i'}) +
+\sum_{i''\sim i'} W'(\omega_{i'}-\omega_{i''}) \big) + \sqrt{2} \,\dx{B^{i'}_t} ,\]
+with the boundary condition $\vec\omega_{K\uplus\{j\}} = \vechat{\omega}_{K\uplus\{j\}}$
+for all times.
+%
+Coupling then consists in taking the same noise for the two processes.
+The initial condition is not very important since it is asymptotically forgotten,
+so we will suppose that the two systems have been coupled for an infinite time,
+so that at any time both systems follow their equilibrium law.
+We denote by~$\vec\omega^1(t)$ the system correponding to the boundary condition
+``$\vec\omega_{K\uplus\{j\}} = (\vechat{\omega}_K,\hat\omega_j^1)$'',
+resp.\ by~$\vec\omega^2(t)$ the system correponding to the other boundary condition.
+We denote $\Delta_{i'}(t) \coloneqq \omega_{i'}^2(t) - \omega_{i'}^1(t)$.
+Then when the dynamics are coupled,
+$\vec{\Delta}$ evolves according to the following equation:
+%
+\[ \dx(\Delta_{i'}) =
+-\beta \Big[ \big( V'(\omega^2_{i'}) - V'(\omega^1_{i'}) \big) +
+\sum_{i''\sim i'} \big( W'(\omega^2_{i'}-\omega^2_{i''}) - W'(\omega^1_{i'}-\omega^1_{i''}) \big) \Big] .\]
+%
+Obviously the right-hand side is not a deterministic function of
+$\vec{\Delta}(t)$, but it can nonetheless be written as
+\[ -\beta \big[ v(i',t) \Delta_{i'}(t)
++ w(i',i'',t) \big( \Delta_{i'}(t) - \Delta_{i''}(t) \big) \big] ,\]
+for some~$v(i',t)$ and~$w(i',i",t)$ satisfying
+%
+\begin{eqnarray}
+\label{for0346v} v(i',t) & \geq & v_* \quad \text{and} \\
+\label{for0346w} 0 \leq w(i',i",t) & \leq & w^* \end{eqnarray}
+by Assumption~\ref{hypVW}.
+%
+Moreover, one has the boundary conditions:
+\[ \forall t \qquad \left\{
+\begin{array}{rcl} \vec{\Delta}_K &\equiv& 0 ;\\
+\Delta_j &=& \hat\omega_j^2 - \hat\omega_j^1 . \end{array} \right.\]
+
+So, $\vec{\Delta}$ is the solution of some discrete `damped heat equation',
+whose coefficients can vary along time though having to satisfy bounds~(\ref{for0346v}) and~(\ref{for0346w}).
+Such an equation has no stationary solution \emph{stricto sensu};
+however there exists some $\vec\Delta^+$ such that
+\[ \vec{\Delta}(t) \leq \vec\Delta^+ \qquad \Rightarrow \qquad
+\forall t'\geq t \quad \vec{\Delta}(t') \leq \vec\Delta^+ ;\]
+namely, this $\vec\Delta^+$ is defined as the solution
+of the following system of equations:
+$\vec\Delta^+_K \equiv 0$, $\Delta^+_j = \hat\omega_j^2 - \hat\omega_j^1$,
+and for all~$i'\notin K\uplus\{j\}$,
+\[\label{for7756a} 0 = - v_* \Delta^+_{i'} + \sum_{i''\sim i'}
+\1{\Delta^+_{i''}\geq\Delta^+_{i'}}w^* (\Delta^+_{i''} - \Delta^+_{i'}) .\]
+%
+One has similarly that
+\[ \vec{\Delta}(t) \geq \vec0 \qquad \Rightarrow \qquad
+\forall t'\geq t \quad \vec{\Delta}(t') \geq \vec0 .\]
+%
+Consequently, I claim that for all~$t$ one has
+\[\label{for4700} \vec0 \leq \vec\Delta(t) \leq \vec\Delta^+ :\]
+indeed if the initial condition of the system satisfies~(\ref{for4700}),
+then that property remains valid for all subsequent times;
+now, as I told, initial conditions are asymptomatically forgotten,
+so in fact (\ref{for4700}) is always satisfied.
+
+One has the following control on~$\vec\Delta^+$:
+\begin{Clm}\label{lem3945}
+There exists a function~$\epsilon \colon \ZZ \to [0,1]$ with
+$\epsilon(d) < 1$ as soon as $d > 0$ and $\epsilon(d) \stackrel{d\longto\infty}{\leq} Ce^{-\psi d}$
+for some~$\psi > 0$ and~$C < \infty$, such that
+\[ \forall i \in \ZZ^n \qquad \Delta^+_i \leq \epsilon(|j-i|) .\]
+Moreover, the function~$\epsilon$ does not depend on~$K$ nor on~$j$.
+\end{Clm}
+%
+Combining~(\ref{for4700}) with Claim~\ref{lem3945} ends the proof of Claim~\ref{lem7014}.
+\end{proof}
+
+\begingroup\def\proofname{Proof of Claim~\ref{lem3945}}
+\begin{proof}
+First, notice that Equation~(\ref{for7756a}) satisfies a maximum principle,
+so we know in advance that $\Delta^+$ is uniquely defined with $0 \leq \Delta^+ \leq 1$ everywhere.
+
+For~$i'\sim i''$, denote $w_{i'}(i'') \coloneqq \1{\Delta^+_{i''} \geq \Delta^+_{i'}} w^*$.
+Then (\ref{for7756a}) can be rewritten into:
+\[\label{for7756a+} \Delta_{i'} =
+\sum_{i''\sim i'} \frac{w_{i'}(i'')}{v_*+\sum_{i''\sim i'}w_{i'}(i'')} \times \Delta_{i''}
++ \frac{v_*}{v_*+\sum_{i''\sim i'}w_{i'}(i'')} \times 0 .\]
+
+Now I define the following Markov chain on~$\ZZ^n \uplus \{\partial\}$,
+$\partial$ denoting a cemetery point:
+\begin{Def}\strut
+\begin{itemize}
+\item If at some time the particle is on some point $i'$ of~$\ZZ^n \setminus (K\uplus\{j\})$,
+at next time it jumps onto the neighbour $i''$ of~$i'$ with probability
+$w_{i'}(i'') \mathbin{\big/} \big(v_*+\sum_{i''\sim i'}w_{i'}(i'')\big)$,
+and it jumps onto~$\partial$ with probability
+$v_* \mathbin{\big/} {\big(v_*+\sum_{i''\sim i'}w_{i'}(i'')\big)}$;
+\item If the particle is somewhere in~$K \uplus \{\partial,j\}$ at some time,
+then it does not move any more.
+\end{itemize}
+\end{Def}
+%
+Call~$(X_t)_{t\in\NN}$ such a Markov chain and denote by~$\mcal{L}$ its generator.
+It is clear that with probability one,
+$X_t$ eventually remains at some point of~$K\uplus\{\partial,i\}$.
+Extend $\Delta^+$ to~$\ZZ^n\uplus\{\partial\}$ by setting $\Delta^+_\partial = 0$;
+then, (\ref{for7756a+}) merely means that $\Delta^+$ is $\mcal{L}$-harmonic,
+and it follows that
+\[ \Delta^+_i = \EE \big[ f(X_\infty) \big| X_0=i \big] .\]
+%
+Thus, to bound above $\Delta^+_i$ I write that
+\begin{multline} \EE\big[f(X_\infty)\big|X_0=i\big]
+= \sum_{\substack{i=i_0\sim\cdots\sim i_t=j\\i_1,\ldots,i_{t-1}\notin K\uplus\{j\}}}
+\,\,\prod_{u=0}^{t-1} \frac{w_{i_u}(i_{u+1})}{v_*+\sum_{i''\sim i_u}w_{i'}(i'')} \\
+\leq \sum_{\substack{i=i_0\sim\cdots\sim i_t=j\\i_1,\ldots,i_{t-1}\neq j}}
+\,\,\prod_{u=0}^{t-1} \frac{w_{i_u}(i_{u+1})}{\sum_{i''\sim i_u}w_{i'}(i'')}
+\bigg( \frac{2dw^*}{2dw^*+v_*} \bigg)^{\!t} \\
+\leq \bigg( \frac{2dw^*}{2dw^*+v_*} \bigg)^{|j-i|}\!\!
+\underbrace{\sum_{\substack{i=i_0\sim\cdots\sim i_t=j\\i_1,\ldots,i_{t-1}\neq j}}
+\,\,\prod_{u=0}^{t-1} \frac{w_{i_u}(i_{u+1})}{\sum_{i''\sim i_u}w_{i'}(i'')}}_{\leq 1}
+\leq \bigg( \frac{2dw^*}{2dw^*+v_*} \bigg)^{\!|j-i|}.
+\end{multline}
+\end{proof}\endgroup
+
+From Claim~\ref{lem7014}, we take the following
+%
+\begin{Cor}
+For a Lipschitzian function~$f \colon \RR\to\RR$,
+denote by~$\|f\|_{\mathit{Lip}}$ the optimal Lipschitz constant for~$f$.
+On~$\ldb(\omega_i)$, define the (possibly infinite) norm $\|\Bcdot\|_{\mathit{Lip}}$
+such that $\|f(\omega_i)\|_{\mathit{Lip}} = \|f\|_{\mathit{Lip}}$%
+\footnote{This definition can be ambiguous if the support of~$\omega_i$ is not the whole $\RR$; in this case, just add an infimum in the definition.};
+denote by~$\barLip(\omega_i)$ the corresponding Banach space.
+
+Then under the law $\Pr[\Bcdot|\vec\omega_K=\vechat{\omega}_K]$,
+the map $\pi_{\omega_j\omega_i}$ defined by~(\ref{for0595}) is $\epsilon(|j-i|)$-contracting
+when seen as an application from $\barLip(\omega_i)$ into $\barLip(\omega_j)$.
+\end{Cor}
+
+Consequently, the map
+$\pi_{\omega_i\omega_j\omega_i} \colon \barLip(\omega_i) \to \barLip(\omega_i)$
+is $\epsilon(|j-i|)^2$-contracting.
+But the canonical embedding $\barLip(\omega_i) \mapsto \ldb(\omega_i)$ is continuous
+as our hypotheses ensure that $\Law(\omega_i)$ is uniformly log-concave,
+therefore for all~$f \in \barLip(\omega_i)$ one has
+\[ \limsup_{k\longto\infty}
+\big|\langle \pi_{\omega_i\omega_j\omega_i}^k f, f \rangle_{\ldb(\omega_i)}\big|^{1/k}
+\leq \epsilon(|j-i|)^2 .\]
+%
+Since $\pi_{\omega_i\omega_j\omega_i}$ is self-adjoint in~$\ldb(\omega_i)$
+and $\barLip(\omega_i)$ is a dense subset of~$\ldb(\omega_i)$,
+it follows by Lemma~\ref{l3253} that $\pi_{\omega_i\omega_j\omega_i}$ is
+$\epsilon(|j-i|)^2$-contracting also in~$\ldb(\omega_i)$.
+This, by Remark~\ref{rmk1265}, is equivalent to saying that
+%
+\[\label{forECRAN} \{\omega_i:\omega_j\}_{\vec\omega_K} \leq \epsilon(|j-i|) . \]
+
+(\ref{forECRAN}) is what we need to apply Lemma~\ref{lem4067};
+in the end, we get the
+%
+\begin{Thm}\label{thmLama}
+The model~(\ref{forHNL}) is exponentially $\rho$-mixing.
+\end{Thm}
+
+
+
+\section{A hypocoercive system of interacting particles}%
+\label{parAHypocoerciveSystemOfInteractingParticles}
+
+For the time being we have only been dealing with \emph{spatial} decorrelations.
+Yet I have had the idea that
+the ability of Hilbertian decorrelations to get tensorized for infinite sets
+could be well adapted to the study of \emph{temporal} relaxation of an infinite stochastic system:
+one can consider indeed time as an extra dimension for the particle system,
+which leads to a situation analogous to the parallel hyperplanes of \S~\ref{parc6177}.
+In the reversible case, we saw that spectral techniques
+make it possible to get $L^2$ results from $L^1$ results, cf.\ Theorem~\ref{c6177}.
+Here I will show how Hilbertian decorrelations can be used
+for a \emph{non-reversible} particle stochastic system.
+
+The system which we will study here as an example
+is governed by a \emph{kinetic Fokker-Planck equation}.
+This equation, which arises naturally in phy\-sics, corresponds to a Hamiltonian evolution
+perturbed by some noise \emph{acting on speeds}.
+The study of such systems is made complicated by the fact that diffusion is only performed
+along certain directions of the states space,
+so that the non-reversibility of the evolution is essential to ensure convergence to equilibrium.
+In~\cite{hypocoercivity}, Villani proves $L^2$ convergence for such systems
+in situations where the state of the system lives in a finite-dimensional manifold.
+Here we will use tensorization of Hilbertian decorrelations in a fundamental way
+to get a result valid in an infinite-dimensional setting.
+Moreover, we will get non-trivial bounds for arbitrary small times,
+which is a new feature compared to~\cite{hypocoercivity}.
+
+\begin{Def}\label{d7463}
+For real parameters $m, \omega, c, T, \lambda > 0$%
+\footnote{$m$ is the mass of each particle,
+$\omega$ is the frequency corresponding to the pinning potential,
+$c$ is more or less the speed of sound, expressed in inter-atomic distances by unit of time,
+$T$ is the temperature and $\lambda$ is the relaxation constant of the friction.
+Physical homogeneity of these constants are resp.~$[\mathsf{M}], \ab 
+[\mathsf{T}^{-1}], \ab [\mathsf{T}^{-1}], \ab [\mathsf{M}\mathsf{L}^2\mathsf{T}^{-2}], \ab 
+[\mathsf{T}^{-1}]$.},
+we consider a system of particles $i$ indexed by~$\ZZ$,
+each particle being described by its momentum $p_i \in \RR$ and its position $q_i \in \RR$.
+We consider the Hamiltonian
+\[ H(\vec{p},\vec{q}) = m^{-1} \sum_{i\in\ZZ} \frac{p_i^2}{2}
++ m\omega^2 \sum_{i\in\ZZ} \frac{q_i^2}{2}
++ mc^2 \sum_{i\in\ZZ} \frac{(q_{i+1}-q_i)^2}{2} .\]
+Then the system $(\vec{p}(u),\vec{q}(u))$ evolves according to the Hamiltonian $H$,
+plus a white noise independent on each~$p_i$, plus a friction force
+$F_i = -\lambda p_i$ on each~$i$ which dissipates the energy brought by the white noise,
+friction being adjusted to the noise so that their association constitutes
+a (volumic) thermal bath at temperature $T$.
+One computes that this means that the quadratic variation on~$p_i$ is given by
+$\dx[p_i] = 2T\lambda m\,\dx{u}$.
+
+In other words, if $\big(W_i(u)\big)_{i\in\ZZ}$ denotes a family of independent brownian motions,
+the evolution of the system is given by
+\[ \left\{ \begin{array}{rcl}
+\dx{p_i} &=& \big( - m\omega^2 q_i + mc^2 (q_{i-1}+q_{i+1}-2q_i) - \lambda p_i \big) \,\dx{u}
++ \sqrt{2T\lambda m} \,\dx{W_i} \\
+\dx{q_i} &=& m^{-1} p_i \,\dx{u} .
+\end{array} \right. \]
+\end{Def}
+
+\begin{Rmk}
+The system of Definition~\ref{d7463} is to be thought
+as a toy model for a large class of similar systems
+obtained by generalizing it in several ways.
+A first example, which would change almost nothing but complicating the formalism,
+is to replace the states space
+$\RR\times\RR$ of each particle by~$\RR^n\times\RR^n$,
+or to replace the lattice $\ZZ$ by~$\ZZ^n$.
+A trickier generalization is to consider the case of non-harmonic interactions:
+then I expect the results stated below to remain qualitatively true,
+but proving them might be far more difficult
+since one cannot use the properties of Gaussian vectors any more.
+Also, if one allows for infinite-ranged interactions, which speed of decay is required
+to get temporal decorrelations?
+
+All these questions look quite worthwhile to me, though answering them
+is out of the scope of this work.
+Here I will only show how Hilbertian correlations make everything work fine for the toy model,
+hoping that it shall be useful for the general situation.
+\end{Rmk}
+
+Let us consider the equilibrium dynamics of our system.
+We fix an arbitrary time $0 < t < \infty$.
+Denote by~$(p_i,q_i)$ the state of particle $i$ at time~${u=0}$,
+resp.\ by~$(p'_i,q'_i)$ the state of particle $i$ at time~${u=t}$.
+We have to prove the
+%
+\begin{Clm}\label{lem1278}
+Provided $t$ is small enough, for all~$i,j\in\ZZ$ (possibly identical),
+one has ${\{p_i:p'_j\}_*}, \ab {\{p_i,q'_j\}_*}, \ab {\{q_i:p'_j\}_*}, \ab 
+{\{q_i,q'_j\}_*} < 1$, uniformly in~$i,j$.
+Moreover, still uniformly in~$i,j$, these quantities are bounded by
+$O(e^{-\gamma|j-i|})$ for some~$\gamma > 0$.
+\end{Clm}
+
+\begin{proof}
+We denote by~$\eta \text{\ (resp.\ $\eta'$)} \in \RR^{\ZZ\times\{p,q\}}$
+the global state $(p_i,q_i)_{i\in\ZZ}$ (resp.~$(p'_i,q'_i)_{i\in\ZZ}$) at time~$0$ (resp.~$t$).
+We also denote by~$(\phi^u)_{u\geq0}$ the semigroup of operators on~$\RR^{\ZZ\times\{p,q\}}$
+corresponding to the evolution of the system in absence of noise, but with the friction remaining.
+Since the system is linear, the~$\phi^u$ are linear operators.
+
+By the work of \S~\ref{parQuadraticModels},
+we know that $\eta$ is distributed according to the centered Gaussian law
+with covariance matrix $T^{-1}\check{C}$, where $\check{C}$ is defined as $\check{Q}^{-1}$,
+the matrix $\check{Q}$ being in turn defined by:
+\begin{eqnarray}
+\label{forQpp} \check{Q}_{p_ip_i} &\coloneqq& m^{-1} ;\\
+\label{forQpq} \check{Q}_{q_iq_i} &\coloneqq& m (\omega^2 + 2c^2) ;\\
+\label{forQqq} \check{Q}_{q_iq_{i\pm1}} &\coloneqq& -mc^2 ,
+\end{eqnarray}
+the other entries of~$\check{Q}$ being zero.
+Observe that, as the matrix of a quadratic form,
+$\check{Q}$ is bounded (this is obvious from~(\ref{forQpp})--(\ref{forQqq}));
+moreover, $\check{Q}^{-1}$ (actually exists and) is also bounded:
+that follows from $\check{Q}$'s being bounded below by
+the matrix having the same expression with~$c$ replaced by~$0$,
+which we denote by~$\check{Q}^\circ$, which is a strictly positive `scalar' matrix
+(modulo some homogeneity constant).
+
+Because of the linear nature of the system, we have moreover that,
+conditionally to~$\eta$, the law of~$\eta'$ is some Gaussian vector
+of the form $\phi^{t}\eta + \theta$, where $\theta$ is a centered Gaussian vector
+whose law does not depend on~$\eta$.
+Let us denote by~$\hat{C}$ the covariance matrix of~$\theta$,
+and $\hat{Q} = \hat{C}^{-1}$ —though for the time being it is not clear that $\hat{Q}$ exists.
+
+Then, we can formally write the covariance matrix $\bar{C}$ of~$(\eta,\eta')$ as
+$\bar{C} = \bar{Q}^{-1}$, with:
+\[\label{for7743}
+\bar{Q}(\eta,\eta') = \check{Q}(\eta) + \hat{Q}(\eta'-\phi^{t}\eta) .\]
+(Note that $\bar{Q}$ is a quadratic form on~$\RR^{\ZZ\times\{p,q,p',q'\}}$,
+while $\check{Q}$ and~$\hat{Q}$ were defined on~$\RR^{\ZZ\times\{p,q\}}$).
+
+\begin{Not}
+In the sequel, we shorthand ``$\ZZ\times\{p,q\}$'' into~``$\ZZ^{\uplus2}$'',
+resp.\ ``$\ZZ\times\{p,q,p',q'\}$'' into~``$\ZZ^{\uplus4}$''.
+\end{Not}
+
+Now I claim that there exists
+constants $0<r\leq R<\infty$ such that
+$r\mathbf{I} \leq \bar{Q} \leq R\mathbf{I}$.
+Well, this is meaningless \emph{stricto sensu}, because all the entries of~$\bar{Q}$
+do not have the same physical homogeneity,
+so we have to `convert' momenta into positions by dividing them
+by some homogeneity parameter~$\chi$, say $\chi = m\omega$
+—but other choices may be more relevant.
+
+First, I claim that $\bar{Q} \geq \frac{1}{2}(\chi^2 m^{-1}\wedge m\omega^2) \mbf{I}$.
+Let indeed $(\eta,\eta') = (\vec{p}_{\ZZ},\vec{q}_{\ZZ},\vec{p'}_{\ZZ},\vec{q'}_{\ZZ})
+\in \RR^{\ZZ^{\uplus4}}$ with finite support.
+We observe that
+\[ \|(\eta,\eta')\|^2 = \sum_{i\in\ZZ} \big(\chi^{-2}p_i^2+q_i^2+\chi^{-2}{p'}_i^2+{q'}_i^2\big)
+= \| \eta \|^2 + \| \eta' \|^2 ,\]
+so that either $\|\eta\|^2 \geq \frac{1}{2} \|(\eta,\eta')\|^2$
+or $\|\eta'\|^2 \geq \frac{1}{2} \|(\eta,\eta')\|^2$.
+Now, recalling the definition of~$\check{Q}^\circ$ a few lines above,
+$\check{Q}(\eta) \geq \check{Q}^\circ(\eta) \geq (\chi^2 m^{-1}\wedge m\omega^2) \|\eta\|^2$,
+so by~(\ref{for7743}), $\bar{Q}(\eta,\eta') \geq (\chi^2 m^{-1}\wedge m\omega^2) \|\eta\|^2$.
+Since reversing the direction of time yields the same system with the sign of speeds reversed, which does not change the norms of~$\eta$ and~$\eta'$,
+one has similarly $\bar{Q}(\eta,\eta') \geq (\chi^2 m^{-1}\wedge m\omega^2) \|\eta'\|^2$.
+The claim follows.
+
+The second point consists in proving that $\bar{Q}$ is bounded above.
+On the one hand, by~(\ref{forQpp})--(\ref{forQqq}),
+\[ \check{Q}(\eta) \leq \big(m^{-1}\chi^2\vee m(\omega^2+4c^2)\big) \|\eta\|^2
+\leq \big(m^{-1}\chi^2\vee m(\omega^2+4c^2)\big) \|(\eta,\eta')\|^2 .\]
+
+Next, the difficult point is to prove that $\hat{Q}(\eta'-\phi^{t}\eta)$
+(exists and) can be bounded above by a multiple of~$\|(\eta,\eta')\|^2$.
+We begin with transforming the original problem
+of bounding a quadratic form on~$\RR^{\ZZ^{\uplus4}}$
+into a problem on~$\RR^{\ZZ^{\uplus2}}$.
+Indeed, $\|\phi^t\eta\|$ is bounded by a multiple of~$\|\eta\|$,
+since the operator $\phi^t$ dissipates the energy $H(\eta)$,
+energy which the previous work on~$\check Q$
+proved to be controlled below and above by~$\|\eta\|^2$;
+therefore, it suffices to prove that the quadratic form $\hat{Q}(\eta)$ on~$\RR^{\ZZ^{\uplus2}}$
+is bounded by a multiple of~$\|\eta\|^2$ to achieve our goal.
+
+The natural quantity to be computed for~$\theta$
+(recall that $\theta$ denotes the total effect of noise between times~$0$ and~$t$)
+is its covariance matrix $\hat{C}$.
+Its expression is the following (the notation is explained just below):
+\[\label{for5483} \hat{C} = 2T\lambda m \int_0^{t} \phi^{t-u} \mbf{I}_p \T{(\phi^{t-u})} \,\dx{u} ,\]
+where $\mbf{I}_p$ is the diagonal matrix being~$1$ on diagonal entries indexed by some~$p_i$
+and~$0$ on diagonal entries indexed by some~$q_i$,
+and $\T{(\phi^{t-u})}$ is the transpose of the linear operator $\phi^{t-u}$
+seen as a square matrix indexed by~$\ZZ^{\uplus2}$.
+This decomposition means that we are summing the contributions
+of all the elementary noises occuring at times $u \in [0,t]$,
+using that these elementary noises are independent.
+
+Now we need an approximate expression for~$\phi^u$, $u\in[0,t]$.
+Here for the sake of legibility I will remain at a formal level, giving only limited expansions;
+it is essential nevertheless to keep in mind that all the ``$O(*)$''
+can be made explicit by using Gronwall's lemma,
+and that these explicit values ensure that the~$O(*)$ behave well provided $t$ is small enough.
+%
+One finds that
+\begin{eqnarray}
+\label{for5476a}
+\phi^u \delta_{p_i} \cdot p_j &=& c^{2|j-i|} \frac{u^{2|j-i|}}{(2|j-i|)!} + O(u^{2|j-i|+2}) ;\\
+\phi^u \delta_{p_i} \cdot q_j &=& m^{-1}c^{2|j-i|} \frac{u^{2|j-i|+1}}{(2|j-i|+1)!}
++ O(u^{2|j-i|+3}) ;\\
+\phi^u \delta_{q_i} \cdot p_i &=& m\omega^2 u + O(u^3) ;\\
+\phi^u \delta_{q_i} \cdot p_{j\neq i} &=& mc^{2|j-i|} \frac{u^{2|j-i|-1}}{(2|j-i|-1)!}
++ O(u^{2|j-i|+1}) ;\\
+\label{for5476z}
+\phi^u \delta_{q_i} \cdot q_j &=& c^{2|j-i|} \frac{u^{2|j-i|}}{(2|j-i|)!} + O(u^{2|j-i|+2}) .
+\end{eqnarray}
+%
+Injecting Equations~(\ref{for5476a})--(\ref{for5476z}) into~(\ref{for5483}), one finds that:%
+\footnote{Recall that $\hat{C}$, as a covariance matrix, is symmetric.}
+\begin{eqnarray}
+\label{for5579a}
+\hat{C}_{p_ip_i} &=& 2T\lambda m t + O(t^3) ;\\
+\hat{C}_{p_iq_i} &=& T\lambda t^2 + O(t^4) ;\\
+\hat{C}_{q_iq_i} &=& \mathsmaller{\frac{2}{3}}T\lambda m^{-1} t^3 + O(t^5) ;\\
+\hat{C}_{p_ip_{j\neq i}} &=& O(t^{2|j-i|+1}) ;\\
+\hat{C}_{p_iq_{j\neq i}} &=& O(t^{2|j-i|+2}) ;\\
+\label{for5579z}
+\hat{C}_{q_iq_{j\neq i}} &=& O(t^{2|j-i|+3}).
+\end{eqnarray}
+
+Consequently, the covariance matrix $\hat{C}$ can be seen
+as a perturbation of the matrix $\hat{C}^\circ$
+which is defined by Equations~(\ref{for5579a})--(\ref{for5579z}),
+but with the ``$O(*)$'' terms replaced by~$0$.
+%
+Since $\hat{C}^\circ$ is invertible, with an explicitly computable inverse,
+one finds that $\hat{C}$ is invertible too with:
+%
+\begin{eqnarray}
+\hat{Q}_{p_ip_i} &=& 2T^{-1}\lambda^{-1}m^{-1}t^{-1} + O(t) ;\\
+\hat{Q}_{p_iq_i} &=& -3T^{-1}\lambda^{-1}t^{-2} + O(1) ;\\
+\hat{Q}_{q_iq_i} &=& 6T^{-1}\lambda^{-1}mt^{-3} + O(t^{-1}) ;\\
+\hat{Q}_{p_ip_{j\neq i}} &=& O(t^{2|j-i|-1}) ;\\
+\hat{Q}_{p_iq_{j\neq i}} &=& O(t^{2|j-i|-2}) ;\\
+\hat{Q}_{q_iq_{j\neq i}} &=& O(t^{2|j-i|-3}).
+\end{eqnarray}
+%
+In the end, provided that $t$ is small enough, we have proved that
+$\hat{Q}(\eta)/\|\eta\|^2 \leq 6T^{-1}\lambda mt^{-3} + O(t^{-1}) \ab {< \infty}$.
+
+Actually we have proved more than that:
+not only we have a bound on the operator norm of~$\bar{Q}$,
+but we have bounded it entry-wise.
+More precisely, expanding the~$O(*)$, we find that provided $t$ is small enough,
+there exists constants~$A < \infty$ and~$\gamma > 0$ such that for all~$i,j\in\ZZ$,
+\[ \underbrace{\hat{Q}_{p_ip_j}, \hat{Q}_{p_iq_j}, \ldots, \hat{Q}_{q'_iq'_j}}%
+_{\text{all 16 possibilities}} \leq A e^{-\gamma|j-i|} .\]
+
+\begin{Not}
+From now on we denote the basic variables $p_i, q_i, p'_i, q'_i$ of our system by~$X_i$,
+$i \in \ZZ^{\uplus4}$.
+\end{Not}
+
+Now the question is: for~$i\neq j \in \ZZ^{\uplus4}$,
+$K \subset \ZZ^{\uplus4} \setminus \{i,j\}$,
+what is the value of~${\{X_i:X_j\}}_{\vec{X}_K}$?
+%
+By the properties of Gaussian variables [Theorem~\ref{pro1857}], the answer is the following.
+Let~$\bar{Q}_{|_{\ZZ^{\uplus4}\setminus K}}$ be the restriction
+of~$\bar{Q}$ to indexes in~$(\ZZ^{\uplus4}\setminus K)$.
+Since $r\mathbf{I} \leq \bar{Q} \leq R\mathbf{I}$, the same holds
+for~$\bar{Q}_{|_{\ZZ^{\uplus4}\setminus K}}$, so this matrix is invertible;
+denote by~$\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}$ its inverse.
+This matrix is the covariance matrix of (the centered version of)
+$\vec{X}_{\ZZ^{\uplus4}\setminus K}$ under some fixed value for~$\vec{X}_K$;
+thus:
+\[\label{for4972} \{X_i:X_j\}_{\vec{X}_K} =
+\frac{\Big| \bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{ij} \Big|}
+{\sqrt{\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{ii}
+\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{jj}}} .\]
+
+It remains to control the entries of~$\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}$, uniformly in~$K$.
+We need two types of control: first an exponential control when $i$ is far away from $j$,
+then a non-trivial control for the values of~$i$ and~$j$ corresponding to close
+(or even identical) atoms.
+
+Let us start with the first one.
+$\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{ii}$ and
+$\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{jj}$ are bounded below by~$R^{-1}$,
+so we just have to bound above $\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}_{ij}$.
+This is achieved by a direct use of Lemma~\ref{lem4060} in appendix.
+
+Concerning the uniform non-trivial control, since $r\mbf{I} \leq \bar{Q} \leq R\mbf{I}$
+one has $r\mbf{I} \leq \bar{Q}_{|_{\ZZ^{\uplus4}\setminus K}} \leq R\mbf{I}$,
+hence $R^{-1}\mbf{I} \leq \bar{C}^{|^{\ZZ^{\uplus4}\setminus K}} \leq r^{-1}\mbf{I}$,
+hence $R^{-1}\mbf{I} \leq \big(\bar{C}^{|^{\ZZ^{\uplus4}\setminus K}}\big)_{|_{\{i,j\}^2}} \leq r^{-1}\mbf{I}$;
+from this and~(\ref{for4972}),
+\[ \forall i \neq j \in I \qquad \{X_i:X_j\}_* \leq \frac{R-r}{R+r} < 1 .\]
+%
+\end{proof}
+
+From Claim~\ref{lem1278}, we get the main result of this subsection:
+%
+\begin{Thm}\label{thmParis}
+For the model of Definition~\ref{d7463}, for all~$t>0$, $\{\eta,\eta'\} < 1$.
+\end{Thm}
+
+\begin{proof}
+First, if $t$ is small enough so that Claim~\ref{lem1278} holds,
+direct application of Lemma~\ref{lem4067} proves the result,
+as the~$\{X_i,X_j\}_*$ are summable (since they decrease exponentially)
+and they all are $<1$.
+
+Now for larger $t$, fix some $0<t_1<t$ so that Claim~\ref{lem1278} holds for~$t_1$.
+Then we notice that $\eta \to \eta(t_1) \to \eta'$ is a Markov chain
+(with ``$\eta(t_1)$'' standing for ``$\big(\vec{p}(t_1),\vec{q}(t_1)\big)$''),
+so by Proposition~\ref{cor0706}, $\{\eta,\eta'\} \leq \{\eta,\eta(t_1)\} < 1$.
+\end{proof}
+
+
+
+
+\section{Appendix: Inverses of `nearly diagonal' matrices}%
+\label{parInversesOfDiagonalConcentratedMatrices}
+
+The goal of this appendix is to state and prove a few lemmas sharing the same spirit:
+``\emph{if a matrix is `nearly diagonal', then it shall be invertible
+and its inverse shall also be `nearly diagonal' with the same type of decay}''.
+
+\subsection{Matrices with exponential decay}
+
+The goal of this subsection is to prove the following
+%
+\begin{Lem}\label{lem4060}
+Let~$I \subset \ZZ$ and let~$(\!(M_{ij})\!)_{(i,j)\in I^2}$ be a matrix.
+Assume that, when seen as a quadratic form on~$L^2(I)$, one has
+$r\mbf{I} \leq M \leq R\mbf{I}$ for $0<r\leq R<\infty$ —in particular, $M$ is invertible.
+Assume moreover that there exists constants~$A < \infty$ and~$\gamma > 0$ such that
+for all~$i,j\in I$, $|M_{ij}| \leq A e^{-\gamma|j-i|}$.
+
+Then there exist constants~$A' < \infty$ and~$\gamma' > 0$
+which are explicit functions of~$r,R,\gamma,A$ (so \emph{they do not depend on~$I$}),
+such that one has the following control on the entries of~$M^{-1}$:
+\[ \forall i,j \in I \qquad (M^{-1})_{ij} \leq A' e^{-\gamma'|j-i|} .\]
+\end{Lem}
+
+\begin{proof}
+Up to multiplying by a scalar, one can assume that $R=1$.
+Then $M$ writes $M = \mbf{I} - H$, where $0 \leq H \leq (1-r) \mbf{I}$;
+since $H$ is symmetric, that inequality means that $\VERT H \VERT \leq 1-r < 1$.
+Therefore, for all~$k \in \NN$ one has $\VERT H^k \VERT \leq (1-r)^k$,
+which allows us to write $M^{-1}$ as a series expansion:
+\[ M^{-1} = \sum_{k=0}^\infty H^k .\]
+
+Up to replacing $A$ by~$A+1$,
+we have the same entry-wise control on~$H$ as on~$M$.
+Then one sees by induction that for all~$k\in\NN$,
+\[\label{for5051}
+\forall i,j\in I \qquad \big| (H^k)_{ij} \big| \leq A_1^k e^{-\gamma_1|j-i|} ,\]
+where $\gamma_1$ is an arbitrary parameter in~$(0,\gamma)$ and
+\[ A_1 \coloneqq \sum_{z\in\ZZ} Ae^{-\gamma|z| + \gamma_1 z}
+= \frac{(1-e^{-2\gamma})A}{(1-e^{-(\gamma-\gamma_1)})(1-e^{-(\gamma+\gamma_1)})} \]
+—observe that $I$ does not appear in the expression of~$A_1$.
+%
+Since $A_1$ is greater than $1$,
+(\ref{for5051}) is not enough to get an entry-wise control on~$M^{-1}$.
+But now observe that the bound $\VERT H^k \VERT \leq (1-r)^k$ implies
+that all the~$(H^k)_{ij}$ are bounded by~$(1-r)^k$ in absolute value;
+thus:
+\[ \big| (M^{-1})_{ij} \big| \leq
+\sum_{k=0}^\infty \big( e^{-\gamma_1|j-i|} A_1^k \wedge (1-r)^k \big) \\
+\leq \bigg( \frac{A_1}{A_1-1} + \frac{1}{r} \bigg)
+\exp \left( -\frac{|\ln(1-r)| \gamma_1}{|\ln(1-r)| + \ln A_1} |j-i| \right) ,
+\]
+from which you read suitable values for~$A'$ and~$\gamma'$.
+\end{proof}
+
+
+\subsection{Convolution inverses of rapidly decreasing functions}%
+\label{parDeconvolutionOfRapidlyDecreasingFunctions}
+
+\begin{NOTA}
+In all this subsection, we work on~$\ZZ^n$ for some $n\in\NN^*$;
+$\RR^n$ is endowed with some fixed norm~$|\Bcdot|$.
+\end{NOTA}
+
+\begin{Rmk}
+Here I will deal with fonctions on~$\ZZ^n$, but the results of this subsection
+could also be tranposed for functions on~$\RR^n$.
+\end{Rmk}
+
+\begin{Def}
+If $a:\ZZ^n\to\RR$ is some integrable function with
+$\|a\|_{\ell^1} < 1$, we define
+\[\label{f8928} B[a] = a + a* a + a* a* a + \cdots ,\]
+which is the sum of a convergent series in~$\ell^1(\ZZ^n)$.
+$B[a]$ is the function~$b\in\ell^1(\ZZ^n)$ characterized by:
+\[ (\delta_0-a) * (\delta_0+b) = \delta_0 .\]
+\end{Def}
+
+\begin{Def}\label{def726}
+A function~$a:\ZZ^n\to\RR$ is said to have \emph{exponential decay} if there exists some $\beta > 0$
+such that, for all~$\beta'<\beta$, $a(z) = O(e^{-\beta'|z|})$ when~$|z|\longto\infty$.
+The minimal $\beta$ satisfying that property is called the
+\emph{(exponential) rate of decay} of~$a$.
+\end{Def}
+
+\begin{Lem}\label{l1939a}
+Let~$a\in\ell^1(\ZZ^n)$ with $\|a\|_{\ell^1} < 1$.
+If $a$ has exponential decay, then so does $B[a]$.
+\end{Lem}
+
+\begin{proof}
+Denoting by~$|a|$ the function defined by~$|a|(z) = |a(z)|$,
+it is clear by~(\ref{f8928}) that
+\[ \forall z\in\ZZ^n \qquad \big|B[a](z)\big| \leq B\big[|a|\big](z) ,\]
+therefore it suffices to prove the case where $a$ is nonnegative.
+In that case, $B[a]$ will also be nonnegative.
+
+Let~$(\RR^n)^*$ denote the dual space of~$\RR^n$, endowed with the dual norm
+\[ \forall \lambda \in (\RR^n)^* \qquad
+|\lambda|_* = \sup_{\substack{z\in\RR^n\\|z|=1}} |\langle \lambda, z \rangle| .\]
+For a nonnegative function~$a$, we define its Laplace transform
+$\mcal{L}\{a\} \colon (\RR^n)^* \to \RR_+ \cup \{+\infty\}$ by
+\[\label{f9677} \mcal{L}\{a\}(\lambda) = \sum_{z\in\ZZ^n} e^{\langle\lambda,z\rangle} a(z) .\]
+Then, saying that $a$ has exponential decay with rate $\gamma$
+is equivalent to saying that, for all~$\lambda \in (\RR^n)^*$ with $|\lambda|_* < \gamma$,
+$\mcal{L}\{a\}(\lambda)$ is finite.
+
+Since Laplace transform is linear and turns convolution into ordinary product,
+(\ref{f8928}) yields, for all~$\lambda \in (\RR^n)^*$:
+\[\label{f9574} \mcal{L}\{B[a]\}(\lambda) = \mcal{L}\{a\}(\lambda) + \mcal{L}\{a\}(\lambda)^2
++ \mcal{L}\{a\}(\lambda)^3 + \cdots, \]
+which converges if and only if $\mcal{L}\{a\}(\lambda) < 1$.
+
+Now, since $a$ is nonnegative, by~(\ref{f9677}) the function~$\mcal{L}\{a\}$ is convex,
+so it is continuous on the interior of the domain where it is finite.
+By the exponential decay hypothesis, that domain contains a neighbourhood of~$0$,
+so $\mcal{L}\{a\}$ is continuous at~$0$.
+And since $\mcal{L}\{a\}(0) = \sum_{z\in\ZZ^n} a(z) = \|a\|_{\ell^1} < 1$,
+there is a neighbourhood of~$0$ on which $\mcal{L}\{a\}<1$ and thus $\mcal{L}\{B[a]\}<\infty$.
+This implies that $B[a]$ has exponential decay.
+\end{proof}
+
+\begin{Rmk}\label{rmk9890}
+This proof also shows that (for nonnegative $a$)
+the rate of decay of~$B[a]$ will never be greater than the rate of decay of~$a$.
+In general, it is even strictly smaller,
+since all the values of~$\lambda$ for which $1\leq\mcal{L}\{a\}(\lambda)<\infty$ yield
+a finite Laplace tranform for~$a$ but an infinite one for~$B[a]$.
+For example, take $n=1$ and $a = e^{-1}\delta_{1}$,
+which has exponential decay with infinite rate since it is compactly supported;
+then the $k$-th convolution power of~$a$ is $a^{*k} = e^{-k}\delta_k$,
+so that $B[a]$ is the function
+\[ B[a](z) = \1{z>0} e^{-z} ,\]
+which also has exponential decay, but with rate $1$ only.
+\end{Rmk}
+
+\begin{Lem}\label{l1939b}
+If $\|a\|_{\ell^1(\ZZ^n)} < 1$ and $a(z) = O(1/|z|^\alpha)$ when~$|z|\longto\infty$
+for some $\alpha > n$, then $B[a](z) \ab {= O(1/|z|^\alpha)}$ when~$|z|\longto\infty$.
+\end{Lem}
+
+\begin{proof}
+Let~$a$ satisfy the assumptions of the lemma for some $\alpha$.
+Like in the proof of Lemma~\ref{l1939b}, we can assume that $a$ is nonnegative.
+For~$d > 0$, we define the function~$\phi_d \colon \ZZ^n\to\RR$ by:
+\[ \phi_d(z) \coloneqq 1/(|z|\wedge d)^\alpha ,\]
+which is in~$\ell^1(\ZZ^n)$ since $\alpha > n$.
+Then the key claim is the following sub-lemma, whose proof is postponed:
+%
+\begin{Lem}\label{c9125}
+Under the assumptions of Lemma~\ref{l1939b},
+there exists some $\rho < 1$ and some $d \in (0,\infty)$ such that, pointwise,
+\[\label{f9148} \phi_d * a \leq \rho\phi_d .\]
+\end{Lem}
+
+Admitting Lemma~\ref{c9125}, take~$\rho$ and~$d$ such that (\ref{f9148}) is satisfied.
+The assumption on~$a$ implies that there exists some $C < \infty$ such that $a \leq C\phi_d$;
+therefore by~(\ref{f9148}) one also has $a * a \leq C \phi_d * a \leq \rho C \phi_d$,
+whence by~(\ref{f9148}) again $a * a * a \leq \rho C \phi_d * a \leq \rho^2 C \phi_d$,
+etc.. In the end,
+\[ B[a] \leq C \phi_d + \rho C \phi_d + \rho^2 C \phi_d + \cdots \leq \frac{C}{1-\rho} \phi_d ,\]
+which implies that $B[a](z) = O(1/|z|^\alpha)$.
+\end{proof}
+
+\begingroup\def\proofname{Proof of Lemma~\ref{c9125}}
+\begin{proof}
+Denote $S \coloneqq \|a\|_{\ell^1}$, which by hypothesis is $<1$,
+and fix $\epsilon \in (0,1/2)$ such that $(1-\epsilon)^\alpha > S$.
+Let~$d \in (0,\infty)$, devised to be quite large; our goal is to bound above
+$\big(\phi_d * a\big)(z)$ for all~$z \in \ZZ^n$.
+Since $\phi_d$ is bounded above by~$d^{-\alpha}$, one has obviously for all~$z \in \ZZ^n$:
+\[\label{f2348} \big(\phi_d * a\big)(z) \leq d^{-\alpha} \sum_{z\in\ZZ^n} a(z) = S d^{-\alpha} ,\]
+whence $\big(\phi_d * a\big)(z) \leq S \phi_d(z)$ for all~$z$ with $|z|\leq d$.
+Since $S<1$, the claim is therefore okay for $|z|\leq d$. 
+
+Now, let~$z\in\ZZ^n$ with $|z|>d$. We have to bound above
+\[ \big(\phi_d*a\big)(z) = \sum_{\substack{x,y\in\ZZ^n\\x+y=z}} \phi_d(x)\,a(y) .\]
+We decompose this sum into three pieces:
+\[ \big(\phi_d*a\big)(z) = \sum_{|y|\leq\epsilon|z|} \phi_d(z-y)\,a(y) +
+\sum_{\substack{|x|>\epsilon|z|\\|z-x|>\epsilon|z|}} \phi_d(x)\,a(z-x) +
+\sum_{|x|\leq\epsilon|z|} \phi_d(x)\,a(z-x) ,\]
+which we shorthand into ``$\onecirc + \twocirc + \threecirc$''.
+
+We bound these three terms separately.
+For~\onecirc, we observe that for $|y| \leq \epsilon|z|$, $|z-y| \geq (1-\epsilon)|z|$
+by the triangle inequality, thus $\phi_d(z-y) \leq {\big((1-\epsilon)|z|\big)^{-\alpha}} \ab 
+= (1-\epsilon)^{-\alpha} \phi_d(z)$, whence by summing:
+\[\label{f1034a} \onecirc \leq (1-\epsilon)^{-\alpha} \phi_d(z) \sum_{|y|\leq\epsilon|z|} a(y)
+\leq (1-\epsilon)^{-\alpha} S \phi_d(z) .\]
+Similarly, for $|x| \leq \epsilon|z|$, $C$ denoting a constant such that $a\leq C\phi_d$,
+one has ${a(z-x)} \ab \leq C\big((1-\epsilon)|z|\big)^{-\alpha}$, thus:
+\[\label{f1034b} \threecirc \leq (1-\epsilon)^{-\alpha} C \|\phi_d\|_{\ell^1} \, \phi_d(z) .\]
+Of course, $\|\phi_d\|_{\ell^1}$ depends on~$d$; the important point is that,
+by dominated convergence, $\|\phi_d\|_{\ell^1} \longto 0$ when~$d \longto \infty$.
+
+Finally, provided $d$ is large enough, Term~\twocirc\ will be well approximated by an integral:
+\[\label{f1820} \twocirc \leq
+\sum_{\substack{x\in\ZZ^n\\|x|,|z-x|>\epsilon|z|}} \frac{1}{|x|^\alpha}\times\frac{C}{|z-x|^\alpha}
+\simeq \int_{\begin{subarray}{l}x\in\RR^n\\|x|,|z-x|>\epsilon|z|\end{subarray}}
+\frac{C}{(|x|\,|z-x|)^\alpha}\, \dx{x} ,\]
+where ``$\simeq$'' means that the ratio between the quantites at each side of that symbol
+can be made arbitrarily close to~$1$ when~$d \longto \infty$, uniformly in~$z$.
+%
+Indeed, the difference between the sum and the integral
+is due to two causes: first, approximating the integral on a unit square of~$\RR^n$
+by the value of the integrand at the center of this square, second, summing (or not summing)
+terms of the discrete sum corresponding to squares
+that are not entirely in the domain of the integral.
+%
+For the first cause,
+on the domain of the integral, $C/(|x||z-x|)^\alpha$
+varies of at most $O(1/|z|)$ in relative value on all the unit squares.
+For the second cause, the border of the domain of the integral
+is made of two $(n-1)$-dimensional spheres of radius $\epsilon |z|$,
+so it crosses $O(|z|^{n-1})$ unit squares. Since $C/(|x||z-x|)^\alpha$
+is bounded by~$C(\epsilon(1-\epsilon))^{-\alpha} |z|^{-2\alpha}$
+on the domain of the integral, the (absolute) error due to boundary squares
+is at most $O(|z|^{n-1-2\alpha})$. As the integral itself is proportional to
+$|z|^{n-2\alpha}$ (cf.\ the change of variables below),
+the relative error due to boundary squares is at most $O(1/|z|)$ too,
+and $O(1/|z|) = o(1)$ since $|z| > \epsilon d$.
+
+Making the change of variables $x = |z|x'$, (\ref{f1820}) becomes:
+\[ \twocirc \lesssim C|z|^{n-2\alpha}
+\int_{|x'|,|1-x'|>\epsilon} \frac{1}{|x'|^\alpha|1-x'|^\alpha} \, \dx{x'} ,\]
+which I shorthand into ``$\twocirc \lesssim \mcal{I}C|z|^{n-2\alpha}$''.
+Since $|z|>d$ and $\alpha > n$, this bound implies:
+\[\label{f1034c} \twocirc \lesssim \frac{\mcal{I}C}{d^{\alpha-n}} \, \phi_d(z) .\]
+
+Combining~(\ref{f1034a}), (\ref{f1034b}) and~(\ref{f1034c}),
+one finally gets that when~$d\longto\infty$, for all~$|z|\geq d$,
+\[ \big(\phi_d*a\big)(z) \leq \rho(d) \, \phi_d(z) ,\]
+with
+\[ \rho(d) = (1-\epsilon)^{-\alpha} (S+C\|a\|_{\ell^1})
++ (1+o(1)) \mcal{I}C/d^{\alpha-n} .\]
+$\rho(d)$ tends to~$(1-\epsilon)^{-\alpha} S < 1$ when~$d\longto\infty$,
+so it is $<1$ provided $d$ is large enough, which is what we wanted.\linebreak[1]\strut
+\end{proof}\endgroup
+

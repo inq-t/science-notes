@@ -2,7 +2,7 @@
 
 A conditional susceptibility can be exponentially localized even when the full one-form operator has no positive spectral floor. The source of a covariance response is an exact one-form, and only that invariant sector needs a gap. Spatial weights act on the larger one-form space, where nonnegativity and a bounded locality defect suffice. Splitting the auxiliary evolution into short and long times keeps these two requirements separate.
 
-**Status: [EXACT CONDITIONAL THEOREM], with a direct proof.** This refines the operator route in [[inq|auxiliary response localization]]. It does not derive a conditional Poincare constant for Yang--Mills.
+**Status: [EXACT CONDITIONAL THEOREM], with a direct proof.** The covariance representation and compatible operator domains are specified in [[witten-covariance-and-local-response|Witten covariance and local response]]. It does not derive a conditional Poincare constant for Yang--Mills.
 
 ## Carrier and the two bounds
 
@@ -52,7 +52,7 @@ Let \(q=dG\) have factor support in \(F\), and let \(r=d_E(A,F)\). Then
 \right]\|dG\|_2.}
 \tag{ES6}
 \]
-No positive floor on the full one-form space is assumed.
+No positive floor on the full one-form space is assumed. This is a direct off-support bound; it does not establish the global weighted norm (ARL15) of [[witten-covariance-and-local-response|the weighted response criterion]] at the same endpoint exponent. Such a conclusion needs an additional summability estimate and generally a smaller weight exponent.
 
 **Proof.** Since the original source lies in the invariant exact sector,
 \[
@@ -88,7 +88,7 @@ This is a static consequence of two estimates on an auxiliary evolution. If \(\r
 \sigma_\theta b=\frac{\theta\rho_0}{\rho_0+M_0}.
 \tag{ES10}
 \]
-An auxiliary-clock rescaling multiplies both generator rates by the same factor and leaves this exponent unchanged. Identifying it with a physical inverse correlation length still requires actual spatial distance and the reconstruction hypotheses in [[inq|the parent theorem]].
+An auxiliary-clock rescaling multiplies both generator rates by the same factor and leaves this exponent unchanged. Identifying it with a physical inverse correlation length still requires actual spatial distance and [[yang-mills-response-calibration|the limiting-law and reconstruction hypotheses]].
 
 ## Covariance and conditional score transport
 
@@ -98,7 +98,7 @@ For smooth complex functions, with the inner product conjugate-linear in its fir
 =\langle dF,(K|_{\mathcal E})^{-1}dG\rangle_{L^2(\mu)}.
 \tag{ES11}
 \]
-Indeed, write the centered Poisson solution \(u=L_0^{-1}(G-\mu G)\); then \(du=(K|_{\mathcal E})^{-1}dG\), and integration by parts proves (ES11). Consequently
+[[witten-covariance-and-local-response#The covariance identity|The Witten covariance identity]] proves (ES11) on this exact sector by solving the centered scalar Poisson equation and integrating by parts. Consequently
 \[
 |\operatorname{Cov}_\mu(F,G)|
 \le
@@ -136,6 +136,6 @@ K=\nabla_\mu^*\nabla+\operatorname{Ric}+\operatorname{Hess}U
 \]
 shows how to check (ES5). Parallel scalar factor weights commute with the product connection, drift, and factorwise Ricci tensor. Only the off-diagonal potential Hessian remains. [[rg-covariance-residue/nonlinear-conditional-gauge-response|The normalized compact gauge law]] supplies an explicit such bound.
 
-[[library/witten-laplacian-methods-for-the-decay-of-correlations/inq|Lo's weighted Witten analysis]] is a primary precedent for converting one-form response into correlation decay; its weighted coercivity hypothesis must not be replaced by positivity of a non-self-adjoint operator's spectrum. [[library/witten-laplacian-on-a-lattice-spin-system/inq|Shigekawa's lattice-spin estimates]] provide full positive-degree lower bounds under their assumptions. Neither source is being credited with the exact-source proof written here.
+[[library/witten-laplacian-methods-for-the-decay-of-correlations/inq|Lo's weighted Witten analysis]] is a primary precedent for converting one-form response into correlation decay; its weighted coercivity hypothesis must not be replaced by positivity of a non-self-adjoint operator's spectrum. [[library/witten-laplacian-on-a-lattice-spin-system/inq|Shigekawa's lattice-spin estimates]] provide full positive-degree lower bounds under their assumptions. [[witten-covariance-and-local-response#Primary precedents and their scope|The source hypotheses]] distinguish these precedents from a common-exponent theorem on a total local family. Neither source is being credited with the exact-source proof written here.
 
 [[receipts/exact_source_locality_receipt.py|The finite Hilbert-complex receipt]] tests the split estimate on a cycle incidence complex whose one-form Laplacian has a harmonic kernel. Its exact-sector gap shrinks with cycle size: the receipt checks the theorem's sector logic, not a volume-uniform physical gap.

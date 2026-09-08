@@ -1,0 +1,34 @@
+{
+  "description": "Primary sources for auxiliary response localization; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://www.math.kyoto-u.ac.jp/~ichiro/shigekawa_us.pdf",
+      "version": "author-hosted version",
+      "attempted_at": "2026-09-08T20:47:45.080808+00:00",
+      "resolved_url": "https://www.math.kyoto-u.ac.jp/~ichiro/shigekawa_us.pdf",
+      "content_type": "application/pdf",
+      "path": "2009-shigekawa-witten-lattice.pdf",
+      "bytes": 186052,
+      "sha256": "deb97eedb4de095c7c6203000ecae0bef7b3cec7d6d783e0037026cf61074ab5",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 15,
+        "first_page_text_prefix": "WITTEN LAPLACIAN ON A LATTICE SPIN SYSTEM\nby\nIchiro Shigekawa\nDedicated to Jean-Michel Bismut on the occasion of his 60th birthday\nAbstract.— We consider an unbounded lattice spin "
+      }
+    },
+    {
+      "path": "2009-shigekawa-witten-lattice-extracted.txt",
+      "bytes": 27696,
+      "sha256": "37afff3d8efb418108ec7c65d05064de958cbb79d8ba9dfc2fcd46f0199c01cf",
+      "kind": "derived-searchable-text",
+      "derived_from": "2009-shigekawa-witten-lattice.pdf",
+      "method": "pypdf text extraction with PDF page markers; equations may have extraction errors"
+    }
+  ],
+  "machine_readable_source_search": {
+    "checked": "2026-09-08",
+    "url": "https://www.math.kyoto-u.ac.jp/~ichiro/",
+    "result": "The official author publication list provides a PDF link for this article and no TeX source link."
+  }
+}

@@ -2,6 +2,7 @@
 inq.module: "higgs-reduction-as-local-shadow"
 inq.include:
   - "**/*.md"
+keywords: [Higgs direction, bundle reduction, gauge orbit, pointing, mass reconstruction]
 ---
 # Higgs Reduction as a Local Shadow
 
@@ -125,7 +126,7 @@ K_{c,\ell}
 \tag{HLS6}
 $$
 
-This is the complete-angle branch. The calibration arrow includes the independently selected physical collar thickness and the action and causal conversions; the OS/Poincare arrow supplies the physical carrier on which energy and invariant mass are defined. [[auxiliary-response-localization/inq|The dense-total-set branch]] instead sends the whole law to a common static exponent \(\sigma_*>0\) and then uses OS spectral reconstruction without first constructing \(\|KQ\|<1\). The Higgs data \((\widehat\Phi_c,r_c)\), the response certificate, and the dimensional calibration have different codomains and proof obligations. A successful deeper algebra may relate them, but it must construct that relation instead of identifying them by metaphor.
+This is the complete-angle branch. The calibration arrow includes the independently selected physical collar thickness and the action and causal conversions; the OS/Poincare arrow supplies the physical carrier on which energy and invariant mass are defined. [[positive-semigroup-decay/physical-reconstruction-and-units|The total-family branch]] instead sends the whole law to a common static exponent \(\sigma_*>0\) and then uses OS spectral reconstruction without first constructing \(\|KQ\|<1\). The Higgs data \((\widehat\Phi_c,r_c)\), the response certificate, and the dimensional calibration have different codomains and proof obligations. A successful deeper algebra may relate them, but it must construct that relation instead of identifying them by metaphor.
 
 ## Why local symmetry can emerge
 

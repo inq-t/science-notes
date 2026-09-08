@@ -1,0 +1,115 @@
+{
+  "description": "Primary sources for auxiliary response localization; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1004.1602v2",
+      "version": "1004.1602v2",
+      "attempted_at": "2026-09-08T20:47:45.292428+00:00",
+      "resolved_url": "https://arxiv.org/pdf/1004.1602v2",
+      "content_type": "application/pdf",
+      "path": "1004.1602v2-peyre-maximal-correlations.pdf",
+      "bytes": 1600892,
+      "sha256": "45873dfc02a03ca0d18677658bd8e2b5fb920b7bcbaaf50c4e521694ce58640f",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 129,
+        "first_page_text_prefix": "Tensorizing maximal correlations\nRémi Peyre\nDecember 30, 2010\narXiv:1004.1602v2  [math.PR]  30 Dec 2010"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/1004.1602v2",
+      "version": "1004.1602v2",
+      "attempted_at": "2026-09-08T20:47:45.465952+00:00",
+      "resolved_url": "https://arxiv.org/src/1004.1602v2",
+      "content_type": "application/gzip",
+      "path": "1004.1602v2-source.tar.gz",
+      "bytes": 362749,
+      "sha256": "69a608b23682eb0b8a0eac9817ead938d3318ead4e9cfc50d284e7ffa4fa28b1",
+      "kind": "downloaded-primary-source",
+      "format": "gzip-compressed tar archive"
+    },
+    {
+      "path": "source/chap0.tex",
+      "bytes": 21214,
+      "sha256": "761323fe1e6334011bc79f424c627fbb54d254e54f31b12bc3d3e70022b660e5",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap0.tex"
+    },
+    {
+      "path": "source/chap1.tex",
+      "bytes": 35883,
+      "sha256": "dc95ec58fdd923815a3b23d1c4054ea532d3a03147cc486a564ce3a1694a3aa1",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap1.tex"
+    },
+    {
+      "path": "source/chap2.tex",
+      "bytes": 58745,
+      "sha256": "7b1527f8853529b0b7c5c9c2c6e7c62be9de915b25d04b8395488819dd07bd7d",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap2.tex"
+    },
+    {
+      "path": "source/chap3.tex",
+      "bytes": 131088,
+      "sha256": "c98ad9f6ba879affcbecf57cd74e537e4c5c0e66970ef3b1037e216e93872fbe",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap3.tex"
+    },
+    {
+      "path": "source/chap4.tex",
+      "bytes": 36407,
+      "sha256": "ed75affe78292f2c209c22c53b8164a17634925bf33c84faf229aaa5a9e07f9a",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap4.tex"
+    },
+    {
+      "path": "source/chap5.tex",
+      "bytes": 83693,
+      "sha256": "463b60658fc30ab2c716f46fef7357a7dc39cfdde0b9110045a9337d7baa8fe8",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "chap5.tex"
+    },
+    {
+      "path": "source/global.bbl",
+      "bytes": 8439,
+      "sha256": "2b4fbe7ae213312535a7416fb27b7ff1186d31e7ff2b6162bb754f2bbfa9fffa",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "global.bbl"
+    },
+    {
+      "path": "source/global.tex",
+      "bytes": 14982,
+      "sha256": "e502c770fbbe5c697f685a2637ed23a83dc8c23709cd733b7d33874426d5d208",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "global.tex"
+    },
+    {
+      "path": "source/intro.tex",
+      "bytes": 13938,
+      "sha256": "00fbaf2a2f370bb602354f63c17a813cc6cf0bced13fdab4b01e8b923ef5dea1",
+      "kind": "extracted-author-source",
+      "derived_from": "1004.1602v2-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "intro.tex"
+    }
+  ],
+  "extraction_scope": "Prose TeX files and author bibliography are extracted for direct reading. The complete unchanged archive also retains numerical figure data and images."
+}

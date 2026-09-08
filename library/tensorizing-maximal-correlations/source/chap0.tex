@@ -1,0 +1,425 @@
+\addtocounter{chapter}{-1}
+\chapter{Motivation}\label{parMotivation}%
+\addcontentsline{itc}{chapter}{\protect\numberline{\thechapter}Motivation}
+
+\section{Some results on Ising's model}\label{parSomeResultsOnIsingsModel}
+
+In this subsection we recall the definition of Ising's model
+and give two classical results on it, namely Theorems~\ref{c3793} and~\ref{c6177}.
+In \S~\ref{parProblematics}, considerations on these results
+will serve as a motivation to the work of this monograph.
+
+
+\subsection{Ising's model}\label{parIsingsModel}
+
+Ising's celebrated model is a basic model of equilibrium thermodynamics,
+which represents a ferromagnetic material:
+%
+\begin{Def}
+For~$n$ an integer, consider the lattice $\ZZ^n$ endowed
+with its usual graph structure (each vertex has $2n$ neighbours),
+and denote by~$\dist$ the graph distance.
+Define $\Omega = \{\pm1\}^{\ZZ^n}$,
+and for~$\vec\omega\in\Omega$, set formally:
+\[\label{for9073} H(\vec\omega) = - \frac{1}{2} \sum_{\dist(i,j)=1} \omega_i\omega_j .\]
+%
+Then, for~$T\geq0$, the \emph{Ising model on~$\ZZ^n$ at temperature $T$}
+is, formally, a probability measure~$\Pr$ on~$\Omega$ such that
+$\Pr[\vec\omega] \propto \exp\big(-T^{-1}H(\vec\omega)\big)$.
+In rigorous terms, saying that $\Pr$ is an equilibrium measure for Ising's model
+means that for all~$i\in\ZZ^n$,
+for all~$\vechat\omega_{\C{\{i\}}} \in \{\pm1\}^{\C{\{i\}}}$,
+\[\label{f1762} \Pr\big[ \omega_i = \hat\omega_i
+\big| \vec\omega_{\C{\{i\}}} = \vechat\omega_{\C{\{i\}}} \big]
+\propto \exp\Big( T^{-1} \sum_{\dist(i,j)=1} \hat\omega_i \hat\omega_j \Big) .\]
+\end{Def}
+
+Ising's model and the phase transition it exhibits
+have been the subject of dozens of works; see~\cite{Grimmett} for an overview.
+Here we are interested in the subcritical regime:
+%
+\begin{Thm}[Subcritical regime, \cite{Peierls}]
+There is a $T_{\mrm{c}}<\infty$ (the `Curie temperature')
+such that the solution of~(\ref{f1762}) is unique for $T>T_{\mrm{c}}$ .
+\end{Thm}
+
+For $T>T_{\mrm{c}}$ one says that they are in the \emph{subcritical regime}.
+An interesting feature of this regime is that for distant~$i$ and~$j$,
+the random variables~$\omega_i$ and~$\omega_j$ are `almost independent'.
+That phenomenon, called \emph{exponential decay of correlations},
+is stated by the following theorem:
+%
+\begin{Thm}[Exponential decay of correlations, \cite{sharp_transition}]\label{t3795}
+For Ising's model on~$\ZZ^n$ in the subcritical regime,
+\begin{ienumerate}
+\item\label{i6505} For all~$i\in\ZZ^n$, $\Pr[\omega_i=-1] = \Pr[\omega_i=1] = 1/2$.
+\item\label{i1366} There exists~$\psi>0$ and~$C<\infty$
+such that for all~$i,j\in\ZZ^n$,
+\[ | \EE[\omega_i\omega_j] | \leq C \exp\big(-\psi\dist(i,j)\big) .\]
+\end{ienumerate}
+\end{Thm}
+
+\subsection{Absence of \texorpdfstring{$\beta$}{beta}-mixing}
+
+Theorem~\ref{t3795} states that two distant spins~$i$ and~$j$ are exponentially decorrelated.
+However, it does not inform us about the dependence between `bunches' of spins.
+The question is the following: if $I$ and~$J$ are two disjoint, distant subsets of~$\ZZ^n$,
+to what extent are~$\vec\omega_I$ and~$\vec\omega_J$ independent?
+
+To answer such a question, the first thing to do is to define a way of measuring independence
+between `complicated' variables having an arbitrarily large range
+like~$\vec\omega_I$ and~$\vec\omega_J$.
+The most common choice is the $\beta$-mixing coefficient:
+%
+\begin{Def}\label{def3167}\strut
+\begin{enumerate}
+\item Recall that for~$\mu$, $\nu$ two probability measures
+on the same measurable space $(\Omega,\mcal{F})$,
+the \emph{total variation distance} between~$\mu$ and~$\nu$ is
+the total mass of both the positive and the negative parts of the signed measure~$\nu-\mu$, that is,
+$\dist_{\mathrm{TV}}(\mu,\nu) = \sup_{A\subset\mcal{F}} | \nu(A) - \mu(A) |$.
+\item If $X$ and~$Y$ are two random variables (with arbitrary ranges)
+defined on the same space, then one defines the \emph{$\beta$-mixing coefficient}
+between~$X$ and~$Y$ as
+\[ \beta(X,Y) \coloneqq \dist_{\mathrm{TV}} ( \Law_X\otimes\Law_Y\,,\,\Law_{(X,Y)} ) .\]
+\end{enumerate}
+\end{Def}
+%
+Notice that $\beta(X,Y)$ actually only depends on the $\sigma$-algebras%
+~$\sigma(X)$ and~$\sigma(Y)$~\cite[Formula~(1.5)]{Bradley-review}.
+The following proposition is immediate:
+%
+\begin{Pro}\label{pr7428}\strut
+\begin{ienumerate}
+\item One has always $\beta(X,Y) \in [0,1]$, and
+\item $\beta(X,Y) = 0$ if and only if $X$ and~$Y$ are independent ;
+\item $\beta(X,Y) = 1$ if and only if $\Law_X\otimes\Law_Y$
+and~$\Law_{(X,Y)}$ are mutually disjoint.
+\item\label{i7428d} If $X'$ is $X$-measurable and $Y'$ is $Y$-measurable,
+then $\beta(X',Y') \leq \beta(X,Y)$.
+\end{ienumerate}
+\end{Pro}
+%
+So, $\beta(X,Y)$ is a way of measuring `how much $X$ and~$Y$ are correlated'.
+
+With that tool at hand, decorrelation between bunches of spins
+in statistical physics models has already been thoroughly studied.
+Concerning Ising's model, there are two well-known great results:
+%
+\begin{Thm}[Weak mixing property, \cite{Martinelli}]\label{t4774}
+For Ising's model on~$\ZZ^n$ in the subcritical regime,
+there exists~$\psi>0$ and~$C<\infty$ (the same as in Theorem~\ref{t3795})
+such that for all disjoint $I,J\subset\ZZ^n$:
+\[\label{f7869}
+\beta \big( \vec\omega_I , \vec\omega_J \big) \ \leq
+\ C \sum_{(i,j)\in I\times J} \exp\big(-\psi \dist(i,j)\big) .\]
+\end{Thm}
+
+\begin{Thm}[Complete analyticity, \cite{complete_analyticity}]\label{t4505}
+There exists some $T_{\mrm{c}}\leq T_{\mrm{c}}'<\infty$%
+\footnote{\label{Tc'=Tc?}It is not known whether $T_{\mrm{c}}'=T_{\mrm{c}}$ today,
+but in general situations weak mixing does not always imply complete analyticity.
+A classical counterexample is Ising's model with external field~\cite[\S~2]{MO}.}
+such that for $T \ab {>T_{\mrm{c}}'}$,
+Ising's model is \emph{completely analytical}, i.e.\ 
+there exists~$\psi'>0$ and~$C'>0$ such that the following holds:
+for all~$K\subset\ZZ^n$, for all `boundary' conditions $\vechat\omega_K \in \{\pm1\}^K$,
+denoting $\Pr_{\vechat\omega_K} \coloneqq \Pr[\Bcdot|\vec\omega_K=\vechat\omega_K]$,
+Formula~(\ref{f7869}) holds with~$\Law$ replaced by~$\Law_{\vechat\omega_K}$
+and~$\psi, C$ replaced resp.\ by~$\psi'$ and~$C'$.
+\end{Thm}
+
+Thanks to Theorem~\ref{t4774}, we get an exponential decay of correlation
+between two bunches of spins of fixed size when the distance between these bunches increases.
+However, we cannot say much about decorrelation between bunches of \emph{variable} size
+which are at fixed distance from each other.
+For instance, for $n=2$ fix $x>0$ and define
+$I_\ell \coloneqq \{(0,y) \colon |y|\leq \ell\}$, resp.\ $J_\ell \coloneqq \{(x,y) \colon {|y|\leq \ell}\}$.
+Then Theorem~\ref{t4774} gives us something like:
+\[\label{f4961}
+\beta \big( \vec\omega_{I_\ell} , \vec\omega_{J_\ell} \big) \lesssim
+\ C \ell e^{-\psi x} .\]
+But recall that a $\beta$-mixing coefficient is always bounded by~$1$;
+so, for $\ell \gtrsim e^{\psi x}/C$, (\ref{f4961}) tell us absolutely nothing about
+the decorrelation between~$I_\ell$ and~$J_\ell$.
+
+Though the bound~(\ref{f7869}) is not completely optimal,
+the previous point is an \emph{intrinsic} shortcoming of $\beta$-mixing coefficients,
+in the sense that it can be proved that bounds like~(\ref{f4961}) \emph{must} become trivial when
+$\ell\longto\infty$:
+%
+\begin{Thm}\label{c3793}
+For all~$T_{\mrm{c}}<T<\infty$, for all~$x>0$,
+denoting $I \coloneqq \{0\}\times\ZZ$ and $J \coloneqq \{x\}\times\ZZ$,
+one has
+\[ \beta \big(\vec\omega_I , \vec\omega_J \big) = 1 .\]
+\end{Thm}
+
+\begin{proof}
+Denote $i_0 \coloneqq (0,0)$, resp.\ $j_0 \coloneqq (x,0)$.
+As we told in Theorem~\ref{t3795}-(\ref{i6505}),
+$\EE[\omega_{i_0}], \EE[\omega_{j_0}] = 0$.
+Interpretation of Ising's model as a random-cluster model~\cite[\S~1.4]{Grimmett}
+shows that $\Pr[\omega_{i_0}=\omega_{j_0}] > 1/2$,
+so we define
+\[ \gamma \coloneqq \EE[\omega_{i_0}\omega_{j_0}] > 0 .\]
+
+Now, let~$N$ be some large integer, fixed for the time being,
+let~$p$ be some large integer and define
+$i_1, \ldots, i_N$, resp.~$j_1, \ldots, j_N$,
+by~$i_k \coloneqq (0,kp)$, resp.\ $j_k \coloneqq (x,kp)$;
+denote by~$P_{N,p}$ the joint law of~%
+$(\omega_{i_1},\ldots,\omega_{i_N},\omega_{j_1},\ldots,\omega_{j_N})$.
+By translation invariance, for each~$k$,
+$(\omega_{i_k},\omega_{j_k})$ has the same law as $(\omega_{i_0},\omega_{j_0})$,
+which law we denote by $P_1$.
+%
+Then when~$p \longto \infty$, by Theorem~\ref{t4774},
+$P_{N,p}$ tends to the law $P_{N,\infty} \coloneqq P_1^{\otimes N}$.%
+\footnote{Note that $P_{N,p}$
+takes its values in a space of finite dimension,
+so there is no ambiguity when speaking of its convergence.}
+In other words, $P_{N,\infty}$ is the law such that
+all the~$(\omega_{i_k},\omega_{j_k})$ are independent
+with $P_{N,\infty}[\omega_{i_k}=\eta \enskip\text{and}\enskip \omega_{j_k}=\theta]
+= (1+\gamma\eta\theta)/4$ for all~$k$.
+%
+Therefore, the value of~$\beta\big((\omega_{i_k})_k, (\omega_{j_k})_k\big)$
+under the law $P_{N,p}$, which by Proposition~\hbox{\ref{pr7428}-(\ref{i7428d})}
+is a lower bound for~$\beta \big(\vec\omega_I , \vec\omega_J \big)$,
+tends to its value under~$P_{N,\infty}$ when~$p \longto \infty$.
+This is summed up by the following formula:
+\[\label{fo7691} \beta \big(\vec\omega_I, \vec\omega_J\big) \geq \beta_{P_{N,\infty}}
+\big((\omega_{i_k})_{1\leq k\leq N}, (\omega_{j_k})_{1\leq k\leq N}\big) .\]
+
+To end the proof, we will bound the right-hand side of~(\ref{fo7691}) below
+by a quantity which tends to~$1$ when~$N\longto\infty$.
+Denote by~$\tilde{P}_{N,\infty}$ the product of two the marginals
+of~$P_{N,\infty}$ relative resp.\ to the~$(\omega_{i_k})_k$ and the~$(\omega_{j_k})_k$,
+so that $\beta_{P_{N,\infty}} \big((\omega_{i_k})_k, (\omega_{j_k})_k\big)
+= \dist_{\mathrm{TV}} (P_{N,\infty},\tilde{P}_{N,\infty})$
+by the very definition of the $\beta$-mixing coefficient.
+Obviously the expression of~$\tilde{P}_{N,\infty}$ is the same
+as the expression of~$\tilde{P}_{N,\infty}$, but with~$\gamma$ replaced by~$0$ in the definition of~$P_{N,\infty}$.
+Under $P_{N,\infty}$, $(\omega_{i_k}\omega_{j_k})_{1\leq k\leq N}$
+is a sequence of i.i.d.\ random variables having a certain law with mean $\gamma > \gamma/2$,
+so that by the law of large numbers,
+\[ P_{N,\infty} \bigg[N^{-1}\sum_{k=1}^N \omega_{i_k}\omega_{j_k} \leq \frac{\gamma}{2} \bigg]
+\stackrel{N\longto\infty}{\longto} 0 .\]
+Similarly, since $0 < \gamma/2$,
+\[ P_{N,\infty} \bigg[N^{-1} \sum_{k=1}^N \omega_{i_k}\omega_{j_k} \leq \frac{\gamma}{2} \bigg]
+\stackrel{N\longto\infty}{\longto} 1 ,\]
+so that
+\[ \dist_{\mathrm{TV}} \big(P_{N,\infty},\tilde{P}_{N,\infty}\big) \geq
+\bigg| \tilde{P}_{N,\infty}
+\bigg[ N^{-1} \sum_{k=1}^N \omega_{i_k}\omega_{j_k} \leq \frac{\gamma}{2} \bigg] - P_{N,\infty}
+\big[ \text{\it the same} \big] \bigg|
+\stackrel{N\longto\infty}{\longto} 1 ,\]
+which proves our point.
+\end{proof}
+
+
+
+\subsection{Presence of \texorpdfstring{$\rho$}{rho}-mixing}
+
+So, Theorem~\ref{c3793} tells us that, for Ising's model on~$\ZZ^2$,
+there is a `full' correlation between~$\vec\omega_{I}$ and~$\vec\omega_{J}$
+in the sense of $\beta$-mixing.
+Yet it is well known too that
+Theorem~\ref{t4774} nevertheless implies a Hilbertian form of decorrelation
+(called ``$\rho$-mixing'', cf.\ Remark~\ref{rmk8718}) between these variables:
+%
+\label{parc6177}\begin{Thm}\label{c6177}
+For Ising's model on~$\ZZ^2$ in the subcritical regime,
+defining as before $I = \{0\}\times\ZZ$ and $J = \{x\}\times\ZZ$ for some $x>0$,
+one has for all~$f\in\ldb(\vec\omega_I)$ and~$g\in\ldb(\vec\omega_J)$:
+\[\label{f2881} |\EE[fg]| \leq e^{-\psi x} \ecty(f)\ecty(g) ,\]
+where $\psi$ is the same as in Theorem~\ref{t4774}.
+\end{Thm}
+
+\begin{proof}
+Define the operator
+\[ \begin{array}{rrcl} P \colon & \ldb(\vec\omega_I) & \to & \ldb(\vec\omega_J) \\
+& f & \mapsto & f^{\sigma(\vec\omega_J)} .\end{array} \]
+(Recall that $f^{\sigma(\vec\omega_J)}$ is an alternative notation for~$\EE[f|\vec\omega_J]$,
+insisting on the its being a $\sigma(\vec\omega_J)$-measurable function).
+Then (\ref{f2881}) is equivalent to proving that
+$\VERT P \VERT \leq e^{-\psi x}$ (see \S~\ref{parOperatorInterpretation}).
+Now for all~$t \in \{0,\ldots,x\}$, denote $\omega_{(t)} \coloneqq \vec\omega_{\{t\}\times\ZZ}$,
+and for all~$t \in \{1,\ldots,x\}$,
+\[ \begin{array}{rrcl} \pi_t \colon & \ldb(\omega_{(t-1)}) & \to & \ldb(\omega_{(t)}) \\
+& f & \mapsto & f^{\sigma(\omega_{(t)})} .\end{array}\]
+Due to the fact that the interactions in Ising's model have only range~$1$,
+$\omega_{(0)} \to \omega_{(1)} \to \cdots \to \omega_{(x)}$
+is a Markov chain, and therefore
+\[\label{f3677} P = \pi_x \circ \cdots \circ \pi_2 \circ \pi_1 .\]
+Now, by horizontal translation all the~$\ldb(\omega_{(t)})$ can be identified
+with a common Hilbert space $H$.
+Then all the~$\pi_t$ are identified with operators on~$\ldb(H)$,
+and by the translation invariance of the model all these operators are actually the same.
+$P$ is also identified with an operator on~$\ldb(H)$, and (\ref{f3677}) becomes:
+\[ P = \pi^x .\]
+But $\pi$ is self-adjoint because,
+as the model is invariant by translation \emph{and by reflection},
+the Markov chain $\omega_{(0)} \to \cdots \to \omega_{(x)}$
+is stationary \emph{and reversible}.
+In particular $\pi$ is a normal operator, and thus $\VERT P \VERT = \VERT \pi \VERT^x$.
+So, proving that $\VERT P \VERT \leq e^{-\psi x}$
+is equivalent to proving that $\VERT \pi \VERT \leq e^{-\psi}$,
+which will be our new goal.
+
+Take $C<\infty$ like in Theorem~\ref{t4774}.
+For~$\ell$ an integer, denote~$I_\ell$ and~$J_\ell$ to be resp.~%
+$\{0\}\times\{-\ell,\ldots,\ell\}$ and~$\{x\}\times\{-\ell,\ldots,\ell\}$.
+Let~$f$ be a bounded%
+\footnote{In fact here it is superfluous to impose that $f$ is bounded since
+$\vec\omega_{I_\ell}$ can only take a finite number of values.
+I wrote the proof like this just to underline
+that the finiteness of the range of the~$\omega_i$ does not play any role in the proof.}
+function of~$\ldb(\vec\omega_{I_\ell})$ and denote $M \coloneqq \|f\|_{L^\infty}$.
+By translation, $f$ can also be identified with
+a function of~$\ldb(\vec\omega_{J_\ell})$,
+which is also bounded by~$M$.
+%
+Now, since
+\[ \EE \big[ f(\vec\omega_{I_\ell})f(\vec\omega_{J_\ell}) \big] =
+\Cov \big( f(\vec\omega_{I_\ell}) \,,\, f(\vec\omega_{J_\ell}) \big) \\
+= \int f(\vec\omega_{I_\ell})f(\vec\omega_{J_\ell}) \,
+\dx{\big(\Law(\vec\omega_{I_\ell\uplus J_\ell})} -
+\Law(\vec\omega_{I_\ell})\otimes\Law(\vec\omega_{J_\ell})\big) ,
+\]
+we can apply~(\ref{f7869}) to~$I_{\ell}$ and~$J_{\ell}$ to obtain:
+\[\label{f3079} | \EE[f(\vec\omega_{I_\ell})f(\vec\omega_{J_\ell})] |
+\leq M^2\cdot 2C(2\ell+1)^2 e^{-\psi x} .\]
+
+In terms of operators, (\ref{f3079}) means that
+\[\label{f3079'} \big|\langle f, Pf \rangle_{\ldb(H)}\big| \leq 2(2\ell+1)^2M^2Ce^{-\psi x} .\]
+As the value of~$x$ played no particular role to establish~(\ref{f3079'}),
+that formula can be generalized
+into
+\[ \big|\langle f, \pi^t f \rangle_{\ldb(H)}\big| \leq 2(2\ell+1)^2M^2 C e^{-\psi t} \]
+for all~$t\in\NN^*$.
+Letting $t$ tend to infinity, we obtain that for all~$\ell$,
+for all~$f\in\ldb(\vec\omega_{I_\ell}) \cap L^\infty$,
+\[ \limsup_{t\longto\infty} \big( \ln |\langle f, \pi^t f \rangle| \big)^{1/t} \leq e^{-\psi} .\]
+But $\bigcup_{\ell\in\NN} \big(\ldb(\vec\omega_{I_\ell})\cap L^\infty\big)$ is a dense subset of
+$\ldb(\vec\omega_I)$, so by Lemma~\ref{l3253} set in appendix,
+we conclude that $\VERT \pi \VERT_{\ldb(H)} \leq e^{-\psi}$, which is what we wanted.
+\end{proof}
+
+\begin{Rmk}
+Claim~\ref{c3793} and Theorem~\ref{c6177} adapt straighforwardly,
+with similar proofs, to any~$n\geq2$,
+replacing~$I$ by~$\{0\}\times\ZZ^{n-1}$ and~$J$ by~$\{x\}\times\ZZ^{n-1}$.
+\end{Rmk}
+
+
+
+\section{Problematics}\label{parProblematics}
+
+Thanks to Theorem~\ref{c6177}, we see that the Hilbertian concept of $\rho$-mixing
+can reveal some independence between infinite bunches of lowly correlated variables
+in situations where the $\beta$-mixing coefficient does not show any independence at all.
+In the proof we gave, $\rho$-mixing appeared as a corollary
+of $\beta$-mixing for finite bunches of spins.
+What additional hypotheses did we need to get our corollary?
+We used at least the following:
+%
+\begin{itemize}
+\item To introduce the Markov chain $\omega_{(0)} \to \cdots \to \omega_{(x)}$,
+we used that the interactions of our model had finite range.
+\item To identify all the spaces $\ldb(\omega_{(t)})$,
+we used that $I$ and~$J$ had the same shape and that one could tile up $\ZZ^2$
+with a sequence of tiles having that shape (namely, here, tiles of the form $\{t\}\times\ZZ$).
+\item To say that all the~$\pi_t$ were the same modulo that identification,
+we used the translation invariance of the model.
+\item To state that the stationary Markov chain $\omega_{(0)} \to \cdots \to \omega_{(x)}$
+was reversible, we used the reflection invariance of the model.
+\item To use Lemma~\ref{l3253}, we used the exponential decay of correlations.
+\end{itemize}
+%
+All these points make the proof of Theorem~\ref{c6177} we gave
+in~\S~\ref{parSomeResultsOnIsingsModel} quite difficult to generalize.
+What, for instance, if we take~$I$ and~$J$ with arbitrary shapes,
+just requiring that $\dist(I,J) \geq x$?
+What if we consider statistical physics models with infinite-range interactions? Etc..
+The above arguments would not work any more! Yet, we do not have the impression that
+the presence of $\rho$-mixing fundamentally relies
+on the peculiar symmetries of the case we treated\dots
+
+So, here will be the goal of this work:
+\emph{establishing $\rho$-mixing estimates by general methods}.
+To achieve this goal, I shall try to concentrate on the properties of $\rho$-mixing
+`for itself', rather than on its links with other forms of decorrelation.
+I will carry out a thorough study of the $\rho$-mixing coefficient,
+in order to get $\rho$-mixing results for `complicated' variables
+from decorrelation results \emph{of the same type} for more `basic' variables;
+in other words, I will \emph{tensorize} Hilbertian decorrelations.
+It turns out that tensorization for such correlation coefficients gives results which are
+quite robust as the size of the bunches of variables increases.
+Thanks to this method, I shall obtain fairly new decorrelation theorems
+for various models of statistical physics.
+
+This monograph is intended to be complete in some sense.
+I mean, besides the core of this work—namely, tensorization results—,
+I have tried to answer several other questions which appeared natural to me
+concerning Hilbertian decorrelation.
+This includes studying many examples,
+finding sharp criteria for maximal decorrelation,
+looking at the optimality issues in the tensorization results
+or showing other applications of the tensorization techniques.
+Though these topics were initially thought as `sidework',
+some of them may be quite interesting for themselves.
+
+
+
+\section{Appendix: On the norm of self-adjoint operators}%
+\label{parOnTheNormOfSelfAdjointOperators}
+
+In this appendix we prove the following
+%
+\begin{Lem}\label{l3253}
+Let~$L$ be a self-adjoint operator on a real Hilbert space $H$, and let~$C<\infty$.
+Then, to prove that $\VERT L \VERT \leq C$, it suffices to ensure that
+\[\big\{ x\in H \colon \limsup_{k\longto\infty} |\langle L^k x, x \rangle|^{1/k} \leq C \big\}\]
+is a dense subset of~$H$.
+\end{Lem}
+
+\begin{proof}
+Reasoning by contraposition, we have to show that,
+for~$L$ a self-adjoint operator on~$H$, for all~$C < \VERT L \VERT$,
+the set of the~$x \in H$ such that
+\[ \label{f8714} \limsup_{k\longto\infty} |\langle L^k x, x \rangle|^{1/k} > C \]
+contains a non-empty open subset of~$H$.
+
+Since $L$ is self-adjoint, by the spectral theorem~\cite[Theorem~7.18]{Weidmann},
+it is unitarily equivalent to the ``multiplication by identity'' operator $M$
+on a space $\bigoplus_{\alpha\in A} L^2(\rho_\alpha)$,
+for~$A$ some set and~$\rho_\alpha$ some Radon measures on~$\RR$, that is
+[in the following equation, the variable $\lambda$ is free, so that
+$f(\lambda)$ is synonymous with~$f$]:
+\[ M\Big( \sum_\alpha f_\alpha(\lambda) \Big) = \sum_\alpha \lambda f_\alpha(\lambda) .\]
+So we will assume $L$ is of that form.
+
+One has obviously:
+\[\label{f7254} \VERT L \VERT = \sup \big\{ \lambda \geq 0 \colon 
+(\exists \alpha \in A) \ \big(\rho_\alpha(\C{[-\lambda,\lambda]}) > 0\big) \big\} ;\]
+moreover, for all~$f \in H$,
+$f = \sum_{\alpha\in A} f_\alpha$ with $f_\alpha \in L^2(\rho_\alpha)$,
+\[ \langle L^k f, f \rangle =
+\sum_{\alpha\in A} \int_{\RR} \lambda^k |f_\alpha(\lambda)|^2 \,\dx\rho_\alpha(\lambda) ,\]
+so that (observing that, for $k$ even, $\lambda^k \geq 0\ \ \forall\lambda$)
+\[\label{f7360}
+\limsup_{k\longto\infty} \big|\langle L^k f, f \rangle\big|^{1/k}
+= \sup \Big\{\lambda \geq 0 \colon (\exists \alpha \in A) \ 
+\Big(\int_{\C{[-\lambda,\lambda]}} |f_\alpha(\lambda')|^2 \,\dx\rho_\alpha(\lambda') > 0\Big)\Big\}.\]
+
+Now, for $C < \VERT L \VERT$, the set
+\[ U = \Big\{ f \in H \colon (\exists \alpha \in A) \ 
+\Big( \int_{\C{[-C,C]}} |f_\alpha(\lambda)|^2 \,\dx\rho_\alpha(\lambda) > 0 \Big) \Big\} \]
+is open because $\int_{\C{[-C,C]}} |f_\alpha(\lambda)|^2 \,\dx\rho_\alpha(\lambda)$
+is a continuous function of~$f$, and it is non-empty by~(\ref{f7254}).
+But (\ref{f8714}) is satisfied for all~$x\in U$ by~(\ref{f7360}),
+so $U$ fulfills our quest.
+\end{proof}
+
