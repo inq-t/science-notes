@@ -1,0 +1,38 @@
+{
+  "description": "Primary source artifacts for the-international-system-of-units-si; downloaded and extracted author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf/2d2b50bf-f2b4-9661-f402-5f9d66e4b507?download=true&t=1780410776583&version=7.0",
+      "attempted_at": "2026-09-08T21:09:13.537455+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf/2d2b50bf-f2b4-9661-f402-5f9d66e4b507?download=true&t=1780410776583&version=7.0",
+      "content_type": "application/pdf",
+      "path": "si-brochure-9-en-v4.01-2026.pdf",
+      "bytes": 1979202,
+      "sha256": "5442eea2c680caf77a9d96879205a97f57c7c270b98a0bd0126c18fefe47e02c",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 102,
+        "first_page_text_prefix": "—————————————————————————— \nBureau International \ndes Poids et Mesures \n \n \n \n \n \n \n \n \n \nThe International System of Units \n(SI) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n   9th edition 20"
+      },
+      "version": "Ninth edition (2019), English V4.01, June 2026"
+    },
+    {
+      "path": "si-brochure-9-en-v4.01-2026-extracted.txt",
+      "bytes": 275772,
+      "sha256": "d99227ec9ed26f4cf6c3d65761e374900b8ac99cdfd5f62b9e1e0fbc44a56dd3",
+      "kind": "derived-searchable-text",
+      "derived_from": "si-brochure-9-en-v4.01-2026.pdf",
+      "method": "pypdf text extraction with PDF page markers; equations and scan text may contain extraction errors."
+    }
+  ],
+  "bibliographic_identifier": "doi:10.59161/AUEZ1291",
+  "author_source_search": {
+    "checked_at": "2026-09-08T21:13:39.986719+00:00",
+    "status": "not_found_on_checked_primary_pages",
+    "pages": [
+      "https://www.bipm.org/en/publications/si-brochure"
+    ],
+    "note": "The publication page supplies the official PDF, with no author LaTeX linked; searchable text was extracted from that PDF."
+  }
+}

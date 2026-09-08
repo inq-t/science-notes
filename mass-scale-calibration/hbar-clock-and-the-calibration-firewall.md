@@ -100,7 +100,7 @@ m=\frac{\hbar}{c}\mu.
 \tag{HC6b}
 $$
 
-This does not make the construction pregeometric—\(x^\mu\), the Poincare action, and its length calibration are already present—but it proves that \(\hbar\) is not what creates the spectral exclusion. [[mass-scale-calibration/mass-as-casimir-and-realization#Unit scale and conformal scale are different torsors]] gives the underlying quantity-line theorem.
+This does not make the construction pregeometric—\(x^\mu\), the Poincare action, and its length calibration are already present—but it proves that \(\hbar\) is not what creates the spectral exclusion. [[mass-scale-calibration/quantity-lines-and-conformal-scales]] gives the underlying quantity-line theorem.
 
 There is nevertheless a real circularity hazard. If a proposed theory says that mass constitutes the clock and then obtains mass by multiplying an assumed clock frequency by \(\hbar/c^2\), it has borrowed the structure it meant to derive. The safe use of \(\hbar\) is on the reconstruction side, after the clock and translation representation exist. The same firewall applies to \(c\) if spatial and temporal quantity lines are themselves supposed to emerge: \(c\) may compare those reconstructed lines without serving as their unexplained upstream cause.
 

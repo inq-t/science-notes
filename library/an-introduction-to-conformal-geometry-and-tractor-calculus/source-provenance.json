@@ -1,0 +1,41 @@
+{
+  "description": "Primary source artifacts for an-introduction-to-conformal-geometry-and-tractor-calculus; downloaded and extracted author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/1412.7559v2",
+      "attempted_at": "2026-09-08T21:09:13.535441+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/pdf/1412.7559v2",
+      "content_type": "application/pdf",
+      "path": "curry-gover-1412.7559v2.pdf",
+      "bytes": 727341,
+      "sha256": "967769c6e832d69fb555d2a2790942d52e9ad917a23b190e41c3ee2393958f96",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 74,
+        "first_page_text_prefix": "arXiv:1412.7559v2  [math.DG]  1 Aug 2015\nAN INTRODUCTION TO CONFORMAL GEOMETRY AND\nTRACTOR CALCULUS, WITH A VIEW TO APPLICATIONS IN\nGENERAL RELATIVITY\nSEAN CURRY & A. ROD GOVER\nAbs"
+      },
+      "version": "v2, 2015-08-01"
+    },
+    {
+      "url": "https://arxiv.org/src/1412.7559v2",
+      "attempted_at": "2026-09-08T21:09:13.535441+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://arxiv.org/src/1412.7559v2",
+      "content_type": "application/gzip",
+      "path": "curry-gover-1412.7559v2.tex.gz",
+      "bytes": 76550,
+      "sha256": "9d0d11699b09d22a6113e164f1583573910c19d50937b9c67fae3abb0e5be9ed",
+      "version": "v2, 2015-08-01"
+    },
+    {
+      "path": "source/curry-gover-1412.7559v2.tex",
+      "bytes": 242825,
+      "sha256": "b2d93388fe1847ab6cd9cacb1ec8c6baf33e18642e4d73ed1b80d637db990779",
+      "kind": "extracted-author-source",
+      "derived_from": "curry-gover-1412.7559v2.tex.gz",
+      "method": "Byte-preserving gzip decompression of a single author LaTeX source."
+    }
+  ],
+  "bibliographic_identifier": "arXiv:1412.7559v2"
+}

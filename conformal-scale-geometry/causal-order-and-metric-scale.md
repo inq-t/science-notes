@@ -33,7 +33,19 @@ The hypotheses matter. The statement does not automatically cover causally patho
 
 ## Scale as a section
 
-Let \(\mathcal E[1]\) denote the weight-one density bundle in a chosen conformal convention and let
+Let \(\mathsf{Sc}_{\mathrm{conf}}\to M\) be the principal bundle of positive conformal scale frames. Fix the associated-line convention
+\[
+\mathcal E_{\mathrm{conf}}[w]
+=(\mathsf{Sc}_{\mathrm{conf}}\times\mathbb R)/{\sim},
+\qquad
+(u,q)\sim(u\lambda,\lambda^{-w}q).
+\]
+The right action \(u\mapsto u\lambda\) corresponds to the representative metric \(g_u\mapsto\lambda^{-2}g_u\). Thus a fixed weight-\(w\) density has components \(q\mapsto\lambda^{-w}q\); writing a metric change as \(\widehat g=\Omega^2g\) instead means \(\lambda=\Omega^{-1}\) and \(\widehat q=\Omega^wq\). These are the same convention with inverse parameters. Multiplication of associated lines gives
+\[
+\mathcal E_{\mathrm{conf}}[w]\otimes\mathcal E_{\mathrm{conf}}[v]
+\cong\mathcal E_{\mathrm{conf}}[w+v].
+\]
+Write \(\mathcal E[w]=\mathcal E_{\mathrm{conf}}[w]\) and let
 
 $$
 \mathbf g\in\Gamma(S^2T^*M\otimes\mathcal E[2])

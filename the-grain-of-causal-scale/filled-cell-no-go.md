@@ -60,5 +60,5 @@ $$
 
 A correlation length can be represented in the mass register by \(m_*:=\hbar/(c\lambda_*)\) without asserting that each correlation cell contains rest energy \(m_*c^2\). A genuine particle reading would require a pole or asymptotic sector, its residue and quantum numbers, an occupation law, and a stress-energy map. A genuine causal-grain reading instead requires the response carrier, count measure, and whole-to-local realization map.
 
-[[the-grain-of-causal-scale/inq|The grain construction]] should therefore be read as a common-count or response scale unless that missing material solder is built. The arithmetic is independently reproduced by [[the-grain-of-causal-scale/filled_cell_no_go_receipt.py|the filled-cell receipt]].
+[[the-grain-of-causal-scale/inq|The grain construction]] should therefore be read as a common-count or response scale unless that missing material solder is built. The arithmetic is independently reproduced by [[the-grain-of-causal-scale/filled_cell_no_go_receipt.py|the filled-cell receipt]]; its [[the-grain-of-causal-scale/filled_cell_no_go_receipt_output.txt|stored output]] records the evaluated density comparison.
 

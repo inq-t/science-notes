@@ -18,6 +18,8 @@ members = [
   "exceptional-state-comparison",
   "primitive-state-diffusion",
   "positive-semigroup-decay",
+  "dilation-covariant-spectra",
+  "library/the-international-system-of-units-si",
   "conditional-correlation-tensorization",
   "library/axioms-for-euclidean-greens-functions",
   "library/axioms-for-euclidean-greens-functions-ii",

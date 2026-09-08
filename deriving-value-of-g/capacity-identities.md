@@ -62,17 +62,7 @@ At the formal compactness threshold \(R=r_s\), the Bekenstein budget and black-h
 
 ## Quantum localization and \(\alpha_G\)
 
-For a particle of mass \(m\), define its reduced Compton length
-
-$$
-\lambda_C:=\frac{\hbar}{mc}
-$$
-
-and dimensionless gravitational coupling
-
-$$
-\alpha_G(m):=\frac{Gm^2}{\hbar c}.
-$$
+For a positive mass \(m>0\), use the [[mass-scale-calibration/gravitational-and-compton-lengths|gravitational and reduced-Compton conventions]] \(\ell_G=Gm/c^2\), \(\lambda_C=\hbar/(mc)\), and \(\alpha_G=\ell_G/\lambda_C\). The Schwarzschild radius here is \(r_s=2\ell_G\), so its compactness ratio carries an additional factor of two.
 
 Then
 
@@ -88,13 +78,13 @@ $$
 2\alpha_G(m)=\frac{r_s(mc^2)}{\lambda_C}.
 $$
 
-The dimensionful \(G\) has become a dimensionless comparison between the trapping scale associated with the excitation and its quantum localization scale. At \(\lambda_C\gg\ell_P\),
+The dimensionful \(G\) has become a dimensionless comparison between the trapping scale associated with the excitation and its characteristic reduced Compton wavelength. At \(\lambda_C\gg\ell_P\),
 
 $$
 \alpha_G\ll1.
 $$
 
-At \(\lambda_C\sim\ell_P\), the quantum localization and gravitational compactness scales become comparable. This identifies the Planck regime; it does not provide a microscopic theory of that regime.
+At \(\lambda_C\sim\ell_P\), the Compton and gravitational compactness lengths become comparable. This identifies the Planck regime; it does not provide a microscopic theory of that regime.
 
 For \(E=mc^2\) and \(R=\lambda_C\), the Bekenstein budget is
 

@@ -1,0 +1,304 @@
+{
+  "source_commit": "84e850b",
+  "frontier_item": "F5",
+  "heading_redirects": {
+    "mass-scale-calibration/mass-as-casimir-and-realization.md": {
+      "Mass in gravitational and quantum length conversions": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "Unit scale and conformal scale are different torsors": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "A gap obstructs exact same-carrier dilation covariance": "dilation-covariant-spectra/inq.md#A gap obstructs exact same-carrier dilation covariance",
+      "A fixed member may be gapped while the family is scale covariant": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md#A one-scale family and its coefficient",
+      "Gravitational and reduced-Compton presentations": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "Mass as Casimir and the Realization Signature": "mass-scale-calibration/mass-as-casimir-and-realization.md#Mass as Casimir and Realization"
+    },
+    "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md": {
+      "Why the family matters": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md#Positivity is an additional construction",
+      "The conditional Copernican theorem": "mass-scale-calibration/scale-relative-response-and-yang-mills.md#The conditional Copernican theorem",
+      "A causal patch is not an ordinary resonant box": "mass-scale-calibration/scale-relative-response-and-yang-mills.md#A causal patch is not an ordinary resonant box",
+      "The fresh problem": "mass-scale-calibration/scale-relative-response-and-yang-mills.md#The fresh problem"
+    },
+    "the-grain-of-causal-scale/causal-spectrum.md": {
+      "A Quantum of Causal Realization": "the-grain-of-causal-scale/causal-spectrum.md#Causal Spectrum"
+    }
+  },
+  "active_heading_repairs": [
+    {
+      "source": "contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance",
+      "to": "dilation-covariant-spectra/inq#A gap obstructs exact same-carrier dilation covariance"
+    },
+    {
+      "source": "contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#Mass in gravitational and quantum length conversions",
+      "to": "mass-scale-calibration/yang-mills-scale-and-gravity-decoupling"
+    },
+    {
+      "source": "contemporary-puzzles/yang-mills-mass-gap/register-audit.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#A fixed member may be gapped while the family is scale covariant",
+      "to": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant#A one-scale family and its coefficient"
+    },
+    {
+      "source": "mass-scale-calibration/hbar-clock-and-the-calibration-firewall.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#Unit scale and conformal scale are different torsors",
+      "to": "mass-scale-calibration/quantity-lines-and-conformal-scales"
+    },
+    {
+      "source": "mass-scale-calibration/internal-yardstick-as-a-generalized-rate-edge.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance",
+      "to": "dilation-covariant-spectra/inq#A gap obstructs exact same-carrier dilation covariance"
+    },
+    {
+      "source": "scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance.md",
+      "from": "mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance",
+      "to": "dilation-covariant-spectra/inq#A gap obstructs exact same-carrier dilation covariance"
+    }
+  ],
+  "equation_ownership": {
+    "mass-scale-calibration/mass-as-casimir-and-realization.md": {
+      "MG": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "PE1": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "PE2": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "PE3": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "R": "mass-scale-calibration/mass-as-casimir-and-realization.md",
+      "S1": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "S1a": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "S1b": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "S1c": "mass-scale-calibration/quantity-lines-and-conformal-scales.md",
+      "D": "dilation-covariant-spectra/inq.md",
+      "D0": "dilation-covariant-spectra/inq.md",
+      "D1": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "D2": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "D3": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S2": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S3": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S4": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S5": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S6": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S7": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S7a": "mass-scale-calibration/gravitational-and-compton-lengths.md",
+      "S8": "mass-scale-calibration/gravitational-and-compton-lengths.md"
+    },
+    "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md": {
+      "S1": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S1a": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S2": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S3": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S4": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S5": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S6": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S7": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S8": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md",
+      "S9": "mass-scale-calibration/scale-relative-response-and-yang-mills.md",
+      "S10": "mass-scale-calibration/scale-relative-response-and-yang-mills.md",
+      "S11": "mass-scale-calibration/scale-relative-response-and-yang-mills.md",
+      "S12": "mass-scale-calibration/scale-relative-response-and-yang-mills.md"
+    }
+  },
+  "validation": {
+    "source_tagged_displays_preserved": 35,
+    "other_consumer_tagged_displays_preserved": 107,
+    "active_heading_targets_checked": 19,
+    "artifact_hashes_checked": 7,
+    "byte_exact_author_extractions": 1,
+    "calculation_and_output_files_unchanged": 7,
+    "existing_frozen_paths_changed": [],
+    "scoped_module_graph": {
+      "mass-scale-calibration": {
+        "active_notes": 12,
+        "resources": 15,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "dilation-covariant-spectra": {
+        "active_notes": 1,
+        "resources": 1,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "conformal-scale-geometry": {
+        "active_notes": 8,
+        "resources": 8,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "deriving-value-of-g": {
+        "active_notes": 14,
+        "resources": 18,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "the-grain-of-causal-scale": {
+        "active_notes": 5,
+        "resources": 20,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "contemporary-puzzles/yang-mills-mass-gap": {
+        "active_notes": 7,
+        "resources": 13,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "scale-incidence-response": {
+        "active_notes": 5,
+        "resources": 10,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "library/an-introduction-to-conformal-geometry-and-tractor-calculus": {
+        "active_notes": 1,
+        "resources": 5,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "library/trace-and-dilatation-anomalies-in-gauge-theories": {
+        "active_notes": 1,
+        "resources": 4,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "library/the-international-system-of-units-si": {
+        "active_notes": 1,
+        "resources": 4,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      },
+      "scripts": {
+        "active_notes": 1,
+        "resources": 34,
+        "orphan_notes": [],
+        "unlinked_resources": [],
+        "unresolved_links": [],
+        "format_findings": []
+      }
+    },
+    "authored_whitespace": 0,
+    "findings": [],
+    "independent_mathematical_review": "All actionable findings corrected: self-adjoint transported operators, vacuum normalization, complex response core, reference quantities and inverse conformal-frame/metric-ray actions.",
+    "inq_sync_members": 527,
+    "inq_lint": {
+      "errors": 56,
+      "warnings": 0,
+      "unchanged_nonlibrary": 23,
+      "library_ordering_false_exclusions": 33,
+      "new_actual_missing_targets": 0,
+      "new_false_exclusions": [
+        "library/an-introduction-to-conformal-geometry-and-tractor-calculus/source/curry-gover-1412.7559v2.tex",
+        "library/an-introduction-to-conformal-geometry-and-tractor-calculus/source-provenance.json"
+      ],
+      "cause": "Known Inq 0.4.0 string-order versus PathBuf-component binary-search mismatch; new targets exist and appear in fresh admitted inventories."
+    },
+    "staged_artifact_hashes_checked": 7,
+    "staged_authored_whitespace": "pass, with immutable primary-source artifacts excluded"
+  },
+  "source_hashes": {
+    "mass-scale-calibration/mass-as-casimir-and-realization.md": "f67bd36e9f4b8e6b9a9db4089104870b6f54e9bacb65f490d652b3f40e3f17bf",
+    "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md": "4ec274413fbe14c94d55828976d95b04d3d0215709c9ede0cbb12a9a1b91ea6e"
+  },
+  "semantic_consumer_hashes": [
+    {
+      "path": "conformal-scale-geometry/causal-order-and-metric-scale.md",
+      "before": "a3bcbe30a0b5f3abdc2ce0312f622bee439fda6e1467459e56355b0d6c7cf39b",
+      "after": "0caf4e73d6e40357e9417d5f1905ddaac3d85152add540abf1173318b2a26bb0"
+    },
+    {
+      "path": "conformal-scale-geometry/inq.md",
+      "before": "1def6932d6ef9106dccccdce0045e86fc1de2d55b59b4a5b64f12c36f60f070a",
+      "after": "e0bca0cea9fdc614d423ff2a3f68018142ebeb91bd2d5ea11879eeed57f15d3c"
+    },
+    {
+      "path": "contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos.md",
+      "before": "2c889318e4446b1308a98f435f878bc28cb83c72a3886beaf0cdf27fcf905d41",
+      "after": "c4f38317a06912c39a2e88774a09e6aa5f014520e4dd730bc765a288bd4fdbcf"
+    },
+    {
+      "path": "contemporary-puzzles/yang-mills-mass-gap/register-audit.md",
+      "before": "a08ced7ad8df41606f8f302d2de7b2428da8ac0b9b421274279bb82a42ca4d1c",
+      "after": "46060f699ed0766ab6cd0cdb440a914e34996db244961852bdd561dd4a454cf8"
+    },
+    {
+      "path": "deriving-value-of-g/capacity-identities.md",
+      "before": "eb875731ae00c6bd6461dbcb0c0adca5ed019742416fe868d4750bc8da2f4007",
+      "after": "4afe5faeb9af48f6a47ba2eb74d04784adda6a390e9d0e637c6053447e4cce36"
+    },
+    {
+      "path": "deriving-value-of-g/inq.md",
+      "before": "75549260fbd7645936edd0fd5860efd98603321d2147614be1b2c45a13b8a97c",
+      "after": "b0a640101cf67e36b340accfaaf317bbd018e167c43760e2b08371e3e56821cd"
+    },
+    {
+      "path": "library/an-introduction-to-conformal-geometry-and-tractor-calculus/inq.md",
+      "before": "f74684fe38cf59ac05b35271f50777615adebdaccccc6298e5532a3b8ecdade4",
+      "after": "2168dc4a11cf78b414d6b30900424ef09ed151b806b203badc8c4454bac0531a"
+    },
+    {
+      "path": "library/trace-and-dilatation-anomalies-in-gauge-theories/inq.md",
+      "before": "67e77ae9d55eecf238ec4394ab8d802f12e2ef66cb7587741d491d5f98ea16a4",
+      "after": "2060b909597711c014afacd805fabda68b9f675934b0ecec903087e809e317e1"
+    },
+    {
+      "path": "mass-scale-calibration/hbar-clock-and-the-calibration-firewall.md",
+      "before": "d021ec9ddecdfc5484cf5949218209d5df2ff994e35154249f9ac8af8c6e9d54",
+      "after": "2bfd3b765f4794646de163b0c0ea4c5bb22e15fbeb655b9fa7c1b298d7a85668"
+    },
+    {
+      "path": "mass-scale-calibration/inq.md",
+      "before": "de39e8e3cb59ed22f0ca4e81631054a83e42bc1e22d5048abf399a61bc1f929d",
+      "after": "7ada1ffb35e51dad76c61adeaaceca928815d3e390e1d6eebf0b50cbc56a221d"
+    },
+    {
+      "path": "mass-scale-calibration/internal-yardstick-as-a-generalized-rate-edge.md",
+      "before": "c02a94d38bd42236e71cb0d6d681d222f2ee570e7e4ed70b3ffdaa84cda8af90",
+      "after": "b624a6ef9601471fe0b477344e63f194508c88fe9cb0f24c52c04c48c4bd672e"
+    },
+    {
+      "path": "mass-scale-calibration/joint-causal-generators-and-the-mass-casimir.md",
+      "before": "2646d381472fb0a76f83376802848247eeaf0efdb1af7b5a494f589081b240a9",
+      "after": "40988fb021c128a7a9389cfc08ff125e9cc713b9ae4a8c87f1f5bb417fe827c5"
+    },
+    {
+      "path": "scale-incidence-response/compensated-incidence-response-and-four-dimensional-balance.md",
+      "before": "a6dd26ae51447a27aff6bf398b6c467a5476bc03d244d1ae9f16536e93d80a8a",
+      "after": "fbbb2b07e77639819a45ad4c6396d68090875ee13b4621cc36848a3e00cb9d9a"
+    },
+    {
+      "path": "scripts/inq.md",
+      "before": "b182cd3bf0d1e84f337036adf8cfc93c9c124032fff0e47ed30ac27665e712d1",
+      "after": "19da428c9c4f53995e7b542c48701a9464a93f84796481db79de260aaa605d25"
+    },
+    {
+      "path": "the-grain-of-causal-scale/causal-spectrum.md",
+      "before": "4e56d04c268255238faabd731b446a971bebb87712a93b2e59ad09fe64853ae5",
+      "after": "7d50030d119c59427193e16f5542d8ba57c65671c40d7af55893297f6c8321b7"
+    },
+    {
+      "path": "the-grain-of-causal-scale/filled-cell-no-go.md",
+      "before": "acc01e9f384c0409f5b757a651b4c3077556409392bafa9c71197eef9bf3c114",
+      "after": "fc59dd11f970187c94bfafd3d1ce704d679e21ad43e293271aa3a1dc39836f5d"
+    },
+    {
+      "path": "the-grain-of-causal-scale/inq.md",
+      "before": "62e030d1a4278d06eaae223e5c12128973d2e976523289d15c30883999d2c36f",
+      "after": "52d2b91f51466f6cccdb89a57009ddb34843ef473e79ce024a367ace0f59a07d"
+    }
+  ]
+}

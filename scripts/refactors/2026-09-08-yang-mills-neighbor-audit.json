@@ -127,8 +127,12 @@
       "finding": "F4",
       "record": "scripts/refactors/2026-09-08-spectral-decay-integration.json",
       "status": "implemented and validated; commit is the revision introducing this completion record"
+    },
+    {
+      "finding": "F5",
+      "record": "scripts/refactors/2026-09-08-scale-calibration-sections.json",
+      "status": "implemented and validated; commit is the revision introducing this completion record"
     }
   ],
-  "next_ranked_finding": "F5; the other unreviewed_frontier entries remain open."
-
+  "next_ranked_finding": "Initial F1-F5 findings are implemented. Continue through unreviewed_frontier, beginning with gauge-boundary-frame-gluing; these modules are not certified by the completed extractions."
 }

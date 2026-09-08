@@ -52,7 +52,7 @@ $$
 \tag{R2}
 $$
 
-then covariance fixes the homogeneity of the gap but not the strict positivity of the dimensionless coefficient \(\kappa\). Proving \(\kappa>0\) is the mass-gap problem after the scale register has been corrected. [[mass-scale-calibration/mass-as-casimir-and-realization#A fixed member may be gapped while the family is scale covariant|The fixed-member/family distinction]] makes the torsor statement precise.
+then covariance fixes the homogeneity of the gap but not the strict positivity of the dimensionless coefficient \(\kappa\). Proving \(\kappa>0\) is the mass-gap problem after the scale register has been corrected. [[mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant#A one-scale family and its coefficient|The fixed-member/family distinction]] makes the torsor statement precise.
 
 ## A coefficient is not a spectral property
 

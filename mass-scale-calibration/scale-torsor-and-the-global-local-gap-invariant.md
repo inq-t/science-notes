@@ -1,19 +1,19 @@
 # The Scale Torsor and the Global--Local Gap Invariant
 
-A scale-free whole should not be modeled as possessing no scales at all. The precise replacement is a family of locally calibrated presentations over a positive scale torsor, with no preferred section. The invariant carried between those presentations is not a numerical mass but a dimensionless transfer or quadratic-form class. A local scale section turns that invariant into a length, clock rate, energy, and finally Poincare mass. This makes the Copernican reversal exact enough to test while preserving the Clay theorem as the required downstream return value.
+A scale family can preserve a dimensionless transfer depth while its dimensional spectral edge changes between members. This covariance concerns matched operators, lengths and Hilbert carriers; it does not assert dilation symmetry within one fixed theory. A scale torsor supplies relative scale ratios, while selection of a physical member, a change of reporting units and a choice of conformal metric section remain different operations.
 
 **Status: [EXACT] for the torsor covariance and spectral consequences under the stated hypotheses; [CONDITIONAL] for the global--local reconstruction schema; [OPEN] for the upstream Yang--Mills carrier, scale selector, uniform coercivity, and continuum reconstruction.**
 
 ## “No scale” has two inequivalent meanings
 
-Let \(\mathcal S\) be a principal \(\mathbb R_{>0}\)-torsor. Its points are possible calibrations, and
+Let \(\mathcal S\) be a principal \(\mathbb R_{>0}\)-torsor. Here its points label the family parameter, and
 
 $$
 (\lambda,s)\longmapsto \lambda s
 \tag{S1}
 $$
 
-is free and transitive. There is no canonical origin or unit in \(\mathcal S\), but ratios of two points are defined. This is the appropriate type for **no preferred scale**.
+is free and transitive. There is no distinguished point in \(\mathcal S\), but ratios of two points are defined. This is the type of an **unpointed scale family**. Interpreting its members as physical theories or only as presentations requires a separate comparison contract.
 
 It must be distinguished from **no intrinsic physical scale**. A conformal theory may have the latter property. A massive theory can lack a preferred numerical unit while still possessing invariant dimensionless ratios and a nonzero element of an inverse-length quantity line. Changing metres to centimetres changes its numerical representative, not the theory.
 
@@ -29,7 +29,7 @@ Three distinct questions sit behind the word invariant:
 
 The quotient \(v/c\) passes the first test but generally not the third: different inertial observers assign different velocities to the same massive trajectory. A Poincare mass ratio passes the third when both masses are scalars of the reconstructed representation. A bare dimensionless Hessian eigenvalue can fail the second; [[hessian-response-geometry/relative-response-spectrum|the relative-response spectrum]] shows why both the response and its reference metric must be transported.
 
-The role of \(c\) is particularly instructive. It relates length and duration, but the simultaneous calibration change \(\ell\mapsto a\ell,\ t\mapsto at\) leaves \(\ell/t\) unchanged. It therefore cannot select either scale by itself. The current SI metre likewise uses both \(c\) and a separately specified atomic clock ([BIPM, metre definition](https://www.bipm.org/en/si-base-units/metre)). This metrological fact is not a proof that every conceivable length comparison requires light signals. Geometrically, the stronger relevant statement remains that causal cones do not choose a conformal scale section.
+The role of \(c\) is particularly instructive. It relates length and duration, but the simultaneous calibration change \(\ell\mapsto a\ell,\ t\mapsto at\) leaves \(\ell/t\) unchanged. It therefore cannot select either scale by itself. Choosing a numerical unit for either quantity is a metrological operation; it is not a proof that every conceivable length comparison requires light signals. Geometrically, the stronger relevant statement remains that causal cones do not choose a conformal scale section.
 
 For a Yang--Mills prediction the target is correspondingly a relation
 
@@ -42,16 +42,22 @@ where the upstream geometry must determine the normalized coefficient and indepe
 
 An integer such as \(3\) or \(8\) can constrain \(C_{\mathrm{gap}}\) through representation geometry or a proved response spectrum. It cannot be inserted as that coefficient merely because it occurs in the carrier's dimension. Likewise, \(G\), a horizon temperature, and a cosmological rate are admissible **candidate calibration data**, but their relevance must be established by a comparison law rather than by their ability to repair units.
 
+## The actions and their conventions
+
+For (S2)–(S8), hold the reporting units and \(\hbar,c\) fixed and use the active family convention \(\ell_{\lambda s}=\lambda\ell_s\). A corresponding inverse-length generator scales as \(K_{\lambda s}=\lambda^{-1}K_s\) after unitary transport. By contrast, replacing a passive length-unit basis by \(u_L^{\prime}=\lambda u_L\) sends the numerical coefficient of a fixed length to \(\ell_{\mathrm{num}}/\lambda\), and the coefficient of a fixed inverse length to \(\lambda K_{\mathrm{num}}\). The invariant product is unchanged in either case, but the parameter actions are inverse. Neither action selects a physical member.
+
+The [[quantity-lines-and-conformal-scales|quantity-line comparison]] keeps these unit changes distinct from choosing a geometric scale section. Differentiation between moving Hilbert carriers needs the separate [[scale-score-connection/inq|connection and domain data]].
+
 ## A scale-equivariant family
 
-Suppose every \(s\in\mathcal S\) gives a pointed Hilbert presentation
+Suppose every \(s\in\mathcal S\) gives a pointed complex Hilbert presentation
 
 $$
 (\mathcal H_s,\Omega_s,K_s,\mathfrak A_s),
 \tag{S2}
 $$
 
-where \(K_s\geq0\) is a self-adjoint inverse-length Euclidean generator, \(\|\Omega_s\|=1\), and \(\ker K_s=\mathbb C\Omega_s\). Write \(P_{0,s}=|\Omega_s\rangle\langle\Omega_s|\). The uniqueness assumption makes the single-vacuum complement and full zero-spectral complement agree. Suppose scale transport is implemented by unitaries \(U_{\lambda,s}:\mathcal H_s\to\mathcal H_{\lambda s}\) satisfying the cocycle law and
+where \(K_s\geq0\) is a self-adjoint inverse-length Euclidean generator, \(\|\Omega_s\|=1\), and \(\ker K_s=\mathbb C\Omega_s\). Write \(P_{0,s}=|\Omega_s\rangle\langle\Omega_s|\). Assume \(\Omega_s^\perp\ne0\) to discuss a nontrivial excitation edge. The uniqueness assumption makes the single-vacuum complement and full zero-spectral complement agree. Suppose scale transport is implemented by unitaries \(U_{\lambda,s}:\mathcal H_s\to\mathcal H_{\lambda s}\) satisfying \(U_{\mu,\lambda s}U_{\lambda,s}=U_{\mu\lambda,s}\), \(U_{1,s}=I\), and
 
 $$
 U_{\lambda,s}\Omega_s=\Omega_{\lambda s},
@@ -60,6 +66,8 @@ K_{\lambda s}U_{\lambda,s}
 =\lambda^{-1}U_{\lambda,s}K_s.
 \tag{S3}
 $$
+
+Equation (S3) means the self-adjoint operator equality \(K_{\lambda s}=\lambda^{-1}U_{\lambda,s}K_sU_{\lambda,s}^*\), with \(U_{\lambda,s}D(K_s)=D(K_{\lambda s})\). Functional calculus then also transports their form domains. No algebra or field transport follows merely from the tuple (S2); an application must supply it.
 
 For matched lengths \(\ell_{\lambda s}=\lambda\ell_s\), the dimensionless transfer is natural:
 
@@ -111,86 +119,77 @@ Only after a positive-energy Poincare representation is reconstructed may the sa
 
 A section may itself be selected by a [[the-grain-of-causal-scale/relational-grain-construction|matched-ledger construction]], but there is no reason for two different carriers to select the same member. The cosmological common-count length is therefore a model of the method, not a default Yang--Mills input. A Yang--Mills yardstick must be reconstructed from ledgers natural to its own whole-law carrier, or derived with both theories from one proved common upstream object.
 
-## Why the family matters
 
-If one nonzero positive operator on one fixed Hilbert space obeys exact unitary dilation covariance under all positive rescalings, its spectrum is scale invariant and cannot have a positive isolated lower edge. The apparent escape in (S2)--(S4) is not a trick: scaling compares different calibrated members rather than acting as a symmetry of one already pointed physical member. [[mass-scale-calibration/mass-as-casimir-and-realization]] proves the same-carrier no-gap lemma and distinguishes this family covariance from a fixed-member symmetry.
+## A one-scale family and its coefficient
 
-Therefore a nonzero physical scale must enter through at least one additional structure:
-
-- a scale anomaly or renormalization-group invariant such as \(\Lambda_{\mathrm{YM}}\);
-- a state, boundary, or wall that selects a member of the family;
-- a change of carrier or operator domain whose admissible sector is not dilation invariant; or
-- an independent global--local comparison producing a preferred quantity line.
-
-The statement “the whole has no scale, but the part does” is incomplete until one of these arrows is constructed.
-
-## The conditional Copernican theorem
-
-Let \(\mathfrak d_s\) be a nonnegative dimensionless response form on a linear domain \(\mathcal D_s\) in an upstream carrier \(\mathcal W_s\). Suppose this family has declared scale transport compatible with the physical transport. Let \(H_s\geq0\) be the reconstructed energy generator with closed energy form \(\mathfrak h_s[\psi]=\|H_s^{1/2}\psi\|^2\). Construct an injective linear map
+The [[dilation-covariant-spectra/inq|dilation no-gap theorem]] applies to one operator on one Hilbert carrier. It does not forbid covariance of a *family* of theories carrying different nonzero scale parameters. Let
 
 $$
-J_s:\mathcal D_s\longrightarrow
-D(H_s^{1/2})\cap\Omega_s^\perp
-$$
-
-whose image is a **form core** for the energy form on the complete physical nonvacuum carrier. Upstream gauge-null directions have already been quotiented. Normalize the response against the pulled-back physical norm,
-
-$$
-g_s[\xi]:=\|J_s\xi\|^2.
-$$
-
-If, uniformly through volume and regulator removal,
-
-$$
-\mathfrak d_s[\xi]\geq
-\kappa g_s[\xi]
-\quad(\xi\in\mathcal D_s),
+\mathfrak T_\Lambda
+=
+(\mathfrak A_\Lambda,\omega_\Lambda,U_\Lambda),
 \qquad
-\mathfrak h_s[J_s\xi]\geq
-\eta E_s\mathfrak d_s[\xi],
-\tag{S9}
+\Lambda>0,
 $$
 
-with \(\kappa,\eta>0\), fixed normalization, and an independently selected energy unit \(E_s>0\) satisfying \(E_{\lambda s}=\lambda^{-1}E_s\) in the presentation family (with \(\hbar,c\) held fixed), then
+denote a putative one-scale family, with \(\Lambda\) energy-valued and the unit basis suppressed. If enlarging lengths by \(e^s\) induces comparison isomorphisms
 
 $$
-\frac{\Delta_{E,s}}{E_s}\geq\eta\kappa>0.
-\tag{S10}
+\mathfrak D_s^\Lambda:
+\mathfrak T_\Lambda
+\longrightarrow
+\mathfrak T_{e^{-s}\Lambda},
+\qquad
+\mathfrak D_s^{e^{-t}\Lambda}
+\circ
+\mathfrak D_t^\Lambda
+=
+\mathfrak D_{s+t}^\Lambda,
+\tag{D1}
 $$
 
-Indeed, (S9) implies \(\mathfrak h_s[J_s\xi]\geq\eta E_s\kappa\|J_s\xi\|^2\). The form-core assumption extends this inequality to the full energy-form domain, and the spectral variational principle gives (S10). Mere Hilbert-space density is not a substitute for the form-core hypothesis.
+after the domains and identifications have been made precise, then (D1) relates *different members*. It is not the forbidden internal relation \(V_sH_\Lambda V_s^*=e^{-s}H_\Lambda\) on one fixed carrier. A fixed member with \(\Lambda>0\) can therefore be gapped even while the unpointed family is covariant under changes of scale.
 
-The normalization is essential. On a one-dimensional nonvacuum carrier take \(H=\varepsilon I\), \(\mathfrak d[\xi]=|\xi|^2\), and \(J=\varepsilon^{-1/2}I\), with \(\eta=E=1\) and \(0<\varepsilon<1\). Then \(J\) is onto and \(\mathfrak h[J\xi]=\mathfrak d[\xi]\), but the physical gap is \(\varepsilon\), not the unit floor of \(\mathfrak d\) in the upstream norm. The correct reference is \(g[\xi]=\varepsilon^{-1}|\xi|^2\), giving the relative edge \(\kappa=\varepsilon\). More generally a bound against the upstream norm incurs a factor \(\|J\|^{-2}\) when \(J\) is bounded; without norm control it gives no stated physical constant.
-
-The ratio in (S10) is the invariant; \(E_s\) is the local presentation of the yardstick. This is the conditional content available in the thought that mass is a rate of factification. The response and comparison map must be constructed independently of the target spectral edge, and the energy comparison must not define \(\mathfrak d_s[\xi]:=\mathfrak h_s[J_s\xi]/E_s\) after the fact. The reference metric specifies the denominator of the problem; it does not prove the lower response bound.
-
-## A causal patch is not an ordinary resonant box
-
-If the only confinement scale is a causal-diamond radius \(R\), an ordinary box mode gives
+Suppose the comparison maps also transport the physical translation spectrum. Homogeneity then requires
 
 $$
-K_R\sim\frac{1}{R},
-\tag{S11}
+\Delta_E(e^{-s}\Lambda)
+=
+e^{-s}\Delta_E(\Lambda).
+\tag{D2}
 $$
 
-which vanishes as \(R\to\infty\). That cannot prove the Clay gap on \(\mathbb R^4\). A causal-patch construction remains viable only if its boundary or descent law yields a coercive invariant uniform under enlargement of the patch, and if an atlas of such patches reconstructs locality, Poincare covariance, and the same infinite-volume vacuum representation. [[global-local-response-reconstruction/causal-patch-boundary-and-two-times]] states those recovery conditions.
-
-Thus “confinement” in the proposed wave picture cannot merely mean a finite spatial cavity. It must mean an admissibility, gluing, or closed-range condition on the global carrier that continues to exclude arbitrarily soft physical distinctions after the apparent box has been removed.
-
-## The fresh problem
-
-The new question is not “which constant should multiply a guessed mass operator?” It is:
+For a genuinely one-scale family this gives
 
 $$
 \boxed{
-\begin{gathered}
-\text{Construct one scale-equivariant whole whose local presentations}\\
-\text{recover pure Yang--Mills and whose natural dimensionless response}\\
-\text{has a uniform positive floor on the complete vacuum complement.}
-\end{gathered}}
-\tag{S12}
+\Delta_E(\Lambda)
+=
+\kappa\Lambda,}
+\tag{D3}
 $$
 
-This abandons pre-given metric scale as an explanatory primitive. It does not abandon the continuum, locality, unitarity, or Poincare symmetry that must reappear as properties of the local physical presentation. “The whole is not unitary” is best typed as: *unitarity is not yet a predicate of the upstream object*. It becomes meaningful only after a Hilbert carrier and a reversible clock action have been reconstructed.
+where \(\kappa\) is dimensionless. Equation (D3) separates two questions that are often blurred. Family covariance explains why any gap, if present, scales linearly with the sole yardstick. It does not prove \(\kappa>0\). That strict inequality is precisely the infrared coercivity theorem still owed.
 
-[[global-local-response-reconstruction/inq|Global--Local Response Reconstruction]] packages this torsor statement with the concrete two-boundary response operator and the QFT recovery contract.
+Here all other dimensionless parameters, such as a theta angle when admitted, are held fixed; otherwise \(\kappa\) may depend on them. Selecting \(\Lambda\) relative to another physical sector fixes a member, while reporting that selection in MeV chooses a unit. A renormalization-scheme change is a third operation: it reparametrizes the same physical member. For a positive dimensionless conversion constant,
+
+$$
+\Lambda_{\mathsf s'}
+=
+C_{\mathsf s'\mathsf s}\Lambda_{\mathsf s}
+$$
+
+must be accompanied by
+
+$$
+\kappa_{\mathsf s'}
+=
+C_{\mathsf s'\mathsf s}^{-1}\kappa_{\mathsf s}
+$$
+
+so that \(\Delta_E\) is unchanged. Neither selection of a member, choice of units nor reparametrization proves \(\kappa>0\). The [[yang-mills-scale-and-gravity-decoupling|Yang–Mills scale and decoupling contract]] retains the quantum anomaly and pure-gauge recovery requirements.
+
+
+## Positivity is an additional construction
+
+The exact family identities permit \(\widehat\Delta=0\). A state, boundary law or independently normalized reference quantity may select a member, but positivity requires an estimate on its full physical carrier. Merely specifying a quantity line does not choose a nonzero element of that line. The [[scale-relative-response-and-yang-mills|scale-relative response construction]] states a sufficient form-core comparison, its normalization counterexample and the condition for a causal-patch limit.

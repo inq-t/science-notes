@@ -1,4 +1,5 @@
 ---
+keywords: [Newton constant, Planck area, information modulus, gravitational capacity]
 inq.module: "deriving-value-of-g"
 inq.include:
   - "**/*.md"

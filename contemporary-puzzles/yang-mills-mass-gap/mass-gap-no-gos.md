@@ -12,7 +12,7 @@ Several proposed mass-gap certificates fail because their bounds apply to the wr
 
 **[EXACT -- SCOPED]** [[the-grain-of-causal-scale/causal-spectrum|The HSMI no-gap theorem]]: if the positive translation generator \(P\) of a half-sided modular inclusion satisfies \(\Delta^{it}P\Delta^{-it}=e^{-2\pi t}P\), then \(P=0\) or \(\sigma(P)=[0,\infty)\), with no nonzero point spectrum on a separable Hilbert space. A nonzero gap in that *same generator* requires the covariance hypothesis to fail or passage to a different constructed carrier and generator. The theorem does not establish that every pre-wall spectrum is gapless or that a wall automatically supplies a gap. Classical Yang--Mills scale covariance and its quantum trace anomaly are a compatible standard analogy, not an identification of its Hamiltonian with this \(P\).
 
-[[mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance|The same-carrier dilation lemma]] gives the general self-adjoint-operator proof and its domain conditions. A unit change, a conformal-scale presentation, RG flow, and such a unitary dilation symmetry are four different operations.
+[[dilation-covariant-spectra/inq#A gap obstructs exact same-carrier dilation covariance|The same-carrier dilation lemma]] gives the general self-adjoint-operator proof and its domain conditions. A unit change, a conformal-scale presentation, RG flow, and such a unitary dilation symmetry are four different operations.
 
 **Kill condition.** A proposed gap located in this unbroken dilation-covariant HSMI generator contradicts the exact theorem. The condition says nothing until the proposed physical Hamiltonian is actually identified with that generator.
 
@@ -34,7 +34,7 @@ $$
 \ell_G(m)\lambda_C(m)=\ell_P^2.
 $$
 
-These equations make mass a precise hinge between gravitational response length and reduced-Compton length. They do not derive \(m\). More decisively, the Clay pure Yang--Mills target on Minkowski spacetime contains no Newton coupling. A construction in a larger gravitational theory must recover either an exact decoupled pure-gauge subtheory or a controlled \(G\to0\) limit yielding the pure-Yang--Mills carrier, Hamiltonian, renormalized gauge scale, and gauge-invariant observables. The full gravitational carrier remains gapless in the presence of arbitrarily soft gravitons. [[mass-scale-calibration/mass-as-casimir-and-realization#Mass in gravitational and quantum length conversions|Mass in gravitational and quantum length conversions]] gives the full geometric typing.
+These equations make mass a precise hinge between gravitational response length and reduced-Compton length. They do not derive \(m\). More decisively, the Clay pure Yang--Mills target on Minkowski spacetime contains no Newton coupling. A construction in a larger gravitational theory must recover either an exact decoupled pure-gauge subtheory or a controlled \(G\to0\) limit yielding the pure-Yang--Mills carrier, Hamiltonian, renormalized gauge scale, and gauge-invariant observables. The full gravitational carrier remains gapless in the presence of arbitrarily soft gravitons. [[mass-scale-calibration/yang-mills-scale-and-gravity-decoupling|Mass in gravitational and quantum length conversions]] gives the full geometric typing.
 
 **Kill condition.** A formula that obtains the pure Yang--Mills gap essentially from \(G\) or Planck units, but supplies no gravity-decoupling and Yang--Mills scale-matching theorem, answers a different problem or merely changes units.
 

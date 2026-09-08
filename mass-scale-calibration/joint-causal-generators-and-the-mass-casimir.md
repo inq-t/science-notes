@@ -84,7 +84,7 @@ e^{-4\pi t}P_1P_2.
 \tag{J4t}
 $$
 
-If the positive product is nonzero, the same-carrier dilation no-gap theorem
+If the positive product is nonzero, the [[dilation-covariant-spectra/inq|same-carrier dilation theorem]]
 forces its spectrum to be \([0,\infty)\). It cannot have a positive lower edge.
 The invariant product required below therefore needs **opposite modular
 weights**, not merely two inclusions: a positive/negative half-sided pair,

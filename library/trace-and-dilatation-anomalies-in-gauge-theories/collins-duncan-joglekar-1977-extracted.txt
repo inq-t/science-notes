@@ -1,0 +1,926 @@
+--- PDF page 1 ---
+PH Y8 ICAL RE VIE% 0 VOLUME 16, N UMBER 2 15 JULY 197'4
+Trace and li»tation anomalies in gauge theories
+John C. Collins~
+Joseph Henry Laboratories, Princeton University, Princeton, ¹wJersey 08540
+Anthony Duncan'
+Institute for Advanced Study, Princeton, ¹wJersey 08540
+Satish D. Joglekart
+Institute for Advanced Study, Princeton, New Jersey 08540
+(Received 1 November 1976)
+The form of the anomaly in the trace of the energy-momentum tensor in a general theory of interacting
+fermions and non-Abelian gauge bosons is derived. The result is shown to involve precisely those gauge-
+variant operators which are known to mix with the naive trace under renormalization. The trace is shown to
+be soft on the mass shell if and only if the theory is at an eigenvalue of the Callan-Symanzik P function.
+The dilatation anomaly in the matrix element of 8"„with two electromagnetic currents (to lowest order in
+electromagnetism, but including all orders of the strong gauge interaction) is derived and shown to be
+infinitely renormalized in finite orders of strong perturbation theory. This anomaly is then shown to be
+canonical and given precisely by the lowest-order result provided the strong interactions are summed to all
+orders before going to the limit of physical space-time dimensions.
+I. INTRODUCTION
+'The behavior of nontrivial, renormalizable quan-
+tum field theories under dilatations has been the
+subject of considerable attention for quite some
+time. ' Stimulated mainly by the existence of vari-
+ous scaling phenomena, the interest has centered
+on the asymptotic behavior of Green's functions.
+This behavior exhibits departures from that sug-
+gestedby naive dimensional analysis, and can be
+analyzed on the basis of Callan-Symanzik' or re-
+normalization-group' equations (RGE's), which
+take explicit account of the anomalies in the dilata-
+tion Ward identities caused by the inevitable pre-
+sence of regulator contributions. The information
+expressed by the RGE's can also be obtained, less
+directly, by studying zero-momentum insertions
+of the trace 8„" of the energy-momentum tensor in
+the general Green's function. ' There have also
+been attempts" to obtain predictions about low-
+energy phenomena by studying 6)„" such as the par-
+tial conservation of dilatation current (PCDC) cal-
+culation of the (c -2y)/(e -2w) branchingratio. Here
+the energy-momentum trace enters directly, as
+the operator putatively dominated by an e ("dila-
+ton") pole.
+In this payer, we will study the trace of the en-
+ergy-momentum tensor directly in theories con-
+taining fermions and non-Abelian gauge vector
+particles (but no scalars). ' The exact form of the
+anomaly in the trace was recently derived' for
+@ED: For non-Abelian theories, the derivation
+is somewhat complicated by the mixing' of gauge-
+invariant with gauge-noninvariant operators under
+renormalization. In Sec. II, we fix our notation
+and write down the expression for the trace in
+terms of bare fields, in the dimensionally regulat-
+ed version of the theory. In Sec. III, we derive
+an exact expression for the anomalous part of the
+trace at zero momentum in terms of dimensional-
+ly subtracted normal-product operators. " In Sec.
+IV, the extension of the result of Sec. III to ar-
+bitrary momentum is proved. We note here that
+one result of the computation is that the energy-
+momentum trace, on-shell and at nonzero mo-
+mentum, is soft if and only if P(g) =0, that is to
+say, at a Gell-Mann-Low eigenvalue. In the gen-
+eral Green's functions, a hard (and manifestly
+gauge-noninvariant) operator survives in the trace,
+even at an eigenvalue. In Sec. V, we study the
+dilatation anomaly in matrix elements of the ener-
+gy-momentum trace with the hadronic electro-
+magnetic current, in a theory with non-Abelian
+strong interactions. It is shown that the "canoni-
+cal trace anomalies" of Chanowitz and Ell.is' are
+in fact infinitely renormalized in higher orders of
+strong perturbation theory. It is then demonstrated
+that, by summing to all orders in the strong cou-
+pling, before passing to physical dimensions
+(I = 4), the dilatation anomaly is exactly computable
+and given precisely by the canonical (lowest-order)
+result. Some technical details relevant to the
+analysis in Secs. III and EV are relegated to the
+Appendix.
+16
+
+
+--- PDF page 2 ---
+TRACE AND DILATATION ANOMALIES IN GAUGE THEORIES
+II. COMPUTATION OF THE TRACE
+A. Preliminary
+We shall be considering a non-Abelian gauge theory with fermions. " The unrenormalized but dimension-
+ally regularized Green's functions of such a theory can be computed from the effective action (in linear
+gauges)
+S, [A, , ~, ('A , )~„(,~]=ja * ,r .—(*)Z.:„(*),F"(*)()),r) g —,.) ((*) [ag„.(x)I*
+0
++ s"~.(x)[8„.(x) -))c„„A"„(x)w,(x)]I,
+where
+(2.1)
+(2.2)
+&u ((d,) are the Faddeev-Popov ghosts (and antighosts), and g„m„$, are the bare coupling, bare
+mass, and bare gauge parameter, respectively. We have chosen the gauge group to be simple; the t are
+its generators in the fermion representation, and the c,~„are its (totally antisymmetric} structure con-
+stants.
+The unrenormalized Green's functions of the theory are generated by
+0 0 0 0 0.Ws'. ~a~~xe~X~~~ i'[) lgo~ 0~ &oi&ia~
+dAd~d~dg exp —S~, + d ~ „x x+X x~ x+(d »X x+g» + xg x ~
+(2.3)
+Here a is a loop expansion parameter (to be set equal to 1 in the end). The unrenormalized connected
+Green's functions are generated by Z, = -i ln@'o, andthe correspondingproper verticesby I'o, obtained from
+Z, by a Legendre transformation:
+r,b', ))', ()'( ('; m, .)', ,(,.n, a] = z, —f a gz: (x)r"r (x)+„)):(x'.)„x (x)+ x (x)').):(x) .r(x)n'(x)~~ r(x)('(x)],
+(2 4)
+where we have defined
+We have the relations
+gr, , or, , or,'„{x}=—5, ( }, X'(x}=— ~, ('}-, ~'(x)= 5~, ('}, etc.
+(2.5)
+(2.6}
+Further, one may generate Green's functions with an arbitrary number of insertions of a local composite
+operator O(x) simply by modifying the exponent in Eq. (2.3}by (i/a) J M(x)O(x}d x, where M(x) is a source.
+Then if we define Z, and I', in an analogous manner (I', and Z, depend on M and M does not appear in the
+Legendre transform), we have
+aZ, Or,
+5M(x) 5M(x}
+We further have the Ward-Takahashi (WT) identity:
+(2.V}
+0= ~ ~ o ——8„+ x —j(d x d p cTg~ g e~(dg g +gocg„6A~
+0
+x exp —3„,+ d "x[J'(x)A, „(x)+'0'(x)(1)(x)+V(x)r]'(x)] (2.8)
+
+
+--- PDF page 3 ---
+COLLINS, DUNCAN, AND JOG LKKAR 16
+We have the equation of motion for the gauge field,
++cJ ~ x exp —8 fg+'''&~.rf (2.9)
+and its analog for the fermions. We also have the equation of motion for the antighost field,
+0= dA '' ' 8~ ~ (do X -g0CMYAN X (dS X +Xo + ~ eft+a (2.10)
+where, in Eqs. (2.9) and (2.10), the exponents are identical to those in Eq. (2.3).
+The theory is made finite by the multiplicative renormalizations given below&. We shall determine the
+renormalization constants by the minimal subtraction scheme, "[i.e., counterterms subtract just the poles
+in (n —4)]. Thus,
+J R g l/2g0
+OQ 3 COP&
+x"=~'"x'., x"=~'"x.,
+~R g 1/2~0 ~R Z l /2~0
+2
+ggp(84) /2g
+lpga
+l /2gp(ft 4) /2g8 0 1 2 3 0 gP
+m„=S 'm, $„=Z, '$ .
+Then the generating functional of renormalized Green's function is (g=(Z, », 1„... )) &=(g, m, $/)
+Ws[g ";X", p) n, a] =—Wo[$0; Ao) n, a]
+and is a finite functional of its arguments at n = 4.
+We shaB use the notation
+(2.11)
+(2.12)
+(F[A, g, tlI, ()), (()])&o = (dA d(d d()) dg tg)E[A, g, )It(, (d) (d] exp —(S«+ ' ' ' )
+0 g (2.13)
+B. Trace of the energy-momentum tensor
+Consider the energy-momentum tensor as constructed by Freedman, Muzinich, andWeinberg, " modi-
+fied to include fermions. It reads
+'»»(&) = &».jeff -F:.F:e-g». &0 "-&O'Ae)+ &0 '[A. »( 'A»)+ (~-v)l
++ ~i[+„(s„—igot A„)g —$(s„+ig&)t A„)y„(I)+(v—v))+[s„(d (s„(d -goc „()A(o ) ()(+p —v)]. (2.14)
+Here Z«(x) is defined to be the expression in the curly brackets in Eq. (2.1). The trace of 8„„in n dimen-
+sions can be expressed (without use of equations of motion) in the form
+,s (s, g, ,„A;,) ( 4)[g.„~;s p,, s"A„)].
+(i) As we are using a mass-independent renormalization scheme, we have"
+m, (T(g = m~(T((g) = a finite quantity.
+(ii) Using the equations of motion for (I) and g,
+(2.15)
+(2.15)
+(x) -"' + "' g(x) = &gn'+q'(t)-&
+5T((x) 5y(x)
+] ~ 8 8
+i q" ~( )
+—rf(x) ~( ) W„—=iN„. (2.17)
+The truncated on-shell Green's functions of N „vanish at q w 0 and at q = 0 they equal the number of exter-
+nal fermions (antifermions included) of the Green's function; in particular, they are finite.
+(iii) Further, by using the equation of motion for the antighost, viz. , Eq. (2.10), we obtain
+
+
+--- PDF page 4 ---
+TRACK AND DILATATION ANOMALIES IN GAUGE THEORIES
+(2(o (x)8'[e, d (x)-g c „A",(x}&o (x}])=-2((o (x)xo(x))
+2i 0=+ )P(x),( ) W,
+2i
+~ xo ~ ~~a=-» y
+Xo
+(2.18)
+where N„ is the counting operator" for ghosts
+whose truncated on-shell Green's functions vanish
+at q0 andatq=0 equals the number of external
+ghosts and antighosts. In particular, therefore,
+its Green's functions with external gauge bosons
+and fermions only vanish identically.
+(iv) Finally, we consider the term in 8"„(x):
+28'[-$ 'A, s"/t.„+&o (8,v -g,c s „A",&o~)]. (2.19)
+Regarding this term we shall show in the Appendix
+the following:
+(a) At q4 0, its truncated on-shell Green's func-
+tions (with physical wave functions attached) van-
+ish identically.
+(b) At q = 0, these Green's functions vanish. This
+is, of course, obvious once one notes that the ex-
+pression in the square brackets in (2.19) cannot
+have a 1/q' singularity because it does not have the
+quantum numbers of a ganp'e field.
+(c) For the sake of completeness, we shall show
+that the only other renormalization part in the
+Green's functions of (2.19), viz. , the two-ghost
+proper vertex with an insertion of the expression
+(2.19), is finite.
+To summarize, we have shown that the terms
+in 8"„(x)[see Eq. (2.15)], apart from the term pro-
+portional to (n -4), are finite and for physical ma-
+4'ix elements of 8~»
+8„"(x)—(n —4)[R,«$,+'8,(/Pe"/1„)] = m„Ngg)+ iN„.
+(2.20)
+It thus remains to consider the last term in Eq.
+(2.15). This gives rise to the anomaly and will be
+treated in the next two sections.
+g g(g (s)~(n 4) /2oz/2 t (s) ) (3.1)
+Note the appearance of the loop-counting param-
+eter a accompanying powers of g,'.
+At zero momentum, the anomalous part of the
+energy-momentum trace is just [cf. Eq. (2.15)]
+(8") = (& 4)& « ~ (3.2)
+We have adopted the convention 8 -=J d "x 8(x) for
+an arbitrary local operator at zero momentum.
+Now we note that zero-momentum insertions of
+C,«can be obtained simply by differentiating the
+bare functional 8', with respect to the loop param-
+eter a:
+III. THE TRACE ANOMALY
+We will now compute the zero-momentum in-
+sertion of the anomalous part of the energy-mo-
+mentum trace in the limit n -4, expressed in
+terms of renormalized operators. The derivation
+is completed by noting (cf. Sec. 1V) that the form
+obtained must hold for arbitrary momentum, by
+the general theory' of renormalization of gauge-
+invariant operators.
+We begin by noting that, by virtue of the mass-
+independent renormalization scheme we have
+chosen, the Z's of Eq. (2.11) all have the function-
+al form
+1 ~S'0 i-v(L,„+(-4' A) + ~ ~ ~
+)808'0 ~a ~0 & a
+= —-r (8,„)8 o —— d "xg '(x) ~i 1 „~0 68'0 1
+5j'x W,
+i 1 „g 5%'~ 1= ——,(8,„)so —— d "xg "(x) ~
+(3.3}
+The source terms are evidently finite at n= 4, so up to terms vanishing at n =4
+1 aw„--v(n -4)(S~,) = (n -4)a efi
+&8'g ~J] 1+ ~ ' + other source termsex~ ~a, o „ B
+(3 4)
+
+
+--- PDF page 5 ---
+COLLINS, DUNCAN, AND JOG LEKAR
+[The sum over t in (3.4) includes a spatial inte-
+gration. ] From (2.11) and (3.1) it follows that,
+setting a= 1,
+~A'R
+lim (n —4) " = P(g„)-=lim Io, g„
+n 4 ~a )to n 4 ~~ )t .
+(3.5)
+The other a derivatives in (3.4) reduce similarly
+to the corresponding anomalous dimensions, yield-
+ing (a = 1), in an obvious notation,
+t(n-—4)|,« = —.'(y,N„+ y~„+yN„)
+a 8 8
++p —y mR —y, ER
+~JR ~m
+Now recall that differentiation of a renormalized
+Green's function with respect to a parameter A.
+appearing in (3.7) amounts to insertion of i(BI„,/
+sk). Furthermore, the dependence of renormalized
+Green's functions on (» g~, &„ is just
+G (p. yR g 1 t ) g Ng/2g //o/or -N~/2
+xGs(P;A, 1, 1, 1),
+so that, for example, NA can be replaced by the
+differential operator 2S/-Sf„T.hese remarks
+lead directly to the following correspondences:
+N~ --tiN Ao~ +2&gr -gscus. N[~o "A oo'o]Ill
+(3.6) +gsN[0&ot &] [ (3.9)
+The quantities N „, N~, and N „are just the total
+number of external gauge, fermion, and ghost
+lines, and arise from the counting operators
+J", (8/BJ f), etc., in (3.4).
+The final stage of the computation involves re-
+expressing N„, N„, N„and the derivatives with re-
+spect to the renormalized parameters in terms of
+zero-momentum insertions of renormalized nor-
+mal products. " To this end, we write the effective
+normal-product Lagrangian in terms of dimen-
+sionally subtracted normal products:
+N~ -22+~,
+N„- -2A
+(3.10)
+(3.11)
+RB (3.13)
+iN A~„—2iXA~-
+ag-
+-rgsc~„N[ &o,e"A »~o] + tg„. N[gg t g]
+(3.12)
+~.rr, N p &~+~z—+&.r+&c I r„=r„-r„=i
+4gwN[ F o og I")-,
+a
+m„- iN[ gm„-g]
+R
+(3.14)
+Z~ -=CoN[$(t(P —tg„C„' 'g, t, ) ™„)g],
+&~ -=—2" N [('.A.")']
+&c = &M& s"(S.~w -4'"gsc~, A,.)~ol,
+(3.7)
+A+ ~gR
+A [ /A=i
+(3.15a)
+fn deriving (3.9) and (3.12), it is convenient to note
+the following scaling properties of ZA:
+with
+1/2+altv g Aev VAett, +SR~A ~ot87 AStt, A7'v
+(3.8)
+8Z, M„d'xA „(x) ( ) .
+A CA=1 Qt Q
+Substituting (3.9)-(3.14) in (3.6) gives
+(3.15b)
+-(n —4)N,„=— &„+v N (Imper)
+2P
+RR
++ ——' N A „A g„c &„N(&u oS-A»u )o+gsNgg t g) —y,Zz —yacc. (3.16)gR 2 "5AI
+Note the appearance of non-gauge-invariant
+operators and ghost terms in the anomaly. In
+fact, it is known' that the following set of bare
+operators are the only ones to mix under renor-
+malization with the gauge-invariant operator 0,
+pv,
+5 ~~AOo=Aeo 6A ~os soo'a+go~+et ""
+Oo = -@~a)~e -goceo ~~nS Ayo&A ~
+0,'-=g(~f- m, )g,
+0,-=/mop.
+(3.17)
+
+
+--- PDF page 6 ---
+TRACK AND DILATATION ANOMALIES IN GAUGE THEORIES
++ ——2 -y N[O,]-y, N[O,]
+P y,
++y N[O,]. (3.19)
+In particular, on the mass shell (n)ith external wave
+functions) and at nonzero momentum, N[O, ] and
+N[O, ] vanish by the ghost and fermion equations
+of motion. It can also be shown" that N[O,] van-
+ishes on-shell at nonzero momentum. Under
+these circumstances, therefore,
+(8".)...I. ... =-—N[O, ] y.N[O.]
+N[I.,„r.""]+y. N[gm„y].
+(3.20)
+Putting this result together with Eq. (2.20} we ob-
+tain the following simple result for the on-mass-
+shell full trace" at nonzero momentum:
+e„" ~...,.„=(1+y„)N[ym„y]
++ N[E+0.+e"1. (3.21)
+Furthermore, this set is closed under renormali-
+zation to all orders. Defining corresponding re-
+normalized normal-produce operators, we find
+that (3.16}becomes simply
+(e„).-= )dff[o,]-, ' —';)f([0,.0,]-
+gz
+-yN[Osl -yAO&l +y~N[Os] ~
+(3.18)
+If (as will be demonstrated in Sec. IV} []„"at ar-
+bitrary momenta is a linear combination of just
+these operators, we may remove the restriction
+to zero momentum in (3.18):
+(s"„), = — )([0,] ~ —~) Ã[0,]gs ga 2
+5A„(x)= [S„(d (x)+g0c ~„A~ (x)(o„(x)]5X
+=D„~(d~ (x)5X,
+5(d (x) = -,'g0c ~„(d~(u„(x)5X,
+5~.(x) =—S„A".(x)5][,1
+0
+5y(x) = fg,f.y(x)~. (x)5~,
+5$(x) = -([g,]I)(x)t, (u, (x)5X,
+(4.2)
+where 6X is an x-independent anticommuting c
+number. These transformations satisfy
+0= 5(D„u&~) = 5( 2c~„(-d])~)= 5(t, g(d ) = 5gt, (d) ) .
+(4.3)
+The gauge-invariant part of , « is clearly in-
+variant under the BRS transformations, as they are
+just a special gauge transformation on A, g, $.
+Furthermore, one finds
+5 — (5"A )' —(d) 5"D u& =0u e g g
+0
+(4.4)
+IV. EXTENSION TO ARBITRARY MOMENTUM
+Here we shall derive the form of the anomaly
+in 8"„(q) valid at arbitrary momentum q. This form
+will determine the set of linearly independent oper-
+ators that can be present in the anomaly: Com-
+parison with the known value of the anomaly at
+q = 0 as given by E[I. (3.18) will determine the
+coefficients of all the operators and thus establish
+E[I. (3.19). The method is a minor modification
+of that employed in Ref. 8.
+The terms in 8"„(x)proportional to (n —4) are
+-(n -4)[8„,(x)+ $, '5 "[A„'(x)S"A„(x)]] =- -(n —4)e(x) .
+(4.1)
+e(x) has a simple transformation property under
+the Beccbi-Roust-Stora (BRS) superfield trans-
+formations".
+Finally, we note that the recently obtained re-
+sult' for the anomalous trace of the Belinfante
+tensor in QED is obtainable directly from (3.19}by
+setting P=-,'g„y„y™=O.Also, it is amusing to note
+that, by (3.21), the eigenvalue condition P(g„)= 0
+is a necessary and sufficient condition for the
+restoration of softness of the trace in on-mass-
+shell matrix elements, though not [because of the
+appearance of the dimension-four operator N[O,])
+in the general Green's functions.
+which lead immediately to
+58 =—5"(A„s"D„' ur()) 5]]..
+0
+Consider now the generating functional
+(4 6)
+(4.6)
+fr'[d', d', ff', )f I', fd]=f (deded dddd)es)sI( d. fd"*M(s) ~ s+oo re re s for f'e)ds (4.7)
+
+
+--- PDF page 7 ---
+COLLINS, DUNCAN, AND JOGLEKAR 16
+where the source terms for fields are identical to those in the exponent in Eq. (2.1), and Z contains sources
+for the BRS invariants of Eq. (4.3),
+~=~yj, g+ d +o, Dy, &6 & + &go ~ t(gy — I~H 0, & + 2L g{)&{ggy&g(dy & (4.8)
+and is fully invariant under the BRS transformations.
+Now consider the effect of BRS transformations on the integration variables of W'. The Jacobian of the
+transformation is unity. Furthermore, the value of W' should not change under the change of integration
+variables. This leads to
+(4.9)
+0= cfAdcodcodg d x.el~~ x {) g+X~ x
+—
+0 ——~p,AI x g~ x
+y q'(x) —,q'(x) ——M(x)S"[A„'(x)y' (x)] exp[i(8+ )] .
+The antighost equation of motion has been used to replace YD„~&uz(x} by -X' (x) in the last term in curly
+brackets. Had we had a gauge-invariant operator multiplying M(x) instead of e(x), this term would have
+been absent. Thus the Ward-Takahashi (WT) identity satisfied by W is identical to that satisfied by a
+generating functional for insertions of a gauge-invariant operator, excePt for this term. Now we can, as
+usual, define the generating functional for proper vertices l"' corresponding to 8", by making a Legendre
+transformation Z' —=-i in%"'.
+r (', n', F,e', @',sc', ~tt:.)-=z Ja *(z 4 "Ve.„p"n ~ x'4' &'.4'. ), (4.10)
+with ao(x) -=5Z'/58" (x}, etc. For any source K not entering the I.egendre transformation, we have 5Z'/
+5K~ ~o = 5I"/5K ~,0 . Thus Eq. (4.9) becomes
+J ] 5a'." (x) 5Z'. „(x) 5no(x) 5f,'.(x) &, [ " ]5IF.(x)
+~r or' cr or' s „„,„-, ~r
+W'(x) 5P'(x) 5H'(x) A'(x) [, " 5D:(x)
+Differentiating with respect to M(y) and setting M =0,
+5a'"(x) 5K', „(x) 5K', „(x) 5ao" (x) $, " ' 5fj'(x) 5M(y) ~„, (, " y 5TF, (y)
+(4.12}
+The dotted terms (
+~ ~ ~
+) involve "conjugate" pairs
+(O' I ') (O' 8') (O', H ). The sources K', I ' H'
+8' are all multiplicatively renormalized such that
+when each term on the left-hand side is expressed
+in terms of renormalized quantities, a factor of
+(Z,Z) '~' can be extracted uniformly.
+For example,
+5F' 5I" 5I' 5I"
+5a „5K 5a „5zs„
+But the right-hand side of Eq. (4.12}is
+(4.13)
+or' ~r'
+gO g 1gk g 1 /2 8 g~1/2
+"oQ' E ' ' " ~tF
+gent
+(4.14)
+Thus, expressed in terms of renormalized quan-
+tities, Eq. (4.12) has the form
+~ ~ ~
+or' 6 ar'
+5a".'(x} 5Z".„(x} 5M(y) „.,
+= finite functional. (4.15)
+But this WT identity is identical in form to that for
+a gauge-invariant operator except that the right-
+hand side is finite instead of zero. Thus the one-
+loop divergence in
+5r[o', a", II']
+s"-Z"-n-
+can be expressed in terms of the field operators
+that can mix under renormalization with a dimen-
+sion-four gauge-invariant operator that is a
+Lorentz scalar and has even charge conjugation.
+But they are precisely the five operators listed
+in Eq. (3.1'7).' In other words,
+
+
+--- PDF page 8 ---
+TRACE AND DILATATION ANOMALIES IN GAUGE THEORIES
+51'[a",0",6"]
+5M(x) K =L -8 -8 =N~
+d|v
++ Q b["(O,[A, ur, (o,g„],]) . (4.1V)
+where b, (n, g, $) may be divergent as n-4. There-
+fore, we can write
+((6(x))] = finite terms
+The above arguments can be extended to higher
+orders in the same way as done for gauge-invar-
+iant operators in Sec. III of Ref. 9. Basically,
+the argument consists in showing that the above
+set of operators thai appear as renormalization
+counterterms for 6(x) themselves satisfy the
+homogeneous WT identity [i.e., Eq. (4.15) with
+the right-hand side set equal to zero. ] With such
+an argument one can conclude that the overall
+divergence in [51/5M(x)] in the N-loop (N ) 1) ap-
+proximation has the same form as that given by
+Eq. (4.16). In other words„we can write
+x.e.,
+(
+5 N-j 5
+6(x) —Q Qb,"'a'O, [A., i~, ~,g,] = Q b,'"'a"O,[A, (u, ~, g,] +finite terms,
+$~1 l=l 5~1
+(Oi}= Q ZEJ N[O /[Ay +i Ri g]] ~
+f
+where Z, & has an expansion in a and I/(n —4). Substituting Eq. (4.19) into Eq. (4.18), we can rewrite Eq.
+(4.18) as
+(4.19)
+5
+(6(x})&s= g b, O,[A, ~, ~, g,] + finite terms (4.18)
+valid up to an N-loop approximation. Here the b, are polynomials in 1/(s —4). Now using the fact that this
+set of operators is closed under renormalization we can write
+(6(x))&
+=g b',(N[O, [A, ru, ~, g]])+finite terms (4.2o)
+We are interested in the limit (n -4) of
+5
+-(n —4)(6(x))s = —g (n —4)b', (N[O, (x)]}&—(n —4) && (finite terms) .
+j~l
+(4.21)
+Note that the above equation is valid at each x and
+hence for f 6(x)d "x, i.e., for the zero-momentum
+insertion case worked out in the previous section.
+Comparison of Eq. (4.21) in the limit (s-4) with
+Eq. (3.18) tells us that the quantities lim„, (n —4)b',
+are finite and given by the coefficients of the re-
+spective operators in Eq. (3.18). We thus es-
+tablish Eq. (3.19}for an arbitrary momentum q
+(i.e., at each x}. It should be noted that the exten-
+sion from the q =0 to the q 40 case has been pos-
+sible because the Green's functions of N[O, ] for
+the five operators in Eq. (4.21}remain linearly in-
+dependent at q =0.
+V. ANOMALIES IN CURRENT MATRIX ELEMENTS
+In this section, we shall discuss the dilatation
+anomalies which appear in matrix elements of
+current operators, in order to clarify the content
+of the "partially conserved dilatation current"
+(PCDC) hypothesis. ' Specifically, we shall con-
+sider the electromagnetic current in a theory with
+fermions interacting via non-Abelian gauge gluons.
+The electromagnetic interaction will be treated
+to lowest nontrivial order, and the strong gauge
+interaction to all orders throughout. %e shall find
+that the dilatation anomaly (to be defined below)
+in the two-current matrix element of 8„, although
+renormalized infinitely in any finite order of the
+strong interactions, is completely unrenormaIized
+provided we sum to all orders in g„(the renor-
+malized strong-coupling constant) before passing
+to the limit of physical dimensions, n=4.
+Consider the matrix element of 8„" with tmo re-
+normalized photon fields: Using gauge invariance,
+we have
+P,'P,'(o
+I
+»".(P }A'(o)&(g}I o}
+(Pl PSgllll PlllP24) l(PltP2)
++(P&~P„g~pP) )(P2Pmv gvP2-') 2(P,~P2), -
+(5.1)
+
+
+--- PDF page 9 ---
+COLLINS, DUNCAN, AND JOGLKKAR
+where q=- -(p, +p,). We now employ the methods of Sec. III to relate the zero-momentum insertion of 8'„
+into the renormalized photon propagator itself:
+a 8 8 8
+&0ITA"„(p&A„"(0)82 I0&=-i tt, +P, —(1+r )», S r-pcs 8& +r, &0ITA"„(p}A"„(0)I0&
+=-ip" „+2 OT "p "„0 0, (5.2)
+where we have used the renormalization-
+group equation for the renormalized photon
+propagator. Writing the latter (to order e„') as
+we have
+P'[1+en'IIs(p u mz gs n&] "(P')' '
+(5.3)
+(0 I TA"„(p)A„(0)82 I0& =
+8
+X8g Pp ~- Hg ~
+P'p
+(5.4)
+Together with E(I. (5.1) (at q=0), E&I. (5.4) implies
+8
+V,(p, -p)-p'V, (p, p)=e„'P„ II„(pe &em„eg„en)."ap~
+(5.5)
+Now suppose we attempt to saturate 8„" in the
+mass-shell matrix element (p, e„p2z2 I
+IT"„(q)
+I 0& with
+a single e ("dilaton"} pole contribution. Only
+V,(p„p,}is relevant to this matrix element,
+whereas the relation (5.5) involves the combina-
+tion V, -p'V, . However, at p'=0, the right-hand
+side of (5.5}vanishes (for nonvanishing bare &Iuark
+masses), implying that V, (p, -p) IP2~ is zero. In
+other words, the use of the total energy-momentum
+tensor 8„"(q) to extrapolate the c field off-shell is
+incompatible with the assumption of maximal
+smoothness for the ~-2 photon coupling (i.e., an
+effective ~F„„F""interaction). This is because
+the electromagnetic and hadronic contributions in
+8"„(q) cancel exactly in this matrix element at
+q=0.
+The assumption of PCDC is simply that the had-
+ronic part of 8„' is saturated with an & pole. In
+order to implement this assumption, one must
+define a finite "hadronic part" of 8",. We shall now
+show that to finite orders in strong perturbation
+theory, it is not possible to unambiguously separ-
+ate finite hadronic and electromagnetic contribu-
+tions in 8"„(although one can certainly define a
+finite hadronic piece, this definition amounts to
+a specific choice of finite part of the counterterms).
+However, if one sums to all orders of gs before
+passing to four dimensions, the hadronic part of
+the bare trace remains finite and in. fact has a
+completely calculable zero-momentum vacuum
+to two-photon matrix element, given exactly
+by the lowest-order result.
+To proceed, we first relate the matrix element
+of 6„"with two currents to that with two unre-
+normalized fields, as follows:
+&0(TA„(e)A„(0)e (0) je'xd'le=-"'&O(TA„(*)A„&O)e,'(l)(O)
+= -e.'n-(P&~ (P)&0lr~'(p)f'(0)8l 10&
+[Pp D„,(P) -P, D„p(P))[P'D„'(P) P'D„'(P))+ O(e,'-) . (5.6)
+(5 7)
+(5.8)
+where
+Here n and D are the free and unrenormalized photon propagators respectively [the latter is computed to
+O(e,'), all orders ing, ]:
+(p) gpll Pppeefp t PpPle
+Pll p2 + 0 (p2)2
+p'[1+ e,'II,(p', g, (n), m, (n), n)] ' (p')'
+=[1+co t(, z2(gp(n)t ",n)]D „(p)+O(eo),
+Z2(gp(n)to& "~20 n)= —POle Par—t Of [to' "Ilo(P'egp(n)e mp(n)en)]. (5.9)
+
+
+--- PDF page 10 ---
+TRACE AND DILATATION ANOMALIES IN GAUGE THEORIES
+The second term in Eg. (5.6) arises from graphs in which the electromagnetic part of 6„(expressed in
+terms of bare fields), namely , (—n—4)E„„E"",inserts directly onto an external photon leg. The graphical
+alternatives are summarized in Fig. 1.
+The renormalized form of Eq. (5.6) is just
+&0I»".(p&,"(0)sl I0&=-e '
+z ~ &0l».(&b.(0)'l I»
+-e,'(n-4), .(g..P'-P. P.)z,(g.(n)~''""",n)+o(e ')
++ (terms vanishing at n=4). (5.10)
+The left-hand side of Eq. (5.10) can be related via Eq. (5.4) to the renormalized photon self-energy, so
+finally we obtain
+&0I».(Pb.(0)6~ I0)=(g,P' P.P.)-Pi fix(P')-(n-4)z, (g.(n)~'""",n)
+~P)l
+(5.11)
+The last term on the right-hand side of (5.11) cor-
+responds precisely, in zeroth order of go, to the
+"canonical trace anomaly" of Chanowitz and El-
+lis. We grill refer to it as the dilatation anomaly,
+to distinguish it from the anomaly in the trace of
+the energy-momentum tensor itself, discussed in
+the preceding sections. Standard renormalization-
+group argument&" show that the dilatation anomaly
+is finite up to order g„, but diverges in order
+gz' (owing to a double pole in z,) and all higher
+orders. This, of course, implies that the two-
+current matrix element of 8„" is divergent ' in
+perturbation theory: It is, in fact, subtractively
+renormalizable by precisely the divergence of the
+anomaly. We conclude that the assumption of
+PCDC is nonsense in perturbation theory.
+Nevertheless, it is possible to resurrect the
+PCDC assumption on a purely nonperturbative
+basis, as we now demonstrate. Let Z, be the com-
+8
+y, (e»g„) =- p, 1nZ
+Bp,
+en'y(gz)+ «-ez') (5.13)
+Here y(g„) is of order unity as g„-0.
+Note that with minimal subtraction, " y3$ and
+hence y, are independent of n. Let P,(gz) be the
+strong-interaction P function in the theory with
+e, set equal to zero:
+8
+~~(gn) = & s gn go=0
+g~, n ~~xW
+One easily derives the following inhomogeneous
+renormalization-group equation for z,:
+(5.14)
+P,( g, ~) 's "' +«,(g, n)=r(g ), (515)'z, (g» n)
+piete photon wave-function renormalization con-
+stant:
+g (g (n)~(n 4) /2 e (n)~&n-e) g2 )
+= 1+ e n'z, (gn, n)+ 0(e„') . (5.12)
+Thus
+where &=—n —4. For fixed n&4, we may assume
+lim, ,g' z,(g, n) = 0. We also have"
+(a)
+J3 (gn 'z)= &gnI. &+y(gn)I (5.16)
+where r(g„) is of order gz' for gz approaching
+zero. The solution of (5.15) is
+zp(gn 'n) = dg r(g)
+0 Pg gl~)
+FIG. 1. (a) Insertion of the hadronic part of the
+bare trace in a two-photon matrix element. P) Inser-
+tion of the electromagnetic part of the bare trace.
+~e dg'x exp -e, . (5.17)
+Pg gi&—
+We shall assume (as suggested by scaling" ) that
+the physical renormalized coupling g„ is in the do-
+main of attraction of the origin, so that there are
+
+
+--- PDF page 11 ---
+COLLINS, DUNCAN, AND JOG LEKAR 16
+no zeros of y(g) in the interval (O, gs).
+Now recall that the anomaly we are interested
+in is ]ust lim, o zz, (gs, 4+ a). However, a Taylor
+expansion in g„will inevitably commit us to an
+expansion around the point at infinity in the z plane:
+2 1=—1+—y(gz)P,(g& z) gz
+y+ vf y
+whereas we are interested in the behavior of
+z, (g» e) for small e. Inspection of Eq. (5.17)
+shows only the integration regions g, g'-0 ean be
+responsible" for any singularities of z, as e -0.
+Specifically, the region of interest is (given the
+assumptions on y, y stated above) g' - e, g" -g ' —e.
+'Thus, we can neglect the terms of order g„' and
+higher in y and those of order g„' and higher in y
+in Eq. (5.17), as far as the leading singularity of
+z, as c -0 is concerned. Consequently, defining
+yo=y(0), a=lim 0(1/g')y(g),
+plicitly broken, so there is no Goldstone limit in
+which spontaneous breakdown of dilatation invari-
+ance would force the appearance of a zero-mass
+particle. Nevertheless, one could adopt the PCDC
+assumption as a testable qualitative hypothesis
+(at least in principle) provided that one further dif-
+ficulty can be resolved. Namely, the magnitude
+of the coupling of the trace to the e pole is unde-
+terrnined theoretically, so one is forced to con-
+sider,"in addition to e -2y, processes such as
+e-2m which involve the dilatation anomalies of
+chiral current matrix elements. However, chiral
+currents are notoriously difficult to handle in a
+dimensional renorrnalization scheme, which has
+been central to our analysis. It remains to be
+seen whether a canonical dilatation anomaly will
+also emerge nonperturbatively in such eases."
+Note Added. After completion of this paper, we
+received a report" from N. K. Nielsen obtaining
+similar results.
+ACKNOWLEDGMENTS
+z,(gs, 4+ z)
+2yQ
+g(z+ ag')
+2dg'x exp -z i(,2)
+We wish to thank Professor S. Adler for stimul-
+ating discussions. Two of us (A.D. and S.J.) would
+also like to express our gratitude to The Institute
+for Advanced Study for its kind hospitality.
+yo APPENDIX
+which yields the exact result for the anomaly
+Here we shall deal with the term
+(Al)
+lim ~z, (gs, 4+ z) = y, .
+~p
+(5.18)
+This concludes the proof of nonrenormalization of
+the dilatation anomaly. " It should be emphasized
+that, in contrast to the situation with the triangle
+anomaly, the result (5.18) is necessarily nonper-
+turbative, and cannot be checked in any finite order
+of perturbation theory. " This is a consequence of
+the highly nonuniform (in e) character of the ex-
+pansion in powers of g„.
+This result does not, of course, circumvent the
+usual physical objections to the PCDC hypothesis.
+The enormous width of the ~ ensures that the as-
+sumption that the zero-momentum trace 8„' cou-
+ples to an arbitrary state via a single pole term is
+crudely qualitative at best. Furthermore, in con-
+trast to the case with partial conservation of axial-
+vector current (PCAC), there is not even a fiction-
+al world (for PCAC, that of massless bare quarks
+and pions) where exact calculations can be per-
+formed. If we are not at an eigenvalue of the Gell-
+Mann-I. ow function, then even in the limit of zero
+bare quark masses dilatation invariance is ex-
+in Eq. (2.15).
+We shall, first, give a simple proof using the
+discussion of Sec. IV that all the renormalization
+parts of the above quantity are finite without ad-
+ditional subtractions. Consider the discussion of
+Sec. IV for 8(x). We note from Eqs. (4.4) and (4.5)
+that the only part of 8(x) that is not BRS invariant
+is precisely the expression in (Al). So the whole
+discussion for the WT identity for 8(x) and its
+renormalization applies to this piece as well.
+Hence this implies that the renormalization coun-
+terterms for this operator can only be those five
+operators listed in (3,21). But the expression (Al),
+and hence its renormalization counterterms them-
+selves, is a four-divergence. But there are no
+such (linear combinations of) operators in (3.21).
+Hence the proper vertices of (Al) must be finite
+once the wave-function and coupling-constant re-
+normalizations are done.
+Next consider the Green's functions of (A1) with
+no external ghosts. 'They can be expressed via the
+WT identity of Eq. (2.8) in a simpler form, after
+a straightforward manipulation. The result is
+
+
+--- PDF page 12 ---
+16 TRACK AND DILATATION ANOMALIES IN GAUGE THEORIES
+(B'Q, 'A, (x)B"A„"(x)+(u,(x)[B,(u, (x) g—,c s„A",(x)(cs(x)]j)
+With the help of E(l. (A2) it is easy to see that the truncated Green's functions of the left-hand side (with
+physical wave functions attached) vanish for q 4 0, owing to the lack of a single-particle pole in one of the
+external lines.
+*Work supported in part by NSF under Grant No. MPS
+75-22514.
+(Research sponsored by the U. S. Energy Research and
+Development Administration under Qrant No. E{11-1)-
+2220.
+S. Coleman, in Properties of the Eundamenta/ Inter-
+actions, edited by A. Zichichi (Editrice Compositori,
+Bologna, Italy, 1S73), p. 359.
+C. G. Callan, Phys. Rev. D 2, 1541 (1970); K. Syman-
+zik, Commun. Math. Phys. 18, 227 (1970).
+E. C. G. Stueckelberg and A. Petermann, Helv. Phys.
+Acta 26, 499 (1953); M. Qell-Mann and F. Low, Phys.
+Rev. 95, 1300 (1954).
+C. G. Callan, S. Coleman, and R. Jackiw, Ann. Phys.
+(N. Y.) 59, 42 (1970).
+5P. Carruthers, Phys. Bep. 1C, 1 (1971);J. Ellis,
+Nucl. Phys. B22, 678 (1970); in Broken Scale Invar-
+iance and the I ight Cone, edited by M. Dal Cin, G. J.
+Iverson, and A. Perlmutter (Qordon and Breach, New
+York, 1971).
+GR. J. Crewther, Phys. Rev. Lett. 28, 1421 (1972);
+M. S. Chanowitz and J. Ellis, Phys. Lett. 40B, 3S7
+(1972); Phys. Rev. D 7, 2490 (1973).
+YIf scalar fields are present, a nonzero "improvement
+coefficient" is needed to renormalize 0». See Befs.
+4 and 13.
+8S. L. Adler, J. C. Collins, and A. Duncan, Phys. Rev.
+D 15, 1712 (1977).
+9S. D. Joglekar and B. W. Lee, Ann. Phys. (N. Y.) 97,
+160 (1976), and references cited therein. See also
+H. Kluberg-Stern and J. B. Zuber, Phys. Bev. D 12,
+467 {1975);12, 3159 (1975);J. Dixon and J. C. Taylor,
+Oxford Report No. 74/74 (unpublished); J. Dixon and
+W. Deans, Oxford Report No. 20/75 (unpublished).
+J. C. Collins, Nucl. Phys. B92, 477 {1975);P. Breiten-
+lohner and D. Maison, Commun. Math. Phys. (to be
+published), and New York University Report No. NYU/
+TR2/76 (unpublished) .
+E. S. Abers and B. W. Lee, Phys. Rep. 9C, 1 {1973),
+and references cited therein.
+'2Q 't Hooft, Nucl. Phys. B61, 455 {1973);J. C. Collins,
+ibid. B80, 341 (1974).
+'3D. Z. Freedman, I. J. Muzinich, and E. J. Weinberg,
+Ann. Phys. (N. Y.) 87, 95 (1974); D. Z. Freedman and
+E. J. Weinberg, ibid. 87, 354 (1974).
+(4Since, by Ref. 11, mDB/Bm()[~ „,„=msB/Bms[~
+'5J. H. Lowenstein, Commun. Math. Phys. 24, 1 (1971).
+6S. Joglekar, Princeton IAS Report No. COO-2220-82
+(unpublished) ~
+~7This includes matrix elements of 8"„with composite
+interpolating fields on their respective hadronic mass
+shells. See S. Joglekar, Princeton IAS report (un-
+published) .
+C. Becchi, A. Rouet, and R. Stora, Commun. Math.
+Phys. 42, 127 (1975).' Using the identities of 't Hooft (Bef. 12), this state-
+ment can be shown to follow the existence of a non-
+zero fourth-order term in p, . [For the value of p, see,
+for example, E. de Rafael and J. L. Rosner, Ann.
+Phys. (N. Y.) 82, 369 (1974).t The relevance of P, is
+that the two-loop vacuum polarization graphs in quan-
+tum electrodynamics are equal to those in the Yang-
+Mills theory except for a common group-theory factor.
+2 An opposite result that there are no two-loop correc-
+tions to the anomaly, is found by H. Sato, Univ. of
+Minnesota, report (unpublished). However, his Eq.
+(3.19) appears to be in error: Since Sato's renormal-
+ized coupling constant g has dimension 2 —2n, this
+equation needs an extra term (2 —~ n)gBII„„/Bg in or-
+der to agree with the equation of dimensional analysis.
+D. J. Gross and F. Wilczek, Phys. Rev. D 8, 3633
+(1973); H. D. Politzer, Phys. Bev. Lett. 30, 1346 (1973).
+A corresponding result can be derived in @ED, so at
+first sight the dilatation anomaly would also appear to
+be unrenormalized there. However, in @ED, P = z {n-4)g&
++gz/('12m )+O(gz ) and has an infrared fixed point
+at g& = 6m (4-n). Initially we consider the theory
+with n & 4 and g& below this IR fixed point, so its UV
+behavior is governed by the origin. The physical
+theory at n = 4 has g& & 0 and so lies above the IR
+fixed point. The UV behavior is no longer governed by
+the origin. Since the construction of the theory
+crucially involves the UV renormalization, it is not
+clear that continuation of the theory above the IR fixed
+point has any relevance to physics. See also D. Gross,
+Erice lectures, 1976 (unpublished).
+23Note that Chanowitz and Ellis (Ref. 6) argue that the
+calculation of e 2m is not affected by the dilation
+anomaly, at least if it is canonical.
+24N. K. Nielsen, Freie Universitat, Berlin report {un-
+pubhshed).
+

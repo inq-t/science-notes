@@ -241,7 +241,7 @@ V_\mu\mathcal RV_\mu^*
 \tag{RY15}
 \]
 
-Unitary invariance of the spectrum and (RY15) imply that if the positive spectrum contains one \(r>0\), it contains \(\mu^{-1}r\) for every \(\mu>0\). Its closure contains zero, so a nonzero positive operator satisfying this full covariance has
+The [[dilation-covariant-spectra/inq|dilation theorem]] applied to (RY15) gives, for a nonzero positive operator,
 
 \[
 \sigma(\mathcal R)=[0,\infty),
@@ -250,9 +250,8 @@ Unitary invariance of the spectrum and (RY15) imply that if the positive spectru
 \tag{RY16}
 \]
 
-Thus one finite positive generalized edge cannot both remain gapped and compensate an unbroken continuous dilation symmetry within one unitarily equivalent family. A state, wall, boundary section, discrete orbit, or other pointing must first select a member. This is the operator version of the normalization obstruction in (CY17a)--(CY17d).
+Thus a finite positive edge cannot compensate this exact dilation symmetry of one fixed operator. A proposed state, wall or boundary selection must change the represented carrier/operator, restrict to a sector with proved new dynamics, or break (RY15); selecting a vector within the unchanged representation leaves its spectrum unchanged. A merely discrete exact unitary rescaling with factor different from one still produces positive spectral values approaching zero by iteration, so discreteness alone does not restore a gap. This is the operator version of the normalization obstruction in (CY17a)--(CY17d).
 
-[[mass-scale-calibration/mass-as-casimir-and-realization#A gap obstructs exact same-carrier dilation covariance]] owns the general same-carrier spectral no-go; the present use applies it to the normalization pencil.
 
 ## Categorical depth as a discrete normalization candidate
 

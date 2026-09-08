@@ -1,11 +1,13 @@
 ---
 inq.module: "the-grain-of-causal-scale"
+keywords: [causal grain, matched ledger, spectral flow, dilation, scale selection]
 inq.include:
   - "**/*.md"
 inq.exclude:
   - "./inbox/"
 inq.ambient:
   - "**/*.py"
+  - "filled_cell_no_go_receipt_output.txt"
   - "inbox/**"
 ---
 # The Grain of Causal Scale

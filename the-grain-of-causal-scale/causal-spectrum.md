@@ -1,4 +1,4 @@
-# A Quantum of Causal Realization
+# Causal Spectrum
 
 The proposed rigorous target for a “quantum of causality” is not a tiny piece of substance moving through pre-existing spacetime. It would be one oriented unit of positive realization at the wall: a construction in which a scale-free pre-wall translation passes to a different carrier and acquires a finite correlation pole with a center, linewidth, residue, and selection rules. The current programme has an exact rank-jump prototype and an exact conditional scale, but it does not yet have the operator correspondence that makes them one spectrum; compression or descent alone is not known to produce the pole.
 
@@ -19,7 +19,7 @@ The proposed terminology is:
 
 ## The pre-wall no-gap theorem
 
-For a half-sided modular inclusion, the Borchers--Araki--Zsidó structure gives
+For a half-sided modular inclusion satisfying the Borchers--Araki--Zsidó hypotheses, the modular structure gives
 
 $$
 \Delta^{it}U(a)\Delta^{-it}
@@ -39,21 +39,13 @@ $$
 e^{-2\pi t}P.
 $$
 
-Unitary conjugation preserves spectrum, so
-
-$$
-\sigma(P)=e^{-2\pi t}\sigma(P)
-\qquad
-\text{for every }t\in\mathbb R.
-$$
-
-If \(P\ne0\), any one positive spectral value generates every positive value under scaling; closure adds zero. Hence
+This is the same-carrier covariance (D) of [[dilation-covariant-spectra/inq|dilation-covariant spectra]], with \(V_s=\Delta^{is/(2\pi)}\). The generic theorem gives
 
 $$
 \boxed{P=0\quad\text{or}\quad\sigma(P)=[0,\infty).}
 $$
 
-On a separable Hilbert space, \(P\) has no nonzero point eigenvalue: one such eigenvalue and the dilation covariance would produce uncountably many distinct, mutually orthogonal eigenvectors. Thus an isolated \(46\,\mathrm{MeV}\) “causal eigenvalue” cannot live in the unbroken translation generator.
+The modular unitary group is strongly continuous, so the same theorem also excludes nonzero point eigenvalues without a separability assumption. An isolated \(46\,\mathrm{MeV}\) “causal eigenvalue” cannot live in the unbroken translation generator.
 
 This is a scoped conceptual gain. The particular HSMI translation generator above cannot carry a nonzero gap while its exact dilation law remains unbroken. A finite isolated scale in that same generator therefore requires failure of the covariance hypothesis, or passage to a different constructed carrier and generator. The theorem does not establish that every object called “pre-wall” is gapless or that a box, corner, threshold, boundary condition, record, or matter correlation automatically supplies a gap. [[wall-construction-interface/half-sided-modular-tunnel|The half-sided modular tunnel]] owns the exact transport theorem and the warning that invariant transport is horizontally response-null; [[library/extension-of-borchers-structure-theorem/inq|Araki--Zsidó]] is the local primary-source owner.
 

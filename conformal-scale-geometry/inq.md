@@ -1,4 +1,5 @@
 ---
+keywords: [conformal density, metric scale, causal order, tractor geometry]
 inq.module: "conformal-scale-geometry"
 inq.include:
   - "**/*.md"

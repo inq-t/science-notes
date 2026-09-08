@@ -1,0 +1,43 @@
+{
+  "description": "Primary source artifacts for trace-and-dilatation-anomalies-in-gauge-theories; downloaded and extracted author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevD.16.438/fulltext",
+      "attempted_at": "2026-09-08T21:09:13.536443+00:00",
+      "kind": "downloaded-primary-source",
+      "resolved_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevD.16.438/fulltext",
+      "content_type": "application/pdf",
+      "path": "collins-duncan-joglekar-1977.pdf",
+      "bytes": 992834,
+      "sha256": "73bf735279ce10f11865f3fc2ec8d9f4365244a37240136c771d0e35fbb82f65",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 12,
+        "first_page_text_prefix": "PH Y8 ICAL RE VIE% 0 VOLUME 16, N UMBER 2 15 JULY 197'4\nTrace and li»tation anomalies in gauge theories\nJohn C. Collins~\nJoseph Henry Laboratories, Princeton University, Princeton,",
+        "visually_checked_pdf_pages": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "path": "collins-duncan-joglekar-1977-extracted.txt",
+      "bytes": 37753,
+      "sha256": "c80c04c2ba91090d26a36db1f86a885635cc400a619cd37e23a22ea0df89f4a9",
+      "kind": "derived-searchable-text",
+      "derived_from": "collins-duncan-joglekar-1977.pdf",
+      "method": "pypdf text extraction with PDF page markers; equations and scan text may contain extraction errors."
+    }
+  ],
+  "bibliographic_identifier": "doi:10.1103/PhysRevD.16.438",
+  "author_source_search": {
+    "checked_at": "2026-09-08T21:13:39.985718+00:00",
+    "status": "not_found_on_checked_primary_pages",
+    "pages": [
+      "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.16.438",
+      "https://home.iitk.ac.in/~sdj/pub.html",
+      "https://pure.psu.edu/en/publications/trace-and-dilatation-anomalies-in-gauge-theories/"
+    ],
+    "note": "No author LaTeX or other original machine-readable full text was linked on these pages; searchable text was extracted from the publisher PDF."
+  }
+}
