@@ -1,0 +1,201 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{Anderson_Dostert_Grabner+2023:riesz_green_energy}
+A.~Anderson, M.~Dostert, P.~J. Grabner, R.~W. Matzke, and T.~A. Stepaniuk,
+  \emph{{R}iesz and {G}reen energy on projective spaces}, Trans. Amer. Math.
+  Soc. Series B \textbf{10} (2023), 1039--1076.
+
+\bibitem{Andrews_Askey_Roy1999:special_functions}
+G.~E. Andrews, R.~Askey, and R.~Roy, \emph{{S}pecial functions}, Encyclopedia
+  of Mathematics and its Applications, vol.~71, Cambridge University Press,
+  Cambridge, 1999.
+
+\bibitem{Beck_Chen2008:irregularities_distribution}
+J.~Beck and W.~W.~L. Chen, \emph{{I}rregularities of distribution}, Cambridge
+  Tracts in Mathematics, vol.~89, Cambridge University Press, Cambridge, 2008,
+  Reprint of the 1987 original.
+
+\bibitem{Beltran-Etayo2018:projective_ensemble}
+C.~Beltr{\'a}n and U.~Etayo, \emph{{T}he projective ensemble and distribution
+  of points in odd-dimensional spheres}, Constr. Approx. \textbf{48} (2018),
+  163–182.
+
+\bibitem{Beltran_Ferizovic2020:approximation_uniform_SO3}
+C.~Beltr\'{a}n and D.~Ferizovi\'{c}, \emph{{A}pproximation to uniform
+  distribution in {$\rm {SO}(3)$}}, Constr. Approx. \textbf{52} (2020), no.~2,
+  283--311.
+
+\bibitem{Beltran_Marzo_Ortega-Cerda2016:determinantal}
+C.~Beltr{\'a}n, J.~Marzo, and J.~Ortega-Cerd{\`a}, \emph{{E}nergy and
+  discrepancy of rotationally invariant determinantal point processes in high
+  dimensional spheres}, J. Complexity \textbf{37} (2016), 76--109.
+
+\bibitem{bjorklund_hartnick2023:hyperuniformity}
+M.~Bj{\"o}rklund and T.~Hartnick, \emph{{H}yperuniformity and
+  non-hyperuniformity of quasicrystals}, Math. Ann. (2023), 1--62.
+
+\bibitem{Bochner1941:Positive_Definite}
+S.~Bochner, \emph{{H}ilbert {D}istances and {P}ositive {D}efinite {F}unctions},
+  Annals of Math. \textbf{37} (1941), no.~3, 647--656.
+
+\bibitem{Borodachov_Hardin_Saff2019:discreta_energy_on_rectifiable_sets}
+S.~V. Borodachov, D.~P. Hardin, and E.~B. Saff, \emph{{D}iscrete energy on
+  rectifiable sets}, Springer Monographs in Mathematics, Springer, New York,
+  2019.
+
+\bibitem{Brauchart_Grabner2015:distributing_sphere}
+J.~S. Brauchart and P.~J. Grabner, \emph{{D}istributing many points on spheres:
+  minimal energy and designs}, J. Complexity \textbf{31} (2015), 293–326,
+  Special issue for the Oberwolfach workshop on "Uniform Distribution Theory
+  and Applications".
+
+\bibitem{Brauchart_Grabner_Kusner2019:hyperuniform_deterministic}
+J.~S. Brauchart, P.~J. Grabner, and W.~B. Kusner, \emph{{H}yperuniform point
+  sets on the sphere: deterministic aspects}, Constr. Approx. \textbf{50}
+  (2019), 45--61.
+
+\bibitem{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets}
+J.~S. Brauchart, P.~J. Grabner, W.~B. Kusner, and J.~Ziefle,
+  \emph{{H}yperuniform point sets on the sphere: probabilistic aspects},
+  Monatsh. Math. \textbf{192} (2020), 763--781.
+
+\bibitem{Brauchart_Saff_Sloan+2014:qmc-designs}
+J.~S. Brauchart, E.~B. Saff, I.~H. Sloan, and R.~S. Womersley,
+  \emph{{Q}{{M}{C}} designs: optimal order quasi {M}onte {C}arlo integration
+  schemes on the sphere}, Math. Comp. \textbf{83} (2014), no.~290, 2821--2851.
+
+\bibitem{Chow_Gatteschi_Wong1994:bernstein_type_inequality}
+Y.~Chow, L.~Gatteschi, and R.~Wong, \emph{{A} {B}ernstein-type inequality for
+  the {J}acobi polynomial}, Proc. Amer. Math. Soc. \textbf{121} (1994), no.~3,
+  703--709.
+
+\bibitem{Drmota_Tichy1997:sequences_discrepancies_applications}
+M.~Drmota and R.~F. Tichy, \emph{{S}equences, discrepancies and applications},
+  Lecture Notes in Mathematics, vol. 1651, Springer-Verlag, Berlin, 1997.
+
+\bibitem{Ferreira_Menegatto2009:eigenvalues_integral_operators}
+J.~C. Ferreira and V.~A. Menegatto, \emph{{E}igenvalues of integral operators
+  defined by smooth positive definite kernels}, Integral Equations Operator
+  Theory \textbf{64} (2009), no.~1, 61--81.
+
+\bibitem{Ge2023:hidden_order_turing_patterns}
+Z.~Ge, \emph{{T}he hidden order of {T}uring patterns in arid and semi-arid
+  vegetation ecosystems}, Proceedings of the National Academy of Sciences
+  \textbf{120} (2023), no.~42, e2306514120.
+
+\bibitem{Ghosh_Lebowitz2018:generalized_stealthy_hyperuniform_processes}
+S.~Ghosh and J.~L. Lebowitz, \emph{{G}eneralized stealthy hyperuniform
+  processes: maximal rigidity and the bounded holes conjecture}, Comm. Math.
+  Phys. \textbf{363} (2018), no.~1, 97--110.
+
+\bibitem{Gigante_Leopardi2017:diameter_ahlfors}
+G.~Gigante and P.~Leopardi, \emph{{D}iameter bounded equal measure partitions
+  of {A}hlfors regular metric measure spaces}, Discrete Comput. Geom.
+  \textbf{57} (2017), no.~2, 419--430.
+
+\bibitem{gilpin2018:cryptographic}
+W.~Gilpin, \emph{{C}ryptographic hashing using chaotic hydrodynamics},
+  Proceedings of the National Academy of Sciences \textbf{115} (2018), no.~19,
+  4869--4874.
+
+\bibitem{Helgason1965:radon_transform}
+S.~Helgason, \emph{{T}he {R}adon transform for {E}uclidean spaces, compact
+  two-point homogeneous spaces and {G}rassmann manifolds.}, Acta Mathematica
+  (Stockholm) \textbf{113} (1965), 153--180.
+
+\bibitem{Helgason2000:Groups_geometric_analysis}
+\bysame, \emph{{G}roups and {G}eometric {A}nalysis, {I}ntegral {G}eometry,
+  {I}nvariant {D}ifferential {O}perators, and {S}pherical {F}unctions},
+  Mathematical Surveys and Monographs, vol.~83, American Mathematical Society,
+  2000.
+
+\bibitem{Hirao2018:qmc_designs_determinantal}
+M.~Hirao, \emph{{Q}{MC} designs and determinantal point processes}, {M}onte
+  {C}arlo and quasi--{M}onte {C}arlo methods, Springer Proc. Math. Stat., vol.
+  241, Springer, Cham, 2018, pp.~331--343.
+
+\bibitem{Hirao2021:finite_frames_determinantal}
+\bysame, \emph{{F}inite frames, frame potentials and determinantal point
+  processes on the sphere}, Statist. Probab. Lett. \textbf{176} (2021), Paper
+  No. 109129, 6.
+
+\bibitem{Hough_Krishnapur_Peres+2009:zeros_gaussian}
+J.~Ben Hough, M.~Krishnapur, Y.~Peres, and B.~Vir\'ag, \emph{{Z}eros of
+  {G}aussian analytic functions and determinantal point processes}, University
+  Lecture Series, vol.~51, American Mathematical Society, Providence, RI, 2009.
+
+\bibitem{hu_Liu_Wa+2023:disordered}
+W.~Hu, Q-X. Liu, B.~Wang, N.~Xu, L.~Cui, and Chi Xu, \emph{{D}isordered
+  hyperuniformity signals functioning and resilience of self-organized
+  vegetation patterns}, arXiv: https://doi.org/10.48550/arXiv.2311.07624, 2023.
+
+\bibitem{krishnapur2006:zeros_of_random_analytic_functions}
+Manjunath Krishnapur, \emph{{Z}eros of {R}andom {A}nalytic {F}unctions}, 2006.
+
+\bibitem{Kuipers_Niederreiter1974:uniform_distribution_sequences}
+L.~Kuipers and H.~Niederreiter, \emph{{U}niform distribution of sequences},
+  Wiley-Interscience, New York, 1974.
+
+\bibitem{Magnus_Oberhettinger_Soni1966:formulas_theorems_special}
+W.~Magnus, F.~Oberhettinger, and R.P. Soni, \emph{{F}ormulas and {T}heorems for
+  the {S}pecial {F}unctions of {M}athematical {P}hysics}, Springer, Berlin, New
+  York, 1966.
+
+\bibitem{Marzo_Ortega-Cerda2018:expected_riesz_energy}
+J.~Marzo and J.~Ortega-Cerd\`a, \emph{{E}xpected {R}iesz energy of some
+  determinantal processes on flat tori}, Constr. Approx. \textbf{47} (2018),
+  no.~1, 75--88.
+
+\bibitem{Skriganov2019:stolarskys_invariance_principle_ii}
+M.~Skriganov, \emph{{S}tolarsky's invariance principle for projective spaces,
+  {II}}, 2019.
+
+\bibitem{Skriganov2019:point_distributions_homogeneous}
+M.~M. Skriganov, \emph{{P}oint distributions in two-point homogeneous spaces},
+  Mathematika \textbf{65} (2019), no.~3, 557--587.
+
+\bibitem{Skriganov2020:stolarskys_invariance_principle}
+\bysame, \emph{{S}tolarsky's invariance principle for projective spaces}, J.
+  Complexity \textbf{56} (2020), 101428, 17.
+
+\bibitem{Stepanyuk2020:hyperuniform_point_sets}
+T.~A. Stepanyuk, \emph{{H}yperuniform point sets on flat tori: deterministic
+  and probabilistic aspects}, Constr. Approx. \textbf{52} (2020), no.~2,
+  313--339.
+
+\bibitem{Stolarsky1973:sums_distances_sphere}
+K.~B. Stolarsky, \emph{{S}ums of distances between points on a sphere. {II}},
+  Proc. Amer. Math. Soc. \textbf{41} (1973), 575--582.
+
+\bibitem{Torquato2018:hyperuniform_states_matter}
+S.~Torquato, \emph{{H}yperuniform states of matter}, Phys. Rep. \textbf{745}
+  (2018), 1--95.
+
+\bibitem{Torquato_Stillinger2003:local_density_fluctuations}
+S.~Torquato and F.~H. Stillinger, \emph{{L}ocal density fluctuations,
+  hyperuniformity, and order metrics}, Phys. Rev. E (3) \textbf{68} (2003),
+  no.~4, 041113, 25.
+
+\bibitem{Wang1952:Two_Point_Compact}
+H.~C. Wang, \emph{{T}wo-point homogeneous spaces}, Annals of Mathematics
+  \textbf{55} (1952), 177--191.
+
+\bibitem{Wolchover2016:birds_eye_view_natures_hidden_order}
+N.~Wolchover, \emph{{{A} {B}ird's-{E}ye {V}iew of {N}ature's {H}idden
+  {O}rder}}, Quantamagazine:
+  {https://www.quantamagazine.org/hyperuniformity-found-in-birds-math-and-physics-20160712},
+  2016.
+
+\bibitem{zhu2023dispersed}
+Z~Zhu, B.~Hallet, A.~A. Sipos, G.~Domokos, and Q-X. Liu, \emph{{D}ispersed
+  pebbles on {M}ars: {A}n unexpected setting for hyperuniformity}, arXiv:
+  https://doi.org/10.48550/arXiv.2312.13818, 2023.
+
+\end{thebibliography}

@@ -90,7 +90,7 @@ Proof: invariance makes the self-adjoint \(R\) commute with the action. Each eig
 
 Under these hypotheses one unit tangent with \(q(v,v)=c>0\) fixes the full lower edge. The extra content is the relation between directions, not the numerical equality alone.
 
-[[algebra/exceptional-context-response#A complete family has a strict finite lower frame|The exceptional context frame]] is an exact instance: an oriented retraction and the full invariant context family give \(R=(9/13)I\) on the trace-free Albert carrier. The prior operation need not itself be invariant under every presentation change; its constructed response can acquire an invariant form. This is a finite meaning of **symmetry of response emerging from comparison of oriented contexts**, not an irreversible-chronology theorem.
+[[exceptional-state-comparison/cyclic-context-retraction-and-response#A complete family has a strict finite lower frame|The exceptional context frame]] is an exact instance: an oriented retraction and the full invariant context family give \(R=(9/13)I\) on the trace-free Albert carrier. The prior operation need not itself be invariant under every presentation change; its constructed response can acquire an invariant form. This is a finite meaning of **symmetry of response emerging from comparison of oriented contexts**, not an irreversible-chronology theorem.
 
 Averaging must be an actual construction, not a hidden change of object. For a compact group with normalized Haar measure, put \(\overline R=\int U_g^*RU_g\,dg=cI\) on an irreducible carrier. If an independent bound gives
 \[

@@ -1,0 +1,938 @@
+--- PDF page 1 ---
+General Representation Theory of Jordan Algebras
+Author(s): N. Jacobson
+Source: Transactions of the American Mathematical Society, Vol. 70, No. 3 (May, 1951), pp.
+509-530
+Published by: American Mathematical Society
+Stable URL: http://www.jstor.org/stable/1990612
+Accessed: 25/09/2010 15:49
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at
+http://www.jstor.org/action/showPublisher?publisherCode=ams.
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+American Mathematical Society is collaborating with JSTOR to digitize, preserve and extend access to
+Transactions of the American Mathematical Society.
+http://www.jstor.org
+
+--- PDF page 2 ---
+GENERAL REPRESENTATION THEORY OF 
+JORDAN ALGEBRAS 
+BY 
+N. JACOBSON 
+The theory of Jordan algebras has originated in the study of subspaces of 
+an associative algebra that are closed relative to the composition ab = a X b 
++b Xa where the X denotes the associative product. Such systems are called 
+special Jordan algebras. It is well known that the composition ab satisfies 
+the conditions 
+(0.1) ab = ba, (a2b)a = a2(ba). 
+This has led to the definition of an (abstract) Jordan algebra as a (nonassocia- 
+tive) algebra whose multiplication satisfies the above conditions. It is an 
+open question as to how extensive is the subclass of special Jordan algebras 
+in the class of Jordan algebras. However, it is known that there exist Jordan 
+algebras which are not special. 
+If 2 is a special Jordan algebra, then it is natural to consider the linear 
+mappings a-* Ua of 2I into linear transformations Ua such that 
+(0.2) Uab = UaUb + UbUa, 
+for these mappings are just the homomorphisms of 2? into special Jordan alge- 
+bras of linear transformations. We shall now call such mappings special repre- 
+sentations of W. Special representations have been considered previously by F. 
+D. Jacobson and the present author and complete results have been obtained 
+for finite-dimensional semi-simple algebras of characteristic 0('). 
+There is another mapping of 2 into linear transformations which is funda- 
+mental in the structure theory of Jordan algebras, namely, the regular map- 
+ping a-*Ra where Ra is the multiplication x-*xa =ax. It is known that the Ra 
+satisfy the following functional equations: 
+(0.3) [RaRbc] + [RbRac] + [RcRab] 0 
+where, as usual, [AB] denotes AB -BA and 
+(0.4) RaRbRc + RcRbRa + R(ac)b = RaRbc + RbRac + RcRab(2). 
+Presented as an invited address in the Algebra Conference of the International Congress 
+of Mathematicians, September 2, 1950; received by the editors August 17, 1950. 
+(1) [7 ] A (special) representation in the sense of [7 ] as a linear mapping a-+ Va, Va a linear 
+transformation, such that Vab = (Va Vb+ Vb Va)/2. If Va satisfies this condition, then Ua = Va/2 
+satisfies (0.1). The change to (0.1) is made so that special representations will be representations 
+in the sense defined below. Numbers in brackets refer to the bibliography at the end of the 
+paper. 
+(2) Cf. [1, p. 549]. 
+509 
+
+--- PDF page 3 ---
+510 N. JACOBSON [May 
+As a generalization of this situation we define a (general) representation of 
+aI to be a linear mapping a->Sa of 2? into linear transformations Sa which 
+satisfy the functional equation for the R's. It is noteworthy that any special 
+representation is a representation. Thus, the theory of representations en- 
+compasses both aspects of the theory of Jordan algebras that we have men- 
+tioned above. If 2f is a subalgebra of a larger algebra S8, then it is clear that 
+the correspondence a-+Ra, where Ra now denotes the multiplication in e3 by 
+aGC, is a representation of W. It is clear frorn this remark that the theory of 
+representations will be a basic tool in the study of subalgebras of Jordan 
+algebras. 
+The main objective of the present paper is the development of the gen- 
+eral representation theory of Jordan algebras. The only application which 
+we shall note explicitly here is to the study of semi-simple subalgebras of an 
+arbitrary finite-dimensional Jordan algebra of characteristic 0. In this con- 
+nection we obtain the perfect analogues of the results of Malcev and of Har- 
+ish-Chandra on the theory of the Levi decomposition of a Lie algebra [12; 5]. 
+An important incidental tool in our discussion is another type of ab- 
+stract system called a Lie triple system. A special Lie triple system is defined 
+to be a subspace of an associative algebra which is closed under the ternary 
+composition [[ab]c]. It is easy to see that any special Jordan algebra is a 
+special Lie triple system. Contrary to the situation which obtains for special 
+Jordan algebras, it is possible (as will be shown below) to give a perfect 
+axiomatic description of special Lie triple systems. The corresponding ab- 
+stract systems-(abstract) Lie triple systems-play an important role also in 
+the theory of abstract Jordan algebras. Thus, we can show that any Jordan 
+algebra 2{ is a Lie triple system relative to the composition [abc] (bc)a 
+-b(ca). Any representation of ?1 is a representation of the associator Lie 
+triple system W. On the other hand, any Lie triple system can be imbedded 
+in a Lie algebra in such a way that a representation of the Lie triple system 
+can be extended to one of the Lie algebra. This observation will enable us to 
+apply the well developed theory of Lie algebras to the present problem. The 
+incidental results which we obtain on Lie triple systems may also be of some 
+intrinsic interest, since these systems constitute a generalization of Lie alge- 
+bras as well as of Jordan algebras. 
+I. GENERAL THEORY 
+1. Jordan algebras and Lie triple systems. A (nonassociative) algebra 
+2 over a field 1 is called an (abstract) Jordan algebra if the multiplication 
+composition satisfies the following identities: 
+(1. 1) ab = ba, 
+(1.2) (a2b)a = a2(ba). 
+We write F(a) = (a2b)a-a2(ba) and form the second difference 
+
+--- PDF page 4 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 511 
+2F = F(x + y + z) - F(x + y) - F(y + z) - F(x + z) 
++ F(x) + F(y) + F(z). 
+If the characteristic is not equal to 2, A 2F=O gives 
+(1.3) xybz + yzbx + zxby = (xy)(bz) + (yz)(bx) + (zx)(by), 
+where we have abbreviated ((ala2)a3)an) to aja2 * * * an. Conversely, if the 
+characteristic of the base field is not equal to 3, then (1.3) implies (1.2). 
+From now on we shall assume that the characteristic is not equal to 2 or 3. 
+If we denote the mapping x-*xa (=ax) by Ra and change the notation 
+slightly, then from (1.3) we obtain the relations 
+(1.4) [RaRbc] + [RbRca] + [RcRab] = 0, 
+(1.5) RaRbRc + RcRbRa + R(ac)b = RaRbc + RbRca + RcRab. 
+We remark that either (1.4) or (1.5) and the commutative law imply (1.3). 
+If we interchange a and b in (1.5) and subtract, we obtain the important 
+relation 
+(1.6) [[RaRb]Rc] = RA(b,c,a), 
+where A (b, c, a) is the associator (bc)a-b(ca). 
+We define next an (abstract) Lie triple system. This is a vector space over 
+a field 1 in which a ternary composition [abc] is defined which is trilinear 
+and satisfies: 
+(1.7) [aab] = 0, 
+(1.8) [abc] + [bca] + [cab] = 0, 
+(1. 9) [[abc]de] + [[bad]ce] + [ba[cde]] + [cd[abe]] = 0, 
+(1. 10) [[abc]de] + [[bad]ce] + [[dcb]ae] + [[cda]be] = 0, 
+(1.11) [ [[abc]de]fg] + [[[bae]df]eg] 
++ [ [ [bad]ce]fg] + [[[abd]cf ]eg] + Q + R = 0, 
+where Q and R are obtained from the four previous terms in (1.11) by cyclic 
+permutation of the pairs (a, b), (c, d), (e, f). 
+If V is a Lie algebra and we defined [abc]= [[ab]c] in terms of the Lie 
+composition [ab], then 3 is a Lie triple system relative to [abc] [10, p. 152]. 
+In particular any associative algebra is a Lie triple system relative to [abc] 
+= [[ab]c] where [ab ] = ab-ba. 
+We shall now show that any Jordan algebra is a Lie triple system rela- 
+tive to the composition [abc]=-A(b, c, a). We assume first that W has an 
+identity. In this case the correspondence a->Ra is 1-1. By (1.6), 
+R[abc] = [RaRbRc] - [[RaRb]Rc]. 
+
+--- PDF page 5 ---
+512 N. JACOBSON [Mlay 
+Since [RaRbRc] satisfies (1.7)-(1.11) the same holds for [abc]. Hence our 
+assertion is proved. If 2? does not have an identity, then we can adjoin one in 
+the usual fashion. The result is a Jordan algebra. We can now use the Ra in 
+the extended algebra to prove that 21 is a Lie triple system relative to [abc]. 
+We shall call this Lie triple system the associator system of W. 
+2. Definition and elementary properties of representations. 
+DEFINITION 2.1. A linear mapping a->Sa of a Jordan algebra 2? into the 
+algebra of linear transformations of a vector space 91 over 41 is called a 
+representation if 
+(2.1) [SaSbc] + [SbSca] + [ScSab] =, 
+(2.2) SaSbSc + ScSbSa + S(ac)b = SaSbc + SbSca + ScSab- 
+This concept is equivalent to that of a module which has been intro- 
+duced by Eilenberg [4, p. 133]. We define the latter in the following defini- 
+tion. 
+DEFINITION 2.2. A Jordan module is a system consisting of a vector space 
+9), a Jordan algebra A1, and two compositions xa, ax for x in 91, a in !f1 which 
+are bilinear and satisfy 
+(2.3) ax = xa, 
+(2.4) (xa)(bc) + (xb)(ca) + (xc)(ab) = (x(bc))a + (x(ca))b + (x(ab))c, 
+(2.5) xabc + xcba + acbx = (xa)(bc) + (xb)(ca) + (xc)(ab). 
+(As for algebras, ala2 . . . an stands for ((ala2) . . . a,).) 
+If S: a- Sa is a representation acting in the vector space 91, then we ob- 
+tain a module by setting xa = ax = XSa. Conversely, if a module is given and 
+Sa is defined to be the mapping x-*xa, then a- Sa is a representation. 
+The relations (1.4) and (1.5) show that the correspondence a->Ra is a 
+representation. We call this representation the regular representation. The 
+corresponding module consists of 91, 91, and the multiplication composition 
+defined in W?. More generally if 91 is a subalgebra of an algebra Q~, then a->Ra 
+(acting in 3) is a representation. Also the contraction of a representation to 
+a submodule and the induced mapping in a difference module are repre- 
+sentations. In particular, if 91 is a subalgebra of e~ and a is an ideal in 3, 
+then the contractions of the Ra to S define a representation. Conversely any 
+representation can be obtained in this way. 
+Thus, let 91 be a Jordan module for A?. Let Q3 = 2t $ 91 and define a product 
+in 58 by the rule 
+(2.6) (a, + ml)(a2 + m2) = ala2 + alm2 + mla2 
+where ai2, miC9). Then Q3 is a commutative algebra. Also the module 
+conditions insure that (1.3) holds if any one of the arguments is in 9) and the 
+remaining ones are in W. Finally since mlm2=O, (1.3) holds trivially if two or 
+
+--- PDF page 6 ---
+19511 GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 513 
+more arguments are in 9W. Hence (1.3) holds in e3 and e3 is a Jordan algebra. 
+Now it is clear that 9U is an ideal in SL and that the contraction of Ra, a in W, 
+to 9J is the Sa determined by the module 9W. We shall call the Jordan algebra 
+e3 the semi-direct sum of 2I and the module W. 
+As we have noted in the introduction, any associative algebra is a Jordan 
+algebra relative to the composition {ab} =ab+ba. It follows that a mapping 
+a-> Ua of a Jordan algebra 2 into the algebra of linear transformations of a 
+vector space is a homomorphism into the special Jordan algebra of these 
+transformations provided that a-- Ua is linear and 
+(2.7) Uab = UaUb + UbUa. 
+A direct verification, which we omit, shows that a-->Ua is a representation 
+in the present sense. We shall call representations of this type special. 
+Next let U and V be two special representations acting in the same 
+vector space. Assume that these commute in the sense that [UaU b] =0 for all 
+a and b. Set Sa Ua+ Va. Another simple verification, which we also omit, 
+shows that a->Sa is a representation. 
+In particular if a->Ua and a-->Va are arbitrary special representations, 
+then a-> Ua X 1+1 X Va is a representation. We call this representation the 
+Kronecker sum of the given special representations. 
+Next let a->0(a) be a homomorphism of W into a second Jordan algebra 
+13 and let S be a representation of 3. Define Ta = SO(a). Then it is clear that 
+a->Ta is a representation. 
+As in the special case of the regular representation, we can derive from 
+(2.2) the relation 
+(2.8) S[abc] = [[SaSb]Sc]. 
+This equation shows that any representation of a Jordan algebra is also a 
+representation of the associator Lie triple system, that is, it is a homomorphism 
+of the associator system into the special Lie triple system of linear trans- 
+formations. 
+If S is a homomorphism of a Lie triple system ;, then the kernel 9 of S 
+is a subspace of T which has the property that [abc]CS if any one of the 
+factors a, b, or c is in M. A subspace of a Lie triple system which has this 
+closure property is called an ideal. If ?t is a Jordan algebra and 9 is an ideal 
+in the associator system of X, then S +SkW is a Jordan ideal. For, if zFS and 
+a, and a2 are arbitrary, then (zal)a2 = A (z, a,, a2) +z(ala2) G M + R-. In par- 
+ticular if S is an arbitrary representation of ?t and 9 is the kernel, then 
++ k is an ideal. Of course, if S is special then 9 itself is a Jordan ideal. 
+If fI is an algebra with an identity, then a special role is played by the 
+representations S such that Si = 1. For the corresponding module we have the 
+condition xl = x = lx. We note that if S is special then Si = 2S' so that in 
+this case Si $ 1. 
+
+--- PDF page 7 ---
+514 N. JACOBSON [May 
+3. Universal associative algebras. The subalgebra generated by a subset 
+of an associative (Lie) algebra will be called the enveloping associative (Lie) 
+algebra of the subset. The enveloping associative (Lie) algebra of the set of 
+representing transformations Sa of a representation S is called the enveloping 
+associative (Lie) algebra of S. In this section we consider associative algebras 
+and we define certain universal algebras which are the most general envelop- 
+ing algebras for the complete set of representations and for certain subsets of 
+the set of representations. 
+Let 0 be the free associative algebra based on the vector space 2t. Thus, 
+0 is the direct sum of 2I and the Kronecker product spaces 9AX9X, 
+f X ? X 2t, * and multiplication in a is the bilinear composition (X) such 
+that 
+(a, X ... X ar) X (ar?+ X ... X as) = ai X ... X arX ar,+ X ... X as. 
+Let S be the ideal in 0 generated by the elements 
+(3.1) a X bc- bc X a + b X ac- ac X b + c X ab - ab X c, 
+(3.2) a X b X c + c X b X a + (ac)b - a X bc - b X ca - c X ab, 
+and let U be the difference algebra j/R. We denote the coset a+& of aCG i 
+by a and we denote the set of a's by W. Then U is generated by Wf. We simplify 
+our notation by writing products in U by ab(a, b in W), and so forth, in place 
+of the more accurate notation a X b, and so forth. Then by (3.1) and (3.2) we 
+have the relations 
+(3.3) [a, bc] + [, ac] + ab,]f = 0, 
+(3.4) abc + cba + (ac)b = abc + bca + cab 
+for d, b, j in W. 
+Now suppose that S is a representation of 2f. Then the mapping a->Sa 
+defines a unique homomorphism of the algebra W onto the enveloping algebra 
+Qs of S. The defining conditions show that the kernel Rs of this homo- 
+morphism contains the ideal R. It follows that the mapping a->Sa defines a 
+unique representation of the associative algebra U. Conversely if we have a 
+representation of U, then we can define Sa to be the image of d under this 
+representation. Then it is evident that a->Sa is a representation of the Jordan 
+algebra. Since every associative algebra has a 1-1 representation by linear 
+transformations, it is clear that there exist representations S of 2f for which the 
+kernel Rs = R. Thus, the algebra U is the maximal enveloping algebra for 
+the representations. For this reason we shall call U the universal associative 
+algebra (of the representations) of Wf. 
+It is easy to see that every Jordan algebra has a 1-1 representation. 
+Thus, if 2I has an identity, then the regular representation is 1-1. If 2I does 
+not have an identity, then we can take the regular representation in the 
+
+--- PDF page 8 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 515 
+algebra obtained by adjoining an identity. The existence of a 1-1 representa- 
+tion implies that the mapping a->d of WI onto a is 1-1. 
+If aX is a special Jordan algebra, then the concept of the universal algebra 
+for the special representations has been defined before [7, p. 144; 3, p. 117]. 
+We can also define this algebra for any Jordan algebra. As before, we form 
+the free algebra a and we consider the difference algebra U. = aj/f(s) where 
+(8) is the ideal generated by the elements a X b + b X a - ab. This time we de- 
+note the coset of aCG by a,. Then the set of as generates Us and we have the 
+relations 
+(3.5) (ab)8 = aAb8 + b,a, 
+for a, b in W. Results similar to those which we have stated for U and arbitrary 
+representations hold for Us and special representations. In particular, any 
+special representation can be extended to a representation of Us. The map- 
+ping a-->a is 1-1 if and only if aX is special. We shall call Us the special uni- 
+versal associative algebra of 2X. 
+Next let U* be the algebra obtained by adjoining a new identity 1 to Us. 
+Consider the Kronecker product U* XU* and let U(2) be the subalgebra gen- 
+erated by the elements a (2) -aXXl+lXa8, a in W. We shall call U(2) the 
+Kroncker sum of Us with itself. If S is a representation that is a Kronecker 
+sum U+ V of special representations U and V, then it is easy to see that the 
+mapping a(2) ->Sa can be extended to a representation of U(2). Also there exist 
+S= U+ V for which the indicated homomorphism is an isomorphism. In this 
+sense U(2) is universal for the Kronecker sums of special representations. 
+If aX is a Jordan algebra with an identity, we can define still another uni- 
+versal associative algebra, namely, the universal algebra for the representa- 
+tions S such that S1 = 1. This algebra can be defined as the algebra U1 = /ft 
+where 9i is the ideal generated by the elements (3.1) and (3.2) and the ele- 
+ment aX 1-a, 1 Xa-a. In this case we denote the coset of a C W by a. If S is 
+a representation such that S1= 1, then there exists a homomorphism of U1 
+onto the enveloping associative algebra of S. Also there exists an S such that 
+S, = 1 and such that this homomorphism is an isomorphism. 
+It is clear from the above discussion that the correspondences d-*a8, 
+d->a(2), da-> define homomorphisms of U onto Us, U(2), and U1 respectively. 
+Also since any special representation can be regarded as the Kronecker sum 
+of itself and the 0 representation, a(2) ->a, defines a homomorphism. 
+4. Universal associative algebra of a Jordan algebra with an identity. 
+Let a be an element of an arbitrary Jordan algebra and let d be the cor- 
+responding element of the universal associative algebra U. Then by (3.3) and 
+(3.4) we have 
+(4.1) aa2 = a2a, 
+(4.2) ar = ar-2a2 + 2aar-1-ar-2a2-a2a r-2 r > 3. 
+
+--- PDF page 9 ---
+516 N. JACOBSON [May 
+Thus, d and a2 generate a commutative algebra and ar belongs to this alge- 
+bra. Now (4.2) can be simplified to 
+(4.3) ar= 2aar-l1- (2a2 -,2)ar- 2 r ? 3. 
+If we set ar=f(r), A =f(l), B =f(2) then (4.3) becomes 
+(4.4) f(r) = 2Af(r - 1) - (2A 2 - B)f(r - 2), r > 3. 
+This recursion formula can be solved and one obtains(') 
+1 
+(4.5) f(r) - { (A + (B - A2)1/2)r + (A - (B - A2)12)r} r r 1, 2, 2 
+It is well known that any Jordan algebra is power associative in the sense 
+that the subalgebra generated by a single element is associative (see, for 
+example, [1, p. 550]). Thus, powers are uniquely defined and if 4(X) is a 
+polynomial in an indeterminate X, then +(a) is uniquely defined. Now suppose 
+that a is algebraic, that is, there exists a polynomial 4(X) 7O such that 
+q5(a) =0. Then if 4(X) (J(--pi) where pi are the roots of 4 in a splitting 
+field, and 4V(X) =Hj<1(X- (pi+pj)/2), the element a is algebraic and 41(a) = 0. 
+In particular we see that if e is an idempotent element of A then 
+(4.6) e(e-1)(2e-1) = 
+Assume now that 9-I has an identity 1. Then (4.6) holds for e = 1. Also if 
+we set a=b=1 in (3.3) we obtain [c, 1]=0 and if we set a=b=1 in (3.4) we 
+obtain 
+c = 3 1c- 2 12c. 
+This shows that 31-212 is an identity element in U. Accordingly we write 
+31-2i2 1. Now set E1=212-1, E2=4(i j Then, since 213-332+1i0, 
+we can verify that 
+(4.7) E1 = El, E2=E2, E1E2 =0 -E2E1Y E1 + E2 = 1. 
+It follows that U =UElGUE2. 
+We shall now show that UE2 is essentially the special universal associative 
+algebra Us and that UE1 is essentially the same as U1. We note first that the 
+equation for 1 gives lE1=EB, lE2=E2/2. Now consider the homomorphism 
+a->a, of U onto Us. Since 2(1s)2 -1. = 0, E1 is mapped into 0. Hence the kernel 
+of the homomorphism contains UE1. Consequently we have a homomorphism 
+of UE2 onto Us sending aE2 into a,. On the other hand, if we set a= 1 in (3.4) 
+(3) This formula and the formula for {I(X) given below will be proved in a forthcoming 
+paper by W. H. Mills which is to appear in the Pacific Journal of Mathematics. 
+(4) This can also be proved directly. Cf. [1, p. 550]. 
+
+--- PDF page 10 ---
+1951] GENERAI REPRESENTATION THEORY FOR JORDAN ALGEBRAS 517 
+we obtain 
+bc - bc-cb = 1 (bc - bc- cb). 
+Multiplication by E2 gives 
+bcE2 = (bE2) (cE2) + (cE2) (bE2). 
+Since Us is a universal algebra for special representations, it follows from this 
+equation that act->aE2 defines a homomorphism of Us onto UE2. Hence the 
+extension of the mapping aE2->as is an isomorphism of UE2 onto Uti. Similarly, 
+we can prove that the mapping dE1->a can be extended to an isomorphism of 
+UE1 onto Ui. We therefore have the following theorem. 
+THEOREM 4.1. The universal associative algebra of a Jordan algebra with 
+an identity is isomorphic to a direct sum of the special unizversal algebra and the 
+universal algebra for the representations S for which Si = 1. 
+5. Imbedding of Lie triple systems in Lie algebras. As we shall show 
+later, the theory of Lie triple systems plays an important role in the study 
+of the representations of Jordan algebras. We have defined a Lie triple sys- 
+tem as a vector space T in which a ternary trilinear composition [abc] is de- 
+fined satisfying (1.7)-(1.11). If ; is a subspace of a Lie algebra closed rela- 
+tive to [[ab], c], then T is a Lie triple system relative to [abc] [[ab]c]. We 
+shall show in this section that every Lie triple system can be obtained in this 
+way. 
+Thus let Z be an arbitrary Lie triple system over a field of character- 
+istic not 2. We consider the Kronecker product Z X Z and let S be the sub- 
+set of vectors Ea Xb that have the property that E [abx] = 0 for all x in Z. 
+It is clear that S is a subspace. Hence we can form the factor space ZXT of 
+ZXZ relative to M. We shall now show that the vector space 3 =Z(13Z XZ 
+can be made into a Lie algebra in such a way that the given composition 
+[abc] in Z coincides with the composition [[ab]c] defined in V. 
+If a and bT we define 
+(5.1) [ab] = a X b. 
+Then any element of !:X? can be written as a sum , [ab]. We now define 
+(5.2) [Z [ab], c] = E [abc], 
+(5.3) [c, E [ab]] = - E [abc], 
+(5.4) [Z [ab], > [cd]] = ? [[abc], d] - E [[abd], c]. 
+We have to show first that (5.2)-(5.4) define single-valued compositions. It 
+suffices to show that the right-hand side is 0 if either factor on the left is 0. 
+Thus suppose that , [ab] =0. Then ZaXb e and by definition , [abc] 
+=0. In a similar fashion the other conditions can be established. 
+
+--- PDF page 11 ---
+518 N. JACOBSON [May 
+We now define a composition [uv] in ? by specifying that if u =a+ Z [bc], 
+v = d+ Z [ef], then 
+[uv] = [ad] + E [a, [ef]] + E [[bc],d] + Z [[bc], [ef]] 
+Then this multiplication is single-valued and bilinear. To prove the skew 
+symmetry we have to show that 
+[ab] = - [ba] and [[ab], [cd]] = - [[cd], [ab]]. 
+The first of these is an immediate consequence of [abx] =-[bax] which fol- 
+lows from (1.7). The second is that 
+[ [abc], d ] - [ [abd ], c] + [ [cda], b]- [[cdb], a] = 0. 
+This is equivalent to 
+[[abc]dx] - [[abd]cx] + [[cda]bx]- [[cdb]ax] 0 
+for all x in XZ. This follows from (1.10) and (1.7). 
+Next we have to verify Jacobi's identity. It suffices to prove this for ele- 
+ments that are either in Z or are of the form [ab], a, b in Z. Because of the 
+skew symmetry we have to consider only four cases: all three elements in Z, 
+two in , and one of the form [ab], one in Z and two of the form [ab], all 
+three of the form [ab]. The first case is settled by referring to (1.8). To prove 
+the second we note that 
+[[[ab]c], d] + [[cd], [ab]] + [[d, [ab]], c] 
+= [[abc], d] + [[cda], b] - [[cdb], a] - [[abd], c] 
+which is 0 by (1.10). Similarly (1.9) gives the Jacobi identity for u= [ab], 
+v= [cd], w=c and (1.11) gives it for u= [ab], v= [cd], w= [ef]. Hence we 
+have proved that ? is a Lie algebra. Moreover, it is clear from the definition 
+(5.2) that the composition [abc] given in Z coincides with the Lie product 
+[[ab], c]. 
+The Lie algebra which we have constructed out of the given Lie triple 
+system need not give the most general imbedding of Z. For example, let T 
+be the two-dimensional system with basis x1, x2 in which all the products 
+[abc] are 0. It is easy to see that the Lie algebra ? is the two-dimensional 0 Lie 
+algebra. On the other hand we can obtain a more general imbedding of Z by 
+constructing the Lie algebra UI with basis xi, X2, X3 such that [x1x2] =x3, 
+[X1x3] = 0 = [x2x3]. 
+We now introduce the following definitions. If Z is a Lie triple system, 
+then a mapping a-- )aT of Z into a Lie algebra ? is called an imbedding of 
+3 if (1) X is linear and (2) [abc]T= [[aTbT], CT] holds for all a, b, c in T. If X 
+is a Lie triple system contained in a Lie algebra in the sense that Z is a sub- 
+space of ? closed relative to [ [ab], c], then it is easy to see that the enveloping 
+Lie algebra of Z is T,+ [XX], the set consisting of the elements of the form 
+
+--- PDF page 12 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 519 
+a+ E [bc] where a, b, cCZ. If ? is an imbedding of an abstract Lie triple 
+system, then the enveloping Lie algebra of VT is called the enveloping Lie 
+algebra of the imbedding. If U and T are imbeddings, then we say that U is a 
+cover of T (U? T) if the correspondence aU-->aT is single-valued and can be 
+extended to a homomorphism of the enveloping Lie algebra of U onto that of 
+T. The imbedding U is universal if U? T for every imbedding T. 
+It is easy to prove the existence of a universal Lie algebra for a Lie triple 
+system X using the method which we employed for universal associative 
+algebras. We form the free Lie algebra L over the vector space T. 5L iS 
+characterized by the following properties: (1) ULDt, (2) any linear trans- 
+formation of X into a Lie algebra can be extended to a homomorphism of 5L. 
+As has been shown by Witt [7, p. 155], 5L can be taken to be the Lie algebra 
+which is obtained from the free associative algebra (M over T by defining 
+[xy] x Xy -y Xx. Now let e be the ideal in L generated by the elements 
+[[ab]c]- [abc], a, b, c in T. Then if d denotes the coset of aCT, it is easily 
+seen that a--a is a universal imbedding of T. 
+We denote the universal imbedding of T by U and the imbedding which 
+we constructed at the beginning of this section by U'. Since U' is 1-1 it fol- 
+lows that U is 1-1. Also we have the relation TU'Qn [Tu'3Tu'] =0 in the en- 
+veloping Lie algebra of U' and this implies that TuQ- [CUtU] 0. 
+II. REPRESENTATION THEORY FOR FINITE-DIMENSIONAL JORDAN ALGEBRAS 
+6. Finiteness of dimensionality of the universal algebras. In the re- 
+mainder of this paper we restrict our attention to finite-dimensional algebras 
+and to representations in finite-dimensional vector spaces. We prove first 
+the following theorem. 
+THEOREM 6.1. The universal associative algebra of any Jordan algebra of 
+finite dimension is finite-dimensional. 
+Proof. Equation (3.4) shows that if d, b, cCS, then da and dbd are expres- 
+sible in lower degree terms, that is, as sums of products of at most two dC'{. 
+Also dbc and - cbd differ by terms of lower degree. In particular this holds 
+for d2b and -ba2. Now if xl, x2, , x, is a basis for AI, then the cosets 
+xl, x2, , x generate U. Let y be one of these and consider a monomial 
+* - 9 y y . . .. We assert that if more than two y's occur in the monomial, 
+then we can express it as a linear combination of terms of lower degree. For, 
+by the foregoing remarks, we can move any y two places to the left at the 
+expense of lower degree terms. If the monomial has three 9's this leads either 
+to a factor y3 or to a factor yxy. In either case we obtain an expression in 
+terms of monomials of lower degree. Hence we need consider only monomials 
+in which each xq occurs with multiplicity one or two. Since the number of 
+such monomials is finite the theorem is proved. 
+We can obtain an upper bound to the dimensionality of U as follows. We 
+
+--- PDF page 13 ---
+520 N. JACOBSON [May 
+observe first that if there are two 9's in a monomial, then either this monomial 
+can be expressed in lower terms or we can collect the y to obtain y2. Also we 
+can place this term in any position at the expense of lower degree terms. 
+Next we recall that a single y can be moved two places to the left or right. 
+It follows that every element of U is a linear combination of "standard" 
+monomials 
+(6.1) ~~~~2 2 2 
+(6. 1) XklXk2 * **XkrXkr+lXkr+2 Xks 
+where ki, k2, , ks are distinct elements of the range 1, 2, . . *, n and 
+(6.2) ki < k2 < < kr; kr+i < kr+3 < * - ; kr+2 < kr+4 <** 
+The number of ways of arranging s - r numbers kr?i , ks so that the last 
+two conditions hold is 
+(6.3) Ds-r = Cs-r,[(s(r)/2], Do = 1. 
+It follows that the number of standard monomials does not exceed 
+n r 
+(6.4) N Z E E Cn,sCs,rD(s-r). 
+8=1 r=O 
+Thus dim U1 ? N. This bound is exact; for, it can be shown that if 21 is the zero 
+Jordan algebra with basis x1, x2, - , x , and xixj =0, then dim U = N. 
+We have seen that the representations of the Jordan algebra 21 are ob- 
+tained from the representations of its universal algebra U. If we recall that a 
+finite-dimensional associative algebra has only a finite number of inequivalent 
+irreducible representations, we obtain the following corollary. 
+COROLLARY 6.1. Any finite-dimensional Jordan algebra has only a finite 
+number of inequivalent irreducible representations. 
+The analogue of Theorem 6.1 holds also for Lie triple systems, that is, if 
+X is finite-dimensional, then the universal Lie algebra Vu of X is finite-dimen- 
+sional. For Vu = ZU+ [TUZU]. Hence since multiplication in Vu is skew sym- 
+metric, dim Vu < n (n + l) /2 where n = dim Z. 
+7. Results on Lie triple systems. In this section we derive some results 
+on Lie triple systems that will be required in the study of the structure of 
+the enveloping association of Lie algebras of representations of Jordan alge- 
+bras. The first result below is valid without restriction on the dimensionality 
+or the characteristic; after this, however, we assume throughout that all 
+vector spaces are finite-dimensional and that the base field has characteristic 
+0. 
+THEOREM 7.1. If QB is an ideal in the Lie triple system Z, then Q3+ [Q!3] 
+is an ideal in the Lie algebra $B+ [Q3Z] and Q3+ [Q3IE| is an ideal in Z+ [Z]. 
+Proof. We have the relation 
+
+--- PDF page 14 ---
+19511 GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 521 
+[Q3 + [Qz3I, z + [Qu] = [Qss + [[IQss],t Q] + [Q , [T]] + [[ISTQ], [Bz ]]. 
+Also [ [Q]3], [Q] ]qC [Q3, [$3[Q] ]+ [Qt, [tfl]] by Jacobi's identity. 
+Hence [B + [Q3 ], Z + [t:]] C + [QTB3 ]. Similarly 
+[93 + [-Tj] I + [ZZ]] = [T3Z] + [3[Tzz]] + [[ 3z]2] + [[I3[t zz]] 
+and [ [tZ], [zZ] ] C- [ [ [St ] ] ] C- LT]. Hence the right-hand side of the 
+foregoing is contained in Z + [St]. 
+A subset $ of a Lie algebra V is said to be subinvariant in ? if there exists 
+a chain ? = Vl SD V2:- * :D*,,, = $ such that each Vi is an ideal in the preceding 
+Vi-i (cf. [15]). Thus Theorem 7.1 implies that the enveloping Lie algebra of e3 
+is subinvariant in the enveloping Lie algebra of Z. We prove next the follow- 
+ing result which is a partial extension of a lemma of a former paper. 
+THEOREM 7.2. Let e be an associative algebra of characteristic 0, 3 a sub- 
+algebra of the Lie algebra LL, $ a subinvariant subalgebra of V. Then if the en- 
+veloping associative algebra $* of $ is nilpotent, $ is contained in the radical 
+of the enveloping associative algebra V* of V. 
+Proof. We have the chain V? = =lD2 *3 . . . where Vi is an ideal 
+in i-i. Assume that $ is in the radical of the enveloping associative algebra 
+V* of Vi. Consider the mapping x->xai-,] determined by any element a_1 of 
+V-1. This mapping is a derivation which sends Vi into itself. Since it is inner 
+it is also a derivation in the enveloping associative algebra V* of Vi. Since the 
+base field is of characteristic 0, the radical 9Z(V*) of V* is sent into itself by 
+the derivation [6, p. 692]. It follows that [(i1), S-1] C 9(i*). Since $ 9CT(V*) 
+by assumption, 
+-1- + [s3i-i] + [ + * T(.) 
+It follows that the enveloping associative algebra 13*-1 is nilpotent. Since 
+$i_i is an ideal in Vi-1 this implies that $f-1 is in the radical of V* 1 [8, p. 
+876]. Hence $ is in the radical of V*1. The theorem now follows by induction. 
+We shall also require the following theorem. 
+THEOREM 7.3. Let Z be a Lie triple system of characteristic 0 and let Z be a 
+1-1 imbedding of Z such that (1) the enveloping Lie algebra VT is semi-simple 
+and (2) ZTn [5TZT] = 0. Then Z is a universal imbedding of Z. 
+Proof. Let U be a universal imbedding of Z. Then the isomorphism 
+aU--+aT of ZT onto Zu can be extended to a homomorphism of Su onto VT. 
+We assert that the kernel of 9 of this homomorphism is the center G of ?u. 
+For, if aU+ Z [bUcu] C then aT+ E [bTCT] is in the center of ST. Since VT iS 
+semi-simple, aT+ E[bTcT] = 0; hence aU+ > [bUcu ] is in M. Conversely let 
+aU+ E [bUcu] ER. Then aT? Z [bTcT]=0 and by (2), aT=o and E[bTcT] 
+= 0. Hence E [ [bTCT]XT] =0 for all x C Z. This implies that E [ [bUcu]xu] = 0. 
+
+--- PDF page 15 ---
+522 N. JACOBSON [May 
+Since aT = 0 implies aU= 0, aU+ , [bucu] is in G. Our assertion is therefore 
+proved. We now have Vu/(S'VT. Since VT is semi-simple, it follows that ( is 
+the radical of Vu. Hence by Levi's theorem Vu=(SE 05 where e is a semi- 
+simple Lie algebra(5). But VT= TE [tTZT] is semi-simple; hence the de- 
+rived algebra T [[ T T] T]+ [ZT5 T] =VT(6). It follows that t T 
+= [[rTZT]ZT] and this implies that Zu= [[quzu]zu]. Since Vu=?u 
++[tuTu] the foregoing relation implies that V' =Vu. Hence Vu=(25, (Z=0, 
+and the homomorphism of Vu onto VT is an isomorphism. 
+8. Structure of the enveloping algebras of representations of Jordan 
+algebras. We recall at this point the main concepts and results of the struc- 
+ture theory of Jordan algebras. We recall first that a Jordan algebra 2t is 
+solvable if WI2k= 0 for some integer k. Here I2' = W2I1'2il, = 2-. The radical 
+of a Jordan algebra is the maximal solvable ideal. A Jordan algebra with 0 
+radical is said to be semi-simple. It has been shown by Albert that any semi- 
+simple Jordan algebra of characteristic 0 has an identity and is a direct sum of 
+simple algebras [1, p. 557]. It has been shown recently by Penico that every 
+Jordan algebra of characteristic 0 can be decomposed as 21= SE0 where S 
+is a semi-simple subalgebra and % is the radical [13]. This is the analogue of 
+Wedderburn's "principal theorem" for associative algebras and of the Levi de- 
+composition theorem for Lie algebras. The center (E of a Jordan algebra is the 
+totality of elements c that associate with every pair a, b in 21 in the sense 
+that [cab] = [bca] = [abc] = 0. This definition can also be used for arbitrary 
+Lie triple systems. It is known that if E is the center of a simple algebra 
+with an identity then the set 9(,) of element Rc, c in C, is the complete set of 
+linear transformations that commute with the multiplications Ra (see for 
+example [9, p. 239]). It is easy to see that this result holds also for semi- 
+simple algebras of characteristic 0. 
+We shall now take up the study of the structure of the enveloping Lie and 
+associative algebras of representations of Jordan algebras of characteristic 0. 
+The results which we shall give can be formulated in terms of the universal 
+algebras. However, we prefer to state them in terms of arbitrary representa- 
+tions. 
+If S is a representation of a we denote the set of representing linear trans- 
+formations by S(2f) and the enveloping associative algebra by S(2f) *. S(W) 
+is a Lie triple system, a homomorphic image of the associator system of 2W. 
+Hence the enveloping Lie algebra Vs =S(21)+ [S(2), S(21)]. We now prove 
+the following theorem. 
+THEOREM 8.1. Let 21 be a Jordan algebra of characteristic 0, % its radical, 
+(5) Levi's theorem states that any finite-dimensional Lie algebra can be expressed as a sum 
+9+? where 9i is the radical (maximal solvable ideal) and e is semi-simple. A simple proof of 
+this theorem is given in [6, p. 6861. 
+(6) The relation W = 3 for semi-simple Lie algebras is a consequence of the fact that X is a 
+direct sum of simple algebras. 
+
+--- PDF page 16 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 523 
+and S a representation of W. Then S(9) is contained in the radical of the envelop- 
+ing associative algebra S(W) * of S(W). 
+Proof. It has been shown by Albert that S(9)* is nilpotent [1, p. 551]. 
+Also S(9) is an ideal in the Lie triple system S(W). Hence by Theorem 7.1, 
+$ = S(9) + [S(9), S(9) ] is subinvariant in Vs = S(f) + [S(f), S(W) ]. Since 
+$*=S(9)*, Theorem 7.2 shows that $ is in the radical of S(f)*. Hence 
+S(9) is in the radical of S(W) *. 
+COROLLARY 8.1. If S is a completely reducible representation of a Jordan 
+algebra, then the radical W of W is contained in the kernel. 
+Proof. Our assumption implies that S(f) * is semi-simple. Hence S(W) = 0. 
+COROLLARY 8.2. If the notation is as in the theorem, then S(9) + [S(Wf), S(9)] 
+is a nilpotent Lie ideal in the enveloping Lie algebra Vs of 5. 
+Proof. S(91)+ [S(Wf), S(9)] is an ideal in Vs by Theorem 7.1. Moreover, 
+the enveloping associative algebra of S(9) + [S(f), S(9) ] is in the radical of 
+S(f) *. Hence this ideal is a nilpotent Lie ideal. 
+If X is a Lie triple system contained in a Lie algebra, then it is easy to 
+see that [fZ] is a subalgebra of the Lie algebra. In particular [S(f), S(W) ] is a 
+subalgebra of Vs. It is easy to see also that [S(f), S(9)] is an ideal in 
+[S(f), S(W)]. The enveloping associative algebra of this ideal is nilpotent. 
+Hence we have the following corollary. 
+COROLLARY 8.3. [S(W), S(9)] is a nilpotent Lie ideal in the Lie algebra 
+[S(M)I S(W) I 
+If R denotes the regular representation, then it is known that the ele- 
+ments of [R(W), R(W) ] are derivations. These derivations have been called 
+inner and the subalgebra [R((W), R(Wf)] is an ideal in the derivation algebra 
+i of W [11, p. 867]. Corollary 8.3 shows that [R(W), R(9)] is a nilpotent 
+ideal in the algebra of inner derivations. The theorem itself gives the following 
+result which is needed later. 
+COROLLARY 8.4. Every transformation belonging to [R(W), R(9)] is a nil- 
+potent derivation in Wf. 
+We consider next the enveloping algebras of representations of semi- 
+simple Jordan algebras. Since any such algebra is a direct sum of simple alge- 
+bras, the set R(2I) and its enveloping Lie algebra VR are completely reducible. 
+It follows that VR is a direct sum of its center and its derived algebra VR and 
+that VR is semi-simple [8, p. 878]. Also we have noted that the center is R(@). 
+Hence we have the decomposition VR =REDR(,). On the other hand, since 
+W has an identity, R(Q)nQ[R(2), R(Wf)]=O. Hence VR=R(W)E [R(f), R(WQ] 
+and 
+
+--- PDF page 17 ---
+524 N. JACOBSON [May 
+(8.1) = [[R(2f), R(W)], R(W)] e [R(W), R(t)] 
+It follows that 
+(8.2) 3R = [[R(2), R(2)Q], R(t)j] 0 R(S) 0 [R(2), R(2)D] 
+and 
+(8.3) R( = [[R(), R(2f)], R(2f)] 0 R(S). 
+Since 21 has an identity, the imbedding R is an isomorphism of the associator 
+system 2f onto R(2). Accordingly (8.3) gives the decomposition 
+(8.4) g = ' E d;, 
+where f' is the space spanned by the associators(7). In general, if X is any Lie 
+triple system, then the space Z' spanned by the products [abc] is an ideal in 
+Z. We shall call this ideal the derived system of X. Corresponding to (8.4) we 
+can rewrite (8.3) as 
+(8.5) R(W) = R(21') 0 R(S). 
+Also since VR=R(W)E [R(2f), R(W)], (8.5) shows that [R(W), R(f)] 
+= [R(2'), R(2f')]. Hence 
+(8.6) VR = R(52) 0 [R(2X'), R( ]')j. 
+If we recall that VR is semi-simple, we can now obtain the following lemma by 
+applying Theorem 7.3. 
+LEMMA 8.1. If W is a semi-simple Jordan algebra of characteristic 0, then 
+the regular imbedding R is a universal imbedding of the derived system V' of the 
+associator Lie triple system Wf. 
+We consider next the case of f =(S. Then we prove the following lemma. 
+LEMMA 8.2. The enveloping associative algebra of any representation of a 
+semi-simple associative Jordan algebra of characteristic 0 is semi-simple. 
+Proof. If P is an extension of the base field of 2t, any representation S of 
+2l can be extended to one of Wp. The enveloping associative algebra S(2fp)* 
+=S(2f)4. Hence it suffices to prove the lemma for algebraically closed base 
+fields. In this case 2f has a basis of n orthogonal idempotent elements ei and 
+Eei= 1. Also, in view of Theorem 4.1, it suffices to prove the lemma for 
+special representations and for representations such that S, = 1. Now the 
+result is known for special representations [7, p. 168]. Hence it remains to 
+consider the representations such that S1 = 1. We now note that the defining 
+condition (2.1) implies that [SeS,ej] =0 for i74j. Equation (2.2) gives 2 S2%eS 
+(7) This resuilt is duie to Schafer [14]. 
+
+--- PDF page 18 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 525 
+= SeiSej and SeiSejSek = 0 if i, j, k are distinct. It follows that any element of 
+the enveloping associative algebra of S is a linear combination of the ele- 
+elements 5e1, SeiSe,, i <j. Also we have 
+1 = 2S1 - Si = E (2Sei - Sei) + 4>ESeiSe,. 
+i<j 
+Hence 
+S e'k - 1 = (S ek 1) 1 (S ek 1) (2S Ok S ek) 
++ > (Seek - 1) (2S,ej S ei) + 4 E (2Sek - t)S eiS ej 
+ipk i<j 
+E (2Sei - S ) + 4 E Se1Sej. 
+ip6k i< j; i, jp!Hk 
+This shows that any element of S(2I) * is a linear combination of the elements 
+(2S2j-Sej), 4SeiSej, i<j. Also we can verify that the product of any two dis- 
+tinct elements in this set is 0. Since their sum is 1, these elements are orthog- 
+onal idempotents. Thus S(1) * has a basis of orthogonal idempotent elements. 
+Hence S(W)* is semi-simple. 
+We can now prove the following lemma. 
+LEMMA 8.3. If 2f is a semi-simple Jordan algebra of characteristic 0 and S 
+is any representation of 1, then the mapping Ra4Sa can be extended to a homo- 
+morphism of the enveloping Lie algebra VR onto the enveloping Lie algebra Vs. 
+(Thus, the imbedding R of the Lie triple system 1 is a cover of every imbedding 
+obtained from a representation of the Jordan algebra.) 
+Proof. This result will follow easily from Lemma 8.1 if it can be proved 
+that [ScSa]=0 for every c C and every aC W. Now by Lemma 8.2, SG has 
+simple elementary divisors. Hence the mapping X-*[XS,] of the complete 
+algebra of linear transformations has simple elementary divisors and the in- 
+duced mapping in V5 has this property. On the other hand [[SaSc]Sc] = S(acc] = 
+and this implies that X-*[XSj] is nilpotent in Vs. It follows that this mapping 
+is 0. Thus [SaSc] =0 and the lemma is proved. 
+Since VR is semi-simple the theorem on the complete reducibility of the 
+representations of semi-simple Lie algebras implies that the enveloping asso- 
+ciative algebra of %R and hence of S(1') is semi-simple. Also the algebra 
+S((S)* is semi-simple and by the proof of the preceding lemma any element 
+of S( :)* commutes with any element of S(W')*. It follows from (8.4) that 
+S(W)* is semi-simple. We have therefore proved the following theorem. 
+THEOREM 8.2. The enveloping associative algebra of any representation of a 
+semi-simple Jordan algebra of characteristic 0 is semi-simple. 
+Since any semi-simple associative algebra of linear transformations is 
+completely reducible we have the following corollary. 
+
+--- PDF page 19 ---
+526 N. JACOBSON [May 
+COROLLARY 8.1. Every representation of a semi-simple Jordan algebra of 
+characteristic 0 is completely reducible. 
+The two main theorems (8.1 and 8.2) can be combined into a single 
+result by using Penico's theorem that any Jordan algebra can be written as 
+2= Z+1 where Z is semi-simple and 9 is the radical. Thus we have the 
+following theorem. 
+THEOREM 8.3. If S is a representation of an arbitrary Jordan algebra of 
+characteristic 0, then the radical of S(W) * is the ideal in S(2) * generated by the 
+elements S,, z in 9. Moreover, if 2{ = 5 +91 where e is semi-simple, then S(9f) * 
+=S(2)*+ T where 9 is the radical of S(2?)*. 
+Proof. Let 9 denote the ideal in S(2f) * generated by the elements Sz, z 
+in 9. Since 2t = 5 + 9, any element of S(21) * is congruent modulo 9 to an 
+element of S(Q5)*. Thus S(W)*=?+S(Q5)*. On the other hand, 91 is con- 
+tained in the radical of S(1)* and S(Z)* is semi-simple. It follows that 
+S(21)*=9?+S(Q)* and 91 is the radical. 
+It is easy to see that this theorem includes Theorems 8.1 and 8.2. Also, 
+we can establish the following connection between Penico's theorem and the 
+Levi decomposition of the enveloping Lie algebra Vs of S: 
+THEOREM 8.4. Let 21=E091 be a decomposition of the Jordan algebra af 
+(of characteristic 0) as a direct sum of a semi-simple algebra ( and its radical 91 
+and let C(') denote the center of 25. Then if S is a representation of 2X, the 
+radical of the enveloping Lie algebra Vs is S(G(F)) +S(9) + [S(W), S(9)] and 
+S(Z') + [S(5'), S(25') ] is a semi-simple Levi component of Vs. 
+The proof of this result can be obtained easily from the foregoing results. 
+We shall therefore omit it. 
+9. The analogue of Whitehead's first lemma and its applications. As is 
+well known, Whitehead's first lemma on Lie algebras was formulated to give 
+a simple proof of the theorem of complete reducibility of the representations 
+for semi-simple Lie algebras. In this section we shall prove an analogue of 
+Whitehead's result for Jordan algebras. However, we shall reverse the pro- 
+cedure which is customary for Lie algebras and obtain the present result from 
+the theorems of the preceding section. The theorem we wish to prove is the 
+following. 
+THEOREM 9.1. Let 91 be a Jordan module for a semi-simple Jordan algebra 
+of characteristic 0 and let a-*f(a) be a linear mapping of 9a into 9 such that 
+(9.1) f(ab) = af(b) + f(a)b. 
+Then there exist elements wi in 1 and bi in 2f such that 
+(9.2) f(a) = E (wia)bi - wi(ab,). 
+
+--- PDF page 20 ---
+1951] GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 527 
+We prove first the following lemma. 
+LEMMA 9.1. If 2f is a semi-simple Jordan algebra of characteristic 0 which 
+contains no associative ideals not 0, then the subalgebra of 2f generated by the 
+derived system f' is a( itself. 
+Proof. It suffices to prove this for algebraically closed fields and for the 
+case 2f simple. Here the center is one-dimensional, so that by (8.4) dim f' 
+=dim 2f- 1. If the lemma is false, f' is a subalgebra of Wf. Since the center 
+consists of the multiples of 1 this implies that f' is an ideal, contrary to the 
+simplicity of Wf. 
+Proof of Theorem 9.1. We form the semi-direct sum e = 2f+ and let D 
+be the linear transformation in e8 such that ED =0 and aD =f(a) for a in Wf. 
+Then by (9.1), D is a derivation in e3 which maps 2f into C, T into 0. If 
+aC3, and R. denotes the multiplication in e3 by u, then [RU, D] =RuD. It 
+follows that the mapping X-->[XD] is a derivation D) in the enveloping Lie 
+algebra VR of the Ru. If (T is the center of Xf, then by Theorem 8.4 the radical 
+of VR is 
+(9.3) = R(S) + R(9) + [R(f), R()], 
+and 
+(9.4) = R(f') + [R (W), R( I')] 
+is a semi-simple Levi component of VR. It is easy to verify that Vj=8+31, 
+where 3S1=R(9N)+ [R(2X),R(9)], is a subalgebra of ;R and that [3131]=o. 
+Evidently (31 is the radical of Vi. Since VR = =R(2f) +R(9)?) + [R(f), R(9)], D 
+maps 5;R into R(9)). Hence D induces a derivation in V, that maps the semi- 
+simple algebra W into <31, <31 into 0. Since [31,313] =0 we can use Whitehead's 
+first lemma for Lie algebras [16; 6, p. 682] to conclude that there is a UEE3, 
+such that [XD] = [XU] holds for all XCzV1. Now U=R,+ Z [RwiRbi], Z, 
+wiEC9), biCES. Hence for any a'ES', 
+Ra'D = [Ra'D] = [Ra'U] = [Ra'Rz] + E [Ra'[RwjRbie]l 
+Hence 
+(9.5) a'D lRa'D = a'E [RWiRbiJ. 
+This shows that D coincides with the inner derivation I= Ej [RwiRbi] on the 
+derived system '. It follows that D =I on the subalgebra generated by '. 
+Hence, if a( contains no associative ideals not 0, D =TI. 
+Now suppose that 2f has associative ideals. Then we wish to show that D 
+can be expressed in the form E [RWiRbi], wi in 9, bi in Wf. It suffices to prove 
+this under the assumption that the base field is algebraically closed. In this 
+case the associative simple components in the direct decomposition of 2f into 
+simple ideals are one-dimensional. We shall prove our assertion by induction 
+
+--- PDF page 21 ---
+528 N. JACOBSON [May 
+on the number of these associative simple components. The preceding argu- 
+ment shows that the result holds if there are no such components. Hence as- 
+sume that it holds for r. Then we can find an inner derivation I = E [RwiRbiI, 
+wi in C, b, in X, such that Dr--D-Ir maps all the nonassociative simple 
+components into 0 and also the first r associative simple components into 0. 
+Let (e,+?) be the (r+l)st associative simple component. We may suppose 
+that e'+?=e,+?. Hence er+l(er+?Dr)=er+?Dr/2. Then 
+er+?Dr = er+1(4 [Rer+lRer+lDr]) 
+Moreover, if u is in the sum of the preceding components, then 
+u[Rer+1Rer+1Dr] = (Uer+?)(er+?Dr) - (u(er+lDr))er+1 = - (tt(er+?Dr))er+l. 
+Since uer+1 = 0, (uDr)er+l+u(er+?Dr) = 0 and since uDr = 0, u(er+?Dr) = 0. 
+Hence u[Rer+1 Rer+iDr] =0. Thus Dr+l=Dr-4[ReI+iRer+iDr] maps the non- 
+associative simple components into 0, and the first r+1 associative simple 
+components into 0. This proves that D= 1 [RWiRbiI, wi in 9J and bi in W. 
+Hence 
+f(a) = aD = , ((wia)bi - w,(ab,)) 
+as required. 
+As in the case of Lie and associative algebras, it is easy to see that 
+Theorem 9.1 is equivalent to the following result: 
+THEOREM 9.2. If 2 is a semi-simple subalgebra of any Jordan algebra e3 of 
+characteristic 0, then any derivation of Wf into e3 can be extended to an inner 
+derivation of 3 (cf. [6, p. 689]). 
+By a derivation of 2f into e3 we mean a linear mapping a->aD of W into e9 
+such that (ala2)D = (a,D)a2+al(a2D) holds for every a,, a2 in W. The proof 
+of this theorem is identical with that of the corresponding Lie result and 
+will therefore be omitted. 
+We shall now apply Theorem 9. 1 to the study of the semi-simple subalgebras 
+of a Jordan algebra. We recall first that if W is an arbitrary nonassociative 
+algebra of characteristic 0 and D is a nilpotent derivation in W, then 
+D2 D3 
+G = exp D = 1 + D +- +-+ 
+is an automorphism of W. We shall say that two subalgebras of Wf are strictly 
+conjugate if there exists an automorphism of the form G1G2 . . . Gk, Gi 
+=exp Di, Di a nilpotent derivation, mapping one of the algebras onto the 
+other. The main result that we shall prove can now be stated as follows: 
+THEOREM 9.3. Let 2f be an arbitrary Jordan algebra of characteristic 0 and 
+let W = Z + W where ( is semi-simple and W is the radical. Then any semi-simple 
+
+--- PDF page 22 ---
+19511 GENERAL REPRESENTATION THEORY FOR JORDAN ALGEBRAS 529 
+subalgebra a of 2f is strictly conjugate to a subalgebra of (B. 
+Proof. If fGa we write f=o(f) +P(f) where a(f) EE and v(f) C9W. Then 
+the mappings f-*a(f), f->zv(f) are linear. Moreover, if fl, f2Ca then 
+f1f2 = o(flf2) + V(flf2) 
+=- (fl)o(f2) + v(fl)cr(f2) + o(fl)v(f2) + V(fl)'(f2) 
+Hence 
+(9.6) o(flf2) = o(fl)oa(f2), 
+(9.7) V(flf2) = v(fl)cr(f2) + o(fl)v(f2) + V(fl)v(f2). 
+The first of these equations shows that cr is a homomorphism of a into S. 
+Hence, if Sf =R,(f), then f->Sf is a representation of a and this representa- 
+tion induces a representation in W. 
+We now make use of a certain chain of ideals that has been defined by 
+Penico [13]. We set W, = T and define Sk inductively as %1_1+ 2_ 1. Then 
+TSk is an ideal in 2f and 91D92D93D D D . Now assume that the v(f)e9Ck. 
+This is equivalent to saying that aCS+k. Then we shall show that there 
+exists an automorphism G of the form exp D, where D is in the radical of the 
+enveloping associative algebra of R(9), such that aGCSB+ k+l. Since, in 
+any case, WCS+%,, this will prove the theorem by induction on k. 
+Since the %i are ideals, S induces representations in these spaces. Let S 
+denote the induced representation in 9k/9k+l and let v(f) denote the coset of 
+v(f) modulo k+l. Then by (9.7) 
+P(flf2) = P(fl)f2 + flP(f2) 
+holds in the module 9k/9k+l. Hence by Theorem 9.1 there exist elements 
+wi in %k/9k+l and bi in a such 
+v(f) = , ((wtf)bi - (fb)). 
+It follows that 
+(9.8) v(f) o-(f)Z [RWR,(b i)] (mod 9k? 1). 
+The mapping D = [RWiR<,(bi)] is a derivation belonging to the radical of 
+R(2)*. Hence G=exp (-D) is an automorphism. Now 
+1 fG = f-fD +-fD2 _ = (f) + v(f) -a(f)D-v(f)D +** 2 ! 
+The terms omitted contain D2, D3, . Since the elements Witk, the form 
+of D shows that these terms belong to 9k+l. Also v(f)DC9k+1 and, by (9.8), 
+v(f) -a(f)DE%k?+l. Hence 9GC 1+9?k+l as required. This completes the 
+proof. 
+We remark that the automorphism which we have used is of the form 
+
+--- PDF page 23 ---
+530 N. JACOBSON 
+exp D1 exp D2-** exp Dr where the Di are in the radical of the enveloping 
+associative algebra of R(W). Now if D1 and D2 are derivations whose envelop- 
+ing associative algebra is nilpotent, then the Campbell-Hausdorff formula 
+exp D1 exp D2 = exp DI+ D2 + 
+I 
+[D1D2] + 
+is valid (see for example [2, p. 81]). This shows that the conjugacy of W to 
+a subalgebra of ( can be given by an automorphism of the form exp D, D in 
+the radical of R(2)*. 
+An immediate consequence of the theorem is the following corollary. 
+COROLLARY 9.1. Any semi-simple subalgebra of 2f can be embedded in a semi- 
+simple subalgebra (ei such that 2f = (ei + W. 
+BIBLIOGRAPHY 
+1. A. A. Albert, A structure theory for Jordan algebras, Ann. of Math. vol. 48 (1947) pp. 
+446-467. 
+2. G. Birkhoff, Analytical groups, Trans. Amer. Math. Soc. vol. 43 (1938) pp. 61-101. 
+3. G. Birkhoff and P. Whitman, Representations of Jordan and Lie algebras, Trans. Amer. 
+Math. Soc. vol. 61 (1949) pp. 116-136. 
+4. S. Eilenberg, Extensions of general algebras, Annales de la Societe Polonaise de Mathe- 
+matique vol. 21 (1948) pp. 125-134. 
+5. Harish-Chandra, On the radical of a Lie algebra, Proceedings of the American Mathe- 
+matical Society vol. 1 (1950) pp. 14-17. 
+6. G. Hochschild, Semi-simple algebras and generalized derivations, Amer. J. Math. vol. 
+64 (1941) pp. 677-694. 
+7. F. D. Jacobson and N. Jacobson, Classification and representation of semi-simple Jordan 
+algebras, Trans. Amer. Math. Soc. vol. 65 (1949) pp. 141-169. 
+8. N. Jacobson, Rational methods in the theory of Lie algebras, Ann. of Math. vol. 36 (1935) 
+pp. 875-881. 
+9. - , Structure theory of simple rings without finiteness assumptions, Trans. Amer. 
+Math. Soc. vol. 57 (1945) pp. 228-245. 
+10. -, Lie and Jordan triple systems, Amer. J. Math. vol. 71 (1949) pp. 149-170. 
+11. , Derivation algebras and multiplication algebras of semi-simple Jordan algebras, 
+Ann. of Math. vol. 50 (1949) pp. 866-874. 
+12. A. Malcev, On the representation of an algebra as a direct suni of the radical and a semi- 
+simple algebra, C. R. (Doklady) Acad. Sci. URSS vol. 36 (1942) pp. 42-45. 
+13. A. J. Penico, The Wedderburn principal theorem for Jordan algebras, Trans. Amer. 
+Math. Soc. vol. 70 (1951) pp. 404-421. 
+14. R. D. Schafer, A theorem on the derivations of Jordan algebras, Proceedings of the 
+American Mathematical Society vol. 2 (1951) pp. 290-294. 
+15. E. V. Schenkman, A theory of subinvariant Lie algebras, to appear in Amer. J. Math. 
+16. J. H. C. Whitehead, Certain equations in the algebra of a semi-simple infinitesimal 
+group, Quart. J. Math. Oxford Ser. vol. 8 (1937) pp. 220-237. 
+17. E. Witt, Treue Darstellung Liescher Ringe, Journal fur Mathematik vol. 177 (1937) pp. 
+152-160. 
+YALE UNIVERSITY, 
+NEW HAVEN, CONN. 

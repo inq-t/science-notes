@@ -4,6 +4,8 @@ inq.include:
   - "**/*.md"
 inq.ambient:
   - "**/*.py"
+  - "receipts/*.txt"
+keywords: [spectral support, Euclidean transfer, reflection positivity, causal reconstruction]
 ---
 # Lorentzian Spectral Envelope
 
@@ -55,7 +57,7 @@ $$
 
 Its leading exponential rate is the infimum of the non-vacuum support of \(\mu_O\). It equals the global Hamiltonian gap only when that channel reaches the lightest excitation; a continuum threshold can also add a power-law prefactor. The special function \(e^{-m|\tau|}\) corresponds to a spectral atom, so its isolated poles are more information than the bare existence of a gap.
 
-The invariant mass-gap statement is
+The Hamiltonian energy-gap statement is
 
 $$
 \boxed{E_H((0,\Delta))=0\quad\text{for some }\Delta>0,}
@@ -210,4 +212,4 @@ It does not build a Lorentzian spectral triple, and the Krein-space template in 
 
 ## Receipt
 
-[[lorentzian-spectral-envelope/receipts/verify_lorentzian_envelope.py|The receipt]] checks the two-sided Fourier pair at five frequencies and its half-maximum width; recovers the model-correlator pole \(\omega=\pm im\) by fitting the reciprocal of the numerical transform; verifies that the finite Ising transfer matrix is invertible while its normalized vacuum complement contracts; reproduces the ring two-point function against \((\tanh K)^n\) with the finite-ring correction for \(K\in\{0.2,0.8,2.0,5.0\}\); checks the sampled approach of the gap toward zero; and records the mismatch between the pure-gauge correlation length and the causal grain. Standard library only; nonzero exit on any failure; output stored beside it.
+[[lorentzian-spectral-envelope/receipts/verify_lorentzian_envelope.py|The receipt]] checks the two-sided Fourier pair at five frequencies and its half-maximum width; recovers the model-correlator pole \(\omega=\pm im\) by fitting the reciprocal of the numerical transform; verifies that the finite Ising transfer matrix is invertible while its normalized vacuum complement contracts; reproduces the ring two-point function against \((\tanh K)^n\) with the finite-ring correction for \(K\in\{0.2,0.8,2.0,5.0\}\); checks the sampled approach of the gap toward zero; and records the mismatch between the pure-gauge correlation length and the causal grain. Standard library only; nonzero exit on any failure; the [[lorentzian-spectral-envelope/receipts/receipt-output.txt|stored output]] records those finite checks.

@@ -6,7 +6,7 @@ Exceptional context loss can act on physical field distinctions by analyzing the
 
 ## Why an internal channel misses field distinctions
 
-[[algebra/primitive-peirce-response|Primitive Peirce response]] controls every traceless matrix in \(M_{27}(\mathbb C)\). Nevertheless, for any fiberwise unital map \(\Phi_U\),
+[[exceptional-state-comparison/primitive-peirce-response|Primitive Peirce response]] controls every traceless matrix in \(M_{27}(\mathbb C)\). Nevertheless, for any fiberwise unital map \(\Phi_U\),
 \[
 \Phi_U(f(U)I)=f(U)I.
 \tag{CG1}
@@ -24,7 +24,7 @@ Conversely, independent-site sums of \(\mathcal D\) have a dimensionless gap, wh
 
 ## Differentiate the representation, not the scalar value
 
-Let \(\rho:F_4\to U(J_{\mathbb C})\) be the regular action. With the order-three automorphism \(w\) from [[algebra/exceptional-context-response|cyclic context response]], define
+Let \(\rho:F_4\to U(J_{\mathbb C})\) be the regular action. With the order-three automorphism \(w\) from [[exceptional-state-comparison/cyclic-context-retraction-and-response|cyclic context response]], define
 \[
 \mathscr E_g(T)=\frac13\sum_{j=0}^2
 \rho(gw^jg^{-1})T\rho(gw^jg^{-1})^*.

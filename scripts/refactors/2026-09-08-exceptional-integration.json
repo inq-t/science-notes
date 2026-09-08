@@ -1,0 +1,153 @@
+{
+  "source_commit": "3707d92",
+  "frontier_item": "F3 in the Yang-Mills neighbor audit",
+  "relocation": "scripts/refactors/2026-09-08-exceptional-state-comparison.receipt.json",
+  "diffusion_sections": "scripts/refactors/2026-09-08-primitive-diffusion-sections.json",
+  "diffusion_link_redirects": [
+    {
+      "source": "algebra/jordan-covariance-and-the-entropy-weighted-ball.md",
+      "old": "primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    },
+    {
+      "source": "algebra/sphere-to-ball-descent-and-the-jacobi-response.md",
+      "old": "primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    },
+    {
+      "source": "exceptional-state-comparison/primitive-peirce-response.md",
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    },
+    {
+      "source": "gauge-boundary-frame-gluing/overlap-kernels-and-face-refinement.md",
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    },
+    {
+      "source": "general-causal-action/directed-realization-and-foundational-restart.md",
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    },
+    {
+      "source": "general-causal-action/inq.md",
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion",
+      "new": "primitive-state-diffusion/inq"
+    }
+  ],
+  "retired_diffusion_source_sha256": "9fdc1a9911bed50b4e386747014364f6fd6614ae1396a5596d0c28ed2e46f03a",
+  "diffusion_tagged_displays_preserved_exactly": 20,
+  "shared_regular_equations": {
+    "EC9": "albert-algebra/regular-multiplication-and-trace.md",
+    "EC13": "albert-algebra/regular-multiplication-and-trace.md"
+  },
+  "semantic_changes": [
+    "The regular multiplier realization and its trace proof now have an upstream Albert-algebra owner.",
+    "Cyclic and primitive entropy identities link to the preserving-expectation theorem instead of repeating its proof.",
+    "Finite Jordan/matrix comparison and infinite-dimensional primitive-state diffusion have separate entrypoints.",
+    "Foundational finite Peirce/orientation inputs cite their algebra or primary-source owners directly; the gauge-field application keeps its separate carrier obligation.",
+    "The cyclic automorphism hypothesis names Yokota’s selected conjugacy type; order three alone is insufficient.",
+    "The orphan binary escort note is linked into its synthesis and explicitly declares the balanced two-dimensional state and escort tangent.",
+    "The receiving spectral module now links its stored calculation output and calls its displayed Hamiltonian condition an energy gap."
+  ],
+  "validation": {
+    "tagged_equations_preserved": 70,
+    "equation_comparison": "All 70 EC/PP/PA/OR displays match the source after whitespace normalization; labels occur once.",
+    "active_heading_targets_checked": 16,
+    "source_artifacts_verified": 15,
+    "preexisting_frozen_files_modified": 0,
+    "scoped_graph": "12 modules pass note/resource closure, local links and formatting.",
+    "calculation_validation": "Seven receipts pass, with baseline arithmetic and outputs preserved as recorded in exceptional-arithmetic.json.",
+    "registration": "inq sync succeeded with 521 modules.",
+    "inq_lint": {
+      "version": "0.4.0",
+      "baseline_errors": 41,
+      "current_errors": 46,
+      "warnings": 0,
+      "unchanged_nonlibrary_errors": 23,
+      "library_ordering_false_exclusions": 23,
+      "new_false_exclusions": 5,
+      "verified": "The ordering model reproduces all 23 current library errors exactly. Earlier 18 targets match the previous receipt.",
+      "diagnosis": "scripts/refactors/2026-09-08-transport-intertwining-links.receipt.json",
+      "new_targets": [
+        "library/exceptional-lie-groups-yokota/source/SpEcxp.tex",
+        "library/exceptional-lie-groups-yokota/source-provenance.json",
+        "library/stability-of-compact-symmetric-spaces/source/2012.07328v1.tex",
+        "library/stability-of-compact-symmetric-spaces/source-provenance.json",
+        "library/hyperuniform-point-sets-on-projective-spaces/source-provenance.json"
+      ]
+    }
+  },
+  "equation_owners": {
+    "EC9": "albert-algebra/regular-multiplication-and-trace.md",
+    "EC13": "albert-algebra/regular-multiplication-and-trace.md",
+    "EC1": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC2": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC3": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC4": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC5": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC6": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC7": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC8": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC10": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC11": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC12": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC14": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC15": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC16": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "EC17": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "PA1": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA2": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA3": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA4": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA5": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA6": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA7": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA8": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA9": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA10": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA11": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA12": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA13": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA14": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA15": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA16": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PA17": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "PP1": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP2": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP3": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP4": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP5": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP6": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP7": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP8": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP9": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP10": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP11": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP12": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP13": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP14": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP15": "exceptional-state-comparison/primitive-peirce-response.md",
+    "PP16": "exceptional-state-comparison/primitive-peirce-response.md",
+    "OR8": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR9": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR10": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR11": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR12": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR13": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR14": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15a": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15b": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15c": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR1": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR2": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR3": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR4": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR5": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR6": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR7": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR16": "primitive-state-diffusion/trace-metric-and-ball-return.md",
+    "OR17": "primitive-state-diffusion/trace-metric-and-ball-return.md"
+  }
+}

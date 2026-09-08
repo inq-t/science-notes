@@ -146,7 +146,7 @@ $$
 
 The missing realization functor must explain why this state bundle is selected by the complex family rather than placed beside it. A common spectral family may help: Gibbs states, heat kernels, and determinant lines can be different functorial constructions from one \(D_b\), while remaining different mathematical objects.
 
-[[algebra/exceptional-context-response|Exceptional context response]] gives a finite construction from a different upstream object: an order-three Albert automorphism determines a positive Jordan retraction, whose regular multiplication representation intertwines an associative CP expectation. On a declared faithful matrix-state family, the relative-entropy-loss Hessian is exactly proportional to the Jordan residue. This realizes an order-to-state-response map without using a Hodge polarization; it does not yet select a state bundle from the integrable complex family or cover the entire matrix-state tangent space.
+[[exceptional-state-comparison/cyclic-context-retraction-and-response|Exceptional context response]] gives a finite construction from a different upstream object: an order-three Albert automorphism determines a positive Jordan retraction, whose regular multiplication representation intertwines an associative CP expectation. On a declared faithful matrix-state family, the relative-entropy-loss Hessian is exactly proportional to the Jordan residue. This realizes an order-to-state-response map without using a Hodge polarization; it does not yet select a state bundle from the integrable complex family or cover the entire matrix-state tangent space.
 
 ## Relation to real form and factivity
 

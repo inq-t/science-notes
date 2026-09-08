@@ -6,7 +6,7 @@ The preserved [associative-descent packet](../inbox/causal-grain-cmb-spectroscop
 
 ## The corner belongs to the selected exceptional flag
 
-Use the [[algebra/exceptional-context-response|positive exceptional retraction]]
+Use the [[exceptional-state-comparison/cyclic-context-retraction-and-response|positive exceptional retraction]]
 \[
 E=\frac{I+w+w^2}{3}:J=\mathfrak h_3(\mathbb O)
 \longrightarrow B=\operatorname{Fix}(w)\cong\mathfrak h_3(\mathbb C).
@@ -159,7 +159,7 @@ on the same carrier, with a gapless joint invariant spectrum.
 
 [[algebra/qubit-cone-interiorization-and-the-clock-gap|Cone interiorization]] gives a same-carrier spectral test: uniform inward contraction of this normalized positive base controls its specified self-adjoint transfer generator. Static cone membership does not. [[algebra/determinant-scale-clock-and-the-hyperbolic-threshold|The determinant-scale clock]] separately tests whether a geometrical hyperbolic threshold survives the conformal return.
 
-[[peirce-context-averaging-and-the-emergent-qubit-process|Averaging moving Peirce contexts]] now determines an explicit local depolarizing return from the rank-two octonionic whole, without first selecting a qubit generator. Its invariant context weighting fixes a dimensionless contraction; it does not determine a physical duration. [[short-loop-holonomy-and-quantitative-gluing|Short-loop transport]] separately shows how the corner's Pauli algebra can enforce a volume-uniform section bound, and exactly how that bound can disappear under an adjoint observable realization.
+[[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Averaging moving Peirce contexts]] now determines an explicit local depolarizing return from the rank-two octonionic whole, without first selecting a qubit generator. Its invariant context weighting fixes a dimensionless contraction; it does not determine a physical duration. [[short-loop-holonomy-and-quantitative-gluing|Short-loop transport]] separately shows how the corner's Pauli algebra can enforce a volume-uniform section bound, and exactly how that bound can disappear under an adjoint observable realization.
 
 The next construction must preserve these relationships in a common field realization, select compatible dynamics and frames, and control every physical nonvacuum direction through the Yang–Mills limits. The finite determinant is not being assigned a particle mass.
 

@@ -155,7 +155,7 @@ The derivative in \(\epsilon\) measures a state distinction. The derivative in \
 
 For a same-dimension unital channel and the tracial reference, the full relative-entropy deficit equals the entropy increase. More generally it is lost relative distinguishability, not automatically thermodynamic entropy production. At a maximally mixed stationary state, entropy production can vanish while its tangent defect is strictly positive: it describes how perturbations would be forgotten, not a continuing creation of facts at that state.
 
-The [[peirce-context-averaging-and-the-emergent-qubit-process|Peirce context member]] gives a useful exact calibration. On its three-dimensional traceless qubit tangent space the retained map is multiplication by \(1/3\), so
+The [[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Peirce context member]] gives a useful exact calibration. On its three-dimensional traceless qubit tangent space the retained map is multiplication by \(1/3\), so
 \[
 D_\Phi=\frac89G.
 \tag{MR14}

@@ -1,0 +1,41 @@
+{
+  "description": "Primary sources for the finite exceptional-state comparison audit; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/s12220-021-00838-3.pdf",
+      "version": "2022 version of record",
+      "attempted_at": "2026-09-08T20:32:30.743819+00:00",
+      "path": "2022-semmelmann-weingart-stability.pdf",
+      "bytes": 611355,
+      "sha256": "e643203abbb76b103521cbce2e484ee7754051e7622927db659e769e5668faf9",
+      "resolved_url": "https://link.springer.com/content/pdf/10.1007/s12220-021-00838-3.pdf?error=cookies_not_supported&code=c426477a-303d-4c0b-9836-02d1b710e8cb",
+      "content_type": "application/pdf",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 27,
+        "first_page_text_prefix": "The Journal of Geometric Analysis (2022) 32:137\nhttps://doi.org/10.1007/s12220-021-00838-3\nStability of Compact Symmetric Spaces\nUwe Semmelmann 1 · Gregor Weingart 2\nReceived: 27 J"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/2012.07328v1",
+      "version": "2012.07328v1",
+      "attempted_at": "2026-09-08T20:32:30.743819+00:00",
+      "path": "2012.07328v1-source.tex.gz",
+      "bytes": 25244,
+      "sha256": "a18c8733eb9eae2dbc0dbe50e203d7d95d0616e7338bcaae69237798d319f2cd",
+      "resolved_url": "https://arxiv.org/src/2012.07328v1",
+      "content_type": "application/gzip",
+      "kind": "downloaded-primary-source",
+      "format": "gzip-compressed single TeX source"
+    },
+    {
+      "path": "source/2012.07328v1.tex",
+      "bytes": 90658,
+      "sha256": "8e7b79c0be1204c3adca858b839b66a94780e61e15a0135e6ca1a1ad9e026fd5",
+      "kind": "extracted-author-source",
+      "derived_from": "2012.07328v1-source.tex.gz",
+      "method": "byte-preserving gzip decompression"
+    }
+  ]
+}

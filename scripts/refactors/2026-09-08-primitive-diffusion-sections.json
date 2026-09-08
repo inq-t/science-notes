@@ -1,0 +1,113 @@
+{
+  "source_commit": "3707d92",
+  "source_path": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion.md",
+  "source_sha256": "9fdc1a9911bed50b4e386747014364f6fd6614ae1396a5596d0c28ed2e46f03a",
+  "purpose": "Separate the primitive-state function-space overlap construction into exact harmonic kernels, refinement and loss-rate convergence, and trace-metric/ball return. Every source heading has a destination and every OR equation label has one owner. The physical scope remains conditional on the declared comparison law.",
+  "section_moves": [
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#Primitive Overlap Refinement and the Emergent Diffusion",
+      "new": "primitive-state-diffusion/inq#Primitive State Diffusion",
+      "source_lines": [
+        1,
+        6
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#Two primitive orbits, one comparison rule",
+      "new": "primitive-state-diffusion/overlap-kernels-and-harmonics#Two primitive orbits, one comparison rule",
+      "source_lines": [
+        7,
+        64
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#Harmonic analysis evaluates every channel",
+      "new": "primitive-state-diffusion/overlap-kernels-and-harmonics#Harmonic analysis evaluates every channel",
+      "source_lines": [
+        65,
+        117
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#Processing at the comparison scale retains the whole carrier",
+      "new": "primitive-state-diffusion/comparison-refinement-and-loss-rate#Processing at the comparison scale retains the whole carrier",
+      "source_lines": [
+        118,
+        156
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#The limiting operator and its domain",
+      "new": "primitive-state-diffusion/comparison-refinement-and-loss-rate#The limiting operator and its domain",
+      "source_lines": [
+        157,
+        205
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#The squared-norm loss returns the same rate",
+      "new": "primitive-state-diffusion/comparison-refinement-and-loss-rate#The squared-norm loss returns the same rate",
+      "source_lines": [
+        206,
+        257
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#Which geometric Laplacian has appeared?",
+      "new": "primitive-state-diffusion/trace-metric-and-ball-return#Which geometric Laplacian has appeared?",
+      "source_lines": [
+        258,
+        284
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#The existing ball descent now has an upstream operator construction",
+      "new": "primitive-state-diffusion/trace-metric-and-ball-return#The ball descent has an upstream operator construction",
+      "source_lines": [
+        285,
+        305
+      ]
+    },
+    {
+      "old": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion#What has not become necessary",
+      "new": "primitive-state-diffusion/trace-metric-and-ball-return#What has not become necessary",
+      "source_lines": [
+        306,
+        335
+      ],
+      "additional_owners": [
+        "primitive-state-diffusion/comparison-refinement-and-loss-rate#The comparison law and its clock remain choices",
+        "primitive-state-diffusion/comparison-refinement-and-loss-rate#Finite arithmetic checks"
+      ]
+    }
+  ],
+  "equation_owners": {
+    "OR1": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR2": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR3": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR4": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR5": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR6": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR7": "primitive-state-diffusion/overlap-kernels-and-harmonics.md",
+    "OR8": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR9": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR10": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR11": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR12": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR13": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR14": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15a": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15b": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR15c": "primitive-state-diffusion/comparison-refinement-and-loss-rate.md",
+    "OR16": "primitive-state-diffusion/trace-metric-and-ball-return.md",
+    "OR17": "primitive-state-diffusion/trace-metric-and-ball-return.md"
+  },
+  "preservation_notes": [
+    "All OR1-OR17 labels, including OR15a-OR15c, are retained once with their exact displayed equations and proofs.",
+    "The comparison alternative and free clock scale move with the refinement theorem; physical composition and spacetime obligations remain with the geometric return.",
+    "The matrix Peirce response, selected qubit averaging, and full primitive-state function carrier are kept distinct.",
+    "The shared sphere-ball receipt and output remain in directed-analytic-realization because the receipt imports and is imported by other receipts.",
+    "Relative note links are rooted in their owning modules; chronological wording is removed from the geometric return and shared receipt discussion."
+  ]
+}

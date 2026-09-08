@@ -1,0 +1,450 @@
+\section{Hyperuniformity on compact doubly homogeneous
+  spaces}\label{sec:hyper-comp-doubly}
+The main purpose of this paper is to extend the notion of hyperuniformity to
+doubly homogeneous manifolds. Thus we first give a concise description of these
+spaces and collect the relevant facts that will be used later.
+\subsection{Harmonic analysis on compact doubly homogeneous
+  spaces}
+\label{sec:comp-doubly-homog}
+Let us recall the definition of doubly homogeneous spaces. A metric space
+$(X,\theta)$ is called doubly homogeneous, if there exists a group $G$ acting
+isometrically on $X$ so that
+\begin{equation*}
+  \forall x_1,x_2,y_1,y_2\in X: \theta(x_1,x_2)=\theta(y_1,y_2)\Rightarrow
+  \exists g\in G: y_1=gx_1\wedge y_2=gx_2.
+\end{equation*}
+The compact doubly homogeneous Riemannian manifolds have been characterised in
+\cite{Wang1952:Two_Point_Compact} (see also
+\cite{Helgason2000:Groups_geometric_analysis}):
+\begin{align*}
+  \mathbb{S}^d&\cong \mathrm{SO}(d+1)/\mathrm{SO}(d)\\
+  \mathbb{RP}^{d-1}&\cong\mathrm{O}(d)/(\mathrm{O}(d-1)\times \mathrm{O}(1))\\
+  \mathbb{CP}^{d-1}&\cong\mathrm{U}(d)/(\mathrm{U}(d-1)\times \mathrm{U}(1))\\
+  \mathbb{HP}^{d-1}&\cong\mathrm{Sp}(d)/(\mathrm{Sp}(d-1)\times
+  \mathrm{Sp}(1))\\
+  \mathbb{OP}^2&\cong\mathrm{F}_4/\mathrm{Spin}(9).
+\end{align*}
+We also refer to \cite{Anderson_Dostert_Grabner+2023:riesz_green_energy} for
+a concise introduction. The case of the sphere has been studied in
+\cite{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets,
+  Brauchart_Grabner_Kusner2019:hyperuniform_deterministic}; thus we mainly
+focus on the projective spaces $\mathbb{FP}^{d-1}$ in this paper, where we use
+$\mathbb{F}$ to represent the underlying scalar ``field'' ($\mathbb{R}$,
+$\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$). The dimension of the space as a real
+manifold is then given by
+\begin{equation*}
+  D=(d-1)\dim_{\mathbb{R}}(\mathbb{F}),
+\end{equation*}
+where
+\begin{equation*}
+  \dim_{\mathbb{R}}(\mathbb{C})=2,\quad
+  \dim_{\mathbb{R}}(\mathbb{H})=4,\quad \dim_{\mathbb{R}}(\mathbb{O})=8. 
+\end{equation*}
+Furthermore, we associate the parameters
+\begin{equation*}
+  \alpha=\frac{d-1}2\dim_{\mathbb{R}}(\mathbb{F})-1\quad\text{and }
+  \beta=\frac12\dim_{\mathbb{R}}(\mathbb{F})-1
+\end{equation*}
+to the spaces $\mathbb{FP}^{d-1}$. We normalise the geodesic metric $\theta$ to
+take values in $[0,\frac\pi2]$, and equip the space with the normalised surface
+measure $\sigma$.
+
+The measure of the geodesic ball
+$B(x,r)=\{y\in\mathbb{FP}^{d-1}\mid\theta(x,y)<r\}$ is then given by
+\begin{equation*}
+  \sigma(B(x,r))=\int_0^r A(\theta)\,d\theta,
+\end{equation*}
+where
+\begin{equation*}
+  A(r)=\frac{2\Gamma(\alpha+\beta+2)}{\Gamma(\alpha+1)\Gamma(\beta+1)}
+  \sin(r)^{2\alpha+1}\cos(r)^{2\beta+1}
+\end{equation*}
+denotes the surface area of the geodesic sphere
+$\mathbb{S}(a,r)=\{x\in\mathbb{FP}^{d-1}\mid \theta(a,x)=r\}$. From now on, we
+use the notation
+\begin{equation*}
+  C_{\alpha,\beta}=
+  \frac{2\Gamma(\alpha+\beta+2)}{\Gamma(\alpha+1)\Gamma(\beta+1)}
+\end{equation*}
+for the normalising constant.
+
+The Laplace operator associated to the underlying metric tensor is then given
+by
+\begin{equation*}
+  \Laplace f=-\frac1{A(r)}\frac\partial{\partial r}
+  \left(A(r)\frac{\partial f}{\partial r}\right)+\Laplace_{\mathbb{S}(a,r)}f,
+\end{equation*}
+where $\Laplace_{\mathbb{S}(a,r)}$ denotes the Laplace operator on the geodesic
+sphere. In the following we will restrict our attention to zonal functions
+depending only on $r$; for these functions $\Laplace_{\mathbb{S}(a,r)}f$
+vanishes. Furthermore, we notice that we use the geometers convention that the
+Laplacian has non-negative eigenvalues.
+
+The zonal eigenfunctions of $\Laplace$ are then given by the functions
+\begin{equation*}
+  P_n^{(\alpha,\beta)}(\cos(2\theta(x,a))),
+\end{equation*}
+the Jacobi-polynomials with parameters $\alpha$ and $\beta$. The corresponding
+eigenvalues are given by
+\begin{equation*}
+  \lambda_n=4n(n+\alpha+\beta+1).
+\end{equation*}
+The dimension of the corresponding space of eigenfunctions $V_n$ is then given
+by
+\begin{equation*}
+  m_n=\frac{2n+\alpha+\beta+1}{\alpha+\beta+1}
+  \frac{(\alpha+\beta+1)_n(\alpha+1)_n}{n!(\beta+1)_n},
+\end{equation*}
+where $(x)_n=x(x+1)\cdots(x+n-1)$ denotes the rising factorial (Pochhammer
+symbol).
+
+\begin{table}[h]
+  \renewcommand{\arraystretch}{1.8}
+  \begin{tabular}{l| l| l|l|l}
+    $X$  & $\alpha$&$\beta$& $\lambda_k$&$m_k = \dim(V_k)$ \\[2mm]\hline
+    $\mathbb{RP}^{d-1}$ & $\frac{d-3}2$&$-\frac12$&$2k (2k+d-2)$ &
+    $ \frac{4k+d-2}{d-2}\binom{2k+d-3}{d-3}$\\[2mm]\hline
+    $\mathbb{CP}^{d-1}$ & $d-2$&$0$&$4k (k+d-1)$ &
+    $ \frac{2k+d-1}{d-1}\binom{d+k-2}{d-2}^2$\\[2mm]\hline
+    $\mathbb{HP}^{d-1}$&$2d-3$&$1$ & $4k (k+2d-1)$ &
+    $ \frac{2k+2d-1}{(2d-1)(2d-2)} \binom{k+2d-2}{2d-2} \binom{k+2d-3}{2d-3}$
+    \\[2mm]\hline
+    $\mathbb{OP}^{2}$ & $7$&$3$&$4k (k+11)$ &
+    $ \frac{2k+11}{1320} \binom{k+10}{7} \binom{k+7}{7}$\\
+  \end{tabular}
+  \caption{\label{tab:eigen}
+    The eigenvalues and dimensions of the eigenspaces of the
+    Laplace operator on the projective spaces $\mathbb{FP}^{d-1}$}
+\end{table}
+
+The spaces of eigenfunctions $V_n$ are invariant under the group $G$ acting on
+$\mathbb{FP}^{d-1}$. The corresponding representation turns out to be
+irreducible. Let $Y_{n,k}(x)$ ($k=1,\ldots,m_n$) denote an orthonormal basis of
+$V_n$. Then the addition theorem
+\begin{equation}\label{eq:addition}
+  \sum_{k=1}^{m_n}Y_{n,k}(x)Y_{n,k}(y)=\frac{m_n}{P_n^{(\alpha,\beta)}(1)}
+  P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))
+\end{equation}
+is an immediate consequence of the irreducibility of $V_n$. Furthermore, we
+recall the formula for integrals of zonal functions
+\begin{equation}
+  \label{eq:zonal}
+  \begin{split}
+    &\int_{\mathbb{FP}^{d-1}}f(\cos(2\theta(x,y)))\,d\sigma(x)\\
+    =
+    &C_{\alpha,\beta}\int_0^{\frac\pi2}f(\cos(2\theta))\sin(\theta)^{2\alpha+1}
+    \cos(\theta)^{2\beta+1}\,d\theta,
+  \end{split}
+\end{equation}
+see for instance \cite{Helgason1965:radon_transform}.
+
+Every function 
+$f(\cos(2t))\in L^2([0,\frac\pi2],\sin(t)^{2\alpha+1}\cos(t)^{2\beta+1}\,dt)$
+can be expanded in terms of the orthogonal system
+$P_n^{(\alpha,\beta)}(\cos(2t))$:
+\begin{equation}\label{eq:fourier}
+  f(\cos(2t))=\sum_{n=0}^\infty \widehat{f}(n)P_n^{(\alpha,\beta)}(\cos(2t)),
+\end{equation}
+where the coefficients are given by
+\begin{equation*}
+  \widehat{f}(n)=\frac{C_{\alpha,\beta}m_n}{\left(P_n^{(\alpha,\beta)}(1)\right)^2}
+  \int\limits_0^{\frac\pi 2}f(\cos(2t))P_n^{(\alpha,\beta)}(\cos(2t))
+  \sin(t)^{2\alpha+1}\cos(t)^{2\beta+1}\,dt.
+\end{equation*}
+The convergence in \eqref{eq:fourier} is \emph{a priori} only in the
+$L^2$-sense; for continuous functions $f$ satisfying
+\begin{equation}\label{eq:pos-def}
+  \sum_{j,k=1}^Nc_j\overline{c_k}f(\cos(2\theta(x_j,x_k)))\geq0
+\end{equation}
+for all choices of $N$, $x_1,\ldots,x_N\in X$, and
+$c_1,\ldots,c_N\in\mathbb{C}$, Mercer's theorem ensures absolute and uniform
+convergence of the series \eqref{eq:fourier} (see for instance
+\cite{Ferreira_Menegatto2009:eigenvalues_integral_operators}). Functions
+satisfying \eqref{eq:pos-def} are called \emph{positive definite}. It follows
+from \cite{Bochner1941:Positive_Definite} that positive definite functions are
+characterised by the non-negativity of the coefficients $\widehat{f}(n)$.
+
+\subsection{Hyperuniformity on $\mathbb{FP}^{d-1}$}
+We use similar ideas as in
+\cite{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets,
+  Brauchart_Grabner_Kusner2019:hyperuniform_deterministic}
+to define hyperuniform sequences of point sets in the setting of the spaces
+$\mathbb{FP}^{d-1}$. As in the original euclidean setting the concept is based
+on the \emph{number variance}.
+\begin{definition}\label{def-hyper}
+  Let $(X_N)_{N\in\mathbb{N}}$ a sequence of point sets in $\mathbb{FP}^{d-1}$
+  with $\lim_{N\to\infty}\#X_N=\infty$. The number variance of this sequence is
+  then given by
+  \begin{equation}
+    \label{eq:variance}
+    \begin{split}
+      &\mathbb{V}(X_N,r)=\mathbb{V}_x\#(X_N\cap B(x,r))\\
+      =&
+      \int_{\mathbb{FP}^{d-1}}\left(\sum_{y\in X_N}\mathbbm{1}_{B(x,r)}(y)-
+        \#X_N\sigma(B(x,r))\right)^2\,d\sigma(x).
+    \end{split}
+  \end{equation}
+\end{definition}
+In a probabilistic setting the number variance is the variance of the number of
+points in a geodesic ball of radius $r$. The interest in this quantity stems
+from the fact that it can be used as a measure for the quality of a point
+distribution in the deterministic as well as the probabilistic setting.
+
+\begin{remark}
+  The number variance is intimately related to the $L^2$-discrepancy
+  \begin{equation*}
+    \mathrm{D}_{L^2}(X_N)=\frac1{\#X_N}
+    \left(\int_0^{\frac\pi2}\mathbb{V}(X_N,r)\,dr\right)^{\frac12}.
+  \end{equation*}
+  This notion is a classical measure for the deviation of the discrete
+  distribution $\frac1{\#X_N}\sum_{x\in X_N}\delta_x$ from uniform
+  distribution. $L^2$-discrepancy has been studied to find lower bounds for this
+  deviation; the theory of \emph{irregularities of distribution} has developed
+  techniques to derive lower bounds for various notions of discrepancy. For a
+  comprehensive introduction and a very good overview over results in this
+  context we refer to \cite{Beck_Chen2008:irregularities_distribution}.
+\end{remark}
+\begin{remark}\label{rem:invariance}
+  Stolarsky's celebrated invariance principle
+  \cite{Stolarsky1973:sums_distances_sphere} relates the $L^2$-discrepancy of
+  a point set $X_N$ on the sphere $\mathbb{S}^d$ to the sum of mutual chordal
+  distances
+  \begin{equation}\label{eq:invariance}
+    \mathrm{D}_{L^2}(X_N)^2+c_d\frac1{(\#X_N)^2}\sum_{x,y\in X_N}\|x-y\|=
+    c_d\iint_{\mathbb{S}^d\times\mathbb{S}^d}\|x-y\|\,d\sigma(x)\,d\sigma(y)
+  \end{equation}
+  for a suitable constant $c_d$. This shows that the $L^2$-discrepancy is
+  minimised for sets maximising the sum of mutual distances.
+
+  This invariance principle was generalised to the projective spaces
+  $\mathbb{FP}^{d-1}$ by Skriganov
+  \cite{Skriganov2020:stolarskys_invariance_principle}. Furthermore, it is
+  observed there that the invariance principle is a special case of a much more
+  general relation.
+\end{remark}
+
+As in
+the classical notion of hyperuniformity we will be interested in the dependence
+of the number variance on the radius $r$. Three regimes turn out to be of
+interest.
+\begin{definition} \label{def:hyperuniformity.projective.space}
+  A sequence of point sets $(X_N)_{N\in\mathbb{N}}$ is called
+  \begin{enumerate}
+  \item hyperuniform for large balls, if for every $r\in(0,\frac\pi2)$
+    \begin{equation*}
+      \mathbb{V}(X_N,r)=o\left(\#X_N\right),
+    \end{equation*}
+  \item hyperuniform for small balls, if for every sequence of
+    $(r_N)_{N\in\mathbb{N}}$ of radii satisfying
+    \begin{align*}
+      &\lim_{N\to\infty}r_N=0\\
+      &\lim_{N\to\infty}\sigma(B(\cdot,r_N))\#X_N=\infty
+    \end{align*}
+    the following holds
+    \begin{equation*}
+      \mathbb{V}(X_N,r)=o\left(\#X_N\sigma(B(\cdot,r_N))\right),
+    \end{equation*}
+  \item hyperuniform for balls at threshold order, if
+    \begin{equation*}
+      \limsup_{N\to\infty}\mathbb{V}(X_N,r(\#X_N)^{-\frac1D})=\mathcal{O}(r^{D-1})
+    \end{equation*}
+    for $r\to\infty$.
+  \end{enumerate}
+\end{definition}
+We notice that hyperuniformity at threshold order is obtained by rescaling and
+adapting the classical notion to the compact situation. The motivation for the
+order $r^{D-1}$ on the right hand side comes from the order of the surface area
+of the geodesic sphere; i.i.d. random points would achieve the order
+$r^D$. Furthermore, it is clear that a smaller order of magnitude than
+$(\#X_N)^{-\frac1D}$ for the radii would not be sensible, because then the
+expected number of points in a ball would tend to $0$.  The other two notions
+of hyperuniformity have no obvious counterpart in the classical setting. All
+three notions have in common that the number variance is required to have
+smaller order of magnitude than the variance of i.i.d. random point sets of the
+same cardinality.
+\subsection{Uniform distribution}\label{sec:uniform-distribution}
+Uniform distribution is a notion that formalises the discretisation of
+measures.
+\begin{definition}
+  A sequence of of point sets $(X_N)_{N\in\mathbb{N}}$ in $\mathbb{FP}^{d-1}$
+  with $\lim_{N\to\infty}\#X_N=\infty$ is called uniformly distributed, if
+  \begin{equation*}
+    \lim_{N\to\infty}\frac1{\#X_N}\sum_{x\in
+      X_N}\mathbbm{1}_{B(x,r)}=\sigma(B(x,r))
+  \end{equation*}
+  for all $x\in \mathbb{FP}^{d-1}$ and $r\in[0,\frac\pi2]$.
+\end{definition}
+For a comprehensive introduction to uniform distribution we refer to
+\cite{Drmota_Tichy1997:sequences_discrepancies_applications,
+  Kuipers_Niederreiter1974:uniform_distribution_sequences}.
+
+From the general theory (see
+\cite{Kuipers_Niederreiter1974:uniform_distribution_sequences}) it is known
+that a sequence of point sets is uniformly distributed, if and only if
+\begin{equation*}
+  \lim_{N\to\infty}\frac1{\#X_N}\sum_{x\in X_N}f(x)=
+  \int_{\mathbb{FP}^{d-1}}f(x)\,d\sigma(x)
+\end{equation*}
+for all continuous functions $f:\mathbb{FP}^{d-1}\to\mathbb{C}$. From this it
+follows immediately (using the denseness of the Laplace eigenfunctions and the
+addition theorem \eqref{eq:addition}) that $(X_N)_{N\in\mathbb{N}}$ is
+uniformly distributed, if and only if
+\begin{equation}\label{eq:Weyl}
+  \lim_{N\to\infty}\frac1{(\#X_N)^2}\sum_{x,y\in X_N}P_n^{(\alpha,\beta)}
+  (\cos(2\theta(x,y)))=0
+\end{equation}
+for all $n\geq1$.
+
+We now want to relate hyperuniformity to uniform distribution. Since uniform
+distribution is a property modelled after the law of large numbers, which holds
+especially for i.i.d. random points, and hyperuniformity is modelled as a
+property ``better than i.i.d. random points'', we can only expect that
+hyperuniformity implies uniform distribution.
+
+In order to show that in all three regimes, we first derive an expression for
+the number variance of $X_N$ in terms of Jacobi polynomials. We observe that
+$\mathbbm{1}_{B(x,r)}(y)=\mathbbm{1}_{[0,r)}(\theta(x,y))$ is a zonal
+function. Thus we can expand it as a series in terms of Jacobi polynomials in
+$\cos(2\theta(x,y))$. Using the formula
+\begin{multline*}
+  \int_0^rP_n^{(\alpha,\beta)}(\cos(2t))\sin(t)^{2\alpha+1}\cos(t)^{2\beta+1}\,dt\\
+  =  \frac1{2n}\sin(r)^{2\alpha+2}\cos(r)^{2\beta+2}
+  P_{n-1}^{(\alpha+1,\beta+1)}(\cos(2r))
+\end{multline*}
+for $n\geq1$ (see
+\cite{Magnus_Oberhettinger_Soni1966:formulas_theorems_special}), we obtain
+\begin{equation*}
+  \mathbbm{1}_{B(x,r)}(y)=\sigma(B(x,r))+
+  \sum_{n=1}^\infty\frac{C_{\alpha,\beta}m_n}{P_n^{\alpha,\beta}(1)}a_n(r)
+  P_n^{(\alpha,\beta)}(\cos(2\theta(x,y))).
+\end{equation*}
+with
+\begin{equation*}
+  a_n(r)=\frac1{2nP_n^{\alpha,\beta}(1)}\sin(r)^{2\alpha+2}\cos(r)^{2\beta+2}
+  P_{n-1}^{(\alpha+1,\beta+1)}(\cos(2r)).
+\end{equation*}
+
+This equation is valid in the $L^2$-sense. Applying Parseval's identity we
+obtain
+\begin{equation}
+  \label{eq:var-Jacobi}
+\mathbb{V}(X_n,r)=
+\sum_{n=1}^\infty
+    \frac{C_{\alpha,\beta}^2m_n}{P_n^{\alpha,\beta}(1)}a_n(r)^2
+    \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y))).
+\end{equation}
+This series is absolutely and uniformly (as a function of $x$ and $y$)
+convergent by Mercer's theorem. Notice that the function
+\begin{equation}\label{eq:g_r-formula}
+  \begin{split}
+    g_r(x,y)&=\!\!\!\!\int\limits_{\mathbb{FP}^{d-1}}\!\!\!
+    \left(\mathbbm{1}_{B(x,r)}(z)-\sigma(B(x,r))\right)
+    \left(\mathbbm{1}_{B(y,r)}(z)-\sigma(B(y,r))\right)\,d\sigma(z)\\
+    &=\sigma(B(x,r)\cap B(y,r))-\sigma(B(\cdot,r))^2
+  \end{split}
+\end{equation}
+is positive definite and that
+\begin{equation}\label{eq:v=gr}
+  \mathbb{V}(X_N,r)=\sum_{x,y\in X_N}g_r(x,y).
+\end{equation}
+
+
+\subsubsection{Hyperuniformity for large balls implies uniform
+  distribution}\label{sec:hyper-large-balls}
+Assume now that $(X_N)_{N\in\mathbb{N}}$ is hyperuniform for large balls. For
+fixed $n$ choose a distance $0<r<\frac\pi2$ such that
+$P_n^{(\alpha,\beta)}(\cos(2r))\neq0$. Then equation \eqref{eq:var-Jacobi}
+yields
+\begin{multline*}
+  0=\lim_{N\to\infty}\frac{\mathbb{V}(X_N,r)}{\#X_N}\geq\\
+  \frac{C_{\alpha,\beta}^2m_n}{P_n^{\alpha,\beta}(1)}a_n(r)^2
+  \lim_{N\to\infty}\frac1{\#X_N}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y))).
+\end{multline*}
+This proves
+\begin{theorem}\label{thm:large}
+  Let $(X_N)_{N\in\mathbb{N}}$ be hyperuniform for large balls. Then
+  $(X_N)_{N\in\mathbb{N}}$ is uniformly distributed. More precisely,
+  \begin{equation}\label{eq:Weyl-better}
+    \lim_{N\to\infty}\frac1{\#X_N}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))=0
+\end{equation}
+holds for all $n\geq1$.
+\end{theorem}
+\begin{remark}
+  Notice that \eqref{eq:Weyl-better} gives a better rate of convergence as
+  compared to the criterion \eqref{eq:Weyl} for uniform distribution. This
+  reflects the heuristic expectation that hyperuniformity should give an
+  improved quality of uniform distribution.
+\end{remark}
+
+\subsubsection{Hyperuniformity for small balls implies uniform
+  distribution}\label{sec:hyper-small-balls}
+Assume that $(X_N)_{N\in\mathbb{N}}$ is hyperuniform for small
+balls. Furthermore, we observe that for fixed $n\geq1$ the coeffient of
+$P_n^{(\alpha,\beta)}$ in \eqref{eq:var-Jacobi} is of order $r_N^{2D}$ for
+$N\to\infty$ (notice that $4\alpha+4=2D$). Arguing as above we obtain that
+\begin{equation*}
+  \lim_{N\to\infty}\frac{\mathbb{V}(X_N,r_N)}{\#X_N\sigma(B(\cdot,r_N))}=0
+\end{equation*}
+implies
+\begin{equation*}
+  \lim_{N\to\infty}\frac{r_N^D}{\#X_N}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))=0.
+\end{equation*}
+Since $r_N$ can be chosen to tend to $0$ arbitrarily slowly, this implies
+\begin{equation*}
+  \limsup_{N\to\infty}\frac{1}{\#X_N}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))<\infty.
+\end{equation*}
+Thus we have shown
+\begin{theorem}\label{thm:small}
+  Let $(X_N)_{N\in\mathbb{N}}$ be hyperuniform for small balls. Then
+  $(X_N)_{N\in\mathbb{N}}$ is uniformly distributed. More precisely,
+  \begin{equation}\label{eq:Weyl-better2}
+    \limsup_{N\to\infty}\frac1{\#X_N}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))<\infty
+\end{equation}
+holds for all $n\geq1$.
+\end{theorem}
+\begin{remark}
+  Notice that we have an improvement in the quality of uniform distribution in
+  comparison with \eqref{eq:Weyl} by a power $(\#X_N)^{1-\eps}$ for $\eps>0$.
+\end{remark}
+\subsubsection{Hyperuniformity for balls at threshold order implies
+  uniform distribution}\label{sec:hyper-balls-threshold}
+Assume that $(X_N)_{N\in\mathbb{N}}$ is hyperuniform for balls at threshold
+order. For fixed $n\geq 1$ we notice that
+\begin{equation*}
+  a_n(r(\#X_N)^{-\frac1D})^2
+  \sim
+  \frac{P_{n-1}^{(\alpha+1,\beta+1)}(1)^2}{(2nP_n^{(\alpha,\beta)}(1))^2}
+  \frac{r^{2D}}{(\#X_N)^2}.
+\end{equation*}
+Combining this with \eqref{eq:var-Jacobi} gives
+\begin{multline*}
+  r^{2D}\frac{C_{\alpha,\beta}^2m_nP_{n-1}^{(\alpha+1,\beta+1)}(1)^2}
+  {(2n)^2(P_n^{\alpha,\beta}(1))^3}
+  \limsup_{N\to\infty}\frac1{(\#X_N)^2}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))\\
+  \leq
+  \limsup_{N\to\infty}\mathbb{V}(X_N,r(\#X_N)^{-\frac1D})=\mathcal{O}(r^{D-1}).
+\end{multline*}
+This can only hold, if
+\begin{equation*}
+  \limsup_{N\to\infty}\frac1{(\#X_N)^2}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))=0.
+\end{equation*}
+Summing up, we have proved
+\begin{theorem}
+  Let $(X_N)_{N\in\mathbb{N}}$ be hyperuniform for balls at threshold
+  order. Then $(X_N)_{N\in\mathbb{N}}$ is uniformly distributed.
+\end{theorem}
+\begin{remark}
+  In this case there seems to be no improvement in the order of convergence of
+  the sum \eqref{eq:Weyl}.
+\end{remark}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Main"
+%%% End:

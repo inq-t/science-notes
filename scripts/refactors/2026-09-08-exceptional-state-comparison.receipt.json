@@ -1,0 +1,43 @@
+{
+  "manifest": "scripts/refactors/2026-09-08-exceptional-state-comparison.json",
+  "moves": [
+    {
+      "from": "algebra/exceptional-context-response.md",
+      "to": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+      "before_sha256": "907e641891bccecc9db76dc0b1d8591bc422dc36df17584ea73450e497e189fc",
+      "after_sha256": "3352f96f6a59220e8c889d3ed33e28584e3d1ed270f278bb68254307aae736bf"
+    },
+    {
+      "from": "algebra/primitive-peirce-response.md",
+      "to": "exceptional-state-comparison/primitive-peirce-response.md",
+      "before_sha256": "2ea2fb8c4ba6b2fa15898a09ed30f28fd7b7c979d19881e3d0ee57a5ac90a977",
+      "after_sha256": "5d731155b555a8b92dea5d2613b38e686f18db5f2de13e45c696433008e41641"
+    },
+    {
+      "from": "algebra/peirce-context-averaging-and-the-emergent-qubit-process.md",
+      "to": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+      "before_sha256": "ebd4f963b1685196f08a7f50a7813e6f261073fc7a0011f535fccae6c8759eec",
+      "after_sha256": "a0216aa100b38ebfed102c4c5824d02530e76ea88761fe27aec1f6962df76696"
+    },
+    {
+      "from": "algebra/receipts/exceptional_flag_linearization_receipt.py",
+      "to": "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py",
+      "before_sha256": "24ad2d5b362335bed4622190fd0f7d43812989b2ba06fb179561f79ec61548d4",
+      "after_sha256": "24ad2d5b362335bed4622190fd0f7d43812989b2ba06fb179561f79ec61548d4"
+    },
+    {
+      "from": "algebra/receipts/exceptional-flag-linearization-receipt-output.txt",
+      "to": "exceptional-gauge-realization/receipts/exceptional-flag-linearization-receipt-output.txt",
+      "before_sha256": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795",
+      "after_sha256": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795"
+    },
+    {
+      "from": "algebra/receipts/primitive_peirce_response_receipt.py",
+      "to": "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py",
+      "before_sha256": "15573d7354cff1b66634e63c93f1058beff9cac454927405a1d38f6e84caed7d",
+      "after_sha256": "15573d7354cff1b66634e63c93f1058beff9cac454927405a1d38f6e84caed7d"
+    }
+  ],
+  "link_updates": 32,
+  "frozen_records_verified": 214
+}

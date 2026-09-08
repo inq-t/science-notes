@@ -112,4 +112,4 @@ The generalization must therefore control **all** admitted directions, not merel
 
 Neither result identifies \(N\) with proper time or its eigenvalues with mass. A physical extension must determine the partner, its allowed matrix or field directions, an independently normalized state norm, and a comparison with physical energy. [[hessian-response-geometry/relative-response-spectrum|Relative response geometry]] prevents a change of metric from supplying a bound by definition.
 
-[[algebra/receipts/positivity_rigidity_audit_receipt.py|The audit receipt]] tests the nonscalar construction and a closing-gap sequence in the unpointed free channel. The simultaneous-diagonalization and spectral statements above are analytic proofs, not consequences of sampling.
+[[binary-information-geometry/receipts/matrix_flat_partner_rigidity_receipt.py|The audit receipt]] tests the nonscalar construction and a closing-gap sequence in the unpointed free channel. The simultaneous-diagonalization and spectral statements above are analytic proofs, not consequences of sampling.

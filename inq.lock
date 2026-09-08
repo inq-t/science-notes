@@ -103,6 +103,15 @@ name = "adapting-the-gibbs-sampler"
 name = "adiabatic-modes-in-cosmology"
 
 [[local]]
+name = "albert-algebra"
+
+[local.links]
+a-note-on-the-exceptional-jordan-algebra = "local:a-note-on-the-exceptional-jordan-algebra"
+exceptional-lie-groups-yokota = "local:exceptional-lie-groups-yokota"
+general-representation-theory-of-jordan-algebras = "local:general-representation-theory-of-jordan-algebras"
+stability-of-compact-symmetric-spaces = "local:stability-of-compact-symmetric-spaces"
+
+[[local]]
 name = "algebra"
 
 [local.links]
@@ -125,6 +134,7 @@ descent = "local:descent"
 directed-analytic-realization = "local:directed-analytic-realization"
 directed-isometric-residue-completion = "local:directed-isometric-residue-completion"
 exceptional-gauge-realization = "local:exceptional-gauge-realization"
+exceptional-state-comparison = "local:exceptional-state-comparison"
 formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
 gauge-boundary-frame-gluing = "local:gauge-boundary-frame-gluing"
 gauge-cycle-innovation-filtration = "local:gauge-cycle-innovation-filtration"
@@ -133,7 +143,6 @@ general-causal-action = "local:general-causal-action"
 global-local-response-reconstruction = "local:global-local-response-reconstruction"
 hessian-response-geometry = "local:hessian-response-geometry"
 hessians = "local:hessians"
-hyperuniform-point-sets-on-projective-spaces = "local:hyperuniform-point-sets-on-projective-spaces"
 jordan-algebras-exceptional-groups-and-higher-composition-laws = "local:jordan-algebras-exceptional-groups-and-higher-composition-laws"
 knotting-as-dimensional-presentation = "local:knotting-as-dimensional-presentation"
 ko-dimension-as-morita-class = "local:ko-dimension-as-morita-class"
@@ -146,11 +155,11 @@ modular-cocycle-tomography = "local:modular-cocycle-tomography"
 physical-response-coercivity = "local:physical-response-coercivity"
 planar-algebraic-conditional-expectations = "local:planar-algebraic-conditional-expectations"
 pointed-cp-fusion-residue = "local:pointed-cp-fusion-residue"
+primitive-state-diffusion = "local:primitive-state-diffusion"
 principle-of-least-action = "local:principle-of-least-action"
 program-core = "local:program-core"
 rg-covariance-residue = "local:rg-covariance-residue"
 spectral-wall-descent = "local:spectral-wall-descent"
-stability-of-compact-symmetric-spaces = "local:stability-of-compact-symmetric-spaces"
 stacks = "local:stacks"
 strong-coupling-gap-and-continuum-crossover = "local:strong-coupling-gap-and-continuum-crossover"
 structure-of-uniformly-continuous-quantum-markov-semigroups = "local:structure-of-uniformly-continuous-quantum-markov-semigroups"
@@ -692,6 +701,7 @@ a2-ternary-response = "local:a2-ternary-response"
 algebra = "local:algebra"
 complex-structure-on-s6 = "local:complex-structure-on-s6"
 complex-structures-on-s6-engel = "local:complex-structures-on-s6-engel"
+exceptional-state-comparison = "local:exceptional-state-comparison"
 formalization-of-the-hopf-problem = "local:formalization-of-the-hopf-problem"
 the-grain-of-causal-scale = "local:the-grain-of-causal-scale"
 triangle-descent-response = "local:triangle-descent-response"
@@ -1328,6 +1338,22 @@ yang-mills-mass-gap = "local:yang-mills-mass-gap"
 name = "exceptional-lie-groups-yokota"
 
 [[local]]
+name = "exceptional-state-comparison"
+
+[local.links]
+albert-algebra = "local:albert-algebra"
+algebra = "local:algebra"
+channel-loss-and-recovery = "local:channel-loss-and-recovery"
+directed-analytic-realization = "local:directed-analytic-realization"
+exceptional-gauge-realization = "local:exceptional-gauge-realization"
+exceptional-lie-groups-yokota = "local:exceptional-lie-groups-yokota"
+global-local-response-reconstruction = "local:global-local-response-reconstruction"
+hessian-response-geometry = "local:hessian-response-geometry"
+primitive-state-diffusion = "local:primitive-state-diffusion"
+stability-of-compact-symmetric-spaces = "local:stability-of-compact-symmetric-spaces"
+trace-dirichlet-descent = "local:trace-dirichlet-descent"
+
+[[local]]
 name = "existence-of-glueballs-in-strongly-coupled-lattice-gauge-theories"
 
 [[local]]
@@ -1474,6 +1500,7 @@ ito-maps-and-analysis-on-path-spaces = "local:ito-maps-and-analysis-on-path-spac
 local-subsystems-in-gauge-theory-and-gravity = "local:local-subsystems-in-gauge-theory-and-gravity"
 mass-scale-calibration = "local:mass-scale-calibration"
 measured-response-carriers = "local:measured-response-carriers"
+primitive-state-diffusion = "local:primitive-state-diffusion"
 principle-of-least-action = "local:principle-of-least-action"
 program-core = "local:program-core"
 remarks-on-entanglement-entropy-for-gauge-fields = "local:remarks-on-entanglement-entropy-for-gauge-fields"
@@ -1540,6 +1567,7 @@ gauge-boundary-frame-gluing = "local:gauge-boundary-frame-gluing"
 global-local-response-reconstruction = "local:global-local-response-reconstruction"
 mass-scale-calibration = "local:mass-scale-calibration"
 measured-response-carriers = "local:measured-response-carriers"
+primitive-state-diffusion = "local:primitive-state-diffusion"
 principle-of-least-action = "local:principle-of-least-action"
 program-core = "local:program-core"
 strong-coupling-gap-and-continuum-crossover = "local:strong-coupling-gap-and-continuum-crossover"
@@ -1608,6 +1636,7 @@ equation-of-state-in-2-plus-1-flavor-qcd = "local:equation-of-state-in-2-plus-1-
 exact-scheme-independence = "local:exact-scheme-independence"
 exceptional-gauge-realization = "local:exceptional-gauge-realization"
 exceptional-lie-groups-yokota = "local:exceptional-lie-groups-yokota"
+exceptional-state-comparison = "local:exceptional-state-comparison"
 from-euclidean-field-theory-to-quantum-field-theory = "local:from-euclidean-field-theory-to-quantum-field-theory"
 gauge-boundary-frame-gluing = "local:gauge-boundary-frame-gluing"
 gauge-field-theories-on-a-lattice = "local:gauge-field-theories-on-a-lattice"
@@ -1719,6 +1748,7 @@ name = "hessian-response-geometry"
 algebra = "local:algebra"
 almost-hermitian-structures-on-tangent-bundles = "local:almost-hermitian-structures-on-tangent-bundles"
 bridge-score-fusion-geometry = "local:bridge-score-fusion-geometry"
+exceptional-state-comparison = "local:exceptional-state-comparison"
 geometry-of-the-tangent-bundle = "local:geometry-of-the-tangent-bundle"
 global-local-response-reconstruction = "local:global-local-response-reconstruction"
 hessians = "local:hessians"
@@ -2479,6 +2509,17 @@ sufficient-reason = "local:sufficient-reason"
 
 [[local]]
 name = "precision-study-of-the-continuum-su3-yang-mills-theory"
+
+[[local]]
+name = "primitive-state-diffusion"
+
+[local.links]
+algebra = "local:algebra"
+directed-analytic-realization = "local:directed-analytic-realization"
+directed-isometric-residue-completion = "local:directed-isometric-residue-completion"
+exceptional-state-comparison = "local:exceptional-state-comparison"
+gauge-boundary-frame-gluing = "local:gauge-boundary-frame-gluing"
+hyperuniform-point-sets-on-projective-spaces = "local:hyperuniform-point-sets-on-projective-spaces"
 
 [[local]]
 name = "primordial-gravitational-waves-precisely"

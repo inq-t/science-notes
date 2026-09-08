@@ -1,0 +1,130 @@
+{
+  "kind": "Albert arithmetic extraction and mixed receipt split",
+  "source_commit": "3707d920db171a70b622497fbfd1928b39a93fea",
+  "source_sha256": {
+    "algebra/receipts/exceptional_flag_linearization_receipt.py": "24ad2d5b362335bed4622190fd0f7d43812989b2ba06fb179561f79ec61548d4",
+    "algebra/receipts/primitive_peirce_response_receipt.py": "15573d7354cff1b66634e63c93f1058beff9cac454927405a1d38f6e84caed7d",
+    "algebra/receipts/positivity_rigidity_audit_receipt.py": "c32ac0fa14dda8855f0ce3f89131473bac2ab0d3c5eebaa21eb3a2af9959219e",
+    "algebra/receipts/exceptional-flag-linearization-receipt-output.txt": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795"
+  },
+  "paths": {
+    "coordinates": "albert-algebra/coordinates.py",
+    "flag": "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py",
+    "primitive": "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py",
+    "cyclic": "exceptional-state-comparison/receipts/cyclic_context_response_receipt.py",
+    "reflected": "lorentzian-spectral-envelope/receipts/reflected_hankel_positivity_receipt.py",
+    "matrix": "binary-information-geometry/receipts/matrix_flat_partner_rigidity_receipt.py"
+  },
+  "retired_path": "algebra/receipts/positivity_rigidity_audit_receipt.py",
+  "code_sections": [
+    {
+      "source": "algebra/receipts/exceptional_flag_linearization_receipt.py",
+      "source_lines": [
+        25,
+        160
+      ],
+      "target": "albert-algebra/coordinates.py",
+      "scope": "Exact dimensions, Fano table, octonion and Hermitian coordinate functions, FULL_BASIS; flag-specific constants omitted."
+    },
+    {
+      "source": "algebra/receipts/exceptional_flag_linearization_receipt.py",
+      "target": "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py",
+      "scope": "Flag constraints, chosen B/C indices, integer Jacobian and modular-rank checks remain; generic arithmetic imported."
+    },
+    {
+      "source": "algebra/receipts/primitive_peirce_response_receipt.py",
+      "target": "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py",
+      "scope": "Receipt function ASTs unchanged; import now resolves the shared coordinate file from __file__."
+    },
+    {
+      "source": "algebra/receipts/positivity_rigidity_audit_receipt.py",
+      "source_lines": [
+        26,
+        112
+      ],
+      "target": "exceptional-state-comparison/receipts/cyclic_context_response_receipt.py",
+      "scope": "Albert/CP finite checks unchanged except local spelling B_INDICES replaces jordan.B_INDICES."
+    },
+    {
+      "source": "algebra/receipts/positivity_rigidity_audit_receipt.py",
+      "source_lines": [
+        113,
+        128
+      ],
+      "target": "lorentzian-spectral-envelope/receipts/reflected_hankel_positivity_receipt.py",
+      "scope": "Reflected Hankel and positive Laplace controls unchanged."
+    },
+    {
+      "source": "algebra/receipts/positivity_rigidity_audit_receipt.py",
+      "source_lines": [
+        129,
+        160
+      ],
+      "target": "binary-information-geometry/receipts/matrix_flat_partner_rigidity_receipt.py",
+      "scope": "Matrix Riccati and broad-Gaussian free-channel checks unchanged."
+    }
+  ],
+  "validation": {
+    "runtime": "Python 3.12.14; NumPy 2.3.5",
+    "baseline_stdout": {
+      "exceptional_flag_linearization_receipt.py": "PASS variable dimension: 27 + 9*18 = 189\nPASS standard flag orbit dimension: 52 - 12 = 40\nPASS integral Jacobian shape: 874 x 189\nPASS Jacobian ranks modulo five primes: 1009:149, 10007:149, 100003:149, 1000003:149, 1000033:149\nPASS rational nullity upper bound: 189 - 149 = 40\nPASS kernel equality: the 40-dimensional equivariant orbit tangent is the full rational kernel\nSUMMARY 6/6 checks passed\n",
+      "primitive_peirce_response_receipt.py": "PASS exact polynomial for 8D, roots: (0, 24, 40, 48, 96, 144)\nPASS conservative integer intermediate bounds: [192, 41472, 9621504, 2309160960, 665038356480, 223452887777280]\nPASS matrix certificate: shape=(729, 729), nnz=10653, max_entry=80\nPASS multiplier identities and sharp eigenvalue-3 witness\nPASS numerical adjoint-context diagnostic: rank 52, retained 16, lost 36\nPASS Peirce ranks (1,16,10) and balance loss ratio 6/13\nPASS finite commutator comparisons and entropy controls\nSCOPE orbit moment and scalar-only kernel use the analytic proof\nSCOPE no assertion of continuum coverage or physical clock rate\n",
+      "positivity_rigidity_audit_receipt.py": "PASS Albert/CP identities; max variance error 9.71e-17\nPASS entropy half-Hessian; max coefficient error 9.12e-09\nPASS explicit full-matrix invisible balance direction\nSCOPE Haar-frame theorem uses cited irreducibility, not numerical averaging\nPASS nine negative sech reflected minors and positive Laplace controls\nPASS noncommuting flat partner; max Riccati error 4.67e-10\nPASS free-channel trial energies: [0.5, 0.125, 0.03125, 0.0078125, 0.001953125]\nSUMMARY all finite checks passed; no physical mass-gap claim\n"
+    },
+    "before": "All three original receipts exited 0 before file moves.",
+    "code_preservation": "Extracted arithmetic and retained flag/Peirce function ASTs are identical to source; mixed main blocks are extracted verbatim except the explicit local B_INDICES reference.",
+    "octonion_convention_comparison": "All 64 basis products match the independent Cayley-Dickson implementation in directed-analytic-realization/positive_cone_process_receipt.py; that module and its consumers are unchanged.",
+    "after": "All seven receipts exited 0 from unrelated cwd C:/ using absolute script paths and python -B.",
+    "after_stdout": {
+      "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS variable dimension: 27 + 9*18 = 189\nPASS standard flag orbit dimension: 52 - 12 = 40\nPASS integral Jacobian shape: 874 x 189\nPASS Jacobian ranks modulo five primes: 1009:149, 10007:149, 100003:149, 1000003:149, 1000033:149\nPASS rational nullity upper bound: 189 - 149 = 40\nPASS kernel equality: the 40-dimensional equivariant orbit tangent is the full rational kernel\nSUMMARY 6/6 checks passed\n"
+      },
+      "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS exact polynomial for 8D, roots: (0, 24, 40, 48, 96, 144)\nPASS conservative integer intermediate bounds: [192, 41472, 9621504, 2309160960, 665038356480, 223452887777280]\nPASS matrix certificate: shape=(729, 729), nnz=10653, max_entry=80\nPASS multiplier identities and sharp eigenvalue-3 witness\nPASS numerical adjoint-context diagnostic: rank 52, retained 16, lost 36\nPASS Peirce ranks (1,16,10) and balance loss ratio 6/13\nPASS finite commutator comparisons and entropy controls\nSCOPE orbit moment and scalar-only kernel use the analytic proof\nSCOPE no assertion of continuum coverage or physical clock rate\n"
+      },
+      "exceptional-state-comparison/receipts/cyclic_context_response_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS Albert/CP identities; max variance error 9.71e-17\nPASS entropy half-Hessian; max coefficient error 9.12e-09\nPASS explicit full-matrix invisible balance direction\nSCOPE Haar-frame theorem uses cited irreducibility, not numerical averaging\n"
+      },
+      "lorentzian-spectral-envelope/receipts/reflected_hankel_positivity_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS nine negative sech reflected minors and positive Laplace controls\n"
+      },
+      "binary-information-geometry/receipts/matrix_flat_partner_rigidity_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS noncommuting flat partner; max Riccati error 4.67e-10\nPASS free-channel trial energies: [0.5, 0.125, 0.03125, 0.0078125, 0.001953125]\n"
+      },
+      "directed-analytic-realization/context_transport_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS: all 84 coordinate rank-three projections average to I9/3; compressed Bloch mean I3/3.\nPASS: exact depolarizer weights (1/2,1/6,1/6,1/6) and unit-rate centered gap 2/3.\nPASS: Bloch diag(1,1,0) has weight -1/4 and a negative Choi witness.\nPASS: seven exact Bloch states obey the six-record POVM, reconstruction, and r/3 preparation identities.\nPASS: five exact isotropic Choi PT spectra verify the 1/3 and 3/n thresholds; Poisson time checked numerically.\nPASS: exact plaquette holonomy -I; four graph families have length 4, defect 4, overlap 2.\nPASS: 32 matrix-free probes satisfy the gluing bound 1/2; all 332 Fourier blocks checked.\nPASS: constant aligned spinors attain 2d-2sqrt(d); nonconstant Fourier forms agree.\nPASS: six adjoint scalar sectors reduce to graph gaps 2-2cos(2pi/L), L=4,8,16.\nPASS: exact L=4 adjoint sign frames flatten both d=2,3 graphs; eight parallel matrix fields and full forms checked.\nAll ten check groups passed. Stdlib only; stdout only; no files written.\nCoordinate averaging is not Spin(9) Haar sampling; graph probes are not a continuum proof.\nU(2) spinor holonomy coercivity does not control the adjoint neutral scalar modes.\n"
+      },
+      "directed-analytic-realization/sphere_ball_descent_receipt.py": {
+        "exit_code": 0,
+        "stdout": "PASS: 125 exact polynomial pullbacks match the ambient rotational Casimir modulo the sphere equation and its triangular degree spectrum.\nPASS: 79 exact low-degree eigenpolynomials have eigenvalues ell(ell+n-2); the n=9 coordinate quotient attains 8.\nPASS: 1741 exact moment pairings verify the weighted Dirichlet integration-by-parts identity on low polynomials.\nPASS: exact radial beta normalization gives 105/(32pi); 35 independent radial/angular moments match the n=9 sphere formula.\nPASS: three exact nonsymmetric hidden rotations change the whole generator but annihilate all 35 tested retained polynomials.\nPASS: three discrete probability chain rules, repeated-projection zero loss, and nine numerical Hessian probes agree with the exact finite loss form.\nPASS: three exact rank-one projection pairs show that deleting zero eigenvalues loses the compositional angle cost.\nPASS: 64 Jordan covariances, 16 SLD equations, 36 complex affine products and 216 associativity checks are exact; the nonaffine associator and distinct symbol/matrix norms delimit the construction.\nPASS: nine exact hemisphere jets verify the entropy-weight Hessian, effective Ricci cancellation, and descended divergence drift.\nPASS: 220 exact shifted-Jacobi/Beta integrations match falling(k,ell)/rising(k+rho,ell), including 102 integrated zero tails.\nPASS: 16 independent kernel normalizations and displacement moments give Z_k=(a)_k/(a+b)_k and E_k[2(1-t)]=2b/(k+a+b); finite-head edges equal rho*k/(k+rho).\nOverlap refinement: H_k=k(I-B_k); displayed degrees ell=1,2,4, not a harmonic cutoff proof.\nS8: rho=8, limiting eigenvalues=(8, 18, 44)\n  k=   1: 0.888888889, 1.000000000, 1.000000000\n  k=   4: 2.666666667, 3.692307692, 3.997069597\n  k=  16: 5.333333333, 9.600000000, 14.340740741\n  k=  64: 7.111111111, 14.904109589, 30.544025670\n  k= 256: 7.757575758, 17.125214408, 39.861740423\n  k=1024: 7.937984496, 17.774015624, 42.904514050\nOP2: rho=12, limiting eigenvalues=(12, 26, 60)\n  k=   1: 0.923076923, 1.000000000, 1.000000000\n  k=   4: 3.000000000, 3.823529412, 3.998968008\n  k=  16: 6.857142857, 11.270935961, 15.074527253\n  k=  64: 10.105263158, 19.904306220, 36.935749128\n  k= 256: 11.462686567, 24.189535593, 52.411041907\n  k=1024: 11.861003861, 25.525368322, 57.947403740\nThe full-harmonic spectrum and operator convergence require the shared decomposition/tail theorem; these exact finite integrations do not supply it.\nAll ten check groups passed. Stdlib only; stdout only; no files written.\nExact low-degree identities and finite entropy calibrations do not prove global domains or a continuum spectral theorem.\nThe three Bloch coordinates are not, by this calculation, three spatial coordinates or a spacetime observable net.\n"
+      }
+    },
+    "stdout_comparison": "Flag and Peirce outputs exactly match normalized baseline stdout. Concatenating cyclic, reflected, and matrix outputs exactly reproduces every original mixed-receipt line except its single retired aggregate SUMMARY line.",
+    "split_ast_comparison": "Concatenating the three new main bodies exactly matches the old main AST excluding its aggregate summary, after undoing only the declared local B_INDICES spelling.",
+    "flag_output_preservation": {
+      "path": "exceptional-gauge-realization/receipts/exceptional-flag-linearization-receipt-output.txt",
+      "sha256": "b6639abe7a50fe41fa3dc2bfd6d0fe546b7a023f039955cd3b2abc19ac2b8795",
+      "byte_identical_to_source": true
+    },
+    "unchanged_shared_receipt_cluster": [
+      "directed-analytic-realization/context_transport_receipt.py",
+      "directed-analytic-realization/sphere_ball_descent_receipt.py"
+    ],
+    "lf_newlines": true,
+    "retired_script_removed_after_checks": true
+  },
+  "target_sha256": {
+    "albert-algebra/coordinates.py": "887034d63064c3f5a58a5f812f67c8ffd22e64e2d20a00e332571f258b62107b",
+    "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py": "cad3f59ccc7c3501c0e34f187fc0bb17c530e8fe900bbdcca10daeb1c78efe1a",
+    "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py": "c21968a5fb5a32dcb45f0340ab6d4df5f1d6abf6ba6edf06beca27c1f59b6ba4",
+    "exceptional-state-comparison/receipts/cyclic_context_response_receipt.py": "54fa74d9ef57480866153751fa060d08235500cd604d00dcdc067767543f5a3b",
+    "lorentzian-spectral-envelope/receipts/reflected_hankel_positivity_receipt.py": "73ceaa8d982d7254af0e862c3743460564d971210148671106b2dcb68c8c21f2",
+    "binary-information-geometry/receipts/matrix_flat_partner_rigidity_receipt.py": "ac2791df349fa0d919bdce85394654a6ee3172e939a84f4a6ca933dcc0abe990"
+  }
+}

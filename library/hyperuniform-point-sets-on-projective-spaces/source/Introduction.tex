@@ -1,0 +1,63 @@
+\section{Introduction}\label{sec:introduction}
+
+The quantitative characterisation of density fluctuation in many-particle systems led to the introduction of the concept of ``hyperuniformity'' (S. Torquato; cf. \cite{Torquato_Stillinger2003:local_density_fluctuations}) also called ``superhomogeneity'' (J.~Lebowitz, cf. \cite{Ghosh_Lebowitz2018:generalized_stealthy_hyperuniform_processes}).
+
+% non-compact setting
+
+The main feature of hyperuniformity of an infinite discrete point configuration $X$ in $\mathbb{R}^d$ is the fact that local density fluctuations are of smaller order than for a random (“Poissonian”) point configuration. In terms of the structure factor
+\begin{equation*}
+S(\mathbf{k})=\lim_{B\to\mathbb{R}^d}\frac1{\#(B\cap X)} \sum_{\mathbf{x},\mathbf{y}\in B\cap X}e^{i\langle\mathbf{k},\mathbf{x}-\mathbf{y}\rangle}\quad \text{(thermodynamic limit)}
+\end{equation*}
+this means that $\lim_{\mathbf{k}\to\mathbf{0}}S(\mathbf{k})=0$; i.e., normalised density fluctuations are completely suppressed at very large length-scales (cf.~\cite{Torquato_Stillinger2003:local_density_fluctuations}). This
+\emph{thermodynamic limit} is understood in the sense that the volume $B$ (for instance a ball of radius $R$) tends to the whole space $\mathbb{R}^d$ while $\lim_{B\to\mathbb{R}^d}\frac{\#(B\cap  X)}{\mathrm{vol}(B)}=\rho$, where $\rho$ is the density. 
+%
+Equivalently, the number variance $\mathbb{V}[N_R]$ (understood in the sense of
+thermodynamic limit) of particles within a spherical observation window of
+radius $R$ can be used. When scaled by the window volume, this ratio tends to
+zero as $R\to \infty$; i.e., $\mathbb{V}[N_R]$ grows more slowly than the
+window volume of order $R^d$ in the large-$R$ limit. When
+\begin{equation*}
+S(\mathbf{k}) \sim \left\| \mathbf{k} \right\|^\alpha \qquad \text{as $\left\| \mathbf{k} \right\| \to \infty$,}
+\end{equation*}
+where $\alpha > 0$, the number variance has the following large-$R$ scaling: 
+\begin{equation*}
+\mathbb{V}[N_R] 
+\sim
+\begin{cases}
+R^{d-1} & \alpha > 1, \\
+R^{d-1} \log R & \alpha = 1, \\
+R^{d-\alpha} & 0 < \alpha < 1. 
+\end{cases}
+\end{equation*}
+This asymptotic behaviour provides a way to distinguish between different classes of hyperuniformity: Class I (strongest), II, and III (weakest). 
+%
+For a thorough discussion and survey regarding, in particular, hyperuniform states of matter, we refer to \cite{Torquato2018:hyperuniform_states_matter}. 
+%
+More recent contributions consider hyperuniformity in biology and geophysics \cite{Ge2023:hidden_order_turing_patterns,hu_Liu_Wa+2023:disordered,zhu2023dispersed}, cryptography \cite{gilpin2018:cryptographic}, and mathematics \cite{bjorklund_hartnick2023:hyperuniformity} to name a few.
+% Coste, S.: Order, fluctuations, rigidities. https://scoste.fr/assets/survey_hyperuniformity.pdf (incomplete survey)
+%
+%
+A nice layman's introduction to hyperuniformity can be found in~\cite{Wolchover2016:birds_eye_view_natures_hidden_order}.
+%
+
+
+% compact setting
+In an answer to a question of S.~Torquato, we together with W.~Kusner~\cite{Brauchart_Grabner_Kusner2019:hyperuniform_deterministic} were able to extend the concept of hyperuniformity to the compact unit sphere $\mathbb{S}^d$ in the Euclidean space $\mathbb{R}^{d+1}$ by considering a fixed sequence of $N$-point distributions and analysing the asymptotic behaviour of the number variance with respect to certain spherical caps as $N \to \infty$. It turns out that there are three regimes of growth of the sperical caps as test sets that are of interest and only the one dubbed ``hyperuniform with respect to threshold order'' can be seen as a direct analogue to the classical notion of hyperuniformity; see  Definition~\ref{def:hyperuniformity.projective.space} below. 
+% 
+In \cite{Brauchart_Grabner_Kusner2019:hyperuniform_deterministic} it is shown that hyperuniformity in each of the three regimes implies uniform distribution. Furthermore, it is proven that so-called Quasi-Monte Carlo design sequences (cf.~\cite{Brauchart_Saff_Sloan+2014:qmc-designs}) with strength at least $\frac{d+1}{2}$, certain energy minimising point set sequences (see, e.g., \cite{Brauchart_Grabner2015:distributing_sphere,Borodachov_Hardin_Saff2019:discreta_energy_on_rectifiable_sets}), and especially sequences of spherical designs of optimal growth order have hyperuniform behaviour. The paper~\cite{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets} studies hyperuniformity on the sphere for samples of point processes on the sphere. The spherical ensemble (cf.~\cite{Hough_Krishnapur_Peres+2009:zeros_gaussian}), the harmonic ensemble introduced in~\cite{Beltran_Marzo_Ortega-Cerda2016:determinantal}, and the jittered sampling process (shown to be a determinantal) exhibit hyperuniform behaviour. 
+
+An essential requirement for our study of the hyperuniformity phenomenon in the compact setting is that the space is homogeneous. Having considered the sphere, it seems natural to turn to doubly homogeneous spaces next, which is the aim of this paper. We point out that another compact setting,  flat tori, is studied in~\cite{Stepanyuk2020:hyperuniform_point_sets}. 
+
+
+The paper is organised as follows. Section~\ref{sec:hyper-comp-doubly} introduces compact doubly homogeneous spaces, briefly discusses their harmonic analysis, and defines hyperuniformity on these spaces. Like in the spherical case \cite{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets, Brauchart_Grabner_Kusner2019:hyperuniform_deterministic}, there are three regimes. We arrive at the result that hyperuniformity, indeed, implies uniform distribution in each case. 
+%
+Section~\ref{sec:examples} discusses examples: maximisers of the sum of distances, jittered sampling, and the harmonic ensemble. 
+
+
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Main"
+%%% End:

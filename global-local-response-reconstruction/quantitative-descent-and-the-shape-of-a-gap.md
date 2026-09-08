@@ -96,7 +96,7 @@ There is an exact counterexample to collapsing the middle rows:
 
 ## A finite exceptional realization of the desired shape
 
-[[algebra/exceptional-context-response|Exceptional context response]] now supplies a constructive template. On \(J=\mathfrak h_3(\mathbb O)\), the prior order-three operation selects \(E=(I+w+w^2)/3\) with complex Jordan range. The exact defect is
+[[exceptional-state-comparison/cyclic-context-retraction-and-response|Exceptional context response]] now supplies a constructive template. On \(J=\mathfrak h_3(\mathbb O)\), the prior order-three operation selects \(E=(I+w+w^2)/3\) with complex Jordan range. The exact defect is
 \[
 E(x^2)-(Ex)^2=E((x-Ex)^2)\ge0.
 \]
@@ -117,7 +117,7 @@ More strongly, the regular operators \(L_x:y\mapsto x\circ y\) intertwine the Jo
 \]
 This is an explicit order-to-information-response map. It requires neither an integrable complex structure on \(S^6\) nor a cosmological origin story.
 
-The cyclic family has an explicit limitation: a nonzero balance tangent between \(\mathbb C\mathbf1\) and \(J_{0,\mathbb C}\) is fixed by every matrix expectation. [[algebra/primitive-peirce-response|The primitive Peirce completion]] repairs this finite gap by adding readouts determined by all primitive idempotents. An exact integer polynomial certificate for the regular-multiplier response gives
+The cyclic family has an explicit limitation: a nonzero balance tangent between \(\mathbb C\mathbf1\) and \(J_{0,\mathbb C}\) is fixed by every matrix expectation. [[exceptional-state-comparison/primitive-peirce-response|The primitive Peirce completion]] repairs this finite gap by adding readouts determined by all primitive idempotents. An exact integer polynomial certificate for the regular-multiplier response gives
 \[
 \mathcal D\ge3(I-P_{\rm sc}),\qquad
 \int\|(I-\Pi_p)T\|_{\rm HS}^2\,dp

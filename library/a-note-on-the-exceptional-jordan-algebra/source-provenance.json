@@ -1,0 +1,13 @@
+{
+  "description": "Primary sources for the finite exceptional-state comparison audit; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.36.7.372",
+      "version": "1950 published article",
+      "attempted_at": "2026-09-08T20:32:30.746825+00:00",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "kind": "retrieval-attempt"
+    }
+  ]
+}

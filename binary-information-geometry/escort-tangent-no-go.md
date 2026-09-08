@@ -1,8 +1,8 @@
-# Binary Translation Is Not the Escort Tangent
+# Escort Tangent No-Go
 
 For the literal balanced two-state family, translation in the exponential coordinate and temperature rescaling of that state's modular Hamiltonian have different BKM norms. Their mismatch at the balanced point rules out their direct identification.
 
-Let
+Let \(Q\) be a self-adjoint involution on \(\mathbb C^2\) with \(\operatorname{Tr}Q=0\), so both eigenvalues occur once, and put
 
 $$
 \rho_\theta
@@ -25,7 +25,7 @@ K_\theta:=-\ln\rho_\theta
 =-\theta Q+\ln(2\cosh\theta)\mathbf1.
 $$
 
-Its centered variance is therefore
+Holding \(\theta\) fixed, the escort curve is \(\rho_{\theta,s}=\rho_\theta^s/\operatorname{Tr}\rho_\theta^s=\rho_{s\theta}\). Its tangent at \(s=1\) is \(\theta\partial_\theta\rho_\theta\). The centered modular variance, equal to its BKM squared norm, is therefore
 
 $$
 \boxed{

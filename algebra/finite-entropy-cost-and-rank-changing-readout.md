@@ -32,7 +32,7 @@ The fiber measure is normalized, not unnormalized Hausdorff area. [[sphere-to-ba
 At \(|x|=1\), the fiber collapses and the differential rank drops from \(k\) to \(k-1\). This boundary is \(\nu\)-null, so its conditional measure can be specified separately without changing any integral. When \(m=1\), the regular fiber is the two-point sphere \(S^0\). When \(m>1\), the readout also has a nonzero-dimensional kernel on every regular tangent space.
 
 For the nine-dimensional trace-free corner in
-[[peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]], projection onto a marked three-plane gives
+[[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]], projection onto a marked three-plane gives
 \[
 n=9,\qquad k=3,\qquad
 d\nu(x)=\frac{105}{32\pi}(1-|x|^2)^2\,dx,

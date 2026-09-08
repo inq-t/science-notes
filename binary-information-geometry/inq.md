@@ -2,6 +2,9 @@
 inq.module: "binary-information-geometry"
 inq.include:
   - "**/*.md"
+inq.ambient:
+  - "receipts/*.py"
+keywords: [binary states, Fisher metric, involution, escort tangent, Witten–Darboux]
 ---
 # Binary Information Geometry
 
@@ -29,6 +32,8 @@ m^2+g^{\mathrm{bin}}_{\theta\theta}=1.
 $$
 
 Balance is a hypothesis, not a consequence of involutivity. Without it the same hyperbolic profile is translated away from \(\theta=0\). [[a2-ternary-response/inq|The \(A_2\) ternary-response test]] audits the still earlier assumption that the physical reduction has exactly two outcomes: its natural three-sheet finite model has a different response until the neutral sheet is removed by a specified channel, conditioning, or decoupling limit.
+
+The [[binary-information-geometry/escort-tangent-no-go|escort tangent no-go]] distinguishes translation along this family from temperature rescaling of the modular Hamiltonian of the same state. Translation has unit Fisher norm at balance, while that escort tangent vanishes there; matching their norms requires a further tangent-alignment construction.
 
 The metric is globally simpler than its exponential coordinate suggests. [[fisher-line|The binary Fisher line]] is flattened by the Gudermannian,
 

@@ -60,7 +60,7 @@ The range of \(U\) is precisely the subspace invariant under rotations of the hi
 
 ## The spherical generator returns a ball operator
 
-Use the full spherical Laplacian \(\Delta_S\), with nonpositive spectrum, rather than the half-Laplacian convention. In the rank-two octonionic case, [[primitive-overlap-refinement-and-the-emergent-diffusion|overlap refinement]] constructs this operator from the primitive-state pairing and repeated tensor-overlap comparisons: its full-carrier generators converge to \(-\Delta_{S^8}\), without choosing that differential expression first. The comparison rule, invariant sphere law and time normalization remain declared data. The coordinate identities are
+Use the full spherical Laplacian \(\Delta_S\), with nonpositive spectrum, rather than the half-Laplacian convention. In the rank-two octonionic case, [[primitive-state-diffusion/inq|overlap refinement]] constructs this operator from the primitive-state pairing and repeated tensor-overlap comparisons: its full-carrier generators converge to \(-\Delta_{S^8}\), without choosing that differential expression first. The comparison rule, invariant sphere law and time normalization remain declared data. The coordinate identities are
 \[
 \Delta_Sx_i=-(n-1)x_i,\qquad
 \nabla_Sx_i\cdot\nabla_Sx_j=\delta_{ij}-x_ix_j.
@@ -222,7 +222,7 @@ The rotation itself is invertible and does not erase information. Finite-time sp
 
 ## The rank-two octonionic specialization
 
-The [[peirce-context-averaging-and-the-emergent-qubit-process|selected Peirce corner]] is
+The [[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|selected Peirce corner]] is
 \[
 \mathcal P=\mathbb Rp\oplus\mathbb R^9
 \cong\mathfrak h_2(\mathbb O),

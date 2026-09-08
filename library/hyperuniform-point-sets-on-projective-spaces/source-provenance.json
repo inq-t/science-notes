@@ -1,0 +1,78 @@
+{
+  "description": "Primary sources for the finite exceptional-state comparison audit; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/2403.03572v1",
+      "version": "2403.03572v1",
+      "attempted_at": "2026-09-08T20:32:30.745822+00:00",
+      "path": "2403.03572v1-brauchart-grabner-hyperuniform.pdf",
+      "bytes": 222413,
+      "sha256": "022ac23bc72da714c3876819271a96acf4c0fba4ed2b435e306c0077144761ac",
+      "resolved_url": "https://arxiv.org/pdf/2403.03572v1",
+      "content_type": "application/pdf",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 18,
+        "first_page_text_prefix": "arXiv:2403.03572v1  [math.CA]  6 Mar 2024\nHYPERUNIFORM POINT SETS ON PROJECTIVE\nSPACES\nJOHANN S. BRAUCHART AND PETER J. GRABNER ‡\nAbstract. We extend the notion of hyperuniformity "
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/2403.03572v1",
+      "version": "2403.03572v1",
+      "attempted_at": "2026-09-08T20:32:30.745822+00:00",
+      "path": "2403.03572v1-source.tar.gz",
+      "bytes": 15418,
+      "sha256": "ff96b396ce258ea3cf18494c089298fa548a2bdb8557975e78c39c98928a252e",
+      "resolved_url": "https://arxiv.org/src/2403.03572v1",
+      "content_type": "application/gzip",
+      "kind": "downloaded-primary-source",
+      "format": "gzip-compressed tar archive"
+    },
+    {
+      "path": "source/Compact.tex",
+      "bytes": 19722,
+      "sha256": "ec9a9c91831d4dae8671056010ff0aea4a736060080794988bc415ec29af5c1a",
+      "kind": "extracted-author-source",
+      "derived_from": "2403.03572v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Compact.tex"
+    },
+    {
+      "path": "source/Examples.tex",
+      "bytes": 12679,
+      "sha256": "51713a4f2cf9a551bc8bbad61cd21e2405082b35603065137128ca77723b8104",
+      "kind": "extracted-author-source",
+      "derived_from": "2403.03572v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Examples.tex"
+    },
+    {
+      "path": "source/Introduction.tex",
+      "bytes": 5835,
+      "sha256": "ba00f4b421c9b5c0f52421180ef5d6887aaf406e7feffee523dc1dd060482518",
+      "kind": "extracted-author-source",
+      "derived_from": "2403.03572v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Introduction.tex"
+    },
+    {
+      "path": "source/Main.bbl",
+      "bytes": 9324,
+      "sha256": "95b76bd6e62d72d48ebbf1a6a0c8d7a611e286f719f317c9d4288e5e85bda0a3",
+      "kind": "extracted-author-source",
+      "derived_from": "2403.03572v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Main.bbl"
+    },
+    {
+      "path": "source/Main.tex",
+      "bytes": 1886,
+      "sha256": "a4ef84d895539a3400c0ced8698f2e7d05f7f93e39dc68801197d18e17d57737",
+      "kind": "extracted-author-source",
+      "derived_from": "2403.03572v1-source.tar.gz",
+      "method": "byte-preserving tar extraction",
+      "archive_member": "Main.tex"
+    }
+  ]
+}

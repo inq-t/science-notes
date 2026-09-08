@@ -22,7 +22,7 @@ The [[general-causal-action/carrier-first-reversal|carrier-first reversal]] give
 
 [[algebra/quotient-clock-and-stationary-action|Quotient clocks]] show that a one-sided process with an appropriate positive complex pairing can return a unitary group and stationary state action. [[directed-analytic-realization/inq|Directed analytic realization]] owns the worked carriers and their limits. This establishes a possible order of explanation; it does not derive positivity, localization and the required spacetime theory from a bare arrow.
 
-[[algebra/primitive-overlap-refinement-and-the-emergent-diffusion|Jordan overlap refinement]] computes a whole diffusion from a supplied orbit and comparison rule. In contrast, [[algebra/unbounded-projection-cycles-and-inherited-spectra|closed-graph projection cycles]] can encode every positive spectrum. Together they distinguish a fixed construction's output from a principle restricting which constructions are admissible.
+[[primitive-state-diffusion/inq|Jordan overlap refinement]] computes a whole diffusion from a supplied orbit and comparison rule. In contrast, [[algebra/unbounded-projection-cycles-and-inherited-spectra|closed-graph projection cycles]] can encode every positive spectrum. Together they distinguish a fixed construction's output from a principle restricting which constructions are admissible.
 
 ## Joint contexts are the current discriminating test
 

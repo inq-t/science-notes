@@ -1,8 +1,8 @@
-# Primitive Peirce Response on the Complete Matrix Carrier
+# Primitive Peirce Response
 
 The primitive idempotents of the Albert algebra determine a family of matrix readouts whose common invisible algebra is only the scalars. Their averaged loss has a certified positive lower bound on every traceless matrix, including the balance direction missed by the earlier cyclic contexts. The construction also gives a global finite-state entropy contraction. This is a complete finite response theorem, not a continuum Yang--Mills gap: field-dependent scalar observables require an additional, field-sensitive analysis map.
 
-**Status: [EXACT FINITE, COMPUTER-ASSISTED] for the regular-multiplier bound; [EXACT CONSEQUENCES] for Peirce coverage and entropy contraction; [OPEN] for a physically selected context law, state, clock, and continuum comparison.** The certificate checks integer identities, not rounded numerical eigenvalues.
+**Status: [EXACT FINITE, COMPUTER-ASSISTED] for the regular-multiplier bound; [EXACT CONSEQUENCES] for Peirce coverage and entropy contraction; [OPEN] for a physically selected context law, state, clock, and continuum comparison.** The certificate checks integer identities, not rounded numerical eigenvalues. The complete matrix carrier and its Jordan coordinate input are fixed explicitly below.
 
 ## The operator and its carrier
 
@@ -26,17 +26,13 @@ q(T)=\langle T,\mathcal DT\rangle_{\rm HS}
 \]
 This definition is basis-independent. It operates on failure of a matrix operator to commute with Jordan multiplication, not on displacement through spacetime. Each real multiplier is self-adjoint, so \(\mathcal D\) is positive and self-adjoint.
 
-The trace identity in [[exceptional-context-response|exceptional context response]] gives
+The [[albert-algebra/regular-multiplication-and-trace|regular trace identities]] give
 \[
 S:=\sum_aL_{e_a}^2=3I+6P_{\mathbf1},\qquad
 \mathcal DT=ST+TS-2\sum_aL_{e_a}TL_{e_a}.
 \tag{PP3}
 \]
-Indeed,
-\(\langle x,Sx\rangle=\sum_a\|L_xe_a\|^2
-=\operatorname{Tr}L_x^2
-=3\|x\|_J^2+2(\operatorname{tr}_Jx)^2\).
-Polarization proves (PP3). In particular \(-\mathcal D\) generates a finite unital trace-preserving completely positive semigroup. Its parameter has no supplied physical time unit.
+Expanding the double commutators gives the second expression in (PP3). In particular \(-\mathcal D\) generates a finite unital trace-preserving completely positive semigroup. Its parameter has no supplied physical time unit.
 
 ## Scalar kernel and a certified quantitative bound
 
@@ -63,7 +59,7 @@ This proves separation; finite dimensionality then gives some positive edge. The
 \tag{PP5}
 \]
 
-[[algebra/receipts/primitive_peirce_response_receipt.py|The reproducible certificate]] builds (PP5) from the existing integer Albert multiplication table. In its original coordinate basis \(b_i\), the trace metric has diagonal \(n_i=1,1,1,2,\ldots,2\), and \(M_i=2L_{b_i}\) is integral. Put
+[[exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py|The reproducible certificate]] builds (PP5) from the [[albert-algebra/coordinates-and-exact-arithmetic|declared integer Albert multiplication table]]. In its original coordinate basis \(b_i\), the trace metric has diagonal \(n_i=1,1,1,2,\ldots,2\), and \(M_i=2L_{b_i}\) is integral. Put
 \[
 A_8=\sum_i\frac2{n_i}M_i^2,\qquad
 Z=A_8\otimes I+I\otimes A_8^{\mathsf T}
@@ -102,7 +98,7 @@ Normalization is part of the theorem: using a basis orthonormal for
 ## Primitive readouts cover the added directions
 
 For a primitive idempotent \(p\), \(\operatorname{tr}_Jp=\|p\|_J^2=1\).
-The [[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap|Peirce decomposition]] of \(L_p\) has eigenvalues \(1,\tfrac12,0\), with dimensions \(1,16,10\). Its orthogonal projections are
+The [[albert-algebra/inq|Peirce decomposition]] of \(L_p\) has eigenvalues \(1,\tfrac12,0\), with dimensions \(1,16,10\). Its orthogonal projections are
 \[
 \begin{aligned}
 Q_1(p)&=2L_p^2-L_p,\\
@@ -148,7 +144,7 @@ Consequently
 \]
 This lower bound is sufficient, not asserted sharp for the pinching family. It controls the full \(728\)-dimensional complex traceless matrix carrier, not just \(L(J_0)\). A context measure \(\mu\ge\alpha\,dp\) retains the bound \(\alpha/13\); an arbitrary concentrated context law need not.
 
-The same moment (PP11) also enters [[primitive-overlap-refinement-and-the-emergent-diffusion|overlap refinement]] on functions of primitive states: the kernel \(3\operatorname{tr}(p\circ q)\) has eigenvalue \(1/13\) on linear traceless symbols and an infinite-dimensional kernel. Higher overlap powers and repeated comparison construct a full state-space diffusion. That function-space comparison is not the matrix pinching form in (PP12), despite the shared coefficient.
+The same moment (PP11) also enters [[primitive-state-diffusion/inq|overlap refinement]] on functions of primitive states: the kernel \(3\operatorname{tr}(p\circ q)\) has eigenvalue \(1/13\) on linear traceless symbols and an infinite-dimensional kernel. Higher overlap powers and repeated comparison construct a full state-space diffusion. That function-space comparison is not the matrix pinching form in (PP12), despite the shared coefficient.
 
 The previous unseen balance
 \(T_{\rm bal}=27P_{\mathbf1}-I\) is now detected. For every primitive \(p\),
@@ -161,7 +157,7 @@ To check it, write \(\mathbf1=p+(\mathbf1-p)\) in the orthogonal eigenvalue-\(1\
 
 ## A global finite-state entropy contraction
 
-Let \(\tau=I/27\), and use natural logarithms in quantum relative entropy. Trace-preserving conditional expectation gives
+Let \(\tau=I/27\), and use natural logarithms in quantum relative entropy. The [[channel-loss-and-recovery/preserving-expectation-loss|preserving-expectation identity]] gives
 \[
 D(\rho\|\tau)-D(\Pi_p\rho\|\tau)
 =D(\rho\|\Pi_p\rho)=S(\Pi_p\rho)-S(\rho).

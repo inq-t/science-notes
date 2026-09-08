@@ -80,4 +80,4 @@ Those kernels are not the assertion \(K(s+t)=\operatorname{sech}^2(\nu(s+t))\).
 
 Likewise, a positive Hermitian metric on a complex manifold, the exceptional Jordan order cone, and a CP map each have their own positive pairing. A physical Euclidean theory must additionally pass the reflected test. No one of these notions is discredited by another having a different domain.
 
-[[algebra/receipts/positivity_rigidity_audit_receipt.py|The audit receipt]] checks (PR4) directly against a positive Laplace-mixture comparison.
+[[lorentzian-spectral-envelope/receipts/reflected_hankel_positivity_receipt.py|The audit receipt]] checks (PR4) directly against a positive Laplace-mixture comparison.

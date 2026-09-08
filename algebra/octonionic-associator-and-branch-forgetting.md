@@ -58,7 +58,7 @@ Their multiplication defect \(D=V-U=U(R-I)=-2UQ\) consequently satisfies
 \boxed{D^*D=4Q,\qquad \|[i,j,x]\|^2=4\|Qx\|^2.}
 \tag{AF7}
 \]
-The associator thus supplies an exact positive response: it detects precisely the components outside the selected associative context. Neither branch is irreversible, despite their nonzero discrepancy. More generally, \(L_{ab}-L_aL_b\) retains the original nonassociative multiplication as a defect inside an associative endomorphism algebra. This is compatible with the [[exceptional-context-response|exceptional regular realization]], where injectivity and positivity of a linear realization do not imply preservation of the original product.
+The associator thus supplies an exact positive response: it detects precisely the components outside the selected associative context. Neither branch is irreversible, despite their nonzero discrepancy. More generally, \(L_{ab}-L_aL_b\) retains the original nonassociative multiplication as a defect inside an associative endomorphism algebra. This is compatible with the [[exceptional-state-comparison/cyclic-context-retraction-and-response|exceptional regular realization]], where injectivity and positivity of a linear realization do not imply preservation of the original product.
 
 The result is presentation-covariant. An octonion automorphism \(g\in G_2\) sends the selected units and quaternion subalgebra to \(gi,gj,g\mathbb H\), and \(L_{ga}=gL_ag^{-1}\). Its response is consequently \(g(4Q)g^{-1}\). This covariance does not privilege any one context.
 
@@ -109,7 +109,7 @@ scalar on its irreducible seven-dimensional imaginary carrier.
 Each summand has operator trace sixteen. This is the
 [[hessian-response-geometry/response-rigidity-and-multiplicity#A relation that forces the directions together|irreducible-frame argument]]
 already used for the
-[[algebra/exceptional-context-response#A complete family has a strict finite lower frame|Albert context response]],
+[[exceptional-state-comparison/cyclic-context-retraction-and-response#A complete family has a strict finite lower frame|Albert context response]],
 on a different carrier and with a different normalization.
 Haar weighting is geometrical comparison, not a claim that
 nature samples contexts randomly.

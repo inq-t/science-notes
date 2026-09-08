@@ -1,0 +1,29 @@
+{
+  "description": "Primary sources for the finite exceptional-state comparison audit; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://www.math.uci.edu/~brusso/jacobson1951.pdf",
+      "version": "1951 published article",
+      "attempted_at": "2026-09-08T20:32:30.745822+00:00",
+      "path": "1951-jacobson-jordan-representations.pdf",
+      "bytes": 1811417,
+      "sha256": "cfa76f3aa189778973faba37f93beaeb59394c087029c8bc33bd55cfc91b3e3d",
+      "resolved_url": "https://webapps.math.uci.edu/~brusso/jacobson1951.pdf",
+      "content_type": "application/pdf",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 23,
+        "first_page_text_prefix": "General Representation Theory of Jordan Algebras\nAuthor(s): N. Jacobson\nSource: Transactions of the American Mathematical Society, Vol. 70, No. 3 (May, 1951), pp.\n509-530\nPublished"
+      }
+    },
+    {
+      "path": "1951-jacobson-jordan-representations-extracted.txt",
+      "bytes": 57308,
+      "sha256": "397cea5f6bb5d8ec3d85eea7774cc4a74d3c3f7af96758c857bef11ed726905b",
+      "kind": "derived-searchable-text",
+      "derived_from": "1951-jacobson-jordan-representations.pdf",
+      "method": "pypdf extraction with page markers; mathematical OCR may be imperfect"
+    }
+  ]
+}

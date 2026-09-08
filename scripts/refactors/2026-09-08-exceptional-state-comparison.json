@@ -1,0 +1,12 @@
+{
+  "description": "Separate finite exceptional state comparisons and place the flag certificate with its gauge application. Shared coordinate extraction and independent mixed-receipt blocks are recorded separately. Primitive-state function diffusion has a separate section map.",
+  "source_commit": "3707d92",
+  "moves": {
+    "algebra/exceptional-context-response.md": "exceptional-state-comparison/cyclic-context-retraction-and-response.md",
+    "algebra/primitive-peirce-response.md": "exceptional-state-comparison/primitive-peirce-response.md",
+    "algebra/peirce-context-averaging-and-the-emergent-qubit-process.md": "exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process.md",
+    "algebra/receipts/exceptional_flag_linearization_receipt.py": "exceptional-gauge-realization/receipts/exceptional_flag_linearization_receipt.py",
+    "algebra/receipts/exceptional-flag-linearization-receipt-output.txt": "exceptional-gauge-realization/receipts/exceptional-flag-linearization-receipt-output.txt",
+    "algebra/receipts/primitive_peirce_response_receipt.py": "exceptional-state-comparison/receipts/primitive_peirce_response_receipt.py"
+  }
+}

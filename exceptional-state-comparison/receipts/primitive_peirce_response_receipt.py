@@ -3,7 +3,7 @@
 The polynomial certificate uses integer arithmetic with a checked overflow
 bound, not rounded eigenvalues. It reuses the repository's explicit Albert
 multiplication table. The scalar-commutant proof and invariant orbit moment
-are analytic inputs in algebra/primitive-peirce-response.md. This receipt
+are analytic inputs in exceptional-state-comparison/primitive-peirce-response.md. This receipt
 does not establish a physical field-theory or continuum mass gap.
 """
 
@@ -11,7 +11,16 @@ from __future__ import annotations
 
 import numpy as np
 
-import exceptional_flag_linearization_receipt as jordan
+from importlib.util import module_from_spec, spec_from_file_location
+from pathlib import Path
+
+# Resolve the shared arithmetic from this receipt, independently of the cwd.
+_coordinates_path = Path(__file__).resolve().parents[2] / "albert-algebra" / "coordinates.py"
+_coordinates_spec = spec_from_file_location("albert_coordinates", _coordinates_path)
+if _coordinates_spec is None or _coordinates_spec.loader is None:
+    raise ImportError(f"Cannot load Albert coordinates from {_coordinates_path}")
+jordan = module_from_spec(_coordinates_spec)
+_coordinates_spec.loader.exec_module(jordan)
 
 
 def require_close(label, actual, expected, atol=1e-10):

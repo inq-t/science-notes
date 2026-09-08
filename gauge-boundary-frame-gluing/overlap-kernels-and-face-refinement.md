@@ -31,7 +31,7 @@ v_g=\frac{(\sqrt{2r},R(g))}{\sqrt{3r}},
 \tag{OF3}
 \]
 Integer powers are overlaps of feature tensors. As in
-[[algebra/primitive-overlap-refinement-and-the-emergent-diffusion|primitive overlap refinement]],
+[[primitive-state-diffusion/inq|primitive overlap refinement]],
 these tensors do not supply a physical composite observable algebra.
 
 Let

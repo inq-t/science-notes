@@ -1,0 +1,293 @@
+\section{Examples}\label{sec:examples}
+
+\subsection{Maximisers of the sum of distances}
+\label{sec:maxim-sum-dist}
+As pointed out in Remark~\ref{rem:invariance} Skriganov
+\cite{Skriganov2020:stolarskys_invariance_principle} generalised Stolarsky's
+invariance principle \cite{Stolarsky1973:sums_distances_sphere} to the
+projective spaces $\mathbb{FP}^{d-1}$. As a consequence the $L^2$-discrepancy
+is minimised amongst all sets of the same cardinality by configurations
+maximising the sum of mutual ``chordal'' distances
+\begin{equation}\label{eq:sum-dist}
+  \sum_{x,y\in X_N}\sin(\theta(x,y)).
+\end{equation}
+It was shown in \cite{Skriganov2019:point_distributions_homogeneous} that there
+exist positive constants $K_d$ and $k_d$ such that
+\begin{equation}
+  \label{eq:skriganov}
+  \begin{split}
+  -&K_d(\#X_N)^{1-\frac1D}\leq\\
+  &\sum_{x,y\in X_N}\sin(\theta(x,y))-(\#X_N)^2\iint\limits_{(\mathbb{FP}^{d-1})^2}
+  \sin(\theta(x,y))\,d\sigma(x)\,d\sigma(y)\\
+  &\leq-k_d(\#X_N)^{1-\frac1D}
+  \end{split}
+\end{equation}
+for a point set $X_N$ maximising \eqref{eq:sum-dist}.
+
+Integrating \eqref{eq:var-Jacobi} against $\sin(2r)\,dr$ and using
+\begin{align*}
+  &\int_0^{\frac\pi2}\sin(r)^{4\alpha+4}\cos(r)^{4\beta+4}
+  P_{n-1}^{(\alpha+1,\beta+1)}(\cos(2r))^2\sin(2r)\,dr=\\
+  &\frac{\Gamma(2\alpha+3)\Gamma(2\beta+3)}{\alpha+\beta+2}
+  2^{2n-2}(n+\alpha+\beta+1)\times\\
+  &\frac{(\frac12)_{n-1}(\alpha+2)_{n-1}(\beta+2)_{n-1}(\alpha+\beta+2)_{n-1}}
+  {((n-1)!)^2\Gamma(2(n+\alpha+\beta+3))}
+\end{align*}
+(see \cite{Skriganov2020:stolarskys_invariance_principle})
+we obtain
+\begin{equation}
+  \label{eq:l2-discr}
+  \begin{split}
+    &\mathrm{D}_{L^2}(X_N)^2=C_{\alpha,\beta}^2\Gamma(2\alpha+3)\Gamma(2\beta+3)
+    \times\\
+    &\sum_{n=1}^\infty 2^{2n-2}(2n+\alpha+\beta+1)
+    \frac{(\frac12)_{n-1}(\alpha+\beta+1)_n(\alpha+\beta+2)_n}
+    {(\alpha+1)_n\Gamma(2(n+\alpha+\beta+3))}\times\\
+    &\sum_{x,y\in X_N}
+    P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))
+  \end{split}
+\end{equation}
+(see also \cite{Skriganov2020:stolarskys_invariance_principle,
+  Skriganov2019:stolarskys_invariance_principle_ii}).
+We notice that the coefficients in the sum are of the order $n^{-\alpha-2}$.
+
+We will use the inequality
+\begin{equation}\label{eq:jacobi-bound}
+  \begin{split}
+    &\sin(\theta)^{a+\frac12}\cos(\theta)^{b+\frac12}
+    |P_n^{(a,b)}(\cos(2\theta))|\\
+    &\leq\frac{\Gamma(a+1)}{\sqrt\pi}
+    \binom{n+a}n
+    \left(n+\frac12(a+b+1)\right)^{-a-\frac12}
+    =\mathcal{O}\left( n^{-\frac12}\right)
+  \end{split}
+\end{equation}
+valid for $a\geq b>-1$ (see
+\cite{Chow_Gatteschi_Wong1994:bernstein_type_inequality}). Inserting
+$a=\alpha+1$ and $b=\beta+1$ in \eqref{eq:jacobi-bound} we estimate the number
+variance by
+\begin{equation}\label{eq:variance-upper}
+  \mathbb{V}(X_N,r)\leq C\sin(r)^{2\alpha+1}\cos(r)^{2\beta+1}
+  \sum_{n=1}^\infty n^{-\alpha-2}
+  \sum_{x,y\in X_N}P_n^{(\alpha,\beta)}(\cos(2\theta(x,y))).
+\end{equation}
+Putting \eqref{eq:l2-discr} and~\eqref{eq:variance-upper} together and
+observing that $2\alpha+1=D-1$ we obtain
+\begin{equation}
+  \label{eq:hyper}
+  \mathbb{V}(X_N,r)=\mathcal{O}\left( \sin(r)^{D-1}\mathrm{D}_{L^2}(X_N)\right).
+\end{equation}
+For point sets with optimal $L^2$-discrepancy (or equivalently, maximal sum of
+distances) we obtain
+\begin{equation*}
+  \mathbb{V}(X_N,r)=\mathcal{O}\left( \sin(r)^{D-1}(\#X_N)^{1-\frac1D}\right).
+\end{equation*}
+This inequality immediately implies the theorem.
+\begin{theorem}
+  Let $(X_N)_{N\in\mathbb{N}}$ be a sequence of maximisers of the sum of mutual
+  distances \eqref{eq:sum-dist}. Then this sequence is hyperuniform in all all
+  three regimes.
+\end{theorem}
+\subsection{Jittered sampling}\label{sec:jittered-sampling}
+A very simple and obvious probabilistic model for a point set $X_N$ is given by
+jittered sampling. We start with a partition of the space $\mathbb{FP}^{d-1}$
+into $N$ sets $A_j$ ($j=1,\ldots,N$) of equal area and diameter
+$\leq CN^{-\frac1D}$, where the constant only depends on the space. It is known
+from \cite{Gigante_Leopardi2017:diameter_ahlfors} that such a partition exists.
+
+We define a point process $\mathscr{X}_N^J$, called the \emph{jittered sampling
+  process}, by choosing $N$ points $x_j\in A_j$ ($j=1,\ldots,N$), where each
+point is chosen with respect to the surface measure restricted to $A_j$. The
+number variance of this process is then given by
+\begin{equation}\label{eq:variance-jittered}
+  \begin{split}
+    &V_N=\mathbb{V}(\mathscr{X}_N^J,r)\\
+    &=\!\!\! \int\limits_{\mathbb{FP}^{d-1}}\int\limits_{A_1}\!\!\cdots\!\!\int\limits_{A_N}
+    \!\!\left(\sum_{j=1}^N\mathbbm{1}_{B(x,r)}(x_j)-N\sigma(B(x,r))\right)^2\!\!
+    d\sigma_1(x_1)\cdots d\sigma_N(x_N)\,d\sigma(x),
+  \end{split}
+\end{equation}
+where $\sigma_j(A)=N\sigma(A_j\cap A)$ denotes the surface measure restricted
+to $A_j$.
+
+Expanding the square in~\eqref{eq:variance-jittered} and using the fact that
+$\mathbbm{1}_{B(y,r)}(x)=\mathbbm{1}_{B(x,r)}(y)$ we obtain
+\begin{align*}
+  V_N&=\sum_{i\neq j}\int_{A_i}\int_{A_j}
+  \sigma(B(x_i,r)\cap B(x_j,r))\,d\sigma_i(x_i)\,
+  d\sigma_j(x_j)\\
+  &+N\sigma(B(\cdot,r))-N^2\sigma(B(\cdot,r))^2 \\
+  &=N^2\int_{\mathbb{FP}^{d-1}}\int_{\mathbb{FP}^{d-1}}
+  \sigma(B(x,r)\cap B(y,r))\,d\sigma(x)\,
+  d\sigma(y)\\
+  &-
+  \sum_{i=1}^N\int_{A_i}\int_{A_i}\sigma(B(x_i,r)\cap B(x_j,r))\,d\sigma_i(x_i)\,
+  d\sigma_j(x_j)\\
+  &+N\sigma(B(\cdot,r))-N^2\sigma(B(\cdot,r))^2\\
+  &=\frac12\sum_{i=1}^N\int_{A_i}\int_{A_i}\sigma(B(x_i,r)\triangle B(y_i,r))
+  \,d\sigma_i(x_i)\,d\sigma_i(y_i),
+\end{align*}
+where we have used
+\begin{equation*}
+  \int_{\mathbb{FP}^{d-1}}\int_{\mathbb{FP}^{d-1}}
+  \sigma(B(x,r)\cap B(y,r))\,d\sigma(x)\,
+  d\sigma(y)=\sigma(B(\cdot,r))^2
+\end{equation*}
+and used the notation $A\triangle B=A\cup B\setminus(A\cap B)$ for the
+symmetric difference. A similar computation has been used in
+\cite{Brauchart_Grabner_Kusner+2020:hyperuniform_point_sets}.
+
+The measure of the symmetric difference of two balls can be bounded
+\begin{equation}\label{eq:symmetric}
+  \sigma(B(x,r)\triangle B(y,r))\leq
+  C'\theta(x,y)\mathrm{surface}(\partial B(\cdot,r))
+\end{equation}
+for some constant $C'>0$. Since the diameter of each part $A_j$ of the partition
+is bounded by $CN^{-\frac1D}$ we obtain the bound
+\begin{equation*}
+  V_N\leq CC'N^{1-\frac1D}\mathrm{surface}(\partial B(\cdot,r))=
+  \mathcal{O}(r^{D-1}N^{1-\frac1D}),
+\end{equation*}
+from which we derive the theorem.
+\begin{theorem}
+  The jittered sampling process $\mathscr{X}_N^J$ is hyperuniform in all
+three regimes.
+\end{theorem}
+\subsection{The harmonic ensemble}\label{sec:harmonic-ensemble}
+Determinantal point processes (see
+\cite{Hough_Krishnapur_Peres+2009:zeros_gaussian}) have become a very useful
+tool to provide probabilistic models, which behave better than i.i.d. models
+due to built mutual repulsion of the points. Especially, in the context of
+finding well distributed point sets such processes have proven to be a very
+useful tool to establish good bounds for various quality measures of point
+distributions (see, for instance
+\cite{Anderson_Dostert_Grabner+2023:riesz_green_energy,
+  Beltran_Marzo_Ortega-Cerda2016:determinantal,
+  Beltran-Etayo2018:projective_ensemble, Hirao2021:finite_frames_determinantal,
+  Beltran_Ferizovic2020:approximation_uniform_SO3,
+  Marzo_Ortega-Cerda2018:expected_riesz_energy,
+  Hirao2018:qmc_designs_determinantal}). Since the notion of hyperuniformity
+has been motivated as a property of point sets, which behave ``better than
+i.i.d. random'', it is natural to test samples of determinantal processes for
+this property.
+
+The rotation invariant processes on the spaces $\mathbb{FP}^{d-1}$ have been
+characterised in \cite{Anderson_Dostert_Grabner+2023:riesz_green_energy}. The
+most natural amongst them is the process induced by the projection kernel on
+the spaces of eigenfunctions for the $N+1$ smallest eigenvalues of the Laplace
+operator. This kernel is given by
+\begin{equation}
+  \label{eq:harmonic-kernel}
+  \begin{split}
+    K_N(x,y)&=\sum_{n=0}^N\sum_{k=1}^{m_n}Y_{n,k}(x)Y_{n,k}(y)=
+    \sum_{n=0}^N\frac{m_n}{P_n^{(\alpha,\beta)}(1)}
+    P_n^{(\alpha,\beta)}(\cos(2\theta(x,y)))\\
+    &=
+    \frac{(\alpha+\beta+2)_N}{(\beta+1)_N}P_N^{(\alpha+1,\beta)}(\cos(2\theta(x,y)))
+  \end{split}
+\end{equation}
+(see, for instance \cite{Andrews_Askey_Roy1999:special_functions}). This
+process produces
+\begin{equation*}
+  K_N(x,x)=\frac{(\alpha+\beta+2)_N(\alpha+2)_N}{N!(\beta+1)_N}\sim
+  \frac{\Gamma(\beta+1)}{\Gamma(\alpha+\beta+2)\Gamma(\alpha+2)}N^{2\alpha+2}
+\end{equation*}
+points; we use the notation $\mathscr{X}_N^H$ for this process and call it the
+\emph{harmonic process} like the corresponding process on the sphere introduced
+in \cite{Beltran_Marzo_Ortega-Cerda2016:determinantal}. For more details
+on determinantal point processes we refer to
+\cite{Hough_Krishnapur_Peres+2009:zeros_gaussian} again.
+
+We notice that the number variance of $\mathscr{X}_N^H$ equals the expectation
+of the sum \eqref{eq:v=gr} under law of the process $\mathscr{X}_N^H$,
+\begin{equation}
+  \label{eq:var-harmonic}
+  \mathbb{V}(\mathscr{X}_N^H,r)=\mathbb{E}\sum_{x,y}g_r(x,y).
+\end{equation}
+Such expectations can be expressed easily by the general theory of
+determinantal processes
+\begin{multline*}
+  \mathbb{E}\sum_{x,y}g_r(x,y)=\mathbb{E}\sum_{x\neq y}g_r(x,y)+
+  \mathbb{E}\sum_{x}g_r(x,x)\\
+  =\iint\limits_{(\mathbb{FP}^{d-1})^2}
+  g_r(x,y)\left(K_N(x,x)K_N(y,y)-K_N(x,y)K_N(y,x)\right)\,d\sigma(x)\,d\sigma(y)
+  \\+K_N(\cdot,\cdot)g_r(\cdot,\cdot).
+\end{multline*}
+Since all functions occurring in this last equation are zonal, we can use
+\eqref{eq:zonal} to further simplify this equation
+\begin{multline*}
+  \mathbb{V}(\mathscr{X}_N^H,r)=\\C_{\alpha,\beta}
+  \int_0^{\frac\pi2}g_r(\cos(2\theta))
+  \left(K_N(1)^2-K_N(\cos(2\theta))^2\right)
+  \sin(\theta)^{2\alpha+1}\cos(\theta)^{2\beta+1}\,d\theta\\+K_N(1)g_r(1);
+\end{multline*}
+here we have made use of the convention to write $f(\cos(2\theta(x,y)))=f(x,y)$
+for zonal functions.
+Using the facts that
+\begin{align*}
+  &C_{\alpha,\beta}\int_0^{\frac\pi2}K_N(\cos(2\theta))^2
+  \sin(\theta)^{2\alpha+1}\cos(\theta)^{2\beta+1}\,d\theta=K_N(1)\\
+  &C_{\alpha,\beta}\int_0^{\frac\pi2}g_r(\cos(2\theta))
+  \sin(\theta)^{2\alpha+1}\cos(\theta)^{2\beta+1}\,d\theta=0
+\end{align*}
+we obtain
+\begin{multline*}
+  \mathbb{V}(\mathscr{X}_N^H,r)=\\C_{\alpha,\beta}\int_0^{\frac\pi2}
+  \left(g_r(1)-g_r(\cos(2\theta))\right)K_N(\cos(2\theta))^2
+  \sin(\theta)^{2\alpha+1}\cos(\theta)^{2\beta+1}\,d\theta.
+\end{multline*}
+
+We now remark that
+\begin{multline*}
+  g_r(1)-g_r(\cos(2\theta(x,y)))=\frac12\sigma(B(x,r)\triangle B(y,r))\\\leq
+  C'\theta(x,y)\mathrm{surface}(\partial B(\cdot,r))\leq C''\sin(\theta)r^{D-1}
+\end{multline*}
+using \eqref{eq:symmetric}. Thus we have
+\begin{equation*}
+  \mathbb{V}(\mathscr{X}_N^H,r)=\mathcal{O}\left(r^{D-1}\int_0^{\frac\pi2}
+  K_N(\cos(2\theta))^2
+  \sin(\theta)^{2\alpha+2}\cos(\theta)^{2\beta+1}\,d\theta\right),
+\end{equation*}
+and it remains to estimate the integral
+\begin{equation*}
+  \frac{(\alpha+\beta+2)_N^2}{(\beta+1)_N^2}\int_0^{\frac\pi2}
+  P_N^{(\alpha+1,\beta)}(\cos(2\theta))^2\sin(\theta)^{2\alpha+2}
+  \cos(\theta)^{2\beta+1}\,d\theta;
+\end{equation*}
+notice that this is an integral over the square of a Jacobi polynomial against
+the ``wrong'' weight function. We use the estimate \eqref{eq:jacobi-bound} for
+$a=\alpha+1$ and $b=\beta$ in
+the interval $[\frac cN,\frac\pi2]$ and the trivial bound
+$|P_N^{(\alpha+1,\beta)}(\cos(2\theta))|\leq P_N^{(\alpha+1,\beta)}(1)$ in the
+interval $[0,\frac CN]$ to obtain
+\begin{multline*}
+  \int_0^{\frac\pi2}
+  P_N^{(\alpha+1,\beta)}(\cos(2\theta))^2\sin(\theta)^{2\alpha+2}
+  \cos(\theta)^{2\beta+1}\,d\theta\\=
+  \mathcal{O}\left(\int_0^{\frac CN}N^{2\alpha+2}\theta^{2\alpha+2}
+    \,d\theta\right)+
+\mathcal{O}\left(\int_{\frac
+    CN}^{\frac\pi2}\frac1{N\sin(\theta)}\,d\theta\right)\\=
+\mathcal{O}\left(\frac1N\right)+\mathcal{O}\left(\frac{\log(N)}N\right)=
+\mathcal{O}\left(\frac{\log(N)}N\right).
+\end{multline*}
+Summing up, we have obtained
+\begin{equation*}
+  \mathbb{V}(\mathscr{X}_N^H,r)=
+  \mathcal{O}\left(r^{D-1}\frac{(\alpha+\beta+2)_N^2}{(\beta+1)_N^2}
+    \frac{\log(N)}N\right)=\mathcal{O}\left(r^{D-1}\frac{K_N(1)\log(N)}N\right).
+\end{equation*}
+Thus we have shown the following theorem.
+\begin{theorem}
+  The harmonic process $\mathscr{X}_N^H$ is hyperuniform for large and small
+  balls. For balls at threshold order the weaker relation
+  \begin{equation*}
+    \mathbb{V}(\mathscr{X}_N^H,rK_N(1)^{-\frac1D})
+    =\mathcal{O}\left(r^{D-1}\log(N)\right)
+  \end{equation*}
+  holds.
+\end{theorem}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Main"
+%%% End:

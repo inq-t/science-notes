@@ -12,7 +12,7 @@ B=\operatorname{Fix}(w)\cong\mathfrak h_3(\mathbb C).
 \tag{PA1}
 \]
 
-The [[exceptional-context-response|exceptional retraction theorem]] supplies positivity, trace preservation, orthogonal projection and the \(B\)-module identity for \(E\).
+The [[exceptional-state-comparison/cyclic-context-retraction-and-response|exceptional retraction theorem]] supplies positivity, trace preservation, orthogonal projection and the \(B\)-module identity for \(E\).
 
 Choose a trace-two idempotent \(p\in B\). Its complement \(e=\mathbf1-p\) is primitive. The Peirce corner and marked complex corner are
 
@@ -23,7 +23,7 @@ X_0=B\cap\mathcal P\cong\mathfrak h_2(\mathbb C).
 \tag{PA2}
 \]
 
-The unit of both corners is \(p\), not the Albert unit \(\mathbf1\). The [[exceptional-gauge-realization/jordan-idempotency-and-the-stabilizer-gap|primitive Peirce dimensions and stabilizer]] give
+The unit of both corners is \(p\), not the Albert unit \(\mathbf1\). The [[albert-algebra/inq|primitive Peirce dimensions]] and [[library/exceptional-lie-groups-yokota/inq|Yokota’s primitive stabilizer theorem, §2.7]] give
 \(\dim\mathcal P=10\) and
 \[
 G_p=\operatorname{Stab}_{F_4}(p)
@@ -50,7 +50,7 @@ Its positive cone is \(t\geq\|v\|\). The marked corner has the form
 
 ## The stabilizer supplies every rotation of the nine directions
 
-The required action can be checked without identifying a group solely by its dimension. For pure vectors \(a,b\in V\), viewed as elements of \(\mathcal P\), the [[primitive-peirce-response|Jordan inner derivation]]
+The required action can be checked without identifying a group solely by its dimension. For pure vectors \(a,b\in V\), viewed as elements of \(\mathcal P\), the [[albert-algebra/regular-multiplication-and-trace|Jordan inner derivation]]
 \(\mathcal D_{a,b}=[L_a,L_b]\) fixes \(p\). On the spin factor,
 
 \[
@@ -130,7 +130,7 @@ Identify \(X_0\) with the Hermitian part of \(M_2(\mathbb C)\), with \(p=I_2\) a
 
 The final formula is an explicit convex combination of unitary conjugations. It proves that the averaged local return is UCP, trace-preserving and trace-symmetric. Complete positivity has been established at this target, not assumed for every upstream Jordan comparison.
 
-[[depolarizing-return-and-the-classical-record-threshold|The classical-record factorization]] proves a further property of this exact return: centered contraction \(1/3\) is precisely the qubit entanglement-breaking boundary. The channel factors through a declared classical outcome distribution and a preparation map. The readout remains informationally complete, and neither the factorization nor the averaged channel selects an obtained outcome. The octonionic \(3/9\) ratio reaches this boundary only for the stipulated invariant context law.
+[[algebra/depolarizing-return-and-the-classical-record-threshold|The classical-record factorization]] proves a further property of this exact return: centered contraction \(1/3\) is precisely the qubit entanglement-breaking boundary. The channel factors through a declared classical outcome distribution and a preparation map. The readout remains informationally complete, and neither the factorization nor the averaged channel selects an obtained outcome. The octonionic \(3/9\) ratio reaches this boundary only for the stipulated invariant context law.
 
 ## A positive comparison can fail complete positivity
 
@@ -174,7 +174,7 @@ T_s=P_\tau+e^{-2s/3}(I-P_\tau),\qquad
 
 The Poisson series is a convex combination of powers of \(\overline\Phi\), so \(T_s\) is UCP. Equivalently the displayed depolarizing formula proves it directly. Its only fixed vectors are the scalar matrices.
 
-For the normalized positive base \(\mathcal B=\{B\geq0:\tau(B)=1\}\), write \(\mathscr Q(B)=\tau(B^2)/\tau(B)^2\). The [[qubit-cone-interiorization-and-the-clock-gap|same-carrier interiorization theorem]] now gives
+For the normalized positive base \(\mathcal B=\{B\geq0:\tau(B)=1\}\), write \(\mathscr Q(B)=\tau(B^2)/\tau(B)^2\). The [[algebra/qubit-cone-interiorization-and-the-clock-gap|same-carrier interiorization theorem]] now gives
 
 \[
 \boxed{

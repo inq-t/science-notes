@@ -1,0 +1,43 @@
+{
+  "description": "Primary sources for the finite exceptional-state comparison audit; author bytes are preserved.",
+  "records": [
+    {
+      "url": "https://arxiv.org/pdf/0902.0431v1",
+      "version": "0902.0431v1",
+      "attempted_at": "2026-09-08T20:32:30.744821+00:00",
+      "path": "0902.0431v1-yokota-exceptional-lie-groups.pdf",
+      "bytes": 1164038,
+      "sha256": "a8226e37e80cc203113f2fc0bb17ccbe0773cfa12918252f8e3bc06f4436ecc9",
+      "resolved_url": "https://arxiv.org/pdf/0902.0431v1",
+      "content_type": "application/pdf",
+      "kind": "downloaded-primary-source",
+      "pdf_verification": {
+        "header": true,
+        "parsed_pages": 209,
+        "first_page_text_prefix": "arXiv:0902.0431v1  [math.DG]  3 Feb 2009\nExceptional Lie groups\nIchiro Yokota\nPreface\nIn the end of 19 century, W. Killing and E. Cartan classiﬁed th e complex simple\nLie algebras,"
+      }
+    },
+    {
+      "url": "https://arxiv.org/src/0902.0431v1",
+      "version": "0902.0431v1",
+      "attempted_at": "2026-09-08T20:32:30.744821+00:00",
+      "path": "SpEcxp.tex.gz",
+      "bytes": 135991,
+      "sha256": "ca2eafcf84f7e3584723e5c937f4b4e3342edc3bb026665512cbe01376ec30da",
+      "resolved_url": "https://arxiv.org/src/0902.0431v1",
+      "content_type": "application/gzip",
+      "kind": "pre-existing-primary-source",
+      "verification": "Fresh official download byte-identical; existing source left unchanged",
+      "format": "gzip-compressed single TeX source"
+    },
+    {
+      "path": "source/SpEcxp.tex",
+      "bytes": 607943,
+      "sha256": "18d7f1a808d0a73f89b655095afd895b66ddc58ba26c4ab8c48b792c64b86d76",
+      "kind": "extracted-author-source",
+      "derived_from": "SpEcxp.tex.gz",
+      "method": "byte-preserving gzip decompression",
+      "encoding_note": "Original source contains non-UTF-8 bytes; no transcoding performed."
+    }
+  ]
+}

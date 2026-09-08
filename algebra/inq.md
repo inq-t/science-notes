@@ -89,7 +89,7 @@ instead constrains the overlap itself: its full-cone exponent threshold
 disappears on the fixed-trace state ball. The admissible kernel returns
 [[directed-analytic-realization/determinant-cone-preparation-and-the-gapless-return|a common Lorentz-covariant carrier and clock]],
 but exact scale covariance keeps its invariant mass spectrum gapless.
-[[algebra/peirce-context-averaging-and-the-emergent-qubit-process|Moving Peirce contexts]]
+[[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Moving Peirce contexts]]
 now determine a local CP return with contraction \(1/3\), by comparing
 three-dimensional complex directions inside the nine-dimensional
 trace-free octonionic corner. Its
@@ -252,7 +252,7 @@ the physical norm.
 
 ## Algebra comes before geometry only as a doctrine
 
-[[exceptional-context-response|Exceptional context response]] provides a finite positive realization of the same whole--part grammar. An oriented order-three automorphism determines a positive Jordan retraction and its exact variance residue. Comparing its full \(F_4\) context orbit gives a strict trace-free lower frame and a bounded reconstruction map; the regular multiplication carrier realizes that response as a matrix relative-entropy Hessian. [[primitive-peirce-response|Primitive Peirce readouts]] complete the added matrix carrier, detecting its previously unseen balance mode and supplying a certified finite entropy contraction. A field-dependent scalar direction still requires [[global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients|the differentiated-context bridge]]; neither finite completeness nor a gradient factorization proves the physical continuum gap.
+[[exceptional-state-comparison/inq|Exceptional state comparison]] gives a finite positive realization of this whole–part grammar. Cyclic context loss separates every nonconstant Jordan observable under invariant averaging, while primitive Peirce readouts supply the larger family needed for complete matrix-state coverage. The same finite geometry also constrains a chosen qubit return. These are distinct constructions on declared carriers; [[global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients|differentiating gauge observables]] is a further step needed to reach field-dependent distinctions.
 
 A bare algebra does not determine one geometry without qualifications. Even in commutative algebraic geometry, one declares a base, a category of algebras, admissible morphisms, and a topology before $\operatorname{Spec}$ and descent have their intended force. In noncommutative, operator-algebraic, spectral, Jordan, and octonionic settings, there is no single common spectrum that silently identifies those theories.
 

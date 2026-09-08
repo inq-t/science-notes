@@ -1,0 +1,75 @@
+\documentclass[12pt]{amsart}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{mathrsfs}
+
+
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref}
+\usepackage{cite}
+
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{remark}{Remark}
+\newtheorem{ackno}{Acknowledgement}
+
+%
+% Johann's macros
+%
+\DeclareMathOperator{\betaIregularized}{I}
+\DeclareMathOperator{\gammafcn}{\Gamma}
+\DeclareMathOperator{\xctint}{I}
+\DeclareMathOperator{\numint}{Q}
+\DeclareMathOperator{\WCE}{wce}
+%
+% end of Johann's macros
+%
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator*{\sump}{\sideset{}{^\prime}\sum}
+
+\newcommand{\eps}{\varepsilon}
+\newcommand{\dd}{\mathrm{d}}
+\renewcommand{\theta}{\vartheta}
+\newcommand{\Laplace}{\triangle}
+\begin{document}
+\title[]{Hyperuniform point sets on projective spaces}
+
+\author{Johann S. Brauchart}
+\address{Institute of Analysis and Number Theory,
+  Graz University of Technology,
+  Kopernikusgasse 24.
+8010 Graz,
+Austria}
+\email{j.brauchart@tugraz.at}
+
+
+\author{Peter J. Grabner\textsuperscript{\ddag}}
+\thanks{\textsuperscript{\ddag} This author is supported by the Austrian
+  Science Fund FWF project I~6750}
+\email{peter.grabner@tugraz.at}
+\maketitle
+\begin{abstract}
+  We extend the notion of hyperuniformity to the projective spaces
+  $\mathbb{RP}^{d-1}$, $\mathbb{CP}^{d-1}$, $\mathbb{HP}^{d-1}$, and
+  $\mathbb{OP}^2$. We show that hyperuniformity implies uniform distribution
+  and present examples of deterministic point sets as well as point processes
+  which exhibit hyperuniform behaviour.
+\end{abstract}
+\input{Introduction}
+\input{Compact}
+\input{Examples}
+
+\bibliographystyle{amsplain}
+\bibliography{refs}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

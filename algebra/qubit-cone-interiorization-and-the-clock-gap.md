@@ -151,7 +151,7 @@ The supremum is attained by \(B=I+\sigma_3\), whose Bloch direction contracts at
 
 The full Dirichlet form \(\langle X,L_\varepsilon X\rangle_\tau\) does change. The example therefore does not claim that a completely specified generator has an undetermined gap. It identifies precisely what the static cone and state metric leave unspecified, and what (QI7) would constrain.
 
-[[peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]] now supplies a more constrained candidate: fixing the rank-two octonionic carrier and averaging its complex contexts with invariant weight forces the local return to contract each Bloch direction by \(1/3\). Its unit-rate Poisson generator has gap \(2/3\). The context family, averaging law and process convention are specified geometrically, not recovered from a desired eigenvalue; their physical selection and dimensional calibration remain open.
+[[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]] now supplies a more constrained candidate: fixing the rank-two octonionic carrier and averaging its complex contexts with invariant weight forces the local return to contract each Bloch direction by \(1/3\). Its unit-rate Poisson generator has gap \(2/3\). The context family, averaging law and process convention are specified geometrically, not recovered from a desired eigenvalue; their physical selection and dimensional calibration remain open.
 
 ## Positive increments are not normalized state evolution
 

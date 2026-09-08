@@ -1,6 +1,6 @@
-# Exceptional Context Retraction and Its Positive Response
+# Cyclic Context Retraction and Response
 
-An order-three automorphism of the Albert algebra determines a positive retraction onto a complex Jordan context, an exact variance of what that context discards, and a uniformly positive response when all exceptional contexts are compared with normalized Haar weight. Its regular multiplication representation also realizes this response as the Hessian of an ordinary matrix relative-entropy loss. These are finite carrier-changing constructions, independent of complex integrability on \(S^6\). They neither select a physical distribution of contexts nor establish a gap on the full matrix-state or Yang--Mills carrier.
+Yokota’s selected order-three automorphism of the Albert algebra, whose fixed algebra is \(\mathfrak h_3(\mathbb C)\), determines a positive retraction onto a complex Jordan context, an exact variance of what that context discards, and a uniformly positive response when all exceptional contexts are compared with normalized Haar weight. Its regular multiplication representation also realizes this response as the Hessian of an ordinary matrix relative-entropy loss. These are finite carrier-changing constructions, independent of complex integrability on \(S^6\). They neither select a physical distribution of contexts nor establish a gap on the full matrix-state or Yang--Mills carrier.
 
 ## A positive map selected by an oriented operation
 
@@ -11,7 +11,7 @@ J=\mathfrak h_3(\mathbb O),\qquad
 \operatorname{tr}_J\mathbf1=3.
 \]
 Its cone \(J_+=\{x^2:x\in J\}\) is the closed convex cone of nonnegative Jordan spectra. The trace form is positive definite. Let \(w\) be
-[[exceptional-gauge-realization/order-three-orientation-and-the-exceptional-stabilizer|Yokota's order-three automorphism]], and put
+[[library/exceptional-lie-groups-yokota/inq|Yokota's order-three automorphism, §2.12]], and put
 \[
 B=\operatorname{Fix}(w)\cong\mathfrak h_3(\mathbb C),\qquad
 E=\frac{I+w+w^2}{3},\qquad q=I-E.
@@ -109,16 +109,7 @@ If a different probability measure \(\mu\) satisfies \(\mu\ge\alpha\,dg\), then 
 
 ## An associative completely positive realization
 
-The exceptional Jordan product cannot be faithfully identified with the symmetrized product of an associative operator algebra. There is nevertheless a useful linear realization. On the complex Hilbert space
-\[
-\mathcal H_J=J\otimes_{\mathbb R}\mathbb C,\qquad \dim_{\mathbb C}\mathcal H_J=27,
-\]
-let \(L_x(y)=x\circ y\). For real \(x\), \(L_x\) is self-adjoint and
-\[
-U_gL_xU_g^*=L_{gx}.
-\tag{EC9}
-\]
-The regular map \(x\mapsto L_x\) is injective since \(L_x\mathbf1=x\). It preserves positivity: in a Jordan frame with eigenvalues \(\lambda_i\), \(L_x\) has eigenvalues \(\lambda_i\) on the three diagonal directions and \((\lambda_i+\lambda_j)/2\) on the eight-dimensional off-diagonal Peirce spaces. It does not preserve the Jordan product: generally \(L_{x^2}\ne L_x^2\).
+The [[albert-algebra/regular-multiplication-and-trace|regular multiplication realization]] places \(J\) inside \(B(\mathcal H_J)\), where \(\mathcal H_J=J\otimes_{\mathbb R}\mathbb C\) has complex dimension 27. The injective positive linear map \(x\mapsto L_x\) obeys automorphism covariance (EC9), but generally \(L_{x^2}\ne L_x^2\). It does not embed the exceptional Jordan product into an associative product.
 
 With \(U=w\) on \(\mathcal H_J\), define the ordinary matrix conditional expectation
 \[
@@ -142,18 +133,13 @@ This is not \(M_3(\mathbb C)\), the familiar associative envelope of the retaine
 
 ## The response is an entropy-loss Hessian
 
-Peirce eigenvalues also give, for every real \(x\),
-\[
-\operatorname{Tr}_{\mathcal H_J}L_x=9\operatorname{tr}_Jx,\qquad
-\operatorname{Tr}_{\mathcal H_J}L_x^2
-=3\operatorname{tr}_J(x^2)+2(\operatorname{tr}_Jx)^2.
-\tag{EC13}
-\]
+The [[albert-algebra/regular-multiplication-and-trace|regular trace identities (EC13)]] give \(\operatorname{Tr}L_x=9\operatorname{tr}_Jx\) and \(\|L_x\|_{\rm HS}^2=3\|x\|_J^2\) for trace-free \(x\).
+
 For \(x\in J_0\) and \(|\varepsilon|\|L_x\|<1\), use the faithful state
 \[
 \rho_\varepsilon(x)=\frac{I+\varepsilon L_x}{27},\qquad \tau=\frac I{27}.
 \]
-Relative entropy uses natural logarithms. The conditional-expectation identity yields
+Relative entropy uses natural logarithms. The [[channel-loss-and-recovery/preserving-expectation-loss|preserving-expectation identity]] specializes to
 \[
 \begin{aligned}
 \mathcal L_{\mathscr E}(\rho)
@@ -163,7 +149,7 @@ Relative entropy uses natural logarithms. The conditional-expectation identity y
 \end{aligned}
 \tag{EC14}
 \]
-To check the equality, \(\log(\mathscr E\rho)\) belongs to the fixed algebra, so trace duality replaces \(\rho\) by \(\mathscr E\rho\) against that logarithm. This is an information loss under a declared readout, not thermodynamic entropy production.
+Here the trace-preserving expectation fixes the reference \(\tau\); for nonfaithful density matrices the identity follows by support limits. This is information loss under a declared readout, not thermodynamic entropy production.
 
 For \(T=T^*\) with \(\operatorname{Tr}T=0\), the matrix expansion around \(\tau\) gives
 \[
@@ -202,7 +188,7 @@ is fixed by every \(\mathscr E_g\). For sufficiently small \(\varepsilon\), the 
 
 This is a concrete reason not to infer full physical coverage from the finite Jordan frame. A later construction must say whether such balance directions are physical, constrained, separately observed, or removed by a justified quotient. They cannot be deleted merely to preserve a desired edge.
 
-[[primitive-peirce-response|The primitive Peirce completion]] now takes the separately observed branch: it adds the readouts determined by all primitive Jordan idempotents. Their averaged loss has a certified lower bound on the entire traceless matrix carrier and detects (EC17), without quotienting it out. This is a genuinely enlarged family, not a retroactive claim that the cyclic family already had complete coverage.
+[[exceptional-state-comparison/primitive-peirce-response|The primitive Peirce completion]] takes the separately observed branch: it adds the readouts determined by all primitive Jordan idempotents. Their averaged loss has a certified lower bound on the entire traceless matrix carrier and detects (EC17), without quotienting it out. This is an enlarged family, not a retroactive claim that the cyclic family already had complete coverage.
 
 ## What this contributes to the mass-gap search
 
@@ -215,4 +201,4 @@ There is now a concrete partial bridge: [[global-local-response-reconstruction/e
 
 The coefficient \(9/13\) in (EC6) is a normalized finite frame ratio, and \(1/13\) in the second derivative of (EC16) is a Hessian coefficient in the explicitly selected state chart. Neither is a glueball coefficient or an inverse clock time. Their value is methodological: an algebraically specified relation really can force a quantitative bound, while the operator's domain says exactly which distinctions it bounds.
 
-[[algebra/receipts/positivity_rigidity_audit_receipt.py|The finite audit receipt]] checks the Jordan variance, regular traces, CP intertwining, entropy expansion, and unseen balance direction. The Haar identity is proved above using the cited representation input, not established by finite sampling.
+[[exceptional-state-comparison/receipts/cyclic_context_response_receipt.py|The finite audit receipt]] checks the Jordan variance, regular traces, CP intertwining, entropy expansion, and unseen balance direction. The Haar identity is proved above using the cited representation input, not established by finite sampling.

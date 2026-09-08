@@ -89,7 +89,7 @@ within the specified nonnegative channel family. No claim about other channel fa
 
 ## The octonionic context ratio lands at this threshold
 
-[[peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]]
+[[exceptional-state-comparison/peirce-context-averaging-and-the-emergent-qubit-process|Peirce context averaging]]
 fixes a rank-two octonionic corner
 \(\mathbb Rp\oplus\mathbb R^9\), marks a complex subcorner
 \(\mathbb Rp\oplus\mathbb R^3\), and compares its rotated three-planes with invariant weight. The projection rank divided by the ambient trace-free dimension gives the return coefficient

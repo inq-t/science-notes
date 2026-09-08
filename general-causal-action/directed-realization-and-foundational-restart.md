@@ -122,7 +122,7 @@ choice after the data are fixed, not the freedom to encode arbitrary
 dynamics in those data. It is a realization interface for a future
 constitutive law, not yet that law or the stronger foundational milestone.
 
-[[algebra/primitive-overlap-refinement-and-the-emergent-diffusion|Primitive
+[[primitive-state-diffusion/inq|Primitive
 overlap refinement]] supplies a more constrained worked member: a declared
 Jordan orbit, invariant law and tensor-overlap iteration determine a
 complete geometric diffusion and the existing sphere-to-ball return,
