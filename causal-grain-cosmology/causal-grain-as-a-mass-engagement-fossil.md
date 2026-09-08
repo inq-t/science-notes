@@ -309,12 +309,14 @@ $$
 
 and the standardly normalized conjugate intertwiner is a proper isometry. For an arbitrary chosen finite-index expectation, the Kosaki index and normalization can depend on that expectation; it must not be relabelled as intrinsic categorical dimension. The proper-isometry result expresses a change in **categorical reversibility**: the realized map can remain norm preserving in the forward direction while failing to be onto. It is not yet a change in a Hamiltonian spectrum. [[finite-index-distinction/gauge-index-no-go-and-four-dimensional-center-square]] imposes a decisive gauge firewall: the faithful continuous \(SU(N)\) fixed-point inclusion is infinite-index. The canonical finite remnant presently available in pure \(3+1\)-dimensional gauge theory is instead the regional electric--magnetic center comparison with index \(|Z(G)|^2\). It is static, topological, and trivial for centerless simple groups, so it can at most label or organize one response branch.
 
+For a \(\mathrm{II}_1\) inclusion, this minimal index equals Jones's original trace index precisely on the extremal branch; [[library/dualizability-and-index-of-subfactors/inq|Bartels--Douglas--Henriques, Warning 5.11]] makes the distinction explicit.
+
 The current fossil proposal therefore contains four differently typed memories:
 
 | Memory | Candidate invariant | What survives | Status |
 |---|---|---|---|
 | orientation | Fredholm index of the reduced scale wall | which side of a one-sided crossing was entered | exact on the declared auxiliary carrier; physical identification open |
-| multiplicative size | categorical dimension \(d\), Jones--Kosaki index \(d^2\), or the regional center value \(|Z(G)|^2\) | how a selected finite-index correspondence composes, or which finite loop-class plateau is present | exact after the inclusion/Q-system is supplied; the full continuous gauge fixed point is infinite-index and the center value is not universal |
+| multiplicative size | categorical dimension \(d\), minimal index \(d^2\) from a standard solution, or the regional center value \(|Z(G)|^2\) | how a selected finite-index correspondence composes, or which finite loop-class plateau is present | exact after the inclusion/Q-system is supplied; the full continuous gauge fixed point is infinite-index and the center value is not universal |
 | lost distinction | relative-entropy restriction loss and its Hessian | which state-pair cocycles or tangent distinctions are not retained by a declared channel | exact loss and zero semantics; for a preserving expectation the BKM form has unit coercivity only on the forgotten vertical quotient and zero retained-output transgression |
 | physical mass | lower edge of the full Poincare Casimir after OS reconstruction | uniform energetic separation of every nonvacuum physical state | theorem target, not inherited from the preceding indices |
 

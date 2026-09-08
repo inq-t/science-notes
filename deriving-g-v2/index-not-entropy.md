@@ -1,6 +1,6 @@
 # Index, Not Entropy
 
-The unit of the wall ledger looked like an arbitrary choice — nats against bits — and the cosmological matching-ratio profile looked like a measurement of an entropy. In the exact type-I product-edge model, the entropy bound can be retyped through the Watatani index; conditional on the channel model and the reproduced direct background profile, the resulting candidate lies above the discrete sub-4 Jones spectrum. This removes one possible rigidity obstruction but neither selects an index nor explains the value or continuity of the gravitational coupling.
+The type-I product-edge model bounds a chosen edge state's entropy by half the log Watatani index. Combining that identity with a channel model converts the reproduced cosmological matching-ratio profile into a conditional bound on the cell dimension. Extending the comparison to the sub-4 Jones spectrum requires a separate entropy–index bound for the proposed subfactor wall; the index theorem supplies neither that bound nor a selection of the gravitational coupling.
 
 ## The retyping
 
@@ -51,15 +51,15 @@ The likelihood profiles \(\mathfrak R_c\); the entropy numbers are conditional p
 
 ## The Jones wall
 
-Jones (Invent. Math. **72**, 1 (1983)) proved the index of a subfactor takes values
+Jones (Invent. Math. **72**, 1 (1983)) proved that the Jones trace index of an inclusion of \(\mathrm{II}_1\) factors takes values
 
 $$
 \operatorname{Ind}\in\Bigl\{4\cos^2\!\frac{\pi}{n}:n\ge3\Bigr\}\cup[4,\infty],
 $$
 
-rigid and quantized below 4, continuous above. The corresponding maximal entropies $s_n=\tfrac12\log\operatorname{Ind}_n=\log\bigl(2\cos\frac{\pi}{n}\bigr)$:
+with a discrete allowed series below 4 and every value above 4 realized by some inclusion. The corresponding half-log values are $h_n=\tfrac12\log\operatorname{Ind}_n=\log\bigl(2\cos\frac{\pi}{n}\bigr)$. These are transforms of index values; Jones's theorem does not identify them with maximal edge-state entropies. Moreover, categorical dimension squared is the minimal index and equals the Jones trace index only for extremal \(\mathrm{II}_1\) inclusions, as stated in [[library/dualizability-and-index-of-subfactors/inq|Bartels--Douglas--Henriques, Warning 5.11]] and distinguished in [[finite-index-distinction/finite-index-duality-and-the-square-response|the chosen/minimal-index normalization]].
 
-| n | Index | s_n (nats) | Matching ratio 1/s_n |
+| n | Jones index | Half-log h_n | Reciprocal 1/h_n |
 |---|---|---|---|
 | 3 | 1 | 0 | infinite |
 | 4 | 2 | 0.3466 | 2.885 |
@@ -68,30 +68,34 @@ rigid and quantized below 4, continuous above. The corresponding maximal entropi
 | 8 | 3.414 | 0.6140 | 1.629 |
 | limit | 4 | 0.6931 = ln 2 | 1.4427 |
 
-Under the channel-additivity and unit-rate assumptions, every rigid sub-4 value predicts
+Suppose a proposed subfactor wall independently satisfies \(s_*\le\tfrac12\log\operatorname{Ind}_J\), where \(\operatorname{Ind}_J\) is its Jones trace index. Together with channel additivity and the unit-rate assumption, every sub-4 value then implies
 
 $$
 \mathfrak R_c\ge\frac1{\ln2}=1.4427,
 $$
 
-which lies above the reproduced $\Delta\chi^2\le3.84$ upper endpoint $1.165563$. The rigid ladder therefore remains outside the wider profile contour. A maximally mixed qutrit instead predicts
+which lies above the reproduced $\Delta\chi^2\le3.84$ upper endpoint $1.165563$. This rules out the sub-4 ladder only conditional on the additional entropy–index bound. [[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld|The general log-index capacity theorem]] concerns maximal relative-entropy loss and does not establish that half-log bound.
+
+For the literal type-I product cell, the auxiliary Watatani index is \(d^2\) with integer \(d\); the available values are already \(1,4,9,\ldots\). The inferred entropy excludes \(d\le2\) and permits \(d\ge3\). A maximally mixed qutrit predicts
 
 $$
 \mathfrak R_c=\frac1{\ln3}=0.91024.
 $$
 
-It lies below the $\Delta\chi^2\le1$ endpoint $0.941572$ but inside the $\Delta\chi^2\le3.84$ interval $[0.875271,1.165563]$: it is mildly disfavored, not excluded at the wider contour. Remaining candidates include $s_*\approx1$ nat on a nonmaximally mixed type-I cell of dimension $d\ge3$, or a suitable II$_1$-type inclusion satisfying
+It lies below the $\Delta\chi^2\le1$ endpoint $0.941572$ but inside the $\Delta\chi^2\le3.84$ interval $[0.875271,1.165563]$: it is mildly disfavored, not excluded at the wider contour. The central value is compatible with a nonmaximally mixed type-I cell of dimension $d\ge3$. If the separate half-log bound is established for a proposed \(\mathrm{II}_1\) wall, the central-profile inequality would instead read
 
 $$
-\operatorname{Ind}\ge e^{2s_*}\approx e^2=7.389>4 .
+\operatorname{Ind}_J\ge \exp\!\left(\frac{2}{1.014104}\right)\approx7.186>4.
 $$
+
+An unrestricted \(\mathrm{II}_1\) inclusion with index \(e^2\) is algebraically admissible, but admissibility supplies no edge state or entropy weld; [[deriving-value-of-g/spectral-index-area-route#The exact cell model|the spectral-index area route]] keeps those data separate.
 
 ## Two consequences
 
-**The sub-4 rigidity obstruction is conditionally excluded.** **[CONDITIONAL]** Below index 4 the allowed subfactor indices form a discrete series. Under the channel, unit-rate, fit, and state–geometry-weld hypotheses, the inferred bound lies above 4, where Jones's spectrum permits a continuum of index values. This does not show that the physical index varies continuously, select its value, or explain a measured continuity of $G$; it only says that this candidate is not forced onto the sub-4 discrete ladder. Had the fit landed on one of those ladder values, the same model would instead nominate a discrete index candidate.
+**The sub-4 comparison needs an entropy bound.** **[CONDITIONAL]** Under the channel, unit-rate, fit, and an independently established half-log Jones-index bound, the inferred lower bound lies above 4. The literal type-I result is \(d\ge3\), hence \(\operatorname{Ind}_W\ge9\). An extension to other subfactor indices needs its own state and entropy theorem; neither Jones's spectrum nor the full log-index relative-entropy capacity provides it. The comparison supplies no continuity theorem for a physical index or for \(G\).
 
-**The self-normalizing selection.** **[OPEN]** $s_*=1$ nat is the unique fixed point where the channel carries exactly one unit of the ledger it is written in — $\operatorname{Ind}=e^2$, the index whose half-log is the unit itself. The unit matching law $\mathfrak R_c=1$ thereby acquires a candidate algebraic meaning beyond normalization: the wall is the channel at its own measure. Whether anything *selects* $e^2$ — a variational principle, a maximality property, a fixed point of the descent — is a new open problem, added to the ledger of the several meanings of "one" in [[program-core/claim-and-failure-contract|the claim contract]].
+**The unit candidate still needs selection.** **[OPEN]** In the unit-rate convention, \(\mathfrak R_c=1\) requires \(s_*=1\) nat. A literal finite product cell can realize that entropy with \(d\ge3\), but cannot saturate it at \(\operatorname{Ind}_W=e^2\), since \(d=e\) is not an integer. A different subfactor model would nominate \(e^2\) only after proving the additional equality \(s_*=\tfrac12\log\operatorname{Ind}\). This algebraic nomination is not a fixed-point or state-selection theorem; those remain among the open requirements in [[program-core/claim-and-failure-contract|the claim contract]].
 
 ## Assumptions, and how this dies
 
-The chain assumes the exact type-I/tracial identity can be connected to the physical wall, channel additivity of the BKM response, the unit-rate branch ($\nu\ne1$ changes the reading to $\nu^2/s_*$), and saturation only for the *equality* $\operatorname{Ind}=e^2$ (the bound $>4$ needs no saturation). The reproduced input is still only a background likelihood for an effective source family; it does not validate the channel map. Kill conditions: a future direct profile landing at a ladder value would restore a discrete index candidate within this model; a proof that the physical wall inclusion is irreducible with index in a gap region above 4 would kill the specific value $e^2$ while leaving only above-four admissibility; a demonstrated failure of channel additivity retires the whole note to the junk drawer. For possibly reducible inclusions every value in $[4,\infty)$ is realized (Jones 1983), so $e^2$ is admissible; admissibility is not selection, and the finer spectrum of irreducible hyperfinite subfactors is a separate question.
+The product-cell chain requires a physical realization of the edge factor and its state, channel additivity of the BKM response, and the unit-rate branch ($\nu\ne1$ changes the reading to $\nu^2/s_*$). The subfactor comparison additionally requires a half-log entropy bound for that wall and a declared index convention; equality at \(e^2\) further requires saturation. The reproduced background likelihood does not validate any of these maps. A failed entropy–index bound invalidates the Jones-ladder comparison while leaving the finite-cell identity intact; failed channel additivity invalidates the profile-to-entropy conversion. Restricting the admissible inclusions may also exclude \(e^2\): the unrestricted realization of every index in \([4,\infty)\) does not assert realization in a selected irreducible or finite-depth class.

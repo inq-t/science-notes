@@ -1,0 +1,110 @@
+{
+  "scope": "Bounded conceptual-neighbor triage from the eleven modules created in the Yang-Mills extraction. This inventory records inspected sections and a future frontier; it does not certify the neighboring modules, their sources, or the whole workspace.",
+  "reference_commits": ["4c93bc8", "a5d87b9", "dac3322"],
+  "method": "Read seed entries, counted resolved active Markdown links to module owners, searched the workspace for matching mathematical constructions, and inspected selected neighboring entrypoints and supporting sections. Frozen records were neither rewritten nor treated as active proof dependencies.",
+  "excluded_current_work": ["finite-index-distinction and spectral-wall-descent are being reviewed by the current root team"],
+  "seed_traversals": [
+    {"seed": "general-causal-action", "inspected_neighbors": ["algebra", "directed-analytic-realization", "gauge-boundary-frame-gluing"], "result": "Finite context-comparison examples form a concrete algebraic clump; directed action construction and gauge-boundary gluing remain distinct. See F3 and frontier."},
+    {"seed": "exceptional-gauge-realization", "inspected_neighbors": ["algebra", "global-local-response-reconstruction", "hessian-response-geometry"], "result": "Distinguish constraint-normal gauge geometry, finite matrix-state response, and field-gradient response. F3 identifies a candidate owner without merging these carriers."},
+    {"seed": "categorical-gauge-response", "inspected_neighbors": ["measured-response-carriers", "modular-cocycle-tomography"], "result": "The carrier entry contains repeated generic interpolation and fusion-action constructions; centralizer tomography remains a distinct coverage test. See F1."},
+    {"seed": "triangle-descent-response", "inspected_neighbors": ["complex-presentation-without-polarization", "algebra"], "result": "The current links correctly distinguish source monodromy, unitary cusp characters, and A2 inverse-cover data. No merger follows from their shared labels."},
+    {"seed": "mass-scale-calibration", "inspected_neighbors": ["conformal-scale-geometry", "scale-score-connection"], "result": "Conformal calibration and transport differentiation already have appropriate separate owners. The long mass note repeats family-calibration material owned inside its own module. See F5."},
+    {"seed": "physical-response-coercivity", "inspected_neighbors": ["measured-response-carriers", "wall-construction-interface", "modular-cocycle-tomography"], "result": "Regional access and physical energy comparison are appropriately downstream of carrier and injectivity mathematics. F1 would improve the shared entrypoint rather than merge these physical specializations."},
+    {"seed": "cosmological-scale-selection", "inspected_neighbors": ["wall-construction-interface", "scale-score-connection", "conformal-scale-geometry", "global-local-response-reconstruction"], "result": "A general intertwining-defect theorem is owned by a cosmological application and imported by the foundational interface. See F2."},
+    {"seed": "logistic-scale-geometry", "inspected_neighbors": ["binary-information-geometry", "wall-construction-interface"], "result": "The scaled Witten-Darboux and flat-partner proofs already have an explicit binary owner; the logistic note now cites them rather than reproducing their proofs. Retain this boundary."},
+    {"seed": "scale-incidence-response", "inspected_neighbors": ["mass-scale-calibration", "wall-construction-interface"], "result": "Geometric response characters and physical scale calibration are explicitly additional inputs. Trace-filtration and spectral-wall neighbors are deferred because they overlap the current round."},
+    {"seed": "finite-index-distinction", "inspected_neighbors": [], "result": "Its resolved links identify spectral-wall-descent as the main shared owner; detailed review is assigned to the current round and intentionally not duplicated here."},
+    {"seed": "yang-mills-continuum-crossover", "inspected_neighbors": ["rg-covariance-residue", "auxiliary-response-localization", "global-local-response-reconstruction"], "result": "Covariance transport and complete-slab reconstruction have different hypotheses. A reusable spectral last-mile theorem is buried in the auxiliary entry. See F4."}
+  ],
+  "ranked_findings": [
+    {
+      "id": "F1",
+      "priority": 1,
+      "topic": "Split the measured-response carrier entry around its reusable theorems",
+      "type": "entrypoint size, repeated construction, owner direction",
+      "evidence": [
+        {"path": "measured-response-carriers/inq.md", "lines": [17, 34], "observation": "The 940-line entry combines observable actions, GNS contractions, state tangents, closed-form transport, interpolation and categorical specialization."},
+        {"path": "measured-response-carriers/inq.md", "lines": [531, 569], "observation": "MC19e-f states observable operator-monotone gap transfer and links back to its property-T consumer."},
+        {"path": "categorical-gauge-response/kazhdan-markov-process-carrier.md", "lines": [195, 233], "observation": "The BKM-gain section independently states the same observable interpolation and observable-versus-state-tangent distinction."},
+        {"path": "measured-response-carriers/inq.md", "lines": [804, 869], "observation": "MC22-24 constructs normalized fusion actions, their GNS representation, admissibility and the conditional Kazhdan edge."},
+        {"path": "categorical-gauge-response/categorical-action-on-the-neutral-wilson-carrier.md", "lines": [399, 552], "observation": "The Wilson-carrier target again spells out the normalized fusion action, representation and tube-admissibility gate."}
+      ],
+      "next_action": "Extract canonical supporting notes for GNS-to-observable interpolation, the distinct state-tangent bridge, pullback/closed-form transport, and generic normalized fusion actions. Keep the carrier inq as their synthesis and leave Wilson-specific obstructions and physical realization in categorical-gauge-response.",
+      "preserve": "Observable BKM norms and inverse BKM metrics on state tangents are different; generic fusion identities do not imply tube admissibility or a physical clock. No new theorem was verified in this triage."
+    },
+    {
+      "id": "F2",
+      "priority": 2,
+      "topic": "Give the transport-intertwining defect a non-cosmological owner",
+      "type": "shared exact construction and reverse application dependency",
+      "evidence": [
+        {"path": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md", "lines": [61, 191], "observation": "The differentiable propagator identity, presentation covariance and zero-defect wall-placement theorem are general carrier mathematics before the BAO application."},
+        {"path": "scale-score-connection/inq.md", "lines": [155, 176], "observation": "The covariant derivative of a map between moving Hilbert carriers already expresses the same transport-intertwining obstruction, with its own connection conventions."},
+        {"path": "wall-construction-interface/half-sided-modular-tunnel.md", "lines": [169, 229], "observation": "The abstract endpoint-aligned HSMI no-go imports the cosmological defect owner, proves its defect vanishes, and diagnoses the bare-map mismatch."},
+        {"path": "wall-construction-interface/inq.md", "lines": [14, 29], "observation": "The interface expressly assigns consumer applications downstream of its general construction package."},
+        {"path": "cosmological-scale-selection/wall-crossing-defect-and-the-fossil-of-mass-engagement.md", "lines": [274, 276], "observation": "The cosmological note imports the HSMI no-go back, forming an avoidable cross-module ownership loop."}
+      ],
+      "next_action": "Extract one exact intertwining-defect note, with explicit source/target generators, sign convention and differentiability domains. Let scale-score transport, the HSMI example and the cosmological fossil application refer to that owner; keep their distinct physical interpretations local.",
+      "preserve": "A Banach propagator derivative is not automatically a metric Hilbert-bundle connection. Compare hypotheses before unifying notation. A zero defect does not make a noninvertible map reversible."
+    },
+    {
+      "id": "F3",
+      "priority": 3,
+      "topic": "Traverse the finite exceptional state-comparison clump inside algebra",
+      "type": "shared construction inputs and code ownership",
+      "evidence": [
+        {"path": "algebra/exceptional-context-response.md", "lines": [110, 210], "observation": "Cyclic Jordan retraction becomes a matrix entropy-loss Hessian but misses an explicit added-carrier direction; primitive Peirce response is the linked completion."},
+        {"path": "algebra/primitive-peirce-response.md", "lines": [1, 5], "observation": "The full finite matrix-carrier theorem belongs to state comparison rather than gauge-normal geometry."},
+        {"path": "algebra/peirce-context-averaging-and-the-emergent-qubit-process.md", "lines": [1, 11], "observation": "The same Albert/context inputs produce a separately selected averaged qubit process."},
+        {"path": "algebra/primitive-overlap-refinement-and-the-emergent-diffusion.md", "lines": [1, 12], "observation": "Primitive orbit comparisons produce a state-space diffusion under a declared invariant law, a further distinct construction from the same inputs."},
+        {"path": "algebra/receipts/primitive_peirce_response_receipt.py", "lines": [3, 14], "observation": "The Peirce receipt imports exceptional_flag_linearization_receipt as a sibling module to reuse its Albert multiplication table; a blind file move would break that seam."},
+        {"path": "global-local-response-reconstruction/exceptional-context-analysis-of-gauge-gradients.md", "lines": [7, 24], "observation": "The field-gradient bridge proves why finite internal completeness does not cover scalar Wilson observables and why a naive spatial extension becomes soft."}
+      ],
+      "next_action": "Consider a focused owner for exceptional state comparisons, with cyclic partial coverage, Peirce completion and chosen process constructions as linked notes. Review shared Albert data/code first; preserve the separate field-gradient bridge and gauge-normal realization.",
+      "preserve": "These notes do not all describe the same carrier or the same averaging law. This finding identifies a coherent traversal candidate, not a decision to merge all exceptional mathematics."
+    },
+    {
+      "id": "F4",
+      "priority": 4,
+      "topic": "Extract the common-decay-exponent spectral theorem from the auxiliary entry",
+      "type": "buried shared theorem and imprecise entrypoint links",
+      "evidence": [
+        {"path": "auxiliary-response-localization/inq.md", "lines": [212, 266], "observation": "ARL17-19a proves the positive spectral-measure implication on a total centered family, allowing source-dependent prefactors and onsets."},
+        {"path": "rg-covariance-residue/inq.md", "lines": [239, 248], "observation": "The covariance-residue application links to the entire auxiliary entry for the spectral proof after its own distinct source-offset and summation argument."},
+        {"path": "global-local-response-reconstruction/inq.md", "lines": [306, 343], "observation": "The 425-line reconstruction entry restates the same spectral implication beside the stronger complete-angle route."},
+        {"path": "yang-mills-continuum-crossover/asymptotically-free-response-crossover-lemma.md", "lines": [300, 337], "observation": "The crossover theorem applies the same totality argument and separately requires the Lorentz/Poincare conversion to invariant mass."}
+      ],
+      "next_action": "Create a canonical supporting note for the abstract positive-semigroup spectral argument and make applications link directly to it. Split auxiliary clock elimination, Witten-resolvent localization and its spectral return into linked notes if that clarifies the entry.",
+      "preserve": "Do not identify a common local correlation exponent with a regulator-uniform complete-boundary angle. Keep reflection positivity, full OS reconstruction, totality, and invariant-mass reconstruction as explicit distinct obligations."
+    },
+    {
+      "id": "F5",
+      "priority": 5,
+      "topic": "Consolidate scale-family covariance inside the mass module without merging conformal geometry",
+      "type": "long-note split and overlapping family-calibration exposition",
+      "evidence": [
+        {"path": "mass-scale-calibration/mass-as-casimir-and-realization.md", "lines": [449, 702], "observation": "The long Casimir note contains metric-scale presentation, two torsors, the same-carrier dilation no-go and scale-covariant families as an extended section."},
+        {"path": "mass-scale-calibration/scale-torsor-and-the-global-local-gap-invariant.md", "lines": [45, 127], "observation": "A separate note already owns a scale-equivariant family and its dimensionless invariant, overlapping the family exposition."},
+        {"path": "mass-scale-calibration/internal-yardstick-as-a-generalized-rate-edge.md", "lines": [255, 255], "observation": "The generalized-rate application explicitly imports the same-carrier spectral no-go from the long Casimir note."},
+        {"path": "conformal-scale-geometry/causal-order-and-metric-scale.md", "lines": [62, 84], "observation": "The geometric neighbor already distinguishes a positive metric scale section from causal order and from RG, clock and modular parameters."},
+        {"path": "scale-score-connection/inq.md", "lines": [25, 36], "observation": "Differentiation between moving carriers has an independent bundle/connection contract, not supplied by choosing a conformal representative."}
+      ],
+      "next_action": "Extract the same-carrier dilation theorem and consolidate the family-covariance presentation in the scale-torsor note; leave Poincare orbit/mass facts in the Casimir note. Keep conformal metric selection and moving-carrier differentiation in their existing neighboring owners.",
+      "preserve": "Unit changes, physical member selection, conformal presentation changes and within-theory dilation symmetry must remain separate."
+    }
+  ],
+  "healthy_boundaries": [
+    {"paths": ["logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law.md:82-111", "binary-information-geometry/witten-darboux.md:109-180"], "observation": "The logistic note now cites the scaled and uniqueness proofs at their binary owner, with a short application statement. No further proof deduplication was found necessary in these inspected sections."},
+    {"paths": ["triangle-descent-response/inq.md:19-31", "complex-presentation-without-polarization/inq.md:125-163"], "observation": "The source complex geometry, A2 motifs, nonunitary monodromy and selected unitary cusp characters are explicitly separated; similarity of labels is not a reason to merge them."},
+    {"paths": ["general-causal-action/research-schema.md:169-179", "gauge-boundary-frame-gluing/inq.md:98-208"], "observation": "The foundational schema imports finite gauge gluing as a worked constraint on joint selection. Gluing a supplied weighted carrier and selecting its law remain different tasks."}
+  ],
+  "unreviewed_frontier": [
+    {"module": "gauge-boundary-frame-gluing", "lead": "Its 555-line entry contains charge gluing, faithful-weight transport and innovation frames. The entry and selected boundaries were inspected, but supporting source-action and overlap-refinement notes were not deeply audited."},
+    {"module": "directed-analytic-realization", "lead": "The entry separates one-sided quotient/action construction, local Weyl examples and homogeneous gauge vacua. Supporting analytic domain proofs and path-sensitive receipts were not audited."},
+    {"module": "modular-cocycle-tomography", "lead": "Centralizer coverage and the injectivity-versus-closed-range boundary were inspected; primary-source claims and all Type-III domain details remain outside this triage."},
+    {"module": "hessian-response-geometry", "lead": "The entry distinguishes matrix-affine, BKM and signed action Hessians. Its full integrability, compatible-image and center-valued construction dependencies were not traversed."},
+    {"module": "rg-covariance-residue", "lead": "The entry and its spectral return were inspected; conditioned-source transport, block-fiber code and full multi-scale proof resources were not audited."},
+    {"module": "algebra", "lead": "Only the exceptional state-comparison clump and selected foundational links were inspected. No claim is made about the rest of the algebra module or its missing-source baseline."},
+    {"module": "trace-dirichlet-descent", "lead": "Paired-filtration dependencies were recognized but deferred because the current finite-index/spectral-wall round overlaps their likely next owner."}
+  ]
+}

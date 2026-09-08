@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [von-neumann-algebras, bimodules, dualizability, statistical-dimension, minimal-index]
 ---
 # Dualizability and Index of Subfactors
 
@@ -13,6 +14,5 @@ Arthur Bartels, Christopher L. Douglas, and Andre Henriques formulate finite ind
 - Published: 2014
 - Journal: *Quantum Topology* **5** (3), 289--345
 - DOI: [10.4171/QT/53](https://doi.org/10.4171/QT/53)
-- Open article: [EMS Press](https://ems.press/journals/qt/articles/12498)
+- Open article: [EMS Press](https://ems.press/journals/qt/articles/12827)
 - Local artifacts: none
-

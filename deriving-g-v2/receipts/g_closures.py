@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Receipts for deriving-g-v2. Stdlib only. Exits nonzero on any failed assertion.
 
-What a pass establishes: every number quoted in the module's notes follows from
+What a pass establishes: the checked numbers in the module's notes follow from
 the declared constants, cosmology, and formulas. What it does NOT establish:
 the wall construction, the channel reading, the fossil law, or any closure's
-truth in nature. The equal-partition crossing z_c is a CONSTRUCTION (rho_X =
+truth in nature. The Jones-ladder application additionally requires an unproved
+half-log entropy bound for the proposed subfactor wall. The equal-partition
+crossing z_c is a CONSTRUCTION (rho_X =
 rho_crit/2 is linear bookkeeping), not a discovery -- asserted here only as
 internal consistency.
 """
@@ -74,18 +76,23 @@ out["s_star_nat_conditional_on_s_equals_inverse_R"] = {
 }
 jones_sub4_floor = out["jones_sub4_matching_ratio_floor"] = 1/math.log(2)
 qutrit_ratio = out["maximally_mixed_qutrit_matching_ratio"] = 1/math.log(3)
-assert jones_sub4_floor > hi95              # rigid sub-4 ladder outside wider contour
+assert jones_sub4_floor > hi95              # applies only given s <= half-log index
 assert qutrit_ratio < lo68                  # qutrit outside Delta-chi2 <= 1
 assert lo95 <= qutrit_ratio <= hi95         # but inside Delta-chi2 <= 3.84
 out["maximally_mixed_qutrit_profile_status"] = (
     "outside Delta-chi2 <= 1; inside Delta-chi2 <= 3.84; mildly disfavored"
 )
-# Jones ladder: every rigid value sits at or below ln 2
+# Jones ladder: half-log index values lie at or below ln 2, not an entropy theorem.
 for n in range(3, 61):
     s_n = math.log(2*math.cos(math.pi/n))
     assert s_n <= math.log(2) + 1e-12
 out["index_at_s1"] = check("Ind(e2)", math.exp(2*1.0), 7.389056, 1e-6)
-assert math.exp(2*1.0) > 4.0             # above the Jones wall: continuum regime
+assert math.exp(2*1.0) > 4.0             # allowed-index range, not physical selection
+out["conditional_index_lower_bound_at_profile_best"] = check(
+    "exp(2/fit)", math.exp(2/fit), 7.186, 1e-4
+)
+out["minimum_product_cell_dimension_at_wider_contour"] = math.ceil(math.exp(1/hi95))
+assert out["minimum_product_cell_dimension_at_wider_contour"] == 3
 
 # Closure B: NCG spectral closure. (96 f2 L^2)/(24 pi^2) = etaE/(4 pi)
 f2L2 = (etaE/(4*math.pi)) * 24*math.pi**2 / 96

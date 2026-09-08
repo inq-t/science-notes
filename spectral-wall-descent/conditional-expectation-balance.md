@@ -1,10 +1,10 @@
-# Conditional Expectation, Lost Distinction, and Gained Entropy
+# Conditional-Expectation Balance
 
-A trace- or state-preserving conditional expectation supplies the first exact wall-crossing law matching the proposed ontology. It is nonunitary, idempotent, and genuinely forgetful. In the finite tracial model, the entropy gained after the wall is exactly the relative distinguishability lost to the chosen observable subalgebra, and its coincidence Hessian is the missing positive block of the common response form.
+A trace-preserving conditional expectation on a finite matrix algebra splits relative distinguishability into retained and erased parts; the erased part equals the increase of ambient von Neumann entropy. At an invariant faithful reference, its Hessian is the BKM norm of the forgotten tangent component. General state preservation still supports an appropriate relative-entropy balance, but does not imply an increase of absolute entropy or a positive response on retained directions. A proper expectation forgets distinctions; the identity expectation has zero defect.
 
 ## The finite tracial theorem
 
-Let \(\mathcal A\subseteq M_N(\mathbb C)\) be a finite-dimensional \(C^*\)-algebra equipped with the restriction of the ambient matrix trace \(\operatorname{Tr}\). Let \(\mathcal B\subseteq\mathcal A\) be a unital subalgebra and let
+Let \(\mathcal A\subseteq M_N(\mathbb C)\) be a unital finite-dimensional \(C^*\)-subalgebra equipped with the restriction of the ambient matrix trace \(\operatorname{Tr}\). Let \(\mathcal B\subseteq\mathcal A\) be a unital subalgebra and let
 
 $$
 E:\mathcal A\longrightarrow\mathcal B
@@ -52,7 +52,37 @@ $$
 \geq0.}
 $$
 
-No complementary environment and no unitary dilation has been used. The increase is a property of the noninvertible expectation itself.
+The identity follows from trace orthogonality, without a complementary environment or a unitary dilation. The gain vanishes on states fixed by the expectation, even when the inclusion is proper.
+
+## State preservation does not imply entropy gain
+
+The finite theorem uses a trace-preserving expectation, which is also self-adjoint for the trace pairing. Only under that identification may the same map \(E\) be applied to observables and density matrices. A general Heisenberg expectation \(E\) acts on density matrices through its trace adjoint \(E_*\).
+
+For a faithful qubit state \(\sigma=\operatorname{diag}(p,1-p)\), with \(0<p<1\) and \(p\ne1/2\), consider the expectation onto scalars
+
+\[
+E_\sigma(a)=\operatorname{Tr}(\sigma a)I,
+\qquad
+E_{\sigma,*}(\rho)=\sigma\operatorname{Tr}\rho.
+\]
+
+It is unital, completely positive, idempotent and \(\sigma\)-preserving in the Heisenberg sense. Its Schrödinger action replaces every normalized state by \(\sigma\). For \(\rho=I/2\),
+
+\[
+S(E_{\sigma,*}\rho)-S(\rho)
+=-p\log p-(1-p)\log(1-p)-\log2<0,
+\]
+
+while
+
+\[
+D(\rho\Vert\sigma)-D(E_{\sigma,*}\rho\Vert\sigma)
+=D(\rho\Vert\sigma)>0.
+\]
+
+Thus relative distinguishability can be lost while absolute entropy falls. Inputs of sufficiently small entropy give the opposite entropy sign for the same expectation. The [[spectral-wall-descent/receipts/nontracial-expectation-entropy.py|nontracial expectation receipt]] checks both signs, state preservation and the observable/state adjoint relation. This is a counterexample to dropping the tracial hypothesis, not an exception to data processing.
+
+[[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#The preserving-expectation Hessian is vertical|The preserving-expectation chain rule]] states the general von Neumann relative-entropy result with restriction and recovery maps, including its tangent-domain requirements. That is the appropriate continuation to type III, where absolute density-matrix entropy is generally unavailable.
 
 ## Entropy as anti-information in a declared register
 
@@ -117,7 +147,9 @@ G^{\mathrm{pre}}_{IJ}
 +G^{\mathrm{wall}}_{IJ}.}
 $$
 
-This is the exact quadratic balance sought by [[program-core/common-response-form|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state.
+This is the exact quadratic balance sought by [[program-core/common-response-form|the common response construction]]. It is a Pythagorean decomposition of response, not conservation of a scalar information substance. [[spectral-wall-descent/receipts/verify-spectral-wall.py|The finite receipt]] checks both the relative-entropy closure and its Hessian closure for a noncommuting \(M_3(\mathbb C)\) state; its [[spectral-wall-descent/receipts/verify-spectral-wall-output.txt|stored output]] also records the module's other finite examples.
+
+The lost form vanishes whenever \(X=EX\). Its minimum over all lifts of a prescribed retained tangent is therefore zero. [[measured-response-carriers/descent-loss-cocycle-and-recovery-fork#Minimal-lift transgression puts a form on the output|The minimal-lift theorem]] makes this obstruction precise: the incoming loss does not become stiffness on the output merely by taking a quotient. [[trace-dirichlet-descent/subfactor-angle-coercivity-and-the-index-firewall|Subfactor-angle coercivity]] instead compares two differently placed projections. Their common kernel and quantitative separation are additional data, even when all relevant indices are finite.
 
 ## Nested expectations and scale towers
 
@@ -164,7 +196,7 @@ Here \(\alpha_{g*}\rho:=\alpha_g(\rho)\) uses the finite trace identification. T
 
 ## The modular existence gate
 
-The finite trace makes expectations look easier than they are. For a von Neumann inclusion \(\mathcal N\subseteq\mathcal M\) and faithful normal state \(\varphi\), a unique \(\varphi\)-preserving normal conditional expectation exists if and only if the Takesaki modular condition holds:
+The finite trace makes expectations look easier than they are. For a von Neumann inclusion \(\mathcal N\subseteq\mathcal M\) and faithful normal state \(\varphi\), [[library/conditional-expectations-in-von-neumann-algebras/inq|Takesaki's theorem]] gives a unique \(\varphi\)-preserving normal conditional expectation exactly when
 
 $$
 \sigma_t^\varphi(\mathcal N)=\mathcal N
@@ -202,6 +234,6 @@ $$
 
 for every admissible patch, with \(\mathcal A_D^Z\) independently normalized. [[spectral-wall-descent/finite-index-area-weld|The finite-index area weld]] gives an exact product-edge debugging identity for the auxiliary tracial expectation, not a general single-expectation index--area theorem. [[spectral-wall-descent/ads-calibration-and-ds-carrier|The AdS/dS note]] states the retained-response calibration.
 
-This refinement does not make \(G^{\mathrm{lost}}\) irrelevant. It remains the exact BKM cost of the expectation and the entropy gained by coarse graining. In the type-I product cell, the tracial defect complements a separately chosen input edge entropy inside one log-dimension identity. But that edge state need not be selected by the tracial expectation, and the lost block is not automatically the gravitational canonical-energy metric.
+This refinement does not make \(G^{\mathrm{lost}}\) irrelevant. It remains the exact BKM cost of forgotten tangents at an adapted reference. In the finite tracial setting it is also the Hessian of the absolute entropy gain; general state preservation alone does not imply that entropy interpretation. In the type-I product cell, the tracial defect complements a separately chosen input edge entropy inside one log-dimension identity. But that edge state need not be selected by the tracial expectation, and the lost block is not automatically the gravitational canonical-energy metric.
 
-A completed construction still requires localization, tangent transport, fixed-edge-state selection, spectral area, covariance, Ward and Bianchi consistency, soldering, and a noncircular \(\eta_*\). Until those are supplied, \(\Sigma_E\) is lost relative distinction and gained observable entropy, while \(\mathcal L_\chi\) is only a candidate central geometry.
+A completed construction still requires localization, tangent transport, fixed-edge-state selection, spectral area, covariance, Ward and Bianchi consistency, soldering, and a noncircular \(\eta_*\). Until those are supplied, \(\Sigma_E\) is lost relative distinction, with the absolute entropy-gain interpretation confined to the tracial setting, while \(\mathcal L_\chi\) is only a candidate central geometry.

@@ -1,6 +1,6 @@
-# The Scale-Correspondence Stack
+# Scale-Correspondence Stack
 
-One candidate realization of the canonical wall package's presentation and transport slots is a scale-indexed tower of von Neumann algebras and correspondences whose overlaps glue by Connes fusion. Groupoid-valued presentation stacks preserve presentations and automorphisms; extra Q-system or expectation data add noninvertible observational loss; a pointed character and one-sided record extensions add facthood and ontological time. Keeping these layers separate lets a homogeneous upstream law yield sectoral observable distinctions without treating the final classical spectrum as the substrate.
+A scale-indexed correspondence prestack is a candidate for the canonical wall package's presentation and transport slots. Its scale arrows compose by Connes fusion; effective descent over context covers remains to be proved. Q-system or expectation data specify observational loss, suitable relative-commutant states can define central edge entropy, and separate character and record maps supply facthood. None of these structures is supplied by bare fusion coherence.
 
 ## The object to construct
 
@@ -17,7 +17,7 @@ $$
 \right),}
 $$
 
-where \(\mathbf{W^*Corr}\) is the bicategory whose objects are von Neumann algebras, whose one-morphisms are correspondences, and whose composition is Connes fusion.
+where \(\mathbf{W^*Corr}\) is the bicategory whose objects are von Neumann algebras, whose one-morphisms are correspondences, and whose composition is Connes fusion. Here \(\operatorname{PSt}\) denotes context-contravariant pseudofunctors with their pseudonatural transformations and modifications. The context restrictions, scale comparisons and their compatibility are part of the proposed data.
 
 The symbol \(\mathfrak W\) is reserved for the full canonical package in [[wall-construction-interface/inq|the wall-construction interface]]. A completed wall package has a correspondence projection
 
@@ -28,7 +28,7 @@ $$
 
 but there is no automatic inverse: regions, cuts, observable contexts, source families, state-selection data, and physical quotients must be added and shown compatible before a correspondence prestack realizes the full interface.
 
-Concretely, it must supply
+The underlying pseudofunctor assigns algebras and correspondences. A physical wall provider must additionally decorate its objects with compatible states and spectral data,
 
 $$
 (N,U)\longmapsto
@@ -88,9 +88,9 @@ transfer defect. The CP/path family, noncommutative lift, local-net meaning,
 and uniform lower frame are still required before this becomes the physical
 wall response.
 
-A bare correspondence does not canonically determine a conditional expectation or a fixed edge state. Each proposed wall cell must additionally carry an explicit inclusion and expectation, a Q-system or Frobenius-algebra object with chosen standard solution, or equivalent data that derive both the completely positive map and its compatible edge state. Fusion coherence of \(X_{21}\) alone does not prove composition of those wall maps.
+A bare correspondence does not canonically determine a conditional expectation or a fixed edge state. Each proposed wall cell must additionally carry an explicit inclusion and expectation, or equivalent Q-system data; standard/minimal normalization is a further condition where available. An entropy assignment also needs the relative-commutant state and trace hypotheses specified below. Fusion coherence of \(X_{21}\) alone does not prove composition of those wall maps.
 
-For properly infinite von Neumann algebras, the finite-index reconstruction theorem makes the missing datum exact. A normal faithful finite-index expectation is equivalent to a Q-system attached to the inclusion:
+For properly infinite von Neumann algebras, [[library/planar-algebraic-conditional-expectations/inq|Giorgetti's finite-index reconstruction theorem]] makes the missing datum exact. Inclusion plus normal faithful finite-index expectation is equivalent, up to the appropriate isomorphisms, to the Q-system data attached to it:
 
 $$
 \boxed{
@@ -104,7 +104,7 @@ Q_E=(\theta,x,w),
 \theta=\bar\iota\circ\iota.}
 $$
 
-For the conjugate solution encoded by \(w\), the expectation is recovered algebraically by
+With general centers, the Q-system is a unitary Frobenius-algebra object satisfying the additional condition \(w^*w\in Z(\mathcal N)_{++}\). The invertibility clause is automatic in the factor case. For the conjugate solution encoded by \(w\), the expectation is recovered algebraically by
 
 $$
 \boxed{
@@ -113,7 +113,15 @@ $$
 (w^*w)^{-1}w^*\bar\iota(m)w.}
 $$
 
-This is an equivalence between **inclusion plus chosen expectation** and Q-system, not between a bare correspondence and an expectation. Standard solutions recover the minimal expectation; calling that choice canonical additionally requires hypotheses such as a connected inclusion with finite-dimensional centers. With infinite centers, even minimal expectations need not be unique. Once \(E\) is fixed, its restriction to the relative commutant selects the sector edge states used by the central entropy operator. Finite index alone does not select them.
+This equivalence retains the chosen expectation. For factors, or connected inclusions with finite-dimensional centers under the source's standard normalization, standard solutions recover the unique minimal expectation. With arbitrary infinite centers, minimal expectations need not be unique and the same standard-solution formalism cannot be assumed.
+
+For an inclusion \(\mathcal N\subseteq\mathcal M\), bimodularity gives only the general statement
+
+$$
+E(\mathcal N'\cap\mathcal M)\subseteq Z(\mathcal N).
+$$
+
+In [[spectral-wall-descent/finite-index-area-weld|the finite sector-preserving type-I model]], restriction of \(E\) to the relative commutant selects the states \(\chi_\alpha\) relative to the declared matrix traces. [[library/holographic-map-as-conditional-expectation/inq|Faulkner's central area construction]], section 4.2, likewise assumes a discrete/atomic central decomposition and type-I relative-commutant sectors when extending that entropy assignment. For more general centers or relative commutants, an appropriate state decomposition, entropy definition and domain still have to be constructed. Neither a bare correspondence nor the finite-index number supplies those data.
 
 For a cover \(\{U_i\to U\}\), local algebras, states, spectral data, and overlap correspondences must satisfy effective descent. Until that theorem is proved, \(\mathfrak X_{\mathrm{corr}}\) is a correspondence prestack rather than a completed operator-algebraic stack.
 
@@ -169,20 +177,7 @@ It does not prove that the physical sub-Planckian algebra is homogeneous. That c
 
 ## The additive quantity is a cocycle, not a charge
 
-On dualizable factor correspondences, categorical dimension is multiplicative:
-
-$$
-d(X_{32}\boxtimes X_{21})
-=d(X_{32})d(X_{21}).
-$$
-
-Hence
-
-$$
-\Lambda_{21}:=\log d(X_{21})
-$$
-
-obeys
+[[finite-index-distinction/finite-index-duality-and-the-square-response#The chosen index gives an exact square normalization|Statistical dimension and its fusion law]] give an additive address for dualizable factor correspondences. With \(\Lambda_{21}:=\log d(X_{21})\), the scale-composition requirement becomes
 
 $$
 \boxed{
@@ -191,7 +186,7 @@ $$
 
 This is a monoidal valuation or additive scale cocycle. It is not a Noether charge transported through Newtonian time. It expresses coherent composition even when local presentations, stabilizers, states, and entropy partitions change.
 
-With nontrivial centers, the scalar dimension is not the functorial invariant. The matrix dimension or full correspondence must be retained. For adjacent connected finite-center inclusions, composition of minimal expectations and multiplication of their scalar minimal indices require the intermediate spherical states to match,
+With finite-dimensional nontrivial centers, the matrix dimension or full correspondence must be retained. For adjacent connected finite-index inclusions with finite-dimensional centers, [[library/minimal-index-and-matrix-dimension-finite-centers/inq|Giorgetti–Longo, Proposition 5.6]] gives a sufficient condition for composition of minimal expectations and multiplication of their scalar minimal indices: the intermediate spherical states match,
 
 $$
 \boxed{
@@ -200,24 +195,16 @@ $$
 \omega_l^{\,\mathcal N\subset\mathcal M}.}
 $$
 
-Without this Markov condition, matrix dimensions still compose while scalar minimal index is generally only submultiplicative. Likewise, a central entropy operator
+Matrix dimensions compose for all inclusions covered by this finite-center theorem; scalar minimal index has a general submultiplicative bound. Diffuse centers require a more general treatment than a finite dimension matrix. Likewise, a central entropy operator
 
 $$
 \mathcal L_{21}
 =\sum_\alpha S(\chi_{21,\alpha})P_\alpha
 $$
 
-becomes an additive cocycle only if the edge states satisfy a declared fusion or Markov compatibility. That compatibility is a theorem target, not a consequence of the word “stack.”
+is additive under the no-sector-mixing, tensor-product edge-state hypothesis in [[spectral-wall-descent/finite-index-area-weld#The candidate non-Noether symmetry|the product-edge cocycle]]. General fusion also needs compatible center transport and control of classical mixing terms. Coherence of correspondences alone does not establish entropy additivity.
 
-The chosen finite-index expectation also contains a normalized one-sided witness. On properly infinite algebras, its conjugate solution supplies \(\widetilde v\) with
-
-$$
-\widetilde v^*\widetilde v=\operatorname{Ind}(E),
-\qquad
-E(\widetilde v\widetilde v^*)=1.
-$$
-
-Hence \(V_E=\widetilde v\operatorname{Ind}(E)^{-1/2}\) is an isometry, proper in a factor whenever the index is greater than one. Equivalently, if \(A_E=\log d(E)\), then \(\widetilde v^*\widetilde v=e^{2A_E}\) and \(\widetilde v e^{-A_E}=V_E\). [[finite-index-distinction/finite-index-duality-and-the-square-response|The finite-index square-response note]] develops this exact normalization and its limitations. It gives the stack a possible one-sided carrier and an algebraic reason for a squared response character. It does not make the range projection canonical physical data, turn the \(L^2\) implementation of \(E\) into an injective frame, or supply an energy scale.
+[[finite-index-distinction/finite-index-duality-and-the-square-response#Exact normalized-isometry theorem|The normalized-isometry theorem]] supplies a one-sided witness from a chosen finite-index expectation on properly infinite algebras. Its normalization is \(A_E=\tfrac12\log\operatorname{Ind}(E)\), which agrees with intrinsic \(\log d(X)\) only on the appropriate minimal/standard branch. This can supply an algebraic carrier for a squared response character, but it neither makes the range projection physical data nor turns the \(L^2\) implementation of \(E\) into an injective frame or an energy comparison.
 
 ## Realization data are later choices
 

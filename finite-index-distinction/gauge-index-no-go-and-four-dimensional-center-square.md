@@ -28,7 +28,7 @@ $$
 \tag{GI1}
 $$
 
-The spectral/Galois analysis in [[library/a-galois-correspondence-for-compact-groups-of-automorphisms/inq|Izumi--Longo--Popa]] associates to every irreducible representation \(\pi\in\widehat G\) a sector \(\rho_\pi\) of statistical dimension \(d(\rho_\pi)=d_\pi\). The dual canonical endomorphism contains those sectors with the Peter--Weyl multiplicities:
+For the endomorphism description, first assume \(\mathcal N\) is properly infinite. If it is finite, amplify both algebras by \(B(\ell^2)\), with trivial group action on that factor; the fixed-point index is unchanged. This is the reduction used in [[library/a-galois-correspondence-for-compact-groups-of-automorphisms/inq|Izumi--Longo--Popa, §3, proof of Theorem 3.15]]. Their preceding spectral construction associates to every irreducible representation \(\pi\in\widehat G\) an endomorphism sector \(\rho_\pi\) of statistical dimension \(d(\rho_\pi)=d_\pi\). Thus the following endomorphisms live on the properly infinite fixed-point factor, after amplification when needed. The dual canonical endomorphism contains those sectors with the Peter--Weyl multiplicities:
 
 $$
 \theta
@@ -37,7 +37,7 @@ $$
 \tag{GI2}
 $$
 
-Consequently its statistical dimension is
+Consequently its dimension, interpreted as the extended sum of finite-sector dimensions when the sum diverges, gives the index of the original inclusion:
 
 $$
 [\mathcal M:\mathcal M^G]

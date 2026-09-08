@@ -1,10 +1,10 @@
-# The Finite-Index Area Weld
+# Finite-Index Area Weld
 
-A matched type-I product-cell model has an exact algebraic budget: the log dimension of an erased edge factor splits into a chosen input edge state's entropy and its distinguishability from the tracial edge state. Exact complementary-recovery codes independently identify fixed relative-commutant edge entropy with a central area operator. Welding these two data, while keeping their expectations distinct, yields a finite-index candidate for gravitational descent rather than a general index--area theorem; the final passage to a commutative fact remains a separate, generally infinite-index step.
+A matched type-I product-cell model has an exact algebraic budget: the log dimension of an erased edge factor splits into a chosen input edge state's entropy and its distinguishability from the tracial edge state. Exact complementary-recovery codes independently express their central code-area operator through fixed relative-commutant edge entropy. Welding these two data, while keeping their expectations distinct, yields a finite-index candidate for gravitational descent rather than a general index--area theorem; the final passage to a commutative fact remains a separate, generally infinite-index step.
 
 ## Why the wall has two stages
 
-The type obstruction in [[spectral-wall-descent/conditional-expectation-balance#The modular existence gate|the modular existence gate]] rules out a finite-index final wall from a type-III factor to a commutative record algebra. The gravitational step must therefore occur earlier:
+The type obstruction in [[spectral-wall-descent/conditional-expectation-balance#The modular existence gate|the modular existence gate]] rules out a finite-index final wall from a type-III factor to a commutative record algebra. A finite-index gravitational model therefore places that step before the final commutative descent:
 
 $$
 \boxed{
@@ -19,7 +19,7 @@ $$
 
 Here \(E_g\) is allowed to be a finite-index expectation between noncommutative algebras. The map \(F\) is the later observational or record-producing descent and need not have finite index.
 
-In a finite tracial debugging model, let \(P_g\) and \(P_{\mathrm{tot}}\) be the trace-adjoint density projections induced by these nested expectations. Under faithfulness and support compatibility, the nested Pythagorean identity gives
+In a finite tracial model, take both nested expectations to preserve the same trace, and let \(P_g\) and \(P_{\mathrm{tot}}\) be their trace-adjoint density projections. [[spectral-wall-descent/conditional-expectation-balance#Nested expectations and scale towers|Conditional-expectation balance]] supplies the common projection structure. Under faithfulness and support compatibility, its nested Pythagorean identity gives
 
 $$
 \boxed{
@@ -32,7 +32,7 @@ At a faithful reference fixed by both stages, the coincidence Hessian decomposes
 
 ## Exact one-sector calculation
 
-Let
+Fix finite dimensions \(n=\dim\mathcal H_a\) and \(d=\dim\mathcal H_b\), and use the ordinary matrix trace for density matrices and entropies. Let
 
 $$
 \mathcal N
@@ -118,9 +118,20 @@ $$
 =\operatorname{Tr}(\chi^{-1})\mathbf1,
 $$
 
-and \(E_\chi\) is trace preserving only when \(\chi=\tau_d\). Thus no single expectation presently supplies both the arbitrary-edge entropy formula and the tracial index formula.
+and \(E_\chi\) is trace preserving only when \(\chi=\tau_d\). The two expectations coincide in that maximally mixed case; for a general fixed edge state they must be kept distinct. In an eigenbasis \(\chi=\operatorname{diag}(p_1,\ldots,p_d)\), the quasi-basis \(p_j^{-1/2}(\mathbf1_a\otimes e_{ij})\) gives the displayed inverse-state index directly.
 
-Its three terms have different types:
+Consequently, a chosen expectation's index is not generally locally rigid. For the fixed two-level inclusion and \(\chi_p=\operatorname{diag}(p,1-p)\),
+
+$$
+\operatorname{Ind}_{W}(E_{\chi_p})
+=\left(\frac1p+\frac1{1-p}\right)\mathbf1
+=\frac1{p(1-p)}\mathbf1,
+\qquad 0<p<1.
+$$
+
+This varies continuously while the inclusion is unchanged. [[finite-index-distinction/finite-index-duality-and-the-square-response|Finite-index duality]] separately identifies the intrinsic categorical index only after minimal/standard data are fixed.
+
+The product-edge budget has three terms with different types:
 
 - \(\tfrac12\log\operatorname{Ind}_{W}(E_\tau)=\log d\) is the log-dimension of the distinguished erased edge factor, equivalently the logarithm of its categorical dimension in this minimal factor model;
 - \(S(\chi)\) is entropy carried by its distinguished edge state; and
@@ -138,13 +149,13 @@ d_{\mathrm{cat}}=d,
 C_{\mathrm{edge}}=\log d,
 $$
 
-while the matrix-amplified subalgebra relative-entropy capacity is \(\log\operatorname{Ind}_{W}(E_\tau)=2\log d\). If \(n=\dim\mathcal H_a\), the ordinary unamplified supremum in this concrete model is \(\log\!\left(d\min\{n,d\}\right)\). The half-index term is therefore not the unrestricted information capacity of the inclusion.
+while the matrix-amplified subalgebra relative-entropy capacity is \(\log\operatorname{Ind}_{W}(E_\tau)=2\log d\). The ordinary unamplified supremum in this concrete model is \(\log\!\left(d\min\{n,d\}\right)\). The half-index term is therefore not the unrestricted information capacity of the inclusion.
 
-[[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld|The two-sided index-capacity theorem]] records the infinite-factor result that removes this finite ancillary-size ambiguity: for a finite-index expectation, the supremal Araki relative-entropy loss is exactly the log Kosaki index, while the statewise losses for the expectation and its commutant-dual sum to that same constant. This establishes an operational meaning for the full log index, not an area weld and not a lower response bound.
+[[finite-index-distinction/two-sided-index-capacity-and-the-cosmic-weld|The two-sided index-capacity theorem]] records the infinite-factor result that removes this finite ancillary-size ambiguity: for a finite-index expectation, the supremal Araki relative-entropy loss is exactly the log Kosaki index, while the statewise losses for the expectation and its commutant dual sum to that same constant under the stated standard-form and state hypotheses. This establishes an operational meaning for the full log index, not an area weld and not a lower response bound.
 
 ## Central geometry in several sectors
 
-For the sector-preserving type-I toy inclusion,
+For the finite, sector-preserving type-I toy inclusion,
 
 $$
 \bigoplus_\alpha
@@ -269,7 +280,7 @@ This construction is **[EXACT TYPE-I PRODUCT CELL]** for the displayed identity 
 
 - Correlated states do not obey the constant product-edge budget. In the same finite model, \(D(\rho_{ab}\Vert\rho_a\otimes\tau_d)=\log d-S(b|a)_\rho\); negative conditional entropy can raise this to \(2\log d\) for a maximally entangled \(d\times d\) state. The full index capacity belongs to that different theorem.
 - Exact holographic codes are controlled models, not a derivation of the causal wall.
-- Finite index is dimensionless and locally rigid; a physical area density requires a scale-indexed tower and a separately normalized Dirac operator.
+- Finite index is dimensionless, and a chosen expectation can change its value without changing the inclusion. A physical area density requires a scale-indexed tower, a state-selection rule and a separately normalized Dirac operator.
 - The final character and persistent record are still supplied only by [[conservation-of-causal-charge/factive-descent-and-records|factive descent and records]].
 
 Primary sources: [[library/operator-algebra-quantum-error-correction/inq|operator-algebra quantum error correction and the central area operator]], [[library/holographic-map-as-conditional-expectation/inq|the holographic map as a conditional expectation]], [[library/planar-algebraic-conditional-expectations/inq|finite-index expectations as Q-systems]], [[library/relative-entropy-and-subalgebra-index/inq|relative entropy and subalgebra index]], and [[library/minimal-index-and-matrix-dimension-finite-centers/inq|matrix dimension for finite-center correspondences]].
