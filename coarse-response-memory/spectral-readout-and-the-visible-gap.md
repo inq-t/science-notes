@@ -63,6 +63,14 @@ For unbounded \(K\), the first moment is the form
 \]
 with domain \(\{\eta:V\eta\in\operatorname{Dom}K^{1/2}\}\). That domain must be dense before it defines a self-adjoint form generator on all of \(\mathcal R\). The moment identities must not be treated as bounded operator products without their domain conditions.
 
+[[gauge-star-state-and-hidden-clock|The compact gauge-star construction]]
+realizes this moment distinction on a smooth \(SU(2)\) source with a
+unique vacuum. Its whole returned Haar state and response form can
+remain fixed while the complete centered visible edge approaches zero
+with nonvanishing spectral weight. That example needs no hidden zero
+mode at any positive parameter; resetting the compressed family to its
+first-moment semigroup loses the slow return.
+
 ## Correlation can hide a zero mode from the local form
 
 [[algebra/expected-inclusions-and-mirror-clock-consistency|The mirror-inclusion calculation]]

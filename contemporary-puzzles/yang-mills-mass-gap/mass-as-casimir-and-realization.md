@@ -202,6 +202,83 @@ in quadratic-form sense. Lorentz invariance is load-bearing in the converse: a t
 
 [[mass-as-a-calibrated-distinction-rate]] gives the corresponding rate presentation. On the vacuum complement, the derivative of the dimensionless transfer depth \(R(\ell)=-\log\|e^{-\ell H/(\hbar c)}(1-P_0)\|\) is \(\Delta_E/(\hbar c)\); only the equivalence above licenses its final retyping as \(m_{\mathrm{gap}}=(\hbar/c)\,\mathrm dR/\mathrm d\ell\). This makes mass convertible to a calibrated persistence rate without turning it into a canonical phase-space coordinate or a stream of measurement outcomes.
 
+### A Poincare Hamiltonian has no positive eigenvalues
+
+**[EXACT CONSEQUENCE OF BOOST COVARIANCE]** A positive gap is compatible
+with a continuous energy spectrum above its threshold. A positive
+**energy eigenvalue** is not: in any strongly continuous positive-energy
+unitary representation of the Poincare group with at least one spatial
+dimension,
+\[
+\boxed{1_{\{E\}}(H)=0\quad\text{for every }E>0.}
+\tag{PE1}
+\]
+This concerns normalizable Hilbert vectors, not generalized plane waves.
+It requires neither separability nor an upper energy bound.
+
+**Proof.** Let \(B_s\) implement a boost of rapidity \(s\) in the first
+spatial direction, choosing its sign so that
+\[
+B_sHB_s^*=H\cosh s-cP_1\sinh s.
+\tag{PE2}
+\]
+The right side is the self-adjoint operator defined by joint spectral
+calculus, not an unqualified sum on arbitrary domains. For any vector
+\(\psi\), let \(\mu_\psi\) be its finite joint spectral measure for
+\((H,cP_1)\), and put \(Q_E=1_{\{E\}}(H)\). Spectral covariance gives
+the nonnegative function
+\[
+F_\psi(s):=\langle\psi,B_sQ_EB_s^*\psi\rangle
+=\int 1_{\{E\}}(h\cosh s-p\sinh s)\,d\mu_\psi(h,p).
+\tag{PE3}
+\]
+For each fixed \((h,p)\) and \(E>0\), setting \(r=e^s>0\) turns the
+level-set equation into
+\[
+(h-p)r^2-2Er+(h+p)=0.
+\]
+This nonzero polynomial has at most two roots, so the level set has
+Lebesgue measure zero in rapidity. Tonelli's theorem yields
+\(\int_{-R}^R F_\psi(s)\,ds=0\) for every \(R>0\). Strong continuity
+of \(B_s\) makes \(F_\psi\) continuous; hence
+\(\langle\psi,Q_E\psi\rangle=F_\psi(0)=0\). Since \(\psi\) was
+arbitrary, \(Q_E=0\). Massless spectral points cause no exception:
+when \(h=|p|>0\), the level equation has at most one root. The spectrum
+condition separately identifies \(1_{\{0\}}(H)=P_0\), the complete
+zero-translation subspace; it need not be one-dimensional. \(\square\)
+
+There is also a **bounded-energy corollary**. If \(H\) is bounded in
+such a representation, every nonzero point of its forward-cone joint
+spectral support would acquire arbitrarily large energy under suitable
+boosts, contradicting the bound. Thus \(H=0\) and all spatial
+translation generators vanish. This excludes a fixed bounded
+unit-rate response from being the nontrivial Poincare Hamiltonian
+itself; it does not exclude its use as a transfer defect or a
+comparison form.
+
+The unbounded case is not rescued by a number-operator clock. Let
+\(N=\sum_n n\Pi_n\) have a complete pure-point decomposition, allowing
+infinite-dimensional eigenspaces. Every nonnegative scalar functional
+calculus \(f(N)\), finite on the occupied eigenvalues, retains this
+pure-point spectral type. If \(f(n)>0\) for any nonzero \(\Pi_n\), it
+violates (PE1) as a proposed same-carrier Poincare Hamiltonian. A dense
+closure of the numerical values \(f(n)\) would not change that spectral
+type. Even a bounded map intertwining the same unitary clock with a
+Poincare clock must annihilate every positive-eigenvalue subspace.
+
+In particular, the full invariant
+[[gauge-boundary-frame-gluing/shared-driver-response-and-the-nested-holonomy-clock|shared-driver OU clock]]
+has an explicit eigenvector at energy \(2\) in its unit convention.
+No positive rescaling of that clock can be the returned Hamiltonian.
+It can still serve as an auxiliary response or as **internal mass
+input on a new carrier**: a fixed discrete Casimir value
+\(M=mI\) is compatible with continuously varying momentum and
+\(H=\sqrt{c^2\mathbf P^2+m^2c^4}\). That construction changes the
+translation carrier and operator; it is not a scalar reparametrization
+of \(N\), and the mass-shell input alone does not construct an
+interacting Yang--Mills theory. Finite boxes, compact spatial models,
+and purely internal clocks need not admit the boosts used in (PE2).
+
 ## Three centers that must not be conflated
 
 The word “central” tempts a false unification.

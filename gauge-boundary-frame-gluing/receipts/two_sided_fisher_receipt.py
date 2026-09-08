@@ -5,7 +5,8 @@ check finite logarithmic-ramp entropy controls, and sample small-time
 invariant trial quotients. They do not prove a continuum domain theorem,
 an infinite-dimensional eigenvalue statement, or a physical mass gap.
 The heat-factor additions test finite score projections, KL costs,
-annular responses, and an opposite-chaos kernel overlap.
+annular responses, an opposite-chaos kernel overlap, and Gaussian
+moments of a fiber transformation that changes a source-chaos readout.
 """
 
 from __future__ import annotations
@@ -519,6 +520,247 @@ def opposite_chaos_overlap_checks() -> None:
           f"R(3)={results[5]:.12f}; finite overlap checks only")
 
 
+def heat_factor_fiber_chaos_checks() -> None:
+    """Check the finite moments in the exact non-descent witness.
+
+    This tests the Pauli tensor coefficient and a degree-four Gaussian
+    integral independently. It does not approximate the conditional
+    expectation onto the full path readout or prove semigroup non-descent.
+    """
+    terminal, casimir, speed = 0.7, 0.75, 1.2
+    pauli = (
+        np.array([[0, 1], [1, 0]], dtype=complex),
+        np.array([[0, -1j], [1j, 0]], dtype=complex),
+        np.array([[1, 0], [0, -1]], dtype=complex),
+    )
+    generators = tuple(-0.5j*matrix for matrix in pauli)
+    interaction = 2*sum(np.kron(g, g) for g in generators)
+    eigenvalues, eigenvectors = np.linalg.eigh(interaction)
+    chaos_norm = 1.5*terminal**2*math.exp(-2*casimir*terminal)
+    tensor_coefficient = (terminal**2/2*math.exp(-2*casimir*terminal)
+                          *np.trace(interaction@interaction).real)
+    assert math.isclose(tensor_coefficient, chaos_norm, rel_tol=2e-14)
+    for alpha in (0.2, 0.5, 0.8):
+        beta = 1-alpha
+        # Deterministic fiber shifts contribute identical drift terms
+        # to sqrt(alpha) B_U and sqrt(beta) B_V, hence cancel.
+        drift = math.sqrt(alpha)/math.sqrt(2*alpha)-math.sqrt(beta)/math.sqrt(2*beta)
+        assert abs(drift) < 2e-15
+        for rho in (0.0, 0.4, 1.0):
+            rates = -2*casimir+rho*eigenvalues
+            factor_u = (eigenvectors*np.exp(alpha*terminal*rates))@eigenvectors.conj().T
+            factor_v = (eigenvectors*np.exp(beta*terminal*rates))@eigenvectors.conj().T
+            moment = np.trace(factor_u@factor_v)
+            target = math.exp(-1.5*terminal)*(math.exp(1.5*rho*terminal)
+                                             +3*math.exp(-0.5*rho*terminal))
+            assert abs(moment-target) < 4e-14
+
+    angle = speed*terminal
+    sine, cosine = math.sin(angle), math.cos(angle)
+    integrated_rotation = np.array([
+        [sine/speed, (1-cosine)/speed, 0],
+        [(cosine-1)/speed, sine/speed, 0],
+        [0, 0, terminal],
+    ])
+    for order in (16, 32, 64):
+        nodes, weights = np.polynomial.legendre.leggauss(order)
+        times = terminal*(nodes+1)/2
+        rotations = np.zeros((order, 3, 3))
+        rotations[:, 0, 0] = rotations[:, 1, 1] = np.cos(speed*times)
+        rotations[:, 1, 0] = -np.sin(speed*times)
+        rotations[:, 0, 1] = np.sin(speed*times)
+        rotations[:, 2, 2] = 1
+        integral = terminal/2*np.einsum("n,nij->ij", weights, rotations)
+        assert np.allclose(integral, integrated_rotation, rtol=2e-14, atol=2e-15)
+
+    # (Z,Z^k) is one six-dimensional Gaussian with this covariance.
+    # Three-point Hermite quadrature in each coordinate integrates the
+    # fourth-degree squared difference exactly, up to floating precision.
+    covariance = np.block([
+        [terminal*np.eye(3), integrated_rotation.T],
+        [integrated_rotation, terminal*np.eye(3)],
+    ])
+    values, vectors = np.linalg.eigh(covariance)
+    assert np.min(values) > -2e-14
+    root = (vectors*np.sqrt(np.maximum(values, 0)))@vectors.T
+    nodes, weights = np.polynomial.hermite.hermgauss(3)
+    indices = np.indices((3,)*6).reshape(6, -1).T
+    gaussian = math.sqrt(2)*nodes[indices]@root.T
+    quadrature_weights = np.prod(weights[indices]/math.sqrt(math.pi), axis=1)
+    squared = np.sum(gaussian[:, :3]**2, axis=1)
+    rotated_squared = np.sum(gaussian[:, 3:]**2, axis=1)
+    delta = rotated_squared-squared
+    raw_variance = float(quadrature_weights@(delta*delta))
+    target_variance = 4*(3*terminal**2-np.sum(integrated_rotation**2))
+    assert np.isfinite(raw_variance) and raw_variance > 0
+    assert math.isclose(raw_variance, target_variance, rel_tol=3e-13)
+    assert abs(float(quadrature_weights@delta)) < 2e-14
+    projected = -0.5*math.exp(-casimir*terminal)*(squared-3*terminal)
+    assert math.isclose(float(quadrature_weights@(projected*projected)),
+                        chaos_norm, rel_tol=3e-14)
+    projected_variance = math.exp(-2*casimir*terminal)*raw_variance/4
+    assert math.isclose(projected_variance,
+                        math.exp(-2*casimir*terminal)
+                        *(3*terminal**2-np.sum(integrated_rotation**2)),
+                        rel_tol=3e-13)
+    # A constant identity frame preserves the same squared norm.
+    assert abs(4*(3*terminal**2-np.sum((terminal*np.eye(3))**2))) < 2e-15
+    print("PASS heat-factor Pauli tensor moments and second-chaos norm; "
+          "16/32/64-point smooth-frame integrals and 729-node Gaussian test: "
+          f"raw squared-norm change variance={raw_variance:.12g}, "
+          f"source-chaos change variance={projected_variance:.12g}. "
+          "Finite moment checks; the path-fiber proof establishes non-descent.")
+
+
+def charged_cut_twist_checks() -> None:
+    """Differentiate the actual three-holonomy readout in both cut frames."""
+    pauli = (
+        np.array([[0, 1], [1, 0]], dtype=complex),
+        np.array([[0, -1j], [1j, 0]], dtype=complex),
+        np.array([[1, 0], [0, -1]], dtype=complex),
+    )
+    generators = tuple(-0.5j*matrix for matrix in pauli)
+
+    def group(w: float, v: np.ndarray) -> np.ndarray:
+        # PF13 quaternion convention: g=w I-i v.sigma.
+        return w*np.eye(2)-1j*sum(v[a]*pauli[a] for a in range(3))
+
+    def vector(matrix: np.ndarray) -> np.ndarray:
+        return np.array([(0.5j*np.trace(p@matrix)).real for p in pauli])
+
+    whole = (
+        group(0, np.array([1., 0., 0.])),
+        group(4/5, np.array([0., 3/5, 0.])),
+        group(0, np.array([3/5, 0., 4/5])),
+    )
+    vectors = tuple(vector(g) for g in whole)
+    derivatives = (
+        np.cross(vectors[1], vectors[2]),
+        np.cross(vectors[2], vectors[0]),
+        np.cross(vectors[0], vectors[1]),
+    )
+
+    def differential(changes: dict[int, np.ndarray]) -> float:
+        return sum(float(derivatives[i]@vector(delta)) for i, delta in changes.items())
+
+    left = np.array([[differential({i: h@g}) for h in generators]
+                     for i, g in enumerate(whole)])
+    right = np.array([[differential({i: g@h}) for h in generators]
+                      for i, g in enumerate(whole)])
+    assert np.allclose(left[:, 1], np.array([9, 16, -9])/50, atol=2e-15)
+    assert np.allclose(right[:, 1], np.array([-9, 16, 9])/50, atol=2e-15)
+    assert np.linalg.norm(np.sum(left-right, axis=0)) < 2e-15
+    kernel = np.minimum.outer([1., 2., 3.], [1., 2., 3.])
+    whole_l = float(2*np.einsum("ij,ia,ja->", kernel, left, left))
+    whole_r = float(2*np.einsum("ij,ia,ja->", kernel, right, right))
+    first, boundary, endpoint = whole
+    future_left = boundary.conj().T@endpoint
+    future_right = endpoint@boundary.conj().T
+    assert np.allclose(boundary@future_left, future_right@boundary, atol=2e-15)
+
+    # Differentiate F(A1,A2,A2 Y) directly, with Y held fixed
+    # when A2 changes. This is the genuinely untwisted product frame.
+    cut_left = np.array([
+        [differential({0: h@first}) for h in generators],
+        [differential({1: h@boundary, 2: h@endpoint}) for h in generators],
+        [differential({2: boundary@h@future_left}) for h in generators],
+    ])
+    cut_right_naive = np.array([
+        [differential({0: first@h}) for h in generators],
+        [differential({1: boundary@h, 2: boundary@h@future_left}) for h in generators],
+        [differential({2: endpoint@h}) for h in generators],
+    ])
+    # Now differentiate F(A1,A2,W A2), i.e. apply the actual twist
+    # before the product right response. W, not Y, is held fixed.
+    cut_right_twisted = np.array([
+        [differential({0: first@h}) for h in generators],
+        [differential({1: boundary@h, 2: endpoint@h}) for h in generators],
+        [differential({2: future_right@h@boundary}) for h in generators],
+    ])
+    cut_kernel = np.array([[1., 1., 0.], [1., 2., 0.], [0., 0., 1.]])
+
+    def cut_response(gradient: np.ndarray) -> float:
+        return float(2*np.einsum("ij,ia,ja->", cut_kernel, gradient, gradient))
+
+    assert math.isclose(whole_l, 193/625, rel_tol=3e-14)
+    assert math.isclose(whole_r, 481/625, rel_tol=3e-14)
+    assert math.isclose(cut_response(cut_left), whole_l, rel_tol=3e-14)
+    assert math.isclose(cut_response(cut_right_twisted), whole_r, rel_tol=3e-14)
+    naive = cut_response(cut_right_naive)
+    assert math.isclose(naive, 67/625, rel_tol=3e-14)
+    assert not math.isclose(naive, whole_r, rel_tol=1e-3)
+    for alpha in (0.2, 0.5, 0.8):
+        beta = 1-alpha
+        actual = alpha*whole_l+beta*whole_r
+        sewn = alpha*cut_response(cut_left)+beta*cut_response(cut_right_twisted)
+        assert math.isclose(actual, sewn, rel_tol=3e-14)
+        assert math.isclose(actual-(alpha*whole_l+beta*naive),
+                            beta*414/625, rel_tol=3e-14)
+    direct = (first@boundary)@endpoint@(first@boundary).conj().T
+    nested = first@(boundary@endpoint@boundary.conj().T)@first.conj().T
+    assert np.allclose(direct, nested, atol=2e-15)
+    print("PASS charged cut via actual matrix derivatives: whole L=193/625, "
+          "whole R=481/625, naive tensor R=67/625; boundary twist restores "
+          "the full response for alpha=.2,.5,.8. Three-cut adjoint composition "
+          "also checked; these finite witnesses do not prove the core-closure law.")
+
+
+def conditional_boundary_frame_checks() -> None:
+    """Finite conditional-block and charged-fiber witnesses; not a domain proof."""
+    identity = np.eye(3)
+    p = np.array([0.2, -0.7, 0.4])
+    q = np.array([-0.3, 0.1, 0.8])
+    largest_error = 0.0
+    for frame in su2_adjoint_frames():
+        for duration in (0.001, 0.1, 0.7):
+            rho = math.exp(-2*duration)
+            # Covector coordinates are (p_L,-p_R), as in JF6--JF9.
+            conditional = 0.5*np.block([
+                [identity, -rho*frame],
+                [-rho*frame.T, identity],
+            ])
+            source_rotation = np.block([
+                [frame, np.zeros((3, 3))],
+                [np.zeros((3, 3)), identity],
+            ])
+            rooted = 0.5*np.kron(np.array([[1, -rho], [-rho, 1]]), identity)
+            assert np.allclose(source_rotation.T@conditional@source_rotation, rooted, atol=3e-15)
+            covector = np.r_[p, -q]
+            returned = float(covector@np.linalg.solve(conditional, covector))
+            expected = (np.linalg.norm(frame.T@p-q)**2/(1-rho)
+                        + np.linalg.norm(frame.T@p+q)**2/(1+rho))
+            error = abs(returned-expected)/max(1, abs(expected))
+            largest_error = max(largest_error, error)
+            assert error < 3e-13
+
+    pauli = (
+        np.array([[0, 1], [1, 0]], dtype=complex),
+        np.array([[0, -1j], [1j, 0]], dtype=complex),
+        np.array([[1, 0], [0, -1]], dtype=complex),
+    )
+    generators = tuple(-0.5j*matrix for matrix in pauli)
+    boundary, future = 1j*pauli[2], 1j*pauli[0]
+    left = np.array([np.trace(boundary@generator@future).real for generator in generators])
+    right = np.array([np.trace(boundary@future@generator).real for generator in generators])
+    assert np.allclose(left, [0, 1, 0], atol=1e-15)
+    assert np.allclose(right, [0, -1, 0], atol=1e-15)
+    turn = (np.eye(2)+1j*pauli[1])/math.sqrt(2)
+    whole = np.trace(boundary@future)
+    joint_rotated = np.trace((turn@boundary@turn.conj().T)@(turn@future@turn.conj().T))
+    assert abs(whole-joint_rotated) < 1e-14
+    old_response = -math.inf
+    print("Conditional future-fiber cutoff witness for globally neutral chi(BZ):")
+    for epsilon in (0.1, 0.001, 0.00001, 0.0000001):
+        minus, plus = weight_integrals(epsilon, 1.0)
+        response = np.linalg.norm(left-right)**2*minus + np.linalg.norm(left+right)**2*plus
+        assert response > old_response
+        old_response = response
+        print(f"  epsilon={epsilon:.7g} response={response:.10g}")
+    print(f"PASS 15 conditional boundary-frame blocks; largest relative dual error={largest_error:.3g}. "
+          "Pauli witness is jointly neutral but has nonzero future conjugation derivative. "
+          "Finite cutoff growth illustrates, not proves, the domain exclusion.")
+
+
 def main() -> None:
     print("two-sided Fisher receipt: finite construction discrimination")
     joint_fisher_block_checks()
@@ -533,6 +775,9 @@ def main() -> None:
     heat_factor_finite_kl_checks()
     lifted_annular_checks(prior_annular_responses)
     opposite_chaos_overlap_checks()
+    heat_factor_fiber_chaos_checks()
+    charged_cut_twist_checks()
+    conditional_boundary_frame_checks()
 
 
 if __name__ == "__main__":

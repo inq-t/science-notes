@@ -179,6 +179,16 @@ The area index \(t\), response duration \(\tau\), and physical clock
 have not been identified. Multiplying \(L\) by a positive constant
 multiplies this threshold by that constant.
 
+There is a stronger obstruction to identifying those clocks:
+[[contemporary-puzzles/yang-mills-mass-gap/mass-as-casimir-and-realization#A Poincare Hamiltonian has no positive eigenvalues|boost covariance excludes positive Hamiltonian eigenvalues]]
+in any strongly continuous positive-energy Poincare representation.
+The explicit eigenvector \(LW=2W\) therefore rules out every positive
+rescaling of this \(L\) as that same Hamiltonian, despite its infinite
+path carrier and unbounded spectrum. Any scalar \(f(L)\) retaining a
+positive eigenvalue has the same obstruction. An auxiliary response or
+an internal mass operator on a separately constructed continuous-momentum
+carrier remains possible; neither is a same-clock identification.
+
 ## Exact correlations for every clock duration
 
 For \(SU(2)\), let \(\rho=e^{-\tau}\) and develop

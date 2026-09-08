@@ -144,6 +144,8 @@ $$
 
 An alternative normal central state is additional member data, not a normalization convention.
 
+Normal evaluation need not commute with forming a dual response. [[trace-dirichlet-descent/conditional-score-shorting-and-observable-lifts|Conditional score shorting]] gives an exact finite example: averaging Fisher forms before inversion and dualizing over resolved sectors produce different observable generators. Their compatible inverse response instead has an infimal characterization with range-constrained finer covectors. Its least-cost lift is realized by an actual score-linear observable and composes through nested contexts. This uses a fixed central law; when source transformations move the central weights, the central Fisher term above must also be retained.
+
 ## Four different evaluation policies
 
 1. **Trivial center.** If \(Z(\mathcal M_\lambda)=\mathbb C\mathbf1\), the scalar return is unique.

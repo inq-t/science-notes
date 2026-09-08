@@ -147,6 +147,12 @@ Preserving an algebra and its state is not enough to preserve its clock.
 Covariance means transforming the response tensor, not demanding the
 same diagonal coefficients in every presentation.
 
+[[gauge-boundary-frame-gluing/holonomy-refinement-and-clock-compatibility#Individually autonomous loop readouts can have a nonautonomous join|The adjacent-square specialization]]
+also computes what happens when relative-loop information is forgotten:
+the two separate character readouts are autonomous, but their joint
+readout has an exact two-rate compression defect. Restoring the third
+trace completes the isolated \(SU(2)\) pair's invariant carrier.
+
 ## The full spectral edge and its refinement obligation
 
 The [[contemporary-puzzles/yang-mills-mass-gap/gauge-descent-flux-fisher-coercivity#Gauge invariance sharpens the constant to girth times Casimir|weighted girth--Casimir theorem]]

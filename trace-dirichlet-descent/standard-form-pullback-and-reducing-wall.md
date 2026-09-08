@@ -314,6 +314,59 @@ linear form domain in \(H_M\) need not have dense intersection with an
 arbitrary closed subspace.  It is automatic if the projection \(p\) preserves
 the whole form domain, and in finite dimensions.
 
+## A conditional approximation criterion for the missing core
+
+The maximal pullback (SP14) and the closure of a chosen observable core
+need not agree merely because their formulas agree on that core. There
+is a useful sufficient criterion that does not require semigroup
+reduction.
+
+In the commutative setting, let \(J:L^2(\nu)\to L^2(\mu)\) be the
+multiplicative readout isometry, and let \(\mathcal A\) be a linear form
+core for the closed source form \(\mathcal E_M\). Let \(\mathcal B\)
+be a dense linear observable core in \(L^2(\nu)\), with
+\(J\mathcal B\subset D(\mathcal E_M)\). Write \(K_{\min}\) for the
+closure of \(J\mathcal B\) in the source form norm, and
+\(K_{\max}=\operatorname{Ran}J\cap D(\mathcal E_M)\).
+
+Let \(C_n\) be conditional expectations onto increasing finite-readout
+sigma-algebras generating the complete readout. Suppose
+\[
+C_n\mathcal A\subset J\mathcal B,\qquad
+\mathcal E_M[C_nA]\le
+a\,\mathcal E_M[A]+b\|A\|_2^2
+\quad(A\in\mathcal A),
+\tag{SP21a}
+\]
+where \(a,b\ge0\) are finite and independent of \(n\). Then
+\[
+\boxed{K_{\min}=K_{\max}.}
+\tag{SP21b}
+\]
+
+Indeed, the \(L^2\) contraction and (SP21a) extend each \(C_n\)
+continuously to the source form domain, with a uniform graph-norm
+bound. Approximation from \(\mathcal A\) shows its image lies in
+\(K_{\min}\). For \(A\in K_{\max}\), martingale convergence gives
+\(C_nA\to A\) in \(L^2\), while the sequence stays bounded in the
+source form Hilbert space. A weakly convergent graph-norm subsequence
+therefore has limit \(A\). Since \(K_{\min}\) is a closed linear
+subspace of that Hilbert space, it is weakly closed, so \(A\in K_{\min}\).
+The reverse inclusion follows from closedness of the source form and
+of \(\operatorname{Ran}J\).
+
+An estimate for each fixed grid is insufficient if its constants
+diverge as the grid is refined. This criterion asks for bounded
+Sobolev stability, not energy contraction with \(a=1,b=0\);
+it therefore does not require the reducing condition below.
+
+[[gauge-boundary-frame-gluing/heat-factor-response-and-the-compression-defect|The two-heat-factor readout]]
+has exactly this unresolved core question. Fixed-grid conditioning
+of smooth source holonomy cylinders gives smooth output cylinders
+through compact heat-kernel integration. A grid-uniform estimate
+of the form (SP21a) would identify its minimal and maximal returned
+forms, even though its source OU clock provably does not descend.
+
 ## Tracial and Type-III specializations
 
 For a finite von Neumann algebra with faithful normal trace \(\tau\), every

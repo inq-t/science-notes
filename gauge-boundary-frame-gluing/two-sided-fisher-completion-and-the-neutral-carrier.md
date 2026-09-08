@@ -492,7 +492,264 @@ Its
 [[receipts/two-sided-fisher-receipt-output.txt|recorded values]] are
 finite diagnostics, not the infinite-dimensional proofs above.
 
-What is constructed is a state-action-response triple with a constrained
+## Conditional restart changes both operator and carrier
+
+One can recover the root response after a cut by retaining its boundary
+state during Fisher dualization. This is a different, boundary-resolved
+prescription. It restores annular restart on its own carrier but excludes
+legitimate jointly neutral observables of the original construction.
+
+Fix a cut \(s>0\), future length \(\ell>0\), and write
+\[
+\eta=X|_{[0,s]},\qquad b=X_s,\qquad
+Z_v=b^{-1}X_{s+v},\quad 0\le v\le\ell.
+\tag{JF24}
+\]
+Independent heat increments identify the whole state with
+\(\mu_s(d\eta)\mu_\ell(dZ)\). Freeze the prefix and apply
+\(X_{s+v}\mapsto k_vX_{s+v}l_v^{-1}\), where \(k_0=l_0=e\) and
+the deterministic controls have finite logarithmic energy. The cut value
+is unchanged. Conditional on the prefix,
+\(\mathbb E[\operatorname{Ad}_{X_{s+v}}\mid\eta]
+=r(v)\operatorname{Ad}_b\), rather than \(r(s+v)I\).
+
+The conditional right-logarithm drift is still
+\((u_k-\operatorname{Ad}_Y u_l)/\sqrt2\). The same deterministic
+energy bound as in (JF4) gives conditional Girsanov, and taking its
+logarithm under the pushed conditional law gives
+\[
+D(\mu_{s,b}^{k,l}\Vert\mu_{s,b})
+=\frac14\int_0^\ell
+\left(|v_k|^2+|v_l|^2
+-2r(v)Q(v_k,\operatorname{Ad}_b v_l)\right)dv .
+\tag{JF25}
+\]
+Here \(\mu_{s,b}\) is the conditional future law starting at \(b\).
+The infinitesimal velocity Fisher block is therefore
+\[
+I_b(v)=\frac12
+\begin{pmatrix}
+I&-r(v)\operatorname{Ad}_b\\
+-r(v)\operatorname{Ad}_b^{-1}&I
+\end{pmatrix}.
+\tag{JF26}
+\]
+Rotating the left source frame by \(\widehat h=\operatorname{Ad}_b^{-1}h\)
+turns (JF26) into the root block in (JF6). For a smooth cylinder, let
+\(p_L,p_R\) be its future gradient tails, with prefix arguments held
+fixed, and put \(\bar p_L=\operatorname{Ad}_b^{-1}p_L\). Conditional
+dualization before averaging over the prefix gives
+\[
+\Gamma_s^{\rm cond}(F)
+=\int_0^\ell
+\left\{
+\frac{|\bar p_L-p_R|^2}{1-r(v)}
++\frac{|\bar p_L+p_R|^2}{1+r(v)}
+\right\}dv .
+\tag{JF27}
+\]
+For \(F=f(Z)\), these are exactly the root gradients of \(f\).
+The source and observable frame changes are both required.
+
+This does not recompute the original unconditional metric. Averaging
+(JF25) first uses \(\mathbb E\operatorname{Ad}_b=r(s)I\) and restores
+the old cross weight \(r(s+v)\). Boundary-resolved inversion instead
+retains the conditional metric. In root coordinates its left controls
+are \(k_v^b=b\widehat k_vb^{-1}\), which depend on the retained cut
+data. They are admissible conditional controls, not the original single
+Hilbert space of unconditional deterministic controls. The order of
+conditional resolution and scalarization is the distinction owned by
+[[program-core/center-valued-response|center-valued response]].
+
+By (JF10), finite smooth-cylinder response requires conjugation
+invariance of the future \(Z\) coordinates **with the prefix fixed**.
+Consequently the natural closed carrier and operator are
+\[
+\begin{aligned}
+\mathcal H_s^{\rm cond}
+&=L^2(\mu_s)\widehat\otimes\mathcal H_{\ell,\mathrm{inv}},\\
+\mathcal E_s^{\rm cond}(F)
+&=\int\mathcal E_\ell(F(\eta,\cdot))\,d\mu_s(\eta),\\
+H_s^{\rm cond}&=I\otimes H_\ell,\qquad
+\ker H_s^{\rm cond}=L^2(\mu_s)\otimes\mathbb C\mathbf1.
+\end{aligned}
+\tag{JF28}
+\]
+The form domain consists of square-integrable sections whose fibers
+belong to \(\operatorname{Dom}\mathcal E_\ell\) almost everywhere and
+whose displayed energies are integrable. This direct-integral closure
+uses the actual root cylinder closure, not its unproved maximal-domain
+identification. It is not a densely defined form on the unrestricted
+whole path carrier. All prefix observables remain in its kernel; the
+threshold two is above that entire kernel, not above a single vacuum.
+
+The future-only embedding \(J_sf=f(Z)\) now obeys exactly
+\[
+e^{-\tau H_s^{\rm cond}}J_s=J_se^{-\tau H_\ell}
+\quad(\tau\ge0).
+\tag{JF29}
+\]
+In particular, the conditional response of
+\(\chi_{1/2}(X_s^{-1}X_{s+t})\) is \(b(t)J(t)\), independent of
+\(s\). This is genuine same-clock annular restart for invariant future
+observables, on the smaller carrier just specified.
+
+### A jointly neutral endpoint is excluded
+
+For \(SU(2)\), write
+\(b=b_0I+i\mathbf b\cdot\boldsymbol\sigma\) and
+\(Z_t=z_0I+i\mathbf z\cdot\boldsymbol\sigma\). The original globally
+invariant cylinder is
+\(F=\chi_{1/2}(X_{s+t})=\operatorname{Tr}(bZ_t)\).
+With \(T_a=-i\sigma_a/2\), its future conjugation derivative satisfies
+\[
+\left|\nabla_L\operatorname{Tr}(bZ_t)
+-\nabla_R\operatorname{Tr}(bZ_t)\right|^2
+=4|\mathbf b\times\mathbf z|^2.
+\tag{JF30}
+\]
+Thus (JF27) contains
+\(4|\mathbf b\times\mathbf z|^2\int_0^t(1-e^{-2v})^{-1}dv\),
+which is infinite when the cross product is nonzero. For \(s,t>0\),
+the strictly positive heat densities make \(b\) noncentral and that
+cross product nonzero almost surely. This endpoint had finite response
+in the original root construction. Its future-only neutral projection is
+\[
+\int_G\operatorname{Tr}(b gZ_tg^{-1})\,dg
+=\tfrac12\operatorname{Tr}(b)\operatorname{Tr}(Z_t),
+\tag{JF31}
+\]
+which deletes the jointly invariant term
+\(-2\mathbf b\cdot\mathbf z\).
+
+The loss is exactly the danger isolated by
+[[inq#The whole is assembled from dual boundary charges|charged boundary gluing]]:
+diagonal invariance of the whole does not mean separate invariance of
+its two factors. Restricting (JF28) further to globally invariant vectors
+gives \(\mathcal H_{s,\mathrm{inv}}\widehat\otimes
+\mathcal H_{\ell,\mathrm{inv}}\), still missing the nontrivial dual
+charges that can combine to a singlet.
+
+There is a sharper obstruction on the smooth cylinder core. On a fixed
+grid, relative-future conjugation at every cut, including the root, is
+equivalent to independent conjugation of each increment. If a cylinder
+must retain this property after splitting one of its increments as
+\(y=ab\), invariance under conjugation of \(a\) alone gives
+\(L_{\xi-\operatorname{Ad}_a\xi}f(y)=0\) for every \(a,\xi,y\),
+with other increments fixed. These directions span \(\mathfrak g\)
+for the connected semisimple groups considered here. Hence that cylinder
+is constant in the split increment. Requiring the property under splits
+of every coarse interval leaves only constant smooth cylinders. This is
+a statement about one cylinder across all refinements, not a theorem
+identifying an intersection of arbitrary closed \(L^2\) domains.
+
+Conditional restart therefore repairs neither the original operator nor
+its full neutral carrier. A candidate that retains all cuts must keep
+boundary-covariant charged fibers until gluing, and then construct a
+compatible response on the complete diagonal-invariant carrier. Separate
+fiber neutralization cannot supply that construction.
+
+### Charged values alone do not repair the source geometry
+
+Keep the conditional heat law, the Fisher norm (JF6), the frozen-prefix
+future action, and the usual scalar action fixed. Let \(W\) carry a
+finite-dimensional unitary representation \(\rho\), and let a smooth
+\(W\)-valued cylinder satisfy
+\[
+F(gZg^{-1})=\rho(g)F(Z).
+\]
+A correction at the literal initial-value radical would be
+\[
+\nabla^0_{h,j}F=V_{h,j}F-\rho_*(\xi_0)F,\qquad
+\xi_0=h(0)=j(0).
+\tag{JF32}
+\]
+This cancels constant diagonal controls, but not their cheap based
+approximations. Fix \(0<a<t_1\), where \(t_1\) is the first future
+readout, and take \(h=j=b_{\varepsilon,a}\zeta\) using (JF11). Then
+\[
+\xi_0=0,\qquad
+\nabla^0_{h,j}F=\rho_*(\zeta)F,\qquad
+g_2(h,j)\le\frac{c_A|\zeta|^2}{\log(a/\varepsilon)}
+\longrightarrow0.
+\tag{JF33}
+\]
+Every readout is conjugated by the same infinitesimal \(\zeta\).
+Consequently a finite extended response norm for (JF32) forces
+\(\rho_*(\zeta)F=0\) for every \(\zeta\). Since \(G\) is connected,
+the values lie in \(W^G\); for a nontrivial irreducible representation
+the cylinder vanishes. Initial-value covariance alone therefore retains
+no charged sector.
+
+More generally, a proposed linear connection or source correction
+\(\nabla_{h,j}F=V_{h,j}F-\mathcal A_Z(h,j)F\) must satisfy
+\[
+\bigl[\rho_*(\zeta)-
+\mathcal A_Z(b_{\varepsilon,a}\zeta,b_{\varepsilon,a}\zeta)\bigr]F(Z)
+\longrightarrow0
+\tag{JF34}
+\]
+whenever its extended response is finite. A correction whose action on
+\(F\) is itself bounded in the original Fisher norm tends to zero on
+these ramps and cannot meet this condition for a charged value. A
+connection must account for the vertical action along the completed
+cheap directions before dualization, or an enlarged source must change
+their cost. Formula (JF34) is a necessary condition, not a prescription
+chosen after seeing the desired readout.
+
+There is also a scalar obstruction to repairing the construction by
+charged notation alone. Suppose the connection respects the pairing
+between dual boundary representations and reduces to the original
+derivative on scalars:
+\[
+\nabla\langle F_A,F_B\rangle
+=\langle\nabla F_A,F_B\rangle+\langle F_A,\nabla F_B\rangle
+=V\langle F_A,F_B\rangle.
+\tag{JF35}
+\]
+Connection terms cancel in this identity. In the \(SU(2)\) example,
+the prefix vector \(\mathbf b\) and future vector \(\mathbf z\) are
+adjoint charges whose pairing is \(\mathbf b\cdot\mathbf z\). A
+future-only cheap diagonal ramp has
+\[
+V\mathbf b=0,\qquad
+V\mathbf z=\boldsymbol\zeta\times\mathbf z,\qquad
+V(\mathbf b\cdot\mathbf z)
+=\mathbf b\cdot(\boldsymbol\zeta\times\mathbf z).
+\]
+The last expression is generically nonzero and independent of the ramp
+cost. By (JF35), a pairing-compatible connection cannot remove its
+infinite scalar response. This re-establishes the endpoint obstruction
+on the complete paired readout, even if charged factors have been
+introduced.
+
+The adjoint representation is important for this witness. An
+\(SU(2)\)-fundamental-valued function equivariant under conjugation of
+\(Z\) alone already vanishes: the center acts trivially on the base but
+nontrivially on its values. Open fundamental boundary indices require
+their actual left/right boundary action, not this conjugation action
+with a different label.
+
+A remedy must therefore change an upstream datum: specify an additional
+boundary source and its joint transformation law, construct a response
+metric that controls relative boundary rotations, or replace the
+localized action and return map while proving the required scalar
+gluing. Merely attaching charged fibers or subtracting the initial
+gauge parameter does none of these. The obstruction holds with the
+listed source, action, norm and pairing fixed; it does not exclude a
+different boundary-resolved construction.
+
+The extended [[receipts/two_sided_fisher_receipt.py|receipt]] checks the
+conditional block and both frame rotations using actual \(SU(2)\)
+adjoints. A Pauli-matrix endpoint witness is jointly invariant but has
+nonzero future conjugation derivative; the finite cutoffs display its
+logarithmically increasing cost. The analytic proof, not those cutoffs,
+establishes the domain exclusion and the smooth-cylinder refinement
+obstruction. [[trace-dirichlet-descent/conditional-score-shorting-and-observable-lifts|The finite conditional-score model]]
+separately explains why central resolution and Fisher inversion change
+the operator, without claiming to solve this charged gluing problem.
+
+The original construction is a state-action-response triple with a constrained
 observable carrier and a complete auxiliary clock. Neither a Yang--Mills
 vacuum state on all four-dimensional observables nor its physical
 Hamiltonian has been constructed. The group, heat law, admissible

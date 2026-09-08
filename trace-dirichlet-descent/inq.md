@@ -130,6 +130,8 @@ This is a precise form-level sense in which a representative is forgotten. It is
 
 When every downstream form is defined by the same infimal-pushforward rule, nested quotient maps compose by taking one joint infimum. This is the form version of transitivity of Anderson--Trapp shorting and gives a genuine descent law for successive eliminations.
 
+[[conditional-score-shorting-and-observable-lifts|Conditional score shorting]] supplies an explicit singular-fiber member. Conditional Fisher forms average, while their duals descend by minimizing over range-admissible response lifts. The unique harmonic lifts compose and preserve one actual Gaussian observable through successive cuts. This realizes the variance quotient, not an observable-algebra quotient or an identity between differently dualized diffusion forms; the response kernel is not an ideal.
+
 ## The finite block is a Dirichlet-to-Neumann operator
 
 Let \(L\) and \(B\) be finite-dimensional Hilbert spaces,

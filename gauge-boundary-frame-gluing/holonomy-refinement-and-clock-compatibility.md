@@ -2,7 +2,7 @@
 
 Multiplying fine links into one coarse holonomy preserves a carrier, but it preserves an independent-link clock only when the fine diffusion coefficients add to the coarse coefficient. This exact condition survives faithful vacuum reweighting. The additive Haar construction does produce a compatible refinement clock; its full physical threshold is the infimum of weighted cycle lengths times the least Casimir, and vanishes when refinement introduces arbitrarily cheap loops. Mixed responses can change this geometry, yet a known metric-independent mixed construction leaves smooth closed-loop distinctions in its kernel. A continuum candidate must specify a compatible state, observable embedding and response geometry together, distinguishing instantaneous form compatibility from complete clock compatibility.
 
-**Status: [ESTABLISHED] for additive weighted-Laplacian consistency; [EXACT] for the weighted pullback, closed-loop kernel test, and spectral threshold of a countable compatible Haar refinement clock; [OPEN] for a compatible interacting four-dimensional vacuum and a uniform physical threshold.**
+**Status: [ESTABLISHED] for additive weighted-Laplacian consistency; [EXACT] for the weighted pullback, adjacent-plaquette compression defect, closed-loop kernel test, and spectral threshold of a countable compatible Haar refinement clock; [OPEN] for a compatible interacting four-dimensional vacuum and a uniform physical threshold.**
 
 ## A product holonomy has an additive diffusion budget
 
@@ -153,6 +153,126 @@ An autonomous compressed semigroup forces this defect to vanish and
 the readout range to reduce the clock. The broader
 [[global-local-response-reconstruction/compatible-spectral-readouts-and-positive-clock|moment reconstruction]]
 does not demand that closure at every coarse context.
+
+## Individually autonomous loop readouts can have a nonautonomous join
+
+Take two adjacent square plaquettes with seven distinct links, product
+Haar law, full vertex gauging, and no magnetic potential. Set
+\(G=SU(2)\), \(Q=-2\operatorname{Tr}\), and
+\[
+H_0=\kappa\sum_{e=1}^7D_{Q,e},\qquad \kappa>0.
+\tag{HC9a}
+\]
+The fundamental Casimir is \(3/4\). The common path has one edge and
+the two outside paths have three each. By (HC2), their exact reduced
+weights are \(\kappa,3\kappa,3\kappa\). The
+[[gauge-cycle-innovation-filtration/loop-coordinates-and-the-induced-clock|theta-loop construction]]
+therefore gives the full physical carrier
+\(\mathcal H=L^2(G^2)^{\operatorname{Ad}G}\) and the operator
+\[
+H_0=4\kappa(D_x+D_y)-2\kappa\sum_aR_{x,a}R_{y,a}.
+\tag{HC9b}
+\]
+Its domains are the inherited invariant \(H^2\) operator domain and
+\(H^1\) form domain, not independently chosen domains on trace coordinates.
+
+Let \(\chi=\operatorname{Tr}_{\mathbf2}\), and let \(\mathcal B\) be
+the entire closed subspace of functions of \((\chi(x),\chi(y))\).
+Write \(J:\mathcal B\hookrightarrow\mathcal H\) for inclusion,
+\(P=JJ^*\) for Haar conditional expectation, and
+\(C_t=J^*e^{-tH_0}J\). Each separate one-loop class space reduces
+\(H_0\), with clock \(4\kappa D_Q\). Their joint character space
+\(\mathcal B\), however, is smaller than the simultaneous-invariant
+space \(\mathcal H\).
+
+An exact witness identifies the missing distinction. Write
+\(x=x_0I-i\mathbf x\cdot\boldsymbol\sigma\) and similarly for \(y\).
+Put
+\[
+F=\chi(x)\chi(y),\qquad
+Z=\mathbf x\cdot\mathbf y,\qquad
+B=\tfrac12\chi(yx^{-1})=\tfrac14F+Z.
+\tag{HC9c}
+\]
+The outside six-edge loop gives \(H_0B=(9\kappa/2)B\).
+The product rule on the shared edge gives
+\[
+H_0F=6\kappa F-2\kappa Z
+     =\tfrac{13\kappa}{2}F-2\kappa B,
+\qquad
+H_0(F-B)=\tfrac{13\kappa}{2}(F-B).
+\tag{HC9d}
+\]
+Normalized Haar integration gives
+\(\|F\|^2=1\), \(\|B\|^2=\langle F,B\rangle=1/4\);
+thus \(F=B+(F-B)\) is an orthogonal spectral decomposition with
+squared weights \(1/4\) and \(3/4\).
+
+Conditional on \(x_0,y_0\), the two quaternion-vector orientations are
+independent and uniform. Hence \(PZ=0\) and \(PB=F/4\). This is
+conditioning on the complete joint character algebra, not projection
+onto one trial vector. It proves
+\[
+\boxed{
+C_tF=\left(\tfrac14e^{-9\kappa t/2}
+           +\tfrac34e^{-13\kappa t/2}\right)F.}
+\tag{HC9e}
+\]
+In particular,
+\[
+\boxed{
+\langle F,(C_{2t}-C_t^2)F\rangle
+=\tfrac3{16}
+\left(e^{-9\kappa t/2}-e^{-13\kappa t/2}\right)^2
+=\tfrac{3\kappa^2}{4}t^2+O(t^3).}
+\tag{HC9f}
+\]
+The positive defect at every \(t>0\) rules out autonomous compressed
+evolution on \(\mathcal B\). Averaging the mixed response away and
+rebuilding a product class clock instead gives
+\(e^{-6\kappa t}F\): the first derivative agrees, but the complete
+return does not.
+
+There is an exact finite repair. Adjoin the relative-loop observable
+\(\chi(yx^{-1})\). The three real traces determine \(x_0,y_0\) and the
+Gram matrix of the two quaternion vectors. Two vector pairs with the
+same Gram matrix differ by an \(SO(3)\) rotation, including the
+degenerate cases, and such rotations are the \(SU(2)\) adjoint action.
+Thus the three traces separate simultaneous-conjugation orbits.
+Their measurable algebra generates the entire physical \(L^2\)
+carrier, and its inherited electric clock is autonomous. For this
+isolated graph the repair restores all physical variables; it is
+not yet an economical reduction for an arbitrarily large lattice.
+
+The same two-channel return can be checked before the temporal
+continuum limit. For normalized independent Wilson link convolution
+with density proportional to \(e^{\beta\chi/2}\), \(\beta>0\), define
+\(p_j=I_{j+1}(\beta)/I_1(\beta)\), where \(j\) is twice the spin.
+The six outside links are fundamental. The common link is trivial
+on \(B\) and spin one on \(F-B\). For integer \(n\ge0\),
+\[
+J^*T_\beta^nJF
+=\left[\tfrac14p_1^{6n}
+       +\tfrac34(p_1^6p_2)^n\right]F.
+\tag{HC9g}
+\]
+This is the zero-magnetic transfer, not an interacting Wilson vacuum
+or an identification of \(-\log T_\beta\) with a Laplacian at fixed
+spacing. The
+[[gauge-boundary-frame-gluing/receipts/overlapping_plaquette_transfer_receipt.py|overlapping-plaquette receipt]]
+checks the actual seven-link Pauli derivatives, Haar channel weights,
+and Wilson convolution at four values of \(\beta\).
+
+This supplies a concrete correction to a proposed whole-to-local
+axiom: closure of each individual observable context does not force
+closure of their join. One must retain relational channels or retain
+their nonautonomous spectral return. Neither operation proves a
+continuum mass gap; the next issue is control of the additional
+channels when more plaquettes and magnetic interactions are included.
+In this free example the full electric gap and the rebuilt
+joint-character gap both equal \(3\kappa\), witnessed by a single
+plaquette character. The disagreement concerns the full dynamical
+return, not those two numerical gap values.
 
 ## A natural mixed response can still miss closed distinctions
 

@@ -350,6 +350,37 @@ homogeneous under deleting the past and restarting an annulus: that
 explicit failure distinguishes a contextual response from the additional
 restart law, and the auxiliary threshold from a physical mass.
 
+[[two-sided-fisher-completion-and-the-neutral-carrier#Conditional restart changes both operator and carrier|Conditional rebuilding at a cut]]
+restores that restart law only on a separately neutral future carrier.
+It excludes a globally neutral endpoint character carrying paired
+boundary/future charge. On smooth finite cylinders, requiring the same
+separate neutrality through all cuts and refinements leaves only
+constants for connected semisimple groups. This makes the charged gluing
+requirement operative for the path-response construction itself: changing
+the conditional metric must not silently shrink the observable carrier.
+
+[[heat-factor-response-and-the-compression-defect|An independent two-factor source]]
+supplies a different response on the same full neutral path carrier.
+Its rebuilt clock respects neutral annular restart without discarding
+globally paired observations. Full ordered cuts use a derived boundary
+conjugation twist in the right response row; the two rows and twist
+compose coherently without separately neutralizing either region.
+The source clock itself does not descend:
+an actual source-chaos component changes along a fiber that fixes the
+entire output path. Thus response pullback and dynamical compression
+are distinct even in this completely specified group-path example.
+
+[[coarse-response-memory/gauge-star-state-and-hidden-clock|The actual
+profile-star test]] separates the static amplitude from this clock
+question. A Haar reference realizes the prescribed face integral, but
+its specified product diffusion descends to the full framed boundary
+only for constant profiles. The computed conditional drift covariance
+measures the first dynamical defect. Even a fixed whole boundary state
+and reconstructed response can conceal an arbitrarily slow visible
+tail. Spatial composition must therefore carry the actual dynamical
+readout, not just the integrated density and an independently rebuilt
+clock.
+
 ## The charged innovation frame
 
 The exact finite-regulator order of operations is now

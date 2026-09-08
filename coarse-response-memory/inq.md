@@ -8,7 +8,7 @@ inq.include:
 
 Removing hidden variables from an evolution does not generally produce another autonomous evolution on the retained variables. It produces a frequency-dependent response: the hidden sector can receive a disturbance, retain it, and return it later. The static least-cost response is only its zero-frequency limit. This distinction gives both a quantitative gap criterion and an explicit example where an apparently fast local rate misses a slow physical mode.
 
-**Status: [EXACT] for the stated self-adjoint block setting and finite reversible example; [CONDITIONAL] for a physical application supplying that block decomposition and uniform estimates; [OPEN] for the Yang--Mills continuum construction or a cosmological realization.** No assumption about fundamental randomness is made.
+**Status: [EXACT] for the stated self-adjoint block setting and the finite reversible and compact-group examples; [CONDITIONAL] for a physical application supplying that block decomposition and uniform estimates; [OPEN] for the Yang--Mills continuum construction or a cosmological realization.** No assumption about fundamental randomness is made.
 
 ## What the operator operates on
 
@@ -207,6 +207,18 @@ r_\varepsilon(2t)-r_\varepsilon(t)^2
 \tag{CM16}
 \]
 for \(t>0\). A smaller state space did not eliminate the physical slow mode; it placed that mode in a memory-dependent return.
+
+[[gauge-star-state-and-hidden-clock|The compact gauge-star example]] makes
+the distinction on an actual \(SU(2)\) profile and Haar-reference source.
+Its entire output state and rebuilt clock remain fixed, while the
+visible spectral edge tends to zero with a nonvanishing character
+weight. The two-leaf extension preserves this failure after endpoint
+charges are paired into a neutral relative loop: a fixed positive
+amount of spectral weight enters a shrinking energy interval.
+For general finite stars, the first compression defect is the
+conditional covariance of the hidden drift. This calculation uses
+strong differentiation on smooth readouts rather than assuming the
+bounded off-diagonal block required by (CM3).
 
 ## Use the physical bounded defect when domains are difficult
 
