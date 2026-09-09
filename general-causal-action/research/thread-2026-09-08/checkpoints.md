@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and source sewing from the full prepared amplitude. Round 36 proves that the character-dependent gap contrast follows the spatial soft mode in the actual compact theory, relates that response to the bulk vacuum normalization, and finds a surviving local conditional fourth-cumulant coefficient. Next return the conditional contrast uniformly on a growing-patch trajectory. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and source sewing from the full prepared amplitude. Round 37 returns the local conditional character contrast uniformly in the actual growing compact theory. An exact influence identity connects this response to the original chronology, and its harmonic time profile has an integrable uniform tail. Next return that time profile and control the actual tail. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 36, 2026-09-09
+## Active conjecture — round 37, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Retain the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical duration \(\ell=ka_t>0\), put
 \[
@@ -14,11 +14,11 @@ Seek a composition-derived \(0<c<1\) with
 \[
 V_Q(\xi)-C_{\rm lag}(\xi)\ge c\|\xi\|^2
 \]
-on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement. A finite-patch or rapidly confining gap is not this physical-limit theorem.
+on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement. A finite-patch or rapidly confining gap does not establish this physical-limit theorem.
 
 The subordinate construction remains **source sewing by the Lie bracket, with the full prepared character retained**. The bracket and normalized Hessian do not determine its nonlinear law. No new clock or stabilizing term has been inserted.
 
-## The actual character contrast follows the spatial soft mode
+## The local conditional contrast now returns uniformly
 
 Keep [[general-causal-action/equal-character-hessians-and-the-nonlinear-source-discriminator|EH's fixed representation and weight family]]
 \[
@@ -26,94 +26,82 @@ Keep [[general-causal-action/equal-character-hessians-and-the-nonlinear-source-d
 A_\varepsilon=(1+14\varepsilon)I_2\oplus(1-16\varepsilon)I_3
 \oplus(1+5\varepsilon)I_4.
 \]
-On every open \(L\times L\) patch, the trace \(9\), quadratic index \(15/2\), original bounded mark, first operator and common scales
+The trace \(9\), quadratic index \(15/2\), original mark, electric operator and scales
 \[
-n=L+1,\qquad h=(\kappa/(15g))^{1/4},\qquad E=\kappa/h^2
+n=L+1,\qquad h=(\kappa/(15g))^{1/4},\qquad E=\kappa h^{-2}
 \]
 remain fixed across \(\varepsilon\in I\subset(-1/14,1/16)\), with \(I\) compact. The **full preparation weight changes**.
 
-Let \(C_L=\sqrt{4I-\operatorname{Adj}_L}\), \(\omega_L=2\sqrt2\sin(\pi/(2n))\), and let \(u\) be the normalized lowest sine mode. [[general-causal-action/weighted-character-gap-coefficient-and-the-spatial-soft-mode|WS1–12]] proves
+On the open \(L\times L\) patch, retain every complete exterior face \(S\). Let \(\mathbf K_{\varepsilon,L,r}(h)\) be the actual expectation of the invariant double trace of the conditional fourth cumulant of \(Y_h=2q_\rho(P_r)/h\), with its own conditional mean, covariance and retained marginal. Set
 \[
-S_L=\sum_pu(p)^2(C_L)_{pp},\qquad I_L=\sum_pu(p)^4,\qquad
-k_L=-\frac76\omega_L(2S_L+\omega_LI_L).
-\]
-For \(L\ge2\), \(I_L=9/(4n^2)\), and an exact sine-overlap quadrature gives
-\[
-|S_L-c_\infty|\le\frac{\sqrt2\pi}{n},\qquad
-c_\infty=\frac1{\pi^2}\int_{[0,\pi]^2}
-\sqrt{4-2\cos x-2\cos y}\,dx\,dy.
-\]
-Thus \(k_L/(2\omega_L)\to-7c_\infty/6\).
-
-[[general-causal-action/uniform-weighted-character-return-and-the-soft-gap|UW1–14]] proves the actual compact estimate
-\[
-\boxed{
-|\Delta_{\varepsilon_2,L}(h)-\Delta_{\varepsilon_1,L}(h)
--(\varepsilon_2-\varepsilon_1)h^2k_L|
-\le C_I|\varepsilon_2-\varepsilon_1|h^4n^{13}}
-\]
-throughout \(hn^{10}\le\eta_I\). The relative contrast error is \(O_I(h^2n^{14})=O_I((hn^{10})^2n^{-6})\), so the coefficient limit is an actual simultaneous return.
-
-The sharper exponent matters. Subtracting two general \(h^4n^{21}\) energy remainders would leave relative error \((hn^{10})^2n^2\), which need not vanish. UW instead uses the magnetic-only parameter derivative, coefficientwise Feynman–Hellmann and explicitly differentiated tenth-order compact quasimodes.
-
-Each scaled gap still follows \(2\omega_L\); at fixed \(\kappa\), the absolute gaps grow on this confinement window while their absolute character contrast tends to zero as \(\kappa(\varepsilon_2-\varepsilon_1)k_L\). Increasing \(\varepsilon\) lowers the actual gap uniformly on a sufficiently small window. The exact potential derivative changes sign away from the identity well, so this is not inferred from a global potential ordering.
-
-## The same parameter also changes the bulk vacuum normalization
-
-[[general-causal-action/character-response-and-the-bulk-vacuum-normalization|BV1–9]] retains the uncentered Hamiltonian and its closed heat trace. The vacuum second-coefficient derivative is
-\[
-v_L=-\frac78\sum_p(C_L)_{pp}^2,\qquad
-\frac{v_L}{L^2}\longrightarrow-\frac78c_\infty^2.
-\]
-The actual branch derivative has error \(O_I(h^4n^{13})\). With \(\mathcal E_{\varepsilon,L}(h)\) the scaled vacuum energy, define
-\[
-\mathcal V=\frac{\partial_\varepsilon\mathcal E}{L^2h^2},
-\qquad
-\mathcal G=\frac{\partial_\varepsilon\Delta}{2\omega_Lh^2}.
-\]
-On the same growing-patch window,
-\[
-\boxed{\mathcal V\to-\frac78c_\infty^2,\qquad
-\mathcal G\to-\frac76c_\infty,\qquad
-\mathcal G/\mathcal V\to\frac4{3c_\infty}.}
-\]
-The trace's long-duration vacuum limit is taken at fixed regulator before this spatial limit. This compares two responses of one specified additive normalization. An extra parameter-dependent scalar changes the vacuum response but not the gap; CN's central freedom remains. Character redistribution is not an identified cosmic-scale dilation.
-
-## The local conditional coefficient retains preparation information
-
-[[general-causal-action/character-memory-in-the-local-conditional-fourth-cumulant|LCM1–12]] retains one face \(r\), conditions on every other complete face, and uses the same original GM mark in both preparations. Let
-\[
+C_L=\sqrt{4I-\operatorname{Adj}_L},\qquad
 \sigma_{L,r}=((C_L^{-1})_{rr})^{-1},\qquad
 J_{L,r}=\int_0^\infty\sum_p(e^{-sC_L})_{pr}^4\,ds.
 \]
-Write \(\mathcal K_{\varepsilon,L,r}(h)\) for the invariant double trace of its actual conditional fourth-cumulant tensor. At each fixed patch,
+[[general-causal-action/uniform-local-conditional-character-return|UL1–24]] proves, uniformly in the face and parameter, throughout \(\delta=hn^{10}\le\eta_I\),
 \[
 \boxed{
-\mathbb E_{\varepsilon_2,h}\mathcal K_{\varepsilon_2,L,r}
--\mathbb E_{\varepsilon_1,h}\mathcal K_{\varepsilon_1,L,r}
-=14(\varepsilon_2-\varepsilon_1)h^2\sigma_{L,r}^4J_{L,r}
-+O_{L,I}(h^3).}
+|\partial_\varepsilon\mathbf K_{\varepsilon,L,r}
+-14h^2\sigma_{L,r}^4J_{L,r}|
+\le C_Ih^3n^{17/2}.}
 \]
-The common kinetic correction, first vacuum score and cubic source-coordinate contact cancel from the parameter coefficient.
+Integrating retains the factor \(|\varepsilon_2-\varepsilon_1|\), including arbitrarily small contrasts. The normalized error is \(O_I(\delta n^{-3/2})\). For a face receding from the boundary,
+\[
+\boxed{
+\frac{\mathbf K_{\varepsilon_2,L,r}-\mathbf K_{\varepsilon_1,L,r}}
+{(\varepsilon_2-\varepsilon_1)h^2}
+\longrightarrow14\sigma_\infty^4J_\infty>0.}
+\]
+This is an actual simultaneous compact and bulk return. Further division by \(\sigma_{L,r}^2\) gives \(14\sigma_\infty^2J_\infty\). The unrescaled contrast still tends to zero.
 
-When \(r\) recedes from the boundary, killed-walk subordination proves
-\(\sigma_{L,r}\to\sigma_\infty>0\) and \(J_{L,r}\to J_\infty>0\).
-The sequential standardized coefficient is therefore \(14\sigma_\infty^2J_\infty>0\), although the absolute gap coefficient vanishes. This is compatible with a common leading harmonic limit. The conditional remainder is not yet uniform in the growing patch.
+The missing construction was supplied by [[general-causal-action/conditional-replica-cumulants-and-amplitude-stability|CRA1–12]]: four copies conditioned on the same exterior express the centered cumulant exactly. Including the changing marginal makes it a homogeneous degree-two, \(C^{1,1}\) amplitude functional, even at zero fibers. This avoids inverse marginal bounds. [[general-causal-action/magnetic-parameter-tangents-and-uniform-vacuum-control|MVT1–11]] explicitly differentiates the magnetic recursion and actual vacuum. UL combines these estimates with finite Gaussian-fiber bounds and differentiated compact cutoffs; subtracting two uncontrolled remainders would not suffice.
+
+## The same response has an exact chronological meaning
+
+[[general-causal-action/conditional-cumulant-influence-and-the-original-chronology|CI1–9]] constructs the actual influence. Write \(Z=Y-\mathbb E[Y\mid S]\), \(V=\mathbb E[ZZ^{\mathsf T}\mid S]\), and \(t=\mathbb E[Z|Z|^2\mid S]\). Then
+\[
+F_\mu=|Z|^4-4t\cdot Z-2(\operatorname{Tr}V)|Z|^2
+-4Z^{\mathsf T}VZ+(\operatorname{Tr}V)^2+2\operatorname{Tr}(V^2).
+\]
+Its expectation is \(\mathbf K\); it depends on the complete exterior through the conditional moments. For the actual scaled Hamiltonian \(\widehat H_\varepsilon\), let \(B=\partial_\varepsilon\widehat H_\varepsilon\). Its original ground-transformed chronology satisfies exactly
+\[
+\boxed{
+\partial_\varepsilon\mathbf K
+=-2\int_0^\infty
+\operatorname{Cov}_{\mu_\varepsilon}
+(F_{\mu_\varepsilon}(U_0),B(U_s))\,ds.}
+\]
+This includes all moving-mean, covariance and marginal terms. It introduces no reset evolution.
+
+At harmonic order, \(\eta=X_r-\mathbb E_0[X_r\mid X_S]\),
+\[
+F_0=|\eta|^4-10\sigma|\eta|^2+15\sigma^2,\qquad
+B_2=-\frac7{120}\sum_p|X_p|^4.
+\]
+CI proves the whole leading mixed profile
+\[
+\operatorname{Cov}_0(F_0(X_0),B_2(X_s))
+=-7\sigma_{L,r}^4\sum_p(e^{-sC_L})_{pr}^4,
+\]
+with absolute integrated tail bounded uniformly by \(C(1+T)^{-5}\). Its integral gives precisely UL's coefficient. The actual integral and the harmonic profile are established; an actual uniform time-profile return remains open.
 
 ## Weakest assumption and next decisive test
 
-The weakest link remains full spatial composition with rigidity through the physical limits. This round separates three responses of the same preparation: an extensive vacuum coefficient, a soft gap coefficient, and a nonzero local conditional coefficient. Neither the gap nor its first-order inventory decides whether a retained source map forgets higher-character data.
+The weakest link remains full spatial composition with rigidity through the physical limits. The same preparation now has three controlled responses: [[general-causal-action/character-response-and-the-bulk-vacuum-normalization|BV's extensive vacuum coefficient]], [[general-causal-action/uniform-weighted-character-return-and-the-soft-gap|UW's soft gap coefficient]], and UL's positive local conditional coefficient. These constrain the retained source law but do not supply an OI floor.
 
-Prove a quantified actual return for LCM's local parameter contrast while \(L\) grows and \(r\) stays in the bulk. Aim first at the existing \(hn^{10}\le\eta_I\) window. Transport the parameter-differentiated vacuum through the actual conditional projection, then control the centered fourth products and the two changing retained marginals. Keep the complete exterior sigma algebra and the original bounded mark. Spectral norm control alone is insufficient for these products.
+Return
+\[
+h^{-2}\operatorname{Cov}_{\mu_{\varepsilon,L,h}}
+(F_{\mu_{\varepsilon,L,h}}(U_0),B_{\varepsilon,L,h}(U_s))
+\]
+to CI's harmonic profile on bounded time intervals, then prove a uniformly integrable actual tail on an explicit growing-patch window. Control both centered source vectors and their original chronology. Keep the complete exterior, global character insertion and fixed source normalization. Use the existing chronological and finite-degree estimates; derive any necessary refinement of the window explicitly.
 
-The decisive target is a remainder \(o(|\varepsilon_2-\varepsilon_1|h^2\sigma_{L,r}^2)\) after standardization, giving the positive limit \(14\sigma_\infty^2J_\infty\) for actual statistics along a stated joint trajectory. If the estimates require a different quantified window, derive it explicitly. Do not infer disappearance of the source channel from the shrinking gap, or replace conditional integration by a reset evolution.
+The already-controlled signed integral does not imply pointwise convergence or tail control: cancellations remain possible. The harmonic tail estimate alone does not bound the actual tail. A successful return would place this preparation-sensitive conditional channel inside the chronological response matrix; one mixed entry still would not control that entire matrix.
 
 ## Binding controls, targets and source cursor
 
-[[general-causal-action/radius-orientation-chronological-gram-and-the-source-pencil|CG]] and [[general-causal-action/radius-orientation-source-extension-and-the-innovation-floor|RO]] retain the full mixed chronology and strict lowering relative to the actual radius-only quotient. [[general-causal-action/logarithmic-vacuum-curvature-and-conditional-cumulants|LCV]] distinguishes the cutoff-log cumulant from the original GM coordinate contact. [[general-causal-action/conditional-boundary-translation-and-source-products|BM's normalization obstruction]] concerns exact translated-Gaussian closure on the unbounded harmonic carrier.
+Carry [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's full exterior form]] and [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]]. [[general-causal-action/radius-orientation-chronological-gram-and-the-source-pencil|CG]] and [[general-causal-action/radius-orientation-source-extension-and-the-innovation-floor|RO]] retain mixed-source chronology. [[general-causal-action/logarithmic-vacuum-curvature-and-conditional-cumulants|LCV]] distinguishes logarithmic cumulants from source-coordinate contact; [[general-causal-action/conditional-boundary-translation-and-source-products|BM's obstruction]] concerns exact translated-Gaussian closure on the unbounded harmonic carrier.
 
-Carry [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's full exterior form]] and [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]] in any sewn chronology. The weighted theorem is an isolated planar confinement result, not a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
-
-Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, representation, four-dimensional sector and temporal realization inputs remain declared. Cosmological returns must use the same amplitude and retain its normalization.
+These are planar strong-confinement results, not a fixed-coupling thermodynamic or four-dimensional continuum trajectory. Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, representation, four-dimensional sector and temporal realization inputs remain declared. Cosmological returns must use the same amplitude and retain its normalization; BV's additive scalar freedom remains.
 
 All nine Claude inbox files still match their preserved hashes; no new commentary arrived. This round's results are analytic and independently reviewed. Recheck the inbox on resumption. The goal remains active.
