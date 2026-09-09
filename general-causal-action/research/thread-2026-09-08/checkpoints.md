@@ -1,73 +1,77 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport on the returned Wilson chronology. Round 18 computes spatial block sewing with the actual vacuum and forces its seam response from the same temporal law. The seam's transition score is an innovation; its squared norm equals the closed-normalization susceptibility. A finite interface bound now acts on the actual replica integration, with source leakage and lag cost retained. The [[general-causal-action/research-schema|full Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and its complete physical source carrier. Round 19 evaluates the adjacent Wilson seam: a fixed regional source can improve while the actual finite physical gap decreases. The next test therefore follows the full sector through two genuinely overlapping seams, with the vacuum and disconnected contributions retained. The [[general-causal-action/research-schema|full Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 18, 2026-09-09
+## Active conjecture — round 19, 2026-09-09
 
-**Oriented innovation transport** remains the single active foundation, stated in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Retain the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical \(\ell=ka_t>0\), put
+**Oriented innovation transport** remains the single active foundation, stated in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. The determinant amplitude, actual temporal sewing and complete marked sources remain fixed. At physical \(\ell=ka_t>0\),
 \[
-A=P^k,\qquad
+A=P^k,\qquad R=I-A^2,\qquad
 \delta_+f=f(X_0)-(Af)(X_{-k}),\qquad
-\mathcal K_\parallel=Q\iota,\qquad
 \mathcal K_\parallel\delta_+=\delta_+A.
 \]
-The pair-law change is \(\mu_1=\pi A\) to \(\mu_3=\pi A^3\). Seek a positive constant \(c\), supplied by the actual non-Abelian composition, such that
+Seek \(0<c<1\), supplied by the actual non-Abelian composition, such that
 \[
-V_Q(h)\ge C_{\rm lag}(h)+c\|h\|^2
+V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
-on every centered physical innovation through continuum and infinite-volume limits. This gives \(H\ge-\log(1-c)/(2\ell)\). The finite-word remainder and repair formulations remain available; no spectral inverse is admitted as a gap certificate.
+on every centered physical innovation through continuum and infinite-volume limits. Equivalently \(R^2\ge cR\), with the already proved vacuum-only kernel. This would imply \(H\ge-\log(1-c)/(2\ell)\). A positive finite boundary-word remainder remains an allowed mechanism; an assumed spectral inverse is not its certificate.
 
-## Strongest new consequence: one forced seam response
+## Strongest consequence: source improvement can accompany a smaller gap
 
-[[general-causal-action/seam-coupling-response-and-the-vacuum-cap|SV1–16]] varies selected spatial interactions in the actual transfer:
+[[general-causal-action/adjacent-wilson-plaquette-and-the-chronological-surplus|AP1–20]] uses the actual seven-link two-square \(SU(2)\) Wilson transfer. Hold temporal coupling \(b_t>0\) and duration \(a_t\) fixed, begin with zero magnetic couplings, and switch on only \(s(2-\chi_R)\). Put
 \[
-T_s=e^{-sV/2}Te^{-sV/2},\quad
-V_{c,s}=V-\pi_sV,\quad
-w_s=-(I-P_s)^{-1}V_{c,s}.
+x=2b_t,\quad t=I_2(x)/I_1(x),\quad v=I_3(x)/I_1(x),
+\quad\alpha=t^4.
 \]
-At each fixed finite graph,
+The left source \(f=\chi_L\) has zero mean and unit variance for every \(s\); its full left raw-link marginal remains Haar. Its vacuum cap conditioned on the common edge is one. The product \(\chi_L\chi_R\) has shared-edge singlet and triplet fusion weights \(1/4,3/4\) and free multipliers \(t^6,t^6v\). These determine the nonregional coefficients acquired by \(P_s^kf\). AP15–17 gives a strictly positive leading three-slab leakage coefficient and an explicit joint Wilson probe detecting it.
+
+AP8 computes every fixed-lag correlation's complete second derivative, including both vacuum caps and the transfer normalization. For the normalized innovation quotient
+\[
+r_k(s)=
+\frac{1-2C_{2k}(s)+C_{4k}(s)}{1-C_{2k}(s)},
+\]
+the first derivative vanishes. Its second derivative is negative at small \(x\), but \(r_k''(0)\sim kx/18>0\) at large \(x\), with \(k\) fixed.
+
+The complete left-odd spectral edge gives a stronger discriminator:
 \[
 \boxed{
-\partial_s\log p_s(x,y)=w_s(y)-P_sw_s(x),\qquad
-\|\delta_sw_s\|_{\pi_sP_s}^{\,2}
-=\partial_s^2\log\lambda_s.}
+(\log\theta_L)''(0)=
+\frac{2t^2[t'(x)+t^3/x]}{(1-t^4)(1-t^2v)}>0,
+\qquad E_L''(0)<0.}
 \]
-The inverse abbreviates a convergent chronological series. It determines a response rather than proving a uniform bound. SV14 also fixes \(\partial_sP_s^k\); SV16 retains both vacuum caps, endpoint half-actions, every interior seam action and the full history normalizer. The response of the cap is therefore no longer an independently adjustable ingredient.
-
-[[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB1–16]] gives the exact adjacent-block law. A complete separator removes crossing local plaquettes but leaves both outer vacuum factors
+The free full physical gap equals \(E_L(0)\). Hence
 \[
-c_z(a,b)=
-\sqrt{\frac{\pi(a,b\mid z)}{\pi(a\mid z)\pi(b\mid z)}}.
+\Delta(s)\le E_L(s)<\Delta(0)
 \]
-Their sourced conditional message and mixed score covariance survive integration. For the complete raw strip coupling \(C\), rectangular log oscillation \(\Delta(C)\) bounds conditional maximal correlation by \(\eta=\tanh[\Delta(C)/4]\). On the actual chronological map,
+for every fixed \(x>0\) and sufficiently small \(s>0\). Thus even the actual full finite gap falls where the chosen source's quotient rises. These are local seam derivatives at fixed finite graph; they do not establish an interacting continuum limit or loss of the finite system's gap.
+
+## What changes and what remains unproved
+
+Automatic positive reinforcement by each seam is rejected inside the selected Wilson family. The global surplus conjecture survives, but any proof must retain spectral redistribution and absorb negative seam contributions. An unchanged regional state, a positive seam Fisher response or one improving source cannot replace that complete estimate.
+
+[[general-causal-action/seam-coupling-response-and-the-vacuum-cap|SV17–21]] now supplies the complete second-variation calculus. With \(u=\partial_s\log\psi\), \(w=-(I-P)^{-1}(V-\pi V)\), and \(\chi=\partial_s^2\log\lambda\),
 \[
-\sqrt{V_Q(\zeta)}
-\ge
-\left[
-\sqrt{1-\eta^2}\sqrt{V_{Q_L}(\zeta_L)}
--\|\zeta-\zeta_L\|_{\mu_3}
-\right]_+.
+(I-P)\dot u=\operatorname{Var}_{P(\cdot)}(w)-\chi,\qquad
+\pi\dot u=-2\pi u^2.
 \]
-Here \(\zeta_L=\mathbb E_{\mu_3}[\zeta\mid\text{left outer pair}]\), and \(Q_L\) uses actual marginal histories. For \(\zeta=\iota\delta_+f\), the regional source \(f\) generally acquires nonregional \(Af\). The resulting leakage and the unchanged \(C_{\rm lag}\) must both be paid in SB15.
+The history-score derivative includes the contact term \(-N\chi\); the normalized quotient also differentiates its denominator. [[general-causal-action/finite-seam-response-and-the-two-spin-surplus|SF1–12]] gives an independent exact sign control with the same moving-vacuum conventions.
 
-## Weakest assumption and decided controls
+[[general-causal-action/cycle-moments-and-the-pure-gauge-vacuum-return|CM]] retains its complete finite spectral and vacuum return under auxiliary-copy removal. [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB]] retains its actual-\(Q\) interface bound, including leakage and lag cost. Neither has uniform constants in the required spatial and continuum limits. The earlier TA, HV, NC and paired-boundary controls keep their stated scopes.
 
-No bound yet controls that complete surplus independently of volume and the physical coupling trajectory. A bounded local seam alone is insufficient: SB16 has one fixed two-spin interaction but diverging vacuum cap oscillation as its kinetic scale and gap close. It is a discriminator of the proposed estimate, not a Wilson counterexample.
+## Next decisive test: the corner's joint coefficient
 
-The previous [[general-causal-action/cycle-moments-and-the-pure-gauge-vacuum-return|CM1–21]] theorem remains proved: auxiliary-copy removal returns the entire finite positive spectrum, actual vacuum histories and fixed physical-source transport. Its positive gap is uniform in sufficiently large copy number at fixed graph and coupling. The global kernel-minimum bound deteriorates with graph size and coupling.
+[[general-causal-action/three-face-corner-and-joint-seam-response|CJ1–14]] fixes three coordinate faces meeting at a cubic corner. Its nine raw edges reduce to a tetrahedral graph with axis paths of length one and outer paths of length two. The two added magnetic faces share a third edge, so their recouplings must be retained jointly.
 
-[[general-causal-action/temporal-angular-cancellation-and-the-conditional-variance-ledger|TA]] removes neutral temporal-angle variance. [[general-causal-action/auxiliary-vacuum-curvature-and-horizontal-source-directions|HV]] separates the closing auxiliary gradient floor from the chronological gap. [[general-causal-action/conditional-commutator-activity-and-the-neutral-tail|NC]] rejects its stated commutator-only remainder. Their scopes remain unchanged.
+Compute the connected coefficient
+\[
+\left.\partial_{s_1}^2\partial_{s_2}^2E_-\right|_{0,0}
+\]
+for the complete central-face odd-sector edge, alongside the corresponding fixed-source quotient coefficient. Exact center symmetries kill all lower mixed orders. CJ12–13 gives finite spin bounds covering every contributing perturbative state; this is an exact coefficient calculation, not a numerical spectral cutoff. CJ14 retains the vacuum branch and the products of the two separate second derivatives. Its value and sign remain open.
 
-## Next decisive test
+Use this to test whether genuinely joint terms constrain the negative one-seam effects. Keep an explicitly calibrated Abelian comparison before calling a nonzero joint coefficient uniquely non-Abelian. A positive coefficient alone would still not prove the complete uniform surplus.
 
-Take one adjacent Wilson-block seam and a fixed regional neutral source. Use SV14–16 to calculate the first nonzero connected change of the complete replica surplus: both caps, their mixed covariance, the actual \(P^kf\), its leakage and the lag-change term. Keep the charged boundary frames until joint gauge integration. Use SB13 before estimating SB15.
+## Target and source cursor
 
-Test whether this complete response admits an interface-dependent absorption or finite boundary-word remainder. Reuse the [[vacuum-aligned-innovation-completion/local-perron-oscillation-and-conditional-coercivity|Perron response]] and [[collared-quasi-factorization-and-surface-response/fisher-collar-bound-for-wilson-laws|Wilson Fisher collar]] under their stated hypotheses. Do not assume their constants survive physical refinement. A named seam-surplus conjecture may carry the calculation; bounding its chronological tail by an already uniform global gap would be circular.
+Nontrivial four-dimensional Yang–Mills for every compact simple group, its axiomatic and ultraviolet return, and its infinite-volume physical gap remain unproved. The group, four-dimensional sector and current realization inputs remain declared. Cosmological deductions must use the same amplitude and its actual closed-normalization variations.
 
-## Target and reviewed-source cursor
-
-[[general-causal-action/paired-boundary-return-and-the-same-wall-identity|PB1–15]] resolves the new modular critique: same-boundary returns are identities, opposite-boundary return is \(P^*P\), and its prescribed-source entropy Hessian is the innovation. A qubit distinguishes KMS and BKM return means. The [[commentary/claude-2026-09-09-00H40-assessment|Claude assessment]] also corrects the packet's faithfulness, parity and mass-rate claims while retaining the possible paired quantum boundary extension.
-
-The current review and eight receipt files are preserved byte for byte; [[commentary/wall-return-channel-2026-09-09/provenance|provenance]] records hashes and the live revision change. The prior three inbox files were replaced externally; their earlier archives remain. No live inbox file was deleted by this round. The three new mathematical owners and assessment received independent actual-text audits. No simulations were run.
-
-Nontrivial four-dimensional Yang–Mills for every compact simple group, its axiomatic and ultraviolet return, and its infinite-volume physical gap remain unproved. A declared group and four-dimensional sector are allowed. Cosmological deductions must use the same amplitude and its actual closed-normalization variations. The goal remains active; commit this completed round and recheck the inbox on resumption.
+The reviewed Claude text and eight receipt files remain unchanged against their [[commentary/wall-return-channel-2026-09-09/provenance|archived hashes]]. No new inbox material was found and no live source was deleted. The new mathematical results and checkpoint received independent actual-text audits; no simulations were run. Commit this completed round and recheck the inbox on resumption. The goal remains active.

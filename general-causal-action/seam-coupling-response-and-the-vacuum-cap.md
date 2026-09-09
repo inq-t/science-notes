@@ -221,6 +221,87 @@ the complete score is equivalently
 \]
 Both vacuum caps, endpoint half-actions, all interior actions and the derivative of \(\lambda_s^{-N}\) are present. Source differentiation therefore uses covariance with this complete score. An additional conditioning or adjoining-block normalization subtracts its conditional mean; it cannot discard either cap. This gives an exact finite-source calculation for comparing the seam effect before and after the replica integration.
 
+## The second variation retains the normalization contact term
+
+All derivatives below are at fixed finite graph and fixed temporal kernel. Put
+\[
+\chi_s=\partial_s^2\log\lambda_s,\qquad
+g_s(x)=\operatorname{Var}_{P_s(x,\cdot)}(w_s).
+\]
+Then \(\pi_sg_s=\chi_s\) by (SV15). Differentiating (SV3), applying (SV14) to the fixed argument \(w_s\), and using
+\(\partial_s\pi_sV=-\chi_s\), gives
+\[
+\boxed{
+(I-P_s)\dot u_s=g_s-\chi_s,\qquad
+\pi_s\dot u_s=-2\pi_s(u_s^2).}
+\tag{SV17}
+\]
+The second equality differentiates \(\pi_su_s=0\), including
+\(\partial_s\pi_s=2u_s\pi_s\). Thus
+\[
+\dot u_s=(I-P_s)^{-1}(g_s-\chi_s)-2\pi_s(u_s^2).
+\]
+The inverse in this formula acts only on the centered function \(g_s-\chi_s\). The subtraction is the scalar fixed by normalization; changing it changes the second source response.
+
+Write \(\mathcal L_{s,N}=\partial_s\log d\Gamma_{s,N}\) for the complete score in (SV16). For \(N\ge1\),
+\[
+\boxed{
+\partial_s\mathcal L_{s,N}
+=\dot u_s(x_0)+\dot u_s(x_N)-N\chi_s.}
+\tag{SV18}
+\]
+There are \(N\) full seam weights after the endpoint halves are counted. The negative contact term is the derivative of the actual leading normalization. A positive transition Fisher information therefore does not imply that every history observable has positive second response.
+
+For a fixed bounded real source \(F\), use the raw stationary moments
+\[
+C_N(s)=\mathbb E_{\Gamma_{s,N}}[F(X_0)F(X_N)]
+=\langle F,P_s^NF\rangle_{\pi_s}.
+\]
+Their derivatives are
+\[
+\boxed{
+\begin{aligned}
+C_N'&=\mathbb E[F(X_0)F(X_N)\mathcal L_{s,N}],\\
+C_N''&=\mathbb E\!\left[
+F(X_0)F(X_N)
+\{\mathcal L_{s,N}^2+\dot u_s(X_0)+\dot u_s(X_N)-N\chi_s\}
+\right].
+\end{aligned}}
+\tag{SV19}
+\]
+At \(N=0\), instead use
+\(C_0=\pi_s(F^2)\),
+\(C_0'=2\pi_s(F^2u_s)\), and
+\(C_0''=\pi_s[F^2(4u_s^2+2\dot u_s)]\).
+These are raw moments of the fixed source. Differentiating a separately centered covariance requires differentiating its subtracted mean square as well.
+
+The oriented innovation norm, surplus and their normalized quotient are
+\[
+D_k=C_0-C_{2k},\qquad
+S_k=C_0-2C_{2k}+C_{4k},\qquad
+\mathfrak c_k(F)=\frac{S_k}{D_k}\quad(D_k>0).
+\]
+Their coefficients cancel \((\pi_sF)^2\) identically, so these raw-moment formulas already include the moving centering required by the physical vacuum complement. Differentiation gives
+\[
+\boxed{
+\mathfrak c_k'
+=\frac{S_k'-\mathfrak c_kD_k'}{D_k},\qquad
+\mathfrak c_k''
+=\frac{S_k''-\mathfrak c_kD_k''-2\mathfrak c_k'D_k'}{D_k}.}
+\tag{SV20}
+\]
+Neither sign follows from \(\chi_s\ge0\).
+
+In the useful special case \(C_0(s)=1\), \(P_0F=\alpha F\), and all \(C_N'(0)=0\),
+\[
+\boxed{
+\mathfrak c_k''(0)=
+\frac{C_{4k}''(0)-(1+\alpha^{2k})C_{2k}''(0)}
+{1-\alpha^{2k}}.}
+\tag{SV21}
+\]
+[[adjacent-wilson-plaquette-and-the-chronological-surplus|The adjacent Wilson plaquette]] satisfies these conditions while its evolved source leaves the original region. [[finite-seam-response-and-the-two-spin-surplus|The finite seam-sign control]] separately exhibits opposite source responses under the same nonnegative seam deformation and distinguishes a regional quotient from the full-source floor.
+
 ## The relation to seek
 
 The elementary identity is (SV3): the seam action forces its vacuum response through the existing chronology. A useful uniform theorem would control the complete marked response of this forced change under adjacent-block sewing, including both caps, the changed endpoint law and the separator channels. That theorem must act on the oriented innovation carrier of [[oriented-innovation-and-finite-temporal-repair|OI]], rather than only on spatial gradients or selected seam eigenmodes.
