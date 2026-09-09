@@ -233,4 +233,4 @@ All coefficient subscripts here denote ordinary powers of \(h\); a second deriva
 \Delta_L(g)=\sqrt{\kappa g}\,\delta+\kappa\delta_2+o_L(\kappa)
 \tag{NV16}
 \]
-when the required expansion is realized. The values, signs and \(L\)-dependence of \(\delta_2\), \(\ell\) and the complete source coefficient must still be calculated from the actual jets. The fixed-patch construction supplies neither constants uniform as \(\lambda_{\min}\to0\) nor an exchange of spatial-size and confinement limits.
+when the required expansion is realized. [[four-face-gap-shift-and-the-complete-source-response|The four-face evaluation]] computes \(\delta_2\), \(\ell\) and the complete source coefficient exactly from the actual jets. Both the gap and normalized susceptibility corrections are negative there. Their general spatial dependence remains to be evaluated. The fixed-patch construction supplies neither constants uniform as \(\lambda_{\min}\to0\) nor an exchange of spatial-size and confinement limits.

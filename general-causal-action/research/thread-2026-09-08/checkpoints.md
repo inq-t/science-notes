@@ -1,85 +1,76 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and its complete physical source carrier. Round 23 constructs the actual nonlinear scalar-source expansion, separates a gap shift from source leakage, and proves that shared-edge cubic transitions survive on four faces. The next calculation evaluates the full four-face coefficients from the explicit jets. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and its complete physical source carrier. Round 24 evaluates the actual four-face nonlinear response exactly: the gap correction is negative, while the original scalar source can suggest greater rigidity. A fixed oriented observable removes the leading spectral redistribution and exposes that same gap correction. The next test concerns uniform remainder control on growing patches. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 23, 2026-09-09
+## Active conjecture — round 24, 2026-09-09
 
-**Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At physical \(\ell=ka_t>0\),
+**Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical \(\ell=ka_t>0\),
 \[
 A=P^k,\quad R=I-A^2,\quad
 \delta_+f=f(X_0)-(Af)(X_{-k}),\quad
 \mathcal K_\parallel\delta_+=\delta_+A.
 \]
-Seek a composition-derived \(0<c<1\) with
+Seek a composition-derived \(0<c<1\) such that
 \[
 V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
 on every centered physical innovation through continuum and infinite-volume limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implying \(H\ge-\log(1-c)/(2\ell)\) on its complement. Finite boundary-word positivity remains an allowed mechanism.
 
-## Strongest consequence: the first nonlinear source coefficient is determined
+## Strongest consequence: a fixed counterprobe separates gap and source weight
 
-At a fixed isolated planar \(L\times L\) patch, keep \(\kappa>0\), put
+Use the isolated \(L=2\) planar patch, with twelve raw edges and Gauss invariance at all nine vertices. This is distinct from the earlier nine-edge three-face corner. Keep \(\kappa>0\), equal magnetic strength \(g\), and
 \[
-h=(\kappa/g)^{1/4},\qquad E=\sqrt{\kappa g},\qquad
-c_L=2\sqrt{4-4\cos\frac{\pi}{L+1}},
+h=(\kappa/g)^{1/4},\qquad E=\sqrt{\kappa g},\qquad c_2=2\sqrt2.
 \]
-and retain PP12's compact source \(\mathcal B_L=|\sum_pv_{11}(p)\mathbf q_p|^2\), now with the specified comb connectors.
 
-[[general-causal-action/compact-source-normalization-and-the-nonlinear-return|CS1–14]] proves the **actual fixed-patch** expansions
+[[general-causal-action/four-face-gap-shift-and-the-complete-source-response|FF1–12]] gives the actual compact-theory gap
 \[
-\frac{\Delta_L(g)}E=c_L+h^2d_L+O_L(h^4),\qquad
+\frac{\Delta_2(g)}E=c_2+h^2d_2+O(h^4),\qquad
+\boxed{d_2=-\frac5{32}+\frac{3\sqrt2}{56}-\frac{5\sqrt3}{48}<0.}
+\]
+The [[general-causal-action/four-face-direct-kinetic-and-potential-correction|direct metric, Haar and magnetic calculation]] has positive gap correction. The [[general-causal-action/four-face-cubic-response-and-source-leakage|virtual cubic transitions]] reverse its sign. All raw rows and degree-three and degree-five virtual channels are retained. Independent exact Hermite and Wick calculations agree. The negative correction is relative to the harmonic value; it does not mean that the absolute gap decreases as \(g\) increases.
+
+For the original compact comb source \(\mathcal B=|Q_0|^2\), actual centering and variance normalization give
+\[
 E\frac{\mathcal X_{\mathcal B}}{\operatorname{Var}(\mathcal B)}
-=\frac1{c_L}+h^2S_{2,L}+O_L(h^4).
+=\frac1{c_2}+h^2s_2+O(h^4),
 \]
-The scaled compact source has norm \(O_L(h^{-2})\); sufficiently accurate vacuum quasimodes pay that loss before centering and normalization. The reduced Poisson equation and finite spectral clusters also return its two-point covariance and innovation coefficients. No inverse of an unknown physical limiting gap is assumed.
+\[
+s_2=-\frac{33517}{87808}+\frac{109\sqrt2}{21952}
++\frac{53\sqrt3}{384}<0.
+\]
+Its normalized susceptibility falls despite the negative gap correction. NV's identity
+\[
+s_2=-d_2/c_2^2+
+\langle\ell_2,(K_{\rm osc}^{-1}-c_2^{-1}I)\ell_2\rangle
+\]
+explains why: leading source leakage reaches two higher scalar energies. Its total squared coefficient is \(2\sqrt2/49+\sqrt3/2\). The source-derived energy \(\operatorname{Var}/\mathcal X\) therefore has a positive correction while the true gap has a negative one. The original innovation quotient's first correction is positive at short scaled durations and negative at long ones; these are limits of the coefficient after the fixed-duration expansion.
 
-[[general-causal-action/nonlinear-scalar-source-and-the-vacuum-response-coefficient|NV1–16]] gives the complete coefficient:
+[[general-causal-action/four-face-oriented-source-and-the-gap-following-probe|OS1–9]] constructs a distinct fixed bounded gauge-invariant observable:
 \[
-\boxed{S_{2,L}=-\frac{d_L}{c_L^2}
-+\langle\ell_L,(R_{\rm osc}-c_L^{-1}I)\ell_L\rangle.}
+\boxed{\mathcal B^\sharp
+=|Q_0|^2-\frac27Q_0\cdot(Q_1\times Q_2)
+-Q_0\cdot(Q_1\times Q_3).}
 \]
-Here \(d_L\) is the actual gap shift, \(R_{\rm osc}\) is the known harmonic reduced inverse, and \(\ell_L\) is the first difference between the normalized source vector and the changing first-excitation vector. Its squared escaped weight is \(h^2\|\ell_L\|^2+o_L(h^2)\). The leakage term is nonpositive. Direct second-order source-shape terms cancel from this normalized single-mode response, but remain in its unnormalized covariance. Mean, variance and actual vacuum subtraction are all retained.
-
-## Two exact controls prevent false simplifications
-
-[[general-causal-action/one-plaquette-nonlinear-source-response|OP1–14]] evaluates \(L=1\) for the actual \(B=\sin^2\theta\). With \(\delta=h^2\),
-\[
-\frac{\Delta_g}E=4-\frac54\delta-\frac{41}{128}\delta^2+O(\delta^3),
-\]
-\[
-\frac{\mathcal X_g}{\operatorname{Var}(B)}-\frac1{\Delta_g}
-=-\frac{45}{512E}\delta^2+O(\delta^3/E).
-\]
-The source transfers weight \(45\delta^2/64\) into the next physical excitation. At fixed scaled duration \(\tau>0\), its actual innovation quotient exceeds the gap benchmark by
-\[
-\frac{45}{64}\delta^2e^{-8\tau}(1-e^{-16\tau})+O_\tau(\delta^3).
-\]
-Thus a better selected-source quotient can reflect changed spectral weight. The first gap correction itself is negative.
-
-[[general-causal-action/comb-face-transport-and-the-first-nonlinear-jet|FJ1–19]] gives every raw electric row, including prefix transport and conjugation tails. This particular face change preserves product Haar exactly. After its density transformation,
-\[
-\widehat H=\mathcal O_L+hV_1+h^2V_2+\cdots .
-\]
-At \(L=2\), \(V_1\Omega\ne0\) and \(V_1(f_L\Omega)\ne0\), although \(V_1f_L=0\). The cubic virtual terms must remain. A row-by-row exact coefficient proves nonvanishing; parity only removes their linear diagonal expectations. Changing physical connectors may change the nonlinear probe, so the comparison paths must stay fixed.
-
-CS11–14 supplies conservative bounds
-\[
-|d_L|\le C(1+L)^{19},\qquad
-\|\ell_L\|\le C(1+L)^{10},\qquad
-|S_{2,L}|\le C(1+L)^{21}.
-\]
-They bound coefficients, not the complete remainder. Making \(h(1+L)^{10}\) small controls the relative displayed first term; it is not yet a joint-limit validity theorem.
+The \(Q_m\) are the specified orthogonal face combinations. The two coefficients follow from the actual response and are independent of \(g\). They cancel the order-\(h\) leakage vector, leaving escaped weight \(O(h^4)\). Consequently its normalized susceptibility correction is \(-d_2/8>0\), and its fixed-scaled-duration innovation correction is \(2\tau d_2e^{-2\tau c_2}<0\). The Hamiltonian, vacuum, connectors and clock are unchanged. This is a complete-source counterprobe, not a new mass mechanism.
 
 ## Weakest assumption and next executable test
 
-The uniform innovation bound remains conjectural. PP's harmonic coefficient still falls as \(L^{-1}\); PR's complete finite-corner rotor return and CP's separate coupling-path theorem retain their scopes. Multiplying local attenuation factors remains rejected.
+The physical-limit surplus is still conjectural. [[general-causal-action/compact-source-normalization-and-the-nonlinear-return|CS1–14]] realizes the expansions only at each fixed patch, with coefficient bounds
+\[
+|d_L|\le C(1+L)^{19},\qquad
+|S_{2,L}|\le C(1+L)^{21}.
+\]
+Their constants do not control the complete remainder or its onset.
 
-**Next:** evaluate \(d_2\), \(\ell_2\) and \(S_{2,2}\) exactly from FJ12–17 and NV11–13. Retain the density correction, virtual cubic transitions and actual comb source. Reduced inverses close on finite invariant Hermite spaces; the coefficient should be an exact Gaussian contraction, not a simulation. Decide whether the first shared-patch correction raises the true gap, merely changes source weight, or does both.
+**Next:** test [[general-causal-action/uniform-marked-well-return-and-the-growing-patch-test|uniform marked well return]], a named technical conjecture within OI. Seek uniform fourth-order remainders bounded by \(Ch^4(1+L)^{39}\) for the scaled gap and \(Ch^4(1+L)^{41}\) for this normalized source response when \(h(1+L)^{10}\) is small. These exponents are proposed bounds, not established growth rates.
 
-Then seek a quantitative spatial remainder estimate before interpreting the coefficient at a crossover scale. [[general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap|CV8–14]] owns complete mixed-source assembly; [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale descent]] owns the eventual crossover obligation. A fitted positive mass term would not test the active law.
+Start with uniform low-cluster separation and vacuum localization, retaining the scaled compact source's norm loss. Prove those bounds or identify which dependence defeats the proposed window before computing further isolated patch coefficients. Conditionally, the window preserves the harmonic \(L^{-1}\) coefficient in scaled energy. At fixed \(\kappa\), its absolute gap grows; this does not decide the fixed-coupling infinite-volume gap or the fixed-physical-duration innovation conjecture. [[general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap|Complete mixed-source assembly]] and [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale descent]] retain the eventual crossover obligations.
 
 ## Target and source cursor
 
-Nontrivial four-dimensional Yang–Mills for every compact simple group, its axiomatic/ultraviolet return and infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization. CM, SB, AP, TA, HV, NC and the paired-boundary controls keep their prior scopes.
+Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
 
-The live Claude review and eight receipt files were rechecked and remain unchanged against their archived hashes. Independent actual-text audits and scoped checks support this round. No simulations were run. Commit the completed round and recheck the inbox on resumption. The goal remains active.
+PR's complete finite-corner rotor return, CP's different coupling path, PP's harmonic spatial softening, and CM, SB, AP, TA, HV, NC and paired-boundary controls retain their scopes. Multiplying local attenuation factors remains rejected.
+
+The live Claude review and eight receipt files remain unchanged against their archived hashes. Independent actual-text audits and exact arithmetic receipts support this round; no simulations were run. Commit the completed round and recheck the inbox on resumption. The goal remains active.
