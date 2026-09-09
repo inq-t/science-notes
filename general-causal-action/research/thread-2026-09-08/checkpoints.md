@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and source sewing from the full prepared amplitude. Round 39 constructs actual normalized chronological filters whose scaled innovation floor closes, despite the conditional influence's finite susceptibility. It also supplies an exact closed-cube face chart for the next constitutive test. Next derive the cube's original kinetic action and first joint non-Abelian source response. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and source sewing from the full prepared amplitude. Round 40 derives the cube's complete raw-edge dynamics, a signed non-Abelian joint source response, and its return in the actual compact vacuum and chronology. The bracket mark reaches the existing lowest neutral level. Next sew two cubes across a face, retaining the shared terms once and testing the interior incidence. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 39, 2026-09-09
+## Active conjecture — round 40, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Retain the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical duration \(\ell=ka_t>0\), put
 \[
@@ -16,113 +16,96 @@ V_Q(\xi)-C_{\rm lag}(\xi)\ge c\|\xi\|^2
 \]
 on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement.
 
-The subordinate construction remains **source sewing by the Lie bracket, with the full prepared character retained**. The new closed-cell test extends that construction; it is not a second foundation. Positive conditional character response alone has now failed as a uniform scaled chronological certificate.
+The subordinate construction remains **source sewing by the Lie bracket, with the full prepared character retained**. The cube calculation develops this construction. Its source relation is an output of the declared words and dynamics; selection of those inputs and physical-limit rigidity remain conjectural.
 
-## The conditional influence has soft spectral support
+## The original edge dynamics fix the cube law
 
-Keep [[general-causal-action/equal-character-hessians-and-the-nonlinear-source-discriminator|EH's fixed three-block \(SU(2)\) representation and preparation family]], whose trace \(9\) and quadratic index \(15/2\) remain fixed while its full weight changes. Use
+[[general-causal-action/closed-cube-face-words-and-the-prepared-amplitude|CW]] retains twelve edges, eight vertices, five independent Haar loop coordinates and all six based face words:
 \[
-n=L+1,\qquad h=(\kappa/(15g))^{1/4},\qquad
-E=\kappa h^{-2},\qquad
-0<\delta=hn^{10}\le\eta_I,\qquad \varepsilon\in I\Subset(-1/14,1/16).
+(F_1,\ldots,F_6)=(u,v,w,x,y,v^{-1}w^{-1}xuy).
 \]
-The original GM mark and every complete exterior face remain in the conditional influence \(f_h=(F_\mu-\mathbb E_\mu F_\mu)v_h\).
-
-[[general-causal-action/conditional-influence-diagonal-and-bulk-spectral-measure|DI1–16]] returns its actual diagonal covariance uniformly over scaled time and in absolute time integral:
+[[general-causal-action/closed-cube-raw-edge-kinetic-sewing|CK1–12]] now derives the complete exact Casimir
 \[
-|d_h(s)-d_{0,L,r}(s)|
-\le C_Ihn^{11/2}(1+s/n)e^{-c_Is/n},\qquad
-\|d_h-d_{0,L,r}\|_1\le C_Ihn^{13/2}.
+\mathsf C_{\rm raw,Q}=-\sum_{e=1}^{12}\sum_a\mathcal D_e(e_a)^2
 \]
-The harmonic diagonal is
+on \(L^2(G^5)^{\operatorname{Ad}G}\), including every tree transport. The independent chord fields ensure ellipticity on the smooth cover; the shared-edge rows remain coupled.
+
+Use GM's fixed compact connected simple group data, faithful \(\rho\), positive commuting \(A\), and
 \[
-d_{0,L,r}(s)=120\sigma_{L,r}^8
-\bigl[(C_L^{-1}e^{-sC_L})_{rr}\bigr]^4,\qquad
-C_L=\sqrt{4I-\operatorname{Adj}_L}.
+h=\left(\frac{\kappa}{2I_Ag}\right)^{1/4},\qquad E=\kappa h^{-2}.
 \]
-The inverse covariance factor comes from conditioning on the full exterior.
-
-For a face receding from the boundary, the probability-normalized bulk spectral measure is \(\nu_\infty=m_\infty^{*4}\), where
+The harmonic kinetic matrix \(A_5\) is CK6, and the magnetic Hessian is
 \[
-m_\infty=\sigma_\infty\,\omega_*
-\left(\frac{d^2k}{(2\pi)^2\omega(k)}\right),\qquad
-\omega(k)=\sqrt{4-2\cos k_1-2\cos k_2}.
+G_5=I+ll^{\mathsf T},\qquad l=(1,-1,-1,1,1)^{\mathsf T}.
 \]
-An elementary polar calculation gives
+Their product has eigenvalues \(4,4,4,6,6\). Thus the mode frequencies are \(2,2,2,\sqrt6,\sqrt6\), the vacuum energy is \(d(3+\sqrt6)\), and the first physical harmonic level is four. Its six-dimensional scalar cluster consists of the symmetric pairings of the three slow modes. A product of independently chosen face rotors is not this Hamiltonian.
+
+## The first bracket response has a forced sign pattern
+
+[[general-causal-action/closed-cube-dependent-face-and-oriented-source-jet|CD1–13]] fixes
 \[
-\boxed{
-\nu_\infty'(\lambda)
-=\frac{\sigma_\infty^4}{96\pi^4}\lambda^3+O(\lambda^5),\qquad
-d_\infty(s)=\frac{15\sigma_\infty^8}{2\pi^4}s^{-4}+O(s^{-6}).}
+Z=(-V,-W,X,U,Y),\quad B_{\rm br}=\frac12\sum_{i<j}[Z_i,Z_j],\quad
+\log F_6=h\sum_iZ_i+h^2B_{\rm br}+O(h^3).
 \]
-Its inverse-energy moments are finite exactly for powers \(0\le p<4\). Finite susceptibility therefore coexists with support reaching zero.
+The dependent face contributes a cubic magnetic term
+\(\frac14\sum_{i<j<k}Q(Z_i,[Z_j,Z_k])\) to the order-\(h\) scaled operator. Its sign is not a positive energy contribution.
 
-[[general-causal-action/chronological-cyclic-sources-and-the-innovation-floor|CS1–10]] proves, for the complete chronological carrier \(\mathscr C_f=\overline{\operatorname{span}\{e^{-sK}f:s\ge0\}}\),
+Keep the original bounded GM source and set
 \[
-\inf_{0\ne u\in\mathscr C_f}
-\frac{\langle u,(1-e^{-2aK})^2u\rangle}
-{\langle u,(1-e^{-2aK})u\rangle}
-=1-e^{-2a\lambda_f},
+\zeta=(-q(v),-q(w),q(x),q(u),q(y)),\qquad
+R_{\rm br}=2q(F_6)-2\sum_i\zeta_i,
 \]
-where \(\lambda_f\) is the essential lower edge of the source's spectral measure. Bulk heat filters have quotient \(5a/T+O_a(T^{-2})\). A single original-source quotient cannot replace its closed chronological family.
-
-## The soft filters exist in the actual compact theory
-
-[[general-causal-action/conditional-influence-soft-band-and-chronological-filters|SF1–10]] goes beyond weak spectral return. Choose \(r_L=(\lfloor n/2\rfloor,\lfloor n/2\rfloor)\). The influence's overlap with the normalized fourth-Hermite state of the lowest spatial mode is at least \(c n^{-2}\). The actual centered generator defect then proves
 \[
-\boxed{
-\|\mathbf1_{(0,20/n]}(K_h)f_h\|^2\ge c_In^{-4}.}
+M_{ij}=Q(R_{\rm br},4[\zeta_i,\zeta_j]),\qquad
+M_*=\frac12\sum_{i<j}M_{ij}.
 \]
-No spectral gap at the cutoff is assumed.
+Then \(h^{-4}M_*\to|B_{\rm br}|^2\). These scalar marks vanish identically after Abelianization; \(R_{\rm br}\) alone need not, because \(q\) is nonlinear.
 
-For the explicit original-clock filter
+[[general-causal-action/closed-cube-bracket-source-and-the-actual-vacuum-return|CQ1–16]] upgrades CD's Gaussian contractions to the actual compact vacuum:
 \[
-T_n=\tfrac34n\log n,\qquad z_n=e^{-T_nK_h}f_h,\qquad
-u_n=z_n/\|z_n\|,\qquad R_a=1-e^{-2aK_h},
+h^{-4}\mathbb E M_*
+=F_Q\left(2+\frac{2\sqrt6}{3}\right)+O(h),\qquad
+F_Q=\sum_{abc}Q(e_a,[e_b,e_c])^2>0.
 \]
-the actual bounds are
+The \(12\) and \(15\) pair coefficients are respectively
+\(F_Q(1+\sqrt6/6)\) and \(F_Q(-1+\sqrt6/6)\). Two of the ten leading channels vanish; CD owns the full table. The aggregate is positive, but individual contacts do not all reinforce it. Source-compatible coordinate changes preserve these marked expectations. Reversing the comparison word while retaining its reference marks changes the law.
+
+## The actual chronology reaches an existing level
+
+CQ localizes the unique compact well and uses fifth-order vacuum quasimodes before multiplying the \(h^{-4}\) marks. Actual source-vector error is \(O(h)\). With
 \[
-\boxed{
-\|z_n\|^2\ge c_In^{-34},\qquad
-\langle z_n,R_az_n\rangle\ge c_{I,a}n^{-35},\qquad
-\mathfrak q_a(u_n)=\Theta_{I,a}(n^{-1}).}
+f_h=(h^{-4}M_*-\mathbb E h^{-4}M_*)v_h,\qquad
+f_0=(|B_{\rm br}|^2-\mathbb E_\Omega|B_{\rm br}|^2)\Omega,
 \]
-The infimum on the entire actual cyclic carrier has the same order. These are normalized physical source vectors with controlled denominators, not a conclusion drawn solely from disappearing spectral weight or weak convergence.
-
-The clock distinction is decisive. At fixed physical \(\ell>0\), every centered physical vector instead satisfies
+the centered semigroup comparison gives
 \[
-q_{\rm phys}(\ell)\ge
-1-\exp[-2c_I\kappa\ell/(h^2n)]\longrightarrow1,\qquad
-T_n/E\longrightarrow0.
+\left|\langle f_h,e^{-sK_h}f_h\rangle
+-\langle f_0,e^{-sK_0}f_0\rangle\right|
+\le Ch(1+s)e^{-cs},\qquad s\ge0,
 \]
-At fixed \(\kappa\), physical energies diverge on this confinement trajectory. The result is neither a physical mass-gap counterexample nor a finite-energy continuum limit. The full physical-limit OI conjecture remains open.
+and an \(O(h)\) absolute time-integral error.
 
-## The next law must retain a closed-cell relation
-
-The weakest link remains spatial composition that forces rigidity through the required physical limits. More planar conditional-response estimates will not remove the exhibited scaled soft family. The next test changes the cell composition being examined.
-
-[[general-causal-action/closed-cube-face-words-and-the-prepared-amplitude|CW1–8]] fixes an exact cube graph with twelve edges, eight vertices and five independent loop coordinates. A stated tree and common root give
+The centered quartic mark retains a quadratic Hermite component. Its antisymmetric mode matrix has rank four and one-dimensional kernel, so it cannot miss every direction in the three-dimensional slow space. Consequently \(f_0\) has nonzero energy-four weight. The actual source cyclic edge tends to four, and at fixed scaled duration \(a>0\),
 \[
-(F_1,\ldots,F_6)=(u,v,w,x,y,v^{-1}w^{-1}xuy),
-\qquad d\mu=du\,dv\,dw\,dx\,dy.
+\inf_{\mathscr C_{f_h}\setminus0}
+\frac{\langle u,(1-e^{-2aK_h})^2u\rangle}
+{\langle u,(1-e^{-2aK_h})u\rangle}
+\longrightarrow1-e^{-8a}.
 \]
-Every original based face mark survives. For the supplied character cost \(W_A\), the magnetic multiplier contains all six factors
-\[
-\prod_{z\in\{u,v,w,x,y\}}e^{-sgW_A(z)}
-\ e^{-sgW_A(v^{-1}w^{-1}xuy)}.
-\]
-This is a magnetic factor, not the actual vacuum or full transfer.
+This reaches the existing first neutral level; it supplies no additional spectral floor. The Abelian mark is zero, so its normalized quotient is undefined. Physical duration is \(a/E\), and all constants here concern one fixed cube.
 
-**Conjectural construction law:** closed-cell source sewing evaluates the complete marked boundary with the same preparation and common coupling, with no independently adjustable sixth-face parameter or extra cell potential. CW supplies the exact word and Haar part; the kinetic and constitutive response remain to be worked out.
+## Weakest assumption and next decisive test
 
-Derive the twelve original edge Casimirs on these five loop coordinates, retaining their coupled derivatives and all common-root connectors. Then derive the first source-resolved joint term that disappears under Abelianization. Test its sign and whether it survives a source-compatible change of coordinates; do not prescribe a positive mass contribution. Keep the dependent sixth-face factor through both elimination orders. Order agreement is Fubini consistency, not itself selection.
+The weakest link remains a spatial law forcing rigidity through the required physical limits. A single cube boundary and a spherical cellulation with identical edges, attaching words, costs, marks and clock have exactly the same Hamiltonian and every marked chronology. The new bracket response cannot distinguish their ambient interpretations.
 
-The cube graph is planar as an abstract graph; the closure is also the sphere's face relation. Three-dimensional bulk claims require the declared cell incidence, shared cubes and temporal slabs. [[general-causal-action/reciprocal-coefficients-and-the-field-gap-test|FG's quadratic control]] already retains soft modes despite linear incidence constraints. The test must identify content beyond that control, or reject the proposed additional mechanism.
+**Next construction:** join two cubes across one face. There are twelve vertices, twenty edges, eleven distinct plaquettes, nine independent graph cycles and two ordered cell relations. The ten exterior plaquettes form a sphere. The additional interior plaquette makes each of its four edges incident to three faces, supplying the new composition test.
 
-## Binding controls, targets and source cursor
+Derive a common-root chart, compatible cell relations and exact marked amplitude. Count the shared face cost and its four electric edges once; adding the two complete cell Hamiltonians would double them. Retain the actual temporal caps and all source marks through either elimination order. Then derive a joint source response involving both cells and the interior plaquette. The control omits only its magnetic cost, retaining its word as the same source mark and all twenty electric edges. Separate Abelian incidence from a bracket contribution. Fubini consistency alone is not selection, and no positive gap term is prescribed.
 
-Retain [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's full exterior response]] and [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]] when temporal slabs are attached. [[general-causal-action/conditional-character-chronology-and-uniform-temporal-tails|TP's mixed profile]], [[general-causal-action/character-response-and-the-bulk-vacuum-normalization|BV's normalization response]] and the full prepared character remain fixed comparison data. BV still has additive scalar freedom.
+## Binding controls and target boundary
 
-Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, representation, incidence, four-dimensional sector and temporal realization inputs remain declared. Cosmological returns must use the same amplitude and retain its normalization.
+The [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|round-39 compact planar filters]] still have scaled OI quotient of order \(1/(L+1)\) on \(h(L+1)^{10}\le\eta_I\), despite finite local susceptibility. Their physical energies diverge at fixed \(\kappa\); this is not a finite-energy continuum trajectory or a physical gap counterexample. Retain [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's inherited exterior]], [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's caps and lag]], the full prepared character, and [[general-causal-action/character-response-and-the-bulk-vacuum-normalization|BV's same-amplitude normalization response and remaining additive scalar freedom]].
 
-All nine Claude inbox files still match their preserved hashes; no new commentary arrived. The results are analytic and independently reviewed. Recheck the inbox on resumption. The goal remains active.
+Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, representation, incidence, four-dimensional sector and temporal realization remain declared. Cosmological returns must use the same amplitude and normalization.
+
+All nine Claude inbox files match both their preserved hashes and archive; no new commentary arrived. This round used analytic proofs and small exact matrix checks, with independent reviews. Recheck the inbox on resumption. The goal remains active.
