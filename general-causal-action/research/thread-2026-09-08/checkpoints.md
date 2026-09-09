@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and its complete physical source carrier. Round 21 evaluates the full corner Hamiltonian coefficient and rejects multiplying local attenuation factors to bound connected response. The Abelian strong-seam limit is now proved. The next test is the corresponding non-Abelian quantum return with its actual vacuum and every slow mode retained. The [[general-causal-action/research-schema|full Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and its complete physical source carrier. Round 22 proves the full strong-seam rotor return, including the actual vacuum and observable histories. Comparable confinement of all faces and growing planar patches then delimit what that finite remainder supplies. The next test is the nonlinear response of the explicit collective scalar source. The [[general-causal-action/research-schema|full Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 21, 2026-09-09
+## Active conjecture — round 22, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation, stated in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At physical \(\ell=ka_t>0\),
 \[
@@ -16,68 +16,53 @@ V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
 on every centered physical innovation through continuum and infinite-volume limits. Equivalently \(R^2\ge cR\), with the already proved vacuum-only kernel. This would imply \(H\ge-\log(1-c)/(2\ell)\) on the vacuum complement. Finite boundary-word positivity remains an allowed mechanism.
 
-## Strongest consequence: absolute reduction does not compose multiplicatively
+## Strongest consequence: a complete physical remainder is forced
 
-[[general-causal-action/corner-hamiltonian-and-the-complete-fusion-response|CH1–14]] evaluates the nine-edge corner under the matched physical calibration
-\[
-\mathsf H=\frac{4\epsilon}{3}\sum_{\text{raw }e}j_e(j_e+1)
-+g_1(2-G_1)+g_2(2-G_2).
-\]
-The complete source-face odd sector has free bottom \(4\epsilon\), simple at \(F=\chi_{1/2}(U)\). Keeping the actual vacuum subtraction,
-\[
-\boxed{\epsilon^3\partial_{g_1}^2\partial_{g_2}^2 E_-(0)
-=-\frac{299687}{5885880}.}
-\]
-Five exact middle channels exhaust this coefficient. Their squared weights are \((49,75,75,27,54)/784\), with excitation denominators \((2,22/3,22/3,22/3,10)\epsilon\). The same-seam cross pairing vanishes by exclusive-edge spin labels; the disconnected term remains. Independent spin-network and [[general-causal-action/corner-hamiltonian-invariant-polynomials|quaternion-Casimir]] calculations agree.
+At the fixed nine-edge \(SU(2)\) corner, set both seam strengths to \(g\), keep \(\kappa=4\epsilon/3>0\) fixed, and initially leave the central magnetic face off. The actual vacuum \(\psi_g(V,W)\) is independent of \(U\). Thus \(J_gf=f(U)\psi_g\) is an exact Haar class-function isometry, and \(\mathsf K_g=\mathsf H_g-E_\Omega(g)\) has the exact vacuum.
 
-The absolute ratio to the calibrated Abelian coefficient is approximately \(0.23008\). But the single-seam excitation derivatives are already reduced: \(-1/(14\epsilon)\) for \(SU(2)\), versus \(-1/(6\epsilon)\) for \(U(1)\). For
+[[general-causal-action/strong-seam-resolvent-and-the-physical-rotor|PR1–18]] proves
 \[
-D_i=-\partial_{g_i}^2E,\quad
-J=-\partial_{g_1}^2\partial_{g_2}^2E,\quad
-\mathcal M=\frac{\epsilon J}{D_1D_2},
+\boxed{\left\|(\mathsf K_g+z)^{-1}
+-J_g\bigl((10\kappa/3)C_U+z\bigr)^{-1}J_g^*\right\|
+\longrightarrow0,\qquad g\to\infty,\quad z>0.}
 \]
-[[general-causal-action/corner-response-and-the-failure-of-multiplicative-attenuation|MA1–10]] proves
+Three independent estimates close the proof:
+
+- [[general-causal-action/magnetic-completion-and-the-corner-representation-tail|MT9–12]] gives \(\mathsf K_g|_{\mathcal H_j}\ge(10\kappa/3)j(j+1)\), uniformly in all strengths and central representations. In particular \(10\epsilon/3\le E_-(g,g)\le4\epsilon\).
+- [[general-causal-action/corner-corrector-and-the-fixed-representation-return|CR1–12]] constructs exact isometries from the actual vacuum. For each fixed \(j\), their Rayleigh energies attain that bound with error \(O_j(\kappa(\kappa/g)^{1/4})\).
+- [[general-causal-action/corner-fast-vacuum-and-harmonic-separation|FH1–11]] expels every additional fixed-spin mode at scale \(\sqrt{\kappa g}\). The all-spin bound controls the remaining representation tail.
+
+Thus the **complete** finite physical gap tends to \(10\epsilon/3\). Direct vacuum compression gives \(4\kappa C_U\); the smaller returned coefficient requires the derivative corrector. Every bounded continuous physical source returns to its value at \(V=W=I\), with fixed positive-time vacuum histories. A central magnetic interaction of fixed strength \(\lambda\) returns to the same potential on the rotor, including its actual changed vacuum. No source or clock retuning is used.
+
+## Two assembly controls fix the scope of this theorem
+
+[[general-causal-action/three-face-confinement-and-the-coupling-path|CP1–12]] activates the central face at \(\lambda=rg\), with \(r>0\) fixed. All holonomies now share one confining well:
 \[
-\boxed{\frac{\mathcal M_{SU(2)}}{\mathcal M_{U(1)}}
-=\frac{299687}{239239}>1.}
+\Delta(g,r)\sim2\sqrt{\kappa g\,\eta_-(r)},\qquad
+\eta_-(r)=\frac{4r+3-\sqrt{16r^2-16r+9}}2.
 \]
-This readout is invariant under independent source rescaling and common energy-unit changes. It rejects bounding the joint correction by the product of the two observed local reductions. Splitting the shared seam edge into independent edges makes the quartic energy coefficient zero for both groups; the common incidence causes the tested connected effect.
+At equal strengths the coefficient is \(2\sqrt2\). Extrapolating the fixed-\(\lambda\) rotor would instead give \(2\sqrt{10/3}\). These are different coupling paths; the rotor theorem is not uniform there. The overlap \(\eta_-(r)=(10/3)r+O(r^2)\) is consistent.
 
-## A nonperturbative benchmark now follows from the same incidence
-
-[[general-causal-action/abelian-corner-and-the-strong-seam-return|The Abelian strong-seam theorem]] keeps the same Hamiltonian, sets both physical seam strengths to \(g\), and retains each complete central-flux sector \(n\). Completing its kinetic square gives
+[[general-causal-action/planar-patch-confinement-and-the-spatial-soft-mode|The planar-patch theorem]] extends the harmonic comparison to an isolated open \(L\times L\) square patch with Gauss law at every boundary vertex. For each fixed \(L\),
 \[
-E_n(g)=\frac{10}{3}\epsilon n^2+
-\mu_{n(1,-1)/3}(g)-\mu_0(g).
+\frac{\Delta_L(g)}{\sqrt{\kappa g}}\longrightarrow
+c_L=2\sqrt{4-4\cos\frac{\pi}{L+1}}
+\sim\frac{2\sqrt2\pi}{L+1}.
 \]
-The second term is an actual flat torus twist, not a freely removable fractional phase. Diamagnetism and a cutoff of the exact vacuum prove
-\[
-0\le E_n(g)-\frac{10}{3}\epsilon n^2
-\le C\epsilon\sqrt{\epsilon/g},
-\qquad g\ge\epsilon,
-\]
-uniformly in \(n\). The correction is exactly zero when \(n\) is divisible by three, and otherwise lies between zero and \(2\epsilon/3\). This bounds sector bottoms; it does not by itself control every excitation within the zero-flux sector.
+The face-incidence matrix is \(4I-\mathrm{Adj}\), and the first allowed excitation is a two-quantum scalar in its lowest spatial mode. Gauss averaging does not remove it. Its normalized oscillator source has susceptibility \(c_L^{-1}\) and innovation quotient \(1-e^{-2\tau c_L}\) at scaled duration \(\tau\).
 
-## Weakest assumption and next decisive test
+This disproves a volume-uniform positive coefficient multiplying \(\sqrt{\kappa g}\) in that family. It does not exchange the \(g,L\) limits, show a vanishing absolute fixed-coupling gap, or identify an isolated planar patch with a region's inherited three-dimensional vacuum.
 
-Simple multiplicative suppression is rejected. The broader uniform innovation estimate remains unproved. [[general-causal-action/strong-seam-corner-and-the-residual-rotor|SR1–7]] now asks what remains after both seam holonomies are strongly confined in the actual \(SU(2)\) theory.
+## Weakest assumption and next executable test
 
-Its vacuum is exactly \(\psi_g(V,W)\), independent of \(U\), so \(J_gf=f(U)\psi_g\) is a Haar class-function isometry. With \(\kappa=4\epsilon/3\) and \(\mathsf K_g=\mathsf H_g-E_\Omega(g)\), direct compression gives \(J_g^*\mathsf K_gJ_g=4\kappa C_U\). The derivative coupling to fast states must therefore be retained. The Euclidean normal matrix
-\[
-A_{\rm fast}=\begin{pmatrix}4&1\\1&4\end{pmatrix}
-\]
-and an exact ground-state commutator identity fix its candidate Schur correction. On class functions the proposed residual operator is \((10\kappa/3)C_U\).
+The uniform innovation bound remains conjectural. Incidence fixes the finite remainder but does not itself supply the required spatial constant. The earlier [[general-causal-action/corner-response-and-the-failure-of-multiplicative-attenuation|multiplicative attenuation mechanism]] also remains rejected.
 
-**Next executable target:** prove or refute
-\[
-\left\|(\mathsf K_g+z)^{-1}
--J_g\bigl((10\kappa/3)C_U+z\bigr)^{-1}J_g^*
-\right\|\longrightarrow0,\qquad g/\epsilon\to\infty,\ z>0.
-\]
-This tests additional slow modes as well as the compressed rotor. It would imply a complete finite-graph gap limit \(10\epsilon/3\). Establish localization, the fast excitation/corrector bounds and representation-tail control; the principal Schur calculation alone does not prove this quantum return. The central face still has zero magnetic coupling in this diagnostic family.
+**Next:** use the planar theorem's explicit scalar source to derive the first nonlinear correction to its complete vacuum covariance and susceptibility from the same compact Hamiltonian. Expand the raw kinetic form, Haar density, magnetic potential and marked source consistently; retain actual vacuum subtraction and mixed response. Determine the correction's dependence on \(L\) and the range in which the expansion controls the soft mode. An assumed size-independent mass correction would not decide this test.
+
+[[general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap|CV8–14]] owns the mixed conditional-source assembly, and [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|two-scale descent]] owns the eventual crossover obligation. Named nonlinear crossover conjectures may guide the calculation; the present result neither proves nor forbids their uniform physical return.
 
 ## Target and source cursor
 
-CM's finite spectral/vacuum return, SB's actual replica-interface ledger and the earlier AP, TA, HV, NC and paired-boundary controls retain their scopes. None supplies the required volume- and regulator-uniform estimate. Nontrivial four-dimensional Yang–Mills for every compact simple group, its axiomatic/ultraviolet return and infinite-volume physical gap remain unproved. The group, four-dimensional sector and current realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
+CM, SB, AP, TA, HV, NC and the paired-boundary controls retain their scopes. Nontrivial four-dimensional Yang–Mills for every compact simple group, its axiomatic/ultraviolet return and infinite-volume physical gap remain unproved. Group, four-dimensional sector and current realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
 
-The Claude review and eight receipt files remain unchanged against their archived hashes. Independent actual-text audits and exact arithmetic receipts support this round; no simulations were run. Commit the completed round and recheck the inbox on resumption. The goal remains active.
+The live Claude review and eight receipt files were rechecked and remain unchanged against their archived hashes. Independent actual-text audits and scoped structural checks validate this round; no simulations were run. Commit the completed round and recheck the inbox on resumption. The goal remains active.

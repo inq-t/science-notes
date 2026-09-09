@@ -1,8 +1,8 @@
 # Strong Seams and the Residual Corner Rotor
 
-The next corner test takes both magnetic seam strengths to infinity while retaining the same Hamiltonian and actual vacuum. The two seam holonomies are then confined near the identity, leaving the central holonomy as a possible slow rotor. Its predicted kinetic coefficient is fixed by the raw-edge incidence matrix: the fundamental energy would approach \(10\epsilon/3\). An exact vacuum compression and a Euclidean ground-state response identity support this candidate, but the complete non-Abelian quantum limit remains to be proved.
+The corner's two strongly confined seam holonomies leave a central rotor whose coefficient is fixed by the raw-edge incidence matrix. Direct compression into the actual vacuum misses a finite derivative-coupling correction. The complete quantum return, now proved in a separate module, retains that correction and gives the fundamental energy \(10\epsilon/3\).
 
-**Status: exact finite-vacuum compression and Euclidean response identity; conjectural \(SU(2)\) strong-seam return.** [[corner-hamiltonian-and-the-complete-fusion-response|The Hamiltonian corner]] owns the fixed law. [[corner-response-and-the-failure-of-multiplicative-attenuation|The connected-gain test]] rejects multiplying its local suppression factors. This test follows the complete response beyond a perturbative coefficient. It is a fixed spatial graph, with the central face still having zero magnetic coupling.
+**Status: exact finite-vacuum compression and Euclidean response identity; proved \(SU(2)\) strong-seam return.** [[corner-hamiltonian-and-the-complete-fusion-response|The Hamiltonian corner]] owns the fixed law. [[corner-response-and-the-failure-of-multiplicative-attenuation|The connected-gain test]] rejects multiplying its local suppression factors. This note owns the Schur calculation; [[strong-seam-resolvent-and-the-physical-rotor|the complete physical return]] owns the compact-group proof. The base test is a fixed spatial graph with zero central magnetic coupling.
 
 ## Keep the actual vacuum in the slow comparison
 
@@ -68,11 +68,11 @@ Indeed \(p_a\varphi=(i/2\kappa)\sum_b(A^{-1})_{ab}(H_f-E_f)x_b\varphi\), and
 \(\langle x_a\varphi,(H_f-E_f)x_b\varphi\rangle=\kappa A_{ab}\).
 Centering the coordinate vectors changes neither relation. This is a ground-state commutator sum rule, related to [[algebra/partial-bochner-and-ground-state-score|the existing score sum rules]], rather than a new spectral principle.
 
-For the leading normal oscillator, (SR6) fixes the complete second-order derivative-coupling correction to be \(\kappa b^{\mathsf T}A^{-1}b\), independently of the oscillator's restoring matrix. A fast gap of order \(\sqrt{\epsilon g}\) does not make it vanish: the two momentum matrix elements each scale as \((g/\epsilon)^{1/4}\). The actual compact-group limit still needs control of the errors in replacing it by this normal problem.
+For the leading normal oscillator, (SR6) fixes the complete second-order derivative-coupling correction to be \(\kappa b^{\mathsf T}A^{-1}b\), independently of the oscillator's restoring matrix. A fast gap of order \(\sqrt{\epsilon g}\) does not make it vanish: the two momentum matrix elements each scale as \((g/\epsilon)^{1/4}\). This explains the candidate coefficient. The compact-group proof instead uses an exact ground-form corrector and lower bound, so it need not justify a termwise expansion of the Schur inverse.
 
-## The next decisive theorem
+## The complete return is now proved
 
-The proposed return is the full-carrier norm-resolvent statement
+At fixed \(\epsilon>0\), the full-carrier norm-resolvent theorem is
 \[
 \boxed{
 \left\|(\mathsf K_g+z)^{-1}
@@ -81,8 +81,8 @@ The proposed return is the full-carrier norm-resolvent statement
 \qquad(g/\epsilon\to\infty),\ z>0.}
 \tag{SR7}
 \]
-This tests for additional slow modes as well as the compressed rotor. It would imply that the complete finite-graph physical gap tends to \(10\epsilon/3\), since the first nonconstant class character has \(C_{1/2}=3/4\).
+[[strong-seam-resolvent-and-the-physical-rotor|PR1–15]] proves this statement and the return of bounded continuous source histories at positive durations. The complete finite-graph physical gap tends to \(10\epsilon/3\), since the first nonconstant class character has \(C_{1/2}=3/4\) and every additional fixed-representation mode escapes to high energy.
 
-Prove localization near the unique seam well, the fast excitation bound and derivative corrector, and the form/tail estimates required for (SR7). The exact isometry (SR1) supplies the Haar class-function measure and constant vacuum; a potential term in a claimed limiting local operator must respect those facts. Positivity and the \(U\)-independence of the fast ground vector remove a Berry connection for this chosen line, but do not replace the full elimination estimate.
+Three estimates supply the proof: [[magnetic-completion-and-the-corner-representation-tail|the completed magnetic form]] bounds every central representation at all strengths; [[corner-corrector-and-the-fixed-representation-return|the actual-vacuum corrector]] attains its limiting coefficient; and [[corner-fast-vacuum-and-harmonic-separation|equivariant harmonic separation]] excludes extra slow lines. Their combination controls the complete carrier. The exact isometry (SR1) fixes the Haar class-function measure and constant vacuum.
 
-[[abelian-corner-and-the-strong-seam-return|The Abelian strong-seam theorem]] provides the matching flux-sector benchmark, with its torus twist retained. Agreement would identify a nonperturbative incidence-controlled remainder in this finite family; disagreement would locate a quantum correction beyond the shared principal-form prediction. Neither outcome supplies the spatial continuum or infinite-volume Yang–Mills estimate.
+[[abelian-corner-and-the-strong-seam-return|The Abelian strong-seam theorem]] provides the matching flux-sector benchmark, with its torus twist retained. The agreement identifies a nonperturbative incidence-controlled remainder in this finite family. A central interaction of fixed strength also survives by PR16–18, but comparable confinement of all three faces is a different limit. Neither finite return supplies the spatial continuum or infinite-volume Yang–Mills estimate.
