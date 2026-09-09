@@ -109,6 +109,8 @@ Dropping \(D_B(2t)\) loses the positive compression remainder of the full square
 
 The inherited data \((R_{B,t},D_B(2t))\) preserve the full quotient of every retained source exactly. Positivity of the second term alone supplies no lower bound on that quotient over a complete source family. In particular, small response directions can coexist with nonzero exterior memory.
 
+[[covariant-source-memory-and-the-first-chronological-response|The first nonlinear mixed exterior test]] evaluates (RI3) on two physical scalar sources in the actual four-face vacuum. Retaining \(abc\), the radius \(Q(X_a,X_a)\) and Cartan triple \(T(X_a,X_b,X_c)\) have a nonzero mixed first correction, while each diagonal first correction vanishes by parity. The calculation transports the generator, regional projection and changing measure together. It supplies a fixed-patch entry of \(D_B(t)\); its sign does not determine the generalized quotient in (RI8).
+
 ## Nested regions split the same information budget
 
 Let \(\mathcal B\subset\mathcal C\) be actual nested regional sigma algebras, so
