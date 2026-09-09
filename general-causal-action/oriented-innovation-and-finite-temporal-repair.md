@@ -352,7 +352,7 @@ V_Q(h)\ge C_{\rm lag}(h)+c\|h\|_{\mu_1}^2,
 \]
 uniformly at fixed physical \(\ell\) through the required limits. It would give
 \(\|\mathcal K_\parallel\|\le\sqrt{1-c}<1\)
-and \(R^2\ge cR\). A finite boundary-word sum of squares for the remainder in (OI25) would implement the second relation in (OI14). The diagram and the ledger have been constructed; that strict estimate has not.
+and \(R^2\ge cR\). A finite boundary-word sum of squares for the remainder in (OI25) would implement the second relation in (OI14). The diagram and the ledger have been constructed; a strict estimate uniform through the required physical limits remains open.
 
 There is no spectral gain hidden in this construction. The polar factorization
 \(\delta_+=V R^{1/2}\)
@@ -401,4 +401,6 @@ Equivalently, the marked conditional descent is
 \((Q_N\zeta)(x,y)=\mathbb E_\Gamma[N\zeta(X',Y')\mid X=x,Y=y]\),
 with the source-free conditional normalizer fixed. General marks do not preserve the source-free intertwining or its positivity, and they need not map back into \(\mathscr K_0\). Their full amplitudes are nevertheless retained by (OI28). Returning original spatial frame sources keeps the same RS/AS coincident-source integration already specified after (OI18).
 
-The executable next test is therefore one diagram: derive (OI25) from the actual local non-Abelian sewing and conditional-source blocks of the three-slab extension (OI19), retaining its complete source law (OI28). Taking a positive \(c\) as another spectral assumption would restate the target. The constructed map supplies the exact carrier and defect on which that independent physical rigidity estimate must act.
+[[cycle-moments-and-the-pure-gauge-vacuum-return|CM1–21]] now proves (OI25) uniformly in auxiliary-copy removal at fixed spatial graph and Wilson coupling, through a return of the positive transfer spectrum. Its bound depends on that graph and coupling. On each fixed returned physical source, the auxiliary part of [[temporal-angular-cancellation-and-the-conditional-variance-ledger|TA's exact variance split]] disappears in the copy limit, and the spatial conditional means return the Wilson replica response.
+
+The executable next test is therefore a spatial composition of this returned three-slab law: derive a local version of (OI25) from its actual non-Abelian mixed conditional-source blocks, retaining the interacting vacuum and full source normalization, and test how the bound changes under adjacent-block sewing. Taking a positive \(c\) as another spectral assumption would restate the target. The constructed map supplies the exact carrier and defect on which the physical-limit rigidity estimate must act.

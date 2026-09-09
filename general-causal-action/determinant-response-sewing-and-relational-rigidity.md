@@ -325,7 +325,7 @@ The input endpoint law \(\mu_1(dx,dy)=\pi(dx)A(x,dy)\) becomes \(\mu_3(dx',dy')=
 \qquad 0<\eta<1.
 \tag{DS10i}
 \]
-The remainder maps must be assembled from declared boundary operations, with their full source factors retained and no spectral inverse. An independently proved geometric contraction bound can replace the finite sum. The bound must hold on the complete centered source sector at a fixed physical \(\ell>0\), uniformly through the required limits. The replica word proves the intertwining equality; it does not prove the strict estimate. Naming its norm below one does not supply this extra law.
+The remainder maps must be assembled from declared boundary operations, with their full source factors retained and no spectral inverse. An independently proved geometric contraction bound can replace the finite sum. The bound must hold on the complete centered source sector at a fixed physical \(\ell>0\), uniformly through the required physical limits. The replica word proves the intertwining equality. The fixed-graph copy limit below now has a strict estimate, but its spatial-volume and continuum uniformity remain the active additional claim.
 
 If the conjecture holds, its finite positive certificate is
 \[
@@ -334,16 +334,22 @@ R_+^2-(1-\eta^2)R_+
                  (\mathcal F_\alpha\delta_+)\ge0.
 \tag{DS10j}
 \]
-The known vacuum-only kernel then gives \(A|_{\mathscr H_0}\le\eta I\) and \(H|_{\mathscr H_0}\ge-\log\eta/\ell\). This is an exact conditional consequence, not an estimate already proved for the selected family. Time reversal gives the same innovation Gramian from the other orientation; the underlying marked path law remains reversible.
+The known vacuum-only kernel then gives \(A|_{\mathscr H_0}\le\eta I\) and \(H|_{\mathscr H_0}\ge-\log\eta/\ell\). This is an exact conditional consequence; its full physical-limit scope remains unproved. Time reversal gives the same innovation Gramian from the other orientation; the underlying marked path law remains reversible.
 
 The replica word also makes the next test precise. For \(h=\delta_+f\), its conditional-integration variance and lag-change cost are
 \[
 V_Q(h)=\langle f,(I-A^4)f\rangle,\qquad
 C_{\rm lag}(h)=2\langle f,A^2R_+f\rangle.
 \]
-Their difference equals \(\|h\|^2-\|\mathcal K_\parallel h\|^2=\langle f,R_+^2f\rangle\). The task is to derive \(V_Q(h)\ge C_{\rm lag}(h)+c\|h\|^2\), \(c>0\), from the actual non-Abelian boundary operations, with \(c=1-\eta^2\), or construct the corresponding positive remainder directly. The exact ledger alone supplies no positive \(c\).
+Their difference equals \(\|h\|^2-\|\mathcal K_\parallel h\|^2=\langle f,R_+^2f\rangle\). The task is to derive \(V_Q(h)\ge C_{\rm lag}(h)+c\|h\|^2\), \(c>0\), from the actual non-Abelian boundary operations, with \(c=1-\eta^2\), and retain that bound through physical refinement. The exact ledger alone supplies no positive \(c\).
 
-The immediately compressed forward history shift still fails: it advances a realized innovation into the next orthogonal past-filtration difference, so projecting back annihilates it (OI16a–b). Independent replica advance succeeds because it transports the observed function before taking its innovation and retains the changed endpoint law. Use that actual vacuum-centered conditional geometry, including all source factors. A gauge-only map or generic Gaussian positivity cannot explain the non-Abelian distinction from the soft Abelian control. Explore the stated surplus conjecture before adding unrelated reconstruction prerequisites.
+[[cycle-moments-and-the-pure-gauge-vacuum-return|CM1–21]] now removes the auxiliary copies at fixed finite spatial graph and fixed Wilson coupling. An explicit flat Gaussian scalar normalizes every even cylinder trace; its limiting moments determine every fixed ordered positive transfer eigenvalue and the actual bounded vacuum source histories. Thus the complete supported RS gap tends to the positive finite Wilson transfer gap, and the replica surplus has a lower bound uniform in sufficiently large copy number. The elementary bound depends on graph size and coupling and does not survive the required physical limits by this proof.
+
+The same theorem identifies the physical part of the conditional decomposition. In [[temporal-angular-cancellation-and-the-conditional-variance-ledger|TA12–19]], temporal Haar angles contribute no neutral conditional-mean variance. The remaining variance is \(\mathcal V_{\rm aux}(f)+\mathcal V_{\rm sp}(f)\), and its surplus subtracts the corresponding two terms for \(Af\). On each fixed returned continuous physical source, CM19–21 proves \(\mathcal V_{\rm aux}\to0\) both before and after transport. The spatial conditional means return the actual Wilson innovation variance. The next estimate can therefore be tested directly on that returned chronological law.
+
+Three proposed shortcuts have been decided. TA's angular Fisher term cancels against curvature on neutral sources. [[auxiliary-vacuum-curvature-and-horizontal-source-directions|HV1–18]] exhibits negative actual-vacuum flat curvature in a regular source-visible horizontal direction, and a closing auxiliary gradient floor despite CM's positive chronological gap. [[conditional-commutator-activity-and-the-neutral-tail|NC1–16]] excludes a remainder made only from the specified normalized local projector commutators: those activities vanish on high-energy innovations whose true surplus tends to one. Each result rejects its stated mechanism, not the full spatial surplus conjecture.
+
+The next decisive test is one exact spatial block composition of the returned Wilson three-slab source law. Retain its interacting vacuum, both boundary normalizers and complete mixed source terms; determine how the spatial conditional-mean surplus changes when an adjacent block is sewn and then conditionally integrated. Seek a local positive remainder or influence bound whose loss follows the shared interface rather than the total graph size. The existing global kernel-minimum bound does not provide this. A named block-surplus relation may carry the exploration, but its effect on the complete marked amplitude must be calculated rather than supplied by a fitted coefficient.
 
 ## Conjecture 2: relational cycles force physical rigidity
 
@@ -354,7 +360,7 @@ H=-\ell^{-1}\log(T_\ell/\lambda_0).
 \tag{DS11}
 \]
 
-RS supplies reflection positivity, the supported quotient and an actual chronological transfer for the finite induced-boson family. AS controls the source-algebra defect in its temporal vacuum. The required pure-gauge limiting representation and physical continuum calibration remain open. [[sewn-transfer-clock-and-the-rotor-limit|The sewn transfer rotor]] is a separate positive control: transfer evolution and conditional resampling of a joint law are different clocks.
+RS supplies reflection positivity, the supported quotient and an actual chronological transfer for the finite induced-boson family. AS controls the source-algebra defect in its temporal vacuum, and CM returns the finite pure-gauge transfer spectrum and bounded vacuum source histories as the copies are removed. A common-space identification of every auxiliary vector is neither asserted nor needed for those limits. The four-dimensional continuum realization, physical calibration through that limit and infinite-volume gap remain open. [[sewn-transfer-clock-and-the-rotor-limit|The sewn transfer rotor]] is a separate positive control: transfer evolution and conditional resampling of a joint law are different clocks.
 
 **Conjecture 2.** For every compact simple gauge group \(G\) in the Clay target, a family selected by Conjecture 1 admits a nontrivial Yang–Mills return in which its relational cycles prevent arbitrarily soft neutral physical distinctions, uniformly through spatial-volume and continuum limits.
 
