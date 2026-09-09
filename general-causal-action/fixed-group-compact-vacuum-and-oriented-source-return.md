@@ -4,6 +4,8 @@ For every fixed compact connected group with simple Lie algebra, the four-face o
 
 **Status: proved fixed-group compact vacuum and first-order source return.** [[weighted-character-scale-and-bounded-lie-sources|GM]] fixes the weighted cost, effective scale and bounded Lie-algebra-valued mark. [[all-group-oriented-kinetic-jet-and-source-lift|AJ]] supplies the complete polynomial normal form. [[lie-bracket-source-contact-and-the-positive-comparison-test|The Lie contact]] owns its algebraic and Gaussian coefficient. The argument below extends [[compact-source-normalization-and-the-nonlinear-return|CS's actual-vacuum method]] without using a singular orbit-space chart or a previously computed \(SU(2)\) gap correction.
 
+[[regional-conditional-projection-and-the-vacuum-score|The regional projection theorem]] extends the weighted-vacuum argument to each fixed finite square patch and proves the actual conditional first jet on finite polynomial source families. It keeps complete face algebras through an injective product chart. This extension supplies no uniform spatial bound or new excited-state coefficient.
+
 ## Fix the global group and the actual cost
 
 Let \(G\) be compact and connected, with simple Lie algebra \(\mathfrak g\), dimension \(d\), and a positive \(\operatorname{Ad}G\)-invariant metric \(Q\). Fix a faithful finite-dimensional unitary representation \(\rho\), and a positive definite Hermitian matrix \(A\) commuting with \(\rho(G)\). Set

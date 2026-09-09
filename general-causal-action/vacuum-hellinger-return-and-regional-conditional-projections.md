@@ -4,6 +4,8 @@ The actual compact planar theory retains a nonzero regional memory on its confin
 
 **Status: proved one-source regional conditional return and semigroup obstruction.** [[fixed-regional-sources-and-the-compact-vacuum-return|FR]] supplies the actual vacuum and normalized source; [[compact-chronology-on-finite-hermite-sources|HC]] supplies its full-vector chronology. [[inherited-planar-vacuum-and-the-regional-time-law|IR]] supplies the harmonic conditional law. All bounds retain the specified comb connectors, full Gauss carrier and window \(0<hn^{10}\le\eta\), where \(n=L+1\) and \(h=(\kappa/g)^{1/4}\).
 
+At each fixed patch and group, [[regional-conditional-projection-and-the-vacuum-score|the vacuum-score theorem]] strengthens the comparison to a first derivative on every fixed finite polynomial source family. It uses weighted arbitrary-order vacuum accuracy and retains the marginal normalizer; Hellinger continuity alone would not justify it. Its constants depend on the fixed patch, while the window and rates below remain those of the original one-source theorem.
+
 ## Conditional projection without an inverse-density estimate
 
 Let \(\psi,\Omega\ge0\) be normalized amplitudes in

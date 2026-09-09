@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and complete source sewing by the Lie bracket. Round 32 proves the four-face construction for every fixed compact connected simple group, then tests its spatial extension at the first selected exact resonance. The five-by-five interaction is compatible, but its normal form has a source-presentation freedom. Complete operator histories tolerate that freedom; a fixed regional source embedding detects it. Next construct the transport of the actual conditional projections and test one consistent identification across overlapping regions. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and source sewing by the Lie bracket. Round 33 proves the actual regional projection derivative, rules out matching the entire fixed pair-access inventory with any odd kinetic normal form, and constructs an actual covariant conditional response that survives the neutral-pair cancellation. Eliminating its shared face fixes a linear Casimir coefficient. Next carry that channel through a nonnested four-face comparison with its boundary source and conditional memory explicit. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 32, 2026-09-09
+## Active conjecture — round 33, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical \(\ell=ka_t>0\),
 \[
@@ -10,105 +10,123 @@ A=P^k,\qquad R=I-A^2,\qquad
 \delta_+f=f(X_0)-(Af)(X_{-k}),\qquad
 \mathcal K_\parallel\delta_+=\delta_+A.
 \]
-Seek a composition-derived \(0<c<1\) satisfying
+Seek a composition-derived \(0<c<1\) with
 \[
 V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
 on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement. Finite boundary-word positivity remains an allowed mechanism.
 
-The subordinate proposal is **source sewing by the Lie bracket**. Transport the operators, vacuum, marked products and regional source embeddings as one experiment. The new results determine when scalar replacement loses information and when a normal-form identification remains adjustable. They do not select the supplied Hamiltonian or identify a source contact with energy.
+The subordinate construction is **source sewing by the Lie bracket**. The comparison must carry operators, vacuum, marked products and regional access together. The latest test rejects the hope that choosing a kinetic normal form also makes every old regional projection its transported counterpart. The constructive route now uses the actual covariant conditional channel, whose coefficient is fixed by the same vacuum.
 
-## Strongest consequence: an actual fixed-group source law
+## Actual access has a controlled first derivative
 
-[[general-causal-action/weighted-character-scale-and-bounded-lie-sources|GM1–10]] retains a faithful unitary representation \(\rho\), a declared invariant metric \(Q\), and the actual positive commuting preparation weight \(A\). Its character cost and weighted index are
+[[general-causal-action/regional-conditional-projection-and-the-vacuum-score|VP1–11]] proves the result for every fixed finite square patch and compact connected simple group, with complete prepared face variables retained through an injective product chart. The weighted vacuum expansion
 \[
-W_A(U)=\operatorname{ReTr}[A(I-\rho(U))],\qquad
--\operatorname{ReTr}(A\,d\rho(X)d\rho(Y))=I_AQ(X,Y).
+\Phi_h=\Omega+h u+O_{\mathrm{weighted}\ L^2}(h^2),
+\qquad \alpha=u/\Omega
 \]
-The unique identity well fixes
+uses arbitrarily accurate quasimodes before polynomial multiplication. With \(P_A\) the harmonic amplitude projection onto region \(A\), the actual derivative is
 \[
-g_{\rm eff}=2I_Ag,\qquad
-h=(\kappa/g_{\rm eff})^{1/4},\qquad
-E=\sqrt{\kappa g_{\rm eff}}.
+\boxed{\dot P_A
+=M_\alpha P_A+P_AM_\alpha-2P_AM_\alpha P_A.}
 \]
-The bounded Lie source uses a different, unweighted projection index \(I_\rho\), has \(q_\rho(e^{hX})=hX/2+O(h^3)\), and need not separate group elements. Retain the complete faithful matrix-source algebra. Changing the representation or reducible preparation weights is not a harmless substitution.
+It has an \(O(h^2)\) remainder on each fixed finite polynomial source family. Finite ordered words of regional projections return with their derivative insertions. No operator-norm derivative, uniform spatial estimate or inverse actual marginal-density bound is claimed.
 
-[[general-causal-action/all-group-oriented-kinetic-jet-and-source-lift|AJ1–13]] derives the actual four-face BCH kinetic jet and all ten invariant quadratic lifts. With \(\omega=(\sqrt2,2,2,\sqrt6)\),
+For a formally skew odd normal form \([K_0,S]=-V_1\), \(S\Omega=u\), put
 \[
-S_1=\mathscr V-\frac47T_G(\nabla_0,\nabla_1,\nabla_2),
-\qquad [K_0,S_1]=-V_1,\qquad
-T_G(X,Y,Z)=Q(X,[Y,Z]).
+D(F)=\Omega^{-1}[S,M_F]\Omega,\qquad
+B_A=[S,P_A]-\dot P_A.
 \]
-All repeated-mode terms remain. Odd nonresonance gives uniqueness on this four-face polynomial-Gaussian core, independently of color dimension. No global exponential is asserted.
+[[general-causal-action/two-face-source-access-and-the-normal-form-obstruction|TF1–6]] gives on a regional polynomial
+\[
+B_A(\Omega F)=\Omega(I-E_A)D(F),
+\qquad E_A=\mathbb E_0[\cdot\mid X_A].
+\]
+The discrepancy obeys differentiated tower identities. For nonnested regions retain the ordered product:
+\[
+[S,P_AP_B]-(\dot P_AP_B+P_A\dot P_B)
+=B_AP_B+P_AB_B.
+\]
+Separate source factors also retain their product contact. Neither tower relations nor vanishing marginal scores makes these discrepancies zero.
 
-For \(\mathcal D(F)=\Omega^{-1}[S_1,M_F]\Omega\), [[general-causal-action/lie-bracket-source-contact-and-the-positive-comparison-test|LC1–9]] gives
-\[
-\mathcal C_Q(F,G)=\mathcal D(FG)-F\mathcal D(G)-G\mathcal D(F),
-\qquad
-\mathcal C_Q(|Y_0|^2,|Y_1|^2)=\frac47T_G(Y_0,Y_1,Y_2).
-\]
-Its nonzero bracket response survives every non-Abelian case. The same-source defect changes sign, excluding a positive unital comparison with the complete prescribed scalar jets, including \(L^2\) return on one common Gaussian measure.
+## The full fixed pair inventory cannot match a normal form
 
-[[general-causal-action/fixed-group-compact-vacuum-and-oriented-source-return|GV1–12]] proves actual fixed-group vacuum localization and finite polynomial source return. Its compact composite requires the derived coefficient
+The actual five-by-five resonant coefficients remain those of [[general-causal-action/five-by-five-resonance-and-the-source-selection-test|RF]]. TF uses the triple \(i=(1,1),j=(5,1),k=(5,5)\), with frequencies
 \[
-\mathcal L^{\rm coh}_{F,G,h}
-=\mathcal L_F\mathcal L_G+\frac{h^2}{2}\mathcal C_Q(F,G)(\mathbf Q).
+a=\sqrt3-1,\qquad b=2,\qquad c=\sqrt3+1.
 \]
-The mixed readout has actual centered covariance
+For \(R_i=Q(Y_i,Y_i)\) and \(T_*=T_G(Y_i,Y_j,Y_k)\), its rigid source coefficient is
 \[
-\frac{16\sqrt2}{7}\mathfrak F_Qh+O(h^2),
-\qquad \mathfrak F_Q=\sum_{\alpha\beta\gamma}f_{\alpha\beta\gamma}^2.
+[D(R_i)]_{T_*}=-\frac c{72},\qquad
+\langle T_*,D(R_i)\rangle_0=-\frac{c\mathfrak F_Q}{18}.
 \]
-The metric and group dependence remain explicit. The analytic constants are not uniform in group or patch, and higher representation invariants prevent importing the \(SU(2)\) nonlinear gap coefficient.
+Every invariant odd commuting correction kills the vacuum and the lowest physical quadratic state: energy \(2a\) has no odd physical vector. The coefficient is therefore fixed beyond the five explicit resonant parameters.
 
-## The spatial test changes the source-selection question
+For the actual face pairings \(F_{pq}=Q(X_p,X_q)\), Gaussian regression gives \(E_{\{p,q\}}T_*=0\). Writing \(o_p=O_{pi}\), TF9–10 obtains
+\[
+\sum_{p,q}o_po_q
+\langle T_*,\Omega^{-1}B_{\{p,q\}}(\Omega F_{pq})\rangle_0
+=-\frac{c\mathfrak F_Q}{18},
+\]
+\[
+\boxed{\sum_{p,q}\|B_{\{p,q\}}(\Omega F_{pq})\|^2
+\ge\frac{c^2\mathfrak F_Q}{1296}>0.}
+\]
+The ordered sum covers the full prepared one- and two-face inventory. It does not identify a nearest-neighbor pair or prove a uniform spatial lower bound. Consistent complete operator histories remain invariant under resonant presentation changes; the obstruction concerns additionally fixing regional access.
 
-[[general-causal-action/oriented-triad-resonance-and-the-physical-source-block|RT1–12]] derives the exact triad denominator and the physical resonant matrix element. At frequencies \(a,b,c=a+b\), the raw cyclic coefficients must satisfy
-\[
-r=av_i+bv_j-cv_k=0.
-\]
-[[general-causal-action/five-by-five-resonance-and-the-source-selection-test|RF1–8]] contracts all sixty actual comb rows at \(L=5\). The only positive-frequency triangle class is
-\[
-\omega_{55}=\omega_{11}+2,\qquad
-\omega_{11}=\sqrt3-1,\qquad \omega_{55}=\sqrt3+1.
-\]
-The frequency-two space has five modes \(15,24,33,42,51\). Every actual \(r_m\) vanishes. Some raw coefficients do not vanish; the complete resonance cancellation is essential. Thus this test produces no nonremovable first-order interaction.
+## A covariant channel retains the actual orientation
 
-Compatibility nevertheless permits
+[[general-causal-action/regional-vacuum-score-and-the-three-face-orientation|VS1–18]] proves that the Cartan-cubic score has zero conditional projection onto every one- or two-face set. On three faces it can retain
 \[
-N=aU_i+bU_j-cU_k-4abcP,\qquad
-[K_0,N]=0,\qquad N\Omega=0.
+\alpha_{\{p,q,r\}}=\gamma\,T_G(X_p,X_q,X_r).
 \]
-Adding \(\theta N\) preserves the kinetic equation and vacuum correction, while
-\[
-\mathcal D_N(R_i)=\mathcal D_N(R_j)=0,\qquad
-\mathcal C_N(R_i,R_j)=8ab\,T_G(Y_i,Y_j,Y_k).
-\]
-The separate lower-radius lifts therefore do not fix their product lift. Setting the resonant component to zero is a possible comparison convention; the commutator and vacuum do not require it.
+There is also an exact Ward cancellation for the conditional exchange of already invariant scalar marks between overlapping pairs. Moving amplitude projections still have exterior first jets; these cancellations do not identify their embeddings.
 
-This is not an observable physical ambiguity: consistent differential operator insertions telescope to a commutator with the complete chronological word, whose vacuum mean vanishes. Scalar multiplication or a fixed source-access embedding is a stronger identification.
-
-[[general-causal-action/resonant-source-transport-and-fixed-regional-access|RG1–7]] decides the first access test. For a physical face \(X_p=\sum_\ell O_{p\ell}Y_\ell\),
+[[general-causal-action/covariant-boundary-source-and-the-oriented-return|CB1–13]] instead retains \(J_{qr}=[X_q,X_r]\) as an adjoint-valued boundary mark and closes its index only with \(X_p\). For \(x=X_p,y=X_q\), and
+\(\sigma=\operatorname{Var}_0(X_r^\alpha\mid X_p,X_q)\),
 \[
-\mathcal D_N(|X_p|^2)
-=-4cO_{pk}T_G(Y_i,Y_j,X_p).
+\left.\partial_h\mathbb E_h[J_{qr}\mid x,y]\right|_0
+=2\gamma\sigma[y,[x,y]],
 \]
-Its inherited conditional mean given \(X_p\) is zero, but its norm is strictly positive when \(O_{pk}\ne0\). At a corner, every nonzero combination of the five resonant generators is detected. Thus quotienting by the resonant freedom must also transport the regional projection. This does not prove that a particular normal form preserves all original regions or that a simultaneous local choice exists.
+\[
+\left.\partial_h\mathbb E_h[T_G(x,y,X_r)\mid x,y]\right|_0
+=2\gamma\sigma\|[x,y]\|_Q^2.
+\]
+Further conditioning onto \(x\) gives
+\[
+\boxed{\left.\partial_h\mathbb E_h[J_{qr}\mid x]\right|_0
+=\rho_{p;qr}x,\qquad
+\rho_{p;qr}
+=2\gamma\frac{\mathfrak F_Q}{d}\det C_{\{q,r\}\mid p}.}
+\]
+Direct contraction and the nested route agree by the Casimir identity and the Schur determinant formula. The globally bounded GM marks realize these expansions in the actual compact vacuum, with \(O(h^2)\) strong-source remainders and actual centering.
+
+For the existing four-face comb,
+\[
+\rho_{a;bc}
+=\frac{2\mathfrak F_Q}{7d}
+\frac{9+3\sqrt2-7\sqrt3}{4+\sqrt2+\sqrt6}>0.
+\]
+This coefficient comes from the actual vacuum score; a resonant generator with \(N\Omega=0\) cannot retune it. It is a conditional source coefficient, not a mass, a new potential or a uniform OI surplus. It identifies what neutralizing every regional pair before sewing would discard.
 
 ## Weakest link and next executable test
 
-The weakest foundational link remains the selection of a complete spatial source-composition law and its uniform OI surplus. A first kinetic normal form supplies neither by itself. The current refinement is to carry regional embeddings with the transported operator experiment, preserving their actual prepared-source meaning.
+The weakest link remains a complete spatial composition law that supplies its own physical-limit rigidity. The current concrete advance is the forced embedding response together with an actual covariant source channel. Do not promote either positive norm into a gap estimate.
 
-Work on the fixed five-by-five carrier before seeking another larger-patch coefficient. Retain its actual face words, inherited vacuum and conditional projections. Derive the first variation of the projection onto functions of a selected face, in the same half-density comparison used for the vacuum. Then derive its transport under one \(S_1+\sum_m\theta_mN_m\).
+Use the existing four-face covariance and full score in VS, with the actual marks and weighted scale fixed. Take pair contexts \(A=\{a,b\}\), \(B=\{b,c\}\), \(C=\{c,d\}\), \(D=\{a,d\}\). Starting with \(J_{cd}\), derive the direct conditional return to \(A\) and the two ordered returns through \(B\) or \(D\). Compute their Gaussian terms and complete first score insertions before attempting a new large coefficient table.
 
-Compare the two routes on a face radius, a product of two overlapping-region sources and the corresponding oriented channel. Keep all five resonant parameters and all inherited covariance terms. Determine which differences are consistent presentation changes and which change the accessible experiment. Test whether the fixed prepared-source pullbacks give one compatible choice across the overlap, or whether the proposal must retain an additional explicit embedding response. Do not declare equality by moving one projection silently, and do not introduce an independent clock or treat the positive norm in RG as a gap estimate.
+Retain the adjoint linear, bracket and double-bracket source channels generated to this order, including the Casimir contractions of conditional Gaussian residuals. Report the direct-versus-composed differences as actual exterior-information responses, not as a failure of an assumed commutative tower. The pair contexts are nonnested. Keep any source used to close a physical invariant explicit throughout the comparison; contracting a boundary index after an intermediate forgetting step can change the experiment.
 
-[[general-causal-action/calibrated-presentation-holonomy-and-spectral-return|Complete experimental calibration]] supplies the relevant distinction between fixing source actions and merely preserving histories or spectrum. [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB]] and [[general-causal-action/regional-innovation-and-exterior-information-balance|RI]] retain the vacuum caps, source exchange and changed-history lag in any eventual physical response.
+Then specify the retained boundary/exterior message needed to reconstruct the same original joint readout along the two routes. Test the complete source product, not only the separate conditional means. The aim is one determined message and composition identity from the inherited law, with no adjusted \(\gamma\), replacement vacuum or new clock. A finite first-order source inventory is not automatically the complete prepared algebra.
+
+The subsequent chronological test must use the actual transfer and [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's exterior response]], together with [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]]. Static Casimir contraction alone cannot settle that test.
 
 ## Binding controls, targets and source cursor
 
-[[general-causal-action/four-face-optimal-quadratic-response-and-parity|OQ]] and [[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|OE]] remain unchanged: the optimal quadratic readout can harden at short scaled duration while oriented sources follow the negative actual \(SU(2)\) gap correction. [[general-causal-action/finite-pairing-range-and-the-harmonic-innovation-floor|PR]], [[general-causal-action/localized-relational-sources-in-the-inherited-vacuum|LR]] and [[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|QK]] retain \(c_R(t)\asymp\min\{1,t/(R+1)\}\) with the compact return on \(h(L+1)^{10}\le\eta\), away from zero scaled time. This confinement window is not a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
+[[general-causal-action/weighted-character-scale-and-bounded-lie-sources|GM]] retains \(g_{\rm eff}=2I_Ag\), \(h=(\kappa/g_{\rm eff})^{1/4}\), \(E=\sqrt{\kappa g_{\rm eff}}\), the actual weighted preparation and complete faithful matrix sources. [[general-causal-action/all-group-oriented-kinetic-jet-and-source-lift|AJ]], [[general-causal-action/lie-bracket-source-contact-and-the-positive-comparison-test|LC]] and [[general-causal-action/fixed-group-compact-vacuum-and-oriented-source-return|GV]] retain their fixed-four-face source results. Higher representation invariants and group-dependent constants remain explicit.
+
+[[general-causal-action/four-face-optimal-quadratic-response-and-parity|OQ]] and [[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|OE]] retain the distinction between apparent readout hardening and the actual negative \(SU(2)\) gap shift. [[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|PR/LR/QK's range controls]] retain \(c_R(t)\asymp\min\{1,t/(R+1)\}\) on \(h(L+1)^{10}\le\eta\), away from zero scaled time. This confinement window is not a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
 
 Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
 
-The live Claude review and eight receipts remain unchanged against the archived hashes. The seven new proof owners passed actual-text mathematical audits; the new exact resonance receipt checks the sixty raw rows, full incidence matrix and all frequency classes. It is finite exact arithmetic, not a simulation or a global spectral proof. Recheck the inbox on resumption. The goal remains active.
+The live Claude review and eight receipts remain unchanged against their preserved hashes. Four new proof owners passed independent actual-text audits. The raw five-by-five coefficients are reused from the committed exact RF receipt; this round's additional arguments are analytic, with no simulation. Recheck the inbox on resumption. The goal remains active.
