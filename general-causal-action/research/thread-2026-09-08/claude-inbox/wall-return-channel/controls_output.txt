@@ -1,0 +1,23 @@
+Richardson extrapolation of local rate (R_avg=7,14):
+  h=1.2: r_inf=0.3631  vs 2ln(h/J)=0.3646   (diff -0.0015);  prefactor exponent c=0.528
+  h=1.5: r_inf=0.8142  vs 2ln(h/J)=0.8109   (diff +0.0033);  prefactor exponent c=0.465
+  h=2.0: r_inf=1.3877  vs 2ln(h/J)=1.3863   (diff +0.0014);  prefactor exponent c=0.486
+
+Control 1: A = two central sites, h/J=1.5; expect same rate 2 ln(1.5)=0.8109 for the top eigenvalue
+  R=  3: lam = 8.7843e-02 3.7283e-02 5.6541e-03 1.7452e-03
+  R=  4: lam = 3.3087e-02 1.4272e-02 1.3495e-03 4.6631e-04
+  R=  6: lam = 5.2394e-03 2.3026e-03 1.1970e-04 4.6415e-05
+  R=  8: lam = 8.8885e-04 3.9371e-04 1.4054e-05 5.7538e-06
+  R= 12: lam = 2.8062e-05 1.2487e-05 2.7617e-07 1.1823e-07
+  rate[4->6] top: 0.9215   second: 0.9121
+  rate[6->8] top: 0.8870   second: 0.8831
+  rate[8->12] top: 0.8639   second: 0.8627
+  (12s)
+
+Control 2: critical h=J, one site, larger R; expect lam_1 ~ R^-1
+  R= 16: lam_1=2.502427e-02   R*lam_1=0.4004
+  R= 24: lam_1=1.684990e-02   R*lam_1=0.4044
+  R= 32: lam_1=1.270138e-02   R*lam_1=0.4064
+  exponent[16->24] = 0.9754
+  exponent[24->32] = 0.9825
+  (84s)

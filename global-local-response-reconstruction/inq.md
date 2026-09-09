@@ -12,6 +12,8 @@ Global–local response reconstruction asks which whole-law data can produce a l
 
 **Status: [EXACT DEFINITIONS] for the response operator and scale-covariant invariant; [EXACT CONDITIONAL THEOREMS] for complete-response edge to transfer gap and common OS exponent to Hamiltonian gap; [CONSTRUCTION TARGET] for the pre-QFT realization and QFT recovery; [OPEN] for four-dimensional Yang--Mills.**
 
+[[global-local-response-reconstruction/variance-completed-rigidity|Variance-completed descent]] sharpens the algebraic rigidity route: completely positive readout transports a comparison together with its discarded product variance. An explicit repair survives compression when the total loss of its analysis and reconstruction channels has a uniform strict bound. The operator identities are exact; the required bound for the complete Yang–Mills source law remains conjectural.
+
 ## The Copernican change of primitives
 
 The proposed reversal does not discard quantum field theory. It changes its logical place. Instead of assuming a local field algebra, a vacuum representation, and a Hamiltonian and then asking that Hamiltonian to explain its own infrared spectrum, begin with a whole-law object
