@@ -1,8 +1,8 @@
 # Three Faces at a Corner and Their Joint Seam Response
 
-Three orthogonal plaquette faces meeting at one cubic corner give a finite test of genuinely overlapping seam response. Each added face shares an edge with the source face, and the two added faces share a third edge. The first possible joint response is fourth order by exact center symmetries. Both the complete source-face odd-sector energy and a fixed source's normalized surplus can be differentiated in finitely many exact spin sectors, without replacing the shared-edge Gauss law or resetting a compressed path kernel. Their joint coefficient has not been evaluated.
+Three orthogonal plaquette faces meeting at one cubic corner give a finite test of genuinely overlapping seam response. Each added face shares an edge with the source face, and the two added faces share a third edge. The first possible joint response is fourth order by exact center symmetries. Both the complete source-face odd-sector energy and a fixed source's normalized surplus can be differentiated in finitely many exact spin sectors, without replacing the shared-edge Gauss law or resetting a compressed path kernel. The linked calculation proves negative joint coefficients at small temporal coupling; their complete dependence on that coupling remains open.
 
-**Status: exact finite graph, symmetry and perturbative closure; open joint coefficient and physical-limit estimate.** [[adjacent-wilson-plaquette-and-the-chronological-surplus|The adjacent-plaquette calculation]] shows that an improving source quotient can coexist with a decreasing physical gap. This test keeps the complete relevant sector alongside that quotient. Its three-dimensional spatial incidence differs from [[three-cell-incidence-and-shared-path-motion|the three-cell row]].
+**Status: exact finite graph, symmetry and perturbative closure; evaluated small-coupling joint response; open full coefficient and physical-limit estimate.** [[adjacent-wilson-plaquette-and-the-chronological-surplus|The adjacent-plaquette calculation]] shows that an improving source quotient can coexist with a decreasing physical gap. This test keeps the complete relevant sector alongside that quotient. [[three-face-corner-and-the-leading-joint-energy|The leading joint-energy calculation]] owns the controlled evaluation. Its three-dimensional spatial incidence differs from [[three-cell-incidence-and-shared-path-motion|the three-cell row]].
 
 ## The raw corner reduces to a tetrahedral graph
 
@@ -125,7 +125,7 @@ R_{\rm joint}(s_1,s_2)
 +O\!\left(s_1^2s_2^2(s_1^2+s_2^2)\right).}
 \tag{CJ11}
 \]
-Fourth order is the first permitted joint order. Its coefficient might vanish; neither its sign nor nonvanishing has been proved. The sector energy and fixed-source quotient must both be evaluated.
+Fourth order is the first permitted joint order. Symmetry alone permits a zero coefficient. [[three-face-corner-and-the-leading-joint-energy|JL13–17]] now proves nonzero negative coefficients for both quantities at sufficiently small temporal coupling, retaining the actual vacuum and the complete source-face odd sector.
 
 ## The coefficient closes in exact finite spin sectors
 
@@ -165,4 +165,14 @@ Let \(\Lambda_-,\Lambda_\Omega\) be the separately even odd-sector and vacuum ei
 This follows from \(\partial_{22}\log\Lambda
 =\Lambda_{22}/\Lambda(0)-\Lambda_{20}\Lambda_{02}/\Lambda(0)^2\), since the odd derivatives and \(\Lambda_{11}\) vanish. Omitting the vacuum branch or the product of the two second derivatives changes the joint energy coefficient.
 
-The executable next calculation is \(\partial_1^2\partial_2^2E_-(0,0)\), alongside the coefficient for (CJ10), with the complete SV normalization and source derivatives. Each isolated single-seam branch already has the softening found in the adjacent-plaquette calculation. The corner tests the additional response when those seams also share an edge with each other. An Abelian control under its declared kinetic calibration is needed before attributing a nonzero joint coefficient specifically to non-Abelian composition. No uniform spatial, continuum or mass-gap conclusion follows from this finite coefficient alone.
+[[three-face-corner-and-the-leading-joint-energy|The evaluated corner response]] gives
+\[
+\partial_1^2\partial_2^2E_-(0,0)
+=-\frac{t^2}{4a_t}+O(t^4/a_t),
+\qquad
+\partial_1^2\partial_2^2\mathfrak c_k(F;0,0)
+=-\frac{k}{2}t^{8k+2}+O(t^{8k+4}),
+\]
+where \(t=\tau_{1/2}\downarrow0\), and \(a_t,k\) are fixed. Its operator remainder controls every omitted spin, so this is a derivative of the full transfer. [[abelian-corner-and-the-joint-seam-energy|The calibrated Abelian control]] also has a negative joint energy; duplicating its shared seam edge removes that connected energy exactly. Nonzero joint response alone therefore detects shared incidence without selecting a non-Abelian mechanism.
+
+The next coefficient calculation takes the matched temporal Hamiltonian limit, using the same raw-link kinetic normalization and physical seam strengths. [[quartic-seam-eigenvalues-and-the-generalized-pencil|The exact generalized-pencil recurrence]] retains all quartic normalization contacts. The \(SU(2)\) coefficient away from the small-\(t\) regime, including its Hamiltonian limit, remains open. No uniform spatial, continuum or mass-gap conclusion follows from the finite result.
