@@ -152,4 +152,6 @@ Every summand is positive because \(\nu_i>c\). This is the contribution relative
 
 [[four-face-oriented-source-extension-and-the-schur-surplus|The finite source-extension theorem]] now shows that the minimum over all ten quadratic sources and these two cubic marks obeys the same bound (OS8): the full spectral floor gives its lower bound, and \(B^\sharp\) gives its upper bound. Its Schur calculation identifies the exact subtraction of both weights in (OS9).
 
+[[four-face-oriented-normal-form-and-the-universal-source-lift|The universal normal form]] now derives this correction as one row of a single map on all quadratic sources. [[four-face-source-products-and-the-oriented-contact|Its product contact]] shows why multiplying separately corrected probes does not produce the corrected composite without an additional term.
+
 Both probes belong to the same complete physical source algebra. A uniform innovation inequality must apply to the corrected probe as well as the original one. The cancellation exposes a negative gap correction that source redistribution can obscure, but it constructs no mass mechanism and supplies no volume-uniform conclusion. The Hamiltonian, actual vacuum, comparison paths and clock have remained the same throughout.
