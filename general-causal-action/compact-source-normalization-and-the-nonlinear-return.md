@@ -162,4 +162,15 @@ Equations (CS12)–(CS13) and the finite coefficient formulas therefore give con
 \]
 Indeed the two virtual energy terms cost at most \(O(L)\) times the squares of the order-\(L^9\) jet norms. The normalized susceptibility adds two inverse-gap factors to \(d_L\), or one to the squared leakage. The direct source-shape coefficient cancels from this normalized response as proved in NV11.
 
-In particular the displayed first susceptibility correction, relative to \(1/c_L\), is bounded by \(Ch^2(1+L)^{20}\). The condition \(h(1+L)^{10}\to0\) makes that term subleading. It is **not** yet a sufficient window for the full compact asymptotic expansion: no bound uniform in \(L\) has been proved for the remainders in (CS8)–(CS10) or their onset thresholds. [[uniform-marked-well-return-and-the-growing-patch-test|Uniform marked well return]] states a concrete conjectural upgrade and derives its conditional joint-limit consequences. These coefficient bounds supply neither a positive nonlinear mass correction nor a fixed-coupling infinite-volume gap.
+[[comb-chart-ellipticity-and-uniform-local-comparison|UC15–17]] improves this conservative word count by retaining prefix sparsity and comparing the weighted form before its density conversion. With \(n=L+1\), its sharper bounds are
+\[
+\boxed{
+\|V_1P_{\le m,L}\|\le C_mn^{9/2},\quad
+\|V_2P_{\le m,L}\|\le C_mn^6,\quad
+\|u\|+\|\eta_1\|+\|\ell_L\|\le Cn^{11/2},\quad
+|d_L|\le Cn^{10},\quad |S_{2,L}|\le Cn^{12}.}
+\tag{CS15}
+\]
+The complete first relative correction is consequently at most \(Ch^2n^{11}\). Making \(hn^{11/2}\) small controls that displayed term; it does not prove a full expansion on the enlarged window.
+
+[[uniform-planar-localization-and-the-first-physical-levels|Uniform planar localization]] now proves a coarse actual spectral return and low-level separation on \(hn^{10}\le\eta\). [[weighted-compact-source-return-on-growing-patches|The exact weighted source estimate]] replaces the global \(h^{-2}\) multiplication loss by a graph-norm bound. The fourth-order remainders in [[uniform-marked-well-return-and-the-growing-patch-test|uniform marked well return]] remain unproved: the actual operator and centered Poisson residuals still need uniform control. None of these coefficient bounds supplies a positive nonlinear mass correction or a fixed-coupling infinite-volume gap.

@@ -1,8 +1,8 @@
 # A Uniform Growing-Patch Test for the Actual Source
 
-The next spatial test asks whether the actual planar gap and one specified compact-source response admit uniform remainder bounds in a quantified confinement window. The proposed powers are conservative targets suggested by finite-degree estimates, not established theorems. If the bounds hold, the harmonic coefficient still softens with patch size throughout that window. The absolute physical gap behaves differently because the confinement scale grows. Keeping those two statements separate places the test inside the existing fixed-physical-time innovation programme.
+The remaining spatial test asks whether the actual planar gap and one specified compact-source response admit uniform fourth-order remainder bounds in a quantified confinement window. A coarse spectral return is now proved throughout that window. The sharper powers below remain conjectural targets. Their marked consequence would also control the normalized susceptibility as the patch grows. Keeping normalized energy separate from the absolute confinement scale places this test inside the existing fixed-physical-time innovation programme.
 
-**Status: conjectural uniform estimates, with proved conditional consequences.** [[compact-source-normalization-and-the-nonlinear-return|CS1–14]] proves fixed-patch expansions and coefficient envelopes. It does not prove the uniform remainders or onset window below. [[determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|Oriented innovation transport]] remains the active foundation; this note specifies one subordinate spatial test.
+**Status: conjectural fourth-order uniform estimates, with proved conditional consequences.** [[compact-source-normalization-and-the-nonlinear-return|CS1–14]] proves fixed-patch expansions and coefficient envelopes. [[uniform-planar-localization-and-the-first-physical-levels|UP1–12]] now proves a coarse actual spectral return and low-level isolation on the displayed window, without assuming the fourth-order estimates below. It already establishes the gap and innovation-floor limits; the susceptibility limit remains conditional. [[determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|Oriented innovation transport]] remains the active foundation.
 
 ## Keep the same law, source and boundaries as the patch grows
 
@@ -28,9 +28,9 @@ c_L=4\sqrt2\sin\frac{\pi}{2n}
 \frac{4\sqrt2}{n}\le c_L\le\frac{2\sqrt2\pi}{n}.
 \tag{GW2}
 \]
-CS supplies the actual fixed-\(L\) coefficients \(d_L,S_{2,L}\), with
+CS supplies the actual fixed-\(L\) coefficients \(d_L,S_{2,L}\). The sharper [[comb-chart-ellipticity-and-uniform-local-comparison|UC15–17]] estimates give
 \[
-|d_L|\le C_d n^{19},\qquad |S_{2,L}|\le C_s n^{21}.
+|d_L|\le C_d n^{10},\qquad |S_{2,L}|\le C_s n^{12}.
 \]
 They retain the Haar contribution, virtual transitions, moving vacuum and source leakage. The negative four-face gap correction in [[four-face-gap-shift-and-the-complete-source-response|FF]] does not determine either coefficient's large-\(L\) behavior.
 
@@ -51,7 +51,7 @@ They retain the Haar contribution, virtual transitions, moving vacuum and source
 \]
 The same \(\eta\) must cover all patch sizes; allowing an additional unknown \(L\)-dependent onset threshold would not establish this test.
 
-The exponents \(39,41\) are proposed envelopes. Iterating the existing finite-degree bounds suggests vacuum vectors of order \(m\) might cost \(n^{10m}\), energy coefficients \(n^{10m-1}\), and normalized susceptibility coefficients \(n^{10m+1}\). This motivates the displayed fourth-order powers. It proves neither those higher-order bounds nor control of the exact compact remainder. A sharper valid estimate would also resolve the test.
+The exponents \(39,41\) are conservative proposed envelopes. The sharper local jet bounds reduce the known coefficient costs, but an exact compact remainder is not determined by finite-degree coefficient estimates. A sharper valid uniform remainder would also resolve the test.
 
 Here the marked quantity is the actual centered and variance-normalized response of this specified probe family. Equation (GW4) is not a uniform theorem for arbitrary increasing collections of marks, a full spectral reconstruction, or an operator-norm return on every observable.
 
@@ -61,13 +61,13 @@ Assume (GW3)–(GW4). Dividing (GW3) by \(c_L\), and multiplying (GW4) by \(c_L\
 \[
 \boxed{
 \left|\frac{\Delta_L(g)}{E c_L}-1\right|
-\le C_\Delta(\epsilon^2+\epsilon^4),\qquad
+\le C_\Delta(\epsilon^2n^{-9}+\epsilon^4),\qquad
 \left|c_L\mathcal S_L-1\right|
-\le C_{\mathcal S}(\epsilon^2+\epsilon^4).}
+\le C_{\mathcal S}(\epsilon^2n^{-9}+\epsilon^4).}
 \tag{GW5}
 \]
 For example, the gap's first relative correction is bounded by
-\(C_d h^2n^{19}/c_L=O(h^2n^{20})\); its relative remainder is \(O(h^4n^{40})\). The susceptibility has the same two powers after normalization by \(1/c_L\).
+\(C_d h^2n^{10}/c_L=O(h^2n^{11})=O(\epsilon^2n^{-9})\); its relative remainder is \(O(h^4n^{40})=O(\epsilon^4)\). The susceptibility has the same two powers after normalization by \(1/c_L\).
 
 Shrinking \(\eta\) if necessary makes both relative errors less than \(1/2\). Thus throughout that smaller window the scaled gap is comparable to \(c_L\), and the scaled susceptibility is comparable to \(1/c_L\). Along any sequence \(L\to\infty\), \(\epsilon\to0\),
 \[
@@ -114,15 +114,15 @@ At a fixed physical duration \(t=\ell>0\), equation (GW7) instead gives
 \(\gamma_{L,g}(\ell)\to1\).
 The first comparison uses shrinking physical times. It therefore does not refute the active innovation conjecture at a fixed positive physical slab.
 
-## The missing estimate is an actual weighted localization bound
+## The remaining estimate is a nonlinear operator residual
 
-The proposed test must control compact localization and spectral separation with explicit size dependence, then propagate sufficiently accurate quasimodes through the actual source and reduced Poisson equation. Fixed-degree coefficient arithmetic alone is insufficient.
+[[uniform-planar-localization-and-the-first-physical-levels|The uniform localization theorem]] now supplies actual low-level separation with explicit size dependence. [[weighted-compact-source-return-on-growing-patches|The exact compact graph-norm estimate]] controls source multiplication through that same Hamiltonian. The next step is to propagate sufficiently accurate nonlinear quasimodes and the centered Poisson solution with quantitative operator residuals. Fixed-degree coefficient arithmetic alone is insufficient.
 
 The source loss itself has a size factor:
 \[
 \|\mathcal B_L\|\le L^2,\qquad
 \|4\mathcal B_L/h^2\|\le4L^2h^{-2},
 \]
-by \(\sum_pv_{11}(p)^2=1\), \(|\mathbf q_p|\le1\), and Cauchy–Schwarz. Its leading scaled variance is \(6\lambda_{\min}(A_L)\asymp n^{-2}\). Uniform centering and normalization must pay these factors or replace the crude operator-norm estimate with a proved weighted bound. The inverse and moving spectral projections also require quantified separation of the actual low physical levels. CS's fixed-\(L\) quasimodes do not by themselves supply this information.
+by \(\sum_pv_{11}(p)^2=1\), \(|\mathbf q_p|\le1\), and Cauchy–Schwarz. Its leading scaled variance is \(6\lambda_{\min}(A_L)\asymp n^{-2}\). The weighted source theorem now replaces this crude multiplication loss: a correctly selected ground-quasimode residual \(\rho\), with the specified normalization checks, gives source-vector error at most \(Cn^4\rho\). The variance scale is retained in this bound. It does not by itself prove the susceptibility remainder.
 
 A proof of (GW3)–(GW4), or a rigorously identified failure of the proposed window, would determine where the current nonlinear calculation can be used as spatial evidence. A gap mechanism beyond that window would still require a controlled crossover and the complete mixed-source obligations of [[conditional-vacuum-rigidity-and-the-physical-gap|CV]]. An unevaluated positive mass correction or a different source chosen to hide leakage would not resolve this test.
