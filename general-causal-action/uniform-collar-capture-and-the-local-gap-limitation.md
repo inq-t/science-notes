@@ -94,13 +94,13 @@ Consequently its optimal OI floor is
 
 Thus even the conjunction of complete local radial coercivity and uniform collar capture does not imply the full-carrier inequality. The counterexample concerns that inference at fixed scaled time. It does not disprove the active conjecture at a fixed physical slab or establish an obstruction for four-dimensional Yang–Mills.
 
-## The next assembly test retains the mixed source matrix
+## The mixed source matrix resolves the range test
 
-The next comparison should use centered invariant quadratics
+The comparison uses centered invariant quadratics
 \[
 F_B(X)=\sum_{\alpha=1}^3 X_\alpha^{\mathsf T}B X_\alpha
        -3\operatorname{Tr}(BC),\qquad B=B^{\mathsf T},
 \]
-with actual relative color transport. Diagonal \(B\) describes arbitrary sums of one-face quadratic sources; off-diagonal \(B\) retains their relational bilinears. [[additive-neutral-sources-and-the-pairing-range-test|The additive-source theorem]] now proves that every diagonal \(B\), with arbitrary growing support and signed coefficients, still has a uniform positive OI floor. The next test varies the spatial range of the off-diagonal pairings and determines whether each fixed range retains coercivity. Track the mixed innovation Gram form, not only the separate normalized diagonal responses.
+with actual relative color transport. Diagonal \(B\) describes arbitrary sums of one-face quadratic sources; off-diagonal \(B\) retains their relational bilinears. [[additive-neutral-sources-and-the-pairing-range-test|The additive-source theorem]] proves a uniform floor for every diagonal \(B\). [[finite-pairing-range-and-the-harmonic-innovation-floor|The complete range comparison]] now gives the exact order \(\min\{1,t/(R+1)\}\) for pairings of range at most \(R\), including arbitrary signed growing matrices. [[localized-relational-sources-in-the-inherited-vacuum|The upper witness]] lives inside the inherited larger vacuum, and [[compact-quadratic-carrier-and-the-pairing-range-return|the compact quadratic source map]] preserves the response with its actual normalization and error.
 
-This is a discriminating source-assembly test within oriented innovation transport. It can identify which growing relational directions escape the local floor and what a non-Abelian sewing estimate must constrain. The source exchange, vacuum caps and changed-history lag cost of [[spatial-block-sewing-and-the-vacuum-cap-response|SB]] remain part of that eventual estimate. The full continuum and cosmological targets in [[research-schema|the research schema]] are unchanged.
+This decides the quadratic source-assembly test within oriented innovation transport: finite-range information has a response floor whose constant deteriorates as pairings extend. A non-Abelian gap mechanism must still constrain those newly accessible relational directions beyond the proved window. The source exchange, vacuum caps and changed-history lag cost of [[spatial-block-sewing-and-the-vacuum-cap-response|SB]] remain part of that estimate. The full continuum and cosmological targets in [[research-schema|the research schema]] are unchanged.
