@@ -10,7 +10,7 @@ Q=I-|\Omega\rangle\langle\Omega|,\qquad
 \delta:\mathcal H\longrightarrow\mathcal H^{\oplus m},\qquad
 B\delta=Q-E,\qquad \delta\Omega=0,
 \]
-with \(\|E\|\le\rho<1\). The initial repair \(B\) must already have an independent construction. For a vacuum-preserving isometry \(V:\mathcal H_c\to\mathcal H\), put
+with \(\|E\|\le\rho<1\). The initial repair \(B\) must already have an independent construction. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|The cyclic-comparison seed, PN11–12]], constructs one by a finite word when its source-coherence and actual-innovation hypotheses hold. For a vacuum-preserving isometry \(V:\mathcal H_c\to\mathcal H\), put
 \[
 V_m=I_m\otimes V,\qquad P_m=V_mV_m^*,\qquad
 \delta_c=V_m^*\delta V,\qquad B_c=V^*BV_m.
@@ -46,6 +46,8 @@ This follows by substitution. If \(\|\widehat B_c\|\le C_*\), \(C_*>0\), then on
 \tag{DD5}
 \]
 The correction removes the compression term from the repair identity. It does not remove the need to control the repair norm.
+
+The innovation carrier need not be \(\mathcal H^{\oplus m}\). For \(\delta:\mathcal H\to\mathcal X\) and \(B:\mathcal X\to\mathcal H\), specify the actual retained-innovation isometry \(S:\mathcal X_c\to\mathcal X\) as well as the vacuum-preserving \(V\). Replacing \(V_m,P_m\) by \(S,SS^*\) proves (DD1)–(DD5) unchanged. Thus the cyclic-comparison seed can be transported on its own innovation carrier; no arbitrary identification with copies of the source space is required.
 
 ## Division means a rule on source expressions
 

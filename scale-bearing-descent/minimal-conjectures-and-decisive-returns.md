@@ -38,7 +38,7 @@ The first decisive return is the different center–CP constraints for the \(SU(
 
 **Conjecture C2. In a specified Yang–Mills vacuum branch, a finite algebra of actual source comparisons both generates a nonvacuum response floor and constructs its repair through admissible changes of access.**
 
-There are two concrete generation candidates. One is a finite source relation yielding the [[quantitative-descent/rigidity-certificates-and-soft-escape|positive polynomial certificate]] in a complete neutral representation. The other is the [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|three-history phase separation]] together with an explicit factorization through the actual innovation. In both cases the certificate is a consequence sought from elementary relations, not the axiom that defines the branch.
+There are two concrete generation candidates. One is a finite source relation yielding the [[quantitative-descent/rigidity-certificates-and-soft-escape|positive polynomial certificate]] in a complete neutral representation. The other is [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|three-history cyclic separation]] together with a finite-word factorization \(\mathcal A=\mathcal K\delta\) through the actual innovation. The latter now has an explicit conditional seed: \(B_0=\mathcal A^*\mathcal K/9\), whose repair error is strictly below one by the Gram bound. In both cases the source relation is a consequence sought from elementary composition, not the axiom that defines the branch.
 
 The new operation for preserving that floor is **descent division**. The exact variance calculation has
 \[

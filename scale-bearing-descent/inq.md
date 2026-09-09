@@ -8,6 +8,8 @@ keywords: [scale, descent, master-object, asymmetry, symmetry-breaking, mass-gap
 
 Scale-bearing descent seeks a mathematical master object whose composition law selects its states, causal arena, clock and stable observable sectors. Scale, symmetry breaking, mass gaps and cosmic response would be different returns of that law. The central proposal is to retain phase compatibility and positive comparison together, then make descent construct its own repair. The programme now has three explicit conjectural bridges and finite tests of each; the complete Yang–Mills and cosmological returns remain construction targets.
 
+[[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] gives the short article: a conjectured source relation constructs an initial repair, a second conjecture carries it through descent, and the same chronology turns its bound into a mass threshold.
+
 ## The object before its presentations
 
 A cosmos is considered here as an arena of mutually comparable facts. Its whole law specifies how comparisons belong together; local descriptions specify what is accessible through particular comparisons. A change of access can be irreversible even when the accessible description admits symmetries. The foundational question is what selects this joint structure before a field, manifold, state or Hamiltonian is supplied independently.

@@ -1,6 +1,6 @@
 # Phase and Distinguishability from One Kernel
 
-A phase can constrain distinguishability when both belong to the same positive comparison kernel. A three-history Gram identity supplies a finite example: a nontrivial cyclic phase prevents all three histories from having nearly identical rays. The proposed extension is to force such separation on a complete family of actual source histories and reconstruct it from their physical innovation. This would turn a phase relation into a response bound without first choosing a spectrum.
+A phase can constrain distinguishability when both belong to the same positive comparison kernel. A three-history Gram identity supplies a finite example: a cyclic relation prevents all three histories from having nearly identical rays. Its weaker, unequal-overlap form also constructs an initial repair without a spectral inverse, provided the history differences factor through the actual innovation. The proposed discovery is a finite source law that forces these relations on the complete centered carrier.
 
 ## A phase is part of a positive comparison
 
@@ -82,3 +82,74 @@ Then derive the factorization in (PN6) from the actual conditional predictor. Ar
 Test the candidate against [[quantitative-descent/rigidity-certificates-and-soft-escape|the concentrating non-Abelian family]] and [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|actual soft chronological filters]]. A valid new law must identify which of its independently specified relations those examples fail. Test its behavior under subdivision as well: fixed nontrivial phase on every shrinking spatial plaquette need not admit a finite-curvature continuum return.
 
 The attainable first result is a finite source identity that forces a comparison floor and is realized by one actual sewn law. [[scale-bearing-descent/constructive-descent-division|Descent division]] then asks whether that rigidity can be repaired through changes of access. [[scale-bearing-descent/minimal-conjectures-and-decisive-returns|The conjectural chain]] places these as separate steps toward a single stable physical return.
+
+## A weaker cyclic relation already forces separation
+
+The equal-modulus, phase-\(\pi\) hypothesis can be relaxed. For any normalized three-history Gram matrix, write
+\[
+z=G_{12}G_{23}G_{31},\qquad
+s=|G_{12}|^2+|G_{23}|^2+|G_{31}|^2.
+\]
+Its positivity gives the exact identity and inequality
+\[
+\det G=1-s+2\operatorname{Re}z\ge0.
+\tag{PN8}
+\]
+Consequently a **nonpositive cyclic interference** relation suffices:
+\[
+\operatorname{Re}z\le0
+\quad\Longrightarrow\quad
+s\le1+2\operatorname{Re}z\le1.
+\tag{PN9}
+\]
+This permits unequal and zero overlaps; no phase is assigned to a zero product. Like the cyclic phase, \(z\) is unchanged by individual line-frame changes.
+
+In fact, \(0\le G\le2I\). The one-by-one and two-by-two principal minors of \(2I-G\) equal those of \(G\), while
+\[
+\det(2I-G)=1-s-2\operatorname{Re}z
+=\det G-4\operatorname{Re}z\ge0.
+\]
+Thus every principal minor of the Hermitian matrix \(2I-G\) is nonnegative, which proves its positivity.
+
+Suppose the actual isometric history lifts in (PN4) satisfy (PN9) for every nonzero centered source \(f\). With \(\mathbf1=(1,1,1)^T\), this gives
+\(\|\sum_iV_if\|^2=\mathbf1^*G(f)\mathbf1\,\|f\|^2\le6\|f\|^2\).
+Expanding the three pair differences therefore yields
+\[
+\boxed{\|\mathcal A f\|^2
+=9\|f\|^2-\|\textstyle\sum_iV_if\|^2
+\ge3\|f\|^2.}
+\tag{PN10}
+\]
+If physical sewing also supplies (PN6), the actual innovation has lower bound
+\(3/B\) on this carrier. These implications are exact conditional statements.
+
+The sharper conjectural target is a finite source identity that forces (PN9) in the selected branch. It could be a positive-word certificate for the negative real cyclic product in the algebra of three marked copies, derived before evaluating the source matrices. No such identity has been constructed here. It is not a universal principle of facts or a consequence of anomaly matching alone. It must cover the complete centered source carrier of the same positive kernel; the physical factorization and artificial-tensor-lift test above remain essential. The gain is a seed criterion without equal overlap magnitudes or one prescribed nonzero phase.
+
+### The same words construct a seed repair
+
+Because the three \(V_i\) are isometries, direct expansion gives
+\[
+\boxed{\mathcal A^*\mathcal A
+=9I-(V_1+V_2+V_3)^*(V_1+V_2+V_3),
+\qquad 3I\le\mathcal A^*\mathcal A\le9I.}
+\tag{PN11}
+\]
+The lower bound uses (PN9); the identity and upper bound use only the isometries. Suppose the bounded actual innovation is
+\(\delta:\mathcal H_0\to\mathcal X\), and physical sewing constructs
+\(\mathcal K:\mathcal X\to\mathcal H_{\mathrm{hist}}^{\oplus3}\)
+with \(\mathcal A=\mathcal K\delta\) and \(\|\mathcal K\|\le L\).
+Define a return map without inverting either analysis:
+\[
+\begin{aligned}
+B_0&=\tfrac19\mathcal A^*\mathcal K:
+\mathcal X\longrightarrow\mathcal H_0,
+& E_0&=I-\tfrac19\mathcal A^*\mathcal A,\\
+B_0\delta&=I-E_0,
+&0\le E_0&\le\tfrac23I,
+\qquad \|B_0\|\le L/3.
+\end{aligned}
+\tag{PN12}
+\]
+Thus the same source expressions supply the initial bounded repair required by [[scale-bearing-descent/constructive-descent-division|descent division]]. If the \(V_i\) and \(\mathcal K\) are admissible finite-word expressions, so is \(B_0\): only adjoints, composition and linear combinations have been used. The constant \(1/9\) comes from the elementary upper bound in (PN11), not from the sought spectrum.
+
+On \(\mathcal H=\mathbb C\Omega\oplus\mathcal H_0\), extend \(\mathcal A\) and \(E_0\) by zero on the vacuum and include the range of \(B_0\) in \(\mathcal H_0\). If the actual innovation satisfies \(\delta\Omega=0\), then (PN12) becomes \(B_0\delta=Q-E_0\), with \(Q=I-|\Omega\rangle\langle\Omega|\). This is the required vacuum-preserving seed. Uniform control through further cuts remains the separate division conjecture.
