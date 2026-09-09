@@ -47,7 +47,7 @@ with adjoint \(J_0^*-AJ_-^*\). Every map is obtained by conditional integration 
 R_+:=\delta_+^*\delta_+=I-A^2=I-P^{2k}.}
 \tag{OI4}
 \]
-This is TSI3–4b instantiated on the actual RS carrier. Positivity of \(P\) also gives
+This is TSI3–4b instantiated on the actual RS carrier. [[regional-innovation-and-exterior-information-balance|Regional restriction]] retains an additional exterior-information channel: compressing the actual response and squaring a regional predictor are distinct operations. Its exact balance preserves the present clock and innovation law. Positivity of \(P\) also gives
 \[
 \ker R_+=\ker(I-P),\qquad
 R_+=I-e^{-2\ell H}\le2\ell H,

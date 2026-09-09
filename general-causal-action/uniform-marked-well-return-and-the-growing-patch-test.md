@@ -110,6 +110,6 @@ The first comparison uses shrinking physical times, so it does not refute the ac
 
 ## Spatial assembly remains the next discriminating test
 
-The uniform remainder resolves this isolated planar test. [[inherited-planar-vacuum-and-the-regional-time-law|The regional harmonic benchmark]] proves that independently preparing a block changes both its inherited state and its temporal response. The next comparison must return this inherited marked history from the actual compact theory through [[spatial-block-sewing-and-the-vacuum-cap-response|spatial sewing]].
+The uniform remainder resolves this isolated planar test. [[compact-regional-covariance-and-susceptibility-return|The fixed-profile compact return]] now preserves inherited regional covariance and susceptibility, while [[vacuum-hellinger-return-and-regional-conditional-projections|the conditional-operator theorem]] proves actual one-face memory. [[regional-innovation-and-exterior-information-balance|The regional balance]] retains the exterior channel in the same oriented response. The next comparison controls its size as the retained collar grows under [[spatial-block-sewing-and-the-vacuum-cap-response|spatial sewing]].
 
 A gap mechanism beyond the present window requires controlled crossover and the complete mixed-source obligations of [[conditional-vacuum-rigidity-and-the-physical-gap|CV]]. The four-face counterprobe remains a control against inferring reinforcement from one favorable readout.
