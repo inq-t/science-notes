@@ -1,6 +1,6 @@
 # Minimal Conjectures and Decisive Returns
 
-The proposed discovery is a composition law that determines which realizations are possible and how their distinctions remain stable. Its central operation would repair the information lost in descent by a finite rule, while the same evaluated histories supply phase relations, a positive norm and a compatible clock. The conjectures below specify the smallest bridges presently worth attempting. They are intended to produce new mathematical consequences before the entire Yang–Mills construction is available.
+The proposed discovery is a composition law that determines which realizations are possible and how their distinctions remain stable. Its central operation would construct a repair from source relations and extend it to new distinctions, while the same evaluated histories supply phase relations, a positive norm and a compatible clock. Actual regional restriction already transports an existing repair by an exact conditional theorem. The conjectures below isolate the further bridges that could produce new mathematical consequences before the entire Yang–Mills construction is available.
 
 ## The starting object and the target are connected by three leaps
 
@@ -36,11 +36,13 @@ The first decisive return is the different center–CP constraints for the \(SU(
 
 ## C2. The source relations generate and repair rigidity
 
-**Conjecture C2. In a specified Yang–Mills vacuum branch, a finite algebra of actual source comparisons both generates a nonvacuum response floor and constructs its repair through admissible changes of access.**
+**Conjecture C2. In a specified Yang–Mills vacuum branch, a finite algebra of actual source comparisons generates a nonvacuum response floor and extends its repair through admissible assembly and refinement, including genuinely new source directions, with a uniform bound.**
 
 There are two concrete generation candidates. One is a finite source relation yielding the [[quantitative-descent/rigidity-certificates-and-soft-escape|positive polynomial certificate]] in a complete neutral representation. The other is [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|three-history cyclic separation]] together with a finite-word factorization \(\mathcal A=\mathcal K\delta\) through the actual innovation. The latter now has an explicit conditional seed: \(B_0=\mathcal A^*\mathcal K/9\), whose repair error is strictly below one by the Gram bound. In both cases the source relation is a consequence sought from elementary composition, not the axiom that defines the branch.
 
-The new operation for preserving that floor is **descent division**. The exact variance calculation has
+Preserving an existing floor and controlling new directions are separate tasks. [[scale-bearing-descent/coherent-comparison-lifts-and-bounded-descent|The comparison-lift theorem]] solves pure regional restriction of one fixed joint law: \(\delta_fV=\Lambda\delta_c\), with contractive, exactly composable \(\Lambda\), transports the repair as \(V^*B_f\Lambda\). Expressing that operation within the retained source grammar remains a construction requirement. Adding a new loop, mixed source or interaction is not covered by this theorem.
+
+For hard compression, the proposed operation is **descent division**. The exact variance calculation has
 \[
 B_c\delta_c=Q_c-V^*EV-C_V,
 \qquad C_V=L_B^*L_\delta.
@@ -56,11 +58,13 @@ so the corrected repair satisfies
 (B_c+K_V)\delta_c=Q_c-V^*EV.
 \tag{MC3}
 \]
-[[scale-bearing-descent/constructive-descent-division|The division theorem and conjecture]] make this precise. The forgotten comparison contributes a correction to the retained repair. Its norm must still be controlled. The hoped-for economy is a finite family of correction types, closed under successive cuts, whose coefficients and geometric overlap give a uniform bound.
+[[scale-bearing-descent/constructive-descent-division|The division theorem and conjecture]] make this precise. The forgotten comparison contributes a correction to the retained repair. Its norm must still be controlled. A source-defined factorization of the whole lost analysis produces a comparison lift; a bound on its complete composite then replaces repeated estimates of separate corrections. The hoped-for economy is a finite calculus of boundary messages, closed under actual source products, whose identities and assembly geometry give a uniform bound. Finitely many operation types alone do not bound the messages they generate.
 
 This is a stronger question than asking whether all independently accumulated errors happen to be small. It also has a sharper first failure: if \(\delta_cf=0\) but \(C_Vf\ne0\), division through the retained carrier is impossible. The next construction must retain an omitted boundary channel or change the allowed crossing.
 
-**First calculation.** Use one finite prepared law, two successive cuts and the full mixed-source algebra. Compute \(C_V\) directly from its boundary maps. Specify the rewrite identity from formal source relations before evaluating matrices, then reuse it in both elimination orders and across a nontrivial parameter or enlargement family. Finite coefficients in one matrix inverse are automatic, and expressing that inverse by Cayley–Hamilton does not select the rule. A nonzero corrected family with controlled coefficients and overlap would establish a mechanism worth developing.
+**First extension calculation.** Introduce a genuinely new loop or mixed source coupled through two conditional parents. Derive its comparison identity from the complete prepared law, and specify the boundary-message rewrite before evaluating matrices. Carry its nonzero correction through both elimination routes and rebuild the repair jointly on old and new sources. Restriction back to the old source carrier tests the exact transport theorem. A uniform bound through repeated extensions tests the remaining conjecture.
+
+The [[general-causal-action/conditional-boundary-translation-and-source-products|four-face source message]] gives a determined interaction correction and product rule, while the [[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|Schur extension]] shows why the added mixed directions can lower an earlier response minimum. Preserve the actual chronology and state normalization, or explicitly derive their change from the extended law. Finite coefficients in one matrix inverse are automatic, and expressing that inverse by Cayley–Hamilton does not select a source rule.
 
 Then test the rule on the concentrating neutral family, the integer gluing matrices and the phase erased by passage to observables. Ordinary cohomological exactness does not exclude these controls. The conjecture must point to an actual source relation or a bound they violate.
 

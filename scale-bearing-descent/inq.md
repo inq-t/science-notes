@@ -6,9 +6,9 @@ keywords: [scale, descent, master-object, asymmetry, symmetry-breaking, mass-gap
 ---
 # Scale-Bearing Descent
 
-Scale-bearing descent seeks a mathematical master object whose composition law selects its states, causal arena, clock and stable observable sectors. Scale, symmetry breaking, mass gaps and cosmic response would be different returns of that law. The central proposal is to retain phase compatibility and positive comparison together, then make descent construct its own repair. The programme now has three explicit conjectural bridges and finite tests of each; the complete Yang–Mills and cosmological returns remain construction targets.
+Scale-bearing descent seeks a mathematical master object whose composition law selects its states, causal arena, clock and stable observable sectors. Scale, symmetry breaking, mass gaps and cosmic response would be different returns of that law. The central proposal is to retain phase compatibility and positive comparison together, then construct a stable repair from their source relations. An exact theorem now transports an existing repair through regional restriction; constructing the seed and controlling new source directions remain conjectural. The complete Yang–Mills and cosmological returns remain construction targets.
 
-[[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] gives the short article: a conjectured source relation constructs an initial repair, a second conjecture carries it through descent, and the same chronology turns its bound into a mass threshold.
+[[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] develops the central argument: a conjectured source relation constructs an initial repair, restriction transports it exactly, a second conjecture controls new source directions, and the same chronology turns its bound into a mass threshold.
 
 ## The object before its presentations
 
@@ -37,6 +37,8 @@ For a unital completely positive readout \(\Phi\), the difference
 records the product information lost at the crossing. Its composition law transports earlier loss before adding the next loss. [[scale-bearing-descent/variance-completed-rigidity|Variance-completed rigidity]] retains that channel and proves how an algebraic gap certificate or constructed repair can survive compression, provided the total loss remains controlled.
 
 [[scale-bearing-descent/constructive-descent-division|Constructive descent division]] proposes a stronger operation. Express the mixed lost channel through the retained comparison by a finite source rule, and use the quotient as a correction to the repair. The exact lemma removes that new error term; a finite closure and overlap theorem must keep the rebuilt repair bounded through successive cuts. This gives a concrete algebraic task beyond postulating a small accumulated loss.
+
+[[scale-bearing-descent/coherent-comparison-lifts-and-bounded-descent|Coherent comparison lifts]] identifies a case where the norm and composition are already controlled: the actual regional innovation of one fixed joint law transports any existing repair contractively through nested restrictions. For broader descent, the target is a source-defined lift whose complete composite stays bounded. Genuine source extension adds a separate obligation, tested by the full mixed response matrix. The companion connects the exact theorem to harmonic lifting, interacting boundary messages and the source-extension calculations.
 
 The generic [[quantitative-descent/inq|quantitative descent theorems]] supply the underlying alternatives: a finite algebraic positivity certificate, or a bounded reconstruction of distinctions from their comparison errors. Exact solvability and stable solvability are different. The proposed master law must explain which sectors satisfy the stronger requirement and preserve it through their actual changes of access.
 
