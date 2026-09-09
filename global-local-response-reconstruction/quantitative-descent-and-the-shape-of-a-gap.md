@@ -1,6 +1,6 @@
 # Quantitative Descent and the Shape of a Mass-Gap Construction
 
-A candidate is a state-dependent geometry of directed gluing whose normalized response cannot degenerate under refinement. Algebraic descent would organize compatible local presentations; a positive state would supply their comparison norm; quantitative rigidity would exclude almost-invisible physical distinctions; and a separate reconstruction would return local unitary clock dynamics. The missing principle is not merely that a distinction exists, but that the complete physical distinction carrier cannot approach zero response at one fixed physical scale.
+For Yang–Mills, quantitative descent must act on the complete vacuum-weighted physical source carrier at one fixed physical scale. This application combines a joint-boundary response, independently calibrated energy comparison and controlled continuum return. The generic rigidity certificates and their transport through readouts have separate owners; the missing physical estimate is that the actual interacting law cannot develop normalized distinctions with arbitrarily small response.
 
 **Status: [RESEARCH SYNTHESIS AND CANDIDATE CONSTRUCTION].** The operator identities and sufficient certificates below are exact under their stated assumptions. No existing workspace geometry is shown here to force those assumptions for continuum Yang--Mills.
 
@@ -140,114 +140,25 @@ B_D\ge\frac{\lambda_F}{1+\lambda_F}Q_C
 \]
 from a Poincare inequality for the boundary law in the conditional family's Fisher metric. This controls every core observable, not just parameter tangents. [[collared-quasi-factorization-and-surface-response/fisher-collar-bound-for-wilson-laws|The Wilson collar theorem]] provides an explicit nonlinear, volume-uniform instance using the action, compact curvature and operator-norm score covariance. Its strong-coupling hypotheses are not yet controlled along the continuum trajectory. [[bridge-data-augmentation-solder/bridge-floor-under-joint-limits|The joint-limit theorem]] preserves a uniform response floor if the nontrivial limiting joint law can separately be constructed.
 
-## Two ways algebra or geometry could force the inequality
+## Algebraic rigidity must reach the physical carrier
 
-### A positive algebraic certificate
+[[quantitative-descent/rigidity-certificates-and-soft-escape#A positive algebraic certificate|The positive certificate, QD5–6]] and [[quantitative-descent/rigidity-certificates-and-soft-escape#A constructive quantitative gluing map|the bounded repair, QD7–8]] provide two exact ways to prove a response floor without reading the desired Hamiltonian spectrum backward. Their shared owner retains the proofs and the dense-domain distinction: the repair estimate does not assume that its analysis operator is bounded.
 
-Suppose the directed gluing relations select a positive bounded element \(R\) in a declared ordered \(*\)-algebra or admissible \(C^*\)-completion, and force
-\[
-\boxed{R^2-\kappa R=\sum_jB_j^*B_j,\qquad R\ge0,\quad\kappa>0.}
-\tag{QD5}
-\]
-Every bounded admissible \(*\)-representation then has
-\[
-\sigma(\pi(R))\subset\{0\}\cup[\kappa,\infty).
-\tag{QD6}
-\]
-Indeed, positivity of the represented right side gives
-\(x(x-\kappa)\ge0\) on the spectrum; positivity of \(R\) excludes the negative branch. The spectral theorem proves (QD6).
+For Yang–Mills, the physical work is to derive the same normalized comparison at fixed physical half-width \(\ell\), represent it on the full neutral observable carrier, and identify its kernel with the vacuum. A gauge-group action that fixes every gauge-invariant state fails that test. Universal rigidity is one sufficient route, not a necessary property of every possible Yang–Mills construction.
 
-Here the gap follows from an identity that can be checked before diagonalizing the physical Hamiltonian. [[library/noncommutative-real-algebraic-geometry-of-kazhdans-property-t/inq|Ozawa's property-(T) theorem]] is an exact precedent for this kind of algebraic certificate. [[categorical-gauge-response/quantum-g2-categorical-rigidity-and-the-carrier-firewall|Quantum-\(G_2\) categorical rigidity]] suggests an admissible-representation version; its positivity must be that of the appropriate tube or annular completion, not just formal fusion rules.
+The intended repair is assembled from local extension maps with bounded overlap or congestion. [[gauge-boundary-frame-gluing/inq|Gauge boundary frames]] and [[markov-edge-measure-solder/inq|local form comparison]] retain the charged regional data needed to glue physical sources. They do not by themselves bound the resulting repair independently of surface size.
 
-The physical work would be to derive the same normalized gluing element at fixed \(\ell\), represent it on the full neutral observable carrier, and prove that its invariant subspace is only the vacuum. A gauge-group action that fixes every gauge-invariant state fails that test. Universal rigidity is one sufficient route, not a necessary property of every possible Yang--Mills construction.
+[[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop theorem]] supplies a worked repair on a section carrier: visible holonomy and bounded loop congestion produce a volume-independent floor. Its adjoint observable process loses the central defect and becomes diffusive. The [[quantitative-descent/rigidity-certificates-and-soft-escape#A concentrating non-Abelian comparison|concentrating non-Abelian control, QD6a–c]] likewise retains a positive sewn law and a vacuum-only common kernel while its neutral response tends to zero. A new primitive relation must explain why the intended physical law avoids these mechanisms.
 
-The word *certificate* must restrict how the right side is built. If arbitrary spectral functional calculus is allowed after assuming the exclusion, one can set \(B=(R^2-\kappa R)^{1/2}\) and obtain one square. That gives no independent reason for a gap. The proposed algebraic route requires explicit finite words in primitive comparison generators, with coefficients and \(\kappa\) deduced from their declared relations.
-
-There is an immediate non-Abelian test for any such proposed relations. Use [[general-causal-action/sewn-overlap-and-conditional-clock|the sewn-overlap family]], with \(G=SU(2)\), fundamental character \(\chi_1\) indexed by twice the spin, and
-\[
-p_k(g)=\frac{(4+\chi_1(g))^k}{Z_k},\qquad
-q_k=p_k*p_k,\qquad
-d\pi_k(x,y)=q_k(xy^{-1})\,dx\,dy,\qquad
-R_k=\frac{2I-P_{x,k}-P_{y,k}}2.
-\tag{QD6a}
-\]
-Here \(P_{x,k},P_{y,k}\) are the actual conditional-expectation projections in \(L^2(\pi_k)\). Every finite positive integer \(k\) has full support, a positive state, state-preserving comparisons and a vacuum-only common fixed space. Put
-\[
-b_k=\frac12\int p_k(g)\chi_1(g)\,dg,\qquad
-F_k=\frac{\chi_1(x)+\chi_1(y)}{\sqrt{2(1+b_k^2)}}.
-\tag{QD6b}
-\]
-The source \(F_k\) is centered, normalized and invariant under simultaneous conjugation. The exact two-projection calculation gives
-\[
-R_kF_k=r_kF_k,\qquad r_k=\frac{1-b_k^2}{2}>0,\qquad
-\langle F_k,(R_k^2-\kappa R_k)F_k\rangle=r_k(r_k-\kappa).
-\tag{QD6c}
-\]
-The function \(4+\chi_1\) has its unique maximum at the identity. Its normalized powers concentrate there, so \(b_k\to1\) and \(r_k\to0\). Thus (QD6c) is negative eventually for every fixed \(\kappa>0\). Non-Abelianity, positivity, exact sewing, conditional comparisons and a vacuum-only kernel cannot alone force a uniform certificate. A stronger primitive relation must explain why this family is excluded or why its particular comparison law changes. This is an internal comparison-family control at fixed update pace, not an identification of \(R_k\) with the physical slab defect or a Yang--Mills continuum limit.
-
-### A constructive quantitative gluing map
-
-Alternatively, take \(T_r=\delta_{r,\ell}|_{\mathscr C_r}\) on a dense physical nonvacuum domain, with response target \(\mathcal K_r\), and construct an independently specified return map \(B_r:\mathcal K_r\to\mathcal H_{0,r}\) with
-\[
-B_rT_r=I-E_r,\qquad
-\|B_r\|\le C,\qquad\|E_r\|\le\rho<1
-\tag{QD7}
-\]
-uniformly in \(r\). Then
-\[
-\boxed{\|T_r\psi\|^2
-\ge\frac{(1-\rho)^2}{C^2}\|\psi\|^2.}
-\tag{QD8}
-\]
-This follows from
-\((1-\rho)\|\psi\|\le\|(I-E_r)\psi\|
-\le C\|T_r\psi\|\).
-
-The meaningful construction is a gluing algorithm assembled from local extension maps, with bounded overlap or congestion and an error margin independent of the number of boundary cells. Choosing \(B_r\) as an inverse whose boundedness is inferred from the desired gap would be circular. [[gauge-boundary-frame-gluing/inq|Gauge boundary frames]] and [[markov-edge-measure-solder/inq|local form comparison]] describe relevant ingredients: keep boundary charge data open until parts have been glued, and avoid paying a separate uncontrolled loss for every surface cell.
-
-[[algebra/short-loop-holonomy-and-quantitative-gluing|The short-loop theorem]] constructs such a return map on an explicit section carrier: uniformly visible holonomy defects and bounded loop congestion give \(\mathcal RD_T=I\) and \(\|\mathcal R\|\le\sqrt{B/\kappa}\). Pauli edge transports realize the hypotheses with a volume-independent floor. The corresponding adjoint observable process loses the central defect and is instead diffusive. Thus the theorem realizes the gluing mechanism, while its physical carrier comparison remains substantive.
-
-This is what “geometry forces the bound” could mean concretely: a bounded reconstruction of every physical distinction from its response, with constants fixed by gluing geometry.
-
-The arrow being inverted matters. Here \(T_r\) denotes the response analysis \(\delta_{r,\ell}\), not Euclidean transfer. [[physical-response-coercivity/physical-distinction-coercivity#Stable inversion of which arrow?|The inversion fork]] proves that bounded inversion of physical transfer would impose an ultraviolet ceiling, whereas bounded inversion of its defect detects an infrared gap. [[hessian-response-geometry/response-rigidity-and-multiplicity|Response rigidity]] separately tests when a simple scalar matching law can control the complete response: exact irreducibility or a uniform comparison is needed; a fixed entropy profile and total trace do not suffice.
+The arrow being inverted also matters. [[physical-response-coercivity/physical-distinction-coercivity#Stable inversion of which arrow?|The inversion fork]] separates a bounded repair of response from bounded inversion of Euclidean transfer, which would constrain the ultraviolet spectrum. [[hessian-response-geometry/response-rigidity-and-multiplicity|Response rigidity]] separately tests whether a scalar matching law controls the complete response; a fixed entropy profile and total trace are insufficient.
 
 ## The continuum condition belongs to the measured law
 
-An algebraic identity survives a \(*\)-representation, but exact coarse-graining is generally only completely positive. For a UCP map \(\Phi\) and self-adjoint \(R\), its Schwarz defect is
-\[
-V_\Phi(R):=\Phi(R^2)-\Phi(R)^2\ge0.
-\tag{QD9}
-\]
-Applying \(\Phi\) to (QD5) gives
-\[
-\Phi(R)^2-\kappa\Phi(R)
-=\sum_j\Phi(B_j^*B_j)-V_\Phi(R).
-\tag{QD10}
-\]
-Thus positivity of the original certificate does not automatically imply the same polynomial certificate for the coarse image. The loss term must be retained and controlled. Linear order inequalities do pass through positive maps, but using them still requires the correct coarse response and vacuum-complement comparison.
+[[scale-bearing-descent/variance-completed-rigidity|Variance-completed descent]] owns the exact product-defect identity and its transport estimates. A completely positive readout preserves linear order, but its image of a quadratic response generally differs from the response rebuilt from compressed primitive comparisons. The actual source law must identify those objects and control their discrepancy. The same issue appears in [[rg-covariance-residue/conditioned-source-transport|conditional source transport]] and the [[rg-covariance-residue/nonlinear-conditional-gauge-response|normalized compact Hessian]]; normalization does not remove the mixed score or product terms.
 
-This is a precise whole--part issue: taking the coarse image and taking a quadratic response do not commute. It parallels the conditional-covariance subtraction in [[rg-covariance-residue/conditioned-source-transport|source transport]] and the full [[rg-covariance-residue/nonlinear-conditional-gauge-response|normalized compact Hessian]]. The needed framework must carry this remainder through composition, not discard it as a normalization detail.
+[[quantitative-descent/rigidity-certificates-and-soft-escape#Exact gluing and convergence can retain soft directions|The soft-escape controls, QD11–12]] show that exact local gluing and strong convergence do not preclude normalized low-response vectors from escaping into growing volume or new collective observables. A limiting-law construction needs a corresponding no-escape estimate on its complete source carrier.
 
-Three consequences follow.
-
-First, topological nontriviality is too weak. A local integer gluing matrix \(A_n=I-S_n\), with \(S_n\) the nilpotent shift, has determinant one, zero kernel, trivial integral cokernel, and norm at most two. Yet
-\[
-\lambda_{\min}(A_n^*A_n)
-=4\sin^2\!\frac{\pi}{4n+2}\longrightarrow0.
-\tag{QD11}
-\]
-The formula follows by solving the tridiagonal eigenvalue recurrence with one free and one fixed endpoint. Even bounded local coefficients and a unit residue do not give a bounded gluing inverse.
-
-Second, convergence must not allow soft normalized states to escape into growing volume, changing representations, or increasingly collective observables. Strong operator convergence alone does not exclude this: on \(\ell^2\),
-\[
-R_n=I-(1-1/n)|e_n\rangle\langle e_n|
-\longrightarrow I\quad\text{strongly},
-\qquad\inf\sigma(R_n)=1/n.
-\tag{QD12}
-\]
-A compactness route would need a no-escape theorem for normalized low-response vectors, not just compact configuration fibers.
-
-Third, ultraviolet stability is not infrared mass. [[rg-covariance-residue/uniform-gaussian-conditional-locality|The massless Gaussian construction]] already has uniform conditional response control through blocking depth. [[conditional-fisher-coercivity/weak-coupling-patch-threshold|The fixed-patch Wilson test]] now identifies the retained obstruction in the actual nonlinear law: a slow boundary-path response survives interior gauge reduction, and its neutral loop completion defeats the proposed \(1/n\) patch threshold on the global invariant carrier for fixed \(n\ge8\). This is a failure of that certificate, not of the mass gap. A nonlinear construction must control the retained law at one fixed physical scale as well as the fibers it discards. The needed bounds concern the full effective law, induced horizontal metric, interaction tails, and renormalized sources—not only the Wilson coefficient or a near-identity Hessian.
+Ultraviolet stability is not infrared mass. [[rg-covariance-residue/uniform-gaussian-conditional-locality|The massless Gaussian construction]] already has uniform conditional response control through blocking depth. [[conditional-fisher-coercivity/weak-coupling-patch-threshold|The fixed-patch Wilson test]] now identifies the retained obstruction in the actual nonlinear law: a slow boundary-path response survives interior gauge reduction, and its neutral loop completion defeats the proposed \(1/n\) patch threshold on the global invariant carrier for fixed \(n\ge8\). This is a failure of that certificate, not of the mass gap. A nonlinear construction must control the retained law at one fixed physical scale as well as the fibers it discards. The needed bounds concern the full effective law, induced horizontal metric, interaction tails, and renormalized sources—not only the Wilson coefficient or a near-identity Hessian.
 
 ## The most suggestive small model of necessity
 
@@ -293,7 +204,7 @@ This programme does not require a narrative of primordial jitter, inflation, or 
 
 ## The Copernican change is in explanatory order
 
-[[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|An oriented arrow]] can determine its stabilizer, and [[algebra/quotient-unitarity-and-kernel-stabilization|a kernel stabilizer]] can determine which transformations descend to the local quotient. Exceptional geometry supplies concrete examples of this order. The remaining task is to make that same construction select the state, the response, and a certificate such as (QD5) or (QD7).
+[[trace-dirichlet-descent/oriented-descent-angle-and-emergent-symmetry|An oriented arrow]] can determine its stabilizer, and [[algebra/quotient-unitarity-and-kernel-stabilization|a kernel stabilizer]] can determine which transformations descend to the local quotient. Exceptional geometry supplies concrete examples of this order. The remaining task is to make that same construction select the state, the response, and one of the [[quantitative-descent/rigidity-certificates-and-soft-escape|independent rigidity certificates]].
 
 Unitarity is not time-reversal symmetry, and a unitary clock is compatible with a gap. The assumption to question is that a whole-to-part formation map must itself be a unitary clock evolution. Noninvertible realization and local unitary dynamics can be different arrows. Faithful expected compression has important rigidity restrictions, described in [[algebra/faithful-descent-rigidity-and-noiseless-unitarity|the noiseless-sector theorem]]; it cannot simply manufacture a nontrivial reversible sector from a self-adjoint dissipative clock.
 

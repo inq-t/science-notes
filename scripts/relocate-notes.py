@@ -128,6 +128,9 @@ def main():
     root = Path.cwd().resolve()
     spec = json.loads(args.manifest.read_text(encoding="utf-8"))
     moves = spec["moves"]
+    frozen_prefixes = tuple(name.rstrip("/") + "/" for name in spec.get("frozen_prefixes", []))
+    for prefix in frozen_prefixes:
+        safe_path(root, prefix.rstrip("/"))
     receipt_path = args.manifest.with_suffix(".receipt.json")
     if args.apply and receipt_path.exists():
         raise ValueError(f"Receipt would overwrite an earlier run: {receipt_path}")
@@ -138,6 +141,8 @@ def main():
     protected = set(spec.get("protected", []))
     for source, dest in moves.items():
         src, dst = safe_path(root, source), safe_path(root, dest)
+        if source.startswith(frozen_prefixes):
+            raise ValueError(f"Move frozen record only under a separate reviewed operation: {source}")
         if not src.is_file() or dst.exists() or source in protected:
             raise ValueError(f"Missing source, occupied target or protected move: {source} -> {dest}")
     pending = {}
@@ -147,7 +152,7 @@ def main():
         if not source.endswith((".md", ".markdown")):
             continue
         data = (root / source).read_bytes()
-        if FROZEN.intersection(PurePosixPath(source).parts):
+        if FROZEN.intersection(PurePosixPath(source).parts) or source.startswith(frozen_prefixes):
             if source in moves:
                 raise ValueError(f"Move frozen record only under a separate reviewed operation: {source}")
             frozen[source] = digest(data)
@@ -164,7 +169,8 @@ def main():
     if not args.apply:
         print("Dry run: no files changed.")
         return
-    receipt = {"manifest": args.manifest.as_posix(), "moves": [], "link_updates": changed_links}
+    receipt = {"manifest": args.manifest.as_posix(), "moves": [], "link_updates": changed_links,
+               "frozen_prefixes": list(frozen_prefixes)}
     for source, dest in moves.items():
         src, dst = safe_path(root, source), safe_path(root, dest)
         data = src.read_bytes()

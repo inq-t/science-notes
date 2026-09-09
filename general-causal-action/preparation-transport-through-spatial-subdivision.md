@@ -136,6 +136,8 @@ The weak cost is also transported before taking any limit: \(V_f=V_c\circ\pi\), 
 
 Thus this subdivision law preserves the full interacting operator already returned by the coarse preparation; it does not claim that products of freshly normalized determinant kernels close at finite width. Adding a genuine adjacent cell changes the physical carrier and can require new preparations, while retaining the variable on a shared old incidence, as in the local incidence construction. The remaining selection problem is to determine that whole preparation inventory and its transport from the declared algebra and marked diagram. Pure subdivision coherence alone does not answer it.
 
+[[general-causal-action/calibrated-presentation-holonomy-and-spectral-return|Complete presentation calibration]] supplies a further test of this preservation: on the finite prepared physical carrier, a closed unitary transport fixing every source and one actual heat step is a scalar phase. Equality of spectra alone is weaker; the conclusion requires the complete source-and-clock experiment.
+
 ## Accessing an old subdivision vertex creates a new comparison obligation
 
 There is an exact obstruction to treating these two operations independently. Start with an edge from \(v_0\) to \(v_2\), subdivided as \(U=U_1U_2\) through \(m\). Attach a new path \(W\) from \(v_0\) to \(m\). The path \(W\) may be represented by its framed product here. The enlarged graph has the genuine loop

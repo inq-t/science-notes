@@ -187,7 +187,7 @@ In particular the actual RS logarithmic gaps satisfy
 \]
 The scalar \(g_\nu\) cancels in the ratio. For sufficiently large \(\nu\), every excitation of the supported auxiliary transfer has a gap bounded below by a positive constant depending on \(\Lambda,b,\rho,a_t\).
 
-For the replica innovation of [[oriented-innovation-and-finite-temporal-repair|OI19–28]], fix \(k\). Choose \((1-a_b)^k<\eta<1\). Equation (CM14) implies \(\|\mathcal K_{\parallel,\nu}\|\le\eta\) for all sufficiently large \(\nu\), including restriction to the centered cyclic frame-source sector. Thus OI25 holds there with \(c=1-\eta^2>0\), uniformly in auxiliary-copy removal at this fixed graph and coupling. This proves that part of the limit; it supplies neither a volume-independent constant nor a new finite-word positive decomposition.
+For the replica innovation of [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI19–28]], fix \(k\). Choose \((1-a_b)^k<\eta<1\). Equation (CM14) implies \(\|\mathcal K_{\parallel,\nu}\|\le\eta\) for all sufficiently large \(\nu\), including restriction to the centered cyclic frame-source sector. Thus OI25 holds there with \(c=1-\eta^2>0\), uniformly in auxiliary-copy removal at this fixed graph and coupling. This proves that part of the limit; it supplies neither a volume-independent constant nor a new finite-word positive decomposition.
 
 ## The same argument returns the actual vacuum source histories
 

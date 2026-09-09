@@ -2,7 +2,7 @@
 
 A new access can enlarge a Gaussian preparation while preserving every old prior readout. Several such extensions compose coherently when they are conditionals of one joint covariance; this law commutes with pure subdivisions that preserve the same accessible vertices and multiplication words. A stronger demand has an exact obstruction: adding a positive comparison generally changes the old marked posterior. The distinction gives a concrete sewing rule and identifies which response an attachment may legitimately change.
 
-**Status: exact finite Gaussian identities and presentation statements.** Covariance selection, the physical comparison and its time limit are additional data. [[conditional-preparation-extension-at-new-access|The conditional access construction]] supplies the actual pair of multiplication words; [[preparation-transport-through-spatial-subdivision|Preparation transport]] supplies the preceding physical-loop obstruction.
+**Status: exact finite Gaussian identities and presentation statements.** Covariance selection, the physical comparison and its time limit are additional data. [[conditional-preparation-sewing/conditional-preparation-extension-at-new-access|The conditional access construction]] supplies the actual pair of multiplication words; [[general-causal-action/preparation-transport-through-spatial-subdivision|Preparation transport]] supplies the preceding physical-loop obstruction.
 
 ## One extension preserves the complete old prior
 
@@ -41,7 +41,7 @@ For every old linear source \(j\) and Hermitian quadratic source \(T\) with \(\G
 {\det\Gamma\det(\Gamma^{-1}+T)}.}
 \tag{AP4}
 \]
-This preserves the entire old prior experiment, not only its covariance or norm. A source-free weight depending only on \(x\) can be inserted on both sides. A weight involving the new variable is a different assertion, tested below. The fixed-reference unnormalized versions and hidden-source factors are owned by [[marked-gaussian-constraints-and-sewing-measures|marked Gaussian sewing measures]].
+This preserves the entire old prior experiment, not only its covariance or norm. A source-free weight depending only on \(x\) can be inserted on both sides. A weight involving the new variable is a different assertion, tested below. The fixed-reference unnormalized versions and hidden-source factors are owned by [[general-causal-action/marked-gaussian-constraints-and-sewing-measures|marked Gaussian sewing measures]].
 
 ## The joint law, rather than an order of additions, carries the correlations
 
@@ -222,7 +222,7 @@ F_{2\to1}^{M}
 \end{aligned}
 \tag{AP18}
 \]
-Here \(\alpha>0\) is fixed, and the marks are required to be integrable. The first prescription retains access 1 and extends access 2 by [[conditional-normalization-and-marked-access|conditional normalization]]. The reverse prescription retains access 2. Exchangeability makes their scalar \(\overline z_\alpha\) and conditional function \(b_\alpha\) identical; it does not identify their pointwise denominators.
+Here \(\alpha>0\) is fixed, and the marks are required to be integrable. The first prescription retains access 1 and extends access 2 by [[conditional-preparation-sewing/conditional-normalization-and-marked-access|conditional normalization]]. The reverse prescription retains access 2. Exchangeability makes their scalar \(\overline z_\alpha\) and conditional function \(b_\alpha\) identical; it does not identify their pointwise denominators.
 
 Both unmarked operators are positive self-adjoint Markov contractions. Positivity follows from their positive mixtures of Gaussian distance kernels. Integrating both outgoing group coordinates in the first formula gives
 \(\mathbb E[z_\alpha(S)z_\alpha(T)/b_\alpha(S)]/\overline z_\alpha=1\),

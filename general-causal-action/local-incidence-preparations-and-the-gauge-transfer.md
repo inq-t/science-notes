@@ -100,6 +100,8 @@ The first statement holds on smooth functions in the uniform norm. The free oper
 
 On the compact smooth covering product, \(H_\Lambda\) is nonnegative and uniformly elliptic, with bounded smooth potential, form domain \(H^1\) and operator domain \(H^2\). Smooth functions form a core. Contractivity and telescoping give the strong limit on the full carrier and its gauge-invariant subspace, uniformly on bounded nonnegative time intervals. The positive scalar heat evolution gives a simple positive ground vector, which is gauge invariant; the interacting vacuum is returned by this operator. No estimate uniform over graph growth is asserted.
 
+[[general-causal-action/carrier-first-reversal|The carrier-first construction]] gives the functional-analytic order behind this return: the state carrier and inherited closed form determine the generator. Its spectral counterexample explains why matching eigenvalues alone would not identify the observable realization.
+
 ## The shared incidence has a measurable source covariance
 
 The leading preparation law after integrating one nearby temporal boundary is

@@ -1,0 +1,7 @@
+{
+  "description": "Give the backwards research programme and its variance-completed rigidity companion a shared top-level home.",
+  "moves": {
+    "general-causal-action/scale-bearing-descent-and-the-yang-mills-return.md": "scale-bearing-descent/scale-bearing-descent-and-the-yang-mills-return.md",
+    "global-local-response-reconstruction/variance-completed-rigidity.md": "scale-bearing-descent/variance-completed-rigidity.md"
+  }
+}

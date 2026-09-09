@@ -14,15 +14,19 @@ These arrows are construction targets. Several are already realized together in 
 
 This permits local QFT to return with its familiar equations and a different explanation of their ingredients. Its scale-invariant classical action can be a projection of a law whose state, normalization and comparison structure retain scale. A positive mass threshold would be a theorem about that fuller law.
 
-The [Jaffe–Witten problem, §§3–4](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), permits a different construction language but requires a nontrivial theory on four-dimensional Minkowski space, the stipulated Yang–Mills short-distance behavior, axiomatic properties at least as strong as the cited Wightman and Osterwalder–Schrader frameworks, and a positive finite mass threshold for every compact simple gauge group. This programme retains those outputs. It does not need to derive a numerical mass in external units.
+The [[library/quantum-yang-mills-theory/inq|Jaffe–Witten problem, §§3–4]], permits a different construction language but requires a nontrivial theory on four-dimensional Minkowski space, the stipulated Yang–Mills short-distance behavior, axiomatic properties at least as strong as the cited Wightman and Osterwalder–Schrader frameworks, and a positive finite mass threshold for every compact simple gauge group. [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|The Clay contract]] separates those required outputs from optional construction primitives. No numerical mass in external units is prescribed.
 
 ## 1. A distinction belongs to its comparisons
 
 Start with objects accessible to generalized probes, operations between them, and a declared criterion for when all probes make two presentations indiscernible. The identity-of-indiscernibles principle then removes redundant presentation. It does not, by itself, select a scalar field, positive measure, dimension or nontrivial object.
 
-There must be two classes of arrows: reversible changes of presentation and directed changes of access. Their distinction expresses the proposed priority of asymmetry. The global object is the joint law of comparisons; it is not another observer placed above all local observers.
+[[algebra/algebra-before-geometry|Algebra before geometry]] locates this initial doctrine, and [[scale-bearing-descent/master-object-and-compatible-realizations|the master-object signature]] specifies which comparison and evaluation structures still have to be selected.
+
+There must be two classes of arrows: reversible changes of presentation and directed changes of access. Their distinction expresses the proposed priority of asymmetry. [[program-core/operation-registers|The operation register]] distinguishes equivalence, restriction, realization and recovery; [[algebra/local-global-individuation|local–global individuation]] explains why the joint law is not another observer placed above all local observers.
 
 Nonassociativity can constrain this layer. Octonions provide compatible associative two-generated contexts whose triple products retain an associator. But an associator is not automatically irreversible time, and an arbitrary nonassociative algebra is not automatically a coherent composition doctrine. The programme must specify how its bracketings are related and which data their readouts forget.
+
+[[algebra/octonionic-associator-and-branch-forgetting|Associator and branch forgetting]] supplies the multiplication calculation and distinguishes its residue from the defect of a positive readout.
 
 The best existing exceptional bridge is [[algebra/octonionic-hopf-descent-and-the-complex-purification|the Hopf–purification factorization]]: after a complex unit is selected, an octonionic readout and an ordinary complex partial trace give the same map, measure and generator. This is a stronger starting clue than a numerical rhyme between eight algebra dimensions and three spatial directions.
 
@@ -37,9 +41,11 @@ Once an associative positive realization exists, a unital completely positive re
 \]
 The remainder is typed: it measures a failure of multiplication to survive a particular crossing. Its positivity is inherited from complete positivity. It is not an arbitrary friction term appended to a clock equation.
 
-The proposed elementary operation is **completed descent**: carry the visible comparison together with its defect channels, source products and normalization. The quadratic part is formalized in [[global-local-response-reconstruction/variance-completed-rigidity|variance-completed descent]]. Higher conditional cumulants are needed when products of sources are composed. Exact bookkeeping alone leaves many laws admissible; the central conjecture below must restrict them.
+The proposed elementary operation is **completed descent**: carry the visible comparison together with its defect channels, source products and normalization. The quadratic part is formalized in [[scale-bearing-descent/variance-completed-rigidity|variance-completed descent]]. Higher conditional cumulants are needed when products of sources are composed. Exact bookkeeping alone leaves many laws admissible; the central conjecture below must restrict them.
 
 This also clarifies factual pointing. Selecting a character as an obtained value does not preserve a whole excitation carrier: [[algebra/characters-factorization-and-the-modular-carrier|the character's own GNS space]] is one-dimensional. Records therefore belong inside a richer comparison law from which an outcome can be read. A theory of the probability law and a theory of obtained outcomes are distinct construction questions.
+
+[[conservation-of-causal-charge/factive-descent-and-records|Factive descent and records]] specifies the instrument, obtained character and compatible record extensions needed for the latter question.
 
 ## 3. Duration is a common valuation of composition
 
@@ -56,6 +62,8 @@ This cost needs no prior clock parameter. It is a path valuation, not yet elapse
 
 The second-order proposal developed alongside it asks whether a complete family of centered innovations has one common quadratic-variation measure,
 \(d[X^a,X^b]=G^{ab}d\tau\), with the same response geometry determining \(G\). That could make clock duration an accumulation of comparison activity. Choosing one random coordinate and calling its bracket universal time would not establish the claim. A smooth refinement can have zero bracket, and sustained innovation needs a sustained source of distinctions.
+
+[[conditional-preparation-sewing/conditional-scale-scores-and-the-closed-response|Conditional scale scores]] provide an exact discrete source family under the actual parent-conditioned law. Their centering, mixed readout response and closed-weight contact terms constrain a possible common-clock limit.
 
 There is already a useful test of common duration: [[algebra/partial-trace-clock-consistency-and-the-fluctuation-limit|regrouping one purification]] intertwines the same-duration semigroups exactly. Enlarging the parent changes the law and requires different limiting scalings. The programme should seek such compatibility theorems, rather than demand that every partially informed region have an autonomous clock. A local readout can retain memory while belonging to the same chronology.
 
@@ -81,6 +89,8 @@ This is a conditional derivation of signature and cone. The selection of that co
 
 The invariant \(c\) would identify the temporal and spatial calibrations of this same cone. A phase/action conversion and a universal gravitational response require further compatible maps. No numerical \(\hbar\) or \(G\) is needed to state the dimensionless rigidity problem.
 
+[[program-core/record-scale-soldering|Record–scale soldering]] asks when the ordering valuation and geometric scale agree. [[mass-scale-calibration/hbar-clock-and-the-calibration-firewall|Clock and phase calibration]] and [[deriving-value-of-g/areal-information-modulus|areal information stiffness]] specify the different conversion maps needed for \(\hbar\) and \(G\).
+
 ## 5. Action is the logarithmic return of sewing
 
 Keep complete amplitudes with their boundary variables and source insertions. Their composition integrates the shared boundary once:
@@ -90,6 +100,8 @@ K_{D_2\circ D_1}(x,z)
 \tag{SR5}
 \]
 For positive scalar kernels written \(K=e^{-S}\), the effective \(S\) is minus the logarithm of this integral. It generally is not the pointwise sum of the two effective actions. Gaussian elimination already returns a Schur response and a determinant normalization together. [[general-causal-action/determinant-response-sewing-and-relational-rigidity|Determinant sewing]] and [[general-causal-action/shared-preparation-state-and-mobility|shared preparation]] give exact finite instances in which one law fixes several previously independent outputs.
+
+[[trace-dirichlet-descent/inq|Trace Dirichlet descent]] owns the corresponding minimization and shorting of quadratic responses. [[coarse-response-memory/inq|Coarse response memory]] retains frequency dependence after elimination. The variational question is developed separately in [[philosophy/principle-of-least-action/why-an-action-at-all|why an action at all]].
 
 The sources must survive the integral. [[general-causal-action/seam-coupling-response-and-the-vacuum-cap|Changing a seam]] proves that one actual transfer determines its vacuum change, closed normalization curvature and chronological source response. [[general-causal-action/conditional-boundary-translation-and-source-products|Boundary-message transport]] shows why separate regional averages do not preserve their joint products.
 
@@ -117,11 +129,11 @@ H_{\lambda\ell}
 \Delta_{\lambda\ell}=\lambda^{-1}\Delta_\ell.
 \tag{SR7}
 \]
-This is a proposed relation between members, not exact dilation symmetry of one fixed vacuum Hamiltonian. A dimensionless quantity such as \(\ell\Delta_\ell\) can be positive and invariant across the family. Here and below the transfer generator is measured in inverse length.
+This is a proposed relation between members, not exact dilation symmetry of one fixed vacuum Hamiltonian. A dimensionless quantity such as \(\ell\Delta_\ell\) can be positive and invariant across the family. The physical transfer generators in (SR7) and (SR10) are measured in inverse length.
 
 That is the precise form of the desired reversal: scale-bearing realizations produce a scale-free classical expression. The quantum law need not inherit every symmetry of that expression. Establishing its Yang–Mills renormalization behavior is part of the return theorem.
 
-The original \(\operatorname{sech}^2\) clue already has a more explanatory small-model formulation. On the whole real line, a smooth real factor \(A=\partial_x+W\), a homogeneous partner \(AA^*=-\partial_x^2+\lambda\), and a nonzero normalizable vector in \(\ker A\) force
+The original \(\operatorname{sech}^2\) clue already has a more explanatory small-model formulation. On the whole real line, a smooth real factor \(A=\partial_x+W\), a homogeneous partner \(AA^*=-\partial_x^2+\lambda\), and a nonzero normalizable vector in \(\ker A\) force the following form, with \(\psi_0\) normalized:
 \[
 \lambda=\nu^2>0,\quad
 W=\nu\tanh\!\bigl(\nu(x-x_0)\bigr),\quad
@@ -131,9 +143,9 @@ W=\nu\tanh\!\bigl(\nu(x-x_0)\bigr),\quad
 \sigma(A^*A)=\{0\}\cup[\nu^2,\infty).
 \tag{SR8}
 \]
-[[logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law|The flat-partner theorem]] derives the positive edge from compatible ordered partners and normalizable pointing. Its width remains free. The homogeneous-partner premise does real work: other normalizable states have gapless gradient forms.
+[[logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law|The flat-partner theorem]] derives the positive edge from compatible ordered partners and normalizable pointing. Here \(x\) is the logarithmic scale coordinate and \(\nu^2\) is an edge of its gradient operator; identifying it with a physical transfer rate requires a further comparison. Its width remains free. The homogeneous-partner premise does real work: other normalizable states have gapless gradient forms.
 
-For the normalized shape \(q(x)=\operatorname{sech}^2x\), \(q''=4q-6q^2\) crosses zero at \(x=\operatorname{artanh}(1/\sqrt3)>0\). That crossing is a signature of the profile. The ordered-partner theorem supplies the stronger lesson: look for a compatibility law whose zero-threshold branch cannot support the required vacuum. Extending that mechanism to all field directions, without inserting its partner stiffness, is the challenge.
+For the unit-width profile \(q(x)=\operatorname{sech}^2x\), \(q''=4q-6q^2\) crosses zero at \(x=\operatorname{artanh}(1/\sqrt3)>0\). That crossing is a signature of the profile. The ordered-partner theorem supplies the stronger lesson: look for a compatibility law whose zero-threshold branch cannot support the required vacuum. [[binary-information-geometry/matrix-flat-partner-rigidity|The matrix extension]] identifies why one pointed channel can still leave other channels soft.
 
 ## 7. Mass is stable access to a nonvacuum distinction
 
@@ -148,22 +160,24 @@ B\delta=I-E,\qquad
 \]
 It immediately implies
 \(\|\delta f\|^2\ge(1-\rho)^2C^{-2}\|f\|^2\).
-The proof is elementary; constructing the repair with constants uniform under assembly and refinement is the missing mathematical content. A pseudoinverse defined from an assumed mass gap does not qualify.
+[[quantitative-descent/rigidity-certificates-and-soft-escape|The generic repair theorem]] proves this on its stated domain. Constructing the repair with constants uniform under assembly and refinement is the missing mathematical content. A pseudoinverse defined from an assumed mass gap does not qualify.
 
 An alternative algebraic route is a positive identity in finite linear combinations of primitive words,
-\(R^2-\kappa R=\sum_jb_j^*b_j\), with \(R\) a primitive comparison response. [Ozawa's result](https://arxiv.org/abs/1312.5431) demonstrates that such identities can encode representation-uniform rigidity. Ordinary gauge averaging is unsuitable because it fixes the whole neutral algebra.
+\(R^2-\kappa R=\sum_jb_j^*b_j\), with \(R\) a primitive comparison response. [[library/noncommutative-real-algebraic-geometry-of-kazhdans-property-t/inq|Ozawa's result]] demonstrates that such identities can encode representation-uniform rigidity. [[categorical-gauge-response/categorical-action-on-the-neutral-wilson-carrier|The neutral-action test]] explains why ordinary gauge averaging is unsuitable: it fixes the whole neutral algebra.
 
 Here the new operation has a concrete purpose. For a completely positive crossing \(\Phi\), retain
 \[
 A=\Phi(R),\qquad V=\Phi(R^2)-\Phi(R)^2.
 \]
-The certificate becomes \(A^2+V-\kappa A\ge0\). If the same constitutive law forces a total bound \(V\le\varepsilon A\), with \(\varepsilon<\kappa\), the compressed element \(A\) has a gap at least \(\kappa-\varepsilon\) above its kernel. Its identification with the actual coarse-law response requires a further intertwining theorem. [[global-local-response-reconstruction/variance-completed-rigidity|The companion lemma]] also transports the repair itself: discarded analysis and repair channels add an error bounded by their norm product.
+The certificate becomes \(A^2+V-\kappa A\ge0\). If the same constitutive law forces a total bound \(V\le\varepsilon A\), with \(\varepsilon<\kappa\), the compressed element \(A\) has a gap at least \(\kappa-\varepsilon\) above its kernel. Its identification with the actual coarse-law response requires a further intertwining theorem. [[scale-bearing-descent/variance-completed-rigidity|The companion lemma]] also transports the repair itself: discarded analysis and repair channels add an error bounded by their norm product.
 
 **The central research conjecture is a uniform bound on the total loss of rigidity under complete, sourced descent.** This must be derived from the actual primitive relations and full boundary law. Positivity, noncommutativity and absence of an exact kernel do not imply it.
 
 ## 8. Wightman theory returns through the same law
 
 Reflection sewing can make the positive-time pairing a boundary norm. Its null quotient and completion supply a Hilbert carrier. Compatible translations, continuity, Euclidean covariance, regularity and locality must then meet the full reconstruction hypotheses. Reflection positivity alone supplies neither their entirety nor a gap. [[algebra/os-descent-naturality-and-clock-no-go|OS descent naturality]] proves that correctly intertwined readouts preserve the returned clock relation.
+
+[[general-causal-action/reflection-sewing-and-the-auxiliary-boundary-carrier|Reflection sewing]] constructs a finite supported example. [[global-local-response-reconstruction/qft-recovery-contract|The QFT recovery contract]] distinguishes exact recovery of an effective image from recovery of the full upstream carrier, including the limiting obligations.
 
 In a stationary reversible realization, let \(P_\ell=e^{-\ell H}\) be the actual vacuum-normalized transfer. The one-sided conditional innovation has the exact response
 \[
@@ -181,9 +195,9 @@ then
 \ge-\frac{\log(1-\kappa_*)}{2\ell}>0.}
 \tag{SR10}
 \]
-[[general-causal-action/oriented-innovation-and-finite-temporal-repair|Oriented innovation]] proves the identity on its stated carrier. The theorem target is its complete, interacting continuum realization with a fixed relational length \(\ell\), not a separately chosen sampler or auxiliary diffusion.
+[[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|Oriented innovation]] proves the identity on its stated carrier. The theorem target is its complete, interacting continuum realization with a fixed relational length \(\ell\), not a separately chosen sampler or auxiliary diffusion.
 
-A Poincaré representation then identifies the mass invariant through the joint translation spectrum. In energy units with \(c=1\),
+A Poincaré representation then identifies the mass invariant through the joint translation spectrum. With \(\hbar=c=1\), so the inverse-length generator also has energy units,
 \(M^2=H^2-|\boldsymbol P|^2=2P_+P_--P_\perp^2\), where
 \(P_\pm=(H\pm P_z)/\sqrt2\).
 Opposed null generators can each be gapless while this joint invariant is massive. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|The joint-generator theorem]] supplies that distinction. Modular reconstruction is a possible additional construction route; it need not be imposed on a successful reflection-positive one.
@@ -194,9 +208,9 @@ The recovered local unitary evolution would preserve the state pairing. Directed
 
 First, fix the smallest nontrivial source-bearing composition rule. Specify its objects, admissible crossings, positive evaluations, source products and closed normalization. Prove which of these it determines rather than allowing independent adjustment. The finite shared-preparation and Hopf–purification constructions are benchmarks for this requirement.
 
-Second, construct its primitive repair or finite-word certificate on neutral distinctions. Test it immediately on three controls: the concentrating non-Abelian family in [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative descent]], the Pauli section gap that disappears on observables, and [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|the actual collective soft filters]]. A relation that leaves all three mechanisms untouched has not supplied the missing rigidity.
+Second, construct its primitive repair or finite-word certificate on neutral distinctions. Test it immediately on three controls: the concentrating non-Abelian family in [[quantitative-descent/rigidity-certificates-and-soft-escape|the soft-escape controls]], [[algebra/short-loop-holonomy-and-quantitative-gluing|the Pauli section gap that disappears on observables]], and [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|the actual collective soft filters]]. A relation that leaves all three mechanisms untouched has not supplied the missing rigidity.
 
-Third, prove the variance or repair-loss budget for composed crossings, preserving conditional boundary messages, mixed sources and inherited chronology. Fixed local estimates must assemble with a bound independent of volume and refinement depth. [[general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap|Complete-source susceptibility]] provides an independent spectral test of the resulting claim.
+Third, prove the variance or repair-loss budget for composed crossings, preserving conditional boundary messages, mixed sources and inherited chronology. Fixed local estimates must assemble with a bound independent of volume and refinement depth. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|Complete-source susceptibility]] provides an independent spectral test of the resulting claim.
 
 Fourth, prove the nontrivial continuum return: the common state and observable limits, Yang–Mills short-distance behavior, the required axioms, vacuum uniqueness and the identification used in (SR10). Dimension and causal-geometry selection can proceed alongside this work; the broader programme should not require a completed cosmology before testing its central rigidity mechanism.
 

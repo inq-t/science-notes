@@ -4,12 +4,12 @@ Conditional normalization extends the old marked transfer coherently through any
 
 ## One common endpoint and a family of actual paths
 
-Fix the faithful representation \(\rho:G\to U(n)\), metric \(Q\), and unnormalized Hilbert–Schmidt preparation carrier \(E=\mathbb C^{n\times k}\) of [[general-group-preparation-and-the-casimir-return|the general-group theorem]]. Let \(d=\dim G\) and \(m=nk\). An old product \(A=U_1U_2\) passes through one intermediate vertex. New paths \(W_i\) reach that same vertex, and supply
+Fix the faithful representation \(\rho:G\to U(n)\), metric \(Q\), and unnormalized Hilbert–Schmidt preparation carrier \(E=\mathbb C^{n\times k}\) of [[general-causal-action/general-group-preparation-and-the-casimir-return|the general-group theorem]]. Let \(d=\dim G\) and \(m=nk\). An old product \(A=U_1U_2\) passes through one intermediate vertex. New paths \(W_i\) reach that same vertex, and supply
 \[
 L_i=U_1W_i^{-1},\qquad B_i=L_iA=U_1W_i^{-1}U_1U_2.
 \tag{CF1}
 \]
-Every \(B_i\) has the same initial and final endpoints as \(A\). For a finite index set \(I\), quotienting only the intermediate-vertex action gives the complete carrier \(L^2(G^{1+|I|})\), in coordinates \((A,(B_i)_{i\in I})\), with product Haar. Fixing these words and choosing \(U_1\) determines \(U_2\) and every \(W_i\); normalized Haar along this fiber proves the claim, as in [[conditional-preparation-extension-at-new-access|the single-access construction]]. The endpoint gauges act simultaneously on all words, and remain to be imposed if the physical experiment gauges them.
+Every \(B_i\) has the same initial and final endpoints as \(A\). For a finite index set \(I\), quotienting only the intermediate-vertex action gives the complete carrier \(L^2(G^{1+|I|})\), in coordinates \((A,(B_i)_{i\in I})\), with product Haar. Fixing these words and choosing \(U_1\) determines \(U_2\) and every \(W_i\); normalized Haar along this fiber proves the claim, as in [[conditional-preparation-sewing/conditional-preparation-extension-at-new-access|the single-access construction]]. The endpoint gauges act simultaneously on all words, and remain to be imposed if the physical experiment gauges them.
 
 Keep one old preparation and use independent conditional innovations:
 \[
@@ -19,7 +19,7 @@ Keep one old preparation and use independent conditional innovations:
 \qquad \sigma,\tau_i>0.
 \tag{CF2}
 \]
-The variables \(\Xi,\varepsilon_i\) are independent; the \(\Eta_i\) are generally correlated. All preparations occupy the common terminal endpoint. Their joint law therefore respects the simultaneous gauge transport by \(\rho(h_2)\). Each finite covariance is faithful, and its old marginal is fixed. This is a particular coherent joint covariance within [[access-ports-and-conditional-sewing|conditional sewing]]; conditional independence of the innovations is additional data.
+The variables \(\Xi,\varepsilon_i\) are independent; the \(\Eta_i\) are generally correlated. All preparations occupy the common terminal endpoint. Their joint law therefore respects the simultaneous gauge transport by \(\rho(h_2)\). Each finite covariance is faithful, and its old marginal is fixed. This is a particular coherent joint covariance within [[conditional-preparation-sewing/access-ports-and-conditional-sewing|conditional sewing]]; conditional independence of the innovations is additional data.
 
 For \(h_\zeta(g)=\|[\rho(g)-I]\zeta\|^2\), define
 \[
@@ -41,7 +41,7 @@ M(\Xi,(\Eta_i)_{i\in I})p_{\alpha,\Xi}(A,A')
 {b_{i,\alpha}(\Xi)}\right].}
 \tag{CF4}
 \]
-All denominators are source-free and remain fixed during source differentiation. Bounded joint marks are always admissible; the same formula covers integrable linear, quadratic and transported readout sources. This is the constitutive conditional normalization of [[conditional-normalization-and-marked-access|marked access]], not a single unmodified Gaussian determinant.
+All denominators are source-free and remain fixed during source differentiation. Bounded joint marks are always admissible; the same formula covers integrable linear, quadratic and transported readout sources. This is the constitutive conditional normalization of [[conditional-preparation-sewing/conditional-normalization-and-marked-access|marked access]], not a single unmodified Gaussian determinant.
 
 ## Every subset has its exact marked transfer
 
@@ -132,7 +132,7 @@ d\widetilde\nu_I
 \prod_{i\in I}\frac{w(\Eta_i)}{h_i(\Xi)}P_i(d\Eta_i\mid\Xi).}
 \tag{CF13}
 \]
-Each conditional factor is a probability measure. In particular the old marginal is exactly \(\nu_0\), independently of \(|I|\); adding siblings does not multiply it by extra \(h_i(\Xi)\). The locality/rank failure for one scalar norm shared through a growing unnormalized comparison, proved in [[preparation-rank-and-locality|preparation rank and locality]], does not apply to this different normalization law.
+Each conditional factor is a probability measure. In particular the old marginal is exactly \(\nu_0\), independently of \(|I|\); adding siblings does not multiply it by extra \(h_i(\Xi)\). The locality/rank failure for one scalar norm shared through a growing unnormalized comparison, proved in [[general-causal-action/preparation-rank-and-locality|preparation rank and locality]], does not apply to this different normalization law.
 
 ## All finite families return consistent Casimir clocks
 
@@ -169,7 +169,7 @@ The consistency also permits a countable common-endpoint family as a cylinder co
 
 ## The common old preparation leaves a collective response
 
-Take the defining \(SU(2)\) representation, \(k\ge2\), identical nonzero \(a_i=a\), and identical \(\tau_i=\tau>0\). Write \(S=\|\Xi\|^2\), \(T_i=\|\Eta_i\|^2\). The special norm identity gives the lower sufficient inventory of [[conditional-normalization-and-marked-access|the SU(2) conditional return]]; it does not require the general bound (CF10). Under (CF13), \(S\sim\operatorname{Gamma}(m-3/2,\sigma^2)\), and the \(T_i\) are conditionally independent given \(S\), with conditional mean
+Take the defining \(SU(2)\) representation, \(k\ge2\), identical nonzero \(a_i=a\), and identical \(\tau_i=\tau>0\). Write \(S=\|\Xi\|^2\), \(T_i=\|\Eta_i\|^2\). The special norm identity gives the lower sufficient inventory of [[conditional-preparation-sewing/conditional-normalization-and-marked-access|the SU(2) conditional return]]; it does not require the general bound (CF10). Under (CF13), \(S\sim\operatorname{Gamma}(m-3/2,\sigma^2)\), and the \(T_i\) are conditionally independent given \(S\), with conditional mean
 \[
 \mu(s)=\frac{h_{1/2}(s)}{h_{3/2}(s)},
 \qquad h_p(s)=\mathbb E(T_i^{-p}\mid S=s).
@@ -188,7 +188,7 @@ There is no dependence on the number of other accesses. For \(N\) identical sibl
 +\frac1N\mathbb E_{\nu_0}\operatorname{Var}(T_1\mid S).
 \tag{CF19}
 \]
-The shared component therefore survives averaging over arbitrarily many innovations. These are actual limiting preparation norm marks. The free operator (CF15) has the constant vacuum and product Haar configuration law in \((A,B_i)\), despite this auxiliary norm covariance; it is not a physical configuration-correlation theorem. [[conditional-vacuum-rigidity-and-the-physical-gap|Conditional vacuum rigidity]] specifies the stronger physical source map and mixed-response estimate that a mass-gap argument must supply.
+The shared component therefore survives averaging over arbitrarily many innovations. These are actual limiting preparation norm marks. The free operator (CF15) has the constant vacuum and product Haar configuration law in \((A,B_i)\), despite this auxiliary norm covariance; it is not a physical configuration-correlation theorem. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|Conditional vacuum rigidity]] specifies the stronger physical source map and mixed-response estimate that a mass-gap argument must supply.
 
 ## The same finite family returns a general-group interacting vacuum
 
@@ -246,6 +246,6 @@ H_{\rm el}(ab)=\kappa_{\rm TP}(6ab-z/2).
 \]
 Here \(L_1=aI-i\mathbf x\cdot\boldsymbol\sigma\), \(L_2=bI-i\mathbf y\cdot\boldsymbol\sigma\), and \(z=\mathbf x\cdot\mathbf y\); these scalar trace coordinates are unrelated to the preparation coefficients \(a_i\). The last equality is the benchmark's exact kinetic mixed-response identity. Equal \(\lambda_i\) gives its symmetric operator, including its actual relational vacuum and inherited invariant domains. Arbitrary nonnegative \(\lambda_i\) are available through the declared \(\beta_i\). Nonzero conditional coefficients \(a_i\) can be retained throughout, so neither the shared norm response nor the composite-word mixed motion has been removed.
 
-This is recovery of the complete finite two-plaquette operator after matching specified inputs. The ratio \(r_i\kappa_i=3\kappa_0\) has not been selected by the preparation law, and its finite-width marked kernel need not equal the raw-link construction in [[local-incidence-preparations-and-the-gauge-transfer|local incidence preparation, LI12]]. The next geometric test must therefore involve a growing diagram with more than one conditional parent; repeating this two-access calibration alone supplies no new sewing principle.
+This is recovery of the complete finite two-plaquette operator after matching specified inputs. The ratio \(r_i\kappa_i=3\kappa_0\) has not been selected by the preparation law, and its finite-width marked kernel need not equal the raw-link construction in [[general-causal-action/local-incidence-preparations-and-the-gauge-transfer|local incidence preparation, LI12]]. The next geometric test must therefore involve a growing diagram with more than one conditional parent; repeating this two-access calibration alone supplies no new sewing principle.
 
 The free family has exact extension order, all-subset marked consistency, fixed preparation rank per access, and stable finite clocks; every finite member also has the interacting return (CF21). Its graph nevertheless has a common endpoint and an increasing number of accesses sharing one old path. No spatial separation between the siblings has been derived. Reusing this pattern throughout a physical reconstruction requires a law for which accesses share a conditional parent, how transported covariances sew between distinct ports, and how the returned interacting physical source responses scale. Conditional normalization solves a definite growing-family consistency problem; it does not select the required Yang–Mills spatial family or the cosmological geometry.

@@ -2,7 +2,7 @@
 
 For the actual one-plaquette \(SU(2)\) vacuum, the first nonlinear gap correction is \(-5\kappa/4\), below the leading \(4\sqrt{\kappa g}\). The normalized susceptibility of the compact scalar source \(B=\sin^2\theta\) agrees with the inverse gap through that first correction. At the next order they separate: the source acquires a positive weight in a higher physical excitation. Its normalized susceptibility becomes smaller than the inverse gap, while its innovation quotient becomes larger than the gap's own quotient. The calculation retains the changing vacuum, source mean and variance.
 
-**Status: proved strong-confinement expansion on the complete one-plaquette class carrier.** This calibrates the nonlinear compact source of [[planar-patch-confinement-and-the-spatial-soft-mode|PP9–12]] at \(L=1\). [[conditional-vacuum-rigidity-and-the-physical-gap|The complete-source criterion]] distinguishes a resolvent response from a spectral edge; the difference below is computed within one supplied physical law.
+**Status: proved strong-confinement expansion on the complete one-plaquette class carrier.** This calibrates the nonlinear compact source of [[planar-patch-confinement-and-the-spatial-soft-mode|PP9–12]] at \(L=1\). [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|The complete-source criterion]] distinguishes a resolvent response from a spectral edge; the difference below is computed within one supplied physical law.
 
 ## The exact radial carrier retains its curvature term
 

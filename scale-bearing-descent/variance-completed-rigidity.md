@@ -17,6 +17,8 @@ d_\Phi(a)=(I-VV^*)\pi(a)V,\qquad
 \]
 Thus a crossing can be represented by its retained image and a linear defect map. A minimal Stinespring choice is unique up to the appropriate unitary equivalence; it is not an additional physically selected reservoir.
 
+[[directed-isometric-residue-completion/inq|Directed isometric residue completion]] gives the corresponding retained-plus-defect construction for Hilbert contractions. [[channel-loss-and-recovery/inq|Channel loss and recovery]] treats relative-entropy loss and sufficiency; that state divergence is a different response from the product defect in (VC1).
+
 For another UCP map \(\Psi:\mathcal B\to\mathcal C\), expansion gives
 \[
 \boxed{\Gamma_{\Psi\Phi}(a,b)
@@ -67,7 +69,7 @@ The proof is substitution in (VC6), followed by the continuous functional calcul
 
 The variance hypothesis can be as hard as the desired conclusion. For example, if \(R\) is a projection, then \(V_\Phi(R)=A-A^2\), so (VC7) itself becomes \(A^2\ge(1-\varepsilon)A\). The explanatory task is an independent derivation of the variance budget from the primitive relations, or the constructive repair below.
 
-This sharpens the obstruction in [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative descent, QD9–10]]: the missing hypothesis is a bound on the discarded variance relative to the same retained response. The estimate must hold for the whole composed map. By (VC3), a bound paid independently at every cut can accumulate without limit.
+This transports the [[quantitative-descent/rigidity-certificates-and-soft-escape|generic algebraic certificate]] through a nonmultiplicative readout: the missing hypothesis is a bound on the discarded variance relative to the same retained response. The estimate must hold for the whole composed map. By (VC3), a bound paid independently at every cut can accumulate without limit. [[rg-covariance-residue/conditioned-source-transport|Conditioned source transport]] records the related covariance correction for actual renormalized source families.
 
 Even (VC8) leaves the zero sector to be identified. A gauge-averaging action fixes all gauge-invariant observables, so its isolated kernel need not be the vacuum line. Moreover, \(\Phi(R)\) and the square of the compressed primitive analysis map are different objects. The next calculation keeps that distinction explicit.
 
@@ -85,7 +87,7 @@ B\delta=Q-E,
 \|E\|\le\rho<1.
 \tag{VC9}
 \]
-The intended \(B\) is assembled from local extension operations before any low spectrum is known. [[algebra/short-loop-holonomy-and-quantitative-gluing|Short-loop gluing]] is a worked example on a section carrier, including its failure after passage to neutral observables.
+The intended \(B\) is assembled from local extension operations before any low spectrum is known. [[quantitative-descent/rigidity-certificates-and-soft-escape|The uncompressed repair theorem]] also allows a dense analysis domain; the bounded hypotheses here make the compression products everywhere defined. [[algebra/short-loop-holonomy-and-quantitative-gluing|Short-loop gluing]] is a worked example on a section carrier, including its failure after passage to neutral observables.
 
 Let \(V:\mathcal H_c\to\mathcal H\) be the isometric pullback for an actual retained observable carrier, with \(V\Omega_c=\Omega\). Write \(P=VV^*\), \(V_m=I_m\otimes V\), and \(P_m=V_mV_m^*\). Define the compressed comparison and repair by
 \[
@@ -139,7 +141,9 @@ For a sequence of such compressions, a sufficient total budget is
 \]
 with a uniform strict margin and an initially uniform \(C\). Each loss is computed from the current inherited comparison and repair. A new access map that is not a compression, or a change of representation, requires its own transport theorem.
 
-The definition of \(\delta_c\) does not prove that it equals the innovation reconstructed from the actual coarse preparation or regional predictor. That identification needs an intertwining or controlled comparison theorem. In particular, [[general-causal-action/regional-innovation-and-exterior-information-balance|regional prediction]] can increase the innovation by discarding exterior information while preserving the original clock.
+[[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|The two-scale crossover theorem]] is a distinct analytic implementation of an accumulated-loss budget: it tracks the actual conditional and marginal laws and the mixed score cost. Its constants cannot be substituted into (VC14) without identifying the analysis and repair maps.
+
+The definition of \(\delta_c\) does not prove that it equals the innovation reconstructed from the actual coarse preparation or regional predictor. That identification needs an intertwining or controlled comparison theorem. In particular, [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|regional prediction]] can increase the innovation by discarding exterior information while preserving the original clock.
 
 ## Rebuild a finite-word repair after crossing
 
@@ -170,6 +174,6 @@ The research conjecture is that a selected law of complete marked sewing supplie
 
 The sourceful innovation carrier matters. Ordinary Čech gluing has every successfully glued global observable in its degree-zero kernel; gauge transformations similarly annihilate every neutral distinction. The analysis map here must instead measure an actual failure of conditional recovery or a comparable state-dependent response. It must annihilate precisely the vacuum in the intended realization.
 
-[[general-causal-action/regional-innovation-and-exterior-information-balance|The exterior-information identity]] already supplies actual positive compression losses, while [[general-causal-action/conditional-boundary-translation-and-source-products|conditional boundary messages]] demonstrate why source products must accompany elimination. These are inputs to a possible proof of the budget, not proof that its sum is small.
+[[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|The exterior-information identity]] already supplies actual positive compression losses, while [[general-causal-action/conditional-boundary-translation-and-source-products|conditional boundary messages]] demonstrate why source products must accompany elimination. These are inputs to a possible proof of the budget, not proof that its sum is small.
 
-Three controls can reject a proposed law early: the concentrating non-Abelian comparison family in QD6a–c; the loss of the Pauli holonomy obstruction on the neutral carrier; and [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|the actual chronological soft filters]]. A successful new relation must explain its different outcome on these controls through a calculable change in the inherited law.
+Three controls can reject a proposed law early: [[quantitative-descent/rigidity-certificates-and-soft-escape|the concentrating non-Abelian comparison family, QD6a–c]]; the loss of the Pauli holonomy obstruction on the neutral carrier; and [[general-causal-action/conditional-influence-soft-band-and-chronological-filters|the actual chronological soft filters]]. A successful new relation must explain its different outcome on these controls through a calculable change in the inherited law. [[physical-response-coercivity/physical-distinction-coercivity|Physical distinction coercivity]] specifies the complete carrier on which the resulting response must act.

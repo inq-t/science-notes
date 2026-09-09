@@ -267,7 +267,7 @@ The bounded-below criterion proves both implications; dense closed range is the 
 
 On \(\mathbb C\Omega\oplus\ell^2(\mathbb N)\), \(Ke_n=ne_n\) has a gap but no bounded transfer inverse, whereas \(Ke_n=n^{-1}e_n\) has a bounded transfer inverse but no gap. These are exact operator examples, not candidate relativistic theories. A mass gap is an upper bound below one on vacuum-reduced transfer, or a positive lower bound on its defect—not a lower bound on transfer itself.
 
-This \(D_\ell\) is a spectral diagnostic defined **after** \(K\). It cannot be advertised as an independently constructed wall. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap#A constructive quantitative gluing map|The quantitative gluing theorem]] instead requires bounded recovery from its actual upstream response defect, followed by comparison with physical transfer. Stable cross-fiber transport alone supplies neither condition. Simultaneous rescaling \(K\mapsto aK,\ \ell\mapsto\ell/a\) preserves both operators and does not decide whether either edge is positive.
+This \(D_\ell\) is a spectral diagnostic defined **after** \(K\). It cannot be advertised as an independently constructed wall. [[quantitative-descent/rigidity-certificates-and-soft-escape#A constructive quantitative gluing map|The quantitative gluing theorem]] instead requires bounded recovery from its actual upstream response defect, followed by comparison with physical transfer. Stable cross-fiber transport alone supplies neither condition. Simultaneous rescaling \(K\mapsto aK,\ \ell\mapsto\ell/a\) preserves both operators and does not decide whether either edge is positive.
 
 ## The operator-algebraic contribution: transport first, shells second
 

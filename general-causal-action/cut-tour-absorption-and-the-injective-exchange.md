@@ -66,11 +66,11 @@ Under (CT3)–(CT4), this yields the exact conditional theorem
 \boxed{R\ge\frac1m(I-W).}
 \tag{CT8}
 \]
-The bound survives a growing cut count if the number of layers stays bounded and the same comparison norms and primitive-cut weighting are retained. No inverse of \(R\), spectral square root of a desired certificate, or vacuum projector defines \(B\). This is a concrete instance of [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|QD7–8's bounded repair]]. The substantive new premise is the independently testable finite-word relation (CT3).
+The bound survives a growing cut count if the number of layers stays bounded and the same comparison norms and primitive-cut weighting are retained. No inverse of \(R\), spectral square root of a desired certificate, or vacuum projector defines \(B\). This is a concrete instance of [[quantitative-descent/rigidity-certificates-and-soft-escape#A constructive quantitative gluing map|QD7–8's bounded repair]]. The substantive new premise is the independently testable finite-word relation (CT3).
 
 ## The sharpening family rejects the word relation
 
-In [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|QD6a–c]], use the two conditional projections \(P_x,P_y\), with fundamental overlap multiplier \(b_k\in(0,1)\). The neutral source \(\chi_1(y)\) has norm one and satisfies
+In [[quantitative-descent/rigidity-certificates-and-soft-escape#A concentrating non-Abelian comparison|QD6a–c]], use the two conditional projections \(P_x,P_y\), with fundamental overlap multiplier \(b_k\in(0,1)\). The neutral source \(\chi_1(y)\) has norm one and satisfies
 \[
 P_yP_x\chi_1(y)=b_k^4\chi_1(y),
 \]

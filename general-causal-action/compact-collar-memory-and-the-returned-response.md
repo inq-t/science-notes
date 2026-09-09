@@ -2,7 +2,7 @@
 
 The actual compact planar source retains its harmonic exterior-memory response uniformly over every set of retained faces containing the source, even when that set grows with the patch. The proof uses a fiberwise conditional-projection estimate whose constant is independent of the retained and eliminated dimensions. The normalized memory-to-innovation ratio returns uniformly away from zero scaled time. Its short-time denominator and its fixed-physical-time behavior remain distinct parts of the statement.
 
-**Status: proved one-source collar-memory return on the confinement window.** [[fixed-regional-sources-and-the-compact-vacuum-return|FR]] supplies the actual normalized source and vacuum, [[compact-chronology-on-finite-hermite-sources|HC]] its evolved vector, and [[vacuum-hellinger-return-and-regional-conditional-projections|VH]] the conditional-projection estimate. [[regional-innovation-and-exterior-information-balance|RI]] fixes the exterior-memory and full-innovation comparison. All regions use the same inherited vacuum, comb connectors and clock.
+**Status: proved one-source collar-memory return on the confinement window.** [[fixed-regional-sources-and-the-compact-vacuum-return|FR]] supplies the actual normalized source and vacuum, [[compact-chronology-on-finite-hermite-sources|HC]] its evolved vector, and [[vacuum-hellinger-return-and-regional-conditional-projections|VH]] the conditional-projection estimate. [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|RI]] fixes the exterior-memory and full-innovation comparison. All regions use the same inherited vacuum, comb connectors and clock.
 
 ## The retained set can grow without changing the source
 

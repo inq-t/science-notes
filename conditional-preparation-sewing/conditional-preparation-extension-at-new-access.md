@@ -4,7 +4,7 @@ An old Gaussian preparation and a correlated innovation can compare two actual p
 
 ## Extend the preparation at a common endpoint
 
-Use the graph of [[preparation-transport-through-spatial-subdivision|preparation transport, PT14–18]]: an old edge is presented by \(U=U_1U_2\), and a new path \(W\) reaches its intermediate vertex. The internal-vertex quotient retains
+Use the graph of [[general-causal-action/preparation-transport-through-spatial-subdivision|preparation transport, PT14–18]]: an old edge is presented by \(U=U_1U_2\), and a new path \(W\) reaches its intermediate vertex. The internal-vertex quotient retains
 \[
 A=U_1U_2=U,\qquad L=U_1W^{-1},\qquad
 B=LA=U_1W^{-1}U_1U_2.
@@ -12,7 +12,7 @@ B=LA=U_1W^{-1}U_1U_2.
 \]
 Both \(A\) and \(B\) are actual paths from \(v_0\) to \(v_2\). Their use as comparison rows is a declared choice; algebra does not yet select this path inventory. The repeated \(U_1\) in \(B\) is its actual occurrence in the word, not a fresh link variable. The map to \((A,L)\), or equivalently \((A,B)\), pushes product Haar to product Haar. At fixed \((A,L)\), choose \(U_1\) freely and set \(U_2=U_1^{-1}A\), \(W=L^{-1}U_1\); these fibers are precisely the internal-vertex gauge orbits. Thus \(L^2(G^2)\) is the complete internally invariant carrier, before imposing the old endpoint gauges.
 
-Let \(G\) be compact and connected with simple Lie algebra of dimension \(d\), and choose a faithful unitary representation \(\rho:G\to U(n)\). Use the unnormalized Hilbert–Schmidt convention and \(Q=-\operatorname{Re}\operatorname{Tr}(d\rho\,d\rho)\) of [[general-group-preparation-and-the-casimir-return|the general-group preparation theorem]]. On \(E=\mathbb C^{n\times k}\), of complex dimension \(m=nk\), take
+Let \(G\) be compact and connected with simple Lie algebra of dimension \(d\), and choose a faithful unitary representation \(\rho:G\to U(n)\). Use the unnormalized Hilbert–Schmidt convention and \(Q=-\operatorname{Re}\operatorname{Tr}(d\rho\,d\rho)\) of [[general-causal-action/general-group-preparation-and-the-casimir-return|the general-group preparation theorem]]. On \(E=\mathbb C^{n\times k}\), of complex dimension \(m=nk\), take
 \[
 \Xi\sim\operatorname{CN}(0,\sigma^2I_E),\qquad
 \varepsilon\sim\operatorname{CN}(0,\tau^2I_E),\qquad
@@ -30,7 +30,7 @@ a\sigma^2&|a|^2\sigma^2+\tau^2
 \qquad \det\Gamma=(\sigma^2\tau^2)^m.
 \tag{CE3}
 \]
-Projection \((\Xi,\Eta)\mapsto\Xi\) recovers the original Gaussian measure and every old linear or quadratic source amplitude exactly. This is the explicit conditional extension of [[access-ports-and-conditional-sewing|access ports and conditional sewing]]. For example, with \(S=\|\Xi\|^2\) and \(T=\|\Eta\|^2\), the original prior has
+Projection \((\Xi,\Eta)\mapsto\Xi\) recovers the original Gaussian measure and every old linear or quadratic source amplitude exactly. This is the explicit conditional extension of [[conditional-preparation-sewing/access-ports-and-conditional-sewing|access ports and conditional sewing]]. For example, with \(S=\|\Xi\|^2\) and \(T=\|\Eta\|^2\), the original prior has
 \[
 \operatorname{Cov}(S,T)=m|a|^2\sigma^4.
 \tag{CE4}
@@ -67,7 +67,7 @@ K_\alpha^{j,\mathcal T}(q,q')
 \mathcal Q=\Gamma^{-1}+\alpha D(q,q')+\mathcal T>0.}
 \tag{CE7}
 \]
-All path, stage and cross-row sources pull back to this formula by their actual linear readout maps. This includes off-diagonal blocks between \(\Xi\) and \(\Eta\). The normalized Gaussian reference measure is the same as in [[marked-gaussian-constraints-and-sewing-measures|marked Gaussian sewing]]; no stage carries a new independent Gaussian measure.
+All path, stage and cross-row sources pull back to this formula by their actual linear readout maps. This includes off-diagonal blocks between \(\Xi\) and \(\Eta\). The normalized Gaussian reference measure is the same as in [[general-causal-action/marked-gaussian-constraints-and-sewing-measures|marked Gaussian sewing]]; no stage carries a new independent Gaussian measure.
 
 The unmarked kernel depends only on \((A^{-1}A',B^{-1}B')\). Its row integral
 \[
@@ -182,7 +182,7 @@ For \(p=3/2\), \(h_p\) is finite and strictly decreasing in \(S\) whenever \(a\n
 \]
 Strict positivity follows by taking two independent \(S,S'\): the covariance is half the expectation of \((S^{-1}-{S'}^{-1})(h_{3/2}(S)-h_{3/2}(S'))\), positive off the diagonal. All moments are finite by the preceding bounds. Thus even the old limiting clock changes when the new comparison shares its Gaussian preparation. Its unchanged prior/source marginal does not imply an unchanged weighted experiment. At \(a=0\), the joint kernel factors, \(\kappa_A=\kappa_{\rm old}\), and the prior norm covariance vanishes.
 
-The condition \(\tau>0\) has a further concrete role. At \(\tau=0\), \(a\ne0\), and \(m=4\), the two norms obey \(T=|a|^2S\). The six-dimensional comparison then has localization weight \(S^{-3}\), while its ordinary diffusion coefficient needs \(\mathbb E S^{-4}\), which diverges. This is precisely the critical shared-preparation case of [[preparation-rank-and-locality|preparation rank and locality]]. The positive innovation in (CE2) opens independent preparation directions and gives finite ordinary clocks for every fixed \(\tau>0\); these clocks are not asserted uniformly bounded toward the singular endpoint.
+The condition \(\tau>0\) has a further concrete role. At \(\tau=0\), \(a\ne0\), and \(m=4\), the two norms obey \(T=|a|^2S\). The six-dimensional comparison then has localization weight \(S^{-3}\), while its ordinary diffusion coefficient needs \(\mathbb E S^{-4}\), which diverges. This is precisely the critical shared-preparation case of [[general-causal-action/preparation-rank-and-locality|preparation rank and locality]]. The positive innovation in (CE2) opens independent preparation directions and gives finite ordinary clocks for every fixed \(\tau>0\); these clocks are not asserted uniformly bounded toward the singular endpoint.
 
 ## A weak loop cost uses the retained old preparation
 
@@ -206,4 +206,4 @@ V_\beta(L)=\beta\operatorname{Tr}
 \]
 the product limit is \(e^{-t(H+V_\beta)}\). Simultaneous \(\rho(G)\) invariance gives \([\overline A_\Xi,\rho(G)]=0\), removing the \(\rho(U)\) transports only from this leading expected potential. The finite marked kernel still contains them. The operator is uniformly elliptic on the compact product, with bounded smooth potential, \(H^1\) form domain, \(H^2\) operator domain and a simple positive gauge-invariant ground vector. For irreducible \(\rho\), \(\overline A_\Xi=(\mathbb E_\nu S/n)I_n\); the expectation uses the joint law (CE9), not the isolated preparation coefficient.
 
-This construction resolves the new-access annihilation with actual multiplication rows, a complete shared preparation law and a returned interacting operator for every declared compact simple group. It leaves the representation, paces, covariance extension and word inventory as constitutive inputs. It also exposes a choice of normalization: a single joint Gaussian integral preserves old preparation marginals but usually changes old dynamics. [[conditional-normalization-and-marked-access|Conditional normalization and marked access]] gives a distinct law that preserves the old marked transfer exactly; it must retain its conditional factors rather than claim the single determinant (CE7). Selecting a coherent family over growing access diagrams, and obtaining the four-dimensional Yang–Mills and cosmological returns, remain open.
+This construction resolves the new-access annihilation with actual multiplication rows, a complete shared preparation law and a returned interacting operator for every declared compact simple group. It leaves the representation, paces, covariance extension and word inventory as constitutive inputs. It also exposes a choice of normalization: a single joint Gaussian integral preserves old preparation marginals but usually changes old dynamics. [[conditional-preparation-sewing/conditional-normalization-and-marked-access|Conditional normalization and marked access]] gives a distinct law that preserves the old marked transfer exactly; it must retain its conditional factors rather than claim the single determinant (CE7). Selecting a coherent family over growing access diagrams, and obtaining the four-dimensional Yang–Mills and cosmological returns, remain open.

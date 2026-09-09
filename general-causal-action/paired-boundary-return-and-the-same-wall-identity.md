@@ -2,7 +2,7 @@
 
 A state-preserving retraction returns its own boundary inclusion exactly, but the return through a different boundary generally contracts. On the actual stationary chronological pair, these cross-boundary maps are \(P\) and \(P^*\), so their return is \(P^*P\) and their loss is the oriented innovation \(I-P^*P\). This remains true when the entire pair algebra is commutative. A separate qubit calculation distinguishes the KMS return of an inclusion from its relative-entropy Hessian: the two use different operator means.
 
-**Status: exact identities for a declared stationary pair and faithful finite matrices.** The chronological carrier and gap criterion are already constructed in [[oriented-innovation-and-finite-temporal-repair|OI1–5]]. [[channel-loss-and-recovery/preserving-expectation-loss|Preserving-expectation loss]] owns the distinction between a same-wall retraction and forgotten incoming tangents. The result here identifies the two boundary inclusions that make these statements compatible.
+**Status: exact identities for a declared stationary pair and faithful finite matrices.** The chronological carrier and gap criterion are already constructed in [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI1–5]]. [[channel-loss-and-recovery/preserving-expectation-loss|Preserving-expectation loss]] owns the distinction between a same-wall retraction and forgotten incoming tangents. The result here identifies the two boundary inclusions that make these statements compatible.
 
 ## Two inclusions in one stationary pair
 

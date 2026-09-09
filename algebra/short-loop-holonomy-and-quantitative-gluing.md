@@ -95,7 +95,7 @@ Consequently
 The bound uses \(\|W^{-1}A^*\|\le\kappa^{-1/2}\). Only the local matrices \(W_v\) are inverted, with the independently proved lower bound (HT4). No global inverse has been defined through the spectrum one hopes to bound.
 
 This realizes the constructive branch of
-[[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative gluing, QD7–QD8]],
+[[quantitative-descent/rigidity-certificates-and-soft-escape#A constructive quantitative gluing map|quantitative gluing, QD7–QD8]],
 with zero reconstruction error. It is distinct from
 [[trace-dirichlet-descent/two-expectation-angle-process|the two-expectation process]]:
 the present response compares transported sections along edges, not two conditional expectations on one observable algebra.

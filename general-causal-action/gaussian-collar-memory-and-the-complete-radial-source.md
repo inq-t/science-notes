@@ -2,7 +2,7 @@
 
 The exterior memory of a retained Gaussian collar is an exact covariance projection deficit. On the complete centered one-face radial source algebra, its ratio to the original full-predictor innovation is largest for the quadratic source. Higher radial chaoses cannot produce a worse ratio. Thus a spatial bound for that quadratic controls every square-integrable radial observable of the same face in the harmonic law, while leaving arbitrary multi-face sources and the actual compact complete-source problem separate.
 
-**Status: exact harmonic conditional formulas and a sharp complete radial-source comparison.** [[inherited-planar-vacuum-and-the-regional-time-law|IR]] fixes the inherited Gaussian chronology. [[regional-innovation-and-exterior-information-balance|RI]] fixes the full innovation and its exterior-information term. The common-root framed coordinates are retained before simultaneous color invariants; no independent regional vacuum or facewise Gauss quotient is introduced.
+**Status: exact harmonic conditional formulas and a sharp complete radial-source comparison.** [[inherited-planar-vacuum-and-the-regional-time-law|IR]] fixes the inherited Gaussian chronology. [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|RI]] fixes the full innovation and its exterior-information term. The common-root framed coordinates are retained before simultaneous color invariants; no independent regional vacuum or facewise Gauss quotient is introduced.
 
 ## The collar returns the covariance projection
 

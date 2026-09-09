@@ -1,0 +1,70 @@
+{
+  "manifest": "scripts/refactors/2026-09-09-yang-mills-shared-core.json",
+  "moves": [
+    {
+      "from": "general-causal-action/oriented-innovation-and-finite-temporal-repair.md",
+      "to": "two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair.md",
+      "before_sha256": "af3f0683e4ff5d60416197544a57a3907f11a2dc66220ca6ea2da2b30879b89c",
+      "after_sha256": "1257a0dd844bcfb7168a3aefa45ede0022d1e22a67feaff8878145be171ca3e7"
+    },
+    {
+      "from": "general-causal-action/chronological-cyclic-sources-and-the-innovation-floor.md",
+      "to": "two-slice-innovation-geometry/chronological-cyclic-sources-and-the-innovation-floor.md",
+      "before_sha256": "a0e8476b9407d73812abb734730423d6fbc396cf79c52155157d188b1c811a2b",
+      "after_sha256": "866bd045d83a08421c49b3ad89fcfb6b252344ba923382b4f16b6c9fdf233675"
+    },
+    {
+      "from": "general-causal-action/regional-innovation-and-exterior-information-balance.md",
+      "to": "two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance.md",
+      "before_sha256": "66f7fe010e2e90032aa5d4b1c3c90259c4bddf2fb3fc8b73c5d46ffbbd54007b",
+      "after_sha256": "5b017f863b3a7c1a12dae8e044365c9bc98e2dbad8a1f3a67a4d622c99835a9e"
+    },
+    {
+      "from": "general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap.md",
+      "to": "physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap.md",
+      "before_sha256": "74d822325585ae07a3a7167cacd44bcfad72f3099c2fa81ed29bb6ce69b55a84",
+      "after_sha256": "41a923f2f3b7136a86e7b5fbb9f8cd45279a1f460362bedcd381137debe9dd92"
+    },
+    {
+      "from": "general-causal-action/conditional-normalization-and-marked-access.md",
+      "to": "conditional-preparation-sewing/conditional-normalization-and-marked-access.md",
+      "before_sha256": "35a0ef49d3eecf288c0c928341360a74f7adf2011c074a8ff76b30dda29fb734",
+      "after_sha256": "b04206c6bd9f867afcfb0dc6a7bf261094a17e8d65cae80d7256c66d171404fc"
+    },
+    {
+      "from": "general-causal-action/access-ports-and-conditional-sewing.md",
+      "to": "conditional-preparation-sewing/access-ports-and-conditional-sewing.md",
+      "before_sha256": "3f47e24f1b9ca15875b3f3d9c57f3d7cbcb07ad0a22a17614a2cd7789fe01c44",
+      "after_sha256": "e099bfaf02b6f4c147085358f2e80b8d6503b754762ba612f5840edfda19602b"
+    },
+    {
+      "from": "general-causal-action/conditional-preparation-diagrams-and-ancestral-readout.md",
+      "to": "conditional-preparation-sewing/conditional-preparation-diagrams-and-ancestral-readout.md",
+      "before_sha256": "df76058bd77f52be8b9cd909af12315382b09e0f50f11d6e5e274e3201b5ff93",
+      "after_sha256": "dbd4bd15c2dc2deb3d00c6e8ee4718b35d9c8467529771d5df903abbc5428999"
+    },
+    {
+      "from": "general-causal-action/conditional-scale-scores-and-the-closed-response.md",
+      "to": "conditional-preparation-sewing/conditional-scale-scores-and-the-closed-response.md",
+      "before_sha256": "34465c716661325ea8edb836ea5af5d59e8dbd098c726f0a352a2eb0d19fd190",
+      "after_sha256": "97b6931307944cbbd2d4732a19543f474b36b4f283765b5707936b32c759d94d"
+    },
+    {
+      "from": "general-causal-action/conditional-access-families-and-the-returned-clock.md",
+      "to": "conditional-preparation-sewing/conditional-access-families-and-the-returned-clock.md",
+      "before_sha256": "65798e02b6657b6b35a0e74085025e16a664d32b2542dbaabf136cabd05cd364",
+      "after_sha256": "994faa0d43ce0119c1608236e2f3bfbaab445b02f1f07813d7822dd9800e0ae0"
+    },
+    {
+      "from": "general-causal-action/conditional-preparation-extension-at-new-access.md",
+      "to": "conditional-preparation-sewing/conditional-preparation-extension-at-new-access.md",
+      "before_sha256": "ad78ecd7951bd6a693e921df94f0cf57335b5917a47042f2a9efb353821a837f",
+      "after_sha256": "a8b6671a1ec49ebef1c4a92d820e1c417a15d281f6d03418e4bd6eef90d30b39"
+    }
+  ],
+  "link_updates": 132,
+  "frozen_prefixes": [
+    "general-causal-action/research/"
+  ],
+  "frozen_records_verified": 236
+}

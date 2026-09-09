@@ -4,7 +4,7 @@ Conditional normalization changes the homogeneous preparation source as well as 
 
 ## Vary the law rather than insert a fixed-normalizer mark
 
-Use the finite same-port diagram of [[conditional-preparation-diagrams-and-ancestral-readout|PD1–14]], with fixed arrows, coefficients \(a_{ij}\), comparison paces, representation and width \(\alpha>0\). Give node \(i\)'s innovation the variance \(s_i\tau_i^2\), and write
+Use the finite same-port diagram of [[conditional-preparation-sewing/conditional-preparation-diagrams-and-ancestral-readout|PD1–14]], with fixed arrows, coefficients \(a_{ij}\), comparison paces, representation and width \(\alpha>0\). Give node \(i\)'s innovation the variance \(s_i\tau_i^2\), and write
 \[
 u_i=\log s_i,\qquad
 \mu_i=\sum_{j\in\operatorname{pa}(i)}a_{ij}\xi_j,\qquad
@@ -45,7 +45,7 @@ Differentiating the finite conditional integrals gives
 \partial_{u_i}^2\log b_i=v_i-\overline t_i.}
 \tag{CS5}
 \]
-Indeed \(\partial_{u_i}\overline t_i=-\overline t_i+v_i\), by differentiation of the normalized conditional law. At fixed width and parameters in a compact positive neighborhood, reciprocal-polynomial row bounds and Gaussian domination justify these derivatives and their moments. These are conditional versions of [[closed-normalization-and-cosmic-response|CN15]], with random parent data retained.
+Indeed \(\partial_{u_i}\overline t_i=-\overline t_i+v_i\), by differentiation of the normalized conditional law. At fixed width and parameters in a compact positive neighborhood, reciprocal-polynomial row bounds and Gaussian domination justify these derivatives and their moments. These are conditional versions of [[general-causal-action/closed-normalization-and-cosmic-response|CN15]], with random parent data retained.
 
 ## The full preparation scores are orthogonal innovations
 
@@ -68,7 +68,7 @@ For \(i<j\), condition on \(\mathcal F_{j-1}\); \(S_i\) is measurable and the co
 \]
 Each diagonal entry is finite and positive: the conditional density is positive on a full Gaussian carrier, on which \(t_i\) is not constant. The bound need not be uniform over growing depth or vanishing innovation variance.
 
-These are parameter scores, not claims that the matrices or their norms are independent. Correlated sibling norm observables still have the persistent covariance proved in [[conditional-access-families-and-the-returned-clock|CF18–19]]. Orthogonality in (CS7) is supplied by the actual conditional centering in (CS6).
+These are parameter scores, not claims that the matrices or their norms are independent. Correlated sibling norm observables still have the persistent covariance proved in [[conditional-preparation-sewing/conditional-access-families-and-the-returned-clock|CF18–19]]. Orthogonality in (CS7) is supplied by the actual conditional centering in (CS6).
 
 If all log variances move together, \(u_i=u\), put \(S=\sum_iS_i\) and \(B=\sum_i v_i\). At fixed matrices, the score derivatives satisfy
 \[
@@ -108,7 +108,7 @@ I^{\rm obs}_{ij}
 \]
 The matrix inequality is positive-semidefinite order. Thus a physical readout can have off-diagonal response even when the full innovation-parameter Fisher matrix is diagonal. The missing conditional covariance records which distinctions the observation has discarded. [[scale-score-connection/inq|Scale-score transport]] and [[rg-covariance-residue/joint-fisher-response-of-normalized-gauge-blocking|normalized gauge Fisher response]] own the corresponding moving-channel and physical-carrier distinctions.
 
-There is no mass-gap conclusion in (CS12). Its parameters are Gaussian innovation variances. [[conditional-vacuum-rigidity-and-the-physical-gap|The physical gap criterion]] instead tests the actual centered Hamiltonian's full reduced resolvent on a dense physical source algebra. A comparison from (CS12) to that criterion must be constructed, with its norm and calibration, rather than inferred from the shared word “response.”
+There is no mass-gap conclusion in (CS12). Its parameters are Gaussian innovation variances. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|The physical gap criterion]] instead tests the actual centered Hamiltonian's full reduced resolvent on a dense physical source algebra. A comparison from (CS12) to that criterion must be constructed, with its norm and calibration, rather than inferred from the shared word “response.”
 
 ## Closed weighting restores mixed response and contact terms
 
@@ -136,7 +136,7 @@ For the common homogeneous path,
 \]
 The final two terms are the score's direct derivative, not optional subtractions. At \(W=1\), the curvature is zero even though the Fisher response \(\mathbb E B\) is positive. For a nontrivial weight, the reweighted scores can have mixed covariances. Their Fisher variance alone is therefore not the Hessian of the closed normalization, and neither expression has a prescribed sign as a cosmic restoring potential.
 
-An explicitly variance-dependent interaction or endpoint source adds its direct first and second derivatives to (CS14). Holding such a source fixed after changing its physical definition is not justified. The [[closed-normalization-and-cosmic-response|raw scalar and homogeneous contact analysis]] remains in force; conditional Markov normalization does not select the otherwise admissible closed scalar character.
+An explicitly variance-dependent interaction or endpoint source adds its direct first and second derivatives to (CS14). Holding such a source fixed after changing its physical definition is not justified. The [[general-causal-action/closed-normalization-and-cosmic-response|raw scalar and homogeneous contact analysis]] remains in force; conditional Markov normalization does not select the otherwise admissible closed scalar character.
 
 ## The localized common-scale law still returns reciprocal dynamics
 
@@ -154,6 +154,6 @@ Hence the whole localized preparation law is exactly the pushforward of its \(s=
 H_s=s^{-1}K+sV.
 \tag{CS17}
 \]
-This is the conditional-law extension of CN18, including [[shared-preparation-actions-and-the-conditional-return|the repeated-matrix action construction]] with its fixed paces and same-preparation endpoint cost. It does not introduce an independent choice of electric and magnetic coefficients. Its actual vacuum derivative is governed by CN19 with the full reduced resolvent and contact term. Preserving the reciprocal form does not select \(s\), force a positive infinite-volume gap, or identify this auxiliary dilation with cosmic scale.
+This is the conditional-law extension of CN18, including [[general-causal-action/shared-preparation-actions-and-the-conditional-return|the repeated-matrix action construction]] with its fixed paces and same-preparation endpoint cost. It does not introduce an independent choice of electric and magnetic coefficients. Its actual vacuum derivative is governed by CN19 with the full reduced resolvent and contact term. Preserving the reciprocal form does not select \(s\), force a positive infinite-volume gap, or identify this auxiliary dilation with cosmic scale.
 
 The next common-source test can now use the correct score: transport the selected homogeneous variation and a complete physical source through the same closed preparation, keeping every parent normalizer. A proposed global/local relation must survive that mixed derivative and the physical return. Positive preparation Fisher information by itself is insufficient, but the score and its normalization are now explicit inputs to that test.

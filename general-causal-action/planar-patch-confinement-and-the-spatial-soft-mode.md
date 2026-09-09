@@ -129,7 +129,7 @@ At scaled duration \(\tau>0\), let \(A_\tau=e^{-\tau K_L^{\rm osc}}\) and \(R_\t
 =1-e^{-4\tau\sqrt\lambda}.}
 \tag{PP11}
 \]
-Thus the loss of a uniform harmonic coefficient is visible in a neutral scalar response, not only in an eigenvalue list. [[conditional-vacuum-rigidity-and-the-physical-gap|The complete physical-source criterion]] supplies the corresponding source and susceptibility distinctions.
+Thus the loss of a uniform harmonic coefficient is visible in a neutral scalar response, not only in an eigenvalue list. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|The complete physical-source criterion]] supplies the corresponding source and susceptibility distinctions.
 
 There is an actual bounded compact multiplication probe with this quadratic jet. Write each based face holonomy as \(P_p=q_{0,p}I-i\mathbf q_p\cdot\sigma\), and define
 \[

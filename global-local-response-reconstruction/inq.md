@@ -12,7 +12,9 @@ Global–local response reconstruction asks which whole-law data can produce a l
 
 **Status: [EXACT DEFINITIONS] for the response operator and scale-covariant invariant; [EXACT CONDITIONAL THEOREMS] for complete-response edge to transfer gap and common OS exponent to Hamiltonian gap; [CONSTRUCTION TARGET] for the pre-QFT realization and QFT recovery; [OPEN] for four-dimensional Yang--Mills.**
 
-[[global-local-response-reconstruction/variance-completed-rigidity|Variance-completed descent]] sharpens the algebraic rigidity route: completely positive readout transports a comparison together with its discarded product variance. An explicit repair survives compression when the total loss of its analysis and reconstruction channels has a uniform strict bound. The operator identities are exact; the required bound for the complete Yang–Mills source law remains conjectural.
+[[scale-bearing-descent/variance-completed-rigidity|Variance-completed descent]] sharpens the algebraic rigidity route: completely positive readout transports a comparison together with its discarded product variance. An explicit repair survives compression when the total loss of its analysis and reconstruction channels has a uniform strict bound. The operator identities are exact; the required bound for the complete Yang–Mills source law remains conjectural.
+
+[[quantitative-descent/inq|Quantitative descent]] owns the generic algebraic certificates and bounded repairs used in that route. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|Their Yang–Mills application]] adds the complete physical carrier, fixed-slab comparison and continuum obligations. The broader [[scale-bearing-descent/master-object-and-compatible-realizations|master-object problem]] asks which law selects these compatible realizations; the signature below specifies one reconstruction branch of that search.
 
 ## The Copernican change of primitives
 

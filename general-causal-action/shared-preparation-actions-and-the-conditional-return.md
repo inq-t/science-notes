@@ -34,7 +34,7 @@ The action representation uses inverse pullback; inversion symmetry gives the sa
 
 ## Retain the diagram law before reusing its matrices
 
-Take a finite Gaussian preparation DAG from [[conditional-preparation-diagrams-and-ancestral-readout|PD1–3]], with scalar parent maps and positive innovation variances. Each node has a declared reference pace \(r_i>0\). Write
+Take a finite Gaussian preparation DAG from [[conditional-preparation-sewing/conditional-preparation-diagrams-and-ancestral-readout|PD1–3]], with scalar parent maps and positive innovation variances. Each node has a declared reference pace \(r_i>0\). Write
 \[
 b_{i,\alpha}
 =\mathbb E[\zeta_{\xi_i,\alpha,r_i}\mid\xi_{\operatorname{pa}(i)}],

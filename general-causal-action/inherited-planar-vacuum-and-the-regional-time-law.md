@@ -125,7 +125,7 @@ Nevertheless the fixed local source has finite integrated normalized susceptibil
 \mathcal S_b:=\int_0^\infty\mathcal C_b(t)\,dt
 \le\frac{\|b\|_2^2}{2c_b}<\infty.
 \]
-Indeed, with probability weight \(d\mu_b=|\widehat b(k)|^2\omega(k)d^2k/[(2\pi)^2c_b]\), its integral is \(\iint(\omega+\omega')^{-1}d\mu_b d\mu_b'\); use \((a+b)^{-1}\le(a^{-1}+b^{-1})/4\). Its spectral support still reaches zero. A favorable response of this one source therefore supplies no complete-source uniform bound of the kind required by [[conditional-vacuum-rigidity-and-the-physical-gap|CV]].
+Indeed, with probability weight \(d\mu_b=|\widehat b(k)|^2\omega(k)d^2k/[(2\pi)^2c_b]\), its integral is \(\iint(\omega+\omega')^{-1}d\mu_b d\mu_b'\); use \((a+b)^{-1}\le(a^{-1}+b^{-1})/4\). Its spectral support still reaches zero. A favorable response of this one source therefore supplies no complete-source uniform bound of the kind required by [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|CV]].
 
 These tails require the bulk limit before the long-duration limit. Every finite box still has discrete exponential tails; keeping the source near an exterior boundary instead gives a different limit. Time here is PP's scaled time, with physical duration \(t/\sqrt{\kappa g}\). No joint fixed-physical-time or interacting infinite-volume limit follows.
 

@@ -77,7 +77,7 @@ This is the programme's Copernican test. If \(\mathsf{Rec}\) recovers the QFT ob
 
 ## Explanatory order is not algebraic rearrangement
 
-An equation may be solved in either direction without either direction becoming an explanation. The proposed order is instead a dependency graph:
+An equation may be solved in either direction without either direction becoming an explanation. [[general-causal-action/directed-realization-and-foundational-restart|The directed-realization audit]] distinguishes reconstructing an operator from supplied data from selecting the primitive law that supplies those data. The proposed order is instead a dependency graph:
 
 $$
 \boxed{

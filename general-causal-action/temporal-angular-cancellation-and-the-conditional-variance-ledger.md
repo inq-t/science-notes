@@ -2,7 +2,7 @@
 
 The temporal Haar variables in an open reflected slab are gauge transport: after the outer boundary and its spatial links are transported together, those angles are independent Haar variables and contribute no variance of a neutral conditional mean. Their positive score variance is canceled by an exact curvature term. The physical four-boundary variance still contains an auxiliary part and a spatial conditional-mean part, both weighted by the selected vacuum. Its rigidity surplus is the difference of these parts before and after chronological transport, so raw positivity of either angular term does not supply the required strict margin.
 
-**Status: exact conditional identities for the finite reflected determinant law; explicit nonconstant Wilson-source control; open uniform physical rigidity estimate.** [[reflection-sewing-and-the-auxiliary-boundary-carrier|RS1–16]] owns the amplitude and supported vacuum. [[oriented-innovation-and-finite-temporal-repair|OI19–28]] owns the actual three-slab diagram, its intertwiner, and the corrected-variance target. The calculation below resolves that diagram into its actual angular and auxiliary conditionals.
+**Status: exact conditional identities for the finite reflected determinant law; explicit nonconstant Wilson-source control; open uniform physical rigidity estimate.** [[reflection-sewing-and-the-auxiliary-boundary-carrier|RS1–16]] owns the amplitude and supported vacuum. [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI19–28]] owns the actual three-slab diagram, its intertwiner, and the corrected-variance target. The calculation below resolves that diagram into its actual angular and auxiliary conditionals.
 
 ## Restore the temporal variables in one actual outer slab
 

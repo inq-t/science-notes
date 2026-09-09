@@ -188,7 +188,7 @@ The first bound follows from the full local jet and
 \]
 It also gives an \(O(h)\) absolute time-integral error. The limiting profile is a finite positive sum of exponentials from the degree-two and degree-four Hermite sectors, with strictly positive weight at energy four. It is the actual marked transfer limit.
 
-CQ13, first-cluster convergence and CQ8 imply that the actual source has nonzero weight in \((4-\epsilon,4+\epsilon)\) for every fixed \(\epsilon>0\) and sufficiently small \(h\). CQ6 bounds its support below. Consequently its actual cyclic edge \(\lambda_{f_h}\) tends to four. Using [[chronological-cyclic-sources-and-the-innovation-floor|CS's cyclic identity]],
+CQ13, first-cluster convergence and CQ8 imply that the actual source has nonzero weight in \((4-\epsilon,4+\epsilon)\) for every fixed \(\epsilon>0\) and sufficiently small \(h\). CQ6 bounds its support below. Consequently its actual cyclic edge \(\lambda_{f_h}\) tends to four. Using [[two-slice-innovation-geometry/chronological-cyclic-sources-and-the-innovation-floor|CS's cyclic identity]],
 \[
 \inf_{0\ne u\in\mathscr C_{f_h}}
 \frac{\langle u,(1-e^{-2aK_h})^2u\rangle}

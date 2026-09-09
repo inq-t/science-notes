@@ -4,6 +4,8 @@ A symmetric Gaussian proximity kernel can preserve a specified Gaussian state an
 
 **Status: exact Gaussian construction and classification under the stated kernel, carrier and scalar-clock hypotheses.** The Gaussian state and the choice of Gaussian proximity comparisons are inputs. Balancing and exact scalar-clock sewing are additional constitutive requirements. This does not construct the corresponding comparisons on the sewn \(SU(2)\) carrier or recover a Yang–Mills theory. No novelty is claimed for Gaussian integration, symmetric kernel balancing or the Mehler process.
 
+[[general-causal-action/local-product-overlap-and-resolved-response|The inherited product comparison]] gives the preceding obstruction on the sewn \(SU(2)\) carrier: correcting its stationary density does not remove the divergent relative principal symbol. The Gaussian model here therefore tests the stronger requirement of balancing the complete covariance as well as the state. Its classification does not automatically transfer to the group comparison.
+
 ## Ordinary row normalization changes the state
 
 Fix \(d\ge1\), positive definite matrices \(\Sigma,C\), and the probability measure \(\mu_\Sigma=N(0,\Sigma)\) on \(\mathbb R^d\). The covariance \(\Sigma\) specifies the state; \(C\) specifies the proximity cometric. They have the same coordinate covariance units, so the width \(\epsilon>0\) is dimensionless. Set

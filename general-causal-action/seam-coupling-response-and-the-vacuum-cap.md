@@ -304,6 +304,6 @@ In the useful special case \(C_0(s)=1\), \(P_0F=\alpha F\), and all \(C_N'(0)=0\
 
 ## The relation to seek
 
-The elementary identity is (SV3): the seam action forces its vacuum response through the existing chronology. A useful uniform theorem would control the complete marked response of this forced change under adjacent-block sewing, including both caps, the changed endpoint law and the separator channels. That theorem must act on the oriented innovation carrier of [[oriented-innovation-and-finite-temporal-repair|OI]], rather than only on spatial gradients or selected seam eigenmodes.
+The elementary identity is (SV3): the seam action forces its vacuum response through the existing chronology. A useful uniform theorem would control the complete marked response of this forced change under adjacent-block sewing, including both caps, the changed endpoint law and the separator channels. That theorem must act on the oriented innovation carrier of [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI]], rather than only on spatial gradients or selected seam eigenmodes.
 
 The present result makes the next conjecture more specific. Seek cancellation or contraction of the transported seam-response tail in the actual difference \(V_Q-C_{\rm lag}\), using the non-Abelian boundary composition. Bounding (SV4) by an already uniform global gap would reverse the intended proof. Calculating the finite words and their complete joint source response first leaves room for a stronger compositional law to supply the missing estimate.

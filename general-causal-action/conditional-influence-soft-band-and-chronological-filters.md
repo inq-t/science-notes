@@ -170,7 +170,7 @@ Since \(\|z_{T_n}\|^2\le C_I\), even the normalized innovation denominator is bo
 
 ## The actual cyclic floor has the same order
 
-Let \(\mathcal C_h\) be the closed span of \(\{e^{-tK}f_h:t\ge0\}\), the [[chronological-cyclic-sources-and-the-innovation-floor|chronological cyclic carrier]], and take the infimum of the innovation quotient over its nonzero vectors. This subspace is centered and contains every \(u_{T_n}\). The physical-gap lower bound gives \(R_a^2\ge r_a(c_I/n)R_a\) on the entire physical vacuum complement. Combining it with SF9 yields
+Let \(\mathcal C_h\) be the closed span of \(\{e^{-tK}f_h:t\ge0\}\), the [[two-slice-innovation-geometry/chronological-cyclic-sources-and-the-innovation-floor|chronological cyclic carrier]], and take the infimum of the innovation quotient over its nonzero vectors. This subspace is centered and contains every \(u_{T_n}\). The physical-gap lower bound gives \(R_a^2\ge r_a(c_I/n)R_a\) on the entire physical vacuum complement. Combining it with SF9 yields
 \[
 \boxed{
 \frac{c_{I,a}}n

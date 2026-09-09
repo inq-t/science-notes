@@ -137,7 +137,7 @@ In finite dimension, if \(\omega(R)=\operatorname{Tr}(\sigma R)\), \(\sigma\ge m
 R\ge\left(C-\frac{\delta}{m}\right)I .
 \tag{RM12}
 \]
-Almost-saturation requires control of \(m\). This can deteriorate under refinement; an infinite-dimensional faithful normal density need not be bounded below by a positive multiple of the identity. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap#The continuum condition belongs to the measured law|The escaping-soft-direction example]] shows how a direction with vanishing state weight can soften while faithful averages approach saturation.
+Almost-saturation requires control of \(m\). This can deteriorate under refinement; an infinite-dimensional faithful normal density need not be bounded below by a positive multiple of the identity. [[quantitative-descent/rigidity-certificates-and-soft-escape#Exact gluing and convergence can retain soft directions|The escaping-soft-direction example]] shows how a direction with vanishing state weight can soften while faithful averages approach saturation.
 
 ## The simpler construction target
 
@@ -148,7 +148,7 @@ The economical mass-gap target remains
 q_{\rm descent}\ge\kappa\,g_{\rm physical}
 \quad\text{on the full nonvacuum carrier},\qquad \kappa>0,
 \]
-with a scale selector and physical reconstruction supplied independently. This specifies the missing theorem, not its proof. [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|Quantitative descent]] owns the constructive gluing and positive-certificate routes. The task is to derive a global--local relation that forces this bound along the actual continuum trajectory.
+with a scale selector and physical reconstruction supplied independently. This specifies the missing theorem, not its proof. [[quantitative-descent/rigidity-certificates-and-soft-escape|Quantitative descent]] owns the constructive gluing and positive-certificate routes. The task is to derive a global--local relation that forces this bound along the actual continuum trajectory.
 
 “Scale gap” is useful terminology for that search, provided it does not mean a smallest spatial pixel or merely a bound on one logarithmic-scale tangent. The [[library/quantum-yang-mills-theory/inq|Clay target]] remains a complete nontrivial pure Yang--Mills theory with a physical vacuum gap; it contains no Higgs field. A common account of Higgs reduction, cosmology and Yang--Mills would be a further return, not a substitute.
 

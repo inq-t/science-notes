@@ -173,6 +173,14 @@ form \((\hbar c/2)H^{-1}\). Finite dwell for selected states is insufficient.
 This is another exact presentation of a supplied transfer spectrum, not
 an independent proof of its positive edge.
 
+## Chronological innovations retain the actual preparation
+
+[[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|Oriented innovation]] realizes the one-ended residual on a stationary history and constructs a finite temporal repair. Its reconstruction identity leaves an explicit chronological tail. Controlling that tail uniformly is the substantive rigidity question; stationarity and an injective transfer alone do not answer it. The [[quantitative-descent/rigidity-certificates-and-soft-escape|shared repair theorem]] gives the general implication once the construction supplies its bounds.
+
+Spatial restriction must retain the inherited predictor. [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|The regional information balance]] splits the prediction error into retained regional innovation and an exterior-information term. Replacing the global vacuum law by a freshly prepared regional law changes this comparison. [[conditional-preparation-sewing/inq|Conditional preparation sewing]] specifies which marked experiments an access extension actually preserves.
+
+[[two-slice-innovation-geometry/chronological-cyclic-sources-and-the-innovation-floor|Chronological cyclic sources]] make the spectral coverage issue exact. Closing one source under actual time translations tests its cyclic spectral support; an integrated finite susceptibility for that source does not imply a positive edge even on that support. A full physical conclusion requires the complete source carrier. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|The complete-source criterion]] formulates that stronger test using the actual vacuum response.
+
 ## The angle is exactly a two-block variance constant
 
 Embed endpoint functions isometrically in \(L^2(\mathsf J)\), and let

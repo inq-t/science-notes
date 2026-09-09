@@ -1,0 +1,19 @@
+{
+  "manifest": "scripts/refactors/2026-09-09-scale-bearing-descent.json",
+  "moves": [
+    {
+      "from": "general-causal-action/scale-bearing-descent-and-the-yang-mills-return.md",
+      "to": "scale-bearing-descent/scale-bearing-descent-and-the-yang-mills-return.md",
+      "before_sha256": "39ea9e123a5a2bfc0d95a130b6ebce2c0559b188a51910d8bf01e7f819195ebf",
+      "after_sha256": "b20e8e4f89c547cd0fc21b3978702342f7d5bf56950c99c256e3207bdf217343"
+    },
+    {
+      "from": "global-local-response-reconstruction/variance-completed-rigidity.md",
+      "to": "scale-bearing-descent/variance-completed-rigidity.md",
+      "before_sha256": "ad016b01a24cd6b5f903f1de2fe40c73d34a6b28c80c75e3c13a719b58518849",
+      "after_sha256": "ad016b01a24cd6b5f903f1de2fe40c73d34a6b28c80c75e3c13a719b58518849"
+    }
+  ],
+  "link_updates": 4,
+  "frozen_records_verified": 214
+}

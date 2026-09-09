@@ -1,0 +1,16 @@
+{
+  "description": "Extract conditional preparation sewing and reuse the existing innovation and physical-response modules; preserve complete historical research records.",
+  "frozen_prefixes": ["general-causal-action/research/"],
+  "moves": {
+    "general-causal-action/oriented-innovation-and-finite-temporal-repair.md": "two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair.md",
+    "general-causal-action/chronological-cyclic-sources-and-the-innovation-floor.md": "two-slice-innovation-geometry/chronological-cyclic-sources-and-the-innovation-floor.md",
+    "general-causal-action/regional-innovation-and-exterior-information-balance.md": "two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance.md",
+    "general-causal-action/conditional-vacuum-rigidity-and-the-physical-gap.md": "physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap.md",
+    "general-causal-action/conditional-normalization-and-marked-access.md": "conditional-preparation-sewing/conditional-normalization-and-marked-access.md",
+    "general-causal-action/access-ports-and-conditional-sewing.md": "conditional-preparation-sewing/access-ports-and-conditional-sewing.md",
+    "general-causal-action/conditional-preparation-diagrams-and-ancestral-readout.md": "conditional-preparation-sewing/conditional-preparation-diagrams-and-ancestral-readout.md",
+    "general-causal-action/conditional-scale-scores-and-the-closed-response.md": "conditional-preparation-sewing/conditional-scale-scores-and-the-closed-response.md",
+    "general-causal-action/conditional-access-families-and-the-returned-clock.md": "conditional-preparation-sewing/conditional-access-families-and-the-returned-clock.md",
+    "general-causal-action/conditional-preparation-extension-at-new-access.md": "conditional-preparation-sewing/conditional-preparation-extension-at-new-access.md"
+  }
+}

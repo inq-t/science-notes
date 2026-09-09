@@ -106,7 +106,7 @@ The centering term is retained in this bound. Thus the activity fails to frame t
 
 ## The same test reaches the actual innovation carrier
 
-Use the pair law \(\mu_1(dX,dY)=\pi(dX)A(X,dY)\) and innovation \(\delta_+f=f(Y)-(Af)(X)\) of [[oriented-innovation-and-finite-temporal-repair|OI19–28]]. Add the original conditional spatial-link draw at the middle boundary \(Y\). On this unchanged sourced extension, define the Hilbert–Schmidt-valued activity maps
+Use the pair law \(\mu_1(dX,dY)=\pi(dX)A(X,dY)\) and innovation \(\delta_+f=f(Y)-(Af)(X)\) of [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI19–28]]. Add the original conditional spatial-link draw at the middle boundary \(Y\). On this unchanged sourced extension, define the Hilbert–Schmidt-valued activity maps
 \[
 (\mathfrak D_eh)(X,Y,U)
 =[\Pi_v(Y),U_{vw}\Pi_w(Y)U_{vw}^\dagger]h(X,Y),

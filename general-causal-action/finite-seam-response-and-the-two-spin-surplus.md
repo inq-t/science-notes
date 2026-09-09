@@ -74,7 +74,7 @@ For a fixed real source \(F\), let \(f_s=F-\pi_sF\), \(A_s=P_s^k\), and \(R_s=I-
 \qquad h_s=\delta_s f_s.
 \tag{SF6}
 \]
-The last equality is [[oriented-innovation-and-finite-temporal-repair|OI25]], using its actual changed pair law. It includes \(A_sf_s\), the vacuum centering and the normalization of the innovation. Rescaling \(f_s\) or \(h_s\) does not change this ratio.
+The last equality is [[two-slice-innovation-geometry/oriented-innovation-and-finite-temporal-repair|OI25]], using its actual changed pair law. It includes \(A_sf_s\), the vacuum centering and the normalization of the innovation. Rescaling \(f_s\) or \(h_s\) does not change this ratio.
 
 The fixed functions \(F_+=x_L+x_R\) and \(F_-=x_L-x_R\) are centered for every \(s\). Multiplication by \(\psi_s\) leaves each in its one-dimensional odd eigenspace, so
 \[

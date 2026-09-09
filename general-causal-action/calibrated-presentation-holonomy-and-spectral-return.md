@@ -72,7 +72,7 @@ Functional calculus transports the kernel and nonvacuum spectrum, giving
 \]
 The more general [[mass-scale-calibration/internal-yardstick-as-a-generalized-rate-edge#Why an invariant edge cannot fix an unpointed scale|unitary-rescaling obstruction]] already proves that even one exact nontrivial rescaling of a nonzero positive operator produces spectral values approaching zero by iteration. Equation (CH7) is its closed-presentation corollary.
 
-This is not a converse. Trivial scale holonomy does not imply a gap; a gapless clock can have identity presentation transport. Nor does (CH7) select \(\Delta_x\), the transmutation scale, or a dimensionless positive lower bound. [[conditional-vacuum-rigidity-and-the-physical-gap|Complete physical susceptibility]] remains the separate source-response criterion for proving that bound.
+This is not a converse. Trivial scale holonomy does not imply a gap; a gapless clock can have identity presentation transport. Nor does (CH7) select \(\Delta_x\), the transmutation scale, or a dimensionless positive lower bound. [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|Complete physical susceptibility]] remains the separate source-response criterion for proving that bound.
 
 ## Physical phase holonomy can change a spectrum
 

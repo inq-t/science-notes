@@ -4,7 +4,7 @@ A correlated preparation can acquire a new physical comparison while preserving 
 
 ## The integrated boundary is part of the experiment
 
-Use the actual paths of [[conditional-preparation-extension-at-new-access|the new-access construction]]:
+Use the actual paths of [[conditional-preparation-sewing/conditional-preparation-extension-at-new-access|the new-access construction]]:
 \[
 A=U_1U_2=U,\qquad B=U_1W^{-1}U_1U_2=LU,
 \qquad L=U_1W^{-1}=BA^{-1}.
@@ -32,7 +32,7 @@ For an old source insertion \(M(\xi)\), the single-Gaussian raw extension has th
 \]
 This retains an extra preparation-dependent weight. A scalar \(c_\alpha\) makes the right side equal to \(c_\alpha\mathbb E[Mp_{\alpha,\xi}]\) for **all** bounded old marks if and only if \(b_\alpha=c_\alpha\) almost surely. Necessity follows by testing bounded functions of \(\xi\); the strictly positive factor \(p\) may be absorbed into the measure. The same conclusion follows from the complete Fourier source family by uniqueness of the finite measure. Sufficiency is immediate. Equality of the Gaussian prior marginals alone says nothing about this extra comparison weight.
 
-For a nondegenerate correlated Gaussian, \(b_\alpha\) is already nonconstant in the elementary \(SU(2)\) example below. Thus preservation of the old preparation and preservation of its processed experiment are distinct conditions. [[access-ports-and-conditional-sewing|Conditional sewing]] gives the complementary Schur-complement test at a fixed pair of boundary configurations; (NA3) instead includes the declared Haar readout of a new boundary.
+For a nondegenerate correlated Gaussian, \(b_\alpha\) is already nonconstant in the elementary \(SU(2)\) example below. Thus preservation of the old preparation and preservation of its processed experiment are distinct conditions. [[conditional-preparation-sewing/access-ports-and-conditional-sewing|Conditional sewing]] gives the complementary Schur-complement test at a fixed pair of boundary configurations; (NA3) instead includes the declared Haar readout of a new boundary.
 
 ## A positive extension with exact old marked readout
 
@@ -54,7 +54,7 @@ Integration over the new outgoing boundary proves
 \]
 For \(Jf(A,B)=f(A)\), this is the exact old marked kernel identity \(\widetilde F_\alpha^M J=J F_{\alpha,\mathrm{old}}^M\). It holds before localization and hence through any temporal product with transported old marks on the separate preparations. It extends to an old endpoint feature depending on \(A,\xi\), because that feature can stay inside the old expectation in (NA5). A genuinely new weak interaction involving \(B\) generally changes this identity.
 
-For the unmarked rule, positivity follows by conditioning on \((\xi,\eta)\): the product of two Gaussian distance kernels is positive, and \(1/b_\alpha(\xi)>0\). Assume both preparations have full row rank almost surely, as in the Gaussian law below. Faithfulness then gives strict positivity on nonzero Haar-density measures by the Gaussian embedding argument of [[general-group-preparation-and-the-casimir-return|the general-group theorem]]. Thus the operator is injective. Its kernel is symmetric and its row integral is exactly one by (NA5), so it is a self-adjoint Markov contraction. In the correlated isotropic law below it also commutes with both boundary gauge actions. These conclusions concern the complete framed carrier and its complete gauge-invariant subspace.
+For the unmarked rule, positivity follows by conditioning on \((\xi,\eta)\): the product of two Gaussian distance kernels is positive, and \(1/b_\alpha(\xi)>0\). Assume both preparations have full row rank almost surely, as in the Gaussian law below. Faithfulness then gives strict positivity on nonzero Haar-density measures by the Gaussian embedding argument of [[general-causal-action/general-group-preparation-and-the-casimir-return|the general-group theorem]]. Thus the operator is injective. Its kernel is symmetric and its row integral is exactly one by (NA5), so it is a self-adjoint Markov contraction. In the correlated isotropic law below it also commutes with both boundary gauge actions. These conclusions concern the complete framed carrier and its complete gauge-invariant subspace.
 
 This is a substantive constitutive choice. The factor \(b_\alpha(\xi)^{-1}\) reweights the auxiliary preparation in the full comparison. It preserves an explicitly specified old readout while altering the joint raw amplitudes and the new response. It cannot be dropped from a closed trace or from homogeneous source derivatives.
 
@@ -117,7 +117,7 @@ For a nontrivial irreducible character \(\chi\), with \(D_Q\chi=C_Q(\chi)\chi\),
 \widetilde H\chi(BA^{-1})=(\kappa_0+\kappa_1)C_Q(\chi)\chi(BA^{-1}).
 \tag{NA12}
 \]
-This is a nonzero, finite physical rate. It repairs the annihilated loop in [[preparation-transport-through-spatial-subdivision|PT14–18]]. There is also actual mixed motion in the inherited \((U,L)\) coordinates. Define \(\mathcal L_Xf(U)=\partial_t f(e^{tX}U)|_0\) and \(\mathcal R_Xf(L)=\partial_t f(Le^{tX})|_0\). Varying \(A\) at fixed \(B\) gives \(\mathcal L_{U,X}-\mathcal R_{L,X}\); varying \(B\) gives \(\mathcal L_{L,X}\). Hence
+This is a nonzero, finite physical rate. It repairs the annihilated loop in [[general-causal-action/preparation-transport-through-spatial-subdivision|PT14–18]]. There is also actual mixed motion in the inherited \((U,L)\) coordinates. Define \(\mathcal L_Xf(U)=\partial_t f(e^{tX}U)|_0\) and \(\mathcal R_Xf(L)=\partial_t f(Le^{tX})|_0\). Varying \(A\) at fixed \(B\) gives \(\mathcal L_{U,X}-\mathcal R_{L,X}\); varying \(B\) gives \(\mathcal L_{L,X}\). Hence
 \[
 \widetilde H=\kappa_0D_{Q,U}+(\kappa_0+\kappa_1)D_{Q,L}
 +2\kappa_0\sum_i\mathcal L_{U,e_i}\mathcal R_{L,e_i}.
@@ -161,6 +161,6 @@ The normalized extension fixes the old magnetic moment as well as its free elect
 
 The single-Gaussian extension retains the simplest quadratic amplitude and changes the old processed marginal through localization. The conditional extension retains that old processed marginal and introduces a preparation-dependent normalization. Both use the same multiplication words and prior covariance, and both retain the new physical loop. Their difference must be decided by an explicit law for genuine access extensions; pure presentation covariance does not choose between them.
 
-[[conditional-access-families-and-the-returned-clock|Conditional access families]] extend the normalized rule to general groups and a growing number of accesses over one retained root. The full-source counterexample in (AP18)–(AP19) shows why this fixed-root coherence is not yet invariance under changing the retained root.
+[[conditional-preparation-sewing/conditional-access-families-and-the-returned-clock|Conditional access families]] extend the normalized rule to general groups and a growing number of accesses over one retained root. The full-source counterexample in (AP18)–(AP19) shows why this fixed-root coherence is not yet invariance under changing the retained root.
 
-A common-source cosmological calculation must differentiate the selected full prescription, including \(b_\alpha(\xi)^{-1}\) when present. The raw normalization and contact terms in [[closed-normalization-and-cosmic-response|the closed-source calculation]] cannot be imported unchanged from the single-Gaussian rule. The exact finite construction identifies a meaningful selection question; it supplies no four-dimensional continuum or Yang–Mills gap theorem.
+A common-source cosmological calculation must differentiate the selected full prescription, including \(b_\alpha(\xi)^{-1}\) when present. The raw normalization and contact terms in [[general-causal-action/closed-normalization-and-cosmic-response|the closed-source calculation]] cannot be imported unchanged from the single-Gaussian rule. The exact finite construction identifies a meaningful selection question; it supplies no four-dimensional continuum or Yang–Mills gap theorem.

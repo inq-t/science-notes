@@ -116,7 +116,7 @@ d\nu_\alpha(\xi)=
 P_i(d\xi_i\mid\xi_{\operatorname{pa}(i)}).
 \tag{BF11}
 \]
-The retained marked marginal is exact, including all transported bridge readouts and the same terminal matrix reused at different substeps. This uses the normalized law and retained-parent condition of [[conditional-preparation-diagrams-and-ancestral-readout|ancestral preparation diagrams]]. If a retained bridge instead uses \(\xi_3\), that preparation remains part of the retained experiment even after its spatial loop is forgotten; deleting it would change the law.
+The retained marked marginal is exact, including all transported bridge readouts and the same terminal matrix reused at different substeps. This uses the normalized law and retained-parent condition of [[conditional-preparation-sewing/conditional-preparation-diagrams-and-ancestral-readout|ancestral preparation diagrams]]. If a retained bridge instead uses \(\xi_3\), that preparation remains part of the retained experiment even after its spatial loop is forgotten; deleting it would change the law.
 
 This projection proof does not replace the independent positivity proof for the shared construction. Nor does it compress a fixed noncentral preparation to the physical quotient before applying its bridges. The charged order and current transport in (BF10) are part of the marked experiment.
 

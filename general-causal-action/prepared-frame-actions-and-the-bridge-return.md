@@ -90,7 +90,7 @@ Their separate kernels may have many fixed functions. Positivity and injectivity
 
 ## A symmetric composition recovers the whole incidence form
 
-Let \(F_{\parallel,\alpha}\) be the three-access member of [[conditional-access-families-and-the-returned-clock|the conditional family]], with four actual common-endpoint words \(P_0,P_1,P_2,P_3\). Gauge only the final endpoint first. The isometric pullback
+Let \(F_{\parallel,\alpha}\) be the three-access member of [[conditional-preparation-sewing/conditional-access-families-and-the-returned-clock|the conditional family]], with four actual common-endpoint words \(P_0,P_1,P_2,P_3\). Gauge only the final endpoint first. The isometric pullback
 \[
 (JF)(P_0,P_1,P_2,P_3)
 =F(P_0P_1^{-1},P_2P_1^{-1},P_3P_2^{-1})

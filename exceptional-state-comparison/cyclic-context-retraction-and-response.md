@@ -94,7 +94,7 @@ one has \(\mathcal T^*\mathcal T=(9/13)I\), and hence the explicit bounded left 
 \tag{EC7}
 \]
 This is a finite constructive example of
-[[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative gluing]], not only a kernel-separation theorem.
+[[quantitative-descent/rigidity-certificates-and-soft-escape#A constructive quantitative gluing map|quantitative gluing]], not only a kernel-separation theorem.
 
 The retained family is also quantitatively complete:
 \[

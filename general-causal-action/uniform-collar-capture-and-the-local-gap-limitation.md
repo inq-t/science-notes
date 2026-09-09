@@ -2,7 +2,7 @@
 
 A growing collar recovers the omitted information of every square-integrable one-face radial source in the inherited harmonic law, uniformly in patch size and scaled time. Nevertheless that complete local source algebra has a positive innovation-response floor while the whole patch develops an arbitrarily soft physical mode. This decides the collar test: local completeness and quantitative information recovery are insufficient for global coercivity. The next comparison must retain the mixed relational sources that assemble a collective mode.
 
-**Status: exact harmonic collar and local-coercivity theorems, with an actual compact return for the prescribed quadratic source.** [[gaussian-collar-memory-and-the-complete-radial-source|GC]] owns Gaussian conditioning and the complete radial algebra; [[lattice-poisson-tails-and-collar-localization|LP]] owns spatial localization; [[compact-collar-memory-and-the-returned-response|CL]] owns the compact conditional return. These use the single chronology and innovation balance of [[regional-innovation-and-exterior-information-balance|RI]].
+**Status: exact harmonic collar and local-coercivity theorems, with an actual compact return for the prescribed quadratic source.** [[gaussian-collar-memory-and-the-complete-radial-source|GC]] owns Gaussian conditioning and the complete radial algebra; [[lattice-poisson-tails-and-collar-localization|LP]] owns spatial localization; [[compact-collar-memory-and-the-returned-response|CL]] owns the compact conditional return. These use the single chronology and innovation balance of [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|RI]].
 
 ## The collar captures the complete one-face source algebra
 

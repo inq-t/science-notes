@@ -4,7 +4,7 @@ The finite preparation programme now returns a complete physical source algebra 
 
 ## The returned source algebra has a trivial modular operator
 
-Fix one nontrivial finite graph construction of [[local-incidence-preparations-and-the-gauge-transfer|local incidence preparation]] or [[conditional-access-families-and-the-returned-clock|conditional access]]. Write its entire gauge-invariant configuration space as the compact quotient \(Q=X/\mathcal G\), with quotient Haar measure \(\mu\). Its positive normalized ground vector \(\psi_0\) is invariant and descends to \(Q\). The ground-state transform gives
+Fix one nontrivial finite graph construction of [[local-incidence-preparations-and-the-gauge-transfer|local incidence preparation]] or [[conditional-preparation-sewing/conditional-access-families-and-the-returned-clock|conditional access]]. Write its entire gauge-invariant configuration space as the compact quotient \(Q=X/\mathcal G\), with quotient Haar measure \(\mu\). Its positive normalized ground vector \(\psi_0\) is invariant and descends to \(Q\). The ground-state transform gives
 \[
 \mathcal H=L^2(Q,\nu),\qquad d\nu=\psi_0^2d\mu,\qquad
 \Omega=1,\qquad L=\psi_0^{-1}(H-E_0)\psi_0\ge0.
@@ -82,4 +82,4 @@ The first arrow is open. The second requires the actual hypotheses of a modular 
 
 The reconstructed positive generator of a half-sided inclusion is a translation obtained from two modular logarithms; it is not the modular logarithm of one faithful state. Its dilation covariance forces a nontrivial spectrum down to zero. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|Joint causal generators]] already proves the correct route: compatible opposite causal translations, a completed Poincare representation, and a separate full-carrier Casimir bound. No modular non-geometricity or global/local purity slogan supplies that bound.
 
-The [[conditional-vacuum-rigidity-and-the-physical-gap|complete-source susceptibility]] estimates a candidate returned clock on an actual vacuum complement. It can supply a physical energy-gap certificate if that clock is identified with the reconstructed translation Hamiltonian in the required limit. The modular constellation and the uniform source-response bound are thus complementary returns of one proposed law. Their equality of carrier, state and clock is a construction to prove, not a choice of names.
+The [[physical-response-coercivity/conditional-vacuum-rigidity-and-the-physical-gap|complete-source susceptibility]] estimates a candidate returned clock on an actual vacuum complement. It can supply a physical energy-gap certificate if that clock is identified with the reconstructed translation Hamiltonian in the required limit. The modular constellation and the uniform source-response bound are thus complementary returns of one proposed law. Their equality of carrier, state and clock is a construction to prove, not a choice of names.
