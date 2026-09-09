@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and its complete physical source carrier. Round 25 proves a uniform coarse return of the actual first planar energy levels on growing patches, removes the compact source's global multiplication loss, and sharpens the nonlinear coefficient bounds. The next step is a quantitative remainder for the actual operator on higher-order quasimodes. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and its complete physical source carrier. Round 26 proves the uniform nonlinear gap and marked susceptibility estimates on growing planar patches, resolving the previous remainder test with stronger bounds. The regional harmonic benchmark then exposes the temporal information lost by independently preparing a retained block. Next carry that inherited marked law into the actual compact theory. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 25, 2026-09-09
+## Active conjecture — round 26, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical \(\ell=ka_t>0\),
 \[
@@ -16,75 +16,52 @@ V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
 on every centered physical innovation through continuum and infinite-volume limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implying \(H\ge-\log(1-c)/(2\ell)\) on its complement. Finite boundary-word positivity remains an allowed mechanism.
 
-## Strongest consequence: actual growing-patch spectral control
+## Strongest consequence: actual uniform nonlinear return
 
-Keep the isolated open planar \(L\times L\) patch, all boundary vertices gauged, the comb connectors, equal magnetic strength \(g\), and fixed \(\kappa>0\). Put
+Use the isolated open planar \(L\times L\) patch with every boundary vertex gauged, comb connectors, equal magnetic strength \(g\), and fixed \(\kappa>0\). Set
 \[
-n=L+1,\qquad h=(\kappa/g)^{1/4},\qquad
-E=\sqrt{\kappa g}=\kappa h^{-2},\qquad \epsilon=hn^{10}.
+n=L+1,\quad h=(\kappa/g)^{1/4},\quad
+E=\sqrt{\kappa g},\quad \epsilon=hn^{10},\quad
+c_L=4\sqrt2\sin\frac{\pi}{2n}.
 \]
+[[general-causal-action/uniform-nonlinear-planar-gap-and-marked-response|UN1–10]] proves, with size-independent \(C,\eta>0\) and \(0<\epsilon\le\eta\),
+\[
+\boxed{\left|\Delta_L/E-c_L-h^2d_L\right|\le Ch^4n^{21},\qquad
+\left|\mathcal S_L-c_L^{-1}-h^2S_{2,L}\right|\le Ch^4n^{23}.}
+\]
+Here \(\mathcal S_L=E\mathcal X_{\mathcal B_L}/\operatorname{Var}(\mathcal B_L)\) uses the prescribed compact lowest-mode source and its actual vacuum, mean and variance. This resolves [[general-causal-action/uniform-marked-well-return-and-the-growing-patch-test|GW3–4]], whose original envelopes were \(n^{39},n^{41}\). It does not cover arbitrary growing source inventories.
 
-[[general-causal-action/uniform-planar-localization-and-the-first-physical-levels|UP1–12]] proves constants \(C,\eta>0\), independent of \(L,h\), such that for \(0<\epsilon\le\eta\),
-\[
-|\widehat E_{m,L}-\omega_{m,L}|
-\le C\epsilon^{2/3}n^{-4},\qquad m=0,1,2.
-\]
-These are actual ordered physical levels, including the extensive vacuum energy. Consequently,
-\[
-\boxed{\frac{\Delta_L(g)}{E c_L}
-=1+O(\epsilon^{2/3}n^{-3}),\qquad
-c_L=4\sqrt2\sin\frac{\pi}{2n}.}
-\]
-The fractional-power error is a coarse estimate, not a new Taylor coefficient.
+The [[general-causal-action/compact-operator-taylor-remainder-on-planar-wells|actual differential remainder]] and [[general-causal-action/compact-cutoffs-and-uniform-polynomial-quasimodes|compact cutoff construction]] give sixth-order quasimode residual \(Ch^7n^{75/2}\). UP's ordered levels select the correct actual eigenlines. The [[general-causal-action/uniform-centered-poisson-return-and-the-planar-source|centered Poisson proof]] transfers the moving source with error \(Ch^7n^{83/2}\), then uses the actual reduced inverse, costing \(Cn\). Density, derivative, normalization and cutoff terms are retained; no infinite-series convergence is assumed.
 
-The proof uses a global magnetic identity \(\Gamma_{\rm raw}(W)\le8W\), a gauge-invariant IMS partition, and the [[general-causal-action/comb-chart-ellipticity-and-uniform-local-comparison|uniform comb metric comparison]]. With cutoff radius
+With \(|d_L|\le Cn^{10}\), \(|S_{2,L}|\le Cn^{12}\),
 \[
-R_{\rm cut}=A n^2\epsilon^{-1/3},\qquad
-\delta=hR_{\rm cut}=A\epsilon^{2/3}n^{-8},
+|\Delta_L/(Ec_L)-1|+|c_L\mathcal S_L-1|
+\le C(\epsilon^2n^{-9}+\epsilon^4n^{-18}).
 \]
-the entire exterior lies above the low spectrum. Dimension-counted polynomial moments control the upper trial spaces. Both weighted measures and the \(O(n^2)\) absolute vacuum energy remain in min–max.
+For every \(L\to\infty\), \(0<\epsilon_L\le\eta\), the scaled gap follows \(2\sqrt2\pi/n\), while the scaled susceptibility follows its inverse. At fixed \(\kappa\), the absolute gap grows as \(2\sqrt2\pi\kappa n^{19}/\epsilon_L^2\). GW8 therefore gives innovation floor zero at fixed scaled duration and one at fixed positive physical duration. This rapidly confining trajectory is not the required four-dimensional continuum trajectory.
 
-[[general-causal-action/planar-physical-cluster-separation-and-the-uniform-window|PS1–13]] counts the complete harmonic scalar carrier and gives neighboring separations at least \(3(2-\sqrt2)/n\) around the first excitation. UP therefore proves simple actual vacuum and first physical excitation with separation \(c/n\). It does not infer the rank of a higher cluster from only three ordered levels.
+## Regional inheritance supplies the next discriminator
 
-For any sequence \(L\to\infty\), \(0<\epsilon_L\le\eta\), the scaled gap is asymptotic to \(2\sqrt2\pi/n\). At fixed \(\kappa\), the absolute gap instead grows as
+[[general-causal-action/inherited-planar-vacuum-and-the-regional-time-law|The exact harmonic regional law]] retains
 \[
-\Delta_L(g)\sim2\sqrt2\pi\kappa\,n^{19}/\epsilon_L^2.
+D_B(t)=\bigl(A_L^{1/2}e^{-|t|A_L^{1/2}}\bigr)_{BB}.
 \]
-Thus the complete innovation floor tends to zero at fixed scaled duration and to one at fixed positive physical duration. This is an actual compact-theory statement on a rapidly confining trajectory, not a fixed-coupling infinite-volume or four-dimensional continuum result.
+Its equal-time covariance is \((A_L^{1/2})_{BB}\), generally different from the independently prepared block's \(A_B^{1/2}\). Even fitting a one-face variance and initial temporal slope cannot match the inherited second derivative.
 
-## Source multiplication and coefficients now have quantitative bounds
-
-[[general-causal-action/weighted-compact-source-return-on-growing-patches|WS1–15]] proves, on the actual compact carrier,
-\[
-B_h=4\mathcal B_L/h^2\le4V,\qquad V=h^{-2}W,
-\]
-\[
-\mathsf C_{\rm raw}W=3W-6L^2,\qquad
-\boxed{\|B_hu\|\le4(\|\widehat H u\|+\sqrt6 L\|u\|).}
-\]
-This removes the global \(h^{-2}\) multiplication loss. With UP's spectral isolation, a correctly selected ground quasimode of residual \(\rho\), whose own mean and variance are checked, gives actual normalized-source error at most \(Cn^4\rho\). Gaussian source estimates retain the small harmonic variance, rather than assuming a lower bound in the unknown vacuum.
-
-[[general-causal-action/comb-chart-ellipticity-and-uniform-local-comparison|The sharper local jets]] give
-\[
-\|V_1P_{\le m}\|\le C_m n^{9/2},\qquad
-\|V_2P_{\le m}\|\le C_m n^6,
-\]
-\[
-\|u_L\|+\|\eta_{1,L}\|+\|\ell_L\|\le Cn^{11/2},
-\qquad |d_L|\le Cn^{10},\qquad |S_{2,L}|\le Cn^{12}.
-\]
-These improve the earlier \(n^{19},n^{21}\) coefficient envelopes. At every fixed order, UC19–20 also bounds the exact jets by \(C_{m,r}n^{3r/2+3}\), formal eigenvector coefficients by \(C_rn^{11r/2}\), and energy coefficients by \(C_rn^{11r/2-1}\). The Haar half-density conversion and normalization are retained. These coefficient bounds do not by themselves prove an actual remainder or a larger validity window.
+For a fixed finite-support profile with nonzero total weight, the bulk infinite-plane normalized quadratic-source covariance decays as \(t^{-6}\). The spatial limit is taken before the long-duration limit. An independent finite block has exponential decay. This exact harmonic benchmark requires the full regional history law, not a reset state and clock. Its finite local susceptibility coexists with spectral support reaching zero; it supplies no complete-source coercivity.
 
 ## Weakest assumption and next executable test
 
-The uniform physical innovation surplus is still conjectural. The coarse spectral return does not establish the fourth-order remainders in [[general-causal-action/uniform-marked-well-return-and-the-growing-patch-test|GW3–4]] or the actual normalized susceptibility expansion uniformly in size.
+The uniform physical innovation surplus remains conjectural. The isolated planar vacuum has not been transported into an inherited regional compact law.
 
-**Next:** bound the actual flat-density operator's Taylor remainder on cutoff polynomial-Gaussian vectors, including coefficient derivatives and cutoff commutators. Start with the sixth-order vacuum and first-excitation series: their finite coefficients suggest an order-\(h^7n^{75/2}\) residual, whose validity for the actual compact operator must be proved or corrected. Apply UP to select the actual eigenlines and WS to transfer the centered source. Then control the centered Poisson residual for susceptibility. The target remains \(Ch^4n^{39}\) for the scaled gap remainder and \(Ch^4n^{41}\) for the source response, on the stated window; sharper valid estimates are welcome. Do not substitute a formal series or a local form bound for the actual operator residual.
+**Next:** retain a fixed finite set of bulk face profiles and their mixed neutral quadratic marks in the whole compact patch. Prove or refute convergence of their centered finite-time covariance matrix to the inherited harmonic kernel, uniformly along the stated window at fixed scaled times. Reuse the actual operator, cutoff and weighted source bounds, adjusting the source estimates to these fixed profiles rather than importing the lowest-mode variance. Keep the same based connectors and full Gauss carrier.
 
-The four-face result remains a required control: its true gap correction and original normalized susceptibility correction are both negative; the fixed oriented probe removes leading source leakage and tracks that same gap. Favorable selected-source response is insufficient. Multiplicative local attenuation remains rejected.
+Then use this marked return to test the history retained by [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|spatial sewing]]: vacuum caps, source spreading and lag cost must all survive. A regional Markov reset already fails the harmonic benchmark. Any proposed repair must derive the missing temporal response from the same assembly law. Long times, broader coupling windows and the uniform mixed-source bound remain separate tasks.
+
+Retain the four-face control: the true gap correction and original susceptibility correction are both negative, while the fixed oriented probe removes leading leakage and tracks the same gap. Multiplicative local attenuation remains rejected.
 
 ## Target and source cursor
 
-Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization. Complete mixed-source assembly and controlled crossover remain necessary; the isolated planar vacuum has not been identified with an inherited regional state.
+Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
 
-The live Claude review and eight receipt files remain unchanged against archived hashes. This round uses analytic proofs and independent actual-text audits, with no simulations. Commit the completed round and recheck the inbox on resumption. The goal remains active.
+The live Claude review and eight receipt files remain unchanged against archived hashes. Analytic proof audits and scoped document checks pass; no simulations were run. This checkpoint is committed with round 26. Recheck the inbox on resumption. The goal remains active.

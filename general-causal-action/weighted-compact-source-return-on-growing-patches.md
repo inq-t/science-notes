@@ -2,7 +2,7 @@
 
 The growing-patch compact source has uniform Gaussian multiplication bounds and an exact graph-norm bound on the original physical carrier. The latter replaces its crude \(L^2h^{-2}\) operator norm by one power of the actual Hamiltonian and a term proportional to \(L\). These estimates give a sufficient, quantitative transfer from a selected ground-state quasimode to the actual centered and normalized source. They do not assume that an arbitrary quasimode represents the vacuum, or establish the full uniform susceptibility remainder.
 
-**Status: proved Gaussian bounds, exact compact operator estimate, and a conditional ground-state residual corollary.** [[planar-patch-confinement-and-the-spatial-soft-mode|PP]] fixes the patch and source. [[comb-face-transport-and-the-first-nonlinear-jet|FJ]] fixes its comb chart. [[compact-source-normalization-and-the-nonlinear-return|CS]] supplies the fixed-patch realization; [[uniform-marked-well-return-and-the-growing-patch-test|GW]] states the still-conjectural uniform remainder target.
+**Status: proved Gaussian bounds, exact compact operator estimate, and a conditional ground-state residual corollary.** [[planar-patch-confinement-and-the-spatial-soft-mode|PP]] fixes the patch and source. [[comb-face-transport-and-the-first-nonlinear-jet|FJ]] fixes its comb chart. [[compact-source-normalization-and-the-nonlinear-return|CS]] supplies the fixed-patch realization; [[uniform-centered-poisson-return-and-the-planar-source|PO]] verifies the residual corollary's hypotheses and proves the uniform susceptibility remainder.
 
 ## Normalize by the soft source scale
 
@@ -201,9 +201,9 @@ when \(n^4\rho\) is sufficiently small. Here \(\zeta\) denotes the centered norm
 
 For any bounded operator \(T\), the corresponding source quadratic forms differ by at most \(2\|T\|\|\zeta_\psi-\zeta_v\|\). The source-vector part of a covariance error is therefore \(O(n^4\rho)\). For the actual reduced inverse, \(\|R\|\le Cn\), that part of the susceptibility error is \(O(n^5\rho)\). Controlling the operator or Poisson approximation is a separate obligation.
 
-## The uniform remainder still needs a sharper residual estimate
+## The actual residual supplies the uniform source return
 
 The graph bound closes a real missing bridge: it removes the compact source's global \(h^{-2}\) multiplication loss. It does not by itself establish GW4. For example, a residual bounded only by
 \(\rho\le C\epsilon^M/n\), with \(\epsilon=hn^{10}\), would give \(Cn^3\epsilon^M\) in (WS15). No fixed \(M\) makes this uniform in \(n\) on an entire window \(0<\epsilon\le\eta\).
 
-[[comb-chart-ellipticity-and-uniform-local-comparison|UC18–20]] now supplies a stronger input for that next estimate: every fixed-order exact jet has norm at most \(C_{m,r}n^{3r/2+3}\) on fixed Hermite degree, and its formal normalized eigenvector coefficients cost at most \(C_rn^{11r/2}\). This improves the coefficient arithmetic behind a prospective residual bound. The actual operator Taylor remainder and cutoff commutators must still be controlled before applying (WS15); a formal coefficient envelope is not that remainder.
+[[comb-chart-ellipticity-and-uniform-local-comparison|UC18–20]] gives the stronger fixed-degree coefficient bounds. [[compact-operator-taylor-remainder-on-planar-wells|The actual operator remainder]] and [[compact-cutoffs-and-uniform-polynomial-quasimodes|the cutoff construction]] now turn the sixth-order vacuum series into a compact quasimode with \(\rho\le Ch^7n^{75/2}\). [[uniform-centered-poisson-return-and-the-planar-source|PO]] checks its spectral location, mean and variance conditions, applies (WS15), and controls the actual centered Poisson residual. The resulting susceptibility remainder is \(Ch^4n^{23}\) on the same window. This conclusion uses the quantitative operator residual in addition to the formal coefficients.

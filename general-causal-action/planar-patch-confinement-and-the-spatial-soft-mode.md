@@ -138,7 +138,7 @@ There is an actual bounded compact multiplication probe with this quadratic jet.
 \]
 All \(\mathbf q_p\) rotate together, so this is gauge invariant. Near the well,
 \(\mathcal B_L=\frac14|\sum_pv_{11}(p)x_p|^2+O_L(|x|^4)\).
-It supplies a concrete physical source for the nonlinear calculation. Equations (PP9)–(PP11) describe the limiting oscillator source. [[compact-source-normalization-and-the-nonlinear-return|The compact-source theorem]] now proves its fixed-patch covariance and susceptibility expansion with the actual vacuum and normalization; [[nonlinear-scalar-source-and-the-vacuum-response-coefficient|the first coefficient]] separates the gap shift from source leakage. A remainder uniform in spatial size is still required for a joint limit.
+It supplies a concrete physical source for the nonlinear calculation. Equations (PP9)–(PP11) describe the limiting oscillator source. [[compact-source-normalization-and-the-nonlinear-return|The compact-source theorem]] proves its fixed-patch covariance and susceptibility expansion with the actual vacuum and normalization; [[nonlinear-scalar-source-and-the-vacuum-response-coefficient|the first coefficient]] separates the gap shift from source leakage. [[uniform-nonlinear-planar-gap-and-marked-response|Uniform nonlinear return]] supplies the gap and susceptibility remainders for the quantified joint window \(h(L+1)^{10}\le\eta\).
 
 ## The coefficient cannot be bounded below uniformly in patch size
 
