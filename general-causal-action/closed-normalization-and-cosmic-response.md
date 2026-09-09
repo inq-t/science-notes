@@ -130,6 +130,78 @@ The variance is strictly positive for a nondegenerate law. Thus averaging a fluc
 
 This is a concrete stochastic research option, not a derivation of a cosmological constant, a spacetime volume, or its fluctuation law. A proposed cosmic application must specify whether its central variable is shared, renewed or dynamically correlated and must retain its cross-region sources. A marginal fluctuation magnitude alone does not determine that law.
 
+## A common preparation scale has an exact normalization response
+
+[[local-incidence-preparations-and-the-gauge-transfer|The local incidence construction]] now gives a concrete finite common-source family. Use its general-group convention on a fixed finite graph, with \(d=\dim G\), independent \(n\times k_e\) preparations and the sufficient moment bounds of [[general-group-preparation-and-the-casimir-return|the general-group theorem]]. Give every Gaussian entry the same variance \(s>0\), and put \(u=\log s\). Hold the comparison pace, incidence, representation and anchored strengths fixed.
+
+Let \(Z_\alpha(s)\) be the exact product of free temporal row normalizations. Before performing the Gaussian integral, its comparison exponent is independent of \(s\). In the normalized joint law of those free comparisons and preparations, denoted \(\Pi_{\alpha,s}\), define
+\[
+R=\sum_e nk_e,\qquad T=\frac1s\sum_e\|\Xi_e\|_{\rm HS}^2.
+\]
+The Gaussian prior has score \(T-R\), and its derivative with respect to \(u\) is \(-T\). Differentiation under the finite integrals therefore gives
+\[
+\boxed{
+\partial_u\log Z_\alpha=\mathbb E_{\Pi_{\alpha,s}}T-R,\qquad
+\partial_u^2\log Z_\alpha=
+\operatorname{Var}_{\Pi_{\alpha,s}}T-\mathbb E_{\Pi_{\alpha,s}}T.
+}
+\tag{CN15}
+\]
+The normalized joint score is \(T-\mathbb ET\), so its Fisher response is \(\operatorname{Var}T\). The second term in (CN15) is the contact term for the logarithmic variance path. The raw logarithmic Hessian is not that Fisher response.
+
+At fixed graph, temporal localization selects the determinant-weighted preparations. Their radial variables satisfy
+\[
+\frac{\|\Xi_e\|_{\rm HS}^2}{s}
+\sim\operatorname{Gamma}(nk_e-d/2,1)
+\quad\text{independently in the limiting preparation law}.
+\tag{CN16}
+\]
+Polynomially weighted domination in the general-group theorem proves convergence of their first and second moments. Consequently
+\[
+\boxed{
+\partial_u\log Z_\alpha\longrightarrow-\frac{d|\mathcal E|}{2},\qquad
+\partial_u^2\log Z_\alpha\longrightarrow0,
+\qquad
+\operatorname{Var}_{\Pi_{\alpha,s}}T\longrightarrow R-\frac{d|\mathcal E|}{2}>0.
+}
+\tag{CN17}
+\]
+This proves the differentiated limits directly, rather than differentiating an uncontrolled leading asymptotic. \(|\mathcal E|\) counts the declared independent link comparisons in this family. Under [[preparation-transport-through-spatial-subdivision|pure preparation transport]], \(Z_\alpha\) and (CN15) stay exactly the same: one must use the original comparison rank, not the dimension of a larger redundant fine cover.
+
+The calculation concerns one retained normalization factor. An interacting closed chain also contains the variation of its actual kernels; those terms must be differentiated together with \(Z_\alpha^{-N}\). Neither this count of comparison directions nor its constant logarithmic response has been identified with spacetime volume, gravitational stiffness or a cosmological constant.
+
+Even a fully gauged tree has a trivial physical configuration carrier while these raw link comparisons retain their localization exponent. The count is therefore not a physical degree-of-freedom count obtained merely by naming it a volume.
+
+## The same scale probes the interacting vacuum
+
+On the fixed graph, the returned family has the exact form
+\[
+H_s=K_s+V_s=s^{-1}K+sV,\qquad
+D_s:=\partial_uH_s=-K_s+V_s,\qquad
+\partial_u^2H_s=H_s,
+\tag{CN18}
+\]
+where \(K,V\) are fixed, and all normalization and metric conventions are those of the local incidence owner. This includes faithful reducible representations. The reciprocal coefficient relation leaves the propagation product unchanged while this homogeneous source changes the relative electric and magnetic response.
+
+Let \(\psi_s\) be the normalized positive ground vector, \(E_s\) its eigenvalue, and \(R_s=(H_s-E_s)^{-1}\) on the vacuum complement. At every fixed \(s>0\), compact ellipticity gives an isolated simple ground, and the family is analytic on its common operator domain. Differentiating the eigenvalue equation in the normalization \(\langle\psi_s,\partial_u\psi_s\rangle=0\) yields
+\[
+J_s=(D_s-\langle D_s\rangle_{\psi_s})\psi_s,
+\qquad \partial_u\psi_s=-R_sJ_s,
+\]
+\[
+\boxed{
+\partial_uE_s=\langle V_s-K_s\rangle_{\psi_s},\qquad
+\partial_u^2E_s=E_s-2\langle J_s,R_sJ_s\rangle.
+}
+\tag{CN19}
+\]
+The source vector can be written using only bounded multiplication:
+\(J_s=2(V_s-\langle V_s\rangle_{\psi_s})\psi_s\), hence
+\(\|J_s\|^2=4\operatorname{Var}_{\psi_s}(V_s)\).
+This follows from \(K_s\psi_s=(E_s-V_s)\psi_s\). The positive susceptibility in (CN19) is one matrix element of the actual interacting reduced resolvent. Its nonnegativity does not give a fixed sign for the total curvature, and a single source need not overlap the lowest excitation.
+
+Thus one specified homogeneous preparation change supplies both a raw normalization response and a vacuum response on the same returned theory. It does not reconstruct the whole spectrum from one derivative, select \(s\), or prove a homogeneous restoring mode. [[reciprocal-coefficients-and-the-field-gap-test|The field-gap test]] shows separately why reciprocal coefficients alone retain soft quadratic modes in large volume. A cosmological application still needs the physical homogeneous map and its geometric normalization.
+
 ## Conjecture: one joint normalization has cosmic and local returns
 
 **Conjecture.** A unit-compatible algebraic evaluation selects the marked joint determinant–Schur datum, including its physical closed normalization. Its local return reconstructs the complete gauge-invariant vacuum response, while its homogeneous return reconstructs central scale response and state geometry. Their transported mixed variations obey the common-source identities before and after the required limits.
