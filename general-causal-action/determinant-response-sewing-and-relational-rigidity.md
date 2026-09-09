@@ -189,7 +189,7 @@ Its [[commutator-preparation-transfer-and-marked-gluing|Gram transfer]] now give
 
 ## Active candidate: conditional boundary exchange
 
-The next selection experiment fixes a constitutive processing rule for the joint determinant preparation, rather than fitting another cell operator. At each admitted finite diagram, retain the full joint law before Gaussian elimination:
+The selected experiment fixes a constitutive processing rule for the joint determinant preparation. Its fixed-duration uniform-rigidity claim has failed the copy-refinement test below; the complete preparation and conditional comparisons remain well-defined. At each admitted finite diagram, retain the full joint law before Gaussian elimination:
 \[
 d\widehat\mu_D(U,\xi)=\widehat Z_D^{-1}
 \exp\!\left[-\sum_{a=1}^{\nu}(\xi^{(a)})^*Q_U\xi^{(a)}\right]
@@ -206,7 +206,7 @@ T_p=C_p^*C_p,\qquad
 R_D^{\rm cmp}=\sum_{p\in\mathcal P_D}(I-T_p).
 \tag{DS10b}
 \]
-The adjoint uses the two marginals of this one joint law. Thus \(T_p\) is the transition obtained by reading \(\eta_p\) conditional on the incoming frame and then drawing the outgoing frame conditional on that same readout. Each distinct physical cut occurrence has one equal weight; a common duration calibration remains free. Pure presentation subdivisions transport the old comparison history and do not create new cut occurrences. This last admissibility rule must be tested, not inferred from the drawing of a diagram.
+The adjoint uses the two marginals of this one joint law. Thus \(T_p\) is the transition obtained by reading \(\eta_p\) conditional on the incoming frame and then drawing the outgoing frame conditional on that same readout. Each distinct physical cut occurrence has one equal weight; a common duration calibration remains free before the additional rule below. Pure presentation subdivisions transport the old comparison history and do not create new cut occurrences. This last admissibility rule must be tested, not inferred from the drawing of a diagram.
 
 At a fixed finite diagram, each \(T_p\) is a positive self-adjoint Markov contraction on \(L^2(\mu_D)\). The selected comparison clock is \(e^{-tR_D^{\rm cmp}}\), and
 \[
@@ -218,11 +218,42 @@ This is the exact joint consequence of the proposed rule: the determinant state,
 
 The operation can act on physical distinctions rather than gauge transformations. Suppose a neutral Wilson character is nonconstant on the resampled conditional fiber for a positive-measure set of retained data, and the conditional frame law has full support there. Its variance in (DS10c) is then strictly positive, so \(T_p\) changes it. Mere occurrence of a link in the word is insufficient: a character is unchanged by conjugating its entire argument. This is a nonzero-action test, not a uniform lower bound. The retained variables, gauge action and actual source must be specified in each application; freezing the entire loop would give zero variance.
 
-**Active selection conjecture.** The admitted multiplication and cut-sewing relations can select (DS10a)–(DS10b), or a precisely stated revision, as one coherent sourced law whose non-Abelian comparison response admits the finite-word certificate or bounded repair of [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative descent]]. Its representation must jointly fix only the physical vacuum and must return the same physical clock. Neither the certificate nor that return is assumed to follow from the finite conditional-variance identity.
+**Exact sourced consequence.** [[conditional-exchange-through-cuts-and-retained-marks|EC1–18]] computes the actual link exchange, including a mixed neutral source on two adjacent \(SU(2)\) cells. Elimination preserves the complete marked law when the induced memory is retained. Projecting an exchange and then repeating that projected exchange instead produces a positive leakage term. Deleting auxiliary information also changes the comparison by an explicit positive defect. These results permit inherited memory; they do not require autonomous Markov closure under every spatial projection or assert that different update orders commute.
 
-The next test is an actual cut-interchange comparison of the full sourced amplitude, retaining induced memory. [[bridge-forgetting-and-the-inherited-marked-transfer|The inherited-comparison theorem]] is a control against resetting the conditional law. Do not require autonomous Markov closure under every spatial projection. A failure of the specified interchange rejects or revises the constitutive rule; it does not license an independently calibrated repair on the next diagram.
+**Rejected uniform clock claim.** On a fixed open hypercubic graph, take the admitted many-copy Wilson path \(r_\nu\to0\), \(2\nu r_\nu^4w^4\to b>0\), where \(w=1/(2D)\). [[auxiliary-copy-refinement-and-the-exchange-clock|AC12–17]] proves that the complete comparison kernel consists only of constants, while a normalized neutral plaquette source has response \(O(r_\nu^2)\). Its actual joint-boundary recovery defect also tends to zero at fixed exchange duration. The limiting frame law is a nontrivial Wilson law. Thus (DS10b) has no fixed positive rigidity constant along this path in its unaccelerated units. An acceleration at least of order \(\nu r_\nu^2\) is necessary to avoid this particular obstruction, and is not sufficient for a gap.
 
-The selected law must also decide the existing [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|neutral sharpening witness (QD6a–c)]]. If arbitrarily soft versions remain admissible at its declared pace, the claimed uniform rigidity is false. [[commutator-word-comparisons-and-neutral-soft-escape|The commutator-word test]] supplies a different explicit control: an algebraically natural action can be nontrivial on neutral observables and still have vanishing response near its identity configuration. A positive finite certificate must address this mechanism, rather than merely invoke non-Abelianity.
+The proposed finite-word relation that a completed cut tour absorbs its own repetition has also failed. [[cut-tour-absorption-and-the-injective-exchange|CT1–8]] constructs a uniformly bounded repair under that precise relation. CT10–11 then proves that faithful full-auxiliary exchanges with enough copies are injective, so a nontrivial finite tour cannot be idempotent. A change of duration cannot repair this algebraic failure. Other certificates remain possible, subject to the [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|neutral sharpening]] and [[commutator-word-comparisons-and-neutral-soft-escape|flat-configuration]] controls.
+
+**Active revised conjecture: duration from the preparation score.** Retain the joint law, full auxiliary readout and equal relative raw-link rates. On the homogeneous finite graph family, let \(d_G=\dim G>0\), use the declared tangent pairing \(Q_\rho(X,Y)=-\operatorname{Re}\operatorname{Tr}[d\rho(X)d\rho(Y)]\), and let \(\mathcal I_e(U)\) be the Fisher form of the actual conditional auxiliary law, as computed in AC18. Postulate one common duration by
+\[
+a_D=\frac{1}{d_G|E|}
+\sum_{e\in E}\mathbb E_{\mu_D}
+\operatorname{tr}_{Q_\rho}\mathcal I_e(U),
+\qquad
+\tau_D=a_D^{-1},
+\qquad
+\widehat R_D=a_D R_D^{\rm cmp}.
+\tag{DS10d}
+\]
+The trace sums over a \(Q_\rho\)-orthonormal Lie-algebra basis. This is a specific new constitutive rule: one exchange takes the inverse of the mean auxiliary information per unit link tangent. It uses no measured gap, vacuum projector or separately fitted diagram rate. Its normalization uses the already declared tangent pairing; choosing information as duration is not forced by positivity, dimensional analysis or AC's necessary bound.
+
+The rule is finite, strictly positive and gauge invariant. Indeed, \((1+r)^{-1}I\le Q_U^{-1}\le(1-r)^{-1}I\) in AC18 gives
+\[
+\frac{2\nu r^2w^2}{(1+r)^2}\le a_D
+\le\frac{2\nu r^2w^2}{(1-r)^2}.
+\]
+The Fisher form transforms as a tangent tensor and \(Q_\rho\) is Ad-invariant, so its trace is unchanged by gauge presentation. Observational marks keep this reference clock fixed. A genuine variation of the constitutive preparation also differentiates \(a_D\), and hence contributes \((\partial a_D)R_D^{\rm cmp}\) to the varied generator.
+
+The exact score calculation gives \(a_D=2\nu r^2w^2[1+O(r^2)]\), uniformly over this finite graph family with fixed \(D\). Thus the same law now fixes a duration with the necessary copy-refinement order while preserving relative cut rates. This does not establish a nonzero limiting response. A pure presentation change must transport the old cut inventory, tangent pairing and score; recomputing the mean over newly drawn dummy links would be a different rule. Genuine graph refinement and heterogeneous weights need a further test, not an automatic invariance claim.
+
+This mean selects a global duration convention. On a disjoint union with the same group and tangent normalization,
+\[
+a_{D_1\sqcup D_2}
+=\frac{|E_1|a_{D_1}+|E_2|a_{D_2}}{|E_1|+|E_2|}.
+\]
+Consequently the union's rescaled clock agrees with independently calibrated component clocks only when \(a_{D_1}=a_{D_2}\). The homogeneous copy limit has a common leading coefficient, but exact component-clock compatibility is not proved or postulated here. This is a further explicit test of the proposed duration convention.
+
+The next decisive test is to derive the full-source limiting generator of \(\widehat R_D\) along the fixed-Wilson path, with no added mobility or potential, and determine whether it can supply the required physical clock. In particular, distinguish evolution of a complete Euclidean configuration by resampling from transfer between physical time slices, as [[sewn-transfer-clock-and-the-rotor-limit|TR]] requires. A weak-field and Abelian dispersion test should be performed on the declared carrier, using [[reciprocal-coefficients-and-the-field-gap-test|FG's propagation test]] only after that carrier is identified. If the returned clock is only an auxiliary stochastic evolution, retire its direct identification with physical time; a separate comparison theorem would then have to justify any remaining use in the rigidity programme. No such limit, identification or comparison theorem is claimed here.
 
 ## Conjecture 2: relational cycles force physical rigidity
 
