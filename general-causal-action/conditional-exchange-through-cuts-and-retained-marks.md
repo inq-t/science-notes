@@ -4,7 +4,7 @@ Conditional boundary exchange has an exact one-step marginal, but its repeated m
 
 ## The conditional law fixes both halves of an exchange
 
-Use the joint law and cut prescription in [[determinant-response-sewing-and-relational-rigidity#Active candidate: conditional boundary exchange|DS10a–c]]. More generally let \(\widehat\mu\) be one probability law of the physical configuration \(U\) and an actual cut readout \(\eta\), including its retained outside and auxiliary data. Write
+Use the joint law and cut prescription in [[determinant-response-sewing-and-relational-rigidity#Conditional boundary exchange and its clock test|DS10a–c]]. More generally let \(\widehat\mu\) be one probability law of the physical configuration \(U\) and an actual cut readout \(\eta\), including its retained outside and auxiliary data. Write
 \[
 \mathcal H=L^2(\mu_U),\qquad
 \mathcal K=L^2(\mu_\eta),\qquad

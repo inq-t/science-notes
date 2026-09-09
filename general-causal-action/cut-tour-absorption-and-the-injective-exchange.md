@@ -11,7 +11,7 @@ Let \(T_p\) be positive self-adjoint contractions on one Hilbert carrier, with e
 R=\delta^*\delta=\sum_p(I-T_p).
 \tag{CT1}
 \]
-For [[determinant-response-sewing-and-relational-rigidity#Active candidate: conditional boundary exchange|DS conditional exchanges]], take \(\delta_p=(I-E_{\eta_p})J\), where \(J\) pulls frame observables into the complete joint law and \(E_{\eta_p}\) is its actual conditional-expectation projection. Then (CT1) is exactly DS10c.
+For [[determinant-response-sewing-and-relational-rigidity#Conditional boundary exchange and its clock test|DS conditional exchanges]], take \(\delta_p=(I-E_{\eta_p})J\), where \(J\) pulls frame observables into the complete joint law and \(E_{\eta_p}\) is its actual conditional-expectation projection. Then (CT1) is exactly DS10c.
 
 Partition the finite primitive-cut list into \(m\) layers \(\mathcal L_a\), assuming the \(T_p\) commute within each layer. Form
 \[

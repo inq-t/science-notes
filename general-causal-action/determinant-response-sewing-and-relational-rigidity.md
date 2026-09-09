@@ -187,9 +187,9 @@ Its [[commutator-preparation-transfer-and-marked-gluing|Gram transfer]] now give
 
 [[relative-multiplication-transfer-and-the-rotor-limit|Comparing relative left multiplications]] repairs that loss with an injective \(SU(2)\) transfer on all representation sectors. [[preparation-compression-and-the-returned-potential|The normalized compression law]] combines this comparison with the conditional preparations. Its product limit returns both a definite potential, the trace of their preparation metric, and a vacuum on the full frame carrier. This is a constructive state-and-dynamics example with declared comparison rules; the separate preparation roles can next be tested against the more economical single-preparation determinant.
 
-## Active candidate: conditional boundary exchange
+## Conditional boundary exchange and its clock test
 
-The selected experiment fixes a constitutive processing rule for the joint determinant preparation. Its fixed-duration uniform-rigidity claim has failed the copy-refinement test below; the complete preparation and conditional comparisons remain well-defined. At each admitted finite diagram, retain the full joint law before Gaussian elimination:
+This tested experiment fixes a constitutive processing rule for the joint determinant preparation. Its fixed-duration uniform-rigidity claim failed the copy-refinement test; the accelerated version returns a configuration diffusion form, whose direct physical-time identification fails the retained Gaussian control. The complete preparation and comparisons remain valid auxiliary constructions. At each admitted finite diagram, retain the full joint law before Gaussian elimination:
 \[
 d\widehat\mu_D(U,\xi)=\widehat Z_D^{-1}
 \exp\!\left[-\sum_{a=1}^{\nu}(\xi^{(a)})^*Q_U\xi^{(a)}\right]
@@ -214,7 +214,7 @@ At a fixed finite diagram, each \(T_p\) is a positive self-adjoint Markov contra
 =\mathbb E_{\widehat\mu_D}\operatorname{Var}(f(U)\mid\eta_p).
 \tag{DS10c}
 \]
-This is the exact joint consequence of the proposed rule: the determinant state, conditional comparisons and relative cut rates cannot be retuned independently while retaining (DS10a)–(DS10b). The conditional-exchange protocol is an explicit new constitutive commitment, not a theorem forced by positivity. The clock is bounded at each finite diagram; its four-dimensional ultraviolet return is a further conjecture.
+This is the exact joint consequence of the proposed rule: the determinant state, conditional comparisons and relative cut rates cannot be retuned independently while retaining (DS10a)–(DS10b). The conditional-exchange protocol is an explicit constitutive commitment, not a theorem forced by positivity. The clock is bounded at each finite diagram; its physical identification is tested below.
 
 The operation can act on physical distinctions rather than gauge transformations. Suppose a neutral Wilson character is nonconstant on the resampled conditional fiber for a positive-measure set of retained data, and the conditional frame law has full support there. Its variance in (DS10c) is then strictly positive, so \(T_p\) changes it. Mere occurrence of a link in the word is insufficient: a character is unchanged by conjugating its entire argument. This is a nonzero-action test, not a uniform lower bound. The retained variables, gauge action and actual source must be specified in each application; freezing the entire loop would give zero variance.
 
@@ -224,7 +224,7 @@ The operation can act on physical distinctions rather than gauge transformations
 
 The proposed finite-word relation that a completed cut tour absorbs its own repetition has also failed. [[cut-tour-absorption-and-the-injective-exchange|CT1–8]] constructs a uniformly bounded repair under that precise relation. CT10–11 then proves that faithful full-auxiliary exchanges with enough copies are injective, so a nontrivial finite tour cannot be idempotent. A change of duration cannot repair this algebraic failure. Other certificates remain possible, subject to the [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|neutral sharpening]] and [[commutator-word-comparisons-and-neutral-soft-escape|flat-configuration]] controls.
 
-**Active revised conjecture: duration from the preparation score.** Retain the joint law, full auxiliary readout and equal relative raw-link rates. On the homogeneous finite graph family, let \(d_G=\dim G>0\), use the declared tangent pairing \(Q_\rho(X,Y)=-\operatorname{Re}\operatorname{Tr}[d\rho(X)d\rho(Y)]\), and let \(\mathcal I_e(U)\) be the Fisher form of the actual conditional auxiliary law, as computed in AC18. Postulate one common duration by
+**Tested revision: duration from the preparation score.** Retain the joint law, full auxiliary readout and equal relative raw-link rates. On the homogeneous finite graph family, let \(d_G=\dim G>0\), use the declared tangent pairing \(Q_\rho(X,Y)=-\operatorname{Re}\operatorname{Tr}[d\rho(X)d\rho(Y)]\), and let \(\mathcal I_e(U)\) be the Fisher form of the actual conditional auxiliary law, as computed in AC18. Postulate one common duration by
 \[
 a_D=\frac{1}{d_G|E|}
 \sum_{e\in E}\mathbb E_{\mu_D}
@@ -244,7 +244,7 @@ The rule is finite, strictly positive and gauge invariant. Indeed, \((1+r)^{-1}I
 \]
 The Fisher form transforms as a tangent tensor and \(Q_\rho\) is Ad-invariant, so its trace is unchanged by gauge presentation. Observational marks keep this reference clock fixed. A genuine variation of the constitutive preparation also differentiates \(a_D\), and hence contributes \((\partial a_D)R_D^{\rm cmp}\) to the varied generator.
 
-The exact score calculation gives \(a_D=2\nu r^2w^2[1+O(r^2)]\), uniformly over this finite graph family with fixed \(D\). Thus the same law now fixes a duration with the necessary copy-refinement order while preserving relative cut rates. This does not establish a nonzero limiting response. A pure presentation change must transport the old cut inventory, tangent pairing and score; recomputing the mean over newly drawn dummy links would be a different rule. Genuine graph refinement and heterogeneous weights need a further test, not an automatic invariance claim.
+The exact score calculation gives \(a_D=2\nu r^2w^2[1+O(r^2)]\), uniformly over this finite graph family with fixed \(D\). Thus the same law now fixes a duration with the necessary copy-refinement order while preserving relative cut rates. The score asymptotic alone does not establish a nonzero limiting response. A pure presentation change must transport the old cut inventory, tangent pairing and score; recomputing the mean over newly drawn dummy links would be a different rule. Genuine graph refinement and heterogeneous weights need a further test, not an automatic invariance claim.
 
 This mean selects a global duration convention. On a disjoint union with the same group and tangent normalization,
 \[
@@ -253,7 +253,50 @@ a_{D_1\sqcup D_2}
 \]
 Consequently the union's rescaled clock agrees with independently calibrated component clocks only when \(a_{D_1}=a_{D_2}\). The homogeneous copy limit has a common leading coefficient, but exact component-clock compatibility is not proved or postulated here. This is a further explicit test of the proposed duration convention.
 
-The next decisive test is to derive the full-source limiting generator of \(\widehat R_D\) along the fixed-Wilson path, with no added mobility or potential, and determine whether it can supply the required physical clock. In particular, distinguish evolution of a complete Euclidean configuration by resampling from transfer between physical time slices, as [[sewn-transfer-clock-and-the-rotor-limit|TR]] requires. A weak-field and Abelian dispersion test should be performed on the declared carrier, using [[reciprocal-coefficients-and-the-field-gap-test|FG's propagation test]] only after that carrier is identified. If the returned clock is only an auxiliary stochastic evolution, retire its direct identification with physical time; a separate comparison theorem would then have to justify any remaining use in the rigidity programme. No such limit, identification or comparison theorem is claimed here.
+**Decided form test.** [[many-copy-exchange-and-the-weighted-diffusion|MD1–20]] proves convergence of the accelerated response for every smooth source pair to the Wilson-weighted gradient form, with coefficient one in \(Q_\rho\). Its canonical closed generator is \(-\Delta+\nabla V_W\cdot\nabla\); its Haar-space potential is \(|\nabla V_W|^2/4-\Delta V_W/2\). This is an exact finite-graph form theorem, not a proved process or continuum limit.
+
+**Retired physical-clock identification.** [[euclidean-configuration-diffusion-and-the-physical-clock|PC1–19]] tests the corresponding Gaussian whole-history diffusion on the correct time-zero marginal. Its inherited slice response is \(\operatorname{erfc}(\Omega\sqrt{ds/a})\), whereas actual temporal transfer gives \(e^{-\Omega t}\). Two frequencies exclude even a common nonlinear recalibration, and neutral quadratic sources retain the distinction. This is exact in the Abelian Gaussian control and conditional as a test of the nonlinear continuum return. It rejects the direct identification under that control; it does not reject diffusion on a correctly constructed vacuum slice or every possible comparison of an auxiliary process with physical energy.
+
+## Active candidate: reflected boundary rigidity
+
+Retain the same elementary hopping amplitude (DS10a), its actual Haar and Gaussian measures, and all marked source factors. Designate a hypercubic coordinate as temporal and compose its slices by integration. [[reflection-sewing-and-the-auxiliary-boundary-carrier|RS1–18]] now proves a positive trace-class transfer \(\widetilde{\mathsf T}\), with injective support \(L^2(m(\Xi)d\Xi)^{G^\Lambda}\), from that amplitude. Its positive top vector \(\varphi\) and eigenvalue \(\lambda_0\) select the finite temporal vacuum and normalized transfer. The group, graph, representation, hopping and copy law, temporal slicing and physical step duration \(a_t\) remain declared data.
+
+Spatial-link source compression is finite and exact but initially nonmultiplicative. [[auxiliary-boundary-sufficiency-and-the-wilson-source-algebra|AS1–13]] proves that its product defect tends to zero in this actual vacuum, and on every fixed bounded-source chronological vector, along the many-copy return. The estimate is uniform in temporal cylinder length before taking the vacuum limit. It does not control sources whose support, degree or normalization escapes with refinement. RS18 separately returns the complete reflected frame-source forms on fixed finite slabs.
+
+The conjectured rigidity can now be stated on this selected chronological law. Ground-transform the normalized transfer to \(P\) on \(L^2(\pi)\), where \(d\pi=|\varphi|^2m\,d\Xi\); \(P\) is its actual one-step reversible Markov operator. At a slab half-width \(\ell=k a_t\), \(k\in\mathbb N_{>0}\), let
+\[
+\delta_\ell f
+=f(\Xi_0)-
+\mathbb E[f(\Xi_0)\mid\Xi_{-k},\Xi_k]
+\tag{DS10e}
+\]
+in the stationary three-slice law of \(P\). If \(t_k\) is the kernel of \(\widetilde{\mathsf T}^{\,k}\) relative to \(m\,d\Xi\), the middle conditional density is
+\[
+\frac{t_k(\xi_-,\xi)\,t_k(\xi,\xi_+)}
+{t_{2k}(\xi_-,\xi_+)}m(\xi)d\xi.
+\]
+The ground-vector factors cancel in this conditional density. The endpoint law still uses the selected vacuum. No conditional preparation is reset.
+
+Let \(\mathscr H_{\rm frame}\) be the closed cyclic sector generated by the returned neutral frame-source multipliers and integer powers of \(P\) from \(1\). The discrepancy is restricted to this source sector; no unproved invariance of that sector under a separately compressed discrepancy operator is assumed. The exact one-boundary estimate gives, on the energy form domain,
+\[
+\|\delta_\ell f\|^2
+\le\langle f,(I-P^{2k})f\rangle
+\le2\ell\,\langle f,Hf\rangle,
+\qquad H=-a_t^{-1}\log P.
+\tag{DS10f}
+\]
+Conditioning on both endpoints reduces variance compared with conditioning on one; reversibility gives the first upper bound, and \(1-e^{-x}\le x\) gives the second. This supplies the energy comparison for the actual reflected finite theory, rather than identifying a resampling rate with energy.
+
+**Active conjecture.** For the non-Abelian family admitting the required Yang–Mills return, the same boundary feature contractions and sewing relations provide an explicit repair \(\mathcal B_\ell\), assembled without a spectral inverse, such that on \(\mathscr H_{\rm frame}\ominus\mathbb C1\),
+\[
+\mathcal B_\ell\delta_\ell=I-\mathcal E_\ell,\qquad
+\|\mathcal B_\ell\|\le C,\qquad
+\|\mathcal E_\ell\|\le\rho<1,
+\tag{DS10g}
+\]
+with \(C,\rho\) controlled at fixed positive physical \(\ell\) through the required limits. This is the concrete [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|QD7–8]] conjecture on the reflected source sector. Equations (DS10f)–(DS10g) would force \(H\ge(1-\rho)^2/(2\ell C^2)\) there. Neither positivity of the amplitude nor AS's bounded-source estimate proves the repair.
+
+The next decisive task is to write one candidate repair from the actual RS boundary feature maps and compute its residual on complete neutral source families. It must change the known normalized soft-response controls for a stated non-Abelian reason; a construction using only gauge projection or generic Gaussian positivity is insufficient. Named repair assumptions may carry this calculation before the full continuum construction is proved. If the candidate has uncontrolled norm or a residual approaching one, revise it rather than introducing fitted rates or starting another benchmark programme.
 
 ## Conjecture 2: relational cycles force physical rigidity
 
@@ -264,7 +307,7 @@ H=-\ell^{-1}\log(T_\ell/\lambda_0).
 \tag{DS11}
 \]
 
-Reflection positivity, the observable quotient and the meaning of \(\ell\) must be constructed. Finite-state positivity alone does not supply them. [[sewn-transfer-clock-and-the-rotor-limit|The sewn transfer rotor]] is a positive control: transfer evolution and conditional resampling of a joint law are different clocks.
+RS supplies reflection positivity, the supported quotient and an actual chronological transfer for the finite induced-boson family. AS controls the source-algebra defect in its temporal vacuum. The required pure-gauge limiting representation and physical continuum calibration remain open. [[sewn-transfer-clock-and-the-rotor-limit|The sewn transfer rotor]] is a separate positive control: transfer evolution and conditional resampling of a joint law are different clocks.
 
 **Conjecture 2.** For every compact simple gauge group \(G\) in the Clay target, a family selected by Conjecture 1 admits a nontrivial Yang–Mills return in which its relational cycles prevent arbitrarily soft neutral physical distinctions, uniformly through spatial-volume and continuum limits.
 
