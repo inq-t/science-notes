@@ -4,6 +4,8 @@ Every four-face quadratic has a fixed bounded cubic correction that realizes its
 
 **Status: proved fixed-patch compact realization of the first source and product jets.** [[four-face-oriented-normal-form-and-the-universal-source-lift|The oriented normal form]] fixes the real skew operator \(S_1\) and its source lift. [[four-face-source-products-and-the-oriented-contact|The product contact]] owns the complete contact formula. [[compact-source-normalization-and-the-nonlinear-return|CS]] supplies arbitrary-order actual vacuum control. The compact face words, comb connectors, Hamiltonian and scaled clock remain fixed. The composite coefficient below is a derived strength-dependent readout, and is identified as such.
 
+[[fixed-group-compact-vacuum-and-oriented-source-return|GV1–12]] extends this actual vacuum and finite polynomial source return to every fixed compact connected simple group with its declared faithful weighted-character cost. The mixed coefficient becomes \(16\sqrt2\,\mathfrak F_Q/7\), with the weighted scale and bounded Lie source fixed independently. Its estimates are not uniform in group or growing patch.
+
 ## The vacuum determines the first multiplication lift
 
 Work on the full physical four-face carrier with the mode variables and Gaussian vacuum of [[four-face-cubic-response-and-source-leakage|FC]]. Write

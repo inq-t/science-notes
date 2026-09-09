@@ -4,6 +4,8 @@ The source correction selected by the four-face kinetic operator has a sign-inde
 
 **Status: exact algebraic positivity obstruction for the specified first source jet.** [[four-face-oriented-normal-form-and-the-universal-source-lift|The universal lift]] constructs the real odd formally skew-adjoint operator \(S_1\) on invariant polynomial-Gaussian vectors. [[four-face-source-products-and-the-oriented-contact|The product calculation]] evaluates its contact. The fixed four-face carrier, comb paths and actual odd kinetic coefficient remain inputs.
 
+[[lie-bracket-source-contact-and-the-positive-comparison-test|LC8–9]] supplies the corresponding nonnegative square for every non-Abelian compact simple Lie algebra. It also proves an obstruction when both \(A\) and \(A^2\) have the prescribed \(L^2\) source jets on one common Gaussian measure: the rescaled nonnegative Schwarz defect would converge in \(L^1\) to a sign-changing Cartan source.
+
 ## Positivity constrains the first product defect
 
 Let \(\mathscr A\) be a real algebra of configuration functions containing constants and the polynomials below. Suppose \(\Phi_h:\mathscr A\to\mathscr A\) is linear, unital and positive on pointwise nonnegative squares, for \(h>0\). At each configuration \(x\), positivity of \((F-a)^2\) for every real \(a\) gives

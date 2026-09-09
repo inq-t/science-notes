@@ -4,6 +4,8 @@ The actual first odd kinetic jet on the four-face patch admits one explicit odd 
 
 **Status: exact operator identity on the polynomial-Gaussian core and complete first-order quadratic lift.** [[comb-face-transport-and-the-first-nonlinear-jet|FJ]] supplies the raw rows, and [[four-face-cubic-response-and-source-leakage|FC]] fixes the normal modes and correctors. No anti-selfadjoint closure or unitary exponential of the polynomial normal form is asserted.
 
+[[all-group-oriented-kinetic-jet-and-source-lift|AJ1–13]] derives the same complete first jet and quadratic lift from the actual group words for every compact connected simple group. Its color tensor is \(Q(X,[Y,Z])\), and [[weighted-character-scale-and-bounded-lie-sources|the weighted character Hessian]] fixes the comparison scale. This generalization does not transfer the higher-order \(SU(2)\) spectral coefficient.
+
 ## Keep the full oscillator core and the specified modes
 
 Use the fixed twelve-edge \(2\times2\) patch with complete Gauss law and the comb connectors of FJ. In the Hadamard normal modes of FC1, write

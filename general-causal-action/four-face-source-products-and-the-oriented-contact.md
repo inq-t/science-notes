@@ -4,6 +4,8 @@ The universal first-order source lift on the four-face patch does not preserve o
 
 **Status: exact first-order polynomial-core calculation for the fixed four-face theory.** [[four-face-oriented-normal-form-and-the-universal-source-lift|The universal normal form]] owns the complete odd operator and linear quadratic-source lift. [[four-face-cubic-response-and-source-leakage|FC]] fixes the raw rows and mode orientation. [[oriented-source-products-and-the-compact-contact-return|The compact contact return]] realizes the resulting product comparison in the actual vacuum. No unitary exponential of an unbounded formal generator or spatially uniform product law is assumed.
 
+[[lie-bracket-source-contact-and-the-positive-comparison-test|LC1–9]] proves the Cartan-form version of this contact for every compact connected simple group. Its Gaussian contraction retains the metric-dependent norm \(\mathfrak F_Q\), and its complete multiplier lift also fails the same-Gaussian \(L^2\) positive-comparison test.
+
 ## The actual third-derivative coefficient
 
 Use the four vector modes \(Y_i\) of FC1, with
