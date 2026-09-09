@@ -34,7 +34,7 @@ W_A(e^X)=\frac{I_A}{2}Q(X,X)
 +O_{G,\rho,A,Q}(|X|^6).}
 \tag{GM3}
 \]
-All odd terms vanish. The quadratic coefficient is scalar; the fourth-order trace is not determined by it.
+All odd terms vanish. The quadratic coefficient is scalar; the fourth-order trace is not determined by it. [[equal-character-hessians-and-the-nonlinear-source-discriminator|The equal-Hessian preparation family]] makes this distinction observable: one fixed faithful \(SU(2)\) representation admits positive commuting weights with the same \(\operatorname{Tr}A\) and \(I_A\), but different conditional fourth cumulants and actual finite physical gaps at second order. The source map and common scale remain fixed; the full weight is the explicitly varied input.
 
 This includes a faithful reducible representation. In GG20 the actual \(A=\overline A\) has positive scalar blocks \(a_r\), so \(I_A=\sum_r m_ra_rI_{\rho_r}\). The unweighted cost corresponds to \(A=I\). Substituting it for a non-scalar returned preparation weight changes the member of the family.
 

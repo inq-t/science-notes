@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and source sewing by the Lie bracket. Round 34 computes the nonnested four-face returns, determines the boundary message that restores their original source products, rejects exact Gaussian promotion of that first jet, and finds a nonzero mixed chronological exterior response on physical scalar sources. Next evaluate the complete mixed innovation forms in the same scalar family. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and source sewing from the full prepared amplitude. Round 35 evaluates the complete radius–orientation chronology, proves a strict source-extension lowering, derives the next non-Gaussian conditional message, and exhibits preparations with identical first-order data but different nonlinear physical gap coefficients. Next test the spatial scaling of that concrete character deformation. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 34, 2026-09-09
+## Active conjecture — round 35, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical duration \(\ell=ka_t>0\), put
 \[
@@ -14,106 +14,111 @@ Seek a composition-derived \(0<c<1\) with
 \[
 V_Q(\xi)-C_{\rm lag}(\xi)\ge c\|\xi\|^2
 \]
-on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement. Finite boundary-word positivity remains an allowed mechanism; a positive individual response is not this uniform estimate.
+on every centered physical innovation through the required limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implies \(H\ge-\log(1-c)/(2\ell)\) on its complement. A positive selected response or finite-patch gap is not this uniform estimate.
 
-The subordinate construction is **source sewing by the Lie bracket**. The latest results now transport the actual conditional source law into the original chronology. Do not replace that chronology by repeated conditional resampling.
+The subordinate construction remains **source sewing by the Lie bracket, with the full prepared character retained**. The new discriminator rejects reducing its nonlinear law to the bracket and normalized Hessian. The full weight \(A\) remains declared; no replacement evolution or stabilizing term is introduced.
 
-## Established access and orientation controls
+## The complete mixed chronology and its source-extension result
 
-[[general-causal-action/regional-conditional-projection-and-the-vacuum-score|VP]] proves the weighted actual vacuum and conditional-amplitude projection first jets on every fixed finite polynomial source family. [[general-causal-action/two-face-source-access-and-the-normal-form-obstruction|TF]] proves that no invariant odd kinetic normal form can also match the full fixed prepared one- and two-face projection inventory. Its nonzero five-by-five witness is independent of all odd commuting corrections, not just the five explicit resonant parameters.
-
-[[general-causal-action/regional-vacuum-score-and-the-three-face-orientation|VS]] proves zero first scores on every pair marginal and a Ward cancellation for neutral scalar exchange between overlapping pairs. [[general-causal-action/covariant-boundary-source-and-the-oriented-return|CB]] retains the missing adjoint boundary mark: the three-face score produces a double bracket, which contracts under further conditioning to a linear Casimir response. These are actual vacuum coefficients, not adjustable normal-form conventions.
-
-## The nonnested comparison and its determined message
-
-[[general-causal-action/four-face-covariant-route-response|DR1–13]] uses the existing four-face covariance and complete score. With \(A=ab\), \(B=bc\), \(D=ad\), start from \(J_{cd}=[X_c,X_d]\). The direct return and both ordered returns contain the Gaussian bracket, first-order double brackets and linear adjoint Casimir terms.
-
-The direct-minus-composed Gaussian coefficient is
+Use the same physical scalar marks, with actual compact realization and centering:
 \[
-\frac{o_0(2-\tau)}{\det C_{AA}}<0,
-\qquad
-o_0=\frac{\sqrt2+\sqrt6-4}{4},\quad
-\tau=1+\frac{3\sqrt2-\sqrt6}{2}.
+f=Q(X_a,X_a)-dC_{aa},\qquad g=T(X_a,X_b,X_c).
 \]
-Both composed routes have the same Gaussian term but different nonzero linear Casimir channels at first order. Closing with the retained bracket \([X_a,X_b]\) detects the former discrepancy; closing with \(X_a\) hides it. A closing source is part of the experiment.
-
-[[general-causal-action/conditional-boundary-translation-and-source-products|BM1–13]] determines the required retained message. When \(S=r^c\) retains three faces, the full cubic score is affine in the omitted face:
+[[general-causal-action/radius-orientation-chronological-gram-and-the-source-pencil|CG1–13]] evaluates
 \[
-\alpha-\alpha_S=Q(L_r,X_r-m_r),\qquad L_r=\nabla_r\alpha.
+M_h(s)=\langle f_h,P_{s,h}g_h\rangle_{\mu_h}
+=hM_1(s)+O_T(h^2)
 \]
-Thus its conditional first jet is the inherited Gaussian translated by
-\[
-\boxed{m_r\longmapsto m_r+2h\sigma_rL_r.}
-\]
-The same residual covariance fixes all prescribed polynomial products through Wick contraction. Retain \(abc\) along the first route and \(abd\) along the second, including the source \(X_a\). Actual nested towers then recover the identical original joint readout.
+as nine exact exponentials from the full raw \(V_1\) and both vacuum source corrections. Its zero-time coefficient is positive; its slowest exponential, at \(2\sqrt2\), has coefficient \(\mathfrak F_Q(3/14-\sqrt6/4)<0\). Hence the mixed coefficient changes sign at a finite duration. Opposite signs transfer to the actual compact covariance at two chosen fixed durations for sufficiently small \(h\); no long-time limit is interchanged.
 
-The product test is substantive. For \(F=T(X_a,X_c,X_d)\), the pair-conditioned Gaussian mean is zero, but BM13 gives a strictly positive conditional second moment for \(X_a\ne0\), including
+[[general-causal-action/radius-orientation-source-extension-and-the-innovation-floor|RO1–12]] retains both full innovation forms,
 \[
-(\mathfrak F_Q/d)\det C_{\{c,d\}\mid\{a,b\}}\|X_a\|_Q^2.
+D(t)=M(0)-M(2t),\qquad N(t)=M(0)-2M(2t)+M(4t).
 \]
-Separate conditional means erase this response. The complete boundary message retains it.
-
-## A failed nonlinear extension is now excluded
-
-BM14–15 rejects promoting all four mean shifts to exact Gaussian full conditionals on the unbounded harmonic carrier. Their conditional log-gradients force
+All radius harmonic energies are below all orientation energies, so \(q_f(t)<q_g(t)\) for every \(t>0\). Define
 \[
-p_h(X)\propto
-\exp\!\left[-\tfrac12Q(X,C^{-1}X)+2h\alpha(X)\right].
+c(t)=N_{1,fg}(t)-q_f(t)D_{1,fg}(t),\qquad
+\Gamma(t)=\frac{c(t)^2}{D_fD_g(q_g-q_f)}.
 \]
-For every \(h\ne0\), the nonzero homogeneous cubic has an open cone where its positive cubic growth overwhelms the quadratic decay. The joint normalizer is infinite.
-
-The conditional first jets and actual compact joint law remain valid. What fails is exact nonlinear Gaussian closure without the higher-order conditional structure and tails. Obtain those from the same vacuum when needed; do not introduce a stabilizing term by hand.
-
-## The actual chronology has a nonzero mixed exterior channel
-
-[[general-causal-action/covariant-source-memory-and-the-first-chronological-response|TM]] transports the fixed-polynomial source and regional projection jets through the actual vacuum-subtracted evolution. The function-carrier first transfer correction is
+The actual two-source optimum obeys
 \[
-\dot P_t=[D,P_t^{(0)}],\qquad
-D=\Omega^{-1}S\Omega-M_\alpha,
+\boxed{q_{\rm pair}(h;t)-q_f(h;t)=-h^2\Gamma(t)+o_t(h^2),}
 \]
-with the actual AJ normal form. This is a polynomial-core commutator identity, not an exponentiated comparison or a new clock.
+where \(q_f(h;t)\) is the **actual** radius-only quotient. RO proves \(\Gamma(t)>0\) at sufficiently short fixed durations. The unknown common second-order radius term cancels in this relative comparison. An absolute comparison with the harmonic quotient would still need it.
 
-Retain \(S=\{a,b,c\}\), and use the actual compact realizations of the physical scalar marks
+Thus [[general-causal-action/covariant-source-memory-and-the-first-chronological-response|TM's positive mixed exterior entry]] does not constitute positive reinforcement of the complete lower bound. The added source is harmonically faster, yet its forced mixing lowers the optimum.
+
+## The next conditional message is necessarily non-Gaussian
+
+[[general-causal-action/logarithmic-vacuum-curvature-and-conditional-cumulants|LCV1–12]] writes the actual vacuum coefficients as
 \[
-f=Q(X_a,X_a),\qquad g=T(X_a,X_b,X_c).
+\Phi_h=\Omega(1+h\alpha+h^2a_2+\cdots),\qquad
+b=a_2-\alpha^2/2.
 \]
-For their exterior mixed response
+The actual vacuum equation makes \(b\) an even polynomial of degree at most four, determined by an Ornstein–Uhlenbeck Poisson equation with metric, Haar and quartic-character terms. The apparent sixth-degree amplitude term cancels in the logarithmic coefficient.
+
+For one omitted face \(r\), retain \(S=r^c\), inherited conditional variance \(\sigma_r\), and
 \[
-M_h^{\rm ext}(t)
-=\left\langle (I-E_{S,h})P_{t,h}f_h,\,
-                    (I-E_{S,h})P_{t,h}g_h\right\rangle_{\mu_h},
+J_r=\int_0^\infty\sum_p(e^{-sC})_{pr}^4\,ds>0.
 \]
-TM proves, on each fixed bounded scaled-time interval,
+The cutoff-log source has the forced conditional fourth cumulant
 \[
-M_h^{\rm ext}(t)=hM_1^{\rm ext}(t)+O_T(h^2),
+\boxed{\operatorname{Cum}_{4,h}(Q(H,X_r)\mid S)
+=h^2\sigma_r^4
+\frac{\operatorname{Tr}[A\,d\rho(H)^4]}{I_A}J_r+O(h^3)}
 \]
+with a strictly positive leading coefficient for \(H\ne0\). Arbitrary-order projection estimates and interpolation control actual conditional moment products in every prescribed finite \(L^p\).
+
+The original GM source \(2q_\rho/h\) has its own cubic coordinate correction. LCV12 retains its separate fourth-cumulant contact; it cannot be absorbed into the vacuum score. For \(A=I\), that original mark's coefficient is negative, while the cutoff-log coefficient is positive. Both are nonzero and exclude Gaussian mean-and-covariance closure at this order. Their different signs belong to different specified observables.
+
+## Equal first-order data do not fix the nonlinear spectrum
+
+[[general-causal-action/equal-character-hessians-and-the-nonlinear-source-discriminator|EH1–15]] keeps one faithful \(SU(2)\) representation,
+\[
+\rho=\rho_{1/2}\oplus\rho_1\oplus\rho_{3/2},
+\]
+and varies
+\[
+A_\varepsilon=(1+14\varepsilon)I_2\oplus(1-16\varepsilon)I_3
+\oplus(1+5\varepsilon)I_4,\qquad
+-1/14<\varepsilon<1/16.
+\]
+Every member has \(\operatorname{Tr}A_\varepsilon=9\), \(I_A=15/2\), the same \(\rho,q_\rho,h,E,K_0,V_1,\alpha\), and the same complete first chronological jets. Its normalized quartic character varies.
+
+The invariant double trace of the conditional fourth-cumulant tensor of the **same GM mark** distinguishes two members by
+\[
+14(\varepsilon_2-\varepsilon_1)\sigma_r^4J_r h^2+O(h^3).
+\]
+The common source-curvature contribution cancels.
+
+More strongly, let \(\Delta_\varepsilon(h)\) be the actual first physical gap in the common scaled units. Vacuum-subtracted Feynman–Hellmann gives
 \[
 \boxed{
-M_1^{\rm ext}(t)=\mathfrak F_Q\,b_{\rm ext}t^2+O(t^3),\qquad
-b_{\rm ext}=\frac{276}{7}-\frac{118\sqrt2}{7}
-+8\sqrt3-12\sqrt6>0.}
+\Delta_{\varepsilon_2}(h)-\Delta_{\varepsilon_1}(h)
+=-\frac7{24}(8\sqrt2+6+4\sqrt3)
+(\varepsilon_2-\varepsilon_1)h^2
++O_I(|\varepsilon_2-\varepsilon_1|h^3).}
 \]
-The density change is included along with both generator contributions. The two diagonal exterior first jets vanish by parity. This is a mixed physical scalar channel, not a colored-state energy. The expansion in \(h\), followed by that in \(t\), does not assert a joint \(O(h^2t^2)\) remainder or a fixed-physical-time uniform limit.
+The estimate is uniform on compact positive parameter intervals for this fixed patch. It uses the actual simple lowest branch and weighted eigenvector quasimodes, without a baseline second-operator table.
+
+The **full weight \(A\) changes**. This tests insufficiency of a reduced bracket/Hessian inventory; it is not retuning with every primitive fixed, nor a counterexample to continuum universality. The complete prepared amplitude distinguishes the family.
 
 ## Weakest assumption and next decisive test
 
-The weakest link remains a complete spatial composition law with rigidity through the physical limits. A static Casimir coefficient, a positive covariance or the sign of one mixed exterior entry does not supply it. The nonlinear Gaussian extension test now specifies one shortcut that is unavailable.
+The weakest link remains a full spatial composition law with rigidity through the physical limits. Its higher character data now have an explicit nonlinear conditional and spectral effect. A universal first tangent does not select them or prove that the intended limit forgets them.
 
-Keep the same physical scalar pair \(f,g\) and actual centering. Compute its complete first mixed chronological Gram response \(M_1(s)\) at bounded scaled durations, using AJ's actual \(D\) and finite Hermite sectors. Carry the changing vacuum Gram into the full innovation denominator and numerator
-\[
-D(t)=M(0)-M(2t),\qquad
-N(t)=M(0)-2M(2t)+M(4t).
-\]
-Compare their mixed coefficient with TM's exterior channel through [[general-causal-action/regional-innovation-and-exterior-information-balance|RI7–8]]. Form the generalized source-extension Schur term with the changing denominator retained. Determine whether the bracket source supplies new rigidity or exposes another softer direction; do not infer either from \(b_{\rm ext}>0\).
+Extend EH's same weighted-character contrast to an \(L\times L\) patch. Keep the complete inherited covariance \(C_L=\sqrt{A_L}\), normalized lowest sine mode and original full physical carrier. Derive the parameter difference of the first physical gap coefficient from the quartic expectation contrast between the actual vacuum and soft radial branch. Determine exactly how the lowest frequency, the mode-weighted diagonal covariance and the fourth power sum of its profile enter.
 
-This test must retain [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]] whenever it is represented as a spatially sewn history. If the calculation needs second-order diagonal data, use the actual operator and vacuum corrections, not the rejected Gaussian extension.
+Then compare that coefficient's spatial scaling with the harmonic closing gap and the established confinement window. The decisive question is whether this newly forced non-Gaussian channel merely follows the soft frequency or can change its closing behavior within controlled actual estimates. Separate the limit of formal coefficients from a uniform compact spectral return. Do not choose a favorable weight to declare success.
 
-## Binding targets and source cursor
+Carry [[general-causal-action/regional-innovation-and-exterior-information-balance|RI's full exterior form]] and [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag]] whenever this variation is represented as a sewn chronology. The original scale and normalization remain fixed.
 
-[[general-causal-action/weighted-character-scale-and-bounded-lie-sources|GM]] retains \(g_{\rm eff}=2I_Ag\), \(h=(\kappa/g_{\rm eff})^{1/4}\), \(E=\sqrt{\kappa g_{\rm eff}}\), the weighted preparation and complete faithful matrix sources. Group, representation, four-dimensional sector and temporal realization inputs remain declared.
+## Binding controls, targets and source cursor
 
-[[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|OE]] retains the negative actual \(SU(2)\) gap correction after the omitted cubic sources are returned. [[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|QK]] retains the range-dependent floor on its confinement window; this is not a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
+[[general-causal-action/regional-conditional-projection-and-the-vacuum-score|VP]] and [[general-causal-action/two-face-source-access-and-the-normal-form-obstruction|TF]] retain the actual regional derivative and complete-pair access obstruction. [[general-causal-action/conditional-boundary-translation-and-source-products|BM]] retains first-order boundary repair and the failure of exact translated-Gaussian promotion on the unbounded harmonic carrier. LCV supplies its actual next correction; a truncated positive log-quartic is not a globally normalized state.
 
-Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Cosmological returns must use the same amplitude and normalization.
+[[general-causal-action/weighted-character-scale-and-bounded-lie-sources|GM]] retains the complete faithful matrix sources and actual weighted scale. [[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|QK]] retains the range-dependent floor on its confinement window. Neither that window nor the new fixed-patch results constitute a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
 
-The Claude review and eight receipts remain unchanged against their preserved hashes. The new chronological receipt is exact finite polynomial arithmetic from the original raw comb rows, with an analytic two-Cartan-tensor reduction establishing its group dependence. Recheck the inbox on resumption. The goal remains active.
+Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, representation, four-dimensional sector and temporal realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
+
+The Claude review and eight receipts remain unchanged against their preserved hashes. The new Gram receipt uses exact finite polynomial arithmetic from the original raw comb rows; the curvature and preparation-family results are analytic. Recheck the inbox on resumption. The goal remains active.
