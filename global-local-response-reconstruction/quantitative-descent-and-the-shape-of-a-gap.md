@@ -161,6 +161,30 @@ Here the gap follows from an identity that can be checked before diagonalizing t
 
 The physical work would be to derive the same normalized gluing element at fixed \(\ell\), represent it on the full neutral observable carrier, and prove that its invariant subspace is only the vacuum. A gauge-group action that fixes every gauge-invariant state fails that test. Universal rigidity is one sufficient route, not a necessary property of every possible Yang--Mills construction.
 
+The word *certificate* must restrict how the right side is built. If arbitrary spectral functional calculus is allowed after assuming the exclusion, one can set \(B=(R^2-\kappa R)^{1/2}\) and obtain one square. That gives no independent reason for a gap. The proposed algebraic route requires explicit finite words in primitive comparison generators, with coefficients and \(\kappa\) deduced from their declared relations.
+
+There is an immediate non-Abelian test for any such proposed relations. Use [[general-causal-action/sewn-overlap-and-conditional-clock|the sewn-overlap family]], with \(G=SU(2)\), fundamental character \(\chi_1\) indexed by twice the spin, and
+\[
+p_k(g)=\frac{(4+\chi_1(g))^k}{Z_k},\qquad
+q_k=p_k*p_k,\qquad
+d\pi_k(x,y)=q_k(xy^{-1})\,dx\,dy,\qquad
+R_k=\frac{2I-P_{x,k}-P_{y,k}}2.
+\tag{QD6a}
+\]
+Here \(P_{x,k},P_{y,k}\) are the actual conditional-expectation projections in \(L^2(\pi_k)\). Every finite positive integer \(k\) has full support, a positive state, state-preserving comparisons and a vacuum-only common fixed space. Put
+\[
+b_k=\frac12\int p_k(g)\chi_1(g)\,dg,\qquad
+F_k=\frac{\chi_1(x)+\chi_1(y)}{\sqrt{2(1+b_k^2)}}.
+\tag{QD6b}
+\]
+The source \(F_k\) is centered, normalized and invariant under simultaneous conjugation. The exact two-projection calculation gives
+\[
+R_kF_k=r_kF_k,\qquad r_k=\frac{1-b_k^2}{2}>0,\qquad
+\langle F_k,(R_k^2-\kappa R_k)F_k\rangle=r_k(r_k-\kappa).
+\tag{QD6c}
+\]
+The function \(4+\chi_1\) has its unique maximum at the identity. Its normalized powers concentrate there, so \(b_k\to1\) and \(r_k\to0\). Thus (QD6c) is negative eventually for every fixed \(\kappa>0\). Non-Abelianity, positivity, exact sewing, conditional comparisons and a vacuum-only kernel cannot alone force a uniform certificate. A stronger primitive relation must explain why this family is excluded or why its particular comparison law changes. This is an internal comparison-family control at fixed update pace, not an identification of \(R_k\) with the physical slab defect or a Yang--Mills continuum limit.
+
 ### A constructive quantitative gluing map
 
 Alternatively, take \(T_r=\delta_{r,\ell}|_{\mathscr C_r}\) on a dense physical nonvacuum domain, with response target \(\mathcal K_r\), and construct an independently specified return map \(B_r:\mathcal K_r\to\mathcal H_{0,r}\) with

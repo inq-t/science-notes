@@ -187,6 +187,43 @@ Its [[commutator-preparation-transfer-and-marked-gluing|Gram transfer]] now give
 
 [[relative-multiplication-transfer-and-the-rotor-limit|Comparing relative left multiplications]] repairs that loss with an injective \(SU(2)\) transfer on all representation sectors. [[preparation-compression-and-the-returned-potential|The normalized compression law]] combines this comparison with the conditional preparations. Its product limit returns both a definite potential, the trace of their preparation metric, and a vacuum on the full frame carrier. This is a constructive state-and-dynamics example with declared comparison rules; the separate preparation roles can next be tested against the more economical single-preparation determinant.
 
+## Active candidate: conditional boundary exchange
+
+The next selection experiment fixes a constitutive processing rule for the joint determinant preparation, rather than fitting another cell operator. At each admitted finite diagram, retain the full joint law before Gaussian elimination:
+\[
+d\widehat\mu_D(U,\xi)=\widehat Z_D^{-1}
+\exp\!\left[-\sum_{a=1}^{\nu}(\xi^{(a)})^*Q_U\xi^{(a)}\right]
+\prod_e dU_e\prod_{a,v}\frac{d^{2d_\rho}\xi_v^{(a)}}{\pi^{d_\rho}},
+\qquad Q_U=I-rP_U>0.
+\tag{DS10a}
+\]
+This is the same family as (DS3)–(DS6). Its frame marginal is \(\mu_D\propto(\det Q_U)^{-\nu}\prod_e dU_e\). The graph or four-dimensional realization sector, faithful representation, admissible \(r\), multiplicity and invariant pairings remain declared family data. The rule does not claim to derive them from no premises.
+
+For an admitted cut \(p\), let \(\eta_p\) be its actual retained boundary/outside readout together with the auxiliary preparation data kept by that cut. Define
+\[
+C_pf=\mathbb E_{\widehat\mu_D}[f(U)\mid\eta_p],\qquad
+T_p=C_p^*C_p,\qquad
+R_D^{\rm cmp}=\sum_{p\in\mathcal P_D}(I-T_p).
+\tag{DS10b}
+\]
+The adjoint uses the two marginals of this one joint law. Thus \(T_p\) is the transition obtained by reading \(\eta_p\) conditional on the incoming frame and then drawing the outgoing frame conditional on that same readout. Each distinct physical cut occurrence has one equal weight; a common duration calibration remains free. Pure presentation subdivisions transport the old comparison history and do not create new cut occurrences. This last admissibility rule must be tested, not inferred from the drawing of a diagram.
+
+At a fixed finite diagram, each \(T_p\) is a positive self-adjoint Markov contraction on \(L^2(\mu_D)\). The selected comparison clock is \(e^{-tR_D^{\rm cmp}}\), and
+\[
+\langle f,(I-T_p)f\rangle_{\mu_D}
+=\mathbb E_{\widehat\mu_D}\operatorname{Var}(f(U)\mid\eta_p).
+\tag{DS10c}
+\]
+This is the exact joint consequence of the proposed rule: the determinant state, conditional comparisons and relative cut rates cannot be retuned independently while retaining (DS10a)–(DS10b). The conditional-exchange protocol is an explicit new constitutive commitment, not a theorem forced by positivity. The clock is bounded at each finite diagram; its four-dimensional ultraviolet return is a further conjecture.
+
+The operation can act on physical distinctions rather than gauge transformations. Suppose a neutral Wilson character is nonconstant on the resampled conditional fiber for a positive-measure set of retained data, and the conditional frame law has full support there. Its variance in (DS10c) is then strictly positive, so \(T_p\) changes it. Mere occurrence of a link in the word is insufficient: a character is unchanged by conjugating its entire argument. This is a nonzero-action test, not a uniform lower bound. The retained variables, gauge action and actual source must be specified in each application; freezing the entire loop would give zero variance.
+
+**Active selection conjecture.** The admitted multiplication and cut-sewing relations can select (DS10a)–(DS10b), or a precisely stated revision, as one coherent sourced law whose non-Abelian comparison response admits the finite-word certificate or bounded repair of [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|quantitative descent]]. Its representation must jointly fix only the physical vacuum and must return the same physical clock. Neither the certificate nor that return is assumed to follow from the finite conditional-variance identity.
+
+The next test is an actual cut-interchange comparison of the full sourced amplitude, retaining induced memory. [[bridge-forgetting-and-the-inherited-marked-transfer|The inherited-comparison theorem]] is a control against resetting the conditional law. Do not require autonomous Markov closure under every spatial projection. A failure of the specified interchange rejects or revises the constitutive rule; it does not license an independently calibrated repair on the next diagram.
+
+The selected law must also decide the existing [[global-local-response-reconstruction/quantitative-descent-and-the-shape-of-a-gap|neutral sharpening witness (QD6a–c)]]. If arbitrarily soft versions remain admissible at its declared pace, the claimed uniform rigidity is false. [[commutator-word-comparisons-and-neutral-soft-escape|The commutator-word test]] supplies a different explicit control: an algebraically natural action can be nontrivial on neutral observables and still have vanishing response near its identity configuration. A positive finite certificate must address this mechanism, rather than merely invoke non-Abelianity.
+
 ## Conjecture 2: relational cycles force physical rigidity
 
 The proposed physical clock must come from sewing actual slabs of the same positive state. If that construction returns a positive transfer \(T_\ell\), an appropriate vacuum normalization \(\lambda_0\), and a justified logarithm on its physical support, its candidate generator is
