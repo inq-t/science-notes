@@ -202,6 +202,8 @@ This follows from \(K_s\psi_s=(E_s-V_s)\psi_s\). The positive susceptibility in 
 
 Thus one specified homogeneous preparation change supplies both a raw normalization response and a vacuum response on the same returned theory. It does not reconstruct the whole spectrum from one derivative, select \(s\), or prove a homogeneous restoring mode. [[reciprocal-coefficients-and-the-field-gap-test|The field-gap test]] shows separately why reciprocal coefficients alone retain soft quadratic modes in large volume. A cosmological application still needs the physical homogeneous map and its geometric normalization.
 
+[[character-response-and-the-bulk-vacuum-normalization|The weighted-character comparison]] now supplies a different joint response within one fixed additive normalization: the same parameter has an extensive vacuum coefficient and a gap coefficient proportional to the lowest spatial frequency. Their normalized actual derivatives have a fixed ratio on the planar confinement window. This character redistribution is not the dilation \(s\), and the ratio remains sensitive to an added parameter-dependent scalar. It therefore preserves the selection issue in CN9–12 while giving an evaluated bulk/spectral comparison.
+
 ## Conjecture: one joint normalization has cosmic and local returns
 
 **Conjecture.** A unit-compatible algebraic evaluation selects the marked joint determinant–Schur datum, including its physical closed normalization. Its local return reconstructs the complete gauge-invariant vacuum response, while its homogeneous return reconstructs central scale response and state geometry. Their transported mixed variations obey the common-source identities before and after the required limits.
