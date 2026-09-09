@@ -118,4 +118,6 @@ If \(v\) is centered, the semigroup term can instead be bounded by the right sid
 
 To use (HC9) as an actual vacuum correlation theorem, the centered compact source vector must separately be compared with \(\mathcal Jv\), retaining its actual mean and variance. The chronological estimate itself changes neither the source nor its preparation. Likewise, it provides no physical tensor factorization across a spatial cut and does not reset an inherited region to an independent block. [[inherited-planar-vacuum-and-the-regional-time-law|IR]] identifies the harmonic regional memory that such a marked return must preserve.
 
+[[centered-compact-chronology-and-integrable-source-return|Centering the comparison map in the actual vacuum]] now strengthens HC7 to an integrable error: both semigroups in Duhamel's formula decay on their vacuum complements. That theorem also verifies the weighted-character extension and retains its source-vector comparison requirements. HC7's uncentered bound itself is still not integrable.
+
 Time in these formulas is scaled time: physical duration is \(t/\sqrt{\kappa g}\). The confinement window, fixed Hermite degree and prescribed physical carrier remain part of every bound.
