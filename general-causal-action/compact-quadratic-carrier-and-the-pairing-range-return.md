@@ -296,4 +296,6 @@ For the upper inequality, [[localized-relational-sources-in-the-inherited-vacuum
 \]
 Applying (QK14) to this same matrix gives the upper inequality in (QK16). The inherited covariance is the covariance of the full containing patch; no smaller independent vacuum is substituted. The uniform source-norm comparison in (QK10)–(QK12) justifies taking the infimum over the growing matrix family, rather than only following one fixed source.
 
+[[four-face-optimal-quadratic-response-and-parity|The fixed four-face nonlinear optimization]] refines this carrier comparison: the term linear in \(h\) in its mixed Gram forms vanishes, and its optimal quadratic response retains the leading cubic leakage. [[four-face-oriented-source-extension-and-the-schur-surplus|Admitting the oriented cubic marks]] removes that contribution and follows the negative actual gap correction. Quadratic source completeness alone therefore does not make the readout recover that first spectral shift.
+
 All times above are scaled; physical duration is \(t/\sqrt{\kappa g}\). The compact source carrier returned here includes every invariant quadratic in the declared based face vectors, not every compact radial observable or arbitrary-degree marked history. The pairing-range theorem is a response bound on that source carrier, not a four-dimensional or fixed-coupling infinite-volume mass-gap theorem.

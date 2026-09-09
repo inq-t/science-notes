@@ -1,8 +1,8 @@
 # Joint Realization Research Checkpoint
 
-Resume with oriented innovation transport and the surplus on newly accessible relational sources. Round 29 resolves the pairing-range test: the quadratic OI floor is of order \(\min\{1,t/(R+1)\}\), and the actual compact law preserves that order on the controlled window for every signed quadratic matrix. Next isolate the old/new source coupling and test its first non-Abelian correction. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
+Resume with oriented innovation transport and the composition of complete marked sources. Round 30 resolves the four-face source-extension test: even the optimal quadratic response retains apparent short-duration hardening, while two oriented cubic directions remove its leakage and recover the negative gap correction. Next derive their common source lift and test what happens to products. The [[general-causal-action/research-schema|Yang–Mills and cosmological targets]] remain unchanged.
 
-## Active conjecture — round 29, 2026-09-09
+## Active conjecture — round 30, 2026-09-09
 
 **Oriented innovation transport** remains the single active foundation in [[general-causal-action/determinant-response-sewing-and-relational-rigidity#Active candidate: oriented innovation transport|DS10h–j]]. Keep the determinant amplitude, actual temporal sewing and complete marked sources. At fixed physical \(\ell=ka_t>0\),
 \[
@@ -16,99 +16,112 @@ V_Q(h)-C_{\rm lag}(h)\ge c\|h\|^2
 \]
 on every centered physical innovation through continuum and infinite-volume limits. Equivalently \(R^2\ge cR\), with the proved vacuum-only kernel, implying \(H\ge-\log(1-c)/(2\ell)\) on its complement. Finite boundary-word positivity remains an allowed mechanism.
 
-## Strongest consequence: range and duration fix the quadratic floor
+## The new-source test is now decided through its invariant root
 
-On the full-Gauss open \(L\times L\) planar carrier keep the common-root comb faces and
+Use the full-Gauss open \(2\times2\) planar patch, common-root comb face vectors and the actual compact vacuum. Here \(h=(\kappa/g)^{1/4}\), energies are divided by \(E=\sqrt{\kappa g}\), and \(t>0\) is a fixed scaled duration. Define
 \[
-C=\sqrt{A_L},\qquad A_L=4I-\operatorname{Adj}_L,\qquad
-F_B=\sum_{\alpha=1}^3X_\alpha^{\mathsf T}BX_\alpha-3\operatorname{Tr}(BC),
+R_h=I-e^{-2tK_h},\quad
+G_{ij,h}=\langle z_{i,h},R_hz_{j,h}\rangle,\quad
+N_{ij,h}=\langle z_{i,h},R_h^2z_{j,h}\rangle .
 \]
-where \(B=B^{\mathsf T}\ne0\). Pairing range \(R\) means
-\(B_{pq}=0\) for \(|p-q|_\infty>R\); the total support and signed coefficients are unrestricted. The complete based transport words remain part of the observables, so \(R\) measures face-label pairing distance. The exact mixed harmonic covariance is
-\[
-\mathcal B_t(B,N)=6\operatorname{Tr}(BD_tND_t),\qquad D_t=Ce^{-tC}.
-\]
-Let \(c_R(t)\) be the infimum of the unchanged OI quotient over all such kernels and containing boxes. [[general-causal-action/finite-pairing-range-and-the-harmonic-innovation-floor|PR1–10]] proves
-\[
-\boxed{
-\frac56(1-e^{-2t\delta_R})\le c_R(t)
-\le1-e^{-8\sqrt2t\sin[\pi/(2(R+2))]},
-\qquad \delta_R=\frac1{\sqrt{\pi e}(2R+1)}.}
-\]
-Consequently \(c_R(t)\asymp\min\{1,t/(R+1)\}\), uniformly in \(t>0,R\ge0\). The same lower expression bounds the normalized full innovation denominator.
+Source means, variances and the moving vacuum are retained.
 
-The proof controls the covariance-weighted spectral measure
+[[general-causal-action/four-face-diagonal-sources-and-the-relational-schur-defect|DQ1–13]] gives the exact harmonic generalized spectra. The minimum over diagonal face quadratics is strictly greater than the full ten-dimensional quadratic minimum
 \[
-\nu_B=\frac{\sum_{i,j}\omega_i\omega_j|\widetilde B_{ij}|^2
-                         \delta_{\omega_i+\omega_j}}
-            {\operatorname{Tr}(BCBC)}.
+r_c=1-e^{-2tc},\qquad c=2\sqrt2.
 \]
-A local low-frequency projector estimate forces at least \(5/6\) of this mass above \(\delta_R\). It does not assume banded source matrices form an invariant dynamical subspace.
+For a fixed threshold \(\gamma\) between them, the old block of \(Q_\gamma=N-\gamma G\) is positive. Its six-dimensional new-source Schur form has an explicit negative direction, supplied by the cross-face part of \(B_*=v_0v_0^{\mathsf T}\).
 
-[[general-causal-action/localized-relational-sources-in-the-inherited-vacuum|LR1–12]] supplies a matching-order upper source inside **every** containing larger patch. Its profile is the normalized product of two \(\sin^2\) bumps of side \(R+1\), with zero extension and all boundary derivatives retained. It obeys
+The interaction test uses the generalized root, with its innovation norm. If
+\(\mathcal S=D-B^*A^{-1}B\) and \(\mathcal J=(-A^{-1}B,I)^{\mathsf T}\), then
 \[
-\mathfrak q_t\le1-e^{-16\pi^2t/[\sqrt3(R+2)]}.
+\partial_\lambda\mathcal S=-\mathcal J^*G\mathcal J<0.
 \]
-The unnormalized quadratic's inherited variance is of order \((R+2)^{-2}\). No smaller-block vacuum is substituted.
+[[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|OE1–4]] gives the normalized root derivative. A raw fixed-threshold second-order Schur matrix changes under an \(h\)-dependent rescaling of source coordinates; its sign change is not independently a physical gap shift. The entire earlier fixed-\(\gamma\) second-order matrix was not computed. Its invariant minimum and the effect of the further oriented extension were computed instead.
 
-## The entire compact quadratic source map returns
+## Quadratic optimization leaves the leading leakage
 
-Put
+[[general-causal-action/four-face-optimal-quadratic-response-and-parity|OQ1–13]] proves the actual mixed quadratic Gram expansion at fixed patch, including the compact vacuum return. Every first-order matrix entry vanishes by graded parity. The harmonic minimum is simple, so optimizing all ten quadratic sources leaves the original first nonlinear coefficient:
 \[
-n=L+1,\quad h=(\kappa/g)^{1/4},\quad E=\sqrt{\kappa g},\quad
-0<\epsilon=hn^{10}\le\eta,\quad\theta=hn^{11/2}.
+q_{\rm quad}(h,t)=r_c+h^2q_2(t)+o_t(h^2),
 \]
-For every real symmetric \(B\), use the actual compact mark
 \[
-S_{B,h}=\frac4{h^2}\sum_{p,q}B_{pq}\mathbf q_p\cdot\mathbf q_q,
-\quad F_{B,h}=S_{B,h}-\langle S_{B,h}\rangle_{\psi_h}.
+q_2(t)=2td\,e^{-2tc}
++\sum_{i=1}^2w_i
+ \frac{r_{\nu_i}(r_{\nu_i}-r_c)}{r_c},
+\quad r_\alpha=1-e^{-2t\alpha},
 \]
-[[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|QK1–16]] proves a linear source-map return with error \(C\theta\) in the harmonic covariance norm. In particular, if
-\(\sigma_B^2=6\operatorname{Tr}(BCBC)\),
 \[
-\boxed{
-\sup_{t\ge0}\left|
-\langle F_{B,h}\psi_h,e^{-tK_h}F_{N,h}\psi_h\rangle
--\mathcal B_t(B,N)\right|
-\le C\theta\,\sigma_B\sigma_N.}
+d=-\frac5{32}+\frac{3\sqrt2}{56}-\frac{5\sqrt3}{48}<0,\qquad
+(w_1,w_2)=\left(\frac{2\sqrt2}{49},\frac{\sqrt3}{2}\right),
 \]
-Actual source means and variances return in the same norm. Centering first removes the extensive mean; the proof pays explicitly for
-\(\sigma_B\ge4\sqrt6\|B\|_{\rm F}/n\).
-Its error is \(\theta+h^2n^2+n^4\rho_h+(hn^{3/2})^8\le C\theta\), with the selected sixth-order vacuum residual. No number-of-marks factor is added for growing combinations.
+\[
+(\nu_1,\nu_2)=(4+\sqrt2,\ 2+\sqrt2+\sqrt6).
+\]
+The true scaled gap is \(c_h=c+h^2d+O(h^4)\). The leakage sum is positive at every fixed duration. The total \(q_2(t)\) is positive at sufficiently short duration and negative at sufficiently long duration. No simultaneous time/confinement limit is asserted. Quadratic coefficient changes cannot cancel the odd leading escaped vector.
 
-For range \(R\), write \(g_R(t)=\frac56(1-e^{-2t\delta_R})\). The normalized OI quotient error is at most \(C\theta/g_R(t)\) when the denominator is controlled. Relative survival follows from \(\theta\ll g_R(t)^2\). For every \(t_0>0\), a sufficiently small size-independent subwindow gives
+[[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|OE5–12]] adjoins the two bounded actual cubic marks
+\[
+\mathcal T_1=\mathbf Q_0\cdot(\mathbf Q_1\times\mathbf Q_2),\qquad
+\mathcal T_2=\mathbf Q_0\cdot(\mathbf Q_1\times\mathbf Q_3).
+\]
+Their Schur subtraction removes exactly the two leakage contributions. The fixed source
+\[
+\mathcal B^\sharp=|\mathbf Q_0|^2-\frac27\mathcal T_1-\mathcal T_2
+\]
+independently attains the full spectral floor to this order. Consequently
 \[
 \boxed{
-c^h_{R,L}(t)\asymp\min\{1,t/(R+1)\},
-\quad 0\le R\le L-1,\quad t\ge t_0.}
+1-e^{-2tc_h}\le q_{\rm ext}(h,t)
+\le1-e^{-2tc_h}+O_t(h^4),\qquad
+q_{{\rm ext},2}(t)=2td\,e^{-2tc}<0.}
 \]
-Here the infimum is over the actual compact quadratic marks in the same containing patch. The condition holds simultaneously for all effective ranges because
-\((R+1)^2\theta\le\epsilon n^{-5/2}\).
+Its physical coefficients are independent of \(h\); the Hamiltonian and clock have not changed. Automatic positive reinforcement under this source extension fails at the first nonlinear order.
 
-This is a complete quadratic carrier, not the complete compact observable algebra. Uniform relative return at arbitrarily short scaled times remains unproved. The fixed scaled-time comparison uses physical duration \(t/E\); the same confinement window has a diverging absolute physical gap at fixed physical duration. It is not a fixed-coupling thermodynamic or four-dimensional continuum trajectory.
+## Keep the growing-range control
 
-## Weakest assumption and next executable test
-
-The complete physical innovation surplus remains conjectural. The range theorem rejects automatic assembly of a range-independent floor from local response, even after the proved nonlinear return. It leaves room for an additional non-Abelian effect at crossover.
-
-**Next:** on the four-face patch, compare the old diagonal quadratic source space with the full symmetric pairing space, retaining the same actual vacuum and clock. Form their full innovation and surplus Gram matrices
+[[general-causal-action/finite-pairing-range-and-the-harmonic-innovation-floor|PR1–10]] and [[general-causal-action/localized-relational-sources-in-the-inherited-vacuum|LR1–12]] give
 \[
-G_h(t)_{ij}=\langle\zeta_i,(I-P_{2t})\zeta_j\rangle,\qquad
-N_h(t)_{ij}=\langle\zeta_i,(I-P_{2t})^2\zeta_j\rangle.
+c_R(t)\asymp\min\{1,t/(R+1)\}
 \]
-Choose a fixed test threshold \(\gamma\) strictly between the harmonic full-quadratic minimum and the harmonic diagonal-space minimum at the same \(t>0\). Verify the strict separation, then keep \(\gamma\) unchanged as \(h\) varies. This threshold tests source extension; it is not a fitted physical mass.
+for all signed harmonic quadratic matrices with face-label pairing range \(R\), including matching-order sources inside every containing larger vacuum. Complete based transport words remain part of each observable.
 
-Split \(Q_h=N_h-\gamma G_h\) into old and newly accessible source blocks. With its old block positive, the residual test is the Schur form
+[[general-causal-action/compact-quadratic-carrier-and-the-pairing-range-return|QK1–16]] returns the entire quadratic source map with error \(C\theta\), where
 \[
-\mathcal S_h
-=Q_{nn,h}-Q_{no,h}Q_{oo,h}^{-1}Q_{on,h}.
+n=L+1,\quad 0<\epsilon=hn^{10}\le\eta,\quad\theta=hn^{11/2}.
 \]
-Derive the Gaussian negative direction and the first nonzero interaction correction, using the actual source means, variances, moving vacuum and cubic leakage. Determine whether the correction improves or worsens this residual. Do not assume each non-Abelian attachment reinforces the floor. A formal Schur reformulation alone does not decide the test; compute its returned coefficient or a decisive sign bound.
+For every \(t_0>0\), a sufficiently small size-independent subwindow preserves the same order for the actual quadratic infimum, simultaneously for \(0\le R\le L-1\), \(t\ge t_0\). This is not the complete compact algebra. Physical duration is \(t/E\), and the absolute physical gap diverges along this confinement window. No fixed-coupling thermodynamic or four-dimensional continuum limit follows.
 
-This explores a **range-extension surplus** as a named subordinate mechanism within OI. Positivity on every required new source direction remains a conjecture, not an input to the calculation. [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag cost]] still belong to the physical sewing estimate. The four-face negative-gap/source-leakage control and failure of multiplicative attenuation remain binding.
+## Next executable test: one source lift and its product contact
+
+The complete physical innovation surplus remains conjectural. Replace the rejected automatic reinforcement mechanism by a constructive question within OI: does the actual oriented kinetic term supply one source-transport rule, and what joint operation does that rule require?
+
+On the fixed four-face invariant polynomial-Gaussian core, start from the actual odd jet \(V_1\). Construct a real odd skew-symmetric polynomial operator \(S_1\), checking resonances and fixing its commuting ambiguity, such that
+\[
+[K_0,S_1]=-V_1.
+\]
+Do not presume an anti-selfadjoint closure or a globally defined unitary exponential. Define the vacuum-equivalent multiplication correction
+\[
+\mathcal D(F)=\Omega^{-1}[S_1,M_F]\Omega.
+\]
+Compute this single linear map on the full quadratic source carrier. It must recover
+\[
+\mathcal D(|Y_0|^2)=-T_{012}/7-T_{013}/2
+\]
+from the operator, without fitting individual sources.
+
+Then evaluate its actual product defect on quadratic pairs, including distinct mode radii such as \(F=|Y_0|^2\), \(G=|Y_1|^2\):
+\[
+\boxed{
+\mathcal D(FG)-F\mathcal D(G)-G\mathcal D(F)
+=\Omega^{-1}[[S_1,M_F],M_G]\Omega.}
+\]
+The operator commutator itself always obeys Leibniz. A nonzero expression here would detect the contact term lost when a differential operator is replaced by a multiplication source with the same vacuum vector. Determine whether it vanishes identically, and if not compute an explicit invariant nonzero pair and the forced joint correction. Retain polynomial degree and the resulting compact scaling: a composite's lower-degree correction need not come from a strength-independent compact mark. Retain the comb connectors and distinguish a presentation change from a substantive source-composition law. A formal commutator notation alone does not decide this test.
+
+This **oriented source transport** is a subordinate construction, not a second foundation or a new gap axiom. Its higher-order, growing-volume and compact product return remain questions. [[general-causal-action/spatial-block-sewing-and-the-vacuum-cap-response|SB's vacuum caps, source exchange and changed-history lag cost]] still belong to the physical sewing estimate.
 
 ## Target and source cursor
 
 Nontrivial four-dimensional Yang–Mills for every compact simple group, locality, covariance, axiomatic and ultraviolet return, Poincaré structure and the infinite-volume physical gap remain unproved. Group, four-dimensional sector and realization inputs remain declared. Cosmological returns must use the same amplitude and normalization.
 
-The live Claude review and eight receipts remain unchanged against archived hashes. This round used analytic proofs and independent actual-text audits, with no simulations. The checkpoint is committed with round 29. Recheck the inbox on resumption. The goal remains active.
+The live Claude review and eight receipts remain unchanged against archived hashes. This round used analytic proofs and independent actual-text audits, with no simulations. The checkpoint is committed with round 30. Recheck the inbox on resumption. The goal remains active.

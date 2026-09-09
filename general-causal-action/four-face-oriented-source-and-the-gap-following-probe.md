@@ -150,4 +150,6 @@ r_i=1-e^{-2\tau\nu_i},\quad r_c=1-e^{-2\tau c}.
 \]
 Every summand is positive because \(\nu_i>c\). This is the contribution relative to the changing gap benchmark; it is not a claim that the original quotient's total correction has the same sign at every duration.
 
+[[four-face-oriented-source-extension-and-the-schur-surplus|The finite source-extension theorem]] now shows that the minimum over all ten quadratic sources and these two cubic marks obeys the same bound (OS8): the full spectral floor gives its lower bound, and \(B^\sharp\) gives its upper bound. Its Schur calculation identifies the exact subtraction of both weights in (OS9).
+
 Both probes belong to the same complete physical source algebra. A uniform innovation inequality must apply to the corrected probe as well as the original one. The cancellation exposes a negative gap correction that source redistribution can obscure, but it constructs no mass mechanism and supplies no volume-uniform conclusion. The Hamiltonian, actual vacuum, comparison paths and clock have remained the same throughout.
