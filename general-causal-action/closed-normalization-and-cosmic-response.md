@@ -90,6 +90,46 @@ Assume \(V\) is independent of integrated boundary variables and of the local ma
 \]
 preserves sewing, unit transparency, normalized boundary laws and (CN3)–(CN4). Yet it shifts \(\mathcal I_D\) by \(\Lambda V(D,N)\), and hence shifts its homogeneous variation whenever \(V_N\ne0\). Even the mixed-source identity does not fix this central freedom. A proposed primitive evaluation must select or exclude these scalar characters; their absence cannot be inferred from the unit test.
 
+## Centering the transfer does not fix its gravitational source
+
+The distinction has a direct spectral form. If \(H\) has vacuum energy \(E_0\), then adding a scalar \(cI\) changes the closed transfer but leaves its vacuum-centered generator unchanged:
+\[
+e^{-t(H+cI)}=e^{-tc}e^{-tH},\qquad
+(H+cI)-(E_0+c)I=H-E_0I.
+\tag{CN11}
+\]
+Thus no measurement of the centered gap alone can determine \(c\). The Perron normalization of [[commutator-preparation-transfer-and-marked-gluing|the finite path law]] retains exactly this distinction. [[preparation-compression-and-the-returned-potential|Preparation compression]] additionally shows that changing a nonconstant positive potential can lower the centered gap because the vacuum shifts too.
+
+If a separate geometric return identifies an additive scalar with spacetime volume, the same freedom becomes a cosmological source. For a Lorentzian matter action with signature \((-+++)\), \(c=1\), and convention \(T_{\mu\nu}=-(2/\sqrt{-g})\,\delta S/\delta g^{\mu\nu}\), adding
+\[
+S_c=-\rho_c\int\sqrt{-g}\,d^4x
+\quad\Longrightarrow\quad
+\Delta T_{\mu\nu}=-\rho_c g_{\mu\nu}.
+\tag{CN12}
+\]
+This follows from \(\delta\sqrt{-g}=-(1/2)\sqrt{-g}\,g_{\mu\nu}\delta g^{\mu\nu}\); the displayed sign uses the stated stress convention. A different action/sign convention must be transported consistently. Nothing in (CN9) has yet constructed this spacetime volume or source map.
+
+The useful research connection is therefore a common **selection of absolute weight and relative excitation**, with distinct tests. A vacuum term shifts a gravitational source; a mass gap concerns the complete centered physical spectrum. A trace anomaly, a thermal horizon scale or a finite transfer gap cannot by itself identify these returns. The [[global-local-response-reconstruction/cosmological-reconvergence-contract|reconvergence contract]] requires the relevant states, sources and carriers to come from one constructed law.
+
+## Fluctuating central weights carry shared memory
+
+A possible extension replaces the scalar character by a law for a real central variable \(\lambda\). Let \(\pi\) have the exponential moments needed below, and define
+\[
+W(V)=\int e^{-\lambda V}d\pi(\lambda),\qquad
+d\pi_V(\lambda)=W(V)^{-1}e^{-\lambda V}d\pi(\lambda).
+\tag{CN13}
+\]
+If two pieces retain the same \(\lambda\), their weight is \(W(V_1+V_2)\). Independently averaging each piece instead gives \(W(V_1)W(V_2)\). These agree for every \(V_1,V_2\) near zero only when \(\pi\) is a point mass: multiplicativity makes \(\log W\) linear, whereas
+\[
+\boxed{
+\partial_{V_1}\partial_{V_2}\log W(V_1+V_2)
+=\operatorname{Var}_{\pi_{V_1+V_2}}(\lambda).}
+\tag{CN14}
+\]
+The variance is strictly positive for a nondegenerate law. Thus averaging a fluctuating global coefficient does not preserve the scalar sewing character automatically. Sewing can instead retain \(\lambda\) and its conditional law until the final evaluation. Resampling it separately changes the theory, just as reusing or resampling the edge preparations changes [[commutator-preparation-transfer-and-marked-gluing|the marked path law]].
+
+This is a concrete stochastic research option, not a derivation of a cosmological constant, a spacetime volume, or its fluctuation law. A proposed cosmic application must specify whether its central variable is shared, renewed or dynamically correlated and must retain its cross-region sources. A marginal fluctuation magnitude alone does not determine that law.
+
 ## Conjecture: one joint normalization has cosmic and local returns
 
 **Conjecture.** A unit-compatible algebraic evaluation selects the marked joint determinant–Schur datum, including its physical closed normalization. Its local return reconstructs the complete gauge-invariant vacuum response, while its homogeneous return reconstructs central scale response and state geometry. Their transported mixed variations obey the common-source identities before and after the required limits.

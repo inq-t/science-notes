@@ -48,6 +48,10 @@ A finite geometric or accessibility radius supplies a candidate infrared scale w
 
 This correction strengthens the boundary programme. It says that *causal finiteness*, *UV regulation*, and *informational capacity* must be three separately constructed inputs or outputs rather than three names for one intuition.
 
+[[algebra/finite-trace-and-gapless-mixing|A finite-trace counterexample]] sharpens the gap question. One type-\(\mathrm{II}_1\) factor has a normalized trace, a maximum trace-entropy state and a symmetric Markov clock with a unique fixed vector but no positive spectral gap. Algebraic finiteness is not finite-dimensionality, and an entropy ceiling does not by itself produce a dynamical floor.
+
+The distinction also matters for [[library/de-sitter-observables-algebra/inq|the de Sitter observer algebra]]. Its observer-dressed constrained construction changes the algebra from the fixed-background patch theory. The maximum-entropy trace has trivial modular automorphisms; it cannot be identified with the earlier nontrivial Bunch–Davies geometric modular flow without a comparison of carriers and states. A static-patch Killing field can extend globally while failing to remain timelike. This is not, by itself, a failure to glue the vector field.
+
 ## What “everything is connected” can mean
 
 Inside one causal patch, “everything is connected with everything” has at least five mathematical readings:

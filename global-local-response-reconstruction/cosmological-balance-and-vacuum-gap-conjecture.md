@@ -52,11 +52,39 @@ A positive cosmological susceptibility is a statement about a response form. A p
 \]
 leaves \(\rho_{\mathrm{res}}\) to a further global law; positivity of \(\rho_X\) does not choose it. Acceleration also requires the appropriate pressure and gravitational return, not merely positivity of one component.
 
-There is an exact reason not to read that missing scalar sector from a centered local gap. On a fixed Hilbert carrier, replacing \(H\) by \(H+C I\) shifts its ground energy by \(C\) and leaves \(H-E_0I\), its ground-state projection and its excitation gap unchanged. This does not say a cosmological term is gravitationally irrelevant: varying a metric-dependent effective action is a different operation. It says that a law relating the gap to the residual sector needs information absent from the centered spectrum alone.
+There is an exact reason not to read that missing scalar sector from a centered local gap. [[general-causal-action/closed-normalization-and-cosmic-response|Closed normalization]] distinguishes an additive shift of the Hamiltonian from the centered spectrum and from variation of a gravitational source. The first leaves the excitation gap unchanged; the last can detect it. A law relating the gap to the residual sector therefore needs information absent from the centered spectrum alone.
 
 Likewise, a positive scalar response is not a uniform spectral floor. Even a positive operator with \(Le_n=n^{-1}e_n\) has positive response on every nonzero vector but has infimum zero. The vacuum branch must instead prove a positive lower bound for its energy form on the entire nonvacuum physical carrier, uniformly through the required limits. One cosmological tangent, one integrated balance or one selected trace channel does not establish that quantifier.
 
 Quark masses must also remain distinct from the pure Yang–Mills gap. Quark masses belong to a matter-containing theory and its specified normalization. The [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|pure-gauge target]] contains no quarks or Higgs sector; its gap concerns gauge-invariant nonvacuum excitations. Connecting cosmic material loading to that target needs a theory-changing comparison, not a substitution of a quark mass or thermal transition scale.
+
+## A positive balancing term can produce an unstable equilibrium
+
+[[library/cosmological-considerations-in-the-general-theory-of-relativity/inq|Einstein's 1917 construction]] is a useful negative control. For the closed homogeneous dust model, let \(\rho\) be mass density, \(a\) the curvature radius and \(\Lambda\) fixed. The equilibrium conditions are
+\[
+\Lambda=\frac{4\pi G\rho_E}{c^2}=\frac1{a_E^2},\qquad
+\frac{\ddot a}{a}=-\frac{4\pi G}{3}\rho+\frac{\Lambda c^2}{3}.
+\tag{BV4}
+\]
+They relate the model's inputs; they do not select an absolute scale. Conserving dust mass and setting \(a=a_E(1+\varepsilon)\) gives \(\rho=\rho_E(1-3\varepsilon)+O(\varepsilon^2)\). Linearization yields
+\[
+\boxed{\ddot\varepsilon=\Lambda c^2\varepsilon.}
+\tag{BV5}
+\]
+The positive balancing term therefore permits an unstable homogeneous mode. Its rate \(c\sqrt{\Lambda}\) is an instability rate, not a positive excitation-energy gap. Staticity, balance, stability and spectral rigidity require distinct operators.
+
+This does not contradict [[library/asymptotic-behavior-of-homogeneous-cosmological-models-in-the-presence-of-a-positive-cosmological-constant/inq|Wald's expanding-cosmology theorem]], whose initial expansion, matter and curvature hypotheses define a different problem. Nor is the Einstein matter-filled static spacetime the same geometry as an expanding presentation of de Sitter space. A valid global/local comparison must specify the actual solution and its domain.
+
+Einstein's Newtonian screening analogy must also be distinguished from the weak-field cosmological term. In the weak static spherical field, the metric coefficient \(g_{tt}=-(1+2\Phi/c^2)\) gives
+\[
+\Phi(r)=-\frac{GM}{r}-\frac{\Lambda c^2r^2}{6},
+\qquad
+\nabla^2\Phi=4\pi G\rho-\Lambda c^2.
+\tag{BV6}
+\]
+This has a constant source contribution, not the screened operator \((\nabla^2-\lambda)\Phi\). The latter's Yukawa scale cannot be read as a graviton mass or Yang–Mills gap supplied by \(\Lambda\).
+
+The related [[general-causal-action/preparation-compression-and-the-returned-potential|preparation-compression witness]] makes the dynamical distinction inside the algebraic programme: its returned positive potential raises the raw ground and excited levels, but initially lowers their difference. These examples support seeking one law that determines several outputs together; positivity of one output cannot replace the missing calculation of the others.
 
 ## The common law must return a self-contained local sector
 
