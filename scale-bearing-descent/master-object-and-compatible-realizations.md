@@ -18,6 +18,10 @@ A tentative signature is
 \]
 Here \(\mathsf{Src}\) assigns complete observable insertions to presentations; \(\mathcal Z\) evaluates sourced diagrams; \(\mathsf{Read}\) specifies their restriction or realization maps; and \(\mathscr S\) carries relative scale comparisons. Their compatibility is the intended law. The signature leaves open which entries are primitive and which are constructed.
 
+The evaluation need not be scalar-valued before presentation. [[scale-bearing-descent/anomaly-lines-and-the-yang-mills-phase-test|Relative evaluation]] lets a closed amplitude belong to an anomaly line, with sewing and background transformations acting on that line. Boundary objects have their own carriers and contraction maps. This enlarges the possible return without identifying a phase obstruction with a positive readout defect.
+
+[[scale-bearing-descent/minimal-conjectures-and-decisive-returns|Conjecture C1]] asks for elementary source relations that select both transition phases and positive history pairings. A common positive kernel is the candidate bridge: its line-frame covariance carries phase data while its Gram quotient carries the norm. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|The three-history calculation]] demonstrates a finite constraint between them. The unknown is which source-composition relation forces that constraint on a complete physical family.
+
 ## The full experiment is the unit of composition
 
 A sourced diagram includes boundary variables, source products and the closed normalization. On a positive-kernel realization, sewing has the familiar expression
@@ -26,7 +30,7 @@ K_{D_2\circ D_1}[J_1,J_2](x,z)
 =\int K_{D_1}[J_1](x,y)K_{D_2}[J_2](y,z)\,d\mu(y).
 \tag{MO2}
 \]
-This example already declares a measure and positivity. The foundational task is to explain their selection and their transport, not to present (MO2) as a definition valid before those choices exist.
+This example already declares a measure and positivity, and uses an ordinary scalar presentation of the kernel. The foundational task is to explain their selection and their transport. In a relative realization the boundary contraction must also transport the evaluation lines; arbitrary phase factors cannot be inserted into (MO2) while presuming positivity survives.
 
 [[conditional-preparation-sewing/inq|Conditional preparation sewing]] supplies exact members of this kind: parent-conditioned normalizers preserve the specified old marked experiment, while newly accessible sources can acquire correlated response. [[gauge-boundary-frame-gluing/inq|Boundary frame gluing]] explains why neutralizing each region separately can lose distinctions needed by the joint experiment.
 
@@ -54,7 +58,7 @@ Two tests distinguish selection from realization. First, hold all declared primi
 
 A stronger positive benchmark is [[primitive-state-diffusion/inq|primitive comparison refinement]], where a declared overlap law determines a full diffusion rather than receiving its Laplacian separately. [[general-causal-action/shared-preparation-state-and-mobility|Shared preparation]] ties stationary density, mobility and marked response to different moments of the same preparation. Their remaining orbit, preparation and normalization choices show what the next constitutive relation has to address.
 
-For the gap, the target is an explicitly assembled repair of comparison errors, with a total loss budget that survives the admissible diagram operations. [[quantitative-descent/inq|Quantitative descent]] states the generic theorem; [[scale-bearing-descent/variance-completed-rigidity|variance-completed transport]] keeps the discarded analysis and repair channels. Its identification with the actual local innovation is a separate naturality requirement.
+For the gap, the target is an explicitly assembled repair of comparison errors. [[quantitative-descent/inq|Quantitative descent]] states the generic theorem; [[scale-bearing-descent/variance-completed-rigidity|variance-completed transport]] keeps the discarded analysis and repair channels. [[scale-bearing-descent/constructive-descent-division|Descent division]] proposes that the source relations express the mixed lost term through the retained comparison and thereby construct a corrected repair. Uniform control then becomes a finite closure and geometric overlap problem. Identification with the actual local innovation is the separate clock-naturality conjecture C3.
 
 For a common cosmic and local origin, one source family must fix their variations together. In a fixed affine source chart, a genuinely common smooth potential obeys
 \[
@@ -64,4 +68,4 @@ For a common cosmic and local origin, one source family must fix their variation
 \]
 Commuting derivatives become informative only after the source maps, potential and fixed quantities are independently specified. [[general-causal-action/closed-normalization-and-cosmic-response|The marked determinant]] gives a finite example and exposes an additive scalar freedom that even mixed derivatives need not remove.
 
-The sought discovery is a primitive relation that excludes this independent retuning while allowing an interacting, memory-bearing law. [[scale-bearing-descent/scale-symmetry-and-cosmic-response|Its different returns]] must then recover their own equations. The master object is the proposed reason those equations belong together, and its construction remains the central open problem.
+The sought discovery is a primitive relation that excludes this independent retuning while allowing an interacting, memory-bearing law. Its anomaly data constrain allowed phases; its repaired comparisons constrain stability within a phase; its complete closed weights constrain cosmic response. [[scale-bearing-descent/minimal-conjectures-and-decisive-returns|The conjectural bridges]] separate the first finite source tests from the stronger dimension and closed-weight selection problems. The master object is the proposed reason these returns belong together.

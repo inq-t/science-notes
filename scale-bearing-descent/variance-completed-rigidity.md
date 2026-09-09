@@ -1,6 +1,6 @@
 # Variance-Completed Descent and Rigidity
 
-A positive algebraic rigidity certificate can lose its gap when a comparison is passed through a completely positive readout. Keeping the discarded variance gives an exact composition law and identifies the additional estimate needed to preserve rigidity. A parallel calculation transports an explicitly constructed gluing inverse while charging for the boundary channels discarded from both its analysis and its repair. These are conditional operator lemmas; constructing their hypotheses from a Yang–Mills preparation remains open.
+A positive algebraic rigidity certificate can lose its gap when a comparison is passed through a completely positive readout. Keeping the discarded variance gives an exact composition law and identifies the additional estimate needed to preserve rigidity. A parallel calculation transports an explicitly constructed repair while retaining the channels discarded from both its analysis and its repair. The resulting mixed term admits two research routes: bound its accumulation or construct a correction that cancels it. The identities below are exact; their uniform realization by a Yang–Mills preparation remains to be constructed.
 
 ## The operation retains the failure to preserve multiplication
 
@@ -141,6 +141,8 @@ For a sequence of such compressions, a sufficient total budget is
 \]
 with a uniform strict margin and an initially uniform \(C\). Each loss is computed from the current inherited comparison and repair. A new access map that is not a compression, or a change of representation, requires its own transport theorem.
 
+There is a constructive alternative to paying this loss at every cut. [[scale-bearing-descent/constructive-descent-division|Descent division]] asks the primitive source relations to factor the actual mixed term as \(L_B^*L_\delta=K_V\delta_c\). Adding \(K_V\) to the compressed repair removes that term from (VC11) exactly. Successive corrections then transport only the seed error, while the rebuilt repair norm becomes the quantity to control. The finite rewrite rule, its coherence across overlapping cuts and its uniform norm are new construction targets; finite matrix factorization alone does not establish them.
+
 [[yang-mills-continuum-crossover/two-scale-rg-descent-and-the-crossover-lemma|The two-scale crossover theorem]] is a distinct analytic implementation of an accumulated-loss budget: it tracks the actual conditional and marginal laws and the mixed score cost. Its constants cannot be substituted into (VC14) without identifying the analysis and repair maps.
 
 The definition of \(\delta_c\) does not prove that it equals the innovation reconstructed from the actual coarse preparation or regional predictor. That identification needs an intertwining or controlled comparison theorem. In particular, [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|regional prediction]] can increase the innovation by discarding exterior information while preserving the original clock.
@@ -170,9 +172,9 @@ Matrix coefficients require the analogous block-norm estimate. Uniform word leng
 
 ## The proposed constitutive theorem
 
-The research conjecture is that a selected law of complete marked sewing supplies either (VC5)–(VC7), or a constructive repair (VC9) with the total budget (VC14), on its entire neutral observable carrier. Its primitive relations must determine the coefficients, actual state and source transport. An independently inserted contraction factor would merely relocate the desired gap.
+The research conjecture is that a selected law of complete marked sewing supplies an initial finite-word certificate or repair on its entire neutral observable carrier, and preserves it by either a derived variance or loss budget, or coherent descent division with a uniformly bounded rebuilt repair. Its primitive relations must determine the coefficients, actual state and source transport. [[scale-bearing-descent/minimal-conjectures-and-decisive-returns|Conjecture C2]] separates generating the initial floor from preserving it: exact correction cannot create a seed estimate that was never constructed.
 
-The sourceful innovation carrier matters. Ordinary Čech gluing has every successfully glued global observable in its degree-zero kernel; gauge transformations similarly annihilate every neutral distinction. The analysis map here must instead measure an actual failure of conditional recovery or a comparable state-dependent response. It must annihilate precisely the vacuum in the intended realization.
+The sourceful innovation carrier matters. Ordinary Čech gluing has every successfully glued global observable in its degree-zero kernel; gauge-transformation differences similarly annihilate every neutral distinction. The analysis map here must instead measure an actual failure of conditional recovery or a comparable state-dependent response. It must annihilate precisely the vacuum in the intended realization.
 
 [[two-slice-innovation-geometry/regional-innovation-and-exterior-information-balance|The exterior-information identity]] already supplies actual positive compression losses, while [[general-causal-action/conditional-boundary-translation-and-source-products|conditional boundary messages]] demonstrate why source products must accompany elimination. These are inputs to a possible proof of the budget, not proof that its sum is small.
 

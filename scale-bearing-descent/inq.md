@@ -6,7 +6,7 @@ keywords: [scale, descent, master-object, asymmetry, symmetry-breaking, mass-gap
 ---
 # Scale-Bearing Descent
 
-Scale-bearing descent seeks a mathematical master object whose directed comparisons jointly supply a state, a causal arena, a clock and the stability of observable distinctions. Scale, symmetry breaking, mass gaps and dark energy are investigated as different possible returns of that object. The central conjecture is that coherent passage between a whole law and its local presentations retains a remainder that constrains those returns together. Exact comparison and transport identities are available; the master object and its joint Yang–Mills and cosmological realization remain to be constructed.
+Scale-bearing descent seeks a mathematical master object whose composition law selects its states, causal arena, clock and stable observable sectors. Scale, symmetry breaking, mass gaps and cosmic response would be different returns of that law. The central proposal is to retain phase compatibility and positive comparison together, then make descent construct its own repair. The programme now has three explicit conjectural bridges and finite tests of each; the complete Yang–Mills and cosmological returns remain construction targets.
 
 ## The object before its presentations
 
@@ -14,11 +14,17 @@ A cosmos is considered here as an arena of mutually comparable facts. Its whole 
 
 [[scale-bearing-descent/master-object-and-compatible-realizations|The master-object problem]] gives the proposed mathematical signature: presentation equivalences, directed access, complete source-bearing composition, positive evaluation and a relative scale law. It distinguishes a structure that merely accommodates chosen dynamics from a rule that restricts which dynamics can occur. [[scale-bearing-descent/scale-bearing-descent-and-the-yang-mills-return|The backwards research programme]] develops the conceptual chain through causal geometry, action and a local Yang–Mills return.
 
+[[scale-bearing-descent/minimal-conjectures-and-decisive-returns|The minimal conjectural chain]] makes three leaps explicit. A common source law must select phase and norm together; its source relations must generate rigidity and construct a repair through descent; that same response must return in the physical chronology. A nontrivial finite result on any one of these arrows would narrow the unknown law. The conjectures about dimension and closed cosmic normalization state the stronger common-origin target.
+
 ## One problem with several mathematical returns
 
 An asymmetric pointing can have a nontrivial stabilizer. A classical action can forget a scale retained by its quantum state. A response can have a positive threshold above its vacuum. A closed normalization can contribute to a gravitational source even when normalized local predictions do not determine it. These are different mathematical operations, which the proposed common object must relate.
 
 [[scale-bearing-descent/scale-symmetry-and-cosmic-response|Scale, symmetry and cosmic response]] formulates this common-origin question without identifying its outputs by name. The useful test is whether one actual source law constrains their mixed responses and removes an otherwise independent choice. [[program-core/common-response-form|Common response geometry]] and [[general-causal-action/closed-normalization-and-cosmic-response|the marked closed normalization]] give precise versions of that requirement.
+
+[[scale-bearing-descent/anomaly-lines-and-the-yang-mills-phase-test|Anomaly lines]] add a finite exclusion test: derive the different center–CP constraints of the even- and odd-\(N\) Yang–Mills branches from defect composition. Such an obstruction can forbid a symmetric trivial vacuum while allowing stable symmetry-related vacua. The law must classify its realizations; facthood does not make every branch gapped.
+
+[[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|Phase and distinguishability]] gives an exact local clue. A cyclic phase in one positive three-history Gram kernel restricts how large all its overlaps can be. The conjecture asks for a source-complete version whose history differences are made by the actual chronology. A phase assigned independently of the positive kernel cannot supply that bound.
 
 ## A crossing carries its remainder
 
@@ -28,7 +34,9 @@ For a unital completely positive readout \(\Phi\), the difference
 \]
 records the product information lost at the crossing. Its composition law transports earlier loss before adding the next loss. [[scale-bearing-descent/variance-completed-rigidity|Variance-completed rigidity]] retains that channel and proves how an algebraic gap certificate or constructed repair can survive compression, provided the total loss remains controlled.
 
-The generic [[quantitative-descent/inq|quantitative descent theorems]] supply the underlying alternative: a finite algebraic positivity certificate, or a bounded reconstruction of distinctions from their comparison errors. Neither ordinary gluing nor removal of an exact kernel supplies the required uniform bound. The proposed master law must force it and preserve it through the actual changes of access.
+[[scale-bearing-descent/constructive-descent-division|Constructive descent division]] proposes a stronger operation. Express the mixed lost channel through the retained comparison by a finite source rule, and use the quotient as a correction to the repair. The exact lemma removes that new error term; a finite closure and overlap theorem must keep the rebuilt repair bounded through successive cuts. This gives a concrete algebraic task beyond postulating a small accumulated loss.
+
+The generic [[quantitative-descent/inq|quantitative descent theorems]] supply the underlying alternatives: a finite algebraic positivity certificate, or a bounded reconstruction of distinctions from their comparison errors. Exact solvability and stable solvability are different. The proposed master law must explain which sectors satisfy the stronger requirement and preserve it through their actual changes of access.
 
 ## The local and cosmic returns must come from the same law
 
