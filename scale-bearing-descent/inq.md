@@ -28,6 +28,8 @@ An asymmetric pointing can have a nontrivial stabilizer. A classical action can 
 
 [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|Phase and distinguishability]] gives an exact local clue. A cyclic phase in one positive three-history Gram kernel restricts how large all its overlaps can be. The conjecture asks for a source-complete version whose history differences are made by the actual chronology. A phase assigned independently of the positive kernel cannot supply that bound.
 
+[[scale-bearing-descent/cyclic-phase-realizations-and-exclusion-tests|Cyclic realization tests]] identify the Bargmann invariant, correct false commuting-family and unrestricted charge-conjugation exclusions, and prove that a compatible real-source estimate can supply the full complex quadratic bound. The comparison lemma also gives explicit tolerances for approximate preparations and the sharper direct response estimate. These results narrow how the source law might be constructed; they do not supply it.
+
 ## A crossing carries its remainder
 
 For a unital completely positive readout \(\Phi\), the difference

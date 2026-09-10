@@ -1,0 +1,31 @@
+{
+  "operation": "Reviewed byte-preserving archive of received Claude commentary and receipts",
+  "reviewed_on": "2026-09-09",
+  "content_rewrites": 0,
+  "moves": [
+    {
+      "from": "scale-bearing-descent/claude-inbox/2026-09-09T18H45 CST.md",
+      "to": "scale-bearing-descent/inbox/claude/2026-09-09/commentary/2026-09-09T18H45 CST.md",
+      "before_sha256": "6E7626B7B0DBCB3BE6325B305B075A795791CE7A7BC7851D079FE54C2E1E5A02",
+      "after_sha256": "6E7626B7B0DBCB3BE6325B305B075A795791CE7A7BC7851D079FE54C2E1E5A02"
+    },
+    {
+      "from": "scale-bearing-descent/claude-inbox/2026-09-09T19H10 CST.md",
+      "to": "scale-bearing-descent/inbox/claude/2026-09-09/commentary/2026-09-09T19H10 CST.md",
+      "before_sha256": "E01D7359F84D09364A1811C23A2FF08FCDDC943FBEEF6B25667D2A8423068311",
+      "after_sha256": "E01D7359F84D09364A1811C23A2FF08FCDDC943FBEEF6B25667D2A8423068311"
+    },
+    {
+      "from": "scale-bearing-descent/receipts/strong-coupling-bargmann-obstruction.md",
+      "to": "scale-bearing-descent/inbox/claude/2026-09-09/receipts/strong-coupling-bargmann-obstruction.md",
+      "before_sha256": "E647FCC3A1744DABEE6377888ACB38F16F05FFF40855C1A0A648D14B50BD7593",
+      "after_sha256": "E647FCC3A1744DABEE6377888ACB38F16F05FFF40855C1A0A648D14B50BD7593"
+    },
+    {
+      "from": "scale-bearing-descent/receipts/bargmann-delta3-checks.py",
+      "to": "scale-bearing-descent/inbox/claude/2026-09-09/receipts/bargmann-delta3-checks.py",
+      "before_sha256": "E8EAAA09939AAA06552C7C45A90475FE37424DBC670249D13DDAD57D8A424AFF",
+      "after_sha256": "E8EAAA09939AAA06552C7C45A90475FE37424DBC670249D13DDAD57D8A424AFF"
+    }
+  ]
+}

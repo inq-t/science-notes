@@ -32,6 +32,8 @@ The intended new restriction is that an evaluation of three overlapping preparat
 
 The first decisive return is the different center–CP constraints for the \(SU(2)\) and \(SU(3)\) branches, derived from the returned defect and theta-transport rules. The second is a response coefficient constrained by the same data. Computing the anomaly after importing its final transformation law is a check of arithmetic, not this return.
 
+The phase-separation route can also be investigated without deriving an anomaly first. [[scale-bearing-descent/cyclic-phase-realizations-and-exclusion-tests|The cyclic realization tests]] distinguish a Bargmann triangle from a group-cohomology obstruction and give a real-core verification theorem. Compatible conjugation can extend a real-source quadratic estimate to the complex carrier; it does not force the needed negative sign. A common origin for anomaly and norm remains a stronger target, rather than a prerequisite for every finite comparison result.
+
 **Freedom test.** Hold the grammar, marks, reflection and defect transport fixed. Try to change the positive pairing, or tensor the evaluation with a nontrivial invertible phase theory. If either remains freely possible, identify the omitted relation instead of declaring selection achieved. This is an experiment on the proposed primitive law.
 
 ## C2. The source relations generate and repair rigidity
@@ -67,6 +69,8 @@ This is a stronger question than asking whether all independently accumulated er
 The [[general-causal-action/conditional-boundary-translation-and-source-products|four-face source message]] gives a determined interaction correction and product rule, while the [[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|Schur extension]] shows why the added mixed directions can lower an earlier response minimum. Preserve the actual chronology and state normalization, or explicitly derive their change from the extended law. Finite coefficients in one matrix inverse are automatic, and expressing that inverse by Cayley–Hamilton does not select a source rule.
 
 Then test the rule on the concentrating neutral family, the integer gluing matrices and the phase erased by passage to observables. Ordinary cohomological exactness does not exclude these controls. The conjecture must point to an actual source relation or a bound they violate.
+
+The [[rg-covariance-residue/second-ring-commuting-escape|second-ring Wilson estimate]] is a concrete guide to the overlap part: a derivative outside the active interaction star commutes with its predictor, and a bijective link assignment retains the original innovation sum with overlap one. The uncovered contexts and complete physical response remain separate obligations. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel#Approximate preparations retain an explicit margin|The perturbed Gram theorem]] supplies an error margin for the seed when the construction is approximate.
 
 ## C3. The returned clock is natural under the same descent
 
@@ -110,3 +114,5 @@ These conjectures seek reasons for the arena and its cosmic response. They can d
 A useful first paper could establish one nontrivial law with a forced phase obstruction, a phase/norm constraint forced on its actual source family, or a finite descent division that survives two cuts with controlled coefficients. The next paper would have to show that the construction reaches the complete neutral source carrier and preserves its inherited clock. Enlarging a model is valuable when it tests those identities.
 
 The central proposed necessity is therefore sector-sensitive: the law should explain which global realizations are permitted, which carry a stable positive response, and where exact or approximate obstructions prevent that stability. Gapless branches are part of the classification. The intended Yang–Mills theorem is that the law supplies a stable branch with the full stipulated return, through the same operations that explain why other branches are excluded or behave differently.
+
+[[library/undecidability-of-the-spectral-gap/inq|Spectral-gap undecidability]] limits a universal terminating decision procedure over the Hamiltonian family of that theorem. It does not prohibit finite sufficient certificates, conditional gap theorems, or a constructive calculus for a specified family. The present claim is a sufficient mechanism for a selected Yang–Mills return. Its relations must be independently specified and tested on gapless controls; it is not an algorithm promised to decide every Hamiltonian.

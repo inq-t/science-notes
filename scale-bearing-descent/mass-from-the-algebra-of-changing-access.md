@@ -28,6 +28,8 @@ This reverses the status of the arena. A candidate local comparison is the posit
 \]
 Indeed, \(2I-G\) has the same one- and two-index principal minors as \(G\), and determinant \(\det G-4\operatorname{Re}(G_{12}G_{23}G_{31})\). All are nonnegative under the premise. The constant follows from three comparisons; it is not a prescribed mass. The conjectural content is that actual source composition enforces the premise on the complete vacuum complement.
 
+The cyclic product is a Bargmann invariant; when nonzero, its argument is a phase of the prepared rays that survives their individual rephasings. Its geometry is developed in [[scale-bearing-descent/cyclic-phase-realizations-and-exclusion-tests|the realization tests]]. A useful alternative is to prove the sign on a complete real source subspace and derive the complex quadratic bound from a common conjugation respected by the sewing. This weaker sufficient route does not require every complex source to have the same phase. Neither route is presently a Yang–Mills source identity.
+
 Let \(\delta\) measure the actual conditional innovation: the part of a source that its predecessor cannot predict. The same sewing must construct a bounded finite operator word \(\mathcal K\) with \(\mathcal A=\mathcal K\delta\). This requirement prevents auxiliary histories from manufacturing a gap. Now a seed repair is explicit:
 \[
 B_0=\tfrac19\mathcal A^*\mathcal K,\qquad
@@ -36,6 +38,8 @@ B_0\delta=I-E_0,\qquad
 \tag{MA3}
 \]
 No inverse or energy spectrum enters this construction. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|The comparison lemma]] proves (MA2)–(MA3); the source relation and physical factorization are the proposed discovery.
+
+The same lemma now controls approximate isometries and a small positive error in cyclic interference, with an explicit remaining margin. Thus refinement need not preserve the ideal finite triangle exactly. Its deviations must be bounded on the complete source carrier in the inherited norm.
 
 Changing access now separates into two operations. Restriction retains fewer sources of one fixed law. Extension introduces a new loop, path or mixed source, and may change the law itself. The first can preserve a repair exactly; the second requires a new construction.
 
@@ -67,7 +71,7 @@ The forgotten relation supplies a correction to the retained description. When t
 
 This conjecture has a concrete unfinished part. The [[general-causal-action/conditional-boundary-translation-and-source-products|four-face boundary calculation]] already determines a nonzero correction and the product information needed for two elimination routes to agree. But it controls specified source expansions, not the complete carrier. The [[general-causal-action/four-face-oriented-source-extension-and-the-schur-surplus|source-extension calculation]] shows that adding mixed observables can lower an apparent response floor. The new calculus must reconstruct those directions too, with their cross terms and actual normalization. A matrix inverse fitted separately at each size would not establish such a law. Gapless branches remain possible where the proposed identities fail or the required repair becomes unbounded.
 
-Mass now has an exact relational reading. Require the repaired analysis to be the actual one-sided innovation of the returned chronology, with vacuum-centered generator \(H\ge0\) and transfer \(e^{-\ell H}\), at fixed relational length \(\ell>0\). Then
+Mass now has an exact relational reading. Require the repaired analysis to be the actual one-sided innovation of the returned chronology, with vacuum-centered self-adjoint generator \(H\ge0\) and transfer \(e^{-\ell H}\), at fixed relational length \(\ell>0\). Then
 \[
 \delta_\ell^*\delta_\ell=I-e^{-2\ell H},
 \qquad \delta_\ell^*\delta_\ell\ge\frac1{9C^2}Q.
@@ -82,6 +86,8 @@ Consequently
 \tag{MA5}
 \]
 The implication is spectral calculus. Its explanation would be finite source reconstruction. In Euclidean chronology, no normalized nonvacuum distinction can remain arbitrarily close to perfectly predictable. After Poincaré reconstruction the threshold acquires its invariant mass meaning; it does not describe dissipative failure of Lorentzian unitarity.
+
+Where the direct factorization \(\mathcal A=\mathcal K\delta_\ell\) itself survives with \(\|\mathcal K\|\le L\), the stronger estimate is \(\delta_\ell^*\delta_\ell\ge3L^{-2}Q\). A comparison lift of norm \(M\) changes this to \(3/(L^2M^2)\); pure regional restriction has \(M=1\). General descent and new-source extension still require their own bound. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel#The direct factorization gives the stronger response bound|The direct estimate]] distinguishes this sharper route from the deliberately general repair estimate (MA5). Neither inequality determines an exact mass or a string tension.
 
 Why can the classical action remain scale invariant? Its four-dimensional curvature pairing \(I_{\rm YM}=(2g_{\rm YM}^2)^{-1}\int\langle F\wedge *_hF\rangle\) is conformally invariant because, under \(h\mapsto e^{2\omega}h\), the Hodge star on two-forms scales as \(e^{(d-4)\omega}\). This local expression can forget calibration retained by the complete evaluation. Across scale-related realizations, \(H_{\lambda\ell}=\lambda^{-1}U_\lambda H_\ell U_\lambda^{-1}\), so \(\ell\Delta_\ell\) can remain positive and invariant. No exact dilation symmetry of one fixed vacuum is asserted. [[scale-bearing-descent/scale-symmetry-and-cosmic-response|The scale-family formulation]] makes this distinction precise. Scale-free action would be the projection of scale-bearing comparison.
 
