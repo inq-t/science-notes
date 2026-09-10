@@ -1,0 +1,31 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "quant-ph/0110141",
+  "version": "quant-ph/0110141v1",
+  "records": [
+    {
+      "path": "quant-ph-0110141v1-source.tex.gz",
+      "bytes": 15191,
+      "sha256": "975f03eb74ba6eec1e83ae8feef4999875c6b66754da19de00e2b1005d0c2d00",
+      "url": "https://arxiv.org/src/quant-ph/0110141v1",
+      "resolved_url": "https://arxiv.org/src/quant-ph/0110141v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:24:44.772090+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "quant-ph/0110141v1"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 46198,
+      "sha256": "a6f8859859b07ee5b5e847e6519d4bc243bf3950c4a7e909e74c0d36fb4b23b7",
+      "kind": "extracted-author-source",
+      "derived_from": "quant-ph-0110141v1-source.tex.gz",
+      "archive_member": "single TeX payload"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1405,
+      "sha256": "84471f049fe786cc666ec25256fd6c747b7f138d7f4a815dfabb42e3de69272b"
+    }
+  ]
+}

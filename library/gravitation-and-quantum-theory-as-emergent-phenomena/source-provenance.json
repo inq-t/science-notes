@@ -1,0 +1,111 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "2308.16216",
+  "version": "2308.16216v1",
+  "records": [
+    {
+      "path": "2308.16216v1-source.tar.gz",
+      "bytes": 2826693,
+      "sha256": "0510e2f0f29dfc3e5a1cd99ba9b41d094d0eb300e199467f5830247bcc43d40e",
+      "url": "https://arxiv.org/src/2308.16216v1",
+      "resolved_url": "https://arxiv.org/src/2308.16216v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:01.589610+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "2308.16216v1"
+    },
+    {
+      "path": "source/chsh.jpeg",
+      "bytes": 366875,
+      "sha256": "9a44cc407cc82d62e6600de3479b2186b32122b55f08062f5e932d722f1602de",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "chsh.jpeg"
+    },
+    {
+      "path": "source/DICE2022TEJINDERSINGH.tex",
+      "bytes": 93561,
+      "sha256": "0aeb9cc6e7540fc8f67459720e07a92159c5d53befafb26623ef5d965033fabb",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "DICE2022TEJINDERSINGH.tex"
+    },
+    {
+      "path": "source/Ingredients2.jpeg",
+      "bytes": 382207,
+      "sha256": "100bfa9f6d3ad977d353f50b31b6f1900f3fced37f2287daf35f4c3a417eeab9",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "Ingredients2.jpeg"
+    },
+    {
+      "path": "source/Ingredients.jpeg",
+      "bytes": 476806,
+      "sha256": "1d3d8f4aaae594d7e74d9ed5e569c4b0b2d502050fd619c103a96320d4d57389",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "Ingredients.jpeg"
+    },
+    {
+      "path": "source/iopams.sty",
+      "bytes": 3139,
+      "sha256": "37f26a4791895ea856533d51123967a5b328ae0773996af0cc172b3e264d2777",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "iopams.sty"
+    },
+    {
+      "path": "source/jevss.jpeg",
+      "bytes": 327787,
+      "sha256": "f24c201b6ac078a7b238333033acff164c2fa9c4fec5b4501628cde586d35ae4",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "jevss.jpeg"
+    },
+    {
+      "path": "source/jpconf11.clo",
+      "bytes": 5275,
+      "sha256": "fd18eec1eae197007e40bfd5e990dd768f67aaa68f5cedff40f7b1d9725bff7a",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "jpconf11.clo"
+    },
+    {
+      "path": "source/jpconf.cls",
+      "bytes": 35662,
+      "sha256": "2f08e9b7334ac52cc834b0a231f07b862eb058292cb7ec9ff182d2f6427b3177",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "jpconf.cls"
+    },
+    {
+      "path": "source/predict.jpeg",
+      "bytes": 504123,
+      "sha256": "24af84c30285537d595a3c7cab73697f0fbcddc6f1dd592c890233b4980ebfd6",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "predict.jpeg"
+    },
+    {
+      "path": "source/qclass.jpeg",
+      "bytes": 610938,
+      "sha256": "0243cda433e1aaaad045e4f9e45df709263c9906e9fb938ff95a1fd9358066b4",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "qclass.jpeg"
+    },
+    {
+      "path": "source/smparameters.jpeg",
+      "bytes": 585834,
+      "sha256": "9e1c3b600763dd4e3655c1e926a9ed5dc4ba10bcebf809fd926b3636522c560a",
+      "kind": "extracted-author-source",
+      "derived_from": "2308.16216v1-source.tar.gz",
+      "archive_member": "smparameters.jpeg"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 2234,
+      "sha256": "ceabd899bb1180ea8407417089ae1101ec1c1a796c0a6dbc9c72f6524a3e86ac"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "1206.4916",
+  "version": "1206.4916v1",
+  "url": "https://arxiv.org/abs/1206.4916",
+  "retrieved_at": "2026-09-10T01:16:51.978231+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Emergence and Expansion of Cosmic Space as due to the Quest for Holographic Equipartition"
+    ],
+    "citation_author": [
+      "Padmanabhan, T."
+    ],
+    "citation_date": [
+      "2012/06/21"
+    ],
+    "citation_online_date": [
+      "2012/06/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1206.4916"
+    ],
+    "citation_arxiv_id": [
+      "1206.4916"
+    ],
+    "citation_abstract": [
+      "One possible interpretation of the holographic principle is the equality of the number of degrees of freedom in a bulk region of space and the number of degrees of freedom on the boundary surface. It is known that such an equality is maintained on equipotential surfaces in any static spacetime in the form of an equipartition law N_{bulk}= N_{sur}. In the cosmological context, the de Sitter universe obeys the same holographic equipartition. I argue that the difference between the surface degrees of freedom and the bulk degrees of freedom in a region of space (which has already emerged) drives the accelerated expansion of the universe through a simple equation dV/dt = (N_{sur} - N_{bulk}) where V is the Hubble volume in Planck units and t is the cosmic time in Planck units. This equation reproduces the standard evolution of the universe. This approach provides a novel paradigm to study the emergence of space and cosmology and has far reaching implications."
+    ]
+  },
+  "abstract_page_sha256": "3112d93238d8d10cd286ff643e0c92466d9248bccbd21bb61c0410afbffc6d5e"
+}

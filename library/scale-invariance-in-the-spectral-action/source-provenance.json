@@ -1,0 +1,31 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "hep-th/0512169",
+  "version": "hep-th/0512169v3",
+  "records": [
+    {
+      "path": "hep-th-0512169v3-source.tex.gz",
+      "bytes": 17602,
+      "sha256": "997efbc50914522e3af656041612bd2a3c795d39dd14e00b3b476e68c58200b0",
+      "url": "https://arxiv.org/src/hep-th/0512169v3",
+      "resolved_url": "https://arxiv.org/src/hep-th/0512169v3",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:28.347636+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "hep-th/0512169v3"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 61143,
+      "sha256": "9e8800243152b6c38c5611430bfeed47b6223622871b08cb8646289364a810cf",
+      "kind": "extracted-author-source",
+      "derived_from": "hep-th-0512169v3-source.tex.gz",
+      "archive_member": "single TeX payload"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1628,
+      "sha256": "6dd4bb2e6e810e058bcb671c796d131667d1249e13504718f7adab714f76714e"
+    }
+  ]
+}

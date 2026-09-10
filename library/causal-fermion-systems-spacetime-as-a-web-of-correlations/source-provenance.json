@@ -1,0 +1,47 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "2504.19272",
+  "version": "2504.19272v1",
+  "records": [
+    {
+      "path": "2504.19272v1-source.tar.gz",
+      "bytes": 57824,
+      "sha256": "7bf5894fac6713d291cfdc8f14c8666c43a523334fef7e69f4d992690952830c",
+      "url": "https://arxiv.org/src/2504.19272v1",
+      "resolved_url": "https://arxiv.org/src/2504.19272v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:16:43.350867+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "2504.19272v1"
+    },
+    {
+      "path": "source/main.bbl",
+      "bytes": 157748,
+      "sha256": "f421d2db4ea1ae4625ca8bdf27fa7a0a53c4fd1aad04819fa816e6cb298446e0",
+      "kind": "extracted-author-source",
+      "derived_from": "2504.19272v1-source.tar.gz",
+      "archive_member": "main.bbl"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 113266,
+      "sha256": "191dffd8e20760ddef1867b66bc9279a99e9d35ae3744c302c2d0d4efe033a4e",
+      "kind": "extracted-author-source",
+      "derived_from": "2504.19272v1-source.tar.gz",
+      "archive_member": "main.tex"
+    },
+    {
+      "path": "source/numerical-integration.dat",
+      "bytes": 504,
+      "sha256": "8295d5de648b3ec7501be6807c1bca0f97175be6caa2303313eb30649c626c4a",
+      "kind": "extracted-author-source",
+      "derived_from": "2504.19272v1-source.tar.gz",
+      "archive_member": "numerical-integration.dat"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1560,
+      "sha256": "294465484ffd631fb672819eccf6aafe0742d3b4fcbe3ed721601ace16b6595e"
+    }
+  ]
+}

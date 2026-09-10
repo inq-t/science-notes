@@ -1,0 +1,34 @@
+{
+  "arxiv_id": "1908.08451",
+  "version": "1908.08451v3",
+  "url": "https://arxiv.org/abs/1908.08451",
+  "retrieved_at": "2026-09-10T01:16:38.909108+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Causal Fermion Systems: An Elementary Introduction to Physical Ideas and Mathematical Concepts"
+    ],
+    "citation_author": [
+      "Finster, Felix",
+      "Jokel, Maximilian"
+    ],
+    "citation_doi": [
+      "10.1007/978-3-030-38941-3_2"
+    ],
+    "citation_date": [
+      "2019/08/22"
+    ],
+    "citation_online_date": [
+      "2020/03/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1908.08451"
+    ],
+    "citation_arxiv_id": [
+      "1908.08451"
+    ],
+    "citation_abstract": [
+      "We give an elementary introduction to the theory of causal fermion systems, with a focus on the underlying physical ideas and the conceptual and mathematical foundations."
+    ]
+  },
+  "abstract_page_sha256": "62327dc27417472a32881437af9731c2a2f238165a24d6d9d568cd6821676ff8"
+}

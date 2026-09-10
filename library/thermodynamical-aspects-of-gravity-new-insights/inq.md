@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [horizon-thermodynamics, gravity, entropy, variational-principles]
 ---
 # Thermodynamical Aspects of Gravity: New Insights
 
@@ -17,6 +18,6 @@ Padmanabhan reviews horizon temperature and entropy, their relation to Noether c
 - **Journal:** *Reports on Progress in Physics* **73**, 046901.
 - **DOI:** [10.1088/0034-4885/73/4/046901](https://doi.org/10.1088/0034-4885/73/4/046901).
 - **arXiv:** [0911.5004v2](https://arxiv.org/abs/0911.5004).
-- **Local artifacts:** none.
+- Local artifacts: [[library/thermodynamical-aspects-of-gravity-new-insights/source-files|Author source, revision metadata, and provenance]].
 
 The opening paragraph paraphrases the author's abstract.

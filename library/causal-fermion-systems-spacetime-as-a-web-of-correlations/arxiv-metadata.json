@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2504.19272",
+  "version": "2504.19272v1",
+  "url": "https://arxiv.org/abs/2504.19272",
+  "retrieved_at": "2026-09-10T01:16:43.350867+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Causal Fermion Systems: Spacetime as the web of correlations of a many-body quantum system"
+    ],
+    "citation_author": [
+      "Fischer, Patrick",
+      "Paganini, Claudio F."
+    ],
+    "citation_date": [
+      "2025/04/27"
+    ],
+    "citation_online_date": [
+      "2025/04/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.19272"
+    ],
+    "citation_arxiv_id": [
+      "2504.19272"
+    ],
+    "citation_abstract": [
+      "In this paper, we argue that spacetime in causal fermion systems can be understood as the web of correlations of a many-body quantum system.This argument highlights the fact that causal fermion systems is a completely relational theory. We also explain how our perception of a background (spacetime) emerges in the limit where the number of states taken in consideration goes to infinity. This thereby constitutes a complete viable ontology for causal fermion systems which are not reliant on the continuum limit. A key insight is the fact that in a relevant subset of causal fermion systems, which includes the continuum limit of the Minkowski vacuum spacetime, minimization of the causal action can be understood as a minimization of fluctuations in the causal structure of spacetime."
+    ]
+  },
+  "abstract_page_sha256": "cd4867250d48cce14e5e7df6dcfddebd54afbaa7ac5a0261904019e974181a16"
+}

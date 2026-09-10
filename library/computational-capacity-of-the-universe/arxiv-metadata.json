@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "quant-ph/0110141",
+  "version": "quant-ph/0110141v1",
+  "url": "https://arxiv.org/abs/quant-ph/0110141",
+  "retrieved_at": "2026-09-10T01:24:44.772090+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Computational capacity of the universe"
+    ],
+    "citation_author": [
+      "Lloyd, Seth"
+    ],
+    "citation_doi": [
+      "10.1103/PhysRevLett.88.237901"
+    ],
+    "citation_date": [
+      "2001/10/24"
+    ],
+    "citation_online_date": [
+      "2001/10/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/quant-ph/0110141"
+    ],
+    "citation_arxiv_id": [
+      "quant-ph/0110141"
+    ],
+    "citation_abstract": [
+      " Merely by existing, all physical systems register information. And by evolving dynamically in time, they transform and process that information. The laws of physics determine the amount of information that a physical system can register (number of bits) and the number of elementary logic operations that a system can perform (number of ops). The universe is a physical system. This paper quantifies the amount of information that the universe can register and the number of elementary operations that it can have performed over its history. The universe can have performed no more than $10^{120}$ ops on $10^{90}$ bits."
+    ]
+  },
+  "abstract_page_sha256": "6579ec6ae3b69db3081d53a0b1d5fc38d83775afc2086b6f1545d7f1e72c8470"
+}

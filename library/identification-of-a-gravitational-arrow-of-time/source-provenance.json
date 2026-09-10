@@ -1,0 +1,47 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "1409.0917",
+  "version": "1409.0917v1",
+  "records": [
+    {
+      "path": "1409.0917v1-source.tar.gz",
+      "bytes": 426471,
+      "sha256": "5e21cdc0b561a69e05832b720039e829be8423afec4fcda4b6bf066f3a5e2946",
+      "url": "https://arxiv.org/src/1409.0917v1",
+      "resolved_url": "https://arxiv.org/src/1409.0917v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:33.447689+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "1409.0917v1"
+    },
+    {
+      "path": "source/1000particlesSymmetric.pdf",
+      "bytes": 57622,
+      "sha256": "3d2df3236658dbef74c973d67755bca1d33c2da01a5b054e608a254dc9753ed1",
+      "kind": "extracted-author-source",
+      "derived_from": "1409.0917v1-source.tar.gz",
+      "archive_member": "1000particlesSymmetric.pdf"
+    },
+    {
+      "path": "source/Arrow_of_Time_PRL_final.tex",
+      "bytes": 30957,
+      "sha256": "c506089c6c0f7d3adbb74a334e9e9637d614fb2493591502fd38981a4f514f36",
+      "kind": "extracted-author-source",
+      "derived_from": "1409.0917v1-source.tar.gz",
+      "archive_member": "Arrow_of_Time_PRL_final.tex"
+    },
+    {
+      "path": "source/CrunchingWhite.pdf",
+      "bytes": 435521,
+      "sha256": "926f76070947f78ef05f4897e4b573cf5f692921a46002386c76a3965a48e1b8",
+      "kind": "extracted-author-source",
+      "derived_from": "1409.0917v1-source.tar.gz",
+      "archive_member": "CrunchingWhite.pdf"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1898,
+      "sha256": "10cc3d4a014f970d953b87c747fb22871c89cd58e5a7395aa5b8eb1886d5d346"
+    }
+  ]
+}

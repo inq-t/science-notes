@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "0911.5004",
+  "version": "0911.5004v2",
+  "url": "https://arxiv.org/abs/0911.5004",
+  "retrieved_at": "2026-09-10T01:16:56.394127+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Thermodynamical Aspects of Gravity: New insights"
+    ],
+    "citation_author": [
+      "Padmanabhan, T."
+    ],
+    "citation_doi": [
+      "10.1088/0034-4885/73/4/046901"
+    ],
+    "citation_date": [
+      "2009/11/26"
+    ],
+    "citation_online_date": [
+      "2010/01/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/0911.5004"
+    ],
+    "citation_arxiv_id": [
+      "0911.5004"
+    ],
+    "citation_abstract": [
+      " The fact that one can associate thermodynamic properties with horizons brings together principles of quantum theory, gravitation and thermodynamics and possibly offers a window to the nature of quantum geometry. This review discusses certain aspects of this topic concentrating on new insights gained from some recent work. After a brief introduction of the overall perspective, Sections 2 and 3 provide the pedagogical background on the geometrical features of bifurcation horizons, path integral derivation of horizon temperature, black hole evaporation, structure of Lanczos-Lovelock models, the concept of Noether charge and its relation to horizon entropy. Section 4 discusses several conceptual issues introduced by the existence of temperature and entropy of the horizons. In Section 5 we take up the connection between horizon thermodynamics and gravitational dynamics and describe several peculiar features which have no simple interpretation in the conventional approach. The next two sections describe the recent progress achieved in an alternative perspective of gravity. In Section 6 we provide a thermodynamic interpretation of the field equations of gravity in any diffeomorphism invariant theory and in Section 7 we obtain the field equations of gravity from an entropy maximization principle. The last section provides a summary."
+    ]
+  },
+  "abstract_page_sha256": "dafe62d44ac903c3d1f174840aa2a639544688551640f6211a60d9ef0092f217"
+}

@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2405.19254",
+  "version": "2405.19254v2",
+  "url": "https://arxiv.org/abs/2405.19254",
+  "retrieved_at": "2026-09-10T01:16:47.791653+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Causal Fermion Systems as an Effective Collapse Theory"
+    ],
+    "citation_author": [
+      "Finster, Felix",
+      "Kleiner, Johannes",
+      "Paganini, Claudio F."
+    ],
+    "citation_doi": [
+      "10.1088/1751-8121/ad7655"
+    ],
+    "citation_date": [
+      "2024/05/29"
+    ],
+    "citation_online_date": [
+      "2024/09/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2405.19254"
+    ],
+    "citation_arxiv_id": [
+      "2405.19254"
+    ],
+    "citation_abstract": [
+      "It is shown that, in the non-relativistic limit, causal fermion systems give rise to an effective collapse theory. The nonlinear and stochastic correction terms to the Schr\\\"odinger equation are derived from the causal action principle. The dynamics of the statistical operator is described by a deterministic equation of Kossakowski-Lindblad form. Moreover, the quantum state undergoes a dynamical collapse compatible with the Born rule. The effective model has similarities with the continuous spontaneous localization model, but differs from it by a conservation law for the probability integral as well as a non-locality in time on a microscopic length scale $\\ell_{\\min}$."
+    ]
+  },
+  "abstract_page_sha256": "68a5464442a7451ed928c879d0d432b1ced13b1f7045c11a320d197bde40adfd"
+}

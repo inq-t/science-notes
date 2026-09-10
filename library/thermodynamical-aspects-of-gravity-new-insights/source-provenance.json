@@ -1,0 +1,135 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "0911.5004",
+  "version": "0911.5004v2",
+  "records": [
+    {
+      "path": "0911.5004v2-source.tar.gz",
+      "bytes": 129297,
+      "sha256": "824d4c15496be8f25c584c836ab5bfb0e8b74808fa56da7c289f2389202c489f",
+      "url": "https://arxiv.org/src/0911.5004v2",
+      "resolved_url": "https://arxiv.org/src/0911.5004v2",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:16:56.394127+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "0911.5004v2"
+    },
+    {
+      "path": "source/TP_fig01.eps",
+      "bytes": 15616,
+      "sha256": "a50cbf99f5405b63381c55ec910875e4eecd70070cb3a24c94dc3191a05a1560",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "TP_fig01.eps"
+    },
+    {
+      "path": "source/TP_fig03.eps",
+      "bytes": 4937,
+      "sha256": "a8b4a9eae1161d601759d4a51bb339aef0d03ba0d09586380acac09cdb119d5e",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "TP_fig03.eps"
+    },
+    {
+      "path": "source/iopams.sty",
+      "bytes": 3139,
+      "sha256": "37f26a4791895ea856533d51123967a5b328ae0773996af0cc172b3e264d2777",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "iopams.sty"
+    },
+    {
+      "path": "source/iopart.cls",
+      "bytes": 36795,
+      "sha256": "9d820229b8c055084a5d5ace1055bdce14d49d5a1d65e8f44036427c000b5ec9",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "iopart.cls"
+    },
+    {
+      "path": "source/iopart10.clo",
+      "bytes": 4700,
+      "sha256": "63d1f79dda1e658fdeb283fdfe68c6e1114ef903d5e5d176bfa148d151b23558",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "iopart10.clo"
+    },
+    {
+      "path": "source/iopart12.clo",
+      "bytes": 4698,
+      "sha256": "7e5bec3a3c9d83f3af855f020c45c225e5b3f97d45cfd469ed121665cb586bd2",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "iopart12.clo"
+    },
+    {
+      "path": "source/ray1.pstex",
+      "bytes": 12366,
+      "sha256": "c011e9c4436355e9edc880fe8177bfdb0b52f7813d76c0d211b15876576f2ffb",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray1.pstex"
+    },
+    {
+      "path": "source/ray1.pstex_t",
+      "bytes": 1619,
+      "sha256": "88d34a5b9390690582dc9cc5af80b100ab029b14207cf03d8b2509842eade3a4",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray1.pstex_t"
+    },
+    {
+      "path": "source/ray2.pstex",
+      "bytes": 14959,
+      "sha256": "c96882ffbf1bdb3e8926953e2debb42d2dc0e87d1b719da1e5010c1c61acd92c",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray2.pstex"
+    },
+    {
+      "path": "source/ray2.pstex_t",
+      "bytes": 1663,
+      "sha256": "616160cac7bdd28b45866b2f791cd2b333280e019d8dbbe6ef631a48675c434f",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray2.pstex_t"
+    },
+    {
+      "path": "source/ray3.pstex",
+      "bytes": 7916,
+      "sha256": "e13fd14987fa5b246f8e0c87c4a15682445da7c202b7230e29bac40e14b6d393",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray3.pstex"
+    },
+    {
+      "path": "source/ray3.pstex_t",
+      "bytes": 1943,
+      "sha256": "16dd23e9745108650269c2f10021137eb8fee6afef33ab41d7089b1d03e9d484",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "ray3.pstex_t"
+    },
+    {
+      "path": "source/roprevised.tex",
+      "bytes": 293236,
+      "sha256": "00b3e567f4e10a94e27e15242841faa154c55234f6ab3bb80c8a4a5dd0d26089",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "roprevised.tex"
+    },
+    {
+      "path": "source/synthesis.eps",
+      "bytes": 16755,
+      "sha256": "3214beb1f7a716e1e26711bab4e42379f92f14737dd0722842e5d1e232c4defc",
+      "kind": "extracted-author-source",
+      "derived_from": "0911.5004v2-source.tar.gz",
+      "archive_member": "synthesis.eps"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 2110,
+      "sha256": "7e21b5984277e692928a054fff7c0f74162d3df51fd3122b41a4df38420b152e"
+    }
+  ]
+}

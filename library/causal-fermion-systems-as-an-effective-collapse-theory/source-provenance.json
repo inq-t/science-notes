@@ -1,0 +1,31 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "2405.19254",
+  "version": "2405.19254v2",
+  "records": [
+    {
+      "path": "2405.19254v2-source.tex.gz",
+      "bytes": 54995,
+      "sha256": "3005eef5c37dcdec6aa291f1789418474a4461bc5ecaacedeb28e2799443ddbd",
+      "url": "https://arxiv.org/src/2405.19254v2",
+      "resolved_url": "https://arxiv.org/src/2405.19254v2",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:16:47.791653+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "2405.19254v2"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 207287,
+      "sha256": "90bc9f239cc8fe182f62969ebe57705df7f9db3e9a27c7f98a7645c276dd0cd7",
+      "kind": "extracted-author-source",
+      "derived_from": "2405.19254v2-source.tex.gz",
+      "archive_member": "single TeX payload"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1506,
+      "sha256": "840fa72fc5e9f97cb43261d7a5c3ccf8e486fb468e0c2e1cb9d4445fbb56fbbe"
+    }
+  ]
+}

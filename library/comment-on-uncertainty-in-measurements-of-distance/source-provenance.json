@@ -1,0 +1,31 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "gr-qc/0209021",
+  "version": "gr-qc/0209021v1",
+  "records": [
+    {
+      "path": "gr-qc-0209021v1-source.tex.gz",
+      "bytes": 5500,
+      "sha256": "d3b0d10b6e81a24624327fdd1ba57bcf6fd0b0b3bee41c98a0d7ba32c3168d63",
+      "url": "https://arxiv.org/src/gr-qc/0209021v1",
+      "resolved_url": "https://arxiv.org/src/gr-qc/0209021v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:10.785328+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "gr-qc/0209021v1"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 13853,
+      "sha256": "ffd6042fdcf67381d9f13b73856810c3ec37c083f66d552f31d1bd5b822e7cbc",
+      "kind": "extracted-author-source",
+      "derived_from": "gr-qc-0209021v1-source.tex.gz",
+      "archive_member": "single TeX payload"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1377,
+      "sha256": "1eee1ddc0ea0cce42b194d19e560fea65511cd33707d39cc6dd9ae9545eb3233"
+    }
+  ]
+}

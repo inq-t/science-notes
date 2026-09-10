@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2308.16216",
+  "version": "2308.16216v1",
+  "url": "https://arxiv.org/abs/2308.16216",
+  "retrieved_at": "2026-09-10T01:17:01.589610+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Gravitation, and quantum theory, as emergent phenomena"
+    ],
+    "citation_author": [
+      "Singh, Tejinder P."
+    ],
+    "citation_doi": [
+      "10.1088/1742-6596/2533/1/012013"
+    ],
+    "citation_date": [
+      "2023/08/30"
+    ],
+    "citation_online_date": [
+      "2023/08/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.16216"
+    ],
+    "citation_arxiv_id": [
+      "2308.16216"
+    ],
+    "citation_abstract": [
+      "There must exist a reformulation of quantum field theory, even at low energies, which does not depend on classical time. The octonionic theory proposes such a reformulation, leading to a pre-quantum pre-spacetime theory. The ingredients for constructing such a theory, which is also a unification of the standard model with gravitation, are : (i) the pre-quantum theory of trace dynamics: a matrix-valued Lagrangian dynamics, (ii) the spectral action principle of non-commutative geometry, (iii) the number system known as the octonions, for constructing a non-commutative manifold and for defining elementary particles via Clifford algebras, (iv) a Lagrangian with $E_8 \\times E_8$ symmetry. The split bioctonions define a sixteen dimensional space (with left-right symmetry) whose geometry (evolving in Connes time) relates to the four known fundamental forces, while predicting two new forces, $SU(3)_{grav}$ and $U(1)_{grav}$. This latter interaction is possibly the theoretical origin of MOND. Coupling constants of the standard model result from left-right symmetry breaking, and their values are theoretically determined by the characteristic equation of the exceptional Jordan algebra of the octonions. The quantum-to-classical transition, precipitated by the entanglement of a critical number of fermions, is responsible for the emergence of classical spacetime, and also for the familiar formulation of quantum theory on a spacetime background."
+    ]
+  },
+  "abstract_page_sha256": "39289b18e996c150fb1004d28297ef7c85da6cb5559ada733efabd86048d69ce"
+}

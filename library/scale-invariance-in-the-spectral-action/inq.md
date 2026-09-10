@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [spectral-action, scale-invariance, dilaton, noncommutative-geometry]
 ---
 # Scale Invariance in the Spectral Action
 
@@ -14,4 +15,4 @@ Ali H. Chamseddine and Alain Connes promote the arbitrary mass scale in the spec
 - Published: *Journal of Mathematical Physics* **47** (2006), 063504
 - DOI: [10.1063/1.2196748](https://doi.org/10.1063/1.2196748)
 - arXiv: [hep-th/0512169](https://arxiv.org/abs/hep-th/0512169)
-- Local artifacts: none
+- Local artifacts: [[library/scale-invariance-in-the-spectral-action/source-files|Author source, revision metadata, and provenance]].

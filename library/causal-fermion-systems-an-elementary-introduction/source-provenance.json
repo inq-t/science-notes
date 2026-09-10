@@ -1,0 +1,31 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "1908.08451",
+  "version": "1908.08451v3",
+  "records": [
+    {
+      "path": "1908.08451v3-source.tex.gz",
+      "bytes": 29945,
+      "sha256": "aa993aec62e3460933119a09016c191d6093d66361faafa223b28d814f0d4b69",
+      "url": "https://arxiv.org/src/1908.08451v3",
+      "resolved_url": "https://arxiv.org/src/1908.08451v3",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:16:38.909108+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "1908.08451v3"
+    },
+    {
+      "path": "source/main.tex",
+      "bytes": 94320,
+      "sha256": "f8339fd26853b66dba2ed8664918aae5f4b90792744bfc9f3a85fc3e54b18ebf",
+      "kind": "extracted-author-source",
+      "derived_from": "1908.08451v3-source.tex.gz",
+      "archive_member": "single TeX payload"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1008,
+      "sha256": "b3bdd30696fffacd38f7ff03ead6dacebef001693f5a8dbbca4842ff828ab619"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ inq.include:
   - "./"
 inq.ambient:
   - "**"
+keywords: [spectral-action, noncommutative-geometry, Dirac-operator, gauge-theory]
 ---
 # The Spectral Action Principle
 
@@ -14,4 +15,4 @@ Ali H. Chamseddine and Alain Connes propose an action associated with a noncommu
 - Published: *Communications in Mathematical Physics* **186** (1997), 731--750
 - DOI: [10.1007/s002200050126](https://doi.org/10.1007/s002200050126)
 - arXiv: [hep-th/9606001](https://arxiv.org/abs/hep-th/9606001)
-- Local artifacts: none
+- Local artifacts: [[library/the-spectral-action-principle/source-files|Author source, revision metadata, and provenance]].

@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2501.18139",
+  "version": "2501.18139v1",
+  "url": "https://arxiv.org/abs/2501.18139",
+  "retrieved_at": "2026-09-10T01:17:06.164206+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Trace dynamics, octonions, and unification: An $E_8 \\times E_8$ theory of unification"
+    ],
+    "citation_author": [
+      "Singh, Tejinder P."
+    ],
+    "citation_date": [
+      "2025/01/30"
+    ],
+    "citation_online_date": [
+      "2025/01/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.18139"
+    ],
+    "citation_arxiv_id": [
+      "2501.18139"
+    ],
+    "citation_abstract": [
+      "This is a very brief overview of the ongoing research program of unification known as the octonionic theory. We highlight the quantum foundational origins for the theory, and the seven key ingredients which go into its making."
+    ]
+  },
+  "abstract_page_sha256": "2c02352d83e5a14158fae214920e3d47d21e7e5f82161e2a2ed7bd3104d33ceb"
+}

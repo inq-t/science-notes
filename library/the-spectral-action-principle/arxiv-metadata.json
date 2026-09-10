@@ -1,0 +1,34 @@
+{
+  "arxiv_id": "hep-th/9606001",
+  "version": "hep-th/9606001v1",
+  "url": "https://arxiv.org/abs/hep-th/9606001",
+  "retrieved_at": "2026-09-10T01:24:40.602508+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "The Spectral Action Principle"
+    ],
+    "citation_author": [
+      "Chamseddine, Ali H.",
+      "Connes, Alain"
+    ],
+    "citation_doi": [
+      "10.1007/s002200050126"
+    ],
+    "citation_date": [
+      "1996/06/03"
+    ],
+    "citation_online_date": [
+      "1996/06/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/hep-th/9606001"
+    ],
+    "citation_arxiv_id": [
+      "hep-th/9606001"
+    ],
+    "citation_abstract": [
+      " We propose a new action principle to be associated with a noncommutative space $(\\Ac ,\\Hc ,D)$. The universal formula for the spectral action is $(\\psi ,D\\psi) + \\Trace (\\chi (D /$ $\\Lb))$ where $\\psi$ is a spinor on the Hilbert space, $\\Lb$ is a scale and $\\chi$ a positive function. When this principle is applied to the noncommutative space defined by the spectrum of the standard model one obtains the standard model action coupled to Einstein plus Weyl gravity. There are relations between the gauge coupling constants identical to those of $SU(5)$ as well as the Higgs self-coupling, to be taken at a fixed high energy scale."
+    ]
+  },
+  "abstract_page_sha256": "2ff091d48bc2c416b6c716921b257f4b1f373e5516c1b9347a004a17665a6b22"
+}

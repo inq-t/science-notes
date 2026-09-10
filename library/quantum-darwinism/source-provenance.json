@@ -1,0 +1,63 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "0903.5082",
+  "version": "0903.5082v1",
+  "records": [
+    {
+      "path": "0903.5082v1-source.tar.gz",
+      "bytes": 586907,
+      "sha256": "282697a76277620d5a8db996147e1a16f1b2c07d46249a716e0e809bd5e1b3c2",
+      "url": "https://arxiv.org/src/0903.5082v1",
+      "resolved_url": "https://arxiv.org/src/0903.5082v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:38.047907+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "0903.5082v1"
+    },
+    {
+      "path": "source/EnvSubdivision.pdf",
+      "bytes": 301800,
+      "sha256": "162b3eb03f935d0d6c0644ce1780167b29fb016d9d1b04ccf0374c871c792835",
+      "kind": "extracted-author-source",
+      "derived_from": "0903.5082v1-source.tar.gz",
+      "archive_member": "EnvSubdivision.pdf"
+    },
+    {
+      "path": "source/QDnat44.tex",
+      "bytes": 71399,
+      "sha256": "e6baa8e07b38fc6e569bfed2b55ee55e845ee0c10ea82a8d4948d632f717c165",
+      "kind": "extracted-author-source",
+      "derived_from": "0903.5082v1-source.tar.gz",
+      "archive_member": "QDnat44.tex"
+    },
+    {
+      "path": "source/allcards.pdf",
+      "bytes": 210824,
+      "sha256": "4034517426170f53f8e3d3097b12926313303789ff2d5035f6f6b9d80b9a96f9",
+      "kind": "extracted-author-source",
+      "derived_from": "0903.5082v1-source.tar.gz",
+      "archive_member": "allcards.pdf"
+    },
+    {
+      "path": "source/opz.pdf",
+      "bytes": 61814,
+      "sha256": "b840949f93fe69ea5eaf9b87f59b260be0bec6cb6b1f2878cd8244995a90e3af",
+      "kind": "extracted-author-source",
+      "derived_from": "0903.5082v1-source.tar.gz",
+      "archive_member": "opz.pdf"
+    },
+    {
+      "path": "source/pips1B.pdf",
+      "bytes": 44940,
+      "sha256": "17449afc8c21134532478d3c338c18ece57a7981cc2933ecafa1918211085d36",
+      "kind": "extracted-author-source",
+      "derived_from": "0903.5082v1-source.tar.gz",
+      "archive_member": "pips1B.pdf"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1391,
+      "sha256": "89615f68a907a3f14e76994a1c799c5722898e53279f81ccbcea60aef66a1b13"
+    }
+  ]
+}

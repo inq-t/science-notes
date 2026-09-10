@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "0903.5082",
+  "version": "0903.5082v1",
+  "url": "https://arxiv.org/abs/0903.5082",
+  "retrieved_at": "2026-09-10T01:17:38.047907+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Quantum Darwinism"
+    ],
+    "citation_author": [
+      "Zurek, Wojciech Hubert"
+    ],
+    "citation_doi": [
+      "10.1038/nphys1202"
+    ],
+    "citation_date": [
+      "2009/03/29"
+    ],
+    "citation_online_date": [
+      "2009/03/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/0903.5082"
+    ],
+    "citation_arxiv_id": [
+      "0903.5082"
+    ],
+    "citation_abstract": [
+      " Quantum Darwinism describes the proliferation, in the environment, of multiple records of selected states of a quantum system. It explains how the fragility of a state of a single quantum system can lead to the classical robustness of states of their correlated multitude; shows how effective `wave-packet collapse' arises as a result of proliferation throughout the environment of imprints of the states of quantum system; and provides a framework for the derivation of Born's rule, which relates probability of detecting states to their amplitude. Taken together, these three advances mark considerable progress towards settling the quantum measurement problem."
+    ]
+  },
+  "abstract_page_sha256": "eb5eb0600949872252c955b12db0891dafb3eb4027fca896e6b03d8bb2e87421"
+}

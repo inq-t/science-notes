@@ -1,0 +1,47 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "1206.4916",
+  "version": "1206.4916v1",
+  "records": [
+    {
+      "path": "1206.4916v1-source.tar.gz",
+      "bytes": 14184,
+      "sha256": "4883afe53ead078313418a2be489a3158ce06cc8739bf0b8c8eccfa9b7f9b690",
+      "url": "https://arxiv.org/src/1206.4916v1",
+      "resolved_url": "https://arxiv.org/src/1206.4916v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:16:51.978231+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "1206.4916v1"
+    },
+    {
+      "path": "source/dof.pstex",
+      "bytes": 15901,
+      "sha256": "2fc0b8728d516cabdba9b8e169633c51f44d469c9c9e1232305ebca44cd3498a",
+      "kind": "extracted-author-source",
+      "derived_from": "1206.4916v1-source.tar.gz",
+      "archive_member": "dof.pstex"
+    },
+    {
+      "path": "source/dof.pstex_t",
+      "bytes": 1901,
+      "sha256": "72162129caf9549a683e450ca00b1001c6d1d4476a7b786a142b780ed82bc4c2",
+      "kind": "extracted-author-source",
+      "derived_from": "1206.4916v1-source.tar.gz",
+      "archive_member": "dof.pstex_t"
+    },
+    {
+      "path": "source/holocosmos.tex",
+      "bytes": 22407,
+      "sha256": "025fcc938cd27c8f48199e9bc7178046dff76982b1ce6086fca9d72e2d4cdc53",
+      "kind": "extracted-author-source",
+      "derived_from": "1206.4916v1-source.tar.gz",
+      "archive_member": "holocosmos.tex"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 1705,
+      "sha256": "97cdace34f5e963bf4557cd0c183040a6977af9ecdbe946c31bceb0cc2cc580b"
+    }
+  ]
+}

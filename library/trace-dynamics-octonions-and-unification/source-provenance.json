@@ -1,0 +1,79 @@
+{
+  "description": "Primary arXiv source download and byte-preserving safe extraction.",
+  "arxiv_id": "2501.18139",
+  "version": "2501.18139v1",
+  "records": [
+    {
+      "path": "2501.18139v1-source.tar.gz",
+      "bytes": 1745227,
+      "sha256": "9c8bc30895ed6509e4749e014f6f9b563431910d00f3c2bf1e5dea48674f8fee",
+      "url": "https://arxiv.org/src/2501.18139v1",
+      "resolved_url": "https://arxiv.org/src/2501.18139v1",
+      "content_type": "application/gzip",
+      "retrieved_at": "2026-09-10T01:17:06.164206+00:00",
+      "kind": "downloaded-primary-source",
+      "version": "2501.18139v1"
+    },
+    {
+      "path": "source/iopconfser.cls",
+      "bytes": 3451,
+      "sha256": "6caecd538a4234c339e9439bbe5f5453df0d918f970586e1fe1dff4f39065942",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "iopconfser.cls"
+    },
+    {
+      "path": "source/partone.png",
+      "bytes": 507178,
+      "sha256": "de6077b6d832c981a20f6ac436ec5d8f0c237cd9f2bbab28fb087c85fe18406d",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "partone.png"
+    },
+    {
+      "path": "source/parttwo.png",
+      "bytes": 423522,
+      "sha256": "8836f2666ef56dccef03fe7c2c98cbc158a9473f26c93722e60b2e9b7a4fe979",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "parttwo.png"
+    },
+    {
+      "path": "source/PragueISQS28Singh.tex",
+      "bytes": 47366,
+      "sha256": "a8f81baac8ba7904de7f57536e6eb6bc001a637dfe02c3da844cb68aae240cc4",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "PragueISQS28Singh.tex"
+    },
+    {
+      "path": "source/see.png",
+      "bytes": 295521,
+      "sha256": "844e40550596520f3ee1526ad9588c0cdb85b15d1dbbf5419fe6a7e50c1ccdbf",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "see.png"
+    },
+    {
+      "path": "source/unification.png",
+      "bytes": 307116,
+      "sha256": "2f89b4eae2e664aac7c4e4c89eff9bef1f90665fe43cba2fca7ecfa63e268c1b",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "unification.png"
+    },
+    {
+      "path": "source/yes.png",
+      "bytes": 320354,
+      "sha256": "975b3ecee9871299bae882c5ac1891376628ffc6f624339c3408f91a79d765be",
+      "kind": "extracted-author-source",
+      "derived_from": "2501.18139v1-source.tar.gz",
+      "archive_member": "yes.png"
+    },
+    {
+      "path": "arxiv-metadata.json",
+      "bytes": 968,
+      "sha256": "44ede5f9ea3d1b53bce4cbb27c339406dc921ec224dbb96064d494f4164124a2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2102.01836",
+  "version": "2102.01836v2",
+  "url": "https://arxiv.org/abs/2102.01836",
+  "retrieved_at": "2026-09-10T01:17:15.192376+00:00",
+  "citation_metadata": {
+    "citation_title": [
+      "Holographic Foam Cosmology: From the Late to the Early Universe"
+    ],
+    "citation_author": [
+      "Ng, Y. Jack"
+    ],
+    "citation_date": [
+      "2021/02/03"
+    ],
+    "citation_online_date": [
+      "2021/02/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2102.01836"
+    ],
+    "citation_arxiv_id": [
+      "2102.01836"
+    ],
+    "citation_abstract": [
+      "Quantum fluctuations endow spacetime with a foamy texture. The degree of foaminess is dictated by blackhole physics to be of the holographic type. Applied to cosmology, the holographic foam model predicts the existence of dark energy with critical energy density in the current (late) universe, the quanta of which obey infinite statistics. Furthermore we use the deep similarities between turbulence and the spacetime foam phase of strong quantum gravity to argue that the early universe was in a turbulent regime when it underwent a brief cosmic inflation with a \"graceful\" transition to a laminar regime. In this scenario, both the late and the early cosmic accelerations have their origins in spacetime foam."
+    ]
+  },
+  "abstract_page_sha256": "9e63103a180af8d083f6d046a83e6bfb18d2a9be7dc30889bf1a2bdaeaedef89"
+}
