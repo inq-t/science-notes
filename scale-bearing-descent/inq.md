@@ -14,6 +14,8 @@ Scale-bearing descent seeks a mathematical master object whose composition law s
 
 [[scale-bearing-descent/yang-mills-return-signature|The missing return signature]] separates the three interfaces: local positive realization, renormalized Yang–Mills identification and quantitative physical comparison. It distinguishes Clay's required outputs from optional construction methods and stronger foundational aims. The quantitative bridge can be a domination between forms on the complete physical source space; it need not identify the whole master and physical carriers.
 
+[[scale-bearing-descent/constitutive-resolution-and-the-yang-mills-return|Constitutive resolution]] uses Finster's causal fermion systems to move the selection problem into the arena itself. A microscopic realization can be part of the master object while its local return forgets presentation details and retains a relational scale. [[scale-bearing-descent/causal-action-normalization-and-coercivity|The causal-action calculation]] separates nontrivial normalization from the positive comparison needed to prevent dilution through refinement.
+
 ## The object before its presentations
 
 A cosmos is considered here as an arena of mutually comparable facts. Its whole law specifies how comparisons belong together; local descriptions specify what is accessible through particular comparisons. A change of access can be irreversible even when the accessible description admits symmetries. The foundational question is what selects this joint structure before a field, manifold, state or Hamiltonian is supplied independently.

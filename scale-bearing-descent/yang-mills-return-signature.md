@@ -90,7 +90,7 @@ Here \(\mathscr B_G\) contains finite expressions in smeared, renormalized local
 
 This package owes the full correlation hierarchy and the regularity, reflection positivity, covariance, symmetry and vacuum conditions needed by an applicable reconstruction theorem. It need not arise from an ordinary positive probability measure on classical connections. Its reflection is also not a postulate of physical time-reversal symmetry.
 
-The important compatibility is that one evaluation supplies the marks, reflected norm, vacuum subtraction and all translated products. If a regulator is used, a possible interface is
+The important compatibility is that one evaluation supplies the marks, reflected norm, vacuum subtraction and all translated products. For a construction through approximations, a possible interface is
 \[
 S_G(F)=
 \lim_r
@@ -98,9 +98,13 @@ S_G(F)=
      {\mathcal Z(D_{G,r};1)}.
 \tag{YS6}
 \]
-The denominator must be admissible and nonzero. The maps \(R_{G,r}\) realize complete source expressions, with their renormalization terms and mixed products. The limit must exist in a topology sufficient for the required distributions and operations. Formula (YS6) declares the interface without selecting the diagrams, maps, measure or limiting technique.
+The denominator must be admissible and nonzero. The maps \(R_{G,r}\) realize complete source expressions, with their renormalization terms and mixed products. The limit must exist in a topology sufficient for the required distributions and operations. Formula (YS6) declares the interface without selecting the diagrams, maps, measure or limiting technique. Its index \(r\) labels the declared return family; it need not mean that every upstream microscopic structure is disposable.
 
-Full Poincaré covariance belongs to the limiting return. A lattice approximation need not possess it exactly. Alternatively, a direct local-functional or Lorentzian realization may avoid a regulator altogether. The [[global-local-response-reconstruction/qft-recovery-contract|QFT recovery contract]] gives several stronger implementation choices; they must not all be imposed simultaneously as necessary conditions.
+[[scale-bearing-descent/constitutive-resolution-and-the-yang-mills-return|Constitutive resolution]] sharpens the distinction using [[factive-cosmos/causal-fermion-systems-and-the-action-of-the-whole|Finster's causal fermion systems]]. Auxiliary approximation data must disappear from, or be proved immaterial to, the exact output. Constitutive microscopic data may belong to the master object; the return must specify which of their distinctions survive as scale or other parameters. An exact local sector, quotient or limit is a possible interface. A finite-resolution approximation alone does not supply the full target.
+
+For the limiting route, full Poincaré covariance belongs to the return; a lattice approximation need not possess it exactly. A direct local-functional or Lorentzian realization may avoid auxiliary regulators altogether. Conversely, a retained microscopic parameter upstream need not appear as a locality defect downstairs. That separation requires a theorem about the complete sources, their state, products and chronology. The [[global-local-response-reconstruction/qft-recovery-contract|QFT recovery contract]] gives several stronger implementation choices; they must not all be imposed simultaneously as necessary conditions.
+
+In a universality construction, the admissible basin must be specified by upstream data and declared renormalization conditions. The conjecture is that its presentation choices return the same complete functional after parameter matching, not that every microscopic state or phase must give the same theory. Fixed returned scale can coexist with a vanishing gap in cutoff units: \(a m_G\to0\) while \(m_G>0\). The duration needed by the comparison interface is a surviving relational scale, not automatically the microscopic step \(a\).
 
 ## Interface II: identify this theory as Yang–Mills
 
@@ -168,7 +172,7 @@ An equality between the master and physical Hilbert spaces is unnecessary. A com
 
 The upper inequality also makes \(R_G\) vanish on the centered physical null subspace \(\{F:Q_\Omega[F]=0\}\) and extend continuously; those conditions need not be separately postulated. Exact response intertwiners, bounded repairs, ordered-partner identities and cyclic Gram estimates are possible implementations. They are not additional required slots once the form interface is supplied.
 
-If a regulator is used, the margin must survive the same construction as the local fields, with \(\ell_r\to\ell>0\). [[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|The source-pairing limit theorem]] needs convergence only of the relevant reflected pairings and means; the maps, response forms and repairs need not converge. A direct Lorentzian route can instead use [[measured-response-carriers/response-to-energy-comparison|the energy-form comparison]] on a physical form core.
+For a limiting construction, the margin must survive the same return as the local fields, with \(\ell_r\to\ell>0\). [[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|The source-pairing limit theorem]] needs convergence only of the relevant reflected pairings and means; the maps, response forms and repairs need not converge. Normalizing a microscopic measure or minimizing a nonnegative action does not by itself supply this margin; [[scale-bearing-descent/causal-action-normalization-and-coercivity|the causal-action calculation]] makes the missing positive-form comparison explicit. A direct Lorentzian route can instead use [[measured-response-carriers/response-to-energy-comparison|the energy-form comparison]] on a physical form core.
 
 ## Minimal inventory of what remains unknown
 
@@ -188,7 +192,7 @@ Scale does require care, but no numerical ruler. The [[mass-scale-calibration/sc
 
 ## The minimal conjectural leap
 
-**Conjecture — a local realization that detects complete comparison.** For every compact simple \(G\), a stable branch of the master marked law admits a nontrivial local realization with the required renormalized Yang–Mills correspondence. On its complete physical source space, the inherited comparison form satisfies (YS10) in the same chronology. If a regulator is used, these properties survive one common return.
+**Conjecture — a local realization that detects complete comparison.** For every compact simple \(G\), a stable branch of the master marked law admits a nontrivial local realization with the required renormalized Yang–Mills correspondence. On its complete physical source space, the inherited comparison form satisfies (YS10) in the same chronology. Where limits or microscopic presentation choices occur, all these properties belong to one common exact return with a surviving comparison scale.
 
 This posits exactly what is missing without pretending to construct it. Conditional on a valid local Yang–Mills realization, the remaining gap bridge is the quantitative comparison. Conditional on stable upstream comparison, the remaining theory bridge is the local and renormalized realization. Neither can substitute for the other.
 
