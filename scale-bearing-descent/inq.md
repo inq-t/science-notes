@@ -6,7 +6,9 @@ keywords: [scale, descent, master-object, asymmetry, symmetry-breaking, mass-gap
 ---
 # Scale-Bearing Descent
 
-Scale-bearing descent seeks a mathematical master object whose composition law supplies both invariant comparison and stable pointed realizations. The proposed reversal makes uniformly reconstructible distinctions constitutive of a factual sector, then asks whether its local return is Yang–Mills. Ordered comparison and cyclic phase give candidate algebraic reasons for stability; exact descent and source-limit theorems specify how it could become a mass threshold. Constructing the common law and its complete Yang–Mills and cosmological returns remains conjectural.
+Scale-bearing descent adopts stable realization as a constitutive principle: one law selects the arena of comparisons, controls the reconstruction of its complete distinctions, and preserves that control in its local return. The principle makes the Yang–Mills mass threshold a consequence of stable comparison expressed in a clock. Ordered comparison and cyclic phase give candidate algebraic implementations. Constructing a model of the law with its stipulated Yang–Mills return remains the foundational existence problem.
+
+[[scale-bearing-descent/principle-of-stable-realization|The principle of stable realization]] states the axiom and its conditional Clay theorem. The source reconstruction bound, complete local return and norm–clock comparison give a positive mass threshold in a short argument. Its cosmic completion also predicts that area-order recording capacity requires collective energetic organization.
 
 [[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] develops the central argument: adopt stable distinguishability, construct a source law that realizes it, and prove that the same law returns the complete gauge theory. The gap then follows through the inherited source norm and chronology.
 

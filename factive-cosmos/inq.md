@@ -36,6 +36,8 @@ The exact [[algebra/quotient-clock-and-stationary-action|quotient-clock action t
 
 The microscopic grain belongs to a whole-to-part relationship. Filling every apparent cell with an independent excitation would violate the corresponding energy budget. This makes collective encoding a substantive candidate for the missing structure.
 
+[[factive-cosmos/why-boundary-capacity-requires-collective-modes|The collective-capacity theorem]] strengthens this to a state-counting obstruction: even every sparse occupation pattern of independently gapped finite cells provides too little information to realize area-order capacity. Its record corollary excludes a bounded permanent archive with unlimited independent novelty.
+
 [[factive-cosmos/holographic-grain-and-the-capacity-to-record|Holographic grain and recording capacity]] compares this cube-root scale with Ng and van Dam's measurement argument, Ng's foam cosmology, and Lloyd's computational bounds. Their different meanings of resolution, capacity, and operation count help specify what a collective grain must do.
 
 [[factive-cosmos/cosmic-cooling-and-record-extension|Cooling and record extension]] asks whether the same law can generate the distinct orders of age, scale, entropy, and accessibility. Accelerated expansion would have to follow from its selected clock dynamics, rather than from the word “growth.” A preferred cosmic branch should be selected without using observers' existence as a boundary condition.

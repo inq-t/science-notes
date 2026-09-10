@@ -51,6 +51,8 @@ For \(R\gg\ell_P\), this exceeds the common-count grain \((\ell_P^2R)^{1/3}\). T
 
 **Collective-encoding conjecture.** The boundary capacity is realized through correlated comparison degrees of freedom whose local presentations do not carry the energy of independently occupying every apparent cell. The microscopic spectrum describes allowed changes of this encoding, rather than an inventory of autonomous cells already filled with energy.
 
+[[factive-cosmos/why-boundary-capacity-requires-collective-modes|The collective-capacity theorem]] gives a stronger conditional obstruction. Fixed-dimensional cells with a uniform additive inverse-grain energy cost admit only \(O((R/\ell_P)^{4/3}\log(R/\ell_P))\) nats below the gravitational budget, even when all sparse occupation patterns are included. Realizing area-order capacity therefore requires a different energetic organization or a change in the declared cell model.
+
 This does not yet construct such a code or identify its information with black-hole microstates. It tells us what a successful construction must avoid. Empty mode capacity, occupied excitations, thermodynamic entropy, and obtained records require separate maps.
 
 ## Action capacity over a causal duration
