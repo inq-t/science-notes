@@ -40,7 +40,9 @@ The phase-separation route can also be investigated without deriving an anomaly 
 
 **Conjecture C2. In a specified Yang–Mills vacuum branch, a finite algebra of actual source comparisons generates a nonvacuum response floor and extends its repair through admissible assembly and refinement, including genuinely new source directions, with a uniform bound.**
 
-There are two concrete generation candidates. One is a finite source relation yielding the [[quantitative-descent/rigidity-certificates-and-soft-escape|positive polynomial certificate]] in a complete neutral representation. The other is [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|three-history cyclic separation]] together with a finite-word factorization \(\mathcal A=\mathcal K\delta\) through the actual innovation. The latter now has an explicit conditional seed: \(B_0=\mathcal A^*\mathcal K/9\), whose repair error is strictly below one by the Gram bound. In both cases the source relation is a consequence sought from elementary composition, not the axiom that defines the branch.
+One generation candidate is a finite source relation yielding the [[quantitative-descent/rigidity-certificates-and-soft-escape|positive polynomial certificate]] in a complete neutral representation. Another is [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel|three-history cyclic separation]] together with a finite-word factorization \(\mathcal A=\mathcal K\delta\) through the actual innovation. The latter has an explicit conditional seed: \(B_0=\mathcal A^*\mathcal K/9\), whose repair error is strictly below one by the Gram bound.
+
+[[scale-bearing-descent/pointed-comparison-and-the-yang-mills-return|The ordered-source conjecture]] supplies a third form: reverse composition has a source-defined positive unit term, while forward composition supports the distinguished vacuum. It also permits the stronger axiom-first strategy: adopt uniformly bounded reconstruction as constitutive of a factual sector, then construct a nontrivial source realization with the Yang–Mills return. The finite source relations are the proposed reason for that axiom; declaring the desired member to exist would leave the existence problem unchanged.
 
 Preserving an existing floor and controlling new directions are separate tasks. [[scale-bearing-descent/coherent-comparison-lifts-and-bounded-descent|The comparison-lift theorem]] solves pure regional restriction of one fixed joint law: \(\delta_fV=\Lambda\delta_c\), with contractive, exactly composable \(\Lambda\), transports the repair as \(V^*B_f\Lambda\). Expressing that operation within the retained source grammar remains a construction requirement. Adding a new loop, mixed source or interaction is not covered by this theorem.
 
@@ -72,9 +74,9 @@ Then test the rule on the concentrating neutral family, the integer gluing matri
 
 The [[rg-covariance-residue/second-ring-commuting-escape|second-ring Wilson estimate]] is a concrete guide to the overlap part: a derivative outside the active interaction star commutes with its predictor, and a bijective link assignment retains the original innovation sum with overlap one. The uncovered contexts and complete physical response remain separate obligations. [[scale-bearing-descent/phase-and-distinguishability-from-one-kernel#Approximate preparations retain an explicit margin|The perturbed Gram theorem]] supplies an error margin for the seed when the construction is approximate.
 
-## C3. The returned clock is natural under the same descent
+## C3. The complete Yang–Mills return carries the same clock
 
-**Conjecture C3. The comparison geometry selects a relative duration, and complete marked sewing intertwines that duration, its source carrier and its positive transfer through the admissible changes of access.**
+**Conjecture C3. Complete marked sewing returns a nontrivial continuum Yang–Mills theory for every compact simple gauge group, including its required local observables and short-distance structure. The comparison geometry selects its relative duration and intertwines that duration, source carrier and positive transfer through the same construction.**
 
 This means that the analysis repaired in C2 becomes the innovation of the returned chronology. It cannot become a well-behaved auxiliary sampler while the physical law is chosen separately.
 
@@ -93,6 +95,8 @@ A corrected repair of norm at most \(C_*\), with remaining error norm at most \(
 \tag{MC5}
 \]
 The implication is established mathematics. For a limiting gap, keep \(\ell\) fixed in the inherited physical chronology through refinement, or prove a positive lower bound for the full ratio \(-\log(1-\kappa_r)/(2\ell_r)\). A dimensionless bound with an independently drifting clock does not suffice. C1–C3 are the proposed explanation of these hypotheses. A nontrivial limiting source law, vacuum control and the full reconstruction conditions must survive the same refinement.
+
+There is now a precise route through the limiting sources. [[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|The reflected source-pairing theorem]] passes the fixed-time contraction on every finite complex linear combination directly to the reconstructed carrier. Repairs need not converge as operators. [[general-causal-action/cofinal-determinant-and-wilson-source-equivalence|The cofinal determinant estimate]] separately supplies a complete-law identification bridge along growing boxes and varying coupling, with explicit moment costs. It does not establish continuum existence or a uniform reflected norm bound; those are the remaining coupled obligations of C2 and C3.
 
 Modular reconstruction is another possible return. Its useful target is a compatible joint translation representation. [[mass-scale-calibration/joint-causal-generators-and-the-mass-casimir|Opposite causal generators]] can each reach zero while their joint mass invariant is positive. The master law must construct their relative positions and invariant relation; a single half-sided inclusion supplies no mass threshold. Non-geometric modular action is also not a substitute for (MC4) or a Casimir bound.
 

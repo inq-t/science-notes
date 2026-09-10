@@ -6,9 +6,11 @@ keywords: [scale, descent, master-object, asymmetry, symmetry-breaking, mass-gap
 ---
 # Scale-Bearing Descent
 
-Scale-bearing descent seeks a mathematical master object whose composition law selects its states, causal arena, clock and stable observable sectors. Scale, symmetry breaking, mass gaps and cosmic response would be different returns of that law. The central proposal is to retain phase compatibility and positive comparison together, then construct a stable repair from their source relations. An exact theorem now transports an existing repair through regional restriction; constructing the seed and controlling new source directions remain conjectural. The complete Yang–Mills and cosmological returns remain construction targets.
+Scale-bearing descent seeks a mathematical master object whose composition law supplies both invariant comparison and stable pointed realizations. The proposed reversal makes uniformly reconstructible distinctions constitutive of a factual sector, then asks whether its local return is Yang–Mills. Ordered comparison and cyclic phase give candidate algebraic reasons for stability; exact descent and source-limit theorems specify how it could become a mass threshold. Constructing the common law and its complete Yang–Mills and cosmological returns remains conjectural.
 
-[[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] develops the central argument: a conjectured source relation constructs an initial repair, restriction transports it exactly, a second conjecture controls new source directions, and the same chronology turns its bound into a mass threshold.
+[[scale-bearing-descent/mass-from-the-algebra-of-changing-access|Mass from the Algebra of Changing Access]] develops the central argument: adopt stable distinguishability, construct a source law that realizes it, and prove that the same law returns the complete gauge theory. The gap then follows through the inherited source norm and chronology.
+
+[[scale-bearing-descent/pointed-comparison-and-the-yang-mills-return|Pointed comparison and the Yang–Mills return]] gives the sharper conjecture: a finite source identity makes reversed comparison uniformly coercive while forward comparison supports a normalizable vacuum. The homogeneous/pointed partner theorem is an exact model. The full return requires all source channels, a bounded physical comparison and a nontrivial local limit; a reflected source inequality can reach that limit without convergence of the repairs themselves.
 
 ## The object before its presentations
 

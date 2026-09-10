@@ -1,6 +1,6 @@
 # Mass from the Algebra of Changing Access
 
-We propose that a Yang–Mills mass gap is the spectral expression of a finite law for reconstructing distinctions through changes of access. The classical action is a local return of that law and can forget its scale. A conjectured source relation supplies an initial repair. Actual regional restriction then transports that repair by an exact theorem; a second conjecture concerns its constructive extension to new distinctions. The gap would follow from the stability of the complete comparison law.
+We propose to make stable distinguishability a constitutive axiom of a factual realization, and to recover Yang–Mills as its local curvature description. The master object would be a law of sourced comparison whose pointed and homogeneous responses arise from the same composition. Its classical action can forget scale while its complete quantum return retains a positive threshold. The conjectural task is to construct that common law and prove its Yang–Mills return; the gap would then express the stability required of its facts.
 
 A lattice glueball is first encountered through the decay of correlations between gauge-invariant comparisons. Its mass can be reported relative to another scale produced by the same calculation. [[library/the-glueball-spectrum-of-su3-gauge-theory-in-3-plus-1-dimension/inq|The computed spectrum]] invites a Michelson–Morley style reversal of interpretation: preserve the persistent relation and reconsider which objects explain it. These calculations are internal to Yang–Mills, so they do not falsify its assumptions. The explanatory ordering to challenge is the priority of the local classical action over the complete law that supplies its state, clock and observable spectrum.
 
@@ -12,7 +12,26 @@ K(D,E)=\mathcal Z(D^\dagger E),
 \]
 Its null quotient and completion supply a Hilbert space. Its complete source insertions supply observable distinctions. The primitive question is which finite relations select this positive evaluation and its relative chronology together. Positivity is a requirement on the proposed law, not an automatic consequence of having diagrams. [[scale-bearing-descent/master-object-and-compatible-realizations|The master-object signature]] separates the operations this law must supply from the familiar structures it is asked to return.
 
-A distinction is not yet a particle or a point in an already given spacetime. It is something the complete source comparisons can distinguish in their common norm. A repair is a bounded rule that reconstructs such a source from its comparison errors. If a normalized distinction can produce arbitrarily small errors, the repair becomes arbitrarily costly. The proposed meaning of a mass threshold is that this cost stays finite on a specified stable branch. Which branches permit that stability must be explained by the source law; the mere existence of facts does not force every theory to be gapped.
+A distinction is not yet a particle or a point in an already given spacetime. It is something the complete source comparisons can distinguish in their common norm. A repair reconstructs such a source from its comparison errors. **The stable-facticity axiom says that this reconstruction has uniformly finite cost at one relational scale, on a specified complete neutral branch.** Ordinary distinguishability only excludes an exact kernel; this stronger principle also excludes unit distinctions whose response tends to zero. Its adoption moves the burden to constructing a nontrivial realization with the required return. The axiom is not evidence that this realization already exists.
+
+The proposed synthesis retains both pointing and invariant comparison. A pointed response carries a normalization and a place in a relative scale family. Its homogeneous presentation retains relations invariant under changes of that pointing. The master law determines how they belong together. This does not require a scale-bearing theory to lack symmetries or an invariant theory to lack distinguishable configurations. It asks what each presentation forgets about the common law.
+
+There is a remarkably economical exact prototype. For a smooth first-order comparison on the entire logarithmic-scale line, with the stated self-adjoint closures,
+\[
+\begin{gathered}
+A=\partial_N+W,\qquad
+AA^*=-\partial_N^2+\lambda,\qquad
+\psi_0\in L^2,\quad \|\psi_0\|=1,\quad A\psi_0=0\\
+\Longrightarrow\quad
+\lambda=\nu^2>0,\qquad
+|\psi_0|^2=\frac{\nu}{2}\operatorname{sech}^2\!\bigl(\nu(N-N_c)\bigr),\\
+\sigma(A^*A)=\{0\}\cup[\nu^2,\infty).
+\end{gathered}
+\tag{MA0}
+\]
+The [[logistic-scale-geometry/pointing-coercivity-and-the-flat-partner-law|flat-partner theorem]] derives the positive threshold from compatibility of a homogeneous reverse composition and a normalizable pointed forward composition. Both belong to the block operator with off-diagonal entries \(A\) and \(A^*\). The width remains free; the threshold is in logarithmic scale, not yet physical time.
+
+This is the strongest current model of the reversal: **seek the ordered comparison that makes the pointed and invariant returns mutually possible.** The [[scale-bearing-descent/pointed-comparison-and-the-yang-mills-return|pointed-comparison programme]] develops its full-source conjecture and the map needed to return physical mass. Normalizable heavy-tailed states and additional soft channels delimit the scalar theorem. The cyclic construction below is a second, bounded candidate for realizing the same stability axiom.
 
 This reverses the status of the arena. A candidate local comparison is the positive cone of Hermitian \(2\times2\) complex matrices: \(x=tI+\boldsymbol v\cdot\boldsymbol\sigma\) has \(\det x=t^2-|\boldsymbol v|^2\). [[algebra/positive-cone-processes-and-the-complex-corner|Positivity gives its causal cone]]. Selecting this corner remains conjectural; its \(3+1\) signature then follows algebraically. Geometry and clocks become compatible realizations of comparison.
 
@@ -93,4 +112,21 @@ Why can the classical action remain scale invariant? Its four-dimensional curvat
 
 The [[library/quantum-yang-mills-theory/inq|Clay target]] still requires the nontrivial continuum Yang–Mills theory for every compact simple gauge group, its stipulated local observables and short-distance behavior, and axiomatic properties at least as strong as the Wightman/Osterwalder–Schrader requirements. The source law must construct that return, including the chronology in (MA5). Neither conjecture has been established for it.
 
-The proposed question is therefore: **which finite source law makes each newly accessible distinction reconstructible, while its restrictions inherit the same repair?** The [[scale-bearing-descent/coherent-comparison-lifts-and-bounded-descent|comparison-lift programme]] reduces part of descent to an exact transport theorem and isolates the remaining extension problem. A decisive next construction would introduce a genuinely new loop or mixed source, derive its comparison identity from the same boundary rules, and control the combined repair before spectral analysis. If that calculus has the required Yang–Mills return, the mass gap becomes a consequence of the same algebra that makes complete comparison possible.
+**Conjecture III — the complete Yang–Mills return.** The same source law admits a family of realizations containing every compact simple gauge branch. Changes of preparation frame return its transport; one reflection-compatible sewing returns its electric and curvature response; source-defined refinement returns the nontrivial local Yang–Mills theory. The complete reflected source pairings converge in its inherited chronology, and the reconstruction constants in Conjecture II remain uniform along that very family.
+
+Several pieces of this return are already concrete. [[general-causal-action/prepared-readout-algebra-and-physical-source-completeness|Prepared cross marks]] recover the full faithful transport matrix and generate a dense finite gauge-invariant algebra. [[general-causal-action/local-incidence-preparations-and-the-gauge-transfer|Local incidence preparations]] return a complete finite gauge Hamiltonian and its joint sources. [[general-causal-action/cofinal-determinant-and-wilson-source-equivalence|Determinant-to-Wilson comparison]] now gives a complete-law estimate along growing boxes and varying coupling, with an explicit source-moment cost. These constructions supply the gauge data and refinement choices as inputs; the upstream law still has to constrain those choices and construct the nontrivial limit.
+
+The mass estimate has a particularly short passage through that limit. For every finite complex linear combination \(F\) of positive-time local sources, let \(K_r^c\) be its vacuum-centered reflected pairing at regulator \(r\). The physically identified repair gives
+\[
+K_r^c(F,F;2\ell_r)
+\le(1-\kappa)K_r^c(F,F;0),
+\qquad \ell_r\longrightarrow\ell>0.
+\tag{MA6}
+\]
+If the same complete pairings converge and satisfy the full reconstruction hypotheses, this inequality becomes (MA5) on their dense physical carrier. The [[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|source-pairing theorem]] needs no convergence of the repair operators themselves. It also excludes a second vacuum vector in the same representation. The construction must preserve nonzero source norms and the stipulated Yang–Mills short-distance structure; agreement on a leading \(F^2\) term is insufficient.
+
+This is how the gap could become axiomatic upstream and a theorem downstream. The common source algebra must first have a stable realization, and then its local return must be shown to be Yang–Mills. Neither arrow is supplied by naming the target. The proposed explanatory gain is that the same composition law would generate the state, clock, full gauge interactions and their quantitative comparison, removing their independent selection.
+
+A structural pointing can also return a [[higgs-reduction-as-local-shadow/inq|stabilizer reduction]] in a suitable branch. That programme does not depend on a thermal origin story. The pure Yang–Mills return must contain no extra propagating Higgs field. Cosmic response similarly requires a theorem for the same closed normalization; shifting vacuum energy can leave excitation gaps unchanged. The stronger common-origin conjecture therefore has additional content beyond (MA6).
+
+The decisive next construction is a sourced comparison whose reverse product has a positive unit term forced by sewing, or whose cyclic relation produces an equivalent bounded repair. It must include a genuinely new loop and all its mixed sources, and the same rules must control two overlapping cuts before spectral fitting. The [[scale-bearing-descent/coherent-comparison-lifts-and-bounded-descent|comparison-lift theorem]] already handles restriction of a fixed law. Extending that law while preserving its stable factual carrier is the remaining algebraic opening. **If Yang–Mills returns from this calculus, its scale-invariant action and its mass threshold become two consequences of one scale-bearing comparison.**
