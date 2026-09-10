@@ -19,6 +19,8 @@ The target is a nontrivial four-dimensional quantum Yang–Mills theory with a s
 
 [[contemporary-puzzles/yang-mills-mass-gap/puzzle-as-posed|The precise problem]] and [[contemporary-puzzles/yang-mills-mass-gap/clay-contract-and-scale-assumptions|the Clay contract]] distinguish the prescribed observable return from optional construction primitives. A new algebraic foundation is admissible, but it must still recover the stipulated axioms, Yang–Mills short-distance behavior and a positive gap for every compact simple gauge group. The spectrum above that threshold may be continuous; the target is not a spatial pixel or a discrete ladder of all masses.
 
+[[scale-bearing-descent/yang-mills-return-signature|The missing return signature]] inventories the interfaces for the backwards programme: a local positive realization, a renormalized Yang–Mills correspondence and a complete quantitative comparison with the physical clock. It distinguishes those obligations from optional lattice methods, exact Wilson equivalence and the stronger aim of selecting the arena itself.
+
 [[contemporary-puzzles/yang-mills-mass-gap/register-audit|The register audit]] distinguishes gauge-dependent fields from the physical translation spectrum. [[contemporary-puzzles/yang-mills-mass-gap/mass-gap-no-gos|The obstruction tests]] rule out insufficient certificates, not the problem itself. [[contemporary-puzzles/yang-mills-mass-gap/spectral-gap-undecidability-firewall|General spectral-gap undecidability]] is a separate limitation on universal algorithms, not a Yang–Mills impossibility theorem.
 
 ## A foundational construction must select the joint data

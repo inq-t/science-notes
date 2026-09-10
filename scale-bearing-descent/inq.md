@@ -12,6 +12,8 @@ Scale-bearing descent seeks a mathematical master object whose composition law s
 
 [[scale-bearing-descent/pointed-comparison-and-the-yang-mills-return|Pointed comparison and the Yang–Mills return]] gives the sharper conjecture: a finite source identity makes reversed comparison uniformly coercive while forward comparison supports a normalizable vacuum. The homogeneous/pointed partner theorem is an exact model. The full return requires all source channels, a bounded physical comparison and a nontrivial local limit; a reflected source inequality can reach that limit without convergence of the repairs themselves.
 
+[[scale-bearing-descent/yang-mills-return-signature|The missing return signature]] separates the three interfaces: local positive realization, renormalized Yang–Mills identification and quantitative physical comparison. It distinguishes Clay's required outputs from optional construction methods and stronger foundational aims. The quantitative bridge can be a domination between forms on the complete physical source space; it need not identify the whole master and physical carriers.
+
 ## The object before its presentations
 
 A cosmos is considered here as an arena of mutually comparable facts. Its whole law specifies how comparisons belong together; local descriptions specify what is accessible through particular comparisons. A change of access can be irreversible even when the accessible description admits symmetries. The foundational question is what selects this joint structure before a field, manifold, state or Hamiltonian is supplied independently.

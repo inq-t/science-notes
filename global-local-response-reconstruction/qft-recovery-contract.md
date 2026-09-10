@@ -36,6 +36,8 @@ Here:
 
 An abstract algebra, a Type-III factor, a positive Hessian, or a symmetry group does not inhabit all these slots.
 
+At a finite regulator, the region and covariance slots have their regulator-appropriate meanings. In particular, a lattice approximant need not carry exact Poincaré symmetry. The full local relativistic structure is required of the returned continuum theory. [[scale-bearing-descent/yang-mills-return-signature|The minimal Yang–Mills signature]] separates that required output from the chosen construction language, its filtered field identification and its quantitative gap comparison.
+
 ## The response must descend to the returned carrier
 
 Suppose the upstream object has a distinction map
@@ -69,6 +71,8 @@ V_{r,w}\delta^{\mathrm{pre}}_{r,w}
 $$
 
 Naming an upstream Hessian “energy” does not supply (RC4). Nor does equality of dimensions identify the response form with \(h_r\).
+
+Equation (RC4) specifies an exact operator realization. A response used only to prove the physical gap can satisfy a weaker [[measured-response-carriers/response-to-energy-comparison#A reflected comparison needs only a form sandwich|domination between forms]] on the complete physical source space. That interface can be sufficient without an exact operator intertwiner or equality of whole carriers.
 
 ## Six relations that must not be conflated
 
@@ -145,6 +149,8 @@ $$
 Holding a finite UV cutoff may suffice for an effective laboratory model. It cannot discharge the Clay existence problem.
 
 ## Strong recovery and preservation of the edge
+
+The following is a sufficient form-convergence route, not a list of conditions every return must satisfy. A direct continuum definition need not use regulator removal, and a reflected-source construction can instead use [[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|converging source pairings]]. The latter can carry [[measured-response-carriers/response-to-energy-comparison#A reflected comparison needs only a form sandwich|response domination]] without convergence of the comparison or repair operators.
 
 Suppose the regulated systems provide vacuum projections \(P_{\Omega_r}\), closed forms \(h_r\), and independently constructed dimensionless response forms \(\mathfrak d_r\) such that
 

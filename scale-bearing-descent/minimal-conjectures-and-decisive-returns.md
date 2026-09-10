@@ -78,6 +78,8 @@ The [[rg-covariance-residue/second-ring-commuting-escape|second-ring Wilson esti
 
 **Conjecture C3. Complete marked sewing returns a nontrivial continuum Yang–Mills theory for every compact simple gauge group, including its required local observables and short-distance structure. The comparison geometry selects its relative duration and intertwines that duration, source carrier and positive transfer through the same construction.**
 
+[[scale-bearing-descent/yang-mills-return-signature|The return inventory]] separates the necessary outputs from sufficient implementations. Its smallest quantitative interface is domination of a complete physical comparison form, rather than equality of whole Hilbert carriers. The Yang–Mills identification must be a renormalization-aware field correspondence with specified short-distance estimates; a leading curvature term does not complete that type.
+
 This means that the analysis repaired in C2 becomes the innovation of the returned chronology. It cannot become a well-behaved auxiliary sampler while the physical law is chosen separately.
 
 There is a concrete precursor in [[primitive-state-diffusion/comparison-refinement-and-loss-rate|comparison refinement]]: the mean squared displacement of one comparison fixes its relative refinement speed, and the same overlap law returns the entire diffusion. For a new candidate, first derive a comparison increment from its returned norm or loss geometry, then test whether source sewing makes it additive or otherwise supplies the required continuous composition parameter. Choosing seconds is not part of this finite experiment; fixing the relative clock law is.

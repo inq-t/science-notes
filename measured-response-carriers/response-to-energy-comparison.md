@@ -96,3 +96,59 @@ The operator registers are therefore:
 \end{array}
 \tag{MC21k}
 \]
+
+## A reflected comparison needs only a form sandwich
+
+For a fixed-duration route, the physical comparison is bounded. It therefore admits a weaker interface than an exact operator intertwiner between two full carriers.
+
+Let \(\mathscr P_+\) be a complex linear space of positive-time source expressions, including every finite linear combination under consideration. Assume one complete returned law supplies vacuum-centered reflected pairings
+\[
+K^c(F,G;t)
+=\langle Q_\Omega[F],e^{-tH}Q_\Omega[G]\rangle,
+\qquad H\ge0,\qquad H\Omega=0.
+\tag{RD1}
+\]
+Their vectors must have dense span in the intended physical vacuum complement. The parameter \(t\) uses the returned length convention and \(H\) has inverse-length units. Write
+\[
+N(F)=K^c(F,F;0),\qquad
+D_\ell(F)=N(F)-K^c(F,F;2\ell),\qquad \ell>0.
+\tag{RD2}
+\]
+Then \(0\le D_\ell(F)\le N(F)\).
+
+The missing response interface can be specified as a positive Hermitian form \(R\) on \(\mathscr P_+\) satisfying
+\[
+\boxed{
+bN(F)\le R(F,F)
+\le L^2D_\ell(F)+\eta N(F),
+\qquad b>\eta\ge0,\quad L>0.}
+\tag{RD3}
+\]
+This is a **sufficient type contract**, not a construction of \(R\) and not a requirement on every possible proof of a mass gap. The left inequality says that the response detects every physical distinction quantitatively. The right says that the returned chronology detects that response, allowing a controlled quadratic discrepancy. Both statements concern all finite complex linear combinations, including mixed sources.
+
+For any
+\[
+0<\kappa<\min\left\{1,\frac{b-\eta}{L^2}\right\},
+\]
+subtracting the error in (RD3) gives \(D_\ell\ge\kappa N\). Density and spectral calculus then give
+\[
+H\ge-\frac{\log(1-\kappa)}{2\ell}Q_\Omega.
+\tag{RD4}
+\]
+[[positive-semigroup-decay/source-pairing-limit-and-the-mass-gap|The source-pairing theorem]] supplies the same conclusion when the pairings first arise as limits.
+
+The sandwich also settles two interface conditions automatically. Since \(R(F,F)\le(L^2+\eta)N(F)\), Cauchy–Schwarz for the positive form shows that every \(N\)-null source annihilates both arguments of \(R\). Thus \(R\) descends continuously to the completed centered physical quotient. This is a quotient by a null vector subspace, not necessarily an algebra ideal; centering itself makes constants null. No claim that multiplication descends through this quotient is needed.
+
+An optional source-map implementation explains the lower constant. Suppose a positive Hermitian source form \(q_s\) obeys \(q_s(u)\ge c\|Q_su\|^2\), \(c>0\), and a linear comparison map \(J\) takes the dense physical source span into its form domain. Require, for \(a>0\),
+\[
+\|Q_sJx\|\ge a\|x\|,\qquad
+q_s(Jx)\le L^2\|\delta_{\mathrm{phys},\ell}x\|^2
++\eta\|x\|^2,
+\tag{RD5}
+\]
+where \(\delta_{\mathrm{phys},\ell}^*\delta_{\mathrm{phys},\ell}
+=I-e^{-2\ell H}\). If \(ca^2>\eta\), then \(R(x,x)=q_s(Jx)\) realizes (RD3) with \(b=ca^2\). A lower bound on the uncentered \(\|Jx\|\) would be insufficient: its norm could reside in the source vacuum. Surjectivity, equality of full carriers and a unitary equivalence across the realization are unnecessary.
+
+The image form \(q_s\) may be unbounded elsewhere; (RD3) bounds its physical pullback. Separate closedness assumptions are needed only if an additional closed source operator or operator extension is claimed. When \(q_s(u)=\|\delta_su\|^2\), an exact factorization \(\delta_sJ=\Lambda\delta_{\mathrm{phys},\ell}\), \(\|\Lambda\|\le L\), is one stronger way to satisfy the upper bound. An amplitude error bounded by \(\varepsilon\|x\|\) instead gives the margin \((\sqrt c\,a-\varepsilon)^2/L^2\), provided \(\varepsilon<\sqrt c\,a\); it must not be confused with the quadratic error \(\eta\) in (RD3).
+
+Along a regulator construction, \(b,\eta,L\) may vary provided one common positive \(\kappa\) survives and the same reflected pairings converge at \(\ell_r\to\ell>0\). The forms \(R_r\), comparison maps and repairs need not converge. Full reconstruction, nontriviality and the Yang–Mills identification remain independent return obligations. [[scale-bearing-descent/yang-mills-return-signature|The Yang–Mills signature]] separates those obligations from this quantitative interface.

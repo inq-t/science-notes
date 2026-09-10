@@ -199,6 +199,8 @@ It also excludes additional zero-energy vectors in that vacuum representation. A
 
 **Conditional Clay theorem.** If a source doctrine constructs, for every compact simple \(G\), a nontrivial Yang–Mills local limit with the stipulated short-distance correspondence and axiomatic strength, and its physically identified comparisons satisfy (PR14) uniformly along that construction, then it supplies Yang–Mills existence and a positive finite mass threshold. No separate numerical mass prediction is required. The new programme is the proposed construction of these hypotheses from common source relations.
 
+[[scale-bearing-descent/yang-mills-return-signature|The missing-interface inventory]] states these obligations independently of their construction. The operator factorization in (PR10) is a sufficient implementation. A weaker form domination can transfer the source floor without identifying the two full carriers or constructing an exact intertwiner. The local theory and its renormalized Yang–Mills correspondence remain separate clauses of the same return.
+
 ## Pointing, Higgs reduction and cosmic response
 
 One can also make compatible pointing a constitutive condition for a realized arena. Its returned local symmetry would then be the stabilizer of what that pointing retains. [[higgs-reduction-as-local-shadow/inq|Higgs reduction]] gives an exact geometric example: a section of \(P\times_GG/H\) corresponds to an \(H\)-reduction of the principal bundle.
