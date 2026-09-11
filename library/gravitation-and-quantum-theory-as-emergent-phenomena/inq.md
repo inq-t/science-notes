@@ -3,6 +3,8 @@ inq.module: gravitation-and-quantum-theory-as-emergent-phenomena
 inq.include:
   - "./"
 keywords: [trace-dynamics, octonions, spectral-action, emergent-spacetime, unification]
+inq.ambient:
+  - "**"
 ---
 # Gravitation, and quantum theory, as emergent phenomena
 

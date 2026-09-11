@@ -1,3 +1,8 @@
+---
+inq.module: howe-duality-for-an-induced-model-of-lattice-u-n-yang-mills-theory
+inq.include:
+  - "./"
+---
 # Howe Duality for an Induced Model of Lattice U(N) Yang–Mills Theory
 
 J. Budczies and M. R. Zirnbauer propose a lattice gauge model whose interactions are induced by auxiliary bosons. They investigate a critical limit with finitely many boson flavors and use Howe duality to obtain a description in local gauge-invariant variables. They contrast their proposal with induced models using infinitely many infinitely heavy particles, and relate the abelian dual transformation to the usual lattice gauge duality.

@@ -2,8 +2,11 @@
 inq.module: "global-local-response-reconstruction"
 inq.include:
   - "**/*.md"
+inq.exclude:
+  - "./junk-drawer/"
 inq.ambient:
   - 'receipts/**'
+  - 'junk-drawer/**'
 keywords: [reconstruction, boundary-response, physical-carrier, scale, clock, spectral-gap]
 ---
 # Global–Local Response Reconstruction

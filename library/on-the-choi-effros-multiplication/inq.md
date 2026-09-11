@@ -1,3 +1,8 @@
+---
+inq.module: on-the-choi-effros-multiplication
+inq.include:
+  - "./"
+---
 # On the Choi–Effros Multiplication
 
 Bebe Prunaru gives a short proof of the Choi–Effros theorem describing the algebraic structure of the range of a completely positive projection.

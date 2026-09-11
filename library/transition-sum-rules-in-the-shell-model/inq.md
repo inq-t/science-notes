@@ -1,3 +1,8 @@
+---
+inq.module: transition-sum-rules-in-the-shell-model
+inq.include:
+  - "./"
+---
 # Transition Sum Rules in the Shell Model
 
 Yi Lu and Calvin W. Johnson derive shell-model formulas for total transition strength and its energy-weighted sum. The energy-weighted quantity is an expectation of a double commutator; dividing it by total strength gives a transition-energy centroid. They apply the formulas to electromagnetic and weak nuclear transitions without computing every final state.

@@ -3,6 +3,8 @@ inq.module: holographic-foam-cosmology
 inq.include:
   - "./"
 keywords: [spacetime-foam, holography, dark-energy, cosmic-acceleration, infinite-statistics]
+inq.ambient:
+  - "**"
 ---
 # Holographic Foam Cosmology: From the Late to the Early Universe
 

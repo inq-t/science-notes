@@ -3,6 +3,8 @@ inq.module: identification-of-a-gravitational-arrow-of-time
 inq.include:
   - "./"
 keywords: [gravitational-arrow, records, shape-complexity, relational-dynamics, Newtonian-cosmology]
+inq.ambient:
+  - "**"
 ---
 # Identification of a gravitational arrow of time
 

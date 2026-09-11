@@ -177,7 +177,7 @@ The three contributions, divided by \(\mathfrak F_Q=\sum f_{abc}^2\), are
 | \(\langle A_f,\mathcal L_1g\rangle_0\) | \((-117+129\sqrt2-93\sqrt3+39\sqrt6)/7\) |
 | \(2\langle\alpha A_f,A_g\rangle_0\) | \((291-162\sqrt2+117\sqrt3-108\sqrt6)/7\) |
 
-The exact polynomial calculation is reproducible in [the chronological exterior receipt](receipts/first_chronological_exterior_receipt.py). It imports the audited full raw comb rows, verifies \(\alpha\Omega=-K_0^{-1}V_1\Omega\), and checks each table entry with rational radical arithmetic.
+The exact polynomial calculation is reproducible in [[general-causal-action/receipts/first_chronological_exterior_receipt.py|the chronological exterior receipt]]. It imports the audited full raw comb rows, verifies \(\alpha\Omega=-K_0^{-1}V_1\Omega\), and checks each table entry with rational radical arithmetic.
 
 The general-color factor follows before using three-dimensional identities. In the first entry, \(\mathcal L_1f\) and \(A_g\) are Cartan cubics. The second derivative of the radius contracts an alternating tensor with a symmetric color delta and vanishes. In the other two entries every surviving Wick diagram contains exactly two alternating structure tensors. A contraction within one tensor is zero; joining all remaining indices gives \(\pm\mathfrak F_Q\). A disconnected radial trace would contract the two legs of \(A_f\) together, which vanishes because one is retained and the other is the independent centered residual. The subtraction \(V_1(F\Omega)-F V_1\Omega\) removes the disconnected vacuum term. No cross-product completeness relation or higher representation invariant enters this reduction.
 

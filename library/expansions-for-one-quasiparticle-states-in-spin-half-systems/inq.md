@@ -1,3 +1,8 @@
+---
+inq.module: expansions-for-one-quasiparticle-states-in-spin-half-systems
+inq.include:
+  - "./"
+---
 # Expansions for One Quasiparticle States in Spin 1/2 Systems
 
 Datta and Kennedy construct convergent expansions for the ground-state and low-energy wavefunctions of quantum transverse Ising systems. They use these expansions to establish a convergent expansion for the dispersion relation of a single quasiparticle.

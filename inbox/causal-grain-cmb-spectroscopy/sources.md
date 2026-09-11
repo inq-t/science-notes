@@ -68,13 +68,13 @@ This ledger separates local canonical owners, archived observational products, a
 
 ## Archived observational products
 
-The following local files are the immediate numerical provenance for the packet’s peak and angular-scale receipts:
+The following published products are the numerical provenance for the packet’s peak and angular-scale receipts. Their optional local copies are excluded from Git; restore them to the paths recorded in [[causal-wall-spectral-theory/sources/data/entry|the data-cache instructions]] before running the receipts. [[causal-wall-spectral-theory/sources/checksums|The checksum ledger]] preserves the downloaded product hashes, and the [[data/planck-2018-release-3-cosmology-products/inq|Planck]] and [[data/act-dr6-cosmology-products/inq|ACT]] dataset modules describe the cache layouts:
 
-- [[causal-wall-spectral-theory/sources/data/planck-2018/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt|Planck baseline best-fit parameter vector]] supplies \(z_*\), \(r_*\), and \(100\theta_*\) for the stated likelihood combination.
-- [[causal-wall-spectral-theory/sources/data/planck-2018/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt|Planck baseline best-fit theory spectrum]] supplies the local TT, TE, and EE comparison curve.
-- [[causal-wall-spectral-theory/sources/data/planck-2018/COM_PowerSpect_CMB-TT-binned_R3.01.txt|Planck TT]], [[causal-wall-spectral-theory/sources/data/planck-2018/COM_PowerSpect_CMB-TE-binned_R3.02.txt|Planck TE]], and [[causal-wall-spectral-theory/sources/data/planck-2018/COM_PowerSpect_CMB-EE-binned_R3.02.txt|Planck EE]] are compact binned spectra for plotting and descriptive checks, not independent likelihoods.
-- [[causal-wall-spectral-theory/sources/data/act-dr6/best_fits_pact_lcdm/pact_lcdm_best_fits/cmb.dat|ACT DR6 joint P-ACT best-fit CMB spectrum]] supplies a high-resolution TT/TE/EE peak sequence for arithmetic receipts.
-- [[causal-wall-spectral-theory/sources/data/act-dr6/dr6_data_cmbonly/v1.0/dr6_data_cmbonly.fits|ACT DR6 foreground-marginalized CMB-only SACC product]] is the compact likelihood input, not a causal-grain fit.
+- [Planck baseline best-fit parameter vector](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt) supplies \(z_*\), \(r_*\), and \(100\theta_*\) for the stated likelihood combination.
+- [Planck baseline best-fit theory spectrum](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt) supplies the local TT, TE, and EE comparison curve.
+- [Planck TT](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TT-binned_R3.01.txt), [Planck TE](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TE-binned_R3.02.txt), and [Planck EE](https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-EE-binned_R3.02.txt) are compact binned spectra for plotting and descriptive checks, not independent likelihoods.
+- [ACT DR6 joint P-ACT best-fit CMB spectrum (`pact_lcdm_best_fits/cmb.dat` in the archive)](https://lambda.gsfc.nasa.gov/data/act/pspipe/best_fits/act_dr6.02_best_fits_pact_lcdm.tar.gz) supplies a high-resolution TT/TE/EE peak sequence for arithmetic receipts.
+- [ACT DR6 foreground-marginalized CMB-only SACC product (`v1.0/dr6_data_cmbonly.fits` in the archive)](https://lambda.gsfc.nasa.gov/data/act/pspipe/sacc_files/dr6_data_cmbonly.tar.gz) is the compact likelihood input, not a causal-grain fit.
 
 The Planck and ACT best-fit curves are model-conditioned products. Peak locations extracted from them are useful targets and regression checks; they are not raw, theory-free observables.
 

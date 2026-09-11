@@ -111,7 +111,7 @@ The finite input must contain every actual multiplication path that can contribu
 
 For the Abelian corner, two insertions of each nearest-neighbor seam can visit only the origin, four neighbors and four diagonal neighbors on a closed walk. Excursions to a coordinate of magnitude two cannot return while still inserting the other seam twice. Its nine-state calculation is therefore exact for the complete-sector derivative. CJ's non-Abelian finite closure follows the same criterion, while retaining all allowed spin recouplings and intertwiner phases.
 
-The [executable coefficient receipt](receipts/quartic_seam_eigenvalue_receipt.py) uses rational arithmetic in a diagonal spectral basis. An orthogonal unnormalized basis is permitted when its coordinate functional and multiplication matrices are transformed together. This removes the square root from AP's two channel weights. For the Abelian check the move amplitude is first \(1/2\), then both seam parameters are rescaled to restore \(1/\sqrt2\); a \((2,2)\) coefficient gains a factor four.
+The [[general-causal-action/receipts/quartic_seam_eigenvalue_receipt.py|executable coefficient receipt]] uses rational arithmetic in a diagonal spectral basis. An orthogonal unnormalized basis is permitted when its coordinate functional and multiplication matrices are transformed together. This removes the square root from AP's two channel weights. For the Abelian check the move amplitude is first \(1/2\), then both seam parameters are rescaled to restore \(1/\sqrt2\); a \((2,2)\) coefficient gains a factor four.
 
 The executed checks give:
 

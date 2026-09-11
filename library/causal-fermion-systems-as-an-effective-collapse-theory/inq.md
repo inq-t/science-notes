@@ -3,6 +3,8 @@ inq.module: causal-fermion-systems-as-an-effective-collapse-theory
 inq.include:
   - "./"
 keywords: [causal-fermion-systems, collapse, Born-rule, stochastic-dynamics, causal-action]
+inq.ambient:
+  - "**"
 ---
 # Causal Fermion Systems as an Effective Collapse Theory
 

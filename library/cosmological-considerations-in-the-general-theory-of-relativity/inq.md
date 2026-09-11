@@ -1,3 +1,8 @@
+---
+inq.module: cosmological-considerations-in-the-general-theory-of-relativity
+inq.include:
+  - "./"
+---
 # Cosmological Considerations in the General Theory of Relativity
 
 Einstein examines the boundary conditions needed to apply gravitation theory to the universe as a whole. After discussing a modification of the Newtonian potential equation, he considers a spatially closed universe with approximately uniform matter at rest. Adding a constant multiple of the metric to the relativistic field equations permits this cosmological model. The resulting equations relate the new constant to the mean matter density, spatial curvature radius, volume and total mass.

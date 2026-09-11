@@ -3,6 +3,8 @@ inq.module: emergence-and-expansion-of-cosmic-space
 inq.include:
   - "./"
 keywords: [holographic-equipartition, emergent-space, cosmic-expansion, horizon-thermodynamics]
+inq.ambient:
+  - "**"
 ---
 # Emergence and Expansion of Cosmic Space as due to the Quest for Holographic Equipartition
 

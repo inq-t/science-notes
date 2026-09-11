@@ -3,6 +3,8 @@ inq.module: causal-fermion-systems-spacetime-as-a-web-of-correlations
 inq.include:
   - "./"
 keywords: [causal-fermion-systems, correlations, relational-ontology, emergent-spacetime]
+inq.ambient:
+  - "**"
 ---
 # Causal Fermion Systems: Spacetime as the web of correlations of a many-body quantum system
 

@@ -1,3 +1,8 @@
+---
+inq.module: phase-diagrams-of-lattice-gauge-theories-with-higgs-fields
+inq.include:
+  - "./"
+---
 # Phase Diagrams of Lattice Gauge Theories with Higgs Fields
 
 Eduardo Fradkin and Stephen H. Shenker study lattice gauge theories with fixed-length scalar fields. For fundamental Higgs representations they find a smooth connection between Higgs and confining regimes, while other representations can admit a separating phase boundary. They also discuss a Coulomb regime with massless gauge excitations for continuous groups and finite-energy charged states.

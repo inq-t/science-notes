@@ -1,3 +1,8 @@
+---
+inq.module: nist-dlmf-classical-rodrigues-formulas
+inq.include:
+  - "./"
+---
 # NIST DLMF: Classical Rodrigues Formulas
 
 Section 18.5 of the NIST Digital Library of Mathematical Functions records explicit representations and Rodrigues formulas for classical orthogonal polynomials. Table 18.5.1 specifies the weights and normalization constants for Jacobi, Gegenbauer, Chebyshev, Laguerre and Hermite polynomials.

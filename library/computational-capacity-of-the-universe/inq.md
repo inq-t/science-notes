@@ -3,6 +3,8 @@ inq.module: computational-capacity-of-the-universe
 inq.include:
   - "./"
 keywords: [computation, information-bounds, cosmology, quantum-operations, entropy]
+inq.ambient:
+  - "**"
 ---
 # Computational capacity of the universe
 

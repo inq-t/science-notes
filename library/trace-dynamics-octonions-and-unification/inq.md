@@ -3,6 +3,8 @@ inq.module: trace-dynamics-octonions-and-unification
 inq.include:
   - "./"
 keywords: [trace-dynamics, octonions, exceptional-groups, quantum-foundations, unification]
+inq.ambient:
+  - "**"
 ---
 # Trace dynamics, octonions, and unification: An $E_8 \times E_8$ theory of unification
 

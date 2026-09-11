@@ -3,6 +3,8 @@ inq.module: quantum-darwinism
 inq.include:
   - "./"
 keywords: [quantum-Darwinism, records, decoherence, measurement, redundancy]
+inq.ambient:
+  - "**"
 ---
 # Quantum Darwinism
 

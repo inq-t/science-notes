@@ -2,6 +2,7 @@
 inq.module: "temporal-column-response"
 inq.include:
   - "**/*.md"
+inq.ambient:
   - "**/*.py"
 ---
 # Temporal Column Response

@@ -103,7 +103,7 @@ Checking these two exact conditions on all thirteen squared-frequency classes, a
 \]
 up to exchange of the first two entries.
 
-The executable proof receipt [five_by_five_odd_resonance_receipt.py](receipts/five_by_five_odd_resonance_receipt.py) uses rational arithmetic in \(\mathbb Q(\sqrt3)\). It checks the full \(25\times25\) identity (RF2), the selected modes' normalization and kinetic eigenvalues, every entry of the table, every cancellation (RF6), and the exhaustive test (RF7). The sign test compares rational squares; it uses no floating-point frequency tolerance.
+The executable proof receipt [[general-causal-action/receipts/five_by_five_odd_resonance_receipt.py|five_by_five_odd_resonance_receipt.py]] uses rational arithmetic in \(\mathbb Q(\sqrt3)\). It checks the full \(25\times25\) identity (RF2), the selected modes' normalization and kinetic eigenvalues, every entry of the table, every cancellation (RF6), and the exhaustive test (RF7). The sign test compares rational squares; it uses no floating-point frequency tolerance.
 
 A cubic ladder monomial can have zero frequency difference only through such a positive-frequency triangle; terms with a single net quantum cannot do so. The repeated-mode angular terms also cause no untested resonance. Thus the actual first odd jet has zero projection onto every resonant cubic ladder channel at this fixed size. The off-resonant terms admit a finite polynomial normal form by division by their nonzero frequency differences.
 

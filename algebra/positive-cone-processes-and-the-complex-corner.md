@@ -2,7 +2,7 @@
 
 A selected complex rank-two Jordan corner supplies a Lorentz cone, while first and second derivatives of its logarithmic determinant supply the scale differential and positive response metric together. Exceptional descent variance gives an actual positive input to that cone and therefore forces the proposed causal bound. This is an exact finite construction; physical context selection, spacetime gluing, dynamics and the continuum Yang–Mills gap remain open.
 
-The preserved [associative-descent packet](../inbox/causal-grain-cmb-spectroscopy/octonionic-associative-descent.md) and [causal order before clock time](../inbox/causal-grain-cmb-spectroscopy/causal-order-before-clock-time.md) contain the original corner/cone clue. This note lifts its reusable mathematics and adds the response and process comparisons without changing those historical sources.
+The preserved [[inbox/causal-grain-cmb-spectroscopy/octonionic-associative-descent|associative-descent packet]] and [[inbox/causal-grain-cmb-spectroscopy/causal-order-before-clock-time|causal order before clock time]] contain the original corner/cone clue. This note lifts its reusable mathematics and adds the response and process comparisons without changing those historical sources.
 
 ## The corner belongs to the selected exceptional flag
 

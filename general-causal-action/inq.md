@@ -2,8 +2,13 @@
 inq.module: general-causal-action
 inq.include:
   - './'
+inq.exclude:
+  - './junk-drawer/'
+  - './research/'
 inq.ambient:
   - 'receipts/**'
+  - 'junk-drawer/**'
+  - 'research/**'
 keywords: [action, preparation, temporal-sewing, joint-source, Yang-Mills, rigidity]
 ---
 # General Causal Action

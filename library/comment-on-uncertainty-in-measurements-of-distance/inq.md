@@ -3,6 +3,8 @@ inq.module: comment-on-uncertainty-in-measurements-of-distance
 inq.include:
   - "./"
 keywords: [distance-measurement, holography, spacetime-foam, quantum-gravity, operational-bounds]
+inq.ambient:
+  - "**"
 ---
 # Comment on "Uncertainty in measurements of distance"
 

@@ -1,3 +1,8 @@
+---
+inq.module: induced-qcd-i-theory
+inq.include:
+  - "./"
+---
 # Induced QCD I: Theory
 
 Bastian B. Brandt, Robert Lohmayer and Tilo Wettig study an induced lattice discretization of SU(\(N_c\)) Yang–Mills theory based on auxiliary bosons. They extend a two-dimensional continuum-equivalence proof from U(\(N_c\)) to SU(\(N_c\)), refine bounds on the boson-flavor parameter, and calculate a perturbative matching to the ordinary lattice coupling. Their stated three- and four-dimensional equivalence remains a conjecture to be investigated numerically.

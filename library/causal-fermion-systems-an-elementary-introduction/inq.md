@@ -3,6 +3,8 @@ inq.module: causal-fermion-systems-an-elementary-introduction
 inq.include:
   - "./"
 keywords: [causal-fermion-systems, causal-action, emergent-spacetime, operator-geometry]
+inq.ambient:
+  - "**"
 ---
 # Causal Fermion Systems: An Elementary Introduction to Physical Ideas and Mathematical Concepts
 
